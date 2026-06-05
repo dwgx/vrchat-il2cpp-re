@@ -5,93 +5,91 @@
 
 namespace ThirdParty.Unity.UnityEngine.Audio
 {
-    public class AudioClipPlayable : ValueType
+    public class AudioClipPlayable
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE87BF3000
-        public void CreateHandle(){} // RVA: 0x7FFE87BF33A0
-        public void .ctor(){} // RVA: 0x7FFE87BF3520
-        public void GetHandle(){} // RVA: 0x7FFE84C3F960
-        public void op_Implicit(){} // RVA: 0x7FFE87BDCFD0
-        public void op_Explicit(){} // RVA: 0x7FFE87BF3610
-        public void Equals(){} // RVA: 0x7FFE87BF36A0
-        public void SetVolume(){} // RVA: 0x7FFE87BF3760
-        public void SetStereoPan(){} // RVA: 0x7FFE87BF3860
-        public void SetSpatialBlend(){} // RVA: 0x7FFE87BF3960
-        public void Seek(){} // RVA: 0x7FFE87BF3A60
-        public void SetVolumeInternal(){} // RVA: 0x7FFE87BF3C50
-        public void SetStereoPanInternal(){} // RVA: 0x7FFE87BF3CB0
-        public void SetSpatialBlendInternal(){} // RVA: 0x7FFE87BF3D10
-        public void SetStartDelayInternal(){} // RVA: 0x7FFE87BF3D70
-        public void SetPauseDelayInternal(){} // RVA: 0x7FFE87BF3DD0
-        public void InternalCreateAudioClipPlayable(){} // RVA: 0x7FFE87BF3E30
+        public void Create(){} // RVA: 0x7FFAF9B62020
+        public void CreateHandle(){} // RVA: 0x7FFAF9B623C0
+        public void .ctor(){} // RVA: 0x7FFAF9B62540
+        public void GetHandle(){} // RVA: 0x7FFAF6A77D30
+        public void op_Implicit(){} // RVA: 0x7FFAF9B4C110
+        public void op_Explicit(){} // RVA: 0x7FFAF9B62630
+        public void Equals(){} // RVA: 0x7FFAF9B626C0
+        public void SetVolume(){} // RVA: 0x7FFAF9B62780
+        public void SetStereoPan(){} // RVA: 0x7FFAF9B62880
+        public void SetSpatialBlend(){} // RVA: 0x7FFAF9B62980
+        public void Seek(){} // RVA: 0x7FFAF9B62A80
+        public void SetVolumeInternal(){} // RVA: 0x7FFAF9B62C70
+        public void SetStereoPanInternal(){} // RVA: 0x7FFAF9B62CD0
+        public void SetSpatialBlendInternal(){} // RVA: 0x7FFAF9B62D30
+        public void SetStartDelayInternal(){} // RVA: 0x7FFAF9B62D90
+        public void SetPauseDelayInternal(){} // RVA: 0x7FFAF9B62DF0
+        public void InternalCreateAudioClipPlayable(){} // RVA: 0x7FFAF9B62E50
     }
 
-    public class AudioMixer : Object
+    public class AudioMixer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87BF3EB0
-        public void TransitionToSnapshot(){} // RVA: 0x7FFE87BF3F00
-        public void TransitionToSnapshotInternal(){} // RVA: 0x7FFE87BF4300
-        public void SetFloat(){} // RVA: 0x7FFE87BF4370
-        public void GetFloat(){} // RVA: 0x7FFE87BF43E0
+        public void .ctor(){} // RVA: 0x7FFAF9B62ED0
+        public void TransitionToSnapshot(){} // RVA: 0x7FFAF9B62F20
+        public void TransitionToSnapshotInternal(){} // RVA: 0x7FFAF9B63320
+        public void SetFloat(){} // RVA: 0x7FFAF9B63390
+        public void GetFloat(){} // RVA: 0x7FFAF9B63400
     }
 
-    public class AudioMixerGroup : Object
+    public class AudioMixerGroup
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87BF4450
+        public void .ctor(){} // RVA: 0x7FFAF9B63470
     }
 
-    public class AudioMixerPlayable : ValueType
+    public class AudioMixerPlayable
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE87BF44A0
-        public void CreateHandle(){} // RVA: 0x7FFE87BF4510
-        public void .ctor(){} // RVA: 0x7FFE87BF4720
-        public void GetHandle(){} // RVA: 0x7FFE84C3F960
-        public void op_Implicit(){} // RVA: 0x7FFE87BDCFD0
-        public void Equals(){} // RVA: 0x7FFE87BF4810
-        public void CreateAudioMixerPlayableInternal(){} // RVA: 0x7FFE87BF48D0
+        public void Create(){} // RVA: 0x7FFAF9B634C0
+        public void CreateHandle(){} // RVA: 0x7FFAF9B63530
+        public void .ctor(){} // RVA: 0x7FFAF9B63740
+        public void GetHandle(){} // RVA: 0x7FFAF6A77D30
+        public void op_Implicit(){} // RVA: 0x7FFAF9B4C110
+        public void Equals(){} // RVA: 0x7FFAF9B63830
+        public void CreateAudioMixerPlayableInternal(){} // RVA: 0x7FFAF9B638F0
     }
 
-    public class AudioMixerSnapshot : Object
+    public class AudioMixerSnapshot
     {
         // ── Methods ──
-        public void get_audioMixer(){} // RVA: 0x7FFE87BF4940
-        public void TransitionTo(){} // RVA: 0x7FFE87BF4990
+        public void get_audioMixer(){} // RVA: 0x7FFAF9B63960
+        public void TransitionTo(){} // RVA: 0x7FFAF9B639B0
     }
 
-    public class AudioPlayableBinding : Object
+    public class AudioPlayableBinding
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE87BF4A10
-        public void CreateAudioOutput(){} // RVA: 0x7FFE87BF4BA0
+        public void Create(){} // RVA: 0x7FFAF9B63A30
+        public void CreateAudioOutput(){} // RVA: 0x7FFAF9B63BC0
     }
 
-    public class AudioPlayableGraphExtensions : Object
+    public class AudioPlayableGraphExtensions
     {
         // ── Methods ──
-        public void InternalCreateAudioOutput(){} // RVA: 0x7FFE87BF4D50
+        public void InternalCreateAudioOutput(){} // RVA: 0x7FFAF9B63D70
     }
 
-    public class AudioPlayableOutput : ValueType
+    public class AudioPlayableOutput
     {
-        public UnityEngine.Playables.PlayableOutputHandle m_Handle; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE87BF4DC0
-        public void .ctor(){} // RVA: 0x7FFE87BF4F80
-        public void get_Null(){} // RVA: 0x7FFE87BF5070
-        public void GetHandle(){} // RVA: 0x7FFE84C3F960
-        public void op_Implicit(){} // RVA: 0x7FFE87BDCFD0
-        public void op_Explicit(){} // RVA: 0x7FFE87BF5130
-        public void GetTarget(){} // RVA: 0x7FFE87BF51C0
-        public void SetTarget(){} // RVA: 0x7FFE87BF5210
-        public void SetEvaluateOnSeek(){} // RVA: 0x7FFE87BF5270
-        public void InternalGetTarget(){} // RVA: 0x7FFE87BF51C0
-        public void InternalSetTarget(){} // RVA: 0x7FFE87BF5210
-        public void InternalSetEvaluateOnSeek(){} // RVA: 0x7FFE87BF5270
+        public void Create(){} // RVA: 0x7FFAF9B63DE0
+        public void .ctor(){} // RVA: 0x7FFAF9B63FA0
+        public void get_Null(){} // RVA: 0x7FFAF9B64090
+        public void GetHandle(){} // RVA: 0x7FFAF6A77D30
+        public void op_Implicit(){} // RVA: 0x7FFAF9B4C110
+        public void op_Explicit(){} // RVA: 0x7FFAF9B64150
+        public void GetTarget(){} // RVA: 0x7FFAF9B641E0
+        public void SetTarget(){} // RVA: 0x7FFAF9B64230
+        public void SetEvaluateOnSeek(){} // RVA: 0x7FFAF9B64290
+        public void InternalGetTarget(){} // RVA: 0x7FFAF9B641E0
+        public void InternalSetTarget(){} // RVA: 0x7FFAF9B64230
+        public void InternalSetEvaluateOnSeek(){} // RVA: 0x7FFAF9B64290
     }
 
 }

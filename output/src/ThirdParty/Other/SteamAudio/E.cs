@@ -5,20 +5,20 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class EmbreeDevice : Object
+    public class EmbreeDevice
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB3C90 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFE86FB3D30
-        public void Release(){} // RVA: 0x7FFE86FB3D70
-        public void Get(){} // RVA: 0x7FFE81116380
+        public void .ctor(){} // RVA: 0x7FFAF8F24BC0 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFAF8F24C60
+        public void Release(){} // RVA: 0x7FFAF8F24CA0
+        public void Get(){} // RVA: 0x7FFAF2DA8380
     }
 
-    public class EmbreeDeviceSettings : ValueType
+    public class EmbreeDeviceSettings
     {
     }
 
-    public class EnergyFieldSettings : ValueType
+    public class EnergyFieldSettings
     {
     }
 

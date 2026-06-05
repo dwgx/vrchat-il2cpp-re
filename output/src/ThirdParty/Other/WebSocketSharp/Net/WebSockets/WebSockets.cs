@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.WebSocketSharp.Net.WebSockets
 {
-    public class WebSocketContext : Object
+    public class WebSocketContext
     {
     }
 

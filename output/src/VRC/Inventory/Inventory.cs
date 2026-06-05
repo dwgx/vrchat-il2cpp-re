@@ -5,10 +5,10 @@
 
 namespace VRC.Inventory
 {
-    public class InventoryEffectDescription : InventoryEffectDescription
+    public class InventoryEffectDescription
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81BF25F0
+        public void .ctor(){} // RVA: 0x7FFAF3943CD0
     }
 
 }

@@ -5,46 +5,46 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class DeviationCallback : MulticastDelegate
+    public class DeviationCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB9F40
-        public void Invoke(){} // RVA: 0x7FFE8401E750
-        public void BeginInvoke(){} // RVA: 0x7FFE86FBA0E0
-        public void EndInvoke(){} // RVA: 0x7FFE82268F40
+        public void .ctor(){} // RVA: 0x7FFAF8F2AE70
+        public void Invoke(){} // RVA: 0x7FFAF8F2AF40
+        public void BeginInvoke(){} // RVA: 0x7FFAF8F2B030
+        public void EndInvoke(){} // RVA: 0x7FFAF3FA6C90
     }
 
-    public class DeviationModel : ValueType
+    public class DeviationModel
     {
     }
 
-    public class DirectEffectParams : ValueType
+    public class DirectEffectParams
     {
     }
 
-    public class Directivity : ValueType
+    public class Directivity
     {
     }
 
-    public class DirectivityCallback : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FBA1B0
-        public void Invoke(){} // RVA: 0x7FFE86FBA280
-        public void BeginInvoke(){} // RVA: 0x7FFE86FBA2B0
-        public void EndInvoke(){} // RVA: 0x7FFE82268F40
-    }
-
-    public class DistanceAttenuationCallback : MulticastDelegate
+    public class DirectivityCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB9DC0
-        public void Invoke(){} // RVA: 0x7FFE81257370
-        public void BeginInvoke(){} // RVA: 0x7FFE86FB9E90
-        public void EndInvoke(){} // RVA: 0x7FFE82268F40
+        public void .ctor(){} // RVA: 0x7FFAF8F2B100
+        public void Invoke(){} // RVA: 0x7FFAF8F2B1D0
+        public void BeginInvoke(){} // RVA: 0x7FFAF8F2B200
+        public void EndInvoke(){} // RVA: 0x7FFAF3FA6C90
     }
 
-    public class DistanceAttenuationModel : ValueType
+    public class DistanceAttenuationCallback
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF8F2ACF0
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
+        public void BeginInvoke(){} // RVA: 0x7FFAF8F2ADC0
+        public void EndInvoke(){} // RVA: 0x7FFAF3FA6C90
+    }
+
+    public class DistanceAttenuationModel
     {
     }
 

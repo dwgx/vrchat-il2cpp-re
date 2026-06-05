@@ -1,0 +1,430 @@
+[
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_22FD",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Initialize",
+      "Initialize_720C5CE4FF5F",
+      "Start_2CDC00B14C42",
+      "Start_C9ED83B2DF2E",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_13F",
+      "m_D5D",
+      "m_B1A",
+      "m_481",
+      "m_37C",
+      "m_19B",
+      "m_4CB",
+      "m_C1C",
+      "m_971",
+      "m_30B",
+      "m_AD6",
+      "m_43D",
+      "m_AF9"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_FDB8_24B4",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "StopCoroutineFromEnumeratorManaged",
+      "StopCoroutineFromEnumeratorManaged_FB50BD9D85F1",
+      "StopCoroutineFromEnumeratorManaged_128BDF713EB0",
+      "StopCoroutineFromEnumeratorManaged_EC92DE2F2831",
+      "StopCoroutineFromEnumeratorManaged_8BB56243B778",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4A7",
+      "m_07F",
+      "m_D1F",
+      "m_537",
+      "m_352",
+      "m_C76",
+      "m_53C",
+      "m_4F1",
+      "m_C30",
+      "m_59A",
+      "m_08E",
+      "m_865"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_3606",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "OnEnable",
+      "Start",
+      "LateUpdate",
+      "FixedUpdate"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FC3",
+      "m_B42",
+      "m_5A3",
+      "m_B10",
+      "m_53C",
+      "m_7B5",
+      "m_717",
+      "m_CC6",
+      "m_FF6",
+      "m_3D5",
+      "m_AFF",
+      "m_8C7",
+      "m_2AB",
+      "m_8D1",
+      "m_4A1"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_9A52",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "Initialize",
+      "OnDisable",
+      "LateUpdate",
+      "FixedUpdate"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_897",
+      "m_162",
+      "m_831",
+      "m_72D",
+      "m_3E1",
+      "m_DE5",
+      "m_3E8",
+      "m_A14",
+      "m_2CD",
+      "m_A75",
+      "m_76C",
+      "m_C45",
+      "m_6A6",
+      "m_6A1",
+      "m_873"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_4BBB",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "OnDestroy",
+      "Start",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A79",
+      "m_462",
+      "m_56C",
+      "m_D00",
+      "m_908",
+      "m_D8B",
+      "m_F2A",
+      "m_D68",
+      "m_323",
+      "m_A66",
+      "m_73C",
+      "m_AEE",
+      "m_782",
+      "m_928"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_CDC4",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_43A",
+      "m_E3C",
+      "m_E45",
+      "m_BC6",
+      "m_F50",
+      "m_D1C",
+      "m_96F",
+      "m_E2F",
+      "m_E34",
+      "m_9D5",
+      "m_DBE",
+      "m_F6E",
+      "m_69F"
+    ]
+  },
+  {
+    "class": "PlayerModComponentHealthSibling_9E29",
+    "parent": "",
+    "readable_methods": [
+      "OnDisable",
+      "Start",
+      "OnDisable_1C28CFCE3074",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "Initialize",
+      "SetProperties",
+      "ResetHealthRPC_895EBA02F486",
+      "OnDisable_96EAD25C2F2E",
+      "Awake_0CE72569FA16"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D1A",
+      "m_B2E",
+      "m_BF7",
+      "m_D13",
+      "m_5B2",
+      "m_48B",
+      "m_21F",
+      "m_BE4",
+      "m_773"
+    ]
+  },
+  {
+    "class": "UIToggleExtendSibling_234D",
+    "parent": "",
+    "readable_methods": [
+      "OnDisable",
+      "OnPointerEnter",
+      "OnPointerExit",
+      "OnPointerDown",
+      "OnPointerUp",
+      "OnPointerClick",
+      "OnSelect",
+      "OnDeselect",
+      "Initialize",
+      "OnSubmit",
+      "OnCancel",
+      "OnMove",
+      "OnScroll",
+      "OnValueChanged",
+      "OnDestroy",
+      "OnEndEdit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B5E",
+      "m_E85",
+      "m_AE6",
+      "m_9FF"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_97B2",
+    "parent": "",
+    "readable_methods": [
+      "LateUpdate",
+      "OnDisable",
+      "Awake",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D68",
+      "m_167",
+      "m_431",
+      "m_BE1",
+      "m_C3A",
+      "m_BEA",
+      "m_755",
+      "m_6B3",
+      "m_156",
+      "m_F42",
+      "m_4A1",
+      "m_D54",
+      "m_38E",
+      "m_A0C",
+      "m_544"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_F46C",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F8B",
+      "m_8D3",
+      "m_159",
+      "m_870",
+      "m_521",
+      "m_EA8",
+      "m_FA0",
+      "m_0D5",
+      "m_2A2",
+      "m_C97",
+      "m_578",
+      "m_9CA",
+      "m_F68",
+      "m_6A7"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibSibling_5AAE",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "OnEnable_2B4F45D701AE",
+      ".ctor_F5D8351B397B",
+      "Initialize",
+      "OnEnable",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3D4",
+      "m_F73",
+      "m_C03",
+      "m_3E8",
+      "m_730",
+      "m_F72",
+      "m_160",
+      "m_160",
+      "m_21B",
+      "m_C97",
+      "m_889",
+      "m_C2F",
+      "m_EFB"
+    ]
+  },
+  {
+    "class": "OVRLipSyncSibling_3218",
+    "parent": "",
+    "readable_methods": [
+      "CancelInvoke_3C1A00D439FA",
+      "OnCollisionStay_852E3599EAE7",
+      "OnDestroy_6D5D2172EEFA",
+      "StartCoroutine_Auto",
+      ".cctor_25245ADEC3FD",
+      "Initialize",
+      "OnDisable",
+      "Internal_IsInvokingAll_15090AE6BB6C",
+      "OnCollisionStay_852E3599EAE7_A19D8EE4FC75",
+      "GetScriptClassName"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_852",
+      "m_852",
+      "m_BB3",
+      "m_BB3",
+      "m_88D",
+      "m_852",
+      "m_2D9",
+      "m_A9E",
+      "m_BD8"
+    ]
+  },
+  {
+    "class": "PointerSecondaryButtonPressQuickPress_B62F",
+    "parent": "",
+    "readable_methods": [
+      "OnPointerEnter",
+      "OnPointerExit",
+      "Initialize",
+      "OnPointerDown",
+      "OnPointerUp",
+      "OnPointerClick",
+      "OnDeselect",
+      "OnSubmit",
+      "OnCancel",
+      "OnDestroy",
+      "OnMove",
+      "OnScroll",
+      "OnValueChanged",
+      "OnEndEdit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_413",
+      "m_2F9",
+      "m_71F",
+      "m_C1E",
+      "m_27D"
+    ]
+  },
+  {
+    "class": "ComplexComponent_29A6SiblingSibling_3620",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Update",
+      "OnDestroy",
+      "OnDisable",
+      "FixedUpdate"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F15",
+      "m_746",
+      "m_455",
+      "m_B0C",
+      "m_B0A",
+      "m_A66",
+      "m_7BE",
+      "m_C11",
+      "m_98F",
+      "m_921",
+      "m_D8B",
+      "m_912",
+      "m_B88"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_12D7",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_752",
+      "m_3C1",
+      "m_AC8",
+      "m_CB7",
+      "m_ECC",
+      "m_E34",
+      "m_637",
+      "m_DBA",
+      "m_43A",
+      "m_BC6",
+      "m_041"
+    ]
+  }
+]

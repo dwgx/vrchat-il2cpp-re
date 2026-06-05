@@ -5,87 +5,71 @@
 
 namespace ThirdParty.DotNet.System.Data
 {
-    public class AggregateNode : ExpressionNode
+    public class AggregateNode
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE872528F0 | overloaded x2
-        public void Bind(){} // RVA: 0x7FFE87253050 | overloaded x2
-        public void Eval(){} // RVA: 0x7FFE87253580 | overloaded x3
-        public void IsConstant(){} // RVA: 0x7FFE810FB320
-        public void IsTableConstant(){} // RVA: 0x7FFE811E99D0
-        public void HasLocalAggregate(){} // RVA: 0x7FFE811E99D0
-        public void HasRemoteAggregate(){} // RVA: 0x7FFE87253620
-        public void DependsOn(){} // RVA: 0x7FFE87253630
-        public void Optimize(){} // RVA: 0x7FFE827C4A80
+        public void .ctor(){} // RVA: 0x7FFAF91C3A00 | overloaded x2
+        public void Bind(){} // RVA: 0x7FFAF91C4160 | overloaded x2
+        public void Eval(){} // RVA: 0x7FFAF91C4690 | overloaded x3
+        public void IsConstant(){} // RVA: 0x7FFAF2D8D320
+        public void IsTableConstant(){} // RVA: 0x7FFAF2E7B9D0
+        public void HasLocalAggregate(){} // RVA: 0x7FFAF2E7B9D0
+        public void HasRemoteAggregate(){} // RVA: 0x7FFAF32144F0
+        public void DependsOn(){} // RVA: 0x7FFAF91C4730
+        public void Optimize(){} // RVA: 0x7FFAF44EF520
     }
 
-    public class AutoIncrementBigInteger : AutoIncrementValue
+    public class AutoIncrementBigInteger
     {
-        public System.Numerics.BigInteger _current; // 0x18
-        public long _seed; // 0x28
-        public System.Numerics.BigInteger _step; // 0x30
-        public object field_3; // 0x34
-
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFE8720A560
-        public void set_Current(){} // RVA: 0x7FFE8720A5B0
-        public void get_DataType(){} // RVA: 0x7FFE8720A670
-        public void get_Seed(){} // RVA: 0x7FFE81129130
-        public void set_Seed(){} // RVA: 0x7FFE8720A720
-        public void get_Step(){} // RVA: 0x7FFE8720A900
-        public void set_Step(){} // RVA: 0x7FFE8720A970
-        public void MoveAfter(){} // RVA: 0x7FFE8720AC90
-        public void SetCurrent(){} // RVA: 0x7FFE8720AD70
-        public void SetCurrentAndIncrement(){} // RVA: 0x7FFE8720ADE0
-        public void BoundaryCheck(){} // RVA: 0x7FFE8720AF20
-        public void .ctor(){} // RVA: 0x7FFE8720B200
+        public void get_Current(){} // RVA: 0x7FFAF917B670
+        public void set_Current(){} // RVA: 0x7FFAF917B6C0
+        public void get_DataType(){} // RVA: 0x7FFAF917B780
+        public void get_Seed(){} // RVA: 0x7FFAF2DBB130
+        public void set_Seed(){} // RVA: 0x7FFAF917B830
+        public void get_Step(){} // RVA: 0x7FFAF917BA10
+        public void set_Step(){} // RVA: 0x7FFAF917BA80
+        public void MoveAfter(){} // RVA: 0x7FFAF917BDA0
+        public void SetCurrent(){} // RVA: 0x7FFAF917BE80
+        public void SetCurrentAndIncrement(){} // RVA: 0x7FFAF917BEF0
+        public void BoundaryCheck(){} // RVA: 0x7FFAF917C030
+        public void .ctor(){} // RVA: 0x7FFAF917C310
     }
 
-    public class AutoIncrementInt64 : AutoIncrementValue
+    public class AutoIncrementInt64
     {
-        public long _current; // 0x18
-        public long _seed; // 0x20
-        public long _step; // 0x28
-        public object field_3; // 0x30
-
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFE87209E00
-        public void set_Current(){} // RVA: 0x7FFE87209E50
-        public void get_DataType(){} // RVA: 0x7FFE87209EC0
-        public void get_Seed(){} // RVA: 0x7FFE811290C0
-        public void set_Seed(){} // RVA: 0x7FFE87209F70
-        public void get_Step(){} // RVA: 0x7FFE81129130
-        public void set_Step(){} // RVA: 0x7FFE8720A010
-        public void MoveAfter(){} // RVA: 0x7FFE8720A0A0
-        public void SetCurrent(){} // RVA: 0x7FFE8720A0B0
-        public void SetCurrentAndIncrement(){} // RVA: 0x7FFE8720A120
-        public void BoundaryCheck(){} // RVA: 0x7FFE8720A320
-        public void .ctor(){} // RVA: 0x7FFE8720A550
+        public void get_Current(){} // RVA: 0x7FFAF917AF10
+        public void set_Current(){} // RVA: 0x7FFAF917AF60
+        public void get_DataType(){} // RVA: 0x7FFAF917AFD0
+        public void get_Seed(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_Seed(){} // RVA: 0x7FFAF917B080
+        public void get_Step(){} // RVA: 0x7FFAF2DBB130
+        public void set_Step(){} // RVA: 0x7FFAF917B120
+        public void MoveAfter(){} // RVA: 0x7FFAF917B1B0
+        public void SetCurrent(){} // RVA: 0x7FFAF917B1C0
+        public void SetCurrentAndIncrement(){} // RVA: 0x7FFAF917B230
+        public void BoundaryCheck(){} // RVA: 0x7FFAF917B430
+        public void .ctor(){} // RVA: 0x7FFAF917B660
     }
 
-    public class AutoIncrementValue : Object
+    public class AutoIncrementValue
     {
-        public bool _auto; // 0x10
-        public object field_1; // 0x2B
-        public object field_2; // 0x2C
-        public object field_3; // 0x2D
-        public object field_4; // 0x2E
-
         // ── Methods ──
-        public void get_Auto(){} // RVA: 0x7FFE811C55E0
-        public void set_Auto(){} // RVA: 0x7FFE811C55F0
-        public void get_Current(){} // RVA: 0x7FFE80E2E2E0
-        public void set_Current(){} // RVA: 0x7FFE80E460A0
-        public void get_Seed(){} // RVA: 0x7FFE80E2E2E0
-        public void set_Seed(){} // RVA: 0x7FFE80E46250
-        public void get_Step(){} // RVA: 0x7FFE80E2E2E0
-        public void set_Step(){} // RVA: 0x7FFE80E46250
-        public void get_DataType(){} // RVA: 0x7FFE80E2E2E0
-        public void SetCurrent(){} // RVA: 0x7FFE80E4F230
-        public void SetCurrentAndIncrement(){} // RVA: 0x7FFE80E460A0
-        public void MoveAfter(){} // RVA: 0x7FFE80E45FE0
-        public void Clone(){} // RVA: 0x7FFE87209CC0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Auto(){} // RVA: 0x7FFAF2E575E0
+        public void set_Auto(){} // RVA: 0x7FFAF2E575F0
+        public void get_Current(){} // RVA: 0x7FFAF2ABCD60
+        public void set_Current(){} // RVA: 0x7FFAF2AD4B10
+        public void get_Seed(){} // RVA: 0x7FFAF2ABCD60
+        public void set_Seed(){} // RVA: 0x7FFAF2AD4CC0
+        public void get_Step(){} // RVA: 0x7FFAF2ABCD60
+        public void set_Step(){} // RVA: 0x7FFAF2AD4CC0
+        public void get_DataType(){} // RVA: 0x7FFAF2ABCD60
+        public void SetCurrent(){} // RVA: 0x7FFAF2ADDC60
+        public void SetCurrentAndIncrement(){} // RVA: 0x7FFAF2AD4B10
+        public void MoveAfter(){} // RVA: 0x7FFAF2AD4A50
+        public void Clone(){} // RVA: 0x7FFAF917ADD0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

@@ -5,34 +5,34 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class RejoinDialogResult : Object
+    public class RejoinDialogResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C31B90
+        public void .ctor(){} // RVA: 0x7FFAF8BA0DC0
     }
 
-    public class Room : Object
+    public class Room
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C31C60
+        public void .ctor(){} // RVA: 0x7FFAF8BA0E90
     }
 
-    public class RoomInviteNotification : Object
+    public class RoomInviteNotification
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C32E70
+        public void .ctor(){} // RVA: 0x7FFAF8BA20A0
     }
 
-    public class RoomInviteNotificationList : DeserializableList`1
+    public class RoomInviteNotificationList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C330A0
+        public void .ctor(){} // RVA: 0x7FFAF8BA22D0
     }
 
-    public class RoomList : DeserializableList`1
+    public class RoomList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C32A80
+        public void .ctor(){} // RVA: 0x7FFAF8BA1CB0
     }
 
 }

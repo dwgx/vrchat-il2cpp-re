@@ -5,74 +5,74 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Encoders
 {
-    public class Base64 : Object
+    public class Base64
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void ToBase64String(){} // RVA: 0x7FFE8A145940 | overloaded x2
-        public void Encode(){} // RVA: 0x7FFE8A145AF0 | overloaded x4
-        public void Decode(){} // RVA: 0x7FFE8A145D70 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void ToBase64String(){} // RVA: 0x7FFAFC193560 | overloaded x2
+        public void Encode(){} // RVA: 0x7FFAFC193710 | overloaded x4
+        public void Decode(){} // RVA: 0x7FFAFC193990 | overloaded x3
     }
 
-    public class Base64Encoder : Object
+    public class Base64Encoder
     {
         // ── Methods ──
-        public void InitialiseDecodingTable(){} // RVA: 0x7FFE8A145DD0
-        public void .ctor(){} // RVA: 0x7FFE8A145EB0
-        public void Encode(){} // RVA: 0x7FFE8A145FE0
-        public void ignore(){} // RVA: 0x7FFE8A1463A0
-        public void Decode(){} // RVA: 0x7FFE8A1463C0
-        public void nextI(){} // RVA: 0x7FFE8A147060 | overloaded x2
-        public void DecodeString(){} // RVA: 0x7FFE8A146830
-        public void decodeLastBlock(){} // RVA: 0x7FFE8A146CD0
+        public void InitialiseDecodingTable(){} // RVA: 0x7FFAFC1939F0
+        public void .ctor(){} // RVA: 0x7FFAFC193AD0
+        public void Encode(){} // RVA: 0x7FFAFC193C00
+        public void ignore(){} // RVA: 0x7FFAFC193FC0
+        public void Decode(){} // RVA: 0x7FFAFC193FE0
+        public void nextI(){} // RVA: 0x7FFAFC194C80 | overloaded x2
+        public void DecodeString(){} // RVA: 0x7FFAFC194450
+        public void decodeLastBlock(){} // RVA: 0x7FFAFC1948F0
     }
 
-    public class BufferedDecoder : Object
+    public class BufferedDecoder
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1470D0
-        public void ProcessByte(){} // RVA: 0x7FFE8A147270
-        public void ProcessBytes(){} // RVA: 0x7FFE8A147350
+        public void .ctor(){} // RVA: 0x7FFAFC194CF0
+        public void ProcessByte(){} // RVA: 0x7FFAFC194E90
+        public void ProcessBytes(){} // RVA: 0x7FFAFC194F70
     }
 
-    public class BufferedEncoder : Object
+    public class BufferedEncoder
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A147540
-        public void ProcessByte(){} // RVA: 0x7FFE8A1476E0
-        public void ProcessBytes(){} // RVA: 0x7FFE8A1477C0
+        public void .ctor(){} // RVA: 0x7FFAFC195160
+        public void ProcessByte(){} // RVA: 0x7FFAFC195300
+        public void ProcessBytes(){} // RVA: 0x7FFAFC1953E0
     }
 
-    public class Hex : Object
+    public class Hex
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void ToHexString(){} // RVA: 0x7FFE8A147A10 | overloaded x2
-        public void Encode(){} // RVA: 0x7FFE8A147CC0 | overloaded x4
-        public void Decode(){} // RVA: 0x7FFE8A147F80 | overloaded x3
-        public void .cctor(){} // RVA: 0x7FFE8A148010
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void ToHexString(){} // RVA: 0x7FFAFC195630 | overloaded x2
+        public void Encode(){} // RVA: 0x7FFAFC1958E0 | overloaded x4
+        public void Decode(){} // RVA: 0x7FFAFC195BA0 | overloaded x3
+        public void .cctor(){} // RVA: 0x7FFAFC195C30
     }
 
-    public class HexEncoder : Object
+    public class HexEncoder : InitialiseDecodingTable
     {
         // ── Methods ──
-        public void InitialiseDecodingTable(){} // RVA: 0x7FFE8A1481F0
-        public void .ctor(){} // RVA: 0x7FFE8A148390
-        public void Encode(){} // RVA: 0x7FFE8A1484C0
-        public void Ignore(){} // RVA: 0x7FFE8A1485C0
-        public void Decode(){} // RVA: 0x7FFE8A1485E0
-        public void DecodeString(){} // RVA: 0x7FFE8A1487D0
+        public void InitialiseDecodingTable(){} // RVA: 0x7FFAFC195E10
+        public void .ctor(){} // RVA: 0x7FFAFC195FB0
+        public void Encode(){} // RVA: 0x7FFAFC1960E0
+        public void Ignore(){} // RVA: 0x7FFAFC1961E0
+        public void Decode(){} // RVA: 0x7FFAFC196200
+        public void DecodeString(){} // RVA: 0x7FFAFC1963F0
     }
 
-    public class HexTranslator : Object
+    public class HexTranslator : GetEncodedBlockSize
     {
         // ── Methods ──
-        public void GetEncodedBlockSize(){} // RVA: 0x7FFE81200CB0
-        public void Encode(){} // RVA: 0x7FFE8A148A20
-        public void GetDecodedBlockSize(){} // RVA: 0x7FFE811EDAF0
-        public void Decode(){} // RVA: 0x7FFE8A148B70
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE8A148C50
+        public void GetEncodedBlockSize(){} // RVA: 0x7FFAF2E92CB0
+        public void Encode(){} // RVA: 0x7FFAFC196640
+        public void GetDecodedBlockSize(){} // RVA: 0x7FFAF2E7FAF0
+        public void Decode(){} // RVA: 0x7FFAFC196790
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFC196870
     }
 
     public class IEncoder
@@ -80,31 +80,31 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
         // ── Methods ──
         public void Encode(){}
         public void Decode(){}
-        public void DecodeString(){} // RVA: 0x7FFE80E38BF0
+        public void DecodeString(){} // RVA: 0x7FFAF2AC7680
     }
 
     public class ITranslator
     {
         // ── Methods ──
-        public void GetEncodedBlockSize(){} // RVA: 0x7FFE80E2EDB0
+        public void GetEncodedBlockSize(){} // RVA: 0x7FFAF2ABD840
         public void Encode(){}
-        public void GetDecodedBlockSize(){} // RVA: 0x7FFE80E2EDB0
+        public void GetDecodedBlockSize(){} // RVA: 0x7FFAF2ABD840
         public void Decode(){}
     }
 
-    public class UrlBase64 : Object
+    public class UrlBase64
     {
         // ── Methods ──
-        public void Encode(){} // RVA: 0x7FFE8A148EC0 | overloaded x2
-        public void Decode(){} // RVA: 0x7FFE8A149330 | overloaded x4
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE8A1493C0
+        public void Encode(){} // RVA: 0x7FFAFC196AE0 | overloaded x2
+        public void Decode(){} // RVA: 0x7FFAFC196F50 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFC196FE0
     }
 
-    public class UrlBase64Encoder : Base64Encoder
+    public class UrlBase64Encoder
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A149480
+        public void .ctor(){} // RVA: 0x7FFAFC1970A0
     }
 
 }

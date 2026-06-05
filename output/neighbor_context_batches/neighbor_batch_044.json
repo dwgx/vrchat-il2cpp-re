@@ -1,0 +1,140 @@
+[
+  {
+    "class": "DrawGizmosBehaviour_809D",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnDrawGizmos",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2EF",
+      "m_D3C",
+      "m_FA0",
+      "m_9D4",
+      "m_251",
+      "m_EC9"
+    ],
+    "remaining_hash_methods": 6,
+    "total_methods": 24,
+    "signal_score": 105
+  },
+  {
+    "class": "TransformParentInvisibleComponent_427C",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnApplicationPause"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BF8",
+      "m_47E",
+      "m_89C",
+      "m_470",
+      "m_A1C",
+      "m_9F7"
+    ],
+    "remaining_hash_methods": 6,
+    "total_methods": 25,
+    "signal_score": 105
+  },
+  {
+    "class": "PlayerInvisibleOperationComponent_CD4B",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameInvisible",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnBecameVisible",
+      "OnCollisionEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_900",
+      "m_527",
+      "m_DA6",
+      "m_168",
+      "m_CAF"
+    ],
+    "remaining_hash_methods": 5,
+    "total_methods": 20,
+    "signal_score": 103
+  },
+  {
+    "class": "RoomTransformJoinedComponent_F739",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_432",
+      "m_AB6",
+      "m_822",
+      "m_864",
+      "m_3E6"
+    ],
+    "remaining_hash_methods": 5,
+    "total_methods": 22,
+    "signal_score": 103
+  },
+  {
+    "class": "RefreshAvatar_183A",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "RefreshAvatar",
+      "Awake",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F23",
+      "m_797",
+      "m_7CD",
+      "m_E65",
+      "m_8E3",
+      "m_FCB",
+      "m_667",
+      "m_7C0",
+      "m_E77",
+      "m_316",
+      "m_C93",
+      "m_F54"
+    ],
+    "remaining_hash_methods": 36,
+    "total_methods": 43,
+    "signal_score": 103
+  }
+]

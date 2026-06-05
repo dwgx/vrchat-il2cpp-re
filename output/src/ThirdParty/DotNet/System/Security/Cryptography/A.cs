@@ -5,188 +5,173 @@
 
 namespace ThirdParty.DotNet.System.Security.Cryptography
 {
-    public class Aes : SymmetricAlgorithm
+    public class Aes
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867B6880
-        public void Create(){} // RVA: 0x7FFE867B6B50 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE867B6C90
+        public void .ctor(){} // RVA: 0x7FFAF87259E0
+        public void Create(){} // RVA: 0x7FFAF8725CB0 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF8725DF0
     }
 
-    public class AesCcm : Object
+    public class AesCcm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867F0560 | overloaded x2
-        public void get_NonceByteSizes(){} // RVA: 0x7FFE867F05A0
-        public void get_TagByteSizes(){} // RVA: 0x7FFE867F05E0
-        public void Decrypt(){} // RVA: 0x7FFE867F0660 | overloaded x2
-        public void Dispose(){} // RVA: 0x7FFE810FB310
-        public void Encrypt(){} // RVA: 0x7FFE867F06E0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF875F660 | overloaded x2
+        public void get_NonceByteSizes(){} // RVA: 0x7FFAF875F6A0
+        public void get_TagByteSizes(){} // RVA: 0x7FFAF875F6E0
+        public void Decrypt(){} // RVA: 0x7FFAF875F760 | overloaded x2
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void Encrypt(){} // RVA: 0x7FFAF875F7E0 | overloaded x2
     }
 
-    public class AesCryptoServiceProvider : Aes
+    public class AesCryptoServiceProvider
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE870DF030
-        public void GenerateIV(){} // RVA: 0x7FFE870DF090
-        public void GenerateKey(){} // RVA: 0x7FFE870DF100
-        public void CreateDecryptor(){} // RVA: 0x7FFE867DF190 | overloaded x2
-        public void CreateEncryptor(){} // RVA: 0x7FFE867DF120 | overloaded x2
-        public void get_IV(){} // RVA: 0x7FFE867DE7B0
-        public void set_IV(){} // RVA: 0x7FFE870DF390
-        public void get_Key(){} // RVA: 0x7FFE867DEA10
-        public void set_Key(){} // RVA: 0x7FFE870DF3A0
-        public void get_KeySize(){} // RVA: 0x7FFE81D46090
-        public void set_KeySize(){} // RVA: 0x7FFE870DF3B0
-        public void get_FeedbackSize(){} // RVA: 0x7FFE8164B230
-        public void set_FeedbackSize(){} // RVA: 0x7FFE867DE720
-        public void get_Mode(){} // RVA: 0x7FFE816311C0
-        public void set_Mode(){} // RVA: 0x7FFE870DF3C0
-        public void get_Padding(){} // RVA: 0x7FFE8119C080
-        public void set_Padding(){} // RVA: 0x7FFE867DEED0
-        public void Dispose(){} // RVA: 0x7FFE870DF490
+        public void .ctor(){} // RVA: 0x7FFAF904FFD0
+        public void GenerateIV(){} // RVA: 0x7FFAF9050030
+        public void GenerateKey(){} // RVA: 0x7FFAF90500A0
+        public void CreateDecryptor(){} // RVA: 0x7FFAF874E2F0 | overloaded x2
+        public void CreateEncryptor(){} // RVA: 0x7FFAF874E280 | overloaded x2
+        public void get_IV(){} // RVA: 0x7FFAF874D910
+        public void set_IV(){} // RVA: 0x7FFAF9050330
+        public void get_Key(){} // RVA: 0x7FFAF874DB70
+        public void set_Key(){} // RVA: 0x7FFAF9050340
+        public void get_KeySize(){} // RVA: 0x7FFAF3A8C9F0
+        public void set_KeySize(){} // RVA: 0x7FFAF9050350
+        public void get_FeedbackSize(){} // RVA: 0x7FFAF335BED0
+        public void set_FeedbackSize(){} // RVA: 0x7FFAF874D880
+        public void get_Mode(){} // RVA: 0x7FFAF3341AF0
+        public void set_Mode(){} // RVA: 0x7FFAF9050360
+        public void get_Padding(){} // RVA: 0x7FFAF2E2E080
+        public void set_Padding(){} // RVA: 0x7FFAF874E030
+        public void Dispose(){} // RVA: 0x7FFAF9050430
     }
 
-    public class AesGcm : Object
+    public class AesGcm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867F0760 | overloaded x2
-        public void get_NonceByteSizes(){} // RVA: 0x7FFE867F07A0
-        public void get_TagByteSizes(){} // RVA: 0x7FFE867F07E0
-        public void Decrypt(){} // RVA: 0x7FFE867F0860 | overloaded x2
-        public void Dispose(){} // RVA: 0x7FFE810FB310
-        public void Encrypt(){} // RVA: 0x7FFE867F08E0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF875F860 | overloaded x2
+        public void get_NonceByteSizes(){} // RVA: 0x7FFAF875F8A0
+        public void get_TagByteSizes(){} // RVA: 0x7FFAF875F8E0
+        public void Decrypt(){} // RVA: 0x7FFAF875F960 | overloaded x2
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void Encrypt(){} // RVA: 0x7FFAF875F9E0 | overloaded x2
     }
 
-    public class AesManaged : Aes
+    public class AesManaged
     {
-        public System.Security.Cryptography.RijndaelManaged m_rijndael; // 0x48
-        public object field_1; // 0x1
-        public object field_2; // 0x2
-        public object field_3; // 0x3
-        public object field_4; // 0x4
-        public object field_5; // 0x5
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE870DE7C0
-        public void get_FeedbackSize(){} // RVA: 0x7FFE870DE940
-        public void set_FeedbackSize(){} // RVA: 0x7FFE870DE970
-        public void get_IV(){} // RVA: 0x7FFE870DE9A0
-        public void set_IV(){} // RVA: 0x7FFE870DE9D0
-        public void get_Key(){} // RVA: 0x7FFE870DEA00
-        public void set_Key(){} // RVA: 0x7FFE870DEA30
-        public void get_KeySize(){} // RVA: 0x7FFE870DEA60
-        public void set_KeySize(){} // RVA: 0x7FFE870DEA90
-        public void get_Mode(){} // RVA: 0x7FFE870DEAC0
-        public void set_Mode(){} // RVA: 0x7FFE870DEAF0
-        public void get_Padding(){} // RVA: 0x7FFE870DEBA0
-        public void set_Padding(){} // RVA: 0x7FFE870DEBD0
-        public void CreateDecryptor(){} // RVA: 0x7FFE870DEC30 | overloaded x2
-        public void CreateEncryptor(){} // RVA: 0x7FFE870DEDD0 | overloaded x2
-        public void Dispose(){} // RVA: 0x7FFE870DEF70
-        public void GenerateIV(){} // RVA: 0x7FFE86940B40
-        public void GenerateKey(){} // RVA: 0x7FFE86940B10
+        public void .ctor(){} // RVA: 0x7FFAF904F730
+        public void get_FeedbackSize(){} // RVA: 0x7FFAF904F8B0
+        public void set_FeedbackSize(){} // RVA: 0x7FFAF904F8E0
+        public void get_IV(){} // RVA: 0x7FFAF904F910
+        public void set_IV(){} // RVA: 0x7FFAF904F940
+        public void get_Key(){} // RVA: 0x7FFAF904F970
+        public void set_Key(){} // RVA: 0x7FFAF904F9A0
+        public void get_KeySize(){} // RVA: 0x7FFAF904F9D0
+        public void set_KeySize(){} // RVA: 0x7FFAF904FA00
+        public void get_Mode(){} // RVA: 0x7FFAF904FA30
+        public void set_Mode(){} // RVA: 0x7FFAF904FA60
+        public void get_Padding(){} // RVA: 0x7FFAF904FB10
+        public void set_Padding(){} // RVA: 0x7FFAF904FB40
+        public void CreateDecryptor(){} // RVA: 0x7FFAF904FBA0 | overloaded x2
+        public void CreateEncryptor(){} // RVA: 0x7FFAF904FD70 | overloaded x2
+        public void Dispose(){} // RVA: 0x7FFAF904FF10
+        public void GenerateIV(){} // RVA: 0x7FFAF88AFD00
+        public void GenerateKey(){} // RVA: 0x7FFAF88AFCD0
     }
 
-    public class AesTransform : SymmetricTransform
+    public class AesTransform
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE870DF4A0
-        public void ECB(){} // RVA: 0x7FFE870DFCC0
-        public void SubByte(){} // RVA: 0x7FFE870DFCF0
-        public void Encrypt128(){} // RVA: 0x7FFE870DFDE0
-        public void Decrypt128(){} // RVA: 0x7FFE870E2BB0
-        public void .cctor(){} // RVA: 0x7FFE870E59B0
+        public void .ctor(){} // RVA: 0x7FFAF9050440
+        public void ECB(){} // RVA: 0x7FFAF9050C60
+        public void SubByte(){} // RVA: 0x7FFAF9050C90
+        public void Encrypt128(){} // RVA: 0x7FFAF9050D80
+        public void Decrypt128(){} // RVA: 0x7FFAF9053B50
+        public void .cctor(){} // RVA: 0x7FFAF9056950
     }
 
-    public class AsnEncodedData : Object
+    public class AsnEncodedData
     {
-        public System.Security.Cryptography.Oid _oid; // 0x10
-        public byte[] _raw; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87773850 | overloaded x4
-        public void get_Oid(){} // RVA: 0x7FFE81116380
-        public void set_Oid(){} // RVA: 0x7FFE87773940
-        public void get_RawData(){} // RVA: 0x7FFE810FE7C0
-        public void set_RawData(){} // RVA: 0x7FFE87773A70
-        public void CopyFrom(){} // RVA: 0x7FFE87773BB0
-        public void Format(){} // RVA: 0x7FFE87773CA0
-        public void ToString(){} // RVA: 0x7FFE87773D40
-        public void Default(){} // RVA: 0x7FFE87774030
-        public void BasicConstraintsExtension(){} // RVA: 0x7FFE87774220
-        public void EnhancedKeyUsageExtension(){} // RVA: 0x7FFE877743F0
-        public void KeyUsageExtension(){} // RVA: 0x7FFE877745C0
-        public void SubjectKeyIdentifierExtension(){} // RVA: 0x7FFE87774790
-        public void SubjectAltName(){} // RVA: 0x7FFE87774960
-        public void NetscapeCertType(){} // RVA: 0x7FFE87774CA0
+        public void .ctor(){} // RVA: 0x7FFAF96E29A0 | overloaded x4
+        public void get_Oid(){} // RVA: 0x7FFAF2DA8380
+        public void set_Oid(){} // RVA: 0x7FFAF96E2A90
+        public void get_RawData(){} // RVA: 0x7FFAF2D907C0
+        public void set_RawData(){} // RVA: 0x7FFAF96E2BC0
+        public void CopyFrom(){} // RVA: 0x7FFAF96E2D00
+        public void Format(){} // RVA: 0x7FFAF96E2DF0
+        public void ToString(){} // RVA: 0x7FFAF96E2E90
+        public void Default(){} // RVA: 0x7FFAF96E3180
+        public void BasicConstraintsExtension(){} // RVA: 0x7FFAF96E3370
+        public void EnhancedKeyUsageExtension(){} // RVA: 0x7FFAF96E3540
+        public void KeyUsageExtension(){} // RVA: 0x7FFAF96E3710
+        public void SubjectKeyIdentifierExtension(){} // RVA: 0x7FFAF96E38E0
+        public void SubjectAltName(){} // RVA: 0x7FFAF96E3AB0
+        public void NetscapeCertType(){} // RVA: 0x7FFAF96E3DF0
     }
 
-    public class AsymmetricAlgorithm : Object
+    public class AsymmetricAlgorithm
     {
-        public int KeySizeValue; // 0x10
-        public System.Security.Cryptography.KeySizes[] LegalKeySizesValue; // 0x18
-        public object field_2; // 0x2E0
-        public object field_3; // 0x2E1
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Dispose(){} // RVA: 0x7FFE810FB310 | overloaded x2
-        public void Clear(){} // RVA: 0x7FFE867B6F20
-        public void get_KeySize(){} // RVA: 0x7FFE811485C0
-        public void set_KeySize(){} // RVA: 0x7FFE867B6F90
-        public void get_LegalKeySizes(){} // RVA: 0x7FFE867B70E0
-        public void get_SignatureAlgorithm(){} // RVA: 0x7FFE867B7160
-        public void get_KeyExchangeAlgorithm(){} // RVA: 0x7FFE867B71A0
-        public void Create(){} // RVA: 0x7FFE867B7240 | overloaded x2
-        public void FromXmlString(){} // RVA: 0x7FFE867B7320
-        public void ToXmlString(){} // RVA: 0x7FFE867B7360
-        public void ExportEncryptedPkcs8PrivateKey(){} // RVA: 0x7FFE867B73E0 | overloaded x2
-        public void ExportPkcs8PrivateKey(){} // RVA: 0x7FFE867B7420
-        public void ExportSubjectPublicKeyInfo(){} // RVA: 0x7FFE867B7460
-        public void ImportEncryptedPkcs8PrivateKey(){} // RVA: 0x7FFE867B74E0 | overloaded x2
-        public void ImportPkcs8PrivateKey(){} // RVA: 0x7FFE867B7520
-        public void ImportSubjectPublicKeyInfo(){} // RVA: 0x7FFE867B7560
-        public void TryExportEncryptedPkcs8PrivateKey(){} // RVA: 0x7FFE867B75E0 | overloaded x2
-        public void TryExportPkcs8PrivateKey(){} // RVA: 0x7FFE867B7620
-        public void TryExportSubjectPublicKeyInfo(){} // RVA: 0x7FFE867B7660
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
+        public void Clear(){} // RVA: 0x7FFAF8726080
+        public void get_KeySize(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_KeySize(){} // RVA: 0x7FFAF87260F0
+        public void get_LegalKeySizes(){} // RVA: 0x7FFAF8726240
+        public void get_SignatureAlgorithm(){} // RVA: 0x7FFAF87262C0
+        public void get_KeyExchangeAlgorithm(){} // RVA: 0x7FFAF8726300
+        public void Create(){} // RVA: 0x7FFAF87263A0 | overloaded x2
+        public void FromXmlString(){} // RVA: 0x7FFAF8726480
+        public void ToXmlString(){} // RVA: 0x7FFAF87264C0
+        public void ExportEncryptedPkcs8PrivateKey(){} // RVA: 0x7FFAF8726540 | overloaded x2
+        public void ExportPkcs8PrivateKey(){} // RVA: 0x7FFAF8726580
+        public void ExportSubjectPublicKeyInfo(){} // RVA: 0x7FFAF87265C0
+        public void ImportEncryptedPkcs8PrivateKey(){} // RVA: 0x7FFAF8726640 | overloaded x2
+        public void ImportPkcs8PrivateKey(){} // RVA: 0x7FFAF8726680
+        public void ImportSubjectPublicKeyInfo(){} // RVA: 0x7FFAF87266C0
+        public void TryExportEncryptedPkcs8PrivateKey(){} // RVA: 0x7FFAF8726740 | overloaded x2
+        public void TryExportPkcs8PrivateKey(){} // RVA: 0x7FFAF8726780
+        public void TryExportSubjectPublicKeyInfo(){} // RVA: 0x7FFAF87267C0
     }
 
-    public class AsymmetricKeyExchangeDeformatter : Object
+    public class AsymmetricKeyExchangeDeformatter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_Parameters(){} // RVA: 0x7FFE80E2E2E0
-        public void set_Parameters(){} // RVA: 0x7FFE80E460A0
-        public void SetKey(){} // RVA: 0x7FFE80E460A0
-        public void DecryptKeyExchange(){} // RVA: 0x7FFE80E2E390
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_Parameters(){} // RVA: 0x7FFAF2ABCD60
+        public void set_Parameters(){} // RVA: 0x7FFAF2AD4B10
+        public void SetKey(){} // RVA: 0x7FFAF2AD4B10
+        public void DecryptKeyExchange(){} // RVA: 0x7FFAF2ABCE10
     }
 
-    public class AsymmetricKeyExchangeFormatter : Object
+    public class AsymmetricKeyExchangeFormatter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_Parameters(){} // RVA: 0x7FFE80E2E2E0
-        public void SetKey(){} // RVA: 0x7FFE80E460A0
-        public void CreateKeyExchange(){} // RVA: 0x7FFE80E3FC10 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_Parameters(){} // RVA: 0x7FFAF2ABCD60
+        public void SetKey(){} // RVA: 0x7FFAF2AD4B10
+        public void CreateKeyExchange(){} // RVA: 0x7FFAF2ACE6A0 | overloaded x2
     }
 
-    public class AsymmetricSignatureDeformatter : Object
+    public class AsymmetricSignatureDeformatter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void SetKey(){} // RVA: 0x7FFE80E460A0
-        public void SetHashAlgorithm(){} // RVA: 0x7FFE80E460A0
-        public void VerifySignature(){} // RVA: 0x7FFE80E32650 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void SetKey(){} // RVA: 0x7FFAF2AD4B10
+        public void SetHashAlgorithm(){} // RVA: 0x7FFAF2AD4B10
+        public void VerifySignature(){} // RVA: 0x7FFAF2AC1120 | overloaded x2
     }
 
-    public class AsymmetricSignatureFormatter : Object
+    public class AsymmetricSignatureFormatter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void SetKey(){} // RVA: 0x7FFE80E460A0
-        public void SetHashAlgorithm(){} // RVA: 0x7FFE80E460A0
-        public void CreateSignature(){} // RVA: 0x7FFE80E2E390 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void SetKey(){} // RVA: 0x7FFAF2AD4B10
+        public void SetHashAlgorithm(){} // RVA: 0x7FFAF2AD4B10
+        public void CreateSignature(){} // RVA: 0x7FFAF2ABCE10 | overloaded x2
     }
 
 }

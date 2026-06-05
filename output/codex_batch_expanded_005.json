@@ -1,0 +1,201 @@
+[
+  {
+    "class": "LifecycleComponent_5FA7SiRelated_733F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnTriggerEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D2F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_D8AF",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F5D"
+    ]
+  },
+  {
+    "class": "GalleryPhotosView",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "get_MaxContentCount",
+      "set_MaxContentCount",
+      "set_ObservableList",
+      "AccessactiveSelf",
+      "PreparePhotoViewRendering",
+      "ProcessGalleryPhotoData"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C47",
+      "m_7C3"
+    ]
+  },
+  {
+    "class": "LookTargetController",
+    "parent": "",
+    "namespace": "RealisticEyeMovements",
+    "readable_methods": [
+      "set_ScaleMode",
+      "DoRange",
+      "Computevalue",
+      "OnApplicationQuit",
+      "OnCollisionEnter",
+      "GetScriptClassName"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_86D",
+      "m_F91"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_ECE9Sibling_16E6",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F65",
+      "m_770",
+      "m_0C8",
+      "m_5BC",
+      "m_B23",
+      "m_441",
+      "m_EF6",
+      "m_96E",
+      "m_9F9",
+      "m_752",
+      "m_1B7",
+      "m_665"
+    ]
+  },
+  {
+    "class": "UpdateComponent_7909SiblingSibling_C2AC",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameInvisible",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnCollisionEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A34"
+    ]
+  },
+  {
+    "class": "NetworkShouldBroadcastInstigator_5171",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Time",
+      "set_Serialize",
+      "set_Store"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_803",
+      "m_6E5",
+      "m_B15",
+      "m_48C",
+      "m_D83",
+      "m_F3B",
+      "m_64C",
+      "m_68A",
+      "m_A22",
+      "m_FEF",
+      "m_C24",
+      "m_69D"
+    ]
+  },
+  {
+    "class": "UserController",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "BackPressed",
+      "CreateInstance",
+      "CreateScriptableObject",
+      "CreateScriptableObjectInstanceFromType",
+      "GetGameObject",
+      "SetActive"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1D5"
+    ]
+  },
+  {
+    "class": "EffectmaterialForRenderingGetMaterial_5E1C_3793",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_fontWeight",
+      "set_materialForRendering",
+      "CalculateLayoutInputHorizontal",
+      "CalculateLayoutInputVertical",
+      "Rebuild",
+      "DelayedMaterialRebuild"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_643",
+      "m_549"
+    ]
+  },
+  {
+    "class": "Enumerator_0BDC",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "MoveNext",
+      "get_Current"
+    ],
+    "fields": [
+      "System.Collections.IEnumerator.Current"
+    ],
+    "hash_methods": [
+      "m_23C",
+      "m_045",
+      "m_550",
+      "m_4C2",
+      "m_772",
+      "m_3E4",
+      "m_DD8",
+      "m_61B",
+      "m_1F7",
+      "m_9DA",
+      "m_94B",
+      "m_B5C"
+    ]
+  }
+]

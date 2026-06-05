@@ -5,84 +5,71 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class CallInstruction : Instruction
+    public class CallInstruction
     {
         // ── Methods ──
-        public void get_ArgumentCount(){} // RVA: 0x7FFE80E2EDB0
-        public void get_InstructionName(){} // RVA: 0x7FFE8714D850
-        public void Create(){} // RVA: 0x7FFE8714D8F0 | overloaded x2
-        public void GetArrayAccessor(){} // RVA: 0x7FFE8714DB30
-        public void ArrayItemSetter1(){} // RVA: 0x7FFE8714E220
-        public void ArrayItemSetter2(){} // RVA: 0x7FFE8714E250
-        public void ArrayItemSetter3(){} // RVA: 0x7FFE8714E280
-        public void get_ConsumedStack(){} // RVA: 0x7FFE81980F70
-        public void TryGetLightLambdaTarget(){} // RVA: 0x7FFE8714E2C0
-        public void InterpretLambdaInvoke(){} // RVA: 0x7FFE8714E490
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_ArgumentCount(){} // RVA: 0x7FFAF2ABD840
+        public void get_InstructionName(){} // RVA: 0x7FFAF90BE980
+        public void Create(){} // RVA: 0x7FFAF90BEA20 | overloaded x2
+        public void GetArrayAccessor(){} // RVA: 0x7FFAF90BEC60
+        public void ArrayItemSetter1(){} // RVA: 0x7FFAF90BF350
+        public void ArrayItemSetter2(){} // RVA: 0x7FFAF90BF380
+        public void ArrayItemSetter3(){} // RVA: 0x7FFAF90BF3B0
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF369E7B0
+        public void TryGetLightLambdaTarget(){} // RVA: 0x7FFAF90BF3F0
+        public void InterpretLambdaInvoke(){} // RVA: 0x7FFAF90BF5C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class CastInstruction : Instruction
+    public class CastInstruction
     {
-        public System.Linq.Expressions.Interpreter.CastInstruction s_Boolean;
-        public System.Linq.Expressions.Interpreter.CastInstruction s_Byte; // 0x8
-        public System.Linq.Expressions.Interpreter.CastInstruction s_Char; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE87196E20
-        public void Create(){} // RVA: 0x7FFE87196E60
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF9107F30
+        public void Create(){} // RVA: 0x7FFAF9107F70
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class CastReferenceToEnumInstruction : CastInstruction
+    public class CastReferenceToEnumInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Run(){} // RVA: 0x7FFE87197D60
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Run(){} // RVA: 0x7FFAF9108E70
     }
 
-    public class CastToEnumInstruction : CastInstruction
+    public class CastToEnumInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Run(){} // RVA: 0x7FFE87197C50
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Run(){} // RVA: 0x7FFAF9108D60
     }
 
-    public class CoalescingBranchInstruction : OffsetInstruction
+    public class CoalescingBranchInstruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction[] s_cache;
-        public object field_1; // 0x29A
-        public object field_2; // 0x29B
-        public object field_3; // 0x29C
-
         // ── Methods ──
-        public void get_Cache(){} // RVA: 0x7FFE8714F9B0
-        public void get_InstructionName(){} // RVA: 0x7FFE8714FA90
-        public void get_ConsumedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void Run(){} // RVA: 0x7FFE8714FAD0
-        public void .ctor(){} // RVA: 0x7FFE8714F600
+        public void get_Cache(){} // RVA: 0x7FFAF90C0AE0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90C0BC0
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void Run(){} // RVA: 0x7FFAF90C0C00
+        public void .ctor(){} // RVA: 0x7FFAF90C0730
     }
 
-    public class ConvertHelper : Object
+    public class ConvertHelper
     {
         // ── Methods ──
-        public void ToInt32NoNull(){} // RVA: 0x7FFE8714D130
+        public void ToInt32NoNull(){} // RVA: 0x7FFAF90BE260
     }
 
-    public class CreateDelegateInstruction : Instruction
+    public class CreateDelegateInstruction
     {
-        public System.Linq.Expressions.Interpreter.LightDelegateCreator _creator; // 0x10
-        public object field_1; // 0x36F
-        public object field_2; // 0x370
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_ConsumedStack(){} // RVA: 0x7FFE871959A0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE87195A00
-        public void Run(){} // RVA: 0x7FFE87195A40
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF9106AB0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF9106B10
+        public void Run(){} // RVA: 0x7FFAF9106B50
     }
 
 }

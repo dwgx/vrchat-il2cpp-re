@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Unity.UnityEngine
 {
-    public class YieldInstruction : Object
+    public class YieldInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

@@ -5,12 +5,12 @@
 
 namespace ThirdParty.Other.Midi
 {
-    public class ParsedMidiFile : Object
+    public class ParsedMidiFile
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A456850 | overloaded x3
-        public void ParseMetaEvent(){} // RVA: 0x7FFE8A456BE0
-        public void ParseTrack(){} // RVA: 0x7FFE8A456E00
+        public void .ctor(){} // RVA: 0x7FFAFC4AAE20 | overloaded x3
+        public void ParseMetaEvent(){} // RVA: 0x7FFAFC4AB1B0
+        public void ParseTrack(){} // RVA: 0x7FFAFC4AB3D0
     }
 
 }

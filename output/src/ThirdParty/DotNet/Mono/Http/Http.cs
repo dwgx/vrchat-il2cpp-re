@@ -5,23 +5,21 @@
 
 namespace ThirdParty.DotNet.Mono.Http
 {
-    public class NtlmClient : Object
+    public class NtlmClient
     {
-        public System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Net.HttpWebRequest,Mono.Http.NtlmSession> cache;
-
         // ── Methods ──
-        public void Authenticate(){} // RVA: 0x7FFE871D5590
-        public void PreAuthenticate(){} // RVA: 0x7FFE813240E0
-        public void get_AuthenticationType(){} // RVA: 0x7FFE871D5A30
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE871D5A70
+        public void Authenticate(){} // RVA: 0x7FFAF91466A0
+        public void PreAuthenticate(){} // RVA: 0x7FFAF2FC9240
+        public void get_AuthenticationType(){} // RVA: 0x7FFAF9146B40
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF9146B80
     }
 
-    public class NtlmSession : Object
+    public class NtlmSession
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Authenticate(){} // RVA: 0x7FFE871D4DE0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Authenticate(){} // RVA: 0x7FFAF9145EF0
     }
 
 }

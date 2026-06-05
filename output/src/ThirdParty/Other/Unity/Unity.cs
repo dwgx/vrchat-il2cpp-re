@@ -1,14 +1,38 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity
-// Classes: 1
-// Methods: 1
+// Classes: 5
+// Methods: 5
 
 namespace ThirdParty.Other.Unity
 {
-    public class ThrowStub : ObjectDisposedException
+    public class ThrowStub
     {
         // ── Methods ──
-        public void ThrowNotSupportedException(){} // RVA: 0x7FFE869AE0F0
+        public void ThrowNotSupportedException(){} // RVA: 0x7FFAF891D2B0
+    }
+
+    public class ThrowStub
+    {
+        // ── Methods ──
+        public void ThrowNotSupportedException(){} // RVA: 0x7FFAF9685AA0
+    }
+
+    public class ThrowStub
+    {
+        // ── Methods ──
+        public void ThrowNotSupportedException(){} // RVA: 0x7FFAF9130970
+    }
+
+    public class ThrowStub
+    {
+        // ── Methods ──
+        public void ThrowNotSupportedException(){} // RVA: 0x7FFAF93C19A0
+    }
+
+    public class ThrowStub
+    {
+        // ── Methods ──
+        public void ThrowNotSupportedException(){} // RVA: 0x7FFAF904E180
     }
 
 }

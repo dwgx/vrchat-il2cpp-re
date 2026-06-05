@@ -1,0 +1,7 @@
+{
+ "VRCPlayerSiblingSibling_B5F1::m_06E": "CreateSpanFromArraySegment",
+ "VRCPlayerSiblingSibling_B5F1::m_1BD": "LastIndexOf",
+ "VRCPlayerSiblingSibling_B5F1::m_1C2": "AppendChars",
+ "VRCPlayerSiblingSibling_B5F1::m_21E": "CreateSpanFromArraySegment",
+ "VRCPlayerSiblingSibling_B5F1::m_296": "CreateSpanFromArraySegment"
+}

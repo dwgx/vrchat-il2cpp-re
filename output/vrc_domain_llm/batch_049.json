@@ -1,0 +1,100 @@
+[
+  {
+    "namespace": "",
+    "class": "RefreshAvatar_183A",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Awake",
+      "RefreshAvatar",
+      "OnDestroy",
+      "Initialize",
+      "OnDisable",
+      "OnEnable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F15",
+      "m_285",
+      "m_A09",
+      "m_472",
+      "m_4E3",
+      "m_3E7",
+      "m_335",
+      "m_211",
+      "m_0E4",
+      "m_68E",
+      "m_154"
+    ],
+    "all_method_count": 43,
+    "chunk_index": 1,
+    "chunk_count": 2
+  },
+  {
+    "namespace": "",
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_248C",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_29B",
+      "m_EA9",
+      "m_F2A",
+      "m_2B5",
+      "m_E7F",
+      "m_77C",
+      "m_1FD",
+      "m_682",
+      "m_5E1",
+      "m_7A0",
+      "m_756",
+      "m_30C",
+      "m_B31",
+      "m_B3D",
+      "m_49E",
+      "m_A0C",
+      "m_852",
+      "m_4E4",
+      "m_DF7",
+      "m_553",
+      "m_E60",
+      "m_555",
+      "m_FBA",
+      "m_0FF",
+      "m_529"
+    ],
+    "all_method_count": 39,
+    "chunk_index": 0,
+    "chunk_count": 2
+  },
+  {
+    "namespace": "",
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_248C",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C6A",
+      "m_06A",
+      "m_C42",
+      "m_CBA",
+      "m_EAD",
+      "m_19A",
+      "m_C15",
+      "m_547",
+      "m_F8D",
+      "m_DFC",
+      "m_150",
+      "m_875"
+    ],
+    "all_method_count": 39,
+    "chunk_index": 1,
+    "chunk_count": 2
+  }
+]

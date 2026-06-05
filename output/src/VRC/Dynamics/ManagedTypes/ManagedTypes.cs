@@ -5,143 +5,113 @@
 
 namespace VRC.Dynamics.ManagedTypes
 {
-    public class VRCAimConstraintBase : VRCWorldUpConstraintBase
+    public class VRCAimConstraintBase
     {
-        public bool AffectsRotationX; // 0x3A0
-        public bool AffectsRotationY; // 0x3A1
-        public bool AffectsRotationZ; // 0x3A2
-        public UnityEngine.Vector3 AimAxis; // 0x3A4
-
         // ── Methods ──
-        public void get_PositionMode(){} // RVA: 0x7FFE813240E0
-        public void get_RotationMode(){} // RVA: 0x7FFE81200CB0
-        public void get_ScaleMode(){} // RVA: 0x7FFE813240E0
-        public void get_UsesWorldUpTransform(){} // RVA: 0x7FFE88206FA0
-        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFE88206FC0
-        public void DetermineUpVector(){} // RVA: 0x7FFE882070E0
-        public void ForwardLookShouldApplyIdentity(){} // RVA: 0x7FFE88207910
-        public void ForwardLookHandleZeroUp(){} // RVA: 0x7FFE88207A20
-        public void ReOrientateForwardLook(){} // RVA: 0x7FFE88207B30
-        public void FromToRotation(){} // RVA: 0x7FFE88207FD0
-        public void AffectsAnyAxis(){} // RVA: 0x7FFE88208360
-        public void .ctor(){} // RVA: 0x7FFE88208380
-        public void <FromToRotation>g__Approximately|20_0(){} // RVA: 0x7FFE88208480
+        public void get_PositionMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_RotationMode(){} // RVA: 0x7FFAF2E92CB0
+        public void get_ScaleMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_UsesWorldUpTransform(){} // RVA: 0x7FFAFA179E80
+        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFAFA179EA0
+        public void DetermineUpVector(){} // RVA: 0x7FFAFA179FC0
+        public void ForwardLookShouldApplyIdentity(){} // RVA: 0x7FFAFA17A7F0
+        public void ForwardLookHandleZeroUp(){} // RVA: 0x7FFAFA17A900
+        public void ReOrientateForwardLook(){} // RVA: 0x7FFAFA17AA10
+        public void FromToRotation(){} // RVA: 0x7FFAFA17AEB0
+        public void AffectsAnyAxis(){} // RVA: 0x7FFAFA17B240
+        public void .ctor(){} // RVA: 0x7FFAFA17B260
+        public void <FromToRotation>g__Approximately|20_0(){} // RVA: 0x7FFAFA17B360
     }
 
-    public class VRCLookAtConstraintBase : VRCWorldUpConstraintBase
+    public class VRCLookAtConstraintBase
     {
-        public float Roll; // 0x3A0
-        public bool UseUpTransform; // 0x3A4
-        public object field_2; // 0x1BB0
-        public object field_3; // 0xB960
-
         // ── Methods ──
-        public void get_PositionMode(){} // RVA: 0x7FFE813240E0
-        public void get_RotationMode(){} // RVA: 0x7FFE817BF630
-        public void get_ScaleMode(){} // RVA: 0x7FFE813240E0
-        public void get_UsesWorldUpTransform(){} // RVA: 0x7FFE882084A0
-        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFE882084B0
-        public void DetermineUpVector(){} // RVA: 0x7FFE88208530
-        public void ForwardLookShouldApplyIdentity(){} // RVA: 0x7FFE88208B70
-        public void ForwardLookHandleZeroUp(){} // RVA: 0x7FFE88208BC0
-        public void ReOrientateForwardLook(){} // RVA: 0x7FFE88208C80
-        public void AffectsAnyAxis(){} // RVA: 0x7FFE811E0850
-        public void .ctor(){} // RVA: 0x7FFE88208E80
+        public void get_PositionMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_RotationMode(){} // RVA: 0x7FFAF34E08B0
+        public void get_ScaleMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_UsesWorldUpTransform(){} // RVA: 0x7FFAFA17B380
+        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFAFA17B390
+        public void DetermineUpVector(){} // RVA: 0x7FFAFA17B410
+        public void ForwardLookShouldApplyIdentity(){} // RVA: 0x7FFAFA17BA50
+        public void ForwardLookHandleZeroUp(){} // RVA: 0x7FFAFA17BAA0
+        public void ReOrientateForwardLook(){} // RVA: 0x7FFAFA17BB60
+        public void AffectsAnyAxis(){} // RVA: 0x7FFAF2E72850
+        public void .ctor(){} // RVA: 0x7FFAFA17BD60
     }
 
-    public class VRCParentConstraintBase : VRCConstraintBase
+    public class VRCParentConstraintBase
     {
-        public UnityEngine.Vector3 PositionAtRest; // 0x380
-        public bool AffectsPositionX; // 0x38C
-        public bool AffectsPositionY; // 0x38D
-
         // ── Methods ──
-        public void get_PositionMode(){} // RVA: 0x7FFE81200CB0
-        public void get_RotationMode(){} // RVA: 0x7FFE811EDAF0
-        public void get_ScaleMode(){} // RVA: 0x7FFE813240E0
-        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFE88208E90
-        public void UpdateTypeSpecificSourceData(){} // RVA: 0x7FFE88208F50
-        public void ApplyZeroOffset(){} // RVA: 0x7FFE88208FA0
-        public void AcceptOffsetBaker(){} // RVA: 0x7FFE882090E0
-        public void AffectsAnyAxis(){} // RVA: 0x7FFE88209110
-        public void .ctor(){} // RVA: 0x7FFE88209150
+        public void get_PositionMode(){} // RVA: 0x7FFAF2E92CB0
+        public void get_RotationMode(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_ScaleMode(){} // RVA: 0x7FFAF2FC9240
+        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFAFA17BD70
+        public void UpdateTypeSpecificSourceData(){} // RVA: 0x7FFAFA17BE30
+        public void ApplyZeroOffset(){} // RVA: 0x7FFAFA17BE80
+        public void AcceptOffsetBaker(){} // RVA: 0x7FFAFA17BFC0
+        public void AffectsAnyAxis(){} // RVA: 0x7FFAFA17BFF0
+        public void .ctor(){} // RVA: 0x7FFAFA17C030
     }
 
-    public class VRCPositionConstraintBase : VRCConstraintBase
+    public class VRCPositionConstraintBase
     {
-        public UnityEngine.Vector3 PositionAtRest; // 0x380
-        public UnityEngine.Vector3 PositionOffset; // 0x38C
-        public bool AffectsPositionX; // 0x398
-
         // ── Methods ──
-        public void get_PositionMode(){} // RVA: 0x7FFE811EDAF0
-        public void get_RotationMode(){} // RVA: 0x7FFE813240E0
-        public void get_ScaleMode(){} // RVA: 0x7FFE813240E0
-        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFE88209250
-        public void ApplyZeroOffset(){} // RVA: 0x7FFE882092E0
-        public void AcceptOffsetBaker(){} // RVA: 0x7FFE88209340
-        public void AffectsAnyAxis(){} // RVA: 0x7FFE88209440
-        public void .ctor(){} // RVA: 0x7FFE88209460
+        public void get_PositionMode(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_RotationMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_ScaleMode(){} // RVA: 0x7FFAF2FC9240
+        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFAFA17C130
+        public void ApplyZeroOffset(){} // RVA: 0x7FFAFA17C1C0
+        public void AcceptOffsetBaker(){} // RVA: 0x7FFAFA17C220
+        public void AffectsAnyAxis(){} // RVA: 0x7FFAFA17C320
+        public void .ctor(){} // RVA: 0x7FFAFA17C340
     }
 
-    public class VRCRotationConstraintBase : VRCConstraintBase
+    public class VRCRotationConstraintBase
     {
-        public UnityEngine.Vector3 RotationAtRest; // 0x380
-        public UnityEngine.Vector3 RotationOffset; // 0x38C
-        public bool AffectsRotationX; // 0x398
-
         // ── Methods ──
-        public void get_PositionMode(){} // RVA: 0x7FFE813240E0
-        public void get_RotationMode(){} // RVA: 0x7FFE811EDAF0
-        public void get_ScaleMode(){} // RVA: 0x7FFE813240E0
-        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFE88209550
-        public void ApplyZeroOffset(){} // RVA: 0x7FFE882092E0
-        public void AcceptOffsetBaker(){} // RVA: 0x7FFE882095E0
-        public void AffectsAnyAxis(){} // RVA: 0x7FFE88209440
-        public void .ctor(){} // RVA: 0x7FFE88209700
+        public void get_PositionMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_RotationMode(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_ScaleMode(){} // RVA: 0x7FFAF2FC9240
+        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFAFA17C430
+        public void ApplyZeroOffset(){} // RVA: 0x7FFAFA17C1C0
+        public void AcceptOffsetBaker(){} // RVA: 0x7FFAFA17C4C0
+        public void AffectsAnyAxis(){} // RVA: 0x7FFAFA17C320
+        public void .ctor(){} // RVA: 0x7FFAFA17C5E0
     }
 
-    public class VRCScaleConstraintBase : VRCConstraintBase
+    public class VRCScaleConstraintBase
     {
-        public UnityEngine.Vector3 ScaleAtRest; // 0x380
-        public UnityEngine.Vector3 ScaleOffset; // 0x38C
-        public bool AffectsScaleX; // 0x398
-
         // ── Methods ──
-        public void get_PositionMode(){} // RVA: 0x7FFE813240E0
-        public void get_RotationMode(){} // RVA: 0x7FFE813240E0
-        public void get_ScaleMode(){} // RVA: 0x7FFE811EDAF0
-        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFE882097F0
-        public void ApplyZeroOffset(){} // RVA: 0x7FFE88209890
-        public void AcceptOffsetBaker(){} // RVA: 0x7FFE882098F0
-        public void AffectsAnyAxis(){} // RVA: 0x7FFE88209440
-        public void .ctor(){} // RVA: 0x7FFE882099F0
+        public void get_PositionMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_RotationMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_ScaleMode(){} // RVA: 0x7FFAF2E7FAF0
+        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFAFA17C6D0
+        public void ApplyZeroOffset(){} // RVA: 0x7FFAFA17C770
+        public void AcceptOffsetBaker(){} // RVA: 0x7FFAFA17C7D0
+        public void AffectsAnyAxis(){} // RVA: 0x7FFAFA17C320
+        public void .ctor(){} // RVA: 0x7FFAFA17C8D0
     }
 
-    public class VRCWorldUpConstraintBase : VRCConstraintBase
+    public class VRCWorldUpConstraintBase
     {
-        public UnityEngine.Vector3 RotationAtRest; // 0x380
-        public UnityEngine.Vector3 RotationOffset; // 0x38C
-        public UnityEngine.Transform WorldUpTransform; // 0x398
-
         // ── Methods ──
-        public void get_PositionMode(){} // RVA: 0x7FFE813240E0
-        public void get_ScaleMode(){} // RVA: 0x7FFE813240E0
-        public void get_UsesWorldUpTransform(){} // RVA: 0x7FFE810FB320
-        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFE88209AE0
-        public void IsDependentOnTransform(){} // RVA: 0x7FFE88209B80
-        public void RecalculateTransformCount(){} // RVA: 0x7FFE88209DD0
-        public void GetTransforms(){} // RVA: 0x7FFE8820A0B0
-        public void GetManagedWorldUpTransform(){} // RVA: 0x7FFE8820A270
-        public void RequiresReallocation(){} // RVA: 0x7FFE8820A2B0
-        public void ApplyZeroOffset(){} // RVA: 0x7FFE882092E0
-        public void AcceptOffsetBaker(){} // RVA: 0x7FFE8820A440
-        public void GenerateForwardLook(){} // RVA: 0x7FFE8820A470
+        public void get_PositionMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_ScaleMode(){} // RVA: 0x7FFAF2FC9240
+        public void get_UsesWorldUpTransform(){} // RVA: 0x7FFAF2D8D320
+        public void UpdateTypeSpecificJobData(){} // RVA: 0x7FFAFA17C9C0
+        public void IsDependentOnTransform(){} // RVA: 0x7FFAFA17CA60
+        public void RecalculateTransformCount(){} // RVA: 0x7FFAFA17CCB0
+        public void GetTransforms(){} // RVA: 0x7FFAFA17CF90
+        public void GetManagedWorldUpTransform(){} // RVA: 0x7FFAFA17D150
+        public void RequiresReallocation(){} // RVA: 0x7FFAFA17D190
+        public void ApplyZeroOffset(){} // RVA: 0x7FFAFA17C1C0
+        public void AcceptOffsetBaker(){} // RVA: 0x7FFAFA17D320
+        public void GenerateForwardLook(){} // RVA: 0x7FFAFA17D350
         public void DetermineUpVector(){}
         public void ForwardLookShouldApplyIdentity(){}
         public void ForwardLookHandleZeroUp(){}
         public void ReOrientateForwardLook(){}
-        public void .ctor(){} // RVA: 0x7FFE8820A7C0
+        public void .ctor(){} // RVA: 0x7FFAFA17D6A0
     }
 
 }

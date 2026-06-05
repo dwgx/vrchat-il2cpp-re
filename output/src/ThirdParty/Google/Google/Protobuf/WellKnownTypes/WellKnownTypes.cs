@@ -5,567 +5,454 @@
 
 namespace ThirdParty.Google.Google.Protobuf.WellKnownTypes
 {
-    public class Any : Object
+    public class Any
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Any> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public string typeUrl_; // 0x18
-        public Google.Protobuf.ByteString value_; // 0x20
-        public object field_4; // 0x38
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE86579880
-        public void get_Descriptor(){} // RVA: 0x7FFE865798E0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE865799A0
-        public void .ctor(){} // RVA: 0x7FFE86579B50 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE86579D10
-        public void get_TypeUrl(){} // RVA: 0x7FFE810FE7C0
-        public void set_TypeUrl(){} // RVA: 0x7FFE86579F00
-        public void get_Value(){} // RVA: 0x7FFE811290C0
-        public void set_Value(){} // RVA: 0x7FFE8657A000
-        public void Equals(){} // RVA: 0x7FFE8657A260 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8657A380
-        public void ToString(){} // RVA: 0x7FFE8657A450
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8657A4D0
-        public void CalculateSize(){} // RVA: 0x7FFE8657A590
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8657A810
-        public void GetTypeUrl(){} // RVA: 0x7FFE8657A8E0
-        public void GetTypeName(){} // RVA: 0x7FFE8657A970
-        public void Is(){} // RVA: 0x7FFE8657AA60
-        public void Unpack(){} // RVA: 0x7FFE810A1420
-        public void TryUnpack(){} // RVA: 0x7FFE80E2F3B0
-        public void Pack(){} // RVA: 0x7FFE8657ABF0 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE8657AE10
+        public void get_Parser(){} // RVA: 0x7FFAF84E8B20
+        public void get_Descriptor(){} // RVA: 0x7FFAF84E8B80
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84E8C40
+        public void .ctor(){} // RVA: 0x7FFAF84E8DF0 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84E8FB0
+        public void get_TypeUrl(){} // RVA: 0x7FFAF2D907C0
+        public void set_TypeUrl(){} // RVA: 0x7FFAF84E91A0
+        public void get_Value(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_Value(){} // RVA: 0x7FFAF84E92A0
+        public void Equals(){} // RVA: 0x7FFAF84E9500 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84E9620
+        public void ToString(){} // RVA: 0x7FFAF84E96F0
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84E9770
+        public void CalculateSize(){} // RVA: 0x7FFAF84E9830
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84E9AB0
+        public void GetTypeUrl(){} // RVA: 0x7FFAF84E9B80
+        public void GetTypeName(){} // RVA: 0x7FFAF84E9C10
+        public void Is(){} // RVA: 0x7FFAF84E9D00
+        public void Unpack(){} // RVA: 0x7FFAF2D33FA0
+        public void TryUnpack(){} // RVA: 0x7FFAF2ABDE40
+        public void Pack(){} // RVA: 0x7FFAF84E9E90 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF84EA0B0
     }
 
-    public class AnyReflection : Object
+    public class AnyReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE865792F0
-        public void .cctor(){} // RVA: 0x7FFE86579350
+        public void get_Descriptor(){} // RVA: 0x7FFAF84E8590
+        public void .cctor(){} // RVA: 0x7FFAF84E85F0
     }
 
-    public class Duration : Object
+    public class Duration
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Duration> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public long seconds_; // 0x18
-        public int nanos_; // 0x20
-        public object field_4; // 0x3E
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE8657B630
-        public void get_Descriptor(){} // RVA: 0x7FFE8657B690
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE8657B750
-        public void .ctor(){} // RVA: 0x7FFE8657B7A0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE8657B890
-        public void get_Seconds(){} // RVA: 0x7FFE810FE7C0
-        public void set_Seconds(){} // RVA: 0x7FFE819EA910
-        public void get_Nanos(){} // RVA: 0x7FFE8151D690
-        public void set_Nanos(){} // RVA: 0x7FFE8170B670
-        public void Equals(){} // RVA: 0x7FFE8657BA70 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8657BAC0
-        public void ToString(){} // RVA: 0x7FFE8657BB20
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8657BB70
-        public void CalculateSize(){} // RVA: 0x7FFE8657BBF0
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8657BDF0
-        public void IsNormalized(){} // RVA: 0x7FFE8657BE90
-        public void ToTimeSpan(){} // RVA: 0x7FFE8657BF40
-        public void FromTimeSpan(){} // RVA: 0x7FFE8657C110
-        public void op_UnaryNegation(){} // RVA: 0x7FFE8657C2B0
-        public void op_Addition(){} // RVA: 0x7FFE8657C430
-        public void op_Subtraction(){} // RVA: 0x7FFE8657C620
-        public void Normalize(){} // RVA: 0x7FFE8657C810
-        public void ToJson(){} // RVA: 0x7FFE8657C8B0
-        public void ToDiagnosticString(){} // RVA: 0x7FFE8657CC20
-        public void AppendNanoseconds(){} // RVA: 0x7FFE8657CC90
-        public void .cctor(){} // RVA: 0x7FFE8657CED0
+        public void get_Parser(){} // RVA: 0x7FFAF84EA8D0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84EA930
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84EA9F0
+        public void .ctor(){} // RVA: 0x7FFAF84EAA40 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84EAB30
+        public void get_Seconds(){} // RVA: 0x7FFAF2D907C0
+        public void set_Seconds(){} // RVA: 0x7FFAF370BE60
+        public void get_Nanos(){} // RVA: 0x7FFAF3210030
+        public void set_Nanos(){} // RVA: 0x7FFAF344E0D0
+        public void Equals(){} // RVA: 0x7FFAF84EAD10 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84EAD60
+        public void ToString(){} // RVA: 0x7FFAF84EADC0
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84EAE10
+        public void CalculateSize(){} // RVA: 0x7FFAF84EAE90
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84EB090
+        public void IsNormalized(){} // RVA: 0x7FFAF84EB130
+        public void ToTimeSpan(){} // RVA: 0x7FFAF84EB1E0
+        public void FromTimeSpan(){} // RVA: 0x7FFAF84EB3B0
+        public void op_UnaryNegation(){} // RVA: 0x7FFAF84EB550
+        public void op_Addition(){} // RVA: 0x7FFAF84EB6D0
+        public void op_Subtraction(){} // RVA: 0x7FFAF84EB8C0
+        public void Normalize(){} // RVA: 0x7FFAF84EBAB0
+        public void ToJson(){} // RVA: 0x7FFAF84EBB50
+        public void ToDiagnosticString(){} // RVA: 0x7FFAF84EBEC0
+        public void AppendNanoseconds(){} // RVA: 0x7FFAF84EBF30
+        public void .cctor(){} // RVA: 0x7FFAF84EC170
     }
 
-    public class DurationReflection : Object
+    public class DurationReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE8657B070
-        public void .cctor(){} // RVA: 0x7FFE8657B0D0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84EA310
+        public void .cctor(){} // RVA: 0x7FFAF84EA370
     }
 
-    public class Empty : Object
+    public class Empty
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Empty> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public object field_2; // 0x44
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE8657D640
-        public void get_Descriptor(){} // RVA: 0x7FFE8657D6A0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE8657D760
-        public void .ctor(){} // RVA: 0x7FFE8657D850 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE8657D930
-        public void Equals(){} // RVA: 0x7FFE8657DAE0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8657DB20
-        public void ToString(){} // RVA: 0x7FFE8657DB60
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8657DBB0
-        public void CalculateSize(){} // RVA: 0x7FFE8657DBD0
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8657DCD0
-        public void .cctor(){} // RVA: 0x7FFE8657DD90
+        public void get_Parser(){} // RVA: 0x7FFAF84EC8E0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84EC940
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84ECA00
+        public void .ctor(){} // RVA: 0x7FFAF84ECAF0 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84ECBD0
+        public void Equals(){} // RVA: 0x7FFAF84ECD80 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84ECDC0
+        public void ToString(){} // RVA: 0x7FFAF84ECE00
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84ECE50
+        public void CalculateSize(){} // RVA: 0x7FFAF84ECE70
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84ECF70
+        public void .cctor(){} // RVA: 0x7FFAF84ED030
     }
 
-    public class EmptyReflection : Object
+    public class EmptyReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE8657D120
-        public void .cctor(){} // RVA: 0x7FFE8657D180
+        public void get_Descriptor(){} // RVA: 0x7FFAF84EC3C0
+        public void .cctor(){} // RVA: 0x7FFAF84EC420
     }
 
-    public class Enum : Object
+    public class Enum
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Enum> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public string name_; // 0x18
-        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.EnumValue> _repeated_enumvalue_codec; // 0x8
-        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.EnumValue> enumvalue_; // 0x20
-        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Option> _repeated_options_codec; // 0x10
-        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Option> options_; // 0x28
-        public Google.Protobuf.WellKnownTypes.SourceContext sourceContext_; // 0x30
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE8658DD00
-        public void get_Descriptor(){} // RVA: 0x7FFE8658DD60
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE8658DE20
-        public void .ctor(){} // RVA: 0x7FFE8658E0E0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE8658E3D0
-        public void get_Name(){} // RVA: 0x7FFE810FE7C0
-        public void set_Name(){} // RVA: 0x7FFE8658E430
-        public void get_Enumvalue(){} // RVA: 0x7FFE811290C0
-        public void get_Options(){} // RVA: 0x7FFE81129130
-        public void get_SourceContext(){} // RVA: 0x7FFE8144E200
-        public void set_SourceContext(){} // RVA: 0x7FFE81129890
-        public void get_Syntax(){} // RVA: 0x7FFE81D46090
-        public void set_Syntax(){} // RVA: 0x7FFE81D46A00
-        public void Equals(){} // RVA: 0x7FFE8658E590 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8658E700
-        public void ToString(){} // RVA: 0x7FFE8658E7F0
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8658E840
-        public void CalculateSize(){} // RVA: 0x7FFE8658E9B0
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8658EDF0
-        public void .cctor(){} // RVA: 0x7FFE8658F010
+        public void get_Parser(){} // RVA: 0x7FFAF84FCFA0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84FD000
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84FD0C0
+        public void .ctor(){} // RVA: 0x7FFAF84FD380 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84FD670
+        public void get_Name(){} // RVA: 0x7FFAF2D907C0
+        public void set_Name(){} // RVA: 0x7FFAF84FD6D0
+        public void get_Enumvalue(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_Options(){} // RVA: 0x7FFAF2DBB130
+        public void get_SourceContext(){} // RVA: 0x7FFAF30E74D0
+        public void set_SourceContext(){} // RVA: 0x7FFAF2DBB890
+        public void get_Syntax(){} // RVA: 0x7FFAF3A8C9F0
+        public void set_Syntax(){} // RVA: 0x7FFAF3A8D6E0
+        public void Equals(){} // RVA: 0x7FFAF84FD830 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84FD9A0
+        public void ToString(){} // RVA: 0x7FFAF84FDA90
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84FDAE0
+        public void CalculateSize(){} // RVA: 0x7FFAF84FDC50
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84FE090
+        public void .cctor(){} // RVA: 0x7FFAF84FE2B0
     }
 
-    public class EnumValue : Object
+    public class EnumValue
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.EnumValue> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public string name_; // 0x18
-        public int number_; // 0x20
-        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Option> _repeated_options_codec; // 0x8
-        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Option> options_; // 0x28
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE8658F490
-        public void get_Descriptor(){} // RVA: 0x7FFE8658F4F0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE8658F5B0
-        public void .ctor(){} // RVA: 0x7FFE8658F7E0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE8658F9E0
-        public void get_Name(){} // RVA: 0x7FFE810FE7C0
-        public void set_Name(){} // RVA: 0x7FFE8658FA40
-        public void get_Number(){} // RVA: 0x7FFE8151D690
-        public void set_Number(){} // RVA: 0x7FFE8170B670
-        public void get_Options(){} // RVA: 0x7FFE81129130
-        public void Equals(){} // RVA: 0x7FFE8658FC90 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8658FDA0
-        public void ToString(){} // RVA: 0x7FFE8658FE40
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8658FE90
-        public void CalculateSize(){} // RVA: 0x7FFE8658FFA0
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE86590230
-        public void .cctor(){} // RVA: 0x7FFE86590380
+        public void get_Parser(){} // RVA: 0x7FFAF84FE730
+        public void get_Descriptor(){} // RVA: 0x7FFAF84FE790
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84FE850
+        public void .ctor(){} // RVA: 0x7FFAF84FEA80 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84FEC80
+        public void get_Name(){} // RVA: 0x7FFAF2D907C0
+        public void set_Name(){} // RVA: 0x7FFAF84FECE0
+        public void get_Number(){} // RVA: 0x7FFAF3210030
+        public void set_Number(){} // RVA: 0x7FFAF344E0D0
+        public void get_Options(){} // RVA: 0x7FFAF2DBB130
+        public void Equals(){} // RVA: 0x7FFAF84FEF30 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84FF040
+        public void ToString(){} // RVA: 0x7FFAF84FF0E0
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84FF130
+        public void CalculateSize(){} // RVA: 0x7FFAF84FF240
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84FF4D0
+        public void .cctor(){} // RVA: 0x7FFAF84FF620
     }
 
-    public class Field : Object
+    public class Field
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Field> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public 0x66628E84 kind_; // 0x18
-        public 0x66628EDC cardinality_; // 0x1C
-        public int number_; // 0x20
-        public string name_; // 0x28
-        public string typeUrl_; // 0x30
-        public int oneofIndex_; // 0x38
-        public bool packed_; // 0x3C
-        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Option> _repeated_options_codec; // 0x8
-        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Option> options_; // 0x40
-        public string jsonName_; // 0x48
-        public string defaultValue_; // 0x50
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE8658BFB0
-        public void get_Descriptor(){} // RVA: 0x7FFE8658C010
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE8658C0D0
-        public void .ctor(){} // RVA: 0x7FFE8658C420 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE8658C760
-        public void get_Kind(){} // RVA: 0x7FFE813DB630
-        public void set_Kind(){} // RVA: 0x7FFE8144DF00
-        public void get_Cardinality(){} // RVA: 0x7FFE82707EE0
-        public void set_Cardinality(){} // RVA: 0x7FFE82717690
-        public void get_Number(){} // RVA: 0x7FFE8151D690
-        public void set_Number(){} // RVA: 0x7FFE8170B670
-        public void get_Name(){} // RVA: 0x7FFE81129130
-        public void set_Name(){} // RVA: 0x7FFE8658C7C0
-        public void get_TypeUrl(){} // RVA: 0x7FFE8144E200
-        public void set_TypeUrl(){} // RVA: 0x7FFE8658C8C0
-        public void get_OneofIndex(){} // RVA: 0x7FFE81D46090
-        public void set_OneofIndex(){} // RVA: 0x7FFE81D46A00
-        public void get_Packed(){} // RVA: 0x7FFE812604E0
-        public void set_Packed(){} // RVA: 0x7FFE812604F0
-        public void get_Options(){} // RVA: 0x7FFE81178740
-        public void get_JsonName(){} // RVA: 0x7FFE81176730
-        public void set_JsonName(){} // RVA: 0x7FFE8658C9C0
-        public void get_DefaultValue(){} // RVA: 0x7FFE8119C0E0
-        public void set_DefaultValue(){} // RVA: 0x7FFE8658CAC0
-        public void Equals(){} // RVA: 0x7FFE8658CC20 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8658CE30
-        public void ToString(){} // RVA: 0x7FFE8658CFB0
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8658D000
-        public void CalculateSize(){} // RVA: 0x7FFE8658D220
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8658D6E0
-        public void .cctor(){} // RVA: 0x7FFE8658D980
+        public void get_Parser(){} // RVA: 0x7FFAF84FB250
+        public void get_Descriptor(){} // RVA: 0x7FFAF84FB2B0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84FB370
+        public void .ctor(){} // RVA: 0x7FFAF84FB6C0 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84FBA00
+        public void get_Kind(){} // RVA: 0x7FFAF306ED50
+        public void set_Kind(){} // RVA: 0x7FFAF30E74E0
+        public void get_Cardinality(){} // RVA: 0x7FFAF442C3B0
+        public void set_Cardinality(){} // RVA: 0x7FFAF4439FD0
+        public void get_Number(){} // RVA: 0x7FFAF3210030
+        public void set_Number(){} // RVA: 0x7FFAF344E0D0
+        public void get_Name(){} // RVA: 0x7FFAF2DBB130
+        public void set_Name(){} // RVA: 0x7FFAF84FBA60
+        public void get_TypeUrl(){} // RVA: 0x7FFAF30E74D0
+        public void set_TypeUrl(){} // RVA: 0x7FFAF84FBB60
+        public void get_OneofIndex(){} // RVA: 0x7FFAF3A8C9F0
+        public void set_OneofIndex(){} // RVA: 0x7FFAF3A8D6E0
+        public void get_Packed(){} // RVA: 0x7FFAF2EF24E0
+        public void set_Packed(){} // RVA: 0x7FFAF2EF24F0
+        public void get_Options(){} // RVA: 0x7FFAF2E0A740
+        public void get_JsonName(){} // RVA: 0x7FFAF2E08730
+        public void set_JsonName(){} // RVA: 0x7FFAF84FBC60
+        public void get_DefaultValue(){} // RVA: 0x7FFAF2E2E0E0
+        public void set_DefaultValue(){} // RVA: 0x7FFAF84FBD60
+        public void Equals(){} // RVA: 0x7FFAF84FBEC0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84FC0D0
+        public void ToString(){} // RVA: 0x7FFAF84FC250
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84FC2A0
+        public void CalculateSize(){} // RVA: 0x7FFAF84FC4C0
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84FC980
+        public void .cctor(){} // RVA: 0x7FFAF84FCC20
     }
 
-    public class FieldMask : Object
+    public class FieldMask
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.FieldMask> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public Google.Protobuf.FieldCodec`1<string> _repeated_paths_codec; // 0x8
-        public Google.Protobuf.Collections.RepeatedField`1<string> paths_; // 0x18
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE8657E550
-        public void get_Descriptor(){} // RVA: 0x7FFE8657E5B0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE8657E670
-        public void .ctor(){} // RVA: 0x7FFE8657E780 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE8657E920
-        public void get_Paths(){} // RVA: 0x7FFE810FE7C0
-        public void Equals(){} // RVA: 0x7FFE8657EBF0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8657ECA0
-        public void ToString(){} // RVA: 0x7FFE8657ED10
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8657ED60
-        public void CalculateSize(){} // RVA: 0x7FFE8657EE20
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8657F010
-        public void ToJson(){} // RVA: 0x7FFE8657F110
-        public void ToDiagnosticString(){} // RVA: 0x7FFE8657F510
-        public void FromString(){} // RVA: 0x7FFE80E2E3D0 | overloaded x2
-        public void FromStringEnumerable(){} // RVA: 0x7FFE80E2E3D0
-        public void FromFieldNumbers(){} // RVA: 0x7FFE80E2E3D0 | overloaded x2
-        public void IsPathValid(){} // RVA: 0x7FFE8657F700
-        public void IsValid(){} // RVA: 0x7FFE8657F950 | overloaded x4
-        public void Normalize(){} // RVA: 0x7FFE8657FAF0
-        public void Union(){} // RVA: 0x7FFE8657FB60
-        public void Intersection(){} // RVA: 0x7FFE8657FC20
-        public void Merge(){} // RVA: 0x7FFE86580080 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE86580250
+        public void get_Parser(){} // RVA: 0x7FFAF84ED7F0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84ED850
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84ED910
+        public void .ctor(){} // RVA: 0x7FFAF84EDA20 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84EDBC0
+        public void get_Paths(){} // RVA: 0x7FFAF2D907C0
+        public void Equals(){} // RVA: 0x7FFAF84EDE90 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84EDF40
+        public void ToString(){} // RVA: 0x7FFAF84EDFB0
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84EE000
+        public void CalculateSize(){} // RVA: 0x7FFAF84EE0C0
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84EE2B0
+        public void ToJson(){} // RVA: 0x7FFAF84EE3B0
+        public void ToDiagnosticString(){} // RVA: 0x7FFAF84EE7B0
+        public void FromString(){} // RVA: 0x7FFAF2ABCE50 | overloaded x2
+        public void FromStringEnumerable(){} // RVA: 0x7FFAF2ABCE50
+        public void FromFieldNumbers(){} // RVA: 0x7FFAF2ABCE50 | overloaded x2
+        public void IsPathValid(){} // RVA: 0x7FFAF84EE9A0
+        public void IsValid(){} // RVA: 0x7FFAF84EEBF0 | overloaded x4
+        public void Normalize(){} // RVA: 0x7FFAF84EED90
+        public void Union(){} // RVA: 0x7FFAF84EEE00
+        public void Intersection(){} // RVA: 0x7FFAF84EEEC0
+        public void Merge(){} // RVA: 0x7FFAF84EF320 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF84EF4F0
     }
 
-    public class FieldMaskReflection : Object
+    public class FieldMaskReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
+        public object ReplaceMessageFields;
 
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE8657DFE0
-        public void .cctor(){} // RVA: 0x7FFE8657E040
+        public void get_Descriptor(){} // RVA: 0x7FFAF84ED280
+        public void .cctor(){} // RVA: 0x7FFAF84ED2E0
     }
 
-    public class ListValue : Object
+    public class ListValue
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.ListValue> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Value> _repeated_values_codec; // 0x8
-        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Value> values_; // 0x18
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE86585CA0
-        public void get_Descriptor(){} // RVA: 0x7FFE86585D00
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE86585DC0
-        public void .ctor(){} // RVA: 0x7FFE86585ED0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE86586070
-        public void get_Values(){} // RVA: 0x7FFE810FE7C0
-        public void Equals(){} // RVA: 0x7FFE86586340 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8657ECA0
-        public void ToString(){} // RVA: 0x7FFE865863F0
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE86586440
-        public void CalculateSize(){} // RVA: 0x7FFE86586500
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE865866F0
-        public void .cctor(){} // RVA: 0x7FFE865867F0
+        public void get_Parser(){} // RVA: 0x7FFAF84F4F40
+        public void get_Descriptor(){} // RVA: 0x7FFAF84F4FA0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84F5060
+        public void .ctor(){} // RVA: 0x7FFAF84F5170 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84F5310
+        public void get_Values(){} // RVA: 0x7FFAF2D907C0
+        public void Equals(){} // RVA: 0x7FFAF84F55E0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84EDF40
+        public void ToString(){} // RVA: 0x7FFAF84F5690
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84F56E0
+        public void CalculateSize(){} // RVA: 0x7FFAF84F57A0
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84F5990
+        public void .cctor(){} // RVA: 0x7FFAF84F5A90
     }
 
-    public class Option : Object
+    public class Option
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Option> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public string name_; // 0x18
-        public Google.Protobuf.WellKnownTypes.Any value_; // 0x20
-        public object field_4; // 0x92
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE86590700
-        public void get_Descriptor(){} // RVA: 0x7FFE86590760
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE86590820
-        public void .ctor(){} // RVA: 0x7FFE865909A0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE86590B70
-        public void get_Name(){} // RVA: 0x7FFE810FE7C0
-        public void set_Name(){} // RVA: 0x7FFE86590BD0
-        public void get_Value(){} // RVA: 0x7FFE811290C0
-        public void set_Value(){} // RVA: 0x7FFE811290D0
-        public void Equals(){} // RVA: 0x7FFE86590E10 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE86590F00
-        public void ToString(){} // RVA: 0x7FFE86590F90
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE86590FE0
-        public void CalculateSize(){} // RVA: 0x7FFE86591070
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE86591450
-        public void .cctor(){} // RVA: 0x7FFE86591560
+        public void get_Parser(){} // RVA: 0x7FFAF84FF9A0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84FFA00
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84FFAC0
+        public void .ctor(){} // RVA: 0x7FFAF84FFC40 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84FFE10
+        public void get_Name(){} // RVA: 0x7FFAF2D907C0
+        public void set_Name(){} // RVA: 0x7FFAF84FFE70
+        public void get_Value(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_Value(){} // RVA: 0x7FFAF2DBB0D0
+        public void Equals(){} // RVA: 0x7FFAF85000B0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF85001A0
+        public void ToString(){} // RVA: 0x7FFAF8500230
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF8500280
+        public void CalculateSize(){} // RVA: 0x7FFAF8500310
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF85006F0
+        public void .cctor(){} // RVA: 0x7FFAF8500800
     }
 
-    public class SourceContext : Object
+    public class SourceContext
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.SourceContext> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public string fileName_; // 0x18
-        public object field_3; // 0x50
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE86580BC0
-        public void get_Descriptor(){} // RVA: 0x7FFE86580C20
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE86580CE0
-        public void .ctor(){} // RVA: 0x7FFE86580E60 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE86580FC0
-        public void get_FileName(){} // RVA: 0x7FFE810FE7C0
-        public void set_FileName(){} // RVA: 0x7FFE86581150
-        public void Equals(){} // RVA: 0x7FFE86581350 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE86581400
-        public void ToString(){} // RVA: 0x7FFE86581470
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE865814C0
-        public void CalculateSize(){} // RVA: 0x7FFE86581530
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE865816C0
-        public void .cctor(){} // RVA: 0x7FFE86581760
+        public void get_Parser(){} // RVA: 0x7FFAF84EFE60
+        public void get_Descriptor(){} // RVA: 0x7FFAF84EFEC0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84EFF80
+        public void .ctor(){} // RVA: 0x7FFAF84F0100 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84F0260
+        public void get_FileName(){} // RVA: 0x7FFAF2D907C0
+        public void set_FileName(){} // RVA: 0x7FFAF84F03F0
+        public void Equals(){} // RVA: 0x7FFAF84F05F0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84F06A0
+        public void ToString(){} // RVA: 0x7FFAF84F0710
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84F0760
+        public void CalculateSize(){} // RVA: 0x7FFAF84F07D0
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84F0960
+        public void .cctor(){} // RVA: 0x7FFAF84F0A00
     }
 
-    public class SourceContextReflection : Object
+    public class SourceContextReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE86580630
-        public void .cctor(){} // RVA: 0x7FFE86580690
+        public void get_Descriptor(){} // RVA: 0x7FFAF84EF8D0
+        public void .cctor(){} // RVA: 0x7FFAF84EF930
     }
 
-    public class Struct : Object
+    public class Struct
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Struct> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public Codec<string,Google.Protobuf.WellKnownTypes.Value> _map_fields_codec; // 0x8
-        public Google.Protobuf.Collections.MapField`2<string,Google.Protobuf.WellKnownTypes.Value> fields_; // 0x18
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE86582550
-        public void get_Descriptor(){} // RVA: 0x7FFE865825B0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE86582670
-        public void .ctor(){} // RVA: 0x7FFE86582780 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE86582920
-        public void get_Fields(){} // RVA: 0x7FFE810FE7C0
-        public void Equals(){} // RVA: 0x7FFE86582BF0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8657ECA0
-        public void ToString(){} // RVA: 0x7FFE86582CA0
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE86582CF0
-        public void CalculateSize(){} // RVA: 0x7FFE86582DB0
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE86582F80
-        public void .cctor(){} // RVA: 0x7FFE86583080
+        public void get_Parser(){} // RVA: 0x7FFAF84F17F0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84F1850
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84F1910
+        public void .ctor(){} // RVA: 0x7FFAF84F1A20 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84F1BC0
+        public void get_Fields(){} // RVA: 0x7FFAF2D907C0
+        public void Equals(){} // RVA: 0x7FFAF84F1E90 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84EDF40
+        public void ToString(){} // RVA: 0x7FFAF84F1F40
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84F1F90
+        public void CalculateSize(){} // RVA: 0x7FFAF84F2050
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84F2220
+        public void .cctor(){} // RVA: 0x7FFAF84F2320
     }
 
-    public class StructReflection : Object
+    public class StructReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE865819C0
-        public void .cctor(){} // RVA: 0x7FFE86581A20
+        public void get_Descriptor(){} // RVA: 0x7FFAF84F0C60
+        public void .cctor(){} // RVA: 0x7FFAF84F0CC0
     }
 
-    public class Timestamp : Object
+    public class Timestamp : Google.Protobuf
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Timestamp> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public long seconds_; // 0x18
-        public int nanos_; // 0x20
-        public System.DateTime UnixEpoch; // 0x8
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE86587130
-        public void get_Descriptor(){} // RVA: 0x7FFE86587190
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE86587250
-        public void .ctor(){} // RVA: 0x7FFE8657B7A0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE865872A0
-        public void get_Seconds(){} // RVA: 0x7FFE810FE7C0
-        public void set_Seconds(){} // RVA: 0x7FFE819EA910
-        public void get_Nanos(){} // RVA: 0x7FFE8151D690
-        public void set_Nanos(){} // RVA: 0x7FFE8170B670
-        public void Equals(){} // RVA: 0x7FFE8657BA70 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8657BAC0
-        public void ToString(){} // RVA: 0x7FFE86587480
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8657BB70
-        public void CalculateSize(){} // RVA: 0x7FFE865874D0
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8657BDF0
-        public void IsNormalized(){} // RVA: 0x7FFE86587710
-        public void op_Subtraction(){} // RVA: 0x7FFE86587B30 | overloaded x2
-        public void op_Addition(){} // RVA: 0x7FFE86587930
-        public void ToDateTime(){} // RVA: 0x7FFE86587D40
-        public void ToDateTimeOffset(){} // RVA: 0x7FFE86587F00
-        public void FromDateTime(){} // RVA: 0x7FFE86588130
-        public void FromDateTimeOffset(){} // RVA: 0x7FFE86588360
-        public void Normalize(){} // RVA: 0x7FFE86588420
-        public void ToJson(){} // RVA: 0x7FFE865884B0
-        public void CompareTo(){} // RVA: 0x7FFE86588850
-        public void op_LessThan(){} // RVA: 0x7FFE865888F0
-        public void op_GreaterThan(){} // RVA: 0x7FFE86588980
-        public void op_LessThanOrEqual(){} // RVA: 0x7FFE86588A30
-        public void op_GreaterThanOrEqual(){} // RVA: 0x7FFE86588AE0
-        public void op_Equality(){} // RVA: 0x7FFE86588B70
-        public void op_Inequality(){} // RVA: 0x7FFE86588BD0
-        public void ToDiagnosticString(){} // RVA: 0x7FFE86588CB0
-        public void .cctor(){} // RVA: 0x7FFE86588D20
+        public void get_Parser(){} // RVA: 0x7FFAF84F63D0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84F6430
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84F64F0
+        public void .ctor(){} // RVA: 0x7FFAF84EAA40 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84F6540
+        public void get_Seconds(){} // RVA: 0x7FFAF2D907C0
+        public void set_Seconds(){} // RVA: 0x7FFAF370BE60
+        public void get_Nanos(){} // RVA: 0x7FFAF3210030
+        public void set_Nanos(){} // RVA: 0x7FFAF344E0D0
+        public void Equals(){} // RVA: 0x7FFAF84EAD10 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84EAD60
+        public void ToString(){} // RVA: 0x7FFAF84F6720
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84EAE10
+        public void CalculateSize(){} // RVA: 0x7FFAF84F6770
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84EB090
+        public void IsNormalized(){} // RVA: 0x7FFAF84F69B0
+        public void op_Subtraction(){} // RVA: 0x7FFAF84F6DD0 | overloaded x2
+        public void op_Addition(){} // RVA: 0x7FFAF84F6BD0
+        public void ToDateTime(){} // RVA: 0x7FFAF84F6FE0
+        public void ToDateTimeOffset(){} // RVA: 0x7FFAF84F71A0
+        public void FromDateTime(){} // RVA: 0x7FFAF84F73D0
+        public void FromDateTimeOffset(){} // RVA: 0x7FFAF84F7600
+        public void Normalize(){} // RVA: 0x7FFAF84F76C0
+        public void ToJson(){} // RVA: 0x7FFAF84F7750
+        public void CompareTo(){} // RVA: 0x7FFAF84F7AF0
+        public void op_LessThan(){} // RVA: 0x7FFAF84F7B90
+        public void op_GreaterThan(){} // RVA: 0x7FFAF84F7C20
+        public void op_LessThanOrEqual(){} // RVA: 0x7FFAF84F7CD0
+        public void op_GreaterThanOrEqual(){} // RVA: 0x7FFAF84F7D80
+        public void op_Equality(){} // RVA: 0x7FFAF84F7E10
+        public void op_Inequality(){} // RVA: 0x7FFAF84F7E70
+        public void ToDiagnosticString(){} // RVA: 0x7FFAF84F7F50
+        public void .cctor(){} // RVA: 0x7FFAF84F7FC0
     }
 
-    public class TimestampReflection : Object
+    public class TimestampReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE86586B70
-        public void .cctor(){} // RVA: 0x7FFE86586BD0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84F5E10
+        public void .cctor(){} // RVA: 0x7FFAF84F5E70
     }
 
-    public class Type : Object
+    public class Type
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Type> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public string name_; // 0x18
-        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Field> _repeated_fields_codec; // 0x8
-        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Field> fields_; // 0x20
-        public Google.Protobuf.FieldCodec`1<string> _repeated_oneofs_codec; // 0x10
-        public Google.Protobuf.Collections.RepeatedField`1<string> oneofs_; // 0x28
-        public Google.Protobuf.FieldCodec`1<Google.Protobuf.WellKnownTypes.Option> _repeated_options_codec; // 0x18
-        public Google.Protobuf.Collections.RepeatedField`1<Google.Protobuf.WellKnownTypes.Option> options_; // 0x30
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE8658A4E0
-        public void get_Descriptor(){} // RVA: 0x7FFE8658A540
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE8658A600
-        public void .ctor(){} // RVA: 0x7FFE8658A950 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE8658ACC0
-        public void get_Name(){} // RVA: 0x7FFE810FE7C0
-        public void set_Name(){} // RVA: 0x7FFE8658AD20
-        public void get_Fields(){} // RVA: 0x7FFE811290C0
-        public void get_Oneofs(){} // RVA: 0x7FFE81129130
-        public void get_Options(){} // RVA: 0x7FFE8144E200
-        public void get_SourceContext(){} // RVA: 0x7FFE8143BA80
-        public void set_SourceContext(){} // RVA: 0x7FFE81437330
-        public void get_Syntax(){} // RVA: 0x7FFE8119C080
-        public void set_Syntax(){} // RVA: 0x7FFE8119C090
-        public void Equals(){} // RVA: 0x7FFE8658AE80 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8658B030
-        public void ToString(){} // RVA: 0x7FFE8658B150
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8658B1A0
-        public void CalculateSize(){} // RVA: 0x7FFE8658B350
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8658B810
-        public void .cctor(){} // RVA: 0x7FFE8658BA90
+        public void get_Parser(){} // RVA: 0x7FFAF84F9780
+        public void get_Descriptor(){} // RVA: 0x7FFAF84F97E0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84F98A0
+        public void .ctor(){} // RVA: 0x7FFAF84F9BF0 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84F9F60
+        public void get_Name(){} // RVA: 0x7FFAF2D907C0
+        public void set_Name(){} // RVA: 0x7FFAF84F9FC0
+        public void get_Fields(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_Oneofs(){} // RVA: 0x7FFAF2DBB130
+        public void get_Options(){} // RVA: 0x7FFAF30E74D0
+        public void get_SourceContext(){} // RVA: 0x7FFAF2F476A0
+        public void set_SourceContext(){} // RVA: 0x7FFAF2F4B830
+        public void get_Syntax(){} // RVA: 0x7FFAF2E2E080
+        public void set_Syntax(){} // RVA: 0x7FFAF2E2E090
+        public void Equals(){} // RVA: 0x7FFAF84FA120 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84FA2D0
+        public void ToString(){} // RVA: 0x7FFAF84FA3F0
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84FA440
+        public void CalculateSize(){} // RVA: 0x7FFAF84FA5F0
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84FAAB0
+        public void .cctor(){} // RVA: 0x7FFAF84FAD30
     }
 
-    public class TypeReflection : Object
+    public class TypeReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE86588FC0
-        public void .cctor(){} // RVA: 0x7FFE86589020
+        public void get_Descriptor(){} // RVA: 0x7FFAF84F8260
+        public void .cctor(){} // RVA: 0x7FFAF84F82C0
     }
 
-    public class Value : Object
+    public class Value
     {
-        public Google.Protobuf.MessageParser`1<Google.Protobuf.WellKnownTypes.Value> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public object kind_; // 0x18
-        public 0x66628A64 kindCase_; // 0x20
-        public object field_4; // 0x59
-        public object field_5; // 0x5A
-        public object field_6; // 0x5B
-        public object field_7; // 0x5C
-        public object field_8; // 0x5D
-        public object field_9; // 0x5E
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE86583500
-        public void get_Descriptor(){} // RVA: 0x7FFE86583560
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE86583620
-        public void .ctor(){} // RVA: 0x7FFE86583670 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE86583900
-        public void get_NullValue(){} // RVA: 0x7FFE86583960
-        public void set_NullValue(){} // RVA: 0x7FFE865839D0
-        public void get_NumberValue(){} // RVA: 0x7FFE86583A80
-        public void set_NumberValue(){} // RVA: 0x7FFE86583B00
-        public void get_StringValue(){} // RVA: 0x7FFE86583BB0
-        public void set_StringValue(){} // RVA: 0x7FFE86583C30
-        public void get_BoolValue(){} // RVA: 0x7FFE86583D30
-        public void set_BoolValue(){} // RVA: 0x7FFE86583DB0
-        public void get_StructValue(){} // RVA: 0x7FFE86583E60
-        public void set_StructValue(){} // RVA: 0x7FFE86583EC0
-        public void get_ListValue(){} // RVA: 0x7FFE86583F20
-        public void set_ListValue(){} // RVA: 0x7FFE86583F80
-        public void get_KindCase(){} // RVA: 0x7FFE8151D690
-        public void ClearKind(){} // RVA: 0x7FFE86583FE0
-        public void Equals(){} // RVA: 0x7FFE865840A0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE865842D0
-        public void ToString(){} // RVA: 0x7FFE86584500
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE86584550
-        public void CalculateSize(){} // RVA: 0x7FFE86584720
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE86584D30
-        public void ForString(){} // RVA: 0x7FFE86585030
-        public void ForNumber(){} // RVA: 0x7FFE86585110
-        public void ForBool(){} // RVA: 0x7FFE86585180
-        public void ForNull(){} // RVA: 0x7FFE865851F0
-        public void ForList(){} // RVA: 0x7FFE86585250
-        public void ForStruct(){} // RVA: 0x7FFE865853F0
-        public void .cctor(){} // RVA: 0x7FFE86585520
+        public void get_Parser(){} // RVA: 0x7FFAF84F27A0
+        public void get_Descriptor(){} // RVA: 0x7FFAF84F2800
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF84F28C0
+        public void .ctor(){} // RVA: 0x7FFAF84F2910 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF84F2BA0
+        public void get_NullValue(){} // RVA: 0x7FFAF84F2C00
+        public void set_NullValue(){} // RVA: 0x7FFAF84F2C70
+        public void get_NumberValue(){} // RVA: 0x7FFAF84F2D20
+        public void set_NumberValue(){} // RVA: 0x7FFAF84F2DA0
+        public void get_StringValue(){} // RVA: 0x7FFAF84F2E50
+        public void set_StringValue(){} // RVA: 0x7FFAF84F2ED0
+        public void get_BoolValue(){} // RVA: 0x7FFAF84F2FD0
+        public void set_BoolValue(){} // RVA: 0x7FFAF84F3050
+        public void get_StructValue(){} // RVA: 0x7FFAF84F3100
+        public void set_StructValue(){} // RVA: 0x7FFAF84F3160
+        public void get_ListValue(){} // RVA: 0x7FFAF84F31C0
+        public void set_ListValue(){} // RVA: 0x7FFAF84F3220
+        public void get_KindCase(){} // RVA: 0x7FFAF3210030
+        public void ClearKind(){} // RVA: 0x7FFAF84F3280
+        public void Equals(){} // RVA: 0x7FFAF84F3340 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF84F3570
+        public void ToString(){} // RVA: 0x7FFAF84F37A0
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF84F37F0
+        public void CalculateSize(){} // RVA: 0x7FFAF84F39C0
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF84F3FD0
+        public void ForString(){} // RVA: 0x7FFAF84F42D0
+        public void ForNumber(){} // RVA: 0x7FFAF84F43B0
+        public void ForBool(){} // RVA: 0x7FFAF84F4420
+        public void ForNull(){} // RVA: 0x7FFAF84F4490
+        public void ForList(){} // RVA: 0x7FFAF84F44F0
+        public void ForStruct(){} // RVA: 0x7FFAF84F4690
+        public void .cctor(){} // RVA: 0x7FFAF84F47C0
     }
 
 }

@@ -5,13 +5,11 @@
 
 namespace VRC.Annotations
 {
-    public class VRChatInternalAPI : Attribute
+    public class VRChatInternalAPI
     {
-        public string _comment; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
-        public void get_Comment(){} // RVA: 0x7FFE81116380
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
+        public void get_Comment(){} // RVA: 0x7FFAF2DA8380
     }
 
 }

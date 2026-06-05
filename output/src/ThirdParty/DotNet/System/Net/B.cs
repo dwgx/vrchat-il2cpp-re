@@ -5,36 +5,36 @@
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class BasicClient : Object
+    public class BasicClient : Authenticate
     {
         // ── Methods ──
-        public void Authenticate(){} // RVA: 0x7FFE87685830
-        public void GetBytes(){} // RVA: 0x7FFE87685AA0
-        public void InternalAuthenticate(){} // RVA: 0x7FFE87685B50
-        public void PreAuthenticate(){} // RVA: 0x7FFE87685EB0
-        public void get_AuthenticationType(){} // RVA: 0x7FFE87685ED0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Authenticate(){} // RVA: 0x7FFAF95F6580
+        public void GetBytes(){} // RVA: 0x7FFAF95F67F0
+        public void InternalAuthenticate(){} // RVA: 0x7FFAF95F68A0
+        public void PreAuthenticate(){} // RVA: 0x7FFAF95F6C00
+        public void get_AuthenticationType(){} // RVA: 0x7FFAF95F6C20
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class BindIPEndPoint : MulticastDelegate
+    public class BindIPEndPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86E29980
-        public void Invoke(){} // RVA: 0x7FFE812574E0
+        public void .ctor(){} // RVA: 0x7FFAF8D98F50
+        public void Invoke(){} // RVA: 0x7FFAF2EE94E0
     }
 
-    public class BufferOffsetSize : Object
+    public class BufferOffsetSize
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87669A20 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF95DA760 | overloaded x2
     }
 
-    public class BufferedReadStream : WebReadStream
+    public class BufferedReadStream
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87685F10
-        public void ProcessReadAsync(){} // RVA: 0x7FFE87685F80
-        public void TryReadFromBuffer(){} // RVA: 0x7FFE87686200
+        public void .ctor(){} // RVA: 0x7FFAF95F6C60
+        public void ProcessReadAsync(){} // RVA: 0x7FFAF95F6CD0
+        public void TryReadFromBuffer(){} // RVA: 0x7FFAF95F6F50
     }
 
 }

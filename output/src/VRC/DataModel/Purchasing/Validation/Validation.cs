@@ -5,20 +5,20 @@
 
 namespace VRC.DataModel.Purchasing.Validation
 {
-    public class CreditBundleValidationParams : ValidationParams
+    public class CreditBundleValidationParams
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE82B98F90
-        public void Initialize(){} // RVA: 0x7FFE82B9A2C0
-        public void get_RequiresStoring(){} // RVA: 0x7FFE811E0850
+        public void set_RequiresStoring(){} // RVA: 0x7FFAF48BC990
+        public void .ctor(){} // RVA: 0x7FFAF48BB570
+        public void get_RequiresStoring(){} // RVA: 0x7FFAF2E72850
     }
 
-    public class SubscriptionValidationParams : ValidationParams
+    public class SubscriptionValidationParams
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE82B98F90
-        public void get_RequiresStoring(){} // RVA: 0x7FFE810FB320
-        public void set_RequiresStoring(){} // RVA: 0x7FFE82B9B130
+        public void get_RequiresStoring(){} // RVA: 0x7FFAF2D8D320
+        public void .ctor(){} // RVA: 0x7FFAF48BB570
+        public void Initialize(){} // RVA: 0x7FFAF48BD800
     }
 
 }

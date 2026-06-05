@@ -5,84 +5,77 @@
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class AbstractProgressBar : BindableElement
+    public class AbstractProgressBar
     {
-        public string ussClassName;
-        public string containerUssClassName; // 0x8
-        public string titleUssClassName; // 0x10
-        public string titleContainerUssClassName; // 0x18
-
         // ── Methods ──
-        public void set_title(){} // RVA: 0x7FFE87EF9110
-        public void get_lowValue(){} // RVA: 0x7FFE87EF9140
-        public void set_lowValue(){} // RVA: 0x7FFE87EF9150
-        public void get_highValue(){} // RVA: 0x7FFE87EF9170
-        public void set_highValue(){} // RVA: 0x7FFE87EF9180
-        public void .ctor(){} // RVA: 0x7FFE87EF91A0
-        public void OnGeometryChanged(){} // RVA: 0x7FFE87EF9660
-        public void get_value(){} // RVA: 0x7FFE87EF9690
-        public void set_value(){} // RVA: 0x7FFE87EF96A0
-        public void SetValueWithoutNotify(){} // RVA: 0x7FFE87EF9890
-        public void SetProgress(){} // RVA: 0x7FFE87EF98D0
-        public void CalculateProgressWidth(){} // RVA: 0x7FFE87EF9AB0
-        public void .cctor(){} // RVA: 0x7FFE87EF9B60
+        public void set_title(){} // RVA: 0x7FFAF9E68F70
+        public void get_lowValue(){} // RVA: 0x7FFAF9E68FA0
+        public void set_lowValue(){} // RVA: 0x7FFAF9E68FB0
+        public void get_highValue(){} // RVA: 0x7FFAF9E68FD0
+        public void set_highValue(){} // RVA: 0x7FFAF9E68FE0
+        public void .ctor(){} // RVA: 0x7FFAF9E69000
+        public void OnGeometryChanged(){} // RVA: 0x7FFAF9E694C0
+        public void get_value(){} // RVA: 0x7FFAF9E694F0
+        public void set_value(){} // RVA: 0x7FFAF9E69500
+        public void SetValueWithoutNotify(){} // RVA: 0x7FFAF9E696F0
+        public void SetProgress(){} // RVA: 0x7FFAF9E69730
+        public void CalculateProgressWidth(){} // RVA: 0x7FFAF9E69910
+        public void .cctor(){} // RVA: 0x7FFAF9E699C0
     }
 
-    public class AlignmentUtils : Object
+    public class AlignmentUtils
     {
         // ── Methods ──
-        public void RoundToPixelGrid(){} // RVA: 0x7FFE87E23990
-        public void CeilToPixelGrid(){} // RVA: 0x7FFE87E239C0
+        public void RoundToPixelGrid(){} // RVA: 0x7FFAF9D93810
+        public void CeilToPixelGrid(){} // RVA: 0x7FFAF9D93840
     }
 
-    public class AncestorFilter : Object
+    public class AncestorFilter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87F12920
-        public void AddHash(){} // RVA: 0x7FFE87F129E0
-        public void IsCandidate(){} // RVA: 0x7FFE87F12AA0
-        public void PushElement(){} // RVA: 0x7FFE87F12B10
-        public void PopElement(){} // RVA: 0x7FFE87F12DE0
+        public void .ctor(){} // RVA: 0x7FFAF9E82780
+        public void AddHash(){} // RVA: 0x7FFAF9E82840
+        public void IsCandidate(){} // RVA: 0x7FFAF9E82900
+        public void PushElement(){} // RVA: 0x7FFAF9E82970
+        public void PopElement(){} // RVA: 0x7FFAF9E82C40
     }
 
-    public class Angle : ValueType
+    public class Angle
     {
-        public float m_Value; // 0x10
-
         // ── Methods ──
-        public void None(){} // RVA: 0x7FFE87F7C010
-        public void get_value(){} // RVA: 0x7FFE82AB44F0
-        public void .ctor(){} // RVA: 0x7FFE838423C0 | overloaded x2
-        public void ToDegrees(){} // RVA: 0x7FFE87F7C030
-        public void op_Implicit(){} // RVA: 0x7FFE87F7C090
-        public void op_Equality(){} // RVA: 0x7FFE87F7C0B0
-        public void Equals(){} // RVA: 0x7FFE87F7C110 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE87F7C1C0
-        public void ToString(){} // RVA: 0x7FFE87F7C1E0
+        public void None(){} // RVA: 0x7FFAF9EEBE70
+        public void get_value(){} // RVA: 0x7FFAF47D6670
+        public void .ctor(){} // RVA: 0x7FFAF5610610 | overloaded x2
+        public void ToDegrees(){} // RVA: 0x7FFAF9EEBE90
+        public void op_Implicit(){} // RVA: 0x7FFAF9EEBEF0
+        public void op_Equality(){} // RVA: 0x7FFAF9EEBF10
+        public void Equals(){} // RVA: 0x7FFAF9EEBF70 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF9EEC020
+        public void ToString(){} // RVA: 0x7FFAF9EEC040
     }
 
-    public class AtlasBase : Object
+    public class AtlasBase
     {
         // ── Methods ──
-        public void TryGetAtlas(){} // RVA: 0x7FFE87E239F0
-        public void ReturnAtlas(){} // RVA: 0x7FFE810FB310
-        public void Reset(){} // RVA: 0x7FFE810FB310
-        public void OnAssignedToPanel(){} // RVA: 0x7FFE810FB310
-        public void OnRemovedFromPanel(){} // RVA: 0x7FFE810FB310
-        public void OnUpdateDynamicTextures(){} // RVA: 0x7FFE810FB310
-        public void InvokeAssignedToPanel(){} // RVA: 0x7FFE85B3A4A0
-        public void InvokeRemovedFromPanel(){} // RVA: 0x7FFE84D052B0
-        public void InvokeUpdateDynamicTextures(){} // RVA: 0x7FFE87739BF0
-        public void RepaintTexturedElements(){} // RVA: 0x7FFE87E23A60
-        public void SetDynamicTexture(){} // RVA: 0x7FFE87E23CA0
-        public void .ctor(){} // RVA: 0x7FFE87E23CC0
+        public void TryGetAtlas(){} // RVA: 0x7FFAF9D93870
+        public void ReturnAtlas(){} // RVA: 0x7FFAF2D8D310
+        public void Reset(){} // RVA: 0x7FFAF2D8D310
+        public void OnAssignedToPanel(){} // RVA: 0x7FFAF2D8D310
+        public void OnRemovedFromPanel(){} // RVA: 0x7FFAF2D8D310
+        public void OnUpdateDynamicTextures(){} // RVA: 0x7FFAF2D8D310
+        public void InvokeAssignedToPanel(){} // RVA: 0x7FFAF79962A0
+        public void InvokeRemovedFromPanel(){} // RVA: 0x7FFAF6B3EFF0
+        public void InvokeUpdateDynamicTextures(){} // RVA: 0x7FFAF96A8D40
+        public void RepaintTexturedElements(){} // RVA: 0x7FFAF9D938E0
+        public void SetDynamicTexture(){} // RVA: 0x7FFAF9D93B20
+        public void .ctor(){} // RVA: 0x7FFAF9D93B40
     }
 
-    public class AttachToPanelEvent : PanelChangedEventBase`1
+    public class AttachToPanelEvent
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F34810
-        public void .ctor(){} // RVA: 0x7FFE87F34900
+        public void .cctor(){} // RVA: 0x7FFAF9EA4670
+        public void .ctor(){} // RVA: 0x7FFAF9EA4760
     }
 
 }

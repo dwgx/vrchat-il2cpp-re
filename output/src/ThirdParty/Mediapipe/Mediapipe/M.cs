@@ -5,133 +5,110 @@
 
 namespace ThirdParty.Mediapipe.Mediapipe
 {
-    public class MatrixData : Object
+    public class MatrixData
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.MatrixData> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public int _hasBits0; // 0x18
-        public int RowsDefaultValue; // 0x8
-        public int rows_; // 0x1C
-        public int ColsDefaultValue; // 0xC
-        public int cols_; // 0x20
-        public Google.Protobuf.FieldCodec`1<float> _repeated_packedData_codec; // 0x10
-        public Google.Protobuf.Collections.RepeatedField`1<float> packedData_; // 0x28
-        public 0x6660C604 LayoutDefaultValue; // 0x18
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFE8665E520
-        public void get_Descriptor(){} // RVA: 0x7FFE8665E580
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE8665E640
-        public void .ctor(){} // RVA: 0x7FFE8665E7F0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE8665E9A0
-        public void get_Rows(){} // RVA: 0x7FFE8665EB80
-        public void set_Rows(){} // RVA: 0x7FFE8659D0A0
-        public void get_HasRows(){} // RVA: 0x7FFE8659D0B0
-        public void ClearRows(){} // RVA: 0x7FFE8659D0C0
-        public void get_Cols(){} // RVA: 0x7FFE8665EBF0
-        public void set_Cols(){} // RVA: 0x7FFE8659D140
-        public void get_HasCols(){} // RVA: 0x7FFE8659D150
-        public void ClearCols(){} // RVA: 0x7FFE8659D160
-        public void get_PackedData(){} // RVA: 0x7FFE81129130
-        public void get_Layout(){} // RVA: 0x7FFE8665EC60
-        public void set_Layout(){} // RVA: 0x7FFE865A0340
-        public void get_HasLayout(){} // RVA: 0x7FFE865A0350
-        public void ClearLayout(){} // RVA: 0x7FFE865A0360
-        public void Equals(){} // RVA: 0x7FFE8665EE30 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8665EF60
-        public void ToString(){} // RVA: 0x7FFE8665F000
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE8665F050
-        public void CalculateSize(){} // RVA: 0x7FFE8665F180
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE8665F4A0
-        public void .cctor(){} // RVA: 0x7FFE8665F610
+        public void get_Parser(){} // RVA: 0x7FFAF85CD6F0
+        public void get_Descriptor(){} // RVA: 0x7FFAF85CD750
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF85CD810
+        public void .ctor(){} // RVA: 0x7FFAF85CD9C0 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF85CDB70
+        public void get_Rows(){} // RVA: 0x7FFAF85CDD50
+        public void set_Rows(){} // RVA: 0x7FFAF850C3A0
+        public void get_HasRows(){} // RVA: 0x7FFAF850C3B0
+        public void ClearRows(){} // RVA: 0x7FFAF850C3C0
+        public void get_Cols(){} // RVA: 0x7FFAF85CDDC0
+        public void set_Cols(){} // RVA: 0x7FFAF850C440
+        public void get_HasCols(){} // RVA: 0x7FFAF850C450
+        public void ClearCols(){} // RVA: 0x7FFAF850C460
+        public void get_PackedData(){} // RVA: 0x7FFAF2DBB130
+        public void get_Layout(){} // RVA: 0x7FFAF85CDE30
+        public void set_Layout(){} // RVA: 0x7FFAF850F640
+        public void get_HasLayout(){} // RVA: 0x7FFAF850F650
+        public void ClearLayout(){} // RVA: 0x7FFAF850F660
+        public void Equals(){} // RVA: 0x7FFAF85CE000 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF85CE130
+        public void ToString(){} // RVA: 0x7FFAF85CE1D0
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF85CE220
+        public void CalculateSize(){} // RVA: 0x7FFAF85CE350
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF85CE670
+        public void .cctor(){} // RVA: 0x7FFAF85CE7E0
     }
 
-    public class MatrixDataReflection : Object
+    public class MatrixDataReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE8665DE30
-        public void .cctor(){} // RVA: 0x7FFE8665DE90
+        public void get_Descriptor(){} // RVA: 0x7FFAF85CD000
+        public void .cctor(){} // RVA: 0x7FFAF85CD060
     }
 
-    public class MediaPipeException : Exception
+    public class MediaPipeException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86614340
+        public void .ctor(){} // RVA: 0x7FFAF8583510
     }
 
-    public class MediaPipeOptions : Object
+    public class MediaPipeOptions
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.MediaPipeOptions> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public Google.Protobuf.ExtensionSet`1<Mediapipe.MediaPipeOptions> _extensions; // 0x18
-        public object field_3; // 0x1D0
-
         // ── Methods ──
-        public void get__Extensions(){} // RVA: 0x7FFE810FE7C0
-        public void get_Parser(){} // RVA: 0x7FFE86662BD0
-        public void get_Descriptor(){} // RVA: 0x7FFE86662C30
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFE86662CF0
-        public void .ctor(){} // RVA: 0x7FFE86662DE0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE86662F60
-        public void Equals(){} // RVA: 0x7FFE86663200 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE866632A0
-        public void ToString(){} // RVA: 0x7FFE86663310
-        public void WriteTo(){} // RVA: 0x7FFE8657A4A0
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFE86663360
-        public void CalculateSize(){} // RVA: 0x7FFE866633D0
-        public void MergeFrom(){} // RVA: 0x7FFE8657A7E0 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFE86663570
-        public void GetExtension(){} // RVA: 0x7FFE80E2E390 | overloaded x2
-        public void GetOrInitializeExtension(){} // RVA: 0x7FFE80E2E390
-        public void SetExtension(){} // RVA: 0x7FFE810A1420
-        public void HasExtension(){} // RVA: 0x7FFE80E2F3B0
-        public void ClearExtension(){} // RVA: 0x7FFE80E460A0 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE86663620
+        public void get__Extensions(){} // RVA: 0x7FFAF2D907C0
+        public void get_Parser(){} // RVA: 0x7FFAF85D1DA0
+        public void get_Descriptor(){} // RVA: 0x7FFAF85D1E00
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF85D1EC0
+        public void .ctor(){} // RVA: 0x7FFAF85D1FB0 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF85D2130
+        public void Equals(){} // RVA: 0x7FFAF85D23D0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF85D2470
+        public void ToString(){} // RVA: 0x7FFAF85D24E0
+        public void WriteTo(){} // RVA: 0x7FFAF84E9740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF85D2530
+        public void CalculateSize(){} // RVA: 0x7FFAF85D25A0
+        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF85D2740
+        public void GetExtension(){} // RVA: 0x7FFAF2ABCE10 | overloaded x2
+        public void GetOrInitializeExtension(){} // RVA: 0x7FFAF2ABCE10
+        public void SetExtension(){} // RVA: 0x7FFAF2D33FA0
+        public void HasExtension(){} // RVA: 0x7FFAF2ABDE40
+        public void ClearExtension(){} // RVA: 0x7FFAF2AD4B10 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF85D27F0
     }
 
-    public class MediaPipePluginException : Exception
+    public class MediaPipePluginException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866143A0
+        public void .ctor(){} // RVA: 0x7FFAF8583570
     }
 
-    public class MediapipeOptionsReflection : Object
+    public class MediapipeOptionsReflection
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFE86662740
-        public void .cctor(){} // RVA: 0x7FFE866627A0
+        public void get_Descriptor(){} // RVA: 0x7FFAF85D1910
+        public void .cctor(){} // RVA: 0x7FFAF85D1970
     }
 
-    public class MpResourceHandle : DisposableObject
+    public class MpResourceHandle
     {
-        public UIntPtr _ptr; // 0x18
-        public uint DefaultAlignmentBoundary;
-
         // ── Methods ──
-        public void get_ptr(){} // RVA: 0x7FFE810FE7C0
-        public void set_ptr(){} // RVA: 0x7FFE86614400
-        public void .ctor(){} // RVA: 0x7FFE84A4B910 | overloaded x2
-        public void get_mpPtr(){} // RVA: 0x7FFE86614490
-        public void ReleaseMpResource(){} // RVA: 0x7FFE86614520
-        public void OwnsResource(){} // RVA: 0x7FFE86614570
-        public void DisposeUnmanaged(){} // RVA: 0x7FFE86614590
-        public void ReleaseMpPtr(){} // RVA: 0x7FFE866145E0
-        public void DeleteMpPtr(){} // RVA: 0x7FFE80E45FE0
-        public void MarshalStringFromNative(){} // RVA: 0x7FFE86614720 | overloaded x2
-        public void AssertStatusOk(){} // RVA: 0x7FFE866147D0
-        public void IsResourcePresent(){} // RVA: 0x7FFE866148F0
+        public void get_ptr(){} // RVA: 0x7FFAF2D907C0
+        public void set_ptr(){} // RVA: 0x7FFAF85835D0
+        public void .ctor(){} // RVA: 0x7FFAF688B3A0 | overloaded x2
+        public void get_mpPtr(){} // RVA: 0x7FFAF8583660
+        public void ReleaseMpResource(){} // RVA: 0x7FFAF85836F0
+        public void OwnsResource(){} // RVA: 0x7FFAF8583740
+        public void DisposeUnmanaged(){} // RVA: 0x7FFAF8583760
+        public void ReleaseMpPtr(){} // RVA: 0x7FFAF85837B0
+        public void DeleteMpPtr(){} // RVA: 0x7FFAF2AD4A50
+        public void MarshalStringFromNative(){} // RVA: 0x7FFAF85838F0 | overloaded x2
+        public void AssertStatusOk(){} // RVA: 0x7FFAF85839A0
+        public void IsResourcePresent(){} // RVA: 0x7FFAF8583AC0
     }
 
-    public class MpReturnCodeExtension : Object
+    public class MpReturnCodeExtension
     {
         // ── Methods ──
-        public void Assert(){} // RVA: 0x7FFE8661D380
+        public void Assert(){} // RVA: 0x7FFAF858C550
     }
 
 }

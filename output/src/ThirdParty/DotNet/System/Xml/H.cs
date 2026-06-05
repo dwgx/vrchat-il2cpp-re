@@ -5,109 +5,106 @@
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class HWStack : Object
+    public class HWStack
     {
-        public object[] stack; // 0x10
-        public int growthRate; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE875AD840 | overloaded x3
-        public void Push(){} // RVA: 0x7FFE875AD490
-        public void Pop(){} // RVA: 0x7FFE875AD610
-        public void Peek(){} // RVA: 0x7FFE875AD650
-        public void AddToTop(){} // RVA: 0x7FFE875AD690
-        public void get_Item(){} // RVA: 0x7FFE875AD710
-        public void set_Item(){} // RVA: 0x7FFE875AD790
-        public void get_Length(){} // RVA: 0x7FFE82707EE0
-        public void Clone(){} // RVA: 0x7FFE875AD8B0
+        public void .ctor(){} // RVA: 0x7FFAF951E550 | overloaded x3
+        public void Push(){} // RVA: 0x7FFAF951E1A0
+        public void Pop(){} // RVA: 0x7FFAF951E320
+        public void Peek(){} // RVA: 0x7FFAF951E360
+        public void AddToTop(){} // RVA: 0x7FFAF951E3A0
+        public void get_Item(){} // RVA: 0x7FFAF951E420
+        public void set_Item(){} // RVA: 0x7FFAF951E4A0
+        public void get_Length(){} // RVA: 0x7FFAF442C3B0
+        public void Clone(){} // RVA: 0x7FFAF951E5C0
     }
 
-    public class HtmlEncodedRawTextWriter : XmlEncodedRawTextWriter
+    public class HtmlEncodedRawTextWriter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8743DEB0 | overloaded x2
-        public void WriteXmlDeclaration(){} // RVA: 0x7FFE810FB310 | overloaded x2
-        public void WriteDocType(){} // RVA: 0x7FFE8743DEE0
-        public void WriteStartElement(){} // RVA: 0x7FFE8743E1E0
-        public void StartElementContent(){} // RVA: 0x7FFE8743E3B0
-        public void WriteEndElement(){} // RVA: 0x7FFE8743E410
-        public void WriteFullEndElement(){} // RVA: 0x7FFE8743E560
-        public void WriteStartAttribute(){} // RVA: 0x7FFE8743E6B0
-        public void WriteEndAttribute(){} // RVA: 0x7FFE8743E850
-        public void WriteProcessingInstruction(){} // RVA: 0x7FFE8743E8E0
-        public void WriteString(){} // RVA: 0x7FFE8743EA20
-        public void WriteEntityRef(){} // RVA: 0x7FFE8743EB10
-        public void WriteCharEntity(){} // RVA: 0x7FFE8743EB70
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7FFE8743EBD0
-        public void WriteChars(){} // RVA: 0x7FFE8743EC30
-        public void Init(){} // RVA: 0x7FFE8743ECC0
-        public void WriteMetaElement(){} // RVA: 0x7FFE8743F0C0
-        public void WriteHtmlElementTextBlock(){} // RVA: 0x7FFE8743F2B0
-        public void WriteHtmlAttributeTextBlock(){} // RVA: 0x7FFE8743F2D0
-        public void WriteHtmlAttributeText(){} // RVA: 0x7FFE8743F320
-        public void WriteUriAttributeText(){} // RVA: 0x7FFE8743F6A0
-        public void OutputRestAmps(){} // RVA: 0x7FFE8743FAF0
+        public void .ctor(){} // RVA: 0x7FFAF93AEBE0 | overloaded x2
+        public void WriteXmlDeclaration(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
+        public void WriteDocType(){} // RVA: 0x7FFAF93AEC10
+        public void WriteStartElement(){} // RVA: 0x7FFAF93AEF10
+        public void StartElementContent(){} // RVA: 0x7FFAF93AF0E0
+        public void WriteEndElement(){} // RVA: 0x7FFAF93AF140
+        public void WriteFullEndElement(){} // RVA: 0x7FFAF93AF290
+        public void WriteStartAttribute(){} // RVA: 0x7FFAF93AF3E0
+        public void WriteEndAttribute(){} // RVA: 0x7FFAF93AF580
+        public void WriteProcessingInstruction(){} // RVA: 0x7FFAF93AF610
+        public void WriteString(){} // RVA: 0x7FFAF93AF750
+        public void WriteEntityRef(){} // RVA: 0x7FFAF93AF840
+        public void WriteCharEntity(){} // RVA: 0x7FFAF93AF8A0
+        public void WriteSurrogateCharEntity(){} // RVA: 0x7FFAF93AF900
+        public void WriteChars(){} // RVA: 0x7FFAF93AF960
+        public void Init(){} // RVA: 0x7FFAF93AF9F0
+        public void WriteMetaElement(){} // RVA: 0x7FFAF93AFDF0
+        public void WriteHtmlElementTextBlock(){} // RVA: 0x7FFAF93AFFE0
+        public void WriteHtmlAttributeTextBlock(){} // RVA: 0x7FFAF93B0000
+        public void WriteHtmlAttributeText(){} // RVA: 0x7FFAF93B0050
+        public void WriteUriAttributeText(){} // RVA: 0x7FFAF93B03D0
+        public void OutputRestAmps(){} // RVA: 0x7FFAF93B0820
     }
 
-    public class HtmlEncodedRawTextWriterIndent : HtmlEncodedRawTextWriter
+    public class HtmlEncodedRawTextWriterIndent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8743FC40 | overloaded x2
-        public void WriteDocType(){} // RVA: 0x7FFE8743FCF0
-        public void WriteStartElement(){} // RVA: 0x7FFE8743FD20
-        public void StartElementContent(){} // RVA: 0x7FFE8743FF10
-        public void WriteEndElement(){} // RVA: 0x7FFE8743FF90
-        public void WriteStartAttribute(){} // RVA: 0x7FFE87440030
-        public void FlushBuffer(){} // RVA: 0x7FFE874400D0
-        public void Init(){} // RVA: 0x7FFE874400F0
-        public void WriteIndent(){} // RVA: 0x7FFE87440180
+        public void .ctor(){} // RVA: 0x7FFAF93B0970 | overloaded x2
+        public void WriteDocType(){} // RVA: 0x7FFAF93B0A20
+        public void WriteStartElement(){} // RVA: 0x7FFAF93B0A50
+        public void StartElementContent(){} // RVA: 0x7FFAF93B0C40
+        public void WriteEndElement(){} // RVA: 0x7FFAF93B0CC0
+        public void WriteStartAttribute(){} // RVA: 0x7FFAF93B0D60
+        public void FlushBuffer(){} // RVA: 0x7FFAF93B0E00
+        public void Init(){} // RVA: 0x7FFAF93B0E20
+        public void WriteIndent(){} // RVA: 0x7FFAF93B0EB0
     }
 
-    public class HtmlTernaryTree : Object
+    public class HtmlTernaryTree
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87440200
+        public void .cctor(){} // RVA: 0x7FFAF93B0F30
     }
 
-    public class HtmlUtf8RawTextWriter : XmlUtf8RawTextWriter
+    public class HtmlUtf8RawTextWriter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE874403A0
-        public void WriteXmlDeclaration(){} // RVA: 0x7FFE810FB310 | overloaded x2
-        public void WriteDocType(){} // RVA: 0x7FFE874403D0
-        public void WriteStartElement(){} // RVA: 0x7FFE874406A0
-        public void StartElementContent(){} // RVA: 0x7FFE87440830
-        public void WriteEndElement(){} // RVA: 0x7FFE87440880
-        public void WriteFullEndElement(){} // RVA: 0x7FFE874409B0
-        public void WriteStartAttribute(){} // RVA: 0x7FFE87440AE0
-        public void WriteEndAttribute(){} // RVA: 0x7FFE87440C60
-        public void WriteProcessingInstruction(){} // RVA: 0x7FFE87440CD0
-        public void WriteString(){} // RVA: 0x7FFE87440DE0
-        public void WriteEntityRef(){} // RVA: 0x7FFE87440E80
-        public void WriteCharEntity(){} // RVA: 0x7FFE87440EE0
-        public void WriteSurrogateCharEntity(){} // RVA: 0x7FFE87440F40
-        public void WriteChars(){} // RVA: 0x7FFE87440FA0
-        public void Init(){} // RVA: 0x7FFE87440FF0
-        public void WriteMetaElement(){} // RVA: 0x7FFE874413F0
-        public void WriteHtmlElementTextBlock(){} // RVA: 0x7FFE874415E0
-        public void WriteHtmlAttributeTextBlock(){} // RVA: 0x7FFE87441600
-        public void WriteHtmlAttributeText(){} // RVA: 0x7FFE87441650
-        public void WriteUriAttributeText(){} // RVA: 0x7FFE87441940
-        public void OutputRestAmps(){} // RVA: 0x7FFE87441D20
+        public void .ctor(){} // RVA: 0x7FFAF93B10D0
+        public void WriteXmlDeclaration(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
+        public void WriteDocType(){} // RVA: 0x7FFAF93B1100
+        public void WriteStartElement(){} // RVA: 0x7FFAF93B13D0
+        public void StartElementContent(){} // RVA: 0x7FFAF93B1560
+        public void WriteEndElement(){} // RVA: 0x7FFAF93B15B0
+        public void WriteFullEndElement(){} // RVA: 0x7FFAF93B16E0
+        public void WriteStartAttribute(){} // RVA: 0x7FFAF93B1810
+        public void WriteEndAttribute(){} // RVA: 0x7FFAF93B1990
+        public void WriteProcessingInstruction(){} // RVA: 0x7FFAF93B1A00
+        public void WriteString(){} // RVA: 0x7FFAF93B1B10
+        public void WriteEntityRef(){} // RVA: 0x7FFAF93B1BB0
+        public void WriteCharEntity(){} // RVA: 0x7FFAF93B1C10
+        public void WriteSurrogateCharEntity(){} // RVA: 0x7FFAF93B1C70
+        public void WriteChars(){} // RVA: 0x7FFAF93B1CD0
+        public void Init(){} // RVA: 0x7FFAF93B1D20
+        public void WriteMetaElement(){} // RVA: 0x7FFAF93B2120
+        public void WriteHtmlElementTextBlock(){} // RVA: 0x7FFAF93B2310
+        public void WriteHtmlAttributeTextBlock(){} // RVA: 0x7FFAF93B2330
+        public void WriteHtmlAttributeText(){} // RVA: 0x7FFAF93B2380
+        public void WriteUriAttributeText(){} // RVA: 0x7FFAF93B2670
+        public void OutputRestAmps(){} // RVA: 0x7FFAF93B2A50
     }
 
-    public class HtmlUtf8RawTextWriterIndent : HtmlUtf8RawTextWriter
+    public class HtmlUtf8RawTextWriterIndent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87552460
-        public void WriteDocType(){} // RVA: 0x7FFE87552510
-        public void WriteStartElement(){} // RVA: 0x7FFE87552540
-        public void StartElementContent(){} // RVA: 0x7FFE87552700
-        public void WriteEndElement(){} // RVA: 0x7FFE87552780
-        public void WriteStartAttribute(){} // RVA: 0x7FFE87552910
-        public void FlushBuffer(){} // RVA: 0x7FFE875529B0
-        public void Init(){} // RVA: 0x7FFE875529D0
-        public void WriteIndent(){} // RVA: 0x7FFE87552A60
+        public void .ctor(){} // RVA: 0x7FFAF94C3160
+        public void WriteDocType(){} // RVA: 0x7FFAF94C3210
+        public void WriteStartElement(){} // RVA: 0x7FFAF94C3240
+        public void StartElementContent(){} // RVA: 0x7FFAF94C3400
+        public void WriteEndElement(){} // RVA: 0x7FFAF94C3480
+        public void WriteStartAttribute(){} // RVA: 0x7FFAF94C3610
+        public void FlushBuffer(){} // RVA: 0x7FFAF94C36B0
+        public void Init(){} // RVA: 0x7FFAF94C36D0
+        public void WriteIndent(){} // RVA: 0x7FFAF94C3760
     }
 
 }

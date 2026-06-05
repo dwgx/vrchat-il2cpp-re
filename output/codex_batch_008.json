@@ -1,0 +1,334 @@
+[
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_EB90",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C28",
+      "m_08E",
+      "m_E05",
+      "m_0DE",
+      "m_FBE",
+      "m_A83",
+      "m_E78",
+      "m_98F"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_64C4",
+    "parent": "",
+    "readable_methods": [
+      "OnDestroy",
+      "Start",
+      "FixedUpdate",
+      "Update",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_515",
+      "m_18C",
+      "m_D35",
+      "m_8A5",
+      "m_7CB",
+      "m_7D6",
+      "m_55D",
+      "m_8E4"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSiblSibling_6559",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Initialize_D74F9E3B7B27",
+      "set_Value",
+      "set_Value_F501E422C7A0",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6FB",
+      "m_E99",
+      "m_CA6",
+      "m_3EF",
+      "m_320",
+      "m_88F",
+      "m_82F",
+      "m_C63"
+    ]
+  },
+  {
+    "class": "SearchInFieldsUser",
+    "parent": "",
+    "readable_methods": [
+      "OnDestroy",
+      "Initialize",
+      "Create",
+      "set_FieldDescriptions",
+      "set_FieldDescriptions_26C8A9703E9D"
+    ],
+    "fields": [
+      "System.Collections.Generic.IEnumerator<System.String>.Current"
+    ],
+    "hash_methods": [
+      "m_D8D",
+      "m_ED0",
+      "m_290",
+      "m_886",
+      "m_BFE",
+      "m_D8E",
+      "m_BFE",
+      "m_B69"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSiblingSibling_6759",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "FixedUpdate",
+      "LateUpdate",
+      "OnDisable",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_866",
+      "m_341",
+      "m_41F",
+      "m_FAC",
+      "m_26A",
+      "m_F74",
+      "m_86C"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibling_F695",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "OnEnable_2B4F45D701AE",
+      ".ctor_F5D8351B397B",
+      "Initialize",
+      "OnEnable_47A10BA8D1AE",
+      "OnDisable_914733A6A1BE"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3F5",
+      "m_3CB",
+      "m_6C3",
+      "m_FA4",
+      "m_DD0",
+      "m_6C3",
+      "m_E2E"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_211F",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_15A",
+      "m_AF5",
+      "m_BFE",
+      "m_F88",
+      "m_D3F",
+      "m_8C2"
+    ]
+  },
+  {
+    "class": "ComplexComponentSiblingSiblingSibling_744C",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_47F",
+      "m_2B3",
+      "m_0C8",
+      "m_5B4",
+      "m_9DA",
+      "m_8C1"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_DC89",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CC7",
+      "m_EB7",
+      "m_719",
+      "m_CAD",
+      "m_4C2",
+      "m_99E"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_8790",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy_5EBCFECE988F"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2CD",
+      "m_47C",
+      "m_C7E",
+      "m_DDD",
+      "m_856",
+      "m_B25"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_9AEA",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Initialize",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_0C0",
+      "m_852",
+      "m_714",
+      "m_72E",
+      "m_2CD",
+      "m_C3B"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_A56F",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_0B8",
+      "m_F23",
+      "m_863",
+      "m_49E",
+      "m_2CD",
+      "m_AA8"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_8051",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B3D",
+      "m_862",
+      "m_988",
+      "m_6B3",
+      "m_D0C",
+      "m_3B0"
+    ]
+  },
+  {
+    "class": "UdonBehaviourResultBytes_CF3F_6FF8",
+    "parent": "",
+    "readable_methods": [
+      "set_Result",
+      "set_Error",
+      "set_ResultBytes",
+      "set_Url",
+      "set_ErrorCode",
+      "set_ErrorCode_AAB5870B7AE6",
+      "set_ErrorCode_EE06E0422BED",
+      "set_ErrorCode_985A7F61E844"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_711",
+      "m_255",
+      "m_03B",
+      "m_41A",
+      "m_3FF"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_F228_C689",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnDisable",
+      "GetMaterial",
+      "Update",
+      "LateUpdate",
+      "OnDestroy",
+      "Initialize",
+      "FixedUpdate"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6B3",
+      "m_AF5",
+      "m_B77",
+      "m_713",
+      "m_A48"
+    ]
+  }
+]

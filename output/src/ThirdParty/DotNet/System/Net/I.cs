@@ -8,9 +8,9 @@ namespace ThirdParty.DotNet.System.Net
     public class IAuthenticationModule
     {
         // ── Methods ──
-        public void Authenticate(){} // RVA: 0x7FFE80E403A0
-        public void PreAuthenticate(){} // RVA: 0x7FFE80E3FC10
-        public void get_AuthenticationType(){} // RVA: 0x7FFE80E2E2E0
+        public void Authenticate(){} // RVA: 0x7FFAF2ACEE30
+        public void PreAuthenticate(){} // RVA: 0x7FFAF2ACE6A0
+        public void get_AuthenticationType(){} // RVA: 0x7FFAF2ABCD60
     }
 
     public class ICertificatePolicy
@@ -22,7 +22,7 @@ namespace ThirdParty.DotNet.System.Net
     public class ICloseEx
     {
         // ── Methods ──
-        public void CloseEx(){} // RVA: 0x7FFE80E46530
+        public void CloseEx(){} // RVA: 0x7FFAF2AD4FA0
     }
 
     public class ICredentialPolicy
@@ -32,118 +32,101 @@ namespace ThirdParty.DotNet.System.Net
     public class ICredentials
     {
         // ── Methods ──
-        public void GetCredential(){} // RVA: 0x7FFE80E3FC10
+        public void GetCredential(){} // RVA: 0x7FFAF2ACE6A0
     }
 
-    public class IPAddress : Object
+    public class IPAddress
     {
-        public System.Net.IPAddress Any;
-        public System.Net.IPAddress Loopback; // 0x8
-        public System.Net.IPAddress Broadcast; // 0x10
-        public System.Net.IPAddress None; // 0x18
-        public long LoopbackMask;
-        public System.Net.IPAddress IPv6Any; // 0x20
-        public System.Net.IPAddress IPv6Loopback; // 0x28
-        public System.Net.IPAddress IPv6None; // 0x30
-
         // ── Methods ──
-        public void get_IsIPv4(){} // RVA: 0x7FFE83BA1AA0
-        public void get_IsIPv6(){} // RVA: 0x7FFE82AC8EE0
-        public void get_PrivateAddress(){} // RVA: 0x7FFE811485C0
-        public void set_PrivateAddress(){} // RVA: 0x7FFE8780DE70
-        public void get_PrivateScopeId(){} // RVA: 0x7FFE811485C0
-        public void set_PrivateScopeId(){} // RVA: 0x7FFE8780DE70
-        public void .ctor(){} // RVA: 0x7FFE8780E4D0 | overloaded x7
-        public void TryParse(){} // RVA: 0x7FFE8780E6B0
-        public void Parse(){} // RVA: 0x7FFE8780E7F0
-        public void TryWriteBytes(){} // RVA: 0x7FFE8780E8A0
-        public void WriteIPv6Bytes(){} // RVA: 0x7FFE8780E9A0
-        public void WriteIPv4Bytes(){} // RVA: 0x7FFE8780EA40
-        public void GetAddressBytes(){} // RVA: 0x7FFE8780EA90
-        public void get_AddressFamily(){} // RVA: 0x7FFE8780EC00
-        public void get_ScopeId(){} // RVA: 0x7FFE8780EC20
-        public void ToString(){} // RVA: 0x7FFE8780EC80
-        public void HostToNetworkOrder(){} // RVA: 0x7FFE8780ED80 | overloaded x2
-        public void NetworkToHostOrder(){} // RVA: 0x7FFE8780EDF0 | overloaded x2
-        public void IsLoopback(){} // RVA: 0x7FFE8780EE40
-        public void get_IsIPv6LinkLocal(){} // RVA: 0x7FFE8780EF20
-        public void get_Address(){} // RVA: 0x7FFE8780EF60
-        public void Equals(){} // RVA: 0x7FFE8780F110 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE8780F120
-        public void MapToIPv6(){} // RVA: 0x7FFE8780F500
-        public void ThrowAddressNullException(){} // RVA: 0x7FFE8780F6A0
-        public void .cctor(){} // RVA: 0x7FFE8780F6F0
+        public void get_IsIPv4(){} // RVA: 0x7FFAF5982970
+        public void get_IsIPv6(){} // RVA: 0x7FFAF47EB060
+        public void get_PrivateAddress(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_PrivateAddress(){} // RVA: 0x7FFAF977CFD0
+        public void get_PrivateScopeId(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_PrivateScopeId(){} // RVA: 0x7FFAF977CFD0
+        public void .ctor(){} // RVA: 0x7FFAF977D630 | overloaded x7
+        public void TryParse(){} // RVA: 0x7FFAF977D810
+        public void Parse(){} // RVA: 0x7FFAF977D950
+        public void TryWriteBytes(){} // RVA: 0x7FFAF977DA00
+        public void WriteIPv6Bytes(){} // RVA: 0x7FFAF977DB00
+        public void WriteIPv4Bytes(){} // RVA: 0x7FFAF977DBA0
+        public void GetAddressBytes(){} // RVA: 0x7FFAF977DBF0
+        public void get_AddressFamily(){} // RVA: 0x7FFAF977DD60
+        public void get_ScopeId(){} // RVA: 0x7FFAF977DD80
+        public void ToString(){} // RVA: 0x7FFAF977DDE0
+        public void HostToNetworkOrder(){} // RVA: 0x7FFAF977DEE0 | overloaded x2
+        public void NetworkToHostOrder(){} // RVA: 0x7FFAF977DF50 | overloaded x2
+        public void IsLoopback(){} // RVA: 0x7FFAF977DFA0
+        public void get_IsIPv6LinkLocal(){} // RVA: 0x7FFAF977E080
+        public void get_Address(){} // RVA: 0x7FFAF977E0C0
+        public void Equals(){} // RVA: 0x7FFAF977E270 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF977E280
+        public void MapToIPv6(){} // RVA: 0x7FFAF977E660
+        public void ThrowAddressNullException(){} // RVA: 0x7FFAF977E800
+        public void .cctor(){} // RVA: 0x7FFAF977E850
     }
 
-    public class IPAddressParser : Object
+    public class IPAddressParser
     {
         // ── Methods ──
-        public void Parse(){} // RVA: 0x7FFE8780FDF0
-        public void IPv4AddressToString(){} // RVA: 0x7FFE87810340 | overloaded x2
-        public void IPv4AddressToStringHelper(){} // RVA: 0x7FFE878103B0
-        public void IPv6AddressToString(){} // RVA: 0x7FFE878105C0
-        public void IPv6AddressToStringHelper(){} // RVA: 0x7FFE87810620
-        public void FormatIPv4AddressNumber(){} // RVA: 0x7FFE87810A20
-        public void Ipv4StringToAddress(){} // RVA: 0x7FFE87810AD0
-        public void Ipv6StringToAddress(){} // RVA: 0x7FFE87810BA0
-        public void AppendSections(){} // RVA: 0x7FFE87810CE0
-        public void AppendHex(){} // RVA: 0x7FFE87810EB0
-        public void ExtractIPv4Address(){} // RVA: 0x7FFE87810F70
-        public void Reverse(){} // RVA: 0x7FFE86950AC0
+        public void Parse(){} // RVA: 0x7FFAF977EF50
+        public void IPv4AddressToString(){} // RVA: 0x7FFAF977F4A0 | overloaded x2
+        public void IPv4AddressToStringHelper(){} // RVA: 0x7FFAF977F510
+        public void IPv6AddressToString(){} // RVA: 0x7FFAF977F720
+        public void IPv6AddressToStringHelper(){} // RVA: 0x7FFAF977F780
+        public void FormatIPv4AddressNumber(){} // RVA: 0x7FFAF977FB80
+        public void Ipv4StringToAddress(){} // RVA: 0x7FFAF977FC30
+        public void Ipv6StringToAddress(){} // RVA: 0x7FFAF977FD00
+        public void AppendSections(){} // RVA: 0x7FFAF977FE40
+        public void AppendHex(){} // RVA: 0x7FFAF9780010
+        public void ExtractIPv4Address(){} // RVA: 0x7FFAF97800D0
+        public void Reverse(){} // RVA: 0x7FFAF88BFC80
     }
 
-    public class IPEndPoint : EndPoint
+    public class IPEndPoint
     {
-        public int MinPort;
-        public int MaxPort;
-        public System.Net.IPAddress _address; // 0x10
-
         // ── Methods ──
-        public void get_AddressFamily(){} // RVA: 0x7FFE87810FC0
-        public void .ctor(){} // RVA: 0x7FFE87810FF0
-        public void get_Address(){} // RVA: 0x7FFE81116380
-        public void get_Port(){} // RVA: 0x7FFE813DB630
-        public void ToString(){} // RVA: 0x7FFE87811100
-        public void Serialize(){} // RVA: 0x7FFE87811290
-        public void Create(){} // RVA: 0x7FFE87811330
-        public void Equals(){} // RVA: 0x7FFE87811630
-        public void GetHashCode(){} // RVA: 0x7FFE87811700
-        public void .cctor(){} // RVA: 0x7FFE87811740
+        public void get_AddressFamily(){} // RVA: 0x7FFAF9780120
+        public void .ctor(){} // RVA: 0x7FFAF9780150
+        public void get_Address(){} // RVA: 0x7FFAF2DA8380
+        public void get_Port(){} // RVA: 0x7FFAF306ED50
+        public void ToString(){} // RVA: 0x7FFAF9780260
+        public void Serialize(){} // RVA: 0x7FFAF97803F0
+        public void Create(){} // RVA: 0x7FFAF9780490
+        public void Equals(){} // RVA: 0x7FFAF9780790
+        public void GetHashCode(){} // RVA: 0x7FFAF9780860
+        public void .cctor(){} // RVA: 0x7FFAF97808A0
     }
 
-    public class IPHostEntry : Object
+    public class IPHostEntry
     {
-        public string hostName; // 0x10
-        public string[] aliases; // 0x18
-        public System.Net.IPAddress[] addressList; // 0x20
-
         // ── Methods ──
-        public void get_HostName(){} // RVA: 0x7FFE81116380
-        public void set_HostName(){} // RVA: 0x7FFE810FCE30
-        public void set_Aliases(){} // RVA: 0x7FFE81161E80
-        public void get_AddressList(){} // RVA: 0x7FFE811290C0
-        public void set_AddressList(){} // RVA: 0x7FFE811290D0
-        public void .ctor(){} // RVA: 0x7FFE8225D1D0
+        public void get_HostName(){} // RVA: 0x7FFAF2DA8380
+        public void set_HostName(){} // RVA: 0x7FFAF2D8EE30
+        public void set_Aliases(){} // RVA: 0x7FFAF2DF3E80
+        public void get_AddressList(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_AddressList(){} // RVA: 0x7FFAF2DBB0D0
+        public void .ctor(){} // RVA: 0x7FFAF3F9C4C0
     }
 
     public class IWebProxy
     {
         // ── Methods ──
-        public void GetProxy(){} // RVA: 0x7FFE80E2E390
-        public void IsBypassed(){} // RVA: 0x7FFE80E2F3B0
-        public void get_Credentials(){} // RVA: 0x7FFE80E2E2E0
+        public void GetProxy(){} // RVA: 0x7FFAF2ABCE10
+        public void IsBypassed(){} // RVA: 0x7FFAF2ABDE40
+        public void get_Credentials(){} // RVA: 0x7FFAF2ABCD60
     }
 
     public class IWebRequestCreate
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE80E2E390
+        public void Create(){} // RVA: 0x7FFAF2ABCE10
     }
 
-    public class InternalException : SystemException
+    public class InternalException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867A3960
+        public void .ctor(){} // RVA: 0x7FFAF8712AC0
     }
 
 }

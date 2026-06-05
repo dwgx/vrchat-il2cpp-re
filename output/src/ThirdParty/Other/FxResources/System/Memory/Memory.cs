@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.FxResources.System.Memory
 {
-    public class SR : Object
+    public class SR
     {
     }
 

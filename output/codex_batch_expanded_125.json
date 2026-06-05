@@ -1,0 +1,125 @@
+[
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_A31A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationQuit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9CF",
+      "m_E40"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSibling_4465",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7FD",
+      "m_053"
+    ]
+  },
+  {
+    "class": "Unknown6m_D52C",
+    "parent": "ÌÌÍÌÌÎÏÏÍÎÍÌÍÌÏÌÎÏÌÏÏÍÏ",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B0B",
+      "m_FF6"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSibling_4021",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A74"
+    ]
+  },
+  {
+    "class": "MessengerHelperSiblingSiblingSibling_D560",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnDisable_0A17D448B2DB"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7FD"
+    ]
+  },
+  {
+    "class": "SerializableVector3Sibling_A9E6",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D74"
+    ]
+  },
+  {
+    "class": "ValidationParams",
+    "parent": "",
+    "namespace": "VRC.DataModel.Purchasing",
+    "readable_methods": [
+      "set_RequiresStoring"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_82C"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_226FSiblingSibling_36A8",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C9E"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_820F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_0AF"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSibling_4980",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_692"
+    ]
+  }
+]

@@ -1,19 +1,32 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI.Voyager.Content.Utils
-// Classes: 1
-// Methods: 6
+// Classes: 3
+// Methods: 9
 
 namespace VRC.UI.Voyager.Content.Utils
 {
-    public class WalletHelpers : Object
+    public class ProfileHelpers
     {
         // ── Methods ──
-        public void get_CreditsAmountFormatString(){} // RVA: 0x7FFE89E57670
-        public void get_CreditTokensGlyphSymbol(){} // RVA: 0x7FFE89E576B0
-        public void get_CreditTokensColorGlyphSymbol(){} // RVA: 0x7FFE89E576F0
-        public void get_StreamerModeWalletCensor(){} // RVA: 0x7FFE89E57730
-        public void FormatCreditAmount(){} // RVA: 0x7FFE89E57770
-        public void FormatWalletAmount(){} // RVA: 0x7FFE89E57830
+        public void GetIconForLink(){} // RVA: 0x7FFAFBE9BAA0
+        public void .cctor(){} // RVA: 0x7FFAFBE9BE90
+    }
+
+    public class WalletHelpers
+    {
+        // ── Methods ──
+        public void get_CreditsAmountFormatString(){} // RVA: 0x7FFAFBE9C720
+        public void get_CreditTokensGlyphSymbol(){} // RVA: 0x7FFAFBE9C760
+        public void get_CreditTokensColorGlyphSymbol(){} // RVA: 0x7FFAFBE9C7A0
+        public void get_StreamerModeWalletCensor(){} // RVA: 0x7FFAFBE9C7E0
+        public void FormatCreditAmount(){} // RVA: 0x7FFAFBE9C820
+        public void FormatWalletAmount(){} // RVA: 0x7FFAFBE9C8E0
+    }
+
+    public class WorldHelpers
+    {
+        // ── Methods ──
+        public void GetRegionIconString(){} // RVA: 0x7FFAFBE9CAF0
     }
 
 }

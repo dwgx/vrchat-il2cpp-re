@@ -5,63 +5,54 @@
 
 namespace ThirdParty.DotNet.System.IO.MemoryMappedFiles
 {
-    public class MemoryMapImpl : Object
+    public class MemoryMapImpl
     {
         // ── Methods ──
-        public void OpenHandleInternal(){} // RVA: 0x7FFE871B4F80
-        public void CloseMapping(){} // RVA: 0x7FFE871B4F90
-        public void Flush(){} // RVA: 0x7FFE871B5000
-        public void ConfigureHandleInheritability(){} // RVA: 0x7FFE871B50A0
-        public void Unmap(){} // RVA: 0x7FFE871B50C0
-        public void MapInternal(){} // RVA: 0x7FFE871B5100
-        public void Map(){} // RVA: 0x7FFE871B51C0
-        public void CreateException(){} // RVA: 0x7FFE871B52B0
-        public void StringLength(){} // RVA: 0x7FFE871B56C0
-        public void CheckString(){} // RVA: 0x7FFE871B56D0
-        public void OpenHandle(){} // RVA: 0x7FFE871B5760
+        public void OpenHandleInternal(){} // RVA: 0x7FFAF9126090
+        public void CloseMapping(){} // RVA: 0x7FFAF91260A0
+        public void Flush(){} // RVA: 0x7FFAF9126110
+        public void ConfigureHandleInheritability(){} // RVA: 0x7FFAF91261B0
+        public void Unmap(){} // RVA: 0x7FFAF91261D0
+        public void MapInternal(){} // RVA: 0x7FFAF9126210
+        public void Map(){} // RVA: 0x7FFAF91262D0
+        public void CreateException(){} // RVA: 0x7FFAF91263C0
+        public void StringLength(){} // RVA: 0x7FFAF91267D0
+        public void CheckString(){} // RVA: 0x7FFAF91267E0
+        public void OpenHandle(){} // RVA: 0x7FFAF9126870
     }
 
-    public class MemoryMappedFile : Object
+    public class MemoryMappedFile : CreateFromFile
     {
         // ── Methods ──
-        public void CreateFromFile(){} // RVA: 0x7FFE871B58A0
-        public void CreateViewAccessor(){} // RVA: 0x7FFE871B5C50
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Dispose(){} // RVA: 0x7FFE871B5DF0 | overloaded x2
-        public void GetFileAccess(){} // RVA: 0x7FFE871B5F00
+        public void CreateFromFile(){} // RVA: 0x7FFAF91269B0
+        public void CreateViewAccessor(){} // RVA: 0x7FFAF9126D60
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose(){} // RVA: 0x7FFAF9126F00 | overloaded x2
+        public void GetFileAccess(){} // RVA: 0x7FFAF9127010
     }
 
-    public class MemoryMappedView : Object
+    public class MemoryMappedView
     {
-        public Microsoft.Win32.SafeHandles.SafeMemoryMappedViewHandle m_viewHandle; // 0x10
-        public long m_pointerOffset; // 0x18
-        public long m_size; // 0x20
-        public 0x665F1DD4 m_access; // 0x28
-        public object field_4; // 0x3DD
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE871B5FA0
-        public void get_ViewHandle(){} // RVA: 0x7FFE81116380
-        public void get_PointerOffset(){} // RVA: 0x7FFE810FE7C0
-        public void get_Size(){} // RVA: 0x7FFE811290C0
-        public void get_Access(){} // RVA: 0x7FFE81549710
-        public void Create(){} // RVA: 0x7FFE871B6010
-        public void Flush(){} // RVA: 0x7FFE871B6320
-        public void Dispose(){} // RVA: 0x7FFE871B6410 | overloaded x2
-        public void get_IsClosed(){} // RVA: 0x7FFE871B6480
+        public void .ctor(){} // RVA: 0x7FFAF91270B0
+        public void get_ViewHandle(){} // RVA: 0x7FFAF2DA8380
+        public void get_PointerOffset(){} // RVA: 0x7FFAF2D907C0
+        public void get_Size(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_Access(){} // RVA: 0x7FFAF3241DC0
+        public void Create(){} // RVA: 0x7FFAF9127120
+        public void Flush(){} // RVA: 0x7FFAF9127430
+        public void Dispose(){} // RVA: 0x7FFAF9127520 | overloaded x2
+        public void get_IsClosed(){} // RVA: 0x7FFAF9127590
     }
 
-    public class MemoryMappedViewAccessor : UnmanagedMemoryAccessor
+    public class MemoryMappedViewAccessor
     {
-        public System.IO.MemoryMappedFiles.MemoryMappedView m_view; // 0x30
-        public object field_1; // 0x3DB
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE871B4A20
-        public void get_SafeMemoryMappedViewHandle(){} // RVA: 0x7FFE871B4B30
-        public void get_PointerOffset(){} // RVA: 0x7FFE871B4B50
-        public void Dispose(){} // RVA: 0x7FFE871B4BE0
-        public void Flush(){} // RVA: 0x7FFE871B4E50
+        public void .ctor(){} // RVA: 0x7FFAF9125B30
+        public void get_SafeMemoryMappedViewHandle(){} // RVA: 0x7FFAF9125C40
+        public void get_PointerOffset(){} // RVA: 0x7FFAF9125C60
+        public void Dispose(){} // RVA: 0x7FFAF9125CF0
+        public void Flush(){} // RVA: 0x7FFAF9125F60
     }
 
 }

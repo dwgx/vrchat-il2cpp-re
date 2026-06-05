@@ -1,0 +1,166 @@
+[
+  {
+    "class": "Static15m_857F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C96",
+      "m_A18",
+      "m_7D7",
+      "m_58E",
+      "m_FEF",
+      "m_1A9",
+      "m_2CD",
+      "m_6CD",
+      "m_830",
+      "m_D65",
+      "m_D4E"
+    ]
+  },
+  {
+    "class": "Static15m_857F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C96",
+      "m_A18",
+      "m_7D7",
+      "m_58E",
+      "m_FEF",
+      "m_1A9",
+      "m_2CD",
+      "m_6CD",
+      "m_830",
+      "m_D65",
+      "m_D4E"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1ESiblingSiSibling_0D41",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_73B",
+      "m_CA7",
+      "m_BC0",
+      "m_6B3",
+      "m_201",
+      "m_EE2",
+      "m_946"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1ESiblingSiSibling_1154",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_428",
+      "m_498",
+      "m_CE1",
+      "m_04C",
+      "m_6B3",
+      "m_C30",
+      "m_B5F"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1ESiblingSibling_A6F8",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_568",
+      "m_CA7",
+      "m_BC0",
+      "m_883",
+      "m_55A",
+      "m_498",
+      "m_32F"
+    ]
+  },
+  {
+    "class": "UIDirectToUpdate_E05C_FA6C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetAndroidStore",
+      "StartWithHighestBandwidth"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A28",
+      "m_B85"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_0261",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4F1"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_04F0",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CBC"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_083D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F60"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_1329",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DB7"
+    ]
+  }
+]

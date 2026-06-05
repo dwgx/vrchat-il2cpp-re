@@ -5,13 +5,11 @@
 
 namespace ThirdParty.Unity.UnityEngine.Serialization
 {
-    public class FormerlySerializedAsAttribute : Attribute
+    public class FormerlySerializedAsAttribute
     {
-        public string m_oldName; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_oldName(){} // RVA: 0x7FFE84022BE0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_oldName(){} // RVA: 0x7FFAF5E66D40
     }
 
 }

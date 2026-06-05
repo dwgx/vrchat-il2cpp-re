@@ -5,15 +5,15 @@
 
 namespace ThirdParty.OscCore.OscCore.Demo
 {
-    public class MonitorToDebugText : MonoBehaviour
+    public class MonitorToDebugText
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFE86D47D20
-        public void Update(){} // RVA: 0x7FFE86D47F80
-        public void Monitor(){} // RVA: 0x7FFE86D48170
-        public void BuildMultiLine(){} // RVA: 0x7FFE86D482D0
-        public void .ctor(){} // RVA: 0x7FFE86D48460
-        public void .cctor(){} // RVA: 0x7FFE86D48530
+        public void Awake(){} // RVA: 0x7FFAF8CB6E80
+        public void Update(){} // RVA: 0x7FFAF8CB70E0
+        public void Monitor(){} // RVA: 0x7FFAF8CB72D0
+        public void BuildMultiLine(){} // RVA: 0x7FFAF8CB7430
+        public void .ctor(){} // RVA: 0x7FFAF8CB75C0
+        public void .cctor(){} // RVA: 0x7FFAF8CB7690
     }
 
 }

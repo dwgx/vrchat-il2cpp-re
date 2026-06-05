@@ -5,22 +5,18 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class JoinClanChatRoomCompletionResult_t : ValueType
+    public class JoinClanChatRoomCompletionResult_t
     {
-        public ulong SteamIDClanChat; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E57360
-        public void .cctor(){} // RVA: 0x7FFE82E57370
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B78F60
+        public void .cctor(){} // RVA: 0x7FFAF4B78F70
     }
 
-    public class JoinPartyCallback_t : ValueType
+    public class JoinPartyCallback_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E59990
-        public void .cctor(){} // RVA: 0x7FFE82E599A0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7B590
+        public void .cctor(){} // RVA: 0x7FFAF4B7B5A0
     }
 
 }

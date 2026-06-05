@@ -5,39 +5,32 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class ParameterExpression : Expression
+    public class ParameterExpression
     {
-        public string _name; // 0x10
-        public object field_1; // 0x1F6
-        public object field_2; // 0x1F7
-        public object field_3; // 0x1F8
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87140B20 | overloaded x2
-        public void Make(){} // RVA: 0x7FFE871404D0
-        public void get_Type(){} // RVA: 0x7FFE87140A30
-        public void get_NodeType(){} // RVA: 0x7FFE87140AE0
-        public void get_Name(){} // RVA: 0x7FFE81116380
-        public void get_IsByRef(){} // RVA: 0x7FFE844800F0
-        public void GetIsByRef(){} // RVA: 0x7FFE810FB320
-        public void Accept(){} // RVA: 0x7FFE87140AF0
+        public void .ctor(){} // RVA: 0x7FFAF90B1C60 | overloaded x2
+        public void Make(){} // RVA: 0x7FFAF90B1610
+        public void get_Type(){} // RVA: 0x7FFAF90B1B70
+        public void get_NodeType(){} // RVA: 0x7FFAF90B1C20
+        public void get_Name(){} // RVA: 0x7FFAF2DA8380
+        public void get_IsByRef(){} // RVA: 0x7FFAF629F790
+        public void GetIsByRef(){} // RVA: 0x7FFAF2D8D320
+        public void Accept(){} // RVA: 0x7FFAF90B1C30
     }
 
-    public class PrimitiveParameterExpression`1 : ParameterExpression
+    public class PrimitiveParameterExpression`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0
-        public void get_Type(){} // RVA: 0x7FFE80E2E2E0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+        public void get_Type(){} // RVA: 0x7FFAF2ABCD60
     }
 
-    public class PropertyExpression : MemberExpression
+    public class PropertyExpression
     {
-        public System.Reflection.PropertyInfo _property; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8713B700
-        public void GetMember(){} // RVA: 0x7FFE810FE7C0
-        public void get_Type(){} // RVA: 0x7FFE8713B7A0
+        public void .ctor(){} // RVA: 0x7FFAF90AC840
+        public void GetMember(){} // RVA: 0x7FFAF2D907C0
+        public void get_Type(){} // RVA: 0x7FFAF90AC8E0
     }
 
 }

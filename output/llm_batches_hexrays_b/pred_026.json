@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_1595::m_0CD": "DecompressStream",
+ "VRCNetworkBehaviourSibling_BF5Sibling_1595::m_25C": "CreateTransformSnapshot",
+ "VRCNetworkBehaviourSibling_BF5Sibling_1595::m_39F": "DestroyExtraChildren"
+}

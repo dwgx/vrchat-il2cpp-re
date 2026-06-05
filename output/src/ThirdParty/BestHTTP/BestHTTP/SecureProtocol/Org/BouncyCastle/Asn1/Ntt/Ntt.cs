@@ -5,11 +5,11 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ntt
 {
-    public class NttObjectIdentifiers : Object
+    public class NttObjectIdentifiers
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE8A1EFB00
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFC23D700
     }
 
 }

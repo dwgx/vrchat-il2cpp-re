@@ -5,40 +5,40 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Security.Certificates
 {
-    public class CertificateEncodingException : CertificateException
+    public class CertificateEncodingException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A15BF00 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFC1A9B00 | overloaded x3
     }
 
-    public class CertificateException : GeneralSecurityException
+    public class CertificateException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A15BF00 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFC1A9B00 | overloaded x3
     }
 
-    public class CertificateExpiredException : CertificateException
+    public class CertificateExpiredException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A15BF00 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFC1A9B00 | overloaded x3
     }
 
-    public class CertificateNotYetValidException : CertificateException
+    public class CertificateNotYetValidException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A15BF00 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFC1A9B00 | overloaded x3
     }
 
-    public class CertificateParsingException : CertificateException
+    public class CertificateParsingException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A15BF00 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFC1A9B00 | overloaded x3
     }
 
-    public class CrlException : GeneralSecurityException
+    public class CrlException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A15BF00 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFC1A9B00 | overloaded x3
     }
 
 }

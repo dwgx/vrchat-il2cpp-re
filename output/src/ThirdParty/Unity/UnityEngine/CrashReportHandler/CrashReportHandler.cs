@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Unity.UnityEngine.CrashReportHandler
 {
-    public class CrashReportHandler : Object
+    public class CrashReportHandler
     {
         // ── Methods ──
-        public void SetUserMetadata(){} // RVA: 0x7FFE87CAA870
+        public void SetUserMetadata(){} // RVA: 0x7FFAF9C1A6D0
     }
 
 }

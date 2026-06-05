@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-06-05T06:41:29",
+  "dry_run": false,
+  "raw_predictions": 462,
+  "filtered_candidates": 116,
+  "cross_version_before": 8800,
+  "cross_version_after": 8916,
+  "new_entries": 116,
+  "rejected": {
+    "globally_frequent_name": 184,
+    "no_meaningful_tokens": 104,
+    "no_context_overlap": 40,
+    "bad_format": 17,
+    "not_in_expanded_targets": 1
+  },
+  "sample": {
+    "AnimationCurrentMoveNext_CC50_92FE::m_E95": "get_Current",
+    "AnimationCurrentMoveNext_CC50_92FE::m_FEF": "get_Key",
+    "AvatarProxySettings::m_E4A": "UnregisterEvents",
+    "BackgroundOption::m_612": "get_Preview",
+    "BackgroundOptions::m_404": "get_Options",
+    "CameraCanWritePosition_FCC8::m_A4B": "get_CanSeek",
+    "CameraCanWritePosition_FCC8::m_AFC": "get_Position",
+    "CameraCanWritePosition_FCC8::m_BA1": "get_Length",
+    "CameraPosition_DAF2_2BC6::m_87F": "set_Position",
+    "ConnectionHandler::m_A60": "OnApplicationQuit",
+    "EffectBundleIDIsSpecialFX_5D40::m_64C": "get_EffectBundleID",
+    "EffectBundleIDIsSpecialFX_5D40::m_A77": "get_IsSpecialFX",
+    "EffectBundleIDIsSpecialFX_89FA::m_1CA": "get_IsSpecialFX",
+    "EffectBundleIDIsSpecialFX_89FA::m_8E0": "get_EffectBundleID",
+    "EffectmaterialForRenderingGetMaterial_5E1C_3793::m_549": "GetMaterial",
+    "GalleryIconsView::m_079": "get_ObservableList",
+    "LifecycleComponentImpl_AB77SibSibling_49C2::m_BEE": "OnApplicationFocus",
+    "LifecycleComponentImpl_AB77SibSibling_E1C5::m_6F5": "OnApplicationFocus",
+    "LifecycleComponentImpl_AB77SibSibling_FDE5::m_908": "OnApplicationFocus",
+    "LifecycleComponentImpl_E2CCSibSibling_8E8D::m_076": "OnApplicationFocus",
+    "LifecycleComponentImpl_E2CCSibling_3808::m_3EB": "OnBecameInvisible",
+    "LifecycleComponentSibling_FD32Sibling_CA2D::m_535": "OnCollisionEnter",
+    "LifecycleComponent_226FSiblingSibling_36A8::m_C9E": "OnBecameInvisible",
+    "LifecycleComponent_226FSiblingSibling_5E6A::m_0C7": "OnCollisionStay",
+    "LifecycleComponent_226FSiblingSibling_5E6A::m_BCA": "OnCollisionEnter"
+  }
+}

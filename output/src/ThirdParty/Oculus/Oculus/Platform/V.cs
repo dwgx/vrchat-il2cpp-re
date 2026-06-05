@@ -5,69 +5,67 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform
 {
-    public class Voip : Object
+    public class Voip
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFE86C0EC00
-        public void Accept(){} // RVA: 0x7FFE86C0ED30
-        public void Stop(){} // RVA: 0x7FFE86C0EE60
-        public void SetMicrophoneFilterCallback(){} // RVA: 0x7FFE86C0EF90
-        public void SetMicrophoneMuted(){} // RVA: 0x7FFE86C0F0D0
-        public void GetSystemVoipMicrophoneMuted(){} // RVA: 0x7FFE86C0F200
-        public void GetSystemVoipStatus(){} // RVA: 0x7FFE86C0F320
-        public void GetIsConnectionUsingDtx(){} // RVA: 0x7FFE86C0F440
-        public void GetLocalBitrate(){} // RVA: 0x7FFE86C0F570
-        public void GetRemoteBitrate(){} // RVA: 0x7FFE86C0F6A0
-        public void SetNewConnectionOptions(){} // RVA: 0x7FFE86C0F7D0
-        public void GetMicrophoneAvailability(){} // RVA: 0x7FFE86C0F900
-        public void SetSystemVoipSuppressed(){} // RVA: 0x7FFE86C0FAB0
-        public void SetVoipConnectRequestCallback(){} // RVA: 0x7FFE86C0FC60
-        public void SetMicrophoneAvailabilityStateUpdateNotificationCallback(){} // RVA: 0x7FFE86C0FCD0
-        public void SetVoipStateChangeCallback(){} // RVA: 0x7FFE86C0FD40
-        public void SetSystemVoipStateNotificationCallback(){} // RVA: 0x7FFE86C0FDB0
+        public void Start(){} // RVA: 0x7FFAF8B7DE30
+        public void Accept(){} // RVA: 0x7FFAF8B7DF60
+        public void Stop(){} // RVA: 0x7FFAF8B7E090
+        public void SetMicrophoneFilterCallback(){} // RVA: 0x7FFAF8B7E1C0
+        public void SetMicrophoneMuted(){} // RVA: 0x7FFAF8B7E300
+        public void GetSystemVoipMicrophoneMuted(){} // RVA: 0x7FFAF8B7E430
+        public void GetSystemVoipStatus(){} // RVA: 0x7FFAF8B7E550
+        public void GetIsConnectionUsingDtx(){} // RVA: 0x7FFAF8B7E670
+        public void GetLocalBitrate(){} // RVA: 0x7FFAF8B7E7A0
+        public void GetRemoteBitrate(){} // RVA: 0x7FFAF8B7E8D0
+        public void SetNewConnectionOptions(){} // RVA: 0x7FFAF8B7EA00
+        public void GetMicrophoneAvailability(){} // RVA: 0x7FFAF8B7EB30
+        public void SetSystemVoipSuppressed(){} // RVA: 0x7FFAF8B7ECE0
+        public void SetVoipConnectRequestCallback(){} // RVA: 0x7FFAF8B7EE90
+        public void SetMicrophoneAvailabilityStateUpdateNotificationCallback(){} // RVA: 0x7FFAF8B7EF00
+        public void SetVoipStateChangeCallback(){} // RVA: 0x7FFAF8B7EF70
+        public void SetSystemVoipStateNotificationCallback(){} // RVA: 0x7FFAF8B7EFE0
     }
 
-    public class VoipAudioSourceHiLevel : MonoBehaviour
+    public class VoipAudioSourceHiLevel
     {
-        public int initialPlaybackDelayMS; // 0x20
-
         // ── Methods ──
-        public void set_senderID(){} // RVA: 0x7FFE86C1FC70
-        public void Stop(){} // RVA: 0x7FFE810FB310
-        public void SampleRateToEnum(){} // RVA: 0x7FFE86C1FCD0
-        public void Awake(){} // RVA: 0x7FFE86C1FD00
-        public void Start(){} // RVA: 0x7FFE86C20240
-        public void CreatePCMSource(){} // RVA: 0x7FFE86C202A0
-        public void MSToElements(){} // RVA: 0x7FFE86C20330
-        public void Update(){} // RVA: 0x7FFE86C20390
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void set_senderID(){} // RVA: 0x7FFAF8B8EEA0
+        public void Stop(){} // RVA: 0x7FFAF2D8D310
+        public void SampleRateToEnum(){} // RVA: 0x7FFAF8B8EF00
+        public void Awake(){} // RVA: 0x7FFAF8B8EF30
+        public void Start(){} // RVA: 0x7FFAF8B8F470
+        public void CreatePCMSource(){} // RVA: 0x7FFAF8B8F4D0
+        public void MSToElements(){} // RVA: 0x7FFAF8B8F560
+        public void Update(){} // RVA: 0x7FFAF8B8F5C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
-    public class VoipOptions : Object
+    public class VoipOptions
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C20C60
-        public void SetBitrateForNewConnections(){} // RVA: 0x7FFE86C20D10
-        public void SetCreateNewConnectionUseDtx(){} // RVA: 0x7FFE86C20DD0
-        public void op_Explicit(){} // RVA: 0x7FFE86BC25E0
-        public void Finalize(){} // RVA: 0x7FFE86C20E90
+        public void .ctor(){} // RVA: 0x7FFAF8B8FE90
+        public void SetBitrateForNewConnections(){} // RVA: 0x7FFAF8B8FF40
+        public void SetCreateNewConnectionUseDtx(){} // RVA: 0x7FFAF8B90000
+        public void op_Explicit(){} // RVA: 0x7FFAF8B31810
+        public void Finalize(){} // RVA: 0x7FFAF8B900C0
     }
 
-    public class VoipPCMSourceNative : Object
+    public class VoipPCMSourceNative
     {
         // ── Methods ──
-        public void GetPCM(){} // RVA: 0x7FFE86C20F80
-        public void SetSenderID(){} // RVA: 0x7FFE826F2ED0
-        public void PeekSizeElements(){} // RVA: 0x7FFE86C21060
-        public void Update(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetPCM(){} // RVA: 0x7FFAF8B901B0
+        public void SetSenderID(){} // RVA: 0x7FFAF4417700
+        public void PeekSizeElements(){} // RVA: 0x7FFAF8B90290
+        public void Update(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Vrcamera : Object
+    public class Vrcamera
     {
         // ── Methods ──
-        public void SetGetDataChannelMessageUpdateNotificationCallback(){} // RVA: 0x7FFE86C1BD30
-        public void SetGetSurfaceUpdateNotificationCallback(){} // RVA: 0x7FFE86C1BDA0
+        public void SetGetDataChannelMessageUpdateNotificationCallback(){} // RVA: 0x7FFAF8B8AF60
+        public void SetGetSurfaceUpdateNotificationCallback(){} // RVA: 0x7FFAF8B8AFD0
     }
 
 }

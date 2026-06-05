@@ -1,0 +1,68 @@
+[
+  {
+    "namespace": "VRC.UI.Core",
+    "class": "UIElement",
+    "parent": "",
+    "known_methods": [
+      "Initialize",
+      "m",
+      "Awake",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_EB8",
+      "m_C7C",
+      "m_DB6",
+      "m_989",
+      "m_F17",
+      "m_CB2",
+      "m_FC3",
+      "m_7FD"
+    ],
+    "all_method_count": 12
+  },
+  {
+    "namespace": "VRC.UI.Elements.HelperMethods",
+    "class": "UIAlert",
+    "parent": "",
+    "known_methods": [
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_261",
+      "m_791",
+      "m_CE8",
+      "m_0AF",
+      "m_B3B",
+      "m_D6F",
+      "m_6C5",
+      "m_749",
+      "m_981"
+    ],
+    "all_method_count": 9
+  },
+  {
+    "namespace": "VRC.UI.Client.IPS",
+    "class": "IpsProvidedContentLoader`2",
+    "parent": "",
+    "known_methods": [
+      "Initialize",
+      "set_PagedData",
+      "get_PagedData",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BCD",
+      "m_8EB",
+      "m_85C",
+      "m_AE9",
+      "m_CB3",
+      "m_050",
+      "m_2AB"
+    ],
+    "all_method_count": 11
+  }
+]

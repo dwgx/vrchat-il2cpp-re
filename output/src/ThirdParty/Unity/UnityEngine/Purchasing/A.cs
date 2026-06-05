@@ -5,79 +5,76 @@
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class AmazonAppStoreStoreExtensions : Object
+    public class AmazonAppStoreStoreExtensions
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
-    public class AnalyticsClient : Object
+    public class AnalyticsClient
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0
-        public void OnPurchaseSucceeded(){} // RVA: 0x7FFE87D52E90
-        public void OnPurchaseFailed(){} // RVA: 0x7FFE87D52F20
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void OnPurchaseSucceeded(){} // RVA: 0x7FFAF9CC2CF0
+        public void OnPurchaseFailed(){} // RVA: 0x7FFAF9CC2D80
     }
 
-    public class AndroidJavaStore : Object
+    public class AndroidJavaStore
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void RetrieveProducts(){} // RVA: 0x7FFE87D5E250
-        public void Purchase(){} // RVA: 0x7FFE87D5E320
-        public void FinishTransaction(){} // RVA: 0x7FFE87D5E430
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void RetrieveProducts(){} // RVA: 0x7FFAF9CCE0B0
+        public void Purchase(){} // RVA: 0x7FFAF9CCE180
+        public void FinishTransaction(){} // RVA: 0x7FFAF9CCE290
     }
 
-    public class AppleJsonProductDescriptionsDeserializer : JsonProductDescriptionsDeserializer
+    public class AppleJsonProductDescriptionsDeserializer
     {
         // ── Methods ──
-        public void DeserializeMetadata(){} // RVA: 0x7FFE87D787F0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void DeserializeMetadata(){} // RVA: 0x7FFAF9CE8650
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class AppleProductMetadata : ProductMetadata
+    public class AppleProductMetadata
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87D78890
+        public void .ctor(){} // RVA: 0x7FFAF9CE86F0
     }
 
-    public class AppleStoreImpl : JSONStore
+    public class AppleStoreImpl
     {
-        public System.Action`1<UnityEngine.Purchasing.Product> m_DeferredCallback; // 0x48
-        public System.Action`1<System.Collections.Generic.List`1<UnityEngine.Purchasing.Product>> m_RevokedCallback; // 0x50
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87D78AA0
-        public void SetNativeStore(){} // RVA: 0x7FFE87D78CA0
-        public void get_appReceipt(){} // RVA: 0x7FFE87D78F20
-        public void get_appReceiptModificationDate(){} // RVA: 0x7FFE87D79130
-        public void OnProductsRetrieved(){} // RVA: 0x7FFE87D791D0
-        public void HasInAppPurchaseReceipts(){} // RVA: 0x7FFE87D79350
-        public void EnrichProductDescriptions(){} // RVA: 0x7FFE87D79370
-        public void FindMostRecentReceipt(){} // RVA: 0x7FFE87D79870
-        public void FirstNonCancelledReceipt(){} // RVA: 0x7FFE87D79CB0
-        public void OnPurchaseDeferred(){} // RVA: 0x7FFE87D79DD0
-        public void OnPromotionalPurchaseAttempted(){} // RVA: 0x7FFE87D79EC0
-        public void OnTransactionsRestoredSuccess(){} // RVA: 0x7FFE87D79FB0
-        public void OnTransactionsRestoredFail(){} // RVA: 0x7FFE87D7A000
-        public void OnAppReceiptRetrieved(){} // RVA: 0x7FFE820D3100
-        public void OnAppReceiptRefreshedFailed(){} // RVA: 0x7FFE85B63B40
-        public void OnEntitlementsRevoked(){} // RVA: 0x7FFE87D7A050
-        public void RevokeEntitlement(){} // RVA: 0x7FFE87D7A430
-        public void RestoreActiveEntitlement(){} // RVA: 0x7FFE87D7A560
-        public void OnFetchStorePromotionOrderSucceeded(){} // RVA: 0x7FFE87D7A640
-        public void OnFetchStorePromotionOrderFailed(){} // RVA: 0x7FFE87D7A9E0
-        public void OnFetchStorePromotionVisibilitySucceeded(){} // RVA: 0x7FFE87D7AA00
-        public void OnFetchStorePromotionVisibilityFailed(){} // RVA: 0x7FFE82549330
-        public void MessageCallback(){} // RVA: 0x7FFE87D7ADC0
-        public void ProcessMessage(){} // RVA: 0x7FFE87D7B070
-        public void OnPurchaseSucceeded(){} // RVA: 0x7FFE87D7BC10
-        public void GetAppleReceiptFromBase64String(){} // RVA: 0x7FFE87D7BD30
-        public void IsValidPurchaseState(){} // RVA: 0x7FFE87D7BE20
-        public void IsRestored(){} // RVA: 0x7FFE87D7C000
-        public void IsSubscriptionRestored(){} // RVA: 0x7FFE87D7C3C0
-        public void IsNonSubscriptionRestored(){} // RVA: 0x7FFE87D7C650
-        public void UpdateAppleProductFields(){} // RVA: 0x7FFE87D7C6B0
+        public void .ctor(){} // RVA: 0x7FFAF9CE8900
+        public void SetNativeStore(){} // RVA: 0x7FFAF9CE8B00
+        public void get_appReceipt(){} // RVA: 0x7FFAF9CE8D80
+        public void get_appReceiptModificationDate(){} // RVA: 0x7FFAF9CE8F90
+        public void OnProductsRetrieved(){} // RVA: 0x7FFAF9CE9030
+        public void HasInAppPurchaseReceipts(){} // RVA: 0x7FFAF9CE91B0
+        public void EnrichProductDescriptions(){} // RVA: 0x7FFAF9CE91D0
+        public void FindMostRecentReceipt(){} // RVA: 0x7FFAF9CE96D0
+        public void FirstNonCancelledReceipt(){} // RVA: 0x7FFAF9CE9B10
+        public void OnPurchaseDeferred(){} // RVA: 0x7FFAF9CE9C30
+        public void OnPromotionalPurchaseAttempted(){} // RVA: 0x7FFAF9CE9D20
+        public void OnTransactionsRestoredSuccess(){} // RVA: 0x7FFAF9CE9E10
+        public void OnTransactionsRestoredFail(){} // RVA: 0x7FFAF9CE9E60
+        public void OnAppReceiptRetrieved(){} // RVA: 0x7FFAF3E01CE0
+        public void OnAppReceiptRefreshedFailed(){} // RVA: 0x7FFAF7975060
+        public void OnEntitlementsRevoked(){} // RVA: 0x7FFAF9CE9EB0
+        public void RevokeEntitlement(){} // RVA: 0x7FFAF9CEA290
+        public void RestoreActiveEntitlement(){} // RVA: 0x7FFAF9CEA3C0
+        public void OnFetchStorePromotionOrderSucceeded(){} // RVA: 0x7FFAF9CEA4A0
+        public void OnFetchStorePromotionOrderFailed(){} // RVA: 0x7FFAF9CEA840
+        public void OnFetchStorePromotionVisibilitySucceeded(){} // RVA: 0x7FFAF9CEA860
+        public void OnFetchStorePromotionVisibilityFailed(){} // RVA: 0x7FFAF4288B50
+        public void MessageCallback(){} // RVA: 0x7FFAF9CEAC20
+        public void ProcessMessage(){} // RVA: 0x7FFAF9CEAED0
+        public void OnPurchaseSucceeded(){} // RVA: 0x7FFAF9CEBA70
+        public void GetAppleReceiptFromBase64String(){} // RVA: 0x7FFAF9CEBB90
+        public void IsValidPurchaseState(){} // RVA: 0x7FFAF9CEBC80
+        public void IsRestored(){} // RVA: 0x7FFAF9CEBE60
+        public void IsSubscriptionRestored(){} // RVA: 0x7FFAF9CEC220
+        public void IsNonSubscriptionRestored(){} // RVA: 0x7FFAF9CEC4B0
+        public void UpdateAppleProductFields(){} // RVA: 0x7FFAF9CEC510
     }
 
 }

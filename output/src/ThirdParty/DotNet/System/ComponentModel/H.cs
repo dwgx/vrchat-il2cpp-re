@@ -5,23 +5,21 @@
 
 namespace ThirdParty.DotNet.System.ComponentModel
 {
-    public class HandledEventArgs : EventArgs
+    public class HandledEventArgs
     {
-        public bool _handled; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877A6BC0 | overloaded x2
-        public void get_Handled(){} // RVA: 0x7FFE811C55E0
-        public void set_Handled(){} // RVA: 0x7FFE811C55F0
+        public void .ctor(){} // RVA: 0x7FFAF9715D10 | overloaded x2
+        public void get_Handled(){} // RVA: 0x7FFAF2E575E0
+        public void set_Handled(){} // RVA: 0x7FFAF2E575F0
     }
 
-    public class HandledEventHandler : MulticastDelegate
+    public class HandledEventHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE828867F0
-        public void Invoke(){} // RVA: 0x7FFE81257370
-        public void BeginInvoke(){} // RVA: 0x7FFE82886970
-        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+        public void .ctor(){} // RVA: 0x7FFAF45AE240
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
+        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
+        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
     }
 
 }

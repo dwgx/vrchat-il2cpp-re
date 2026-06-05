@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.OVR.OpenVR
 {
-    public class SpatialAnchorPose_t : ValueType
+    public class SpatialAnchorPose_t
     {
     }
 

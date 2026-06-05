@@ -5,18 +5,18 @@
 
 namespace ThirdParty.Depthkit.Depthkit.Core
 {
-    public class IndexedTriangle : ValueType
+    public class IndexedTriangle
     {
     }
 
-    public class PackedTriangle : ValueType
+    public class PackedTriangle
     {
     }
 
-    public class Vertex : ValueType
+    public class Vertex
     {
         // ── Methods ──
-        public void Print(){} // RVA: 0x7FFE82BD1640
+        public void Print(){} // RVA: 0x7FFAF48F8070
     }
 
 }

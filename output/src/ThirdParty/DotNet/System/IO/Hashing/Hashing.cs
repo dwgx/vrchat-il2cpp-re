@@ -5,68 +5,68 @@
 
 namespace ThirdParty.DotNet.System.IO.Hashing
 {
-    public class NonCryptographicHashAlgorithm : Object
+    public class NonCryptographicHashAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87338E10
+        public void .ctor(){} // RVA: 0x7FFAF92A9B30
         public void Append(){}
-        public void Reset(){} // RVA: 0x7FFE80E45FE0
-        public void GetHashCode(){} // RVA: 0x7FFE87338E80
+        public void Reset(){} // RVA: 0x7FFAF2AD4A50
+        public void GetHashCode(){} // RVA: 0x7FFAF92A9BA0
     }
 
-    public class XxHash3 : NonCryptographicHashAlgorithm
+    public class XxHash3
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87339090 | overloaded x2
-        public void HashToUInt64(){} // RVA: 0x7FFE87339240
-        public void Reset(){} // RVA: 0x7FFE873392E0
-        public void Append(){} // RVA: 0x7FFE87339360
-        public void GetCurrentHashAsUInt64(){} // RVA: 0x7FFE87339390
-        public void HashLength0To16(){} // RVA: 0x7FFE87339560
-        public void HashLength1To3(){} // RVA: 0x7FFE87339760
-        public void HashLength4To8(){} // RVA: 0x7FFE873397D0
-        public void HashLength9To16(){} // RVA: 0x7FFE87339860
-        public void HashLength17To128(){} // RVA: 0x7FFE87339950
-        public void HashLength129To240(){} // RVA: 0x7FFE87339DA0
-        public void HashLengthOver240(){} // RVA: 0x7FFE8733A530
+        public void .ctor(){} // RVA: 0x7FFAF92A9DB0 | overloaded x2
+        public void HashToUInt64(){} // RVA: 0x7FFAF92A9F60
+        public void Reset(){} // RVA: 0x7FFAF92AA000
+        public void Append(){} // RVA: 0x7FFAF92AA080
+        public void GetCurrentHashAsUInt64(){} // RVA: 0x7FFAF92AA0B0
+        public void HashLength0To16(){} // RVA: 0x7FFAF92AA280
+        public void HashLength1To3(){} // RVA: 0x7FFAF92AA480
+        public void HashLength4To8(){} // RVA: 0x7FFAF92AA4F0
+        public void HashLength9To16(){} // RVA: 0x7FFAF92AA580
+        public void HashLength17To128(){} // RVA: 0x7FFAF92AA670
+        public void HashLength129To240(){} // RVA: 0x7FFAF92AAAC0
+        public void HashLengthOver240(){} // RVA: 0x7FFAF92AB250
     }
 
-    public class XxHash64 : NonCryptographicHashAlgorithm
+    public class XxHash64
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE8733A710
-        public void Append(){} // RVA: 0x7FFE8733A7A0
-        public void Avalanche(){} // RVA: 0x7FFE8733ABD0
+        public void Reset(){} // RVA: 0x7FFAF92AB430
+        public void Append(){} // RVA: 0x7FFAF92AB4C0
+        public void Avalanche(){} // RVA: 0x7FFAF92AB8F0
     }
 
-    public class XxHashShared : Object
+    public class XxHashShared
     {
         // ── Methods ──
-        public void get_DefaultSecret(){} // RVA: 0x7FFE8733AF50
-        public void Initialize(){} // RVA: 0x7FFE8733AFB0
-        public void Reset(){} // RVA: 0x7FFE8733B160
-        public void Rrmxmx(){} // RVA: 0x7FFE8733B1E0
-        public void HashInternalLoop(){} // RVA: 0x7FFE8733B240
-        public void ConsumeStripes(){} // RVA: 0x7FFE8733B300
-        public void Append(){} // RVA: 0x7FFE8733B400
-        public void CopyAccumulators(){} // RVA: 0x7FFE8733BA40
-        public void DigestLong(){} // RVA: 0x7FFE8733BA90
-        public void InitializeAccumulators(){} // RVA: 0x7FFE8733BCE0
-        public void MergeAccumulators(){} // RVA: 0x7FFE8733BD50
-        public void Mix16Bytes(){} // RVA: 0x7FFE8733BF50
-        public void Multiply32To64(){} // RVA: 0x7FFE8695FB20
-        public void Avalanche(){} // RVA: 0x7FFE8733BFD0
-        public void Multiply64To128(){} // RVA: 0x7FFE8733C000
-        public void Multiply64To128ThenFold(){} // RVA: 0x7FFE8733C070
-        public void DeriveSecretFromSeed(){} // RVA: 0x7FFE8733C0D0
-        public void Accumulate(){} // RVA: 0x7FFE8733C180
-        public void Accumulate512(){} // RVA: 0x7FFE8733C2C0
-        public void Accumulate512Inlined(){} // RVA: 0x7FFE8733C2D0
-        public void ScrambleAccumulators(){} // RVA: 0x7FFE8733C350
-        public void XorShift(){} // RVA: 0x7FFE8733C390
-        public void ReadUInt32LE(){} // RVA: 0x7FFE8733C3B0
-        public void ReadUInt64LE(){} // RVA: 0x7FFE8348B260
-        public void WriteUInt64LE(){} // RVA: 0x7FFE86A592B0
+        public void get_DefaultSecret(){} // RVA: 0x7FFAF92ABC70
+        public void Initialize(){} // RVA: 0x7FFAF92ABCD0
+        public void Reset(){} // RVA: 0x7FFAF92ABE80
+        public void Rrmxmx(){} // RVA: 0x7FFAF92ABF00
+        public void HashInternalLoop(){} // RVA: 0x7FFAF92ABF60
+        public void ConsumeStripes(){} // RVA: 0x7FFAF92AC020
+        public void Append(){} // RVA: 0x7FFAF92AC120
+        public void CopyAccumulators(){} // RVA: 0x7FFAF92AC760
+        public void DigestLong(){} // RVA: 0x7FFAF92AC7B0
+        public void InitializeAccumulators(){} // RVA: 0x7FFAF92ACA00
+        public void MergeAccumulators(){} // RVA: 0x7FFAF92ACA70
+        public void Mix16Bytes(){} // RVA: 0x7FFAF92ACC70
+        public void Multiply32To64(){} // RVA: 0x7FFAF88CECE0
+        public void Avalanche(){} // RVA: 0x7FFAF92ACCF0
+        public void Multiply64To128(){} // RVA: 0x7FFAF92ACD20
+        public void Multiply64To128ThenFold(){} // RVA: 0x7FFAF92ACD90
+        public void DeriveSecretFromSeed(){} // RVA: 0x7FFAF92ACDF0
+        public void Accumulate(){} // RVA: 0x7FFAF92ACEA0
+        public void Accumulate512(){} // RVA: 0x7FFAF92ACFE0
+        public void Accumulate512Inlined(){} // RVA: 0x7FFAF92ACFF0
+        public void ScrambleAccumulators(){} // RVA: 0x7FFAF92AD070
+        public void XorShift(){} // RVA: 0x7FFAF92AD0B0
+        public void ReadUInt32LE(){} // RVA: 0x7FFAF92AD0D0
+        public void ReadUInt64LE(){} // RVA: 0x7FFAF51E8C50
+        public void WriteUInt64LE(){} // RVA: 0x7FFAF89C8490
     }
 
 }

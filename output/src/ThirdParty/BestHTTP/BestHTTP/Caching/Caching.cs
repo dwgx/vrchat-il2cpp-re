@@ -5,126 +5,104 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.Caching
 {
-    public class HTTPCacheFileInfo : Object
+    public class HTTPCacheFileInfo
     {
-        public System.Uri _uri; // 0x10
-        public System.DateTime _lastAccess; // 0x18
-        public int _bodyLength; // 0x20
-        public string _eTag; // 0x28
-        public string _lastModified; // 0x30
-        public System.DateTime _expires; // 0x38
-        public long _age; // 0x40
-        public long _maxAge; // 0x48
-        public System.DateTime _date; // 0x50
-        public bool _mustRevalidate; // 0x58
-        public System.DateTime _received; // 0x60
-        public string _constructedPath; // 0x68
-        public ulong _mappedNameIDX; // 0x70
-
         // ── Methods ──
-        public void get_Uri(){} // RVA: 0x7FFE81116380
-        public void set_Uri(){} // RVA: 0x7FFE810FCE30
-        public void get_LastAccess(){} // RVA: 0x7FFE810FE7C0
-        public void set_LastAccess(){} // RVA: 0x7FFE819EA910
-        public void get_BodyLength(){} // RVA: 0x7FFE8151D690
-        public void set_BodyLength(){} // RVA: 0x7FFE8170B670
-        public void get_ETag(){} // RVA: 0x7FFE81129130
-        public void set_ETag(){} // RVA: 0x7FFE810FCE90
-        public void get_LastModified(){} // RVA: 0x7FFE8144E200
-        public void set_LastModified(){} // RVA: 0x7FFE81129890
-        public void get_Expires(){} // RVA: 0x7FFE8143BA80
-        public void set_Expires(){} // RVA: 0x7FFE81CDDAA0
-        public void get_Age(){} // RVA: 0x7FFE81178740
-        public void set_Age(){} // RVA: 0x7FFE84337900
-        public void get_MaxAge(){} // RVA: 0x7FFE81176730
-        public void set_MaxAge(){} // RVA: 0x7FFE82502600
-        public void get_Date(){} // RVA: 0x7FFE8119C0E0
-        public void set_Date(){} // RVA: 0x7FFE82506C00
-        public void get_MustRevalidate(){} // RVA: 0x7FFE813A1140
-        public void set_MustRevalidate(){} // RVA: 0x7FFE819E83C0
-        public void get_Received(){} // RVA: 0x7FFE81199370
-        public void set_Received(){} // RVA: 0x7FFE866079C0
-        public void get_ConstructedPath(){} // RVA: 0x7FFE81176D50
-        public void set_ConstructedPath(){} // RVA: 0x7FFE81176D60
-        public void get_MappedNameIDX(){} // RVA: 0x7FFE811C3590
-        public void set_MappedNameIDX(){} // RVA: 0x7FFE82C95C70
-        public void .ctor(){} // RVA: 0x7FFE8A293340 | overloaded x3
-        public void SaveTo(){} // RVA: 0x7FFE8A293620
-        public void GetPath(){} // RVA: 0x7FFE8A2937F0
-        public void IsExists(){} // RVA: 0x7FFE8A2939C0
-        public void Delete(){} // RVA: 0x7FFE8A293AA0
-        public void Reset(){} // RVA: 0x7FFE8A293BC0
-        public void AlreadyStored(){} // RVA: 0x7FFE8A293E20
-        public void SetUpCachingValues(){} // RVA: 0x7FFE8A2940E0
-        public void WillExpireInTheFuture(){} // RVA: 0x7FFE8A2945F0
-        public void SetUpRevalidationHeaders(){} // RVA: 0x7FFE8A294780
-        public void GetBodyStream(){} // RVA: 0x7FFE8A294840
-        public void ReadResponseTo(){} // RVA: 0x7FFE8A294980
-        public void Store(){} // RVA: 0x7FFE8A294BE0
-        public void GetSaveStream(){} // RVA: 0x7FFE8A2952E0
-        public void CompareTo(){} // RVA: 0x7FFE8A295A30
+        public void get_Uri(){} // RVA: 0x7FFAF2DA8380
+        public void set_Uri(){} // RVA: 0x7FFAF2D8EE30
+        public void get_LastAccess(){} // RVA: 0x7FFAF2D907C0
+        public void set_LastAccess(){} // RVA: 0x7FFAF370BE60
+        public void get_BodyLength(){} // RVA: 0x7FFAF3210030
+        public void set_BodyLength(){} // RVA: 0x7FFAF344E0D0
+        public void get_ETag(){} // RVA: 0x7FFAF2DBB130
+        public void set_ETag(){} // RVA: 0x7FFAF2D8EE90
+        public void get_LastModified(){} // RVA: 0x7FFAF30E74D0
+        public void set_LastModified(){} // RVA: 0x7FFAF2DBB890
+        public void get_Expires(){} // RVA: 0x7FFAF2F476A0
+        public void set_Expires(){} // RVA: 0x7FFAF3A001D0
+        public void get_Age(){} // RVA: 0x7FFAF2E0A740
+        public void set_Age(){} // RVA: 0x7FFAF61637A0
+        public void get_MaxAge(){} // RVA: 0x7FFAF2E08730
+        public void set_MaxAge(){} // RVA: 0x7FFAF424D760
+        public void get_Date(){} // RVA: 0x7FFAF2E2E0E0
+        public void set_Date(){} // RVA: 0x7FFAF2F74D50
+        public void get_MustRevalidate(){} // RVA: 0x7FFAF304FF30
+        public void set_MustRevalidate(){} // RVA: 0x7FFAF370F680
+        public void get_Received(){} // RVA: 0x7FFAF2E2B370
+        public void set_Received(){} // RVA: 0x7FFAF8576B90
+        public void get_ConstructedPath(){} // RVA: 0x7FFAF2E08D50
+        public void set_ConstructedPath(){} // RVA: 0x7FFAF2E08D60
+        public void get_MappedNameIDX(){} // RVA: 0x7FFAF2E55590
+        public void set_MappedNameIDX(){} // RVA: 0x7FFAF49BAB80
+        public void .ctor(){} // RVA: 0x7FFAFC2E1000 | overloaded x3
+        public void SaveTo(){} // RVA: 0x7FFAFC2E12E0
+        public void GetPath(){} // RVA: 0x7FFAFC2E14B0
+        public void IsExists(){} // RVA: 0x7FFAFC2E1680
+        public void Delete(){} // RVA: 0x7FFAFC2E1760
+        public void Reset(){} // RVA: 0x7FFAFC2E1880
+        public void AlreadyStored(){} // RVA: 0x7FFAFC2E1AE0
+        public void SetUpCachingValues(){} // RVA: 0x7FFAFC2E1DA0
+        public void WillExpireInTheFuture(){} // RVA: 0x7FFAFC2E22B0
+        public void SetUpRevalidationHeaders(){} // RVA: 0x7FFAFC2E2440
+        public void GetBodyStream(){} // RVA: 0x7FFAFC2E2500
+        public void ReadResponseTo(){} // RVA: 0x7FFAFC2E2640
+        public void Store(){} // RVA: 0x7FFAFC2E28A0
+        public void GetSaveStream(){} // RVA: 0x7FFAFC2E2FA0
+        public void CompareTo(){} // RVA: 0x7FFAFC2E36F0
     }
 
-    public class HTTPCacheMaintananceParams : Object
+    public class HTTPCacheMaintananceParams
     {
-        public System.TimeSpan _deleteOlder; // 0x10
-        public ulong _maxCacheSize; // 0x18
-
         // ── Methods ──
-        public void get_DeleteOlder(){} // RVA: 0x7FFE81116380
-        public void set_DeleteOlder(){} // RVA: 0x7FFE826F2ED0
-        public void get_MaxCacheSize(){} // RVA: 0x7FFE810FE7C0
-        public void set_MaxCacheSize(){} // RVA: 0x7FFE819EA910
-        public void .ctor(){} // RVA: 0x7FFE8677A600
+        public void get_DeleteOlder(){} // RVA: 0x7FFAF2DA8380
+        public void set_DeleteOlder(){} // RVA: 0x7FFAF4417700
+        public void get_MaxCacheSize(){} // RVA: 0x7FFAF2D907C0
+        public void set_MaxCacheSize(){} // RVA: 0x7FFAF370BE60
+        public void .ctor(){} // RVA: 0x7FFAF86E97B0
     }
 
-    public class HTTPCacheService : Object
+    public class HTTPCacheService
     {
-        public int LibraryVersion;
-        public bool isSupported;
-        public bool IsSupportCheckDone; // 0x1
-        public System.Collections.Generic.Dictionary`2<System.Uri,BestHTTP.Caching.HTTPCacheFileInfo> library; // 0x8
-
         // ── Methods ──
-        public void get_IsSupported(){} // RVA: 0x7FFE8A295D10
-        public void get_CacheFolder(){} // RVA: 0x7FFE8A295FC0
-        public void set_CacheFolder(){} // RVA: 0x7FFE8A296020
-        public void get_LibraryPath(){} // RVA: 0x7FFE8A2960E0
-        public void set_LibraryPath(){} // RVA: 0x7FFE8A296140
-        public void get_IsDoingMaintainence(){} // RVA: 0x7FFE8A296200
-        public void .cctor(){} // RVA: 0x7FFE8A2962A0
-        public void CheckSetup(){} // RVA: 0x7FFE8A296480
-        public void SetupCacheFolder(){} // RVA: 0x7FFE8A2964F0
-        public void GetNameIdx(){} // RVA: 0x7FFE8A296A50
-        public void HasEntity(){} // RVA: 0x7FFE8A296B70
-        public void DeleteEntity(){} // RVA: 0x7FFE8A296D60
-        public void DeleteEntityImpl(){} // RVA: 0x7FFE8A296F10
-        public void IsCachedEntityExpiresInTheFuture(){} // RVA: 0x7FFE8A297180
-        public void SetHeaders(){} // RVA: 0x7FFE8A2974E0
-        public void GetEntity(){} // RVA: 0x7FFE8A2977A0
-        public void GetFullResponse(){} // RVA: 0x7FFE8A297920
-        public void IsCacheble(){} // RVA: 0x7FFE8A297B40
-        public void Store(){} // RVA: 0x7FFE8A297F60
-        public void PrepareStreamed(){} // RVA: 0x7FFE8A298410
-        public void BeginClear(){} // RVA: 0x7FFE8A298740
-        public void ClearImpl(){} // RVA: 0x7FFE8A298940
-        public void BeginMaintainence(){} // RVA: 0x7FFE8A298C20
-        public void MaintananceImpl(){} // RVA: 0x7FFE8A298EE0
-        public void GetCacheEntityCount(){} // RVA: 0x7FFE8A299870
-        public void GetCacheSize(){} // RVA: 0x7FFE8A2999D0
-        public void GetCacheSizeImpl(){} // RVA: 0x7FFE8A299B10
-        public void LoadLibrary(){} // RVA: 0x7FFE8A299CF0
-        public void SaveLibrary(){} // RVA: 0x7FFE8A29A410
-        public void SetBodyLength(){} // RVA: 0x7FFE8A29AA30
-        public void DeleteUnusedFiles(){} // RVA: 0x7FFE8A29AE40
+        public void get_IsSupported(){} // RVA: 0x7FFAFC2E39D0
+        public void get_CacheFolder(){} // RVA: 0x7FFAFC2E3C80
+        public void set_CacheFolder(){} // RVA: 0x7FFAFC2E3CE0
+        public void get_LibraryPath(){} // RVA: 0x7FFAFC2E3DA0
+        public void set_LibraryPath(){} // RVA: 0x7FFAFC2E3E00
+        public void get_IsDoingMaintainence(){} // RVA: 0x7FFAFC2E3EC0
+        public void .cctor(){} // RVA: 0x7FFAFC2E3F60
+        public void CheckSetup(){} // RVA: 0x7FFAFC2E4140
+        public void SetupCacheFolder(){} // RVA: 0x7FFAFC2E41B0
+        public void GetNameIdx(){} // RVA: 0x7FFAFC2E4710
+        public void HasEntity(){} // RVA: 0x7FFAFC2E4830
+        public void DeleteEntity(){} // RVA: 0x7FFAFC2E4A20
+        public void DeleteEntityImpl(){} // RVA: 0x7FFAFC2E4BD0
+        public void IsCachedEntityExpiresInTheFuture(){} // RVA: 0x7FFAFC2E4E40
+        public void SetHeaders(){} // RVA: 0x7FFAFC2E51A0
+        public void GetEntity(){} // RVA: 0x7FFAFC2E5460
+        public void GetFullResponse(){} // RVA: 0x7FFAFC2E55E0
+        public void IsCacheble(){} // RVA: 0x7FFAFC2E5800
+        public void Store(){} // RVA: 0x7FFAFC2E5C20
+        public void PrepareStreamed(){} // RVA: 0x7FFAFC2E60D0
+        public void BeginClear(){} // RVA: 0x7FFAFC2E6400
+        public void ClearImpl(){} // RVA: 0x7FFAFC2E6600
+        public void BeginMaintainence(){} // RVA: 0x7FFAFC2E68E0
+        public void MaintananceImpl(){} // RVA: 0x7FFAFC2E6BA0
+        public void GetCacheEntityCount(){} // RVA: 0x7FFAFC2E7530
+        public void GetCacheSize(){} // RVA: 0x7FFAFC2E7690
+        public void GetCacheSizeImpl(){} // RVA: 0x7FFAFC2E77D0
+        public void LoadLibrary(){} // RVA: 0x7FFAFC2E79B0
+        public void SaveLibrary(){} // RVA: 0x7FFAFC2E80D0
+        public void SetBodyLength(){} // RVA: 0x7FFAFC2E86F0
+        public void DeleteUnusedFiles(){} // RVA: 0x7FFAFC2E8B00
     }
 
-    public class UriComparer : Object
+    public class UriComparer
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE8A295AE0
-        public void GetHashCode(){} // RVA: 0x7FFE8A295CC0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Equals(){} // RVA: 0x7FFAFC2E37A0
+        public void GetHashCode(){} // RVA: 0x7FFAFC2E3980
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

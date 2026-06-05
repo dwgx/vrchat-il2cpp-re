@@ -1,677 +1,885 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 25
-// Methods: 521
+// Classes: 46
+// Methods: 756
 
 namespace ThirdParty.DotNet.System
 {
-    public class TermInfoDriver : Object
+    public class TermInfoDriver
     {
-        public int* native_terminal_size;
-        public int terminal_size; // 0x8
-        public string[] locations; // 0x10
-
         // ── Methods ──
-        public void TryTermInfoDir(){} // RVA: 0x7FFE86A4DA20
-        public void SearchTerminfo(){} // RVA: 0x7FFE86A4DCD0
-        public void WriteConsole(){} // RVA: 0x7FFE86A4DE80
-        public void .ctor(){} // RVA: 0x7FFE86A4DEB0
-        public void get_Initialized(){} // RVA: 0x7FFE820E9360
-        public void Init(){} // RVA: 0x7FFE86A4E730
-        public void IncrementX(){} // RVA: 0x7FFE86A4F3B0
-        public void WriteSpecialKey(){} // RVA: 0x7FFE86A4F640 | overloaded x2
-        public void IsSpecialKey(){} // RVA: 0x7FFE86A4F7B0 | overloaded x2
-        public void GetCursorPosition(){} // RVA: 0x7FFE86A4F800
-        public void CheckWindowDimensions(){} // RVA: 0x7FFE86A4F8A0
-        public void get_WindowHeight(){} // RVA: 0x7FFE86A4FA00
-        public void get_WindowWidth(){} // RVA: 0x7FFE86A4FA30
-        public void AddToBuffer(){} // RVA: 0x7FFE86A4FA60
-        public void AdjustBuffer(){} // RVA: 0x7FFE86A4FC10
-        public void CreateKeyInfoFromInt(){} // RVA: 0x7FFE86A4FC30
-        public void GetKeyFromBuffer(){} // RVA: 0x7FFE86A4FD70
-        public void ReadKeyInternal(){} // RVA: 0x7FFE86A500F0
-        public void InputPending(){} // RVA: 0x7FFE86A502A0
-        public void QueueEcho(){} // RVA: 0x7FFE86A502E0
-        public void Echo(){} // RVA: 0x7FFE86A50420
-        public void EchoFlush(){} // RVA: 0x7FFE86A505F0
-        public void Read(){} // RVA: 0x7FFE86A50640
-        public void ReadKey(){} // RVA: 0x7FFE86A50A10
-        public void ReadLine(){} // RVA: 0x7FFE86A50AD0
-        public void ReadToEnd(){} // RVA: 0x7FFE86A50AE0
-        public void ReadUntilConditionInternal(){} // RVA: 0x7FFE86A50AF0
-        public void SetCursorPosition(){} // RVA: 0x7FFE86A50E20
-        public void CreateKeyMap(){} // RVA: 0x7FFE86A511B0
-        public void InitKeys(){} // RVA: 0x7FFE86A52D20
-        public void AddStringMapping(){} // RVA: 0x7FFE86A53020
-        public void .cctor(){} // RVA: 0x7FFE86A53070
+        public void TryTermInfoDir(){} // RVA: 0x7FFAF89BCC00
+        public void SearchTerminfo(){} // RVA: 0x7FFAF89BCEB0
+        public void WriteConsole(){} // RVA: 0x7FFAF89BD060
+        public void .ctor(){} // RVA: 0x7FFAF89BD090
+        public void get_Initialized(){} // RVA: 0x7FFAF461CD50
+        public void Init(){} // RVA: 0x7FFAF89BD910
+        public void IncrementX(){} // RVA: 0x7FFAF89BE590
+        public void WriteSpecialKey(){} // RVA: 0x7FFAF89BE820 | overloaded x2
+        public void IsSpecialKey(){} // RVA: 0x7FFAF89BE990 | overloaded x2
+        public void GetCursorPosition(){} // RVA: 0x7FFAF89BE9E0
+        public void CheckWindowDimensions(){} // RVA: 0x7FFAF89BEA80
+        public void get_WindowHeight(){} // RVA: 0x7FFAF89BEBE0
+        public void get_WindowWidth(){} // RVA: 0x7FFAF89BEC10
+        public void AddToBuffer(){} // RVA: 0x7FFAF89BEC40
+        public void AdjustBuffer(){} // RVA: 0x7FFAF89BEDF0
+        public void CreateKeyInfoFromInt(){} // RVA: 0x7FFAF89BEE10
+        public void GetKeyFromBuffer(){} // RVA: 0x7FFAF89BEF50
+        public void ReadKeyInternal(){} // RVA: 0x7FFAF89BF2D0
+        public void InputPending(){} // RVA: 0x7FFAF89BF480
+        public void QueueEcho(){} // RVA: 0x7FFAF89BF4C0
+        public void Echo(){} // RVA: 0x7FFAF89BF600
+        public void EchoFlush(){} // RVA: 0x7FFAF89BF7D0
+        public void Read(){} // RVA: 0x7FFAF89BF820
+        public void ReadKey(){} // RVA: 0x7FFAF89BFBF0
+        public void ReadLine(){} // RVA: 0x7FFAF89BFCB0
+        public void ReadToEnd(){} // RVA: 0x7FFAF89BFCC0
+        public void ReadUntilConditionInternal(){} // RVA: 0x7FFAF89BFCD0
+        public void SetCursorPosition(){} // RVA: 0x7FFAF89C0000
+        public void CreateKeyMap(){} // RVA: 0x7FFAF89C0390
+        public void InitKeys(){} // RVA: 0x7FFAF89C1F00
+        public void AddStringMapping(){} // RVA: 0x7FFAF89C2200
+        public void .cctor(){} // RVA: 0x7FFAF89C2250
     }
 
-    public class TermInfoReader : Object
+    public class TermInfoReader
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A555D0 | overloaded x2
-        public void DetermineVersion(){} // RVA: 0x7FFE86A556B0
-        public void ReadHeader(){} // RVA: 0x7FFE86A55770
-        public void ReadNames(){} // RVA: 0x7FFE86A559F0
-        public void Get(){} // RVA: 0x7FFE86A55B60 | overloaded x2
-        public void GetStringBytes(){} // RVA: 0x7FFE86A55F50 | overloaded x2
-        public void GetInt16(){} // RVA: 0x7FFE86A55E60
-        public void GetString(){} // RVA: 0x7FFE86A55EC0
+        public void .ctor(){} // RVA: 0x7FFAF89C47B0 | overloaded x2
+        public void DetermineVersion(){} // RVA: 0x7FFAF89C4890
+        public void ReadHeader(){} // RVA: 0x7FFAF89C4950
+        public void ReadNames(){} // RVA: 0x7FFAF89C4BD0
+        public void Get(){} // RVA: 0x7FFAF89C4D40 | overloaded x2
+        public void GetStringBytes(){} // RVA: 0x7FFAF89C5130 | overloaded x2
+        public void GetInt16(){} // RVA: 0x7FFAF89C5040
+        public void GetString(){} // RVA: 0x7FFAF89C50A0
     }
 
-    public class ThreadStaticAttribute : Attribute
+    public class ThreadStaticAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ThrowHelper : Object
+    public class ThrowHelper
     {
         // ── Methods ──
-        public void ThrowArgumentNullException(){} // RVA: 0x7FFE86DFE4E0
-        public void CreateArgumentNullException(){} // RVA: 0x7FFE86DFE510
-        public void ThrowArrayTypeMismatchException(){} // RVA: 0x7FFE86DFE5D0
-        public void CreateArrayTypeMismatchException(){} // RVA: 0x7FFE86DFE600
-        public void ThrowArgumentException_InvalidTypeWithPointersNotSupported(){} // RVA: 0x7FFE86DFE680
-        public void CreateArgumentException_InvalidTypeWithPointersNotSupported(){} // RVA: 0x7FFE86DFE6B0
-        public void ThrowArgumentException_DestinationTooShort(){} // RVA: 0x7FFE86DFE7A0
-        public void CreateArgumentException_DestinationTooShort(){} // RVA: 0x7FFE86DFE7D0
-        public void ThrowIndexOutOfRangeException(){} // RVA: 0x7FFE86DFE8B0
-        public void CreateIndexOutOfRangeException(){} // RVA: 0x7FFE86DFE8E0
-        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x7FFE86DFEA10 | overloaded x2
-        public void CreateArgumentOutOfRangeException(){} // RVA: 0x7FFE86DFEA40 | overloaded x2
-        public void ThrowArgumentOutOfRangeException_PrecisionTooLarge(){} // RVA: 0x7FFE86DFEB00
-        public void CreateArgumentOutOfRangeException_PrecisionTooLarge(){} // RVA: 0x7FFE86DFEB30
-        public void ThrowArgumentOutOfRangeException_SymbolDoesNotFit(){} // RVA: 0x7FFE86DFEC60
-        public void CreateArgumentOutOfRangeException_SymbolDoesNotFit(){} // RVA: 0x7FFE86DFEC90
-        public void ThrowInvalidOperationException_EndPositionNotReached(){} // RVA: 0x7FFE86DFED40
-        public void CreateInvalidOperationException_EndPositionNotReached(){} // RVA: 0x7FFE86DFED70
-        public void ThrowArgumentOutOfRangeException_PositionOutOfRange(){} // RVA: 0x7FFE86DFEE50
-        public void CreateArgumentOutOfRangeException_PositionOutOfRange(){} // RVA: 0x7FFE86DFEE80
-        public void ThrowFormatException_BadFormatSpecifier(){} // RVA: 0x7FFE86DFEF20
-        public void CreateFormatException_BadFormatSpecifier(){} // RVA: 0x7FFE86DFEF50
-        public void TryFormatThrowFormatException(){} // RVA: 0x7FFE86DFEFE0
-        public void TryParseThrowFormatException(){} // RVA: 0x7FFE80E2F7A0
-        public void ThrowStartOrEndArgumentValidationException(){} // RVA: 0x7FFE86DFF000
-        public void CreateStartOrEndArgumentValidationException(){} // RVA: 0x7FFE86DFF030
+        public void ThrowArgumentNullException(){} // RVA: 0x7FFAF8D6DAB0
+        public void CreateArgumentNullException(){} // RVA: 0x7FFAF8D6DAE0
+        public void ThrowArrayTypeMismatchException(){} // RVA: 0x7FFAF8D6DBA0
+        public void CreateArrayTypeMismatchException(){} // RVA: 0x7FFAF8D6DBD0
+        public void ThrowArgumentException_InvalidTypeWithPointersNotSupported(){} // RVA: 0x7FFAF8D6DC50
+        public void CreateArgumentException_InvalidTypeWithPointersNotSupported(){} // RVA: 0x7FFAF8D6DC80
+        public void ThrowArgumentException_DestinationTooShort(){} // RVA: 0x7FFAF8D6DD70
+        public void CreateArgumentException_DestinationTooShort(){} // RVA: 0x7FFAF8D6DDA0
+        public void ThrowIndexOutOfRangeException(){} // RVA: 0x7FFAF8D6DE80
+        public void CreateIndexOutOfRangeException(){} // RVA: 0x7FFAF8D6DEB0
+        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x7FFAF8D6DFE0 | overloaded x2
+        public void CreateArgumentOutOfRangeException(){} // RVA: 0x7FFAF8D6E010 | overloaded x2
+        public void ThrowArgumentOutOfRangeException_PrecisionTooLarge(){} // RVA: 0x7FFAF8D6E0D0
+        public void CreateArgumentOutOfRangeException_PrecisionTooLarge(){} // RVA: 0x7FFAF8D6E100
+        public void ThrowArgumentOutOfRangeException_SymbolDoesNotFit(){} // RVA: 0x7FFAF8D6E230
+        public void CreateArgumentOutOfRangeException_SymbolDoesNotFit(){} // RVA: 0x7FFAF8D6E260
+        public void ThrowInvalidOperationException_EndPositionNotReached(){} // RVA: 0x7FFAF8D6E310
+        public void CreateInvalidOperationException_EndPositionNotReached(){} // RVA: 0x7FFAF8D6E340
+        public void ThrowArgumentOutOfRangeException_PositionOutOfRange(){} // RVA: 0x7FFAF8D6E420
+        public void CreateArgumentOutOfRangeException_PositionOutOfRange(){} // RVA: 0x7FFAF8D6E450
+        public void ThrowFormatException_BadFormatSpecifier(){} // RVA: 0x7FFAF8D6E4F0
+        public void CreateFormatException_BadFormatSpecifier(){} // RVA: 0x7FFAF8D6E520
+        public void TryFormatThrowFormatException(){} // RVA: 0x7FFAF8D6E5B0
+        public void TryParseThrowFormatException(){} // RVA: 0x7FFAF2ABE230
+        public void ThrowStartOrEndArgumentValidationException(){} // RVA: 0x7FFAF8D6E5D0
+        public void CreateStartOrEndArgumentValidationException(){} // RVA: 0x7FFAF8D6E600
     }
 
-    public class TimeProvider : Object
+    public class ThrowHelper
     {
-        public System.TimeProvider _system;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void GetUtcNow(){} // RVA: 0x7FFE866C9760
-        public void get_LocalTimeZone(){} // RVA: 0x7FFE866C9810
-        public void .cctor(){} // RVA: 0x7FFE866C9860
+        public void ThrowArgumentNullException(){} // RVA: 0x7FFAF8976300
+        public void CreateArgumentNullException(){} // RVA: 0x7FFAF8976330
+        public void ThrowArrayTypeMismatchException(){} // RVA: 0x7FFAF89763F0
+        public void CreateArrayTypeMismatchException(){} // RVA: 0x7FFAF8976420
+        public void ThrowArgumentException_DestinationTooShort(){} // RVA: 0x7FFAF89764A0
+        public void CreateArgumentException_DestinationTooShort(){} // RVA: 0x7FFAF89764D0
+        public void ThrowIndexOutOfRangeException(){} // RVA: 0x7FFAF8976540
+        public void CreateIndexOutOfRangeException(){} // RVA: 0x7FFAF8976570
+        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x7FFAF8976FF0 | overloaded x3
+        public void CreateArgumentOutOfRangeException(){} // RVA: 0x7FFAF89766D0 | overloaded x2
+        public void ThrowArgumentOutOfRangeException_PrecisionTooLarge(){} // RVA: 0x7FFAF8976790
+        public void CreateArgumentOutOfRangeException_PrecisionTooLarge(){} // RVA: 0x7FFAF89767C0
+        public void ThrowArgumentOutOfRangeException_SymbolDoesNotFit(){} // RVA: 0x7FFAF8976890
+        public void CreateArgumentOutOfRangeException_SymbolDoesNotFit(){} // RVA: 0x7FFAF89768C0
+        public void ThrowInvalidOperationException_EndPositionNotReached(){} // RVA: 0x7FFAF8976950
+        public void CreateInvalidOperationException_EndPositionNotReached(){} // RVA: 0x7FFAF8976980
+        public void ThrowArgumentOutOfRangeException_PositionOutOfRange(){} // RVA: 0x7FFAF89769F0
+        public void CreateArgumentOutOfRangeException_PositionOutOfRange(){} // RVA: 0x7FFAF8976A20
+        public void ThrowArgumentOutOfRangeException_OffsetOutOfRange(){} // RVA: 0x7FFAF8976AC0
+        public void CreateArgumentOutOfRangeException_OffsetOutOfRange(){} // RVA: 0x7FFAF8976AF0
+        public void ThrowFormatException_BadFormatSpecifier(){} // RVA: 0x7FFAF8976B90
+        public void CreateFormatException_BadFormatSpecifier(){} // RVA: 0x7FFAF8976BC0
+        public void ThrowNotSupportedException(){} // RVA: 0x7FFAF89771A0 | overloaded x2
+        public void CreateThrowNotSupportedException(){} // RVA: 0x7FFAF8976C60
+        public void TryFormatThrowFormatException(){} // RVA: 0x7FFAF8976CE0
+        public void TryParseThrowFormatException(){} // RVA: 0x7FFAF2ABE230
+        public void ThrowStartOrEndArgumentValidationException(){} // RVA: 0x7FFAF8976D00
+        public void CreateStartOrEndArgumentValidationException(){} // RVA: 0x7FFAF8976D30
+        public void ThrowWrongKeyTypeArgumentException(){} // RVA: 0x7FFAF8976D50
+        public void ThrowWrongValueTypeArgumentException(){} // RVA: 0x7FFAF8976E30
+        public void ThrowArgumentException(){} // RVA: 0x7FFAF8976F70 | overloaded x2
+        public void ThrowInvalidOperationException(){} // RVA: 0x7FFAF89770E0
+        public void ThrowSerializationException(){} // RVA: 0x7FFAF8977140
+        public void ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion(){} // RVA: 0x7FFAF8977200
+        public void ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen(){} // RVA: 0x7FFAF8977250
+        public void ThrowInvalidOperationException_InvalidOperation_EnumNotStarted(){} // RVA: 0x7FFAF89772A0
+        public void ThrowInvalidOperationException_InvalidOperation_EnumEnded(){} // RVA: 0x7FFAF89772F0
+        public void ThrowInvalidOperationException_InvalidOperation_NoValue(){} // RVA: 0x7FFAF8977340
+        public void GetArgumentOutOfRangeException(){} // RVA: 0x7FFAF8977DD0 | overloaded x2
+        public void ThrowArgumentOutOfRange_IndexException(){} // RVA: 0x7FFAF8977410
+        public void ThrowIndexArgumentOutOfRange_NeedNonNegNumException(){} // RVA: 0x7FFAF8977450
+        public void ThrowArgumentException_Argument_InvalidArrayType(){} // RVA: 0x7FFAF8977490
+        public void GetAddingDuplicateWithKeyArgumentException(){} // RVA: 0x7FFAF89774E0
+        public void ThrowAddingDuplicateWithKeyArgumentException(){} // RVA: 0x7FFAF8977570
+        public void GetKeyNotFoundException(){} // RVA: 0x7FFAF89775A0
+        public void ThrowKeyNotFoundException(){} // RVA: 0x7FFAF8977620
+        public void ThrowInvalidTypeWithPointersNotSupported(){} // RVA: 0x7FFAF8977630
+        public void ThrowInvalidOperationException_ConcurrentOperationsNotSupported(){} // RVA: 0x7FFAF89776A0
+        public void GetInvalidOperationException(){} // RVA: 0x7FFAF89776E0
+        public void ThrowArraySegmentCtorValidationFailedExceptions(){} // RVA: 0x7FFAF8977740
+        public void GetArraySegmentCtorValidationFailedException(){} // RVA: 0x7FFAF8977770
+        public void GetArgumentException(){} // RVA: 0x7FFAF89778F0
+        public void GetArgumentNullException(){} // RVA: 0x7FFAF8977990
+        public void IfNullAndNullsAreIllegalThenThrow(){} // RVA: 0x7FFAF2ADA490
+        public void GetArgumentName(){} // RVA: 0x7FFAF8977A30
+        public void ThrowStartIndexArgumentOutOfRange_ArgumentOutOfRange_Index(){} // RVA: 0x7FFAF8977E90
+        public void ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count(){} // RVA: 0x7FFAF8977ED0
+        public void GetResourceName(){} // RVA: 0x7FFAF8977F10
+        public void ThrowValueArgumentOutOfRange_NeedNonNegNumException(){} // RVA: 0x7FFAF8978590
     }
 
-    public class TimeSpan : ValueType
+    public class ThrowHelper
     {
-        public long TicksPerMillisecond;
-        public double MillisecondsPerTick;
-        public long TicksPerSecond;
-        public double SecondsPerTick;
-        public long TicksPerMinute;
-        public double MinutesPerTick;
-        public long TicksPerHour;
-        public double HoursPerTick;
-        public long TicksPerDay;
-        public double DaysPerTick;
-        public int MillisPerSecond;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE869F8670 | overloaded x4
-        public void get_Ticks(){} // RVA: 0x7FFE8284EF60
-        public void get_Days(){} // RVA: 0x7FFE869F8730
-        public void get_Hours(){} // RVA: 0x7FFE869F8750
-        public void get_Milliseconds(){} // RVA: 0x7FFE869F8790
-        public void get_Minutes(){} // RVA: 0x7FFE869F87E0
-        public void get_Seconds(){} // RVA: 0x7FFE869F8830
-        public void get_TotalDays(){} // RVA: 0x7FFE869F8880
-        public void get_TotalHours(){} // RVA: 0x7FFE869F88A0
-        public void get_TotalMilliseconds(){} // RVA: 0x7FFE869F88C0
-        public void get_TotalMinutes(){} // RVA: 0x7FFE869F88F0
-        public void get_TotalSeconds(){} // RVA: 0x7FFE869F8910
-        public void Add(){} // RVA: 0x7FFE869F8930
-        public void Compare(){} // RVA: 0x7FFE869F89B0
-        public void CompareTo(){} // RVA: 0x7FFE869F8AB0 | overloaded x2
-        public void FromDays(){} // RVA: 0x7FFE869F8AD0
-        public void Duration(){} // RVA: 0x7FFE869F8B30
-        public void Equals(){} // RVA: 0x7FFE835C1CA0 | overloaded x3
-        public void GetHashCode(){} // RVA: 0x7FFE869DAEC0
-        public void FromHours(){} // RVA: 0x7FFE869F8C80
-        public void Interval(){} // RVA: 0x7FFE869F8CE0
-        public void FromMilliseconds(){} // RVA: 0x7FFE869F8DF0
-        public void FromMinutes(){} // RVA: 0x7FFE869F8E50
-        public void Negate(){} // RVA: 0x7FFE869F8EB0
-        public void FromSeconds(){} // RVA: 0x7FFE869F8F60
-        public void Subtract(){} // RVA: 0x7FFE869F8FC0
-        public void FromTicks(){} // RVA: 0x7FFE827C4A80
-        public void TimeToTicks(){} // RVA: 0x7FFE869F9040
-        public void ValidateStyles(){} // RVA: 0x7FFE869F90E0
-        public void Parse(){} // RVA: 0x7FFE869F91E0 | overloaded x2
-        public void ParseExact(){} // RVA: 0x7FFE869F9630 | overloaded x4
-        public void TryParse(){} // RVA: 0x7FFE869F9860 | overloaded x2
-        public void TryParseExact(){} // RVA: 0x7FFE869F9D00 | overloaded x4
-        public void ToString(){} // RVA: 0x7FFE869F9F50 | overloaded x3
-        public void TryFormat(){} // RVA: 0x7FFE869F9FD0
-        public void op_UnaryNegation(){} // RVA: 0x7FFE869FA110
-        public void op_Subtraction(){} // RVA: 0x7FFE869FA1C0
-        public void op_UnaryPlus(){} // RVA: 0x7FFE827C4A80
-        public void op_Addition(){} // RVA: 0x7FFE869FA280
-        public void op_Equality(){} // RVA: 0x7FFE835C1CA0
-        public void op_Inequality(){} // RVA: 0x7FFE869FA340
-        public void op_LessThan(){} // RVA: 0x7FFE869FA350
-        public void op_LessThanOrEqual(){} // RVA: 0x7FFE869FA360
-        public void op_GreaterThan(){} // RVA: 0x7FFE869FA370
-        public void op_GreaterThanOrEqual(){} // RVA: 0x7FFE869FA380
-        public void .cctor(){} // RVA: 0x7FFE869FA390
+        public void ThrowIfNull(){} // RVA: 0x7FFAF8653E70
+        public void Throw(){} // RVA: 0x7FFAF8653E90
+        public void IfNullOrWhitespace(){} // RVA: 0x7FFAF8653EE0
     }
 
-    public class TimeZone : Object
+    public class ThrowHelper
     {
-        public System.TimeZone currentTimeZone;
-        public object s_InternalSyncObject; // 0x8
-
         // ── Methods ──
-        public void get_InternalSyncObject(){} // RVA: 0x7FFE869FA410
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_CurrentTimeZone(){} // RVA: 0x7FFE869FA4E0
+        public void ThrowIfNull(){} // RVA: 0x7FFAF865E550
+        public void Throw(){} // RVA: 0x7FFAF865E570
+    }
+
+    public class ThrowHelper
+    {
+        // ── Methods ──
+        public void ThrowIfNull(){} // RVA: 0x7FFAF8665BD0
+        public void Throw(){} // RVA: 0x7FFAF8665BF0
+    }
+
+    public class ThrowHelper
+    {
+        // ── Methods ──
+        public void ThrowIfNull(){} // RVA: 0x7FFAF8638D20
+        public void Throw(){} // RVA: 0x7FFAF8638D40
+    }
+
+    public class ThrowHelper
+    {
+        // ── Methods ──
+        public void ThrowArgumentNullException(){} // RVA: 0x7FFAF8E19160
+        public void ThrowArgumentOutOfRangeException(){} // RVA: 0x7FFAF8E19190
+        public void GetArgumentNullException(){} // RVA: 0x7FFAF8E191C0
+        public void GetArgumentOutOfRangeException(){} // RVA: 0x7FFAF8E19260
+        public void GetArgumentName(){} // RVA: 0x7FFAF8E19300
+    }
+
+    public class TimeProvider
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void GetUtcNow(){} // RVA: 0x7FFAF8638930
+        public void get_LocalTimeZone(){} // RVA: 0x7FFAF86389E0
+        public void .cctor(){} // RVA: 0x7FFAF8638A30
+    }
+
+    public class TimeSpan
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF89677D0 | overloaded x4
+        public void get_Ticks(){} // RVA: 0x7FFAF4584690
+        public void get_Days(){} // RVA: 0x7FFAF8967890
+        public void get_Hours(){} // RVA: 0x7FFAF89678B0
+        public void get_Milliseconds(){} // RVA: 0x7FFAF89678F0
+        public void get_Minutes(){} // RVA: 0x7FFAF8967940
+        public void get_Seconds(){} // RVA: 0x7FFAF8967990
+        public void get_TotalDays(){} // RVA: 0x7FFAF89679E0
+        public void get_TotalHours(){} // RVA: 0x7FFAF8967A00
+        public void get_TotalMilliseconds(){} // RVA: 0x7FFAF8967A20
+        public void get_TotalMinutes(){} // RVA: 0x7FFAF8967A50
+        public void get_TotalSeconds(){} // RVA: 0x7FFAF8967A70
+        public void Add(){} // RVA: 0x7FFAF8967A90
+        public void Compare(){} // RVA: 0x7FFAF8967B10
+        public void CompareTo(){} // RVA: 0x7FFAF8967C10 | overloaded x2
+        public void FromDays(){} // RVA: 0x7FFAF8967C30
+        public void Duration(){} // RVA: 0x7FFAF8967C90
+        public void Equals(){} // RVA: 0x7FFAF5328D00 | overloaded x3
+        public void GetHashCode(){} // RVA: 0x7FFAF894A080
+        public void FromHours(){} // RVA: 0x7FFAF8967DE0
+        public void Interval(){} // RVA: 0x7FFAF8967E40
+        public void FromMilliseconds(){} // RVA: 0x7FFAF8967F50
+        public void FromMinutes(){} // RVA: 0x7FFAF8967FB0
+        public void Negate(){} // RVA: 0x7FFAF8968010
+        public void FromSeconds(){} // RVA: 0x7FFAF89680C0
+        public void Subtract(){} // RVA: 0x7FFAF8968120
+        public void FromTicks(){} // RVA: 0x7FFAF44EF520
+        public void TimeToTicks(){} // RVA: 0x7FFAF89681A0
+        public void ValidateStyles(){} // RVA: 0x7FFAF8968240
+        public void Parse(){} // RVA: 0x7FFAF8968340 | overloaded x2
+        public void ParseExact(){} // RVA: 0x7FFAF8968790 | overloaded x4
+        public void TryParse(){} // RVA: 0x7FFAF89689C0 | overloaded x2
+        public void TryParseExact(){} // RVA: 0x7FFAF8968E60 | overloaded x4
+        public void ToString(){} // RVA: 0x7FFAF89690B0 | overloaded x3
+        public void TryFormat(){} // RVA: 0x7FFAF8969130
+        public void op_UnaryNegation(){} // RVA: 0x7FFAF8969270
+        public void op_Subtraction(){} // RVA: 0x7FFAF8969320
+        public void op_UnaryPlus(){} // RVA: 0x7FFAF44EF520
+        public void op_Addition(){} // RVA: 0x7FFAF89693E0
+        public void op_Equality(){} // RVA: 0x7FFAF5328D00
+        public void op_Inequality(){} // RVA: 0x7FFAF89694A0
+        public void op_LessThan(){} // RVA: 0x7FFAF89694B0
+        public void op_LessThanOrEqual(){} // RVA: 0x7FFAF89694C0
+        public void op_GreaterThan(){} // RVA: 0x7FFAF89694D0
+        public void op_GreaterThanOrEqual(){} // RVA: 0x7FFAF89694E0
+        public void .cctor(){} // RVA: 0x7FFAF89694F0
+    }
+
+    public class TimeZone
+    {
+        // ── Methods ──
+        public void get_InternalSyncObject(){} // RVA: 0x7FFAF8969570
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_CurrentTimeZone(){} // RVA: 0x7FFAF8969640
         public void GetUtcOffset(){}
-        public void GetDaylightChanges(){} // RVA: 0x7FFE80E3D230
-        public void CalculateUtcOffset(){} // RVA: 0x7FFE869FA810
+        public void GetDaylightChanges(){} // RVA: 0x7FFAF2ACBCC0
+        public void CalculateUtcOffset(){} // RVA: 0x7FFAF8969970
     }
 
-    public class TimeZoneInfo : Object
+    public class TimeZoneInfo
     {
-        public string TimeZonesRegistryHive;
-        public string DisplayValue;
-        public string DaylightValue;
-        public string StandardValue;
-        public string MuiDisplayValue;
-        public string MuiDaylightValue;
-        public string MuiStandardValue;
-        public string TimeZoneInfoValue;
-        public string FirstEntryValue;
-
         // ── Methods ──
-        public void GetAdjustmentRules(){} // RVA: 0x7FFE8689AEA0
-        public void PopulateAllSystemTimeZones(){} // RVA: 0x7FFE8689AF40
-        public void PopulateAllSystemTimeZonesFromRegistry(){} // RVA: 0x7FFE8689AFD0
-        public void .ctor(){} // RVA: 0x7FFE868AC290 | overloaded x4
-        public void CheckDaylightSavingTimeNotSupported(){} // RVA: 0x7FFE8689B770
-        public void CreateAdjustmentRuleFromTimeZoneInformation(){} // RVA: 0x7FFE8689FB00 | overloaded x2
-        public void FindIdFromTimeZoneInformation(){} // RVA: 0x7FFE8689BBD0
-        public void GetLocalTimeZone(){} // RVA: 0x7FFE8689BDA0
-        public void GetLocalTimeZoneFromWin32Data(){} // RVA: 0x7FFE8689C120
-        public void FindSystemTimeZoneById(){} // RVA: 0x7FFE8689C250
-        public void GetDateTimeNowUtcOffsetFromUtc(){} // RVA: 0x7FFE8689C750
-        public void TransitionTimeFromTimeZoneInformation(){} // RVA: 0x7FFE868A0130 | overloaded x2
-        public void TryCreateAdjustmentRules(){} // RVA: 0x7FFE8689CB90
-        public void TryGetTimeZoneEntryFromRegistry(){} // RVA: 0x7FFE8689D7E0
-        public void TryCompareStandardDate(){} // RVA: 0x7FFE8689D910
-        public void TryCompareTimeZoneInformationToRegistry(){} // RVA: 0x7FFE8689D990
-        public void TryGetLocalizedNameByMuiNativeResource(){} // RVA: 0x7FFE8689DF50
-        public void TryGetLocalizedNameByNativeResource(){} // RVA: 0x7FFE8689E2D0
-        public void GetLocalizedNamesByRegistryKey(){} // RVA: 0x7FFE8689E6D0
-        public void TryGetTimeZoneFromLocalMachine(){} // RVA: 0x7FFE868AB2B0 | overloaded x2
-        public void TryGetTimeZoneFromLocalRegistry(){} // RVA: 0x7FFE8689EE90
-        public void get_HaveRegistry(){} // RVA: 0x7FFE8689F3D0
-        public void EnumDynamicTimeZoneInformation(){} // RVA: 0x7FFE8689F450
-        public void GetDynamicTimeZoneInformation(){} // RVA: 0x7FFE8689F5F0
-        public void GetDynamicTimeZoneInformationEffectiveYears(){} // RVA: 0x7FFE8689F780
-        public void GetTimeZoneInformationForYear(){} // RVA: 0x7FFE8689F940
-        public void TryCreateTimeZone(){} // RVA: 0x7FFE868A0FD0
-        public void GetLocalTimeZoneInfoWinRTFallback(){} // RVA: 0x7FFE868A1A50
-        public void FindSystemTimeZoneByIdWinRTFallback(){} // RVA: 0x7FFE868A1DC0
-        public void GetSystemTimeZonesWinRTFallback(){} // RVA: 0x7FFE868A2020
-        public void get_Id(){} // RVA: 0x7FFE81116380
-        public void get_DisplayName(){} // RVA: 0x7FFE868A2830
-        public void get_StandardName(){} // RVA: 0x7FFE868A2880
-        public void get_DaylightName(){} // RVA: 0x7FFE868A28D0
-        public void get_BaseUtcOffset(){} // RVA: 0x7FFE8144E200
-        public void get_SupportsDaylightSavingTime(){} // RVA: 0x7FFE812CF770
-        public void GetAmbiguousTimeOffsets(){} // RVA: 0x7FFE868A2D50 | overloaded x2
-        public void GetAdjustmentRuleForAmbiguousOffsets(){} // RVA: 0x7FFE868A3220
-        public void GetPreviousAdjustmentRule(){} // RVA: 0x7FFE868A32A0
-        public void GetUtcOffset(){} // RVA: 0x7FFE868ABC60 | overloaded x6
-        public void GetLocalUtcOffset(){} // RVA: 0x7FFE868A34E0
-        public void IsAmbiguousTime(){} // RVA: 0x7FFE868A39E0 | overloaded x3
-        public void IsDaylightSavingTime(){} // RVA: 0x7FFE868A3F30 | overloaded x4
-        public void IsInvalidTime(){} // RVA: 0x7FFE868A4210
-        public void ClearCachedData(){} // RVA: 0x7FFE868A44C0
-        public void ConvertTimeBySystemTimeZoneId(){} // RVA: 0x7FFE868A4690 | overloaded x3
-        public void ConvertTime(){} // RVA: 0x7FFE868A50B0 | overloaded x5
-        public void ConvertTimeFromUtc(){} // RVA: 0x7FFE868A56E0
-        public void ConvertTimeToUtc(){} // RVA: 0x7FFE868A5A00 | overloaded x3
-        public void Equals(){} // RVA: 0x7FFE868A5B80 | overloaded x2
-        public void FromSerializedString(){} // RVA: 0x7FFE868A5BE0
-        public void GetHashCode(){} // RVA: 0x7FFE868A5CC0
-        public void GetSystemTimeZones(){} // RVA: 0x7FFE868A5D70
-        public void HasSameRules(){} // RVA: 0x7FFE868A62A0
-        public void get_Local(){} // RVA: 0x7FFE868A6590
-        public void ToSerializedString(){} // RVA: 0x7FFE868A6610
-        public void ToString(){} // RVA: 0x7FFE868A2830
-        public void get_Utc(){} // RVA: 0x7FFE868A6620
-        public void CreateCustomTimeZone(){} // RVA: 0x7FFE868A6A20 | overloaded x3
-        public void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(){} // RVA: 0x7FFE868A6B50
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE868A6D10
-        public void GetAdjustmentRuleForTime(){} // RVA: 0x7FFE868A7540 | overloaded x2
-        public void CompareAdjustmentRuleToDateTime(){} // RVA: 0x7FFE868A77C0
-        public void ConvertToUtc(){} // RVA: 0x7FFE868A7A10
-        public void ConvertFromUtc(){} // RVA: 0x7FFE868A7A30
-        public void ConvertToFromUtc(){} // RVA: 0x7FFE868A7A50
-        public void ConvertUtcToTimeZone(){} // RVA: 0x7FFE868A7D10
-        public void GetDaylightTime(){} // RVA: 0x7FFE868A8100
-        public void GetIsDaylightSavings(){} // RVA: 0x7FFE868A8270
-        public void GetDaylightSavingsStartOffsetFromUtc(){} // RVA: 0x7FFE868A8870
-        public void GetDaylightSavingsEndOffsetFromUtc(){} // RVA: 0x7FFE868A8950
-        public void GetIsDaylightSavingsFromUtc(){} // RVA: 0x7FFE868A89E0
-        public void CheckIsDst(){} // RVA: 0x7FFE868A94D0
-        public void GetIsAmbiguousTime(){} // RVA: 0x7FFE868A9800
-        public void GetIsInvalidTime(){} // RVA: 0x7FFE868A9BC0
-        public void GetUtcOffsetFromUtc(){} // RVA: 0x7FFE868AA300 | overloaded x3
-        public void TransitionTimeToDateTime(){} // RVA: 0x7FFE868AA670
-        public void TryGetTimeZone(){} // RVA: 0x7FFE868AAFB0
-        public void ValidateTimeZoneInfo(){} // RVA: 0x7FFE868AB780
-        public void UtcOffsetOutOfRange(){} // RVA: 0x7FFE868ABB80
-        public void IsValidAdjustmentRuleOffest(){} // RVA: 0x7FFE868ABD40
-        public void .cctor(){} // RVA: 0x7FFE868ABE60
+        public void GetAdjustmentRules(){} // RVA: 0x7FFAF880A010
+        public void PopulateAllSystemTimeZones(){} // RVA: 0x7FFAF880A0B0
+        public void PopulateAllSystemTimeZonesFromRegistry(){} // RVA: 0x7FFAF880A140
+        public void .ctor(){} // RVA: 0x7FFAF881B400 | overloaded x4
+        public void CheckDaylightSavingTimeNotSupported(){} // RVA: 0x7FFAF880A8E0
+        public void CreateAdjustmentRuleFromTimeZoneInformation(){} // RVA: 0x7FFAF880EC70 | overloaded x2
+        public void FindIdFromTimeZoneInformation(){} // RVA: 0x7FFAF880AD40
+        public void GetLocalTimeZone(){} // RVA: 0x7FFAF880AF10
+        public void GetLocalTimeZoneFromWin32Data(){} // RVA: 0x7FFAF880B290
+        public void FindSystemTimeZoneById(){} // RVA: 0x7FFAF880B3C0
+        public void GetDateTimeNowUtcOffsetFromUtc(){} // RVA: 0x7FFAF880B8C0
+        public void TransitionTimeFromTimeZoneInformation(){} // RVA: 0x7FFAF880F2A0 | overloaded x2
+        public void TryCreateAdjustmentRules(){} // RVA: 0x7FFAF880BD00
+        public void TryGetTimeZoneEntryFromRegistry(){} // RVA: 0x7FFAF880C950
+        public void TryCompareStandardDate(){} // RVA: 0x7FFAF880CA80
+        public void TryCompareTimeZoneInformationToRegistry(){} // RVA: 0x7FFAF880CB00
+        public void TryGetLocalizedNameByMuiNativeResource(){} // RVA: 0x7FFAF880D0C0
+        public void TryGetLocalizedNameByNativeResource(){} // RVA: 0x7FFAF880D440
+        public void GetLocalizedNamesByRegistryKey(){} // RVA: 0x7FFAF880D840
+        public void TryGetTimeZoneFromLocalMachine(){} // RVA: 0x7FFAF881A420 | overloaded x2
+        public void TryGetTimeZoneFromLocalRegistry(){} // RVA: 0x7FFAF880E000
+        public void get_HaveRegistry(){} // RVA: 0x7FFAF880E540
+        public void EnumDynamicTimeZoneInformation(){} // RVA: 0x7FFAF880E5C0
+        public void GetDynamicTimeZoneInformation(){} // RVA: 0x7FFAF880E760
+        public void GetDynamicTimeZoneInformationEffectiveYears(){} // RVA: 0x7FFAF880E8F0
+        public void GetTimeZoneInformationForYear(){} // RVA: 0x7FFAF880EAB0
+        public void TryCreateTimeZone(){} // RVA: 0x7FFAF8810140
+        public void GetLocalTimeZoneInfoWinRTFallback(){} // RVA: 0x7FFAF8810BC0
+        public void FindSystemTimeZoneByIdWinRTFallback(){} // RVA: 0x7FFAF8810F30
+        public void GetSystemTimeZonesWinRTFallback(){} // RVA: 0x7FFAF8811190
+        public void get_Id(){} // RVA: 0x7FFAF2DA8380
+        public void get_DisplayName(){} // RVA: 0x7FFAF88119A0
+        public void get_StandardName(){} // RVA: 0x7FFAF88119F0
+        public void get_DaylightName(){} // RVA: 0x7FFAF8811A40
+        public void get_BaseUtcOffset(){} // RVA: 0x7FFAF30E74D0
+        public void get_SupportsDaylightSavingTime(){} // RVA: 0x7FFAF2F56500
+        public void GetAmbiguousTimeOffsets(){} // RVA: 0x7FFAF8811EC0 | overloaded x2
+        public void GetAdjustmentRuleForAmbiguousOffsets(){} // RVA: 0x7FFAF8812390
+        public void GetPreviousAdjustmentRule(){} // RVA: 0x7FFAF8812410
+        public void GetUtcOffset(){} // RVA: 0x7FFAF881ADD0 | overloaded x6
+        public void GetLocalUtcOffset(){} // RVA: 0x7FFAF8812650
+        public void IsAmbiguousTime(){} // RVA: 0x7FFAF8812B50 | overloaded x3
+        public void IsDaylightSavingTime(){} // RVA: 0x7FFAF88130A0 | overloaded x4
+        public void IsInvalidTime(){} // RVA: 0x7FFAF8813380
+        public void ClearCachedData(){} // RVA: 0x7FFAF8813630
+        public void ConvertTimeBySystemTimeZoneId(){} // RVA: 0x7FFAF8813800 | overloaded x3
+        public void ConvertTime(){} // RVA: 0x7FFAF8814220 | overloaded x5
+        public void ConvertTimeFromUtc(){} // RVA: 0x7FFAF8814850
+        public void ConvertTimeToUtc(){} // RVA: 0x7FFAF8814B70 | overloaded x3
+        public void Equals(){} // RVA: 0x7FFAF8814CF0 | overloaded x2
+        public void FromSerializedString(){} // RVA: 0x7FFAF8814D50
+        public void GetHashCode(){} // RVA: 0x7FFAF8814E30
+        public void GetSystemTimeZones(){} // RVA: 0x7FFAF8814EE0
+        public void HasSameRules(){} // RVA: 0x7FFAF8815410
+        public void get_Local(){} // RVA: 0x7FFAF8815700
+        public void ToSerializedString(){} // RVA: 0x7FFAF8815780
+        public void ToString(){} // RVA: 0x7FFAF88119A0
+        public void get_Utc(){} // RVA: 0x7FFAF8815790
+        public void CreateCustomTimeZone(){} // RVA: 0x7FFAF8815B90 | overloaded x3
+        public void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(){} // RVA: 0x7FFAF8815CC0
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF8815E80
+        public void GetAdjustmentRuleForTime(){} // RVA: 0x7FFAF88166B0 | overloaded x2
+        public void CompareAdjustmentRuleToDateTime(){} // RVA: 0x7FFAF8816930
+        public void ConvertToUtc(){} // RVA: 0x7FFAF8816B80
+        public void ConvertFromUtc(){} // RVA: 0x7FFAF8816BA0
+        public void ConvertToFromUtc(){} // RVA: 0x7FFAF8816BC0
+        public void ConvertUtcToTimeZone(){} // RVA: 0x7FFAF8816E80
+        public void GetDaylightTime(){} // RVA: 0x7FFAF8817270
+        public void GetIsDaylightSavings(){} // RVA: 0x7FFAF88173E0
+        public void GetDaylightSavingsStartOffsetFromUtc(){} // RVA: 0x7FFAF88179E0
+        public void GetDaylightSavingsEndOffsetFromUtc(){} // RVA: 0x7FFAF8817AC0
+        public void GetIsDaylightSavingsFromUtc(){} // RVA: 0x7FFAF8817B50
+        public void CheckIsDst(){} // RVA: 0x7FFAF8818640
+        public void GetIsAmbiguousTime(){} // RVA: 0x7FFAF8818970
+        public void GetIsInvalidTime(){} // RVA: 0x7FFAF8818D30
+        public void GetUtcOffsetFromUtc(){} // RVA: 0x7FFAF8819470 | overloaded x3
+        public void TransitionTimeToDateTime(){} // RVA: 0x7FFAF88197E0
+        public void TryGetTimeZone(){} // RVA: 0x7FFAF881A120
+        public void ValidateTimeZoneInfo(){} // RVA: 0x7FFAF881A8F0
+        public void UtcOffsetOutOfRange(){} // RVA: 0x7FFAF881ACF0
+        public void IsValidAdjustmentRuleOffest(){} // RVA: 0x7FFAF881AEB0
+        public void .cctor(){} // RVA: 0x7FFAF881AFD0
     }
 
-    public class TimeZoneNotFoundException : Exception
+    public class TimeZoneNotFoundException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE869FAC30 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFAF8969D90 | overloaded x4
     }
 
-    public class TimeoutException : SystemException
+    public class TimeoutException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF44EE1C0 | overloaded x3
     }
 
-    public class Tuple : Object
+    public class Tuple
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE810A1420 | overloaded x3
-        public void CombineHashCodes(){} // RVA: 0x7FFE869FAD30 | overloaded x3
+        public void Create(){} // RVA: 0x7FFAF2D33FA0 | overloaded x3
+        public void CombineHashCodes(){} // RVA: 0x7FFAF8969E90 | overloaded x3
     }
 
-    public class Tuple`2 : Object
+    public class Tuple`2
     {
-        public U m_Item1;
-        public T m_Item2;
-        public object m_Item1; // 0x10
-
         // ── Methods ──
-        public void get_Item1(){} // RVA: 0x7FFE810A1420
-        public void get_Item2(){} // RVA: 0x7FFE810A1420
-        public void .ctor(){} // RVA: 0x7FFE810A1420
-        public void Equals(){} // RVA: 0x7FFE80E2F3B0
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFE80E32650
-        public void System.IComparable.CompareTo(){} // RVA: 0x7FFE80E33B00
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFE80E38BF0
-        public void GetHashCode(){} // RVA: 0x7FFE80E2EDB0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFE80E33B00
-        public void ToString(){} // RVA: 0x7FFE80E2E2E0
-        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFE80E2E390
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFE80E2EDB0
+        public void get_Item1(){} // RVA: 0x7FFAF2D33FA0
+        public void get_Item2(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+        public void Equals(){} // RVA: 0x7FFAF2ABDE40
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF2AC1120
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF2AC2590
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF2AC7680
+        public void GetHashCode(){} // RVA: 0x7FFAF2ABD840
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF2AC2590
+        public void ToString(){} // RVA: 0x7FFAF2ABCD60
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF2ABCE10
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2ABD840
     }
 
-    public class Tuple`3 : Object
+    public class Tuple`2 : 
     {
-        public U m_Item1;
-        public V m_Item2;
-        public T m_Item3;
-        public object field_3; // 0xD3
-
         // ── Methods ──
-        public void get_Item1(){} // RVA: 0x7FFE810A1420
-        public void get_Item2(){} // RVA: 0x7FFE810A1420
-        public void get_Item3(){} // RVA: 0x7FFE810A1420
-        public void .ctor(){} // RVA: 0x7FFE810A1420
-        public void Equals(){} // RVA: 0x7FFE80E2F3B0
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFE80E32650
-        public void System.IComparable.CompareTo(){} // RVA: 0x7FFE80E33B00
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFE80E38BF0
-        public void GetHashCode(){} // RVA: 0x7FFE80E2EDB0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFE80E33B00
-        public void ToString(){} // RVA: 0x7FFE80E2E2E0
-        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFE80E2E390
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFE80E2EDB0
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
     }
 
-    public class Tuple`4 : Object
+    public class Tuple`2 : 
     {
-        public U m_Item1;
-        public V m_Item2;
-        public W m_Item3;
-        public T m_Item4;
-        public object field_4; // 0xD7
-
         // ── Methods ──
-        public void get_Item1(){} // RVA: 0x7FFE810A1420
-        public void get_Item2(){} // RVA: 0x7FFE810A1420
-        public void get_Item3(){} // RVA: 0x7FFE810A1420
-        public void get_Item4(){} // RVA: 0x7FFE810A1420
-        public void .ctor(){} // RVA: 0x7FFE810A1420
-        public void Equals(){} // RVA: 0x7FFE80E2F3B0
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFE80E32650
-        public void System.IComparable.CompareTo(){} // RVA: 0x7FFE80E33B00
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFE80E38BF0
-        public void GetHashCode(){} // RVA: 0x7FFE80E2EDB0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFE80E33B00
-        public void ToString(){} // RVA: 0x7FFE80E2E2E0
-        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFE80E2E390
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFE80E2EDB0
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
     }
 
-    public class Type : MemberInfo
+    public class Tuple`2 : 
     {
-        public System.Reflection.Binder s_defaultBinder;
-        public char Delimiter; // 0x8
-        public System.Type[] EmptyTypes; // 0x10
-        public object Missing; // 0x18
-        public System.Reflection.MemberFilter FilterAttribute; // 0x20
-        public System.Reflection.MemberFilter FilterName; // 0x28
-        public System.Reflection.MemberFilter FilterNameIgnoreCase; // 0x30
-        public 0x664D16A4 DefaultLookup;
-        public System.RuntimeTypeHandle _impl; // 0x10
-        public string DefaultTypeNameWhenMissingMetadata;
-        public UIntPtr value; // 0x10
-        public object field_11; // 0xDC
-        public object field_12; // 0xDD
-        public object field_13; // 0xDE
-        public object field_14; // 0xDF
-        public object field_15; // 0xE0
-        public object field_16; // 0xE1
-        public object field_17; // 0xE2
-        public object field_18; // 0xE3
-        public object field_19; // 0xE4
-        public object field_20; // 0xE5
-        public object field_21; // 0xE6
-        public object field_22; // 0xE7
-        public object field_23; // 0xE8
-        public object field_24; // 0xE9
-        public object field_25; // 0xEA
-        public object field_26; // 0xEB
-        public object field_27; // 0xEC
-        public object field_28; // 0xED
-        public object field_29; // 0xEE
-        public object field_30; // 0xEF
-        public object field_31; // 0xF0
-        public object field_32; // 0xF1
-        public object field_33; // 0xF2
-        public object field_34; // 0xF3
-        public object field_35; // 0xF4
-        public object field_36; // 0xF5
-        public object field_37; // 0xF6
-        public object field_38; // 0xF7
-        public object field_39; // 0xF8
-        public object field_40; // 0xF9
-        public object field_41; // 0xFA
-        public object field_42; // 0xFB
-        public object field_43; // 0xFC
-        public object field_44; // 0xFD
-        public object field_45; // 0xFE
-        public object field_46; // 0xFF
-        public object field_47; // 0x100
-        public object field_48; // 0x101
-        public object field_49; // 0x102
-        public object field_50; // 0x103
-        public object field_51; // 0x104
-        public object field_52; // 0x105
-        public object field_53; // 0x106
-        public object field_54; // 0x107
-        public object field_55; // 0x108
-        public object field_56; // 0x109
-        public object field_57; // 0x10A
-        public object field_58; // 0x10B
-        public object field_59; // 0x10C
-        public object field_60; // 0x10D
-        public object field_61; // 0x10E
-        public object field_62; // 0x10F
-        public object field_63; // 0x110
-        public object field_64; // 0x111
-        public object field_65; // 0x112
-        public object field_66; // 0x113
-        public object field_67; // 0x114
-
         // ── Methods ──
-        public void IsEnumDefined(){} // RVA: 0x7FFE869FAD50
-        public void GetEnumName(){} // RVA: 0x7FFE869FB390
-        public void GetEnumNames(){} // RVA: 0x7FFE869FB780
-        public void GetEnumRawConstantValues(){} // RVA: 0x7FFE869FB830
-        public void GetEnumData(){} // RVA: 0x7FFE869FB860
-        public void BinarySearch(){} // RVA: 0x7FFE869FBD10
-        public void IsIntegerType(){} // RVA: 0x7FFE869FBED0
-        public void get_IsSerializable(){} // RVA: 0x7FFE869FC1E0
-        public void get_ContainsGenericParameters(){} // RVA: 0x7FFE869FC3E0
-        public void GetRootElementType(){} // RVA: 0x7FFE869FC540
-        public void get_IsVisible(){} // RVA: 0x7FFE869FC5A0
-        public void IsSubclassOf(){} // RVA: 0x7FFE869FC7A0
-        public void IsAssignableFrom(){} // RVA: 0x7FFE869FC860
-        public void ImplementInterface(){} // RVA: 0x7FFE869FCA40
-        public void FilterAttributeImpl(){} // RVA: 0x7FFE869FCBA0
-        public void FilterNameImpl(){} // RVA: 0x7FFE869FCF30
-        public void FilterNameIgnoreCaseImpl(){} // RVA: 0x7FFE869FD1E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_MemberType(){} // RVA: 0x7FFE835C28C0
-        public void GetType(){} // RVA: 0x7FFE869FFF70 | overloaded x5
-        public void get_Namespace(){} // RVA: 0x7FFE80E2E2E0
-        public void get_AssemblyQualifiedName(){} // RVA: 0x7FFE80E2E2E0
-        public void get_FullName(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Assembly(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Module(){} // RVA: 0x7FFE80E2E2E0
-        public void get_IsNested(){} // RVA: 0x7FFE869FD5F0
-        public void get_DeclaringType(){} // RVA: 0x7FFE813240E0
-        public void get_DeclaringMethod(){} // RVA: 0x7FFE813240E0
-        public void get_ReflectedType(){} // RVA: 0x7FFE813240E0
-        public void get_UnderlyingSystemType(){} // RVA: 0x7FFE80E2E2E0
-        public void get_IsArray(){} // RVA: 0x7FFE869FD660
-        public void IsArrayImpl(){} // RVA: 0x7FFE80E2F150
-        public void get_IsByRef(){} // RVA: 0x7FFE869FD680
-        public void IsByRefImpl(){} // RVA: 0x7FFE80E2F150
-        public void get_IsPointer(){} // RVA: 0x7FFE869FD6A0
-        public void IsPointerImpl(){} // RVA: 0x7FFE80E2F150
-        public void get_IsConstructedGenericType(){} // RVA: 0x7FFE869FD6C0
-        public void get_IsGenericParameter(){} // RVA: 0x7FFE810FB320
-        public void get_IsGenericMethodParameter(){} // RVA: 0x7FFE869FD6F0
-        public void get_IsGenericType(){} // RVA: 0x7FFE810FB320
-        public void get_IsGenericTypeDefinition(){} // RVA: 0x7FFE810FB320
-        public void get_IsSZArray(){} // RVA: 0x7FFE869FD770
-        public void get_IsVariableBoundArray(){} // RVA: 0x7FFE869FD7A0
-        public void get_HasElementType(){} // RVA: 0x7FFE869FD7F0
-        public void HasElementTypeImpl(){} // RVA: 0x7FFE80E2F150
-        public void GetElementType(){} // RVA: 0x7FFE80E2E2E0
-        public void GetArrayRank(){} // RVA: 0x7FFE869FD810
-        public void GetGenericTypeDefinition(){} // RVA: 0x7FFE869FD860
-        public void get_GenericTypeArguments(){} // RVA: 0x7FFE869FD8B0
-        public void GetGenericArguments(){} // RVA: 0x7FFE869FD940
-        public void get_GenericParameterPosition(){} // RVA: 0x7FFE869FD990
-        public void get_GenericParameterAttributes(){} // RVA: 0x7FFE869FD9E0
-        public void GetGenericParameterConstraints(){} // RVA: 0x7FFE869FDA20
-        public void get_Attributes(){} // RVA: 0x7FFE869FDAC0
-        public void GetAttributeFlagsImpl(){} // RVA: 0x7FFE80E2EDB0
-        public void get_IsAbstract(){} // RVA: 0x7FFE869FDAE0
-        public void get_IsImport(){} // RVA: 0x7FFE869FDB10
-        public void get_IsSealed(){} // RVA: 0x7FFE869FDB40
-        public void get_IsSpecialName(){} // RVA: 0x7FFE869FDB70
-        public void get_IsClass(){} // RVA: 0x7FFE869FDBA0
-        public void get_IsNestedAssembly(){} // RVA: 0x7FFE869FDBF0
-        public void get_IsNestedFamANDAssem(){} // RVA: 0x7FFE869FDC20
-        public void get_IsNestedFamily(){} // RVA: 0x7FFE869FDC50
-        public void get_IsNestedFamORAssem(){} // RVA: 0x7FFE869FDC80
-        public void get_IsNestedPrivate(){} // RVA: 0x7FFE869FDCB0
-        public void get_IsNestedPublic(){} // RVA: 0x7FFE869FDCE0
-        public void get_IsNotPublic(){} // RVA: 0x7FFE869FDD10
-        public void get_IsPublic(){} // RVA: 0x7FFE869FDD40
-        public void get_IsAutoLayout(){} // RVA: 0x7FFE869FDD70
-        public void get_IsExplicitLayout(){} // RVA: 0x7FFE869FDDA0
-        public void get_IsLayoutSequential(){} // RVA: 0x7FFE869FDDD0
-        public void get_IsAnsiClass(){} // RVA: 0x7FFE869FDE00
-        public void get_IsAutoClass(){} // RVA: 0x7FFE869FDE30
-        public void get_IsUnicodeClass(){} // RVA: 0x7FFE869FDE60
-        public void get_IsCOMObject(){} // RVA: 0x7FFE869FDE90
-        public void IsCOMObjectImpl(){} // RVA: 0x7FFE80E2F150
-        public void get_IsContextful(){} // RVA: 0x7FFE869FDEB0
-        public void IsContextfulImpl(){} // RVA: 0x7FFE869FDED0
-        public void get_IsCollectible(){} // RVA: 0x7FFE811E0850
-        public void get_IsEnum(){} // RVA: 0x7FFE869FDFB0
-        public void get_IsMarshalByRef(){} // RVA: 0x7FFE869FE090
-        public void IsMarshalByRefImpl(){} // RVA: 0x7FFE869FE0B0
-        public void get_IsPrimitive(){} // RVA: 0x7FFE869FE190
-        public void IsPrimitiveImpl(){} // RVA: 0x7FFE80E2F150
-        public void get_IsValueType(){} // RVA: 0x7FFE869FE1B0
-        public void IsValueTypeImpl(){} // RVA: 0x7FFE869FE1D0
-        public void get_IsSignatureType(){} // RVA: 0x7FFE810FB320
-        public void get_IsSecurityCritical(){} // RVA: 0x7FFE869FE2B0
-        public void get_IsSecuritySafeCritical(){} // RVA: 0x7FFE869FE2E0
-        public void get_IsSecurityTransparent(){} // RVA: 0x7FFE869FE310
-        public void GetConstructor(){} // RVA: 0x7FFE869FE3A0 | overloaded x3
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2
+    {
+    }
+
+    public class Tuple`2
+    {
+    }
+
+    public class Tuple`2 : 
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Item2(){} // RVA: 0x7FFAF2D13BC0
+        public void .ctor(){} // RVA: 0x7FFAF533F850
+        public void Equals(){} // RVA: 0x7FFAF6EE9E80
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9F00
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EEA200
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EEA280
+        public void GetHashCode(){} // RVA: 0x7FFAF6EEA610
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EEA680
+        public void ToString(){} // RVA: 0x7FFAF6EEA840
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EEA910
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2 : 
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2DA8380
+        public void get_Item2(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void Equals(){} // RVA: 0x7FFAF6EE9810
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE9890
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE9990
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE9A10
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE9B90
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE9C00
+        public void ToString(){} // RVA: 0x7FFAF6EE9C90
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE9D60
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`2
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF441ABE0
+        public void get_Item2(){} // RVA: 0x7FFAF2DBB0C0
+        public void .ctor(){} // RVA: 0x7FFAF6EE7830
+        public void Equals(){} // RVA: 0x7FFAF6EE7890
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF6EE7910
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF6EE7A60
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF6EE7AE0
+        public void GetHashCode(){} // RVA: 0x7FFAF6EE7CC0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF6EE7D30
+        public void ToString(){} // RVA: 0x7FFAF6EE7DE0
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF6EE7EB0
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2E92CB0
+    }
+
+    public class Tuple`3
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2D33FA0
+        public void get_Item2(){} // RVA: 0x7FFAF2D33FA0
+        public void get_Item3(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+        public void Equals(){} // RVA: 0x7FFAF2ABDE40
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF2AC1120
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF2AC2590
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF2AC7680
+        public void GetHashCode(){} // RVA: 0x7FFAF2ABD840
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF2AC2590
+        public void ToString(){} // RVA: 0x7FFAF2ABCD60
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF2ABCE10
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2ABD840
+    }
+
+    public class Tuple`4
+    {
+        // ── Methods ──
+        public void get_Item1(){} // RVA: 0x7FFAF2D33FA0
+        public void get_Item2(){} // RVA: 0x7FFAF2D33FA0
+        public void get_Item3(){} // RVA: 0x7FFAF2D33FA0
+        public void get_Item4(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+        public void Equals(){} // RVA: 0x7FFAF2ABDE40
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7FFAF2AC1120
+        public void System.IComparable.CompareTo(){} // RVA: 0x7FFAF2AC2590
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7FFAF2AC7680
+        public void GetHashCode(){} // RVA: 0x7FFAF2ABD840
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7FFAF2AC2590
+        public void ToString(){} // RVA: 0x7FFAF2ABCD60
+        public void System.ITupleInternal.ToString(){} // RVA: 0x7FFAF2ABCE10
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7FFAF2ABD840
+    }
+
+    public class Type
+    {
+        // ── Methods ──
+        public void IsEnumDefined(){} // RVA: 0x7FFAF8969EB0
+        public void GetEnumName(){} // RVA: 0x7FFAF896A4F0
+        public void GetEnumNames(){} // RVA: 0x7FFAF896A8E0
+        public void GetEnumRawConstantValues(){} // RVA: 0x7FFAF896A990
+        public void GetEnumData(){} // RVA: 0x7FFAF896A9C0
+        public void BinarySearch(){} // RVA: 0x7FFAF896AE70
+        public void IsIntegerType(){} // RVA: 0x7FFAF896B030
+        public void get_IsSerializable(){} // RVA: 0x7FFAF896B340
+        public void get_ContainsGenericParameters(){} // RVA: 0x7FFAF896B540
+        public void GetRootElementType(){} // RVA: 0x7FFAF896B6A0
+        public void get_IsVisible(){} // RVA: 0x7FFAF896B700
+        public void IsSubclassOf(){} // RVA: 0x7FFAF896B900
+        public void IsAssignableFrom(){} // RVA: 0x7FFAF896B9C0
+        public void ImplementInterface(){} // RVA: 0x7FFAF896BBA0
+        public void FilterAttributeImpl(){} // RVA: 0x7FFAF896BD00
+        public void FilterNameImpl(){} // RVA: 0x7FFAF896C090
+        public void FilterNameIgnoreCaseImpl(){} // RVA: 0x7FFAF896C340
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_MemberType(){} // RVA: 0x7FFAF4BBE300
+        public void GetType(){} // RVA: 0x7FFAF896F0D0 | overloaded x5
+        public void get_Namespace(){} // RVA: 0x7FFAF2ABCD60
+        public void get_AssemblyQualifiedName(){} // RVA: 0x7FFAF2ABCD60
+        public void get_FullName(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Assembly(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Module(){} // RVA: 0x7FFAF2ABCD60
+        public void get_IsNested(){} // RVA: 0x7FFAF896C750
+        public void get_DeclaringType(){} // RVA: 0x7FFAF2FC9240
+        public void get_DeclaringMethod(){} // RVA: 0x7FFAF2FC9240
+        public void get_ReflectedType(){} // RVA: 0x7FFAF2FC9240
+        public void get_UnderlyingSystemType(){} // RVA: 0x7FFAF2ABCD60
+        public void get_IsArray(){} // RVA: 0x7FFAF896C7C0
+        public void IsArrayImpl(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsByRef(){} // RVA: 0x7FFAF896C7E0
+        public void IsByRefImpl(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsPointer(){} // RVA: 0x7FFAF896C800
+        public void IsPointerImpl(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsConstructedGenericType(){} // RVA: 0x7FFAF896C820
+        public void get_IsGenericParameter(){} // RVA: 0x7FFAF2D8D320
+        public void get_IsGenericMethodParameter(){} // RVA: 0x7FFAF896C850
+        public void get_IsGenericType(){} // RVA: 0x7FFAF2D8D320
+        public void get_IsGenericTypeDefinition(){} // RVA: 0x7FFAF2D8D320
+        public void get_IsSZArray(){} // RVA: 0x7FFAF896C8D0
+        public void get_IsVariableBoundArray(){} // RVA: 0x7FFAF896C900
+        public void get_HasElementType(){} // RVA: 0x7FFAF896C950
+        public void HasElementTypeImpl(){} // RVA: 0x7FFAF2ABDBE0
+        public void GetElementType(){} // RVA: 0x7FFAF2ABCD60
+        public void GetArrayRank(){} // RVA: 0x7FFAF896C970
+        public void GetGenericTypeDefinition(){} // RVA: 0x7FFAF896C9C0
+        public void get_GenericTypeArguments(){} // RVA: 0x7FFAF896CA10
+        public void GetGenericArguments(){} // RVA: 0x7FFAF896CAA0
+        public void get_GenericParameterPosition(){} // RVA: 0x7FFAF896CAF0
+        public void get_GenericParameterAttributes(){} // RVA: 0x7FFAF896CB40
+        public void GetGenericParameterConstraints(){} // RVA: 0x7FFAF896CB80
+        public void get_Attributes(){} // RVA: 0x7FFAF896CC20
+        public void GetAttributeFlagsImpl(){} // RVA: 0x7FFAF2ABD840
+        public void get_IsAbstract(){} // RVA: 0x7FFAF896CC40
+        public void get_IsImport(){} // RVA: 0x7FFAF896CC70
+        public void get_IsSealed(){} // RVA: 0x7FFAF896CCA0
+        public void get_IsSpecialName(){} // RVA: 0x7FFAF896CCD0
+        public void get_IsClass(){} // RVA: 0x7FFAF896CD00
+        public void get_IsNestedAssembly(){} // RVA: 0x7FFAF896CD50
+        public void get_IsNestedFamANDAssem(){} // RVA: 0x7FFAF896CD80
+        public void get_IsNestedFamily(){} // RVA: 0x7FFAF896CDB0
+        public void get_IsNestedFamORAssem(){} // RVA: 0x7FFAF896CDE0
+        public void get_IsNestedPrivate(){} // RVA: 0x7FFAF896CE10
+        public void get_IsNestedPublic(){} // RVA: 0x7FFAF896CE40
+        public void get_IsNotPublic(){} // RVA: 0x7FFAF896CE70
+        public void get_IsPublic(){} // RVA: 0x7FFAF896CEA0
+        public void get_IsAutoLayout(){} // RVA: 0x7FFAF896CED0
+        public void get_IsExplicitLayout(){} // RVA: 0x7FFAF896CF00
+        public void get_IsLayoutSequential(){} // RVA: 0x7FFAF896CF30
+        public void get_IsAnsiClass(){} // RVA: 0x7FFAF896CF60
+        public void get_IsAutoClass(){} // RVA: 0x7FFAF896CF90
+        public void get_IsUnicodeClass(){} // RVA: 0x7FFAF896CFC0
+        public void get_IsCOMObject(){} // RVA: 0x7FFAF896CFF0
+        public void IsCOMObjectImpl(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsContextful(){} // RVA: 0x7FFAF896D010
+        public void IsContextfulImpl(){} // RVA: 0x7FFAF896D030
+        public void get_IsCollectible(){} // RVA: 0x7FFAF2E72850
+        public void get_IsEnum(){} // RVA: 0x7FFAF896D110
+        public void get_IsMarshalByRef(){} // RVA: 0x7FFAF896D1F0
+        public void IsMarshalByRefImpl(){} // RVA: 0x7FFAF896D210
+        public void get_IsPrimitive(){} // RVA: 0x7FFAF896D2F0
+        public void IsPrimitiveImpl(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsValueType(){} // RVA: 0x7FFAF896D310
+        public void IsValueTypeImpl(){} // RVA: 0x7FFAF896D330
+        public void get_IsSignatureType(){} // RVA: 0x7FFAF2D8D320
+        public void get_IsSecurityCritical(){} // RVA: 0x7FFAF896D410
+        public void get_IsSecuritySafeCritical(){} // RVA: 0x7FFAF896D440
+        public void get_IsSecurityTransparent(){} // RVA: 0x7FFAF896D470
+        public void GetConstructor(){} // RVA: 0x7FFAF896D500 | overloaded x3
         public void GetConstructorImpl(){}
-        public void GetConstructors(){} // RVA: 0x7FFE80E3D230 | overloaded x2
-        public void GetEvent(){} // RVA: 0x7FFE80E3F2F0 | overloaded x2
-        public void GetEvents(){} // RVA: 0x7FFE80E3D230
-        public void GetField(){} // RVA: 0x7FFE80E3F2F0 | overloaded x2
-        public void GetFields(){} // RVA: 0x7FFE80E3D230 | overloaded x2
-        public void GetMember(){} // RVA: 0x7FFE869FE5F0 | overloaded x3
-        public void GetMembers(){} // RVA: 0x7FFE80E3D230
-        public void GetMethod(){} // RVA: 0x7FFE869FE820 | overloaded x6
+        public void GetConstructors(){} // RVA: 0x7FFAF2ACBCC0 | overloaded x2
+        public void GetEvent(){} // RVA: 0x7FFAF2ACDD80 | overloaded x2
+        public void GetEvents(){} // RVA: 0x7FFAF2ACBCC0
+        public void GetField(){} // RVA: 0x7FFAF2ACDD80 | overloaded x2
+        public void GetFields(){} // RVA: 0x7FFAF2ACBCC0 | overloaded x2
+        public void GetMember(){} // RVA: 0x7FFAF896D750 | overloaded x3
+        public void GetMembers(){} // RVA: 0x7FFAF2ACBCC0
+        public void GetMethod(){} // RVA: 0x7FFAF896D980 | overloaded x6
         public void GetMethodImpl(){}
-        public void GetMethods(){} // RVA: 0x7FFE80E3D230 | overloaded x2
-        public void GetNestedType(){} // RVA: 0x7FFE80E3F2F0 | overloaded x2
-        public void GetProperty(){} // RVA: 0x7FFE869FEE70 | overloaded x6
+        public void GetMethods(){} // RVA: 0x7FFAF2ACBCC0 | overloaded x2
+        public void GetNestedType(){} // RVA: 0x7FFAF2ACDD80 | overloaded x2
+        public void GetProperty(){} // RVA: 0x7FFAF896DFD0 | overloaded x6
         public void GetPropertyImpl(){}
-        public void GetProperties(){} // RVA: 0x7FFE80E3D230 | overloaded x2
-        public void get_TypeHandle(){} // RVA: 0x7FFE869FEF80
-        public void GetTypeHandle(){} // RVA: 0x7FFE869FEFC0
-        public void GetTypeArray(){} // RVA: 0x7FFE869FF050
-        public void GetTypeCode(){} // RVA: 0x7FFE869FF1D0
-        public void GetTypeCodeImpl(){} // RVA: 0x7FFE869FF240
-        public void get_GUID(){} // RVA: 0x7FFE80E2DCF0
-        public void get_BaseType(){} // RVA: 0x7FFE80E2E2E0
+        public void GetProperties(){} // RVA: 0x7FFAF2ACBCC0 | overloaded x2
+        public void get_TypeHandle(){} // RVA: 0x7FFAF896E0E0
+        public void GetTypeHandle(){} // RVA: 0x7FFAF896E120
+        public void GetTypeArray(){} // RVA: 0x7FFAF896E1B0
+        public void GetTypeCode(){} // RVA: 0x7FFAF896E330
+        public void GetTypeCodeImpl(){} // RVA: 0x7FFAF896E3A0
+        public void get_GUID(){} // RVA: 0x7FFAF2ABC770
+        public void get_BaseType(){} // RVA: 0x7FFAF2ABCD60
         public void InvokeMember(){}
-        public void GetInterface(){} // RVA: 0x7FFE80E3EBB0
-        public void GetInterfaces(){} // RVA: 0x7FFE80E2E2E0
-        public void IsInstanceOfType(){} // RVA: 0x7FFE869FF390
-        public void IsEquivalentTo(){} // RVA: 0x7FFE869FF3E0
-        public void GetEnumUnderlyingType(){} // RVA: 0x7FFE869FF440
-        public void GetEnumValues(){} // RVA: 0x7FFE869FF590
-        public void MakeArrayType(){} // RVA: 0x7FFE869FF680 | overloaded x2
-        public void MakeByRefType(){} // RVA: 0x7FFE869FF6C0
-        public void MakeGenericType(){} // RVA: 0x7FFE869FF700
-        public void MakePointerType(){} // RVA: 0x7FFE869FF750
-        public void MakeGenericSignatureType(){} // RVA: 0x7FFE869FF790
-        public void ToString(){} // RVA: 0x7FFE869FF800
-        public void Equals(){} // RVA: 0x7FFE869FF960 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE869FF900
-        public void get_DefaultBinder(){} // RVA: 0x7FFE869FFA00
-        public void GetTypeFromHandle(){} // RVA: 0x7FFE869FFB30
-        public void internal_from_handle(){} // RVA: 0x7FFE869FFBA0
-        public void get_IsSzArray(){} // RVA: 0x7FFE810FB320
-        public void FormatTypeName(){} // RVA: 0x7FFE869FFBE0 | overloaded x2
-        public void get_IsInterface(){} // RVA: 0x7FFE869FFC20
-        public void op_Equality(){} // RVA: 0x7FFE835C1CA0
-        public void op_Inequality(){} // RVA: 0x7FFE869FA340
-        public void get_FullNameOrDefault(){} // RVA: 0x7FFE86A000B0
-        public void IsRuntimeImplemented(){} // RVA: 0x7FFE86A00140
-        public void InternalGetNameIfAvailable(){} // RVA: 0x7FFE81768340
-        public void get_InternalNameIfAvailable(){} // RVA: 0x7FFE86A001E0
-        public void get_NameOrDefault(){} // RVA: 0x7FFE86A00210
-        public void .cctor(){} // RVA: 0x7FFE86A00280
+        public void GetInterface(){} // RVA: 0x7FFAF2ACD640
+        public void GetInterfaces(){} // RVA: 0x7FFAF2ABCD60
+        public void IsInstanceOfType(){} // RVA: 0x7FFAF896E4F0
+        public void IsEquivalentTo(){} // RVA: 0x7FFAF896E540
+        public void GetEnumUnderlyingType(){} // RVA: 0x7FFAF896E5A0
+        public void GetEnumValues(){} // RVA: 0x7FFAF896E6F0
+        public void MakeArrayType(){} // RVA: 0x7FFAF896E7E0 | overloaded x2
+        public void MakeByRefType(){} // RVA: 0x7FFAF896E820
+        public void MakeGenericType(){} // RVA: 0x7FFAF896E860
+        public void MakePointerType(){} // RVA: 0x7FFAF896E8B0
+        public void MakeGenericSignatureType(){} // RVA: 0x7FFAF896E8F0
+        public void ToString(){} // RVA: 0x7FFAF896E960
+        public void Equals(){} // RVA: 0x7FFAF896EAC0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF896EA60
+        public void get_DefaultBinder(){} // RVA: 0x7FFAF896EB60
+        public void GetTypeFromHandle(){} // RVA: 0x7FFAF896EC90
+        public void internal_from_handle(){} // RVA: 0x7FFAF896ED00
+        public void get_IsSzArray(){} // RVA: 0x7FFAF2D8D320
+        public void FormatTypeName(){} // RVA: 0x7FFAF896ED40 | overloaded x2
+        public void get_IsInterface(){} // RVA: 0x7FFAF896ED80
+        public void op_Equality(){} // RVA: 0x7FFAF5328D00
+        public void op_Inequality(){} // RVA: 0x7FFAF89694A0
+        public void get_FullNameOrDefault(){} // RVA: 0x7FFAF896F210
+        public void IsRuntimeImplemented(){} // RVA: 0x7FFAF896F2A0
+        public void InternalGetNameIfAvailable(){} // RVA: 0x7FFAF3400560
+        public void get_InternalNameIfAvailable(){} // RVA: 0x7FFAF896F340
+        public void get_NameOrDefault(){} // RVA: 0x7FFAF896F370
+        public void .cctor(){} // RVA: 0x7FFAF896F3E0
     }
 
-    public class TypeAccessException : TypeLoadException
+    public class TypeAccessException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE869BCD80 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF892BF40 | overloaded x2
     }
 
     public class TypeIdentifier
     {
         // ── Methods ──
-        public void get_InternalName(){} // RVA: 0x7FFE80E2E2E0
+        public void get_InternalName(){} // RVA: 0x7FFAF2ABCD60
     }
 
-    public class TypeIdentifiers : Object
+    public class TypeIdentifiers
     {
         // ── Methods ──
-        public void FromDisplay(){} // RVA: 0x7FFE86A562A0
+        public void FromDisplay(){} // RVA: 0x7FFAF89C5480
     }
 
-    public class TypeInitializationException : SystemException
+    public class TypeInitializationException
     {
-        public string _typeName; // 0x90
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A007B0 | overloaded x4
-        public void GetObjectData(){} // RVA: 0x7FFE86A008C0
-        public void get_TypeName(){} // RVA: 0x7FFE86A00AC0
+        public void .ctor(){} // RVA: 0x7FFAF896F910 | overloaded x4
+        public void GetObjectData(){} // RVA: 0x7FFAF896FA20
+        public void get_TypeName(){} // RVA: 0x7FFAF896FC20
     }
 
-    public class TypeLoadException : SystemException
+    public class TypeLoadException
     {
-        public string ClassName; // 0x90
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A39F10 | overloaded x5
-        public void get_Message(){} // RVA: 0x7FFE86A39910
-        public void SetMessageField(){} // RVA: 0x7FFE86A39930
-        public void GetObjectData(){} // RVA: 0x7FFE86A3A1A0
+        public void .ctor(){} // RVA: 0x7FFAF89A90D0 | overloaded x5
+        public void get_Message(){} // RVA: 0x7FFAF89A8AD0
+        public void SetMessageField(){} // RVA: 0x7FFAF89A8AF0
+        public void GetObjectData(){} // RVA: 0x7FFAF89A9360
     }
 
     public class TypeName
     {
         // ── Methods ──
-        public void get_DisplayName(){} // RVA: 0x7FFE80E2E2E0
+        public void get_DisplayName(){} // RVA: 0x7FFAF2ABCD60
     }
 
-    public class TypeNameParser : Object
+    public class TypeNameParser
     {
         // ── Methods ──
-        public void GetType(){} // RVA: 0x7FFE86A40EC0
+        public void GetType(){} // RVA: 0x7FFAF89B0080
     }
 
-    public class TypeNames : Object
+    public class TypeNames
     {
     }
 
-    public class TypeSpec : Object
+    public class TypeSpec
     {
-        public System.TypeIdentifier name; // 0x10
-        public string assembly_name; // 0x18
-
         // ── Methods ──
-        public void get_HasModifiers(){} // RVA: 0x7FFE85C00B10
-        public void GetDisplayFullName(){} // RVA: 0x7FFE86A56960
-        public void GetModifierString(){} // RVA: 0x7FFE86A56F30
-        public void get_DisplayFullName(){} // RVA: 0x7FFE86A571B0
-        public void Parse(){} // RVA: 0x7FFE86A582F0 | overloaded x2
-        public void UnescapeInternalName(){} // RVA: 0x7FFE86A57320
-        public void Resolve(){} // RVA: 0x7FFE86A57420
-        public void AddName(){} // RVA: 0x7FFE86A57E80
-        public void AddModifier(){} // RVA: 0x7FFE86A58050
-        public void SkipSpace(){} // RVA: 0x7FFE86A58190
-        public void BoundCheck(){} // RVA: 0x7FFE86A58250
-        public void ParsedTypeIdentifier(){} // RVA: 0x7FFE86A582E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_HasModifiers(){} // RVA: 0x7FFAF7C055E0
+        public void GetDisplayFullName(){} // RVA: 0x7FFAF89C5B40
+        public void GetModifierString(){} // RVA: 0x7FFAF89C6110
+        public void get_DisplayFullName(){} // RVA: 0x7FFAF89C6390
+        public void Parse(){} // RVA: 0x7FFAF89C74D0 | overloaded x2
+        public void UnescapeInternalName(){} // RVA: 0x7FFAF89C6500
+        public void Resolve(){} // RVA: 0x7FFAF89C6600
+        public void AddName(){} // RVA: 0x7FFAF89C7060
+        public void AddModifier(){} // RVA: 0x7FFAF89C7230
+        public void SkipSpace(){} // RVA: 0x7FFAF89C7370
+        public void BoundCheck(){} // RVA: 0x7FFAF89C7430
+        public void ParsedTypeIdentifier(){} // RVA: 0x7FFAF89C74C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class TypedReference : ValueType
+    public class TypedReference
     {
-        public System.RuntimeTypeHandle type; // 0x10
-
         // ── Methods ──
-        public void MakeTypedReference(){} // RVA: 0x7FFE86A39030
-        public void InternalMakeTypedReference(){} // RVA: 0x7FFE86A39670
-        public void GetHashCode(){} // RVA: 0x7FFE86A39740
-        public void Equals(){} // RVA: 0x7FFE86A397D0
-        public void get_IsNull(){} // RVA: 0x7FFE86A39830
-        public void SetTypedReference(){} // RVA: 0x7FFE86A39850
+        public void MakeTypedReference(){} // RVA: 0x7FFAF89A81F0
+        public void InternalMakeTypedReference(){} // RVA: 0x7FFAF89A8830
+        public void GetHashCode(){} // RVA: 0x7FFAF89A8900
+        public void Equals(){} // RVA: 0x7FFAF89A8990
+        public void get_IsNull(){} // RVA: 0x7FFAF89A89F0
+        public void SetTypedReference(){} // RVA: 0x7FFAF89A8A10
     }
 
 }

@@ -1,0 +1,77 @@
+[
+  {
+    "namespace": "VRC.SDK.Events",
+    "class": "VRCRemoteString",
+    "parent": "",
+    "known_methods": [
+      "Initialize",
+      "m",
+      "GetQuaternion",
+      "OnDestroy",
+      "Start"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C30",
+      "m_3D5",
+      "m_3B0",
+      "m_1DC",
+      "m_852",
+      "m_8A3"
+    ],
+    "all_method_count": 11
+  },
+  {
+    "namespace": "VRC.UI.Core.Styles",
+    "class": "StyleEngine",
+    "parent": "",
+    "known_methods": [
+      "get_fullPath",
+      "ProcessLipSyncAudio",
+      "DoAlloc",
+      "Initialize",
+      "ResetOVRLipSyncContext",
+      "Awake",
+      "Start",
+      "LateUpdate",
+      "InvokeDelayed",
+      "OnApplicationQuit",
+      "VRCSetAvatarMainIK",
+      "StopCoroutineFromEnumeratorManaged",
+      "GetScriptClassName",
+      "OnCancellationTokenCreated",
+      "OnTriggerExit"
+    ],
+    "fields": [
+      "importedWithErrors"
+    ],
+    "hash_methods": [
+      "m_CFE"
+    ],
+    "all_method_count": 32
+  },
+  {
+    "namespace": "VRC.Economy.Internal",
+    "class": "EconomyStoresManager",
+    "parent": "",
+    "known_methods": [
+      "GetLookupToId",
+      "set_colorMin",
+      "SetEconomyStoreParameter",
+      "AddUnitNode",
+      "Doop_GreaterThan",
+      "DoTryParse",
+      "InitializeStoreCache",
+      "LoadStoreCatalog",
+      "ProcessStoreInitialization",
+      "Initialize",
+      "GetPlatform"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_76E",
+      "m_09C"
+    ],
+    "all_method_count": 27
+  }
+]

@@ -1,0 +1,6 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_080A::m_016": "ReportSecurityFailure",
+ "VRCNetworkBehaviourSibling_BF5Sibling_080A::m_6EA": "ReportSecurityFailure",
+ "VRCNetworkBehaviourSibling_BF5Sibling_080A::m_C01": "InitializeCpuFeatureFlags",
+ "VRCNetworkBehaviourSibling_BF5Sibling_080A::m_CF3": "InitializeCpuFeatureFlags"
+}

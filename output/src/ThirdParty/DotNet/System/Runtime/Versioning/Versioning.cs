@@ -1,95 +1,113 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime.Versioning
-// Classes: 11
-// Methods: 23
+// Classes: 16
+// Methods: 28
 
 namespace ThirdParty.DotNet.System.Runtime.Versioning
 {
-    public class BinaryCompatibility : Object
+    public class BinaryCompatibility
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE868471B0
+        public void .cctor(){} // RVA: 0x7FFAF87B62B0
     }
 
-    public class NonVersionableAttribute : Attribute
+    public class NonVersionableAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class OSPlatformAttribute : Attribute
+    public class NonVersionableAttribute
     {
-        public string _platformName; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_PlatformName(){} // RVA: 0x7FFE81116380
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ObsoletedOSPlatformAttribute : OSPlatformAttribute
+    public class NonVersionableAttribute
     {
-        public string _message; // 0x18
-        public string _url; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x2
-        public void get_Message(){} // RVA: 0x7FFE810FE7C0
-        public void get_Url(){} // RVA: 0x7FFE811290C0
-        public void set_Url(){} // RVA: 0x7FFE811290D0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class RequiresPreviewFeaturesAttribute : Attribute
+    public class NonVersionableAttribute
     {
-        public string _message; // 0x10
-        public string _url; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
-        public void get_Message(){} // RVA: 0x7FFE81116380
-        public void get_Url(){} // RVA: 0x7FFE810FE7C0
-        public void set_Url(){} // RVA: 0x7FFE81161E80
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SupportedOSPlatformAttribute : OSPlatformAttribute
+    public class NonVersionableAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SupportedOSPlatformGuardAttribute : OSPlatformAttribute
+    public class NonVersionableAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class TargetFrameworkAttribute : Attribute
+    public class OSPlatformAttribute
     {
-        public string _frameworkName; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86847100
-        public void set_FrameworkDisplayName(){} // RVA: 0x7FFE81161E80
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_PlatformName(){} // RVA: 0x7FFAF2DA8380
     }
 
-    public class TargetPlatformAttribute : OSPlatformAttribute
+    public class ObsoletedOSPlatformAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0 | overloaded x2
+        public void get_Message(){} // RVA: 0x7FFAF2D907C0
+        public void get_Url(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_Url(){} // RVA: 0x7FFAF2DBB0D0
     }
 
-    public class UnsupportedOSPlatformAttribute : OSPlatformAttribute
+    public class RequiresPreviewFeaturesAttribute
     {
-        public string _message; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x2
-        public void get_Message(){} // RVA: 0x7FFE810FE7C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
+        public void get_Message(){} // RVA: 0x7FFAF2DA8380
+        public void get_Url(){} // RVA: 0x7FFAF2D907C0
+        public void set_Url(){} // RVA: 0x7FFAF2DF3E80
     }
 
-    public class UnsupportedOSPlatformGuardAttribute : OSPlatformAttribute
+    public class SupportedOSPlatformAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+    }
+
+    public class SupportedOSPlatformGuardAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+    }
+
+    public class TargetFrameworkAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF87B6200
+        public void set_FrameworkDisplayName(){} // RVA: 0x7FFAF2DF3E80
+    }
+
+    public class TargetPlatformAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+    }
+
+    public class UnsupportedOSPlatformAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0 | overloaded x2
+        public void get_Message(){} // RVA: 0x7FFAF2D907C0
+    }
+
+    public class UnsupportedOSPlatformGuardAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
 }

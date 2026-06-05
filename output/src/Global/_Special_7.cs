@@ -1,868 +1,831 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 295
+// Methods: 350
 
-public class <CreateSortSource>d__11 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF47CDEA0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <GetVirtualCamera>b__30_0(){} // RVA: 0x7FFAF47CDF40
 }
 
-public class <CreateStream>d__18 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE871D4070
-    public void SetStateMachine(){} // RVA: 0x7FFE871D49B0
+    public void .cctor(){} // RVA: 0x7FFAF47D3AF0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <RequiresUserInput>b__66_0(){} // RVA: 0x7FFAF47D3B90
 }
 
-public class <Data>e__FixedBuffer : ValueType
+public class <>c
 {
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF4801BF0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InitializeModule>b__22_0(){} // RVA: 0x7FFAF4801C90
 }
 
-public class <DaylightName>e__FixedBuffer : ValueType
+public class <>c
 {
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF9ADD7F0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <SortClips>b__125_0(){} // RVA: 0x7FFAF9ADD890
 }
 
-public class <Deactivate>d__6 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE811034B0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE811035B0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF9B212E0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <GetType>b__2_0(){} // RVA: 0x7FFAF9B21380
+    public void <GetType>b__2_1(){} // RVA: 0x7FFAF9B213B0
+    public void <GetType>b__2_3(){} // RVA: 0x7FFAF9B21430
+    public void <GetType>b__2_4(){} // RVA: 0x7FFAF9B21380
+    public void <GetType>b__2_5(){} // RVA: 0x7FFAF9B21470
+    public void <GetType>b__2_7(){} // RVA: 0x7FFAF9B214F0
 }
 
-public class <DelayedCoroutine>d__48 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE87D8E820
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE87D8E910
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void get_name(){} // RVA: 0x7FFAFBEA7760
+    public void GetLastCacheItem(){} // RVA: 0x7FFAFBEA77C0
+    public void .cctor(){} // RVA: 0x7FFAFBEA7820
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Initialize(){} // RVA: 0x7FFAFBEA7930
+    public void HandleFindObjectsDestroy(){} // RVA: 0x7FFAFBEA7A10
+    public void Initialize_07140220E181(){} // RVA: 0x7FFAFBEA7A80
+    // ── Unresolved (hash) ──
+    public void m_85D(){} // RVA: 0x7FFAFBEA7690
+    public void m_C8E(){} // RVA: 0x7FFAFBEA76F0
+    public void m_8EF(){} // RVA: 0x7FFAFBEA78C0
+    public void m_345(){} // RVA: 0x7FFAFBEA79A0
 }
 
-public class <DelayedDestroyDropdownList>d__75 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE87E0C930
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE87E0CA20
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF86E52F0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__10_0(){} // RVA: 0x7FFAF86E5390
 }
 
-public class <DelayedDestroyDropdownList>d__81 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE87AED6D0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE87AED7C0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF86E4AA0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__8_0(){} // RVA: 0x7FFAF86E4B40
 }
 
-public class <DelayedGraphicRebuild>d__18 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE87ADF5F0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE87ADF760
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF8BEC480
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InitOVRManager>b__410_0(){} // RVA: 0x7FFAF8BEC520
+    public void <FindMainCamera>b__425_0(){} // RVA: 0x7FFAF8BEC590
 }
 
-public class <DelayedMaterialRebuild>d__19 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE87ADF7A0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE87ADF920
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF8E3D6B0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <Configure>b__3_0(){} // RVA: 0x7FFAF8E3D750
 }
 
-public class <DelayedSetDirty>d__56 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE87FF6B30
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE87FF6C00
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF8E5DA90
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.ctor>b__346_9(){} // RVA: 0x7FFAF8E5DB30
+    public void <.ctor>b__346_12(){} // RVA: 0x7FFAF8E5DB80
+    public void <.ctor>b__346_13(){} // RVA: 0x7FFAF8E5DBD0
+    public void <GetAllEventProcessors>b__369_0(){} // RVA: 0x7FFAF8E5DD40
+    public void <GetAllTransactionProcessors>b__370_0(){} // RVA: 0x7FFAF8E5DD40
+    public void <GetAllExceptionProcessors>b__371_0(){} // RVA: 0x7FFAF8E5DD40
 }
 
-public class <Delete>d__25 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE8A441890
-    public void SetStateMachine(){} // RVA: 0x7FFE8A441BA0
+    public void .cctor(){} // RVA: 0x7FFAF8E2CF70
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.ctor>b__136_0(){} // RVA: 0x7FFAF8E2D010
 }
 
-public class <DeleteAsync>d__33`1 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF8D504E0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <Apply>b__1_0(){} // RVA: 0x7FFAF8D50580
+    public void <Apply>b__1_1(){} // RVA: 0x7FFAF8D505D0
+    public void <Apply>b__1_2(){} // RVA: 0x7FFAF8D50640
 }
 
-public class <DeleteAsync>d__61 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE8A2F3450
-    public void SetStateMachine(){} // RVA: 0x7FFE810FB310
+    public void .cctor(){} // RVA: 0x7FFAF8EC7040
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.ctor>b__5_0(){} // RVA: 0x7FFAF8EC70E0
+    public void <.ctor>b__6_0(){} // RVA: 0x7FFAF8EC70E0
 }
 
-public class <DeserializeAsObjectAsync>d__5 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF8E1E710
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <Process>b__4_0(){} // RVA: 0x7FFAF8E1E7B0
+    public void <.cctor>b__11_0(){} // RVA: 0x7FFAF8E1E820
 }
 
-public class <DeserializeAsync>d__1 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF981E690
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <Compile>b__22_0(){} // RVA: 0x7FFAF981E730
 }
 
-public class <DeserializeAsync>d__31 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86F2C680
-    public void SetStateMachine(){} // RVA: 0x7FFE86F2CDB0
+    public void .cctor(){} // RVA: 0x7FFAF898DF10
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <SelectProperty>b__2_0(){} // RVA: 0x7FFAF898DFB0
 }
 
-public class <DeserializeAsync>d__47 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86F32730
-    public void SetStateMachine(){} // RVA: 0x7FFE86F32FC0
+    public void .cctor(){} // RVA: 0x7FFAF86ACB60
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <BuildTailoringTables>b__17_0(){} // RVA: 0x7FFAF86ACC00
 }
 
-public class <DeserializeHeaderAsync>d__30 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86F2CE20
-    public void SetStateMachine(){} // RVA: 0x7FFE86F2D2E0
+    public void .cctor(){} // RVA: 0x7FFAFA18E890
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InitializeZLogger>b__29_1(){} // RVA: 0x7FFAFA18E930
+    public void <InitializeZLogger>b__29_3(){} // RVA: 0x7FFAFA18EB50
+    public void <InitializeZLogger>b__29_2(){} // RVA: 0x7FFAFA18EC30
+    public void <InitializeZLogger>b__29_4(){} // RVA: 0x7FFAFA18EE50
+    public void <Log>b__44_0(){} // RVA: 0x7FFAFA18EF30
+    public void <Log>b__45_0(){} // RVA: 0x7FFAFA18F0F0
+    public void <LogWarning>b__46_0(){} // RVA: 0x7FFAFA18F2B0
+    public void <LogWarning>b__47_0(){} // RVA: 0x7FFAFA18F470
+    public void <LogError>b__48_0(){} // RVA: 0x7FFAFA18F630
+    public void <LogError>b__49_0(){} // RVA: 0x7FFAFA18F7F0
+    public void <LogException>b__50_0(){} // RVA: 0x7FFAFA18F9B0
+    public void <LogException>b__51_0(){} // RVA: 0x7FFAFA18FB70
 }
 
-public class <DeserializeHeaderAsync>d__45 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86F33030
-    public void SetStateMachine(){} // RVA: 0x7FFE86F334B0
+    public void .cctor(){} // RVA: 0x7FFAF8917A70
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <JoinInternal>b__59_0(){} // RVA: 0x7FFAF8917B10
+    public void <JoinInternal>b__60_0(){} // RVA: 0x7FFAF8917D50
 }
 
-public class <DeserializePayloadAsync>d__46 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86F33520
-    public void SetStateMachine(){} // RVA: 0x7FFE86F34940
+    public void .cctor(){} // RVA: 0x7FFAF89FFCF0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <Delay>b__247_0(){} // RVA: 0x7FFAF89FFD90
+    public void <Delay>b__247_1(){} // RVA: 0x7FFAF89FFE00
+    public void <.cctor>b__271_0(){} // RVA: 0x7FFAF89FFE70
+    public void <.cctor>b__271_1(){} // RVA: 0x7FFAF89FFEC0
+    public void <.cctor>b__271_2(){} // RVA: 0x7FFAF3EFAA50
 }
 
-public class <DisableRagdollSmooth>d__21 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE8125F970
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE8125FD00
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF8820BE0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <GetSystemTimeZonesWinRTFallback>b__49_0(){} // RVA: 0x7FFAF8820C80
+    public void <GetSystemTimeZones>b__110_0(){} // RVA: 0x7FFAF8820DE0
+    public void <.cctor>b__157_0(){} // RVA: 0x7FFAF8820F40
 }
 
-public class <DisabledToActive>d__173 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE81198260
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE81198630
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF891BC70
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <UserFiles>b__3_0(){} // RVA: 0x7FFAF891BD10
+    public void <UserDirectories>b__4_0(){} // RVA: 0x7FFAF891BD10
+    public void <UserEntries>b__5_0(){} // RVA: 0x7FFAF891BD10
+    public void <FileInfos>b__6_0(){} // RVA: 0x7FFAF891BD20
+    public void <DirectoryInfos>b__7_0(){} // RVA: 0x7FFAF891BD80
+    public void <FileSystemInfos>b__8_0(){} // RVA: 0x7FFAF891BDE0
 }
 
-public class <DisposeAsync>d__107 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF8642330
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <CreateServiceAccessor>b__33_1(){} // RVA: 0x7FFAF2FC9240
 }
 
-public class <DisposeAsync>d__11 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF8648030
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <CreateCallSite>b__16_0(){} // RVA: 0x7FFAF86480D0
+    public void <TryCreateEnumerable>b__19_0(){} // RVA: 0x7FFAF8648110
+    public void <CreateConstructorCallSite>b__23_0(){} // RVA: 0x7FFAF8648170
 }
 
-public class <DisposeAsync>d__115 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF8642FD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <AppendResolutionPath>b__6_0(){} // RVA: 0x7FFAF8643070
 }
 
-public class <DisposeAsync>d__12 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
 }
 
-public class <DisposeAsync>d__123 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <Get>b__10_0(){} // RVA: 0x7FFAF5E28910
 }
 
-public class <DisposeAsync>d__13 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.ctor>b__11_0(){} // RVA: 0x7FFAF5336FD0
+    public void <OnCompleted>b__29_0(){} // RVA: 0x7FFAF5337060
+    public void <SignalCompletion>b__35_0(){} // RVA: 0x7FFAF5337100
+    public void <SignalCompletion>b__35_1(){} // RVA: 0x7FFAF5337100
+    public void <SetCompletionAndInvokeContinuation>b__36_0(){} // RVA: 0x7FFAF53371F0
+    public void <UnsafeQueueSetCompletionAndInvokeContinuation>b__37_0(){} // RVA: 0x7FFAF5337100
 }
 
-public class <DisposeAsync>d__131 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
 }
 
-public class <DisposeAsync>d__15 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE8A54AC20
-    public void SetStateMachine(){} // RVA: 0x7FFE81C1CED0
 }
 
-public class <DisposeAsync>d__18 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAFC3C2370
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <GetDefaultList>b__23_0(){} // RVA: 0x7FFAFC3C2410
+    public void <GetDefaultList>b__23_1(){} // RVA: 0x7FFAFC3C24E0
+    public void <GetDefaultList>b__23_2(){} // RVA: 0x7FFAFC3C25C0
+    public void <GetDefaultList>b__23_3(){} // RVA: 0x7FFAFC3C26A0
 }
 
-public class <DisposeAsync>d__21 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAFC342CB0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <get_RequiredProperties>b__93_0(){} // RVA: 0x7FFAFC342D50
+    public void <FindPropertyName>b__98_0(){} // RVA: 0x7FFAFC342DE0
+    public void <IsAdminWritableOnly>b__101_0(){} // RVA: 0x7FFAFC342E70
+    public void <IsApiWritableOnly>b__102_0(){} // RVA: 0x7FFAFC342F00
 }
 
-public class <DisposeAsync>d__26 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF85405C0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <AfterSceneLoad>b__13_0(){} // RVA: 0x7FFAF8540660
 }
 
-public class <DisposeAsync>d__27 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAFC3EC820
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <GetAllPools>b__9_0(){} // RVA: 0x7FFAFC3EC8C0
+    public void <GetAllPools>b__9_1(){} // RVA: 0x7FFAF3A14F80
 }
 
-public class <DisposeAsync>d__32 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF979BF90
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InsertUniTaskSynchronizationContext>b__21_0(){} // RVA: 0x7FFAF979C030
+    public void <InsertUniTaskSynchronizationContext>b__21_1(){} // RVA: 0x7FFAF979C100
+    public void <InsertUniTaskSynchronizationContext>b__21_2(){} // RVA: 0x7FFAF979C1A0
 }
 
-public class <DisposeAsync>d__34 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE8698B400
-    public void SetStateMachine(){} // RVA: 0x7FFE81C1CED0
+    public void .cctor(){} // RVA: 0x7FFAF9812C70
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.ctor>b__9_0(){} // RVA: 0x7FFAF9812D10
 }
 
-public class <DisposeAsync>d__35 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__1_0(){} // RVA: 0x7FFAF532C770
+    public void <.cctor>b__1_1(){} // RVA: 0x7FFAF532C7D0
 }
 
-public class <DisposeAsync>d__37 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86DF14E0
-    public void SetStateMachine(){} // RVA: 0x7FFE86DF1C20
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__5_0(){} // RVA: 0x7FFAF5E286E0
+    public void <.cctor>b__5_1(){} // RVA: 0x7FFAF65F4F70
 }
 
-public class <DisposeAsync>d__42 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE873F5A40
-    public void SetStateMachine(){} // RVA: 0x7FFE81C1CED0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__10_0(){} // RVA: 0x7FFAF532BBF0
 }
 
-public class <DisposeAsync>d__43 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__10_0(){} // RVA: 0x7FFAF532BBF0
 }
 
-public class <DisposeAsync>d__51 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__1_0(){} // RVA: 0x7FFAF53355F0
+    public void <.cctor>b__1_1(){} // RVA: 0x7FFAF532C7D0
 }
 
-public class <DisposeAsync>d__59 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__12_0(){} // RVA: 0x7FFAF532BBF0
 }
 
-public class <DisposeAsync>d__6 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE882143E0
-    public void SetStateMachine(){} // RVA: 0x7FFE81C1CED0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__12_0(){} // RVA: 0x7FFAF532BBF0
 }
 
-public class <DisposeAsync>d__67 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <get_Instance>b__1_0(){} // RVA: 0x7FFAF3E8CE00
 }
 
-public class <DisposeAsync>d__75 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.ctor>b__2_0(){} // RVA: 0x7FFAF65F4B30
+    public void <.ctor>b__2_1(){} // RVA: 0x7FFAF65F4C50
 }
 
-public class <DisposeAsync>d__83 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__12_0(){} // RVA: 0x7FFAF532BBF0
 }
 
-public class <DisposeAsync>d__91 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__12_0(){} // RVA: 0x7FFAF532BBF0
 }
 
-public class <DisposeAsync>d__99 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__1_0(){} // RVA: 0x7FFAF65F4FC0
+    public void <.cctor>b__1_1(){} // RVA: 0x7FFAF65F4DD0
 }
 
-public class <DisposeAsyncCore>d__33 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86976260
-    public void SetStateMachine(){} // RVA: 0x7FFE81C1CED0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__1_0(){} // RVA: 0x7FFAF65F4FC0
+    public void <.cctor>b__1_1(){} // RVA: 0x7FFAF65F4DD0
 }
 
-public class <DisposeCompletedAsyncDisposables>d__30 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE873F1D00
-    public void SetStateMachine(){} // RVA: 0x7FFE81C1CED0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__12_0(){} // RVA: 0x7FFAF532BBF0
 }
 
-public class <DisposePendingDisposablesOnExceptionAsync>d__32 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE873F25B0
-    public void SetStateMachine(){} // RVA: 0x7FFE81C1CED0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__12_0(){} // RVA: 0x7FFAF532BBF0
 }
 
-public class <DistinctIterator>d__68`1 : Object
+public class <>c
 {
-    public int <>1__state;
-    public T <>2__current;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE80E46530
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE80E45FE0
-    public void MoveNext(){} // RVA: 0x7FFE80E2F150
-    public void <>m__Finally1(){} // RVA: 0x7FFE80E45FE0
-    public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7FFE810A1420
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE80E45FE0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE80E2E2E0
-    public void System.Collections.Generic.IEnumerable<TSource>.GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__1_0(){} // RVA: 0x7FFAF53355F0
+    public void <.cctor>b__1_1(){} // RVA: 0x7FFAF532C7D0
 }
 
-public class <DoBlendRoutine>d__152 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE87021AB0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE87021D10
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF9F39830
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__1_0(){} // RVA: 0x7FFAF9F398D0
+    public void <.cctor>b__1_1(){} // RVA: 0x7FFAF9F39920
+    public void <.cctor>b__1_2(){} // RVA: 0x7FFAF9F39970
+    public void <.cctor>b__1_3(){} // RVA: 0x7FFAF9F399D0
+    public void <.cctor>b__1_4(){} // RVA: 0x7FFAF9F39A20
+    public void <.cctor>b__1_5(){} // RVA: 0x7FFAF9F39A70
 }
 
-public class <DoBobCycle>d__4 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE810FFDA0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE81100060
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoBuzz>d__28 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE870C6C60
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE870C6FD0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoCloseAsync>d__8 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ADD100
-    public void SetStateMachine(){} // RVA: 0x7FFE86ADD730
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__12_0(){} // RVA: 0x7FFAF532BBF0
 }
 
-public class <DoFlushAsync>d__22 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86F3B2D0
-    public void SetStateMachine(){} // RVA: 0x7FFE86F3C2B0
 }
 
-public class <DoInitialize>d__37 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE870A5080
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE870A5BD0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoInitializeSteamVR>d__15 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE8703EA10
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE8703EE40
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoPlant>d__2 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE870D1FE0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE870D2DB0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoPlant>d__4 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE870CDD60
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE870CE810
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoPlant>d__7 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE870D42B0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE870D5070
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoRangeOfMotionBlend>d__156 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE87021D50
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE870229B0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoReadAsBooleanAsync>d__40 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABACC0
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABC1C0
 }
 
-public class <DoReadAsBytesAsync>d__42 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABC230
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABD6E0
 }
 
-public class <DoReadAsDateTimeAsync>d__45 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABD750
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABDB00
 }
 
-public class <DoReadAsDateTimeOffsetAsync>d__47 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABDB70
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABDF30
 }
 
-public class <DoReadAsDecimalAsync>d__49 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABDFA0
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABE360
 }
 
-public class <DoReadAsDoubleAsync>d__51 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABE3D0
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABE780
 }
 
-public class <DoReadAsInt32Async>d__53 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABE7F0
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABEB90
 }
 
-public class <DoReadAsStringAsync>d__55 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABEC00
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABEF30
 }
 
-public class <DoReadAsync>d__3 : ValueType
+public class <>c
 {
-    // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABEFA0
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABF400
 }
 
-public class <DoReset>d__26 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE870C7010
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE870C7890
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoRotatePlayer>d__21 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE870B3FB0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE870B49A0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoSpriteAnimationInternal>d__7 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE87B3E970
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE87B3F4D0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
 }
 
-public class <DoWorkAsync>d__20 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86F3C310
-    public void SetStateMachine(){} // RVA: 0x7FFE86F3DA00
+    public void .cctor(){} // RVA: 0x7FFAF9D2A270
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <SortGlyphTable>b__37_0(){} // RVA: 0x7FFAF2F11CF0
+    public void <SortCharacterTable>b__38_0(){} // RVA: 0x7FFAF9A68130
 }
 
-public class <DoWriteCommentAsync>d__115 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ADD790
-    public void SetStateMachine(){} // RVA: 0x7FFE86ADE020
+    public void .cctor(){} // RVA: 0x7FFAF88E8AA0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <ReadAsyncInternal>b__17_0(){} // RVA: 0x7FFAF88E8B40
 }
 
-public class <DoWritePropertyNameAsync>d__30 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ADE080
-    public void SetStateMachine(){} // RVA: 0x7FFE86ADE670
+    public void .cctor(){} // RVA: 0x7FFAFC5C1F70
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <GetOrAdd>b__1_0(){} // RVA: 0x7FFAFC5C2010
 }
 
-public class <DoWritePropertyNameAsync>d__32 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ADE6D0
-    public void SetStateMachine(){} // RVA: 0x7FFE86ADF140
+    public void .cctor(){} // RVA: 0x7FFAFC5C16B0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <ZLog>b__3_0(){} // RVA: 0x7FFAFC5C1750
 }
 
-public class <DoWriteRawValueAsync>d__121 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ADF1A0
-    public void SetStateMachine(){} // RVA: 0x7FFE86ADF580
+    public void .cctor(){} // RVA: 0x7FFAFC5BCF50
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <Snapshot>b__12_0(){} // RVA: 0x7FFAFC5BCFF0
 }
 
-public class <DoWriteStartArrayAsync>d__35 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ADF5E0
-    public void SetStateMachine(){} // RVA: 0x7FFE86ADF9E0
+    public void .cctor(){} // RVA: 0x7FFAFA1895B0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <CleanupStackTrace>b__4_0(){} // RVA: 0x7FFAFA189650
+    public void <BeautifyType>b__5_0(){} // RVA: 0x7FFAFA189710
+    public void <BeautifyType>b__5_1(){} // RVA: 0x7FFAFA189770
 }
 
-public class <DoWriteStartConstructorAsync>d__40 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ADFA40
-    public void SetStateMachine(){} // RVA: 0x7FFE86AE0290
+    public void .cctor(){} // RVA: 0x7FFAFC3DE5A0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <FetchConfig>b__1_2(){} // RVA: 0x7FFAFC3DE640
+    public void <FetchConfig>b__1_3(){} // RVA: 0x7FFAFC3DE680
 }
 
-public class <DoWriteStartObjectAsync>d__38 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86AE02F0
-    public void SetStateMachine(){} // RVA: 0x7FFE86AE06F0
+    public void .cctor(){} // RVA: 0x7FFAF9F38090
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__9_0(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__9_1(){} // RVA: 0x7FFAF9F38130
+    public void <SortPanels>b__48_0(){} // RVA: 0x7FFAF9F38190
 }
 
-public class <DoWriteUndefinedAsync>d__43 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86AE0750
-    public void SetStateMachine(){} // RVA: 0x7FFE86AE0B80
+    public void .cctor(){} // RVA: 0x7FFAFC2FD9F0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <.cctor>b__59_0(){} // RVA: 0x7FFAFC2FDA90
 }
 
-public class <DoWriteValueAsync>d__60 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86AE0BE0
-    public void SetStateMachine(){} // RVA: 0x7FFE86AE14C0
+    public void .cctor(){} // RVA: 0x7FFAF4B5C500
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <CallbackToString>b__20_0(){} // RVA: 0x7FFAF4B5C5A0
+    public void <ShutdownClient>b__31_3(){} // RVA: 0x7FFAF4B5C5E0
+    public void <ShutdownClient>b__31_0(){} // RVA: 0x7FFAF4B5C5F0
+    public void <ShutdownClient>b__31_1(){} // RVA: 0x7FFAF4B5C630
+    public void <ShutdownClient>b__31_2(){} // RVA: 0x7FFAF4B5C670
 }
 
-public class <DoWriteValueAsync>d__64 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86AE1520
-    public void SetStateMachine(){} // RVA: 0x7FFE86AE1DD0
+    public void .cctor(){} // RVA: 0x7FFAF4B68600
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__4_0(){} // RVA: 0x7FFAF4B686A0
+    public void <InstallEvents>b__4_1(){} // RVA: 0x7FFAF4B68700
+    public void <InstallEvents>b__4_2(){} // RVA: 0x7FFAF4B687A0
+    public void <InstallEvents>b__4_3(){} // RVA: 0x7FFAF4B68800
+    public void <InstallEvents>b__4_4(){} // RVA: 0x7FFAF4B688B0
+    public void <InstallEvents>b__4_5(){} // RVA: 0x7FFAF4B68920
+    public void <InstallEvents>b__4_6(){} // RVA: 0x7FFAF4B68980
 }
 
-public class <DoWriteValueAsync>d__78 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86AE1E30
-    public void SetStateMachine(){} // RVA: 0x7FFE86AE26C0
+    public void .cctor(){} // RVA: 0x7FFAF4B69D00
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__3_0(){} // RVA: 0x7FFAF4B69DA0
+    public void <InstallEvents>b__3_1(){} // RVA: 0x7FFAF4B69EB0
+    public void <GetDefinitions>b__29_0(){} // RVA: 0x7FFAF4B69EC0
 }
 
-public class <DoWriteValueAsync>d__97 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86AE2720
-    public void SetStateMachine(){} // RVA: 0x7FFE86AE2B90
+    public void .cctor(){} // RVA: 0x7FFAF4B6B190
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__5_0(){} // RVA: 0x7FFAF4B6B230
+    public void <InstallEvents>b__5_1(){} // RVA: 0x7FFAF4B6B2A0
+    public void <InstallEvents>b__5_2(){} // RVA: 0x7FFAF4B6B300
+    public void <InstallEvents>b__5_3(){} // RVA: 0x7FFAF4B6B370
+    public void <InstallEvents>b__5_4(){} // RVA: 0x7FFAF4B6B410
+    public void <InstallEvents>b__5_5(){} // RVA: 0x7FFAF4B6B4B0
 }
 
-public class <DoWriteValueAsync>d__99 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86AE2BF0
-    public void SetStateMachine(){} // RVA: 0x7FFE86AE34A0
+    public void .cctor(){} // RVA: 0x7FFAF4B6BBF0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__3_0(){} // RVA: 0x7FFAF4B6BC90
+    public void <InstallEvents>b__3_1(){} // RVA: 0x7FFAF4B6BCF0
 }
 
-public class <DomainName>e__FixedBuffer : ValueType
+public class <>c
 {
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF4B6C260
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__3_0(){} // RVA: 0x7FFAF4B6C300
+    public void <InstallEvents>b__3_1(){} // RVA: 0x7FFAF4B6C360
 }
 
-public class <DownloadImage>d__52 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE8A46B750
-    public void SetStateMachine(){} // RVA: 0x7FFE810FB310
+    public void .cctor(){} // RVA: 0x7FFAF4B6DE50
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallCallbacks>b__3_0(){} // RVA: 0x7FFAF4B6DEF0
 }
 
-public class <DragObject>d__8 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public object <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FE0C0
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE810FE0D0
-    public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE810FE7D0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
+    public void .cctor(){} // RVA: 0x7FFAF4B6E2A0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__3_0(){} // RVA: 0x7FFAF4B6E340
 }
 
-public class <DrainEventQueue>d__9 : Object
+public class <>c
 {
-    public int <>1__state; // 0x10
-    public VRC.Core.UdonAnalytics.UdonAnalyticsEvent <>2__current; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8156F420
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
-    public void MoveNext(){} // RVA: 0x7FFE8A39AAF0
-    public void System.Collections.Generic.IEnumerator<VRC.Core.UdonAnalytics.UdonAnalyticsEvent>.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE8A39ABD0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE810FE7C0
-    public void System.Collections.Generic.IEnumerable<VRC.Core.UdonAnalytics.UdonAnalyticsEvent>.GetEnumerator(){} // RVA: 0x7FFE8A39AC10
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE8A39AC10
+    public void .cctor(){} // RVA: 0x7FFAF4B6E8B0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__3_0(){} // RVA: 0x7FFAF4B6E950
+    public void <InstallEvents>b__3_1(){} // RVA: 0x7FFAF4B6E9B0
 }
 
-public class <EatWhitespaceAsync>d__17 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86ABF470
-    public void SetStateMachine(){} // RVA: 0x7FFE86ABFA60
+    public void .cctor(){} // RVA: 0x7FFAF4B6F670
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__3_0(){} // RVA: 0x7FFAF4B6F710
+    public void <InstallEvents>b__3_1(){} // RVA: 0x7FFAF4B6F770
 }
 
-public class <ElementAtAsync>d__0`1 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE80E45FE0
-    public void SetStateMachine(){} // RVA: 0x7FFE80E460A0
+    public void .cctor(){} // RVA: 0x7FFAF4B70100
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__3_0(){} // RVA: 0x7FFAF4B701A0
+    public void <InstallEvents>b__3_1(){} // RVA: 0x7FFAF4B70210
+    public void <InstallEvents>b__3_2(){} // RVA: 0x7FFAF4B70280
+    public void <InstallEvents>b__3_3(){} // RVA: 0x7FFAF4B702F0
 }
 
-public class <EnableInitializationAsync>d__25 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE87AA1600
-    public void SetStateMachine(){} // RVA: 0x7FFE87AA1AE0
+    public void .cctor(){} // RVA: 0x7FFAF4B72560
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__4_0(){} // RVA: 0x7FFAF4B72600
+    public void <InstallEvents>b__4_1(){} // RVA: 0x7FFAF4B72670
+    public void <InstallEvents>b__4_2(){} // RVA: 0x7FFAF4B726E0
+    public void <InstallEvents>b__4_3(){} // RVA: 0x7FFAF4B72750
+    public void <InstallEvents>b__4_4(){} // RVA: 0x7FFAF4B727C0
+    public void <InstallEvents>b__4_5(){} // RVA: 0x7FFAF4B72830
+    public void <InstallEvents>b__4_6(){} // RVA: 0x7FFAF4B728D0
+    public void <InstallEvents>b__4_7(){} // RVA: 0x7FFAF4B72970
+    public void <InstallEvents>b__4_8(){} // RVA: 0x7FFAF4B72A20
+    public void <InstallEvents>b__4_9(){} // RVA: 0x7FFAF4B72AA0
 }
 
-public class <EnableServicesInitializationAsync>d__1 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE87AA0300
-    public void SetStateMachine(){} // RVA: 0x7FFE81740400
+    public void .cctor(){} // RVA: 0x7FFAF4B73940
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__7_0(){} // RVA: 0x7FFAF4B739E0
+    public void <InstallEvents>b__7_1(){} // RVA: 0x7FFAF4B73AD0
+    public void <InstallEvents>b__7_2(){} // RVA: 0x7FFAF4B73B30
+    public void <InstallEvents>b__7_3(){} // RVA: 0x7FFAF4B73C30
+    public void <InstallEvents>b__7_4(){} // RVA: 0x7FFAF4B73C90
 }
 
-public class <EncodeAsync>d__13 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE86AFDEC0
-    public void SetStateMachine(){} // RVA: 0x7FFE86AFE3B0
+    public void .cctor(){} // RVA: 0x7FFAF4B74DF0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__3_0(){} // RVA: 0x7FFAF4B74E90
+    public void <InstallEvents>b__3_1(){} // RVA: 0x7FFAF4B74F00
+    public void <InstallEvents>b__3_2(){} // RVA: 0x7FFAF4B74F80
+    public void <InstallEvents>b__3_3(){} // RVA: 0x7FFAF4B75050
+    public void <InstallEvents>b__3_4(){} // RVA: 0x7FFAF4B750D0
 }
 
-public class <EnsureBufferContainsAsync>d__71 : ValueType
+public class <>c
 {
     // ── Methods ──
-    public void MoveNext(){} // RVA: 0x7FFE87702CD0
-    public void SetStateMachine(){} // RVA: 0x7FFE87703260
+    public void .cctor(){} // RVA: 0x7FFAF4B6EF20
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void <InstallEvents>b__3_0(){} // RVA: 0x7FFAF4B6EFC0
+    public void <InstallEvents>b__3_1(){} // RVA: 0x7FFAF4B6F020
 }

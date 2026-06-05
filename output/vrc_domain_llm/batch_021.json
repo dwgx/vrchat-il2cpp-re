@@ -1,0 +1,53 @@
+[
+  {
+    "namespace": "VRC",
+    "class": "AssetCache",
+    "parent": "",
+    "known_methods": [
+      "Init",
+      "Initialize",
+      "ProcessChildTransforms",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8AE",
+      "m_648"
+    ],
+    "all_method_count": 17
+  },
+  {
+    "namespace": "VRC",
+    "class": "BackgroundOptions",
+    "parent": "",
+    "known_methods": [
+      "Initialize",
+      "set_Options",
+      "get_Options",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_104",
+      "m_35C"
+    ],
+    "all_method_count": 7
+  },
+  {
+    "namespace": "VRC.Core",
+    "class": "VRCCertificatePolicy",
+    "parent": "",
+    "known_methods": [
+      "CheckValidationResult",
+      "InitVRCCertificatePolicy",
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_914",
+      "m_BE9"
+    ],
+    "all_method_count": 18
+  }
+]

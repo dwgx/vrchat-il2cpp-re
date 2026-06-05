@@ -1,625 +1,700 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 92
-// Methods: 171
+// Classes: 100
+// Methods: 225
 
-public class UpdateMasterServerInterface : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF8F206A0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateNetworkManager : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF8545CA0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateOrderComparer : Object
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x7FFE88251D70
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void Get(){} // RVA: 0x7FFAFA1AE5E0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdatePreloading : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF48DA6C0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateReceivers : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void Execute(){} // RVA: 0x7FFE881D2CE0
+    public void Get(){} // RVA: 0x7FFAFC59B760
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateReceiversFunctions : Object
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void CalcProximity(){} // RVA: 0x7FFE881D2F30
-    public void CalcProximity$BurstManaged(){} // RVA: 0x7FFE881D2FA0
+    public void Get(){} // RVA: 0x7FFAF8F6C150
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateRectTransform : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF48F8420
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateResolution : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAFA1913D0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateRichPresenceCallback : MulticastDelegate
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8117B190
-    public void Invoke(){} // RVA: 0x7FFE81156C60
+    public void Get(){} // RVA: 0x7FFAFA183520
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateRootsJob : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void Execute(){} // RVA: 0x7FFE881FEE00
-    public void CalculateShouldUseFixedTime(){} // RVA: 0x7FFE881FEF50
+    public void Get(){} // RVA: 0x7FFAF9AFAB20
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateShapePositionsJob : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void Execute(){} // RVA: 0x7FFE881A7310
-    public void GetTransform(){} // RVA: 0x7FFE881A75F0
-    public void .cctor(){} // RVA: 0x7FFE881A7630
+    public void Get(){} // RVA: 0x7FFAFA19CA80
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateShapesJob : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void Execute(){} // RVA: 0x7FFE88199D80
-    public void RemoveShape(){} // RVA: 0x7FFE8819A590 | overloaded x2
-    public void AddShape(){} // RVA: 0x7FFE8819A790 | overloaded x2
+    public void Get(){} // RVA: 0x7FFAF47366E0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateStatus : Object
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void Get(){} // RVA: 0x7FFAFA17F050
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateStepCount : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
-    public bool m_WasUpdated; // 0x10
-
     // ── Methods ──
-    public void get_value(){} // RVA: 0x7FFE826F42A0
-    public void set_value(){} // RVA: 0x7FFE826F4290
-    public void OnBeforeUpdate(){} // RVA: 0x7FFE87A26170
-    public void OnUpdate(){} // RVA: 0x7FFE87A26180
+    public void Get(){} // RVA: 0x7FFAF8541A20
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateStreamingManager : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF4903010
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateSubstance : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF97DC520
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateTextureStreamingManager : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF4775810
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateTokenCallback : MulticastDelegate
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8117B190
-    public void Invoke(){} // RVA: 0x7FFE81156C60
+    public void Get(){} // RVA: 0x7FFAF9D06DF0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateVideo : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF8550AC0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdateVideoTextures : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAFA19BB40
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdatedEventHandler : MulticastDelegate
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81159980
-    public void Invoke(){} // RVA: 0x7FFE81159A50
+    public void Get(){} // RVA: 0x7FFAFBE9B930
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UpdaterArray : Object
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
-    public UnityEngine.UIElements.IVisualTreeUpdater[] m_VisualTreeUpdaters; // 0x10
-    public object field_1; // 0x5B2
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87E71A90
-    public void set_Item(){} // RVA: 0x7FFE87E71B20
-    public void get_Item(){} // RVA: 0x7FFE876177D0 | overloaded x2
+    public void Get(){} // RVA: 0x7FFAF8551F30
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UploadStatus : ApiModel
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
-    public System.Collections.Generic.List`1<string> _etags; // 0x68
-    public double _nextPartNumber; // 0x70
-    public double _maxParts; // 0x78
-    public System.Collections.Generic.List`1<object> _parts; // 0x80
-    public string _uploadId; // 0x88
-    public string _fileName; // 0x90
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8A2D5020 | overloaded x2
-    public void get_etags(){} // RVA: 0x7FFE81176D50
-    public void set_etags(){} // RVA: 0x7FFE81176D60
-    public void get_nextPartNumber(){} // RVA: 0x7FFE86F21AC0
-    public void set_nextPartNumber(){} // RVA: 0x7FFE86F21AD0
-    public void get_maxParts(){} // RVA: 0x7FFE82AD8710
-    public void set_maxParts(){} // RVA: 0x7FFE82AD8720
-    public void get_parts(){} // RVA: 0x7FFE81280C30
-    public void set_parts(){} // RVA: 0x7FFE81282380
-    public void get_uploadId(){} // RVA: 0x7FFE8113A010
-    public void set_uploadId(){} // RVA: 0x7FFE81280F90
-    public void get_fileName(){} // RVA: 0x7FFE8154EB60
-    public void set_fileName(){} // RVA: 0x7FFE818CE320
+    public void Get(){} // RVA: 0x7FFAFA1A2220
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class Uri : Object
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void TryParse(){} // RVA: 0x7FFE873598B0
+    public void Get(){} // RVA: 0x7FFAF4775980
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UriInfo : Object
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void Get(){} // RVA: 0x7FFAF85418B0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UrlDecoder : Object
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void FlushBytes(){} // RVA: 0x7FFE87669620
-    public void .ctor(){} // RVA: 0x7FFE87669690
-    public void AddChar(){} // RVA: 0x7FFE876697A0
-    public void AddByte(){} // RVA: 0x7FFE87669800
-    public void GetString(){} // RVA: 0x7FFE876698D0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class User32 : Object
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void LoadString(){} // RVA: 0x7FFE86733E00
+    public void Get(){} // RVA: 0x7FFAFA0451B0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UserController : ScriptableObject
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void Equals(){} // RVA: 0x7FFE82524130
-    public void CreateInstance(){} // RVA: 0x7FFE825241C0
-    public void GetHashCode(){} // RVA: 0x7FFE82524250
-    public void CreateScriptableObject(){} // RVA: 0x7FFE825242F0
-    public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x7FFE82523D40
-    public void ToString(){} // RVA: 0x7FFE82524380
-    public void ToString_95FCB8B0C731(){} // RVA: 0x7FFE82524460
-    public void GetGameObject_E1B(){} // RVA: 0x7FFE825245A0
-    public void .ctor_E0A790D8356B(){} // RVA: 0x7FFE82524680
-    public void .ctor(){} // RVA: 0x7FFE81345B60
-    public void Initialize(){} // RVA: 0x7FFE82523D40
-    public void GetTouch(){} // RVA: 0x7FFE82524710
-    public void CheckAndProcessSystemStatus(){} // RVA: 0x7FFE81B0FF50
-    // ── Unresolved (hash) ──
-    public void m_BC5(){} // RVA: 0x7FFE81B0FF50
+    public void Get(){} // RVA: 0x7FFAFA1A20B0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UserData : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF47365D0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UserDefinedSettings : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
+    // ── Methods ──
+    public void Get(){} // RVA: 0x7FFAF473AF60
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UserFetchParameters : Object
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
-    public string _endpoint; // 0x10
-    public System.Collections.Generic.Dictionary`2<string,Token> _parameters; // 0x18
-
     // ── Methods ──
-    public void get_Endpoint(){} // RVA: 0x7FFE81116380
-    public void set_Endpoint(){} // RVA: 0x7FFE810FCE30
-    public void get_Parameters(){} // RVA: 0x7FFE810FE7C0
-    public void set_Parameters(){} // RVA: 0x7FFE81161E80
-    public void .ctor(){} // RVA: 0x7FFE8A349890
+    public void Get(){} // RVA: 0x7FFAF9792660
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UserFn : MulticastDelegate
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81156B80
-    public void Invoke(){} // RVA: 0x7FFE81156C60
-    public void BeginInvoke(){} // RVA: 0x7FFE81156C70
-    public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+    public void Get(){} // RVA: 0x7FFAF97BD060
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UserHandle : ValueType
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void Drop(){} // RVA: 0x7FFE82BE2280
-    public void DisplayName(){} // RVA: 0x7FFE82BE2300
-    public void Id(){} // RVA: 0x7FFE82BE2390
-    public void Status(){} // RVA: 0x7FFE82BE2410
+    public void Get(){} // RVA: 0x7FFAFA064890
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UserId : AttributeTypeAndValue
+public class UnitySourceGeneratedAssemblyMonoScriptTypes_v1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86712660
+    public void Get(){} // RVA: 0x7FFAFA1A1FA0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class UserUpdatedCallback : MulticastDelegate
+public class UnityWebRequestAsyncOperationAwaiter : .ctor
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE82BE9AD0
-    public void Invoke(){} // RVA: 0x7FFE81156C60
+    public void .ctor(){} // RVA: 0x7FFAF3BB2870
+    public void get_IsCompleted(){} // RVA: 0x7FFAF97E65A0
+    public void GetResult(){} // RVA: 0x7FFAF97ED2F0
+    public void OnCompleted(){} // RVA: 0x7FFAF97ED590
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF97ED5A0
 }
 
-public class Users : Object
+public class UnityWebRequestAsyncOperationConfiguredSource
 {
     // ── Methods ──
-    public void GetLinkedAccounts(){} // RVA: 0x7FFE86C1CE20
+    public void get_NextNode(){} // RVA: 0x7FFAF68A6A30
+    public void .cctor(){} // RVA: 0x7FFAF97ED6D0
+    public void .ctor(){} // RVA: 0x7FFAF97ED850
+    public void Create(){} // RVA: 0x7FFAF97ED910
+    public void GetResult(){} // RVA: 0x7FFAF97EDE80
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF97EE100
+    public void GetStatus(){} // RVA: 0x7FFAF97EE110
+    public void UnsafeGetStatus(){} // RVA: 0x7FFAF97EE160
+    public void OnCompleted(){} // RVA: 0x7FFAF97EE1A0
+    public void MoveNext(){} // RVA: 0x7FFAF97EE220
+    public void TryReturn(){} // RVA: 0x7FFAF97EE420
+    public void Continuation(){} // RVA: 0x7FFAF97EE590
 }
 
-public class UsingEntry : ValueType
+public class UnityWebRequestUpdate
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87A9E320
-    public void .cctor(){} // RVA: 0x7FFE87E63B20
 }
 
-public class UsingEntryComparer : Object
+public class Unmanaged
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x7FFE87E63BD0
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void Allocate(){} // RVA: 0x7FFAF9828970
+    public void Free(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
 }
 
-public class Utf8MessageState : Object
+public class UnmanagedMemory : get_isAllocated
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void get_isAllocated(){} // RVA: 0x7FFAF5F71790
+    public void get_sizeInBytes(){} // RVA: 0x7FFAF9864870
+    public void Allocate(){} // RVA: 0x7FFAF98648C0
+    public void Dispose(){} // RVA: 0x7FFAF9864AC0
+    public void CopyDataFrom(){} // RVA: 0x7FFAF9864B70
+    public void Clone(){} // RVA: 0x7FFAF9864CB0
 }
 
-public class Utils : Object
+public class UnmanagedMemoryStreamForModule
 {
     // ── Methods ──
-    public void SwitchToRectTransform(){} // RVA: 0x7FFE82C18190
+    public void .ctor(){} // RVA: 0x7FFAF884AB90
+    public void Dispose(){} // RVA: 0x7FFAF884AC70
 }
 
-public class UxmlFactory : UxmlFactory`2
+public class UnmanagedReadOrWrite
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87F4D120
+    public void .ctor(){} // RVA: 0x7FFAF8C8F5C0
+    public void Invoke(){} // RVA: 0x7FFAF2EE94E0
 }
 
-public class UxmlObjectEntry : ValueType
+public class UnsignedIntegerInput
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE844576B0
+    public void get_parentUnsignedIntegerField(){} // RVA: 0x7FFAF9E80D70
+    public void .ctor(){} // RVA: 0x7FFAF9E80DF0
+    public void get_allowedCharacters(){} // RVA: 0x7FFAF9E80FB0
+    public void ApplyInputDeviceDelta(){} // RVA: 0x7FFAF9E81010
+    public void ValueToString(){} // RVA: 0x7FFAF9E81230
+    public void StringToValue(){} // RVA: 0x7FFAF9E81320
 }
 
-public class UxmlObjectFactory`1 : UxmlObjectFactory`2
+public class UnsignedLongInput
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE80E45FE0
+    public void get_parentUnsignedLongField(){} // RVA: 0x7FFAF9E81EF0
+    public void .ctor(){} // RVA: 0x7FFAF9E81F70
+    public void get_allowedCharacters(){} // RVA: 0x7FFAF9E82130
+    public void ApplyInputDeviceDelta(){} // RVA: 0x7FFAF9E82190
+    public void ClampToMinMaxULongValue(){} // RVA: 0x7FFAF9E82460
+    public void ValueToString(){} // RVA: 0x7FFAF9E82500
+    public void StringToValue(){} // RVA: 0x7FFAF9E825F0
 }
 
-public class UxmlObjectTraits`1 : UxmlObjectTraits`1
+public class UpdateAllRenderers
 {
-    // ── Methods ──
-    public void ParseLength(){} // RVA: 0x7FFE810A1420
-    public void Init(){}
-    public void .ctor(){} // RVA: 0x7FFE80E45FE0
 }
 
-public class UxmlTraits : UxmlTraits
+public class UpdateAllSkinnedMeshes
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE851E9C00
-    public void Init(){} // RVA: 0x7FFE851E9D80
-    public void ParseChoiceList(){} // RVA: 0x7FFE851E9F10
 }
 
-public class unitytls_errorstate : ValueType
+public class UpdateAsyncInstantiate
 {
 }
 
-public class unitytls_errorstate_create_t : MulticastDelegate
+public class UpdateAsyncReadbackManager
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE83870F80
-    public void Invoke(){} // RVA: 0x7FFE83871050
 }
 
-public class unitytls_errorstate_raise_error_t : MulticastDelegate
+public class UpdateAudio
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE82BE9920
-    public void Invoke(){} // RVA: 0x7FFE81257370
 }
 
-public class unitytls_interface_struct : Object
+public class UpdateCameraMotionVectors
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
-public class unitytls_key : ValueType
+public class UpdateCanvasRectTransform
 {
 }
 
-public class unitytls_key_free_t : MulticastDelegate
+public class UpdateCanvasRectTransform
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81156B80
-    public void Invoke(){} // RVA: 0x7FFE81156C60
 }
 
-public class unitytls_key_get_ref_t : MulticastDelegate
+public class UpdateCaptureScreenshot
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D249F0
-    public void Invoke(){} // RVA: 0x7FFE81257370
 }
 
-public class unitytls_key_parse_der_t : MulticastDelegate
+public class UpdateContentLoading
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C2080
-    public void Invoke(){} // RVA: 0x7FFE83F99C10
 }
 
-public class unitytls_key_parse_pem_t : MulticastDelegate
+public class UpdateCustomRenderTextures
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C2080
-    public void Invoke(){} // RVA: 0x7FFE83F99C10
 }
 
-public class unitytls_key_ref : ValueType
+public class UpdateDelegate
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2E0D190
+    public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+    public void BeginInvoke(){} // RVA: 0x7FFAF2DE8C70
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_random_generate_bytes_t : MulticastDelegate
+public class UpdateDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81EE8AB0
-    public void Invoke(){} // RVA: 0x7FFE812574E0
+    public void .ctor(){} // RVA: 0x7FFAF2E0D190
+    public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+    public void BeginInvoke(){} // RVA: 0x7FFAF2DE8C70
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx : ValueType
+public class UpdateDelegate
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2DEB980
+    public void Invoke(){} // RVA: 0x7FFAF2DEBA50
+    public void BeginInvoke(){} // RVA: 0x7FFAF2DEBA60
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_callbacks : ValueType
+public class UpdateDelegate
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2DEB980
+    public void Invoke(){} // RVA: 0x7FFAF2DEBA50
+    public void BeginInvoke(){} // RVA: 0x7FFAF2DEBA60
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_certificate_callback : MulticastDelegate
+public class UpdateDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C1EC0
-    public void Invoke(){} // RVA: 0x7FFE84020340
+    public void .ctor(){} // RVA: 0x7FFAF2E0D190
+    public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+    public void BeginInvoke(){} // RVA: 0x7FFAF2DE8C70
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_create_client_t : MulticastDelegate
+public class UpdateFunction
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C2580
-    public void Invoke(){} // RVA: 0x7FFE871C2650
+    public void .ctor(){} // RVA: 0x7FFAF2DEB980
+    public void Invoke(){} // RVA: 0x7FFAF2DEBA50
 }
 
-public class unitytls_tlsctx_create_server_t : MulticastDelegate
+public class UpdateGridCellsJob
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C2580
-    public void Invoke(){} // RVA: 0x7FFE871C2650
+    public void Execute(){} // RVA: 0x7FFAFA112630
+    public void UpdateRecords(){} // RVA: 0x7FFAFA112840
+    public void InsertionSort(){} // RVA: 0x7FFAFA112CF0
+    public void FindPairs(){} // RVA: 0x7FFAFA112E80
 }
 
-public class unitytls_tlsctx_free_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81156B80
-    public void Invoke(){} // RVA: 0x7FFE81156C60
+    public void .ctor(){} // RVA: 0x7FFAF411C910
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F92790
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_get_ciphersuite_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D1C800
-    public void Invoke(){} // RVA: 0x7FFE81257370
+    public void .ctor(){} // RVA: 0x7FFAF2E0D190
+    public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+    public void BeginInvoke(){} // RVA: 0x7FFAF2DE8C70
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_get_protocol_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D1C800
-    public void Invoke(){} // RVA: 0x7FFE81257370
+    public void .ctor(){} // RVA: 0x7FFAF7048620
+    public void Invoke(){} // RVA: 0x7FFAF62A77C0
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F61280
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_notify_close_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE82B9EE00
-    public void Invoke(){} // RVA: 0x7FFE81257370
+    public void .ctor(){} // RVA: 0x7FFAF411C910
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F5CDB0
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_process_handshake_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D1C800
-    public void Invoke(){} // RVA: 0x7FFE81257370
+    public void .ctor(){} // RVA: 0x7FFAF62A47C0
+    public void Invoke(){} // RVA: 0x7FFAF2EE94E0
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F595E0
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_protocolrange : ValueType
+public class UpdateHandler
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF70487A0
+    public void Invoke(){} // RVA: 0x7FFAF7048920
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F81ED0
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_read_callback : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8671A430
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void .ctor(){} // RVA: 0x7FFAF7048940
+    public void Invoke(){} // RVA: 0x7FFAF7048AC0
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F849C0
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_read_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8671A430
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void .ctor(){} // RVA: 0x7FFAF62A47C0
+    public void Invoke(){} // RVA: 0x7FFAF2EE94E0
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F897D0
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_server_require_client_authentication_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C2300
-    public void Invoke(){} // RVA: 0x7FFE812574E0
+    public void .ctor(){} // RVA: 0x7FFAF411C910
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F8B760
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_set_certificate_callback_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D25AE0
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void .ctor(){} // RVA: 0x7FFAF7048620
+    public void Invoke(){} // RVA: 0x7FFAF62A77C0
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F8C530
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_set_supported_ciphersuites_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D25AE0
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void .ctor(){} // RVA: 0x7FFAF70487A0
+    public void Invoke(){} // RVA: 0x7FFAF7048920
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F94D00
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_set_trace_callback_t : MulticastDelegate
+public class UpdateHandler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D25AE0
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void .ctor(){} // RVA: 0x7FFAF7048940
+    public void Invoke(){} // RVA: 0x7FFAF7048AC0
+    public void BeginInvoke(){} // RVA: 0x7FFAF8F95900
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class unitytls_tlsctx_set_x509verify_callback_t : MulticastDelegate
+public class UpdateHeadingDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D25AE0
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void .ctor(){} // RVA: 0x7FFAF47B9390
+    public void Invoke(){} // RVA: 0x7FFAF47B9510
+    public void BeginInvoke(){} // RVA: 0x7FFAF47B9550
+    public void EndInvoke(){} // RVA: 0x7FFAF3FA6C90
 }
 
-public class unitytls_tlsctx_trace_callback : MulticastDelegate
+public class UpdateInputManager
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D25AE0
-    public void Invoke(){} // RVA: 0x7FFE81998A70
 }
 
-public class unitytls_tlsctx_write_callback : MulticastDelegate
+public class UpdateKinect
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8671A430
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+}
+
+public class UpdateLightProbeProxyVolumes
+{
+}
+
+public class UpdateMainGameViewRect
+{
+}
+
+public class UpdateMasterServerInterface
+{
+}
+
+public class UpdateNetworkManager
+{
 }
 
-public class unitytls_tlsctx_write_t : MulticastDelegate
+public class UpdateOrderComparer
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8671A430
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void Compare(){} // RVA: 0x7FFAFA1C50A0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+}
+
+public class UpdatePreloading
+{
 }
 
-public class unitytls_tlsctx_x509verify_callback : MulticastDelegate
+public class UpdateReceivers
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C1FA0
-    public void Invoke(){} // RVA: 0x7FFE812574E0
+    public void Execute(){} // RVA: 0x7FFAFA145B40
 }
 
-public class unitytls_x509_export_der_t : MulticastDelegate
+public class UpdateReceiversFunctions
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C2160
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void CalcProximity(){} // RVA: 0x7FFAFA145D90
+    public void CalcProximity$BurstManaged(){} // RVA: 0x7FFAFA145E00
 }
 
-public class unitytls_x509_ref : ValueType
+public class UpdateRectTransform
 {
 }
 
-public class unitytls_x509list : ValueType
+public class UpdateResolution
 {
 }
 
-public class unitytls_x509list_append_der_t : MulticastDelegate
+public class UpdateRichPresenceCallback
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D25AE0
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void .ctor(){} // RVA: 0x7FFAF2E0D190
+    public void Invoke(){} // RVA: 0x7FFAF2DE8C60
 }
 
-public class unitytls_x509list_append_t : MulticastDelegate
+public class UpdateRichPresenceCallback
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C2300
-    public void Invoke(){} // RVA: 0x7FFE812574E0
+    public void .ctor(){} // RVA: 0x7FFAF48C1FC0
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
 }
 
-public class unitytls_x509list_create_t : MulticastDelegate
+public class UpdateRootsJob : #
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8526B7D0
-    public void Invoke(){} // RVA: 0x7FFE81156C60
+    public void Execute(){} // RVA: 0x7FFAFA171CA0
+    public void CalculateShouldUseFixedTime(){} // RVA: 0x7FFAFA171DF0
 }
 
-public class unitytls_x509list_free_t : MulticastDelegate
+public class UpdateShapePositionsJob
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81156B80
-    public void Invoke(){} // RVA: 0x7FFE81156C60
+    public void Execute(){} // RVA: 0x7FFAFA11A170
+    public void GetTransform(){} // RVA: 0x7FFAFA11A450
+    public void .cctor(){} // RVA: 0x7FFAFA11A490
 }
 
-public class unitytls_x509list_get_ref_t : MulticastDelegate
+public class UpdateShapesJob
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86D249F0
-    public void Invoke(){} // RVA: 0x7FFE81257370
+    public void Execute(){} // RVA: 0x7FFAFA10CBE0
+    public void RemoveShape(){} // RVA: 0x7FFAFA10D3F0 | overloaded x2
+    public void AddShape(){} // RVA: 0x7FFAFA10D5F0 | overloaded x2
 }
 
-public class unitytls_x509list_get_x509_t : MulticastDelegate
+public class UpdateShapesJob
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C2230
-    public void Invoke(){} // RVA: 0x7FFE812574E0
+    public void Execute(){} // RVA: 0x7FFAFA111110
+    public void RemoveShape(){} // RVA: 0x7FFAFA111E80 | overloaded x2
+    public void AddShape(){} // RVA: 0x7FFAFA112230 | overloaded x2
 }
 
-public class unitytls_x509list_ref : ValueType
+public class UpdateStatus
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class unitytls_x509name : ValueType
+public class UpdateStatus
 {
+    // ── Methods ──
+    public void get_PreferredUpdate(){} // RVA: 0x7FFAF304C4F0
+    public void set_PreferredUpdate(){} // RVA: 0x7FFAF470A610
+    public void .ctor(){} // RVA: 0x7FFAF47DC5D0
+    public void OnUpdate(){} // RVA: 0x7FFAF47DC660
 }
 
-public class unitytls_x509verify_callback : MulticastDelegate
+public class UpdateStepCount
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C1DE0
-    public void Invoke(){} // RVA: 0x7FFE81998A70
+    public void get_value(){} // RVA: 0x7FFAF44189E0
+    public void set_value(){} // RVA: 0x7FFAF44189D0
+    public void OnBeforeUpdate(){} // RVA: 0x7FFAF99952E0
+    public void OnUpdate(){} // RVA: 0x7FFAF99952F0
+}
+
+public class UpdateStreamingManager
+{
+}
+
+public class UpdateSubstance
+{
+}
+
+public class UpdateTextureStreamingManager
+{
 }
 
-public class unitytls_x509verify_default_ca_t : MulticastDelegate
+public class UpdateTokenCallback
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C23E0
-    public void Invoke(){} // RVA: 0x7FFE8401FE60
+    public void .ctor(){} // RVA: 0x7FFAF2E0D190
+    public void Invoke(){} // RVA: 0x7FFAF2DE8C60
 }
 
-public class unitytls_x509verify_explicit_ca_t : MulticastDelegate
+public class UpdateTokenCallback
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE871C24B0
-    public void Invoke(){} // RVA: 0x7FFE84020000
+    public void .ctor(){} // RVA: 0x7FFAF48C1FC0
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
 }

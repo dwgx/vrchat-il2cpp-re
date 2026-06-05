@@ -5,1202 +5,969 @@
 
 namespace ThirdParty.DotNet.System.Globalization
 {
-    public class Bootstring : Object
+    public class Bootstring
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86935560
-        public void Encode(){} // RVA: 0x7FFE86935590
-        public void EncodeDigit(){} // RVA: 0x7FFE86935A50
-        public void DecodeDigit(){} // RVA: 0x7FFE86935A70
-        public void Adapt(){} // RVA: 0x7FFE86935AA0
-        public void Decode(){} // RVA: 0x7FFE86935B20
+        public void .ctor(){} // RVA: 0x7FFAF88A4700
+        public void Encode(){} // RVA: 0x7FFAF88A4730
+        public void EncodeDigit(){} // RVA: 0x7FFAF88A4BF0
+        public void DecodeDigit(){} // RVA: 0x7FFAF88A4C10
+        public void Adapt(){} // RVA: 0x7FFAF88A4C40
+        public void Decode(){} // RVA: 0x7FFAF88A4CC0
     }
 
-    public class Calendar : Object
+    public class Calendar
     {
-        public long TicksPerMillisecond;
-        public long TicksPerSecond;
-        public long TicksPerMinute;
-        public long TicksPerHour;
-        public long TicksPerDay;
-        public int MillisPerSecond;
-        public int MillisPerMinute;
-        public int MillisPerHour;
-        public int MillisPerDay;
-        public int DaysPerYear;
-
         // ── Methods ──
-        public void get_MinSupportedDateTime(){} // RVA: 0x7FFE86909710
-        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFE86909770
-        public void .ctor(){} // RVA: 0x7FFE869097D0
-        public void get_ID(){} // RVA: 0x7FFE81517DA0
-        public void get_BaseCalendarID(){} // RVA: 0x7FFE82A336A0
-        public void get_AlgorithmType(){} // RVA: 0x7FFE813240E0
-        public void get_IsReadOnly(){} // RVA: 0x7FFE8124ABD0
-        public void Clone(){} // RVA: 0x7FFE869097E0
-        public void ReadOnly(){} // RVA: 0x7FFE86909860
-        public void VerifyWritable(){} // RVA: 0x7FFE86909950
-        public void SetReadOnlyState(){} // RVA: 0x7FFE8124ABE0
-        public void get_CurrentEraValue(){} // RVA: 0x7FFE869099D0
-        public void CheckAddResult(){} // RVA: 0x7FFE86909A60
+        public void get_MinSupportedDateTime(){} // RVA: 0x7FFAF8878880
+        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFAF88788E0
+        public void .ctor(){} // RVA: 0x7FFAF8878940
+        public void get_ID(){} // RVA: 0x7FFAF320BB20
+        public void get_BaseCalendarID(){} // RVA: 0x7FFAF4751C00
+        public void get_AlgorithmType(){} // RVA: 0x7FFAF2FC9240
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2EDCBD0
+        public void Clone(){} // RVA: 0x7FFAF8878950
+        public void ReadOnly(){} // RVA: 0x7FFAF88789D0
+        public void VerifyWritable(){} // RVA: 0x7FFAF8878AC0
+        public void SetReadOnlyState(){} // RVA: 0x7FFAF2EDCBE0
+        public void get_CurrentEraValue(){} // RVA: 0x7FFAF8878B40
+        public void CheckAddResult(){} // RVA: 0x7FFAF8878BD0
         public void AddMonths(){}
         public void AddYears(){}
         public void GetDayOfMonth(){}
         public void GetDayOfWeek(){}
         public void GetDayOfYear(){}
-        public void GetDaysInMonth(){} // RVA: 0x7FFE86909C40 | overloaded x2
-        public void GetDaysInYear(){} // RVA: 0x7FFE80E356E0
+        public void GetDaysInMonth(){} // RVA: 0x7FFAF8878DB0 | overloaded x2
+        public void GetDaysInYear(){} // RVA: 0x7FFAF2AC4170
         public void GetEra(){}
-        public void get_Eras(){} // RVA: 0x7FFE80E2E2E0
+        public void get_Eras(){} // RVA: 0x7FFAF2ABCD60
         public void GetMonth(){}
-        public void GetMonthsInYear(){} // RVA: 0x7FFE80E356E0
-        public void GetFirstDayWeekOfYear(){} // RVA: 0x7FFE86909C70
-        public void GetWeekOfYearFullDays(){} // RVA: 0x7FFE86909D30
-        public void GetWeekOfYearOfMinSupportedDateTime(){} // RVA: 0x7FFE86909F70
-        public void get_DaysInYearBeforeMinSupportedYear(){} // RVA: 0x7FFE8690A0E0
-        public void GetWeekOfYear(){} // RVA: 0x7FFE8690A0F0
+        public void GetMonthsInYear(){} // RVA: 0x7FFAF2AC4170
+        public void GetFirstDayWeekOfYear(){} // RVA: 0x7FFAF8878DE0
+        public void GetWeekOfYearFullDays(){} // RVA: 0x7FFAF8878EA0
+        public void GetWeekOfYearOfMinSupportedDateTime(){} // RVA: 0x7FFAF88790E0
+        public void get_DaysInYearBeforeMinSupportedYear(){} // RVA: 0x7FFAF8879250
+        public void GetWeekOfYear(){} // RVA: 0x7FFAF8879260
         public void GetYear(){}
         public void IsLeapDay(){}
         public void IsLeapMonth(){}
-        public void GetLeapMonth(){} // RVA: 0x7FFE8690A420
-        public void IsLeapYear(){} // RVA: 0x7FFE8690A4E0 | overloaded x2
-        public void ToDateTime(){} // RVA: 0x7FFE8690A500 | overloaded x2
-        public void TryToDateTime(){} // RVA: 0x7FFE8690A560
-        public void IsValidYear(){} // RVA: 0x7FFE8690A660
-        public void IsValidMonth(){} // RVA: 0x7FFE8690A6F0
-        public void IsValidDay(){} // RVA: 0x7FFE8690A770
-        public void get_TwoDigitYearMax(){} // RVA: 0x7FFE813DB630
-        public void set_TwoDigitYearMax(){} // RVA: 0x7FFE8690A800
-        public void ToFourDigitYear(){} // RVA: 0x7FFE8690A830
-        public void TimeToTicks(){} // RVA: 0x7FFE8690A940
-        public void GetSystemTwoDigitYearSetting(){} // RVA: 0x7FFE8690AB20
+        public void GetLeapMonth(){} // RVA: 0x7FFAF8879590
+        public void IsLeapYear(){} // RVA: 0x7FFAF8879650 | overloaded x2
+        public void ToDateTime(){} // RVA: 0x7FFAF8879670 | overloaded x2
+        public void TryToDateTime(){} // RVA: 0x7FFAF88796D0
+        public void IsValidYear(){} // RVA: 0x7FFAF88797D0
+        public void IsValidMonth(){} // RVA: 0x7FFAF8879860
+        public void IsValidDay(){} // RVA: 0x7FFAF88798E0
+        public void get_TwoDigitYearMax(){} // RVA: 0x7FFAF306ED50
+        public void set_TwoDigitYearMax(){} // RVA: 0x7FFAF8879970
+        public void ToFourDigitYear(){} // RVA: 0x7FFAF88799A0
+        public void TimeToTicks(){} // RVA: 0x7FFAF8879AB0
+        public void GetSystemTwoDigitYearSetting(){} // RVA: 0x7FFAF8879C90
     }
 
-    public class CalendarData : Object
+    public class CalendarData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8690BEC0 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE8690AB80
-        public void InitializeEraNames(){} // RVA: 0x7FFE8690CD60
-        public void GetJapaneseEraNames(){} // RVA: 0x7FFE8690D270
-        public void GetJapaneseEnglishEraNames(){} // RVA: 0x7FFE8690D490
-        public void InitializeAbbreviatedEraNames(){} // RVA: 0x7FFE8690D6B0
-        public void GetCalendarData(){} // RVA: 0x7FFE8690DAF0
-        public void CalendarIdToCultureName(){} // RVA: 0x7FFE8690DD20
-        public void nativeGetTwoDigitYearMax(){} // RVA: 0x7FFE81517DA0
-        public void nativeGetCalendarData(){} // RVA: 0x7FFE8690DEF0
-        public void fill_calendar_data(){} // RVA: 0x7FFE8690E090
+        public void .ctor(){} // RVA: 0x7FFAF887B030 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF8879CF0
+        public void InitializeEraNames(){} // RVA: 0x7FFAF887BED0
+        public void GetJapaneseEraNames(){} // RVA: 0x7FFAF887C3E0
+        public void GetJapaneseEnglishEraNames(){} // RVA: 0x7FFAF887C600
+        public void InitializeAbbreviatedEraNames(){} // RVA: 0x7FFAF887C820
+        public void GetCalendarData(){} // RVA: 0x7FFAF887CC60
+        public void CalendarIdToCultureName(){} // RVA: 0x7FFAF887CE90
+        public void nativeGetTwoDigitYearMax(){} // RVA: 0x7FFAF320BB20
+        public void nativeGetCalendarData(){} // RVA: 0x7FFAF887D060
+        public void fill_calendar_data(){} // RVA: 0x7FFAF887D200
     }
 
-    public class CharUnicodeInfo : Object
+    public class CharUnicodeInfo
     {
         // ── Methods ──
-        public void InternalConvertToUtf32(){} // RVA: 0x7FFE868EC3C0 | overloaded x2
-        public void InternalGetNumericValue(){} // RVA: 0x7FFE868EC470
-        public void GetNumericValue(){} // RVA: 0x7FFE868EC650 | overloaded x2
-        public void GetUnicodeCategory(){} // RVA: 0x7FFE868EC880 | overloaded x3
-        public void InternalGetCategoryValue(){} // RVA: 0x7FFE868ECA00
-        public void InternalGetUnicodeCategory(){} // RVA: 0x7FFE868ECC30 | overloaded x2
-        public void IsWhiteSpace(){} // RVA: 0x7FFE868ECDB0 | overloaded x2
-        public void get_CategoryLevel1Index(){} // RVA: 0x7FFE868ECDD0
-        public void get_CategoryLevel2Index(){} // RVA: 0x7FFE868ECE30
-        public void get_CategoryLevel3Index(){} // RVA: 0x7FFE868ECE90
-        public void get_CategoriesValue(){} // RVA: 0x7FFE868ECEF0
-        public void get_NumericLevel1Index(){} // RVA: 0x7FFE868ECF50
-        public void get_NumericLevel2Index(){} // RVA: 0x7FFE868ECFB0
-        public void get_NumericLevel3Index(){} // RVA: 0x7FFE868ED010
-        public void get_NumericValues(){} // RVA: 0x7FFE868ED070
+        public void InternalConvertToUtf32(){} // RVA: 0x7FFAF885B530 | overloaded x2
+        public void InternalGetNumericValue(){} // RVA: 0x7FFAF885B5E0
+        public void GetNumericValue(){} // RVA: 0x7FFAF885B7C0 | overloaded x2
+        public void GetUnicodeCategory(){} // RVA: 0x7FFAF885B9F0 | overloaded x3
+        public void InternalGetCategoryValue(){} // RVA: 0x7FFAF885BB70
+        public void InternalGetUnicodeCategory(){} // RVA: 0x7FFAF885BDA0 | overloaded x2
+        public void IsWhiteSpace(){} // RVA: 0x7FFAF885BF20 | overloaded x2
+        public void get_CategoryLevel1Index(){} // RVA: 0x7FFAF885BF40
+        public void get_CategoryLevel2Index(){} // RVA: 0x7FFAF885BFA0
+        public void get_CategoryLevel3Index(){} // RVA: 0x7FFAF885C000
+        public void get_CategoriesValue(){} // RVA: 0x7FFAF885C060
+        public void get_NumericLevel1Index(){} // RVA: 0x7FFAF885C0C0
+        public void get_NumericLevel2Index(){} // RVA: 0x7FFAF885C120
+        public void get_NumericLevel3Index(){} // RVA: 0x7FFAF885C180
+        public void get_NumericValues(){} // RVA: 0x7FFAF885C1E0
     }
 
-    public class CodePageDataItem : Object
+    public class CodePageDataItem
     {
-        public int m_dataIndex; // 0x10
-        public int m_uiFamilyCodePage; // 0x14
-        public string m_webName; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86920220
-        public void CreateString(){} // RVA: 0x7FFE869202E0
-        public void get_WebName(){} // RVA: 0x7FFE86920430
-        public void get_HeaderName(){} // RVA: 0x7FFE86920550
-        public void get_BodyName(){} // RVA: 0x7FFE86920680
-        public void .cctor(){} // RVA: 0x7FFE869207B0
+        public void .ctor(){} // RVA: 0x7FFAF888F390
+        public void CreateString(){} // RVA: 0x7FFAF888F450
+        public void get_WebName(){} // RVA: 0x7FFAF888F5A0
+        public void get_HeaderName(){} // RVA: 0x7FFAF888F6C0
+        public void get_BodyName(){} // RVA: 0x7FFAF888F7F0
+        public void .cctor(){} // RVA: 0x7FFAF888F920
     }
 
-    public class CompareInfo : Object
+    public class CompareInfo
     {
-        public 0x664D3F34 ValidIndexMaskOffFlags;
-        public 0x664D3F34 ValidCompareMaskOffFlags;
-
         // ── Methods ──
-        public void InvariantIndexOf(){} // RVA: 0x7FFE868ED0D0
-        public void InvariantLastIndexOf(){} // RVA: 0x7FFE868ED1A0
-        public void InvariantFindString(){} // RVA: 0x7FFE868ED280
-        public void InvariantToUpper(){} // RVA: 0x7FFE868ED680
-        public void InvariantCreateSortKey(){} // RVA: 0x7FFE868ED6A0
-        public void .ctor(){} // RVA: 0x7FFE868F3030 | overloaded x2
-        public void GetCompareInfo(){} // RVA: 0x7FFE868EDA60
-        public void OnDeserializing(){} // RVA: 0x7FFE86200400
-        public void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(){} // RVA: 0x7FFE868EDB20
-        public void OnDeserialized(){} // RVA: 0x7FFE868EDB30 | overloaded x2
-        public void OnSerializing(){} // RVA: 0x7FFE868EDC80
-        public void get_Name(){} // RVA: 0x7FFE868EDD20
-        public void Compare(){} // RVA: 0x7FFE868EE870 | overloaded x4
-        public void CompareOptionNone(){} // RVA: 0x7FFE868EE5E0
-        public void CompareOptionIgnoreCase(){} // RVA: 0x7FFE868EE740
-        public void CompareOrdinalIgnoreCase(){} // RVA: 0x7FFE868EEFB0 | overloaded x2
-        public void IsPrefix(){} // RVA: 0x7FFE868EF470 | overloaded x2
-        public void IsSuffix(){} // RVA: 0x7FFE868EF7F0 | overloaded x2
-        public void IndexOf(){} // RVA: 0x7FFE868F0200 | overloaded x5
-        public void IndexOfOrdinal(){} // RVA: 0x7FFE868F0360
-        public void LastIndexOf(){} // RVA: 0x7FFE868F05B0 | overloaded x2
-        public void LastIndexOfOrdinal(){} // RVA: 0x7FFE868F0990
-        public void GetSortKey(){} // RVA: 0x7FFE868F0B60
-        public void Equals(){} // RVA: 0x7FFE868F0CE0
-        public void GetHashCode(){} // RVA: 0x7FFE868F13B0 | overloaded x2
-        public void GetIgnoreCaseHash(){} // RVA: 0x7FFE868F0E30
-        public void GetHashCodeOfString(){} // RVA: 0x7FFE868F11E0
-        public void ToString(){} // RVA: 0x7FFE868F14C0
-        public void get_UseManagedCollation(){} // RVA: 0x7FFE868F1520
-        public void GetCollator(){} // RVA: 0x7FFE868F1690
-        public void CreateSortKeyCore(){} // RVA: 0x7FFE868F1B10
-        public void internal_index_switch(){} // RVA: 0x7FFE868F1DB0
-        public void internal_compare_switch(){} // RVA: 0x7FFE868F2030
-        public void internal_compare_managed(){} // RVA: 0x7FFE868F2230
-        public void internal_index_managed(){} // RVA: 0x7FFE868F2330
-        public void internal_compare_icall(){} // RVA: 0x7FFE868F23E0
-        public void internal_compare(){} // RVA: 0x7FFE868F23F0
-        public void internal_index_icall(){} // RVA: 0x7FFE868F24A0
-        public void internal_index(){} // RVA: 0x7FFE868F2590
-        public void InitSort(){} // RVA: 0x7FFE868F26D0
-        public void CompareStringOrdinalIgnoreCase(){} // RVA: 0x7FFE868F2740
-        public void IndexOfOrdinalCore(){} // RVA: 0x7FFE868F2900
-        public void LastIndexOfOrdinalCore(){} // RVA: 0x7FFE868F2940
-        public void LastIndexOfCore(){} // RVA: 0x7FFE868F2980
-        public void IndexOfCore(){} // RVA: 0x7FFE868F29C0
-        public void CompareString(){} // RVA: 0x7FFE868F2AC0 | overloaded x2
-        public void CreateSortKey(){} // RVA: 0x7FFE868F2BD0
-        public void StartsWith(){} // RVA: 0x7FFE868EF470 | overloaded x2
-        public void EndsWith(){} // RVA: 0x7FFE868EF7F0 | overloaded x2
-        public void GetHashCodeOfStringCore(){} // RVA: 0x7FFE868F2ED0
-        public void .cctor(){} // RVA: 0x7FFE868F2F10
+        public void InvariantIndexOf(){} // RVA: 0x7FFAF885C240
+        public void InvariantLastIndexOf(){} // RVA: 0x7FFAF885C310
+        public void InvariantFindString(){} // RVA: 0x7FFAF885C3F0
+        public void InvariantToUpper(){} // RVA: 0x7FFAF885C7F0
+        public void InvariantCreateSortKey(){} // RVA: 0x7FFAF885C810
+        public void .ctor(){} // RVA: 0x7FFAF88621A0 | overloaded x2
+        public void GetCompareInfo(){} // RVA: 0x7FFAF885CBD0
+        public void OnDeserializing(){} // RVA: 0x7FFAF81FFB20
+        public void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(){} // RVA: 0x7FFAF885CC90
+        public void OnDeserialized(){} // RVA: 0x7FFAF885CCA0 | overloaded x2
+        public void OnSerializing(){} // RVA: 0x7FFAF885CDF0
+        public void get_Name(){} // RVA: 0x7FFAF885CE90
+        public void Compare(){} // RVA: 0x7FFAF885D9E0 | overloaded x4
+        public void CompareOptionNone(){} // RVA: 0x7FFAF885D750
+        public void CompareOptionIgnoreCase(){} // RVA: 0x7FFAF885D8B0
+        public void CompareOrdinalIgnoreCase(){} // RVA: 0x7FFAF885E120 | overloaded x2
+        public void IsPrefix(){} // RVA: 0x7FFAF885E5E0 | overloaded x2
+        public void IsSuffix(){} // RVA: 0x7FFAF885E960 | overloaded x2
+        public void IndexOf(){} // RVA: 0x7FFAF885F370 | overloaded x5
+        public void IndexOfOrdinal(){} // RVA: 0x7FFAF885F4D0
+        public void LastIndexOf(){} // RVA: 0x7FFAF885F720 | overloaded x2
+        public void LastIndexOfOrdinal(){} // RVA: 0x7FFAF885FB00
+        public void GetSortKey(){} // RVA: 0x7FFAF885FCD0
+        public void Equals(){} // RVA: 0x7FFAF885FE50
+        public void GetHashCode(){} // RVA: 0x7FFAF8860520 | overloaded x2
+        public void GetIgnoreCaseHash(){} // RVA: 0x7FFAF885FFA0
+        public void GetHashCodeOfString(){} // RVA: 0x7FFAF8860350
+        public void ToString(){} // RVA: 0x7FFAF8860630
+        public void get_UseManagedCollation(){} // RVA: 0x7FFAF8860690
+        public void GetCollator(){} // RVA: 0x7FFAF8860800
+        public void CreateSortKeyCore(){} // RVA: 0x7FFAF8860C80
+        public void internal_index_switch(){} // RVA: 0x7FFAF8860F20
+        public void internal_compare_switch(){} // RVA: 0x7FFAF88611A0
+        public void internal_compare_managed(){} // RVA: 0x7FFAF88613A0
+        public void internal_index_managed(){} // RVA: 0x7FFAF88614A0
+        public void internal_compare_icall(){} // RVA: 0x7FFAF8861550
+        public void internal_compare(){} // RVA: 0x7FFAF8861560
+        public void internal_index_icall(){} // RVA: 0x7FFAF8861610
+        public void internal_index(){} // RVA: 0x7FFAF8861700
+        public void InitSort(){} // RVA: 0x7FFAF8861840
+        public void CompareStringOrdinalIgnoreCase(){} // RVA: 0x7FFAF88618B0
+        public void IndexOfOrdinalCore(){} // RVA: 0x7FFAF8861A70
+        public void LastIndexOfOrdinalCore(){} // RVA: 0x7FFAF8861AB0
+        public void LastIndexOfCore(){} // RVA: 0x7FFAF8861AF0
+        public void IndexOfCore(){} // RVA: 0x7FFAF8861B30
+        public void CompareString(){} // RVA: 0x7FFAF8861C30 | overloaded x2
+        public void CreateSortKey(){} // RVA: 0x7FFAF8861D40
+        public void StartsWith(){} // RVA: 0x7FFAF885E5E0 | overloaded x2
+        public void EndsWith(){} // RVA: 0x7FFAF885E960 | overloaded x2
+        public void GetHashCodeOfStringCore(){} // RVA: 0x7FFAF8862040
+        public void .cctor(){} // RVA: 0x7FFAF8862080
     }
 
-    public class CultureData : Object
+    public class CultureData
     {
-        public string sAM1159; // 0x10
-        public string sPM2359; // 0x18
-        public string sTimeSeparator; // 0x20
-        public string[] saLongTimes; // 0x28
-        public string[] saShortTimes; // 0x30
-        public int iFirstDayOfWeek; // 0x38
-        public int iFirstWeekOfYear; // 0x3C
-        public int[] waCalendars; // 0x40
-        public System.Globalization.CalendarData[] calendars; // 0x48
-        public string sISO639Language; // 0x50
-        public string sRealName; // 0x58
-        public bool bUseOverrides; // 0x60
-        public int calendarId; // 0x64
-        public int numberIndex; // 0x68
-        public int iDefaultAnsiCodePage; // 0x6C
-        public int iDefaultOemCodePage; // 0x70
-        public int iDefaultMacCodePage; // 0x74
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE811C3510
-        public void get_Invariant(){} // RVA: 0x7FFE8691DF70
-        public void GetCultureData(){} // RVA: 0x7FFE8691E720 | overloaded x2
-        public void fill_culture_data(){} // RVA: 0x7FFE8691E910
-        public void GetCalendar(){} // RVA: 0x7FFE8691E920
-        public void get_LongTimes(){} // RVA: 0x7FFE84CF6780
-        public void get_ShortTimes(){} // RVA: 0x7FFE8691EA90
-        public void get_SISO639LANGNAME(){} // RVA: 0x7FFE8119C0E0
-        public void get_IFIRSTDAYOFWEEK(){} // RVA: 0x7FFE81D46090
-        public void get_IFIRSTWEEKOFYEAR(){} // RVA: 0x7FFE816311C0
-        public void get_SAM1159(){} // RVA: 0x7FFE81116380
-        public void get_SPM2359(){} // RVA: 0x7FFE810FE7C0
-        public void get_TimeSeparator(){} // RVA: 0x7FFE811290C0
-        public void get_CalendarIds(){} // RVA: 0x7FFE8691EAA0
-        public void GetCalendarIds(){} // RVA: 0x7FFE8691ED40
-        public void get_IsInvariantCulture(){} // RVA: 0x7FFE8691EE20
-        public void get_CultureName(){} // RVA: 0x7FFE811C3500
-        public void get_SCOMPAREINFO(){} // RVA: 0x7FFE8691EE40
-        public void get_STEXTINFO(){} // RVA: 0x7FFE811C3500
-        public void get_IsRightToLeft(){} // RVA: 0x7FFE816402F0
-        public void get_SLIST(){} // RVA: 0x7FFE81280C30
-        public void get_UseUserOverride(){} // RVA: 0x7FFE81124020
-        public void EraNames(){} // RVA: 0x7FFE8691EE80
-        public void AbbrevEraNames(){} // RVA: 0x7FFE8691EEA0
-        public void AbbreviatedEnglishEraNames(){} // RVA: 0x7FFE8691EEC0
-        public void ShortDates(){} // RVA: 0x7FFE8691EEE0
-        public void LongDates(){} // RVA: 0x7FFE8691EF00
-        public void YearMonths(){} // RVA: 0x7FFE8691EF20
-        public void DayNames(){} // RVA: 0x7FFE8691EF40
-        public void AbbreviatedDayNames(){} // RVA: 0x7FFE8691EF60
-        public void MonthNames(){} // RVA: 0x7FFE8691EF80
-        public void GenitiveMonthNames(){} // RVA: 0x7FFE8691EFA0
-        public void AbbreviatedMonthNames(){} // RVA: 0x7FFE8691EFC0
-        public void AbbreviatedGenitiveMonthNames(){} // RVA: 0x7FFE8691EFE0
-        public void LeapYearMonthNames(){} // RVA: 0x7FFE8691F010
-        public void MonthDay(){} // RVA: 0x7FFE8691F040
-        public void DateSeparator(){} // RVA: 0x7FFE8691F060
-        public void GetDateSeparator(){} // RVA: 0x7FFE8691F140
-        public void GetSeparator(){} // RVA: 0x7FFE8691F190
-        public void IndexOfTimePart(){} // RVA: 0x7FFE8691F370
-        public void UnescapeNlsString(){} // RVA: 0x7FFE8691F490
-        public void ReescapeWin32Strings(){} // RVA: 0x7FFE827C4A80
-        public void ReescapeWin32String(){} // RVA: 0x7FFE827C4A80
-        public void strlen(){} // RVA: 0x7FFE8691F650
-        public void idx2string(){} // RVA: 0x7FFE8691F670
-        public void create_group_sizes_array(){} // RVA: 0x7FFE8691F7A0
-        public void GetNFIValues(){} // RVA: 0x7FFE8691F850
-        public void fill_number_data(){} // RVA: 0x7FFE86920160
+        public void .ctor(){} // RVA: 0x7FFAF2E55510
+        public void get_Invariant(){} // RVA: 0x7FFAF888D0E0
+        public void GetCultureData(){} // RVA: 0x7FFAF888D890 | overloaded x2
+        public void fill_culture_data(){} // RVA: 0x7FFAF888DA80
+        public void GetCalendar(){} // RVA: 0x7FFAF888DA90
+        public void get_LongTimes(){} // RVA: 0x7FFAF6B2FEB0
+        public void get_ShortTimes(){} // RVA: 0x7FFAF888DC00
+        public void get_SISO639LANGNAME(){} // RVA: 0x7FFAF2E2E0E0
+        public void get_IFIRSTDAYOFWEEK(){} // RVA: 0x7FFAF3A8C9F0
+        public void get_IFIRSTWEEKOFYEAR(){} // RVA: 0x7FFAF3341AF0
+        public void get_SAM1159(){} // RVA: 0x7FFAF2DA8380
+        public void get_SPM2359(){} // RVA: 0x7FFAF2D907C0
+        public void get_TimeSeparator(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_CalendarIds(){} // RVA: 0x7FFAF888DC10
+        public void GetCalendarIds(){} // RVA: 0x7FFAF888DEB0
+        public void get_IsInvariantCulture(){} // RVA: 0x7FFAF888DF90
+        public void get_CultureName(){} // RVA: 0x7FFAF2E55500
+        public void get_SCOMPAREINFO(){} // RVA: 0x7FFAF888DFB0
+        public void get_STEXTINFO(){} // RVA: 0x7FFAF2E55500
+        public void get_IsRightToLeft(){} // RVA: 0x7FFAF33589C0
+        public void get_SLIST(){} // RVA: 0x7FFAF2F12D00
+        public void get_UseUserOverride(){} // RVA: 0x7FFAF2DB6020
+        public void EraNames(){} // RVA: 0x7FFAF888DFF0
+        public void AbbrevEraNames(){} // RVA: 0x7FFAF888E010
+        public void AbbreviatedEnglishEraNames(){} // RVA: 0x7FFAF888E030
+        public void ShortDates(){} // RVA: 0x7FFAF888E050
+        public void LongDates(){} // RVA: 0x7FFAF888E070
+        public void YearMonths(){} // RVA: 0x7FFAF888E090
+        public void DayNames(){} // RVA: 0x7FFAF888E0B0
+        public void AbbreviatedDayNames(){} // RVA: 0x7FFAF888E0D0
+        public void MonthNames(){} // RVA: 0x7FFAF888E0F0
+        public void GenitiveMonthNames(){} // RVA: 0x7FFAF888E110
+        public void AbbreviatedMonthNames(){} // RVA: 0x7FFAF888E130
+        public void AbbreviatedGenitiveMonthNames(){} // RVA: 0x7FFAF888E150
+        public void LeapYearMonthNames(){} // RVA: 0x7FFAF888E180
+        public void MonthDay(){} // RVA: 0x7FFAF888E1B0
+        public void DateSeparator(){} // RVA: 0x7FFAF888E1D0
+        public void GetDateSeparator(){} // RVA: 0x7FFAF888E2B0
+        public void GetSeparator(){} // RVA: 0x7FFAF888E300
+        public void IndexOfTimePart(){} // RVA: 0x7FFAF888E4E0
+        public void UnescapeNlsString(){} // RVA: 0x7FFAF888E600
+        public void ReescapeWin32Strings(){} // RVA: 0x7FFAF44EF520
+        public void ReescapeWin32String(){} // RVA: 0x7FFAF44EF520
+        public void strlen(){} // RVA: 0x7FFAF888E7C0
+        public void idx2string(){} // RVA: 0x7FFAF888E7E0
+        public void create_group_sizes_array(){} // RVA: 0x7FFAF888E910
+        public void GetNFIValues(){} // RVA: 0x7FFAF888E9C0
+        public void fill_number_data(){} // RVA: 0x7FFAF888F2D0
     }
 
-    public class CultureInfo : Object
+    public class CultureInfo
     {
-        public System.Globalization.CultureInfo invariant_culture_info;
-        public object shared_table_lock; // 0x8
-        public System.Globalization.CultureInfo default_current_culture; // 0x10
-        public bool m_isReadOnly; // 0x10
-        public int cultureID; // 0x14
-        public int parent_lcid; // 0x18
-        public int datetime_index; // 0x1C
-        public int number_index; // 0x20
-        public int default_calendar_type; // 0x24
-        public bool m_useUserOverride; // 0x28
-        public System.Globalization.NumberFormatInfo numInfo; // 0x30
-        public System.Globalization.DateTimeFormatInfo dateTimeInfo; // 0x38
-        public System.Globalization.TextInfo textInfo; // 0x40
-        public string m_name; // 0x48
-        public string englishname; // 0x50
-        public string nativename; // 0x58
-        public string iso3lang; // 0x60
-        public string iso2lang; // 0x68
-        public string win3lang; // 0x70
-        public string territory; // 0x78
-        public string[] native_calendar_names; // 0x80
-        public System.Globalization.CompareInfo compareInfo; // 0x88
-        public void* textinfo_data; // 0x90
-        public int m_dataItem; // 0x98
-        public System.Globalization.Calendar calendar; // 0xA0
-        public System.Globalization.CultureInfo parent_culture; // 0xA8
-        public bool constructed; // 0xB0
-        public byte[] cached_serialized_form; // 0xB8
-        public System.Globalization.CultureData m_cultureData; // 0xC0
-        public bool m_isInherited; // 0xC8
-        public int InvariantCultureId;
-
         // ── Methods ──
-        public void get__cultureData(){} // RVA: 0x7FFE81166120
-        public void get__isInherited(){} // RVA: 0x7FFE81FF3AD0
-        public void get_InvariantCulture(){} // RVA: 0x7FFE8692B710
-        public void get_CurrentCulture(){} // RVA: 0x7FFE8692B770
-        public void get_CurrentUICulture(){} // RVA: 0x7FFE8692B7C0
-        public void set_CurrentUICulture(){} // RVA: 0x7FFE8692B810
-        public void ConstructCurrentCulture(){} // RVA: 0x7FFE8692B840
-        public void ConstructCurrentUICulture(){} // RVA: 0x7FFE8692BAA0
-        public void get_Territory(){} // RVA: 0x7FFE81463AE0
-        public void get__name(){} // RVA: 0x7FFE81176730
-        public void get_IetfLanguageTag(){} // RVA: 0x7FFE8692BAF0
-        public void get_LCID(){} // RVA: 0x7FFE8164B230
-        public void get_Name(){} // RVA: 0x7FFE81176730
-        public void get_NativeName(){} // RVA: 0x7FFE8692BC30
-        public void get_Calendar(){} // RVA: 0x7FFE8692BCA0
-        public void get_Parent(){} // RVA: 0x7FFE8692BD70
-        public void get_TextInfo(){} // RVA: 0x7FFE8692C050
-        public void get_ThreeLetterISOLanguageName(){} // RVA: 0x7FFE8692C2A0
-        public void get_TwoLetterISOLanguageName(){} // RVA: 0x7FFE8692C310
-        public void Clone(){} // RVA: 0x7FFE8692C380
-        public void Equals(){} // RVA: 0x7FFE8692C5E0
-        public void GetCultures(){} // RVA: 0x7FFE8692C6C0
-        public void GetTextInfoData(){} // RVA: 0x7FFE8692CAC0
-        public void GetHashCode(){} // RVA: 0x7FFE8164B230
-        public void ReadOnly(){} // RVA: 0x7FFE8692CAE0
-        public void ToString(){} // RVA: 0x7FFE81176730
-        public void get_CompareInfo(){} // RVA: 0x7FFE8692CD70
-        public void get_IsNeutralCulture(){} // RVA: 0x7FFE8692D030
-        public void CheckNeutral(){} // RVA: 0x7FFE810FB310
-        public void get_NumberFormat(){} // RVA: 0x7FFE8692D070
-        public void set_NumberFormat(){} // RVA: 0x7FFE8692D160
-        public void get_DateTimeFormat(){} // RVA: 0x7FFE8692D2D0
-        public void set_DateTimeFormat(){} // RVA: 0x7FFE8692D4E0
-        public void get_DisplayName(){} // RVA: 0x7FFE81866490
-        public void get_EnglishName(){} // RVA: 0x7FFE8692D650
-        public void get_InstalledUICulture(){} // RVA: 0x7FFE8692D6C0
-        public void get_IsReadOnly(){} // RVA: 0x7FFE811C55E0
-        public void GetFormat(){} // RVA: 0x7FFE8692D710
-        public void Construct(){} // RVA: 0x7FFE8692D860
-        public void construct_internal_locale_from_lcid(){} // RVA: 0x7FFE8692D8C0
-        public void construct_internal_locale_from_name(){} // RVA: 0x7FFE8692D920
-        public void get_current_locale_name(){} // RVA: 0x7FFE8692DAB0
-        public void internal_get_cultures(){} // RVA: 0x7FFE8692DB30
-        public void ConstructInvariant(){} // RVA: 0x7FFE8692DB40
-        public void CreateTextInfo(){} // RVA: 0x7FFE8692E0C0
-        public void .ctor(){} // RVA: 0x7FFE8160B370 | overloaded x7
-        public void insert_into_shared_tables(){} // RVA: 0x7FFE8692E900
-        public void GetCultureInfo(){} // RVA: 0x7FFE8692F220 | overloaded x3
-        public void CreateCulture(){} // RVA: 0x7FFE8692F320
-        public void CreateSpecificCulture(){} // RVA: 0x7FFE8692F3B0
-        public void ConstructLocaleFromName(){} // RVA: 0x7FFE8692F710
-        public void CreateSpecificCultureFromNeutral(){} // RVA: 0x7FFE8692F7C0
-        public void get_CalendarType(){} // RVA: 0x7FFE86932A00
-        public void CreateCalendar(){} // RVA: 0x7FFE86932AA0
-        public void CreateNotFoundException(){} // RVA: 0x7FFE86932CC0
-        public void get_DefaultThreadCurrentCulture(){} // RVA: 0x7FFE86932D70
-        public void set_DefaultThreadCurrentCulture(){} // RVA: 0x7FFE86932DD0
-        public void get_DefaultThreadCurrentUICulture(){} // RVA: 0x7FFE86932E90
-        public void set_DefaultThreadCurrentUICulture(){} // RVA: 0x7FFE86932EF0
-        public void get_SortName(){} // RVA: 0x7FFE81176730
-        public void get_UserDefaultUICulture(){} // RVA: 0x7FFE86932FB0
-        public void get_UserDefaultCulture(){} // RVA: 0x7FFE86933030
-        public void InitializeUserPreferredCultureInfoInAppX(){} // RVA: 0x7FFE86883DB0
-        public void SetUserPreferredCultureInfoInAppX(){} // RVA: 0x7FFE810FB310
-        public void OnCultureInfoChangedInAppX(){} // RVA: 0x7FFE86933080
-        public void GetCultureInfoForUserPreferredLanguageInAppX(){} // RVA: 0x7FFE86933210
-        public void SetCultureInfoForUserPreferredLanguageInAppX(){} // RVA: 0x7FFE86933310
-        public void get_HasInvariantCultureName(){} // RVA: 0x7FFE86933480
-        public void VerifyCultureName(){} // RVA: 0x7FFE86933700 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE869337A0
+        public void get__cultureData(){} // RVA: 0x7FFAF2DF8120
+        public void get__isInherited(){} // RVA: 0x7FFAF3D1AF80
+        public void get_InvariantCulture(){} // RVA: 0x7FFAF889A880
+        public void get_CurrentCulture(){} // RVA: 0x7FFAF889A8E0
+        public void get_CurrentUICulture(){} // RVA: 0x7FFAF889A930
+        public void set_CurrentUICulture(){} // RVA: 0x7FFAF889A980
+        public void ConstructCurrentCulture(){} // RVA: 0x7FFAF889A9B0
+        public void ConstructCurrentUICulture(){} // RVA: 0x7FFAF889AC10
+        public void get_Territory(){} // RVA: 0x7FFAF2F77C50
+        public void get__name(){} // RVA: 0x7FFAF2E08730
+        public void get_IetfLanguageTag(){} // RVA: 0x7FFAF889AC60
+        public void get_LCID(){} // RVA: 0x7FFAF335BED0
+        public void get_Name(){} // RVA: 0x7FFAF2E08730
+        public void get_NativeName(){} // RVA: 0x7FFAF889ADA0
+        public void get_Calendar(){} // RVA: 0x7FFAF889AE10
+        public void get_Parent(){} // RVA: 0x7FFAF889AEE0
+        public void get_TextInfo(){} // RVA: 0x7FFAF889B1C0
+        public void get_ThreeLetterISOLanguageName(){} // RVA: 0x7FFAF889B410
+        public void get_TwoLetterISOLanguageName(){} // RVA: 0x7FFAF889B480
+        public void Clone(){} // RVA: 0x7FFAF889B4F0
+        public void Equals(){} // RVA: 0x7FFAF889B750
+        public void GetCultures(){} // RVA: 0x7FFAF889B830
+        public void GetTextInfoData(){} // RVA: 0x7FFAF889BC30
+        public void GetHashCode(){} // RVA: 0x7FFAF335BED0
+        public void ReadOnly(){} // RVA: 0x7FFAF889BC50
+        public void ToString(){} // RVA: 0x7FFAF2E08730
+        public void get_CompareInfo(){} // RVA: 0x7FFAF889BEE0
+        public void get_IsNeutralCulture(){} // RVA: 0x7FFAF889C1A0
+        public void CheckNeutral(){} // RVA: 0x7FFAF2D8D310
+        public void get_NumberFormat(){} // RVA: 0x7FFAF889C1E0
+        public void set_NumberFormat(){} // RVA: 0x7FFAF889C2D0
+        public void get_DateTimeFormat(){} // RVA: 0x7FFAF889C440
+        public void set_DateTimeFormat(){} // RVA: 0x7FFAF889C650
+        public void get_DisplayName(){} // RVA: 0x7FFAF889C7C0
+        public void get_EnglishName(){} // RVA: 0x7FFAF889C7E0
+        public void get_InstalledUICulture(){} // RVA: 0x7FFAF889C850
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2E575E0
+        public void GetFormat(){} // RVA: 0x7FFAF889C8A0
+        public void Construct(){} // RVA: 0x7FFAF889C9F0
+        public void construct_internal_locale_from_lcid(){} // RVA: 0x7FFAF889CA50
+        public void construct_internal_locale_from_name(){} // RVA: 0x7FFAF889CAB0
+        public void get_current_locale_name(){} // RVA: 0x7FFAF889CC40
+        public void internal_get_cultures(){} // RVA: 0x7FFAF889CCC0
+        public void ConstructInvariant(){} // RVA: 0x7FFAF889CCD0
+        public void CreateTextInfo(){} // RVA: 0x7FFAF889D250
+        public void .ctor(){} // RVA: 0x7FFAF889DA90 | overloaded x7
+        public void insert_into_shared_tables(){} // RVA: 0x7FFAF889DAA0
+        public void GetCultureInfo(){} // RVA: 0x7FFAF889E3C0 | overloaded x3
+        public void CreateCulture(){} // RVA: 0x7FFAF889E4C0
+        public void CreateSpecificCulture(){} // RVA: 0x7FFAF889E550
+        public void ConstructLocaleFromName(){} // RVA: 0x7FFAF889E8B0
+        public void CreateSpecificCultureFromNeutral(){} // RVA: 0x7FFAF889E960
+        public void get_CalendarType(){} // RVA: 0x7FFAF88A1BA0
+        public void CreateCalendar(){} // RVA: 0x7FFAF88A1C40
+        public void CreateNotFoundException(){} // RVA: 0x7FFAF88A1E60
+        public void get_DefaultThreadCurrentCulture(){} // RVA: 0x7FFAF88A1F10
+        public void set_DefaultThreadCurrentCulture(){} // RVA: 0x7FFAF88A1F70
+        public void get_DefaultThreadCurrentUICulture(){} // RVA: 0x7FFAF88A2030
+        public void set_DefaultThreadCurrentUICulture(){} // RVA: 0x7FFAF88A2090
+        public void get_SortName(){} // RVA: 0x7FFAF2E08730
+        public void get_UserDefaultUICulture(){} // RVA: 0x7FFAF88A2150
+        public void get_UserDefaultCulture(){} // RVA: 0x7FFAF88A21D0
+        public void InitializeUserPreferredCultureInfoInAppX(){} // RVA: 0x7FFAF87F2EB0
+        public void SetUserPreferredCultureInfoInAppX(){} // RVA: 0x7FFAF2D8D310
+        public void OnCultureInfoChangedInAppX(){} // RVA: 0x7FFAF88A2220
+        public void GetCultureInfoForUserPreferredLanguageInAppX(){} // RVA: 0x7FFAF88A23B0
+        public void SetCultureInfoForUserPreferredLanguageInAppX(){} // RVA: 0x7FFAF88A24B0
+        public void get_HasInvariantCultureName(){} // RVA: 0x7FFAF88A2620
+        public void VerifyCultureName(){} // RVA: 0x7FFAF88A28A0 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF88A2940
     }
 
-    public class CultureNotFoundException : ArgumentException
+    public class CultureNotFoundException
     {
-        public string _invalidCultureName; // 0x98
-        public System.Nullable`1<int> _invalidCultureId; // 0xA0
-        public object field_2; // 0x6B5
-        public object field_3; // 0x6B6
-        public object field_4; // 0x6B7
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE868F30D0 | overloaded x3
-        public void GetObjectData(){} // RVA: 0x7FFE868F33E0
-        public void get_InvalidCultureId(){} // RVA: 0x7FFE8179C860
-        public void get_InvalidCultureName(){} // RVA: 0x7FFE817AE360
-        public void get_DefaultMessage(){} // RVA: 0x7FFE868F3720
-        public void get_FormatedInvalidCultureId(){} // RVA: 0x7FFE868F3760
-        public void get_Message(){} // RVA: 0x7FFE868F38D0
+        public void .ctor(){} // RVA: 0x7FFAF8862240 | overloaded x3
+        public void GetObjectData(){} // RVA: 0x7FFAF8862550
+        public void get_InvalidCultureId(){} // RVA: 0x7FFAF34B85E0
+        public void get_InvalidCultureName(){} // RVA: 0x7FFAF34CC8C0
+        public void get_DefaultMessage(){} // RVA: 0x7FFAF8862890
+        public void get_FormatedInvalidCultureId(){} // RVA: 0x7FFAF88628D0
+        public void get_Message(){} // RVA: 0x7FFAF8862A40
     }
 
-    public class DateTimeFormatInfo : Object
+    public class DateTimeFormatInfo
     {
-        public System.Globalization.DateTimeFormatInfo s_invariantInfo;
-        public System.Globalization.CultureData _cultureData; // 0x10
-        public string _name; // 0x18
-        public string _langName; // 0x20
-        public System.Globalization.CompareInfo _compareInfo; // 0x28
-        public System.Globalization.CultureInfo _cultureInfo; // 0x30
-        public string amDesignator; // 0x38
-        public string pmDesignator; // 0x40
-        public string dateSeparator; // 0x48
-        public string generalShortTimePattern; // 0x50
-        public string generalLongTimePattern; // 0x58
-        public string timeSeparator; // 0x60
-        public string monthDayPattern; // 0x68
-        public string dateTimeOffsetPattern; // 0x70
-        public string rfc1123Pattern;
-        public string sortableDateTimePattern;
-        public string universalSortableDateTimePattern;
-        public System.Globalization.Calendar calendar; // 0x78
-        public int firstDayOfWeek; // 0x80
-        public int calendarWeekRule; // 0x84
-        public string fullDateTimePattern; // 0x88
-        public string[] abbreviatedDayNames; // 0x90
-        public string[] m_superShortDayNames; // 0x98
-        public string[] dayNames; // 0xA0
-        public string[] abbreviatedMonthNames; // 0xA8
-        public string[] monthNames; // 0xB0
-        public string[] genitiveMonthNames; // 0xB8
-        public string[] m_genitiveAbbreviatedMonthNames; // 0xC0
-        public string[] leapYearMonthNames; // 0xC8
-        public string longDatePattern; // 0xD0
-        public string shortDatePattern; // 0xD8
-        public string yearMonthPattern; // 0xE0
-        public string longTimePattern; // 0xE8
-        public string shortTimePattern; // 0xF0
-        public string[] allYearMonthPatterns; // 0xF8
-        public string[] allShortDatePatterns; // 0x100
-        public string[] allLongDatePatterns; // 0x108
-        public string[] allShortTimePatterns; // 0x110
-        public string[] allLongTimePatterns; // 0x118
-        public string[] m_eraNames; // 0x120
-        public string[] m_abbrevEraNames; // 0x128
-        public string[] m_abbrevEnglishEraNames; // 0x130
-        public 0x664D41F4[] optionalCalendars; // 0x138
-        public int DEFAULT_ALL_DATETIMES_SIZE;
-        public bool _isReadOnly; // 0x140
-        public 0x664D4094 formatFlags; // 0x144
-        public char[] s_monthSpaces; // 0x8
-        public string RoundtripFormat;
-        public string RoundtripDateTimeUnfixed;
-        public string _fullTimeSpanPositivePattern; // 0x148
-        public string _fullTimeSpanNegativePattern; // 0x150
-
         // ── Methods ──
-        public void get_CultureName(){} // RVA: 0x7FFE868F3AD0
-        public void get_Culture(){} // RVA: 0x7FFE868F3B40
-        public void get_LanguageName(){} // RVA: 0x7FFE868F3C00
-        public void internalGetAbbreviatedDayOfWeekNames(){} // RVA: 0x7FFE868F3C70
-        public void internalGetAbbreviatedDayOfWeekNamesCore(){} // RVA: 0x7FFE868F3C90
-        public void internalGetDayOfWeekNames(){} // RVA: 0x7FFE868F3D50
-        public void internalGetDayOfWeekNamesCore(){} // RVA: 0x7FFE868F3D70
-        public void internalGetAbbreviatedMonthNames(){} // RVA: 0x7FFE868F3E30
-        public void internalGetAbbreviatedMonthNamesCore(){} // RVA: 0x7FFE868F3E50
-        public void internalGetMonthNames(){} // RVA: 0x7FFE868F3F10
-        public void internalGetMonthNamesCore(){} // RVA: 0x7FFE868F3F30
-        public void .ctor(){} // RVA: 0x7FFE868F41C0 | overloaded x2
-        public void InitializeOverridableProperties(){} // RVA: 0x7FFE868F4230
-        public void get_InvariantInfo(){} // RVA: 0x7FFE868F46B0
-        public void get_CurrentInfo(){} // RVA: 0x7FFE868F4800
-        public void GetInstance(){} // RVA: 0x7FFE868F4950
-        public void GetFormat(){} // RVA: 0x7FFE868F4AE0
-        public void Clone(){} // RVA: 0x7FFE868F4BC0
-        public void get_AMDesignator(){} // RVA: 0x7FFE868F4D40
-        public void get_Calendar(){} // RVA: 0x7FFE81463AE0
-        public void set_Calendar(){} // RVA: 0x7FFE868F4DB0
-        public void get_OptionalCalendars(){} // RVA: 0x7FFE868F5250
-        public void get_EraNames(){} // RVA: 0x7FFE868F53C0
-        public void GetEraName(){} // RVA: 0x7FFE868F5490
-        public void get_AbbreviatedEraNames(){} // RVA: 0x7FFE868F5630
-        public void GetAbbreviatedEraName(){} // RVA: 0x7FFE868F5700
-        public void get_AbbreviatedEnglishEraNames(){} // RVA: 0x7FFE868F58C0
-        public void get_DateSeparator(){} // RVA: 0x7FFE868F5990
-        public void get_FullDateTimePattern(){} // RVA: 0x7FFE868F5A40
-        public void get_LongDatePattern(){} // RVA: 0x7FFE868F5B10
-        public void get_LongTimePattern(){} // RVA: 0x7FFE868F5BB0
-        public void get_MonthDayPattern(){} // RVA: 0x7FFE868F5C50
-        public void get_PMDesignator(){} // RVA: 0x7FFE868F5D10
-        public void get_RFC1123Pattern(){} // RVA: 0x7FFE868F5D80
-        public void get_ShortDatePattern(){} // RVA: 0x7FFE868F5DC0
-        public void get_ShortTimePattern(){} // RVA: 0x7FFE868F5E60
-        public void get_SortableDateTimePattern(){} // RVA: 0x7FFE868F5F00
-        public void get_GeneralShortTimePattern(){} // RVA: 0x7FFE868F5F40
-        public void get_GeneralLongTimePattern(){} // RVA: 0x7FFE868F6000
-        public void get_DateTimeOffsetPattern(){} // RVA: 0x7FFE868F60C0
-        public void get_TimeSeparator(){} // RVA: 0x7FFE868F62E0
-        public void get_UniversalSortableDateTimePattern(){} // RVA: 0x7FFE868F6350
-        public void get_YearMonthPattern(){} // RVA: 0x7FFE868F6390
-        public void get_AbbreviatedDayNames(){} // RVA: 0x7FFE868F6430
-        public void get_DayNames(){} // RVA: 0x7FFE868F64C0
-        public void get_AbbreviatedMonthNames(){} // RVA: 0x7FFE868F6550
-        public void get_MonthNames(){} // RVA: 0x7FFE868F65E0
-        public void get_HasSpacesInMonthNames(){} // RVA: 0x7FFE868F6670
-        public void get_HasSpacesInDayNames(){} // RVA: 0x7FFE868F66A0
-        public void internalGetMonthName(){} // RVA: 0x7FFE868F66D0
-        public void internalGetGenitiveMonthNames(){} // RVA: 0x7FFE868F6830
-        public void internalGetLeapYearMonthNames(){} // RVA: 0x7FFE868F69E0
-        public void GetAbbreviatedDayName(){} // RVA: 0x7FFE868F6AB0
-        public void GetCombinedPatterns(){} // RVA: 0x7FFE868F6BC0
-        public void GetAllDateTimePatterns(){} // RVA: 0x7FFE868F6CD0
-        public void GetDayName(){} // RVA: 0x7FFE868F7180
-        public void GetAbbreviatedMonthName(){} // RVA: 0x7FFE868F7290
-        public void GetMonthName(){} // RVA: 0x7FFE868F73A0
-        public void GetMergedPatterns(){} // RVA: 0x7FFE868F74B0
-        public void get_AllYearMonthPatterns(){} // RVA: 0x7FFE868F76B0
-        public void get_AllShortDatePatterns(){} // RVA: 0x7FFE868F7730
-        public void get_AllShortTimePatterns(){} // RVA: 0x7FFE868F77B0
-        public void get_AllLongDatePatterns(){} // RVA: 0x7FFE868F7830
-        public void get_AllLongTimePatterns(){} // RVA: 0x7FFE868F78B0
-        public void get_UnclonedYearMonthPatterns(){} // RVA: 0x7FFE868F7930
-        public void get_UnclonedShortDatePatterns(){} // RVA: 0x7FFE868F7A00
-        public void get_UnclonedLongDatePatterns(){} // RVA: 0x7FFE868F7AD0
-        public void get_UnclonedShortTimePatterns(){} // RVA: 0x7FFE868F7BA0
-        public void get_UnclonedLongTimePatterns(){} // RVA: 0x7FFE868F7C30
-        public void ReadOnly(){} // RVA: 0x7FFE868F7CC0
-        public void get_IsReadOnly(){} // RVA: 0x7FFE868F7EE0
-        public void get_MonthGenitiveNames(){} // RVA: 0x7FFE868F7F80
-        public void get_FullTimeSpanPositivePattern(){} // RVA: 0x7FFE868F8010
-        public void get_FullTimeSpanNegativePattern(){} // RVA: 0x7FFE868F8150
-        public void get_CompareInfo(){} // RVA: 0x7FFE868F8200
-        public void ValidateStyles(){} // RVA: 0x7FFE868F8390
-        public void get_FormatFlags(){} // RVA: 0x7FFE868F84C0
-        public void InitializeFormatFlags(){} // RVA: 0x7FFE868F84E0
-        public void get_HasForceTwoDigitYears(){} // RVA: 0x7FFE868F8730
-        public void get_HasYearMonthAdjustment(){} // RVA: 0x7FFE868F8770
-        public void YearMonthAdjustment(){} // RVA: 0x7FFE868F87A0
-        public void GetJapaneseCalendarDTFI(){} // RVA: 0x7FFE868F88E0
-        public void GetTaiwanCalendarDTFI(){} // RVA: 0x7FFE868F8AC0
-        public void ClearTokenHashTable(){} // RVA: 0x7FFE868F8CA0
-        public void CreateTokenHashTable(){} // RVA: 0x7FFE868F8D20
-        public void PopulateSpecialTokenHashTable(){} // RVA: 0x7FFE868F9950
-        public void IsJapaneseCalendar(){} // RVA: 0x7FFE868FA730
-        public void AddMonthNames(){} // RVA: 0x7FFE868FA870
-        public void TryParseHebrewNumber(){} // RVA: 0x7FFE868FA940
-        public void IsHebrewChar(){} // RVA: 0x7FFE868FAB40
-        public void IsAllowedJapaneseTokenFollowedByNonSpaceLetter(){} // RVA: 0x7FFE868FAB60
-        public void Tokenize(){} // RVA: 0x7FFE868FACB0
-        public void InsertAtCurrentHashNode(){} // RVA: 0x7FFE868FB3D0
-        public void InsertHash(){} // RVA: 0x7FFE868FB610
-        public void CompareStringIgnoreCaseOptimized(){} // RVA: 0x7FFE868FBA10
-        public void .cctor(){} // RVA: 0x7FFE868FBB40
+        public void get_CultureName(){} // RVA: 0x7FFAF8862C40
+        public void get_Culture(){} // RVA: 0x7FFAF8862CB0
+        public void get_LanguageName(){} // RVA: 0x7FFAF8862D70
+        public void internalGetAbbreviatedDayOfWeekNames(){} // RVA: 0x7FFAF8862DE0
+        public void internalGetAbbreviatedDayOfWeekNamesCore(){} // RVA: 0x7FFAF8862E00
+        public void internalGetDayOfWeekNames(){} // RVA: 0x7FFAF8862EC0
+        public void internalGetDayOfWeekNamesCore(){} // RVA: 0x7FFAF8862EE0
+        public void internalGetAbbreviatedMonthNames(){} // RVA: 0x7FFAF8862FA0
+        public void internalGetAbbreviatedMonthNamesCore(){} // RVA: 0x7FFAF8862FC0
+        public void internalGetMonthNames(){} // RVA: 0x7FFAF8863080
+        public void internalGetMonthNamesCore(){} // RVA: 0x7FFAF88630A0
+        public void .ctor(){} // RVA: 0x7FFAF8863330 | overloaded x2
+        public void InitializeOverridableProperties(){} // RVA: 0x7FFAF88633A0
+        public void get_InvariantInfo(){} // RVA: 0x7FFAF8863820
+        public void get_CurrentInfo(){} // RVA: 0x7FFAF8863970
+        public void GetInstance(){} // RVA: 0x7FFAF8863AC0
+        public void GetFormat(){} // RVA: 0x7FFAF8863C50
+        public void Clone(){} // RVA: 0x7FFAF8863D30
+        public void get_AMDesignator(){} // RVA: 0x7FFAF8863EB0
+        public void get_Calendar(){} // RVA: 0x7FFAF2F77C50
+        public void set_Calendar(){} // RVA: 0x7FFAF8863F20
+        public void get_OptionalCalendars(){} // RVA: 0x7FFAF88643C0
+        public void get_EraNames(){} // RVA: 0x7FFAF8864530
+        public void GetEraName(){} // RVA: 0x7FFAF8864600
+        public void get_AbbreviatedEraNames(){} // RVA: 0x7FFAF88647A0
+        public void GetAbbreviatedEraName(){} // RVA: 0x7FFAF8864870
+        public void get_AbbreviatedEnglishEraNames(){} // RVA: 0x7FFAF8864A30
+        public void get_DateSeparator(){} // RVA: 0x7FFAF8864B00
+        public void get_FullDateTimePattern(){} // RVA: 0x7FFAF8864BB0
+        public void get_LongDatePattern(){} // RVA: 0x7FFAF8864C80
+        public void get_LongTimePattern(){} // RVA: 0x7FFAF8864D20
+        public void get_MonthDayPattern(){} // RVA: 0x7FFAF8864DC0
+        public void get_PMDesignator(){} // RVA: 0x7FFAF8864E80
+        public void get_RFC1123Pattern(){} // RVA: 0x7FFAF8864EF0
+        public void get_ShortDatePattern(){} // RVA: 0x7FFAF8864F30
+        public void get_ShortTimePattern(){} // RVA: 0x7FFAF8864FD0
+        public void get_SortableDateTimePattern(){} // RVA: 0x7FFAF8865070
+        public void get_GeneralShortTimePattern(){} // RVA: 0x7FFAF88650B0
+        public void get_GeneralLongTimePattern(){} // RVA: 0x7FFAF8865170
+        public void get_DateTimeOffsetPattern(){} // RVA: 0x7FFAF8865230
+        public void get_TimeSeparator(){} // RVA: 0x7FFAF8865450
+        public void get_UniversalSortableDateTimePattern(){} // RVA: 0x7FFAF88654C0
+        public void get_YearMonthPattern(){} // RVA: 0x7FFAF8865500
+        public void get_AbbreviatedDayNames(){} // RVA: 0x7FFAF88655A0
+        public void get_DayNames(){} // RVA: 0x7FFAF8865630
+        public void get_AbbreviatedMonthNames(){} // RVA: 0x7FFAF88656C0
+        public void get_MonthNames(){} // RVA: 0x7FFAF8865750
+        public void get_HasSpacesInMonthNames(){} // RVA: 0x7FFAF88657E0
+        public void get_HasSpacesInDayNames(){} // RVA: 0x7FFAF8865810
+        public void internalGetMonthName(){} // RVA: 0x7FFAF8865840
+        public void internalGetGenitiveMonthNames(){} // RVA: 0x7FFAF88659A0
+        public void internalGetLeapYearMonthNames(){} // RVA: 0x7FFAF8865B50
+        public void GetAbbreviatedDayName(){} // RVA: 0x7FFAF8865C20
+        public void GetCombinedPatterns(){} // RVA: 0x7FFAF8865D30
+        public void GetAllDateTimePatterns(){} // RVA: 0x7FFAF8865E40
+        public void GetDayName(){} // RVA: 0x7FFAF88662F0
+        public void GetAbbreviatedMonthName(){} // RVA: 0x7FFAF8866400
+        public void GetMonthName(){} // RVA: 0x7FFAF8866510
+        public void GetMergedPatterns(){} // RVA: 0x7FFAF8866620
+        public void get_AllYearMonthPatterns(){} // RVA: 0x7FFAF8866820
+        public void get_AllShortDatePatterns(){} // RVA: 0x7FFAF88668A0
+        public void get_AllShortTimePatterns(){} // RVA: 0x7FFAF8866920
+        public void get_AllLongDatePatterns(){} // RVA: 0x7FFAF88669A0
+        public void get_AllLongTimePatterns(){} // RVA: 0x7FFAF8866A20
+        public void get_UnclonedYearMonthPatterns(){} // RVA: 0x7FFAF8866AA0
+        public void get_UnclonedShortDatePatterns(){} // RVA: 0x7FFAF8866B70
+        public void get_UnclonedLongDatePatterns(){} // RVA: 0x7FFAF8866C40
+        public void get_UnclonedShortTimePatterns(){} // RVA: 0x7FFAF8866D10
+        public void get_UnclonedLongTimePatterns(){} // RVA: 0x7FFAF8866DA0
+        public void ReadOnly(){} // RVA: 0x7FFAF8866E30
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF8867050
+        public void get_MonthGenitiveNames(){} // RVA: 0x7FFAF88670F0
+        public void get_FullTimeSpanPositivePattern(){} // RVA: 0x7FFAF8867180
+        public void get_FullTimeSpanNegativePattern(){} // RVA: 0x7FFAF88672C0
+        public void get_CompareInfo(){} // RVA: 0x7FFAF8867370
+        public void ValidateStyles(){} // RVA: 0x7FFAF8867500
+        public void get_FormatFlags(){} // RVA: 0x7FFAF8867630
+        public void InitializeFormatFlags(){} // RVA: 0x7FFAF8867650
+        public void get_HasForceTwoDigitYears(){} // RVA: 0x7FFAF88678A0
+        public void get_HasYearMonthAdjustment(){} // RVA: 0x7FFAF88678E0
+        public void YearMonthAdjustment(){} // RVA: 0x7FFAF8867910
+        public void GetJapaneseCalendarDTFI(){} // RVA: 0x7FFAF8867A50
+        public void GetTaiwanCalendarDTFI(){} // RVA: 0x7FFAF8867C30
+        public void ClearTokenHashTable(){} // RVA: 0x7FFAF8867E10
+        public void CreateTokenHashTable(){} // RVA: 0x7FFAF8867E90
+        public void PopulateSpecialTokenHashTable(){} // RVA: 0x7FFAF8868AC0
+        public void IsJapaneseCalendar(){} // RVA: 0x7FFAF88698A0
+        public void AddMonthNames(){} // RVA: 0x7FFAF88699E0
+        public void TryParseHebrewNumber(){} // RVA: 0x7FFAF8869AB0
+        public void IsHebrewChar(){} // RVA: 0x7FFAF8869CB0
+        public void IsAllowedJapaneseTokenFollowedByNonSpaceLetter(){} // RVA: 0x7FFAF8869CD0
+        public void Tokenize(){} // RVA: 0x7FFAF8869E20
+        public void InsertAtCurrentHashNode(){} // RVA: 0x7FFAF886A540
+        public void InsertHash(){} // RVA: 0x7FFAF886A780
+        public void CompareStringIgnoreCaseOptimized(){} // RVA: 0x7FFAF886AB80
+        public void .cctor(){} // RVA: 0x7FFAF886ACB0
     }
 
-    public class DateTimeFormatInfoScanner : Object
+    public class DateTimeFormatInfoScanner
     {
-        public System.Collections.Generic.List`1<string> m_dateWords; // 0x10
+        public object Start;
 
         // ── Methods ──
-        public void get_KnownWords(){} // RVA: 0x7FFE868FBC30
-        public void SkipWhiteSpacesAndNonLetter(){} // RVA: 0x7FFE868FC2A0
-        public void AddDateWordOrPostfix(){} // RVA: 0x7FFE868FC390
-        public void AddDateWords(){} // RVA: 0x7FFE868FC620
-        public void ScanRepeatChar(){} // RVA: 0x7FFE868FC8B0
-        public void AddIgnorableSymbols(){} // RVA: 0x7FFE868FC910
-        public void ScanDateWord(){} // RVA: 0x7FFE868FCAA0
-        public void GetDateWordsOfDTFI(){} // RVA: 0x7FFE868FCD60
-        public void GetFormatFlagGenitiveMonth(){} // RVA: 0x7FFE868FD080
-        public void GetFormatFlagUseSpaceInMonthNames(){} // RVA: 0x7FFE868FD0D0
-        public void GetFormatFlagUseSpaceInDayNames(){} // RVA: 0x7FFE868FD190
-        public void GetFormatFlagUseHebrewCalendar(){} // RVA: 0x7FFE868FD1D0
-        public void EqualStringArrays(){} // RVA: 0x7FFE868FD1E0
-        public void ArrayElementsHaveSpace(){} // RVA: 0x7FFE868FD2C0
-        public void ArrayElementsBeginWithDigit(){} // RVA: 0x7FFE868FD3C0
-        public void .ctor(){} // RVA: 0x7FFE868FD5E0
+        public void get_KnownWords(){} // RVA: 0x7FFAF886ADA0
+        public void SkipWhiteSpacesAndNonLetter(){} // RVA: 0x7FFAF886B410
+        public void AddDateWordOrPostfix(){} // RVA: 0x7FFAF886B500
+        public void AddDateWords(){} // RVA: 0x7FFAF886B790
+        public void ScanRepeatChar(){} // RVA: 0x7FFAF886BA20
+        public void AddIgnorableSymbols(){} // RVA: 0x7FFAF886BA80
+        public void ScanDateWord(){} // RVA: 0x7FFAF886BC10
+        public void GetDateWordsOfDTFI(){} // RVA: 0x7FFAF886BED0
+        public void GetFormatFlagGenitiveMonth(){} // RVA: 0x7FFAF886C1F0
+        public void GetFormatFlagUseSpaceInMonthNames(){} // RVA: 0x7FFAF886C240
+        public void GetFormatFlagUseSpaceInDayNames(){} // RVA: 0x7FFAF886C300
+        public void GetFormatFlagUseHebrewCalendar(){} // RVA: 0x7FFAF886C340
+        public void EqualStringArrays(){} // RVA: 0x7FFAF886C350
+        public void ArrayElementsHaveSpace(){} // RVA: 0x7FFAF886C430
+        public void ArrayElementsBeginWithDigit(){} // RVA: 0x7FFAF886C530
+        public void .ctor(){} // RVA: 0x7FFAF886C750
     }
 
-    public class DaylightTime : Object
+    public class DaylightTime
     {
-        public System.DateTime _start; // 0x10
-        public System.DateTime _end; // 0x18
-        public System.TimeSpan _delta; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE868FD6A0
-        public void get_Start(){} // RVA: 0x7FFE81116380
-        public void get_End(){} // RVA: 0x7FFE810FE7C0
-        public void get_Delta(){} // RVA: 0x7FFE811290C0
+        public void .ctor(){} // RVA: 0x7FFAF886C810
+        public void get_Start(){} // RVA: 0x7FFAF2DA8380
+        public void get_End(){} // RVA: 0x7FFAF2D907C0
+        public void get_Delta(){} // RVA: 0x7FFAF2DBB0C0
     }
 
-    public class DaylightTimeStruct : ValueType
+    public class DaylightTimeStruct
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE868FD6B0
+        public void .ctor(){} // RVA: 0x7FFAF886C820
     }
 
-    public class EncodingTable : Object
+    public class EncodingTable
     {
         // ── Methods ──
-        public void GetNumEncodingItems(){} // RVA: 0x7FFE86920890
-        public void ENC(){} // RVA: 0x7FFE86920900
-        public void MapCodePageDataItem(){} // RVA: 0x7FFE86920970
-        public void .cctor(){} // RVA: 0x7FFE869209E0
-        public void internalGetCodePageFromName(){} // RVA: 0x7FFE8692A0B0
-        public void GetCodePageFromName(){} // RVA: 0x7FFE8692A450
-        public void GetCodePageDataItem(){} // RVA: 0x7FFE8692A7E0
+        public void GetNumEncodingItems(){} // RVA: 0x7FFAF888FA00
+        public void ENC(){} // RVA: 0x7FFAF888FA70
+        public void MapCodePageDataItem(){} // RVA: 0x7FFAF888FAE0
+        public void .cctor(){} // RVA: 0x7FFAF888FB50
+        public void internalGetCodePageFromName(){} // RVA: 0x7FFAF8899220
+        public void GetCodePageFromName(){} // RVA: 0x7FFAF88995C0
+        public void GetCodePageDataItem(){} // RVA: 0x7FFAF8899950
     }
 
-    public class EraInfo : Object
+    public class EraInfo
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86910AF0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF887FC60 | overloaded x2
     }
 
-    public class FormatProvider : Object
+    public class FormatProvider
     {
         // ── Methods ──
-        public void FormatBigInteger(){} // RVA: 0x7FFE8736EB40
-        public void TryStringToBigInteger(){} // RVA: 0x7FFE8736ECC0
+        public void FormatBigInteger(){} // RVA: 0x7FFAF92DF860
+        public void TryStringToBigInteger(){} // RVA: 0x7FFAF92DF9E0
     }
 
-    public class GlobalizationMode : Object
+    public class GlobalizationMode
     {
-        public bool _invariant;
+        public object Invariant;
 
         // ── Methods ──
-        public void get_Invariant(){} // RVA: 0x7FFE86909670
-        public void GetGlobalizationInvariantMode(){} // RVA: 0x7FFE810FB320
-        public void .cctor(){} // RVA: 0x7FFE869096D0
+        public void get_Invariant(){} // RVA: 0x7FFAF88787E0
+        public void GetGlobalizationInvariantMode(){} // RVA: 0x7FFAF2D8D320
+        public void .cctor(){} // RVA: 0x7FFAF8878840
     }
 
-    public class GregorianCalendar : Calendar
+    public class GregorianCalendar
     {
-        public 0x664D4DA4 m_type; // 0x20
-        public int[] DaysToMonth365;
-        public int[] DaysToMonth366; // 0x8
-        public System.Globalization.Calendar s_defaultInstance; // 0x10
-        public object field_4; // 0x708
-        public object field_5; // 0x709
-
         // ── Methods ──
-        public void OnDeserialized(){} // RVA: 0x7FFE8690E0A0
-        public void get_MinSupportedDateTime(){} // RVA: 0x7FFE8690E190
-        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFE8690E1F0
-        public void get_AlgorithmType(){} // RVA: 0x7FFE811EDAF0
-        public void GetDefaultInstance(){} // RVA: 0x7FFE8690E250
-        public void .ctor(){} // RVA: 0x7FFE8690E3A0 | overloaded x2
-        public void get_ID(){} // RVA: 0x7FFE8151D690
-        public void GetDatePart(){} // RVA: 0x7FFE8690E4F0
-        public void GetAbsoluteDate(){} // RVA: 0x7FFE8690E6C0
-        public void DateToTicks(){} // RVA: 0x7FFE8690E8C0
-        public void AddMonths(){} // RVA: 0x7FFE8690E940
-        public void AddYears(){} // RVA: 0x7FFE8690EE60
-        public void GetDayOfMonth(){} // RVA: 0x7FFE8690EE80
-        public void GetDayOfWeek(){} // RVA: 0x7FFE8690EF30
-        public void GetDayOfYear(){} // RVA: 0x7FFE8690EFF0
-        public void GetDaysInMonth(){} // RVA: 0x7FFE8690F0A0
-        public void GetDaysInYear(){} // RVA: 0x7FFE8690F3C0
-        public void GetEra(){} // RVA: 0x7FFE811EDAF0
-        public void get_Eras(){} // RVA: 0x7FFE8690F5A0
-        public void GetMonth(){} // RVA: 0x7FFE8690F600
-        public void GetMonthsInYear(){} // RVA: 0x7FFE8690F6B0
-        public void GetYear(){} // RVA: 0x7FFE8690F840
-        public void IsLeapDay(){} // RVA: 0x7FFE8690F8F0
-        public void GetLeapMonth(){} // RVA: 0x7FFE8690FD40
-        public void IsLeapMonth(){} // RVA: 0x7FFE8690FEC0
-        public void IsLeapYear(){} // RVA: 0x7FFE86910160
-        public void ToDateTime(){} // RVA: 0x7FFE86910330
-        public void TryToDateTime(){} // RVA: 0x7FFE86910410
-        public void get_TwoDigitYearMax(){} // RVA: 0x7FFE86910510
-        public void set_TwoDigitYearMax(){} // RVA: 0x7FFE86910590
-        public void ToFourDigitYear(){} // RVA: 0x7FFE869106B0
-        public void .cctor(){} // RVA: 0x7FFE86910830
+        public void OnDeserialized(){} // RVA: 0x7FFAF887D210
+        public void get_MinSupportedDateTime(){} // RVA: 0x7FFAF887D300
+        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFAF887D360
+        public void get_AlgorithmType(){} // RVA: 0x7FFAF2E7FAF0
+        public void GetDefaultInstance(){} // RVA: 0x7FFAF887D3C0
+        public void .ctor(){} // RVA: 0x7FFAF887D510 | overloaded x2
+        public void get_ID(){} // RVA: 0x7FFAF3210030
+        public void GetDatePart(){} // RVA: 0x7FFAF887D660
+        public void GetAbsoluteDate(){} // RVA: 0x7FFAF887D830
+        public void DateToTicks(){} // RVA: 0x7FFAF887DA30
+        public void AddMonths(){} // RVA: 0x7FFAF887DAB0
+        public void AddYears(){} // RVA: 0x7FFAF887DFD0
+        public void GetDayOfMonth(){} // RVA: 0x7FFAF887DFF0
+        public void GetDayOfWeek(){} // RVA: 0x7FFAF887E0A0
+        public void GetDayOfYear(){} // RVA: 0x7FFAF887E160
+        public void GetDaysInMonth(){} // RVA: 0x7FFAF887E210
+        public void GetDaysInYear(){} // RVA: 0x7FFAF887E530
+        public void GetEra(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_Eras(){} // RVA: 0x7FFAF887E710
+        public void GetMonth(){} // RVA: 0x7FFAF887E770
+        public void GetMonthsInYear(){} // RVA: 0x7FFAF887E820
+        public void GetYear(){} // RVA: 0x7FFAF887E9B0
+        public void IsLeapDay(){} // RVA: 0x7FFAF887EA60
+        public void GetLeapMonth(){} // RVA: 0x7FFAF887EEB0
+        public void IsLeapMonth(){} // RVA: 0x7FFAF887F030
+        public void IsLeapYear(){} // RVA: 0x7FFAF887F2D0
+        public void ToDateTime(){} // RVA: 0x7FFAF887F4A0
+        public void TryToDateTime(){} // RVA: 0x7FFAF887F580
+        public void get_TwoDigitYearMax(){} // RVA: 0x7FFAF887F680
+        public void set_TwoDigitYearMax(){} // RVA: 0x7FFAF887F700
+        public void ToFourDigitYear(){} // RVA: 0x7FFAF887F820
+        public void .cctor(){} // RVA: 0x7FFAF887F9A0
     }
 
-    public class GregorianCalendarHelper : Object
+    public class GregorianCalendarHelper
     {
-        public int[] DaysToMonth365;
-        public int[] DaysToMonth366; // 0x8
-
         // ── Methods ──
-        public void get_MaxYear(){} // RVA: 0x7FFE811485C0
-        public void .ctor(){} // RVA: 0x7FFE86910D00
-        public void GetYearOffset(){} // RVA: 0x7FFE86910E30
-        public void GetGregorianYear(){} // RVA: 0x7FFE869111C0
-        public void IsValidYear(){} // RVA: 0x7FFE869111F0
-        public void GetDatePart(){} // RVA: 0x7FFE86911210
-        public void GetAbsoluteDate(){} // RVA: 0x7FFE86911400
-        public void DateToTicks(){} // RVA: 0x7FFE86911600
-        public void TimeToTicks(){} // RVA: 0x7FFE86911680
-        public void CheckTicksRange(){} // RVA: 0x7FFE86911860
-        public void AddMonths(){} // RVA: 0x7FFE86911AD0
-        public void AddYears(){} // RVA: 0x7FFE86912050
-        public void GetDayOfMonth(){} // RVA: 0x7FFE86912060
-        public void GetDayOfWeek(){} // RVA: 0x7FFE86912110
-        public void GetDayOfYear(){} // RVA: 0x7FFE86912230
-        public void GetDaysInMonth(){} // RVA: 0x7FFE869122E0
-        public void GetDaysInYear(){} // RVA: 0x7FFE86912490
-        public void GetEra(){} // RVA: 0x7FFE86912520
-        public void get_Eras(){} // RVA: 0x7FFE86912660
-        public void GetMonth(){} // RVA: 0x7FFE869127D0
-        public void GetMonthsInYear(){} // RVA: 0x7FFE86912880
-        public void GetYear(){} // RVA: 0x7FFE869128A0
-        public void IsLeapDay(){} // RVA: 0x7FFE86912A00
-        public void GetLeapMonth(){} // RVA: 0x7FFE86912B90
-        public void IsLeapMonth(){} // RVA: 0x7FFE86912BB0
-        public void IsLeapYear(){} // RVA: 0x7FFE86912CE0
-        public void ToDateTime(){} // RVA: 0x7FFE86912D60
-        public void GetWeekOfYear(){} // RVA: 0x7FFE86912EB0
-        public void ToFourDigitYear(){} // RVA: 0x7FFE86912FD0
-        public void .cctor(){} // RVA: 0x7FFE869131D0
+        public void get_MaxYear(){} // RVA: 0x7FFAF2DDA5C0
+        public void .ctor(){} // RVA: 0x7FFAF887FE70
+        public void GetYearOffset(){} // RVA: 0x7FFAF887FFA0
+        public void GetGregorianYear(){} // RVA: 0x7FFAF8880330
+        public void IsValidYear(){} // RVA: 0x7FFAF8880360
+        public void GetDatePart(){} // RVA: 0x7FFAF8880380
+        public void GetAbsoluteDate(){} // RVA: 0x7FFAF8880570
+        public void DateToTicks(){} // RVA: 0x7FFAF8880770
+        public void TimeToTicks(){} // RVA: 0x7FFAF88807F0
+        public void CheckTicksRange(){} // RVA: 0x7FFAF88809D0
+        public void AddMonths(){} // RVA: 0x7FFAF8880C40
+        public void AddYears(){} // RVA: 0x7FFAF88811C0
+        public void GetDayOfMonth(){} // RVA: 0x7FFAF88811D0
+        public void GetDayOfWeek(){} // RVA: 0x7FFAF8881280
+        public void GetDayOfYear(){} // RVA: 0x7FFAF88813A0
+        public void GetDaysInMonth(){} // RVA: 0x7FFAF8881450
+        public void GetDaysInYear(){} // RVA: 0x7FFAF8881600
+        public void GetEra(){} // RVA: 0x7FFAF8881690
+        public void get_Eras(){} // RVA: 0x7FFAF88817D0
+        public void GetMonth(){} // RVA: 0x7FFAF8881940
+        public void GetMonthsInYear(){} // RVA: 0x7FFAF88819F0
+        public void GetYear(){} // RVA: 0x7FFAF8881A10
+        public void IsLeapDay(){} // RVA: 0x7FFAF8881B70
+        public void GetLeapMonth(){} // RVA: 0x7FFAF8881D00
+        public void IsLeapMonth(){} // RVA: 0x7FFAF8881D20
+        public void IsLeapYear(){} // RVA: 0x7FFAF8881E50
+        public void ToDateTime(){} // RVA: 0x7FFAF8881ED0
+        public void GetWeekOfYear(){} // RVA: 0x7FFAF8882020
+        public void ToFourDigitYear(){} // RVA: 0x7FFAF8882140
+        public void .cctor(){} // RVA: 0x7FFAF8882340
     }
 
-    public class HebrewNumber : Object
+    public class HebrewNumber
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE868FD6D0
-        public void ParseByChar(){} // RVA: 0x7FFE868FDAF0
-        public void IsDigit(){} // RVA: 0x7FFE868FDCB0
-        public void .cctor(){} // RVA: 0x7FFE868FDD90
+        public void ToString(){} // RVA: 0x7FFAF886C840
+        public void ParseByChar(){} // RVA: 0x7FFAF886CC60
+        public void IsDigit(){} // RVA: 0x7FFAF886CE20
+        public void .cctor(){} // RVA: 0x7FFAF886CF00
     }
 
-    public class HebrewNumberParsingContext : ValueType
+    public class HebrewNumberParsingContext
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE868FD6C0
+        public void .ctor(){} // RVA: 0x7FFAF886C830
     }
 
-    public class HijriCalendar : Calendar
+    public class HijriCalendar
     {
-        public int HijriEra;
-        public int[] HijriMonthDays; // 0x8
-        public int m_HijriAdvance; // 0x20
-        public System.DateTime calendarMinValue; // 0x10
-        public System.DateTime calendarMaxValue; // 0x18
-        public object field_5; // 0x710
-        public object field_6; // 0x711
-        public object field_7; // 0x712
-
         // ── Methods ──
-        public void get_MinSupportedDateTime(){} // RVA: 0x7FFE86913370
-        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFE869133D0
-        public void get_AlgorithmType(){} // RVA: 0x7FFE81200CB0
-        public void .ctor(){} // RVA: 0x7FFE86913430
-        public void get_ID(){} // RVA: 0x7FFE81815210
-        public void get_DaysInYearBeforeMinSupportedYear(){} // RVA: 0x7FFE86913450
-        public void GetAbsoluteDateHijri(){} // RVA: 0x7FFE86913460
-        public void DaysUpToHijriYear(){} // RVA: 0x7FFE86913580
-        public void get_HijriAdjustment(){} // RVA: 0x7FFE86913640
-        public void GetAdvanceHijriDate(){} // RVA: 0x7FFE813240E0
-        public void CheckTicksRange(){} // RVA: 0x7FFE869136A0
-        public void CheckEraRange(){} // RVA: 0x7FFE86913920
-        public void CheckYearRange(){} // RVA: 0x7FFE869139F0
-        public void CheckYearMonthRange(){} // RVA: 0x7FFE86913BF0
-        public void GetDatePart(){} // RVA: 0x7FFE86913DC0
-        public void AddMonths(){} // RVA: 0x7FFE86914060
-        public void AddYears(){} // RVA: 0x7FFE8690EE60
-        public void GetDayOfMonth(){} // RVA: 0x7FFE869144B0
-        public void GetDayOfWeek(){} // RVA: 0x7FFE86914560
-        public void GetDayOfYear(){} // RVA: 0x7FFE86914620
-        public void GetDaysInMonth(){} // RVA: 0x7FFE869146D0
-        public void GetDaysInYear(){} // RVA: 0x7FFE869147A0
-        public void GetEra(){} // RVA: 0x7FFE86914840
-        public void get_Eras(){} // RVA: 0x7FFE86914910
-        public void GetMonth(){} // RVA: 0x7FFE869149B0
-        public void GetMonthsInYear(){} // RVA: 0x7FFE86914A60
-        public void GetYear(){} // RVA: 0x7FFE86914AD0
-        public void IsLeapDay(){} // RVA: 0x7FFE86914B80
-        public void GetLeapMonth(){} // RVA: 0x7FFE86914D00
-        public void IsLeapMonth(){} // RVA: 0x7FFE86914D60
-        public void IsLeapYear(){} // RVA: 0x7FFE86914DD0
-        public void ToDateTime(){} // RVA: 0x7FFE86914E50
-        public void get_TwoDigitYearMax(){} // RVA: 0x7FFE86915070
-        public void set_TwoDigitYearMax(){} // RVA: 0x7FFE869150F0
-        public void ToFourDigitYear(){} // RVA: 0x7FFE86915210
-        public void .cctor(){} // RVA: 0x7FFE869153B0
+        public void get_MinSupportedDateTime(){} // RVA: 0x7FFAF88824E0
+        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFAF8882540
+        public void get_AlgorithmType(){} // RVA: 0x7FFAF2E92CB0
+        public void .ctor(){} // RVA: 0x7FFAF88825A0
+        public void get_ID(){} // RVA: 0x7FFAF35350E0
+        public void get_DaysInYearBeforeMinSupportedYear(){} // RVA: 0x7FFAF88825C0
+        public void GetAbsoluteDateHijri(){} // RVA: 0x7FFAF88825D0
+        public void DaysUpToHijriYear(){} // RVA: 0x7FFAF88826F0
+        public void get_HijriAdjustment(){} // RVA: 0x7FFAF88827B0
+        public void GetAdvanceHijriDate(){} // RVA: 0x7FFAF2FC9240
+        public void CheckTicksRange(){} // RVA: 0x7FFAF8882810
+        public void CheckEraRange(){} // RVA: 0x7FFAF8882A90
+        public void CheckYearRange(){} // RVA: 0x7FFAF8882B60
+        public void CheckYearMonthRange(){} // RVA: 0x7FFAF8882D60
+        public void GetDatePart(){} // RVA: 0x7FFAF8882F30
+        public void AddMonths(){} // RVA: 0x7FFAF88831D0
+        public void AddYears(){} // RVA: 0x7FFAF887DFD0
+        public void GetDayOfMonth(){} // RVA: 0x7FFAF8883620
+        public void GetDayOfWeek(){} // RVA: 0x7FFAF88836D0
+        public void GetDayOfYear(){} // RVA: 0x7FFAF8883790
+        public void GetDaysInMonth(){} // RVA: 0x7FFAF8883840
+        public void GetDaysInYear(){} // RVA: 0x7FFAF8883910
+        public void GetEra(){} // RVA: 0x7FFAF88839B0
+        public void get_Eras(){} // RVA: 0x7FFAF8883A80
+        public void GetMonth(){} // RVA: 0x7FFAF8883B20
+        public void GetMonthsInYear(){} // RVA: 0x7FFAF8883BD0
+        public void GetYear(){} // RVA: 0x7FFAF8883C40
+        public void IsLeapDay(){} // RVA: 0x7FFAF8883CF0
+        public void GetLeapMonth(){} // RVA: 0x7FFAF8883E70
+        public void IsLeapMonth(){} // RVA: 0x7FFAF8883ED0
+        public void IsLeapYear(){} // RVA: 0x7FFAF8883F40
+        public void ToDateTime(){} // RVA: 0x7FFAF8883FC0
+        public void get_TwoDigitYearMax(){} // RVA: 0x7FFAF88841E0
+        public void set_TwoDigitYearMax(){} // RVA: 0x7FFAF8884260
+        public void ToFourDigitYear(){} // RVA: 0x7FFAF8884380
+        public void .cctor(){} // RVA: 0x7FFAF8884520
     }
 
     public class ISimpleCollator
     {
         // ── Methods ──
-        public void GetSortKey(){} // RVA: 0x7FFE80E3F2F0
+        public void GetSortKey(){} // RVA: 0x7FFAF2ACDD80
         public void Compare(){}
-        public void IsPrefix(){} // RVA: 0x7FFE80E32820
-        public void IsSuffix(){} // RVA: 0x7FFE80E32820
+        public void IsPrefix(){} // RVA: 0x7FFAF2AC12F0
+        public void IsSuffix(){} // RVA: 0x7FFAF2AC12F0
         public void IndexOf(){}
         public void LastIndexOf(){}
     }
 
-    public class IdnMapping : Object
+    public class IdnMapping
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86933CD0
-        public void Equals(){} // RVA: 0x7FFE86933DA0
-        public void GetHashCode(){} // RVA: 0x7FFE86933E20
-        public void GetAscii(){} // RVA: 0x7FFE86933F10 | overloaded x2
-        public void Convert(){} // RVA: 0x7FFE86934030
-        public void ToAscii(){} // RVA: 0x7FFE869343C0
-        public void VerifyLength(){} // RVA: 0x7FFE86934840
-        public void NamePrep(){} // RVA: 0x7FFE86934980
-        public void VerifyProhibitedCharacters(){} // RVA: 0x7FFE86934AD0
-        public void VerifyStd3AsciiRules(){} // RVA: 0x7FFE86934D30
-        public void GetUnicode(){} // RVA: 0x7FFE86935070 | overloaded x2
-        public void ToUnicode(){} // RVA: 0x7FFE86935190
+        public void .ctor(){} // RVA: 0x7FFAF88A2E70
+        public void Equals(){} // RVA: 0x7FFAF88A2F40
+        public void GetHashCode(){} // RVA: 0x7FFAF88A2FC0
+        public void GetAscii(){} // RVA: 0x7FFAF88A30B0 | overloaded x2
+        public void Convert(){} // RVA: 0x7FFAF88A31D0
+        public void ToAscii(){} // RVA: 0x7FFAF88A3560
+        public void VerifyLength(){} // RVA: 0x7FFAF88A39E0
+        public void NamePrep(){} // RVA: 0x7FFAF88A3B20
+        public void VerifyProhibitedCharacters(){} // RVA: 0x7FFAF88A3C70
+        public void VerifyStd3AsciiRules(){} // RVA: 0x7FFAF88A3ED0
+        public void GetUnicode(){} // RVA: 0x7FFAF88A4210 | overloaded x2
+        public void ToUnicode(){} // RVA: 0x7FFAF88A4330
     }
 
-    public class InternalCodePageDataItem : ValueType
+    public class InternalCodePageDataItem
     {
     }
 
-    public class InternalEncodingDataItem : ValueType
+    public class InternalEncodingDataItem
     {
     }
 
-    public class JapaneseCalendar : Calendar
-    {
-        public System.DateTime calendarMinValue;
-        public System.Globalization.EraInfo[] japaneseEraInfo; // 0x8
-        public System.Globalization.Calendar s_defaultInstance; // 0x10
-        public System.Globalization.GregorianCalendarHelper helper; // 0x20
-        public object field_4; // 0x718
-        public object field_5; // 0x719
-
-        // ── Methods ──
-        public void get_MinSupportedDateTime(){} // RVA: 0x7FFE86915560
-        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFE869155C0
-        public void get_AlgorithmType(){} // RVA: 0x7FFE811EDAF0
-        public void GetEraInfo(){} // RVA: 0x7FFE86915620
-        public void GetErasFromRegistry(){} // RVA: 0x7FFE813240E0
-        public void GetDefaultInstance(){} // RVA: 0x7FFE86915CD0
-        public void .ctor(){} // RVA: 0x7FFE86915E10
-        public void get_ID(){} // RVA: 0x7FFE817BF630
-        public void AddMonths(){} // RVA: 0x7FFE86915FD0
-        public void AddYears(){} // RVA: 0x7FFE86915FF0
-        public void GetDaysInMonth(){} // RVA: 0x7FFE86916020
-        public void GetDaysInYear(){} // RVA: 0x7FFE86916050
-        public void GetDayOfMonth(){} // RVA: 0x7FFE86916070
-        public void GetDayOfWeek(){} // RVA: 0x7FFE86916090
-        public void GetDayOfYear(){} // RVA: 0x7FFE869160B0
-        public void GetMonthsInYear(){} // RVA: 0x7FFE869160D0
-        public void GetWeekOfYear(){} // RVA: 0x7FFE86916100
-        public void GetEra(){} // RVA: 0x7FFE86916130
-        public void GetMonth(){} // RVA: 0x7FFE86916150
-        public void GetYear(){} // RVA: 0x7FFE86916170
-        public void IsLeapDay(){} // RVA: 0x7FFE86916190
-        public void IsLeapYear(){} // RVA: 0x7FFE869161C0
-        public void GetLeapMonth(){} // RVA: 0x7FFE869161E0
-        public void IsLeapMonth(){} // RVA: 0x7FFE86916210
-        public void ToDateTime(){} // RVA: 0x7FFE86916240
-        public void ToFourDigitYear(){} // RVA: 0x7FFE86916270
-        public void get_Eras(){} // RVA: 0x7FFE86916420
-        public void EraNames(){} // RVA: 0x7FFE86916440
-        public void EnglishEraNames(){} // RVA: 0x7FFE86916550
-        public void IsValidYear(){} // RVA: 0x7FFE86916660
-        public void get_TwoDigitYearMax(){} // RVA: 0x7FFE86916690
-        public void set_TwoDigitYearMax(){} // RVA: 0x7FFE86916710
-        public void .cctor(){} // RVA: 0x7FFE86916860
-    }
-
-    public class NumberFormatInfo : Object
-    {
-        public System.Globalization.NumberFormatInfo invariantInfo;
-        public int[] numberGroupSizes; // 0x10
-        public int[] currencyGroupSizes; // 0x18
-        public int[] percentGroupSizes; // 0x20
-        public string positiveSign; // 0x28
-        public string negativeSign; // 0x30
-        public string numberDecimalSeparator; // 0x38
-        public string numberGroupSeparator; // 0x40
-        public string currencyGroupSeparator; // 0x48
-        public string currencyDecimalSeparator; // 0x50
-        public string currencySymbol; // 0x58
-        public string ansiCurrencySymbol; // 0x60
-        public string nanSymbol; // 0x68
-        public string positiveInfinitySymbol; // 0x70
-        public string negativeInfinitySymbol; // 0x78
-        public string percentDecimalSeparator; // 0x80
-        public string percentGroupSeparator; // 0x88
-        public string percentSymbol; // 0x90
-        public string perMilleSymbol; // 0x98
-        public string[] nativeDigits; // 0xA0
-        public int m_dataItem; // 0xA8
-        public int numberDecimalDigits; // 0xAC
-        public int currencyDecimalDigits; // 0xB0
-        public int currencyPositivePattern; // 0xB4
-        public int currencyNegativePattern; // 0xB8
-        public int numberNegativePattern; // 0xBC
-        public int percentPositivePattern; // 0xC0
-        public int percentNegativePattern; // 0xC4
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86916A70 | overloaded x2
-        public void OnSerializing(){} // RVA: 0x7FFE86916900
-        public void OnDeserializing(){} // RVA: 0x7FFE810FB310
-        public void OnDeserialized(){} // RVA: 0x7FFE810FB310
-        public void VerifyWritable(){} // RVA: 0x7FFE86917510
-        public void get_InvariantInfo(){} // RVA: 0x7FFE86917590
-        public void GetInstance(){} // RVA: 0x7FFE86917700
-        public void Clone(){} // RVA: 0x7FFE86917890
-        public void get_CurrencyDecimalDigits(){} // RVA: 0x7FFE82E64BF0
-        public void get_CurrencyDecimalSeparator(){} // RVA: 0x7FFE8119C0E0
-        public void get_IsReadOnly(){} // RVA: 0x7FFE81644E40
-        public void get_CurrencyGroupSizes(){} // RVA: 0x7FFE86917900
-        public void get_NumberGroupSizes(){} // RVA: 0x7FFE86917980
-        public void get_PercentGroupSizes(){} // RVA: 0x7FFE86917A00
-        public void get_CurrencyGroupSeparator(){} // RVA: 0x7FFE81176730
-        public void get_CurrencySymbol(){} // RVA: 0x7FFE811C3500
-        public void get_CurrentInfo(){} // RVA: 0x7FFE86917A80
-        public void get_NaNSymbol(){} // RVA: 0x7FFE81176D50
-        public void set_NaNSymbol(){} // RVA: 0x7FFE86917BB0
-        public void get_CurrencyNegativePattern(){} // RVA: 0x7FFE8260FFA0
-        public void get_NumberNegativePattern(){} // RVA: 0x7FFE818D2E10
-        public void get_PercentPositivePattern(){} // RVA: 0x7FFE813AB640
-        public void get_PercentNegativePattern(){} // RVA: 0x7FFE82A3B5F0
-        public void get_NegativeInfinitySymbol(){} // RVA: 0x7FFE81463AE0
-        public void get_NegativeSign(){} // RVA: 0x7FFE8144E200
-        public void get_NumberDecimalDigits(){} // RVA: 0x7FFE848BEEF0
-        public void get_NumberDecimalSeparator(){} // RVA: 0x7FFE8143BA80
-        public void get_NumberGroupSeparator(){} // RVA: 0x7FFE81178740
-        public void get_CurrencyPositivePattern(){} // RVA: 0x7FFE84A61A20
-        public void get_PositiveInfinitySymbol(){} // RVA: 0x7FFE811C3590
-        public void get_PositiveSign(){} // RVA: 0x7FFE81129130
-        public void get_PercentDecimalDigits(){} // RVA: 0x7FFE81790750
-        public void get_PercentDecimalSeparator(){} // RVA: 0x7FFE81280C30
-        public void get_PercentGroupSeparator(){} // RVA: 0x7FFE8113A010
-        public void get_PercentSymbol(){} // RVA: 0x7FFE8154EB60
-        public void get_PerMilleSymbol(){} // RVA: 0x7FFE817AE360
-        public void GetFormat(){} // RVA: 0x7FFE86917CE0
-        public void ReadOnly(){} // RVA: 0x7FFE86917DC0
-        public void ValidateParseStyleInteger(){} // RVA: 0x7FFE86917E90
-        public void ValidateParseStyleFloatingPoint(){} // RVA: 0x7FFE86917F80
-    }
-
-    public class Punycode : Bootstring
+    public class JapaneseCalendar
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86935DE0
+        public void get_MinSupportedDateTime(){} // RVA: 0x7FFAF88846D0
+        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFAF8884730
+        public void get_AlgorithmType(){} // RVA: 0x7FFAF2E7FAF0
+        public void GetEraInfo(){} // RVA: 0x7FFAF8884790
+        public void GetErasFromRegistry(){} // RVA: 0x7FFAF2FC9240
+        public void GetDefaultInstance(){} // RVA: 0x7FFAF8884E40
+        public void .ctor(){} // RVA: 0x7FFAF8884F80
+        public void get_ID(){} // RVA: 0x7FFAF34E08B0
+        public void AddMonths(){} // RVA: 0x7FFAF8885140
+        public void AddYears(){} // RVA: 0x7FFAF8885160
+        public void GetDaysInMonth(){} // RVA: 0x7FFAF8885190
+        public void GetDaysInYear(){} // RVA: 0x7FFAF88851C0
+        public void GetDayOfMonth(){} // RVA: 0x7FFAF88851E0
+        public void GetDayOfWeek(){} // RVA: 0x7FFAF8885200
+        public void GetDayOfYear(){} // RVA: 0x7FFAF8885220
+        public void GetMonthsInYear(){} // RVA: 0x7FFAF8885240
+        public void GetWeekOfYear(){} // RVA: 0x7FFAF8885270
+        public void GetEra(){} // RVA: 0x7FFAF88852A0
+        public void GetMonth(){} // RVA: 0x7FFAF88852C0
+        public void GetYear(){} // RVA: 0x7FFAF88852E0
+        public void IsLeapDay(){} // RVA: 0x7FFAF8885300
+        public void IsLeapYear(){} // RVA: 0x7FFAF8885330
+        public void GetLeapMonth(){} // RVA: 0x7FFAF8885350
+        public void IsLeapMonth(){} // RVA: 0x7FFAF8885380
+        public void ToDateTime(){} // RVA: 0x7FFAF88853B0
+        public void ToFourDigitYear(){} // RVA: 0x7FFAF88853E0
+        public void get_Eras(){} // RVA: 0x7FFAF8885590
+        public void EraNames(){} // RVA: 0x7FFAF88855B0
+        public void EnglishEraNames(){} // RVA: 0x7FFAF88856C0
+        public void IsValidYear(){} // RVA: 0x7FFAF88857D0
+        public void get_TwoDigitYearMax(){} // RVA: 0x7FFAF8885800
+        public void set_TwoDigitYearMax(){} // RVA: 0x7FFAF8885880
+        public void .cctor(){} // RVA: 0x7FFAF88859D0
     }
 
-    public class RegionInfo : Object
-    {
-        public System.Globalization.RegionInfo currentRegion;
-        public int regionId; // 0x10
-        public string iso2Name; // 0x18
-        public string iso3Name; // 0x20
-        public string win3Name; // 0x28
-        public string englishName; // 0x30
-        public string nativeName; // 0x38
-        public string currencySymbol; // 0x40
-        public string isoCurrencySymbol; // 0x48
-        public string currencyEnglishName; // 0x50
-        public string currencyNativeName; // 0x58
-        public object field_11; // 0x789
-        public object field_12; // 0x78A
-        public object field_13; // 0x78B
-
-        // ── Methods ──
-        public void get_CurrentRegion(){} // RVA: 0x7FFE86935E20
-        public void .ctor(){} // RVA: 0x7FFE869362C0 | overloaded x3
-        public void GetByTerritory(){} // RVA: 0x7FFE86936750
-        public void construct_internal_region_from_name(){} // RVA: 0x7FFE86936800
-        public void get_CurrencyEnglishName(){} // RVA: 0x7FFE8119C0E0
-        public void get_CurrencySymbol(){} // RVA: 0x7FFE81178740
-        public void get_DisplayName(){} // RVA: 0x7FFE8144E200
-        public void get_EnglishName(){} // RVA: 0x7FFE8144E200
-        public void get_GeoId(){} // RVA: 0x7FFE811485C0
-        public void get_IsMetric(){} // RVA: 0x7FFE86936990
-        public void get_ISOCurrencySymbol(){} // RVA: 0x7FFE81176730
-        public void get_NativeName(){} // RVA: 0x7FFE8143BA80
-        public void get_CurrencyNativeName(){} // RVA: 0x7FFE811C3500
-        public void get_Name(){} // RVA: 0x7FFE810FE7C0
-        public void get_ThreeLetterISORegionName(){} // RVA: 0x7FFE811290C0
-        public void get_ThreeLetterWindowsRegionName(){} // RVA: 0x7FFE81129130
-        public void get_TwoLetterISORegionName(){} // RVA: 0x7FFE810FE7C0
-        public void Equals(){} // RVA: 0x7FFE86936A60
-        public void GetHashCode(){} // RVA: 0x7FFE86936B70
-        public void ToString(){} // RVA: 0x7FFE825CB0A0
-        public void ClearCachedData(){} // RVA: 0x7FFE86936BB0
-    }
-
-    public class SortKey : Object
-    {
-        public string source; // 0x10
-        public byte[] key; // 0x18
-
-        // ── Methods ──
-        public void Compare(){} // RVA: 0x7FFE8691D850
-        public void .ctor(){} // RVA: 0x7FFE8691DF40 | overloaded x4
-        public void get_OriginalString(){} // RVA: 0x7FFE81116380
-        public void get_KeyData(){} // RVA: 0x7FFE810FE7C0
-        public void Equals(){} // RVA: 0x7FFE8691DCE0
-        public void GetHashCode(){} // RVA: 0x7FFE8691DD90
-        public void ToString(){} // RVA: 0x7FFE8691DE00
-    }
-
-    public class SortVersion : Object
-    {
-    }
-
-    public class TaiwanCalendar : Calendar
-    {
-        public System.Globalization.EraInfo[] taiwanEraInfo;
-        public System.Globalization.Calendar s_defaultInstance; // 0x8
-        public System.Globalization.GregorianCalendarHelper helper; // 0x20
-        public System.DateTime calendarMinValue; // 0x10
-        public object field_4; // 0x73A
-        public object field_5; // 0x73B
-
-        // ── Methods ──
-        public void GetDefaultInstance(){} // RVA: 0x7FFE86918060
-        public void get_MinSupportedDateTime(){} // RVA: 0x7FFE869181A0
-        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFE86918200
-        public void get_AlgorithmType(){} // RVA: 0x7FFE811EDAF0
-        public void .ctor(){} // RVA: 0x7FFE86918260
-        public void get_ID(){} // RVA: 0x7FFE8180E590
-        public void AddMonths(){} // RVA: 0x7FFE86915FD0
-        public void AddYears(){} // RVA: 0x7FFE86915FF0
-        public void GetDaysInMonth(){} // RVA: 0x7FFE86916020
-        public void GetDaysInYear(){} // RVA: 0x7FFE86916050
-        public void GetDayOfMonth(){} // RVA: 0x7FFE86916070
-        public void GetDayOfWeek(){} // RVA: 0x7FFE86916090
-        public void GetDayOfYear(){} // RVA: 0x7FFE869160B0
-        public void GetMonthsInYear(){} // RVA: 0x7FFE869160D0
-        public void GetWeekOfYear(){} // RVA: 0x7FFE86916100
-        public void GetEra(){} // RVA: 0x7FFE86916130
-        public void GetMonth(){} // RVA: 0x7FFE86916150
-        public void GetYear(){} // RVA: 0x7FFE86916170
-        public void IsLeapDay(){} // RVA: 0x7FFE86916190
-        public void IsLeapYear(){} // RVA: 0x7FFE869161C0
-        public void GetLeapMonth(){} // RVA: 0x7FFE869161E0
-        public void IsLeapMonth(){} // RVA: 0x7FFE86916210
-        public void ToDateTime(){} // RVA: 0x7FFE86916240
-        public void get_Eras(){} // RVA: 0x7FFE86916420
-        public void get_TwoDigitYearMax(){} // RVA: 0x7FFE86916690
-        public void set_TwoDigitYearMax(){} // RVA: 0x7FFE86918430
-        public void ToFourDigitYear(){} // RVA: 0x7FFE86918580
-        public void .cctor(){} // RVA: 0x7FFE86918730
-    }
-
-    public class TextInfo : Object
-    {
-        public string m_listSeparator; // 0x10
-        public bool m_isReadOnly; // 0x18
-        public string m_cultureName; // 0x20
-        public System.Globalization.CultureData m_cultureData; // 0x28
-        public string m_textInfoName; // 0x30
-        public System.Nullable`1<bool> m_IsAsciiCasingSameAsInvariant; // 0x38
-
-        // ── Methods ──
-        public void get_Invariant(){} // RVA: 0x7FFE869188F0
-        public void .ctor(){} // RVA: 0x7FFE8691ACE0 | overloaded x2
-        public void OnDeserializing(){} // RVA: 0x7FFE86918B20
-        public void OnDeserialized(){} // RVA: 0x7FFE86918D90 | overloaded x2
-        public void OnSerializing(){} // RVA: 0x7FFE86918DA0
-        public void get_CultureName(){} // RVA: 0x7FFE8144E200
-        public void get_IsReadOnly(){} // RVA: 0x7FFE811164E0
-        public void Clone(){} // RVA: 0x7FFE86918E80
-        public void ReadOnly(){} // RVA: 0x7FFE86918F00
-        public void SetReadOnlyState(){} // RVA: 0x7FFE811164F0
-        public void get_ListSeparator(){} // RVA: 0x7FFE86918FF0
-        public void ToLower(){} // RVA: 0x7FFE869190D0 | overloaded x2
-        public void ToLowerAsciiInvariant(){} // RVA: 0x7FFE86919200
-        public void ToUpper(){} // RVA: 0x7FFE86919280 | overloaded x2
-        public void ToUpperAsciiInvariant(){} // RVA: 0x7FFE8691AB00 | overloaded x2
-        public void IsAscii(){} // RVA: 0x7FFE869193D0
-        public void get_IsAsciiCasingSameAsInvariant(){} // RVA: 0x7FFE869193E0
-        public void Equals(){} // RVA: 0x7FFE86919530
-        public void GetHashCode(){} // RVA: 0x7FFE86919610
-        public void ToString(){} // RVA: 0x7FFE86919640
-        public void ToTitleCase(){} // RVA: 0x7FFE869196A0
-        public void AddNonLetter(){} // RVA: 0x7FFE86919B70
-        public void AddTitlecaseLetter(){} // RVA: 0x7FFE86919C30
-        public void IsWordSeparator(){} // RVA: 0x7FFE86919E50
-        public void IsLetterCategory(){} // RVA: 0x7FFE86919E60
-        public void get_IsRightToLeft(){} // RVA: 0x7FFE86919E70
-        public void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(){} // RVA: 0x7FFE86918D90
-        public void ToUpperInternal(){} // RVA: 0x7FFE8691A050 | overloaded x2
-        public void ToLowerInternal(){} // RVA: 0x7FFE8691A620 | overloaded x2
-        public void ChangeCase(){} // RVA: 0x7FFE8691ABB0
-    }
-
-    public class TextInfoToLowerData : Object
+    public class NumberFormatInfo
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8692B110
+        public void .ctor(){} // RVA: 0x7FFAF8885BE0 | overloaded x2
+        public void OnSerializing(){} // RVA: 0x7FFAF8885A70
+        public void OnDeserializing(){} // RVA: 0x7FFAF2D8D310
+        public void OnDeserialized(){} // RVA: 0x7FFAF2D8D310
+        public void VerifyWritable(){} // RVA: 0x7FFAF8886680
+        public void get_InvariantInfo(){} // RVA: 0x7FFAF8886700
+        public void GetInstance(){} // RVA: 0x7FFAF8886870
+        public void Clone(){} // RVA: 0x7FFAF8886A00
+        public void get_CurrencyDecimalDigits(){} // RVA: 0x7FFAF4B867F0
+        public void get_CurrencyDecimalSeparator(){} // RVA: 0x7FFAF2E2E0E0
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF3359980
+        public void get_CurrencyGroupSizes(){} // RVA: 0x7FFAF8886A70
+        public void get_NumberGroupSizes(){} // RVA: 0x7FFAF8886AF0
+        public void get_PercentGroupSizes(){} // RVA: 0x7FFAF8886B70
+        public void get_CurrencyGroupSeparator(){} // RVA: 0x7FFAF2E08730
+        public void get_CurrencySymbol(){} // RVA: 0x7FFAF2E55500
+        public void get_CurrentInfo(){} // RVA: 0x7FFAF8886BF0
+        public void get_NaNSymbol(){} // RVA: 0x7FFAF2E08D50
+        public void set_NaNSymbol(){} // RVA: 0x7FFAF8886D20
+        public void get_CurrencyNegativePattern(){} // RVA: 0x7FFAF4346340
+        public void get_NumberNegativePattern(){} // RVA: 0x7FFAF3618000
+        public void get_PercentPositivePattern(){} // RVA: 0x7FFAF304E510
+        public void get_PercentNegativePattern(){} // RVA: 0x7FFAF4759B60
+        public void get_NegativeInfinitySymbol(){} // RVA: 0x7FFAF2F77C50
+        public void get_NegativeSign(){} // RVA: 0x7FFAF30E74D0
+        public void get_NumberDecimalDigits(){} // RVA: 0x7FFAF66F9C20
+        public void get_NumberDecimalSeparator(){} // RVA: 0x7FFAF2F476A0
+        public void get_NumberGroupSeparator(){} // RVA: 0x7FFAF2E0A740
+        public void get_CurrencyPositivePattern(){} // RVA: 0x7FFAF68A1350
+        public void get_PositiveInfinitySymbol(){} // RVA: 0x7FFAF2E55590
+        public void get_PositiveSign(){} // RVA: 0x7FFAF2DBB130
+        public void get_PercentDecimalDigits(){} // RVA: 0x7FFAF34B02A0
+        public void get_PercentDecimalSeparator(){} // RVA: 0x7FFAF2F12D00
+        public void get_PercentGroupSeparator(){} // RVA: 0x7FFAF2DCC010
+        public void get_PercentSymbol(){} // RVA: 0x7FFAF3246DE0
+        public void get_PerMilleSymbol(){} // RVA: 0x7FFAF34CC8C0
+        public void GetFormat(){} // RVA: 0x7FFAF8886E50
+        public void ReadOnly(){} // RVA: 0x7FFAF8886F30
+        public void ValidateParseStyleInteger(){} // RVA: 0x7FFAF8887000
+        public void ValidateParseStyleFloatingPoint(){} // RVA: 0x7FFAF88870F0
     }
 
-    public class TextInfoToUpperData : Object
+    public class Punycode
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8692ABB0
+        public void .ctor(){} // RVA: 0x7FFAF88A4F80
     }
 
-    public class ThaiBuddhistCalendar : Calendar
+    public class RegionInfo
     {
-        public System.Globalization.EraInfo[] thaiBuddhistEraInfo;
-        public int ThaiBuddhistEra;
-        public System.Globalization.GregorianCalendarHelper helper; // 0x20
-        public int DEFAULT_TWO_DIGIT_YEAR_MAX;
-        public object field_4; // 0x746
-        public object field_5; // 0x747
-
         // ── Methods ──
-        public void get_MinSupportedDateTime(){} // RVA: 0x7FFE8691AD10
-        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFE8691AD70
-        public void get_AlgorithmType(){} // RVA: 0x7FFE811EDAF0
-        public void .ctor(){} // RVA: 0x7FFE8691ADD0
-        public void get_ID(){} // RVA: 0x7FFE817F39D0
-        public void AddMonths(){} // RVA: 0x7FFE86915FD0
-        public void AddYears(){} // RVA: 0x7FFE86915FF0
-        public void GetDaysInMonth(){} // RVA: 0x7FFE86916020
-        public void GetDaysInYear(){} // RVA: 0x7FFE86916050
-        public void GetDayOfMonth(){} // RVA: 0x7FFE86916070
-        public void GetDayOfWeek(){} // RVA: 0x7FFE86916090
-        public void GetDayOfYear(){} // RVA: 0x7FFE869160B0
-        public void GetMonthsInYear(){} // RVA: 0x7FFE869160D0
-        public void GetWeekOfYear(){} // RVA: 0x7FFE86916100
-        public void GetEra(){} // RVA: 0x7FFE86916130
-        public void GetMonth(){} // RVA: 0x7FFE86916150
-        public void GetYear(){} // RVA: 0x7FFE86916170
-        public void IsLeapDay(){} // RVA: 0x7FFE86916190
-        public void IsLeapYear(){} // RVA: 0x7FFE869161C0
-        public void GetLeapMonth(){} // RVA: 0x7FFE869161E0
-        public void IsLeapMonth(){} // RVA: 0x7FFE86916210
-        public void ToDateTime(){} // RVA: 0x7FFE86916240
-        public void get_Eras(){} // RVA: 0x7FFE86916420
-        public void get_TwoDigitYearMax(){} // RVA: 0x7FFE8691AED0
-        public void set_TwoDigitYearMax(){} // RVA: 0x7FFE8691AF50
-        public void ToFourDigitYear(){} // RVA: 0x7FFE8691B0A0
-        public void .cctor(){} // RVA: 0x7FFE8691B160
+        public void get_CurrentRegion(){} // RVA: 0x7FFAF88A4FC0
+        public void .ctor(){} // RVA: 0x7FFAF88A5460 | overloaded x3
+        public void GetByTerritory(){} // RVA: 0x7FFAF88A58F0
+        public void construct_internal_region_from_name(){} // RVA: 0x7FFAF88A59A0
+        public void get_CurrencyEnglishName(){} // RVA: 0x7FFAF2E2E0E0
+        public void get_CurrencySymbol(){} // RVA: 0x7FFAF2E0A740
+        public void get_DisplayName(){} // RVA: 0x7FFAF30E74D0
+        public void get_EnglishName(){} // RVA: 0x7FFAF30E74D0
+        public void get_GeoId(){} // RVA: 0x7FFAF2DDA5C0
+        public void get_IsMetric(){} // RVA: 0x7FFAF88A5B30
+        public void get_ISOCurrencySymbol(){} // RVA: 0x7FFAF2E08730
+        public void get_NativeName(){} // RVA: 0x7FFAF2F476A0
+        public void get_CurrencyNativeName(){} // RVA: 0x7FFAF2E55500
+        public void get_Name(){} // RVA: 0x7FFAF2D907C0
+        public void get_ThreeLetterISORegionName(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_ThreeLetterWindowsRegionName(){} // RVA: 0x7FFAF2DBB130
+        public void get_TwoLetterISORegionName(){} // RVA: 0x7FFAF2D907C0
+        public void Equals(){} // RVA: 0x7FFAF88A5C00
+        public void GetHashCode(){} // RVA: 0x7FFAF88A5D10
+        public void ToString(){} // RVA: 0x7FFAF88A5D50
+        public void ClearCachedData(){} // RVA: 0x7FFAF88A5D70
     }
 
-    public class TimeSpanFormat : Object
+    public class SortKey
     {
         // ── Methods ──
-        public void AppendNonNegativeInt32(){} // RVA: 0x7FFE868FE200
-        public void Format(){} // RVA: 0x7FFE868FE380
-        public void TryFormat(){} // RVA: 0x7FFE868FE480
-        public void FormatToBuilder(){} // RVA: 0x7FFE868FE580
-        public void FormatStandard(){} // RVA: 0x7FFE868FE8A0
-        public void FormatCustomized(){} // RVA: 0x7FFE868FEE90
-        public void .cctor(){} // RVA: 0x7FFE868FF6D0
+        public void Compare(){} // RVA: 0x7FFAF888C9C0
+        public void .ctor(){} // RVA: 0x7FFAF888D0B0 | overloaded x4
+        public void get_OriginalString(){} // RVA: 0x7FFAF2DA8380
+        public void get_KeyData(){} // RVA: 0x7FFAF2D907C0
+        public void Equals(){} // RVA: 0x7FFAF888CE50
+        public void GetHashCode(){} // RVA: 0x7FFAF888CF00
+        public void ToString(){} // RVA: 0x7FFAF888CF70
     }
 
-    public class TimeSpanParse : Object
+    public class SortVersion
     {
-        // ── Methods ──
-        public void Pow10(){} // RVA: 0x7FFE86900140
-        public void TryTimeToTicks(){} // RVA: 0x7FFE86900240
-        public void Parse(){} // RVA: 0x7FFE869003F0
-        public void TryParse(){} // RVA: 0x7FFE86900430
-        public void ParseExact(){} // RVA: 0x7FFE86900490
-        public void TryParseExact(){} // RVA: 0x7FFE869004E0
-        public void ParseExactMultiple(){} // RVA: 0x7FFE86900550
-        public void TryParseExactMultiple(){} // RVA: 0x7FFE86900590
-        public void TryParseTimeSpan(){} // RVA: 0x7FFE869005F0
-        public void ProcessTerminalState(){} // RVA: 0x7FFE86901790
-        public void ProcessTerminal_DHMSF(){} // RVA: 0x7FFE86901900
-        public void ProcessTerminal_HMS_F_D(){} // RVA: 0x7FFE86901D50
-        public void ProcessTerminal_HM_S_D(){} // RVA: 0x7FFE86903840
-        public void ProcessTerminal_HM(){} // RVA: 0x7FFE86904E60
-        public void ProcessTerminal_D(){} // RVA: 0x7FFE86905190
-        public void TryParseExactTimeSpan(){} // RVA: 0x7FFE869054A0
-        public void TryParseByFormat(){} // RVA: 0x7FFE86905640
-        public void ParseExactDigits(){} // RVA: 0x7FFE86906270 | overloaded x2
-        public void ParseExactLiteral(){} // RVA: 0x7FFE86906350
-        public void TryParseTimeSpanConstant(){} // RVA: 0x7FFE86906410
-        public void TryParseExactMultipleTimeSpan(){} // RVA: 0x7FFE86906450
     }
 
-    public class UmAlQuraCalendar : Calendar
+    public class TaiwanCalendar
     {
-        public DateMapping[] HijriYearInfo;
-        public System.DateTime minDate; // 0x8
-        public System.DateTime maxDate; // 0x10
-        public object field_3; // 0x74C
-        public object field_4; // 0x74D
-        public object field_5; // 0x74E
-        public object field_6; // 0x74F
-        public object field_7; // 0x750
-
         // ── Methods ──
-        public void InitDateMapping(){} // RVA: 0x7FFE8691B2D0
-        public void get_MinSupportedDateTime(){} // RVA: 0x7FFE8691B4B0
-        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFE8691B510
-        public void get_AlgorithmType(){} // RVA: 0x7FFE81200CB0
-        public void .ctor(){} // RVA: 0x7FFE869097D0
-        public void get_BaseCalendarID(){} // RVA: 0x7FFE81815210
-        public void get_ID(){} // RVA: 0x7FFE8178CF30
-        public void get_DaysInYearBeforeMinSupportedYear(){} // RVA: 0x7FFE8691B570
-        public void ConvertHijriToGregorian(){} // RVA: 0x7FFE8691B580
-        public void GetAbsoluteDateUmAlQura(){} // RVA: 0x7FFE8691B7F0
-        public void CheckTicksRange(){} // RVA: 0x7FFE8691B8C0
-        public void CheckEraRange(){} // RVA: 0x7FFE8691BB40
-        public void CheckYearRange(){} // RVA: 0x7FFE8691BBD0
-        public void CheckYearMonthRange(){} // RVA: 0x7FFE8691BD90
-        public void ConvertGregorianToHijri(){} // RVA: 0x7FFE8691BE70
-        public void GetDatePart(){} // RVA: 0x7FFE8691C290
-        public void AddMonths(){} // RVA: 0x7FFE8691C470
-        public void AddYears(){} // RVA: 0x7FFE8690EE60
-        public void GetDayOfMonth(){} // RVA: 0x7FFE8691C860
-        public void GetDayOfWeek(){} // RVA: 0x7FFE8691C880
-        public void GetDayOfYear(){} // RVA: 0x7FFE8691C940
-        public void GetDaysInMonth(){} // RVA: 0x7FFE8691C960
-        public void RealGetDaysInYear(){} // RVA: 0x7FFE8691CA20
-        public void GetDaysInYear(){} // RVA: 0x7FFE8691CAD0
-        public void GetEra(){} // RVA: 0x7FFE8691CB40
-        public void get_Eras(){} // RVA: 0x7FFE8691CC00
-        public void GetMonth(){} // RVA: 0x7FFE8691CC60
-        public void GetMonthsInYear(){} // RVA: 0x7FFE8691CC80
-        public void GetYear(){} // RVA: 0x7FFE8691CCF0
-        public void IsLeapDay(){} // RVA: 0x7FFE8691CD10
-        public void GetLeapMonth(){} // RVA: 0x7FFE8691CEB0
-        public void IsLeapMonth(){} // RVA: 0x7FFE8691CF10
-        public void IsLeapYear(){} // RVA: 0x7FFE8691CF80
-        public void ToDateTime(){} // RVA: 0x7FFE8691CFF0
-        public void get_TwoDigitYearMax(){} // RVA: 0x7FFE86915070
-        public void set_TwoDigitYearMax(){} // RVA: 0x7FFE8691D2C0
-        public void ToFourDigitYear(){} // RVA: 0x7FFE8691D3F0
-        public void .cctor(){} // RVA: 0x7FFE8691D590
+        public void GetDefaultInstance(){} // RVA: 0x7FFAF88871D0
+        public void get_MinSupportedDateTime(){} // RVA: 0x7FFAF8887310
+        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFAF8887370
+        public void get_AlgorithmType(){} // RVA: 0x7FFAF2E7FAF0
+        public void .ctor(){} // RVA: 0x7FFAF88873D0
+        public void get_ID(){} // RVA: 0x7FFAF352E130
+        public void AddMonths(){} // RVA: 0x7FFAF8885140
+        public void AddYears(){} // RVA: 0x7FFAF8885160
+        public void GetDaysInMonth(){} // RVA: 0x7FFAF8885190
+        public void GetDaysInYear(){} // RVA: 0x7FFAF88851C0
+        public void GetDayOfMonth(){} // RVA: 0x7FFAF88851E0
+        public void GetDayOfWeek(){} // RVA: 0x7FFAF8885200
+        public void GetDayOfYear(){} // RVA: 0x7FFAF8885220
+        public void GetMonthsInYear(){} // RVA: 0x7FFAF8885240
+        public void GetWeekOfYear(){} // RVA: 0x7FFAF8885270
+        public void GetEra(){} // RVA: 0x7FFAF88852A0
+        public void GetMonth(){} // RVA: 0x7FFAF88852C0
+        public void GetYear(){} // RVA: 0x7FFAF88852E0
+        public void IsLeapDay(){} // RVA: 0x7FFAF8885300
+        public void IsLeapYear(){} // RVA: 0x7FFAF8885330
+        public void GetLeapMonth(){} // RVA: 0x7FFAF8885350
+        public void IsLeapMonth(){} // RVA: 0x7FFAF8885380
+        public void ToDateTime(){} // RVA: 0x7FFAF88853B0
+        public void get_Eras(){} // RVA: 0x7FFAF8885590
+        public void get_TwoDigitYearMax(){} // RVA: 0x7FFAF8885800
+        public void set_TwoDigitYearMax(){} // RVA: 0x7FFAF88875A0
+        public void ToFourDigitYear(){} // RVA: 0x7FFAF88876F0
+        public void .cctor(){} // RVA: 0x7FFAF88878A0
+    }
+
+    public class TextInfo
+    {
+        // ── Methods ──
+        public void get_Invariant(){} // RVA: 0x7FFAF8887A60
+        public void .ctor(){} // RVA: 0x7FFAF8889E50 | overloaded x2
+        public void OnDeserializing(){} // RVA: 0x7FFAF8887C90
+        public void OnDeserialized(){} // RVA: 0x7FFAF8887F00 | overloaded x2
+        public void OnSerializing(){} // RVA: 0x7FFAF8887F10
+        public void get_CultureName(){} // RVA: 0x7FFAF30E74D0
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2DA84E0
+        public void Clone(){} // RVA: 0x7FFAF8887FF0
+        public void ReadOnly(){} // RVA: 0x7FFAF8888070
+        public void SetReadOnlyState(){} // RVA: 0x7FFAF2DA84F0
+        public void get_ListSeparator(){} // RVA: 0x7FFAF8888160
+        public void ToLower(){} // RVA: 0x7FFAF8888240 | overloaded x2
+        public void ToLowerAsciiInvariant(){} // RVA: 0x7FFAF8888370
+        public void ToUpper(){} // RVA: 0x7FFAF88883F0 | overloaded x2
+        public void ToUpperAsciiInvariant(){} // RVA: 0x7FFAF8889C70 | overloaded x2
+        public void IsAscii(){} // RVA: 0x7FFAF8888540
+        public void get_IsAsciiCasingSameAsInvariant(){} // RVA: 0x7FFAF8888550
+        public void Equals(){} // RVA: 0x7FFAF88886A0
+        public void GetHashCode(){} // RVA: 0x7FFAF8888780
+        public void ToString(){} // RVA: 0x7FFAF88887B0
+        public void ToTitleCase(){} // RVA: 0x7FFAF8888810
+        public void AddNonLetter(){} // RVA: 0x7FFAF8888CE0
+        public void AddTitlecaseLetter(){} // RVA: 0x7FFAF8888DA0
+        public void IsWordSeparator(){} // RVA: 0x7FFAF8888FC0
+        public void IsLetterCategory(){} // RVA: 0x7FFAF8888FD0
+        public void get_IsRightToLeft(){} // RVA: 0x7FFAF8888FE0
+        public void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(){} // RVA: 0x7FFAF8887F00
+        public void ToUpperInternal(){} // RVA: 0x7FFAF88891C0 | overloaded x2
+        public void ToLowerInternal(){} // RVA: 0x7FFAF8889790 | overloaded x2
+        public void ChangeCase(){} // RVA: 0x7FFAF8889D20
+    }
+
+    public class TextInfoToLowerData
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF889A280
+    }
+
+    public class TextInfoToUpperData
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF8899D20
+    }
+
+    public class ThaiBuddhistCalendar
+    {
+        // ── Methods ──
+        public void get_MinSupportedDateTime(){} // RVA: 0x7FFAF8889E80
+        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFAF8889EE0
+        public void get_AlgorithmType(){} // RVA: 0x7FFAF2E7FAF0
+        public void .ctor(){} // RVA: 0x7FFAF8889F40
+        public void get_ID(){} // RVA: 0x7FFAF3517BB0
+        public void AddMonths(){} // RVA: 0x7FFAF8885140
+        public void AddYears(){} // RVA: 0x7FFAF8885160
+        public void GetDaysInMonth(){} // RVA: 0x7FFAF8885190
+        public void GetDaysInYear(){} // RVA: 0x7FFAF88851C0
+        public void GetDayOfMonth(){} // RVA: 0x7FFAF88851E0
+        public void GetDayOfWeek(){} // RVA: 0x7FFAF8885200
+        public void GetDayOfYear(){} // RVA: 0x7FFAF8885220
+        public void GetMonthsInYear(){} // RVA: 0x7FFAF8885240
+        public void GetWeekOfYear(){} // RVA: 0x7FFAF8885270
+        public void GetEra(){} // RVA: 0x7FFAF88852A0
+        public void GetMonth(){} // RVA: 0x7FFAF88852C0
+        public void GetYear(){} // RVA: 0x7FFAF88852E0
+        public void IsLeapDay(){} // RVA: 0x7FFAF8885300
+        public void IsLeapYear(){} // RVA: 0x7FFAF8885330
+        public void GetLeapMonth(){} // RVA: 0x7FFAF8885350
+        public void IsLeapMonth(){} // RVA: 0x7FFAF8885380
+        public void ToDateTime(){} // RVA: 0x7FFAF88853B0
+        public void get_Eras(){} // RVA: 0x7FFAF8885590
+        public void get_TwoDigitYearMax(){} // RVA: 0x7FFAF888A040
+        public void set_TwoDigitYearMax(){} // RVA: 0x7FFAF888A0C0
+        public void ToFourDigitYear(){} // RVA: 0x7FFAF888A210
+        public void .cctor(){} // RVA: 0x7FFAF888A2D0
+    }
+
+    public class TimeSpanFormat
+    {
+        // ── Methods ──
+        public void AppendNonNegativeInt32(){} // RVA: 0x7FFAF886D370
+        public void Format(){} // RVA: 0x7FFAF886D4F0
+        public void TryFormat(){} // RVA: 0x7FFAF886D5F0
+        public void FormatToBuilder(){} // RVA: 0x7FFAF886D6F0
+        public void FormatStandard(){} // RVA: 0x7FFAF886DA10
+        public void FormatCustomized(){} // RVA: 0x7FFAF886E000
+        public void .cctor(){} // RVA: 0x7FFAF886E840
+    }
+
+    public class TimeSpanParse
+    {
+        // ── Methods ──
+        public void Pow10(){} // RVA: 0x7FFAF886F2B0
+        public void TryTimeToTicks(){} // RVA: 0x7FFAF886F3B0
+        public void Parse(){} // RVA: 0x7FFAF886F560
+        public void TryParse(){} // RVA: 0x7FFAF886F5A0
+        public void ParseExact(){} // RVA: 0x7FFAF886F600
+        public void TryParseExact(){} // RVA: 0x7FFAF886F650
+        public void ParseExactMultiple(){} // RVA: 0x7FFAF886F6C0
+        public void TryParseExactMultiple(){} // RVA: 0x7FFAF886F700
+        public void TryParseTimeSpan(){} // RVA: 0x7FFAF886F760
+        public void ProcessTerminalState(){} // RVA: 0x7FFAF8870900
+        public void ProcessTerminal_DHMSF(){} // RVA: 0x7FFAF8870A70
+        public void ProcessTerminal_HMS_F_D(){} // RVA: 0x7FFAF8870EC0
+        public void ProcessTerminal_HM_S_D(){} // RVA: 0x7FFAF88729B0
+        public void ProcessTerminal_HM(){} // RVA: 0x7FFAF8873FD0
+        public void ProcessTerminal_D(){} // RVA: 0x7FFAF8874300
+        public void TryParseExactTimeSpan(){} // RVA: 0x7FFAF8874610
+        public void TryParseByFormat(){} // RVA: 0x7FFAF88747B0
+        public void ParseExactDigits(){} // RVA: 0x7FFAF88753E0 | overloaded x2
+        public void ParseExactLiteral(){} // RVA: 0x7FFAF88754C0
+        public void TryParseTimeSpanConstant(){} // RVA: 0x7FFAF8875580
+        public void TryParseExactMultipleTimeSpan(){} // RVA: 0x7FFAF88755C0
+    }
+
+    public class UmAlQuraCalendar
+    {
+        // ── Methods ──
+        public void InitDateMapping(){} // RVA: 0x7FFAF888A440
+        public void get_MinSupportedDateTime(){} // RVA: 0x7FFAF888A620
+        public void get_MaxSupportedDateTime(){} // RVA: 0x7FFAF888A680
+        public void get_AlgorithmType(){} // RVA: 0x7FFAF2E92CB0
+        public void .ctor(){} // RVA: 0x7FFAF8878940
+        public void get_BaseCalendarID(){} // RVA: 0x7FFAF35350E0
+        public void get_ID(){} // RVA: 0x7FFAF34AD990
+        public void get_DaysInYearBeforeMinSupportedYear(){} // RVA: 0x7FFAF888A6E0
+        public void ConvertHijriToGregorian(){} // RVA: 0x7FFAF888A6F0
+        public void GetAbsoluteDateUmAlQura(){} // RVA: 0x7FFAF888A960
+        public void CheckTicksRange(){} // RVA: 0x7FFAF888AA30
+        public void CheckEraRange(){} // RVA: 0x7FFAF888ACB0
+        public void CheckYearRange(){} // RVA: 0x7FFAF888AD40
+        public void CheckYearMonthRange(){} // RVA: 0x7FFAF888AF00
+        public void ConvertGregorianToHijri(){} // RVA: 0x7FFAF888AFE0
+        public void GetDatePart(){} // RVA: 0x7FFAF888B400
+        public void AddMonths(){} // RVA: 0x7FFAF888B5E0
+        public void AddYears(){} // RVA: 0x7FFAF887DFD0
+        public void GetDayOfMonth(){} // RVA: 0x7FFAF888B9D0
+        public void GetDayOfWeek(){} // RVA: 0x7FFAF888B9F0
+        public void GetDayOfYear(){} // RVA: 0x7FFAF888BAB0
+        public void GetDaysInMonth(){} // RVA: 0x7FFAF888BAD0
+        public void RealGetDaysInYear(){} // RVA: 0x7FFAF888BB90
+        public void GetDaysInYear(){} // RVA: 0x7FFAF888BC40
+        public void GetEra(){} // RVA: 0x7FFAF888BCB0
+        public void get_Eras(){} // RVA: 0x7FFAF888BD70
+        public void GetMonth(){} // RVA: 0x7FFAF888BDD0
+        public void GetMonthsInYear(){} // RVA: 0x7FFAF888BDF0
+        public void GetYear(){} // RVA: 0x7FFAF888BE60
+        public void IsLeapDay(){} // RVA: 0x7FFAF888BE80
+        public void GetLeapMonth(){} // RVA: 0x7FFAF888C020
+        public void IsLeapMonth(){} // RVA: 0x7FFAF888C080
+        public void IsLeapYear(){} // RVA: 0x7FFAF888C0F0
+        public void ToDateTime(){} // RVA: 0x7FFAF888C160
+        public void get_TwoDigitYearMax(){} // RVA: 0x7FFAF88841E0
+        public void set_TwoDigitYearMax(){} // RVA: 0x7FFAF888C430
+        public void ToFourDigitYear(){} // RVA: 0x7FFAF888C560
+        public void .cctor(){} // RVA: 0x7FFAF888C700
     }
 
 }

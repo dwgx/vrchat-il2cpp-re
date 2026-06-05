@@ -1,0 +1,46 @@
+[
+  {
+    "namespace": "VRC.UI.Elements.HelperMethods",
+    "class": "UIConfirmDialog",
+    "parent": "",
+    "known_methods": [
+      "InternalEquals",
+      "DefaultEquals",
+      "InternalGetHashCode",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_240"
+    ],
+    "all_method_count": 7
+  },
+  {
+    "namespace": "VRC.UI.Core.Styles",
+    "class": "StyleClass",
+    "parent": "",
+    "known_methods": [
+      "Initialize",
+      "OnPointerClick",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_477"
+    ],
+    "all_method_count": 10
+  },
+  {
+    "namespace": "VRC.PersonalMirror",
+    "class": "Edges",
+    "parent": "",
+    "known_methods": [
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2A4"
+    ],
+    "all_method_count": 8
+  }
+]

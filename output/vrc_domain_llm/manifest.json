@@ -1,0 +1,623 @@
+{
+  "generated_at": "2026-06-05T09:00:22",
+  "batch_size": 3,
+  "selected_classes": 93,
+  "selected_prompt_items": 154,
+  "selected_hash_methods": 2267,
+  "batches": [
+    {
+      "batch_id": 0,
+      "file": "batch_000.json",
+      "class_count": 3,
+      "hash_methods": 28
+    },
+    {
+      "batch_id": 1,
+      "file": "batch_001.json",
+      "class_count": 3,
+      "hash_methods": 62
+    },
+    {
+      "batch_id": 2,
+      "file": "batch_002.json",
+      "class_count": 3,
+      "hash_methods": 75
+    },
+    {
+      "batch_id": 3,
+      "file": "batch_003.json",
+      "class_count": 3,
+      "hash_methods": 54
+    },
+    {
+      "batch_id": 4,
+      "file": "batch_004.json",
+      "class_count": 3,
+      "hash_methods": 58
+    },
+    {
+      "batch_id": 5,
+      "file": "batch_005.json",
+      "class_count": 3,
+      "hash_methods": 56
+    },
+    {
+      "batch_id": 6,
+      "file": "batch_006.json",
+      "class_count": 3,
+      "hash_methods": 31
+    },
+    {
+      "batch_id": 7,
+      "file": "batch_007.json",
+      "class_count": 3,
+      "hash_methods": 48
+    },
+    {
+      "batch_id": 8,
+      "file": "batch_008.json",
+      "class_count": 3,
+      "hash_methods": 46
+    },
+    {
+      "batch_id": 9,
+      "file": "batch_009.json",
+      "class_count": 3,
+      "hash_methods": 20
+    },
+    {
+      "batch_id": 10,
+      "file": "batch_010.json",
+      "class_count": 3,
+      "hash_methods": 11
+    },
+    {
+      "batch_id": 11,
+      "file": "batch_011.json",
+      "class_count": 3,
+      "hash_methods": 29
+    },
+    {
+      "batch_id": 12,
+      "file": "batch_012.json",
+      "class_count": 3,
+      "hash_methods": 22
+    },
+    {
+      "batch_id": 13,
+      "file": "batch_013.json",
+      "class_count": 3,
+      "hash_methods": 24
+    },
+    {
+      "batch_id": 14,
+      "file": "batch_014.json",
+      "class_count": 3,
+      "hash_methods": 15
+    },
+    {
+      "batch_id": 15,
+      "file": "batch_015.json",
+      "class_count": 3,
+      "hash_methods": 15
+    },
+    {
+      "batch_id": 16,
+      "file": "batch_016.json",
+      "class_count": 3,
+      "hash_methods": 15
+    },
+    {
+      "batch_id": 17,
+      "file": "batch_017.json",
+      "class_count": 3,
+      "hash_methods": 9
+    },
+    {
+      "batch_id": 18,
+      "file": "batch_018.json",
+      "class_count": 3,
+      "hash_methods": 9
+    },
+    {
+      "batch_id": 19,
+      "file": "batch_019.json",
+      "class_count": 3,
+      "hash_methods": 15
+    },
+    {
+      "batch_id": 20,
+      "file": "batch_020.json",
+      "class_count": 3,
+      "hash_methods": 12
+    },
+    {
+      "batch_id": 21,
+      "file": "batch_021.json",
+      "class_count": 3,
+      "hash_methods": 6
+    },
+    {
+      "batch_id": 22,
+      "file": "batch_022.json",
+      "class_count": 3,
+      "hash_methods": 3
+    },
+    {
+      "batch_id": 23,
+      "file": "batch_023.json",
+      "class_count": 3,
+      "hash_methods": 4
+    },
+    {
+      "batch_id": 24,
+      "file": "batch_024.json",
+      "class_count": 3,
+      "hash_methods": 3
+    },
+    {
+      "batch_id": 25,
+      "file": "batch_025.json",
+      "class_count": 3,
+      "hash_methods": 51
+    },
+    {
+      "batch_id": 26,
+      "file": "batch_026.json",
+      "class_count": 3,
+      "hash_methods": 73
+    },
+    {
+      "batch_id": 27,
+      "file": "batch_027.json",
+      "class_count": 3,
+      "hash_methods": 75
+    },
+    {
+      "batch_id": 28,
+      "file": "batch_028.json",
+      "class_count": 3,
+      "hash_methods": 52
+    },
+    {
+      "batch_id": 29,
+      "file": "batch_029.json",
+      "class_count": 3,
+      "hash_methods": 57
+    },
+    {
+      "batch_id": 30,
+      "file": "batch_030.json",
+      "class_count": 3,
+      "hash_methods": 75
+    },
+    {
+      "batch_id": 31,
+      "file": "batch_031.json",
+      "class_count": 3,
+      "hash_methods": 67
+    },
+    {
+      "batch_id": 32,
+      "file": "batch_032.json",
+      "class_count": 3,
+      "hash_methods": 64
+    },
+    {
+      "batch_id": 33,
+      "file": "batch_033.json",
+      "class_count": 3,
+      "hash_methods": 55
+    },
+    {
+      "batch_id": 34,
+      "file": "batch_034.json",
+      "class_count": 3,
+      "hash_methods": 51
+    },
+    {
+      "batch_id": 35,
+      "file": "batch_035.json",
+      "class_count": 3,
+      "hash_methods": 64
+    },
+    {
+      "batch_id": 36,
+      "file": "batch_036.json",
+      "class_count": 3,
+      "hash_methods": 68
+    },
+    {
+      "batch_id": 37,
+      "file": "batch_037.json",
+      "class_count": 3,
+      "hash_methods": 58
+    },
+    {
+      "batch_id": 38,
+      "file": "batch_038.json",
+      "class_count": 3,
+      "hash_methods": 57
+    },
+    {
+      "batch_id": 39,
+      "file": "batch_039.json",
+      "class_count": 3,
+      "hash_methods": 62
+    },
+    {
+      "batch_id": 40,
+      "file": "batch_040.json",
+      "class_count": 3,
+      "hash_methods": 72
+    },
+    {
+      "batch_id": 41,
+      "file": "batch_041.json",
+      "class_count": 3,
+      "hash_methods": 73
+    },
+    {
+      "batch_id": 42,
+      "file": "batch_042.json",
+      "class_count": 3,
+      "hash_methods": 73
+    },
+    {
+      "batch_id": 43,
+      "file": "batch_043.json",
+      "class_count": 3,
+      "hash_methods": 74
+    },
+    {
+      "batch_id": 44,
+      "file": "batch_044.json",
+      "class_count": 3,
+      "hash_methods": 31
+    },
+    {
+      "batch_id": 45,
+      "file": "batch_045.json",
+      "class_count": 3,
+      "hash_methods": 56
+    },
+    {
+      "batch_id": 46,
+      "file": "batch_046.json",
+      "class_count": 3,
+      "hash_methods": 63
+    },
+    {
+      "batch_id": 47,
+      "file": "batch_047.json",
+      "class_count": 3,
+      "hash_methods": 56
+    },
+    {
+      "batch_id": 48,
+      "file": "batch_048.json",
+      "class_count": 3,
+      "hash_methods": 62
+    },
+    {
+      "batch_id": 49,
+      "file": "batch_049.json",
+      "class_count": 3,
+      "hash_methods": 48
+    },
+    {
+      "batch_id": 50,
+      "file": "batch_050.json",
+      "class_count": 3,
+      "hash_methods": 59
+    },
+    {
+      "batch_id": 51,
+      "file": "batch_051.json",
+      "class_count": 1,
+      "hash_methods": 1
+    }
+  ],
+  "top_classes": [
+    {
+      "namespace": "",
+      "class": "NetworkManager_216D",
+      "hash_methods": 1,
+      "known_methods": 233
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayer_F618",
+      "hash_methods": 2,
+      "known_methods": 217
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_95B8",
+      "hash_methods": 25,
+      "known_methods": 2
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_95B8",
+      "hash_methods": 25,
+      "known_methods": 2
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_95B8",
+      "hash_methods": 25,
+      "known_methods": 2
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_95B8",
+      "hash_methods": 12,
+      "known_methods": 2
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_BF8C",
+      "hash_methods": 25,
+      "known_methods": 5
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_BF8C",
+      "hash_methods": 25,
+      "known_methods": 5
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_BF8C",
+      "hash_methods": 25,
+      "known_methods": 5
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_BF8C",
+      "hash_methods": 4,
+      "known_methods": 5
+    },
+    {
+      "namespace": "",
+      "class": "PlayerNet",
+      "hash_methods": 25,
+      "known_methods": 57
+    },
+    {
+      "namespace": "",
+      "class": "PlayerNet",
+      "hash_methods": 25,
+      "known_methods": 57
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_B5F1",
+      "hash_methods": 25,
+      "known_methods": 6
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_B5F1",
+      "hash_methods": 25,
+      "known_methods": 6
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_B5F1",
+      "hash_methods": 8,
+      "known_methods": 6
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_40F1",
+      "hash_methods": 25,
+      "known_methods": 5
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_40F1",
+      "hash_methods": 25,
+      "known_methods": 5
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_40F1",
+      "hash_methods": 6,
+      "known_methods": 5
+    },
+    {
+      "namespace": "",
+      "class": "PlayerNet_7B7C",
+      "hash_methods": 4,
+      "known_methods": 105
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSiblingSibling_6422",
+      "hash_methods": 25,
+      "known_methods": 2
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSiblingSibling_6422",
+      "hash_methods": 2,
+      "known_methods": 2
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_2549",
+      "hash_methods": 25,
+      "known_methods": 2
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_2549",
+      "hash_methods": 1,
+      "known_methods": 2
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_26E5",
+      "hash_methods": 22,
+      "known_methods": 2
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_1A7B",
+      "hash_methods": 18,
+      "known_methods": 6
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_018B",
+      "hash_methods": 18,
+      "known_methods": 1
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_01A2",
+      "hash_methods": 10,
+      "known_methods": 1
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSibling_9CA1",
+      "hash_methods": 10,
+      "known_methods": 1
+    },
+    {
+      "namespace": "",
+      "class": "VRCPlayerSiblingSibling_A57F",
+      "hash_methods": 7,
+      "known_methods": 1
+    },
+    {
+      "namespace": "",
+      "class": "PlayerNetSibling_FEC9",
+      "hash_methods": 3,
+      "known_methods": 2
+    },
+    {
+      "namespace": "VRC.DataModel",
+      "class": "SearchInFieldsWorld",
+      "hash_methods": 7,
+      "known_methods": 3
+    },
+    {
+      "namespace": "VRC.SDK3.Internal",
+      "class": "VRCAvatarsInternal",
+      "hash_methods": 1,
+      "known_methods": 4
+    },
+    {
+      "namespace": "VRC.UI.Core.Styles",
+      "class": "StyleElement",
+      "hash_methods": 3,
+      "known_methods": 48
+    },
+    {
+      "namespace": "VRC.Audio.Voice",
+      "class": "VoicePriorityManager",
+      "hash_methods": 18,
+      "known_methods": 3
+    },
+    {
+      "namespace": "VRC.UI.Client.Emoji",
+      "class": "EmojiData",
+      "hash_methods": 1,
+      "known_methods": 34
+    },
+    {
+      "namespace": "VRC.DataModel",
+      "class": "SearchParameters",
+      "hash_methods": 10,
+      "known_methods": 8
+    },
+    {
+      "namespace": "VRC.Audio.Voice",
+      "class": "MicrophoneManager",
+      "hash_methods": 12,
+      "known_methods": 3
+    },
+    {
+      "namespace": "VRC.Localization",
+      "class": "LocalizationManager",
+      "hash_methods": 1,
+      "known_methods": 21
+    },
+    {
+      "namespace": "VRC.DataModel",
+      "class": "CalendarSearchFilters",
+      "hash_methods": 9,
+      "known_methods": 2
+    },
+    {
+      "namespace": "VRC.UI.Core",
+      "class": "UIElement",
+      "hash_methods": 8,
+      "known_methods": 4
+    },
+    {
+      "namespace": "VRC.UI.Elements.HelperMethods",
+      "class": "UIAlert",
+      "hash_methods": 9,
+      "known_methods": 1
+    },
+    {
+      "namespace": "VRC.UI.Client.IPS",
+      "class": "IpsProvidedContentLoader`2",
+      "hash_methods": 7,
+      "known_methods": 4
+    },
+    {
+      "namespace": "VRC.UI.Elements.Menus",
+      "class": "ListContentView`1",
+      "hash_methods": 5,
+      "known_methods": 8
+    },
+    {
+      "namespace": "VRC.UI.Elements.Menus",
+      "class": "ListContentView`1",
+      "hash_methods": 5,
+      "known_methods": 8
+    },
+    {
+      "namespace": "VRC.UI.Elements.Menus",
+      "class": "ListContentView`1",
+      "hash_methods": 5,
+      "known_methods": 8
+    },
+    {
+      "namespace": "VRC.UI.Elements.Menus",
+      "class": "ListContentView`1",
+      "hash_methods": 5,
+      "known_methods": 8
+    },
+    {
+      "namespace": "VRC.UI.Elements.Menus",
+      "class": "ListContentView`1",
+      "hash_methods": 5,
+      "known_methods": 8
+    },
+    {
+      "namespace": "VRC.UI.Elements.Menus",
+      "class": "ListContentView`1",
+      "hash_methods": 5,
+      "known_methods": 8
+    },
+    {
+      "namespace": "VRC.UI.Elements.Menus",
+      "class": "ListContentView`1",
+      "hash_methods": 5,
+      "known_methods": 8
+    },
+    {
+      "namespace": "VRC.UI.Elements.Menus",
+      "class": "ListContentView`1",
+      "hash_methods": 5,
+      "known_methods": 8
+    }
+  ]
+}

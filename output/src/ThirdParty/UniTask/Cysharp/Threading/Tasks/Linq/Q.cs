@@ -5,10 +5,10 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class QueueOperator`1 : Object
+    public class QueueOperator`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
         public void GetAsyncEnumerator(){}
     }
 

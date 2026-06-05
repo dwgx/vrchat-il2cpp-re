@@ -5,39 +5,34 @@
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class CachingEventHandler : MulticastDelegate
+    public class CachingEventHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8117B190
-        public void Invoke(){} // RVA: 0x7FFE81156C60
+        public void .ctor(){} // RVA: 0x7FFAF2E0D190
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
     }
 
-    public class CharEntityEncoderFallback : EncoderFallback
+    public class CharEntityEncoderFallback
     {
-        public System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer; // 0x10
-        public int[] textContentMarks; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void CreateFallbackBuffer(){} // RVA: 0x7FFE8743D360
-        public void get_MaxCharCount(){} // RVA: 0x7FFE835C1DE0
-        public void set_StartOffset(){} // RVA: 0x7FFE817E4800
-        public void Reset(){} // RVA: 0x7FFE8743D500
-        public void CanReplaceAt(){} // RVA: 0x7FFE8743D570
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void CreateFallbackBuffer(){} // RVA: 0x7FFAF93AE090
+        public void get_MaxCharCount(){} // RVA: 0x7FFAF4BBE2A0
+        public void set_StartOffset(){} // RVA: 0x7FFAF3503440
+        public void Reset(){} // RVA: 0x7FFAF93AE230
+        public void CanReplaceAt(){} // RVA: 0x7FFAF93AE2A0
     }
 
-    public class CharEntityEncoderFallbackBuffer : EncoderFallbackBuffer
+    public class CharEntityEncoderFallbackBuffer
     {
-        public System.Xml.CharEntityEncoderFallback parent; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8743D5D0
-        public void Fallback(){} // RVA: 0x7FFE8743D9D0 | overloaded x2
-        public void GetNextChar(){} // RVA: 0x7FFE8743DD90
-        public void MovePrevious(){} // RVA: 0x7FFE8743DE00
-        public void get_Remaining(){} // RVA: 0x7FFE8743DE20
-        public void Reset(){} // RVA: 0x7FFE8743DE50
-        public void SurrogateCharToUtf32(){} // RVA: 0x7FFE8743DE60
+        public void .ctor(){} // RVA: 0x7FFAF93AE300
+        public void Fallback(){} // RVA: 0x7FFAF93AE700 | overloaded x2
+        public void GetNextChar(){} // RVA: 0x7FFAF93AEAC0
+        public void MovePrevious(){} // RVA: 0x7FFAF93AEB30
+        public void get_Remaining(){} // RVA: 0x7FFAF93AEB50
+        public void Reset(){} // RVA: 0x7FFAF93AEB80
+        public void SurrogateCharToUtf32(){} // RVA: 0x7FFAF93AEB90
     }
 
 }

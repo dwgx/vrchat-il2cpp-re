@@ -1,0 +1,112 @@
+[
+  {
+    "class": "PlayerMoveNext_B7F0",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_Current",
+      "System.Collections.IEnumerator.get_Current",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "Dispose",
+      "MoveNext",
+      "System.IDisposable.Dispose",
+      "System.Collections.IEnumerator.Reset"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_333",
+      "m_DB7"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 13,
+    "signal_score": 77
+  },
+  {
+    "class": "PlayerMoveNext_BC00",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "System.Collections.IEnumerator.get_Current",
+      "MoveNext",
+      "System.Collections.IEnumerator.Reset",
+      "get_Current",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "System.IDisposable.Dispose",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4F6",
+      "m_45D"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 13,
+    "signal_score": 77
+  },
+  {
+    "class": "PlayerMoveNext_BFFC",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_Current",
+      "Dispose",
+      "MoveNext",
+      "System.IDisposable.Dispose",
+      "System.Collections.IEnumerator.get_Current",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "System.Collections.IEnumerator.Reset"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3B7",
+      "m_F60"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 13,
+    "signal_score": 77
+  },
+  {
+    "class": "PlayerMoveNext_C032",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_Current",
+      "MoveNext",
+      "Dispose",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "System.IDisposable.Dispose",
+      "System.Collections.IEnumerator.Reset",
+      "System.Collections.IEnumerator.get_Current"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BFC",
+      "m_12E"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 13,
+    "signal_score": 77
+  },
+  {
+    "class": "PlayerMoveNext_C429",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "System.Collections.IEnumerator.get_Current",
+      "get_Current",
+      "System.IDisposable.Dispose",
+      "MoveNext",
+      "Dispose",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "System.Collections.IEnumerator.Reset"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1AD",
+      "m_668"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 14,
+    "signal_score": 77
+  }
+]

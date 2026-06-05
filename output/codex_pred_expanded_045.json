@@ -1,0 +1,20 @@
+{
+  "PlayerMoveNext_26C5::m_D23": "MoveNext",
+  "PlayerMoveNext_26C5::m_9B7": "Reset",
+  "PlayerMoveNext_26C5::m_63A": "get_Current",
+  "PlayerMoveNext_2778::m_DB9": "MoveNext",
+  "PlayerMoveNext_2778::m_E82": "Reset",
+  "PlayerMoveNext_2778::m_4E7": "get_Current",
+  "PlayerMoveNext_9BCA::m_557": "MoveNext",
+  "PlayerMoveNext_9BCA::m_D23": "Reset",
+  "PlayerMoveNext_9BCA::m_1AD": "get_Current",
+  "PlayerMoveNext_A77C::m_644": "MoveNext",
+  "PlayerMoveNext_A77C::m_16A": "Reset",
+  "PlayerMoveNext_A77C::m_DB3": "get_Current",
+  "PlayerMoveNext_DC94::m_1AD": "MoveNext",
+  "PlayerMoveNext_DC94::m_DB7": "Reset",
+  "PlayerMoveNext_DC94::m_333": "get_Current",
+  "EffectBundleIDIsSpecialFX_89FA::m_8E0": "get_EffectBundleID",
+  "EffectBundleIDIsSpecialFX_89FA::m_1CA": "get_IsSpecialFX",
+  "gameObject_FC6F::m_537": "get_gameObject"
+}

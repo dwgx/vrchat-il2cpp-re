@@ -1,0 +1,11 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_466": "GetPropertyCandidates",
+ "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_482": "GetConstructorCandidates",
+ "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_58C": "AddFromToForce",
+ "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_59C": "GetPropertyCandidates",
+ "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_66D": "GetPropertyCandidates",
+ "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_77C": "MakeArrayType",
+ "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_AB9": "GetMethodCandidates",
+ "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_AC3": "GetFieldCandidates",
+ "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_C1E": "AddFromToForce"
+}

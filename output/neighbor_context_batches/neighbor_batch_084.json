@@ -1,0 +1,131 @@
+[
+  {
+    "class": "UserRoomRectComponent_F0A4",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E2F",
+      "m_752",
+      "m_43A",
+      "m_DBA",
+      "m_D85",
+      "m_544",
+      "m_D1C"
+    ],
+    "remaining_hash_methods": 7,
+    "total_methods": 20,
+    "signal_score": 77
+  },
+  {
+    "class": "PlayerIsInteractivePickupUseDown_3AE2",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnPickupUseDown",
+      "OnDrop",
+      "OnPickup",
+      "set_IsInteractive",
+      "get_IsInteractive",
+      "Interact"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_10E",
+      "m_ED4",
+      "m_61B",
+      "m_C77",
+      "m_365",
+      "m_FFF"
+    ],
+    "remaining_hash_methods": 6,
+    "total_methods": 16,
+    "signal_score": 77
+  },
+  {
+    "class": "VRCPlayerSiblingSibling_26E5",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      ".cctor",
+      ".ctor",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3F1",
+      "m_70B",
+      "m_B98",
+      "m_E2F",
+      "m_852",
+      "m_018",
+      "m_A6E",
+      "m_21C",
+      "m_D57",
+      "m_385",
+      "m_D00",
+      "m_849"
+    ],
+    "remaining_hash_methods": 22,
+    "total_methods": 25,
+    "signal_score": 77
+  },
+  {
+    "class": "VRC_MainSibling_7D1C",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Dispose",
+      ".ctor",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_94A",
+      "m_39C",
+      "m_947",
+      "m_417",
+      "m_594",
+      "m_0F2",
+      "m_6AF",
+      "m_C58",
+      "m_5AE",
+      "m_9BD",
+      "m_AB3",
+      "m_211"
+    ],
+    "remaining_hash_methods": 22,
+    "total_methods": 26,
+    "signal_score": 77
+  },
+  {
+    "class": "UIObservableList_5B1E_1CDF",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "IndexOf",
+      "set_ObservableList",
+      "CreateObservableListEvent",
+      "get_ObservableList",
+      "Remove",
+      "Clear",
+      "Contains"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BC0",
+      "m_24A"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 15,
+    "signal_score": 76
+  }
+]

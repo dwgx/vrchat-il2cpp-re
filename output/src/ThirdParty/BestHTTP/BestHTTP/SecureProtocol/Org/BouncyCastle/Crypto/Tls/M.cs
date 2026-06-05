@@ -5,17 +5,17 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls
 {
-    public class MacAlgorithm : Object
+    public class MacAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class MaxFragmentLength : Object
+    public class MaxFragmentLength
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x7FFE89F910B0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void IsValid(){} // RVA: 0x7FFAFBFDECE0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

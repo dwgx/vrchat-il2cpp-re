@@ -5,13 +5,13 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class LogCallback : MulticastDelegate
+    public class LogCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE812572A0
-        public void Invoke(){} // RVA: 0x7FFE81257370
-        public void BeginInvoke(){} // RVA: 0x7FFE86FB9650
-        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+        public void .ctor(){} // RVA: 0x7FFAF2EE92A0
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
+        public void BeginInvoke(){} // RVA: 0x7FFAF8F2A580
+        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
     }
 
 }

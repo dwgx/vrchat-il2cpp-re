@@ -1,0 +1,211 @@
+[
+  {
+    "class": "Spectrum",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Item"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FDC"
+    ]
+  },
+  {
+    "class": "StyleClass",
+    "parent": "",
+    "namespace": "VRC.UI.Core.Styles",
+    "readable_methods": [
+      "OnPointerClick"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_477"
+    ]
+  },
+  {
+    "class": "VRC_MainSibling_E81F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [
+      "Func`1",
+      "task",
+      "Equals"
+    ],
+    "hash_methods": [
+      "m_D3D",
+      "m_97E",
+      "m_E2F",
+      "m_0C2",
+      "m_73F",
+      "m_34B",
+      "m_FBE",
+      "m_C1A",
+      "m_734",
+      "m_F75",
+      "m_152",
+      "m_261"
+    ]
+  },
+  {
+    "class": "VRC_MainSibling_035C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_C52",
+      "m_E67",
+      "m_723",
+      "m_413",
+      "m_34B",
+      "m_1F1",
+      "m_261",
+      "m_CFE",
+      "m_082",
+      "m_A0C",
+      "m_CAD",
+      "m_137"
+    ]
+  },
+  {
+    "class": "VRC_SecondarySiblingRelated_6465",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_ACC",
+      "m_0E2",
+      "m_53B",
+      "m_7D9",
+      "m_CDC",
+      "m_B72",
+      "m_1F6",
+      "m_771",
+      "m_A17",
+      "m_D27",
+      "m_E75",
+      "m_59B"
+    ]
+  },
+  {
+    "class": "currentAvatarThumbnailImacurrentAvatarIm_EC02",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [
+      "username",
+      "displayName",
+      "bio",
+      "bioLinks",
+      "currentAvatar",
+      "currentAvatarImageUrl",
+      "currentAvatarThumbnailImageUrl",
+      "currentAvatarTags",
+      "tags",
+      "developerType",
+      "last_login",
+      "last_activity"
+    ],
+    "hash_methods": [
+      "m_639",
+      "m_529",
+      "m_400",
+      "m_FFA",
+      "m_0DD",
+      "m_ED8",
+      "m_269",
+      "m_7D3",
+      "m_F1A",
+      "m_DD2",
+      "m_2DF",
+      "m_E20"
+    ]
+  },
+  {
+    "class": "VRC_MainSibling_C23A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_B8E",
+      "m_58F",
+      "m_193",
+      "m_6D8",
+      "m_1D8",
+      "m_9F3",
+      "m_ED1",
+      "m_70B",
+      "m_F07",
+      "m_F3E",
+      "m_7CB",
+      "m_8B8"
+    ]
+  },
+  {
+    "class": "AvatarPickupUseDownPickup_640ASibling_74B7",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_52B",
+      "m_853",
+      "m_434",
+      "m_700",
+      "m_1F8",
+      "m_584",
+      "m_1F1",
+      "m_CB5",
+      "m_C4C",
+      "m_AF0",
+      "m_18B",
+      "m_DA5"
+    ]
+  },
+  {
+    "class": "VRC_MainSiblingSiblingSiblingSibling_C693",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_8BA",
+      "m_F9A",
+      "m_89D",
+      "m_7F0",
+      "m_A3B",
+      "m_23E",
+      "m_E91",
+      "m_51C",
+      "m_359",
+      "m_657",
+      "m_898",
+      "m_EDD"
+    ]
+  },
+  {
+    "class": "PhotonRoomHandler_8699",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_50C",
+      "m_AF7",
+      "m_B40",
+      "m_B6F",
+      "m_D19",
+      "m_7D2",
+      "m_862",
+      "m_BDC",
+      "m_4D9",
+      "m_36E",
+      "m_639",
+      "m_724"
+    ]
+  }
+]

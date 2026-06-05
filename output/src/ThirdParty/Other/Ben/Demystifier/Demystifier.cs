@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.Ben.Demystifier
 {
-    public class Constants : Object
+    public class Constants
     {
     }
 

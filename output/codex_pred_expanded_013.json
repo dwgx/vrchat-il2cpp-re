@@ -1,0 +1,22 @@
+{
+  "CameraCanWritePosition_FCC8::m_038": "get_CanWrite",
+  "CameraCanWritePosition_FCC8::m_BDA": "get_CanRead",
+  "CameraCanWritePosition_FCC8::m_A4B": "get_CanSeek",
+  "CameraCanWritePosition_FCC8::m_BA1": "get_Length",
+  "CameraCanWritePosition_FCC8::m_AFC": "get_Position",
+  "FoldoutListRelatedRelated_98B4::m_E89": "get_Item",
+  "FoldoutListRelatedRelated_98B4::m_020": "set_Item",
+  "FoldoutListRelatedRelated_98B4::m_BF6": "Insert",
+  "FoldoutListRelatedRelated_98B4::m_60B": "RemoveAt",
+  "FoldoutListRelatedRelated_98B4::m_316": "Add",
+  "FoldoutListRelatedRelated_98B4::m_B48": "Clear",
+  "FoldoutListRelatedRelated_98B4::m_FEF": "Contains",
+  "FoldoutListRelatedRelated_98B4::m_09B": "CopyTo",
+  "FoldoutListRelatedRelated_98B4::m_8B4": "get_Count",
+  "FoldoutListRelatedRelated_98B4::m_57F": "get_IsReadOnly",
+  "FoldoutListRelatedRelated_98B4::m_5B0": "Remove",
+  "FoldoutListRelatedRelated_98B4::m_04F": "GetEnumerator",
+  "PlayerMoveNext_C4E9::m_582": "MoveNext",
+  "VFXBundleInfo::m_4D5": "get_EffectBundleID",
+  "VFXBundleInfo::m_601": "get_IsSpecialFX"
+}

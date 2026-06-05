@@ -1,0 +1,158 @@
+[
+  {
+    "class": "VRC_MainSiblingRelated_F63D",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Update",
+      "Start",
+      "Awake"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_67C",
+      "m_521",
+      "m_102",
+      "m_D5A",
+      "m_B00",
+      "m_4DD",
+      "m_956",
+      "m_C37",
+      "m_F1D",
+      "m_E47",
+      "m_41F",
+      "m_A62"
+    ],
+    "remaining_hash_methods": 53,
+    "total_methods": 60,
+    "signal_score": 140
+  },
+  {
+    "class": "DrawGizmosBehaviour_7AAC",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnDrawGizmos",
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameInvisible",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnBecameVisible",
+      "OnCollisionEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_417",
+      "m_CD9",
+      "m_28B",
+      "m_FB6",
+      "m_410",
+      "m_F9E",
+      "m_4EC",
+      "m_07D",
+      "m_F3E",
+      "m_ED7",
+      "m_EC3",
+      "m_185"
+    ],
+    "remaining_hash_methods": 13,
+    "total_methods": 34,
+    "signal_score": 139
+  },
+  {
+    "class": "UIShowTabContent_E50A",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "ShowTabContent",
+      "OnDisable",
+      "Awake"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_546",
+      "m_5CC",
+      "m_433",
+      "m_D5E",
+      "m_69B",
+      "m_14C",
+      "m_F1D",
+      "m_02B",
+      "m_0F2",
+      "m_9A0",
+      "m_0BD",
+      "m_C1D"
+    ],
+    "remaining_hash_methods": 53,
+    "total_methods": 67,
+    "signal_score": 139
+  },
+  {
+    "class": "NetworkSyncable_D48C",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "NeedsImportant",
+      "Decode",
+      "CanSerialize32Bit",
+      "set_TypeId",
+      "CanSerialize8Bit",
+      "get_TypeId",
+      "SerializedName",
+      "Encode",
+      "NeedsSync"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BBD",
+      "m_3FD",
+      "m_0FA",
+      "m_2A5",
+      "m_E75",
+      "m_F2B",
+      "m_D62",
+      "m_46D",
+      "m_522",
+      "m_978",
+      "m_F5A",
+      "m_61E"
+    ],
+    "remaining_hash_methods": 22,
+    "total_methods": 37,
+    "signal_score": 136
+  },
+  {
+    "class": "UIRectTransformDimensionsChBefSibling_1299",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnRectTransformDimensionsChange",
+      "OnBeforeTransformParentChanged",
+      "OnTransformParentChanged",
+      "OnDidApplyAnimationProperties",
+      "OnCanvasGroupChanged"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A1F",
+      "m_175",
+      "m_321",
+      "m_104",
+      "m_3F2",
+      "m_615",
+      "m_E16",
+      "m_149",
+      "m_E75",
+      "m_AC0",
+      "m_4B5",
+      "m_1EC"
+    ],
+    "remaining_hash_methods": 41,
+    "total_methods": 51,
+    "signal_score": 136
+  }
+]

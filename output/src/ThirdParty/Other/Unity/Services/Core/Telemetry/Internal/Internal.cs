@@ -5,24 +5,24 @@
 
 namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
 {
-    public class Diagnostics : Object
+    public class Diagnostics
     {
         // ── Methods ──
-        public void SendDiagnostic(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE87AA6E40
+        public void SendDiagnostic(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF9A15FB0
     }
 
-    public class DiagnosticsFactory : Object
+    public class DiagnosticsFactory
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE87AA6F00
-        public void .ctor(){} // RVA: 0x7FFE87AA6FE0
+        public void Create(){} // RVA: 0x7FFAF9A16070
+        public void .ctor(){} // RVA: 0x7FFAF9A16150
     }
 
     public class IDiagnostics
     {
         // ── Methods ──
-        public void SendDiagnostic(){} // RVA: 0x7FFE80E50660
+        public void SendDiagnostic(){} // RVA: 0x7FFAF2ADF090
     }
 
     public class IDiagnosticsComponentProvider
@@ -32,7 +32,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
     public class IDiagnosticsFactory
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE80E2E390
+        public void Create(){} // RVA: 0x7FFAF2ABCE10
     }
 
     public class IMetrics
@@ -46,23 +46,23 @@ namespace ThirdParty.Other.Unity.Services.Core.Telemetry.Internal
     public class IMetricsFactory
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE80E2E390
+        public void Create(){} // RVA: 0x7FFAF2ABCE10
     }
 
-    public class Metrics : Object
+    public class Metrics
     {
         // ── Methods ──
-        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendGaugeMetric(){} // RVA: 0x7FFE810FB310
-        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendHistogramMetric(){} // RVA: 0x7FFE810FB310
-        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendSumMetric(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE87AA70A0
+        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendGaugeMetric(){} // RVA: 0x7FFAF2D8D310
+        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendHistogramMetric(){} // RVA: 0x7FFAF2D8D310
+        public void Unity.Services.Core.Telemetry.Internal.IMetrics.SendSumMetric(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF9A16210
     }
 
-    public class MetricsFactory : Object
+    public class MetricsFactory
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE87AA7160
-        public void .ctor(){} // RVA: 0x7FFE87AA7240
+        public void Create(){} // RVA: 0x7FFAF9A162D0
+        public void .ctor(){} // RVA: 0x7FFAF9A163B0
     }
 
 }

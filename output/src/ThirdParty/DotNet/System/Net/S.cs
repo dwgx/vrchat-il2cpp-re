@@ -5,146 +5,117 @@
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class ServerCertValidationCallback : Object
+    public class ServerCertValidationCallback
     {
-        public System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87684400
-        public void get_ValidationCallback(){} // RVA: 0x7FFE81116380
-        public void Callback(){} // RVA: 0x7FFE87684510
-        public void Invoke(){} // RVA: 0x7FFE876845C0
+        public void .ctor(){} // RVA: 0x7FFAF95F5150
+        public void get_ValidationCallback(){} // RVA: 0x7FFAF2DA8380
+        public void Callback(){} // RVA: 0x7FFAF95F5260
+        public void Invoke(){} // RVA: 0x7FFAF95F5310
     }
 
-    public class ServiceNameStore : Object
+    public class ServiceNameStore
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8766D350
+        public void .ctor(){} // RVA: 0x7FFAF95DE090
     }
 
-    public class ServicePoint : Object
+    public class ServicePoint
     {
-        public System.Uri uri; // 0x10
-        public System.DateTime lastDnsResolve; // 0x18
-        public System.Version protocolVersion; // 0x20
-        public System.Net.IPHostEntry host; // 0x28
-        public bool usesProxy; // 0x30
-        public bool sendContinue; // 0x31
-        public bool useConnect; // 0x32
-        public object hostE; // 0x38
-        public bool useNagle; // 0x40
-        public System.Net.BindIPEndPoint endPointCallback; // 0x48
-        public bool tcp_keepalive; // 0x50
-        public int tcp_keepalive_time; // 0x54
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876AF060
-        public void get_Key(){} // RVA: 0x7FFE81176D50
-        public void get_Scheduler(){} // RVA: 0x7FFE811C3590
-        public void set_Scheduler(){} // RVA: 0x7FFE811C35A0
-        public void get_Address(){} // RVA: 0x7FFE81116380
-        public void get_ConnectionLimit(){} // RVA: 0x7FFE8286C0A0
-        public void get_ProtocolVersion(){} // RVA: 0x7FFE811290C0
-        public void set_Expect100Continue(){} // RVA: 0x7FFE81121480
-        public void get_UseNagleAlgorithm(){} // RVA: 0x7FFE811B6C00
-        public void set_UseNagleAlgorithm(){} // RVA: 0x7FFE811B6C10
-        public void get_SendContinue(){} // RVA: 0x7FFE876AF260
-        public void set_SendContinue(){} // RVA: 0x7FFE81121480
-        public void SetTcpKeepAlive(){} // RVA: 0x7FFE876AF320
-        public void KeepAliveSetup(){} // RVA: 0x7FFE876AF410
-        public void PutBytes(){} // RVA: 0x7FFE876AF6C0
-        public void get_UsesProxy(){} // RVA: 0x7FFE81121450
-        public void set_UsesProxy(){} // RVA: 0x7FFE81121460
-        public void get_UseConnect(){} // RVA: 0x7FFE848700A0
-        public void set_UseConnect(){} // RVA: 0x7FFE866032C0
-        public void get_HasTimedOut(){} // RVA: 0x7FFE876AF730
-        public void get_HostEntry(){} // RVA: 0x7FFE876AF8B0
-        public void SetVersion(){} // RVA: 0x7FFE811290D0
-        public void SendRequest(){} // RVA: 0x7FFE876AFF80
-        public void CloseConnectionGroup(){} // RVA: 0x7FFE876B0170
-        public void FreeServicePoint(){} // RVA: 0x7FFE876B0460
-        public void UpdateServerCertificate(){} // RVA: 0x7FFE876B04C0
-        public void UpdateClientCertificate(){} // RVA: 0x7FFE876B05C0
-        public void CallEndPointDelegate(){} // RVA: 0x7FFE876B06C0
+        public void .ctor(){} // RVA: 0x7FFAF961FDB0
+        public void get_Key(){} // RVA: 0x7FFAF2E08D50
+        public void get_Scheduler(){} // RVA: 0x7FFAF2E55590
+        public void set_Scheduler(){} // RVA: 0x7FFAF2E555A0
+        public void get_Address(){} // RVA: 0x7FFAF2DA8380
+        public void get_ConnectionLimit(){} // RVA: 0x7FFAF4593800
+        public void get_ProtocolVersion(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_Expect100Continue(){} // RVA: 0x7FFAF2DB3480
+        public void get_UseNagleAlgorithm(){} // RVA: 0x7FFAF2E48C00
+        public void set_UseNagleAlgorithm(){} // RVA: 0x7FFAF2E48C10
+        public void get_SendContinue(){} // RVA: 0x7FFAF961FFB0
+        public void set_SendContinue(){} // RVA: 0x7FFAF2DB3480
+        public void SetTcpKeepAlive(){} // RVA: 0x7FFAF9620070
+        public void KeepAliveSetup(){} // RVA: 0x7FFAF9620160
+        public void PutBytes(){} // RVA: 0x7FFAF9620410
+        public void get_UsesProxy(){} // RVA: 0x7FFAF2DB3450
+        public void set_UsesProxy(){} // RVA: 0x7FFAF2DB3460
+        public void get_UseConnect(){} // RVA: 0x7FFAF6697520
+        public void set_UseConnect(){} // RVA: 0x7FFAF8572490
+        public void get_HasTimedOut(){} // RVA: 0x7FFAF9620480
+        public void get_HostEntry(){} // RVA: 0x7FFAF9620600
+        public void SetVersion(){} // RVA: 0x7FFAF2DBB0D0
+        public void SendRequest(){} // RVA: 0x7FFAF9620CD0
+        public void CloseConnectionGroup(){} // RVA: 0x7FFAF9620EC0
+        public void FreeServicePoint(){} // RVA: 0x7FFAF96211B0
+        public void UpdateServerCertificate(){} // RVA: 0x7FFAF9621210
+        public void UpdateClientCertificate(){} // RVA: 0x7FFAF9621310
+        public void CallEndPointDelegate(){} // RVA: 0x7FFAF9621410
     }
 
-    public class ServicePointManager : Object
+    public class ServicePointManager
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<SPKey,System.Net.ServicePoint> servicePoints;
-        public System.Net.ICertificatePolicy policy; // 0x8
-        public int defaultConnectionLimit; // 0x10
-        public int maxServicePointIdleTime; // 0x14
-        public int maxServicePoints; // 0x18
-        public int dnsRefreshTimeout; // 0x1C
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE876B0790
-        public void get_CertificatePolicy(){} // RVA: 0x7FFE876B08F0
-        public void set_CertificatePolicy(){} // RVA: 0x7FFE876B0A10
-        public void GetLegacyCertificatePolicy(){} // RVA: 0x7FFE876B0AD0
-        public void get_CheckCertificateRevocationList(){} // RVA: 0x7FFE876B0B30
-        public void get_DnsRefreshTimeout(){} // RVA: 0x7FFE876B0B90
-        public void get_SecurityProtocol(){} // RVA: 0x7FFE876B0BF0
-        public void get_ServerCertValidationCallback(){} // RVA: 0x7FFE876B0C50
-        public void get_ServerCertificateValidationCallback(){} // RVA: 0x7FFE876B0CB0
-        public void set_ServerCertificateValidationCallback(){} // RVA: 0x7FFE876B0D40
-        public void FindServicePoint(){} // RVA: 0x7FFE876B0ED0
-        public void CloseConnectionGroup(){} // RVA: 0x7FFE876B19A0
-        public void RemoveServicePoint(){} // RVA: 0x7FFE876B1D50
+        public void .cctor(){} // RVA: 0x7FFAF96214E0
+        public void get_CertificatePolicy(){} // RVA: 0x7FFAF9621640
+        public void set_CertificatePolicy(){} // RVA: 0x7FFAF9621760
+        public void GetLegacyCertificatePolicy(){} // RVA: 0x7FFAF9621820
+        public void get_CheckCertificateRevocationList(){} // RVA: 0x7FFAF9621880
+        public void get_DnsRefreshTimeout(){} // RVA: 0x7FFAF96218E0
+        public void get_SecurityProtocol(){} // RVA: 0x7FFAF9621940
+        public void get_ServerCertValidationCallback(){} // RVA: 0x7FFAF96219A0
+        public void get_ServerCertificateValidationCallback(){} // RVA: 0x7FFAF9621A00
+        public void set_ServerCertificateValidationCallback(){} // RVA: 0x7FFAF9621A90
+        public void FindServicePoint(){} // RVA: 0x7FFAF9621C20
+        public void CloseConnectionGroup(){} // RVA: 0x7FFAF96226F0
+        public void RemoveServicePoint(){} // RVA: 0x7FFAF9622AA0
     }
 
-    public class ServicePointScheduler : Object
+    public class ServicePointScheduler
     {
-        public System.Net.ServicePoint _servicePoint; // 0x10
-        public int running; // 0x18
-
         // ── Methods ──
-        public void get_ServicePoint(){} // RVA: 0x7FFE81116380
-        public void set_ServicePoint(){} // RVA: 0x7FFE810FCE30
-        public void get_MaxIdleTime(){} // RVA: 0x7FFE82707EE0
-        public void .ctor(){} // RVA: 0x7FFE876B20B0
-        public void Run(){} // RVA: 0x7FFE876B2470
-        public void RunScheduler(){} // RVA: 0x7FFE876B2580
-        public void Cleanup(){} // RVA: 0x7FFE876B2740
-        public void RunSchedulerIteration(){} // RVA: 0x7FFE876B2980
-        public void OperationCompleted(){} // RVA: 0x7FFE876B2B90
-        public void CloseIdleConnection(){} // RVA: 0x7FFE876B2E40
-        public void SchedulerIteration(){} // RVA: 0x7FFE876B2E90
-        public void RemoveOperation(){} // RVA: 0x7FFE876B30D0
-        public void RemoveIdleConnection(){} // RVA: 0x7FFE876B31B0
-        public void FinalCleanup(){} // RVA: 0x7FFE876B3290
-        public void SendRequest(){} // RVA: 0x7FFE876B35F0
-        public void CloseConnectionGroup(){} // RVA: 0x7FFE876B37B0
-        public void GetConnectionGroup(){} // RVA: 0x7FFE876B3910
-        public void OnConnectionCreated(){} // RVA: 0x7FFE876B3C90
-        public void OnConnectionClosed(){} // RVA: 0x7FFE876B3CA0
-        public void WaitAsync(){} // RVA: 0x7FFE876B3CC0
-        public void <Run>b__31_0(){} // RVA: 0x7FFE876B2580
+        public void get_ServicePoint(){} // RVA: 0x7FFAF2DA8380
+        public void set_ServicePoint(){} // RVA: 0x7FFAF2D8EE30
+        public void get_MaxIdleTime(){} // RVA: 0x7FFAF442C3B0
+        public void .ctor(){} // RVA: 0x7FFAF9622E00
+        public void Run(){} // RVA: 0x7FFAF96231C0
+        public void RunScheduler(){} // RVA: 0x7FFAF96232D0
+        public void Cleanup(){} // RVA: 0x7FFAF9623490
+        public void RunSchedulerIteration(){} // RVA: 0x7FFAF96236D0
+        public void OperationCompleted(){} // RVA: 0x7FFAF96238E0
+        public void CloseIdleConnection(){} // RVA: 0x7FFAF9623B90
+        public void SchedulerIteration(){} // RVA: 0x7FFAF9623BE0
+        public void RemoveOperation(){} // RVA: 0x7FFAF9623E20
+        public void RemoveIdleConnection(){} // RVA: 0x7FFAF9623F00
+        public void FinalCleanup(){} // RVA: 0x7FFAF9623FE0
+        public void SendRequest(){} // RVA: 0x7FFAF9624340
+        public void CloseConnectionGroup(){} // RVA: 0x7FFAF9624500
+        public void GetConnectionGroup(){} // RVA: 0x7FFAF9624660
+        public void OnConnectionCreated(){} // RVA: 0x7FFAF96249E0
+        public void OnConnectionClosed(){} // RVA: 0x7FFAF96249F0
+        public void WaitAsync(){} // RVA: 0x7FFAF9624A10
+        public void <Run>b__31_0(){} // RVA: 0x7FFAF96232D0
     }
 
-    public class SocketAddress : Object
+    public class SocketAddress
     {
-        public int m_Size; // 0x10
-        public byte[] m_Buffer; // 0x18
-        public bool m_changed; // 0x20
-
         // ── Methods ──
-        public void get_Family(){} // RVA: 0x7FFE87660620
-        public void get_Size(){} // RVA: 0x7FFE811485C0
-        public void get_Item(){} // RVA: 0x7FFE87660660
-        public void .ctor(){} // RVA: 0x7FFE87660C20 | overloaded x3
-        public void GetIPAddress(){} // RVA: 0x7FFE87660C80
-        public void GetIPEndPoint(){} // RVA: 0x7FFE87660F50
-        public void Equals(){} // RVA: 0x7FFE87661000
-        public void GetHashCode(){} // RVA: 0x7FFE87661130
-        public void ToString(){} // RVA: 0x7FFE87661250
+        public void get_Family(){} // RVA: 0x7FFAF95D1360
+        public void get_Size(){} // RVA: 0x7FFAF2DDA5C0
+        public void get_Item(){} // RVA: 0x7FFAF95D13A0
+        public void .ctor(){} // RVA: 0x7FFAF95D1960 | overloaded x3
+        public void GetIPAddress(){} // RVA: 0x7FFAF95D19C0
+        public void GetIPEndPoint(){} // RVA: 0x7FFAF95D1C90
+        public void Equals(){} // RVA: 0x7FFAF95D1D40
+        public void GetHashCode(){} // RVA: 0x7FFAF95D1E70
+        public void ToString(){} // RVA: 0x7FFAF95D1F90
     }
 
-    public class SystemNetworkCredential : NetworkCredential
+    public class SystemNetworkCredential
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8765B9F0
-        public void .cctor(){} // RVA: 0x7FFE8765BA50
+        public void .ctor(){} // RVA: 0x7FFAF95CC730
+        public void .cctor(){} // RVA: 0x7FFAF95CC790
     }
 
 }

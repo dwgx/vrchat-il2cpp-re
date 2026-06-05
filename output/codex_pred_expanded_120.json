@@ -1,0 +1,7 @@
+{
+  "LifecycleComponentImpl_AB77SibSibling_49C2::m_BEE": "OnApplicationFocus",
+  "LifecycleComponentImpl_AB77SibSibling_FDE5::m_908": "OnApplicationFocus",
+  "LifecycleComponentImpl_E2CCSibSibling_8E8D::m_076": "OnApplicationFocus",
+  "PoseRemoteUpdate::m_48B": "OnTriggerEnter",
+  "LifecycleComponentImpl_E2CCSibling_3808::m_3EB": "OnBecameInvisible"
+}

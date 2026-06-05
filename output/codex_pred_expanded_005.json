@@ -1,0 +1,7 @@
+{
+  "LifecycleComponent_5FA7SiRelated_733F::m_D2F": "OnApplicationFocus",
+  "LifecycleComponent_5FA7SiblingSibling_D8AF::m_F5D": "OnApplicationFocus",
+  "UpdateComponent_7909SiblingSibling_C2AC::m_A34": "OnBecameVisible",
+  "EffectmaterialForRenderingGetMaterial_5E1C_3793::m_643": "get_materialForRendering",
+  "EffectmaterialForRenderingGetMaterial_5E1C_3793::m_549": "GetMaterial"
+}

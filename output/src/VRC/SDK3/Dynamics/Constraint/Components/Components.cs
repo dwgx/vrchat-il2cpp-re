@@ -5,40 +5,40 @@
 
 namespace VRC.SDK3.Dynamics.Constraint.Components
 {
-    public class VRCAimConstraint : VRCAimConstraintBase
+    public class VRCAimConstraint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88208380
+        public void .ctor(){} // RVA: 0x7FFAFA17B260
     }
 
-    public class VRCLookAtConstraint : VRCLookAtConstraintBase
+    public class VRCLookAtConstraint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88208E80
+        public void .ctor(){} // RVA: 0x7FFAFA17BD60
     }
 
-    public class VRCParentConstraint : VRCParentConstraintBase
+    public class VRCParentConstraint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88209150
+        public void .ctor(){} // RVA: 0x7FFAFA17C030
     }
 
-    public class VRCPositionConstraint : VRCPositionConstraintBase
+    public class VRCPositionConstraint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88209460
+        public void .ctor(){} // RVA: 0x7FFAFA17C340
     }
 
-    public class VRCRotationConstraint : VRCRotationConstraintBase
+    public class VRCRotationConstraint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88209700
+        public void .ctor(){} // RVA: 0x7FFAFA17C5E0
     }
 
-    public class VRCScaleConstraint : VRCScaleConstraintBase
+    public class VRCScaleConstraint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE882099F0
+        public void .ctor(){} // RVA: 0x7FFAFA17C8D0
     }
 
 }

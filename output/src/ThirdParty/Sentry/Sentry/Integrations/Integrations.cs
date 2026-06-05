@@ -5,41 +5,41 @@
 
 namespace ThirdParty.Sentry.Sentry.Integrations
 {
-    public class AppDomainProcessExitIntegration : Object
+    public class AppDomainProcessExitIntegration
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86F7C520
-        public void Register(){} // RVA: 0x7FFE86F7C5E0
-        public void HandleProcessExit(){} // RVA: 0x7FFE86F7C750
+        public void .ctor(){} // RVA: 0x7FFAF8EEBB20
+        public void Register(){} // RVA: 0x7FFAF8EEBBE0
+        public void HandleProcessExit(){} // RVA: 0x7FFAF8EEBD50
     }
 
-    public class AppDomainUnhandledExceptionIntegration : Object
+    public class AppDomainUnhandledExceptionIntegration
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86F7C810
-        public void Register(){} // RVA: 0x7FFE86F7C8D0
-        public void Handle(){} // RVA: 0x7FFE86F7CAA0
+        public void .ctor(){} // RVA: 0x7FFAF8EEBE10
+        public void Register(){} // RVA: 0x7FFAF8EEBED0
+        public void Handle(){} // RVA: 0x7FFAF8EEC0A0
     }
 
-    public class AutoSessionTrackingIntegration : Object
+    public class AutoSessionTrackingIntegration : kA
     {
         // ── Methods ──
-        public void Register(){} // RVA: 0x7FFE86F7CC40
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Register(){} // RVA: 0x7FFAF8EEC240
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
     public class ISdkIntegration
     {
         // ── Methods ──
-        public void Register(){} // RVA: 0x7FFE80E4F230
+        public void Register(){} // RVA: 0x7FFAF2ADDC60
     }
 
-    public class UnobservedTaskExceptionIntegration : Object
+    public class UnobservedTaskExceptionIntegration
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86F7CCB0
-        public void Register(){} // RVA: 0x7FFE86F7CD70
-        public void Handle(){} // RVA: 0x7FFE86F7CED0
+        public void .ctor(){} // RVA: 0x7FFAF8EEC2B0
+        public void Register(){} // RVA: 0x7FFAF8EEC370
+        public void Handle(){} // RVA: 0x7FFAF8EEC4D0
     }
 
 }

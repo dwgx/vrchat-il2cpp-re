@@ -5,86 +5,86 @@
 
 namespace ThirdParty.Other.Unity.Burst.Intrinsics
 {
-    public class BurstTargetCpuAttribute : Attribute
+    public class BurstTargetCpuAttribute
     {
     }
 
-    public class Common : Object
-    {
-        // ── Methods ──
-        public void umul128(){} // RVA: 0x7FFE878B5330
-    }
-
-    public class DoGetCSRTrampoline_0000012A$BurstDirectCall : Object
+    public class Common
     {
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFE878B64B0
-        public void GetFunctionPointer(){} // RVA: 0x7FFE878B65F0
-        public void Constructor(){} // RVA: 0x7FFE878B6760
-        public void Initialize(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE878B6760
-        public void Invoke(){} // RVA: 0x7FFE878B6820
+        public void umul128(){} // RVA: 0x7FFAF9824490
     }
 
-    public class DoGetCSRTrampoline_0000012A$PostfixBurstDelegate : MulticastDelegate
+    public class DoGetCSRTrampoline_0000012A$BurstDirectCall
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE83871300
-        public void Invoke(){} // RVA: 0x7FFE81159A50
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFAF9825610
+        public void GetFunctionPointer(){} // RVA: 0x7FFAF9825750
+        public void Constructor(){} // RVA: 0x7FFAF98258C0
+        public void Initialize(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF98258C0
+        public void Invoke(){} // RVA: 0x7FFAF9825980
     }
 
-    public class DoSetCSRTrampoline_00000129$BurstDirectCall : Object
+    public class DoGetCSRTrampoline_0000012A$PostfixBurstDelegate
     {
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFE878B5F50
-        public void GetFunctionPointer(){} // RVA: 0x7FFE878B6090
-        public void Constructor(){} // RVA: 0x7FFE878B6200
-        public void Initialize(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE878B6200
-        public void Invoke(){} // RVA: 0x7FFE878B62C0
+        public void .ctor(){} // RVA: 0x7FFAF5669710
+        public void Invoke(){} // RVA: 0x7FFAF2DEBA50
     }
 
-    public class DoSetCSRTrampoline_00000129$PostfixBurstDelegate : MulticastDelegate
+    public class DoSetCSRTrampoline_00000129$BurstDirectCall
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE811EC370
-        public void Invoke(){} // RVA: 0x7FFE81156C60
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7FFAF98250B0
+        public void GetFunctionPointer(){} // RVA: 0x7FFAF98251F0
+        public void Constructor(){} // RVA: 0x7FFAF9825360
+        public void Initialize(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF9825360
+        public void Invoke(){} // RVA: 0x7FFAF9825420
     }
 
-    public class V128DebugView : Object
-    {
-    }
-
-    public class V256DebugView : Object
-    {
-    }
-
-    public class V64DebugView : Object
-    {
-    }
-
-    public class X86 : Object
+    public class DoSetCSRTrampoline_00000129$PostfixBurstDelegate
     {
         // ── Methods ──
-        public void BurstIntrinsicSetCSRFromManaged(){} // RVA: 0x7FFE810FB310
-        public void BurstIntrinsicGetCSRFromManaged(){} // RVA: 0x7FFE813240E0
-        public void DoSetCSRTrampoline(){} // RVA: 0x7FFE878B53C0
-        public void DoGetCSRTrampoline(){} // RVA: 0x7FFE878B55E0
-        public void DoSetCSRTrampoline$BurstManaged(){} // RVA: 0x7FFE81D95990
-        public void DoGetCSRTrampoline$BurstManaged(){} // RVA: 0x7FFE84A912C0
+        public void .ctor(){} // RVA: 0x7FFAF2E7E370
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
     }
 
-    public class v128 : ValueType
+    public class V128DebugView
     {
     }
 
-    public class v256 : ValueType
+    public class V256DebugView
+    {
+    }
+
+    public class V64DebugView
+    {
+    }
+
+    public class X86
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE82BE9D90 | overloaded x2
+        public void BurstIntrinsicSetCSRFromManaged(){} // RVA: 0x7FFAF2D8D310
+        public void BurstIntrinsicGetCSRFromManaged(){} // RVA: 0x7FFAF2FC9240
+        public void DoSetCSRTrampoline(){} // RVA: 0x7FFAF9824520
+        public void DoGetCSRTrampoline(){} // RVA: 0x7FFAF9824740
+        public void DoSetCSRTrampoline$BurstManaged(){} // RVA: 0x7FFAF3AD0CE0
+        public void DoGetCSRTrampoline$BurstManaged(){} // RVA: 0x7FFAF68BF620
     }
 
-    public class v64 : ValueType
+    public class v128
+    {
+    }
+
+    public class v256
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF49107B0 | overloaded x2
+    }
+
+    public class v64
     {
     }
 

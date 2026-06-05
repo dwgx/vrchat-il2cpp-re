@@ -1,67 +1,85 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Serialization.OdinSerializer
-// Classes: 6
-// Methods: 22
+// Classes: 11
+// Methods: 28
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
-    public class RectFormatter : MinimalBaseFormatter`1
+    public class RectFormatter
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7FFE883CD750
-        public void Write(){} // RVA: 0x7FFE883CD880
-        public void .ctor(){} // RVA: 0x7FFE883CD9E0
-        public void .cctor(){} // RVA: 0x7FFE883CDA40
+        public void Read(){} // RVA: 0x7FFAFA340AA0
+        public void Write(){} // RVA: 0x7FFAFA340BD0
+        public void .ctor(){} // RVA: 0x7FFAFA340D30
+        public void .cctor(){} // RVA: 0x7FFAFA340D90
     }
 
-    public class ReflectionFormatter`1 : BaseFormatter`1
+    public class ReflectionFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy _overridePolicy;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0 | overloaded x2
-        public void get_OverridePolicy(){} // RVA: 0x7FFE80E2E2E0
-        public void set_OverridePolicy(){} // RVA: 0x7FFE80E460A0
-        public void DeserializeImplementation(){} // RVA: 0x7FFE80E4F230
-        public void SerializeImplementation(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFAF6A3AEA0 | overloaded x2
+        public void get_OverridePolicy(){} // RVA: 0x7FFAF2DA8380
+        public void set_OverridePolicy(){} // RVA: 0x7FFAF2D8EE30
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF6A3AF30
+        public void SerializeImplementation(){} // RVA: 0x7FFAF6A3B8C0
     }
 
-    public class ReflectionOrEmittedBaseFormatter`1 : ReflectionFormatter`1
+    public class ReflectionFormatter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10 | overloaded x2
+        public void get_OverridePolicy(){} // RVA: 0x7FFAF2ABCD60
+        public void set_OverridePolicy(){} // RVA: 0x7FFAF2AD4B10
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+        public void SerializeImplementation(){} // RVA: 0x7FFAF2ADDC60
     }
 
-    public class RegisterDictionaryKeyPathProviderAttribute : Attribute
+    public class ReflectionFormatter`1
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
     }
 
-    public class RegisterFormatterAttribute : Attribute
+    public class ReflectionFormatter`1
     {
-        public System.Type _formatterType; // 0x10
-        public int _priority; // 0x18
-
-        // ── Methods ──
-        public void get_FormatterType(){} // RVA: 0x7FFE81116380
-        public void set_FormatterType(){} // RVA: 0x7FFE810FCE30
-        public void get_Priority(){} // RVA: 0x7FFE813DB630
-        public void set_Priority(){} // RVA: 0x7FFE8144DF00
-        public void .ctor(){} // RVA: 0x7FFE82AF3A20
     }
 
-    public class RegisterFormatterLocatorAttribute : Attribute
+    public class ReflectionFormatter`1
     {
-        public System.Type _formatterLocatorType; // 0x10
-        public int _priority; // 0x18
+    }
 
+    public class ReflectionFormatter`1
+    {
+    }
+
+    public class ReflectionOrEmittedBaseFormatter`1
+    {
         // ── Methods ──
-        public void get_FormatterLocatorType(){} // RVA: 0x7FFE81116380
-        public void set_FormatterLocatorType(){} // RVA: 0x7FFE810FCE30
-        public void get_Priority(){} // RVA: 0x7FFE813DB630
-        public void set_Priority(){} // RVA: 0x7FFE8144DF00
-        public void .ctor(){} // RVA: 0x7FFE82AF3A20
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
+    }
+
+    public class RegisterDictionaryKeyPathProviderAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+    }
+
+    public class RegisterFormatterAttribute
+    {
+        // ── Methods ──
+        public void get_FormatterType(){} // RVA: 0x7FFAF2DA8380
+        public void set_FormatterType(){} // RVA: 0x7FFAF2D8EE30
+        public void get_Priority(){} // RVA: 0x7FFAF306ED50
+        public void set_Priority(){} // RVA: 0x7FFAF30E74E0
+        public void .ctor(){} // RVA: 0x7FFAF4816A50
+    }
+
+    public class RegisterFormatterLocatorAttribute
+    {
+        // ── Methods ──
+        public void get_FormatterLocatorType(){} // RVA: 0x7FFAF2DA8380
+        public void set_FormatterLocatorType(){} // RVA: 0x7FFAF2D8EE30
+        public void get_Priority(){} // RVA: 0x7FFAF306ED50
+        public void set_Priority(){} // RVA: 0x7FFAF30E74E0
+        public void .ctor(){} // RVA: 0x7FFAF4816A50
     }
 
 }

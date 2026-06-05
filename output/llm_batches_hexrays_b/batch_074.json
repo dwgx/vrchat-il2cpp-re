@@ -1,0 +1,112 @@
+[
+ {
+  "class": "VRC_SecondarySibling_4627",
+  "class_obf": "ÌÍÌÍÎÍÏÏÎÏÌÎÌÎÏÎÏÎÍÎÍÍÎ",
+  "parent": "",
+  "method": "m_F09",
+  "cv_key": "VRC_SecondarySibling_4627::m_F09",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18004C770(int a1, __int64 a2, int a3)\n{\n  __int64 v3; // rdi\n  __int64 v5; // rbx\n  __int64 *v7; // rcx\n  signed __int32 v9[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  v3 = qword_18C9167D8;\n  v5 = qword_18C8ECF88;\n  if ( !*(_QWORD *)(qword_18C9167D8 + 56) )\n  {\n    sub_180AD1AA0(&qword_18C8D7538);\n    _InterlockedOr(v9, 0);\n    if ( !*(_QWORD *)(v3 + 56) )\n      sub_180A4EC20(v3);\n  }\n  if ( !v5 )\n  {\n    v7 = *(__int64 **)(qword_18C8D7538 + 184);\n    v5 = *v7;\n    if ( !*v7 )\n      sub_180AAE510(v7, a2);\n  }\n  return sub_182FE0D80(a1, (int)v5 + 20, *(_DWORD *)(v5 + 16), a3, *(_QWORD *)(*(_QWORD *)(v3 + 56) + 8LL));\n}\n"
+ },
+ {
+  "class": "VRC_SecondarySibling_4627",
+  "class_obf": "ÌÍÌÍÎÍÏÏÎÏÌÎÌÎÏÎÏÎÍÎÍÍÎ",
+  "parent": "",
+  "method": "m_F3D",
+  "cv_key": "VRC_SecondarySibling_4627::m_F3D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18004F250(_QWORD *a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  __int64 v8; // rax\n  __int64 v9; // rax\n  signed __int32 v11[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !*(_QWORD *)(a4 + 56) )\n  {\n    sub_180AD1AA0(&qword_18C8F7BF0);\n    _InterlockedOr(v11, 0);\n    if ( !*(_QWORD *)(a4 + 56) )\n      sub_180A4EC20(a4);\n  }\n  if ( !*a1 )\n  {\n    v8 = *(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL);\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      v8 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL));\n    if ( !*(_DWORD *)(v8 + 224) )\n      YloSGiLVOEi_0(v8);\n    sub_185BBE210(a3, a1, *(_QWORD *)(*(_QWORD *)(a4 + 56) + 8LL));\n  }\n  if ( !*a1 )\n    sub_180AAE510(a1, a2);\n  v9 = sub_180002BE0(0, qword_18C8F7BF0);\n  return sub_18754DA30(a2, v9, *(_QWORD *)(*(_QWORD *)(a4 + 56) + 40LL));\n}\n"
+ },
+ {
+  "class": "VRC_SecondarySibling_4627",
+  "class_obf": "ÌÍÌÍÎÍÏÏÎÏÌÎÌÎÏÎÏÎÍÎÍÍÎ",
+  "parent": "",
+  "method": "m_F6F",
+  "cv_key": "VRC_SecondarySibling_4627::m_F6F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18004A7F0(__int64 a1)\n{\n  return sub_18187B600(a1 + 16);\n}\n"
+ },
+ {
+  "class": "VRC_SecondarySibling_4627",
+  "class_obf": "ÌÍÌÍÎÍÏÏÎÏÌÎÌÎÏÎÏÎÍÎÍÍÎ",
+  "parent": "",
+  "method": "m_FA4",
+  "cv_key": "VRC_SecondarySibling_4627::m_FA4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18005AF70(__int64 a1)\n{\n  return sub_181BDB3D0(a1 + 16);\n}\n"
+ },
+ {
+  "class": "VRC_SecondarySibling_4627",
+  "class_obf": "ÌÍÌÍÎÍÏÏÎÏÌÎÌÎÏÎÏÎÍÎÍÍÎ",
+  "parent": "",
+  "method": "m_FE7",
+  "cv_key": "VRC_SecondarySibling_4627::m_FE7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1800461C0(__int64 a1)\n{\n  return sub_1817904B0(a1 + 16);\n}\n"
+ },
+ {
+  "class": "VRC_SecondarySibling_4627",
+  "class_obf": "ÌÍÌÍÎÍÏÏÎÏÌÎÌÎÏÎÏÎÍÎÍÍÎ",
+  "parent": "",
+  "method": "m_FE9",
+  "cv_key": "VRC_SecondarySibling_4627::m_FE9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 sub_1800503F0()\n{\n  __int64 result; // rax\n  signed __int32 v1[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE22570 )\n  {\n    result = sub_180AD1AA0(&qword_18C931F78);\n    _InterlockedOr(v1, 0);\n    byte_18CE22570 = 1;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "VRC_SecondarySibling_4627",
+  "class_obf": "ÌÍÌÍÎÍÏÏÎÏÌÎÌÎÏÎÏÎÍÎÍÍÎ",
+  "parent": "",
+  "method": "m_FFA",
+  "cv_key": "VRC_SecondarySibling_4627::m_FFA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180052770(_QWORD *a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  __int64 v8; // rax\n  __int64 v9; // rdi\n  signed __int32 v11[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !*(_QWORD *)(a4 + 56) )\n  {\n    sub_180AD1AA0(&qword_18C8F7BF0);\n    _InterlockedOr(v11, 0);\n    sub_180AD1AA0(&qword_18C905698);\n    _InterlockedOr(v11, 0);\n    if ( !*(_QWORD *)(a4 + 56) )\n      sub_180A4EC20(a4);\n  }\n  if ( !*a1 )\n  {\n    v8 = *(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL);\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      v8 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL));\n    if ( !*(_DWORD *)(v8 + 224) )\n      YloSGiLVOEi_0(v8);\n    sub_185C12070(a3, a1, *(_QWORD *)(*(_QWORD *)(a4 + 56) + 8LL));\n  }\n  if ( !*a1 )\n    sub_180AAE510(a1, a2);\n  v9 = sub_180002BE0(0, qword_18C8F7BF0);\n  if ( !*(_DWORD *)(qword_18C905698 + 224) )\n    YloSGiLVOEi_0(qword_18C905698);\n  return sub_186595760(a2, v9, *(_QWORD *)(*(_QWORD *)(a4 + 56) + 40LL));\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_086D",
+  "class_obf": "ÍÍÎÎÎÌÍÏÌÍÎÌÎÏÎÌÎÍÎÌÏÏÏ",
+  "parent": "",
+  "method": "m_4D4",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_086D::m_4D4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_18095A880(__int64 a1)\n{\n  unsigned int (*v2)(void); // rax\n  int v3; // ecx\n  __int64 (*v5)(void); // rax\n  int v6; // eax\n  __int64 v7; // rax\n  __int64 v8; // rax\n  signed __int32 v9[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE2D239 )\n  {\n    sub_180AD1AA0(&qword_18C8D08F0);\n    _InterlockedOr(v9, 0);\n    byte_18CE2D239 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C8D08F0 + 224) )\n    YloSGiLVOEi_0(qword_18C8D08F0);\n  v2 = (unsigned int (*)(void))qword_18CE47E10;\n  if ( !qword_18CE47E10 )\n  {\n    v2 = (unsigned int (*)(void))CqZPdCzurki_0(\"UnityEngine.Application::get_platform()\");\n    if ( !v2 )\n    {\n      v7 = sub_180A61A90(\"UnityEngine.Application::get_platform()\");\n      sub_180A5F890(v7, 0);\n    }\n    qword_18CE47E10 = (__int64)v2;\n  }\n  if ( !v2() )\n  {\n    v3 = *(_DWORD *)(a1 + 136);\n    return (v3 & 8) != 0;\n  }\n  if ( !*(_DWORD *)(qword_18C8D08F0 + 224) )\n    YloSGiLVOEi_0(qword_18C8D08F0);\n  v5 = (__int64 (*)(void))qword_18CE47E10;\n  if ( !qword_18CE47E10 )\n  {\n    v5 = (__int64 (*)(void))CqZPdCzurki_0(\"UnityEngine.Application::get_platform()\");\n    if ( !v5 )\n    {\n      v8 = sub_180A61A90(\"UnityEngine.Application::get_platform()\");\n      sub_180A5F890(v8, 0);\n    }\n    qword_18CE47E10 = (__int64)v5;\n  }\n  v6 = v5();\n  v3 = *(_DWORD *)(a1 + 136);\n  if ( v6 == 1 )\n    return (v3 & 8) != 0;\n  return (v3 & 2) != 0;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_086D",
+  "class_obf": "ÍÍÎÎÎÌÍÏÌÍÎÌÎÏÎÌÎÍÎÌÏÏÏ",
+  "parent": "",
+  "method": "m_54A",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_086D::m_54A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180959CA0(__int64 a1)\n{\n  __int64 v2; // rdi\n  __int64 result; // rax\n\n  v2 = **(_QWORD **)(a1 + 8);\n  if ( !*(_DWORD *)(qword_18C7B6B98 + 224) )\n    YloSGiLVOEi_0(qword_18C7B6B98);\n  result = sub_185FC6530(v2, qword_18C7B6BA0);\n  if ( *(_QWORD *)a1 )\n    sub_180A92FE0(*(_QWORD *)a1);\n  return result;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_086D",
+  "class_obf": "ÍÍÎÎÎÌÍÏÌÍÎÌÎÏÎÌÎÍÎÌÏÏÏ",
+  "parent": "",
+  "method": "m_5D4",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_086D::m_5D4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __noreturn sub_18095BBE0()\n{\n  __int64 v0; // rax\n\n  v0 = sub_180A61AB0(\"Cannot marshal field 'm_Event' of type 'EventRecord': Reference type field marshaling is not supported.\");\n  sub_180AAE4E0(v0, 0);\n}\n"
+ }
+]

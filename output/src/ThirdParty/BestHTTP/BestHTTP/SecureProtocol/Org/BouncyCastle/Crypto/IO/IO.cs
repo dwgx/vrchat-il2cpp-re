@@ -5,153 +5,121 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO
 {
-    public class CipherStream : Stream
+    public class CipherStream
     {
-        public System.IO.Stream stream; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBufferedCipher inCipher; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBufferedCipher outCipher; // 0x38
-        public byte[] mInBuf; // 0x40
-        public int mInPos; // 0x48
-        public bool inStreamEnded; // 0x4C
-        public object field_6; // 0x56E
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A02FC60
-        public void get_ReadCipher(){} // RVA: 0x7FFE8144E200
-        public void get_WriteCipher(){} // RVA: 0x7FFE8143BA80
-        public void ReadByte(){} // RVA: 0x7FFE8A02FE20
-        public void Read(){} // RVA: 0x7FFE8A02FEB0
-        public void FillInBuf(){} // RVA: 0x7FFE8A02FFF0
-        public void ReadAndProcessBlock(){} // RVA: 0x7FFE8A0301D0
-        public void Write(){} // RVA: 0x7FFE8A030320
-        public void WriteByte(){} // RVA: 0x7FFE8A030400
-        public void get_CanRead(){} // RVA: 0x7FFE8A0304C0
-        public void get_CanWrite(){} // RVA: 0x7FFE8A030510
-        public void get_CanSeek(){} // RVA: 0x7FFE810FB320
-        public void get_Length(){} // RVA: 0x7FFE8A030560
-        public void get_Position(){} // RVA: 0x7FFE8A0305A0
-        public void set_Position(){} // RVA: 0x7FFE8A0305E0
-        public void Close(){} // RVA: 0x7FFE8A030620
-        public void Flush(){} // RVA: 0x7FFE86F56340
-        public void Seek(){} // RVA: 0x7FFE8A030720
-        public void SetLength(){} // RVA: 0x7FFE8A030760
+        public void .ctor(){} // RVA: 0x7FFAFC07D880
+        public void get_ReadCipher(){} // RVA: 0x7FFAF30E74D0
+        public void get_WriteCipher(){} // RVA: 0x7FFAF2F476A0
+        public void ReadByte(){} // RVA: 0x7FFAFC07DA40
+        public void Read(){} // RVA: 0x7FFAFC07DAD0
+        public void FillInBuf(){} // RVA: 0x7FFAFC07DC10
+        public void ReadAndProcessBlock(){} // RVA: 0x7FFAFC07DDF0
+        public void Write(){} // RVA: 0x7FFAFC07DF40
+        public void WriteByte(){} // RVA: 0x7FFAFC07E020
+        public void get_CanRead(){} // RVA: 0x7FFAFC07E0E0
+        public void get_CanWrite(){} // RVA: 0x7FFAFC07E130
+        public void get_CanSeek(){} // RVA: 0x7FFAF2D8D320
+        public void get_Length(){} // RVA: 0x7FFAFC07E180
+        public void get_Position(){} // RVA: 0x7FFAFC07E1C0
+        public void set_Position(){} // RVA: 0x7FFAFC07E200
+        public void Close(){} // RVA: 0x7FFAFC07E240
+        public void Flush(){} // RVA: 0x7FFAF8EC5940
+        public void Seek(){} // RVA: 0x7FFAFC07E340
+        public void SetLength(){} // RVA: 0x7FFAFC07E380
     }
 
-    public class DigestSink : BaseOutputStream
+    public class DigestSink
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest mDigest; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89F83F60
-        public void get_Digest(){} // RVA: 0x7FFE8144E200
-        public void WriteByte(){} // RVA: 0x7FFE8A0307A0
-        public void Write(){} // RVA: 0x7FFE8A030800
+        public void .ctor(){} // RVA: 0x7FFAFBFD1B90
+        public void get_Digest(){} // RVA: 0x7FFAF30E74D0
+        public void WriteByte(){} // RVA: 0x7FFAFC07E3C0
+        public void Write(){} // RVA: 0x7FFAFC07E420
     }
 
-    public class DigestStream : Stream
+    public class DigestStream
     {
-        public System.IO.Stream stream; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest inDigest; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest outDigest; // 0x38
-        public object field_3; // 0x576
-        public object field_4; // 0x577
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A030890
-        public void ReadDigest(){} // RVA: 0x7FFE8144E200
-        public void WriteDigest(){} // RVA: 0x7FFE8143BA80
-        public void Read(){} // RVA: 0x7FFE8A0309F0
-        public void ReadByte(){} // RVA: 0x7FFE8A030AB0
-        public void Write(){} // RVA: 0x7FFE8A030B40
-        public void WriteByte(){} // RVA: 0x7FFE8A030C00
-        public void get_CanRead(){} // RVA: 0x7FFE86F55B40
-        public void get_CanWrite(){} // RVA: 0x7FFE875C90C0
-        public void get_CanSeek(){} // RVA: 0x7FFE86F55B70
-        public void get_Length(){} // RVA: 0x7FFE871CDB60
-        public void get_Position(){} // RVA: 0x7FFE871CDB90
-        public void set_Position(){} // RVA: 0x7FFE875535C0
-        public void Close(){} // RVA: 0x7FFE8A030C90
-        public void Flush(){} // RVA: 0x7FFE86F56340
-        public void Seek(){} // RVA: 0x7FFE875C9030
-        public void SetLength(){} // RVA: 0x7FFE871CDA40
+        public void .ctor(){} // RVA: 0x7FFAFC07E4B0
+        public void ReadDigest(){} // RVA: 0x7FFAF30E74D0
+        public void WriteDigest(){} // RVA: 0x7FFAF2F476A0
+        public void Read(){} // RVA: 0x7FFAFC07E610
+        public void ReadByte(){} // RVA: 0x7FFAFC07E6D0
+        public void Write(){} // RVA: 0x7FFAFC07E760
+        public void WriteByte(){} // RVA: 0x7FFAFC07E820
+        public void get_CanRead(){} // RVA: 0x7FFAF8EC5140
+        public void get_CanWrite(){} // RVA: 0x7FFAF9539DD0
+        public void get_CanSeek(){} // RVA: 0x7FFAF8EC5170
+        public void get_Length(){} // RVA: 0x7FFAF913EC70
+        public void get_Position(){} // RVA: 0x7FFAF913ECA0
+        public void set_Position(){} // RVA: 0x7FFAF94C42C0
+        public void Close(){} // RVA: 0x7FFAFC07E8B0
+        public void Flush(){} // RVA: 0x7FFAF8EC5940
+        public void Seek(){} // RVA: 0x7FFAF9539D40
+        public void SetLength(){} // RVA: 0x7FFAF913EB50
     }
 
-    public class MacSink : BaseOutputStream
+    public class MacSink
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IMac mMac; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89F83F60
-        public void get_Mac(){} // RVA: 0x7FFE8144E200
-        public void WriteByte(){} // RVA: 0x7FFE8A030D10
-        public void Write(){} // RVA: 0x7FFE8A030D70
+        public void .ctor(){} // RVA: 0x7FFAFBFD1B90
+        public void get_Mac(){} // RVA: 0x7FFAF30E74D0
+        public void WriteByte(){} // RVA: 0x7FFAFC07E930
+        public void Write(){} // RVA: 0x7FFAFC07E990
     }
 
-    public class MacStream : Stream
+    public class MacStream
     {
-        public System.IO.Stream stream; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IMac inMac; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IMac outMac; // 0x38
-        public object field_3; // 0x57C
-        public object field_4; // 0x57D
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A030E00
-        public void ReadMac(){} // RVA: 0x7FFE8144E200
-        public void WriteMac(){} // RVA: 0x7FFE8143BA80
-        public void Read(){} // RVA: 0x7FFE8A030F60
-        public void ReadByte(){} // RVA: 0x7FFE8A031020
-        public void Write(){} // RVA: 0x7FFE8A0310B0
-        public void WriteByte(){} // RVA: 0x7FFE8A031170
-        public void get_CanRead(){} // RVA: 0x7FFE86F55B40
-        public void get_CanWrite(){} // RVA: 0x7FFE875C90C0
-        public void get_CanSeek(){} // RVA: 0x7FFE86F55B70
-        public void get_Length(){} // RVA: 0x7FFE871CDB60
-        public void get_Position(){} // RVA: 0x7FFE871CDB90
-        public void set_Position(){} // RVA: 0x7FFE875535C0
-        public void Close(){} // RVA: 0x7FFE8A031200
-        public void Flush(){} // RVA: 0x7FFE86F56340
-        public void Seek(){} // RVA: 0x7FFE875C9030
-        public void SetLength(){} // RVA: 0x7FFE871CDA40
+        public void .ctor(){} // RVA: 0x7FFAFC07EA20
+        public void ReadMac(){} // RVA: 0x7FFAF30E74D0
+        public void WriteMac(){} // RVA: 0x7FFAF2F476A0
+        public void Read(){} // RVA: 0x7FFAFC07EB80
+        public void ReadByte(){} // RVA: 0x7FFAFC07EC40
+        public void Write(){} // RVA: 0x7FFAFC07ECD0
+        public void WriteByte(){} // RVA: 0x7FFAFC07ED90
+        public void get_CanRead(){} // RVA: 0x7FFAF8EC5140
+        public void get_CanWrite(){} // RVA: 0x7FFAF9539DD0
+        public void get_CanSeek(){} // RVA: 0x7FFAF8EC5170
+        public void get_Length(){} // RVA: 0x7FFAF913EC70
+        public void get_Position(){} // RVA: 0x7FFAF913ECA0
+        public void set_Position(){} // RVA: 0x7FFAF94C42C0
+        public void Close(){} // RVA: 0x7FFAFC07EE20
+        public void Flush(){} // RVA: 0x7FFAF8EC5940
+        public void Seek(){} // RVA: 0x7FFAF9539D40
+        public void SetLength(){} // RVA: 0x7FFAF913EB50
     }
 
-    public class SignerSink : BaseOutputStream
+    public class SignerSink
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ISigner mSigner; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89F83F60
-        public void get_Signer(){} // RVA: 0x7FFE8144E200
-        public void WriteByte(){} // RVA: 0x7FFE8A031280
-        public void Write(){} // RVA: 0x7FFE8A0312E0
+        public void .ctor(){} // RVA: 0x7FFAFBFD1B90
+        public void get_Signer(){} // RVA: 0x7FFAF30E74D0
+        public void WriteByte(){} // RVA: 0x7FFAFC07EEA0
+        public void Write(){} // RVA: 0x7FFAFC07EF00
     }
 
-    public class SignerStream : Stream
+    public class SignerStream
     {
-        public System.IO.Stream stream; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ISigner inSigner; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ISigner outSigner; // 0x38
-        public object field_3; // 0x582
-        public object field_4; // 0x583
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A031370
-        public void ReadSigner(){} // RVA: 0x7FFE8144E200
-        public void WriteSigner(){} // RVA: 0x7FFE8143BA80
-        public void Read(){} // RVA: 0x7FFE8A0314D0
-        public void ReadByte(){} // RVA: 0x7FFE8A031590
-        public void Write(){} // RVA: 0x7FFE8A031620
-        public void WriteByte(){} // RVA: 0x7FFE8A0316E0
-        public void get_CanRead(){} // RVA: 0x7FFE86F55B40
-        public void get_CanWrite(){} // RVA: 0x7FFE875C90C0
-        public void get_CanSeek(){} // RVA: 0x7FFE86F55B70
-        public void get_Length(){} // RVA: 0x7FFE871CDB60
-        public void get_Position(){} // RVA: 0x7FFE871CDB90
-        public void set_Position(){} // RVA: 0x7FFE875535C0
-        public void Close(){} // RVA: 0x7FFE8A031770
-        public void Flush(){} // RVA: 0x7FFE86F56340
-        public void Seek(){} // RVA: 0x7FFE875C9030
-        public void SetLength(){} // RVA: 0x7FFE871CDA40
+        public void .ctor(){} // RVA: 0x7FFAFC07EF90
+        public void ReadSigner(){} // RVA: 0x7FFAF30E74D0
+        public void WriteSigner(){} // RVA: 0x7FFAF2F476A0
+        public void Read(){} // RVA: 0x7FFAFC07F0F0
+        public void ReadByte(){} // RVA: 0x7FFAFC07F1B0
+        public void Write(){} // RVA: 0x7FFAFC07F240
+        public void WriteByte(){} // RVA: 0x7FFAFC07F300
+        public void get_CanRead(){} // RVA: 0x7FFAF8EC5140
+        public void get_CanWrite(){} // RVA: 0x7FFAF9539DD0
+        public void get_CanSeek(){} // RVA: 0x7FFAF8EC5170
+        public void get_Length(){} // RVA: 0x7FFAF913EC70
+        public void get_Position(){} // RVA: 0x7FFAF913ECA0
+        public void set_Position(){} // RVA: 0x7FFAF94C42C0
+        public void Close(){} // RVA: 0x7FFAFC07F390
+        public void Flush(){} // RVA: 0x7FFAF8EC5940
+        public void Seek(){} // RVA: 0x7FFAF9539D40
+        public void SetLength(){} // RVA: 0x7FFAF913EB50
     }
 
 }

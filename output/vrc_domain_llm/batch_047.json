@@ -1,0 +1,104 @@
+[
+  {
+    "namespace": "",
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_6F55",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "Start"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_863",
+      "m_AA2",
+      "m_D9D",
+      "m_693",
+      "m_DAA",
+      "m_7B8",
+      "m_C2B",
+      "m_04C",
+      "m_A87",
+      "m_F78",
+      "m_DCB",
+      "m_1F4",
+      "m_AB4",
+      "m_A50",
+      "m_0CC"
+    ],
+    "all_method_count": 46,
+    "chunk_index": 1,
+    "chunk_count": 2
+  },
+  {
+    "namespace": "",
+    "class": "NetworkSyncableSibling_F739",
+    "parent": "",
+    "known_methods": [
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_240",
+      "m_9A2",
+      "m_783",
+      "m_94B",
+      "m_700",
+      "m_972",
+      "m_DFD",
+      "m_497",
+      "m_098",
+      "m_B84",
+      "m_F57",
+      "m_123",
+      "m_AD4",
+      "m_3D0",
+      "m_49E",
+      "m_840",
+      "m_7BB",
+      "m_659",
+      "m_F7B",
+      "m_D14",
+      "m_AC1",
+      "m_E28",
+      "m_1CF",
+      "m_BAE",
+      "m_A67"
+    ],
+    "all_method_count": 43,
+    "chunk_index": 0,
+    "chunk_count": 2
+  },
+  {
+    "namespace": "",
+    "class": "NetworkSyncableSibling_F739",
+    "parent": "",
+    "known_methods": [
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_405",
+      "m_28D",
+      "m_B83",
+      "m_DFC",
+      "m_AC4",
+      "m_D52",
+      "m_85F",
+      "m_802",
+      "m_4EF",
+      "m_D20",
+      "m_00A",
+      "m_E7F",
+      "m_680",
+      "m_131",
+      "m_94D",
+      "m_CB5"
+    ],
+    "all_method_count": 43,
+    "chunk_index": 1,
+    "chunk_count": 2
+  }
+]

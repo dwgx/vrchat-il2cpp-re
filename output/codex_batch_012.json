@@ -1,0 +1,275 @@
+[
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_CABA",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start_3DC19E05DD1C",
+      "Awake",
+      "OnDestroy",
+      "OnDisable"
+    ],
+    "fields": [
+      "_cABA"
+    ],
+    "hash_methods": [
+      "m_2BE",
+      "m_2CD",
+      "m_2FF"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_EB3E",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "Initialize",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D5A",
+      "m_CA2",
+      "m_8D8",
+      "m_A53",
+      "m_B1D",
+      "m_1C9"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSiblingSibling_F739",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_432",
+      "m_AB6",
+      "m_822",
+      "m_864",
+      "m_3E6"
+    ]
+  },
+  {
+    "class": "LifecycleComponentSibling_FD32Sibling_ECDB",
+    "parent": "",
+    "readable_methods": [
+      "Start",
+      "FixedUpdate",
+      "LateUpdate",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_385",
+      "m_C9C",
+      "m_2DE",
+      "m_9F1",
+      "m_9DD"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibSibling_7AFA",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "Initialize",
+      "OnEnable",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7C9",
+      "m_F46",
+      "m_338",
+      "m_692",
+      "m_7B4"
+    ]
+  },
+  {
+    "class": "SerializableVector3Sibling_7D10",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Initialize_D74F9E3B7B27",
+      "set_Value",
+      "set_Value_F501E422C7A0",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D74",
+      "m_06E",
+      "m_1AA",
+      "m_229"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSiblSibling_E335",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Initialize_D74F9E3B7B27",
+      "set_Value",
+      "set_Value_F501E422C7A0",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_229",
+      "m_745",
+      "m_D65",
+      "m_06E"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSibling_B4E4",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "OnEnable_2B4F45D701AE",
+      ".ctor_F5D8351B397B",
+      "Initialize",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B8E",
+      "m_834",
+      "m_C1B",
+      "m_597"
+    ]
+  },
+  {
+    "class": "ComplexComponentImpl_715D_CA4D",
+    "parent": "",
+    "readable_methods": [
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "Start"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E08",
+      "m_47A",
+      "m_7EB",
+      "m_265"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSiblingSibling_4BC5",
+    "parent": "",
+    "readable_methods": [
+      "LateUpdate",
+      "OnDisable",
+      "Awake",
+      "Update",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_363",
+      "m_A22",
+      "m_BFC",
+      "m_8C7"
+    ]
+  },
+  {
+    "class": "ONSPSettingsSiblingSibling_0133",
+    "parent": "",
+    "readable_methods": [
+      ".ctor_23927B099279",
+      "Initialize",
+      "set_Instance",
+      "set_Instance_217A89CC68BA",
+      "get_Instance_25E96967FA1E"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B4A",
+      "m_38F",
+      "m_21C",
+      "m_74B"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSibling_5275",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1CC",
+      "m_076",
+      "m_8A3",
+      "m_97E"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_B7FD",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "SetChangeValue",
+      "Update_3FBC6AEEA162",
+      "Update_2B4F45D701AE",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A00",
+      "m_FF4",
+      "m_8A3",
+      "m_2B4"
+    ]
+  },
+  {
+    "class": "LifecycleComponentImpl_AB77SibSibling_C982",
+    "parent": "",
+    "readable_methods": [
+      "OnDestroy",
+      "Start",
+      "FixedUpdate",
+      "Update",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E6F",
+      "m_6F5",
+      "m_71D",
+      "m_CB2"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_2C1A",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "FixedUpdate",
+      "OnEnable",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AF0",
+      "m_9A3",
+      "m_CA7",
+      "m_0AB"
+    ]
+  }
+]

@@ -5,115 +5,100 @@
 
 namespace VRC.SDK3.Midi
 {
-    public class MidiData : Object
+    public class MidiData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class MidiFile : ScriptableObject
+    public class MidiFile
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE8A45EBE0
-        public void PrintRawData(){} // RVA: 0x7FFE8A45EFB0
-        public void PrintProcessedData(){} // RVA: 0x7FFE8A45F490
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void Create(){} // RVA: 0x7FFAFC4B31B0
+        public void PrintRawData(){} // RVA: 0x7FFAFC4B3580
+        public void PrintProcessedData(){} // RVA: 0x7FFAFC4B3A60
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class MidiImportSettings : Object
+    public class MidiImportSettings
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A45F8F0
+        public void .ctor(){} // RVA: 0x7FFAFC4B3EC0
     }
 
-    public class MidiRawData : Object
+    public class MidiRawData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class MidiRawDataProcessor : Object
+    public class MidiRawDataProcessor
     {
-        public System.Collections.Generic.List`1<MidiBlock> allBlocks; // 0x10
-
         // ── Methods ──
-        public void get_Bpm(){} // RVA: 0x7FFE815F1380
-        public void set_Bpm(){} // RVA: 0x7FFE81C15740
-        public void .ctor(){} // RVA: 0x7FFE8A4625A0
+        public void get_Bpm(){} // RVA: 0x7FFAF3198A80
+        public void set_Bpm(){} // RVA: 0x7FFAF3198B80
+        public void .ctor(){} // RVA: 0x7FFAFC4B6B70
     }
 
-    public class MidiUtilities : Object
+    public class MidiUtilities
     {
         // ── Methods ──
-        public void MidiTimeToMs(){} // RVA: 0x7FFE8A463360
+        public void MidiTimeToMs(){} // RVA: 0x7FFAFC4B7930
     }
 
-    public class VRCMidiHandler : MonoBehaviour
+    public class VRCMidiHandler
     {
-        public int STATUS_NOTE_OFF;
-        public int STATUS_NOTE_ON;
-        public int STATUS_CONTROL_CHANGE;
-        public VRC.SDKBase.Midi.IVRCMidiInput _midiIn; // 0x20
-
         // ── Methods ──
-        public void get_MidiIn(){} // RVA: 0x7FFE8A463390
-        public void add_OnNoteOn(){} // RVA: 0x7FFE8A463540
-        public void remove_OnNoteOn(){} // RVA: 0x7FFE8A463630
-        public void add_OnNoteOff(){} // RVA: 0x7FFE8A463720
-        public void remove_OnNoteOff(){} // RVA: 0x7FFE8A463810
-        public void add_OnControlChange(){} // RVA: 0x7FFE8A463900
-        public void remove_OnControlChange(){} // RVA: 0x7FFE8A4639F0
-        public void get_Initialize(){} // RVA: 0x7FFE8A463AE0
-        public void set_Initialize(){} // RVA: 0x7FFE8A463B20
-        public void get_OnLog(){} // RVA: 0x7FFE8A463BC0
-        public void set_OnLog(){} // RVA: 0x7FFE8A463C00
-        public void get_Instance(){} // RVA: 0x7FFE8A463CA0
-        public void set_Instance(){} // RVA: 0x7FFE8A463FB0
-        public void OpenMidiInput(){} // RVA: 0x7FFE80E2E3D0
-        public void SendMidiMessage(){} // RVA: 0x7FFE8216A280
-        public void Update(){} // RVA: 0x7FFE8A464050
-        public void OnDestroy(){} // RVA: 0x7FFE8A464230
-        public void Log(){} // RVA: 0x7FFE8A4643F0
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void get_MidiIn(){} // RVA: 0x7FFAFC4B7960
+        public void add_OnNoteOn(){} // RVA: 0x7FFAFC4B7B10
+        public void remove_OnNoteOn(){} // RVA: 0x7FFAFC4B7C00
+        public void add_OnNoteOff(){} // RVA: 0x7FFAFC4B7CF0
+        public void remove_OnNoteOff(){} // RVA: 0x7FFAFC4B7DE0
+        public void add_OnControlChange(){} // RVA: 0x7FFAFC4B7ED0
+        public void remove_OnControlChange(){} // RVA: 0x7FFAFC4B7FC0
+        public void get_Initialize(){} // RVA: 0x7FFAFC4B80B0
+        public void set_Initialize(){} // RVA: 0x7FFAFC4B80F0
+        public void get_OnLog(){} // RVA: 0x7FFAFC4B8190
+        public void set_OnLog(){} // RVA: 0x7FFAFC4B81D0
+        public void get_Instance(){} // RVA: 0x7FFAFC4B8270
+        public void set_Instance(){} // RVA: 0x7FFAFC4B8580
+        public void OpenMidiInput(){} // RVA: 0x7FFAF2ABCE50
+        public void SendMidiMessage(){} // RVA: 0x7FFAF3EAE5C0
+        public void Update(){} // RVA: 0x7FFAFC4B8620
+        public void OnDestroy(){} // RVA: 0x7FFAFC4B8800
+        public void Log(){} // RVA: 0x7FFAFC4B89C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
-    public class VRCMidiListener : MonoBehaviour
+    public class VRCMidiListener
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFE8A464450
-        public void NoteOn(){} // RVA: 0x7FFE8A464850
-        public void NoteOff(){} // RVA: 0x7FFE8A464BF0
-        public void ControlChange(){} // RVA: 0x7FFE8A464F90
-        public void OnDisable(){} // RVA: 0x7FFE8A465330
-        public void .ctor(){} // RVA: 0x7FFE8A4656E0
+        public void OnEnable(){} // RVA: 0x7FFAFC4B8A20
+        public void NoteOn(){} // RVA: 0x7FFAFC4B8E20
+        public void NoteOff(){} // RVA: 0x7FFAFC4B91C0
+        public void ControlChange(){} // RVA: 0x7FFAFC4B9560
+        public void OnDisable(){} // RVA: 0x7FFAFC4B9900
+        public void .ctor(){} // RVA: 0x7FFAFC4B9CB0
     }
 
-    public class VRCMidiPlayer : MonoBehaviour
+    public class VRCMidiPlayer
     {
-        public VRC.SDK3.Midi.MidiFile midiFile; // 0x20
-        public UnityEngine.AudioSource audioSource; // 0x28
-        public VRC.SDK3.Components.AbstractUdonBehaviour[] targetBehaviours; // 0x30
-        public System.Collections.Generic.List`1<TrackProgress> activeTracks; // 0x38
-        public float lastAudioSampleTime; // 0x40
-        public UnityEngine.Coroutine _coroutine; // 0x48
-        public System.ValueTuple`2<string,object>[] argsArray; // 0x50
-
         // ── Methods ──
-        public void get_MidiData(){} // RVA: 0x7FFE8A45F900
-        public void get_Time(){} // RVA: 0x7FFE8A45F910
-        public void set_Time(){} // RVA: 0x7FFE8A45F970
-        public void get_Coroutine(){} // RVA: 0x7FFE81176730
-        public void get_OnBlockStarted(){} // RVA: 0x7FFE8A45F9E0
-        public void get_OnBlockCompleted(){} // RVA: 0x7FFE8A45FB20
-        public void get_OnPlayingStarted(){} // RVA: 0x7FFE8A45FC60
-        public void get_OnPlayingStopped(){} // RVA: 0x7FFE8A45FDA0
-        public void Awake(){} // RVA: 0x7FFE8A45FEE0
-        public void Play(){} // RVA: 0x7FFE8A460080
-        public void Stop(){} // RVA: 0x7FFE8A4603E0
-        public void MidiEnumerator(){} // RVA: 0x7FFE8A4606C0
-        public void OnBlockStart(){} // RVA: 0x7FFE8A4607C0
-        public void OnBlockEnd(){} // RVA: 0x7FFE8A460B80
-        public void .ctor(){} // RVA: 0x7FFE8A460FF0
+        public void get_MidiData(){} // RVA: 0x7FFAFC4B3ED0
+        public void get_Time(){} // RVA: 0x7FFAFC4B3EE0
+        public void set_Time(){} // RVA: 0x7FFAFC4B3F40
+        public void get_Coroutine(){} // RVA: 0x7FFAF2E08730
+        public void get_OnBlockStarted(){} // RVA: 0x7FFAFC4B3FB0
+        public void get_OnBlockCompleted(){} // RVA: 0x7FFAFC4B40F0
+        public void get_OnPlayingStarted(){} // RVA: 0x7FFAFC4B4230
+        public void get_OnPlayingStopped(){} // RVA: 0x7FFAFC4B4370
+        public void Awake(){} // RVA: 0x7FFAFC4B44B0
+        public void Play(){} // RVA: 0x7FFAFC4B4650
+        public void Stop(){} // RVA: 0x7FFAFC4B49B0
+        public void MidiEnumerator(){} // RVA: 0x7FFAFC4B4C90
+        public void OnBlockStart(){} // RVA: 0x7FFAFC4B4D90
+        public void OnBlockEnd(){} // RVA: 0x7FFAFC4B5150
+        public void .ctor(){} // RVA: 0x7FFAFC4B55C0
     }
 
 }

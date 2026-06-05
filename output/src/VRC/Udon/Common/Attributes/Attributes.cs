@@ -5,19 +5,17 @@
 
 namespace VRC.Udon.Common.Attributes
 {
-    public class ExcludeFromUdonWrapper : Attribute
+    public class ExcludeFromUdonWrapper
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UdonWrapperModuleAttribute : Attribute
+    public class UdonWrapperModuleAttribute
     {
-        public System.Type _type; // 0x10
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x7FFE81116380
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_Type(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
 }

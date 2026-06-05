@@ -5,15 +5,13 @@
 
 namespace ThirdParty.Sentry.Sentry
 {
-    public class NoOpDisposable : Object
+    public class NoOpDisposable
     {
-        public System.Lazy`1<Sentry.NoOpDisposable> LazyInstance;
-
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7FFE86DE1300
-        public void Dispose(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE86DE1380
+        public void get_Instance(){} // RVA: 0x7FFAF8D508D0
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF8D50950
     }
 
 }

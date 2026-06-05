@@ -1,518 +1,738 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 57
-// Methods: 201
+// Classes: 100
+// Methods: 250
 
-public class HIDCollectionDescriptor : ValueType
+public class HIDCollectionDescriptor
 {
 }
 
-public class HIDDeviceDescriptor : ValueType
+public class HIDDeviceDescriptor
 {
     // ── Methods ──
-    public void ToJson(){} // RVA: 0x7FFE87A0AE00
-    public void FromJson(){} // RVA: 0x7FFE87A0AE70
+    public void ToJson(){} // RVA: 0x7FFAF9979F70
+    public void FromJson(){} // RVA: 0x7FFAF9979FE0
 }
 
-public class HIDDeviceDescriptorBuilder : ValueType
+public class HIDDeviceDescriptorBuilder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87A0D230 | overloaded x2
-    public void StartReport(){} // RVA: 0x7FFE87A0D260
-    public void AddElement(){} // RVA: 0x7FFE87A0D720 | overloaded x2
-    public void WithPhysicalMinMax(){} // RVA: 0x7FFE87A0D780
-    public void WithLogicalMinMax(){} // RVA: 0x7FFE87A0D940
-    public void Finish(){} // RVA: 0x7FFE87A0DB00
+    public void .ctor(){} // RVA: 0x7FFAF997C3A0 | overloaded x2
+    public void StartReport(){} // RVA: 0x7FFAF997C3D0
+    public void AddElement(){} // RVA: 0x7FFAF997C890 | overloaded x2
+    public void WithPhysicalMinMax(){} // RVA: 0x7FFAF997C8F0
+    public void WithLogicalMinMax(){} // RVA: 0x7FFAF997CAB0
+    public void Finish(){} // RVA: 0x7FFAF997CC70
 }
 
-public class HIDElementDescriptor : ValueType
+public class HIDElementDescriptor
 {
-    public int usage; // 0x10
-    public 0x6654497C usagePage; // 0x14
-    public int unit; // 0x18
-    public int unitExponent; // 0x1C
-    public int logicalMin; // 0x20
-    public int logicalMax; // 0x24
-    public int physicalMin; // 0x28
-    public int physicalMax; // 0x2C
-    public 0x66544714 reportType; // 0x30
-    public int collectionIndex; // 0x34
-
     // ── Methods ──
-    public void get_hasNullState(){} // RVA: 0x7FFE87A09440
-    public void get_hasPreferredState(){} // RVA: 0x7FFE87A09450
-    public void get_isArray(){} // RVA: 0x7FFE87A09460
-    public void get_isNonLinear(){} // RVA: 0x7FFE87A09470
-    public void get_isRelative(){} // RVA: 0x7FFE87A09480
-    public void get_isConstant(){} // RVA: 0x7FFE87A09490
-    public void get_isWrapping(){} // RVA: 0x7FFE87A094A0
-    public void get_isSigned(){} // RVA: 0x7FFE87A094B0
-    public void get_minFloatValue(){} // RVA: 0x7FFE87A094C0
-    public void get_maxFloatValue(){} // RVA: 0x7FFE87A095A0
-    public void Is(){} // RVA: 0x7FFE87A09680
-    public void DetermineName(){} // RVA: 0x7FFE87A09690
-    public void DetermineDisplayName(){} // RVA: 0x7FFE87A09950
-    public void IsUsableElement(){} // RVA: 0x7FFE87A09A30
-    public void DetermineLayout(){} // RVA: 0x7FFE87A09A60
-    public void DetermineFormat(){} // RVA: 0x7FFE87A09B60
-    public void DetermineUsages(){} // RVA: 0x7FFE87A09CE0
-    public void DetermineParameters(){} // RVA: 0x7FFE87A0A060
-    public void DetermineAxisNormalizationParameters(){} // RVA: 0x7FFE87A0A1A0
-    public void DetermineProcessors(){} // RVA: 0x7FFE87A0A350
-    public void DetermineDefaultState(){} // RVA: 0x7FFE87A0A3B0
-    public void AddChildControls(){} // RVA: 0x7FFE87A0A4F0
+    public void get_hasNullState(){} // RVA: 0x7FFAF99785B0
+    public void get_hasPreferredState(){} // RVA: 0x7FFAF99785C0
+    public void get_isArray(){} // RVA: 0x7FFAF99785D0
+    public void get_isNonLinear(){} // RVA: 0x7FFAF99785E0
+    public void get_isRelative(){} // RVA: 0x7FFAF99785F0
+    public void get_isConstant(){} // RVA: 0x7FFAF9978600
+    public void get_isWrapping(){} // RVA: 0x7FFAF9978610
+    public void get_isSigned(){} // RVA: 0x7FFAF9978620
+    public void get_minFloatValue(){} // RVA: 0x7FFAF9978630
+    public void get_maxFloatValue(){} // RVA: 0x7FFAF9978710
+    public void Is(){} // RVA: 0x7FFAF99787F0
+    public void DetermineName(){} // RVA: 0x7FFAF9978800
+    public void DetermineDisplayName(){} // RVA: 0x7FFAF9978AC0
+    public void IsUsableElement(){} // RVA: 0x7FFAF9978BA0
+    public void DetermineLayout(){} // RVA: 0x7FFAF9978BD0
+    public void DetermineFormat(){} // RVA: 0x7FFAF9978CD0
+    public void DetermineUsages(){} // RVA: 0x7FFAF9978E50
+    public void DetermineParameters(){} // RVA: 0x7FFAF99791D0
+    public void DetermineAxisNormalizationParameters(){} // RVA: 0x7FFAF9979310
+    public void DetermineProcessors(){} // RVA: 0x7FFAF99794C0
+    public void DetermineDefaultState(){} // RVA: 0x7FFAF9979520
+    public void AddChildControls(){} // RVA: 0x7FFAF9979660
 }
 
-public class HIDItemStateGlobal : ValueType
+public class HIDItemStateGlobal
 {
     // ── Methods ──
-    public void GetUsagePage(){} // RVA: 0x7FFE87A0F250
-    public void GetPhysicalMin(){} // RVA: 0x7FFE87A0F2E0
-    public void GetPhysicalMax(){} // RVA: 0x7FFE87A0F370
+    public void GetUsagePage(){} // RVA: 0x7FFAF997E3C0
+    public void GetPhysicalMin(){} // RVA: 0x7FFAF997E450
+    public void GetPhysicalMax(){} // RVA: 0x7FFAF997E4E0
 }
 
-public class HIDItemStateLocal : ValueType
+public class HIDItemStateLocal
 {
     // ── Methods ──
-    public void Reset(){} // RVA: 0x7FFE87A0EF00
-    public void SetUsage(){} // RVA: 0x7FFE87A0EFB0
-    public void GetUsage(){} // RVA: 0x7FFE87A0F150
+    public void Reset(){} // RVA: 0x7FFAF997E070
+    public void SetUsage(){} // RVA: 0x7FFAF997E120
+    public void GetUsage(){} // RVA: 0x7FFAF997E2C0
 }
 
-public class HIDLayoutBuilder : Object
+public class HIDLayoutBuilder
 {
     // ── Methods ──
-    public void Build(){} // RVA: 0x7FFE87A074C0
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void Build(){} // RVA: 0x7FFAF9976630
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class HIDPageUsage : ValueType
+public class HIDPageUsage
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87A0FA70 | overloaded x2
+    public void .ctor(){} // RVA: 0x7FFAF997EBE0 | overloaded x2
 }
 
-public class HIDReportData : ValueType
+public class HIDReportData
 {
     // ── Methods ──
-    public void FindOrAddReport(){} // RVA: 0x7FFE87A0ECE0
+    public void FindOrAddReport(){} // RVA: 0x7FFAF997DE50
 }
 
-public class HMacDrbgProvider : Object
+public class HMacDrbgProvider : `
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87684800
-    public void Get(){} // RVA: 0x7FFE89FDFAA0
+    public void .ctor(){} // RVA: 0x7FFAF95F5550
+    public void Get(){} // RVA: 0x7FFAFC02D6D0
 }
 
-public class HTTP : Object
+public class HTTP
 {
     // ── Methods ──
-    public void SetHttpTransferUpdateCallback(){} // RVA: 0x7FFE86C1CDB0
+    public void SetHttpTransferUpdateCallback(){} // RVA: 0x7FFAF8B8BFE0
 }
 
-public class HTTP_REQUEST_HEADER_ID : Object
+public class HTTP_REQUEST_HEADER_ID
 {
     // ── Methods ──
-    public void ToString(){} // RVA: 0x7FFE87683810
-    public void .cctor(){} // RVA: 0x7FFE87683890
+    public void ToString(){} // RVA: 0x7FFAF95F4560
+    public void .cctor(){} // RVA: 0x7FFAF95F45E0
 }
 
-public class HandInputData : ValueType
+public class HandInputData
 {
-    // ── Methods ──
-    public void Equals(){} // RVA: 0x7FFE822CFF20
-    public void InternalEquals(){} // RVA: 0x7FFE822D0290
-    public void DefaultEquals(){} // RVA: 0x7FFE822D0960
-    public void GetHashCode(){} // RVA: 0x7FFE822D0E40
-    public void InternalGetHashCode(){} // RVA: 0x7FFE822D1320
-    public void ToString(){} // RVA: 0x7FFE822D19C0
-    public void GetHashCodeOfPtr(){} // RVA: 0x7FFE822D1EA0
-    public void ValidateStructPointers(){} // RVA: 0x7FFE822D2A70
     // ── Unresolved (hash) ──
-    public void m_5F0(){} // RVA: 0x7FFE822D2570
-    public void m_7B4(){} // RVA: 0x7FFE822D2EF0
+    public void m_D15(){} // RVA: 0x7FFAF40140D0
+    public void m_2A0(){} // RVA: 0x7FFAF40145D0
+    public void m_8D5(){} // RVA: 0x7FFAF4014CA0
+    public void m_D42(){} // RVA: 0x7FFAF40151A0
+    public void m_F3E(){} // RVA: 0x7FFAF4015840
+    public void m_1DF(){} // RVA: 0x7FFAF4015F10
+    public void m_69A(){} // RVA: 0x7FFAF40165E0
+    public void m_61E(){} // RVA: 0x7FFAF4016950
+    public void m_9FB(){} // RVA: 0x7FFAF4016CC0
+    public void m_C4E(){} // RVA: 0x7FFAF4017190
 }
 
-public class HandState : ValueType
+public class HandState
 {
 }
 
-public class HandStateInternal : ValueType
+public class HandStateInternal
 {
 }
 
-public class HandTrackingData : ValueType
+public class HandTrackingData
 {
 }
 
-public class Handler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8117B190
-    public void Invoke(){} // RVA: 0x7FFE81156C60
-    public void BeginInvoke(){} // RVA: 0x7FFE81156C70
-    public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
-}
-
-public class Handlers : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81143A50
-}
-
-public class HandshakeHashUpdateStream : BaseOutputStream
+public class Handler
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE89F83F60
-    public void Write(){} // RVA: 0x7FFE89F95380
+    public void .ctor(){} // RVA: 0x7FFAF2E0D190
+    public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+    public void BeginInvoke(){} // RVA: 0x7FFAF2DE8C70
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class HandshakeMessage : MemoryStream
+public class Handlers
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE89FB2600 | overloaded x2
-    public void Write(){} // RVA: 0x7FFE89FB26E0
-    public void WriteToRecordStream(){} // RVA: 0x7FFE89FB2720
+    public void .ctor(){} // RVA: 0x7FFAF2DD5A50
 }
 
-public class HapticEventDelegate : MulticastDelegate
+public class HandshakeHashUpdateStream
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8A4BC020
-    public void Invoke(){} // RVA: 0x7FFE84424610
-    public void BeginInvoke(){} // RVA: 0x7FFE8A4BC1A0
-    public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+    public void .ctor(){} // RVA: 0x7FFAFBFD1B90
+    public void Write(){} // RVA: 0x7FFAFBFE2FB0
 }
 
-public class HapticInfo : Object
+public class HandshakeMessage
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAFC000230 | overloaded x2
+    public void Write(){} // RVA: 0x7FFAFC000310
+    public void WriteToRecordStream(){} // RVA: 0x7FFAFC000350
 }
 
-public class HapticsBuffer : ValueType
-{
-}
-
-public class HapticsDesc : ValueType
-{
-}
-
-public class HapticsState : ValueType
-{
-}
-
-public class HasValue : NullableMethodCallInstruction
+public class HapticEventDelegate
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7FFE87196840
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAFC529B70
+    public void Invoke(){} // RVA: 0x7FFAF62A7A20
+    public void BeginInvoke(){} // RVA: 0x7FFAFC529CF0
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
 }
 
-public class Hash128Input : TextInputBase
+public class HapticInfo
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87E5FE40
-    public void get_allowedCharacters(){} // RVA: 0x7FFE87E5FF40
-    public void AcceptCharacter(){} // RVA: 0x7FFE87E5FF80
-    public void StringToValue(){} // RVA: 0x7FFE87E5F8B0
-    public void Parse(){} // RVA: 0x7FFE87E60080
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class HashBucket : ValueType
+public class HapticsBuffer
 {
-    public System.Collections.Generic.KeyValuePair`2<U,T> _firstValue;
-    public Node<System.Collections.Generic.KeyValuePair`2<U,T>> _additionalElements;
-    public object field_2; // 0x41
-
-    // ── Methods ──
-    public void get_IsEmpty(){} // RVA: 0x7FFE80E2F150
-    public void get_FirstValue(){} // RVA: 0x7FFE810A1420
-    public void get_AdditionalElements(){} // RVA: 0x7FFE80E2E2E0
-    public void GetEnumerator(){} // RVA: 0x7FFE810A1420
-    public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
-    public void Equals(){} // RVA: 0x7FFE80E2F3B0
-    public void GetHashCode(){} // RVA: 0x7FFE80E2EDB0
-    public void TryGetValue(){} // RVA: 0x7FFE810A1420
-    public void Freeze(){} // RVA: 0x7FFE80E45FE0
 }
 
-public class HashBucketByRefEqualityComparer : Object
+public class HapticsDesc
 {
-    public System.Collections.Generic.IEqualityComparer`1<HashBucket<T>> s_defaultInstance;
-
-    // ── Methods ──
-    public void get_DefaultInstance(){} // RVA: 0x7FFE80E2DEE0
-    public void .ctor(){} // RVA: 0x7FFE80E45FE0
-    public void Equals(){} // RVA: 0x7FFE810A1420
-    public void GetHashCode(){} // RVA: 0x7FFE810A1420
-    public void .cctor(){} // RVA: 0x7FFE80E46010
 }
 
-public class HashBucketByValueEqualityComparer : Object
+public class HapticsState
 {
-    public System.Collections.Generic.IEqualityComparer`1<HashBucket<T>> s_defaultInstance;
-
-    // ── Methods ──
-    public void get_DefaultInstance(){} // RVA: 0x7FFE80E2DEE0
-    public void .ctor(){} // RVA: 0x7FFE80E460A0
-    public void Equals(){} // RVA: 0x7FFE810A1420
-    public void GetHashCode(){} // RVA: 0x7FFE810A1420
-    public void .cctor(){} // RVA: 0x7FFE80E46010
 }
 
-public class HashCode : ValueType
+public class HasValue
 {
     // ── Methods ──
-    public void Add(){} // RVA: 0x7FFE810A1420
-    public void ToHashCode(){} // RVA: 0x7FFE826F4220
+    public void Run(){} // RVA: 0x7FFAF9107950
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class HashCode64`1 : ValueType
+public class Hash128Input
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7FFE80E46010
+    public void .ctor(){} // RVA: 0x7FFAF9DCFCC0
+    public void get_allowedCharacters(){} // RVA: 0x7FFAF9DCFDC0
+    public void AcceptCharacter(){} // RVA: 0x7FFAF9DCFE00
+    public void StringToValue(){} // RVA: 0x7FFAF9DCF730
+    public void Parse(){} // RVA: 0x7FFAF9DCFF00
 }
 
-public class HashCodeOfStringDelegate : MulticastDelegate
+public class HashBucket
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87554570
-    public void Invoke(){} // RVA: 0x7FFE812574E0
+    public void get_IsEmpty(){} // RVA: 0x7FFAF2ABDBE0
+    public void get_FirstValue(){} // RVA: 0x7FFAF2D33FA0
+    public void get_AdditionalElements(){} // RVA: 0x7FFAF2ABCD60
+    public void GetEnumerator(){} // RVA: 0x7FFAF2D33FA0
+    public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+    public void Equals(){} // RVA: 0x7FFAF2ABDE40
+    public void GetHashCode(){} // RVA: 0x7FFAF2ABD840
+    public void TryGetValue(){} // RVA: 0x7FFAF2D33FA0
+    public void Freeze(){} // RVA: 0x7FFAF2AD4A50
 }
 
-public class HashDrbgProvider : Object
+public class HashBucket
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87684800
-    public void Get(){} // RVA: 0x7FFE89FDFA00
+    public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+    public void get_IsEmpty(){} // RVA: 0x7FFAF2ABDBE0
+    public void get_FirstValue(){} // RVA: 0x7FFAF2D33FA0
+    public void get_AdditionalElements(){} // RVA: 0x7FFAF2ABCD60
+    public void GetEnumerator(){} // RVA: 0x7FFAF2D33FA0
+    public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+    public void Equals(){} // RVA: 0x7FFAF2ABDE40
+    public void GetHashCode(){} // RVA: 0x7FFAF2ABD840
+    public void Add(){} // RVA: 0x7FFAF2D33FA0
+    public void TryGetValue(){} // RVA: 0x7FFAF2D33FA0
+    public void Freeze(){} // RVA: 0x7FFAF2AD4A50
 }
 
-public class HashPair : ValueType
-{
-}
-
-public class HashSetPoolImpl`1 : Object
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x7FFE80E46010
-}
-
-public class HashsetIterator`1 : ValueType
-{
-    public bool isNull;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE80E460A0
-    public void GetEnumerator(){} // RVA: 0x7FFE810A1420
-    public void get_Current(){} // RVA: 0x7FFE810A1420
-    public void MoveNext(){} // RVA: 0x7FFE80E2F150
-    public void Dispose(){} // RVA: 0x7FFE80E45FE0
-}
-
-public class HashtableDebugView : Object
-{
-}
-
-public class HashtableEnumerator : Object
-{
-    public System.Collections.Hashtable _hashtable; // 0x10
-    public int _bucket; // 0x18
-    public int _version; // 0x1C
-    public bool _current; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8694F0B0
-    public void Clone(){} // RVA: 0x7FFE868BC310
-    public void get_Key(){} // RVA: 0x7FFE8694F140
-    public void MoveNext(){} // RVA: 0x7FFE8694F1B0
-    public void get_Entry(){} // RVA: 0x7FFE8694F2E0
-    public void get_Current(){} // RVA: 0x7FFE8694F360
-    public void get_Value(){} // RVA: 0x7FFE8694F440
-    public void Reset(){} // RVA: 0x7FFE8694F4B0
-}
-
-public class HeadChopBone : Object
-{
-    public UnityEngine.Transform transform; // 0x10
-
-    // ── Methods ──
-    public void get_Transform(){} // RVA: 0x7FFE81116380
-    public void CanApply(){} // RVA: 0x7FFE8A482570
-    public void GetDesiredScaleFactor(){} // RVA: 0x7FFE8A482590
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-}
-
-public class HeadChopData : ValueType
-{
-}
-
-public class HeaderBucket : Object
-{
-    public object Parsed; // 0x10
-    public System.Collections.Generic.List`1<string> values; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86F99960
-    public void get_HasStringValues(){} // RVA: 0x7FFE873528B0
-    public void get_Values(){} // RVA: 0x7FFE87352900
-    public void set_Values(){} // RVA: 0x7FFE81161E80
-    public void ParsedToString(){} // RVA: 0x7FFE873529C0
-}
-
-public class HeaderTypeInfo`2 : HeaderInfo
+public class HashBucket
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8417F9E0
-    public void AddToCollection(){} // RVA: 0x7FFE8417FAA0
-    public void CreateCollection(){} // RVA: 0x7FFE8417FC40
-    public void ToStringCollection(){} // RVA: 0x7FFE84181540
-    public void TryParse(){} // RVA: 0x7FFE84181910
+    public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+    public void get_IsEmpty(){} // RVA: 0x7FFAF2ABDBE0
+    public void Equals(){} // RVA: 0x7FFAF2ABDE40
+    public void GetHashCode(){} // RVA: 0x7FFAF2ABD840
+    public void EqualsByRef(){} // RVA: 0x7FFAF2D33FA0
+    public void EqualsByValue(){} // RVA: 0x7FFAF2D33FA0
+    public void Add(){} // RVA: 0x7FFAF2D33FA0
+    public void Contains(){} // RVA: 0x7FFAF2D33FA0
+    public void Freeze(){} // RVA: 0x7FFAF2AD4A50
 }
 
-public class Heading : ValueType
+public class HashBucket
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE82A97200
+    public void .ctor(){} // RVA: 0x7FFAF5F66010
+    public void get_IsEmpty(){} // RVA: 0x7FFAF5F66160
+    public void Equals(){} // RVA: 0x7FFAF5F60F90
+    public void GetHashCode(){} // RVA: 0x7FFAF5355A70
+    public void EqualsByRef(){} // RVA: 0x7FFAF47E6F50
+    public void EqualsByValue(){} // RVA: 0x7FFAF5F66170
+    public void Add(){} // RVA: 0x7FFAF5F66220
+    public void Contains(){} // RVA: 0x7FFAF5F66420
+    public void Freeze(){} // RVA: 0x7FFAF5F66540
 }
 
-public class HebrewValue : ValueType
+public class HashBucket
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE84455D80
 }
 
-public class HeightProperty : Property`2
+public class HashBucket
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x7FFE87D4F090
-    public void .ctor(){} // RVA: 0x7FFE87D4F0D0
+    public void .ctor(){} // RVA: 0x7FFAF5F67DA0
+    public void get_IsEmpty(){} // RVA: 0x7FFAF3A20920
+    public void get_FirstValue(){} // RVA: 0x7FFAF5F67890
+    public void get_AdditionalElements(){} // RVA: 0x7FFAF2DA8380
+    public void GetEnumerator(){} // RVA: 0x7FFAF5F67910
+    public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFAF5F67EF0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF5F67EF0
+    public void Equals(){} // RVA: 0x7FFAF5F60F90
+    public void GetHashCode(){} // RVA: 0x7FFAF5355A70
+    public void Add(){} // RVA: 0x7FFAF5F67FB0
+    public void TryGetValue(){} // RVA: 0x7FFAF5F68A90
+    public void Freeze(){} // RVA: 0x7FFAF5F68D30
 }
 
-public class HeightmapChangedCallback : MulticastDelegate
+public class HashBucket
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87D9E2D0
-    public void Invoke(){} // RVA: 0x7FFE86B317D0
 }
 
-public class Hierarchy : ValueType
+public class HashBucket
 {
-    public string k_InvalidHierarchyChangeMsg;
-    public UnityEngine.UIElements.VisualElement m_Owner; // 0x10
-    public System.Action m_OnGUIHandler; // 0x3C8
-    public UnityEngine.ObjectGUIState m_ObjectGUIState; // 0x3D0
-
     // ── Methods ──
-    public void get_parent(){} // RVA: 0x7FFE87F9AB40
-    public void get_children(){} // RVA: 0x7FFE87F9AB60
-    public void .ctor(){} // RVA: 0x7FFE81D7E9E0
-    public void Add(){} // RVA: 0x7FFE87F9AB80
-    public void Insert(){} // RVA: 0x7FFE87F9AC40
-    public void Remove(){} // RVA: 0x7FFE87F9B060
-    public void RemoveAt(){} // RVA: 0x7FFE87F9B1C0
-    public void Clear(){} // RVA: 0x7FFE87F9B4F0
-    public void BringToFront(){} // RVA: 0x7FFE87F9BA40
-    public void SendToBack(){} // RVA: 0x7FFE87F9BBA0
-    public void PlaceBehind(){} // RVA: 0x7FFE87F9BC70
-    public void MoveChildElement(){} // RVA: 0x7FFE87F9BDC0
-    public void get_childCount(){} // RVA: 0x7FFE87F9BF30
-    public void get_Item(){} // RVA: 0x7FFE87F9BF80
-    public void IndexOf(){} // RVA: 0x7FFE87F9C000
-    public void ElementAt(){} // RVA: 0x7FFE87F9C090
-    public void Children(){} // RVA: 0x7FFE87F9AB60
-    public void SetParent(){} // RVA: 0x7FFE87F9C0A0
-    public void PutChildAtIndex(){} // RVA: 0x7FFE87F9C240
-    public void RemoveChildAtIndex(){} // RVA: 0x7FFE87F9C3A0
-    public void ReleaseChildList(){} // RVA: 0x7FFE87F9C420
-    public void Equals(){} // RVA: 0x7FFE87F9C570 | overloaded x2
-    public void GetHashCode(){} // RVA: 0x7FFE87E6A980
-    public void op_Equality(){} // RVA: 0x7FFE87C9F580
+    public void .ctor(){} // RVA: 0x7FFAF5F68D80
+    public void get_IsEmpty(){} // RVA: 0x7FFAF3A20920
+    public void get_FirstValue(){} // RVA: 0x7FFAF5F67890
+    public void get_AdditionalElements(){} // RVA: 0x7FFAF2DA8380
+    public void GetEnumerator(){} // RVA: 0x7FFAF5F68ED0
+    public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7FFAF5F68FA0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF5F68FA0
+    public void Equals(){} // RVA: 0x7FFAF5F60F90
+    public void GetHashCode(){} // RVA: 0x7FFAF5355A70
+    public void Add(){} // RVA: 0x7FFAF5F69060
+    public void TryGetValue(){} // RVA: 0x7FFAF5F69C70
+    public void Freeze(){} // RVA: 0x7FFAF5F68D30
 }
 
-public class HitDelegate : MulticastDelegate
+public class HashBucket
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81159A90
-    public void Invoke(){} // RVA: 0x7FFE81159B60
-    public void BeginInvoke(){} // RVA: 0x7FFE81159B90
-    public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
 }
 
-public class HitInfo : ValueType
+public class HashBucketByRefEqualityComparer
 {
     // ── Methods ──
-    public void SendMessage(){} // RVA: 0x7FFE87CEAE50
-    public void op_Implicit(){} // RVA: 0x7FFE87CEAE80
-    public void Compare(){} // RVA: 0x7FFE87CEAFF0
+    public void get_DefaultInstance(){} // RVA: 0x7FFAF2ABC960
+    public void .ctor(){} // RVA: 0x7FFAF2AD4A50
+    public void Equals(){} // RVA: 0x7FFAF2D33FA0
+    public void GetHashCode(){} // RVA: 0x7FFAF2D33FA0
+    public void .cctor(){} // RVA: 0x7FFAF2AD4A80
 }
 
-public class HitPoint : Object
+public class HashBucketByRefEqualityComparer
 {
-    public string name; // 0x10
-    public UnityEngine.Collider collider; // 0x18
-    public float crossFadeTime; // 0x20
-    public float _crossFader; // 0x24
-    public float _timer; // 0x28
-
     // ── Methods ──
-    public void get_inProgress(){} // RVA: 0x7FFE81268F40
-    public void get_crossFader(){} // RVA: 0x7FFE81268F50
-    public void set_crossFader(){} // RVA: 0x7FFE81268F60
-    public void get_timer(){} // RVA: 0x7FFE811DA210
-    public void set_timer(){} // RVA: 0x7FFE811DA220
-    public void get_force(){} // RVA: 0x7FFE81161F10
-    public void set_force(){} // RVA: 0x7FFE81161F30
-    public void get_point(){} // RVA: 0x7FFE81161F40
-    public void set_point(){} // RVA: 0x7FFE81161F60
-    public void Hit(){} // RVA: 0x7FFE81268F70
-    public void Apply(){} // RVA: 0x7FFE812690A0
-    public void GetLength(){} // RVA: 0x7FFE80E42E10
-    public void CrossFadeStart(){} // RVA: 0x7FFE80E45FE0
-    public void OnApply(){} // RVA: 0x7FFE80E52EB0
-    public void .ctor(){} // RVA: 0x7FFE812691F0
+    public void get_DefaultInstance(){} // RVA: 0x7FFAF5DB5F90
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Equals(){} // RVA: 0x7FFAF5F25E90
+    public void GetHashCode(){} // RVA: 0x7FFAF5F60F90
+    public void .cctor(){} // RVA: 0x7FFAF532BAD0
 }
 
-public class HitPointBone : HitPoint
+public class HashBucketByValueEqualityComparer
 {
     // ── Methods ──
-    public void GetLength(){} // RVA: 0x7FFE81269A20
-    public void CrossFadeStart(){} // RVA: 0x7FFE81269B70
-    public void OnApply(){} // RVA: 0x7FFE81269BC0
-    public void .ctor(){} // RVA: 0x7FFE812691F0
+    public void get_DefaultInstance(){} // RVA: 0x7FFAF2ABC960
+    public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+    public void Equals(){} // RVA: 0x7FFAF2D33FA0
+    public void GetHashCode(){} // RVA: 0x7FFAF2D33FA0
+    public void .cctor(){} // RVA: 0x7FFAF2AD4A80
 }
 
-public class HitPointEffector : HitPoint
+public class HashBucketByValueEqualityComparer
 {
-    // ── Methods ──
-    public void GetLength(){} // RVA: 0x7FFE812692C0
-    public void CrossFadeStart(){} // RVA: 0x7FFE81269570
-    public void OnApply(){} // RVA: 0x7FFE812695D0
-    public void .ctor(){} // RVA: 0x7FFE812691F0
 }
 
-public class Host : Object
+public class HashCode
 {
     // ── Methods ──
-    public void TryParse(){} // RVA: 0x7FFE87359000
+    public void Add(){} // RVA: 0x7FFAF2D33FA0
+    public void ToHashCode(){} // RVA: 0x7FFAF44189B0
 }
 
-public class HttpApi : Object
+public class HashCode64`1
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7FFE876832F0
+    public void .cctor(){} // RVA: 0x7FFAF2AD4A80
 }
 
-public class HudLayout : Object
+public class HashCode64`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .cctor(){} // RVA: 0x7FFAF5F6ED00
 }
 
-public class HumanoidMuscle : Object
+public class HashCode64`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .cctor(){} // RVA: 0x7FFAF5F6DA40
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6DBD0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6DD60
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6DEF0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6E080
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6E210
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6F4D0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6F340
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6E3A0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6E530
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6EB70
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6E6C0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6E850
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6E9E0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6F980
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6F7F0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6F660
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F71410
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F71280
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6FE30
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6EE90
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6FCA0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6FFC0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6F1B0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F70150
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6F020
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F70DD0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F702E0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F70C40
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6FB10
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F70470
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F70AB0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F70F60
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F710F0
+}
+
+public class HashCode64`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF5F6D8B0
+}
+
+public class HashCodeOfStringDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF94C5270
+    public void Invoke(){} // RVA: 0x7FFAF2EE94E0
+}
+
+public class HashCodeOfStringDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF94C5270
+    public void Invoke(){} // RVA: 0x7FFAF2EE94E0
+}
+
+public class HashDrbgProvider : `
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF95F5550
+    public void Get(){} // RVA: 0x7FFAFC02D630
+}
+
+public class HashPair
+{
+}
+
+public class HashSetPoolImpl`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF2AD4A80
+}
+
+public class HashSetPoolImpl`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF56921A0
+}
+
+public class HashSetPoolImpl`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF56921A0
+}
+
+public class HashSetPoolImpl`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF56921A0
+}
+
+public class HashSetPoolImpl`1
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF56921A0
+}
+
+public class HashsetIterator`1 : hashset
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+    public void GetEnumerator(){} // RVA: 0x7FFAF2D33FA0
+    public void get_Current(){} // RVA: 0x7FFAF2D33FA0
+    public void MoveNext(){} // RVA: 0x7FFAF2ABDBE0
+    public void Dispose(){} // RVA: 0x7FFAF2AD4A50
+}
+
+public class HashtableDebugView
+{
+}
+
+public class HashtableEnumerator
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF88BE270
+    public void Clone(){} // RVA: 0x7FFAF882B480
+    public void get_Key(){} // RVA: 0x7FFAF88BE300
+    public void MoveNext(){} // RVA: 0x7FFAF88BE370
+    public void get_Entry(){} // RVA: 0x7FFAF88BE4A0
+    public void get_Current(){} // RVA: 0x7FFAF88BE520
+    public void get_Value(){} // RVA: 0x7FFAF88BE600
+    public void Reset(){} // RVA: 0x7FFAF88BE670
+}
+
+public class HeadChopBone
+{
+    // ── Methods ──
+    public void get_Transform(){} // RVA: 0x7FFAF2DA8380
+    public void CanApply(){} // RVA: 0x7FFAFC4D6DB0
+    public void GetDesiredScaleFactor(){} // RVA: 0x7FFAFC4D6DD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+}
+
+public class HeadChopData
+{
+}
+
+public class HeaderBucket
+{
+    public object System.Collections.IEnumerator.Current;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF8F08F80
+    public void get_HasStringValues(){} // RVA: 0x7FFAF92C35D0
+    public void get_Values(){} // RVA: 0x7FFAF92C3620
+    public void set_Values(){} // RVA: 0x7FFAF2DF3E80
+    public void ParsedToString(){} // RVA: 0x7FFAF92C36E0
+}
+
+public class HeaderTypeInfo`2
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF5FC24C0
+    public void AddToCollection(){} // RVA: 0x7FFAF5FC2580
+    public void CreateCollection(){} // RVA: 0x7FFAF5FC2720
+    public void ToStringCollection(){} // RVA: 0x7FFAF5FC4030
+    public void TryParse(){} // RVA: 0x7FFAF5FC4400
+}
+
+public class HeaderTypeInfo`2
+{
+    // ── Methods ──
+    public void .ctor(){}
+    public void AddToCollection(){} // RVA: 0x7FFAF2ADDC60
+    public void CreateCollection(){} // RVA: 0x7FFAF2ACE6A0
+    public void ToStringCollection(){} // RVA: 0x7FFAF2ABCE10
+    public void TryParse(){} // RVA: 0x7FFAF2AC1120
+}
+
+public class Heading
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF47B9380
+}
+
+public class HebrewValue
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6275340
+}
+
+public class HeightProperty
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0x7FFAF9CBEEF0
+    public void .ctor(){} // RVA: 0x7FFAF9CBEF30
+}
+
+public class HeightProperty
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0x7FFAF9CBF260
+    public void .ctor(){} // RVA: 0x7FFAF9CBF2A0
+}
+
+public class HeightmapChangedCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF9D0E130
+    public void Invoke(){} // RVA: 0x7FFAF8AA09F0
 }

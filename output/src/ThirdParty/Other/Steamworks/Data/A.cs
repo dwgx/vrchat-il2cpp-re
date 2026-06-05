@@ -5,83 +5,67 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class Achievement : ValueType
+    public class Achievement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81D7E9E0
-        public void ToString(){} // RVA: 0x7FFE8284EF60
+        public void .ctor(){} // RVA: 0x7FFAF3ABA2F0
+        public void ToString(){} // RVA: 0x7FFAF4584690
     }
 
-    public class ActiveBeaconsUpdated_t : ValueType
+    public class ActiveBeaconsUpdated_t
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E59EE0
-        public void .cctor(){} // RVA: 0x7FFE82E59EF0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7BAE0
+        public void .cctor(){} // RVA: 0x7FFAF4B7BAF0
     }
 
-    public class AddAppDependencyResult_t : ValueType
+    public class AddAppDependencyResult_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5F930
-        public void .cctor(){} // RVA: 0x7FFE82E5F940
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B81530
+        public void .cctor(){} // RVA: 0x7FFAF4B81540
     }
 
-    public class AddUGCDependencyResult_t : ValueType
+    public class AddUGCDependencyResult_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5F710
-        public void .cctor(){} // RVA: 0x7FFE82E5F720
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B81310
+        public void .cctor(){} // RVA: 0x7FFAF4B81320
     }
 
-    public class AppProofOfPurchaseKeyResponse_t : ValueType
+    public class AppProofOfPurchaseKeyResponse_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5CC90
-        public void .cctor(){} // RVA: 0x7FFE82E5CCA0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7E890
+        public void .cctor(){} // RVA: 0x7FFAF4B7E8A0
     }
 
-    public class AppResumingFromSuspend_t : ValueType
+    public class AppResumingFromSuspend_t
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E58350
-        public void .cctor(){} // RVA: 0x7FFE82E58360
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B79F50
+        public void .cctor(){} // RVA: 0x7FFAF4B79F60
     }
 
-    public class AssociateWithClanResult_t : ValueType
+    public class AssociateWithClanResult_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E633A0
-        public void .cctor(){} // RVA: 0x7FFE82E633B0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B84FA0
+        public void .cctor(){} // RVA: 0x7FFAF4B84FB0
     }
 
-    public class AvailableBeaconLocationsUpdated_t : ValueType
+    public class AvailableBeaconLocationsUpdated_t
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E59DD0
-        public void .cctor(){} // RVA: 0x7FFE82E59DE0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7B9D0
+        public void .cctor(){} // RVA: 0x7FFAF4B7B9E0
     }
 
-    public class AvatarImageLoaded_t : ValueType
+    public class AvatarImageLoaded_t
     {
-        public ulong SteamID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E569D0
-        public void .cctor(){} // RVA: 0x7FFE82E569E0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B785D0
+        public void .cctor(){} // RVA: 0x7FFAF4B785E0
     }
 
 }

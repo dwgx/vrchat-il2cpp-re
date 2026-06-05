@@ -5,20 +5,20 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class Last : Object
+    public class Last
     {
         // ── Methods ──
-        public void LastAsync(){} // RVA: 0x7FFE810A1420 | overloaded x2
-        public void LastAwaitAsync(){} // RVA: 0x7FFE810A1420
-        public void LastAwaitWithCancellationAsync(){} // RVA: 0x7FFE810A1420
+        public void LastAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void LastAwaitAsync(){} // RVA: 0x7FFAF2D33FA0
+        public void LastAwaitWithCancellationAsync(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class LongCount : Object
+    public class LongCount
     {
         // ── Methods ──
-        public void LongCountAsync(){} // RVA: 0x7FFE810A1420 | overloaded x2
-        public void LongCountAwaitAsync(){} // RVA: 0x7FFE810A1420
-        public void LongCountAwaitWithCancellationAsync(){} // RVA: 0x7FFE810A1420
+        public void LongCountAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void LongCountAwaitAsync(){} // RVA: 0x7FFAF2D33FA0
+        public void LongCountAwaitWithCancellationAsync(){} // RVA: 0x7FFAF2D33FA0
     }
 
 }

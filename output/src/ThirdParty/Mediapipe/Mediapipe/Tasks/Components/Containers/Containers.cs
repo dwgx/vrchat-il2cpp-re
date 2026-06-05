@@ -5,121 +5,121 @@
 
 namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 {
-    public class Category : ValueType
+    public class Category
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866C5180 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE866C51E0
+        public void .ctor(){} // RVA: 0x7FFAF8634350 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF86343B0
     }
 
-    public class ClassificationResult : ValueType
+    public class ClassificationResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8445A610
-        public void Copy(){} // RVA: 0x7FFE866C5A60
-        public void ToString(){} // RVA: 0x7FFE866C5E40
+        public void .ctor(){} // RVA: 0x7FFAF6279BD0
+        public void Copy(){} // RVA: 0x7FFAF8634C30
+        public void ToString(){} // RVA: 0x7FFAF8635010
     }
 
-    public class Classifications : ValueType
+    public class Classifications
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE84C28B80
-        public void Copy(){} // RVA: 0x7FFE866C5400
-        public void ToString(){} // RVA: 0x7FFE866C5910
+        public void .ctor(){} // RVA: 0x7FFAF6A60F00
+        public void Copy(){} // RVA: 0x7FFAF86345D0
+        public void ToString(){} // RVA: 0x7FFAF8634AE0
     }
 
-    public class Detection : ValueType
+    public class Detection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866C6040
-        public void Copy(){} // RVA: 0x7FFE866C6110
-        public void ToString(){} // RVA: 0x7FFE866C6940
+        public void .ctor(){} // RVA: 0x7FFAF8635210
+        public void Copy(){} // RVA: 0x7FFAF86352E0
+        public void ToString(){} // RVA: 0x7FFAF8635B10
     }
 
-    public class DetectionResult : ValueType
+    public class DetectionResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81D7E9E0
-        public void Alloc(){} // RVA: 0x7FFE866C6A50
-        public void Copy(){} // RVA: 0x7FFE866C6B20
-        public void ToString(){} // RVA: 0x7FFE866C6E80
+        public void .ctor(){} // RVA: 0x7FFAF3ABA2F0
+        public void Alloc(){} // RVA: 0x7FFAF8635C20
+        public void Copy(){} // RVA: 0x7FFAF8635CF0
+        public void ToString(){} // RVA: 0x7FFAF8636050
     }
 
-    public class Landmark : ValueType
+    public class Landmark
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866C7320 | overloaded x2
-        public void Equals(){} // RVA: 0x7FFE866C7480
-        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.Landmark>.Equals(){} // RVA: 0x7FFE866C7530
-        public void GetHashCode(){} // RVA: 0x7FFE866C7590
-        public void ToString(){} // RVA: 0x7FFE866C7600
+        public void .ctor(){} // RVA: 0x7FFAF86364F0 | overloaded x2
+        public void Equals(){} // RVA: 0x7FFAF8636650
+        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.Landmark>.Equals(){} // RVA: 0x7FFAF8636700
+        public void GetHashCode(){} // RVA: 0x7FFAF8636760
+        public void ToString(){} // RVA: 0x7FFAF86367D0
     }
 
-    public class Landmarks : ValueType
+    public class Landmarks
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81D7E9E0
-        public void Copy(){} // RVA: 0x7FFE866C7E20
-        public void ToString(){} // RVA: 0x7FFE866C8180
+        public void .ctor(){} // RVA: 0x7FFAF3ABA2F0
+        public void Copy(){} // RVA: 0x7FFAF8636FF0
+        public void ToString(){} // RVA: 0x7FFAF8637350
     }
 
-    public class NativeLandmarksArrayExtension : Object
+    public class NativeLandmarksArrayExtension
     {
         // ── Methods ──
-        public void FillWith(){} // RVA: 0x7FFE866C8810 | overloaded x2
+        public void FillWith(){} // RVA: 0x7FFAF86379E0 | overloaded x2
     }
 
-    public class NormalizedKeypoint : ValueType
+    public class NormalizedKeypoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866C6F70 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE866C7070
+        public void .ctor(){} // RVA: 0x7FFAF8636140 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF8636240
     }
 
-    public class NormalizedLandmark : ValueType
+    public class NormalizedLandmark
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866C78D0 | overloaded x2
-        public void Equals(){} // RVA: 0x7FFE866C7A30
-        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.NormalizedLandmark>.Equals(){} // RVA: 0x7FFE866C7530
-        public void GetHashCode(){} // RVA: 0x7FFE866C7AE0
-        public void ToString(){} // RVA: 0x7FFE866C7B50
+        public void .ctor(){} // RVA: 0x7FFAF8636AA0 | overloaded x2
+        public void Equals(){} // RVA: 0x7FFAF8636C00
+        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.NormalizedLandmark>.Equals(){} // RVA: 0x7FFAF8636700
+        public void GetHashCode(){} // RVA: 0x7FFAF8636CB0
+        public void ToString(){} // RVA: 0x7FFAF8636D20
     }
 
-    public class NormalizedLandmarks : ValueType
+    public class NormalizedLandmarks
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81D7E9E0
-        public void Copy(){} // RVA: 0x7FFE866C8200
-        public void ToString(){} // RVA: 0x7FFE866C8560
+        public void .ctor(){} // RVA: 0x7FFAF3ABA2F0
+        public void Copy(){} // RVA: 0x7FFAF86373D0
+        public void ToString(){} // RVA: 0x7FFAF8637730
     }
 
-    public class PacketExtension : Object
+    public class PacketExtension
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0x7FFE866C8E60 | overloaded x4
+        public void Get(){} // RVA: 0x7FFAF8638030 | overloaded x4
     }
 
-    public class Rect : ValueType
+    public class Rect
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866C8FA0 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE866C8FC0
+        public void .ctor(){} // RVA: 0x7FFAF8638170 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF8638190
     }
 
-    public class RectF : ValueType
+    public class RectF
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE866C9200
-        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.RectF>.Equals(){} // RVA: 0x7FFE866C92A0
-        public void GetHashCode(){} // RVA: 0x7FFE866C9300
-        public void ToString(){} // RVA: 0x7FFE866C93E0
+        public void Equals(){} // RVA: 0x7FFAF86383D0
+        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.RectF>.Equals(){} // RVA: 0x7FFAF8638470
+        public void GetHashCode(){} // RVA: 0x7FFAF86384D0
+        public void ToString(){} // RVA: 0x7FFAF86385B0
     }
 
-    public class Util : Object
+    public class Util
     {
         // ── Methods ──
-        public void Format(){} // RVA: 0x7FFE80E2E3D0 | overloaded x3
+        public void Format(){} // RVA: 0x7FFAF2ABCE50 | overloaded x3
     }
 
 }

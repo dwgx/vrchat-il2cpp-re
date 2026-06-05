@@ -5,33 +5,33 @@
 
 namespace ThirdParty.Unity.UnityEngineInternal
 {
-    public class GenericStack : Stack
+    public class GenericStack
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87BF6B60
+        public void .ctor(){} // RVA: 0x7FFAF9B65B80
     }
 
-    public class MathfInternal : ValueType
+    public class MathfInternal
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87BF69D0
+        public void .cctor(){} // RVA: 0x7FFAF9B659F0
     }
 
-    public class TypeInferenceRuleAttribute : Attribute
+    public class TypeInferenceRuleAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE84022BE0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF5E66D40
     }
 
-    public class WebRequestUtils : Object
+    public class WebRequestUtils
     {
         // ── Methods ──
-        public void RedirectTo(){} // RVA: 0x7FFE88038F20
-        public void MakeInitialUrl(){} // RVA: 0x7FFE88039090
-        public void MakeUriString(){} // RVA: 0x7FFE880395B0
-        public void URLDecode(){} // RVA: 0x7FFE880399D0
-        public void .cctor(){} // RVA: 0x7FFE88039AD0
+        public void RedirectTo(){} // RVA: 0x7FFAF9FA8D50
+        public void MakeInitialUrl(){} // RVA: 0x7FFAF9FA8EC0
+        public void MakeUriString(){} // RVA: 0x7FFAF9FA93E0
+        public void URLDecode(){} // RVA: 0x7FFAF9FA9800
+        public void .cctor(){} // RVA: 0x7FFAF9FA9900
     }
 
 }

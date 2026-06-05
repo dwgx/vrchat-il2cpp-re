@@ -5,40 +5,34 @@
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class MonoChunkParser : Object
+    public class MonoChunkParser
     {
-        public System.Net.WebHeaderCollection headers; // 0x10
-        public int chunkSize; // 0x18
-        public int chunkRead; // 0x1C
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876AA740
-        public void Read(){} // RVA: 0x7FFE876AA8E0
-        public void ReadFromChunks(){} // RVA: 0x7FFE876AA8F0
-        public void Write(){} // RVA: 0x7FFE876AAC40
-        public void InternalWrite(){} // RVA: 0x7FFE876AAC70
-        public void get_WantMore(){} // RVA: 0x7FFE876AAF80
-        public void get_DataAvailable(){} // RVA: 0x7FFE876AAFA0
-        public void get_ChunkLeft(){} // RVA: 0x7FFE876AB0B0
-        public void ReadBody(){} // RVA: 0x7FFE876AB0C0
-        public void GetChunkSize(){} // RVA: 0x7FFE876AB230
-        public void RemoveChunkExtension(){} // RVA: 0x7FFE876AB510
-        public void ReadCRLF(){} // RVA: 0x7FFE876AB560
-        public void ReadTrailer(){} // RVA: 0x7FFE876AB640
-        public void ThrowProtocolViolation(){} // RVA: 0x7FFE876ABB90
+        public void .ctor(){} // RVA: 0x7FFAF961B490
+        public void Read(){} // RVA: 0x7FFAF961B630
+        public void ReadFromChunks(){} // RVA: 0x7FFAF961B640
+        public void Write(){} // RVA: 0x7FFAF961B990
+        public void InternalWrite(){} // RVA: 0x7FFAF961B9C0
+        public void get_WantMore(){} // RVA: 0x7FFAF961BCD0
+        public void get_DataAvailable(){} // RVA: 0x7FFAF961BCF0
+        public void get_ChunkLeft(){} // RVA: 0x7FFAF961BE00
+        public void ReadBody(){} // RVA: 0x7FFAF961BE10
+        public void GetChunkSize(){} // RVA: 0x7FFAF961BF80
+        public void RemoveChunkExtension(){} // RVA: 0x7FFAF961C260
+        public void ReadCRLF(){} // RVA: 0x7FFAF961C2B0
+        public void ReadTrailer(){} // RVA: 0x7FFAF961C390
+        public void ThrowProtocolViolation(){} // RVA: 0x7FFAF961C8E0
     }
 
-    public class MonoChunkStream : WebReadStream
+    public class MonoChunkStream
     {
-        public System.Net.WebHeaderCollection _headers; // 0x40
-
         // ── Methods ──
-        public void get_Decoder(){} // RVA: 0x7FFE81176730
-        public void .ctor(){} // RVA: 0x7FFE876ABC60
-        public void ProcessReadAsync(){} // RVA: 0x7FFE876ABD90
-        public void FinishReading(){} // RVA: 0x7FFE876AC010
-        public void ThrowExpectingChunkTrailer(){} // RVA: 0x7FFE876AC230
-        public void <>n__0(){} // RVA: 0x7FFE876AC2A0
+        public void get_Decoder(){} // RVA: 0x7FFAF2E08730
+        public void .ctor(){} // RVA: 0x7FFAF961C9B0
+        public void ProcessReadAsync(){} // RVA: 0x7FFAF961CAE0
+        public void FinishReading(){} // RVA: 0x7FFAF961CD60
+        public void ThrowExpectingChunkTrailer(){} // RVA: 0x7FFAF961CF80
+        public void <>n__0(){} // RVA: 0x7FFAF961CFF0
     }
 
 }

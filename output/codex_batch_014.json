@@ -1,0 +1,257 @@
+[
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_29B6",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Initialize",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3FB",
+      "m_656",
+      "m_7CC",
+      "m_47A",
+      "m_8D0"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_7833",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Initialize",
+      "Update_2B4F45D701AE",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_098",
+      "m_70B",
+      "m_ED0",
+      "m_49C"
+    ]
+  },
+  {
+    "class": "SpectrumSibling_A23D",
+    "parent": "",
+    "readable_methods": [
+      ".ctor_7CFA8B6BDF2D",
+      "Initialize",
+      "set_Item",
+      "get_Item"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AD1",
+      "m_7CF",
+      "m_546",
+      "m_968"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_491F",
+    "parent": "",
+    "readable_methods": [
+      "OnDisable",
+      "SetChangeValue",
+      "Update_2B4F45D701AE",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_47A",
+      "m_656",
+      "m_ECA",
+      "m_DCE"
+    ]
+  },
+  {
+    "class": "MessengerHelperSiblingSibling_6FAD",
+    "parent": "",
+    "readable_methods": [
+      "OnDisable_E452C8EE4F46",
+      "Awake_7FD28589FE1E",
+      "OnDestroy",
+      "Awake"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A3F",
+      "m_9C4",
+      "m_3CB",
+      "m_9A0"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_CAB0",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "SetChangeValue",
+      "Update_157B313559DF",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2B4",
+      "m_076",
+      "m_C30",
+      "m_CA7"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourBase_B543",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Update_540CB71AC481",
+      "LateUpdate",
+      "set_TypeId",
+      "set_UniqueHash"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D62",
+      "m_63C",
+      "m_FD1"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSibling_5D93",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "OnEnable_2B4F45D701AE",
+      ".ctor_F5D8351B397B",
+      "Initialize",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F5D",
+      "m_AD8",
+      "m_1B2"
+    ]
+  },
+  {
+    "class": "Accept_8D22_5814",
+    "parent": "",
+    "readable_methods": [
+      "OnEnable_5E9222404D7E",
+      "Initialize",
+      "OnValidate",
+      "OnUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_217",
+      "m_852",
+      "m_BAD"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_226FSiblingSibling_8D81",
+    "parent": "",
+    "readable_methods": [
+      "FixedUpdate",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_131",
+      "m_1C9",
+      "m_70B"
+    ]
+  },
+  {
+    "class": "LifecycleComponentImpl_AB77SibSibling_FF96",
+    "parent": "",
+    "readable_methods": [
+      "OnDestroy",
+      "Start",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AA3",
+      "m_CB2",
+      "m_1E9"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSiblingSibling_8C2C",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Initialize",
+      "FixedUpdate",
+      "OnEnable",
+      "Update"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_0C0",
+      "m_D71",
+      "m_179"
+    ]
+  },
+  {
+    "class": "MessengerHelperSibling_99F7",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake_7FD28589FE1E",
+      "OnDisable_0A17D448B2DB",
+      "OnDestroy",
+      "Awake"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2DE",
+      "m_A3F",
+      "m_6DB"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSiblSibling_3B1E",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Initialize_D74F9E3B7B27",
+      "set_Value",
+      "set_Value_F501E422C7A0",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A10",
+      "m_D75",
+      "m_833"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_226FSibling_03C8",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "Update",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_72A",
+      "m_C9E",
+      "m_6B3"
+    ]
+  }
+]

@@ -5,22 +5,22 @@
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
-    public class KeyValuePairFormatter`2 : BaseFormatter`1
+    public class KeyValuePairFormatter`2
     {
         // ── Methods ──
-        public void SerializeImplementation(){} // RVA: 0x7FFE80E4F230
-        public void DeserializeImplementation(){} // RVA: 0x7FFE80E4F230
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
-        public void .cctor(){} // RVA: 0x7FFE80E46010
+        public void SerializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
     }
 
-    public class KeyframeFormatter : MinimalBaseFormatter`1
+    public class KeyframeFormatter
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE883CC5A0
-        public void Read(){} // RVA: 0x7FFE883CC9B0
-        public void Write(){} // RVA: 0x7FFE883CCE10
-        public void .ctor(){} // RVA: 0x7FFE883CD0A0
+        public void .cctor(){} // RVA: 0x7FFAFA33F8E0
+        public void Read(){} // RVA: 0x7FFAFA33FCF0
+        public void Write(){} // RVA: 0x7FFAFA340150
+        public void .ctor(){} // RVA: 0x7FFAFA3403F0
     }
 
 }

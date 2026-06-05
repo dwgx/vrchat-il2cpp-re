@@ -5,23 +5,23 @@
 
 namespace ThirdParty.DotNet.System.Runtime.ConstrainedExecution
 {
-    public class CriticalFinalizerObject : Object
+    public class CriticalFinalizerObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Finalize(){} // RVA: 0x7FFE81D7E0B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Finalize(){} // RVA: 0x7FFAF3AB7BA0
     }
 
-    public class PrePrepareMethodAttribute : Attribute
+    public class PrePrepareMethodAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ReliabilityContractAttribute : Attribute
+    public class ReliabilityContractAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE85072A80
+        public void .ctor(){} // RVA: 0x7FFAF6EE8000
     }
 
 }

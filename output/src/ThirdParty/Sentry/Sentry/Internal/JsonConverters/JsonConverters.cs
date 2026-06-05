@@ -5,45 +5,45 @@
 
 namespace ThirdParty.Sentry.Sentry.Internal.JsonConverters
 {
-    public class IntPtrJsonConverter : JsonConverter`1
+    public class IntPtrJsonConverter
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7FFE86EA6F10
-        public void Write(){} // RVA: 0x7FFE86EA6F70
-        public void .ctor(){} // RVA: 0x7FFE86F5FC80
+        public void Read(){} // RVA: 0x7FFAF8E164F0
+        public void Write(){} // RVA: 0x7FFAF8E16550
+        public void .ctor(){} // RVA: 0x7FFAF8ECF280
     }
 
-    public class IntPtrNullableJsonConverter : JsonConverter`1
+    public class IntPtrNullableJsonConverter
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7FFE86F5FCC0
-        public void Write(){} // RVA: 0x7FFE86F5FD80
-        public void .ctor(){} // RVA: 0x7FFE86F5FE30
+        public void Read(){} // RVA: 0x7FFAF8ECF2C0
+        public void Write(){} // RVA: 0x7FFAF8ECF380
+        public void .ctor(){} // RVA: 0x7FFAF8ECF430
     }
 
-    public class SentryJsonConverter : JsonConverter`1
+    public class SentryJsonConverter
     {
         // ── Methods ──
-        public void CanConvert(){} // RVA: 0x7FFE86F5FE70
-        public void Read(){} // RVA: 0x7FFE813240E0
-        public void Write(){} // RVA: 0x7FFE86F5FFB0
-        public void .ctor(){} // RVA: 0x7FFE86F600B0
+        public void CanConvert(){} // RVA: 0x7FFAF8ECF470
+        public void Read(){} // RVA: 0x7FFAF2FC9240
+        public void Write(){} // RVA: 0x7FFAF8ECF5B0
+        public void .ctor(){} // RVA: 0x7FFAF8ECF6B0
     }
 
-    public class UIntPtrJsonConverter : JsonConverter`1
+    public class UIntPtrJsonConverter
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7FFE86EA91F0
-        public void Write(){} // RVA: 0x7FFE86EA9250
-        public void .ctor(){} // RVA: 0x7FFE86F600F0
+        public void Read(){} // RVA: 0x7FFAF8E187D0
+        public void Write(){} // RVA: 0x7FFAF8E18830
+        public void .ctor(){} // RVA: 0x7FFAF8ECF6F0
     }
 
-    public class UIntPtrNullableJsonConverter : JsonConverter`1
+    public class UIntPtrNullableJsonConverter
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x7FFE86F60130
-        public void Write(){} // RVA: 0x7FFE86F601F0
-        public void .ctor(){} // RVA: 0x7FFE86F60270
+        public void Read(){} // RVA: 0x7FFAF8ECF730
+        public void Write(){} // RVA: 0x7FFAF8ECF7F0
+        public void .ctor(){} // RVA: 0x7FFAF8ECF870
     }
 
 }

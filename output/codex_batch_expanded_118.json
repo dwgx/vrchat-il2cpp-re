@@ -1,0 +1,140 @@
+[
+  {
+    "class": "OVRTouchpadHelperSiblingSRelated_CF94",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_17F",
+      "m_D86"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSibling_B33A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3E8",
+      "m_1B2"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSibling_6EDB",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_64A",
+      "m_CA7"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSibling_D8F3",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2CA",
+      "m_C9E"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSiblSibling_8CE1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Value",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_229",
+      "m_A89"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSiblSibling_C54E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Value",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_06E",
+      "m_E95"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_3371",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FAC"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_A365",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "SetChangeValue",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2B4"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_B13D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "SetChangeValue",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3CB"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_058F0",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6F8",
+      "m_51F",
+      "m_C31",
+      "m_6EA"
+    ]
+  }
+]

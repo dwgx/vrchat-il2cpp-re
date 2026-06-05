@@ -5,48 +5,40 @@
 
 namespace ThirdParty.Other.ZLogger.Providers
 {
-    public class SharedFileStream : Stream
+    public class SharedFileStream
     {
-        public System.IO.FileStream innerStream; // 0x28
-        public System.Threading.Mutex mutex; // 0x30
-        public object field_2; // 0x19
-        public object field_3; // 0x1A
-        public object field_4; // 0x1B
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A553AE0
-        public void get_CanRead(){} // RVA: 0x7FFE86F55B40
-        public void get_CanSeek(){} // RVA: 0x7FFE86F55B70
-        public void get_CanWrite(){} // RVA: 0x7FFE875C90C0
-        public void get_Length(){} // RVA: 0x7FFE871CDB60
-        public void get_Position(){} // RVA: 0x7FFE871CDB90
-        public void set_Position(){} // RVA: 0x7FFE875535C0
-        public void Seek(){} // RVA: 0x7FFE875C9030
-        public void Flush(){} // RVA: 0x7FFE8A553C20
-        public void SetLength(){} // RVA: 0x7FFE8A553D20
-        public void Read(){} // RVA: 0x7FFE8A553DE0
-        public void Write(){} // RVA: 0x7FFE8A553EE0
-        public void Dispose(){} // RVA: 0x7FFE8A554020
-        public void AcquireMutex(){} // RVA: 0x7FFE8A554040
+        public void .ctor(){} // RVA: 0x7FFAFC5C4270
+        public void get_CanRead(){} // RVA: 0x7FFAF8EC5140
+        public void get_CanSeek(){} // RVA: 0x7FFAF8EC5170
+        public void get_CanWrite(){} // RVA: 0x7FFAF9539DD0
+        public void get_Length(){} // RVA: 0x7FFAF913EC70
+        public void get_Position(){} // RVA: 0x7FFAF913ECA0
+        public void set_Position(){} // RVA: 0x7FFAF94C42C0
+        public void Seek(){} // RVA: 0x7FFAF9539D40
+        public void Flush(){} // RVA: 0x7FFAFC5C43B0
+        public void SetLength(){} // RVA: 0x7FFAFC5C44B0
+        public void Read(){} // RVA: 0x7FFAFC5C4570
+        public void Write(){} // RVA: 0x7FFAFC5C4670
+        public void Dispose(){} // RVA: 0x7FFAFC5C47B0
+        public void AcquireMutex(){} // RVA: 0x7FFAFC5C47D0
     }
 
-    public class ZLoggerFileLoggerProvider : Object
+    public class ZLoggerFileLoggerProvider
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A554220
-        public void CreateLogger(){} // RVA: 0x7FFE8A554480
-        public void Dispose(){} // RVA: 0x7FFE8A554530
-        public void DisposeAsync(){} // RVA: 0x7FFE8A5545C0
-        public void SetScopeProvider(){} // RVA: 0x7FFE811290D0
+        public void .ctor(){} // RVA: 0x7FFAFC5C49B0
+        public void CreateLogger(){} // RVA: 0x7FFAFC5C4C10
+        public void Dispose(){} // RVA: 0x7FFAFC5C4CC0
+        public void DisposeAsync(){} // RVA: 0x7FFAFC5C4D50
+        public void SetScopeProvider(){} // RVA: 0x7FFAF2DBB0D0
     }
 
-    public class ZLoggerFileOptions : ZLoggerOptions
+    public class ZLoggerFileOptions
     {
-        public bool _fileShared; // 0x38
-
         // ── Methods ──
-        public void get_FileShared(){} // RVA: 0x7FFE812CF770
-        public void .ctor(){} // RVA: 0x7FFE8A554210
+        public void get_FileShared(){} // RVA: 0x7FFAF2F56500
+        public void .ctor(){} // RVA: 0x7FFAFC5C49A0
     }
 
 }

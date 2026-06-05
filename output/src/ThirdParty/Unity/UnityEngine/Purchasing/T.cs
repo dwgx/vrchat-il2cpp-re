@@ -5,20 +5,20 @@
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class TimeSpanUnits : Object
+    public class TimeSpanUnits
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87D86F70
+        public void .ctor(){} // RVA: 0x7FFAF9CF6DD0
     }
 
-    public class TransactionLog : Object
+    public class TransactionLog
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87D592A0
-        public void HasRecordOf(){} // RVA: 0x7FFE87D59410
-        public void Record(){} // RVA: 0x7FFE87D59450
-        public void GetRecordPath(){} // RVA: 0x7FFE87D594D0
-        public void ComputeHash(){} // RVA: 0x7FFE87D59540
+        public void .ctor(){} // RVA: 0x7FFAF9CC9100
+        public void HasRecordOf(){} // RVA: 0x7FFAF9CC9270
+        public void Record(){} // RVA: 0x7FFAF9CC92B0
+        public void GetRecordPath(){} // RVA: 0x7FFAF9CC9330
+        public void ComputeHash(){} // RVA: 0x7FFAF9CC93A0
     }
 
 }

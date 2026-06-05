@@ -1,0 +1,197 @@
+[
+  {
+    "class": "PhysSoundMaterial",
+    "parent": "",
+    "namespace": "PhysSound",
+    "readable_methods": [
+      "CreateScriptableObject",
+      "CreateScriptableObjectInstanceFromType",
+      "CalculateCollisionMagnitude",
+      "Accesslayer",
+      "Computenormalized",
+      "InitializeSoundProperty"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AB2"
+    ]
+  },
+  {
+    "class": "NetworkEnumeratorContains_1FAESibling_1AF9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "MoveNext",
+      "get_Current"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7E2",
+      "m_984",
+      "m_A17",
+      "m_828",
+      "m_68C",
+      "m_F0C",
+      "m_D52",
+      "m_E28",
+      "m_BC9",
+      "m_A67",
+      "m_49E",
+      "m_17E"
+    ]
+  },
+  {
+    "class": "FoldoutListRelatedRelated_80CD",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1F8",
+      "m_5D7",
+      "m_0A8",
+      "m_8B4",
+      "m_297",
+      "m_C3B",
+      "m_4E9",
+      "m_C13",
+      "m_48D",
+      "m_271",
+      "m_F6B",
+      "m_BA3"
+    ]
+  },
+  {
+    "class": "ConnectionHandler",
+    "parent": "",
+    "namespace": "Photon.Realtime",
+    "readable_methods": [
+      "StaticReset",
+      "set_Flags",
+      "OnApplicationFocus",
+      "get_AllowTransparency",
+      "set_AllowTransparency",
+      "OnApplicationPause"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A60"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_A0B1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1E5"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSiblingSibling_26D7",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_889"
+    ]
+  },
+  {
+    "class": "UIMaxContentCountObservableList_D870",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf",
+      "set_ObservableList",
+      "set_MaxContentCount"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BD5",
+      "m_DCF",
+      "m_C47",
+      "m_B3A",
+      "m_E01",
+      "m_AAC",
+      "m_CAD",
+      "m_CD5",
+      "m_E6A",
+      "m_11E",
+      "m_7C3"
+    ]
+  },
+  {
+    "class": "SystemController",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "BackPressed",
+      "CreateInstance",
+      "CreateScriptableObject",
+      "CreateScriptableObjectInstanceFromType",
+      "GetGameObject"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_134",
+      "m_9E8"
+    ]
+  },
+  {
+    "class": "NetworkSyncable_D48C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_TypeId"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BBD",
+      "m_3FD",
+      "m_0FA",
+      "m_2A5",
+      "m_E75",
+      "m_F2B",
+      "m_D62",
+      "m_46D",
+      "m_522",
+      "m_978",
+      "m_F5A",
+      "m_61E"
+    ]
+  },
+  {
+    "class": "VRCPrideCampaign",
+    "parent": "",
+    "namespace": "VRC.SDK3.Internal",
+    "readable_methods": [
+      "DoSetVector_Injected",
+      "UpdateCampaignProgress",
+      "CheckCampaignStatusAndExecute",
+      "ProcessCampaignData",
+      "InitializeCampaignData"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BBE"
+    ]
+  }
+]

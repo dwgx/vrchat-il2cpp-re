@@ -5,57 +5,55 @@
 
 namespace ThirdParty.DotNet.System.ComponentModel
 {
-    public class SByteConverter : BaseNumberConverter
+    public class SByteConverter
     {
         // ── Methods ──
-        public void get_TargetType(){} // RVA: 0x7FFE877BBE90
-        public void FromString(){} // RVA: 0x7FFE877BBFD0 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE877BC0A0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_TargetType(){} // RVA: 0x7FFAF972AFE0
+        public void FromString(){} // RVA: 0x7FFAF972B120 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF972B1F0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SRCategoryAttribute : CategoryAttribute
+    public class SRCategoryAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE84A50F50
+        public void .ctor(){} // RVA: 0x7FFAF68909E0
     }
 
-    public class SettingsBindableAttribute : Attribute
+    public class SettingsBindableAttribute
     {
-        public System.ComponentModel.SettingsBindableAttribute Yes;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE811C55F0
-        public void get_Bindable(){} // RVA: 0x7FFE811C55E0
-        public void Equals(){} // RVA: 0x7FFE877BC140
-        public void GetHashCode(){} // RVA: 0x7FFE877BC1E0
-        public void .cctor(){} // RVA: 0x7FFE877BC230
+        public void .ctor(){} // RVA: 0x7FFAF2E575F0
+        public void get_Bindable(){} // RVA: 0x7FFAF2E575E0
+        public void Equals(){} // RVA: 0x7FFAF972B290
+        public void GetHashCode(){} // RVA: 0x7FFAF972B330
+        public void .cctor(){} // RVA: 0x7FFAF972B380
     }
 
-    public class SingleConverter : BaseNumberConverter
+    public class SingleConverter
     {
         // ── Methods ──
-        public void get_AllowHex(){} // RVA: 0x7FFE810FB320
-        public void get_TargetType(){} // RVA: 0x7FFE877BC360
-        public void FromString(){} // RVA: 0x7FFE877BC510 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE877BC580
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_AllowHex(){} // RVA: 0x7FFAF2D8D320
+        public void get_TargetType(){} // RVA: 0x7FFAF972B4B0
+        public void FromString(){} // RVA: 0x7FFAF972B660 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF972B6D0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class StringConverter : TypeConverter
+    public class StringConverter
     {
         // ── Methods ──
-        public void CanConvertFrom(){} // RVA: 0x7FFE877BC670
-        public void ConvertFrom(){} // RVA: 0x7FFE877BC760
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void CanConvertFrom(){} // RVA: 0x7FFAF972B7C0
+        public void ConvertFrom(){} // RVA: 0x7FFAF972B8B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SyntaxCheck : Object
+    public class SyntaxCheck
     {
         // ── Methods ──
-        public void CheckMachineName(){} // RVA: 0x7FFE877BC860
-        public void CheckPath(){} // RVA: 0x7FFE877BC920
-        public void CheckRootedPath(){} // RVA: 0x7FFE877BC9E0
+        public void CheckMachineName(){} // RVA: 0x7FFAF972B9B0
+        public void CheckPath(){} // RVA: 0x7FFAF972BA70
+        public void CheckRootedPath(){} // RVA: 0x7FFAF972BB30
     }
 
 }

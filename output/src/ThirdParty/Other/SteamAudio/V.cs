@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class Vector3 : ValueType
+    public class Vector3
     {
     }
 

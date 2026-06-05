@@ -5,609 +5,611 @@
 
 namespace ThirdParty.DotNet.System.Configuration
 {
-    public class AppSettingsReader : Object
+    public class AppSettingsReader
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877154B0
-        public void GetValue(){} // RVA: 0x7FFE877154E0
+        public void .ctor(){} // RVA: 0x7FFAF9684600
+        public void GetValue(){} // RVA: 0x7FFAF9684630
     }
 
-    public class ApplicationScopedSettingAttribute : SettingAttribute
+    public class ApplicationScopedSettingAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ApplicationSettingsBase : SettingsBase
+    public class ApplicationSettingsBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87714C10 | overloaded x4
-        public void get_Context(){} // RVA: 0x7FFE87714C40
-        public void get_Item(){} // RVA: 0x7FFE87714C70
-        public void set_Item(){} // RVA: 0x7FFE87714CA0
-        public void get_Properties(){} // RVA: 0x7FFE87714CD0
-        public void get_PropertyValues(){} // RVA: 0x7FFE87714D00
-        public void get_Providers(){} // RVA: 0x7FFE87714D30
-        public void get_SettingsKey(){} // RVA: 0x7FFE87714D60
-        public void set_SettingsKey(){} // RVA: 0x7FFE87714D90
-        public void add_PropertyChanged(){} // RVA: 0x7FFE87714DC0
-        public void remove_PropertyChanged(){} // RVA: 0x7FFE87714DF0
-        public void add_SettingChanging(){} // RVA: 0x7FFE87714E20
-        public void remove_SettingChanging(){} // RVA: 0x7FFE87714E50
-        public void add_SettingsLoaded(){} // RVA: 0x7FFE87714E80
-        public void remove_SettingsLoaded(){} // RVA: 0x7FFE87714EB0
-        public void add_SettingsSaving(){} // RVA: 0x7FFE87714EE0
-        public void remove_SettingsSaving(){} // RVA: 0x7FFE87714F10
-        public void GetPreviousVersion(){} // RVA: 0x7FFE87714F40
-        public void OnPropertyChanged(){} // RVA: 0x7FFE87714F70
-        public void OnSettingChanging(){} // RVA: 0x7FFE87714FA0
-        public void OnSettingsLoaded(){} // RVA: 0x7FFE87714FD0
-        public void OnSettingsSaving(){} // RVA: 0x7FFE87715000
-        public void Reload(){} // RVA: 0x7FFE87715030
-        public void Reset(){} // RVA: 0x7FFE87715060
-        public void Save(){} // RVA: 0x7FFE87715090
-        public void Upgrade(){} // RVA: 0x7FFE877150C0
+        public void .ctor(){} // RVA: 0x7FFAF9683D60 | overloaded x4
+        public void get_Context(){} // RVA: 0x7FFAF9683D90
+        public void get_Item(){} // RVA: 0x7FFAF9683DC0
+        public void set_Item(){} // RVA: 0x7FFAF9683DF0
+        public void get_Properties(){} // RVA: 0x7FFAF9683E20
+        public void get_PropertyValues(){} // RVA: 0x7FFAF9683E50
+        public void get_Providers(){} // RVA: 0x7FFAF9683E80
+        public void get_SettingsKey(){} // RVA: 0x7FFAF9683EB0
+        public void set_SettingsKey(){} // RVA: 0x7FFAF9683EE0
+        public void add_PropertyChanged(){} // RVA: 0x7FFAF9683F10
+        public void remove_PropertyChanged(){} // RVA: 0x7FFAF9683F40
+        public void add_SettingChanging(){} // RVA: 0x7FFAF9683F70
+        public void remove_SettingChanging(){} // RVA: 0x7FFAF9683FA0
+        public void add_SettingsLoaded(){} // RVA: 0x7FFAF9683FD0
+        public void remove_SettingsLoaded(){} // RVA: 0x7FFAF9684000
+        public void add_SettingsSaving(){} // RVA: 0x7FFAF9684030
+        public void remove_SettingsSaving(){} // RVA: 0x7FFAF9684060
+        public void GetPreviousVersion(){} // RVA: 0x7FFAF9684090
+        public void OnPropertyChanged(){} // RVA: 0x7FFAF96840C0
+        public void OnSettingChanging(){} // RVA: 0x7FFAF96840F0
+        public void OnSettingsLoaded(){} // RVA: 0x7FFAF9684120
+        public void OnSettingsSaving(){} // RVA: 0x7FFAF9684150
+        public void Reload(){} // RVA: 0x7FFAF9684180
+        public void Reset(){} // RVA: 0x7FFAF96841B0
+        public void Save(){} // RVA: 0x7FFAF96841E0
+        public void Upgrade(){} // RVA: 0x7FFAF9684210
     }
 
-    public class ApplicationSettingsGroup : ConfigurationSectionGroup
+    public class ApplicationSettingsGroup
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715480
+        public void .ctor(){} // RVA: 0x7FFAF96845D0
     }
 
-    public class ClientSettingsSection : ConfigurationSection
+    public class ClientSettingsSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715510
-        public void get_Properties(){} // RVA: 0x7FFE87715540
-        public void get_Settings(){} // RVA: 0x7FFE87715570
+        public void .ctor(){} // RVA: 0x7FFAF9684660
+        public void get_Properties(){} // RVA: 0x7FFAF9684690
+        public void get_Settings(){} // RVA: 0x7FFAF96846C0
     }
 
-    public class ConfigXmlDocument : XmlDocument
+    public class ConfigXmlDocument
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715B70
-        public void get_Filename(){} // RVA: 0x7FFE87715BA0
-        public void get_LineNumber(){} // RVA: 0x7FFE87715BD0
-        public void System.Configuration.Internal.IConfigErrorInfo.get_Filename(){} // RVA: 0x7FFE87715C00
-        public void System.Configuration.Internal.IConfigErrorInfo.get_LineNumber(){} // RVA: 0x7FFE87715C30
-        public void LoadSingleElement(){} // RVA: 0x7FFE87715C60
+        public void .ctor(){} // RVA: 0x7FFAF9684CC0
+        public void get_Filename(){} // RVA: 0x7FFAF9684CF0
+        public void get_LineNumber(){} // RVA: 0x7FFAF9684D20
+        public void System.Configuration.Internal.IConfigErrorInfo.get_Filename(){} // RVA: 0x7FFAF9684D50
+        public void System.Configuration.Internal.IConfigErrorInfo.get_LineNumber(){} // RVA: 0x7FFAF9684D80
+        public void LoadSingleElement(){} // RVA: 0x7FFAF9684DB0
     }
 
-    public class Configuration : Object
+    public class Configuration
     {
     }
 
-    public class ConfigurationCollectionAttribute : Attribute
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void set_AddItemName(){} // RVA: 0x7FFE810FB310
-        public void set_ClearItemsName(){} // RVA: 0x7FFE810FB310
-        public void set_CollectionType(){} // RVA: 0x7FFE810FB310
-        public void set_RemoveItemName(){} // RVA: 0x7FFE810FB310
-    }
-
-    public class ConfigurationElement : Object
+    public class ConfigurationCollectionAttribute
     {
         // ── Methods ──
-        public void get_Properties(){} // RVA: 0x7FFE870DCD90
-        public void DeserializeElement(){} // RVA: 0x7FFE870DCDC0
-        public void InitializeDefault(){} // RVA: 0x7FFE870DCDF0
-        public void IsModified(){} // RVA: 0x7FFE870DCE20
-        public void PostDeserialize(){} // RVA: 0x7FFE870DCE50
-        public void Reset(){} // RVA: 0x7FFE870DCE80
-        public void ResetModified(){} // RVA: 0x7FFE870DCEB0
-        public void SerializeToXmlElement(){} // RVA: 0x7FFE870DCEE0
-        public void Unmerge(){} // RVA: 0x7FFE870DCF10
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void set_AddItemName(){} // RVA: 0x7FFAF2D8D310
+        public void set_ClearItemsName(){} // RVA: 0x7FFAF2D8D310
+        public void set_CollectionType(){} // RVA: 0x7FFAF2D8D310
+        public void set_RemoveItemName(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ConfigurationElementCollection : ConfigurationElement
+    public class ConfigurationElement
     {
         // ── Methods ──
-        public void get_CollectionType(){} // RVA: 0x7FFE870DD000
-        public void get_ElementName(){} // RVA: 0x7FFE870DD030
-        public void get_ThrowOnDuplicate(){} // RVA: 0x7FFE870DD060
-        public void CreateNewElement(){} // RVA: 0x7FFE80E2E2E0
-        public void GetElementKey(){} // RVA: 0x7FFE80E2E390
+        public void get_Properties(){} // RVA: 0x7FFAF904DD00
+        public void DeserializeElement(){} // RVA: 0x7FFAF904DD30
+        public void InitializeDefault(){} // RVA: 0x7FFAF904DD60
+        public void IsModified(){} // RVA: 0x7FFAF904DD90
+        public void PostDeserialize(){} // RVA: 0x7FFAF904DDC0
+        public void Reset(){} // RVA: 0x7FFAF904DDF0
+        public void ResetModified(){} // RVA: 0x7FFAF904DE20
+        public void SerializeToXmlElement(){} // RVA: 0x7FFAF904DE50
+        public void Unmerge(){} // RVA: 0x7FFAF904DE80
     }
 
-    public class ConfigurationException : SystemException
+    public class ConfigurationElementCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877106B0 | overloaded x8
-        public void get_BareMessage(){} // RVA: 0x7FFE877106E0
-        public void get_Filename(){} // RVA: 0x7FFE87710710
-        public void get_Line(){} // RVA: 0x7FFE87710740
-        public void GetXmlNodeFilename(){} // RVA: 0x7FFE87710770
-        public void GetXmlNodeLineNumber(){} // RVA: 0x7FFE877107A0
+        public void get_CollectionType(){} // RVA: 0x7FFAF904DF70
+        public void get_ElementName(){} // RVA: 0x7FFAF904DFA0
+        public void get_ThrowOnDuplicate(){} // RVA: 0x7FFAF904DFD0
+        public void CreateNewElement(){} // RVA: 0x7FFAF2ABCD60
+        public void GetElementKey(){} // RVA: 0x7FFAF2ABCE10
     }
 
-    public class ConfigurationPropertyCollection : Object
-    {
-    }
-
-    public class ConfigurationSection : ConfigurationElement
+    public class ConfigurationException
     {
         // ── Methods ──
-        public void DeserializeSection(){} // RVA: 0x7FFE870DCF40
-        public void IsModified(){} // RVA: 0x7FFE870DCF70
-        public void ResetModified(){} // RVA: 0x7FFE870DCFA0
-        public void SerializeSection(){} // RVA: 0x7FFE870DCFD0
+        public void .ctor(){} // RVA: 0x7FFAF967F800 | overloaded x8
+        public void get_BareMessage(){} // RVA: 0x7FFAF967F830
+        public void get_Filename(){} // RVA: 0x7FFAF967F860
+        public void get_Line(){} // RVA: 0x7FFAF967F890
+        public void GetXmlNodeFilename(){} // RVA: 0x7FFAF967F8C0
+        public void GetXmlNodeLineNumber(){} // RVA: 0x7FFAF967F8F0
     }
 
-    public class ConfigurationSectionGroup : Object
+    public class ConfigurationPropertyCollection
     {
     }
 
-    public class ConfigurationSettings : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715AE0
-        public void get_AppSettings(){} // RVA: 0x7FFE87715B10
-        public void GetConfig(){} // RVA: 0x7FFE87715B40
-    }
-
-    public class DefaultSettingValueAttribute : Attribute
+    public class ConfigurationSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_Value(){} // RVA: 0x7FFE87715C90
+        public void DeserializeSection(){} // RVA: 0x7FFAF904DEB0
+        public void IsModified(){} // RVA: 0x7FFAF904DEE0
+        public void ResetModified(){} // RVA: 0x7FFAF904DF10
+        public void SerializeSection(){} // RVA: 0x7FFAF904DF40
     }
 
-    public class DictionarySectionHandler : Object
+    public class ConfigurationSectionGroup
+    {
+    }
+
+    public class ConfigurationSettings
+    {
+        public object Filename;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF9684C30
+        public void get_AppSettings(){} // RVA: 0x7FFAF9684C60
+        public void GetConfig(){} // RVA: 0x7FFAF9684C90
+    }
+
+    public class DefaultSettingValueAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715CC0
-        public void get_KeyAttributeName(){} // RVA: 0x7FFE87715CF0
-        public void get_ValueAttributeName(){} // RVA: 0x7FFE87715D20
-        public void Create(){} // RVA: 0x7FFE87715D50
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_Value(){} // RVA: 0x7FFAF9684DE0
+    }
+
+    public class DictionarySectionHandler
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF9684E10
+        public void get_KeyAttributeName(){} // RVA: 0x7FFAF9684E40
+        public void get_ValueAttributeName(){} // RVA: 0x7FFAF9684E70
+        public void Create(){} // RVA: 0x7FFAF9684EA0
     }
 
     public class IApplicationSettingsProvider
     {
         // ── Methods ──
-        public void GetPreviousVersion(){} // RVA: 0x7FFE80E3FC10
-        public void Reset(){} // RVA: 0x7FFE80E460A0
-        public void Upgrade(){} // RVA: 0x7FFE80E4F230
+        public void GetPreviousVersion(){} // RVA: 0x7FFAF2ACE6A0
+        public void Reset(){} // RVA: 0x7FFAF2AD4B10
+        public void Upgrade(){} // RVA: 0x7FFAF2ADDC60
     }
 
     public class IConfigurationSectionHandler
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE80E403A0
+        public void Create(){} // RVA: 0x7FFAF2ACEE30
     }
 
     public class IConfigurationSystem
     {
         // ── Methods ──
-        public void GetConfig(){} // RVA: 0x7FFE80E2E390
-        public void Init(){} // RVA: 0x7FFE80E45FE0
+        public void GetConfig(){} // RVA: 0x7FFAF2ABCE10
+        public void Init(){} // RVA: 0x7FFAF2AD4A50
     }
 
     public class IPersistComponentSettings
     {
         // ── Methods ──
-        public void get_SaveSettings(){} // RVA: 0x7FFE80E2F150
-        public void set_SaveSettings(){} // RVA: 0x7FFE80E466C0
-        public void get_SettingsKey(){} // RVA: 0x7FFE80E2E2E0
-        public void set_SettingsKey(){} // RVA: 0x7FFE80E460A0
-        public void LoadComponentSettings(){} // RVA: 0x7FFE80E45FE0
-        public void ResetComponentSettings(){} // RVA: 0x7FFE80E45FE0
-        public void SaveComponentSettings(){} // RVA: 0x7FFE80E45FE0
+        public void get_SaveSettings(){} // RVA: 0x7FFAF2ABDBE0
+        public void set_SaveSettings(){} // RVA: 0x7FFAF2AD5130
+        public void get_SettingsKey(){} // RVA: 0x7FFAF2ABCD60
+        public void set_SettingsKey(){} // RVA: 0x7FFAF2AD4B10
+        public void LoadComponentSettings(){} // RVA: 0x7FFAF2AD4A50
+        public void ResetComponentSettings(){} // RVA: 0x7FFAF2AD4A50
+        public void SaveComponentSettings(){} // RVA: 0x7FFAF2AD4A50
     }
 
     public class ISettingsProviderService
     {
         // ── Methods ──
-        public void GetSettingsProvider(){} // RVA: 0x7FFE80E2E390
+        public void GetSettingsProvider(){} // RVA: 0x7FFAF2ABCE10
     }
 
-    public class IdnElement : ConfigurationElement
+    public class IdnElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715D80
-        public void get_Enabled(){} // RVA: 0x7FFE87715DB0
-        public void set_Enabled(){} // RVA: 0x7FFE87715DE0
-        public void get_Properties(){} // RVA: 0x7FFE87715E10
+        public void .ctor(){} // RVA: 0x7FFAF9684ED0
+        public void get_Enabled(){} // RVA: 0x7FFAF9684F00
+        public void set_Enabled(){} // RVA: 0x7FFAF9684F30
+        public void get_Properties(){} // RVA: 0x7FFAF9684F60
     }
 
-    public class IgnoreSection : ConfigurationSection
+    public class IgnoreSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE870DD0C0
-        public void get_Properties(){} // RVA: 0x7FFE870DD0F0
-        public void DeserializeSection(){} // RVA: 0x7FFE870DD120
-        public void IsModified(){} // RVA: 0x7FFE870DD150
-        public void Reset(){} // RVA: 0x7FFE870DD180
-        public void ResetModified(){} // RVA: 0x7FFE870DD1B0
-        public void SerializeSection(){} // RVA: 0x7FFE870DD1E0
+        public void .ctor(){} // RVA: 0x7FFAF904E030
+        public void get_Properties(){} // RVA: 0x7FFAF904E060
+        public void DeserializeSection(){} // RVA: 0x7FFAF904E090
+        public void IsModified(){} // RVA: 0x7FFAF904E0C0
+        public void Reset(){} // RVA: 0x7FFAF904E0F0
+        public void ResetModified(){} // RVA: 0x7FFAF904E120
+        public void SerializeSection(){} // RVA: 0x7FFAF904E150
     }
 
-    public class IgnoreSectionHandler : Object
+    public class IgnoreSectionHandler : `
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715E40
-        public void Create(){} // RVA: 0x7FFE87715E70
+        public void .ctor(){} // RVA: 0x7FFAF9684F90
+        public void Create(){} // RVA: 0x7FFAF9684FC0
     }
 
-    public class IriParsingElement : ConfigurationElement
+    public class IriParsingElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715EA0
-        public void get_Enabled(){} // RVA: 0x7FFE87715ED0
-        public void set_Enabled(){} // RVA: 0x7FFE87715F00
-        public void get_Properties(){} // RVA: 0x7FFE87715F30
+        public void .ctor(){} // RVA: 0x7FFAF9684FF0
+        public void get_Enabled(){} // RVA: 0x7FFAF9685020
+        public void set_Enabled(){} // RVA: 0x7FFAF9685050
+        public void get_Properties(){} // RVA: 0x7FFAF9685080
     }
 
-    public class LocalFileSettingsProvider : SettingsProvider
+    public class LocalFileSettingsProvider
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715F60
-        public void get_ApplicationName(){} // RVA: 0x7FFE87715F90
-        public void set_ApplicationName(){} // RVA: 0x7FFE87715FC0
-        public void GetPreviousVersion(){} // RVA: 0x7FFE87715FF0
-        public void GetPropertyValues(){} // RVA: 0x7FFE87716020
-        public void Initialize(){} // RVA: 0x7FFE87716050
-        public void Reset(){} // RVA: 0x7FFE87716080
-        public void SetPropertyValues(){} // RVA: 0x7FFE877160B0
-        public void Upgrade(){} // RVA: 0x7FFE877160E0
+        public void .ctor(){} // RVA: 0x7FFAF96850B0
+        public void get_ApplicationName(){} // RVA: 0x7FFAF96850E0
+        public void set_ApplicationName(){} // RVA: 0x7FFAF9685110
+        public void GetPreviousVersion(){} // RVA: 0x7FFAF9685140
+        public void GetPropertyValues(){} // RVA: 0x7FFAF9685170
+        public void Initialize(){} // RVA: 0x7FFAF96851A0
+        public void Reset(){} // RVA: 0x7FFAF96851D0
+        public void SetPropertyValues(){} // RVA: 0x7FFAF9685200
+        public void Upgrade(){} // RVA: 0x7FFAF9685230
     }
 
-    public class NameValueFileSectionHandler : Object
+    public class NameValueFileSectionHandler : `
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87716110
-        public void Create(){} // RVA: 0x7FFE87716140
+        public void .ctor(){} // RVA: 0x7FFAF9685260
+        public void Create(){} // RVA: 0x7FFAF9685290
     }
 
-    public class NameValueSectionHandler : Object
+    public class NameValueSectionHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87716170
-        public void get_KeyAttributeName(){} // RVA: 0x7FFE877161A0
-        public void get_ValueAttributeName(){} // RVA: 0x7FFE877161D0
-        public void Create(){} // RVA: 0x7FFE87716200
+        public void .ctor(){} // RVA: 0x7FFAF96852C0
+        public void get_KeyAttributeName(){} // RVA: 0x7FFAF96852F0
+        public void get_ValueAttributeName(){} // RVA: 0x7FFAF9685320
+        public void Create(){} // RVA: 0x7FFAF9685350
     }
 
-    public class NoSettingsVersionUpgradeAttribute : Attribute
+    public class NoSettingsVersionUpgradeAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SchemeSettingElement : ConfigurationElement
+    public class SchemeSettingElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87716230
-        public void get_GenericUriParserOptions(){} // RVA: 0x7FFE87716260
-        public void get_Name(){} // RVA: 0x7FFE87716290
-        public void get_Properties(){} // RVA: 0x7FFE877162C0
+        public void .ctor(){} // RVA: 0x7FFAF9685380
+        public void get_GenericUriParserOptions(){} // RVA: 0x7FFAF96853B0
+        public void get_Name(){} // RVA: 0x7FFAF96853E0
+        public void get_Properties(){} // RVA: 0x7FFAF9685410
     }
 
-    public class SchemeSettingElementCollection : ConfigurationElementCollection
+    public class SchemeSettingElementCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877162F0
-        public void get_CollectionType(){} // RVA: 0x7FFE87716320
-        public void get_Item(){} // RVA: 0x7FFE87716380 | overloaded x2
-        public void CreateNewElement(){} // RVA: 0x7FFE877163B0
-        public void GetElementKey(){} // RVA: 0x7FFE877163E0
-        public void IndexOf(){} // RVA: 0x7FFE87716410
+        public void .ctor(){} // RVA: 0x7FFAF9685440
+        public void get_CollectionType(){} // RVA: 0x7FFAF9685470
+        public void get_Item(){} // RVA: 0x7FFAF96854D0 | overloaded x2
+        public void CreateNewElement(){} // RVA: 0x7FFAF9685500
+        public void GetElementKey(){} // RVA: 0x7FFAF9685530
+        public void IndexOf(){} // RVA: 0x7FFAF9685560
     }
 
-    public class SettingAttribute : Attribute
+    public class SettingAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SettingChangingEventArgs : CancelEventArgs
+    public class SettingChangingEventArgs
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877151B0
-        public void get_NewValue(){} // RVA: 0x7FFE877151E0
-        public void get_SettingClass(){} // RVA: 0x7FFE87715210
-        public void get_SettingKey(){} // RVA: 0x7FFE87715240
-        public void get_SettingName(){} // RVA: 0x7FFE87715270
+        public void .ctor(){} // RVA: 0x7FFAF9684300
+        public void get_NewValue(){} // RVA: 0x7FFAF9684330
+        public void get_SettingClass(){} // RVA: 0x7FFAF9684360
+        public void get_SettingKey(){} // RVA: 0x7FFAF9684390
+        public void get_SettingName(){} // RVA: 0x7FFAF96843C0
     }
 
-    public class SettingChangingEventHandler : MulticastDelegate
+    public class SettingChangingEventHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877150F0
-        public void Invoke(){} // RVA: 0x7FFE87715120
-        public void BeginInvoke(){} // RVA: 0x7FFE87715150
-        public void EndInvoke(){} // RVA: 0x7FFE87715180
+        public void .ctor(){} // RVA: 0x7FFAF9684240
+        public void Invoke(){} // RVA: 0x7FFAF9684270
+        public void BeginInvoke(){} // RVA: 0x7FFAF96842A0
+        public void EndInvoke(){} // RVA: 0x7FFAF96842D0
     }
 
-    public class SettingElement : ConfigurationElement
+    public class SettingElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715780 | overloaded x2
-        public void get_Name(){} // RVA: 0x7FFE877157B0
-        public void set_Name(){} // RVA: 0x7FFE877157E0
-        public void get_Properties(){} // RVA: 0x7FFE87715810
-        public void get_SerializeAs(){} // RVA: 0x7FFE87715840
-        public void set_SerializeAs(){} // RVA: 0x7FFE87715870
-        public void get_Value(){} // RVA: 0x7FFE877158A0
-        public void set_Value(){} // RVA: 0x7FFE877158D0
+        public void .ctor(){} // RVA: 0x7FFAF96848D0 | overloaded x2
+        public void get_Name(){} // RVA: 0x7FFAF9684900
+        public void set_Name(){} // RVA: 0x7FFAF9684930
+        public void get_Properties(){} // RVA: 0x7FFAF9684960
+        public void get_SerializeAs(){} // RVA: 0x7FFAF9684990
+        public void set_SerializeAs(){} // RVA: 0x7FFAF96849C0
+        public void get_Value(){} // RVA: 0x7FFAF96849F0
+        public void set_Value(){} // RVA: 0x7FFAF9684A20
     }
 
-    public class SettingElementCollection : ConfigurationElementCollection
+    public class SettingElementCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877155A0
-        public void get_CollectionType(){} // RVA: 0x7FFE877155D0
-        public void get_ElementName(){} // RVA: 0x7FFE87715600
-        public void Add(){} // RVA: 0x7FFE87715630
-        public void Clear(){} // RVA: 0x7FFE87715660
-        public void CreateNewElement(){} // RVA: 0x7FFE87715690
-        public void Get(){} // RVA: 0x7FFE877156C0
-        public void GetElementKey(){} // RVA: 0x7FFE877156F0
-        public void Remove(){} // RVA: 0x7FFE87715720
+        public void .ctor(){} // RVA: 0x7FFAF96846F0
+        public void get_CollectionType(){} // RVA: 0x7FFAF9684720
+        public void get_ElementName(){} // RVA: 0x7FFAF9684750
+        public void Add(){} // RVA: 0x7FFAF9684780
+        public void Clear(){} // RVA: 0x7FFAF96847B0
+        public void CreateNewElement(){} // RVA: 0x7FFAF96847E0
+        public void Get(){} // RVA: 0x7FFAF9684810
+        public void GetElementKey(){} // RVA: 0x7FFAF9684840
+        public void Remove(){} // RVA: 0x7FFAF9684870
     }
 
-    public class SettingValueElement : ConfigurationElement
+    public class SettingValueElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715900
-        public void get_Properties(){} // RVA: 0x7FFE87715930
-        public void get_ValueXml(){} // RVA: 0x7FFE87715960
-        public void set_ValueXml(){} // RVA: 0x7FFE87715990
-        public void DeserializeElement(){} // RVA: 0x7FFE877159C0
-        public void IsModified(){} // RVA: 0x7FFE877159F0
-        public void Reset(){} // RVA: 0x7FFE87715A20
-        public void ResetModified(){} // RVA: 0x7FFE87715A50
-        public void SerializeToXmlElement(){} // RVA: 0x7FFE87715A80
-        public void Unmerge(){} // RVA: 0x7FFE87715AB0
+        public void .ctor(){} // RVA: 0x7FFAF9684A50
+        public void get_Properties(){} // RVA: 0x7FFAF9684A80
+        public void get_ValueXml(){} // RVA: 0x7FFAF9684AB0
+        public void set_ValueXml(){} // RVA: 0x7FFAF9684AE0
+        public void DeserializeElement(){} // RVA: 0x7FFAF9684B10
+        public void IsModified(){} // RVA: 0x7FFAF9684B40
+        public void Reset(){} // RVA: 0x7FFAF9684B70
+        public void ResetModified(){} // RVA: 0x7FFAF9684BA0
+        public void SerializeToXmlElement(){} // RVA: 0x7FFAF9684BD0
+        public void Unmerge(){} // RVA: 0x7FFAF9684C00
     }
 
-    public class SettingsAttributeDictionary : Hashtable
+    public class SettingsAttributeDictionary
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87711610 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF9680760 | overloaded x2
     }
 
-    public class SettingsBase : Object
+    public class SettingsBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877107D0
-        public void get_Context(){} // RVA: 0x7FFE87710800
-        public void get_IsSynchronized(){} // RVA: 0x7FFE87710830
-        public void get_Item(){} // RVA: 0x7FFE87710860
-        public void set_Item(){} // RVA: 0x7FFE87710890
-        public void get_Properties(){} // RVA: 0x7FFE877108C0
-        public void get_PropertyValues(){} // RVA: 0x7FFE877108F0
-        public void get_Providers(){} // RVA: 0x7FFE87710920
-        public void Initialize(){} // RVA: 0x7FFE87710950
-        public void Save(){} // RVA: 0x7FFE87710980
-        public void Synchronized(){} // RVA: 0x7FFE877109B0
+        public void .ctor(){} // RVA: 0x7FFAF967F920
+        public void get_Context(){} // RVA: 0x7FFAF967F950
+        public void get_IsSynchronized(){} // RVA: 0x7FFAF967F980
+        public void get_Item(){} // RVA: 0x7FFAF967F9B0
+        public void set_Item(){} // RVA: 0x7FFAF967F9E0
+        public void get_Properties(){} // RVA: 0x7FFAF967FA10
+        public void get_PropertyValues(){} // RVA: 0x7FFAF967FA40
+        public void get_Providers(){} // RVA: 0x7FFAF967FA70
+        public void Initialize(){} // RVA: 0x7FFAF967FAA0
+        public void Save(){} // RVA: 0x7FFAF967FAD0
+        public void Synchronized(){} // RVA: 0x7FFAF967FB00
     }
 
-    public class SettingsContext : Hashtable
+    public class SettingsContext
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877109E0
+        public void .ctor(){} // RVA: 0x7FFAF967FB30
     }
 
-    public class SettingsDescriptionAttribute : Attribute
+    public class SettingsDescriptionAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_Description(){} // RVA: 0x7FFE87716440
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_Description(){} // RVA: 0x7FFAF9685590
     }
 
-    public class SettingsGroupDescriptionAttribute : Attribute
+    public class SettingsGroupDescriptionAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_Description(){} // RVA: 0x7FFE87716470
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_Description(){} // RVA: 0x7FFAF96855C0
     }
 
-    public class SettingsGroupNameAttribute : Attribute
+    public class SettingsGroupNameAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_GroupName(){} // RVA: 0x7FFE877164A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_GroupName(){} // RVA: 0x7FFAF96855F0
     }
 
-    public class SettingsLoadedEventArgs : EventArgs
+    public class SettingsLoadedEventArgs
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87715360
-        public void get_Provider(){} // RVA: 0x7FFE87715390
+        public void .ctor(){} // RVA: 0x7FFAF96844B0
+        public void get_Provider(){} // RVA: 0x7FFAF96844E0
     }
 
-    public class SettingsLoadedEventHandler : MulticastDelegate
+    public class SettingsLoadedEventHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877152A0
-        public void Invoke(){} // RVA: 0x7FFE877152D0
-        public void BeginInvoke(){} // RVA: 0x7FFE87715300
-        public void EndInvoke(){} // RVA: 0x7FFE87715330
+        public void .ctor(){} // RVA: 0x7FFAF96843F0
+        public void Invoke(){} // RVA: 0x7FFAF9684420
+        public void BeginInvoke(){} // RVA: 0x7FFAF9684450
+        public void EndInvoke(){} // RVA: 0x7FFAF9684480
     }
 
-    public class SettingsManageabilityAttribute : Attribute
+    public class SettingsManageabilityAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_Manageability(){} // RVA: 0x7FFE877164D0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_Manageability(){} // RVA: 0x7FFAF9685620
     }
 
-    public class SettingsProperty : Object
+    public class SettingsProperty
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87710DD0 | overloaded x3
-        public void get_Attributes(){} // RVA: 0x7FFE87710E00
-        public void get_DefaultValue(){} // RVA: 0x7FFE87710E30
-        public void set_DefaultValue(){} // RVA: 0x7FFE87710E60
-        public void get_IsReadOnly(){} // RVA: 0x7FFE87710E90
-        public void set_IsReadOnly(){} // RVA: 0x7FFE87710EC0
-        public void get_Name(){} // RVA: 0x7FFE87710EF0
-        public void set_Name(){} // RVA: 0x7FFE87710F20
-        public void get_PropertyType(){} // RVA: 0x7FFE87710F50
-        public void set_PropertyType(){} // RVA: 0x7FFE87710F80
-        public void get_Provider(){} // RVA: 0x7FFE87710FB0
-        public void set_Provider(){} // RVA: 0x7FFE87710FE0
-        public void get_SerializeAs(){} // RVA: 0x7FFE87711010
-        public void set_SerializeAs(){} // RVA: 0x7FFE87711040
-        public void get_ThrowOnErrorDeserializing(){} // RVA: 0x7FFE87711070
-        public void set_ThrowOnErrorDeserializing(){} // RVA: 0x7FFE877110A0
-        public void get_ThrowOnErrorSerializing(){} // RVA: 0x7FFE877110D0
-        public void set_ThrowOnErrorSerializing(){} // RVA: 0x7FFE87711100
+        public void .ctor(){} // RVA: 0x7FFAF967FF20 | overloaded x3
+        public void get_Attributes(){} // RVA: 0x7FFAF967FF50
+        public void get_DefaultValue(){} // RVA: 0x7FFAF967FF80
+        public void set_DefaultValue(){} // RVA: 0x7FFAF967FFB0
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF967FFE0
+        public void set_IsReadOnly(){} // RVA: 0x7FFAF9680010
+        public void get_Name(){} // RVA: 0x7FFAF9680040
+        public void set_Name(){} // RVA: 0x7FFAF9680070
+        public void get_PropertyType(){} // RVA: 0x7FFAF96800A0
+        public void set_PropertyType(){} // RVA: 0x7FFAF96800D0
+        public void get_Provider(){} // RVA: 0x7FFAF9680100
+        public void set_Provider(){} // RVA: 0x7FFAF9680130
+        public void get_SerializeAs(){} // RVA: 0x7FFAF9680160
+        public void set_SerializeAs(){} // RVA: 0x7FFAF9680190
+        public void get_ThrowOnErrorDeserializing(){} // RVA: 0x7FFAF96801C0
+        public void set_ThrowOnErrorDeserializing(){} // RVA: 0x7FFAF96801F0
+        public void get_ThrowOnErrorSerializing(){} // RVA: 0x7FFAF9680220
+        public void set_ThrowOnErrorSerializing(){} // RVA: 0x7FFAF9680250
     }
 
-    public class SettingsPropertyCollection : Object
+    public class SettingsPropertyCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87710A10
-        public void get_Count(){} // RVA: 0x7FFE87710A40
-        public void get_IsSynchronized(){} // RVA: 0x7FFE87710A70
-        public void get_Item(){} // RVA: 0x7FFE87710AA0
-        public void get_SyncRoot(){} // RVA: 0x7FFE87710AD0
-        public void Add(){} // RVA: 0x7FFE87710B00
-        public void Clear(){} // RVA: 0x7FFE87710B30
-        public void Clone(){} // RVA: 0x7FFE87710B60
-        public void CopyTo(){} // RVA: 0x7FFE87710B90
-        public void GetEnumerator(){} // RVA: 0x7FFE87710BC0
-        public void OnAdd(){} // RVA: 0x7FFE87710BF0
-        public void OnAddComplete(){} // RVA: 0x7FFE87710C20
-        public void OnClear(){} // RVA: 0x7FFE87710C50
-        public void OnClearComplete(){} // RVA: 0x7FFE87710C80
-        public void OnRemove(){} // RVA: 0x7FFE87710CB0
-        public void OnRemoveComplete(){} // RVA: 0x7FFE87710CE0
-        public void Remove(){} // RVA: 0x7FFE87710D10
-        public void SetReadOnly(){} // RVA: 0x7FFE87710D40
+        public void .ctor(){} // RVA: 0x7FFAF967FB60
+        public void get_Count(){} // RVA: 0x7FFAF967FB90
+        public void get_IsSynchronized(){} // RVA: 0x7FFAF967FBC0
+        public void get_Item(){} // RVA: 0x7FFAF967FBF0
+        public void get_SyncRoot(){} // RVA: 0x7FFAF967FC20
+        public void Add(){} // RVA: 0x7FFAF967FC50
+        public void Clear(){} // RVA: 0x7FFAF967FC80
+        public void Clone(){} // RVA: 0x7FFAF967FCB0
+        public void CopyTo(){} // RVA: 0x7FFAF967FCE0
+        public void GetEnumerator(){} // RVA: 0x7FFAF967FD10
+        public void OnAdd(){} // RVA: 0x7FFAF967FD40
+        public void OnAddComplete(){} // RVA: 0x7FFAF967FD70
+        public void OnClear(){} // RVA: 0x7FFAF967FDA0
+        public void OnClearComplete(){} // RVA: 0x7FFAF967FDD0
+        public void OnRemove(){} // RVA: 0x7FFAF967FE00
+        public void OnRemoveComplete(){} // RVA: 0x7FFAF967FE30
+        public void Remove(){} // RVA: 0x7FFAF967FE60
+        public void SetReadOnly(){} // RVA: 0x7FFAF967FE90
     }
 
-    public class SettingsPropertyIsReadOnlyException : Exception
+    public class SettingsPropertyIsReadOnlyException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87716590 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFAF96856E0 | overloaded x4
     }
 
-    public class SettingsPropertyNotFoundException : Exception
+    public class SettingsPropertyNotFoundException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87716650 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFAF96857A0 | overloaded x4
     }
 
-    public class SettingsPropertyValue : Object
+    public class SettingsPropertyValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877113A0
-        public void get_Deserialized(){} // RVA: 0x7FFE877113D0
-        public void set_Deserialized(){} // RVA: 0x7FFE87711400
-        public void get_IsDirty(){} // RVA: 0x7FFE87711430
-        public void set_IsDirty(){} // RVA: 0x7FFE87711460
-        public void get_Name(){} // RVA: 0x7FFE87711490
-        public void get_Property(){} // RVA: 0x7FFE877114C0
-        public void get_PropertyValue(){} // RVA: 0x7FFE877114F0
-        public void set_PropertyValue(){} // RVA: 0x7FFE87711520
-        public void get_SerializedValue(){} // RVA: 0x7FFE87711550
-        public void set_SerializedValue(){} // RVA: 0x7FFE87711580
-        public void get_UsingDefaultValue(){} // RVA: 0x7FFE877115B0
+        public void .ctor(){} // RVA: 0x7FFAF96804F0
+        public void get_Deserialized(){} // RVA: 0x7FFAF9680520
+        public void set_Deserialized(){} // RVA: 0x7FFAF9680550
+        public void get_IsDirty(){} // RVA: 0x7FFAF9680580
+        public void set_IsDirty(){} // RVA: 0x7FFAF96805B0
+        public void get_Name(){} // RVA: 0x7FFAF96805E0
+        public void get_Property(){} // RVA: 0x7FFAF9680610
+        public void get_PropertyValue(){} // RVA: 0x7FFAF9680640
+        public void set_PropertyValue(){} // RVA: 0x7FFAF9680670
+        public void get_SerializedValue(){} // RVA: 0x7FFAF96806A0
+        public void set_SerializedValue(){} // RVA: 0x7FFAF96806D0
+        public void get_UsingDefaultValue(){} // RVA: 0x7FFAF9680700
     }
 
-    public class SettingsPropertyValueCollection : Object
+    public class SettingsPropertyValueCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87711160
-        public void get_Count(){} // RVA: 0x7FFE87711190
-        public void get_IsSynchronized(){} // RVA: 0x7FFE877111C0
-        public void get_Item(){} // RVA: 0x7FFE877111F0
-        public void get_SyncRoot(){} // RVA: 0x7FFE87711220
-        public void Add(){} // RVA: 0x7FFE87711250
-        public void Clear(){} // RVA: 0x7FFE87711280
-        public void Clone(){} // RVA: 0x7FFE877112B0
-        public void CopyTo(){} // RVA: 0x7FFE877112E0
-        public void GetEnumerator(){} // RVA: 0x7FFE87711310
-        public void Remove(){} // RVA: 0x7FFE87711340
-        public void SetReadOnly(){} // RVA: 0x7FFE87711370
+        public void .ctor(){} // RVA: 0x7FFAF96802B0
+        public void get_Count(){} // RVA: 0x7FFAF96802E0
+        public void get_IsSynchronized(){} // RVA: 0x7FFAF9680310
+        public void get_Item(){} // RVA: 0x7FFAF9680340
+        public void get_SyncRoot(){} // RVA: 0x7FFAF9680370
+        public void Add(){} // RVA: 0x7FFAF96803A0
+        public void Clear(){} // RVA: 0x7FFAF96803D0
+        public void Clone(){} // RVA: 0x7FFAF9680400
+        public void CopyTo(){} // RVA: 0x7FFAF9680430
+        public void GetEnumerator(){} // RVA: 0x7FFAF9680460
+        public void Remove(){} // RVA: 0x7FFAF9680490
+        public void SetReadOnly(){} // RVA: 0x7FFAF96804C0
     }
 
-    public class SettingsPropertyWrongTypeException : Exception
+    public class SettingsPropertyWrongTypeException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87716710 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFAF9685860 | overloaded x4
     }
 
-    public class SettingsProvider : ProviderBase
+    public class SettingsProvider
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87711130
-        public void get_ApplicationName(){} // RVA: 0x7FFE80E2E2E0
-        public void set_ApplicationName(){} // RVA: 0x7FFE80E460A0
-        public void GetPropertyValues(){} // RVA: 0x7FFE80E3FC10
-        public void SetPropertyValues(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFAF9680280
+        public void get_ApplicationName(){} // RVA: 0x7FFAF2ABCD60
+        public void set_ApplicationName(){} // RVA: 0x7FFAF2AD4B10
+        public void GetPropertyValues(){} // RVA: 0x7FFAF2ACE6A0
+        public void SetPropertyValues(){} // RVA: 0x7FFAF2ADDC60
     }
 
-    public class SettingsProviderAttribute : Attribute
+    public class SettingsProviderAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310 | overloaded x2
-        public void get_ProviderTypeName(){} // RVA: 0x7FFE87716740
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
+        public void get_ProviderTypeName(){} // RVA: 0x7FFAF9685890
     }
 
-    public class SettingsProviderCollection : ProviderCollection
+    public class SettingsProviderCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87711640
-        public void get_Item(){} // RVA: 0x7FFE87711670
-        public void Add(){} // RVA: 0x7FFE877116A0
+        public void .ctor(){} // RVA: 0x7FFAF9680790
+        public void get_Item(){} // RVA: 0x7FFAF96807C0
+        public void Add(){} // RVA: 0x7FFAF96807F0
     }
 
-    public class SettingsSavingEventHandler : MulticastDelegate
+    public class SettingsSavingEventHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877153C0
-        public void Invoke(){} // RVA: 0x7FFE877153F0
-        public void BeginInvoke(){} // RVA: 0x7FFE87715420
-        public void EndInvoke(){} // RVA: 0x7FFE87715450
+        public void .ctor(){} // RVA: 0x7FFAF9684510
+        public void Invoke(){} // RVA: 0x7FFAF9684540
+        public void BeginInvoke(){} // RVA: 0x7FFAF9684570
+        public void EndInvoke(){} // RVA: 0x7FFAF96845A0
     }
 
-    public class SettingsSerializeAsAttribute : Attribute
+    public class SettingsSerializeAsAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_SerializeAs(){} // RVA: 0x7FFE87716770
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_SerializeAs(){} // RVA: 0x7FFAF96858C0
     }
 
-    public class SingleTagSectionHandler : Object
+    public class SingleTagSectionHandler : `
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877167A0
-        public void Create(){} // RVA: 0x7FFE877167D0
+        public void .ctor(){} // RVA: 0x7FFAF96858F0
+        public void Create(){} // RVA: 0x7FFAF9685920
     }
 
-    public class SpecialSettingAttribute : Attribute
+    public class SpecialSettingAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_SpecialSetting(){} // RVA: 0x7FFE87716800
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_SpecialSetting(){} // RVA: 0x7FFAF9685950
     }
 
-    public class UriSection : ConfigurationSection
+    public class UriSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87716830
-        public void get_Idn(){} // RVA: 0x7FFE87716860
-        public void get_IriParsing(){} // RVA: 0x7FFE87716890
-        public void get_Properties(){} // RVA: 0x7FFE877168C0
-        public void get_SchemeSettings(){} // RVA: 0x7FFE877168F0
+        public void .ctor(){} // RVA: 0x7FFAF9685980
+        public void get_Idn(){} // RVA: 0x7FFAF96859B0
+        public void get_IriParsing(){} // RVA: 0x7FFAF96859E0
+        public void get_Properties(){} // RVA: 0x7FFAF9685A10
+        public void get_SchemeSettings(){} // RVA: 0x7FFAF9685A40
     }
 
-    public class UserScopedSettingAttribute : SettingAttribute
+    public class UserScopedSettingAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UserSettingsGroup : ConfigurationSectionGroup
+    public class UserSettingsGroup
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87716920
+        public void .ctor(){} // RVA: 0x7FFAF9685A70
     }
 
 }

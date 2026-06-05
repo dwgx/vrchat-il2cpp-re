@@ -5,155 +5,146 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Pkcs
 {
-    public class AsymmetricKeyEntry : Pkcs12Entry
+    public class AsymmetricKeyEntry
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.AsymmetricKeyParameter key; // 0x18
+        public object Item;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A30B4F0 | overloaded x3
-        public void get_Key(){} // RVA: 0x7FFE810FE7C0
-        public void Equals(){} // RVA: 0x7FFE8A30B570
-        public void GetHashCode(){} // RVA: 0x7FFE8A30B630
+        public void .ctor(){} // RVA: 0x7FFAFC3597D0 | overloaded x3
+        public void get_Key(){} // RVA: 0x7FFAF2D907C0
+        public void Equals(){} // RVA: 0x7FFAFC359850
+        public void GetHashCode(){} // RVA: 0x7FFAFC359910
     }
 
-    public class EncryptedPrivateKeyInfoFactory : Object
+    public class EncryptedPrivateKeyInfoFactory
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void CreateEncryptedPrivateKeyInfo(){} // RVA: 0x7FFE8A30B740 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void CreateEncryptedPrivateKeyInfo(){} // RVA: 0x7FFAFC359A20 | overloaded x3
     }
 
-    public class Pkcs10CertificationRequest : CertificationRequest
+    public class Pkcs10CertificationRequest
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8A30B990
-        public void CreatePssParams(){} // RVA: 0x7FFE8A30D9F0
-        public void .ctor(){} // RVA: 0x7FFE8A30DE70 | overloaded x7
-        public void Init(){} // RVA: 0x7FFE8A30DFF0
-        public void GetPublicKey(){} // RVA: 0x7FFE8A30E3F0
-        public void Verify(){} // RVA: 0x7FFE8A30E690 | overloaded x4
-        public void SetSignatureParameters(){} // RVA: 0x7FFE8A30E910
-        public void GetSignatureName(){} // RVA: 0x7FFE8A30EA50
-        public void GetDigestAlgName(){} // RVA: 0x7FFE8A30EC50
+        public void .cctor(){} // RVA: 0x7FFAFC359C70
+        public void CreatePssParams(){} // RVA: 0x7FFAFC35BCD0
+        public void .ctor(){} // RVA: 0x7FFAFC35C150 | overloaded x7
+        public void Init(){} // RVA: 0x7FFAFC35C2D0
+        public void GetPublicKey(){} // RVA: 0x7FFAFC35C6D0
+        public void Verify(){} // RVA: 0x7FFAFC35C970 | overloaded x4
+        public void SetSignatureParameters(){} // RVA: 0x7FFAFC35CBF0
+        public void GetSignatureName(){} // RVA: 0x7FFAFC35CD30
+        public void GetDigestAlgName(){} // RVA: 0x7FFAFC35CF30
     }
 
-    public class Pkcs10CertificationRequestDelaySigned : Pkcs10CertificationRequest
+    public class Pkcs10CertificationRequestDelaySigned
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A30F3A0 | overloaded x6
-        public void GetDataToSign(){} // RVA: 0x7FFE89EB0CB0
-        public void SignRequest(){} // RVA: 0x7FFE811290D0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAFC35D680 | overloaded x6
+        public void GetDataToSign(){} // RVA: 0x7FFAFBEFE8E0
+        public void SignRequest(){} // RVA: 0x7FFAF2DBB0D0 | overloaded x2
     }
 
-    public class Pkcs12Entry : Object
+    public class Pkcs12Entry
     {
-        public System.Collections.IDictionary attributes; // 0x10
-        public object field_1; // 0x18F
-        public object field_2; // 0x190
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A30FA00
-        public void GetBagAttribute(){} // RVA: 0x7FFE8A30FEA0 | overloaded x2
-        public void GetBagAttributeKeys(){} // RVA: 0x7FFE8A30FF50
-        public void get_Item(){} // RVA: 0x7FFE8A310090 | overloaded x2
-        public void get_BagAttributeKeys(){} // RVA: 0x7FFE8A310140
+        public void .ctor(){} // RVA: 0x7FFAFC35DCE0
+        public void GetBagAttribute(){} // RVA: 0x7FFAFC35E180 | overloaded x2
+        public void GetBagAttributeKeys(){} // RVA: 0x7FFAFC35E230
+        public void get_Item(){} // RVA: 0x7FFAFC35E370 | overloaded x2
+        public void get_BagAttributeKeys(){} // RVA: 0x7FFAFC35E420
     }
 
-    public class Pkcs12Store : Object
+    public class Pkcs12Store
     {
-        public IgnoresCaseHashtable keys; // 0x10
-        public System.Collections.IDictionary localIds; // 0x18
-
         // ── Methods ──
-        public void CreateSubjectKeyID(){} // RVA: 0x7FFE8A310250
-        public void .ctor(){} // RVA: 0x7FFE8A310710 | overloaded x3
-        public void LoadKeyBag(){} // RVA: 0x7FFE8A3107C0
-        public void LoadPkcs8ShroudedKeyBag(){} // RVA: 0x7FFE8A310F80
-        public void Load(){} // RVA: 0x7FFE8A310FE0
-        public void GetKey(){} // RVA: 0x7FFE8A312730
-        public void IsCertificateEntry(){} // RVA: 0x7FFE8A312820
-        public void IsKeyEntry(){} // RVA: 0x7FFE8A3128D0
-        public void GetAliasesTable(){} // RVA: 0x7FFE8A312950
-        public void get_Aliases(){} // RVA: 0x7FFE8A313030
-        public void ContainsAlias(){} // RVA: 0x7FFE8A313150
-        public void GetCertificate(){} // RVA: 0x7FFE8A3131B0
-        public void GetCertificateAlias(){} // RVA: 0x7FFE8A3133F0
-        public void GetCertificateChain(){} // RVA: 0x7FFE8A313940
-        public void SetCertificateEntry(){} // RVA: 0x7FFE8A314180
-        public void SetKeyEntry(){} // RVA: 0x7FFE8A3143A0
-        public void DeleteEntry(){} // RVA: 0x7FFE8A314720
-        public void IsEntryOfType(){} // RVA: 0x7FFE8A314B60
-        public void Size(){} // RVA: 0x7FFE8A314D90
-        public void get_Count(){} // RVA: 0x7FFE8A314D90
-        public void Save(){} // RVA: 0x7FFE8A314DF0
-        public void CalculatePbeMac(){} // RVA: 0x7FFE8A317B50
-        public void CryptPbeData(){} // RVA: 0x7FFE8A317E40
+        public void CreateSubjectKeyID(){} // RVA: 0x7FFAFC35E530
+        public void .ctor(){} // RVA: 0x7FFAFC35E9F0 | overloaded x3
+        public void LoadKeyBag(){} // RVA: 0x7FFAFC35EAA0
+        public void LoadPkcs8ShroudedKeyBag(){} // RVA: 0x7FFAFC35F260
+        public void Load(){} // RVA: 0x7FFAFC35F2C0
+        public void GetKey(){} // RVA: 0x7FFAFC360A10
+        public void IsCertificateEntry(){} // RVA: 0x7FFAFC360B00
+        public void IsKeyEntry(){} // RVA: 0x7FFAFC360BB0
+        public void GetAliasesTable(){} // RVA: 0x7FFAFC360C30
+        public void get_Aliases(){} // RVA: 0x7FFAFC361310
+        public void ContainsAlias(){} // RVA: 0x7FFAFC361430
+        public void GetCertificate(){} // RVA: 0x7FFAFC361490
+        public void GetCertificateAlias(){} // RVA: 0x7FFAFC3616D0
+        public void GetCertificateChain(){} // RVA: 0x7FFAFC361C20
+        public void SetCertificateEntry(){} // RVA: 0x7FFAFC362460
+        public void SetKeyEntry(){} // RVA: 0x7FFAFC362680
+        public void DeleteEntry(){} // RVA: 0x7FFAFC362A00
+        public void IsEntryOfType(){} // RVA: 0x7FFAFC362E40
+        public void Size(){} // RVA: 0x7FFAFC363070
+        public void get_Count(){} // RVA: 0x7FFAFC363070
+        public void Save(){} // RVA: 0x7FFAFC3630D0
+        public void CalculatePbeMac(){} // RVA: 0x7FFAFC365E30
+        public void CryptPbeData(){} // RVA: 0x7FFAFC366120
     }
 
-    public class Pkcs12StoreBuilder : Object
+    public class Pkcs12StoreBuilder
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A3189D0
-        public void Build(){} // RVA: 0x7FFE8A318AF0
-        public void SetCertAlgorithm(){} // RVA: 0x7FFE829DE9A0
-        public void SetKeyAlgorithm(){} // RVA: 0x7FFE82C06680
-        public void SetUseDerEncoding(){} // RVA: 0x7FFE8A318B80
+        public void .ctor(){} // RVA: 0x7FFAFC366CB0
+        public void Build(){} // RVA: 0x7FFAFC366DD0
+        public void SetCertAlgorithm(){} // RVA: 0x7FFAF470A060
+        public void SetKeyAlgorithm(){} // RVA: 0x7FFAF492CF00
+        public void SetUseDerEncoding(){} // RVA: 0x7FFAFC366E60
     }
 
-    public class Pkcs12Utilities : Object
+    public class Pkcs12Utilities
     {
         // ── Methods ──
-        public void ConvertToDefiniteLength(){} // RVA: 0x7FFE8A318C30 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void ConvertToDefiniteLength(){} // RVA: 0x7FFAFC366F10 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Pkcs8EncryptedPrivateKeyInfo : Object
+    public class Pkcs8EncryptedPrivateKeyInfo
     {
         // ── Methods ──
-        public void parseBytes(){} // RVA: 0x7FFE8A319120
-        public void .ctor(){} // RVA: 0x7FFE8A319260 | overloaded x2
-        public void ToAsn1Structure(){} // RVA: 0x7FFE81116380
-        public void GetEncryptedData(){} // RVA: 0x7FFE8A3192D0
-        public void GetEncoded(){} // RVA: 0x7FFE89EBCFE0
-        public void DecryptPrivateKeyInfo(){} // RVA: 0x7FFE8A319310
+        public void parseBytes(){} // RVA: 0x7FFAFC367400
+        public void .ctor(){} // RVA: 0x7FFAFC367540 | overloaded x2
+        public void ToAsn1Structure(){} // RVA: 0x7FFAF2DA8380
+        public void GetEncryptedData(){} // RVA: 0x7FFAFC3675B0
+        public void GetEncoded(){} // RVA: 0x7FFAFBF0AC10
+        public void DecryptPrivateKeyInfo(){} // RVA: 0x7FFAFC3675F0
     }
 
-    public class Pkcs8EncryptedPrivateKeyInfoBuilder : Object
+    public class Pkcs8EncryptedPrivateKeyInfoBuilder
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
-        public void Build(){} // RVA: 0x7FFE8A3195E0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
+        public void Build(){} // RVA: 0x7FFAFC3678C0
     }
 
-    public class PkcsException : Exception
+    public class PkcsException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A319930 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAFC367C10 | overloaded x2
     }
 
-    public class PkcsIOException : IOException
+    public class PkcsIOException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE869662F0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF88D54B0 | overloaded x2
     }
 
-    public class PrivateKeyInfoFactory : Object
+    public class PrivateKeyInfoFactory
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void CreatePrivateKeyInfo(){} // RVA: 0x7FFE8A31B220 | overloaded x4
-        public void ExtractBytes(){} // RVA: 0x7FFE8A31B480
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void CreatePrivateKeyInfo(){} // RVA: 0x7FFAFC369500 | overloaded x4
+        public void ExtractBytes(){} // RVA: 0x7FFAFC369760
     }
 
-    public class X509CertificateEntry : Pkcs12Entry
+    public class X509CertificateEntry
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.X509.X509Certificate cert; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A30B4F0 | overloaded x3
-        public void get_Certificate(){} // RVA: 0x7FFE810FE7C0
-        public void Equals(){} // RVA: 0x7FFE8A31B6A0
-        public void GetHashCode(){} // RVA: 0x7FFE8A30B630
+        public void .ctor(){} // RVA: 0x7FFAFC3597D0 | overloaded x3
+        public void get_Certificate(){} // RVA: 0x7FFAF2D907C0
+        public void Equals(){} // RVA: 0x7FFAFC369980
+        public void GetHashCode(){} // RVA: 0x7FFAFC359910
     }
 
 }

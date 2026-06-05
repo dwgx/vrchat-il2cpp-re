@@ -1,184 +1,171 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Common
-// Classes: 15
-// Methods: 95
+// Classes: 16
+// Methods: 104
 
 namespace VRC.Udon.Common
 {
-    public class DeserializationResult : ValueType
+    public class DeserializationResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88232300
+        public void .ctor(){} // RVA: 0x7FFAFA1A5650
     }
 
-    public class SerializationResult : ValueType
+    public class SerializationResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE844558C0
+        public void .ctor(){} // RVA: 0x7FFAF6274E80
     }
 
-    public class UdonBaseHeapReference : Object
+    public class UdonBaseHeapReference
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UdonGameObjectComponentHeapReference : UdonBaseHeapReference
+    public class UdonGameObjectComponentHeapReference
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
-    public class UdonHeap : Object
+    public class UdonHeap
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88233900 | overloaded x3
-        public void CheckHeapBounds(){} // RVA: 0x7FFE8357B000
-        public void IsAddressWithinBounds(){} // RVA: 0x7FFE882326B0
-        public void InitializeHeapVariable(){} // RVA: 0x7FFE88233420 | overloaded x2
-        public void CopyHeapVariable(){} // RVA: 0x7FFE882326E0
-        public void SetHeapVariable(){} // RVA: 0x7FFE88233570 | overloaded x2
-        public void SetHeapVariableInternal(){} // RVA: 0x7FFE88233650 | overloaded x2
-        public void GetHeapVariable(){} // RVA: 0x7FFE810A1420 | overloaded x2
-        public void TryGetHeapVariable(){} // RVA: 0x7FFE88233030 | overloaded x2
-        public void GetHeapVariableInternal(){} // RVA: 0x7FFE810A1420
-        public void IsHeapVariableInitialized(){} // RVA: 0x7FFE88233090
-        public void GetHeapVariableType(){} // RVA: 0x7FFE882330E0
-        public void GetHeapCapacity(){} // RVA: 0x7FFE81CCB610
-        public void DumpHeapObjects(){} // RVA: 0x7FFE88233260
-        public void GetObjectData(){} // RVA: 0x7FFE88233F90
+        public void .ctor(){} // RVA: 0x7FFAFA1A6C50 | overloaded x3
+        public void CheckHeapBounds(){} // RVA: 0x7FFAF52DBFA0
+        public void IsAddressWithinBounds(){} // RVA: 0x7FFAFA1A5A00
+        public void InitializeHeapVariable(){} // RVA: 0x7FFAFA1A6770 | overloaded x2
+        public void CopyHeapVariable(){} // RVA: 0x7FFAFA1A5A30
+        public void SetHeapVariable(){} // RVA: 0x7FFAFA1A68C0 | overloaded x2
+        public void SetHeapVariableInternal(){} // RVA: 0x7FFAFA1A69A0 | overloaded x2
+        public void GetHeapVariable(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void TryGetHeapVariable(){} // RVA: 0x7FFAFA1A6380 | overloaded x2
+        public void GetHeapVariableInternal(){} // RVA: 0x7FFAF2D33FA0
+        public void IsHeapVariableInitialized(){} // RVA: 0x7FFAFA1A63E0
+        public void GetHeapVariableType(){} // RVA: 0x7FFAFA1A6430
+        public void GetHeapCapacity(){} // RVA: 0x7FFAF39EF910
+        public void DumpHeapObjects(){} // RVA: 0x7FFAFA1A65B0
+        public void GetObjectData(){} // RVA: 0x7FFAFA1A72E0
     }
 
-    public class UdonInputEventArgs : ValueType
+    public class UdonInputEventArgs
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88234410 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAFA1A7760 | overloaded x2
     }
 
-    public class UdonProgram : Object
+    public class UdonProgram
     {
-        public string _instructionSetIdentifier; // 0x10
-        public int _instructionSetVersion; // 0x18
-        public byte[] _byteCode; // 0x20
-        public VRC.Udon.Common.Interfaces.IUdonHeap _heap; // 0x28
-        public VRC.Udon.Common.Interfaces.IUdonSymbolTable _entryPoints; // 0x30
-        public VRC.Udon.Common.Interfaces.IUdonSymbolTable _symbolTable; // 0x38
-        public VRC.Udon.Common.Interfaces.IUdonSyncMetadataTable _syncMetadataTable; // 0x40
-        public int _updateOrder; // 0x48
-
         // ── Methods ──
-        public void get_InstructionSetIdentifier(){} // RVA: 0x7FFE81116380
-        public void get_InstructionSetVersion(){} // RVA: 0x7FFE813DB630
-        public void get_ByteCode(){} // RVA: 0x7FFE811290C0
-        public void get_Heap(){} // RVA: 0x7FFE81129130
-        public void get_EntryPoints(){} // RVA: 0x7FFE8144E200
-        public void get_SymbolTable(){} // RVA: 0x7FFE8143BA80
-        public void get_SyncMetadataTable(){} // RVA: 0x7FFE81178740
-        public void get_UpdateOrder(){} // RVA: 0x7FFE8119C0C0
-        public void .ctor(){} // RVA: 0x7FFE88234430
+        public void get_InstructionSetIdentifier(){} // RVA: 0x7FFAF2DA8380
+        public void get_InstructionSetVersion(){} // RVA: 0x7FFAF306ED50
+        public void get_ByteCode(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_Heap(){} // RVA: 0x7FFAF2DBB130
+        public void get_EntryPoints(){} // RVA: 0x7FFAF30E74D0
+        public void get_SymbolTable(){} // RVA: 0x7FFAF2F476A0
+        public void get_SyncMetadataTable(){} // RVA: 0x7FFAF2E0A740
+        public void get_UpdateOrder(){} // RVA: 0x7FFAF2E2E0C0
+        public void .ctor(){} // RVA: 0x7FFAFA1A7780
     }
 
-    public class UdonSymbol : Object
+    public class UdonSymbol
     {
-        public string _name; // 0x10
-        public System.Type _type; // 0x18
-        public uint _address; // 0x20
-
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFE81116380
-        public void get_Type(){} // RVA: 0x7FFE810FE7C0
-        public void get_Address(){} // RVA: 0x7FFE8151D690
-        public void .ctor(){} // RVA: 0x7FFE88234780 | overloaded x2
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE88234B70
+        public void get_Name(){} // RVA: 0x7FFAF2DA8380
+        public void get_Type(){} // RVA: 0x7FFAF2D907C0
+        public void get_Address(){} // RVA: 0x7FFAF3210030
+        public void .ctor(){} // RVA: 0x7FFAFA1A7AD0 | overloaded x2
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAFA1A7EC0
     }
 
-    public class UdonSymbolTable : Object
+    public class UdonSymbolTable
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88236DE0 | overloaded x3
-        public void HasAddressForSymbol(){} // RVA: 0x7FFE882366B0
-        public void HasSymbolForAddress(){} // RVA: 0x7FFE88236710
-        public void GetSymbolFromAddress(){} // RVA: 0x7FFE88236770
-        public void TryGetSymbolFromAddress(){} // RVA: 0x7FFE88236950
-        public void GetAddressFromSymbol(){} // RVA: 0x7FFE88236AC0
-        public void TryGetAddressFromSymbol(){} // RVA: 0x7FFE88236BC0
-        public void GetExportedSymbols(){} // RVA: 0x7FFE810FE7C0
-        public void GetSymbols(){} // RVA: 0x7FFE81116380
-        public void HasExportedSymbol(){} // RVA: 0x7FFE88236C80
-        public void GetSymbolType(){} // RVA: 0x7FFE88236CE0
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE88237030
+        public void .ctor(){} // RVA: 0x7FFAFA1AA130 | overloaded x3
+        public void HasAddressForSymbol(){} // RVA: 0x7FFAFA1A9A00
+        public void HasSymbolForAddress(){} // RVA: 0x7FFAFA1A9A60
+        public void GetSymbolFromAddress(){} // RVA: 0x7FFAFA1A9AC0
+        public void TryGetSymbolFromAddress(){} // RVA: 0x7FFAFA1A9CA0
+        public void GetAddressFromSymbol(){} // RVA: 0x7FFAFA1A9E10
+        public void TryGetAddressFromSymbol(){} // RVA: 0x7FFAFA1A9F10
+        public void GetExportedSymbols(){} // RVA: 0x7FFAF2D907C0
+        public void GetSymbols(){} // RVA: 0x7FFAF2DA8380
+        public void HasExportedSymbol(){} // RVA: 0x7FFAFA1A9FD0
+        public void GetSymbolType(){} // RVA: 0x7FFAFA1AA030
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAFA1AA380
     }
 
-    public class UdonSyncMetadata : Object
+    public class UdonSyncMetadata : get_Name
     {
-        public string _name; // 0x10
-        public System.Collections.Generic.List`1<VRC.Udon.Common.Interfaces.IUdonSyncProperty> _properties; // 0x18
-
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFE81116380
-        public void get_Properties(){} // RVA: 0x7FFE810FE7C0
-        public void .ctor(){} // RVA: 0x7FFE88238160 | overloaded x2
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE882384D0
+        public void get_Name(){} // RVA: 0x7FFAF2DA8380
+        public void get_Properties(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAFA1AB4B0 | overloaded x2
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAFA1AB820
     }
 
-    public class UdonSyncMetadataTable : Object
+    public class UdonSyncMetadataTable
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88238E20 | overloaded x3
-        public void GetAllSyncMetadata(){} // RVA: 0x7FFE88238D60
-        public void GetSyncMetadataFromSymbol(){} // RVA: 0x7FFE88238DB0
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE88238F80
+        public void .ctor(){} // RVA: 0x7FFAFA1AC170 | overloaded x3
+        public void GetAllSyncMetadata(){} // RVA: 0x7FFAFA1AC0B0
+        public void GetSyncMetadataFromSymbol(){} // RVA: 0x7FFAFA1AC100
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAFA1AC2D0
     }
 
-    public class UdonSyncProperty : Object
+    public class UdonSyncProperty : get_Name
     {
-        public string _name; // 0x10
-        public 0x666CAA44 _interpolationAlgorithm; // 0x18
-
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFE81116380
-        public void get_InterpolationAlgorithm(){} // RVA: 0x7FFE813DB630
-        public void .ctor(){} // RVA: 0x7FFE882378D0 | overloaded x2
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE88237B80
+        public void get_Name(){} // RVA: 0x7FFAF2DA8380
+        public void get_InterpolationAlgorithm(){} // RVA: 0x7FFAF306ED50
+        public void .ctor(){} // RVA: 0x7FFAFA1AAC20 | overloaded x2
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAFA1AAED0
     }
 
-    public class UdonVariableTable : Object
+    public class UdonVariableTable
     {
-        public System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Interfaces.IUdonVariable> _publicVariables; // 0x10
-
         // ── Methods ──
-        public void get_VariableSymbols(){} // RVA: 0x7FFE88239280
-        public void .ctor(){} // RVA: 0x7FFE88239BD0 | overloaded x3
-        public void TrySetVariableValue(){} // RVA: 0x7FFE810A1420 | overloaded x2
-        public void TryGetVariableValue(){} // RVA: 0x7FFE80E32650 | overloaded x2
-        public void TryGetVariableType(){} // RVA: 0x7FFE882398E0
-        public void TryAddVariable(){} // RVA: 0x7FFE88239A50
-        public void RemoveVariable(){} // RVA: 0x7FFE88239B70
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE88239D30
+        public void get_VariableSymbols(){} // RVA: 0x7FFAFA1AC5D0
+        public void .ctor(){} // RVA: 0x7FFAFA1ACF20 | overloaded x3
+        public void TrySetVariableValue(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void TryGetVariableValue(){} // RVA: 0x7FFAF2AC1120 | overloaded x2
+        public void TryGetVariableType(){} // RVA: 0x7FFAFA1ACC30
+        public void TryAddVariable(){} // RVA: 0x7FFAFA1ACDA0
+        public void RemoveVariable(){} // RVA: 0x7FFAFA1ACEC0
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAFA1AD080
     }
 
-    public class UdonVariable`1 : Object
+    public class UdonVariable`1
     {
-        public string _symbolName;
-        public T _value;
-        public object field_2; // 0x12
-        public object field_3; // 0x13
-
         // ── Methods ──
-        public void get_SymbolName(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Value(){} // RVA: 0x7FFE810A1420
-        public void set_Value(){} // RVA: 0x7FFE810A1420
-        public void VRC.Udon.Common.Interfaces.IUdonVariable.get_Value(){} // RVA: 0x7FFE80E2E2E0
-        public void VRC.Udon.Common.Interfaces.IUdonVariable.set_Value(){} // RVA: 0x7FFE80E460A0
-        public void get_DeclaredType(){} // RVA: 0x7FFE80E2E2E0
-        public void .ctor(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void get_SymbolName(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Value(){} // RVA: 0x7FFAF2D33FA0
+        public void set_Value(){} // RVA: 0x7FFAF2D33FA0
+        public void VRC.Udon.Common.Interfaces.IUdonVariable.get_Value(){} // RVA: 0x7FFAF2ABCD60
+        public void VRC.Udon.Common.Interfaces.IUdonVariable.set_Value(){} // RVA: 0x7FFAF2AD4B10
+        public void get_DeclaredType(){} // RVA: 0x7FFAF2ABCD60
+        public void .ctor(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
         public void System.Runtime.Serialization.ISerializable.GetObjectData(){}
     }
 
-    public class VariableChangedEvent : Object
+    public class UdonVariable`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_SymbolName(){} // RVA: 0x7FFAF2DA8380
+        public void get_Value(){} // RVA: 0x7FFAF2D907C0
+        public void set_Value(){} // RVA: 0x7FFAF2DF3E80
+        public void VRC.Udon.Common.Interfaces.IUdonVariable.get_Value(){} // RVA: 0x7FFAF2D907C0
+        public void VRC.Udon.Common.Interfaces.IUdonVariable.set_Value(){} // RVA: 0x7FFAF68B3F00
+        public void get_DeclaredType(){} // RVA: 0x7FFAF6F3A570
+        public void .ctor(){} // RVA: 0x7FFAF6F3AA60 | overloaded x2
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF6F3A620
+    }
+
+    public class VariableChangedEvent
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

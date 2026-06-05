@@ -5,38 +5,38 @@
 
 namespace ThirdParty.Other.Org.BouncyCastle.Crypto.Tls
 {
-    public class AlwaysValidVerifyer : Object
+    public class AlwaysValidVerifyer
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x7FFE811E0850
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void IsValid(){} // RVA: 0x7FFAF2E72850
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
     public class ICertificateVerifyer
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x7FFE80E32650
+        public void IsValid(){} // RVA: 0x7FFAF2AC1120
     }
 
     public class IClientCredentialsProvider
     {
         // ── Methods ──
-        public void GetClientCredentials(){} // RVA: 0x7FFE80E3FC10
+        public void GetClientCredentials(){} // RVA: 0x7FFAF2ACE6A0
     }
 
-    public class LegacyTlsAuthentication : Object
+    public class LegacyTlsAuthentication
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE865CA640
-        public void NotifyServerCertificate(){} // RVA: 0x7FFE89E8B180
-        public void GetClientCredentials(){} // RVA: 0x7FFE89E8B250
+        public void .ctor(){} // RVA: 0x7FFAF85398E0
+        public void NotifyServerCertificate(){} // RVA: 0x7FFAFBED8DB0
+        public void GetClientCredentials(){} // RVA: 0x7FFAFBED8E80
     }
 
-    public class LegacyTlsClient : DefaultTlsClient
+    public class LegacyTlsClient
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89E8B2D0
-        public void GetAuthentication(){} // RVA: 0x7FFE89E8B570
+        public void .ctor(){} // RVA: 0x7FFAFBED8F00
+        public void GetAuthentication(){} // RVA: 0x7FFAFBED91A0
     }
 
 }

@@ -5,11 +5,11 @@
 
 namespace ThirdParty.DotNet.Mono.Net.Security.Private
 {
-    public class CallbackHelpers : Object
+    public class CallbackHelpers
     {
         // ── Methods ──
-        public void PublicToMono(){} // RVA: 0x7FFE871D4AF0
-        public void MonoToInternal(){} // RVA: 0x7FFE871D4CB0
+        public void PublicToMono(){} // RVA: 0x7FFAF9145C00
+        public void MonoToInternal(){} // RVA: 0x7FFAF9145DC0
     }
 
 }

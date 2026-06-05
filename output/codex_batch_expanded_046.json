@@ -1,0 +1,154 @@
+[
+  {
+    "class": "LifecycleComponentImpl_AB77SibSibling_E1C5",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameInvisible",
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6F5"
+    ]
+  },
+  {
+    "class": "PlatformChecker",
+    "parent": "",
+    "namespace": "VRC.SDK3.Internal",
+    "readable_methods": [
+      "set_ValidExpressions",
+      "get_ValidExpressions",
+      "Enable",
+      "HandleWorldInfoFetched"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9A7"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_2B16",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CA7"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_7FFB",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6B3"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_91F0",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionExit"
+    ],
+    "fields": [
+      "_91F0"
+    ],
+    "hash_methods": [
+      "m_F23"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_A29D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C9E"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_B4A2",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationQuit",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A41"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_048C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D23",
+      "m_2AD"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_4EB7",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4E7",
+      "m_DFE"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_6F22",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_63A",
+      "m_015"
+    ]
+  }
+]

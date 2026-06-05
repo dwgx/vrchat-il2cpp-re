@@ -1,0 +1,16 @@
+{
+  "PlayerControllerColliderHit_14B8::m_FB4": "get_controller",
+  "PlayerControllerColliderHit_14B8::m_6CA": "get_collider",
+  "PlayerControllerColliderHit_14B8::m_156": "get_rigidbody",
+  "PlayerControllerColliderHit_14B8::m_8FF": "get_gameObject",
+  "PlayerControllerColliderHit_14B8::m_2F6": "get_transform",
+  "PlayerControllerColliderHit_14B8::m_42B": "get_point",
+  "PlayerControllerColliderHit_14B8::m_51A": "get_normal",
+  "PlayerControllerColliderHit_14B8::m_115": "get_moveDirection",
+  "PlayerControllerColliderHit_14B8::m_FA7": "get_moveLength",
+  "UIRectTransformDimensionsChBefSibling_1299::m_C6C": "OnRectTransformDimensionsChange",
+  "UIRectTransformDimensionsChBefSibling_1299::m_860": "OnBeforeTransformParentChanged",
+  "UIRectTransformDimensionsChBefSibling_1299::m_70E": "OnTransformParentChanged",
+  "UIRectTransformDimensionsChBefSibling_1299::m_B91": "OnDidApplyAnimationProperties",
+  "UIRectTransformDimensionsChBefSibling_1299::m_883": "OnCanvasGroupChanged"
+}

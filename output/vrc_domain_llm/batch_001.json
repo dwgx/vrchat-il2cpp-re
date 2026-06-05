@@ -1,0 +1,109 @@
+[
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_95B8",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6D5",
+      "m_344",
+      "m_4CC",
+      "m_062",
+      "m_BA5",
+      "m_23A",
+      "m_493",
+      "m_2C3",
+      "m_166",
+      "m_C59",
+      "m_F8A",
+      "m_CDA",
+      "m_872",
+      "m_FA3",
+      "m_186",
+      "m_EB6",
+      "m_AF5",
+      "m_FFD",
+      "m_053",
+      "m_FE6",
+      "m_49F",
+      "m_4C6",
+      "m_EFC",
+      "m_C85",
+      "m_448"
+    ],
+    "all_method_count": 91,
+    "chunk_index": 1,
+    "chunk_count": 4
+  },
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_95B8",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7C9",
+      "m_397",
+      "m_574",
+      "m_971",
+      "m_C15",
+      "m_483",
+      "m_A9C",
+      "m_586",
+      "m_990",
+      "m_F66",
+      "m_B23",
+      "m_AE5",
+      "m_67C",
+      "m_80D",
+      "m_BD7",
+      "m_0C2",
+      "m_0C4",
+      "m_4C1",
+      "m_16C",
+      "m_A54",
+      "m_CDE",
+      "m_EC4",
+      "m_7E2",
+      "m_B10",
+      "m_AB9"
+    ],
+    "all_method_count": 91,
+    "chunk_index": 2,
+    "chunk_count": 4
+  },
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_95B8",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_57C",
+      "m_8CC",
+      "m_703",
+      "m_178",
+      "m_001",
+      "m_29C",
+      "m_B03",
+      "m_EC1",
+      "m_8C1",
+      "m_1DC",
+      "m_7B7",
+      "m_617"
+    ],
+    "all_method_count": 91,
+    "chunk_index": 3,
+    "chunk_count": 4
+  }
+]

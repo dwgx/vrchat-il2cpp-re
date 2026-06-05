@@ -1,847 +1,741 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 275
+// Methods: 258
 
-public class SCNetworkReachabilityCallback : MulticastDelegate
+public class SCNetworkReachabilityCallback
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE82880F70
-    public void Invoke(){} // RVA: 0x7FFE812574E0
+    public void .ctor(){} // RVA: 0x7FFAF45A99C0
+    public void Invoke(){} // RVA: 0x7FFAF2EE94E0
 }
 
-public class SCNetworkReachabilityContext : ValueType
+public class SCNetworkReachabilityContext
 {
 }
 
-public class SECURITY_ATTRIBUTES : ValueType
+public class SECURITY_ATTRIBUTES
 {
 }
 
-public class SM2P256V1Holder : X9ECParametersHolder
+public class SECURITY_ATTRIBUTES
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AD5C0
-    public void .cctor(){} // RVA: 0x7FFE8A0AD710
 }
 
-public class SM2P256V1LookupTable : Object
+public class SM2P256V1Holder
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F5C390
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0FB1E0
+    public void .cctor(){} // RVA: 0x7FFAFC0FB330
 }
 
-public class SMAALuts : Object
+public class SM2P256V1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC252350
+    public void .cctor(){} // RVA: 0x7FFAFC252530
 }
 
-public class SPKey : Object
+public class SM2P256V1LookupTable
 {
-    public System.Uri uri; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8686A7A0
-    public void get_UsesProxy(){} // RVA: 0x7FFE876B1E60
-    public void GetHashCode(){} // RVA: 0x7FFE876B1EB0
-    public void Equals(){} // RVA: 0x7FFE876B1F80
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBFA9FC0
 }
 
-public class SR : Object
+public class SMAALuts
 {
     // ── Methods ──
-    public void GetString(){} // RVA: 0x7FFE827C4A80 | overloaded x3
-    public void Format(){} // RVA: 0x7FFE86735C40 | overloaded x4
-    public void GetResourceString(){} // RVA: 0x7FFE827C4A80
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class STOutput : Object
+public class SPKey
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger mPrime; // 0x10
-    public byte[] mPrimeSeed; // 0x18
-    public int mPrimeGenCounter; // 0x20
+    public object Key;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Prime(){} // RVA: 0x7FFE81116380
-    public void get_PrimeSeed(){} // RVA: 0x7FFE810FE7C0
-    public void get_PrimeGenCounter(){} // RVA: 0x7FFE8151D690
+    public void .ctor(){} // RVA: 0x7FFAF87D98A0
+    public void get_UsesProxy(){} // RVA: 0x7FFAF9622BB0
+    public void GetHashCode(){} // RVA: 0x7FFAF9622C00
+    public void Equals(){} // RVA: 0x7FFAF9622CD0
 }
 
-public class SYSTEMTIME : ValueType
+public class SR
 {
     // ── Methods ──
-    public void Equals(){} // RVA: 0x7FFE86733A80
+    public void GetString(){} // RVA: 0x7FFAF44EF520 | overloaded x3
+    public void Format(){} // RVA: 0x7FFAF86A4DF0 | overloaded x4
+    public void GetResourceString(){} // RVA: 0x7FFAF44EF520
 }
 
-public class SafeDeflateStreamHandle : SafeHandle
+public class SR
 {
     // ── Methods ──
-    public void get_IsInvalid(){} // RVA: 0x7FFE81CFE7A0
-    public void .ctor(){} // RVA: 0x7FFE867637F0
-    public void ReleaseHandle(){} // RVA: 0x7FFE87809F60
+    public void GetString(){} // RVA: 0x7FFAF86A4A70 | overloaded x2
 }
 
-public class SafeModeOptions : Object
+public class SR
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void GetString(){} // RVA: 0x7FFAF44EF520
+    public void Format(){} // RVA: 0x7FFAF9172BE0 | overloaded x3
 }
 
-public class Sample : Object
+public class SR
 {
     // ── Methods ──
-    public void WriteTo(){} // RVA: 0x7FFE86F1DED0
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void GetString(){} // RVA: 0x7FFAF44EF520
+    public void Format(){} // RVA: 0x7FFAF904F1A0 | overloaded x4
 }
 
-public class SampleFramesHandler : MulticastDelegate
+public class SR
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE823D7070
-    public void Invoke(){} // RVA: 0x7FFE81257370
+    public void Format(){} // RVA: 0x7FFAF9293950
 }
 
-public class SaveableInventoryGroupData : ValueType
+public class SR
 {
-}
-
-public class SavedSearches : Object
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void Format(){} // RVA: 0x7FFAF92D1110
 }
 
-public class Scanbeam : Object
+public class SR
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void Format(){} // RVA: 0x7FFAF93B2BE0 | overloaded x2
 }
 
-public class SceneCaptureCompleteData : ValueType
+public class STOutput
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Prime(){} // RVA: 0x7FFAF2DA8380
+    public void get_PrimeSeed(){} // RVA: 0x7FFAF2D907C0
+    public void get_PrimeGenCounter(){} // RVA: 0x7FFAF3210030
 }
 
-public class SceneCaptureRequestInternal : ValueType
+public class SYSTEMTIME
 {
+    // ── Methods ──
+    public void Equals(){} // RVA: 0x7FFAF86A2C30
 }
 
-public class ScheduledFrameEvent : ValueType
+public class SafeDeflateStreamHandle
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE882320C0
+    public void get_IsInvalid(){} // RVA: 0x7FFAF3A20920
+    public void .ctor(){} // RVA: 0x7FFAF86D29A0
+    public void ReleaseHandle(){} // RVA: 0x7FFAF97790C0
 }
 
-public class ScheduledFrameEventComparer : Object
+public class SafeModeOptions
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x7FFE88232200
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class ScheduledTimeEvent : ValueType
+public class Sample
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE88232000
+    public void WriteTo(){} // RVA: 0x7FFAF8E8D4A0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class ScheduledTimeEventComparer : Object
+public class SampleFramesHandler
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x7FFE88232180
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF411C910
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
 }
 
-public class Scheduler : Object
+public class SaveableInventoryGroupData
 {
-    public Scheduler instance;
-
-    // ── Methods ──
-    public void InitScheduler(){} // RVA: 0x7FFE86A81700
-    public void WakeupScheduler(){} // RVA: 0x7FFE86A818B0
-    public void SchedulerThread(){} // RVA: 0x7FFE86A81920
-    public void get_Instance(){} // RVA: 0x7FFE86A81BA0
-    public void .ctor(){} // RVA: 0x7FFE86A81C00
-    public void Remove(){} // RVA: 0x7FFE86A81EE0
-    public void Change(){} // RVA: 0x7FFE86A82030
-    public void Add(){} // RVA: 0x7FFE86A82360
-    public void InternalRemove(){} // RVA: 0x7FFE86A82440
-    public void TimerCB(){} // RVA: 0x7FFE86A82470
-    public void FireTimer(){} // RVA: 0x7FFE86A824F0
-    public void RunSchedulerLoop(){} // RVA: 0x7FFE86A825C0
-    public void .cctor(){} // RVA: 0x7FFE86A829C0
 }
 
-public class SchemaDatatypeMap : Object
+public class SaveableInventoryGroupData
 {
-    public string name; // 0x10
-    public System.Xml.Schema.DatatypeImplementation type; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0 | overloaded x2
-    public void op_Explicit(){} // RVA: 0x7FFE81D7E800
-    public void get_Name(){} // RVA: 0x7FFE81116380
-    public void get_ParentIndex(){} // RVA: 0x7FFE8151D690
-    public void CompareTo(){} // RVA: 0x7FFE8762BE10
 }
 
-public class SchemaScope : Object
+public class SaveableInventoryGroupData
 {
-    public 0x665C4B9C _tokenType; // 0x10
-    public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchemaModel> _schemas; // 0x18
-    public System.Collections.Generic.Dictionary`2<string,bool> _requiredProperties; // 0x20
-    public string _currentPropertyName; // 0x28
-    public int _arrayItemCount; // 0x30
-    public bool _isUniqueArray; // 0x34
-    public System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> _uniqueArrayItems; // 0x38
-    public Newtonsoft.Json.Linq.JTokenWriter _currentItemWriter; // 0x40
-
-    // ── Methods ──
-    public void get_CurrentPropertyName(){} // RVA: 0x7FFE81129130
-    public void set_CurrentPropertyName(){} // RVA: 0x7FFE810FCE90
-    public void get_ArrayItemCount(){} // RVA: 0x7FFE81156CD0
-    public void set_ArrayItemCount(){} // RVA: 0x7FFE81156CE0
-    public void get_IsUniqueArray(){} // RVA: 0x7FFE81131C20
-    public void get_UniqueArrayItems(){} // RVA: 0x7FFE8143BA80
-    public void get_CurrentItemWriter(){} // RVA: 0x7FFE81178740
-    public void set_CurrentItemWriter(){} // RVA: 0x7FFE81123200
-    public void get_Schemas(){} // RVA: 0x7FFE810FE7C0
-    public void get_RequiredProperties(){} // RVA: 0x7FFE811290C0
-    public void get_TokenType(){} // RVA: 0x7FFE811485C0
-    public void .ctor(){} // RVA: 0x7FFE86AEAFB0
-    public void GetRequiredProperties(){} // RVA: 0x7FFE86AEB5D0
 }
 
-public class SchemeJson : ValueType
+public class SaveableInventoryGroupData
 {
-    // ── Methods ──
-    public void ToScheme(){} // RVA: 0x7FFE87922C20
-    public void ToJson(){} // RVA: 0x7FFE87923230 | overloaded x2
-    public void ToSchemes(){} // RVA: 0x7FFE879233A0
 }
 
-public class Scope : Object
+public class SaveableInventoryGroupData
 {
-    public Microsoft.Extensions.Logging.LoggerFactoryScopeProvider _provider; // 0x10
-    public bool _isDisposed; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE866EBCF0
-    public void get_Parent(){} // RVA: 0x7FFE811290C0
-    public void get_State(){} // RVA: 0x7FFE81129130
-    public void ToString(){} // RVA: 0x7FFE866EBDF0
-    public void Dispose(){} // RVA: 0x7FFE866F3AA0
 }
 
-public class ScopeSnapshot : Object
+public class SavedSearches
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE811DAE00
-    public void Dispose(){} // RVA: 0x7FFE86F5C3C0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class ScopedProfile : ValueType
+public class Scanbeam
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class ScriptRunBehaviourFixedUpdate : ValueType
+public class SceneCaptureCompleteData
 {
 }
 
-public class ScriptRunBehaviourLateUpdate : ValueType
+public class SceneCaptureRequestInternal
 {
 }
 
-public class ScriptRunBehaviourUpdate : ValueType
+public class ScheduledFrameEvent
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAFA1A5410
 }
 
-public class ScriptRunDelayedDynamicFrameRate : ValueType
+public class ScheduledFrameEventComparer
 {
+    // ── Methods ──
+    public void Compare(){} // RVA: 0x7FFAFA1A5550
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class ScriptRunDelayedFixedFrameRate : ValueType
+public class ScheduledTimeEvent
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAFA1A5350
 }
 
-public class ScriptRunDelayedStartupFrame : ValueType
+public class ScheduledTimeEventComparer
 {
+    // ── Methods ──
+    public void Compare(){} // RVA: 0x7FFAFA1A54D0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class ScriptRunDelayedTasks : ValueType
+public class Scheduler
 {
+    // ── Methods ──
+    public void InitScheduler(){} // RVA: 0x7FFAF89F08E0
+    public void WakeupScheduler(){} // RVA: 0x7FFAF89F0A90
+    public void SchedulerThread(){} // RVA: 0x7FFAF89F0B00
+    public void get_Instance(){} // RVA: 0x7FFAF89F0D80
+    public void .ctor(){} // RVA: 0x7FFAF89F0DE0
+    public void Remove(){} // RVA: 0x7FFAF89F10C0
+    public void Change(){} // RVA: 0x7FFAF89F1210
+    public void Add(){} // RVA: 0x7FFAF89F1540
+    public void InternalRemove(){} // RVA: 0x7FFAF89F1620
+    public void TimerCB(){} // RVA: 0x7FFAF89F1650
+    public void FireTimer(){} // RVA: 0x7FFAF89F16D0
+    public void RunSchedulerLoop(){} // RVA: 0x7FFAF89F17A0
+    public void .cctor(){} // RVA: 0x7FFAF89F1BA0
 }
 
-public class ScrollEvent : UnityEvent`1
+public class SchemaDatatypeMap : .ctor
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE880054D0
+    public void .ctor(){} // RVA: 0x7FFAF53414C0 | overloaded x2
+    public void op_Explicit(){} // RVA: 0x7FFAF3ABA1F0
+    public void get_Name(){} // RVA: 0x7FFAF2DA8380
+    public void get_ParentIndex(){} // RVA: 0x7FFAF3210030
+    public void CompareTo(){} // RVA: 0x7FFAF959CB20
 }
 
-public class ScrollRectEvent : UnityEvent`1
+public class SchemaScope
 {
+    public object Value;
+    public object Depth;
+    public object Path;
+    public object QuoteChar;
+    public object TokenType;
+    public object ValueType;
+    public object CurrentSchemas;
+    public object CurrentMemberSchemas;
+
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8800BFD0
+    public void get_CurrentPropertyName(){} // RVA: 0x7FFAF2DBB130
+    public void set_CurrentPropertyName(){} // RVA: 0x7FFAF2D8EE90
+    public void get_ArrayItemCount(){} // RVA: 0x7FFAF2DE8CD0
+    public void set_ArrayItemCount(){} // RVA: 0x7FFAF2DE8CE0
+    public void get_IsUniqueArray(){} // RVA: 0x7FFAF2DC3C20
+    public void get_UniqueArrayItems(){} // RVA: 0x7FFAF2F476A0
+    public void get_CurrentItemWriter(){} // RVA: 0x7FFAF2E0A740
+    public void set_CurrentItemWriter(){} // RVA: 0x7FFAF2DB5200
+    public void get_Schemas(){} // RVA: 0x7FFAF2D907C0
+    public void get_RequiredProperties(){} // RVA: 0x7FFAF2DBB0C0
+    public void get_TokenType(){} // RVA: 0x7FFAF2DDA5C0
+    public void .ctor(){} // RVA: 0x7FFAF8A5A1C0
+    public void GetRequiredProperties(){} // RVA: 0x7FFAF8A5A7E0
 }
 
-public class ScrollerSlider : Slider
+public class SchemeJson
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87EFED30
-    public void SliderNormalizeValue(){} // RVA: 0x7FFE87EFEDD0
+    public void ToScheme(){} // RVA: 0x7FFAF9891D90
+    public void ToJson(){} // RVA: 0x7FFAF98923A0 | overloaded x2
+    public void ToSchemes(){} // RVA: 0x7FFAF9892510
 }
 
-public class SealedPrefab : MonoBehaviour
+public class Scope
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FBD50
+    public void .ctor(){} // RVA: 0x7FFAF865AEA0
+    public void get_Parent(){} // RVA: 0x7FFAF2DBB0C0
+    public void get_State(){} // RVA: 0x7FFAF2DBB130
+    public void ToString(){} // RVA: 0x7FFAF865AFA0
+    public void Dispose(){} // RVA: 0x7FFAF8662C50
 }
 
-public class SealedPrefabAllowSerializeAttribute : Attribute
+public class Scope
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF865F9F0
+    public void SetDisposable(){} // RVA: 0x7FFAF865FA90
+    public void Dispose(){} // RVA: 0x7FFAF865FC40
 }
 
-public class SearchParams : ApiModel
+public class Scope
 {
-    public string _searchQuery; // 0x68
-    public string _searchTags; // 0x70
-    public string _searchContent; // 0x78
-    public string _searchInFields; // 0x80
-    public string _sortBy; // 0x88
-
     // ── Methods ──
-    public void get_searchQuery(){} // RVA: 0x7FFE81176D50
-    public void set_searchQuery(){} // RVA: 0x7FFE81176D60
-    public void get_searchTags(){} // RVA: 0x7FFE811C3590
-    public void set_searchTags(){} // RVA: 0x7FFE811C35A0
-    public void get_searchContent(){} // RVA: 0x7FFE81463AE0
-    public void set_searchContent(){} // RVA: 0x7FFE81464570
-    public void get_searchInFields(){} // RVA: 0x7FFE81280C30
-    public void set_searchInFields(){} // RVA: 0x7FFE81282380
-    public void get_sortBy(){} // RVA: 0x7FFE8113A010
-    public void set_sortBy(){} // RVA: 0x7FFE81280F90
-    public void .ctor(){} // RVA: 0x7FFE8A2D8370
+    public void .ctor(){} // RVA: 0x7FFAF865AEA0
+    public void get_Parent(){} // RVA: 0x7FFAF2DBB0C0
+    public void get_State(){} // RVA: 0x7FFAF2DBB130
+    public void ToString(){} // RVA: 0x7FFAF865AFA0
+    public void Dispose(){} // RVA: 0x7FFAF865AFC0
 }
 
-public class SecP128R1Holder : X9ECParametersHolder
+public class Scope
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0A8860
-    public void .cctor(){} // RVA: 0x7FFE8A0A89F0
+    public void .ctor(){} // RVA: 0x7FFAF9198CA0
+    public void Dispose(){} // RVA: 0x7FFAF9198F30
+    public void IsAllowedType(){} // RVA: 0x7FFAF9199080
+    public void IsTypeUnconditionallyAllowed(){} // RVA: 0x7FFAF9199230
+    public void .cctor(){} // RVA: 0x7FFAF9199470
 }
 
-public class SecP128R1LookupTable : Object
+public class ScopeSnapshot : `
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP128R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89EDD390
+    public void .ctor(){} // RVA: 0x7FFAF2E6CE00
+    public void Dispose(){} // RVA: 0x7FFAF8ECB9C0
 }
 
-public class SecP160K1Holder : X9ECParametersHolder
+public class ScopedProfile : `
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0A8A90
-    public void .cctor(){} // RVA: 0x7FFE8A0A8F70
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class SecP160K1LookupTable : Object
+public class ScriptRunBehaviourFixedUpdate
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160K1Curve m_outer; // 0x10
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89EE2770
 }
 
-public class SecP160R1Holder : X9ECParametersHolder
+public class ScriptRunBehaviourLateUpdate
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0A9010
-    public void .cctor(){} // RVA: 0x7FFE8A0A91A0
 }
 
-public class SecP160R1LookupTable : Object
+public class ScriptRunBehaviourUpdate
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1Curve m_outer; // 0x10
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89EE4B00
 }
 
-public class SecP160R2Holder : X9ECParametersHolder
+public class ScriptRunDelayedDynamicFrameRate
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0A9240
-    public void .cctor(){} // RVA: 0x7FFE8A0A93D0
 }
 
-public class SecP160R2LookupTable : Object
+public class ScriptRunDelayedDynamicFrameRate
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R2Curve m_outer; // 0x10
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89EE9AA0
 }
 
-public class SecP192K1Holder : X9ECParametersHolder
+public class ScriptRunDelayedFixedFrameRate
 {
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0A9470
-    public void .cctor(){} // RVA: 0x7FFE8A0A9950
 }
 
-public class SecP192K1LookupTable : Object
+public class ScriptRunDelayedStartupFrame
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192K1Curve m_outer; // 0x10
+}
 
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89EEE880
+public class ScriptRunDelayedTasks
+{
 }
 
-public class SecP192R1Holder : X9ECParametersHolder
+public class ScrollEvent
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0A99F0
-    public void .cctor(){} // RVA: 0x7FFE8A0A9B80
+    public void .ctor(){} // RVA: 0x7FFAF9F75330
 }
 
-public class SecP192R1LookupTable : Object
+public class ScrollRectEvent
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89EF3820
+    public void .ctor(){} // RVA: 0x7FFAF9F7BE30
 }
 
-public class SecP224K1Holder : X9ECParametersHolder
+public class ScrollerSlider
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0A9C20
-    public void .cctor(){} // RVA: 0x7FFE8A0AA100
+    public void .ctor(){} // RVA: 0x7FFAF9E6EB90
+    public void SliderNormalizeValue(){} // RVA: 0x7FFAF9E6EC30
 }
 
-public class SecP224K1LookupTable : Object
+public class SealedPrefab
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89EF8560
+    public void .ctor(){} // RVA: 0x7FFAF2D8DD50
 }
 
-public class SecP224R1Holder : X9ECParametersHolder
+public class SealedPrefabAllowSerializeAttribute
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AA1A0
-    public void .cctor(){} // RVA: 0x7FFE8A0AA330
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class SecP224R1LookupTable : Object
+public class SearchParams
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89EFD6E0
+    public void get_searchQuery(){} // RVA: 0x7FFAF2E08D50
+    public void set_searchQuery(){} // RVA: 0x7FFAF2E08D60
+    public void get_searchTags(){} // RVA: 0x7FFAF2E55590
+    public void set_searchTags(){} // RVA: 0x7FFAF2E555A0
+    public void get_searchContent(){} // RVA: 0x7FFAF2F77C50
+    public void set_searchContent(){} // RVA: 0x7FFAF2F734F0
+    public void get_searchInFields(){} // RVA: 0x7FFAF2F12D00
+    public void set_searchInFields(){} // RVA: 0x7FFAF2F14450
+    public void get_sortBy(){} // RVA: 0x7FFAF2DCC010
+    public void set_sortBy(){} // RVA: 0x7FFAF2F13060
+    public void .ctor(){} // RVA: 0x7FFAFC325F30
 }
 
-public class SecP256K1Holder : X9ECParametersHolder
+public class SecP128R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AA3D0
-    public void .cctor(){} // RVA: 0x7FFE8A0AA8B0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F6480
+    public void .cctor(){} // RVA: 0x7FFAFC0F6610
 }
 
-public class SecP256K1LookupTable : Object
+public class SecP128R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F03260
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF2AFC0
 }
 
-public class SecP256R1Holder : X9ECParametersHolder
+public class SecP160K1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AA950
-    public void .cctor(){} // RVA: 0x7FFE8A0AAAE0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F66B0
+    public void .cctor(){} // RVA: 0x7FFAFC0F6B90
 }
 
-public class SecP256R1LookupTable : Object
+public class SecP160K1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F082A0
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF303A0
 }
 
-public class SecP384R1Holder : X9ECParametersHolder
+public class SecP160R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AAB80
-    public void .cctor(){} // RVA: 0x7FFE8A0AAD10
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F6C30
+    public void .cctor(){} // RVA: 0x7FFAFC0F6DC0
 }
 
-public class SecP384R1LookupTable : Object
+public class SecP160R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP384R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F0D110
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF32730
 }
 
-public class SecP521R1Holder : X9ECParametersHolder
+public class SecP160R2Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AADB0
-    public void .cctor(){} // RVA: 0x7FFE8A0AAF40
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F6E60
+    public void .cctor(){} // RVA: 0x7FFAFC0F6FF0
 }
 
-public class SecP521R1LookupTable : Object
+public class SecP160R2LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP521R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F12680
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF376D0
 }
 
-public class SecT113R1Holder : X9ECParametersHolder
+public class SecP192K1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AAFE0
-    public void .cctor(){} // RVA: 0x7FFE8A0AB170
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F7090
+    public void .cctor(){} // RVA: 0x7FFAFC0F7570
 }
 
-public class SecT113R1LookupTable : Object
+public class SecP192K1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F1A0A0
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF3C4B0
 }
 
-public class SecT113R2Holder : X9ECParametersHolder
+public class SecP192R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AB210
-    public void .cctor(){} // RVA: 0x7FFE8A0AB3A0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F7610
+    public void .cctor(){} // RVA: 0x7FFAFC0F77A0
 }
 
-public class SecT113R2LookupTable : Object
+public class SecP192R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R2Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F1C880
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF41450
 }
 
-public class SecT131R1Holder : X9ECParametersHolder
+public class SecP224K1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AB440
-    public void .cctor(){} // RVA: 0x7FFE8A0AB5D0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F7840
+    public void .cctor(){} // RVA: 0x7FFAFC0F7D20
 }
 
-public class SecT131R1LookupTable : Object
+public class SecP224K1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F22070
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF46190
 }
 
-public class SecT131R2Holder : X9ECParametersHolder
+public class SecP224R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AB670
-    public void .cctor(){} // RVA: 0x7FFE8A0AB800
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F7DC0
+    public void .cctor(){} // RVA: 0x7FFAFC0F7F50
 }
 
-public class SecT131R2LookupTable : Object
+public class SecP224R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R2Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F24720
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF4B310
 }
 
-public class SecT163K1Holder : X9ECParametersHolder
+public class SecP256K1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AB8A0
-    public void .cctor(){} // RVA: 0x7FFE8A0AB9F0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F7FF0
+    public void .cctor(){} // RVA: 0x7FFAFC0F84D0
 }
 
-public class SecT163K1LookupTable : Object
+public class SecP256K1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F29A70
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF50E90
 }
 
-public class SecT163R1Holder : X9ECParametersHolder
+public class SecP256R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0ABA90
-    public void .cctor(){} // RVA: 0x7FFE8A0ABC20
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F8570
+    public void .cctor(){} // RVA: 0x7FFAFC0F8700
 }
 
-public class SecT163R1LookupTable : Object
+public class SecP256R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F2C000
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF55ED0
 }
 
-public class SecT163R2Holder : X9ECParametersHolder
+public class SecP384R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0ABCC0
-    public void .cctor(){} // RVA: 0x7FFE8A0ABE50
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F87A0
+    public void .cctor(){} // RVA: 0x7FFAFC0F8930
 }
 
-public class SecT163R2LookupTable : Object
+public class SecP384R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R2Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F2E660
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF5AD40
 }
 
-public class SecT193R1Holder : X9ECParametersHolder
+public class SecP521R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0ABEF0
-    public void .cctor(){} // RVA: 0x7FFE8A0AC080
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F89D0
+    public void .cctor(){} // RVA: 0x7FFAFC0F8B60
 }
 
-public class SecT193R1LookupTable : Object
+public class SecP521R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F33A80
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF602B0
 }
 
-public class SecT193R2Holder : X9ECParametersHolder
+public class SecT113R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AC120
-    public void .cctor(){} // RVA: 0x7FFE8A0AC2B0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F8C00
+    public void .cctor(){} // RVA: 0x7FFAFC0F8D90
 }
 
-public class SecT193R2LookupTable : Object
+public class SecT113R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R2Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F36150
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF67CD0
 }
 
-public class SecT233K1Holder : X9ECParametersHolder
+public class SecT113R2Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AC350
-    public void .cctor(){} // RVA: 0x7FFE8A0AC4A0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F8E30
+    public void .cctor(){} // RVA: 0x7FFAFC0F8FC0
 }
 
-public class SecT233K1LookupTable : Object
+public class SecT113R2LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F3B3E0
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF6A4B0
 }
 
-public class SecT233R1Holder : X9ECParametersHolder
+public class SecT131R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AC540
-    public void .cctor(){} // RVA: 0x7FFE8A0AC6D0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F9060
+    public void .cctor(){} // RVA: 0x7FFAFC0F91F0
 }
 
-public class SecT233R1LookupTable : Object
+public class SecT131R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT233R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F3D980
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF6FCA0
 }
 
-public class SecT239K1Holder : X9ECParametersHolder
+public class SecT131R2Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AC770
-    public void .cctor(){} // RVA: 0x7FFE8A0AC8C0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F9290
+    public void .cctor(){} // RVA: 0x7FFAFC0F9420
 }
 
-public class SecT239K1LookupTable : Object
+public class SecT131R2LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT239K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F429D0
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF72350
 }
 
-public class SecT283K1Holder : X9ECParametersHolder
+public class SecT163K1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AC960
-    public void .cctor(){} // RVA: 0x7FFE8A0ACAB0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F94C0
+    public void .cctor(){} // RVA: 0x7FFAFC0F9610
 }
 
-public class SecT283K1LookupTable : Object
+public class SecT163K1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F483D0
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF776A0
 }
 
-public class SecT283R1Holder : X9ECParametersHolder
+public class SecT163R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0ACB50
-    public void .cctor(){} // RVA: 0x7FFE8A0ACCE0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F96B0
+    public void .cctor(){} // RVA: 0x7FFAFC0F9840
 }
 
-public class SecT283R1LookupTable : Object
+public class SecT163R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT283R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F4A9E0
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF79C30
 }
 
-public class SecT409K1Holder : X9ECParametersHolder
+public class SecT163R2Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0ACD80
-    public void .cctor(){} // RVA: 0x7FFE8A0ACED0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F98E0
+    public void .cctor(){} // RVA: 0x7FFAFC0F9A70
 }
 
-public class SecT409K1LookupTable : Object
+public class SecT163R2LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F4FB00
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF7C290
 }
 
-public class SecT409R1Holder : X9ECParametersHolder
+public class SecT193R1Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0ACF70
-    public void .cctor(){} // RVA: 0x7FFE8A0AD100
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F9B10
+    public void .cctor(){} // RVA: 0x7FFAFC0F9CA0
 }
 
-public class SecT409R1LookupTable : Object
+public class SecT193R1LookupTable
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT409R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F51FA0
+    public void .ctor(){} // RVA: 0x7FFAF53414C0
+    public void get_Size(){} // RVA: 0x7FFAF3210030
+    public void Lookup(){} // RVA: 0x7FFAFBF816B0
 }
 
-public class SecT571K1Holder : X9ECParametersHolder
+public class SecT193R2Holder
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0AD1A0
-    public void .cctor(){} // RVA: 0x7FFE8A0AD2F0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void CreateParameters(){} // RVA: 0x7FFAFC0F9D40
+    public void .cctor(){} // RVA: 0x7FFAFC0F9ED0
 }

@@ -1,0 +1,204 @@
+[
+  {
+    "class": "Static28m_12D9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C6F",
+      "m_F65",
+      "m_59A",
+      "m_609",
+      "m_33C",
+      "m_215",
+      "m_F54",
+      "m_B63",
+      "m_6CC",
+      "m_726",
+      "m_F4E",
+      "m_D36"
+    ]
+  },
+  {
+    "class": "Static28m_4611",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_26C",
+      "m_65C",
+      "m_400",
+      "m_60C",
+      "m_666",
+      "m_9B6",
+      "m_4AD",
+      "m_8FD",
+      "m_346",
+      "m_F5F",
+      "m_0AA",
+      "m_4FE"
+    ]
+  },
+  {
+    "class": "AnimationCurrentMoveNext_CC50_92FE",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Key",
+      "set_Current",
+      "set_Value",
+      "set_Entry"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FEF",
+      "m_E95",
+      "m_7DE"
+    ]
+  },
+  {
+    "class": "UIObservableList_113E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf",
+      "set_ObservableList"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8B9",
+      "m_405",
+      "m_11E",
+      "m_798",
+      "m_929",
+      "m_097",
+      "m_78B",
+      "m_910",
+      "m_194",
+      "m_876",
+      "m_AE6",
+      "m_E0B"
+    ]
+  },
+  {
+    "class": "FoldoutListRelatedRelated_1FB9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9F1",
+      "m_B16",
+      "m_60B",
+      "m_3B2",
+      "m_10D",
+      "m_D56",
+      "m_0BE",
+      "m_BA0",
+      "m_64E",
+      "m_C84",
+      "m_8B3",
+      "m_028"
+    ]
+  },
+  {
+    "class": "FoldoutListRelated_767A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B80",
+      "m_61B",
+      "m_BCA",
+      "m_6D4",
+      "m_9E4",
+      "m_E5F",
+      "m_80E",
+      "m_03B",
+      "m_3A8",
+      "m_3CD",
+      "m_58F",
+      "m_B23"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_226FSiblingSibling_5E6A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BCA",
+      "m_0C7"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_A68D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AF5",
+      "m_F5C"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_D894",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit"
+    ],
+    "fields": [
+      "_d894"
+    ],
+    "hash_methods": [
+      "m_DE4",
+      "m_F77"
+    ]
+  },
+  {
+    "class": "OVRLipSync",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionStay",
+      "OnTriggerStay",
+      "StartCoroutine_Auto",
+      "OnApplicationPause",
+      "GetScriptClassName"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_179"
+    ]
+  }
+]

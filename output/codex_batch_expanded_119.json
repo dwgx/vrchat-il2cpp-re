@@ -1,0 +1,137 @@
+[
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_3DBB",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "StartCoroutine_Auto",
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BE6"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1ESiblingSibling_3C56",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_568",
+      "m_BC0",
+      "m_56B",
+      "m_553"
+    ]
+  },
+  {
+    "class": "Enumerator_402A_8A16",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "MoveNext",
+      "get_Current"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FAC",
+      "m_88A"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSiblingSibling_23F9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_053",
+      "m_7DA"
+    ]
+  },
+  {
+    "class": "MatchmakingReconnectInformation",
+    "parent": "",
+    "namespace": "Photon.Realtime",
+    "readable_methods": [
+      "get_Timeout",
+      "set_HasTimedOut"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C01"
+    ]
+  },
+  {
+    "class": "OVRLipSyncSiblingSibling_302D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnTriggerStay",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_852"
+    ]
+  },
+  {
+    "class": "OVRLipSyncSibling_14D1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "CancelInvoke_3C1A00D439FA",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_373"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelper",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CB2"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSRelated_8A9D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BF7"
+    ]
+  },
+  {
+    "class": "PlayerMoveNextSibling_DB30",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4F1",
+      "m_DB7",
+      "m_29F"
+    ]
+  }
+]

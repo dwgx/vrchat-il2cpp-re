@@ -5,239 +5,210 @@
 
 namespace ThirdParty.Unity.UnityEngine.Networking
 {
-    public class CertificateHandler : Object
+    public class CertificateHandler
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE8803B0F0
-        public void Release(){} // RVA: 0x7FFE8803B140
-        public void .ctor(){} // RVA: 0x7FFE8803B190
-        public void Finalize(){} // RVA: 0x7FFE8803B1F0
-        public void ValidateCertificate(){} // RVA: 0x7FFE834BA0A0
-        public void ValidateCertificateNative(){} // RVA: 0x7FFE84A901B0
-        public void Dispose(){} // RVA: 0x7FFE8803B280
+        public void Create(){} // RVA: 0x7FFAF9FAAF20
+        public void Release(){} // RVA: 0x7FFAF9FAAF70
+        public void .ctor(){} // RVA: 0x7FFAF9FAAFC0
+        public void Finalize(){} // RVA: 0x7FFAF9FAB020
+        public void ValidateCertificate(){} // RVA: 0x7FFAF52194F0
+        public void ValidateCertificateNative(){} // RVA: 0x7FFAF68BE500
+        public void Dispose(){} // RVA: 0x7FFAF9FAB0B0
     }
 
-    public class DownloadHandler : Object
-    {
-        public UIntPtr m_Ptr; // 0x10
-        public object field_1; // 0xCB20
-        public object field_2; // 0xCB20
-        public object field_3; // 0xCB20
-        public object field_4; // 0xCB20
-
-        // ── Methods ──
-        public void Release(){} // RVA: 0x7FFE8803B2E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Finalize(){} // RVA: 0x7FFE8803B330
-        public void Dispose(){} // RVA: 0x7FFE8803B380
-        public void get_isDone(){} // RVA: 0x7FFE8803B3E0
-        public void IsDone(){} // RVA: 0x7FFE8803B3E0
-        public void get_error(){} // RVA: 0x7FFE8803B430
-        public void GetErrorMsg(){} // RVA: 0x7FFE8803B430
-        public void get_nativeData(){} // RVA: 0x7FFE8803B480
-        public void get_data(){} // RVA: 0x7FFE82A336A0
-        public void get_text(){} // RVA: 0x7FFE81768340
-        public void GetNativeData(){} // RVA: 0x7FFE815CF4B0
-        public void GetData(){} // RVA: 0x7FFE8803B530
-        public void GetText(){} // RVA: 0x7FFE8803B5C0
-        public void GetTextEncoder(){} // RVA: 0x7FFE8803B6A0
-        public void GetContentType(){} // RVA: 0x7FFE8803BAE0
-        public void ReceiveData(){} // RVA: 0x7FFE82E64CC0
-        public void ReceiveContentLengthHeader(){} // RVA: 0x7FFE8803BB30
-        public void ReceiveContentLength(){} // RVA: 0x7FFE810FB310
-        public void CompleteContent(){} // RVA: 0x7FFE810FB310
-        public void GetProgress(){} // RVA: 0x7FFE87C336C0
-        public void GetCheckedDownloader(){} // RVA: 0x7FFE810A1420
-        public void InternalGetByteArray(){} // RVA: 0x7FFE8803B530 | overloaded x2
-        public void InternalGetNativeArray(){} // RVA: 0x7FFE8803BBB0
-        public void DisposeNativeArray(){} // RVA: 0x7FFE8803BCF0
-        public void CreateNativeArrayForNativeData(){} // RVA: 0x7FFE8803BD30
-    }
-
-    public class DownloadHandlerAssetBundle : DownloadHandler
+    public class DownloadHandler
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE88038730
-        public void CreateCached(){} // RVA: 0x7FFE880387C0
-        public void InternalCreateAssetBundle(){} // RVA: 0x7FFE88038860
-        public void InternalCreateAssetBundleCached(){} // RVA: 0x7FFE88038970
-        public void .ctor(){} // RVA: 0x7FFE88038BC0 | overloaded x2
-        public void GetData(){} // RVA: 0x7FFE88038D10
-        public void GetText(){} // RVA: 0x7FFE88038D60
-        public void get_assetBundle(){} // RVA: 0x7FFE88038DB0
-        public void GetContent(){} // RVA: 0x7FFE88038E00
-        public void CreateCached_Injected(){} // RVA: 0x7FFE88038E90
+        public void Release(){} // RVA: 0x7FFAF9FAB110
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Finalize(){} // RVA: 0x7FFAF9FAB160
+        public void Dispose(){} // RVA: 0x7FFAF9FAB1B0
+        public void get_isDone(){} // RVA: 0x7FFAF9FAB210
+        public void IsDone(){} // RVA: 0x7FFAF9FAB210
+        public void get_error(){} // RVA: 0x7FFAF9FAB260
+        public void GetErrorMsg(){} // RVA: 0x7FFAF9FAB260
+        public void get_nativeData(){} // RVA: 0x7FFAF9FAB2B0
+        public void get_data(){} // RVA: 0x7FFAF4751C00
+        public void get_text(){} // RVA: 0x7FFAF3400560
+        public void GetNativeData(){} // RVA: 0x7FFAF32EDAC0
+        public void GetData(){} // RVA: 0x7FFAF9FAB360
+        public void GetText(){} // RVA: 0x7FFAF9FAB3F0
+        public void GetTextEncoder(){} // RVA: 0x7FFAF9FAB4D0
+        public void GetContentType(){} // RVA: 0x7FFAF9FAB910
+        public void ReceiveData(){} // RVA: 0x7FFAF4B868C0
+        public void ReceiveContentLengthHeader(){} // RVA: 0x7FFAF9FAB960
+        public void ReceiveContentLength(){} // RVA: 0x7FFAF2D8D310
+        public void CompleteContent(){} // RVA: 0x7FFAF2D8D310
+        public void GetProgress(){} // RVA: 0x7FFAF9BA2A70
+        public void GetCheckedDownloader(){} // RVA: 0x7FFAF2D33FA0
+        public void InternalGetByteArray(){} // RVA: 0x7FFAF9FAB360 | overloaded x2
+        public void InternalGetNativeArray(){} // RVA: 0x7FFAF9FAB9E0
+        public void DisposeNativeArray(){} // RVA: 0x7FFAF9FABB20
+        public void CreateNativeArrayForNativeData(){} // RVA: 0x7FFAF9FABB60
     }
 
-    public class DownloadHandlerBuffer : DownloadHandler
+    public class DownloadHandlerAssetBundle
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE8803BDA0
-        public void InternalCreateBuffer(){} // RVA: 0x7FFE8803BDF0
-        public void .ctor(){} // RVA: 0x7FFE8803BDF0
-        public void GetNativeData(){} // RVA: 0x7FFE8803BE50
-        public void Dispose(){} // RVA: 0x7FFE8803BE80
+        public void Create(){} // RVA: 0x7FFAF9FA8560
+        public void CreateCached(){} // RVA: 0x7FFAF9FA85F0
+        public void InternalCreateAssetBundle(){} // RVA: 0x7FFAF9FA8690
+        public void InternalCreateAssetBundleCached(){} // RVA: 0x7FFAF9FA87A0
+        public void .ctor(){} // RVA: 0x7FFAF9FA89F0 | overloaded x2
+        public void GetData(){} // RVA: 0x7FFAF9FA8B40
+        public void GetText(){} // RVA: 0x7FFAF9FA8B90
+        public void get_assetBundle(){} // RVA: 0x7FFAF9FA8BE0
+        public void GetContent(){} // RVA: 0x7FFAF9FA8C30
+        public void CreateCached_Injected(){} // RVA: 0x7FFAF9FA8CC0
     }
 
-    public class DownloadHandlerFile : DownloadHandler
+    public class DownloadHandlerBuffer
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE8803C150
-        public void InternalCreateVFS(){} // RVA: 0x7FFE8803C1C0
-        public void .ctor(){} // RVA: 0x7FFE8803C2A0
-        public void GetNativeData(){} // RVA: 0x7FFE8803C370
-        public void GetData(){} // RVA: 0x7FFE8803C3C0
-        public void GetText(){} // RVA: 0x7FFE8803C410
+        public void Create(){} // RVA: 0x7FFAF9FABBD0
+        public void InternalCreateBuffer(){} // RVA: 0x7FFAF9FABC20
+        public void .ctor(){} // RVA: 0x7FFAF9FABC20
+        public void GetNativeData(){} // RVA: 0x7FFAF9FABC80
+        public void Dispose(){} // RVA: 0x7FFAF9FABCB0
     }
 
-    public class DownloadHandlerScript : DownloadHandler
+    public class DownloadHandlerFile
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE8803BF10
-        public void CreatePreallocated(){} // RVA: 0x7FFE8803BF60
-        public void InternalCreateScript(){} // RVA: 0x7FFE8803C020 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE8803C090 | overloaded x2
+        public void Create(){} // RVA: 0x7FFAF9FABF80
+        public void InternalCreateVFS(){} // RVA: 0x7FFAF9FABFF0
+        public void .ctor(){} // RVA: 0x7FFAF9FAC0D0
+        public void GetNativeData(){} // RVA: 0x7FFAF9FAC1A0
+        public void GetData(){} // RVA: 0x7FFAF9FAC1F0
+        public void GetText(){} // RVA: 0x7FFAF9FAC240
     }
 
-    public class DownloadHandlerTexture : DownloadHandler
+    public class DownloadHandlerScript
     {
-        public Unity.Collections.NativeArray`1<byte> m_NativeData; // 0x18
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE8803F400
-        public void InternalCreateTexture(){} // RVA: 0x7FFE8803F460
-        public void .ctor(){} // RVA: 0x7FFE8803F4D0
-        public void GetNativeData(){} // RVA: 0x7FFE8803BE50
-        public void Dispose(){} // RVA: 0x7FFE8803BE80
-        public void get_texture(){} // RVA: 0x7FFE8803F540
-        public void InternalGetTextureNative(){} // RVA: 0x7FFE8803F540
-        public void GetContent(){} // RVA: 0x7FFE8803F590
+        public void Create(){} // RVA: 0x7FFAF9FABD40
+        public void CreatePreallocated(){} // RVA: 0x7FFAF9FABD90
+        public void InternalCreateScript(){} // RVA: 0x7FFAF9FABE50 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF9FABEC0 | overloaded x2
     }
 
-    public class EncryptionKey : ValueType
+    public class DownloadHandlerTexture
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7FFAF9FAF230
+        public void InternalCreateTexture(){} // RVA: 0x7FFAF9FAF290
+        public void .ctor(){} // RVA: 0x7FFAF9FAF300
+        public void GetNativeData(){} // RVA: 0x7FFAF9FABC80
+        public void Dispose(){} // RVA: 0x7FFAF9FABCB0
+        public void get_texture(){} // RVA: 0x7FFAF9FAF370
+        public void InternalGetTextureNative(){} // RVA: 0x7FFAF9FAF370
+        public void GetContent(){} // RVA: 0x7FFAF9FAF3C0
+    }
+
+    public class EncryptionKey
     {
     }
 
-    public class UnityWebRequest : Object
+    public class UnityWebRequest
     {
-        public UIntPtr m_Ptr; // 0x10
-        public UnityEngine.Networking.DownloadHandler m_DownloadHandler; // 0x18
-        public UnityEngine.Networking.UploadHandler m_UploadHandler; // 0x20
-        public UnityEngine.Networking.CertificateHandler m_CertificateHandler; // 0x28
-        public System.Uri m_Uri; // 0x30
-        public string kHttpVerbGET;
-        public string kHttpVerbHEAD;
-        public string kHttpVerbPOST;
-        public string kHttpVerbPUT;
-        public string kHttpVerbCREATE;
-        public string kHttpVerbDELETE;
-        public bool _disposeCertificateHandlerOnDispose; // 0x38
-        public bool _disposeDownloadHandlerOnDispose; // 0x39
-        public bool _disposeUploadHandlerOnDispose; // 0x3A
-        public object field_14; // 0x8
-        public object field_15; // 0x9
-        public object field_16; // 0xA
-        public object field_17; // 0xB
-
         // ── Methods ──
-        public void GetWebErrorString(){} // RVA: 0x7FFE8803C460
-        public void GetHTTPStatusString(){} // RVA: 0x7FFE8803C4B0
-        public void get_disposeCertificateHandlerOnDispose(){} // RVA: 0x7FFE812CF770
-        public void set_disposeCertificateHandlerOnDispose(){} // RVA: 0x7FFE812D0010
-        public void get_disposeDownloadHandlerOnDispose(){} // RVA: 0x7FFE812CF7D0
-        public void set_disposeDownloadHandlerOnDispose(){} // RVA: 0x7FFE812D0020
-        public void get_disposeUploadHandlerOnDispose(){} // RVA: 0x7FFE82230840
-        public void set_disposeUploadHandlerOnDispose(){} // RVA: 0x7FFE86835A50
-        public void ClearCookieCache(){} // RVA: 0x7FFE8803C660 | overloaded x2
-        public void Create(){} // RVA: 0x7FFE8803C6C0
-        public void Release(){} // RVA: 0x7FFE8803C710
-        public void InternalDestroy(){} // RVA: 0x7FFE8803C760
-        public void InternalSetDefaults(){} // RVA: 0x7FFE8803C800
-        public void .ctor(){} // RVA: 0x7FFE8803CA50 | overloaded x5
-        public void Finalize(){} // RVA: 0x7FFE8803CB10
-        public void Dispose(){} // RVA: 0x7FFE8803CB60
-        public void DisposeHandlers(){} // RVA: 0x7FFE8803CBD0
-        public void BeginWebRequest(){} // RVA: 0x7FFE8803CC40
-        public void SendWebRequest(){} // RVA: 0x7FFE8803CC90
-        public void Abort(){} // RVA: 0x7FFE8803CD40
-        public void SetMethod(){} // RVA: 0x7FFE8803CD90
-        public void InternalSetMethod(){} // RVA: 0x7FFE8803CDF0
-        public void SetCustomMethod(){} // RVA: 0x7FFE8803CF30
-        public void InternalSetCustomMethod(){} // RVA: 0x7FFE8803CF90
-        public void set_method(){} // RVA: 0x7FFE8803D0D0
-        public void GetError(){} // RVA: 0x7FFE8803D420
-        public void get_error(){} // RVA: 0x7FFE8803D470
-        public void set_url(){} // RVA: 0x7FFE8803D6F0
-        public void get_uri(){} // RVA: 0x7FFE8803D780
-        public void set_uri(){} // RVA: 0x7FFE8803D880
-        public void GetUrl(){} // RVA: 0x7FFE8803DA00
-        public void SetUrl(){} // RVA: 0x7FFE8803DA50
-        public void InternalSetUrl(){} // RVA: 0x7FFE8803DAB0
-        public void get_responseCode(){} // RVA: 0x7FFE8803DBF0
-        public void get_isModifiable(){} // RVA: 0x7FFE8803DC40
-        public void get_isDone(){} // RVA: 0x7FFE8803DC90
-        public void get_isNetworkError(){} // RVA: 0x7FFE8803DCF0
-        public void get_result(){} // RVA: 0x7FFE8803DD50
-        public void get_downloadedBytes(){} // RVA: 0x7FFE8803DDA0
-        public void SetRedirectLimitFromScripting(){} // RVA: 0x7FFE8803DDF0
-        public void set_redirectLimit(){} // RVA: 0x7FFE8803DDF0
-        public void InternalSetRequestHeader(){} // RVA: 0x7FFE8803DE50
-        public void SetRequestHeader(){} // RVA: 0x7FFE8803DEC0
-        public void GetResponseHeader(){} // RVA: 0x7FFE8803E0C0
-        public void GetResponseHeaderKeys(){} // RVA: 0x7FFE8803E120
-        public void GetResponseHeaders(){} // RVA: 0x7FFE8803E170
-        public void SetUploadHandler(){} // RVA: 0x7FFE8803E370
-        public void get_uploadHandler(){} // RVA: 0x7FFE87563690
-        public void set_uploadHandler(){} // RVA: 0x7FFE8803E3D0
-        public void SetDownloadHandler(){} // RVA: 0x7FFE8803E560
-        public void get_downloadHandler(){} // RVA: 0x7FFE83BBC680
-        public void set_downloadHandler(){} // RVA: 0x7FFE8803E5C0
-        public void SetCertificateHandler(){} // RVA: 0x7FFE8803E750
-        public void get_certificateHandler(){} // RVA: 0x7FFE87C86200
-        public void set_certificateHandler(){} // RVA: 0x7FFE8803E7B0
-        public void SetTimeoutMsec(){} // RVA: 0x7FFE8803E940
-        public void set_timeout(){} // RVA: 0x7FFE8803E9A0
-        public void Get(){} // RVA: 0x7FFE8803EB20
-        public void EscapeURL(){} // RVA: 0x7FFE8803EDB0 | overloaded x2
+        public void GetWebErrorString(){} // RVA: 0x7FFAF9FAC290
+        public void GetHTTPStatusString(){} // RVA: 0x7FFAF9FAC2E0
+        public void get_disposeCertificateHandlerOnDispose(){} // RVA: 0x7FFAF2F56500
+        public void set_disposeCertificateHandlerOnDispose(){} // RVA: 0x7FFAF2F578C0
+        public void get_disposeDownloadHandlerOnDispose(){} // RVA: 0x7FFAF2F57410
+        public void set_disposeDownloadHandlerOnDispose(){} // RVA: 0x7FFAF2F57670
+        public void get_disposeUploadHandlerOnDispose(){} // RVA: 0x7FFAF3F7EB40
+        public void set_disposeUploadHandlerOnDispose(){} // RVA: 0x7FFAF87A4B50
+        public void ClearCookieCache(){} // RVA: 0x7FFAF9FAC490 | overloaded x2
+        public void Create(){} // RVA: 0x7FFAF9FAC4F0
+        public void Release(){} // RVA: 0x7FFAF9FAC540
+        public void InternalDestroy(){} // RVA: 0x7FFAF9FAC590
+        public void InternalSetDefaults(){} // RVA: 0x7FFAF9FAC630
+        public void .ctor(){} // RVA: 0x7FFAF9FAC880 | overloaded x5
+        public void Finalize(){} // RVA: 0x7FFAF9FAC940
+        public void Dispose(){} // RVA: 0x7FFAF9FAC990
+        public void DisposeHandlers(){} // RVA: 0x7FFAF9FACA00
+        public void BeginWebRequest(){} // RVA: 0x7FFAF9FACA70
+        public void SendWebRequest(){} // RVA: 0x7FFAF9FACAC0
+        public void Abort(){} // RVA: 0x7FFAF9FACB70
+        public void SetMethod(){} // RVA: 0x7FFAF9FACBC0
+        public void InternalSetMethod(){} // RVA: 0x7FFAF9FACC20
+        public void SetCustomMethod(){} // RVA: 0x7FFAF9FACD60
+        public void InternalSetCustomMethod(){} // RVA: 0x7FFAF9FACDC0
+        public void set_method(){} // RVA: 0x7FFAF9FACF00
+        public void GetError(){} // RVA: 0x7FFAF9FAD250
+        public void get_error(){} // RVA: 0x7FFAF9FAD2A0
+        public void set_url(){} // RVA: 0x7FFAF9FAD520
+        public void get_uri(){} // RVA: 0x7FFAF9FAD5B0
+        public void set_uri(){} // RVA: 0x7FFAF9FAD6B0
+        public void GetUrl(){} // RVA: 0x7FFAF9FAD830
+        public void SetUrl(){} // RVA: 0x7FFAF9FAD880
+        public void InternalSetUrl(){} // RVA: 0x7FFAF9FAD8E0
+        public void get_responseCode(){} // RVA: 0x7FFAF9FADA20
+        public void get_isModifiable(){} // RVA: 0x7FFAF9FADA70
+        public void get_isDone(){} // RVA: 0x7FFAF9FADAC0
+        public void get_isNetworkError(){} // RVA: 0x7FFAF9FADB20
+        public void get_result(){} // RVA: 0x7FFAF9FADB80
+        public void get_downloadedBytes(){} // RVA: 0x7FFAF9FADBD0
+        public void SetRedirectLimitFromScripting(){} // RVA: 0x7FFAF9FADC20
+        public void set_redirectLimit(){} // RVA: 0x7FFAF9FADC20
+        public void InternalSetRequestHeader(){} // RVA: 0x7FFAF9FADC80
+        public void SetRequestHeader(){} // RVA: 0x7FFAF9FADCF0
+        public void GetResponseHeader(){} // RVA: 0x7FFAF9FADEF0
+        public void GetResponseHeaderKeys(){} // RVA: 0x7FFAF9FADF50
+        public void GetResponseHeaders(){} // RVA: 0x7FFAF9FADFA0
+        public void SetUploadHandler(){} // RVA: 0x7FFAF9FAE1A0
+        public void get_uploadHandler(){} // RVA: 0x7FFAF94D4380
+        public void set_uploadHandler(){} // RVA: 0x7FFAF9FAE200
+        public void SetDownloadHandler(){} // RVA: 0x7FFAF9FAE390
+        public void get_downloadHandler(){} // RVA: 0x7FFAF59BF420
+        public void set_downloadHandler(){} // RVA: 0x7FFAF9FAE3F0
+        public void SetCertificateHandler(){} // RVA: 0x7FFAF9FAE580
+        public void get_certificateHandler(){} // RVA: 0x7FFAF9BF5590
+        public void set_certificateHandler(){} // RVA: 0x7FFAF9FAE5E0
+        public void SetTimeoutMsec(){} // RVA: 0x7FFAF9FAE770
+        public void set_timeout(){} // RVA: 0x7FFAF9FAE7D0
+        public void Get(){} // RVA: 0x7FFAF9FAE950
+        public void EscapeURL(){} // RVA: 0x7FFAF9FAEBE0 | overloaded x2
     }
 
-    public class UnityWebRequestAssetBundle : Object
+    public class UnityWebRequestAssetBundle
     {
         // ── Methods ──
-        public void GetAssetBundle(){} // RVA: 0x7FFE88038530 | overloaded x3
+        public void GetAssetBundle(){} // RVA: 0x7FFAF9FA8360 | overloaded x3
     }
 
-    public class UnityWebRequestAsyncOperation : AsyncOperation
+    public class UnityWebRequestAsyncOperation
     {
-        public UnityEngine.Networking.UnityWebRequest _webRequest; // 0x20
-
         // ── Methods ──
-        public void get_webRequest(){} // RVA: 0x7FFE811290C0
-        public void set_webRequest(){} // RVA: 0x7FFE811290D0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_webRequest(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_webRequest(){} // RVA: 0x7FFAF2DBB0D0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UnityWebRequestTexture : Object
+    public class UnityWebRequestTexture
     {
         // ── Methods ──
-        public void GetTexture(){} // RVA: 0x7FFE8803F630 | overloaded x2
+        public void GetTexture(){} // RVA: 0x7FFAF9FAF460 | overloaded x2
     }
 
-    public class UploadHandler : Object
+    public class UploadHandler
     {
         // ── Methods ──
-        public void Release(){} // RVA: 0x7FFE8803EF40
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Finalize(){} // RVA: 0x7FFE8803B330
-        public void Dispose(){} // RVA: 0x7FFE8803EF90
+        public void Release(){} // RVA: 0x7FFAF9FAED70
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Finalize(){} // RVA: 0x7FFAF9FAB160
+        public void Dispose(){} // RVA: 0x7FFAF9FAEDC0
     }
 
-    public class UploadHandlerRaw : UploadHandler
+    public class UploadHandlerRaw
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE8803EFF0
-        public void .ctor(){} // RVA: 0x7FFE8803F280 | overloaded x2
-        public void Dispose(){} // RVA: 0x7FFE8803F350
+        public void Create(){} // RVA: 0x7FFAF9FAEE20
+        public void .ctor(){} // RVA: 0x7FFAF9FAF0B0 | overloaded x2
+        public void Dispose(){} // RVA: 0x7FFAF9FAF180
     }
 
 }

@@ -5,7 +5,7 @@
 
 namespace VRC.UI.Voyager.Controls
 {
-    public class LayoutPadding : ValueType
+    public class LayoutPadding
     {
     }
 

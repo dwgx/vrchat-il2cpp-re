@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Valve.Valve.VR
 {
-    public class NotificationBitmap_t : ValueType
+    public class NotificationBitmap_t
     {
     }
 

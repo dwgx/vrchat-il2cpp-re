@@ -5,148 +5,118 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class LeaderboardFindResult_t : ValueType
+    public class LeaderboardFindResult_t
     {
-        public ulong SteamLeaderboard; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5BEC0
-        public void .cctor(){} // RVA: 0x7FFE82E5BED0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7DAC0
+        public void .cctor(){} // RVA: 0x7FFAF4B7DAD0
     }
 
-    public class LeaderboardScoreUploaded_t : ValueType
+    public class LeaderboardScoreUploaded_t
     {
-        public byte Success; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5C0E0
-        public void .cctor(){} // RVA: 0x7FFE82E5C0F0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7DCE0
+        public void .cctor(){} // RVA: 0x7FFAF4B7DCF0
     }
 
-    public class LeaderboardScoresDownloaded_t : ValueType
+    public class LeaderboardScoresDownloaded_t
     {
-        public ulong SteamLeaderboard; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5BFD0
-        public void .cctor(){} // RVA: 0x7FFE82E5BFE0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7DBD0
+        public void .cctor(){} // RVA: 0x7FFAF4B7DBE0
     }
 
-    public class LeaderboardUGCSet_t : ValueType
+    public class LeaderboardUGCSet_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5C740
-        public void .cctor(){} // RVA: 0x7FFE82E5C750
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7E340
+        public void .cctor(){} // RVA: 0x7FFAF4B7E350
     }
 
-    public class LicensesUpdated_t : ValueType
+    public class LicensesUpdated_t
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E558D0
-        public void .cctor(){} // RVA: 0x7FFE82E558E0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B774D0
+        public void .cctor(){} // RVA: 0x7FFAF4B774E0
     }
 
-    public class Lobby : ValueType
+    public class Lobby
     {
-        public Steamworks.SteamId _id; // 0x10
+        public object Id;
 
         // ── Methods ──
-        public void set_Id(){} // RVA: 0x7FFE82889220
-        public void .ctor(){} // RVA: 0x7FFE82889220
+        public void set_Id(){} // RVA: 0x7FFAF45C2320
+        public void .ctor(){} // RVA: 0x7FFAF45C2320
     }
 
-    public class LobbyChatMsg_t : ValueType
+    public class LobbyChatMsg_t
     {
-        public ulong SteamIDLobby; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E58AC0
-        public void .cctor(){} // RVA: 0x7FFE82E58AD0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7A6C0
+        public void .cctor(){} // RVA: 0x7FFAF4B7A6D0
     }
 
-    public class LobbyChatUpdate_t : ValueType
+    public class LobbyChatUpdate_t
     {
-        public ulong SteamIDLobby; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E589B0
-        public void .cctor(){} // RVA: 0x7FFE82E589C0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7A5B0
+        public void .cctor(){} // RVA: 0x7FFAF4B7A5C0
     }
 
-    public class LobbyCreated_t : ValueType
+    public class LobbyCreated_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E58EF0
-        public void .cctor(){} // RVA: 0x7FFE82E58F00
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7AAF0
+        public void .cctor(){} // RVA: 0x7FFAF4B7AB00
     }
 
-    public class LobbyDataUpdate_t : ValueType
+    public class LobbyDataUpdate_t
     {
-        public ulong SteamIDLobby; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E588A0
-        public void .cctor(){} // RVA: 0x7FFE82E588B0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7A4A0
+        public void .cctor(){} // RVA: 0x7FFAF4B7A4B0
     }
 
-    public class LobbyEnter_t : ValueType
+    public class LobbyEnter_t
     {
-        public ulong SteamIDLobby; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E58790
-        public void .cctor(){} // RVA: 0x7FFE82E587A0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7A390
+        public void .cctor(){} // RVA: 0x7FFAF4B7A3A0
     }
 
-    public class LobbyGameCreated_t : ValueType
+    public class LobbyGameCreated_t
     {
-        public ulong SteamIDLobby; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E58BD0
-        public void .cctor(){} // RVA: 0x7FFE82E58BE0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7A7D0
+        public void .cctor(){} // RVA: 0x7FFAF4B7A7E0
     }
 
-    public class LobbyInvite_t : ValueType
+    public class LobbyInvite_t
     {
-        public ulong SteamIDUser; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E58680
-        public void .cctor(){} // RVA: 0x7FFE82E58690
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7A280
+        public void .cctor(){} // RVA: 0x7FFAF4B7A290
     }
 
-    public class LobbyKicked_t : ValueType
+    public class LobbyKicked_t
     {
-        public ulong SteamIDLobby; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE81C16D60
-        public void .cctor(){} // RVA: 0x7FFE82E58DF0
+        public void get_CallbackType(){} // RVA: 0x7FFAF3968B00
+        public void .cctor(){} // RVA: 0x7FFAF4B7A9F0
     }
 
-    public class LobbyMatchList_t : ValueType
+    public class LobbyMatchList_t
     {
-        public uint LobbiesMatching; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E58CE0
-        public void .cctor(){} // RVA: 0x7FFE82E58CF0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7A8E0
+        public void .cctor(){} // RVA: 0x7FFAF4B7A8F0
     }
 
-    public class LowBatteryPower_t : ValueType
+    public class LowBatteryPower_t
     {
-        public byte MinutesBatteryLeft; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E57E00
-        public void .cctor(){} // RVA: 0x7FFE82E57E10
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B79A00
+        public void .cctor(){} // RVA: 0x7FFAF4B79A10
     }
 
 }

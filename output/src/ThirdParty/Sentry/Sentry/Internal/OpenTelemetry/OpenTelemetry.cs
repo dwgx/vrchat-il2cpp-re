@@ -5,15 +5,15 @@
 
 namespace ThirdParty.Sentry.Sentry.Internal.OpenTelemetry
 {
-    public class OtelSemanticConventions : Object
+    public class OtelSemanticConventions
     {
     }
 
-    public class OtelSpanAttributeConstants : Object
+    public class OtelSpanAttributeConstants
     {
     }
 
-    public class OtelStatusTags : Object
+    public class OtelStatusTags
     {
     }
 

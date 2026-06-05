@@ -1,121 +1,119 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine
-// Classes: 8
-// Methods: 77
+// Classes: 9
+// Methods: 78
 
 namespace ThirdParty.Unity.UnityEngine
 {
-    public class Debug : Object
+    public class Debug
     {
-        public UnityEngine.ILogger s_DefaultLogger;
-        public UnityEngine.ILogger s_Logger; // 0x8
+        public object order;
 
         // ── Methods ──
-        public void get_unityLogger(){} // RVA: 0x7FFE87C07C20
-        public void DrawLine(){} // RVA: 0x7FFE87C07FF0 | overloaded x4
-        public void DrawRay(){} // RVA: 0x7FFE87C082F0 | overloaded x4
-        public void Break(){} // RVA: 0x7FFE87C08480
-        public void DebugBreak(){} // RVA: 0x7FFE87C084D0
-        public void ExtractStackTraceNoAlloc(){} // RVA: 0x7FFE87C08520
-        public void Log(){} // RVA: 0x7FFE87C08660 | overloaded x2
-        public void LogFormat(){} // RVA: 0x7FFE87C088E0 | overloaded x3
-        public void LogError(){} // RVA: 0x7FFE87C08C20 | overloaded x2
-        public void LogErrorFormat(){} // RVA: 0x7FFE87C08DC0 | overloaded x2
-        public void LogException(){} // RVA: 0x7FFE87C08F60 | overloaded x2
-        public void LogWarning(){} // RVA: 0x7FFE87C09100 | overloaded x2
-        public void LogWarningFormat(){} // RVA: 0x7FFE87C092A0 | overloaded x2
-        public void Assert(){} // RVA: 0x7FFE87C09430 | overloaded x2
-        public void LogAssertion(){} // RVA: 0x7FFE87C094D0
-        public void LogAssertionFormat(){} // RVA: 0x7FFE87C095A0
-        public void get_isDebugBuild(){} // RVA: 0x7FFE87C09670
-        public void CallOverridenDebugHandler(){} // RVA: 0x7FFE87C096C0
-        public void IsLoggingEnabled(){} // RVA: 0x7FFE87C09920
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE87C09A70
-        public void DrawLine_Injected(){} // RVA: 0x7FFE87C09C10
+        public void get_unityLogger(){} // RVA: 0x7FFAF9B76D00
+        public void DrawLine(){} // RVA: 0x7FFAF9B770D0 | overloaded x4
+        public void DrawRay(){} // RVA: 0x7FFAF9B773D0 | overloaded x4
+        public void Break(){} // RVA: 0x7FFAF9B77560
+        public void DebugBreak(){} // RVA: 0x7FFAF9B775B0
+        public void ExtractStackTraceNoAlloc(){} // RVA: 0x7FFAF9B77600
+        public void Log(){} // RVA: 0x7FFAF9B77740 | overloaded x2
+        public void LogFormat(){} // RVA: 0x7FFAF9B779C0 | overloaded x3
+        public void LogError(){} // RVA: 0x7FFAF9B77D00 | overloaded x2
+        public void LogErrorFormat(){} // RVA: 0x7FFAF9B77EA0 | overloaded x2
+        public void LogException(){} // RVA: 0x7FFAF9B78040 | overloaded x2
+        public void LogWarning(){} // RVA: 0x7FFAF9B781E0 | overloaded x2
+        public void LogWarningFormat(){} // RVA: 0x7FFAF9B78380 | overloaded x2
+        public void Assert(){} // RVA: 0x7FFAF9B78510 | overloaded x2
+        public void LogAssertion(){} // RVA: 0x7FFAF9B785B0
+        public void LogAssertionFormat(){} // RVA: 0x7FFAF9B78680
+        public void get_isDebugBuild(){} // RVA: 0x7FFAF9B78750
+        public void CallOverridenDebugHandler(){} // RVA: 0x7FFAF9B787A0
+        public void IsLoggingEnabled(){} // RVA: 0x7FFAF9B78A00
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF9B78B50
+        public void DrawLine_Injected(){} // RVA: 0x7FFAF9B78CF0
     }
 
-    public class DebugLogHandler : Object
+    public class DebugLogHandler : Internal_Log
     {
         // ── Methods ──
-        public void Internal_Log(){} // RVA: 0x7FFE87C078A0
-        public void Internal_LogException(){} // RVA: 0x7FFE87C07920
-        public void LogFormat(){} // RVA: 0x7FFE87C07A70 | overloaded x2
-        public void LogException(){} // RVA: 0x7FFE87C07B70
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Internal_Log(){} // RVA: 0x7FFAF9B76980
+        public void Internal_LogException(){} // RVA: 0x7FFAF9B76A00
+        public void LogFormat(){} // RVA: 0x7FFAF9B76B50 | overloaded x2
+        public void LogException(){} // RVA: 0x7FFAF9B76C50
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class DefaultExecutionOrder : Attribute
+    public class DefaultExecutionOrder
     {
-        public int m_Order; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FE0C0
-        public void get_order(){} // RVA: 0x7FFE87BFA280
+        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_order(){} // RVA: 0x7FFAF9B692A0
     }
 
-    public class DetailPrototype : Object
+    public class DetailPrototype
     {
-        public UnityEngine.Color DefaultHealthColor;
-
         // ── Methods ──
-        public void get_prototype(){} // RVA: 0x7FFE84022BE0
-        public void .ctor(){} // RVA: 0x7FFE87D9E6E0
-        public void Equals(){} // RVA: 0x7FFE87D9E8B0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE87C6E400
-        public void .cctor(){} // RVA: 0x7FFE87D9ECB0
+        public void get_prototype(){} // RVA: 0x7FFAF5E66D40
+        public void .ctor(){} // RVA: 0x7FFAF9D0E540
+        public void Equals(){} // RVA: 0x7FFAF9D0E710 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF9BDD740
+        public void .cctor(){} // RVA: 0x7FFAF9D0EB10
     }
 
-    public class DisallowMultipleComponent : Attribute
+    public class DisallowMultipleComponent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Display : Object
+    public class Display
     {
-        public UIntPtr nativeDisplay; // 0x10
-        public UnityEngine.Display[] displays;
-        public UnityEngine.Display _mainDisplay; // 0x8
-        public int m_ActiveEditorGameViewTarget; // 0x10
-        public DisplaysUpdatedDelegate onDisplaysUpdated; // 0x18
-        public object field_5;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE826F2ED0 | overloaded x2
-        public void get_renderingWidth(){} // RVA: 0x7FFE87C13900
-        public void get_renderingHeight(){} // RVA: 0x7FFE87C139A0
-        public void get_systemWidth(){} // RVA: 0x7FFE87C13A40
-        public void get_systemHeight(){} // RVA: 0x7FFE87C13AE0
-        public void get_colorBuffer(){} // RVA: 0x7FFE87C13B80
-        public void RelativeMouseAt(){} // RVA: 0x7FFE87C13C40
-        public void get_main(){} // RVA: 0x7FFE87C13D30
-        public void RecreateDisplayList(){} // RVA: 0x7FFE87C13D90
-        public void FireDisplaysUpdated(){} // RVA: 0x7FFE87C14040
-        public void GetSystemExtImpl(){} // RVA: 0x7FFE87C140E0
-        public void GetRenderingExtImpl(){} // RVA: 0x7FFE87C14150
-        public void GetRenderingBuffersImpl(){} // RVA: 0x7FFE87C141C0
-        public void RelativeMouseAtImpl(){} // RVA: 0x7FFE87C14230
-        public void .cctor(){} // RVA: 0x7FFE87C142B0
+        public void .ctor(){} // RVA: 0x7FFAF4417700 | overloaded x2
+        public void get_renderingWidth(){} // RVA: 0x7FFAF9B82A30
+        public void get_renderingHeight(){} // RVA: 0x7FFAF9B82AD0
+        public void get_systemWidth(){} // RVA: 0x7FFAF9B82B70
+        public void get_systemHeight(){} // RVA: 0x7FFAF9B82C10
+        public void get_colorBuffer(){} // RVA: 0x7FFAF9B82CB0
+        public void RelativeMouseAt(){} // RVA: 0x7FFAF9B82D70
+        public void get_main(){} // RVA: 0x7FFAF9B82E60
+        public void RecreateDisplayList(){} // RVA: 0x7FFAF9B82EC0
+        public void FireDisplaysUpdated(){} // RVA: 0x7FFAF9B83170
+        public void GetSystemExtImpl(){} // RVA: 0x7FFAF9B83210
+        public void GetRenderingExtImpl(){} // RVA: 0x7FFAF9B83280
+        public void GetRenderingBuffersImpl(){} // RVA: 0x7FFAF9B832F0
+        public void RelativeMouseAtImpl(){} // RVA: 0x7FFAF9B83360
+        public void .cctor(){} // RVA: 0x7FFAF9B833E0
     }
 
-    public class DistanceJoint2D : AnchoredJoint2D
+    public class DistanceJoint2D
     {
+        public object dampingRatio;
+        public object frequency;
+        public object referenceAngle;
+
         // ── Methods ──
-        public void get_autoConfigureDistance(){} // RVA: 0x7FFE87D2BF50
-        public void set_autoConfigureDistance(){} // RVA: 0x7FFE87D2BFA0
-        public void get_distance(){} // RVA: 0x7FFE87D2C000
-        public void set_distance(){} // RVA: 0x7FFE87D2C050
-        public void get_maxDistanceOnly(){} // RVA: 0x7FFE87D2C0B0
-        public void set_maxDistanceOnly(){} // RVA: 0x7FFE87D2C100
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void get_autoConfigureDistance(){} // RVA: 0x7FFAF9C9BDB0
+        public void set_autoConfigureDistance(){} // RVA: 0x7FFAF9C9BE00
+        public void get_distance(){} // RVA: 0x7FFAF9C9BE60
+        public void set_distance(){} // RVA: 0x7FFAF9C9BEB0
+        public void get_maxDistanceOnly(){} // RVA: 0x7FFAF9C9BF10
+        public void set_maxDistanceOnly(){} // RVA: 0x7FFAF9C9BF60
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
-    public class DrivenRectTransformTracker : ValueType
+    public class DrivenRectTransformTracker
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFE810FB310
-        public void Clear(){} // RVA: 0x7FFE810FB310
+        public void Add(){} // RVA: 0x7FFAF2D8D310
+        public void Clear(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class DynamicGI
+    {
+        // ── Methods ──
+        public void UpdateEnvironment(){} // RVA: 0x7FFAF9B7FDF0
     }
 
 }

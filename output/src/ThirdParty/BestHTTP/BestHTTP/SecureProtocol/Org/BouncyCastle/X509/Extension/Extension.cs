@@ -5,29 +5,29 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.X509.Extension
 {
-    public class AuthorityKeyIdentifierStructure : AuthorityKeyIdentifier
+    public class AuthorityKeyIdentifierStructure
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89EC7570 | overloaded x3
-        public void FromCertificate(){} // RVA: 0x7FFE89EC6F80
-        public void FromKey(){} // RVA: 0x7FFE89EC73B0
+        public void .ctor(){} // RVA: 0x7FFAFBF151A0 | overloaded x3
+        public void FromCertificate(){} // RVA: 0x7FFAFBF14BB0
+        public void FromKey(){} // RVA: 0x7FFAFBF14FE0
     }
 
-    public class SubjectKeyIdentifierStructure : SubjectKeyIdentifier
+    public class SubjectKeyIdentifierStructure
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89EC7830 | overloaded x2
-        public void FromPublicKey(){} // RVA: 0x7FFE89EC76B0
+        public void .ctor(){} // RVA: 0x7FFAFBF15460 | overloaded x2
+        public void FromPublicKey(){} // RVA: 0x7FFAFBF152E0
     }
 
-    public class X509ExtensionUtilities : Object
+    public class X509ExtensionUtilities
     {
         // ── Methods ──
-        public void FromExtensionValue(){} // RVA: 0x7FFE89EC78C0
-        public void GetIssuerAlternativeNames(){} // RVA: 0x7FFE89EC78F0
-        public void GetSubjectAlternativeNames(){} // RVA: 0x7FFE89EC7980
-        public void GetAlternativeName(){} // RVA: 0x7FFE89EC7A10
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void FromExtensionValue(){} // RVA: 0x7FFAFBF154F0
+        public void GetIssuerAlternativeNames(){} // RVA: 0x7FFAFBF15520
+        public void GetSubjectAlternativeNames(){} // RVA: 0x7FFAFBF155B0
+        public void GetAlternativeName(){} // RVA: 0x7FFAFBF15640
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

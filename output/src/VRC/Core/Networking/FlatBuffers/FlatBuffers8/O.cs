@@ -5,52 +5,47 @@
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
-    public class ObjectPool : ValueType
+    public class ObjectPool
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-        public object field_1; // 0xA8
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsObjectPool(){} // RVA: 0x7FFE8811DC90 | overloaded x2
-        public void VerifyObjectPool(){} // RVA: 0x7FFE88120A90
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Data(){} // RVA: 0x7FFE8811E240
-        public void get_DataLength(){} // RVA: 0x7FFE8811E2C0
-        public void GetDataBytes(){} // RVA: 0x7FFE88120B80
-        public void GetDataArray(){} // RVA: 0x7FFE88120BF0
-        public void CreateObjectPool(){} // RVA: 0x7FFE88120C40
-        public void StartObjectPool(){} // RVA: 0x7FFE8811DF00
-        public void AddData(){} // RVA: 0x7FFE8811DF20
-        public void CreateDataVector(){} // RVA: 0x7FFE8811E4B0
-        public void CreateDataVectorBlock(){} // RVA: 0x7FFE88120E50 | overloaded x3
-        public void StartDataVector(){} // RVA: 0x7FFE8811E750
-        public void EndObjectPool(){} // RVA: 0x7FFE88120EE0
-        public void FinishObjectPoolBuffer(){} // RVA: 0x7FFE8811F580
-        public void FinishSizePrefixedObjectPoolBuffer(){} // RVA: 0x7FFE8811F5E0
-        public void UnPack(){} // RVA: 0x7FFE88120F70
-        public void UnPackTo(){} // RVA: 0x7FFE88121020
-        public void Pack(){} // RVA: 0x7FFE88121230
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsObjectPool(){} // RVA: 0x7FFAFA090C40 | overloaded x2
+        public void VerifyObjectPool(){} // RVA: 0x7FFAFA093A40
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Data(){} // RVA: 0x7FFAFA0911F0
+        public void get_DataLength(){} // RVA: 0x7FFAFA091270
+        public void GetDataBytes(){} // RVA: 0x7FFAFA093B30
+        public void GetDataArray(){} // RVA: 0x7FFAFA093BA0
+        public void CreateObjectPool(){} // RVA: 0x7FFAFA093BF0
+        public void StartObjectPool(){} // RVA: 0x7FFAFA090EB0
+        public void AddData(){} // RVA: 0x7FFAFA090ED0
+        public void CreateDataVector(){} // RVA: 0x7FFAFA091460
+        public void CreateDataVectorBlock(){} // RVA: 0x7FFAFA093E00 | overloaded x3
+        public void StartDataVector(){} // RVA: 0x7FFAFA091700
+        public void EndObjectPool(){} // RVA: 0x7FFAFA093E90
+        public void FinishObjectPoolBuffer(){} // RVA: 0x7FFAFA092530
+        public void FinishSizePrefixedObjectPoolBuffer(){} // RVA: 0x7FFAFA092590
+        public void UnPack(){} // RVA: 0x7FFAFA093F20
+        public void UnPackTo(){} // RVA: 0x7FFAFA093FD0
+        public void Pack(){} // RVA: 0x7FFAFA0941E0
     }
 
-    public class ObjectPoolT : Object
+    public class ObjectPoolT
     {
-        public System.Collections.Generic.List`1<byte> _data; // 0x10
-
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x7FFE81116380
-        public void set_Data(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
-        public void DeserializeFromBinary(){} // RVA: 0x7FFE88121360
-        public void SerializeToBinary(){} // RVA: 0x7FFE88121410
+        public void get_Data(){} // RVA: 0x7FFAF2DA8380
+        public void set_Data(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
+        public void DeserializeFromBinary(){} // RVA: 0x7FFAFA094310
+        public void SerializeToBinary(){} // RVA: 0x7FFAFA0943C0
     }
 
-    public class ObjectPoolVerify : Object
+    public class ObjectPoolVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8811EB50
+        public void Verify(){} // RVA: 0x7FFAFA091B00
     }
 
 }

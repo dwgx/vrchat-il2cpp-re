@@ -1,0 +1,144 @@
+[
+  {
+    "class": "TextureCalculateLayoutInputHoriztext_B04C",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_text",
+      "set_text",
+      "CalculateLayoutInputHorizontal"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2CD",
+      "m_F62",
+      "m_330",
+      "m_F9F",
+      "m_864",
+      "m_1E9",
+      "m_831",
+      "m_D46",
+      "m_569",
+      "m_A49",
+      "m_8A3",
+      "m_4D4"
+    ],
+    "remaining_hash_methods": 29,
+    "total_methods": 37,
+    "signal_score": 93
+  },
+  {
+    "class": "VRC_MainSiblingSiblingSiblingSSibling_12FB",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      ".cctor",
+      "Update",
+      "Start"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F2A",
+      "m_A85",
+      "m_C9E",
+      "m_513",
+      "m_809",
+      "m_3ED",
+      "m_098",
+      "m_6CF",
+      "m_5FC",
+      "m_018",
+      "m_781",
+      "m_618"
+    ],
+    "remaining_hash_methods": 30,
+    "total_methods": 37,
+    "signal_score": 93
+  },
+  {
+    "class": "PlayerCalculateLayoutInputHorizCalculateLayout_5653_C3BC",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_padding",
+      "SetLayoutVertical",
+      "CalculateLayoutInputVertical",
+      "CalculateLayoutInputHorizontal",
+      "SetLayoutHorizontal"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CBB",
+      "m_C86",
+      "m_2B4",
+      "m_BE3",
+      "m_4FE",
+      "m_7E1",
+      "m_2A2",
+      "m_DB5",
+      "m_3B9",
+      "m_93E",
+      "m_6FA",
+      "m_476"
+    ],
+    "remaining_hash_methods": 18,
+    "total_methods": 27,
+    "signal_score": 91
+  },
+  {
+    "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Update",
+      ".ctor",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_848",
+      "m_A85",
+      "m_BBD",
+      "m_ABF",
+      "m_4B5",
+      "m_E16",
+      "m_874",
+      "m_A66",
+      "m_8AF",
+      "m_B6C",
+      "m_A96",
+      "m_510"
+    ],
+    "remaining_hash_methods": 28,
+    "total_methods": 33,
+    "signal_score": 91
+  },
+  {
+    "class": "VRC_SecondarySiblingSibling_BC46",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Awake",
+      "OnDestroy",
+      "Start"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_558",
+      "m_CE1",
+      "m_197",
+      "m_057",
+      "m_5CA",
+      "m_2B4",
+      "m_8A0",
+      "m_677",
+      "m_C58",
+      "m_258",
+      "m_A40",
+      "m_FAC"
+    ],
+    "remaining_hash_methods": 29,
+    "total_methods": 35,
+    "signal_score": 91
+  }
+]

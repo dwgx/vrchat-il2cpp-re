@@ -1,0 +1,112 @@
+[
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_0E4",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_0E4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18094E620(int a1, int a2, int a3, int a4, int a5, __int64 a6, int a7, __int128 *a8, __int64 a9)\n{\n  __int128 v9; // xmm0\n  __int64 v10; // xmm1_8\n  __int128 v12; // [rsp+50h] [rbp-28h] BYREF\n  __int64 v13; // [rsp+60h] [rbp-18h]\n  int v14; // [rsp+68h] [rbp-10h]\n\n  v9 = *a8;\n  v10 = *((_QWORD *)a8 + 2);\n  v14 = *((_DWORD *)a8 + 6);\n  v12 = v9;\n  v13 = v10;\n  return sub_187A1B240(a1 + 16, a2, a3, a4, a5, a6, a7, (__int64)&v12, a9);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_363",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_363",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18094D380(__int64 a1, __int64 a2)\n{\n  __int64 (__fastcall *v2)(__int64, _OWORD *); // rax\n  __int64 v3; // rbx\n  __int128 v4; // xmm1\n  __int64 v6; // rax\n  _OWORD v7[3]; // [rsp+20h] [rbp-48h] BYREF\n  __int64 v8; // [rsp+50h] [rbp-18h]\n\n  v2 = (__int64 (__fastcall *)(__int64, _OWORD *))qword_18CE4E028;\n  v3 = a1 + 16;\n  v4 = *(_OWORD *)(a2 + 16);\n  v7[0] = *(_OWORD *)a2;\n  v7[1] = v4;\n  v8 = *(_QWORD *)(a2 + 48);\n  v7[2] = *(_OWORD *)(a2 + 32);\n  if ( !qword_18CE4E028 )\n  {\n    v2 = (__int64 (__fastcall *)(__int64, _OWORD *))CqZPdCzurki_0(\n                                                      \"UnityEngine.ParticleSystem/TrailModule::set_colorOverTrail_Injecte\"\n                                                      \"d(UnityEngine.ParticleSystem/TrailModule&,UnityEngine.ParticleSyst\"\n                                                      \"em/MinMaxGradient&)\");\n    if ( !v2 )\n    {\n      v6 = sub_180A61A90(\n             \"UnityEngine.ParticleSystem/TrailModule::set_colorOverTrail_Injected(UnityEngine.ParticleSystem/TrailModule&\"\n             \",UnityEngine.ParticleSystem/MinMaxGradient&)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE4E028 = (__int64)v2;\n  }\n  return v2(v3, v7);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_470",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_470",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18094D2D0(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rdi\n  void (__fastcall *v3)(__int64, __int128 *); // rax\n  __int128 v6; // xmm1\n  __int128 v7; // xmm0\n  __int64 v8; // rax\n  __int128 v9; // [rsp+20h] [rbp-48h] BYREF\n  __int128 v10; // [rsp+30h] [rbp-38h]\n  __int128 v11; // [rsp+40h] [rbp-28h]\n  __int64 v12; // [rsp+50h] [rbp-18h]\n\n  v2 = a2 + 16;\n  v12 = 0;\n  v3 = (void (__fastcall *)(__int64, __int128 *))qword_18CE4E020;\n  v9 = 0;\n  v10 = 0;\n  v11 = 0;\n  if ( !qword_18CE4E020 )\n  {\n    v3 = (void (__fastcall *)(__int64, __int128 *))CqZPdCzurki_0(\n                                                     \"UnityEngine.ParticleSystem/TrailModule::get_colorOverTrail_Injected\"\n                                                     \"(UnityEngine.ParticleSystem/TrailModule&,UnityEngine.ParticleSystem\"\n                                                     \"/MinMaxGradient&)\");\n    if ( !v3 )\n    {\n      v8 = sub_180A61A90(\n             \"UnityEngine.ParticleSystem/TrailModule::get_colorOverTrail_Injected(UnityEngine.ParticleSystem/TrailModule&\"\n             \",UnityEngine.ParticleSystem/MinMaxGradient&)\");\n      sub_180A5F890(v8, 0);\n    }\n    qword_18CE4E020 = (__int64)v3;\n  }\n  v3(v2, &v9);\n  v6 = v10;\n  *(_OWORD *)a1 = v9;\n  v7 = v11;\n  *(_OWORD *)(a1 + 16) = v6;\n  *(_QWORD *)&v6 = v12;\n  *(_OWORD *)(a1 + 32) = v7;\n  *(_QWORD *)(a1 + 48) = v6;\n  return a1;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_4B0",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_4B0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18094DA40(__int64 a1)\n{\n  __int64 (__fastcall *v1)(_QWORD); // rax\n  unsigned int v2; // ebx\n  __int64 v4; // rax\n\n  v1 = (__int64 (__fastcall *)(_QWORD))qword_18CE4E2B0;\n  v2 = *(_DWORD *)(a1 + 52);\n  if ( !qword_18CE4E2B0 )\n  {\n    v1 = (__int64 (__fastcall *)(_QWORD))CqZPdCzurki_0(\n                                           \"UnityEngine.ParticleCollisionEvent::InstanceIDToColliderComponent(System.Int32)\");\n    if ( !v1 )\n    {\n      v4 = sub_180A61A90(\"UnityEngine.ParticleCollisionEvent::InstanceIDToColliderComponent(System.Int32)\");\n      sub_180A5F890(v4, 0);\n    }\n    qword_18CE4E2B0 = (__int64)v1;\n  }\n  return v1(v2);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_54A",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_54A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18094DF30(int a1, int a2, int a3, int a4, __int128 *a5, __int64 a6)\n{\n  __int128 v6; // xmm0\n  __int64 v7; // xmm1_8\n  __int128 v9; // [rsp+40h] [rbp-28h] BYREF\n  __int64 v10; // [rsp+50h] [rbp-18h]\n  int v11; // [rsp+58h] [rbp-10h]\n\n  v6 = *a5;\n  v7 = *((_QWORD *)a5 + 2);\n  v11 = *((_DWORD *)a5 + 6);\n  v9 = v6;\n  v10 = v7;\n  return sub_187A19960(a1 + 16, a2, a3, a4, (__int64)&v9, a6);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_5E7",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_5E7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18094D960(__int64 a1, __int64 a2, unsigned int a3)\n{\n  __int64 v3; // rsi\n  void (__fastcall *v4)(__int64, _QWORD, __int128 *); // rax\n  __int128 v8; // xmm1\n  __int128 v9; // xmm0\n  __int64 v10; // rax\n  __int128 v11; // [rsp+20h] [rbp-48h] BYREF\n  __int128 v12; // [rsp+30h] [rbp-38h]\n  __int128 v13; // [rsp+40h] [rbp-28h]\n  __int64 v14; // [rsp+50h] [rbp-18h]\n\n  v3 = a2 + 16;\n  v14 = 0;\n  v4 = (void (__fastcall *)(__int64, _QWORD, __int128 *))qword_18CE4E0C8;\n  v11 = 0;\n  v12 = 0;\n  v13 = 0;\n  if ( !qword_18CE4E0C8 )\n  {\n    v4 = (void (__fastcall *)(__int64, _QWORD, __int128 *))CqZPdCzurki_0(\n                                                             \"UnityEngine.ParticleSystem/CustomDataModule::GetColor_Injec\"\n                                                             \"ted(UnityEngine.ParticleSystem/CustomDataModule&,UnityEngin\"\n                                                             \"e.ParticleSystemCustomData,UnityEngine.ParticleSystem/MinMaxGradient&)\");\n    if ( !v4 )\n    {\n      v10 = sub_180A61A90(\n              \"UnityEngine.ParticleSystem/CustomDataModule::GetColor_Injected(UnityEngine.ParticleSystem/CustomDataModule\"\n              \"&,UnityEngine.ParticleSystemCustomData,UnityEngine.ParticleSystem/MinMaxGradient&)\");\n      sub_180A5F890(v10, 0);\n    }\n    qword_18CE4E0C8 = (__int64)v4;\n  }\n  v4(v3, a3, &v11);\n  v8 = v12;\n  *(_OWORD *)a1 = v11;\n  v9 = v13;\n  *(_OWORD *)(a1 + 16) = v8;\n  *(_QWORD *)&v8 = v14;\n  *(_OWORD *)(a1 + 32) = v9;\n  *(_QWORD *)(a1 + 48) = v8;\n  return a1;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_6EF",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_6EF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18094D4B0(__int64 a1, unsigned int a2)\n{\n  __int64 (__fastcall *v2)(__int64, _QWORD); // rax\n  __int64 v3; // rdi\n  __int64 v6; // rax\n\n  v2 = (__int64 (__fastcall *)(__int64, _QWORD))qword_18CE4E048;\n  v3 = a1 + 16;\n  if ( !qword_18CE4E048 )\n  {\n    v2 = (__int64 (__fastcall *)(__int64, _QWORD))CqZPdCzurki_0(\n                                                    \"UnityEngine.ParticleSystem/TrailModule::set_ribbonCount_Injected(Uni\"\n                                                    \"tyEngine.ParticleSystem/TrailModule&,System.Int32)\");\n    if ( !v2 )\n    {\n      v6 = sub_180A61A90(\n             \"UnityEngine.ParticleSystem/TrailModule::set_ribbonCount_Injected(UnityEngine.ParticleSystem/TrailModule&,System.Int32)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE4E048 = (__int64)v2;\n  }\n  return v2(v3, a2);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_943",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_943",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18094D6C0(__int64 a1, unsigned int a2)\n{\n  __int64 (__fastcall *v2)(__int64, _QWORD); // rax\n  __int64 v3; // rdi\n  __int64 v6; // rax\n\n  v2 = (__int64 (__fastcall *)(__int64, _QWORD))qword_18CE4E098;\n  v3 = a1 + 16;\n  if ( !qword_18CE4E098 )\n  {\n    v2 = (__int64 (__fastcall *)(__int64, _QWORD))CqZPdCzurki_0(\n                                                    \"UnityEngine.ParticleSystem/CustomDataModule::GetMode_Injected(UnityE\"\n                                                    \"ngine.ParticleSystem/CustomDataModule&,UnityEngine.ParticleSystemCustomData)\");\n    if ( !v2 )\n    {\n      v6 = sub_180A61A90(\n             \"UnityEngine.ParticleSystem/CustomDataModule::GetMode_Injected(UnityEngine.ParticleSystem/CustomDataModule&,\"\n             \"UnityEngine.ParticleSystemCustomData)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE4E098 = (__int64)v2;\n  }\n  return v2(v3, a2);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_A4F",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_A4F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __noreturn sub_18094D630()\n{\n  __int64 v0; // rax\n\n  v0 = sub_180A61AB0(\n         \"Cannot marshal field 'm_ParticleSystem' of type 'CustomDataModule': Reference type field marshaling is not supported.\");\n  sub_180AAE4E0(v0, 0);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSiblinRelated_FFBD",
+  "class_obf": "ÎÌÌÎÏÌÏÌÌÍÌÌÍÏÏÏÍÌÎÏÍÎÏ",
+  "parent": "",
+  "method": "m_AF0",
+  "cv_key": "VRCNetworkBehaviourSiblinRelated_FFBD::m_AF0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18094DB30(__int64 a1)\n{\n  __int64 (__fastcall *v1)(int *); // rax\n  __int64 v3; // rax\n  int v4; // [rsp+30h] [rbp+8h] BYREF\n\n  v4 = *(_DWORD *)(a1 + 16);\n  v1 = (__int64 (__fastcall *)(int *))qword_18CE4E2C8;\n  if ( !qword_18CE4E2C8 )\n  {\n    v1 = (__int64 (__fastcall *)(int *))CqZPdCzurki_0(\n                                          \"UnityEngine.PhysicsScene2D::IsValid_Internal_Injected(UnityEngine.PhysicsScene2D&)\");\n    if ( !v1 )\n    {\n      v3 = sub_180A61A90(\"UnityEngine.PhysicsScene2D::IsValid_Internal_Injected(UnityEngine.PhysicsScene2D&)\");\n      sub_180A5F890(v3, 0);\n    }\n    qword_18CE4E2C8 = (__int64)v1;\n  }\n  return v1(&v4);\n}\n"
+ }
+]

@@ -1,0 +1,6 @@
+{
+ "VRCNetworkBehaviourSiblinRelated_B113::m_54A": "BoxCastNonAlloc",
+ "VRCNetworkBehaviourSiblinRelated_B113::m_943": "OverlapCircleArray",
+ "VRCNetworkBehaviourSiblinRelated_B113::m_BCF": "OverlapSphereNonAlloc",
+ "VRCNetworkBehaviourSiblinRelated_B113::m_C9E": "CapsuleCastNonAlloc"
+}

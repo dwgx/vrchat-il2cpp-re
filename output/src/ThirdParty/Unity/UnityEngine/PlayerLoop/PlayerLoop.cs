@@ -5,35 +5,35 @@
 
 namespace ThirdParty.Unity.UnityEngine.PlayerLoop
 {
-    public class EarlyUpdate : ValueType
+    public class EarlyUpdate
     {
     }
 
-    public class FixedUpdate : ValueType
+    public class FixedUpdate
     {
     }
 
-    public class Initialization : ValueType
+    public class Initialization
     {
     }
 
-    public class PostLateUpdate : ValueType
+    public class PostLateUpdate
     {
     }
 
-    public class PreLateUpdate : ValueType
+    public class PreLateUpdate
     {
     }
 
-    public class PreUpdate : ValueType
+    public class PreUpdate
     {
     }
 
-    public class TimeUpdate : ValueType
+    public class TimeUpdate
     {
     }
 
-    public class Update : ValueType
+    public class Update
     {
     }
 

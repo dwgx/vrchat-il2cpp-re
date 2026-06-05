@@ -5,7 +5,7 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.Statistics
 {
-    public class GeneralStatistics : ValueType
+    public class GeneralStatistics
     {
     }
 

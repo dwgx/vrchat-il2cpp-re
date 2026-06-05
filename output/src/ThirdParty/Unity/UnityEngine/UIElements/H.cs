@@ -5,52 +5,47 @@
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class HandleDragAndDropArgs : ValueType
+    public class HandleDragAndDropArgs
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87F1A660
+        public void .ctor(){} // RVA: 0x7FFAF9E8A4C0
     }
 
-    public class Hash128Field : TextInputBaseField`1
-    {
-        public bool m_UpdateTextFromValue; // 0x460
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87E5F1A0 | overloaded x2
-        public void get_value(){} // RVA: 0x7FFE87E5F420
-        public void set_value(){} // RVA: 0x7FFE87E5F470
-        public void UpdateValueFromText(){} // RVA: 0x7FFE87E5F550
-        public void UpdateTextFromValue(){} // RVA: 0x7FFE87E5F660
-        public void SetValueWithoutNotify(){} // RVA: 0x7FFE87E5F6E0
-        public void ValueToString(){} // RVA: 0x7FFE87E5F850
-        public void StringToValue(){} // RVA: 0x7FFE87E5F8B0
-        public void ExecuteDefaultAction(){} // RVA: 0x7FFE87E5F8E0
-        public void .cctor(){} // RVA: 0x7FFE87E5FBC0
-    }
-
-    public class Hashes : ValueType
-    {
-    }
-
-    public class HelpBox : VisualElement
-    {
-        public string ussClassName;
-        public string labelUssClassName; // 0x8
-
-        // ── Methods ──
-        public void set_text(){} // RVA: 0x7FFE87E601E0
-        public void set_messageType(){} // RVA: 0x7FFE87E60210
-        public void .ctor(){} // RVA: 0x7FFE87E60280 | overloaded x2
-        public void GetIconClass(){} // RVA: 0x7FFE87E604C0
-        public void UpdateIcon(){} // RVA: 0x7FFE87E605A0
-        public void .cctor(){} // RVA: 0x7FFE87E60770
-    }
-
-    public class HierarchyEvent : MulticastDelegate
+    public class Hash128Field
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE823D7070
-        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void .ctor(){} // RVA: 0x7FFAF9DCF020 | overloaded x2
+        public void get_value(){} // RVA: 0x7FFAF9DCF2A0
+        public void set_value(){} // RVA: 0x7FFAF9DCF2F0
+        public void UpdateValueFromText(){} // RVA: 0x7FFAF9DCF3D0
+        public void UpdateTextFromValue(){} // RVA: 0x7FFAF9DCF4E0
+        public void SetValueWithoutNotify(){} // RVA: 0x7FFAF9DCF560
+        public void ValueToString(){} // RVA: 0x7FFAF9DCF6D0
+        public void StringToValue(){} // RVA: 0x7FFAF9DCF730
+        public void ExecuteDefaultAction(){} // RVA: 0x7FFAF9DCF760
+        public void .cctor(){} // RVA: 0x7FFAF9DCFA40
+    }
+
+    public class Hashes
+    {
+    }
+
+    public class HelpBox
+    {
+        // ── Methods ──
+        public void set_text(){} // RVA: 0x7FFAF9DD0060
+        public void set_messageType(){} // RVA: 0x7FFAF9DD0090
+        public void .ctor(){} // RVA: 0x7FFAF9DD0100 | overloaded x2
+        public void GetIconClass(){} // RVA: 0x7FFAF9DD0340
+        public void UpdateIcon(){} // RVA: 0x7FFAF9DD0420
+        public void .cctor(){} // RVA: 0x7FFAF9DD05F0
+    }
+
+    public class HierarchyEvent
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF411C910
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
     }
 
 }

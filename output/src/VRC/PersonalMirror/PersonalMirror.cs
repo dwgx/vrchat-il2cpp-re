@@ -5,17 +5,18 @@
 
 namespace VRC.PersonalMirror
 {
-    public class Edges : Object
+    public class Edges
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE816A5970
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Initialize(){} // RVA: 0x7FFE816A5A50
-        public void op_Implicit(){} // RVA: 0x7FFE816A5B30
-        public void CompareBaseObjects(){} // RVA: 0x7FFE816A5C20
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE816A5D10
-        public void GetCachedPtr(){} // RVA: 0x7FFE816A5DF0
-        public void get_name(){} // RVA: 0x7FFE816A5ED0
+        public void GetInstanceID(){} // RVA: 0x7FFAF33B4580
+        public void Equals(){} // RVA: 0x7FFAF33B4670
+        public void GetHashCode(){} // RVA: 0x7FFAF33B4760
+        public void .ctor_E83A52EBCCE7(){} // RVA: 0x7FFAF33B4850
+        public void Initialize(){} // RVA: 0x7FFAF33B4940
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_name(){} // RVA: 0x7FFAF33B4B10
+        // ── Unresolved (hash) ──
+        public void m_2A4(){} // RVA: 0x7FFAF33B4A20
     }
 
 }

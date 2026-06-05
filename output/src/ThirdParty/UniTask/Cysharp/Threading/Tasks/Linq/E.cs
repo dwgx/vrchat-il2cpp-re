@@ -5,45 +5,45 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class ElementAt : Object
+    public class ElementAt
     {
         // ── Methods ──
-        public void ElementAtAsync(){} // RVA: 0x7FFE810A1420
+        public void ElementAtAsync(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class Empty`1 : Object
+    public class Empty`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         public void GetAsyncEnumerator(){}
-        public void .cctor(){} // RVA: 0x7FFE80E46010
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
     }
 
-    public class EveryUpdate : Object
+    public class EveryUpdate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A56610
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFE8786B9F0
+        public void .ctor(){} // RVA: 0x7FFAF89C57F0
+        public void GetAsyncEnumerator(){} // RVA: 0x7FFAF97DAB50
     }
 
-    public class EveryValueChangedStandardObject`2 : Object
+    public class EveryValueChangedStandardObject`2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810A1420
-        public void GetAsyncEnumerator(){}
-    }
-
-    public class EveryValueChangedUnityObject`2 : Object
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
         public void GetAsyncEnumerator(){}
     }
 
-    public class Except`1 : Object
+    public class EveryValueChangedUnityObject`2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E50660
+        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+        public void GetAsyncEnumerator(){}
+    }
+
+    public class Except`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2ADF090
         public void GetAsyncEnumerator(){}
     }
 

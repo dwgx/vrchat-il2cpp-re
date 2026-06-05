@@ -1,0 +1,132 @@
+[
+  {
+    "class": "PlayerMoveNext_CC93",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2A0"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D08A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F60"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D196",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CBC"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D28A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E82"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D305",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_29F"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D3DE",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6AA"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D4C0",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_288"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D5CC",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_63A"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D80A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BFC"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D810",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E82"
+    ]
+  }
+]

@@ -5,27 +5,27 @@
 
 namespace ThirdParty.DotNet.System.Data
 {
-    public class ParentForeignKeyConstraintEnumerator : ForeignKeyConstraintEnumerator
+    public class ParentForeignKeyConstraintEnumerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE872313E0
-        public void IsValidCandidate(){} // RVA: 0x7FFE87231510
+        public void .ctor(){} // RVA: 0x7FFAF91A24F0
+        public void IsValidCandidate(){} // RVA: 0x7FFAF91A2620
     }
 
-    public class PrimaryKeyTypeConverter : ReferenceConverter
+    public class PrimaryKeyTypeConverter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8726B8C0
-        public void GetPropertiesSupported(){} // RVA: 0x7FFE810FB320
-        public void CanConvertTo(){} // RVA: 0x7FFE8726B9F0
-        public void ConvertTo(){} // RVA: 0x7FFE8726BAE0
+        public void .ctor(){} // RVA: 0x7FFAF91DC9C0
+        public void GetPropertiesSupported(){} // RVA: 0x7FFAF2D8D320
+        public void CanConvertTo(){} // RVA: 0x7FFAF91DCAF0
+        public void ConvertTo(){} // RVA: 0x7FFAF91DCBE0
     }
 
-    public class PropertyCollection : Hashtable
+    public class PropertyCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8694A370 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFE8726BC60
+        public void .ctor(){} // RVA: 0x7FFAF88B9530 | overloaded x2
+        public void Clone(){} // RVA: 0x7FFAF91DCD60
     }
 
 }

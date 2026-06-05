@@ -1,0 +1,74 @@
+[
+  {
+    "namespace": "VRC.UI.Elements.Menus",
+    "class": "ListContentView`1",
+    "parent": "",
+    "known_methods": [
+      "get_CountFormat",
+      "get_MaxContentCount",
+      "get_ObservableList",
+      "Start",
+      "OnEnable",
+      "OnDisable",
+      "IndexOf",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ],
+    "all_method_count": 13
+  },
+  {
+    "namespace": "VRC.UI.Elements.Menus",
+    "class": "ListContentView`1",
+    "parent": "",
+    "known_methods": [
+      "get_CountFormat",
+      "get_MaxContentCount",
+      "get_ObservableList",
+      "Start",
+      "OnEnable",
+      "OnDisable",
+      "IndexOf",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ],
+    "all_method_count": 13
+  },
+  {
+    "namespace": "VRC.UI.Elements.Menus",
+    "class": "ListContentView`1",
+    "parent": "",
+    "known_methods": [
+      "get_CountFormat",
+      "get_MaxContentCount",
+      "get_ObservableList",
+      "Start",
+      "OnEnable",
+      "OnDisable",
+      "IndexOf",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ],
+    "all_method_count": 13
+  }
+]

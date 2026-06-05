@@ -1,298 +1,721 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 37
-// Methods: 105
+// Classes: 100
+// Methods: 252
 
-public class ControllerState5 : ValueType
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86CB1350
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class ControlsChangedEvent : UnityEvent`1
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE879D7CE0
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5577160
 }
 
-public class ConverterList : ConfigurationList`1
+public class ConfiguredTaskAwaiter
 {
-    public System.Text.Json.JsonSerializerOptions _options; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE873EE040
-    public void get_IsReadOnly(){} // RVA: 0x7FFE873EE1E0
-    public void OnCollectionModifying(){} // RVA: 0x7FFE873EE210
 }
 
-public class CookieCollectionEnumerator : Object
+public class ConfiguredTaskAwaiter
 {
-    public System.Net.CookieCollection m_cookies; // 0x10
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87677240
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE876772E0
-    public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7FFE876773E0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE87677490
 }
 
-public class CoreShaderIds : Object
+public class ConfiguredTaskAwaiter
 {
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x7FFE82BBAD60
 }
 
-public class Counter : Object
+public class ConfiguredTaskAwaiter
 {
-    // ── Methods ──
-    public void GetNextValue(){} // RVA: 0x7FFE86F524F0
-    public void .ctor(){} // RVA: 0x7FFE810FB310
 }
 
-public class CounterItem : Object
+public class ConfiguredTaskAwaiter
 {
-    public int _value;
-
-    // ── Methods ──
-    public void get_Value(){} // RVA: 0x7FFE80E2EDB0
-    public void Add(){} // RVA: 0x7FFE80E46530
-    public void Increment(){} // RVA: 0x7FFE80E45FE0
-    public void ReadAndReset(){} // RVA: 0x7FFE80E2EDB0
-    public void .ctor(){} // RVA: 0x7FFE80E45FE0
 }
 
-public class CountryName : AttributeTypeAndValue
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86712810
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CreateJointParams : ValueType
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE811AF5E0
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CreateOutputMethod : MulticastDelegate
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87CA0B60
-    public void Invoke(){} // RVA: 0x7FFE8401D590
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CreatePipelineDelegate : MulticastDelegate
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE82A75170
-    public void Invoke(){} // RVA: 0x7FFE812574E0
-    public void BeginInvoke(){} // RVA: 0x7FFE81EE8B90
-    public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CreateRigDelegate : MulticastDelegate
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE82A75170
-    public void Invoke(){} // RVA: 0x7FFE812574E0
-    public void BeginInvoke(){} // RVA: 0x7FFE81EE8B90
-    public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CreateRuntimePanelDelegate : MulticastDelegate
+public class ConfiguredTaskAwaiter : .ctor
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE840108A0
-    public void Invoke(){} // RVA: 0x7FFE81156C60
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF87F5C20
 }
 
-public class CreateValueCallback : MulticastDelegate
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){}
-    public void Invoke(){} // RVA: 0x7FFE810A1420
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CreatorPropertyContext : Object
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FCE30
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CredentialsBundle : Object
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class Criterion : ValueType
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86C0AE30
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CryptoApiEntropySource : Object
-{
-    public System.Security.Cryptography.RandomNumberGenerator mRng; // 0x10
-    public bool mPredictionResistant; // 0x18
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87C62F10
-    public void BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant(){} // RVA: 0x7FFE811164E0
-    public void BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IEntropySource.GetEntropy(){} // RVA: 0x7FFE89FDCEF0
-    public void BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize(){} // RVA: 0x7FFE82707EE0
-}
-
-public class CtrDrbgProvider : Object
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE89FDFB40
-    public void Get(){} // RVA: 0x7FFE89FDFC60
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CullStateChangedEvent : UnityEvent`1
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87FFD6D0
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CultureComparer : Object
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FCE30
-    public void Compare(){} // RVA: 0x7FFE87797DD0
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CultureInfoMapper : Object
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void CreateMap(){} // RVA: 0x7FFE87797FA0
-    public void GetCultureInfoName(){} // RVA: 0x7FFE8779E000
-    public void .cctor(){} // RVA: 0x7FFE8779E0A0
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CultureNameResourceSetPair : Object
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class Curve25519Holder : X9ECParametersHolder
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void CreateParameters(){} // RVA: 0x7FFE8A0A8670
-    public void .cctor(){} // RVA: 0x7FFE8A0A87C0
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575E50
 }
 
-public class Curve25519LookupTable : Object
-{
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519 m_outer; // 0x10
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE862265A0
-    public void get_Size(){} // RVA: 0x7FFE8151D690
-    public void Lookup(){} // RVA: 0x7FFE89F612E0
-}
-
-public class CustomAnimLayer : ValueType
-{
-}
-
-public class CustomBlend : ValueType
-{
-}
-
-public class CustomBlendable : ValueType
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81E75030
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CustomDataModule : ValueType
-{
-    public UnityEngine.ParticleSystem m_ParticleSystem; // 0x10
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81D7E9E0
-    public void get_enabled(){} // RVA: 0x7FFE87D052C0
-    public void set_enabled(){} // RVA: 0x7FFE87D05310
-    public void SetMode(){} // RVA: 0x7FFE87D05370
-    public void GetMode(){} // RVA: 0x7FFE87D053E0
-    public void SetVectorComponentCount(){} // RVA: 0x7FFE87D05440
-    public void GetVectorComponentCount(){} // RVA: 0x7FFE87D054B0
-    public void SetVector(){} // RVA: 0x7FFE87D05510
-    public void GetVector(){} // RVA: 0x7FFE87D05590
-    public void SetColor(){} // RVA: 0x7FFE87D05620
-    public void GetColor(){} // RVA: 0x7FFE87D05690
-    public void get_enabled_Injected(){} // RVA: 0x7FFE87D052C0
-    public void set_enabled_Injected(){} // RVA: 0x7FFE87D05310
-    public void SetMode_Injected(){} // RVA: 0x7FFE87D05370
-    public void GetMode_Injected(){} // RVA: 0x7FFE87D053E0
-    public void SetVectorComponentCount_Injected(){} // RVA: 0x7FFE87D05440
-    public void GetVectorComponentCount_Injected(){} // RVA: 0x7FFE87D054B0
-    public void SetVector_Injected(){} // RVA: 0x7FFE87D05720
-    public void GetVector_Injected(){} // RVA: 0x7FFE87D057A0
-    public void SetColor_Injected(){} // RVA: 0x7FFE87D05820
-    public void GetColor_Injected(){} // RVA: 0x7FFE87D05890
-}
-
-public class CustomEmojiParticleSystemList : ScriptableObject
-{
-    public EmojiParticleSystem[] _emojiParticleSystems; // 0x18
-
-    // ── Methods ──
-    public void IndexOf(){} // RVA: 0x7FFE82692EA0
-    public void CreateInstance(){} // RVA: 0x7FFE82692EE0
-    public void set_Count(){} // RVA: 0x7FFE82693150
-    public void .ctor(){} // RVA: 0x7FFE81345B60
-    public void Initialize(){} // RVA: 0x7FFE82693190
-    public void get_Count(){} // RVA: 0x7FFE82693260
-    public void Equals(){} // RVA: 0x7FFE82693270
-    public void GetHashCode(){} // RVA: 0x7FFE82693470
-    public void ToString(){} // RVA: 0x7FFE82693630
-    // ── Unresolved (hash) ──
-    public void m_0C1(){} // RVA: 0x7FFE82693150
-}
-
-public class CustomEyeLookSettings : ValueType
-{
-}
-
-public class CustomQuery : Object
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void ToUnmanaged(){} // RVA: 0x7FFE86C0A900
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575ED0
 }
 
-public class CustomRestriction : BindingRestrictions
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8719F490
-    public void Equals(){} // RVA: 0x7FFE8719F530
-    public void GetHashCode(){} // RVA: 0x7FFE8719F5A0
-    public void GetExpression(){} // RVA: 0x7FFE81116380
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CustomStyleAccess : Object
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void SetContext(){} // RVA: 0x7FFE82C1C460
-    public void TryGetValue(){} // RVA: 0x7FFE87F9D910 | overloaded x8
-    public void LogCustomPropertyWarning(){} // RVA: 0x7FFE87F9D9B0
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class CustomTriggerTarget : Object
+public class ConfiguredTaskAwaiter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8A4D11C0
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
 }
 
-public class cap_user_data_t : ValueType
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575E50
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575E50
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575E50
+}
+
+public class ConfiguredTaskAwaiter
 {
 }
 
-public class cap_user_header_t : ValueType
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5576030
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575F40
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3658650
+    public void get_IsCompleted(){} // RVA: 0x7FFAF5575C60
+    public void OnCompleted(){} // RVA: 0x7FFAF5575CD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5575D90
+    public void GetResult(){} // RVA: 0x7FFAF5575FC0
+}
+
+public class ConfiguredTaskAwaiter
+{
+}
+
+public class ConfiguredValueTaskAwaiter : IsCompleted
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+    public void get_IsCompleted(){} // RVA: 0x7FFAF2ABDBE0
+    public void GetResult(){} // RVA: 0x7FFAF2D33FA0
+    public void OnCompleted(){} // RVA: 0x7FFAF2AD4B10
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF2AD4B10
+}
+
+public class ConfiguredValueTaskAwaiter
+{
+    // ── Methods ──
+    public void OnCompleted(){} // RVA: 0x7FFAF2AD4B10
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF2AD4B10
+}
+
+public class ConfiguredValueTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF4A2E940
+    public void get_IsCompleted(){} // RVA: 0x7FFAF55E3E80
+    public void GetResult(){} // RVA: 0x7FFAF55FA620
+    public void OnCompleted(){} // RVA: 0x7FFAF55FAD00
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF55FB050
+}
+
+public class ConfiguredValueTaskAwaiter : .ctor
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF4A2E940
+    public void get_IsCompleted(){} // RVA: 0x7FFAF8E1A3D0
+    public void GetResult(){} // RVA: 0x7FFAF8E1A420
+    public void OnCompleted(){} // RVA: 0x7FFAF8E1A470
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF8E1A710
+}
+
+public class ConfiguredValueTaskAwaiter : .ctor
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF4A2E940
+    public void get_IsCompleted(){} // RVA: 0x7FFAF87F4520
+    public void GetResult(){} // RVA: 0x7FFAF87F4570
+    public void OnCompleted(){} // RVA: 0x7FFAF87F45C0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF87F4860
+}
+
+public class ConfiguredValueTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF4A2E940
+    public void get_IsCompleted(){} // RVA: 0x7FFAF55B7B80
+    public void GetResult(){} // RVA: 0x7FFAF55B7BC0
+    public void OnCompleted(){} // RVA: 0x7FFAF55FFDE0
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5600130
+}
+
+public class ConfiguredValueTaskAwaiter
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF4AF63F0
+    public void get_IsCompleted(){} // RVA: 0x7FFAF557AD30
+    public void GetResult(){} // RVA: 0x7FFAF557AD70
+    public void OnCompleted(){} // RVA: 0x7FFAF5601F00
+    public void UnsafeOnCompleted(){} // RVA: 0x7FFAF5602250
+}
+
+public class ConnectDisposable : Pda
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+    public void Dispose(){} // RVA: 0x7FFAF2AD4A50
+}
+
+public class ConnectMsg
+{
+    // ── Methods ──
+    public void Process(){} // RVA: 0x7FFAF9919930
+}
+
+public class ConnectionChangeEvent
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF9BFE2A0
+}
+
+public class ConnectionGroup
+{
+    public object ServicePoint;
+
+    // ── Methods ──
+    public void get_Scheduler(){} // RVA: 0x7FFAF2DA8380
+    public void .ctor(){} // RVA: 0x7FFAF9624BC0
+    public void IsEmpty(){} // RVA: 0x7FFAF9624DD0
+    public void RemoveConnection(){} // RVA: 0x7FFAF9624E40
+    public void Cleanup(){} // RVA: 0x7FFAF9624EE0
+    public void Close(){} // RVA: 0x7FFAF9624FF0
+    public void EnqueueOperation(){} // RVA: 0x7FFAF9625490
+    public void GetNextOperation(){} // RVA: 0x7FFAF96254F0
+    public void FindIdleConnection(){} // RVA: 0x7FFAF9625640
+    public void CreateOrReuseConnection(){} // RVA: 0x7FFAF9625AA0
+}
+
+public class ConstantExpressionProxy
+{
+    public object CanReduce;
+    public object DebugView;
+    public object Document;
+    public object EndColumn;
+    public object EndLine;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF908AA30
+    public void get_CanReduce(){} // RVA: 0x7FFAF32A02E0
+    public void get_DebugView(){} // RVA: 0x7FFAF908A6E0
+    public void get_NodeType(){} // RVA: 0x7FFAF32A01B0
+    public void get_Type(){} // RVA: 0x7FFAF32A0250
+    public void get_Value(){} // RVA: 0x7FFAF35DECF0
+}
+
+public class ConstraintConfigurationData
+{
+}
+
+public class ConstraintManagerUpdate
+{
+}
+
+public class ConstraintSourceData
+{
+}
+
+public class ConstructJob
+{
+    // ── Methods ──
+    public void Execute(){} // RVA: 0x7FFAF98291A0
+}
+
+public class ConstructJob
+{
+    // ── Methods ──
+    public void Execute(){} // RVA: 0x7FFAF98291A0
+}
+
+public class ConstructJobList
+{
+    // ── Methods ──
+    public void Execute(){} // RVA: 0x7FFAF9829170
+}
+
+public class ConstructJobList
+{
+    // ── Methods ──
+    public void Execute(){} // RVA: 0x7FFAF9829170
+}
+
+public class ConstructorContext
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+    public void CreateInstance(){} // RVA: 0x7FFAF8E10980
+}
+
+public class ConstructorDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF45B72F0
+    public void Invoke(){} // RVA: 0x7FFAF2DEBA50
+}
+
+public class ContactEventDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF62A3600
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+}
+
+public class ContainerContext
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2E575F0
+}
+
+public class ContainerHeight
+{
+    // ── Methods ──
+    public void set_Height(){} // RVA: 0x7FFAFB953BD0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void get_Height(){} // RVA: 0x7FFAFB953BD0
+    public void .ctor_3E70766A3848(){} // RVA: 0x7FFAFB953BD0
+    public void Initialize(){} // RVA: 0x7FFAFB953BD0
+    public void IsNativeObjectAlive(){} // RVA: 0x7FFAFB953BD0
+    public void set_Height_D60AAD52BE00(){} // RVA: 0x7FFAFB953BD0
+    public void get_Height_F9BE08002E71(){} // RVA: 0x7FFAFB953BD0
+    public void set_Height_F9BE08002E71(){} // RVA: 0x7FFAFB953BD0
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
+{
+}
+
+public class Content
 {
 }

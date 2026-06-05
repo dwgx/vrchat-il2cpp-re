@@ -5,20 +5,20 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class OpenCLDevice : Object
+    public class OpenCLDevice
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB5050 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFE86FB50F0
-        public void Release(){} // RVA: 0x7FFE86FB5130
-        public void Get(){} // RVA: 0x7FFE81116380
+        public void .ctor(){} // RVA: 0x7FFAF8F25F80 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFAF8F26020
+        public void Release(){} // RVA: 0x7FFAF8F26060
+        public void Get(){} // RVA: 0x7FFAF2DA8380
     }
 
-    public class OpenCLDeviceDesc : ValueType
+    public class OpenCLDeviceDesc
     {
     }
 
-    public class OpenCLDeviceSettings : ValueType
+    public class OpenCLDeviceSettings
     {
     }
 

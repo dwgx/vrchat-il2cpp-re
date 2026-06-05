@@ -5,461 +5,370 @@
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class HeaderInfo : Object
+    public class HeaderInfo
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87669A50
+        public void .ctor(){} // RVA: 0x7FFAF95DA790
     }
 
-    public class HeaderInfoTable : Object
+    public class HeaderInfoTable
     {
-        public System.Collections.Hashtable HeaderHashTable;
-
         // ── Methods ──
-        public void ParseSingleValue(){} // RVA: 0x7FFE87669B20
-        public void ParseMultiValue(){} // RVA: 0x7FFE87669B90
-        public void .cctor(){} // RVA: 0x7FFE87669E50
-        public void get_Item(){} // RVA: 0x7FFE8766C030
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void ParseSingleValue(){} // RVA: 0x7FFAF95DA860
+        public void ParseMultiValue(){} // RVA: 0x7FFAF95DA8D0
+        public void .cctor(){} // RVA: 0x7FFAF95DAB90
+        public void get_Item(){} // RVA: 0x7FFAF95DCD70
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class HeaderParser : MulticastDelegate
+    public class HeaderParser
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8526B7D0
-        public void Invoke(){} // RVA: 0x7FFE81156C60
+        public void .ctor(){} // RVA: 0x7FFAF70E4FE0
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
     }
 
-    public class HeaderVariantInfo : ValueType
+    public class HeaderVariantInfo
     {
-        public string m_name; // 0x10
-        public 0x66534C7C m_variant; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE815AE520
-        public void get_Name(){} // RVA: 0x7FFE8284EF60
-        public void get_Variant(){} // RVA: 0x7FFE82C33000
+        public void .ctor(){} // RVA: 0x7FFAF32D0840
+        public void get_Name(){} // RVA: 0x7FFAF4584690
+        public void get_Variant(){} // RVA: 0x7FFAF4959890
     }
 
-    public class HttpConnection : Object
+    public class HttpConnection
     {
-        public System.AsyncCallback onread_cb;
-        public int BufferSize;
-        public System.Net.Sockets.Socket sock; // 0x10
-        public System.IO.Stream stream; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87690750
-        public void Init(){} // RVA: 0x7FFE87690C00
-        public void get_Reuses(){} // RVA: 0x7FFE8139DA60
-        public void get_LocalEndPoint(){} // RVA: 0x7FFE87690E70
-        public void get_IsSecure(){} // RVA: 0x7FFE85B63B60
-        public void set_Prefix(){} // RVA: 0x7FFE81176740
-        public void OnTimeout(){} // RVA: 0x7FFE87690FB0
-        public void BeginReadRequest(){} // RVA: 0x7FFE87691000
-        public void GetRequestStream(){} // RVA: 0x7FFE87691330
-        public void GetResponseStream(){} // RVA: 0x7FFE87691830
-        public void OnRead(){} // RVA: 0x7FFE87691970
-        public void OnReadInternal(){} // RVA: 0x7FFE87691A10
-        public void RemoveConnection(){} // RVA: 0x7FFE87691F50
-        public void ProcessInput(){} // RVA: 0x7FFE87691FB0
-        public void ReadLine(){} // RVA: 0x7FFE87692290
-        public void SendError(){} // RVA: 0x7FFE87692770 | overloaded x2
-        public void Unbind(){} // RVA: 0x7FFE876927A0
-        public void CloseSocket(){} // RVA: 0x7FFE876927F0
-        public void Close(){} // RVA: 0x7FFE876928C0
-        public void .cctor(){} // RVA: 0x7FFE87692D60
-        public void <.ctor>b__24_0(){} // RVA: 0x7FFE87692E40
+        public void .ctor(){} // RVA: 0x7FFAF96014A0
+        public void Init(){} // RVA: 0x7FFAF9601950
+        public void get_Reuses(){} // RVA: 0x7FFAF304C4F0
+        public void get_LocalEndPoint(){} // RVA: 0x7FFAF9601BC0
+        public void get_IsSecure(){} // RVA: 0x7FFAF7974D70
+        public void set_Prefix(){} // RVA: 0x7FFAF2E08740
+        public void OnTimeout(){} // RVA: 0x7FFAF9601D00
+        public void BeginReadRequest(){} // RVA: 0x7FFAF9601D50
+        public void GetRequestStream(){} // RVA: 0x7FFAF9602080
+        public void GetResponseStream(){} // RVA: 0x7FFAF9602580
+        public void OnRead(){} // RVA: 0x7FFAF96026C0
+        public void OnReadInternal(){} // RVA: 0x7FFAF9602760
+        public void RemoveConnection(){} // RVA: 0x7FFAF9602CA0
+        public void ProcessInput(){} // RVA: 0x7FFAF9602D00
+        public void ReadLine(){} // RVA: 0x7FFAF9602FE0
+        public void SendError(){} // RVA: 0x7FFAF96034C0 | overloaded x2
+        public void Unbind(){} // RVA: 0x7FFAF96034F0
+        public void CloseSocket(){} // RVA: 0x7FFAF9603540
+        public void Close(){} // RVA: 0x7FFAF9603610
+        public void .cctor(){} // RVA: 0x7FFAF9603AB0
+        public void <.ctor>b__24_0(){} // RVA: 0x7FFAF9603B90
     }
 
-    public class HttpContinueDelegate : MulticastDelegate
+    public class HttpContinueDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE812572A0
-        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void .ctor(){} // RVA: 0x7FFAF2EE92A0
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
     }
 
-    public class HttpListener : Object
+    public class HttpListener
     {
-        public Mono.Security.Interface.MonoTlsProvider tlsProvider; // 0x10
-        public Mono.Security.Interface.MonoTlsSettings tlsSettings; // 0x18
-        public System.Security.Cryptography.X509Certificates.X509Certificate certificate; // 0x20
-        public 0x665336D4 auth_schemes; // 0x28
-        public System.Net.HttpListenerPrefixCollection prefixes; // 0x30
-        public System.Net.AuthenticationSchemeSelector auth_selector; // 0x38
-
         // ── Methods ──
-        public void LoadCertificateAndKey(){} // RVA: 0x7FFE87692FF0
-        public void CreateSslStream(){} // RVA: 0x7FFE87693560
-        public void .ctor(){} // RVA: 0x7FFE87693860
-        public void get_AuthenticationSchemes(){} // RVA: 0x7FFE81549710
-        public void get_AuthenticationSchemeSelectorDelegate(){} // RVA: 0x7FFE8143BA80
-        public void get_IgnoreWriteExceptions(){} // RVA: 0x7FFE811B2D30
-        public void get_IsListening(){} // RVA: 0x7FFE82446000
-        public void get_Prefixes(){} // RVA: 0x7FFE87693E30
-        public void get_Realm(){} // RVA: 0x7FFE81178740
-        public void Close(){} // RVA: 0x7FFE87693E90 | overloaded x2
-        public void Cleanup(){} // RVA: 0x7FFE87693F10
-        public void BeginGetContext(){} // RVA: 0x7FFE87694B30
-        public void EndGetContext(){} // RVA: 0x7FFE876950F0
-        public void SelectAuthenticationScheme(){} // RVA: 0x7FFE876955D0
-        public void Start(){} // RVA: 0x7FFE87695610
-        public void Stop(){} // RVA: 0x7FFE87695680
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE876956B0
-        public void CheckDisposed(){} // RVA: 0x7FFE876956E0
-        public void GetContextFromQueue(){} // RVA: 0x7FFE87695770
-        public void RegisterContext(){} // RVA: 0x7FFE87695840
-        public void UnregisterContext(){} // RVA: 0x7FFE87695DC0
-        public void AddConnection(){} // RVA: 0x7FFE876960E0
-        public void RemoveConnection(){} // RVA: 0x7FFE87696110
+        public void LoadCertificateAndKey(){} // RVA: 0x7FFAF9603D40
+        public void CreateSslStream(){} // RVA: 0x7FFAF96042B0
+        public void .ctor(){} // RVA: 0x7FFAF96045B0
+        public void get_AuthenticationSchemes(){} // RVA: 0x7FFAF3241DC0
+        public void get_AuthenticationSchemeSelectorDelegate(){} // RVA: 0x7FFAF2F476A0
+        public void get_IgnoreWriteExceptions(){} // RVA: 0x7FFAF2E44D30
+        public void get_IsListening(){} // RVA: 0x7FFAF418F2D0
+        public void get_Prefixes(){} // RVA: 0x7FFAF9604B80
+        public void get_Realm(){} // RVA: 0x7FFAF2E0A740
+        public void Close(){} // RVA: 0x7FFAF9604BE0 | overloaded x2
+        public void Cleanup(){} // RVA: 0x7FFAF9604C60
+        public void BeginGetContext(){} // RVA: 0x7FFAF9605880
+        public void EndGetContext(){} // RVA: 0x7FFAF9605E40
+        public void SelectAuthenticationScheme(){} // RVA: 0x7FFAF9606320
+        public void Start(){} // RVA: 0x7FFAF9606360
+        public void Stop(){} // RVA: 0x7FFAF96063D0
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF9606400
+        public void CheckDisposed(){} // RVA: 0x7FFAF9606430
+        public void GetContextFromQueue(){} // RVA: 0x7FFAF96064C0
+        public void RegisterContext(){} // RVA: 0x7FFAF9606590
+        public void UnregisterContext(){} // RVA: 0x7FFAF9606B10
+        public void AddConnection(){} // RVA: 0x7FFAF9606E30
+        public void RemoveConnection(){} // RVA: 0x7FFAF9606E60
     }
 
-    public class HttpListenerBasicIdentity : GenericIdentity
+    public class HttpListenerBasicIdentity
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87696140
+        public void .ctor(){} // RVA: 0x7FFAF9606E90
     }
 
-    public class HttpListenerContext : Object
+    public class HttpListenerContext
     {
-        public System.Net.HttpListenerRequest request; // 0x10
-        public System.Net.HttpListenerResponse response; // 0x18
-        public System.Security.Principal.IPrincipal user; // 0x20
-        public System.Net.HttpConnection cnc; // 0x28
-        public string error; // 0x30
-        public int err_status; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87696200
-        public void get_ErrorStatus(){} // RVA: 0x7FFE81D46090
-        public void set_ErrorStatus(){} // RVA: 0x7FFE81D46A00
-        public void get_ErrorMessage(){} // RVA: 0x7FFE8144E200
-        public void set_ErrorMessage(){} // RVA: 0x7FFE81129890
-        public void get_HaveError(){} // RVA: 0x7FFE85C00B10
-        public void get_Connection(){} // RVA: 0x7FFE81129130
-        public void get_Request(){} // RVA: 0x7FFE81116380
-        public void get_Response(){} // RVA: 0x7FFE810FE7C0
-        public void ParseAuthentication(){} // RVA: 0x7FFE87696520
-        public void ParseBasicAuthentication(){} // RVA: 0x7FFE87696670
+        public void .ctor(){} // RVA: 0x7FFAF9606F50
+        public void get_ErrorStatus(){} // RVA: 0x7FFAF3A8C9F0
+        public void set_ErrorStatus(){} // RVA: 0x7FFAF3A8D6E0
+        public void get_ErrorMessage(){} // RVA: 0x7FFAF30E74D0
+        public void set_ErrorMessage(){} // RVA: 0x7FFAF2DBB890
+        public void get_HaveError(){} // RVA: 0x7FFAF7C055E0
+        public void get_Connection(){} // RVA: 0x7FFAF2DBB130
+        public void get_Request(){} // RVA: 0x7FFAF2DA8380
+        public void get_Response(){} // RVA: 0x7FFAF2D907C0
+        public void ParseAuthentication(){} // RVA: 0x7FFAF9607270
+        public void ParseBasicAuthentication(){} // RVA: 0x7FFAF96073C0
     }
 
-    public class HttpListenerException : Win32Exception
+    public class HttpListenerException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8765BC90 | overloaded x3
-        public void get_ErrorCode(){} // RVA: 0x7FFE814AA220
+        public void .ctor(){} // RVA: 0x7FFAF95CC9D0 | overloaded x3
+        public void get_ErrorCode(){} // RVA: 0x7FFAF315FD40
     }
 
-    public class HttpListenerPrefixCollection : Object
+    public class HttpListenerPrefixCollection
     {
-        public System.Collections.Generic.List`1<string> prefixes; // 0x10
-        public System.Net.HttpListener listener; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87696940
-        public void get_Count(){} // RVA: 0x7FFE87696A60
-        public void get_IsReadOnly(){} // RVA: 0x7FFE810FB320
-        public void Add(){} // RVA: 0x7FFE87696AB0
-        public void Clear(){} // RVA: 0x7FFE87696BE0
-        public void Contains(){} // RVA: 0x7FFE87696CA0
-        public void CopyTo(){} // RVA: 0x7FFE87696D10
-        public void GetEnumerator(){} // RVA: 0x7FFE87696DA0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE87696E90
-        public void Remove(){} // RVA: 0x7FFE87696F80
+        public void .ctor(){} // RVA: 0x7FFAF9607690
+        public void get_Count(){} // RVA: 0x7FFAF96077B0
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2D8D320
+        public void Add(){} // RVA: 0x7FFAF9607800
+        public void Clear(){} // RVA: 0x7FFAF9607930
+        public void Contains(){} // RVA: 0x7FFAF96079F0
+        public void CopyTo(){} // RVA: 0x7FFAF9607A60
+        public void GetEnumerator(){} // RVA: 0x7FFAF9607AF0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF9607BE0
+        public void Remove(){} // RVA: 0x7FFAF9607CD0
     }
 
-    public class HttpListenerRequest : Object
+    public class HttpListenerRequest
     {
-        public string[] accept_types; // 0x10
-        public System.Text.Encoding content_encoding; // 0x18
-        public long content_length; // 0x20
-        public bool cl_set; // 0x28
-        public System.Net.CookieCollection cookies; // 0x30
-        public System.Net.WebHeaderCollection headers; // 0x38
-        public string method; // 0x40
-        public System.IO.Stream input_stream; // 0x48
-        public System.Version version; // 0x50
-        public System.Collections.Specialized.NameValueCollection query_string; // 0x58
-        public string raw_url; // 0x60
+        public object ForceCloseChunked;
+        public object ContentEncoding;
+        public object ContentLength64;
+        public object ContentType;
+        public object Headers;
+        public object OutputStream;
+        public object SendChunked;
+        public object StatusCode;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876970B0
-        public void SetRequestLine(){} // RVA: 0x7FFE87697260
-        public void CreateQueryString(){} // RVA: 0x7FFE87697710
-        public void MaybeUri(){} // RVA: 0x7FFE87697B00
-        public void IsPredefinedScheme(){} // RVA: 0x7FFE87697BA0
-        public void FinishInitialization(){} // RVA: 0x7FFE87697E70
-        public void Unquote(){} // RVA: 0x7FFE87698BD0
-        public void AddHeader(){} // RVA: 0x7FFE87698C50
-        public void FlushInput(){} // RVA: 0x7FFE876998A0
-        public void get_HasEntityBody(){} // RVA: 0x7FFE87699B50
-        public void get_Headers(){} // RVA: 0x7FFE8143BA80
-        public void get_InputStream(){} // RVA: 0x7FFE87699B70
-        public void get_IsSecureConnection(){} // RVA: 0x7FFE87699C80
-        public void get_KeepAlive(){} // RVA: 0x7FFE87699CB0
-        public void get_LocalEndPoint(){} // RVA: 0x7FFE87699FC0
-        public void get_ProtocolVersion(){} // RVA: 0x7FFE8119C0E0
-        public void get_RawUrl(){} // RVA: 0x7FFE81199370
-        public void get_Url(){} // RVA: 0x7FFE81176D50
-        public void get_UserHostAddress(){} // RVA: 0x7FFE8769A110
-        public void get_UserHostName(){} // RVA: 0x7FFE8769A150
-        public void .cctor(){} // RVA: 0x7FFE8769A1B0
+        public void .ctor(){} // RVA: 0x7FFAF9607E00
+        public void SetRequestLine(){} // RVA: 0x7FFAF9607FB0
+        public void CreateQueryString(){} // RVA: 0x7FFAF9608460
+        public void MaybeUri(){} // RVA: 0x7FFAF9608850
+        public void IsPredefinedScheme(){} // RVA: 0x7FFAF96088F0
+        public void FinishInitialization(){} // RVA: 0x7FFAF9608BC0
+        public void Unquote(){} // RVA: 0x7FFAF9609920
+        public void AddHeader(){} // RVA: 0x7FFAF96099A0
+        public void FlushInput(){} // RVA: 0x7FFAF960A5F0
+        public void get_HasEntityBody(){} // RVA: 0x7FFAF960A8A0
+        public void get_Headers(){} // RVA: 0x7FFAF2F476A0
+        public void get_InputStream(){} // RVA: 0x7FFAF960A8C0
+        public void get_IsSecureConnection(){} // RVA: 0x7FFAF960A9D0
+        public void get_KeepAlive(){} // RVA: 0x7FFAF960AA00
+        public void get_LocalEndPoint(){} // RVA: 0x7FFAF960AD10
+        public void get_ProtocolVersion(){} // RVA: 0x7FFAF2E2E0E0
+        public void get_RawUrl(){} // RVA: 0x7FFAF2E2B370
+        public void get_Url(){} // RVA: 0x7FFAF2E08D50
+        public void get_UserHostAddress(){} // RVA: 0x7FFAF960AE60
+        public void get_UserHostName(){} // RVA: 0x7FFAF960AEA0
+        public void .cctor(){} // RVA: 0x7FFAF960AF00
     }
 
-    public class HttpListenerRequestUriBuilder : Object
+    public class HttpListenerRequestUriBuilder
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8765BD50
-        public void .ctor(){} // RVA: 0x7FFE8765BFB0
-        public void GetRequestUri(){} // RVA: 0x7FFE8765C290
-        public void Build(){} // RVA: 0x7FFE8765C400
-        public void BuildRequestUriUsingCookedPath(){} // RVA: 0x7FFE8765C4F0
-        public void BuildRequestUriUsingRawPath(){} // RVA: 0x7FFE8765CC60 | overloaded x2
-        public void GetEncoding(){} // RVA: 0x7FFE8765CBD0
-        public void ParseRawPath(){} // RVA: 0x7FFE8765CFA0
-        public void AppendUnicodeCodePointValuePercentEncoded(){} // RVA: 0x7FFE8765D160
-        public void AddPercentEncodedOctetToRawOctetsList(){} // RVA: 0x7FFE8765D560
-        public void EmptyDecodeAndAppendRawOctetsList(){} // RVA: 0x7FFE8765D790
-        public void AppendOctetsPercentEncoded(){} // RVA: 0x7FFE8765DB50
-        public void GetOctetsAsString(){} // RVA: 0x7FFE8765DEC0
-        public void GetPath(){} // RVA: 0x7FFE8765E190
-        public void AddSlashToAsteriskOnlyPath(){} // RVA: 0x7FFE8765E4F0
-        public void LogWarning(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFAF95CCA90
+        public void .ctor(){} // RVA: 0x7FFAF95CCCF0
+        public void GetRequestUri(){} // RVA: 0x7FFAF95CCFD0
+        public void Build(){} // RVA: 0x7FFAF95CD140
+        public void BuildRequestUriUsingCookedPath(){} // RVA: 0x7FFAF95CD230
+        public void BuildRequestUriUsingRawPath(){} // RVA: 0x7FFAF95CD9A0 | overloaded x2
+        public void GetEncoding(){} // RVA: 0x7FFAF95CD910
+        public void ParseRawPath(){} // RVA: 0x7FFAF95CDCE0
+        public void AppendUnicodeCodePointValuePercentEncoded(){} // RVA: 0x7FFAF95CDEA0
+        public void AddPercentEncodedOctetToRawOctetsList(){} // RVA: 0x7FFAF95CE2A0
+        public void EmptyDecodeAndAppendRawOctetsList(){} // RVA: 0x7FFAF95CE4D0
+        public void AppendOctetsPercentEncoded(){} // RVA: 0x7FFAF95CE890
+        public void GetOctetsAsString(){} // RVA: 0x7FFAF95CEC00
+        public void GetPath(){} // RVA: 0x7FFAF95CEED0
+        public void AddSlashToAsteriskOnlyPath(){} // RVA: 0x7FFAF95CF230
+        public void LogWarning(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class HttpListenerResponse : Object
+    public class HttpListenerResponse
     {
-        public bool disposed; // 0x10
-        public System.Text.Encoding content_encoding; // 0x18
-        public long content_length; // 0x20
-        public bool cl_set; // 0x28
-        public string content_type; // 0x30
-        public System.Net.CookieCollection cookies; // 0x38
-        public System.Net.WebHeaderCollection headers; // 0x40
-        public bool keep_alive; // 0x48
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8769A350
-        public void get_ForceCloseChunked(){} // RVA: 0x7FFE81611920
-        public void get_ContentEncoding(){} // RVA: 0x7FFE8769A5D0
-        public void set_ContentLength64(){} // RVA: 0x7FFE8769A650
-        public void set_ContentType(){} // RVA: 0x7FFE8769A790
-        public void get_Headers(){} // RVA: 0x7FFE81178740
-        public void get_OutputStream(){} // RVA: 0x7FFE8769A8B0
-        public void get_SendChunked(){} // RVA: 0x7FFE816400C0
-        public void set_SendChunked(){} // RVA: 0x7FFE8769A940
-        public void set_StatusCode(){} // RVA: 0x7FFE8769AA10
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE8769AB60
-        public void Close(){} // RVA: 0x7FFE8769AC10 | overloaded x3
-        public void SendHeaders(){} // RVA: 0x7FFE8769ACF0
-        public void FormatHeaders(){} // RVA: 0x7FFE8769BA30
-        public void CookieToClientString(){} // RVA: 0x7FFE8769BCC0
-        public void QuotedString(){} // RVA: 0x7FFE8769BFF0
-        public void IsToken(){} // RVA: 0x7FFE8769C190
-        public void .cctor(){} // RVA: 0x7FFE8769C2A0
+        public void .ctor(){} // RVA: 0x7FFAF960B0A0
+        public void get_ForceCloseChunked(){} // RVA: 0x7FFAF331DB40
+        public void get_ContentEncoding(){} // RVA: 0x7FFAF960B320
+        public void set_ContentLength64(){} // RVA: 0x7FFAF960B3A0
+        public void set_ContentType(){} // RVA: 0x7FFAF960B4E0
+        public void get_Headers(){} // RVA: 0x7FFAF2E0A740
+        public void get_OutputStream(){} // RVA: 0x7FFAF960B600
+        public void get_SendChunked(){} // RVA: 0x7FFAF33510E0
+        public void set_SendChunked(){} // RVA: 0x7FFAF960B690
+        public void set_StatusCode(){} // RVA: 0x7FFAF960B760
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF960B8B0
+        public void Close(){} // RVA: 0x7FFAF960B960 | overloaded x3
+        public void SendHeaders(){} // RVA: 0x7FFAF960BA40
+        public void FormatHeaders(){} // RVA: 0x7FFAF960C780
+        public void CookieToClientString(){} // RVA: 0x7FFAF960CA10
+        public void QuotedString(){} // RVA: 0x7FFAF960CD40
+        public void IsToken(){} // RVA: 0x7FFAF960CEE0
+        public void .cctor(){} // RVA: 0x7FFAF960CFF0
     }
 
-    public class HttpRequestCreator : Object
+    public class HttpRequestCreator : `
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Create(){} // RVA: 0x7FFE8769C350
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Create(){} // RVA: 0x7FFAF960D0A0
     }
 
-    public class HttpStatusDescription : Object
+    public class HttpStatusDescription
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0x7FFE8780AE30 | overloaded x2
+        public void Get(){} // RVA: 0x7FFAF9779F90 | overloaded x2
     }
 
-    public class HttpStreamAsyncResult : Object
+    public class HttpStreamAsyncResult
     {
-        public object locker; // 0x10
-        public System.Threading.ManualResetEvent handle; // 0x18
-        public bool completed; // 0x20
-        public byte[] Buffer; // 0x28
-
         // ── Methods ──
-        public void Complete(){} // RVA: 0x7FFE8769C410 | overloaded x2
-        public void get_AsyncState(){} // RVA: 0x7FFE81178740
-        public void get_AsyncWaitHandle(){} // RVA: 0x7FFE8769C5C0
-        public void get_CompletedSynchronously(){} // RVA: 0x7FFE8769C7D0
-        public void get_IsCompleted(){} // RVA: 0x7FFE8769C7E0
-        public void .ctor(){} // RVA: 0x7FFE8769C920
+        public void Complete(){} // RVA: 0x7FFAF960D160 | overloaded x2
+        public void get_AsyncState(){} // RVA: 0x7FFAF2E0A740
+        public void get_AsyncWaitHandle(){} // RVA: 0x7FFAF960D310
+        public void get_CompletedSynchronously(){} // RVA: 0x7FFAF960D520
+        public void get_IsCompleted(){} // RVA: 0x7FFAF960D530
+        public void .ctor(){} // RVA: 0x7FFAF960D670
     }
 
-    public class HttpValidationHelpers : Object
+    public class HttpValidationHelpers
     {
         // ── Methods ──
-        public void IsInvalidMethodOrHeaderString(){} // RVA: 0x7FFE8780B740
-        public void .cctor(){} // RVA: 0x7FFE8780B890
+        public void IsInvalidMethodOrHeaderString(){} // RVA: 0x7FFAF977A8A0
+        public void .cctor(){} // RVA: 0x7FFAF977A9F0
     }
 
-    public class HttpVersion : Object
+    public class HttpVersion
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8780DC00
+        public void .cctor(){} // RVA: 0x7FFAF977CD60
     }
 
-    public class HttpWebRequest : WebRequest
+    public class HttpWebRequest
     {
-        public System.Uri requestUri; // 0x38
-        public System.Uri actualUri; // 0x40
-        public bool hostChanged; // 0x48
-        public bool allowAutoRedirect; // 0x49
-        public bool allowBuffering; // 0x4A
-        public bool allowReadStreamBuffering; // 0x4B
-        public System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates; // 0x50
-        public string connectionGroup; // 0x58
-        public bool haveContentLength; // 0x60
-        public long contentLength; // 0x68
-        public System.Net.HttpContinueDelegate continueDelegate; // 0x70
-        public System.Net.CookieContainer cookieContainer; // 0x78
-        public System.Net.ICredentials credentials; // 0x80
-        public bool haveResponse; // 0x88
-        public bool requestSent; // 0x89
-        public System.Net.WebHeaderCollection webHeaders; // 0x90
-        public bool keepAlive; // 0x98
-        public int maxAutoRedirect; // 0x9C
-        public string mediaType; // 0xA0
-        public string method; // 0xA8
-        public string initialMethod; // 0xB0
-        public bool pipelined; // 0xB8
-        public bool preAuthenticate; // 0xB9
-        public bool usedPreAuth; // 0xBA
-        public System.Version version; // 0xC0
-        public bool force_version; // 0xC8
-        public System.Version actualVersion; // 0xD0
-        public System.Net.IWebProxy proxy; // 0xD8
-        public bool sendChunked; // 0xE0
-        public System.Net.ServicePoint servicePoint; // 0xE8
-        public int timeout; // 0xF0
-        public int continueTimeout; // 0xF4
-        public System.Net.WebRequestStream writeStream; // 0xF8
-        public System.Net.HttpWebResponse webResponse; // 0x100
-        public System.Net.WebCompletionSource responseTask; // 0x108
-        public System.Net.WebOperation currentOperation; // 0x110
-        public int aborted; // 0x118
-        public bool gotRequestStream; // 0x11C
-        public int redirects; // 0x120
-        public bool expectContinue; // 0x124
-        public bool getResponseCalled; // 0x125
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8769C9B0
-        public void .ctor(){} // RVA: 0x7FFE876A32F0 | overloaded x4
-        public void ResetAuthorization(){} // RVA: 0x7FFE8769D3B0
-        public void get_Address(){} // RVA: 0x7FFE81178740
-        public void set_AllowAutoRedirect(){} // RVA: 0x7FFE820ED810
-        public void get_AllowWriteStreamBuffering(){} // RVA: 0x7FFE82446000
-        public void set_AllowWriteStreamBuffering(){} // RVA: 0x7FFE82444AD0
-        public void get_AutomaticDecompression(){} // RVA: 0x7FFE8769D550
-        public void set_AutomaticDecompression(){} // RVA: 0x7FFE8769D560
-        public void get_InternalAllowBuffering(){} // RVA: 0x7FFE8769D5D0
-        public void get_MethodWithBuffer(){} // RVA: 0x7FFE8769D5E0
-        public void get_TlsProvider(){} // RVA: 0x7FFE811665F0
-        public void get_TlsSettings(){} // RVA: 0x7FFE81166660
-        public void get_ClientCertificates(){} // RVA: 0x7FFE8769D7D0
-        public void set_ConnectionGroupName(){} // RVA: 0x7FFE811C3510
-        public void get_ContentLength(){} // RVA: 0x7FFE81176D50
-        public void set_ContentLength(){} // RVA: 0x7FFE8769D880
-        public void set_InternalContentLength(){} // RVA: 0x7FFE82C95C80
-        public void get_ThrowOnError(){} // RVA: 0x7FFE86DBDB30
-        public void set_ThrowOnError(){} // RVA: 0x7FFE8769D950
-        public void set_CookieContainer(){} // RVA: 0x7FFE81464570
-        public void get_Credentials(){} // RVA: 0x7FFE81280C30
-        public void set_Credentials(){} // RVA: 0x7FFE81282380
-        public void get_DefaultMaximumErrorResponseLength(){} // RVA: 0x7FFE8769D960
-        public void get_Headers(){} // RVA: 0x7FFE8154EB60
-        public void get_Host(){} // RVA: 0x7FFE8769D9C0
-        public void set_Host(){} // RVA: 0x7FFE8769DB50
-        public void TryGetHostUri(){} // RVA: 0x7FFE8769DE00
-        public void get_KeepAlive(){} // RVA: 0x7FFE81611920
-        public void set_KeepAlive(){} // RVA: 0x7FFE81611930
-        public void set_MaximumAutomaticRedirections(){} // RVA: 0x7FFE8769DEE0
-        public void get_DefaultMaximumResponseHeadersLength(){} // RVA: 0x7FFE8769DF70
-        public void get_ReadWriteTimeout(){} // RVA: 0x7FFE86C70920
-        public void get_Method(){} // RVA: 0x7FFE817AB5E0
-        public void set_Method(){} // RVA: 0x7FFE8769DFD0
-        public void set_PreAuthenticate(){} // RVA: 0x7FFE8453D830
-        public void get_ProtocolVersion(){} // RVA: 0x7FFE81166120
-        public void set_ProtocolVersion(){} // RVA: 0x7FFE8769E550
-        public void get_Proxy(){} // RVA: 0x7FFE8181EA80
-        public void set_Proxy(){} // RVA: 0x7FFE8769E710
-        public void get_RequestUri(){} // RVA: 0x7FFE8143BA80
-        public void get_SendChunked(){} // RVA: 0x7FFE81226F80
-        public void set_SendChunked(){} // RVA: 0x7FFE8769E850
-        public void get_ServicePoint(){} // RVA: 0x7FFE8769E8C0
-        public void get_ServicePointNoLock(){} // RVA: 0x7FFE8117C970
-        public void get_Timeout(){} // RVA: 0x7FFE843B5350
-        public void set_Timeout(){} // RVA: 0x7FFE8769E8D0
-        public void get_TransferEncoding(){} // RVA: 0x7FFE8769E940
-        public void get_UseDefaultCredentials(){} // RVA: 0x7FFE8769E9A0
-        public void get_UnsafeAuthenticatedConnectionSharing(){} // RVA: 0x7FFE86DBDB40
-        public void get_ExpectContinue(){} // RVA: 0x7FFE8769EA20
-        public void set_ExpectContinue(){} // RVA: 0x7FFE8769EA30
-        public void get_AuthUri(){} // RVA: 0x7FFE81178740
-        public void get_ProxyQuery(){} // RVA: 0x7FFE8769EA40
-        public void get_ServerCertValidationCallback(){} // RVA: 0x7FFE81790740
-        public void get_ServerCertificateValidationCallback(){} // RVA: 0x7FFE8769EA70
-        public void set_ServerCertificateValidationCallback(){} // RVA: 0x7FFE8769EA90
-        public void GetServicePoint(){} // RVA: 0x7FFE8769EBE0
-        public void SendRequest(){} // RVA: 0x7FFE8769EE00
-        public void MyGetRequestStreamAsync(){} // RVA: 0x7FFE8769F1C0
-        public void BeginGetRequestStream(){} // RVA: 0x7FFE8769F8D0
-        public void EndGetRequestStream(){} // RVA: 0x7FFE8769F990
-        public void GetRequestStreamAsync(){} // RVA: 0x7FFE8769FA60
-        public void RunWithTimeout(){} // RVA: 0x7FFE80E2E390 | overloaded x2
-        public void RunWithTimeoutWorker(){} // RVA: 0x7FFE80E3FA00
-        public void MyGetResponseAsync(){} // RVA: 0x7FFE8769FAF0
-        public void GetResponseFromData(){} // RVA: 0x7FFE8769FCE0
-        public void FlattenException(){} // RVA: 0x7FFE8769FF40
-        public void GetWebException(){} // RVA: 0x7FFE876A00E0 | overloaded x2
-        public void CreateRequestAbortedException(){} // RVA: 0x7FFE876A02D0
-        public void BeginGetResponse(){} // RVA: 0x7FFE876A0390
-        public void EndGetResponse(){} // RVA: 0x7FFE876A05B0
-        public void GetResponse(){} // RVA: 0x7FFE876A0680
-        public void set_FinishedReading(){} // RVA: 0x7FFE876A0740
-        public void get_Aborted(){} // RVA: 0x7FFE833F8BA0
-        public void Abort(){} // RVA: 0x7FFE876A0750
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE876A0930
-        public void GetObjectData(){} // RVA: 0x7FFE876A0970
-        public void CheckRequestStarted(){} // RVA: 0x7FFE876A09B0
-        public void DoContinueDelegate(){} // RVA: 0x7FFE876A0A20
-        public void RewriteRedirectToGet(){} // RVA: 0x7FFE876A0A40
-        public void Redirect(){} // RVA: 0x7FFE876A0B50
-        public void GetHeaders(){} // RVA: 0x7FFE876A12F0
-        public void DoPreAuthenticate(){} // RVA: 0x7FFE876A1E90
-        public void GetRequestHeaders(){} // RVA: 0x7FFE876A20C0
-        public void HandleNtlmAuth(){} // RVA: 0x7FFE876A2610
-        public void CheckAuthorization(){} // RVA: 0x7FFE876A28D0
-        public void GetRewriteHandler(){} // RVA: 0x7FFE876A2900
-        public void CheckFinalStatus(){} // RVA: 0x7FFE876A2B70
-        public void <RunWithTimeout>b__242_0(){} // RVA: 0x7FFE80E2F150
-        public void <GetRewriteHandler>b__271_0(){} // RVA: 0x7FFE876A3150
+        public void .cctor(){} // RVA: 0x7FFAF960D700
+        public void .ctor(){} // RVA: 0x7FFAF9614040 | overloaded x4
+        public void ResetAuthorization(){} // RVA: 0x7FFAF960E100
+        public void get_Address(){} // RVA: 0x7FFAF2E0A740
+        public void set_AllowAutoRedirect(){} // RVA: 0x7FFAF3E26F60
+        public void get_AllowWriteStreamBuffering(){} // RVA: 0x7FFAF418F2D0
+        public void set_AllowWriteStreamBuffering(){} // RVA: 0x7FFAF418E990
+        public void get_AutomaticDecompression(){} // RVA: 0x7FFAF960E2A0
+        public void set_AutomaticDecompression(){} // RVA: 0x7FFAF960E2B0
+        public void get_InternalAllowBuffering(){} // RVA: 0x7FFAF960E320
+        public void get_MethodWithBuffer(){} // RVA: 0x7FFAF960E330
+        public void get_TlsProvider(){} // RVA: 0x7FFAF2DF85F0
+        public void get_TlsSettings(){} // RVA: 0x7FFAF2DF8660
+        public void get_ClientCertificates(){} // RVA: 0x7FFAF960E520
+        public void set_ConnectionGroupName(){} // RVA: 0x7FFAF2E55510
+        public void get_ContentLength(){} // RVA: 0x7FFAF2E08D50
+        public void set_ContentLength(){} // RVA: 0x7FFAF960E5D0
+        public void set_InternalContentLength(){} // RVA: 0x7FFAF49BAB90
+        public void get_ThrowOnError(){} // RVA: 0x7FFAF8D2D100
+        public void set_ThrowOnError(){} // RVA: 0x7FFAF960E6A0
+        public void set_CookieContainer(){} // RVA: 0x7FFAF2F734F0
+        public void get_Credentials(){} // RVA: 0x7FFAF2F12D00
+        public void set_Credentials(){} // RVA: 0x7FFAF2F14450
+        public void get_DefaultMaximumErrorResponseLength(){} // RVA: 0x7FFAF960E6B0
+        public void get_Headers(){} // RVA: 0x7FFAF3246DE0
+        public void get_Host(){} // RVA: 0x7FFAF960E710
+        public void set_Host(){} // RVA: 0x7FFAF960E8A0
+        public void TryGetHostUri(){} // RVA: 0x7FFAF960EB50
+        public void get_KeepAlive(){} // RVA: 0x7FFAF331DB40
+        public void set_KeepAlive(){} // RVA: 0x7FFAF331DB50
+        public void set_MaximumAutomaticRedirections(){} // RVA: 0x7FFAF960EC30
+        public void get_DefaultMaximumResponseHeadersLength(){} // RVA: 0x7FFAF960ECC0
+        public void get_ReadWriteTimeout(){} // RVA: 0x7FFAF8BDFB40
+        public void get_Method(){} // RVA: 0x7FFAF34CC130
+        public void set_Method(){} // RVA: 0x7FFAF960ED20
+        public void set_PreAuthenticate(){} // RVA: 0x7FFAF639ED50
+        public void get_ProtocolVersion(){} // RVA: 0x7FFAF2DF8120
+        public void set_ProtocolVersion(){} // RVA: 0x7FFAF960F2A0
+        public void get_Proxy(){} // RVA: 0x7FFAF3546D30
+        public void set_Proxy(){} // RVA: 0x7FFAF960F460
+        public void get_RequestUri(){} // RVA: 0x7FFAF2F476A0
+        public void get_SendChunked(){} // RVA: 0x7FFAF2EB8F80
+        public void set_SendChunked(){} // RVA: 0x7FFAF960F5A0
+        public void get_ServicePoint(){} // RVA: 0x7FFAF960F610
+        public void get_ServicePointNoLock(){} // RVA: 0x7FFAF2E0E970
+        public void get_Timeout(){} // RVA: 0x7FFAF61E9380
+        public void set_Timeout(){} // RVA: 0x7FFAF960F620
+        public void get_TransferEncoding(){} // RVA: 0x7FFAF960F690
+        public void get_UseDefaultCredentials(){} // RVA: 0x7FFAF960F6F0
+        public void get_UnsafeAuthenticatedConnectionSharing(){} // RVA: 0x7FFAF8D2D110
+        public void get_ExpectContinue(){} // RVA: 0x7FFAF960F770
+        public void set_ExpectContinue(){} // RVA: 0x7FFAF960F780
+        public void get_AuthUri(){} // RVA: 0x7FFAF2E0A740
+        public void get_ProxyQuery(){} // RVA: 0x7FFAF960F790
+        public void get_ServerCertValidationCallback(){} // RVA: 0x7FFAF34AE130
+        public void get_ServerCertificateValidationCallback(){} // RVA: 0x7FFAF960F7C0
+        public void set_ServerCertificateValidationCallback(){} // RVA: 0x7FFAF960F7E0
+        public void GetServicePoint(){} // RVA: 0x7FFAF960F930
+        public void SendRequest(){} // RVA: 0x7FFAF960FB50
+        public void MyGetRequestStreamAsync(){} // RVA: 0x7FFAF960FF10
+        public void BeginGetRequestStream(){} // RVA: 0x7FFAF9610620
+        public void EndGetRequestStream(){} // RVA: 0x7FFAF96106E0
+        public void GetRequestStreamAsync(){} // RVA: 0x7FFAF96107B0
+        public void RunWithTimeout(){} // RVA: 0x7FFAF2ABCE10 | overloaded x2
+        public void RunWithTimeoutWorker(){} // RVA: 0x7FFAF2ACE490
+        public void MyGetResponseAsync(){} // RVA: 0x7FFAF9610840
+        public void GetResponseFromData(){} // RVA: 0x7FFAF9610A30
+        public void FlattenException(){} // RVA: 0x7FFAF9610C90
+        public void GetWebException(){} // RVA: 0x7FFAF9610E30 | overloaded x2
+        public void CreateRequestAbortedException(){} // RVA: 0x7FFAF9611020
+        public void BeginGetResponse(){} // RVA: 0x7FFAF96110E0
+        public void EndGetResponse(){} // RVA: 0x7FFAF9611300
+        public void GetResponse(){} // RVA: 0x7FFAF96113D0
+        public void set_FinishedReading(){} // RVA: 0x7FFAF9611490
+        public void get_Aborted(){} // RVA: 0x7FFAF5157D20
+        public void Abort(){} // RVA: 0x7FFAF96114A0
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF9611680
+        public void GetObjectData(){} // RVA: 0x7FFAF96116C0
+        public void CheckRequestStarted(){} // RVA: 0x7FFAF9611700
+        public void DoContinueDelegate(){} // RVA: 0x7FFAF9611770
+        public void RewriteRedirectToGet(){} // RVA: 0x7FFAF9611790
+        public void Redirect(){} // RVA: 0x7FFAF96118A0
+        public void GetHeaders(){} // RVA: 0x7FFAF9612040
+        public void DoPreAuthenticate(){} // RVA: 0x7FFAF9612BE0
+        public void GetRequestHeaders(){} // RVA: 0x7FFAF9612E10
+        public void HandleNtlmAuth(){} // RVA: 0x7FFAF9613360
+        public void CheckAuthorization(){} // RVA: 0x7FFAF9613620
+        public void GetRewriteHandler(){} // RVA: 0x7FFAF9613650
+        public void CheckFinalStatus(){} // RVA: 0x7FFAF96138C0
+        public void <RunWithTimeout>b__242_0(){} // RVA: 0x7FFAF2ABDBE0
+        public void <GetRewriteHandler>b__271_0(){} // RVA: 0x7FFAF9613EA0
     }
 
-    public class HttpWebResponse : WebResponse
+    public class HttpWebResponse
     {
-        public System.Uri uri; // 0x20
-        public System.Net.WebHeaderCollection webHeaders; // 0x28
-        public System.Net.CookieCollection cookieCollection; // 0x30
-        public string method; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876A72B0 | overloaded x4
-        public void get_Headers(){} // RVA: 0x7FFE81129130
-        public void get_ResponseUri(){} // RVA: 0x7FFE876A79A0
-        public void get_StatusCode(){} // RVA: 0x7FFE8119C0C0
-        public void get_StatusDescription(){} // RVA: 0x7FFE876A79C0
-        public void GetResponseStream(){} // RVA: 0x7FFE876A79E0
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87667F80
-        public void GetObjectData(){} // RVA: 0x7FFE876A7B60
-        public void Close(){} // RVA: 0x7FFE876A8960
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE8699B180
-        public void Dispose(){} // RVA: 0x7FFE876A89A0
-        public void CheckDisposed(){} // RVA: 0x7FFE876A89B0
-        public void FillCookies(){} // RVA: 0x7FFE876A8A40
+        public void .ctor(){} // RVA: 0x7FFAF9618000 | overloaded x4
+        public void get_Headers(){} // RVA: 0x7FFAF2DBB130
+        public void get_ResponseUri(){} // RVA: 0x7FFAF96186F0
+        public void get_StatusCode(){} // RVA: 0x7FFAF2E2E0C0
+        public void get_StatusDescription(){} // RVA: 0x7FFAF9618710
+        public void GetResponseStream(){} // RVA: 0x7FFAF9618730
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF95D8CC0
+        public void GetObjectData(){} // RVA: 0x7FFAF96188B0
+        public void Close(){} // RVA: 0x7FFAF96196B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF890A340
+        public void Dispose(){} // RVA: 0x7FFAF96196F0
+        public void CheckDisposed(){} // RVA: 0x7FFAF9619700
+        public void FillCookies(){} // RVA: 0x7FFAF9619790
     }
 
 }

@@ -1,0 +1,14 @@
+{
+  "OVRLipSyncContextCannedSiblingSibling_89C2::m_41F": "FreeLibrary",
+  "OVRLipSyncContextCannedSiblingSibling_89C2::m_726": "GetProcAddress",
+  "OVRLipSyncContextCannedSibling_2B44::m_41F": "GetChangeValue",
+  "OVRLipSyncContextCannedSibling_B253::m_0E2": "GetChangeValue",
+  "BackgroundOptions::m_404": "get_Options",
+  "OVRTouchpadHelperSiblingSiblinSibling_6399::m_6C1": "OnCollisionEnter",
+  "OVRTouchpadHelperSiblingSiblinSibling_6399::m_7FE": "OnCollisionStay",
+  "OVRTouchpadHelperSiblingSibling_BF0D::m_3CB": "OnCollisionEnter",
+  "OVRTouchpadHelperSiblingSibling_BF0D::m_1EA": "OnCollisionStay",
+  "SerializableVector3SiblingSiblSibling_1C01::m_D16": "get_Value",
+  "SerializableVector3SiblingSiblSibling_36EA::m_EE2": "get_Value",
+  "SerializableVector3SiblingSiblSibling_6489::m_E95": "get_Value"
+}

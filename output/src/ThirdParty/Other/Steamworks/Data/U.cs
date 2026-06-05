@@ -5,78 +5,62 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class UnreadChatMessagesChanged_t : ValueType
+    public class UnreadChatMessagesChanged_t
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E579C0
-        public void .cctor(){} // RVA: 0x7FFE82E579D0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B795C0
+        public void .cctor(){} // RVA: 0x7FFAF4B795D0
     }
 
-    public class UserAchievementIconFetched_t : ValueType
+    public class UserAchievementIconFetched_t
     {
-        public Steamworks.Data.GameId GameID; // 0x10
-
         // ── Methods ──
-        public void AchievementNameUTF8(){} // RVA: 0x7FFE82E5C410
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5C520
-        public void .cctor(){} // RVA: 0x7FFE82E5C530
+        public void AchievementNameUTF8(){} // RVA: 0x7FFAF4B7E010
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7E120
+        public void .cctor(){} // RVA: 0x7FFAF4B7E130
     }
 
-    public class UserAchievementStored_t : ValueType
+    public class UserAchievementStored_t
     {
-        public ulong GameID; // 0x10
-
         // ── Methods ──
-        public void AchievementNameUTF8(){} // RVA: 0x7FFE82E5BCA0
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5BDB0
-        public void .cctor(){} // RVA: 0x7FFE82E5BDC0
+        public void AchievementNameUTF8(){} // RVA: 0x7FFAF4B7D8A0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7D9B0
+        public void .cctor(){} // RVA: 0x7FFAF4B7D9C0
     }
 
-    public class UserFavoriteItemsListChanged_t : ValueType
+    public class UserFavoriteItemsListChanged_t
     {
-        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5F1C0
-        public void .cctor(){} // RVA: 0x7FFE82E5F1D0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B80DC0
+        public void .cctor(){} // RVA: 0x7FFAF4B80DD0
     }
 
-    public class UserStatsReceived_t : ValueType
+    public class UserStatsReceived_t
     {
-        public ulong GameID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5BA80
-        public void .cctor(){} // RVA: 0x7FFE82E5BA90
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7D680
+        public void .cctor(){} // RVA: 0x7FFAF4B7D690
     }
 
-    public class UserStatsStored_t : ValueType
+    public class UserStatsStored_t
     {
-        public ulong GameID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5BB90
-        public void .cctor(){} // RVA: 0x7FFE82E5BBA0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7D790
+        public void .cctor(){} // RVA: 0x7FFAF4B7D7A0
     }
 
-    public class UserStatsUnloaded_t : ValueType
+    public class UserStatsUnloaded_t
     {
-        public ulong SteamIDUser; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5C300
-        public void .cctor(){} // RVA: 0x7FFE82E5C310
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7DF00
+        public void .cctor(){} // RVA: 0x7FFAF4B7DF10
     }
 
-    public class UserSubscribedItemsListChanged_t : ValueType
+    public class UserSubscribedItemsListChanged_t
     {
-        public Steamworks.AppId AppID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5FD70
-        public void .cctor(){} // RVA: 0x7FFE82E5FD80
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B81970
+        public void .cctor(){} // RVA: 0x7FFAF4B81980
     }
 
 }

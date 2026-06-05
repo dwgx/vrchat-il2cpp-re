@@ -5,82 +5,82 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class CalApplicationFinalized : Object
+    public class CalApplicationFinalized
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C24D20
+        public void .ctor(){} // RVA: 0x7FFAF8B93F50
     }
 
-    public class CalApplicationProposed : Object
+    public class CalApplicationProposed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C24F30
+        public void .ctor(){} // RVA: 0x7FFAF8B94160
     }
 
-    public class CalApplicationSuggestion : Object
+    public class CalApplicationSuggestion
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C24FF0
+        public void .ctor(){} // RVA: 0x7FFAF8B94220
     }
 
-    public class CalApplicationSuggestionList : DeserializableList`1
+    public class CalApplicationSuggestionList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C251B0
+        public void .ctor(){} // RVA: 0x7FFAF8B943E0
     }
 
-    public class Challenge : Object
+    public class Challenge
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C25610
+        public void .ctor(){} // RVA: 0x7FFAF8B94840
     }
 
-    public class ChallengeEntry : Object
+    public class ChallengeEntry
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C26440
+        public void .ctor(){} // RVA: 0x7FFAF8B95670
     }
 
-    public class ChallengeEntryList : DeserializableList`1
+    public class ChallengeEntryList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C26940
+        public void .ctor(){} // RVA: 0x7FFAF8B95B70
     }
 
-    public class ChallengeList : DeserializableList`1
+    public class ChallengeList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C25F00
+        public void .ctor(){} // RVA: 0x7FFAF8B95130
     }
 
-    public class CloudStorageConflictMetadata : Object
+    public class CloudStorageConflictMetadata
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C26E80
+        public void .ctor(){} // RVA: 0x7FFAF8B960B0
     }
 
-    public class CloudStorageData : Object
+    public class CloudStorageData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C270C0
+        public void .ctor(){} // RVA: 0x7FFAF8B962F0
     }
 
-    public class CloudStorageMetadata : Object
+    public class CloudStorageMetadata
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C274B0
+        public void .ctor(){} // RVA: 0x7FFAF8B966E0
     }
 
-    public class CloudStorageMetadataList : DeserializableList`1
+    public class CloudStorageMetadataList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C27A40
+        public void .ctor(){} // RVA: 0x7FFAF8B96C70
     }
 
-    public class CloudStorageUpdateResponse : Object
+    public class CloudStorageUpdateResponse
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C27E30
+        public void .ctor(){} // RVA: 0x7FFAF8B97060
     }
 
 }

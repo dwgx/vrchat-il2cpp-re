@@ -8,9 +8,9 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Lifetime
     public class ILease
     {
         // ── Methods ──
-        public void get_CurrentLeaseTime(){} // RVA: 0x7FFE80E2E2E0
-        public void get_CurrentState(){} // RVA: 0x7FFE80E2EDB0
-        public void get_RenewOnCallTime(){} // RVA: 0x7FFE80E2E2E0
+        public void get_CurrentLeaseTime(){} // RVA: 0x7FFAF2ABCD60
+        public void get_CurrentState(){} // RVA: 0x7FFAF2ABD840
+        public void get_RenewOnCallTime(){} // RVA: 0x7FFAF2ABCD60
         public void Renew(){}
     }
 
@@ -20,63 +20,54 @@ namespace ThirdParty.DotNet.System.Runtime.Remoting.Lifetime
         public void Renewal(){}
     }
 
-    public class Lease : MarshalByRefObject
+    public class Lease
     {
-        public System.DateTime _leaseExpireTime; // 0x18
-        public 0x664C93AC _currentState; // 0x20
-        public System.TimeSpan _initialLeaseTime; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE868256E0
-        public void get_CurrentLeaseTime(){} // RVA: 0x7FFE86825860
-        public void get_CurrentState(){} // RVA: 0x7FFE8151D690
-        public void Activate(){} // RVA: 0x7FFE868258C0
-        public void get_RenewOnCallTime(){} // RVA: 0x7FFE8144E200
-        public void Renew(){} // RVA: 0x7FFE868258D0
-        public void Unregister(){} // RVA: 0x7FFE868259A0
-        public void UpdateState(){} // RVA: 0x7FFE86825BC0
-        public void CheckNextSponsor(){} // RVA: 0x7FFE86825E30
-        public void ProcessSponsorResponse(){} // RVA: 0x7FFE86826120
+        public void .ctor(){} // RVA: 0x7FFAF87947E0
+        public void get_CurrentLeaseTime(){} // RVA: 0x7FFAF8794960
+        public void get_CurrentState(){} // RVA: 0x7FFAF3210030
+        public void Activate(){} // RVA: 0x7FFAF87949C0
+        public void get_RenewOnCallTime(){} // RVA: 0x7FFAF30E74D0
+        public void Renew(){} // RVA: 0x7FFAF87949D0
+        public void Unregister(){} // RVA: 0x7FFAF8794AA0
+        public void UpdateState(){} // RVA: 0x7FFAF8794CC0
+        public void CheckNextSponsor(){} // RVA: 0x7FFAF8794F30
+        public void ProcessSponsorResponse(){} // RVA: 0x7FFAF8795220
     }
 
-    public class LeaseManager : Object
+    public class LeaseManager
     {
         // ── Methods ──
-        public void SetPollTime(){} // RVA: 0x7FFE86826690
-        public void TrackLifetime(){} // RVA: 0x7FFE86826810
-        public void StartManager(){} // RVA: 0x7FFE86826B90
-        public void StopManager(){} // RVA: 0x7FFE86826D60
-        public void ManageLeases(){} // RVA: 0x7FFE86826E00
-        public void .ctor(){} // RVA: 0x7FFE86827180
+        public void SetPollTime(){} // RVA: 0x7FFAF8795790
+        public void TrackLifetime(){} // RVA: 0x7FFAF8795910
+        public void StartManager(){} // RVA: 0x7FFAF8795C90
+        public void StopManager(){} // RVA: 0x7FFAF8795E60
+        public void ManageLeases(){} // RVA: 0x7FFAF8795F00
+        public void .ctor(){} // RVA: 0x7FFAF8796280
     }
 
-    public class LeaseSink : Object
+    public class LeaseSink
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void SyncProcessMessage(){} // RVA: 0x7FFE86827220
-        public void AsyncProcessMessage(){} // RVA: 0x7FFE86827290
-        public void RenewLease(){} // RVA: 0x7FFE86827310
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void SyncProcessMessage(){} // RVA: 0x7FFAF8796320
+        public void AsyncProcessMessage(){} // RVA: 0x7FFAF8796390
+        public void RenewLease(){} // RVA: 0x7FFAF8796410
     }
 
-    public class LifetimeServices : Object
+    public class LifetimeServices
     {
-        public System.TimeSpan _leaseManagerPollTime;
-        public System.TimeSpan _leaseTime; // 0x8
-        public System.TimeSpan _renewOnCallTime; // 0x10
-        public System.TimeSpan _sponsorshipTimeout; // 0x18
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE868274D0
-        public void get_LeaseManagerPollTime(){} // RVA: 0x7FFE868277C0
-        public void set_LeaseManagerPollTime(){} // RVA: 0x7FFE86827820
-        public void get_LeaseTime(){} // RVA: 0x7FFE868278A0
-        public void set_LeaseTime(){} // RVA: 0x7FFE86827900
-        public void get_RenewOnCallTime(){} // RVA: 0x7FFE86827960
-        public void set_RenewOnCallTime(){} // RVA: 0x7FFE868279C0
-        public void get_SponsorshipTimeout(){} // RVA: 0x7FFE86827A20
-        public void set_SponsorshipTimeout(){} // RVA: 0x7FFE86827A80
-        public void TrackLifetime(){} // RVA: 0x7FFE86827AE0
+        public void .cctor(){} // RVA: 0x7FFAF87965D0
+        public void get_LeaseManagerPollTime(){} // RVA: 0x7FFAF87968C0
+        public void set_LeaseManagerPollTime(){} // RVA: 0x7FFAF8796920
+        public void get_LeaseTime(){} // RVA: 0x7FFAF87969A0
+        public void set_LeaseTime(){} // RVA: 0x7FFAF8796A00
+        public void get_RenewOnCallTime(){} // RVA: 0x7FFAF8796A60
+        public void set_RenewOnCallTime(){} // RVA: 0x7FFAF8796AC0
+        public void get_SponsorshipTimeout(){} // RVA: 0x7FFAF8796B20
+        public void set_SponsorshipTimeout(){} // RVA: 0x7FFAF8796B80
+        public void TrackLifetime(){} // RVA: 0x7FFAF8796BE0
     }
 
 }

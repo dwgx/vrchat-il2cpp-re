@@ -1,0 +1,112 @@
+[
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_56A",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_56A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180931900(__int64 a1, unsigned int a2)\n{\n  __int64 v2; // rdi\n  __int64 (__fastcall *v4)(__int64, _QWORD); // rax\n  __int64 v6; // rax\n  signed __int32 v7[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v2 = a1 + 16;\n  if ( !byte_18CE46BD7 )\n  {\n    sub_180AD1AA0(&qword_18C88AF08);\n    _InterlockedOr(v7, 0);\n    byte_18CE46BD7 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C88AF08 + 224) )\n    YloSGiLVOEi_0(qword_18C88AF08);\n  v4 = (__int64 (__fastcall *)(__int64, _QWORD))qword_18CE46D38;\n  if ( !qword_18CE46D38 )\n  {\n    v4 = (__int64 (__fastcall *)(__int64, _QWORD))CqZPdCzurki_0(\n                                                    \"UnityEngine.Animations.AnimatorControllerPlayable::ResetTriggerID(Un\"\n                                                    \"ityEngine.Playables.PlayableHandle&,System.Int32)\");\n    if ( !v4 )\n    {\n      v6 = sub_180A61A90(\n             \"UnityEngine.Animations.AnimatorControllerPlayable::ResetTriggerID(UnityEngine.Playables.PlayableHandle&,System.Int32)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE46D38 = (__int64)v4;\n  }\n  return v4(v2, a2);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_6DF",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_6DF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180931360(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rdi\n  __int64 (__fastcall *v4)(__int64, __int64); // rax\n  __int64 v6; // rax\n  signed __int32 v7[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v2 = a1 + 16;\n  if ( !byte_18CE46BC8 )\n  {\n    sub_180AD1AA0(&qword_18C88AF08);\n    _InterlockedOr(v7, 0);\n    byte_18CE46BC8 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C88AF08 + 224) )\n    YloSGiLVOEi_0(qword_18C88AF08);\n  v4 = (__int64 (__fastcall *)(__int64, __int64))qword_18CE46CD0;\n  if ( !qword_18CE46CD0 )\n  {\n    v4 = (__int64 (__fastcall *)(__int64, __int64))CqZPdCzurki_0(\n                                                     \"UnityEngine.Animations.AnimatorControllerPlayable::GetFloatString(U\"\n                                                     \"nityEngine.Playables.PlayableHandle&,System.String)\");\n    if ( !v4 )\n    {\n      v6 = sub_180A61A90(\n             \"UnityEngine.Animations.AnimatorControllerPlayable::GetFloatString(UnityEngine.Playables.PlayableHandle&,System.String)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE46CD0 = (__int64)v4;\n  }\n  return v4(v2, a2);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_943",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_943",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180931E10(__int64 a1, unsigned int a2)\n{\n  __int64 v2; // rdi\n  __int64 (__fastcall *v4)(__int64, _QWORD); // rax\n  __int64 v6; // rax\n  signed __int32 v7[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v2 = a1 + 16;\n  if ( !byte_18CE46BE2 )\n  {\n    sub_180AD1AA0(&qword_18C88AF08);\n    _InterlockedOr(v7, 0);\n    byte_18CE46BE2 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C88AF08 + 224) )\n    YloSGiLVOEi_0(qword_18C88AF08);\n  v4 = (__int64 (__fastcall *)(__int64, _QWORD))qword_18CE46C50;\n  if ( !qword_18CE46C50 )\n  {\n    v4 = (__int64 (__fastcall *)(__int64, _QWORD))CqZPdCzurki_0(\n                                                    \"UnityEngine.Animations.AnimatorControllerPlayable::GetCurrentAnimato\"\n                                                    \"rClipInfoInternal(UnityEngine.Playables.PlayableHandle&,System.Int32)\");\n    if ( !v4 )\n    {\n      v6 = sub_180A61A90(\n             \"UnityEngine.Animations.AnimatorControllerPlayable::GetCurrentAnimatorClipInfoInternal(UnityEngine.Playables\"\n             \".PlayableHandle&,System.Int32)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE46C50 = (__int64)v4;\n  }\n  return v4(v2, a2);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_981",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_981",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180930AC0(__int64 a1)\n{\n  return sub_1878EF220(a1 + 16);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_A05",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_A05",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180930A50(__int64 a1, __int128 *a2)\n{\n  __int128 v3; // [rsp+20h] [rbp-18h] BYREF\n\n  v3 = *a2;\n  return sub_1878EEF90(a1 + 16, &v3);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_ABA",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_ABA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809314D0(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rdi\n  __int64 (__fastcall *v4)(__int64, __int64); // rax\n  __int64 v6; // rax\n  signed __int32 v7[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v2 = a1 + 16;\n  if ( !byte_18CE46BCC )\n  {\n    sub_180AD1AA0(&qword_18C88AF08);\n    _InterlockedOr(v7, 0);\n    byte_18CE46BCC = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C88AF08 + 224) )\n    YloSGiLVOEi_0(qword_18C88AF08);\n  v4 = (__int64 (__fastcall *)(__int64, __int64))qword_18CE46CF0;\n  if ( !qword_18CE46CF0 )\n  {\n    v4 = (__int64 (__fastcall *)(__int64, __int64))CqZPdCzurki_0(\n                                                     \"UnityEngine.Animations.AnimatorControllerPlayable::GetBoolString(Un\"\n                                                     \"ityEngine.Playables.PlayableHandle&,System.String)\");\n    if ( !v4 )\n    {\n      v6 = sub_180A61A90(\n             \"UnityEngine.Animations.AnimatorControllerPlayable::GetBoolString(UnityEngine.Playables.PlayableHandle&,System.String)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE46CF0 = (__int64)v4;\n  }\n  return v4(v2, a2);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_AC9",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_AC9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809323F0(__int64 a1, __int64 a2, __int64 a3, unsigned int a4, int a5)\n{\n  __int64 v5; // rsi\n  __int64 (__fastcall *v8)(__int64); // rax\n  unsigned int v9; // ebx\n  __int64 v10; // r8\n  __int64 (__fastcall *v11)(__int64, _QWORD, __int64, _QWORD); // rax\n  __int64 v13; // rax\n  __int64 v14; // rax\n  signed __int32 v15[12]; // [rsp+0h] [rbp-48h] BYREF\n\n  v5 = a1 + 16;\n  if ( !byte_18CE46BF7 )\n  {\n    sub_180AD1AA0(&qword_18C88AF08);\n    _InterlockedOr(v15, 0);\n    byte_18CE46BF7 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C88AF08 + 224) )\n    YloSGiLVOEi_0(qword_18C88AF08);\n  v8 = (__int64 (__fastcall *)(__int64))qword_18CE46C90;\n  if ( !qword_18CE46C90 )\n  {\n    v8 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0(\n                                            \"UnityEngine.Animations.AnimatorControllerPlayable::StringToHash(System.String)\");\n    if ( !v8 )\n    {\n      v13 = sub_180A61A90(\"UnityEngine.Animations.AnimatorControllerPlayable::StringToHash(System.String)\");\n      sub_180A5F890(v13, 0);\n    }\n    qword_18CE46C90 = (__int64)v8;\n  }\n  v9 = v8(a2);\n  v11 = (__int64 (__fastcall *)(__int64, _QWORD, __int64, _QWORD))qword_18CE46C98;\n  if ( !qword_18CE46C98 )\n  {\n    v11 = (__int64 (__fastcall *)(__int64, _QWORD, __int64, _QWORD))CqZPdCzurki_0(\n                                                                      \"UnityEngine.Animations.AnimatorControllerPlayable:\"\n                                                                      \":CrossFadeInFixedTimeInternal(UnityEngine.Playable\"\n                                                                      \"s.PlayableHandle&,System.Int32,System.Single,Syste\"\n                                                                      \"m.Int32,System.Single)\");\n    if ( !v11 )\n    {\n      v14 = sub_180A61A90(\n              \"UnityEngine.Animations.AnimatorControllerPlayable::CrossFadeInFixedTimeInternal(UnityEngine.Playables.Play\"\n              \"ableHandle&,System.Int32,System.Single,System.Int32,System.Single)\");\n      sub_180A5F890(v14, 0);\n    }\n    qword_18CE46C98 = (__int64)v11;\n  }\n  return v11(v5, v9, v10, a4);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_B5E",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_B5E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180931160(__int64 a1, __int64 a2, __int64 *a3, __int128 *a4, __int64 *a5, char a6, char a7)\n{\n  __int64 v7; // rdi\n  __int64 (__fastcall *v8)(__int64, __int64, __int64 *, __int128 *, __int64 *, char, char); // r10\n  int v10; // eax\n  __int64 v11; // rax\n  __int64 v13; // rax\n  __int64 v14; // [rsp+40h] [rbp-38h] BYREF\n  int v15; // [rsp+48h] [rbp-30h]\n  __int64 v16; // [rsp+50h] [rbp-28h] BYREF\n  int v17; // [rsp+58h] [rbp-20h]\n  __int128 v18; // [rsp+60h] [rbp-18h] BYREF\n\n  v7 = a1 + 16;\n  v8 = (__int64 (__fastcall *)(__int64, __int64, __int64 *, __int128 *, __int64 *, char, char))qword_18CE46BB8;\n  v16 = *a3;\n  v10 = *((_DWORD *)a5 + 2);\n  v14 = *a5;\n  v15 = v10;\n  v17 = *((_DWORD *)a3 + 2);\n  v18 = *a4;\n  if ( !qword_18CE46BB8 )\n  {\n    v11 = CqZPdCzurki_0(\n            \"UnityEngine.Animations.TransformStreamHandle::SetLocalTRSInternal_Injected(UnityEngine.Animations.TransformS\"\n            \"treamHandle&,UnityEngine.Animations.AnimationStream&,UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngin\"\n            \"e.Vector3&,System.Boolean,System.Boolean)\");\n    v8 = (__int64 (__fastcall *)(__int64, __int64, __int64 *, __int128 *, __int64 *, char, char))v11;\n    if ( !v11 )\n    {\n      v13 = sub_180A61A90(\n              \"UnityEngine.Animations.TransformStreamHandle::SetLocalTRSInternal_Injected(UnityEngine.Animations.Transfor\"\n              \"mStreamHandle&,UnityEngine.Animations.AnimationStream&,UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityE\"\n              \"ngine.Vector3&,System.Boolean,System.Boolean)\");\n      sub_180A5F890(v13, 0);\n    }\n    qword_18CE46BB8 = v11;\n  }\n  return v8(v7, a2, &v16, &v18, &v14, a6, a7);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_BF1",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_BF1",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180932D30(__int64 a1, __int64 a2, unsigned int a3)\n{\n  __int64 v3; // rsi\n  __int64 (__fastcall *v6)(__int64); // rax\n  unsigned int v7; // eax\n  __int64 v9; // rax\n  signed __int32 v10[8]; // [rsp+0h] [rbp-38h] BYREF\n  __int64 v11; // [rsp+20h] [rbp-18h]\n\n  v3 = a1 + 16;\n  if ( !byte_18CE46C03 )\n  {\n    sub_180AD1AA0(&qword_18C88AF08);\n    _InterlockedOr(v10, 0);\n    byte_18CE46C03 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C88AF08 + 224) )\n    YloSGiLVOEi_0(qword_18C88AF08);\n  v6 = (__int64 (__fastcall *)(__int64))qword_18CE46C90;\n  if ( !qword_18CE46C90 )\n  {\n    v6 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0(\n                                            \"UnityEngine.Animations.AnimatorControllerPlayable::StringToHash(System.String)\");\n    if ( !v6 )\n    {\n      v9 = sub_180A61A90(\"UnityEngine.Animations.AnimatorControllerPlayable::StringToHash(System.String)\");\n      sub_180A5F890(v9, 0);\n    }\n    qword_18CE46C90 = (__int64)v6;\n  }\n  v7 = v6(a2);\n  v11 = 0;\n  return sub_1878F45F0(v3, v7, a3);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_18EA",
+  "class_obf": "ÍÍÍÏÍÍÍÌÏÏÍÌÎÏÏÍÎÌÏÏÎÌÎ",
+  "parent": "",
+  "method": "m_C62",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_C62",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180931F80(__int64 a1, unsigned int a2, __int64 a3)\n{\n  __int64 v3; // rsi\n  __int64 v7; // rax\n  __int64 v8; // rbx\n  __int64 v9; // rax\n  __int64 v10; // rax\n  signed __int32 v11[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  v3 = a1 + 16;\n  if ( !byte_18CE46BE4 )\n  {\n    sub_180AD1AA0(&qword_18C88AF08);\n    _InterlockedOr(v11, 0);\n    byte_18CE46BE4 = 1;\n  }\n  if ( !a3 )\n  {\n    v7 = sub_180A8B8B0(&qword_18C8CFD48);\n    v8 = sub_180AAE4D0(v7);\n    v9 = sub_180A8B8B0(&qword_18C8ADF98);\n    sub_1865C3310(v8, v9, 0);\n    v10 = sub_180A8B8B0(&qword_18C8AC838);\n    sub_180AAE4E0(v8, v10);\n  }\n  if ( !*(_DWORD *)(qword_18C88AF08 + 224) )\n    YloSGiLVOEi_0(qword_18C88AF08);\n  return sub_1878F2590(v3, a2, 0, a3, 0);\n}\n"
+ }
+]

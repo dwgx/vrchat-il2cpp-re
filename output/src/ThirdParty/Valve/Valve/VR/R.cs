@@ -5,38 +5,38 @@
 
 namespace ThirdParty.Valve.Valve.VR
 {
-    public class RenderModel_ComponentState_t : ValueType
+    public class RenderModel_ComponentState_t
     {
     }
 
-    public class RenderModel_ControllerMode_State_t : ValueType
+    public class RenderModel_ControllerMode_State_t
     {
     }
 
-    public class RenderModel_TextureMap_t : ValueType
+    public class RenderModel_TextureMap_t
     {
     }
 
-    public class RenderModel_TextureMap_t_Packed : ValueType
+    public class RenderModel_TextureMap_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87BA88E0
-        public void Unpack(){} // RVA: 0x7FFE87BA8910
+        public void .ctor(){} // RVA: 0x7FFAF9B17A10
+        public void Unpack(){} // RVA: 0x7FFAF9B17A40
     }
 
-    public class RenderModel_Vertex_t : ValueType
+    public class RenderModel_Vertex_t
     {
     }
 
-    public class RenderModel_t : ValueType
+    public class RenderModel_t
     {
     }
 
-    public class RenderModel_t_Packed : ValueType
+    public class RenderModel_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D2F5A0
-        public void Unpack(){} // RVA: 0x7FFE86D2F5D0
+        public void .ctor(){} // RVA: 0x7FFAF8C9E700
+        public void Unpack(){} // RVA: 0x7FFAF8C9E730
     }
 
 }

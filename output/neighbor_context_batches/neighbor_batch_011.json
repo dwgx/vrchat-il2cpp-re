@@ -1,0 +1,162 @@
+[
+  {
+    "class": "UiInputField",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnPointerEnter",
+      "OnPointerExit",
+      "OnPointerDown",
+      "OnPointerUp",
+      "OnPointerClick",
+      "OnSelect",
+      "PressEdit",
+      "OnDeselect",
+      "OnSubmit",
+      "OnCancel",
+      "OnMove",
+      "OnScroll",
+      "OnValueChanged",
+      "OnEndEdit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_98A"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 21,
+    "signal_score": 144
+  },
+  {
+    "class": "FocusBehaviour_CB3A",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnApplicationFocus",
+      "OnCollisionEnter",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_77B",
+      "m_829",
+      "m_A54",
+      "m_3BE",
+      "m_809",
+      "m_B40",
+      "m_3EC",
+      "m_C4D",
+      "m_5B4",
+      "m_009",
+      "m_828",
+      "m_819"
+    ],
+    "remaining_hash_methods": 16,
+    "total_methods": 37,
+    "signal_score": 144
+  },
+  {
+    "class": "UIRectTransformDimensionsChBeforeTransform_B70F",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "IsActive",
+      "OnRectTransformDimensionsChange",
+      "OnBeforeTransformParentChanged",
+      "OnTransformParentChanged",
+      "OnDidApplyAnimationProperties",
+      "OnCanvasGroupChanged",
+      "OnCanvasHierarchyChanged"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_080",
+      "m_193",
+      "m_104",
+      "m_DC6",
+      "m_305",
+      "m_93B",
+      "m_78C",
+      "m_499",
+      "m_829",
+      "m_5A2",
+      "m_BFE",
+      "m_6E2"
+    ],
+    "remaining_hash_methods": 35,
+    "total_methods": 54,
+    "signal_score": 144
+  },
+  {
+    "class": "UIRectTransformDimensionsChBeforeTransform_B70F",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "IsActive",
+      "OnRectTransformDimensionsChange",
+      "OnBeforeTransformParentChanged",
+      "OnTransformParentChanged",
+      "OnDidApplyAnimationProperties",
+      "OnCanvasGroupChanged",
+      "OnCanvasHierarchyChanged"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_080",
+      "m_193",
+      "m_104",
+      "m_DC6",
+      "m_305",
+      "m_93B",
+      "m_78C",
+      "m_499",
+      "m_829",
+      "m_5A2",
+      "m_BFE",
+      "m_6E2"
+    ],
+    "remaining_hash_methods": 35,
+    "total_methods": 54,
+    "signal_score": 144
+  },
+  {
+    "class": "UIRectTransformDimensionsChBeforeTransform_B70F",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "IsActive",
+      "OnRectTransformDimensionsChange",
+      "OnBeforeTransformParentChanged",
+      "OnTransformParentChanged",
+      "OnDidApplyAnimationProperties",
+      "OnCanvasGroupChanged",
+      "OnCanvasHierarchyChanged"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_080",
+      "m_193",
+      "m_104",
+      "m_DC6",
+      "m_305",
+      "m_93B",
+      "m_78C",
+      "m_499",
+      "m_829",
+      "m_5A2",
+      "m_BFE",
+      "m_6E2"
+    ],
+    "remaining_hash_methods": 35,
+    "total_methods": 54,
+    "signal_score": 144
+  }
+]

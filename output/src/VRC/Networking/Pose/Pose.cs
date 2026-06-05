@@ -5,71 +5,67 @@
 
 namespace VRC.Networking.Pose
 {
-    public class PoseAV2Update : PoseRemoteUpdate
+    public class PoseAV2Update
     {
         // ── Methods ──
-        public void LateUpdate(){} // RVA: 0x7FFE81475720
-        public void Start(){} // RVA: 0x7FFE81475720
-        public void .ctor(){} // RVA: 0x7FFE81475820
-        public void Initialize(){} // RVA: 0x7FFE81475720
-        // ── Unresolved (hash) ──
-        public void m_C61(){} // RVA: 0x7FFE81475720
-        public void m_334(){} // RVA: 0x7FFE81475720
-        public void m_897(){} // RVA: 0x7FFE81475720
-        public void m_763(){} // RVA: 0x7FFE81475910
-        public void m_051(){} // RVA: 0x7FFE81475720
-        public void m_A33(){} // RVA: 0x7FFE81475720
+        public void SampleProfilerBegin(){} // RVA: 0x7FFAF3120BF0
+        public void CaptureProfilerSample(){} // RVA: 0x7FFAF3120D60
+        public void LateUpdate(){} // RVA: 0x7FFAF3120D60
+        public void .ctor_005BF09B7C47(){} // RVA: 0x7FFAF3120E60
+        public void Initialize(){} // RVA: 0x7FFAF3120D60
+        public void BeginProfilerSection(){} // RVA: 0x7FFAF3120D60
+        public void .ctor(){} // RVA: 0x7FFAF3120F60
+        public void EndProfilerSection(){} // RVA: 0x7FFAF3120D60
+        public void Update(){} // RVA: 0x7FFAF3120D60
     }
 
-    public class PoseAV3Update : PoseRemoteUpdate
+    public class PoseAV3Update
     {
         // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x7FFE81475A80
-        public void .ctor(){} // RVA: 0x7FFE81475CD0
-        public void LateUpdate(){} // RVA: 0x7FFE81475DC0
-        public void Update(){} // RVA: 0x7FFE81475A80
-        // ── Unresolved (hash) ──
-        public void m_763(){} // RVA: 0x7FFE81475B60
-        public void m_CA2(){} // RVA: 0x7FFE81475A80
-        public void m_D96(){} // RVA: 0x7FFE81475A80
-        public void m_C61(){} // RVA: 0x7FFE81475DC0
-        public void m_C29(){} // RVA: 0x7FFE81475A80
-        public void m_814(){} // RVA: 0x7FFE81475A80
-        public void m_11F(){} // RVA: 0x7FFE81475A80
+        public void LateUpdate(){} // RVA: 0x7FFAF3121050
+        public void .ctor(){} // RVA: 0x7FFAF3121130
+        public void Initialize(){} // RVA: 0x7FFAF3121220
+        public void Update(){} // RVA: 0x7FFAF3121300
+        public void LateUpdate_64A20C4077DF(){} // RVA: 0x7FFAF3121300
+        public void Start(){} // RVA: 0x7FFAF31213E0
+        public void InitializePoseProfile(){} // RVA: 0x7FFAF3121220
+        public void IsInvoking(){} // RVA: 0x7FFAF3121300
+        public void UpdateAv3Pose(){} // RVA: 0x7FFAF3121050
     }
 
-    public class PoseLocalUpdate : MonoBehaviour
+    public class PoseLocalUpdate
     {
         // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x7FFE81475EA0
-        public void RaiseCancellation(){} // RVA: 0x7FFE81475FD0
-        public void IsInvoking(){} // RVA: 0x7FFE81476100
-        public void CancelInvoke(){} // RVA: 0x7FFE81476230
-        public void Invoke(){} // RVA: 0x7FFE81476360
-        public void InvokeRepeating(){} // RVA: 0x7FFE81476490
-        public void .ctor(){} // RVA: 0x7FFE814765C0
-        public void LateUpdate(){} // RVA: 0x7FFE814766B0
+        public void LateUpdate(){} // RVA: 0x7FFAF3121550
+        public void RaiseCancellation(){} // RVA: 0x7FFAF3121680
+        public void IsInvoking(){} // RVA: 0x7FFAF31217B0
+        public void CancelInvoke(){} // RVA: 0x7FFAF31218E0
+        public void .ctor(){} // RVA: 0x7FFAF3121A10
+        public void Initialize(){} // RVA: 0x7FFAF3121B00
+        public void .ctor_CF88C55010BB(){} // RVA: 0x7FFAF3121C30
+        public void LateUpdate_8AD5DE24ABA8(){} // RVA: 0x7FFAF3121D60
+        public void StartCoroutine(){} // RVA: 0x7FFAF3121E90
+        public void OnDestroy(){} // RVA: 0x7FFAF3121FC0
     }
 
-    public class PoseRemoteUpdate : MonoBehaviour
+    public class PoseRemoteUpdate
     {
-        public ÎÏÍÌÌÍÍÎÏÌÌÏÏÍÍÎÎÏÏÍÍÏÌ _poseRemoteUpdate; // 0x20
-
         // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x7FFE81475000
-        public void RaiseCancellation(){} // RVA: 0x7FFE81475000
-        public void Start(){} // RVA: 0x7FFE81475050
-        public void CancelInvoke(){} // RVA: 0x7FFE81475060
-        public void Invoke(){} // RVA: 0x7FFE81475210
-        public void InvokeRepeating(){} // RVA: 0x7FFE81475240
-        public void OnCollisionStay(){} // RVA: 0x7FFE814753B0
-        public void IsInvoking(){} // RVA: 0x7FFE81475210
-        public void StartCoroutine(){} // RVA: 0x7FFE81475000
-        public void OnTriggerStay(){} // RVA: 0x7FFE81475520
-        public void OnTriggerExit(){} // RVA: 0x7FFE81475550
-        public void StartCoroutine_Auto(){} // RVA: 0x7FFE81475550
-        public void StopCoroutine(){} // RVA: 0x7FFE81475570
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void Start(){} // RVA: 0x7FFAF3120160
+        public void .ctor_3EB4C9C037AE(){} // RVA: 0x7FFAF3120170
+        public void Initialize(){} // RVA: 0x7FFAF31201B0
+        public void OnDestroy_81C762235108(){} // RVA: 0x7FFAF3120320
+        public void Invoke(){} // RVA: 0x7FFAF31204D0
+        public void InvokeRepeating(){} // RVA: 0x7FFAF3120640
+        public void CancelInvoke(){} // RVA: 0x7FFAF3120670
+        public void IsInvoking(){} // RVA: 0x7FFAF31207E0
+        public void Start_ADD7760B4EFE(){} // RVA: 0x7FFAF3120990
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void OnTriggerEnter(){} // RVA: 0x7FFAF31209B0
+        public void StartCoroutine_Auto(){} // RVA: 0x7FFAF3120A00
+        public void StopCoroutine(){} // RVA: 0x7FFAF3120A50
+        public void OnTriggerExit(){} // RVA: 0x7FFAF3120A80
+        public void OnDestroy(){} // RVA: 0x7FFAF3120A00
     }
 
 }

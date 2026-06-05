@@ -1,0 +1,164 @@
+[
+  {
+    "class": "VRC_MainSiblingSiblingSiblingSibling_C693",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      ".ctor",
+      "Initialize",
+      "Start"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8BA",
+      "m_F9A",
+      "m_89D",
+      "m_7F0",
+      "m_A3B",
+      "m_23E",
+      "m_E91",
+      "m_51C",
+      "m_359",
+      "m_657",
+      "m_898",
+      "m_EDD"
+    ],
+    "remaining_hash_methods": 95,
+    "total_methods": 102,
+    "signal_score": 223
+  },
+  {
+    "class": "RoomPlayerTransformComponent_C49E",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_907",
+      "m_27F",
+      "m_C3C",
+      "m_11F",
+      "m_99A",
+      "m_36C",
+      "m_799",
+      "m_709",
+      "m_0A2",
+      "m_1D3",
+      "m_15C",
+      "m_527"
+    ],
+    "remaining_hash_methods": 64,
+    "total_methods": 82,
+    "signal_score": 221
+  },
+  {
+    "class": "NetworkMotionTransformComponent_214C",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7CB",
+      "m_BB8",
+      "m_330",
+      "m_07B",
+      "m_C9E",
+      "m_E3E",
+      "m_018",
+      "m_CCB",
+      "m_DD8",
+      "m_A85",
+      "m_DBC",
+      "m_C2D"
+    ],
+    "remaining_hash_methods": 58,
+    "total_methods": 83,
+    "signal_score": 219
+  },
+  {
+    "class": "NetworkSyncable_2EE1",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "NeedsImportant",
+      "RemoteSetPlaylist",
+      "set_TypeId",
+      "Decode",
+      "get_TypeId",
+      "CanSerialize32Bit",
+      "Encode",
+      "RemoteClear",
+      "SerializedName",
+      "CanSerialize8Bit",
+      "RemoteSetVideos",
+      "NeedsSync"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FE6",
+      "m_540",
+      "m_109",
+      "m_8EB",
+      "m_40A",
+      "m_9BB",
+      "m_648",
+      "m_F03",
+      "m_93B",
+      "m_91E",
+      "m_8C6",
+      "m_DD3"
+    ],
+    "remaining_hash_methods": 48,
+    "total_methods": 67,
+    "signal_score": 218
+  },
+  {
+    "class": "VRC_SecondarySibling_4627",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnDrawGizmos",
+      "OnDisable",
+      "Update"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_EA5",
+      "m_2CD",
+      "m_680",
+      "m_4E7",
+      "m_CDD",
+      "m_1C0",
+      "m_FE7",
+      "m_75B",
+      "m_4CD",
+      "m_B3F",
+      "m_D97",
+      "m_BB9"
+    ],
+    "remaining_hash_methods": 92,
+    "total_methods": 103,
+    "signal_score": 217
+  }
+]

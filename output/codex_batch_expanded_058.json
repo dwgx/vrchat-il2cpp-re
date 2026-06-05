@@ -1,0 +1,192 @@
+[
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_8C6F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_410",
+      "m_C01",
+      "m_6EA",
+      "m_6F8",
+      "m_F2B",
+      "m_552",
+      "m_EEE",
+      "m_937"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_8E96",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F2B",
+      "m_DD6",
+      "m_6F8",
+      "m_24F",
+      "m_2F0",
+      "m_552",
+      "m_EEE",
+      "m_C01"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_90D4",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_95D",
+      "m_51F",
+      "m_536",
+      "m_77C",
+      "m_45A",
+      "m_AEE",
+      "m_C01",
+      "m_24F"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_91D1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_DD6",
+      "m_6C6",
+      "m_F2B",
+      "m_C31",
+      "m_6EA",
+      "m_410",
+      "m_C01"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_923A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_24F",
+      "m_95D",
+      "m_C31",
+      "m_51F",
+      "m_937",
+      "m_552",
+      "m_CF3"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_9439",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C01",
+      "m_6C6",
+      "m_2F0",
+      "m_95D",
+      "m_DD6",
+      "m_24F",
+      "m_410",
+      "m_CF3"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_991C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_24F",
+      "m_6C6",
+      "m_DD6",
+      "m_51F",
+      "m_95D",
+      "m_C01",
+      "m_C31",
+      "m_CF3"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_9D07",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_6C6",
+      "m_C01",
+      "m_C31",
+      "m_51F",
+      "m_6EA",
+      "m_F2B",
+      "m_6F8"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_9FE8",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_95D",
+      "m_C01",
+      "m_6C6",
+      "m_6EA",
+      "m_CF3",
+      "m_2F0",
+      "m_937",
+      "m_410"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_A27C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6F8",
+      "m_C31",
+      "m_016",
+      "m_410",
+      "m_C01",
+      "m_6C6",
+      "m_24F",
+      "m_CF3"
+    ]
+  }
+]

@@ -5,21 +5,21 @@
 
 namespace ThirdParty.Unity.UnityEngine.Android
 {
-    public class AndroidApp : Object
+    public class AndroidApp
     {
         // ── Methods ──
-        public void get_UnityPlayerRaw(){} // RVA: 0x7FFE87BCE370
+        public void get_UnityPlayerRaw(){} // RVA: 0x7FFAF9B3D4B0
     }
 
-    public class Permission : ValueType
+    public class Permission
     {
         // ── Methods ──
-        public void HasUserAuthorizedPermission(){} // RVA: 0x7FFE87BCE3C0
-        public void RequestUserPermission(){} // RVA: 0x7FFE87BCE3D0
-        public void RequestUserPermissions(){} // RVA: 0x7FFE81D95990
+        public void HasUserAuthorizedPermission(){} // RVA: 0x7FFAF9B3D500
+        public void RequestUserPermission(){} // RVA: 0x7FFAF9B3D510
+        public void RequestUserPermissions(){} // RVA: 0x7FFAF3AD0CE0
     }
 
-    public class PermissionCallbacks : AndroidJavaProxy
+    public class PermissionCallbacks
     {
     }
 

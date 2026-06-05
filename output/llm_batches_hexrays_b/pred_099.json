@@ -1,0 +1,9 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_13FA::m_24F": "StartThread",
+ "VRCNetworkBehaviourSibling_BF5Sibling_13FA::m_95D": "SetThreadName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_13FA::m_C01": "DisposeThreadResources",
+ "VRCNetworkBehaviourSibling_BF5Sibling_13FA::m_F2B": "RunThreadEntryPoint",
+ "VRCNetworkBehaviourSibling_BF5Sibling_14B0::m_016": "InitializeDelegate",
+ "VRCNetworkBehaviourSibling_BF5Sibling_14B0::m_51F": "InvokeDelegate",
+ "VRCNetworkBehaviourSibling_BF5Sibling_14B0::m_95D": "InitializeDelegate"
+}

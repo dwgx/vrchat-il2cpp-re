@@ -5,7 +5,7 @@
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class UnsafeNclNativeMethods : Object
+    public class UnsafeNclNativeMethods
     {
     }
 

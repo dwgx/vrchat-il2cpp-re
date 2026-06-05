@@ -5,31 +5,31 @@
 
 namespace ThirdParty.DotNet.System.ComponentModel
 {
-    public class UInt16Converter : BaseNumberConverter
+    public class UInt16Converter
     {
         // ── Methods ──
-        public void get_TargetType(){} // RVA: 0x7FFE877BEC20
-        public void FromString(){} // RVA: 0x7FFE877BED60 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE877BEE30
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_TargetType(){} // RVA: 0x7FFAF972DD70
+        public void FromString(){} // RVA: 0x7FFAF972DEB0 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF972DF80
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UInt32Converter : BaseNumberConverter
+    public class UInt32Converter
     {
         // ── Methods ──
-        public void get_TargetType(){} // RVA: 0x7FFE877BEF70
-        public void FromString(){} // RVA: 0x7FFE877BF0B0 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE877BF120
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_TargetType(){} // RVA: 0x7FFAF972E0C0
+        public void FromString(){} // RVA: 0x7FFAF972E200 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF972E270
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UInt64Converter : BaseNumberConverter
+    public class UInt64Converter
     {
         // ── Methods ──
-        public void get_TargetType(){} // RVA: 0x7FFE877BF260
-        public void FromString(){} // RVA: 0x7FFE877BF3A0 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE877BF410
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_TargetType(){} // RVA: 0x7FFAF972E3B0
+        public void FromString(){} // RVA: 0x7FFAF972E4F0 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF972E560
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

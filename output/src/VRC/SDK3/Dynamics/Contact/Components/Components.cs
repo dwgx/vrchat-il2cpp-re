@@ -5,25 +5,25 @@
 
 namespace VRC.SDK3.Dynamics.Contact.Components
 {
-    public class VRCContactReceiver : ContactReceiver
+    public class VRCContactReceiver
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE882294E0 | overloaded x2
-        public void op_Equality(){} // RVA: 0x7FFE882294A0 | overloaded x2
-        public void op_Inequality(){} // RVA: 0x7FFE882294C0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE87C6E400
-        public void CalculateProximity(){} // RVA: 0x7FFE882296B0
-        public void .ctor(){} // RVA: 0x7FFE882297D0
+        public void Equals(){} // RVA: 0x7FFAFA19C3C0 | overloaded x2
+        public void op_Equality(){} // RVA: 0x7FFAFA19C380 | overloaded x2
+        public void op_Inequality(){} // RVA: 0x7FFAFA19C3A0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF9BDD740
+        public void CalculateProximity(){} // RVA: 0x7FFAFA19C590
+        public void .ctor(){} // RVA: 0x7FFAFA19C6B0
     }
 
-    public class VRCContactSender : ContactSender
+    public class VRCContactSender
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE88229A00 | overloaded x2
-        public void op_Equality(){} // RVA: 0x7FFE882299C0 | overloaded x2
-        public void op_Inequality(){} // RVA: 0x7FFE882299E0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE87C6E400
-        public void .ctor(){} // RVA: 0x7FFE881D77D0
+        public void Equals(){} // RVA: 0x7FFAFA19C8E0 | overloaded x2
+        public void op_Equality(){} // RVA: 0x7FFAFA19C8A0 | overloaded x2
+        public void op_Inequality(){} // RVA: 0x7FFAFA19C8C0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF9BDD740
+        public void .ctor(){} // RVA: 0x7FFAFA14A630
     }
 
 }

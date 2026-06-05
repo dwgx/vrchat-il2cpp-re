@@ -1,0 +1,66 @@
+[
+  {
+    "namespace": "VRC.UI.Elements.Menus",
+    "class": "GalleryPhotosView",
+    "parent": "",
+    "known_methods": [
+      "get_MaxContentCount",
+      "set_MaxContentCount",
+      "set_ObservableList",
+      "Start",
+      "OnDisable",
+      "OnEnable",
+      "OnDestroy",
+      "AccessactiveSelf",
+      "PreparePhotoViewRendering",
+      "ProcessGalleryPhotoData",
+      "get_ObservableList"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C47",
+      "m_7C3"
+    ],
+    "all_method_count": 16
+  },
+  {
+    "namespace": "VRC.Profiling",
+    "class": "ProfilerMarker",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1DC",
+      "m_D5E",
+      "m_784",
+      "m_FA5",
+      "m_6C1",
+      "m_B79"
+    ],
+    "all_method_count": 8
+  },
+  {
+    "namespace": "VRC.SDK3.Internal",
+    "class": "VRCEventPortalManagerInternal",
+    "parent": "",
+    "known_methods": [
+      "UnregisterEventPortal",
+      "StopListening",
+      "Initialize",
+      "UnregisterAllEventPortals",
+      "RegisterEventPortal",
+      "m",
+      "ProcessEventPortal",
+      "InitializeOnLoad",
+      "StartListening"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_690"
+    ],
+    "all_method_count": 20
+  }
+]

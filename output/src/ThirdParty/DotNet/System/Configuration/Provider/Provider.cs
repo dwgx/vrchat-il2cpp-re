@@ -5,16 +5,16 @@
 
 namespace ThirdParty.DotNet.System.Configuration.Provider
 {
-    public class ProviderBase : Object
+    public class ProviderBase
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFE870DCD60
+        public void Initialize(){} // RVA: 0x7FFAF904DCD0
     }
 
-    public class ProviderCollection : Object
+    public class ProviderCollection
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFE870DD090
+        public void Add(){} // RVA: 0x7FFAF904E000
     }
 
 }

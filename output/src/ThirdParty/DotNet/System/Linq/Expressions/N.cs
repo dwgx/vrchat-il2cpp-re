@@ -5,63 +5,51 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class NewArrayBoundsExpression : NewArrayExpression
+    public class NewArrayBoundsExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8713FFB0
-        public void get_NodeType(){} // RVA: 0x7FFE8713FFC0
+        public void .ctor(){} // RVA: 0x7FFAF90B10F0
+        public void get_NodeType(){} // RVA: 0x7FFAF90B1100
     }
 
-    public class NewArrayExpression : Expression
+    public class NewArrayExpression
     {
-        public System.Type _type; // 0x10
-        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> _expressions; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8713FF80 | overloaded x2
-        public void Make(){} // RVA: 0x7FFE8713FD00
-        public void get_Type(){} // RVA: 0x7FFE81116380
-        public void get_Expressions(){} // RVA: 0x7FFE810FE7C0
-        public void Accept(){} // RVA: 0x7FFE8713FD90
-        public void Update(){} // RVA: 0x7FFE8713FDC0
+        public void .ctor(){} // RVA: 0x7FFAF90B10C0 | overloaded x2
+        public void Make(){} // RVA: 0x7FFAF90B0E40
+        public void get_Type(){} // RVA: 0x7FFAF2DA8380
+        public void get_Expressions(){} // RVA: 0x7FFAF2D907C0
+        public void Accept(){} // RVA: 0x7FFAF90B0ED0
+        public void Update(){} // RVA: 0x7FFAF90B0F00
     }
 
-    public class NewArrayInitExpression : NewArrayExpression
+    public class NewArrayInitExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8713FFB0
-        public void get_NodeType(){} // RVA: 0x7FFE835C28C0
+        public void .ctor(){} // RVA: 0x7FFAF90B10F0
+        public void get_NodeType(){} // RVA: 0x7FFAF4BBE300
     }
 
-    public class NewExpression : Expression
+    public class NewExpression
     {
-        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x10
-        public System.Reflection.ConstructorInfo _constructor; // 0x18
-        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.MemberInfo> _members; // 0x20
-        public object field_3; // 0x1EF
-        public object field_4; // 0x1F0
-        public object field_5; // 0x1F1
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87140380 | overloaded x2
-        public void get_Type(){} // RVA: 0x7FFE86738540
-        public void get_NodeType(){} // RVA: 0x7FFE87140130
-        public void get_Constructor(){} // RVA: 0x7FFE810FE7C0
-        public void get_Arguments(){} // RVA: 0x7FFE87140140
-        public void GetArgument(){} // RVA: 0x7FFE87140180
-        public void get_ArgumentCount(){} // RVA: 0x7FFE871401E0
-        public void get_Members(){} // RVA: 0x7FFE811290C0
-        public void Accept(){} // RVA: 0x7FFE87140230
-        public void Update(){} // RVA: 0x7FFE87140260
+        public void .ctor(){} // RVA: 0x7FFAF90B14C0 | overloaded x2
+        public void get_Type(){} // RVA: 0x7FFAF86A76F0
+        public void get_NodeType(){} // RVA: 0x7FFAF90B1270
+        public void get_Constructor(){} // RVA: 0x7FFAF2D907C0
+        public void get_Arguments(){} // RVA: 0x7FFAF90B1280
+        public void GetArgument(){} // RVA: 0x7FFAF90B12C0
+        public void get_ArgumentCount(){} // RVA: 0x7FFAF90B1320
+        public void get_Members(){} // RVA: 0x7FFAF2DBB0C0
+        public void Accept(){} // RVA: 0x7FFAF90B1370
+        public void Update(){} // RVA: 0x7FFAF90B13A0
     }
 
-    public class NewValueTypeExpression : NewExpression
+    public class NewValueTypeExpression
     {
-        public System.Type _type; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE871403B0
-        public void get_Type(){} // RVA: 0x7FFE81129130
+        public void .ctor(){} // RVA: 0x7FFAF90B14F0
+        public void get_Type(){} // RVA: 0x7FFAF2DBB130
     }
 
 }

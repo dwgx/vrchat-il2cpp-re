@@ -1,73 +1,80 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Services
-// Classes: 17
-// Methods: 70
+// Classes: 19
+// Methods: 73
 
 namespace VRC.Core.Services
 {
-    public class APIEventSourceMethods : Object
+    public class APIEventSourceMethods
     {
         // ── Methods ──
-        public void GetEndpoint(){} // RVA: 0x7FFE8A3AB980
+        public void GetEndpoint(){} // RVA: 0x7FFAFC3FFD70
     }
 
-    public class AvatarsService : Object
+    public class AvatarsService : GetAvatars
     {
         // ── Methods ──
-        public void GetAvatars(){} // RVA: 0x7FFE8A39D190
-        public void GetFavoriteAvatars(){} // RVA: 0x7FFE8A39ED90
-        public void GetLicensedAvatars(){} // RVA: 0x7FFE8A3A0460
-        public void GetStyle(){} // RVA: 0x7FFE8A3A09D0
-        public void GetStyles(){} // RVA: 0x7FFE8A3A0D20
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetAvatars(){} // RVA: 0x7FFAFC3F0FD0
+        public void GetFavoriteAvatars(){} // RVA: 0x7FFAFC3F2BD0
+        public void GetLicensedAvatars(){} // RVA: 0x7FFAFC3F42A0
+        public void GetStyle(){} // RVA: 0x7FFAFC3F4810
+        public void GetStyles(){} // RVA: 0x7FFAFC3F4B60
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class EconomyService : Object
+    public class EconomyService
     {
         // ── Methods ──
-        public void GetEconomyStatus(){} // RVA: 0x7FFE8A3A1F00
-        public void IsUsersEconomyAccountBlocked(){} // RVA: 0x7FFE8A3A2300
-        public void GetWalletBalance(){} // RVA: 0x7FFE8A3A2720
-        public void GetLedgerTransactions(){} // RVA: 0x7FFE8A3A2B70
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetEconomyStatus(){} // RVA: 0x7FFAFC3F5D40
+        public void IsUsersEconomyAccountBlocked(){} // RVA: 0x7FFAFC3F6140
+        public void GetWalletBalance(){} // RVA: 0x7FFAFC3F6560
+        public void GetLedgerTransactions(){} // RVA: 0x7FFAFC3F69B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class EventsService : Object
+    public class EventsService
     {
         // ── Methods ──
-        public void GetEntry(){} // RVA: 0x7FFE8A3A3CF0
-        public void GetAllOwnersEvents(){} // RVA: 0x7FFE8A3A40B0
-        public void GetOwnersNextEvent(){} // RVA: 0x7FFE8A3A4900
-        public void GetEventsForMonth(){} // RVA: 0x7FFE8A3A4CA0
-        public void FollowEvent(){} // RVA: 0x7FFE8A3A55A0
-        public void SearchEvents(){} // RVA: 0x7FFE8A3A5AE0
-        public void DiscoverEvents(){} // RVA: 0x7FFE8A3A74F0 | overloaded x2
-        public void GetEventsForOwnerWithinDates(){} // RVA: 0x7FFE8A3A7B40
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetEntry(){} // RVA: 0x7FFAFC3F7B30
+        public void GetAllOwnersEvents(){} // RVA: 0x7FFAFC3F7EF0
+        public void GetOwnersNextEvent(){} // RVA: 0x7FFAFC3F8740
+        public void GetEventsForMonth(){} // RVA: 0x7FFAFC3F8AE0
+        public void FollowEvent(){} // RVA: 0x7FFAFC3F93E0
+        public void SearchEvents(){} // RVA: 0x7FFAFC3F9920
+        public void DiscoverEvents(){} // RVA: 0x7FFAFC3FB330 | overloaded x2
+        public void GetEventsForOwnerWithinDates(){} // RVA: 0x7FFAFC3FB980
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class GroupsService : Object
+    public class GroupsService
     {
         // ── Methods ──
-        public void ExecuteSearch(){} // RVA: 0x7FFE8A3A9E40 | overloaded x2
-        public void DiscoverGroups(){} // RVA: 0x7FFE8A3AAAB0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void ExecuteSearch(){} // RVA: 0x7FFAFC3FDC80 | overloaded x2
+        public void DiscoverGroups(){} // RVA: 0x7FFAFC3FE8F0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class HypeTrainService
+    {
+        // ── Methods ──
+        public void GetHypeTrainInfoForInstance(){} // RVA: 0x7FFAFC3FF7C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
     public class IAvatarsService
     {
         // ── Methods ──
-        public void GetAvatars(){} // RVA: 0x7FFE810A1420
-        public void GetFavoriteAvatars(){} // RVA: 0x7FFE810A1420
+        public void GetAvatars(){} // RVA: 0x7FFAF2D33FA0
+        public void GetFavoriteAvatars(){} // RVA: 0x7FFAF2D33FA0
         public void GetLicensedAvatars(){}
         public void GetStyle(){}
-        public void GetStyles(){} // RVA: 0x7FFE80E2DCF0
+        public void GetStyles(){} // RVA: 0x7FFAF2ABC770
     }
 
     public class IEconomyService
     {
         // ── Methods ──
-        public void GetEconomyStatus(){} // RVA: 0x7FFE80E2DCF0
+        public void GetEconomyStatus(){} // RVA: 0x7FFAF2ABC770
         public void IsUsersEconomyAccountBlocked(){}
         public void GetWalletBalance(){}
         public void GetLedgerTransactions(){}
@@ -76,9 +83,9 @@ namespace VRC.Core.Services
     public class IEventsService
     {
         // ── Methods ──
-        public void GetEntry(){} // RVA: 0x7FFE80E50FC0
+        public void GetEntry(){} // RVA: 0x7FFAF2ADF9F0
         public void GetAllOwnersEvents(){}
-        public void GetOwnersNextEvent(){} // RVA: 0x7FFE80E50660
+        public void GetOwnersNextEvent(){} // RVA: 0x7FFAF2ADF090
         public void GetEventsForMonth(){}
         public void FollowEvent(){}
         public void SearchEvents(){}
@@ -93,21 +100,27 @@ namespace VRC.Core.Services
         public void DiscoverGroups(){}
     }
 
+    public class IHypeTrainService
+    {
+        // ── Methods ──
+        public void GetHypeTrainInfoForInstance(){}
+    }
+
     public class IInstancesService
     {
         // ── Methods ──
         public void CloseInstance(){}
-        public void EditInstanceDisplayName(){} // RVA: 0x7FFE80E50FC0
-        public void BestPublicLocationByPopulation(){} // RVA: 0x7FFE80E50FC0
-        public void GetLocationFromShortName(){} // RVA: 0x7FFE80E50660
+        public void EditInstanceDisplayName(){} // RVA: 0x7FFAF2ADF9F0
+        public void BestPublicLocationByPopulation(){} // RVA: 0x7FFAF2ADF9F0
+        public void GetLocationFromShortName(){} // RVA: 0x7FFAF2ADF090
         public void SetLinkedEvent(){}
     }
 
     public class IInventoryService
     {
         // ── Methods ──
-        public void GetGlobalInventoryItems(){} // RVA: 0x7FFE80E2DCF0
-        public void UpdateGlobalInventoryItemsLastSeen(){} // RVA: 0x7FFE80E4F230
+        public void GetGlobalInventoryItems(){} // RVA: 0x7FFAF2ABC770
+        public void UpdateGlobalInventoryItemsLastSeen(){} // RVA: 0x7FFAF2ADDC60
     }
 
     public class IStoresService
@@ -116,46 +129,44 @@ namespace VRC.Core.Services
         public void GetStoreShelves(){}
     }
 
-    public class InstanceCallError : Exception
+    public class InstanceCallError
     {
-        public int _code; // 0x90
-
         // ── Methods ──
-        public void get_Code(){} // RVA: 0x7FFE814AA220
-        public void .ctor(){} // RVA: 0x7FFE8A3ABA80
+        public void get_Code(){} // RVA: 0x7FFAF315FD40
+        public void .ctor(){} // RVA: 0x7FFAFC3FFE70
     }
 
-    public class InstancesService : Object
+    public class InstancesService : CloseInstance
     {
         // ── Methods ──
-        public void CloseInstance(){} // RVA: 0x7FFE8A3ABB00
-        public void EditInstanceDisplayName(){} // RVA: 0x7FFE8A3AC040
-        public void SetLinkedEvent(){} // RVA: 0x7FFE8A3AC480
-        public void GetLocationFromShortName(){} // RVA: 0x7FFE8A3AC9A0
-        public void BestPublicLocationByPopulation(){} // RVA: 0x7FFE8A3ACCF0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void CloseInstance(){} // RVA: 0x7FFAFC3FFEF0
+        public void EditInstanceDisplayName(){} // RVA: 0x7FFAFC400430
+        public void SetLinkedEvent(){} // RVA: 0x7FFAFC400870
+        public void GetLocationFromShortName(){} // RVA: 0x7FFAFC400D90
+        public void BestPublicLocationByPopulation(){} // RVA: 0x7FFAFC4010E0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class InventoryService : Object
+    public class InventoryService
     {
         // ── Methods ──
-        public void GetGlobalInventoryItems(){} // RVA: 0x7FFE8A3AD800
-        public void UpdateGlobalInventoryItemsLastSeen(){} // RVA: 0x7FFE8A3ADC30
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetGlobalInventoryItems(){} // RVA: 0x7FFAFC401BF0
+        public void UpdateGlobalInventoryItemsLastSeen(){} // RVA: 0x7FFAFC402020
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class PagedEventsResult : Object
+    public class PagedEventsResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class StoresService : Object
+    public class StoresService
     {
         // ── Methods ──
-        public void GetStoreShelves(){} // RVA: 0x7FFE8A3AE290
-        public void GetEnumMemberValue(){} // RVA: 0x7FFE8A3AEA30
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetStoreShelves(){} // RVA: 0x7FFAFC402680
+        public void GetEnumMemberValue(){} // RVA: 0x7FFAFC402E20
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

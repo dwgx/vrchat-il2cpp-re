@@ -5,106 +5,106 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class LanguagePackInfo : Object
+    public class LanguagePackInfo
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C29B60
+        public void .ctor(){} // RVA: 0x7FFAF8B98D90
     }
 
-    public class LaunchBlockFlowResult : Object
+    public class LaunchBlockFlowResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C29EA0
+        public void .ctor(){} // RVA: 0x7FFAF8B990D0
     }
 
-    public class LaunchDetails : Object
+    public class LaunchDetails
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C29FE0
+        public void .ctor(){} // RVA: 0x7FFAF8B99210
     }
 
-    public class LaunchFriendRequestFlowResult : Object
+    public class LaunchFriendRequestFlowResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2A650
+        public void .ctor(){} // RVA: 0x7FFAF8B99880
     }
 
-    public class LaunchInvitePanelFlowResult : Object
+    public class LaunchInvitePanelFlowResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2A790
+        public void .ctor(){} // RVA: 0x7FFAF8B999C0
     }
 
-    public class LaunchReportFlowResult : Object
+    public class LaunchReportFlowResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2A8E0
+        public void .ctor(){} // RVA: 0x7FFAF8B99B10
     }
 
-    public class LaunchUnblockFlowResult : Object
+    public class LaunchUnblockFlowResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2AA20
+        public void .ctor(){} // RVA: 0x7FFAF8B99C50
     }
 
-    public class Leaderboard : Object
+    public class Leaderboard
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2AB60
+        public void .ctor(){} // RVA: 0x7FFAF8B99D90
     }
 
-    public class LeaderboardEntry : Object
+    public class LeaderboardEntry
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2B2C0
+        public void .ctor(){} // RVA: 0x7FFAF8B9A4F0
     }
 
-    public class LeaderboardEntryList : DeserializableList`1
+    public class LeaderboardEntryList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2BA40
+        public void .ctor(){} // RVA: 0x7FFAF8B9AC70
     }
 
-    public class LeaderboardList : DeserializableList`1
+    public class LeaderboardList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2AED0
+        public void .ctor(){} // RVA: 0x7FFAF8B9A100
     }
 
-    public class LinkedAccount : Object
+    public class LinkedAccount
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2BF80
+        public void .ctor(){} // RVA: 0x7FFAF8B9B1B0
     }
 
-    public class LinkedAccountList : DeserializableList`1
+    public class LinkedAccountList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2C220
+        public void .ctor(){} // RVA: 0x7FFAF8B9B450
     }
 
-    public class LivestreamingApplicationStatus : Object
+    public class LivestreamingApplicationStatus
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2C500
+        public void .ctor(){} // RVA: 0x7FFAF8B9B730
     }
 
-    public class LivestreamingStartResult : Object
+    public class LivestreamingStartResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2C5D0
+        public void .ctor(){} // RVA: 0x7FFAF8B9B800
     }
 
-    public class LivestreamingStatus : Object
+    public class LivestreamingStatus
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2C690
+        public void .ctor(){} // RVA: 0x7FFAF8B9B8C0
     }
 
-    public class LivestreamingVideoStats : Object
+    public class LivestreamingVideoStats
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2C8E0
+        public void .ctor(){} // RVA: 0x7FFAF8B9BB10
     }
 
 }

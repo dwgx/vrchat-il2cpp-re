@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Valve.Valve.VR
 {
-    public class AppOverrideKeys_t : ValueType
+    public class AppOverrideKeys_t
     {
     }
 

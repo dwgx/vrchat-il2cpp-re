@@ -5,36 +5,33 @@
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class ReadContentAsBinaryHelper : Object
+    public class ReadContentAsBinaryHelper
     {
         // ── Methods ──
-        public void Finish(){} // RVA: 0x7FFE87553B00
-        public void Reset(){} // RVA: 0x7FFE87553D50
-        public void MoveToNextContentNode(){} // RVA: 0x7FFE87553D60
+        public void Finish(){} // RVA: 0x7FFAF94C4800
+        public void Reset(){} // RVA: 0x7FFAF94C4A50
+        public void MoveToNextContentNode(){} // RVA: 0x7FFAF94C4A60
     }
 
-    public class ReaderPositionInfo : PositionInfo
+    public class ReaderPositionInfo
     {
-        public System.Xml.IXmlLineInfo lineInfo; // 0x10
-        public object field_1; // 0x2BB
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void HasLineInfo(){} // RVA: 0x7FFE875ADAC0
-        public void get_LineNumber(){} // RVA: 0x7FFE875ADB10
-        public void get_LinePosition(){} // RVA: 0x7FFE875ADB60
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void HasLineInfo(){} // RVA: 0x7FFAF951E7D0
+        public void get_LineNumber(){} // RVA: 0x7FFAF951E820
+        public void get_LinePosition(){} // RVA: 0x7FFAF951E870
     }
 
-    public class Ref : Object
+    public class Ref
     {
         // ── Methods ──
-        public void Equal(){} // RVA: 0x7FFE835C1CA0
+        public void Equal(){} // RVA: 0x7FFAF5328D00
     }
 
-    public class Res : Object
+    public class Res
     {
         // ── Methods ──
-        public void GetString(){} // RVA: 0x7FFE875D0A70 | overloaded x2
+        public void GetString(){} // RVA: 0x7FFAF9541780 | overloaded x2
     }
 
 }

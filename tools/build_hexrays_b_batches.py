@@ -2,7 +2,7 @@
 """
 Path B batch builder — hexrays pseudocode + full class context.
 
-Reads hexrays_named.json (724 entries with pseudocode) and builds maximally
+Reads Hex-Rays pseudocode exports and builds maximally
 rich batches for Gemini/codex: class theme, parent, named siblings, fields,
 strings, AND the decompiled pseudocode itself.
 """
@@ -22,10 +22,68 @@ def sh3(s: str) -> str:
 
 
 def main():
-    hx = json.load(open(BASE / 'output/v_new_ida/hexrays_named.json', 'r', encoding='utf-8'))
+    hx_path = BASE / 'output/v_new_ida/hexrays_named.json'
+    high_value_path = BASE / 'output/v_new_ida/hexrays_high_value.json'
+    direct_high_value = False
+    if hx_path.exists():
+        hx = json.load(open(hx_path, 'r', encoding='utf-8'))
+    elif high_value_path.exists():
+        hx = json.load(open(high_value_path, 'r', encoding='utf-8'))
+        direct_high_value = True
+    else:
+        raise FileNotFoundError('Missing hexrays_named.json or hexrays_high_value.json')
+
+    cv = json.load(open(BASE / 'output/cross_version_method_names.json', 'r', encoding='utf-8'))
+
+    if direct_high_value:
+        all_entries = []
+        kept = set()
+        for _ea, info in hx.items():
+            if not isinstance(info, dict) or not info.get('pseudocode'):
+                continue
+            cls = info.get('class') or info.get('class_obf') or ''
+            method = info.get('method') or ''
+            if not cls or not HP.match(method):
+                continue
+            cv_key = f'{cls}::{method}'
+            if cv_key in cv or cv_key in kept:
+                continue
+            kept.add(cv_key)
+            all_entries.append({
+                'class': cls,
+                'class_obf': info.get('class_obf', ''),
+                'parent': info.get('parent', ''),
+                'method': method,
+                'cv_key': cv_key,
+                'named_methods': info.get('named_methods', [])[:25] if isinstance(info.get('named_methods'), list) else [],
+                'fields': info.get('fields', [])[:20] if isinstance(info.get('fields'), list) else [],
+                'strings': info.get('strings', [])[:15] if isinstance(info.get('strings'), list) else [],
+                'pseudocode': info['pseudocode'],
+            })
+
+        print(f'Loaded direct high-value Hex-Rays export: {high_value_path}')
+        print(f'Total entries: {len(all_entries)}')
+
+        out_dir = BASE / 'output/llm_batches_hexrays_b'
+        out_dir.mkdir(exist_ok=True)
+        for f in out_dir.glob('batch_*.json'):
+            f.unlink()
+        for f in out_dir.glob('pred_*.json'):
+            f.unlink()
+        for f in out_dir.glob('pred_*.json.raw.txt'):
+            f.unlink()
+
+        batches = []
+        for i in range(0, len(all_entries), BATCH_SIZE):
+            bf = out_dir / f'batch_{i // BATCH_SIZE:03d}.json'
+            with open(bf, 'w', encoding='utf-8') as f:
+                json.dump(all_entries[i:i + BATCH_SIZE], f, indent=1, ensure_ascii=False)
+            batches.append(bf)
+        print(f'Wrote {len(batches)} batches to {out_dir}')
+        return
+
     pd = json.load(open(BASE / 'data/precise_dump.json', 'r', encoding='utf-8'))
     nm = json.load(open(BASE / 'output/name_mapping.json', 'r', encoding='utf-8'))
-    cv = json.load(open(BASE / 'output/cross_version_method_names.json', 'r', encoding='utf-8'))
 
     # Try to load IDA string refs for extra context
     ida_strs = {}

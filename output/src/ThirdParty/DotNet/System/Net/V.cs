@@ -5,13 +5,13 @@
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class ValidationHelper : Object
+    public class ValidationHelper
     {
         // ── Methods ──
-        public void MakeStringNull(){} // RVA: 0x7FFE8765EE80
-        public void IsBlankString(){} // RVA: 0x7FFE8765EE90
-        public void ValidateTcpPort(){} // RVA: 0x7FFE8765EEA0
-        public void .cctor(){} // RVA: 0x7FFE8765EEC0
+        public void MakeStringNull(){} // RVA: 0x7FFAF95CFBC0
+        public void IsBlankString(){} // RVA: 0x7FFAF95CFBD0
+        public void ValidateTcpPort(){} // RVA: 0x7FFAF95CFBE0
+        public void .cctor(){} // RVA: 0x7FFAF95CFC00
     }
 
 }

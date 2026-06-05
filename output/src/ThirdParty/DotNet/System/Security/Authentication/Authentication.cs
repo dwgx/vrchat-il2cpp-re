@@ -5,16 +5,16 @@
 
 namespace ThirdParty.DotNet.System.Security.Authentication
 {
-    public class AuthenticationException : SystemException
+    public class AuthenticationException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFAF44EE1C0 | overloaded x4
     }
 
-    public class InvalidCredentialException : AuthenticationException
+    public class InvalidCredentialException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF44EE1C0 | overloaded x2
     }
 
 }

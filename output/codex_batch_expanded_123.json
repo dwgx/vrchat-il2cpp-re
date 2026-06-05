@@ -1,0 +1,133 @@
+[
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_89C2",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_41F",
+      "m_726"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSibling_2B44",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "SetChangeValue"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_41F",
+      "m_3B0"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSibling_B253",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "SetChangeValue"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_0E2",
+      "m_1FE"
+    ]
+  },
+  {
+    "class": "BackgroundOptions",
+    "parent": "",
+    "namespace": "VRC",
+    "readable_methods": [
+      "set_Options"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_404",
+      "m_104",
+      "m_35C"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_6399",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6C1",
+      "m_7FE"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSibling_6FB9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Start_C9ED83B2DF2E"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_847",
+      "m_D49"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSibling_BF0D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3CB",
+      "m_1EA"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSiblSibling_1C01",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D16",
+      "m_1E0"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSiblSibling_36EA",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_EE2",
+      "m_B1F"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSiblSibling_6489",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E95",
+      "m_B6F"
+    ]
+  }
+]

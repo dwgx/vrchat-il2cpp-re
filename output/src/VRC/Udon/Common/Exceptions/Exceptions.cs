@@ -5,22 +5,22 @@
 
 namespace VRC.Udon.Common.Exceptions
 {
-    public class AliasedSymbolException : Exception
+    public class AliasedSymbolException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8823A190 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFA1AD4E0 | overloaded x3
     }
 
-    public class HeapTypeMismatchException : Exception
+    public class HeapTypeMismatchException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8823A2B0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFA1AD600 | overloaded x3
     }
 
-    public class InvalidSymbolException : Exception
+    public class InvalidSymbolException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8823A3D0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFA1AD720 | overloaded x3
     }
 
 }

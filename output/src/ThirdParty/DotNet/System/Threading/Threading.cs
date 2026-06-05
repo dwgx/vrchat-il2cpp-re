@@ -1,219 +1,235 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Threading
-// Classes: 77
-// Methods: 634
+// Classes: 86
+// Methods: 675
 
 namespace ThirdParty.DotNet.System.Threading
 {
-    public class AbandonedMutexException : SystemException
+    public class AbandonedMutexException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A62DE0 | overloaded x3
-        public void SetupException(){} // RVA: 0x7FFE86A62E70
+        public void .ctor(){} // RVA: 0x7FFAF89D1FC0 | overloaded x3
+        public void SetupException(){} // RVA: 0x7FFAF89D2050
     }
 
-    public class AsyncFlowControl : ValueType
+    public class AsyncFlowControl : Setup
     {
         // ── Methods ──
-        public void Setup(){} // RVA: 0x7FFE86A70200
-        public void Dispose(){} // RVA: 0x7FFE86A70300
-        public void Undo(){} // RVA: 0x7FFE86A70310
-        public void GetHashCode(){} // RVA: 0x7FFE86A70510
-        public void Equals(){} // RVA: 0x7FFE86A70670 | overloaded x2
+        public void Setup(){} // RVA: 0x7FFAF89DF3E0
+        public void Dispose(){} // RVA: 0x7FFAF89DF4E0
+        public void Undo(){} // RVA: 0x7FFAF89DF4F0
+        public void GetHashCode(){} // RVA: 0x7FFAF89DF6F0
+        public void Equals(){} // RVA: 0x7FFAF89DF850 | overloaded x2
     }
 
-    public class AsyncLocalValueChangedArgs`1 : ValueType
+    public class AsyncLocalValueChangedArgs`1
     {
-        public T _previousValue;
+        public object Token;
 
         // ── Methods ──
-        public void get_CurrentValue(){} // RVA: 0x7FFE810A1420
-        public void .ctor(){} // RVA: 0x7FFE810A1420
+        public void get_CurrentValue(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class AsyncLocal`1 : Object
+    public class AsyncLocalValueChangedArgs`1
     {
-        public System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<T>> m_valueChangedHandler;
+    }
 
+    public class AsyncLocalValueChangedArgs`1
+    {
+    }
+
+    public class AsyncLocal`1 : Value
+    {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0 | overloaded x2
-        public void get_Value(){} // RVA: 0x7FFE810A1420
-        public void set_Value(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10 | overloaded x2
+        public void get_Value(){} // RVA: 0x7FFAF2D33FA0
+        public void set_Value(){} // RVA: 0x7FFAF2D33FA0
         public void System.Threading.IAsyncLocal.OnValueChanged(){}
     }
 
-    public class AutoResetEvent : EventWaitHandle
+    public class AsyncLocal`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A62F30
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
+        public void get_Value(){} // RVA: 0x7FFAF776A5D0
+        public void set_Value(){} // RVA: 0x7FFAF776A680
+        public void System.Threading.IAsyncLocal.OnValueChanged(){} // RVA: 0x7FFAF776A700
     }
 
-    public class CancellationCallbackCoreWorkArguments : ValueType
+    public class AutoResetEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE815AE520
+        public void .ctor(){} // RVA: 0x7FFAF89D2110
     }
 
-    public class CancellationCallbackInfo : Object
+    public class CancellationCallbackCoreWorkArguments
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81143A50
-        public void ExecuteCallback(){} // RVA: 0x7FFE86A68F30
-        public void ExecutionContextCallback(){} // RVA: 0x7FFE86A690F0
+        public void .ctor(){} // RVA: 0x7FFAF32D0840
     }
 
-    public class CancellationToken : ValueType
-    {
-        public System.Threading.CancellationTokenSource _source; // 0x10
-        public System.Action`1<object> s_actionToActionObjShunt;
-        public object field_2; // 0x82
-
-        // ── Methods ──
-        public void get_None(){} // RVA: 0x7FFE813240E0
-        public void get_IsCancellationRequested(){} // RVA: 0x7FFE86A63340
-        public void get_CanBeCanceled(){} // RVA: 0x7FFE81E76100
-        public void .ctor(){} // RVA: 0x7FFE86A63360 | overloaded x2
-        public void Register(){} // RVA: 0x7FFE86A63890 | overloaded x5
-        public void InternalRegisterWithoutEC(){} // RVA: 0x7FFE86A637E0
-        public void Equals(){} // RVA: 0x7FFE86A639F0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE86A63A90
-        public void op_Equality(){} // RVA: 0x7FFE86A63B10
-        public void op_Inequality(){} // RVA: 0x7FFE86A63B70
-        public void ThrowIfCancellationRequested(){} // RVA: 0x7FFE86A63BD0
-        public void ThrowOperationCanceledException(){} // RVA: 0x7FFE86A63C50
-        public void .cctor(){} // RVA: 0x7FFE86A63CB0
-    }
-
-    public class CancellationTokenRegistration : ValueType
-    {
-        public System.Threading.CancellationCallbackInfo m_callbackInfo; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE84459A90
-        public void get_Token(){} // RVA: 0x7FFE86A66090
-        public void Unregister(){} // RVA: 0x7FFE86A660C0
-        public void Dispose(){} // RVA: 0x7FFE86A66150
-        public void Equals(){} // RVA: 0x7FFE86A66390 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE86A66420
-        public void DisposeAsync(){} // RVA: 0x7FFE86A664A0
-    }
-
-    public class CancellationTokenSource : Object
-    {
-        public System.Threading.CancellationTokenSource s_canceledSource;
-        public System.Threading.CancellationTokenSource s_neverCanceledSource; // 0x8
-        public int s_nLists; // 0x10
-        public System.Threading.ManualResetEvent _kernelEvent; // 0x10
-        public System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] _registeredCallbacksLists; // 0x18
-        public int CannotBeCanceled;
-
-        // ── Methods ──
-        public void get_IsCancellationRequested(){} // RVA: 0x7FFE86A665D0
-        public void get_IsCancellationCompleted(){} // RVA: 0x7FFE86A665E0
-        public void get_IsDisposed(){} // RVA: 0x7FFE815F1380
-        public void get_ThreadIDExecutingCallbacks(){} // RVA: 0x7FFE86A665F0
-        public void set_ThreadIDExecutingCallbacks(){} // RVA: 0x7FFE86A66600
-        public void get_Token(){} // RVA: 0x7FFE86A66610
-        public void get_ExecutingCallback(){} // RVA: 0x7FFE8691EA90
-        public void .ctor(){} // RVA: 0x7FFE86A667D0 | overloaded x3
-        public void InitializeWithTimer(){} // RVA: 0x7FFE86A66850
-        public void Cancel(){} // RVA: 0x7FFE86A669D0 | overloaded x2
-        public void CancelAfter(){} // RVA: 0x7FFE86A66B20 | overloaded x2
-        public void TimerCallbackLogic(){} // RVA: 0x7FFE86A66D50
-        public void Dispose(){} // RVA: 0x7FFE86A66EC0 | overloaded x2
-        public void ThrowIfDisposed(){} // RVA: 0x7FFE86A67010
-        public void ThrowObjectDisposedException(){} // RVA: 0x7FFE86A67060
-        public void InternalRegister(){} // RVA: 0x7FFE86A670C0
-        public void NotifyCancellation(){} // RVA: 0x7FFE86A67690
-        public void ExecuteCallbackHandlers(){} // RVA: 0x7FFE86A67750
-        public void CancellationCallbackCoreWork_OnSyncContext(){} // RVA: 0x7FFE86A67C00
-        public void CancellationCallbackCoreWork(){} // RVA: 0x7FFE86A67C80
-        public void CreateLinkedTokenSource(){} // RVA: 0x7FFE86A680B0 | overloaded x3
-        public void WaitForCallbackToComplete(){} // RVA: 0x7FFE86A68250
-        public void .cctor(){} // RVA: 0x7FFE86A68320
-    }
-
-    public class ContextCallback : MulticastDelegate
+    public class CancellationCallbackInfo
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8117B190
-        public void Invoke(){} // RVA: 0x7FFE81156C60
+        public void .ctor(){} // RVA: 0x7FFAF2DD5A50
+        public void ExecuteCallback(){} // RVA: 0x7FFAF89D8110
+        public void ExecutionContextCallback(){} // RVA: 0x7FFAF89D82D0
     }
 
-    public class ContextCallback`1 : MulticastDelegate
+    public class CancellationToken
+    {
+        public object IsCompleted;
+        public object IsCompletedSuccessfully;
+        public object Result;
+
+        // ── Methods ──
+        public void get_None(){} // RVA: 0x7FFAF2FC9240
+        public void get_IsCancellationRequested(){} // RVA: 0x7FFAF89D2520
+        public void get_CanBeCanceled(){} // RVA: 0x7FFAF3BB2770
+        public void .ctor(){} // RVA: 0x7FFAF89D2540 | overloaded x2
+        public void Register(){} // RVA: 0x7FFAF89D2A70 | overloaded x5
+        public void InternalRegisterWithoutEC(){} // RVA: 0x7FFAF89D29C0
+        public void Equals(){} // RVA: 0x7FFAF89D2BD0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF89D2C70
+        public void op_Equality(){} // RVA: 0x7FFAF89D2CF0
+        public void op_Inequality(){} // RVA: 0x7FFAF89D2D50
+        public void ThrowIfCancellationRequested(){} // RVA: 0x7FFAF89D2DB0
+        public void ThrowOperationCanceledException(){} // RVA: 0x7FFAF89D2E30
+        public void .cctor(){} // RVA: 0x7FFAF89D2E90
+    }
+
+    public class CancellationTokenRegistration
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF6279050
+        public void get_Token(){} // RVA: 0x7FFAF89D5270
+        public void Unregister(){} // RVA: 0x7FFAF89D52A0
+        public void Dispose(){} // RVA: 0x7FFAF89D5330
+        public void Equals(){} // RVA: 0x7FFAF89D5570 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF89D5600
+        public void DisposeAsync(){} // RVA: 0x7FFAF89D5680
+    }
+
+    public class CancellationTokenSource
+    {
+        // ── Methods ──
+        public void get_IsCancellationRequested(){} // RVA: 0x7FFAF89D57B0
+        public void get_IsCancellationCompleted(){} // RVA: 0x7FFAF89D57C0
+        public void get_IsDisposed(){} // RVA: 0x7FFAF3198A80
+        public void get_ThreadIDExecutingCallbacks(){} // RVA: 0x7FFAF89D57D0
+        public void set_ThreadIDExecutingCallbacks(){} // RVA: 0x7FFAF89D57E0
+        public void get_Token(){} // RVA: 0x7FFAF89D57F0
+        public void get_ExecutingCallback(){} // RVA: 0x7FFAF888DC00
+        public void .ctor(){} // RVA: 0x7FFAF89D59B0 | overloaded x3
+        public void InitializeWithTimer(){} // RVA: 0x7FFAF89D5A30
+        public void Cancel(){} // RVA: 0x7FFAF89D5BB0 | overloaded x2
+        public void CancelAfter(){} // RVA: 0x7FFAF89D5D00 | overloaded x2
+        public void TimerCallbackLogic(){} // RVA: 0x7FFAF89D5F30
+        public void Dispose(){} // RVA: 0x7FFAF89D60A0 | overloaded x2
+        public void ThrowIfDisposed(){} // RVA: 0x7FFAF89D61F0
+        public void ThrowObjectDisposedException(){} // RVA: 0x7FFAF89D6240
+        public void InternalRegister(){} // RVA: 0x7FFAF89D62A0
+        public void NotifyCancellation(){} // RVA: 0x7FFAF89D6870
+        public void ExecuteCallbackHandlers(){} // RVA: 0x7FFAF89D6930
+        public void CancellationCallbackCoreWork_OnSyncContext(){} // RVA: 0x7FFAF89D6DE0
+        public void CancellationCallbackCoreWork(){} // RVA: 0x7FFAF89D6E60
+        public void CreateLinkedTokenSource(){} // RVA: 0x7FFAF89D7290 | overloaded x3
+        public void WaitForCallbackToComplete(){} // RVA: 0x7FFAF89D7430
+        public void .cctor(){} // RVA: 0x7FFAF89D7500
+    }
+
+    public class ContextCallback
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2E0D190
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+    }
+
+    public class ContextCallback`1
     {
         // ── Methods ──
         public void .ctor(){}
-        public void Invoke(){} // RVA: 0x7FFE80E460A0
+        public void Invoke(){} // RVA: 0x7FFAF2AD4B10
     }
 
-    public class DeferredDisposableLifetime`1 : ValueType
+    public class DeferredDisposableLifetime`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE80E46010
-        public void AddRef(){} // RVA: 0x7FFE810A1420
-        public void Release(){} // RVA: 0x7FFE810A1420
-        public void Dispose(){} // RVA: 0x7FFE810A1420
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
+        public void AddRef(){} // RVA: 0x7FFAF2D33FA0
+        public void Release(){} // RVA: 0x7FFAF2D33FA0
+        public void Dispose(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class EventWaitHandle : WaitHandle
+    public class DeferredDisposableLifetime`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A6FC10 | overloaded x2
-        public void Reset(){} // RVA: 0x7FFE86A6FF90
-        public void Set(){} // RVA: 0x7FFE86A6FFF0
+        public void .cctor(){} // RVA: 0x7FFAF3AD0CE0
+        public void AddRef(){} // RVA: 0x7FFAF5673D50
+        public void Release(){} // RVA: 0x7FFAF5673E40
+        public void Dispose(){} // RVA: 0x7FFAF5673ED0
     }
 
-    public class ExecutionContext : Object
+    public class DeferredDisposableLifetime`1
     {
-        public System.Threading.SynchronizationContext _syncContext; // 0x10
-        public System.Threading.SynchronizationContext _syncContextNoFlow; // 0x18
-        public System.Runtime.Remoting.Messaging.LogicalCallContext _logicalCallContext; // 0x20
-        public System.Runtime.Remoting.Messaging.IllogicalCallContext _illogicalCallContext; // 0x28
-        public 0x664BF8FC _flags; // 0x30
-        public System.Collections.Generic.Dictionary`2<System.Threading.IAsyncLocal,object> _localValues; // 0x38
-        public System.Collections.Generic.List`1<System.Threading.IAsyncLocal> _localChangeNotifications; // 0x40
-
         // ── Methods ──
-        public void get_isNewCapture(){} // RVA: 0x7FFE86A706B0
-        public void set_isNewCapture(){} // RVA: 0x7FFE86A706C0
-        public void get_isFlowSuppressed(){} // RVA: 0x7FFE86A706E0
-        public void set_isFlowSuppressed(){} // RVA: 0x7FFE86A706F0
-        public void get_IsPreAllocatedDefault(){} // RVA: 0x7FFE86A70710
-        public void .ctor(){} // RVA: 0x7FFE86A72860 | overloaded x3
-        public void GetLocalValue(){} // RVA: 0x7FFE86A70730
-        public void SetLocalValue(){} // RVA: 0x7FFE86A70810
-        public void OnAsyncLocalContextChanged(){} // RVA: 0x7FFE86A70BB0
-        public void get_LogicalCallContext(){} // RVA: 0x7FFE86A71010
-        public void set_LogicalCallContext(){} // RVA: 0x7FFE811290D0
-        public void get_IllogicalCallContext(){} // RVA: 0x7FFE86A710B0
-        public void set_IllogicalCallContext(){} // RVA: 0x7FFE810FCE90
-        public void get_SynchronizationContext(){} // RVA: 0x7FFE81116380
-        public void set_SynchronizationContext(){} // RVA: 0x7FFE810FCE30
-        public void get_SynchronizationContextNoFlow(){} // RVA: 0x7FFE810FE7C0
-        public void set_SynchronizationContextNoFlow(){} // RVA: 0x7FFE81161E80
-        public void Dispose(){} // RVA: 0x7FFE81D95990
-        public void Run(){} // RVA: 0x7FFE86A71290 | overloaded x2
-        public void RunInternal(){} // RVA: 0x7FFE80E509F0 | overloaded x4
-        public void EstablishCopyOnWriteScope(){} // RVA: 0x7FFE86A71620 | overloaded x2
-        public void SetExecutionContext(){} // RVA: 0x7FFE86A71760
-        public void CreateCopy(){} // RVA: 0x7FFE86A71A80
-        public void CreateMutableCopy(){} // RVA: 0x7FFE86A71CD0
-        public void SuppressFlow(){} // RVA: 0x7FFE86A71FC0
-        public void RestoreFlow(){} // RVA: 0x7FFE86A720A0
-        public void IsFlowSuppressed(){} // RVA: 0x7FFE86A72140
-        public void Capture(){} // RVA: 0x7FFE86A72270 | overloaded x2
-        public void FastCapture(){} // RVA: 0x7FFE86A72220
-        public void GetObjectData(){} // RVA: 0x7FFE86A726B0
-        public void IsDefaultFTContext(){} // RVA: 0x7FFE86A72A30
-        public void .cctor(){} // RVA: 0x7FFE86A72AA0
+        public void .cctor(){} // RVA: 0x7FFAF3AD0CE0
+        public void AddRef(){} // RVA: 0x7FFAF5673D50
+        public void Release(){} // RVA: 0x7FFAF5673E40
+        public void Dispose(){} // RVA: 0x7FFAF5673ED0
     }
 
-    public class ExecutionContextSwitcher : ValueType
+    public class EventWaitHandle
     {
         // ── Methods ──
-        public void UndoNoThrow(){} // RVA: 0x7FFE86A70050
-        public void Undo(){} // RVA: 0x7FFE86A70070
+        public void .ctor(){} // RVA: 0x7FFAF89DEDF0 | overloaded x2
+        public void Reset(){} // RVA: 0x7FFAF89DF170
+        public void Set(){} // RVA: 0x7FFAF89DF1D0
+    }
+
+    public class ExecutionContext
+    {
+        // ── Methods ──
+        public void get_isNewCapture(){} // RVA: 0x7FFAF89DF890
+        public void set_isNewCapture(){} // RVA: 0x7FFAF89DF8A0
+        public void get_isFlowSuppressed(){} // RVA: 0x7FFAF89DF8C0
+        public void set_isFlowSuppressed(){} // RVA: 0x7FFAF89DF8D0
+        public void get_IsPreAllocatedDefault(){} // RVA: 0x7FFAF89DF8F0
+        public void .ctor(){} // RVA: 0x7FFAF89E1A40 | overloaded x3
+        public void GetLocalValue(){} // RVA: 0x7FFAF89DF910
+        public void SetLocalValue(){} // RVA: 0x7FFAF89DF9F0
+        public void OnAsyncLocalContextChanged(){} // RVA: 0x7FFAF89DFD90
+        public void get_LogicalCallContext(){} // RVA: 0x7FFAF89E01F0
+        public void set_LogicalCallContext(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_IllogicalCallContext(){} // RVA: 0x7FFAF89E0290
+        public void set_IllogicalCallContext(){} // RVA: 0x7FFAF2D8EE90
+        public void get_SynchronizationContext(){} // RVA: 0x7FFAF2DA8380
+        public void set_SynchronizationContext(){} // RVA: 0x7FFAF2D8EE30
+        public void get_SynchronizationContextNoFlow(){} // RVA: 0x7FFAF2D907C0
+        public void set_SynchronizationContextNoFlow(){} // RVA: 0x7FFAF2DF3E80
+        public void Dispose(){} // RVA: 0x7FFAF3AD0CE0
+        public void Run(){} // RVA: 0x7FFAF89E0470 | overloaded x2
+        public void RunInternal(){} // RVA: 0x7FFAF2ADF420 | overloaded x4
+        public void EstablishCopyOnWriteScope(){} // RVA: 0x7FFAF89E0800 | overloaded x2
+        public void SetExecutionContext(){} // RVA: 0x7FFAF89E0940
+        public void CreateCopy(){} // RVA: 0x7FFAF89E0C60
+        public void CreateMutableCopy(){} // RVA: 0x7FFAF89E0EB0
+        public void SuppressFlow(){} // RVA: 0x7FFAF89E11A0
+        public void RestoreFlow(){} // RVA: 0x7FFAF89E1280
+        public void IsFlowSuppressed(){} // RVA: 0x7FFAF89E1320
+        public void Capture(){} // RVA: 0x7FFAF89E1450 | overloaded x2
+        public void FastCapture(){} // RVA: 0x7FFAF89E1400
+        public void GetObjectData(){} // RVA: 0x7FFAF89E1890
+        public void IsDefaultFTContext(){} // RVA: 0x7FFAF89E1C10
+        public void .cctor(){} // RVA: 0x7FFAF89E1C80
+    }
+
+    public class ExecutionContextSwitcher
+    {
+        // ── Methods ──
+        public void UndoNoThrow(){} // RVA: 0x7FFAF89DF230
+        public void Undo(){} // RVA: 0x7FFAF89DF250
     }
 
     public class IAsyncLocal
@@ -225,776 +241,759 @@ namespace ThirdParty.DotNet.System.Threading
     public class IDeferredDisposable
     {
         // ── Methods ──
-        public void OnFinalRelease(){} // RVA: 0x7FFE80E466C0
+        public void OnFinalRelease(){} // RVA: 0x7FFAF2AD5130
     }
 
-    public class IOCompletionCallback : MulticastDelegate
+    public class IOCompletionCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE844210E0
-        public void Invoke(){} // RVA: 0x7FFE812574E0
+        public void .ctor(){} // RVA: 0x7FFAF62A3FC0
+        public void Invoke(){} // RVA: 0x7FFAF2EE94E0
     }
 
     public class IThreadPoolWorkItem
     {
         // ── Methods ──
-        public void ExecuteWorkItem(){} // RVA: 0x7FFE80E45FE0
-        public void MarkAborted(){} // RVA: 0x7FFE80E460A0
+        public void ExecuteWorkItem(){} // RVA: 0x7FFAF2AD4A50
+        public void MarkAborted(){} // RVA: 0x7FFAF2AD4B10
     }
 
-    public class Interlocked : Object
+    public class Interlocked
     {
         // ── Methods ──
-        public void CompareExchange(){} // RVA: 0x7FFE810A1420 | overloaded x9
-        public void Decrement(){} // RVA: 0x7FFE86A7DCA0
-        public void Increment(){} // RVA: 0x7FFE86A7DCC0 | overloaded x2
-        public void Exchange(){} // RVA: 0x7FFE810A1420 | overloaded x8
-        public void Read(){} // RVA: 0x7FFE86A7DE10
-        public void Add(){} // RVA: 0x7FFE86A7DE30 | overloaded x2
-        public void MemoryBarrier(){} // RVA: 0x7FFE86A76F30
+        public void CompareExchange(){} // RVA: 0x7FFAF2D33FA0 | overloaded x9
+        public void Decrement(){} // RVA: 0x7FFAF89ECE80
+        public void Increment(){} // RVA: 0x7FFAF89ECEA0 | overloaded x2
+        public void Exchange(){} // RVA: 0x7FFAF2D33FA0 | overloaded x8
+        public void Read(){} // RVA: 0x7FFAF89ECFF0
+        public void Add(){} // RVA: 0x7FFAF89ED010 | overloaded x2
+        public void MemoryBarrier(){} // RVA: 0x7FFAF89E6110
     }
 
-    public class InternalThread : CriticalFinalizerObject
+    public class InternalThread
     {
         // ── Methods ──
-        public void Thread_free_internal(){} // RVA: 0x7FFE86A80BE0
-        public void Finalize(){} // RVA: 0x7FFE86A80C80
-        public void .ctor(){} // RVA: 0x7FFE86A80D60
+        public void Thread_free_internal(){} // RVA: 0x7FFAF89EFDC0
+        public void Finalize(){} // RVA: 0x7FFAF89EFE60
+        public void .ctor(){} // RVA: 0x7FFAF89EFF40
     }
 
-    public class LazyInitializer : Object
+    public class LazyInitializer
     {
         // ── Methods ──
-        public void EnsureInitialized(){} // RVA: 0x7FFE810A1420 | overloaded x4
-        public void EnsureInitializedCore(){} // RVA: 0x7FFE810A1420 | overloaded x4
-        public void EnsureLockInitialized(){} // RVA: 0x7FFE86A62F50
+        public void EnsureInitialized(){} // RVA: 0x7FFAF2D33FA0 | overloaded x4
+        public void EnsureInitializedCore(){} // RVA: 0x7FFAF2D33FA0 | overloaded x4
+        public void EnsureLockInitialized(){} // RVA: 0x7FFAF89D2130
     }
 
-    public class Lock : Object
+    public class Lock
     {
         // ── Methods ──
-        public void Acquire(){} // RVA: 0x7FFE86A6BBE0
-        public void Release(){} // RVA: 0x7FFE86A6BC20
-        public void .ctor(){} // RVA: 0x7FFE86A6BC50
+        public void Acquire(){} // RVA: 0x7FFAF89DADC0
+        public void Release(){} // RVA: 0x7FFAF89DAE00
+        public void .ctor(){} // RVA: 0x7FFAF89DAE30
     }
 
-    public class LockHolder : ValueType
+    public class LockHolder
     {
         // ── Methods ──
-        public void Hold(){} // RVA: 0x7FFE86A69210
-        public void Dispose(){} // RVA: 0x7FFE86A692B0
+        public void Hold(){} // RVA: 0x7FFAF89D83F0
+        public void Dispose(){} // RVA: 0x7FFAF89D8490
     }
 
-    public class LockQueue : Object
-    {
-        public System.Threading.ReaderWriterLock rwlock; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Wait(){} // RVA: 0x7FFE86A7DE40
-        public void get_IsEmpty(){} // RVA: 0x7FFE86A7E090
-        public void Pulse(){} // RVA: 0x7FFE86A7E1D0
-    }
-
-    public class LockRecursionException : Exception
+    public class LockQueue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A630C0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Wait(){} // RVA: 0x7FFAF89ED020
+        public void get_IsEmpty(){} // RVA: 0x7FFAF89ED270
+        public void Pulse(){} // RVA: 0x7FFAF89ED3B0
     }
 
-    public class ManualResetEvent : EventWaitHandle
+    public class LockRecursionException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A63140
+        public void .ctor(){} // RVA: 0x7FFAF89D22A0 | overloaded x3
     }
 
-    public class ManualResetEventSlim : Object
-    {
-        public int DEFAULT_SPIN_SP;
-        public object m_lock; // 0x10
-        public System.Threading.ManualResetEvent m_eventObj; // 0x18
-        public int m_combinedState; // 0x20
-
-        // ── Methods ──
-        public void get_WaitHandle(){} // RVA: 0x7FFE86A63EE0
-        public void get_IsSet(){} // RVA: 0x7FFE86A63F20
-        public void set_IsSet(){} // RVA: 0x7FFE86A63F80
-        public void get_SpinCount(){} // RVA: 0x7FFE86A63FB0
-        public void set_SpinCount(){} // RVA: 0x7FFE86A64010
-        public void get_Waiters(){} // RVA: 0x7FFE86A64030
-        public void set_Waiters(){} // RVA: 0x7FFE86A64090
-        public void .ctor(){} // RVA: 0x7FFE86A64250 | overloaded x3
-        public void Initialize(){} // RVA: 0x7FFE86A64350
-        public void EnsureLockObjectCreated(){} // RVA: 0x7FFE86A64410
-        public void LazyInitializeEvent(){} // RVA: 0x7FFE86A644C0
-        public void Set(){} // RVA: 0x7FFE86A647D0 | overloaded x2
-        public void Wait(){} // RVA: 0x7FFE86A64C40 | overloaded x3
-        public void Dispose(){} // RVA: 0x7FFE86A655A0 | overloaded x2
-        public void ThrowIfDisposed(){} // RVA: 0x7FFE86A65730
-        public void CancellationTokenCallback(){} // RVA: 0x7FFE86A657A0
-        public void UpdateStateAtomically(){} // RVA: 0x7FFE86A65960
-        public void ExtractStatePortionAndShiftRight(){} // RVA: 0x7FFE86A65A40
-        public void ExtractStatePortion(){} // RVA: 0x7FFE86A65A50
-        public void .cctor(){} // RVA: 0x7FFE86A65A60
-    }
-
-    public class Monitor : Object
+    public class ManualResetEvent
     {
         // ── Methods ──
-        public void Enter(){} // RVA: 0x7FFE86A72DA0 | overloaded x2
-        public void ThrowLockTakenException(){} // RVA: 0x7FFE86A72E20
-        public void Exit(){} // RVA: 0x7FFE86A72E90
-        public void TryEnter(){} // RVA: 0x7FFE86A732F0 | overloaded x5
-        public void MillisecondsTimeoutFromTimeSpan(){} // RVA: 0x7FFE86A73060
-        public void IsEntered(){} // RVA: 0x7FFE86A733B0
-        public void Wait(){} // RVA: 0x7FFE86A73430 | overloaded x2
-        public void Pulse(){} // RVA: 0x7FFE86A73550
-        public void PulseAll(){} // RVA: 0x7FFE86A73620
-        public void Monitor_test_synchronised(){} // RVA: 0x7FFE86A73730
-        public void Monitor_pulse(){} // RVA: 0x7FFE86A73780
-        public void ObjPulse(){} // RVA: 0x7FFE86A737B0
-        public void Monitor_pulse_all(){} // RVA: 0x7FFE86A73850
-        public void ObjPulseAll(){} // RVA: 0x7FFE86A738C0
-        public void Monitor_wait(){} // RVA: 0x7FFE86A739A0
-        public void ObjWait(){} // RVA: 0x7FFE86A739D0
-        public void try_enter_with_atomic_var(){} // RVA: 0x7FFE86A73AC0
-        public void ReliableEnterTimeout(){} // RVA: 0x7FFE86A73B00
-        public void ReliableEnter(){} // RVA: 0x7FFE86A73BE0
-        public void Monitor_test_owner(){} // RVA: 0x7FFE86A73C70
-        public void IsEnteredNative(){} // RVA: 0x7FFE86A73C70
+        public void .ctor(){} // RVA: 0x7FFAF89D2320
     }
 
-    public class Mutex : WaitHandle
+    public class ManualResetEventSlim
     {
         // ── Methods ──
-        public void ReleaseMutex_internal(){} // RVA: 0x7FFE86A7E3C0
-        public void .ctor(){} // RVA: 0x7FFE86A7E3E0
-        public void ReleaseMutex(){} // RVA: 0x7FFE86A7E440
+        public void get_WaitHandle(){} // RVA: 0x7FFAF89D30C0
+        public void get_IsSet(){} // RVA: 0x7FFAF89D3100
+        public void set_IsSet(){} // RVA: 0x7FFAF89D3160
+        public void get_SpinCount(){} // RVA: 0x7FFAF89D3190
+        public void set_SpinCount(){} // RVA: 0x7FFAF89D31F0
+        public void get_Waiters(){} // RVA: 0x7FFAF89D3210
+        public void set_Waiters(){} // RVA: 0x7FFAF89D3270
+        public void .ctor(){} // RVA: 0x7FFAF89D3430 | overloaded x3
+        public void Initialize(){} // RVA: 0x7FFAF89D3530
+        public void EnsureLockObjectCreated(){} // RVA: 0x7FFAF89D35F0
+        public void LazyInitializeEvent(){} // RVA: 0x7FFAF89D36A0
+        public void Set(){} // RVA: 0x7FFAF89D39B0 | overloaded x2
+        public void Wait(){} // RVA: 0x7FFAF89D3E20 | overloaded x3
+        public void Dispose(){} // RVA: 0x7FFAF89D4780 | overloaded x2
+        public void ThrowIfDisposed(){} // RVA: 0x7FFAF89D4910
+        public void CancellationTokenCallback(){} // RVA: 0x7FFAF89D4980
+        public void UpdateStateAtomically(){} // RVA: 0x7FFAF89D4B40
+        public void ExtractStatePortionAndShiftRight(){} // RVA: 0x7FFAF89D4C20
+        public void ExtractStatePortion(){} // RVA: 0x7FFAF89D4C30
+        public void .cctor(){} // RVA: 0x7FFAF89D4C40
     }
 
-    public class NativeEventCalls : Object
+    public class Monitor
     {
         // ── Methods ──
-        public void CreateEvent_internal(){} // RVA: 0x7FFE86A7E470
-        public void CreateEvent_icall(){} // RVA: 0x7FFE86A7E500
-        public void SetEvent(){} // RVA: 0x7FFE86A7E590
-        public void SetEvent_internal(){} // RVA: 0x7FFE86A7E670
-        public void ResetEvent(){} // RVA: 0x7FFE86A7E690
-        public void ResetEvent_internal(){} // RVA: 0x7FFE86A7E7A0
-        public void CloseEvent_internal(){} // RVA: 0x7FFE86A7E7F0
+        public void Enter(){} // RVA: 0x7FFAF89E1F80 | overloaded x2
+        public void ThrowLockTakenException(){} // RVA: 0x7FFAF89E2000
+        public void Exit(){} // RVA: 0x7FFAF89E2070
+        public void TryEnter(){} // RVA: 0x7FFAF89E24D0 | overloaded x5
+        public void MillisecondsTimeoutFromTimeSpan(){} // RVA: 0x7FFAF89E2240
+        public void IsEntered(){} // RVA: 0x7FFAF89E2590
+        public void Wait(){} // RVA: 0x7FFAF89E2610 | overloaded x2
+        public void Pulse(){} // RVA: 0x7FFAF89E2730
+        public void PulseAll(){} // RVA: 0x7FFAF89E2800
+        public void Monitor_test_synchronised(){} // RVA: 0x7FFAF89E2910
+        public void Monitor_pulse(){} // RVA: 0x7FFAF89E2960
+        public void ObjPulse(){} // RVA: 0x7FFAF89E2990
+        public void Monitor_pulse_all(){} // RVA: 0x7FFAF89E2A30
+        public void ObjPulseAll(){} // RVA: 0x7FFAF89E2AA0
+        public void Monitor_wait(){} // RVA: 0x7FFAF89E2B80
+        public void ObjWait(){} // RVA: 0x7FFAF89E2BB0
+        public void try_enter_with_atomic_var(){} // RVA: 0x7FFAF89E2CA0
+        public void ReliableEnterTimeout(){} // RVA: 0x7FFAF89E2CE0
+        public void ReliableEnter(){} // RVA: 0x7FFAF89E2DC0
+        public void Monitor_test_owner(){} // RVA: 0x7FFAF89E2E50
+        public void IsEnteredNative(){} // RVA: 0x7FFAF89E2E50
     }
 
-    public class NativeOverlapped : ValueType
-    {
-    }
-
-    public class OSSpecificSynchronizationContext : SynchronizationContext
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81161E80
-        public void Get(){} // RVA: 0x7FFE86A746A0
-        public void CreateCopy(){} // RVA: 0x7FFE86A748E0
-        public void Send(){} // RVA: 0x7FFE86A74980
-        public void Post(){} // RVA: 0x7FFE86A749C0
-        public void InvocationEntry(){} // RVA: 0x7FFE86A74D60
-        public void GetOSContext(){} // RVA: 0x7FFE86A74EF0
-        public void PostInternal(){} // RVA: 0x7FFE86A74F80
-        public void .cctor(){} // RVA: 0x7FFE86A750A0
-    }
-
-    public class ParameterizedThreadStart : MulticastDelegate
+    public class Mutex
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8117B190
-        public void Invoke(){} // RVA: 0x7FFE81156C60
+        public void ReleaseMutex_internal(){} // RVA: 0x7FFAF89ED5A0
+        public void .ctor(){} // RVA: 0x7FFAF89ED5C0
+        public void ReleaseMutex(){} // RVA: 0x7FFAF89ED620
     }
 
-    public class PlatformHelper : Object
-    {
-        public int s_processorCount;
-
-        // ── Methods ──
-        public void get_ProcessorCount(){} // RVA: 0x7FFE86A65F00
-        public void .cctor(){} // RVA: 0x7FFE86A66000
-    }
-
-    public class PreAllocatedOverlapped : Object
+    public class NativeEventCalls
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE81D95990
-        public void Release(){} // RVA: 0x7FFE86A6B990
-        public void Dispose(){} // RVA: 0x7FFE86A6BA60
-        public void System.Threading.IDeferredDisposable.OnFinalRelease(){} // RVA: 0x7FFE86A6BB50
+        public void CreateEvent_internal(){} // RVA: 0x7FFAF89ED650
+        public void CreateEvent_icall(){} // RVA: 0x7FFAF89ED6E0
+        public void SetEvent(){} // RVA: 0x7FFAF89ED770
+        public void SetEvent_internal(){} // RVA: 0x7FFAF89ED850
+        public void ResetEvent(){} // RVA: 0x7FFAF89ED870
+        public void ResetEvent_internal(){} // RVA: 0x7FFAF89ED980
+        public void CloseEvent_internal(){} // RVA: 0x7FFAF89ED9D0
     }
 
-    public class QueueUserWorkItemCallback : Object
+    public class NativeOverlapped
+    {
+    }
+
+    public class OSSpecificSynchronizationContext
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A7AD40
-        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x7FFE86A7AEE0
-        public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0x7FFE810FB310
-        public void WaitCallback_Context(){} // RVA: 0x7FFE86A7B020
-        public void .cctor(){} // RVA: 0x7FFE86A7B0A0
+        public void .ctor(){} // RVA: 0x7FFAF2DF3E80
+        public void Get(){} // RVA: 0x7FFAF89E3880
+        public void CreateCopy(){} // RVA: 0x7FFAF89E3AC0
+        public void Send(){} // RVA: 0x7FFAF89E3B60
+        public void Post(){} // RVA: 0x7FFAF89E3BA0
+        public void InvocationEntry(){} // RVA: 0x7FFAF89E3F40
+        public void GetOSContext(){} // RVA: 0x7FFAF89E40D0
+        public void PostInternal(){} // RVA: 0x7FFAF89E4160
+        public void .cctor(){} // RVA: 0x7FFAF89E4280
     }
 
-    public class ReaderWriterCount : Object
+    public class ParameterizedThreadStart
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2E0D190
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
     }
 
-    public class ReaderWriterLock : CriticalFinalizerObject
-    {
-        public int seq_num; // 0x10
-        public int state; // 0x14
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A7E810
-        public void Finalize(){} // RVA: 0x7FFE86A77230
-        public void get_IsReaderLockHeld(){} // RVA: 0x7FFE86A7E9D0
-        public void get_IsWriterLockHeld(){} // RVA: 0x7FFE86A7EBB0
-        public void AcquireReaderLock(){} // RVA: 0x7FFE86A7ED40 | overloaded x2
-        public void AcquireWriterLock(){} // RVA: 0x7FFE86A7F260 | overloaded x2
-        public void ReleaseReaderLock(){} // RVA: 0x7FFE86A7F940 | overloaded x2
-        public void ReleaseWriterLock(){} // RVA: 0x7FFE86A7FC90 | overloaded x2
-        public void HasWriterLock(){} // RVA: 0x7FFE86A7FCF0
-    }
-
-    public class ReaderWriterLockSlim : Object
-    {
-        public bool fIsReentrant; // 0x10
-        public int myLock; // 0x14
-        public int LockSpinCycles;
-        public int LockSpinCount;
-        public int LockSleep0Count;
-        public uint numWriteWaiters; // 0x18
-        public uint numReadWaiters; // 0x1C
-        public uint numWriteUpgradeWaiters; // 0x20
-        public uint numUpgradeWaiters; // 0x24
-
-        // ── Methods ──
-        public void InitializeThreadCounts(){} // RVA: 0x7FFE871BC8C0
-        public void .ctor(){} // RVA: 0x7FFE871BC930 | overloaded x2
-        public void IsRWEntryEmpty(){} // RVA: 0x7FFE871BC9A0
-        public void IsRwHashEntryChanged(){} // RVA: 0x7FFE871BC9E0
-        public void GetThreadRWCount(){} // RVA: 0x7FFE871BCA00
-        public void EnterReadLock(){} // RVA: 0x7FFE871BCB70
-        public void TryEnterReadLock(){} // RVA: 0x7FFE871BCC20 | overloaded x2
-        public void TryEnterReadLockCore(){} // RVA: 0x7FFE871BCC30
-        public void EnterWriteLock(){} // RVA: 0x7FFE871BCFA0
-        public void TryEnterWriteLock(){} // RVA: 0x7FFE871BD050 | overloaded x2
-        public void TryEnterWriteLockCore(){} // RVA: 0x7FFE871BD060
-        public void EnterUpgradeableReadLock(){} // RVA: 0x7FFE871BD540
-        public void TryEnterUpgradeableReadLock(){} // RVA: 0x7FFE871BD5F0 | overloaded x2
-        public void TryEnterUpgradeableReadLockCore(){} // RVA: 0x7FFE871BD600
-        public void ExitReadLock(){} // RVA: 0x7FFE871BDA90
-        public void ExitWriteLock(){} // RVA: 0x7FFE871BDCA0
-        public void ExitUpgradeableReadLock(){} // RVA: 0x7FFE871BDED0
-        public void LazyCreateEvent(){} // RVA: 0x7FFE871BE240
-        public void WaitOnEvent(){} // RVA: 0x7FFE871BE380
-        public void ExitAndWakeUpAppropriateWaiters(){} // RVA: 0x7FFE871BE640
-        public void ExitAndWakeUpAppropriateWaitersPreferringWriters(){} // RVA: 0x7FFE871BE6D0
-        public void ExitAndWakeUpAppropriateReadWaiters(){} // RVA: 0x7FFE871BE750
-        public void IsWriterAcquired(){} // RVA: 0x7FFE871BE7E0
-        public void SetWriterAcquired(){} // RVA: 0x7FFE871BE7F0
-        public void ClearWriterAcquired(){} // RVA: 0x7FFE871BE800
-        public void SetWritersWaiting(){} // RVA: 0x7FFE871BE810
-        public void ClearWritersWaiting(){} // RVA: 0x7FFE871BE820
-        public void SetUpgraderWaiting(){} // RVA: 0x7FFE871BE830
-        public void ClearUpgraderWaiting(){} // RVA: 0x7FFE871BE840
-        public void GetNumReaders(){} // RVA: 0x7FFE871BE850
-        public void EnterMyLock(){} // RVA: 0x7FFE871BE860
-        public void EnterMyLockSpin(){} // RVA: 0x7FFE871BE880
-        public void ExitMyLock(){} // RVA: 0x7FFE871BE9F0
-        public void SpinWait(){} // RVA: 0x7FFE871BEA00
-        public void Dispose(){} // RVA: 0x7FFE871BEA90 | overloaded x2
-        public void get_IsReadLockHeld(){} // RVA: 0x7FFE871BEF00
-        public void get_IsUpgradeableReadLockHeld(){} // RVA: 0x7FFE871BEFD0
-        public void get_IsWriteLockHeld(){} // RVA: 0x7FFE871BF110
-        public void get_RecursiveReadCount(){} // RVA: 0x7FFE871BF250
-        public void get_RecursiveUpgradeCount(){} // RVA: 0x7FFE871BF310
-        public void get_RecursiveWriteCount(){} // RVA: 0x7FFE871BF450
-        public void get_WaitingReadCount(){} // RVA: 0x7FFE82707EE0
-        public void get_WaitingUpgradeCount(){} // RVA: 0x7FFE81A56130
-        public void get_WaitingWriteCount(){} // RVA: 0x7FFE813DB630
-    }
-
-    public class RegisteredWaitHandle : MarshalByRefObject
+    public class PlatformHelper
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A7FD40
-        public void Wait(){} // RVA: 0x7FFE86A7FF70
-        public void DoCallBack(){} // RVA: 0x7FFE86A80750
-        public void Unregister(){} // RVA: 0x7FFE86A809E0
+        public void get_ProcessorCount(){} // RVA: 0x7FFAF89D50E0
+        public void .cctor(){} // RVA: 0x7FFAF89D51E0
     }
 
-    public class SemaphoreFullException : SystemException
+    public class PreAllocatedOverlapped
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF3AD0CE0
+        public void Release(){} // RVA: 0x7FFAF89DAB70
+        public void Dispose(){} // RVA: 0x7FFAF89DAC40
+        public void System.Threading.IDeferredDisposable.OnFinalRelease(){} // RVA: 0x7FFAF89DAD30
     }
 
-    public class SemaphoreSlim : Object
-    {
-        public int m_currentCount; // 0x10
-
-        // ── Methods ──
-        public void get_CurrentCount(){} // RVA: 0x7FFE86A6BCE0
-        public void .ctor(){} // RVA: 0x7FFE86A6BD00 | overloaded x2
-        public void Wait(){} // RVA: 0x7FFE86A6BEE0 | overloaded x3
-        public void WaitUntilCountOrTimeout(){} // RVA: 0x7FFE86A6C7D0
-        public void WaitAsync(){} // RVA: 0x7FFE86A6C910 | overloaded x3
-        public void CreateAndAddAsyncWaiter(){} // RVA: 0x7FFE86A6CD50
-        public void RemoveAsyncWaiter(){} // RVA: 0x7FFE86A6CFC0
-        public void WaitUntilCountOrTimeoutAsync(){} // RVA: 0x7FFE86A6D230
-        public void Release(){} // RVA: 0x7FFE86A6D4B0 | overloaded x2
-        public void QueueWaiterTask(){} // RVA: 0x7FFE86A6D830
-        public void Dispose(){} // RVA: 0x7FFE86A6D8B0 | overloaded x2
-        public void CancellationTokenCanceledEventHandler(){} // RVA: 0x7FFE86A6DA60
-        public void CheckDispose(){} // RVA: 0x7FFE86A6DC20
-        public void GetResourceString(){} // RVA: 0x7FFE827C4A80
-        public void .cctor(){} // RVA: 0x7FFE86A6DCB0
-    }
-
-    public class SendOrPostCallback : MulticastDelegate
+    public class QueueUserWorkItemCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8117B190
-        public void Invoke(){} // RVA: 0x7FFE81156C60
+        public void .ctor(){} // RVA: 0x7FFAF89E9F20
+        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x7FFAF89EA0C0
+        public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0x7FFAF2D8D310
+        public void WaitCallback_Context(){} // RVA: 0x7FFAF89EA200
+        public void .cctor(){} // RVA: 0x7FFAF89EA280
     }
 
-    public class SparselyPopulatedArrayAddInfo`1 : ValueType
-    {
-        public System.Threading.SparselyPopulatedArrayFragment`1<T> _source;
-        public int _index;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E4D070
-        public void get_Source(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Index(){} // RVA: 0x7FFE80E2EDB0
-    }
-
-    public class SparselyPopulatedArrayFragment`1 : Object
-    {
-        public T[] _elements;
-        public int _freeCount;
-        public System.Threading.SparselyPopulatedArrayFragment`1<T> _next;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E48220 | overloaded x2
-        public void get_Item(){} // RVA: 0x7FFE810A1420
-        public void get_Length(){} // RVA: 0x7FFE80E2EDB0
-        public void get_Prev(){} // RVA: 0x7FFE80E2E2E0
-        public void SafeAtomicRemove(){} // RVA: 0x7FFE810A1420
-    }
-
-    public class SparselyPopulatedArray`1 : Object
-    {
-        public System.Threading.SparselyPopulatedArrayFragment`1<T> _head;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E46530
-        public void get_Tail(){} // RVA: 0x7FFE80E2E2E0
-        public void Add(){} // RVA: 0x7FFE810A1420
-    }
-
-    public class SpinLock : ValueType
-    {
-        public int m_owner; // 0x10
-        public int MAXIMUM_WAITERS;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A6ED00
-        public void Enter(){} // RVA: 0x7FFE86A6ED20
-        public void TryEnter(){} // RVA: 0x7FFE86A6EDD0
-        public void ContinueTryEnter(){} // RVA: 0x7FFE86A6EE90
-        public void DecrementWaiters(){} // RVA: 0x7FFE86A6F2D0
-        public void ContinueTryEnterWithThreadTracking(){} // RVA: 0x7FFE86A6F390
-        public void Exit(){} // RVA: 0x7FFE86A6F5F0
-        public void ExitSlowPath(){} // RVA: 0x7FFE86A6F690
-        public void get_IsHeldByCurrentThread(){} // RVA: 0x7FFE86A6F7D0
-        public void get_IsThreadOwnerTrackingEnabled(){} // RVA: 0x7FFE86A6F8F0
-        public void .cctor(){} // RVA: 0x7FFE86A6F900
-    }
-
-    public class SpinWait : ValueType
-    {
-        public int SpinCountforSpinBeforeWait;
-        public int _count; // 0x10
-
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0x7FFE826F4220
-        public void get_NextSpinWillYield(){} // RVA: 0x7FFE86A65B40
-        public void SpinOnce(){} // RVA: 0x7FFE86A65C10 | overloaded x2
-        public void SpinOnceCore(){} // RVA: 0x7FFE86A65D10
-        public void Reset(){} // RVA: 0x7FFE82C67CC0
-        public void .cctor(){} // RVA: 0x7FFE86A65E70
-    }
-
-    public class SynchronizationContext : Object
-    {
-        public 0x664BFAB4 _props; // 0x10
-        public System.Type s_cachedPreparedType1;
-        public System.Type s_cachedPreparedType2; // 0x8
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void SetWaitNotificationRequired(){} // RVA: 0x7FFE86A73CD0
-        public void IsWaitNotificationRequired(){} // RVA: 0x7FFE86A74080
-        public void Send(){} // RVA: 0x7FFE83F952D0
-        public void Post(){} // RVA: 0x7FFE86A74090
-        public void OperationStarted(){} // RVA: 0x7FFE810FB310
-        public void OperationCompleted(){} // RVA: 0x7FFE810FB310
-        public void Wait(){} // RVA: 0x7FFE86A74120
-        public void WaitHelper(){} // RVA: 0x7FFE86A74210
-        public void SetSynchronizationContext(){} // RVA: 0x7FFE86A742B0
-        public void get_Current(){} // RVA: 0x7FFE86A743A0
-        public void get_CurrentNoFlow(){} // RVA: 0x7FFE86A74460
-        public void GetThreadLocalContext(){} // RVA: 0x7FFE86A74520
-        public void CreateCopy(){} // RVA: 0x7FFE86A74570
-        public void get_CurrentExplicit(){} // RVA: 0x7FFE86A745B0
-    }
-
-    public class SynchronizationLockException : SystemException
+    public class ReaderWriterCount
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SystemThreading_ThreadLocalDebugView`1 : Object
-    {
-    }
-
-    public class Thread : CriticalFinalizerObject
-    {
-        public System.LocalDataStoreMgr s_LocalDataStoreMgr;
-        public System.LocalDataStoreHolder s_LocalDataStore; // 0xFFFF
-        public System.Globalization.CultureInfo m_CurrentCulture; // 0xFFFF
-        public System.Globalization.CultureInfo m_CurrentUICulture; // 0xFFFF
-        public System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> s_asyncLocalCurrentCulture; // 0x8
-        public System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> s_asyncLocalCurrentUICulture; // 0x10
-        public System.Threading.InternalThread internal_thread; // 0x10
-        public object m_ThreadStartArg; // 0x18
-        public object pending_exception; // 0x20
-        public System.Threading.Thread current_thread; // 0xFFFF
-        public System.MulticastDelegate m_Delegate; // 0x28
-        public System.Threading.ExecutionContext m_ExecutionContext; // 0x30
-        public bool m_ExecutionContextBelongsToOuterScope; // 0x38
-        public System.Security.Principal.IPrincipal principal; // 0x40
-        public int principal_version; // 0x48
-
-        // ── Methods ──
-        public void AsyncLocalSetCurrentUICulture(){} // RVA: 0x7FFE86A75740
-        public void .ctor(){} // RVA: 0x7FFE86A75950 | overloaded x3
-        public void Start(){} // RVA: 0x7FFE86A75B70 | overloaded x3
-        public void GetExecutionContextReader(){} // RVA: 0x7FFE86A75D70
-        public void get_ExecutionContextBelongsToCurrentScope(){} // RVA: 0x7FFE86A75DD0
-        public void set_ExecutionContextBelongsToCurrentScope(){} // RVA: 0x7FFE86A75DE0
-        public void GetMutableExecutionContext(){} // RVA: 0x7FFE86A75DF0
-        public void SetExecutionContext(){} // RVA: 0x7FFE86A75F20 | overloaded x2
-        public void get_Priority(){} // RVA: 0x7FFE86A75F80
-        public void set_Priority(){} // RVA: 0x7FFE86A76000
-        public void GetPriorityNative(){} // RVA: 0x7FFE86A75F80
-        public void SetPriorityNative(){} // RVA: 0x7FFE86A76000
-        public void JoinInternal(){} // RVA: 0x7FFE86A76090
-        public void Join(){} // RVA: 0x7FFE86A76160
-        public void SleepInternal(){} // RVA: 0x7FFE86A76220
-        public void Sleep(){} // RVA: 0x7FFE86A762B0
-        public void YieldInternal(){} // RVA: 0x7FFE86764760
-        public void Yield(){} // RVA: 0x7FFE86764760
-        public void SetStartHelper(){} // RVA: 0x7FFE86A763B0
-        public void get_CurrentUICulture(){} // RVA: 0x7FFE86A76570
-        public void set_CurrentUICulture(){} // RVA: 0x7FFE86A765B0
-        public void GetCurrentUICultureNoAppX(){} // RVA: 0x7FFE86A76990
-        public void get_CurrentCulture(){} // RVA: 0x7FFE86A76B40
-        public void GetCurrentCultureNoAppX(){} // RVA: 0x7FFE86A76B80
-        public void nativeInitCultureAccessors(){} // RVA: 0x7FFE86A76CF0
-        public void MemoryBarrier(){} // RVA: 0x7FFE86A76F30
-        public void ConstructInternalThread(){} // RVA: 0x7FFE86A76F40
-        public void get_Internal(){} // RVA: 0x7FFE86A76F80
-        public void get_CurrentContext(){} // RVA: 0x7FFE86827C40
-        public void GetCurrentThread_icall(){} // RVA: 0x7FFE86A76FE0
-        public void GetCurrentThread(){} // RVA: 0x7FFE86A77060
-        public void get_CurrentThread(){} // RVA: 0x7FFE86A770F0
-        public void get_CurrentThreadId(){} // RVA: 0x7FFE86A771F0
-        public void GetDomainID(){} // RVA: 0x7FFE86A3D060
-        public void Thread_internal(){} // RVA: 0x7FFE86A77220
-        public void Finalize(){} // RVA: 0x7FFE86A77230
-        public void get_IsThreadPoolThread(){} // RVA: 0x7FFE86A77270
-        public void get_IsThreadPoolThreadInternal(){} // RVA: 0x7FFE86A77270
-        public void get_IsAlive(){} // RVA: 0x7FFE86A772D0
-        public void set_IsBackground(){} // RVA: 0x7FFE86A77330
-        public void GetName_internal(){} // RVA: 0x7FFE86A774A0
-        public void SetName_icall(){} // RVA: 0x7FFE86A77560
-        public void SetName_internal(){} // RVA: 0x7FFE86A77570
-        public void get_Name(){} // RVA: 0x7FFE86A775A0
-        public void set_Name(){} // RVA: 0x7FFE86A776A0
-        public void get_ThreadState(){} // RVA: 0x7FFE86A77720
-        public void Abort_internal(){} // RVA: 0x7FFE86A77770
-        public void Abort(){} // RVA: 0x7FFE86A77780
-        public void SpinWait_nop(){} // RVA: 0x7FFE810FB310
-        public void SpinWait(){} // RVA: 0x7FFE86A777D0
-        public void StartInternal(){} // RVA: 0x7FFE86A777E0
-        public void SetState(){} // RVA: 0x7FFE86A77890
-        public void ClrState(){} // RVA: 0x7FFE86A778A0
-        public void GetState(){} // RVA: 0x7FFE86A778B0
-        public void VolatileRead(){} // RVA: 0x7FFE82EFC3B0
-        public void SystemMaxStackStize(){} // RVA: 0x7FFE86774820
-        public void GetProcessDefaultStackSize(){} // RVA: 0x7FFE86A77920
-        public void SetStart(){} // RVA: 0x7FFE86A779A0
-        public void get_ManagedThreadId(){} // RVA: 0x7FFE86A77A60
-        public void BeginCriticalRegion(){} // RVA: 0x7FFE86A77AC0
-        public void EndCriticalRegion(){} // RVA: 0x7FFE86A77B40
-        public void GetHashCode(){} // RVA: 0x7FFE86A77A60
-        public void ValidateThreadState(){} // RVA: 0x7FFE86A77BC0
-    }
-
-    public class ThreadAbortException : SystemException
+    public class ReaderWriterLock
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF89ED9F0
+        public void Finalize(){} // RVA: 0x7FFAF89E6410
+        public void get_IsReaderLockHeld(){} // RVA: 0x7FFAF89EDBB0
+        public void get_IsWriterLockHeld(){} // RVA: 0x7FFAF89EDD90
+        public void AcquireReaderLock(){} // RVA: 0x7FFAF89EDF20 | overloaded x2
+        public void AcquireWriterLock(){} // RVA: 0x7FFAF89EE440 | overloaded x2
+        public void ReleaseReaderLock(){} // RVA: 0x7FFAF89EEB20 | overloaded x2
+        public void ReleaseWriterLock(){} // RVA: 0x7FFAF89EEE70 | overloaded x2
+        public void HasWriterLock(){} // RVA: 0x7FFAF89EEED0
     }
 
-    public class ThreadHelper : Object
+    public class ReaderWriterLockSlim
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void SetExecutionContextHelper(){} // RVA: 0x7FFE811290D0
-        public void ThreadStart_Context(){} // RVA: 0x7FFE86A752B0
-        public void ThreadStart(){} // RVA: 0x7FFE86A75550 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE86A75660
+        public void InitializeThreadCounts(){} // RVA: 0x7FFAF912D9D0
+        public void .ctor(){} // RVA: 0x7FFAF912DA40 | overloaded x2
+        public void IsRWEntryEmpty(){} // RVA: 0x7FFAF912DAB0
+        public void IsRwHashEntryChanged(){} // RVA: 0x7FFAF912DAF0
+        public void GetThreadRWCount(){} // RVA: 0x7FFAF912DB10
+        public void EnterReadLock(){} // RVA: 0x7FFAF912DC80
+        public void TryEnterReadLock(){} // RVA: 0x7FFAF912DD30 | overloaded x2
+        public void TryEnterReadLockCore(){} // RVA: 0x7FFAF912DD40
+        public void EnterWriteLock(){} // RVA: 0x7FFAF912E0B0
+        public void TryEnterWriteLock(){} // RVA: 0x7FFAF912E160 | overloaded x2
+        public void TryEnterWriteLockCore(){} // RVA: 0x7FFAF912E170
+        public void EnterUpgradeableReadLock(){} // RVA: 0x7FFAF912E650
+        public void TryEnterUpgradeableReadLock(){} // RVA: 0x7FFAF912E700 | overloaded x2
+        public void TryEnterUpgradeableReadLockCore(){} // RVA: 0x7FFAF912E710
+        public void ExitReadLock(){} // RVA: 0x7FFAF912EBA0
+        public void ExitWriteLock(){} // RVA: 0x7FFAF912EDB0
+        public void ExitUpgradeableReadLock(){} // RVA: 0x7FFAF912EFE0
+        public void LazyCreateEvent(){} // RVA: 0x7FFAF912F350
+        public void WaitOnEvent(){} // RVA: 0x7FFAF912F490
+        public void ExitAndWakeUpAppropriateWaiters(){} // RVA: 0x7FFAF912F750
+        public void ExitAndWakeUpAppropriateWaitersPreferringWriters(){} // RVA: 0x7FFAF912F7E0
+        public void ExitAndWakeUpAppropriateReadWaiters(){} // RVA: 0x7FFAF912F860
+        public void IsWriterAcquired(){} // RVA: 0x7FFAF912F8F0
+        public void SetWriterAcquired(){} // RVA: 0x7FFAF912F900
+        public void ClearWriterAcquired(){} // RVA: 0x7FFAF912F910
+        public void SetWritersWaiting(){} // RVA: 0x7FFAF912F920
+        public void ClearWritersWaiting(){} // RVA: 0x7FFAF912F930
+        public void SetUpgraderWaiting(){} // RVA: 0x7FFAF912F940
+        public void ClearUpgraderWaiting(){} // RVA: 0x7FFAF912F950
+        public void GetNumReaders(){} // RVA: 0x7FFAF912F960
+        public void EnterMyLock(){} // RVA: 0x7FFAF912F970
+        public void EnterMyLockSpin(){} // RVA: 0x7FFAF912F990
+        public void ExitMyLock(){} // RVA: 0x7FFAF912FB00
+        public void SpinWait(){} // RVA: 0x7FFAF912FB10
+        public void Dispose(){} // RVA: 0x7FFAF912FBA0 | overloaded x2
+        public void get_IsReadLockHeld(){} // RVA: 0x7FFAF9130010
+        public void get_IsUpgradeableReadLockHeld(){} // RVA: 0x7FFAF91300E0
+        public void get_IsWriteLockHeld(){} // RVA: 0x7FFAF9130220
+        public void get_RecursiveReadCount(){} // RVA: 0x7FFAF9130360
+        public void get_RecursiveUpgradeCount(){} // RVA: 0x7FFAF9130420
+        public void get_RecursiveWriteCount(){} // RVA: 0x7FFAF9130560
+        public void get_WaitingReadCount(){} // RVA: 0x7FFAF442C3B0
+        public void get_WaitingUpgradeCount(){} // RVA: 0x7FFAF379F5B0
+        public void get_WaitingWriteCount(){} // RVA: 0x7FFAF306ED50
     }
 
-    public class ThreadInterruptedException : SystemException
+    public class RegisteredWaitHandle
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF89EEF20
+        public void Wait(){} // RVA: 0x7FFAF89EF150
+        public void DoCallBack(){} // RVA: 0x7FFAF89EF930
+        public void Unregister(){} // RVA: 0x7FFAF89EFBC0
     }
 
-    public class ThreadLocal`1 : Object
+    public class SemaphoreFullException
     {
-        public System.Func`1<T> m_valueFactory;
-        public LinkedSlotVolatile<T>[] ts_slotArray; // 0xFFFF
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0 | overloaded x2
-        public void Initialize(){} // RVA: 0x7FFE80E4BC00
-        public void Finalize(){} // RVA: 0x7FFE80E45FE0
-        public void Dispose(){} // RVA: 0x7FFE80E466C0 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Value(){} // RVA: 0x7FFE810A1420
-        public void set_Value(){} // RVA: 0x7FFE810A1420
-        public void GetValueSlow(){} // RVA: 0x7FFE810A1420
-        public void SetValueSlow(){} // RVA: 0x7FFE810A1420
-        public void CreateLinkedSlot(){} // RVA: 0x7FFE810A1420
-        public void get_IsValueCreated(){} // RVA: 0x7FFE80E2F150
-        public void GrowTable(){} // RVA: 0x7FFE80E4D070
-        public void GetNewTableSize(){} // RVA: 0x7FFE80E35560
-        public void .cctor(){} // RVA: 0x7FFE80E46010
+        public void .ctor(){} // RVA: 0x7FFAF44EE1C0 | overloaded x2
     }
 
-    public class ThreadPool : Object
+    public class SemaphoreSlim
     {
         // ── Methods ──
-        public void GetMaxThreads(){} // RVA: 0x7FFE86A7B180
-        public void GetMinThreads(){} // RVA: 0x7FFE86A7B1D0
-        public void GetAvailableThreads(){} // RVA: 0x7FFE86A7B220
-        public void RegisterWaitForSingleObject(){} // RVA: 0x7FFE86A7B710 | overloaded x3
-        public void QueueUserWorkItem(){} // RVA: 0x7FFE810A1420 | overloaded x3
-        public void UnsafeQueueUserWorkItem(){} // RVA: 0x7FFE810A1420 | overloaded x2
-        public void QueueUserWorkItemHelper(){} // RVA: 0x7FFE86A7BAF0
-        public void UnsafeQueueCustomWorkItem(){} // RVA: 0x7FFE86A7BE80
-        public void TryPopCustomWorkItem(){} // RVA: 0x7FFE86A7BF70
-        public void RequestWorkerThread(){} // RVA: 0x7FFE86A7C0B0
-        public void EnsureVMInitialized(){} // RVA: 0x7FFE86A7C0D0
-        public void GetMinThreadsNative(){} // RVA: 0x7FFE86A7B1D0
-        public void GetMaxThreadsNative(){} // RVA: 0x7FFE86A7B180
-        public void GetAvailableThreadsNative(){} // RVA: 0x7FFE86A7B220
-        public void NotifyWorkItemComplete(){} // RVA: 0x7FFE86A7C180
-        public void ReportThreadStatus(){} // RVA: 0x7FFE868DCC30
-        public void NotifyWorkItemProgress(){} // RVA: 0x7FFE86775FB0
-        public void NotifyWorkItemProgressNative(){} // RVA: 0x7FFE86A7C210
-        public void NotifyWorkItemQueued(){} // RVA: 0x7FFE810FB310
-        public void InitializeVMTp(){} // RVA: 0x7FFE86A7C270
-        public void get_IsThreadPoolThread(){} // RVA: 0x7FFE86A7C280
+        public void get_CurrentCount(){} // RVA: 0x7FFAF89DAEC0
+        public void .ctor(){} // RVA: 0x7FFAF89DAEE0 | overloaded x2
+        public void Wait(){} // RVA: 0x7FFAF89DB0C0 | overloaded x3
+        public void WaitUntilCountOrTimeout(){} // RVA: 0x7FFAF89DB9B0
+        public void WaitAsync(){} // RVA: 0x7FFAF89DBAF0 | overloaded x3
+        public void CreateAndAddAsyncWaiter(){} // RVA: 0x7FFAF89DBF30
+        public void RemoveAsyncWaiter(){} // RVA: 0x7FFAF89DC1A0
+        public void WaitUntilCountOrTimeoutAsync(){} // RVA: 0x7FFAF89DC410
+        public void Release(){} // RVA: 0x7FFAF89DC690 | overloaded x2
+        public void QueueWaiterTask(){} // RVA: 0x7FFAF89DCA10
+        public void Dispose(){} // RVA: 0x7FFAF89DCA90 | overloaded x2
+        public void CancellationTokenCanceledEventHandler(){} // RVA: 0x7FFAF89DCC40
+        public void CheckDispose(){} // RVA: 0x7FFAF89DCE00
+        public void GetResourceString(){} // RVA: 0x7FFAF44EF520
+        public void .cctor(){} // RVA: 0x7FFAF89DCE90
     }
 
-    public class ThreadPoolBoundHandle : Object
+    public class SendOrPostCallback
     {
-        public System.Runtime.InteropServices.SafeHandle _handle; // 0x10
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE81D95990
-        public void .ctor(){} // RVA: 0x7FFE86A69440
-        public void get_Handle(){} // RVA: 0x7FFE81116380
-        public void BindHandle(){} // RVA: 0x7FFE86A694F0
-        public void AllocateNativeOverlapped(){} // RVA: 0x7FFE86A69A80
-        public void FreeNativeOverlapped(){} // RVA: 0x7FFE86A69D10
-        public void GetNativeOverlappedState(){} // RVA: 0x7FFE86A6A020
-        public void GetOverlappedData(){} // RVA: 0x7FFE86A6A100
-        public void OnNativeIOCompleted(){} // RVA: 0x7FFE86A6A240
-        public void AddRef(){} // RVA: 0x7FFE86A6A450
-        public void Release(){} // RVA: 0x7FFE86A6A4D0
-        public void Dispose(){} // RVA: 0x7FFE86A6A5A0
-        public void Finalize(){} // RVA: 0x7FFE86A6A690
-        public void System.Threading.IDeferredDisposable.OnFinalRelease(){} // RVA: 0x7FFE86A6A6E0
+        public void .ctor(){} // RVA: 0x7FFAF2E0D190
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
     }
 
-    public class ThreadPoolCallbackWrapper : ValueType
+    public class SparselyPopulatedArrayAddInfo`1
     {
+        public object Item;
+        public object Length;
+
         // ── Methods ──
-        public void Enter(){} // RVA: 0x7FFE86A692F0
-        public void Exit(){} // RVA: 0x7FFE86A69420
+        public void .ctor(){} // RVA: 0x7FFAF2ADBAA0
+        public void get_Source(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Index(){} // RVA: 0x7FFAF2ABD840
     }
 
-    public class ThreadPoolGlobals : Object
+    public class SparselyPopulatedArrayAddInfo`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE86A77D40
+        public void .ctor(){} // RVA: 0x7FFAF32D0840
+        public void get_Source(){} // RVA: 0x7FFAF4584690
+        public void get_Index(){} // RVA: 0x7FFAF4959890
     }
 
-    public class ThreadPoolWorkQueue : Object
+    public class SparselyPopulatedArrayFragment`1
     {
+        public object Tail;
+        public object .ctor;
+
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A77F10
-        public void EnsureCurrentThreadHasQueue(){} // RVA: 0x7FFE86A78020
-        public void EnsureThreadRequested(){} // RVA: 0x7FFE86A78170
-        public void MarkThreadRequestSatisfied(){} // RVA: 0x7FFE86A78210
-        public void Enqueue(){} // RVA: 0x7FFE86A78240
-        public void LocalFindAndPop(){} // RVA: 0x7FFE86A784B0
-        public void Dequeue(){} // RVA: 0x7FFE86A78560
-        public void Dispatch(){} // RVA: 0x7FFE86A78820
-        public void .cctor(){} // RVA: 0x7FFE86A78DE0
+        public void .ctor(){} // RVA: 0x7FFAF2AD6C40 | overloaded x2
+        public void get_Item(){} // RVA: 0x7FFAF2D33FA0
+        public void get_Length(){} // RVA: 0x7FFAF2ABD840
+        public void get_Prev(){} // RVA: 0x7FFAF2ABCD60
+        public void SafeAtomicRemove(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class ThreadPoolWorkQueueThreadLocals : Object
+    public class SparselyPopulatedArrayFragment`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A7A7E0
-        public void CleanUp(){} // RVA: 0x7FFE86A7AAD0
-        public void Finalize(){} // RVA: 0x7FFE86A7AC70
+        public void .ctor(){} // RVA: 0x7FFAF6B2FD60 | overloaded x2
+        public void get_Item(){} // RVA: 0x7FFAF6B2FE70
+        public void get_Length(){} // RVA: 0x7FFAF39EF910
+        public void get_Prev(){} // RVA: 0x7FFAF6B2FEB0
+        public void SafeAtomicRemove(){} // RVA: 0x7FFAF6B2FEC0
     }
 
-    public class ThreadStart : MulticastDelegate
+    public class SparselyPopulatedArray`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81159980
-        public void Invoke(){} // RVA: 0x7FFE81159A50
+        public void .ctor(){} // RVA: 0x7FFAF2AD4FA0
+        public void get_Tail(){} // RVA: 0x7FFAF2ABCD60
+        public void Add(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class ThreadStateException : SystemException
+    public class SparselyPopulatedArray`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF6B2FF70
+        public void get_Tail(){} // RVA: 0x7FFAF6B300A0
+        public void Add(){} // RVA: 0x7FFAF6B300B0
     }
 
-    public class Timeout : Object
+    public class SpinLock
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE86A63290
+        public void .ctor(){} // RVA: 0x7FFAF89DDEE0
+        public void Enter(){} // RVA: 0x7FFAF89DDF00
+        public void TryEnter(){} // RVA: 0x7FFAF89DDFB0
+        public void ContinueTryEnter(){} // RVA: 0x7FFAF89DE070
+        public void DecrementWaiters(){} // RVA: 0x7FFAF89DE4B0
+        public void ContinueTryEnterWithThreadTracking(){} // RVA: 0x7FFAF89DE570
+        public void Exit(){} // RVA: 0x7FFAF89DE7D0
+        public void ExitSlowPath(){} // RVA: 0x7FFAF89DE870
+        public void get_IsHeldByCurrentThread(){} // RVA: 0x7FFAF89DE9B0
+        public void get_IsThreadOwnerTrackingEnabled(){} // RVA: 0x7FFAF89DEAD0
+        public void .cctor(){} // RVA: 0x7FFAF89DEAE0
     }
 
-    public class TimeoutHelper : Object
+    public class SpinWait
     {
+        public object FrameworkDescription;
+        public object OSDescription;
+
         // ── Methods ──
-        public void GetTime(){} // RVA: 0x7FFE86A3F140
-        public void UpdateTimeOut(){} // RVA: 0x7FFE86A66050
+        public void get_Count(){} // RVA: 0x7FFAF44189B0
+        public void get_NextSpinWillYield(){} // RVA: 0x7FFAF89D4D20
+        public void SpinOnce(){} // RVA: 0x7FFAF89D4DF0 | overloaded x2
+        public void SpinOnceCore(){} // RVA: 0x7FFAF89D4EF0
+        public void Reset(){} // RVA: 0x7FFAF498D860
+        public void .cctor(){} // RVA: 0x7FFAF89D5050
     }
 
-    public class Timer : MarshalByRefObject
+    public class SynchronizationContext
     {
-        public System.Threading.TimerCallback callback; // 0x18
-
         // ── Methods ──
-        public void get_scheduler(){} // RVA: 0x7FFE86A80D70
-        public void .ctor(){} // RVA: 0x7FFE86A80F20 | overloaded x3
-        public void Init(){} // RVA: 0x7FFE86A80F50
-        public void Change(){} // RVA: 0x7FFE86A811C0 | overloaded x3
-        public void Dispose(){} // RVA: 0x7FFE86A81180
-        public void DisposeAsync(){} // RVA: 0x7FFE86A81430
-        public void KeepRootedWhileScheduled(){} // RVA: 0x7FFE810FB310
-        public void GetTimeMonotonic(){} // RVA: 0x7FFE86A81570
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void SetWaitNotificationRequired(){} // RVA: 0x7FFAF89E2EB0
+        public void IsWaitNotificationRequired(){} // RVA: 0x7FFAF89E3260
+        public void Send(){} // RVA: 0x7FFAF5DC6790
+        public void Post(){} // RVA: 0x7FFAF89E3270
+        public void OperationStarted(){} // RVA: 0x7FFAF2D8D310
+        public void OperationCompleted(){} // RVA: 0x7FFAF2D8D310
+        public void Wait(){} // RVA: 0x7FFAF89E3300
+        public void WaitHelper(){} // RVA: 0x7FFAF89E33F0
+        public void SetSynchronizationContext(){} // RVA: 0x7FFAF89E3490
+        public void get_Current(){} // RVA: 0x7FFAF89E3580
+        public void get_CurrentNoFlow(){} // RVA: 0x7FFAF89E3640
+        public void GetThreadLocalContext(){} // RVA: 0x7FFAF89E3700
+        public void CreateCopy(){} // RVA: 0x7FFAF89E3750
+        public void get_CurrentExplicit(){} // RVA: 0x7FFAF89E3790
     }
 
-    public class TimerCallback : MulticastDelegate
+    public class SynchronizationLockException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8117B190
-        public void Invoke(){} // RVA: 0x7FFE81156C60
+        public void .ctor(){} // RVA: 0x7FFAF44EE1C0 | overloaded x3
     }
 
-    public class Volatile : Object
+    public class SystemThreading_ThreadLocalDebugView`1
     {
-        // ── Methods ──
-        public void Read(){} // RVA: 0x7FFE810A1420 | overloaded x4
-        public void Write(){} // RVA: 0x7FFE810A1420 | overloaded x3
     }
 
-    public class WaitCallback : MulticastDelegate
+    public class Thread
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8117B190
-        public void Invoke(){} // RVA: 0x7FFE81156C60
+        public void AsyncLocalSetCurrentUICulture(){} // RVA: 0x7FFAF89E4920
+        public void .ctor(){} // RVA: 0x7FFAF89E4B30 | overloaded x3
+        public void Start(){} // RVA: 0x7FFAF89E4D50 | overloaded x3
+        public void GetExecutionContextReader(){} // RVA: 0x7FFAF89E4F50
+        public void get_ExecutionContextBelongsToCurrentScope(){} // RVA: 0x7FFAF89E4FB0
+        public void set_ExecutionContextBelongsToCurrentScope(){} // RVA: 0x7FFAF89E4FC0
+        public void GetMutableExecutionContext(){} // RVA: 0x7FFAF89E4FD0
+        public void SetExecutionContext(){} // RVA: 0x7FFAF89E5100 | overloaded x2
+        public void get_Priority(){} // RVA: 0x7FFAF89E5160
+        public void set_Priority(){} // RVA: 0x7FFAF89E51E0
+        public void GetPriorityNative(){} // RVA: 0x7FFAF89E5160
+        public void SetPriorityNative(){} // RVA: 0x7FFAF89E51E0
+        public void JoinInternal(){} // RVA: 0x7FFAF89E5270
+        public void Join(){} // RVA: 0x7FFAF89E5340
+        public void SleepInternal(){} // RVA: 0x7FFAF89E5400
+        public void Sleep(){} // RVA: 0x7FFAF89E5490
+        public void YieldInternal(){} // RVA: 0x7FFAF86D3910
+        public void Yield(){} // RVA: 0x7FFAF86D3910
+        public void SetStartHelper(){} // RVA: 0x7FFAF89E5590
+        public void get_CurrentUICulture(){} // RVA: 0x7FFAF89E5750
+        public void set_CurrentUICulture(){} // RVA: 0x7FFAF89E5790
+        public void GetCurrentUICultureNoAppX(){} // RVA: 0x7FFAF89E5B70
+        public void get_CurrentCulture(){} // RVA: 0x7FFAF89E5D20
+        public void GetCurrentCultureNoAppX(){} // RVA: 0x7FFAF89E5D60
+        public void nativeInitCultureAccessors(){} // RVA: 0x7FFAF89E5ED0
+        public void MemoryBarrier(){} // RVA: 0x7FFAF89E6110
+        public void ConstructInternalThread(){} // RVA: 0x7FFAF89E6120
+        public void get_Internal(){} // RVA: 0x7FFAF89E6160
+        public void get_CurrentContext(){} // RVA: 0x7FFAF8796D40
+        public void GetCurrentThread_icall(){} // RVA: 0x7FFAF89E61C0
+        public void GetCurrentThread(){} // RVA: 0x7FFAF89E6240
+        public void get_CurrentThread(){} // RVA: 0x7FFAF89E62D0
+        public void get_CurrentThreadId(){} // RVA: 0x7FFAF89E63D0
+        public void GetDomainID(){} // RVA: 0x7FFAF89AC220
+        public void Thread_internal(){} // RVA: 0x7FFAF89E6400
+        public void Finalize(){} // RVA: 0x7FFAF89E6410
+        public void get_IsThreadPoolThread(){} // RVA: 0x7FFAF89E6450
+        public void get_IsThreadPoolThreadInternal(){} // RVA: 0x7FFAF89E6450
+        public void get_IsAlive(){} // RVA: 0x7FFAF89E64B0
+        public void set_IsBackground(){} // RVA: 0x7FFAF89E6510
+        public void GetName_internal(){} // RVA: 0x7FFAF89E6680
+        public void SetName_icall(){} // RVA: 0x7FFAF89E6740
+        public void SetName_internal(){} // RVA: 0x7FFAF89E6750
+        public void get_Name(){} // RVA: 0x7FFAF89E6780
+        public void set_Name(){} // RVA: 0x7FFAF89E6880
+        public void get_ThreadState(){} // RVA: 0x7FFAF89E6900
+        public void Abort_internal(){} // RVA: 0x7FFAF89E6950
+        public void Abort(){} // RVA: 0x7FFAF89E6960
+        public void SpinWait_nop(){} // RVA: 0x7FFAF2D8D310
+        public void SpinWait(){} // RVA: 0x7FFAF89E69B0
+        public void StartInternal(){} // RVA: 0x7FFAF89E69C0
+        public void SetState(){} // RVA: 0x7FFAF89E6A70
+        public void ClrState(){} // RVA: 0x7FFAF89E6A80
+        public void GetState(){} // RVA: 0x7FFAF89E6A90
+        public void VolatileRead(){} // RVA: 0x7FFAF4C4A2B0
+        public void SystemMaxStackStize(){} // RVA: 0x7FFAF86E39D0
+        public void GetProcessDefaultStackSize(){} // RVA: 0x7FFAF89E6B00
+        public void SetStart(){} // RVA: 0x7FFAF89E6B80
+        public void get_ManagedThreadId(){} // RVA: 0x7FFAF89E6C40
+        public void BeginCriticalRegion(){} // RVA: 0x7FFAF89E6CA0
+        public void EndCriticalRegion(){} // RVA: 0x7FFAF89E6D20
+        public void GetHashCode(){} // RVA: 0x7FFAF89E6C40
+        public void ValidateThreadState(){} // RVA: 0x7FFAF89E6DA0
     }
 
-    public class WaitHandle : MarshalByRefObject
+    public class ThreadAbortException
     {
-        public int WaitTimeout;
-        public int MAX_WAITHANDLES;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A7C2F0
-        public void Init(){} // RVA: 0x7FFE86A7C2F0
-        public void get_Handle(){} // RVA: 0x7FFE86A7C3B0
-        public void set_Handle(){} // RVA: 0x7FFE86A7C440
-        public void get_SafeWaitHandle(){} // RVA: 0x7FFE86A7C600
-        public void SetHandleInternal(){} // RVA: 0x7FFE86A7C750
-        public void WaitOne(){} // RVA: 0x7FFE86A7C990 | overloaded x6
-        public void InternalWaitOne(){} // RVA: 0x7FFE86A7CAF0
-        public void WaitAny(){} // RVA: 0x7FFE86A7CFC0 | overloaded x2
-        public void ThrowAbandonedMutexException(){} // RVA: 0x7FFE86A7D140 | overloaded x2
-        public void Close(){} // RVA: 0x7FFE86A7D1A0
-        public void Dispose(){} // RVA: 0x7FFE86A7D260 | overloaded x2
-        public void WaitOneNative(){} // RVA: 0x7FFE86A7D2D0
-        public void WaitMultiple(){} // RVA: 0x7FFE86A7D530
-        public void Wait_internal(){} // RVA: 0x7FFE86A7DB30
-        public void .cctor(){} // RVA: 0x7FFE86A7DB40
+        public void .ctor(){} // RVA: 0x7FFAF44EE1C0 | overloaded x2
     }
 
-    public class WaitHandleCannotBeOpenedException : ApplicationException
+    public class ThreadHelper
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE868B3BC0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void SetExecutionContextHelper(){} // RVA: 0x7FFAF2DBB0D0
+        public void ThreadStart_Context(){} // RVA: 0x7FFAF89E4490
+        public void ThreadStart(){} // RVA: 0x7FFAF89E4730 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF89E4840
     }
 
-    public class WaitOrTimerCallback : MulticastDelegate
+    public class ThreadInterruptedException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8441F520
-        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void .ctor(){} // RVA: 0x7FFAF44EE1C0 | overloaded x2
     }
 
-    public class Win32ThreadPoolNativeOverlapped : ValueType
+    public class ThreadLocal`1
     {
-        public ExecutionContextCallbackArgs t_executionContextCallbackArgs; // 0xFFFF
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE81D95990
-        public void get_Data(){} // RVA: 0x7FFE86A6A720
-        public void Allocate(){} // RVA: 0x7FFE86A6A7A0
-        public void AllocateNew(){} // RVA: 0x7FFE86A6A890
-        public void SetData(){} // RVA: 0x7FFE86A6ACF0
-        public void Free(){} // RVA: 0x7FFE86A6B120
-        public void ToNativeOverlapped(){} // RVA: 0x7FFE827C4A80
-        public void FromNativeOverlapped(){} // RVA: 0x7FFE827C4A80
-        public void CompleteWithCallback(){} // RVA: 0x7FFE86A6B1F0
-        public void OnExecutionContextCallback(){} // RVA: 0x7FFE86A6B530
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10 | overloaded x2
+        public void Initialize(){} // RVA: 0x7FFAF2ADA620
+        public void Finalize(){} // RVA: 0x7FFAF2AD4A50
+        public void Dispose(){} // RVA: 0x7FFAF2AD5130 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Value(){} // RVA: 0x7FFAF2D33FA0
+        public void set_Value(){} // RVA: 0x7FFAF2D33FA0
+        public void GetValueSlow(){} // RVA: 0x7FFAF2D33FA0
+        public void SetValueSlow(){} // RVA: 0x7FFAF2D33FA0
+        public void CreateLinkedSlot(){} // RVA: 0x7FFAF2D33FA0
+        public void get_IsValueCreated(){} // RVA: 0x7FFAF2ABDBE0
+        public void GrowTable(){} // RVA: 0x7FFAF2ADBAA0
+        public void GetNewTableSize(){} // RVA: 0x7FFAF2AC3FF0
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
     }
 
-    public class _ThreadPoolWaitCallback : Object
+    public class ThreadLocal`1
     {
         // ── Methods ──
-        public void PerformWaitCallback(){} // RVA: 0x7FFE86A7ACF0
+        public void .ctor(){} // RVA: 0x7FFAF6E9A620 | overloaded x2
+        public void Initialize(){} // RVA: 0x7FFAF6E9A790
+        public void Finalize(){} // RVA: 0x7FFAF6E9A910
+        public void Dispose(){} // RVA: 0x7FFAF6E9A9F0 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF6E9ADC0
+        public void get_Value(){} // RVA: 0x7FFAF6E9AE70
+        public void set_Value(){} // RVA: 0x7FFAF6E9AF90
+        public void GetValueSlow(){} // RVA: 0x7FFAF6E9B0B0
+        public void SetValueSlow(){} // RVA: 0x7FFAF6E9B300
+        public void CreateLinkedSlot(){} // RVA: 0x7FFAF6E9B8F0
+        public void get_IsValueCreated(){} // RVA: 0x7FFAF6E9BDE0
+        public void GrowTable(){} // RVA: 0x7FFAF6E9BEF0
+        public void GetNewTableSize(){} // RVA: 0x7FFAF6E9C240
+        public void .cctor(){} // RVA: 0x7FFAF6E9C280
+    }
+
+    public class ThreadPool
+    {
+        // ── Methods ──
+        public void GetMaxThreads(){} // RVA: 0x7FFAF89EA360
+        public void GetMinThreads(){} // RVA: 0x7FFAF89EA3B0
+        public void GetAvailableThreads(){} // RVA: 0x7FFAF89EA400
+        public void RegisterWaitForSingleObject(){} // RVA: 0x7FFAF89EA8F0 | overloaded x3
+        public void QueueUserWorkItem(){} // RVA: 0x7FFAF2D33FA0 | overloaded x3
+        public void UnsafeQueueUserWorkItem(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void QueueUserWorkItemHelper(){} // RVA: 0x7FFAF89EACD0
+        public void UnsafeQueueCustomWorkItem(){} // RVA: 0x7FFAF89EB060
+        public void TryPopCustomWorkItem(){} // RVA: 0x7FFAF89EB150
+        public void RequestWorkerThread(){} // RVA: 0x7FFAF89EB290
+        public void EnsureVMInitialized(){} // RVA: 0x7FFAF89EB2B0
+        public void GetMinThreadsNative(){} // RVA: 0x7FFAF89EA3B0
+        public void GetMaxThreadsNative(){} // RVA: 0x7FFAF89EA360
+        public void GetAvailableThreadsNative(){} // RVA: 0x7FFAF89EA400
+        public void NotifyWorkItemComplete(){} // RVA: 0x7FFAF89EB360
+        public void ReportThreadStatus(){} // RVA: 0x7FFAF884BDA0
+        public void NotifyWorkItemProgress(){} // RVA: 0x7FFAF86E5160
+        public void NotifyWorkItemProgressNative(){} // RVA: 0x7FFAF89EB3F0
+        public void NotifyWorkItemQueued(){} // RVA: 0x7FFAF2D8D310
+        public void InitializeVMTp(){} // RVA: 0x7FFAF89EB450
+        public void get_IsThreadPoolThread(){} // RVA: 0x7FFAF89EB460
+    }
+
+    public class ThreadPoolBoundHandle
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF3AD0CE0
+        public void .ctor(){} // RVA: 0x7FFAF89D8620
+        public void get_Handle(){} // RVA: 0x7FFAF2DA8380
+        public void BindHandle(){} // RVA: 0x7FFAF89D86D0
+        public void AllocateNativeOverlapped(){} // RVA: 0x7FFAF89D8C60
+        public void FreeNativeOverlapped(){} // RVA: 0x7FFAF89D8EF0
+        public void GetNativeOverlappedState(){} // RVA: 0x7FFAF89D9200
+        public void GetOverlappedData(){} // RVA: 0x7FFAF89D92E0
+        public void OnNativeIOCompleted(){} // RVA: 0x7FFAF89D9420
+        public void AddRef(){} // RVA: 0x7FFAF89D9630
+        public void Release(){} // RVA: 0x7FFAF89D96B0
+        public void Dispose(){} // RVA: 0x7FFAF89D9780
+        public void Finalize(){} // RVA: 0x7FFAF89D9870
+        public void System.Threading.IDeferredDisposable.OnFinalRelease(){} // RVA: 0x7FFAF89D98C0
+    }
+
+    public class ThreadPoolCallbackWrapper
+    {
+        // ── Methods ──
+        public void Enter(){} // RVA: 0x7FFAF89D84D0
+        public void Exit(){} // RVA: 0x7FFAF89D8600
+    }
+
+    public class ThreadPoolGlobals
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF89E6F20
+    }
+
+    public class ThreadPoolWorkQueue
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF89E70F0
+        public void EnsureCurrentThreadHasQueue(){} // RVA: 0x7FFAF89E7200
+        public void EnsureThreadRequested(){} // RVA: 0x7FFAF89E7350
+        public void MarkThreadRequestSatisfied(){} // RVA: 0x7FFAF89E73F0
+        public void Enqueue(){} // RVA: 0x7FFAF89E7420
+        public void LocalFindAndPop(){} // RVA: 0x7FFAF89E7690
+        public void Dequeue(){} // RVA: 0x7FFAF89E7740
+        public void Dispatch(){} // RVA: 0x7FFAF89E7A00
+        public void .cctor(){} // RVA: 0x7FFAF89E7FC0
+    }
+
+    public class ThreadPoolWorkQueueThreadLocals
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF89E99C0
+        public void CleanUp(){} // RVA: 0x7FFAF89E9CB0
+        public void Finalize(){} // RVA: 0x7FFAF89E9E50
+    }
+
+    public class ThreadStart
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2DEB980
+        public void Invoke(){} // RVA: 0x7FFAF2DEBA50
+    }
+
+    public class ThreadStateException
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF44EE1C0 | overloaded x3
+    }
+
+    public class Timeout
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF89D2470
+    }
+
+    public class TimeoutHelper
+    {
+        // ── Methods ──
+        public void GetTime(){} // RVA: 0x7FFAF89AE300
+        public void UpdateTimeOut(){} // RVA: 0x7FFAF89D5230
+    }
+
+    public class Timer
+    {
+        // ── Methods ──
+        public void get_scheduler(){} // RVA: 0x7FFAF89EFF50
+        public void .ctor(){} // RVA: 0x7FFAF89F0100 | overloaded x3
+        public void Init(){} // RVA: 0x7FFAF89F0130
+        public void Change(){} // RVA: 0x7FFAF89F03A0 | overloaded x3
+        public void Dispose(){} // RVA: 0x7FFAF89F0360
+        public void DisposeAsync(){} // RVA: 0x7FFAF89F0610
+        public void KeepRootedWhileScheduled(){} // RVA: 0x7FFAF2D8D310
+        public void GetTimeMonotonic(){} // RVA: 0x7FFAF89F0750
+    }
+
+    public class TimerCallback
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2E0D190
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+    }
+
+    public class Volatile
+    {
+        // ── Methods ──
+        public void Read(){} // RVA: 0x7FFAF2D33FA0 | overloaded x4
+        public void Write(){} // RVA: 0x7FFAF2D33FA0 | overloaded x3
+    }
+
+    public class WaitCallback
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2E0D190
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+    }
+
+    public class WaitHandle
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF89EB4D0
+        public void Init(){} // RVA: 0x7FFAF89EB4D0
+        public void get_Handle(){} // RVA: 0x7FFAF89EB590
+        public void set_Handle(){} // RVA: 0x7FFAF89EB620
+        public void get_SafeWaitHandle(){} // RVA: 0x7FFAF89EB7E0
+        public void SetHandleInternal(){} // RVA: 0x7FFAF89EB930
+        public void WaitOne(){} // RVA: 0x7FFAF89EBB70 | overloaded x6
+        public void InternalWaitOne(){} // RVA: 0x7FFAF89EBCD0
+        public void WaitAny(){} // RVA: 0x7FFAF89EC1A0 | overloaded x2
+        public void ThrowAbandonedMutexException(){} // RVA: 0x7FFAF89EC320 | overloaded x2
+        public void Close(){} // RVA: 0x7FFAF89EC380
+        public void Dispose(){} // RVA: 0x7FFAF89EC440 | overloaded x2
+        public void WaitOneNative(){} // RVA: 0x7FFAF89EC4B0
+        public void WaitMultiple(){} // RVA: 0x7FFAF89EC710
+        public void Wait_internal(){} // RVA: 0x7FFAF89ECD10
+        public void .cctor(){} // RVA: 0x7FFAF89ECD20
+    }
+
+    public class WaitHandleCannotBeOpenedException
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF8822D30 | overloaded x3
+    }
+
+    public class WaitOrTimerCallback
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF62A2520
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    }
+
+    public class Win32ThreadPoolNativeOverlapped
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF3AD0CE0
+        public void get_Data(){} // RVA: 0x7FFAF89D9900
+        public void Allocate(){} // RVA: 0x7FFAF89D9980
+        public void AllocateNew(){} // RVA: 0x7FFAF89D9A70
+        public void SetData(){} // RVA: 0x7FFAF89D9ED0
+        public void Free(){} // RVA: 0x7FFAF89DA300
+        public void ToNativeOverlapped(){} // RVA: 0x7FFAF44EF520
+        public void FromNativeOverlapped(){} // RVA: 0x7FFAF44EF520
+        public void CompleteWithCallback(){} // RVA: 0x7FFAF89DA3D0
+        public void OnExecutionContextCallback(){} // RVA: 0x7FFAF89DA710
+    }
+
+    public class _ThreadPoolWaitCallback
+    {
+        // ── Methods ──
+        public void PerformWaitCallback(){} // RVA: 0x7FFAF89E9ED0
     }
 
 }

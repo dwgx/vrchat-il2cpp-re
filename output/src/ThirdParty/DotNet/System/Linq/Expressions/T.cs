@@ -5,108 +5,82 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class TryExpression : Expression
+    public class TryExpression
     {
-        public System.Type _type; // 0x10
-        public System.Linq.Expressions.Expression _body; // 0x18
-        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.CatchBlock> _handlers; // 0x20
-        public System.Linq.Expressions.Expression _finally; // 0x28
-        public System.Linq.Expressions.Expression _fault; // 0x30
-        public object field_5; // 0x25E
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87144DF0 | overloaded x2
-        public void get_Type(){} // RVA: 0x7FFE81116380
-        public void get_NodeType(){} // RVA: 0x7FFE87144CA0
-        public void get_Body(){} // RVA: 0x7FFE810FE7C0
-        public void get_Handlers(){} // RVA: 0x7FFE811290C0
-        public void get_Finally(){} // RVA: 0x7FFE81129130
-        public void get_Fault(){} // RVA: 0x7FFE8144E200
-        public void Accept(){} // RVA: 0x7FFE87144CB0
-        public void Update(){} // RVA: 0x7FFE87144CE0
+        public void .ctor(){} // RVA: 0x7FFAF90B5F20 | overloaded x2
+        public void get_Type(){} // RVA: 0x7FFAF2DA8380
+        public void get_NodeType(){} // RVA: 0x7FFAF90B5DD0
+        public void get_Body(){} // RVA: 0x7FFAF2D907C0
+        public void get_Handlers(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_Finally(){} // RVA: 0x7FFAF2DBB130
+        public void get_Fault(){} // RVA: 0x7FFAF30E74D0
+        public void Accept(){} // RVA: 0x7FFAF90B5DE0
+        public void Update(){} // RVA: 0x7FFAF90B5E10
     }
 
-    public class TypeBinaryExpression : Expression
+    public class TypeBinaryExpression
     {
-        public 0x665E5D54 _nodeType; // 0x10
-        public System.Linq.Expressions.Expression _expression; // 0x18
-        public System.Type _typeOperand; // 0x20
-        public object field_3; // 0x264
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87145FF0 | overloaded x2
-        public void get_Type(){} // RVA: 0x7FFE87144F40
-        public void get_NodeType(){} // RVA: 0x7FFE811485C0
-        public void get_Expression(){} // RVA: 0x7FFE810FE7C0
-        public void get_TypeOperand(){} // RVA: 0x7FFE811290C0
-        public void ReduceTypeEqual(){} // RVA: 0x7FFE87144FF0
-        public void ByValParameterTypeEqual(){} // RVA: 0x7FFE871457C0
-        public void ReduceConstantTypeEqual(){} // RVA: 0x7FFE87145D40
-        public void Accept(){} // RVA: 0x7FFE87145F00
-        public void Update(){} // RVA: 0x7FFE87145F30
+        public void .ctor(){} // RVA: 0x7FFAF90B7120 | overloaded x2
+        public void get_Type(){} // RVA: 0x7FFAF90B6070
+        public void get_NodeType(){} // RVA: 0x7FFAF2DDA5C0
+        public void get_Expression(){} // RVA: 0x7FFAF2D907C0
+        public void get_TypeOperand(){} // RVA: 0x7FFAF2DBB0C0
+        public void ReduceTypeEqual(){} // RVA: 0x7FFAF90B6120
+        public void ByValParameterTypeEqual(){} // RVA: 0x7FFAF90B68F0
+        public void ReduceConstantTypeEqual(){} // RVA: 0x7FFAF90B6E70
+        public void Accept(){} // RVA: 0x7FFAF90B7030
+        public void Update(){} // RVA: 0x7FFAF90B7060
     }
 
-    public class TypedConstantExpression : ConstantExpression
+    public class TypedConstantExpression
     {
-        public System.Type _type; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8711F1F0
-        public void get_Type(){} // RVA: 0x7FFE810FE7C0
+        public void .ctor(){} // RVA: 0x7FFAF9090360
+        public void get_Type(){} // RVA: 0x7FFAF2D907C0
     }
 
-    public class TypedDynamicExpression1 : DynamicExpression1
+    public class TypedDynamicExpression1
     {
-        public System.Type _type; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87126220
-        public void get_Type(){} // RVA: 0x7FFE81129130
+        public void .ctor(){} // RVA: 0x7FFAF9097390
+        public void get_Type(){} // RVA: 0x7FFAF2DBB130
     }
 
-    public class TypedDynamicExpression2 : DynamicExpression2
+    public class TypedDynamicExpression2
     {
-        public System.Type _type; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87126970
-        public void get_Type(){} // RVA: 0x7FFE8144E200
+        public void .ctor(){} // RVA: 0x7FFAF9097AE0
+        public void get_Type(){} // RVA: 0x7FFAF30E74D0
     }
 
-    public class TypedDynamicExpression3 : DynamicExpression3
+    public class TypedDynamicExpression3
     {
-        public System.Type _type; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87126F20
-        public void get_Type(){} // RVA: 0x7FFE8143BA80
+        public void .ctor(){} // RVA: 0x7FFAF9098090
+        public void get_Type(){} // RVA: 0x7FFAF2F476A0
     }
 
-    public class TypedDynamicExpression4 : DynamicExpression4
+    public class TypedDynamicExpression4
     {
-        public System.Type _type; // 0x40
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE871275A0
-        public void get_Type(){} // RVA: 0x7FFE81178740
+        public void .ctor(){} // RVA: 0x7FFAF9098710
+        public void get_Type(){} // RVA: 0x7FFAF2E0A740
     }
 
-    public class TypedDynamicExpressionN : DynamicExpressionN
+    public class TypedDynamicExpressionN
     {
-        public System.Type _type; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87126220
-        public void get_Type(){} // RVA: 0x7FFE81129130
+        public void .ctor(){} // RVA: 0x7FFAF9097390
+        public void get_Type(){} // RVA: 0x7FFAF2DBB130
     }
 
-    public class TypedParameterExpression : ParameterExpression
+    public class TypedParameterExpression
     {
-        public System.Type _type; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87140B60
-        public void get_Type(){} // RVA: 0x7FFE810FE7C0
+        public void .ctor(){} // RVA: 0x7FFAF90B1CA0
+        public void get_Type(){} // RVA: 0x7FFAF2D907C0
     }
 
 }

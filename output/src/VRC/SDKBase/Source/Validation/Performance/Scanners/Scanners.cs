@@ -5,14 +5,12 @@
 
 namespace VRC.SDKBase.Source.Validation.Performance.Scanners
 {
-    public class PerformanceScannerPlaceholder : MonoBehaviour
+    public class PerformanceScannerPlaceholder
     {
-        public System.Type _type; // 0x20
-
         // ── Methods ──
-        public void get_type(){} // RVA: 0x7FFE811290C0
-        public void set_type(){} // RVA: 0x7FFE8A5054B0
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void get_type(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_type(){} // RVA: 0x7FFAFC573640
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
 }

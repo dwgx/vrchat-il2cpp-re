@@ -1,83 +1,76 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Networking
 // Classes: 4
-// Methods: 48
+// Methods: 47
 
 namespace VRC.Networking
 {
-    public class SerializationRecoveryHandler : Object
+    public class SerializationRecoveryHandler
     {
-        public VRC.Networking.SerializationRecoveryHandler _m_CachedPtr;
-
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE814081F0
-        public void Equals(){} // RVA: 0x7FFE81408290
-        public void GetHashCode(){} // RVA: 0x7FFE814084A0
-        public void op_Implicit(){} // RVA: 0x7FFE814084E0
-        public void CompareBaseObjects(){} // RVA: 0x7FFE81408580
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE814085C0
-        public void GetCachedPtr(){} // RVA: 0x7FFE814088D0
-        public void .ctor(){} // RVA: 0x7FFE81408970
-        public void Initialize(){} // RVA: 0x7FFE81408A30
-        public void Init(){} // RVA: 0x7FFE81408C20
-        public void Instantiate(){} // RVA: 0x7FFE81408EF0
-        public void ToString(){} // RVA: 0x7FFE81409200
-        public void ToString_5A81B0487880(){} // RVA: 0x7FFE81409240
+        public void GetInstanceID(){} // RVA: 0x7FFAF30B43E0
+        public void Init(){} // RVA: 0x7FFAF30B46F0
+        public void GetHashCode(){} // RVA: 0x7FFAF30B4920
+        public void .ctor(){} // RVA: 0x7FFAF30B4B20
+        public void Initialize(){} // RVA: 0x7FFAF30B4BE0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFAF30B4DD0
+        public void .ctor_9C6B3917E9EE(){} // RVA: 0x7FFAF30B4E70
+        public void Initialize_A864127996DF(){} // RVA: 0x7FFAF30B5180
+        public void set_name(){} // RVA: 0x7FFAF30B5220
+        public void Instantiate(){} // RVA: 0x7FFAF30B5260
+        public void Init_5775C93E6E60(){} // RVA: 0x7FFAF30B5300
         // ── Unresolved (hash) ──
-        public void m_8AC(){} // RVA: 0x7FFE81409550
+        public void m_C92(){} // RVA: 0x7FFAF30B5530
+        public void m_5D1(){} // RVA: 0x7FFAF30B55D0
     }
 
-    public class UdonClientImageDownloader : Object
+    public class UdonClientImageDownloader
     {
-        public System.Lazy`1<string> _udonClientImageDownloader;
-
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE81433B80
-        public void Equals(){} // RVA: 0x7FFE81433C00
-        public void GetHashCode(){} // RVA: 0x7FFE81433C80
-        public void op_Implicit(){} // RVA: 0x7FFE81433E60
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE81433EE0
-        public void Initialize(){} // RVA: 0x7FFE81434020
-        public void get_name(){} // RVA: 0x7FFE81434200
-        public void set_name(){} // RVA: 0x7FFE814342F0
-        public void Instantiate(){} // RVA: 0x7FFE814344D0
-        public void .cctor(){} // RVA: 0x7FFE81434570
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Equals(){} // RVA: 0x7FFAF3104B60
+        public void GetHashCode(){} // RVA: 0x7FFAF3104CA0
+        public void .cctor(){} // RVA: 0x7FFAF3104D20
+        public void CompareBaseObjects(){} // RVA: 0x7FFAF3104E60
+        public void Initialize_214045A6C8B4(){} // RVA: 0x7FFAF3104EE0
+        public void GetCachedPtr(){} // RVA: 0x7FFAF31050C0
+        public void get_name(){} // RVA: 0x7FFAF31051B0
+        public void set_name(){} // RVA: 0x7FFAF3105230
+        public void Instantiate(){} // RVA: 0x7FFAF31052B0
+        public void Initialize(){} // RVA: 0x7FFAF3105350
     }
 
-    public class UdonClientStringDownloader : Object
+    public class UdonClientStringDownloader
     {
-        public System.Lazy`1<string> _udonClientStringDownloader;
-
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE8145BC90
-        public void Equals(){} // RVA: 0x7FFE8145BE70
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void op_Implicit(){} // RVA: 0x7FFE8145BFB0
-        public void CompareBaseObjects(){} // RVA: 0x7FFE8145C150
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE8145C1D0
-        public void GetCachedPtr(){} // RVA: 0x7FFE8145C250
-        public void Initialize(){} // RVA: 0x7FFE8145C430
-        public void set_name(){} // RVA: 0x7FFE8145C610
-        public void .cctor(){} // RVA: 0x7FFE8145C750
-        public void Instantiate(){} // RVA: 0x7FFE8145C890
-        public void GetHashCode(){} // RVA: 0x7FFE8145C980
+        public void GetInstanceID(){} // RVA: 0x7FFAF3106340
+        public void .cctor(){} // RVA: 0x7FFAF31063C0
+        public void Initialize(){} // RVA: 0x7FFAF3106500
+        public void op_Implicit(){} // RVA: 0x7FFAF31066E0
+        public void CompareBaseObjects(){} // RVA: 0x7FFAF31068C0
+        public void IsNativeObjectAlive(){} // RVA: 0x7FFAF3106A00
+        public void GetCachedPtr(){} // RVA: 0x7FFAF3106A80
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void set_name(){} // RVA: 0x7FFAF3106C20
+        public void .ctor_E600172D2ABC(){} // RVA: 0x7FFAF3106E00
+        public void Instantiate(){} // RVA: 0x7FFAF3106E80
+        public void GetHashCode(){} // RVA: 0x7FFAF3106F70
     }
 
-    public class VRCPhotonEventSequence : Object
+    public class VRCPhotonEventSequence
     {
         // ── Methods ──
-        public void GetNextReliableSerializationChannel(){} // RVA: 0x7FFE88103820
-        public void GetNextUnreliableSerializationChannel(){} // RVA: 0x7FFE881038C0
-        public void GetNextPlayerSerializationChannel(){} // RVA: 0x7FFE88103950
-        public void GetNextUdonSerializationChannel(){} // RVA: 0x7FFE881039F0
-        public void IsReliableChannel(){} // RVA: 0x7FFE88103A90
-        public void IsUnreliableChannel(){} // RVA: 0x7FFE88103AA0
-        public void IsPlayerChannel(){} // RVA: 0x7FFE88103AB0
-        public void IsUdonChannel(){} // RVA: 0x7FFE88103AC0
-        public void IsVoiceChannel(){} // RVA: 0x7FFE88103AD0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE88103AE0
+        public void GetNextReliableSerializationChannel(){} // RVA: 0x7FFAFA0767D0
+        public void GetNextUnreliableSerializationChannel(){} // RVA: 0x7FFAFA076870
+        public void GetNextPlayerSerializationChannel(){} // RVA: 0x7FFAFA076900
+        public void GetNextUdonSerializationChannel(){} // RVA: 0x7FFAFA0769A0
+        public void IsReliableChannel(){} // RVA: 0x7FFAFA076A40
+        public void IsUnreliableChannel(){} // RVA: 0x7FFAFA076A50
+        public void IsPlayerChannel(){} // RVA: 0x7FFAFA076A60
+        public void IsUdonChannel(){} // RVA: 0x7FFAFA076A70
+        public void IsVoiceChannel(){} // RVA: 0x7FFAFA076A80
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFA076A90
     }
 
 }

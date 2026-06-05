@@ -1,0 +1,13 @@
+{
+  "PlayerMoveNext_D033::m_F46": "MoveNext",
+  "PlayerMoveNext_D033::m_E82": "Reset",
+  "PlayerMoveNext_D033::m_BFC": "get_Current",
+  "PlayerMoveNext_D033::m_9B7": "GetEnumerator",
+  "PlayerMoveNext_DF47::m_644": "MoveNext",
+  "PlayerMoveNext_DF47::m_18A": "Reset",
+  "PlayerMoveNext_DF47::m_AEB": "get_Current",
+  "PlayerMoveNext_DF47::m_817": "GetEnumerator",
+  "EffectBundleIDIsSpecialFX_5D40::m_A77": "get_IsSpecialFX",
+  "EffectBundleIDIsSpecialFX_5D40::m_64C": "get_EffectBundleID",
+  "NetworkSyncable_2FB8::m_97E": "get_TypeId"
+}

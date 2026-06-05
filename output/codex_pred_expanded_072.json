@@ -1,0 +1,22 @@
+{
+  "PlayerMoveNext_D561::m_CBC": "MoveNext",
+  "PlayerMoveNext_D561::m_2AD": "Reset",
+  "PlayerMoveNext_D97C::m_F88": "MoveNext",
+  "PlayerMoveNext_D97C::m_668": "Reset",
+  "PlayerMoveNext_DAD1::m_2A0": "MoveNext",
+  "PlayerMoveNext_DAD1::m_015": "Reset",
+  "PlayerMoveNext_DCDF::m_C45": "MoveNext",
+  "PlayerMoveNext_DCDF::m_E82": "Reset",
+  "PlayerMoveNext_DFCB::m_F88": "MoveNext",
+  "PlayerMoveNext_DFCB::m_75E": "Reset",
+  "PlayerMoveNext_E164::m_4F1": "MoveNext",
+  "PlayerMoveNext_E164::m_288": "Reset",
+  "PlayerMoveNext_E2E4::m_AE3": "MoveNext",
+  "PlayerMoveNext_E2E4::m_DB7": "Reset",
+  "PlayerMoveNext_E310::m_428": "MoveNext",
+  "PlayerMoveNext_E310::m_124": "Reset",
+  "PlayerMoveNext_E601::m_668": "MoveNext",
+  "PlayerMoveNext_E601::m_D51": "Reset",
+  "PlayerMoveNext_E755::m_D23": "MoveNext",
+  "PlayerMoveNext_E755::m_EEE": "Reset"
+}

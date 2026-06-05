@@ -5,16 +5,16 @@
 
 namespace ThirdParty.Unity.UnityEngine.Scripting.APIUpdating
 {
-    public class MovedFromAttribute : Attribute
+    public class MovedFromAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87C89B90 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF9BF8F20 | overloaded x2
     }
 
-    public class MovedFromAttributeData : ValueType
+    public class MovedFromAttributeData
     {
         // ── Methods ──
-        public void Set(){} // RVA: 0x7FFE87C89A20
+        public void Set(){} // RVA: 0x7FFAF9BF8DB0
     }
 
 }

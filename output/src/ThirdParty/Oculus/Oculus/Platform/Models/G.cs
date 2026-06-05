@@ -5,16 +5,16 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class GroupPresenceJoinIntent : Object
+    public class GroupPresenceJoinIntent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C28960
+        public void .ctor(){} // RVA: 0x7FFAF8B97B90
     }
 
-    public class GroupPresenceLeaveIntent : Object
+    public class GroupPresenceLeaveIntent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C28D90
+        public void .ctor(){} // RVA: 0x7FFAF8B97FC0
     }
 
 }

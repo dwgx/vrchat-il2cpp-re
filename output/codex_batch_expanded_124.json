@@ -1,0 +1,127 @@
+[
+  {
+    "class": "SerializableVector3SiblingSiblSibling_9BD8",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B6F",
+      "m_917"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_16C6",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9F1"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_59F4",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_020"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSibling_5091",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_028"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSibling_AE6E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_41F"
+    ]
+  },
+  {
+    "class": "AsyncSetup",
+    "parent": "",
+    "namespace": "Photon.Realtime",
+    "readable_methods": [
+      "Startup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_505",
+      "m_FBA"
+    ]
+  },
+  {
+    "class": "ctorDerived_64B1",
+    "parent": ".ctor",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_203",
+      "m_E6F"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_D8D2",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_028"
+    ]
+  },
+  {
+    "class": "Execute_FD7A_8412",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "HasValidInternalValue"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C12",
+      "m_4A3"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_40EF",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BEE",
+      "m_F46"
+    ]
+  }
+]

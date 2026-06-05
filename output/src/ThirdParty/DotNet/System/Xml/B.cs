@@ -5,125 +5,121 @@
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class Base64Encoder : Object
+    public class Base64Encoder
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87427F30
+        public void .ctor(){} // RVA: 0x7FFAF9398C60
         public void WriteChars(){}
-        public void Encode(){} // RVA: 0x7FFE87427FC0
-        public void Flush(){} // RVA: 0x7FFE874283E0
+        public void Encode(){} // RVA: 0x7FFAF9398CF0
+        public void Flush(){} // RVA: 0x7FFAF9399110
     }
 
-    public class BinHexDecoder : IncrementalReadDecoder
+    public class BinHexDecoder
     {
-        public byte[] buffer; // 0x10
-
         // ── Methods ──
-        public void get_IsFull(){} // RVA: 0x7FFE827C3B60
-        public void Decode(){} // RVA: 0x7FFE874289C0 | overloaded x3
+        public void get_IsFull(){} // RVA: 0x7FFAF44EDB40
+        public void Decode(){} // RVA: 0x7FFAF93996F0 | overloaded x3
     }
 
-    public class BinHexEncoder : Object
+    public class BinHexEncoder
     {
         // ── Methods ──
-        public void Encode(){} // RVA: 0x7FFE87428F60 | overloaded x3
+        public void Encode(){} // RVA: 0x7FFAF9399C90 | overloaded x3
     }
 
-    public class BinXmlDateTime : Object
+    public class BinXmlDateTime
     {
         // ── Methods ──
-        public void Write2Dig(){} // RVA: 0x7FFE869C0B90
-        public void Write4DigNeg(){} // RVA: 0x7FFE8742A120
-        public void Write3Dec(){} // RVA: 0x7FFE8742A1D0
-        public void WriteDate(){} // RVA: 0x7FFE8742A3C0
-        public void WriteTime(){} // RVA: 0x7FFE8742A5A0
-        public void WriteTimeFullPrecision(){} // RVA: 0x7FFE8742A710
-        public void WriteTimeZone(){} // RVA: 0x7FFE8742AB30 | overloaded x2
-        public void BreakDownXsdDateTime(){} // RVA: 0x7FFE8742AC70
-        public void BreakDownXsdDate(){} // RVA: 0x7FFE8742AE90
-        public void BreakDownXsdTime(){} // RVA: 0x7FFE8742B040
-        public void XsdDateTimeToString(){} // RVA: 0x7FFE8742B190
-        public void XsdDateToString(){} // RVA: 0x7FFE8742B580
-        public void XsdTimeToString(){} // RVA: 0x7FFE8742B900
-        public void SqlDateTimeToString(){} // RVA: 0x7FFE8742BB90
-        public void SqlDateTimeToDateTime(){} // RVA: 0x7FFE8742BDA0
-        public void SqlSmallDateTimeToString(){} // RVA: 0x7FFE8742BEF0
-        public void SqlSmallDateTimeToDateTime(){} // RVA: 0x7FFE8742C0A0
-        public void XsdKatmaiDateToDateTime(){} // RVA: 0x7FFE8742C120
-        public void XsdKatmaiDateTimeToDateTime(){} // RVA: 0x7FFE8742C240
-        public void XsdKatmaiTimeToDateTime(){} // RVA: 0x7FFE8742C380
-        public void XsdKatmaiDateOffsetToDateTimeOffset(){} // RVA: 0x7FFE8742C3E0
-        public void XsdKatmaiDateTimeOffsetToDateTimeOffset(){} // RVA: 0x7FFE8742C460
-        public void XsdKatmaiTimeOffsetToDateTimeOffset(){} // RVA: 0x7FFE8742C590
-        public void XsdKatmaiDateToString(){} // RVA: 0x7FFE8742C610
-        public void XsdKatmaiDateTimeToString(){} // RVA: 0x7FFE8742C920
-        public void XsdKatmaiTimeToString(){} // RVA: 0x7FFE8742CD30
-        public void XsdKatmaiDateOffsetToString(){} // RVA: 0x7FFE8742D020
-        public void XsdKatmaiDateTimeOffsetToString(){} // RVA: 0x7FFE8742D230
-        public void XsdKatmaiTimeOffsetToString(){} // RVA: 0x7FFE8742D4D0
-        public void GetKatmaiDateTicks(){} // RVA: 0x7FFE8742D700
-        public void GetKatmaiTimeTicks(){} // RVA: 0x7FFE8742D770
-        public void GetKatmaiTimeZoneTicks(){} // RVA: 0x7FFE8742D9C0
-        public void GetFractions(){} // RVA: 0x7FFE8742DC60 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE8742DDF0
+        public void Write2Dig(){} // RVA: 0x7FFAF892FD50
+        public void Write4DigNeg(){} // RVA: 0x7FFAF939AE50
+        public void Write3Dec(){} // RVA: 0x7FFAF939AF00
+        public void WriteDate(){} // RVA: 0x7FFAF939B0F0
+        public void WriteTime(){} // RVA: 0x7FFAF939B2D0
+        public void WriteTimeFullPrecision(){} // RVA: 0x7FFAF939B440
+        public void WriteTimeZone(){} // RVA: 0x7FFAF939B860 | overloaded x2
+        public void BreakDownXsdDateTime(){} // RVA: 0x7FFAF939B9A0
+        public void BreakDownXsdDate(){} // RVA: 0x7FFAF939BBC0
+        public void BreakDownXsdTime(){} // RVA: 0x7FFAF939BD70
+        public void XsdDateTimeToString(){} // RVA: 0x7FFAF939BEC0
+        public void XsdDateToString(){} // RVA: 0x7FFAF939C2B0
+        public void XsdTimeToString(){} // RVA: 0x7FFAF939C630
+        public void SqlDateTimeToString(){} // RVA: 0x7FFAF939C8C0
+        public void SqlDateTimeToDateTime(){} // RVA: 0x7FFAF939CAD0
+        public void SqlSmallDateTimeToString(){} // RVA: 0x7FFAF939CC20
+        public void SqlSmallDateTimeToDateTime(){} // RVA: 0x7FFAF939CDD0
+        public void XsdKatmaiDateToDateTime(){} // RVA: 0x7FFAF939CE50
+        public void XsdKatmaiDateTimeToDateTime(){} // RVA: 0x7FFAF939CF70
+        public void XsdKatmaiTimeToDateTime(){} // RVA: 0x7FFAF939D0B0
+        public void XsdKatmaiDateOffsetToDateTimeOffset(){} // RVA: 0x7FFAF939D110
+        public void XsdKatmaiDateTimeOffsetToDateTimeOffset(){} // RVA: 0x7FFAF939D190
+        public void XsdKatmaiTimeOffsetToDateTimeOffset(){} // RVA: 0x7FFAF939D2C0
+        public void XsdKatmaiDateToString(){} // RVA: 0x7FFAF939D340
+        public void XsdKatmaiDateTimeToString(){} // RVA: 0x7FFAF939D650
+        public void XsdKatmaiTimeToString(){} // RVA: 0x7FFAF939DA60
+        public void XsdKatmaiDateOffsetToString(){} // RVA: 0x7FFAF939DD50
+        public void XsdKatmaiDateTimeOffsetToString(){} // RVA: 0x7FFAF939DF60
+        public void XsdKatmaiTimeOffsetToString(){} // RVA: 0x7FFAF939E200
+        public void GetKatmaiDateTicks(){} // RVA: 0x7FFAF939E430
+        public void GetKatmaiTimeTicks(){} // RVA: 0x7FFAF939E4A0
+        public void GetKatmaiTimeZoneTicks(){} // RVA: 0x7FFAF939E6F0
+        public void GetFractions(){} // RVA: 0x7FFAF939E990 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF939EB20
     }
 
-    public class BinXmlSqlDecimal : ValueType
+    public class BinXmlSqlDecimal
     {
-        public byte m_bLen; // 0x10
-
         // ── Methods ──
-        public void get_IsPositive(){} // RVA: 0x7FFE874290A0
-        public void .ctor(){} // RVA: 0x7FFE874290B0
-        public void UIntFromByteArray(){} // RVA: 0x7FFE86807060
-        public void MpDiv1(){} // RVA: 0x7FFE87429440
-        public void MpNormalize(){} // RVA: 0x7FFE872C0630
-        public void ChFromDigit(){} // RVA: 0x7FFE872C1F40
-        public void ToDecimal(){} // RVA: 0x7FFE87429540
-        public void TrimTrailingZeros(){} // RVA: 0x7FFE87429650
-        public void ToString(){} // RVA: 0x7FFE874298B0
-        public void .cctor(){} // RVA: 0x7FFE87429C40
+        public void get_IsPositive(){} // RVA: 0x7FFAF9399DD0
+        public void .ctor(){} // RVA: 0x7FFAF9399DE0
+        public void UIntFromByteArray(){} // RVA: 0x7FFAF8776160
+        public void MpDiv1(){} // RVA: 0x7FFAF939A170
+        public void MpNormalize(){} // RVA: 0x7FFAF9231730
+        public void ChFromDigit(){} // RVA: 0x7FFAF9233040
+        public void ToDecimal(){} // RVA: 0x7FFAF939A270
+        public void TrimTrailingZeros(){} // RVA: 0x7FFAF939A380
+        public void ToString(){} // RVA: 0x7FFAF939A5E0
+        public void .cctor(){} // RVA: 0x7FFAF939A970
     }
 
-    public class BinXmlSqlMoney : ValueType
+    public class BinXmlSqlMoney
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE82889220 | overloaded x2
-        public void ToDecimal(){} // RVA: 0x7FFE87429EF0
-        public void ToString(){} // RVA: 0x7FFE87429F30
+        public void .ctor(){} // RVA: 0x7FFAF45C2320 | overloaded x2
+        public void ToDecimal(){} // RVA: 0x7FFAF939AC20
+        public void ToString(){} // RVA: 0x7FFAF939AC60
     }
 
-    public class BinaryCompatibility : Object
+    public class BinaryCompatibility
     {
         // ── Methods ──
-        public void get_TargetsAtLeast_Desktop_V4_5_2(){} // RVA: 0x7FFE811E0850
+        public void get_TargetsAtLeast_Desktop_V4_5_2(){} // RVA: 0x7FFAF2E72850
     }
 
-    public class BitStack : Object
+    public class BitStack
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE826ABFC0
-        public void PushBit(){} // RVA: 0x7FFE8743CB60
-        public void PopBit(){} // RVA: 0x7FFE8743CBA0
-        public void PeekBit(){} // RVA: 0x7FFE8743CC00
-        public void PushCurr(){} // RVA: 0x7FFE8743CC10
-        public void PopCurr(){} // RVA: 0x7FFE8743CEC0
+        public void .ctor(){} // RVA: 0x7FFAF43D95C0
+        public void PushBit(){} // RVA: 0x7FFAF93AD890
+        public void PopBit(){} // RVA: 0x7FFAF93AD8D0
+        public void PeekBit(){} // RVA: 0x7FFAF93AD930
+        public void PushCurr(){} // RVA: 0x7FFAF93AD940
+        public void PopCurr(){} // RVA: 0x7FFAF93ADBF0
     }
 
-    public class Bits : Object
+    public class Bits
     {
         // ── Methods ──
-        public void Count(){} // RVA: 0x7FFE8743CF00
-        public void LeastPosition(){} // RVA: 0x7FFE8743CFB0
-        public void .cctor(){} // RVA: 0x7FFE8743D0C0
+        public void Count(){} // RVA: 0x7FFAF93ADC30
+        public void LeastPosition(){} // RVA: 0x7FFAF93ADCE0
+        public void .cctor(){} // RVA: 0x7FFAF93ADDF0
     }
 
-    public class ByteStack : Object
+    public class ByteStack
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8743D160
-        public void Push(){} // RVA: 0x7FFE8743D200
-        public void Pop(){} // RVA: 0x7FFE8743D310
+        public void .ctor(){} // RVA: 0x7FFAF93ADE90
+        public void Push(){} // RVA: 0x7FFAF93ADF30
+        public void Pop(){} // RVA: 0x7FFAF93AE040
     }
 
 }

@@ -5,25 +5,25 @@
 
 namespace VRC.Compression
 {
-    public class GZip : Object
+    public class GZip
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x7FFE8A2B2750 | overloaded x2
-        public void Compress(){} // RVA: 0x7FFE8A2B27A0
-        public void CompressToFile(){} // RVA: 0x7FFE8A2B2B00 | overloaded x2
-        public void Decompress(){} // RVA: 0x7FFE8A2B2D60
-        public void DecompressToFile(){} // RVA: 0x7FFE8A2B3000 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void IsValid(){} // RVA: 0x7FFAFC3004B0 | overloaded x2
+        public void Compress(){} // RVA: 0x7FFAFC300500
+        public void CompressToFile(){} // RVA: 0x7FFAFC300860 | overloaded x2
+        public void Decompress(){} // RVA: 0x7FFAFC300AC0
+        public void DecompressToFile(){} // RVA: 0x7FFAFC300D60 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class GZipTest : MonoBehaviour
+    public class GZipTest
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFE8A2B31F0
-        public void RunBasicTests(){} // RVA: 0x7FFE8A2B3350
-        public void RunAssetBundleCompressionTest(){} // RVA: 0x7FFE8A2B31F0
-        public void RunImageCompressionTest(){} // RVA: 0x7FFE8A2B36C0
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void Start(){} // RVA: 0x7FFAFC300F50
+        public void RunBasicTests(){} // RVA: 0x7FFAFC3010B0
+        public void RunAssetBundleCompressionTest(){} // RVA: 0x7FFAFC300F50
+        public void RunImageCompressionTest(){} // RVA: 0x7FFAFC301420
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
 }

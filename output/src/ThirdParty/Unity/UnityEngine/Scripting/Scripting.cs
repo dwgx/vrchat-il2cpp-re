@@ -5,38 +5,32 @@
 
 namespace ThirdParty.Unity.UnityEngine.Scripting
 {
-    public class AlwaysLinkAssemblyAttribute : Attribute
+    public class AlwaysLinkAssemblyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class PreserveAttribute : Attribute
+    public class PreserveAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class RequiredByNativeCodeAttribute : Attribute
+    public class RequiredByNativeCodeAttribute
     {
-        public string _name; // 0x10
-        public bool _optional; // 0x18
-        public bool _generateProxy; // 0x19
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
-        public void set_Name(){} // RVA: 0x7FFE810FCE30
-        public void set_Optional(){} // RVA: 0x7FFE811164F0
-        public void set_GenerateProxy(){} // RVA: 0x7FFE81CD0510
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
+        public void set_Name(){} // RVA: 0x7FFAF2D8EE30
+        public void set_Optional(){} // RVA: 0x7FFAF2DA84F0
+        public void set_GenerateProxy(){} // RVA: 0x7FFAF39F3D70
     }
 
-    public class UsedByNativeCodeAttribute : Attribute
+    public class UsedByNativeCodeAttribute
     {
-        public string _name; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
-        public void set_Name(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
+        public void set_Name(){} // RVA: 0x7FFAF2D8EE30
     }
 
 }

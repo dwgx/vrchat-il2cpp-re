@@ -1,0 +1,142 @@
+[
+  {
+    "class": "NetworkItem_722FSibling_C8AE",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Initialize",
+      ".cctor",
+      ".ctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9F1",
+      "m_F29",
+      "m_BBA",
+      "m_968",
+      "m_23D",
+      "m_A9C",
+      "m_AE7",
+      "m_457",
+      "m_38F",
+      "m_74A",
+      "m_83C",
+      "m_9FA"
+    ],
+    "remaining_hash_methods": 25,
+    "total_methods": 37,
+    "signal_score": 83
+  },
+  {
+    "class": "VRC_MainSiblingSiblingSiblingSibling_FADB",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      ".ctor",
+      "Initialize",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_99B",
+      "m_92A",
+      "m_3A8",
+      "m_704",
+      "m_AF4",
+      "m_18B",
+      "m_692",
+      "m_34B",
+      "m_F37",
+      "m_4C6",
+      "m_919",
+      "m_886"
+    ],
+    "remaining_hash_methods": 25,
+    "total_methods": 29,
+    "signal_score": 83
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_97E7",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Dispose",
+      "Cleanup",
+      ".ctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F77",
+      "m_103",
+      "m_D80",
+      "m_66D",
+      "m_107",
+      "m_59C",
+      "m_482",
+      "m_77C",
+      "m_21B",
+      "m_AB9",
+      "m_B3F",
+      "m_349"
+    ],
+    "remaining_hash_methods": 24,
+    "total_methods": 33,
+    "signal_score": 82
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_97E7",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Dispose",
+      "Cleanup",
+      ".ctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F77",
+      "m_103",
+      "m_D80",
+      "m_66D",
+      "m_107",
+      "m_59C",
+      "m_482",
+      "m_77C",
+      "m_21B",
+      "m_AB9",
+      "m_B3F",
+      "m_349"
+    ],
+    "remaining_hash_methods": 24,
+    "total_methods": 33,
+    "signal_score": 82
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_97E7",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Dispose",
+      "Cleanup",
+      ".ctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F77",
+      "m_103",
+      "m_D80",
+      "m_66D",
+      "m_107",
+      "m_59C",
+      "m_482",
+      "m_77C",
+      "m_21B",
+      "m_AB9",
+      "m_B3F",
+      "m_349"
+    ],
+    "remaining_hash_methods": 24,
+    "total_methods": 33,
+    "signal_score": 82
+  }
+]

@@ -5,13 +5,13 @@
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class EmptyEnumerator : Object
+    public class EmptyEnumerator
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7FFE810FB320
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE810FB310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE875AD2C0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7FFAF2D8D320
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF2D8D310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF951DFD0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

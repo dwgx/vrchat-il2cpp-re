@@ -5,23 +5,23 @@
 
 namespace ThirdParty.DotNet.System.Security.Authentication.ExtendedProtection
 {
-    public class ExtendedProtectionPolicy : Object
+    public class ExtendedProtectionPolicy
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87770910 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE868D44B0
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87770950
+        public void .ctor(){} // RVA: 0x7FFAF96DFA60 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF8843620
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF96DFAA0
     }
 
-    public class ExtendedProtectionPolicyTypeConverter : TypeConverter
+    public class ExtendedProtectionPolicyTypeConverter
     {
         // ── Methods ──
-        public void CanConvertTo(){} // RVA: 0x7FFE87770990
-        public void ConvertTo(){} // RVA: 0x7FFE877709D0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void CanConvertTo(){} // RVA: 0x7FFAF96DFAE0
+        public void ConvertTo(){} // RVA: 0x7FFAF96DFB20
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ServiceNameCollection : ReadOnlyCollectionBase
+    public class ServiceNameCollection
     {
     }
 

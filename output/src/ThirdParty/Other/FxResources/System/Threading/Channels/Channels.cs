@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.FxResources.System.Threading.Channels
 {
-    public class SR : Object
+    public class SR
     {
     }
 

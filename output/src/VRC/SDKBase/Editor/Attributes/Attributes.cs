@@ -5,16 +5,16 @@
 
 namespace VRC.SDKBase.Editor.Attributes
 {
-    public class CurveAttribute : PropertyAttribute
+    public class CurveAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8507A320
+        public void .ctor(){} // RVA: 0x7FFAF6EEF5B0
     }
 
-    public class HelpBoxAttribute : PropertyAttribute
+    public class HelpBoxAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE82AF3A20
+        public void .ctor(){} // RVA: 0x7FFAF4816A50
     }
 
 }

@@ -5,82 +5,74 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.Forms
 {
-    public class HTTPFieldData : Object
+    public class HTTPFieldData
     {
-        public string _name; // 0x10
-        public string _fileName; // 0x18
-        public string _mimeType; // 0x20
-        public System.Text.Encoding _encoding; // 0x28
-        public string _text; // 0x30
-        public byte[] _binary; // 0x38
-        public object field_6; // 0x99F
+        public object Fields;
+        public object IsEmpty;
+        public object IsChanged;
+        public object HasBinary;
+        public object HasLongValue;
 
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFE81116380
-        public void set_Name(){} // RVA: 0x7FFE810FCE30
-        public void get_FileName(){} // RVA: 0x7FFE810FE7C0
-        public void set_FileName(){} // RVA: 0x7FFE81161E80
-        public void get_MimeType(){} // RVA: 0x7FFE811290C0
-        public void set_MimeType(){} // RVA: 0x7FFE811290D0
-        public void get_Encoding(){} // RVA: 0x7FFE81129130
-        public void set_Encoding(){} // RVA: 0x7FFE810FCE90
-        public void get_Text(){} // RVA: 0x7FFE8144E200
-        public void set_Text(){} // RVA: 0x7FFE81129890
-        public void get_Binary(){} // RVA: 0x7FFE8143BA80
-        public void set_Binary(){} // RVA: 0x7FFE81437330
-        public void get_Payload(){} // RVA: 0x7FFE8A26ED80
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Name(){} // RVA: 0x7FFAF2DA8380
+        public void set_Name(){} // RVA: 0x7FFAF2D8EE30
+        public void get_FileName(){} // RVA: 0x7FFAF2D907C0
+        public void set_FileName(){} // RVA: 0x7FFAF2DF3E80
+        public void get_MimeType(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_MimeType(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_Encoding(){} // RVA: 0x7FFAF2DBB130
+        public void set_Encoding(){} // RVA: 0x7FFAF2D8EE90
+        public void get_Text(){} // RVA: 0x7FFAF30E74D0
+        public void set_Text(){} // RVA: 0x7FFAF2DBB890
+        public void get_Binary(){} // RVA: 0x7FFAF2F476A0
+        public void set_Binary(){} // RVA: 0x7FFAF2F4B830
+        public void get_Payload(){} // RVA: 0x7FFAFC2BCA40
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class HTTPFormBase : Object
+    public class HTTPFormBase
     {
-        public int LongLength;
-        public System.Collections.Generic.List`1<BestHTTP.Forms.HTTPFieldData> _fields; // 0x10
-        public bool _isChanged; // 0x18
-        public bool _hasBinary; // 0x19
-        public bool _hasLongValue; // 0x1A
-
         // ── Methods ──
-        public void get_Fields(){} // RVA: 0x7FFE81116380
-        public void set_Fields(){} // RVA: 0x7FFE810FCE30
-        public void get_IsEmpty(){} // RVA: 0x7FFE8A26EE40
-        public void get_IsChanged(){} // RVA: 0x7FFE811164E0
-        public void set_IsChanged(){} // RVA: 0x7FFE811164F0
-        public void get_HasBinary(){} // RVA: 0x7FFE814B3730
-        public void set_HasBinary(){} // RVA: 0x7FFE81CD0510
-        public void get_HasLongValue(){} // RVA: 0x7FFE82930110
-        public void set_HasLongValue(){} // RVA: 0x7FFE8292DD10
-        public void AddBinaryData(){} // RVA: 0x7FFE8A26EED0 | overloaded x3
-        public void AddField(){} // RVA: 0x7FFE8A26F2B0 | overloaded x2
-        public void CopyFrom(){} // RVA: 0x7FFE8A26F5F0
-        public void PrepareRequest(){} // RVA: 0x7FFE8A26F6F0
-        public void GetData(){} // RVA: 0x7FFE8A26F730
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Fields(){} // RVA: 0x7FFAF2DA8380
+        public void set_Fields(){} // RVA: 0x7FFAF2D8EE30
+        public void get_IsEmpty(){} // RVA: 0x7FFAFC2BCB00
+        public void get_IsChanged(){} // RVA: 0x7FFAF2DA84E0
+        public void set_IsChanged(){} // RVA: 0x7FFAF2DA84F0
+        public void get_HasBinary(){} // RVA: 0x7FFAF31693D0
+        public void set_HasBinary(){} // RVA: 0x7FFAF39F3D70
+        public void get_HasLongValue(){} // RVA: 0x7FFAF4648340
+        public void set_HasLongValue(){} // RVA: 0x7FFAF4648210
+        public void AddBinaryData(){} // RVA: 0x7FFAFC2BCB90 | overloaded x3
+        public void AddField(){} // RVA: 0x7FFAFC2BCF70 | overloaded x2
+        public void CopyFrom(){} // RVA: 0x7FFAFC2BD2B0
+        public void PrepareRequest(){} // RVA: 0x7FFAFC2BD3B0
+        public void GetData(){} // RVA: 0x7FFAFC2BD3F0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class HTTPMultiPartForm : HTTPFormBase
+    public class HTTPMultiPartForm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A26F770
-        public void PrepareRequest(){} // RVA: 0x7FFE8A26F8F0
-        public void GetData(){} // RVA: 0x7FFE8A26F970
+        public void .ctor(){} // RVA: 0x7FFAFC2BD430
+        public void PrepareRequest(){} // RVA: 0x7FFAFC2BD5B0
+        public void GetData(){} // RVA: 0x7FFAFC2BD630
     }
 
-    public class HTTPUrlEncodedForm : HTTPFormBase
+    public class HTTPUrlEncodedForm
     {
         // ── Methods ──
-        public void PrepareRequest(){} // RVA: 0x7FFE8A26FED0
-        public void GetData(){} // RVA: 0x7FFE8A26FF40
-        public void EscapeString(){} // RVA: 0x7FFE8A2701F0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void PrepareRequest(){} // RVA: 0x7FFAFC2BDB90
+        public void GetData(){} // RVA: 0x7FFAFC2BDC00
+        public void EscapeString(){} // RVA: 0x7FFAFC2BDEB0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class RawJsonForm : HTTPFormBase
+    public class RawJsonForm
     {
         // ── Methods ──
-        public void PrepareRequest(){} // RVA: 0x7FFE8A270350
-        public void GetData(){} // RVA: 0x7FFE8A2703C0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void PrepareRequest(){} // RVA: 0x7FFAFC2BE010
+        public void GetData(){} // RVA: 0x7FFAFC2BE080
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

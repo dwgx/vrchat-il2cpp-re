@@ -1,0 +1,59 @@
+[
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_9CA1",
+    "parent": "",
+    "known_methods": [
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F24",
+      "m_545",
+      "m_406",
+      "m_AB3",
+      "m_AF8",
+      "m_4F8",
+      "m_489",
+      "m_26B",
+      "m_626",
+      "m_BA3"
+    ],
+    "all_method_count": 10
+  },
+  {
+    "namespace": "",
+    "class": "VRCPlayerSiblingSibling_A57F",
+    "parent": "",
+    "known_methods": [
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_716",
+      "m_5C9",
+      "m_B4E",
+      "m_2F5",
+      "m_959",
+      "m_DD8",
+      "m_187"
+    ],
+    "all_method_count": 7
+  },
+  {
+    "namespace": "",
+    "class": "PlayerNetSibling_FEC9",
+    "parent": "",
+    "known_methods": [
+      "CanSerialize32Bit",
+      "ProcessNetworkSynchronizationParameter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_60B",
+      "m_F24",
+      "m_E4E"
+    ],
+    "all_method_count": 5
+  }
+]

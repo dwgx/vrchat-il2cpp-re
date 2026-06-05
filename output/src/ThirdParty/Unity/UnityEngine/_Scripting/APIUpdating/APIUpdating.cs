@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Unity.UnityEngine._Scripting.APIUpdating
 {
-    public class APIUpdaterRuntimeHelpers : Object
+    public class APIUpdaterRuntimeHelpers
     {
         // ── Methods ──
-        public void GetMovedFromAttributeDataForType(){} // RVA: 0x7FFE87C829C0
-        public void GetObsoleteTypeRedirection(){} // RVA: 0x7FFE87C82D30
+        public void GetMovedFromAttributeDataForType(){} // RVA: 0x7FFAF9BF1D50
+        public void GetObsoleteTypeRedirection(){} // RVA: 0x7FFAF9BF20C0
     }
 
 }

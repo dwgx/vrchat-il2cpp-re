@@ -1,0 +1,16 @@
+{
+  "VRCImageSaver::m_1B2": "SaveImage",
+  "VRCUdonAnalytics::m_DD2": "EnableKeyword",
+  "UIObservableList_5B1ERelated_3C38::m_640": "Insert",
+  "UIObservableList_5B1ERelated_3C38::m_3E0": "RemoveAt",
+  "UIObservableList_5B1ERelated_3C38::m_171": "get_Item",
+  "UIObservableList_5B1ERelated_3C38::m_CAE": "set_Item",
+  "UIObservableList_5B1ERelated_3C38::m_AA6": "Add",
+  "UIObservableList_5B1ERelated_3C38::m_BC0": "Clear",
+  "UIObservableList_5B1ERelated_3C38::m_6ED": "Contains",
+  "UIObservableList_5B1ERelated_3C38::m_291": "CopyTo",
+  "UIObservableList_5B1ERelated_3C38::m_568": "get_Count",
+  "UIObservableList_5B1ERelated_3C38::m_733": "get_IsReadOnly",
+  "UIObservableList_5B1ERelated_3C38::m_0EB": "Remove",
+  "UIObservableList_5B1ERelated_3C38::m_334": "GetEnumerator"
+}

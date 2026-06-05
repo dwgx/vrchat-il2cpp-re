@@ -1,0 +1,390 @@
+[
+  {
+    "class": "ComplexComponent_29A6Sibling_7035",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "OnDestroy",
+      "Start",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CCB",
+      "m_FC9",
+      "m_49D",
+      "m_CB4",
+      "m_976",
+      "m_6AA",
+      "m_B0C",
+      "m_ACC",
+      "m_DA3",
+      "m_F15"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_5577",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Update",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy_0087DD17436B",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_038",
+      "m_B25",
+      "m_F44",
+      "m_1CB",
+      "m_2CD",
+      "m_BF4",
+      "m_C12",
+      "m_515",
+      "m_FBE",
+      "m_7B8"
+    ]
+  },
+  {
+    "class": "PlayerModComponentHealth",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "SetXMotion",
+      "GetUnscaledTime",
+      "ShowDeath_1F6E4175F6F5",
+      ".ctor_C6AE1D166E79",
+      "Awake_91E17EE6511B",
+      "OnEnable",
+      "ResetHealthRPC_201AAB230061",
+      "SetProperties_41A3D799F327",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "FixedUpdate",
+      "ResetHealthRPC_895EBA02F486",
+      "OnDisable_96EAD25C2F2E"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D63",
+      "m_AAB",
+      "m_C37"
+    ]
+  },
+  {
+    "class": "ChallengeUpdateEvent",
+    "parent": "",
+    "readable_methods": [
+      "GetPlatform",
+      "GetSessionId",
+      "GetTitle",
+      ".ctor_9C2371B5833C",
+      "SetCurrentSocket",
+      "GetTextureTransparency",
+      "AddUnitNode",
+      "Initialize",
+      "GetExceptionThrowImageBase",
+      "set_element",
+      "Initialize_60B417C4B11F",
+      "ReadTransformState",
+      "SetMessage",
+      "GetProgress",
+      "Init"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A15",
+      "m_537",
+      "m_85A"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_5CF6",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A99",
+      "m_B38",
+      "m_AA4",
+      "m_621",
+      "m_AEC",
+      "m_400",
+      "m_552",
+      "m_C25",
+      "m_15B",
+      "m_813"
+    ]
+  },
+  {
+    "class": "IsInteractiveInteract_2A68",
+    "parent": "",
+    "readable_methods": [
+      "set_IsInteractive",
+      "set_IsInteractive",
+      "set_IsInteractive",
+      "set_IsInteractive",
+      "set_IsInteractive",
+      "set_IsInteractive",
+      "set_IsInteractive"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_086",
+      "m_F48",
+      "m_BF6",
+      "m_CE0",
+      "m_035",
+      "m_100",
+      "m_C93",
+      "m_E9C",
+      "m_E41",
+      "m_991"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviour_3E57",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "set_TypeId",
+      "LateUpdate",
+      "Awake",
+      "Awake",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7AD",
+      "m_852",
+      "m_07A",
+      "m_0DE",
+      "m_CD4",
+      "m_91E",
+      "m_C23",
+      "m_CB2",
+      "m_772"
+    ]
+  },
+  {
+    "class": "PlayerOwnerCanUseAnimatedEmoji_8041_3E2E",
+    "parent": "",
+    "readable_methods": [
+      "set_FileId",
+      "set_IsSpecialFX",
+      "set_DisplayTexture",
+      "set_EffectBundleID",
+      "set_Frames",
+      "set_SpawnablePrefabName",
+      "set_LoadFrom",
+      "set_Sprite",
+      "set_IsPremium",
+      "set_Frames_156DAB0EE65A",
+      "set_FullResolutionTexture",
+      "set_FPS"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_843",
+      "m_2B2",
+      "m_5B4",
+      "m_AB7",
+      "m_E5F"
+    ]
+  },
+  {
+    "class": "UIShowScreenButtonHideScreenSibling_8113",
+    "parent": "",
+    "readable_methods": [
+      "OnPointerEnter",
+      "OnPointerExit",
+      "OnPointerDown",
+      "OnPointerUp",
+      "OnPointerClick",
+      "OnSelect",
+      "OnDeselect",
+      "OnSubmit",
+      "Initialize",
+      "OnCancel",
+      "OnMove",
+      "OnScroll",
+      "OnValueChanged",
+      "OnEndEdit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A85",
+      "m_A41",
+      "m_F08"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSiblingSibling_5224",
+    "parent": "",
+    "readable_methods": [
+      "Start",
+      "FixedUpdate",
+      "Update"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_52E",
+      "m_032",
+      "m_B09",
+      "m_2FC",
+      "m_CF6",
+      "m_F37",
+      "m_C71",
+      "m_5CE",
+      "m_ECA",
+      "m_D8A",
+      "m_263",
+      "m_E8D",
+      "m_9CF"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_163B",
+    "parent": "",
+    "readable_methods": [
+      "OnDisable",
+      "FixedUpdate",
+      "Update",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_60E",
+      "m_537",
+      "m_60B",
+      "m_CF4",
+      "m_81F",
+      "m_1F4",
+      "m_817",
+      "m_3B3",
+      "m_841",
+      "m_F92",
+      "m_C45",
+      "m_515"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiRelated_D5F6",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "FixedUpdate",
+      "Update",
+      "OnDisable",
+      "LateUpdate"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_21E",
+      "m_81C",
+      "m_323",
+      "m_6C7",
+      "m_745",
+      "m_C8B",
+      "m_9CA",
+      "m_279",
+      "m_5B0",
+      "m_71D",
+      "m_51D"
+    ]
+  },
+  {
+    "class": "PlayerUseLowLatencyVideoHeight_EC39_75BE",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "set_VideoWidth",
+      "set_UseLowLatency",
+      "set_IsReady",
+      "set_VideoHeight",
+      "set_IsPlaying"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4B0",
+      "m_670",
+      "m_428",
+      "m_65C",
+      "m_852",
+      "m_0B6",
+      "m_235",
+      "m_A25",
+      "m_102",
+      "m_9DE"
+    ]
+  },
+  {
+    "class": "ComplexComponent_29A6Sibling_FE87",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Start",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_99D",
+      "m_4BC",
+      "m_227",
+      "m_B78",
+      "m_544",
+      "m_40A",
+      "m_852",
+      "m_581",
+      "m_D8B"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_C806",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Update",
+      "Initialize_587866C4D61A",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake_3C78F657CE97",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_297",
+      "m_FDF",
+      "m_6BC",
+      "m_0F3",
+      "m_C52",
+      "m_6A5",
+      "m_46A"
+    ]
+  }
+]

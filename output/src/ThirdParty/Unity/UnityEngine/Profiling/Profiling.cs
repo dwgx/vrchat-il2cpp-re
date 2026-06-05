@@ -5,29 +5,29 @@
 
 namespace ThirdParty.Unity.UnityEngine.Profiling
 {
-    public class CustomSampler : Sampler
+    public class CustomSampler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87C83BD0
-        public void .cctor(){} // RVA: 0x7FFE87C83C20
+        public void .ctor(){} // RVA: 0x7FFAF9BF2F60
+        public void .cctor(){} // RVA: 0x7FFAF9BF2FB0
     }
 
-    public class Profiler : Object
+    public class Profiler
     {
         // ── Methods ──
-        public void get_enabled(){} // RVA: 0x7FFE87C83950
-        public void GetMonoHeapSizeLong(){} // RVA: 0x7FFE87C839A0
-        public void GetMonoUsedSizeLong(){} // RVA: 0x7FFE87C839F0
-        public void GetTotalAllocatedMemoryLong(){} // RVA: 0x7FFE87C83A40
-        public void GetTotalUnusedReservedMemoryLong(){} // RVA: 0x7FFE87C83A90
-        public void GetTotalReservedMemoryLong(){} // RVA: 0x7FFE87C83AE0
+        public void get_enabled(){} // RVA: 0x7FFAF9BF2CE0
+        public void GetMonoHeapSizeLong(){} // RVA: 0x7FFAF9BF2D30
+        public void GetMonoUsedSizeLong(){} // RVA: 0x7FFAF9BF2D80
+        public void GetTotalAllocatedMemoryLong(){} // RVA: 0x7FFAF9BF2DD0
+        public void GetTotalUnusedReservedMemoryLong(){} // RVA: 0x7FFAF9BF2E20
+        public void GetTotalReservedMemoryLong(){} // RVA: 0x7FFAF9BF2E70
     }
 
-    public class Sampler : Object
+    public class Sampler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE87C83B30
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF9BF2EC0
     }
 
 }

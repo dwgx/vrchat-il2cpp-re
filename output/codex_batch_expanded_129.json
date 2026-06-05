@@ -1,0 +1,212 @@
+[
+  {
+    "class": "VRC_SecondarySibling_C96F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_700",
+      "m_E75",
+      "m_FCD",
+      "m_402",
+      "m_302",
+      "m_71D",
+      "m_CCD",
+      "m_2EF",
+      "m_515",
+      "m_9A8",
+      "m_70B",
+      "m_918"
+    ]
+  },
+  {
+    "class": "UIShowTabContent_E50A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_546",
+      "m_5CC",
+      "m_433",
+      "m_D5E",
+      "m_69B",
+      "m_14C",
+      "m_F1D",
+      "m_02B",
+      "m_0F2",
+      "m_9A0",
+      "m_0BD",
+      "m_C1D"
+    ]
+  },
+  {
+    "class": "VRC_MainSiblingRelated_F63D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_67C",
+      "m_521",
+      "m_102",
+      "m_D5A",
+      "m_B00",
+      "m_4DD",
+      "m_956",
+      "m_C37",
+      "m_F1D",
+      "m_E47",
+      "m_41F",
+      "m_A62"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_D0F1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_C70",
+      "m_E76",
+      "m_9CD",
+      "m_FB8",
+      "m_D9E",
+      "m_D10",
+      "m_F29",
+      "m_0AC",
+      "m_DC5",
+      "m_871",
+      "m_784",
+      "m_B81"
+    ]
+  },
+  {
+    "class": "NetworkDisposeAsync_BFAD",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_813",
+      "m_CFF",
+      "m_FD4",
+      "m_F06",
+      "m_495",
+      "m_32F",
+      "m_49F",
+      "m_F77",
+      "m_7F8",
+      "m_53C",
+      "m_972",
+      "m_8BA"
+    ]
+  },
+  {
+    "class": "PlayerControllerColliderHit_14B8",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_FB4",
+      "m_6CA",
+      "m_156",
+      "m_8FF",
+      "m_2F6",
+      "m_42B",
+      "m_51A",
+      "m_115",
+      "m_FA7",
+      "m_B46",
+      "m_E04",
+      "m_6F6"
+    ]
+  },
+  {
+    "class": "VRC_MainSiblingSiblingSiblingSSibling_6764",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_28B",
+      "m_5BB",
+      "m_33D",
+      "m_D6E",
+      "m_78A",
+      "m_7A3",
+      "m_470",
+      "m_339",
+      "m_852",
+      "m_E31",
+      "m_BA3",
+      "m_39C"
+    ]
+  },
+  {
+    "class": "VRC_MainSiblingSiblingSibling_E5F5",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_1FD",
+      "m_37D",
+      "m_F4A",
+      "m_2B4",
+      "m_DFE",
+      "m_158",
+      "m_8F5",
+      "m_B24",
+      "m_4EC",
+      "m_74A",
+      "m_7FF",
+      "m_83A"
+    ]
+  },
+  {
+    "class": "UIRectTransformDimensionsChBefSibling_1299",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_A1F",
+      "m_175",
+      "m_321",
+      "m_104",
+      "m_3F2",
+      "m_615",
+      "m_E16",
+      "m_C6C",
+      "m_860",
+      "m_70E",
+      "m_B91",
+      "m_883"
+    ]
+  },
+  {
+    "class": "UIRectTransformDimensionsChBefSibling_1299",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [],
+    "fields": [],
+    "hash_methods": [
+      "m_A1F",
+      "m_175",
+      "m_321",
+      "m_104",
+      "m_3F2",
+      "m_615",
+      "m_E16",
+      "m_C6C",
+      "m_860",
+      "m_70E",
+      "m_B91",
+      "m_883"
+    ]
+  }
+]

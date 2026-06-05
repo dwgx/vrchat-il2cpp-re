@@ -5,52 +5,52 @@
 
 namespace ThirdParty.Other.JetBrains.Annotations
 {
-    public class AssertionMethodAttribute : Attribute
+    public class AssertionMethodAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class CanBeNullAttribute : Attribute
+    public class CanBeNullAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class MeansImplicitUseAttribute : Attribute
+    public class MeansImplicitUseAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE85072A80 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF6EE8000 | overloaded x3
     }
 
-    public class NotNullAttribute : Attribute
+    public class NotNullAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class PublicAPIAttribute : Attribute
+    public class PublicAPIAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class PureAttribute : Attribute
+    public class PureAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class StringFormatMethodAttribute : Attribute
+    public class StringFormatMethodAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
-    public class UsedImplicitlyAttribute : Attribute
+    public class UsedImplicitlyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE85072A80 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF6EE8000 | overloaded x2
     }
 
 }

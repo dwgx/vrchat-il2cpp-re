@@ -5,46 +5,46 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class ClosestHitCallback : MulticastDelegate
+    public class ClosestHitCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB97F0
-        public void Invoke(){} // RVA: 0x7FFE86FB98D0
-        public void BeginInvoke(){} // RVA: 0x7FFE86FB98F0
-        public void EndInvoke(){} // RVA: 0x7FFE81DADFA0
+        public void .ctor(){} // RVA: 0x7FFAF8F2A720
+        public void Invoke(){} // RVA: 0x7FFAF8F2A800
+        public void BeginInvoke(){} // RVA: 0x7FFAF8F2A820
+        public void EndInvoke(){} // RVA: 0x7FFAF3B087E0
     }
 
-    public class Common : Object
+    public class Common
     {
         // ── Methods ──
-        public void ConvertVector(){} // RVA: 0x7FFE81DADD00 | overloaded x2
-        public void ConvertTransform(){} // RVA: 0x7FFE86FB2F10
-        public void TransposeMatrix(){} // RVA: 0x7FFE86FB31A0
-        public void TransformMatrix(){} // RVA: 0x7FFE86FB31A0
-        public void ConvertString(){} // RVA: 0x7FFE86FB3250
-        public void GetStreamingAssetsFileName(){} // RVA: 0x7FFE86FB32D0
-        public void HumanReadableDataSize(){} // RVA: 0x7FFE86FB33A0
+        public void ConvertVector(){} // RVA: 0x7FFAF3B05C20 | overloaded x2
+        public void ConvertTransform(){} // RVA: 0x7FFAF8F23E40
+        public void TransposeMatrix(){} // RVA: 0x7FFAF8F240D0
+        public void TransformMatrix(){} // RVA: 0x7FFAF8F240D0
+        public void ConvertString(){} // RVA: 0x7FFAF8F24180
+        public void GetStreamingAssetsFileName(){} // RVA: 0x7FFAF8F24200
+        public void HumanReadableDataSize(){} // RVA: 0x7FFAF8F242D0
     }
 
-    public class Constants : Object
+    public class Constants
     {
     }
 
-    public class Context : Object
+    public class Context
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB3940 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFE86FB39E0
-        public void Release(){} // RVA: 0x7FFE86FB3A20
-        public void Get(){} // RVA: 0x7FFE81116380
-        public void LogMessage(){} // RVA: 0x7FFE86FB3AA0
+        public void .ctor(){} // RVA: 0x7FFAF8F24870 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFAF8F24910
+        public void Release(){} // RVA: 0x7FFAF8F24950
+        public void Get(){} // RVA: 0x7FFAF2DA8380
+        public void LogMessage(){} // RVA: 0x7FFAF8F249D0
     }
 
-    public class ContextSettings : ValueType
+    public class ContextSettings
     {
     }
 
-    public class CoordinateSpace3 : ValueType
+    public class CoordinateSpace3
     {
     }
 

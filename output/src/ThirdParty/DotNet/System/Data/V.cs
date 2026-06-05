@@ -5,10 +5,10 @@
 
 namespace ThirdParty.DotNet.System.Data
 {
-    public class VersionNotFoundException : DataException
+    public class VersionNotFoundException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8720B760 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF917C870 | overloaded x3
     }
 
 }

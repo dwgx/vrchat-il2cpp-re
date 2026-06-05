@@ -1,0 +1,101 @@
+[
+  {
+    "namespace": "VRC.DataModel",
+    "class": "SearchInFieldsWorld",
+    "parent": "",
+    "known_methods": [
+      "get_FieldDescriptions",
+      "set_FieldDescriptions",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_53A",
+      "m_D8E",
+      "m_ED0",
+      "m_26C",
+      "m_BFE",
+      "m_1DB",
+      "m_D48"
+    ],
+    "all_method_count": 16
+  },
+  {
+    "namespace": "VRC.SDK3.Internal",
+    "class": "VRCAvatarsInternal",
+    "parent": "",
+    "known_methods": [
+      "IsAvatarFavorited",
+      "FavoriteAvatar",
+      "UnfavoriteAvatar",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_516"
+    ],
+    "all_method_count": 4
+  },
+  {
+    "namespace": "VRC.UI.Core.Styles",
+    "class": "StyleElement",
+    "parent": "",
+    "known_methods": [
+      "OnEnable",
+      "get_IsVirtual",
+      "OnPointerUp",
+      "OnPointerClick",
+      "GetStyleHash",
+      "OnDisable",
+      "FixedUpdate",
+      "StartCoroutine_Auto",
+      "OnCollisionEnter",
+      "ComputegameObject",
+      "Internal_IsInvokingAll",
+      "InvokeDelayed",
+      "get_deleted",
+      "IsObjectMonoBehaviour",
+      "get_ValidExpressions",
+      "GetScriptClassName",
+      "OnDestroy",
+      "get_isNew",
+      "Initialize",
+      "StringToHash",
+      "OnApplicationPause",
+      "OnPointerExit",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnPointerEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerExit",
+      "GetGameObject_CCA",
+      "OnPointerDown",
+      "Internal_CancelInvokeAll",
+      "Start",
+      "SetActive_B0B",
+      "Bitmap",
+      "HandleElementProperties",
+      "GetMaterial",
+      "GetStyleElementData",
+      "GetPublicKey",
+      "SetActive_C6F",
+      "IsStyleElementValid",
+      "GetGameObject_C60",
+      "m",
+      "GetInternalMethodName",
+      "InitializeStyleElementState",
+      "__get_targetGraphic__UnityEngineUIGraphic",
+      "InvokeStyleElementMethod",
+      "MoveNext"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1CF",
+      "m_E6F",
+      "m_314"
+    ],
+    "all_method_count": 82
+  }
+]

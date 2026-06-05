@@ -1,0 +1,10 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_56A": "ResetTrigger",
+ "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_6DF": "GetFloat",
+ "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_943": "GetCurrentAnimatorClipInfo",
+ "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_ABA": "GetBool",
+ "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_AC9": "CrossFadeInFixedTime",
+ "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_B5E": "SetLocalTRSInternal",
+ "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_BF1": "Play",
+ "VRCNetworkBehaviourSibling_BF5Sibling_18EA::m_C62": "SetLayerMaskFromAvatarMask"
+}

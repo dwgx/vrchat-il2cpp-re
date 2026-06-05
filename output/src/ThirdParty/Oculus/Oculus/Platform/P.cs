@@ -5,54 +5,45 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform
 {
-    public class Packet : Object
+    public class Packet
     {
-        public ulong size; // 0x10
-        public UIntPtr packetHandle; // 0x18
-        public object field_2; // 0x6
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C03CF0
-        public void ReadBytes(){} // RVA: 0x7FFE86C03DC0
-        public void get_SenderID(){} // RVA: 0x7FFE86C03F20
-        public void get_Size(){} // RVA: 0x7FFE81116380
-        public void get_Policy(){} // RVA: 0x7FFE86C03FE0
-        public void Finalize(){} // RVA: 0x7FFE86C040A0
-        public void Dispose(){} // RVA: 0x7FFE86C041C0
+        public void .ctor(){} // RVA: 0x7FFAF8B72F20
+        public void ReadBytes(){} // RVA: 0x7FFAF8B72FF0
+        public void get_SenderID(){} // RVA: 0x7FFAF8B73150
+        public void get_Size(){} // RVA: 0x7FFAF2DA8380
+        public void get_Policy(){} // RVA: 0x7FFAF8B73210
+        public void Finalize(){} // RVA: 0x7FFAF8B732D0
+        public void Dispose(){} // RVA: 0x7FFAF8B733F0
     }
 
-    public class Parties : Object
+    public class Parties
     {
         // ── Methods ──
-        public void GetCurrent(){} // RVA: 0x7FFE86C1A300
-        public void SetPartyUpdateNotificationCallback(){} // RVA: 0x7FFE86C1A4B0
+        public void GetCurrent(){} // RVA: 0x7FFAF8B89530
+        public void SetPartyUpdateNotificationCallback(){} // RVA: 0x7FFAF8B896E0
     }
 
-    public class PlatformInternal : Object
+    public class PlatformInternal
     {
         // ── Methods ──
-        public void CrashApplication(){} // RVA: 0x7FFE86C1BE10
-        public void ParseMessageHandle(){} // RVA: 0x7FFE86C1BEB0
-        public void InitializeStandaloneAsync(){} // RVA: 0x7FFE86C1CC10
+        public void CrashApplication(){} // RVA: 0x7FFAF8B8B040
+        public void ParseMessageHandle(){} // RVA: 0x7FFAF8B8B0E0
+        public void InitializeStandaloneAsync(){} // RVA: 0x7FFAF8B8BE40
     }
 
-    public class PlatformSettings : ScriptableObject
+    public class PlatformSettings
     {
-        public string ovrAppID; // 0x18
-        public string ovrMobileAppID; // 0x20
-        public bool ovrUseStandalonePlatform; // 0x28
-        public Oculus.Platform.PlatformSettings instance;
-
         // ── Methods ──
-        public void get_AppID(){} // RVA: 0x7FFE86C1D150
-        public void set_AppID(){} // RVA: 0x7FFE86C1D170
-        public void get_MobileAppID(){} // RVA: 0x7FFE86C1D1E0
-        public void set_MobileAppID(){} // RVA: 0x7FFE86C1D200
-        public void get_UseStandalonePlatform(){} // RVA: 0x7FFE86C1D270
-        public void set_UseStandalonePlatform(){} // RVA: 0x7FFE86C1D290
-        public void get_Instance(){} // RVA: 0x7FFE86C1D2C0
-        public void set_Instance(){} // RVA: 0x7FFE86C1D590
-        public void .ctor(){} // RVA: 0x7FFE86C1D630
+        public void get_AppID(){} // RVA: 0x7FFAF8B8C380
+        public void set_AppID(){} // RVA: 0x7FFAF8B8C3A0
+        public void get_MobileAppID(){} // RVA: 0x7FFAF8B8C410
+        public void set_MobileAppID(){} // RVA: 0x7FFAF8B8C430
+        public void get_UseStandalonePlatform(){} // RVA: 0x7FFAF8B8C4A0
+        public void set_UseStandalonePlatform(){} // RVA: 0x7FFAF8B8C4C0
+        public void get_Instance(){} // RVA: 0x7FFAF8B8C4F0
+        public void set_Instance(){} // RVA: 0x7FFAF8B8C7C0
+        public void .ctor(){} // RVA: 0x7FFAF8B8C860
     }
 
 }

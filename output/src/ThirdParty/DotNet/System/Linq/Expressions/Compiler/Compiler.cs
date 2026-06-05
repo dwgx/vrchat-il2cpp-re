@@ -5,37 +5,35 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Compiler
 {
-    public class DelegateHelpers : Object
+    public class DelegateHelpers
     {
         // ── Methods ──
-        public void MakeDelegateType(){} // RVA: 0x7FFE8719A320
-        public void NextTypeInfo(){} // RVA: 0x7FFE8719AA10 | overloaded x2
-        public void GetNextTypeInfo(){} // RVA: 0x7FFE8719A840
-        public void TryMakeVBStyledCallSite(){} // RVA: 0x7FFE8719ABC0
-        public void MakeNewDelegate(){} // RVA: 0x7FFE8719B300
-        public void GetFuncType(){} // RVA: 0x7FFE8719B4E0
-        public void GetActionType(){} // RVA: 0x7FFE8719B7C0
-        public void MakeCallSiteDelegate(){} // RVA: 0x7FFE8719BAC0
-        public void MakeDeferredSiteDelegate(){} // RVA: 0x7FFE8719BED0
-        public void IsByRef(){} // RVA: 0x7FFE8719C610
-        public void MakeNewCustomDelegate(){} // RVA: 0x7FFE8719C6B0
-        public void .cctor(){} // RVA: 0x7FFE8719C6F0
+        public void MakeDelegateType(){} // RVA: 0x7FFAF910B430
+        public void NextTypeInfo(){} // RVA: 0x7FFAF910BB20 | overloaded x2
+        public void GetNextTypeInfo(){} // RVA: 0x7FFAF910B950
+        public void TryMakeVBStyledCallSite(){} // RVA: 0x7FFAF910BCD0
+        public void MakeNewDelegate(){} // RVA: 0x7FFAF910C410
+        public void GetFuncType(){} // RVA: 0x7FFAF910C5F0
+        public void GetActionType(){} // RVA: 0x7FFAF910C8D0
+        public void MakeCallSiteDelegate(){} // RVA: 0x7FFAF910CBD0
+        public void MakeDeferredSiteDelegate(){} // RVA: 0x7FFAF910CFE0
+        public void IsByRef(){} // RVA: 0x7FFAF910D720
+        public void MakeNewCustomDelegate(){} // RVA: 0x7FFAF910D7C0
+        public void .cctor(){} // RVA: 0x7FFAF910D800
     }
 
-    public class HoistedLocals : Object
+    public class HoistedLocals
     {
-        public System.Linq.Expressions.Compiler.HoistedLocals Parent; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8719C7A0
-        public void get_ParentVariable(){} // RVA: 0x7FFE8719CD00
-        public void GetParent(){} // RVA: 0x7FFE8719CD10
+        public void .ctor(){} // RVA: 0x7FFAF910D8B0
+        public void get_ParentVariable(){} // RVA: 0x7FFAF910DE10
+        public void GetParent(){} // RVA: 0x7FFAF910DE20
     }
 
-    public class TypeInfoExtensions : Object
+    public class TypeInfoExtensions
     {
         // ── Methods ──
-        public void MakeDelegateType(){} // RVA: 0x7FFE8719CDB0 | overloaded x2
+        public void MakeDelegateType(){} // RVA: 0x7FFAF910DEC0 | overloaded x2
     }
 
 }

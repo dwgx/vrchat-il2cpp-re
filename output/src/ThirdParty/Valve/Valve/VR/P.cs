@@ -5,19 +5,19 @@
 
 namespace ThirdParty.Valve.Valve.VR
 {
-    public class PathRead_t : ValueType
+    public class PathRead_t
     {
     }
 
-    public class PathWrite_t : ValueType
+    public class PathWrite_t
     {
     }
 
-    public class PropertyRead_t : ValueType
+    public class PropertyRead_t
     {
     }
 
-    public class PropertyWrite_t : ValueType
+    public class PropertyWrite_t
     {
     }
 

@@ -5,248 +5,256 @@
 
 namespace ThirdParty.Unity.UnityEngine
 {
-    public class WWWForm : Object
+    public class WWWForm
     {
-        public byte[] dDash;
-
         // ── Methods ──
-        public void get_DefaultEncoding(){} // RVA: 0x7FFE88039BB0
-        public void .cctor(){} // RVA: 0x7FFE88039BC0
+        public void get_DefaultEncoding(){} // RVA: 0x7FFAF9FA99E0
+        public void .cctor(){} // RVA: 0x7FFAF9FA99F0
     }
 
-    public class WWWTranscoder : Object
+    public class WWWTranscoder
     {
         // ── Methods ──
-        public void Hex2Byte(){} // RVA: 0x7FFE8803A190
-        public void Byte2Hex(){} // RVA: 0x7FFE8803A220
-        public void URLEncode(){} // RVA: 0x7FFE8803A260
-        public void Encode(){} // RVA: 0x7FFE8803A2E0
-        public void ByteArrayContains(){} // RVA: 0x7FFE8803A720
-        public void URLDecode(){} // RVA: 0x7FFE8803A770
-        public void ByteSubArrayEquals(){} // RVA: 0x7FFE8803A7E0
-        public void Decode(){} // RVA: 0x7FFE8803A870
-        public void .cctor(){} // RVA: 0x7FFE8803ABC0
+        public void Hex2Byte(){} // RVA: 0x7FFAF9FA9FC0
+        public void Byte2Hex(){} // RVA: 0x7FFAF9FAA050
+        public void URLEncode(){} // RVA: 0x7FFAF9FAA090
+        public void Encode(){} // RVA: 0x7FFAF9FAA110
+        public void ByteArrayContains(){} // RVA: 0x7FFAF9FAA550
+        public void URLDecode(){} // RVA: 0x7FFAF9FAA5A0
+        public void ByteSubArrayEquals(){} // RVA: 0x7FFAF9FAA610
+        public void Decode(){} // RVA: 0x7FFAF9FAA6A0
+        public void .cctor(){} // RVA: 0x7FFAF9FAA9F0
     }
 
-    public class WaitForEndOfFrame : YieldInstruction
+    public class WaitForEndOfFrame
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class WaitForFixedUpdate : YieldInstruction
+    public class WaitForFixedUpdate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class WaitForSeconds : YieldInstruction
+    public class WaitForSeconds
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81225330
+        public void .ctor(){} // RVA: 0x7FFAF2EB7330
     }
 
-    public class WaitForSecondsRealtime : CustomYieldInstruction
+    public class WaitForSecondsRealtime
     {
-        public float _waitTime; // 0x10
-        public float m_WaitUntilTime; // 0x14
-
         // ── Methods ──
-        public void get_waitTime(){} // RVA: 0x7FFE81225320
-        public void set_waitTime(){} // RVA: 0x7FFE81225330
-        public void get_keepWaiting(){} // RVA: 0x7FFE87C71730
-        public void .ctor(){} // RVA: 0x7FFE87C71810
-        public void Reset(){} // RVA: 0x7FFE87C71820
+        public void get_waitTime(){} // RVA: 0x7FFAF2EB7320
+        public void set_waitTime(){} // RVA: 0x7FFAF2EB7330
+        public void get_keepWaiting(){} // RVA: 0x7FFAF9BE0A70
+        public void .ctor(){} // RVA: 0x7FFAF9BE0B50
+        public void Reset(){} // RVA: 0x7FFAF9BE0B60
     }
 
-    public class WaitUntil : CustomYieldInstruction
+    public class WaitUntil
     {
-        public System.Func`1<bool> m_Predicate; // 0x10
-
         // ── Methods ──
-        public void get_keepWaiting(){} // RVA: 0x7FFE87C71830
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_keepWaiting(){} // RVA: 0x7FFAF9BE0B70
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
-    public class WaitWhile : CustomYieldInstruction
+    public class WaitWhile
     {
-        public System.Func`1<bool> m_Predicate; // 0x10
-
         // ── Methods ──
-        public void get_keepWaiting(){} // RVA: 0x7FFE82001D60
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_keepWaiting(){} // RVA: 0x7FFAF3D31E30
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
-    public class WebCamDevice : ValueType
+    public class WebCamDevice
     {
-        public string m_Name; // 0x10
-        public string m_DepthCameraName; // 0x18
-
         // ── Methods ──
-        public void get_name(){} // RVA: 0x7FFE8348B260
-        public void get_isFrontFacing(){} // RVA: 0x7FFE87BF2B30
+        public void get_name(){} // RVA: 0x7FFAF51E8C50
+        public void get_isFrontFacing(){} // RVA: 0x7FFAF9B61B50
     }
 
-    public class WebCamTexture : Texture
+    public class WebCamTexture
     {
         // ── Methods ──
-        public void get_devices(){} // RVA: 0x7FFE87BF2B40
-        public void .ctor(){} // RVA: 0x7FFE87BF2B90
-        public void Play(){} // RVA: 0x7FFE87BF2C80
-        public void Pause(){} // RVA: 0x7FFE87BF2CD0
-        public void Stop(){} // RVA: 0x7FFE87BF2D20
-        public void get_isPlaying(){} // RVA: 0x7FFE87BF2D70
-        public void get_videoRotationAngle(){} // RVA: 0x7FFE87BF2DC0
-        public void get_videoVerticallyMirrored(){} // RVA: 0x7FFE87BF2E10
-        public void get_didUpdateThisFrame(){} // RVA: 0x7FFE87BF2E60
-        public void GetPixels32(){} // RVA: 0x7FFE87BF2EB0
-        public void Internal_CreateWebCamTexture(){} // RVA: 0x7FFE87BF2F10
+        public void get_devices(){} // RVA: 0x7FFAF9B61B60
+        public void .ctor(){} // RVA: 0x7FFAF9B61BB0
+        public void Play(){} // RVA: 0x7FFAF9B61CA0
+        public void Pause(){} // RVA: 0x7FFAF9B61CF0
+        public void Stop(){} // RVA: 0x7FFAF9B61D40
+        public void get_isPlaying(){} // RVA: 0x7FFAF9B61D90
+        public void get_videoRotationAngle(){} // RVA: 0x7FFAF9B61DE0
+        public void get_videoVerticallyMirrored(){} // RVA: 0x7FFAF9B61E30
+        public void get_didUpdateThisFrame(){} // RVA: 0x7FFAF9B61E80
+        public void GetPixels32(){} // RVA: 0x7FFAF9B61ED0
+        public void Internal_CreateWebCamTexture(){} // RVA: 0x7FFAF9B61F30
     }
 
-    public class WheelCollider : Collider
+    public class WheelCollider
     {
+        public object connectedBody;
+        public object connectedArticulationBody;
+        public object axis;
+        public object anchor;
+        public object connectedAnchor;
+        public object autoConfigureConnectedAnchor;
+        public object breakForce;
+        public object breakTorque;
+        public object enableCollision;
+        public object enablePreprocessing;
+        public object massScale;
+        public object connectedMassScale;
+        public object currentForce;
+        public object currentTorque;
+
         // ── Methods ──
-        public void get_center(){} // RVA: 0x7FFE8803F750
-        public void set_center(){} // RVA: 0x7FFE8803F7C0
-        public void get_radius(){} // RVA: 0x7FFE8803F820
-        public void set_radius(){} // RVA: 0x7FFE8803F870
-        public void get_suspensionDistance(){} // RVA: 0x7FFE8803F8D0
-        public void set_suspensionDistance(){} // RVA: 0x7FFE8803F920
-        public void get_suspensionSpring(){} // RVA: 0x7FFE8803F980
-        public void set_suspensionSpring(){} // RVA: 0x7FFE8803F9F0
-        public void get_suspensionExpansionLimited(){} // RVA: 0x7FFE8803FA50
-        public void set_suspensionExpansionLimited(){} // RVA: 0x7FFE8803FAA0
-        public void get_forceAppPointDistance(){} // RVA: 0x7FFE8803FB00
-        public void set_forceAppPointDistance(){} // RVA: 0x7FFE8803FB50
-        public void get_mass(){} // RVA: 0x7FFE8803FBB0
-        public void set_mass(){} // RVA: 0x7FFE8803FC00
-        public void get_wheelDampingRate(){} // RVA: 0x7FFE8803FC60
-        public void set_wheelDampingRate(){} // RVA: 0x7FFE8803FCB0
-        public void get_forwardFriction(){} // RVA: 0x7FFE8803FD10
-        public void set_forwardFriction(){} // RVA: 0x7FFE8803FD80
-        public void get_sidewaysFriction(){} // RVA: 0x7FFE8803FDE0
-        public void set_sidewaysFriction(){} // RVA: 0x7FFE8803FE50
-        public void get_motorTorque(){} // RVA: 0x7FFE8803FEB0
-        public void set_motorTorque(){} // RVA: 0x7FFE8803FF00
-        public void get_brakeTorque(){} // RVA: 0x7FFE8803FF60
-        public void set_brakeTorque(){} // RVA: 0x7FFE8803FFB0
-        public void get_steerAngle(){} // RVA: 0x7FFE88040010
-        public void set_steerAngle(){} // RVA: 0x7FFE88040060
-        public void get_isGrounded(){} // RVA: 0x7FFE880400C0
-        public void get_rpm(){} // RVA: 0x7FFE88040110
-        public void get_sprungMass(){} // RVA: 0x7FFE88040160
-        public void set_sprungMass(){} // RVA: 0x7FFE880401B0
-        public void get_rotationSpeed(){} // RVA: 0x7FFE88040210
-        public void set_rotationSpeed(){} // RVA: 0x7FFE88040260
-        public void ResetSprungMasses(){} // RVA: 0x7FFE880402C0
-        public void ConfigureVehicleSubsteps(){} // RVA: 0x7FFE88040310
-        public void GetWorldPose(){} // RVA: 0x7FFE88040390
-        public void GetGroundHit(){} // RVA: 0x7FFE88040400
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
-        public void get_center_Injected(){} // RVA: 0x7FFE88040460
-        public void set_center_Injected(){} // RVA: 0x7FFE880404C0
-        public void get_suspensionSpring_Injected(){} // RVA: 0x7FFE88040520
-        public void set_suspensionSpring_Injected(){} // RVA: 0x7FFE88040580
-        public void get_forwardFriction_Injected(){} // RVA: 0x7FFE880405E0
-        public void set_forwardFriction_Injected(){} // RVA: 0x7FFE88040640
-        public void get_sidewaysFriction_Injected(){} // RVA: 0x7FFE880406A0
-        public void set_sidewaysFriction_Injected(){} // RVA: 0x7FFE88040700
+        public void get_center(){} // RVA: 0x7FFAF9FAF580
+        public void set_center(){} // RVA: 0x7FFAF9FAF5F0
+        public void get_radius(){} // RVA: 0x7FFAF9FAF650
+        public void set_radius(){} // RVA: 0x7FFAF9FAF6A0
+        public void get_suspensionDistance(){} // RVA: 0x7FFAF9FAF700
+        public void set_suspensionDistance(){} // RVA: 0x7FFAF9FAF750
+        public void get_suspensionSpring(){} // RVA: 0x7FFAF9FAF7B0
+        public void set_suspensionSpring(){} // RVA: 0x7FFAF9FAF820
+        public void get_suspensionExpansionLimited(){} // RVA: 0x7FFAF9FAF880
+        public void set_suspensionExpansionLimited(){} // RVA: 0x7FFAF9FAF8D0
+        public void get_forceAppPointDistance(){} // RVA: 0x7FFAF9FAF930
+        public void set_forceAppPointDistance(){} // RVA: 0x7FFAF9FAF980
+        public void get_mass(){} // RVA: 0x7FFAF9FAF9E0
+        public void set_mass(){} // RVA: 0x7FFAF9FAFA30
+        public void get_wheelDampingRate(){} // RVA: 0x7FFAF9FAFA90
+        public void set_wheelDampingRate(){} // RVA: 0x7FFAF9FAFAE0
+        public void get_forwardFriction(){} // RVA: 0x7FFAF9FAFB40
+        public void set_forwardFriction(){} // RVA: 0x7FFAF9FAFBB0
+        public void get_sidewaysFriction(){} // RVA: 0x7FFAF9FAFC10
+        public void set_sidewaysFriction(){} // RVA: 0x7FFAF9FAFC80
+        public void get_motorTorque(){} // RVA: 0x7FFAF9FAFCE0
+        public void set_motorTorque(){} // RVA: 0x7FFAF9FAFD30
+        public void get_brakeTorque(){} // RVA: 0x7FFAF9FAFD90
+        public void set_brakeTorque(){} // RVA: 0x7FFAF9FAFDE0
+        public void get_steerAngle(){} // RVA: 0x7FFAF9FAFE40
+        public void set_steerAngle(){} // RVA: 0x7FFAF9FAFE90
+        public void get_isGrounded(){} // RVA: 0x7FFAF9FAFEF0
+        public void get_rpm(){} // RVA: 0x7FFAF9FAFF40
+        public void get_sprungMass(){} // RVA: 0x7FFAF9FAFF90
+        public void set_sprungMass(){} // RVA: 0x7FFAF9FAFFE0
+        public void get_rotationSpeed(){} // RVA: 0x7FFAF9FB0040
+        public void set_rotationSpeed(){} // RVA: 0x7FFAF9FB0090
+        public void ResetSprungMasses(){} // RVA: 0x7FFAF9FB00F0
+        public void ConfigureVehicleSubsteps(){} // RVA: 0x7FFAF9FB0140
+        public void GetWorldPose(){} // RVA: 0x7FFAF9FB01C0
+        public void GetGroundHit(){} // RVA: 0x7FFAF9FB0230
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void get_center_Injected(){} // RVA: 0x7FFAF9FB0290
+        public void set_center_Injected(){} // RVA: 0x7FFAF9FB02F0
+        public void get_suspensionSpring_Injected(){} // RVA: 0x7FFAF9FB0350
+        public void set_suspensionSpring_Injected(){} // RVA: 0x7FFAF9FB03B0
+        public void get_forwardFriction_Injected(){} // RVA: 0x7FFAF9FB0410
+        public void set_forwardFriction_Injected(){} // RVA: 0x7FFAF9FB0470
+        public void get_sidewaysFriction_Injected(){} // RVA: 0x7FFAF9FB04D0
+        public void set_sidewaysFriction_Injected(){} // RVA: 0x7FFAF9FB0530
     }
 
-    public class WheelFrictionCurve : ValueType
+    public class WheelFrictionCurve
     {
-        public float m_ExtremumSlip; // 0x10
-        public float m_ExtremumValue; // 0x14
-        public float m_AsymptoteSlip; // 0x18
-        public float m_AsymptoteValue; // 0x1C
-        public float m_Stiffness; // 0x20
+        public object limit;
+        public object bounciness;
+        public object contactDistance;
+        public object get_spring;
 
         // ── Methods ──
-        public void get_extremumSlip(){} // RVA: 0x7FFE8111ED20
-        public void set_extremumSlip(){} // RVA: 0x7FFE82D03BB0
-        public void get_extremumValue(){} // RVA: 0x7FFE8111ED30
-        public void set_extremumValue(){} // RVA: 0x7FFE82D03BD0
-        public void get_asymptoteSlip(){} // RVA: 0x7FFE8111ECF0
-        public void set_asymptoteSlip(){} // RVA: 0x7FFE82D03BC0
-        public void get_asymptoteValue(){} // RVA: 0x7FFE8111ED00
-        public void set_asymptoteValue(){} // RVA: 0x7FFE82D03B80
-        public void get_stiffness(){} // RVA: 0x7FFE87BBD360
-        public void set_stiffness(){} // RVA: 0x7FFE81225330
+        public void get_extremumSlip(){} // RVA: 0x7FFAF2DB0D20
+        public void set_extremumSlip(){} // RVA: 0x7FFAF4A28330
+        public void get_extremumValue(){} // RVA: 0x7FFAF2DB0D30
+        public void set_extremumValue(){} // RVA: 0x7FFAF4A28350
+        public void get_asymptoteSlip(){} // RVA: 0x7FFAF2DB0CF0
+        public void set_asymptoteSlip(){} // RVA: 0x7FFAF4A28340
+        public void get_asymptoteValue(){} // RVA: 0x7FFAF2DB0D00
+        public void set_asymptoteValue(){} // RVA: 0x7FFAF4A28380
+        public void get_stiffness(){} // RVA: 0x7FFAF9B2C4A0
+        public void set_stiffness(){} // RVA: 0x7FFAF2EB7330
     }
 
-    public class WheelHit : ValueType
+    public class WheelHit
     {
-        public UnityEngine.Vector3 m_Point; // 0x10
-        public UnityEngine.Vector3 m_Normal; // 0x1C
-        public UnityEngine.Vector3 m_ForwardDir; // 0x28
-        public UnityEngine.Vector3 m_SidewaysDir; // 0x34
-        public float m_Force; // 0x40
-        public float m_ForwardSlip; // 0x44
-        public float m_SidewaysSlip; // 0x48
-        public UnityEngine.Collider m_Collider; // 0x50
-
         // ── Methods ──
-        public void get_collider(){} // RVA: 0x7FFE87CC7FD0
-        public void set_collider(){} // RVA: 0x7FFE81123200
-        public void get_point(){} // RVA: 0x7FFE87BBA310
-        public void set_point(){} // RVA: 0x7FFE835C1F00
-        public void get_normal(){} // RVA: 0x7FFE87BBA330
-        public void set_normal(){} // RVA: 0x7FFE87BBA350
-        public void get_forwardDir(){} // RVA: 0x7FFE87BD9260
-        public void set_forwardDir(){} // RVA: 0x7FFE850BAE20
-        public void get_sidewaysDir(){} // RVA: 0x7FFE8803F730
-        public void set_sidewaysDir(){} // RVA: 0x7FFE81156CC0
-        public void get_force(){} // RVA: 0x7FFE87CE83C0
-        public void set_force(){} // RVA: 0x7FFE81308960
-        public void get_forwardSlip(){} // RVA: 0x7FFE87CE83E0
-        public void set_forwardSlip(){} // RVA: 0x7FFE811C5640
-        public void get_sidewaysSlip(){} // RVA: 0x7FFE87AC4C50
-        public void set_sidewaysSlip(){} // RVA: 0x7FFE8130A000
+        public void get_collider(){} // RVA: 0x7FFAF9C37E30
+        public void set_collider(){} // RVA: 0x7FFAF2DB5200
+        public void get_point(){} // RVA: 0x7FFAF9B29450
+        public void set_point(){} // RVA: 0x7FFAF4BBE450
+        public void get_normal(){} // RVA: 0x7FFAF9B29470
+        public void set_normal(){} // RVA: 0x7FFAF9B29490
+        public void get_forwardDir(){} // RVA: 0x7FFAF9B483A0
+        public void set_forwardDir(){} // RVA: 0x7FFAF6F2FFC0
+        public void get_sidewaysDir(){} // RVA: 0x7FFAF9FAF560
+        public void set_sidewaysDir(){} // RVA: 0x7FFAF2DE8CC0
+        public void get_force(){} // RVA: 0x7FFAF9C58220
+        public void set_force(){} // RVA: 0x7FFAF2FADE90
+        public void get_forwardSlip(){} // RVA: 0x7FFAF9C58240
+        public void set_forwardSlip(){} // RVA: 0x7FFAF2E57640
+        public void get_sidewaysSlip(){} // RVA: 0x7FFAF9A33DB0
+        public void set_sidewaysSlip(){} // RVA: 0x7FFAF2FAB970
     }
 
-    public class WheelJoint2D : AnchoredJoint2D
+    public class WheelJoint2D
     {
+        public object maxForce;
+        public object maxTorque;
+        public object correctionScale;
+        public object autoConfigureOffset;
+        public object linearOffset;
+        public object angularOffset;
+        public object target;
+
         // ── Methods ──
-        public void get_suspension(){} // RVA: 0x7FFE87D2DD40
-        public void set_suspension(){} // RVA: 0x7FFE87D2DDB0
-        public void get_useMotor(){} // RVA: 0x7FFE87D2DE10
-        public void set_useMotor(){} // RVA: 0x7FFE87D2DE60
-        public void get_motor(){} // RVA: 0x7FFE87D2DEC0
-        public void set_motor(){} // RVA: 0x7FFE87D2DF20
-        public void get_jointTranslation(){} // RVA: 0x7FFE87D2DF80
-        public void get_jointLinearSpeed(){} // RVA: 0x7FFE87D2DFD0
-        public void get_jointSpeed(){} // RVA: 0x7FFE87D2E020
-        public void get_jointAngle(){} // RVA: 0x7FFE87D2E070
-        public void GetMotorTorque(){} // RVA: 0x7FFE87D2E0C0
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
-        public void get_suspension_Injected(){} // RVA: 0x7FFE87D2E120
-        public void set_suspension_Injected(){} // RVA: 0x7FFE87D2E180
-        public void get_motor_Injected(){} // RVA: 0x7FFE87D2E1E0
-        public void set_motor_Injected(){} // RVA: 0x7FFE87D2E240
+        public void get_suspension(){} // RVA: 0x7FFAF9C9DBA0
+        public void set_suspension(){} // RVA: 0x7FFAF9C9DC10
+        public void get_useMotor(){} // RVA: 0x7FFAF9C9DC70
+        public void set_useMotor(){} // RVA: 0x7FFAF9C9DCC0
+        public void get_motor(){} // RVA: 0x7FFAF9C9DD20
+        public void set_motor(){} // RVA: 0x7FFAF9C9DD80
+        public void get_jointTranslation(){} // RVA: 0x7FFAF9C9DDE0
+        public void get_jointLinearSpeed(){} // RVA: 0x7FFAF9C9DE30
+        public void get_jointSpeed(){} // RVA: 0x7FFAF9C9DE80
+        public void get_jointAngle(){} // RVA: 0x7FFAF9C9DED0
+        public void GetMotorTorque(){} // RVA: 0x7FFAF9C9DF20
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void get_suspension_Injected(){} // RVA: 0x7FFAF9C9DF80
+        public void set_suspension_Injected(){} // RVA: 0x7FFAF9C9DFE0
+        public void get_motor_Injected(){} // RVA: 0x7FFAF9C9E040
+        public void set_motor_Injected(){} // RVA: 0x7FFAF9C9E0A0
     }
 
-    public class WindZone : Component
+    public class WindZone
     {
+        public object hasPopInstruction;
+        public object materialCount;
+        public object popMaterialCount;
+        public object absoluteDepth;
+        public object hasMoved;
+        public object cullTransparentMesh;
+
         // ── Methods ──
-        public void get_mode(){} // RVA: 0x7FFE88045380
-        public void set_mode(){} // RVA: 0x7FFE880453D0
-        public void get_radius(){} // RVA: 0x7FFE88045430
-        public void set_radius(){} // RVA: 0x7FFE88045480
-        public void get_windMain(){} // RVA: 0x7FFE880454E0
-        public void set_windMain(){} // RVA: 0x7FFE88045530
-        public void get_windTurbulence(){} // RVA: 0x7FFE88045590
-        public void set_windTurbulence(){} // RVA: 0x7FFE880455E0
-        public void get_windPulseMagnitude(){} // RVA: 0x7FFE88045640
-        public void set_windPulseMagnitude(){} // RVA: 0x7FFE88045690
-        public void get_windPulseFrequency(){} // RVA: 0x7FFE880456F0
-        public void set_windPulseFrequency(){} // RVA: 0x7FFE88045740
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void get_mode(){} // RVA: 0x7FFAF9FB51B0
+        public void set_mode(){} // RVA: 0x7FFAF9FB5200
+        public void get_radius(){} // RVA: 0x7FFAF9FB5260
+        public void set_radius(){} // RVA: 0x7FFAF9FB52B0
+        public void get_windMain(){} // RVA: 0x7FFAF9FB5310
+        public void set_windMain(){} // RVA: 0x7FFAF9FB5360
+        public void get_windTurbulence(){} // RVA: 0x7FFAF9FB53C0
+        public void set_windTurbulence(){} // RVA: 0x7FFAF9FB5410
+        public void get_windPulseMagnitude(){} // RVA: 0x7FFAF9FB5470
+        public void set_windPulseMagnitude(){} // RVA: 0x7FFAF9FB54C0
+        public void get_windPulseFrequency(){} // RVA: 0x7FFAF9FB5520
+        public void set_windPulseFrequency(){} // RVA: 0x7FFAF9FB5570
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
-    public class WritableAttribute : Attribute
+    public class WritableAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

@@ -5,209 +5,182 @@
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
-    public class AnimationState : ValueType
+    public class AnimationState
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-        public object field_1; // 0x11D
-        public object field_2; // 0x11E
-        public object field_3; // 0x11F
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsAnimationState(){} // RVA: 0x7FFE8811DC90 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Weight(){} // RVA: 0x7FFE88120470
-        public void get_Time(){} // RVA: 0x7FFE8812C930
-        public void get_Name(){} // RVA: 0x7FFE8812C980
-        public void GetNameBytes(){} // RVA: 0x7FFE8812CA10
-        public void GetNameArray(){} // RVA: 0x7FFE8812CA80
-        public void CreateAnimationState(){} // RVA: 0x7FFE8812CAD0
-        public void StartAnimationState(){} // RVA: 0x7FFE8812CD10
-        public void AddWeight(){} // RVA: 0x7FFE881205B0
-        public void AddTime(){} // RVA: 0x7FFE8812CD30
-        public void AddName(){} // RVA: 0x7FFE8812CDA0
-        public void EndAnimationState(){} // RVA: 0x7FFE8812CDE0
-        public void UnPack(){} // RVA: 0x7FFE8812CF40
-        public void UnPackTo(){} // RVA: 0x7FFE8812CFF0
-        public void Pack(){} // RVA: 0x7FFE8812D0E0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsAnimationState(){} // RVA: 0x7FFAFA090C40 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Weight(){} // RVA: 0x7FFAFA093420
+        public void get_Time(){} // RVA: 0x7FFAFA09F8E0
+        public void get_Name(){} // RVA: 0x7FFAFA09F930
+        public void GetNameBytes(){} // RVA: 0x7FFAFA09F9C0
+        public void GetNameArray(){} // RVA: 0x7FFAFA09FA30
+        public void CreateAnimationState(){} // RVA: 0x7FFAFA09FA80
+        public void StartAnimationState(){} // RVA: 0x7FFAFA09FCC0
+        public void AddWeight(){} // RVA: 0x7FFAFA093560
+        public void AddTime(){} // RVA: 0x7FFAFA09FCE0
+        public void AddName(){} // RVA: 0x7FFAFA09FD50
+        public void EndAnimationState(){} // RVA: 0x7FFAFA09FD90
+        public void UnPack(){} // RVA: 0x7FFAFA09FEF0
+        public void UnPackTo(){} // RVA: 0x7FFAFA09FFA0
+        public void Pack(){} // RVA: 0x7FFAFA0A0090
     }
 
-    public class AnimationStateT : Object
+    public class AnimationStateT
     {
-        public float _weight; // 0x10
-        public float _time; // 0x14
-        public string _name; // 0x18
-
         // ── Methods ──
-        public void get_Weight(){} // RVA: 0x7FFE81225320
-        public void set_Weight(){} // RVA: 0x7FFE81225330
-        public void get_Time(){} // RVA: 0x7FFE81225340
-        public void set_Time(){} // RVA: 0x7FFE81225350
-        public void get_Name(){} // RVA: 0x7FFE810FE7C0
-        public void set_Name(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE8812D150
+        public void get_Weight(){} // RVA: 0x7FFAF2EB7320
+        public void set_Weight(){} // RVA: 0x7FFAF2EB7330
+        public void get_Time(){} // RVA: 0x7FFAF2EB7340
+        public void set_Time(){} // RVA: 0x7FFAF2EB7350
+        public void get_Name(){} // RVA: 0x7FFAF2D907C0
+        public void set_Name(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAFA0A0100
     }
 
-    public class AnimationStateVerify : Object
+    public class AnimationStateVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8812D1B0
+        public void Verify(){} // RVA: 0x7FFAFA0A0160
     }
 
-    public class AnimatorBool : ValueType
+    public class AnimatorBool
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-        public object field_1; // 0x12B
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8811D6C0
-        public void CreateAnimatorBool(){} // RVA: 0x7FFE8812D8E0
-        public void UnPack(){} // RVA: 0x7FFE8812D9B0
-        public void UnPackTo(){} // RVA: 0x7FFE8811D830
-        public void Pack(){} // RVA: 0x7FFE8812DA20
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA090670
+        public void CreateAnimatorBool(){} // RVA: 0x7FFAFA0A0890
+        public void UnPack(){} // RVA: 0x7FFAFA0A0960
+        public void UnPackTo(){} // RVA: 0x7FFAFA0907E0
+        public void Pack(){} // RVA: 0x7FFAFA0A09D0
     }
 
-    public class AnimatorBoolT : Object
+    public class AnimatorBoolT
     {
-        public bool _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE811C55E0
-        public void set_Value(){} // RVA: 0x7FFE811C55F0
-        public void .ctor(){} // RVA: 0x7FFE81FCAC70
+        public void get_Value(){} // RVA: 0x7FFAF2E575E0
+        public void set_Value(){} // RVA: 0x7FFAF2E575F0
+        public void .ctor(){} // RVA: 0x7FFAF316DA00
     }
 
-    public class AnimatorFloat : ValueType
+    public class AnimatorFloat
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-        public object field_1; // 0x131
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8811DA60
-        public void CreateAnimatorFloat(){} // RVA: 0x7FFE8812DBA0
-        public void UnPack(){} // RVA: 0x7FFE8812DC70
-        public void UnPackTo(){} // RVA: 0x7FFE8811DBD0
-        public void Pack(){} // RVA: 0x7FFE8812DCE0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA090A10
+        public void CreateAnimatorFloat(){} // RVA: 0x7FFAFA0A0B50
+        public void UnPack(){} // RVA: 0x7FFAFA0A0C20
+        public void UnPackTo(){} // RVA: 0x7FFAFA090B80
+        public void Pack(){} // RVA: 0x7FFAFA0A0C90
     }
 
-    public class AnimatorFloatT : Object
+    public class AnimatorFloatT
     {
-        public float _value; // 0x10
+        public object AnimationIsPlaying;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81225320
-        public void set_Value(){} // RVA: 0x7FFE81225330
-        public void .ctor(){} // RVA: 0x7FFE817EE4A0
+        public void get_Value(){} // RVA: 0x7FFAF2EB7320
+        public void set_Value(){} // RVA: 0x7FFAF2EB7330
+        public void .ctor(){} // RVA: 0x7FFAF350D070
     }
 
-    public class AnimatorInt : ValueType
+    public class AnimatorInt
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-        public object field_1; // 0x12E
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8811D890
-        public void CreateAnimatorInt(){} // RVA: 0x7FFE8812DA40
-        public void UnPack(){} // RVA: 0x7FFE8812DB10
-        public void UnPackTo(){} // RVA: 0x7FFE8811DA00
-        public void Pack(){} // RVA: 0x7FFE8812DB80
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA090840
+        public void CreateAnimatorInt(){} // RVA: 0x7FFAFA0A09F0
+        public void UnPack(){} // RVA: 0x7FFAFA0A0AC0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0909B0
+        public void Pack(){} // RVA: 0x7FFAFA0A0B30
     }
 
-    public class AnimatorIntT : Object
+    public class AnimatorIntT
     {
-        public int _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE811485C0
-        public void set_Value(){} // RVA: 0x7FFE810FE0C0
-        public void .ctor(){} // RVA: 0x7FFE817EE4A0
+        public void get_Value(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_Value(){} // RVA: 0x7FFAF2D900C0
+        public void .ctor(){} // RVA: 0x7FFAF350D070
     }
 
-    public class AnimatorLayer : ValueType
+    public class AnimatorLayer
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-        public object field_1; // 0x124
-        public object field_2; // 0x125
-        public object field_3; // 0x126
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsAnimatorLayer(){} // RVA: 0x7FFE8811DC90 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Hash(){} // RVA: 0x7FFE8812D2B0
-        public void get_Weight(){} // RVA: 0x7FFE8812C930
-        public void get_Time(){} // RVA: 0x7FFE8812D300
-        public void CreateAnimatorLayer(){} // RVA: 0x7FFE8812D350
-        public void StartAnimatorLayer(){} // RVA: 0x7FFE8812CD10
-        public void AddHash(){} // RVA: 0x7FFE8812D4E0
-        public void AddWeight(){} // RVA: 0x7FFE8812CD30
-        public void AddTime(){} // RVA: 0x7FFE8812D550
-        public void EndAnimatorLayer(){} // RVA: 0x7FFE8812D5C0
-        public void UnPack(){} // RVA: 0x7FFE8812D650
-        public void UnPackTo(){} // RVA: 0x7FFE8812D6C0
-        public void Pack(){} // RVA: 0x7FFE8812D790
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsAnimatorLayer(){} // RVA: 0x7FFAFA090C40 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Hash(){} // RVA: 0x7FFAFA0A0260
+        public void get_Weight(){} // RVA: 0x7FFAFA09F8E0
+        public void get_Time(){} // RVA: 0x7FFAFA0A02B0
+        public void CreateAnimatorLayer(){} // RVA: 0x7FFAFA0A0300
+        public void StartAnimatorLayer(){} // RVA: 0x7FFAFA09FCC0
+        public void AddHash(){} // RVA: 0x7FFAFA0A0490
+        public void AddWeight(){} // RVA: 0x7FFAFA09FCE0
+        public void AddTime(){} // RVA: 0x7FFAFA0A0500
+        public void EndAnimatorLayer(){} // RVA: 0x7FFAFA0A0570
+        public void UnPack(){} // RVA: 0x7FFAFA0A0600
+        public void UnPackTo(){} // RVA: 0x7FFAFA0A0670
+        public void Pack(){} // RVA: 0x7FFAFA0A0740
     }
 
-    public class AnimatorLayerT : Object
+    public class AnimatorLayerT
     {
-        public int _hash; // 0x10
-        public float _weight; // 0x14
-        public float _time; // 0x18
-
         // ── Methods ──
-        public void get_Hash(){} // RVA: 0x7FFE811485C0
-        public void set_Hash(){} // RVA: 0x7FFE810FE0C0
-        public void get_Weight(){} // RVA: 0x7FFE81225340
-        public void set_Weight(){} // RVA: 0x7FFE81225350
-        public void get_Time(){} // RVA: 0x7FFE810FFCF0
-        public void set_Time(){} // RVA: 0x7FFE811164D0
-        public void .ctor(){} // RVA: 0x7FFE86E273F0
+        public void get_Hash(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_Hash(){} // RVA: 0x7FFAF2D900C0
+        public void get_Weight(){} // RVA: 0x7FFAF2EB7340
+        public void set_Weight(){} // RVA: 0x7FFAF2EB7350
+        public void get_Time(){} // RVA: 0x7FFAF2D91CF0
+        public void set_Time(){} // RVA: 0x7FFAF2DA84D0
+        public void .ctor(){} // RVA: 0x7FFAF8D969C0
     }
 
-    public class AnimatorLayerVerify : Object
+    public class AnimatorLayerVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8812D7C0
+        public void Verify(){} // RVA: 0x7FFAFA0A0770
     }
 
-    public class AnimatorParameterUnion : Object
+    public class AnimatorParameterUnion
     {
-        public 0x665F6814 _type; // 0x10
-        public object _value; // 0x18
+        public object Parser;
+        public object Descriptor;
 
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x7FFE811C55E0
-        public void set_Type(){} // RVA: 0x7FFE811C55F0
-        public void get_Value(){} // RVA: 0x7FFE810FE7C0
-        public void set_Value(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE8811CB20
-        public void As(){} // RVA: 0x7FFE810A1420
-        public void AsAnimatorBool(){} // RVA: 0x7FFE8812C3B0
-        public void FromAnimatorBool(){} // RVA: 0x7FFE8812C3F0
-        public void AsAnimatorInt(){} // RVA: 0x7FFE8812C4F0
-        public void FromAnimatorInt(){} // RVA: 0x7FFE8812C530
-        public void AsAnimatorFloat(){} // RVA: 0x7FFE8812C630
-        public void FromAnimatorFloat(){} // RVA: 0x7FFE8812C670
-        public void Pack(){} // RVA: 0x7FFE8812C770
+        public void get_Type(){} // RVA: 0x7FFAF2E575E0
+        public void set_Type(){} // RVA: 0x7FFAF2E575F0
+        public void get_Value(){} // RVA: 0x7FFAF2D907C0
+        public void set_Value(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAFA08FAD0
+        public void As(){} // RVA: 0x7FFAF2D33FA0
+        public void AsAnimatorBool(){} // RVA: 0x7FFAFA09F360
+        public void FromAnimatorBool(){} // RVA: 0x7FFAFA09F3A0
+        public void AsAnimatorInt(){} // RVA: 0x7FFAFA09F4A0
+        public void FromAnimatorInt(){} // RVA: 0x7FFAFA09F4E0
+        public void AsAnimatorFloat(){} // RVA: 0x7FFAFA09F5E0
+        public void FromAnimatorFloat(){} // RVA: 0x7FFAFA09F620
+        public void Pack(){} // RVA: 0x7FFAFA09F720
     }
 
-    public class AnimatorParameterVerify : Object
+    public class AnimatorParameterVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8812C8B0
+        public void Verify(){} // RVA: 0x7FFAFA09F860
     }
 
 }

@@ -1,0 +1,210 @@
+[
+  {
+    "class": "GalleryIconsView",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "UpdateActive",
+      "AccessactiveSelf",
+      "SetObservableListActiveTrue",
+      "set_MaxContentCount",
+      "get_MaxContentCount",
+      "ToggleObservableListVisibility",
+      "set_ObservableList",
+      "ResetGalleryState",
+      "SetGalleryStateActive"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_079"
+    ]
+  },
+  {
+    "class": "PointerClickPointerDown_DD53_BAAC",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_MotionBlurCameras",
+      "OnPointerUp",
+      "get_Transform",
+      "get_PlatformOptionsIOS",
+      "get_CaptureFailedRequests",
+      "OnMove",
+      "OnPointerDown",
+      "get_PlatformOptionsMacOSX",
+      "get_taglineText"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_0E2",
+      "m_02A"
+    ]
+  },
+  {
+    "class": "ObjectInstantiator_2F6D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "StartCoroutine_Auto",
+      "Clear",
+      "_DestroyObject",
+      "GetScriptClassName",
+      "SanityCheck",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "_DestroyObjects",
+      "OnTriggerStay"
+    ],
+    "fields": [
+      "ScanFrequency"
+    ],
+    "hash_methods": [
+      "m_559"
+    ]
+  },
+  {
+    "class": "PhysSoundObject",
+    "parent": "",
+    "namespace": "PhysSound",
+    "readable_methods": [
+      "OnCollisionEnter",
+      "SetPhysSoundParameter",
+      "ProcessCollisionParameters",
+      "ProcessArticleStatus",
+      "OnCollisionStay2D",
+      "ComputeCollisionSoundProperties",
+      "OnCollisionExit2D",
+      "OnCollisionStay",
+      "SetPosition"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_513",
+      "m_475"
+    ]
+  },
+  {
+    "class": "PlayercontrolSchemesbindingMask_17CC_7B30",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_controlSchemes",
+      "WaitUntilCanceled",
+      "Dispose",
+      "Cleanup",
+      "FindBinding",
+      "System.Collections.IEnumerable.GetEnumerator",
+      "set_bindings",
+      "FindAction",
+      "Contains"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_721"
+    ]
+  },
+  {
+    "class": "AppSettings",
+    "parent": "",
+    "namespace": "Mediapipe.Unity.Sample",
+    "readable_methods": [
+      "set_assetLoaderType",
+      "set_preferableInferenceMode",
+      "get_State",
+      "set_defaultImageSource",
+      "get_preferredMaximumResolution",
+      "set_logLevel",
+      "get_logLevel",
+      "OnPointerEnter"
+    ],
+    "fields": [
+      "clipCaps"
+    ],
+    "hash_methods": [
+      "m_B00"
+    ]
+  },
+  {
+    "class": "VRC_MainSiblingSibling_3766",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_ECF",
+      "m_023",
+      "m_96E",
+      "m_A22",
+      "m_C6F",
+      "m_223",
+      "m_F12",
+      "m_769",
+      "m_D11",
+      "m_FE8",
+      "m_93D",
+      "m_8A1"
+    ]
+  },
+  {
+    "class": "EmojiData",
+    "parent": "",
+    "namespace": "VRC.UI.Client.Emoji",
+    "readable_methods": [
+      "set_EffectBundleID",
+      "set_LoadFrom",
+      "set_IsAnimated",
+      "set_Frames",
+      "set_IsPremium",
+      "set_IsBuiltIn",
+      "set_FileId",
+      "set_SpawnablePrefabName",
+      "set_ID"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_34D"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_4201",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AF5",
+      "m_AEA"
+    ]
+  },
+  {
+    "class": "UpdateComponent_107BSibling_E3BB",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationQuit",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnBecameVisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2B4"
+    ]
+  }
+]

@@ -5,60 +5,60 @@
 
 namespace ThirdParty.Valve.Valve.VR
 {
-    public class HiddenAreaMesh_t : ValueType
+    public class HiddenAreaMesh_t
     {
     }
 
-    public class HmdColor_t : ValueType
+    public class HmdColor_t
     {
     }
 
-    public class HmdMatrix33_t : ValueType
+    public class HmdMatrix33_t
     {
     }
 
-    public class HmdMatrix34_t : ValueType
+    public class HmdMatrix34_t
     {
         // ── Methods ──
-        public void GetPosition(){} // RVA: 0x7FFE87BA8430
-        public void IsRotationValid(){} // RVA: 0x7FFE87BA8450
-        public void GetRotation(){} // RVA: 0x7FFE87BA84B0
-        public void _copysign(){} // RVA: 0x7FFE87BA8740
+        public void GetPosition(){} // RVA: 0x7FFAF9B17560
+        public void IsRotationValid(){} // RVA: 0x7FFAF9B17580
+        public void GetRotation(){} // RVA: 0x7FFAF9B175E0
+        public void _copysign(){} // RVA: 0x7FFAF9B17870
     }
 
-    public class HmdMatrix44_t : ValueType
+    public class HmdMatrix44_t
     {
     }
 
-    public class HmdQuad_t : ValueType
+    public class HmdQuad_t
     {
     }
 
-    public class HmdQuaternion_t : ValueType
+    public class HmdQuaternion_t
     {
     }
 
-    public class HmdQuaternionf_t : ValueType
+    public class HmdQuaternionf_t
     {
     }
 
-    public class HmdRect2_t : ValueType
+    public class HmdRect2_t
     {
     }
 
-    public class HmdVector2_t : ValueType
+    public class HmdVector2_t
     {
     }
 
-    public class HmdVector3_t : ValueType
+    public class HmdVector3_t
     {
     }
 
-    public class HmdVector3d_t : ValueType
+    public class HmdVector3d_t
     {
     }
 
-    public class HmdVector4_t : ValueType
+    public class HmdVector4_t
     {
     }
 

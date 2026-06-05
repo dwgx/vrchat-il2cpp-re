@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Sentry.Sentry.Reflection
 {
-    public class AssemblyExtensions : Object
+    public class AssemblyExtensions
     {
         // ── Methods ──
-        public void GetNameAndVersion(){} // RVA: 0x7FFE86F0D4D0
-        public void GetVersion(){} // RVA: 0x7FFE86F0D630
+        public void GetNameAndVersion(){} // RVA: 0x7FFAF8E7CAA0
+        public void GetVersion(){} // RVA: 0x7FFAF8E7CC00
     }
 
 }

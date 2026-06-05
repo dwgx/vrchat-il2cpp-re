@@ -5,14 +5,14 @@
 
 namespace VRC.Udon.Serialization.OdinSerializer.Utilities.Unsafe
 {
-    public class UnsafeUtilities : Object
+    public class UnsafeUtilities
     {
         // ── Methods ──
-        public void StructArrayFromBytes(){} // RVA: 0x7FFE80E3F430 | overloaded x2
-        public void StructArrayToBytes(){} // RVA: 0x7FFE80E3EB60 | overloaded x2
-        public void StringFromBytes(){} // RVA: 0x7FFE883EE6C0
-        public void StringToBytes(){} // RVA: 0x7FFE883EEA80
-        public void MemoryCopy(){} // RVA: 0x7FFE883EEE70 | overloaded x2
+        public void StructArrayFromBytes(){} // RVA: 0x7FFAF2ACDEC0 | overloaded x2
+        public void StructArrayToBytes(){} // RVA: 0x7FFAF2ACD5F0 | overloaded x2
+        public void StringFromBytes(){} // RVA: 0x7FFAFA3619E0
+        public void StringToBytes(){} // RVA: 0x7FFAFA361DA0
+        public void MemoryCopy(){} // RVA: 0x7FFAFA362190 | overloaded x2
     }
 
 }

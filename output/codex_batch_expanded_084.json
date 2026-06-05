@@ -1,0 +1,201 @@
+[
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_F775",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C01",
+      "m_6EA",
+      "m_937",
+      "m_51F",
+      "m_EEE",
+      "m_95D",
+      "m_016"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_F8BD",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_937",
+      "m_6EA",
+      "m_6F8",
+      "m_410",
+      "m_C31",
+      "m_F2B",
+      "m_016"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_FAB5",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_95D",
+      "m_6EA",
+      "m_C01",
+      "m_C31",
+      "m_016",
+      "m_937",
+      "m_410"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_FC77",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6F8",
+      "m_EEE",
+      "m_C01",
+      "m_CF3",
+      "m_2F0",
+      "m_937",
+      "m_24F"
+    ]
+  },
+  {
+    "class": "PlayerIsInteractivePickupUseDown_3AE2",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_IsInteractive"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_10E",
+      "m_ED4",
+      "m_61B",
+      "m_C77",
+      "m_365",
+      "m_FFF"
+    ]
+  },
+  {
+    "class": "Static15m_5E33",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9C5",
+      "m_185",
+      "m_055",
+      "m_9C9",
+      "m_C38",
+      "m_3A7",
+      "m_7A2",
+      "m_CDA",
+      "m_DAC",
+      "m_DA7",
+      "m_DD3"
+    ]
+  },
+  {
+    "class": "Static15m_857F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C96",
+      "m_A18",
+      "m_7D7",
+      "m_58E",
+      "m_FEF",
+      "m_1A9",
+      "m_2CD",
+      "m_6CD",
+      "m_830",
+      "m_D65",
+      "m_D4E"
+    ]
+  },
+  {
+    "class": "Static15m_857F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C96",
+      "m_A18",
+      "m_7D7",
+      "m_58E",
+      "m_FEF",
+      "m_1A9",
+      "m_2CD",
+      "m_6CD",
+      "m_830",
+      "m_D65",
+      "m_D4E"
+    ]
+  },
+  {
+    "class": "Static15m_857F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C96",
+      "m_A18",
+      "m_7D7",
+      "m_58E",
+      "m_FEF",
+      "m_1A9",
+      "m_2CD",
+      "m_6CD",
+      "m_830",
+      "m_D65",
+      "m_D4E"
+    ]
+  },
+  {
+    "class": "Static15m_857F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C96",
+      "m_A18",
+      "m_7D7",
+      "m_58E",
+      "m_FEF",
+      "m_1A9",
+      "m_2CD",
+      "m_6CD",
+      "m_830",
+      "m_D65",
+      "m_D4E"
+    ]
+  }
+]

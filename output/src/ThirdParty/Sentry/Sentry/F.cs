@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Sentry.Sentry
 {
-    public class FileAttachmentContent : Object
+    public class FileAttachmentContent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE828378F0 | overloaded x2
-        public void GetStream(){} // RVA: 0x7FFE86DE34B0
+        public void .ctor(){} // RVA: 0x7FFAF45641A0 | overloaded x2
+        public void GetStream(){} // RVA: 0x7FFAF8D52A80
     }
 
 }

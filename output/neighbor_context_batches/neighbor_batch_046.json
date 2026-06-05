@@ -1,0 +1,126 @@
+[
+  {
+    "class": "OVRLipSyncContext",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnAudioFilterRead",
+      "GetPlatform",
+      "UpdateLipSyncIfEnabled",
+      "HandleKeyboardInput",
+      "UpdateLaughterScore",
+      "OnApplicationPause",
+      "StartCoroutine_Auto",
+      "ScaleAudioBufferByLaughterScore",
+      "ProcessLipSyncEvent"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_662"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 20,
+    "signal_score": 96
+  },
+  {
+    "class": "TransformRectServiceComponent_24B4",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "StopCoroutineFromEnumeratorManaged",
+      "OnCollisionEnter",
+      "OnTriggerExit",
+      "OnTriggerEnter",
+      "OnTriggerStay"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4A7",
+      "m_07F",
+      "m_D1F",
+      "m_537",
+      "m_352",
+      "m_C76",
+      "m_53C",
+      "m_4F1",
+      "m_C30",
+      "m_59A",
+      "m_08E",
+      "m_865"
+    ],
+    "remaining_hash_methods": 12,
+    "total_methods": 32,
+    "signal_score": 96
+  },
+  {
+    "class": "PlayerMoveNext_0359",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "System.Collections.IEnumerator.Reset",
+      "get_Current",
+      "Dispose",
+      "MoveNext",
+      "SetPlayerMoveNext",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "System.Collections.IEnumerator.get_Current",
+      "RefreshPlayerMoveNext",
+      "System.IDisposable.Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DB5"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 14,
+    "signal_score": 95
+  },
+  {
+    "class": "PlayerMoveNext_210D",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_Current",
+      "MoveNext",
+      "Dispose",
+      "ResolvePlayerMoveNext",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "System.Collections.IEnumerator.get_Current",
+      "System.IDisposable.Dispose",
+      "System.Collections.IEnumerator.Reset",
+      "CheckPlayerMoveNext"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DB5"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 14,
+    "signal_score": 95
+  },
+  {
+    "class": "PlayerMoveNext_320A",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_Current",
+      "Dispose",
+      "System.IDisposable.Dispose",
+      "System.Collections.IEnumerator.get_Current",
+      "System.Collections.IEnumerator.Reset",
+      "InvokeIndexedOperation",
+      "MoveNext",
+      "GetCurrent",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E82"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 14,
+    "signal_score": 95
+  }
+]

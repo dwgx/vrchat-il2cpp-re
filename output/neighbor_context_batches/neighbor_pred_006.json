@@ -1,0 +1,5 @@
+{
+  "CameraCanWritePosition_FCC8::m_038": "get_Position",
+  "CameraCanWritePosition_FCC8::m_BDA": "EndRead",
+  "VRCNetworkBehaviour_3E57::m_07A": "OnBecameVisible"
+}

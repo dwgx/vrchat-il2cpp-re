@@ -5,27 +5,27 @@
 
 namespace ThirdParty.Sentry.Sentry.Force.Crc32
 {
-    public class Crc32Algorithm : HashAlgorithm
+    public class Crc32Algorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86F85750 | overloaded x2
-        public void Append(){} // RVA: 0x7FFE86F858A0 | overloaded x2
-        public void Compute(){} // RVA: 0x7FFE86F859D0 | overloaded x2
-        public void ComputeAndWriteToEnd(){} // RVA: 0x7FFE86F85C00 | overloaded x2
-        public void IsValidWithCrcAtEnd(){} // RVA: 0x7FFE86F85E60 | overloaded x2
-        public void Initialize(){} // RVA: 0x7FFE86F85F40
-        public void HashCore(){} // RVA: 0x7FFE86F85F50
-        public void HashFinal(){} // RVA: 0x7FFE86F85FF0
-        public void AppendInternal(){} // RVA: 0x7FFE86F860D0
-        public void .cctor(){} // RVA: 0x7FFE86F86180
+        public void .ctor(){} // RVA: 0x7FFAF8EF4D70 | overloaded x2
+        public void Append(){} // RVA: 0x7FFAF8EF4EC0 | overloaded x2
+        public void Compute(){} // RVA: 0x7FFAF8EF4FF0 | overloaded x2
+        public void ComputeAndWriteToEnd(){} // RVA: 0x7FFAF8EF5220 | overloaded x2
+        public void IsValidWithCrcAtEnd(){} // RVA: 0x7FFAF8EF5480 | overloaded x2
+        public void Initialize(){} // RVA: 0x7FFAF8EF5560
+        public void HashCore(){} // RVA: 0x7FFAF8EF5570
+        public void HashFinal(){} // RVA: 0x7FFAF8EF5610
+        public void AppendInternal(){} // RVA: 0x7FFAF8EF56F0
+        public void .cctor(){} // RVA: 0x7FFAF8EF57A0
     }
 
-    public class SafeProxy : Object
+    public class SafeProxy
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86F86240
-        public void Init(){} // RVA: 0x7FFE86F863E0
-        public void Append(){} // RVA: 0x7FFE86F86500
+        public void .ctor(){} // RVA: 0x7FFAF8EF5860
+        public void Init(){} // RVA: 0x7FFAF8EF5A00
+        public void Append(){} // RVA: 0x7FFAF8EF5B20
     }
 
 }

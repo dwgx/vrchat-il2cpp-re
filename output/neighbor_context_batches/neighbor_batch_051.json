@@ -1,0 +1,127 @@
+[
+  {
+    "class": "PlayerMoveNext_D6A2",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "System.Collections.IEnumerator.get_Current",
+      "System.Collections.IEnumerator.Reset",
+      "get_Current",
+      "System.IDisposable.Dispose",
+      "Dispose",
+      "MoveNext",
+      "GetEnumerator",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CBC"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 14,
+    "signal_score": 85
+  },
+  {
+    "class": "PlayerMoveNext_FF80",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "System.Collections.IEnumerator.Reset",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "get_Current",
+      "System.Collections.IEnumerator.get_Current",
+      "Dispose",
+      "MoveNext",
+      "GetUnityEngine",
+      "System.IDisposable.Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_63A"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 14,
+    "signal_score": 85
+  },
+  {
+    "class": "PlayerJoinedPlayerLeft_4447",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnPlayerLeft",
+      "OnPlayerJoined",
+      ".cctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B42",
+      "m_07A",
+      "m_6D6",
+      "m_BA6",
+      "m_AF6",
+      "m_2EC",
+      "m_E41",
+      "m_45D",
+      "m_41C",
+      "m_7E2",
+      "m_182",
+      "m_170"
+    ],
+    "remaining_hash_methods": 26,
+    "total_methods": 31,
+    "signal_score": 85
+  },
+  {
+    "class": "NetworkByteBufferSibling_70C4",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      ".ctor",
+      "Initialize",
+      ".cctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_852",
+      "m_670",
+      "m_4B0",
+      "m_58D",
+      "m_22F",
+      "m_090",
+      "m_9B4",
+      "m_90E",
+      "m_0A4",
+      "m_2A1",
+      "m_4B8",
+      "m_D46"
+    ],
+    "remaining_hash_methods": 25,
+    "total_methods": 32,
+    "signal_score": 84
+  },
+  {
+    "class": "TransformParentInvisibleComponent_B0A0",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnPreRender"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E09",
+      "m_0C0",
+      "m_3A2",
+      "m_8AD",
+      "m_252"
+    ],
+    "remaining_hash_methods": 5,
+    "total_methods": 21,
+    "signal_score": 83
+  }
+]

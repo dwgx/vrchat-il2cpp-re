@@ -1,0 +1,128 @@
+[
+  {
+    "class": "PlayerMoveNext_E102",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_EEE",
+      "m_DB9",
+      "m_E82"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_3FB7",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4F1",
+      "m_AE3",
+      "m_EEE"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_FFF0",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CE3",
+      "m_A24",
+      "m_DB9"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_DA82",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_29F",
+      "m_D23",
+      "m_333"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_983D",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F81",
+      "m_C45",
+      "m_E82"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_5C2B",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_668",
+      "m_63A",
+      "m_45D"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_FAA2",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C45",
+      "m_9B7",
+      "m_F81"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_C4CE",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BFC",
+      "m_4E7",
+      "m_6AA"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_210D",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_288",
+      "m_DB5",
+      "m_75E"
+    ]
+  }
+]

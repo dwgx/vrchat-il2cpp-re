@@ -1,0 +1,8 @@
+{
+  "PointerInitializePotentialDragBeginDrag_3B21_2F2F::m_73A": "OnInitializePotentialDrag",
+  "CameraPosition_DAF2_2BC6::m_87F": "set_Position",
+  "PointerEnterPointerExitImpl_AF7A_7249::m_3C5": "OnPointerEnter",
+  "PointerEnterPointerExitImpl_AF7A_7249::m_D5F": "OnPointerExit",
+  "PointerEnterPointerExit_947C_4C30::m_BA9": "OnPointerEnter",
+  "AvatarProxySettings::m_E4A": "UnregisterEvents"
+}

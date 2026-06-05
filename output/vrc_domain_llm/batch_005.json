@@ -1,0 +1,112 @@
+[
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_40F1",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Start",
+      "Awake",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_852",
+      "m_419",
+      "m_8B7",
+      "m_F41",
+      "m_4C0",
+      "m_074",
+      "m_D76",
+      "m_7E1",
+      "m_C62",
+      "m_27D",
+      "m_4E4",
+      "m_3FA",
+      "m_EF1",
+      "m_99C",
+      "m_CE0",
+      "m_B69",
+      "m_716",
+      "m_3B9",
+      "m_24D",
+      "m_E87",
+      "m_2CA",
+      "m_1C5",
+      "m_DD8",
+      "m_1CD",
+      "m_572"
+    ],
+    "all_method_count": 64,
+    "chunk_index": 0,
+    "chunk_count": 3
+  },
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_40F1",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Start",
+      "Awake",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_784",
+      "m_287",
+      "m_626",
+      "m_731",
+      "m_D45",
+      "m_BD6",
+      "m_649",
+      "m_959",
+      "m_58C",
+      "m_71F",
+      "m_2F5",
+      "m_47D",
+      "m_460",
+      "m_187",
+      "m_474",
+      "m_B4E",
+      "m_5C9",
+      "m_30D",
+      "m_180",
+      "m_A76",
+      "m_3F4",
+      "m_894",
+      "m_6E9",
+      "m_74E",
+      "m_5CA"
+    ],
+    "all_method_count": 64,
+    "chunk_index": 1,
+    "chunk_count": 3
+  },
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_40F1",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Start",
+      "Awake",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_018",
+      "m_70B",
+      "m_25E",
+      "m_AB9",
+      "m_55C",
+      "m_1CE"
+    ],
+    "all_method_count": 64,
+    "chunk_index": 2,
+    "chunk_count": 3
+  }
+]

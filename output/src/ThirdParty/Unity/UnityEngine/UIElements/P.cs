@@ -1,639 +1,1657 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 36
-// Methods: 361
+// Classes: 60
+// Methods: 1427
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class Painter2D : Object
-    {
-        public UnityEngine.UIElements.MeshGenerationContext m_Ctx; // 0x10
-        public UnityEngine.UIElements.UIR.DetachedAllocator m_DetachedAllocator; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87F76180
-        public void Reset(){} // RVA: 0x7FFE87F76380
-        public void Dispose(){} // RVA: 0x7FFE87F76580 | overloaded x2
-        public void set_isPainterActive(){} // RVA: 0x7FFE87F766C0
-        public void get_maxArcRadius(){} // RVA: 0x7FFE87F76720
-        public void .cctor(){} // RVA: 0x7FFE87F76840
-    }
-
-    public class Panel : BaseVisualElementPanel
-    {
-        public UnityEngine.UIElements.VisualElement m_RootContainer; // 0xA8
-        public UnityEngine.UIElements.VisualTreeUpdater m_VisualTreeUpdater; // 0xB0
-        public UnityEngine.UIElements.IStylePropertyAnimationSystem m_StylePropertyAnimationSystem; // 0xB8
-        public string m_PanelName; // 0xC0
-        public uint m_Version; // 0xC8
-        public uint m_RepaintVersion; // 0xCC
-        public uint m_HierarchyVersion; // 0xD0
-        public Unity.Profiling.ProfilerMarker m_MarkerBeforeUpdate; // 0xD8
-        public Unity.Profiling.ProfilerMarker m_MarkerUpdate; // 0xE0
-        public Unity.Profiling.ProfilerMarker m_MarkerLayout; // 0xE8
-        public Unity.Profiling.ProfilerMarker m_MarkerBindings; // 0xF0
-        public Unity.Profiling.ProfilerMarker m_MarkerAnimations; // 0xF8
-        public Unity.Profiling.ProfilerMarker s_MarkerPickAll;
-        public UnityEngine.UIElements.EventDispatcher _dispatcher; // 0x100
-        public UnityEngine.UIElements.TimerEventScheduler m_Scheduler; // 0x108
-        public UnityEngine.ScriptableObject _ownerObject; // 0x110
-        public 0x66518DF4 _contextType; // 0x118
-        public UnityEngine.UIElements.SavePersistentViewData _saveViewData; // 0x120
-        public UnityEngine.UIElements.GetViewDataDictionary _getViewDataDictionary; // 0x128
-        public UnityEngine.UIElements.FocusController _focusController; // 0x130
-
-        // ── Methods ──
-        public void get_visualTree(){} // RVA: 0x7FFE87CC8640
-        public void get_dispatcher(){} // RVA: 0x7FFE81828B50
-        public void set_dispatcher(){} // RVA: 0x7FFE81A58AB0
-        public void get_timerEventScheduler(){} // RVA: 0x7FFE87F50BC0
-        public void get_scheduler(){} // RVA: 0x7FFE87F50BC0
-        public void get_styleAnimationSystem(){} // RVA: 0x7FFE811660B0
-        public void set_styleAnimationSystem(){} // RVA: 0x7FFE87F50C70
-        public void get_ownerObject(){} // RVA: 0x7FFE81317980
-        public void set_ownerObject(){} // RVA: 0x7FFE813159A0
-        public void get_contextType(){} // RVA: 0x7FFE812BC010
-        public void set_contextType(){} // RVA: 0x7FFE82BD1CF0
-        public void get_saveViewData(){} // RVA: 0x7FFE813A1DA0
-        public void get_getViewDataDictionary(){} // RVA: 0x7FFE8182B890
-        public void get_focusController(){} // RVA: 0x7FFE81823850
-        public void set_focusController(){} // RVA: 0x7FFE81B31120
-        public void get_IMGUIEventInterests(){} // RVA: 0x7FFE87F50D30
-        public void set_IMGUIEventInterests(){} // RVA: 0x7FFE87F50D50
-        public void get_loadResourceFunc(){} // RVA: 0x7FFE87F50D70
-        public void LoadResource(){} // RVA: 0x7FFE87F50DD0
-        public void Focus(){} // RVA: 0x7FFE87F50EE0
-        public void Blur(){} // RVA: 0x7FFE87F50EF0
-        public void ValidateFocus(){} // RVA: 0x7FFE87F51010
-        public void get_name(){} // RVA: 0x7FFE87CC8790
-        public void set_name(){} // RVA: 0x7FFE87F510E0
-        public void CreateMarkers(){} // RVA: 0x7FFE87F51140
-        public void get_TimeSinceStartup(){} // RVA: 0x7FFE87F51620
-        public void get_IMGUIContainersCount(){} // RVA: 0x7FFE86C70920
-        public void set_IMGUIContainersCount(){} // RVA: 0x7FFE86C70930
-        public void get_rootIMGUIContainer(){} // RVA: 0x7FFE811665F0
-        public void get_version(){} // RVA: 0x7FFE81790750
-        public void get_hierarchyVersion(){} // RVA: 0x7FFE817E0030
-        public void get_standardShader(){} // RVA: 0x7FFE87F51680
-        public void get_atlas(){} // RVA: 0x7FFE87F51690
-        public void set_atlas(){} // RVA: 0x7FFE87F516A0
-        public void .ctor(){} // RVA: 0x7FFE87F51780
-        public void Dispose(){} // RVA: 0x7FFE87F51FB0
-        public void TimeSinceStartupMs(){} // RVA: 0x7FFE87F52120
-        public void DefaultTimeSinceStartupMs(){} // RVA: 0x7FFE87F52220
-        public void PickAll(){} // RVA: 0x7FFE87F52690 | overloaded x2
-        public void PerformPick(){} // RVA: 0x7FFE87F52310
-        public void Pick(){} // RVA: 0x7FFE87F52780
-        public void ValidateLayout(){} // RVA: 0x7FFE87F529C0
-        public void UpdateAnimations(){} // RVA: 0x7FFE87F52A40
-        public void UpdateBindings(){} // RVA: 0x7FFE87F52A70
-        public void ApplyStyles(){} // RVA: 0x7FFE87F52AA0
-        public void UpdateForRepaint(){} // RVA: 0x7FFE87F52AD0
-        public void Repaint(){} // RVA: 0x7FFE87F52B60
-        public void OnVersionChanged(){} // RVA: 0x7FFE87F52FC0
-        public void GetUpdater(){} // RVA: 0x7FFE87F53130
-        public void .cctor(){} // RVA: 0x7FFE87F53170
-        public void <Pick>g__PixelOf|101_0(){} // RVA: 0x7FFE87F53220
-    }
-
-    public class PanelChangedEventBase`1 : EventBase`1
-    {
-        public UnityEngine.UIElements.IPanel _originPanel;
-        public UnityEngine.UIElements.IPanel _destinationPanel;
-
-        // ── Methods ──
-        public void get_originPanel(){} // RVA: 0x7FFE80E2E2E0
-        public void set_originPanel(){} // RVA: 0x7FFE80E460A0
-        public void get_destinationPanel(){} // RVA: 0x7FFE80E2E2E0
-        public void set_destinationPanel(){} // RVA: 0x7FFE80E460A0
-        public void Init(){} // RVA: 0x7FFE80E45FE0
-        public void LocalInit(){} // RVA: 0x7FFE80E45FE0
-        public void GetPooled(){} // RVA: 0x7FFE810A1420
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
-    }
-
-    public class PanelClearSettings : ValueType
-    {
-    }
-
-    public class PanelEventHandler : UIBehaviour
-    {
-        public UnityEngine.UIElements.BaseRuntimePanel m_Panel; // 0x20
-        public PointerEvent m_PointerEvent; // 0x28
-        public float m_LastClickTime; // 0x30
-        public bool m_Selecting; // 0x34
-        public UnityEngine.Event m_Event; // 0x38
-
-        // ── Methods ──
-        public void get_panel(){} // RVA: 0x7FFE811290C0
-        public void set_panel(){} // RVA: 0x7FFE8801F0A0
-        public void get_selectableGameObject(){} // RVA: 0x7FFE8801F180
-        public void get_eventSystem(){} // RVA: 0x7FFE8801F1A0
-        public void get_isCurrentFocusedPanel(){} // RVA: 0x7FFE8801F290
-        public void get_currentFocusedElement(){} // RVA: 0x7FFE8801F4A0
-        public void OnEnable(){} // RVA: 0x7FFE8801F4E0
-        public void OnDisable(){} // RVA: 0x7FFE8801F4F0
-        public void RegisterCallbacks(){} // RVA: 0x7FFE8801F500
-        public void UnregisterCallbacks(){} // RVA: 0x7FFE8801F6D0
-        public void OnPanelDestroyed(){} // RVA: 0x7FFE8801F8F0
-        public void OnElementFocus(){} // RVA: 0x7FFE8801F9A0
-        public void OnElementBlur(){} // RVA: 0x7FFE810FB310
-        public void OnSelect(){} // RVA: 0x7FFE8801FAB0
-        public void OnDeselect(){} // RVA: 0x7FFE8801FAF0
-        public void OnPointerMove(){} // RVA: 0x7FFE8801FB10
-        public void OnPointerUp(){} // RVA: 0x7FFE8801FC60
-        public void OnPointerDown(){} // RVA: 0x7FFE8801FE80
-        public void OnPointerExit(){} // RVA: 0x7FFE88020120
-        public void OnPointerEnter(){} // RVA: 0x7FFE880205D0
-        public void OnPointerClick(){} // RVA: 0x7FFE88020640
-        public void OnSubmit(){} // RVA: 0x7FFE880206A0
-        public void OnCancel(){} // RVA: 0x7FFE88020870
-        public void OnMove(){} // RVA: 0x7FFE88020A40
-        public void OnScroll(){} // RVA: 0x7FFE88020CD0
-        public void SendEvent(){} // RVA: 0x7FFE88020F30 | overloaded x2
-        public void Update(){} // RVA: 0x7FFE88020F60
-        public void LateUpdate(){} // RVA: 0x7FFE88020FE0
-        public void ProcessImguiEvents(){} // RVA: 0x7FFE88020FF0
-        public void ProcessKeyboardEvent(){} // RVA: 0x7FFE880211D0
-        public void ProcessTabEvent(){} // RVA: 0x7FFE880212D0
-        public void SendTabEvent(){} // RVA: 0x7FFE88021380
-        public void SendKeyUpEvent(){} // RVA: 0x7FFE88021550
-        public void SendKeyDownEvent(){} // RVA: 0x7FFE880216C0
-        public void ReadPointerData(){} // RVA: 0x7FFE88021830
-        public void .ctor(){} // RVA: 0x7FFE88021AC0
-    }
-
-    public class PanelRaycaster : BaseRaycaster
-    {
-        public UnityEngine.UIElements.BaseRuntimePanel m_Panel; // 0x28
-        public object field_1; // 0x187
-        public object field_2; // 0x188
-        public object field_3; // 0x189
-        public object field_4; // 0x18A
-
-        // ── Methods ──
-        public void get_panel(){} // RVA: 0x7FFE81129130
-        public void set_panel(){} // RVA: 0x7FFE88022470
-        public void RegisterCallbacks(){} // RVA: 0x7FFE88022640
-        public void UnregisterCallbacks(){} // RVA: 0x7FFE880226E0
-        public void OnPanelDestroyed(){} // RVA: 0x7FFE88022780
-        public void get_selectableGameObject(){} // RVA: 0x7FFE88022790
-        public void get_sortOrderPriority(){} // RVA: 0x7FFE880227B0
-        public void get_renderOrderPriority(){} // RVA: 0x7FFE880227D0
-        public void Raycast(){} // RVA: 0x7FFE88022850
-        public void get_eventCamera(){} // RVA: 0x7FFE813240E0
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
-    }
-
-    public class PanelSettings : ScriptableObject
-    {
-        public int k_DefaultSortingOrder;
-        public float k_DefaultScaleValue;
-        public string k_DefaultStyleSheetPath;
-        public UnityEngine.UIElements.ThemeStyleSheet themeUss; // 0x18
-        public UnityEngine.RenderTexture m_TargetTexture; // 0x20
-        public 0x66517F84 m_ScaleMode; // 0x28
-        public float m_ReferenceSpritePixelsPerUnit; // 0x2C
-        public float m_Scale; // 0x30
-        public float DefaultDpi;
-        public float m_ReferenceDpi; // 0x34
-        public float m_FallbackDpi; // 0x38
-        public UnityEngine.Vector2Int m_ReferenceResolution; // 0x3C
-        public 0x66517FDC m_ScreenMatchMode; // 0x44
-        public float m_Match; // 0x48
-        public float m_SortingOrder; // 0x4C
-        public int m_TargetDisplay; // 0x50
-        public bool m_ClearDepthStencil; // 0x54
-        public bool m_ClearColor; // 0x55
-        public UnityEngine.Color m_ColorClearValue; // 0x58
-        public RuntimePanelAccess m_PanelAccess; // 0x68
-
-        // ── Methods ──
-        public void get_themeStyleSheet(){} // RVA: 0x7FFE83BBC680
-        public void set_themeStyleSheet(){} // RVA: 0x7FFE87F3FD20
-        public void get_targetTexture(){} // RVA: 0x7FFE811290C0
-        public void set_targetTexture(){} // RVA: 0x7FFE87F3FD80
-        public void get_scaleMode(){} // RVA: 0x7FFE81549710
-        public void set_scaleMode(){} // RVA: 0x7FFE817E4800
-        public void get_referenceSpritePixelsPerUnit(){} // RVA: 0x7FFE87CE83B0
-        public void set_referenceSpritePixelsPerUnit(){} // RVA: 0x7FFE81670820
-        public void get_scale(){} // RVA: 0x7FFE81284640
-        public void set_scale(){} // RVA: 0x7FFE81308960
-        public void get_referenceDpi(){} // RVA: 0x7FFE811C5630
-        public void set_referenceDpi(){} // RVA: 0x7FFE87F3FDF0
-        public void get_fallbackDpi(){} // RVA: 0x7FFE8130ACF0
-        public void set_fallbackDpi(){} // RVA: 0x7FFE87F3FE20
-        public void get_referenceResolution(){} // RVA: 0x7FFE86DDD480
-        public void set_referenceResolution(){} // RVA: 0x7FFE86DDD490
-        public void get_screenMatchMode(){} // RVA: 0x7FFE8119C0A0
-        public void set_screenMatchMode(){} // RVA: 0x7FFE8119C0B0
-        public void get_match(){} // RVA: 0x7FFE81C1C360
-        public void set_match(){} // RVA: 0x7FFE81C1C2E0
-        public void get_sortingOrder(){} // RVA: 0x7FFE81A74BC0
-        public void set_sortingOrder(){} // RVA: 0x7FFE87F3FE50
-        public void ApplySortingOrder(){} // RVA: 0x7FFE87F3FEA0
-        public void get_targetDisplay(){} // RVA: 0x7FFE8139DAD0
-        public void set_targetDisplay(){} // RVA: 0x7FFE87F3FEE0
-        public void get_clearDepthStencil(){} // RVA: 0x7FFE8196FB30
-        public void set_clearDepthStencil(){} // RVA: 0x7FFE8286F2D0
-        public void get_depthClearValue(){} // RVA: 0x7FFE87F3FF20
-        public void get_clearColor(){} // RVA: 0x7FFE8286E5B0
-        public void set_clearColor(){} // RVA: 0x7FFE82870520
-        public void get_colorClearValue(){} // RVA: 0x7FFE81E90B10
-        public void set_colorClearValue(){} // RVA: 0x7FFE87C40190
-        public void get_panel(){} // RVA: 0x7FFE87F3FF30
-        public void get_visualTree(){} // RVA: 0x7FFE87F3FF50
-        public void get_dynamicAtlasSettings(){} // RVA: 0x7FFE81463AE0
-        public void set_dynamicAtlasSettings(){} // RVA: 0x7FFE81464570
-        public void .ctor(){} // RVA: 0x7FFE87F3FF90
-        public void Reset(){} // RVA: 0x7FFE810FB310
-        public void OnEnable(){} // RVA: 0x7FFE87F401E0
-        public void OnDisable(){} // RVA: 0x7FFE87F40380
-        public void DisposePanel(){} // RVA: 0x7FFE87F40380
-        public void get_ScreenDPI(){} // RVA: 0x7FFE86C88210
-        public void set_ScreenDPI(){} // RVA: 0x7FFE86CE9430
-        public void UpdateScreenDPI(){} // RVA: 0x7FFE87F403A0
-        public void ApplyThemeStyleSheet(){} // RVA: 0x7FFE87F40400
-        public void InitializeShaders(){} // RVA: 0x7FFE87F40750
-        public void ApplyPanelSettings(){} // RVA: 0x7FFE87F40B20
-        public void SetScreenToPanelSpaceFunction(){} // RVA: 0x7FFE87F41690
-        public void ResolveScale(){} // RVA: 0x7FFE87F417E0
-        public void GetDisplayRect(){} // RVA: 0x7FFE87F418E0
-        public void AttachAndInsertUIDocumentToVisualTree(){} // RVA: 0x7FFE87F41AA0
-        public void DetachUIDocument(){} // RVA: 0x7FFE87F41C10
-    }
-
-    public class PanelTextSettings : TextSettings
-    {
-        public UnityEngine.UIElements.PanelTextSettings s_DefaultPanelTextSettings;
-
-        // ── Methods ──
-        public void get_defaultPanelTextSettings(){} // RVA: 0x7FFE87FB7CF0
-        public void UpdateLocalizationFontAsset(){} // RVA: 0x7FFE87FB7F60
-        public void GetCachedFontAsset(){} // RVA: 0x7FFE87FB8680
-        public void .ctor(){} // RVA: 0x7FFE87FB8690
-        public void .cctor(){} // RVA: 0x7FFE87FB86A0
-    }
-
-    public class PointerCancelEvent : PointerEventBase`1
+    public class Painter2D
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F38380
-        public void Init(){} // RVA: 0x7FFE87F38470
-        public void LocalInit(){} // RVA: 0x7FFE87F38510
-        public void .ctor(){} // RVA: 0x7FFE87F38580
-        public void PostDispatch(){} // RVA: 0x7FFE87F38620
+        public void .ctor(){} // RVA: 0x7FFAF9EE5FE0
+        public void Reset(){} // RVA: 0x7FFAF9EE61E0
+        public void Dispose(){} // RVA: 0x7FFAF9EE63E0 | overloaded x2
+        public void set_isPainterActive(){} // RVA: 0x7FFAF9EE6520
+        public void get_maxArcRadius(){} // RVA: 0x7FFAF9EE6580
+        public void .cctor(){} // RVA: 0x7FFAF9EE66A0
     }
 
-    public class PointerCaptureDispatchingStrategy : Object
+    public class Panel
     {
         // ── Methods ──
-        public void CanDispatchEvent(){} // RVA: 0x7FFE87F34C90
-        public void DispatchEvent(){} // RVA: 0x7FFE87F34CE0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_visualTree(){} // RVA: 0x7FFAF9C384A0
+        public void get_dispatcher(){} // RVA: 0x7FFAF3544E10
+        public void set_dispatcher(){} // RVA: 0x7FFAF37A6DE0
+        public void get_timerEventScheduler(){} // RVA: 0x7FFAF9EC0A20
+        public void get_scheduler(){} // RVA: 0x7FFAF9EC0A20
+        public void get_styleAnimationSystem(){} // RVA: 0x7FFAF2DF80B0
+        public void set_styleAnimationSystem(){} // RVA: 0x7FFAF9EC0AD0
+        public void get_ownerObject(){} // RVA: 0x7FFAF2FB7710
+        public void set_ownerObject(){} // RVA: 0x7FFAF2FB9930
+        public void get_contextType(){} // RVA: 0x7FFAF3E7BAD0
+        public void set_contextType(){} // RVA: 0x7FFAF3E87860
+        public void get_saveViewData(){} // RVA: 0x7FFAF304E660
+        public void get_getViewDataDictionary(){} // RVA: 0x7FFAF353EE80
+        public void get_focusController(){} // RVA: 0x7FFAF353E870
+        public void set_focusController(){} // RVA: 0x7FFAF3853F70
+        public void get_IMGUIEventInterests(){} // RVA: 0x7FFAF9EC0B90
+        public void set_IMGUIEventInterests(){} // RVA: 0x7FFAF9EC0BB0
+        public void get_loadResourceFunc(){} // RVA: 0x7FFAF9EC0BD0
+        public void LoadResource(){} // RVA: 0x7FFAF9EC0C30
+        public void Focus(){} // RVA: 0x7FFAF9EC0D40
+        public void Blur(){} // RVA: 0x7FFAF9EC0D50
+        public void ValidateFocus(){} // RVA: 0x7FFAF9EC0E70
+        public void get_name(){} // RVA: 0x7FFAF9C385F0
+        public void set_name(){} // RVA: 0x7FFAF9EC0F40
+        public void CreateMarkers(){} // RVA: 0x7FFAF9EC0FA0
+        public void get_TimeSinceStartup(){} // RVA: 0x7FFAF9EC1480
+        public void get_IMGUIContainersCount(){} // RVA: 0x7FFAF8BDFB40
+        public void set_IMGUIContainersCount(){} // RVA: 0x7FFAF8BDFB50
+        public void get_rootIMGUIContainer(){} // RVA: 0x7FFAF2DF85F0
+        public void get_version(){} // RVA: 0x7FFAF34B02A0
+        public void get_hierarchyVersion(){} // RVA: 0x7FFAF3500BB0
+        public void get_standardShader(){} // RVA: 0x7FFAF9EC14E0
+        public void get_atlas(){} // RVA: 0x7FFAF9EC14F0
+        public void set_atlas(){} // RVA: 0x7FFAF9EC1500
+        public void .ctor(){} // RVA: 0x7FFAF9EC15E0
+        public void Dispose(){} // RVA: 0x7FFAF9EC1E10
+        public void TimeSinceStartupMs(){} // RVA: 0x7FFAF9EC1F80
+        public void DefaultTimeSinceStartupMs(){} // RVA: 0x7FFAF9EC2080
+        public void PickAll(){} // RVA: 0x7FFAF9EC24F0 | overloaded x2
+        public void PerformPick(){} // RVA: 0x7FFAF9EC2170
+        public void Pick(){} // RVA: 0x7FFAF9EC25E0
+        public void ValidateLayout(){} // RVA: 0x7FFAF9EC2820
+        public void UpdateAnimations(){} // RVA: 0x7FFAF9EC28A0
+        public void UpdateBindings(){} // RVA: 0x7FFAF9EC28D0
+        public void ApplyStyles(){} // RVA: 0x7FFAF9EC2900
+        public void UpdateForRepaint(){} // RVA: 0x7FFAF9EC2930
+        public void Repaint(){} // RVA: 0x7FFAF9EC29C0
+        public void OnVersionChanged(){} // RVA: 0x7FFAF9EC2E20
+        public void GetUpdater(){} // RVA: 0x7FFAF9EC2F90
+        public void .cctor(){} // RVA: 0x7FFAF9EC2FD0
+        public void <Pick>g__PixelOf|101_0(){} // RVA: 0x7FFAF9EC3080
     }
 
-    public class PointerCaptureEvent : PointerCaptureEventBase`1
+    public class PanelChangedEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F25980
-        public void .ctor(){} // RVA: 0x7FFE87F25A70
+        public void get_originPanel(){} // RVA: 0x7FFAF2ABCD60
+        public void set_originPanel(){} // RVA: 0x7FFAF2AD4B10
+        public void get_destinationPanel(){} // RVA: 0x7FFAF2ABCD60
+        public void set_destinationPanel(){} // RVA: 0x7FFAF2AD4B10
+        public void Init(){} // RVA: 0x7FFAF2AD4A50
+        public void LocalInit(){} // RVA: 0x7FFAF2AD4A50
+        public void GetPooled(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class PointerCaptureEventBase`1 : EventBase`1
+    public class PanelChangedEventBase`1
     {
-        public UnityEngine.UIElements.IEventHandler _relatedTarget;
-        public int _pointerId;
-
         // ── Methods ──
-        public void set_relatedTarget(){} // RVA: 0x7FFE80E460A0
-        public void get_pointerId(){} // RVA: 0x7FFE80E2EDB0
-        public void set_pointerId(){} // RVA: 0x7FFE80E46530
-        public void Init(){} // RVA: 0x7FFE80E45FE0
-        public void LocalInit(){} // RVA: 0x7FFE80E45FE0
-        public void GetPooled(){} // RVA: 0x7FFE810A1420
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void get_originPanel(){} // RVA: 0x7FFAF2DCC010
+        public void set_originPanel(){} // RVA: 0x7FFAF2F13060
+        public void get_destinationPanel(){} // RVA: 0x7FFAF3246DE0
+        public void set_destinationPanel(){} // RVA: 0x7FFAF3604600
+        public void Init(){} // RVA: 0x7FFAF688C820
+        public void LocalInit(){} // RVA: 0x7FFAF688C8C0
+        public void GetPooled(){} // RVA: 0x7FFAF688C980
+        public void .ctor(){} // RVA: 0x7FFAF688CB10
     }
 
-    public class PointerCaptureHelper : Object
+    public class PanelChangedEventBase`1
     {
         // ── Methods ──
-        public void GetStateFor(){} // RVA: 0x7FFE87F54FC0
-        public void HasPointerCapture(){} // RVA: 0x7FFE87F55070
-        public void CapturePointer(){} // RVA: 0x7FFE87F550D0
-        public void ReleasePointer(){} // RVA: 0x7FFE87F55300 | overloaded x2
-        public void GetCapturingElement(){} // RVA: 0x7FFE87F55270
-        public void ActivateCompatibilityMouseEvents(){} // RVA: 0x7FFE87F55380
-        public void PreventCompatibilityMouseEvents(){} // RVA: 0x7FFE87F55400
-        public void ShouldSendCompatibilityMouseEvents(){} // RVA: 0x7FFE87F55480
-        public void ProcessPointerCapture(){} // RVA: 0x7FFE87F555E0
+        public void get_originPanel(){} // RVA: 0x7FFAF2DCC010
+        public void set_originPanel(){} // RVA: 0x7FFAF2F13060
+        public void get_destinationPanel(){} // RVA: 0x7FFAF3246DE0
+        public void set_destinationPanel(){} // RVA: 0x7FFAF3604600
+        public void Init(){} // RVA: 0x7FFAF688C820
+        public void LocalInit(){} // RVA: 0x7FFAF688C8C0
+        public void GetPooled(){} // RVA: 0x7FFAF688C980
+        public void .ctor(){} // RVA: 0x7FFAF688CB10
     }
 
-    public class PointerCaptureOutEvent : PointerCaptureEventBase`1
+    public class PanelClearSettings
     {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F25740
-        public void .ctor(){} // RVA: 0x7FFE87F25830
     }
 
-    public class PointerDeviceState : Object
+    public class PanelEventHandler
     {
         // ── Methods ──
-        public void RemovePanelData(){} // RVA: 0x7FFE87F35170
-        public void SavePointerPosition(){} // RVA: 0x7FFE87F35330
-        public void PressButton(){} // RVA: 0x7FFE87F353E0
-        public void ReleaseButton(){} // RVA: 0x7FFE87F354B0
-        public void ReleaseAllButtons(){} // RVA: 0x7FFE87F35580
-        public void GetPointerPosition(){} // RVA: 0x7FFE87F35600
-        public void GetPanel(){} // RVA: 0x7FFE87F35690
-        public void HasFlagFast(){} // RVA: 0x7FFE87F35710
-        public void HasLocationFlag(){} // RVA: 0x7FFE87F35720
-        public void GetPressedButtons(){} // RVA: 0x7FFE87F357B0
-        public void HasAdditionalPressedButtons(){} // RVA: 0x7FFE87F35830
-        public void SetPlayerPanelWithSoftPointerCapture(){} // RVA: 0x7FFE87F358C0
-        public void GetPlayerPanelWithSoftPointerCapture(){} // RVA: 0x7FFE87F35980
-        public void .cctor(){} // RVA: 0x7FFE87F35A00
+        public void get_panel(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_panel(){} // RVA: 0x7FFAF9F8EEE0
+        public void get_selectableGameObject(){} // RVA: 0x7FFAF9F8EFC0
+        public void get_eventSystem(){} // RVA: 0x7FFAF9F8EFE0
+        public void get_isCurrentFocusedPanel(){} // RVA: 0x7FFAF9F8F0D0
+        public void get_currentFocusedElement(){} // RVA: 0x7FFAF9F8F2E0
+        public void OnEnable(){} // RVA: 0x7FFAF9F8F320
+        public void OnDisable(){} // RVA: 0x7FFAF9F8F330
+        public void RegisterCallbacks(){} // RVA: 0x7FFAF9F8F340
+        public void UnregisterCallbacks(){} // RVA: 0x7FFAF9F8F510
+        public void OnPanelDestroyed(){} // RVA: 0x7FFAF9F8F730
+        public void OnElementFocus(){} // RVA: 0x7FFAF9F8F7E0
+        public void OnElementBlur(){} // RVA: 0x7FFAF2D8D310
+        public void OnSelect(){} // RVA: 0x7FFAF9F8F8F0
+        public void OnDeselect(){} // RVA: 0x7FFAF9F8F930
+        public void OnPointerMove(){} // RVA: 0x7FFAF9F8F950
+        public void OnPointerUp(){} // RVA: 0x7FFAF9F8FAA0
+        public void OnPointerDown(){} // RVA: 0x7FFAF9F8FCC0
+        public void OnPointerExit(){} // RVA: 0x7FFAF9F8FF60
+        public void OnPointerEnter(){} // RVA: 0x7FFAF9F90410
+        public void OnPointerClick(){} // RVA: 0x7FFAF9F90480
+        public void OnSubmit(){} // RVA: 0x7FFAF9F904E0
+        public void OnCancel(){} // RVA: 0x7FFAF9F906B0
+        public void OnMove(){} // RVA: 0x7FFAF9F90880
+        public void OnScroll(){} // RVA: 0x7FFAF9F90B10
+        public void SendEvent(){} // RVA: 0x7FFAF9F90D70 | overloaded x2
+        public void Update(){} // RVA: 0x7FFAF9F90DA0
+        public void LateUpdate(){} // RVA: 0x7FFAF9F90E20
+        public void ProcessImguiEvents(){} // RVA: 0x7FFAF9F90E30
+        public void ProcessKeyboardEvent(){} // RVA: 0x7FFAF9F91010
+        public void ProcessTabEvent(){} // RVA: 0x7FFAF9F91110
+        public void SendTabEvent(){} // RVA: 0x7FFAF9F911C0
+        public void SendKeyUpEvent(){} // RVA: 0x7FFAF9F91390
+        public void SendKeyDownEvent(){} // RVA: 0x7FFAF9F91500
+        public void ReadPointerData(){} // RVA: 0x7FFAF9F91670
+        public void .ctor(){} // RVA: 0x7FFAF9F91900
     }
 
-    public class PointerDispatchState : Object
+    public class PanelRaycaster
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87F55650
-        public void Reset(){} // RVA: 0x7FFE87F55950
-        public void GetCapturingElement(){} // RVA: 0x7FFE876177D0
-        public void HasPointerCapture(){} // RVA: 0x7FFE87F55AA0
-        public void CapturePointer(){} // RVA: 0x7FFE87F55AD0
-        public void ReleasePointer(){} // RVA: 0x7FFE87F55C30 | overloaded x2
-        public void ProcessPointerCapture(){} // RVA: 0x7FFE87F55C80
-        public void ActivateCompatibilityMouseEvents(){} // RVA: 0x7FFE87F56230
-        public void PreventCompatibilityMouseEvents(){} // RVA: 0x7FFE87F56260
-        public void ShouldSendCompatibilityMouseEvents(){} // RVA: 0x7FFE87F56290
+        public void get_panel(){} // RVA: 0x7FFAF2DBB130
+        public void set_panel(){} // RVA: 0x7FFAF9F922B0
+        public void RegisterCallbacks(){} // RVA: 0x7FFAF9F92480
+        public void UnregisterCallbacks(){} // RVA: 0x7FFAF9F92520
+        public void OnPanelDestroyed(){} // RVA: 0x7FFAF9F925C0
+        public void get_selectableGameObject(){} // RVA: 0x7FFAF9F925D0
+        public void get_sortOrderPriority(){} // RVA: 0x7FFAF9F925F0
+        public void get_renderOrderPriority(){} // RVA: 0x7FFAF9F92610
+        public void Raycast(){} // RVA: 0x7FFAF9F92690
+        public void get_eventCamera(){} // RVA: 0x7FFAF2FC9240
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
-    public class PointerDownEvent : PointerEventBase`1
+    public class PanelSettings
     {
+        public object panelSettings;
+        public object parentUI;
+        public object visualTreeAsset;
+        public object rootVisualElement;
+        public object firstChildInserIndex;
+        public object sortingOrder;
+        public object importedWithErrors;
+        public object importedWithWarnings;
+
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F36A00
-        public void Init(){} // RVA: 0x7FFE87F36AF0
-        public void LocalInit(){} // RVA: 0x7FFE87F36B90
-        public void .ctor(){} // RVA: 0x7FFE87F36C00
-        public void PostDispatch(){} // RVA: 0x7FFE87F36CA0
+        public void get_themeStyleSheet(){} // RVA: 0x7FFAF59BF420
+        public void set_themeStyleSheet(){} // RVA: 0x7FFAF9EAFB80
+        public void get_targetTexture(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_targetTexture(){} // RVA: 0x7FFAF9EAFBE0
+        public void get_scaleMode(){} // RVA: 0x7FFAF3241DC0
+        public void set_scaleMode(){} // RVA: 0x7FFAF3503440
+        public void get_referenceSpritePixelsPerUnit(){} // RVA: 0x7FFAF9C58210
+        public void set_referenceSpritePixelsPerUnit(){} // RVA: 0x7FFAF337F4F0
+        public void get_scale(){} // RVA: 0x7FFAF2F16280
+        public void set_scale(){} // RVA: 0x7FFAF2FADE90
+        public void get_referenceDpi(){} // RVA: 0x7FFAF2E57630
+        public void set_referenceDpi(){} // RVA: 0x7FFAF9EAFC50
+        public void get_fallbackDpi(){} // RVA: 0x7FFAF2FAE250
+        public void set_fallbackDpi(){} // RVA: 0x7FFAF9EAFC80
+        public void get_referenceResolution(){} // RVA: 0x7FFAF8D4CA50
+        public void set_referenceResolution(){} // RVA: 0x7FFAF8D4CA60
+        public void get_screenMatchMode(){} // RVA: 0x7FFAF2E2E0A0
+        public void set_screenMatchMode(){} // RVA: 0x7FFAF2E2E0B0
+        public void get_match(){} // RVA: 0x7FFAF396B900
+        public void set_match(){} // RVA: 0x7FFAF396B7C0
+        public void get_sortingOrder(){} // RVA: 0x7FFAF37BE450
+        public void set_sortingOrder(){} // RVA: 0x7FFAF9EAFCB0
+        public void ApplySortingOrder(){} // RVA: 0x7FFAF9EAFD00
+        public void get_targetDisplay(){} // RVA: 0x7FFAF304C540
+        public void set_targetDisplay(){} // RVA: 0x7FFAF9EAFD40
+        public void get_clearDepthStencil(){} // RVA: 0x7FFAF368B570
+        public void set_clearDepthStencil(){} // RVA: 0x7FFAF45A0B50
+        public void get_depthClearValue(){} // RVA: 0x7FFAF9EAFD80
+        public void get_clearColor(){} // RVA: 0x7FFAF459FFD0
+        public void set_clearColor(){} // RVA: 0x7FFAF45A0B40
+        public void get_colorClearValue(){} // RVA: 0x7FFAF3BCDE50
+        public void set_colorClearValue(){} // RVA: 0x7FFAF9BAF540
+        public void get_panel(){} // RVA: 0x7FFAF9EAFD90
+        public void get_visualTree(){} // RVA: 0x7FFAF9EAFDB0
+        public void get_dynamicAtlasSettings(){} // RVA: 0x7FFAF2F77C50
+        public void set_dynamicAtlasSettings(){} // RVA: 0x7FFAF2F734F0
+        public void .ctor(){} // RVA: 0x7FFAF9EAFDF0
+        public void Reset(){} // RVA: 0x7FFAF2D8D310
+        public void OnEnable(){} // RVA: 0x7FFAF9EB0040
+        public void OnDisable(){} // RVA: 0x7FFAF9EB01E0
+        public void DisposePanel(){} // RVA: 0x7FFAF9EB01E0
+        public void get_ScreenDPI(){} // RVA: 0x7FFAF8BF7430
+        public void set_ScreenDPI(){} // RVA: 0x7FFAF8C58650
+        public void UpdateScreenDPI(){} // RVA: 0x7FFAF9EB0200
+        public void ApplyThemeStyleSheet(){} // RVA: 0x7FFAF9EB0260
+        public void InitializeShaders(){} // RVA: 0x7FFAF9EB05B0
+        public void ApplyPanelSettings(){} // RVA: 0x7FFAF9EB0980
+        public void SetScreenToPanelSpaceFunction(){} // RVA: 0x7FFAF9EB14F0
+        public void ResolveScale(){} // RVA: 0x7FFAF9EB1640
+        public void GetDisplayRect(){} // RVA: 0x7FFAF9EB1740
+        public void AttachAndInsertUIDocumentToVisualTree(){} // RVA: 0x7FFAF9EB1900
+        public void DetachUIDocument(){} // RVA: 0x7FFAF9EB1A70
     }
 
-    public class PointerEnterEvent : PointerEventBase`1
+    public class PanelTextSettings
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F38E10
-        public void Init(){} // RVA: 0x7FFE87F38F00
-        public void LocalInit(){} // RVA: 0x7FFE87F38F50
-        public void .ctor(){} // RVA: 0x7FFE87F38F60
+        public void get_defaultPanelTextSettings(){} // RVA: 0x7FFAF9F27B50
+        public void UpdateLocalizationFontAsset(){} // RVA: 0x7FFAF9F27DC0
+        public void GetCachedFontAsset(){} // RVA: 0x7FFAF9F284E0
+        public void .ctor(){} // RVA: 0x7FFAF9F284F0
+        public void .cctor(){} // RVA: 0x7FFAF9F28500
     }
 
-    public class PointerEventBase`1 : EventBase`1
+    public class PointerCancelEvent
     {
-        public bool m_AltitudeNeedsConversion;
-        public bool m_AzimuthNeedsConversion;
-        public float m_AltitudeAngle;
-        public float m_AzimuthAngle;
-        public bool m_TiltNeeded;
-        public UnityEngine.Vector2 m_Tilt;
-        public int _pointerId;
-        public string _pointerType;
-        public bool _isPrimary;
-        public int _button;
-        public int _pressedButtons;
-        public UnityEngine.Vector3 _position;
-        public UnityEngine.Vector3 _localPosition;
-        public UnityEngine.Vector3 _deltaPosition;
-        public float _deltaTime;
-        public int _clickCount;
-        public float _pressure;
-        public float _tangentialPressure;
-        public float _twist;
-        public 0x666D362C _penStatus;
-        public UnityEngine.Vector2 _radius;
-        public UnityEngine.Vector2 _radiusVariance;
-        public 0x66679374 _modifiers;
-        public bool _triggeredByOS;
-        public bool _recomputeTopElementUnderPointer;
-        public object field_25; // 0x264
-        public object field_26; // 0x265
-        public object field_27; // 0x266
-
         // ── Methods ──
-        public void get_pointerId(){} // RVA: 0x7FFE80E2EDB0
-        public void set_pointerId(){} // RVA: 0x7FFE80E46530
-        public void get_pointerType(){} // RVA: 0x7FFE80E2E2E0
-        public void set_pointerType(){} // RVA: 0x7FFE80E460A0
-        public void get_isPrimary(){} // RVA: 0x7FFE80E2F150
-        public void set_isPrimary(){} // RVA: 0x7FFE80E466C0
-        public void get_button(){} // RVA: 0x7FFE80E2EDB0
-        public void set_button(){} // RVA: 0x7FFE80E46530
-        public void get_pressedButtons(){} // RVA: 0x7FFE80E2EDB0
-        public void set_pressedButtons(){} // RVA: 0x7FFE80E46530
-        public void get_position(){} // RVA: 0x7FFE80E2DCF0
-        public void set_position(){} // RVA: 0x7FFE80E460A0
-        public void get_localPosition(){} // RVA: 0x7FFE80E2DCF0
-        public void set_localPosition(){} // RVA: 0x7FFE80E460A0
-        public void get_deltaPosition(){} // RVA: 0x7FFE80E2DCF0
-        public void set_deltaPosition(){} // RVA: 0x7FFE80E460A0
-        public void get_deltaTime(){} // RVA: 0x7FFE80E42E10
-        public void set_deltaTime(){} // RVA: 0x7FFE80E53B80
-        public void get_clickCount(){} // RVA: 0x7FFE80E2EDB0
-        public void set_clickCount(){} // RVA: 0x7FFE80E46530
-        public void get_pressure(){} // RVA: 0x7FFE80E42E10
-        public void set_pressure(){} // RVA: 0x7FFE80E53B80
-        public void get_tangentialPressure(){} // RVA: 0x7FFE80E42E10
-        public void set_tangentialPressure(){} // RVA: 0x7FFE80E53B80
-        public void get_altitudeAngle(){} // RVA: 0x7FFE80E42E10
-        public void set_altitudeAngle(){} // RVA: 0x7FFE80E53B80
-        public void get_azimuthAngle(){} // RVA: 0x7FFE80E42E10
-        public void set_azimuthAngle(){} // RVA: 0x7FFE80E53B80
-        public void get_twist(){} // RVA: 0x7FFE80E42E10
-        public void set_twist(){} // RVA: 0x7FFE80E53B80
-        public void get_tilt(){} // RVA: 0x7FFE80E2E2E0
-        public void set_tilt(){} // RVA: 0x7FFE80E54AE0
-        public void get_penStatus(){} // RVA: 0x7FFE80E2EDB0
-        public void set_penStatus(){} // RVA: 0x7FFE80E46530
-        public void get_radius(){} // RVA: 0x7FFE80E2E2E0
-        public void set_radius(){} // RVA: 0x7FFE80E54AE0
-        public void get_radiusVariance(){} // RVA: 0x7FFE80E2E2E0
-        public void set_radiusVariance(){} // RVA: 0x7FFE80E54AE0
-        public void get_modifiers(){} // RVA: 0x7FFE80E2EDB0
-        public void set_modifiers(){} // RVA: 0x7FFE80E46530
-        public void get_shiftKey(){} // RVA: 0x7FFE80E2F150
-        public void get_ctrlKey(){} // RVA: 0x7FFE80E2F150
-        public void get_commandKey(){} // RVA: 0x7FFE80E2F150
-        public void get_altKey(){} // RVA: 0x7FFE80E2F150
-        public void get_actionKey(){} // RVA: 0x7FFE80E2F150
-        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFE80E2F150
-        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFE80E466C0
-        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFE80E2F150
-        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFE80E466C0
-        public void Init(){} // RVA: 0x7FFE80E45FE0
-        public void LocalInit(){} // RVA: 0x7FFE80E45FE0
-        public void get_currentTarget(){} // RVA: 0x7FFE80E2E2E0
-        public void set_currentTarget(){} // RVA: 0x7FFE80E460A0
-        public void IsMouse(){} // RVA: 0x7FFE80E2F230
-        public void IsTouch(){} // RVA: 0x7FFE80E2F230
-        public void TiltToAzimuth(){} // RVA: 0x7FFE80E44630
-        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFE810A1420
-        public void TiltToAltitude(){} // RVA: 0x7FFE80E44630
-        public void GetPooled(){} // RVA: 0x7FFE810A1420 | overloaded x6
-        public void PreDispatch(){} // RVA: 0x7FFE80E460A0
-        public void PostDispatch(){} // RVA: 0x7FFE80E460A0
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void .cctor(){} // RVA: 0x7FFAF9EA81E0
+        public void Init(){} // RVA: 0x7FFAF9EA82D0
+        public void LocalInit(){} // RVA: 0x7FFAF9EA8370
+        public void .ctor(){} // RVA: 0x7FFAF9EA83E0
+        public void PostDispatch(){} // RVA: 0x7FFAF9EA8480
     }
 
-    public class PointerEventDispatchingStrategy : Object
+    public class PointerCaptureDispatchingStrategy
     {
         // ── Methods ──
-        public void CanDispatchEvent(){} // RVA: 0x7FFE87F35D50
-        public void DispatchEvent(){} // RVA: 0x7FFE87F35DA0
-        public void SendEventToTarget(){} // RVA: 0x7FFE87F35E60
-        public void SetBestTargetForEvent(){} // RVA: 0x7FFE87F35F10
-        public void UpdateElementUnderPointer(){} // RVA: 0x7FFE87F360F0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void CanDispatchEvent(){} // RVA: 0x7FFAF9EA4AF0
+        public void DispatchEvent(){} // RVA: 0x7FFAF9EA4B40
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class PointerEventHelper : Object
+    public class PointerCaptureEvent
     {
         // ── Methods ──
-        public void GetPooled(){} // RVA: 0x7FFE87F36850
+        public void .cctor(){} // RVA: 0x7FFAF9E957E0
+        public void .ctor(){} // RVA: 0x7FFAF9E958D0
     }
 
-    public class PointerEventsHelper : Object
+    public class PointerCaptureEventBase`1
     {
         // ── Methods ──
-        public void SendEnterLeave(){} // RVA: 0x7FFE810A1420
-        public void SendOverOut(){} // RVA: 0x7FFE87F32FD0
+        public void set_relatedTarget(){} // RVA: 0x7FFAF2AD4B10
+        public void get_pointerId(){} // RVA: 0x7FFAF2ABD840
+        public void set_pointerId(){} // RVA: 0x7FFAF2AD4FA0
+        public void Init(){} // RVA: 0x7FFAF2AD4A50
+        public void LocalInit(){} // RVA: 0x7FFAF2AD4A50
+        public void GetPooled(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class PointerId : Object
+    public class PointerCaptureEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F366D0
+        public void set_relatedTarget(){} // RVA: 0x7FFAF2F13060
+        public void get_pointerId(){} // RVA: 0x7FFAF315FD40
+        public void set_pointerId(){} // RVA: 0x7FFAF39B2F80
+        public void Init(){} // RVA: 0x7FFAF66F9AB0
+        public void LocalInit(){} // RVA: 0x7FFAF68A10D0
+        public void GetPooled(){} // RVA: 0x7FFAF68A11A0
+        public void .ctor(){} // RVA: 0x7FFAF68A12E0
     }
 
-    public class PointerLeaveEvent : PointerEventBase`1
+    public class PointerCaptureEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F390D0
-        public void Init(){} // RVA: 0x7FFE87F391C0
-        public void LocalInit(){} // RVA: 0x7FFE87F38F50
-        public void .ctor(){} // RVA: 0x7FFE87F39210
+        public void set_relatedTarget(){} // RVA: 0x7FFAF2F13060
+        public void get_pointerId(){} // RVA: 0x7FFAF315FD40
+        public void set_pointerId(){} // RVA: 0x7FFAF39B2F80
+        public void Init(){} // RVA: 0x7FFAF66F9AB0
+        public void LocalInit(){} // RVA: 0x7FFAF68A10D0
+        public void GetPooled(){} // RVA: 0x7FFAF68A11A0
+        public void .ctor(){} // RVA: 0x7FFAF68A12E0
     }
 
-    public class PointerManipulator : MouseManipulator
+    public class PointerCaptureEventBase`1
     {
         // ── Methods ──
-        public void CanStartManipulation(){} // RVA: 0x7FFE87F56340
-        public void CanStopManipulation(){} // RVA: 0x7FFE87F56570
-        public void .ctor(){} // RVA: 0x7FFE87F565E0
+        public void set_relatedTarget(){} // RVA: 0x7FFAF2F13060
+        public void get_pointerId(){} // RVA: 0x7FFAF315FD40
+        public void set_pointerId(){} // RVA: 0x7FFAF39B2F80
+        public void Init(){} // RVA: 0x7FFAF66F9AB0
+        public void LocalInit(){} // RVA: 0x7FFAF68A10D0
+        public void GetPooled(){} // RVA: 0x7FFAF68A11A0
+        public void .ctor(){} // RVA: 0x7FFAF68A12E0
     }
 
-    public class PointerMoveEvent : PointerEventBase`1
+    public class PointerCaptureEventBase`1
     {
-        public bool _isHandledByDraggable; // 0x110
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F37040
-        public void get_isHandledByDraggable(){} // RVA: 0x7FFE81472650
-        public void set_isHandledByDraggable(){} // RVA: 0x7FFE81472660
-        public void Init(){} // RVA: 0x7FFE87F37130
-        public void LocalInit(){} // RVA: 0x7FFE87F37180
-        public void .ctor(){} // RVA: 0x7FFE87F371F0
-        public void PostDispatch(){} // RVA: 0x7FFE87F37240
+        public void set_relatedTarget(){} // RVA: 0x7FFAF2F13060
+        public void get_pointerId(){} // RVA: 0x7FFAF315FD40
+        public void set_pointerId(){} // RVA: 0x7FFAF39B2F80
+        public void Init(){} // RVA: 0x7FFAF66F9AB0
+        public void LocalInit(){} // RVA: 0x7FFAF68A10D0
+        public void GetPooled(){} // RVA: 0x7FFAF68A11A0
+        public void .ctor(){} // RVA: 0x7FFAF68A12E0
     }
 
-    public class PointerOutEvent : PointerEventBase`1
+    public class PointerCaptureEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F395C0
-        public void .ctor(){} // RVA: 0x7FFE87F396B0
+        public void set_relatedTarget(){} // RVA: 0x7FFAF2F13060
+        public void get_pointerId(){} // RVA: 0x7FFAF315FD40
+        public void set_pointerId(){} // RVA: 0x7FFAF39B2F80
+        public void Init(){} // RVA: 0x7FFAF66F9AB0
+        public void LocalInit(){} // RVA: 0x7FFAF68A10D0
+        public void GetPooled(){} // RVA: 0x7FFAF68A11A0
+        public void .ctor(){} // RVA: 0x7FFAF68A12E0
     }
 
-    public class PointerOverEvent : PointerEventBase`1
+    public class PointerCaptureEventBase`1
     {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F39380
-        public void .ctor(){} // RVA: 0x7FFE87F39470
     }
 
-    public class PointerStationaryEvent : PointerEventBase`1
+    public class PointerCaptureHelper
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F377F0
-        public void Init(){} // RVA: 0x7FFE87F378E0
-        public void LocalInit(){} // RVA: 0x7FFE87F37980
-        public void .ctor(){} // RVA: 0x7FFE87F379F0
+        public void GetStateFor(){} // RVA: 0x7FFAF9EC4E20
+        public void HasPointerCapture(){} // RVA: 0x7FFAF9EC4ED0
+        public void CapturePointer(){} // RVA: 0x7FFAF9EC4F30
+        public void ReleasePointer(){} // RVA: 0x7FFAF9EC5160 | overloaded x2
+        public void GetCapturingElement(){} // RVA: 0x7FFAF9EC50D0
+        public void ActivateCompatibilityMouseEvents(){} // RVA: 0x7FFAF9EC51E0
+        public void PreventCompatibilityMouseEvents(){} // RVA: 0x7FFAF9EC5260
+        public void ShouldSendCompatibilityMouseEvents(){} // RVA: 0x7FFAF9EC52E0
+        public void ProcessPointerCapture(){} // RVA: 0x7FFAF9EC5440
     }
 
-    public class PointerType : Object
+    public class PointerCaptureOutEvent
     {
         // ── Methods ──
-        public void GetPointerType(){} // RVA: 0x7FFE87F36300
-        public void IsDirectManipulationDevice(){} // RVA: 0x7FFE87F36410
-        public void .cctor(){} // RVA: 0x7FFE87F364A0
+        public void .cctor(){} // RVA: 0x7FFAF9E955A0
+        public void .ctor(){} // RVA: 0x7FFAF9E95690
     }
 
-    public class PointerUpEvent : PointerEventBase`1
+    public class PointerDeviceState
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87F37C00
-        public void Init(){} // RVA: 0x7FFE87F37CF0
-        public void LocalInit(){} // RVA: 0x7FFE87F37D90
-        public void .ctor(){} // RVA: 0x7FFE87F37E00
-        public void PostDispatch(){} // RVA: 0x7FFE87F37EA0
+        public void RemovePanelData(){} // RVA: 0x7FFAF9EA4FD0
+        public void SavePointerPosition(){} // RVA: 0x7FFAF9EA5190
+        public void PressButton(){} // RVA: 0x7FFAF9EA5240
+        public void ReleaseButton(){} // RVA: 0x7FFAF9EA5310
+        public void ReleaseAllButtons(){} // RVA: 0x7FFAF9EA53E0
+        public void GetPointerPosition(){} // RVA: 0x7FFAF9EA5460
+        public void GetPanel(){} // RVA: 0x7FFAF9EA54F0
+        public void HasFlagFast(){} // RVA: 0x7FFAF9EA5570
+        public void HasLocationFlag(){} // RVA: 0x7FFAF9EA5580
+        public void GetPressedButtons(){} // RVA: 0x7FFAF9EA5610
+        public void HasAdditionalPressedButtons(){} // RVA: 0x7FFAF9EA5690
+        public void SetPlayerPanelWithSoftPointerCapture(){} // RVA: 0x7FFAF9EA5720
+        public void GetPlayerPanelWithSoftPointerCapture(){} // RVA: 0x7FFAF9EA57E0
+        public void .cctor(){} // RVA: 0x7FFAF9EA5860
     }
 
-    public class PopupField`1 : BasePopupField`2
+    public class PointerDispatchState
     {
-        public int m_Index;
-        public string ussClassName;
-
         // ── Methods ──
-        public void GetValueToDisplay(){} // RVA: 0x7FFE80E2E2E0
-        public void GetListItemToDisplay(){} // RVA: 0x7FFE810A1420
-        public void get_value(){} // RVA: 0x7FFE810A1420
-        public void set_value(){} // RVA: 0x7FFE810A1420
-        public void SetValueWithoutNotify(){} // RVA: 0x7FFE810A1420
-        public void set_index(){} // RVA: 0x7FFE80E46530
-        public void .ctor(){} // RVA: 0x7FFE80E460A0
-        public void AddMenuItems(){} // RVA: 0x7FFE80E460A0
-        public void ChangeValueFromMenu(){} // RVA: 0x7FFE810A1420
-        public void .cctor(){} // RVA: 0x7FFE80E46010
+        public void .ctor(){} // RVA: 0x7FFAF9EC54B0
+        public void Reset(){} // RVA: 0x7FFAF9EC57B0
+        public void GetCapturingElement(){} // RVA: 0x7FFAF95884E0
+        public void HasPointerCapture(){} // RVA: 0x7FFAF9EC5900
+        public void CapturePointer(){} // RVA: 0x7FFAF9EC5930
+        public void ReleasePointer(){} // RVA: 0x7FFAF9EC5A90 | overloaded x2
+        public void ProcessPointerCapture(){} // RVA: 0x7FFAF9EC5AE0
+        public void ActivateCompatibilityMouseEvents(){} // RVA: 0x7FFAF9EC6090
+        public void PreventCompatibilityMouseEvents(){} // RVA: 0x7FFAF9EC60C0
+        public void ShouldSendCompatibilityMouseEvents(){} // RVA: 0x7FFAF9EC60F0
     }
 
-    public class PopupWindow : TextElement
+    public class PointerDownEvent
     {
-        public UnityEngine.UIElements.VisualElement m_ContentContainer; // 0x4A0
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87EF8D40
-        public void get_contentContainer(){} // RVA: 0x7FFE87E49F70
-        public void .cctor(){} // RVA: 0x7FFE87EF8F70
+        public void .cctor(){} // RVA: 0x7FFAF9EA6860
+        public void Init(){} // RVA: 0x7FFAF9EA6950
+        public void LocalInit(){} // RVA: 0x7FFAF9EA69F0
+        public void .ctor(){} // RVA: 0x7FFAF9EA6A60
+        public void PostDispatch(){} // RVA: 0x7FFAF9EA6B00
     }
 
-    public class ProgressBar : AbstractProgressBar
+    public class PointerEnterEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87EFA650
+        public void .cctor(){} // RVA: 0x7FFAF9EA8C70
+        public void Init(){} // RVA: 0x7FFAF9EA8D60
+        public void LocalInit(){} // RVA: 0x7FFAF9EA8DB0
+        public void .ctor(){} // RVA: 0x7FFAF9EA8DC0
     }
 
-    public class ProjectionUtils : Object
+    public class PointerEventBase`1
     {
         // ── Methods ──
-        public void Ortho(){} // RVA: 0x7FFE87F565F0
+        public void get_pointerId(){} // RVA: 0x7FFAF2ABD840
+        public void set_pointerId(){} // RVA: 0x7FFAF2AD4FA0
+        public void get_pointerType(){} // RVA: 0x7FFAF2ABCD60
+        public void set_pointerType(){} // RVA: 0x7FFAF2AD4B10
+        public void get_isPrimary(){} // RVA: 0x7FFAF2ABDBE0
+        public void set_isPrimary(){} // RVA: 0x7FFAF2AD5130
+        public void get_button(){} // RVA: 0x7FFAF2ABD840
+        public void set_button(){} // RVA: 0x7FFAF2AD4FA0
+        public void get_pressedButtons(){} // RVA: 0x7FFAF2ABD840
+        public void set_pressedButtons(){} // RVA: 0x7FFAF2AD4FA0
+        public void get_position(){} // RVA: 0x7FFAF2ABC770
+        public void set_position(){} // RVA: 0x7FFAF2AD4B10
+        public void get_localPosition(){} // RVA: 0x7FFAF2ABC770
+        public void set_localPosition(){} // RVA: 0x7FFAF2AD4B10
+        public void get_deltaPosition(){} // RVA: 0x7FFAF2ABC770
+        public void set_deltaPosition(){} // RVA: 0x7FFAF2AD4B10
+        public void get_deltaTime(){} // RVA: 0x7FFAF2AD1890
+        public void set_deltaTime(){} // RVA: 0x7FFAF2AE25B0
+        public void get_clickCount(){} // RVA: 0x7FFAF2ABD840
+        public void set_clickCount(){} // RVA: 0x7FFAF2AD4FA0
+        public void get_pressure(){} // RVA: 0x7FFAF2AD1890
+        public void set_pressure(){} // RVA: 0x7FFAF2AE25B0
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF2AD1890
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF2AE25B0
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF2AD1890
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF2AE25B0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF2AD1890
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF2AE25B0
+        public void get_twist(){} // RVA: 0x7FFAF2AD1890
+        public void set_twist(){} // RVA: 0x7FFAF2AE25B0
+        public void get_tilt(){} // RVA: 0x7FFAF2ABCD60
+        public void set_tilt(){} // RVA: 0x7FFAF2AE3510
+        public void get_penStatus(){} // RVA: 0x7FFAF2ABD840
+        public void set_penStatus(){} // RVA: 0x7FFAF2AD4FA0
+        public void get_radius(){} // RVA: 0x7FFAF2ABCD60
+        public void set_radius(){} // RVA: 0x7FFAF2AE3510
+        public void get_radiusVariance(){} // RVA: 0x7FFAF2ABCD60
+        public void set_radiusVariance(){} // RVA: 0x7FFAF2AE3510
+        public void get_modifiers(){} // RVA: 0x7FFAF2ABD840
+        public void set_modifiers(){} // RVA: 0x7FFAF2AD4FA0
+        public void get_shiftKey(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_commandKey(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_altKey(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_actionKey(){} // RVA: 0x7FFAF2ABDBE0
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF2ABDBE0
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF2AD5130
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF2ABDBE0
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF2AD5130
+        public void Init(){} // RVA: 0x7FFAF2AD4A50
+        public void LocalInit(){} // RVA: 0x7FFAF2AD4A50
+        public void get_currentTarget(){} // RVA: 0x7FFAF2ABCD60
+        public void set_currentTarget(){} // RVA: 0x7FFAF2AD4B10
+        public void IsMouse(){} // RVA: 0x7FFAF2ABDCC0
+        public void IsTouch(){} // RVA: 0x7FFAF2ABDCC0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF2AD30A0
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF2D33FA0
+        public void TiltToAltitude(){} // RVA: 0x7FFAF2AD30A0
+        public void GetPooled(){} // RVA: 0x7FFAF2D33FA0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF2AD4B10
+        public void PostDispatch(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class PropagationPaths : Object
+    public class PointerEventBase`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87F39800
-        public void Build(){} // RVA: 0x7FFE87F39B00
-        public void Release(){} // RVA: 0x7FFE87F39D60
-        public void .cctor(){} // RVA: 0x7FFE87F39E80
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventBase`1
+    {
+        // ── Methods ──
+        public void get_pointerId(){} // RVA: 0x7FFAF4826590
+        public void set_pointerId(){} // RVA: 0x7FFAF4826550
+        public void get_pointerType(){} // RVA: 0x7FFAF34CC130
+        public void set_pointerType(){} // RVA: 0x7FFAF3595030
+        public void get_isPrimary(){} // RVA: 0x7FFAF41E23D0
+        public void set_isPrimary(){} // RVA: 0x7FFAF41E5610
+        public void get_button(){} // RVA: 0x7FFAF68A1350
+        public void set_button(){} // RVA: 0x7FFAF68A1360
+        public void get_pressedButtons(){} // RVA: 0x7FFAF4346340
+        public void set_pressedButtons(){} // RVA: 0x7FFAF4346350
+        public void get_position(){} // RVA: 0x7FFAF68A1370
+        public void set_position(){} // RVA: 0x7FFAF68A1390
+        public void get_localPosition(){} // RVA: 0x7FFAF2DF8190
+        public void set_localPosition(){} // RVA: 0x7FFAF2DF81B0
+        public void get_deltaPosition(){} // RVA: 0x7FFAF68A13B0
+        public void set_deltaPosition(){} // RVA: 0x7FFAF68A13D0
+        public void get_deltaTime(){} // RVA: 0x7FFAF3357990
+        public void set_deltaTime(){} // RVA: 0x7FFAF3357B30
+        public void get_clickCount(){} // RVA: 0x7FFAF475C8E0
+        public void set_clickCount(){} // RVA: 0x7FFAF68A13F0
+        public void get_pressure(){} // RVA: 0x7FFAF68A1400
+        public void set_pressure(){} // RVA: 0x7FFAF68A1410
+        public void get_tangentialPressure(){} // RVA: 0x7FFAF475C900
+        public void set_tangentialPressure(){} // RVA: 0x7FFAF68A1420
+        public void get_altitudeAngle(){} // RVA: 0x7FFAF68A1430
+        public void set_altitudeAngle(){} // RVA: 0x7FFAF68A14C0
+        public void get_azimuthAngle(){} // RVA: 0x7FFAF68A14D0
+        public void set_azimuthAngle(){} // RVA: 0x7FFAF68A15F0
+        public void get_twist(){} // RVA: 0x7FFAF68A1600
+        public void set_twist(){} // RVA: 0x7FFAF68A1610
+        public void get_tilt(){} // RVA: 0x7FFAF68A1620
+        public void set_tilt(){} // RVA: 0x7FFAF68A1870
+        public void get_penStatus(){} // RVA: 0x7FFAF68A1880
+        public void set_penStatus(){} // RVA: 0x7FFAF68A1890
+        public void get_radius(){} // RVA: 0x7FFAF68A18A0
+        public void set_radius(){} // RVA: 0x7FFAF68A18C0
+        public void get_radiusVariance(){} // RVA: 0x7FFAF68A18D0
+        public void set_radiusVariance(){} // RVA: 0x7FFAF41B2E00
+        public void get_modifiers(){} // RVA: 0x7FFAF4599D90
+        public void set_modifiers(){} // RVA: 0x7FFAF459DA80
+        public void get_shiftKey(){} // RVA: 0x7FFAF68A18F0
+        public void get_ctrlKey(){} // RVA: 0x7FFAF68A1900
+        public void get_commandKey(){} // RVA: 0x7FFAF68A1910
+        public void get_altKey(){} // RVA: 0x7FFAF68A1920
+        public void get_actionKey(){} // RVA: 0x7FFAF68A1930
+        public void UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS(){} // RVA: 0x7FFAF68A1A30
+        public void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(){} // RVA: 0x7FFAF68A1A40
+        public void UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A50
+        public void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(){} // RVA: 0x7FFAF68A1A60
+        public void Init(){} // RVA: 0x7FFAF68A1A70
+        public void LocalInit(){} // RVA: 0x7FFAF68A1B30
+        public void get_currentTarget(){} // RVA: 0x7FFAF66F9E80
+        public void set_currentTarget(){} // RVA: 0x7FFAF68A1DF0
+        public void IsMouse(){} // RVA: 0x7FFAF68A1F20
+        public void IsTouch(){} // RVA: 0x7FFAF68A1FA0
+        public void TiltToAzimuth(){} // RVA: 0x7FFAF68A2020
+        public void AzimuthAndAlitutudeToTilt(){} // RVA: 0x7FFAF68A2120
+        public void TiltToAltitude(){} // RVA: 0x7FFAF68A21C0
+        public void GetPooled(){} // RVA: 0x7FFAF68A47A0 | overloaded x6
+        public void PreDispatch(){} // RVA: 0x7FFAF68A4D80
+        public void PostDispatch(){} // RVA: 0x7FFAF68A4EA0
+        public void .ctor(){} // RVA: 0x7FFAF68A5090
+    }
+
+    public class PointerEventDispatchingStrategy : CanDispatchEvent
+    {
+        // ── Methods ──
+        public void CanDispatchEvent(){} // RVA: 0x7FFAF9EA5BB0
+        public void DispatchEvent(){} // RVA: 0x7FFAF9EA5C00
+        public void SendEventToTarget(){} // RVA: 0x7FFAF9EA5CC0
+        public void SetBestTargetForEvent(){} // RVA: 0x7FFAF9EA5D70
+        public void UpdateElementUnderPointer(){} // RVA: 0x7FFAF9EA5F50
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class PointerEventHelper
+    {
+        // ── Methods ──
+        public void GetPooled(){} // RVA: 0x7FFAF9EA66B0
+    }
+
+    public class PointerEventsHelper
+    {
+        // ── Methods ──
+        public void SendEnterLeave(){} // RVA: 0x7FFAF2D33FA0
+        public void SendOverOut(){} // RVA: 0x7FFAF9EA2E30
+    }
+
+    public class PointerId
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF9EA6530
+    }
+
+    public class PointerLeaveEvent
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF9EA8F30
+        public void Init(){} // RVA: 0x7FFAF9EA9020
+        public void LocalInit(){} // RVA: 0x7FFAF9EA8DB0
+        public void .ctor(){} // RVA: 0x7FFAF9EA9070
+    }
+
+    public class PointerManipulator
+    {
+        // ── Methods ──
+        public void CanStartManipulation(){} // RVA: 0x7FFAF9EC61A0
+        public void CanStopManipulation(){} // RVA: 0x7FFAF9EC63D0
+        public void .ctor(){} // RVA: 0x7FFAF9EC6440
+    }
+
+    public class PointerMoveEvent
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF9EA6EA0
+        public void get_isHandledByDraggable(){} // RVA: 0x7FFAF311C530
+        public void set_isHandledByDraggable(){} // RVA: 0x7FFAF311C8F0
+        public void Init(){} // RVA: 0x7FFAF9EA6F90
+        public void LocalInit(){} // RVA: 0x7FFAF9EA6FE0
+        public void .ctor(){} // RVA: 0x7FFAF9EA7050
+        public void PostDispatch(){} // RVA: 0x7FFAF9EA70A0
+    }
+
+    public class PointerOutEvent
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF9EA9420
+        public void .ctor(){} // RVA: 0x7FFAF9EA9510
+    }
+
+    public class PointerOverEvent
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF9EA91E0
+        public void .ctor(){} // RVA: 0x7FFAF9EA92D0
+    }
+
+    public class PointerStationaryEvent
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF9EA7650
+        public void Init(){} // RVA: 0x7FFAF9EA7740
+        public void LocalInit(){} // RVA: 0x7FFAF9EA77E0
+        public void .ctor(){} // RVA: 0x7FFAF9EA7850
+    }
+
+    public class PointerType
+    {
+        // ── Methods ──
+        public void GetPointerType(){} // RVA: 0x7FFAF9EA6160
+        public void IsDirectManipulationDevice(){} // RVA: 0x7FFAF9EA6270
+        public void .cctor(){} // RVA: 0x7FFAF9EA6300
+    }
+
+    public class PointerUpEvent
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF9EA7A60
+        public void Init(){} // RVA: 0x7FFAF9EA7B50
+        public void LocalInit(){} // RVA: 0x7FFAF9EA7BF0
+        public void .ctor(){} // RVA: 0x7FFAF9EA7C60
+        public void PostDispatch(){} // RVA: 0x7FFAF9EA7D00
+    }
+
+    public class PopupField`1
+    {
+        // ── Methods ──
+        public void GetValueToDisplay(){} // RVA: 0x7FFAF2ABCD60
+        public void GetListItemToDisplay(){} // RVA: 0x7FFAF2D33FA0
+        public void get_value(){} // RVA: 0x7FFAF2D33FA0
+        public void set_value(){} // RVA: 0x7FFAF2D33FA0
+        public void SetValueWithoutNotify(){} // RVA: 0x7FFAF2D33FA0
+        public void set_index(){} // RVA: 0x7FFAF2AD4FA0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+        public void AddMenuItems(){} // RVA: 0x7FFAF2AD4B10
+        public void ChangeValueFromMenu(){} // RVA: 0x7FFAF2D33FA0
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
+    }
+
+    public class PopupField`1
+    {
+        // ── Methods ──
+        public void GetValueToDisplay(){} // RVA: 0x7FFAF68B1280
+        public void GetListItemToDisplay(){} // RVA: 0x7FFAF68B13A0
+        public void get_value(){} // RVA: 0x7FFAF68B1490
+        public void set_value(){} // RVA: 0x7FFAF68B14B0
+        public void SetValueWithoutNotify(){} // RVA: 0x7FFAF68B1550
+        public void set_index(){} // RVA: 0x7FFAF68B1660
+        public void .ctor(){} // RVA: 0x7FFAF68B16E0
+        public void AddMenuItems(){} // RVA: 0x7FFAF68B1860
+        public void ChangeValueFromMenu(){} // RVA: 0x7FFAF68B1C70
+        public void .cctor(){} // RVA: 0x7FFAF68B1CE0
+    }
+
+    public class PopupWindow
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF9E68BA0
+        public void get_contentContainer(){} // RVA: 0x7FFAF9DB9DF0
+        public void .cctor(){} // RVA: 0x7FFAF9E68DD0
+    }
+
+    public class ProgressBar
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF9E6A4B0
+    }
+
+    public class ProjectionUtils
+    {
+        // ── Methods ──
+        public void Ortho(){} // RVA: 0x7FFAF9EC6450
+    }
+
+    public class PropagationPaths
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF9EA9660
+        public void Build(){} // RVA: 0x7FFAF9EA9960
+        public void Release(){} // RVA: 0x7FFAF9EA9BC0
+        public void .cctor(){} // RVA: 0x7FFAF9EA9CE0
     }
 
 }

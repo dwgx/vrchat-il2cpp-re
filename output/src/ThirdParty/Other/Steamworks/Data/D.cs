@@ -5,53 +5,43 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class DeleteItemResult_t : ValueType
+    public class DeleteItemResult_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5FC60
-        public void .cctor(){} // RVA: 0x7FFE82E5FC70
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B81860
+        public void .cctor(){} // RVA: 0x7FFAF4B81870
     }
 
-    public class DlcInstalled_t : ValueType
+    public class DlcInstalled_t
     {
-        public Steamworks.AppId AppID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5C960
-        public void .cctor(){} // RVA: 0x7FFE82E5C970
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7E560
+        public void .cctor(){} // RVA: 0x7FFAF4B7E570
     }
 
-    public class DownloadClanActivityCountsResult_t : ValueType
+    public class DownloadClanActivityCountsResult_t
     {
-        public bool Success; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E57250
-        public void .cctor(){} // RVA: 0x7FFE82E57260
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B78E50
+        public void .cctor(){} // RVA: 0x7FFAF4B78E60
     }
 
-    public class DownloadItemResult_t : ValueType
+    public class DownloadItemResult_t
     {
-        public Steamworks.AppId AppID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5F0B0
-        public void .cctor(){} // RVA: 0x7FFE82E5F0C0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B80CB0
+        public void .cctor(){} // RVA: 0x7FFAF4B80CC0
     }
 
-    public class DurationControl : ValueType
+    public class DurationControl
     {
     }
 
-    public class DurationControl_t : ValueType
+    public class DurationControl_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E56260
-        public void .cctor(){} // RVA: 0x7FFE82E56270
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B77E60
+        public void .cctor(){} // RVA: 0x7FFAF4B77E70
     }
 
 }

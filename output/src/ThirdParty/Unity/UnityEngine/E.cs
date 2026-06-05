@@ -1,225 +1,216 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine
-// Classes: 14
-// Methods: 121
+// Classes: 16
+// Methods: 123
 
 namespace ThirdParty.Unity.UnityEngine
 {
-    public class EdgeCollider2D : Collider2D
+    public class EdgeCollider2D
     {
-        // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE87D295C0
-        public void get_edgeRadius(){} // RVA: 0x7FFE87D29610
-        public void set_edgeRadius(){} // RVA: 0x7FFE87D29660
-        public void get_edgeCount(){} // RVA: 0x7FFE87D296C0
-        public void get_pointCount(){} // RVA: 0x7FFE87D29710
-        public void get_points(){} // RVA: 0x7FFE87D29760
-        public void set_points(){} // RVA: 0x7FFE87D297B0
-        public void GetPoints(){} // RVA: 0x7FFE87D29810
-        public void SetPoints(){} // RVA: 0x7FFE87D29870
-        public void get_useAdjacentStartPoint(){} // RVA: 0x7FFE87D298D0
-        public void set_useAdjacentStartPoint(){} // RVA: 0x7FFE87D29920
-        public void get_useAdjacentEndPoint(){} // RVA: 0x7FFE87D29980
-        public void set_useAdjacentEndPoint(){} // RVA: 0x7FFE87D299D0
-        public void get_adjacentStartPoint(){} // RVA: 0x7FFE87D29A30
-        public void set_adjacentStartPoint(){} // RVA: 0x7FFE87D29A90
-        public void get_adjacentEndPoint(){} // RVA: 0x7FFE87D29AF0
-        public void set_adjacentEndPoint(){} // RVA: 0x7FFE87D29B50
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
-        public void get_adjacentStartPoint_Injected(){} // RVA: 0x7FFE87D29BB0
-        public void set_adjacentStartPoint_Injected(){} // RVA: 0x7FFE87D29C10
-        public void get_adjacentEndPoint_Injected(){} // RVA: 0x7FFE87D29C70
-        public void set_adjacentEndPoint_Injected(){} // RVA: 0x7FFE87D29CD0
-    }
-
-    public class Effector2D : Behaviour
-    {
-        // ── Methods ──
-        public void get_useColliderMask(){} // RVA: 0x7FFE87D2E2A0
-        public void set_useColliderMask(){} // RVA: 0x7FFE87D2E2F0
-        public void get_colliderMask(){} // RVA: 0x7FFE87D2E350
-        public void set_colliderMask(){} // RVA: 0x7FFE87D2E3A0
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
-    }
-
-    public class EnumData : ValueType
-    {
-    }
-
-    public class EnumDataUtility : Object
-    {
-        // ── Methods ──
-        public void GetCachedEnumData(){} // RVA: 0x7FFE87C65400
-        public void HandleInspectorOrderAttribute(){} // RVA: 0x7FFE87C67010
-        public void CheckObsoleteAddition(){} // RVA: 0x7FFE87C67AB0
-        public void EnumTooltipFromEnumField(){} // RVA: 0x7FFE87C67C30
-        public void EnumNameFromEnumField(){} // RVA: 0x7FFE87C67DC0
-        public void .cctor(){} // RVA: 0x7FFE87C681A0
-        public void <EnumNameFromEnumField>g__NicifyName|8_0(){} // RVA: 0x7FFE87C68300
-    }
-
-    public class Event : Object
-    {
-        public UIntPtr m_Ptr; // 0x10
-        public UnityEngine.Event s_Current;
-        public UnityEngine.Event s_MasterEvent; // 0x8
-        public object get_mousePosition; // 0x50F8
-        public object field_4; // 0x52B0
-        public object field_5; // 0x5468
-        public object field_6; // 0x5620
-        public object field_7; // 0x57D8
-        public object field_8; // 0x5990
-        public object field_9; // 0x5B48
-        public object field_10; // 0x5D00
-        public object field_11; // 0x5EB8
-        public object field_12; // 0x6070
-        public object field_13; // 0x6228
-        public object field_14; // 0x4F4C
-        public object field_15;
-        public object field_16; // 0xF920
-        public object get_mousePosition; // 0x5E20
-        public object field_18; // 0xDBA0
-        public void field_19; // 0x62D8
-        public object field_20; // 0xDC00
-        public object field_21; // 0xB6E0
-        public object field_22; // 0xFFFF
-        public object field_23; // 0x30
+        public object useDelaunayMesh;
+        public object autoTiling;
+        public object points;
+        public object pathCount;
 
         // ── Methods ──
-        public void get_rawType(){} // RVA: 0x7FFE87CADAF0
-        public void get_mousePosition(){} // RVA: 0x7FFE87CADB40
-        public void set_mousePosition(){} // RVA: 0x7FFE87CADBA0
-        public void get_delta(){} // RVA: 0x7FFE87CADC00
-        public void set_delta(){} // RVA: 0x7FFE87CADC60
-        public void get_pointerType(){} // RVA: 0x7FFE87CADCC0
-        public void get_button(){} // RVA: 0x7FFE87CADD10
-        public void get_modifiers(){} // RVA: 0x7FFE87CADD60
-        public void set_modifiers(){} // RVA: 0x7FFE87CADDB0
-        public void get_pressure(){} // RVA: 0x7FFE87CADE10
-        public void get_twist(){} // RVA: 0x7FFE87CADE60
-        public void get_tilt(){} // RVA: 0x7FFE87CADEB0
-        public void get_penStatus(){} // RVA: 0x7FFE87CADF10
-        public void get_clickCount(){} // RVA: 0x7FFE87CADF60
-        public void get_character(){} // RVA: 0x7FFE87CADFB0
-        public void set_character(){} // RVA: 0x7FFE87CAE000
-        public void get_keyCode(){} // RVA: 0x7FFE87CAE060
-        public void set_keyCode(){} // RVA: 0x7FFE87CAE0B0
-        public void get_displayIndex(){} // RVA: 0x7FFE87CAE110
-        public void set_displayIndex(){} // RVA: 0x7FFE87CAE160
-        public void get_type(){} // RVA: 0x7FFE87CAE1C0
-        public void set_type(){} // RVA: 0x7FFE87CAE210
-        public void get_commandName(){} // RVA: 0x7FFE87CAE270
-        public void set_commandName(){} // RVA: 0x7FFE87CAE2C0
-        public void Internal_Use(){} // RVA: 0x7FFE87CAE320
-        public void Internal_Create(){} // RVA: 0x7FFE87CAE370
-        public void Internal_Destroy(){} // RVA: 0x7FFE87CAE3C0
-        public void GetTypeForControl(){} // RVA: 0x7FFE87CAE410
-        public void CopyFromPtr(){} // RVA: 0x7FFE87CAE470
-        public void PopEvent(){} // RVA: 0x7FFE87CAE4D0
-        public void Internal_SetNativeEvent(){} // RVA: 0x7FFE87CAE520
-        public void Internal_MakeMasterEventCurrent(){} // RVA: 0x7FFE87CAE570
-        public void GetDoubleClickTime(){} // RVA: 0x7FFE87CAE7C0
-        public void .ctor(){} // RVA: 0x7FFE87CAE870 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFE87CAE8D0
-        public void CopyFrom(){} // RVA: 0x7FFE87CAE970
-        public void get_shift(){} // RVA: 0x7FFE87CAE9F0
-        public void get_control(){} // RVA: 0x7FFE87CAEA50
-        public void get_alt(){} // RVA: 0x7FFE87CAEAB0
-        public void get_command(){} // RVA: 0x7FFE87CAEB10
-        public void get_current(){} // RVA: 0x7FFE87CAEB70
-        public void set_current(){} // RVA: 0x7FFE87CAEBB0
-        public void get_isKey(){} // RVA: 0x7FFE87CAECC0
-        public void get_isMouse(){} // RVA: 0x7FFE87CAED30
-        public void get_isDirectManipulationDevice(){} // RVA: 0x7FFE87CAEDB0
-        public void KeyboardEvent(){} // RVA: 0x7FFE87CAEE60
-        public void GetHashCode(){} // RVA: 0x7FFE87CB0920
-        public void Equals(){} // RVA: 0x7FFE87CB0A30
-        public void ToString(){} // RVA: 0x7FFE87CB0BF0
-        public void Use(){} // RVA: 0x7FFE87CB14F0
-        public void get_mousePosition_Injected(){} // RVA: 0x7FFE87CB1730
-        public void set_mousePosition_Injected(){} // RVA: 0x7FFE87CB1790
-        public void get_delta_Injected(){} // RVA: 0x7FFE87CB17F0
-        public void set_delta_Injected(){} // RVA: 0x7FFE87CB1850
-        public void get_tilt_Injected(){} // RVA: 0x7FFE87CB18B0
+        public void Reset(){} // RVA: 0x7FFAF9C99420
+        public void get_edgeRadius(){} // RVA: 0x7FFAF9C99470
+        public void set_edgeRadius(){} // RVA: 0x7FFAF9C994C0
+        public void get_edgeCount(){} // RVA: 0x7FFAF9C99520
+        public void get_pointCount(){} // RVA: 0x7FFAF9C99570
+        public void get_points(){} // RVA: 0x7FFAF9C995C0
+        public void set_points(){} // RVA: 0x7FFAF9C99610
+        public void GetPoints(){} // RVA: 0x7FFAF9C99670
+        public void SetPoints(){} // RVA: 0x7FFAF9C996D0
+        public void get_useAdjacentStartPoint(){} // RVA: 0x7FFAF9C99730
+        public void set_useAdjacentStartPoint(){} // RVA: 0x7FFAF9C99780
+        public void get_useAdjacentEndPoint(){} // RVA: 0x7FFAF9C997E0
+        public void set_useAdjacentEndPoint(){} // RVA: 0x7FFAF9C99830
+        public void get_adjacentStartPoint(){} // RVA: 0x7FFAF9C99890
+        public void set_adjacentStartPoint(){} // RVA: 0x7FFAF9C998F0
+        public void get_adjacentEndPoint(){} // RVA: 0x7FFAF9C99950
+        public void set_adjacentEndPoint(){} // RVA: 0x7FFAF9C999B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void get_adjacentStartPoint_Injected(){} // RVA: 0x7FFAF9C99A10
+        public void set_adjacentStartPoint_Injected(){} // RVA: 0x7FFAF9C99A70
+        public void get_adjacentEndPoint_Injected(){} // RVA: 0x7FFAF9C99AD0
+        public void set_adjacentEndPoint_Injected(){} // RVA: 0x7FFAF9C99B30
     }
 
-    public class EventInterests : ValueType
+    public class Effector2D
     {
-        public bool _wantsMouseMove; // 0x10
-        public bool _wantsMouseEnterLeaveWindow; // 0x11
-        public bool _wantsLessLayoutEvents; // 0x12
+        public object forceAngle;
+        public object useGlobalAngle;
 
         // ── Methods ──
-        public void get_wantsMouseMove(){} // RVA: 0x7FFE82BC9920
-        public void set_wantsMouseMove(){} // RVA: 0x7FFE82BC9930
-        public void get_wantsMouseEnterLeaveWindow(){} // RVA: 0x7FFE82BC9940
-        public void set_wantsMouseEnterLeaveWindow(){} // RVA: 0x7FFE81E63F10
-        public void get_wantsLessLayoutEvents(){} // RVA: 0x7FFE82BC9950
-        public void WantsEvent(){} // RVA: 0x7FFE87CB1910
-        public void WantsLayoutPass(){} // RVA: 0x7FFE87CB1930
+        public void get_useColliderMask(){} // RVA: 0x7FFAF9C9E100
+        public void set_useColliderMask(){} // RVA: 0x7FFAF9C9E150
+        public void get_colliderMask(){} // RVA: 0x7FFAF9C9E1B0
+        public void set_colliderMask(){} // RVA: 0x7FFAF9C9E200
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
-    public class ExcludeFromObjectFactoryAttribute : Attribute
+    public class EnumData
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
-    public class ExcludeFromPresetAttribute : Attribute
+    public class EnumDataUtility
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetCachedEnumData(){} // RVA: 0x7FFAF9BD4740
+        public void HandleInspectorOrderAttribute(){} // RVA: 0x7FFAF9BD6350
+        public void CheckObsoleteAddition(){} // RVA: 0x7FFAF9BD6DF0
+        public void EnumTooltipFromEnumField(){} // RVA: 0x7FFAF9BD6F70
+        public void EnumNameFromEnumField(){} // RVA: 0x7FFAF9BD7100
+        public void .cctor(){} // RVA: 0x7FFAF9BD74E0
+        public void <EnumNameFromEnumField>g__NicifyName|8_0(){} // RVA: 0x7FFAF9BD7640
     }
 
-    public class ExecuteAlways : Attribute
+    public class Event
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_rawType(){} // RVA: 0x7FFAF9C1D950
+        public void get_mousePosition(){} // RVA: 0x7FFAF9C1D9A0
+        public void set_mousePosition(){} // RVA: 0x7FFAF9C1DA00
+        public void get_delta(){} // RVA: 0x7FFAF9C1DA60
+        public void set_delta(){} // RVA: 0x7FFAF9C1DAC0
+        public void get_pointerType(){} // RVA: 0x7FFAF9C1DB20
+        public void get_button(){} // RVA: 0x7FFAF9C1DB70
+        public void get_modifiers(){} // RVA: 0x7FFAF9C1DBC0
+        public void set_modifiers(){} // RVA: 0x7FFAF9C1DC10
+        public void get_pressure(){} // RVA: 0x7FFAF9C1DC70
+        public void get_twist(){} // RVA: 0x7FFAF9C1DCC0
+        public void get_tilt(){} // RVA: 0x7FFAF9C1DD10
+        public void get_penStatus(){} // RVA: 0x7FFAF9C1DD70
+        public void get_clickCount(){} // RVA: 0x7FFAF9C1DDC0
+        public void get_character(){} // RVA: 0x7FFAF9C1DE10
+        public void set_character(){} // RVA: 0x7FFAF9C1DE60
+        public void get_keyCode(){} // RVA: 0x7FFAF9C1DEC0
+        public void set_keyCode(){} // RVA: 0x7FFAF9C1DF10
+        public void get_displayIndex(){} // RVA: 0x7FFAF9C1DF70
+        public void set_displayIndex(){} // RVA: 0x7FFAF9C1DFC0
+        public void get_type(){} // RVA: 0x7FFAF9C1E020
+        public void set_type(){} // RVA: 0x7FFAF9C1E070
+        public void get_commandName(){} // RVA: 0x7FFAF9C1E0D0
+        public void set_commandName(){} // RVA: 0x7FFAF9C1E120
+        public void Internal_Use(){} // RVA: 0x7FFAF9C1E180
+        public void Internal_Create(){} // RVA: 0x7FFAF9C1E1D0
+        public void Internal_Destroy(){} // RVA: 0x7FFAF9C1E220
+        public void GetTypeForControl(){} // RVA: 0x7FFAF9C1E270
+        public void CopyFromPtr(){} // RVA: 0x7FFAF9C1E2D0
+        public void PopEvent(){} // RVA: 0x7FFAF9C1E330
+        public void Internal_SetNativeEvent(){} // RVA: 0x7FFAF9C1E380
+        public void Internal_MakeMasterEventCurrent(){} // RVA: 0x7FFAF9C1E3D0
+        public void GetDoubleClickTime(){} // RVA: 0x7FFAF9C1E620
+        public void .ctor(){} // RVA: 0x7FFAF9C1E6D0 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFAF9C1E730
+        public void CopyFrom(){} // RVA: 0x7FFAF9C1E7D0
+        public void get_shift(){} // RVA: 0x7FFAF9C1E850
+        public void get_control(){} // RVA: 0x7FFAF9C1E8B0
+        public void get_alt(){} // RVA: 0x7FFAF9C1E910
+        public void get_command(){} // RVA: 0x7FFAF9C1E970
+        public void get_current(){} // RVA: 0x7FFAF9C1E9D0
+        public void set_current(){} // RVA: 0x7FFAF9C1EA10
+        public void get_isKey(){} // RVA: 0x7FFAF9C1EB20
+        public void get_isMouse(){} // RVA: 0x7FFAF9C1EB90
+        public void get_isDirectManipulationDevice(){} // RVA: 0x7FFAF9C1EC10
+        public void KeyboardEvent(){} // RVA: 0x7FFAF9C1ECC0
+        public void GetHashCode(){} // RVA: 0x7FFAF9C20780
+        public void Equals(){} // RVA: 0x7FFAF9C20890
+        public void ToString(){} // RVA: 0x7FFAF9C20A50
+        public void Use(){} // RVA: 0x7FFAF9C21350
+        public void get_mousePosition_Injected(){} // RVA: 0x7FFAF9C21590
+        public void set_mousePosition_Injected(){} // RVA: 0x7FFAF9C215F0
+        public void get_delta_Injected(){} // RVA: 0x7FFAF9C21650
+        public void set_delta_Injected(){} // RVA: 0x7FFAF9C216B0
+        public void get_tilt_Injected(){} // RVA: 0x7FFAF9C21710
     }
 
-    public class ExecuteInEditMode : Attribute
+    public class EventInterests
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_wantsMouseMove(){} // RVA: 0x7FFAF48F0360
+        public void set_wantsMouseMove(){} // RVA: 0x7FFAF48F0370
+        public void get_wantsMouseEnterLeaveWindow(){} // RVA: 0x7FFAF48F0380
+        public void set_wantsMouseEnterLeaveWindow(){} // RVA: 0x7FFAF3B9EB00
+        public void get_wantsLessLayoutEvents(){} // RVA: 0x7FFAF48F0390
+        public void WantsEvent(){} // RVA: 0x7FFAF9C21770
+        public void WantsLayoutPass(){} // RVA: 0x7FFAF9C21790
     }
 
-    public class ExitGUIException : Exception
+    public class ExcludeFromObjectFactoryAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87CD1050 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ExposedReference`1 : ValueType
+    public class ExcludeFromPresetAttribute
     {
         // ── Methods ──
-        public void Resolve(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ExpressionEvaluator : Object
+    public class ExecuteAlways
     {
         // ── Methods ──
-        public void Evaluate(){} // RVA: 0x7FFE80E329F0
-        public void EvaluateTokens(){} // RVA: 0x7FFE810A1420
-        public void EvaluateDouble(){} // RVA: 0x7FFE87C09CA0
-        public void InfixToRPN(){} // RVA: 0x7FFE87C0A210
-        public void NeedToPop(){} // RVA: 0x7FFE87C0A820
-        public void ExpressionToTokens(){} // RVA: 0x7FFE87C0A920
-        public void IsCommand(){} // RVA: 0x7FFE87C0AE50
-        public void IsVariable(){} // RVA: 0x7FFE87C0AED0
-        public void IsDelayedFunction(){} // RVA: 0x7FFE87C0AF20
-        public void IsOperator(){} // RVA: 0x7FFE87C0AF90
-        public void TokenToOperator(){} // RVA: 0x7FFE87C0B030
-        public void PreFormatExpression(){} // RVA: 0x7FFE87C0B0E0
-        public void FixUnaryOperators(){} // RVA: 0x7FFE87C0B340
-        public void EvaluateOp(){} // RVA: 0x7FFE87C0B540
-        public void TryParse(){} // RVA: 0x7FFE80E2F7A0
-        public void .cctor(){} // RVA: 0x7FFE87C0B8E0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ExtensionOfNativeClassAttribute : Attribute
+    public class ExecuteInEditMode
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class ExitGUIException
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF9C40EB0 | overloaded x2
+    }
+
+    public class ExposedReference`1
+    {
+        // ── Methods ──
+        public void Resolve(){} // RVA: 0x7FFAF2D33FA0
+    }
+
+    public class ExposedReference`1
+    {
+        // ── Methods ──
+        public void Resolve(){} // RVA: 0x7FFAF5DCB280
+    }
+
+    public class ExposedReference`1
+    {
+        // ── Methods ──
+        public void Resolve(){} // RVA: 0x7FFAF5DCB280
+    }
+
+    public class ExpressionEvaluator
+    {
+        // ── Methods ──
+        public void Evaluate(){} // RVA: 0x7FFAF2AC14C0
+        public void EvaluateTokens(){} // RVA: 0x7FFAF2D33FA0
+        public void EvaluateDouble(){} // RVA: 0x7FFAF9B78D80
+        public void InfixToRPN(){} // RVA: 0x7FFAF9B792F0
+        public void NeedToPop(){} // RVA: 0x7FFAF9B79900
+        public void ExpressionToTokens(){} // RVA: 0x7FFAF9B79A00
+        public void IsCommand(){} // RVA: 0x7FFAF9B79F30
+        public void IsVariable(){} // RVA: 0x7FFAF9B79FB0
+        public void IsDelayedFunction(){} // RVA: 0x7FFAF9B7A000
+        public void IsOperator(){} // RVA: 0x7FFAF9B7A070
+        public void TokenToOperator(){} // RVA: 0x7FFAF9B7A110
+        public void PreFormatExpression(){} // RVA: 0x7FFAF9B7A1C0
+        public void FixUnaryOperators(){} // RVA: 0x7FFAF9B7A420
+        public void EvaluateOp(){} // RVA: 0x7FFAF9B7A620
+        public void TryParse(){} // RVA: 0x7FFAF2ABE230
+        public void .cctor(){} // RVA: 0x7FFAF9B7A9C0
+    }
+
+    public class ExtensionOfNativeClassAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

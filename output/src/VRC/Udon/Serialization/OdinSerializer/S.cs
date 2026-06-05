@@ -1,375 +1,826 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Serialization.OdinSerializer
-// Classes: 26
-// Methods: 243
+// Classes: 69
+// Methods: 538
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
-    public class SByteSerializer : Serializer`1
+    public class SByteSerializer
     {
         // ── Methods ──
-        public void ReadValue(){} // RVA: 0x7FFE883BB690
-        public void WriteValue(){} // RVA: 0x7FFE883BC360
-        public void .ctor(){} // RVA: 0x7FFE883BC3D0
+        public void ReadValue(){} // RVA: 0x7FFAFA32E9D0
+        public void WriteValue(){} // RVA: 0x7FFAFA32F6A0
+        public void .ctor(){} // RVA: 0x7FFAFA32F710
     }
 
-    public class SelfFormatterFormatter`1 : BaseFormatter`1
+    public class SelfFormatterFormatter`1
     {
         // ── Methods ──
-        public void DeserializeImplementation(){} // RVA: 0x7FFE80E4F230
-        public void SerializeImplementation(){} // RVA: 0x7FFE80E4F230
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+        public void SerializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class SelfFormatterLocator : Object
+    public class SelfFormatterLocator
     {
         // ── Methods ──
-        public void TryGetFormatter(){} // RVA: 0x7FFE88399F60
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void TryGetFormatter(){} // RVA: 0x7FFAFA30D2A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SerializableFormatter`1 : BaseFormatter`1
+    public class SerializableFormatter`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE80E46010
-        public void GetUninitializedObject(){} // RVA: 0x7FFE810A1420
-        public void DeserializeImplementation(){} // RVA: 0x7FFE80E4F230
-        public void SerializeImplementation(){} // RVA: 0x7FFE80E4F230
-        public void ReadSerializationInfo(){} // RVA: 0x7FFE80E2E390
-        public void WriteSerializationInfo(){} // RVA: 0x7FFE80E4F230
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF2D33FA0
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+        public void SerializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+        public void ReadSerializationInfo(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteSerializationInfo(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class SerializationAbortException : Exception
+    public class SerializableFormatter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE883AD0C0 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF6AB0B60
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF2FC9240
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF6AB15D0
+        public void SerializeImplementation(){} // RVA: 0x7FFAF6AB1A70
+        public void ReadSerializationInfo(){} // RVA: 0x7FFAF6AB1D80
+        public void WriteSerializationInfo(){} // RVA: 0x7FFAF6AB2530
+        public void .ctor(){} // RVA: 0x7FFAF6AAED20
     }
 
-    public class SerializationConfig : Object
-    {
-        public object LOCK; // 0x10
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy serializationPolicy; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE883AD130
-        public void get_SerializationPolicy(){} // RVA: 0x7FFE883AD1C0
-        public void set_SerializationPolicy(){} // RVA: 0x7FFE883AD3B0
-        public void get_DebugContext(){} // RVA: 0x7FFE883AD540
-        public void set_DebugContext(){} // RVA: 0x7FFE883AD7C0
-        public void ResetToDefault(){} // RVA: 0x7FFE883AD950
-    }
-
-    public class SerializationContext : Object
-    {
-        public VRC.Udon.Serialization.OdinSerializer.SerializationConfig config; // 0x10
-        public System.Collections.Generic.Dictionary`2<object,int> internalReferenceIdMap; // 0x18
-        public System.Runtime.Serialization.StreamingContext streamingContext; // 0x20
-        public System.Runtime.Serialization.IFormatterConverter formatterConverter; // 0x30
-        public VRC.Udon.Serialization.OdinSerializer.TwoWaySerializationBinder binder; // 0x38
-        public VRC.Udon.Serialization.OdinSerializer.IExternalIndexReferenceResolver _indexReferenceResolver; // 0x40
-        public VRC.Udon.Serialization.OdinSerializer.IExternalStringReferenceResolver _stringReferenceResolver; // 0x48
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE883AE430 | overloaded x4
-        public void get_Binder(){} // RVA: 0x7FFE883AE6D0
-        public void set_Binder(){} // RVA: 0x7FFE81437330
-        public void get_StreamingContext(){} // RVA: 0x7FFE82C84C90
-        public void get_FormatterConverter(){} // RVA: 0x7FFE8144E200
-        public void get_IndexReferenceResolver(){} // RVA: 0x7FFE81178740
-        public void set_IndexReferenceResolver(){} // RVA: 0x7FFE81123200
-        public void get_StringReferenceResolver(){} // RVA: 0x7FFE81176730
-        public void set_StringReferenceResolver(){} // RVA: 0x7FFE81176740
-        public void get_GuidReferenceResolver(){} // RVA: 0x7FFE8119C0E0
-        public void set_GuidReferenceResolver(){} // RVA: 0x7FFE812534D0
-        public void get_Config(){} // RVA: 0x7FFE883AE790
-        public void set_Config(){} // RVA: 0x7FFE810FCE30
-        public void TryGetInternalReferenceId(){} // RVA: 0x7FFE883AE840
-        public void TryRegisterInternalReference(){} // RVA: 0x7FFE883AE8B0
-        public void TryRegisterExternalReference(){} // RVA: 0x7FFE883AEB80 | overloaded x3
-        public void ResetInternalReferences(){} // RVA: 0x7FFE883AED50
-        public void ResetToDefault(){} // RVA: 0x7FFE883AEDA0
-        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICacheNotificationReceiver.OnFreed(){} // RVA: 0x7FFE883AEF50
-        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICacheNotificationReceiver.OnClaimed(){} // RVA: 0x7FFE810FB310
-    }
-
-    public class SerializationData : ValueType
-    {
-        public string PrefabModificationsReferencedUnityObjectsFieldName;
-        public string PrefabModificationsFieldName;
-
-        // ── Methods ──
-        public void get_HasEditorData(){} // RVA: 0x7FFE883CEB50
-        public void get_ContainsData(){} // RVA: 0x7FFE883CED00
-        public void Reset(){} // RVA: 0x7FFE883CED30
-    }
-
-    public class SerializationNode : ValueType
-    {
-    }
-
-    public class SerializationNodeDataReader : BaseDataReader
-    {
-        public string peekedEntryName; // 0x30
-        public System.Nullable`1<0x6661D69C> peekedEntryType; // 0x38
-        public string peekedEntryData; // 0x40
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8838BDA0
-        public void get_IndexIsValid(){} // RVA: 0x7FFE8838CB50
-        public void get_Nodes(){} // RVA: 0x7FFE8838CBB0
-        public void set_Nodes(){} // RVA: 0x7FFE8838CC70
-        public void get_Stream(){} // RVA: 0x7FFE8838CD10
-        public void set_Stream(){} // RVA: 0x7FFE8838CD60
-        public void Dispose(){} // RVA: 0x7FFE8838CDB0
-        public void PrepareNewSerializationSession(){} // RVA: 0x7FFE8838CE20
-        public void PeekEntry(){} // RVA: 0x7FFE88376EB0 | overloaded x2
-        public void EnterArray(){} // RVA: 0x7FFE8838D1A0
-        public void EnterNode(){} // RVA: 0x7FFE8838D340
-        public void ExitArray(){} // RVA: 0x7FFE8838D920
-        public void ExitNode(){} // RVA: 0x7FFE8838DAF0
-        public void ReadBoolean(){} // RVA: 0x7FFE8838DD10
-        public void ReadByte(){} // RVA: 0x7FFE8838DEB0
-        public void ReadChar(){} // RVA: 0x7FFE8838DF60
-        public void ReadDecimal(){} // RVA: 0x7FFE8838E120
-        public void ReadDouble(){} // RVA: 0x7FFE8838E3B0
-        public void ReadExternalReference(){} // RVA: 0x7FFE8838EA90 | overloaded x3
-        public void ReadGuid(){} // RVA: 0x7FFE8838EC90
-        public void ReadInt16(){} // RVA: 0x7FFE8838EFC0
-        public void ReadInt32(){} // RVA: 0x7FFE8838F080
-        public void ReadInt64(){} // RVA: 0x7FFE8838F140
-        public void ReadInternalReference(){} // RVA: 0x7FFE8838F340
-        public void ReadNull(){} // RVA: 0x7FFE8838F540
-        public void ReadPrimitiveArray(){} // RVA: 0x7FFE80E2F3B0
-        public void ReadSByte(){} // RVA: 0x7FFE8838F630
-        public void ReadSingle(){} // RVA: 0x7FFE8838F6E0
-        public void ReadString(){} // RVA: 0x7FFE8838F940
-        public void ReadUInt16(){} // RVA: 0x7FFE8838FA90
-        public void ReadUInt32(){} // RVA: 0x7FFE8838FB50
-        public void ReadUInt64(){} // RVA: 0x7FFE8838FC10
-        public void GetDataDump(){} // RVA: 0x7FFE8838FE10
-        public void ConsumeCurrentEntry(){} // RVA: 0x7FFE88390090
-        public void ReadToNextEntry(){} // RVA: 0x7FFE88390100
-        public void <.ctor>b__6_0(){} // RVA: 0x7FFE88384670
-        public void <.ctor>b__6_1(){} // RVA: 0x7FFE883846A0
-        public void <.ctor>b__6_2(){} // RVA: 0x7FFE883846D0
-        public void <.ctor>b__6_3(){} // RVA: 0x7FFE88384700
-        public void <.ctor>b__6_4(){} // RVA: 0x7FFE88384730
-        public void <.ctor>b__6_5(){} // RVA: 0x7FFE88384760
-        public void <.ctor>b__6_6(){} // RVA: 0x7FFE88384790
-        public void <.ctor>b__6_7(){} // RVA: 0x7FFE883847C0
-        public void <.ctor>b__6_8(){} // RVA: 0x7FFE883847F0
-        public void <.ctor>b__6_9(){} // RVA: 0x7FFE88384820
-        public void <.ctor>b__6_10(){} // RVA: 0x7FFE88384860
-        public void <.ctor>b__6_11(){} // RVA: 0x7FFE88384890
-        public void <.ctor>b__6_12(){} // RVA: 0x7FFE883848C0
-        public void <.ctor>b__6_13(){} // RVA: 0x7FFE883848F0
-    }
-
-    public class SerializationNodeDataReaderWriterConfig : Object
-    {
-    }
-
-    public class SerializationNodeDataWriter : BaseDataWriter
-    {
-        public System.Collections.Generic.List`1<VRC.Udon.Serialization.OdinSerializer.SerializationNode> nodes; // 0x30
-        public System.Collections.Generic.Dictionary`2<System.Type,System.Delegate> primitiveTypeWriters; // 0x38
-
-        // ── Methods ──
-        public void get_Nodes(){} // RVA: 0x7FFE88390190
-        public void set_Nodes(){} // RVA: 0x7FFE88390250
-        public void .ctor(){} // RVA: 0x7FFE883902F0
-        public void get_Stream(){} // RVA: 0x7FFE88391000
-        public void set_Stream(){} // RVA: 0x7FFE88391050
-        public void BeginArrayNode(){} // RVA: 0x7FFE883910A0
-        public void BeginReferenceNode(){} // RVA: 0x7FFE88391290
-        public void BeginStructNode(){} // RVA: 0x7FFE88391560
-        public void Dispose(){} // RVA: 0x7FFE865A8E50
-        public void EndArrayNode(){} // RVA: 0x7FFE883917A0
-        public void EndNode(){} // RVA: 0x7FFE88391920
-        public void PrepareNewSerializationSession(){} // RVA: 0x7FFE817E01F0
-        public void WriteBoolean(){} // RVA: 0x7FFE88391AE0
-        public void WriteByte(){} // RVA: 0x7FFE88391C70
-        public void WriteChar(){} // RVA: 0x7FFE88391EF0
-        public void WriteDecimal(){} // RVA: 0x7FFE88392120
-        public void WriteSingle(){} // RVA: 0x7FFE88392350
-        public void WriteDouble(){} // RVA: 0x7FFE88392590
-        public void WriteExternalReference(){} // RVA: 0x7FFE88392B20 | overloaded x3
-        public void WriteGuid(){} // RVA: 0x7FFE88392DA0
-        public void WriteInt16(){} // RVA: 0x7FFE88392F90
-        public void WriteInt32(){} // RVA: 0x7FFE88393170
-        public void WriteInt64(){} // RVA: 0x7FFE883933F0
-        public void WriteInternalReference(){} // RVA: 0x7FFE88393670
-        public void WriteNull(){} // RVA: 0x7FFE883938F0
-        public void WritePrimitiveArray(){} // RVA: 0x7FFE80E460A0
-        public void WriteSByte(){} // RVA: 0x7FFE88393A60
-        public void WriteString(){} // RVA: 0x7FFE88393C40
-        public void WriteUInt16(){} // RVA: 0x7FFE88393DA0
-        public void WriteUInt32(){} // RVA: 0x7FFE88394020
-        public void WriteUInt64(){} // RVA: 0x7FFE883942A0
-        public void FlushToStream(){} // RVA: 0x7FFE810FB310
-        public void GetDataDump(){} // RVA: 0x7FFE88394520
-    }
-
-    public class SerializationPolicies : Object
-    {
-        public object LOCK;
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy everythingPolicy; // 0x8
-        public VRC.Udon.Serialization.OdinSerializer.ISerializationPolicy unityPolicy; // 0x10
-
-        // ── Methods ──
-        public void TryGetByID(){} // RVA: 0x7FFE883AEF60
-        public void get_Everything(){} // RVA: 0x7FFE883AF1E0
-        public void get_Unity(){} // RVA: 0x7FFE883AF5C0
-        public void get_Strict(){} // RVA: 0x7FFE883AFAE0
-        public void .cctor(){} // RVA: 0x7FFE883AFEC0
-    }
-
-    public class SerializationUtility : Object
+    public class SerializableFormatter`1
     {
         // ── Methods ──
-        public void CreateWriter(){} // RVA: 0x7FFE883B07C0
-        public void CreateReader(){} // RVA: 0x7FFE883B09C0
-        public void GetCachedWriter(){} // RVA: 0x7FFE883B0BB0
-        public void GetCachedReader(){} // RVA: 0x7FFE883B0F50
-        public void SerializeValueWeak(){} // RVA: 0x7FFE883B1EB0 | overloaded x6
-        public void SerializeValue(){} // RVA: 0x7FFE810A1420 | overloaded x6
-        public void DeserializeValueWeak(){} // RVA: 0x7FFE883B2AD0 | overloaded x6
-        public void DeserializeValue(){} // RVA: 0x7FFE810A1420 | overloaded x6
-        public void CreateCopy(){} // RVA: 0x7FFE883B2C00
+        public void .cctor(){} // RVA: 0x7FFAF6AB0B60
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF2FC9240
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF6AB15D0
+        public void SerializeImplementation(){} // RVA: 0x7FFAF6AB1A70
+        public void ReadSerializationInfo(){} // RVA: 0x7FFAF6AB1D80
+        public void WriteSerializationInfo(){} // RVA: 0x7FFAF6AB2530
+        public void .ctor(){} // RVA: 0x7FFAF6AAED20
     }
 
-    public class SerializedBehaviour : Behaviour
+    public class SerializableFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.SerializationData serializationData; // 0x18
-
         // ── Methods ──
-        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.get_SerializationData(){} // RVA: 0x7FFE842910B0
-        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.set_SerializationData(){} // RVA: 0x7FFE883CEFF0
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFE883CF060
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFE883CF0E0
-        public void OnAfterDeserialize(){} // RVA: 0x7FFE810FB310
-        public void OnBeforeSerialize(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void .cctor(){} // RVA: 0x7FFAF6AB0B60
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF2FC9240
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF6AB15D0
+        public void SerializeImplementation(){} // RVA: 0x7FFAF6AB1A70
+        public void ReadSerializationInfo(){} // RVA: 0x7FFAF6AB1D80
+        public void WriteSerializationInfo(){} // RVA: 0x7FFAF6AB2530
+        public void .ctor(){} // RVA: 0x7FFAF6AAED20
     }
 
-    public class SerializedComponent : Component
+    public class SerializableFormatter`1
     {
-        public VRC.Udon.Serialization.OdinSerializer.SerializationData serializationData; // 0x18
-
         // ── Methods ──
-        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.get_SerializationData(){} // RVA: 0x7FFE842910B0
-        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.set_SerializationData(){} // RVA: 0x7FFE883CEFF0
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFE883CF160
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFE883CF1E0
-        public void OnAfterDeserialize(){} // RVA: 0x7FFE810FB310
-        public void OnBeforeSerialize(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void .cctor(){} // RVA: 0x7FFAF6AB0B60
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF2FC9240
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF6AB15D0
+        public void SerializeImplementation(){} // RVA: 0x7FFAF6AB1A70
+        public void ReadSerializationInfo(){} // RVA: 0x7FFAF6AB1D80
+        public void WriteSerializationInfo(){} // RVA: 0x7FFAF6AB2530
+        public void .ctor(){} // RVA: 0x7FFAF6AAED20
     }
 
-    public class SerializedMonoBehaviour : MonoBehaviour
+    public class SerializationAbortException
     {
-        public VRC.Udon.Serialization.OdinSerializer.SerializationData serializationData; // 0x20
-
         // ── Methods ──
-        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.get_SerializationData(){} // RVA: 0x7FFE883CF260
-        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.set_SerializationData(){} // RVA: 0x7FFE883CF290
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFE883CF300
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFE883CF380
-        public void OnAfterDeserialize(){} // RVA: 0x7FFE810FB310
-        public void OnBeforeSerialize(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void .ctor(){} // RVA: 0x7FFAFA320400 | overloaded x2
     }
 
-    public class SerializedScriptableObject : ScriptableObject
+    public class SerializationConfig
     {
+        public object boneLengthCanBeZero;
+
         // ── Methods ──
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFE883CF400
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFE883CF480
-        public void OnAfterDeserialize(){} // RVA: 0x7FFE810FB310
-        public void OnBeforeSerialize(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void .ctor(){} // RVA: 0x7FFAFA320470
+        public void get_SerializationPolicy(){} // RVA: 0x7FFAFA320500
+        public void set_SerializationPolicy(){} // RVA: 0x7FFAFA3206F0
+        public void get_DebugContext(){} // RVA: 0x7FFAFA320880
+        public void set_DebugContext(){} // RVA: 0x7FFAFA320B00
+        public void ResetToDefault(){} // RVA: 0x7FFAFA320C90
     }
 
-    public class SerializedStateMachineBehaviour : StateMachineBehaviour
+    public class SerializationContext
     {
         // ── Methods ──
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFE883CF500
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFE883CF580
-        public void OnAfterDeserialize(){} // RVA: 0x7FFE810FB310
-        public void OnBeforeSerialize(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void .ctor(){} // RVA: 0x7FFAFA321770 | overloaded x4
+        public void get_Binder(){} // RVA: 0x7FFAFA321A10
+        public void set_Binder(){} // RVA: 0x7FFAF2F4B830
+        public void get_StreamingContext(){} // RVA: 0x7FFAF49AB630
+        public void get_FormatterConverter(){} // RVA: 0x7FFAF30E74D0
+        public void get_IndexReferenceResolver(){} // RVA: 0x7FFAF2E0A740
+        public void set_IndexReferenceResolver(){} // RVA: 0x7FFAF2DB5200
+        public void get_StringReferenceResolver(){} // RVA: 0x7FFAF2E08730
+        public void set_StringReferenceResolver(){} // RVA: 0x7FFAF2E08740
+        public void get_GuidReferenceResolver(){} // RVA: 0x7FFAF2E2E0E0
+        public void set_GuidReferenceResolver(){} // RVA: 0x7FFAF2EE54D0
+        public void get_Config(){} // RVA: 0x7FFAFA321AD0
+        public void set_Config(){} // RVA: 0x7FFAF2D8EE30
+        public void TryGetInternalReferenceId(){} // RVA: 0x7FFAFA321B80
+        public void TryRegisterInternalReference(){} // RVA: 0x7FFAFA321BF0
+        public void TryRegisterExternalReference(){} // RVA: 0x7FFAFA321EC0 | overloaded x3
+        public void ResetInternalReferences(){} // RVA: 0x7FFAFA322090
+        public void ResetToDefault(){} // RVA: 0x7FFAFA3220E0
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICacheNotificationReceiver.OnFreed(){} // RVA: 0x7FFAFA322290
+        public void VRC.Udon.Serialization.OdinSerializer.Utilities.ICacheNotificationReceiver.OnClaimed(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SerializedUnityObject : Object
+    public class SerializationData
     {
+        public object usingMaterial;
+        public object initialized;
+
         // ── Methods ──
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFE883CF600
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFE883CF680
-        public void OnAfterDeserialize(){} // RVA: 0x7FFE810FB310
-        public void OnBeforeSerialize(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE883CF700
+        public void get_HasEditorData(){} // RVA: 0x7FFAFA341EA0
+        public void get_ContainsData(){} // RVA: 0x7FFAFA342050
+        public void Reset(){} // RVA: 0x7FFAFA342080
     }
 
-    public class Serializer : Object
+    public class SerializationNode
     {
-        // ── Methods ──
-        public void FireOnSerializedType(){} // RVA: 0x7FFE810FB310
-        public void GetForValue(){} // RVA: 0x7FFE883BC440
-        public void Get(){} // RVA: 0x7FFE883BC590 | overloaded x3
-        public void ReadValueWeak(){} // RVA: 0x7FFE80E2E390
-        public void WriteValueWeak(){} // RVA: 0x7FFE80E50660 | overloaded x2
-        public void Create(){} // RVA: 0x7FFE883BC8D0
-        public void LogAOTError(){} // RVA: 0x7FFE883BCD90
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE883BCF30
     }
 
-    public class Serializer`1 : Serializer
+    public class SerializationNodeDataReader
     {
         // ── Methods ──
-        public void ReadValueWeak(){} // RVA: 0x7FFE84C7A660
-        public void WriteValueWeak(){} // RVA: 0x7FFE84C7A710
-        public void ReadValue(){} // RVA: 0x7FFE81081080
-        public void WriteValue(){} // RVA: 0x7FFE810A1420 | overloaded x2
-        public void FireOnSerializedType(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE84C7A9D0
+        public void .ctor(){} // RVA: 0x7FFAFA2FF0E0
+        public void get_IndexIsValid(){} // RVA: 0x7FFAFA2FFE90
+        public void get_Nodes(){} // RVA: 0x7FFAFA2FFEF0
+        public void set_Nodes(){} // RVA: 0x7FFAFA2FFFB0
+        public void get_Stream(){} // RVA: 0x7FFAFA300050
+        public void set_Stream(){} // RVA: 0x7FFAFA3000A0
+        public void Dispose(){} // RVA: 0x7FFAFA3000F0
+        public void PrepareNewSerializationSession(){} // RVA: 0x7FFAFA300160
+        public void PeekEntry(){} // RVA: 0x7FFAFA2EA1F0 | overloaded x2
+        public void EnterArray(){} // RVA: 0x7FFAFA3004E0
+        public void EnterNode(){} // RVA: 0x7FFAFA300680
+        public void ExitArray(){} // RVA: 0x7FFAFA300C60
+        public void ExitNode(){} // RVA: 0x7FFAFA300E30
+        public void ReadBoolean(){} // RVA: 0x7FFAFA301050
+        public void ReadByte(){} // RVA: 0x7FFAFA3011F0
+        public void ReadChar(){} // RVA: 0x7FFAFA3012A0
+        public void ReadDecimal(){} // RVA: 0x7FFAFA301460
+        public void ReadDouble(){} // RVA: 0x7FFAFA3016F0
+        public void ReadExternalReference(){} // RVA: 0x7FFAFA301DD0 | overloaded x3
+        public void ReadGuid(){} // RVA: 0x7FFAFA301FD0
+        public void ReadInt16(){} // RVA: 0x7FFAFA302300
+        public void ReadInt32(){} // RVA: 0x7FFAFA3023C0
+        public void ReadInt64(){} // RVA: 0x7FFAFA302480
+        public void ReadInternalReference(){} // RVA: 0x7FFAFA302680
+        public void ReadNull(){} // RVA: 0x7FFAFA302880
+        public void ReadPrimitiveArray(){} // RVA: 0x7FFAF2ABDE40
+        public void ReadSByte(){} // RVA: 0x7FFAFA302970
+        public void ReadSingle(){} // RVA: 0x7FFAFA302A20
+        public void ReadString(){} // RVA: 0x7FFAFA302C80
+        public void ReadUInt16(){} // RVA: 0x7FFAFA302DD0
+        public void ReadUInt32(){} // RVA: 0x7FFAFA302E90
+        public void ReadUInt64(){} // RVA: 0x7FFAFA302F50
+        public void GetDataDump(){} // RVA: 0x7FFAFA303150
+        public void ConsumeCurrentEntry(){} // RVA: 0x7FFAFA3033D0
+        public void ReadToNextEntry(){} // RVA: 0x7FFAFA303440
+        public void <.ctor>b__6_0(){} // RVA: 0x7FFAFA2F79B0
+        public void <.ctor>b__6_1(){} // RVA: 0x7FFAFA2F79E0
+        public void <.ctor>b__6_2(){} // RVA: 0x7FFAFA2F7A10
+        public void <.ctor>b__6_3(){} // RVA: 0x7FFAFA2F7A40
+        public void <.ctor>b__6_4(){} // RVA: 0x7FFAFA2F7A70
+        public void <.ctor>b__6_5(){} // RVA: 0x7FFAFA2F7AA0
+        public void <.ctor>b__6_6(){} // RVA: 0x7FFAFA2F7AD0
+        public void <.ctor>b__6_7(){} // RVA: 0x7FFAFA2F7B00
+        public void <.ctor>b__6_8(){} // RVA: 0x7FFAFA2F7B30
+        public void <.ctor>b__6_9(){} // RVA: 0x7FFAFA2F7B60
+        public void <.ctor>b__6_10(){} // RVA: 0x7FFAFA2F7BA0
+        public void <.ctor>b__6_11(){} // RVA: 0x7FFAFA2F7BD0
+        public void <.ctor>b__6_12(){} // RVA: 0x7FFAFA2F7C00
+        public void <.ctor>b__6_13(){} // RVA: 0x7FFAFA2F7C30
     }
 
-    public class SingleSerializer : Serializer`1
+    public class SerializationNodeDataReaderWriterConfig
     {
-        // ── Methods ──
-        public void ReadValue(){} // RVA: 0x7FFE883BE430
-        public void WriteValue(){} // RVA: 0x7FFE883BF1E0
-        public void .ctor(){} // RVA: 0x7FFE883BF250
     }
 
-    public class StackFormatter`2 : BaseFormatter`1
+    public class SerializationNodeDataWriter
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE80E46010
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
-        public void GetUninitializedObject(){} // RVA: 0x7FFE810A1420
-        public void DeserializeImplementation(){} // RVA: 0x7FFE80E4F230
-        public void SerializeImplementation(){} // RVA: 0x7FFE80E4F230
+        public void get_Nodes(){} // RVA: 0x7FFAFA3034D0
+        public void set_Nodes(){} // RVA: 0x7FFAFA303590
+        public void .ctor(){} // RVA: 0x7FFAFA303630
+        public void get_Stream(){} // RVA: 0x7FFAFA304340
+        public void set_Stream(){} // RVA: 0x7FFAFA304390
+        public void BeginArrayNode(){} // RVA: 0x7FFAFA3043E0
+        public void BeginReferenceNode(){} // RVA: 0x7FFAFA3045D0
+        public void BeginStructNode(){} // RVA: 0x7FFAFA3048A0
+        public void Dispose(){} // RVA: 0x7FFAF8518150
+        public void EndArrayNode(){} // RVA: 0x7FFAFA304AE0
+        public void EndNode(){} // RVA: 0x7FFAFA304C60
+        public void PrepareNewSerializationSession(){} // RVA: 0x7FFAF3502E70
+        public void WriteBoolean(){} // RVA: 0x7FFAFA304E20
+        public void WriteByte(){} // RVA: 0x7FFAFA304FB0
+        public void WriteChar(){} // RVA: 0x7FFAFA305230
+        public void WriteDecimal(){} // RVA: 0x7FFAFA305460
+        public void WriteSingle(){} // RVA: 0x7FFAFA305690
+        public void WriteDouble(){} // RVA: 0x7FFAFA3058D0
+        public void WriteExternalReference(){} // RVA: 0x7FFAFA305E60 | overloaded x3
+        public void WriteGuid(){} // RVA: 0x7FFAFA3060E0
+        public void WriteInt16(){} // RVA: 0x7FFAFA3062D0
+        public void WriteInt32(){} // RVA: 0x7FFAFA3064B0
+        public void WriteInt64(){} // RVA: 0x7FFAFA306730
+        public void WriteInternalReference(){} // RVA: 0x7FFAFA3069B0
+        public void WriteNull(){} // RVA: 0x7FFAFA306C30
+        public void WritePrimitiveArray(){} // RVA: 0x7FFAF2AD4B10
+        public void WriteSByte(){} // RVA: 0x7FFAFA306DA0
+        public void WriteString(){} // RVA: 0x7FFAFA306F80
+        public void WriteUInt16(){} // RVA: 0x7FFAFA3070E0
+        public void WriteUInt32(){} // RVA: 0x7FFAFA307360
+        public void WriteUInt64(){} // RVA: 0x7FFAFA3075E0
+        public void FlushToStream(){} // RVA: 0x7FFAF2D8D310
+        public void GetDataDump(){} // RVA: 0x7FFAFA307860
     }
 
-    public class StringSerializer : Serializer`1
+    public class SerializationPolicies
     {
+        public object CacheDir;
+        public object FreeDiskSpaceBytes;
+
         // ── Methods ──
-        public void ReadValue(){} // RVA: 0x7FFE883BF2C0
-        public void WriteValue(){} // RVA: 0x7FFE883C0090
-        public void .ctor(){} // RVA: 0x7FFE883C0120
+        public void TryGetByID(){} // RVA: 0x7FFAFA3222A0
+        public void get_Everything(){} // RVA: 0x7FFAFA322520
+        public void get_Unity(){} // RVA: 0x7FFAFA322900
+        public void get_Strict(){} // RVA: 0x7FFAFA322E20
+        public void .cctor(){} // RVA: 0x7FFAFA323200
     }
 
-    public class StrongBoxFormatter`1 : BaseFormatter`1
+    public class SerializationUtility
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE80E46010
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
-        public void GetUninitializedObject(){} // RVA: 0x7FFE80E2E2E0
-        public void DeserializeImplementation(){} // RVA: 0x7FFE80E4F230
-        public void SerializeImplementation(){} // RVA: 0x7FFE80E4F230
+        public void CreateWriter(){} // RVA: 0x7FFAFA323B00
+        public void CreateReader(){} // RVA: 0x7FFAFA323D00
+        public void GetCachedWriter(){} // RVA: 0x7FFAFA323EF0
+        public void GetCachedReader(){} // RVA: 0x7FFAFA324290
+        public void SerializeValueWeak(){} // RVA: 0x7FFAFA3251F0 | overloaded x6
+        public void SerializeValue(){} // RVA: 0x7FFAF2D33FA0 | overloaded x6
+        public void DeserializeValueWeak(){} // RVA: 0x7FFAFA325E10 | overloaded x6
+        public void DeserializeValue(){} // RVA: 0x7FFAF2D33FA0 | overloaded x6
+        public void CreateCopy(){} // RVA: 0x7FFAFA325F40
+    }
+
+    public class SerializedBehaviour
+    {
+        // ── Methods ──
+        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.get_SerializationData(){} // RVA: 0x7FFAF60C7550
+        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.set_SerializationData(){} // RVA: 0x7FFAFA342340
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFAFA3423B0
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFAFA342430
+        public void OnAfterDeserialize(){} // RVA: 0x7FFAF2D8D310
+        public void OnBeforeSerialize(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+    }
+
+    public class SerializedComponent
+    {
+        // ── Methods ──
+        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.get_SerializationData(){} // RVA: 0x7FFAF60C7550
+        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.set_SerializationData(){} // RVA: 0x7FFAFA342340
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFAFA3424B0
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFAFA342530
+        public void OnAfterDeserialize(){} // RVA: 0x7FFAF2D8D310
+        public void OnBeforeSerialize(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+    }
+
+    public class SerializedMonoBehaviour
+    {
+        // ── Methods ──
+        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.get_SerializationData(){} // RVA: 0x7FFAF7B7E740
+        public void VRC.Udon.Serialization.OdinSerializer.ISupportsPrefabSerialization.set_SerializationData(){} // RVA: 0x7FFAFA3425B0
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFAFA342620
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFAFA3426A0
+        public void OnAfterDeserialize(){} // RVA: 0x7FFAF2D8D310
+        public void OnBeforeSerialize(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+    }
+
+    public class SerializedScriptableObject
+    {
+        // ── Methods ──
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFAFA342720
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFAFA3427A0
+        public void OnAfterDeserialize(){} // RVA: 0x7FFAF2D8D310
+        public void OnBeforeSerialize(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
+    }
+
+    public class SerializedStateMachineBehaviour
+    {
+        // ── Methods ──
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFAFA342820
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFAFA3428A0
+        public void OnAfterDeserialize(){} // RVA: 0x7FFAF2D8D310
+        public void OnBeforeSerialize(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
+    }
+
+    public class SerializedUnityObject
+    {
+        // ── Methods ──
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7FFAFA342920
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7FFAFA3429A0
+        public void OnAfterDeserialize(){} // RVA: 0x7FFAF2D8D310
+        public void OnBeforeSerialize(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAFA342A20
+    }
+
+    public class Serializer
+    {
+        // ── Methods ──
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void GetForValue(){} // RVA: 0x7FFAFA32F780
+        public void Get(){} // RVA: 0x7FFAFA32F8D0 | overloaded x3
+        public void ReadValueWeak(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void Create(){} // RVA: 0x7FFAFA32FC10
+        public void LogAOTError(){} // RVA: 0x7FFAFA3300D0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFA330270
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABF890
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABF940
+        public void ReadValue(){} // RVA: 0x7FFAF2D13BC0
+        public void WriteValue(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABFC00
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF2ADF090
+        public void ReadValue(){} // RVA: 0x7FFAF2D33FA0
+        public void WriteValue(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2AD4A80
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABF890
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABF940
+        public void ReadValue(){} // RVA: 0x7FFAF2D13BC0
+        public void WriteValue(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABFC00
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABC4D0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC510
+        public void ReadValue(){} // RVA: 0x7FFAF2ABDE40
+        public void WriteValue(){} // RVA: 0x7FFAF2ADAD00 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABC5F0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABBFE0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC020
+        public void ReadValue(){}
+        public void WriteValue(){} // RVA: 0x7FFAF6ABC0D0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABF680
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABBC50
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABBCA0
+        public void ReadValue(){}
+        public void WriteValue(){} // RVA: 0x7FFAF6ABBD50 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABDB10
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABC6E0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC720
+        public void ReadValue(){} // RVA: 0x7FFAF2AC34B0
+        public void WriteValue(){} // RVA: 0x7FFAF6ABC7D0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABF590
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABBC50
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABBCA0
+        public void ReadValue(){}
+        public void WriteValue(){} // RVA: 0x7FFAF6ABBD50 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABD480
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABC6E0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC720
+        public void ReadValue(){} // RVA: 0x7FFAF2AC34B0
+        public void WriteValue(){} // RVA: 0x7FFAF6ABC7D0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABE150
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABBFE0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC020
+        public void ReadValue(){}
+        public void WriteValue(){} // RVA: 0x7FFAF2ADD990 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABE240
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEE60
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEEB0
+        public void ReadValue(){} // RVA: 0x7FFAF2AD1FA0
+        public void WriteValue(){} // RVA: 0x7FFAF2AE1A10 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEF60
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABC4D0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC510
+        public void ReadValue(){} // RVA: 0x7FFAF2ABDE40
+        public void WriteValue(){} // RVA: 0x7FFAF6ABC5C0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEE10
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABC4D0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC510
+        public void ReadValue(){} // RVA: 0x7FFAF2ABDE40
+        public void WriteValue(){} // RVA: 0x7FFAF2ADAD00 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABC690
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABD680
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABD6D0
+        public void ReadValue(){} // RVA: 0x7FFAF2AC2DE0
+        public void WriteValue(){} // RVA: 0x7FFAF6ABD780 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABD7B0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABBFE0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC020
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF6ABC0D0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABE1F0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABC6E0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC720
+        public void ReadValue(){} // RVA: 0x7FFAF2AC34B0
+        public void WriteValue(){} // RVA: 0x7FFAF6ABC7D0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABC800
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABC8F0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC930
+        public void ReadValue(){} // RVA: 0x7FFAF2AC2590
+        public void WriteValue(){} // RVA: 0x7FFAF2ADC800 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABE1A0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABC8F0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC930
+        public void ReadValue(){} // RVA: 0x7FFAF2AC2590
+        public void WriteValue(){} // RVA: 0x7FFAF6ABC9E0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABF5E0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABBFE0
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABC020
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF6ABC0D0 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABF630
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABBE30
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABBE90
+        public void ReadValue(){}
+        public void WriteValue(){} // RVA: 0x7FFAF6ABBF50 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABBF90
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class Serializer`1
+    {
+        // ── Methods ──
+        public void ReadValueWeak(){} // RVA: 0x7FFAF6ABEA10
+        public void WriteValueWeak(){} // RVA: 0x7FFAF6ABEA30
+        public void ReadValue(){} // RVA: 0x7FFAF2ABCE10
+        public void WriteValue(){} // RVA: 0x7FFAF2ADF090 | overloaded x2
+        public void FireOnSerializedType(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF6ABEAF0
+    }
+
+    public class SingleSerializer
+    {
+        // ── Methods ──
+        public void ReadValue(){} // RVA: 0x7FFAFA331770
+        public void WriteValue(){} // RVA: 0x7FFAFA332520
+        public void .ctor(){} // RVA: 0x7FFAFA332590
+    }
+
+    public class StackFormatter`2
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF2D33FA0
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+        public void SerializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+    }
+
+    public class StringSerializer
+    {
+        // ── Methods ──
+        public void ReadValue(){} // RVA: 0x7FFAFA332600
+        public void WriteValue(){} // RVA: 0x7FFAFA3333D0
+        public void .ctor(){} // RVA: 0x7FFAFA333460
+    }
+
+    public class StrongBoxFormatter`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF2ABCD60
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+        public void SerializeImplementation(){} // RVA: 0x7FFAF2ADDC60
+    }
+
+    public class StrongBoxFormatter`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF6B4E3F0
+        public void .ctor(){} // RVA: 0x7FFAF590ED40
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF6B43700
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF6B4E580
+        public void SerializeImplementation(){} // RVA: 0x7FFAF6B4E680
+    }
+
+    public class StrongBoxFormatter`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF6B49E20
+        public void .ctor(){} // RVA: 0x7FFAF590ED40
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF6B43700
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF6B458F0
+        public void SerializeImplementation(){} // RVA: 0x7FFAF6B49FB0
+    }
+
+    public class StrongBoxFormatter`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7FFAF6B4E3F0
+        public void .ctor(){} // RVA: 0x7FFAF590ED40
+        public void GetUninitializedObject(){} // RVA: 0x7FFAF6B43700
+        public void DeserializeImplementation(){} // RVA: 0x7FFAF6B4E580
+        public void SerializeImplementation(){} // RVA: 0x7FFAF6B4E680
     }
 
 }

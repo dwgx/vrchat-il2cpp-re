@@ -1,0 +1,89 @@
+[
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_1A7B",
+    "parent": "",
+    "known_methods": [
+      "Start",
+      "OnDestroy",
+      "Initialize",
+      "m",
+      "Dispose",
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E05",
+      "m_E17",
+      "m_47A",
+      "m_A7A",
+      "m_011",
+      "m_0BC",
+      "m_68E",
+      "m_DBA",
+      "m_895",
+      "m_96E",
+      "m_32A",
+      "m_B90",
+      "m_7C1",
+      "m_DD6",
+      "m_5C4",
+      "m_C77",
+      "m_ADD",
+      "m_1C2"
+    ],
+    "all_method_count": 24
+  },
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_018B",
+    "parent": "",
+    "known_methods": [
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1DC",
+      "m_222",
+      "m_A89",
+      "m_ECD",
+      "m_A3D",
+      "m_DCC",
+      "m_057",
+      "m_4AC",
+      "m_115",
+      "m_42C",
+      "m_641",
+      "m_326",
+      "m_A4E",
+      "m_AB3",
+      "m_E55",
+      "m_DEF",
+      "m_E4C",
+      "m_56E"
+    ],
+    "all_method_count": 18
+  },
+  {
+    "namespace": "",
+    "class": "VRCPlayerSibling_01A2",
+    "parent": "",
+    "known_methods": [
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_280",
+      "m_BB7",
+      "m_5EF",
+      "m_800",
+      "m_C7F",
+      "m_ECA",
+      "m_07C",
+      "m_F24",
+      "m_6B3",
+      "m_EC7"
+    ],
+    "all_method_count": 10
+  }
+]

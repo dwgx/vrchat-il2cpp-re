@@ -5,82 +5,80 @@
 
 namespace ThirdParty.Other.UnityStandardAssets.Cameras
 {
-    public class AbstractTargetFollower : MonoBehaviour
+    public class AbstractTargetFollower
     {
-        public UnityEngine.Transform m_Target; // 0x20
-
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFE81131E20
-        public void FixedUpdate(){} // RVA: 0x7FFE811321E0
-        public void LateUpdate(){} // RVA: 0x7FFE811323D0
-        public void ManualUpdate(){} // RVA: 0x7FFE811325C0
-        public void FollowTarget(){} // RVA: 0x7FFE80E53B80
-        public void FindAndTargetPlayer(){} // RVA: 0x7FFE811327B0
-        public void SetTarget(){} // RVA: 0x7FFE811290D0
-        public void get_Target(){} // RVA: 0x7FFE811290C0
-        public void .ctor(){} // RVA: 0x7FFE81132BB0
+        public void Start(){} // RVA: 0x7FFAF2DC3E20
+        public void FixedUpdate(){} // RVA: 0x7FFAF2DC41E0
+        public void LateUpdate(){} // RVA: 0x7FFAF2DC43D0
+        public void ManualUpdate(){} // RVA: 0x7FFAF2DC45C0
+        public void FollowTarget(){} // RVA: 0x7FFAF2AE25B0
+        public void FindAndTargetPlayer(){} // RVA: 0x7FFAF2DC47B0
+        public void SetTarget(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_Target(){} // RVA: 0x7FFAF2DBB0C0
+        public void .ctor(){} // RVA: 0x7FFAF2DC4BB0
     }
 
-    public class AutoCam : PivotBasedCameraRig
+    public class AutoCam
     {
         // ── Methods ──
-        public void FollowTarget(){} // RVA: 0x7FFE81132D80
-        public void .ctor(){} // RVA: 0x7FFE81133850
+        public void FollowTarget(){} // RVA: 0x7FFAF2DC4D80
+        public void .ctor(){} // RVA: 0x7FFAF2DC5850
     }
 
-    public class FreeLookCam : PivotBasedCameraRig
+    public class FreeLookCam
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFE81133920
-        public void Update(){} // RVA: 0x7FFE81133BD0
-        public void OnDisable(){} // RVA: 0x7FFE81133CD0
-        public void FollowTarget(){} // RVA: 0x7FFE81133D60
-        public void HandleRotationMovement(){} // RVA: 0x7FFE81134070
-        public void .ctor(){} // RVA: 0x7FFE81134870
+        public void Awake(){} // RVA: 0x7FFAF2DC5920
+        public void Update(){} // RVA: 0x7FFAF2DC5BD0
+        public void OnDisable(){} // RVA: 0x7FFAF2DC5CD0
+        public void FollowTarget(){} // RVA: 0x7FFAF2DC5D60
+        public void HandleRotationMovement(){} // RVA: 0x7FFAF2DC6070
+        public void .ctor(){} // RVA: 0x7FFAF2DC6870
     }
 
-    public class HandHeldCam : LookatTarget
+    public class HandHeldCam
     {
         // ── Methods ──
-        public void FollowTarget(){} // RVA: 0x7FFE811348E0
-        public void .ctor(){} // RVA: 0x7FFE81134C80
+        public void FollowTarget(){} // RVA: 0x7FFAF2DC68E0
+        public void .ctor(){} // RVA: 0x7FFAF2DC6C80
     }
 
-    public class LookatTarget : AbstractTargetFollower
+    public class LookatTarget
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFE81134CF0
-        public void FollowTarget(){} // RVA: 0x7FFE81134DC0
-        public void .ctor(){} // RVA: 0x7FFE81135830
+        public void Start(){} // RVA: 0x7FFAF2DC6CF0
+        public void FollowTarget(){} // RVA: 0x7FFAF2DC6DC0
+        public void .ctor(){} // RVA: 0x7FFAF2DC7830
     }
 
-    public class PivotBasedCameraRig : AbstractTargetFollower
+    public class PivotBasedCameraRig
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFE81135880
-        public void .ctor(){} // RVA: 0x7FFE81132BB0
+        public void Awake(){} // RVA: 0x7FFAF2DC7880
+        public void .ctor(){} // RVA: 0x7FFAF2DC4BB0
     }
 
-    public class ProtectCameraFromWallClip : MonoBehaviour
+    public class ProtectCameraFromWallClip
     {
-        public float clipMoveTime; // 0x20
+        public object _protecting;
 
         // ── Methods ──
-        public void get_protecting(){} // RVA: 0x7FFE81131C20
-        public void set_protecting(){} // RVA: 0x7FFE81135AC0
-        public void Start(){} // RVA: 0x7FFE81135AD0
-        public void LateUpdate(){} // RVA: 0x7FFE81135D80
-        public void .ctor(){} // RVA: 0x7FFE81136910
+        public void get_protecting(){} // RVA: 0x7FFAF2DC3C20
+        public void set_protecting(){} // RVA: 0x7FFAF2DC7AC0
+        public void Start(){} // RVA: 0x7FFAF2DC7AD0
+        public void LateUpdate(){} // RVA: 0x7FFAF2DC7D80
+        public void .ctor(){} // RVA: 0x7FFAF2DC8910
     }
 
-    public class TargetFieldOfView : AbstractTargetFollower
+    public class TargetFieldOfView
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFE81136AF0
-        public void FollowTarget(){} // RVA: 0x7FFE81136BA0
-        public void SetTarget(){} // RVA: 0x7FFE81136E60
-        public void MaxBoundsExtent(){} // RVA: 0x7FFE81136ED0
-        public void .ctor(){} // RVA: 0x7FFE811371F0
+        public void Start(){} // RVA: 0x7FFAF2DC8AF0
+        public void FollowTarget(){} // RVA: 0x7FFAF2DC8BA0
+        public void SetTarget(){} // RVA: 0x7FFAF2DC8E60
+        public void MaxBoundsExtent(){} // RVA: 0x7FFAF2DC8ED0
+        public void .ctor(){} // RVA: 0x7FFAF2DC91F0
     }
 
 }

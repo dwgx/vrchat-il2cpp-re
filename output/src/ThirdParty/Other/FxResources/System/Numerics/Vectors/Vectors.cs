@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.FxResources.System.Numerics.Vectors
 {
-    public class SR : Object
+    public class SR
     {
     }
 

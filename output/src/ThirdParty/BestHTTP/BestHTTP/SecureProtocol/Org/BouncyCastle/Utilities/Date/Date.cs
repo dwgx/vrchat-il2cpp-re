@@ -5,24 +5,22 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Date
 {
-    public class DateTimeObject : Object
+    public class DateTimeObject
     {
-        public System.DateTime dt; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE826F2ED0
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void ToString(){} // RVA: 0x7FFE8A149610
+        public void .ctor(){} // RVA: 0x7FFAF4417700
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void ToString(){} // RVA: 0x7FFAFC197230
     }
 
-    public class DateTimeUtilities : Object
+    public class DateTimeUtilities
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void DateTimeToUnixMs(){} // RVA: 0x7FFE8A1496A0
-        public void UnixMsToDateTime(){} // RVA: 0x7FFE8A1498C0
-        public void CurrentUnixMs(){} // RVA: 0x7FFE8A149A00
-        public void .cctor(){} // RVA: 0x7FFE8A149A80
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void DateTimeToUnixMs(){} // RVA: 0x7FFAFC1972C0
+        public void UnixMsToDateTime(){} // RVA: 0x7FFAFC1974E0
+        public void CurrentUnixMs(){} // RVA: 0x7FFAFC197620
+        public void .cctor(){} // RVA: 0x7FFAFC1976A0
     }
 
 }

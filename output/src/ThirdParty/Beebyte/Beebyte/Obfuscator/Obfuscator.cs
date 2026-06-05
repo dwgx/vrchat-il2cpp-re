@@ -5,47 +5,47 @@
 
 namespace ThirdParty.Beebyte.Beebyte.Obfuscator
 {
-    public class DoNotFakeAttribute : Attribute
+    public class DoNotFakeAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ObfuscateLiteralsAttribute : Attribute
+    public class ObfuscateLiteralsAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class RenameAttribute : Attribute
+    public class RenameAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
-        public void GetTarget(){} // RVA: 0x7FFE81116380
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
+        public void GetTarget(){} // RVA: 0x7FFAF2DA8380
     }
 
-    public class ReplaceLiteralsWithNameAttribute : Attribute
+    public class ReplaceLiteralsWithNameAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SkipAttribute : Attribute
+    public class SkipAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SkipRenameAttribute : Attribute
+    public class SkipRenameAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SuppressLogAttribute : Attribute
+    public class SuppressLogAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FE0C0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D900C0 | overloaded x2
     }
 
 }
