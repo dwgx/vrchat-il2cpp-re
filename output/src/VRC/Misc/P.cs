@@ -199,16 +199,16 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void SetSizeDelta(){} // RVA: 0x7FFAF3B7C860
+        public void SetSizeDelta_214045A6C8B4(){} // RVA: 0x7FFAF3B7CEE0
+        public void Constructor(){} // RVA: 0x7FFAF3B7DB60
         public void LateUpdate(){} // RVA: 0x7FFAF3B7E1E0
         public void .ctor(){} // RVA: 0x7FFAF3B7E860
         public void Initialize(){} // RVA: 0x7FFAF3B7E8E0
         public void GetChild(){} // RVA: 0x7FFAF3B7EEE0
+        public void GetChild_852E3599EAE7(){} // RVA: 0x7FFAF3B7FBE0
         // ── Unresolved (hash) ──
-        public void m_214(){} // RVA: 0x7FFAF3B7CEE0
         public void m_EBF(){} // RVA: 0x7FFAF3B7D4E0
-        public void m_A45(){} // RVA: 0x7FFAF3B7DB60
         public void m_EB5(){} // RVA: 0x7FFAF3B7F560
-        public void m_852(){} // RVA: 0x7FFAF3B7FBE0
     }
 
     /// <summary>Originally: ÏÎÎÎÍÎÎÌÏÎÎÌÎÍÌÎÍÍÏÍÌÍÌ</summary>

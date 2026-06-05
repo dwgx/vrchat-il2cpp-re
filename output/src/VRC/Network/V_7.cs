@@ -967,17 +967,16 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_DF4B
     {
         // ── Methods ──
+        public void GetNames(){} // RVA: 0x7FFAF4A60D10
+        public void GetTypeArguments(){} // RVA: 0x7FFAF4A60D60
+        public void GetModifiers(){} // RVA: 0x7FFAF4A60E80
         public void CreateCouldNotLoadTypeException(){} // RVA: 0x7FFAF4A60FA0
         public void CreateCouldNotLoadTypeException_C0175E97133A(){} // RVA: 0x7FFAF4A60FF0
         public void Dispose(){} // RVA: 0x7FFAF4A61110
         public void Cleanup(){} // RVA: 0x7FFAF4A61160
         public void CreateCouldNotLoadTypeException_2F048217F2F1(){} // RVA: 0x7FFAF4A611B0
         public void CreateWindowsRuntimeTypeNotFoundException(){} // RVA: 0x7FFAF4A61200
-        // ── Unresolved (hash) ──
-        public void m_C31(){} // RVA: 0x7FFAF4A60D10
-        public void m_6C6(){} // RVA: 0x7FFAF4A60D60
-        public void m_937(){} // RVA: 0x7FFAF4A60E80
-        public void m_24F(){} // RVA: 0x7FFAF4A61320
+        public void GetAssemblyName(){} // RVA: 0x7FFAF4A61320
     }
 
     /// <summary>Originally: ÍÍÏÍÌÍÏÍÍÏÎÎÎÍÏÏÍÏÍÍÏÌÎ</summary>

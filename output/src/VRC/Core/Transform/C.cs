@@ -315,6 +315,7 @@ namespace VRC.Core.Transform
         public void InitializeProcessHeap(){} // RVA: 0x7FFAF4B1ADB0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF4B1AF00
+        public void Mbrtoc16(){} // RVA: 0x7FFAF4B1B050
         public void GetStringTypeW(){} // RVA: 0x7FFAF4B1B150
         public void CompareWideStringsIgnoreCase(){} // RVA: 0x7FFAF4B1B250
         public void StringNCompareIgnoreCase(){} // RVA: 0x7FFAF4B1B3A0
@@ -326,9 +327,7 @@ namespace VRC.Core.Transform
         public void WriteConsoleWideWithRetry(){} // RVA: 0x7FFAF4B1BAF0
         public void C16rtomb(){} // RVA: 0x7FFAF4B1BBF0
         public void SetFloatingPointEnvironment(){} // RVA: 0x7FFAF4B1BD40
-        // ── Unresolved (hash) ──
-        public void m_304(){} // RVA: 0x7FFAF4B1B050
-        public void m_0ED(){} // RVA: 0x7FFAF4B1BE90
+        public void C32rtomb(){} // RVA: 0x7FFAF4B1BE90
     }
 
     /// <summary>Originally: ÎÌÎÌÏÍÏÍÌÎÎÎÍÌÌÍÌÎÏÏÏÍÎ</summary>

@@ -567,18 +567,22 @@ namespace VRC.UI
     {
         // ── Methods ──
         public void SetLocalScale(){} // RVA: 0x7FFAF37BC380
+        public void OnPointerDown(){} // RVA: 0x7FFAF37BC700
+        public void OnPointerUp(){} // RVA: 0x7FFAF37BC890
         public void Awake(){} // RVA: 0x7FFAF37BC8B0
         public void OnDestroy(){} // RVA: 0x7FFAF37BC8E0
         public void .ctor(){} // RVA: 0x7FFAF37BCF00
         public void Initialize(){} // RVA: 0x7FFAF37BD0E0
         public void ReadRotationProperties(){} // RVA: 0x7FFAF37BDE60
-        // ── 22 unresolved (hash) ──
-        public void m_732(){} // RVA: 0x7FFAF37BC700
-        public void m_58D(){} // RVA: 0x7FFAF37BC890
+        public void OnPointerDown_8D6A1D68E2A2(){} // RVA: 0x7FFAF37BE460
+        public void OnPointerUp_641FCDACDB88(){} // RVA: 0x7FFAF2E0A740
+        // ── 18 unresolved (hash) ──
         public void m_0F4(){} // RVA: 0x7FFAF37BCAA0
         public void m_17D(){} // RVA: 0x7FFAF37BCCB0
         public void m_461(){} // RVA: 0x7FFAF37BCEC0
-        // ... 17 more unresolved methods
+        public void m_19F(){} // RVA: 0x7FFAF37BCEE0
+        public void m_17A(){} // RVA: 0x7FFAF37BD8D0
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÍÏÎÌÌÏÎÎÎÎÍÌÏÎÍÎÎÏÎÎÍ</summary>
@@ -850,14 +854,15 @@ namespace VRC.UI
         public void LastIndexOf_5D5A59159606(){} // RVA: 0x7FFAF336BCA0
         public void OnDestroy(){} // RVA: 0x7FFAF336BE50
         public void IndexOf_8732142FA168(){} // RVA: 0x7FFAF336C0E0
+        public void RectTransform(){} // RVA: 0x7FFAF336D040
         public void IndexOf_2A81C8EA9ECB(){} // RVA: 0x7FFAF336D190
-        // ── 40 unresolved (hash) ──
+        // ── 39 unresolved (hash) ──
         public void m_7AC(){} // RVA: 0x7FFAF3363270
         public void m_B89(){} // RVA: 0x7FFAF33634C0
         public void m_E9B(){} // RVA: 0x7FFAF3363700
         public void m_EFA(){} // RVA: 0x7FFAF3363910
         public void m_93B(){} // RVA: 0x7FFAF3363B10
-        // ... 35 more unresolved methods
+        // ... 34 more unresolved methods
     }
 
     /// <summary>Originally: ÍÌÏÌÌÏÎÎÌÎÎÍÎÏÏÌÌÍÎÎÏÌÏ</summary>
@@ -902,13 +907,12 @@ namespace VRC.UI
         public void Internal_CancelInvokeAll(){} // RVA: 0x7FFAFBA05C50
         public void Internal_IsInvokingAll(){} // RVA: 0x7FFAF2D8D310
         public void InvokeDelayed(){} // RVA: 0x7FFAFBA05D90
+        public void OnPointerEnter_37E1A6C0EFB1(){} // RVA: 0x7FFAFBA05EA0
         public void OnPointerEnter(){} // RVA: 0x7FFAFBA06040
         public void Initialize(){} // RVA: 0x7FFAF2E2B370
         public void Start_CC215F6B2146(){} // RVA: 0x7FFAFBA063E0
         public void .ctor(){} // RVA: 0x7FFAFBA06C60
         public void OnPointerExit(){} // RVA: 0x7FFAFBA06DA0
-        // ── Unresolved (hash) ──
-        public void m_37E(){} // RVA: 0x7FFAFBA05EA0
     }
 
     /// <summary>Originally: ÍÎÍÎÏÌÌÏÌÌÏÎÍÎÍÎÎÍÏÌÌÏÍ</summary>

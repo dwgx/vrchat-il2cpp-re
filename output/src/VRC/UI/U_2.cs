@@ -842,13 +842,13 @@ namespace VRC.UI
     public class UIRectTransformDimensionsChBefSibling_96A1
     {
         // ── Methods ──
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAFBDF80F0
         public void UpdateVisuals(){} // RVA: 0x7FFAFBDF8730
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7FFAFBDF89E0
+        public void OnTransformSiblingIndexChanged(){} // RVA: 0x7FFAF2D8D310
         public void .ctor(){} // RVA: 0x7FFAFBDF9AF0
         public void Initialize(){} // RVA: 0x7FFAFBDF9B30
         // ── Unresolved (hash) ──
-        public void m_65A(){} // RVA: 0x7FFAFBDF80F0
-        public void m_28B(){} // RVA: 0x7FFAFBDF89E0
-        public void m_79E(){} // RVA: 0x7FFAF2D8D310
         public void m_383(){} // RVA: 0x7FFAFBDF8C90
         public void m_1F2(){} // RVA: 0x7FFAFBDF8F40
         public void m_033(){} // RVA: 0x7FFAFBDF91F0
@@ -1077,9 +1077,25 @@ namespace VRC.UI
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF7A74BC0
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF79F5000
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF79F5020
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A756E0
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A75740
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A75B70
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A75FA0 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A766C0
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1089,22 +1105,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A76DD0
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF7A749C0
         public void m_104(){} // RVA: 0x7FFAF7A74B50
-        public void m_DC6(){} // RVA: 0x7FFAF7A74BC0
         public void m_305(){} // RVA: 0x7FFAF7A74C30
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF7A74D10
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF7A3DBB0
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF79F5000
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF79F5020
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A3E6D0
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A3E730
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A3EB60
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A3EF90 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A3F6B0
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1114,22 +1146,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A3FDC0
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF7A3D9B0
         public void m_104(){} // RVA: 0x7FFAF7A3DB40
-        public void m_DC6(){} // RVA: 0x7FFAF7A3DBB0
         public void m_305(){} // RVA: 0x7FFAF7A3DC20
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF7A3DD00
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF7A02800
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF3116F30
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF7A02960
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A03700
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A03760
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A03BD0
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A04000 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A04740
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1139,22 +1187,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A04E50
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF7A02520
         public void m_104(){} // RVA: 0x7FFAF7A02750
-        public void m_DC6(){} // RVA: 0x7FFAF7A02800
         public void m_305(){} // RVA: 0x7FFAF7A028B0
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF7A02A90
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF7A89C20
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF69EED10
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF7A07EE0
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A8A6C0
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A8A720
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A8AB40
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A8AF70 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A8B680
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1164,22 +1228,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A8BD90
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF7A89A40
         public void m_104(){} // RVA: 0x7FFAF7A89BB0
-        public void m_DC6(){} // RVA: 0x7FFAF7A89C20
         public void m_305(){} // RVA: 0x7FFAF7A89C80
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF7A89D50
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF7A7F080
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF79FD310
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF79FD330
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A7FBE0
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A7FC40
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A80080
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A804B0 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A80BE0
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1189,22 +1269,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A812F0
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF7A7EE50
         public void m_104(){} // RVA: 0x7FFAF7A7F000
-        public void m_DC6(){} // RVA: 0x7FFAF7A7F080
         public void m_305(){} // RVA: 0x7FFAF7A7F0F0
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF7A7F1E0
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF7A07DF0
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF69EED10
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF7A07EE0
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A088F0
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A08950
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A08D70
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A091A0 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A098B0
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1214,22 +1310,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A09FC0
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF7A07C10
         public void m_104(){} // RVA: 0x7FFAF7A07D80
-        public void m_DC6(){} // RVA: 0x7FFAF7A07DF0
         public void m_305(){} // RVA: 0x7FFAF7A07E50
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF7A07F80
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF79FAA20
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF2FC9240
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF79FAAF0
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF79FB3C0
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF79FB420
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF79FB820
+        public void StartCoroutine(){} // RVA: 0x7FFAF79FBC50 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF79FC340
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1239,22 +1351,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF79FCA50
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF79FA890
         public void m_104(){} // RVA: 0x7FFAF79FA9E0
-        public void m_DC6(){} // RVA: 0x7FFAF79FAA20
         public void m_305(){} // RVA: 0x7FFAF79FAA70
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF79FAB50
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF7A4DBA0
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF7A4DD10
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF7A4DD40
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A4EA10
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A4EA70
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A4EED0
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A4F300 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A4FA30
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1264,22 +1392,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A50140
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF7A4D8F0
         public void m_104(){} // RVA: 0x7FFAF7A4DB00
-        public void m_DC6(){} // RVA: 0x7FFAF7A4DBA0
         public void m_305(){} // RVA: 0x7FFAF7A4DC40
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF7A4DE50
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF79FFCB0
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF79FFDC0
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF79FFDE0
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A00890
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A008F0
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A00D30
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A01160 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A01890
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1289,22 +1433,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A01FA0
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF79FFA80
         public void m_104(){} // RVA: 0x7FFAF79FFC30
-        public void m_DC6(){} // RVA: 0x7FFAF79FFCB0
         public void m_305(){} // RVA: 0x7FFAF79FFD20
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF79FFEA0
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF7A77580
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF79FFDC0
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF79FFDE0
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A780D0
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A78130
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A78570
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A789A0 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A790D0
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1314,22 +1474,38 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A797E0
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF7A77350
         public void m_104(){} // RVA: 0x7FFAF7A77500
-        public void m_DC6(){} // RVA: 0x7FFAF7A77580
         public void m_305(){} // RVA: 0x7FFAF7A775F0
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF7A776E0
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
     public class UIRectTransformDimensionsChBeforeTransform_B70F
     {
         // ── Methods ──
+        public void IsActive_DC618AA5A9A7(){} // RVA: 0x7FFAF7A843B0
+        public void OnBeforeTransformParentChanged_93BBF7ED98B6(){} // RVA: 0x7FFAF7A84570
+        public void OnTransformParentChanged_78C600E24E3A(){} // RVA: 0x7FFAF7A84590
+        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0x7FFAF3546D30
+        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x7FFAF2E0E8A0
+        public void OnBeforeTransformParentChanged_65AC8D0309DA(){} // RVA: 0x7FFAF2D8D310
+        public void OnTransformParentChanged_8EA5739E65FD(){} // RVA: 0x7FFAF7A85640
+        public void OnDidApplyAnimationProperties_25AEDA6E2BAA(){} // RVA: 0x7FFAF7A856A0
+        public void OnCanvasGroupChanged_79EBC1CAF595(){} // RVA: 0x7FFAF2AD4A50
+        public void GetTag(){} // RVA: 0x7FFAF7A85B20
+        public void StartCoroutine(){} // RVA: 0x7FFAF7A85F50 | overloaded x3
+        public void StopCoroutine(){} // RVA: 0x7FFAF79F3A90 | overloaded x3
+        public void StopAllCoroutines(){} // RVA: 0x7FFAF2D33FA0
+        public void IsActive_036EEFB89F47(){} // RVA: 0x7FFAF2D33FA0
+        public void OnBeforeTransformParentChanged_F60C98923477(){} // RVA: 0x7FFAF2D33FA0
         public void OnEnable(){} // RVA: 0x7FFAF79F6A80
         public void OnDisable(){} // RVA: 0x7FFAF79F6AD0
         public void OnDestroy(){} // RVA: 0x7FFAF7A866B0
+        public void OnDidApplyAnimationProperties_7F2B4FF6EEFB(){} // RVA: 0x7FFAF2ABCD60
         public void Start(){} // RVA: 0x7FFAF79F46F0
         public void IsActive(){} // RVA: 0x7FFAF79F4710
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF79F46F0
@@ -1339,13 +1515,13 @@ namespace VRC.UI
         public void OnCanvasGroupChanged(){} // RVA: 0x7FFAF79F46F0
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF79F46F0
         public void .ctor(){} // RVA: 0x7FFAF7A86DC0
-        // ── 35 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_080(){} // RVA: 0x7FFAF79F1B50
         public void m_193(){} // RVA: 0x7FFAF7A84060
         public void m_104(){} // RVA: 0x7FFAF7A842D0
-        public void m_DC6(){} // RVA: 0x7FFAF7A843B0
         public void m_305(){} // RVA: 0x7FFAF7A84490
-        // ... 30 more unresolved methods
+        public void m_5A2(){} // RVA: 0x7FFAF7A84720
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÌÍÌÏÍÏÏÎÏÍÎÌÍÌÍÎÍÏÏÍÌ</summary>
@@ -1375,13 +1551,18 @@ namespace VRC.UI
         public void .ctor(){} // RVA: 0x7FFAFBE0BBD0
         public void Initialize(){} // RVA: 0x7FFAFBE0BD90
         public void GetLocalScale_15FFA56523D1(){} // RVA: 0x7FFAFBE0BBA0
-        // ── 11 unresolved (hash) ──
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAF2D8D310
+        // ── Unresolved (hash) ──
         public void m_42F(){} // RVA: 0x7FFAFBE0A540
         public void m_496(){} // RVA: 0x7FFAFBE0A620
         public void m_4AD(){} // RVA: 0x7FFAFBE0B7C0
         public void m_56F(){} // RVA: 0x7FFAFBE0B8A0
         public void m_05C(){} // RVA: 0x7FFAFBE0BAC0
-        // ... 6 more unresolved methods
+        public void m_712(){} // RVA: 0x7FFAFBE0BDE0
+        public void m_ED9(){} // RVA: 0x7FFAFBE0BEA0
+        public void m_10F(){} // RVA: 0x7FFAFBE0BEF0
+        public void m_DDD(){} // RVA: 0x7FFAFBE0BF40
+        public void m_8F1(){} // RVA: 0x7FFAFBE0C090
     }
 
     /// <summary>Originally: ÎÎÎÍÍÏÍÏÏÌÌÏÌÌÌÏÎÏÍÎÏÍÏ</summary>

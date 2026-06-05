@@ -687,14 +687,20 @@ namespace VRC.Misc
         // ── Methods ──
         public void ProcessGameObject(){} // RVA: 0x7FFAF3210030
         public void ReadCapsuleColliderState(){} // RVA: 0x7FFAF2D900C0
+        public void ReadSphereColliderState(){} // RVA: 0x7FFAF3ABA2F0
         public void ReadCapsuleColliderState_83ED42D85A22(){} // RVA: 0x7FFAF2D900C0
-        // ── 12 unresolved (hash) ──
+        public void ReadBoxColliderState(){} // RVA: 0x7FFAF4418950
+        // ── Unresolved (hash) ──
         public void m_288(){} // RVA: 0x7FFAF2D907C0
         public void m_1ED(){} // RVA: 0x7FFAF2DDA5C0
         public void m_7BC(){} // RVA: 0x7FFAF4584690
         public void m_B6A(){} // RVA: 0x7FFAF3ABA2F0
         public void m_886(){} // RVA: 0x7FFAF2DDA5C0
-        // ... 7 more unresolved methods
+        public void m_BF7(){} // RVA: 0x7FFAF44189C0
+        public void m_577(){} // RVA: 0x7FFAF2D907C0
+        public void m_207(){} // RVA: 0x7FFAF370BE60
+        public void m_37A(){} // RVA: 0x7FFAF370BE60
+        public void m_A28(){} // RVA: 0x7FFAF344E0D0
     }
 
     /// <summary>Originally: ÍÎÎÏÍÌÌÏÏÍÏÏÏÎÎÍÍÌÍÍÍÌÏ</summary>

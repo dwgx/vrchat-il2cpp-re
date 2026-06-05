@@ -1023,14 +1023,20 @@ namespace VRC.Rendering
         public void Constructor(){} // RVA: 0x7FFAFBC61E70
         public void Start(){} // RVA: 0x7FFAFBC62430
         public void Update(){} // RVA: 0x7FFAFBC623D0
+        public void Camera(){} // RVA: 0x7FFAFBC62E40
+        public void RenderModelName(){} // RVA: 0x7FFAFBC62F00
         public void .ctor(){} // RVA: 0x7FFAFBC62F70
-        // ── 12 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_18B(){} // RVA: 0x7FFAFBC62270
         public void m_3B0(){} // RVA: 0x7FFAFBC62330
         public void m_41F(){} // RVA: 0x7FFAFBC623D0
         public void m_41E(){} // RVA: 0x7FFAFBC62790
         public void m_AF5(){} // RVA: 0x7FFAFBC62940
-        // ... 7 more unresolved methods
+        public void m_6AE(){} // RVA: 0x7FFAFBC62A80
+        public void m_64A(){} // RVA: 0x7FFAFBC623D0
+        public void m_3F5(){} // RVA: 0x7FFAFBC62C30
+        public void m_E6A(){} // RVA: 0x7FFAFBC62CF0
+        public void m_AC7(){} // RVA: 0x7FFAFBC62D80
     }
 
     /// <summary>Originally: ÌÎÎÌÏÌÏÌÍÎÎÍÌÌÍÌÍÎÍÎÎÌÎ</summary>

@@ -823,13 +823,17 @@ namespace VRC.Misc
         public void CreateStringArrayFromBoundedOffsets(){} // RVA: 0x7FFAF4A47AA0
         public void CreateStringArrayFromOffsets_2A5DC1591900(){} // RVA: 0x7FFAF4A47B70
         public void CreateStringArrayFromTerminatedOffsets(){} // RVA: 0x7FFAF4A48540
-        // ── 25 unresolved (hash) ──
+        public void CreateStringArrayFromOffsets_12CDA4039E8E(){} // RVA: 0x7FFAF4A48E70
+        public void CreateStringArrayFromBoundedOffsets_05A7DC2E9AD7(){} // RVA: 0x7FFAF4A48F70
+        public void CreateStringArrayFromOffsets_A67869787648(){} // RVA: 0x7FFAF4A491C0
+        public void CreateStringArrayFromTerminatedOffsets_2C2B0AF500BD(){} // RVA: 0x7FFAF4A49290
+        // ── 21 unresolved (hash) ──
         public void m_D2A(){} // RVA: 0x7FFAF4A467A0
         public void m_525(){} // RVA: 0x7FFAF4A469F0
         public void m_C8E(){} // RVA: 0x7FFAF4A46AC0
         public void m_51A(){} // RVA: 0x7FFAF4A46C00
         public void m_579(){} // RVA: 0x7FFAF4A46D80
-        // ... 20 more unresolved methods
+        // ... 16 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÎÏÎÌÌÎÌÏÏÌÏÍÎÎÌÍÎÏÌÎÌ</summary>
@@ -1050,8 +1054,7 @@ namespace VRC.Misc
         public void Initialize(){} // RVA: 0x7FFAF45E30B0
         public void SwapIfGreater(){} // RVA: 0x7FFAF45E3260
         public void GetDeviceUniqueIdentifier_5719D5764680(){} // RVA: 0x7FFAF45E30B0
-        // ── Unresolved (hash) ──
-        public void m_E18(){} // RVA: 0x7FFAF45E2D50
+        public void DeviceUniqueIdentifier(){} // RVA: 0x7FFAF45E2D50
     }
 
     /// <summary>Originally: ÏÌÌÌÍÌÏÎÏÏÏÎÏÌÌÏÎÏÎÍÎÏÏ</summary>

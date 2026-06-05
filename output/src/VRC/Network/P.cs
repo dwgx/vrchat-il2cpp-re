@@ -108,16 +108,26 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void RegisterPhotonCustomTypes(){} // RVA: 0x7FFAF3D82430
+        public void Instance(){} // RVA: 0x7FFAF3D82570
+        public void AppQuits(){} // RVA: 0x7FFAF3D825B0
+        public void MaxDatagrams(){} // RVA: 0x7FFAF36F1AB0
         public void RegisterPhotonCustomTypes_40E266D77E85(){} // RVA: 0x7FFAF3D82630
+        public void SendAsap(){} // RVA: 0x7FFAF3D834E0
+        public void UseProtocolFallback(){} // RVA: 0x7FFAF3D83580
+        public void ProtocolFallback(){} // RVA: 0x7FFAF3D83740
         public void Awake(){} // RVA: 0x7FFAF3D854C0
+        public void UpdateInterval(){} // RVA: 0x7FFAF3D856B0
         public void StopFallbackSendAckThread(){} // RVA: 0x7FFAF3D858D0
         public void RealtimeFallbackThread(){} // RVA: 0x7FFAF3D859D0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3D87540
+        public void UpdateIntervalOnSerialize(){} // RVA: 0x7FFAF3D87A80
         public void ProcessTexture(){} // RVA: 0x7FFAF3D88280
         public void ProcessTexture_1858BE66B4B2(){} // RVA: 0x7FFAF3D882C0
         public void ProcessTexture_8D4E327CDAA3(){} // RVA: 0x7FFAF3D88370
         public void OnDestroy(){} // RVA: 0x7FFAF3D883D0
+        public void SupportLoggerComponent(){} // RVA: 0x7FFAF3D88B20
+        public void StartingFallbackSendAckThreadId(){} // RVA: 0x7FFAF3D88C20
         public void GetPersistentDataPath(){} // RVA: 0x7FFAF3D88DF0
         public void OnDisable(){} // RVA: 0x7FFAF3D890A0
         public void GetOrCreateInstance(){} // RVA: 0x7FFAF3D891C0
@@ -129,13 +139,14 @@ namespace VRC.Network
         public void OnEnable(){} // RVA: 0x7FFAF3D89860
         public void ConfigureParticleEmissionModule(){} // RVA: 0x7FFAF36F2990
         public void GetTimeSmoothDeltaTime(){} // RVA: 0x7FFAF3D89D40
-        // ── 25 unresolved (hash) ──
-        public void m_A04(){} // RVA: 0x7FFAF3D82570
-        public void m_9DF(){} // RVA: 0x7FFAF3D825B0
-        public void m_7E1(){} // RVA: 0x7FFAF36F1AB0
-        public void m_4E2(){} // RVA: 0x7FFAF3D834E0
-        public void m_2AD(){} // RVA: 0x7FFAF3D83580
-        // ... 20 more unresolved methods
+        public void Instance_0AC7E5A60E84(){} // RVA: 0x7FFAF3D8AE00
+        // ── 14 unresolved (hash) ──
+        public void m_56F(){} // RVA: 0x7FFAF3D88D30
+        public void m_2CC(){} // RVA: 0x7FFAF3D89100
+        public void m_EFA(){} // RVA: 0x7FFAF2E2E0C0
+        public void m_A7C(){} // RVA: 0x7FFAF3D897A0
+        public void m_AB0(){} // RVA: 0x7FFAF3D898C0
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÌÎÎÍÍÌÎÏÏÏÌÍÌÏÍÏÍÏÎÍ</summary>

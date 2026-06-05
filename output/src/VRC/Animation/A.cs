@@ -640,17 +640,27 @@ namespace VRC.Animation
     public class AnimatedTextureBaseImpl_0682SiSibling_C80F
     {
         // ── Methods ──
+        public void Add(){} // RVA: 0x7FFAF39FD110
         public void .ctor(){} // RVA: 0x7FFAF39FD200
         public void Initialize(){} // RVA: 0x7FFAF39FD3D0
         public void TryGetValue(){} // RVA: 0x7FFAF39FD400
+        public void Clear(){} // RVA: 0x7FFAF2D8D320
+        public void ContainsKey(){} // RVA: 0x7FFAF39FD930
+        public void ContainsValue(){} // RVA: 0x7FFAF2E7FAF0
+        public void CopyTo(){} // RVA: 0x7FFAF2F476A0
+        public void GetEnumerator(){} // RVA: 0x7FFAF39FC7B0
+        public void Remove(){} // RVA: 0x7FFAF3498D10
+        public void GetCount(){} // RVA: 0x7FFAF2DBB130
+        public void GetItem(){} // RVA: 0x7FFAF2DBB0C0
+        public void SetItem(){} // RVA: 0x7FFAF3427030
         public void TryGetValue_A6E81C035208(){} // RVA: 0x7FFAF39FD3D0
-        // ── 43 unresolved (hash) ──
+        // ── 33 unresolved (hash) ──
         public void m_561(){} // RVA: 0x7FFAF39FC7B0
         public void m_51B(){} // RVA: 0x7FFAF30E74D0
         public void m_537(){} // RVA: 0x7FFAF325C2C0
         public void m_43D(){} // RVA: 0x7FFAF39FC820
         public void m_0E4(){} // RVA: 0x7FFAF3498FF0
-        // ... 38 more unresolved methods
+        // ... 28 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÍÎÍÎÍÏÍÌÍÏÎÌÎÌÏÏÏÌÎÌÌ</summary>
@@ -1124,6 +1134,7 @@ namespace VRC.Animation
         public void ReleaseBlockHeader(){} // RVA: 0x7FFAF2DF8660
         public void ThrowLiteralListLiteralsMarshalException(){} // RVA: 0x7FFAF3A24980
         public void ThrowInnerHandlerMarshalException(){} // RVA: 0x7FFAF3A24BB0
+        public void PlatformOptionsWebGL(){} // RVA: 0x7FFAF3A24C60
         public void ReadColliderState(){} // RVA: 0x7FFAF2E2E0E0
         public void RandomRangeInt(){} // RVA: 0x7FFAF3A253C0
         public void RandomRangeInt_A9813C83C302(){} // RVA: 0x7FFAF3A255A0
@@ -1188,13 +1199,13 @@ namespace VRC.Animation
         public void SweepHeapBlock(){} // RVA: 0x7FFAF3A2E920
         public void SweepHeapBlock_00AE95B4C39D(){} // RVA: 0x7FFAF3A2E940
         public void PrintHeapBlockStats(){} // RVA: 0x7FFAF3A2EC20
-        // ── 135 unresolved (hash) ──
+        // ── 134 unresolved (hash) ──
         public void m_E7D(){} // RVA: 0x7FFAF3A20E10
         public void m_663(){} // RVA: 0x7FFAF3A214B0
         public void m_E93(){} // RVA: 0x7FFAF3A220D0
         public void m_977(){} // RVA: 0x7FFAF3A220E0
         public void m_EF6(){} // RVA: 0x7FFAF3A222B0
-        // ... 130 more unresolved methods
+        // ... 129 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ</summary>
@@ -1469,17 +1480,16 @@ namespace VRC.Animation
     public class AnimationAnimationCurveHandler_4946
     {
         // ── Methods ──
+        public void ForwardXCurve(){} // RVA: 0x7FFAF3751410
+        public void ForwardYCurve(){} // RVA: 0x7FFAF3751610
+        public void ForwardZCurve(){} // RVA: 0x7FFAF37516B0
+        public void UpXCurve(){} // RVA: 0x7FFAF3751990
+        public void UpYCurve(){} // RVA: 0x7FFAF3751A30
+        public void UpZCurve(){} // RVA: 0x7FFAF3751C30
         public void SetKeys(){} // RVA: 0x7FFAF3751E30
         public void OrthoNormalize2(){} // RVA: 0x7FFAF3752030
         public void UpdateRotation(){} // RVA: 0x7FFAF3752230
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_F78(){} // RVA: 0x7FFAF3751410
-        public void m_B3B(){} // RVA: 0x7FFAF3751610
-        public void m_3FF(){} // RVA: 0x7FFAF37516B0
-        public void m_CC4(){} // RVA: 0x7FFAF3751990
-        public void m_5F8(){} // RVA: 0x7FFAF3751A30
-        public void m_D08(){} // RVA: 0x7FFAF3751C30
     }
 
     /// <summary>Originally: ÍÍÏÏÏÍÌÎÏÏÌÌÏÍÏÍÎÌÌÌÎÏÎ</summary>

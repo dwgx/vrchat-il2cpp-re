@@ -508,6 +508,7 @@ namespace VRC.Network.Core
         // ── Methods ──
         public void EnumeratorConstructor_7CBE384C9F24(){} // RVA: 0x7FFAF3259560 | overloaded x2
         public void OnEnable(){} // RVA: 0x7FFAF324D8E0
+        public void ShowDebugText(){} // RVA: 0x7FFAF2F77C50
         public void FixedUpdate(){} // RVA: 0x7FFAF324D9D0
         public void Update(){} // RVA: 0x7FFAF324DBF0
         public void LateUpdate(){} // RVA: 0x7FFAF324DF90
@@ -523,13 +524,22 @@ namespace VRC.Network.Core
         public void OnTriggerEnter(){} // RVA: 0x7FFAF324FF40
         public void OnTriggerStay(){} // RVA: 0x7FFAF3256950 | overloaded x2
         public void OnTriggerExit(){} // RVA: 0x7FFAF3250540
+        public void ShowCameraFrustum(){} // RVA: 0x7FFAF3250620
+        public void IgnoreTimeScale(){} // RVA: 0x7FFAF32507F0
+        public void WorldUpOverride_E3EE3C7E9EC7(){} // RVA: 0x7FFAF3259EF0 | overloaded x2
         public void get_Current(){} // RVA: 0x7FFAF3251200
         public void InitializeDictionaryEnumerator(){} // RVA: 0x7FFAF32515E0
+        public void UpdateMethod(){} // RVA: 0x7FFAF3251640
         public void OnCollisionExit(){} // RVA: 0x7FFAF3251D40
         public void get_Current_F9CA960FD595(){} // RVA: 0x7FFAF3251E30
         public void get_Current_7300008A32B1(){} // RVA: 0x7FFAF32521E0
         public void get_Current_51E8F022C8D2(){} // RVA: 0x7FFAF3252970
+        public void BlendUpdateMethod(){} // RVA: 0x7FFAF3253BE0
+        public void DefaultBlend(){} // RVA: 0x7FFAF3254690
+        public void CustomBlends(){} // RVA: 0x7FFAF2E55590
         public void get_Current_8C0C3E2C3BCD(){} // RVA: 0x7FFAF32546A0
+        public void CameraCutEvent(){} // RVA: 0x7FFAF3255AC0
+        public void CameraCutEvent_61002E78F9CA(){} // RVA: 0x7FFAF3255CE0
         public void get_Current_6735F381C355(){} // RVA: 0x7FFAF3255E10
         public void get_Current_E4E67C3BF0CE(){} // RVA: 0x7FFAF3255EC0
         public void Start(){} // RVA: 0x7FFAF3256110
@@ -547,13 +557,13 @@ namespace VRC.Network.Core
         public void get_Current_5E54294042D1(){} // RVA: 0x7FFAF3259950
         public void get_Current_CB38C9EF9E5C(){} // RVA: 0x7FFAF3259D20
         public void ReadCameraState(){} // RVA: 0x7FFAF325A0B0
-        // ── 37 unresolved (hash) ──
-        public void m_BB8(){} // RVA: 0x7FFAF2F77C50
-        public void m_330(){} // RVA: 0x7FFAF3250620
+        // ── 28 unresolved (hash) ──
         public void m_07B(){} // RVA: 0x7FFAF3250750
-        public void m_C9E(){} // RVA: 0x7FFAF32507F0
-        public void m_E3E(){} // RVA: 0x7FFAF3259EF0
-        // ... 32 more unresolved methods
+        public void m_CCB(){} // RVA: 0x7FFAF32512B0
+        public void m_DD8(){} // RVA: 0x7FFAF3251540
+        public void m_C2D(){} // RVA: 0x7FFAF3251730
+        public void m_26B(){} // RVA: 0x7FFAF32526C0
+        // ... 23 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÌÌÌÌÏÌÍÎÌÌÏÎÍÎÍÏÎÌÎÌÌ</summary>
@@ -760,10 +770,16 @@ namespace VRC.Network.Core
         public void RemoteSetPlaylist(){} // RVA: 0x7FFAF41EB8A0
         public void Awake(){} // RVA: 0x7FFAF41EBFF0
         public void OnDestroy(){} // RVA: 0x7FFAF41EC390
+        public void Decode_316BCF21CBFD(){} // RVA: 0x7FFAF370F680
+        public void RemoteSetVideos_627A6F949B89(){} // RVA: 0x7FFAF41ED5E0
         public void Start(){} // RVA: 0x7FFAF41ED930
         public void SerializedName(){} // RVA: 0x7FFAF41ED9D0
+        public void Encode_5DB4F9B8E0CA(){} // RVA: 0x7FFAF41EDB40
+        public void RemoteSetPlaylist_168EB2557CCD(){} // RVA: 0x7FFAF41EDBE0
         public void .cctor(){} // RVA: 0x7FFAF41EDD20
         public void set_TypeId(){} // RVA: 0x7FFAF41EDDE0
+        public void SerializedName_C9D1C6B4C1E8(){} // RVA: 0x7FFAF41EE080
+        public void RemoteClear_FBC441B84C65(){} // RVA: 0x7FFAF41EE0C0
         public void get_TypeId(){} // RVA: 0x7FFAF3061C70
         public void get_Value_18ADB1B0515E(){} // RVA: 0x7FFAF41EE360
         public void NeedsImportant(){} // RVA: 0x7FFAF2D8D320
@@ -776,13 +792,14 @@ namespace VRC.Network.Core
         public void RemoteClear(){} // RVA: 0x7FFAF41F04A0
         public void get_Value_35AE01B1FBC1(){} // RVA: 0x7FFAF41F0AF0
         public void CanSerialize8Bit(){} // RVA: 0x7FFAF2E72850
-        // ── 49 unresolved (hash) ──
+        public void Value(){} // RVA: 0x7FFAF41F1570
+        // ── 42 unresolved (hash) ──
         public void m_9BB(){} // RVA: 0x7FFAF41EA650
         public void m_1C2(){} // RVA: 0x7FFAF2D8D320
         public void m_454(){} // RVA: 0x7FFAF41EB0F0
         public void m_952(){} // RVA: 0x7FFAF41EB350
         public void m_6B9(){} // RVA: 0x7FFAF41EBAD0
-        // ... 44 more unresolved methods
+        // ... 37 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÌÎÌÌÍÍÍÎÎÌÌÌÌÎÎÎÏÌÏÏÍ</summary>

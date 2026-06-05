@@ -2067,14 +2067,14 @@ namespace VRC.Player
         public void set_AnimationStyle(){} // RVA: 0x7FFAF399FD10
         public void set_FileId(){} // RVA: 0x7FFAF46E7750
         public void get_FileId(){} // RVA: 0x7FFAF34270D0
-        public void set_MaskTag(){} // RVA: 0x7FFAF2E2B370
+        public void set_IsSpecialFX(){} // RVA: 0x7FFAF2E2B370
         public void SetFPS(){} // RVA: 0x7FFAF3A74480
-        public void set_IsSpecialFX(){} // RVA: 0x7FFAF2D8EE90
+        public void set_DisplayTexture(){} // RVA: 0x7FFAF2D8EE90
         public void get_IsSpecialFX(){} // RVA: 0x7FFAF39EB700
-        public void set_DisplayTexture(){} // RVA: 0x7FFAF2DBB130
+        public void set_EffectBundleID(){} // RVA: 0x7FFAF2DBB130
         public void RichPresenceOptionsSetApiName(){} // RVA: 0x7FFAF46E77A0
         public void get_DisplayTexture(){} // RVA: 0x7FFAF2E08D50
-        public void set_EffectBundleID(){} // RVA: 0x7FFAF3467650
+        public void set_Frames(){} // RVA: 0x7FFAF3467650
         public void get_EffectBundleID(){} // RVA: 0x7FFAF3467650
         public void get_AnimationStyle(){} // RVA: 0x7FFAF3427430
         public void get_Frames(){} // RVA: 0x7FFAF46E7960
@@ -2092,12 +2092,12 @@ namespace VRC.Player
         public void get_IsPremium(){} // RVA: 0x7FFAF46E7C20
         public void SetEffectBundleID(){} // RVA: 0x7FFAF2E555A0
         public void set_LoopStyle(){} // RVA: 0x7FFAF46E7C40
-        public void set_Frames(){} // RVA: 0x7FFAF2E2B380
+        public void set_Frames_156DAB0EE65A(){} // RVA: 0x7FFAF2E2B380
         public void get_IsPremium_AB7D7D00DFA0(){} // RVA: 0x7FFAF2E08D60
         public void SetFrames(){} // RVA: 0x7FFAF46E7CB0
         public void get_LoopStyle(){} // RVA: 0x7FFAF46E8410
-        public void set_FullResolutionTexture(){} // RVA: 0x7FFAF46E7C40
-        public void set_FPS(){} // RVA: 0x7FFAF3498FF0
+        public void set_FPS(){} // RVA: 0x7FFAF46E7C40
+        public void set_FullResolutionTexture(){} // RVA: 0x7FFAF3498FF0
         public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7FFAF2E7B9D0
         public void get_FPS(){} // RVA: 0x7FFAF3A74480
         public void get_FullResolutionTexture(){} // RVA: 0x7FFAF2E55590

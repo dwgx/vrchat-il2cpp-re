@@ -296,13 +296,13 @@ namespace VRC.Misc
         // ── Methods ──
         public void CompareTo(){} // RVA: 0x7FFAF36BA990
         public void CompareTo_962D3DBE0A0F(){} // RVA: 0x7FFAF36BAE90
+        public void ToString(){} // RVA: 0x7FFAF36BB040
         public void CompareTo_550C82E07A15(){} // RVA: 0x7FFAF36BB3A0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
         public void m_A82(){} // RVA: 0x7FFAF36BA7F0
         public void m_372(){} // RVA: 0x7FFAF36BAB40
         public void m_BEA(){} // RVA: 0x7FFAF36BACE0
-        public void m_166(){} // RVA: 0x7FFAF36BB040
         public void m_F92(){} // RVA: 0x7FFAF36BB1F0
     }
 

@@ -247,14 +247,13 @@ namespace VRC.Core.Transform
         public void Awake(){} // RVA: 0x7FFAF4472930
         public void Start(){} // RVA: 0x7FFAF4472B20
         public void Update(){} // RVA: 0x7FFAF4472D20
+        public void OnBecameInvisible(){} // RVA: 0x7FFAF4472F10
         public void LateUpdate(){} // RVA: 0x7FFAF44730F0
         public void OnDisable(){} // RVA: 0x7FFAF44732E0
         public void OnDestroy(){} // RVA: 0x7FFAF44734C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF44736C0
         public void OnBecameVisible(){} // RVA: 0x7FFAF44738A0
-        // ── Unresolved (hash) ──
-        public void m_A74(){} // RVA: 0x7FFAF4472F10
     }
 
     /// <summary>Originally: ÌÍÍÌÎÍÌÎÎÌÌÏÏÍÌÍÎÏÏÍÍÎÍ</summary>
@@ -359,6 +358,7 @@ namespace VRC.Core.Transform
         public void OnEnable(){} // RVA: 0x7FFAF443D7E0
         public void Start(){} // RVA: 0x7FFAF444A2C0
         public void Update(){} // RVA: 0x7FFAF4449300
+        public void OnCollisionEnter(){} // RVA: 0x7FFAF443D4F0
         public void LateUpdate(){} // RVA: 0x7FFAF444A3E0
         public void OnDisable(){} // RVA: 0x7FFAF444A410
         public void OnDestroy(){} // RVA: 0x7FFAF444A540
@@ -373,29 +373,30 @@ namespace VRC.Core.Transform
         public void OnTriggerStay(){} // RVA: 0x7FFAF444A890
         public void OnTriggerExit(){} // RVA: 0x7FFAF444A9D0
         public void GetDeltaTime(){} // RVA: 0x7FFAF444A290
-        // ── 15 unresolved (hash) ──
+        public void OnCollisionStay(){} // RVA: 0x7FFAF443D140
+        // ── 13 unresolved (hash) ──
         public void m_CB0(){} // RVA: 0x7FFAF4449190
         public void m_A9B(){} // RVA: 0x7FFAF4449300
         public void m_A6B(){} // RVA: 0x7FFAF443D140
         public void m_C12(){} // RVA: 0x7FFAF443D140
         public void m_87F(){} // RVA: 0x7FFAF44493D0
-        // ... 10 more unresolved methods
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÍÍÌÌÍÌÍÌÏÏÌÏÎÌÎÌÌÏÏÏÏÏÌ</summary>
     public class TransformComponentHandler_B751
     {
         // ── Methods ──
+        public void Position(){} // RVA: 0x7FFAF3673C80
+        public void Rotation(){} // RVA: 0x7FFAF3674590
+        public void Scale(){} // RVA: 0x7FFAF36748C0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_FFA(){} // RVA: 0x7FFAF3673C80
         public void m_797(){} // RVA: 0x7FFAF3673D30
         public void m_742(){} // RVA: 0x7FFAF3673DE0
         public void m_370(){} // RVA: 0x7FFAF3674110
         public void m_C45(){} // RVA: 0x7FFAF36741C0
         public void m_46F(){} // RVA: 0x7FFAF3674270
-        public void m_ED2(){} // RVA: 0x7FFAF3674590
-        public void m_C5B(){} // RVA: 0x7FFAF36748C0
         public void m_1C8(){} // RVA: 0x7FFAF3674BF0
         public void m_54E(){} // RVA: 0x7FFAF3674F20
     }
@@ -597,16 +598,26 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void CreatePrimitive(){} // RVA: 0x7FFAF4825D90
         public void CreatePrimitive_61DB26B0D649(){} // RVA: 0x7FFAF4825D90
+        public void GetPosition(){} // RVA: 0x7FFAF2D907C0
         public void GetLocalScale(){} // RVA: 0x7FFAF3A8C9F0
+        public void SetPosition(){} // RVA: 0x7FFAF3F29960
+        public void GetLocalPosition(){} // RVA: 0x7FFAF30E74D0
+        public void SetLocalPosition(){} // RVA: 0x7FFAF2DBB890
+        public void GetLocalEulerAngles(){} // RVA: 0x7FFAF3F29960
+        public void SetLocalEulerAngles(){} // RVA: 0x7FFAF2DA8380
+        public void GetRotation(){} // RVA: 0x7FFAF2DB5200
         public void .ctor(){} // RVA: 0x7FFAF4825DA0
         public void Initialize(){} // RVA: 0x7FFAF2DBB0D0
-        // ── 22 unresolved (hash) ──
+        public void SetRotation(){} // RVA: 0x7FFAF3A8D6E0
+        public void GetLocalRotation(){} // RVA: 0x7FFAF2E0A740
+        public void SetLocalRotation(){} // RVA: 0x7FFAF2DF3E80
+        // ── 12 unresolved (hash) ──
         public void m_E06(){} // RVA: 0x7FFAF2DBB0C0
         public void m_FC1(){} // RVA: 0x7FFAF2D8EE90
         public void m_CDE(){} // RVA: 0x7FFAF2D8EE30
         public void m_796(){} // RVA: 0x7FFAF2E2E0C0
         public void m_0F6(){} // RVA: 0x7FFAF2E2E0C0
-        // ... 17 more unresolved methods
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÌÍÌÌÎÍÏÌÎÏÍÎÏÎÎÍÎÍÍÏÎ</summary>
@@ -747,15 +758,15 @@ namespace VRC.Core.Transform
     public class TransformHandler_5100
     {
         // ── Methods ──
+        public void SetHasChanged(){} // RVA: 0x7FFAFB9FFCA0
         public void GetHasChanged(){} // RVA: 0x7FFAFB9FFFA0
         public void Internal_getHierarchyCapacity(){} // RVA: 0x7FFAFBA00120
+        public void InternalSetHierarchyCapacity(){} // RVA: 0x7FFAFBA00420
         public void GetLocalRotation(){} // RVA: 0x7FFAFBA005A0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAFBA00720
         // ── Unresolved (hash) ──
-        public void m_F6E(){} // RVA: 0x7FFAFB9FFCA0
         public void m_BC8(){} // RVA: 0x7FFAFBA002A0
-        public void m_669(){} // RVA: 0x7FFAFBA00420
     }
 
     /// <summary>Originally: ÌÌÍÍÏÌÍÏÍÏÏÎÍÍÌÌÏÍÍÍÌÎÍ</summary>
@@ -778,6 +789,7 @@ namespace VRC.Core.Transform
     public class TransformHandler_5944
     {
         // ── Methods ──
+        public void TransformHandlerDelegate(){} // RVA: 0x7FFAF48A6980
         public void InvokeTransformHandler(){} // RVA: 0x7FFAF48A6A60
         public void SetLocalRotation(){} // RVA: 0x7FFAF48A6B40
         public void SetLocalRotation_FA6377BF7717(){} // RVA: 0x7FFAF48A6C20
@@ -787,8 +799,6 @@ namespace VRC.Core.Transform
         public void SetLocalRotation_93DFF4A99FDA(){} // RVA: 0x7FFAF48A6FA0
         public void EndInvokeTransformHandler(){} // RVA: 0x7FFAF48A7080
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_4D8(){} // RVA: 0x7FFAF48A6980
     }
 
     /// <summary>Originally: ÍÍÌÎÌÏÍÍÌÍÌÍÌÍÍÎÍÏÍÏÍÍÎ</summary>
@@ -1383,14 +1393,13 @@ namespace VRC.Core.Transform
     public class TransformQuaternionHandler_0ED6
     {
         // ── Methods ──
+        public void Rotation(){} // RVA: 0x7FFAF3761A70
         public void SetTransformRotation(){} // RVA: 0x7FFAF3761DD0
         public void SetTransformRotation_49627629A950(){} // RVA: 0x7FFAF3762130
         public void UpdateRotation(){} // RVA: 0x7FFAF3762490
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF37627F0
+        public void Rotation_BE02F4AA8C84(){} // RVA: 0x7FFAF37627F0
         public void UpdateRotation_DAC9F1026242(){} // RVA: 0x7FFAF3762B50
-        // ── Unresolved (hash) ──
-        public void m_BE0(){} // RVA: 0x7FFAF3761A70
     }
 
     /// <summary>Originally: ÌÏÎÍÍÏÍÍÎÎÍÎÍÍÏÏÎÌÏÍÏÎÍ</summary>

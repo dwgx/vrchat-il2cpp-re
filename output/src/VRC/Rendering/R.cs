@@ -200,14 +200,14 @@ namespace VRC.Rendering
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAFB868FB0
-        public void GetMeshWeightings(){} // RVA: 0x7FFAFB869A60
+        public void GetMeshWeightings(){} // RVA: 0x7FFAFB8696D0
+        public void GetMeshWeightings_E9BDCAE5C7B7(){} // RVA: 0x7FFAFB869A60
         public void Internal_GetPropertyBlock(){} // RVA: 0x7FFAFB869DF0
         public void HasPropertyBlock(){} // RVA: 0x7FFAFB86A180
+        public void InternalGetPropertyBlock(){} // RVA: 0x7FFAFB86A510
+        public void HasPropertyBlock_DB938760F76F(){} // RVA: 0x7FFAFB86A8A0
         // ── Unresolved (hash) ──
         public void m_6C9(){} // RVA: 0x7FFAFB869340
-        public void m_DE3(){} // RVA: 0x7FFAFB8696D0
-        public void m_03C(){} // RVA: 0x7FFAFB86A510
-        public void m_DB9(){} // RVA: 0x7FFAFB86A8A0
     }
 
     /// <summary>Originally: ÌÌÍÍÏÎÍÏÎÍÌÎÏÎÎÏÎÍÏÏÎÌÍ</summary>

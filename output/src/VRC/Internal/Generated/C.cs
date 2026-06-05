@@ -253,13 +253,18 @@ namespace VRC.Internal.Generated
         public void Cleanup(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2ADFCA0
         public void Initialize(){} // RVA: 0x7FFAF2AD4A50
-        // ── 11 unresolved (hash) ──
+        public void Finalize(){} // RVA: 0x7FFAF2AD4A50
+        // ── Unresolved (hash) ──
         public void m_9C5(){} // RVA: 0x7FFAF2AD4A50
         public void m_185(){} // RVA: 0x7FFAF2AD4A50
         public void m_055(){} // RVA: 0x7FFAF2D33FA0
         public void m_9C9(){} // RVA: 0x7FFAF2D33FA0
         public void m_C38(){} // RVA: 0x7FFAF2D33FA0
-        // ... 6 more unresolved methods
+        public void m_3A7(){} // RVA: 0x7FFAF2D33FA0
+        public void m_7A2(){} // RVA: 0x7FFAF2AD4A50
+        public void m_CDA(){} // RVA: 0x7FFAF2AD4A50
+        public void m_DAC(){} // RVA: 0x7FFAF2AD4A50
+        public void m_DA7(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÍÏÍÌÎÎÍÍÏÎÎÏÍÍÏÍÌÌÏÍÎÌÌ</summary>

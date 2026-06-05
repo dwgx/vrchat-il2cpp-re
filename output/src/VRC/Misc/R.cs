@@ -64,19 +64,19 @@ namespace VRC.Misc
     public class RandomHandler_CD79
     {
         // ── Methods ──
+        public void Range(){} // RVA: 0x7FFAFB9D3F30
+        public void Range_C272C1A776B9(){} // RVA: 0x7FFAFB9D4040
         public void InitState(){} // RVA: 0x7FFAFB9D4260
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAFB9D4380
-        public void GetInsideUnitSphere(){} // RVA: 0x7FFAFB9D46C0
+        public void GetInsideUnitSphere(){} // RVA: 0x7FFAFB9D44A0
+        public void GetInsideUnitCircle(){} // RVA: 0x7FFAFB9D45B0
+        public void GetInsideUnitSphere_317C62A787DD(){} // RVA: 0x7FFAFB9D46C0
+        public void GetOnUnitSphere(){} // RVA: 0x7FFAFB9D47D0
+        public void GetRotation(){} // RVA: 0x7FFAFB9D48E0
+        public void GetRotationUniform(){} // RVA: 0x7FFAFB9D49F0
         // ── Unresolved (hash) ──
-        public void m_72C(){} // RVA: 0x7FFAFB9D3F30
-        public void m_C27(){} // RVA: 0x7FFAFB9D4040
         public void m_0F1(){} // RVA: 0x7FFAFB9D4150
-        public void m_E5E(){} // RVA: 0x7FFAFB9D44A0
-        public void m_598(){} // RVA: 0x7FFAFB9D45B0
-        public void m_FBD(){} // RVA: 0x7FFAFB9D47D0
-        public void m_64E(){} // RVA: 0x7FFAFB9D48E0
-        public void m_867(){} // RVA: 0x7FFAFB9D49F0
     }
 
     /// <summary>Originally: ÌÏÌÍÌÍÏÎÍÍÌÏÍÏÌÏÏÎÎÌÌÎÌ</summary>

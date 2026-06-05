@@ -821,13 +821,17 @@ namespace VRC.Misc
         public void SetLocalScale(){} // RVA: 0x7FFAF3C08FF0
         public void GetLocalPosition_E76CF0DBB312(){} // RVA: 0x7FFAF3C092B0
         public void ConnectAddNotifyLoginStatusChanged(){} // RVA: 0x7FFAF3C0A240
+        public void AnchorMin(){} // RVA: 0x7FFAF3C0A780
         public void UpdateParticlePosition(){} // RVA: 0x7FFAF3C0A7C0
+        public void AnchoredPosition(){} // RVA: 0x7FFAF3C0A810
+        public void SizeDelta(){} // RVA: 0x7FFAF3C02AD0
         public void UpdateParticlePosition_8BD238347127(){} // RVA: 0x7FFAF3C0A830
         public void UpdateParticlePosition_852E3599EAE7(){} // RVA: 0x7FFAF3C0AA40
         public void SetGlobalFloatImpl(){} // RVA: 0x7FFAF3C0F200
         public void SetGlobalFloatImpl_E2047166B22F(){} // RVA: 0x7FFAF3C0F210
         public void .cctor(){} // RVA: 0x7FFAF3C0F230
         public void SetGlobalFloatImpl_70B844A121FF(){} // RVA: 0x7FFAF3C0F3B0
+        public void LocalRotation(){} // RVA: 0x7FFAF3C0F430
         public void Constructor(){} // RVA: 0x7FFAF3C0F960
         public void InitializePoseState(){} // RVA: 0x7FFAF3C10020
         public void ValidateHumanBoneTransforms(){} // RVA: 0x7FFAF3C100A0
@@ -849,13 +853,13 @@ namespace VRC.Misc
         public void OnDrawGizmos(){} // RVA: 0x7FFAF3C14C80
         public void LateUpdate(){} // RVA: 0x7FFAF3C15400
         public void Awake(){} // RVA: 0x7FFAF3B96F20
-        // ── 28 unresolved (hash) ──
+        // ── 24 unresolved (hash) ──
         public void m_FD9(){} // RVA: 0x7FFAF3BFE530
         public void m_BAE(){} // RVA: 0x7FFAF3BFF900
         public void m_322(){} // RVA: 0x7FFAF3BFFDD0
         public void m_004(){} // RVA: 0x7FFAF3C02090
         public void m_140(){} // RVA: 0x7FFAF3C020E0
-        // ... 23 more unresolved methods
+        // ... 19 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÌÌÌÎÎÍÌÌÌÌÌÎÌÌÌÎÌÍÏÌÍ</summary>
@@ -3210,6 +3214,7 @@ namespace VRC.Misc
     public class ValidateCleanupSkeletonComponent_6CB1
     {
         // ── Methods ──
+        public void Constructor(){} // RVA: 0x7FFAFB981B70
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB981C20
         public void Awake(){} // RVA: 0x7FFAF2D8EE90
@@ -3220,7 +3225,6 @@ namespace VRC.Misc
         public void OnDisable(){} // RVA: 0x7FFAFB9839D0
         public void OnDestroy(){} // RVA: 0x7FFAFB981D00
         // ── Unresolved (hash) ──
-        public void m_021(){} // RVA: 0x7FFAFB981B70
         public void m_FDC(){} // RVA: 0x7FFAFB981CD0
         public void m_692(){} // RVA: 0x7FFAFB981D00
         public void m_C9E(){} // RVA: 0x7FFAFB981D10

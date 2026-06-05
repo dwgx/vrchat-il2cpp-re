@@ -730,13 +730,14 @@ namespace VRC.Internal.Generated
         public void ReadGameObjectState(){} // RVA: 0x7FFAFB91CCA0
         public void OnEnable(){} // RVA: 0x7FFAFB91C900
         public void OnDisable(){} // RVA: 0x7FFAFB91CD90
-        // ── 21 unresolved (hash) ──
+        public void WriteGameObjectState(){} // RVA: 0x7FFAFB91CDA0
+        // ── 20 unresolved (hash) ──
         public void m_DE0(){} // RVA: 0x7FFAFB91B810
         public void m_3E8(){} // RVA: 0x7FFAFB91BAD0
         public void m_EE5(){} // RVA: 0x7FFAFB91BC20
         public void m_EB3(){} // RVA: 0x7FFAFB91BE60
         public void m_207(){} // RVA: 0x7FFAFB91BF30
-        // ... 16 more unresolved methods
+        // ... 15 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÎÌÎÎÏÌÎÏÏÌÍÍÌÌÎÏÌÌÍÍÌ</summary>

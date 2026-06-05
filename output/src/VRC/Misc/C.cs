@@ -181,18 +181,18 @@ namespace VRC.Misc
     public class CloneSiblingSibling_80CC
     {
         // ── Methods ──
+        public void AlreadyInvokedSentinel(){} // RVA: 0x7FFAFB58BC00
         public void get_Value(){} // RVA: 0x7FFAFB58BCC0
         public void get_Value_308CF4B1C89C(){} // RVA: 0x7FFAFB58BD10
+        public void PublicationOnlySentinel(){} // RVA: 0x7FFAFB58C290
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAFB58C2E0
+        public void Boxed(){} // RVA: 0x7FFAFB58C660
+        public void ValueFactory(){} // RVA: 0x7FFAFB58C720
+        public void ThreadSafeObj(){} // RVA: 0x7FFAFB58C9E0
         // ── Unresolved (hash) ──
-        public void m_A1A(){} // RVA: 0x7FFAFB58BC00
         public void m_BDC(){} // RVA: 0x7FFAFB58BFD0
-        public void m_FE6(){} // RVA: 0x7FFAFB58C290
         public void m_BDF(){} // RVA: 0x7FFAFB58C3A0
-        public void m_83E(){} // RVA: 0x7FFAFB58C660
-        public void m_FD1(){} // RVA: 0x7FFAFB58C720
-        public void m_EDD(){} // RVA: 0x7FFAFB58C9E0
     }
 
     /// <summary>Originally: ÍÌÍÎÏÎÏÍÍÎÌÍÍÏÎÍÎÌÍÎÏÎÍ</summary>
@@ -445,13 +445,13 @@ namespace VRC.Misc
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF483BB10
+        public void Count(){} // RVA: 0x7FFAF483BB90
         public void Clone(){} // RVA: 0x7FFAF483BBA0
+        public void ProcessingBuffer(){} // RVA: 0x7FFAF483BC20
+        public void ProcessingBufferCount(){} // RVA: 0x7FFAF483BB90
+        public void Buff(){} // RVA: 0x7FFAF483BB90
         // ── Unresolved (hash) ──
         public void m_A82(){} // RVA: 0x7FFAF483BB90
-        public void m_E37(){} // RVA: 0x7FFAF483BB90
-        public void m_E4B(){} // RVA: 0x7FFAF483BC20
-        public void m_DCF(){} // RVA: 0x7FFAF483BB90
-        public void m_87D(){} // RVA: 0x7FFAF483BB90
     }
 
     /// <summary>Originally: ÌÎÍÍÏÏÏÎÍÌÍÌÌÎÌÏÍÎÎÏÌÌÎ</summary>

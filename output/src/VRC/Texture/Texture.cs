@@ -255,6 +255,7 @@ namespace VRC.Texture
         // ── Methods ──
         public void ReleaseTemporary(){} // RVA: 0x7FFAF4303D30
         public void get_CanvasRenderer(){} // RVA: 0x7FFAF4303EB0
+        public void Material(){} // RVA: 0x7FFAF4304030
         public void get_CanvasRenderer_C2BA6CDB841A(){} // RVA: 0x7FFAF43041B0
         public void get_CanvasRenderer_7FB9CA111224(){} // RVA: 0x7FFAF4304290
         public void get_CanvasRenderer_A6ED08392786(){} // RVA: 0x7FFAF43042B0
@@ -264,12 +265,10 @@ namespace VRC.Texture
         public void OnDestroy(){} // RVA: 0x7FFAF43046E0
         public void get_CanvasRenderer_1B33EF0CEFE0(){} // RVA: 0x7FFAF43047E0
         public void get_CanvasRenderer_994BF8AACB33(){} // RVA: 0x7FFAF4304960
+        public void Color(){} // RVA: 0x7FFAF4304AE0
+        public void RaycastTarget(){} // RVA: 0x7FFAF4304BC0
+        public void RaycastPadding(){} // RVA: 0x7FFAF4304D10
         public void .ctor(){} // RVA: 0x7FFAF2DE7060
-        // ── Unresolved (hash) ──
-        public void m_6F5(){} // RVA: 0x7FFAF4304030
-        public void m_A37(){} // RVA: 0x7FFAF4304AE0
-        public void m_FA6(){} // RVA: 0x7FFAF4304BC0
-        public void m_DEE(){} // RVA: 0x7FFAF4304D10
     }
 
     /// <summary>Originally: ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ</summary>

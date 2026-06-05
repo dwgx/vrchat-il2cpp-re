@@ -160,13 +160,13 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB6416E0
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAFB641960
+        public void GetPromises(){} // RVA: 0x7FFAFB641B60
+        public void OnCollisionExitAsync(){} // RVA: 0x7FFAFB641C70
         public void OnDestroy(){} // RVA: 0x7FFAFB641D40
         public void OnCollisionExit(){} // RVA: 0x7FFAF2D8D310
         public void StartCoroutine_Auto(){} // RVA: 0x7FFAFB641F60
         // ── Unresolved (hash) ──
         public void m_6F5(){} // RVA: 0x7FFAFB641520
-        public void m_17F(){} // RVA: 0x7FFAFB641B60
-        public void m_D86(){} // RVA: 0x7FFAFB641C70
         public void m_9AB(){} // RVA: 0x7FFAFB641E90
         public void m_761(){} // RVA: 0x7FFAF2D8D310
     }
@@ -1511,14 +1511,14 @@ namespace VRC.Misc
         public void OnDisable(){} // RVA: 0x7FFAF3B01B00
         public void Update(){} // RVA: 0x7FFAF3B01F70
         public void .cctor(){} // RVA: 0x7FFAF3B02290
+        public void OnCollisionEnter(){} // RVA: 0x7FFAF3B022D0
         public void Start(){} // RVA: 0x7FFAF3B02610
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        public void Initialize(){} // RVA: 0x7FFAF3B02670
+        public void OnCollisionStay(){} // RVA: 0x7FFAF3B02670
         public void OnCollisionExit(){} // RVA: 0x7FFAF3B026E0
         public void StartCoroutine_Auto(){} // RVA: 0x7FFAF3B02750
         // ── Unresolved (hash) ──
         public void m_FAC(){} // RVA: 0x7FFAF3B01C30
-        public void m_64A(){} // RVA: 0x7FFAF3B022D0
     }
 
     /// <summary>Originally: ÌÌÌÏÌÏÍÌÎÎÍÎÎÏÏÍÍÌÎÍÏÍÍ</summary>

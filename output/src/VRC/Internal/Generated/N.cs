@@ -12,14 +12,13 @@ namespace VRC.Internal.Generated
         public void .ctor_186F1C05B294(){} // RVA: 0x7FFAF3FA9670
         public void Initialize(){} // RVA: 0x7FFAF3FA98C0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void ToString(){} // RVA: 0x7FFAF3FA9B10
         public void CompareBaseObjects(){} // RVA: 0x7FFAF3FA9D60
         public void IsNativeObjectAlive(){} // RVA: 0x7FFAF3FA9FB0
         public void GetCachedPtr(){} // RVA: 0x7FFAF3FAA200
         public void get_name(){} // RVA: 0x7FFAF3FAA450
         public void set_name(){} // RVA: 0x7FFAF3FAA6A0
         public void Instantiate(){} // RVA: 0x7FFAF3FAA8F0
-        // ── Unresolved (hash) ──
-        public void m_2B0(){} // RVA: 0x7FFAF3FA9B10
     }
 
     /// <summary>Originally: ÎÏÎÏÌÏÏÍÍÎÎÍÌÍÌÍÎÌÏÌÏÌÌ</summary>
