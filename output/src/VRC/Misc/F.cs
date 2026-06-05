@@ -140,12 +140,11 @@ namespace VRC.Misc
         public void Awake(){} // RVA: 0x7FFAFBCD5030
         public void Start(){} // RVA: 0x7FFAFBCD50C0
         public void Update(){} // RVA: 0x7FFAFBCD5150
+        public void OnApplicationFocus(){} // RVA: 0x7FFAFBCD5150
         public void LateUpdate(){} // RVA: 0x7FFAFBCD5150
         public void .ctor(){} // RVA: 0x7FFAFBCD5180
         public void Initialize(){} // RVA: 0x7FFAFBCD5150
         public void OnApplicationPause(){} // RVA: 0x7FFAFBCD51D0
-        // ── Unresolved (hash) ──
-        public void m_0AF(){} // RVA: 0x7FFAFBCD5150
     }
 
     /// <summary>Originally: ÏÌÍÍÌÏÏÌÏÌÌÎÍÏÌÏÎÎÏÏÍÏÍ</summary>

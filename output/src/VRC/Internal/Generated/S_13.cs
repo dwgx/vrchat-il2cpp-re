@@ -495,14 +495,19 @@ namespace VRC.Internal.Generated
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFBD6D0A0
         public void Start(){} // RVA: 0x7FFAFBD6D140
+        public void ApplyRectTransformState(){} // RVA: 0x7FFAFBD6CE30
         public void ReadRectTransformState(){} // RVA: 0x7FFAFBD6D340
-        // ── 11 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_511(){} // RVA: 0x7FFAF2E0A740
         public void m_8EB(){} // RVA: 0x7FFAFBD6CC10
         public void m_945(){} // RVA: 0x7FFAFBD6CD10
         public void m_AF6(){} // RVA: 0x7FFAF32CD7E0
         public void m_3CB(){} // RVA: 0x7FFAFBD6CE30
-        // ... 6 more unresolved methods
+        public void m_D99(){} // RVA: 0x7FFAF2AD4B10
+        public void m_A74(){} // RVA: 0x7FFAFBD6CE60
+        public void m_C34(){} // RVA: 0x7FFAFBD6CF00
+        public void m_EDF(){} // RVA: 0x7FFAF2ADBAA0
+        public void m_2D7(){} // RVA: 0x7FFAFBD6D1E0
     }
 
     /// <summary>Originally: ÍÎÌÍÌÏÏÎÏÎÏÏÌÎÌÌÍÌÏÏÍÏÏ</summary>

@@ -618,12 +618,11 @@ namespace VRC.Player
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void GetEnumerator(){} // RVA: 0x7FFAF37CBDA0
         public void .ctor(){} // RVA: 0x7FFAF2D900C0
         public void Initialize(){} // RVA: 0x7FFAF37CBE70
+        public void GetEnumerator_E821C8485FEA(){} // RVA: 0x7FFAF37CBF60
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF37CC030
-        // ── Unresolved (hash) ──
-        public void m_015(){} // RVA: 0x7FFAF37CBDA0
-        public void m_E82(){} // RVA: 0x7FFAF37CBF60
     }
 
     /// <summary>Originally: ÍÏÎÏÌÌÌÏÎÏÌÍÍÎÏÏÍÎÎÎÍÌÍ</summary>
@@ -953,9 +952,8 @@ namespace VRC.Player
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
+        public void GetEnumerator(){} // RVA: 0x7FFAF2D8D310
         public void MoveNext(){} // RVA: 0x7FFAF3386530
-        // ── Unresolved (hash) ──
-        public void m_29F(){} // RVA: 0x7FFAF2D8D310
     }
 
     /// <summary>Originally: ÍÎÏÍÏÏÍÏÏÎÎÎÌÎÍÌÌÎÍÌÎÎÍ</summary>
@@ -1349,6 +1347,8 @@ namespace VRC.Player
         public void get_Current(){} // RVA: 0x7FFAF2D907C0
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void SetAngularYMotion(){} // RVA: 0x7FFAF3652C50
+        public void SetAngularZMotion(){} // RVA: 0x7FFAF3652CB0
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF3652D10
         public void GetStructuralHashCode(){} // RVA: 0x7FFAF3652DA0
         public void MoveNext(){} // RVA: 0x7FFAF3652E30
@@ -1360,8 +1360,6 @@ namespace VRC.Player
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF36537F0
         public void SetAngularXMotion(){} // RVA: 0x7FFAF3653B70
         // ── Unresolved (hash) ──
-        public void m_582(){} // RVA: 0x7FFAF3652C50
-        public void m_9B7(){} // RVA: 0x7FFAF3652CB0
         public void m_378(){} // RVA: 0x7FFAF36535F0
         public void m_399(){} // RVA: 0x7FFAF3653690
         public void m_DB5(){} // RVA: 0x7FFAF36536F0
@@ -1436,9 +1434,8 @@ namespace VRC.Player
         public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
         public void ToString(){} // RVA: 0x7FFAF2D907C0
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
+        public void MoveNext_6AA32EC8E62B(){} // RVA: 0x7FFAF2D907C0
         public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        // ── Unresolved (hash) ──
-        public void m_6AA(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÍÎÏÌÍÍÏÍÎÍÏÎÏÏÏÍÍÌÏÌÏÌÌ</summary>
@@ -1905,11 +1902,20 @@ namespace VRC.Player
     public class PlayerRectTransformDimensionsChCalculateLayout_DF9C
     {
         // ── Methods ──
+        public void IgnoreLayout(){} // RVA: 0x7FFAFBEAD0A0
+        public void MinWidth(){} // RVA: 0x7FFAFBEAD100
+        public void MinHeight(){} // RVA: 0x7FFAFBEAD110
+        public void PreferredWidth(){} // RVA: 0x7FFAF474ABB0
+        public void PreferredHeight(){} // RVA: 0x7FFAFBEAD130
+        public void FlexibleWidth(){} // RVA: 0x7FFAFBEAD1D0
+        public void FlexibleHeight(){} // RVA: 0x7FFAFBEAD220
+        public void LayoutPriority(){} // RVA: 0x7FFAFBEAD4B0
         public void OnRectTransformDimensionsChange_DE86C5A1EB77(){} // RVA: 0x7FFAFBEADB60
         public void UnityEngine.UI.ILayoutElement.get_layoutPriority(){} // RVA: 0x7FFAF2FC9240
         public void UnityEngine.UI.ILayoutElement.get_minWidth(){} // RVA: 0x7FFAF35AF380
         public void UnityEngine.UI.ILayoutElement.get_flexibleHeight(){} // RVA: 0x7FFAF35AF380
         public void UnityEngine.UI.ILayoutElement.get_preferredWidth(){} // RVA: 0x7FFAFBEADF60
+        public void MinWidth_10231F994F34(){} // RVA: 0x7FFAFBEADF90
         public void UnityEngine.UI.ILayoutElement.get_flexibleWidth(){} // RVA: 0x7FFAF35AF380
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAFBEAE4E0
         public void OnTransformChildrenChanged(){} // RVA: 0x7FFAFBEAE5B0
@@ -1923,7 +1929,18 @@ namespace VRC.Player
         public void CalculateLayoutInputVertical(){} // RVA: 0x7FFAFBEB14F0
         public void SetLayoutHorizontal_D137951C8F84(){} // RVA: 0x7FFAFBEB1F40
         public void SetLayoutVertical_DA38FB71FCFF(){} // RVA: 0x7FFAFBEB1FF0
+        public void Padding(){} // RVA: 0x7FFAFBEB2140
+        public void ChildAlignment(){} // RVA: 0x7FFAFBEB25F0
+        public void Spacing(){} // RVA: 0x7FFAFBEB2860
+        public void ChildForceExpandWidth(){} // RVA: 0x7FFAFBEB28B0
+        public void ChildForceExpandHeight(){} // RVA: 0x7FFAFBEB2930
+        public void ChildControlWidth(){} // RVA: 0x7FFAFBEB2A30
+        public void ChildControlHeight(){} // RVA: 0x7FFAFBEB2A50
         public void ProcessAnimation(){} // RVA: 0x7FFAFBEB2F10
+        public void ChildScaleWidth(){} // RVA: 0x7FFAFBEB3040
+        public void ChildScaleHeight(){} // RVA: 0x7FFAFBEB3050
+        public void ReverseArrangement(){} // RVA: 0x7FFAFBEB30F0
+        public void MinWidth_102A85A7EFB9(){} // RVA: 0x7FFAFBEB3100
         public void get_Span(){} // RVA: 0x7FFAFBEB3360
         public void Awake(){} // RVA: 0x7FFAFBEB33C0
         public void OnDestroy(){} // RVA: 0x7FFAF34AF920
@@ -1932,21 +1949,34 @@ namespace VRC.Player
         public void .ctor(){} // RVA: 0x7FFAFBEB36F0
         public void Initialize(){} // RVA: 0x7FFAFBEB3C80
         public void ProcessAnimation_B6403326E0E2(){} // RVA: 0x7FFAFBEB3CD0
+        public void PreferredWidth_5408E2BE65F1(){} // RVA: 0x7FFAF2D33FA0
         public void ProcessAnimation_5130627CB5DA(){} // RVA: 0x7FFAFBEB3D70
         public void ProcessAnimation_864FBE5C5D0C(){} // RVA: 0x7FFAFBEB4250
+        public void PreferredHeight_E179D829BF83(){} // RVA: 0x7FFAFBEB42A0
+        public void FlexibleWidth_A11B9E15F75B(){} // RVA: 0x7FFAFBEB42B0
+        public void FlexibleHeight_DD509444DF2A(){} // RVA: 0x7FFAFBEB42D0
+        public void LayoutPriority_005BF09B7C47(){} // RVA: 0x7FFAFBEB4300
+        public void TotalFlexibleSize_B489AAA28853(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
         public void CalculateLayout(){} // RVA: 0x7FFAFBEB4460
+        public void Padding_B1F92DEC63AE(){} // RVA: 0x7FFAFBEB45A0
         public void CalculateLayout_EA8DE464E284(){} // RVA: 0x7FFAFBEB4620
+        public void ChildAlignment_05A1E75C384A(){} // RVA: 0x7FFAFBEB4630
+        public void Rect(){} // RVA: 0x7FFAFBEB4790
+        public void Tracker(){} // RVA: 0x7FFAF3546D30
+        public void TotalMinSize(){} // RVA: 0x7FFAFBEB4840
+        public void TotalPreferredSize(){} // RVA: 0x7FFAFBEAE4E0
         public void CalculateLayout_4463E66B1C10(){} // RVA: 0x7FFAFBEB48A0
+        public void RectChildren(){} // RVA: 0x7FFAFBEAE050
         public void CalculateLayout_C8984F4F8E92(){} // RVA: 0x7FFAFBEB48B0
         public void CalculateLayout_E93BDF594790(){} // RVA: 0x7FFAFBEB4930
         public void UnityEngine.UI.ILayoutElement.get_minHeight(){} // RVA: 0x7FFAF35AF380
-        // ── 74 unresolved (hash) ──
-        public void m_2BD(){} // RVA: 0x7FFAFBEAD0A0
-        public void m_AA5(){} // RVA: 0x7FFAFBEAD100
-        public void m_3EB(){} // RVA: 0x7FFAFBEAD110
-        public void m_E60(){} // RVA: 0x7FFAF474ABB0
-        public void m_EC1(){} // RVA: 0x7FFAFBEAD130
-        // ... 69 more unresolved methods
+        // ── 42 unresolved (hash) ──
+        public void m_3CA(){} // RVA: 0x7FFAFBEAD670
+        public void m_9B2(){} // RVA: 0x7FFAFBEAD770
+        public void m_B00(){} // RVA: 0x7FFAFBEADBB0
+        public void m_487(){} // RVA: 0x7FFAFBEADBD0
+        public void m_537(){} // RVA: 0x7FFAFBEADE30
+        // ... 37 more unresolved methods
     }
 
     /// <summary>Originally: ÍÏÎÏÏÏÏÎÎÍÌÍÏÍÌÌÌÍÌÍÌÏÏ</summary>

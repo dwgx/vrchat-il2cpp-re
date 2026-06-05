@@ -64,13 +64,12 @@ namespace VRC.Rendering
         public void PropertyToID(){} // RVA: 0x7FFAFB6E69B0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAFB6E6A20
+        public void PropertyIds(){} // RVA: 0x7FFAFB6E6B50
         public void PropertyToID_D79A6F811928(){} // RVA: 0x7FFAFB6E69B0
         public void PropertyToID_7B0B489765B2(){} // RVA: 0x7FFAFB6E69B0
         public void PropertyToID_DC726AD1DF09(){} // RVA: 0x7FFAFB6E69B0
         public void PropertyToID_1F651C8429FB(){} // RVA: 0x7FFAFB6E69B0
         public void PropertyToID_714E1E71FEC7(){} // RVA: 0x7FFAFB6E69B0
-        // ── Unresolved (hash) ──
-        public void m_E01(){} // RVA: 0x7FFAFB6E6B50
     }
 
     /// <summary>Originally: ÍÍÏÌÏÌÍÎÌÏÏÏÌÍÌÍÍÌÏÌÏÎÌ</summary>

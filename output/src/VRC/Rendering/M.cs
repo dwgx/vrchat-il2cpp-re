@@ -89,17 +89,16 @@ namespace VRC.Rendering
     public class MaterialMaterialPropertyBlockHandler_5543
     {
         // ── Methods ──
+        public void Renderer(){} // RVA: 0x7FFAFB6F7570
         public void GetFloatImpl(){} // RVA: 0x7FFAFB6F7690
         public void GetFloatImpl_7FD28589FE1E(){} // RVA: 0x7FFAFB6F77B0
         public void GetIntImpl(){} // RVA: 0x7FFAFB6F78D0
+        public void MaterialPropertyBlock(){} // RVA: 0x7FFAFB6F79F0
+        public void Initialized(){} // RVA: 0x7FFAFB6F7B10
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB6F7C30
         public void PropertyToID(){} // RVA: 0x7FFAFB6F7D50
         public void Awake(){} // RVA: 0x7FFAFB6F7E70
-        // ── Unresolved (hash) ──
-        public void m_BEE(){} // RVA: 0x7FFAFB6F7570
-        public void m_CB2(){} // RVA: 0x7FFAFB6F79F0
-        public void m_FC3(){} // RVA: 0x7FFAFB6F7B10
     }
 
     /// <summary>Originally: ÏÍÌÎÎÍÍÌÍÌÎÎÍÍÎÏÎÏÌÎÍÎÎ</summary>

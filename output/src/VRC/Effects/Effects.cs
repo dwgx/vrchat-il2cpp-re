@@ -114,36 +114,36 @@ namespace VRC.Effects
     public class EffectBundleIDIsSpecialFXSibliSibling_0FD8
     {
         // ── Methods ──
+        public void GetEffectBundleID(){} // RVA: 0x7FFAF2DF80B0
+        public void SetEffectBundleID(){} // RVA: 0x7FFAF2DF80B0
         public void .ctor(){} // RVA: 0x7FFAF3965C10
         public void Initialize(){} // RVA: 0x7FFAF2DF80B0
+        public void GetIsSpecialFX(){} // RVA: 0x7FFAF4618DD0
+        public void SetIsSpecialFX(){} // RVA: 0x7FFAF2DF80B0
+        public void GetSibling(){} // RVA: 0x7FFAF4619610
+        public void SetSibling(){} // RVA: 0x7FFAF2DF80B0
         // ── Unresolved (hash) ──
-        public void m_813(){} // RVA: 0x7FFAF2DF80B0
-        public void m_7DD(){} // RVA: 0x7FFAF2DF80B0
-        public void m_E5F(){} // RVA: 0x7FFAF4618DD0
-        public void m_377(){} // RVA: 0x7FFAF2DF80B0
         public void m_14E(){} // RVA: 0x7FFAF46191F0
-        public void m_4C4(){} // RVA: 0x7FFAF4619610
         public void m_8E0(){} // RVA: 0x7FFAF4619A30
-        public void m_CA8(){} // RVA: 0x7FFAF2DF80B0
     }
 
     /// <summary>Originally: ÍÌÍÍÏÍÎÌÏÎÎÍÌÎÎÌÎÍÍÎÌÍÏ</summary>
     public class EffectBundleIDIsSpecialFXSibliSibling_86A7
     {
         // ── Methods ──
+        public void EffectBundle(){} // RVA: 0x7FFAF2DF8660
         public void get_Current(){} // RVA: 0x7FFAF325B330
         public void get_Current_2D7539DB71C7(){} // RVA: 0x7FFAF325B380
         public void get_Current_09A70AE61D90(){} // RVA: 0x7FFAF325B3D0
+        public void IsSpecialFX(){} // RVA: 0x7FFAF2DF8660
+        public void Sibling(){} // RVA: 0x7FFAF2DF8670
         public void .ctor(){} // RVA: 0x7FFAF325B560
         public void Initialize(){} // RVA: 0x7FFAF325BCF0
         public void ReadCameraState(){} // RVA: 0x7FFAF325BE30
         // ── Unresolved (hash) ──
-        public void m_694(){} // RVA: 0x7FFAF2DF8660
         public void m_C29(){} // RVA: 0x7FFAF325B1F0
         public void m_64C(){} // RVA: 0x7FFAF2DF8670
-        public void m_CA8(){} // RVA: 0x7FFAF2DF8660
         public void m_07B(){} // RVA: 0x7FFAF325B510
-        public void m_3AA(){} // RVA: 0x7FFAF2DF8670
     }
 
     /// <summary>Originally: ÎÌÍÍÎÎÎÌÎÍÎÏÏÌÍÎÍÌÌÌÏÎÍ</summary>
@@ -235,8 +235,8 @@ namespace VRC.Effects
     public class EffectBundleIDIsSpecialFX_A663
     {
         // ── Methods ──
-        public void set_EffectBundleID(){} // RVA: 0x7FFAF463E490
-        public void set_IsSpecialFX(){} // RVA: 0x7FFAF2DF8600
+        public void set_IsSpecialFX(){} // RVA: 0x7FFAF463E490
+        public void set_EffectBundleID(){} // RVA: 0x7FFAF2DF8600
         public void get_EffectBundleID(){} // RVA: 0x7FFAF463E4E0
         public void get_IsSpecialFX(){} // RVA: 0x7FFAF463E530
         public void .ctor(){} // RVA: 0x7FFAF463E590
@@ -526,20 +526,25 @@ namespace VRC.Effects
         public void set_CacheWritingBehavior(){} // RVA: 0x7FFAFB885A80
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB885B80
+        public void SetCacheWritingBehavior(){} // RVA: 0x7FFAFB885D90
         public void Awake(){} // RVA: 0x7FFAFB885DA0
+        public void Ctor(){} // RVA: 0x7FFAFB886320
         public void OnDisable(){} // RVA: 0x7FFAFB886A20
         public void Start(){} // RVA: 0x7FFAFB886EF0
         public void OnDestroy(){} // RVA: 0x7FFAFB887590
         public void OnEnable(){} // RVA: 0x7FFAFB887E30
         public void ThrowLandmarksMarshalException(){} // RVA: 0x7FFAFB888000
+        public void ThrowLandmarksMarshalException_CC55E813DA8B(){} // RVA: 0x7FFAFB888110
         public void TryGetValue(){} // RVA: 0x7FFAFB888320
-        // ── 11 unresolved (hash) ──
-        public void m_4F2(){} // RVA: 0x7FFAFB885D90
-        public void m_F46(){} // RVA: 0x7FFAFB886320
+        public void TryGetValue_DCE4E92DDE39(){} // RVA: 0x7FFAFB888AE0
+        public void GetCacheWritingBehavior(){} // RVA: 0x7FFAFB888B30
+        // ── Unresolved (hash) ──
         public void m_818(){} // RVA: 0x7FFAFB886BF0
         public void m_053(){} // RVA: 0x7FFAFB8870B0
         public void m_83B(){} // RVA: 0x7FFAFB887A70
-        // ... 6 more unresolved methods
+        public void m_D20(){} // RVA: 0x7FFAFB887D70
+        public void m_004(){} // RVA: 0x7FFAFB8880C0
+        public void m_EF7(){} // RVA: 0x7FFAFB885D90
     }
 
     /// <summary>Originally: ÌÌÍÌÌÌÏÎÎÌÏÏÏÌÍÌÏÎÌÏÍÏÎ</summary>

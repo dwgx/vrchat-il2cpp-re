@@ -1170,11 +1170,11 @@ namespace VRC.Internal.Async
         public void ProcessSphericalHarmonicsL2(){} // RVA: 0x7FFAFBA5D0D0
         public void MoveNext(){} // RVA: 0x7FFAFBA5E1F0
         public void SetStateMachine(){} // RVA: 0x7FFAF2D8D310
+        public void This(){} // RVA: 0x7FFAFBA5F310
+        public void Awaiter(){} // RVA: 0x7FFAFBA60440
         // ── Unresolved (hash) ──
         public void m_440(){} // RVA: 0x7FFAF2D8D310
         public void m_4D8(){} // RVA: 0x7FFAF2D8D310
-        public void m_CE3(){} // RVA: 0x7FFAFBA5F310
-        public void m_DB9(){} // RVA: 0x7FFAFBA60440
     }
 
     /// <summary>Originally: ÌÏÌÎÎÍÎÌÏÌÌÎÌÌÎÎÍÍÍÏÏÌÍ</summary>

@@ -31,8 +31,7 @@ namespace VRC.Internal.Async
         public void MoveNext_7525F37D1DF1(){} // RVA: 0x7FFAF2D8D310
         public void MoveNext(){} // RVA: 0x7FFAF30D7D20
         public void GetHashCodeOfPtr(){} // RVA: 0x7FFAF30D8400
-        // ── Unresolved (hash) ──
-        public void m_4D8(){} // RVA: 0x7FFAF2D8D310
+        public void Ptr(){} // RVA: 0x7FFAF2D8D310
     }
 
     /// <summary>Originally: ÍÍÍÌÍÏÌÌÎÍÍÌÌÍÏÍÏÌÍÌÍÏÍ</summary>

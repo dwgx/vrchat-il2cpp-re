@@ -1040,16 +1040,22 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAFBC63570
+        public void ForceLast(){} // RVA: 0x7FFAFBC64880
+        public void OnInputFocus(){} // RVA: 0x7FFAFBC65060
         public void .ctor(){} // RVA: 0x7FFAFBC655E0
         public void Initialize(){} // RVA: 0x7FFAFBC65630
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAFBC656C0
         public void OnDestroy(){} // RVA: 0x7FFAFBC65800
-        // ── 20 unresolved (hash) ──
+        public void GetBounds(){} // RVA: 0x7FFAFBC658F0
+        public void Expand(){} // RVA: 0x7FFAFBC65980
+        public void Collapse(){} // RVA: 0x7FFAFBC65A80
+        // ── 14 unresolved (hash) ──
         public void m_0F9(){} // RVA: 0x7FFAFBC634E0
         public void m_6E5(){} // RVA: 0x7FFAFBC639F0
         public void m_662(){} // RVA: 0x7FFAFBC63B30
         public void m_0A1(){} // RVA: 0x7FFAFBC63C60
         public void m_A74(){} // RVA: 0x7FFAFBC63D80
-        // ... 15 more unresolved methods
+        // ... 9 more unresolved methods
     }
 
 }

@@ -627,6 +627,7 @@ namespace VRC.Avatar
         public object pronouns;
 
         // ── Methods ──
+        public void Location(){} // RVA: 0x7FFAF2DF8050
         public void get_Username(){} // RVA: 0x7FFAF40759E0
         public void get_DisplayName(){} // RVA: 0x7FFAF2E0E900
         public void get_Bio(){} // RVA: 0x7FFAF2DBB130
@@ -652,6 +653,7 @@ namespace VRC.Avatar
         public void get_AllowAvatarCopying(){} // RVA: 0x7FFAF2D8D310
         public void get_IsFriend(){} // RVA: 0x7FFAF4077510
         public void get_FriendRequestStatus(){} // RVA: 0x7FFAF2D8D310
+        public void ProfilePicOverride(){} // RVA: 0x7FFAF2EE5460
         public void set_Username(){} // RVA: 0x7FFAF4077520
         public void set_DisplayName(){} // RVA: 0x7FFAF4077670
         public void set_Bio(){} // RVA: 0x7FFAF2F13060
@@ -679,6 +681,8 @@ namespace VRC.Avatar
         public void set_AllowAvatarCopying(){} // RVA: 0x7FFAF2F476A0
         public void set_IsFriend(){} // RVA: 0x7FFAF2DCC010
         public void set_FriendRequestStatus(){} // RVA: 0x7FFAF4078930
+        public void UserIcon(){} // RVA: 0x7FFAF2DF8120
+        public void FallbackAvatar(){} // RVA: 0x7FFAF4078A50
         public void get_Username_1C2587(){} // RVA: 0x7FFAF2E0E910
         public void OnDestroy(){} // RVA: 0x7FFAF4078BB0
         public void set_Username_E83DEA(){} // RVA: 0x7FFAF2F734F0
@@ -742,14 +746,21 @@ namespace VRC.Avatar
         public void get_Pronouns(){} // RVA: 0x7FFAF2D8D310
         public void get_Tags_508C9A(){} // RVA: 0x7FFAF407F220
         public void set_Pronouns(){} // RVA: 0x7FFAF30E74D0
+        public void Pronouns(){} // RVA: 0x7FFAF2F14450
+        public void Username(){} // RVA: 0x7FFAF407F4D0
         public void OnApplicationFocus(){} // RVA: 0x7FFAF407F540
-        // ── 17 unresolved (hash) ──
-        public void m_639(){} // RVA: 0x7FFAF2DF8050
-        public void m_0AB(){} // RVA: 0x7FFAF2EE5460
-        public void m_5BB(){} // RVA: 0x7FFAF2DF8120
-        public void m_6F0(){} // RVA: 0x7FFAF4078A50
-        public void m_F8B(){} // RVA: 0x7FFAF2F14450
-        // ... 12 more unresolved methods
+        public void DisplayName(){} // RVA: 0x7FFAF2DBB0D0
+        public void Bio(){} // RVA: 0x7FFAF407F550
+        public void BioLinks(){} // RVA: 0x7FFAF407F6A0
+        public void CurrentAvatar(){} // RVA: 0x7FFAF407F700
+        public void CurrentAvatarImageUrl(){} // RVA: 0x7FFAF407FA10
+        public void CurrentAvatarThumbnailImageUrl(){} // RVA: 0x7FFAF2E08740
+        // ── Unresolved (hash) ──
+        public void m_936(){} // RVA: 0x7FFAF407F370
+        public void m_0E1(){} // RVA: 0x7FFAF407F380
+        public void m_031(){} // RVA: 0x7FFAF34CC8C0
+        public void m_2C4(){} // RVA: 0x7FFAF2F77C50
+        public void m_A60(){} // RVA: 0x7FFAF2DBB0C0
     }
 
 }

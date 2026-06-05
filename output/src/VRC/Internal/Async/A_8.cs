@@ -19,8 +19,8 @@ namespace VRC.Internal.Async
         // ── Methods ──
         public void get_AsyncState(){} // RVA: 0x7FFAF30E74D0
         public void set_AsyncState(){} // RVA: 0x7FFAF30E74D0
-        public void set_IsCompleted(){} // RVA: 0x7FFAF30E74D0
-        public void set_CompletedSynchronously(){} // RVA: 0x7FFAF2E0A740
+        public void set_CompletedSynchronously(){} // RVA: 0x7FFAF30E74D0
+        public void set_IsCompleted(){} // RVA: 0x7FFAF2E0A740
         public void get_IsCompleted(){} // RVA: 0x7FFAF44E3B70
         public void get_CompletedSynchronously(){} // RVA: 0x7FFAF2E44D30
         public void SetCompletedSynchronously(){} // RVA: 0x7FFAF44E3B80

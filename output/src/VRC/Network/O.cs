@@ -339,9 +339,9 @@ namespace VRC.Network
         public void Update_2B4F45D701AE(){} // RVA: 0x7FFAFBDD4890
         public void .ctor(){} // RVA: 0x7FFAFBDD4B40
         public void Initialize(){} // RVA: 0x7FFAFBDD4D30
+        public void GetCurrentPhonemeFrame(){} // RVA: 0x7FFAFBDD4FE0
         // ── Unresolved (hash) ──
         public void m_FAC(){} // RVA: 0x7FFAFBDD41E0
-        public void m_020(){} // RVA: 0x7FFAFBDD4FE0
     }
 
     /// <summary>Originally: ÍÍÏÌÌÌÍÏÏÎÍÏÏÌÎÍÌÍÌÍÌÎÏ</summary>

@@ -524,6 +524,23 @@ def stage0_gather_vocabulary():
         sources_loaded.append('jun05_lifted_vocab.json')
         print(f'        +{added:,} new names')
 
+    # ── Metadata Vocabulary Additions ────────────────────────────────
+    metadata_vocab_path = DATA_DIR / 'metadata_vocab_additions.json'
+    if metadata_vocab_path.exists():
+        print(f'\n  [7c/7] Loading metadata_vocab_additions.json ...')
+        with open(metadata_vocab_path, 'r', encoding='utf-8') as f:
+            meta_data = json.load(f)
+        before = len(unified_names)
+        meta_names = meta_data.get('unified_names', meta_data.get('method_names', []))
+        if isinstance(meta_names, list):
+            for name in meta_names:
+                if isinstance(name, str) and len(name) > 1:
+                    unified_names.add(name)
+        added = len(unified_names) - before
+        stats['metadata_vocab'] = {'total': len(meta_names), 'added': added}
+        sources_loaded.append('metadata_vocab_additions.json')
+        print(f'        +{added:,} new names from IL2CPP metadata')
+
     # ── Filter and Classify ───────────────────────────────────────────
     print(f'\n  Filtering unified vocabulary ...')
 

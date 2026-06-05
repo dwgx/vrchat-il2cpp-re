@@ -130,17 +130,24 @@ namespace VRC.Rendering
         public void SetEndWidth(){} // RVA: 0x7FFAFBBD95F0
         public void Start(){} // RVA: 0x7FFAFBBD9740
         public void SetLightProbeUsage(){} // RVA: 0x7FFAFBBD9B50
+        public void SetStartColor(){} // RVA: 0x7FFAFBBD9D10
         public void SetMaterial(){} // RVA: 0x7FFAFBBDA0F0
         public void SetMaterial_49CE05C802B2(){} // RVA: 0x7FFAFBBDA160
+        public void SetStartWidth(){} // RVA: 0x7FFAFBBDA300
         public void SetMinVertexDistance(){} // RVA: 0x7FFAFBBDA350
         public void SetMinVertexDistance_FEDE4F3005A9(){} // RVA: 0x7FFAFBBDA3A0
-        // ── 13 unresolved (hash) ──
+        public void SetTime(){} // RVA: 0x7FFAFBBDA780
+        // ── Unresolved (hash) ──
         public void m_65E(){} // RVA: 0x7FFAFBBD6480
         public void m_535(){} // RVA: 0x7FFAFBBD6A80
         public void m_1F5(){} // RVA: 0x7FFAFBBD7160
         public void m_CC8(){} // RVA: 0x7FFAFBBD81D0
         public void m_884(){} // RVA: 0x7FFAFBBD82D0
-        // ... 8 more unresolved methods
+        public void m_256(){} // RVA: 0x7FFAFBBD8830
+        public void m_EA9(){} // RVA: 0x7FFAFBBD88A0
+        public void m_9DA(){} // RVA: 0x7FFAFBBD8A60
+        public void m_595(){} // RVA: 0x7FFAFBBD8D40
+        public void m_98F(){} // RVA: 0x7FFAFBBD9410
     }
 
     /// <summary>Originally: ÏÌÌÎÎÏÍÏÏÏÍÌÌÎÌÍÎÌÍÏÎÏÌ</summary>
