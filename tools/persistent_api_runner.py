@@ -24,7 +24,8 @@ def count_preds(batch_dir):
         if not f.startswith("pred_") or not f.endswith(".json"):
             continue
         try:
-            data = json.load(open(os.path.join(batch_dir, f), encoding="utf-8"))
+            with open(os.path.join(batch_dir, f), encoding="utf-8") as fh:
+                data = json.load(fh)
             if data and len(data) > 0:
                 good += 1
                 total_p += len(data)
@@ -41,7 +42,8 @@ def clean_empty(batch_dir):
             continue
         path = os.path.join(batch_dir, f)
         try:
-            data = json.load(open(path, encoding="utf-8"))
+            with open(path, encoding="utf-8") as fh:
+                data = json.load(fh)
             if not data or len(data) == 0:
                 os.remove(path)
                 removed += 1

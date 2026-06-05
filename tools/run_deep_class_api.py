@@ -184,43 +184,31 @@ def run_one(batch_file: Path) -> tuple[str, int, str]:
     return batch_file.name, len(predictions), "ok"
 
 
-def main() -> None:
+def acquire_lock() -> None:
     BATCH_DIR.mkdir(parents=True, exist_ok=True)
-    pid = os.getpid()
-    if LOCK_PATH.exists():
-        try:
-            existing_pid = int(LOCK_PATH.read_text(encoding="utf-8").strip())
-        except Exception:
-            existing_pid = 0
-        if existing_pid and existing_pid != pid:
-            if os.name == "nt":
-                try:
-                    import ctypes
+    flags = os.O_CREAT | os.O_EXCL | os.O_WRONLY
+    try:
+        fd = os.open(LOCK_PATH, flags)
+    except FileExistsError as exc:
+        detail = LOCK_PATH.read_text(encoding="utf-8", errors="replace") if LOCK_PATH.exists() else ""
+        raise SystemExit(f"Another run appears active: {LOCK_PATH}\n{detail}") from exc
+    os.write(fd, f"pid={os.getpid()}\nstarted={time.strftime('%Y-%m-%d %H:%M:%S')}\n".encode("utf-8"))
 
-                    handle = ctypes.windll.kernel32.OpenProcess(0x1000, False, existing_pid)
-                    if handle:
-                        ctypes.windll.kernel32.CloseHandle(handle)
-                        print(f"Another deep class API runner is active: pid={existing_pid}")
-                        return
-                except Exception:
-                    pass
-            else:
-                try:
-                    os.kill(existing_pid, 0)
-                    print(f"Another deep class API runner is active: pid={existing_pid}")
-                    return
-                except OSError:
-                    pass
-    LOCK_PATH.write_text(str(pid), encoding="utf-8")
-
-    def cleanup_lock() -> None:
+    def cleanup() -> None:
         try:
-            if LOCK_PATH.exists() and LOCK_PATH.read_text(encoding="utf-8").strip() == str(pid):
-                LOCK_PATH.unlink()
-        except Exception:
+            os.close(fd)
+        except OSError:
+            pass
+        try:
+            LOCK_PATH.unlink()
+        except FileNotFoundError:
             pass
 
-    atexit.register(cleanup_lock)
+    atexit.register(cleanup)
+
+
+def main() -> None:
+    acquire_lock()
 
     workers = DEFAULT_WORKERS
     if "--workers" in sys.argv:
@@ -237,21 +225,32 @@ def main() -> None:
     total = 0
     statuses = {}
     started = time.time()
+    errors = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(run_one, batch): batch for batch in batches}
         for done, future in enumerate(concurrent.futures.as_completed(futures), 1):
-            name, count, status = future.result()
-            total += count
-            statuses[status] = statuses.get(status, 0) + 1
-            elapsed = time.time() - started
-            print(
-                f"[{done}/{len(batches)}] {name} -> {count} predictions "
-                f"({status}); elapsed={elapsed:.1f}s",
-                flush=True,
-            )
+            batch = futures[future]
+            try:
+                name, count, status = future.result()
+                total += count
+                statuses[status] = statuses.get(status, 0) + 1
+                elapsed = time.time() - started
+                print(
+                    f"[{done}/{len(batches)}] {name} -> {count} predictions "
+                    f"({status}); elapsed={elapsed:.1f}s",
+                    flush=True,
+                )
+            except Exception as exc:
+                errors += 1
+                suffix = batch.stem.split("_")[-1]
+                error_file = BATCH_DIR / f"pred_{suffix}.json.error.txt"
+                error_file.write_text(str(exc), encoding="utf-8")
+                print(f"[{done}/{len(batches)}] {batch.name} -> ERROR: {exc}", flush=True)
 
-    print(f"Done. Total predictions: {total}")
+    print(f"Done. Total predictions: {total}. Errors: {errors}")
     print("Statuses:", json.dumps(statuses, sort_keys=True))
+    if errors:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
