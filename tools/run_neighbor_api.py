@@ -22,10 +22,12 @@ BATCH_DIR = BASE / "output" / "llm_batches_neighbor"
 LOCK_PATH = BATCH_DIR / "run_neighbor_api.lock"
 
 API_URL = os.environ.get(
-    "NEIGHBOR_API_URL",
-    "https://REDACTED_API_HOST/v1/chat/completions",
+    "OPENAI_API_BASE",
+    os.environ.get("NEIGHBOR_API_URL", ""),
 )
-API_KEY = os.environ.get("NEIGHBOR_API_KEY", "REDACTED_API_KEY")
+if API_URL and not API_URL.endswith("/chat/completions"):
+    API_URL = API_URL.rstrip("/") + "/v1/chat/completions"
+API_KEY = os.environ.get("OPENAI_API_KEY", os.environ.get("NEIGHBOR_API_KEY", ""))
 MODEL = os.environ.get("NEIGHBOR_MODEL", "gpt-5.5")
 RETRY_CODES = {429, 500, 502, 503, 504}
 
@@ -162,6 +164,12 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--concurrent", type=int, default=3)
     args = parser.parse_args()
+
+    if not API_KEY:
+        raise SystemExit("OPENAI_API_KEY not set. Export it before running.")
+    if not API_URL:
+        raise SystemExit("OPENAI_API_BASE not set. Export it before running.")
+
     acquire_lock()
 
     batches = sorted(BATCH_DIR.glob("batch_*.json"))

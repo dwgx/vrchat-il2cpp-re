@@ -894,7 +894,7 @@ def main() -> None:
     run.add_argument("--end", type=int)
     run.add_argument("--concurrent", type=int, default=4)
     run.add_argument("--force", action="store_true")
-    run.add_argument("--api-base", default="https://REDACTED_API_HOST")
+    run.add_argument("--api-base", default=os.environ.get("OPENAI_API_BASE", ""))
     run.add_argument("--model", default="gpt-5.5")
     run.add_argument("--temperature", type=float, default=0.15)
     run.add_argument("--max-tokens", type=int, default=8192)
