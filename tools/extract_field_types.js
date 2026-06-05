@@ -6,16 +6,15 @@
  * and extracts the field TYPE names that the Python dump didn't capture.
  *
  * Il2CppClass layout (from our research):
- *   +0x58: name (char*)
- *   +0x78: MethodInfo** methods
- *   +0x88: FieldInfo* fields
- *   +0x100: u16 method_count
+ *   +0x50: name (char*)
+ *   +0x88: MethodInfo** methods
+ *   +0x1D8: FieldInfo* fields
+ *   +0x120: u16 method_count
  *   +0x122: u16 field_count
  *
  * FieldInfo layout (stride 0x30):
  *   +0x00: Il2CppType* type
- *   +0x08: char* name (at +0x20 based on our findings, let's verify)
- *   +0x20: char* name
+ *   +0x08: char* name
  *
  * Il2CppType:
  *   +0x00: void* data (union: Il2CppClass* for CLASS/VALUETYPE, etc.)
@@ -41,7 +40,7 @@ function extractFieldTypes(classVa) {
         const classPtr = ptr(classVa);
 
         // Read class name
-        const namePtr = classPtr.add(0x58).readPointer();
+        const namePtr = classPtr.add(0x50).readPointer();
         const className = readCString(namePtr);
         if (!className) return null;
 
@@ -50,15 +49,15 @@ function extractFieldTypes(classVa) {
         if (fieldCount === 0 || fieldCount > 500) return null;
 
         // Read fields pointer
-        const fieldsPtr = classPtr.add(0x88).readPointer();
+        const fieldsPtr = classPtr.add(0x1D8).readPointer();
         if (fieldsPtr.isNull()) return null;
 
         const fields = [];
         for (let i = 0; i < fieldCount; i++) {
             const fieldBase = fieldsPtr.add(i * 0x30);
 
-            // Field name at +0x20
-            const fieldNamePtr = fieldBase.add(0x20).readPointer();
+            // Field name at +0x08
+            const fieldNamePtr = fieldBase.add(0x08).readPointer();
             const fieldName = readCString(fieldNamePtr);
 
             // Field type at +0x00
@@ -69,10 +68,10 @@ function extractFieldTypes(classVa) {
             if (!typePtr.isNull()) {
                 try {
                     // Il2CppType -> data is a union. For class/valuetype,
-                    // data points to Il2CppClass* which has name at +0x58
+                    // data points to Il2CppClass* which has name at +0x50
                     const typeClassPtr = typePtr.readPointer();
                     if (!typeClassPtr.isNull()) {
-                        const typeNameP = typeClassPtr.add(0x58).readPointer();
+                        const typeNameP = typeClassPtr.add(0x50).readPointer();
                         typeName = readCString(typeNameP) || "unknown";
                         const typeNsP = typeClassPtr.add(0x18).readPointer();
                         typeNamespace = readCString(typeNsP) || "";

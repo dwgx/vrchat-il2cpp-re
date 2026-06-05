@@ -20,9 +20,21 @@ t0 = time.time()
 
 # Load all data
 print('Loading data...')
-with open(BASE_DIR / 'data' / 'ida_analysis.json', 'r', encoding='utf-8') as f:
-    ida = json.load(f)
-funcs = ida['functions']
+ida_path = BASE_DIR / 'data' / 'ida_analysis.json'
+method_strings_path = BASE_DIR / 'data' / 'all_method_strings_jun05.json'
+funcs = {}
+method_strings_by_va = {}
+if ida_path.exists():
+    with open(ida_path, 'r', encoding='utf-8') as f:
+        ida = json.load(f)
+    funcs = ida['functions']
+elif method_strings_path.exists():
+    with open(method_strings_path, 'r', encoding='utf-8') as f:
+        method_strings_by_va = json.load(f)
+else:
+    raise FileNotFoundError(
+        f'Need either {ida_path} or {method_strings_path} to build string API names'
+    )
 
 with open(BASE_DIR / 'data' / 'precise_dump.json', 'r', encoding='utf-8') as f:
     raw = json.load(f)
@@ -55,7 +67,10 @@ for ns, classes in raw['namespaces'].items():
             except Exception:
                 pass
 
-print(f'  {len(rva_to_method):,} method pointers, {len(funcs):,} IDA functions')
+if funcs:
+    print(f'  {len(rva_to_method):,} method pointers, {len(funcs):,} IDA functions')
+else:
+    print(f'  {len(rva_to_method):,} method pointers, {len(method_strings_by_va):,} native string buckets')
 
 # Parse Unity API signatures
 UNITY_API_RE = re.compile(r'(UnityEngine(?:\.\w+)*)\.(\w+)::(\w+)\(')
@@ -139,18 +154,23 @@ def derive_method_name(strings, cls_name=''):
     calls = [method for act, method in actions if act == 'call']
 
     # Name generation
+    def clean_member_name(name):
+        name = re.sub(r'_Injected$', '', name)
+        if not name:
+            return name
+        return name[0].upper() + name[1:]
+
     if len(sets) > len(gets) and len(sets) > len(calls):
         # Primarily setting properties
         main_prop = max(set(sets), key=sets.count)
-        # Clean up _Injected suffix artifacts
-        main_prop = re.sub(r'_Injected$', '', main_prop)
+        main_prop = clean_member_name(main_prop)
         if len(sets) > 2:
             return f'Configure{primary_domain}'
         return f'Set{main_prop}'
 
     elif calls:
         main_call = max(set(calls), key=calls.count)
-        main_call = re.sub(r'_Injected$', '', main_call)
+        main_call = clean_member_name(main_call)
         if main_call in ('Destroy', 'Release', 'Dispose'):
             return f'{main_call}{primary_domain}'
         elif main_call in ('Instantiate', 'Create'):
@@ -163,7 +183,7 @@ def derive_method_name(strings, cls_name=''):
 
     elif gets:
         main_prop = max(set(gets), key=gets.count)
-        main_prop = re.sub(r'_Injected$', '', main_prop)
+        main_prop = clean_member_name(main_prop)
         if len(gets) > 2:
             return f'Read{primary_domain}Properties'
         return f'Get{main_prop}'
@@ -209,19 +229,31 @@ for ns, classes in raw['namespaces'].items():
             # Get deobfuscated class name
             deobf_cn = name_map.get('classes', {}).get(obf_cn, obf_cn)
 
-            # Find IDA function
-            try:
-                rva = int(addr_str, 16) - DLL_BASE
-            except Exception:
-                no_rva += 1
-                continue
+            if funcs:
+                # Find IDA function
+                try:
+                    rva = int(addr_str, 16) - DLL_BASE
+                except Exception:
+                    no_rva += 1
+                    continue
 
-            ida_addr = hex(rva + IDA_BASE)
-            if ida_addr not in funcs:
-                no_ida += 1
-                continue
+                ida_addr = hex(rva + IDA_BASE)
+                if ida_addr not in funcs:
+                    no_ida += 1
+                    continue
 
-            strings = funcs[ida_addr].get('strings', [])
+                strings = funcs[ida_addr].get('strings', [])
+            else:
+                try:
+                    va_key = f'0x{int(addr_str, 16):X}'
+                except Exception:
+                    no_rva += 1
+                    continue
+                strings = method_strings_by_va.get(va_key, [])
+                if not strings:
+                    no_strings += 1
+                    continue
+
             if not strings:
                 no_strings += 1
                 continue

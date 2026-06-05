@@ -888,7 +888,7 @@ def main() -> int:
     mapping = load_json(args.mapping)
     deobf = load_json(args.deobf)
     precise = load_json(args.precise)
-    contexts = load_json(args.contexts)
+    contexts = load_json(args.contexts) if Path(args.contexts).exists() else {}
 
     existing_names = set(str(value) for value in mapping.get("classes", {}).values() if isinstance(value, str))
 

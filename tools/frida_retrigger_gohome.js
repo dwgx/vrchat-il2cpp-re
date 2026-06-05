@@ -11,6 +11,7 @@
 
 var ga = Process.getModuleByName("GameAssembly.dll");
 var BASE = ga.base;
+var OFF_KLASS_NAME = 0x50;
 
 function msg(t) { send(t); }
 
@@ -24,8 +25,8 @@ msg("GA base: " + BASE);
 // Step 1: Verify FlowManager klass is valid
 var klassName = "";
 try {
-    // Il2CppClass+0x58 = name (char*)
-    var namePtr = FM_KLASS_VA.add(0x58).readPointer();
+    // Il2CppClass+0x50 = name (char*)
+    var namePtr = FM_KLASS_VA.add(OFF_KLASS_NAME).readPointer();
     klassName = namePtr.readCString();
     msg("FlowManager klass name: " + klassName);
 } catch(e) {

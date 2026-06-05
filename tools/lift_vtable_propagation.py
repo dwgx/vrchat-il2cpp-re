@@ -17,7 +17,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 HASH_RE = re.compile(r"^m_[0-9A-F]{3}$")
 NAMESPACE_RE = re.compile(r"^\s*namespace\s+([^\s{]+)\s*$")
-CLASS_RE = re.compile(r"^\s*(?:public\s+)?class\s+([^\s:{]+)(?:\s*:\s*([^{]+))?\s*$")
+CLASS_RE = re.compile(r"^\s*(?:public\s+)?class\s+([^\s:]+)(?:\s*:\s*([^{]+))?\s*$")
 METHOD_RE = re.compile(
     r"^\s*(?P<ret>.+?)\s+(?P<name>[^\s(]+)\((?P<params>.*)\)\s*;\s*(?://\s*(?P<va>0x[0-9A-Fa-f]+))?\s*$"
 )
@@ -294,17 +294,14 @@ def build_records(
         occ_index = occurrence_index[occ_key]
         try:
             parsed_cls = cs_occurrences[occ_key][occ_index]
-        except IndexError as exc:
-            raise ValueError(
-                f"Missing parsed C# class occurrence for {namespace}::{semantic_name} #{occ_index}"
-            ) from exc
+        except IndexError:
+            validation["missing_parsed_class"] += 1
+            continue
         occurrence_index[occ_key] += 1
 
         if len(parsed_cls.method_names) != len(raw_methods):
-            raise ValueError(
-                f"Method count mismatch for {namespace}::{semantic_name}: "
-                f"{len(raw_methods)} precise vs {len(parsed_cls.method_names)} C#"
-            )
+            validation["method_count_mismatches"] += 1
+            continue
 
         if parsed_cls.method_names == effective_names:
             validation["method_name_matches"] += 1

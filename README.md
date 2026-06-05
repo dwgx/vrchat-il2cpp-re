@@ -1,40 +1,40 @@
 # VRChat IL2CPP Reverse Engineering
 
-> **2026-05-02 build revived (May 3)** — 86,586 classes, 517,592 methods, 92,885 fields
+> **2026-06-05 build** - 88,400 classes, 528,135 methods, 2,870 fields
 > Beebyte rotated struct layout; new offsets reverse-engineered and pipeline re-run
 > GameAssembly.dll (210 MB) | IL2CPP v29.1 | Unity 2022.3.x | Beebyte Obfuscation
 
-## Coverage (May 2 build)
+## Coverage (June 5 build)
 
 | Metric | Count | Coverage |
 |--------|------:|----------|
-| Classes (semantic) | 80,621 / 86,586 | **93.1%** (0 obfuscated remaining) |
-| Methods (semantic) | 480,821 / 517,592 | **92.9%** (0 obfuscated remaining) |
-| Fields (semantic + typed) | 86,113 / 92,885 | **92.7%** semantic, 95.6% typed |
-| Identifiers total | 647,555 / 697,063 | **92.9%** resolved |
-| Unique source files | 1,356 | — |
+| Classes (semantic) | 83,873 / 88,400 | **94.9%** (0 obfuscated remaining) |
+| Methods (semantic) | 440,440 / 528,135 | **83.4%** semantic |
+| Fields (semantic + typed) | 2,712 / 2,870 | **94.5%** semantic |
+| Identifiers total | 527,025 / 619,405 | **85.1%** semantic |
+| Unique source files | 2,179 | — |
 | Pipeline runtime | ~25s full run + 5s field types | — |
 
 Earlier build (2026-04-25): 99.78% across 43,158 classes / 305,681 methods / 41,286 fields.
-May-2 coverage will rise above 99% once a fresh Apr→May class_map is produced from a
-paired old/new dump pair.
+June-5 coverage will rise as more global-namespace fallback names are lifted from
+method bodies, strings, cross-version matches, and runtime metadata.
 
-## Beebyte struct layout (May 2 build)
+## Beebyte struct layout (June 5 build)
 
 Beebyte shuffles `Il2CppClass`/`FieldInfo`/`MethodInfo` field positions every release.
 The pipeline re-discovers them with `tools/reverse_struct_layout.py`.
 
-| Offset | Apr 18 | Apr 25 | **May 2** |
-|--------|-------:|-------:|----------:|
-| OFF_NAME | 0x10 | 0x10 | **0x50** |
-| OFF_CAST | 0x48 | 0x48 | **0x80** |
-| OFF_FIELDS | 0xA8 | 0xA8 | **0x10** |
-| OFF_METHODS | 0x78 | 0x78 | **0x90** |
-| MI_NAME | 0x28 | 0x28 | **0x18** |
-| FI_STRIDE | 0x30 | 0x30 | **0x28** |
-| FI_NAME | 0x10 | 0x10 | **0x00** |
-| FIELD_TYPE_OFF | 0x10 | 0x10 | **0x18** |
-| FIELD_PACKED_OFF | 0x18 | 0x18 | **0x20** |
+| Offset | Apr 18 | May 2 | **Jun 5** |
+|--------|-------:|------:|----------:|
+| OFF_NAME | 0x10 | 0x50 | **0x50** |
+| OFF_ELEM | — | 0x40 | **0x10** |
+| OFF_CAST | 0x48 | 0x80 | **0x40** |
+| OFF_FIELDS | 0xA8 | 0x10 | **0x1D8** |
+| OFF_METHODS | 0x78 | 0x90 | **0x88** |
+| OFF_PARENT | — | 0xA0 | **0x80** |
+| MI_NAME | 0x28 | 0x18 | **0x18** |
+| FI_STRIDE | 0x30 | 0x28 | **0x30** |
+| FI_NAME | 0x10 | 0x00 | **0x08** |
 
 ## Quick Start
 
