@@ -16,6 +16,9 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+STRUCTURAL_RENAMES_PATH = BASE_DIR / 'output' / 'structural_renames.json'
+
 # ── Constants ──────────────────────────────────────────────────────────
 
 OBF_RE = re.compile(r'^[\u00CC\u00CD\u00CE\u00CF]{3,}$')
@@ -337,17 +340,110 @@ class Deobfuscator:
                 if props:
                     self.class_properties[name] = list(set(props))
 
+        self._class_alias_to_current = self._build_class_alias_index()
+        self._class_current_to_aliases = self._build_reverse_class_alias_index()
         self._lifted_vocab = self._load_lifted_vocab()
         self._lifted_class_names = self._lifted_vocab.get('class_name_map', {})
         self._lifted_method_names = self._lifted_vocab.get('method_name_map', {})
         self._lifted_field_names = self._lifted_vocab.get('field_name_map', {})
+        self._lifted_cross_version_method_names = self._lifted_vocab.get('cross_version_method_names', {})
+        self._add_lifted_match_aliases(self._lifted_vocab.get('match_details', []))
 
         total_obf = sum(1 for n in self.class_index if is_obf(n))
         print(f'Indexed {len(self.class_index)} classes, {total_obf} obfuscated')
 
+    def _build_class_alias_index(self) -> dict[str, str]:
+        alias_to_current: dict[str, str] = {}
+        for name, (_, cls) in self.class_index.items():
+            alias_to_current.setdefault(name, name)
+            original = cls.get('original_name')
+            if isinstance(original, str) and original:
+                alias_to_current.setdefault(original, name)
+        return alias_to_current
+
+    def _build_reverse_class_alias_index(self) -> dict[str, list[str]]:
+        current_to_aliases: dict[str, list[str]] = collections.defaultdict(list)
+        for alias, current in self._class_alias_to_current.items():
+            current_to_aliases[current].append(alias)
+        return current_to_aliases
+
+    def _add_lifted_match_aliases(self, match_details):
+        if not isinstance(match_details, list):
+            return
+        added = 0
+        for item in match_details:
+            if not isinstance(item, dict):
+                continue
+            current = item.get('new_obf') or item.get('new') or item.get('new_name')
+            if not isinstance(current, str) or current not in self.class_index:
+                continue
+            for key in ('old', 'old_name', 'old_obf', 'new', 'new_name', 'new_obf'):
+                alias = item.get(key)
+                if isinstance(alias, str) and alias and alias not in self._class_alias_to_current:
+                    self._class_alias_to_current[alias] = current
+                    self._class_current_to_aliases[current].append(alias)
+                    added += 1
+        if added:
+            print(f'  Added {added} lifted class aliases from match_details')
+
+    def _resolve_lifted_class_key(self, name: str) -> str | None:
+        return self._class_alias_to_current.get(name)
+
+    def _method_lookup_keys(self, class_name: str, method_name: str) -> list[str]:
+        h = stable_hash(method_name, 3)
+        keys = [
+            f'{class_name}::{method_name}',
+            f'{class_name}::m_{h}',
+        ]
+        cls = self.class_index.get(class_name, (None, {}))[1]
+        aliases = [class_name]
+        if isinstance(cls, dict):
+            original = cls.get('original_name')
+            if isinstance(original, str) and original:
+                aliases.append(original)
+        mapped = self.class_map.get(class_name)
+        if mapped:
+            aliases.append(mapped)
+        aliases.extend(self._class_current_to_aliases.get(class_name, []))
+
+        seen = set(keys)
+        for alias in aliases:
+            if not alias:
+                continue
+            for key in (f'{alias}::{method_name}', f'{alias}::m_{h}'):
+                if key not in seen:
+                    keys.append(key)
+                    seen.add(key)
+        return keys
+
+    def _lookup_method_name(self, mappings: dict, class_name: str, method_name: str) -> str | None:
+        if not isinstance(mappings, dict):
+            return None
+        for key in self._method_lookup_keys(class_name, method_name):
+            candidate = mappings.get(key)
+            if isinstance(candidate, str) and candidate:
+                return candidate
+        return None
+
     def _load_lifted_vocab(self) -> dict:
         base_dir = Path(__file__).resolve().parent.parent
-        path = base_dir / 'data' / 'apr25_lifted_vocab.json'
+        data_dir = base_dir / 'data'
+
+        def merge_maps(target: dict, source: dict):
+            for key in ('class_name_map', 'method_name_map', 'field_name_map',
+                        'cross_version_method_names', 'signature_to_name'):
+                items = source.get(key, {})
+                if isinstance(items, dict):
+                    target.setdefault(key, {}).update(items)
+            for key in ('match_details', 'conflicts'):
+                items = source.get(key, [])
+                if isinstance(items, list):
+                    target.setdefault(key, []).extend(items)
+            target.setdefault('sources_loaded', []).append(source.get('_source_name', '<memory>'))
+
+        merged: dict = {}
+        loaded = []
+        path = data_dir / 'apr25_lifted_vocab.json'
         if not path.exists():
             try:
                 from lift_apr18_to_apr25_vocab import build_lifted_vocab
@@ -356,22 +452,52 @@ class Deobfuscator:
                       f'({len(data.get("class_name_map", {}))} classes, '
                       f'{len(data.get("method_name_map", {}))} methods, '
                       f'{len(data.get("field_name_map", {}))} fields)')
-                return data
+                data['_source_name'] = 'apr25_lifted_vocab.json'
+                merge_maps(merged, data)
+                loaded.append('apr25_lifted_vocab.json')
             except Exception as e:
                 print(f'  Failed to build apr25 lifted vocab in-memory: {e}')
-                return {}
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            if isinstance(data, dict):
-                print(f'  Using apr25_lifted_vocab.json '
-                      f'({len(data.get("class_name_map", {}))} classes, '
-                      f'{len(data.get("method_name_map", {}))} methods, '
-                      f'{len(data.get("field_name_map", {}))} fields)')
-                return data
-        except Exception as e:
-            print(f'  Failed to load apr25_lifted_vocab.json: {e}')
-        return {}
+        else:
+            try:
+                with open(path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                if isinstance(data, dict):
+                    print(f'  Using apr25_lifted_vocab.json '
+                          f'({len(data.get("class_name_map", {}))} classes, '
+                          f'{len(data.get("method_name_map", {}))} methods, '
+                          f'{len(data.get("field_name_map", {}))} fields)')
+                    data['_source_name'] = 'apr25_lifted_vocab.json'
+                    merge_maps(merged, data)
+                    loaded.append('apr25_lifted_vocab.json')
+            except Exception as e:
+                print(f'  Failed to load apr25_lifted_vocab.json: {e}')
+
+        for filename in ('jun05_lifted_vocab.json',):
+            path = data_dir / filename
+            if not path.exists():
+                continue
+            try:
+                with open(path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                if isinstance(data, dict):
+                    print(f'  Using {filename} '
+                          f'({len(data.get("class_name_map", {}))} classes, '
+                          f'{len(data.get("method_name_map", {}))} methods, '
+                          f'{len(data.get("field_name_map", {}))} fields, '
+                          f'{len(data.get("cross_version_method_names", {}))} cross-version methods)')
+                    data['_source_name'] = filename
+                    merge_maps(merged, data)
+                    loaded.append(filename)
+            except Exception as e:
+                print(f'  Failed to load {filename}: {e}')
+
+        if loaded:
+            print(f'  Merged lifted vocab: '
+                  f'{len(merged.get("class_name_map", {}))} classes, '
+                  f'{len(merged.get("method_name_map", {}))} methods, '
+                  f'{len(merged.get("field_name_map", {}))} fields, '
+                  f'{len(merged.get("cross_version_method_names", {}))} cross-version methods')
+        return merged
 
     def unique_name(self, base: str, obf_name: str) -> str:
         """Generate unique name with stable hash suffix."""
@@ -447,15 +573,26 @@ class Deobfuscator:
     def phase0_lifted_names(self):
         print('\n=== Phase 0: Direct Lifted Names ===')
         applied = 0
-        for obf_name, semantic_name in self._lifted_class_names.items():
-            if not is_obf(obf_name) or is_obf(semantic_name):
+        resolved = 0
+        skipped = 0
+        for lifted_key, semantic_name in self._lifted_class_names.items():
+            if not isinstance(lifted_key, str) or not isinstance(semantic_name, str) or is_obf(semantic_name):
+                skipped += 1
                 continue
-            if obf_name not in self.class_index or obf_name in self.class_map:
+            current_name = self._resolve_lifted_class_key(lifted_key)
+            if not current_name:
+                skipped += 1
                 continue
-            self.class_map[obf_name] = self.unique_name(semantic_name, obf_name)
+            if not is_obf(current_name) or current_name in self.class_map:
+                skipped += 1
+                continue
+            if current_name != lifted_key:
+                resolved += 1
+            self.class_map[current_name] = self.unique_name(semantic_name, current_name)
             applied += 1
         self.stats['phase0_lifted'] = applied
-        print(f'  Applied {applied} lifted class names')
+        self.stats['phase0_lifted_resolved_alias'] = resolved
+        print(f'  Applied {applied} lifted class names ({resolved} via alias, {skipped} skipped)')
 
     # ── Phase 2: Semantic Method Analysis ──────────────────────────────
 
@@ -829,9 +966,13 @@ class Deobfuscator:
         base_dir = Path(__file__).resolve().parent.parent
         deep_path = base_dir / 'output' / 'deep_analysis.json'
         string_refs_path = base_dir / 'output' / 'method_string_refs.json'
-        # Fallback to legacy paths
+        # Fallback to data/ directory, then legacy paths
+        if not deep_path.exists():
+            deep_path = base_dir / 'data' / 'deep_analysis.json'
         if not deep_path.exists():
             deep_path = Path(__file__).parent / 'il2cpp_full_dump' / 'deep_analysis.json'
+        if not string_refs_path.exists():
+            string_refs_path = base_dir / 'data' / 'method_string_refs.json'
         if not string_refs_path.exists():
             string_refs_path = Path(__file__).parent / 'il2cpp_full_dump' / 'method_string_refs.json'
 
@@ -1076,6 +1217,60 @@ class Deobfuscator:
             self.stats['phase7_fallback'] += 1
 
         print(f'  Fallback-named {self.stats.get("phase7_fallback", 0)} classes')
+
+    def apply_structural_fallback_renames(self):
+        """Apply old fallback name -> better structural name overrides after phase 7."""
+        print('\n=== Structural Fallback Renames ===')
+
+        if not STRUCTURAL_RENAMES_PATH.exists():
+            print(f'  {STRUCTURAL_RENAMES_PATH.name} not found, skipping')
+            return
+
+        with open(STRUCTURAL_RENAMES_PATH, 'r', encoding='utf-8') as f:
+            renames = json.load(f)
+
+        if not isinstance(renames, dict):
+            print('  Invalid structural_renames.json format, skipping')
+            return
+
+        fallback_to_obf = {}
+        for obf_name, current_name in self.class_map.items():
+            fallback_to_obf.setdefault(current_name, []).append(obf_name)
+
+        applied = 0
+        missing = 0
+        ambiguous = 0
+        conflicts = 0
+        current_names = set(self.class_map.values())
+
+        for old_fallback, better_name in renames.items():
+            if not isinstance(old_fallback, str) or not isinstance(better_name, str):
+                continue
+
+            obf_names = fallback_to_obf.get(old_fallback, [])
+            if not obf_names:
+                missing += 1
+                continue
+            if len(obf_names) > 1:
+                ambiguous += 1
+                continue
+
+            obf_name = obf_names[0]
+            if better_name in current_names and self.class_map.get(obf_name) != better_name:
+                conflicts += 1
+                continue
+
+            self.class_map[obf_name] = better_name
+            self.used_names.discard(old_fallback)
+            self.used_names.add(better_name)
+            current_names.discard(old_fallback)
+            current_names.add(better_name)
+            applied += 1
+
+        self.stats['structural_fallback_renames'] = applied
+        print(f'  Applied {applied} structural fallback renames')
+        if missing or ambiguous or conflicts:
+            print(f'  Skipped: {missing} missing, {ambiguous} ambiguous, {conflicts} conflicts')
 
     # ── Method & Field Renaming ────────────────────────────────────────
 
@@ -1716,6 +1911,11 @@ class Deobfuscator:
                 print(f'  Loaded {len(cross_ver_names)} cross-version lifted method names')
             except Exception:
                 pass
+        lifted_cross_ver = getattr(self, '_lifted_cross_version_method_names', {})
+        if isinstance(lifted_cross_ver, dict) and lifted_cross_ver:
+            before = len(cross_ver_names)
+            cross_ver_names.update(lifted_cross_ver)
+            print(f'  Merged {len(cross_ver_names) - before} lifted-vocab cross-version method names')
 
         # Load VA-based name propagation
         va_prop_names = {}
@@ -1794,8 +1994,8 @@ class Deobfuscator:
 
                 # Try direct Apr18->Apr25 lift first
                 deep_key = f'{name}::{m}'
-                if deep_key in self._lifted_method_names:
-                    candidate = self._lifted_method_names[deep_key]
+                candidate = self._lookup_method_name(self._lifted_method_names, name, m)
+                if candidate:
                     if candidate and not is_obf(candidate):
                         if candidate in used_method_names:
                             long_h = stable_hash(m, 12)
@@ -1820,19 +2020,15 @@ class Deobfuscator:
 
                 # Try cross-version lifted name (from prior version's deobfuscation)
                 if not new_name and cross_ver_names:
-                    deobf_cn = self.class_map.get(name, name)
-                    h = stable_hash(m, 3)
-                    cv_key = f'{deobf_cn}::m_{h}'
-                    if cv_key in cross_ver_names:
-                        candidate = cross_ver_names[cv_key]
-                        if candidate:
-                            if candidate in used_method_names:
-                                long_h = stable_hash(m, 12)
-                                candidate = f'{candidate}_{long_h}'
-                            if candidate not in used_method_names:
-                                new_name = candidate
-                                used_method_names.add(candidate)
-                                method_semantic += 1
+                    candidate = self._lookup_method_name(cross_ver_names, name, m)
+                    if candidate:
+                        if candidate in used_method_names:
+                            long_h = stable_hash(m, 12)
+                            candidate = f'{candidate}_{long_h}'
+                        if candidate not in used_method_names:
+                            new_name = candidate
+                            used_method_names.add(candidate)
+                            method_semantic += 1
 
                 # Try VA-based name propagation (same code = same function)
                 if not new_name and deep_key in va_prop_names:
@@ -1949,14 +2145,10 @@ class Deobfuscator:
 
                 # Try cross-version lifted name again with updated class_map
                 if not new_name and cross_ver_names:
-                    deobf_cn = self.class_map.get(name, name)
-                    h = stable_hash(m, 3)
-                    cv_key = f'{deobf_cn}::m_{h}'
-                    if cv_key in cross_ver_names:
-                        candidate = cross_ver_names[cv_key]
-                        if candidate and candidate not in used_method_names:
-                            new_name = candidate
-                            used_method_names.add(candidate)
+                    candidate = self._lookup_method_name(cross_ver_names, name, m)
+                    if candidate and candidate not in used_method_names:
+                        new_name = candidate
+                        used_method_names.add(candidate)
 
                 # Try context-based inference with pass 2 neighbor expansion
                 if not new_name:
@@ -2413,6 +2605,7 @@ class Deobfuscator:
         self.phase6b_shared_methods()
         self.phase6c_binary_strings()
         self.phase7_fallback()
+        self.apply_structural_fallback_renames()
         self.rename_methods_and_fields()
         self.apply_and_save(output_dir)
 

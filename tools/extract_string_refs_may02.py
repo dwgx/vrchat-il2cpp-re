@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import sys
+import argparse
 from pathlib import Path
 
 import pefile
@@ -29,6 +30,7 @@ GA_PATH = Path(r'D:\Steam\steamapps\common\VRChat\GameAssembly.dll')
 DUMP_PATH = BASE / 'data' / 'precise_dump.json'
 CLASS_OUT = BASE / 'data' / 'method_string_refs_may02.json'
 METHOD_OUT = BASE / 'data' / 'all_method_strings_may02.json'
+WRAPPED_OUT = None
 
 SCAN_BYTES = 512
 MIN_STR = 4
@@ -36,13 +38,33 @@ MAX_STR = 200
 MIN_PRINTABLE_RATIO = 0.85
 
 
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--dll', default=str(GA_PATH), help='Path to GameAssembly.dll')
+    p.add_argument('--dump', default=str(DUMP_PATH), help='Path to precise_dump.json')
+    p.add_argument('--class-out', default=str(CLASS_OUT), help='Class string-ref output JSON')
+    p.add_argument('--method-out', default=str(METHOD_OUT), help='Method VA string-ref output JSON')
+    p.add_argument('--wrapped-out', default=WRAPPED_OUT,
+                   help='Optional pipeline-compatible output with class_string_refs metadata')
+    p.add_argument('--scan-bytes', type=int, default=SCAN_BYTES)
+    return p.parse_args()
+
+
 def main() -> None:
-    if not GA_PATH.exists():
-        print(f'[!] {GA_PATH} not found')
+    args = parse_args()
+    ga_path = Path(args.dll)
+    dump_path = Path(args.dump)
+    class_out = Path(args.class_out)
+    method_out = Path(args.method_out)
+    wrapped_out = Path(args.wrapped_out) if args.wrapped_out else None
+    scan_bytes = args.scan_bytes
+
+    if not ga_path.exists():
+        print(f'[!] {ga_path} not found')
         sys.exit(1)
 
-    print(f'[+] Loading PE: {GA_PATH}')
-    pe = pefile.PE(str(GA_PATH), fast_load=True)
+    print(f'[+] Loading PE: {ga_path}')
+    pe = pefile.PE(str(ga_path), fast_load=True)
     sections = []
     for sec in pe.sections:
         sections.append({
@@ -64,12 +86,12 @@ def main() -> None:
                 return s['raw_offset'] + (rva - s['va'])
         return None
 
-    print(f'[+] Reading {GA_PATH.name} into memory...')
-    ga_data = GA_PATH.read_bytes()
+    print(f'[+] Reading {ga_path.name} into memory...')
+    ga_data = ga_path.read_bytes()
     print(f'    {len(ga_data) / 1024 / 1024:.1f} MB')
 
-    print(f'[+] Loading dump: {DUMP_PATH}')
-    dump = json.loads(DUMP_PATH.read_text(encoding='utf-8'))
+    print(f'[+] Loading dump: {dump_path}')
+    dump = json.loads(dump_path.read_text(encoding='utf-8'))
 
     # IL2CPP layout: method bodies live in the custom `il2cpp` section, NOT
     # `.text`. .text is only ~11 MB of trampoline stubs.
@@ -127,10 +149,10 @@ def main() -> None:
 
     def scan_method(rva: int) -> list[str]:
         off = rva_to_off(rva)
-        if off is None or off + SCAN_BYTES > len(ga_data):
+        if off is None or off + scan_bytes > len(ga_data):
             return []
         seen: set[str] = set()
-        for insn in cs.disasm(ga_data[off:off + SCAN_BYTES], rva, count=120):
+        for insn in cs.disasm(ga_data[off:off + scan_bytes], rva, count=120):
             if insn.mnemonic == 'lea' and len(insn.operands) == 2:
                 op = insn.operands[1]
                 if op.type == CS_OP_MEM and op.mem.base == X86_REG_RIP:
@@ -189,10 +211,25 @@ def main() -> None:
     print(f'    {len(classes_with_strs)} classes ({100*len(classes_with_strs)/scanned:.1f}%) have string refs')
     print(f'    {len(methods_with_strs)} method-VA buckets')
 
-    CLASS_OUT.write_text(json.dumps(classes_with_strs, indent=1, ensure_ascii=False), encoding='utf-8')
-    METHOD_OUT.write_text(json.dumps(methods_with_strs, indent=1, ensure_ascii=False), encoding='utf-8')
-    print(f'    -> {CLASS_OUT}  ({CLASS_OUT.stat().st_size/1024/1024:.1f} MB)')
-    print(f'    -> {METHOD_OUT}  ({METHOD_OUT.stat().st_size/1024/1024:.1f} MB)')
+    class_out.parent.mkdir(parents=True, exist_ok=True)
+    method_out.parent.mkdir(parents=True, exist_ok=True)
+    class_out.write_text(json.dumps(classes_with_strs, indent=1, ensure_ascii=False), encoding='utf-8')
+    method_out.write_text(json.dumps(methods_with_strs, indent=1, ensure_ascii=False), encoding='utf-8')
+    print(f'    -> {class_out}  ({class_out.stat().st_size/1024/1024:.1f} MB)')
+    print(f'    -> {method_out}  ({method_out.stat().st_size/1024/1024:.1f} MB)')
+    if wrapped_out:
+        wrapped_out.parent.mkdir(parents=True, exist_ok=True)
+        wrapped = {
+            'dll_path': str(ga_path),
+            'dll_base': f'0x{dll_base:X}',
+            'classes_scanned': scanned,
+            'methods_scanned': total_methods,
+            'classes_with_strings': len(classes_with_strs),
+            'method_va_buckets': len(methods_with_strs),
+            'class_string_refs': classes_with_strs,
+        }
+        wrapped_out.write_text(json.dumps(wrapped, indent=2, ensure_ascii=False), encoding='utf-8')
+        print(f'    -> {wrapped_out}  ({wrapped_out.stat().st_size/1024/1024:.1f} MB)')
 
 
 if __name__ == '__main__':

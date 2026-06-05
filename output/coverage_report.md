@@ -1,6 +1,6 @@
 # VRChat IL2CPP Deobfuscation Coverage Report
 
-Generated: 2026-04-08 | Source dump: 2026-04-07 22:44:43
+Generated: 2026-06-05 | Source dump: June 5 build
 
 ---
 
@@ -8,18 +8,18 @@ Generated: 2026-04-08 | Source dump: 2026-04-07 22:44:43
 
 | Metric | Count | Coverage |
 |--------|------:|----------|
-| Total classes | 42,548 | - |
-| Fully semantic names | 37,788 | 88.8% |
-| Pattern-named (hex suffix) | 4,760 | 11.2% |
-| Still obfuscated | 0 | 0.0% |
-| Total methods | 253,787 | - |
-| Named methods | 246,049 | 96.95% |
-| Obfuscated methods | 7,738 | 3.05% |
-| Total fields | 40,930 | - |
-| Named fields | 40,930 | 100% |
-| Namespaces | 475 | - |
+| Total classes | 88,400 | - |
+| Semantic class names | 83,873 | 94.9% |
+| Fallback class names | 4,527 | 5.1% |
+| Still obfuscated classes | 0 | 0.0% |
+| Total methods | 528,135 | - |
+| Semantic method names | 440,440 | 83.4% |
+| Renamed methods | 87,695 | 16.6% of total |
+| Total fields | 2,870 | - |
+| Semantic field names | 2,712 | 94.5% |
+| Renamed fields | 158 | 5.5% of total |
 
-**Bottom line:** All 42,548 classes have been deobfuscated to at least pattern-level names. 88.8% have fully semantic names. The remaining 11.2% (4,760 classes) have structural pattern names like `ComplexComponent_7BB9` or `AsyncStateMachine_AEE0` -- readable and categorized, but lacking their true VRChat identities. On the method level, 96.95% of 253,787 methods have readable names. The 7,738 still-obfuscated methods are concentrated in 781 classes, almost entirely in the global namespace. Overall, 97.7% of all 337,265 identifiers (classes + methods + fields) are resolved.
+**Bottom line:** The June 5 pipeline covers 88,400 classes, 528,135 methods, and 2,870 fields. Class names are fully resolved to either semantic names or stable fallback names; 83,873 classes (94.9%) are semantic and 4,527 (5.1%) are structural/hash fallback names. No raw Beebyte class names remain in the final dump.
 
 ---
 
@@ -27,288 +27,203 @@ Generated: 2026-04-08 | Source dump: 2026-04-07 22:44:43
 
 | Resource | Count |
 |----------|------:|
-| Class name mappings applied | 5,562 |
-| -- Semantic mappings | 4,537 |
-| -- Generic pattern mappings | 1,025 |
-| Method name mappings | 59,849 |
-| Field name mappings | 8,099 |
-| **Total identifiers renamed** | **73,510** |
-| Structural matches confirmed | 20 |
-| Community known names (vocabulary) | 1,828 |
-| Community names matched to classes | 19 |
-| Master vocabulary signatures | 6,639 |
+| Classes renamed from obfuscated input | 11,503 |
+| -- Semantic renamed classes | 6,976 |
+| -- Fallback renamed classes | 4,527 |
+| Methods renamed | 87,695 |
+| Fields renamed | 158 |
+| **Total identifiers renamed** | **99,356** |
+
+The final `deobfuscated_dump.json` metadata records 10,628 class renames, 90,743 method renames, and 331 field renames from the dump generation stage. The headline quality metrics above use `pipeline_coverage_report.md`, which is the current pipeline coverage summary for the June 5 build.
 
 ---
 
 ## Breakdown by Namespace Category
 
-| Category | Classes | Methods | Obf Methods | Fields | Method Coverage |
-|----------|--------:|--------:|------------:|-------:|---------------:|
-| Global (no namespace) | 14,290 | 100,794 | 7,663 | 13,334 | 92.4% |
-| VRC.* | 2,030 | 41,790 | 33 | 3,269 | 99.9% |
-| ThirdParty | 24,996 | 104,288 | 22 | 23,148 | ~100% |
-| Other | 1,232 | 6,915 | 20 | 1,179 | 99.7% |
+These counts are computed from `output/deobfuscated_dump.json`. The semantic/fallback split in this table is a final-name heuristic: raw obfuscated names are exact Beebyte-character matches; fallback names are structural/hash-looking names in the final output.
 
-**Key insight:** Obfuscation is concentrated in the global namespace (7,663 of 7,738 obfuscated methods = 99%). The VRC.* namespaces are nearly fully resolved. Third-party libraries (Unity, Photon, System, etc.) were never obfuscated and are 100% named.
+| Category | Classes | Semantic Classes | Fallback Classes | Methods | Semantic Methods | Fallback Methods | Fields | Semantic Fields | Fallback Fields |
+|----------|--------:|-----------------:|-----------------:|--------:|-----------------:|-----------------:|-------:|----------------:|----------------:|
+| Global (no namespace) | 28,184 | 14,165 | 14,019 | 177,109 | 89,640 | 87,469 | 996 | 838 | 158 |
+| VRC.* | 2,959 | 2,949 | 10 | 57,946 | 57,739 | 207 | 169 | 169 | 0 |
+| Third-party | 54,332 | 54,137 | 195 | 270,275 | 270,270 | 5 | 1,569 | 1,569 | 0 |
+| Other | 2,925 | 2,908 | 17 | 22,805 | 22,791 | 14 | 136 | 136 | 0 |
+| **Total** | **88,400** | **74,159** | **14,241** | **528,135** | **440,440** | **87,695** | **2,870** | **2,712** | **158** |
+
+**Key insight:** The remaining fallback-looking names are concentrated in the global namespace. VRC.* namespaces are effectively semantic at the class level: 2,949 of 2,959 VRC.* classes have semantic final names by heuristic, and all VRC.* fields are named semantically.
 
 ---
 
-## Partially-Deobfuscated Class Patterns
+## Pipeline Quality Metrics
 
-The 4,760 hex-suffix classes follow these structural naming patterns:
+| Metric | Count | Rate |
+|--------|------:|-----:|
+| Renamed obfuscated classes | 11,503 | 13.0% of all classes |
+| Semantic renamed classes | 6,976 | 60.6% of renamed classes |
+| Fallback renamed classes | 4,527 | 39.4% of renamed classes |
+| Total semantic classes | 83,873 | 94.9% of all classes |
+| Total semantic methods | 440,440 | 83.4% of all methods |
+| Total semantic fields | 2,712 | 94.5% of all fields |
+| Total semantic identifiers | 527,025 | 85.1% of all identifiers |
 
-| Pattern Prefix | Count | Description |
-|----------------|------:|-------------|
-| LifecycleComponent | 654 | MonoBehaviour lifecycle wrappers (Awake/Start/Update) |
-| AsyncStateMachine | 612 | Compiler-generated async state machines |
-| Enumerator | 350 | IEnumerable/IEnumerator implementations |
-| EmptyType | 335 | Types with no methods (marker/data) |
-| EmptyStruct | 293 | Value types with no methods |
-| UpdateComponent | 152 | Components with Update-like behavior |
-| FBaseImpl | 133 | Implementation of FBase pattern classes |
-| Delegate | 111 | Delegate type definitions |
-| LifecycleComponentSibling | 80 | Nested types within lifecycle components |
-| ComplexComponentImpl | 80 | Implementation of complex component pattern |
-| FBase | 76 | Base classes in FBase hierarchy |
-| LifecycleComponentImpl | 67 | Implementation of lifecycle components |
-| FBaseImplImpl | 61 | Double-nested implementation pattern |
-| AnimatedTextureBase | 54 | Animated texture system base classes |
-| ComplexComponent | 36 | Complex MonoBehaviour components |
-| BaseClass9 and variants | 376 | Abstract base class hierarchies |
-| Other patterns | ~1,200 | Various smaller groups |
-
-Total unique naming patterns: 544
+The class quality rate is high because most non-obfuscated framework and third-party classes already carry semantic names. The renamed-class semantic rate measures only classes that started from obfuscated names.
 
 ---
 
 ## VRC Namespace Coverage
 
-All VRC.* namespaces are fully deobfuscated at the class level. Key namespaces:
+| Namespace | Classes | Semantic Classes | Fallback Classes | Methods | Fallback Methods | Fields |
+|-----------|--------:|-----------------:|-----------------:|--------:|-----------------:|-------:|
+| VRC.Udon.Wrapper.Modules | 802 | 802 | 0 | 39,161 | 0 | 0 |
+| VRC.Udon.Serialization.OdinSerializer | 397 | 394 | 3 | 2,667 | 0 | 6 |
+| VRC.Core | 243 | 243 | 0 | 3,840 | 2 | 9 |
+| VRC.Core.Networking.FlatBuffers.FlatBuffers32 | 225 | 222 | 3 | 2,025 | 0 | 61 |
+| VRC.Core.Pool | 194 | 194 | 0 | 1,054 | 0 | 0 |
+| VRC.Core.Networking.FlatBuffers.FlatBuffers8 | 184 | 184 | 0 | 1,629 | 0 | 49 |
+| VRC.Dynamics | 89 | 89 | 0 | 911 | 0 | 11 |
+| VRC.SDKBase | 78 | 78 | 0 | 662 | 0 | 0 |
+| VRCSDK2 | 67 | 67 | 0 | 200 | 0 | 0 |
+| VRC.Udon.Serialization.AOT | 53 | 53 | 0 | 53 | 0 | 0 |
+| VRC.Udon.Serialization.OdinSerializer.Utilities | 53 | 50 | 3 | 492 | 0 | 0 |
+| VRC.Core.Networking | 43 | 43 | 0 | 496 | 0 | 0 |
+| VRC.SDK3.Components | 30 | 30 | 0 | 448 | 0 | 1 |
+| VRC.Udon.Common.Interfaces | 29 | 29 | 0 | 154 | 0 | 0 |
+| VRC.Core.Services | 19 | 19 | 0 | 73 | 0 | 0 |
+| VRC.UI.Elements.Menus | 18 | 18 | 0 | 208 | 73 | 4 |
+| VRC | 17 | 17 | 0 | 201 | 6 | 6 |
+| VRC.SDK3.Avatars.Components | 16 | 16 | 0 | 79 | 0 | 0 |
+| VRC.SDK3.Internal | 16 | 16 | 0 | 112 | 5 | 0 |
+| VRC.Udon.Common | 16 | 16 | 0 | 104 | 0 | 0 |
 
-| Namespace | Classes | Methods | Obf Methods |
-|-----------|--------:|--------:|------------:|
-| VRC.Udon.Wrapper.Modules | 795 | 30,001 | 0 |
-| VRC.Udon.Serialization.OdinSerializer | 240 | 1,827 | 0 |
-| VRC.Core.Pool | 186 | 1,133 | 0 |
-| VRC.Core | 123 | 2,573 | 4 |
-| VRC.SDKBase | 69 | 533 | 0 |
-| VRC.Dynamics | 64 | 697 | 0 |
-| VRCSDK2 | 64 | 177 | 0 |
-| VRC.Core.Networking | 29 | 182 | 0 |
-| VRC.Core.Networking.FlatBuffers.FlatBuffers32 | 22 | 562 | 0 |
-| VRC.SDK3.Components | 22 | 276 | 0 |
-| VRC.UI.Elements.Menus | 18 | 188 | 20 |
-| VRC.SDK3.Avatars.Components | 15 | 56 | 0 |
-| VRC.Core.Services | 14 | 66 | 0 |
-| VRC.SDK3.Internal | 14 | 104 | 2 |
-| VRC.Udon | 12 | 268 | 0 |
-| VRC.Localization | 9 | 142 | 0 |
-| VRC.Economy | 4 | 43 | 0 |
-| VRC.Networking.Pose | 4 | 49 | 0 |
-| VRC.DataModel | 4 | 62 | 0 |
-
-Only 2 VRC namespaces have any obfuscated methods: `VRC.UI.Elements.Menus` (20) and `VRC.Core` (4).
-
----
-
-## Confirmed Structural Matches (20 classes)
-
-These are high-value VRC core classes identified through structural/behavioral matching:
-
-### High Confidence (90+)
-
-| Real Name | Confidence | Methods | Source | Parent |
-|-----------|:----------:|--------:|--------|--------|
-| VRCPlayer | 99 | 251 | hard_rule | Network base class |
-| VRC_Main | 95 | 966 | hard_rule | MonoBehaviour |
-| VRCUiManager | 95 | 269 | hard_rule | UIManager |
-| FlatBufferNetworkSerializer | 90 | 47 | hard_rule | Network base class |
-| VRCNetworkBehaviour | 90 | 35 | hard_rule | Network base class |
-| NetworkManager | 90 | 263 | hard_rule | MonoBehaviour |
-
-### Medium Confidence (70-89)
-
-| Real Name | Confidence | Methods | Source | Parent |
-|-----------|:----------:|--------:|--------|--------|
-| VRC_Secondary | 85 | 498 | hard_rule | MonoBehaviour |
-| PlayerNet | 85 | 144 | hard_rule | Network base class |
-| VRCNetworkBehaviourBase | 85 | 31 | hard_rule | Network base class |
-| VRCFlowNetworkManager | 70 | 27 | method_to_community | ConnectionHandler |
-| PlayerModComponentHealth | 70 | 42 | method_to_community | Network base class |
-
-### Lower Confidence (50-69)
-
-| Real Name | Confidence | Methods | Source |
-|-----------|:----------:|--------:|--------|
-| VFXBundleInfo | 65 | 14 | property_match |
-| ServerTimeManager | 65 | 10 | property_match |
-| VRC_Interactable | 65 | 23 | property_match |
-| InputControlBinding | 65 | 16 | property_match |
-| LightManager | 65 | 55 | property_match |
-| AnimatedTexture | 65 | 10 | property_match |
-| AsyncResult | 65 | 18 | property_match |
-| VRCMotionState (x2) | 50 | 81, 56 | hard_rule |
+Top VRC namespaces account for most of the VRC surface area. The largest remaining VRC fallback-method pocket is `VRC.UI.Elements.Menus` with 73 fallback-looking method names.
 
 ---
 
-## Obfuscation Hotspots
+## Global Namespace Coverage
 
-781 classes still contain obfuscated methods. All 7,738 obfuscated methods are concentrated here:
+| Metric | Count | Coverage |
+|--------|------:|---------:|
+| Classes | 28,184 | - |
+| Semantic classes | 14,165 | 50.3% |
+| Fallback classes | 14,019 | 49.7% |
+| Methods | 177,109 | - |
+| Semantic methods | 89,640 | 50.6% |
+| Fallback methods | 87,469 | 49.4% |
+| Fields | 996 | - |
+| Semantic fields | 838 | 84.1% |
+| Fallback fields | 158 | 15.9% |
 
-- 770 in the global namespace
-- 7 in VRC.* namespaces
-- 4 elsewhere
-
-### Top Classes by Obfuscated Method Count
-
-| Class | Obf Methods | Total Methods | Parent |
-|-------|:-----------:|:------------:|--------|
-| UILifecycleComponentImpl_67C4 (x14 instances) | 46 | 58 | UILifecycleComponent_25BB |
-| BaseClass4_3C41 (x4 instances) | 38 | 39 | Object |
-| EventReplicator\`2 | 24 | 29 | MonoBehaviour |
-| FBaseImpl_84F2 (x2) | 23 | 24 | FBase_4B80 |
-| DataOnly2f_D9D9 | 21 | 23 | Object |
-| BaseClass9_0B98 (x8) | 21 | 23 | MonoBehaviour |
-
-**Pattern:** The majority of obfuscated methods belong to generic template classes that are instantiated many times with different type parameters. The obfuscated methods within them likely share the same base interface.
+The global namespace is the primary remaining target. It contains compiler artifacts, lifted obfuscated classes, generated handlers, async state machines, and structural placeholders that do not have stable namespace context.
 
 ---
 
-## Top MonoBehaviour Classes (Game Logic)
+## Third-Party Coverage
 
-These are the largest MonoBehaviour classes, which represent core VRChat game logic:
+| Metric | Count | Coverage |
+|--------|------:|---------:|
+| Classes | 54,332 | - |
+| Semantic classes | 54,137 | 99.6% |
+| Fallback classes | 195 | 0.4% |
+| Methods | 270,275 | - |
+| Semantic methods | 270,270 | ~100% |
+| Fallback methods | 5 | ~0% |
+| Fields | 1,569 | - |
+| Semantic fields | 1,569 | 100% |
 
-| Class | Methods | Obf Methods | Fields | Status |
-|-------|--------:|:-----------:|-------:|--------|
-| VRC_Main | 966 | 0 | 251 | Fully named |
-| VRC_Secondary | 498 | 0 | 121 | Fully named |
-| NetworkManager | 263 | 0 | 47 | Fully named |
-| OVRManager | 225 | 0 | 79 | Fully named (3rd party) |
-| CaptureBase | 192 | 0 | 59 | Fully named |
-| ComplexComponent_7BB9 | 182 | 0 | 4 | Pattern-named |
-| MediaPlayer | 155 | 0 | 53 | Fully named |
-| PuppetMaster | 155 | 0 | 15 | Fully named (3rd party) |
-| ComplexComponent_E3CB | 149 | 0 | 39 | Pattern-named |
-| ComplexComponent_01FB | 142 | 0 | 19 | Pattern-named |
-
-All top MonoBehaviour classes have zero obfuscated methods -- the method names within these classes are fully resolved.
+Third-party code dominates the class count because of framework, Unity, generic collection, async, serialization, and package types. It is almost entirely semantic in the final dump.
 
 ---
 
-## Community Vocabulary Usage
+## Top Namespaces by Class Count
 
-| Metric | Count |
-|--------|------:|
-| Community known VRChat class names | 1,828 |
-| Names matched to obfuscated classes | 19 (1.0%) |
-| Names found directly in dump | ~5% |
-| **Unmatched community names** | **~1,750** |
-
-The 1,828 community-known names come from older VRChat versions, open-source mods, and SDK documentation. Only 19 have been structurally matched so far. This represents a large pool of names that could potentially be matched to the ~4,760 pattern-named classes through more sophisticated analysis.
+| Namespace | Classes | Methods | Fields |
+|-----------|--------:|--------:|-------:|
+| System.Collections.Generic | 29,972 | 118,928 | 41 |
+| Global namespace | 28,184 | 177,109 | 996 |
+| System | 6,762 | 13,275 | 85 |
+| Cysharp.Threading.Tasks | 2,170 | 6,224 | 11 |
+| UnityEngine.UIElements | 992 | 9,556 | 30 |
+| System.Collections.ObjectModel | 914 | 753 | 0 |
+| VRC.Udon.Wrapper.Modules | 802 | 39,161 | 0 |
+| UnityEngine | 678 | 9,365 | 467 |
+| System.Text.Json.Serialization | 541 | 7,432 | 0 |
+| Cysharp.Threading.Tasks.CompilerServices | 535 | 4,887 | 2 |
 
 ---
 
-## What We Know vs. What We Don't
+## Fallback Name Patterns
 
-### Known (Well-Covered)
+Top fallback-looking class name patterns in the final dump:
 
-- All VRC.* namespace classes (2,030 classes, 41,790 methods) -- 99.9% coverage
-- Third-party libraries (24,996 classes) -- 100% coverage
-- All 20 core VRC classes identified by structural matching
-- All field names (40,930 fields, 100%)
-- 96.95% of all method names
+| Pattern Prefix | Count |
+|----------------|------:|
+| Enumerator | 2,400 |
+| VRCNetworkBehaviourSibling_BF5Sibling | 1,191 |
+| AsyncStateMachine | 940 |
+| CameraBeginInvokeEndInvoke | 570 |
+| Static10m | 548 |
+| Static8m | 507 |
+| Derived | 486 |
+| EmptyType | 450 |
+| Static2m | 445 |
+| NetworkItem_722FSiblingSiblingSibling | 398 |
+| Static1m | 396 |
+| PlayerMoveNext | 389 |
+| Static9m | 389 |
+| Static7m | 318 |
+| BaseClass4Impl | 276 |
 
-### Partially Known (Pattern-Named)
+These are structural labels rather than raw obfuscation. They are stable and readable enough for navigation, but they do not always reveal the original product-level type identity.
 
-- 4,760 classes with structural pattern names (e.g., `ComplexComponent_7BB9`)
-  - Their category/behavior is known (lifecycle, update, complex, etc.)
-  - Their true VRChat identity is unknown
-  - Their methods are largely named (most have 0 obfuscated methods)
-  - Most important: ~219 `ComplexComponent_*` classes are likely significant VRC systems
+---
 
-### Unknown (Still Obfuscated)
+## What We Know vs. What Remains
 
-- 7,738 method names across 781 classes
-  - Concentrated in template/generic classes
-  - Mostly interface method implementations
-  - The classes themselves are named, just some methods within them are not
+### Known
+
+- 88,400 classes are represented in the final dump.
+- 528,135 methods and 2,870 fields are represented in the final dump.
+- No raw Beebyte class names remain.
+- VRC.* classes are almost entirely semantic by final-name inspection.
+- Third-party namespaces are effectively fully semantic.
+
+### Remaining
+
+- 4,527 renamed obfuscated classes are pipeline-classified as fallback names.
+- 87,695 methods are renamed/fallback rather than pre-existing semantic names.
+- 158 fields use fallback-style names.
+- The global namespace contains the largest remaining semantic gap.
 
 ---
 
 ## Prioritized High-Value Targets
 
-### Priority 1: Large ComplexComponent Classes
-These MonoBehaviour classes have many methods and are likely core VRChat subsystems:
-- `ComplexComponent_7BB9` (182 methods, 4 fields)
-- `ComplexComponent_E3CB` (149 methods, 39 fields)
-- `ComplexComponent_01FB` (142 methods, 19 fields)
-- `ComplexComponent_9333` (128 methods, 15 fields)
-- `ComplexComponent_9004` (128 methods, 11 fields)
-- `ComplexComponent_833B` (127 methods, 30 fields)
-
-**Approach:** Cross-reference method signatures with community vocabulary. Use string references and API call patterns to identify which VRChat subsystem each represents.
-
-### Priority 2: UILifecycleComponentImpl Classes
-14 instances of `UILifecycleComponentImpl_67C4` have 46 obfuscated methods each. Understanding these would resolve 644 method names.
-
-**Approach:** Analyze the base class `UILifecycleComponent_25BB` interface. Match callback patterns to known VRC UI lifecycle events.
-
-### Priority 3: Unmapped Community Names
-1,750+ community-known names are not yet matched. These include:
-- `ActionMenu`, `ActionMenuDriver`, `ActionMenuOpener`
-- `AvatarCalibrator`, `AvatarClone`, `AvatarDebugConsole`
-- `AnimationControlScript`, `AnimatorControllerManager`
-- Many more from older VRChat versions and mod ecosystem
-
-**Approach:** Build method-signature fingerprints for each community name. Compare against pattern-named classes by method count, parent class, field count.
-
-### Priority 4: PhotonRoomHandler and Network Classes
-`PhotonRoomHandler_E1A7` (109 methods) and similar network handler classes need their true identities.
-
-**Approach:** Trace Photon RPC registrations and network event handlers.
-
-### Priority 5: BaseClass Hierarchies
-376 `BaseClass*_XXXX` classes form inheritance hierarchies. Identifying the base classes would cascade to identifying their children.
-
-**Approach:** Map inheritance trees. Start from known base classes (VRCNetworkBehaviour, VRC_Interactable) and trace children.
-
----
-
-## Recommendations for Improving Coverage
-
-1. **Community name matching at scale**: Run structural similarity analysis (method count + parent class + field count + method name overlap) between the 1,750 unmatched community names and the 6,571 pattern-named classes.
-
-2. **String reference analysis**: Many VRChat classes log their name or register with systems using string literals. Extract string references from the IL2CPP binary at method pointer addresses to identify classes.
-
-3. **Inheritance cascade**: Starting from the 20 confirmed matches, trace all subclasses. For example, all classes inheriting from the network base class (`IIPPE...`) are VRC network behaviours.
-
-4. **RPC method name extraction**: Photon RPC names are often registered as strings. These can directly reveal method purposes and class identities.
-
-5. **MonoBehaviour lifecycle analysis**: Classes with Update/LateUpdate/FixedUpdate patterns can be cross-referenced with known VRC component behaviors.
-
-6. **Cross-version comparison**: If older VRChat dumps (pre-obfuscation) are available, structural fingerprinting can match classes across versions.
-
-7. **Focus effort on the 219 ComplexComponent classes**: These are the highest-value targets as they represent significant game logic with many methods.
+1. **Global namespace structural classes**: Resolve `AsyncStateMachine_*`, `Static*m_*`, `PlayerMoveNext_*`, and handler-style names using method bodies, strings, and call graph context.
+2. **VRC.UI.Elements.Menus fallback methods**: This namespace has the largest VRC fallback-method cluster.
+3. **VRCNetworkBehaviour sibling patterns**: These structural names likely represent network behaviour variants and generated relatives.
+4. **Compiler artifact triage**: Separate genuinely useful product classes from generated enumerators and async state machines so coverage reports can distinguish product coverage from compiler noise.
+5. **Cross-version lifting**: Continue propagating stable names from older dumps where structure and method signatures align.
 
 ---
 
 ## Appendix: Coverage Statistics
 
 ```
-Total Identifiers in Dump:     337,265
-  Classes:                      42,548
-  Methods:                     253,787
-  Fields:                       40,930
+Total Identifiers in Dump:     619,405
+  Classes:                      88,400
+  Methods:                     528,135
+  Fields:                        2,870
 
-Fully Resolved:                329,527 (97.7%)
-  Semantic class names:         37,788
-  Named methods:               246,049
-  Named fields:                 40,930
-Pattern-Named Classes:           4,760 (1.4%)
-Still Obfuscated Methods:        7,738 (2.3% of methods)
+Pipeline Semantic Names:       527,025 (85.1%)
+  Semantic classes:             83,873 (94.9%)
+  Semantic methods:            440,440 (83.4%)
+  Semantic fields:               2,712 (94.5%)
 
-Deobfuscation Mappings Applied: 73,510
-  Class mappings:                5,562
-  Method mappings:              59,849
-  Field mappings:                8,099
+Pipeline Fallback/Renamed:      92,380 (14.9%)
+  Fallback classes:              4,527 (5.1%)
+  Renamed/fallback methods:     87,695 (16.6%)
+  Renamed/fallback fields:         158 (5.5%)
+
+Current Pipeline Report: output/pipeline_coverage_report.md
+Current Full Dump:       output/deobfuscated_dump.json
 ```

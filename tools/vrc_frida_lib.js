@@ -31,10 +31,10 @@ var VRC = (function () {
         } catch (e) {} return null;
     }
 
-    // Il2CppClass: +0x18=namespace, +0x58=name, +0x78=methods, +0xA0=fields
-    //   +0xB8=static_fields, +0x120=method_count, +0x124=field_count, +0x128=vtable_count
+    // Il2CppClass (Jun 5 build): +0x18=namespace, +0x50=name, +0x88=methods, +0x1D8=fields
+    //   +0x80=parent, +0xB8=static_fields, +0x120=method_count, +0x122=field_count
     function klassGetName(klass) {
-        try { return readCStr(klass.add(0x58).readPointer()); } catch(e) { return null; }
+        try { return readCStr(klass.add(0x50).readPointer()); } catch(e) { return null; }
     }
     function klassGetNamespace(klass) {
         try { return readCStr(klass.add(0x18).readPointer()); } catch(e) { return null; }
@@ -47,7 +47,7 @@ var VRC = (function () {
     function klassGetMethods(klass) {
         var out = [];
         try {
-            var arr = klass.add(0x78).readPointer(); if (arr.isNull()) return out;
+            var arr = klass.add(0x88).readPointer(); if (arr.isNull()) return out;
             var count = klass.add(0x120).readU16(); if (count > 500) count = 500;
             for (var i = 0; i < count; i++) {
                 var mi = arr.add(i * 8).readPointer(); if (mi.isNull()) break;
@@ -55,16 +55,16 @@ var VRC = (function () {
             }
         } catch (e) {} return out;
     }
-    /** Returns array of {ptr, name, offset, typeAddr} — stride 0x20 */
+    /** Returns array of {ptr, name, offset, typeAddr} - stride 0x30 */
     function klassGetFields(klass) {
         var out = [];
         try {
-            var b = klass.add(0xA0).readPointer(); if (b.isNull()) return out;
-            var count = klass.add(0x124).readU16(); if (count > 1000) count = 1000;
+            var b = klass.add(0x1D8).readPointer(); if (b.isNull()) return out;
+            var count = klass.add(0x122).readU16(); if (count > 1000) count = 1000;
             for (var i = 0; i < count; i++) {
-                var fb = b.add(i * 0x20);
-                out.push({ ptr: fb, name: readCStr(fb.add(0x10).readPointer()) || '?',
-                    offset: fb.add(4).readU32(), typeAddr: fb.add(0x08).readPointer() });
+                var fb = b.add(i * 0x30);
+                out.push({ ptr: fb, name: readCStr(fb.add(0x08).readPointer()) || '?',
+                    offset: fb.add(4).readU32(), typeAddr: fb.add(0x10).readPointer() });
             }
         } catch (e) {} return out;
     }
@@ -72,7 +72,7 @@ var VRC = (function () {
         try { return klass.add(0xB8).readPointer(); } catch(e) { return ptr(0); }
     }
 
-    // MethodInfo: +0x00=code, +0x08=code(dup), +0x18=name, +0x28=declaring_class
+    // MethodInfo: +0x00=code, +0x08=code(dup), +0x18=name
     function methodGetName(mi) {
         try { return readCStr(mi.add(0x18).readPointer()); } catch(e) { return null; }
     }

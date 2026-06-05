@@ -1,6 +1,11 @@
 'use strict';
 
 var STRING_BASE = ptr("0x66dde040");
+var OFF_KLASS_NAME = 0x50;
+var OFF_KLASS_FIELDS = 0x1D8;
+var OFF_KLASS_FIELD_COUNT = 0x122;
+var FIELDINFO_STRIDE = 0x30;
+var FIELDINFO_NAME = 0x08;
 var PRIMITIVES = {
     0x01:"void",0x02:"bool",0x03:"char",0x04:"sbyte",0x05:"byte",
     0x06:"short",0x07:"ushort",0x08:"int",0x09:"uint",
@@ -104,22 +109,22 @@ rpc.exports = {
         for (var i = 0; i < vas.length; i++) {
             try {
                 var cls = ptr(vas[i]);
-                var name = readCStr(cls.add(0x58).readPointer());
+                var name = readCStr(cls.add(OFF_KLASS_NAME).readPointer());
                 if (!name) continue;
                 var ns = readCStr(cls.add(0x18).readPointer()) || "";
-                var fieldsPtr = cls.add(0xA0).readPointer();
-                var fieldCount = cls.add(0x124).readU16();
+                var fieldsPtr = cls.add(OFF_KLASS_FIELDS).readPointer();
+                var fieldCount = cls.add(OFF_KLASS_FIELD_COUNT).readU16();
                 if (fieldCount === 0 || fieldCount > 1000 || fieldsPtr.isNull()) {
                     results.push({va: vas[i], name: name, ns: ns, fc: 0, fields: []});
                     continue;
                 }
                 var fields = [];
                 for (var j = 0; j < fieldCount; j++) {
-                    var fb = fieldsPtr.add(j * 0x20);
-                    var fn = readCStr(fb.add(0x10).readPointer()) || "?";
-                    var ta = fb.add(0x08).readPointer();
+                    var fb = fieldsPtr.add(j * FIELDINFO_STRIDE);
+                    var fn = readCStr(fb.add(FIELDINFO_NAME).readPointer()) || "?";
+                    var ta = fb.readPointer();
                     var tn = resolveTypeName(ta);
-                    var off = fb.add(4).readU32();
+                    var off = fb.add(0x18).readU32();
                     fields.push({n: fn, t: tn, o: off});
                 }
                 results.push({va: vas[i], name: name, ns: ns, fc: fieldCount, fields: fields});

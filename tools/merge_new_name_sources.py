@@ -220,7 +220,9 @@ def main():
         ('callgraph_method_names_native',  'output/callgraph_method_names_native.json'),
         ('ida_string_based_names',         'output/ida_string_based_names.json'),
     ]
-    sources_obf = []
+    sources_obf = [
+        ('string_api_method_names', 'output/string_api_method_names.json'),
+    ]
 
     for label, rel in sources_direct:
         p = BASE / rel

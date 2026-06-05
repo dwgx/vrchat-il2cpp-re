@@ -9,9 +9,9 @@
  *   - Multi-root discovery: DontDestroyOnLoad, singletons, Canvas roots
  *
  * Beebyte IL2CPP struct offsets:
- *   Il2CppClass: +0x18=namespace, +0x58=name, +0x78=MethodInfo**,
- *                +0xA0=FieldInfo*, +0xA8=parent(Il2CppClass*),
- *                +0xB8=static_fields, +0x120=method_count(u16), +0x124=field_count(u16)
+ *   Il2CppClass: +0x18=namespace, +0x50=name, +0x88=MethodInfo**,
+ *                +0x80=parent(Il2CppClass*), +0x1D8=FieldInfo*,
+ *                +0xB8=static_fields, +0x120=method_count(u16), +0x122=field_count(u16)
  *   MethodInfo:  +0x00=code_ptr, +0x18=name(char*), +0x28=param_count(u8)
  *   Il2CppString: +0x10=length(i32), +0x14=chars(UTF-16)
  */
@@ -19,6 +19,10 @@
 var _gaMod = Process.findModuleByName('GameAssembly.dll');
 if (!_gaMod) throw new Error('GameAssembly.dll not found');
 var GA = _gaMod.base;
+var OFF_KLASS_NAME = 0x50;
+var OFF_KLASS_METHODS = 0x88;
+var OFF_KLASS_PARENT = 0x80;
+var OFF_KLASS_FIELD_COUNT = 0x122;
 
 // ---- error_state_setter RVA (only hook we hardcode) ----
 var RVA = {
@@ -65,7 +69,7 @@ function readIl2CppString(p) {
 
 function findMethodByName(klass, methodName) {
     try {
-        var methodArr = klass.add(0x78).readPointer();
+        var methodArr = klass.add(OFF_KLASS_METHODS).readPointer();
         if (methodArr.isNull()) return null;
         var mc = klass.add(0x120).readU16();
         var limit = Math.min(mc, 200);
@@ -82,7 +86,7 @@ function findMethodByName(klass, methodName) {
 function getMethodNames(klass) {
     var names = [];
     try {
-        var methodArr = klass.add(0x78).readPointer();
+        var methodArr = klass.add(OFF_KLASS_METHODS).readPointer();
         if (methodArr.isNull()) return names;
         var mc = klass.add(0x120).readU16();
         var limit = Math.min(mc, 200);
@@ -103,7 +107,7 @@ function getMethodNames(klass) {
 function getMethodSignatures(klass) {
     var sigs = [];
     try {
-        var methodArr = klass.add(0x78).readPointer();
+        var methodArr = klass.add(OFF_KLASS_METHODS).readPointer();
         if (methodArr.isNull()) return sigs;
         var mc = klass.add(0x120).readU16();
         var limit = Math.min(mc, 200);
@@ -121,13 +125,13 @@ function getMethodSignatures(klass) {
 
 /**
  * Read parent class name from Il2CppClass.
- * Il2CppClass+0xA8 = parent Il2CppClass*
+ * Il2CppClass+0x80 = parent Il2CppClass*
  */
 function readParentClassName(klass) {
     try {
-        var parent = klass.add(0xA8).readPointer();
+        var parent = klass.add(OFF_KLASS_PARENT).readPointer();
         if (parent.isNull()) return null;
-        return readCStr(parent.add(0x58).readPointer());
+        return readCStr(parent.add(OFF_KLASS_NAME).readPointer());
     } catch (e) { return null; }
 }
 
@@ -137,13 +141,13 @@ function readParentClassName(klass) {
 function readParentChain(klass) {
     var chain = [];
     try {
-        var cur = klass.add(0xA8).readPointer();
+        var cur = klass.add(OFF_KLASS_PARENT).readPointer();
         var depth = 0;
         while (!cur.isNull() && depth < 20) {
-            var name = readCStr(cur.add(0x58).readPointer());
+            var name = readCStr(cur.add(OFF_KLASS_NAME).readPointer());
             if (!name) break;
             chain.push(name);
-            cur = cur.add(0xA8).readPointer();
+            cur = cur.add(OFF_KLASS_PARENT).readPointer();
             depth++;
         }
     } catch (e) {}
@@ -153,10 +157,10 @@ function readParentChain(klass) {
 function readKlassInfo(klass) {
     try {
         return {
-            name: readCStr(klass.add(0x58).readPointer()) || '?',
+            name: readCStr(klass.add(OFF_KLASS_NAME).readPointer()) || '?',
             ns: readCStr(klass.add(0x18).readPointer()) || '',
             method_count: klass.add(0x120).readU16(),
-            field_count: klass.add(0x124).readU16(),
+            field_count: klass.add(OFF_KLASS_FIELD_COUNT).readU16(),
             parent: readParentClassName(klass),
         };
     } catch (e) {
@@ -169,9 +173,9 @@ function readKlassInfo(klass) {
 function findParentClassByName(klass, targetName) {
     var cur = klass;
     for (var i = 0; i < 15 && !cur.isNull(); i++) {
-        var name = readCStr(cur.add(0x58).readPointer());
+        var name = readCStr(cur.add(OFF_KLASS_NAME).readPointer());
         if (name === targetName) return cur;
-        try { cur = cur.add(0xA8).readPointer(); } catch (e) { break; }
+        try { cur = cur.add(OFF_KLASS_PARENT).readPointer(); } catch (e) { break; }
     }
     return null;
 }
@@ -570,7 +574,7 @@ rpc.exports = {
             ok: true,
             flowManager: flowManager.toString(),
             klass: flowManager.readPointer().toString(),
-            klassName: readCStr(flowManager.readPointer().add(0x58).readPointer()),
+            klassName: readCStr(flowManager.readPointer().add(OFF_KLASS_NAME).readPointer()),
         };
     },
 

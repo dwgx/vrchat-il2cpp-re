@@ -13,6 +13,7 @@ var _gaMod = Process.findModuleByName('GameAssembly.dll');
 if (!_gaMod) throw new Error('GameAssembly.dll not found');
 var GA = _gaMod.base;
 var GA_SIZE = _gaMod.size;
+var OFF_KLASS_NAME = 0x50;
 
 // ---- State ----
 var eventLog = [];
@@ -42,7 +43,7 @@ function readKlassName(obj) {
     try {
         var klass = obj.readPointer();
         if (klass.isNull()) return null;
-        var namePtr = klass.add(0x58).readPointer();
+        var namePtr = klass.add(OFF_KLASS_NAME).readPointer();
         return readCStr(namePtr);
     } catch (e) { return null; }
 }
@@ -60,10 +61,10 @@ function tryReadArg(p) {
     } catch (e) {}
 
     try {
-        // Try managed object — klass at +0x00, name at klass+0x58
+        // Try managed object - klass at +0x00, name at klass+0x50
         var klass = p.readPointer();
         if (!klass.isNull()) {
-            var namePtr = klass.add(0x58).readPointer();
+            var namePtr = klass.add(OFF_KLASS_NAME).readPointer();
             var name = readCStr(namePtr);
             if (name && name.length > 1 && name.length < 200)
                 return { type: 'object', value: name, ptr: p.toString() };

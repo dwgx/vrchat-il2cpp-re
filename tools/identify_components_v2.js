@@ -11,12 +11,15 @@
  *   5. For each GO: enumerate components, match against target klass set
  *
  * Beebyte IL2CPP struct offsets:
- *   Il2CppClass: +0x18=namespace, +0x58=name, +0x78=MethodInfo**, +0x120=method_count
+ *   Il2CppClass: +0x18=namespace, +0x50=name, +0x88=MethodInfo**, +0x120=method_count
  *   MethodInfo:  +0x00=code_ptr, +0x08=code_ptr(dup), +0x18=name(char*)
  *   Il2CppString: +0x10=length(int32), +0x14=chars(UTF-16)
  */
 
 'use strict';
+
+var OFF_KLASS_NAME = 0x50;
+var OFF_KLASS_METHODS = 0x88;
 
 // ---- Helpers ----
 
@@ -39,7 +42,7 @@ function readIl2CppString(p) {
 
 function findMethodByName(klass, methodName) {
     try {
-        var methodArr = klass.add(0x78).readPointer();
+        var methodArr = klass.add(OFF_KLASS_METHODS).readPointer();
         if (methodArr.isNull()) return null;
         var count = klass.add(0x120).readU16();
         if (count > 500) count = 500;
@@ -67,13 +70,13 @@ function makePtrPattern(p) {
 
 /**
  * Validate a candidate klass VA from the dump.
- * Check that +0x58 (name) and +0x18 (namespace) match expected values.
+ * Check that +0x50 (name) and +0x18 (namespace) match expected values.
  * Returns the validated pointer or null.
  */
 function validateKlass(candidateVA, expectedName, expectedNs) {
     try {
         var p = ptr(candidateVA);
-        var name = readCStr(p.add(0x58).readPointer());
+        var name = readCStr(p.add(OFF_KLASS_NAME).readPointer());
         var ns = readCStr(p.add(0x18).readPointer());
         if (name === expectedName && (ns || '') === (expectedNs || '')) {
             return p;
@@ -99,7 +102,7 @@ function findKlassNearby(candidateVA, expectedName, expectedNs) {
         if (off === 0) continue;
         try {
             var candidate = base.add(off);
-            var name = readCStr(candidate.add(0x58).readPointer());
+            var name = readCStr(candidate.add(OFF_KLASS_NAME).readPointer());
             if (name !== expectedName) continue;
             var ns = readCStr(candidate.add(0x18).readPointer());
             if ((ns || '') === (expectedNs || '')) return candidate;
@@ -110,7 +113,7 @@ function findKlassNearby(candidateVA, expectedName, expectedNs) {
         if (off2 >= -0x40000 && off2 <= 0x40000) continue; // already scanned
         try {
             var candidate2 = base.add(off2);
-            var name2 = readCStr(candidate2.add(0x58).readPointer());
+            var name2 = readCStr(candidate2.add(OFF_KLASS_NAME).readPointer());
             if (name2 !== expectedName) continue;
             var ns2 = readCStr(candidate2.add(0x18).readPointer());
             if ((ns2 || '') === (expectedNs || '')) return candidate2;
@@ -146,7 +149,7 @@ function findKlassNearby(candidateVA, expectedName, expectedNs) {
         } catch (e) {}
     }
 
-    // Now scan for Il2CppClass structs that have a pointer to one of these strings at +0x58
+    // Now scan for Il2CppClass structs that have a pointer to one of these strings at +0x50
     // Build LE pointer patterns for each string address
     for (var s = 0; s < strAddrs.length && s < 20; s++) {
         var strPtr = strAddrs[s];
@@ -169,8 +172,8 @@ function findKlassNearby(candidateVA, expectedName, expectedNs) {
                 var ptrMatches = Memory.scanSync(hRange.base, hRange.size, ptrPattern);
                 for (var pm = 0; pm < ptrMatches.length; pm++) {
                     // This match is at some address X where [X] == strPtr
-                    // If this is Il2CppClass+0x58, then class base = X - 0x58
-                    var klassCandidate = ptrMatches[pm].address.sub(0x58);
+                    // If this is Il2CppClass+0x50, then class base = X - 0x50
+                    var klassCandidate = ptrMatches[pm].address.sub(OFF_KLASS_NAME);
                     var valid = validateKlass(klassCandidate.toString(), expectedName, expectedNs);
                     if (valid) return valid;
                 }
@@ -268,7 +271,7 @@ function scanGameObject(goPtr, depth) {
                     var klassStr = klass.toString();
 
                     if (targetVAs[klassStr]) {
-                        var className = readCStr(klass.add(0x58).readPointer()) || '?';
+                        var className = readCStr(klass.add(OFF_KLASS_NAME).readPointer()) || '?';
                         results.push({
                             klassVA: klassStr,
                             gameObject: goName,
@@ -549,7 +552,7 @@ rpc.exports = {
         for (var i = batchStart; i < batchEnd; i++) {
             var klassPtr = ptr(classVAs[i]);
             var pattern = makePtrPattern(klassPtr);
-            var className = readCStr(klassPtr.add(0x58).readPointer()) || '?';
+            var className = readCStr(klassPtr.add(OFF_KLASS_NAME).readPointer()) || '?';
 
             for (var hr = 0; hr < heapRanges.length; hr++) {
                 try {
@@ -634,7 +637,7 @@ rpc.exports = {
                 var klass = inst.readPointer();
                 if (klass.isNull()) { r.error = 'dead'; out.push(r); continue; }
                 r.klass = klass.toString();
-                r.className = readCStr(klass.add(0x58).readPointer());
+                r.className = readCStr(klass.add(OFF_KLASS_NAME).readPointer());
 
                 var go = methods.getGameObject(inst);
                 if (!go.isNull()) {

@@ -6,6 +6,8 @@
  */
 'use strict';
 
+var OFF_KLASS_NAME = 0x50;
+
 function waitForModule(name, cb) {
     var check = setInterval(function() {
         try {
@@ -30,7 +32,7 @@ waitForModule('GameAssembly.dll', function(ga) {
             // Read the class of this object
             try {
                 var klass = args[0].readPointer();
-                var name = klass.add(0x58).readPointer().readUtf8String();
+                var name = klass.add(OFF_KLASS_NAME).readPointer().readUtf8String();
                 var ns = klass.add(0x18).readPointer().readUtf8String();
                 console.log('[STATE-FUNC] Object class: ' + ns + '.' + name);
             } catch(e) {

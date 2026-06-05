@@ -13,11 +13,15 @@
 // Beebyte Il2CppClass layout:
 //   +0x00: Il2CppImage*
 //   +0x18: char* namespace
-//   +0x58: char* name
-//   +0xA0: FieldInfo* (stride 0x20)
-//   +0x124: uint16 field_count
+//   +0x50: char* name
+//   +0x88: MethodInfo** methods
+//   +0x80: Il2CppClass* parent
+//   +0x1D8: FieldInfo* (stride 0x30)
+//   +0x122: uint16 field_count
 //   +0xB8: static fields data pointer (standard IL2CPP)
-//   +0xD0: vtable start (standard)
+//   +0x120: uint16 method_count
+
+var OFF_KLASS_NAME = 0x50;
 
 function readCStr(p) {
     if (p.isNull()) return null;
@@ -112,7 +116,7 @@ rpc.exports = {
             var va = classVAs[i];
             try {
                 var cls = ptr(va);
-                var origName = readCStr(cls.add(0x58).readPointer()) || "?";
+                var origName = readCStr(cls.add(OFF_KLASS_NAME).readPointer()) || "?";
                 var ns = readCStr(cls.add(0x18).readPointer()) || "";
 
                 // Find instances through static fields
@@ -142,13 +146,12 @@ rpc.exports = {
     // and use that to identify functionality
     analyzeVtable: function(classVA) {
         var cls = ptr(classVA);
-        var origName = readCStr(cls.add(0x58).readPointer()) || "?";
+        var origName = readCStr(cls.add(OFF_KLASS_NAME).readPointer()) || "?";
 
         // Method info in Beebyte:
         // MethodInfo at cls + some_offset, or through vtable
         // Let's read method pointers from the method array
-        // Standard: methods at +0x88 (but Beebyte: that's PropertyInfo)
-        // Try +0x90 or other offsets
+        // Beebyte methods are at +0x88, but this legacy probe still scans nearby metadata.
 
         var info = {origName: origName, methods: []};
 

@@ -48,6 +48,7 @@ MINED_V2_PATH           = OUTPUT_DIR / 'mined_new_names_v2.json'
 MINED_V3_PATH           = OUTPUT_DIR / 'mined_new_names_v3.json'
 COMMUNITY_MAP_PATH      = OUTPUT_DIR / 'community_name_mapping.json'
 STRUCTURAL_PATH         = OUTPUT_DIR / 'structural_matches.json'
+STRUCTURAL_RENAMES_PATH = OUTPUT_DIR / 'structural_renames.json'
 ADDITIONAL_PATH         = OUTPUT_DIR / 'additional_names.json'
 DEEP_ANALYSIS_PATH      = OUTPUT_DIR / 'deep_analysis.json'
 CROSS_VERSION_METHODS_PATH = OUTPUT_DIR / 'cross_version_method_names.json'
@@ -117,8 +118,9 @@ STAGE_INPUTS = {
         OUTPUT_DIR / 'string_api_method_names.json',
         OUTPUT_DIR / 'ida_method_string_names.json',
         OUTPUT_DIR / 'llm_predicted_names.json',
+        STRUCTURAL_RENAMES_PATH,
     ],
-    2: [DEOBF_JSON_PATH, NAME_MAPPING_PATH, STRUCTURAL_PATH,
+    2: [DEOBF_JSON_PATH, NAME_MAPPING_PATH, STRUCTURAL_PATH, STRUCTURAL_RENAMES_PATH,
         COMMUNITY_MAP_PATH, ADDITIONAL_PATH,
         OUTPUT_DIR / 'photon_protocol_analysis.md'],
     3: [DEOBF_JSON_PATH],
@@ -500,6 +502,26 @@ def stage0_gather_vocabulary():
         added = len(unified_names) - before
         stats['apr25_lifted_vocab'] = {'added': added}
         sources_loaded.append('apr25_lifted_vocab.json')
+        print(f'        +{added:,} new names')
+
+    # Also load jun05 lifted vocab if present
+    jun05_path = DATA_DIR / 'jun05_lifted_vocab.json'
+    if jun05_path.exists():
+        print(f'\n  [7b/7] Loading jun05_lifted_vocab.json ...')
+        with open(jun05_path, 'r', encoding='utf-8') as f:
+            jun05_data = json.load(f)
+        before = len(unified_names)
+        for key in ('class_name_map', 'method_name_map',
+                    'field_name_map', 'cross_version_method_names', 'signature_to_name'):
+            items = jun05_data.get(key, {})
+            if isinstance(items, dict):
+                for k, v in items.items():
+                    if isinstance(v, str) and len(v) > 1:
+                        unified_names.add(v)
+                        signature_map[k] = v
+        added = len(unified_names) - before
+        stats['jun05_lifted_vocab'] = {'added': added}
+        sources_loaded.append('jun05_lifted_vocab.json')
         print(f'        +{added:,} new names')
 
     # ── Filter and Classify ───────────────────────────────────────────
