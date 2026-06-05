@@ -1,0 +1,6 @@
+{
+ "AvatarPlayerAnimatorComponent_D5F6::m_21E": "ReallocateAndZeroMemory",
+ "AvatarPlayerAnimatorComponent_D5F6::m_6C7": "CompareWideStringsIgnoreCase",
+ "AvatarPlayerAnimatorComponent_D5F6::m_71D": "DecodeUtf8CodePoint",
+ "AvatarPlayerAnimatorComponent_D5F6::m_745": "CompareWideStringsIgnoreCase"
+}

@@ -1368,19 +1368,24 @@ namespace VRC.Internal.Generated
     public class StringStaticMethods_8962
     {
         // ── Methods ──
+        public void Contains(){} // RVA: 0x7FFAFB935BA0
+        public void SqrDistance(){} // RVA: 0x7FFAFB935C20
+        public void ClosestPoint(){} // RVA: 0x7FFAFB935C30
+        public void GetHashCode(){} // RVA: 0x7FFAFB935DF0
         public void Awake(){} // RVA: 0x7FFAFB935E70
         public void OnDestroy(){} // RVA: 0x7FFAFB935DE0
         public void ProcessGameObject(){} // RVA: 0x7FFAF3210030
+        public void TranslatePlane(){} // RVA: 0x7FFAFB935FB0
         public void ToString(){} // RVA: 0x7FFAFB936030
         public void .ctor(){} // RVA: 0x7FFAFB9360C0
         public void Initialize(){} // RVA: 0x7FFAFB936120
-        // ── 11 unresolved (hash) ──
+        public void SameSide(){} // RVA: 0x7FFAFB936120
+        public void SameSide_BEED6E7AD015(){} // RVA: 0x7FFAFB936140
+        // ── Unresolved (hash) ──
         public void m_2C4(){} // RVA: 0x7FFAF2E08730
-        public void m_B42(){} // RVA: 0x7FFAFB935BA0
         public void m_D4C(){} // RVA: 0x7FFAFB935C20
-        public void m_648(){} // RVA: 0x7FFAFB935C20
         public void m_7FC(){} // RVA: 0x7FFAF2E08740
-        // ... 6 more unresolved methods
+        public void m_64D(){} // RVA: 0x7FFAFB935DE0
     }
 
     /// <summary>Originally: ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ</summary>

@@ -1,0 +1,6 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E58::m_55E": "ReleaseWideStringBuffer",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E58::m_575": "InitializeFromProcessModuleBaseName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E58::m_96F": "ReallocateWideStringAndFill",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E58::m_AEE": "AssignWideString"
+}

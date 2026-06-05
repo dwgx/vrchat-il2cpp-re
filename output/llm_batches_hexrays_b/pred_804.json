@@ -1,0 +1,10 @@
+{
+ "CleanupDisposeComponent_16E6::m_A28": "CollectPropertyCandidatesByBindingFlags",
+ "CleanupDisposeComponent_16E6::m_A34": "CreateInstanceDefaultCtor",
+ "CleanupDisposeComponent_16E6::m_B23": "CollectFieldCandidatesByBindingFlags",
+ "CleanupDisposeComponent_16E6::m_C16": "CollectPropertyCandidatesByBindingFlags",
+ "CleanupDisposeComponent_16E6::m_C36": "CollectPropertyCandidatesByBindingFlags",
+ "CleanupDisposeComponent_16E6::m_E46": "CollectPropertyCandidatesByBindingFlags",
+ "CleanupDisposeComponent_16E6::m_EF6": "CollectFieldCandidatesByBindingFlags",
+ "CleanupDisposeComponent_16E6::m_F19": "CollectMethodCandidatesByBindingFlags"
+}

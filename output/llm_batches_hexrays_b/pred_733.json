@@ -1,0 +1,8 @@
+{
+ "PointerEnterPointerExitSibling_83EA::m_DE4": "set_CacheWritingBehavior",
+ "PointerEnterPointerExit_0FB8::m_035": "SetCurrentPointerEnterExitFramePointers",
+ "PointerEnterPointerExit_0FB8::m_070": "SetCurrentPointerEnterExitFrameFlags",
+ "PointerEnterPointerExit_0FB8::m_4E9": "GetThreadLocalValue",
+ "PointerEnterPointerExit_0FB8::m_641": "PushPointerEnterExitFrame",
+ "PointerEnterPointerExit_0FB8::m_84A": "PushPointerEnterExitFrame"
+}

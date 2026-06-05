@@ -1,0 +1,112 @@
+[
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_4A2",
+  "cv_key": "MeshHandler_37B4::m_4A2",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180721610(__int64 a1)\n{\n  return sub_185AB9A60(a1 + 16);\n}\n"
+ },
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_504",
+  "cv_key": "MeshHandler_37B4::m_504",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180721BD0(__int64 a1, _OWORD *a2)\n{\n  __int128 v2; // xmm1\n  __int128 v3; // xmm0\n  _OWORD v5[3]; // [rsp+20h] [rbp-38h] BYREF\n\n  v2 = a2[1];\n  v5[0] = *a2;\n  v3 = a2[2];\n  v5[1] = v2;\n  v5[2] = v3;\n  return sub_185AC06A0(a1 + 16, v5);\n}\n"
+ },
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_6E7",
+  "cv_key": "MeshHandler_37B4::m_6E7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_QWORD *__fastcall sub_180723800(__int64 a1, __int64 a2)\n{\n  _QWORD *result; // rax\n  __int64 v5; // rax\n  __int64 v6; // rax\n  _QWORD *v7; // rax\n  __int64 v8; // rcx\n  _QWORD *v9; // rbx\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  signed __int32 v13[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  result = *(_QWORD **)(a1 + 16);\n  if ( !result )\n  {\n    v5 = *(_QWORD *)(a2 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(v5);\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 24LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    v7 = sub_180A52230(v6);\n    v8 = *(_QWORD *)(a2 + 40);\n    v9 = v7;\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      sub_180A4EBA0(v8);\n    if ( !byte_18CE309CB )\n    {\n      sub_180AD1AA0(&qword_18C9056C0);\n      _InterlockedOr(v13, 0);\n      byte_18CE309CB = 1;\n    }\n    if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n      YloSGiLVOEi_0(qword_18C9056C0);\n    _InterlockedOr(v13, 0);\n    v10 = dword_18CE1C2E8 == 0;\n    *((_DWORD *)v9 + 14) = 33555456;\n    *(_QWORD *)(a1 + 16) = v9;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 16) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 16) >> 12) & 0x3F)),\n                       *v11) );\n    }\n    return v9;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_736",
+  "cv_key": "MeshHandler_37B4::m_736",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_QWORD *__fastcall sub_180723B60(__int64 a1, __int64 a2)\n{\n  _QWORD *result; // rax\n  __int64 v5; // rax\n  __int64 v6; // rax\n  _QWORD *v7; // rax\n  __int64 v8; // rcx\n  _QWORD *v9; // rbx\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  signed __int32 v13[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  result = *(_QWORD **)(a1 + 16);\n  if ( !result )\n  {\n    v5 = *(_QWORD *)(a2 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(v5);\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 24LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    v7 = sub_180A52230(v6);\n    v8 = *(_QWORD *)(a2 + 40);\n    v9 = v7;\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      sub_180A4EBA0(v8);\n    if ( !byte_18CE309EC )\n    {\n      sub_180AD1AA0(&qword_18C9056C0);\n      _InterlockedOr(v13, 0);\n      byte_18CE309EC = 1;\n    }\n    if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n      YloSGiLVOEi_0(qword_18C9056C0);\n    _InterlockedOr(v13, 0);\n    v10 = dword_18CE1C2E8 == 0;\n    *((_DWORD *)v9 + 14) = 33555456;\n    *(_QWORD *)(a1 + 16) = v9;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 16) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 16) >> 12) & 0x3F)),\n                       *v11) );\n    }\n    return v9;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_74C",
+  "cv_key": "MeshHandler_37B4::m_74C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180720F90(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rbx\n  __int64 v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rax\n  bool v8; // zf\n  __int64 *v9; // rdx\n  __int64 v10; // rtt\n\n  v3 = a1 + 16;\n  if ( *(_QWORD *)(a1 + 32) )\n  {\n    v5 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 16LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    if ( !*(_DWORD *)(v6 + 224) )\n      YloSGiLVOEi_0(v6);\n    v7 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    sub_185AB4140(v3, 0, *(_QWORD *)(*(_QWORD *)(v7 + 192) + 64LL));\n  }\n  else\n  {\n    v8 = dword_18CE1C2E8 == 0;\n    *(_QWORD *)(a1 + 32) = a2;\n    if ( !v8 )\n    {\n      v9 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 32) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v9);\n      do\n        v10 = *v9;\n      while ( v10 != _InterlockedCompareExchange64(v9, *v9 | (1LL << (((unsigned __int64)(a1 + 32) >> 12) & 0x3F)), *v9) );\n    }\n  }\n}\n"
+ },
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_795",
+  "cv_key": "MeshHandler_37B4::m_795",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_QWORD *__fastcall sub_180723C80(__int64 a1, __int64 a2)\n{\n  _QWORD *result; // rax\n  __int64 v5; // rax\n  __int64 v6; // rax\n  _QWORD *v7; // rax\n  __int64 v8; // rcx\n  _QWORD *v9; // rbx\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  signed __int32 v13[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  result = *(_QWORD **)(a1 + 16);\n  if ( !result )\n  {\n    v5 = *(_QWORD *)(a2 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(v5);\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 24LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    v7 = sub_180A52230(v6);\n    v8 = *(_QWORD *)(a2 + 40);\n    v9 = v7;\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      sub_180A4EBA0(v8);\n    if ( !byte_18CE309F7 )\n    {\n      sub_180AD1AA0(&qword_18C9056C0);\n      _InterlockedOr(v13, 0);\n      byte_18CE309F7 = 1;\n    }\n    if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n      YloSGiLVOEi_0(qword_18C9056C0);\n    _InterlockedOr(v13, 0);\n    v10 = dword_18CE1C2E8 == 0;\n    *((_DWORD *)v9 + 14) = 33555456;\n    *(_QWORD *)(a1 + 16) = v9;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 16) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 16) >> 12) & 0x3F)),\n                       *v11) );\n    }\n    return v9;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_97B",
+  "cv_key": "MeshHandler_37B4::m_97B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_QWORD *__fastcall sub_180723A40(__int64 a1, __int64 a2)\n{\n  _QWORD *result; // rax\n  __int64 v5; // rax\n  __int64 v6; // rax\n  _QWORD *v7; // rax\n  __int64 v8; // rcx\n  _QWORD *v9; // rbx\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  signed __int32 v13[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  result = *(_QWORD **)(a1 + 16);\n  if ( !result )\n  {\n    v5 = *(_QWORD *)(a2 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(v5);\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 24LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    v7 = sub_180A52230(v6);\n    v8 = *(_QWORD *)(a2 + 40);\n    v9 = v7;\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      sub_180A4EBA0(v8);\n    if ( !byte_18CE309E1 )\n    {\n      sub_180AD1AA0(&qword_18C9056C0);\n      _InterlockedOr(v13, 0);\n      byte_18CE309E1 = 1;\n    }\n    if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n      YloSGiLVOEi_0(qword_18C9056C0);\n    _InterlockedOr(v13, 0);\n    v10 = dword_18CE1C2E8 == 0;\n    *((_DWORD *)v9 + 14) = 33555456;\n    *(_QWORD *)(a1 + 16) = v9;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 16) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 16) >> 12) & 0x3F)),\n                       *v11) );\n    }\n    return v9;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_A33",
+  "cv_key": "MeshHandler_37B4::m_A33",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_QWORD *__fastcall sub_180723B60(__int64 a1, __int64 a2)\n{\n  _QWORD *result; // rax\n  __int64 v5; // rax\n  __int64 v6; // rax\n  _QWORD *v7; // rax\n  __int64 v8; // rcx\n  _QWORD *v9; // rbx\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  signed __int32 v13[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  result = *(_QWORD **)(a1 + 16);\n  if ( !result )\n  {\n    v5 = *(_QWORD *)(a2 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(v5);\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 24LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    v7 = sub_180A52230(v6);\n    v8 = *(_QWORD *)(a2 + 40);\n    v9 = v7;\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      sub_180A4EBA0(v8);\n    if ( !byte_18CE309EC )\n    {\n      sub_180AD1AA0(&qword_18C9056C0);\n      _InterlockedOr(v13, 0);\n      byte_18CE309EC = 1;\n    }\n    if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n      YloSGiLVOEi_0(qword_18C9056C0);\n    _InterlockedOr(v13, 0);\n    v10 = dword_18CE1C2E8 == 0;\n    *((_DWORD *)v9 + 14) = 33555456;\n    *(_QWORD *)(a1 + 16) = v9;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 16) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 16) >> 12) & 0x3F)),\n                       *v11) );\n    }\n    return v9;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_A57",
+  "cv_key": "MeshHandler_37B4::m_A57",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180721AB0(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rbx\n  __int64 v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // r8\n  bool v9; // zf\n  __int64 *v10; // rdx\n  __int64 v11; // rtt\n  _OWORD v12[2]; // [rsp+20h] [rbp-28h] BYREF\n\n  v3 = a1 + 16;\n  if ( *(_QWORD *)(a1 + 32) )\n  {\n    v5 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 16LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    if ( !*(_DWORD *)(v6 + 224) )\n      YloSGiLVOEi_0(v6);\n    v7 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v8 = *(_QWORD *)(v7 + 192);\n    memset(v12, 0, sizeof(v12));\n    sub_185ABF0F0(v3, v12, *(_QWORD *)(v8 + 64));\n  }\n  else\n  {\n    v9 = dword_18CE1C2E8 == 0;\n    *(_QWORD *)(a1 + 32) = a2;\n    if ( !v9 )\n    {\n      v10 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 32) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v10);\n      do\n        v11 = *v10;\n      while ( v11 != _InterlockedCompareExchange64(\n                       v10,\n                       *v10 | (1LL << (((unsigned __int64)(a1 + 32) >> 12) & 0x3F)),\n                       *v10) );\n    }\n  }\n}\n"
+ },
+ {
+  "class": "MeshHandler_37B4",
+  "class_obf": "ÎÎÍÌÍÍÌÏÍÍÍÏÏÏÎÍÎÍÏÌÎÍÌ",
+  "parent": "",
+  "method": "m_AF5",
+  "cv_key": "MeshHandler_37B4::m_AF5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180721230(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rbx\n  __int64 v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // r8\n  bool v9; // zf\n  __int64 *v10; // rdx\n  __int64 v11; // rtt\n  __int64 v12; // [rsp+20h] [rbp-18h] BYREF\n  int v13; // [rsp+28h] [rbp-10h]\n\n  v3 = a1 + 16;\n  if ( *(_QWORD *)(a1 + 32) )\n  {\n    v5 = *(_QWORD *)(a3 + 40);\n    v12 = 0;\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(v5);\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 16LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    if ( !*(_DWORD *)(v6 + 224) )\n      YloSGiLVOEi_0(v6);\n    v7 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v8 = *(_QWORD *)(v7 + 192);\n    v13 = 0;\n    sub_185AB6C10(v3, &v12, *(_QWORD *)(v8 + 64));\n  }\n  else\n  {\n    v9 = dword_18CE1C2E8 == 0;\n    *(_QWORD *)(a1 + 32) = a2;\n    if ( !v9 )\n    {\n      v10 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 32) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v10);\n      do\n        v11 = *v10;\n      while ( v11 != _InterlockedCompareExchange64(\n                       v10,\n                       *v10 | (1LL << (((unsigned __int64)(a1 + 32) >> 12) & 0x3F)),\n                       *v10) );\n    }\n  }\n}\n"
+ }
+]

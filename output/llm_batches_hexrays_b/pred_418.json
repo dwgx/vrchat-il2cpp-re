@@ -1,0 +1,6 @@
+{
+ "EyeAndHeadAnimatorSibling_1207::m_7D0": "GetEasedValue",
+ "EyeAndHeadAnimatorSibling_1207::m_82A": "GetEasedValue",
+ "EyeAndHeadAnimatorSibling_1207::m_839": "MoveTowardsWithSpeeds",
+ "EyeAndHeadAnimatorSibling_1207::m_CE7": "LerpQuaternionFromIdentity"
+}

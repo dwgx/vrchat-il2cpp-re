@@ -1,0 +1,8 @@
+{
+ "NetworkSyncable_2EE1::m_454": "Enqueue",
+ "NetworkSyncable_2EE1::m_540": "CopyTo",
+ "NetworkSyncable_2EE1::m_5E9": "GetCount",
+ "NetworkSyncable_2EE1::m_6B9": "EnsureFrozenForEnqueues",
+ "NetworkSyncable_2EE1::m_6D0": "GetCount",
+ "NetworkSyncable_2EE1::m_819": "TryDequeue"
+}

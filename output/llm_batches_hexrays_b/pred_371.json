@@ -1,0 +1,8 @@
+{
+ "TransformTimeSystem_C0F7::m_BCD": "ToByte",
+ "TransformTimeSystem_C0F7::m_CB3": "ToUInt16",
+ "TransformTimeSystem_C0F7::m_D1E": "ToDouble",
+ "TransformTimeSystem_C0F7::m_E0D": "ToInt16",
+ "TransformTimeSystem_C0F7::m_EB1": "ToSByte",
+ "TransformTimeSystem_C0F7::m_EB6": "ToInt32"
+}

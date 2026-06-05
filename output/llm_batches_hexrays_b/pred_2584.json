@@ -1,0 +1,9 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_4B53::m_575": "InitializeDelegate",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4B53::m_943": "MarshalNativeToManaged",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4B53::m_96F": "MarshalNativeToManaged",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4B53::m_AEE": "MarshalManagedToNative",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5359::m_55E": "ParseIntegerFromWideString",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5359::m_77C": "ParseIntegerFromAnsiString",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5359::m_AEE": "ParseIntegerFromWideString"
+}

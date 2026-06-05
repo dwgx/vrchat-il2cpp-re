@@ -1,0 +1,6 @@
+{
+ "ONSPAmbisonicsNativeRelated_20B1::m_CF6": "CompareTo",
+ "ONSPAmbisonicsNativeRelated_20B1::m_DAE": "Equals",
+ "ONSPAmbisonicsNativeRelated_20B1::m_E93": "ToString",
+ "ONSPAmbisonicsNativeRelated_20B1::m_F5D": "GetHashCode"
+}

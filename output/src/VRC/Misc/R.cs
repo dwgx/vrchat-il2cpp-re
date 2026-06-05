@@ -125,6 +125,7 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetUseSpring(){} // RVA: 0x7FFAFB5D3560
+        public void Equals(){} // RVA: 0x7FFAFB5D3910
         public void .ctor(){} // RVA: 0x7FFAFB5D3980
         public void Initialize(){} // RVA: 0x7FFAFB5D39D0
         public void FixedUpdate(){} // RVA: 0x7FFAFB5D3A40
@@ -146,7 +147,6 @@ namespace VRC.Misc
         // ── Unresolved (hash) ──
         public void m_D1C(){} // RVA: 0x7FFAF2D8D320
         public void m_A66(){} // RVA: 0x7FFAFB5D3890
-        public void m_323(){} // RVA: 0x7FFAFB5D3910
     }
 
     /// <summary>Originally: ÌÌÎÍÏÍÍÍÍÍÍÏÏÎÌÌÏÍÏÍÍÎÌ</summary>
@@ -546,13 +546,14 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetRawImageDataSize(){} // RVA: 0x7FFAF4B06B30
-        // ── 15 unresolved (hash) ──
+        public void ReportUnhandledException(){} // RVA: 0x7FFAF4B06B80
+        // ── 14 unresolved (hash) ──
         public void m_03D(){} // RVA: 0x7FFAF2D8EE30
         public void m_CA6(){} // RVA: 0x7FFAF2D8EE30
         public void m_580(){} // RVA: 0x7FFAF2D8EE30
         public void m_920(){} // RVA: 0x7FFAF44189B0
         public void m_DD3(){} // RVA: 0x7FFAF44189B0
-        // ... 10 more unresolved methods
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÌÏÎÍÏÎÏÌÏÏÏÌÎÎÏÌÍÏÌÏÎ</summary>
@@ -718,13 +719,16 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÍÍÍÎÌÍÍÎÌÍÍÏÍÌÎÌÏÍÍÎÍ</summary>
     public class RequiresStoringSiblingSibRelated_CBEF
     {
-        // ── 16 unresolved (hash) ──
-        public void m_22A(){} // RVA: 0x7FFAF4B078D0
+        // ── Methods ──
+        public void CompareStringsUpToLength(){} // RVA: 0x7FFAF4B078D0
+        public void Hypot(){} // RVA: 0x7FFAF4B07920
+        // ── 14 unresolved (hash) ──
         public void m_697(){} // RVA: 0x7FFAF4418950
         public void m_7CA(){} // RVA: 0x7FFAF44189C0
         public void m_254(){} // RVA: 0x7FFAF44189C0
         public void m_DD3(){} // RVA: 0x7FFAF44189B0
-        // ... 11 more unresolved methods
+        public void m_477(){} // RVA: 0x7FFAF44189C0
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÍÍÌÏÏÍÏÌÌÌÎÍÎÏÍÍÎÍÍÎÏ</summary>
@@ -780,25 +784,28 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetPlaybackSpeed(){} // RVA: 0x7FFAF4A40220
-        // ── 21 unresolved (hash) ──
+        public void RunWithExecutionContext(){} // RVA: 0x7FFAF47583E0
+        // ── 20 unresolved (hash) ──
         public void m_4E2(){} // RVA: 0x7FFAF4A401F0
         public void m_FD2(){} // RVA: 0x7FFAF2DBB130
         public void m_F19(){} // RVA: 0x7FFAF2E08740
         public void m_397(){} // RVA: 0x7FFAF2E08730
         public void m_0C4(){} // RVA: 0x7FFAF4A40200
-        // ... 16 more unresolved methods
+        // ... 15 more unresolved methods
     }
 
     /// <summary>Originally: ÍÍÌÎÎÏÎÌÎÍÎÍÎÍÎÎÏÌÏÌÏÏÏ</summary>
     public class RequiresStoringSiblingSibRelated_E2D0
     {
-        // ── 14 unresolved (hash) ──
+        // ── Methods ──
+        public void CopyNullTerminatedString(){} // RVA: 0x7FFAF4B08AD0
+        // ── 13 unresolved (hash) ──
         public void m_212(){} // RVA: 0x7FFAF44189C0
         public void m_461(){} // RVA: 0x7FFAF4418950
-        public void m_22A(){} // RVA: 0x7FFAF4B08AD0
         public void m_03D(){} // RVA: 0x7FFAF2D8EE30
         public void m_763(){} // RVA: 0x7FFAF44189B0
-        // ... 9 more unresolved methods
+        public void m_271(){} // RVA: 0x7FFAF44189C0
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÌÍÌÏÍÎÎÏÏÌÌÎÌÏÏÏÍÍÏÍÌ</summary>
@@ -830,13 +837,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÎÌÏÏÎÌÌÎÏÌÍÎÎÏÎÌÌÌÍÎÌ</summary>
     public class RequiresStoringSiblingSibRelated_EE1E
     {
-        // ── 14 unresolved (hash) ──
+        // ── Methods ──
+        public void CloseFileDescriptor(){} // RVA: 0x7FFAF4B047D0
+        // ── 13 unresolved (hash) ──
         public void m_03D(){} // RVA: 0x7FFAF2D8EE30
         public void m_819(){} // RVA: 0x7FFAF2D8EE30
-        public void m_24D(){} // RVA: 0x7FFAF4B047D0
         public void m_697(){} // RVA: 0x7FFAF4418950
         public void m_DD3(){} // RVA: 0x7FFAF44189B0
-        // ... 9 more unresolved methods
+        public void m_7B0(){} // RVA: 0x7FFAF44189B0
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÍÎÍÎÎÏÏÏÏÏÏÌÍÍÍÌÏÍÎÎÍÍÏ</summary>

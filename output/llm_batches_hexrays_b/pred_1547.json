@@ -1,0 +1,11 @@
+{
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_8D2": "ToUInt16",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_970": "Equals",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_A46": "ToByte",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_AC7": "ToUInt64",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_BA6": "ToByte",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_BAA": "ToUInt32",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_C2F": "ToUInt16",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_C58": "ToUInt64",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_E25": "ToUInt32"
+}

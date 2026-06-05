@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_6E1F::m_77C": "GetNormalized",
+ "VRCNetworkBehaviourSibling_BF5Sibling_6E1F::m_943": "Normalize",
+ "VRCNetworkBehaviourSibling_BF5Sibling_707F::m_AEE": "DestroyOwnedComponentGameObject"
+}

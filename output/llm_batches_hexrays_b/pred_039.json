@@ -1,7 +1,3 @@
 {
- "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_E95": "FormatGenericTypeConstructionFailure",
- "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_EDC": "MakeGenericType",
- "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_F35": "MakeArrayType",
- "VRCNetworkBehaviourSibling_BF5Sibling_97E7::m_F64": "GetInterfaces",
- "VRCNetworkBehaviourSibling_BF5Sibling_A7CD0::m_575": "GetQualifiedLocale"
+ "TransformPhysicsSystem_923C::m_D19": "Equals"
 }

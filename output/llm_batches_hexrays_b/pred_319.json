@@ -1,0 +1,7 @@
+{
+ "PhotonConnectionHandler_D6F1::m_F8B": "OnDisable",
+ "PhotonConnectionHandler_D6F1::m_FBF": "OnEnable",
+ "PhotonConnectionHandler_D6F1::m_FEF": "get_Instance",
+ "PlayerJoinedPlayerLeft_4447::m_170": "ReduceKeyframes",
+ "PlayerJoinedPlayerLeft_4447::m_4DF": "ReduceKeyframes"
+}

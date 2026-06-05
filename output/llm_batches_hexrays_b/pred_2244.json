@@ -1,0 +1,8 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_3B49::m_24F": "FindEntrySlot",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3B49::m_2F0": "RehashIfNeeded",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3B49::m_51F": "FindEntrySlot",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3B49::m_95D": "RemoveEntryAtIterator",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3B49::m_C01": "RehashIfNeeded",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3B49::m_F2B": "TryInsertEntry"
+}

@@ -1,0 +1,6 @@
+{
+ "VideoCapture_CB34::m_16A": "CreateSpanFromArrayRange",
+ "VideoCapture_CB34::m_85E": "CreateSpanFromArrayRange",
+ "VideoCapture_CB34::m_A5D": "IndexOf",
+ "VideoCapture_CB34::m_AE1": "CreateSpanFromArrayRange"
+}

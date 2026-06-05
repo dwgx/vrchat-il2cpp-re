@@ -1,0 +1,11 @@
+{
+ "ApplicationComponentSystem_9BB5::m_A46": "WriteCharToFileStream",
+ "ApplicationComponentSystem_9BB5::m_A8F": "GetFileStreamPosition",
+ "ApplicationComponentSystem_9BB5::m_B24": "FormatPrintfArguments",
+ "ApplicationComponentSystem_9BB5::m_BA7": "FormatPrintfArguments",
+ "ApplicationComponentSystem_9BB5::m_BE0": "RaiseSignal",
+ "ApplicationComponentSystem_9BB5::m_BEF": "FormatPrintfArguments",
+ "ApplicationComponentSystem_9BB5::m_D59": "ApplyFloatingPointStatusFlags",
+ "ApplicationComponentSystem_9BB5::m_D61": "FormatPrintfArguments",
+ "ApplicationComponentSystem_9BB5::m_EF5": "FormatPrintfArguments"
+}

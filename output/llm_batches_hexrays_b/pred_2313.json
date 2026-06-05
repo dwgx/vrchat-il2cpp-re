@@ -1,0 +1,6 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_9694::m_575": "InflateEnd",
+ "VRCNetworkBehaviourSibling_BF5Sibling_9694::m_943": "CalculateCrc32",
+ "VRCNetworkBehaviourSibling_BF5Sibling_9694::m_96F": "BuildInflateHuffmanTable",
+ "VRCNetworkBehaviourSibling_BF5Sibling_9694::m_AEE": "Inflate"
+}

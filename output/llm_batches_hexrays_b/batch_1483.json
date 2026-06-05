@@ -1,0 +1,112 @@
+[
+ {
+  "class": "AudioHandler_890F",
+  "class_obf": "ÎÎÍÌÍÎÍÍÎÌÏÏÍÎÌÌÍÍÌÍÍÍÎ",
+  "parent": "",
+  "method": "m_950",
+  "cv_key": "AudioHandler_890F::m_950",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_1801D80A0(__int64 a1, _OWORD *a2)\n{\n  int v4; // edi\n  bool v5; // zf\n  __int64 *v6; // rdx\n  __int64 v7; // rtt\n  int v8; // eax\n  __int64 v9; // rcx\n  __int64 v10; // rcx\n  signed __int32 v12[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !a1 )\n    sub_180AAE510(0, a2);\n  if ( !byte_18CE3A498 )\n  {\n    sub_180AD1AA0(&qword_18C9056C0);\n    _InterlockedOr(v12, 0);\n    byte_18CE3A498 = 1;\n  }\n  v4 = *(_DWORD *)(a1 + 56);\n  _InterlockedOr(v12, 0);\n  if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n    YloSGiLVOEi_0(qword_18C9056C0);\n  if ( (v4 & 0x1600000) != 0 || !(unsigned __int8)sub_186796D30(a1, 0x4000000, 90177536, 0) )\n    return 0;\n  v5 = dword_18CE1C2E8 == 0;\n  *(_OWORD *)(a1 + 80) = *a2;\n  if ( !v5 )\n  {\n    v6 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 88) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v6);\n    do\n      v7 = *v6;\n    while ( v7 != _InterlockedCompareExchange64(v6, *v6 | (1LL << (((unsigned __int64)(a1 + 88) >> 12) & 0x3F)), *v6) );\n  }\n  _InterlockedOr(v12, 0);\n  v8 = *(_DWORD *)(a1 + 56);\n  _InterlockedOr(v12, 0);\n  _InterlockedExchange((volatile __int32 *)(a1 + 56), v8 | 0x1000000);\n  v9 = *(_QWORD *)(a1 + 72);\n  _InterlockedOr(v12, 0);\n  if ( v9 )\n  {\n    v10 = *(_QWORD *)(v9 + 24);\n    _InterlockedOr(v12, 0);\n    if ( v10 )\n      sub_1867739B0(v10, 0, 0);\n  }\n  sub_1867996C0(a1, 0);\n  return 1;\n}\n"
+ },
+ {
+  "class": "AudioHandler_890F",
+  "class_obf": "ÎÎÍÌÍÎÍÍÎÌÏÏÍÎÌÌÍÍÌÍÍÍÎ",
+  "parent": "",
+  "method": "m_F25",
+  "cv_key": "AudioHandler_890F::m_F25",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_1801D8570(__int64 a1, __int64 a2)\n{\n  int v4; // esi\n  bool v5; // zf\n  __int128 v6; // xmm1\n  __int128 v7; // xmm0\n  __int64 *v8; // rdx\n  __int64 v9; // rtt\n  int v10; // eax\n  __int64 v11; // rcx\n  __int64 v12; // rcx\n  signed __int32 v14[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !a1 )\n    sub_180AAE510(0, a2);\n  if ( !byte_18CE3A498 )\n  {\n    sub_180AD1AA0(&qword_18C9056C0);\n    _InterlockedOr(v14, 0);\n    byte_18CE3A498 = 1;\n  }\n  v4 = *(_DWORD *)(a1 + 56);\n  _InterlockedOr(v14, 0);\n  if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n    YloSGiLVOEi_0(qword_18C9056C0);\n  if ( (v4 & 0x1600000) != 0 || !(unsigned __int8)sub_186796D30(a1, 0x4000000, 90177536, 0) )\n    return 0;\n  v5 = dword_18CE1C2E8 == 0;\n  v6 = *(_OWORD *)(a2 + 16);\n  *(_OWORD *)(a1 + 80) = *(_OWORD *)a2;\n  v7 = *(_OWORD *)(a2 + 32);\n  *(_OWORD *)(a1 + 96) = v6;\n  *(_QWORD *)&v6 = *(_QWORD *)(a2 + 48);\n  *(_OWORD *)(a1 + 112) = v7;\n  *(_QWORD *)(a1 + 128) = v6;\n  if ( !v5 )\n  {\n    v8 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 80) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v8);\n    do\n      v9 = *v8;\n    while ( v9 != _InterlockedCompareExchange64(v8, *v8 | (1LL << (((unsigned __int64)(a1 + 80) >> 12) & 0x3F)), *v8) );\n  }\n  _InterlockedOr(v14, 0);\n  v10 = *(_DWORD *)(a1 + 56);\n  _InterlockedOr(v14, 0);\n  _InterlockedExchange((volatile __int32 *)(a1 + 56), v10 | 0x1000000);\n  v11 = *(_QWORD *)(a1 + 72);\n  _InterlockedOr(v14, 0);\n  if ( v11 )\n  {\n    v12 = *(_QWORD *)(v11 + 24);\n    _InterlockedOr(v14, 0);\n    if ( v12 )\n      sub_1867739B0(v12, 0, 0);\n  }\n  sub_1867996C0(a1, 0);\n  return 1;\n}\n"
+ },
+ {
+  "class": "AudioHandler_B2D3",
+  "class_obf": "ÌÌÏÍÏÎÌÌÍÎÍÌÍÏÍÎÏÏÌÎÍÏÏ",
+  "parent": "",
+  "method": "m_020",
+  "cv_key": "AudioHandler_B2D3::m_020",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180436350(__int64 a1, __int64 a2)\n{\n  __int64 *v3; // rdx\n  __int64 v4; // rtt\n  char v5; // al\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rax\n  __int64 v9; // rdx\n  __int64 v10; // rcx\n  signed __int32 v12[8]; // [rsp+0h] [rbp-48h] BYREF\n  char v13; // [rsp+20h] [rbp-28h]\n  _OWORD v14[2]; // [rsp+28h] [rbp-20h] BYREF\n\n  v14[0] = *(_OWORD *)(a1 + 16);\n  if ( dword_18CE1C2E8 )\n  {\n    v3 = &qword_18CEAB0E0[(((unsigned __int64)v14 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v3);\n    do\n      v4 = *v3;\n    while ( v4 != _InterlockedCompareExchange64(v3, *v3 | (1LL << (((unsigned __int64)v14 >> 12) & 0x3F)), *v3) );\n  }\n  v5 = 1;\n  v13 = 1;\n  if ( !byte_18CE2E293 )\n  {\n    sub_180AD1AA0(&qword_18C8D6EC0);\n    _InterlockedOr(v12, 0);\n    v5 = v13;\n    byte_18CE2E293 = 1;\n  }\n  if ( !v5 )\n    return qword_18C8D6EC0;\n  v6 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    v6 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v7 = **(_QWORD **)(v6 + 192);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(v7);\n  v8 = XhvlNzYNmaA_0(v7 + 32);\n  if ( !v8 )\n    sub_180AAE510(v10, v9);\n  return (*(__int64 (__fastcall **)(__int64, _QWORD))(*(_QWORD *)v8 + 744LL))(v8, *(_QWORD *)(*(_QWORD *)v8 + 752LL));\n}\n"
+ },
+ {
+  "class": "AudioHandler_B2D3",
+  "class_obf": "ÌÌÏÍÏÎÌÌÍÎÍÌÍÏÍÎÏÏÌÎÍÏÏ",
+  "parent": "",
+  "method": "m_203",
+  "cv_key": "AudioHandler_B2D3::m_203",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_180437150(_OWORD *a1, __int64 a2, __int64 a3)\n{\n  __int128 v4; // xmm1\n  __int128 v5; // xmm0\n  __int128 v6; // xmm1\n  __int128 v7; // xmm0\n  __int128 v8; // xmm1\n  __int64 *v9; // rdx\n  __int64 v10; // rtt\n  __int64 v11; // rax\n  __int64 v12; // rax\n  __int128 v14; // [rsp+28h] [rbp-E0h] BYREF\n  __int128 v15; // [rsp+38h] [rbp-D0h]\n  __int128 v16; // [rsp+48h] [rbp-C0h]\n  __int128 v17; // [rsp+58h] [rbp-B0h]\n  __int128 v18; // [rsp+68h] [rbp-A0h]\n  __int128 v19; // [rsp+78h] [rbp-90h]\n  _QWORD v20[2]; // [rsp+90h] [rbp-78h] BYREF\n  __int128 v21; // [rsp+A0h] [rbp-68h]\n  __int128 v22; // [rsp+B0h] [rbp-58h]\n  __int128 v23; // [rsp+C0h] [rbp-48h]\n  __int128 v24; // [rsp+D0h] [rbp-38h]\n  __int128 v25; // [rsp+E0h] [rbp-28h]\n  __int128 v26; // [rsp+F0h] [rbp-18h]\n\n  v4 = a1[2];\n  v14 = a1[1];\n  v5 = a1[3];\n  v15 = v4;\n  v6 = a1[4];\n  v16 = v5;\n  v7 = a1[5];\n  v17 = v6;\n  v8 = a1[6];\n  v18 = v7;\n  v19 = v8;\n  if ( dword_18CE1C2E8 )\n  {\n    v9 = &qword_18CEAB0E0[(((unsigned __int64)&v14 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v9);\n    do\n      v10 = *v9;\n    while ( v10 != _InterlockedCompareExchange64(v9, *v9 | (1LL << (((unsigned __int64)&v14 >> 12) & 0x3F)), *v9) );\n  }\n  if ( !a2 )\n    return 0;\n  v11 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v11 + 309) & 1) == 0 )\n    v11 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v12 = **(_QWORD **)(v11 + 192);\n  if ( (*(_BYTE *)(v12 + 309) & 1) == 0 )\n    v12 = sub_180A4EBA0(v12);\n  v20[0] = v12;\n  v21 = v14;\n  v20[1] = -1;\n  v22 = v15;\n  v23 = v16;\n  v24 = v17;\n  v25 = v18;\n  v26 = v19;\n  return sub_1867686D0(v20, a2, 0);\n}\n"
+ },
+ {
+  "class": "AudioHandler_B2D3",
+  "class_obf": "ÌÌÏÍÏÎÌÌÍÎÍÌÍÏÍÎÏÏÌÎÍÏÏ",
+  "parent": "",
+  "method": "m_500",
+  "cv_key": "AudioHandler_B2D3::m_500",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1804372B0(_OWORD *a1, __int64 a2, unsigned __int64 a3)\n{\n  __int64 v3; // r9\n  __int128 v4; // xmm1\n  __int128 v5; // xmm0\n  __int128 v6; // xmm1\n  __int128 v7; // xmm0\n  __int128 v8; // xmm1\n  __int64 *v9; // rdx\n  __int64 v10; // rtt\n  __int64 v11; // rax\n  unsigned __int64 v12; // rax\n  unsigned int v13; // ebx\n  unsigned int v14; // eax\n  __int64 v15; // rcx\n  unsigned int v16; // edi\n  __int64 v17; // rdx\n  __int64 v18; // rcx\n  int v19; // eax\n  __int128 v21; // [rsp+28h] [rbp-81h] BYREF\n  __int128 v22; // [rsp+38h] [rbp-71h]\n  __int128 v23; // [rsp+48h] [rbp-61h]\n  __int128 v24; // [rsp+58h] [rbp-51h]\n  __int128 v25; // [rsp+68h] [rbp-41h]\n  __int128 v26; // [rsp+78h] [rbp-31h]\n  unsigned __int64 v27[2]; // [rsp+90h] [rbp-19h] BYREF\n  __int128 v28; // [rsp+A0h] [rbp-9h]\n  __int128 v29; // [rsp+B0h] [rbp+7h]\n  __int128 v30; // [rsp+C0h] [rbp+17h]\n  __int128 v31; // [rsp+D0h] [rbp+27h]\n  __int128 v32; // [rsp+E0h] [rbp+37h]\n  __int128 v33; // [rsp+F0h] [rbp+47h]\n  __int64 v34; // [rsp+110h] [rbp+67h] BYREF\n\n  v3 = a2;\n  v4 = a1[2];\n  v21 = a1[1];\n  v5 = a1[3];\n  v22 = v4;\n  v6 = a1[4];\n  v23 = v5;\n  v7 = a1[5];\n  v24 = v6;\n  v8 = a1[6];\n  v25 = v7;\n  v26 = v8;\n  if ( dword_18CE1C2E8 )\n  {\n    a3 = ((unsigned __int64)&v21 >> 12) & 0x3F;\n    v9 = &qword_18CEAB0E0[(((unsigned __int64)&v21 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v9);\n    do\n      v10 = *v9;\n    while ( v10 != _InterlockedCompareExchange64(v9, *v9 | (1LL << a3), *v9) );\n  }\n  v11 = *(_QWORD *)(v3 + 40);\n  if ( (*(_BYTE *)(v11 + 309) & 1) == 0 )\n    v11 = sub_180A4EBA0(*(_QWORD *)(v3 + 40));\n  v12 = **(_QWORD **)(v11 + 192);\n  if ( (*(_BYTE *)(v12 + 309) & 1) == 0 )\n    v12 = sub_180A4EBA0(v12);\n  v13 = 0;\n  v27[0] = v12;\n  v28 = v21;\n  v27[1] = -1;\n  v29 = v22;\n  v34 = 0;\n  v30 = v23;\n  v31 = v24;\n  v32 = v25;\n  v33 = v26;\n  v14 = sub_180A43E00(v27, &v34, a3, v3);\n  v15 = v34;\n  v16 = v14;\n  if ( v34 )\n  {\n    v17 = 0;\n    while ( (int)v17 < *(_DWORD *)(v15 + 24) )\n    {\n      if ( v13 >= *(_DWORD *)(v15 + 24) )\n        sub_180AAE530(v15, v17);\n      if ( *(_QWORD *)(v15 + 8LL * (int)v13 + 32) )\n      {\n        v18 = *(_QWORD *)(v15 + 8LL * (int)v13 + 32);\n        v19 = (*(__int64 (__fastcall **)(__int64, _QWORD))(*(_QWORD *)v18 + 344LL))(\n                v18,\n                *(_QWORD *)(*(_QWORD *)v18 + 352LL));\n        v15 = v34;\n        v16 ^= v19;\n      }\n      v17 = ++v13;\n      if ( !v15 )\n        sub_180AAE510(0, v13);\n    }\n  }\n  return v16;\n}\n"
+ },
+ {
+  "class": "AudioHandler_B2D3",
+  "class_obf": "ÌÌÏÍÏÎÌÌÍÎÍÌÍÏÍÎÏÏÌÎÍÏÏ",
+  "parent": "",
+  "method": "m_561",
+  "cv_key": "AudioHandler_B2D3::m_561",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180436CF0(__int64 a1, __int64 a2)\n{\n  __int128 v3; // xmm1\n  __int64 *v4; // rdx\n  __int64 v5; // rtt\n  char v6; // al\n  __int64 v7; // rax\n  __int64 v8; // rax\n  __int64 v9; // rax\n  __int64 v10; // rdx\n  __int64 v11; // rcx\n  signed __int32 v13[8]; // [rsp+0h] [rbp-58h] BYREF\n  char v14; // [rsp+20h] [rbp-38h]\n  _OWORD v15[3]; // [rsp+28h] [rbp-30h] BYREF\n\n  v3 = *(_OWORD *)(a1 + 32);\n  v15[0] = *(_OWORD *)(a1 + 16);\n  v15[1] = v3;\n  if ( dword_18CE1C2E8 )\n  {\n    v4 = &qword_18CEAB0E0[((((unsigned __int64)v15 + 8) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v4);\n    do\n      v5 = *v4;\n    while ( v5 != _InterlockedCompareExchange64(v4, *v4 | (1LL << ((((unsigned __int64)v15 + 8) >> 12) & 0x3F)), *v4) );\n  }\n  v6 = 1;\n  v14 = 1;\n  if ( !byte_18CE2E299 )\n  {\n    sub_180AD1AA0(&qword_18C8D6EC0);\n    _InterlockedOr(v13, 0);\n    v6 = v14;\n    byte_18CE2E299 = 1;\n  }\n  if ( !v6 )\n    return qword_18C8D6EC0;\n  v7 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v8 = **(_QWORD **)(v7 + 192);\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    v8 = sub_180A4EBA0(v8);\n  v9 = XhvlNzYNmaA_0(v8 + 32);\n  if ( !v9 )\n    sub_180AAE510(v11, v10);\n  return (*(__int64 (__fastcall **)(__int64, _QWORD))(*(_QWORD *)v9 + 744LL))(v9, *(_QWORD *)(*(_QWORD *)v9 + 752LL));\n}\n"
+ },
+ {
+  "class": "AudioHandler_B2D3",
+  "class_obf": "ÌÌÏÍÏÎÌÌÍÎÍÌÍÏÍÎÏÏÌÎÍÏÏ",
+  "parent": "",
+  "method": "m_882",
+  "cv_key": "AudioHandler_B2D3::m_882",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_180436FF0(_OWORD *a1)\n{\n  __int128 v1; // xmm1\n  __int128 v2; // xmm0\n  __int128 v3; // xmm1\n  __int128 v4; // xmm0\n  __int128 v5; // xmm1\n  __int64 *v6; // rdx\n  __int64 v7; // rtt\n  _OWORD v9[7]; // [rsp+8h] [rbp-70h] BYREF\n\n  v1 = a1[2];\n  v9[0] = a1[1];\n  v2 = a1[3];\n  v9[1] = v1;\n  v3 = a1[4];\n  v9[2] = v2;\n  v4 = a1[5];\n  v9[3] = v3;\n  v5 = a1[6];\n  v9[4] = v4;\n  v9[5] = v5;\n  if ( dword_18CE1C2E8 )\n  {\n    v6 = &qword_18CEAB0E0[(((unsigned __int64)v9 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v6);\n    do\n      v7 = *v6;\n    while ( v7 != _InterlockedCompareExchange64(v6, *v6 | (1LL << (((unsigned __int64)v9 >> 12) & 0x3F)), *v6) );\n  }\n  return 1;\n}\n"
+ },
+ {
+  "class": "AudioHandler_B2D3",
+  "class_obf": "ÌÌÏÍÏÎÌÌÍÎÍÌÍÏÍÎÏÏÌÎÍÏÏ",
+  "parent": "",
+  "method": "m_887",
+  "cv_key": "AudioHandler_B2D3::m_887",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_180436A20(_OWORD *a1, __int64 a2, __int64 a3)\n{\n  __int64 v4; // rax\n  __int64 v5; // rax\n  __int128 v7; // [rsp+20h] [rbp-B8h]\n  __int128 v8; // [rsp+30h] [rbp-A8h]\n  __int128 v9; // [rsp+40h] [rbp-98h]\n  __int128 v10; // [rsp+50h] [rbp-88h]\n  __int128 v11; // [rsp+60h] [rbp-78h]\n  _QWORD v12[2]; // [rsp+70h] [rbp-68h] BYREF\n  __int128 v13; // [rsp+80h] [rbp-58h]\n  __int128 v14; // [rsp+90h] [rbp-48h]\n  __int128 v15; // [rsp+A0h] [rbp-38h]\n  __int128 v16; // [rsp+B0h] [rbp-28h]\n  __int128 v17; // [rsp+C0h] [rbp-18h]\n\n  v7 = a1[1];\n  v8 = a1[2];\n  v9 = a1[3];\n  v10 = a1[4];\n  v11 = a1[5];\n  if ( !a2 )\n    return 0;\n  v4 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    v4 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v5 = **(_QWORD **)(v4 + 192);\n  if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n    v5 = sub_180A4EBA0(v5);\n  v12[0] = v5;\n  v13 = v7;\n  v12[1] = -1;\n  v14 = v8;\n  v15 = v9;\n  v16 = v10;\n  v17 = v11;\n  return sub_1867686D0(v12, a2, 0);\n}\n"
+ },
+ {
+  "class": "AudioHandler_B2D3",
+  "class_obf": "ÌÌÏÍÏÎÌÌÍÎÍÌÍÏÍÎÏÏÌÎÍÏÏ",
+  "parent": "",
+  "method": "m_F4C",
+  "cv_key": "AudioHandler_B2D3::m_F4C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180436B10(_OWORD *a1, __int64 a2, unsigned __int64 a3, __int64 a4)\n{\n  __int64 v4; // rax\n  unsigned __int64 v5; // rax\n  unsigned int v6; // ebx\n  unsigned int v7; // eax\n  __int64 v8; // rcx\n  unsigned int v9; // edi\n  __int64 v10; // rdx\n  __int64 v11; // rcx\n  int v12; // eax\n  __int128 v14; // [rsp+20h] [rbp-B8h]\n  __int128 v15; // [rsp+30h] [rbp-A8h]\n  __int128 v16; // [rsp+40h] [rbp-98h]\n  __int128 v17; // [rsp+50h] [rbp-88h]\n  __int128 v18; // [rsp+60h] [rbp-78h]\n  unsigned __int64 v19[2]; // [rsp+70h] [rbp-68h] BYREF\n  __int128 v20; // [rsp+80h] [rbp-58h]\n  __int128 v21; // [rsp+90h] [rbp-48h]\n  __int128 v22; // [rsp+A0h] [rbp-38h]\n  __int128 v23; // [rsp+B0h] [rbp-28h]\n  __int128 v24; // [rsp+C0h] [rbp-18h]\n  __int64 v25; // [rsp+E0h] [rbp+8h] BYREF\n\n  v14 = a1[1];\n  v15 = a1[2];\n  v16 = a1[3];\n  v17 = a1[4];\n  v18 = a1[5];\n  v4 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    v4 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v5 = **(_QWORD **)(v4 + 192);\n  if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n    v5 = sub_180A4EBA0(v5);\n  v6 = 0;\n  v19[0] = v5;\n  v20 = v14;\n  v19[1] = -1;\n  v21 = v15;\n  v25 = 0;\n  v22 = v16;\n  v23 = v17;\n  v24 = v18;\n  v7 = sub_180A43E00(v19, &v25, a3, a4);\n  v8 = v25;\n  v9 = v7;\n  if ( v25 )\n  {\n    v10 = 0;\n    while ( (int)v10 < *(_DWORD *)(v8 + 24) )\n    {\n      if ( v6 >= *(_DWORD *)(v8 + 24) )\n        sub_180AAE530(v8, v10);\n      if ( *(_QWORD *)(v8 + 8LL * (int)v6 + 32) )\n      {\n        v11 = *(_QWORD *)(v8 + 8LL * (int)v6 + 32);\n        v12 = (*(__int64 (__fastcall **)(__int64, _QWORD))(*(_QWORD *)v11 + 344LL))(\n                v11,\n                *(_QWORD *)(*(_QWORD *)v11 + 352LL));\n        v8 = v25;\n        v9 ^= v12;\n      }\n      v10 = ++v6;\n      if ( !v8 )\n        sub_180AAE510(0, v6);\n    }\n  }\n  return v9;\n}\n"
+ },
+ {
+  "class": "BaseClass4ImplSiblingSibling_742D",
+  "class_obf": "ÎÎÎÍÎÍÎÎÍÏÎÏÍÍÎÏÎÎÎÌÎÍÎ",
+  "parent": "",
+  "method": "m_18B",
+  "cv_key": "BaseClass4ImplSiblingSibling_742D::m_18B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_180963670(__int64 a1, __int64 a2)\n{\n  __int64 v4; // rax\n  int v5; // eax\n  __int64 v6; // xmm1_8\n  __int128 v7; // xmm0\n  __int64 v8; // xmm1_8\n  __int128 v9; // xmm3\n  __int64 v10; // xmm2_8\n  int v11; // eax\n  __int128 v12; // xmm1\n  __int64 v13; // xmm0_8\n  signed __int32 v15[8]; // [rsp+0h] [rbp-68h] BYREF\n  __int128 v16; // [rsp+20h] [rbp-48h] BYREF\n  __int64 v17; // [rsp+30h] [rbp-38h]\n  __int128 v18; // [rsp+40h] [rbp-28h] BYREF\n  __int64 v19; // [rsp+50h] [rbp-18h]\n  int v20; // [rsp+58h] [rbp-10h]\n\n  if ( !byte_18CE51A85 )\n  {\n    sub_180AD1AA0(&qword_18C7EE178);\n    _InterlockedOr(v15, 0);\n    byte_18CE51A85 = 1;\n  }\n  if ( !a2 )\n    return 0;\n  v4 = 0;\n  if ( *(_QWORD *)a2 == qword_18C7EE178 )\n    v4 = a2;\n  if ( !v4 )\n    return 0;\n  if ( *(_QWORD *)(*(_QWORD *)a2 + 64LL) != *(_QWORD *)(qword_18C7EE178 + 64) )\n    sub_180AAEC10(a2, qword_18C7EE178);\n  v5 = *(_DWORD *)(a2 + 40);\n  v6 = *(_QWORD *)(a2 + 32);\n  v18 = *(_OWORD *)(a2 + 16);\n  v7 = *(_OWORD *)(a1 + 16);\n  v19 = v6;\n  v8 = *(_QWORD *)(a1 + 32);\n  v18 = v7;\n  v19 = v8;\n  if ( v5 != *(_DWORD *)(a1 + 40) )\n    return 0;\n  v9 = *(_OWORD *)(a2 + 16);\n  v20 = v5;\n  v10 = *(_QWORD *)(a2 + 32);\n  v11 = *(_DWORD *)(a1 + 40);\n  v12 = v7;\n  v13 = *(_QWORD *)(a1 + 32);\n  v18 = v9;\n  v20 = v11;\n  v16 = v12;\n  v17 = v13;\n  v19 = v10;\n  return sub_187CB9C10(&v18, &v16, 0);\n}\n"
+ }
+]

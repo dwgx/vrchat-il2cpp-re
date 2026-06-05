@@ -1,12 +1,3 @@
 {
- "VRCPlayerSibling_40F1::m_959": "Equals",
- "VRCPlayerSibling_40F1::m_99C": "CompareTo",
- "VRCPlayerSibling_40F1::m_A76": "ToStringEnd",
- "VRCPlayerSibling_40F1::m_B4E": "GetHashCode",
- "VRCPlayerSibling_40F1::m_B69": "GetStructuralHashCode",
- "VRCPlayerSibling_40F1::m_BD6": "Equals",
- "VRCPlayerSibling_40F1::m_D45": "Equals",
- "VRCPlayerSibling_40F1::m_D76": "GetStructuralHashCode",
- "VRCPlayerSibling_40F1::m_DD8": "GetStructuralHashCode",
- "VRCPlayerSibling_40F1::m_E87": "GetStructuralHashCode"
+ "ExceptionInt16OverflowComponent_B2EE::m_1BE": "CalculateCosine"
 }

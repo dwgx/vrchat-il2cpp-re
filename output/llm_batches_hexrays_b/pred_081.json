@@ -1,9 +1,12 @@
 {
- "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_410": "ParseWideInteger",
- "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_6EA": "ParseWideInteger",
- "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_937": "WideStringToInt",
- "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_C01": "ParseNarrowInteger",
- "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_C31": "ParseWideInteger",
- "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_F2B": "GetEnvironmentVariableNoLock",
- "VRCNetworkBehaviourSibling_BF5Sibling_02F6::m_016": "SwapHashContainers"
+ "ctorDerivedSiblingSibling_2E7B::m_985": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_986": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_99A": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_99D": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_9A2": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_9B4": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_9E1": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_9ED": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_9EF": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_9F4": "Equals"
 }

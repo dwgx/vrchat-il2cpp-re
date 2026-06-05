@@ -1,0 +1,6 @@
+{
+ "GizmosDebugTimeHandler_056D::m_C66": "ToString",
+ "InputHandler_A8C0::m_7DF": "InvokeStringToStringCallback",
+ "InputHandler_A8C0::m_D5B": "CompareNativeStringToManagedString",
+ "InputHandler_A8C0::m_FED": "InvokeStringBooleanCallback"
+}

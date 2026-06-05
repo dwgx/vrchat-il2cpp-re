@@ -1,0 +1,7 @@
+{
+ "AsyncStateMachine_20B1::m_CE3": "Equals",
+ "AsyncStateMachine_20B1::m_DB9": "Equals",
+ "AsyncStateMachine_229D::m_D51": "OnReconnectMuscleRecursive",
+ "AsyncStateMachine_247E::m_63A": "GetHashCode",
+ "AsyncStateMachine_247E::m_CE3": "GetStructuralHashCode"
+}

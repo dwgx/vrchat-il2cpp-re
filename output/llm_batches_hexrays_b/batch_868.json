@@ -1,0 +1,112 @@
+[
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_9DD5",
+  "class_obf": "ÌÎÏÌÏÍÍÎÍÍÌÏÎÍÏÍÏÏÏÎÏÌÌ",
+  "parent": "",
+  "method": "m_C83",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_9DD5::m_C83",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18079DCC0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, char, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        _DWORD *a5)\n{\n  __int64 result; // rax\n  char v6; // [rsp+20h] [rbp-28h]\n\n  v6 = **(_BYTE **)(a4 + 24);\n  result = a1(\n             a3,\n             *(_QWORD *)a4,\n             **(unsigned int **)(a4 + 8),\n             **(unsigned int **)(a4 + 16),\n             v6,\n             *(_QWORD *)(a4 + 32),\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_9DD5",
+  "class_obf": "ÌÎÏÌÏÍÍÎÍÍÌÏÎÍÏÍÏÏÏÎÏÌÌ",
+  "parent": "",
+  "method": "m_CCE",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_9DD5::m_CCE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18079CC50(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, unsigned __int16 *, unsigned __int16 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned __int16 **a4,\n        _BYTE *a5)\n{\n  __int64 result; // rax\n\n  result = a1(a3, **a4, *(unsigned int *)a4[1], *(unsigned int *)a4[2], a4[3], a4[4], a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_9DD5",
+  "class_obf": "ÌÎÏÌÏÍÍÎÍÍÌÏÎÍÏÍÏÏÏÎÏÌÌ",
+  "parent": "",
+  "method": "m_CE1",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_9DD5::m_CE1",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A0DA0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, _QWORD, _DWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(\n             a3,\n             *(_QWORD *)a4,\n             *(_QWORD *)(a4 + 8),\n             *(_QWORD *)(a4 + 16),\n             *(_QWORD *)(a4 + 24),\n             **(_DWORD **)(a4 + 32),\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_9DD5",
+  "class_obf": "ÌÎÏÌÏÍÍÎÍÍÌÏÎÍÏÍÏÏÏÎÏÌÌ",
+  "parent": "",
+  "method": "m_DD1",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_9DD5::m_DD1",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18079BCB0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, unsigned int *, _QWORD, _DWORD, _DWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4,\n        _BYTE *a5)\n{\n  __int64 result; // rax\n\n  result = a1(a3, **a4, a4[1], *a4[2], *a4[3], *a4[4], a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_9DD5",
+  "class_obf": "ÌÎÏÌÏÍÍÎÍÍÌÏÎÍÏÍÏÏÏÎÏÌÌ",
+  "parent": "",
+  "method": "m_E50",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_9DD5::m_E50",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A2330(\n        __int64 (__fastcall *a1)(_BYTE *, __int64, _QWORD),\n        __int64 a2,\n        __int64 a3,\n        _QWORD **a4,\n        __int64 a5)\n{\n  __int64 v5; // rax\n  __int128 v6; // xmm0\n  int v7; // ecx\n  __int128 v8; // xmm1\n  _BYTE v10[48]; // [rsp+40h] [rbp-38h] BYREF\n\n  v5 = a1(v10, a3, **a4);\n  v6 = *(_OWORD *)v5;\n  v7 = *(_DWORD *)(v5 + 32);\n  v8 = *(_OWORD *)(v5 + 16);\n  *(_OWORD *)a5 = v6;\n  *(_OWORD *)(a5 + 16) = v8;\n  *(_DWORD *)(a5 + 32) = v7;\n  return a5;\n}\n"
+ },
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_9DD5",
+  "class_obf": "ÌÎÏÌÏÍÍÎÍÍÌÏÎÍÏÍÏÏÏÎÏÌÌ",
+  "parent": "",
+  "method": "m_F82",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_9DD5::m_F82",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18079FB40(\n        __int64 (__fastcall *a1)(__int64, _OWORD *, __int128 *, __int64, _DWORD, _DWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4,\n        __int64 *a5)\n{\n  _DWORD *v6; // rcx\n  __int64 v7; // rax\n  __int128 v8; // xmm0\n  __int128 v9; // xmm1\n  _DWORD *v10; // rax\n  __int64 v11; // r9\n  __int64 result; // rax\n  __int128 v13; // [rsp+40h] [rbp-58h] BYREF\n  _OWORD v14[3]; // [rsp+50h] [rbp-48h] BYREF\n  __int64 v15; // [rsp+80h] [rbp-18h]\n\n  v6 = (_DWORD *)a4[3];\n  v7 = *a4;\n  v13 = *(_OWORD *)a4[1];\n  v8 = *(_OWORD *)(v7 + 16);\n  v14[0] = *(_OWORD *)v7;\n  v9 = *(_OWORD *)(v7 + 32);\n  v14[1] = v8;\n  *(_QWORD *)&v8 = *(_QWORD *)(v7 + 48);\n  v10 = (_DWORD *)a4[4];\n  v11 = a4[2];\n  v14[2] = v9;\n  v15 = v8;\n  result = a1(a3, v14, &v13, v11, *v6, *v10, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_AD6F",
+  "class_obf": "ÌÎÍÌÏÌÌÏÏÏÍÎÍÌÍÎÍÍÏÏÌÎÌ",
+  "parent": "",
+  "method": "m_011",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_AD6F::m_011",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180795AA0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, __int16, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  __int16 v5; // [rsp+30h] [rbp-18h]\n\n  v5 = **(_WORD **)(a4 + 40);\n  return a1(\n           a3,\n           **(_QWORD **)a4,\n           **(_QWORD **)(a4 + 8),\n           *(_QWORD *)(a4 + 16),\n           *(_QWORD *)(a4 + 24),\n           *(_QWORD *)(a4 + 32),\n           v5,\n           a2);\n}\n"
+ },
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_AD6F",
+  "class_obf": "ÌÎÍÌÏÌÌÏÏÏÍÎÍÌÍÎÍÍÏÏÌÎÌ",
+  "parent": "",
+  "method": "m_33B",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_AD6F::m_33B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180794910(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, unsigned int *, _DWORD, unsigned int *, unsigned int *, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(a3, **a4, *(_QWORD *)a4[1], a4[2], *a4[3], a4[4], a4[5], a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_AD6F",
+  "class_obf": "ÌÎÍÌÏÌÌÏÏÏÍÎÍÌÍÎÍÍÏÏÌÎÌ",
+  "parent": "",
+  "method": "m_3F5",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_AD6F::m_3F5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180793CF0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, _DWORD, _QWORD, _DWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(\n             a3,\n             *(_QWORD *)a4,\n             *(_QWORD *)(a4 + 8),\n             *(_QWORD *)(a4 + 16),\n             **(_DWORD **)(a4 + 24),\n             *(_QWORD *)(a4 + 32),\n             **(_DWORD **)(a4 + 40),\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterPointerExitSiblingSibling_AD6F",
+  "class_obf": "ÌÎÍÌÏÌÌÏÏÏÍÎÍÌÍÎÍÍÏÏÌÎÌ",
+  "parent": "",
+  "method": "m_442",
+  "cv_key": "PointerEnterPointerExitSiblingSibling_AD6F::m_442",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807943F0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _BYTE *, _BYTE *, _BYTE *, _BYTE *, _BYTE *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4,\n        __int64 *a5)\n{\n  __int64 v7; // rcx\n  __int64 v8; // rax\n  unsigned __int64 v9; // rdx\n  __int64 v10; // rcx\n  unsigned __int64 v11; // rcx\n  void *v12; // rsp\n  void *v13; // rsp\n  _BYTE *v14; // r13\n  __int64 v15; // rcx\n  __int64 v16; // rax\n  unsigned __int64 v17; // rdx\n  __int64 v18; // rcx\n  unsigned __int64 v19; // rcx\n  void *v20; // rsp\n  void *v21; // rsp\n  _BYTE *v22; // r12\n  __int64 v23; // rcx\n  __int64 v24; // rax\n  unsigned __int64 v25; // rdx\n  __int64 v26; // rcx\n  unsigned __int64 v27; // rcx\n  void *v28; // rsp\n  void *v29; // rsp\n  _BYTE *v30; // r15\n  __int64 v31; // rcx\n  __int64 v32; // rax\n  unsigned __int64 v33; // rdx\n  __int64 v34; // rcx\n  unsigned __int64 v35; // rcx\n  void *v36; // rsp\n  void *v37; // rsp\n  _BYTE *v38; // rsi\n  __int64 v39; // rcx\n  __int64 v40; // rax\n  unsigned __int64 v41; // rdx\n  __int64 v42; // rcx\n  unsigned __int64 v43; // rcx\n  void *v44; // rsp\n  void *v45; // rsp\n  _BYTE *v46; // rdi\n  __int64 result; // rax\n  _BYTE v48[48]; // [rsp+40h] [rbp+0h] BYREF\n\n  v7 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 8LL);\n  if ( *(int *)(v7 + 8) >= 0 )\n  {\n    v14 = (_BYTE *)a4[1];\n  }\n  else\n  {\n    v8 = sub_180A844A0((_QWORD *)v7);\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      v8 = sub_180A4EBA0(v8);\n    v9 = *(unsigned int *)(v8 + 252);\n    v10 = v9 + 15;\n    if ( v9 + 15 < v9 )\n      v10 = 0xFFFFFFFFFFFFFF0LL;\n    v11 = v10 & 0xFFFFFFFFFFFFFFF0uLL;\n    v12 = alloca(v11);\n    v13 = alloca(v11);\n    v14 = v48;\n    sub_180B276D0(v48, a4[1], v9);\n  }\n  v15 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 16LL);\n  if ( *(int *)(v15 + 8) >= 0 )\n  {\n    v22 = (_BYTE *)a4[2];\n  }\n  else\n  {\n    v16 = sub_180A844A0((_QWORD *)v15);\n    if ( (*(_BYTE *)(v16 + 309) & 1) == 0 )\n      v16 = sub_180A4EBA0(v16);\n    v17 = *(unsigned int *)(v16 + 252);\n    v18 = v17 + 15;\n    if ( v17 + 15 < v17 )\n      v18 = 0xFFFFFFFFFFFFFF0LL;\n    v19 = v18 & 0xFFFFFFFFFFFFFFF0uLL;\n    v20 = alloca(v19);\n    v21 = alloca(v19);\n    v22 = v48;\n    sub_180B276D0(v48, a4[2], v17);\n  }\n  v23 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 24LL);\n  if ( *(int *)(v23 + 8) >= 0 )\n  {\n    v30 = (_BYTE *)a4[3];\n  }\n  else\n  {\n    v24 = sub_180A844A0((_QWORD *)v23);\n    if ( (*(_BYTE *)(v24 + 309) & 1) == 0 )\n      v24 = sub_180A4EBA0(v24);\n    v25 = *(unsigned int *)(v24 + 252);\n    v26 = v25 + 15;\n    if ( v25 + 15 < v25 )\n      v26 = 0xFFFFFFFFFFFFFF0LL;\n    v27 = v26 & 0xFFFFFFFFFFFFFFF0uLL;\n    v28 = alloca(v27);\n    v29 = alloca(v27);\n    v30 = v48;\n    sub_180B276D0(v48, a4[3], v25);\n  }\n  v31 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 32LL);\n  if ( *(int *)(v31 + 8) >= 0 )\n  {\n    v38 = (_BYTE *)a4[4];\n  }\n  else\n  {\n    v32 = sub_180A844A0((_QWORD *)v31);\n    if ( (*(_BYTE *)(v32 + 309) & 1) == 0 )\n      v32 = sub_180A4EBA0(v32);\n    v33 = *(unsigned int *)(v32 + 252);\n    v34 = v33 + 15;\n    if ( v33 + 15 < v33 )\n      v34 = 0xFFFFFFFFFFFFFF0LL;\n    v35 = v34 & 0xFFFFFFFFFFFFFFF0uLL;\n    v36 = alloca(v35);\n    v37 = alloca(v35);\n    v38 = v48;\n    sub_180B276D0(v48, a4[4], v33);\n  }\n  v39 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 40LL);\n  if ( *(int *)(v39 + 8) >= 0 )\n  {\n    v46 = (_BYTE *)a4[5];\n  }\n  else\n  {\n    v40 = sub_180A844A0((_QWORD *)v39);\n    if ( (*(_BYTE *)(v40 + 309) & 1) == 0 )\n      v40 = sub_180A4EBA0(v40);\n    v41 = *(unsigned int *)(v40 + 252);\n    v42 = v41 + 15;\n    if ( v41 + 15 < v41 )\n      v42 = 0xFFFFFFFFFFFFFF0LL;\n    v43 = v42 & 0xFFFFFFFFFFFFFFF0uLL;\n    v44 = alloca(v43);\n    v45 = alloca(v43);\n    v46 = v48;\n    sub_180B276D0(v48, a4[5], v41);\n  }\n  result = a1(a3, *a4, v14, v22, v30, v38, v46, a2);\n  *a5 = result;\n  return result;\n}\n"
+ }
+]

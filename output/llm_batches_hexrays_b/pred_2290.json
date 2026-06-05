@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_7FD0::m_2F0": "GetVersionString",
+ "VRCNetworkBehaviourSibling_BF5Sibling_7FD0::m_536": "ReadByte",
+ "VRCNetworkBehaviourSibling_BF5Sibling_7FD0::m_77C": "ReadInt32"
+}

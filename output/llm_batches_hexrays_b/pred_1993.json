@@ -1,0 +1,5 @@
+{
+ "CloneSiblingSiblingSibling_8D21::m_3D4": "GetEnvironmentStringsA",
+ "CloneSiblingSiblingSibling_8D21::m_457": "GetModuleFileNameA",
+ "CloneSiblingSiblingSibling_8D21::m_9CD": "SetEnvironmentVariableFromString"
+}

@@ -1,0 +1,112 @@
+[
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2",
+  "class_obf": "ÏÏÏÎÏÏÎÌÏÎÏÍÌÍÎÍÏÎÍÎÏÎÌ",
+  "parent": "",
+  "method": "m_3D4",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2::m_3D4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18080A3B0(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, _QWORD, _DWORD, _QWORD, char, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n  char v6; // [rsp+30h] [rbp-28h]\n  char v7; // [rsp+38h] [rbp-20h]\n\n  v7 = **(_BYTE **)(a4 + 56);\n  v6 = **(_BYTE **)(a4 + 48);\n  result = a1(\n             *(_QWORD *)a4,\n             **(unsigned __int16 **)(a4 + 8),\n             *(_QWORD *)(a4 + 16),\n             **(unsigned int **)(a4 + 24),\n             **(_DWORD **)(a4 + 32),\n             *(_QWORD *)(a4 + 40),\n             v6,\n             v7,\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2",
+  "class_obf": "ÏÏÏÎÏÏÎÌÏÎÏÍÌÍÎÍÏÎÍÎÏÎÌ",
+  "parent": "",
+  "method": "m_4CF",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2::m_4CF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18080A2B0(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, _QWORD, _DWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(\n             *(_QWORD *)a4,\n             *(_QWORD *)(a4 + 8),\n             **(unsigned __int16 **)(a4 + 16),\n             *(_QWORD *)(a4 + 24),\n             **(_DWORD **)(a4 + 32),\n             *(_QWORD *)(a4 + 40),\n             *(_QWORD *)(a4 + 48),\n             **(_QWORD **)(a4 + 56),\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2",
+  "class_obf": "ÏÏÏÎÏÏÎÌÏÎÏÍÌÍÎÍÏÎÍÎÏÎÌ",
+  "parent": "",
+  "method": "m_779",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2::m_779",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18080A070(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, _BYTE *, _BYTE *, _BYTE *, _QWORD, _DWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 *a5)\n{\n  __int64 v8; // rcx\n  __int64 v9; // rax\n  unsigned __int64 v10; // rdx\n  __int64 v11; // rcx\n  unsigned __int64 v12; // rcx\n  void *v13; // rsp\n  void *v14; // rsp\n  _BYTE *v15; // r15\n  __int64 v16; // rcx\n  __int64 v17; // rax\n  unsigned __int64 v18; // rdx\n  __int64 v19; // rcx\n  unsigned __int64 v20; // rcx\n  void *v21; // rsp\n  void *v22; // rsp\n  _BYTE *v23; // rsi\n  __int64 v24; // rcx\n  __int64 v25; // rax\n  unsigned __int64 v26; // rdx\n  __int64 v27; // rcx\n  unsigned __int64 v28; // rcx\n  void *v29; // rsp\n  void *v30; // rsp\n  _BYTE *v31; // rdi\n  __int64 result; // rax\n  _BYTE v33[16]; // [rsp+50h] [rbp+0h] BYREF\n\n  v8 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 24LL);\n  if ( *(int *)(v8 + 8) >= 0 )\n  {\n    v15 = *(_BYTE **)(a4 + 24);\n  }\n  else\n  {\n    v9 = sub_180A844A0((_QWORD *)v8);\n    if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n      v9 = sub_180A4EBA0(v9);\n    v10 = *(unsigned int *)(v9 + 252);\n    v11 = v10 + 15;\n    if ( v10 + 15 < v10 )\n      v11 = 0xFFFFFFFFFFFFFF0LL;\n    v12 = v11 & 0xFFFFFFFFFFFFFFF0uLL;\n    v13 = alloca(v12);\n    v14 = alloca(v12);\n    v15 = v33;\n    sub_180B276D0(v33, *(_QWORD *)(a4 + 24), v10);\n  }\n  v16 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 32LL);\n  if ( *(int *)(v16 + 8) >= 0 )\n  {\n    v23 = *(_BYTE **)(a4 + 32);\n  }\n  else\n  {\n    v17 = sub_180A844A0((_QWORD *)v16);\n    if ( (*(_BYTE *)(v17 + 309) & 1) == 0 )\n      v17 = sub_180A4EBA0(v17);\n    v18 = *(unsigned int *)(v17 + 252);\n    v19 = v18 + 15;\n    if ( v18 + 15 < v18 )\n      v19 = 0xFFFFFFFFFFFFFF0LL;\n    v20 = v19 & 0xFFFFFFFFFFFFFFF0uLL;\n    v21 = alloca(v20);\n    v22 = alloca(v20);\n    v23 = v33;\n    sub_180B276D0(v33, *(_QWORD *)(a4 + 32), v18);\n  }\n  v24 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 40LL);\n  if ( *(int *)(v24 + 8) >= 0 )\n  {\n    v31 = *(_BYTE **)(a4 + 40);\n  }\n  else\n  {\n    v25 = sub_180A844A0((_QWORD *)v24);\n    if ( (*(_BYTE *)(v25 + 309) & 1) == 0 )\n      v25 = sub_180A4EBA0(v25);\n    v26 = *(unsigned int *)(v25 + 252);\n    v27 = v26 + 15;\n    if ( v26 + 15 < v26 )\n      v27 = 0xFFFFFFFFFFFFFF0LL;\n    v28 = v27 & 0xFFFFFFFFFFFFFFF0uLL;\n    v29 = alloca(v28);\n    v30 = alloca(v28);\n    v31 = v33;\n    sub_180B276D0(v33, *(_QWORD *)(a4 + 40), v26);\n  }\n  result = a1(\n             *(_QWORD *)a4,\n             *(_QWORD *)(a4 + 8),\n             *(_QWORD *)(a4 + 16),\n             v15,\n             v23,\n             v31,\n             *(_QWORD *)(a4 + 48),\n             **(_DWORD **)(a4 + 56),\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2",
+  "class_obf": "ÏÏÏÎÏÏÎÌÏÎÏÍÌÍÎÍÏÎÍÎÏÎÌ",
+  "parent": "",
+  "method": "m_7E3",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2::m_7E3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18080A420(\n        __int64 (__fastcall *a1)(__int64, __int64 *, __int128 *, _QWORD, char, char, char, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4,\n        __int64 *a5)\n{\n  char *v5; // r8\n  char *v7; // r10\n  char *v8; // r11\n  __int64 *v9; // rax\n  __int64 v10; // rcx\n  __int64 v11; // xmm1_8\n  char *v12; // rax\n  unsigned __int8 *v13; // r9\n  __int64 result; // rax\n  char v15; // [rsp+20h] [rbp-58h]\n  char v16; // [rsp+28h] [rbp-50h]\n  char v17; // [rsp+30h] [rbp-48h]\n  char v18; // [rsp+38h] [rbp-40h]\n  __int64 v19; // [rsp+50h] [rbp-28h] BYREF\n  int v20; // [rsp+58h] [rbp-20h]\n  __int128 v21; // [rsp+60h] [rbp-18h] BYREF\n\n  v5 = (char *)a4[6];\n  v7 = (char *)a4[5];\n  v8 = (char *)a4[4];\n  v9 = (__int64 *)a4[1];\n  v10 = *a4;\n  v21 = *(_OWORD *)a4[2];\n  v11 = *v9;\n  v20 = *((_DWORD *)v9 + 2);\n  v12 = (char *)a4[7];\n  v13 = (unsigned __int8 *)a4[3];\n  v19 = v11;\n  v18 = *v12;\n  v17 = *v5;\n  v16 = *v7;\n  v15 = *v8;\n  result = a1(v10, &v19, &v21, *v13, v15, v16, v17, v18, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2",
+  "class_obf": "ÏÏÏÎÏÏÎÌÏÎÏÍÌÍÎÍÏÎÍÎÏÎÌ",
+  "parent": "",
+  "method": "m_A4E",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2::m_A4E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18080A230(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(*a4, a4[1]);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2",
+  "class_obf": "ÏÏÏÎÏÏÎÌÏÎÏÍÌÍÎÍÏÎÍÎÏÎÌ",
+  "parent": "",
+  "method": "m_EDD",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2::m_EDD",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18080A320(\n        __int64 (__fastcall *a1)(__int64, __int128 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4,\n        __int64 *a5)\n{\n  __int64 v6; // rcx\n  __int64 v7; // r8\n  __int64 result; // rax\n  __int128 v9; // [rsp+60h] [rbp-18h] BYREF\n\n  v6 = *a4;\n  v7 = *(_QWORD *)a4[2];\n  v9 = *(_OWORD *)a4[1];\n  result = a1(v6, &v9, v7);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2",
+  "class_obf": "ÏÏÏÎÏÏÎÌÏÎÏÍÌÍÎÍÏÎÍÎÏÎÌ",
+  "parent": "",
+  "method": "m_F4F",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2::m_F4F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18080A010(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(*a4, a4[1], a4[2], a4[3], a4[4], a4[5], a4[6], a4[7], a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2",
+  "class_obf": "ÏÏÏÎÏÏÎÌÏÎÏÍÌÍÎÍÏÎÍÎÏÎÌ",
+  "parent": "",
+  "method": "m_FE6",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_AFA2::m_FE6",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18080A320(\n        __int64 (__fastcall *a1)(__int64, __int128 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4,\n        __int64 *a5)\n{\n  __int64 v6; // rcx\n  __int64 v7; // r8\n  __int64 result; // rax\n  __int128 v9; // [rsp+60h] [rbp-18h] BYREF\n\n  v6 = *a4;\n  v7 = *(_QWORD *)a4[2];\n  v9 = *(_OWORD *)a4[1];\n  result = a1(v6, &v9, v7);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_B08F",
+  "class_obf": "ÎÌÎÍÌÏÍÎÎÎÍÍÏÏÎÏÍÎÎÎÏÏÌ",
+  "parent": "",
+  "method": "m_016",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_B08F::m_016",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180A24350(__int64 a1)\n{\n  HRESULT v2; // eax\n  void *v3; // rcx\n  HRESULT v4; // eax\n  void *v5; // rcx\n\n  v2 = SafeArrayDestroy(*(SAFEARRAY **)a1);\n  if ( v2 < 0 )\n    sub_180A60590(v2, 1);\n  v3 = *(void **)(a1 + 8);\n  *(_QWORD *)a1 = 0;\n  if ( v3 )\n    CoTaskMemFree(v3);\n  *(_QWORD *)(a1 + 8) = 0;\n  v4 = SafeArrayDestroy(*(SAFEARRAY **)(a1 + 16));\n  if ( v4 < 0 )\n    sub_180A60590(v4, 1);\n  v5 = *(void **)(a1 + 24);\n  *(_QWORD *)(a1 + 16) = 0;\n  if ( v5 )\n    CoTaskMemFree(v5);\n  *(_QWORD *)(a1 + 24) = 0;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_B08F",
+  "class_obf": "ÎÌÎÍÌÏÍÎÎÎÍÍÏÏÎÏÍÎÎÎÏÏÌ",
+  "parent": "",
+  "method": "m_24F",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_B08F::m_24F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A244E0(__int64 a1, __int64 a2)\n{\n  __int64 result; // rax\n\n  *(_QWORD *)a2 = sub_180AAE830(16, *(_QWORD *)a1);\n  *(_DWORD *)(a2 + 8) = *(_DWORD *)(a1 + 8);\n  *(_DWORD *)(a2 + 12) = *(_DWORD *)(a1 + 12);\n  *(_QWORD *)(a2 + 16) = sub_180AAEC50(*(_QWORD *)(a1 + 16));\n  result = *(unsigned __int8 *)(a1 + 24);\n  *(_DWORD *)(a2 + 24) = result;\n  return result;\n}\n"
+ }
+]

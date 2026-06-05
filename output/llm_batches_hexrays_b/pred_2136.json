@@ -1,0 +1,6 @@
+{
+ "TransformComponentHandler_9797::m_85C": "UpdateTransformComponentValues",
+ "TransformComponentHandler_9D36::m_51E": "UpdateTransformComponentValues",
+ "TransformComponentHandler_9D36::m_B4D": "UpdateTransformComponentValues",
+ "TransformComponentHandler_9D36::m_DA1": "FindMatchingComponent"
+}

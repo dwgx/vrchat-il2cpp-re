@@ -1,0 +1,112 @@
+[
+ {
+  "class": "TransformComponentHandler_6BD6",
+  "class_obf": "ÌÌÌÏÏÎÏÌÍÏÏÎÏÍÍÌÍÍÌÌÍÍÎ",
+  "parent": "",
+  "method": "m_F11",
+  "cv_key": "TransformComponentHandler_6BD6::m_F11",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808C78E0(__int64 a1)\n{\n  return sub_186B3A130(\n           a1 + 40,\n           *(unsigned int *)(a1 + 36),\n           *(unsigned int *)(a1 + 28),\n           *(unsigned __int8 *)(a1 + 20),\n           0);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_6BD6",
+  "class_obf": "ÌÌÌÏÏÎÏÌÍÏÏÎÏÍÍÌÍÍÌÌÍÍÎ",
+  "parent": "",
+  "method": "m_F50",
+  "cv_key": "TransformComponentHandler_6BD6::m_F50",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808C3750(__int64 a1, __int64 a2)\n{\n  signed __int32 v5[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE3EBFD )\n  {\n    sub_180AD1AA0(&qword_18C89A6C8);\n    _InterlockedOr(v5, 0);\n    sub_180AD1AA0(&qword_18C89B4B8);\n    _InterlockedOr(v5, 0);\n    byte_18CE3EBFD = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89B4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C89B4B8);\n  return Gpu__set_CacheWritingBehavior(a1 + 24, a2, 0);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_6BD6",
+  "class_obf": "ÌÌÌÏÏÎÏÌÍÏÏÎÏÍÍÌÍÍÌÌÍÍÎ",
+  "parent": "",
+  "method": "m_FD9",
+  "cv_key": "TransformComponentHandler_6BD6::m_FD9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_1808C3B40(__int64 a1, int a2)\n{\n  return a2 >= *(_DWORD *)(a1 + 16) && a2 <= *(_DWORD *)(a1 + 20);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_B957",
+  "class_obf": "ÏÏÎÎÌÍÍÏÍÏÍÌÌÍÍÏÏÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_19C",
+  "cv_key": "TransformComponentHandler_B957::m_19C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180940430(__int64 a1)\n{\n  __int64 (__fastcall *v1)(__int64); // rax\n  __int64 v2; // rbx\n  __int64 v4; // rax\n\n  v1 = (__int64 (__fastcall *)(__int64))qword_18CE4CC80;\n  v2 = a1 + 16;\n  if ( !qword_18CE4CC80 )\n  {\n    v1 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0((__int64)\"UnityEngine.ParticleSystem/MainModule::get_startLifetim\"\n                                                                 \"eMultiplier_Injected(UnityEngine.ParticleSystem/MainModule&)\");\n    if ( !v1 )\n    {\n      v4 = sub_180A61A90(\n             \"UnityEngine.ParticleSystem/MainModule::get_startLifetimeMultiplier_Injected(UnityEngine.ParticleSystem/MainModule&)\");\n      sub_180A5F890(v4, 0);\n    }\n    qword_18CE4CC80 = (__int64)v1;\n  }\n  return v1(v2);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_B957",
+  "class_obf": "ÏÏÎÎÌÍÍÏÍÏÍÌÌÍÍÏÏÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_2A4",
+  "cv_key": "TransformComponentHandler_B957::m_2A4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809423F0(__int64 a1)\n{\n  __int64 (__fastcall *v1)(__int64); // rax\n  __int64 v2; // rbx\n  __int64 v4; // rax\n\n  v1 = (__int64 (__fastcall *)(__int64))qword_18CE4CFA0;\n  v2 = a1 + 16;\n  if ( !qword_18CE4CFA0 )\n  {\n    v1 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0((__int64)\"UnityEngine.ParticleSystem/ShapeModule::get_alignToDire\"\n                                                                 \"ction_Injected(UnityEngine.ParticleSystem/ShapeModule&)\");\n    if ( !v1 )\n    {\n      v4 = sub_180A61A90(\n             \"UnityEngine.ParticleSystem/ShapeModule::get_alignToDirection_Injected(UnityEngine.ParticleSystem/ShapeModule&)\");\n      sub_180A5F890(v4, 0);\n    }\n    qword_18CE4CFA0 = (__int64)v1;\n  }\n  return v1(v2);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_B957",
+  "class_obf": "ÏÏÎÎÌÍÍÏÍÏÍÌÌÍÍÏÏÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_2A6",
+  "cv_key": "TransformComponentHandler_B957::m_2A6",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180941820(__int64 a1)\n{\n  return sub_187A01950(a1 + 16);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_B957",
+  "class_obf": "ÏÏÎÎÌÍÍÏÍÏÍÌÌÍÍÏÏÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_525",
+  "cv_key": "TransformComponentHandler_B957::m_525",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809402D0(__int64 a1)\n{\n  __int64 (__fastcall *v1)(__int64); // rax\n  __int64 v2; // rbx\n  __int64 v4; // rax\n\n  v1 = (__int64 (__fastcall *)(__int64))qword_18CE4CC60;\n  v2 = a1 + 16;\n  if ( !qword_18CE4CC60 )\n  {\n    v1 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0((__int64)\"UnityEngine.ParticleSystem/MainModule::get_startDelayMu\"\n                                                                 \"ltiplier_Injected(UnityEngine.ParticleSystem/MainModule&)\");\n    if ( !v1 )\n    {\n      v4 = sub_180A61A90(\n             \"UnityEngine.ParticleSystem/MainModule::get_startDelayMultiplier_Injected(UnityEngine.ParticleSystem/MainModule&)\");\n      sub_180A5F890(v4, 0);\n    }\n    qword_18CE4CC60 = (__int64)v1;\n  }\n  return v1(v2);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_B957",
+  "class_obf": "ÏÏÎÎÌÍÍÏÍÏÍÌÌÍÍÏÏÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_7F6",
+  "cv_key": "TransformComponentHandler_B957::m_7F6",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __noreturn sub_18093F950()\n{\n  __int64 v0; // rax\n\n  v0 = sub_180A61AB0(\n         \"Cannot marshal field 'm_SourceStyle' of type 'GUIStyleState': Reference type field marshaling is not supported.\");\n  sub_180AAE4E0(v0, 0);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_B957",
+  "class_obf": "ÏÏÎÎÌÍÍÏÍÏÍÌÌÍÍÏÏÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_BA4",
+  "cv_key": "TransformComponentHandler_B957::m_BA4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180940590(__int64 a1)\n{\n  __int64 (__fastcall *v1)(__int64); // rax\n  __int64 v2; // rbx\n  __int64 v4; // rax\n\n  v1 = (__int64 (__fastcall *)(__int64))qword_18CE4CCA0;\n  v2 = a1 + 16;\n  if ( !qword_18CE4CCA0 )\n  {\n    v1 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0((__int64)\"UnityEngine.ParticleSystem/MainModule::get_startSpeedMu\"\n                                                                 \"ltiplier_Injected(UnityEngine.ParticleSystem/MainModule&)\");\n    if ( !v1 )\n    {\n      v4 = sub_180A61A90(\n             \"UnityEngine.ParticleSystem/MainModule::get_startSpeedMultiplier_Injected(UnityEngine.ParticleSystem/MainModule&)\");\n      sub_180A5F890(v4, 0);\n    }\n    qword_18CE4CCA0 = (__int64)v1;\n  }\n  return v1(v2);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_B957",
+  "class_obf": "ÏÏÎÎÌÍÍÏÍÏÍÌÌÍÍÏÏÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_BDF",
+  "cv_key": "TransformComponentHandler_B957::m_BDF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809406E0(__int64 a1, _OWORD *a2)\n{\n  __int64 (__fastcall *v2)(__int64, _OWORD *); // rax\n  __int64 v3; // rbx\n  __int128 v4; // xmm1\n  __int64 v6; // rax\n  _OWORD v7[2]; // [rsp+20h] [rbp-28h] BYREF\n\n  v2 = (__int64 (__fastcall *)(__int64, _OWORD *))qword_18CE4CCC8;\n  v3 = a1 + 16;\n  v4 = a2[1];\n  v7[0] = *a2;\n  v7[1] = v4;\n  if ( !qword_18CE4CCC8 )\n  {\n    v2 = (__int64 (__fastcall *)(__int64, _OWORD *))CqZPdCzurki_0((__int64)\"UnityEngine.ParticleSystem/MainModule::set_st\"\n                                                                           \"artSize_Injected(UnityEngine.ParticleSystem/M\"\n                                                                           \"ainModule&,UnityEngine.ParticleSystem/MinMaxCurve&)\");\n    if ( !v2 )\n    {\n      v6 = sub_180A61A90(\n             \"UnityEngine.ParticleSystem/MainModule::set_startSize_Injected(UnityEngine.ParticleSystem/MainModule&,UnityE\"\n             \"ngine.ParticleSystem/MinMaxCurve&)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE4CCC8 = (__int64)v2;\n  }\n  return v2(v3, v7);\n}\n"
+ }
+]

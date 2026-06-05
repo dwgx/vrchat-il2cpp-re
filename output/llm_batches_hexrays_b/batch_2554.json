@@ -1,0 +1,112 @@
+[
+ {
+  "class": "NetworkItem_722FSiblingSiblingSibling_C33A",
+  "class_obf": "ÏÎÌÍÎÎÎÏÍÏÍÌÍÍÌÌÌÏÏÌÏÎÎ",
+  "parent": "",
+  "method": "m_94A",
+  "cv_key": "NetworkItem_722FSiblingSiblingSibling_C33A::m_94A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall _GSHandlerCheckCommon(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rcx\n  __int64 result; // rax\n\n  v2 = *(unsigned int *)(*(_QWORD *)(a2 + 16) + 8LL);\n  result = *(_QWORD *)(a2 + 8);\n  if ( (*(_BYTE *)(v2 + result + 3) & 0xF) != 0 )\n    return *(_BYTE *)(v2 + result + 3) & 0xF0;\n  return result;\n}\n"
+ },
+ {
+  "class": "NetworkItem_722FSiblingSiblingSibling_C33A",
+  "class_obf": "ÏÎÌÍÎÎÎÏÍÏÍÌÍÍÌÌÌÏÏÌÏÎÎ",
+  "parent": "",
+  "method": "m_9FF",
+  "cv_key": "NetworkItem_722FSiblingSiblingSibling_C33A::m_9FF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall _GSHandlerCheckCommon(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rcx\n  __int64 result; // rax\n\n  v2 = *(unsigned int *)(*(_QWORD *)(a2 + 16) + 8LL);\n  result = *(_QWORD *)(a2 + 8);\n  if ( (*(_BYTE *)(v2 + result + 3) & 0xF) != 0 )\n    return *(_BYTE *)(v2 + result + 3) & 0xF0;\n  return result;\n}\n"
+ },
+ {
+  "class": "NetworkItem_722FSiblingSiblingSibling_C33A",
+  "class_obf": "ÏÎÌÍÎÎÎÏÍÏÍÌÍÍÌÌÌÏÏÌÏÎÎ",
+  "parent": "",
+  "method": "m_B3D",
+  "cv_key": "NetworkItem_722FSiblingSiblingSibling_C33A::m_B3D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180AF6C54(__int64 a1, unsigned int a2, __int64 a3)\n{\n  unsigned int v7; // ebx\n  unsigned int v8; // eax\n  __int64 v9; // rcx\n\n  if ( !a2 && dword_18CE1A408 <= 0 )\n    return 0;\n  if ( a2 - 1 > 1 || (v7 = sub_180AF6A6C(a1, a2, a3)) != 0 )\n  {\n    v8 = sub_180A41CA0(a1, a2, a3);\n    v7 = v8;\n    if ( a2 == 1 && !v8 )\n    {\n      sub_180A41CA0(a1, 0, a3);\n      LOBYTE(v9) = a3 != 0;\n      sub_180AF6BD4(v9);\n    }\n    if ( !a2 || a2 == 3 )\n      return (unsigned int)sub_180AF6A6C(a1, a2, a3) != 0;\n  }\n  return v7;\n}\n"
+ },
+ {
+  "class": "NetworkItem_722FSiblingSiblingSibling_C33A",
+  "class_obf": "ÏÎÌÍÎÎÎÏÍÏÍÌÍÍÌÌÌÏÏÌÏÎÎ",
+  "parent": "",
+  "method": "m_C6C",
+  "cv_key": "NetworkItem_722FSiblingSiblingSibling_C33A::m_C6C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180AF7EB8(\n        void **a1,\n        ULONG_PTR a2,\n        ULONG_PTR a3,\n        ULONG_PTR a4,\n        ULONG_PTR a5,\n        int a6,\n        int a7,\n        int a8,\n        __int64 a9,\n        __int64 a10,\n        unsigned __int8 a11)\n{\n  __int128 v12; // xmm1\n  ULONG_PTR v13; // rcx\n  ULONG_PTR v14; // r8\n  struct _CONTEXT *ContextRecord; // rax\n  void *v16; // rcx\n  void *v17; // rdx\n  struct _UNWIND_HISTORY_TABLE *HistoryTable; // [rsp+28h] [rbp-99h]\n  EXCEPTION_RECORD ExceptionRecord; // [rsp+30h] [rbp-91h] BYREF\n\n  v12 = *(_OWORD *)&qword_18A413580[2];\n  *(_OWORD *)&ExceptionRecord.ExceptionCode = *(_OWORD *)qword_18A413580;\n  *(_OWORD *)&ExceptionRecord.ExceptionAddress = v12;\n  ExceptionRecord.ExceptionInformation[1] = 0;\n  ExceptionRecord.ExceptionInformation[5] = 0;\n  ExceptionRecord.ExceptionInformation[6] = 0;\n  memset(&ExceptionRecord.ExceptionInformation[8], 0, 56);\n  ExceptionRecord.ExceptionInformation[0] = (ULONG_PTR)sub_180AFB148;\n  ExceptionRecord.ExceptionInformation[2] = a5;\n  ExceptionRecord.ExceptionInformation[4] = a3;\n  ExceptionRecord.ExceptionInformation[3] = a7;\n  ExceptionRecord.ExceptionInformation[7] = a11;\n  v13 = *(_QWORD *)(a10 + 8) + *(_QWORD *)(a9 + 24);\n  v14 = *(_QWORD *)(a10 + 8) + *(_QWORD *)(a9 + 32);\n  ExceptionRecord.ExceptionInformation[11] = a8;\n  HistoryTable = *(struct _UNWIND_HISTORY_TABLE **)(a10 + 64);\n  ContextRecord = *(struct _CONTEXT **)(a10 + 40);\n  ExceptionRecord.ExceptionInformation[1] = a4;\n  ExceptionRecord.ExceptionInformation[5] = v13;\n  v16 = *a1;\n  ExceptionRecord.ExceptionInformation[6] = a2;\n  v17 = *(void **)a10;\n  ExceptionRecord.ExceptionInformation[9] = v14;\n  ExceptionRecord.ExceptionInformation[8] = 429065504;\n  RtlUnwindEx(v16, v17, &ExceptionRecord, 0, ContextRecord, HistoryTable);\n}\n"
+ },
+ {
+  "class": "NetworkItem_722FSiblingSibling_B437",
+  "class_obf": "ÍÏÍÏÍÏÏÍÍÎÍÏÏÍÏÏÌÍÍÎÌÏÍ",
+  "parent": "",
+  "method": "m_2A0",
+  "cv_key": "NetworkItem_722FSiblingSibling_B437::m_2A0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809B7F80(__int64 a1, __int64 *a2, unsigned int a3, __int64 a4)\n{\n  __int64 v4; // rbp\n  __int64 v6; // rbx\n  unsigned __int16 v9; // ax\n  __int64 v10; // r11\n  __int64 v11; // rdx\n  unsigned __int16 v12; // r10\n  __int64 v13; // r8\n  __int64 v14; // rax\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int128 *v18; // rax\n  int v19; // ecx\n  __int128 v20; // xmm1\n  __int64 (__fastcall *v21)(__int64 *, _QWORD, _OWORD *, __int128 *); // r10\n  __int64 v22; // xmm0_8\n  __int64 v24[4]; // [rsp+20h] [rbp-58h] BYREF\n  _OWORD v25[2]; // [rsp+40h] [rbp-38h] BYREF\n  __int64 v26; // [rsp+60h] [rbp-18h]\n  int v27; // [rsp+68h] [rbp-10h]\n\n  v4 = qword_18C9234E8;\n  v6 = 0;\n  v9 = 0;\n  v10 = *a2;\n  v11 = *(_QWORD *)(qword_18C9234E8 + 40);\n  v12 = *(_WORD *)(v10 + 302);\n  if ( v12 )\n  {\n    v13 = *(_QWORD *)(v10 + 176);\n    while ( *(_QWORD *)(v13 + 16LL * v9) != v11 )\n    {\n      if ( ++v9 >= v12 )\n        goto LABEL_5;\n    }\n    v14 = v10 + 16LL * (*(unsigned __int16 *)(qword_18C9234E8 + 80) + *(_DWORD *)(v13 + 16LL * v9 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v14 = sub_180A4F060(a2, v11, *(_WORD *)(qword_18C9234E8 + 80));\n  }\n  v15 = *(_QWORD *)(v14 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v6 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v4 + 64);\n  v24[0] = v15;\n  v24[1] = v6;\n  v24[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v24, 1);\n  v19 = *(_DWORD *)(a4 + 40);\n  v20 = *(_OWORD *)(a4 + 16);\n  v21 = (__int64 (__fastcall *)(__int64 *, _QWORD, _OWORD *, __int128 *))*((_QWORD *)v18 + 1);\n  v25[0] = *(_OWORD *)a4;\n  v22 = *(_QWORD *)(a4 + 32);\n  v27 = v19;\n  v26 = v22;\n  v25[1] = v20;\n  return v21(a2, a3, v25, v18);\n}\n"
+ },
+ {
+  "class": "NetworkItem_722FSiblingSibling_B437",
+  "class_obf": "ÍÏÍÏÍÏÏÍÍÎÍÏÏÍÏÏÌÍÍÎÌÏÍ",
+  "parent": "",
+  "method": "m_4CD",
+  "cv_key": "NetworkItem_722FSiblingSibling_B437::m_4CD",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_1809B82B0(_OWORD *a1, __int64 a2, __int64 *a3, unsigned int a4)\n{\n  __int64 v4; // r11\n  __int64 v5; // rbx\n  __int64 v6; // rbp\n  unsigned __int16 v10; // ax\n  unsigned __int16 v11; // dx\n  __int64 v12; // r8\n  __int64 v13; // rax\n  __int64 v14; // rdx\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int64 v18; // rax\n  __int128 v19; // xmm0\n  _BYTE v21[16]; // [rsp+20h] [rbp-38h] BYREF\n  _QWORD v22[5]; // [rsp+30h] [rbp-28h] BYREF\n\n  v4 = *a3;\n  v5 = 0;\n  v6 = qword_18C928D80;\n  v10 = 0;\n  v11 = *(_WORD *)(*a3 + 302);\n  if ( v11 )\n  {\n    v12 = *(_QWORD *)(v4 + 176);\n    while ( *(_QWORD *)(v12 + 16LL * v10) != *(_QWORD *)(qword_18C928D80 + 40) )\n    {\n      if ( ++v10 >= v11 )\n        goto LABEL_5;\n    }\n    v14 = 2LL * v10;\n    v13 = v4 + 16LL * (*(unsigned __int16 *)(qword_18C928D80 + 80) + *(_DWORD *)(v12 + 16LL * v10 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v13 = sub_180A4F060(a3, *(_QWORD *)(qword_18C928D80 + 40), *(unsigned __int16 *)(qword_18C928D80 + 80));\n  }\n  v15 = *(_QWORD *)(v13 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v5 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v6 + 64);\n  LOBYTE(v14) = 1;\n  v22[0] = v15;\n  v22[1] = v5;\n  v22[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v22, v14);\n  v19 = *(_OWORD *)(*(__int64 (__fastcall **)(_BYTE *, __int64 *, _QWORD, __int64))(v18 + 8))(v21, a3, a4, v18);\n  *a1 = v19;\n  return a1;\n}\n"
+ },
+ {
+  "class": "NetworkItem_722FSiblingSibling_B437",
+  "class_obf": "ÍÏÍÏÍÏÏÍÍÎÍÏÏÍÏÏÌÍÍÎÌÏÍ",
+  "parent": "",
+  "method": "m_5A9",
+  "cv_key": "NetworkItem_722FSiblingSibling_B437::m_5A9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809B7F80(__int64 a1, __int64 *a2, unsigned int a3, __int64 a4)\n{\n  __int64 v4; // rbp\n  __int64 v6; // rbx\n  unsigned __int16 v9; // ax\n  __int64 v10; // r11\n  __int64 v11; // rdx\n  unsigned __int16 v12; // r10\n  __int64 v13; // r8\n  __int64 v14; // rax\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int128 *v18; // rax\n  int v19; // ecx\n  __int128 v20; // xmm1\n  __int64 (__fastcall *v21)(__int64 *, _QWORD, _OWORD *, __int128 *); // r10\n  __int64 v22; // xmm0_8\n  __int64 v24[4]; // [rsp+20h] [rbp-58h] BYREF\n  _OWORD v25[2]; // [rsp+40h] [rbp-38h] BYREF\n  __int64 v26; // [rsp+60h] [rbp-18h]\n  int v27; // [rsp+68h] [rbp-10h]\n\n  v4 = qword_18C9234E8;\n  v6 = 0;\n  v9 = 0;\n  v10 = *a2;\n  v11 = *(_QWORD *)(qword_18C9234E8 + 40);\n  v12 = *(_WORD *)(v10 + 302);\n  if ( v12 )\n  {\n    v13 = *(_QWORD *)(v10 + 176);\n    while ( *(_QWORD *)(v13 + 16LL * v9) != v11 )\n    {\n      if ( ++v9 >= v12 )\n        goto LABEL_5;\n    }\n    v14 = v10 + 16LL * (*(unsigned __int16 *)(qword_18C9234E8 + 80) + *(_DWORD *)(v13 + 16LL * v9 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v14 = sub_180A4F060(a2, v11, *(_WORD *)(qword_18C9234E8 + 80));\n  }\n  v15 = *(_QWORD *)(v14 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v6 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v4 + 64);\n  v24[0] = v15;\n  v24[1] = v6;\n  v24[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v24, 1);\n  v19 = *(_DWORD *)(a4 + 40);\n  v20 = *(_OWORD *)(a4 + 16);\n  v21 = (__int64 (__fastcall *)(__int64 *, _QWORD, _OWORD *, __int128 *))*((_QWORD *)v18 + 1);\n  v25[0] = *(_OWORD *)a4;\n  v22 = *(_QWORD *)(a4 + 32);\n  v27 = v19;\n  v26 = v22;\n  v25[1] = v20;\n  return v21(a2, a3, v25, v18);\n}\n"
+ },
+ {
+  "class": "NetworkItem_722FSiblingSibling_B437",
+  "class_obf": "ÍÏÍÏÍÏÏÍÍÎÍÏÏÍÏÏÌÍÍÎÌÏÍ",
+  "parent": "",
+  "method": "m_5D4",
+  "cv_key": "NetworkItem_722FSiblingSibling_B437::m_5D4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809B7F80(__int64 a1, __int64 *a2, unsigned int a3, __int64 a4)\n{\n  __int64 v4; // rbp\n  __int64 v6; // rbx\n  unsigned __int16 v9; // ax\n  __int64 v10; // r11\n  __int64 v11; // rdx\n  unsigned __int16 v12; // r10\n  __int64 v13; // r8\n  __int64 v14; // rax\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int128 *v18; // rax\n  int v19; // ecx\n  __int128 v20; // xmm1\n  __int64 (__fastcall *v21)(__int64 *, _QWORD, _OWORD *, __int128 *); // r10\n  __int64 v22; // xmm0_8\n  __int64 v24[4]; // [rsp+20h] [rbp-58h] BYREF\n  _OWORD v25[2]; // [rsp+40h] [rbp-38h] BYREF\n  __int64 v26; // [rsp+60h] [rbp-18h]\n  int v27; // [rsp+68h] [rbp-10h]\n\n  v4 = qword_18C9234E8;\n  v6 = 0;\n  v9 = 0;\n  v10 = *a2;\n  v11 = *(_QWORD *)(qword_18C9234E8 + 40);\n  v12 = *(_WORD *)(v10 + 302);\n  if ( v12 )\n  {\n    v13 = *(_QWORD *)(v10 + 176);\n    while ( *(_QWORD *)(v13 + 16LL * v9) != v11 )\n    {\n      if ( ++v9 >= v12 )\n        goto LABEL_5;\n    }\n    v14 = v10 + 16LL * (*(unsigned __int16 *)(qword_18C9234E8 + 80) + *(_DWORD *)(v13 + 16LL * v9 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v14 = sub_180A4F060(a2, v11, *(_WORD *)(qword_18C9234E8 + 80));\n  }\n  v15 = *(_QWORD *)(v14 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v6 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v4 + 64);\n  v24[0] = v15;\n  v24[1] = v6;\n  v24[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v24, 1);\n  v19 = *(_DWORD *)(a4 + 40);\n  v20 = *(_OWORD *)(a4 + 16);\n  v21 = (__int64 (__fastcall *)(__int64 *, _QWORD, _OWORD *, __int128 *))*((_QWORD *)v18 + 1);\n  v25[0] = *(_OWORD *)a4;\n  v22 = *(_QWORD *)(a4 + 32);\n  v27 = v19;\n  v26 = v22;\n  v25[1] = v20;\n  return v21(a2, a3, v25, v18);\n}\n"
+ },
+ {
+  "class": "NetworkItem_722FSiblingSibling_B437",
+  "class_obf": "ÍÏÍÏÍÏÏÍÍÎÍÏÏÍÏÏÌÍÍÎÌÏÍ",
+  "parent": "",
+  "method": "m_67B",
+  "cv_key": "NetworkItem_722FSiblingSibling_B437::m_67B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809B7F80(__int64 a1, __int64 *a2, unsigned int a3, __int64 a4)\n{\n  __int64 v4; // rbp\n  __int64 v6; // rbx\n  unsigned __int16 v9; // ax\n  __int64 v10; // r11\n  __int64 v11; // rdx\n  unsigned __int16 v12; // r10\n  __int64 v13; // r8\n  __int64 v14; // rax\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int128 *v18; // rax\n  int v19; // ecx\n  __int128 v20; // xmm1\n  __int64 (__fastcall *v21)(__int64 *, _QWORD, _OWORD *, __int128 *); // r10\n  __int64 v22; // xmm0_8\n  __int64 v24[4]; // [rsp+20h] [rbp-58h] BYREF\n  _OWORD v25[2]; // [rsp+40h] [rbp-38h] BYREF\n  __int64 v26; // [rsp+60h] [rbp-18h]\n  int v27; // [rsp+68h] [rbp-10h]\n\n  v4 = qword_18C9234E8;\n  v6 = 0;\n  v9 = 0;\n  v10 = *a2;\n  v11 = *(_QWORD *)(qword_18C9234E8 + 40);\n  v12 = *(_WORD *)(v10 + 302);\n  if ( v12 )\n  {\n    v13 = *(_QWORD *)(v10 + 176);\n    while ( *(_QWORD *)(v13 + 16LL * v9) != v11 )\n    {\n      if ( ++v9 >= v12 )\n        goto LABEL_5;\n    }\n    v14 = v10 + 16LL * (*(unsigned __int16 *)(qword_18C9234E8 + 80) + *(_DWORD *)(v13 + 16LL * v9 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v14 = sub_180A4F060(a2, v11, *(_WORD *)(qword_18C9234E8 + 80));\n  }\n  v15 = *(_QWORD *)(v14 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v6 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v4 + 64);\n  v24[0] = v15;\n  v24[1] = v6;\n  v24[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v24, 1);\n  v19 = *(_DWORD *)(a4 + 40);\n  v20 = *(_OWORD *)(a4 + 16);\n  v21 = (__int64 (__fastcall *)(__int64 *, _QWORD, _OWORD *, __int128 *))*((_QWORD *)v18 + 1);\n  v25[0] = *(_OWORD *)a4;\n  v22 = *(_QWORD *)(a4 + 32);\n  v27 = v19;\n  v26 = v22;\n  v25[1] = v20;\n  return v21(a2, a3, v25, v18);\n}\n"
+ },
+ {
+  "class": "NetworkItem_722FSiblingSibling_B437",
+  "class_obf": "ÍÏÍÏÍÏÏÍÍÎÍÏÏÍÏÏÌÍÍÎÌÏÍ",
+  "parent": "",
+  "method": "m_ABD",
+  "cv_key": "NetworkItem_722FSiblingSibling_B437::m_ABD",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180AFC5AC(UINT uExitCode, int a2, int a3)\n{\n  HMODULE ModuleHandleW; // rax\n  char *v5; // rcx\n  __int64 result; // rax\n  _BYTE v7[4]; // [rsp+20h] [rbp-30h] BYREF\n  int v8; // [rsp+24h] [rbp-2Ch] BYREF\n  int v9; // [rsp+28h] [rbp-28h] BYREF\n  __int64 v10; // [rsp+30h] [rbp-20h]\n  _QWORD v11[3]; // [rsp+38h] [rbp-18h] BYREF\n  int v12; // [rsp+68h] [rbp+18h] BYREF\n  int v13; // [rsp+70h] [rbp+20h] BYREF\n  char v14; // [rsp+78h] [rbp+28h] BYREF\n\n  v13 = a3;\n  v12 = a2;\n  v10 = -2;\n  if ( !a3 )\n  {\n    ModuleHandleW = GetModuleHandleW(0);\n    if ( ModuleHandleW )\n    {\n      if ( *(_WORD *)ModuleHandleW == 23117 )\n      {\n        v5 = (char *)ModuleHandleW + *((int *)ModuleHandleW + 15);\n        if ( *(_DWORD *)v5 == 17744 && *((_WORD *)v5 + 12) == 523 && *((_DWORD *)v5 + 33) > 0xEu && *((_DWORD *)v5 + 62) )\n          sub_180AFC6CC(uExitCode);\n      }\n    }\n  }\n  v14 = 0;\n  v11[0] = &v12;\n  v11[1] = &v13;\n  v11[2] = &v14;\n  v8 = 2;\n  v9 = 2;\n  result = sub_180AFC4A8(v7, &v9, v11, &v8);\n  if ( !v13 )\n    sub_180AFC674(uExitCode);\n  return result;\n}\n"
+ }
+]

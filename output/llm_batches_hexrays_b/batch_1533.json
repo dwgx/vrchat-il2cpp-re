@@ -1,0 +1,112 @@
+[
+ {
+  "class": "MeshComponentHandler_D30A",
+  "class_obf": "ÍÍÍÎÍÎÏÎÌÎÎÍÏÎÌÎÏÌÍÏÎÌÌ",
+  "parent": "",
+  "method": "m_E0D",
+  "cv_key": "MeshComponentHandler_D30A::m_E0D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180406630(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v4; // rcx\n  _BYTE v7[24]; // [rsp+30h] [rbp-28h]\n\n  v4 = *(_QWORD *)(a3 + 40);\n  *(_DWORD *)&v7[20] = 0;\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    sub_180A4EBA0(v4);\n  *(_DWORD *)v7 = -1;\n  *(_OWORD *)&v7[4] = 0;\n  *(_OWORD *)a1 = *(_OWORD *)(a2 + 16);\n  *(_OWORD *)(a1 + 16) = *(_OWORD *)v7;\n  *(_QWORD *)(a1 + 32) = *(_QWORD *)&v7[16];\n  return a1;\n}\n"
+ },
+ {
+  "class": "MeshHandler_190B",
+  "class_obf": "ÏÍÌÏÌÍÌÍÏÏÎÌÏÌÍÌÍÎÌÌÎÏÌ",
+  "parent": "",
+  "method": "m_043",
+  "cv_key": "MeshHandler_190B::m_043",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A8F210(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v4; // rax\n  __int64 v5; // rbx\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rdx\n  __int64 i; // rcx\n  __int64 v10; // rdi\n  __int64 v11; // rbx\n  __int64 result; // rax\n  __int64 v13; // r14\n  char *v14; // rcx\n  __int64 v15; // r11\n  unsigned __int64 v16; // rdx\n  __int64 v17; // r8\n  char j; // al\n  __int64 v19; // rax\n  __int64 v20; // rdi\n  int v21; // r10d\n  unsigned __int64 k; // r9\n  __int64 v23; // r9\n  unsigned __int8 *v24; // rax\n  __int64 v25; // r8\n  int v26; // ecx\n  int v27; // edx\n  void *v28; // rdi\n  __int64 v29; // rdx\n  __int64 v30; // rax\n  __int64 v31; // rdx\n  __int128 *v32; // [rsp+20h] [rbp-38h] BYREF\n  __int64 v33; // [rsp+28h] [rbp-30h]\n  __int64 v34; // [rsp+30h] [rbp-28h]\n  __int128 *v35; // [rsp+38h] [rbp-20h] BYREF\n  __int64 v36; // [rsp+40h] [rbp-18h]\n  __int64 v37; // [rsp+48h] [rbp-10h]\n\n  v4 = sub_180A50510(a1, qword_18CE19410 - qword_18CE19408, a3);\n  v5 = v4;\n  if ( !*(_QWORD *)(a1 + 104) )\n  {\n    v6 = sub_180B03B38(24 * v4);\nLABEL_3:\n    *(_QWORD *)(a1 + 104) = v6;\n    goto LABEL_4;\n  }\n  if ( v4 != *(_QWORD *)(a1 + 72) )\n  {\n    v28 = *(void **)(a1 + 104);\n    v6 = sub_180B07840(v28, 24 * v4);\n    if ( !v6 )\n    {\n      v30 = sub_180B07770(2);\n      sub_180A4EA80(v30, \"sparsehash: FATAL ERROR: failed to reallocate %lu elements for ptr %p\", v5, v28);\n      sub_180AFC768(1, v31);\n      JUMPOUT(0x180A8F484LL);\n    }\n    goto LABEL_3;\n  }\nLABEL_4:\n  v7 = *(_QWORD *)(a1 + 104);\n  v8 = v7 + 24 * v5;\n  for ( i = v7; i != v8; i += 24 )\n  {\n    *(_DWORD *)i = *(_DWORD *)(a1 + 80);\n    *(_QWORD *)(i + 8) = *(_QWORD *)(a1 + 88);\n    *(_QWORD *)(i + 16) = *(_QWORD *)(a1 + 96);\n  }\n  *(_QWORD *)(a1 + 64) = 0;\n  *(_QWORD *)(a1 + 56) = 0;\n  *(_QWORD *)(a1 + 72) = v5;\n  sub_180A50590(a1, v5);\n  v10 = qword_18CE19438;\n  v11 = qword_18CE19418;\n  v32 = &xmmword_18CE193D0;\n  v33 = qword_18CE19438;\n  v34 = qword_18CE19438 + 24 * qword_18CE19418;\n  sub_180A8FF40(&v32);\n  while ( 1 )\n  {\n    v35 = &xmmword_18CE193D0;\n    v36 = v10 + 24 * v11;\n    v37 = v36;\n    result = sub_180A8FF40(&v35);\n    v13 = v33;\n    if ( v33 == v36 )\n      break;\n    v14 = *(char **)(v33 + 8);\n    v15 = 0;\n    v16 = 5381;\n    v17 = 5381;\n    for ( j = *v14; *v14; j = *v14 )\n    {\n      v16 = j ^ (33 * v16);\n      v19 = v14[1];\n      if ( !(_BYTE)v19 )\n        break;\n      v14 += 2;\n      v17 = v19 ^ (33 * v17);\n    }\n    v20 = *(_QWORD *)(a1 + 104);\n    v21 = *(_DWORD *)(a1 + 80);\n    for ( k = v16 + 1566083941 * v17; ; k = v15 + v23 )\n    {\n      v23 = (*(_QWORD *)(a1 + 72) - 1LL) & k;\n      if ( v21 == *(_DWORD *)(v20 + 24 * v23) )\n      {\n        if ( v21 )\n          break;\n        v24 = *(unsigned __int8 **)(a1 + 88);\n        v25 = *(_QWORD *)(v20 + 24 * v23 + 8) - (_QWORD)v24;\n        do\n        {\n          v26 = v24[v25];\n          v27 = *v24 - v26;\n          if ( v27 )\n            break;\n          ++v24;\n        }\n        while ( v26 );\n        if ( !v27 )\n          break;\n      }\n      ++v15;\n    }\n    v29 = v20 + 24 * v23;\n    *(_DWORD *)v29 = *(_DWORD *)v33;\n    *(_QWORD *)(v29 + 8) = *(_QWORD *)(v13 + 8);\n    *(_QWORD *)(v29 + 16) = *(_QWORD *)(v13 + 16);\n    ++*(_QWORD *)(a1 + 64);\n    v33 = v13 + 24;\n    sub_180A8FF40(&v32);\n    v10 = qword_18CE19438;\n    v11 = qword_18CE19418;\n  }\n  ++*(_DWORD *)(a1 + 28);\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshHandler_190B",
+  "class_obf": "ÏÍÌÏÌÍÌÍÏÏÎÌÏÌÍÌÍÎÌÌÎÏÌ",
+  "parent": "",
+  "method": "m_2D5",
+  "cv_key": "MeshHandler_190B::m_2D5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A8F490(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v4; // rax\n  __int64 v5; // rdi\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rdx\n  __int64 i; // rcx\n  __int64 v10; // r10\n  __int64 result; // rax\n  __int64 v12; // rdi\n  __int64 v13; // r8\n  __int64 v14; // rdx\n  __int64 v15; // r11\n  int v16; // r9d\n  __int64 v17; // rdx\n  void *v18; // rsi\n  __int64 v19; // rdx\n  __int64 v20; // r8\n  __int64 v21; // rax\n  __int64 v22; // rdx\n\n  v4 = sub_180A50510(a1, qword_18CE192C0 - qword_18CE192B8, a3);\n  v5 = v4;\n  if ( !*(_QWORD *)(a1 + 104) )\n  {\n    v6 = sub_180B03B38(24 * v4);\nLABEL_3:\n    *(_QWORD *)(a1 + 104) = v6;\n    goto LABEL_4;\n  }\n  if ( v4 != *(_QWORD *)(a1 + 72) )\n  {\n    v18 = *(void **)(a1 + 104);\n    v6 = sub_180B07840(v18, 24 * v4);\n    if ( !v6 )\n    {\n      v21 = sub_180B07770(2);\n      sub_180A4EA80(v21, \"sparsehash: FATAL ERROR: failed to reallocate %lu elements for ptr %p\", v5, v18);\n      sub_180AFC768(1, v22);\n      JUMPOUT(0x180A8F6C8LL);\n    }\n    goto LABEL_3;\n  }\nLABEL_4:\n  v7 = *(_QWORD *)(a1 + 104);\n  v8 = v7 + 24 * v5;\n  for ( i = v7; i != v8; i += 24 )\n  {\n    *(_DWORD *)i = *(_DWORD *)(a1 + 80);\n    *(_QWORD *)(i + 8) = *(_QWORD *)(a1 + 88);\n    *(_DWORD *)(i + 16) = *(_DWORD *)(a1 + 96);\n  }\n  *(_QWORD *)(a1 + 72) = v5;\n  *(_QWORD *)(a1 + 64) = 0;\n  *(_QWORD *)(a1 + 56) = 0;\n  sub_180A50590(a1, v5);\n  v10 = qword_18CE192E8;\n  result = qword_18CE192E8;\n  v12 = qword_18CE192E8 + 24 * qword_18CE192C8;\n  if ( qword_18CE192E8 != v12 )\n  {\n    do\n    {\n      if ( ((_DWORD)qword_18CE192D0 != *(_DWORD *)result\n         || !(_DWORD)qword_18CE192D0 && qword_18CE192D8 != *(_QWORD *)(result + 8))\n        && (!qword_18CE192B8\n         || (_DWORD)xmmword_18CE192A8 != *(_DWORD *)result\n         || !(_DWORD)xmmword_18CE192A8 && *((_QWORD *)&xmmword_18CE192A8 + 1) != *(_QWORD *)(result + 8)) )\n      {\n        break;\n      }\n      result += 24;\n    }\n    while ( result != v12 );\n  }\n  while ( result != v10 + 24 * qword_18CE192C8 )\n  {\n    v13 = 0;\n    v14 = *(_QWORD *)(result + 8);\n    v15 = *(_QWORD *)(a1 + 104);\n    v16 = *(_DWORD *)(a1 + 80);\n    while ( 1 )\n    {\n      v17 = (*(_QWORD *)(a1 + 72) - 1LL) & v14;\n      if ( v16 == *(_DWORD *)(v15 + 24 * v17) && (v16 || *(_QWORD *)(a1 + 88) == *(_QWORD *)(v15 + 24 * v17 + 8)) )\n        break;\n      v14 = ++v13 + v17;\n    }\n    v19 = 3 * v17;\n    *(_DWORD *)(v15 + 8 * v19) = *(_DWORD *)result;\n    v20 = v15 + 8 * v19;\n    *(_QWORD *)(v20 + 8) = *(_QWORD *)(result + 8);\n    *(_DWORD *)(v20 + 16) = *(_DWORD *)(result + 16);\n    ++*(_QWORD *)(a1 + 64);\n    do\n      result += 24;\n    while ( result != v12\n         && ((_DWORD)qword_18CE192D0 == *(_DWORD *)result\n          && ((_DWORD)qword_18CE192D0 || qword_18CE192D8 == *(_QWORD *)(result + 8))\n          || qword_18CE192B8\n          && (_DWORD)xmmword_18CE192A8 == *(_DWORD *)result\n          && ((_DWORD)xmmword_18CE192A8 || *((_QWORD *)&xmmword_18CE192A8 + 1) == *(_QWORD *)(result + 8))) );\n    v10 = qword_18CE192E8;\n  }\n  ++*(_DWORD *)(a1 + 28);\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshHandler_190B",
+  "class_obf": "ÏÍÌÏÌÍÌÍÏÏÎÌÏÌÍÌÍÎÌÌÎÏÌ",
+  "parent": "",
+  "method": "m_849",
+  "cv_key": "MeshHandler_190B::m_849",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A8F090(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v4; // rax\n  __int64 v5; // r9\n  __int64 result; // rax\n  __int64 v7; // rdi\n  __int64 v8; // r8\n  __int64 v9; // rdx\n  __int64 v10; // r11\n  int v11; // r9d\n  __int64 v12; // rdx\n  __int64 v13; // rdx\n  __int64 v14; // r8\n\n  v4 = sub_180A50510(a1, qword_18CE19330 - qword_18CE19328, a3);\n  sub_180A8C4E0(a1, v4);\n  v5 = qword_18CE19358;\n  result = qword_18CE19358;\n  v7 = qword_18CE19358 + 24 * qword_18CE19338;\n  if ( qword_18CE19358 != v7 )\n  {\n    do\n    {\n      if ( ((_DWORD)qword_18CE19340 != *(_DWORD *)result\n         || !(_DWORD)qword_18CE19340 && qword_18CE19348 != *(_QWORD *)(result + 8))\n        && (!qword_18CE19328\n         || (_DWORD)xmmword_18CE19318 != *(_DWORD *)result\n         || !(_DWORD)xmmword_18CE19318 && *((_QWORD *)&xmmword_18CE19318 + 1) != *(_QWORD *)(result + 8)) )\n      {\n        break;\n      }\n      result += 24;\n    }\n    while ( result != v7 );\n  }\n  while ( result != v5 + 24 * qword_18CE19338 )\n  {\n    v8 = 0;\n    v9 = *(_QWORD *)(result + 8);\n    v10 = *(_QWORD *)(a1 + 104);\n    v11 = *(_DWORD *)(a1 + 80);\n    while ( 1 )\n    {\n      v12 = (*(_QWORD *)(a1 + 72) - 1LL) & v9;\n      if ( v11 == *(_DWORD *)(v10 + 24 * v12) && (v11 || *(_QWORD *)(a1 + 88) == *(_QWORD *)(v10 + 24 * v12 + 8)) )\n        break;\n      v9 = ++v8 + v12;\n    }\n    v13 = 3 * v12;\n    *(_DWORD *)(v10 + 8 * v13) = *(_DWORD *)result;\n    v14 = v10 + 8 * v13;\n    *(_QWORD *)(v14 + 8) = *(_QWORD *)(result + 8);\n    *(_QWORD *)(v14 + 16) = *(_QWORD *)(result + 16);\n    ++*(_QWORD *)(a1 + 64);\n    do\n      result += 24;\n    while ( result != v7\n         && ((_DWORD)qword_18CE19340 == *(_DWORD *)result\n          && ((_DWORD)qword_18CE19340 || qword_18CE19348 == *(_QWORD *)(result + 8))\n          || qword_18CE19328\n          && (_DWORD)xmmword_18CE19318 == *(_DWORD *)result\n          && ((_DWORD)xmmword_18CE19318 || *((_QWORD *)&xmmword_18CE19318 + 1) == *(_QWORD *)(result + 8))) );\n    v5 = qword_18CE19358;\n  }\n  ++*(_DWORD *)(a1 + 28);\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshHandler_190B",
+  "class_obf": "ÏÍÌÏÌÍÌÍÏÏÎÌÏÌÍÌÍÎÌÌÎÏÌ",
+  "parent": "",
+  "method": "m_89E",
+  "cv_key": "MeshHandler_190B::m_89E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A8F210(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v4; // rax\n  __int64 v5; // rbx\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rdx\n  __int64 i; // rcx\n  __int64 v10; // rdi\n  __int64 v11; // rbx\n  __int64 result; // rax\n  __int64 v13; // r14\n  char *v14; // rcx\n  __int64 v15; // r11\n  unsigned __int64 v16; // rdx\n  __int64 v17; // r8\n  char j; // al\n  __int64 v19; // rax\n  __int64 v20; // rdi\n  int v21; // r10d\n  unsigned __int64 k; // r9\n  __int64 v23; // r9\n  unsigned __int8 *v24; // rax\n  __int64 v25; // r8\n  int v26; // ecx\n  int v27; // edx\n  void *v28; // rdi\n  __int64 v29; // rdx\n  __int64 v30; // rax\n  __int64 v31; // rdx\n  __int128 *v32; // [rsp+20h] [rbp-38h] BYREF\n  __int64 v33; // [rsp+28h] [rbp-30h]\n  __int64 v34; // [rsp+30h] [rbp-28h]\n  __int128 *v35; // [rsp+38h] [rbp-20h] BYREF\n  __int64 v36; // [rsp+40h] [rbp-18h]\n  __int64 v37; // [rsp+48h] [rbp-10h]\n\n  v4 = sub_180A50510(a1, qword_18CE19410 - qword_18CE19408, a3);\n  v5 = v4;\n  if ( !*(_QWORD *)(a1 + 104) )\n  {\n    v6 = sub_180B03B38(24 * v4);\nLABEL_3:\n    *(_QWORD *)(a1 + 104) = v6;\n    goto LABEL_4;\n  }\n  if ( v4 != *(_QWORD *)(a1 + 72) )\n  {\n    v28 = *(void **)(a1 + 104);\n    v6 = sub_180B07840(v28, 24 * v4);\n    if ( !v6 )\n    {\n      v30 = sub_180B07770(2);\n      sub_180A4EA80(v30, \"sparsehash: FATAL ERROR: failed to reallocate %lu elements for ptr %p\", v5, v28);\n      sub_180AFC768(1, v31);\n      JUMPOUT(0x180A8F484LL);\n    }\n    goto LABEL_3;\n  }\nLABEL_4:\n  v7 = *(_QWORD *)(a1 + 104);\n  v8 = v7 + 24 * v5;\n  for ( i = v7; i != v8; i += 24 )\n  {\n    *(_DWORD *)i = *(_DWORD *)(a1 + 80);\n    *(_QWORD *)(i + 8) = *(_QWORD *)(a1 + 88);\n    *(_QWORD *)(i + 16) = *(_QWORD *)(a1 + 96);\n  }\n  *(_QWORD *)(a1 + 64) = 0;\n  *(_QWORD *)(a1 + 56) = 0;\n  *(_QWORD *)(a1 + 72) = v5;\n  sub_180A50590(a1, v5);\n  v10 = qword_18CE19438;\n  v11 = qword_18CE19418;\n  v32 = &xmmword_18CE193D0;\n  v33 = qword_18CE19438;\n  v34 = qword_18CE19438 + 24 * qword_18CE19418;\n  sub_180A8FF40(&v32);\n  while ( 1 )\n  {\n    v35 = &xmmword_18CE193D0;\n    v36 = v10 + 24 * v11;\n    v37 = v36;\n    result = sub_180A8FF40(&v35);\n    v13 = v33;\n    if ( v33 == v36 )\n      break;\n    v14 = *(char **)(v33 + 8);\n    v15 = 0;\n    v16 = 5381;\n    v17 = 5381;\n    for ( j = *v14; *v14; j = *v14 )\n    {\n      v16 = j ^ (33 * v16);\n      v19 = v14[1];\n      if ( !(_BYTE)v19 )\n        break;\n      v14 += 2;\n      v17 = v19 ^ (33 * v17);\n    }\n    v20 = *(_QWORD *)(a1 + 104);\n    v21 = *(_DWORD *)(a1 + 80);\n    for ( k = v16 + 1566083941 * v17; ; k = v15 + v23 )\n    {\n      v23 = (*(_QWORD *)(a1 + 72) - 1LL) & k;\n      if ( v21 == *(_DWORD *)(v20 + 24 * v23) )\n      {\n        if ( v21 )\n          break;\n        v24 = *(unsigned __int8 **)(a1 + 88);\n        v25 = *(_QWORD *)(v20 + 24 * v23 + 8) - (_QWORD)v24;\n        do\n        {\n          v26 = v24[v25];\n          v27 = *v24 - v26;\n          if ( v27 )\n            break;\n          ++v24;\n        }\n        while ( v26 );\n        if ( !v27 )\n          break;\n      }\n      ++v15;\n    }\n    v29 = v20 + 24 * v23;\n    *(_DWORD *)v29 = *(_DWORD *)v33;\n    *(_QWORD *)(v29 + 8) = *(_QWORD *)(v13 + 8);\n    *(_QWORD *)(v29 + 16) = *(_QWORD *)(v13 + 16);\n    ++*(_QWORD *)(a1 + 64);\n    v33 = v13 + 24;\n    sub_180A8FF40(&v32);\n    v10 = qword_18CE19438;\n    v11 = qword_18CE19418;\n  }\n  ++*(_DWORD *)(a1 + 28);\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshHandler_190B",
+  "class_obf": "ÏÍÌÏÌÍÌÍÏÏÎÌÏÌÍÌÍÎÌÌÎÏÌ",
+  "parent": "",
+  "method": "m_B61",
+  "cv_key": "MeshHandler_190B::m_B61",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A8F210(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v4; // rax\n  __int64 v5; // rbx\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rdx\n  __int64 i; // rcx\n  __int64 v10; // rdi\n  __int64 v11; // rbx\n  __int64 result; // rax\n  __int64 v13; // r14\n  char *v14; // rcx\n  __int64 v15; // r11\n  unsigned __int64 v16; // rdx\n  __int64 v17; // r8\n  char j; // al\n  __int64 v19; // rax\n  __int64 v20; // rdi\n  int v21; // r10d\n  unsigned __int64 k; // r9\n  __int64 v23; // r9\n  unsigned __int8 *v24; // rax\n  __int64 v25; // r8\n  int v26; // ecx\n  int v27; // edx\n  void *v28; // rdi\n  __int64 v29; // rdx\n  __int64 v30; // rax\n  __int64 v31; // rdx\n  __int128 *v32; // [rsp+20h] [rbp-38h] BYREF\n  __int64 v33; // [rsp+28h] [rbp-30h]\n  __int64 v34; // [rsp+30h] [rbp-28h]\n  __int128 *v35; // [rsp+38h] [rbp-20h] BYREF\n  __int64 v36; // [rsp+40h] [rbp-18h]\n  __int64 v37; // [rsp+48h] [rbp-10h]\n\n  v4 = sub_180A50510(a1, qword_18CE19410 - qword_18CE19408, a3);\n  v5 = v4;\n  if ( !*(_QWORD *)(a1 + 104) )\n  {\n    v6 = sub_180B03B38(24 * v4);\nLABEL_3:\n    *(_QWORD *)(a1 + 104) = v6;\n    goto LABEL_4;\n  }\n  if ( v4 != *(_QWORD *)(a1 + 72) )\n  {\n    v28 = *(void **)(a1 + 104);\n    v6 = sub_180B07840(v28, 24 * v4);\n    if ( !v6 )\n    {\n      v30 = sub_180B07770(2);\n      sub_180A4EA80(v30, \"sparsehash: FATAL ERROR: failed to reallocate %lu elements for ptr %p\", v5, v28);\n      sub_180AFC768(1, v31);\n      JUMPOUT(0x180A8F484LL);\n    }\n    goto LABEL_3;\n  }\nLABEL_4:\n  v7 = *(_QWORD *)(a1 + 104);\n  v8 = v7 + 24 * v5;\n  for ( i = v7; i != v8; i += 24 )\n  {\n    *(_DWORD *)i = *(_DWORD *)(a1 + 80);\n    *(_QWORD *)(i + 8) = *(_QWORD *)(a1 + 88);\n    *(_QWORD *)(i + 16) = *(_QWORD *)(a1 + 96);\n  }\n  *(_QWORD *)(a1 + 64) = 0;\n  *(_QWORD *)(a1 + 56) = 0;\n  *(_QWORD *)(a1 + 72) = v5;\n  sub_180A50590(a1, v5);\n  v10 = qword_18CE19438;\n  v11 = qword_18CE19418;\n  v32 = &xmmword_18CE193D0;\n  v33 = qword_18CE19438;\n  v34 = qword_18CE19438 + 24 * qword_18CE19418;\n  sub_180A8FF40(&v32);\n  while ( 1 )\n  {\n    v35 = &xmmword_18CE193D0;\n    v36 = v10 + 24 * v11;\n    v37 = v36;\n    result = sub_180A8FF40(&v35);\n    v13 = v33;\n    if ( v33 == v36 )\n      break;\n    v14 = *(char **)(v33 + 8);\n    v15 = 0;\n    v16 = 5381;\n    v17 = 5381;\n    for ( j = *v14; *v14; j = *v14 )\n    {\n      v16 = j ^ (33 * v16);\n      v19 = v14[1];\n      if ( !(_BYTE)v19 )\n        break;\n      v14 += 2;\n      v17 = v19 ^ (33 * v17);\n    }\n    v20 = *(_QWORD *)(a1 + 104);\n    v21 = *(_DWORD *)(a1 + 80);\n    for ( k = v16 + 1566083941 * v17; ; k = v15 + v23 )\n    {\n      v23 = (*(_QWORD *)(a1 + 72) - 1LL) & k;\n      if ( v21 == *(_DWORD *)(v20 + 24 * v23) )\n      {\n        if ( v21 )\n          break;\n        v24 = *(unsigned __int8 **)(a1 + 88);\n        v25 = *(_QWORD *)(v20 + 24 * v23 + 8) - (_QWORD)v24;\n        do\n        {\n          v26 = v24[v25];\n          v27 = *v24 - v26;\n          if ( v27 )\n            break;\n          ++v24;\n        }\n        while ( v26 );\n        if ( !v27 )\n          break;\n      }\n      ++v15;\n    }\n    v29 = v20 + 24 * v23;\n    *(_DWORD *)v29 = *(_DWORD *)v33;\n    *(_QWORD *)(v29 + 8) = *(_QWORD *)(v13 + 8);\n    *(_QWORD *)(v29 + 16) = *(_QWORD *)(v13 + 16);\n    ++*(_QWORD *)(a1 + 64);\n    v33 = v13 + 24;\n    sub_180A8FF40(&v32);\n    v10 = qword_18CE19438;\n    v11 = qword_18CE19418;\n  }\n  ++*(_DWORD *)(a1 + 28);\n  return result;\n}\n"
+ },
+ {
+  "class": "MidiDeviceInfoEnumerator_DC8F",
+  "class_obf": "ÏÎÌÍÍÎÌÍÏÌÎÏÍÍÏÎÏÏÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_1C5",
+  "cv_key": "MidiDeviceInfoEnumerator_DC8F::m_1C5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180418150(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rbx\n  __int64 v3; // rcx\n\n  v2 = *(_QWORD *)(a1 + 16);\n  v3 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v3 + 309) & 1) == 0 )\n    sub_180A4EBA0(v3);\n  return sub_1802D6B70(v2);\n}\n"
+ },
+ {
+  "class": "MidiDeviceInfoEnumerator_DC8F",
+  "class_obf": "ÏÎÌÍÍÎÌÍÏÌÎÏÍÍÏÎÏÏÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_5A5",
+  "cv_key": "MidiDeviceInfoEnumerator_DC8F::m_5A5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180417E10(__int64 a1, __int64 a2, unsigned int a3, __int64 a4)\n{\n  __int128 *v4; // rsi\n  __int64 v8; // rax\n  __int64 v9; // rax\n  bool v10; // zf\n  __int128 v12; // [rsp+20h] [rbp-18h] BYREF\n\n  v4 = (__int128 *)(a1 + 16);\n  if ( !a2 )\n    sub_180AAE510(a1, 0);\n  v8 = *(_QWORD *)(a4 + 40);\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    v8 = sub_180A4EBA0(*(_QWORD *)(a4 + 40));\n  sub_180411560(*(unsigned int *)(a2 + 24), a3, v4, **(_QWORD **)(v8 + 192));\n  v9 = *(_QWORD *)(a4 + 40);\n  v10 = (*(_BYTE *)(v9 + 309) & 1) == 0;\n  v12 = *v4;\n  if ( v10 )\n    v9 = sub_180A4EBA0(v9);\n  return sub_180402F30(a2, &v12, *(_QWORD *)(*(_QWORD *)(v9 + 192) + 56LL));\n}\n"
+ },
+ {
+  "class": "MidiDeviceInfoEnumerator_DC8F",
+  "class_obf": "ÏÎÌÍÍÎÌÍÏÌÎÏÍÍÏÎÏÏÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_644",
+  "cv_key": "MidiDeviceInfoEnumerator_DC8F::m_644",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_180417EC0(_OWORD *a1, __int64 a2, __int64 a3)\n{\n  __int64 v4; // rcx\n  _BYTE v7[48]; // [rsp+30h] [rbp-38h] BYREF\n\n  v4 = *(_QWORD *)(a3 + 40);\n  *(_OWORD *)&v7[32] = 0;\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    sub_180A4EBA0(v4);\n  *(_DWORD *)v7 = -1;\n  memset(&v7[4], 0, 40);\n  *a1 = *(_OWORD *)(a2 + 16);\n  a1[1] = *(_OWORD *)v7;\n  a1[2] = *(_OWORD *)&v7[16];\n  a1[3] = *(_OWORD *)&v7[32];\n  return a1;\n}\n"
+ },
+ {
+  "class": "MidiDeviceInfoEnumerator_DC8F",
+  "class_obf": "ÏÎÌÍÍÎÌÍÏÌÎÏÍÍÏÎÏÏÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_8EB",
+  "cv_key": "MidiDeviceInfoEnumerator_DC8F::m_8EB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180417E10(__int64 a1, __int64 a2, unsigned int a3, __int64 a4)\n{\n  __int128 *v4; // rsi\n  __int64 v8; // rax\n  __int64 v9; // rax\n  bool v10; // zf\n  __int128 v12; // [rsp+20h] [rbp-18h] BYREF\n\n  v4 = (__int128 *)(a1 + 16);\n  if ( !a2 )\n    sub_180AAE510(a1, 0);\n  v8 = *(_QWORD *)(a4 + 40);\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    v8 = sub_180A4EBA0(*(_QWORD *)(a4 + 40));\n  sub_180411560(*(unsigned int *)(a2 + 24), a3, v4, **(_QWORD **)(v8 + 192));\n  v9 = *(_QWORD *)(a4 + 40);\n  v10 = (*(_BYTE *)(v9 + 309) & 1) == 0;\n  v12 = *v4;\n  if ( v10 )\n    v9 = sub_180A4EBA0(v9);\n  return sub_180402F30(a2, &v12, *(_QWORD *)(*(_QWORD *)(v9 + 192) + 56LL));\n}\n"
+ }
+]

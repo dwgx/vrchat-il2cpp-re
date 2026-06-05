@@ -1,0 +1,6 @@
+{
+ "QuaternionTransformHandler_A61D::m_1CE": "MarshalManagedToNative",
+ "QuaternionTransformHandler_A61D::m_348": "MarshalManagedToNative",
+ "QuaternionTransformHandler_A61D::m_900": "MarshalManagedToNative",
+ "QuaternionTransformHandler_A61D::m_2BC": "InvokeNativeByteArrayCallback"
+}

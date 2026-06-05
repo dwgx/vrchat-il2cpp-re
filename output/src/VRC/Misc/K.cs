@@ -37,15 +37,20 @@ namespace VRC.Misc
     public class k__BackingFieldDerivedSiblingSibling_206F
     {
         // ── Methods ──
+        public void ToString(){} // RVA: 0x7FFAF353D360
+        public void ToString_1176FC114C3A(){} // RVA: 0x7FFAF353D410
         public void .ctor(){} // RVA: 0x7FFAF353D560
         public void Initialize(){} // RVA: 0x7FFAF3427430
-        // ── 11 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_46A(){} // RVA: 0x7FFAF2DBB0C0
         public void m_8B4(){} // RVA: 0x7FFAF3427430
         public void m_B26(){} // RVA: 0x7FFAF353D290
         public void m_AD1(){} // RVA: 0x7FFAF353D340
         public void m_228(){} // RVA: 0x7FFAF34270D0
-        // ... 6 more unresolved methods
+        public void m_7DE(){} // RVA: 0x7FFAF353D340
+        public void m_1E6(){} // RVA: 0x7FFAF3427030
+        public void m_694(){} // RVA: 0x7FFAF3427030
+        public void m_B0D(){} // RVA: 0x7FFAF353D6D0
     }
 
     /// <summary>Originally: ÌÍÌÍÍÏÍÏÎÎÍÎÍÌÎÌÍÏÍÍÏÎÎ</summary>
@@ -77,12 +82,12 @@ namespace VRC.Misc
     public class k__BackingFieldDerived_62DD : <ÎÌÏÌÎÌÍÌÌÌÍÌÎÎÏÍÎÎÏÌÌÌÏ>k__BackingField
     {
         // ── Methods ──
+        public void HasCharacterInRange(){} // RVA: 0x7FFAF43B3FF0
         public void .ctor(){} // RVA: 0x7FFAF43B4010
         public void Initialize(){} // RVA: 0x7FFAF325C2C0
         // ── Unresolved (hash) ──
         public void m_1E6(){} // RVA: 0x7FFAF3427030
         public void m_6A3(){} // RVA: 0x7FFAF34270D0
-        public void m_1DA(){} // RVA: 0x7FFAF43B3FF0
         public void m_222(){} // RVA: 0x7FFAF43B3FF0
         public void m_090(){} // RVA: 0x7FFAF34270D0
         public void m_782(){} // RVA: 0x7FFAF43B3FF0
@@ -125,6 +130,8 @@ namespace VRC.Misc
         public void GetComponentTransform(){} // RVA: 0x7FFAF2E48C00
         public void .ctor(){} // RVA: 0x7FFAF4427F20
         public void Initialize(){} // RVA: 0x7FFAF2D8EE30
+        public void GetHashCode(){} // RVA: 0x7FFAF4428120
+        public void ToString(){} // RVA: 0x7FFAF44281E0
         // ── Unresolved (hash) ──
         public void m_4A1(){} // RVA: 0x7FFAF2DA8380
         public void m_FB7(){} // RVA: 0x7FFAF2E08740
@@ -132,8 +139,6 @@ namespace VRC.Misc
         public void m_B5E(){} // RVA: 0x7FFAF4427EC0
         public void m_1D0(){} // RVA: 0x7FFAF2DA8380
         public void m_326(){} // RVA: 0x7FFAF2E48C10
-        public void m_FB9(){} // RVA: 0x7FFAF4428120
-        public void m_FF6(){} // RVA: 0x7FFAF44281E0
         public void m_60E(){} // RVA: 0x7FFAF2E48C10
         public void m_CA8(){} // RVA: 0x7FFAF2E08740
     }

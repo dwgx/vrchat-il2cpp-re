@@ -1,0 +1,6 @@
+{
+ "MaterialShaderHandler_8286::m_D6F": "IndexOf",
+ "ONSPAmbisonicsNativeSiblingSibSibling_FB0E::m_061": "InitializeGarbageCollector",
+ "ONSPAmbisonicsNativeSiblingSibSibling_FB0E::m_179": "DisableGarbageCollection",
+ "ONSPAmbisonicsNativeSiblingSibSibling_FB0E::m_38F": "DumpGarbageCollector"
+}

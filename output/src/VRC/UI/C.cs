@@ -43,13 +43,13 @@ namespace VRC.UI
     public class CameraUIHandler_BAA5
     {
         // ── Methods ──
+        public void ClampInputAxes(){} // RVA: 0x7FFAF3B569C0
         public void GetTargetTexture(){} // RVA: 0x7FFAF3B56C20
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3B56D60
         public void GetTargetTexture_0E1034899A06(){} // RVA: 0x7FFAF3B56DC0
         // ── Unresolved (hash) ──
         public void m_05A(){} // RVA: 0x7FFAF3B56880
-        public void m_C69(){} // RVA: 0x7FFAF3B569C0
         public void m_CAA(){} // RVA: 0x7FFAF3B56B00
         public void m_888(){} // RVA: 0x7FFAF3B56B60
         public void m_F08(){} // RVA: 0x7FFAF3B56BC0
@@ -88,6 +88,7 @@ namespace VRC.UI
     public class ConditionElementUIComponent_3620
     {
         // ── Methods ──
+        public void NormalizeConditionElementPositions(){} // RVA: 0x7FFAFBC236F0
         public void .ctor(){} // RVA: 0x7FFAFBC244C0
         public void Initialize(){} // RVA: 0x7FFAFBC246A0
         public void Start(){} // RVA: 0x7FFAFBC248C0
@@ -106,14 +107,20 @@ namespace VRC.UI
         public void OnTriggerEnter(){} // RVA: 0x7FFAFBC292D0
         public void OnTriggerStay(){} // RVA: 0x7FFAFBC29480
         public void .cctor(){} // RVA: 0x7FFAFBC298C0
+        public void DisableConditionElementBehaviours(){} // RVA: 0x7FFAFBC2A250
+        public void DisableConditionElementBehaviours_921F1BC54C0C(){} // RVA: 0x7FFAFBC2A280
         public void OnTriggerExit(){} // RVA: 0x7FFAFBC2A4B0
-        // ── 13 unresolved (hash) ──
+        public void FindMatchingConditionElement(){} // RVA: 0x7FFAFBC2A7B0
+        // ── Unresolved (hash) ──
         public void m_F15(){} // RVA: 0x7FFAFBC23290
         public void m_746(){} // RVA: 0x7FFAF3858A90
         public void m_455(){} // RVA: 0x7FFAFBC23540
-        public void m_B0C(){} // RVA: 0x7FFAFBC236F0
         public void m_B0A(){} // RVA: 0x7FFAFBC23760
-        // ... 8 more unresolved methods
+        public void m_A66(){} // RVA: 0x7FFAFBC23C40
+        public void m_7BE(){} // RVA: 0x7FFAFBC24310
+        public void m_C11(){} // RVA: 0x7FFAFBC29F80
+        public void m_D8B(){} // RVA: 0x7FFAFBC2A520
+        public void m_912(){} // RVA: 0x7FFAFBC2A600
     }
 
 }

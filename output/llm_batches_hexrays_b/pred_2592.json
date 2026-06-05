@@ -1,0 +1,6 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_639D::m_77C": "IsWideCharType",
+ "VRCNetworkBehaviourSibling_BF5Sibling_639D::m_943": "SetOsFileHandle",
+ "VRCNetworkBehaviourSibling_BF5Sibling_639D::m_96F": "GetOsFileHandle",
+ "VRCNetworkBehaviourSibling_BF5Sibling_639D::m_AEE": "IsTerminalFileHandle"
+}

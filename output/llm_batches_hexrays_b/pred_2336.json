@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_B6E9::m_2F0": "EnsureThreadPoolInitialized",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B6E9::m_410": "EnsureThreadPoolInitialized",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B6E9::m_552": "ThreadPoolWorkerThreadLoop",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B6E9::m_6EA": "UnsafeQueueCustomWorkItem",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B6E9::m_6F8": "UnsafeQueueCustomWorkItem"
+}

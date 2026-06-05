@@ -1,0 +1,6 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_D4E3::m_51F": "MarshalStringToAnsiBuffer",
+ "VRCNetworkBehaviourSibling_BF5Sibling_D4E3::m_6F8": "MarshalStringToCoTaskMemAnsi",
+ "VRCNetworkBehaviourSibling_BF5Sibling_D4E3::m_C01": "MarshalStringToAnsiBuffer",
+ "VRCNetworkBehaviourSibling_BF5Sibling_D4E3::m_DD6": "MarshalStringToCoTaskMemAnsi"
+}

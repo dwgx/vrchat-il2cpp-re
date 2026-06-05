@@ -28,17 +28,22 @@ namespace VRC.Core.Component
     public class UpdateComponentSibling_D6E6Sibling_2427
     {
         // ── Methods ──
+        public void UpdateComponent(){} // RVA: 0x7FFAF48BFF60
         public void Equals(){} // RVA: 0x7FFAF48C0E70 | overloaded x2
+        public void GetHashCode_D40235EB3843(){} // RVA: 0x7FFAF48C05A0
+        public void ToString_81AA453EC94C(){} // RVA: 0x7FFAF48C0600
         public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
         public void ToString(){} // RVA: 0x7FFAF48C0D00
         public void GetHashCode(){} // RVA: 0x7FFAF48C1130
-        // ── 11 unresolved (hash) ──
-        public void m_7E8(){} // RVA: 0x7FFAF48BFF60
+        // ── Unresolved (hash) ──
         public void m_2F4(){} // RVA: 0x7FFAF48C0010
         public void m_F74(){} // RVA: 0x7FFAF48C02D0
         public void m_853(){} // RVA: 0x7FFAF48C04F0
-        public void m_D40(){} // RVA: 0x7FFAF48C05A0
-        // ... 6 more unresolved methods
+        public void m_E2F(){} // RVA: 0x7FFAF48C0880
+        public void m_A82(){} // RVA: 0x7FFAF48C0E40
+        public void m_903(){} // RVA: 0x7FFAF48C0F10
+        public void m_FF3(){} // RVA: 0x7FFAF48C0010
+        public void m_D4E(){} // RVA: 0x7FFAF48C1360
     }
 
     /// <summary>Originally: ÍÎÏÌÍÏÎÍÍÍÎÌÍÌÏÌÌÎÎÍÎÌÏ</summary>

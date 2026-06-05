@@ -1,0 +1,10 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_849B::m_016": "WriteFileDescriptorWithLock",
+ "VRCNetworkBehaviourSibling_BF5Sibling_849B::m_24F": "WriteFileDescriptorNoLock",
+ "VRCNetworkBehaviourSibling_BF5Sibling_849B::m_51F": "ConvertMultiByteToWideString",
+ "VRCNetworkBehaviourSibling_BF5Sibling_849B::m_95D": "ConvertMultiByteToWideString",
+ "VRCNetworkBehaviourSibling_BF5Sibling_849B::m_C31": "ConstructLocaleUpdate",
+ "VRCNetworkBehaviourSibling_BF5Sibling_849B::m_CF3": "WriteFileDescriptor",
+ "VRCNetworkBehaviourSibling_BF5Sibling_85BA::m_24F": "ValidateHeapBlock",
+ "VRCNetworkBehaviourSibling_BF5Sibling_85BA::m_2F0": "GrowAllocationHashTable"
+}

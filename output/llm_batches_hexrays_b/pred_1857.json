@@ -1,0 +1,8 @@
+{
+ "AsyncStateMachine_6D3B::m_124": "MoveNext",
+ "AsyncStateMachine_6D3B::m_DB9": "MoveNext",
+ "AsyncStateMachine_6E2F::m_124": "OpenFileFromFlags",
+ "AsyncStateMachine_6E2F::m_288": "FindMemorySequence",
+ "AsyncStateMachine_6E2F::m_63A": "BrotliEncoderCompressStream",
+ "AsyncStateMachine_6E2F::m_E82": "BrotliEncoderCompressStreamFast"
+}

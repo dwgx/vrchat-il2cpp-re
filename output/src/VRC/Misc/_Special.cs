@@ -213,13 +213,15 @@ namespace VRC.Misc
 
         // ── Methods ──
         public void SetCenter(){} // RVA: 0x7FFAF368B960
-        // ── 21 unresolved (hash) ──
+        public void TryGetValue(){} // RVA: 0x7FFAF4A56340
+        public void TryGetValue_0F335F09AB5A(){} // RVA: 0x7FFAF4A56350
+        // ── 19 unresolved (hash) ──
         public void m_9CB(){} // RVA: 0x7FFAF3ABA2F0
         public void m_C82(){} // RVA: 0x7FFAF2F56500
         public void m_DF9(){} // RVA: 0x7FFAF3ABA2F0
         public void m_B28(){} // RVA: 0x7FFAF4418950
         public void m_921(){} // RVA: 0x7FFAF2E478F0
-        // ... 16 more unresolved methods
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÏÌÍÏÍÍÍÌÏÎÏÎÍÌÎÌÏÏÍÏÍ</summary>

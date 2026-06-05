@@ -1,0 +1,4 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_B08F::m_016": "ReleaseNativeSafeArrayResources",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B08F::m_24F": "MarshalNativeDataToManaged"
+}

@@ -1,0 +1,112 @@
+[
+ {
+  "class": "FrameSiblingSibling_D7DD",
+  "class_obf": "ÏÏÏÏÌÎÏÌÏÎÏÌÎÍÌÏÌÏÎÌÌÏÏ",
+  "parent": "",
+  "method": "m_4BA",
+  "cv_key": "FrameSiblingSibling_D7DD::m_4BA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180073D50(__int64 a1)\n{\n  return sub_18227C580(a1 + 16);\n}\n"
+ },
+ {
+  "class": "GameObjectSystem_FD84",
+  "class_obf": "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ",
+  "parent": "",
+  "method": "m_051",
+  "cv_key": "GameObjectSystem_FD84::m_051",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180114080(__int64 a1, __int64 *a2)\n{\n  __int64 v4; // rdi\n  signed __int32 v5[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE29A2D )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v5, 0);\n    byte_18CE29A2D = 1;\n  }\n  if ( !byte_18CE29A30 )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v5, 0);\n    byte_18CE29A30 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  sub_182706DA0(a1 + 24, 0);\n  *(_DWORD *)(a1 + 16) = 1;\n  v4 = *a2;\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  if ( !byte_18CE2720B )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v5, 0);\n    byte_18CE2720B = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  *(_QWORD *)(a1 + 24) = 0;\n  if ( v4 )\n  {\n    if ( !byte_18CE27250 )\n    {\n      sub_180AD1AA0(&qword_18C8D04E8);\n      _InterlockedOr(v5, 0);\n      byte_18CE27250 = 1;\n    }\n    *(_QWORD *)(a1 + 24) = *(_QWORD *)(v4 + 16);\n  }\n}\n"
+ },
+ {
+  "class": "GameObjectSystem_FD84",
+  "class_obf": "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ",
+  "parent": "",
+  "method": "m_055",
+  "cv_key": "GameObjectSystem_FD84::m_055",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180114B30(__int64 a1)\n{\n  __int64 v2; // rbx\n  __int64 v3; // rcx\n  __int64 v4; // rax\n  __int64 result; // rax\n  __int64 v6; // rdx\n  __int64 v7; // rdx\n  __int64 v8; // rcx\n  __int64 v9; // r8\n  __int64 v10; // r9\n  signed __int32 v11[8]; // [rsp+0h] [rbp-48h] BYREF\n  __int128 v12; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v13; // [rsp+30h] [rbp-18h]\n  __int64 v14; // [rsp+50h] [rbp+8h] BYREF\n  __int64 v15; // [rsp+58h] [rbp+10h]\n\n  v2 = 0;\n  v15 = 0;\n  if ( !TlsGetValue(*(_DWORD *)qword_18CE1CDD8) )\n  {\n    GetLastError();\n    v4 = IAxtFRMbDZr_0(v3);\n    v2 = HvqaehHHlUl_0(v4);\n    v15 = v2;\n  }\n  if ( !byte_18CE29A45 )\n  {\n    sub_180AD1AA0(&qword_18C8E8D70);\n    _InterlockedOr(v11, 0);\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v11, 0);\n    byte_18CE29A45 = 1;\n  }\n  v14 = 0;\n  v12 = 0;\n  v13 = 0;\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  result = ((__int64 (__fastcall *)(__int64, __int64 *, __int128 *, __int64))sub_182A83B50)(\n             a1,\n             &v14,\n             &v12,\n             qword_18C8E8D70);\n  if ( (_BYTE)result )\n  {\n    if ( !v14 )\n      sub_180AAE510(0, v6);\n    result = (*(__int64 (__fastcall **)(_QWORD, __int128 *, _QWORD))(v14 + 24))(\n               *(_QWORD *)(v14 + 64),\n               &v12,\n               *(_QWORD *)(v14 + 40));\n  }\n  if ( v2 )\n  {\n    sub_180AD4EB0(v2);\n    return sub_180A403E0(v8, v7, v9, v10);\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "GameObjectSystem_FD84",
+  "class_obf": "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ",
+  "parent": "",
+  "method": "m_0D4",
+  "cv_key": "GameObjectSystem_FD84::m_0D4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180118280(__int64 a1, __int64 *a2)\n{\n  __int64 v4; // rdi\n  signed __int32 v6[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE29AF1 )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE29AF1 = 1;\n  }\n  if ( !byte_18CE29AF3 )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE29AF3 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  sub_182706DA0(a1 + 24, 0);\n  sub_182706DA0(a1 + 32, 0);\n  *(_DWORD *)(a1 + 16) = 1;\n  v4 = *a2;\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  if ( !byte_18CE2720B )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE2720B = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  *(_QWORD *)(a1 + 24) = 0;\n  if ( v4 )\n  {\n    if ( !byte_18CE27250 )\n    {\n      sub_180AD1AA0(&qword_18C8D04E8);\n      _InterlockedOr(v6, 0);\n      byte_18CE27250 = 1;\n    }\n    *(_QWORD *)(a1 + 24) = *(_QWORD *)(v4 + 16);\n  }\n  return sub_182708CE0(a2[1], a1 + 32, 0);\n}\n"
+ },
+ {
+  "class": "GameObjectSystem_FD84",
+  "class_obf": "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ",
+  "parent": "",
+  "method": "m_1E5",
+  "cv_key": "GameObjectSystem_FD84::m_1E5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18010CF90(__int64 a1)\n{\n  signed __int32 v3[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE298F1 )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v3, 0);\n    byte_18CE298F1 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  sub_182706DA0(a1 + 24, 0);\n  sub_182706DA0(a1 + 32, 0);\n  return sub_182706DA0(a1 + 40, 0);\n}\n"
+ },
+ {
+  "class": "GameObjectSystem_FD84",
+  "class_obf": "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ",
+  "parent": "",
+  "method": "m_274",
+  "cv_key": "GameObjectSystem_FD84::m_274",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180119F30(__int64 a1, unsigned __int64 a2)\n{\n  __int64 v4; // rbp\n  __int64 v5; // rbx\n  bool v6; // zf\n  __int64 *v7; // rdx\n  __int64 v8; // rtt\n  __int64 result; // rax\n  signed __int32 v10[14]; // [rsp+0h] [rbp-38h] BYREF\n  __int64 v11; // [rsp+40h] [rbp+8h] BYREF\n\n  if ( !byte_18CE29B46 )\n  {\n    sub_180AD1AA0(&qword_18C89C4C0);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v10, 0);\n    byte_18CE29B46 = 1;\n  }\n  v11 = 0;\n  *(_OWORD *)a2 = 0;\n  v4 = *(_QWORD *)(a1 + 24);\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  v5 = qword_18C89C4C0;\n  if ( !*(_QWORD *)(qword_18C89C4C0 + 56) )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v10, 0);\n    if ( !*(_QWORD *)(v5 + 56) )\n      sub_180A4EC20(v5);\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  sub_180143F00(v4, &v11, *(_QWORD *)(*(_QWORD *)(v5 + 56) + 8LL));\n  v6 = dword_18CE1C2E8 == 0;\n  *(_QWORD *)a2 = v11;\n  if ( !v6 )\n  {\n    v7 = &qword_18CEAB0E0[((a2 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v7);\n    do\n      v8 = *v7;\n    while ( v8 != _InterlockedCompareExchange64(v7, *v7 | (1LL << ((a2 >> 12) & 0x3F)), *v7) );\n  }\n  result = *(unsigned int *)(a1 + 32);\n  *(_DWORD *)(a2 + 8) = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "GameObjectSystem_FD84",
+  "class_obf": "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ",
+  "parent": "",
+  "method": "m_2CB",
+  "cv_key": "GameObjectSystem_FD84::m_2CB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18010E510(__int64 a1, __int64 *a2)\n{\n  __int64 v4; // rdi\n  signed __int32 v6[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE29935 )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE29935 = 1;\n  }\n  if ( !byte_18CE29937 )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE29937 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  sub_182706DA0(a1 + 24, 0);\n  *(_DWORD *)(a1 + 16) = 0;\n  v4 = *a2;\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  return sub_182708CE0(v4, a1 + 24, 0);\n}\n"
+ },
+ {
+  "class": "GameObjectSystem_FD84",
+  "class_obf": "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ",
+  "parent": "",
+  "method": "m_2E6",
+  "cv_key": "GameObjectSystem_FD84::m_2E6",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180119350(__int64 a1, __int64 a2)\n{\n  __int64 v4; // rdi\n  signed __int32 v6[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE29B13 )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE29B13 = 1;\n  }\n  if ( !byte_18CE29B14 )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE29B14 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  sub_182706DA0(a1 + 24, 0);\n  *(_DWORD *)(a1 + 16) = 0;\n  *(_DWORD *)(a1 + 20) = *(_DWORD *)a2;\n  v4 = *(_QWORD *)(a2 + 8);\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  return sub_182708CE0(v4, a1 + 24, 0);\n}\n"
+ },
+ {
+  "class": "GameObjectSystem_FD84",
+  "class_obf": "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ",
+  "parent": "",
+  "method": "m_31A",
+  "cv_key": "GameObjectSystem_FD84::m_31A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_18010D2E0(__int64 a1, __int64 *a2)\n{\n  __int64 v2; // rbx\n  __int64 v4; // rsi\n  __int64 v5; // rsi\n  __int64 v6; // rdi\n  signed __int32 v7[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v2 = a1 + 16;\n  if ( !byte_18CE298FC )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v7, 0);\n    byte_18CE298FC = 1;\n  }\n  sub_1828A8550(v2, 0);\n  *(_DWORD *)v2 = 0;\n  v4 = *a2;\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  sub_182708CE0(v4, v2 + 8, 0);\n  v5 = a2[1];\n  if ( !byte_18CE2720B )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v7, 0);\n    byte_18CE2720B = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  *(_QWORD *)(v2 + 16) = 0;\n  if ( v5 )\n  {\n    if ( !byte_18CE27250 )\n    {\n      sub_180AD1AA0(&qword_18C8D04E8);\n      _InterlockedOr(v7, 0);\n      byte_18CE27250 = 1;\n    }\n    *(_QWORD *)(v2 + 16) = *(_QWORD *)(v5 + 16);\n  }\n  v6 = a2[2];\n  if ( !byte_18CE2720B )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v7, 0);\n    byte_18CE2720B = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  *(_QWORD *)(v2 + 24) = 0;\n  if ( v6 )\n  {\n    if ( !byte_18CE27250 )\n    {\n      sub_180AD1AA0(&qword_18C8D04E8);\n      _InterlockedOr(v7, 0);\n      byte_18CE27250 = 1;\n    }\n    *(_QWORD *)(v2 + 24) = *(_QWORD *)(v6 + 16);\n  }\n}\n"
+ },
+ {
+  "class": "GameObjectSystem_FD84",
+  "class_obf": "ÍÎÎÎÎÏÏÎÍÍÎÍÏÍÍÍÍÏÎÎÍÎÍ",
+  "parent": "",
+  "method": "m_3BB",
+  "cv_key": "GameObjectSystem_FD84::m_3BB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18010F3D0(__int64 a1, __int64 *a2)\n{\n  __int64 v4; // rdi\n  signed __int32 v6[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE2994E )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE2994E = 1;\n  }\n  if ( !byte_18CE2994A )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE2994A = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  sub_182706DA0(a1 + 24, 0);\n  sub_182706DA0(a1 + 32, 0);\n  *(_DWORD *)(a1 + 16) = 1;\n  v4 = *a2;\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  if ( !byte_18CE2720B )\n  {\n    sub_180AD1AA0(&qword_18C89D938);\n    _InterlockedOr(v6, 0);\n    byte_18CE2720B = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C89D938 + 224) )\n    YloSGiLVOEi_0(qword_18C89D938);\n  *(_QWORD *)(a1 + 24) = 0;\n  if ( v4 )\n  {\n    if ( !byte_18CE27250 )\n    {\n      sub_180AD1AA0(&qword_18C8D04E8);\n      _InterlockedOr(v6, 0);\n      byte_18CE27250 = 1;\n    }\n    *(_QWORD *)(a1 + 24) = *(_QWORD *)(v4 + 16);\n  }\n  return sub_182708CE0(a2[1], a1 + 32, 0);\n}\n"
+ }
+]

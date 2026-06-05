@@ -1,0 +1,112 @@
+[
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_276",
+  "cv_key": "WorldSpawnSibling_3685::m_276",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A9420(\n        __int64 (__fastcall *a1)(__int64, _BYTE *, _BYTE *, _BYTE *, _BYTE *, _BYTE *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  __int64 v4; // r14\n  __int64 v6; // rcx\n  __int64 v7; // rax\n  unsigned __int64 v8; // rdx\n  __int64 v9; // rcx\n  unsigned __int64 v10; // rcx\n  void *v11; // rsp\n  void *v12; // rsp\n  _BYTE *v13; // r13\n  __int64 v14; // rcx\n  __int64 v15; // rax\n  unsigned __int64 v16; // rdx\n  __int64 v17; // rcx\n  unsigned __int64 v18; // rcx\n  void *v19; // rsp\n  void *v20; // rsp\n  _BYTE *v21; // r12\n  __int64 v22; // rcx\n  __int64 v23; // rax\n  unsigned __int64 v24; // rdx\n  __int64 v25; // rcx\n  unsigned __int64 v26; // rcx\n  void *v27; // rsp\n  void *v28; // rsp\n  _BYTE *v29; // r15\n  __int64 v30; // rcx\n  __int64 v31; // rax\n  unsigned __int64 v32; // rdx\n  __int64 v33; // rcx\n  unsigned __int64 v34; // rcx\n  void *v35; // rsp\n  void *v36; // rsp\n  _BYTE *v37; // rsi\n  __int64 v38; // rcx\n  __int64 v39; // rax\n  unsigned __int64 v40; // rdx\n  __int64 v41; // rcx\n  unsigned __int64 v42; // rcx\n  void *v43; // rsp\n  void *v44; // rsp\n  _BYTE *v45; // rdi\n  _BYTE v47[48]; // [rsp+40h] [rbp+0h] BYREF\n\n  v4 = a2;\n  v6 = **(_QWORD **)(a2 + 48);\n  if ( *(int *)(v6 + 8) >= 0 )\n  {\n    v13 = (_BYTE *)*a4;\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v7 = sub_180A844A0(v6, a2);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(v7);\n    v8 = *(unsigned int *)(v7 + 252);\n    v9 = v8 + 15;\n    if ( v8 + 15 < v8 )\n      v9 = 0xFFFFFFFFFFFFFF0LL;\n    v10 = v9 & 0xFFFFFFFFFFFFFFF0uLL;\n    v11 = alloca(v10);\n    v12 = alloca(v10);\n    v13 = v47;\n    sub_180B276D0(v47, *a4, v8);\n  }\n  v14 = *(_QWORD *)(*(_QWORD *)(v4 + 48) + 8LL);\n  if ( *(int *)(v14 + 8) >= 0 )\n  {\n    v21 = (_BYTE *)a4[1];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v15 = sub_180A844A0(v14, a2);\n    if ( (*(_BYTE *)(v15 + 309) & 1) == 0 )\n      v15 = sub_180A4EBA0(v15);\n    v16 = *(unsigned int *)(v15 + 252);\n    v17 = v16 + 15;\n    if ( v16 + 15 < v16 )\n      v17 = 0xFFFFFFFFFFFFFF0LL;\n    v18 = v17 & 0xFFFFFFFFFFFFFFF0uLL;\n    v19 = alloca(v18);\n    v20 = alloca(v18);\n    v21 = v47;\n    sub_180B276D0(v47, a4[1], v16);\n  }\n  v22 = *(_QWORD *)(*(_QWORD *)(v4 + 48) + 16LL);\n  if ( *(int *)(v22 + 8) >= 0 )\n  {\n    v29 = (_BYTE *)a4[2];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v23 = sub_180A844A0(v22, a2);\n    if ( (*(_BYTE *)(v23 + 309) & 1) == 0 )\n      v23 = sub_180A4EBA0(v23);\n    v24 = *(unsigned int *)(v23 + 252);\n    v25 = v24 + 15;\n    if ( v24 + 15 < v24 )\n      v25 = 0xFFFFFFFFFFFFFF0LL;\n    v26 = v25 & 0xFFFFFFFFFFFFFFF0uLL;\n    v27 = alloca(v26);\n    v28 = alloca(v26);\n    v29 = v47;\n    sub_180B276D0(v47, a4[2], v24);\n  }\n  v30 = *(_QWORD *)(*(_QWORD *)(v4 + 48) + 24LL);\n  if ( *(int *)(v30 + 8) >= 0 )\n  {\n    v37 = (_BYTE *)a4[3];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v31 = sub_180A844A0(v30, a2);\n    if ( (*(_BYTE *)(v31 + 309) & 1) == 0 )\n      v31 = sub_180A4EBA0(v31);\n    v32 = *(unsigned int *)(v31 + 252);\n    v33 = v32 + 15;\n    if ( v32 + 15 < v32 )\n      v33 = 0xFFFFFFFFFFFFFF0LL;\n    v34 = v33 & 0xFFFFFFFFFFFFFFF0uLL;\n    v35 = alloca(v34);\n    v36 = alloca(v34);\n    v37 = v47;\n    sub_180B276D0(v47, a4[3], v32);\n  }\n  v38 = *(_QWORD *)(*(_QWORD *)(v4 + 48) + 32LL);\n  if ( *(int *)(v38 + 8) >= 0 )\n  {\n    v45 = (_BYTE *)a4[4];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v39 = sub_180A844A0(v38, a2);\n    if ( (*(_BYTE *)(v39 + 309) & 1) == 0 )\n      v39 = sub_180A4EBA0(v39);\n    v40 = *(unsigned int *)(v39 + 252);\n    v41 = v40 + 15;\n    if ( v40 + 15 < v40 )\n      v41 = 0xFFFFFFFFFFFFFF0LL;\n    v42 = v41 & 0xFFFFFFFFFFFFFFF0uLL;\n    v43 = alloca(v42);\n    v44 = alloca(v42);\n    v45 = v47;\n    sub_180B276D0(v47, a4[4], v40);\n  }\n  return a1(a3, v13, v21, v29, v37, v45, v4);\n}\n"
+ },
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_42B",
+  "cv_key": "WorldSpawnSibling_3685::m_42B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A86B0(__int64 (__fastcall *a1)(__int64), __int64 a2, __int64 a3)\n{\n  return a1(a3);\n}\n"
+ },
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_60B",
+  "cv_key": "WorldSpawnSibling_3685::m_60B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A8850(\n        __int64 (__fastcall *a1)(__int64, _QWORD, __int128 *, _QWORD, char, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  char *v5; // r10\n  __int128 v6; // xmm0\n  char *v7; // rax\n  unsigned int *v8; // r9\n  _QWORD *v9; // rdx\n  char v11; // [rsp+20h] [rbp-38h]\n  char v12; // [rsp+28h] [rbp-30h]\n  __int128 v14; // [rsp+40h] [rbp-18h] BYREF\n\n  v5 = (char *)a4[3];\n  v6 = *(_OWORD *)a4[1];\n  v7 = (char *)a4[4];\n  v8 = (unsigned int *)a4[2];\n  v9 = (_QWORD *)*a4;\n  v14 = v6;\n  v12 = *v7;\n  v11 = *v5;\n  return a1(a3, *v9, &v14, *v8, v11, v12, a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_63E",
+  "cv_key": "WorldSpawnSibling_3685::m_63E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A88C0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, char, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned __int16 **a4)\n{\n  char v5; // [rsp+20h] [rbp-28h]\n  char v6; // [rsp+28h] [rbp-20h]\n\n  v6 = *(_BYTE *)a4[4];\n  v5 = *(_BYTE *)a4[3];\n  return a1(a3, **a4, *(unsigned int *)a4[1], *(unsigned __int8 *)a4[2], v5, v6, a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_68A",
+  "cv_key": "WorldSpawnSibling_3685::m_68A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A8A90(\n        __int64 (__fastcall *a1)(__int64, __int64 *, __int128 *, _QWORD, char, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4)\n{\n  char *v4; // r10\n  __int64 *v5; // rax\n  __int64 v6; // xmm1_8\n  char *v7; // rax\n  unsigned int *v8; // r9\n  char v10; // [rsp+20h] [rbp-48h]\n  char v11; // [rsp+28h] [rbp-40h]\n  __int64 v12; // [rsp+40h] [rbp-28h] BYREF\n  int v13; // [rsp+48h] [rbp-20h]\n  __int128 v14; // [rsp+50h] [rbp-18h] BYREF\n\n  v4 = (char *)a4[3];\n  v5 = *a4;\n  v14 = *(_OWORD *)a4[1];\n  v6 = *v5;\n  v13 = *((_DWORD *)v5 + 2);\n  v7 = (char *)a4[4];\n  v8 = (unsigned int *)a4[2];\n  v12 = v6;\n  v11 = *v7;\n  v10 = *v4;\n  return a1(a3, &v12, &v14, *v8, v10, v11, a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_6BC",
+  "cv_key": "WorldSpawnSibling_3685::m_6BC",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A8920(\n        __int64 (__fastcall *a1)(__int64, __int64, __int64 *, __int64 *, __int64 *, __int64 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned __int16 **a4)\n{\n  unsigned __int16 *v4; // rax\n  __int64 v5; // xmm0_8\n  __int64 v6; // rdx\n  unsigned __int16 *v7; // rax\n  __int64 v8; // xmm0_8\n  unsigned __int16 *v9; // rax\n  __int64 v10; // xmm0_8\n  unsigned __int16 *v11; // rax\n  __int64 v12; // xmm0_8\n  __int64 v15; // [rsp+40h] [rbp-48h] BYREF\n  int v16; // [rsp+48h] [rbp-40h]\n  __int64 v17; // [rsp+50h] [rbp-38h] BYREF\n  int v18; // [rsp+58h] [rbp-30h]\n  __int64 v19; // [rsp+60h] [rbp-28h] BYREF\n  int v20; // [rsp+68h] [rbp-20h]\n  __int64 v21; // [rsp+70h] [rbp-18h] BYREF\n  int v22; // [rsp+78h] [rbp-10h]\n\n  v4 = a4[4];\n  v5 = *(_QWORD *)v4;\n  v6 = **a4;\n  v16 = *((_DWORD *)v4 + 2);\n  v7 = a4[3];\n  v15 = v5;\n  v8 = *(_QWORD *)v7;\n  v18 = *((_DWORD *)v7 + 2);\n  v9 = a4[2];\n  v17 = v8;\n  v10 = *(_QWORD *)v9;\n  v20 = *((_DWORD *)v9 + 2);\n  v11 = a4[1];\n  v19 = v10;\n  v12 = *(_QWORD *)v11;\n  v22 = *((_DWORD *)v11 + 2);\n  v21 = v12;\n  return a1(a3, v6, &v21, &v19, &v17, &v15, a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_83D",
+  "cv_key": "WorldSpawnSibling_3685::m_83D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A8B70(\n        __int64 (__fastcall *a1)(__int64, __int64 *, __int128 *, __int128 *, __int64 *, __int64 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4)\n{\n  __int128 *v4; // rax\n  __int128 v5; // xmm1\n  __int64 *v6; // rax\n  __int64 v7; // xmm0_8\n  __int64 *v8; // rax\n  __int64 *v10; // [rsp+28h] [rbp-50h]\n  __int64 v11; // [rsp+40h] [rbp-38h] BYREF\n  int v12; // [rsp+48h] [rbp-30h]\n  __int128 v13; // [rsp+50h] [rbp-28h] BYREF\n  __int128 v14; // [rsp+60h] [rbp-18h] BYREF\n\n  v4 = (__int128 *)a4[1];\n  v13 = *(_OWORD *)a4[2];\n  v5 = *v4;\n  v6 = *a4;\n  v14 = v5;\n  v7 = *v6;\n  v12 = *((_DWORD *)v6 + 2);\n  v10 = a4[4];\n  v8 = a4[3];\n  v11 = v7;\n  return a1(a3, &v11, &v14, &v13, v8, v10, a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_8FB",
+  "cv_key": "WorldSpawnSibling_3685::m_8FB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A89C0(\n        __int64 (__fastcall *a1)(__int64, __int64, __int128 *, __int128 *, unsigned int, unsigned int, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4)\n{\n  unsigned int *v4; // r10\n  unsigned int *v5; // rax\n  __int64 v6; // rdx\n  unsigned int v7; // xmm0_4\n  __int128 v8; // xmm1\n  unsigned int *v9; // rax\n  __int128 v12; // [rsp+40h] [rbp-38h] BYREF\n  __int128 v13; // [rsp+50h] [rbp-28h] BYREF\n  unsigned int v14; // [rsp+60h] [rbp-18h]\n\n  v4 = a4[3];\n  v5 = a4[1];\n  v6 = **a4;\n  v12 = *(_OWORD *)a4[2];\n  v7 = *v4;\n  v8 = *(_OWORD *)v5;\n  v14 = v5[4];\n  v9 = a4[4];\n  v13 = v8;\n  return a1(a3, v6, &v13, &v12, v7, *v9, a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_C47",
+  "cv_key": "WorldSpawnSibling_3685::m_C47",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A8BE0(\n        __int64 (__fastcall *a1)(__int64, __int64 *, __int128 *),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4)\n{\n  __int128 *v4; // rax\n  __int128 v5; // xmm1\n  __int64 *v6; // rax\n  __int64 v7; // xmm0_8\n  __int64 v9; // [rsp+40h] [rbp-38h] BYREF\n  int v10; // [rsp+48h] [rbp-30h]\n  __int128 v11; // [rsp+50h] [rbp-28h]\n  __int128 v12; // [rsp+60h] [rbp-18h] BYREF\n\n  v4 = (__int128 *)a4[1];\n  v11 = *(_OWORD *)a4[3];\n  v5 = *v4;\n  v6 = *a4;\n  v12 = v5;\n  v7 = *v6;\n  v10 = *((_DWORD *)v6 + 2);\n  v9 = v7;\n  return a1(a3, &v9, &v12);\n}\n"
+ },
+ {
+  "class": "WorldSpawnSibling_3685",
+  "class_obf": "ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ",
+  "parent": "",
+  "method": "m_CA0",
+  "cv_key": "WorldSpawnSibling_3685::m_CA0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A9420(\n        __int64 (__fastcall *a1)(__int64, _BYTE *, _BYTE *, _BYTE *, _BYTE *, _BYTE *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  __int64 v4; // r14\n  __int64 v6; // rcx\n  __int64 v7; // rax\n  unsigned __int64 v8; // rdx\n  __int64 v9; // rcx\n  unsigned __int64 v10; // rcx\n  void *v11; // rsp\n  void *v12; // rsp\n  _BYTE *v13; // r13\n  __int64 v14; // rcx\n  __int64 v15; // rax\n  unsigned __int64 v16; // rdx\n  __int64 v17; // rcx\n  unsigned __int64 v18; // rcx\n  void *v19; // rsp\n  void *v20; // rsp\n  _BYTE *v21; // r12\n  __int64 v22; // rcx\n  __int64 v23; // rax\n  unsigned __int64 v24; // rdx\n  __int64 v25; // rcx\n  unsigned __int64 v26; // rcx\n  void *v27; // rsp\n  void *v28; // rsp\n  _BYTE *v29; // r15\n  __int64 v30; // rcx\n  __int64 v31; // rax\n  unsigned __int64 v32; // rdx\n  __int64 v33; // rcx\n  unsigned __int64 v34; // rcx\n  void *v35; // rsp\n  void *v36; // rsp\n  _BYTE *v37; // rsi\n  __int64 v38; // rcx\n  __int64 v39; // rax\n  unsigned __int64 v40; // rdx\n  __int64 v41; // rcx\n  unsigned __int64 v42; // rcx\n  void *v43; // rsp\n  void *v44; // rsp\n  _BYTE *v45; // rdi\n  _BYTE v47[48]; // [rsp+40h] [rbp+0h] BYREF\n\n  v4 = a2;\n  v6 = **(_QWORD **)(a2 + 48);\n  if ( *(int *)(v6 + 8) >= 0 )\n  {\n    v13 = (_BYTE *)*a4;\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v7 = sub_180A844A0(v6, a2);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(v7);\n    v8 = *(unsigned int *)(v7 + 252);\n    v9 = v8 + 15;\n    if ( v8 + 15 < v8 )\n      v9 = 0xFFFFFFFFFFFFFF0LL;\n    v10 = v9 & 0xFFFFFFFFFFFFFFF0uLL;\n    v11 = alloca(v10);\n    v12 = alloca(v10);\n    v13 = v47;\n    sub_180B276D0(v47, *a4, v8);\n  }\n  v14 = *(_QWORD *)(*(_QWORD *)(v4 + 48) + 8LL);\n  if ( *(int *)(v14 + 8) >= 0 )\n  {\n    v21 = (_BYTE *)a4[1];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v15 = sub_180A844A0(v14, a2);\n    if ( (*(_BYTE *)(v15 + 309) & 1) == 0 )\n      v15 = sub_180A4EBA0(v15);\n    v16 = *(unsigned int *)(v15 + 252);\n    v17 = v16 + 15;\n    if ( v16 + 15 < v16 )\n      v17 = 0xFFFFFFFFFFFFFF0LL;\n    v18 = v17 & 0xFFFFFFFFFFFFFFF0uLL;\n    v19 = alloca(v18);\n    v20 = alloca(v18);\n    v21 = v47;\n    sub_180B276D0(v47, a4[1], v16);\n  }\n  v22 = *(_QWORD *)(*(_QWORD *)(v4 + 48) + 16LL);\n  if ( *(int *)(v22 + 8) >= 0 )\n  {\n    v29 = (_BYTE *)a4[2];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v23 = sub_180A844A0(v22, a2);\n    if ( (*(_BYTE *)(v23 + 309) & 1) == 0 )\n      v23 = sub_180A4EBA0(v23);\n    v24 = *(unsigned int *)(v23 + 252);\n    v25 = v24 + 15;\n    if ( v24 + 15 < v24 )\n      v25 = 0xFFFFFFFFFFFFFF0LL;\n    v26 = v25 & 0xFFFFFFFFFFFFFFF0uLL;\n    v27 = alloca(v26);\n    v28 = alloca(v26);\n    v29 = v47;\n    sub_180B276D0(v47, a4[2], v24);\n  }\n  v30 = *(_QWORD *)(*(_QWORD *)(v4 + 48) + 24LL);\n  if ( *(int *)(v30 + 8) >= 0 )\n  {\n    v37 = (_BYTE *)a4[3];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v31 = sub_180A844A0(v30, a2);\n    if ( (*(_BYTE *)(v31 + 309) & 1) == 0 )\n      v31 = sub_180A4EBA0(v31);\n    v32 = *(unsigned int *)(v31 + 252);\n    v33 = v32 + 15;\n    if ( v32 + 15 < v32 )\n      v33 = 0xFFFFFFFFFFFFFF0LL;\n    v34 = v33 & 0xFFFFFFFFFFFFFFF0uLL;\n    v35 = alloca(v34);\n    v36 = alloca(v34);\n    v37 = v47;\n    sub_180B276D0(v47, a4[3], v32);\n  }\n  v38 = *(_QWORD *)(*(_QWORD *)(v4 + 48) + 32LL);\n  if ( *(int *)(v38 + 8) >= 0 )\n  {\n    v45 = (_BYTE *)a4[4];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v39 = sub_180A844A0(v38, a2);\n    if ( (*(_BYTE *)(v39 + 309) & 1) == 0 )\n      v39 = sub_180A4EBA0(v39);\n    v40 = *(unsigned int *)(v39 + 252);\n    v41 = v40 + 15;\n    if ( v40 + 15 < v40 )\n      v41 = 0xFFFFFFFFFFFFFF0LL;\n    v42 = v41 & 0xFFFFFFFFFFFFFFF0uLL;\n    v43 = alloca(v42);\n    v44 = alloca(v42);\n    v45 = v47;\n    sub_180B276D0(v47, a4[4], v40);\n  }\n  return a1(a3, v13, v21, v29, v37, v45, v4);\n}\n"
+ }
+]

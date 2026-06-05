@@ -1,0 +1,8 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_48CF::m_410": "GetMachineConfigPath",
+ "VRCNetworkBehaviourSibling_BF5Sibling_48CF::m_6EA": "GetOSVersionString",
+ "VRCNetworkBehaviourSibling_BF5Sibling_48CF::m_95D": "GetOSVersionString",
+ "VRCNetworkBehaviourSibling_BF5Sibling_48CF::m_C01": "FailFast",
+ "VRCNetworkBehaviourSibling_BF5Sibling_48CF::m_CF3": "GetEnvironmentVariableNames",
+ "VRCNetworkBehaviourSibling_BF5Sibling_48CF::m_EEE": "GetMachineConfigPath"
+}

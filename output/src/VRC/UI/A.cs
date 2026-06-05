@@ -13,15 +13,20 @@ namespace VRC.UI
         public void OnDestroy(){} // RVA: 0x7FFAF2EEE1C0
         public void OnEnable(){} // RVA: 0x7FFAF3400560
         public void OnDisable(){} // RVA: 0x7FFAF2EEE1C0
+        public void ToArray(){} // RVA: 0x7FFAF3400900
+        public void ConstructFromArrayStart(){} // RVA: 0x7FFAF3400BF0
+        public void ToString(){} // RVA: 0x7FFAF34013D0
+        public void ToArray_FD85A18054E3(){} // RVA: 0x7FFAF3401760
+        public void ToArray_34CA7D80C5E8(){} // RVA: 0x7FFAF34017C0
         public void .ctor(){} // RVA: 0x7FFAF3401BA0
         public void .cctor(){} // RVA: 0x7FFAF3401BF0
-        // ── 11 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_41F(){} // RVA: 0x7FFAF3400140
         public void m_4EC(){} // RVA: 0x7FFAF3400580
-        public void m_7EC(){} // RVA: 0x7FFAF3400900
-        public void m_041(){} // RVA: 0x7FFAF3400BF0
         public void m_E6A(){}
-        // ... 6 more unresolved methods
+        public void m_3CD(){} // RVA: 0x7FFAF3401290
+        public void m_96F(){} // RVA: 0x7FFAF34012D0
+        public void m_D5F(){} // RVA: 0x7FFAF3401B30
     }
 
     public class AvatarProxySettings

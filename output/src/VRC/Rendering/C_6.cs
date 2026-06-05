@@ -826,11 +826,11 @@ namespace VRC.Rendering
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF35FBC20
+        public void AreCameraComponentsEqual(){} // RVA: 0x7FFAF35FBE20
         public void GetComponent(){} // RVA: 0x7FFAF35FC2D0
         public void GetComponent_741344C1E2AE(){} // RVA: 0x7FFAF35FC380
         // ── Unresolved (hash) ──
         public void m_296(){} // RVA: 0x7FFAF35FBD30
-        public void m_116(){} // RVA: 0x7FFAF35FBE20
         public void m_706(){} // RVA: 0x7FFAF35FBED0
         public void m_F60(){} // RVA: 0x7FFAF35FBFE0
         public void m_CB1(){} // RVA: 0x7FFAF35FC1C0
@@ -840,22 +840,22 @@ namespace VRC.Rendering
     public class CamerarenderModelNameSibling_3519
     {
         // ── Methods ──
+        public void WorkerThreadStart(){} // RVA: 0x7FFAFBA70200
+        public void UnsafeQueueCustomWorkItem(){} // RVA: 0x7FFAFBA70300
         public void SetAnisoLevel(){} // RVA: 0x7FFAFBA70550
+        public void GetWaveComponent(){} // RVA: 0x7FFAFBA70650
+        public void GetWaveComponent_729F217ED9A4(){} // RVA: 0x7FFAFBA70750
+        public void UpdateThreadPoolHillClimbing(){} // RVA: 0x7FFAFBA70850
+        public void UpdateThreadPoolHillClimbing_3CD4B3800BC4(){} // RVA: 0x7FFAFBA70960
+        public void UpdateThreadPoolHillClimbing_2BE6E6165C6E(){} // RVA: 0x7FFAFBA709B0
         public void OnDestroy(){} // RVA: 0x7FFAFBA709F0
         public void Start(){} // RVA: 0x7FFAFBA70B30
+        public void UpdateThreadPoolHillClimbing_2B42D4EE332F(){} // RVA: 0x7FFAFBA70C30
         public void .ctor(){} // RVA: 0x7FFAFBA70C70
         public void Initialize(){} // RVA: 0x7FFAFBA70D90
         // ── Unresolved (hash) ──
-        public void m_6B3(){} // RVA: 0x7FFAFBA70200
-        public void m_3E2(){} // RVA: 0x7FFAFBA70300
-        public void m_97B(){} // RVA: 0x7FFAFBA70650
-        public void m_729(){} // RVA: 0x7FFAFBA70750
-        public void m_594(){} // RVA: 0x7FFAFBA70850
-        public void m_3CD(){} // RVA: 0x7FFAFBA70960
-        public void m_2BE(){} // RVA: 0x7FFAFBA709B0
         public void m_4DB(){} // RVA: 0x7FFAFBA709B0
         public void m_9B0(){} // RVA: 0x7FFAFBA70960
-        public void m_2B4(){} // RVA: 0x7FFAFBA70C30
     }
 
     /// <summary>Originally: ÏÏÎÎÏÏÌÍÌÏÌÍÎÌÌÌÌÌÌÏÌÏÎ</summary>

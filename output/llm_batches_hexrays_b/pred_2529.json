@@ -1,0 +1,12 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_FEA6::m_6EA": "SetFieldValue",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FEA6::m_C01": "LoadMetadataFile",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FEA6::m_EEE": "LoadMetadataFile",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FEA6::m_F2B": "LoadMetadataFile",
+ "VRC_MainSiblingSibling_FF86::m_164": "SetItem",
+ "VRC_MainSiblingSibling_FF86::m_223": "GetItem",
+ "VRC_MainSiblingSibling_FF86::m_567": "AddItem",
+ "VRC_MainSiblingSibling_FF86::m_6B3": "ClearItems",
+ "VRC_MainSiblingSibling_FF86::m_7CF": "GetCount",
+ "VRC_MainSiblingSibling_FF86::m_9BD": "AddItem"
+}

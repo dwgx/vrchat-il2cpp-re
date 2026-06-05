@@ -1,0 +1,112 @@
+[
+ {
+  "class": "SpriteHandler_87B5",
+  "class_obf": "ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ",
+  "parent": "",
+  "method": "m_8D5",
+  "cv_key": "SpriteHandler_87B5::m_8D5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808431D0(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  return a1(*a4, a4[1], a4[2], a2);\n}\n"
+ },
+ {
+  "class": "SpriteHandler_87B5",
+  "class_obf": "ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ",
+  "parent": "",
+  "method": "m_B36",
+  "cv_key": "SpriteHandler_87B5::m_B36",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180844D20(\n        __int64 (__fastcall *a1)(__int64, _OWORD *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4)\n{\n  _OWORD *v4; // rax\n  __int64 v6; // r8\n  __int128 v7; // xmm1\n  __int64 v8; // rcx\n  __int128 v9; // xmm0\n  __int128 v10; // xmm1\n  _OWORD v12[4]; // [rsp+20h] [rbp-48h] BYREF\n\n  v4 = (_OWORD *)a4[1];\n  v6 = a4[2];\n  v7 = v4[1];\n  v8 = *a4;\n  v12[0] = *v4;\n  v9 = v4[2];\n  v12[1] = v7;\n  v10 = v4[3];\n  v12[2] = v9;\n  v12[3] = v10;\n  return a1(v8, v12, v6, a2);\n}\n"
+ },
+ {
+  "class": "SpriteHandler_87B5",
+  "class_obf": "ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ",
+  "parent": "",
+  "method": "m_BA5",
+  "cv_key": "SpriteHandler_87B5::m_BA5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808455E0(\n        __int64 (__fastcall *a1)(__int64 *, __int64, __int64 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4)\n{\n  __int64 *v6; // r8\n  int v7; // eax\n  __int64 v8; // rdx\n  __int64 v10; // [rsp+20h] [rbp-18h] BYREF\n  int v11; // [rsp+28h] [rbp-10h]\n\n  v6 = a4[2];\n  v7 = *((_DWORD *)*a4 + 2);\n  v8 = *(unsigned int *)a4[1];\n  v10 = **a4;\n  v11 = v7;\n  return a1(&v10, v8, v6, a2);\n}\n"
+ },
+ {
+  "class": "SpriteHandler_87B5",
+  "class_obf": "ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ",
+  "parent": "",
+  "method": "m_BC8",
+  "cv_key": "SpriteHandler_87B5::m_BC8",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180844630(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4)\n{\n  return a1(**a4, *(_QWORD *)a4[1], *a4[2], a2);\n}\n"
+ },
+ {
+  "class": "SpriteHandler_87B5",
+  "class_obf": "ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ",
+  "parent": "",
+  "method": "m_C1E",
+  "cv_key": "SpriteHandler_87B5::m_C1E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180845480(\n        __int64 (__fastcall *a1)(__int64, __int128 *, unsigned int *, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4)\n{\n  unsigned int *v4; // rax\n  unsigned int *v6; // r8\n  __int64 v7; // rcx\n  __int64 v8; // xmm1_8\n  __int128 v10; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v11; // [rsp+30h] [rbp-18h]\n\n  v4 = a4[1];\n  v6 = a4[2];\n  v7 = **a4;\n  v8 = *((_QWORD *)v4 + 2);\n  v10 = *(_OWORD *)v4;\n  v11 = v8;\n  return a1(v7, &v10, v6, a2);\n}\n"
+ },
+ {
+  "class": "SpriteHandler_87B5",
+  "class_obf": "ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ",
+  "parent": "",
+  "method": "m_CB2",
+  "cv_key": "SpriteHandler_87B5::m_CB2",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 *__fastcall sub_180842470(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4,\n        __int64 *a5)\n{\n  __int64 v5; // xmm0_8\n\n  v5 = a1(**a4, *a4[1], *a4[2], a2);\n  *a5 = v5;\n  return a5;\n}\n"
+ },
+ {
+  "class": "SpriteHandler_87B5",
+  "class_obf": "ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ",
+  "parent": "",
+  "method": "m_E3F",
+  "cv_key": "SpriteHandler_87B5::m_E3F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180842C60(\n        __int64 (__fastcall *a1)(__int128 *, __int64 *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  __int64 *v4; // rax\n  __int64 v5; // xmm0_8\n  __int64 v6; // r8\n  __int128 *v7; // rax\n  __int64 v9; // [rsp+20h] [rbp-28h] BYREF\n  int v10; // [rsp+28h] [rbp-20h]\n  __int128 v11; // [rsp+30h] [rbp-18h] BYREF\n\n  v4 = *(__int64 **)(a4 + 8);\n  v5 = *v4;\n  v6 = **(unsigned int **)(a4 + 16);\n  v10 = *((_DWORD *)v4 + 2);\n  v7 = *(__int128 **)a4;\n  v9 = v5;\n  v11 = *v7;\n  return a1(&v11, &v9, v6, a2);\n}\n"
+ },
+ {
+  "class": "SpriteHandler_87B5",
+  "class_obf": "ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ",
+  "parent": "",
+  "method": "m_E4D",
+  "cv_key": "SpriteHandler_87B5::m_E4D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180844F80(\n        __int64 (__fastcall *a1)(_QWORD, __int64, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  return a1(*(_QWORD *)a4, a2, **(unsigned __int8 **)(a4 + 16), a2);\n}\n"
+ },
+ {
+  "class": "SpriteHandler_87B5",
+  "class_obf": "ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ",
+  "parent": "",
+  "method": "m_F6A",
+  "cv_key": "SpriteHandler_87B5::m_F6A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808445D0(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4)\n{\n  return a1(**a4, *a4[1], *a4[2], a2);\n}\n"
+ },
+ {
+  "class": "SpriteQuaternionHandler_9C37",
+  "class_obf": "ÎÍÎÍÍÍÎÏÍÎÌÍÌÎÍÌÏÏÍÏÌÏÏ",
+  "parent": "",
+  "method": "m_8E5",
+  "cv_key": "SpriteQuaternionHandler_9C37::m_8E5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall pUyGHi_qhYI_0(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rsi\n  __int64 v3; // r15\n  __int64 v4; // rax\n  __int64 v5; // r8\n  __int64 v6; // r14\n  __int64 v7; // r14\n  __int64 v8; // r13\n  __int64 v9; // rbx\n  __int64 v10; // r12\n  __int64 v11; // rax\n  __int64 v12; // rbx\n  __int16 v13; // bp\n  __int64 v14; // rdi\n  __int64 v15; // rax\n  int v16; // ebp\n  unsigned __int8 v17; // al\n  __int64 v18; // rbx\n  __int64 v19; // rdx\n  __int64 v20; // r13\n  __int64 v21; // r13\n  __int64 v22; // r12\n  __int64 v23; // rax\n  unsigned int v24; // ebp\n  __int16 v25; // r14\n  __int64 v26; // rdi\n  __int64 v27; // rax\n  int v28; // r14d\n  unsigned __int16 v29; // r12\n  __int64 v30; // r8\n  __int64 v31; // r8\n  _QWORD *v32; // r9\n  __int64 v33; // r13\n  __int64 v34; // rax\n  unsigned int v35; // ebp\n  __int16 v36; // r14\n  __int64 v37; // rdi\n  __int64 v38; // rax\n  int v39; // r14d\n  unsigned __int16 v40; // r12\n  __int64 v41; // rdx\n  __int64 v42; // rdx\n  _QWORD *v43; // r8\n  __int64 v44; // r13\n  __int64 v45; // rax\n  unsigned int v46; // ebp\n  __int16 v47; // r14\n  __int64 v48; // rdi\n  __int64 v49; // rax\n  __int64 v50; // rbx\n  int v51; // r14d\n  __int64 v52; // rbx\n  __int64 v53; // rbx\n  __int64 v54; // rdi\n  unsigned __int16 v55; // dx\n  unsigned __int16 v56; // cx\n  unsigned __int16 v57; // dx\n  unsigned __int16 v58; // cx\n  int v60; // [rsp+60h] [rbp+8h]\n  __int64 v61; // [rsp+60h] [rbp+8h]\n  __int64 v62; // [rsp+68h] [rbp+10h]\n  __int64 v63; // [rsp+68h] [rbp+10h]\n  __int64 v64; // [rsp+68h] [rbp+10h]\n  __int64 v65; // [rsp+70h] [rbp+18h]\n  __int64 v66; // [rsp+70h] [rbp+18h]\n\n  v2 = a2;\n  v3 = a1;\n  if ( a1 == a2 )\n    goto LABEL_14;\n  while ( 1 )\n  {\n    sub_180A88250(v3);\n    sub_180A88250(v2);\n    if ( (*(_BYTE *)(v3 + 280) & 0x20) != 0 || *(_BYTE *)(v3 + 42) == 19 || *(_BYTE *)(v3 + 42) == 30 )\n    {\n      if ( *(_QWORD *)(v3 + 96) )\n      {\n        v4 = v2;\n        v61 = v2;\n        if ( v2 )\n        {\n          while ( v3 != v4 )\n          {\n            v19 = *(_QWORD *)(v4 + 96);\n            if ( v19 )\n            {\n              v20 = *(_QWORD *)(v3 + 96);\n              if ( **(_QWORD **)v19 == **(_QWORD **)v20 )\n              {\n                v21 = *(_QWORD *)(v20 + 8);\n                v22 = *(_QWORD *)(v19 + 8);\n                v23 = sub_180AD26A0(*(unsigned int *)(***(_QWORD ***)(v3 + 96) + 24LL));\n                v24 = 0;\n                v62 = v23;\n                if ( *(_DWORD *)v21 )\n                {\n                  while ( 1 )\n                  {\n                    v25 = *(_WORD *)(sub_180AD26D0(v23, v24) + 14);\n                    v26 = sub_180A844A0(*(_QWORD **)(*(_QWORD *)(v21 + 8) + 8LL * v24));\n                    v27 = sub_180A844A0(*(_QWORD **)(*(_QWORD *)(v22 + 8) + 8LL * v24));\n                    v28 = v25 & 3;\n                    if ( v28 && *(int *)(v26 + 40) >= 0 && *(int *)(v27 + 40) >= 0 )\n                    {\n                      if ( v28 == 1 )\n                      {\n                        if ( !(unsigned __int8)pUyGHi_qhYI_0(v26, v27) )\n                          goto LABEL_48;\n                      }\n                      else if ( !(unsigned __int8)pUyGHi_qhYI_0(v27, v26) )\n                      {\n                        goto LABEL_48;\n                      }\n                    }\n                    else if ( v26 != v27 )\n                    {\n                      if ( !*(_BYTE *)(v2 + 306) && *(_QWORD *)(v2 + 168) != qword_18CE1C3A0 )\n                        goto LABEL_48;\n                      v52 = sub_180A4EAD0(v27);\n                      if ( sub_180A4EAD0(v26) != v52 )\n                        goto LABEL_48;\n                    }\n                    if ( ++v24 >= *(_DWORD *)v21 )\n                      goto LABEL_14;\n                    v23 = v62;\n                  }\n                }\n                goto LABEL_14;\n              }\nLABEL_48:\n              v4 = v61;\n            }\n            v29 = 0;\n            if ( *(_WORD *)(v4 + 300) )\n            {\n              do\n              {\n                v30 = *(_QWORD *)(*(_QWORD *)(v4 + 128) + 8LL * v29);\n                if ( v3 == v30 )\n                  goto LABEL_14;\n                v31 = *(_QWORD *)(v30 + 96);\n                if ( v31 )\n                {\n                  v32 = *(_QWORD **)(v3 + 96);\n                  if ( **(_QWORD **)v31 == *(_QWORD *)*v32 )\n                  {\n                    v33 = v32[1];\n                    v63 = *(_QWORD *)(v31 + 8);\n                    v34 = sub_180AD26A0(*(unsigned int *)(*(_QWORD *)*v32 + 24LL));\n                    v35 = 0;\n                    v65 = v34;\n                    if ( *(_DWORD *)v33 )\n                    {\n                      while ( 1 )\n                      {\n                        v36 = *(_WORD *)(sub_180AD26D0(v34, v35) + 14);\n                        v37 = sub_180A844A0(*(_QWORD **)(8LL * v35 + *(_QWORD *)(v33 + 8)));\n                        v38 = sub_180A844A0(*(_QWORD **)(*(_QWORD *)(v63 + 8) + 8LL * v35));\n                        v39 = v36 & 3;\n                        if ( v39 && *(int *)(v37 + 40) >= 0 && *(int *)(v38 + 40) >= 0 )\n                        {\n                          if ( v39 == 1 )\n                          {\n                            if ( !(unsigned __int8)pUyGHi_qhYI_0(v37, v38) )\n                              goto LABEL_59;\n                          }\n                          else if ( !(unsigned __int8)pUyGHi_qhYI_0(v38, v37) )\n                          {\n                            goto LABEL_59;\n                          }\n                        }\n                        else if ( v37 != v38 )\n                        {\n                          if ( !*(_BYTE *)(v2 + 306) && *(_QWORD *)(v2 + 168) != qword_18CE1C3A0 )\n                            goto LABEL_59;\n                          v53 = sub_180A4EAD0(v38);\n                          if ( sub_180A4EAD0(v37) != v53 )\n                            goto LABEL_59;\n                        }\n                        if ( ++v35 >= *(_DWORD *)v33 )\n                          goto LABEL_14;\n                        v34 = v65;\n                      }\n                    }\n                    goto LABEL_14;\n                  }\n                }\nLABEL_59:\n                v4 = v61;\n              }\n              while ( ++v29 < *(_WORD *)(v61 + 300) );\n            }\n            v40 = 0;\n            if ( *(_WORD *)(v4 + 302) )\n            {\n              do\n              {\n                v41 = *(_QWORD *)(*(_QWORD *)(v4 + 176) + 16LL * v40);\n                if ( v3 == v41 )\n                  goto LABEL_14;\n                v42 = *(_QWORD *)(v41 + 96);\n                if ( v42 )\n                {\n                  v43 = *(_QWORD **)(v3 + 96);\n                  if ( **(_QWORD **)v42 == *(_QWORD *)*v43 )\n                  {\n                    v44 = v43[1];\n                    v64 = *(_QWORD *)(v42 + 8);\n                    v45 = sub_180AD26A0(*(unsigned int *)(*(_QWORD *)*v43 + 24LL));\n                    v46 = 0;\n                    v66 = v45;\n                    if ( *(_DWORD *)v44 )\n                    {\n                      while ( 1 )\n                      {\n                        v47 = *(_WORD *)(sub_180AD26D0(v45, v46) + 14);\n                        v48 = sub_180A844A0(*(_QWORD **)(8LL * v46 + *(_QWORD *)(v44 + 8)));\n                        v49 = sub_180A844A0(*(_QWORD **)(*(_QWORD *)(v64 + 8) + 8LL * v46));\n                        v50 = v49;\n                        v51 = v47 & 3;\n                        if ( v51 && *(int *)(v48 + 40) >= 0 && *(int *)(v49 + 40) >= 0 )\n                        {\n                          if ( v51 == 1 )\n                          {\n                            if ( !(unsigned __int8)pUyGHi_qhYI_0(v48, v49) )\n                              goto LABEL_70;\n                          }\n                          else if ( !(unsigned __int8)pUyGHi_qhYI_0(v49, v48) )\n                          {\n                            goto LABEL_70;\n                          }\n                        }\n                        else if ( v48 != v49 )\n                        {\n                          if ( !*(_BYTE *)(v2 + 306) && *(_QWORD *)(v2 + 168) != qword_18CE1C3A0 )\n                            goto LABEL_70;\n                          v54 = sub_180A4EAD0(v48);\n                          if ( v54 != sub_180A4EAD0(v50) )\n                            goto LABEL_70;\n                        }\n                        if ( ++v46 >= *(_DWORD *)v44 )\n                          goto LABEL_14;\n                        v45 = v66;\n                      }\n                    }\n                    goto LABEL_14;\n                  }\n                }\nLABEL_70:\n                v4 = v61;\n              }\n              while ( ++v40 < *(_WORD *)(v61 + 302) );\n            }\n            v4 = *(_QWORD *)(v4 + 120);\n            v61 = v4;\n            if ( !v4 )\n              return v4;\n          }\n          goto LABEL_14;\n        }\n      }\n      else if ( v2 )\n      {\n        while ( 1 )\n        {\n          v55 = *(_WORD *)(v2 + 300);\n          v56 = 0;\n          if ( v55 )\n            break;\nLABEL_101:\n          v57 = *(_WORD *)(v2 + 302);\n          v58 = 0;\n          if ( v57 )\n          {\n            while ( *(_QWORD *)(*(_QWORD *)(v2 + 176) + 16LL * v58) != v3 )\n            {\n              if ( ++v58 >= v57 )\n                goto LABEL_104;\n            }\n            goto LABEL_14;\n          }\nLABEL_104:\n          v2 = *(_QWORD *)(v2 + 120);\n          if ( !v2 )\n            goto LABEL_105;\n        }\n        while ( *(_QWORD *)(*(_QWORD *)(v2 + 128) + 8LL * v56) != v3 )\n        {\n          if ( ++v56 >= v55 )\n            goto LABEL_101;\n        }\n        goto LABEL_14;\n      }\n      goto LABEL_105;\n    }\n    if ( !*(_BYTE *)(v3 + 306) )\n      break;\n    if ( *(_BYTE *)(v2 + 306) != *(_BYTE *)(v3 + 306) )\n      goto LABEL_105;\n    v4 = *(_QWORD *)(v2 + 16);\n    if ( *(int *)(v4 + 40) < 0 )\n    {\n      LOBYTE(v4) = *(_QWORD *)(v3 + 16) == v4;\n      return v4;\n    }\n    v3 = *(_QWORD *)(v3 + 16);\n    v2 = *(_QWORD *)(v2 + 16);\nLABEL_13:\n    if ( v3 == v2 )\n      goto LABEL_14;\n  }\n  if ( v3 == qword_18CE1C310 )\n    goto LABEL_14;\n  if ( *(_QWORD *)(v3 + 96) && (*(_BYTE *)(v3 + 309) & 8) != 0 )\n  {\n    v3 = *(_QWORD *)(v3 + 64);\n    goto LABEL_13;\n  }\n  if ( *(_QWORD *)(v3 + 120) == qword_18CE1C3B0 )\n  {\n    if ( *(_QWORD *)(v3 + 96) )\n    {\n      v5 = *(_QWORD *)(v2 + 96);\n      if ( v5 )\n      {\n        v6 = *(_QWORD *)(v3 + 96);\n        if ( **(_QWORD **)v5 == **(_QWORD **)v6 )\n        {\n          v7 = *(_QWORD *)(v6 + 8);\n          v8 = *(_QWORD *)(v5 + 8);\n          v9 = 0;\n          v10 = sub_180AD26A0(*(unsigned int *)(***(_QWORD ***)(v3 + 96) + 24LL));\n          v60 = 0;\n          if ( *(_DWORD *)v7 )\n          {\n            while ( 1 )\n            {\n              v11 = sub_180AD26D0(v10, (unsigned int)v9);\n              v12 = 8 * v9;\n              v13 = *(_WORD *)(v11 + 14);\n              v14 = sub_180A844A0(*(_QWORD **)(*(_QWORD *)(v7 + 8) + v12));\n              v15 = sub_180A844A0(*(_QWORD **)(*(_QWORD *)(v8 + 8) + v12));\n              v16 = v13 & 3;\n              if ( v16 && *(int *)(v14 + 40) >= 0 && *(int *)(v15 + 40) >= 0 )\n              {\n                if ( v16 == 1 )\n                {\n                  if ( !(unsigned __int8)pUyGHi_qhYI_0(v14, v15) )\n                    goto LABEL_26;\n                }\n                else if ( !(unsigned __int8)pUyGHi_qhYI_0(v15, v14) )\n                {\n                  goto LABEL_26;\n                }\n              }\n              else if ( v14 != v15 )\n              {\n                if ( !*(_BYTE *)(v2 + 306) && *(_QWORD *)(v2 + 168) != qword_18CE1C3A0 )\n                  goto LABEL_26;\n                v18 = sub_180A4EAD0(v15);\n                if ( sub_180A4EAD0(v14) != v18 )\n                  goto LABEL_26;\n              }\n              v9 = (unsigned int)(v60 + 1);\n              v60 = v9;\n              if ( (unsigned int)v9 >= *(_DWORD *)v7 )\n                goto LABEL_14;\n           "
+ }
+]

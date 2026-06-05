@@ -1,0 +1,7 @@
+{
+ "EffectBundleIDIsSpecialFXRelated_9139::m_0DC": "CreateArrayInstance",
+ "EffectBundleIDIsSpecialFXRelated_9139::m_2BD": "SetValueImpl",
+ "EffectBundleIDIsSpecialFXRelated_9139::m_2CD": "TrySZArrayCopy",
+ "EffectBundleIDIsSpecialFXRelated_9139::m_363": "GetFlattenedIndex",
+ "EffectBundleIDIsSpecialFXRelated_9139::m_3FB": "SetValueImpl"
+}

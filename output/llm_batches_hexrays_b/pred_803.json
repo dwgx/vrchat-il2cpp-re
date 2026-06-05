@@ -1,0 +1,9 @@
+{
+ "CleanupDisposeComponent_16E6::m_394": "CollectMatchingProperties",
+ "CleanupDisposeComponent_16E6::m_6F9": "CollectMatchingProperties",
+ "CleanupDisposeComponent_16E6::m_752": "CollectMatchingFields",
+ "CleanupDisposeComponent_16E6::m_7F4": "CollectMatchingMethods",
+ "CleanupDisposeComponent_16E6::m_895": "CollectMatchingProperties",
+ "CleanupDisposeComponent_16E6::m_96E": "CollectMatchingEvents",
+ "CleanupDisposeComponent_16E6::m_9F9": "CollectMatchingEvents"
+}

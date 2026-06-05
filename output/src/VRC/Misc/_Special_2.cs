@@ -243,13 +243,18 @@ namespace VRC.Misc
         public void GetPersistentDataPath(){} // RVA: 0x7FFAF4417700
         public void GetPersistentDataPath_234F310C8C44(){} // RVA: 0x7FFAF4417700
         public void GetPersistentDataPath_0061889CACD7(){} // RVA: 0x7FFAF4417700
-        // ── 11 unresolved (hash) ──
+        public void ReadMessage(){} // RVA: 0x7FFAF49598A0
+        // ── Unresolved (hash) ──
         public void m_EB7(){} // RVA: 0x7FFAF2DA8380
         public void m_633(){} // RVA: 0x7FFAF3ABA2F0
         public void m_789(){} // RVA: 0x7FFAF3ABA2F0
         public void m_1ED(){} // RVA: 0x7FFAF4584690
         public void m_9A1(){} // RVA: 0x7FFAF4959890
-        // ... 6 more unresolved methods
+        public void m_886(){} // RVA: 0x7FFAF4584690
+        public void m_B11(){} // RVA: 0x7FFAF2DA8380
+        public void m_BE7(){} // RVA: 0x7FFAF49598A0
+        public void m_C6C(){} // RVA: 0x7FFAF49598A0
+        public void m_B74(){} // RVA: 0x7FFAF4584690
     }
 
     /// <summary>Originally: ÍÍÍÎÌÌÏÎÍÌÌÏÍÏÌÌÌÍÏÏÍÌÌ</summary>
@@ -390,13 +395,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÌÎÏÌÎÎÌÍÌÎÏÌÎÏÎÏÏÎÎÍ</summary>
     public class 0DerivedSiblingSiblingRelRelated_6390
     {
-        // ── 16 unresolved (hash) ──
+        // ── Methods ──
+        public void FastAllocateString(){} // RVA: 0x7FFAF4A4F6C0
+        // ── 15 unresolved (hash) ──
         public void m_9CB(){} // RVA: 0x7FFAF4418950
         public void m_BC3(){} // RVA: 0x7FFAF2DA8380
         public void m_10C(){} // RVA: 0x7FFAF3ABA2F0
         public void m_173(){} // RVA: 0x7FFAF44189C0
-        public void m_761(){} // RVA: 0x7FFAF4A4F6C0
-        // ... 11 more unresolved methods
+        public void m_C94(){} // RVA: 0x7FFAF2DA8380
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÍÌÍÎÍÎÏÎÍÎÌÎÍÍÎÍÎÌÎÍÍÏÎ</summary>
@@ -416,13 +423,15 @@ namespace VRC.Misc
     {
         public object _6FE7;
 
-        // ── 19 unresolved (hash) ──
+        // ── Methods ──
+        public void SetupInterfaceOffsets(){} // RVA: 0x7FFAF4A868D0
+        // ── 18 unresolved (hash) ──
         public void m_FA8(){} // RVA: 0x7FFAF2DF3E80
-        public void m_22A(){} // RVA: 0x7FFAF4A868D0
         public void m_254(){} // RVA: 0x7FFAF44189C0
         public void m_B9E(){} // RVA: 0x7FFAF3198B80
         public void m_9CB(){} // RVA: 0x7FFAF2D8EE30
-        // ... 14 more unresolved methods
+        public void m_881(){} // RVA: 0x7FFAF44189B0
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÍÌÌÎÏÎÎÎÏÎÎÏÌÌÌÌÏÎÏÌÏÏÎ</summary>
@@ -459,13 +468,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÍÎÏÍÌÎÍÎÏÎÍÎÎÍÏÌÎÍÍÏÏÏ</summary>
     public class 0DerivedSiblingSiblingRelRelated_7985
     {
-        // ── 18 unresolved (hash) ──
+        // ── Methods ──
+        public void DestroyLocaleImplementation(){} // RVA: 0x7FFAF4AF4D70
+        // ── 17 unresolved (hash) ──
         public void m_656(){} // RVA: 0x7FFAF2DA8380
         public void m_CAF(){} // RVA: 0x7FFAF4418850
         public void m_7CA(){} // RVA: 0x7FFAF2DA8380
         public void m_87F(){} // RVA: 0x7FFAF2D8EE30
         public void m_867(){} // RVA: 0x7FFAF4418950
-        // ... 13 more unresolved methods
+        // ... 12 more unresolved methods
     }
 
     /// <summary>Originally: ÍÏÎÍÌÎÍÌÎÍÏÍÍÌÌÍÎÍÍÏÍÍÍ</summary>
@@ -965,13 +976,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÍÎÏÏÎÍÍÌÍÌÏÎÍÎÍÌÎÏÍÏÌÍÎ</summary>
     public class 0DerivedSiblingSiblingSibRelated_C762
     {
-        // ── 36 unresolved (hash) ──
+        // ── Methods ──
+        public void StaticConstructor(){} // RVA: 0x7FFAF4A16F40
+        // ── 35 unresolved (hash) ──
         public void m_F2D(){} // RVA: 0x7FFAF2E2E0B0
         public void m_9A4(){} // RVA: 0x7FFAF2F4B830
         public void m_9E0(){} // RVA: 0x7FFAF2D8EE30
         public void m_6CB(){} // RVA: 0x7FFAF2D8EE30
         public void m_0E5(){} // RVA: 0x7FFAF2F476A0
-        // ... 31 more unresolved methods
+        // ... 30 more unresolved methods
     }
 
     /// <summary>Originally: ÍÏÎÌÏÏÍÎÌÏÍÎÍÎÌÎÎÌÍÌÍÎÏ</summary>

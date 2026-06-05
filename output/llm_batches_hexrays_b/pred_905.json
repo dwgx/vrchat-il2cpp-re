@@ -1,0 +1,10 @@
+{
+ "TransformComponentHandler_6BD6::m_F50": "set_CacheWritingBehavior",
+ "TransformComponentHandler_6BD6::m_FD9": "IsValueInRange",
+ "TransformComponentHandler_B957::m_19C": "get_StartLifetimeMultiplier",
+ "TransformComponentHandler_B957::m_2A4": "get_AlignToDirection",
+ "TransformComponentHandler_B957::m_525": "get_StartDelayMultiplier",
+ "TransformComponentHandler_B957::m_7F6": "ThrowSourceStyleMarshalNotSupported",
+ "TransformComponentHandler_B957::m_BA4": "get_StartSpeedMultiplier",
+ "TransformComponentHandler_B957::m_BDF": "set_StartSize"
+}

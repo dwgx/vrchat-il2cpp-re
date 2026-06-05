@@ -1,0 +1,9 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_A4A3::m_24F": "InitializeMemoryBlockMap",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A4A3::m_2F0": "InitializeMemoryBlockMap",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A4A3::m_937": "InitializeMemoryBlockMap",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A4A3::m_CF3": "InitializeMemoryBlockMap",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A836::m_77C": "WriteAnsiTextToFile",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A836::m_AEE": "WriteWideTextToFile",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A9BA::m_55E": "CreateDelegate"
+}

@@ -1,0 +1,8 @@
+{
+ "TransformGameObjectHandler_9BE8::m_C52": "Atan2",
+ "TransformGameObjectHandler_9BE8::m_C5F": "ParseFileOpenMode",
+ "TransformGameObjectHandler_9BE8::m_CD0": "Acos",
+ "TransformGameObjectHandler_9BE8::m_DC1": "FindLastNonWhitespace",
+ "TransformGameObjectHandler_9BE8::m_DF0": "ExpandWildcardPath",
+ "TransformLineRenderingHandler_EBCE::m_01D": "CalculateQuaternionAngle"
+}

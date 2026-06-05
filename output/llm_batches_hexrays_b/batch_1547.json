@@ -1,0 +1,112 @@
+[
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_8D2",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_8D2",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180898800(__int64 a1)\n{\n  unsigned __int64 v2; // rbx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE39F14 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39F14 = 1;\n  }\n  v2 = *(_QWORD *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  if ( !byte_18CE3971C )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE3971C = 1;\n  }\n  if ( v2 > 0xFFFF )\n  {\n    sub_180004140(qword_18C8FF4B8);\n    sub_1865CD630(0);\n  }\n  return (unsigned __int16)v2;\n}\n"
+ },
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_970",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_970",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_180897470(__int64 a1, _DWORD *a2)\n{\n  _DWORD *v4; // rax\n  signed __int32 v6[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE39ED1 )\n  {\n    sub_180AD1AA0(&qword_18C873228);\n    _InterlockedOr(v6, 0);\n    byte_18CE39ED1 = 1;\n  }\n  if ( !a2 )\n    return 0;\n  v4 = 0;\n  if ( *(_QWORD *)a2 == qword_18C873228 )\n    v4 = a2;\n  if ( !v4 )\n    return 0;\n  if ( *(_QWORD *)(*(_QWORD *)a2 + 64LL) != *(_QWORD *)(qword_18C873228 + 64) )\n    sub_180AAEC10(a2, qword_18C873228);\n  return *(_DWORD *)(a1 + 16) == a2[4];\n}\n"
+ },
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_A46",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_A46",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808978A0(__int64 a1)\n{\n  unsigned __int16 v2; // bx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE39EE0 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39EE0 = 1;\n  }\n  v2 = *(_WORD *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  if ( !byte_18CE39736 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39736 = 1;\n  }\n  if ( v2 > 0xFFu )\n  {\n    sub_180004140(qword_18C8FF4B8);\n    sub_1865CD680(0);\n  }\n  return (unsigned __int8)v2;\n}\n"
+ },
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_AC7",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_AC7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180897AF0(__int64 a1)\n{\n  __int64 v2; // rbx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE39EE5 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39EE5 = 1;\n  }\n  v2 = *(__int16 *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  if ( !byte_18CE3977A )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE3977A = 1;\n  }\n  if ( (v2 & 0x8000u) != 0LL )\n  {\n    sub_180004140(qword_18C8FF4B8);\n    sub_1865CD8B0(0);\n  }\n  return v2;\n}\n"
+ },
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_BA6",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_BA6",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180898930(__int64 a1)\n{\n  unsigned __int64 v2; // rbx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE39F16 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39F16 = 1;\n  }\n  v2 = *(_QWORD *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  if ( !byte_18CE3973A )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE3973A = 1;\n  }\n  if ( v2 > 0xFF )\n  {\n    sub_180004140(qword_18C8FF4B8);\n    sub_1865CD680(0);\n  }\n  return (unsigned __int8)v2;\n}\n"
+ },
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_BAA",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_BAA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808993B0(__int64 a1)\n{\n  unsigned __int16 v2; // bx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE39FDC )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39FDC = 1;\n  }\n  v2 = *(char *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  if ( !byte_18CE39750 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39750 = 1;\n  }\n  if ( (v2 & 0x80u) != 0 )\n  {\n    sub_180004140(qword_18C8FF4B8);\n    sub_1865CD770(0);\n  }\n  return v2;\n}\n"
+ },
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_C2F",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_C2F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180899240(__int64 a1)\n{\n  unsigned __int16 v2; // bx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE39FD9 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39FD9 = 1;\n  }\n  v2 = *(char *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  if ( !byte_18CE39718 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39718 = 1;\n  }\n  if ( (v2 & 0x80u) != 0 )\n  {\n    sub_180004140(qword_18C8FF4B8);\n    sub_1865CD630(0);\n  }\n  return v2;\n}\n"
+ },
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_C58",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_C58",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180898340(__int64 a1)\n{\n  __int64 v2; // rbx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE39F01 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39F01 = 1;\n  }\n  v2 = *(int *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  if ( !byte_18CE3977B )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE3977B = 1;\n  }\n  if ( (int)v2 < 0 )\n  {\n    sub_180004140(qword_18C8FF4B8);\n    sub_1865CD8B0(0);\n  }\n  return v2;\n}\n"
+ },
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_E25",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_E25",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180898260(__int64 a1)\n{\n  int v2; // ebx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE39EFF )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39EFF = 1;\n  }\n  v2 = *(_DWORD *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  if ( !byte_18CE39768 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE39768 = 1;\n  }\n  if ( v2 < 0 )\n  {\n    sub_180004140(qword_18C8FF4B8);\n    MatrixData__pb__Google_Protobuf_IMessage_get_Descriptor(0);\n  }\n  return (unsigned int)v2;\n}\n"
+ },
+ {
+  "class": "ONSPAmbisonicsNativeSibliRelated_675A",
+  "class_obf": "ÌÏÍÍÍÎÏÌÍÏÏÌÏÏÎÌÏÍÎÏÌÍÏ",
+  "parent": "",
+  "method": "m_F46",
+  "cv_key": "ONSPAmbisonicsNativeSibliRelated_675A::m_F46",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808985E0(__int64 a1)\n{\n  return sub_1866E9EE0(a1 + 16);\n}\n"
+ }
+]

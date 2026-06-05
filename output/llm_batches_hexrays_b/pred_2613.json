@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_ABC9::m_03E": "ToLowerWithLocale",
+ "VRCNetworkBehaviourSibling_BF5Sibling_ABC9::m_96F": "ToUpperWithLocale",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AC5E::m_55E": "SetMovementInput"
+}

@@ -116,8 +116,8 @@ public class MotionSettings
     public void .ctor(){} // RVA: 0x7FFAF2E4C7F0
     public void get_max(){} // RVA: 0x7FFAF2E5A570
     public void set_smoothing(){} // RVA: 0x7FFAF2DB6080
-    public void set_use(){} // RVA: 0x7FFAF2EB7340
-    public void set_min(){} // RVA: 0x7FFAF2DB6080
+    public void set_min(){} // RVA: 0x7FFAF2EB7340
+    public void set_use(){} // RVA: 0x7FFAF2DB6080
     public void get_smoothing(){} // RVA: 0x7FFAF2DB6080
     public void get_use(){} // RVA: 0x7FFAF2E575E0
     public void get_min(){} // RVA: 0x7FFAF2D91CF0

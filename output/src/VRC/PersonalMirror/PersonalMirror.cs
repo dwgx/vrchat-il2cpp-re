@@ -14,9 +14,8 @@ namespace VRC.PersonalMirror
         public void .ctor_E83A52EBCCE7(){} // RVA: 0x7FFAF33B4850
         public void Initialize(){} // RVA: 0x7FFAF33B4940
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Contains(){} // RVA: 0x7FFAF33B4A20
         public void get_name(){} // RVA: 0x7FFAF33B4B10
-        // ── Unresolved (hash) ──
-        public void m_2A4(){} // RVA: 0x7FFAF33B4A20
     }
 
 }

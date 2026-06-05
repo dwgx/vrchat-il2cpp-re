@@ -1,0 +1,9 @@
+{
+ "FoldoutListRelated_FDA3::m_2A6": "IndexOf",
+ "FoldoutListRelated_FDA3::m_BE2": "LastIndexOf",
+ "GalleryIconsViewSibling_3131::m_033": "SetColliderQueryMode",
+ "GalleryIconsViewSibling_3131::m_051": "GetLimitXMultiplier",
+ "GalleryIconsViewSibling_3131::m_4CD": "SetOrbitalZ",
+ "GalleryIconsViewSibling_3131::m_7FD": "SetOrbitalX",
+ "GalleryIconsViewSibling_3131::m_C47": "SetArcSpeed"
+}

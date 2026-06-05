@@ -1,0 +1,112 @@
+[
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_297",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_297",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_18097EFD0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8A30C0 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_29C",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_29C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_18097F390()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8A3A28 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_2CE",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_2CE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_180982B30()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7F4C48 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_2E9",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_2E9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_180980FB0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7FA2A8 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_30C",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_30C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_18097F700()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8A2F68 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_31B",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_31B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_18097E350()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8A5748 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_357",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_357",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_18097FD40()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8A0B08 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_3AA",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_3AA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_1809824F0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7F76B0 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_3F9",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_3F9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_180981F00()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7F7640 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "class_obf": "ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ",
+  "parent": "",
+  "method": "m_425",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_D158::m_425",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "double sub_180982AE0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n  double result; // xmm0_8\n\n  v0 = *(_QWORD *)(qword_18C7F4CB8 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    return YloSGiLVOEi_0(v1);\n  return result;\n}\n"
+ }
+]

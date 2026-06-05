@@ -46,11 +46,11 @@ namespace VRC.Internal.Generated
         public void .ctor(){} // RVA: 0x7FFAFBDD6B60 | overloaded x3
         public void Initialize(){} // RVA: 0x7FFAFBDD6900
         public void Finalize(){} // RVA: 0x7FFAFBDD6F20
+        public void IsRight(){} // RVA: 0x7FFAFBDD7180
         // ── Unresolved (hash) ──
         public void m_279(){} // RVA: 0x7FFAFBDD6C60
         public void m_CD6(){} // RVA: 0x7FFAFBDD6DC0
         public void m_479(){} // RVA: 0x7FFAFBDD7020
-        public void m_EF0(){} // RVA: 0x7FFAFBDD7180
         public void m_C9D(){} // RVA: 0x7FFAFBDD72E0
         public void m_843(){} // RVA: 0x7FFAFBDD7440
         public void m_2B6(){} // RVA: 0x7FFAFBDD75A0

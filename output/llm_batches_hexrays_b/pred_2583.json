@@ -1,0 +1,9 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_3F29::m_AEE": "DecodeNextChar",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4295::m_03E": "FastCopy",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4295::m_45A": "GetFlattenedIndex",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4295::m_55E": "SetValueImpl",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4295::m_77C": "CreateInstanceImpl",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4295::m_943": "FastCopy",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4295::m_96F": "GetValueImpl"
+}

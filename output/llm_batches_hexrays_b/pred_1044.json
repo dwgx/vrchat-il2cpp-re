@@ -1,0 +1,12 @@
+{
+ "PhysicsHandler_68C4::m_4E4": "LogFloat",
+ "PhysicsHandler_68C4::m_56F": "Atan2Double",
+ "PhysicsHandler_68C4::m_6E3": "FmodFloat",
+ "PhysicsHandler_68C4::m_759": "ExpFloat",
+ "PhysicsHandler_68C4::m_76B": "FmodDouble",
+ "PhysicsHandler_68C4::m_98F": "SinDouble",
+ "PhysicsHandler_68C4::m_A66": "LogFloat",
+ "PhysicsHandler_68C4::m_A76": "AcosFloat",
+ "PhysicsHandler_68C4::m_A90": "Atan2Double",
+ "PhysicsHandler_68C4::m_B91": "FloorDouble"
+}

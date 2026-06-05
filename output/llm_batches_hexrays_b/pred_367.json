@@ -1,0 +1,5 @@
+{
+ "TransformComponentHandler_EF3D::m_39A": "OpenFileHandle",
+ "TransformComponentHandler_EF3D::m_8D3": "GetOrCreateThreadLocalData",
+ "TransformComponentHandler_EF3D::m_C35": "SetComApartmentState"
+}

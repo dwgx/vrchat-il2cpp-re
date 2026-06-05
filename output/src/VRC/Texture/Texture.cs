@@ -19,17 +19,18 @@ namespace VRC.Texture
     public class SpriteHandler_620E
     {
         // ── Methods ──
+        public void InverseTransformPoint(){} // RVA: 0x7FFAF3BA2C40
         public void OnDestroy(){} // RVA: 0x7FFAFB7E0F00
         public void GetRect(){} // RVA: 0x7FFAF3DF2AB0
         public void GetRect_296E6D2EAFEC(){} // RVA: 0x7FFAF3DF2AB0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── 19 unresolved (hash) ──
+        // ── 18 unresolved (hash) ──
         public void m_FEB(){} // RVA: 0x7FFAF3BA2C40
         public void m_0DB(){} // RVA: 0x7FFAFB7E05E0
         public void m_578(){} // RVA: 0x7FFAFB7E0760
         public void m_852(){} // RVA: 0x7FFAFB7E08E0
         public void m_5B8(){} // RVA: 0x7FFAFB7E0D30
-        // ... 14 more unresolved methods
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÌÍÎÍÌÎÌÌÍÏÏÎÌÏÍÌÍÎÎÎÏ</summary>
@@ -94,16 +95,30 @@ namespace VRC.Texture
     public class TextureCalculateLayoutInpRelated_81F6
     {
         // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAF2E08D50
+        public void ExtractArrayFromList(){} // RVA: 0x7FFAFB9374E0
+        public void ExtractArrayFromList_C2A884909B84(){} // RVA: 0x7FFAFB9375E0
+        public void ExtractArrayFromList_D9254B32CD51(){} // RVA: 0x7FFAFB9375F0
+        public void Dispose(){} // RVA: 0x7FFAFB9377F0
+        public void Equals_8A373DF3FE68(){} // RVA: 0x7FFAFB9378F0
         public void Awake(){} // RVA: 0x7FFAFB937B20
+        public void ToString(){} // RVA: 0x7FFAFB937E60
+        public void MultiplyVector(){} // RVA: 0x7FFAFB938B80
+        public void MultiplyVector_A0D953A13964(){} // RVA: 0x7FFAFB938B90
+        public void GetHashCode(){} // RVA: 0x7FFAFB938CF0
         public void .ctor(){} // RVA: 0x7FFAFB938D20
         public void OnDestroy(){} // RVA: 0x7FFAFB938DF0
-        // ── 30 unresolved (hash) ──
+        public void ToString_728B27C05229(){} // RVA: 0x7FFAFB939050
+        public void ConstructFromColumns(){} // RVA: 0x7FFAFB9386F0
+        public void ToStringFormat(){} // RVA: 0x7FFAFB939060
+        public void ClampComponents(){} // RVA: 0x7FFAFB9393A0
+        // ── 17 unresolved (hash) ──
         public void m_58A(){} // RVA: 0x7FFAFB9373C0
         public void m_679(){} // RVA: 0x7FFAFB9373D0
-        public void m_8A3(){} // RVA: 0x7FFAFB9378F0
         public void m_104(){} // RVA: 0x7FFAFB937490
-        public void m_A22(){} // RVA: 0x7FFAFB9374E0
-        // ... 25 more unresolved methods
+        public void m_BC4(){} // RVA: 0x7FFAFB9376F0
+        public void m_441(){} // RVA: 0x7FFAF2E55500
+        // ... 12 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÎÏÏÌÌÏÏÍÎÍÍÌÏÎÎÎÎÌÍÌÍ</summary>
@@ -143,25 +158,29 @@ namespace VRC.Texture
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF4399510
         public void Initialize(){} // RVA: 0x7FFAF435CCD0
+        public void BinarySearch(){} // RVA: 0x7FFAF43995E0
         public void Start(){} // RVA: 0x7FFAF4399610
-        // ── 11 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_7DB(){} // RVA: 0x7FFAF435D0B0
         public void m_F05(){} // RVA: 0x7FFAF34AC930
         public void m_573(){} // RVA: 0x7FFAF435CCD0
         public void m_F62(){} // RVA: 0x7FFAF4399050
         public void m_1B3(){} // RVA: 0x7FFAF435CDE0
-        // ... 6 more unresolved methods
+        public void m_994(){} // RVA: 0x7FFAF435D2B0
+        public void m_330(){} // RVA: 0x7FFAF34AC930
+        public void m_6B3(){} // RVA: 0x7FFAF4399120
+        public void m_3FB(){} // RVA: 0x7FFAF435D0B0
+        public void m_824(){} // RVA: 0x7FFAF34AC930
     }
 
     /// <summary>Originally: ÎÏÏÎÏÎÌÍÍÎÎÏÌÌÍÏÍÌÌÍÌÎÍ</summary>
     public class TextureCalculateLayoutInputHorSibling_9ABA
     {
         // ── Methods ──
+        public void MoveNext(){} // RVA: 0x7FFAF42D7660
+        public void Insert(){} // RVA: 0x7FFAF42D7D60
         public void .ctor(){} // RVA: 0x7FFAF2DE7060
         public void Initialize(){} // RVA: 0x7FFAF42D8460
-        // ── Unresolved (hash) ──
-        public void m_1B3(){} // RVA: 0x7FFAF42D7660
-        public void m_3FB(){} // RVA: 0x7FFAF42D7D60
     }
 
     /// <summary>Originally: ÎÍÌÎÏÍÏÌÎÍÍÎÍÌÏÎÎÎÍÎÌÏÎ</summary>
@@ -184,15 +203,17 @@ namespace VRC.Texture
     public class TextureCalculateLayoutInputHorSibling_B992
     {
         // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAF45C2330
         public void .ctor(){} // RVA: 0x7FFAF45C2470
         public void Initialize(){} // RVA: 0x7FFAF45C24D0
-        // ── 15 unresolved (hash) ──
-        public void m_9EC(){} // RVA: 0x7FFAF45C2330
+        public void Equals_8202535A30BF(){} // RVA: 0x7FFAF45C2890
+        // ── 13 unresolved (hash) ──
         public void m_1B3(){} // RVA: 0x7FFAF45C2610
         public void m_235(){} // RVA: 0x7FFAF2E478F0
-        public void m_820(){} // RVA: 0x7FFAF45C2890
         public void m_489(){} // RVA: 0x7FFAF2E478F0
-        // ... 10 more unresolved methods
+        public void m_20B(){} // RVA: 0x7FFAF45C2930
+        public void m_9DB(){} // RVA: 0x7FFAF45C2960
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÏÍÏÏÍÌÍÍÍÍÍÌÎÌÏÏÌÎÎÌÎ</summary>
@@ -203,20 +224,20 @@ namespace VRC.Texture
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF435C5E0
         public void Initialize(){} // RVA: 0x7FFAF435C6B0
+        public void IndexOf(){} // RVA: 0x7FFAF435CAA0
         public void SetLocalPosition(){} // RVA: 0x7FFAF435CCA0
+        public void LastIndexOf(){} // RVA: 0x7FFAF435CD10
         public void SetLocalPosition_7A61E13E1031(){} // RVA: 0x7FFAF435CFE0
+        public void IndexOf_3FBAAAC528DA(){} // RVA: 0x7FFAF435D0B0
+        public void LastIndexOf_01EA8C5FC048(){} // RVA: 0x7FFAF435CCD0
+        public void IndexOf_F190A6FAB1FC(){} // RVA: 0x7FFAF435D2B0
         public void Start(){} // RVA: 0x7FFAF435D4B0
         // ── Unresolved (hash) ──
-        public void m_C96(){} // RVA: 0x7FFAF435CAA0
         public void m_64C(){} // RVA: 0x7FFAF435CCD0
-        public void m_F62(){} // RVA: 0x7FFAF435CD10
         public void m_330(){} // RVA: 0x7FFAF34AC930
         public void m_ECF(){} // RVA: 0x7FFAF435CDE0
         public void m_1B3(){} // RVA: 0x7FFAF435CDE0
-        public void m_3FB(){} // RVA: 0x7FFAF435D0B0
         public void m_E91(){} // RVA: 0x7FFAF435D0B0
-        public void m_01E(){} // RVA: 0x7FFAF435CCD0
-        public void m_F19(){} // RVA: 0x7FFAF435D2B0
     }
 
     /// <summary>Originally: ÏÍÎÍÌÏÏÎÌÌÍÏÎÎÏÍÏÏÏÍÏÍÏ</summary>
@@ -240,16 +261,22 @@ namespace VRC.Texture
     {
         // ── Methods ──
         public void ReleaseTemporary(){} // RVA: 0x7FFAF4303D30
+        public void get_CanvasRenderer(){} // RVA: 0x7FFAF4303EB0
+        public void get_CanvasRenderer_C2BA6CDB841A(){} // RVA: 0x7FFAF43041B0
+        public void get_CanvasRenderer_7FB9CA111224(){} // RVA: 0x7FFAF4304290
+        public void get_CanvasRenderer_A6ED08392786(){} // RVA: 0x7FFAF43042B0
+        public void get_CanvasRenderer_7DB776B46E9D(){} // RVA: 0x7FFAF4304400
+        public void get_CanvasRenderer_863D805F42A8(){} // RVA: 0x7FFAF4304580
         public void Awake(){} // RVA: 0x7FFAF43045E0
         public void OnDestroy(){} // RVA: 0x7FFAF43046E0
+        public void get_CanvasRenderer_1B33EF0CEFE0(){} // RVA: 0x7FFAF43047E0
+        public void get_CanvasRenderer_994BF8AACB33(){} // RVA: 0x7FFAF4304960
         public void .ctor(){} // RVA: 0x7FFAF2DE7060
-        // ── 12 unresolved (hash) ──
-        public void m_05F(){} // RVA: 0x7FFAF4303EB0
+        // ── Unresolved (hash) ──
         public void m_6F5(){} // RVA: 0x7FFAF4304030
-        public void m_C2B(){} // RVA: 0x7FFAF43041B0
-        public void m_7FB(){} // RVA: 0x7FFAF4304290
-        public void m_A6E(){} // RVA: 0x7FFAF43042B0
-        // ... 7 more unresolved methods
+        public void m_A37(){} // RVA: 0x7FFAF4304AE0
+        public void m_FA6(){} // RVA: 0x7FFAF4304BC0
+        public void m_DEE(){} // RVA: 0x7FFAF4304D10
     }
 
     /// <summary>Originally: ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ</summary>

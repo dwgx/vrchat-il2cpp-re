@@ -1,0 +1,10 @@
+{
+ "VRC_MainSibling_12FF::m_A2C": "Equals",
+ "VRC_MainSibling_12FF::m_A85": "ToString",
+ "VRC_MainSibling_12FF::m_ADB": "Equals",
+ "VRC_MainSibling_12FF::m_B5C": "Equals",
+ "VRC_MainSibling_12FF::m_B5D": "GetHashCode",
+ "VRC_MainSibling_12FF::m_CAD": "GetHashCode",
+ "VRC_MainSibling_12FF::m_D4E": "Equals",
+ "VRC_MainSibling_12FF::m_ED4": "Equals"
+}

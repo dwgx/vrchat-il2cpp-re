@@ -1,0 +1,5 @@
+{
+ "TransformGameObjectHandler_A3BD::m_8C6": "ConvertMultibyteToWideCharsWithLocale",
+ "TransformGameObjectHandler_A3BD::m_A2F": "ConvertMultibyteToWideChars",
+ "TransformGameObjectHandler_A3BD::m_C5B": "GetFileMode"
+}

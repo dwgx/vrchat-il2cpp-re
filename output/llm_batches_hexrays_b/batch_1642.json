@@ -1,0 +1,112 @@
+[
+ {
+  "class": "TransformComponentHandler_D35C",
+  "class_obf": "ÎÍÏÏÌÎÌÍÌÏÌÍÍÍÏÏÎÌÏÎÏÍÌ",
+  "parent": "",
+  "method": "m_5FD",
+  "cv_key": "TransformComponentHandler_D35C::m_5FD",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "// Hidden C++ exception states: #wind=9\n__int64 __fastcall sub_180A7A9C0(__int64 a1, unsigned int a2)\n{\n  _QWORD *v2; // rax\n  unsigned int v3; // edi\n  _QWORD *v6; // rcx\n  int *v7; // rax\n\n  v2 = *(_QWORD **)(a1 + 56);\n  v3 = a2;\n  if ( *v2 && **(_QWORD **)(a1 + 24) < *v2 && (a2 == -1 || *(unsigned __int8 *)(**(_QWORD **)(a1 + 56) - 1LL) == a2) )\n  {\n    ++**(_DWORD **)(a1 + 80);\n    --**(_QWORD **)(a1 + 56);\n    if ( a2 == -1 )\n      return 0;\n    return v3;\n  }\n  if ( !*(_QWORD *)(a1 + 128) || a2 == -1 )\n    return 0xFFFFFFFFLL;\n  if ( !*(_QWORD *)(a1 + 104) && (unsigned int)sub_180B0976C((unsigned __int8)a2, *(_QWORD *)(a1 + 128)) != -1 )\n    return v3;\n  if ( **(_QWORD **)(a1 + 56) == a1 + 112 )\n    return 0xFFFFFFFFLL;\n  v6 = *(_QWORD **)(a1 + 24);\n  *(_BYTE *)(a1 + 112) = v3;\n  if ( *v6 != a1 + 112 )\n  {\n    v7 = *(int **)(a1 + 80);\n    *(_QWORD *)(a1 + 136) = *v6;\n    *(_QWORD *)(a1 + 144) = **(_QWORD **)(a1 + 56) + *v7;\n  }\n  **(_QWORD **)(a1 + 24) = a1 + 112;\n  **(_QWORD **)(a1 + 56) = a1 + 112;\n  **(_DWORD **)(a1 + 80) = 1;\n  return v3;\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_D35C",
+  "class_obf": "ÎÍÏÏÌÎÌÍÌÏÌÍÍÍÏÏÎÌÏÎÏÍÌ",
+  "parent": "",
+  "method": "m_748",
+  "cv_key": "TransformComponentHandler_D35C::m_748",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "// Hidden C++ exception states: #wind=9\n__int64 __fastcall sub_180A7A5C0(__int64 a1)\n{\n  _QWORD *v2; // rax\n  unsigned __int8 *v3; // rdx\n  _QWORD *v5; // rcx\n  __int64 v6; // r8\n  __int64 v7; // rdx\n  __int64 v8; // rcx\n  int v9; // eax\n  unsigned int v10; // ebx\n  int v11; // eax\n  __int64 v12; // r8\n  __int64 v13; // r9\n  char v14; // r12\n  unsigned __int64 v15; // rbx\n  unsigned __int64 v16; // rcx\n  unsigned __int64 v17; // r14\n  __int128 *v18; // rax\n  __int64 v19; // rsi\n  unsigned __int64 v20; // rdi\n  __int64 v21; // rdi\n  char *v22; // rcx\n  __int128 *v23; // r8\n  int v24; // eax\n  int v25; // eax\n  __int128 *v26; // rax\n  unsigned __int64 v27; // r9\n  __int128 *v28; // rcx\n  unsigned __int64 v29; // rbx\n  __int64 v30; // rcx\n  char *v31; // rax\n  __int64 v32; // rdx\n  __int64 v33; // rbx\n  unsigned __int8 v34; // [rsp+40h] [rbp-30h] BYREF\n  char v35[7]; // [rsp+41h] [rbp-2Fh] BYREF\n  __int128 v36; // [rsp+48h] [rbp-28h] BYREF\n  unsigned __int64 v37; // [rsp+58h] [rbp-18h]\n  unsigned __int64 v38; // [rsp+60h] [rbp-10h]\n  __int64 v39; // [rsp+B0h] [rbp+40h] BYREF\n  unsigned __int8 *v40; // [rsp+B8h] [rbp+48h] BYREF\n\n  if ( **(_QWORD **)(a1 + 56)\n    && **(_QWORD **)(a1 + 56) < (unsigned __int64)(**(_QWORD **)(a1 + 56) + **(int **)(a1 + 80)) )\n  {\n    --**(_DWORD **)(a1 + 80);\n    v2 = *(_QWORD **)(a1 + 56);\n    v3 = (unsigned __int8 *)(*v2)++;\n    return *v3;\n  }\n  if ( !*(_QWORD *)(a1 + 128) )\n    return 0xFFFFFFFFLL;\n  v5 = *(_QWORD **)(a1 + 24);\n  if ( *v5 == a1 + 112 )\n  {\n    v6 = *(_QWORD *)(a1 + 144);\n    v7 = *(_QWORD *)(a1 + 136);\n    *v5 = v7;\n    **(_QWORD **)(a1 + 56) = v7;\n    **(_DWORD **)(a1 + 80) = v6 - v7;\n  }\n  v8 = *(_QWORD *)(a1 + 128);\n  if ( !*(_QWORD *)(a1 + 104) )\n  {\n    v9 = sub_180B08E44(v8);\n    v10 = -1;\n    if ( v9 != -1 )\n      return (unsigned __int8)v9;\n    return v10;\n  }\n  v36 = 0;\n  v37 = 0;\n  v38 = 15;\n  LOBYTE(v36) = 0;\n  while ( 1 )\n  {\n    v11 = sub_180B08E44(v8);\n    v14 = v11;\n    if ( v11 == -1 )\n    {\n      v30 = v36;\n      goto LABEL_57;\n    }\n    v15 = v37;\n    v16 = v37;\n    v17 = v38;\n    if ( v37 >= v38 )\n    {\n      if ( v37 == 0x7FFFFFFFFFFFFFFFLL )\n        std::vector<void *>::_Xlen(0x7FFFFFFFFFFFFFFFLL);\n      v20 = (v37 + 1) | 0xF;\n      if ( v20 <= 0x7FFFFFFFFFFFFFFFLL )\n      {\n        if ( v38 <= 0x7FFFFFFFFFFFFFFFLL - (v38 >> 1) )\n        {\n          if ( v20 < v38 + (v38 >> 1) )\n            v20 = v38 + (v38 >> 1);\n        }\n        else\n        {\n          v20 = 0x7FFFFFFFFFFFFFFFLL;\n        }\n      }\n      else\n      {\n        v20 = 0x7FFFFFFFFFFFFFFFLL;\n      }\n      v19 = sub_180A41720(v20 + 1, 0x7FFFFFFFFFFFFFFFLL, v12, v13);\n      v37 = v15 + 1;\n      v38 = v20;\n      if ( v17 <= 0xF )\n      {\n        sub_180B276D0(v19, &v36, v15);\n        *(_BYTE *)(v15 + v19) = v14;\n        *(_BYTE *)(v15 + v19 + 1) = 0;\n      }\n      else\n      {\n        v21 = v36;\n        sub_180B276D0(v19, v36, v15);\n        *(_BYTE *)(v15 + v19) = v14;\n        *(_BYTE *)(v15 + v19 + 1) = 0;\n        if ( v17 + 1 >= 0x1000 )\n        {\n          if ( (unsigned __int64)(v21 - *(_QWORD *)(v21 - 8) - 8) > 0x1F )\n            invalid_parameter_noinfo_noreturn();\n          v21 = *(_QWORD *)(v21 - 8);\n        }\n        sub_180AF6A48(v21);\n      }\n      *(_QWORD *)&v36 = v19;\n    }\n    else\n    {\n      ++v37;\n      v18 = &v36;\n      if ( v38 > 0xF )\n        v18 = (__int128 *)v36;\n      *((_BYTE *)v18 + v16) = v14;\n      *((_BYTE *)v18 + v16 + 1) = 0;\n      v19 = v36;\n    }\n    v22 = (char *)&v36;\n    if ( v38 > 0xF )\n      v22 = (char *)v19;\n    v23 = &v36;\n    if ( v38 > 0xF )\n      v23 = (__int128 *)v19;\n    v24 = (*(__int64 (__fastcall **)(_QWORD, __int64, __int128 *, char *, __int64 *, unsigned __int8 *, char *, unsigned __int8 **))(**(_QWORD **)(a1 + 104) + 48LL))(\n            *(_QWORD *)(a1 + 104),\n            a1 + 116,\n            v23,\n            &v22[v37],\n            &v39,\n            &v34,\n            v35,\n            &v40);\n    if ( v24 )\n    {\n      v25 = v24 - 1;\n      if ( v25 )\n        break;\n    }\n    v26 = &v36;\n    if ( v40 != &v34 )\n    {\n      v30 = v36;\n      if ( v38 > 0xF )\n        v26 = (__int128 *)v36;\n      v32 = v39;\n      v33 = (__int64)v26 + v37 - v39;\n      if ( v33 > 0 )\n      {\n        while ( 1 )\n        {\n          sub_180B0976C((unsigned int)*(char *)(--v33 + v32), *(_QWORD *)(a1 + 128));\n          if ( v33 <= 0 )\n            break;\n          v32 = v39;\n        }\n        v30 = v36;\n      }\n      v10 = v34;\n      goto LABEL_58;\n    }\n    if ( v38 > 0xF )\n      v26 = (__int128 *)v36;\n    v27 = v39 - (_QWORD)v26;\n    if ( v37 < v39 - (__int64)v26 )\n      v27 = v37;\n    v28 = &v36;\n    if ( v38 > 0xF )\n      v28 = (__int128 *)v36;\n    v29 = v37 - v27;\n    sub_180B276D0(v28, (char *)v28 + v27, v37 - v27 + 1);\n    v37 = v29;\n    v8 = *(_QWORD *)(a1 + 128);\n  }\n  v30 = v36;\n  if ( v25 != 2 )\n  {\nLABEL_57:\n    v10 = -1;\n    goto LABEL_58;\n  }\n  v31 = (char *)&v36;\n  if ( v38 > 0xF )\n    v31 = (char *)v36;\n  v10 = *v31;\nLABEL_58:\n  if ( v38 > 0xF )\n  {\n    if ( v38 + 1 >= 0x1000 )\n    {\n      if ( (unsigned __int64)(v30 - *(_QWORD *)(v30 - 8) - 8) > 0x1F )\n        invalid_parameter_noinfo_noreturn();\n      v30 = *(_QWORD *)(v30 - 8);\n    }\n    sub_180AF6A48(v30);\n  }\n  return v10;\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_D35C",
+  "class_obf": "ÎÍÏÏÌÎÌÍÌÏÌÍÍÍÏÏÎÌÏÎÏÍÌ",
+  "parent": "",
+  "method": "m_9D0",
+  "cv_key": "TransformComponentHandler_D35C::m_9D0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "// Hidden C++ exception states: #wind=9\n__int64 __fastcall sub_180A7AAE0(__int64 a1, unsigned int a2)\n{\n  unsigned int v2; // edi\n  _QWORD *v5; // rax\n  _BYTE *v6; // rdx\n  _QWORD *v7; // rcx\n  __int64 v8; // rdx\n  __int64 v9; // r8\n  __int64 v10; // rcx\n  __int64 v11; // rcx\n  int v12; // eax\n  int v13; // eax\n  __int64 v14; // rsi\n  unsigned int v15; // ecx\n  char v16; // [rsp+40h] [rbp-38h] BYREF\n  char v17[7]; // [rsp+41h] [rbp-37h] BYREF\n  _BYTE v18[32]; // [rsp+48h] [rbp-30h] BYREF\n  char v19[16]; // [rsp+68h] [rbp-10h] BYREF\n  _BYTE *v20; // [rsp+90h] [rbp+18h] BYREF\n  char *v21; // [rsp+98h] [rbp+20h] BYREF\n\n  v2 = a2;\n  if ( a2 == -1 )\n    return 0;\n  if ( **(_QWORD **)(a1 + 64)\n    && **(_QWORD **)(a1 + 64) < (unsigned __int64)(**(_QWORD **)(a1 + 64) + **(int **)(a1 + 88)) )\n  {\n    --**(_DWORD **)(a1 + 88);\n    v5 = *(_QWORD **)(a1 + 64);\n    v6 = (_BYTE *)(*v5)++;\n    *v6 = v2;\n    return v2;\n  }\n  if ( !*(_QWORD *)(a1 + 128) )\n    return 0xFFFFFFFFLL;\n  v7 = *(_QWORD **)(a1 + 24);\n  if ( *v7 == a1 + 112 )\n  {\n    v8 = *(_QWORD *)(a1 + 136);\n    v9 = *(_QWORD *)(a1 + 144);\n    *v7 = v8;\n    **(_QWORD **)(a1 + 56) = v8;\n    **(_DWORD **)(a1 + 80) = v9 - v8;\n  }\n  if ( !*(_QWORD *)(a1 + 104) )\n  {\n    v10 = (unsigned int)(char)v2;\nLABEL_15:\n    if ( (unsigned int)sub_180B08340(v10, *(_QWORD *)(a1 + 128)) == -1 )\n      return (unsigned int)-1;\n    return v2;\n  }\n  v11 = *(_QWORD *)(a1 + 104);\n  v16 = v2;\n  v12 = (*(__int64 (__fastcall **)(__int64, __int64, char *, char *, char **, _BYTE *, char *, _BYTE **))(*(_QWORD *)v11 + 56LL))(\n          v11,\n          a1 + 116,\n          &v16,\n          v17,\n          &v21,\n          v18,\n          v19,\n          &v20);\n  if ( v12 )\n  {\n    v13 = v12 - 1;\n    if ( v13 )\n    {\n      if ( v13 == 2 )\n      {\n        v10 = (unsigned int)v16;\n        goto LABEL_15;\n      }\n      return 0xFFFFFFFFLL;\n    }\n  }\n  if ( v20 != v18 )\n  {\n    v14 = v20 - v18;\n    if ( v14 != sub_180B092FC(v18, 1, v20 - v18, *(_QWORD *)(a1 + 128)) )\n      return 0xFFFFFFFFLL;\n  }\n  *(_BYTE *)(a1 + 113) = 1;\n  v15 = -1;\n  if ( v21 != &v16 )\n    return v2;\n  return v15;\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_D35C",
+  "class_obf": "ÎÍÏÏÌÎÌÍÌÏÌÍÍÍÏÏÎÌÏÎÏÍÌ",
+  "parent": "",
+  "method": "m_D88",
+  "cv_key": "TransformComponentHandler_D35C::m_D88",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A7AD60(__int64 a1, const __m128i *a2, __int64 a3)\n{\n  __int64 i; // rbx\n  int *v7; // rax\n  __int64 v8; // rcx\n  unsigned __int64 v9; // rsi\n\n  for ( i = a3; i > 0; a2 = (const __m128i *)((char *)a2 + v9) )\n  {\n    if ( **(_QWORD **)(a1 + 64) && (v7 = *(int **)(a1 + 88), v8 = *v7, (int)v8 > 0) )\n    {\n      v9 = i;\n      if ( i >= v8 )\n        v9 = *v7;\n      sub_180B276D0(**(__m128i ***)(a1 + 64), a2, v9);\n      i -= v9;\n      **(_DWORD **)(a1 + 88) -= v9;\n      **(_QWORD **)(a1 + 64) += (int)v9;\n    }\n    else\n    {\n      if ( (*(unsigned int (__fastcall **)(__int64, _QWORD))(*(_QWORD *)a1 + 24LL))(a1, a2->m128i_u8[0]) == -1 )\n        return a3 - i;\n      --i;\n      v9 = 1;\n    }\n  }\n  return a3 - i;\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_D35C",
+  "class_obf": "ÎÍÏÏÌÎÌÍÌÏÌÍÍÍÏÏÎÌÏÎÏÍÌ",
+  "parent": "",
+  "method": "m_F7A",
+  "cv_key": "TransformComponentHandler_D35C::m_F7A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A7A9C0(__int64 a1, unsigned int a2)\n{\n  _QWORD *v2; // rax\n  unsigned int v3; // edi\n  _QWORD *v6; // rcx\n  int *v7; // rax\n\n  v2 = *(_QWORD **)(a1 + 56);\n  v3 = a2;\n  if ( *v2 && **(_QWORD **)(a1 + 24) < *v2 && (a2 == -1 || *(unsigned __int8 *)(**(_QWORD **)(a1 + 56) - 1LL) == a2) )\n  {\n    ++**(_DWORD **)(a1 + 80);\n    --**(_QWORD **)(a1 + 56);\n    if ( a2 == -1 )\n      return 0;\n    return v3;\n  }\n  if ( !*(_QWORD *)(a1 + 128) || a2 == -1 )\n    return 0xFFFFFFFFLL;\n  if ( !*(_QWORD *)(a1 + 104) && (unsigned int)sub_180B0976C((unsigned __int8)a2, *(_QWORD *)(a1 + 128)) != -1 )\n    return v3;\n  if ( **(_QWORD **)(a1 + 56) == a1 + 112 )\n    return 0xFFFFFFFFLL;\n  v6 = *(_QWORD **)(a1 + 24);\n  *(_BYTE *)(a1 + 112) = v3;\n  if ( *v6 != a1 + 112 )\n  {\n    v7 = *(int **)(a1 + 80);\n    *(_QWORD *)(a1 + 136) = *v6;\n    *(_QWORD *)(a1 + 144) = **(_QWORD **)(a1 + 56) + *v7;\n  }\n  **(_QWORD **)(a1 + 24) = a1 + 112;\n  **(_QWORD **)(a1 + 56) = a1 + 112;\n  **(_DWORD **)(a1 + 80) = 1;\n  return v3;\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_F9FE",
+  "class_obf": "ÍÎÌÌÌÍÍÎÎÌÎÌÎÍÍÎÌÎÏÍÏÏÎ",
+  "parent": "",
+  "method": "m_65C",
+  "cv_key": "TransformComponentHandler_F9FE::m_65C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall t_GPk_VESKe(__int64 a1, unsigned int a2)\n{\n  if ( a2 >= *(unsigned __int8 *)(a1 + 82) )\n    return 0;\n  if ( (*(_BYTE *)(a1 + 83) & 2) != 0 )\n    a1 = **(_QWORD **)(a1 + 64);\n  if ( *(_QWORD *)(a1 + 56) )\n    return qword_18CE1D788\n         + *(int *)(qword_18CE1D778\n                  + *(int *)(qword_18CE1D7A0 + 84)\n                  + 12LL * (int)(a2 + *(_DWORD *)(*(_QWORD *)(a1 + 56) + 12LL))\n                  - 64);\n  else\n    return 0;\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_F9FE",
+  "class_obf": "ÍÎÌÌÌÍÍÎÎÌÎÌÎÍÍÎÌÎÏÍÏÏÎ",
+  "parent": "",
+  "method": "m_A0E",
+  "cv_key": "TransformComponentHandler_F9FE::m_A0E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "unsigned __int64 __fastcall clnPuFqtUmc(__int64 a1, const char *a2)\n{\n  __int64 v3; // rbx\n  unsigned __int64 v4; // r8\n  __int64 *v5; // rcx\n  __int64 *v7; // [rsp+30h] [rbp+8h] BYREF\n\n  v3 = a1;\n  if ( !a1 )\n    return 0;\n  do\n  {\n    v4 = 0;\n    while ( v4 )\n    {\n      v4 += 48LL;\n      if ( v4 >= *(_QWORD *)(v3 + 88) + 48 * (unsigned __int64)*(unsigned __int16 *)(v3 + 290) )\n        goto LABEL_16;\nLABEL_13:\n      if ( !v4 )\n        goto LABEL_16;\n      if ( !strcmp(a2, *(const char **)(v4 + 8)) )\n        return v4;\n    }\n    if ( !*(_QWORD *)(v3 + 88) )\n    {\n      if ( !*(_WORD *)(v3 + 290) )\n        goto LABEL_16;\n      v7 = &qword_18CE1C630;\n      sub_180A3A570(&qword_18CE1C630);\n      sub_180A87A10(v3, (__int64)&v7);\n      v5 = v7;\n      if ( *((int *)v7 + 20) > 0 )\n      {\n        if ( *((_DWORD *)v7 + 20) == 1 )\n        {\n          v7[9] = 0;\n          *((_DWORD *)v5 + 20) = 0;\n          sub_180A3A4F0(v5);\n        }\n        else\n        {\n          --*((_DWORD *)v7 + 20);\n        }\n      }\n    }\n    if ( *(_WORD *)(v3 + 290) )\n    {\n      v4 = *(_QWORD *)(v3 + 88);\n      goto LABEL_13;\n    }\nLABEL_16:\n    v3 = *(_QWORD *)(v3 + 120);\n  }\n  while ( v3 );\n  return 0;\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_F9FE",
+  "class_obf": "ÍÎÌÌÌÍÍÎÎÌÎÌÎÍÍÎÌÎÏÍÏÏÎ",
+  "parent": "",
+  "method": "m_AD7",
+  "cv_key": "TransformComponentHandler_F9FE::m_AD7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall dayVDxoJA_s(__int64 a1)\n{\n  __int64 *v2; // rax\n  __int64 *v3; // rax\n  __int64 *v4; // rax\n  __int64 *v5; // rax\n  __int64 *v6; // rax\n  __int64 *v7; // rax\n  __int64 *v8; // rax\n  __int64 *v9; // rax\n  __int64 *v10; // rax\n  __int64 *v11; // rax\n  __int64 *v12; // rax\n  __int64 *v13; // rax\n  __int64 *v14; // rax\n  __int64 *v15; // rax\n  __int64 *v16; // rax\n  __int64 *v17; // rax\n  __int64 v18; // rcx\n  int v19; // eax\n  int v20; // eax\n  int v21; // edx\n  const char *v23; // rbx\n  __int64 v24; // rax\n  _BYTE v25[16]; // [rsp+20h] [rbp-168h] BYREF\n  _QWORD v26[2]; // [rsp+30h] [rbp-158h] BYREF\n  __int64 v27; // [rsp+40h] [rbp-148h] BYREF\n  _BYTE v28[264]; // [rsp+48h] [rbp-140h] BYREF\n  _BYTE pExceptionObject[56]; // [rsp+150h] [rbp-38h] BYREF\n\n  sub_180A7B130(v26);\n  sub_180A7AF90(v26, a1);\n  v2 = sub_180A7D880(&v27, (__int64)\"New object count: \");\n  v3 = (__int64 *)sub_180A7B3B0(v2, qword_18CE1D828);\n  sub_180A7D880(v3, (__int64)\"\\n\");\n  v4 = sub_180A7D880(&v27, (__int64)\"Method count: \");\n  v5 = (__int64 *)sub_180A7B3B0(v4, qword_18CE1D838);\n  sub_180A7D880(v5, (__int64)\"\\n\");\n  v6 = sub_180A7D880(&v27, (__int64)\"Class static data size: \");\n  v7 = (__int64 *)sub_180A7B3B0(v6, qword_18CE1D840);\n  sub_180A7D880(v7, (__int64)\"\\n\");\n  v8 = sub_180A7D880(&v27, (__int64)\"Inflated method count: \");\n  v9 = (__int64 *)sub_180A7B3B0(v8, qword_18CE1D858);\n  sub_180A7D880(v9, (__int64)\"\\n\");\n  v10 = sub_180A7D880(&v27, (__int64)\"Inflated type count: \");\n  v11 = (__int64 *)sub_180A7B3B0(v10, qword_18CE1D860);\n  sub_180A7D880(v11, (__int64)\"\\n\");\n  v12 = sub_180A7D880(&v27, (__int64)\"Initialized class count: \");\n  v13 = (__int64 *)sub_180A7B3B0(v12, qword_18CE1D830);\n  sub_180A7D880(v13, (__int64)\"\\n\");\n  v14 = sub_180A7D880(&v27, (__int64)\"Generic instance count: \");\n  v15 = (__int64 *)sub_180A7B3B0(v14, qword_18CE1D848);\n  sub_180A7D880(v15, (__int64)\"\\n\");\n  v16 = sub_180A7D880(&v27, (__int64)\"Generic class count: \");\n  v17 = (__int64 *)sub_180A7B3B0(v16, qword_18CE1D850);\n  sub_180A7D880(v17, (__int64)\"\\n\");\n  if ( !sub_180A7CA80(v28) )\n  {\n    v18 = *(int *)(v26[0] + 4LL);\n    v19 = 6;\n    if ( *(_QWORD *)&v28[v18 + 48] )\n      v19 = 2;\n    v20 = (*(_DWORD *)&v28[v18 - 8] | v19) & 0x17;\n    *(_DWORD *)&v28[v18 - 8] = v20;\n    v21 = v20 & *(_DWORD *)&v28[v18 - 4];\n    if ( v21 )\n    {\n      if ( (v21 & 4) != 0 )\n      {\n        v23 = \"ios_base::badbit set\";\n      }\n      else\n      {\n        v23 = \"ios_base::failbit set\";\n        if ( (v21 & 2) == 0 )\n          v23 = \"ios_base::eofbit set\";\n      }\n      v24 = unknown_libname_5(v25, 1);\n      sub_180A77390(pExceptionObject, v23, v24);\n      throw (std::ios_base::failure *)pExceptionObject;\n    }\n  }\n  sub_180A781A0(v26);\n  return 1;\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_12E3",
+  "class_obf": "ÍÌÍÏÌÌÌÍÎÌÌÏÌÌÍÏÏÍÎÏÌÏÍ",
+  "parent": "",
+  "method": "m_6D9",
+  "cv_key": "TransformGameObjectHandler_12E3::m_6D9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_18089E4C0(__int64 a1, __int128 *a2)\n{\n  __int64 v2; // rbx\n  signed __int32 v4[8]; // [rsp+0h] [rbp-38h] BYREF\n  __int128 v5; // [rsp+20h] [rbp-18h] BYREF\n\n  v2 = a1 + 16;\n  v5 = *a2;\n  if ( !byte_18CE3A2FE )\n  {\n    sub_180AD1AA0(&qword_18C88C638);\n    _InterlockedOr(v4, 0);\n    byte_18CE3A2FE = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C88C638 + 224) )\n    YloSGiLVOEi_0(qword_18C88C638);\n  return (unsigned int)sub_18676F100(v2, &v5, 0) == 0;\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_12E3",
+  "class_obf": "ÍÌÍÏÌÌÌÍÎÌÌÏÌÌÍÏÏÍÎÏÌÏÍ",
+  "parent": "",
+  "method": "m_6DD",
+  "cv_key": "TransformGameObjectHandler_12E3::m_6DD",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "signed __int64 __fastcall sub_18089DEE0(__int64 a1, __int64 a2, signed __int64 a3)\n{\n  __int64 v5; // rcx\n  volatile signed __int64 *v6; // r8\n  signed __int64 v7; // rax\n  unsigned int v8; // r8d\n  unsigned __int64 v9; // rax\n  char v10; // r8\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  int v13; // ecx\n  signed __int32 v15[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v5 = *(_QWORD *)(a1 + 16);\n  if ( !v5 )\n    sub_180AAE510(0, a2);\n  if ( (unsigned int)a2 >= *(_DWORD *)(v5 + 24) )\n    sub_180AAE530(v5, a2);\n  v6 = (volatile signed __int64 *)(v5 + 8 * ((int)a2 + 4LL));\n  v7 = _InterlockedCompareExchange64(v6, 0, a3);\n  if ( a3 != v7 )\n    a3 = v7;\n  if ( dword_18CE1C2E8 )\n  {\n    v8 = ((unsigned __int64)v6 >> 12) & 0x1FFFFF;\n    v9 = (unsigned __int64)v8 >> 6;\n    v10 = v8 & 0x3F;\n    v11 = &qword_18CEAB0E0[v9];\n    _m_prefetchw(v11);\n    do\n      v12 = *v11;\n    while ( v12 != _InterlockedCompareExchange64(v11, *v11 | (1LL << v10), *v11) );\n  }\n  if ( a3 )\n  {\n    v13 = *(_DWORD *)(a1 + 24);\n    _InterlockedOr(v15, 0);\n    _InterlockedOr(v15, 0);\n    *(_DWORD *)(a1 + 24) = v13 + 1;\n  }\n  return a3;\n}\n"
+ }
+]

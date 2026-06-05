@@ -9,19 +9,19 @@ namespace VRC.Internal.Profiled
     public class ProfiledHandler_51A2
     {
         // ── Methods ──
+        public void ToString(){} // RVA: 0x7FFAF46BFAA0
+        public void ToStringEnd(){} // RVA: 0x7FFAF46BFF40
+        public void GetHashCode(){} // RVA: 0x7FFAF46C01E0
+        public void Equals(){} // RVA: 0x7FFAF46C1330
         public void .ctor(){} // RVA: 0x7FFAF46C33F0
         public void Initialize(){} // RVA: 0x7FFAF46C3640
         public void .cctor(){} // RVA: 0x7FFAF46C3D00
+        public void Equals_6BC830AB4B7E(){} // RVA: 0x7FFAF46C3EB0
         // ── Unresolved (hash) ──
-        public void m_27C(){} // RVA: 0x7FFAF46BFAA0
-        public void m_16C(){} // RVA: 0x7FFAF46BFF40
-        public void m_217(){} // RVA: 0x7FFAF46C01E0
         public void m_89A(){} // RVA: 0x7FFAF46C0C60
-        public void m_3C9(){} // RVA: 0x7FFAF46C1330
         public void m_128(){} // RVA: 0x7FFAF46C1A40
         public void m_9D7(){} // RVA: 0x7FFAF46C1EE0
         public void m_A95(){} // RVA: 0x7FFAF46C2970
-        public void m_6BC(){} // RVA: 0x7FFAF46C3EB0
     }
 
     /// <summary>Originally: ÎÏÏÎÎÍÌÏÍÌÎÏÌÌÍÏÎÏÎÍÍÍÏ</summary>
@@ -71,14 +71,16 @@ namespace VRC.Internal.Profiled
         public void Awake(){} // RVA: 0x7FFAF39785E0
         public void OnApplicationFocus(){} // RVA: 0x7FFAF3978B40
         public void OnDisable(){} // RVA: 0x7FFAF2E08900
+        public void Dispose(){} // RVA: 0x7FFAF3978540
+        public void Dispose_5EF225FF4407(){} // RVA: 0x7FFAF3978D90
         public void Start(){} // RVA: 0x7FFAF3978EC0
-        // ── 20 unresolved (hash) ──
+        // ── 18 unresolved (hash) ──
         public void m_D19(){} // RVA: 0x7FFAF3977A70
         public void m_2D2(){} // RVA: 0x7FFAF2DBB130
         public void m_87B(){} // RVA: 0x7FFAF3977C80
         public void m_31C(){} // RVA: 0x7FFAF3977DD0
         public void m_942(){} // RVA: 0x7FFAF3978310
-        // ... 15 more unresolved methods
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÍÎÌÏÌÍÎÎÍÍÍÌÌÏÌÏÍÏÏÏÌÏÌ</summary>

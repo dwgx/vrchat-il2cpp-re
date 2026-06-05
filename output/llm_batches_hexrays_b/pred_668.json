@@ -1,0 +1,5 @@
+{
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_3EC": "SetTransformAndCachePose",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_427": "OnValidate",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_495": "ApplyCachedRotationSmoothing"
+}

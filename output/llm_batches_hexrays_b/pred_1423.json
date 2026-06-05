@@ -1,0 +1,8 @@
+{
+ "AnimationHandler_E2E4::m_141": "GetStructuralHashCode",
+ "AnimationHandler_E2E4::m_4D1": "GetStructuralHashCode",
+ "AnimationHandler_E2E4::m_699": "EqualsTupleFields",
+ "AnimationHandler_E2E4::m_6B4": "CompareTupleFields",
+ "AnimationHandler_E2E4::m_982": "GetStructuralHashCode",
+ "AnimationHandler_E2E4::m_A93": "EqualsTupleFields"
+}

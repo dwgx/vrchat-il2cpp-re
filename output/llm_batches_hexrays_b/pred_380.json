@@ -1,0 +1,9 @@
+{
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_7AA": "DecodeDistanceBlockSwitch",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_7BD": "DecodeCommandBlockSwitch",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_849": "DecodeMetaBlockLength",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_8A4": "DecodeMetaBlockLength",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_8C3": "DecodeContextMap",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_917": "DecodeCommandBlockSwitch",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_966": "BrotliDecoderDecompressStream"
+}

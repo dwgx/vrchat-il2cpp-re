@@ -1,0 +1,6 @@
+{
+ "NetworkSyncableSibling_F739::m_CB5": "ThrowTransitionParamsMarshalException",
+ "NetworkSyncableSibling_F739::m_D14": "AddItem",
+ "NetworkSyncableSibling_F739::m_E28": "AddItem",
+ "NetworkSyncableSibling_F739::m_F7B": "ContainsItem"
+}

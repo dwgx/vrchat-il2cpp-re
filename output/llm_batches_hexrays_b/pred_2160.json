@@ -1,0 +1,10 @@
+{
+ "TransformHandler_FD87::m_A4B": "Equals",
+ "TransformHandler_FD87::m_FDF": "Equals",
+ "TransformPhysicsHandler_EF99::m_17E": "GetHashCode",
+ "TransformPhysicsHandler_EF99::m_3AA": "Equals",
+ "TransformPhysicsHandler_EF99::m_3D7": "GetHashCode",
+ "TransformPhysicsHandler_EF99::m_436": "ToString",
+ "TransformPhysicsHandler_EF99::m_45E": "ToString",
+ "TransformPhysicsHandler_EF99::m_4EE": "Equals"
+}

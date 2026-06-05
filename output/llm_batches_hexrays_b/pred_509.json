@@ -1,0 +1,9 @@
+{
+ "TransformPlayerPrefsHandler_396E::m_7BC": "EmplaceBackString",
+ "TransformPlayerPrefsHandler_396E::m_7D4": "EmplaceBackString",
+ "TransformPlayerPrefsHandler_396E::m_83D": "CreateCustomAttributeFormatException",
+ "TransformPlayerPrefsHandler_396E::m_9A0": "ReceiveFromSocket",
+ "TransformPlayerPrefsHandler_396E::m_9A4": "ReceiveFromSocket",
+ "TransformPlayerPrefsHandler_396E::m_ADC": "ExecuteQueuedCallbacks",
+ "TransformPlayerPrefsHandler_396E::m_AF2": "CaptureStackTrace"
+}

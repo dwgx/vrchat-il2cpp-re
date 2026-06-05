@@ -1,0 +1,7 @@
+{
+ "VRC_MainSibling_C23A::m_70A": "MarshalEmbeddedArraysToNative",
+ "VRC_MainSibling_C23A::m_753": "MarshalEmbeddedArrayToNative",
+ "VRC_MainSibling_C23A::m_790": "GetNativeStructSize",
+ "VRC_MainSibling_C23A::m_7AB": "MarshalFixedArrayFromNative",
+ "VRC_MainSibling_C23A::m_7D5": "MarshalFixedArrayToNative"
+}

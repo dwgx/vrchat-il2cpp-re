@@ -1,0 +1,6 @@
+{
+ "SerializableVector3SiblinRelated_78F4::m_F5A": "FillMemoryWithByte",
+ "SerializationRecoveryHandlerSiSibling_7BC9::m_018": "FreeNativeMemory",
+ "SerializationRecoveryHandlerSiSibling_7BC9::m_496": "ToString",
+ "SerializationRecoveryHandlerSiSibling_7BC9::m_5F9": "CopyNativeStruct"
+}

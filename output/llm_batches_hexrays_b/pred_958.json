@@ -1,0 +1,7 @@
+{
+ "VRC_MainSibling_C23A::m_C33": "MarshalToNative",
+ "VRC_MainSibling_C23A::m_C67": "MarshalFromNative",
+ "VRC_MainSibling_C23A::m_C9B": "MarshalToNative",
+ "VRC_MainSibling_C23A::m_CA4": "MarshalFromNative",
+ "VRC_MainSibling_C23A::m_CF0": "MarshalFromNative"
+}

@@ -1,8 +1,1 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_6F55::m_582": "TakeOwnership",
- "VRCNetworkBehaviourSibling_BF5Sibling_6F55::m_5B5": "TakeOwnership",
- "VRCNetworkBehaviourSibling_BF5Sibling_6F55::m_5C3": "FlagDiscontinuity",
- "VRCNetworkBehaviourSibling_BF5Sibling_6F55::m_5EE": "Respawn",
- "VRCNetworkBehaviourSibling_BF5Sibling_6F55::m_693": "TeleportTo",
- "VRCNetworkBehaviourSibling_BF5Sibling_6F55::m_7B8": "TeleportTo"
-}
+{}

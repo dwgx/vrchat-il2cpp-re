@@ -1,0 +1,11 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_DC5C::m_24F": "FwriteS",
+ "VRCNetworkBehaviourSibling_BF5Sibling_DC5C::m_2F0": "SetStreamBuffering",
+ "VRCNetworkBehaviourSibling_BF5Sibling_DC5C::m_51F": "SetStreamBuffering",
+ "VRCNetworkBehaviourSibling_BF5Sibling_DC5C::m_937": "UngetStreamCharacter",
+ "VRCNetworkBehaviourSibling_BF5Sibling_DC5C::m_95D": "FwriteNoLockS",
+ "VRCNetworkBehaviourSibling_BF5Sibling_DC5C::m_C01": "SetStreamBuffering",
+ "VRCNetworkBehaviourSibling_BF5Sibling_DC5C::m_F2B": "FwriteNoLockS",
+ "VRCNetworkBehaviourSibling_BF5Sibling_DCCD::m_2F0": "Fmod",
+ "VRCNetworkBehaviourSibling_BF5Sibling_DCCD::m_6F8": "Fmod"
+}

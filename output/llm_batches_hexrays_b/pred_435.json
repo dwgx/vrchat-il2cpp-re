@@ -1,0 +1,10 @@
+{
+ "TransformMeshHandler_C468::m_0C0": "EnableTemporaryStreamBuffering",
+ "TransformMeshHandler_C468::m_189": "CreateLocaleObject",
+ "TransformMeshHandler_C468::m_2B4": "InitializeMultibyteCodePage",
+ "TransformMeshHandler_C468::m_7DB": "FormatFloatingPointNumber",
+ "TransformMeshHandler_C468::m_A00": "EnsureRuntimeLockCapacity",
+ "TransformMeshHandler_C468::m_D19": "IsTerminalOutputStream",
+ "TransformMeshHandler_C468::m_E63": "UnlockRuntimeLock",
+ "TransformMeshHandler_C468::m_ED4": "RaiseSignal"
+}

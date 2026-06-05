@@ -1,0 +1,10 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_FC23::m_45A": "ComputeMd5Digest",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FC23::m_55E": "ProcessMd5Block",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FC23::m_575": "ProcessMd5Block",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FC23::m_77C": "ProcessMd5Block",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FC23::m_943": "ProcessMd5Block",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FC23::m_96F": "ProcessMd5Block",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FC64::m_016": "InitializeClass",
+ "VRCNetworkBehaviourSibling_BF5Sibling_FC64::m_51F": "CompleteClassInitialization"
+}

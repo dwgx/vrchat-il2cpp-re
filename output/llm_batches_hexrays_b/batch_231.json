@@ -1,0 +1,112 @@
+[
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_5CC",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_5CC",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180703720(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rbx\n  __int64 v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // r8\n  __int64 v9; // r8\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  _OWORD v13[3]; // [rsp+20h] [rbp-88h] BYREF\n  __int64 v14; // [rsp+50h] [rbp-58h]\n  __int64 v15; // [rsp+90h] [rbp-18h]\n\n  v3 = a1 + 16;\n  if ( *(_QWORD *)(a1 + 32) )\n  {\n    v15 = 0;\n    v5 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 16LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    if ( !*(_DWORD *)(v6 + 224) )\n      YloSGiLVOEi_0(v6);\n    v7 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v8 = *(_QWORD *)(v7 + 192);\n    memset(v13, 0, sizeof(v13));\n    v9 = *(_QWORD *)(v8 + 64);\n    v14 = v15;\n    sub_185971E20(v3, v13, v9);\n  }\n  else\n  {\n    v10 = dword_18CE1C2E8 == 0;\n    *(_QWORD *)(a1 + 32) = a2;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 32) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 32) >> 12) & 0x3F)),\n                       *v11) );\n    }\n  }\n}\n"
+ },
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_5E1",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_5E1",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807053E0(__int64 a1, __int64 a2)\n{\n  __int64 v5; // rcx\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rbx\n  __int64 v9; // rax\n  signed __int32 v10[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE34694 )\n  {\n    sub_180AD1AA0(&qword_18C920BC8);\n    _InterlockedOr(v10, 0);\n    byte_18CE34694 = 1;\n  }\n  if ( *(_QWORD *)(a1 + 80) )\n  {\n    v5 = *(_QWORD *)(*(_QWORD *)(a2 + 40) + 192LL);\n    v6 = *(_QWORD *)(v5 + 64);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(*(_QWORD *)(v5 + 64));\n    return sub_180002BE0(0, v6);\n  }\n  else\n  {\n    if ( !*(_QWORD *)(a1 + 88) )\n    {\n      v7 = sub_180A8B8B0(&qword_18C8D76D0);\n      v8 = sub_180AAE4D0(v7);\n      v9 = sub_180A8B8B0(&qword_18C920BC0);\n      sub_1866EB1B0(v8, v9, 0);\n      sub_180AAE4E0(v8, a2);\n    }\n    return sub_180002BE0(0, qword_18C920BC8);\n  }\n}\n"
+ },
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_5FE",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_5FE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180705790(__int64 a1, __int64 a2)\n{\n  __int64 v5; // rcx\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rbx\n  __int64 v9; // rax\n  signed __int32 v10[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE346A0 )\n  {\n    sub_180AD1AA0(&qword_18C920BC8);\n    _InterlockedOr(v10, 0);\n    byte_18CE346A0 = 1;\n  }\n  if ( *(_QWORD *)(a1 + 80) )\n  {\n    v5 = *(_QWORD *)(*(_QWORD *)(a2 + 40) + 192LL);\n    v6 = *(_QWORD *)(v5 + 64);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(*(_QWORD *)(v5 + 64));\n    return sub_180002BE0(0, v6);\n  }\n  else\n  {\n    if ( !*(_QWORD *)(a1 + 88) )\n    {\n      v7 = sub_180A8B8B0(&qword_18C8D76D0);\n      v8 = sub_180AAE4D0(v7);\n      v9 = sub_180A8B8B0(&qword_18C920BC0);\n      sub_1866EB1B0(v8, v9, 0);\n      sub_180AAE4E0(v8, a2);\n    }\n    return sub_180002BE0(0, qword_18C920BC8);\n  }\n}\n"
+ },
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_641",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_641",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180705790(__int64 a1, __int64 a2)\n{\n  __int64 v5; // rcx\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rbx\n  __int64 v9; // rax\n  signed __int32 v10[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE346A0 )\n  {\n    sub_180AD1AA0(&qword_18C920BC8);\n    _InterlockedOr(v10, 0);\n    byte_18CE346A0 = 1;\n  }\n  if ( *(_QWORD *)(a1 + 80) )\n  {\n    v5 = *(_QWORD *)(*(_QWORD *)(a2 + 40) + 192LL);\n    v6 = *(_QWORD *)(v5 + 64);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(*(_QWORD *)(v5 + 64));\n    return sub_180002BE0(0, v6);\n  }\n  else\n  {\n    if ( !*(_QWORD *)(a1 + 88) )\n    {\n      v7 = sub_180A8B8B0(&qword_18C8D76D0);\n      v8 = sub_180AAE4D0(v7);\n      v9 = sub_180A8B8B0(&qword_18C920BC0);\n      sub_1866EB1B0(v8, v9, 0);\n      sub_180AAE4E0(v8, a2);\n    }\n    return sub_180002BE0(0, qword_18C920BC8);\n  }\n}\n"
+ },
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_6B3",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_6B3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180701B90(__int64 a1, __int64 a2)\n{\n  __int64 result; // rax\n  __int64 v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rcx\n  __int64 v9; // rbx\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  signed __int32 v13[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  result = *(_QWORD *)(a1 + 16);\n  if ( !result )\n  {\n    v5 = *(_QWORD *)(a2 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(v5);\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 24LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    v7 = sub_180A52230(v6);\n    v8 = *(_QWORD *)(a2 + 40);\n    v9 = v7;\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      sub_180A4EBA0(v8);\n    if ( !byte_18CE3008E )\n    {\n      sub_180AD1AA0(&qword_18C9056C0);\n      _InterlockedOr(v13, 0);\n      byte_18CE3008E = 1;\n    }\n    if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n      YloSGiLVOEi_0(qword_18C9056C0);\n    _InterlockedOr(v13, 0);\n    v10 = dword_18CE1C2E8 == 0;\n    *(_DWORD *)(v9 + 56) = 33555456;\n    *(_QWORD *)(a1 + 16) = v9;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 16) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 16) >> 12) & 0x3F)),\n                       *v11) );\n    }\n    return v9;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_750",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_750",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180704300(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rbx\n  __int64 v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // r8\n  __int64 v9; // r8\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  _OWORD v13[3]; // [rsp+20h] [rbp-88h] BYREF\n  __int64 v14; // [rsp+50h] [rbp-58h]\n  __int64 v15; // [rsp+90h] [rbp-18h]\n\n  v3 = a1 + 16;\n  if ( *(_QWORD *)(a1 + 32) )\n  {\n    v15 = 0;\n    v5 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 16LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    if ( !*(_DWORD *)(v6 + 224) )\n      YloSGiLVOEi_0(v6);\n    v7 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v8 = *(_QWORD *)(v7 + 192);\n    memset(v13, 0, sizeof(v13));\n    v9 = *(_QWORD *)(v8 + 64);\n    v14 = v15;\n    sub_18597D540(v3, v13, v9);\n  }\n  else\n  {\n    v10 = dword_18CE1C2E8 == 0;\n    *(_QWORD *)(a1 + 32) = a2;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 32) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 32) >> 12) & 0x3F)),\n                       *v11) );\n    }\n  }\n}\n"
+ },
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_76D",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_76D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180703D20(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rbx\n  __int64 v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // r8\n  __int64 v9; // r8\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  _OWORD v13[3]; // [rsp+20h] [rbp-88h] BYREF\n  __int64 v14; // [rsp+50h] [rbp-58h]\n  __int64 v15; // [rsp+90h] [rbp-18h]\n\n  v3 = a1 + 16;\n  if ( *(_QWORD *)(a1 + 32) )\n  {\n    v15 = 0;\n    v5 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 16LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    if ( !*(_DWORD *)(v6 + 224) )\n      YloSGiLVOEi_0(v6);\n    v7 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v8 = *(_QWORD *)(v7 + 192);\n    memset(v13, 0, sizeof(v13));\n    v9 = *(_QWORD *)(v8 + 64);\n    v14 = v15;\n    sub_185977A20(v3, v13, v9);\n  }\n  else\n  {\n    v10 = dword_18CE1C2E8 == 0;\n    *(_QWORD *)(a1 + 32) = a2;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 32) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 32) >> 12) & 0x3F)),\n                       *v11) );\n    }\n  }\n}\n"
+ },
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_A4C",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_A4C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180703B80(__int64 a1, _OWORD *a2)\n{\n  __int128 v2; // xmm1\n  __int128 v3; // xmm0\n  _OWORD v5[3]; // [rsp+20h] [rbp-38h] BYREF\n\n  v2 = a2[1];\n  v5[0] = *a2;\n  v3 = a2[2];\n  v5[1] = v2;\n  v5[2] = v3;\n  return sub_1859763D0(a1 + 16, v5);\n}\n"
+ },
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_A72",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_A72",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180703D20(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rbx\n  __int64 v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // r8\n  __int64 v9; // r8\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  _OWORD v13[3]; // [rsp+20h] [rbp-88h] BYREF\n  __int64 v14; // [rsp+50h] [rbp-58h]\n  __int64 v15; // [rsp+90h] [rbp-18h]\n\n  v3 = a1 + 16;\n  if ( *(_QWORD *)(a1 + 32) )\n  {\n    v15 = 0;\n    v5 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 16LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    if ( !*(_DWORD *)(v6 + 224) )\n      YloSGiLVOEi_0(v6);\n    v7 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v8 = *(_QWORD *)(v7 + 192);\n    memset(v13, 0, sizeof(v13));\n    v9 = *(_QWORD *)(v8 + 64);\n    v14 = v15;\n    sub_185977A20(v3, v13, v9);\n  }\n  else\n  {\n    v10 = dword_18CE1C2E8 == 0;\n    *(_QWORD *)(a1 + 32) = a2;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 32) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 32) >> 12) & 0x3F)),\n                       *v11) );\n    }\n  }\n}\n"
+ },
+ {
+  "class": "ButtonTransformCoroutineComponent_DBB1",
+  "class_obf": "ÏÏÌÌÍÍÍÍÌÏÎÌÍÍÎÍÎÎÎÌÏÍÌ",
+  "parent": "",
+  "method": "m_A79",
+  "cv_key": "ButtonTransformCoroutineComponent_DBB1::m_A79",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_1807045F0(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rbx\n  __int64 v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // r8\n  __int64 v9; // r8\n  bool v10; // zf\n  __int64 *v11; // rdx\n  __int64 v12; // rtt\n  _OWORD v13[3]; // [rsp+20h] [rbp-88h] BYREF\n  __int64 v14; // [rsp+50h] [rbp-58h]\n  __int64 v15; // [rsp+90h] [rbp-18h]\n\n  v3 = a1 + 16;\n  if ( *(_QWORD *)(a1 + 32) )\n  {\n    v15 = 0;\n    v5 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n      v5 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v6 = *(_QWORD *)(*(_QWORD *)(v5 + 192) + 16LL);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(v6);\n    if ( !*(_DWORD *)(v6 + 224) )\n      YloSGiLVOEi_0(v6);\n    v7 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n      v7 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v8 = *(_QWORD *)(v7 + 192);\n    memset(v13, 0, sizeof(v13));\n    v9 = *(_QWORD *)(v8 + 64);\n    v14 = v15;\n    sub_1859802D0(v3, v13, v9);\n  }\n  else\n  {\n    v10 = dword_18CE1C2E8 == 0;\n    *(_QWORD *)(a1 + 32) = a2;\n    if ( !v10 )\n    {\n      v11 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 32) >> 12) & 0x1FFFFF) >> 6];\n      _m_prefetchw(v11);\n      do\n        v12 = *v11;\n      while ( v12 != _InterlockedCompareExchange64(\n                       v11,\n                       *v11 | (1LL << (((unsigned __int64)(a1 + 32) >> 12) & 0x3F)),\n                       *v11) );\n    }\n  }\n}\n"
+ }
+]

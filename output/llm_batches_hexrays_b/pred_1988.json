@@ -1,0 +1,7 @@
+{
+ "BehaviourPhysicsHandler_648F::m_43C": "GetStructuralHashCode",
+ "BehaviourPhysicsHandler_648F::m_550": "GetStructuralHashCode",
+ "BehaviourPhysicsHandler_648F::m_634": "GetStructuralHashCode",
+ "BehaviourPhysicsHandler_648F::m_A9A": "EqualsTupleFields",
+ "CameraTimeHandler_1097::m_09C": "FindLastIndex"
+}

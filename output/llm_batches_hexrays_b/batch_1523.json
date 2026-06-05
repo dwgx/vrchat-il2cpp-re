@@ -1,0 +1,112 @@
+[
+ {
+  "class": "IsInteractiveInteractSibling_0051",
+  "class_obf": "ÍÎÎÌÎÍÍÏÏÏÌÌÍÎÌÏÌÌÎÏÎÍÏ",
+  "parent": "",
+  "method": "m_F5C",
+  "cv_key": "IsInteractiveInteractSibling_0051::m_F5C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_BOOL8 __fastcall sub_180962D00(__int64 a1, __int64 a2)\n{\n  float v3[6]; // [rsp+0h] [rbp-18h]\n\n  if ( *(_DWORD *)(a2 + 8) == *(_DWORD *)(a1 + 24)\n    && (*(_QWORD *)v3 = *(_QWORD *)(a1 + 16), COERCE_FLOAT(*(_QWORD *)a2) == v3[0]) )\n  {\n    return HIDWORD(*(_QWORD *)a2) == LODWORD(v3[1]);\n  }\n  else\n  {\n    return 0;\n  }\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_0686",
+  "class_obf": "ÏÌÌÎÌÏÍÍÌÍÌÏÌÏÏÌÏÎÌÍÏÌÎ",
+  "parent": "",
+  "method": "m_31B",
+  "cv_key": "IsInteractiveInteractSibling_0686::m_31B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "unsigned __int64 __fastcall FdtWOQtP_Qg(__int64 a1, unsigned __int64 a2)\n{\n  __int64 v3; // rax\n\n  v3 = mlcL_MQgOnj_0(a1, 1, 0);\n  return MmKHvpwELkW_0(v3, a2);\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_0686",
+  "class_obf": "ÏÌÌÎÌÏÍÍÌÍÌÏÌÏÏÌÏÎÌÍÏÌÎ",
+  "parent": "",
+  "method": "m_62F",
+  "cv_key": "IsInteractiveInteractSibling_0686::m_62F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall HcNpgPUQpjM(__int64 a1, __int64 a2)\n{\n  unsigned __int8 v4; // al\n\n  sub_180A87D80(a1);\n  sub_180A87D80(a2);\n  v4 = *(_BYTE *)(a2 + 304);\n  return *(_BYTE *)(a1 + 304) >= v4 && *(_QWORD *)(*(_QWORD *)(a1 + 200) + 8LL * v4 - 8) == a2;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_0686",
+  "class_obf": "ÏÌÌÎÌÏÍÍÌÍÌÏÌÏÏÌÏÎÌÍÏÌÎ",
+  "parent": "",
+  "method": "m_BBC",
+  "cv_key": "IsInteractiveInteractSibling_0686::m_BBC",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall DweStWmIzOV(__int64 a1)\n{\n  __int64 v1; // rbx\n\n  v1 = sub_180A844A0(*(_QWORD **)(a1 + 16));\n  sub_180A88250(v1);\n  return v1;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_0686",
+  "class_obf": "ÏÌÌÎÌÏÍÍÌÍÌÏÌÏÏÌÏÎÌÍÏÌÎ",
+  "parent": "",
+  "method": "m_CE0",
+  "cv_key": "IsInteractiveInteractSibling_0686::m_CE0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall MRCmnXiZQii(__int64 a1)\n{\n  __int64 v1; // r8\n  __int64 result; // rax\n  __int64 v3; // rcx\n  __int128 v4; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v5; // [rsp+30h] [rbp-18h]\n  unsigned __int64 v6; // [rsp+38h] [rbp-10h]\n\n  v4 = 0;\n  v5 = 0;\n  v6 = 0;\n  v1 = -1;\n  do\n    ++v1;\n  while ( *(_BYTE *)(a1 + v1) );\n  sub_180A412A0(&v4);\n  result = sub_180A3E8F0(&v4);\n  if ( v6 > 0xF )\n  {\n    v3 = v4;\n    if ( v6 + 1 >= 0x1000 )\n    {\n      if ( (unsigned __int64)(v4 - *(_QWORD *)(v4 - 8) - 8) > 0x1F )\n        invalid_parameter_noinfo_noreturn();\n      v3 = *(_QWORD *)(v4 - 8);\n    }\n    return sub_180AF6A48(v3);\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_0686",
+  "class_obf": "ÏÌÌÎÌÏÍÍÌÍÌÏÌÏÏÌÏÎÌÍÏÌÎ",
+  "parent": "",
+  "method": "m_E8C",
+  "cv_key": "IsInteractiveInteractSibling_0686::m_E8C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "unsigned __int64 __fastcall clnPuFqtUmc(__int64 a1, const char *a2)\n{\n  __int64 v3; // rbx\n  unsigned __int64 v4; // r8\n  __int64 *v5; // rcx\n  __int64 *v7; // [rsp+30h] [rbp+8h] BYREF\n\n  v3 = a1;\n  if ( !a1 )\n    return 0;\n  do\n  {\n    v4 = 0;\n    while ( v4 )\n    {\n      v4 += 48LL;\n      if ( v4 >= *(_QWORD *)(v3 + 88) + 48 * (unsigned __int64)*(unsigned __int16 *)(v3 + 290) )\n        goto LABEL_16;\nLABEL_13:\n      if ( !v4 )\n        goto LABEL_16;\n      if ( !strcmp(a2, *(const char **)(v4 + 8)) )\n        return v4;\n    }\n    if ( !*(_QWORD *)(v3 + 88) )\n    {\n      if ( !*(_WORD *)(v3 + 290) )\n        goto LABEL_16;\n      v7 = &qword_18CE1C630;\n      sub_180A3A570(&qword_18CE1C630);\n      sub_180A87A10(v3, (__int64)&v7);\n      v5 = v7;\n      if ( *((int *)v7 + 20) > 0 )\n      {\n        if ( *((_DWORD *)v7 + 20) == 1 )\n        {\n          v7[9] = 0;\n          *((_DWORD *)v5 + 20) = 0;\n          sub_180A3A4F0(v5);\n        }\n        else\n        {\n          --*((_DWORD *)v7 + 20);\n        }\n      }\n    }\n    if ( *(_WORD *)(v3 + 290) )\n    {\n      v4 = *(_QWORD *)(v3 + 88);\n      goto LABEL_13;\n    }\nLABEL_16:\n    v3 = *(_QWORD *)(v3 + 120);\n  }\n  while ( v3 );\n  return 0;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_0686",
+  "class_obf": "ÏÌÌÎÌÏÍÍÌÍÌÏÌÏÏÌÏÎÌÍÏÌÎ",
+  "parent": "",
+  "method": "m_EAB",
+  "cv_key": "IsInteractiveInteractSibling_0686::m_EAB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall UOqTBvOVccP(_WORD *a1)\n{\n  _WORD *v2; // rbx\n  __int64 i; // rdx\n  __int64 result; // rax\n  __int64 v5; // rcx\n  __int128 v6; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v7; // [rsp+30h] [rbp-18h]\n  unsigned __int64 v8; // [rsp+38h] [rbp-10h]\n  char v9; // [rsp+58h] [rbp+10h] BYREF\n\n  v2 = a1;\n  for ( i = 0; *v2; ++i )\n    ++v2;\n  v6 = 0;\n  v7 = 0;\n  v8 = 15;\n  LOBYTE(v6) = 0;\n  sub_180A413F0(&v6, i);\n  sub_180ADD5E0(&v9, a1, v2, &v6);\n  result = sub_180A3E8F0(&v6);\n  if ( v8 > 0xF )\n  {\n    v5 = v6;\n    if ( v8 + 1 >= 0x1000 )\n    {\n      if ( (unsigned __int64)(v6 - *(_QWORD *)(v6 - 8) - 8) > 0x1F )\n        invalid_parameter_noinfo_noreturn();\n      v5 = *(_QWORD *)(v6 - 8);\n    }\n    return sub_180AF6A48(v5);\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_60C1",
+  "class_obf": "ÍÏÎÍÍÍÌÎÍÏÍÎÍÍÌÍÌÌÌÏÎÍÏ",
+  "parent": "",
+  "method": "m_035",
+  "cv_key": "IsInteractiveInteractSibling_60C1::m_035",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180828930(\n        __int64 (__fastcall *a1)(_BYTE *, _BYTE *, _BYTE *, _BYTE *, _BYTE *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4,\n        __int64 a5)\n{\n  __int64 v7; // rcx\n  __int64 v8; // rax\n  unsigned __int64 v9; // rdx\n  __int64 v10; // rcx\n  unsigned __int64 v11; // rcx\n  void *v12; // rsp\n  void *v13; // rsp\n  _BYTE *v14; // r13\n  __int64 v15; // rcx\n  __int64 v16; // rax\n  unsigned __int64 v17; // rdx\n  __int64 v18; // rcx\n  unsigned __int64 v19; // rcx\n  void *v20; // rsp\n  void *v21; // rsp\n  _BYTE *v22; // r12\n  __int64 v23; // rcx\n  __int64 v24; // rax\n  unsigned __int64 v25; // rdx\n  __int64 v26; // rcx\n  unsigned __int64 v27; // rcx\n  void *v28; // rsp\n  void *v29; // rsp\n  _BYTE *v30; // r15\n  __int64 v31; // rcx\n  __int64 v32; // rax\n  unsigned __int64 v33; // rdx\n  __int64 v34; // rcx\n  unsigned __int64 v35; // rcx\n  void *v36; // rsp\n  void *v37; // rsp\n  _BYTE *v38; // r14\n  __int64 v39; // rcx\n  __int64 v40; // rax\n  unsigned __int64 v41; // rdx\n  __int64 v42; // rcx\n  unsigned __int64 v43; // rcx\n  void *v44; // rsp\n  void *v45; // rsp\n  _BYTE *v46; // rdi\n  _BYTE v48[32]; // [rsp+40h] [rbp+0h] BYREF\n\n  v7 = **(_QWORD **)(a2 + 48);\n  if ( *(int *)(v7 + 8) >= 0 )\n  {\n    v14 = (_BYTE *)*a4;\n  }\n  else\n  {\n    v8 = sub_180A844A0((_QWORD *)v7);\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      v8 = sub_180A4EBA0(v8);\n    v9 = *(unsigned int *)(v8 + 252);\n    v10 = v9 + 15;\n    if ( v9 + 15 < v9 )\n      v10 = 0xFFFFFFFFFFFFFF0LL;\n    v11 = v10 & 0xFFFFFFFFFFFFFFF0uLL;\n    v12 = alloca(v11);\n    v13 = alloca(v11);\n    v14 = v48;\n    sub_180B276D0(v48, *a4, v9);\n  }\n  v15 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 8LL);\n  if ( *(int *)(v15 + 8) >= 0 )\n  {\n    v22 = (_BYTE *)a4[1];\n  }\n  else\n  {\n    v16 = sub_180A844A0((_QWORD *)v15);\n    if ( (*(_BYTE *)(v16 + 309) & 1) == 0 )\n      v16 = sub_180A4EBA0(v16);\n    v17 = *(unsigned int *)(v16 + 252);\n    v18 = v17 + 15;\n    if ( v17 + 15 < v17 )\n      v18 = 0xFFFFFFFFFFFFFF0LL;\n    v19 = v18 & 0xFFFFFFFFFFFFFFF0uLL;\n    v20 = alloca(v19);\n    v21 = alloca(v19);\n    v22 = v48;\n    sub_180B276D0(v48, a4[1], v17);\n  }\n  v23 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 16LL);\n  if ( *(int *)(v23 + 8) >= 0 )\n  {\n    v30 = (_BYTE *)a4[2];\n  }\n  else\n  {\n    v24 = sub_180A844A0((_QWORD *)v23);\n    if ( (*(_BYTE *)(v24 + 309) & 1) == 0 )\n      v24 = sub_180A4EBA0(v24);\n    v25 = *(unsigned int *)(v24 + 252);\n    v26 = v25 + 15;\n    if ( v25 + 15 < v25 )\n      v26 = 0xFFFFFFFFFFFFFF0LL;\n    v27 = v26 & 0xFFFFFFFFFFFFFFF0uLL;\n    v28 = alloca(v27);\n    v29 = alloca(v27);\n    v30 = v48;\n    sub_180B276D0(v48, a4[2], v25);\n  }\n  v31 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 24LL);\n  if ( *(int *)(v31 + 8) >= 0 )\n  {\n    v38 = (_BYTE *)a4[3];\n  }\n  else\n  {\n    v32 = sub_180A844A0((_QWORD *)v31);\n    if ( (*(_BYTE *)(v32 + 309) & 1) == 0 )\n      v32 = sub_180A4EBA0(v32);\n    v33 = *(unsigned int *)(v32 + 252);\n    v34 = v33 + 15;\n    if ( v33 + 15 < v33 )\n      v34 = 0xFFFFFFFFFFFFFF0LL;\n    v35 = v34 & 0xFFFFFFFFFFFFFFF0uLL;\n    v36 = alloca(v35);\n    v37 = alloca(v35);\n    v38 = v48;\n    sub_180B276D0(v48, a4[3], v33);\n  }\n  v39 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 32LL);\n  if ( *(int *)(v39 + 8) >= 0 )\n  {\n    v46 = (_BYTE *)a4[4];\n  }\n  else\n  {\n    v40 = sub_180A844A0((_QWORD *)v39);\n    if ( (*(_BYTE *)(v40 + 309) & 1) == 0 )\n      v40 = sub_180A4EBA0(v40);\n    v41 = *(unsigned int *)(v40 + 252);\n    v42 = v41 + 15;\n    if ( v41 + 15 < v41 )\n      v42 = 0xFFFFFFFFFFFFFF0LL;\n    v43 = v42 & 0xFFFFFFFFFFFFFFF0uLL;\n    v44 = alloca(v43);\n    v45 = alloca(v43);\n    v46 = v48;\n    sub_180B276D0(v48, a4[4], v41);\n  }\n  return a1(v14, v22, v30, v38, v46, a5, a2);\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_60C1",
+  "class_obf": "ÍÏÎÍÍÍÌÎÍÏÍÎÍÍÌÍÌÌÌÏÎÍÏ",
+  "parent": "",
+  "method": "m_086",
+  "cv_key": "IsInteractiveInteractSibling_60C1::m_086",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180828C00(\n        __int64 (__fastcall *a1)(_BYTE *, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4,\n        __int64 a5)\n{\n  __int64 v5; // rax\n  __int128 v6; // xmm1\n  __int64 v7; // xmm0_8\n  _BYTE v9[40]; // [rsp+40h] [rbp-28h] BYREF\n\n  v5 = a1(v9, *a4, a4[1], a4[2], a4[3], a4[4], a2);\n  v6 = *(_OWORD *)v5;\n  v7 = *(_QWORD *)(v5 + 16);\n  *(_OWORD *)a5 = v6;\n  *(_QWORD *)(a5 + 16) = v7;\n  return a5;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_60C1",
+  "class_obf": "ÍÏÎÍÍÍÌÎÍÏÍÎÍÍÌÍÌÌÌÏÎÍÏ",
+  "parent": "",
+  "method": "m_31B",
+  "cv_key": "IsInteractiveInteractSibling_60C1::m_31B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180828930(\n        __int64 (__fastcall *a1)(_BYTE *, _BYTE *, _BYTE *, _BYTE *, _BYTE *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4,\n        __int64 a5)\n{\n  __int64 v7; // rcx\n  __int64 v8; // rax\n  unsigned __int64 v9; // rdx\n  __int64 v10; // rcx\n  unsigned __int64 v11; // rcx\n  void *v12; // rsp\n  void *v13; // rsp\n  _BYTE *v14; // r13\n  __int64 v15; // rcx\n  __int64 v16; // rax\n  unsigned __int64 v17; // rdx\n  __int64 v18; // rcx\n  unsigned __int64 v19; // rcx\n  void *v20; // rsp\n  void *v21; // rsp\n  _BYTE *v22; // r12\n  __int64 v23; // rcx\n  __int64 v24; // rax\n  unsigned __int64 v25; // rdx\n  __int64 v26; // rcx\n  unsigned __int64 v27; // rcx\n  void *v28; // rsp\n  void *v29; // rsp\n  _BYTE *v30; // r15\n  __int64 v31; // rcx\n  __int64 v32; // rax\n  unsigned __int64 v33; // rdx\n  __int64 v34; // rcx\n  unsigned __int64 v35; // rcx\n  void *v36; // rsp\n  void *v37; // rsp\n  _BYTE *v38; // r14\n  __int64 v39; // rcx\n  __int64 v40; // rax\n  unsigned __int64 v41; // rdx\n  __int64 v42; // rcx\n  unsigned __int64 v43; // rcx\n  void *v44; // rsp\n  void *v45; // rsp\n  _BYTE *v46; // rdi\n  _BYTE v48[32]; // [rsp+40h] [rbp+0h] BYREF\n\n  v7 = **(_QWORD **)(a2 + 48);\n  if ( *(int *)(v7 + 8) >= 0 )\n  {\n    v14 = (_BYTE *)*a4;\n  }\n  else\n  {\n    v8 = sub_180A844A0((_QWORD *)v7);\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      v8 = sub_180A4EBA0(v8);\n    v9 = *(unsigned int *)(v8 + 252);\n    v10 = v9 + 15;\n    if ( v9 + 15 < v9 )\n      v10 = 0xFFFFFFFFFFFFFF0LL;\n    v11 = v10 & 0xFFFFFFFFFFFFFFF0uLL;\n    v12 = alloca(v11);\n    v13 = alloca(v11);\n    v14 = v48;\n    sub_180B276D0(v48, *a4, v9);\n  }\n  v15 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 8LL);\n  if ( *(int *)(v15 + 8) >= 0 )\n  {\n    v22 = (_BYTE *)a4[1];\n  }\n  else\n  {\n    v16 = sub_180A844A0((_QWORD *)v15);\n    if ( (*(_BYTE *)(v16 + 309) & 1) == 0 )\n      v16 = sub_180A4EBA0(v16);\n    v17 = *(unsigned int *)(v16 + 252);\n    v18 = v17 + 15;\n    if ( v17 + 15 < v17 )\n      v18 = 0xFFFFFFFFFFFFFF0LL;\n    v19 = v18 & 0xFFFFFFFFFFFFFFF0uLL;\n    v20 = alloca(v19);\n    v21 = alloca(v19);\n    v22 = v48;\n    sub_180B276D0(v48, a4[1], v17);\n  }\n  v23 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 16LL);\n  if ( *(int *)(v23 + 8) >= 0 )\n  {\n    v30 = (_BYTE *)a4[2];\n  }\n  else\n  {\n    v24 = sub_180A844A0((_QWORD *)v23);\n    if ( (*(_BYTE *)(v24 + 309) & 1) == 0 )\n      v24 = sub_180A4EBA0(v24);\n    v25 = *(unsigned int *)(v24 + 252);\n    v26 = v25 + 15;\n    if ( v25 + 15 < v25 )\n      v26 = 0xFFFFFFFFFFFFFF0LL;\n    v27 = v26 & 0xFFFFFFFFFFFFFFF0uLL;\n    v28 = alloca(v27);\n    v29 = alloca(v27);\n    v30 = v48;\n    sub_180B276D0(v48, a4[2], v25);\n  }\n  v31 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 24LL);\n  if ( *(int *)(v31 + 8) >= 0 )\n  {\n    v38 = (_BYTE *)a4[3];\n  }\n  else\n  {\n    v32 = sub_180A844A0((_QWORD *)v31);\n    if ( (*(_BYTE *)(v32 + 309) & 1) == 0 )\n      v32 = sub_180A4EBA0(v32);\n    v33 = *(unsigned int *)(v32 + 252);\n    v34 = v33 + 15;\n    if ( v33 + 15 < v33 )\n      v34 = 0xFFFFFFFFFFFFFF0LL;\n    v35 = v34 & 0xFFFFFFFFFFFFFFF0uLL;\n    v36 = alloca(v35);\n    v37 = alloca(v35);\n    v38 = v48;\n    sub_180B276D0(v48, a4[3], v33);\n  }\n  v39 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 32LL);\n  if ( *(int *)(v39 + 8) >= 0 )\n  {\n    v46 = (_BYTE *)a4[4];\n  }\n  else\n  {\n    v40 = sub_180A844A0((_QWORD *)v39);\n    if ( (*(_BYTE *)(v40 + 309) & 1) == 0 )\n      v40 = sub_180A4EBA0(v40);\n    v41 = *(unsigned int *)(v40 + 252);\n    v42 = v41 + 15;\n    if ( v41 + 15 < v41 )\n      v42 = 0xFFFFFFFFFFFFFF0LL;\n    v43 = v42 & 0xFFFFFFFFFFFFFFF0uLL;\n    v44 = alloca(v43);\n    v45 = alloca(v43);\n    v46 = v48;\n    sub_180B276D0(v48, a4[4], v41);\n  }\n  return a1(v14, v22, v30, v38, v46, a5, a2);\n}\n"
+ }
+]

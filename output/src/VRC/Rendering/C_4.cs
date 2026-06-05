@@ -994,13 +994,13 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAF2AD4A50
+        public void GetAndClearFloatingPointExceptions(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
         public void m_08E(){} // RVA: 0x7FFAF2D33FA0
         public void m_DD8(){} // RVA: 0x7FFAF2D33FA0
         public void m_AC7(){} // RVA: 0x7FFAF2AD4A50
         public void m_62B(){} // RVA: 0x7FFAF2AD4A50
-        public void m_E61(){} // RVA: 0x7FFAF2AD4A50
         public void m_3B0(){} // RVA: 0x7FFAF2AD4A50
     }
 
@@ -1009,13 +1009,13 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAF7B1CF70
+        public void GetAndClearFloatingPointExceptions(){} // RVA: 0x7FFAF7B1D660
         public void .ctor(){} // RVA: 0x7FFAF7B1D770
         // ── Unresolved (hash) ──
         public void m_08E(){} // RVA: 0x7FFAF383A610
         public void m_DD8(){} // RVA: 0x7FFAF7B1D1D0
         public void m_AC7(){} // RVA: 0x7FFAF7B1D4E0
         public void m_62B(){} // RVA: 0x7FFAF7B1D5B0
-        public void m_E61(){} // RVA: 0x7FFAF7B1D660
         public void m_3B0(){} // RVA: 0x7FFAF7B1D6E0
     }
 
@@ -1023,15 +1023,21 @@ namespace VRC.Rendering
     public class CamerarenderModelNameSibling_7DBF
     {
         // ── Methods ──
+        public void InvokeVirtualMethodSlot(){} // RVA: 0x7FFAFB93C280
+        public void InvokeInterfaceMethodSlot(){} // RVA: 0x7FFAFB93C400
+        public void InvokeInterfaceMethodSlot_6B3E81FCD57E(){} // RVA: 0x7FFAFB93C490
+        public void InvokeGenericInterfaceMethodSlot(){} // RVA: 0x7FFAFB93C730
+        public void Equals(){} // RVA: 0x7FFAFB93C7C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Start(){} // RVA: 0x7FFAFB93CD30
-        // ── 12 unresolved (hash) ──
-        public void m_B75(){} // RVA: 0x7FFAFB93C280
-        public void m_3CB(){} // RVA: 0x7FFAFB93C400
-        public void m_6B3(){} // RVA: 0x7FFAFB93C490
+        // ── Unresolved (hash) ──
         public void m_DEF(){} // RVA: 0x7FFAFB93C520
         public void m_C9E(){} // RVA: 0x7FFAFB93C6A0
-        // ... 7 more unresolved methods
+        public void m_E15(){} // RVA: 0x7FFAFB93C940
+        public void m_5B0(){} // RVA: 0x7FFAFB93CA80
+        public void m_288(){} // RVA: 0x7FFAFB93CC00
+        public void m_050(){} // RVA: 0x7FFAFB93CDC0
+        public void m_FA0(){} // RVA: 0x7FFAFB93CF00
     }
 
 }

@@ -1,0 +1,5 @@
+{
+ "ComponentHandler_6D73::m_B54": "DecodeMoveToFrontTransform",
+ "ComponentHandler_8111::m_0CE": "ResizeSparseHashTable",
+ "ComponentHandler_8111::m_154": "MaybeShrinkSparseHashTable"
+}

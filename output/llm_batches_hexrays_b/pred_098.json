@@ -1,6 +1,4 @@
 {
- "VRCNetworkBehaviourSibling_BF5Sibling_1307::m_410": "SetFloatValue",
- "VRCNetworkBehaviourSibling_BF5Sibling_1307::m_552": "SetBooleanValue",
- "VRCNetworkBehaviourSibling_BF5Sibling_1307::m_6EA": "SetInt32Value",
- "VRCNetworkBehaviourSibling_BF5Sibling_13FA::m_016": "RunThreadStartCallback"
+ "NetworkReadyHandler_50BA::m_E0D": "DisconnectInternal_Injected",
+ "NetworkReadyHandler_50BA::m_E66": "set_CacheWritingBehavior"
 }

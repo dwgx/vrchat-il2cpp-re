@@ -1,0 +1,6 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_E779::m_016": "InitializeFadeSettings",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E779::m_24F": "FadeAlphaToZero",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E779::m_6F8": "FadeAlphaToTarget",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E779::m_CF3": "FadeAlphaToTarget"
+}

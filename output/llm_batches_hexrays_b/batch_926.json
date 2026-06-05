@@ -1,0 +1,112 @@
+[
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_289",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_289",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E95D0(\n        __int64 (__fastcall *a1)(_BYTE *, __int64, __int128 *, __int128 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4,\n        __int64 a5)\n{\n  __int128 *v5; // rax\n  __int128 v6; // xmm0\n  __int64 v7; // xmm1_8\n  __int128 *v8; // rax\n  __int64 v9; // xmm1_8\n  __int64 v10; // rax\n  __int128 v11; // xmm1\n  __int128 v13; // [rsp+30h] [rbp-68h] BYREF\n  __int64 v14; // [rsp+40h] [rbp-58h]\n  __int128 v15; // [rsp+50h] [rbp-48h] BYREF\n  __int64 v16; // [rsp+60h] [rbp-38h]\n  _BYTE v17[40]; // [rsp+70h] [rbp-28h] BYREF\n\n  v5 = a4[1];\n  v6 = *v5;\n  v7 = *((_QWORD *)v5 + 2);\n  v8 = *a4;\n  v13 = v6;\n  v14 = v7;\n  v9 = *((_QWORD *)v8 + 2);\n  v15 = *v8;\n  v16 = v9;\n  v10 = a1(v17, a3, &v15, &v13, a2);\n  v11 = *(_OWORD *)v10;\n  *(_QWORD *)&v6 = *(_QWORD *)(v10 + 16);\n  *(_OWORD *)a5 = v11;\n  *(_QWORD *)(a5 + 16) = v6;\n  return a5;\n}\n"
+ },
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_2DF",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_2DF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E73F0(\n        __int64 (__fastcall *a1)(__int64, __int64, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  __int64 v4; // rax\n  __int128 v5; // xmm1\n  __int64 v6; // xmm0_8\n  _OWORD v8[2]; // [rsp+20h] [rbp-38h] BYREF\n  __int64 v9; // [rsp+40h] [rbp-18h]\n\n  v4 = *(_QWORD *)(a4 + 8);\n  v5 = *(_OWORD *)(v4 + 16);\n  v8[0] = *(_OWORD *)v4;\n  v6 = *(_QWORD *)(v4 + 32);\n  v8[1] = v5;\n  v9 = v6;\n  return a1(a3, a2, v8, a2);\n}\n"
+ },
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_338",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_338",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E6DD0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _BYTE *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  __int128 *v4; // r10\n  _BYTE *v5; // rax\n  __int64 v6; // r11\n  __int128 v7; // xmm0\n  __int128 v8; // xmm1\n  __int128 v9; // xmm0\n  __int128 v10; // xmm1\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm1\n  _BYTE v16[384]; // [rsp+20h] [rbp-188h] BYREF\n\n  v4 = (__int128 *)a4[1];\n  v5 = v16;\n  v6 = 3;\n  do\n  {\n    v5 += 128;\n    v7 = *v4;\n    v8 = v4[1];\n    v4 += 8;\n    *((_OWORD *)v5 - 8) = v7;\n    v9 = *(v4 - 6);\n    *((_OWORD *)v5 - 7) = v8;\n    v10 = *(v4 - 5);\n    *((_OWORD *)v5 - 6) = v9;\n    v11 = *(v4 - 4);\n    *((_OWORD *)v5 - 5) = v10;\n    v12 = *(v4 - 3);\n    *((_OWORD *)v5 - 4) = v11;\n    v13 = *(v4 - 2);\n    *((_OWORD *)v5 - 3) = v12;\n    v14 = *(v4 - 1);\n    *((_OWORD *)v5 - 2) = v13;\n    *((_OWORD *)v5 - 1) = v14;\n    --v6;\n  }\n  while ( v6 );\n  return a1(a3, *a4, v16, a2);\n}\n"
+ },
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_34E",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_34E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E6290(\n        __int64 (__fastcall *a1)(__int64, __int64, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4)\n{\n  unsigned int *v6; // rax\n  __int64 v7; // rdx\n  __int128 v8; // xmm1\n  __int128 v9; // xmm0\n  __int128 v10; // xmm1\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm1\n  __int128 v15; // xmm0\n  _OWORD v17[10]; // [rsp+20h] [rbp-A8h] BYREF\n\n  v6 = a4[1];\n  v7 = **a4;\n  v8 = *((_OWORD *)v6 + 1);\n  v17[0] = *(_OWORD *)v6;\n  v9 = *((_OWORD *)v6 + 2);\n  v17[1] = v8;\n  v10 = *((_OWORD *)v6 + 3);\n  v17[2] = v9;\n  v11 = *((_OWORD *)v6 + 4);\n  v17[3] = v10;\n  v12 = *((_OWORD *)v6 + 5);\n  v17[4] = v11;\n  v13 = *((_OWORD *)v6 + 6);\n  v17[5] = v12;\n  v14 = *((_OWORD *)v6 + 8);\n  v17[6] = v13;\n  v17[7] = *((_OWORD *)v6 + 7);\n  v15 = *((_OWORD *)v6 + 9);\n  v17[8] = v14;\n  v17[9] = v15;\n  return a1(a3, v7, v17, a2);\n}\n"
+ },
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_3AF",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_3AF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E8350(\n        __int64 (__fastcall *a1)(__int64, _OWORD *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned __int16 **a4)\n{\n  unsigned __int16 *v4; // rax\n  __int128 v6; // xmm1\n  __int64 v7; // r8\n  __int128 v8; // xmm0\n  __int128 v9; // xmm1\n  __int128 v10; // xmm0\n  __int128 v11; // xmm1\n  __int128 v12; // xmm0\n  __int128 v13; // xmm0\n  __int128 v14; // xmm0\n  __int128 v15; // xmm1\n  __int128 v16; // xmm0\n  __int128 v17; // xmm1\n  __int128 v18; // xmm0\n  __int128 v19; // xmm1\n  __int64 v20; // rax\n  _OWORD v22[15]; // [rsp+20h] [rbp-108h] BYREF\n  __int64 v23; // [rsp+110h] [rbp-18h]\n\n  v4 = *a4;\n  v6 = *((_OWORD *)*a4 + 1);\n  v7 = *a4[1];\n  v22[0] = *(_OWORD *)*a4;\n  v8 = *((_OWORD *)v4 + 2);\n  v22[1] = v6;\n  v9 = *((_OWORD *)v4 + 3);\n  v22[2] = v8;\n  v10 = *((_OWORD *)v4 + 4);\n  v22[3] = v9;\n  v11 = *((_OWORD *)v4 + 5);\n  v22[4] = v10;\n  v12 = *((_OWORD *)v4 + 6);\n  v22[5] = v11;\n  v22[6] = v12;\n  v13 = *((_OWORD *)v4 + 7);\n  v4 += 64;\n  v22[7] = v13;\n  v14 = *((_OWORD *)v4 + 1);\n  v22[8] = *(_OWORD *)v4;\n  v15 = *((_OWORD *)v4 + 2);\n  v22[9] = v14;\n  v16 = *((_OWORD *)v4 + 3);\n  v22[10] = v15;\n  v17 = *((_OWORD *)v4 + 4);\n  v22[11] = v16;\n  v18 = *((_OWORD *)v4 + 5);\n  v22[12] = v17;\n  v19 = *((_OWORD *)v4 + 6);\n  v20 = *((_QWORD *)v4 + 14);\n  v22[13] = v18;\n  v22[14] = v19;\n  v23 = v20;\n  return a1(a3, v22, v7, a2);\n}\n"
+ },
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_52F",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_52F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E7FA0(\n        __int64 (__fastcall *a1)(__int64, _OWORD *, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  __int64 v8; // rcx\n  __int64 v9; // rax\n  unsigned __int64 v10; // rdx\n  __int64 v11; // rcx\n  unsigned __int64 v12; // rcx\n  void *v13; // rsp\n  void *v14; // rsp\n  _OWORD *v15; // rbx\n  _OWORD v17[2]; // [rsp+20h] [rbp+0h] BYREF\n\n  v8 = **(_QWORD **)(a2 + 48);\n  if ( *(int *)(v8 + 8) >= 0 )\n  {\n    v15 = (_OWORD *)*a4;\n  }\n  else\n  {\n    v9 = sub_180A844A0((_QWORD *)v8);\n    if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n      v9 = sub_180A4EBA0(v9);\n    v10 = *(unsigned int *)(v9 + 252);\n    v11 = v10 + 15;\n    if ( v10 + 15 < v10 )\n      v11 = 0xFFFFFFFFFFFFFF0LL;\n    v12 = v11 & 0xFFFFFFFFFFFFFFF0uLL;\n    v13 = alloca(v12);\n    v14 = alloca(v12);\n    v15 = v17;\n    sub_180B276D0(v17, *a4, v10);\n  }\n  v17[0] = *(_OWORD *)a4[1];\n  return a1(a3, v15, v17, a2);\n}\n"
+ },
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_735",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_735",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E72B0(\n        __int64 (__fastcall *a1)(__int64, _OWORD *, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _OWORD **a4)\n{\n  _OWORD *v4; // rax\n  _OWORD *v7; // r8\n  __int128 v8; // xmm1\n  __int128 v9; // xmm0\n  _OWORD v11[3]; // [rsp+20h] [rbp-48h] BYREF\n  int v12; // [rsp+50h] [rbp-18h]\n\n  v4 = *a4;\n  v7 = a4[1];\n  v8 = (*a4)[1];\n  v11[0] = **a4;\n  v9 = v4[2];\n  LODWORD(v4) = *((_DWORD *)v4 + 12);\n  v11[1] = v8;\n  v11[2] = v9;\n  v12 = (int)v4;\n  return a1(a3, v11, v7, a2);\n}\n"
+ },
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_811",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_811",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E8270(\n        __int64 (__fastcall *a1)(__int64, _OWORD *, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _OWORD **a4)\n{\n  _OWORD *v4; // rax\n  _OWORD *v7; // r8\n  __int128 v8; // xmm1\n  __int128 v9; // xmm0\n  __int128 v10; // xmm1\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm0\n  __int128 v15; // xmm0\n  __int128 v16; // xmm1\n  __int128 v17; // xmm0\n  __int128 v18; // xmm1\n  __int128 v19; // xmm0\n  __int128 v20; // xmm1\n  __int64 v21; // rax\n  _OWORD v23[15]; // [rsp+20h] [rbp-108h] BYREF\n  __int64 v24; // [rsp+110h] [rbp-18h]\n\n  v4 = *a4;\n  v7 = a4[1];\n  v8 = (*a4)[1];\n  v23[0] = **a4;\n  v9 = v4[2];\n  v23[1] = v8;\n  v10 = v4[3];\n  v23[2] = v9;\n  v11 = v4[4];\n  v23[3] = v10;\n  v12 = v4[5];\n  v23[4] = v11;\n  v13 = v4[6];\n  v23[5] = v12;\n  v23[6] = v13;\n  v14 = v4[7];\n  v4 += 8;\n  v23[7] = v14;\n  v15 = v4[1];\n  v23[8] = *v4;\n  v16 = v4[2];\n  v23[9] = v15;\n  v17 = v4[3];\n  v23[10] = v16;\n  v18 = v4[4];\n  v23[11] = v17;\n  v19 = v4[5];\n  v23[12] = v18;\n  v20 = v4[6];\n  v21 = *((_QWORD *)v4 + 14);\n  v23[13] = v19;\n  v23[14] = v20;\n  v24 = v21;\n  return a1(a3, v23, v7, a2);\n}\n"
+ },
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_837",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_837",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E8070(\n        __int64 (__fastcall *a1)(__int64, _BYTE *, _BYTE *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  __int64 v8; // rcx\n  __int64 v9; // rax\n  unsigned __int64 v10; // rdx\n  __int64 v11; // rcx\n  unsigned __int64 v12; // rcx\n  void *v13; // rsp\n  void *v14; // rsp\n  _BYTE *v15; // rsi\n  __int64 v16; // rcx\n  __int64 v17; // rax\n  unsigned __int64 v18; // rdx\n  __int64 v19; // rcx\n  unsigned __int64 v20; // rcx\n  void *v21; // rsp\n  void *v22; // rsp\n  _BYTE *v23; // rbx\n  _BYTE v25[16]; // [rsp+20h] [rbp+0h] BYREF\n\n  v8 = **(_QWORD **)(a2 + 48);\n  if ( *(int *)(v8 + 8) >= 0 )\n  {\n    v15 = (_BYTE *)*a4;\n  }\n  else\n  {\n    v9 = sub_180A844A0((_QWORD *)v8);\n    if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n      v9 = sub_180A4EBA0(v9);\n    v10 = *(unsigned int *)(v9 + 252);\n    v11 = v10 + 15;\n    if ( v10 + 15 < v10 )\n      v11 = 0xFFFFFFFFFFFFFF0LL;\n    v12 = v11 & 0xFFFFFFFFFFFFFFF0uLL;\n    v13 = alloca(v12);\n    v14 = alloca(v12);\n    v15 = v25;\n    sub_180B276D0(v25, *a4, v10);\n  }\n  v16 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 8LL);\n  if ( *(int *)(v16 + 8) >= 0 )\n  {\n    v23 = (_BYTE *)a4[1];\n  }\n  else\n  {\n    v17 = sub_180A844A0((_QWORD *)v16);\n    if ( (*(_BYTE *)(v17 + 309) & 1) == 0 )\n      v17 = sub_180A4EBA0(v17);\n    v18 = *(unsigned int *)(v17 + 252);\n    v19 = v18 + 15;\n    if ( v18 + 15 < v18 )\n      v19 = 0xFFFFFFFFFFFFFF0LL;\n    v20 = v19 & 0xFFFFFFFFFFFFFFF0uLL;\n    v21 = alloca(v20);\n    v22 = alloca(v20);\n    v23 = v25;\n    sub_180B276D0(v25, a4[1], v18);\n  }\n  return a1(a3, v15, v23, a2);\n}\n"
+ },
+ {
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "class_obf": "ÏÎÍÎÌÌÍÎÎÎÏÍÏÍÍÌÌÌÎÍÏÍÎ",
+  "parent": "",
+  "method": "m_A52",
+  "cv_key": "UIMaxContentCountObservableLisSibling_9E98::m_A52",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807E7130(\n        __int64 (__fastcall *a1)(__int64, _BYTE *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4)\n{\n  __int128 *v4; // r10\n  __int128 *v5; // rax\n  __int64 v7; // r11\n  __int128 v8; // xmm0\n  __int128 v9; // xmm1\n  __int128 v10; // xmm0\n  __int128 v11; // xmm1\n  __int128 v12; // xmm0\n  __int128 v13; // xmm1\n  __int128 v14; // xmm0\n  __int128 v15; // xmm1\n  __int128 *v16; // r8\n  __int128 v17; // xmm1\n  _BYTE v19[544]; // [rsp+20h] [rbp-228h] BYREF\n\n  v4 = *a4;\n  v5 = (__int128 *)v19;\n  v7 = 4;\n  do\n  {\n    v5 += 8;\n    v8 = *v4;\n    v9 = v4[1];\n    v4 += 8;\n    *(v5 - 8) = v8;\n    v10 = *(v4 - 6);\n    *(v5 - 7) = v9;\n    v11 = *(v4 - 5);\n    *(v5 - 6) = v10;\n    v12 = *(v4 - 4);\n    *(v5 - 5) = v11;\n    v13 = *(v4 - 3);\n    *(v5 - 4) = v12;\n    v14 = *(v4 - 2);\n    *(v5 - 3) = v13;\n    v15 = *(v4 - 1);\n    *(v5 - 2) = v14;\n    *(v5 - 1) = v15;\n    --v7;\n  }\n  while ( v7 );\n  v16 = a4[1];\n  v17 = v4[1];\n  *v5 = *v4;\n  v5[1] = v17;\n  return a1(a3, v19, (__int64)v16, a2);\n}\n"
+ }
+]

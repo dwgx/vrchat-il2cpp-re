@@ -1,0 +1,5 @@
+{
+ "VRC_MainSibling_C23A::m_ED4": "MarshalFixedByteArrayToNative",
+ "VRC_MainSibling_C23A::m_ED7": "MarshalManagedStructToNative",
+ "VRC_MainSibling_C23A::m_F2A": "MarshalManagedStructToNative"
+}

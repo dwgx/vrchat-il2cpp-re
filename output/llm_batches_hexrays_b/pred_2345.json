@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_BD0B::m_016": "ReadFileDescriptor",
+ "VRCNetworkBehaviourSibling_BF5Sibling_BD0B::m_51F": "ReadTextFileDescriptorNoLock",
+ "VRCNetworkBehaviourSibling_BF5Sibling_BD0B::m_6EA": "GetEnvironmentVariableValue",
+ "VRCNetworkBehaviourSibling_BF5Sibling_BD0B::m_95D": "ReadWideTextFileDescriptorNoLock",
+ "VRCNetworkBehaviourSibling_BF5Sibling_BD0B::m_CF3": "ReadWideTextFileDescriptorNoLock"
+}

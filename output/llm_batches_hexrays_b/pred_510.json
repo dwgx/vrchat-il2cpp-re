@@ -1,0 +1,8 @@
+{
+ "TransformPlayerPrefsHandler_396E::m_D4B": "PollSockets",
+ "TransformPlayerPrefsHandler_396E::m_E87": "TryConvertHostEntry",
+ "TransformPlayerPrefsHandler_396E::m_EAA": "GetNativeStackTrace",
+ "TransformPlayerPrefsHandler_396E::m_EE7": "GetSocketName",
+ "TransformPlayerPrefsHandler_396E::m_F07": "BindSocket",
+ "TransformPlayerPrefsHandler_396E::m_F27": "RevertToSelf"
+}

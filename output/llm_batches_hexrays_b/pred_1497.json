@@ -1,0 +1,10 @@
+{
+ "ComponentGameObjectHandler_FD8F::m_115": "CompareStringAWithLocale",
+ "ComponentGameObjectHandler_FD8F::m_145": "Mbrtoc32",
+ "ComponentGameObjectHandler_FD8F::m_3CD": "CompareWideStringsIgnoreCase",
+ "ComponentGameObjectHandler_FD8F::m_57D": "CompareStringA",
+ "ComponentGameObjectHandler_FD8F::m_70E": "CompareStringA",
+ "ComponentGameObjectHandler_FD8F::m_A57": "SetFloatingPointEnvironment",
+ "ComponentGameObjectHandler_FD8F::m_B3E": "C16rtomb",
+ "ComponentGameObjectHandler_FD8F::m_C5C": "GetStringTypeW"
+}

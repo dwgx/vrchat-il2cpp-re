@@ -1,0 +1,10 @@
+{
+ "TransformPlayerPrefsHandler_396E::m_268": "PollSockets",
+ "TransformPlayerPrefsHandler_396E::m_2F8": "GetHStringRawBuffer",
+ "TransformPlayerPrefsHandler_396E::m_345": "SendSocketBuffers",
+ "TransformPlayerPrefsHandler_396E::m_3B2": "GrowDequeMap",
+ "TransformPlayerPrefsHandler_396E::m_442": "CreateCustomAttributeFormatException",
+ "TransformPlayerPrefsHandler_396E::m_5DE": "ParseCustomAttributeBlob",
+ "TransformPlayerPrefsHandler_396E::m_64C": "ConvertSockaddrToSocketAddress",
+ "TransformPlayerPrefsHandler_396E::m_683": "PtrToStructure"
+}

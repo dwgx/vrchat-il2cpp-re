@@ -1,0 +1,112 @@
+[
+ {
+  "class": "PointerEnterRelatedRelated_640A",
+  "class_obf": "ÏÏÏÍÎÎÌÎÏÌÌÌÎÌÌÎÌÏÌÎÎÍÎ",
+  "parent": "",
+  "method": "m_B35",
+  "cv_key": "PointerEnterRelatedRelated_640A::m_B35",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_QWORD *__fastcall sub_1805F95C0(__int64 a1, __int64 a2)\n{\n  __int64 v4; // rax\n  _QWORD *v5; // rbx\n  __int64 v7; // rax\n  _QWORD *v8; // rbx\n  __int64 v9; // rax\n  signed __int32 v10[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !*(_QWORD *)(a2 + 56) )\n    sub_180A4EC20(a2);\n  if ( !a1 )\n  {\n    v7 = sub_180A8B8B0(&qword_18C8CFD48);\n    v8 = sub_180AAE4D0(v7);\n    v9 = sub_180A8B8B0(&qword_18C89D350);\n    sub_1865C3310(v8, v9, 0);\n    sub_180AAE4E0(v8, a2);\n  }\n  v4 = **(_QWORD **)(a2 + 56);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    v4 = sub_180A4EBA0(**(_QWORD **)(a2 + 56));\n  v5 = sub_180A52230(v4);\n  if ( !byte_18CE304E5 )\n  {\n    sub_180AD1AA0(&qword_18C9056C0);\n    _InterlockedOr(v10, 0);\n    byte_18CE304E5 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n    YloSGiLVOEi_0(qword_18C9056C0);\n  _InterlockedOr(v10, 0);\n  *((_DWORD *)v5 + 14) = 33555456;\n  Context___ctor_0(v5, a1, 0);\n  return v5;\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_640A",
+  "class_obf": "ÏÏÏÍÎÎÌÎÏÌÌÌÎÌÌÎÌÏÌÎÎÍÎ",
+  "parent": "",
+  "method": "m_BC4",
+  "cv_key": "PointerEnterRelatedRelated_640A::m_BC4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_1805F96B0(__int64 a1, __int64 a2, __int64 a3)\n{\n  bool v3; // zf\n  __int128 v5; // xmm1\n  __int128 v6; // xmm0\n  __int128 v7; // xmm1\n  __int128 v8; // xmm1\n  __int64 v9; // rax\n  __int64 *v10; // rax\n  __int64 v11; // rdx\n  __int64 v12; // rcx\n  __int64 v13; // r9\n  __int64 (__fastcall *v14)(__int64 *, _BYTE *, __int128 *, __int64); // r10\n  __int64 v15; // r9\n  __int128 v16; // xmm1\n  __int128 v17; // xmm0\n  __int128 v18; // xmm1\n  __int128 v20; // [rsp+20h] [rbp-29h] BYREF\n  __int128 v21; // [rsp+30h] [rbp-19h]\n  __int128 v22; // [rsp+40h] [rbp-9h]\n  __int128 v23; // [rsp+50h] [rbp+7h]\n  _BYTE v24[64]; // [rsp+60h] [rbp+17h] BYREF\n\n  v3 = *(_QWORD *)a1 == 0;\n  v5 = *(_OWORD *)(a2 + 16);\n  *(_OWORD *)v24 = *(_OWORD *)a2;\n  v6 = *(_OWORD *)(a2 + 32);\n  *(_OWORD *)&v24[16] = v5;\n  v7 = *(_OWORD *)(a2 + 48);\n  *(_OWORD *)&v24[32] = v6;\n  *(_OWORD *)&v24[48] = v7;\n  if ( !v3 )\n    return *(_QWORD *)a1 == *(_QWORD *)a2\n        && *(_WORD *)(a1 + 56) == (unsigned __int16)_mm_extract_epi16(*(__m128i *)(a2 + 48), 4);\n  v3 = *(_QWORD *)a2 == 0;\n  v8 = *(_OWORD *)(a2 + 32);\n  v21 = *(_OWORD *)(a2 + 16);\n  v23 = *(_OWORD *)(a2 + 48);\n  v22 = v8;\n  if ( !v3 )\n    return *(_QWORD *)a1 == *(_QWORD *)a2\n        && *(_WORD *)(a1 + 56) == (unsigned __int16)_mm_extract_epi16(*(__m128i *)(a2 + 48), 4);\n  v9 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n    v9 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v10 = (__int64 *)sub_1838C9290(*(_QWORD *)(*(_QWORD *)(v9 + 192) + 56LL));\n  if ( !v10 )\n    sub_180AAE510(v12, v11);\n  v13 = *v10;\n  v20 = *(_OWORD *)&v24[8];\n  v14 = *(__int64 (__fastcall **)(__int64 *, _BYTE *, __int128 *, __int64))(v13 + 440);\n  v15 = *(_QWORD *)(v13 + 448);\n  v21 = *(_OWORD *)&v24[24];\n  v16 = *(_OWORD *)(a1 + 8);\n  v22 = *(_OWORD *)&v24[40];\n  v17 = *(_OWORD *)(a1 + 24);\n  *(_OWORD *)v24 = v16;\n  v18 = *(_OWORD *)(a1 + 40);\n  *(_OWORD *)&v24[16] = v17;\n  *(_OWORD *)&v24[32] = v18;\n  return v14(v10, v24, &v20, v15);\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_640A",
+  "class_obf": "ÏÏÏÍÎÎÌÎÏÌÌÌÎÌÌÎÌÏÌÎÎÍÎ",
+  "parent": "",
+  "method": "m_F81",
+  "cv_key": "PointerEnterRelatedRelated_640A::m_F81",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_1805F96B0(__int64 a1, __int64 a2, __int64 a3)\n{\n  bool v3; // zf\n  __int128 v5; // xmm1\n  __int128 v6; // xmm0\n  __int128 v7; // xmm1\n  __int128 v8; // xmm1\n  __int64 v9; // rax\n  __int64 *v10; // rax\n  __int64 v11; // rdx\n  __int64 v12; // rcx\n  __int64 v13; // r9\n  __int64 (__fastcall *v14)(__int64 *, _BYTE *, __int128 *, __int64); // r10\n  __int64 v15; // r9\n  __int128 v16; // xmm1\n  __int128 v17; // xmm0\n  __int128 v18; // xmm1\n  __int128 v20; // [rsp+20h] [rbp-29h] BYREF\n  __int128 v21; // [rsp+30h] [rbp-19h]\n  __int128 v22; // [rsp+40h] [rbp-9h]\n  __int128 v23; // [rsp+50h] [rbp+7h]\n  _BYTE v24[64]; // [rsp+60h] [rbp+17h] BYREF\n\n  v3 = *(_QWORD *)a1 == 0;\n  v5 = *(_OWORD *)(a2 + 16);\n  *(_OWORD *)v24 = *(_OWORD *)a2;\n  v6 = *(_OWORD *)(a2 + 32);\n  *(_OWORD *)&v24[16] = v5;\n  v7 = *(_OWORD *)(a2 + 48);\n  *(_OWORD *)&v24[32] = v6;\n  *(_OWORD *)&v24[48] = v7;\n  if ( !v3 )\n    return *(_QWORD *)a1 == *(_QWORD *)a2\n        && *(_WORD *)(a1 + 56) == (unsigned __int16)_mm_extract_epi16(*(__m128i *)(a2 + 48), 4);\n  v3 = *(_QWORD *)a2 == 0;\n  v8 = *(_OWORD *)(a2 + 32);\n  v21 = *(_OWORD *)(a2 + 16);\n  v23 = *(_OWORD *)(a2 + 48);\n  v22 = v8;\n  if ( !v3 )\n    return *(_QWORD *)a1 == *(_QWORD *)a2\n        && *(_WORD *)(a1 + 56) == (unsigned __int16)_mm_extract_epi16(*(__m128i *)(a2 + 48), 4);\n  v9 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n    v9 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v10 = (__int64 *)sub_1838C9290(*(_QWORD *)(*(_QWORD *)(v9 + 192) + 56LL));\n  if ( !v10 )\n    sub_180AAE510(v12, v11);\n  v13 = *v10;\n  v20 = *(_OWORD *)&v24[8];\n  v14 = *(__int64 (__fastcall **)(__int64 *, _BYTE *, __int128 *, __int64))(v13 + 440);\n  v15 = *(_QWORD *)(v13 + 448);\n  v21 = *(_OWORD *)&v24[24];\n  v16 = *(_OWORD *)(a1 + 8);\n  v22 = *(_OWORD *)&v24[40];\n  v17 = *(_OWORD *)(a1 + 24);\n  *(_OWORD *)v24 = v16;\n  v18 = *(_OWORD *)(a1 + 40);\n  *(_OWORD *)&v24[16] = v17;\n  *(_OWORD *)&v24[32] = v18;\n  return v14(v10, v24, &v20, v15);\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_C870",
+  "class_obf": "ÎÌÍÌÎÎÏÌÎÍÎÏÏÍÏÏÌÌÍÍÍÏÍ",
+  "parent": "",
+  "method": "m_024",
+  "cv_key": "PointerEnterRelatedRelated_C870::m_024",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18083C140(\n        __int64 (__fastcall *a1)(__int64 *, __int64 *, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4,\n        _BYTE *a5)\n{\n  __int64 *v5; // rax\n  __int64 v6; // xmm0_8\n  __int64 *v7; // rax\n  __int64 v8; // xmm0_8\n  __int64 result; // rax\n  __int64 v10; // [rsp+20h] [rbp-28h] BYREF\n  int v11; // [rsp+28h] [rbp-20h]\n  __int64 v12; // [rsp+30h] [rbp-18h] BYREF\n  int v13; // [rsp+38h] [rbp-10h]\n\n  v5 = a4[1];\n  v6 = *v5;\n  v11 = *((_DWORD *)v5 + 2);\n  v7 = *a4;\n  v10 = v6;\n  v8 = *v7;\n  v13 = *((_DWORD *)v7 + 2);\n  v12 = v8;\n  result = a1(&v12, &v10, a1, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_C870",
+  "class_obf": "ÎÌÍÌÎÎÏÌÎÍÎÏÏÍÏÏÌÌÍÍÍÏÍ",
+  "parent": "",
+  "method": "m_249",
+  "cv_key": "PointerEnterRelatedRelated_C870::m_249",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18083C3A0(\n        __int64 (__fastcall *a1)(char *, char *, char *, __int64),\n        __int64 a2,\n        __int64 a3,\n        char **a4,\n        _BYTE *a5)\n{\n  __int64 v8; // rcx\n  __int64 v9; // rax\n  unsigned __int64 v10; // rdx\n  __int64 v11; // rcx\n  unsigned __int64 v12; // rcx\n  void *v13; // rsp\n  void *v14; // rsp\n  char *v15; // rdi\n  __int64 result; // rax\n  char vars0; // [rsp+20h] [rbp+0h] BYREF\n\n  v8 = **(_QWORD **)(a2 + 48);\n  if ( *(int *)(v8 + 8) >= 0 )\n  {\n    v15 = *a4;\n  }\n  else\n  {\n    v9 = sub_180A844A0((_QWORD *)v8);\n    if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n      v9 = sub_180A4EBA0(v9);\n    v10 = *(unsigned int *)(v9 + 252);\n    v11 = v10 + 15;\n    if ( v10 + 15 < v10 )\n      v11 = 0xFFFFFFFFFFFFFF0LL;\n    v12 = v11 & 0xFFFFFFFFFFFFFFF0uLL;\n    v13 = alloca(v12);\n    v14 = alloca(v12);\n    v15 = &vars0;\n    sub_180B276D0(&vars0, *a4, v10);\n  }\n  result = a1(v15, a4[1], a4[2], a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_C870",
+  "class_obf": "ÎÌÍÌÎÎÏÌÎÍÎÏÏÍÏÏÌÌÍÍÍÏÍ",
+  "parent": "",
+  "method": "m_3CB",
+  "cv_key": "PointerEnterRelatedRelated_C870::m_3CB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18083BCD0(\n        __int64 (__fastcall *a1)(_QWORD, __int128 *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        _BYTE *a5)\n{\n  __int128 *v5; // rax\n  __int64 v6; // r8\n  __int64 v7; // xmm1_8\n  __int64 result; // rax\n  __int128 v9; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v10; // [rsp+30h] [rbp-18h]\n\n  v5 = *(__int128 **)(a4 + 8);\n  v6 = *(_QWORD *)(a4 + 16);\n  v7 = *((_QWORD *)v5 + 2);\n  v9 = *v5;\n  v10 = v7;\n  result = a1(a1, &v9, v6, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_C870",
+  "class_obf": "ÎÌÍÌÎÎÏÌÎÍÎÏÏÍÏÏÌÌÍÍÍÏÍ",
+  "parent": "",
+  "method": "m_55C",
+  "cv_key": "PointerEnterRelatedRelated_C870::m_55C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18083BB10(\n        __int64 (__fastcall *a1)(__int128 *, __int128 *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4,\n        _BYTE *a5)\n{\n  __int128 *v5; // rax\n  __int128 *v6; // r8\n  __int128 v7; // xmm0\n  __int64 v8; // xmm1_8\n  __int128 *v9; // rax\n  __int64 v10; // xmm1_8\n  __int64 result; // rax\n  __int128 v12; // [rsp+20h] [rbp-48h] BYREF\n  __int64 v13; // [rsp+30h] [rbp-38h]\n  __int128 v14; // [rsp+40h] [rbp-28h] BYREF\n  __int64 v15; // [rsp+50h] [rbp-18h]\n\n  v5 = a4[1];\n  v6 = a4[2];\n  v7 = *v5;\n  v8 = *((_QWORD *)v5 + 2);\n  v9 = *a4;\n  v12 = v7;\n  v13 = v8;\n  v10 = *((_QWORD *)v9 + 2);\n  v14 = *v9;\n  v15 = v10;\n  result = a1(&v14, &v12, (__int64)v6, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_C870",
+  "class_obf": "ÎÌÍÌÎÎÏÌÎÍÎÏÏÍÏÏÌÌÍÍÍÏÍ",
+  "parent": "",
+  "method": "m_7E8",
+  "cv_key": "PointerEnterRelatedRelated_C870::m_7E8",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18083C030(\n        __int64 (__fastcall *a1)(__int64 *, __int64 *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4,\n        _BYTE *a5)\n{\n  __int64 *v5; // rax\n  __int64 *v6; // r8\n  __int64 v7; // xmm0_8\n  __int64 *v8; // rax\n  __int64 v9; // xmm0_8\n  __int64 result; // rax\n  __int64 v11; // [rsp+20h] [rbp-28h] BYREF\n  int v12; // [rsp+28h] [rbp-20h]\n  __int64 v13; // [rsp+30h] [rbp-18h] BYREF\n  int v14; // [rsp+38h] [rbp-10h]\n\n  v5 = a4[1];\n  v6 = a4[2];\n  v7 = *v5;\n  v12 = *((_DWORD *)v5 + 2);\n  v8 = *a4;\n  v11 = v7;\n  v9 = *v8;\n  LODWORD(v8) = *((_DWORD *)v8 + 2);\n  v13 = v9;\n  v14 = (int)v8;\n  result = a1(&v13, &v11, (__int64)v6, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_C870",
+  "class_obf": "ÎÌÍÌÎÎÏÌÎÍÎÏÏÍÏÏÌÌÍÍÍÏÍ",
+  "parent": "",
+  "method": "m_807",
+  "cv_key": "PointerEnterRelatedRelated_C870::m_807",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18083B840(\n        __int64 (__fastcall *a1)(_QWORD, char *, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        _BYTE *a5)\n{\n  __int64 v8; // rcx\n  __int64 v9; // rax\n  unsigned __int64 v10; // rdx\n  __int64 v11; // rcx\n  unsigned __int64 v12; // rcx\n  void *v13; // rsp\n  void *v14; // rsp\n  char *v15; // rdi\n  __int64 result; // rax\n  char vars0; // [rsp+20h] [rbp+0h] BYREF\n\n  v8 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 8LL);\n  if ( *(int *)(v8 + 8) >= 0 )\n  {\n    v15 = *(char **)(a4 + 8);\n  }\n  else\n  {\n    v9 = sub_180A844A0((_QWORD *)v8);\n    if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n      v9 = sub_180A4EBA0(v9);\n    v10 = *(unsigned int *)(v9 + 252);\n    v11 = v10 + 15;\n    if ( v10 + 15 < v10 )\n      v11 = 0xFFFFFFFFFFFFFF0LL;\n    v12 = v11 & 0xFFFFFFFFFFFFFFF0uLL;\n    v13 = alloca(v12);\n    v14 = alloca(v12);\n    v15 = &vars0;\n    sub_180B276D0(&vars0, *(_QWORD *)(a4 + 8), v10);\n  }\n  result = a1(*(_QWORD *)a4, v15, **(unsigned __int8 **)(a4 + 16), a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_C870",
+  "class_obf": "ÎÌÍÌÎÎÏÌÎÍÎÏÏÍÏÏÌÌÍÍÍÏÍ",
+  "parent": "",
+  "method": "m_9B6",
+  "cv_key": "PointerEnterRelatedRelated_C870::m_9B6",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18083C6E0(\n        __int64 (__fastcall *a1)(__int128 *, __int128 *, __int128 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4,\n        _BYTE *a5)\n{\n  __int128 *v5; // rax\n  __int128 v6; // xmm0\n  __int64 v7; // xmm1_8\n  __int128 *v8; // rax\n  __int128 v9; // xmm0\n  __int64 v10; // xmm1_8\n  __int128 *v11; // rax\n  __int128 v12; // xmm0\n  __int64 v13; // xmm1_8\n  __int64 result; // rax\n  __int128 v15; // [rsp+20h] [rbp-68h] BYREF\n  __int64 v16; // [rsp+30h] [rbp-58h]\n  int v17; // [rsp+38h] [rbp-50h]\n  __int128 v18; // [rsp+40h] [rbp-48h] BYREF\n  __int64 v19; // [rsp+50h] [rbp-38h]\n  int v20; // [rsp+58h] [rbp-30h]\n  __int128 v21; // [rsp+60h] [rbp-28h] BYREF\n  __int64 v22; // [rsp+70h] [rbp-18h]\n  int v23; // [rsp+78h] [rbp-10h]\n\n  v5 = a4[2];\n  v6 = *v5;\n  v7 = *((_QWORD *)v5 + 2);\n  v17 = *((_DWORD *)v5 + 6);\n  v8 = a4[1];\n  v15 = v6;\n  v16 = v7;\n  v9 = *v8;\n  v10 = *((_QWORD *)v8 + 2);\n  v20 = *((_DWORD *)v8 + 6);\n  v11 = *a4;\n  v18 = v9;\n  v19 = v10;\n  v12 = *v11;\n  v13 = *((_QWORD *)v11 + 2);\n  LODWORD(v11) = *((_DWORD *)v11 + 6);\n  v21 = v12;\n  v22 = v13;\n  v23 = (int)v11;\n  result = a1(&v21, &v18, &v15, a2);\n  *a5 = result;\n  return result;\n}\n"
+ }
+]

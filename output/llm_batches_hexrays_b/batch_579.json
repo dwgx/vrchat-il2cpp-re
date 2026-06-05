@@ -1,0 +1,112 @@
+[
+ {
+  "class": "TransformMeshHandler_D007",
+  "class_obf": "ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ",
+  "parent": "",
+  "method": "m_9E1",
+  "cv_key": "TransformMeshHandler_D007::m_9E1",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180B1490C(int a1)\n{\n  __int64 v1; // rdx\n  int *v3; // [rsp+20h] [rbp-18h] BYREF\n  int v4; // [rsp+40h] [rbp+8h] BYREF\n  char v5; // [rsp+48h] [rbp+10h] BYREF\n  int v6; // [rsp+50h] [rbp+18h] BYREF\n  unsigned int v7; // [rsp+58h] [rbp+20h] BYREF\n\n  v4 = a1;\n  v1 = a1;\n  if ( a1 == -2 )\n  {\n    *(_DWORD *)sub_180AFC848(-2) = 9;\n  }\n  else\n  {\n    if ( a1 >= 0 && a1 < (unsigned int)dword_18CE1B4E0 )\n    {\n      a1 = 9 * (a1 & 0x3F);\n      if ( (*(_BYTE *)(qword_18CE1B0E0[v1 >> 6] + 72 * (v1 & 0x3F) + 56) & 1) != 0 )\n      {\n        v6 = v1;\n        v7 = v1;\n        v3 = &v4;\n        return sub_180B14880((__int64)&v5, &v7, &v3, &v6);\n      }\n    }\n    *(_DWORD *)sub_180AFC848(a1) = 9;\n    invalid_parameter_noinfo();\n  }\n  return 0xFFFFFFFFLL;\n}\n"
+ },
+ {
+  "class": "TransformMeshHandler_D007",
+  "class_obf": "ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ",
+  "parent": "",
+  "method": "m_B64",
+  "cv_key": "TransformMeshHandler_D007::m_B64",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_180B14640(char a1, __int64 a2, __int64 a3)\n{\n  unsigned int v5; // eax\n  int v6; // ebp\n  __int64 v7; // rdx\n  int v8; // edi\n  bool v9; // zf\n  __int64 *v10; // rdx\n  char v12; // [rsp+30h] [rbp+8h] BYREF\n\n  v12 = a1;\n  v5 = sub_180B10504(a2);\n  if ( (*(_DWORD *)(a2 + 20) & 0xC0) == 0 )\n    return (unsigned int)sub_180B0507C(v5, &v12, 1, a3) == 1;\n  v6 = 0;\n  v7 = *(_QWORD *)(a2 + 8);\n  v8 = *(_DWORD *)a2 - *(_DWORD *)(a2 + 8);\n  *(_QWORD *)a2 = v7 + 1;\n  *(_DWORD *)(a2 + 16) = *(_DWORD *)(a2 + 32) - 1;\n  if ( v8 <= 0 )\n  {\n    if ( v5 + 2 <= 1 )\n      v10 = qword_18C527710;\n    else\n      v10 = (__int64 *)(qword_18CE1B0E0[(__int64)(int)v5 >> 6] + 72LL * (v5 & 0x3F));\n    if ( (v10[7] & 0x20) != 0 && sub_180B05670(v5, 0, 2) == -1 )\n    {\n      _InterlockedOr((volatile signed __int32 *)(a2 + 20), 0x10u);\n      return 1;\n    }\n  }\n  else\n  {\n    v6 = sub_180B0507C(v5, v7, (unsigned int)v8, a3);\n  }\n  v9 = v6 == v8;\n  **(_BYTE **)(a2 + 8) = v12;\n  return v9;\n}\n"
+ },
+ {
+  "class": "TransformMeshHandler_D007",
+  "class_obf": "ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ",
+  "parent": "",
+  "method": "m_BEA",
+  "cv_key": "TransformMeshHandler_D007::m_BEA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180B15104(_BYTE *a1, _BYTE *a2, char a3)\n{\n  _BYTE *v3; // r9\n  __int64 v4; // r8\n  __int64 v5; // rax\n  __int64 v7; // r8\n  __int64 v8; // rcx\n\n  v3 = a1;\n  if ( (unsigned __int8)(a3 - 1) > 1u )\n  {\n    v7 = 0;\n    if ( a1 != a2 )\n    {\n      do\n      {\n        v8 = v7 + 1;\n        if ( *v3 != 10 )\n          v8 = v7;\n        ++v3;\n        v7 = v8;\n      }\n      while ( v3 != a2 );\n    }\n    return v7;\n  }\n  else\n  {\n    v4 = 0;\n    if ( a1 != a2 )\n    {\n      do\n      {\n        v5 = v4 + 1;\n        if ( *(_WORD *)v3 != 10 )\n          v5 = v4;\n        v3 += 2;\n        v4 = v5;\n      }\n      while ( v3 != a2 );\n    }\n    return 2 * v4;\n  }\n}\n"
+ },
+ {
+  "class": "TransformMeshHandler_D007",
+  "class_obf": "ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ",
+  "parent": "",
+  "method": "m_D9D",
+  "cv_key": "TransformMeshHandler_D007::m_D9D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180B1515C(__int64 a1)\n{\n  __int64 v1; // rdi\n  int v2; // ebx\n  int v3; // ebx\n  _QWORD v5[2]; // [rsp+20h] [rbp-40h] BYREF\n  char v6; // [rsp+30h] [rbp-30h]\n  __int128 v7; // [rsp+38h] [rbp-28h]\n  char v8; // [rsp+48h] [rbp-18h]\n  int v9; // [rsp+4Ch] [rbp-14h]\n  char v10; // [rsp+50h] [rbp-10h]\n  int v11; // [rsp+54h] [rbp-Ch]\n  char v12; // [rsp+58h] [rbp-8h]\n\n  v5[0] = 0;\n  v6 = 0;\n  v8 = 0;\n  v10 = 0;\n  v12 = 0;\n  if ( !dword_18CE1AB5C )\n  {\n    v8 = 1;\n    v7 = *(_OWORD *)&off_18C5276F8;\n  }\n  v1 = sub_180B14C68(a1, v5);\n  if ( v8 == 2 )\n    *(_DWORD *)(v5[0] + 936LL) &= ~2u;\n  if ( v10 )\n  {\n    v2 = v9;\n    *(_DWORD *)(sub_180AFEC40(v5) + 32) = v2;\n  }\n  if ( v12 )\n  {\n    v3 = v11;\n    *(_DWORD *)(sub_180AFEC40(v5) + 36) = v3;\n  }\n  return v1;\n}\n"
+ },
+ {
+  "class": "TransformMeshHandler_D007",
+  "class_obf": "ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ",
+  "parent": "",
+  "method": "m_DA8",
+  "cv_key": "TransformMeshHandler_D007::m_DA8",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180B143C4(uintptr_t a1)\n{\n  unsigned int v1; // ebx\n  _QWORD *v2; // r15\n  char v3; // r14\n  __int64 v4; // rdx\n  __int64 v5; // rdx\n  __int64 *v6; // rdi\n  _QWORD *v7; // rax\n  __int64 v9; // rax\n  __int64 v10; // r13\n  __int64 v11; // rsi\n  int v12; // r12d\n  __int64 v13; // rcx\n  __int64 v14; // rax\n  __int64 v15; // rcx\n  int v16; // [rsp+78h] [rbp+10h]\n\n  v1 = a1;\n  v2 = 0;\n  v16 = 0;\n  v3 = 1;\n  v4 = (unsigned int)(a1 - 2);\n  if ( (_DWORD)a1 != 2 )\n  {\n    v5 = (unsigned int)(a1 - 4);\n    if ( (_DWORD)a1 == 4 )\n      goto LABEL_14;\n    v4 = (unsigned int)(a1 - 6);\n    if ( (_DWORD)a1 == 6 )\n      goto LABEL_8;\n    v5 = (unsigned int)(a1 - 8);\n    if ( (_DWORD)a1 == 8 || (v5 = (unsigned int)(a1 - 11), (_DWORD)a1 == 11) )\n    {\nLABEL_14:\n      v7 = (_QWORD *)sub_180B0E674(a1, v5);\n      v2 = v7;\n      if ( !v7 )\n        return 0xFFFFFFFFLL;\n      v9 = *v7;\n      a1 = v9 + 192;\n      while ( v9 != a1 )\n      {\n        if ( *(_DWORD *)(v9 + 4) == v1 )\n          goto LABEL_21;\n        v9 += 16;\n      }\n      v9 = 0;\nLABEL_21:\n      if ( v9 )\n      {\n        v6 = (__int64 *)(v9 + 8);\n        v3 = 0;\n        goto LABEL_28;\n      }\n    }\n    else\n    {\n      v4 = (unsigned int)(a1 - 15);\n      if ( (_DWORD)a1 == 15 )\n        goto LABEL_8;\n      v4 = (unsigned int)(a1 - 21);\n      if ( (unsigned int)v4 <= 1 )\n        goto LABEL_8;\n    }\n    *(_DWORD *)sub_180AFC848(a1) = 22;\n    invalid_parameter_noinfo();\n    return 0xFFFFFFFFLL;\n  }\nLABEL_8:\n  a1 = (unsigned int)(a1 - 2);\n  if ( (_DWORD)a1 )\n  {\n    a1 = (unsigned int)(a1 - 4);\n    if ( !(_DWORD)a1 )\n    {\nLABEL_24:\n      v6 = &qword_18CE1B4F8;\n      goto LABEL_28;\n    }\n    a1 = (unsigned int)(a1 - 9);\n    if ( (_DWORD)a1 )\n    {\n      a1 = (unsigned int)(a1 - 6);\n      if ( (_DWORD)a1 )\n      {\n        if ( (_DWORD)a1 != 1 )\n        {\n          v6 = 0;\n          goto LABEL_28;\n        }\n        goto LABEL_24;\n      }\n      v6 = &qword_18CE1B4F0;\n    }\n    else\n    {\n      v6 = &qword_18CE1B500;\n    }\n  }\n  else\n  {\n    v6 = &qword_18CE1B4E8;\n  }\nLABEL_28:\n  v10 = 0;\n  if ( v3 )\n    sub_180B0C2DC(3);\n  v11 = *v6;\n  if ( v3 )\n  {\n    a1 = _security_cookie & 0x3F;\n    v11 = __ROR8__(_security_cookie ^ v11, a1);\n  }\n  if ( v11 == 1 )\n  {\n    v12 = 2320;\n    goto LABEL_44;\n  }\n  if ( !v11 )\n  {\n    if ( v3 )\n      sub_180B0C330(3);\n    sub_180AFC754(3, v4);\n    __debugbreak();\n    JUMPOUT(0x180B1463DLL);\n  }\n  v12 = 2320;\n  if ( v1 > 0xB || !_bittest(&v12, v1) )\n    goto LABEL_38;\n  v10 = v2[1];\n  v2[1] = 0;\n  if ( v1 == 8 )\n  {\n    v16 = *(_DWORD *)(sub_180B0E4FC(a1) + 16);\n    *(_DWORD *)(sub_180B0E4FC(v13) + 16) = 140;\nLABEL_38:\n    if ( v1 == 8 )\n    {\n      v14 = *v2 + 48LL;\n      a1 = *v2 + 192LL;\n      while ( v14 != a1 )\n      {\n        *(_QWORD *)(v14 + 8) = 0;\n        v14 += 16;\n      }\n      goto LABEL_44;\n    }\n  }\n  *v6 = _security_cookie;\nLABEL_44:\n  if ( v3 )\n    sub_180B0C330(3);\n  if ( v11 != 1 )\n  {\n    if ( v1 == 8 )\n      sub_180B0E4FC(a1);\n    _guard_xfg_dispatch_icall_fptr();\n    if ( v1 <= 0xB && _bittest(&v12, v1) )\n    {\n      v2[1] = v10;\n      if ( v1 == 8 )\n        *(_DWORD *)(sub_180B0E4FC(v15) + 16) = v16;\n    }\n  }\n  return 0;\n}\n"
+ },
+ {
+  "class": "TransformMeshHandler_D007",
+  "class_obf": "ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ",
+  "parent": "",
+  "method": "m_DBB",
+  "cv_key": "TransformMeshHandler_D007::m_DBB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180B14F80(__int64 a1, __int64 a2, __int64 a3)\n{\n  unsigned int v6; // eax\n  __int64 v7; // rdi\n  unsigned int v8; // r14d\n  __int64 v10; // kr00_8\n  __int64 v11; // rbx\n  __int64 v12; // rsi\n  __int64 v13; // r13\n  __int64 v14; // rcx\n  unsigned __int8 *v15; // rdx\n  unsigned __int8 *v16; // rcx\n  DWORD NumberOfBytesRead; // [rsp+30h] [rbp-1058h] BYREF\n  _BYTE Buffer[4096]; // [rsp+40h] [rbp-1048h] BYREF\n\n  v6 = sub_180B10504(a1);\n  v7 = 0;\n  v8 = v6;\n  if ( !*(_DWORD *)(a1 + 16) )\n    return a2;\n  v10 = *(_QWORD *)a1 - *(_QWORD *)(a1 + 8);\n  v11 = (__int64)(int)v6 >> 6;\n  v12 = v10 / 2;\n  v13 = sub_180B0570C(v6, *(_QWORD *)(qword_18CE1B0E0[v11] + 72LL * (v6 & 0x3F) + 48), 0, a3);\n  v14 = qword_18CE1B0E0[v11];\n  if ( v13 != *(_QWORD *)(v14 + 72LL * (v8 & 0x3F) + 48)\n    || !ReadFile(*(HANDLE *)(v14 + 72LL * (v8 & 0x3F) + 40), Buffer, 0x1000u, &NumberOfBytesRead, 0)\n    || sub_180B0570C(v8, a2, 0, a3) < 0\n    || v12 > NumberOfBytesRead )\n  {\n    return -1;\n  }\n  v15 = &Buffer[NumberOfBytesRead];\n  v16 = Buffer;\n  if ( v12 )\n  {\n    do\n    {\n      if ( v16 >= v15 )\n        break;\n      if ( *v16 == 13 )\n      {\n        if ( v16 < v15 - 1 && v16[1] == 10 )\n          ++v16;\n      }\n      else\n      {\n        v16 += *((char *)&qword_18C5272A8[1] + *v16);\n      }\n      ++v7;\n      ++v16;\n    }\n    while ( v7 != v12 );\n  }\n  return v16 - Buffer + v13;\n}\n"
+ },
+ {
+  "class": "TransformMeshHandler_D007",
+  "class_obf": "ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ",
+  "parent": "",
+  "method": "m_DE2",
+  "cv_key": "TransformMeshHandler_D007::m_DE2",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180B156C0(ULONG_PTR a1, _QWORD *a2, char a3, __int16 a4, _DWORD *a5, _DWORD *a6, int a7)\n{\n  DWORD v9; // edi\n  char v10; // al\n  __int64 v11; // rax\n  _DWORD *v12; // rsi\n  ULONG_PTR v13; // rcx\n  __int64 result; // rax\n  ULONG_PTR Arguments; // [rsp+30h] [rbp+10h] BYREF\n\n  Arguments = a1;\n  v9 = -1073741811;\n  *(_DWORD *)(a1 + 4) = 0;\n  *(_DWORD *)(Arguments + 8) = 0;\n  *(_DWORD *)(Arguments + 12) = 0;\n  if ( (a3 & 0x10) != 0 )\n  {\n    v9 = -1073741681;\n    *(_DWORD *)(Arguments + 4) |= 1u;\n  }\n  if ( (a3 & 2) != 0 )\n  {\n    v9 = -1073741677;\n    *(_DWORD *)(Arguments + 4) |= 2u;\n  }\n  if ( (a3 & 1) != 0 )\n  {\n    v9 = -1073741679;\n    *(_DWORD *)(Arguments + 4) |= 4u;\n  }\n  if ( (a3 & 4) != 0 )\n  {\n    v9 = -1073741682;\n    *(_DWORD *)(Arguments + 4) |= 8u;\n  }\n  if ( (a3 & 8) != 0 )\n  {\n    v9 = -1073741680;\n    *(_DWORD *)(Arguments + 4) |= 0x10u;\n  }\n  *(_DWORD *)(Arguments + 8) ^= (*(_DWORD *)(Arguments + 8) ^ ~(16 * (*a2 >> 7))) & 0x10;\n  *(_DWORD *)(Arguments + 8) ^= (*(_DWORD *)(Arguments + 8) ^ ~(8 * (*a2 >> 9))) & 8;\n  *(_DWORD *)(Arguments + 8) ^= (*(_DWORD *)(Arguments + 8) ^ ~(4 * (*a2 >> 10))) & 4;\n  *(_DWORD *)(Arguments + 8) ^= (*(_DWORD *)(Arguments + 8) ^ ~(2 * (*a2 >> 11))) & 2;\n  *(_DWORD *)(Arguments + 8) ^= (*(_DWORD *)(Arguments + 8) ^ ~(*(_DWORD *)a2 >> 12)) & 1;\n  v10 = statfp();\n  if ( (v10 & 1) != 0 )\n    *(_DWORD *)(Arguments + 12) |= 0x10u;\n  if ( (v10 & 4) != 0 )\n    *(_DWORD *)(Arguments + 12) |= 8u;\n  if ( (v10 & 8) != 0 )\n    *(_DWORD *)(Arguments + 12) |= 4u;\n  if ( (v10 & 0x10) != 0 )\n    *(_DWORD *)(Arguments + 12) |= 2u;\n  if ( (v10 & 0x20) != 0 )\n    *(_DWORD *)(Arguments + 12) |= 1u;\n  v11 = *(_DWORD *)a2 & 0x6000LL;\n  if ( v11 )\n  {\n    switch ( v11 )\n    {\n      case 8192LL:\n        *(_DWORD *)Arguments &= ~2u;\n        *(_DWORD *)Arguments |= 1u;\n        break;\n      case 16384LL:\n        *(_DWORD *)Arguments &= ~1u;\n        *(_DWORD *)Arguments |= 2u;\n        break;\n      case 24576LL:\n        *(_DWORD *)Arguments |= 3u;\n        break;\n    }\n  }\n  else\n  {\n    *(_DWORD *)Arguments &= 0xFFFFFFFC;\n  }\n  *(_DWORD *)Arguments &= 0xFFFE001F;\n  *(_DWORD *)Arguments |= 32 * (a4 & 0xFFF);\n  v12 = a6;\n  *(_DWORD *)(Arguments + 32) |= 1u;\n  if ( a7 )\n  {\n    *(_DWORD *)(Arguments + 32) &= 0xFFFFFFE1;\n    *(_DWORD *)(Arguments + 16) = *a5;\n    *(_DWORD *)(Arguments + 96) |= 1u;\n    *(_DWORD *)(Arguments + 96) &= 0xFFFFFFE1;\n    *(_DWORD *)(Arguments + 80) = *v12;\n  }\n  else\n  {\n    *(_DWORD *)(Arguments + 32) = *(_DWORD *)(Arguments + 32) & 0xFFFFFFE1 | 2;\n    *(_QWORD *)(Arguments + 16) = *(_QWORD *)a5;\n    *(_DWORD *)(Arguments + 96) |= 1u;\n    *(_DWORD *)(Arguments + 96) = *(_DWORD *)(Arguments + 96) & 0xFFFFFFE1 | 2;\n    *(_QWORD *)(Arguments + 80) = *(_QWORD *)v12;\n  }\n  clrfp();\n  RaiseException(v9, 0, 1u, &Arguments);\n  v13 = Arguments;\n  if ( (*(_BYTE *)(Arguments + 8) & 0x10) != 0 )\n    *a2 &= ~0x80uLL;\n  if ( (*(_BYTE *)(v13 + 8) & 8) != 0 )\n    *a2 &= ~0x200uLL;\n  if ( (*(_BYTE *)(v13 + 8) & 4) != 0 )\n    *a2 &= ~0x400uLL;\n  if ( (*(_BYTE *)(v13 + 8) & 2) != 0 )\n    *a2 &= ~0x800uLL;\n  if ( (*(_BYTE *)(v13 + 8) & 1) != 0 )\n    *a2 &= ~0x1000uLL;\n  if ( (*(_DWORD *)v13 & 3) != 0 )\n  {\n    switch ( *(_DWORD *)v13 & 3 )\n    {\n      case 1:\n        *a2 &= ~0x4000uLL;\n        *a2 |= 0x2000uLL;\n        break;\n      case 2:\n        *a2 &= ~0x2000uLL;\n        *a2 |= 0x4000uLL;\n        break;\n      case 3:\n        *a2 |= 0x6000uLL;\n        break;\n    }\n  }\n  else\n  {\n    *a2 &= 0xFFFFFFFFFFFF9FFFuLL;\n  }\n  if ( a7 )\n  {\n    result = *(unsigned int *)(v13 + 80);\n    *v12 = result;\n  }\n  else\n  {\n    result = *(_QWORD *)(v13 + 80);\n    *(_QWORD *)v12 = result;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "TransformMeshHandler_D007",
+  "class_obf": "ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ",
+  "parent": "",
+  "method": "m_FB2",
+  "cv_key": "TransformMeshHandler_D007::m_FB2",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180B15104(_BYTE *a1, _BYTE *a2, char a3)\n{\n  _BYTE *v3; // r9\n  __int64 v4; // r8\n  __int64 v5; // rax\n  __int64 v7; // r8\n  __int64 v8; // rcx\n\n  v3 = a1;\n  if ( (unsigned __int8)(a3 - 1) > 1u )\n  {\n    v7 = 0;\n    if ( a1 != a2 )\n    {\n      do\n      {\n        v8 = v7 + 1;\n        if ( *v3 != 10 )\n          v8 = v7;\n        ++v3;\n        v7 = v8;\n      }\n      while ( v3 != a2 );\n    }\n    return v7;\n  }\n  else\n  {\n    v4 = 0;\n    if ( a1 != a2 )\n    {\n      do\n      {\n        v5 = v4 + 1;\n        if ( *(_WORD *)v3 != 10 )\n          v5 = v4;\n        v3 += 2;\n        v4 = v5;\n      }\n      while ( v3 != a2 );\n    }\n    return 2 * v4;\n  }\n}\n"
+ },
+ {
+  "class": "TransformQuaternionHandler_4824",
+  "class_obf": "ÌÍÌÏÍÏÎÎÎÌÌÍÏÌÏÏÌÎÌÍÏÎÌ",
+  "parent": "",
+  "method": "m_13E",
+  "cv_key": "TransformQuaternionHandler_4824::m_13E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1806C97D0(_DWORD *a1, __int64 a2)\n{\n  __int64 v4; // rcx\n  int v5; // ecx\n  int v6; // edx\n  int v7; // edi\n  unsigned int v8; // edi\n  __int64 v9; // rcx\n  int v10; // ecx\n  int v11; // r8d\n  int v12; // edx\n\n  v4 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    sub_180A4EBA0(v4);\n  v5 = a1[4];\n  if ( ((v5 - 1) & 0x7FFFFFFFu) >= 0x7F800000 )\n    v5 &= 0x7F800000u;\n  v6 = a1[5];\n  if ( ((v6 - 1) & 0x7FFFFFFFu) >= 0x7F800000 )\n    v6 &= 0x7F800000u;\n  v7 = a1[6];\n  if ( ((v7 - 1) & 0x7FFFFFFFu) >= 0x7F800000 )\n    v7 &= 0x7F800000u;\n  v8 = v5 ^ (4 * v6) ^ (v7 >> 2);\n  v9 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n    sub_180A4EBA0(v9);\n  v10 = a1[7];\n  if ( ((v10 - 1) & 0x7FFFFFFFu) >= 0x7F800000 )\n    v10 &= 0x7F800000u;\n  v11 = a1[8];\n  if ( ((v11 - 1) & 0x7FFFFFFFu) >= 0x7F800000 )\n    v11 &= 0x7F800000u;\n  v12 = a1[9];\n  if ( ((v12 - 1) & 0x7FFFFFFFu) >= 0x7F800000 )\n    v12 &= 0x7F800000u;\n  return sub_1867134F0(v8, v10 ^ (4 * v11) ^ (unsigned int)(v12 >> 2), 0);\n}\n"
+ },
+ {
+  "class": "TransformQuaternionHandler_4824",
+  "class_obf": "ÌÍÌÏÍÏÎÎÎÌÌÍÏÌÏÏÌÎÌÍÏÎÌ",
+  "parent": "",
+  "method": "m_1A7",
+  "cv_key": "TransformQuaternionHandler_4824::m_1A7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1806C9540(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rdi\n  __int64 v4; // rcx\n  __int64 v5; // rsi\n  __int64 v6; // rbp\n  __int64 v7; // rax\n  __int64 v8; // rax\n  signed __int32 v10[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  v2 = a1 + 16;\n  if ( !byte_18CE32C0F )\n  {\n    sub_180AD1AA0(&qword_18C8DB348);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C904118);\n    _InterlockedOr(v10, 0);\n    byte_18CE32C0F = 1;\n  }\n  v4 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    sub_180A4EBA0(v4);\n  v5 = sub_180BA3500(v2, 0, 0);\n  v6 = qword_18C8DB348;\n  v7 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v8 = sub_186702680(v2 + 12, *(_QWORD *)(*(_QWORD *)(v7 + 192) + 208LL));\n  return sub_186477380(v5, v6, v8, qword_18C904118, 0);\n}\n"
+ }
+]

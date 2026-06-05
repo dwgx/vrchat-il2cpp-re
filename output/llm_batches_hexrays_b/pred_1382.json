@@ -1,0 +1,5 @@
+{
+ "gameObjectSibling_68CA::m_AF5": "ParseUInt16",
+ "gameObjectSibling_68CA::m_C03": "ParseBoolean",
+ "gameObjectSibling_68CA::m_D89": "ToString"
+}

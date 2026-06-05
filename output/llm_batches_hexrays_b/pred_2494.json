@@ -1,0 +1,12 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_2565::m_51F": "GrowHeap",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2565::m_6F8": "GrowHeap",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2565::m_C01": "AddHeapSection",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2565::m_C31": "AddHeapSection",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2565::m_CF3": "GrowHeap",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2B2E::m_016": "ClearDisappearingLink",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2B2E::m_24F": "InitializeGarbageCollector",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2B2E::m_51F": "InitializeGarbageCollector",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2B2E::m_95D": "InitializeGarbageCollector",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2B2E::m_C01": "InitializeGarbageCollector"
+}

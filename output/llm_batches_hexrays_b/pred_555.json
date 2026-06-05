@@ -1,0 +1,9 @@
+{
+ "PhysicsJoint2DHandler_51CC::m_3A4": "EnsureMemoryAvailable",
+ "PhysicsJoint2DHandler_51CC::m_6DB": "ShouldCollectMemory",
+ "PhysicsJoint2DHandler_51CC::m_7D3": "GrowFreeObjectTable",
+ "PhysicsJoint2DHandler_51CC::m_8BB": "CollectUntilMemoryAvailable",
+ "PhysicsJoint2DHandler_51CC::m_D96": "CollectAllocatorMemory",
+ "PhysicsJoint2DHandler_51CC::m_DA0": "ProcessDeferredFrees",
+ "PlayerBroadcastJoinedComponent_7907::m_0C0": "GetHashCode"
+}

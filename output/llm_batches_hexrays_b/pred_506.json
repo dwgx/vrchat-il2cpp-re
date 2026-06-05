@@ -1,0 +1,12 @@
+{
+ "TransformPhysicsHandler_B93F::m_5D1": "get_Task",
+ "TransformPhysicsHandler_B93F::m_6A7": "get_Task",
+ "TransformPhysicsHandler_B93F::m_6F9": "get_Task",
+ "TransformPhysicsHandler_B93F::m_79C": "get_Task",
+ "TransformPhysicsHandler_B93F::m_7FE": "get_Task",
+ "TransformPhysicsHandler_B93F::m_8E7": "get_Task",
+ "TransformPhysicsHandler_B93F::m_95E": "SetResult",
+ "TransformPhysicsHandler_B93F::m_AFF": "SetResult",
+ "TransformPhysicsHandler_B93F::m_B52": "get_Task",
+ "TransformPhysicsHandler_B93F::m_CE5": "get_Task"
+}

@@ -1,0 +1,7 @@
+{
+ "TransformQuaternionHandler_6B7F::m_C73": "GetQuaternion",
+ "TransformQuaternionHandler_A1D8::m_2D0": "ClampFloatToBounds",
+ "TransformQuaternionHandler_A1D8::m_8DA": "EndInvoke",
+ "TransformQuaternionHandler_A96C::m_289": "AddKeyframe",
+ "TransformQuaternionHandler_A96C::m_2C3": "GetOrCreateKeyframeList"
+}

@@ -483,13 +483,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÍÎÍÍÏÎÎÏÍÌÏÌÏÎÎÌÎÎÌÏÍ</summary>
     public class 0DerivedSiblingSiblingSiblingSSibling_9A95
     {
-        // ── 17 unresolved (hash) ──
+        // ── Methods ──
+        public void WriteBufferedBytes(){} // RVA: 0x7FFAF4A7ADD0
+        // ── 16 unresolved (hash) ──
         public void m_DC4(){} // RVA: 0x7FFAF32E3580
         public void m_87F(){} // RVA: 0x7FFAF4418950
         public void m_19A(){} // RVA: 0x7FFAF2DF3E80
         public void m_254(){} // RVA: 0x7FFAF44189C0
-        public void m_22A(){} // RVA: 0x7FFAF4A7ADD0
-        // ... 12 more unresolved methods
+        public void m_697(){} // RVA: 0x7FFAF4418950
+        // ... 11 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÎÎÍÏÏÎÌÏÍÍÎÎÎÏÏÌÏÏÏÍÌ</summary>
@@ -509,13 +511,16 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÍÌÍÎÎÎÏÏÎÎÏÌÏÍÍÍÍÍÏÍÎÎ</summary>
     public class 0DerivedSiblingSiblingSiblingSSibling_B7E6
     {
-        // ── 14 unresolved (hash) ──
+        // ── Methods ──
+        public void Atan2(){} // RVA: 0x7FFAF4B1F1C0
+        public void Atan(){} // RVA: 0x7FFAF4B1F210
+        // ── 12 unresolved (hash) ──
         public void m_E0E(){} // RVA: 0x7FFAF32E3580
         public void m_B01(){} // RVA: 0x7FFAF44189C0
-        public void m_22A(){} // RVA: 0x7FFAF4B1F1C0
-        public void m_279(){} // RVA: 0x7FFAF4B1F210
         public void m_271(){} // RVA: 0x7FFAF44189C0
-        // ... 9 more unresolved methods
+        public void m_254(){} // RVA: 0x7FFAF44189C0
+        public void m_697(){} // RVA: 0x7FFAF4418950
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÎÍÌÎÌÌÏÎÏÌÌÌÏÏÎÍÍÍÍÎÍ</summary>
@@ -590,13 +595,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÍÌÏÎÍÎÍÎÌÌÍÏÍÏÎÏÎÏÌÎÏ</summary>
     public class 0DerivedSiblingSiblingSiblingSSibling_ED32
     {
-        // ── 16 unresolved (hash) ──
+        // ── Methods ──
+        public void InsertRepeatedCharacter(){} // RVA: 0x7FFAF4A7E500
+        // ── 15 unresolved (hash) ──
         public void m_697(){} // RVA: 0x7FFAF4418950
         public void m_271(){} // RVA: 0x7FFAF44189C0
         public void m_3F3(){} // RVA: 0x7FFAF32E3580
         public void m_311(){} // RVA: 0x7FFAF32E3580
         public void m_33D(){} // RVA: 0x7FFAF2DA8380
-        // ... 11 more unresolved methods
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÎÌÏÏÍÎÍÍÏÌÍÍÎÌÍÏÍÎÍÍÎ</summary>

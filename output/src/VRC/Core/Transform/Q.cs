@@ -25,13 +25,12 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF36CB950
+        public void CompareTo(){} // RVA: 0x7FFAF36CC210
         public void UpdateRotation(){} // RVA: 0x7FFAF36CCAD0
+        public void GetHashCode(){} // RVA: 0x7FFAF36CD390
+        public void GetHashCode_4F60E86795D4(){} // RVA: 0x7FFAF36CDC50
         public void OrthoNormalize2(){} // RVA: 0x7FFAF36CE510
-        // ── Unresolved (hash) ──
-        public void m_136(){} // RVA: 0x7FFAF36CC210
-        public void m_D98(){} // RVA: 0x7FFAF36CD390
-        public void m_4F6(){} // RVA: 0x7FFAF36CDC50
-        public void m_5B0(){} // RVA: 0x7FFAF36CEDD0
+        public void CompareTo_5B0CBE775CFE(){} // RVA: 0x7FFAF36CEDD0
     }
 
     /// <summary>Originally: ÏÌÏÏÎÍÍÎÎÏÎÏÌÏÌÍÍÌÎÎÍÍÌ</summary>
@@ -116,15 +115,15 @@ namespace VRC.Core.Transform
     public class QuaternionTransformHandler_A61D
     {
         // ── Methods ──
+        public void MarshalManagedToNative(){} // RVA: 0x7FFAF496AE20
+        public void MarshalManagedToNative_1CE44B07D61F(){} // RVA: 0x7FFAF496AEC0
+        public void MarshalManagedToNative_3481EE48E0AE(){} // RVA: 0x7FFAF496AF60
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF496B000
         public void GetFixedDeltaTime(){} // RVA: 0x7FFAF496B0A0
+        public void InvokeNativeByteArrayCallback(){} // RVA: 0x7FFAF496B140
         public void GetFixedDeltaTime_DAEFD6EAF3E9(){} // RVA: 0x7FFAF496B1E0
         // ── Unresolved (hash) ──
-        public void m_900(){} // RVA: 0x7FFAF496AE20
-        public void m_1CE(){} // RVA: 0x7FFAF496AEC0
-        public void m_348(){} // RVA: 0x7FFAF496AF60
-        public void m_2BC(){} // RVA: 0x7FFAF496B140
         public void m_E7C(){} // RVA: 0x7FFAF496B280
     }
 

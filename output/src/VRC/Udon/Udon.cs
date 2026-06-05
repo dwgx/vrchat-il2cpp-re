@@ -769,23 +769,28 @@ namespace VRC.Udon
     public class UdonUnregisterEventHandlerRegiSibling_581D
     {
         // ── Methods ──
+        public void PushRegistration(){} // RVA: 0x7FFAF4479300
+        public void PopRegistration(){} // RVA: 0x7FFAF4479340
         public void Update(){} // RVA: 0x7FFAF4479980
         public void GetEnabled(){} // RVA: 0x7FFAF4479AF0
         public void GetEnabled_874AAFB32E69(){} // RVA: 0x7FFAF4479B70
         public void GetEnabled_A660C4F07AE5(){} // RVA: 0x7FFAF4479BE0
+        public void PushObject(){} // RVA: 0x7FFAF447A120
+        public void PopObject(){} // RVA: 0x7FFAF447A220
+        public void InitializeObjectRingBuffer(){} // RVA: 0x7FFAF447A5C0
         public void GetEnabled_8C84D06B25F5(){} // RVA: 0x7FFAF4479B70
         public void .ctor(){} // RVA: 0x7FFAF447AD10
         public void Initialize(){} // RVA: 0x7FFAF447AE90
         public void OnDestroy(){} // RVA: 0x7FFAF447B1D0
         public void Start(){} // RVA: 0x7FFAF447B3A0
         public void SetCullingMode(){} // RVA: 0x7FFAF447BAF0
-        // ── 23 unresolved (hash) ──
+        // ── 18 unresolved (hash) ──
         public void m_848(){} // RVA: 0x7FFAF44792C0
-        public void m_A85(){} // RVA: 0x7FFAF4479300
-        public void m_BBD(){} // RVA: 0x7FFAF4479340
         public void m_ABF(){} // RVA: 0x7FFAF4479470
         public void m_4B5(){} // RVA: 0x7FFAF4479490
-        // ... 18 more unresolved methods
+        public void m_8AF(){} // RVA: 0x7FFAF4479E60
+        public void m_510(){} // RVA: 0x7FFAF447A340
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÎÌÏÎÍÌÍÎÍÍÌÍÏÏÍÎÏÏÍ</summary>

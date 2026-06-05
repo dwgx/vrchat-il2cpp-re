@@ -1,0 +1,112 @@
+[
+ {
+  "class": "SecurityaspectModeRelated_E63B",
+  "class_obf": "ÌÌÍÍÍÏÎÍÎÎÌÎÍÌÏÍÌÏÎÌÌÎÌ",
+  "parent": "",
+  "method": "m_16B",
+  "cv_key": "SecurityaspectModeRelated_E63B::m_16B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_180318090(signed __int64 a1, unsigned __int64 a2)\n{\n  bool v2; // zf\n  signed __int64 v3; // r9\n  __int64 v4; // r8\n  signed __int64 v5; // rtt\n  __int64 v6; // rax\n\n  v2 = dword_18CE1C2E8 == 0;\n  v3 = a1;\n  *(_QWORD *)a2 = *(_QWORD *)(a1 + 24);\n  if ( !v2 )\n  {\n    v4 = (a2 >> 12) & 0x3F;\n    a2 = (unsigned __int64)&qword_18CEAB0E0[((a2 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw((const void *)a2);\n    do\n    {\n      a1 = *(_QWORD *)a2 | (1LL << v4);\n      v5 = *(_QWORD *)a2;\n    }\n    while ( v5 != _InterlockedCompareExchange64((volatile signed __int64 *)a2, a1, *(_QWORD *)a2) );\n  }\n  v6 = *(_QWORD *)(v3 + 24);\n  if ( !v6 )\n    sub_180AAE510(a1, a2);\n  return *(_DWORD *)(v3 + 60) == *(_DWORD *)(v6 + 24);\n}\n"
+ },
+ {
+  "class": "SecurityaspectModeRelated_E63B",
+  "class_obf": "ÌÌÍÍÍÏÎÍÎÎÌÎÍÌÏÍÌÏÎÌÌÎÌ",
+  "parent": "",
+  "method": "m_35A",
+  "cv_key": "SecurityaspectModeRelated_E63B::m_35A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "signed __int64 __fastcall sub_180316F30(__int64 a1, __int64 a2, __int128 *a3)\n{\n  signed __int64 result; // rax\n  __int128 v4; // xmm0\n  __int64 v5; // xmm1_8\n  __int64 *v6; // rdx\n  signed __int64 v7; // rtt\n  __int64 *v8; // rdx\n  signed __int64 v9; // rtt\n\n  result = (unsigned int)dword_18CE1C2E8;\n  v4 = *a3;\n  v5 = *((_QWORD *)a3 + 2);\n  *(_QWORD *)(a1 + 16) = a2;\n  if ( (_DWORD)result )\n  {\n    v6 = &qword_18CE64E00[(((unsigned __int64)(a1 + 16) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v6 + 35932);\n    do\n      v7 = v6[35932];\n    while ( v7 != _InterlockedCompareExchange64(\n                    v6 + 35932,\n                    v7 | (1LL << (((unsigned __int64)(a1 + 16) >> 12) & 0x3F)),\n                    v7) );\n    result = (unsigned int)dword_18CE1C2E8;\n  }\n  *(_OWORD *)(a1 + 40) = v4;\n  *(_QWORD *)(a1 + 56) = v5;\n  if ( (_DWORD)result )\n  {\n    v8 = &qword_18CE64E00[(((unsigned __int64)(a1 + 40) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v8 + 35932);\n    do\n    {\n      v9 = v8[35932];\n      result = _InterlockedCompareExchange64(v8 + 35932, v9 | (1LL << (((unsigned __int64)(a1 + 40) >> 12) & 0x3F)), v9);\n    }\n    while ( v9 != result );\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "SecurityaspectModeRelated_E63B",
+  "class_obf": "ÌÌÍÍÍÏÎÍÎÎÌÎÍÌÏÍÌÏÎÌÌÎÌ",
+  "parent": "",
+  "method": "m_35E",
+  "cv_key": "SecurityaspectModeRelated_E63B::m_35E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_180317440()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C862E28 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 32LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 32LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "SecurityaspectModeRelated_E63B",
+  "class_obf": "ÌÌÍÍÍÏÎÍÎÎÌÎÍÌÏÍÌÏÎÌÌÎÌ",
+  "parent": "",
+  "method": "m_3DF",
+  "cv_key": "SecurityaspectModeRelated_E63B::m_3DF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180318A10(__int64 *a1, __int64 a2, __int64 a3)\n{\n  int i; // ebx\n  __int64 v7; // r9\n  __int64 v8; // rax\n\n  for ( i = *((_DWORD *)a1 + 8) - 1; i >= 0; --i )\n  {\n    v7 = *a1;\n    if ( !*a1 )\n      sub_180AAE510(a1, a2);\n    if ( (unsigned int)i >= *(_DWORD *)(v7 + 24) )\n      sub_180AAE530(a1, a2);\n    if ( *(_QWORD *)(v7 + 8LL * i + 32) == a2 )\n    {\n      v8 = *(_QWORD *)(a3 + 40);\n      if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n        v8 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n      sub_184051C00(a1, (unsigned int)i, *(_QWORD *)(*(_QWORD *)(v8 + 192) + 120LL));\n    }\n  }\n}\n"
+ },
+ {
+  "class": "SecurityaspectModeRelated_E63B",
+  "class_obf": "ÌÌÍÍÍÏÎÍÎÎÌÎÍÌÏÍÌÏÎÌÌÎÌ",
+  "parent": "",
+  "method": "m_4D8",
+  "cv_key": "SecurityaspectModeRelated_E63B::m_4D8",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_180318C80(signed __int64 a1, __int64 *a2, int a3, _DWORD *a4)\n{\n  __int64 *v6; // rbx\n  signed __int64 v7; // rdi\n  __int64 v8; // rdi\n  __int64 v9; // rtt\n  int v10; // eax\n  signed __int32 v12[8]; // [rsp+0h] [rbp-48h] BYREF\n  __int64 *v13; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v14; // [rsp+28h] [rbp-20h]\n  __int64 *v15; // [rsp+30h] [rbp-18h] BYREF\n  int v16; // [rsp+38h] [rbp-10h]\n  int v17; // [rsp+3Ch] [rbp-Ch]\n\n  v6 = a2;\n  v7 = a1;\n  if ( !byte_18CE2D2E4 )\n  {\n    sub_180AD1AA0(&qword_18C8722B0);\n    _InterlockedOr(v12, 0);\n    byte_18CE2D2E4 = 1;\n  }\n  v8 = *(_QWORD *)(v7 + 40);\n  v14 = 0;\n  v13 = v6;\n  if ( dword_18CE1C2E8 )\n  {\n    a2 = &qword_18CEAB0E0[(((unsigned __int64)&v13 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(a2);\n    do\n    {\n      a1 = *a2 | (1LL << (((unsigned __int64)&v13 >> 12) & 0x3F));\n      v9 = *a2;\n    }\n    while ( v9 != _InterlockedCompareExchange64(a2, a1, *a2) );\n    v6 = v13;\n  }\n  LODWORD(v14) = a3;\n  if ( !v8 )\n    goto LABEL_13;\n  v17 = HIDWORD(v14);\n  v15 = v6;\n  v16 = a3;\n  v10 = sub_183666CF0(v8, &v15, *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C8722B0 + 40) + 192LL) + 272LL));\n  if ( v10 < 0 )\n  {\n    *a4 = 0;\n    return 0;\n  }\n  a1 = *(_QWORD *)(v8 + 24);\n  if ( !a1 )\nLABEL_13:\n    sub_180AAE510(a1, a2);\n  if ( (unsigned int)v10 >= *(_DWORD *)(a1 + 24) )\n    sub_180AAE530(a1, a2);\n  *a4 = *(_DWORD *)(32LL * v10 + a1 + 56);\n  return 1;\n}\n"
+ },
+ {
+  "class": "SecurityaspectModeRelated_E63B",
+  "class_obf": "ÌÌÍÍÍÏÎÍÎÎÌÎÍÌÏÍÌÏÎÌÌÎÌ",
+  "parent": "",
+  "method": "m_6DE",
+  "cv_key": "SecurityaspectModeRelated_E63B::m_6DE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_180318C80(signed __int64 a1, __int64 *a2, int a3, _DWORD *a4)\n{\n  __int64 *v6; // rbx\n  signed __int64 v7; // rdi\n  __int64 v8; // rdi\n  __int64 v9; // rtt\n  int v10; // eax\n  signed __int32 v12[8]; // [rsp+0h] [rbp-48h] BYREF\n  __int64 *v13; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v14; // [rsp+28h] [rbp-20h]\n  __int64 *v15; // [rsp+30h] [rbp-18h] BYREF\n  int v16; // [rsp+38h] [rbp-10h]\n  int v17; // [rsp+3Ch] [rbp-Ch]\n\n  v6 = a2;\n  v7 = a1;\n  if ( !byte_18CE2D2E4 )\n  {\n    sub_180AD1AA0(&qword_18C8722B0);\n    _InterlockedOr(v12, 0);\n    byte_18CE2D2E4 = 1;\n  }\n  v8 = *(_QWORD *)(v7 + 40);\n  v14 = 0;\n  v13 = v6;\n  if ( dword_18CE1C2E8 )\n  {\n    a2 = &qword_18CEAB0E0[(((unsigned __int64)&v13 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(a2);\n    do\n    {\n      a1 = *a2 | (1LL << (((unsigned __int64)&v13 >> 12) & 0x3F));\n      v9 = *a2;\n    }\n    while ( v9 != _InterlockedCompareExchange64(a2, a1, *a2) );\n    v6 = v13;\n  }\n  LODWORD(v14) = a3;\n  if ( !v8 )\n    goto LABEL_13;\n  v17 = HIDWORD(v14);\n  v15 = v6;\n  v16 = a3;\n  v10 = sub_183666CF0(v8, &v15, *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C8722B0 + 40) + 192LL) + 272LL));\n  if ( v10 < 0 )\n  {\n    *a4 = 0;\n    return 0;\n  }\n  a1 = *(_QWORD *)(v8 + 24);\n  if ( !a1 )\nLABEL_13:\n    sub_180AAE510(a1, a2);\n  if ( (unsigned int)v10 >= *(_DWORD *)(a1 + 24) )\n    sub_180AAE530(a1, a2);\n  *a4 = *(_DWORD *)(32LL * v10 + a1 + 56);\n  return 1;\n}\n"
+ },
+ {
+  "class": "SecurityaspectModeRelated_E63B",
+  "class_obf": "ÌÌÍÍÍÏÎÍÎÎÌÎÍÌÏÍÌÏÎÌÌÎÌ",
+  "parent": "",
+  "method": "m_9D4",
+  "cv_key": "SecurityaspectModeRelated_E63B::m_9D4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_180318C80(signed __int64 a1, __int64 *a2, int a3, _DWORD *a4)\n{\n  __int64 *v6; // rbx\n  signed __int64 v7; // rdi\n  __int64 v8; // rdi\n  __int64 v9; // rtt\n  int v10; // eax\n  signed __int32 v12[8]; // [rsp+0h] [rbp-48h] BYREF\n  __int64 *v13; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v14; // [rsp+28h] [rbp-20h]\n  __int64 *v15; // [rsp+30h] [rbp-18h] BYREF\n  int v16; // [rsp+38h] [rbp-10h]\n  int v17; // [rsp+3Ch] [rbp-Ch]\n\n  v6 = a2;\n  v7 = a1;\n  if ( !byte_18CE2D2E4 )\n  {\n    sub_180AD1AA0(&qword_18C8722B0);\n    _InterlockedOr(v12, 0);\n    byte_18CE2D2E4 = 1;\n  }\n  v8 = *(_QWORD *)(v7 + 40);\n  v14 = 0;\n  v13 = v6;\n  if ( dword_18CE1C2E8 )\n  {\n    a2 = &qword_18CEAB0E0[(((unsigned __int64)&v13 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(a2);\n    do\n    {\n      a1 = *a2 | (1LL << (((unsigned __int64)&v13 >> 12) & 0x3F));\n      v9 = *a2;\n    }\n    while ( v9 != _InterlockedCompareExchange64(a2, a1, *a2) );\n    v6 = v13;\n  }\n  LODWORD(v14) = a3;\n  if ( !v8 )\n    goto LABEL_13;\n  v17 = HIDWORD(v14);\n  v15 = v6;\n  v16 = a3;\n  v10 = sub_183666CF0(v8, &v15, *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C8722B0 + 40) + 192LL) + 272LL));\n  if ( v10 < 0 )\n  {\n    *a4 = 0;\n    return 0;\n  }\n  a1 = *(_QWORD *)(v8 + 24);\n  if ( !a1 )\nLABEL_13:\n    sub_180AAE510(a1, a2);\n  if ( (unsigned int)v10 >= *(_DWORD *)(a1 + 24) )\n    sub_180AAE530(a1, a2);\n  *a4 = *(_DWORD *)(32LL * v10 + a1 + 56);\n  return 1;\n}\n"
+ },
+ {
+  "class": "SecurityaspectModeRelated_E63B",
+  "class_obf": "ÌÌÍÍÍÏÎÍÎÎÌÎÍÌÏÍÌÏÎÌÌÎÌ",
+  "parent": "",
+  "method": "m_AC9",
+  "cv_key": "SecurityaspectModeRelated_E63B::m_AC9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180317BA0(__int64 a1, int a2, __int64 a3)\n{\n  __int64 v6; // rax\n  __int64 (__fastcall **v7)(_QWORD); // rcx\n  __int64 v8; // rax\n  __int64 (__fastcall *v9)(_QWORD); // rbp\n  __int64 result; // rax\n  int v11; // ecx\n  __int64 v12; // r9\n  __int64 *v13; // rdx\n  signed __int64 v14; // rtt\n  __int64 *v15; // rdx\n  signed __int64 v16; // rtt\n\n  *(_OWORD *)(a1 + 16) = 0;\n  *(_OWORD *)(a1 + 32) = 0;\n  *(_OWORD *)(a1 + 48) = 0;\n  v6 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    v6 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v7 = *(__int64 (__fastcall ***)(_QWORD))(*(_QWORD *)(v6 + 192) + 24LL);\n  v8 = *(_QWORD *)(a3 + 40);\n  v9 = *v7;\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    v8 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  result = v9(*(_QWORD *)(*(_QWORD *)(v8 + 192) + 24LL));\n  v11 = dword_18CE1C2E8;\n  *(_QWORD *)(a1 + 48) = result;\n  v12 = result;\n  if ( v11 )\n  {\n    v13 = &qword_18CE64E00[(((unsigned __int64)(a1 + 48) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v13 + 35932);\n    do\n    {\n      v14 = v13[35932];\n      result = _InterlockedCompareExchange64(\n                 v13 + 35932,\n                 v14 | (1LL << (((unsigned __int64)(a1 + 48) >> 12) & 0x3F)),\n                 v14);\n    }\n    while ( v14 != result );\n    v11 = dword_18CE1C2E8;\n  }\n  *(_QWORD *)(a1 + 24) = v12;\n  if ( v11 )\n  {\n    v15 = &qword_18CE64E00[(((unsigned __int64)(a1 + 24) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v15 + 35932);\n    do\n    {\n      v16 = v15[35932];\n      result = _InterlockedCompareExchange64(\n                 v15 + 35932,\n                 v16 | (1LL << (((unsigned __int64)(a1 + 24) >> 12) & 0x3F)),\n                 v16);\n    }\n    while ( v16 != result );\n  }\n  *(_DWORD *)(a1 + 16) = a2;\n  return result;\n}\n"
+ },
+ {
+  "class": "SecurityaspectModeRelated_E63B",
+  "class_obf": "ÌÌÍÍÍÏÎÍÎÎÌÎÍÌÏÍÌÏÎÌÌÎÌ",
+  "parent": "",
+  "method": "m_C6A",
+  "cv_key": "SecurityaspectModeRelated_E63B::m_C6A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180317390(__int64 a1, __int128 *a2, __int64 a3)\n{\n  __int64 v4; // rbx\n  __int128 v5; // xmm6\n  __int64 v6; // rdx\n  __int64 v7; // rcx\n  __int64 *v8; // rdi\n  __int64 v9; // r9\n  __int128 v10; // xmm0\n  unsigned __int8 (__fastcall *v11)(__int64 *, __int128 *, __int128 *, __int64); // rax\n  __int64 v12; // r9\n  __int128 v14; // [rsp+20h] [rbp-38h] BYREF\n  __int128 v15; // [rsp+30h] [rbp-28h] BYREF\n\n  v4 = *(_QWORD *)(a1 + 16);\n  v5 = *a2;\n  v8 = (__int64 *)sub_183AC56C0(*(_QWORD *)(*(_QWORD *)(*(_QWORD *)(a3 + 40) + 192LL) + 104LL));\n  if ( !v4 )\n    return 0;\n  while ( 1 )\n  {\n    if ( !v4 || !v8 )\n      sub_180AAE510(v7, v6);\n    v9 = *v8;\n    v10 = *(_OWORD *)(v4 + 40);\n    v14 = v5;\n    v11 = *(unsigned __int8 (__fastcall **)(__int64 *, __int128 *, __int128 *, __int64))(v9 + 440);\n    v12 = *(_QWORD *)(v9 + 448);\n    v15 = v10;\n    if ( v11(v8, &v15, &v14, v12) )\n      break;\n    v4 = *(_QWORD *)(v4 + 24);\n    if ( v4 == *(_QWORD *)(a1 + 16) )\n      return 0;\n  }\n  return v4;\n}\n"
+ },
+ {
+  "class": "SerializableVector3SiblinRelated_78F4",
+  "class_obf": "ÎÍÏÏÍÏÎÍÏÎÌÎÎÌÏÌÍÌÌÏÌÏÌ",
+  "parent": "",
+  "method": "m_090",
+  "cv_key": "SerializableVector3SiblinRelated_78F4::m_090",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__m128i *__fastcall sub_180B27D70(__m128i *a1, unsigned __int8 a2, unsigned __int64 a3)\n{\n  __m128i *result; // rax\n  __int64 v5; // r11\n  __int8 *v7; // rcx\n  __m128i v8; // xmm0\n  __int64 v10; // r9\n  __int64 v15; // r9\n  __m128i *v16; // rcx\n  unsigned __int64 v17; // r8\n  unsigned __int64 v18; // r9\n\n  result = a1;\n  v5 = 0x101010101010101LL * a2;\n  v7 = &a1->m128i_i8[a3];\n  switch ( a3 )\n  {\n    case 0uLL:\n      return result;\n    case 1uLL:\n      goto LABEL_5;\n    case 2uLL:\n      goto LABEL_8;\n    case 3uLL:\n      goto LABEL_4;\n    case 4uLL:\n      goto LABEL_12;\n    case 5uLL:\n      goto LABEL_10;\n    case 6uLL:\n      goto LABEL_7;\n    case 7uLL:\n      goto LABEL_3;\n    case 8uLL:\n      *((_QWORD *)v7 - 1) = v5;\n      return result;\n    case 9uLL:\n      *(_QWORD *)(v7 - 9) = v5;\n      *(v7 - 1) = a2;\n      return result;\n    case 0xAuLL:\n      *(_QWORD *)(v7 - 10) = v5;\n      *((_WORD *)v7 - 1) = v5;\n      return result;\n    case 0xBuLL:\n      *(_QWORD *)(v7 - 11) = v5;\n      *(_WORD *)(v7 - 3) = v5;\n      *(v7 - 1) = a2;\n      return result;\n    case 0xCuLL:\n      *(_QWORD *)(v7 - 12) = v5;\nLABEL_12:\n      *((_DWORD *)v7 - 1) = v5;\n      return result;\n    case 0xDuLL:\n      *(_QWORD *)(v7 - 13) = v5;\nLABEL_10:\n      *(_DWORD *)(v7 - 5) = v5;\n      *(v7 - 1) = a2;\n      return result;\n    case 0xEuLL:\n      *(_QWORD *)(v7 - 14) = v5;\nLABEL_7:\n      *(_DWORD *)(v7 - 6) = v5;\nLABEL_8:\n      *((_WORD *)v7 - 1) = v5;\n      return result;\n    case 0xFuLL:\n      *(_QWORD *)(v7 - 15) = v5;\nLABEL_3:\n      *(_DWORD *)(v7 - 7) = v5;\nLABEL_4:\n      *(_WORD *)(v7 - 3) = v5;\nLABEL_5:\n      *(v7 - 1) = a2;\n      return result;\n    default:\n      v8 = _mm_unpacklo_epi64((__m128i)(unsigned __int64)v5, (__m128i)(unsigned __int64)v5);\n      if ( a3 <= 0x20 )\n      {\n        *a1 = v8;\n        *(__m128i *)((char *)a1 + a3 - 16) = v8;\n        return result;\n      }\n      if ( (unsigned int)dword_18C5271F8 < 3 )\n      {\n        if ( a3 <= qword_18C527200 || (dword_18CE1A410 & 2) == 0 )\n        {\n          v15 = ((unsigned __int8)a1 & 0xF) - 16LL;\n          v16 = (__m128i *)((char *)a1 - v15);\n          v17 = v15 + a3;\n          if ( v17 > 0x80 )\n          {\n            do\n            {\n              *v16 = v8;\n              v16[1] = v8;\n              v16[2] = v8;\n              v16[3] = v8;\n              v16[4] = v8;\n              v16[5] = v8;\n              v16[6] = v8;\n              v16[7] = v8;\n              v16 += 8;\n              v17 -= 128LL;\n            }\n            while ( v17 >= 0x80 );\n          }\n          v18 = (v17 + 15) & 0xFFFFFFFFFFFFFFF0uLL;\n          switch ( v18 >> 4 )\n          {\n            case 0uLL:\n              goto LABEL_60;\n            case 1uLL:\n              goto LABEL_59;\n            case 2uLL:\n              goto LABEL_58;\n            case 3uLL:\n              goto LABEL_57;\n            case 4uLL:\n              goto LABEL_56;\n            case 5uLL:\n              goto LABEL_55;\n            case 6uLL:\n              goto LABEL_54;\n            case 7uLL:\n              goto LABEL_53;\n            case 8uLL:\n              *(__m128i *)((char *)v16 + v18 - 128) = v8;\nLABEL_53:\n              *(__m128i *)((char *)v16 + v18 - 112) = v8;\nLABEL_54:\n              *(__m128i *)((char *)v16 + v18 - 96) = v8;\nLABEL_55:\n              *(__m128i *)((char *)v16 + v18 - 80) = v8;\nLABEL_56:\n              *(__m128i *)((char *)v16 + v18 - 64) = v8;\nLABEL_57:\n              *(__m128i *)((char *)v16 + v18 - 48) = v8;\nLABEL_58:\n              *(__m128i *)((char *)v16 + v18 - 32) = v8;\nLABEL_59:\n              *(__m128i *)((char *)v16 + v17 - 16) = v8;\nLABEL_60:\n              *result = v8;\n              break;\n          }\n          return result;\n        }\n        return (__m128i *)sub_180B27D60(a1);\n      }\n      if ( a3 > qword_18C527200 && a3 <= qword_18C527208 && (dword_18CE1A410 & 2) != 0 )\n        return (__m128i *)sub_180B27D60(a1);\n      __asm { vinsertf128 ymm0, ymm0, xmm0, 1 }\n      v10 = ((unsigned __int8)a1 & 0x1F) - 32LL;\n      _RCX = &a1->m128i_i8[-v10];\n      _R8 = v10 + a3;\n      if ( _R8 <= 0x100 )\n        goto LABEL_26;\n      if ( _R8 <= qword_18C527208 )\n      {\n        do\n        {\n          __asm\n          {\n            vmovdqa ymmword ptr [rcx], ymm0\n            vmovdqa ymmword ptr [rcx+20h], ymm0\n            vmovdqa ymmword ptr [rcx+40h], ymm0\n            vmovdqa ymmword ptr [rcx+60h], ymm0\n            vmovdqa ymmword ptr [rcx+80h], ymm0\n            vmovdqa ymmword ptr [rcx+0A0h], ymm0\n            vmovdqa ymmword ptr [rcx+0C0h], ymm0\n            vmovdqa ymmword ptr [rcx+0E0h], ymm0\n          }\n          _RCX += 256;\n          _R8 -= 256LL;\n        }\n        while ( _R8 >= 0x100 );\nLABEL_26:\n        _R9 = (_R8 + 31) & 0xFFFFFFFFFFFFFFE0uLL;\n        switch ( _R9 >> 5 )\n        {\n          case 0uLL:\n            goto LABEL_35;\n          case 1uLL:\n            goto LABEL_34;\n          case 2uLL:\n            goto LABEL_33;\n          case 3uLL:\n            goto LABEL_32;\n          case 4uLL:\n            goto LABEL_31;\n          case 5uLL:\n            goto LABEL_30;\n          case 6uLL:\n            goto LABEL_29;\n          case 7uLL:\n            goto LABEL_28;\n          case 8uLL:\n            __asm { vmovdqu ymmword ptr [rcx+r9-100h], ymm0; jumptable 0000000180B27F04 case 8 }\nLABEL_28:\n            __asm { vmovdqu ymmword ptr [rcx+r9-0E0h], ymm0; jumptable 0000000180B27F04 case 7 }\nLABEL_29:\n            __asm { vmovdqu ymmword ptr [rcx+r9-0C0h], ymm0; jumptable 0000000180B27F04 case 6 }\nLABEL_30:\n            __asm { vmovdqu ymmword ptr [rcx+r9-0A0h], ymm0; jumptable 0000000180B27F04 case 5 }\nLABEL_31:\n            __asm { vmovdqu ymmword ptr [rcx+r9-80h], ymm0; jumptable 0000000180B27F04 case 4 }\nLABEL_32:\n            __asm { vmovdqu ymmword ptr [rcx+r9-60h], ymm0; jumptable 0000000180B27F04 case 3 }\nLABEL_33:\n            __asm { vmovdqu ymmword ptr [rcx+r9-40h], ymm0; jumptable 0000000180B27F04 case 2 }\nLABEL_34:\n            __asm { vmovdqu ymmword ptr [rcx+r8-20h], ymm0; jumptable 0000000180B27F04 case 1 }\nLABEL_35:\n            __asm\n            {\n              vmovdqu ymmword ptr [rax], ymm0; jumptable 0000000180B27F04 case 0\n              vzeroupper\n            }\n            break;\n        }\n        return result;\n      }\n      do\n      {\n        __asm\n        {\n          vmovntdq ymmword ptr [rcx], ymm0\n          vmovntdq ymmword ptr [rcx+20h], ymm0\n          vmovntdq ymmword ptr [rcx+40h], ymm0\n          vmovntdq ymmword ptr [rcx+60h], ymm0\n          vmovntdq ymmword ptr [rcx+80h], ymm0\n          vmovntdq ymmword ptr [rcx+0A0h], ymm0\n          vmovntdq ymmword ptr [rcx+0C0h], ymm0\n          vmovntdq ymmword ptr [rcx+0E0h], ymm0\n        }\n        _RCX += 256;\n        _R8 -= 256LL;\n      }\n      while ( _R8 >= 0x100 );\n      _R9 = (_R8 + 31) & 0xFFFFFFFFFFFFFFE0uLL;\n      switch ( _R9 >> 5 )\n      {\n        case 0uLL:\n          goto LABEL_46;\n        case 1uLL:\n          goto LABEL_45;\n        case 2uLL:\n          goto LABEL_44;\n        case 3uLL:\n          goto LABEL_43;\n        case 4uLL:\n          goto LABEL_42;\n        case 5uLL:\n          goto LABEL_41;\n        case 6uLL:\n          goto LABEL_40;\n        case 7uLL:\n          goto LABEL_39;\n        case 8uLL:\n          __asm { vmovntdq ymmword ptr [rcx+r9-100h], ymm0; jumptable 0000000180B27FC4 case 8 }\nLABEL_39:\n          __asm { vmovntdq ymmword ptr [rcx+r9-0E0h], ymm0; jumptable 0000000180B27FC4 case 7 }\nLABEL_40:\n          __asm { vmovntdq ymmword ptr [rcx+r9-0C0h], ymm0; jumptable 0000000180B27FC4 case 6 }\nLABEL_41:\n          __asm { vmovntdq ymmword ptr [rcx+r9-0A0h], ymm0; jumptable 0000000180B27FC4 case 5 }\nLABEL_42:\n          __asm { vmovntdq ymmword ptr [rcx+r9-80h], ymm0; jumptable 0000000180B27FC4 case 4 }\nLABEL_43:\n          __asm { vmovntdq ymmword ptr [rcx+r9-60h], ymm0; jumptable 0000000180B27FC4 case 3 }\nLABEL_44:\n          __asm { vmovntdq ymmword ptr [rcx+r9-40h], ymm0; jumptable 0000000180B27FC4 case 2 }\nLABEL_45:\n          __asm { vmovdqu ymmword ptr [rcx+r8-20h], ymm0; jumptable 0000000180B27FC4 case 1 }\nLABEL_46:\n          __asm { vmovdqu ymmword ptr [rax], ymm0; jumptable 0000000180B27FC4 case 0 }\n          _mm_sfence();\n          __asm { vzeroupper }\n          break;\n      }\n      return result;\n  }\n}\n"
+ }
+]

@@ -1,0 +1,7 @@
+{
+ "QuaternionBehaviourHandler_DF58::m_4ED": "MarshalManagedToNative",
+ "QuaternionBehaviourHandler_DF58::m_750": "MarshalManagedToNative",
+ "QuaternionBehaviourHandler_DF58::m_7DA": "MarshalNativeToManaged",
+ "QuaternionBehaviourHandler_DF58::m_968": "MarshalNativeToManaged",
+ "QuaternionBehaviourHandler_DF58::m_A8E": "FreeNativeBuffers"
+}

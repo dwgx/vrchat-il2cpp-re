@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_5F7E::m_24F": "UnregisterDisappearingLink",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5F7E::m_2F0": "RegisterDisappearingLink",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5F7E::m_95D": "UnregisterDisappearingLink",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5F7E::m_C01": "PushObjectToMarkStack",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5F7E::m_CF3": "RegisterDisappearingLink"
+}

@@ -1,0 +1,9 @@
+{
+ "TransformGameObjectHandler_9BE8::m_0D5": "SetFloatingPointControlWord",
+ "TransformGameObjectHandler_9BE8::m_128": "CompareWideStringsIgnoreCase",
+ "TransformGameObjectHandler_9BE8::m_12E": "QuickSortArray",
+ "TransformGameObjectHandler_9BE8::m_148": "SetFloatingPointControlWord",
+ "TransformGameObjectHandler_9BE8::m_156": "DispatchFloatingPointException",
+ "TransformGameObjectHandler_9BE8::m_1D4": "InitializeCodePageCTypeTables",
+ "TransformGameObjectHandler_9BE8::m_264": "ConvertIntegerToWideString"
+}

@@ -1,0 +1,8 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_34E2::m_51F": "GcPrintf",
+ "VRCNetworkBehaviourSibling_BF5Sibling_34E2::m_95D": "RegisterGcObjectKind",
+ "VRCNetworkBehaviourSibling_BF5Sibling_34E2::m_EEE": "GcPrintf",
+ "VRCNetworkBehaviourSibling_BF5Sibling_34E2::m_F2B": "GcLogPrintfChecked",
+ "VRCNetworkBehaviourSibling_BF5Sibling_37FD::m_51F": "MarkPageDirty",
+ "VRCNetworkBehaviourSibling_BF5Sibling_37FD::m_C31": "FindFirstDirtyPage"
+}

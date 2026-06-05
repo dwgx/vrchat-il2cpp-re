@@ -1,0 +1,11 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_50FC::m_6F8": "ConvertWideStringToMultiByte",
+ "VRCNetworkBehaviourSibling_BF5Sibling_50FC::m_937": "GetWideStringLength",
+ "VRCNetworkBehaviourSibling_BF5Sibling_50FC::m_EEE": "GetStringLength",
+ "VRCNetworkBehaviourSibling_BF5Sibling_512A::m_016": "GetTempDirectoryPath",
+ "VRCNetworkBehaviourSibling_BF5Sibling_512A::m_24F": "GetThreadLocaleName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_512A::m_51F": "GetModuleFilePath",
+ "VRCNetworkBehaviourSibling_BF5Sibling_512A::m_6F8": "GetTempDirectoryPath",
+ "VRCNetworkBehaviourSibling_BF5Sibling_512A::m_C01": "GetThreadLocaleName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_512A::m_CF3": "GetModuleFilePath"
+}

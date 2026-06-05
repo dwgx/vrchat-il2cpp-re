@@ -1,0 +1,6 @@
+{
+ "EyeAndHeadAnimatorSibling_1207::m_054": "MoveTowardsWithSeparateSpeeds",
+ "EyeAndHeadAnimatorSibling_1207::m_1F3": "LerpQuaternionClamped",
+ "EyeAndHeadAnimatorSibling_1207::m_636": "EvaluateEasingCurve",
+ "EyeAndHeadAnimatorSibling_1207::m_687": "GetSetBitIndices"
+}

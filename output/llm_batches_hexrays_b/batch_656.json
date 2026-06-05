@@ -1,0 +1,112 @@
+[
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_1EB",
+  "cv_key": "UpdateHeight_62CF::m_1EB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807B8150(\n        __int64 (__fastcall *a1)(__int64, __int128 *, __int64, __int128 *, __int128 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4)\n{\n  __int128 v6; // xmm0\n  __int64 v7; // r8\n  __int64 v8; // xmm1_8\n  __int128 *v9; // rax\n  __int128 *v10; // r9\n  __int128 v12; // [rsp+30h] [rbp-28h] BYREF\n  __int64 v13; // [rsp+40h] [rbp-18h]\n\n  v6 = **a4;\n  v7 = *(unsigned int *)a4[1];\n  v8 = *((_QWORD *)*a4 + 2);\n  v9 = a4[3];\n  v10 = a4[2];\n  v12 = v6;\n  v13 = v8;\n  return a1(a3, &v12, v7, v10, v9, a2);\n}\n"
+ },
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_2BE",
+  "cv_key": "UpdateHeight_62CF::m_2BE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807BD0C0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, __int64, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  return a1(a3, *(_QWORD *)a4, a3, **(unsigned __int8 **)(a4 + 16), **(_QWORD **)(a4 + 24), a2);\n}\n"
+ },
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_2DD",
+  "cv_key": "UpdateHeight_62CF::m_2DD",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807BAEE0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  char v5; // [rsp+20h] [rbp-18h]\n\n  v5 = **(_BYTE **)(a4 + 24);\n  return a1(a3, *(_QWORD *)a4, **(unsigned __int8 **)(a4 + 8), **(unsigned __int8 **)(a4 + 16), v5, a2);\n}\n"
+ },
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_30C",
+  "cv_key": "UpdateHeight_62CF::m_30C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807BCD40(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _BYTE *, _BYTE *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  __int64 v8; // rcx\n  __int64 v9; // rax\n  unsigned __int64 v10; // rdx\n  __int64 v11; // rcx\n  unsigned __int64 v12; // rcx\n  void *v13; // rsp\n  void *v14; // rsp\n  _BYTE *v15; // rsi\n  __int64 v16; // rcx\n  __int64 v17; // rax\n  unsigned __int64 v18; // rdx\n  __int64 v19; // rcx\n  unsigned __int64 v20; // rcx\n  void *v21; // rsp\n  void *v22; // rsp\n  _BYTE *v23; // rdi\n  _BYTE v25[16]; // [rsp+30h] [rbp+0h] BYREF\n\n  v8 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 16LL);\n  if ( *(int *)(v8 + 8) >= 0 )\n  {\n    v15 = (_BYTE *)a4[2];\n  }\n  else\n  {\n    v9 = sub_180A844A0((_QWORD *)v8);\n    if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n      v9 = sub_180A4EBA0(v9);\n    v10 = *(unsigned int *)(v9 + 252);\n    v11 = v10 + 15;\n    if ( v10 + 15 < v10 )\n      v11 = 0xFFFFFFFFFFFFFF0LL;\n    v12 = v11 & 0xFFFFFFFFFFFFFFF0uLL;\n    v13 = alloca(v12);\n    v14 = alloca(v12);\n    v15 = v25;\n    sub_180B276D0(v25, a4[2], v10);\n  }\n  v16 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 24LL);\n  if ( *(int *)(v16 + 8) >= 0 )\n  {\n    v23 = (_BYTE *)a4[3];\n  }\n  else\n  {\n    v17 = sub_180A844A0((_QWORD *)v16);\n    if ( (*(_BYTE *)(v17 + 309) & 1) == 0 )\n      v17 = sub_180A4EBA0(v17);\n    v18 = *(unsigned int *)(v17 + 252);\n    v19 = v18 + 15;\n    if ( v18 + 15 < v18 )\n      v19 = 0xFFFFFFFFFFFFFF0LL;\n    v20 = v19 & 0xFFFFFFFFFFFFFFF0uLL;\n    v21 = alloca(v20);\n    v22 = alloca(v20);\n    v23 = v25;\n    sub_180B276D0(v25, a4[3], v18);\n  }\n  return a1(a3, *a4, a4[1], v15, v23, a2);\n}\n"
+ },
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_380",
+  "cv_key": "UpdateHeight_62CF::m_380",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807B8ED0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, unsigned int *, unsigned int *, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4)\n{\n  char v5; // [rsp+20h] [rbp-18h]\n\n  v5 = *(_BYTE *)a4[3];\n  return a1(a3, **a4, a4[1], a4[2], v5, a2);\n}\n"
+ },
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_4EC",
+  "cv_key": "UpdateHeight_62CF::m_4EC",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807BD470(\n        __int64 (__fastcall *a1)(__int64, __int64, __int64 *, _QWORD, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4)\n{\n  __int64 *v4; // rax\n  __int64 v5; // xmm0_8\n  __int64 v6; // rdx\n  char *v7; // rax\n  unsigned __int8 *v8; // r9\n  char v10; // [rsp+20h] [rbp-28h]\n  __int64 v12; // [rsp+30h] [rbp-18h] BYREF\n  int v13; // [rsp+38h] [rbp-10h]\n\n  v4 = (__int64 *)a4[1];\n  v5 = *v4;\n  v6 = *a4;\n  v13 = *((_DWORD *)v4 + 2);\n  v7 = (char *)a4[3];\n  v8 = (unsigned __int8 *)a4[2];\n  v12 = v5;\n  v10 = *v7;\n  return a1(a3, v6, &v12, *v8, v10, a2);\n}\n"
+ },
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_5F4",
+  "cv_key": "UpdateHeight_62CF::m_5F4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807BEAE0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, unsigned __int16 *, _QWORD, unsigned __int16 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned __int16 **a4)\n{\n  return a1(a3, **a4, a4[1], *a4[2], a4[3], a2);\n}\n"
+ },
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_5FE",
+  "cv_key": "UpdateHeight_62CF::m_5FE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807BD660(\n        __int64 (__fastcall *a1)(__int64, __int64, __int64 *),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4)\n{\n  __int64 v4; // rdx\n  __int64 *v5; // rax\n  __int64 v6; // xmm0_8\n  __int64 v8; // [rsp+40h] [rbp-18h] BYREF\n  int v9; // [rsp+48h] [rbp-10h]\n\n  v4 = *a4;\n  v5 = (__int64 *)a4[1];\n  v6 = *v5;\n  v9 = *((_DWORD *)v5 + 2);\n  v8 = v6;\n  return a1(a3, v4, &v8);\n}\n"
+ },
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_645",
+  "cv_key": "UpdateHeight_62CF::m_645",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807BAEE0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  char v5; // [rsp+20h] [rbp-18h]\n\n  v5 = **(_BYTE **)(a4 + 24);\n  return a1(a3, *(_QWORD *)a4, **(unsigned __int8 **)(a4 + 8), **(unsigned __int8 **)(a4 + 16), v5, a2);\n}\n"
+ },
+ {
+  "class": "UpdateHeight_62CF",
+  "class_obf": "ÎÏÏÎÏÏÌÍÏÌÎÏÍÏÍÏÌÌÏÏÌÌÏ",
+  "parent": "",
+  "method": "m_86D",
+  "cv_key": "UpdateHeight_62CF::m_86D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807B8550(\n        __int64 (__fastcall *a1)(__int64, __int64, __int64, _OWORD *, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4)\n{\n  unsigned int *v4; // rax\n  __int64 v7; // r8\n  __int128 v8; // xmm1\n  __int64 v9; // rdx\n  __int64 v10; // xmm0_8\n  unsigned int *v11; // rax\n  __int128 v12; // xmm0\n  _OWORD v15[2]; // [rsp+30h] [rbp-68h] BYREF\n  __int64 v16; // [rsp+50h] [rbp-48h]\n  _OWORD v17[2]; // [rsp+60h] [rbp-38h] BYREF\n  __int64 v18; // [rsp+80h] [rbp-18h]\n\n  v4 = a4[3];\n  v7 = *(unsigned __int8 *)a4[1];\n  v8 = *((_OWORD *)v4 + 1);\n  v9 = **a4;\n  v15[0] = *(_OWORD *)v4;\n  v10 = *((_QWORD *)v4 + 4);\n  v11 = a4[2];\n  v15[1] = v8;\n  v16 = v10;\n  v12 = *((_OWORD *)v11 + 1);\n  v17[0] = *(_OWORD *)v11;\n  *(_QWORD *)&v8 = *((_QWORD *)v11 + 4);\n  v17[1] = v12;\n  v18 = v8;\n  return a1(a3, v9, v7, v17, v15, a2);\n}\n"
+ }
+]

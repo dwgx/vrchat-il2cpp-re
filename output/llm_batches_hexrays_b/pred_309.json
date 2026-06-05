@@ -1,0 +1,7 @@
+{
+ "NetworkSyncable_B5C5::m_DFD": "get_Item",
+ "NetworkSyncable_B5C5::m_E28": "Dispose",
+ "NetworkSyncable_B5C5::m_F02": "Dispose",
+ "NetworkSyncable_B5C5::m_FE6": "Dispose",
+ "RoomTransformJoinedComponent_F739::m_3E6": "GetHashCode"
+}

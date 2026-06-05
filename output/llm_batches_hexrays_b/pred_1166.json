@@ -1,0 +1,5 @@
+{
+ "CleanupDisposeStaticMethods_50F1::m_055": "ResizeSparseHashTable",
+ "CleanupDisposeStaticMethods_50F1::m_15C": "SwapSparseHashTables",
+ "CleanupDisposeStaticMethods_857F::m_2CD": "BuildIndexHistograms"
+}

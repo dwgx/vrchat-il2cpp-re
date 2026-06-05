@@ -1,6 +1,5 @@
 {
- "VRCNetworkBehaviourSibling_BF5Sibling_080A::m_016": "ReportSecurityFailure",
- "VRCNetworkBehaviourSibling_BF5Sibling_080A::m_6EA": "ReportSecurityFailure",
- "VRCNetworkBehaviourSibling_BF5Sibling_080A::m_C01": "InitializeCpuFeatureFlags",
- "VRCNetworkBehaviourSibling_BF5Sibling_080A::m_CF3": "InitializeCpuFeatureFlags"
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_076": "LastIndexOf",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_299": "LastIndexOf",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_464": "LastIndexOf"
 }

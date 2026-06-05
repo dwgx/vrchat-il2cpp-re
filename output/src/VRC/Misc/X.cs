@@ -9,16 +9,28 @@ namespace VRC.Misc
     public class x00Derived_5203 : x00
     {
         // ── Methods ──
+        public void ValueTextEquals_233E27EFDD19(){} // RVA: 0x7FFAF48CC6A0 | overloaded x2
+        public void TryGetGuid_11908D2C8430(){} // RVA: 0x7FFAF48CD390 | overloaded x2
+        public void GetCurrentState(){} // RVA: 0x7FFAF48CBA00
+        public void Read(){} // RVA: 0x7FFAF48CBE50
+        public void CopyString(){} // RVA: 0x7FFAF48CC010
+        public void GetInt32(){} // RVA: 0x7FFAF48CC830
         public void GetIsHuman(){} // RVA: 0x7FFAF48CCA20
+        public void GetInt64(){} // RVA: 0x7FFAF48CCBB0
+        public void GetDecimal(){} // RVA: 0x7FFAF48CCD40
+        public void GetGuid(){} // RVA: 0x7FFAF48CCED0
         public void .ctor(){} // RVA: 0x7FFAF48CD740 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF48CD200
-        // ── 18 unresolved (hash) ──
+        public void AsBytes(){} // RVA: 0x7FFAF48CD8B0
+        // ── Unresolved (hash) ──
         public void m_C64(){} // RVA: 0x7FFAF2D8D320
         public void m_EF0(){} // RVA: 0x7FFAF48CB4F0
-        public void m_233(){} // RVA: 0x7FFAF48CC6A0
-        public void m_119(){} // RVA: 0x7FFAF48CD390
         public void m_5F9(){} // RVA: 0x7FFAF30E74D0
-        // ... 13 more unresolved methods
+        public void m_D6E(){} // RVA: 0x7FFAF48CBB90
+        public void m_F59(){} // RVA: 0x7FFAF48CC120
+        public void m_103(){} // RVA: 0x7FFAF48CC3E0
+        public void m_9FB(){} // RVA: 0x7FFAF2F476A0
+        public void m_F64(){} // RVA: 0x7FFAF48CD520
     }
 
 }

@@ -1,0 +1,6 @@
+{
+ "AnimatedTextureBaseImpl_0682_3A0F::m_A09": "InitializeAllocatorPage",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_A32": "CollectAllocatorGarbage",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_A7F": "ScanMemoryRangeForAllocatorPointers",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_AB2": "AllocateAllocatorSegment"
+}

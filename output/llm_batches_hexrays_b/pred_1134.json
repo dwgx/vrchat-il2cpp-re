@@ -1,0 +1,9 @@
+{
+ "ApplicationHandler_1E40::m_2D7": "ConstructSparseHashTable",
+ "ApplicationHandler_1E40::m_314": "PrintMetadataCacheStats",
+ "ApplicationHandler_1E40::m_370": "SetGCHandleTarget",
+ "ApplicationHandler_1E40::m_4F2": "RunGCFinalizerThread",
+ "ApplicationHandler_1E40::m_550": "AllocateSparseHashBuckets",
+ "ApplicationHandler_1E40::m_578": "InitializeCtypeFacet",
+ "ApplicationHandler_1E40::m_6DF": "ConstructBadCastException"
+}

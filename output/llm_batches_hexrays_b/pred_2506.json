@@ -1,0 +1,10 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E68::m_24F": "CalculateExponential",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E68::m_2F0": "CalculateExponential",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E68::m_410": "CalculateExponential",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E68::m_6F8": "ReduceExponentialArgument",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E68::m_C01": "ReduceExponentialArgument",
+ "VRCNetworkBehaviourSibling_BF5Sibling_5E68::m_CF3": "CalculateExponential",
+ "VRCNetworkBehaviourSibling_BF5Sibling_6014::m_45A": "ApplyShaderKeywordState",
+ "VRCNetworkBehaviourSibling_BF5Sibling_6014::m_575": "ApplyDisabledShaderKeywords"
+}

@@ -9,17 +9,22 @@ namespace VRC.Misc
     public class Matrix4x4Handler_D3B9
     {
         // ── Methods ──
+        public void GetMatrix4x4(){} // RVA: 0x7FFAFB7169D0
         public void ProcessMatrix4x4(){} // RVA: 0x7FFAFB716A80
+        public void SetMatrix4x4(){} // RVA: 0x7FFAFB716A00
         public void Start(){} // RVA: 0x7FFAFB7175B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB7177A0
-        // ── 11 unresolved (hash) ──
-        public void m_226(){} // RVA: 0x7FFAFB7169D0
+        // ── Unresolved (hash) ──
         public void m_5BB(){} // RVA: 0x7FFAFB716A00
         public void m_479(){} // RVA: 0x7FFAFB716EA0
         public void m_972(){} // RVA: 0x7FFAFB7172F0
         public void m_6DF(){} // RVA: 0x7FFAFB717300
-        // ... 6 more unresolved methods
+        public void m_C8F(){} // RVA: 0x7FFAFB717320
+        public void m_FFA(){} // RVA: 0x7FFAFB717350
+        public void m_BAB(){} // RVA: 0x7FFAFB717300
+        public void m_7A0(){} // RVA: 0x7FFAFB717320
+        public void m_E0C(){} // RVA: 0x7FFAFB717320
     }
 
     /// <summary>Originally: ÏÏÎÌÍÍÎÌÎÍÍÏÌÏÌÏÏÎÍÎÍÏÌ</summary>

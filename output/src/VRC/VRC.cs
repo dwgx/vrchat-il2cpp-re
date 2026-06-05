@@ -22,10 +22,9 @@ namespace VRC
         public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
         public void ToString(){} // RVA: 0x7FFAF466F340
         public void ProcessChildTransforms(){} // RVA: 0x7FFAF466E8E0
+        public void GetHashCode_8AE5DD7929B7(){} // RVA: 0x7FFAF466F470
+        public void Equals_648472B1FD23(){} // RVA: 0x7FFAF466EB90
         public void Initialize_F7395667B5A5(){} // RVA: 0x7FFAF466F7D0
-        // ── Unresolved (hash) ──
-        public void m_8AE(){} // RVA: 0x7FFAF466F470
-        public void m_648(){} // RVA: 0x7FFAF466EB90
     }
 
     public class BackgroundOption
@@ -36,8 +35,8 @@ namespace VRC
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF4611FB0
         public void get_Preview(){} // RVA: 0x7FFAF2E0A740
-        public void set_BackgroundName(){} // RVA: 0x7FFAF4612060
-        public void set_IsLoaded(){} // RVA: 0x7FFAF368B960
+        public void set_IsLoaded(){} // RVA: 0x7FFAF4612060
+        public void set_BackgroundName(){} // RVA: 0x7FFAF368B960
         public void get_BackgroundName(){} // RVA: 0x7FFAF368B960
         public void get_DisplayName(){} // RVA: 0x7FFAF2E44D30
         public void get_IsLoaded(){} // RVA: 0x7FFAF4612110

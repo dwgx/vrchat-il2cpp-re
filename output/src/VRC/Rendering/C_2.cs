@@ -1015,33 +1015,34 @@ namespace VRC.Rendering
     public class CamerarenderModelNameSiblRelated_152A
     {
         // ── Methods ──
+        public void Constructor(){} // RVA: 0x7FFAFBC61E70
         public void Start(){} // RVA: 0x7FFAFBC62430
         public void Update(){} // RVA: 0x7FFAFBC623D0
         public void .ctor(){} // RVA: 0x7FFAFBC62F70
-        // ── 13 unresolved (hash) ──
-        public void m_4F7(){} // RVA: 0x7FFAFBC61E70
+        // ── 12 unresolved (hash) ──
         public void m_18B(){} // RVA: 0x7FFAFBC62270
         public void m_3B0(){} // RVA: 0x7FFAFBC62330
         public void m_41F(){} // RVA: 0x7FFAFBC623D0
         public void m_41E(){} // RVA: 0x7FFAFBC62790
-        // ... 8 more unresolved methods
+        public void m_AF5(){} // RVA: 0x7FFAFBC62940
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÌÎÎÌÏÌÏÌÍÎÎÍÌÌÍÌÍÎÍÎÎÌÎ</summary>
     public class CamerarenderModelNameSibling_858A
     {
         // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAFB5E5DF0
+        public void Equals_7607E0AB479A(){} // RVA: 0x7FFAFB5E6230
+        public void Equals_970CBE1BAE38(){} // RVA: 0x7FFAFB5E62B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Start(){} // RVA: 0x7FFAFB5E63A0
         // ── Unresolved (hash) ──
         public void m_3B3(){} // RVA: 0x7FFAFB5E5B90
         public void m_C9E(){} // RVA: 0x7FFAFB5E5C80
-        public void m_2FF(){} // RVA: 0x7FFAFB5E5DF0
         public void m_9AD(){} // RVA: 0x7FFAFB5E5EA0
         public void m_6B3(){} // RVA: 0x7FFAFB5E5F50
         public void m_A74(){} // RVA: 0x7FFAFB5E60C0
-        public void m_760(){} // RVA: 0x7FFAFB5E6230
-        public void m_970(){} // RVA: 0x7FFAFB5E62B0
         public void m_1C9(){} // RVA: 0x7FFAFB5E6510
     }
 
