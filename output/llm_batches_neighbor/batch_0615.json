@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PointerdeselectOnBackgroundClick_E505",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_AF5",
+    "m_C6C",
+    "m_B8E",
+    "m_913",
+    "m_F5D",
+    "m_0D4",
+    "m_AFA",
+    "m_141",
+    "m_C2A",
+    "m_3EB"
+  ]
+}

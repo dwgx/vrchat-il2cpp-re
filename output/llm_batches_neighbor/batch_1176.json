@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "NetworkDisposeAsync_9716_92D8",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "CompareTo",
+    "CompareTo_9FC8BF2DB93B",
+    "GetStructuralHashCode",
+    "CompareTo_897021AC5028",
+    "GetStructuralHashCode_E93213852AD7",
+    ".ctor",
+    "Initialize",
+    "Dispose",
+    "DisposeAsync",
+    "Finalize"
+  ],
+  "hash_methods": [
+    "m_8B5",
+    "m_90A",
+    "m_872",
+    "m_130",
+    "m_ED0"
+  ]
+}

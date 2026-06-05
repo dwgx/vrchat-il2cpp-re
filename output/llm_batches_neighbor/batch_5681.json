@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_2EBB",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_6FE",
+    "m_2E2",
+    "m_DF1",
+    "m_4EB",
+    "m_537",
+    "m_C26",
+    "m_CA5",
+    "m_9A8",
+    "m_C82",
+    "m_624"
+  ]
+}

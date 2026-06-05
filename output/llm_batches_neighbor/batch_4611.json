@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSiblingSibling_2844",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SetLocalPosition",
+    "SetLocalPosition_8112E7B1AC50",
+    "SetLocalPosition_3FD8B2AD542B",
+    "SetLocalPosition_4B650A22FC22"
+  ],
+  "hash_methods": [
+    "m_73C",
+    "m_41A",
+    "m_07E",
+    "m_361",
+    "m_252"
+  ]
+}

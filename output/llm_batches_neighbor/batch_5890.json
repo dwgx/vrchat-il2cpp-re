@@ -1,0 +1,33 @@
+{
+  "namespace": "",
+  "class": "ComponentGameObjectHandler_5E4C",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "Awake",
+    "OnEnable",
+    "OnTriggerExit",
+    "OnDisable",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_E5B",
+    "m_486",
+    "m_4E1",
+    "m_2E5",
+    "m_A11",
+    "m_782",
+    "m_059"
+  ]
+}

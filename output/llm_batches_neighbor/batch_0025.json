@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "op_Implicit",
+    "GetCachedPtr",
+    "RunOnThreadPool",
+    "Equals",
+    ".ctor",
+    ".ctor_10D6F73CF6B6",
+    "Equals_B78EB17DD61D",
+    ".cctor",
+    "ToString_B7D4826962F6"
+  ],
+  "hash_methods": [
+    "m_D40"
+  ]
+}

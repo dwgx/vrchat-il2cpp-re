@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Instantiate",
+    ".ctor",
+    ".cctor",
+    "Instantiate_9AE2469E9AF6",
+    "op_Implicit",
+    "DoInverseInjecte",
+    "ApplyTypesAndLevels",
+    "ToString",
+    "Instantiate_1D14DCEAEA52"
+  ],
+  "hash_methods": [
+    "m_74F",
+    "m_939",
+    "m_A9E",
+    "m_A1B"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "ShaderHandler_CF38",
+  "parent": "",
+  "named_methods": [
+    "ProcessShader",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_392",
+    "m_2B9",
+    "m_DEE",
+    "m_CAF",
+    "m_405"
+  ]
+}

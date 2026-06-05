@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_AAEE",
+  "parent": "",
+  "named_methods": [
+    "System.Collections.IEnumerator.Reset",
+    "get_Current",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "Equals",
+    "GetHashCode",
+    "ToString",
+    "System.IDisposable.Dispose",
+    "System.Collections.IEnumerator.get_Current",
+    ".ctor",
+    "Initialize",
+    "Dispose",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_F88",
+    "m_C45"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "GradientHandler_9BEB",
+  "parent": "",
+  "named_methods": [
+    "Init",
+    "Init_931875C0EA1C",
+    "Init_CEAA7B587549",
+    "Init_2391204C1E5C",
+    "Init_71E3ED0DC0E8",
+    ".ctor",
+    "Initialize",
+    "Init_3D4E64940EB9",
+    "Init_05748CFC0FD6",
+    "Init_DB064A44E159",
+    "Init_25F2B5DDCA03",
+    "Init_FEA472AE990D"
+  ],
+  "hash_methods": [
+    "m_533",
+    "m_882",
+    "m_840"
+  ]
+}

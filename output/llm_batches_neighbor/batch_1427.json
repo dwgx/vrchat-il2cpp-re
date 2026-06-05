@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_CC93",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "System.IDisposable.Dispose",
+    "Equals",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "GetHashCode",
+    "MoveNext",
+    "ToString",
+    "Dispose",
+    ".ctor",
+    "Initialize",
+    "System.Collections.IEnumerator.get_Current",
+    "System.Collections.IEnumerator.Reset"
+  ],
+  "hash_methods": [
+    "m_2A0"
+  ]
+}

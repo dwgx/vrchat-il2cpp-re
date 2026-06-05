@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "AnimationComponentHandler_9F93",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "Start",
+    "OnCollisionExit",
+    "OnTriggerEnter"
+  ],
+  "hash_methods": [
+    "m_A9A",
+    "m_126"
+  ]
+}

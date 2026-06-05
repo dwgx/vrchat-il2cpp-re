@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeSibling_52C7",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    "CancelInvoke",
+    ".ctor",
+    "Start",
+    "OnEnable",
+    ".ctor_F5D8351B397B",
+    "Initialize",
+    "OnEnable_D0464AFDB597",
+    "OnDisable_115EBB5FBE58",
+    "Update",
+    "OnDisable115EBB5FBE58",
+    "OnDisable",
+    "UpdateONSPAmbisonicsNative"
+  ],
+  "hash_methods": [
+    "m_2B4",
+    "m_3CB",
+    "m_98C"
+  ]
+}

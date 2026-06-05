@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PhysicsTransformSystem_DCE8",
+  "parent": "",
+  "named_methods": [
+    "ProcessPhysics",
+    "Start",
+    "ProcessPhysics",
+    "Awake",
+    "ProcessPhysics",
+    "OnDestroy",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "ProcessPhysics"
+  ],
+  "hash_methods": [
+    "m_961",
+    "m_D7A"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncable_9834",
+  "parent": "",
+  "named_methods": [
+    "GenerateComponentInfo",
+    "Start",
+    "Decode",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "set_UniqueHash",
+    "Decode",
+    "get_UniqueHash",
+    "NeedsSync",
+    "NeedsImportant",
+    "SerializedName",
+    "Encode",
+    "set_TypeId",
+    "Encode",
+    "OnDestroy",
+    "get_TypeId",
+    "CanSerialize8Bit",
+    "CanSerialize32Bit",
+    "CanUsePersistenceHashes"
+  ],
+  "hash_methods": [
+    "m_D36",
+    "m_4C6",
+    "m_D0C",
+    "m_811",
+    "m_540",
+    "m_E66",
+    "m_62C",
+    "m_5A2",
+    "m_480",
+    "m_55B"
+  ]
+}

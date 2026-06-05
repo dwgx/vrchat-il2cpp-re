@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSiblingSSibling_CB07",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Dispose",
+    "Cleanup",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_03A",
+    "m_41A",
+    "m_DE1",
+    "m_EEF",
+    "m_B6A",
+    "m_716"
+  ]
+}

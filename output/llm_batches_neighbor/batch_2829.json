@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static17m_B88F",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Update",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_028",
+    "m_EEF",
+    "m_FDD",
+    "m_1C3",
+    "m_8BE",
+    "m_340",
+    "m_C2F",
+    "m_DE0",
+    "m_1EA",
+    "m_F23"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSibling_0BA2",
+  "parent": "",
+  "named_methods": [
+    "GetValueOrDefault",
+    "GetValueOrDefault_A3B4FB31945D",
+    "GetValueOrDefault_7A90F186935F",
+    "ClearValueReferences",
+    "Update",
+    "ConstructFromGenericValue",
+    "ConstructFromGenericValue_3E8B95F85E57",
+    "ConstructFromGenericValue_408D7EE74BF3",
+    "ConstructFromGenericValue_2C4FA85F8A29",
+    "ClearReferences",
+    "ConstructFromGenericValue_39B287319E37",
+    "OnDestroy",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "ConstructFromGenericValue_75756B0D0978",
+    "ConstructFromGenericValue_3E885B73235C",
+    "MoveNext",
+    "ToString",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_249",
+    "m_CDD",
+    "m_C4F",
+    "m_34C",
+    "m_A85",
+    "m_4B7",
+    "m_283",
+    "m_EE1",
+    "m_0B8",
+    "m_26B"
+  ]
+}

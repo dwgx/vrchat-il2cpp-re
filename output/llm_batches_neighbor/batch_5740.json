@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "poolSizeSiblingSibling_328D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    "ToString_DB75B9494292",
+    "ToString_651C9CC6E1B2",
+    "ToString",
+    "ToString_538160D4B4FC"
+  ],
+  "hash_methods": [
+    "m_BF7",
+    "m_DEB",
+    "m_8D9",
+    "m_D4B",
+    "m_4E6",
+    "m_DDC",
+    "m_EC5",
+    "m_E44",
+    "m_EC5",
+    "m_EC5"
+  ]
+}

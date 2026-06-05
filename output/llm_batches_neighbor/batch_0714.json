@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_DCDF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "get_Current",
+    "Equals",
+    "System.Collections.IEnumerator.Reset",
+    "System.Collections.IEnumerator.get_Current",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "GetHashCode",
+    "ToString",
+    "Dispose",
+    "System.IDisposable.Dispose",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_C45",
+    "m_E82"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Set_AADF",
+  "parent": "",
+  "named_methods": [
+    "Set",
+    "ReadRectOffsetState",
+    "ReadRectOffsetState_5507653532AA",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_4AA",
+    "m_AAF",
+    "m_359",
+    "m_3C2"
+  ]
+}

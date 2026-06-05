@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static12m_AC65",
+  "parent": "",
+  "named_methods": [
+    "GetTransformPosition",
+    "ProcessGizmos",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_62B",
+    "m_1DC",
+    "m_659",
+    "m_343",
+    "m_1DE",
+    "m_EF5",
+    "m_E8E",
+    "m_561",
+    "m_C78"
+  ]
+}

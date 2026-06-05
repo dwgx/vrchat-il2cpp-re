@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "NetworkPlayerDateComponent_4403",
+  "parent": "",
+  "named_methods": [
+    "ConfigureTransform",
+    "ConfigureTransform_FE4F59BFDF2A",
+    "ConfigureTransform_C35A24F749F1",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible"
+  ],
+  "hash_methods": [
+    "m_219"
+  ]
+}

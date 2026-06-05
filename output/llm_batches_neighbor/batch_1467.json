@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "ctorDerived_64B1",
+  "parent": ".ctor",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_203",
+    "m_E6F"
+  ]
+}

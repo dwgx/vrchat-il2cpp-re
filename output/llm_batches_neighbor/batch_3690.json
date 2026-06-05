@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSiblingSibling_4932",
+  "parent": "",
+  "named_methods": [
+    "SortUnmanagedArrayWithComparer",
+    "SortUnmanagedArrayWithComparer_0CBB3338B084",
+    "SortUnmanagedArrayWithComparer_FB952E181EDD",
+    "SortUnmanagedArrayWithComparer_5E9B179AFAD8",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_B82",
+    "m_1DA"
+  ]
+}

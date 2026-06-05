@@ -1,0 +1,7 @@
+{
+ "TransformPhysicsSystem_923C::m_8C4": "Dispose",
+ "TransformPhysicsSystem_923C::m_8CC": "MoveNext",
+ "TransformPhysicsSystem_923C::m_8FF": "MarshalCollisionRecordShapeToNative",
+ "TransformPhysicsSystem_923C::m_8D2": "MarshalCollisionRecordFromNative",
+ "TransformPhysicsSystem_923C::m_93B": "CreateRigidTransformMatrix"
+}

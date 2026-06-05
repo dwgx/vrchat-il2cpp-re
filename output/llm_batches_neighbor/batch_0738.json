@@ -1,0 +1,39 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySiblingRelated_6465",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "UpdateRotation",
+    "UpdateRotation_A17F8F8DB49A",
+    "UpdateRotation_59B6BD141E41",
+    "GetActiveSelf",
+    "GetScreenWidth",
+    "GetLocalScale",
+    "GetLocalScale_D370DE04599E",
+    "GetLocalScale_9C30C2336A19",
+    "UseFABRIK",
+    "GetLocalScale_A1DED85BE73F",
+    "FindLastIndex",
+    "IndexOf",
+    "Add",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "GetLocalScale_A85E3366D41B",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_DA5",
+    "m_C66",
+    "m_9FD",
+    "m_C17",
+    "m_A34",
+    "m_527",
+    "m_BFB",
+    "m_94C",
+    "m_553",
+    "m_8F3"
+  ]
+}

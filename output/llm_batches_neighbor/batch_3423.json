@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "WorldSpawnSibling_B0D0",
+  "parent": "",
+  "named_methods": [
+    "get_Item",
+    "get_Item_D96B488E71E3",
+    "OnDisable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "get_Item_C6BD2019EA11",
+    "GetObjectType"
+  ],
+  "hash_methods": [
+    "m_1DA",
+    "m_080",
+    "m_933",
+    "m_B36",
+    "m_A77",
+    "m_A66",
+    "m_63E",
+    "m_83E",
+    "m_276",
+    "m_75A"
+  ]
+}

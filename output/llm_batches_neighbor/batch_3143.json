@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_3FC7",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "IndexOf",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_EC8",
+    "m_440",
+    "m_015",
+    "m_DB9",
+    "m_4D8",
+    "m_4E8"
+  ]
+}

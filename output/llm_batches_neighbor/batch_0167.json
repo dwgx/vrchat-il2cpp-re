@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "FindObjectFromInstanceID",
+    "GetHashCode",
+    "GetCachedPtr_D1DB55C06365",
+    "GetIntegerFromDelegate",
+    ".cctor",
+    "InternalCloneSingle",
+    "op_Implicit",
+    "GetCachedPtr",
+    "GetInstanceID",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_531",
+    "m_C7F",
+    "m_667",
+    "m_290",
+    "m_87E",
+    "m_5BB",
+    "m_9A4"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "BehaviourHandler_0E09",
+  "parent": "",
+  "named_methods": [
+    "Ctor",
+    "Ctor_246301CA482D",
+    "RefreshChainEndpointStates",
+    "SetRootPosition",
+    "SetRootPosition_A8A149896077",
+    "OnEnable",
+    "Start",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_C2F",
+    "m_A45",
+    "m_584",
+    "m_A66",
+    "m_53F",
+    "m_44C",
+    "m_AC7",
+    "m_A74",
+    "m_31B"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "CameraTransformHandler_8D72",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetCurrent",
+    "ReadCameraProperties"
+  ],
+  "hash_methods": [
+    "m_DE6",
+    "m_D3F",
+    "m_F90",
+    "m_187",
+    "m_334"
+  ]
+}

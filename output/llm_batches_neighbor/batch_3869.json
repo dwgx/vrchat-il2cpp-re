@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "ApplicationHandler_D531",
+  "parent": "",
+  "named_methods": [
+    "TryEnterMonitor",
+    ".ctor",
+    "Initialize",
+    "GetHostByNameInternal",
+    "GetHostByAddressInternal",
+    ".ctor",
+    "SetFieldValueWithWriteBarrier"
+  ],
+  "hash_methods": [
+    "m_F6F",
+    "m_D85",
+    "m_BD4",
+    "m_E0D",
+    "m_FAC",
+    "m_917",
+    "m_3E2",
+    "m_196"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+ "AnimatedTextureBaseImpl_0682_3A0F::m_00A": "SweepHeapBlock",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_0D4": "ScanMemoryRangeForAllocatorPointers",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_0E2": "AllocateHeapSection",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_16D": "CollectAllocatorGarbage",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_190": "AllocateAllocatorSegment",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_1E4": "CollectAllocatorGarbage",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_211": "ProcessDirtyHeapPages",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_264": "CollectALittle"
+}

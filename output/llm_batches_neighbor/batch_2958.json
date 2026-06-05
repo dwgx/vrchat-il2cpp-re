@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PointerDrag_B5E7",
+  "parent": "",
+  "named_methods": [
+    "OnDrag",
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_C51",
+    "m_3CB",
+    "m_C30",
+    "m_A74",
+    "m_6B3",
+    "m_6A5",
+    "m_AF9",
+    "m_0EA",
+    "m_90B"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "PointerPreCullSiblingSibling_4DB5",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "InvokeNativeWithMarshaledStrings",
+    "InvokeAllSubscribers",
+    "Awake",
+    "Start",
+    "InvokeNativeWithMarshaledStringBuilder",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_294",
+    "m_570"
+  ]
+}

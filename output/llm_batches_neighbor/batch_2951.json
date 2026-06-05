@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static18m_3DC3",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_533",
+    "m_B70",
+    "m_658"
+  ]
+}

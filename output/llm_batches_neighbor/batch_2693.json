@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_7169",
+  "parent": "",
+  "named_methods": [
+    "GetComponentGameObject",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DE0",
+    "m_F7C",
+    "m_2EA",
+    "m_425",
+    "m_DFC",
+    "m_2F0",
+    "m_A9B",
+    "m_D97",
+    "m_252",
+    "m_D99"
+  ]
+}

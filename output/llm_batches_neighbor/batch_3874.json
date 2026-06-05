@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "TextureCalculateLayoutInputHorSibling_D16A",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "IndexOf",
+    "SetLocalPosition",
+    "LastIndexOf",
+    "SetLocalPosition_7A61E13E1031",
+    "IndexOf_3FBAAAC528DA",
+    "LastIndexOf_01EA8C5FC048",
+    "IndexOf_F190A6FAB1FC",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_64C",
+    "m_330",
+    "m_ECF",
+    "m_1B3",
+    "m_E91"
+  ]
+}

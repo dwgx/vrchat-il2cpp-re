@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "Static33m_6315",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    "OnDestroy",
+    ".cctor",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "GetComponentTransform"
+  ],
+  "hash_methods": [
+    "m_419",
+    "m_027",
+    "m_45A",
+    "m_703",
+    "m_98A",
+    "m_FC3",
+    "m_080",
+    "m_90E",
+    "m_7DF",
+    "m_7BF"
+  ]
+}

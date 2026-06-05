@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "MachineAsyncStateMachine_3F82",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "MoveNext_EC87777A0E0A",
+    "MoveNext",
+    "GetHashCode",
+    "InternalGetHashCode",
+    "SetStateMachine",
+    "SetStateMachine_DB9331771C7C"
+  ],
+  "hash_methods": [
+    "m_E82",
+    "m_4D8"
+  ]
+}

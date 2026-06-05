@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "AvatarCullingMonitor",
+  "parent": "",
+  "named_methods": [
+    "get_AvatarCullableShouldRun_C3ED81CFFC4B",
+    "set_AvatarCullableShouldRun",
+    ".ctor",
+    "Initialize",
+    "set_AvatarScreenSizeAboveTriggerThreshold",
+    ".ctor_AFD8230A6BE3",
+    "Dispose",
+    "Cleanup",
+    "get_AvatarScreenSizeAboveTriggerThreshold",
+    "set_AvatarKindValidForExecution",
+    "Dispose_6096FC2D9640",
+    "get_AvatarKindValidForExecution",
+    "get_AvatarCullableShouldRun",
+    "ToString",
+    "SteamVR_Behaviour_Boolean_OnState",
+    "RefreshAvatarCullingState"
+  ],
+  "hash_methods": [
+    "m_47A"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "CreateDestroyInstanceID",
+    "op_Implicit",
+    "SetRectAnchorsAction",
+    ".cctor",
+    "SyncTransform",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_EF0",
+    "m_320",
+    "m_9B0"
+  ]
+}

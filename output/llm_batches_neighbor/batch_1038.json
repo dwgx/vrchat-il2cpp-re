@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSiblinSibling_BD57",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "RaiseCancellation",
+    "Update_5DD80D1858F8",
+    "Initialize",
+    "Start_C9ED83B2DF2E",
+    "Start_C9ED83B2DF2E_6D2DD3015DA1",
+    "Update",
+    ".ctor",
+    "OnCollisionExit",
+    "StartCoroutine_Auto"
+  ],
+  "hash_methods": [
+    "m_11A",
+    "m_028"
+  ]
+}

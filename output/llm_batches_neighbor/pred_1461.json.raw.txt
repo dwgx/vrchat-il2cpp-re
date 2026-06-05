@@ -1,0 +1,8 @@
+{
+  "m_AF9": "BakingOutput",
+  "m_4F5": "CullingMask",
+  "m_32B": "Flare",
+  "m_BFD": "Intensity",
+  "m_F25": "ShadowStrength",
+  "m_08E": "Type"
+}

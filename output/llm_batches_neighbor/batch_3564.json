@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "WorldSpawn_532E",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "ToString",
+    "ToString_0A7B97492D9E",
+    "Equals_C281B1493FE5",
+    "Start",
+    "Ctor",
+    "OnSpawn",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_E1A",
+    "m_DA6",
+    "m_0C3"
+  ]
+}

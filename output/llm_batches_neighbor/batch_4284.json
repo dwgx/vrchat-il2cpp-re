@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "FocusInvisibleComponent_A29D",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "OnEnable",
+    "OnDisable",
+    "LateUpdate",
+    "Update",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_C9E"
+  ]
+}

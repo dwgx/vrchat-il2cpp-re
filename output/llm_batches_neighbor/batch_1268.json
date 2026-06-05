@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_D874",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "ContainsObject",
+    "Equals",
+    "Equals_7F663E5CC641",
+    "Equals_DB9331771C7C",
+    "MoveNext",
+    "ToString",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_015",
+    "m_4E8"
+  ]
+}

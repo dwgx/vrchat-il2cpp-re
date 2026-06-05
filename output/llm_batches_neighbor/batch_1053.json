@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "QuaternionTransformHandler_3B98",
+  "parent": "",
+  "named_methods": [
+    "UpdateRotation",
+    ".ctor",
+    "Initialize",
+    "GetTime"
+  ],
+  "hash_methods": [
+    "m_53A",
+    "m_011",
+    "m_94F",
+    "m_5E1",
+    "m_8F7"
+  ]
+}

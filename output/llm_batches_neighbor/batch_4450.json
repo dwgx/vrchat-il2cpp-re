@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_A812",
+  "parent": "",
+  "named_methods": [
+    "CopyNullTerminatedString",
+    "CopyNullTerminatedString_C312ECDE5915",
+    "CopyNullTerminatedString_6F8246576AC4",
+    "Dispose",
+    "Cleanup",
+    "DecrementMultibyteStringPointer"
+  ],
+  "hash_methods": [
+    "m_CF3",
+    "m_C01"
+  ]
+}

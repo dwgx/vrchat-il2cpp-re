@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "ReadLossyScale",
+    ".ctor",
+    "Initialize",
+    ".ctor_693D7FCB26A6",
+    "CompareBaseObjects"
+  ],
+  "hash_methods": [
+    "m_86D",
+    "m_C15",
+    "m_B75",
+    "m_BC6"
+  ]
+}

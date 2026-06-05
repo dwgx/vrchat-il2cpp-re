@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "NetworkShouldBroadcastInsRelated_D61B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ReadCapsuleColliderState",
+    "ProcessGameObject",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_689",
+    "m_2C7",
+    "m_B96",
+    "m_6DF",
+    "m_768"
+  ]
+}

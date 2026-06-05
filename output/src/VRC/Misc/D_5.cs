@@ -489,24 +489,19 @@ namespace VRC.Misc
         public void Disconnect(){} // RVA: 0x7FFAF4531800
         public void Dispose(){} // RVA: 0x7FFAF4531CD0
         public void Cleanup(){} // RVA: 0x7FFAF4531E00
-        public void ToString(){} // RVA: 0x7FFAF4531FB0
-        public void ToString_5ED31A938208(){} // RVA: 0x7FFAF4531FC0
         public void .ctor(){} // RVA: 0x7FFAF45320C0
         public void Initialize(){} // RVA: 0x7FFAF4532310
-        public void ToString_A6629907C5C7(){} // RVA: 0x7FFAF4532410
         public void Receive(){} // RVA: 0x7FFAF45325D0
-        public void ToString_0FD26FD1E717(){} // RVA: 0x7FFAF4532630
-        public void ToString_4172A78AA0B9(){} // RVA: 0x7FFAF45327C0
         public void ReadAudioSourceState(){} // RVA: 0x7FFAF4532990
         public void Connect(){} // RVA: 0x7FFAF4532B30
         public void Send(){} // RVA: 0x7FFAF4533660
-        // ── Unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_2A6(){} // RVA: 0x7FFAF4531B30
-        public void m_252(){} // RVA: 0x7FFAF45332D0
-        public void m_F82(){} // RVA: 0x7FFAF45332E0
-        public void m_85D(){} // RVA: 0x7FFAF45334A0
-        public void m_29C(){} // RVA: 0x7FFAF4533810
-        public void m_00D(){} // RVA: 0x7FFAF45339A0
+        public void m_4CC(){} // RVA: 0x7FFAF4531FB0
+        public void m_5ED(){} // RVA: 0x7FFAF4531FC0
+        public void m_A66(){} // RVA: 0x7FFAF4532410
+        public void m_0FD(){} // RVA: 0x7FFAF4532630
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÎÌÏÎÍÏÏÍÎÍÎÍÏÏÎÌÏÏÏÏÎ</summary>

@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "CleanupDisposeFinalizeStaticMethods_438C",
+  "parent": "",
+  "named_methods": [
+    "InitializeBucketsAndSlots",
+    "ProcessTransform",
+    "InitializeBucketsAndSlots_0F4CEFF77E12",
+    ".ctor",
+    "Initialize",
+    "InitializeBucketsAndSlots_0E3696DF137D",
+    "Dispose",
+    "Cleanup",
+    ".ctor",
+    "Finalize",
+    "InitializeBucketsAndSlots_70B407EA62A7",
+    "CopyTo",
+    "ConstructWithCapacityAndComparer"
+  ],
+  "hash_methods": [
+    "m_871",
+    "m_D4F",
+    "m_E27",
+    "m_E85",
+    "m_BBB",
+    "m_093"
+  ]
+}

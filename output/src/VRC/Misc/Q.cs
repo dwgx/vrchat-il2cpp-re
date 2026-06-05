@@ -183,15 +183,15 @@ namespace VRC.Misc
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3640410
-        public void GetHashCode(){} // RVA: 0x7FFAF3640AD0
         public void GetBoxedValue(){} // RVA: 0x7FFAF3640D30
-        public void Equals(){} // RVA: 0x7FFAF3640F90
-        public void ToString(){} // RVA: 0x7FFAF36411F0
         // ── Unresolved (hash) ──
         public void m_362(){} // RVA: 0x7FFAF363FF80
         public void m_1F2(){} // RVA: 0x7FFAF36401B0
         public void m_5DE(){} // RVA: 0x7FFAF3640670
         public void m_285(){} // RVA: 0x7FFAF36408A0
+        public void m_AA1(){} // RVA: 0x7FFAF3640AD0
+        public void m_9AD(){} // RVA: 0x7FFAF3640F90
+        public void m_096(){} // RVA: 0x7FFAF36411F0
     }
 
     /// <summary>Originally: ÎÍÏÌÏÏÌÍÍÏÌÏÌÌÌÏÌÍÍÎÎÏÏ</summary>
@@ -296,11 +296,11 @@ namespace VRC.Misc
     public class QuaternionHandler_CBC9
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x7FFAF363FAD0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
         public void m_AFC(){} // RVA: 0x7FFAF363F8D0
         public void m_984(){} // RVA: 0x7FFAF363F9D0
+        public void m_474(){} // RVA: 0x7FFAF363FAD0
         public void m_B00(){} // RVA: 0x7FFAF363FBD0
         public void m_418(){} // RVA: 0x7FFAF363FCD0
         public void m_E43(){} // RVA: 0x7FFAF363FDD0

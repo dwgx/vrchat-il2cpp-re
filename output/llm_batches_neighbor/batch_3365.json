@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_ACDE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Update",
+    "OnDestroy",
+    "GetRealtimeSinceStartup",
+    "Start",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_8D6",
+    "m_815",
+    "m_8FA",
+    "m_BD0",
+    "m_C3B",
+    "m_AF1",
+    "m_C58",
+    "m_190",
+    "m_79C"
+  ]
+}

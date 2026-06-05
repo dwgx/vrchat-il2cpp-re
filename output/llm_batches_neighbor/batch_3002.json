@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_B23FSibling_4465",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "LateUpdate",
+    "OnDisable",
+    "OnApplicationPause",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_7FD",
+    "m_053"
+  ]
+}

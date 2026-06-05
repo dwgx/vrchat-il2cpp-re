@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_F100",
+  "parent": "",
+  "named_methods": [
+    "DumpRuntimeStats",
+    "DumpRuntimeStats_B036D1D8C9DA",
+    "Initialize",
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "GetNativeStackTrace"
+  ],
+  "hash_methods": [
+    "m_84A",
+    "m_5A8",
+    "m_76C",
+    "m_62F",
+    "m_B72",
+    "m_1D0",
+    "m_57B",
+    "m_D51"
+  ]
+}

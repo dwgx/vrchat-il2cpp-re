@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    ".cctor",
+    "GetLossyScale",
+    "GetCachedPtr",
+    "GetComponentGameObject",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_051",
+    "m_1CD",
+    "m_B67",
+    "m_DDC",
+    "m_4F2",
+    "m_22D"
+  ]
+}

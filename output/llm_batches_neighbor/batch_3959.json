@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_8D5F",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "ConfigureTransform",
+    "SetSizeDelta",
+    "ShrinkBufferIfNeeded",
+    "SetAnchorMin"
+  ],
+  "hash_methods": [
+    "m_C01",
+    "m_CF3"
+  ]
+}

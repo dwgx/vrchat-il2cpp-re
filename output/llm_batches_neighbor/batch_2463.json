@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeSibliRelated_9953",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "SetCacheWritingBehavior",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_F9F",
+    "m_4DE",
+    "m_F46",
+    "m_F0F",
+    "m_338",
+    "m_A41",
+    "m_9A5",
+    "m_889",
+    "m_3CB"
+  ]
+}

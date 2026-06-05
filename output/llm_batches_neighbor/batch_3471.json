@@ -1,0 +1,43 @@
+{
+  "namespace": "",
+  "class": "DrawGizmosBehaviour_7AAC",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "GetHashCode",
+    "Awake",
+    "OnEnable",
+    "OnDrawGizmos",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "Start",
+    "OnBecameInvisible",
+    "OnDisable",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "OnBecameVisible",
+    "GetHashCode_F9E5A7BAC453",
+    "OnCollisionEnter",
+    "OnDrawGizmos_4ECD830DA794",
+    ".ctor",
+    "Initialize",
+    "GetHashCode_F3EE1F9B3CCC",
+    "GetScreenWidth"
+  ],
+  "hash_methods": [
+    "m_CD9",
+    "m_28B",
+    "m_410",
+    "m_07D",
+    "m_EC3",
+    "m_185",
+    "m_6DD"
+  ]
+}

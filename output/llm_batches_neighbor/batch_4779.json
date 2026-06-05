@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSibling_8DA1",
+  "parent": "",
+  "named_methods": [
+    "RemoveAtSwapBack",
+    ".ctor",
+    "Initialize",
+    "SetItem",
+    "ContainsEntry",
+    "RemoveAtSwapBack_3751C1E87A43",
+    "InsertItem",
+    "GetEnumerator",
+    "InsertItem_D5C16A906E72",
+    "ConstructWithCapacity",
+    "AddEntry",
+    "RemoveEntry"
+  ],
+  "hash_methods": [
+    "m_0CB",
+    "m_BF4",
+    "m_953"
+  ]
+}

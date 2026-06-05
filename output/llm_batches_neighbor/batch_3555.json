@@ -1,0 +1,41 @@
+{
+  "namespace": "",
+  "class": "ConditionElementUIComponent_3620",
+  "parent": "",
+  "named_methods": [
+    "NormalizeConditionElementPositions",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "Update",
+    "Awake",
+    "OnDestroy",
+    "OnDisable",
+    "FixedUpdate",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    ".cctor",
+    "DisableConditionElementBehaviours",
+    "DisableConditionElementBehaviours_921F1BC54C0C",
+    "OnTriggerExit",
+    "FindMatchingConditionElement"
+  ],
+  "hash_methods": [
+    "m_F15",
+    "m_746",
+    "m_455",
+    "m_B0A",
+    "m_A66",
+    "m_7BE",
+    "m_C11",
+    "m_D8B",
+    "m_912"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    ".cctor",
+    ".ctor",
+    "get_name",
+    "SetGameObjectActive",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_EDB",
+    "m_49E"
+  ]
+}

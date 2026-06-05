@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_3DE6",
+  "parent": "",
+  "named_methods": [
+    "FollowTargetLateUpdate",
+    "SetStateMachine",
+    "Save",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_EC8",
+    "m_4E8",
+    "m_124",
+    "m_752",
+    "m_63A",
+    "m_06D"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "namespace": "RealisticEyeMovements",
+  "class": "ControlData",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    "Equals",
+    "GetHashCode",
+    ".ctor_8342C7B12B9F",
+    "Initialize",
+    "IsNativeObjectAlive",
+    "GetCachedPtr",
+    "get_name",
+    "set_name",
+    "Instantiate",
+    "ToString",
+    "InitializeControlData",
+    "InitializeControlDataDestroy",
+    "UpdateConditionalField",
+    ".ctor",
+    "InitializeStaticContext",
+    "GetInitializedValue",
+    "InitializeManagerState",
+    "Destroy",
+    "ProcessIndexedEyeControl",
+    "DestroyImmediate",
+    "SetIndexedBytesConditional",
+    "FindObjectsOfType",
+    "GetIndexedBooleanConditional",
+    "FindObjectsByType",
+    "SetIndexedByteConditional",
+    "DontDestroyOnLoad"
+  ],
+  "hash_methods": [
+    "m_1B3",
+    "m_B98"
+  ]
+}

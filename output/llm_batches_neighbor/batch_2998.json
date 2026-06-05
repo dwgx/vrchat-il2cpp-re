@@ -1,0 +1,38 @@
+{
+  "namespace": "",
+  "class": "PhotonUserConnectionComponent_5CF6",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "ToString_B381175974AF",
+    ".ctor",
+    "Initialize",
+    "ToString_AA4BA3A75ECE",
+    "ToString_621A79BC54A6",
+    "Equals",
+    "GetHashCode",
+    "ReadBehaviourState",
+    "GetHashCode_15BFCE6F8803",
+    "Awake",
+    "OnEnable",
+    "GetHashCode_813BF5377F95",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "Start",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit"
+  ],
+  "hash_methods": [
+    "m_AEC"
+  ]
+}

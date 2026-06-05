@@ -1,0 +1,8 @@
+{
+ "VRC_MainSibling_C23A::m_60A": "MarshalFixedInt64AndInt32ArraysFromNative",
+ "VRC_MainSibling_C23A::m_634": "MarshalFixedInt64ArrayFromNative",
+ "VRC_MainSibling_C23A::m_7EB": "TryGetNextItem",
+ "VRC_MainSibling_C23A::m_969": "Marshal128ByteArrayFromNative",
+ "VRC_MainSibling_C23A::m_9AD": "MarshalFixedInt64AndInt32ArraysFromNative",
+ "VRC_MainSibling_C23A::m_9D2": "MarshalEmbeddedByteArraysToNative"
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static30m_A3B3",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_1AE",
+    "m_DE0",
+    "m_F9E",
+    "m_EAC",
+    "m_ECE",
+    "m_370",
+    "m_4B0",
+    "m_AC9",
+    "m_B87",
+    "m_A2B"
+  ]
+}

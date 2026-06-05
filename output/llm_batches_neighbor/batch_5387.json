@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "0DerivedSiblingSiblingSibling_84FB",
+  "parent": "",
+  "named_methods": [
+    "GetPlaybackSpeed",
+    "GetPlaybackSpeed_369E068FC120",
+    "GetPlaybackSpeed_9A4E691737CC"
+  ],
+  "hash_methods": [
+    "m_A97",
+    "m_FA8",
+    "m_31B",
+    "m_867",
+    "m_81E",
+    "m_9CB",
+    "m_DF9",
+    "m_FCE"
+  ]
+}

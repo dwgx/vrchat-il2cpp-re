@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponentImpl_AB77SibSibling_D79B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Equals",
+    "Equals_EC51628DBEDA",
+    "Equals_9A009553BF03",
+    "Awake",
+    "OnDestroy",
+    "OnEnable",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_6F5",
+    "m_385",
+    "m_B02",
+    "m_852",
+    "m_3C5",
+    "m_C36",
+    "m_7B4"
+  ]
+}

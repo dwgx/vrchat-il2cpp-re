@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSiblinSibling_CABA",
+  "parent": "",
+  "named_methods": [
+    "Update_3CB451386F3C",
+    "RaiseCancellation",
+    "Update",
+    "Initialize",
+    "Start_3DC19E05DD1C",
+    "Start",
+    "ProcessTouchpadInput",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "ResetTouchpadState",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_2BE"
+  ]
+}

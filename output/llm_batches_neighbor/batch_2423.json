@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_76ECSibling_22B5",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "GetHashCode_F83B48D532B7",
+    "ReadGameObjectState",
+    "Equals",
+    "Equals_BEE5DCA85D9F",
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_0E8",
+    "m_1B3"
+  ]
+}

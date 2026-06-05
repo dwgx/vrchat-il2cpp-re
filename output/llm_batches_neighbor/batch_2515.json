@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_5CDB",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "GetHashCode",
+    "MarshalToNative",
+    "MarshalFromNative",
+    ".ctor",
+    "Initialize",
+    "GetLocalRotation"
+  ],
+  "hash_methods": [
+    "m_810",
+    "m_E62",
+    "m_F61"
+  ]
+}

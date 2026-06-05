@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_E24E",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "MoveNext_16E3DCF245CC",
+    "MoveNext_D6D6967900A7",
+    "MoveNext_7110DE805B7A",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_00A",
+    "m_9AF",
+    "m_069"
+  ]
+}

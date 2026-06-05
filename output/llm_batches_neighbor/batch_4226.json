@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "PointerClickPointerDown_DD53_BAAC",
+  "parent": "",
+  "named_methods": [
+    "set_MotionBlurCameras",
+    "OnPointerClick",
+    "OnPointerUp_FFEB12D2540B",
+    "get_Transform",
+    "get_PlatformOptionsIOS",
+    "OnPointerDown",
+    ".ctor",
+    "Initialize",
+    "Initialize_23168FBD6849",
+    "ConfigureGameObject",
+    "OnPointerUp",
+    "Awake",
+    "get_CaptureFailedRequests",
+    "OnMove",
+    "OnPointerDown_8DE4CE549796",
+    "get_PlatformOptionsMacOSX",
+    "get_taglineText"
+  ],
+  "hash_methods": [
+    "m_02A"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "WorldSpawnSibling_8F8F",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Equals_F6F4D82B9F31",
+    "ToString",
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    "Equals_F7CD6D57D3FB",
+    "Equals_A7429DE798D1",
+    "GetHashCode_6BC14F167AE5",
+    "Start",
+    "GetHashCode_2A4D26641644",
+    "Equals_D08E6766C3CB"
+  ],
+  "hash_methods": [
+    "m_A30"
+  ]
+}

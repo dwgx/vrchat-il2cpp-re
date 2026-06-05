@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextCannedSiblingSibling_4725",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    "RaiseCancellation",
+    ".ctor",
+    "Initialize",
+    "Update_944DB11DDD0F",
+    "Update_2B4F45D701AE",
+    "Update",
+    "RefreshOVRLipSyncContext",
+    "ResolveOVRLipSyncContext",
+    "LoadLibraryEx",
+    "InitializeOVRLipSyncContext"
+  ],
+  "hash_methods": [
+    "m_37F"
+  ]
+}

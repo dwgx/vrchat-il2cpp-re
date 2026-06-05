@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "AvatarActiveServiceComponent_F46C",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "CopyTo",
+    "IndexOf_FA06A15A2338",
+    "CopyTo_0D5D28E4120E",
+    "CopyTo_5788E04DB109",
+    "Awake",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    ".ctor",
+    "OnEnable",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter"
+  ],
+  "hash_methods": [
+    "m_F8B",
+    "m_159",
+    "m_870",
+    "m_EA8",
+    "m_2A2",
+    "m_C97",
+    "m_9CA",
+    "m_F68",
+    "m_6A7"
+  ]
+}

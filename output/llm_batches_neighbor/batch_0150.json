@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "SetVoxelSize",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "GetCachedPtr",
+    "FailFast",
+    ".ctor_08FE3543CFEA"
+  ],
+  "hash_methods": [
+    "m_E8C",
+    "m_7D9",
+    "m_216",
+    "m_525"
+  ]
+}

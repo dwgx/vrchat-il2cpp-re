@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_8750",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    "ToString",
+    "ToString_DE0B56F79B01"
+  ],
+  "hash_methods": [
+    "m_2A7",
+    "m_C15",
+    "m_239",
+    "m_61B",
+    "m_D7C",
+    "m_938"
+  ]
+}

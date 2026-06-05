@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_A704",
+  "parent": "",
+  "named_methods": [
+    "ProcessDependentHandles",
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "AllocateGCHandle",
+    "AllocateGCHandle_AF51B7F10F5A",
+    "WalkStrongGCHandleTargets_31B927F603EA",
+    "SetGCHandleTarget",
+    "SetGCHandleTarget_3E18FB24F600",
+    "WalkStrongGCHandleTargets_31B927F603EA",
+    "WalkStrongGCHandleTargets_FC39ED2A494F"
+  ],
+  "hash_methods": [
+    "m_BEB",
+    "m_E41"
+  ]
+}

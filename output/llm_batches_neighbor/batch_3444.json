@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitHandlerSibling_F5E4",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "Awake",
+    "OnDestroy",
+    "ReadComponentState",
+    "Update",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A56",
+    "m_29D",
+    "m_CA4",
+    "m_815",
+    "m_27D",
+    "m_E26",
+    "m_407",
+    "m_988",
+    "m_5F9",
+    "m_AFE"
+  ]
+}

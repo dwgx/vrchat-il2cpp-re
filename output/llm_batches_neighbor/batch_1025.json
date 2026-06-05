@@ -1,0 +1,36 @@
+{
+  "namespace": "",
+  "class": "PointerDownPointerUpSibling_6D85",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "LateUpdate",
+    "OnPointerDown",
+    "OnPointerUp",
+    "OnDisable",
+    "ToString_33F99D076637",
+    "ToString_390C53F61B5C",
+    "RandomRangeInt",
+    "ToString_33F0B26745F6",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "RandomRangeInt_764F3F9D476C",
+    "GetHashCode_255C87503434",
+    "GetHashCode_1FAA60BCBA5C",
+    "OnEnable",
+    "GetHashCode_0D7AEDF89223"
+  ],
+  "hash_methods": [
+    "m_9B4",
+    "m_445",
+    "m_AED",
+    "m_8F9",
+    "m_F8E",
+    "m_71C",
+    "m_690",
+    "m_667",
+    "m_A57",
+    "m_F06"
+  ]
+}

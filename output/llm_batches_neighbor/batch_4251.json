@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Service39m_7C91",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    ".cctor",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_5ED",
+    "m_E51",
+    "m_641",
+    "m_1D4",
+    "m_068",
+    "m_973",
+    "m_A10",
+    "m_F39",
+    "m_A12",
+    "m_967"
+  ]
+}

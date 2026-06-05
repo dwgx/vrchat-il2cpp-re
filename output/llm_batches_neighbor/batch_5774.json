@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static24m_F46E",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "Start",
+    "OnEnable",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_AF8",
+    "m_A81",
+    "m_84A",
+    "m_7A6",
+    "m_BCE",
+    "m_E70",
+    "m_79A",
+    "m_A22",
+    "m_87E",
+    "m_1C0"
+  ]
+}

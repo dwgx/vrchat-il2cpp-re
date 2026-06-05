@@ -231,7 +231,6 @@ namespace VRC.Udon
         public void set_ResultBytes(){} // RVA: 0x7FFAF2DE8CE0
         public void RefreshUdonBehaviourResultBytes(){} // RVA: 0x7FFAF2DBB130
         public void set_Url(){} // RVA: 0x7FFAF2DE8CD0
-        public void SetStateMachine(){} // RVA: 0x7FFAF2DB5200
         public void HandleUdonBehaviourResultBytes(){} // RVA: 0x7FFAF2F4B830
         public void .ctor(){} // RVA: 0x7FFAF3107160
         public void get_Url(){} // RVA: 0x7FFAF2F476A0
@@ -244,6 +243,8 @@ namespace VRC.Udon
         public void set_ErrorCode_985A7F61E844(){} // RVA: 0x7FFAF2DBB130
         public void StartDownload(){} // RVA: 0x7FFAF3107560
         public void SetNetworkIDCollection(){} // RVA: 0x7FFAF2DE8CD0
+        // ── Unresolved (hash) ──
+        public void m_255(){} // RVA: 0x7FFAF2DB5200
     }
 
     /// <summary>Originally: ÏÏÌÌÏÌÎÏÎÎÍÍÎÍÍÌÍÌÌÏÏÎÌ</summary>

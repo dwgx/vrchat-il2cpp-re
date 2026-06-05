@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static12m_F743",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_764",
+    "m_A3D",
+    "m_F7D",
+    "m_B34",
+    "m_AB9",
+    "m_B6B",
+    "m_B4B",
+    "m_8B1"
+  ]
+}

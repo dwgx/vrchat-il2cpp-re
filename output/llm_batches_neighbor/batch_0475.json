@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "Frame",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    "Equals",
+    "GetHashCode",
+    "op_Implicit",
+    "CompareBaseObjects",
+    ".ctor",
+    "Initialize",
+    "get_name",
+    "set_name"
+  ],
+  "hash_methods": [
+    "m_BE4",
+    "m_DE0"
+  ]
+}

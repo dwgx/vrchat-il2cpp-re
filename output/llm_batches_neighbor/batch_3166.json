@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSibling_7D1C",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    ".ctor",
+    "Initialize",
+    "GetCullingMask",
+    "CacheLocalRotation_9BD050448E21",
+    "CacheLocalRotation_60BC6280D4D8",
+    "CacheLocalRotation_9BD050448E21"
+  ],
+  "hash_methods": [
+    "m_D7D",
+    "m_4B3",
+    "m_CAD",
+    "m_164",
+    "m_543",
+    "m_1D5",
+    "m_47B",
+    "m_EAA",
+    "m_023"
+  ]
+}

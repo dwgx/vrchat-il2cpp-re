@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "TransformGameObjectHandler_FFAD",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_DF9",
+    "m_F88",
+    "m_E64",
+    "m_91E",
+    "m_F60",
+    "m_DB9",
+    "m_6C9",
+    "m_4A8",
+    "m_0A5",
+    "m_596"
+  ]
+}

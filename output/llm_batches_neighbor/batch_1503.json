@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_9CE5",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_FD4",
+    "m_893",
+    "m_C56",
+    "m_9C2",
+    "m_F3B",
+    "m_120",
+    "m_E33",
+    "m_01F",
+    "m_BAE",
+    "m_EF4"
+  ]
+}

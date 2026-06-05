@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "SetToggleStateAndRefresh",
+    "ConfigureBehaviourEnabled",
+    "ConfigureBehaviourEnabled_7B74EB05986C",
+    "ToString_8DBE4E32A1D0",
+    ".ctor",
+    "set_name",
+    "ReadComponentState",
+    ".cctor",
+    "set_name_181C50C30DE3"
+  ],
+  "hash_methods": [
+    "m_8D0",
+    "m_12F"
+  ]
+}

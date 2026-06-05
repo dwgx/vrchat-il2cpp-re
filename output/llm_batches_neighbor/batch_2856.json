@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_A209",
+  "parent": "",
+  "named_methods": [
+    "RaiseUnhandledException",
+    "FormatDoubleToStringBuffer",
+    "ToLowerLocale"
+  ],
+  "hash_methods": [
+    "m_F7C",
+    "m_4D0",
+    "m_9CA",
+    "m_AEE",
+    "m_166",
+    "m_CCF"
+  ]
+}

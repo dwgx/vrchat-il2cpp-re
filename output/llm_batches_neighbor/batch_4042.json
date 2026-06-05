@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_BB68",
+  "parent": "",
+  "named_methods": [
+    "get_MainCamera",
+    ".ctor",
+    "Initialize",
+    "get_MainCamera_1922BC71A742",
+    "StringToHash",
+    "set_MainCamera"
+  ],
+  "hash_methods": [
+    "m_C47",
+    "m_695",
+    "m_79E",
+    "m_27E",
+    "m_BFE",
+    "m_65A",
+    "m_E17",
+    "m_93B",
+    "m_223"
+  ]
+}

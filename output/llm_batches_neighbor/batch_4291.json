@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_D810",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "Equals",
+    "System.IDisposable.Dispose",
+    "GetHashCode",
+    "System.Collections.IEnumerator.get_Current",
+    "System.Collections.IEnumerator.Reset",
+    "ToString",
+    ".ctor",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "MoveNext",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_E82"
+  ]
+}

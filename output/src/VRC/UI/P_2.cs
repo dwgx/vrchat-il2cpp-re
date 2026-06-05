@@ -134,10 +134,13 @@ namespace VRC.UI
     public class PointerClickPointerEnter_2318
     {
         // ── Methods ──
+        public void IsPointerEnterRecent(){} // RVA: 0x7FFAFBE9D440
+        public void IsPointerTargetActiveOrWhitelisted(){} // RVA: 0x7FFAFBE9D750
+        public void IsValidPointerTarget(){} // RVA: 0x7FFAFBE9D7E0
         public void OnDisable(){} // RVA: 0x7FFAFBE9D8E0
+        public void IsValidPointerTarget_5BE8F73D7937(){} // RVA: 0x7FFAFBE9DA20
         public void OnDestroy(){} // RVA: 0x7FFAFBE9DB30
         public void OnPointerClick(){} // RVA: 0x7FFAFBE9E130
-        public void ToString(){} // RVA: 0x7FFAF855F010
         public void OnPointerExit(){} // RVA: 0x7FFAFBE9E330
         public void Awake(){} // RVA: 0x7FFAFBE9E580
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
@@ -145,13 +148,13 @@ namespace VRC.UI
         public void SetCullingMask(){} // RVA: 0x7FFAFB6AA4D0
         public void OnPointerEnter(){} // RVA: 0x7FFAFBE9F090
         public void Deconstruct(){} // RVA: 0x7FFAF33108D0
-        // ── 49 unresolved (hash) ──
-        public void m_F81(){} // RVA: 0x7FFAFBE9D440
+        // ── 46 unresolved (hash) ──
         public void m_9C3(){} // RVA: 0x7FFAFBE9D550
         public void m_0E9(){} // RVA: 0x7FFAF2E555A0
         public void m_ADA(){} // RVA: 0x7FFAFBE9D690
         public void m_A0A(){} // RVA: 0x7FFAFBE9D6B0
-        // ... 44 more unresolved methods
+        public void m_F98(){} // RVA: 0x7FFAF2D8D310
+        // ... 41 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÏÏÌÌÏÌÌÎÌÏÎÎÎÏÏÍÎÎÌÌÍ</summary>
@@ -346,14 +349,14 @@ namespace VRC.UI
         public void Initialize(){} // RVA: 0x7FFAFB8E0340
         public void Awake(){} // RVA: 0x7FFAFB8E0530
         public void OnDestroy(){} // RVA: 0x7FFAFB8E05C0
-        public void Equals(){} // RVA: 0x7FFAFB8E06C0
-        public void GetHashCode(){} // RVA: 0x7FFAFB8E0750
         public void SetBounceCombine(){} // RVA: 0x7FFAFB8E07E0
         public void SetBounciness(){} // RVA: 0x7FFAFB8E08E0
         public void OnPointerClick(){} // RVA: 0x7FFAFB8E09E0
         public void SetFrictionCombine(){} // RVA: 0x7FFAFB8E0B40
         // ── Unresolved (hash) ──
         public void m_7FD(){} // RVA: 0x7FFAFB8E04A0
+        public void m_385(){} // RVA: 0x7FFAFB8E06C0
+        public void m_CB2(){} // RVA: 0x7FFAFB8E0750
     }
 
     /// <summary>Originally: ÎÍÌÌÎÎÏÎÌÎÏÌÍÌÌÍÎÍÏÌÏÌÏ</summary>
@@ -581,11 +584,11 @@ namespace VRC.UI
     public class PointerDown_52ED
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAFBD68270
         public void Start(){} // RVA: 0x7FFAFBD69110
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void OnPointerDown(){} // RVA: 0x7FFAFBD69D00
         // ── Unresolved (hash) ──
+        public void m_855(){} // RVA: 0x7FFAFBD68270
         public void m_335(){} // RVA: 0x7FFAFBD68710
         public void m_C30(){} // RVA: 0x7FFAFBD68BB0
         public void m_744(){} // RVA: 0x7FFAFBD69650
@@ -701,10 +704,11 @@ namespace VRC.UI
         public void OnPointerExit_CBDDE2E7F6B7(){} // RVA: 0x7FFAF3E6A830
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3E6AA00
-        public void MoveNext(){} // RVA: 0x7FFAF3E6AAB0
-        public void MoveNext_3B2B989846C2(){} // RVA: 0x7FFAF3E6AC70
-        public void MoveNext_10CFD69CF99F(){} // RVA: 0x7FFAF3E6ADB0
-        public void MoveNext_A85E3366D41B(){} // RVA: 0x7FFAF3E6B070
+        // ── Unresolved (hash) ──
+        public void m_1B1(){} // RVA: 0x7FFAF3E6AAB0
+        public void m_3B2(){} // RVA: 0x7FFAF3E6AC70
+        public void m_10C(){} // RVA: 0x7FFAF3E6ADB0
+        public void m_A85(){} // RVA: 0x7FFAF3E6B070
     }
 
     /// <summary>Originally: ÏÎÏÏÏÍÍÏÍÎÏÌÌÍÍÎÏÍÌÎÌÎÍ</summary>
@@ -837,32 +841,20 @@ namespace VRC.UI
     public class PointerEnterPointerExitImplImpSibling_18C4
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAF42B8830
-        public void Equals_212154D0E5F9(){} // RVA: 0x7FFAF42B8850
-        public void Equals_C27415B59CA7(){} // RVA: 0x7FFAF42B8970
-        public void Equals_BB817CDB28A5(){} // RVA: 0x7FFAF42B8C00
-        public void Equals_7C434C10C325(){} // RVA: 0x7FFAF42B8E20
         public void UpdateRotation(){} // RVA: 0x7FFAF42B8F40
         public void UpdateRotation_6C404081514D(){} // RVA: 0x7FFAF42B9140
         public void UpdateRotation_0D0D12185653(){} // RVA: 0x7FFAF42B92D0
-        public void Equals_71FCBB6FF5D1(){} // RVA: 0x7FFAF42B9480
-        public void Equals_7DF9765D4A1F(){} // RVA: 0x7FFAF42B95F0
-        public void Equals_036F5B265897(){} // RVA: 0x7FFAF42B9EF0
-        public void Equals_8241B8A7734F(){} // RVA: 0x7FFAF42B9F00
-        public void GetHashCode(){} // RVA: 0x7FFAF42BA5D0
         public void Awake(){} // RVA: 0x7FFAF42BA7F0
         public void OnDestroy(){} // RVA: 0x7FFAF42BA940
-        public void GetHashCode_7AF711048FC7(){} // RVA: 0x7FFAF42BA9F0
-        public void Equals_E5ABD9450BB3(){} // RVA: 0x7FFAF42BAC50
-        public void Equals_2B468E77D9EC(){} // RVA: 0x7FFAF42BACD0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF42BAD60
-        public void GetHashCode_309B420AD415(){} // RVA: 0x7FFAF42BB360
-        public void Equals_8C4B481BF2E6(){} // RVA: 0x7FFAF42BB410
-        public void GetHashCode_7FD28589FE1E(){} // RVA: 0x7FFAF42BB4A0
-        // ── Unresolved (hash) ──
-        public void m_F8F(){} // RVA: 0x7FFAF42BAAA0
-        public void m_195(){} // RVA: 0x7FFAF42B9EF0
+        // ── 18 unresolved (hash) ──
+        public void m_075(){} // RVA: 0x7FFAF42B8830
+        public void m_212(){} // RVA: 0x7FFAF42B8850
+        public void m_C27(){} // RVA: 0x7FFAF42B8970
+        public void m_BB8(){} // RVA: 0x7FFAF42B8C00
+        public void m_7C4(){} // RVA: 0x7FFAF42B8E20
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÎÏÎÍÍÌÍÎÌÏÌÍÍÏÏÏÍÍÏÏÎ</summary>
@@ -898,19 +890,20 @@ namespace VRC.UI
     public class PointerEnterPointerExitImplImpSibling_F80E
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAF42D1340
-        public void GetHashCode(){} // RVA: 0x7FFAF42D15F0
-        public void Equals_3982CD332C01(){} // RVA: 0x7FFAF42D18A0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF42D1A70
-        public void Equals_7F9F4FD726A6(){} // RVA: 0x7FFAF42D1B10
-        public void GetHashCode_C9ED83B2DF2E(){} // RVA: 0x7FFAF42D1C80
-        public void Equals_6C404081514D(){} // RVA: 0x7FFAF42D1F30
         public void Awake(){} // RVA: 0x7FFAF42D2100
         public void OnDestroy(){} // RVA: 0x7FFAF42D21C0
         public void LateUpdate(){} // RVA: 0x7FFAF42D2330
-        public void GetHashCode_EB5AEEEC5C65(){} // RVA: 0x7FFAF42D24A0
         public void Start(){} // RVA: 0x7FFAF42D2610
+        // ── Unresolved (hash) ──
+        public void m_6B3(){} // RVA: 0x7FFAF42D1340
+        public void m_A74(){} // RVA: 0x7FFAF42D15F0
+        public void m_398(){} // RVA: 0x7FFAF42D18A0
+        public void m_7F9(){} // RVA: 0x7FFAF42D1B10
+        public void m_C9E(){} // RVA: 0x7FFAF42D1C80
+        public void m_6C4(){} // RVA: 0x7FFAF42D1F30
+        public void m_EB5(){} // RVA: 0x7FFAF42D24A0
     }
 
     /// <summary>Originally: ÎÎÍÏÌÎÎÌÍÎÏÌÌÍÎÏÏÎÌÎÌÍÎ</summary>
@@ -1029,22 +1022,16 @@ namespace VRC.UI
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8EE660
         public void ProcessPhysics(){} // RVA: 0x7FFAFB8EE840
-        public void Dispose(){} // RVA: 0x7FFAFB8EEED0
-        public void Dispose_921894A43D9D(){} // RVA: 0x7FFAFB8EF490
         public void ConfigureCanvasAdditionalShaderChannels(){} // RVA: 0x7FFAFB8EF980
         public void ProcessPhysics_566F9940ADFB(){} // RVA: 0x7FFAFB8EFA70
         public void Awake(){} // RVA: 0x7FFAFB8EFBA0
-        // ── Unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_D56(){} // RVA: 0x7FFAFB8EDFF0
         public void m_84D(){} // RVA: 0x7FFAFB8EE6A0
+        public void m_1E9(){} // RVA: 0x7FFAFB8EEED0
         public void m_629(){} // RVA: 0x7FFAF2F5ED90
         public void m_F04(){} // RVA: 0x7FFAF2F5ED90
-        public void m_E91(){} // RVA: 0x7FFAFB8EF020
-        public void m_1BB(){} // RVA: 0x7FFAFB8EF110
-        public void m_5A1(){} // RVA: 0x7FFAFB8EF160
-        public void m_ECA(){} // RVA: 0x7FFAFB8EF640
-        public void m_F90(){} // RVA: 0x7FFAFB8EFB60
-        public void m_2C8(){} // RVA: 0x7FFAF2D33FA0
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÍÌÎÎÌÏÌÍÎÏÏÌÏÍÌÎÏÏÏÌÍ</summary>
@@ -1154,7 +1141,6 @@ namespace VRC.UI
     public class PointerEnterPointerExit_4742
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAFB8CC030
         public void get_Value(){} // RVA: 0x7FFAFB8CC810
         public void OnPointerExit(){} // RVA: 0x7FFAFB8CCDA0
         public void Parse(){} // RVA: 0x7FFAFB8CCE30
@@ -1164,6 +1150,7 @@ namespace VRC.UI
         public void OnDestroy(){} // RVA: 0x7FFAFB8CD8E0
         public void OnPointerEnter(){} // RVA: 0x7FFAFB8CDDF0
         // ── Unresolved (hash) ──
+        public void m_A66(){} // RVA: 0x7FFAFB8CC030
         public void m_D7B(){} // RVA: 0x7FFAFB8CC8B0
         public void m_EB9(){} // RVA: 0x7FFAFB8CD2B0
         public void m_B03(){} // RVA: 0x7FFAFB8CD970
@@ -1253,20 +1240,15 @@ namespace VRC.UI
         public void .ctor(){} // RVA: 0x7FFAFB8FA2F0
         public void Initialize(){} // RVA: 0x7FFAFB8FA370
         public void OnDisable(){} // RVA: 0x7FFAFB8FB320
-        public void Dispose(){} // RVA: 0x7FFAFB8FB620
         public void OnDestroy(){} // RVA: 0x7FFAFB8FB7B0
         public void ReadComponentState(){} // RVA: 0x7FFAFB8FB8A0
-        // ── Unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_09F(){} // RVA: 0x7FFAFB8F96B0
         public void m_BFA(){} // RVA: 0x7FFAFB8F9840
         public void m_E32(){} // RVA: 0x7FFAFB8F98F0
         public void m_6B8(){} // RVA: 0x7FFAFB8F9AF0
         public void m_E4E(){} // RVA: 0x7FFAFB8FA130
-        public void m_AF5(){} // RVA: 0x7FFAFB8FA5D0
-        public void m_DD8(){} // RVA: 0x7FFAFB8FA9C0
-        public void m_DE4(){} // RVA: 0x7FFAFB8FAB70
-        public void m_CE1(){} // RVA: 0x7FFAFB8FB0C0
-        public void m_A8E(){} // RVA: 0x7FFAFB8FB420
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÎÎÎÎÎÎÎÎÏÏÌÌÏÏÎÏÍÍÌÏÎ</summary>
@@ -1312,21 +1294,21 @@ namespace VRC.UI
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAFB5F85C0
         public void Initialize(){} // RVA: 0x7FFAFB5F8850
-        public void GetHashCode(){} // RVA: 0x7FFAFB5F8BF0
         public void EqualsObject(){} // RVA: 0x7FFAFB5F8DE0
-        public void Equals(){} // RVA: 0x7FFAFB5F96F0
-        public void Equals_F81AC2416CAD(){} // RVA: 0x7FFAFB5F97B0
         public void AreValuesEqual(){} // RVA: 0x7FFAFB5F9C40
         public void BoxGenericValue(){} // RVA: 0x7FFAFB5F9D20
         public void Start(){} // RVA: 0x7FFAFB5FA1F0
         // ── Unresolved (hash) ──
         public void m_230(){} // RVA: 0x7FFAFB5F8A40
+        public void m_4A5(){} // RVA: 0x7FFAFB5F8BF0
         public void m_30D(){} // RVA: 0x7FFAFB5F8FD0
         public void m_F58(){} // RVA: 0x7FFAFB5F9460
         public void m_104(){} // RVA: 0x7FFAFB5F9460
         public void m_A70(){} // RVA: 0x7FFAFB5F9490
         public void m_7E8(){} // RVA: 0x7FFAFB5F9550
         public void m_B35(){} // RVA: 0x7FFAFB5F9610
+        public void m_BC4(){} // RVA: 0x7FFAFB5F96F0
+        public void m_F81(){} // RVA: 0x7FFAFB5F97B0
     }
 
     /// <summary>Originally: ÎÌÍÌÎÎÏÌÎÍÎÏÏÍÏÏÌÌÍÍÍÏÍ</summary>
@@ -1371,18 +1353,14 @@ namespace VRC.UI
         public void Start(){} // RVA: 0x7FFAFB615D60
         public void .ctor(){} // RVA: 0x7FFAFB616DE0
         public void Initialize(){} // RVA: 0x7FFAFB616E40
-        public void Equals(){} // RVA: 0x7FFAFB617940
-        public void ToString(){} // RVA: 0x7FFAFB6187C0
-        public void GetHashCode(){} // RVA: 0x7FFAFB618870
-        public void ToString_0066DD5F34A7(){} // RVA: 0x7FFAFB618B80
         public void ConfigureTransformLocal(){} // RVA: 0x7FFAFB619300
-        // ── 23 unresolved (hash) ──
+        // ── 27 unresolved (hash) ──
         public void m_7A2(){} // RVA: 0x7FFAFB6154A0
         public void m_874(){} // RVA: 0x7FFAFB6155C0
         public void m_B6E(){} // RVA: 0x7FFAFB6155D0
         public void m_F46(){} // RVA: 0x7FFAFB615B20
         public void m_3F0(){} // RVA: 0x7FFAFB615B60
-        // ... 18 more unresolved methods
+        // ... 22 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÌÏÏÏÌÎÌÌÏÎÍÏÎÎÌÎÏÍÏÌ</summary>
@@ -1394,7 +1372,6 @@ namespace VRC.UI
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFBA236E0
         public void Start(){} // RVA: 0x7FFAFBA23980
-        public void MoveNext(){} // RVA: 0x7FFAFBA23990
         public void UpdateMessage(){} // RVA: 0x7FFAFBA23B20
         public void OnPointerEnter(){} // RVA: 0x7FFAFBA23CF0
         public void OnEnable(){} // RVA: 0x7FFAFBA24410
@@ -1405,13 +1382,13 @@ namespace VRC.UI
         public void OnDisable(){} // RVA: 0x7FFAFBA24C80
         public void OnPointerExit(){} // RVA: 0x7FFAFBA24D30
         public void PrintGarbageCollectorObjectInfo(){} // RVA: 0x7FFAFBA250C0
-        // ── 12 unresolved (hash) ──
+        // ── 13 unresolved (hash) ──
         public void m_93F(){} // RVA: 0x7FFAFBA23150
         public void m_795(){} // RVA: 0x7FFAFBA23320
         public void m_A66(){} // RVA: 0x7FFAFBA233B0
         public void m_2DE(){} // RVA: 0x7FFAFBA23410
         public void m_FA0(){} // RVA: 0x7FFAFBA234C0
-        // ... 7 more unresolved methods
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÎÎÎÎÎÌÍÎÏÎÌÏÍÌÏÍÌÏÏÎÏÍÎ</summary>
@@ -1446,14 +1423,14 @@ namespace VRC.UI
         public void IsResource(){} // RVA: 0x7FFAF4296400
         public void OnDestroy(){} // RVA: 0x7FFAF42962E0
         public void .ctor(){} // RVA: 0x7FFAF42965B0
-        public void Equals(){} // RVA: 0x7FFAF4296600
         public void OnPointerDown_D57C251E4677(){} // RVA: 0x7FFAF42967B0
         public void OnPointerUp(){} // RVA: 0x7FFAF4296960
-        public void Equals_179DB0D809A4(){} // RVA: 0x7FFAF42962E0
+        public void Equals(){} // RVA: 0x7FFAF42962E0
         public void OnDisable(){} // RVA: 0x7FFAF42962E0
         public void OnPointerUp_67BBD331B626(){} // RVA: 0x7FFAF4296A30
         public void OnPointerExit(){} // RVA: 0x7FFAF4296BE0
         // ── Unresolved (hash) ──
+        public void m_7B6(){} // RVA: 0x7FFAF4296600
         public void m_8A3(){} // RVA: 0x7FFAF42962E0
     }
 

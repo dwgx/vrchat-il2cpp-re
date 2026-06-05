@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "FoldoutListRelated_767A",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "ProcessComponent",
+    "ProcessComponent_B2357D085D2E",
+    "Equals_B1EBE0E60FF7",
+    "Equals_7083D7C94DE1"
+  ],
+  "hash_methods": [
+    "m_B80",
+    "m_BCA",
+    "m_9E4",
+    "m_E5F",
+    "m_80E",
+    "m_03B",
+    "m_3A8",
+    "m_3CD",
+    "m_58F",
+    "m_330"
+  ]
+}

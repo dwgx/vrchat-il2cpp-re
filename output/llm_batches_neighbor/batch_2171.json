@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "SerializationRecoveryHandlerSibling_F82B",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "ToString_D05399E5AA79",
+    ".ctor",
+    "Initialize",
+    "ToString_B71C2663FA13",
+    "ToString_4C5A9BD8D8FC",
+    "ToString_25E96967FA1E"
+  ],
+  "hash_methods": [
+    "m_C92",
+    "m_984",
+    "m_A85",
+    "m_3ED",
+    "m_A86"
+  ]
+}

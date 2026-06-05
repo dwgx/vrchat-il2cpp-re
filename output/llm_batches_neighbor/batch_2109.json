@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PointerDeselectCancel_D29E",
+  "parent": "",
+  "named_methods": [
+    "OnCancel",
+    "OnSubmit",
+    "OnDeselect",
+    ".ctor",
+    "Initialize",
+    "OnSelect"
+  ],
+  "hash_methods": [
+    "m_774",
+    "m_CBD",
+    "m_98B",
+    "m_A2A",
+    "m_B58",
+    "m_F99",
+    "m_577"
+  ]
+}

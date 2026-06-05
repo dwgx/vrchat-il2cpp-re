@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformVector3Handler_2588",
+  "parent": "",
+  "named_methods": [
+    "OrthoNormalize2",
+    ".ctor",
+    "Initialize",
+    "ProcessVector3"
+  ],
+  "hash_methods": [
+    "m_9E5",
+    "m_B3D",
+    "m_D94",
+    "m_79D",
+    "m_E28",
+    "m_FF5",
+    "m_B76"
+  ]
+}

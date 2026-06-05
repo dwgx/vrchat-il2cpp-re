@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "Static21m_ECB1",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnDisable",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_B1B",
+    "m_4DE",
+    "m_326",
+    "m_E7B"
+  ]
+}

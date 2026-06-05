@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBeforeTransform_B70F",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "OnDestroy",
+    "Start",
+    "IsActive",
+    "OnRectTransformDimensionsChange",
+    "OnBeforeTransformParentChanged",
+    "OnTransformParentChanged",
+    "OnDidApplyAnimationProperties",
+    "OnCanvasGroupChanged",
+    "OnCanvasHierarchyChanged",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_7C4",
+    "m_25C",
+    "m_5B4",
+    "m_FD6",
+    "m_036",
+    "m_E1B",
+    "m_F60",
+    "m_B48",
+    "m_B48",
+    "m_7F2"
+  ]
+}

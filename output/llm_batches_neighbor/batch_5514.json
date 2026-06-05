@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_265F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "CreateTransformContext",
+    "IsTransformValueEqual",
+    "Equals",
+    "GetChildCount",
+    "GetChildCount_32E076B4B07C"
+  ],
+  "hash_methods": [
+    "m_FFF",
+    "m_070",
+    "m_CFF"
+  ]
+}

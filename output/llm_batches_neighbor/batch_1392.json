@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "ApplicationHandler_19BB",
+  "parent": "",
+  "named_methods": [
+    "InvokeObjectValueBufferReturnBoolean",
+    "OnDestroy",
+    "Start",
+    "InvokeUInt32UInt16ReturnBoolean",
+    ".ctor",
+    "Initialize",
+    "InvokeObjectStruct56ReturnBoolean",
+    "InvokeObjectStruct28ReturnBoolean",
+    "InvokeObjectStruct384ReturnBoolean",
+    "InvokeObjectStruct72ReturnBoolean",
+    "OpenURL",
+    "InvokeTwoStruct136ReturnBoolean"
+  ],
+  "hash_methods": [
+    "m_D8E",
+    "m_EC0"
+  ]
+}

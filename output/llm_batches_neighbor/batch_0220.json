@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "get_name",
+    "Destroy",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "GetHashCode",
+    "GetCachedPtr"
+  ],
+  "hash_methods": [
+    "m_B19",
+    "m_D28",
+    "m_90E",
+    "m_466",
+    "m_BFB",
+    "m_308"
+  ]
+}

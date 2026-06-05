@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "CamerarenderModelNameSiblingSibling_6F5B",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "GetAndClearFloatingPointExceptions",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_08E",
+    "m_DD8",
+    "m_AC7",
+    "m_62B",
+    "m_3B0"
+  ]
+}

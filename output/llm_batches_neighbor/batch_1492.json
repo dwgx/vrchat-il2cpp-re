@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "ApplicationTransformHandler_8FEB",
+  "parent": "",
+  "named_methods": [
+    "GetIsPlaying",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_AA4",
+    "m_525",
+    "m_EA7",
+    "m_31C",
+    "m_E5B",
+    "m_462",
+    "m_B55",
+    "m_636",
+    "m_F55"
+  ]
+}

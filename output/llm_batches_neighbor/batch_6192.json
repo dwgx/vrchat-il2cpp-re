@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_210D",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "MoveNext",
+    "Equals",
+    "GetHashCode",
+    "ToString",
+    "Dispose",
+    "ResolvePlayerMoveNext",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "System.Collections.IEnumerator.get_Current",
+    "System.IDisposable.Dispose",
+    "System.Collections.IEnumerator.Reset",
+    "CheckPlayerMoveNext",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_DB5"
+  ]
+}

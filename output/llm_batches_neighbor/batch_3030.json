@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "Static7m_DA32",
+  "parent": "",
+  "named_methods": [
+    "ConfigureComponent",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B6F",
+    "m_1E6",
+    "m_80D",
+    "m_F59"
+  ]
+}

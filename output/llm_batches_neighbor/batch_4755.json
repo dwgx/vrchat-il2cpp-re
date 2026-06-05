@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_27E6",
+  "parent": "",
+  "named_methods": [
+    "GetUnscaledTime",
+    ".ctor",
+    "Initialize",
+    "GetRealtimeSinceStartup"
+  ],
+  "hash_methods": [
+    "m_6AD",
+    "m_D43",
+    "m_F8C",
+    "m_012",
+    "m_BE8",
+    "m_1E3",
+    "m_48C",
+    "m_A2E",
+    "m_D93"
+  ]
+}

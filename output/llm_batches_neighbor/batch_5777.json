@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_D2B4",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "MoveNext",
+    "System.IDisposable.Dispose",
+    "System.Collections.IEnumerator.get_Current",
+    "Equals",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "GetHashCode",
+    "System.Collections.IEnumerator.Reset",
+    "ToString",
+    "Dispose",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_124",
+    "m_4E7"
+  ]
+}

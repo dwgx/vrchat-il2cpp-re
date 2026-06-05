@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetCachedPtr",
+    "ResolveComponentGameObject",
+    ".ctor",
+    ".cctor",
+    "Initialize",
+    "AddPlatformMotion"
+  ],
+  "hash_methods": [
+    "m_1D0",
+    "m_76C",
+    "m_5A8"
+  ]
+}

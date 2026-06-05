@@ -1,0 +1,20 @@
+{
+ "PhotonRoomHandler_8699::m_4D9": "ReplaceRendererMaterials",
+ "PhotonRoomHandler_8699::m_50C": "CreateReplacementMaterial",
+ "PhotonRoomHandler_8699::m_520": "RemoveAnimationClipsWithEvents",
+ "PhotonRoomHandler_8699::m_5E1": "ClearAnimatorControllerClipEvents",
+ "PhotonRoomHandler_8699::m_605": "RemoveAnimationClipsWithEvents",
+ "PhotonRoomHandler_8699::m_620": "RemoveAnimationClipsWithEvents",
+ "PhotonRoomHandler_8699::m_639": "ReplaceRendererMaterials",
+ "PhotonRoomHandler_8699::m_64C": "SanitizeParticleSystems",
+ "PhotonRoomHandler_8699::m_714": "ClearAnimatorControllerClipEvents",
+ "PhotonRoomHandler_8699::m_724": "ReplaceRendererMaterials",
+ "PhotonRoomHandler_8699::m_82F": "SanitizeParticleSystems",
+ "PhotonRoomHandler_8699::m_862": "ReplaceRendererMaterials",
+ "PhotonRoomHandler_8699::m_8A5": "SetShaderBlocklistMode",
+ "PhotonRoomHandler_8699::m_91A": "SanitizeAudioSources",
+ "PhotonRoomHandler_8699::m_920": "InitializeShaderBlocklists",
+ "PhotonRoomHandler_8699::m_A54": "RefreshSafetySettings",
+ "PhotonRoomHandler_8699::m_AF7": "CreateReplacementMaterial",
+ "PhotonRoomHandler_8699::m_BDC": "ReplaceRendererMaterials"
+}

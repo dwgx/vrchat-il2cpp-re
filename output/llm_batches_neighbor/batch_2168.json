@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSibRelated_5988",
+  "parent": "",
+  "named_methods": [
+    "ConfigureTransformLocal",
+    "SetBlendShapeWeightSkinnedMeshRenderer",
+    ".ctor",
+    "Initialize",
+    "IntrospectiveSort",
+    "SwapArrayElements"
+  ],
+  "hash_methods": [
+    "m_5E9",
+    "m_828"
+  ]
+}

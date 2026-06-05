@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_4914",
+  "parent": "",
+  "named_methods": [
+    "GetStructuralHashCode",
+    "GetStructuralHashCode_AC9E92E1603B",
+    "GetHashCode",
+    "GetHashCode_5AF119285A2D",
+    "GetStructuralHashCode_A3C0838F54F3",
+    ".ctor",
+    "Initialize",
+    "GetHashCode_45FAA0C54EAF"
+  ],
+  "hash_methods": [
+    "m_C32",
+    "m_8E7",
+    "m_941"
+  ]
+}

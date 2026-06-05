@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "TransformMaterialHandler_C08A",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "GetLinearFormat",
+    "SetFloatImpl",
+    "SetFloatImpl_675D27290428",
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_C30"
+  ]
+}

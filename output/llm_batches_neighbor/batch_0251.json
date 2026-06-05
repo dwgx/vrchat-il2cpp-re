@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetCachedPtr",
+    ".cctor",
+    "GetHashCode",
+    "set_name_48AB0CBEF03B",
+    "Instantiate",
+    "Equals_54D2DF5E31C0",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_7DE",
+    "m_314",
+    "m_37A"
+  ]
+}

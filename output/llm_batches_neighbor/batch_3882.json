@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "ApplicationHandler_D69F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_B50",
+    "m_574",
+    "m_EBB",
+    "m_BF4",
+    "m_240",
+    "m_7AD",
+    "m_29C",
+    "m_355",
+    "m_8E8",
+    "m_87A"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "PlayercontrolPathInternal_23AE_8640",
+  "parent": "",
+  "named_methods": [
+    "get_controlPath",
+    ".ctor",
+    "OnPointerExit",
+    "OnPointerUp",
+    ".ctor_A0D953A13964",
+    "OnPointerDown",
+    "SetCompletedSynchronously",
+    "OnPointerDown_85CAB6BC55A0",
+    "get_HasAnyActive",
+    "OnPointerEnter_4D7B72E83928",
+    "OnDisable",
+    "set_controlPathInternal_93B96C8E1284",
+    "set_controlPathInternal",
+    "OnPointerEnter",
+    "OnPointerExit_04A9B68D5DD9",
+    "set_name",
+    "get_controlPathInternal"
+  ],
+  "hash_methods": [
+    "m_37E"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "PhysicsSpringJointHandler_20E2",
+  "parent": "",
+  "named_methods": [
+    "SetDamper",
+    "SetSpring",
+    "SetSpring_F53DE197C6F2",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "SetSpring_67518EA573FA",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_032",
+    "m_176",
+    "m_692",
+    "m_FA0",
+    "m_E5F",
+    "m_097",
+    "m_7C7",
+    "m_579",
+    "m_5B6",
+    "m_8AA"
+  ]
+}

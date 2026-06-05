@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_8BEE",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "GetGenericParameterSharingConstraint",
+    "CreateSharedGenericInstantiationForContainer",
+    "GetSharedGenericInstantiation",
+    "GetSharedGenericInstantiation_DD69F86CA4D2",
+    "GetSharedGenericInstantiation_95DF3ECA53E5",
+    "CreateGenericContextFromIndices"
+  ],
+  "hash_methods": [
+    "m_2F0",
+    "m_EEE"
+  ]
+}

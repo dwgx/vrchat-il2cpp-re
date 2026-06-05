@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "appReceiptModificationDatappReceipt_71A8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ToString_7EBEEC65568F",
+    "ToString_C63079783FCE",
+    "ToString_6F5F1BFA4741",
+    "ToString_CB2067AE3FE6",
+    "Awake",
+    "ToString_BCC381D060B6",
+    "ToString",
+    "OnDestroy",
+    "ToString_77C4BDDE9616"
+  ],
+  "hash_methods": [
+    "m_6D2",
+    "m_610",
+    "m_D37",
+    "m_6CD",
+    "m_F87",
+    "m_8DD"
+  ]
+}

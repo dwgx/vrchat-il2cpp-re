@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "Static11m_E98A",
+  "parent": "",
+  "named_methods": [
+    "ProcessTransform",
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_64C",
+    "m_DAB",
+    "m_8A9",
+    "m_A66",
+    "m_ABC",
+    "m_8F6",
+    "m_A8D"
+  ]
+}

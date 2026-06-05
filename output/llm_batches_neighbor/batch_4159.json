@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_B533",
+  "parent": "",
+  "named_methods": [
+    "ReclaimUnmarkedObjects",
+    "ReclaimUnmarkedObjects_6C6F45E29ACC",
+    "ReclaimHeapBlock",
+    "ReclaimHeapBlock_410F56E5D055",
+    "Dispose",
+    "Cleanup",
+    "ReclaimAllHeapBlocks",
+    "ReclaimAllHeapBlocks_937CF8FBCAA6",
+    "ReclaimAllHeapBlocks_CF3C4C0F0CAD"
+  ],
+  "hash_methods": [
+    "m_2F0"
+  ]
+}

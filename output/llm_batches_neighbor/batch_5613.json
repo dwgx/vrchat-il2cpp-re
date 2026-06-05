@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "Static16m_84A1",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "FixedUpdate",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_C2F",
+    "m_0C0",
+    "m_0AD"
+  ]
+}

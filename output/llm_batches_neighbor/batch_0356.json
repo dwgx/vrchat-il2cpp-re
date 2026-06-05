@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    ".cctor",
+    "StopCoroutine",
+    "Initialize_611645F24986",
+    ".ctor",
+    "IsNativeObjectAlive"
+  ],
+  "hash_methods": [
+    "m_4C1",
+    "m_B67",
+    "m_B34",
+    "m_A9E",
+    "m_2F3",
+    "m_655"
+  ]
+}

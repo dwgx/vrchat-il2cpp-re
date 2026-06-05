@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetLastServiceDescriptor",
+    "GetCachedPtr",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "Instantiate"
+  ],
+  "hash_methods": [
+    "m_28A",
+    "m_BE2"
+  ]
+}

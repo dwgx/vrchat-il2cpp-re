@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "get_name",
+    ".ctor",
+    "DontDestroyOnLoad",
+    "op_Implicit",
+    "RaiseCancellation"
+  ],
+  "hash_methods": [
+    "m_D3E",
+    "m_880"
+  ]
+}

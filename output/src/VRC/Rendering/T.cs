@@ -145,46 +145,63 @@ namespace VRC.Rendering
     public class TransformMaterialHandler_C08A
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF3FC4080
         public void GetLinearFormat(){} // RVA: 0x7FFAF3FC4160
         public void SetFloatImpl(){} // RVA: 0x7FFAF3FC41A0
         public void SetFloatImpl_675D27290428(){} // RVA: 0x7FFAF3FC42A0
         public void .ctor(){} // RVA: 0x7FFAF3FC4380
         public void Initialize(){} // RVA: 0x7FFAF3FC4400
         public void Start(){} // RVA: 0x7FFAF2D8D310
-        // ── 11 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_4A8(){} // RVA: 0x7FFAF3FC2570
         public void m_125(){} // RVA: 0x7FFAF3FC3F80
+        public void m_982(){} // RVA: 0x7FFAF3FC4080
         public void m_7CA(){} // RVA: 0x7FFAF2EF24E0
         public void m_91E(){} // RVA: 0x7FFAF2D8D320
-        public void m_B71(){} // RVA: 0x7FFAF2D8D320
-        // ... 6 more unresolved methods
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÌÎÎÌÌÎÍÎÏÎÍÎÍÌÌÍÎÏÍÏÌ</summary>
     public class TransformMaterialSystem_7035
     {
         // ── Methods ──
+        public void ValidateRigidbodyMassRatio(){} // RVA: 0x7FFAF3BC8F40
+        public void ValidateRigidbodyMassRatio_3850BEA75765(){} // RVA: 0x7FFAF3BC9030
         public void Constructor(){} // RVA: 0x7FFAF3BC9580
+        public void InitializeDefaults(){} // RVA: 0x7FFAF3BC97C0
         public void OnDestroy(){} // RVA: 0x7FFAF3BCA6A0
         public void GetMaterial(){} // RVA: 0x7FFAF3B95CF0
-        public void MoveNext(){} // RVA: 0x7FFAF3BCA6B0
+        public void InitializeHumanoidMappings(){} // RVA: 0x7FFAF3BCAA50
+        public void RestoreTransformStateFromSnapshot(){} // RVA: 0x7FFAF3BCB760
+        public void RestoreTransformStateFromSnapshot_69F987E94DF4(){} // RVA: 0x7FFAF3BCB8E0
+        public void RestoreTransformStateFromSnapshot_5FE58BFD7580(){} // RVA: 0x7FFAF3BCB980
         public void Update(){} // RVA: 0x7FFAF3BCBCA0
-        public void Awake_5C50C1F0A9A6(){} // RVA: 0x7FFAF3BCC900
+        public void ApplyTransformPoseAtIndex(){} // RVA: 0x7FFAF3BCC380
+        public void ApplyTransformPoseAtIndex_56A7FDBCC162(){} // RVA: 0x7FFAF3BCC390
+        public void ApplyTransformPoseAtIndex_300BA4B1B5CB(){} // RVA: 0x7FFAF3BCC4A0
+        public void ValidateTargetTransform(){} // RVA: 0x7FFAF3BCD000
         public void ResetLocalTransform(){} // RVA: 0x7FFAF3BCD290
         public void Awake(){} // RVA: 0x7FFAF3BCD330
+        public void CacheRigidbodySettings(){} // RVA: 0x7FFAF3BCD3C0
         public void ApplyMaterialProperties(){} // RVA: 0x7FFAF3BCD760
+        public void EnsureRigidbodyConfigured(){} // RVA: 0x7FFAF3BCD800
+        public void RestoreRigidbodySettings(){} // RVA: 0x7FFAF3BCD920
+        public void UpdateTargetTransformInEditMode(){} // RVA: 0x7FFAF3BCDA60
+        public void UpdateTargetTransformInEditMode_988B871A1F65(){} // RVA: 0x7FFAF3BCDB00
+        public void SyncTargetTransformInEditor(){} // RVA: 0x7FFAF3BCDD80
+        public void SyncTargetTransformInEditor_42AF84655336(){} // RVA: 0x7FFAF3BCDE50
+        public void UpdateTargetTransformInEditMode_985A6C9C3BC8(){} // RVA: 0x7FFAF3BCDE60
+        public void InitializeMaterialPropertyDefaults(){} // RVA: 0x7FFAF3BCE7B0
         public void UpdateTransformPose_248C8C18EFAD(){} // RVA: 0x7FFAF3BD1E00 | overloaded x2
         public void UpdateTransformPose_852E3599EAE7(){} // RVA: 0x7FFAF3BD1EA0
         public void .ctor(){} // RVA: 0x7FFAF3BD37B0
         public void Initialize(){} // RVA: 0x7FFAF3BD3930
-        // ── 50 unresolved (hash) ──
-        public void m_D67(){} // RVA: 0x7FFAF3BC8F40
-        public void m_385(){} // RVA: 0x7FFAF3BC9030
+        // ── 32 unresolved (hash) ──
         public void m_423(){} // RVA: 0x7FFAF2F25080
-        public void m_406(){} // RVA: 0x7FFAF3BC97C0
-        public void m_0E0(){} // RVA: 0x7FFAF3BCAA50
-        // ... 45 more unresolved methods
+        public void m_471(){} // RVA: 0x7FFAF3BCA6B0
+        public void m_FE6(){} // RVA: 0x7FFAF3BCADD0
+        public void m_C39(){} // RVA: 0x7FFAF3BCB9D0
+        public void m_C4F(){} // RVA: 0x7FFAF304F730
+        // ... 27 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÍÌÎÎÏÌÍÌÏÍÌÏÌÍÍÎÎÎÌÎÎ</summary>
@@ -259,6 +276,7 @@ namespace VRC.Rendering
         public void DuplicateWideString(){} // RVA: 0x7FFAF3B0CBB0
         public void RaiseSignal(){} // RVA: 0x7FFAF3B0D140
         public void IsTerminalOutputStream_D197CFFA544A(){} // RVA: 0x7FFAF3B10560 | overloaded x2
+        public void SetLocalScale(){} // RVA: 0x7FFAF3B0FA40
         public void FormatFloatingPointNumber(){} // RVA: 0x7FFAF3B0FFC0
         public void EnableTemporaryStreamBuffering(){} // RVA: 0x7FFAF3B105C0
         public void OnDestroy(){} // RVA: 0x7FFAF3B106C0
@@ -270,8 +288,6 @@ namespace VRC.Rendering
         public void IsFileHandleTerminal(){} // RVA: 0x7FFAF3B10C20
         public void EnsureRuntimeLockCapacity(){} // RVA: 0x7FFAF3B10E30
         public void UnlockRuntimeLock(){} // RVA: 0x7FFAF3B10F80
-        // ── Unresolved (hash) ──
-        public void m_7BC(){} // RVA: 0x7FFAF3B0FA40
     }
 
     /// <summary>Originally: ÎÏÍÌÍÍÍÌÎÌÎÌÏÌÍÎÍÏÎÌÎÌÌ</summary>

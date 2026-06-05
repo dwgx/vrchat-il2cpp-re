@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "TransformTimeHandler_D786",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    "GetUnscaledDeltaTime",
+    "Dispose",
+    "SetCacheWritingBehavior",
+    "GetUnscaledDeltaTime_1B17886060DA"
+  ],
+  "hash_methods": [
+    "m_262",
+    "m_FC3",
+    "m_BF3",
+    "m_BA5",
+    "m_DA8",
+    "m_A2C",
+    "m_D7D",
+    "m_F5A",
+    "m_D93",
+    "m_632"
+  ]
+}

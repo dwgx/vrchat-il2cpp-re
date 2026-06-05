@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TextureCalculateLayoutInputHorSibling_F9FE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_8A3",
+    "m_FF6",
+    "m_F62",
+    "m_B71",
+    "m_277",
+    "m_BE2"
+  ]
+}

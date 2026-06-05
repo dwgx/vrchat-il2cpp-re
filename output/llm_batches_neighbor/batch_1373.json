@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "NetworkByteBufferSibling_70C4",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_4B8",
+    "m_090",
+    "m_D46",
+    "m_9F5",
+    "m_2A1",
+    "m_A06",
+    "m_901",
+    "m_E16",
+    "m_AF0",
+    "m_C34"
+  ]
+}

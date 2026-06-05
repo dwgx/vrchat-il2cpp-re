@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "SetMaterialDirtySetVerticesDirty_54B3",
+  "parent": "",
+  "named_methods": [
+    "SetMaterialDirty",
+    ".ctor",
+    "SetLayoutDirty",
+    "SetVerticesDirty",
+    "OnPopulateMesh"
+  ],
+  "hash_methods": [
+    "m_D64",
+    "m_C9D",
+    "m_FF9",
+    "m_408",
+    "m_F20",
+    "m_D62"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSiblinSibling_66B9",
+  "parent": "",
+  "named_methods": [
+    "Update_3CB451386F3C",
+    "RaiseCancellation",
+    "Update",
+    ".ctor",
+    "Awake",
+    "OnDestroy",
+    "SavePlayerPreferences",
+    "OnEnable",
+    "OnDestroy_AA3AC3D8F269",
+    "OnCollisionExit",
+    "StartCoroutine_Auto",
+    "OnDisable_B3BF6903B427",
+    "CheckOVRTouchpadHelperSiblin",
+    "GetPlayerVelocity",
+    "OnDisable",
+    "ResolveOVRTouchpadHelperSiblin",
+    "OnTouchpadDoubleClick",
+    "OnTouchpadSwipe",
+    "OnDestroyAA3AC3D8F269",
+    "OnTouchpadSwipeRight",
+    "StartCoroutineAuto",
+    "DestroyChild",
+    "GetTouchpadPosition",
+    "HandleTouchpadInput",
+    "ResetTouchpadState",
+    "OnPointerDownAnalytics"
+  ],
+  "hash_methods": [
+    "m_F8E",
+    "m_DD6",
+    "m_6DE"
+  ]
+}

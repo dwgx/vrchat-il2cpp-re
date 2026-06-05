@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "PhysBoneValidateColliderPermissioSetParameter_4431",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Start",
+    "SetParameter",
+    "ValidateColliderPermissions"
+  ],
+  "hash_methods": [
+    "m_773",
+    "m_28A",
+    "m_122",
+    "m_10A",
+    "m_CA9",
+    "m_9FA",
+    "m_562",
+    "m_6FD",
+    "m_021"
+  ]
+}

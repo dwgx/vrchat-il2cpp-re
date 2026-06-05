@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0Related_2320",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessComponent",
+    "ProcessComponent_34D0C2A1E9D4"
+  ],
+  "hash_methods": [
+    "m_B77",
+    "m_F8E",
+    "m_4BB",
+    "m_D98",
+    "m_B01",
+    "m_113",
+    "m_C35",
+    "m_228"
+  ]
+}

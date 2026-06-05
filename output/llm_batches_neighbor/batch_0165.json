@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Destroy",
+    "Initialize",
+    "GetInstanceID",
+    "get_name",
+    ".cctor",
+    ".ctor",
+    "BindNestedObject"
+  ],
+  "hash_methods": [
+    "m_BFA"
+  ]
+}

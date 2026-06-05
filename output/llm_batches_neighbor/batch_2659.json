@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AudioBehaviourHandler_AD45",
+  "parent": "",
+  "named_methods": [
+    "GetIsActiveAndEnabled",
+    ".ctor",
+    "Initialize",
+    "GetIsActiveAndEnabled_2B043546CC52"
+  ],
+  "hash_methods": [
+    "m_50D",
+    "m_22F",
+    "m_60F",
+    "m_A99"
+  ]
+}

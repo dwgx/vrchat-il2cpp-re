@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "PlayerInvisibleOperationComponent_CD4B",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "Awake",
+    "OnBecameInvisible",
+    "Start",
+    "Update",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "OnBecameVisible",
+    "OnCollisionEnter",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_900",
+    "m_527",
+    "m_DA6",
+    "m_168",
+    "m_CAF"
+  ]
+}

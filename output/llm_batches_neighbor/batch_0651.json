@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_694C",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    ".ctor",
+    "Initialize",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit"
+  ],
+  "hash_methods": [
+    "m_47F",
+    "m_A66"
+  ]
+}

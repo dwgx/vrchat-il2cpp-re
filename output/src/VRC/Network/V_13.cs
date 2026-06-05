@@ -132,13 +132,12 @@ namespace VRC.Network
     /// <summary>Originally: ÏÏÏÌÎÏÌÎÍÍÍÎÏÍÌÍÍÍÍÍÏÌÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_D5CC
     {
-        // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF4B30380
-        public void MoveNext_5752BD00C0B9(){} // RVA: 0x7FFAF4B305B0
-        public void Reset(){} // RVA: 0x7FFAF4B307E0
         // ── Unresolved (hash) ──
         public void m_96F(){} // RVA: 0x7FFAF4B2FF20
         public void m_AEE(){} // RVA: 0x7FFAF4B30150
+        public void m_55E(){} // RVA: 0x7FFAF4B30380
+        public void m_575(){} // RVA: 0x7FFAF4B305B0
+        public void m_943(){} // RVA: 0x7FFAF4B307E0
         public void m_77C(){} // RVA: 0x7FFAF4B30A10
         public void m_45A(){} // RVA: 0x7FFAF4B30C40
     }

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_9FA3",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "OnDestroy",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_724",
+    "m_1BD",
+    "m_1FC",
+    "m_CF1",
+    "m_0A6"
+  ]
+}

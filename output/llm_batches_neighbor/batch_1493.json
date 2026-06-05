@@ -1,0 +1,38 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_E78E",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "Awake",
+    "Start",
+    "OnEnable",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    ".ctor",
+    "Initialize",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "GetWaitHandleNativeHandle",
+    "ReleaseReference"
+  ],
+  "hash_methods": [
+    "m_0A1",
+    "m_E19",
+    "m_5FC",
+    "m_E63",
+    "m_F6F",
+    "m_F1E",
+    "m_A74",
+    "m_D50",
+    "m_43E",
+    "m_F7C"
+  ]
+}

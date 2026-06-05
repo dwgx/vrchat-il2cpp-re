@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSibling_2F80",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_B01",
+    "m_B01",
+    "m_682",
+    "m_762",
+    "m_B3D",
+    "m_B47"
+  ]
+}

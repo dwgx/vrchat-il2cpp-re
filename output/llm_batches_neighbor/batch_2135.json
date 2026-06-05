@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Type20m2f_AE23",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_213",
+    "m_CF0",
+    "m_669",
+    "m_171",
+    "m_4FF",
+    "m_5F6",
+    "m_504"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_5270",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "Start",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_F74",
+    "m_CA7",
+    "m_514",
+    "m_3CB",
+    "m_4A9",
+    "m_ACE"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "m_124": "GetAsyncEnumerator",
+  "m_0A8": "MoveNextAsync",
+  "m_7F6": "GetResult",
+  "m_CE3": "GetStatus",
+  "m_63A": "OnCompleted",
+  "m_EC8": "DisposeAsync"
+}

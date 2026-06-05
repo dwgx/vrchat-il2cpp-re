@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "PlayerLeft_0AA8",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "LastIndexOf",
+    "LastIndexOf_703EF431D8B5",
+    "LastIndexOf_11195BDB46FA",
+    "BinarySearch",
+    "WriteInt64",
+    "IndexOf_5F0AFA7AD30D",
+    "IndexOf_88F378180185",
+    "IndexOf_1C1BFD186846",
+    "OnPlayerLeft",
+    "Clear",
+    "Clear_2EC40DFD40A2",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_99B",
+    "m_F54",
+    "m_2A5",
+    "m_C58",
+    "m_692",
+    "m_2B6",
+    "m_1CD"
+  ]
+}

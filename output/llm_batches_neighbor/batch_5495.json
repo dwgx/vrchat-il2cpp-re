@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_1EE7",
+  "parent": "",
+  "named_methods": [
+    "UpdateLightIntensityFade",
+    "SynchronizeParticleEmissionEnabled",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_4D8",
+    "m_752",
+    "m_7F6",
+    "m_440"
+  ]
+}

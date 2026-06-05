@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextCannedSibling_640B",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    "RaiseCancellation",
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "LoadLibraryEx",
+    "LoadLibraryEx_64A20C4077DF",
+    "ProcessLipSyncFrame",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_FAC"
+  ]
+}

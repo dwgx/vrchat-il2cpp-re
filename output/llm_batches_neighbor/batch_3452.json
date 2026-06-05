@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "PointerEnterRelatedRelated_C870",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_F2B"
+  ]
+}

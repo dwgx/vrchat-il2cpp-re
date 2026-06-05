@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_90D4",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "InitializeCriticalSectionLocks",
+    "AllocateFiberLocalStorageSlot"
+  ],
+  "hash_methods": [
+    "m_95D",
+    "m_51F",
+    "m_536",
+    "m_77C",
+    "m_45A",
+    "m_24F"
+  ]
+}

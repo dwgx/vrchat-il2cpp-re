@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "TransformPhysicsHandler_DEDA",
+  "parent": "",
+  "named_methods": [
+    "SetCenter",
+    ".ctor",
+    "Initialize",
+    "SetCenter_8A3650E28133",
+    "SetCenter_B9C01D2E7A4A",
+    "SetCenter_C7DB56AE10BF"
+  ],
+  "hash_methods": [
+    "m_D1F",
+    "m_A70"
+  ]
+}

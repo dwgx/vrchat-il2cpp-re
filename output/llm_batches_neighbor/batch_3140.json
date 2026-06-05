@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PointerPreCullSibling_94B5",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "Awake",
+    "OnDestroy",
+    "SetTextureOffsetImplMaterial",
+    "OnDisable",
+    "InvokeAllSubscribers",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_6F5",
+    "m_A3F",
+    "m_B8E",
+    "m_5A6",
+    "m_F23",
+    "m_8ED",
+    "m_2B3"
+  ]
+}

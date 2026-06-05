@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_005D",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "GetStaticFieldValue",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_E82",
+    "m_440",
+    "m_CE3",
+    "m_63A",
+    "m_DB9"
+  ]
+}

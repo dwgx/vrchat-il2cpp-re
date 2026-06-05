@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "TextureCalculateLayoutInputHorSibling_B992",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "Equals_8202535A30BF"
+  ],
+  "hash_methods": [
+    "m_1B3",
+    "m_235",
+    "m_489",
+    "m_20B",
+    "m_9DB",
+    "m_02B",
+    "m_E93",
+    "m_1F7",
+    "m_6B9",
+    "m_998"
+  ]
+}

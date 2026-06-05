@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_D8FF",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_124",
+    "m_0A8",
+    "m_E82",
+    "m_288",
+    "m_D51",
+    "m_63A",
+    "m_752"
+  ]
+}

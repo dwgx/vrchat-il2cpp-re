@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_DF0F",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "Start",
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay"
+  ],
+  "hash_methods": [
+    "m_967",
+    "m_4AC"
+  ]
+}

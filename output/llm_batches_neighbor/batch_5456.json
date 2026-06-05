@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "GameObjectUITransformHandler_3709",
+  "parent": "",
+  "named_methods": [
+    "SetAnchoredPosition",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_1C3",
+    "m_9E6",
+    "m_8D5",
+    "m_128",
+    "m_299",
+    "m_6B6"
+  ]
+}

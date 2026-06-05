@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static32m_A0E8",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    "GlogLogtostderr",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_7A1",
+    "m_484",
+    "m_533",
+    "m_72B",
+    "m_493"
+  ]
+}

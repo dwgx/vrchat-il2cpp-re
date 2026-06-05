@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_7F18",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "GetComponentGameObject"
+  ],
+  "hash_methods": [
+    "m_529",
+    "m_AA0",
+    "m_B8E",
+    "m_47A",
+    "m_D35",
+    "m_3E9"
+  ]
+}

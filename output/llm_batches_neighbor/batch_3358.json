@@ -1,0 +1,41 @@
+{
+  "namespace": "",
+  "class": "UIShowTabContent_E50A",
+  "parent": "",
+  "named_methods": [
+    "EqualsObject",
+    "GetStructuralHashCode",
+    "GetStructuralHashCode_9A0DCFAF4238",
+    "GetStructuralHashCode_0BDB3D7DBEA7",
+    "GetStructuralHashCode_C1D47870CF3F",
+    "ToString",
+    "GetStructuralHashCode_FDDFD3818819",
+    "ToString_ED7D5221A885",
+    "ToStringEnd",
+    "OnDisable",
+    "ToString_0ECA4561CF93",
+    "Awake",
+    "OnDestroy",
+    "ToStringEnd_6614FC82C04E",
+    "ToString_EB2A2FFDA009",
+    "ToString_A04651F20240",
+    "ToStringEnd_78CE4E809369",
+    "ShowTabContent",
+    "ToStringEnd_6923B2837513",
+    "ToString_DA089640D6A4",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_90D",
+    "m_71A",
+    "m_B06",
+    "m_F57",
+    "m_26F",
+    "m_6F6",
+    "m_4C7",
+    "m_E0F",
+    "m_131",
+    "m_3AE"
+  ]
+}

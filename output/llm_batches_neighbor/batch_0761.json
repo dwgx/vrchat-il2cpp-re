@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PointerClickPointerEnter_E972",
+  "parent": "",
+  "named_methods": [
+    "OnPointerClick",
+    ".ctor",
+    "OnEnable",
+    "OnDisable",
+    "OnPointerExit",
+    "Start",
+    "TryGetSpanSlice",
+    "TryGetSpanSlice_A3A926482787",
+    "OnPointerEnter"
+  ],
+  "hash_methods": [
+    "m_B31",
+    "m_37E",
+    "m_2D7",
+    "m_B8F"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static22m_266D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_CE1",
+    "m_FA7",
+    "m_CF1",
+    "m_CAE",
+    "m_C5F",
+    "m_7AC",
+    "m_AED",
+    "m_6F5",
+    "m_07E",
+    "m_09B"
+  ]
+}

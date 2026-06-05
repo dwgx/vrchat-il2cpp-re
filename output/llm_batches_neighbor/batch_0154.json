@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".cctor",
+    ".ctor",
+    "GetCachedPtr_FB1F39",
+    "Internal_InstantiateSingleWithParent_Injected",
+    "InvokeRepeating",
+    "set_name"
+  ],
+  "hash_methods": [
+    "m_35A",
+    "m_ED7",
+    "m_758",
+    "m_A4B",
+    "m_F6C",
+    "m_A71",
+    "m_35F",
+    "m_45A"
+  ]
+}

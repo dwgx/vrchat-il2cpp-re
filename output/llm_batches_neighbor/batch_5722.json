@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "ChallengeUpdateEventSiblingSibSibling_0703",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_F1E",
+    "m_46D",
+    "m_191",
+    "m_E8B",
+    "m_7DC",
+    "m_65F",
+    "m_075",
+    "m_CA1",
+    "m_EF4",
+    "m_63E"
+  ]
+}

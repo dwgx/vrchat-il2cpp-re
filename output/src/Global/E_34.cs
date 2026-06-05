@@ -317,11 +317,10 @@ public class ExperimentsManager
     public void op_Implicit(){} // RVA: 0x7FFAF3CB1FF0
     public void CompareBaseObjects(){} // RVA: 0x7FFAF3CB20D0
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void IsEnabled(){} // RVA: 0x7FFAF3CB21B0
     public void get_name(){} // RVA: 0x7FFAF3CB2290
     public void set_name(){} // RVA: 0x7FFAF3CB2370
     public void StaticInitialize(){} // RVA: 0x7FFAF3CB2450
-    // ── Unresolved (hash) ──
-    public void m_804(){} // RVA: 0x7FFAF3CB21B0
 }
 
 public class Expression

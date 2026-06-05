@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_AE11",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "FixedUpdate",
+    "Start",
+    "OnDestroy",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_106",
+    "m_585",
+    "m_EE9",
+    "m_2F3",
+    "m_FCD",
+    "m_8E6",
+    "m_42F",
+    "m_E09",
+    "m_352",
+    "m_FF2"
+  ]
+}

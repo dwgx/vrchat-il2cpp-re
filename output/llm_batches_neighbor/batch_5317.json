@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "WorldSpawnSibling_3685",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_42B",
+    "m_60B",
+    "m_A30",
+    "m_63E",
+    "m_6BC",
+    "m_8FB",
+    "m_F76",
+    "m_258",
+    "m_68A",
+    "m_83D"
+  ]
+}

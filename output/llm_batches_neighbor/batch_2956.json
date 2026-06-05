@@ -1,0 +1,35 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextCannedRelated_D690",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "Insert",
+    "IndexOf_EAAD401EE004",
+    "Update",
+    "IndexOf_12F934EBC000",
+    "IndexOf_3F01F078CB78",
+    "LastIndexOf",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "BinarySearch",
+    "BinarySearch_CA751DDB5F68",
+    "OnDestroy",
+    "IndexOf_73792C997A53",
+    "IndexOf_9FB56E161CAA",
+    "LastIndexOf_BEED6E7AD015",
+    "LastIndexOf_42B2F502FA44",
+    "IndexOf_84ACC3CD818E",
+    ".cctor",
+    "IndexOf_96D90FAB62F8",
+    "IndexOf_8AD4E7391679"
+  ],
+  "hash_methods": [
+    "m_184",
+    "m_41F",
+    "m_028",
+    "m_A53",
+    "m_E92"
+  ]
+}

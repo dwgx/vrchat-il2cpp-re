@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_7757",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessQuaternion"
+  ],
+  "hash_methods": [
+    "m_887",
+    "m_BFC",
+    "m_B42",
+    "m_D99",
+    "m_212",
+    "m_FC6",
+    "m_B91"
+  ]
+}

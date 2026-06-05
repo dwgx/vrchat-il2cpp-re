@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextTextureFlipSibling_E181",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    ".ctor",
+    "Initialize",
+    "CancelInvoke",
+    "InvokeRepeating",
+    "Update_CAD8B53DAF78",
+    "LateUpdate",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_FA5",
+    "m_028"
+  ]
+}

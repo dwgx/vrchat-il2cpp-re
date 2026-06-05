@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_CFCD",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "CreateContext",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_F87",
+    "m_BD0",
+    "m_336"
+  ]
+}

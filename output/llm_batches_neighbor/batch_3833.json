@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static22m_CE40",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_A15",
+    "m_10D",
+    "m_4BB",
+    "m_E79",
+    "m_0F9",
+    "m_286",
+    "m_C3D"
+  ]
+}

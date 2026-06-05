@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_E62A",
+  "parent": "",
+  "named_methods": [
+    "TrySetStyleValue",
+    ".ctor",
+    "Initialize",
+    "GetStyleValueOrDefault",
+    ".cctor",
+    "TrySetStyleValue_1B274183C476",
+    "GetStyleValueOrDefault_48051ABDECC0",
+    "SetStyleValue",
+    "TrySetStyleValue_3035BF0C4DEC",
+    "GetHashCode",
+    "GetStyleValue"
+  ],
+  "hash_methods": [
+    "m_AFD",
+    "m_FFC",
+    "m_08B",
+    "m_ADF"
+  ]
+}

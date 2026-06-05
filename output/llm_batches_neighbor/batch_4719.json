@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "Static11m_31DA",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ReadAnimatorState"
+  ],
+  "hash_methods": [
+    "m_564",
+    "m_F6D",
+    "m_53D",
+    "m_C46",
+    "m_553",
+    "m_C9F",
+    "m_79D",
+    "m_A97"
+  ]
+}

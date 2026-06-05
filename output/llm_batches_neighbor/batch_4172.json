@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "SystemInfoRandomHandler_3B08",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "ToString_D868C4CBB437",
+    "RandomRangeInt",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "ToString_21CE412859A1",
+    "ToString_4071B761E95F",
+    "ToString_808F669F4C6C"
+  ],
+  "hash_methods": [
+    "m_9CA"
+  ]
+}

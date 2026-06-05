@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "ProfiledAudioHandler_6BDA",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetClip"
+  ],
+  "hash_methods": [
+    "m_3B8",
+    "m_0D0",
+    "m_5F7",
+    "m_79D",
+    "m_9E5",
+    "m_B3D"
+  ]
+}

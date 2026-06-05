@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "TransformSystem_ACB1",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "RegisterTransform",
+    "AddTransformEntry",
+    "SetLocalScale"
+  ],
+  "hash_methods": [
+    "m_31D",
+    "m_925",
+    "m_D32",
+    "m_630",
+    "m_69C",
+    "m_D1B",
+    "m_55E",
+    "m_AC0",
+    "m_69B",
+    "m_FFC"
+  ]
+}

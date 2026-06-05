@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_6F22",
+  "parent": "",
+  "named_methods": [
+    "GetEnumerator",
+    "System.Collections.IEnumerable.GetEnumerator",
+    "System.Collections.Generic.IEnumerator<System.String>.get_Current",
+    "get_Current",
+    "Dispose",
+    "System.Collections.IEnumerator.Reset",
+    "System.IDisposable.Dispose",
+    "MoveNext",
+    "System.Collections.IEnumerator.get_Current",
+    ".ctor",
+    "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator"
+  ],
+  "hash_methods": [
+    "m_63A",
+    "m_015"
+  ]
+}

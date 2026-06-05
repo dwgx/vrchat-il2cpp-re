@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "PoseLocalUpdateSiblingSibling_88D8",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "GetHashCode_6E7B6C947313",
+    "GetParameterCountInternal",
+    "GetHashCode_8AD5DE24ABA8",
+    ".ctor",
+    "Initialize",
+    "LateUpdate"
+  ],
+  "hash_methods": [
+    "m_86F",
+    "m_707"
+  ]
+}

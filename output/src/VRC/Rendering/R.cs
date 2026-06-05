@@ -56,14 +56,15 @@ namespace VRC.Rendering
         public void IndexOfChar(){} // RVA: 0x7FFAF33B3F40
         public void .cctor(){} // RVA: 0x7FFAF33B3FE0
         public void Contains(){} // RVA: 0x7FFAF33B4080
-        public void GetHashCode(){} // RVA: 0x7FFAF33B4120
         public void OnPreRender(){} // RVA: 0x7FFAF33B41C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void OnPostRender(){} // RVA: 0x7FFAF33B4260
         public void IndexOfChar_BC7ADB7E986D(){} // RVA: 0x7FFAF33B4300
         public void Contains_198E18BB89F9(){} // RVA: 0x7FFAF33B43A0
-        public void GetHashCode_46B68FB636AD(){} // RVA: 0x7FFAF33B4440
-        public void GetHashCode_2703AC9200F0(){} // RVA: 0x7FFAF33B44E0
+        // ── Unresolved (hash) ──
+        public void m_2CA(){} // RVA: 0x7FFAF33B4120
+        public void m_46B(){} // RVA: 0x7FFAF33B4440
+        public void m_270(){} // RVA: 0x7FFAF33B44E0
     }
 
     /// <summary>Originally: ÏÎÎÏÌÎÌÍÏÎÎÎÌÏÌÍÏÎÏÎÎÎÌ</summary>
@@ -180,18 +181,17 @@ namespace VRC.Rendering
         public void GetSharedMaterialArray(){} // RVA: 0x7FFAFB769DB0
         public void GetSortingLayerName(){} // RVA: 0x7FFAFB769FC0
         public void GetIsStaticShadowCaster(){} // RVA: 0x7FFAFB76A1E0
+        public void SetSharedMaterialArray(){} // RVA: 0x7FFAFB76A400
+        public void SetSortingLayerName(){} // RVA: 0x7FFAFB76A620
         public void InitializeRendererMeshReferences(){} // RVA: 0x7FFAFB76A850
+        public void SetIsStaticShadowCaster(){} // RVA: 0x7FFAFB76AA80
+        public void GetAdditionalVertexStreams(){} // RVA: 0x7FFAFB76ACB0
         public void SetAdditionalVertexStreams(){} // RVA: 0x7FFAFB76AEE0
         public void SetAllowOcclusionWhenDynamic(){} // RVA: 0x7FFAFB76B060
         public void SetBounds(){} // RVA: 0x7FFAFB76B1E0
+        public void GetEnlightenVertexStream(){} // RVA: 0x7FFAFB76B360
         public void SetEnlightenVertexStream(){} // RVA: 0x7FFAFB76B460
         public void .cctor(){} // RVA: 0x7FFAFB76B5E0
-        // ── Unresolved (hash) ──
-        public void m_A36(){} // RVA: 0x7FFAFB76A400
-        public void m_5DB(){} // RVA: 0x7FFAFB76A620
-        public void m_640(){} // RVA: 0x7FFAFB76AA80
-        public void m_E3C(){} // RVA: 0x7FFAFB76ACB0
-        public void m_6EF(){} // RVA: 0x7FFAFB76B360
     }
 
     /// <summary>Originally: ÍÍÏÍÌÌÎÏÏÍÏÎÌÌÏÍÌÍÎÏÏÏÍ</summary>

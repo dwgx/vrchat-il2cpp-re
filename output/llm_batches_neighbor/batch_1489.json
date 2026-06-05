@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_3E88",
+  "parent": "",
+  "named_methods": [
+    "RtcAudioSetAudioOutputSettings",
+    "UpdateRotation",
+    "RtcAudioQueryOutputDevicesInformation",
+    "MarshalToNative"
+  ],
+  "hash_methods": [
+    "m_9CA",
+    "m_CCF",
+    "m_77C",
+    "m_709",
+    "m_166",
+    "m_4D0"
+  ]
+}

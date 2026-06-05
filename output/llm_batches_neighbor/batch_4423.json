@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static24m_938A",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_321",
+    "m_876",
+    "m_EE5",
+    "m_035",
+    "m_385",
+    "m_D34",
+    "m_4CA",
+    "m_224",
+    "m_50A",
+    "m_035"
+  ]
+}

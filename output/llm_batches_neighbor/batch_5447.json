@@ -1,0 +1,42 @@
+{
+  "namespace": "",
+  "class": "NetworkItemSibling_FEF9_E418",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "get_scale",
+    "GetMaxDampTime",
+    "op_Implicit",
+    "GetHashCode",
+    "Initialize",
+    "get_AreaX",
+    "get_name",
+    "set_name",
+    ".ctor",
+    "Initialize",
+    "get_preferredPeakBitRate",
+    "Equals_F74777CACFAB",
+    "GetHashCode_B07CBDCEC5BE",
+    "ToString_DACFE8CACCB9",
+    ".ctor_C3736FCB1CA5",
+    "Initialize_7BE32CCBA8E2",
+    "Update",
+    "GetMaxHealth",
+    "Destroy",
+    "Update_0BF46DA1B55E",
+    "DestroyImmediate",
+    "SetActive_E90",
+    ".ctor_72845DCC906B",
+    "FindObjectsOfType",
+    ".ctor_96F2BF9A5AED",
+    "FindObjectsByType",
+    "DontDestroyOnLoad",
+    "get_hideFlags",
+    "ToString",
+    "InitializeStaticResources",
+    "GetCurrentHealth"
+  ],
+  "hash_methods": [
+    "m_C93"
+  ]
+}

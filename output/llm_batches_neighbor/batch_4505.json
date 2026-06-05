@@ -1,0 +1,43 @@
+{
+  "namespace": "",
+  "class": "PointerSubmitAuthenticationCodeIOpenTwoFactorAu_0531",
+  "parent": "",
+  "named_methods": [
+    "AuthenticateWithDiscord",
+    "AccountLoginPressed",
+    "AuthenticateWithGoogle",
+    "ReadComponentProperties",
+    ".ctor",
+    "OnDestroy",
+    "OnSubmitAuthenticationCodeIsRecovery",
+    "LastIndexOf",
+    "AccountCreatePressed",
+    "AuthenticateWithPico",
+    "ShowAppropriateLoginPromptScreen",
+    "Update",
+    "Start",
+    "GetStreamingAssetsPath",
+    "GetStreamingAssetsPath_72EA30C0F25A",
+    "IndexOf",
+    "OpenTwoFactorAuthenticationHelpURL",
+    "LastIndexOf_7CA4821EA47A",
+    "LastIndexOf_93454E772909",
+    "AuthenticateWithViveport",
+    "AuthenticateWithOculus",
+    "OnEnable",
+    "OnDisable",
+    "AuthenticateWithSteam",
+    "IndexOf_D5F6BB1C2554"
+  ],
+  "hash_methods": [
+    "m_DDF",
+    "m_61B",
+    "m_E11",
+    "m_DFD",
+    "m_917",
+    "m_275",
+    "m_EBE",
+    "m_92E",
+    "m_500"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "op_Implicit",
+    "set_name",
+    "op_Equality",
+    "Equals",
+    ".ctor",
+    ".cctor",
+    "GetHashCode",
+    "GetLastCacheItem"
+  ],
+  "hash_methods": [
+    "m_AFF",
+    "m_13B",
+    "m_FA7",
+    "m_F86",
+    "m_F52"
+  ]
+}

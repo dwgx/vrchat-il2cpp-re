@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "GameObjectHandler_74BB",
+  "parent": "",
+  "named_methods": [
+    "AllocatePinnedHandle",
+    ".ctor",
+    "Initialize",
+    "Equals",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_0E0",
+    "m_CF9",
+    "m_FA5",
+    "m_117",
+    "m_805",
+    "m_616",
+    "m_975",
+    "m_C51",
+    "m_87F",
+    "m_163"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "DoTransformDirecti",
+    ".ctor",
+    "GetStaticQwordByIndex",
+    "Instantiate",
+    ".cctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_635",
+    "m_013"
+  ]
+}

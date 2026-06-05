@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "ApplicationHandler_D3AA",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OpenURL"
+  ],
+  "hash_methods": [
+    "m_532",
+    "m_50B",
+    "m_6F6",
+    "m_E8E",
+    "m_BFE",
+    "m_D01"
+  ]
+}

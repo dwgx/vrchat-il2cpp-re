@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "UIMaxContentCountObservableLisSibling_9E98",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_837",
+    "m_07F",
+    "m_811",
+    "m_3AF",
+    "m_0CF",
+    "m_0B1",
+    "m_C6A",
+    "m_289",
+    "m_254",
+    "m_C83"
+  ]
+}

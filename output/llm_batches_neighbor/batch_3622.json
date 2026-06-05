@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_94F5",
+  "parent": "",
+  "named_methods": [
+    "ConfigureAudioSource",
+    "ConfigureAudioSource_1244533621D8",
+    "SetStateMachine",
+    "IndexOf",
+    "IndexOf_DB9331771C7C",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_4D8"
+  ]
+}

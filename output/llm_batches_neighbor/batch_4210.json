@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static8m_7192",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "OnDisable",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A61",
+    "m_EA1",
+    "m_7E1",
+    "m_A86"
+  ]
+}

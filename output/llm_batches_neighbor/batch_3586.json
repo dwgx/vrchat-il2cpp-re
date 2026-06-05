@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_9C3C",
+  "parent": "",
+  "named_methods": [
+    "GetString",
+    "GetString_1412284FA1C7",
+    "GetChar",
+    ".ctor",
+    "Initialize",
+    "HasPendingChangeDelayElapsed",
+    "HasPendingChangeDelayElapsed_BE0E466EF606"
+  ],
+  "hash_methods": [
+    "m_C9B",
+    "m_A57",
+    "m_7E0",
+    "m_860",
+    "m_F4E",
+    "m_63F",
+    "m_844"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_C4D4",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "Equals",
+    "GetHashCode",
+    "ToString",
+    "System.Collections.IEnumerator.get_Current",
+    "Dispose",
+    "MoveNext",
+    "ReadComponentState",
+    "System.Collections.IEnumerator.Reset",
+    "System.IDisposable.Dispose",
+    ".ctor",
+    "Initialize",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current"
+  ],
+  "hash_methods": [
+    "m_2AD"
+  ]
+}

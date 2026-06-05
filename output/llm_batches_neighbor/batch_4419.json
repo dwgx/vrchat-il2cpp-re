@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Service23m_A3D8_5247",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    "GetInstanceID_4A0772731BB0",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "ToString",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_774",
+    "m_A01",
+    "m_B1E",
+    "m_35A",
+    "m_AE6",
+    "m_2F4"
+  ]
+}

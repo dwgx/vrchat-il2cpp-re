@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static22m_6976",
+  "parent": "",
+  "named_methods": [
+    "GetIsLoadedInternal",
+    "IsValidInternal",
+    "IsValidInternal_5FEBAAEED1B3",
+    ".ctor",
+    "Initialize",
+    "IsValidInternal_D802E7524F27",
+    "IsValidInternal_9D15AD1BA929",
+    ".ctor",
+    "IsValidInternal_ED1E737DE7B8",
+    "IsValidInternal_9B21FBC1DABF"
+  ],
+  "hash_methods": [
+    "m_605",
+    "m_0D7"
+  ]
+}

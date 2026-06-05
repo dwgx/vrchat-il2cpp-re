@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSiblingSSibling_12FB",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "Update",
+    "Start",
+    "OnDestroy",
+    "ReadRectTransformState",
+    "Awake",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_136",
+    "m_A11",
+    "m_C58",
+    "m_53D",
+    "m_7DA",
+    "m_A99",
+    "m_760",
+    "m_0AF",
+    "m_D1F"
+  ]
+}

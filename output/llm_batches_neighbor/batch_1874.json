@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "0DerivedSiblingSiblingRelRelated_B187",
+  "parent": "",
+  "named_methods": [
+    "ProcessGameObject",
+    "ReadCapsuleColliderState",
+    "ReadCapsuleColliderState_83ED42D85A22"
+  ],
+  "hash_methods": [
+    "m_288",
+    "m_1ED",
+    "m_7BC",
+    "m_B6A",
+    "m_886",
+    "m_BF7",
+    "m_577",
+    "m_207",
+    "m_37A",
+    "m_A28"
+  ]
+}

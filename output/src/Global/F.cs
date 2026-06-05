@@ -851,9 +851,8 @@ public class Frame
     public void Initialize(){} // RVA: 0x7FFAF3AD3B60
     public void get_name(){} // RVA: 0x7FFAF3AD39B0
     public void set_name(){} // RVA: 0x7FFAF3AD3BF0
-    // ── Unresolved (hash) ──
-    public void m_BE4(){} // RVA: 0x7FFAF3AD3C80
-    public void m_DE0(){} // RVA: 0x7FFAF3AD3CE0
+    public void OpEquality(){} // RVA: 0x7FFAF3AD3C80
+    public void OpInequality(){} // RVA: 0x7FFAF3AD3CE0
 }
 
 public class Frame

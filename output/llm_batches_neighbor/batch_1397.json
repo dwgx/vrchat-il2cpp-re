@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "TransformMatrix4x4Handler_6582",
+  "parent": "",
+  "named_methods": [
+    "StartNew",
+    ".ctor",
+    "Initialize",
+    "StartNew_CF98D0E22AC1",
+    "Start",
+    "StartNew_CB538AAA01BC",
+    "StartNew_DE96345F4802",
+    "TrySetMatrixValue",
+    "StartNew_C769D590E8CA"
+  ],
+  "hash_methods": [
+    "m_E62",
+    "m_7B9",
+    "m_117",
+    "m_0E0",
+    "m_71F",
+    "m_42F",
+    "m_654",
+    "m_545",
+    "m_13A",
+    "m_1BB"
+  ]
+}

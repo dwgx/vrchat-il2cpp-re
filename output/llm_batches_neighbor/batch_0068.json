@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Construct",
+    "GetInstanceID",
+    ".ctor",
+    "ToString",
+    "GetInstanceID_37D1019A7EFA",
+    "GetInstanceID_7654DBA167E7",
+    "GetHashCode",
+    "Instantiate",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_E33",
+    "m_C85",
+    "m_BFE",
+    "m_22B",
+    "m_AFF",
+    "m_322"
+  ]
+}

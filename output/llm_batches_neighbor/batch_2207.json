@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "ParticleParticleSystemRendererHandler_604E",
+  "parent": "",
+  "named_methods": [
+    "SetTrailMaterial",
+    ".ctor",
+    "Initialize",
+    "SetVelocityScale"
+  ],
+  "hash_methods": [
+    "m_A15",
+    "m_0CC",
+    "m_C07",
+    "m_52B",
+    "m_499",
+    "m_E5F",
+    "m_AFF"
+  ]
+}

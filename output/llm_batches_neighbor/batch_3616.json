@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static12m_5F8F",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "OnDisable",
+    "OnEnable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "GetLinearFormatRenderingGraphicsFormatUtility",
+    "GetLinearFormatRenderingGraphicsFormatUtility_3CB451386F3C"
+  ],
+  "hash_methods": [
+    "m_F74",
+    "m_471",
+    "m_E29"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_D398",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_328",
+    "m_B0E",
+    "m_9AD",
+    "m_6CD",
+    "m_F98",
+    "m_2FF"
+  ]
+}

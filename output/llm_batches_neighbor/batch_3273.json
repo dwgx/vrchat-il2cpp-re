@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static8m_C3D3",
+  "parent": "",
+  "named_methods": [
+    "ReadComponentState",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_17D",
+    "m_B21",
+    "m_2D9",
+    "m_B04",
+    "m_3A8"
+  ]
+}

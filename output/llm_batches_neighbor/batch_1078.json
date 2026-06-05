@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static21m_08A9",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Awake",
+    "OnDestroy",
+    "GetComponentGameObject"
+  ],
+  "hash_methods": [
+    "m_224",
+    "m_28C",
+    "m_1B9",
+    "m_A3B",
+    "m_E54",
+    "m_BEE",
+    "m_28C",
+    "m_C25",
+    "m_350",
+    "m_9C6"
+  ]
+}

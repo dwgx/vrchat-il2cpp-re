@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static34m_B3D8",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_AB1",
+    "m_4A3",
+    "m_259",
+    "m_2AB",
+    "m_FA0",
+    "m_986",
+    "m_0E6",
+    "m_BBF",
+    "m_17C",
+    "m_2C4"
+  ]
+}

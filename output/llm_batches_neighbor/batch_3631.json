@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_D3DF",
+  "parent": "",
+  "named_methods": [
+    "GetTransformPosition",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_BCB",
+    "m_A2A",
+    "m_A47",
+    "m_DEF",
+    "m_7D6",
+    "m_04A"
+  ]
+}

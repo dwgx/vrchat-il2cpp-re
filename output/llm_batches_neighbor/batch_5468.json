@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_A148",
+  "parent": "",
+  "named_methods": [
+    "ReceiveFromInternal",
+    ".ctor",
+    "Initialize",
+    "IndexOf",
+    "UpdateTransformPose"
+  ],
+  "hash_methods": [
+    "m_3BB",
+    "m_410",
+    "m_CA8",
+    "m_52C",
+    "m_1E6",
+    "m_6CC",
+    "m_5FD",
+    "m_3B1",
+    "m_296",
+    "m_53B"
+  ]
+}

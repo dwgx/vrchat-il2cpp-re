@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "RefreshAvatar_183A",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "RefreshAvatar",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_F23",
+    "m_797",
+    "m_7CD",
+    "m_E65",
+    "m_8E3",
+    "m_FCB",
+    "m_667",
+    "m_7C0",
+    "m_E77",
+    "m_316"
+  ]
+}

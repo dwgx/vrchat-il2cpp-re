@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetCachedPtr",
+    "Equals",
+    ".ctor",
+    "DestroyImmediate",
+    "GetCachedPtr_5000C96DC676",
+    ".cctor",
+    "GetInstanceID"
+  ],
+  "hash_methods": [
+    "m_49E",
+    "m_7A8"
+  ]
+}

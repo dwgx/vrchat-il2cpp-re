@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "Select_9B0E",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "Start",
+    "Range",
+    ".ctor",
+    "Initialize",
+    "ReadTimeProperties",
+    "GetDeltaTime",
+    "GetDeltaTime_A651B14C73CC",
+    "GetDeltaTime_03E369256040",
+    "GetMaterial",
+    ".cctor",
+    "OnSelect",
+    "Awake",
+    "Select"
+  ],
+  "hash_methods": [
+    "m_D20",
+    "m_540",
+    "m_D64",
+    "m_3F3",
+    "m_1A1",
+    "m_F61"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "Static11m_56B2",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ConfigureComponent"
+  ],
+  "hash_methods": [
+    "m_C8D",
+    "m_8F9",
+    "m_7EB",
+    "m_DB6",
+    "m_AB6",
+    "m_B6E",
+    "m_C60",
+    "m_2F5"
+  ]
+}

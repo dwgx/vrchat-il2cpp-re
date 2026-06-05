@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSiblinSibling_5E43",
+  "parent": "",
+  "named_methods": [
+    "Update_3CB451386F3C",
+    "RaiseCancellation",
+    "Update",
+    "Initialize",
+    "Start",
+    "Start_C9ED83B2DF2E",
+    "RegisterTouchpadCallbacks",
+    "Awake",
+    "OnDestroy",
+    "OnCollisionExit",
+    "StartCoroutine_Auto",
+    "OnDisable",
+    "UnregisterTouchpadCallbacks",
+    "ProcessOVRTouchpadHelperSiblin",
+    ".ctor",
+    "HandleOVRTouchpadHelperSiblin"
+  ],
+  "hash_methods": [
+    "m_D68"
+  ]
+}

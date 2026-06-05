@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_DF4B",
+  "parent": "",
+  "named_methods": [
+    "CreateCouldNotLoadTypeException",
+    "CreateCouldNotLoadTypeException_C0175E97133A",
+    "Dispose",
+    "Cleanup",
+    "CreateCouldNotLoadTypeException_2F048217F2F1",
+    "CreateWindowsRuntimeTypeNotFoundException"
+  ],
+  "hash_methods": [
+    "m_C31",
+    "m_6C6",
+    "m_937",
+    "m_24F"
+  ]
+}

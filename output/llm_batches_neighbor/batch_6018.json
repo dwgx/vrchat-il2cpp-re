@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_BFE4",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "MoveNext",
+    "Equals",
+    "GetHashCode",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "System.Collections.IEnumerator.get_Current",
+    "ToString",
+    ".ctor",
+    "System.IDisposable.Dispose",
+    "Dispose",
+    "System.Collections.IEnumerator.Reset"
+  ],
+  "hash_methods": [
+    "m_124"
+  ]
+}

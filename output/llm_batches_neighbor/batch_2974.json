@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_0051",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "CtorFontDefinition",
+    "Equals",
+    "Initialize",
+    "ToString",
+    "CtorStyleKeyword",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_593",
+    "m_C6D",
+    "m_F30",
+    "m_F5C"
+  ]
+}

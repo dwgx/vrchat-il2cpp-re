@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_AE8C",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "Slice",
+    "IndexOf_21D88589BA8D",
+    "IndexOf_CFD57F12BFF0",
+    "LastIndexOf",
+    "BinarySearch",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_ED1",
+    "m_557",
+    "m_6D2"
+  ]
+}

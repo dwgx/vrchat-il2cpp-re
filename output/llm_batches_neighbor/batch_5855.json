@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "FoldoutListRelatedRelated_8232",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "Reset",
+    "Reset_B610BB4F738C",
+    "Reset_8B44995EF753",
+    "TrySetResult",
+    "GetStatus",
+    "ReadAnimatorState",
+    "Reset_60BC6280D4D8",
+    "Reset_0202FD1068A2",
+    ".ctor",
+    "Initialize",
+    "Reset_F84678782509"
+  ],
+  "hash_methods": [
+    "m_FCE",
+    "m_B16",
+    "m_F6B",
+    "m_FEF",
+    "m_48D",
+    "m_E96"
+  ]
+}

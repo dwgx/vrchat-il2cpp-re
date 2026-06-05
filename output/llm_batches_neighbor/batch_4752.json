@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_5BFA",
+  "parent": "",
+  "named_methods": [
+    "CreateContext",
+    "Awake",
+    "OnEnable",
+    "FixedUpdate",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    ".cctor",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "Start",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "LateUpdate",
+    "OnDisable",
+    "OnCollisionEnter",
+    "OnCollisionExit"
+  ],
+  "hash_methods": [
+    "m_30E",
+    "m_C30",
+    "m_86C"
+  ]
+}

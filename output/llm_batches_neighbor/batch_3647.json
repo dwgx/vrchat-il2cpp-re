@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "FoldoutListRelatedRelated_8FD8",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "CaptureExceptionDispatchInfo",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "InitializeEnumerator",
+    "TrySetResult",
+    "TrySetResult_B1670832D9C2",
+    "ThrowIfVersionChanged",
+    "ValidateToken",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_426",
+    "m_363",
+    "m_7D6",
+    "m_0E3",
+    "m_953",
+    "m_020",
+    "m_388",
+    "m_ACB",
+    "m_E2F",
+    "m_64E"
+  ]
+}

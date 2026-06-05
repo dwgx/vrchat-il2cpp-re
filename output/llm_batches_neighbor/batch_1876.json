@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "MaterialMaterialPropertyBlockHandler_5543",
+  "parent": "",
+  "named_methods": [
+    "GetFloatImpl",
+    "GetFloatImpl_7FD28589FE1E",
+    "GetIntImpl",
+    ".ctor",
+    "Initialize",
+    "PropertyToID",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_BEE",
+    "m_CB2",
+    "m_FC3"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_9CA": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_9CD": "MarshalManagedToNative",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_A19": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_A4E": "MarshalManagedToNative",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_A85": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_A8C": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_ABF": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_B23": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_C2A": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_C3A": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_C59": "SetArraySegmentToEnd",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_D5F": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_DA1": "MarshalNativeToManaged"
+}

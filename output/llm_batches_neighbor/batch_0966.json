@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_89E6",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "SetTriggerString",
+    "SetTriggerString_95DF3ECA53E5",
+    "SetTriggerString_24F8FB692E5A",
+    "SetTriggerString_016CB637BE71"
+  ],
+  "hash_methods": [
+    "m_EEE",
+    "m_410",
+    "m_C01"
+  ]
+}

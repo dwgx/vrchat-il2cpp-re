@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PointerClickPointerEnterSiblinSibling_E246",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ReadCameraState",
+    "ReadCameraState_53773F778605"
+  ],
+  "hash_methods": [
+    "m_502",
+    "m_AE9",
+    "m_BC4",
+    "m_2E9",
+    "m_A80",
+    "m_9DB",
+    "m_63D",
+    "m_8C5",
+    "m_1E3",
+    "m_79C"
+  ]
+}

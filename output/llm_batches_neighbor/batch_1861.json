@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "NetworkEnableMeshRPCSetPresetRPC_90D0",
+  "parent": "",
+  "named_methods": [
+    "Constructor",
+    "SetPresetRPC",
+    "EnableMeshRPC",
+    "Pickup",
+    "Use",
+    "Drop",
+    "Start",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_CF1",
+    "m_504",
+    "m_AEA",
+    "m_093",
+    "m_772",
+    "m_1DC",
+    "m_F33",
+    "m_6DC",
+    "m_411"
+  ]
+}

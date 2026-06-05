@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_3F71",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ComputeXxHash32"
+  ],
+  "hash_methods": [
+    "m_767",
+    "m_BBE",
+    "m_54A",
+    "m_9D5",
+    "m_E8B",
+    "m_6F9",
+    "m_665"
+  ]
+}

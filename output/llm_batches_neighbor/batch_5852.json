@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static17m_A7A8",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "Start",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_330",
+    "m_DDF",
+    "m_82C",
+    "m_4FD",
+    "m_94C",
+    "m_47A",
+    "m_2AA",
+    "m_91A",
+    "m_E28",
+    "m_95F"
+  ]
+}

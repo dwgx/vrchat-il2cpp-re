@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSiblingSibling_C45D",
+  "parent": "",
+  "named_methods": [
+    "ConfigureTransform",
+    "ConfigureTransform_C3A5D9797FB5",
+    "get_Item",
+    ".ctor",
+    "Initialize",
+    "get_Item_3E6D18C53DAA",
+    "get_Item_E09705A4BDA8",
+    "get_Item_068CE90BEF0C",
+    "get_Item_97E27556939A"
+  ],
+  "hash_methods": [
+    "m_62E",
+    "m_C4F",
+    "m_88A",
+    "m_25B",
+    "m_F3D",
+    "m_F5B",
+    "m_3B7",
+    "m_8AE",
+    "m_3D8",
+    "m_A93"
+  ]
+}

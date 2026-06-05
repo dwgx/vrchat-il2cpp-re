@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_080A",
+  "parent": "",
+  "named_methods": [
+    "InitializeCpuFeatureFlags",
+    "InitializeCpuFeatureFlags_CF3C4C0F0CAD",
+    "ReportSecurityFailure",
+    "ReportSecurityFailure_016CB637BE71",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_6F8"
+  ]
+}

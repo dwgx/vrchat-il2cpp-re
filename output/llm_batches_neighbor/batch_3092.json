@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_7AE4",
+  "parent": "",
+  "named_methods": [
+    "EnsureEventHandlersRegistered",
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_A57",
+    "m_7CD",
+    "m_F77",
+    "m_860",
+    "m_7CF",
+    "m_503",
+    "m_CFA",
+    "m_A11",
+    "m_7E0"
+  ]
+}

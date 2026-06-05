@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PointerEnter_ECF9",
+  "parent": "",
+  "named_methods": [
+    "ProcessPhysics",
+    "Start",
+    "ProcessPhysics_5CC301666292",
+    "ProcessPhysics_CE1C34E6667C",
+    "ProcessPhysics_A66395C728F2",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "OnPointerEnter",
+    "ProcessPhysics_938E358B6CF8",
+    "ProcessPhysics_27AAF5BB846E"
+  ],
+  "hash_methods": [
+    "m_6AC",
+    "m_46D",
+    "m_C55"
+  ]
+}

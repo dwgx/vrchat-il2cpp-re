@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "ProfiledHandler_72CC",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Awake",
+    "OnApplicationFocus",
+    "OnDisable",
+    "Dispose",
+    "Dispose_5EF225FF4407",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_E26",
+    "m_515",
+    "m_397",
+    "m_836",
+    "m_E19",
+    "m_3CB",
+    "m_146",
+    "m_69D"
+  ]
+}

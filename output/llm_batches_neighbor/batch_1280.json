@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSibling_5EA4",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "DelegateConstructor"
+  ],
+  "hash_methods": [
+    "m_B90",
+    "m_664",
+    "m_97E",
+    "m_076",
+    "m_0C0",
+    "m_ADD",
+    "m_0A8",
+    "m_345",
+    "m_1C2",
+    "m_385"
+  ]
+}

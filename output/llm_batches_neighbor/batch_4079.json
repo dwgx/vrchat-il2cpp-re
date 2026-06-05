@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_678F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "InvokeEventCallback",
+    "InvokeEventCallback_7F90565FAA03",
+    "InvokeEventCallback_DED4F0E75136",
+    "InvokeEventCallback_6B9014CE51A9",
+    "InvokeEventCallback_7E0765CBEA58"
+  ],
+  "hash_methods": [
+    "m_193",
+    "m_860",
+    "m_ECB",
+    "m_66E",
+    "m_0A9",
+    "m_A57",
+    "m_FC2"
+  ]
+}

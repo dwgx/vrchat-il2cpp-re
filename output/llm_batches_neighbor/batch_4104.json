@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PointerExitPointerDown_E559_D6F9",
+  "parent": "",
+  "named_methods": [
+    ".ctor_170231219DD7",
+    "Initialize",
+    "OnPointerDown",
+    "IsResource",
+    "OnDestroy",
+    ".ctor",
+    "Equals",
+    "OnPointerDown_D57C251E4677",
+    "OnPointerUp",
+    "Equals_179DB0D809A4",
+    "OnDisable",
+    "OnPointerUp_67BBD331B626",
+    "OnPointerExit"
+  ],
+  "hash_methods": [
+    "m_8A3"
+  ]
+}

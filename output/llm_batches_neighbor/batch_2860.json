@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSRelated_EB5D",
+  "parent": "",
+  "named_methods": [
+    "Update_3CB451386F3C",
+    "RaiseCancellation",
+    "Update",
+    "Awake",
+    "OnDestroy",
+    "Start_C9ED83B2DF2E",
+    "SetMaterial",
+    "Awake_1EFFFC7090A3",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_7FD"
+  ]
+}

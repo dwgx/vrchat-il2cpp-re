@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_BDCE",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext",
+    "AutodetectOptions",
+    "AutodetectOptions_4D87CF38F622"
+  ],
+  "hash_methods": [
+    "m_440",
+    "m_DB9",
+    "m_CE3"
+  ]
+}

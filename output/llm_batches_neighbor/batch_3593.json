@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "keepWaiting_AA91",
+  "parent": "",
+  "named_methods": [
+    "set_keepWaiting",
+    "get_keepWaiting",
+    "GetComponentTransform",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_4A1",
+    "m_FB7",
+    "m_F06",
+    "m_B5E",
+    "m_1D0",
+    "m_326",
+    "m_60E",
+    "m_CA8"
+  ]
+}

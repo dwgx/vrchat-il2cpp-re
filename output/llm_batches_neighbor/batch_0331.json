@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize_C4B78C56A244",
+    "SetMaterial",
+    "SetSortMode",
+    "SetSortingLayerID",
+    "SetSortingLayerName"
+  ],
+  "hash_methods": [
+    "m_A9E",
+    "m_F62",
+    "m_98D"
+  ]
+}

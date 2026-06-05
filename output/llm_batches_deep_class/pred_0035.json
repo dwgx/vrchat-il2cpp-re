@@ -1,0 +1,13 @@
+{
+ "AnimatedTextureBaseImpl_0682_3A0F::m_821": "AllocateHeapBlockFromFreeList",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_8DB": "MarkNextDirtyBlock",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_8E1": "FindPreviousHeapBlock",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_8F6": "CollectGarbageStopWorld",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_979": "AllocateHeapBlockFromFreeList",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_9FA": "ProcessMarkStack",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_A14": "PushRootSet",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_A61": "SweepHeapBlock",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_AB3": "CollectGarbageStopWorld",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_B12": "ProcessMarkStack",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_B96": "ScanMarkedObjectsForPointers"
+}

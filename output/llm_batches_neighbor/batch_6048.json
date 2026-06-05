@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "WorldSpawnSiblingSiblingSibling_FD5D",
+  "parent": "",
+  "named_methods": [
+    "GetValueOrDefault",
+    "GetHashCode",
+    "GetHashCode_E01EA12E2092",
+    "GetValueOrDefault_7C38C4EDC1FE",
+    "GetHashCode_D08E6766C3CB",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "CreateContext",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_FE4",
+    "m_82D",
+    "m_C47",
+    "m_033",
+    "m_775",
+    "m_CE1"
+  ]
+}

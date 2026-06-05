@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_72E7",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "Equals",
+    "MoveNext",
+    "GetHashCode",
+    "System.Collections.IEnumerator.get_Current",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "System.Collections.IEnumerator.Reset",
+    "ToString",
+    "Dispose",
+    "ProcessPlayableGraph",
+    "System.IDisposable.Dispose",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DB7"
+  ]
+}

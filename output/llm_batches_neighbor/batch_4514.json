@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Interact_BF8E",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "Awake",
+    "OnDestroy",
+    "OnEnable",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A91",
+    "m_92F",
+    "m_445",
+    "m_7FF",
+    "m_676",
+    "m_776",
+    "m_C74",
+    "m_13B",
+    "m_F5D"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "NetworkByteBuffer_85A5",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_668",
+    "m_FED",
+    "m_10A",
+    "m_E49",
+    "m_0A4",
+    "m_AC2",
+    "m_DEB",
+    "m_FF5",
+    "m_7F3",
+    "m_848"
+  ]
+}

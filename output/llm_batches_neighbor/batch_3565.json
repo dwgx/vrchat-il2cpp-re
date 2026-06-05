@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PointerDown_52ED",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "Start",
+    ".ctor",
+    "OnPointerDown"
+  ],
+  "hash_methods": [
+    "m_335",
+    "m_C30",
+    "m_744",
+    "m_DA4",
+    "m_903",
+    "m_FFB"
+  ]
+}

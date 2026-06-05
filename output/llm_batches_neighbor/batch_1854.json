@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "ApplicationHandler_5DBE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Update",
+    "GetInternetReachability"
+  ],
+  "hash_methods": [
+    "m_DA6",
+    "m_5E1",
+    "m_004",
+    "m_DFD",
+    "m_A78",
+    "m_074",
+    "m_2B4",
+    "m_3D7",
+    "m_139"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "ApplicationComponentHandler_2C91",
+  "parent": "",
+  "named_methods": [
+    "Asin",
+    "Asin_1A82B182B65F",
+    "Asin_E37DBD9676D3",
+    "Asin_A263F560CECE",
+    "Atan",
+    "Atan_3F9DEA26899D",
+    ".ctor",
+    "Initialize",
+    "CalculateFloatingRemainder",
+    "CalculateFloatingRemainder_B1AFDEE78868",
+    "CalculateFloatingRemainder_AD41F4BCA302",
+    "Atan2",
+    "Atan2_8B7D269D8E8F",
+    "Atan2_1546A281DC68",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_D10"
+  ]
+}

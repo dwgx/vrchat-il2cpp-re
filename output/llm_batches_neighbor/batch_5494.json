@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_2FBC",
+  "parent": "",
+  "named_methods": [
+    "ParseCommandLineArguments",
+    "Dispose",
+    "Cleanup",
+    "ConfigureNarrowArgv",
+    "ConfigureNarrowArgv_55208C4CA348",
+    "InitializeNarrowEnvironment"
+  ],
+  "hash_methods": [
+    "m_6EA",
+    "m_016",
+    "m_C31",
+    "m_F2B"
+  ]
+}

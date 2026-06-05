@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "ComplexComponentImpl_715D_CA4D",
+  "parent": "",
+  "named_methods": [
+    "SyncLocalPosition",
+    ".ctor",
+    "OnEnable",
+    ".cctor",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "Awake",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_E08",
+    "m_47A",
+    "m_7EB"
+  ]
+}

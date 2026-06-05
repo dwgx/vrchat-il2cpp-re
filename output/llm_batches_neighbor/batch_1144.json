@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Physics2DPhysicsHandler_D6A7",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ThrowHidDeviceDescriptorElementsMarshalException",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_F0F",
+    "m_073",
+    "m_11C",
+    "m_F46",
+    "m_2AD",
+    "m_C1D"
+  ]
+}

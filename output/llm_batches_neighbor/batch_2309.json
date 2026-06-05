@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformGameObjectHandler_12E3",
+  "parent": "",
+  "named_methods": [
+    "GetChildCount",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_805",
+    "m_6DD",
+    "m_897",
+    "m_D4C",
+    "m_6D9",
+    "m_E3E"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "GameObjectSystem_FD84",
+  "parent": "",
+  "named_methods": [
+    "OnDrawGizmos",
+    "ClearReferences",
+    "LateUpdate",
+    "OnDestroy",
+    "Awake",
+    "Start",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "FixedUpdate"
+  ],
+  "hash_methods": [
+    "m_921",
+    "m_57B",
+    "m_A97",
+    "m_D7A",
+    "m_0D4",
+    "m_56D",
+    "m_2E6",
+    "m_609",
+    "m_A34",
+    "m_BDA"
+  ]
+}

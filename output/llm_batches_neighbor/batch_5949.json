@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "NetworkCancelRPC_A0A4",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "CancelRPC",
+    "OnDestroy",
+    "Awake",
+    "ReadComponentProperties",
+    "CompareBaseObjects",
+    "CompareBaseObjects_86179350FA64",
+    "CompareBaseObjects_B98C3282016E",
+    "CompareBaseObjects_CE973FAD8657",
+    "IsNativeObjectAlive"
+  ],
+  "hash_methods": [
+    "m_254",
+    "m_196",
+    "m_9B9",
+    "m_D36",
+    "m_96E",
+    "m_CA3",
+    "m_205",
+    "m_2FB",
+    "m_6B9",
+    "m_B2E"
+  ]
+}

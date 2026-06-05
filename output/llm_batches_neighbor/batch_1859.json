@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_1491SiblingSibling_BDA5",
+  "parent": "",
+  "named_methods": [
+    "CreateLifecycleComponent",
+    "OnEnable",
+    "Start",
+    "FixedUpdate",
+    "Awake",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "Update",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_385",
+    "m_6F5"
+  ]
+}

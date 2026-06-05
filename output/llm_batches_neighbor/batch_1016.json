@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_5D10Sibling_2BD9",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Start",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_CA7",
+    "m_CA5",
+    "m_3EB",
+    "m_095",
+    "m_3CB",
+    "m_0AF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Internal_InstantiateSingleWithParent_Injected",
+    "GetLastServiceDescriptor",
+    "Instantiate",
+    ".cctor",
+    "Initialize",
+    "set_name_181C50C30DE3",
+    "get_name_181C50C30DE3",
+    "Equals",
+    ".ctor",
+    "GetCachedPtr"
+  ],
+  "hash_methods": [
+    "m_3DD",
+    "m_EF7"
+  ]
+}

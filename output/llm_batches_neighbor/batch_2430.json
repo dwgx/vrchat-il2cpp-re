@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitHandlerSibling_C7E0",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "get_Item",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_48A",
+    "m_018"
+  ]
+}

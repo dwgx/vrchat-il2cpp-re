@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "InverseTransformPointToLocal",
+    ".cctor",
+    "GetComponentGameObject",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A2E",
+    "m_FDF"
+  ]
+}

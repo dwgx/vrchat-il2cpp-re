@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_ABF2",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "Start",
+    "Update",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "OnEnable",
+    "GetIsLoadedInternal",
+    "FixedUpdate",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_574"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "ParticleHandler_882C",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_F9C",
+    "m_E6D",
+    "m_EBF",
+    "m_A41",
+    "m_CE4",
+    "m_461",
+    "m_6C5",
+    "m_A92",
+    "m_14A",
+    "m_0C8"
+  ]
+}

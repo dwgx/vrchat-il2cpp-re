@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "BaseClass3Impl_3164_0D48",
+  "parent": "",
+  "named_methods": [
+    "ConfigureQualitySettingsShadowCascades",
+    "ReadQualitySettingsState",
+    ".ctor",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_D0A",
+    "m_018",
+    "m_6E6",
+    "m_244",
+    "m_148",
+    "m_385",
+    "m_239",
+    "m_70E",
+    "m_352",
+    "m_F2C"
+  ]
+}

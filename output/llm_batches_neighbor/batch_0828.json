@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "SpriteHandler_87B5",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "ProcessSprite",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_0B0",
+    "m_48A",
+    "m_08D",
+    "m_6AC",
+    "m_29E",
+    "m_F6A",
+    "m_8AF",
+    "m_BC8",
+    "m_023",
+    "m_B36"
+  ]
+}

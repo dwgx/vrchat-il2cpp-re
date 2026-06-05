@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "TransformGameObjectHandler_A1ED",
+  "parent": "",
+  "named_methods": [
+    "InvokeTransformGameObjectHandler",
+    "InvokeTransformGameObjectHandler_B331279F8EA0",
+    "ConstructTransformGameObjectHandler",
+    ".ctor",
+    "Initialize",
+    "BeginInvoke"
+  ],
+  "hash_methods": [
+    "m_58B",
+    "m_8CA",
+    "m_755",
+    "m_6BF",
+    "m_7B5",
+    "m_2BF",
+    "m_846"
+  ]
+}

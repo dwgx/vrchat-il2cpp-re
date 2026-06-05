@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetIsKinematic",
+    "GetMass",
+    "FindObjectsByType_DE5001",
+    "IsNativeObjectAlive",
+    "ToString",
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_065"
+  ]
+}

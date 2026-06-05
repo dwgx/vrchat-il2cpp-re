@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_699A",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "get_Result",
+    "GetResult",
+    "ConfigureAwait",
+    "SetResult",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_7F6",
+    "m_4E8",
+    "m_63A"
+  ]
+}

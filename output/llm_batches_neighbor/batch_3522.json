@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "TransformPhysicsHandler_15FE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ToString",
+    "GetConnectedBody",
+    "GetMass",
+    "ToString_A1FA25989DE2",
+    "ToString_B229C5B53C92",
+    "GetEnabled",
+    "Equals",
+    "Dispose",
+    "Cleanup",
+    "Equals_E40BCD326541",
+    "ConfigureTransform",
+    "ToString_1DFA547A41D0"
+  ],
+  "hash_methods": [
+    "m_F8B",
+    "m_C0B",
+    "m_058",
+    "m_076"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "CompareBaseObjects",
+    "GetInstanceID",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "get_name_5241DE04205A",
+    "GetHashCode",
+    "GetNetworkProperty296",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_99A",
+    "m_C02",
+    "m_CDF",
+    "m_7FE"
+  ]
+}

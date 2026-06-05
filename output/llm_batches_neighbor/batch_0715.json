@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "IEnumeratorImpl_8A16",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "get_Current",
+    "System.Collections.IEnumerator.MoveNext",
+    "System.Collections.IEnumerator.Reset",
+    "CompareBaseObjects",
+    "CompareBaseObjects_45DF65DED3F8",
+    "CompareBaseObjects_EEE11926D826",
+    "CompareBaseObjects_D2370257AED0",
+    "CompareBaseObjects_57997441568B",
+    "Dispose",
+    "System.Collections.IEnumerator.get_Current",
+    "ToString",
+    "ToString_4E7A80DC21BC",
+    "ToString_C58A70ACF129",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_FAC",
+    "m_88A"
+  ]
+}

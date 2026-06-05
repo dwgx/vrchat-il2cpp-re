@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_F3DE",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "ProcessPhysics",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_288",
+    "m_7F6",
+    "m_752",
+    "m_124",
+    "m_63A",
+    "m_4E8"
+  ]
+}

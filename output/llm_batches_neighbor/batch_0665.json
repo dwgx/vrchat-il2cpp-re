@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Service24m_3F87",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "Start",
+    "OnDestroy",
+    "Awake",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DE2",
+    "m_565",
+    "m_018",
+    "m_563",
+    "m_432",
+    "m_5C8",
+    "m_FCC",
+    "m_096",
+    "m_F6D",
+    "m_2D2"
+  ]
+}

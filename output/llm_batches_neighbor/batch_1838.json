@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_BF1E",
+  "parent": "",
+  "named_methods": [
+    "GetBoundsPosition",
+    "ReadBoundsState",
+    "SetStateMachine",
+    "MoveNext",
+    "ReadSkinnedMeshRendererState",
+    "ReadSkinnedMeshRendererState_7F663E5CC641"
+  ],
+  "hash_methods": [
+    "m_CE3",
+    "m_0A8",
+    "m_06D",
+    "m_124"
+  ]
+}

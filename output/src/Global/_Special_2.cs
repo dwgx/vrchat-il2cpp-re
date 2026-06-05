@@ -6,6 +6,7 @@
 public class <>c
 {
     // ── Methods ──
+    public void IsNativeObjectAlive(){} // RVA: 0x7FFAF2ABDBE0
     public void GetCachedPtr(){} // RVA: 0x7FFAF2ABDBE0
     public void GetInstanceID_3D31F2484DAE(){} // RVA: 0x7FFAF2ABDBE0
     public void Instantiate_7BB9C873DF7D(){} // RVA: 0x7FFAF2ABDBE0
@@ -17,7 +18,6 @@ public class <>c
     public void Initialize(){} // RVA: 0x7FFAF2ABDBE0
     // ── Unresolved (hash) ──
     public void m_A07(){} // RVA: 0x7FFAF2ABDBE0
-    public void m_408(){} // RVA: 0x7FFAF2ABDBE0
 }
 
 public class <>c
@@ -983,15 +983,14 @@ public class <>c
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void CreateDestroyInstanceID(){} // RVA: 0x7FFAF3FB80A0
+    public void CreateDestroyInstanceID_EF09043C180B(){} // RVA: 0x7FFAF3FB81A0
+    public void SetRectAnchorsAction(){} // RVA: 0x7FFAF3FB82A0
+    public void SyncTransform(){} // RVA: 0x7FFAF3FB83A0
     public void op_Implicit(){} // RVA: 0x7FFAF3FB84A0
-    public void SetRectAnchorsAction(){} // RVA: 0x7FFAF3FB85A0
+    public void SetRectAnchorsAction_1DD0FBD60348(){} // RVA: 0x7FFAF3FB85A0
     public void .cctor(){} // RVA: 0x7FFAF3FB86A0
-    public void SyncTransform(){} // RVA: 0x7FFAF3FB8740
+    public void SyncTransform_7D3B19BF5224(){} // RVA: 0x7FFAF3FB8740
     public void ToString(){} // RVA: 0x7FFAF3FB8840
-    // ── Unresolved (hash) ──
-    public void m_EF0(){} // RVA: 0x7FFAF3FB81A0
-    public void m_320(){} // RVA: 0x7FFAF3FB82A0
-    public void m_9B0(){} // RVA: 0x7FFAF3FB83A0
 }
 
 public class <>c
@@ -1027,6 +1026,7 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
+    public void OpInequality(){} // RVA: 0x7FFAF446C510
     public void .cctor(){} // RVA: 0x7FFAF446C750
     public void Instantiate_122E4D7E9E37(){} // RVA: 0x7FFAF446C7F0
     public void CompareBaseObjects(){} // RVA: 0x7FFAF446C910
@@ -1035,7 +1035,6 @@ public class <>c
     public void CompareBaseObjects_3CA693D89279(){} // RVA: 0x7FFAF446CC70
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     // ── Unresolved (hash) ──
-    public void m_67D(){} // RVA: 0x7FFAF446C510
     public void m_046(){} // RVA: 0x7FFAF446C630
 }
 
@@ -1049,9 +1048,8 @@ public class <>c
     public void ProcessTransform(){} // RVA: 0x7FFAF45CF080
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void Initialize(){} // RVA: 0x7FFAF45CF180
+    public void IsNativeObjectAlive_26517A0AE38F(){} // RVA: 0x7FFAF45CF280
     public void IsNativeObjectAlive_2363B9FBBBE1(){} // RVA: 0x7FFAF45CF380
-    // ── Unresolved (hash) ──
-    public void m_265(){} // RVA: 0x7FFAF45CF280
 }
 
 public class <>c
@@ -1081,8 +1079,7 @@ public class <>c
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void .cctor(){} // RVA: 0x7FFAF2F6DBF0
     public void GetGameObjectTransform(){} // RVA: 0x7FFAF2F6DC90
-    // ── Unresolved (hash) ──
-    public void m_D81(){} // RVA: 0x7FFAF2F6DCE0
+    public void GetComponentTransform(){} // RVA: 0x7FFAF2F6DCE0
 }
 
 public class <>c
@@ -1092,13 +1089,13 @@ public class <>c
     public void ContainsChild_F32F20(){} // RVA: 0x7FFAF30C9550
     public void Equals(){} // RVA: 0x7FFAF30C9550
     public void GetComponentGameObject(){} // RVA: 0x7FFAF30C9550
+    public void Position(){} // RVA: 0x7FFAF30C9550
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void Initialize(){} // RVA: 0x7FFAF30C9550
     // ── Unresolved (hash) ──
     public void m_D51(){} // RVA: 0x7FFAF30C9550
     public void m_FFB(){} // RVA: 0x7FFAF30C9550
     public void m_333(){} // RVA: 0x7FFAF30C9550
-    public void m_341(){} // RVA: 0x7FFAF30C9550
 }
 
 public class <>c
@@ -1130,9 +1127,9 @@ public class <>c
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void op_Implicit(){} // RVA: 0x7FFAF30EBA00
     public void IsNativeObjectAlive(){} // RVA: 0x7FFAF30EBAB0
+    public void OpEquality(){} // RVA: 0x7FFAF30EBB60
+    public void OpInequality(){} // RVA: 0x7FFAF30EBC10
     // ── Unresolved (hash) ──
-    public void m_E42(){} // RVA: 0x7FFAF30EBB60
-    public void m_FEB(){} // RVA: 0x7FFAF30EBC10
     public void m_23C(){} // RVA: 0x7FFAF30EBCC0
     public void m_318(){} // RVA: 0x7FFAF30EBD70
 }
@@ -1159,6 +1156,7 @@ public class <>c
     public void GetHashCode(){} // RVA: 0x7FFAF32769F0
     public void GetCachedPtr(){} // RVA: 0x7FFAF3276AC0
     public void Equals(){} // RVA: 0x7FFAF3276B40
+    public void UnityRuntimeErrorString(){} // RVA: 0x7FFAF30C9550
     public void get_name_EBDFA8660434(){} // RVA: 0x7FFAF30C9550
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void Initialize(){} // RVA: 0x7FFAF3276C60
@@ -1166,12 +1164,11 @@ public class <>c
     public void GetHashCode_8F69D80BB8EE(){} // RVA: 0x7FFAF3276D60
     public void Awake_A6B6F4(){} // RVA: 0x7FFAF30C9550
     public void set_name(){} // RVA: 0x7FFAF3276DE0
+    public void OffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7FFAF3276E60
     public void Equals_534FE408E316(){} // RVA: 0x7FFAF3276EE0
     // ── Unresolved (hash) ──
     public void m_F3B(){} // RVA: 0x7FFAF3276A70
     public void m_2B3(){} // RVA: 0x7FFAF30C9550
-    public void m_1C8(){} // RVA: 0x7FFAF30C9550
-    public void m_2FD(){} // RVA: 0x7FFAF3276E60
 }
 
 public class <>c
@@ -1181,10 +1178,10 @@ public class <>c
     public void Initialize(){} // RVA: 0x7FFAF33FA5A0 | overloaded x2
     public void op_Implicit(){} // RVA: 0x7FFAF33FA420
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void GetComponentTransform(){} // RVA: 0x7FFAF33FA480
     public void GetHashCode(){} // RVA: 0x7FFAF33FA4E0
     public void GetName(){} // RVA: 0x7FFAF33FA540
     public void .cctor(){} // RVA: 0x7FFAF33FA600
     // ── Unresolved (hash) ──
     public void m_FF2(){} // RVA: 0x7FFAF33FA350
-    public void m_D81(){} // RVA: 0x7FFAF33FA480
 }

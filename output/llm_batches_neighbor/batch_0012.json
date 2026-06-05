@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name",
+    "OpImplicit",
+    "GetHashCode",
+    ".cctor",
+    "ToString_6A717074CA1C",
+    "GetHashCode_59C5627BE0C3",
+    ".ctor",
+    "Equals_C6A9D8",
+    "set_name_D56BE629A2F4"
+  ],
+  "hash_methods": [
+    "m_F8B",
+    "m_6DA"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_A18C",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "Equals",
+    "GetHashCode",
+    "Equals_63A097DDAF15",
+    "SetStateMachine",
+    "Equals_2889A92F8CA2",
+    "Equals_E821C8485FEA"
+  ],
+  "hash_methods": [
+    "m_440",
+    "m_0A8"
+  ]
+}

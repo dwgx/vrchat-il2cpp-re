@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "op_Implicit",
+    ".cctor",
+    "GetHashCode",
+    "Equals",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_137",
+    "m_46B",
+    "m_0DB",
+    "m_0CF",
+    "m_63F"
+  ]
+}

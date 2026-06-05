@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "Static110m_1487",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "Start",
+    "OnDestroy",
+    "Awake",
+    "LateUpdate",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_361",
+    "m_BA5",
+    "m_466",
+    "m_6D7",
+    "m_2DE",
+    "m_129",
+    "m_D50",
+    "m_84D",
+    "m_FE5",
+    "m_D28"
+  ]
+}

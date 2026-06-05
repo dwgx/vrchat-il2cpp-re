@@ -1,0 +1,25 @@
+{
+  "namespace": "VRC.UI.Client.Promotions",
+  "class": "PromotionDataManager",
+  "parent": "",
+  "named_methods": [
+    "get_Key_AA892FA7BA72",
+    ".ctor",
+    "Initialize",
+    "op_Implicit",
+    "Finalize",
+    ".ctor_90AC1F81B321",
+    "Initialize_34B07D7D8BD5",
+    "get_name",
+    "set_name",
+    "set_Key",
+    "Finalize_A602369923AE",
+    "GetHashCode",
+    "ToString",
+    "get_Key",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_F8C"
+  ]
+}

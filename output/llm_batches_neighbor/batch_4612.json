@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "BodyConnectedMachineAsyncStateMachine_F6D2",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine_DB9331771C7C",
+    "SetStateMachine",
+    "MoveNext_D5102AB0CB9C",
+    "Equals",
+    "InternalGetHashCode",
+    "GetHashCode",
+    "MoveNext",
+    "ToString",
+    "SetConnectedBody"
+  ],
+  "hash_methods": [
+    "m_EC8"
+  ]
+}

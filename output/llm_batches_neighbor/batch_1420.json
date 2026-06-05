@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_14B0",
+  "parent": "",
+  "named_methods": [
+    "InitializeDelegate",
+    "InitializeDelegate_95DF3ECA53E5",
+    "InvokeDelegate",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_DD6",
+    "m_6EA",
+    "m_EEE",
+    "m_F2B"
+  ]
+}

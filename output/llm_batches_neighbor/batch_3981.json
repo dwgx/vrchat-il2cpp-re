@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "SystemControllerRelated_1494",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    "ConstructDelegate"
+  ],
+  "hash_methods": [
+    "m_5EF"
+  ]
+}

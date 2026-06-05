@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_5CCC",
+  "parent": "",
+  "named_methods": [
+    "FillWindow",
+    "MoveNext",
+    "LoadMetadataFile",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_EC8",
+    "m_0A8",
+    "m_440",
+    "m_DB9",
+    "m_7F6"
+  ]
+}

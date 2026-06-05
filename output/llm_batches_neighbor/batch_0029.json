@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ReadColliderBounds",
+    ".cctor",
+    "DoWriteDefaultValue",
+    "CompareBaseObjects",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_36A",
+    "m_7F5",
+    "m_BFF",
+    "m_D18"
+  ]
+}

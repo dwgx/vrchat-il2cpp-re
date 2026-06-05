@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "ScreenGameObjectHandler_7F46",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start",
+    "Update",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_DAC"
+  ]
+}

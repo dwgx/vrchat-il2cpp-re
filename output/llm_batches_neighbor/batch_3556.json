@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "ctorDerivedSiblingSiblingRelated_0E2A",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "IgnoreCollisionsWithBone",
+    "IgnoreCollisionsWithBone_5DB06E77AABD",
+    "SetAngularMotionLocked",
+    "SetJointAngularMotionFree",
+    "Start",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_242",
+    "m_1B4",
+    "m_34C",
+    "m_CFB",
+    "m_821",
+    "m_1DD",
+    "m_7E0",
+    "m_289",
+    "m_7EC",
+    "m_405"
+  ]
+}

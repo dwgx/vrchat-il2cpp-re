@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "PointerPreCullHandler_2B6ASiblSibling_AA39",
+  "parent": "",
+  "named_methods": [
+    "GetStreamingAssetsPath",
+    "Awake",
+    "OnApplicationQuit",
+    "Start",
+    "OnDestroy",
+    "ProcessTransform",
+    "Update",
+    "OnPreCull",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DA4",
+    "m_808",
+    "m_D29",
+    "m_93F",
+    "m_4B0",
+    "m_8FD",
+    "m_3C1",
+    "m_CFD",
+    "m_76F",
+    "m_232"
+  ]
+}

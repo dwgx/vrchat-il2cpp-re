@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_98E2",
+  "parent": "",
+  "named_methods": [
+    "InsertRepeatedCharacter",
+    "Awake",
+    "OnDestroy",
+    "Initialize",
+    ".ctor",
+    "Initialize",
+    "ReadHuffmanSymbol",
+    "SetActiveGameObject",
+    "DecodeHuffmanSymbolsFast"
+  ],
+  "hash_methods": [
+    "m_43E",
+    "m_515",
+    "m_2BC",
+    "m_078",
+    "m_98B",
+    "m_DBD"
+  ]
+}

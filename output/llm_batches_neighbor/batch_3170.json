@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformTimeHandler_5BA4",
+  "parent": "",
+  "named_methods": [
+    "GetDeltaTime",
+    "GetDeltaTime_21507D29189D",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_29F",
+    "m_429",
+    "m_E90",
+    "m_3C5",
+    "m_F9B"
+  ]
+}

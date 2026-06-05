@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_D7EB",
+  "parent": "",
+  "named_methods": [
+    "RunThreadStartCallback",
+    "Dispose",
+    "Cleanup",
+    "SetThreadName",
+    "SetThreadName_2F048217F2F1",
+    "SetThreadState",
+    "WaitForMultipleHandles"
+  ],
+  "hash_methods": [
+    "m_24F",
+    "m_F2B"
+  ]
+}

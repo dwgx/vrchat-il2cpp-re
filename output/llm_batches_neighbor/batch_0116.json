@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "get_name",
+    ".cctor",
+    "CompareBaseObjects",
+    "ProcessFindDestroyObjects",
+    "GetHashCode_5521C011E939",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_E82",
+    "m_BAE",
+    "m_073",
+    "m_83B"
+  ]
+}

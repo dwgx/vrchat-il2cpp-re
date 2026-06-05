@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_05B6",
+  "parent": "",
+  "named_methods": [
+    "GetTime",
+    ".ctor",
+    "Initialize",
+    "GetTime_98A65F3821C9",
+    "GetTime_9B33B18B3751"
+  ],
+  "hash_methods": [
+    "m_DA7",
+    "m_C75",
+    "m_55E",
+    "m_D9B",
+    "m_4B9",
+    "m_7D5",
+    "m_410",
+    "m_A5E",
+    "m_77C",
+    "m_CEA"
+  ]
+}

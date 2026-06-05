@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "PointerDown_E38B",
+  "parent": "",
+  "named_methods": [
+    "UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "OnEnable",
+    "InitializeWithAdditionalValues",
+    "UnityEngine.EventSystems.IPointerExitHandler.OnPointerExit",
+    "Clear",
+    "Clear_AAB2D2F427E5",
+    "RemoveItem",
+    "Start",
+    "OnPointerDown",
+    "InitializeWithAdditionalValues_3F5D089B45F2"
+  ],
+  "hash_methods": [
+    "m_D9E",
+    "m_183",
+    "m_74D",
+    "m_24C",
+    "m_103",
+    "m_E6D",
+    "m_E79",
+    "m_9CF"
+  ]
+}

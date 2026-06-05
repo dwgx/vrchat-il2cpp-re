@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_6472",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "UpdateRotation",
+    "UpdateRotation_897DEBB07F3B",
+    "get_Current",
+    "TryGetNext"
+  ],
+  "hash_methods": [
+    "m_2AA",
+    "m_607",
+    "m_C42",
+    "m_390",
+    "m_33C"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_4CFD",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A41",
+    "m_3CB",
+    "m_CA7",
+    "m_C9E",
+    "m_A74",
+    "m_6B3",
+    "m_CE1"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "IsNativeObjectAlive",
+    ".ctor",
+    "GetBooleanFromDelegate",
+    "CompareBaseObjects"
+  ],
+  "hash_methods": [
+    "m_F75",
+    "m_820",
+    "m_EAC",
+    "m_B1A"
+  ]
+}

@@ -58,6 +58,7 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void HasVectorImpl(){} // RVA: 0x7FFAFB6E37D0
+        public void HasVectorImpl_E743C1107B8D(){} // RVA: 0x7FFAFB6E5180
         public void HasVectorImpl_94E5629E57C6(){} // RVA: 0x7FFAFB6E37D0
         public void HasVectorImpl_98E29FF5ED62(){} // RVA: 0x7FFAFB6E37D0
         public void HasVectorImpl_6FAF8B153D64(){} // RVA: 0x7FFAFB6E37D0
@@ -66,8 +67,6 @@ namespace VRC.Rendering
         public void get_Task(){} // RVA: 0x7FFAFB6E53E0
         public void HasVectorImpl_DE4ADB54A47C(){} // RVA: 0x7FFAFB6E37D0
         public void HasVectorImpl_A0304C23F87B(){} // RVA: 0x7FFAFB6E37D0
-        // ── Unresolved (hash) ──
-        public void m_E74(){} // RVA: 0x7FFAFB6E5180
     }
 
     /// <summary>Originally: ÎÎÎÎÍÎÎÌÌÎÌÌÍÌÍÎÎÏÍÏÌÍÏ</summary>
@@ -128,15 +127,14 @@ namespace VRC.Rendering
         public void Initialize(){} // RVA: 0x7FFAFB8DFD10
         public void GetValueOrDefault(){} // RVA: 0x7FFAFB8E0010
         public void Start(){} // RVA: 0x7FFAFB8E0170
-        public void ToString(){} // RVA: 0x7FFAFB8DFD10
         public void GetFrictionCombine_E632440AD8A8(){} // RVA: 0x7FFAFB8DFCD0
-        // ── 14 unresolved (hash) ──
+        // ── 15 unresolved (hash) ──
         public void m_EC4(){} // RVA: 0x7FFAF2DBB0C0
         public void m_D01(){} // RVA: 0x7FFAF2E08D60
         public void m_52E(){} // RVA: 0x7FFAF2F476A0
         public void m_027(){} // RVA: 0x7FFAFB8DFDD0
         public void m_0ED(){} // RVA: 0x7FFAF2E08D60
-        // ... 9 more unresolved methods
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÎÌÌÌÍÌÏÏÎÏÌÎÌÏÍÎÍÌÎÍÍ</summary>
@@ -276,12 +274,13 @@ namespace VRC.Rendering
         // ── Methods ──
         public void GetFloatImpl(){} // RVA: 0x7FFAF3DE4F30
         public void GetLocalScale(){} // RVA: 0x7FFAF3DE51C0
-        public void MoveNext(){} // RVA: 0x7FFAF3DE5450
         public void PropertyToID(){} // RVA: 0x7FFAF3DE56E0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3DE5980
-        public void MoveNext_3950F516860B(){} // RVA: 0x7FFAF3DE5C10
-        public void MoveNext_35F116690E53(){} // RVA: 0x7FFAF3DE5EB0
+        // ── Unresolved (hash) ──
+        public void m_523(){} // RVA: 0x7FFAF3DE5450
+        public void m_395(){} // RVA: 0x7FFAF3DE5C10
+        public void m_35F(){} // RVA: 0x7FFAF3DE5EB0
     }
 
     /// <summary>Originally: ÍÎÎÍÎÍÌÎÏÎÎÍÌÎÌÌÍÍÍÎÌÍÌ</summary>
@@ -314,22 +313,20 @@ namespace VRC.Rendering
         public void GetRect(){} // RVA: 0x7FFAF3FC4540
         public void GetRect_7CA63C88E9C0(){} // RVA: 0x7FFAF3FC4560
         public void GetRect_B8B3322197DE(){} // RVA: 0x7FFAF3FC4570
-        public void MoveNext(){} // RVA: 0x7FFAF3FC4670
         public void GetRect_72F1700E9352(){} // RVA: 0x7FFAF3FC4540
         public void Update(){} // RVA: 0x7FFAF2D8D310
         public void .ctor(){} // RVA: 0x7FFAF3FC46B0
         public void Initialize(){} // RVA: 0x7FFAF3FC4770
-        public void MoveNext_4A8F11C62DC6(){} // RVA: 0x7FFAF3FC47B0
         public void Start(){} // RVA: 0x7FFAF2D8D310
         public void GetRect_244DE9BF0C98(){} // RVA: 0x7FFAF3FC4540
         public void SetFloatImpl(){} // RVA: 0x7FFAF3FC6120
-        // ── 11 unresolved (hash) ──
+        // ── 13 unresolved (hash) ──
         public void m_DF9(){} // RVA: 0x7FFAF2D8D320
         public void m_5A2(){} // RVA: 0x7FFAF2D8D310
         public void m_CE1(){} // RVA: 0x7FFAF2D8D310
         public void m_41F(){} // RVA: 0x7FFAF2D8D310
         public void m_147(){} // RVA: 0x7FFAF2D8D310
-        // ... 6 more unresolved methods
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÍÌÏÍÏÎÏÎÍÎÏÍÎÏÏÏÏÏÍÎÏÍÍ</summary>

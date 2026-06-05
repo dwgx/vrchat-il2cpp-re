@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_C67D",
+  "parent": "",
+  "named_methods": [
+    "ConstructSpanFromArraySegment",
+    "SetStateMachine",
+    "MoveNext",
+    "ProcessTransform"
+  ],
+  "hash_methods": [
+    "m_4D8",
+    "m_DB9",
+    "m_440"
+  ]
+}

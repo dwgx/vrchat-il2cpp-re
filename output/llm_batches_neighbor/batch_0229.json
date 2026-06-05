@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    ".ctor_5AF7CDDEE424",
+    "CheckMaterial",
+    "CheckMaterial_AB77E77DD0D3",
+    ".cctor",
+    "Instantiate"
+  ],
+  "hash_methods": [
+    "m_374",
+    "m_DD8",
+    "m_740"
+  ]
+}

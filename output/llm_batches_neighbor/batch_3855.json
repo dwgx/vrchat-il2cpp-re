@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_10B4",
+  "parent": "",
+  "named_methods": [
+    "ConfigureComponent",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_E82",
+    "m_4E8",
+    "m_124",
+    "m_4D8"
+  ]
+}

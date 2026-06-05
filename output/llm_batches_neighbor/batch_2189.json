@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_4808",
+  "parent": "",
+  "named_methods": [
+    "SetActiveGameObject",
+    "IsStyleSelectorPartEqual",
+    "IsStyleSelectorPartEqual_48051ABDECC0",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "IsStyleSelectorPartEqual_3F8CDF48044F",
+    "IsStyleSelectorPartEqual_2A8DCB12BFAB",
+    "IsStyleSelectorPartEqual_ADF82D29E4F8"
+  ],
+  "hash_methods": [
+    "m_D95",
+    "m_08B",
+    "m_FE4",
+    "m_C89"
+  ]
+}

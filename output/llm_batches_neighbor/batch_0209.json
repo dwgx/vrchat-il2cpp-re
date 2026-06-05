@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Instantiate",
+    "get_name",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "op_Implicit",
+    "UpdatepositionInj"
+  ],
+  "hash_methods": [
+    "m_135",
+    "m_589",
+    "m_5E7",
+    "m_32F"
+  ]
+}

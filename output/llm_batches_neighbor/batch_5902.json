@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "AnimationCompletedInvisibleComponent_6A11",
+  "parent": "",
+  "named_methods": [
+    "CaptureLocalRotations",
+    "SetLightmapIndex",
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "Update",
+    "LateUpdate",
+    "FixedUpdate",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnDisable",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_FA4",
+    "m_156",
+    "m_CEE",
+    "m_BB3",
+    "m_B47"
+  ]
+}

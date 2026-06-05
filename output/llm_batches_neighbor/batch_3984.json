@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_BCCA",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A18",
+    "m_69B",
+    "m_F84",
+    "m_EB4",
+    "m_E69",
+    "m_3CB",
+    "m_98E"
+  ]
+}

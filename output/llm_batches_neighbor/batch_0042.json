@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "IsNativeObjectAlive",
+    ".cctor",
+    "ProcessMaterial",
+    "InternalCloneSingle",
+    "Instantiate",
+    "Instantiate_263B02E29F90",
+    "GetMaterial"
+  ],
+  "hash_methods": [
+    "m_928",
+    "m_874"
+  ]
+}

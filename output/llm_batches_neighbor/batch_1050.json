@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_C0C7",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "GetChild",
+    "GetChild_F41AD378681A"
+  ],
+  "hash_methods": [
+    "m_C1C",
+    "m_1E9",
+    "m_BA6",
+    "m_4A5",
+    "m_BEE",
+    "m_B23"
+  ]
+}

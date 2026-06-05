@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    "set_name",
+    "Instantiate",
+    "CompareBaseObjects",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "IsNativeObjectAlive"
+  ],
+  "hash_methods": [
+    "m_AA6",
+    "m_527"
+  ]
+}

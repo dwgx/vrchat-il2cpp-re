@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_A8BA",
+  "parent": "",
+  "named_methods": [
+    "SetResult",
+    "SetResult_ED2ECC99622C",
+    "SetResult_1E0D6C268F34",
+    "SetResult_A7D1665F9280",
+    "SetResult_A0E9422B196B",
+    ".ctor",
+    "Initialize",
+    "SetResult_4A0EC68DE661"
+  ],
+  "hash_methods": [
+    "m_7E5"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "namespace": "",
+  "class": "ComponentSystem_CA25",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetComponent",
+    "GetComponent_D186DC1DA13F",
+    "IndexOf",
+    "SolveDistanceConstraint",
+    "ResolveParticleDistanceConstraint",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible"
+  ],
+  "hash_methods": [
+    "m_102",
+    "m_B57",
+    "m_3F5",
+    "m_9E9",
+    "m_B96",
+    "m_E2F",
+    "m_698",
+    "m_DBE",
+    "m_A03",
+    "m_859"
+  ]
+}

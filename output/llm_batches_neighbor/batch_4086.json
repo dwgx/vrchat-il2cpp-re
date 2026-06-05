@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_A00C",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext_1244533621D8",
+    "IsValidHumanAnimator",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_7F6",
+    "m_DB9",
+    "m_4E8"
+  ]
+}

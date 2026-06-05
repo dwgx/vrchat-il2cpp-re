@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_0ABE",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_31B",
+    "m_97E",
+    "m_744",
+    "m_CFF",
+    "m_325",
+    "m_08B",
+    "m_6B9",
+    "m_6A7",
+    "m_BF7",
+    "m_3F5"
+  ]
+}

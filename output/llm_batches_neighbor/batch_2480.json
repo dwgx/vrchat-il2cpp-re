@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "Static36m_FAC0",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_52E",
+    "m_E96"
+  ]
+}

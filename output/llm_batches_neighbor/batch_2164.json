@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextCannedRelated_A4EA",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_41F",
+    "m_FA0",
+    "m_805",
+    "m_64A",
+    "m_310",
+    "m_496"
+  ]
+}

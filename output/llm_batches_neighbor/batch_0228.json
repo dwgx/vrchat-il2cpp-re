@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetCachedPtr",
+    "ToString",
+    ".ctor",
+    "get_name",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_12F",
+    "m_CBA",
+    "m_B94",
+    "m_33B",
+    "m_E96",
+    "m_C7A"
+  ]
+}

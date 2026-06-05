@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_94A6",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "GetHashCode",
+    "Equals",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_4E1"
+  ]
+}

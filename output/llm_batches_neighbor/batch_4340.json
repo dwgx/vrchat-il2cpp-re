@@ -1,0 +1,39 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_FCFE",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "GetHashCode",
+    "GetHashCode_C30AA4084D87",
+    "SetLocalRotation",
+    "GetHashCode_5E1AD44CAA99",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "Equals_695F0505D130",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter"
+  ],
+  "hash_methods": [
+    "m_5E7",
+    "m_3F1",
+    "m_CB5",
+    "m_E2D",
+    "m_C12",
+    "m_90B",
+    "m_1A9",
+    "m_3C6",
+    "m_83F",
+    "m_C11"
+  ]
+}

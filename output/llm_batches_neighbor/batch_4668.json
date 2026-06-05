@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_2A4F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ResetTrackedRectTransformDimensions",
+    "GetScaledDimensionChangeThreshold",
+    "GetRectTransform",
+    "GetAnchorMin",
+    "GetHorizontalPadding",
+    "OpenURL",
+    "HasExceededDimensionChangeThreshold"
+  ],
+  "hash_methods": [
+    "m_AF5",
+    "m_860",
+    "m_CDA",
+    "m_9BA",
+    "m_456",
+    "m_147",
+    "m_7B0",
+    "m_8BE",
+    "m_983",
+    "m_FD9"
+  ]
+}

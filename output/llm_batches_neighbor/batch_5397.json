@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "CloneSiblingSiblingSibling_E16F",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "GetPositionAndRotation",
+    ".ctor",
+    "Initialize",
+    "CreateContext",
+    "Equals_0D7AEDF89223",
+    "Equals_6775886EF8BD",
+    "Equals_0287790BA7D4",
+    "Equals_12D43C19CA77",
+    "Equals_0D7AEDF89223"
+  ],
+  "hash_methods": [
+    "m_139",
+    "m_924",
+    "m_486",
+    "m_19F",
+    "m_3B0",
+    "m_FE6",
+    "m_487",
+    "m_CB9",
+    "m_C9D",
+    "m_FCE"
+  ]
+}

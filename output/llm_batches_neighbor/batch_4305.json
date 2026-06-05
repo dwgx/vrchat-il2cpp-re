@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSibRelated_CE00",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "TrySetResult",
+    "ResizeArray",
+    "CreateNativeArray"
+  ],
+  "hash_methods": [
+    "m_07B",
+    "m_536",
+    "m_7A9",
+    "m_FB0",
+    "m_66A",
+    "m_93A",
+    "m_A3B"
+  ]
+}

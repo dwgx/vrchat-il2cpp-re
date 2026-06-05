@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncSiblingSibling_6C6B",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy_AD434082A73F",
+    "RaiseCancellation",
+    "Awake",
+    "CancelInvoke_3C1A00D439FA",
+    "StartCoroutineManaged2",
+    "OnCollisionStay_852E3599EAE7",
+    "IsInvoking",
+    "CancelInvoke_3C1A00D439FA_B53FF2ED9294",
+    "OnTriggerStay",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    ".cctor_25245ADEC3FD"
+  ],
+  "hash_methods": [
+    "m_934"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetAnchoredPosition",
+    ".ctor",
+    "IsNativeObjectAlive",
+    "BindNestedObject",
+    "Equals_DC4CDE325D18",
+    "ConfigureQuaternion",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_B73",
+    "m_578",
+    "m_E06"
+  ]
+}

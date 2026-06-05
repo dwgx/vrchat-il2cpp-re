@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "LogoutExit_E6FB_2F24",
+  "parent": "",
+  "named_methods": [
+    "Logout",
+    "FillArrayRange",
+    "LastIndexOf",
+    "FillArrayRange_5C38539039A5",
+    "FillArrayRange_241361A2E81F",
+    "FillArrayRange_F82A2C534C71",
+    "Exit",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_33B",
+    "m_134",
+    "m_E04"
+  ]
+}

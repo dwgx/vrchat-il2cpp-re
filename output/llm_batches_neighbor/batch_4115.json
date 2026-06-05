@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_F25E",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "GetFrameCount",
+    "GetFrameCount_5D1C0007AA08"
+  ],
+  "hash_methods": [
+    "m_F1A",
+    "m_F5B",
+    "m_ECD",
+    "m_921",
+    "m_7F4",
+    "m_588",
+    "m_F75",
+    "m_6F2",
+    "m_961",
+    "m_D42"
+  ]
+}

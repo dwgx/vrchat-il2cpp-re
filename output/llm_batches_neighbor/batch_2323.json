@@ -1,0 +1,36 @@
+{
+  "namespace": "",
+  "class": "FocusBehaviour_CB3A",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    "FixedUpdate",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "Awake",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnApplicationFocus",
+    "AreRigidbodiesBelowVelocityThreshold",
+    "OnCollisionEnter",
+    "Start",
+    "Update",
+    "OnDisable",
+    "OnTriggerExit",
+    "OnEnable",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_819",
+    "m_E03",
+    "m_6B7",
+    "m_AAA",
+    "m_3AD"
+  ]
+}

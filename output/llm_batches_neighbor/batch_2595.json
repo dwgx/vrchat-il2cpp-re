@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "CullingComponent_9D8E",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_0DD",
+    "m_BEE",
+    "m_805"
+  ]
+}

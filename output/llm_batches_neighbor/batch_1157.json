@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_4074",
+  "parent": "",
+  "named_methods": [
+    "Fill",
+    "MoveNext",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_440",
+    "m_63A",
+    "m_E82",
+    "m_752",
+    "m_0A8"
+  ]
+}

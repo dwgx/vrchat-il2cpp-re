@@ -1,0 +1,33 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_7566",
+  "parent": "",
+  "named_methods": [
+    "PointerEnterPointerExit",
+    "Equals",
+    "Equals_A66395C728F2",
+    "ToString",
+    "ToString_C8E345FB732C",
+    "Equals_FB0F10764763",
+    "Equals_AF51B7F10F5A",
+    "Equals_4D6FFB895185",
+    "Equals_9547B4BE63C7",
+    "Equals_F46FDF545570",
+    "Equals_66D0985C3E49",
+    "GetHashCode",
+    "ToString_19D6A09C4E06",
+    "GetHashCode_13820FFC1350",
+    "Equals_9CF74B94B19F",
+    "GetHashCode_59B05FC27767",
+    "Equals_B8B1FF29F31E",
+    "OnPointerExit",
+    "OnPointerEnter",
+    "ToString_DBD9776DC7AF",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_F84",
+    "m_D6B",
+    "m_F7C"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "Equals_348AFB8F99F0",
+    "get_name",
+    ".ctor",
+    "ProcessFindObjectsDestroy",
+    "IsNativeObjectAlive",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_B94",
+    "m_569"
+  ]
+}

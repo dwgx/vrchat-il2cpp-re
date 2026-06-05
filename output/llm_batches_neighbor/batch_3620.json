@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "UIObservableList_5B1ESiblingSibling_A4E9",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_BC0",
+    "m_553",
+    "m_428",
+    "m_568",
+    "m_56B"
+  ]
+}

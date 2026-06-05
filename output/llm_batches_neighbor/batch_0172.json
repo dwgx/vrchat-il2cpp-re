@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name",
+    "DefaultEquals",
+    "GetTransform",
+    "SelectFindObjectsDestroy",
+    "Computemain",
+    "OpImplicit",
+    ".ctor",
+    ".cctor",
+    "GetCachedPtr"
+  ],
+  "hash_methods": [
+    "m_356",
+    "m_7DA",
+    "m_7E5",
+    "m_BEF",
+    "m_0CF",
+    "m_62C",
+    "m_5C1"
+  ]
+}

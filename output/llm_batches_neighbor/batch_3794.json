@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_DD36",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "GetHashCode_8EE100DF50D6",
+    ".ctor",
+    "Initialize",
+    "GetLocalPosition",
+    "GetLocalPosition_83C03F77CA83",
+    "GetLocalPosition_C1359AD64235",
+    "GetHashCode_52E019E862E9",
+    "GetLocalPosition_C29B90E4DBF6"
+  ],
+  "hash_methods": [
+    "m_C59"
+  ]
+}

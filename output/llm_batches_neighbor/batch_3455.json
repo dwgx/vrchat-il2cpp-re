@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_5FA7SiblingSibling_B4A2",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "Start",
+    "OnApplicationQuit",
+    ".ctor",
+    "Initialize",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_A41"
+  ]
+}

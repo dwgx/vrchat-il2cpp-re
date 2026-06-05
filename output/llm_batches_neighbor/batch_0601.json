@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Service23m_C68FSibling_1971",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "ReadSpriteState",
+    ".ctor",
+    "Initialize",
+    "ProcessGameObject"
+  ],
+  "hash_methods": [
+    "m_49A",
+    "m_751",
+    "m_E87",
+    "m_D06",
+    "m_81A",
+    "m_01D",
+    "m_549",
+    "m_FEA",
+    "m_606",
+    "m_B8E"
+  ]
+}

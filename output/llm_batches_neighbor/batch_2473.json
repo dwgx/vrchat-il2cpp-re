@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponentSibling_5877_E170",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Equals",
+    "ToString",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_6B2"
+  ]
+}

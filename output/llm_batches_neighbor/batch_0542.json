@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_E0F9",
+  "parent": "",
+  "named_methods": [
+    "GetLocalRotation",
+    "ToString",
+    "GetHashCode",
+    "ToArray",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_440",
+    "m_752",
+    "m_4D8"
+  ]
+}

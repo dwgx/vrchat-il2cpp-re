@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "ctorDerivedSiblingSiblingRelated_D3FC",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "CalculateAngularVelocityBetweenVectors",
+    "CalculateAngularVelocityBetweenVectors_07BDF45A328C",
+    "ProcessTexture",
+    "GetPixels32",
+    "CalculateVelocity",
+    "GetJointSpaceRotation",
+    "DivideVector3Components",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_8EA",
+    "m_8C9",
+    "m_ACA",
+    "m_712",
+    "m_552",
+    "m_1B4",
+    "m_D33",
+    "m_98F",
+    "m_2DE",
+    "m_7EF"
+  ]
+}

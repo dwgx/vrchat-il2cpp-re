@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_F7ED",
+  "parent": "",
+  "named_methods": [
+    "System.IDisposable.Dispose",
+    "System.Collections.IEnumerator.get_Current",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "get_Current",
+    "Equals",
+    "System.Collections.IEnumerator.Reset",
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    "ToString",
+    "Dispose",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_1AD",
+    "m_ACC"
+  ]
+}

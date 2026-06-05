@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_49DF",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "Awake",
+    "Start",
+    "ProcessTransform"
+  ],
+  "hash_methods": [
+    "m_1EA",
+    "m_8D4",
+    "m_512"
+  ]
+}

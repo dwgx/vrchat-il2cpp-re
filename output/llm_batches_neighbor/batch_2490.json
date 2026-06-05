@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "Static25m_E5E0",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_2FD"
+  ]
+}

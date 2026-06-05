@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "SerializableVector3SiblingSiblSibling_36EA",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    "Initialize_D74F9E3B7B27",
+    "set_Value",
+    "IsNativeObjectAlive",
+    "GetCachedPtr"
+  ],
+  "hash_methods": [
+    "m_EE2",
+    "m_B1F"
+  ]
+}

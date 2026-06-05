@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "FocusComponent_828B",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit"
+  ],
+  "hash_methods": [
+    "m_8A3"
+  ]
+}

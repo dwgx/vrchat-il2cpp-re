@@ -1,0 +1,18 @@
+{
+ "ExceptionInt16OverflowComponent_B2EE::m_007": "CreateReflectionCamera",
+ "ExceptionInt16OverflowComponent_B2EE::m_012": "RenderReflectionCamera",
+ "ExceptionInt16OverflowComponent_B2EE::m_027": "DrawSphereColliderGizmos",
+ "ExceptionInt16OverflowComponent_B2EE::m_064": "FollowTargetWithOffset",
+ "ExceptionInt16OverflowComponent_B2EE::m_0A2": "AnimateRandomLocalPosition",
+ "ExceptionInt16OverflowComponent_B2EE::m_0B1": "RenderWaterReflection",
+ "ExceptionInt16OverflowComponent_B2EE::m_0DE": "RenderWaterReflection",
+ "ExceptionInt16OverflowComponent_B2EE::m_0E0": "ApplyWheelMotorAndBrakeTorque",
+ "ExceptionInt16OverflowComponent_B2EE::m_0F7": "ApplyWheelMotorAndBrakeTorque",
+ "ExceptionInt16OverflowComponent_B2EE::m_116": "CalculateSine",
+ "ExceptionInt16OverflowComponent_B2EE::m_18D": "UpdateCameraFollow",
+ "ExceptionInt16OverflowComponent_B2EE::m_19D": "DragRigidbodyWithMouse",
+ "ExceptionInt16OverflowComponent_B2EE::m_205": "RenderReflectionCamera",
+ "ExceptionInt16OverflowComponent_B2EE::m_237": "BlitToCameraTargetTexture",
+ "ExceptionInt16OverflowComponent_B2EE::m_24D": "CreateReflectionCamera",
+ "ExceptionInt16OverflowComponent_B2EE::m_267": "UpdateMaterialNoiseVector"
+}

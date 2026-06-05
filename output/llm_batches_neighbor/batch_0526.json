@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "PhotonConnectionHandler_2BC6",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "OnConnectedToMaster",
+    "Start",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_BF6",
+    "m_6B1",
+    "m_A52",
+    "m_A85",
+    "m_64F",
+    "m_298",
+    "m_7AA",
+    "m_33E",
+    "m_841",
+    "m_D2C"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "CloneSiblingSibling_E1B2",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "Equals",
+    "GetHashCode_FE6DF4546CA8",
+    "Equals_EDCFEBDFA11C",
+    "Equals_8ABA7E05C938",
+    "GetHashCode_10DA049B43D3"
+  ],
+  "hash_methods": [
+    "m_7A4",
+    "m_593",
+    "m_7A4",
+    "m_F67",
+    "m_673"
+  ]
+}

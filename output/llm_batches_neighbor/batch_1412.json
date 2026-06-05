@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "DescriptorParser_3830",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "OnDisable",
+    "Update",
+    "ConfigureTime",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_463",
+    "m_8D4",
+    "m_D4C",
+    "m_70B",
+    "m_724",
+    "m_817",
+    "m_29F",
+    "m_AD7",
+    "m_6E9",
+    "m_E46"
+  ]
+}

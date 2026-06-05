@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static16m_9F75",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ArgumentException",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_29C",
+    "m_222",
+    "m_937",
+    "m_850",
+    "m_9AF",
+    "m_5CA",
+    "m_799",
+    "m_492",
+    "m_169",
+    "m_0DE"
+  ]
+}

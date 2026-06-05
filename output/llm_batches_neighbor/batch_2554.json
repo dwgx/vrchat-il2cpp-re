@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiRelated_D642",
+  "parent": "",
+  "named_methods": [
+    "GetComponentTransform",
+    "SwapInstances",
+    ".ctor",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_01F",
+    "m_B3F",
+    "m_BCD",
+    "m_E2A",
+    "m_8EF"
+  ]
+}

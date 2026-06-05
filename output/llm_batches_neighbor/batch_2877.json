@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_2CAF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessTransform",
+    "ReadBehaviourState"
+  ],
+  "hash_methods": [
+    "m_98B",
+    "m_8AF",
+    "m_2CE",
+    "m_B2A",
+    "m_A95"
+  ]
+}

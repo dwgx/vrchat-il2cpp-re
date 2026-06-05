@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_1BAD",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "RaiseExecutionEngineExceptionIfMethodNotFound",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_124",
+    "m_DB9",
+    "m_4D8",
+    "m_0A8"
+  ]
+}

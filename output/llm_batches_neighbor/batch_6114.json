@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextCannedSiblingSibling_CAB0",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    "RaiseCancellation",
+    "Awake",
+    "SetChangeValue",
+    "Update_157B313559DF",
+    "OnDestroy",
+    "Start",
+    "Update",
+    "Update157B313559DF",
+    ".ctor",
+    "Initialize",
+    "DestroyContext",
+    "ProcessFrame"
+  ],
+  "hash_methods": [
+    "m_2B4"
+  ]
+}

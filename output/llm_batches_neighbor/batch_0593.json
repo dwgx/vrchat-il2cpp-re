@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "PlayerJoinedPlayerLeft_2F78",
+  "parent": "",
+  "named_methods": [
+    "InvokePlayerJoinedPlayerLeft",
+    "Awake",
+    ".ctor",
+    "OnDestroy",
+    "Start",
+    "OnPlayerJoined",
+    "OnPlayerLeft",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_6EF",
+    "m_31B",
+    "m_40E",
+    "m_779",
+    "m_059",
+    "m_937",
+    "m_B30",
+    "m_D59",
+    "m_0C0",
+    "m_B8B"
+  ]
+}

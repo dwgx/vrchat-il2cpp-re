@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_E978",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetFrameCount",
+    "GetFrameCount_1F890B3EC86A"
+  ],
+  "hash_methods": [
+    "m_40D",
+    "m_6FD",
+    "m_B5D"
+  ]
+}

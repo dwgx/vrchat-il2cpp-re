@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static12m_1775",
+  "parent": "",
+  "named_methods": [
+    "FindRelativeTransformPath",
+    "FindRelativeTransformPath_D8EA5D7BC51F",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_0A2",
+    "m_DF0",
+    "m_F5C",
+    "m_901",
+    "m_948",
+    "m_0F1",
+    "m_FB3",
+    "m_BFA"
+  ]
+}

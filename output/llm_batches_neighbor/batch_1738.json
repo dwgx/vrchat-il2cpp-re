@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static28m_2E3D",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "ReadGameObjectState",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_E27"
+  ]
+}

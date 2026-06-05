@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "animatePhysicsSiblingSibling_AC74",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "OnDisable",
+    "ToString_B0A195381B98",
+    "ToString_91B2CB32D286",
+    "Awake",
+    "OnDestroy",
+    "ToString_7052135DB559",
+    "OnEnable",
+    "get_Instance",
+    ".ctor",
+    "Initialize",
+    "GetLocalPosition"
+  ],
+  "hash_methods": [
+    "m_7B4",
+    "m_51E",
+    "m_D8A",
+    "m_CB2"
+  ]
+}

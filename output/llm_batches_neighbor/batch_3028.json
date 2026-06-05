@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "ShaderMaterialHandler_8235",
+  "parent": "",
+  "named_methods": [
+    "GetActiveInHierarchy",
+    ".ctor",
+    "Initialize",
+    "GetPropertyType"
+  ],
+  "hash_methods": [
+    "m_BDD",
+    "m_664",
+    "m_639",
+    "m_CE0",
+    "m_DDC",
+    "m_0C0"
+  ]
+}

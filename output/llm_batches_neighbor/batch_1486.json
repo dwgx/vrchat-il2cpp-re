@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "TransformUISystem_AE66",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "set_CacheWritingBehavior",
+    "set_CacheWritingBehavior_328B1EF8A762",
+    "set_CacheWritingBehavior_3970130CB444",
+    "SetAlpha",
+    "GetActiveSelf",
+    ".cctor",
+    "set_CacheWritingBehavior_16879069C15E",
+    "GetActiveInHierarchy",
+    "set_CacheWritingBehavior_14C1BBB069A8"
+  ],
+  "hash_methods": [
+    "m_9B6",
+    "m_FA4",
+    "m_39D",
+    "m_6FA",
+    "m_5C4",
+    "m_056",
+    "m_78E",
+    "m_CE9",
+    "m_183",
+    "m_DAE"
+  ]
+}

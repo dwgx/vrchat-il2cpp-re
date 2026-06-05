@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "gameObject_F4BA_6551",
+  "parent": "",
+  "named_methods": [
+    "set_gameObject",
+    "ContainsChild",
+    "ContainsChild_4CA37A796513",
+    "get_gameObject"
+  ],
+  "hash_methods": [
+    "m_D68",
+    "m_08E",
+    "m_32B",
+    "m_036",
+    "m_1EC",
+    "m_FA0",
+    "m_AD6",
+    "m_3D9",
+    "m_241",
+    "m_1F3"
+  ]
+}

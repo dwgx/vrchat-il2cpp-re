@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_ACC5",
+  "parent": "",
+  "named_methods": [
+    "ConfigureTransform",
+    "ConfigureTransform_C0175E97133A",
+    "SetName",
+    "SetPivot",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_CF3",
+    "m_410"
+  ]
+}

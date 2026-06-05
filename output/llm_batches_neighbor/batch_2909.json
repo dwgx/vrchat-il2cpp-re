@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static8m_F705",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ConfigureBehaviour"
+  ],
+  "hash_methods": [
+    "m_38E",
+    "m_10C",
+    "m_779",
+    "m_73A",
+    "m_168"
+  ]
+}

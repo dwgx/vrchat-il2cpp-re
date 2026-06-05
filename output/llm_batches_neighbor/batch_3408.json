@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_6B2E",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnPointerEnter",
+    "get_InstructionName",
+    ".ctor",
+    "Initialize",
+    "OnPointerExit",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_E90",
+    "m_3A5",
+    "m_710",
+    "m_C4B",
+    "m_05F"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "MaterialPhysicMaterialHandler_8839",
+  "parent": "",
+  "named_methods": [
+    "GetFrictionCombine",
+    ".ctor",
+    "Initialize",
+    "GetValueOrDefault",
+    "Start",
+    "ToString",
+    "GetFrictionCombine_E632440AD8A8"
+  ],
+  "hash_methods": [
+    "m_1C8",
+    "m_515",
+    "m_514",
+    "m_FDA"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "CameraSystem_E18D",
+  "parent": "",
+  "named_methods": [
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView",
+    "GetFieldOfView"
+  ],
+  "hash_methods": [
+    "m_C0D",
+    "m_C0D",
+    "m_C0D",
+    "m_C0D",
+    "m_C0D",
+    "m_C0D",
+    "m_308",
+    "m_308",
+    "m_706",
+    "m_308"
+  ]
+}

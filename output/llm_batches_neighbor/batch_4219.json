@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "RefreshServices_2226",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "RefreshServices",
+    "Start",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_227",
+    "m_3F2",
+    "m_12A",
+    "m_4FD",
+    "m_F1D",
+    "m_7C8",
+    "m_C14",
+    "m_124",
+    "m_EF9",
+    "m_B18"
+  ]
+}

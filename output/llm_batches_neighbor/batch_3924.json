@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_7318",
+  "parent": "",
+  "named_methods": [
+    "GetEnumerator",
+    "System.Collections.IEnumerator.Reset",
+    "MoveNext",
+    ".ctor",
+    "System.Collections.IEnumerable.GetEnumerator",
+    "System.Collections.IEnumerator.get_Current",
+    "get_Current",
+    "System.Collections.Generic.IEnumerator<VRC.DataModel.ISpawnedProp>.get_Current",
+    "Dispose",
+    "System.IDisposable.Dispose",
+    "System.Collections.Generic.IEnumerable<VRC.DataModel.ISpawnedProp>.GetEnumerator"
+  ],
+  "hash_methods": [
+    "m_9B7",
+    "m_4F6",
+    "m_AEB",
+    "m_E1D"
+  ]
+}

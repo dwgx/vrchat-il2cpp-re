@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "RenderingUIHandler_B0BF",
+  "parent": "",
+  "named_methods": [
+    "ProcessAsyncGPUReadbackRequest",
+    "ReleaseTemporary",
+    "ReleaseTemporary_E8710CBD7132",
+    "ReleaseTemporary_7B1A76892C86",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_C96",
+    "m_7C2",
+    "m_672",
+    "m_2BF"
+  ]
+}

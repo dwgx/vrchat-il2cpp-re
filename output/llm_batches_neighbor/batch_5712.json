@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "PhysicsHingeJointHandler_DF6F",
+  "parent": "",
+  "named_methods": [
+    "SetUseMotor",
+    ".ctor",
+    "Initialize",
+    "SetUseMotor_0DABCD07E180",
+    "SetUseMotor_CB158BCA4B0C"
+  ],
+  "hash_methods": [
+    "m_210",
+    "m_73C"
+  ]
+}

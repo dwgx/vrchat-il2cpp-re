@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_254A",
+  "parent": "",
+  "named_methods": [
+    "GetRawImageDataSize",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_410",
+    "m_EEE",
+    "m_6F8",
+    "m_24F",
+    "m_C01"
+  ]
+}

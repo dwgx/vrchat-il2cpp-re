@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_5FA7SiblingSibling_467E",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_C28",
+    "m_D08",
+    "m_9A4",
+    "m_C28",
+    "m_34B",
+    "m_F3F",
+    "m_A66"
+  ]
+}

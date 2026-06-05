@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_4BC5",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "Awake",
+    "Start",
+    "Update",
+    "IgnoreCollision",
+    ".ctor",
+    "Initialize",
+    "ProcessPhysics",
+    "GetIgnoreLayerCollision_Internal"
+  ],
+  "hash_methods": [
+    "m_363"
+  ]
+}

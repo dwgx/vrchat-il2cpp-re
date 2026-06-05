@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "InitializeFailed_71B2_07F2",
+  "parent": "",
+  "named_methods": [
+    "OnPurchaseFailed",
+    "OnInitialized",
+    "OnInitializeFailed",
+    ".cctor",
+    "OnPurchaseFailed",
+    "OnInitializeFailed",
+    "ProcessPurchase",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A4F",
+    "m_BE5",
+    "m_A16",
+    "m_ED4",
+    "m_34B",
+    "m_CB0",
+    "m_B77",
+    "m_B4E",
+    "m_A18",
+    "m_2E0"
+  ]
+}

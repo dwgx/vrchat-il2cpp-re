@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeRelated_75ED",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_C8E",
+    "m_909",
+    "m_808",
+    "m_3FA",
+    "m_FF5",
+    "m_3B3",
+    "m_F6B",
+    "m_F21",
+    "m_92E",
+    "m_970"
+  ]
+}

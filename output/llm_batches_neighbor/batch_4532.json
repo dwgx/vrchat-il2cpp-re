@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSibling_BA3D",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "GetHashCode_DC86C226E204",
+    "GetHashCode_FB952E181EDD",
+    ".ctor",
+    "Initialize",
+    "Equals",
+    "Equals_56CF4947E6D1"
+  ],
+  "hash_methods": [
+    "m_BF4",
+    "m_59E",
+    "m_87F",
+    "m_5E9",
+    "m_3CE",
+    "m_9D0",
+    "m_B06",
+    "m_D13",
+    "m_AFD",
+    "m_D5F"
+  ]
+}

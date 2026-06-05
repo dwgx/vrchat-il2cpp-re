@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "UIQuaternionHandler_9EA8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SetAlpha",
+    "SetAlpha_A8CFC110BA9B",
+    "SetAlpha_D430F711CFA7"
+  ],
+  "hash_methods": [
+    "m_4EB",
+    "m_E14",
+    "m_2B2",
+    "m_D6D",
+    "m_C1B",
+    "m_982",
+    "m_C0B",
+    "m_9D9",
+    "m_E93",
+    "m_CB3"
+  ]
+}

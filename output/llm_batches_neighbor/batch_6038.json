@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSiblingSibling_7E32",
+  "parent": "",
+  "named_methods": [
+    "ProcessPlayableOutputHandle",
+    "Start",
+    "GetName",
+    ".ctor",
+    ".cctor",
+    "SetColorImplMaterial"
+  ],
+  "hash_methods": [
+    "m_F5C",
+    "m_8F2",
+    "m_6B9",
+    "m_0CB",
+    "m_FB9",
+    "m_5E9",
+    "m_1DA",
+    "m_29B"
+  ]
+}

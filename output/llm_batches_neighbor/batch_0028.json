@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name",
+    "op_Implicit",
+    "Internal_InstantiateSingleWithParent_Injected",
+    "SyncTransform",
+    ".ctor",
+    "Equals",
+    "get_name_1B52DDB67D74",
+    "set_name_1B52DDB67D74",
+    "get_name_1B52DDB67D74_98B3C3F1EC06",
+    "GetHashCode",
+    "GetBackgroundColor",
+    "Instantiate",
+    "SetGameObjectActive",
+    "ThrowValueMarshalError",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_EB6",
+    "m_CCA",
+    "m_FDB",
+    "m_540"
+  ]
+}

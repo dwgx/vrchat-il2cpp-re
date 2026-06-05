@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "Static7m_DD5B",
+  "parent": "",
+  "named_methods": [
+    "ReadComponentState",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DC6",
+    "m_EEC",
+    "m_FCB",
+    "m_EDB"
+  ]
+}

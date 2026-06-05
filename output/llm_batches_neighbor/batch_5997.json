@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "UpdateComponentSibling_D6E6Sibling_2427",
+  "parent": "",
+  "named_methods": [
+    "UpdateComponent",
+    "Equals",
+    "GetHashCode_D40235EB3843",
+    "ToString_81AA453EC94C",
+    ".ctor",
+    "ToString",
+    ".ctor",
+    "Equals",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_2F4",
+    "m_F74",
+    "m_853",
+    "m_E2F",
+    "m_A82",
+    "m_903",
+    "m_FF3",
+    "m_D4E"
+  ]
+}

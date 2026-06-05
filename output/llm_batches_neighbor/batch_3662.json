@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_6963",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    "Initialize",
+    "ProcessTransform",
+    "StringToHash",
+    "Contains",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_536",
+    "m_96F",
+    "m_AEE"
+  ]
+}

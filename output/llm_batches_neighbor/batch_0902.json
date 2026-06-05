@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_2E3F",
+  "parent": "",
+  "named_methods": [
+    "CreateEnvironmentStringArray",
+    "InitializeNarrowEnvironmentFromWide",
+    "ExecuteOnExitTableLocked",
+    "RegisterOnExitFunction",
+    "RegisterOnExitFunction_95DF3ECA53E5",
+    "ExecuteOnExitTable",
+    "InitializeCrtRuntime",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_937"
+  ]
+}

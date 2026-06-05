@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "BehaviourMeshHandler_7016",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetMeshDataAtIndex",
+    "GetEnabled",
+    "GetBlendShapeFrameWeight"
+  ],
+  "hash_methods": [
+    "m_41F",
+    "m_98C",
+    "m_0F8"
+  ]
+}

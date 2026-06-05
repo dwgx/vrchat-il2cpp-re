@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static18m_A942",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnDisable",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_4AC",
+    "m_4D5"
+  ]
+}

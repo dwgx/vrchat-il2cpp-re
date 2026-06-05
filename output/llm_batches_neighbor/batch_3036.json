@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "GPUReadbackHandler_40C5",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessAsyncGPUReadbackRequest"
+  ],
+  "hash_methods": [
+    "m_DEE",
+    "m_212",
+    "m_483",
+    "m_7A2",
+    "m_EA7"
+  ]
+}

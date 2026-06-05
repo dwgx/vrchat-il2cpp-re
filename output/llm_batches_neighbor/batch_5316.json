@@ -1,0 +1,33 @@
+{
+  "namespace": "",
+  "class": "flags_B9F3",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    "IndexOf",
+    "LastIndexOf",
+    "Start",
+    "IndexOf_701270FDA752",
+    "IndexOf_89BF71196516",
+    "IndexOf_B8B118BB8C76",
+    "IndexOf_5770EB3ADDBF",
+    "IndexOf_127CE1F721A4",
+    "ProcessPlayableGraph",
+    "IndexOf_E5389F63DAA8",
+    "ProcessPlayableGraph_9680F4F9CBF5",
+    "IndexOf_C30AA4084D87",
+    ".ctor",
+    ".cctor",
+    "Add",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_80B",
+    "m_E3A",
+    "m_BF1",
+    "m_652",
+    "m_873",
+    "m_AA0"
+  ]
+}

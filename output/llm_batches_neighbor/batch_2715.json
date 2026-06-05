@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_D8A8",
+  "parent": "",
+  "named_methods": [
+    "MoveNext_CE3811BE79BB",
+    "SetStateMachine",
+    "MoveNext",
+    "MoveNext_1244533621D8"
+  ],
+  "hash_methods": [
+    "m_4D8",
+    "m_752",
+    "m_0A8"
+  ]
+}

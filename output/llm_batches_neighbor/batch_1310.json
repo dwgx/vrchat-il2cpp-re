@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static63m_39BF",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Start",
+    "OnDisable",
+    "Update",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_70A",
+    "m_BF2",
+    "m_EF5",
+    "m_259",
+    "m_FE0",
+    "m_31C",
+    "m_5B1",
+    "m_249",
+    "m_EF5",
+    "m_4E4"
+  ]
+}

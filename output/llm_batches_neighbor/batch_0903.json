@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeSibliRelated_61DE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Start",
+    "ThrowEnumeratorObjectMarshalException"
+  ],
+  "hash_methods": [
+    "m_F73",
+    "m_338",
+    "m_889",
+    "m_C9E",
+    "m_C30",
+    "m_4DE",
+    "m_FCC",
+    "m_FDA"
+  ]
+}

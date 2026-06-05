@@ -1,0 +1,15 @@
+{
+ "prediction_files": 211,
+ "emitted": 1366,
+ "valid_after_filter": 674,
+ "added": 0,
+ "skipped_existing": 674,
+ "rejected": {
+  "bad_length": 5,
+  "generic": 29,
+  "bad_format": 10,
+  "per_class_duplicate": 626,
+  "global_duplicate": 22
+ },
+ "backup": "D:\\Project\\vrchat-il2cpp-re\\output\\cross_version_method_names.pre_deep_class_20260605_213719.json"
+}

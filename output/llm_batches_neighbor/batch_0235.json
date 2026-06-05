@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "GetInstanceID",
+    "GetHashCode",
+    "SetObjectAndTriggerCallback",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_CC7",
+    "m_B8B",
+    "m_E83",
+    "m_CC8",
+    "m_5E4",
+    "m_BEE"
+  ]
+}

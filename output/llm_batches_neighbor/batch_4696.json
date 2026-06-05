@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_0EB0",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "System.Collections.IEnumerator.get_Current",
+    "Equals",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "System.Collections.IEnumerator.Reset",
+    "GetHashCode",
+    "ToString",
+    "System.IDisposable.Dispose",
+    ".ctor",
+    "Initialize",
+    "Dispose",
+    "CreateSpanFromArrayRange",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_CE3"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "VRC_MainSiblingSiblingSibling_F0C0::m_004": "CacheCurrentLocalTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_104": "TryCreateHumanBoneCache",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_140": "CacheCurrentLocalTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_151": "RestoreCachedLocalTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_16F": "ValidateHumanBoneTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_280": "InitializeIKTransformData",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_288": "CacheCurrentLocalTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_3AA": "CacheCurrentLocalTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_3EC": "RestoreCachedLocalTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_427": "RestoreCachedLocalTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_43D": "GetEffectorPositionAndRotation",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_46D": "RestoreCachedLocalTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_4A0": "ValidateHumanBoneTransforms",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_4CF": "TryCreateHumanBoneCache",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_567": "TryCreateHumanBoneCache",
+ "VRC_MainSiblingSiblingSibling_F0C0::m_65C": "InitializeIKTransformData"
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ForceLoadFromInstanceID",
+    ".ctor",
+    "Initialize",
+    "set_name",
+    "FindObjectsOfType",
+    "GetDefaultUserId",
+    "GetName",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_01F",
+    "m_6EF"
+  ]
+}

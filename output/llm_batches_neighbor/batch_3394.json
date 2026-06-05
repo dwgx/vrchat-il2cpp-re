@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_596B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetMaterial"
+  ],
+  "hash_methods": [
+    "m_06A",
+    "m_B3D",
+    "m_76E",
+    "m_4B6",
+    "m_852",
+    "m_7D0",
+    "m_EE9",
+    "m_C52",
+    "m_6A6",
+    "m_45A"
+  ]
+}

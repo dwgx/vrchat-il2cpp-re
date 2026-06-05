@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_E3BB",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "OnApplicationQuit",
+    "OnEnable",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "OnBecameVisible",
+    "Awake",
+    "Start",
+    "FixedUpdate"
+  ],
+  "hash_methods": [
+    "m_2B4"
+  ]
+}

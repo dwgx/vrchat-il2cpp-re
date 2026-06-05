@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "PointerPressKey_CB1B",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    ".ctor",
+    "Initialize",
+    "Update",
+    "GetHashCode",
+    "Equals",
+    "HasValue",
+    "PressKey",
+    "Start",
+    "BoxNullableValue"
+  ],
+  "hash_methods": [
+    "m_2B4",
+    "m_CE1",
+    "m_FA1",
+    "m_94F",
+    "m_BA2"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_EB5D",
+  "parent": "",
+  "named_methods": [
+    "GetDeltaTime",
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    "GetDeltaTime_D0A49DFFD689",
+    "GetDeltaTime_D53F80785B99",
+    "GetDeltaTime_2913D729DA2C"
+  ],
+  "hash_methods": [
+    "m_9BB",
+    "m_C3F",
+    "m_13F",
+    "m_8CD"
+  ]
+}

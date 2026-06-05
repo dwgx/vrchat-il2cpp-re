@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PointerClickPointerEnterSRelated_EA6A",
+  "parent": "",
+  "named_methods": [
+    "SortArraySegment",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B46",
+    "m_25C",
+    "m_FA0",
+    "m_B6D",
+    "m_FEB",
+    "m_092",
+    "m_879",
+    "m_5E3",
+    "m_1A3",
+    "m_D49"
+  ]
+}

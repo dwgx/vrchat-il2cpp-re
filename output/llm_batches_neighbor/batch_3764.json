@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "CreatePropertiesCreateContractSibling_9BEF",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize",
+    "GetActiveRenderTexture"
+  ],
+  "hash_methods": [
+    "m_9EB",
+    "m_BF9",
+    "m_A22",
+    "m_FC9"
+  ]
+}

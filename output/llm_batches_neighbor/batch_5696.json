@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_8581",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext",
+    "ReadCameraState"
+  ],
+  "hash_methods": [
+    "m_DB9",
+    "m_4D8",
+    "m_0A8",
+    "m_CE3",
+    "m_7F6"
+  ]
+}

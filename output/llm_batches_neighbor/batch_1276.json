@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_B3ED",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "GetLocalPosition",
+    "GetLocalPosition_2889A92F8CA2",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_015",
+    "m_E82",
+    "m_440",
+    "m_63A",
+    "m_752"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_75AF",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext",
+    "ReadMaterialPropertyBlockState"
+  ],
+  "hash_methods": [
+    "m_440",
+    "m_DB9",
+    "m_4E8",
+    "m_7F6",
+    "m_63A"
+  ]
+}

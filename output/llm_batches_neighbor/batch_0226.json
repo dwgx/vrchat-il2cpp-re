@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "IsNativeObjectAlive",
+    "GetCachedPtr",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_A75",
+    "m_81F",
+    "m_740"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "ExceptionInt16OverflowComponent_B2EE::m_29B": "EnsureEventSystemExists",
+ "ExceptionInt16OverflowComponent_B2EE::m_2EF": "CreateWaterObjects",
+ "ExceptionInt16OverflowComponent_B2EE::m_305": "Pow",
+ "ExceptionInt16OverflowComponent_B2EE::m_30B": "ConfigureCamera",
+ "ExceptionInt16OverflowComponent_B2EE::m_33B": "NormalizeVector",
+ "ExceptionInt16OverflowComponent_B2EE::m_35E": "Constructor",
+ "ExceptionInt16OverflowComponent_B2EE::m_362": "OnWillRenderObject",
+ "ExceptionInt16OverflowComponent_B2EE::m_3D8": "SetLinkedObjectsActive",
+ "ExceptionInt16OverflowComponent_B2EE::m_44C": "UpdateShadows",
+ "ExceptionInt16OverflowComponent_B2EE::m_45F": "RestartParticleSystems",
+ "ExceptionInt16OverflowComponent_B2EE::m_482": "OnWillRenderObject",
+ "ExceptionInt16OverflowComponent_B2EE::m_486": "BuildPathCache",
+ "ExceptionInt16OverflowComponent_B2EE::m_4CF": "CreateWaterObjects"
+}

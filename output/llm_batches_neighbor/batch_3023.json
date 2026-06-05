@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "PointerPreCull_D0F1",
+  "parent": "",
+  "named_methods": [
+    "OnPreCull",
+    ".ctor",
+    "Initialize",
+    "OnPostRender"
+  ],
+  "hash_methods": [
+    "m_340",
+    "m_46B",
+    "m_FE5",
+    "m_B36",
+    "m_224"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "ProfiledHandler_5339",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetMonoUsedSizeLong",
+    "GetMonoUsedSizeLong_434A69CD3694",
+    "GetMonoUsedSizeLong_4BDD3DF1D17A",
+    "GetTotalReservedMemoryLong",
+    "GetTotalReservedMemoryLong_CB7F802C8E94"
+  ],
+  "hash_methods": [
+    "m_BBD",
+    "m_30E",
+    "m_68C",
+    "m_3C4"
+  ]
+}

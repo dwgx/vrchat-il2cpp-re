@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AnimationHandler_58A4",
+  "parent": "",
+  "named_methods": [
+    "StringToHash",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_0DE",
+    "m_2C3",
+    "m_7D3",
+    "m_830",
+    "m_E56"
+  ]
+}

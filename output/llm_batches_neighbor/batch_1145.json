@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "ApplicationHandler_AA4F",
+  "parent": "",
+  "named_methods": [
+    "GetPersistentDataPath",
+    "GetPersistentDataPath_0171D6784248",
+    "ToString",
+    "GetPersistentDataPath_24AAD8793F30",
+    ".ctor",
+    "Initialize",
+    "RotateRightLeft",
+    "RotateRightLeft_60BC6280D4D8"
+  ],
+  "hash_methods": [
+    "m_D2C",
+    "m_733",
+    "m_643",
+    "m_7FD",
+    "m_609",
+    "m_537",
+    "m_CDC",
+    "m_939"
+  ]
+}

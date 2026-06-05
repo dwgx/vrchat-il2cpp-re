@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "BehaviourComponentHandler_0E92",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "get_Current_CCA7677C9D03",
+    "get_Current_A85B61FD453C",
+    "AllocateNativeArray",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_593",
+    "m_3B0",
+    "m_21B"
+  ]
+}

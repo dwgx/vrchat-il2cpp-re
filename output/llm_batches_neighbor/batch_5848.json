@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_C5AE",
+  "parent": "",
+  "named_methods": [
+    "BuildMethodCache",
+    "BuildMethodCache_6C6F45E29ACC",
+    "Dispose",
+    "Cleanup",
+    "GetMethods",
+    "GetMethods_937CF8FBCAA6",
+    "FindMethodByNameAndSignature"
+  ],
+  "hash_methods": [
+    "m_6F8",
+    "m_2F0",
+    "m_410"
+  ]
+}

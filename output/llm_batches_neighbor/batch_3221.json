@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_A742",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "Equals",
+    "System.Collections.IEnumerator.get_Current",
+    "System.IDisposable.Dispose",
+    "GetHashCode",
+    "ToString",
+    "System.Collections.IEnumerator.Reset",
+    "Dispose",
+    "GetUnityEngine",
+    ".ctor",
+    "Initialize",
+    "MoveNext",
+    "GetEnumerator",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current"
+  ],
+  "hash_methods": [
+    "m_E82"
+  ]
+}

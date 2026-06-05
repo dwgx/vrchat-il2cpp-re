@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "NetworkByteBufferThrottle_7DB4",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "ConfigureCanvasGroup",
+    "OnEnable",
+    "OnDisable",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_EC4",
+    "m_000",
+    "m_2CD",
+    "m_D7B"
+  ]
+}

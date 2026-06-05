@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "UdonOperationResponseDiscRelated_61A5",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_43F",
+    "m_582",
+    "m_BFE",
+    "m_3D3",
+    "m_2AB",
+    "m_D2E",
+    "m_25A"
+  ]
+}

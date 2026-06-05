@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "Static17m_D63F",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_CAC",
+    "m_DF9",
+    "m_BFD",
+    "m_D87"
+  ]
+}

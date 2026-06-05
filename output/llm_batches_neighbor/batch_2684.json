@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PreRenderStaticMethods_008D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnPreRender"
+  ],
+  "hash_methods": [
+    "m_270",
+    "m_D6D",
+    "m_03C",
+    "m_BC7",
+    "m_1F6",
+    "m_500",
+    "m_198"
+  ]
+}

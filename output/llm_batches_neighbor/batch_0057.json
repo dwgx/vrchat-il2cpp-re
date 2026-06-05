@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "SetPhysBoneGravityVector",
+    "SetNameAction",
+    "IsNativeObjectAlive",
+    "GetIntegerFromDelegate",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_E3E",
+    "m_9F1",
+    "m_DC8",
+    "m_D03"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "op_Implicit",
+    "IsNativeObjectAlive",
+    "GetCachedPtr",
+    ".cctor",
+    "ForceUpdateRectTransforms",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_83D",
+    "m_9C1",
+    "m_3CF"
+  ]
+}

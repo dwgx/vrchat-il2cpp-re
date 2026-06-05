@@ -1,0 +1,38 @@
+{
+  "namespace": "",
+  "class": "ParticleComponentHandler_26C1",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnTriggerExit",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_0E9",
+    "m_185",
+    "m_D24",
+    "m_FD8",
+    "m_4BF",
+    "m_23E",
+    "m_44C",
+    "m_AF5",
+    "m_B1A"
+  ]
+}

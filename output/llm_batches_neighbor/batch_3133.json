@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "animatePhysicsSibling_B74F",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_D2B",
+    "m_BEE",
+    "m_415",
+    "m_93B",
+    "m_86C",
+    "m_CB2",
+    "m_123",
+    "m_7B4",
+    "m_3BA"
+  ]
+}

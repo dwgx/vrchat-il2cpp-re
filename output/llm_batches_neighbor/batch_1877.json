@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Class5CleanupDisposeImpl_1352",
+  "parent": "",
+  "named_methods": [
+    "Dispose_0D3A0F3FD3BD",
+    "Dispose",
+    "Cleanup",
+    ".ctor",
+    "Initialize",
+    ".ctor_2F048217F2F1",
+    ".cctor",
+    "Updateinterpolatio",
+    "CopyTo"
+  ],
+  "hash_methods": [
+    "m_061",
+    "m_DD6",
+    "m_EEC"
+  ]
+}

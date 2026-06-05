@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "FilterInstanceIDEquals",
+    ".cctor",
+    "op_Implicit",
+    "Equals_C9F72092B552",
+    "InverseTransformPointToLocal",
+    "Computemain",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A48",
+    "m_914",
+    "m_072",
+    "m_EAE"
+  ]
+}

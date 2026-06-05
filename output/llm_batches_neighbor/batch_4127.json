@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "PlayerallowOffhandGrab_E48B",
+  "parent": "",
+  "named_methods": [
+    "OnGUI",
+    "OnApplicationFocus",
+    "TryParseGenericArguments",
+    "TryParseGenericArguments_A3F98919F1D2",
+    "Start",
+    "TryParseGenericArguments_B82325B070AA",
+    "OnDisable",
+    "TryParseArrayModifiers",
+    ".ctor",
+    "Initialize",
+    "TryParseAssemblyNameSpec",
+    "GetIsInitialized",
+    "GetIsInitialized_E0E0B26EC7E3",
+    "GetIsInitialized_60707134FF5F",
+    "TryParseGenericArguments_2F6169385825",
+    "TryParseVersion",
+    "Update",
+    "OnApplicationPause",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_E3F",
+    "m_EC1"
+  ]
+}

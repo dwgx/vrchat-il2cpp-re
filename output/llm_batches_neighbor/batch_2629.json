@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D830",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SetCenter",
+    "ConfigureGizmos",
+    "SetCenter_345B449A5315"
+  ],
+  "hash_methods": [
+    "m_C72",
+    "m_4EB",
+    "m_36A",
+    "m_794",
+    "m_874",
+    "m_F13",
+    "m_FEA",
+    "m_2AE",
+    "m_BE2",
+    "m_C0B"
+  ]
+}

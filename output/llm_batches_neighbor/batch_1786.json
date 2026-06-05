@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitSiRelated_5AE1",
+  "parent": "",
+  "named_methods": [
+    "get_Item",
+    "get_Item_A413F1627161",
+    "Add",
+    "ProcessPhysics",
+    "OnEnable",
+    "OnDisable",
+    "Start",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_067",
+    "m_268",
+    "m_47A",
+    "m_EDD",
+    "m_F19",
+    "m_BEE",
+    "m_ED9",
+    "m_CA7",
+    "m_A55",
+    "m_C30"
+  ]
+}

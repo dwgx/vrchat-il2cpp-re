@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeSibliRelated_FC36",
+  "parent": "",
+  "named_methods": [
+    "SetSortingLayerID",
+    ".ctor",
+    "Start",
+    "ToString",
+    "SetIsStaticShadowCaster",
+    "SetTextureMode",
+    "SetTextureMode_3E885B73235C",
+    "SetTextureMode_0FBFA6D44864",
+    "OnDestroy",
+    "GetHashCode",
+    "GetHashCode_0C0BCEDAE381",
+    "Equals",
+    "Awake",
+    "GetHashCode_524014A75791",
+    "Equals_889C759A80D7"
+  ],
+  "hash_methods": [
+    "m_947",
+    "m_868",
+    "m_CB2"
+  ]
+}

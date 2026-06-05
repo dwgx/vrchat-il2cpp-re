@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "MaterialTransformHandler_95D0",
+  "parent": "",
+  "named_methods": [
+    "TryGetMaterialTransformIndex",
+    "get_Current",
+    "get_Current_AEC8CE67B2D1",
+    "get_Item",
+    "GetMaterial",
+    "get_Count",
+    "TryGetMaterialTransformIndex_2B71A319BFD1"
+  ],
+  "hash_methods": [
+    "m_C2B",
+    "m_88C",
+    "m_763",
+    "m_79E",
+    "m_6DF",
+    "m_D3E",
+    "m_887",
+    "m_E59",
+    "m_986",
+    "m_8E3"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "AudioPhotonRoomComponent_638E",
+  "parent": "",
+  "named_methods": [
+    "PauseInjected",
+    ".ctor",
+    "Initialize",
+    "IsNull_Injected",
+    "Play_Injected",
+    "OnEnable",
+    "Start",
+    "Update",
+    "GetTime_Injected",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "Awake",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit"
+  ],
+  "hash_methods": [
+    "m_8F0"
+  ]
+}

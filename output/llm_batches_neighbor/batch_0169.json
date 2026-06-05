@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "DoGetTexture",
+    "GetCachedPtr_AC035DF4B593",
+    "SetGameObjectActive",
+    ".ctor",
+    "Initialize",
+    "set_name",
+    "FindObjectsByType",
+    "GetCachedPtr"
+  ],
+  "hash_methods": [
+    "m_578",
+    "m_F8B"
+  ]
+}

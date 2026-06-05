@@ -1,0 +1,40 @@
+{
+  "namespace": "",
+  "class": "CameraComponentSystem_EE75",
+  "parent": "",
+  "named_methods": [
+    "SetBackgroundColor",
+    "SetBackgroundColor_7D285EC1E908",
+    ".cctor",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "FindLastEnabledDependencyIndex",
+    "LateUpdate",
+    "OnDisable",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "DeactivateCameraGameObjects",
+    "FixedUpdate",
+    ".ctor",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_9BA",
+    "m_F4B",
+    "m_E9E",
+    "m_EB2",
+    "m_D5D",
+    "m_491",
+    "m_1B2"
+  ]
+}

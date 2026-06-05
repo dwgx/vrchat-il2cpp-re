@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Initialize_5F94C6",
+    "ToString",
+    "op_Implicit_08EE0CED7801",
+    ".ctor",
+    ".cctor",
+    ".ctor_5AF056EE3BAC"
+  ],
+  "hash_methods": [
+    "m_9CB",
+    "m_2EF",
+    "m_258"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static16m_D830",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnDisable",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_CA7",
+    "m_30B",
+    "m_5D6",
+    "m_BEE",
+    "m_CD9",
+    "m_5F9",
+    "m_78F",
+    "m_79E",
+    "m_079"
+  ]
+}

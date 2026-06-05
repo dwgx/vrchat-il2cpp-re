@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "UdonUnregisterEventHandlerRegiSibling_220B",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "LateUpdate",
+    ".ctor",
+    "Initialize",
+    "GetEnabled",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_49F"
+  ]
+}

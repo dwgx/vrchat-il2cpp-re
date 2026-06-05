@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncWebRequestHandler_EB21",
+  "parent": "",
+  "named_methods": [
+    "SetRedirectLimitFromScripting",
+    ".ctor",
+    "Initialize",
+    "InvokeAsyncWebRequestHandlers",
+    "InvokeAsyncWebRequestHandlers_3C29CD520D84",
+    "InvokeSingleAsyncWebRequestHandler"
+  ],
+  "hash_methods": [
+    "m_E03",
+    "m_E1D",
+    "m_EEE"
+  ]
+}

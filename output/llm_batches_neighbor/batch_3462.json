@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_0C84",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "ProcessQuaternion",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_4E8",
+    "m_E82",
+    "m_DB9",
+    "m_124"
+  ]
+}

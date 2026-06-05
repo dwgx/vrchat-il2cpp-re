@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "UIAnimationHandler_7F87",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetRuntimeAnimatorController",
+    "GetRuntimeAnimatorController_D241B5A0761C",
+    ".cctor",
+    "SetAlpha"
+  ],
+  "hash_methods": [
+    "m_9EF",
+    "m_1B3",
+    "m_4F7",
+    "m_4CF",
+    "m_562",
+    "m_1D3",
+    "m_755",
+    "m_F2F"
+  ]
+}

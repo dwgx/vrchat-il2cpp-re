@@ -1,0 +1,36 @@
+{
+  "namespace": "",
+  "class": "CameraCanWritePosition_FCC8",
+  "parent": "",
+  "named_methods": [
+    "set_CanWrite",
+    "get_CanWrite",
+    "set_CanRead",
+    "set_Position",
+    ".ctor",
+    "SetLength",
+    "get_CanRead",
+    "Write",
+    "set_CanSeek",
+    "Seek",
+    "get_CanSeek",
+    ".ctor",
+    "BeginWrite",
+    "Flush",
+    "set_Length",
+    "get_Length",
+    "get_CanSeek_A4B32D918E82",
+    "EndWrite",
+    "get_Length_BA11ECEDF376",
+    "Read",
+    "Dispose",
+    "BeginRead",
+    "get_Position_AFC81FD4268E",
+    "get_Position",
+    "EndRead"
+  ],
+  "hash_methods": [
+    "m_038",
+    "m_BDA"
+  ]
+}

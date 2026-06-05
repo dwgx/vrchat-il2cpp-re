@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "GetInstanceID",
+    "EnsureStaticCache15",
+    "IsNativeObjectAlive",
+    "ProcessTransform",
+    ".ctor",
+    "Initialize",
+    "IsNativeObjectAlive_2363B9FBBBE1"
+  ],
+  "hash_methods": [
+    "m_265"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "UITransformTransformHandler_20AF",
+  "parent": "",
+  "named_methods": [
+    "GetAnchoredPosition",
+    ".cctor",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_484",
+    "m_1CD",
+    "m_C59",
+    "m_05A",
+    "m_0CF",
+    "m_2E4",
+    "m_7A2"
+  ]
+}

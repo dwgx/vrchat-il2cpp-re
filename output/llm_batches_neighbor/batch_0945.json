@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "mainTexturePopulateMesh_800B",
+  "parent": "",
+  "named_methods": [
+    "BinarySearch",
+    ".ctor",
+    "Initialize",
+    "set_mainTexture",
+    "BinarySearch_E649022F58EE",
+    "get_mainTexture",
+    "OnPopulateMesh",
+    "IndexOf",
+    "IndexOf_E448D6537E51",
+    "IndexOf_11E1993985AA",
+    "Insert"
+  ],
+  "hash_methods": [
+    "m_853",
+    "m_B27",
+    "m_603",
+    "m_D61",
+    "m_68A"
+  ]
+}

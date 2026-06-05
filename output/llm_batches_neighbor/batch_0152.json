@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "GetHashCode",
+    "StoreResolvedObject",
+    "SetName",
+    "GetInstanceID",
+    "GetHashCode_684D339E43AF",
+    ".cctor",
+    "CompareBaseObjects",
+    "IsNativeObjectAlive",
+    "ReadPosition"
+  ],
+  "hash_methods": [
+    "m_57C",
+    "m_00D",
+    "m_E4F",
+    "m_874",
+    "m_506",
+    "m_C2B",
+    "m_B24"
+  ]
+}

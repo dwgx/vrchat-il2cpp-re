@@ -1,0 +1,37 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSibling_3920",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    ".cctor",
+    "Equals_8124E0452A69",
+    "Equals_FB40AB62ECDE",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "Equals",
+    "Equals_739BF18F7164",
+    "Equals",
+    "Equals",
+    ".ctor",
+    "GetComponentTransform",
+    ".ctor",
+    "Equals",
+    "Equals",
+    "ToString",
+    "Equals_BBA7D49742F6"
+  ],
+  "hash_methods": [
+    "m_884",
+    "m_0C8",
+    "m_0BC",
+    "m_58D",
+    "m_0C8",
+    "m_940",
+    "m_146",
+    "m_BFE",
+    "m_098",
+    "m_B9A"
+  ]
+}

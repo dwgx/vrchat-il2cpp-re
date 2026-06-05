@@ -1,0 +1,22 @@
+{
+  "namespace": "VRC.Audio.Voice",
+  "class": "MicrophoneManager",
+  "parent": "",
+  "named_methods": [
+    "GetPosition",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_C20",
+    "m_EF5",
+    "m_7D0",
+    "m_A33",
+    "m_8EA",
+    "m_23F",
+    "m_BAA",
+    "m_581",
+    "m_81D",
+    "m_1C9"
+  ]
+}

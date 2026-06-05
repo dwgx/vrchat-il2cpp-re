@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_EF2C",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "SetStateMachine",
+    "ReadAudioSourceState",
+    "ConfigureAudioSource"
+  ],
+  "hash_methods": [
+    "m_06D",
+    "m_288",
+    "m_015",
+    "m_E82",
+    "m_CE3",
+    "m_DB9"
+  ]
+}

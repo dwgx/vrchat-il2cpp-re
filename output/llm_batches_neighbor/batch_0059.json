@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "ConfigureQualitySettings",
+    ".cctor",
+    ".ctor",
+    "SetEventCallbackAtomic",
+    "op_Implicit",
+    "GetCachedPtr"
+  ],
+  "hash_methods": [
+    "m_DB4"
+  ]
+}

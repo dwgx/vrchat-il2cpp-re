@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static16m_7153",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_108",
+    "m_8DF",
+    "m_88A",
+    "m_4AF",
+    "m_BB1",
+    "m_C3B",
+    "m_BFE",
+    "m_74B",
+    "m_C37",
+    "m_4EB"
+  ]
+}

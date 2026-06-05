@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "Static17m_20AC",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnDisable",
+    "OnDestroy",
+    ".ctor",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_B77",
+    "m_138"
+  ]
+}

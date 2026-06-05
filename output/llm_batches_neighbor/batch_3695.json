@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_567C",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ConfigureCanvasGroup",
+    "ConfigureCanvasGroup_5149D16B5BC4"
+  ],
+  "hash_methods": [
+    "m_1B3",
+    "m_D1C",
+    "m_03A",
+    "m_7F2",
+    "m_6CF"
+  ]
+}

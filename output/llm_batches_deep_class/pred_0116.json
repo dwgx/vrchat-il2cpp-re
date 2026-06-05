@@ -1,0 +1,16 @@
+{
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_11F": "ApplyParticlesToTransforms",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_14E": "RebuildParticleTree",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_16F": "RebuildParticleTree",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_215": "RebuildParticleTree",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_21B": "SimulateParticles",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_28D": "UpdateParticleWorldPositions",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_28F": "ValidateAndRebuildParticleTree",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_2C3": "DrawColliderGizmos",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_3C2": "DrawParticleGizmos",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_40F": "AddParticle",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_439": "DrawParticleGizmos",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_448": "ApplyParticlesToTransforms",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_5D5": "ApplyParticlesToTransforms",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_5FD": "AddParticle"
+}

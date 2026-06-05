@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "CleanupDisposeType_D52C",
+  "parent": "ÌÌÍÌÌÎÏÏÍÎÍÌÍÌÏÌÎÏÌÏÏÍÏ",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    ".ctor",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_B0B",
+    "m_FF6"
+  ]
+}

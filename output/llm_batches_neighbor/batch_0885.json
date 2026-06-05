@@ -1,0 +1,33 @@
+{
+  "namespace": "",
+  "class": "TransformMeshHandler_C468",
+  "parent": "",
+  "named_methods": [
+    "CreateLocaleObject",
+    ".ctor",
+    "Initialize",
+    "GetLocalScale",
+    "GetBounds",
+    "GetBounds_3455C550DA39",
+    "InitializeMultibyteCodePage",
+    "Update",
+    "DuplicateWideString",
+    "RaiseSignal",
+    "IsTerminalOutputStream_D197CFFA544A",
+    "FormatFloatingPointNumber",
+    "IsTerminalOutputStream_D197CFFA544A",
+    "EnableTemporaryStreamBuffering",
+    "OnDestroy",
+    ".cctor",
+    "Awake",
+    "GetBounds_AA121F9C1923",
+    "GetBounds_47242A5A83EF",
+    "SetLocalRotation",
+    "IsFileHandleTerminal",
+    "EnsureRuntimeLockCapacity",
+    "UnlockRuntimeLock"
+  ],
+  "hash_methods": [
+    "m_7BC"
+  ]
+}

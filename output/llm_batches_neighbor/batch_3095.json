@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PointerClickPointerEnterSRelated_DEA5",
+  "parent": "",
+  "named_methods": [
+    "TryGetValue",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B77",
+    "m_8D3",
+    "m_D49",
+    "m_C14",
+    "m_688",
+    "m_7A4",
+    "m_AF6",
+    "m_F7E",
+    "m_B96",
+    "m_617"
+  ]
+}

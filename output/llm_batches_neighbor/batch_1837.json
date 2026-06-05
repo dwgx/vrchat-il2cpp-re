@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "Static26m_A047",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_E26",
+    "m_785"
+  ]
+}

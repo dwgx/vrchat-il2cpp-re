@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "EffectBundleIDIsSpecialFX_A663",
+  "parent": "",
+  "named_methods": [
+    "set_EffectBundleID",
+    "set_IsSpecialFX",
+    "get_EffectBundleID",
+    "get_IsSpecialFX",
+    ".ctor",
+    "Initialize",
+    "GetRealtimeSinceStartup"
+  ],
+  "hash_methods": [
+    "m_CA1",
+    "m_2C7",
+    "m_CA8",
+    "m_64C",
+    "m_1CA",
+    "m_BD2"
+  ]
+}

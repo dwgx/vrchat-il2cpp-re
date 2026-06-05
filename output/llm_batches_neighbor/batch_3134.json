@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PhysicsJoint2DHandler_220E",
+  "parent": "",
+  "named_methods": [
+    "SetConnectedBody",
+    "SetDampingRatio",
+    "SetEnableCollision",
+    "SwapElements",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_05F",
+    "m_799",
+    "m_897",
+    "m_4B7",
+    "m_327",
+    "m_CAC",
+    "m_5F3",
+    "m_720",
+    "m_5EF",
+    "m_799"
+  ]
+}

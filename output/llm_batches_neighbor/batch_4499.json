@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "PhotonMasterHandler_1DB4",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "FixedUpdate",
+    ".cctor",
+    "LateUpdate",
+    "OnMasterClientSwitched",
+    "Start",
+    "OnJoinedRoom",
+    "OnLeftRoom",
+    "OnDisable",
+    "Awake",
+    "OnDestroy",
+    "OnCreatedRoom",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_A02",
+    "m_F90",
+    "m_597",
+    "m_8CF",
+    "m_32A",
+    "m_72E",
+    "m_3F5",
+    "m_520",
+    "m_005",
+    "m_33D"
+  ]
+}

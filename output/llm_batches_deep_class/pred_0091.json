@@ -1,0 +1,5 @@
+{
+ "PhotonRoomHandler_8699::m_CC8": "UpdateAvatarPerformanceLimits",
+ "PhotonRoomHandler_8699::m_EBD": "EnforceParticleSystemLimits",
+ "PhotonRoomHandler_8699::m_F90": "StripAnimationClipEvents"
+}

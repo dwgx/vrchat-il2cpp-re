@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "SearchInFieldsUserSibling_386C",
+  "parent": "",
+  "named_methods": [
+    "SetupInterfaceOffsets_B46F8FBB3CEE",
+    "SetupInterfaceOffsets_B46F8FBB3CEE",
+    "SetupImplementedInterfaces",
+    "SetupImplementedInterfaces_BFE2F870FCF3",
+    "GetClassFromType",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_018",
+    "m_A85",
+    "m_E45",
+    "m_E6D",
+    "m_245",
+    "m_046",
+    "m_3D7"
+  ]
+}

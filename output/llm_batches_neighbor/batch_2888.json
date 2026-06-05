@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PointerDownPointerUpSibling_2E33",
+  "parent": "",
+  "named_methods": [
+    "SetLocalScale",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "ReadRotationProperties"
+  ],
+  "hash_methods": [
+    "m_732",
+    "m_58D",
+    "m_0F4",
+    "m_17D",
+    "m_461",
+    "m_19F",
+    "m_17A",
+    "m_59E",
+    "m_A57",
+    "m_AED"
+  ]
+}

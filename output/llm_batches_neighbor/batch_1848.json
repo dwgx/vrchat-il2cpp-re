@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_46B7",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "SetStateMachine",
+    "InitializeBuckets",
+    "InitializeBuckets_7F663E5CC641",
+    "InitializeBuckets_7525F37D1DF1",
+    "CopyTo"
+  ],
+  "hash_methods": [
+    "m_124",
+    "m_0A8"
+  ]
+}

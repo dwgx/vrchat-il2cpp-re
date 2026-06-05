@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "ApplicationHandler_6270",
+  "parent": "",
+  "named_methods": [
+    "OpenURL",
+    "OnDestroy",
+    "Reset",
+    "Start",
+    "Awake",
+    "Update",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_09C",
+    "m_ADC",
+    "m_8CC"
+  ]
+}

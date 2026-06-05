@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_34B4",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_CE0",
+    "m_BEB",
+    "m_385",
+    "m_CB2",
+    "m_7FD",
+    "m_E41"
+  ]
+}

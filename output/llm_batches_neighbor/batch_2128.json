@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_B42B",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit"
+  ],
+  "hash_methods": [
+    "m_925"
+  ]
+}

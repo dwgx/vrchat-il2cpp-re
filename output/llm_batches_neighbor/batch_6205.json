@@ -1,0 +1,14 @@
+{
+  "namespace": "VRC.Audio.Voice",
+  "class": "MicrophoneManager",
+  "parent": "",
+  "named_methods": [
+    "GetPosition",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_91E",
+    "m_8FB"
+  ]
+}

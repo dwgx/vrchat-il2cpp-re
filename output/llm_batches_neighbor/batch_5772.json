@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "UdonOperationResponseStatusChanged_6550_B67D",
+  "parent": "",
+  "named_methods": [
+    "OnEvent",
+    "Initialize",
+    "set_AudioCaptureSource",
+    "OnBecameInvisible",
+    "OnOperationResponse_91455EE05D0F",
+    "NewImpulseEvent",
+    "OnStatusChanged_E28C1F6B7FB6",
+    "get_customCaretColor",
+    "GetInstanceID",
+    ".ctor",
+    ".ctor_3DF02C4A926E",
+    "OnStatusChanged",
+    "GetGameObject_A16",
+    "OnEvent_2BCEC0F71386",
+    "OnOperationResponse",
+    "Start",
+    "GetCurrentTextCue"
+  ],
+  "hash_methods": [
+    "m_24B"
+  ]
+}

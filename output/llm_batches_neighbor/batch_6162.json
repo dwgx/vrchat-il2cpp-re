@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "SearchInFieldsUserSiblingSibliSibling_9AEF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_F38",
+    "m_C30",
+    "m_552"
+  ]
+}

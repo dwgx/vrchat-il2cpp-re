@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "ParticleParticleSystemRendererHandler_CDF3",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "GetActiveVertexStreamsCount",
+    "GetAllowOcclusionWhenDynamic",
+    ".ctor",
+    "Initialize",
+    "GetCameraVelocityScale"
+  ],
+  "hash_methods": [
+    "m_138",
+    "m_053",
+    "m_CE1",
+    "m_C30"
+  ]
+}

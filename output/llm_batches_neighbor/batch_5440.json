@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_511D",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "MoveNext",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "Equals",
+    ".ctor",
+    "System.IDisposable.Dispose",
+    "GetHashCode",
+    "System.Collections.IEnumerator.get_Current",
+    "ToString",
+    "System.Collections.IEnumerator.Reset",
+    "Dispose",
+    "UnloadUnusedAssets"
+  ],
+  "hash_methods": [
+    "m_DB7"
+  ]
+}

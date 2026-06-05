@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "PointerBackPressedSibling_2351Sibling_557E",
+  "parent": "",
+  "named_methods": [
+    "PmWriteShort",
+    ".ctor",
+    "Initialize",
+    "BinarySearch"
+  ],
+  "hash_methods": [
+    "m_EE6"
+  ]
+}

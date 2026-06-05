@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "UIUpdateEnumLabelUpdateLabel_0C87",
+  "parent": "",
+  "named_methods": [
+    "UpdateLabel",
+    "get_Item",
+    ".ctor",
+    "UpdateEnumLabel"
+  ],
+  "hash_methods": [
+    "m_599",
+    "m_83E",
+    "m_472",
+    "m_A8A",
+    "m_7AF"
+  ]
+}

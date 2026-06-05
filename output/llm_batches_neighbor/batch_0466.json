@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "ChildrenSection`1",
+  "parent": "",
+  "named_methods": [
+    "get_SettingComponents",
+    "set_SettingComponents",
+    "set_ValueToAppear",
+    ".ctor",
+    "get_ValueToAppear"
+  ],
+  "hash_methods": [
+    "m_B45",
+    "m_B84",
+    "m_84E",
+    "m_4E4",
+    "m_D19"
+  ]
+}

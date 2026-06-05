@@ -1,0 +1,36 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncable_D48C",
+  "parent": "",
+  "named_methods": [
+    "IntersectRay",
+    "ContainsPoint",
+    "Update",
+    "GetHashCode",
+    "NeedsImportant",
+    "Decode",
+    "Decode",
+    "CanSerialize32Bit",
+    "set_TypeId",
+    "CanSerialize8Bit",
+    "get_TypeId",
+    "ExtractArrayFromListT",
+    "ExtractArrayFromListT_97814A8F1F4E",
+    "Dispose",
+    "SerializedName",
+    "MultiplyPoint",
+    "Start",
+    "Encode",
+    "get_Center",
+    ".ctor",
+    "NeedsSync",
+    "OnDestroy",
+    "GetHashCode_4A574EFA3C8C",
+    "Encode",
+    "ThrowResourceRequestTypeMarshalException"
+  ],
+  "hash_methods": [
+    "m_D2C",
+    "m_107"
+  ]
+}

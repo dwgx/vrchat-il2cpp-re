@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "ComponentGameObjectHandler_320B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetGameObjectInstanceId"
+  ],
+  "hash_methods": [
+    "m_BFE",
+    "m_122",
+    "m_F48",
+    "m_9F2",
+    "m_B58"
+  ]
+}

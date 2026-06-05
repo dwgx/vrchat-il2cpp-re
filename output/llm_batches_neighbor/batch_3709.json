@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "gameObjectSibling_68CA",
+  "parent": "",
+  "named_methods": [
+    "ParseBoolean",
+    "ParseUInt16",
+    "ToString",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_215",
+    "m_E9D",
+    "m_E79",
+    "m_19B",
+    "m_B14",
+    "m_E92",
+    "m_69D",
+    "m_6F6",
+    "m_C1C",
+    "m_7F9"
+  ]
+}

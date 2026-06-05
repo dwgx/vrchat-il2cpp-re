@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    "get_name",
+    "ToString_89C1B9DA200D",
+    "CompareBaseObjects",
+    "GetHashCode",
+    ".cctor",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_D31"
+  ]
+}

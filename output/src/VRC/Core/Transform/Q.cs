@@ -27,10 +27,11 @@ namespace VRC.Core.Transform
         public void Initialize(){} // RVA: 0x7FFAF36CB950
         public void CompareTo(){} // RVA: 0x7FFAF36CC210
         public void UpdateRotation(){} // RVA: 0x7FFAF36CCAD0
-        public void GetHashCode(){} // RVA: 0x7FFAF36CD390
-        public void GetHashCode_4F60E86795D4(){} // RVA: 0x7FFAF36CDC50
         public void OrthoNormalize2(){} // RVA: 0x7FFAF36CE510
         public void CompareTo_5B0CBE775CFE(){} // RVA: 0x7FFAF36CEDD0
+        // ── Unresolved (hash) ──
+        public void m_D98(){} // RVA: 0x7FFAF36CD390
+        public void m_4F6(){} // RVA: 0x7FFAF36CDC50
     }
 
     /// <summary>Originally: ÏÌÏÏÎÍÍÎÎÏÎÏÌÏÌÍÍÌÎÎÍÍÌ</summary>

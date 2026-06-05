@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "SetLayoutHorizontalSetLayoutVertical_F176",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "SetLayoutHorizontal",
+    ".ctor",
+    "Initialize",
+    "SetLayoutVertical"
+  ],
+  "hash_methods": [
+    "m_392",
+    "m_FDF",
+    "m_7EF",
+    "m_E2F",
+    "m_1F3",
+    "m_CC8",
+    "m_A8B",
+    "m_791",
+    "m_B4C",
+    "m_D68"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "PhotonAnimationConnectionComponent_359F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ToString",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "ToString_CEEFC8220BFB",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit"
+  ],
+  "hash_methods": [
+    "m_53F",
+    "m_D0B"
+  ]
+}

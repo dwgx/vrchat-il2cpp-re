@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_B81B",
+  "parent": "",
+  "named_methods": [
+    "FillArraySegment",
+    "SetLocalScale",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_4D8",
+    "m_56A",
+    "m_D1D",
+    "m_C29",
+    "m_31E",
+    "m_D46"
+  ]
+}

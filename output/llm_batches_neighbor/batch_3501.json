@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "UpdateHeight_29A4",
+  "parent": "",
+  "named_methods": [
+    "BeginHeightUpdateInvoke",
+    "Start",
+    "UpdateHeight",
+    ".cctor",
+    "OnDisable",
+    ".ctor",
+    "Awake",
+    "OnDestroy",
+    "OnEnable",
+    "Constructor"
+  ],
+  "hash_methods": [
+    "m_57B",
+    "m_42F",
+    "m_3D2",
+    "m_E3D",
+    "m_894",
+    "m_692",
+    "m_3BA",
+    "m_CBD",
+    "m_FD7",
+    "m_941"
+  ]
+}

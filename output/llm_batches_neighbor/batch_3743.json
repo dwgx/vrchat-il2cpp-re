@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponentImpl_AB77SibSibling_17DC",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "FixedUpdate",
+    "Update",
+    "Start",
+    "OnDisable",
+    "OnDestroy",
+    "LateUpdate",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnApplicationPause",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_076",
+    "m_A74"
+  ]
+}

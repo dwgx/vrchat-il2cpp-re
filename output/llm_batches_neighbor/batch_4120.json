@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Static22m_8DB4",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_623",
+    "m_C30",
+    "m_F6E",
+    "m_FCE",
+    "m_999",
+    "m_9FD",
+    "m_75B",
+    "m_C35",
+    "m_B6E",
+    "m_9F3"
+  ]
+}

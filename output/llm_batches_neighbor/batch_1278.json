@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_4411",
+  "parent": "",
+  "named_methods": [
+    "EnqueueItem",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_124",
+    "m_0A8",
+    "m_7F6",
+    "m_CE3",
+    "m_63A",
+    "m_EC8"
+  ]
+}

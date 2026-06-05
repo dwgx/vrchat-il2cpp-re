@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "CameraComponentHandler_9BDE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "AreCameraComponentsEqual",
+    "GetComponent",
+    "GetComponent_741344C1E2AE"
+  ],
+  "hash_methods": [
+    "m_296",
+    "m_706",
+    "m_F60",
+    "m_CB1"
+  ]
+}

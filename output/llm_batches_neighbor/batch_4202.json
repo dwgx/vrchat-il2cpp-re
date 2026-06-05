@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "QuaternionTransformHandler_2966",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "UpdateRotation",
+    "UpdateRotation_BB5AB33839D1"
+  ],
+  "hash_methods": [
+    "m_3E0",
+    "m_674",
+    "m_8F9",
+    "m_D38"
+  ]
+}

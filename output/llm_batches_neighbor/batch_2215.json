@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_9C43",
+  "parent": "",
+  "named_methods": [
+    "ReadAsyncOperationState",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_886",
+    "m_507",
+    "m_44C",
+    "m_512",
+    "m_5A0",
+    "m_426",
+    "m_228",
+    "m_4CA",
+    "m_82F",
+    "m_427"
+  ]
+}

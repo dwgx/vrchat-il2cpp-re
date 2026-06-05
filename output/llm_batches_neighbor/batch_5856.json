@@ -1,0 +1,42 @@
+{
+  "namespace": "",
+  "class": "CleanupDisposeComponent_16E6",
+  "parent": "",
+  "named_methods": [
+    "CollectFieldCandidatesByBindingFlags",
+    "CollectFieldCandidatesByBindingFlags_EF6D66DD1873",
+    "CollectMatchingEvents",
+    "CollectMatchingEvents_9F94C94681E7",
+    "CollectMatchingFields",
+    "CollectMatchingFields_1B7C028710F0",
+    "CollectMethodCandidatesByBindingFlags",
+    "CollectMatchingMethods",
+    "CollectMatchingMethods_7F47F21BD967",
+    "SetSizeDelta",
+    "CollectPropertyCandidatesByBindingFlags",
+    "CollectPropertyCandidatesByBindingFlags_C1640C5708DA",
+    "CollectMatchingProperties",
+    "CollectPropertyCandidatesByBindingFlags_C36D22E52EA3",
+    "CollectPropertyCandidatesByBindingFlags_E468A53855DA",
+    "CollectMatchingProperties_6F9297629E48",
+    "CollectMatchingProperties_895EBA02F486",
+    ".ctor",
+    "Initialize",
+    "CreateInstanceDefaultCtor",
+    "Dispose",
+    "Cleanup",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_F65",
+    "m_770",
+    "m_0C8",
+    "m_5BC",
+    "m_441",
+    "m_665",
+    "m_92C",
+    "m_4F4",
+    "m_918",
+    "m_BA1"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+ "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+ "parent": "",
+ "named_methods": [
+  ".ctor",
+  "Initialize",
+  "ReadCameraState"
+ ],
+ "hash_methods_with_pseudo": [
+  {
+   "name": "m_B3B",
+   "pseudocode": "void sub_180980AB0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8A00C8 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_B4B",
+   "pseudocode": "void sub_180982A90()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7F51D8 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_B89",
+   "pseudocode": "void sub_180980E20()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7FA158 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_BD2",
+   "pseudocode": "void sub_1809814B0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7FA068 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_BDA",
+   "pseudocode": "void sub_1809828B0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7F7528 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_C7F",
+   "pseudocode": "void sub_18097E530()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8A5738 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_CB6",
+   "pseudocode": "void sub_180981550()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7FA290 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_D6D",
+   "pseudocode": "void sub_18097F340()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8A3B30 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_E42",
+   "pseudocode": "void sub_180982C70()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7F4CE0 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_E4D",
+   "pseudocode": "void sub_1809824F0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7F76B0 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_EEF",
+   "pseudocode": "void sub_180980F10()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C7FA108 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  },
+  {
+   "name": "m_F35",
+   "pseudocode": "void sub_18097FFC0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8A02F8 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+  }
+ ],
+ "hash_methods_no_pseudo": []
+}

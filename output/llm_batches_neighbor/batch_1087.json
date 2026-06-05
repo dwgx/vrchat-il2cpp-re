@@ -1,0 +1,36 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySiblingSibling_66EF",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "SetLocalRotation",
+    "SetLocalRotation_4E7F6D70CA5E",
+    "Update",
+    "GetDeltaTime",
+    "OnDestroy",
+    "GetDeltaTime_29F970F38E70",
+    "OnEnable",
+    "CalculatePidOutput",
+    "Start",
+    "MoveNext",
+    "MoveNext_01E550AACF97",
+    "GetAlpha",
+    "GetRect",
+    "SetAlpha"
+  ],
+  "hash_methods": [
+    "m_FE9",
+    "m_ED2",
+    "m_4A8",
+    "m_35A",
+    "m_750",
+    "m_091",
+    "m_97F",
+    "m_0D1",
+    "m_8C1",
+    "m_F6F"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "TransformPhysicsSystem_923C::m_7F7": "get_Current",
+ "TransformPhysicsSystem_923C::m_80C": "MoveNext",
+ "TransformPhysicsSystem_923C::m_833": "get_Current",
+ "TransformPhysicsSystem_923C::m_84B": "get_Current",
+ "TransformPhysicsSystem_923C::m_85C": "MoveNext",
+ "TransformPhysicsSystem_923C::m_863": "AddObjectMetadataPair",
+ "TransformPhysicsSystem_923C::m_86E": "MarshalCollisionRecordToNative"
+}

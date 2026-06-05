@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AnimationAnimationCurveHandler_DED6",
+  "parent": "",
+  "named_methods": [
+    "GetKeys",
+    "GetWorldCenterOfMass",
+    ".ctor",
+    "Initialize",
+    "GetKeys_7E88B97538A8"
+  ],
+  "hash_methods": [
+    "m_6A6",
+    "m_5CA"
+  ]
+}

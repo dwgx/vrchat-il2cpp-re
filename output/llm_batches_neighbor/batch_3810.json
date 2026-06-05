@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Service23m_A3D8SiblingSibling_1F00",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetTransformChildCount",
+    ".ctor",
+    "GetTransformChildCount_EEEED5AE7E03"
+  ],
+  "hash_methods": [
+    "m_BE4",
+    "m_94B",
+    "m_208",
+    "m_29D",
+    "m_FE3",
+    "m_CBB",
+    "m_E9F",
+    "m_AE2",
+    "m_145",
+    "m_10B"
+  ]
+}

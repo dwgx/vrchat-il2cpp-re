@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "gameObject_877BSibling_3C58",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "GetScreenHeight",
+    "FixedUpdate",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_9A0",
+    "m_468",
+    "m_FA1",
+    "m_E59",
+    "m_C39",
+    "m_69C",
+    "m_93B",
+    "m_269"
+  ]
+}

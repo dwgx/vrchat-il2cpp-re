@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "NetworkReadyHandler_BC67",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "GetLocalScale_DA9FA3EBA348",
+    ".cctor",
+    "GetLocalScale_DA9FA3EBA348",
+    "SetLocalScale",
+    "LateUpdate",
+    "OnNetworkReady",
+    "OnDestroy",
+    "SetTransformPosition_459A9C3B734D",
+    ".ctor",
+    "Initialize",
+    "GetDeltaTime",
+    "GetDeltaTime_E2EC31F369EF",
+    "SetTransformPosition_459A9C3B734D",
+    "BeginInvoke",
+    "GetActiveSelf",
+    "UpdateTransformPose"
+  ],
+  "hash_methods": [
+    "m_1C2",
+    "m_8A3",
+    "m_4C4",
+    "m_E6A",
+    "m_B2E",
+    "m_4CA"
+  ]
+}

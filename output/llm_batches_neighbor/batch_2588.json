@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static18m_DEDF",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_9FB",
+    "m_9C8",
+    "m_42B",
+    "m_A53",
+    "m_4C9",
+    "m_0AD",
+    "m_84A",
+    "m_511",
+    "m_3E1",
+    "m_3FF"
+  ]
+}

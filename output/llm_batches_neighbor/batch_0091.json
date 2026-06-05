@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "GetInstanceID",
+    "GetLastCacheItem",
+    "get_name",
+    "ContainsChild",
+    "BuildNameDestroyInstance",
+    ".ctor",
+    "CompareBaseObjects"
+  ],
+  "hash_methods": [
+    "m_341",
+    "m_3DF",
+    "m_379",
+    "m_C46"
+  ]
+}

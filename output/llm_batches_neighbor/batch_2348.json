@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_1FBA",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ConfigureLineRenderer"
+  ],
+  "hash_methods": [
+    "m_C09",
+    "m_DFC",
+    "m_2AD",
+    "m_8F7",
+    "m_84B",
+    "m_884",
+    "m_041"
+  ]
+}

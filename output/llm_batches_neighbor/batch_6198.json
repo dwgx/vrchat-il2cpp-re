@@ -1,0 +1,23 @@
+{
+  "namespace": "PhysSound",
+  "class": "PhysSoundAudioContainer",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    ".ctor",
+    "Initialize",
+    "op_Implicit",
+    "CompareBaseObjects",
+    "IsNativeObjectAlive",
+    "GetCachedPtr",
+    "get_name",
+    "set_name",
+    "Instantiate",
+    "ToString",
+    "GetCachedPtr_852ADEADC57D"
+  ],
+  "hash_methods": [
+    "m_EB2",
+    "m_A6B"
+  ]
+}

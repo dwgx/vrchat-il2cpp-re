@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "RandomHandler_CD79",
+  "parent": "",
+  "named_methods": [
+    "InitState",
+    ".ctor",
+    "Initialize",
+    "GetInsideUnitSphere"
+  ],
+  "hash_methods": [
+    "m_72C",
+    "m_C27",
+    "m_0F1",
+    "m_E5E",
+    "m_598",
+    "m_FBD",
+    "m_64E",
+    "m_867"
+  ]
+}

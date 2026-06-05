@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static12m_672F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ReadGameObjectState",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_A80",
+    "m_6B8",
+    "m_7FD",
+    "m_1E9",
+    "m_C00",
+    "m_385",
+    "m_215"
+  ]
+}

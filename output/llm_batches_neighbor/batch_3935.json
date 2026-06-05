@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "UIObservableList_113E",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    ".ctor",
+    "get_ObservableList",
+    "set_ObservableList",
+    "ExpandMemoryBlock",
+    "WideStringConcatSafe",
+    "WideStringCopySafeWithCount",
+    "FreeLocale"
+  ],
+  "hash_methods": [
+    "m_AE6"
+  ]
+}

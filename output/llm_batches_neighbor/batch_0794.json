@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "Static21m_823D",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "Awake",
+    "OnEnable",
+    "OnDestroy",
+    "OnDisable",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_6CA",
+    "m_41D",
+    "m_9C4",
+    "m_2DE",
+    "m_0A4",
+    "m_324",
+    "m_F75",
+    "m_92C",
+    "m_B8E",
+    "m_164"
+  ]
+}

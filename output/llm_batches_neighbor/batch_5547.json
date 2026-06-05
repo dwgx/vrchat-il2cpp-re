@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "ComponentGameObjectHandler_D471",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "ToString",
+    "ToString_EF6614EEA150",
+    ".cctor",
+    "ToString_DC3AA41AC8BC",
+    "ToString_9C94255138A8",
+    "GetStructuralHashCode",
+    "GetHashCode_D93C06A8BD0F",
+    "GetStructuralHashCode_546A2A028860",
+    "GetStructuralHashCode_7FC55C9A9848",
+    "GetStructuralHashCode_1A153081EE48",
+    "GetHashCode_E81BEB581FFB",
+    ".ctor",
+    "Initialize",
+    "Equals",
+    "GetHashCode_A8D0C1598849"
+  ],
+  "hash_methods": [
+    "m_89E",
+    "m_C3B",
+    "m_9D5",
+    "m_931"
+  ]
+}

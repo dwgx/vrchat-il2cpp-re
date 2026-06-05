@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_BDB8",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_7C9",
+    "m_053",
+    "m_889",
+    "m_868",
+    "m_FEF"
+  ]
+}

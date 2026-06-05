@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_68F0",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "ReadComponentState",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_DB9",
+    "m_63A",
+    "m_124",
+    "m_4E8"
+  ]
+}

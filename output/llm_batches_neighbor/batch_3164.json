@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "UITransformTransformHandler_3291",
+  "parent": "",
+  "named_methods": [
+    "NotifyTransformChanged",
+    "InvokeTransformChangedHandlers",
+    "Dispose",
+    "Start",
+    ".cctor",
+    "Awake",
+    "OnDestroy",
+    "SetAnchoredPosition",
+    "SetAnchoredPosition_DF78A2A29D66",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_7DC"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "GetIntegerFromDelegate",
+    ".cctor",
+    "GetInstanceID",
+    "Initialize_ctrlTouchscreentouch6delta"
+  ],
+  "hash_methods": [
+    "m_640",
+    "m_DE7",
+    "m_286"
+  ]
+}

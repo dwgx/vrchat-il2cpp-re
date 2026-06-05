@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode_8970098EF13D",
+    ".ctor",
+    "GetInstanceID",
+    "ContainsChild",
+    "ResolveFindObjectsDestroy",
+    "ReadAnimatorState",
+    ".cctor",
+    "ProcessFindObjectsDestroyContext"
+  ],
+  "hash_methods": [
+    "m_EAE"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetBooleanFromDelegateSelector",
+    "IsNativeObjectAlive",
+    "GetBooleanFromDelegate",
+    "op_Implicit",
+    "ProcessUdonDisconnectData",
+    ".ctor",
+    ".cctor",
+    "GetOnValueChanged",
+    "HasProperty",
+    "set_hideFlags",
+    "Initialize",
+    "HasTextureImpl",
+    "Internal_InstantiateSingle"
+  ],
+  "hash_methods": [
+    "m_65F",
+    "m_957"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PoseLocalUpdateSibling_E6F6",
+  "parent": "",
+  "named_methods": [
+    "SetSizeDelta",
+    "LateUpdate",
+    ".ctor",
+    "Initialize",
+    "GetChild"
+  ],
+  "hash_methods": [
+    "m_214",
+    "m_EBF",
+    "m_A45",
+    "m_EB5",
+    "m_852"
+  ]
+}

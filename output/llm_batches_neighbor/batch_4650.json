@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiRelated_8724",
+  "parent": "",
+  "named_methods": [
+    "SetCursorLock",
+    "SetCursorLock_7FD77A3CD505",
+    "InternalLockUpdate",
+    "UpdateCursorLock",
+    "InternalLockUpdate_E9D13DC895CF",
+    "Dispose",
+    "Cleanup",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_3F4",
+    "m_71F",
+    "m_B85"
+  ]
+}

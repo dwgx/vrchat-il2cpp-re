@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Instantiate",
+    "CheckMaterial",
+    ".ctor",
+    "Initialize",
+    "ProcessInternalDataAndReturnResult",
+    "get_name_53CEABF366A1",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_C3D",
+    "m_F6C",
+    "m_8D5"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static14m_D6AF",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "LateUpdate",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_275",
+    "m_73D",
+    "m_163",
+    "m_7B4",
+    "m_FA0",
+    "m_B01",
+    "m_FC3",
+    "m_7B3",
+    "m_323"
+  ]
+}

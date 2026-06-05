@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ProcessFindObjectsDestroyContext",
+    "set_name",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "Instantiate",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_BC2",
+    "m_50D"
+  ]
+}

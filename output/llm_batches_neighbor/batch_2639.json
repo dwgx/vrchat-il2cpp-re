@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_ABF7",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "CollectMethodsMatchingBindingFlags",
+    "CollectMethodsMatchingBindingFlags_95DF3ECA53E5",
+    "FreeTreeNodes",
+    "FindHashedStringEntry",
+    "FindHashedStringEntry_CF3C4C0F0CAD",
+    "FindHashedStringEntry_6EA0BBD7AB19",
+    "IsMatchingHashedStringEntry"
+  ],
+  "hash_methods": [
+    "m_552"
+  ]
+}

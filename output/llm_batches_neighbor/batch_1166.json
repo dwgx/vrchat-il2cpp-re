@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "EffectBundleIDIsSpecialFXRelated_9139",
+  "parent": "",
+  "named_methods": [
+    "CreateArrayInstance",
+    ".ctor",
+    "Initialize",
+    "TrySZArrayCopy",
+    "GetFlattenedIndex",
+    "GetFlattenedIndex_81B81A645773",
+    "GetFlattenedIndex_A2996DA6822D",
+    "ProcessTransform",
+    "SetValueImpl",
+    "SetValueImpl_2BD21EEDA80D",
+    "ProcessTransform_CA8FB71474BC"
+  ],
+  "hash_methods": [
+    "m_9D9",
+    "m_753",
+    "m_6C9",
+    "m_E85",
+    "m_EB0",
+    "m_64C",
+    "m_302",
+    "m_F84"
+  ]
+}

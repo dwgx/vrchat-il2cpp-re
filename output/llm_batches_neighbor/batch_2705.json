@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_45B5",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_3AD",
+    "m_385",
+    "m_6F5",
+    "m_BB7",
+    "m_BEE",
+    "m_61F"
+  ]
+}

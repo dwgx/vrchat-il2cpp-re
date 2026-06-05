@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PlayerIsInteractivePickupUseDown_3AE2",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnPickupUseDown",
+    "Equals",
+    "OnDrop",
+    "Awake",
+    "OnDestroy",
+    "OnPickup",
+    "set_IsInteractive",
+    "get_IsInteractive",
+    "Interact"
+  ],
+  "hash_methods": [
+    "m_ED4",
+    "m_61B",
+    "m_C77",
+    "m_365",
+    "m_FFF"
+  ]
+}

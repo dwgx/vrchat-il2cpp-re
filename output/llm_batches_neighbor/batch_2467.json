@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "SingletonContext_4F00",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "Update",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_0CD",
+    "m_6AC",
+    "m_15A",
+    "m_FBE",
+    "m_ADE",
+    "m_B8F",
+    "m_ECB",
+    "m_8FF",
+    "m_5CB",
+    "m_0D5"
+  ]
+}

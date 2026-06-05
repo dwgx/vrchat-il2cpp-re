@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Compare_F0C4",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Compare",
+    "Compare"
+  ],
+  "hash_methods": [
+    "m_C7B",
+    "m_650",
+    "m_949",
+    "m_44A",
+    "m_1AB",
+    "m_28D"
+  ]
+}

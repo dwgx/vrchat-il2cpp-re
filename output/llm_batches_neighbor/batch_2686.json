@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "ParticleHandler_D384",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_C86",
+    "m_E70",
+    "m_EE7",
+    "m_7AB",
+    "m_D11",
+    "m_2B9",
+    "m_F64",
+    "m_899"
+  ]
+}

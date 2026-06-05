@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    ".cctor",
+    "ToInt64",
+    "FindObjectsOfType",
+    "InstantiateAction",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_A59",
+    "m_132",
+    "m_C2B"
+  ]
+}

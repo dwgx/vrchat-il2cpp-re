@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "PointerDownBeginDrag_B651",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnBeginDrag",
+    "OnPointerDown",
+    "OnPointerUp",
+    "OnEndDrag"
+  ],
+  "hash_methods": [
+    "m_5E3",
+    "m_FAA",
+    "m_C17",
+    "m_C92",
+    "m_3D4"
+  ]
+}

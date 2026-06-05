@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "AsyncQuaternionHandler_0DB8",
+  "parent": "",
+  "named_methods": [
+    "GetIsDone",
+    ".ctor",
+    "Initialize",
+    "GetIsDone_9D311B3C0090",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_8D6",
+    "m_0B4",
+    "m_CE1",
+    "m_969",
+    "m_B71",
+    "m_C23",
+    "m_1BD",
+    "m_AC0",
+    "m_91E"
+  ]
+}

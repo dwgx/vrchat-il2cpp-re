@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetTransform",
+    ".ctor",
+    "Initialize",
+    ".ctor_7182FA5CF1D9",
+    "<>9__0_0",
+    "get_name",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_8E2",
+    "m_2B3",
+    "m_B64",
+    "m_CDE"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_690A",
+  "parent": "",
+  "named_methods": [
+    "DumpGcCollection",
+    "DumpGcCollection_C853F2E82AE1",
+    "OnPointerExit",
+    "Start",
+    "OnPointerEnter",
+    "AllocateHeapSection",
+    "DecommitHeapPages",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_3EB",
+    "m_A66"
+  ]
+}

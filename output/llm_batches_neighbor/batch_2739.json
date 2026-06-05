@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_B12A",
+  "parent": "",
+  "named_methods": [
+    "ThrowMethodAccessFailedException",
+    "Dispose",
+    "Cleanup",
+    "GetAccessibleMethod",
+    "GetUnmarshalClass",
+    "GetUnmarshalClass_EEEFF269E718"
+  ],
+  "hash_methods": [
+    "m_C01",
+    "m_410"
+  ]
+}

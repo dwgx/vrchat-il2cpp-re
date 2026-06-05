@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "UdonOperationResponseDiscRelated_C3B2",
+  "parent": "",
+  "named_methods": [
+    "ReadCapsuleColliderState",
+    ".ctor",
+    "Initialize",
+    "ReadCapsuleColliderState_5824C877CF0B"
+  ],
+  "hash_methods": [
+    "m_44F",
+    "m_B9D",
+    "m_A77"
+  ]
+}

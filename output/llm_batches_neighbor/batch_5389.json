@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSiblinSibling_D6B1",
+  "parent": "",
+  "named_methods": [
+    "Update_3CB451386F3C",
+    "RaiseCancellation",
+    "Update",
+    "Initialize",
+    "Start",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_B3D",
+    "m_AF5"
+  ]
+}

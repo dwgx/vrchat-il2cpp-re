@@ -1,0 +1,42 @@
+{
+  "namespace": "",
+  "class": "SystemInfoHandler_9729",
+  "parent": "",
+  "named_methods": [
+    "FillArrayRange",
+    "IndexOf",
+    "IndexOf_C8F07E52A6A7",
+    "LastIndexOf",
+    "IndexOf_0BA2CC1EBE5D",
+    "IndexOf_F49FF8611725",
+    "FillArrayRange_42B4231E9F2D",
+    "FillArrayRange_6A908F4A7F76",
+    "LastIndexOf_E3FBE08C36CF",
+    "BinarySearch",
+    "IndexOf_E8CCE42489B8",
+    "LastIndexOf_852E3599EAE7",
+    "SelectBucketIndex",
+    "IndexOf_914D5AEA5727",
+    "IndexOf_352D5248C470",
+    "BinarySearch_FD1BBDD4706B",
+    "GetBatteryStatus",
+    "OnDestroy",
+    "IndexOf_74B8A8C03A8E",
+    "IndexOf_D71E591CC08C",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "IndexOf_80B48DD9F77E",
+    "Start",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_81A",
+    "m_053",
+    "m_622",
+    "m_473",
+    "m_2DA",
+    "m_F8E",
+    "m_D8F"
+  ]
+}

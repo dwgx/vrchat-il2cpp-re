@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682Sibling_9E5B",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "ReadComponentState",
+    "GetIsHuman",
+    "IndexOf_6A00CDA323CC",
+    "MediapipeC",
+    "IndexOf_966EE665F46D"
+  ],
+  "hash_methods": [
+    "m_CB7",
+    "m_EEF",
+    "m_355",
+    "m_355",
+    "m_D9B",
+    "m_7EE",
+    "m_7EE",
+    "m_7EE",
+    "m_427",
+    "m_11F"
+  ]
+}

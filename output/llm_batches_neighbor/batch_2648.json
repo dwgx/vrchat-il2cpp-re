@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_178D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "Equals",
+    "Equals_E6D13C54121C",
+    "Equals_1E98316CE451",
+    "ToString",
+    "Equals_08640AB71323",
+    "ToString_AF51B7F10F5A",
+    "Awake",
+    "OnDestroy",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_31B",
+    "m_7FD",
+    "m_31B"
+  ]
+}

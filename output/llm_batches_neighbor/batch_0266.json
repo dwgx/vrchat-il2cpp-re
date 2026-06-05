@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Equals_6668C3FA9351",
+    "GetInstanceID",
+    "CreateFindObjectsDestroy",
+    ".cctor",
+    "Instantiate"
+  ],
+  "hash_methods": [
+    "m_5AD",
+    "m_482",
+    "m_A6E",
+    "m_F5C"
+  ]
+}

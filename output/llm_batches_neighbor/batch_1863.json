@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "ApplicationTransformHandler_10BF",
+  "parent": "",
+  "named_methods": [
+    "SetWideLocaleNoLock",
+    "SetWideLocaleNoLock_5DAB6F0A9F08",
+    "SetWideLocaleCategory",
+    "SetWideLocaleCategory_A39B9CD6CE67",
+    "ParseLocaleName",
+    "ParseLocaleName_224D4F89ACD0",
+    ".ctor",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_D0D",
+    "m_AF7",
+    "m_4FB",
+    "m_E11",
+    "m_A1B",
+    "m_36A",
+    "m_70E",
+    "m_8DE",
+    "m_AD8",
+    "m_04A"
+  ]
+}

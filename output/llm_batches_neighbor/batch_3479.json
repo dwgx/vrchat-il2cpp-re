@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSibling_8422",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "ResizeHashMap",
+    "GetKeyArray",
+    "GetKeyArray_DB075B0B0739",
+    "Awake",
+    "GetKeyArray_ADD7760B4EFE"
+  ],
+  "hash_methods": [
+    "m_F12",
+    "m_1C2",
+    "m_7B4",
+    "m_FC3",
+    "m_3A2",
+    "m_EED",
+    "m_EE6",
+    "m_96E",
+    "m_0C0"
+  ]
+}

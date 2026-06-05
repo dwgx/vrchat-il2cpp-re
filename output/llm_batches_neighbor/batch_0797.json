@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_1790",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A90",
+    "m_BC3",
+    "m_BB5"
+  ]
+}

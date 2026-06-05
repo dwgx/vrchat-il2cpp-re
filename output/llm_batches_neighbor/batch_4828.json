@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "ImmediateComponent_C44A",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_F7A",
+    "m_A66",
+    "m_CE1",
+    "m_C83"
+  ]
+}

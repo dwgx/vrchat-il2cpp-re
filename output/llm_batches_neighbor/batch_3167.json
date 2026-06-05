@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static36m_9172",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    "ReadParticleEmissionModuleState",
+    ".ctor",
+    "Initialize",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_EDF",
+    "m_DF8",
+    "m_053",
+    "m_538",
+    "m_547",
+    "m_42F",
+    "m_E1D",
+    "m_C35",
+    "m_01C",
+    "m_9AE"
+  ]
+}

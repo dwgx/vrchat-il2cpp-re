@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static16m_ADBE",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Update",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_FC3",
+    "m_878",
+    "m_54D",
+    "m_F81",
+    "m_1CA",
+    "m_892",
+    "m_2EE",
+    "m_EE3",
+    "m_DAE",
+    "m_0C0"
+  ]
+}

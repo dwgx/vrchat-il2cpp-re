@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static30m_88DE",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_80D",
+    "m_2B2",
+    "m_AB1",
+    "m_2B6",
+    "m_2A8",
+    "m_BA7",
+    "m_D0A",
+    "m_18C",
+    "m_5AB",
+    "m_B60"
+  ]
+}

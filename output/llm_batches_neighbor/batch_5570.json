@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AudioHandler_5E88",
+  "parent": "",
+  "named_methods": [
+    "GetIsPlaying",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_FA5",
+    "m_7B7",
+    "m_7AE",
+    "m_6F9",
+    "m_91E"
+  ]
+}

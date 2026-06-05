@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PointerDown_B6C3",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnPointerDown",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B28",
+    "m_BF8",
+    "m_B01",
+    "m_EA8",
+    "m_E54",
+    "m_2FF",
+    "m_82D",
+    "m_50A",
+    "m_24C",
+    "m_14C"
+  ]
+}

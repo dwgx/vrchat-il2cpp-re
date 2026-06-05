@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "LightManagerSibling_E678",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "Equals",
+    "Equals_BF2ED7042BBB",
+    "GetHashCode_6B3E81FCD57E",
+    "Equals_A2AD68B7C4F6",
+    "GetHashCode_8E32A6F629C3",
+    "GetHashCode_5AC823425B83",
+    "OnDestroy",
+    "GetHashCode_8A373DF3FE68",
+    "Equals_92E3E713897D",
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_118",
+    "m_118",
+    "m_118"
+  ]
+}

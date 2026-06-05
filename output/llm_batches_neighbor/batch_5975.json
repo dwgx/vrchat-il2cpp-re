@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "FoldoutListRelated_FDA3",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "ProcessGameObject",
+    ".ctor",
+    "Initialize",
+    "IndexOf_2A6BA736AE1D",
+    "LastIndexOf"
+  ],
+  "hash_methods": [
+    "m_B64",
+    "m_1A7",
+    "m_D05",
+    "m_85D",
+    "m_020",
+    "m_61B",
+    "m_ACE",
+    "m_139",
+    "m_D22",
+    "m_BD3"
+  ]
+}

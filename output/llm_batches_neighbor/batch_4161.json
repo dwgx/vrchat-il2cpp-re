@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_7298",
+  "parent": "",
+  "named_methods": [
+    "GetEnabled",
+    ".ctor",
+    "Initialize",
+    "get_CurrentSelectionState"
+  ],
+  "hash_methods": [
+    "m_025"
+  ]
+}

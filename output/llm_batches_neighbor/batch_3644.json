@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PointerDownPointerUpSiblingSibling_EC0C",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "Update",
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_DC2",
+    "m_AD1",
+    "m_C2B",
+    "m_0D6",
+    "m_C52",
+    "m_343",
+    "m_435",
+    "m_D91",
+    "m_E36",
+    "m_8C8"
+  ]
+}

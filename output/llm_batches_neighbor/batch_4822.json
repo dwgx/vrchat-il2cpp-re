@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "CreatePropertiesCreateContractSibling_AC11",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnEnable",
+    "OnDisable",
+    "CreateContract",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_C48"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "ComplexComponent_8C61SiblingSiSibling_446F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetRealtimeSinceStartup",
+    "GetRealtimeSinceStartup_55CF21F9F6AC",
+    "GetRealtimeSinceStartup_E480ECD35FE5",
+    "ReadGameObjectState",
+    "ReadGameObjectState_72C2503F8C74",
+    "SystemNativeFStat2",
+    "GetRealtimeSinceStartup_F85DF0EC1571"
+  ],
+  "hash_methods": [
+    "m_B91",
+    "m_DBB",
+    "m_B99",
+    "m_39A",
+    "m_95C",
+    "m_D64",
+    "m_D5A",
+    "m_BB2",
+    "m_289",
+    "m_168"
+  ]
+}

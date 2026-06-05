@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "IsNativeObjectAlive",
+    "InternalCancelInvokeAll",
+    "GetInstanceID",
+    "GetLastCacheItem",
+    "InternalCloneSingle",
+    "SetAlpha",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_D5A"
+  ]
+}

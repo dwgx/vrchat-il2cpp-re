@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_9801",
+  "parent": "",
+  "named_methods": [
+    "RotateTowards",
+    "SetHasChanged",
+    "SetLocalPosition",
+    "SetLocalRotation",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_51A",
+    "m_214",
+    "m_D61",
+    "m_43F"
+  ]
+}

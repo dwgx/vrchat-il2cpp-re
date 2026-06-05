@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSibling_516E",
+  "parent": "",
+  "named_methods": [
+    "SetFiberLocalStorageValue",
+    "CommonExit",
+    ".ctor",
+    "Initialize",
+    "SetErrnoFromOsError"
+  ],
+  "hash_methods": [
+    "m_BA8",
+    "m_49E",
+    "m_0F8",
+    "m_7A2",
+    "m_95A",
+    "m_7A2",
+    "m_95A",
+    "m_7A2",
+    "m_FE6",
+    "m_4CF"
+  ]
+}

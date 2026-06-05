@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "Static15m_57FD",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start",
+    "ReadRectTransformState"
+  ],
+  "hash_methods": [
+    "m_27C"
+  ]
+}

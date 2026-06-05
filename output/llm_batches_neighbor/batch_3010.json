@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_43F0",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "System.Collections.IEnumerator.get_Current",
+    "Equals",
+    "GetHashCode",
+    "ToString",
+    ".ctor",
+    "Initialize",
+    "MoveNext",
+    "System.IDisposable.Dispose",
+    "System.Collections.IEnumerator.Reset",
+    "Dispose",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "Equals_CBC994A30249"
+  ],
+  "hash_methods": [
+    "m_4E7"
+  ]
+}

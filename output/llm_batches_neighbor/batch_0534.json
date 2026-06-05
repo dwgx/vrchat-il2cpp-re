@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitSibling_09E6",
+  "parent": "",
+  "named_methods": [
+    "ProcessGameObject",
+    "ProcessGameObject_AFEB7B236361",
+    "ConfigureCanvasGroup",
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_315",
+    "m_D56",
+    "m_DE4",
+    "m_413",
+    "m_F20",
+    "m_FA0",
+    "m_CB2"
+  ]
+}

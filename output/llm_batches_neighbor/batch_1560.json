@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_5100",
+  "parent": "",
+  "named_methods": [
+    "GetHasChanged",
+    "Internal_getHierarchyCapacity",
+    "GetLocalRotation",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_F6E",
+    "m_BC8",
+    "m_BC8",
+    "m_669"
+  ]
+}

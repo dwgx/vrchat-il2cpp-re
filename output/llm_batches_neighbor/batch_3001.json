@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PointerInitializePotentialDragBeginDrag_A32B",
+  "parent": "",
+  "named_methods": [
+    "OnInitializePotentialDrag",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "OnBeginDrag",
+    "Equals_01A46EF0DEB1",
+    "OnEndDrag",
+    "Equals_CF960695295F",
+    "OnDrag",
+    "Equals_40C845243100"
+  ],
+  "hash_methods": [
+    "m_347",
+    "m_D00",
+    "m_11C",
+    "m_568",
+    "m_DD1",
+    "m_9F6"
+  ]
+}

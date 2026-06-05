@@ -1,0 +1,19 @@
+{
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_104": "UpdateTransformPose",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_194": "HasRequiredTransforms",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_280": "CacheComponentReferences",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_322": "SetTransformWeight",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_3AA": "UpdateTransformPose",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_43D": "ResetTransformPoses",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_4A0": "CacheTransformLocalPoses",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_567": "UpdateTransformPoses",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_5E9": "UpdateTransformPoses",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_65C": "UpdateTransformPoses",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_7D1": "ApplyCachedRotationSmoothing",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_852": "ApplyTransformOffset",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_8E2": "RestoreCachedTransformPoses",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_976": "ApplyTransformOffset",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_9FD": "ApplyCachedRotationSmoothing",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_A7A": "UpdateTransformPoseAtIndex",
+ "VRC_MainSiblingSiblingSiblingSibling_8ABD::m_A92": "UpdateTransformPoseAtIndex"
+}

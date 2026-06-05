@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitSiblingSibling_AD6F",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    ".ctor",
+    "OnDestroy",
+    "OnEnable",
+    "OnDisable",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_655",
+    "m_869",
+    "m_FC3",
+    "m_C5C",
+    "m_011",
+    "m_372"
+  ]
+}

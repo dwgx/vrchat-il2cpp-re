@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_10FB",
+  "parent": "",
+  "named_methods": [
+    "SetLocalRotation",
+    "SetLocalRotation_1244533621D8",
+    "MoveNext",
+    "ConfigureRigidbody",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_E82",
+    "m_DB9",
+    "m_06D",
+    "m_CE3",
+    "m_63A"
+  ]
+}

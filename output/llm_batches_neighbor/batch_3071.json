@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_EF3D",
+  "parent": "",
+  "named_methods": [
+    "SetComApartmentState",
+    "GetOrCreateThreadLocalData",
+    "Awake",
+    "Start",
+    "OnEnable",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OpenFileHandle",
+    "OnDestroy",
+    "OnApplicationQuit",
+    ".ctor",
+    "Initialize",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit"
+  ],
+  "hash_methods": [
+    "m_FEE"
+  ]
+}

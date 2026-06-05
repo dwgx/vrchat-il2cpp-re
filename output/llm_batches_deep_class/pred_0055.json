@@ -1,0 +1,12 @@
+{
+ "TransformProfiledSystem_5268::m_C27": "MarshalStringFieldsToManaged",
+ "TransformProfiledSystem_5268::m_C4A": "Contains",
+ "TransformProfiledSystem_5268::m_C9B": "Contains",
+ "TransformProfiledSystem_5268::m_CEF": "Contains",
+ "TransformProfiledSystem_5268::m_D42": "MarshalByteArrayToNative",
+ "TransformProfiledSystem_5268::m_D4E": "MarshalArrayFieldsToNative",
+ "TransformProfiledSystem_5268::m_D77": "CopyEmbeddedArraysToNative",
+ "TransformProfiledSystem_5268::m_EAD": "MarshalAnsiStringFieldsToManaged",
+ "TransformProfiledSystem_5268::m_EFD": "MarshalFixedBufferToManaged",
+ "TransformProfiledSystem_5268::m_FCD": "MarshalFixedByteArrayToManaged"
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Internal_GetClipByName",
+    "ToString_B7D4826962F6",
+    "DontDestroyOnLoad",
+    "Equals",
+    "Equals_34236C7841B9",
+    ".cctor",
+    ".ctor",
+    "GetHashCode",
+    "FindObjectOfType"
+  ],
+  "hash_methods": [
+    "m_C1F",
+    "m_AE0",
+    "m_A51",
+    "m_5CC",
+    "m_388",
+    "m_E89",
+    "m_13B"
+  ]
+}

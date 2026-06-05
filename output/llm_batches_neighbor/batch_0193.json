@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name",
+    ".ctor",
+    "GetCachedPtr_B226818E9FF3",
+    "FindObjectOfType",
+    "CompareBaseObjects_1407E00C84DB",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_1B1",
+    "m_540",
+    "m_9A6",
+    "m_142",
+    "m_5A7"
+  ]
+}

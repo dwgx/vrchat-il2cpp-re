@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "SerializationRecoveryHandlerSiSibling_3273",
+  "parent": "",
+  "named_methods": [
+    "InsertionSort",
+    ".ctor",
+    "Initialize",
+    "IntrospectiveSort"
+  ],
+  "hash_methods": [
+    "m_C92",
+    "m_7BC",
+    "m_21C",
+    "m_018",
+    "m_558",
+    "m_A85",
+    "m_0E4",
+    "m_853",
+    "m_202",
+    "m_F83"
+  ]
+}

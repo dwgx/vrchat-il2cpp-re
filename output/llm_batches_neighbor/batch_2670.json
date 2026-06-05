@@ -1,0 +1,42 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_9E7A",
+  "parent": "",
+  "named_methods": [
+    "SetLocalRotation",
+    "Equals",
+    "SetLocalRotation_0500F04874BF",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    ".ctor",
+    "Initialize",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "GetHashCode",
+    "GetDeltaTime",
+    "Equals_FEF88BC55118"
+  ],
+  "hash_methods": [
+    "m_CB0",
+    "m_A9B",
+    "m_A6B",
+    "m_C12",
+    "m_87F",
+    "m_7E2",
+    "m_9F5",
+    "m_39F",
+    "m_CBD",
+    "m_8D6"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSibRelated_5680",
+  "parent": "",
+  "named_methods": [
+    "AreValuesEqual",
+    "GetRealtimeSinceStartup",
+    "AreValuesEqual_8BD168E7B262",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_408",
+    "m_1E3",
+    "m_E5F",
+    "m_E5F",
+    "m_020",
+    "m_716",
+    "m_C22",
+    "m_0C4",
+    "m_C27",
+    "m_27F"
+  ]
+}

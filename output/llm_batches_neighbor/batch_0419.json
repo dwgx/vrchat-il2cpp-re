@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    ".cctor",
+    ".ctor",
+    "Cleanup",
+    "ContainsChild",
+    "FindObjectsByType",
+    "GetCachedPtr",
+    "GetKeyDown_17BC74",
+    "SetBufferEntryAtomic"
+  ],
+  "hash_methods": [
+    "m_67A",
+    "m_F57",
+    "m_42C"
+  ]
+}

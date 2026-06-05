@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "0DerivedSiblingSiblingSiblingSibling_122C",
+  "parent": "",
+  "named_methods": [
+    "GetPersistentDataPath",
+    "GetPersistentDataPath_67003289FE81",
+    "GetPersistentDataPath_B75B6FC7DFB4"
+  ],
+  "hash_methods": [
+    "m_B71",
+    "m_22A"
+  ]
+}

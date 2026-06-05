@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "MonoBehaviourHandler_7903",
+  "parent": "",
+  "named_methods": [
+    "StopAllCoroutines",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_C84",
+    "m_744",
+    "m_464",
+    "m_017"
+  ]
+}

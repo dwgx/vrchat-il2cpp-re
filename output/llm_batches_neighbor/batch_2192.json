@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0Related_F6EA",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    ".ctor",
+    "Initialize",
+    "GetMaterial",
+    "GetMaterial_34DE67108BF7",
+    "ReadCapsuleColliderState"
+  ],
+  "hash_methods": [
+    "m_14B",
+    "m_807",
+    "m_321",
+    "m_964",
+    "m_21B",
+    "m_067",
+    "m_D78",
+    "m_DEB",
+    "m_FD5",
+    "m_C61"
+  ]
+}

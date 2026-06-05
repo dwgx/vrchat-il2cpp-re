@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals_4D325CD7C1F6",
+    "SetMessageAndMarkDirty",
+    "Equals",
+    ".ctor",
+    ".cctor",
+    "Internal_InstantiateSingleWithParent_Injected"
+  ],
+  "hash_methods": [
+    "m_D0E",
+    "m_F1F",
+    "m_DEA"
+  ]
+}

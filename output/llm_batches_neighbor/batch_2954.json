@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "MonoBehaviourHandler_649B",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "OnTriggerEnter"
+  ],
+  "hash_methods": [
+    "m_6B1",
+    "m_401"
+  ]
+}

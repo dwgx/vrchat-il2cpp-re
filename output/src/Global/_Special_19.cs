@@ -271,12 +271,12 @@ public class <>c
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void ContainsChild_A184AF(){} // RVA: 0x7FFAFA0628C0
+    public void GetName(){} // RVA: 0x7FFAFA062E60
     public void .cctor(){} // RVA: 0x7FFAFA062FE0
     public void GetInstanceID_78BD63(){} // RVA: 0x7FFAFA063C90
     public void GetHashCode(){} // RVA: 0x7FFAFA063DF0
     // ── Unresolved (hash) ──
     public void m_3FD(){} // RVA: 0x7FFAFA0627F0
-    public void m_BC2(){} // RVA: 0x7FFAFA062E60
     public void m_8DA(){} // RVA: 0x7FFAFA062F30
     public void m_9C2(){} // RVA: 0x7FFAFA063080
     public void m_B9F(){} // RVA: 0x7FFAFA063620

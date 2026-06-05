@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "TextureUIHandler_DF1E",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "ApplyCachedLocalPosition",
+    ".ctor",
+    "Initialize",
+    "GetTransformRotationRelativeToConnectedBody",
+    "GetFilterMode",
+    "Internal_GetStoredColorSpace",
+    "GetConnectedBodyRotation",
+    "OnDisable",
+    "GetTexelSize",
+    "GetUpdateCount"
+  ],
+  "hash_methods": [
+    "m_184",
+    "m_BCC",
+    "m_90A",
+    "m_89F"
+  ]
+}

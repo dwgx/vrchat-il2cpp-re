@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "Instantiate_7BB9C873DF7D",
+    ".ctor",
+    "<>9__0_0",
+    ".cctor",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_BFB",
+    "m_D0A",
+    "m_B86",
+    "m_B04",
+    "m_A68",
+    "m_84F",
+    "m_2A8",
+    "m_F78"
+  ]
+}

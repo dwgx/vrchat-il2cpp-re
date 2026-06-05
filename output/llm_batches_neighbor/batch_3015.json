@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "skiddingSibling_EF26",
+  "parent": "",
+  "named_methods": [
+    "GetTexture",
+    "GetTexture_7A090DDE3F13",
+    "ReadSpriteProperties",
+    "GetBorder",
+    "GetBorder_4C79C525B186",
+    "GetBorder_D47E023A80DF",
+    "GetBorder_CD2DAA1B5879",
+    "GetBorder_C2A9CACEC575",
+    "RandomRangeInt_079E0FA4BB28",
+    "RandomRangeInt",
+    "RandomRangeInt_079E0FA4BB28",
+    "RandomRangeInt",
+    "RandomRangeInt_AF06A04BCA28"
+  ],
+  "hash_methods": [
+    "m_DC7",
+    "m_DC7",
+    "m_9BF",
+    "m_A04",
+    "m_A04",
+    "m_783",
+    "m_49F",
+    "m_9B9",
+    "m_102",
+    "m_DE0"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_E601",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "System.Collections.IEnumerator.Reset",
+    "MoveNext",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "System.Collections.IEnumerator.get_Current",
+    "ToString",
+    "System.IDisposable.Dispose",
+    "Dispose",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current"
+  ],
+  "hash_methods": [
+    "m_668",
+    "m_D51"
+  ]
+}

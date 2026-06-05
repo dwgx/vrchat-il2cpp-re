@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "CloneSiblingSibling_80CC",
+  "parent": "",
+  "named_methods": [
+    "get_Value",
+    "get_Value_308CF4B1C89C",
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_A1A",
+    "m_FE6",
+    "m_83E",
+    "m_FD1",
+    "m_EDD"
+  ]
+}

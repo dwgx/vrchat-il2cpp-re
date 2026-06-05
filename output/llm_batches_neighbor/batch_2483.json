@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static18m_1BB7",
+  "parent": "",
+  "named_methods": [
+    "CheckRenderTexture",
+    "CheckRenderTexture_FA7BBB9FD218",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_116",
+    "m_305",
+    "m_7BF",
+    "m_2A7",
+    "m_5A8"
+  ]
+}

@@ -85,6 +85,7 @@ tools/VRChat_*_full.dmp
 *.dmp
 
 # === Pipeline logs ===
+*.log
 output/*.log
 output/llm_bulk_run*.log
 

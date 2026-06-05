@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_2B7E",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "GetUnscaledDeltaTime",
+    ".ctor",
+    "Initialize",
+    "GetRealtimeSinceStartup",
+    "GetNullableValue",
+    "GetUnscaledDeltaTime_97E061972639",
+    "GetRealtimeSinceStartup_0D3BB7D25106",
+    "GetRealtimeSinceStartup_E28D7388491E",
+    "Equals",
+    "TrySetNullableValue",
+    "GetRealtimeSinceStartup_23143A50BC7F",
+    "OnDestroy",
+    "GetNullableValue_A2C70027396E",
+    "GetHashCode",
+    "GetNullableValue_E0295D6F1BA0",
+    "ToString",
+    "TrySetNullableValue_F74C0033A4C1"
+  ],
+  "hash_methods": [
+    "m_1A5",
+    "m_621"
+  ]
+}

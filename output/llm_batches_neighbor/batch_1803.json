@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "RefreshAvatar_48C9",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "HasVectorImpl",
+    "RefreshAvatar",
+    "HasFloatImpl",
+    "PropertyToID",
+    "HasIntImpl",
+    "OnDisable",
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "PropertyToID_B41C47BCAE0A"
+  ],
+  "hash_methods": [
+    "m_AF5",
+    "m_59D",
+    "m_062",
+    "m_CE7",
+    "m_B28",
+    "m_890",
+    "m_3BB",
+    "m_F4D",
+    "m_8CC"
+  ]
+}

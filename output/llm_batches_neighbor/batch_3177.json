@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_8952",
+  "parent": "",
+  "named_methods": [
+    "GetStructuralHashCode",
+    "GetStructuralHashCode_FF596BD30B95",
+    "GetStructuralHashCode_79D8556544C2",
+    "GetStructuralHashCode_E54BBA68B977",
+    "GetStructuralHashCode_B3DB15145A5F",
+    "GetStructuralHashCode_9E55C50728A2",
+    ".ctor",
+    "Initialize",
+    "Equals",
+    "Equals_0D0BE02B6FD5"
+  ],
+  "hash_methods": [
+    "m_9DF"
+  ]
+}

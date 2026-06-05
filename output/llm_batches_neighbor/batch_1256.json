@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "EffectmaterialForRenderingGetMaterial_5E1C_3793",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetMaterial",
+    "get_fontWeight",
+    "set_materialForRendering",
+    "CalculateLayoutInputHorizontal",
+    "CalculateLayoutInputVertical",
+    ".ctor_7615FDBEDEB6",
+    "get_materialForRendering",
+    "Rebuild_CEC877776CE8",
+    "set_materialForRendering_3B71080AD584",
+    "Rebuild",
+    "DelayedMaterialRebuild",
+    "GetMaterial_5499680C1352"
+  ],
+  "hash_methods": [
+    "m_643"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "m_F8E": "GetHashCode",
+  "m_3E5": "OpImplicit",
+  "m_EB4": "CompareBaseObjects",
+  "m_96E": "IsNativeObjectAlive",
+  "m_ED9": "GetCachedPtr",
+  "m_8B8": "CheckNullArgument",
+  "m_67B": "InternalCloneSingle"
+}

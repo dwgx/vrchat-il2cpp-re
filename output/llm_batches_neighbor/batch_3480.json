@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_D7FC",
+  "parent": "",
+  "named_methods": [
+    "GetSimulationMode",
+    "OnPointerExit",
+    "OnEnable",
+    "Start",
+    "OnPointerEnter",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "Dispose",
+    "OnDestroy",
+    "ReadComponentState"
+  ],
+  "hash_methods": [
+    "m_09F",
+    "m_BFA",
+    "m_E32",
+    "m_6B8",
+    "m_E4E",
+    "m_AF5",
+    "m_DD8",
+    "m_DE4",
+    "m_CE1",
+    "m_A8E"
+  ]
+}

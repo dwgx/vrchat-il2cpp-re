@@ -1,0 +1,37 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitHandler_1283_EDB0",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    "OnDestroy_295729ACFBA1",
+    "IsInvoking",
+    "Start",
+    "Invoke",
+    "InvokeRepeating",
+    "OnPointerExit_BC4EDA322B0C",
+    "OnCollisionStay",
+    "StartCoroutine",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "GetTargets",
+    "StopCoroutine",
+    "ResetOVRLipSyncContext",
+    "SetupLipSyncProcessing",
+    "OnDestroy",
+    "get_useGUILayout",
+    "set_useGUILayout",
+    "OnPointerEnter_485BB0C4C53E",
+    "Internal_CancelInvokeAll",
+    "Internal_IsInvokingAll",
+    "InvokeDelayed",
+    "OnPointerEnter",
+    "Initialize",
+    "Start_CC215F6B2146",
+    ".ctor",
+    "OnPointerExit"
+  ],
+  "hash_methods": [
+    "m_37E"
+  ]
+}

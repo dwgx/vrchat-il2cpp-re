@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_23DC",
+  "parent": "",
+  "named_methods": [
+    "SetLocalPosition",
+    "MoveNext",
+    "ProcessRenderingCommandBuffer",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_015",
+    "m_7F6",
+    "m_DB9",
+    "m_EC8",
+    "m_4E8"
+  ]
+}

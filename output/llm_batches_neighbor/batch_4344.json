@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F4F8",
+  "parent": "",
+  "named_methods": [
+    "ParsePrintfFormatSpecifier",
+    "ParseScanfFormatSpecifier",
+    "ParsePrintfConversionSpecifier",
+    "ParsePrintfConversionSpecifier_AEE5EECFBEE7"
+  ],
+  "hash_methods": [
+    "m_CB6",
+    "m_9CA",
+    "m_4D0"
+  ]
+}

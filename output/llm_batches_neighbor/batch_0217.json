@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "InstantiateAction",
+    "Initialize",
+    "IsNativeObjectAlive",
+    ".cctor",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_CDF",
+    "m_BAE"
+  ]
+}

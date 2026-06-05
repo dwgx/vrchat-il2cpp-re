@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_D76C",
+  "parent": "",
+  "named_methods": [
+    "OnPointerEnter",
+    "OnPointerExit",
+    "GetMaterialRenderQueueOrZero",
+    "GetMaterialRenderQueue",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "OnEnable",
+    "OnDisable",
+    "GetMaterialRenderQueueOrOne",
+    "GetMaterialRenderQueueOrOne_DE47E2CBCE48"
+  ],
+  "hash_methods": [
+    "m_0A1",
+    "m_2DE",
+    "m_CB2"
+  ]
+}

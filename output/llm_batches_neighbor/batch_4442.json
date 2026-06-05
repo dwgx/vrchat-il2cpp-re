@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_56BC",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "StandaloneInputConstructor",
+    "StandaloneInputConstructor_CE3811BE79BB",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_63A",
+    "m_015",
+    "m_7F6",
+    "m_752"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "Static7m_02890",
+  "parent": "",
+  "named_methods": [
+    "GetComponentTransform",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_D8D",
+    "m_2E4",
+    "m_487",
+    "m_A33"
+  ]
+}

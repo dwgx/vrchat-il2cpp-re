@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Internal_CloneSingleWithParent",
+    "Initialize",
+    "BakeMesh",
+    "get_name",
+    "op_Implicit",
+    "Equals",
+    "GetInstanceID",
+    ".ctor",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_4A9",
+    "m_D7F",
+    "m_BFE"
+  ]
+}

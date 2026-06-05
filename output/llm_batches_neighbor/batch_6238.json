@@ -1,0 +1,22 @@
+{
+  "namespace": "VRC.UI.Elements.Menus",
+  "class": "ListContentView`1",
+  "parent": "",
+  "named_methods": [
+    "get_CountFormat",
+    "get_MaxContentCount",
+    "get_ObservableList",
+    "Start",
+    "OnEnable",
+    "OnDisable",
+    "IndexOf",
+    "Equals",
+    "Equals_DEDA90D54383",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_11E",
+    "m_876",
+    "m_194"
+  ]
+}

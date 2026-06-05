@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "ParticleHandler_AD0E",
+  "parent": "",
+  "named_methods": [
+    "set_CacheWritingBehavior",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDisable",
+    "Start",
+    "OnDestroy",
+    "OnEnable",
+    "ThrowLandmarksMarshalException",
+    "TryGetValue"
+  ],
+  "hash_methods": [
+    "m_4F2",
+    "m_F46",
+    "m_818",
+    "m_053",
+    "m_83B",
+    "m_D20",
+    "m_004",
+    "m_EF7",
+    "m_CC5",
+    "m_DCE"
+  ]
+}

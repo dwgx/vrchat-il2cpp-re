@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static16m_4B76",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_403",
+    "m_4DE",
+    "m_CFE",
+    "m_E40",
+    "m_320",
+    "m_ECD",
+    "m_8AA",
+    "m_3EA",
+    "m_203",
+    "m_3E0"
+  ]
+}

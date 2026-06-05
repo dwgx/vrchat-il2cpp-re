@@ -1,0 +1,8 @@
+{
+ "TransformPhysicsSystem_923C::m_946": "MarshalCollisionRecordToNative",
+ "TransformPhysicsSystem_923C::m_96C": "MarshalObjectMetadataPairToNative",
+ "TransformPhysicsSystem_923C::m_9A5": "MarshalObjectMetadataPairToNative",
+ "TransformPhysicsSystem_923C::m_9C5": "MarshalObjectMetadataPairToNative",
+ "TransformPhysicsSystem_923C::m_9CB": "ContainsTransformId",
+ "TransformPhysicsSystem_923C::m_9E9": "EqualsSigningKey"
+}

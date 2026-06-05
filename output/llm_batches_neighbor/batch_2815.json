@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySiblingSibling_161D",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_677",
+    "m_DE0",
+    "m_709",
+    "m_D97",
+    "m_601",
+    "m_FE9",
+    "m_30B",
+    "m_6E2",
+    "m_25F",
+    "m_F6F"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSibling_AE3B",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_431",
+    "m_E72",
+    "m_6B9",
+    "m_0CB",
+    "m_FB9",
+    "m_5E9",
+    "m_6EF",
+    "m_94E",
+    "m_F5B",
+    "m_25B"
+  ]
+}

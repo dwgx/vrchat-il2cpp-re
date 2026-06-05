@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_75C5",
+  "parent": "",
+  "named_methods": [
+    "MoveNext_4D87CF38F622",
+    "MoveNext",
+    "SetStateMachine",
+    "MoveNext_7525F37D1DF1"
+  ],
+  "hash_methods": [
+    "m_4E8",
+    "m_015",
+    "m_124",
+    "m_EC8",
+    "m_E82"
+  ]
+}

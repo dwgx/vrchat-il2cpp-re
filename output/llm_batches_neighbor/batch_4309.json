@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeSiblingSibSibling_CF31",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    "CtorF5D8351B397B",
+    "Update",
+    "CancelInvoke",
+    ".ctor",
+    "Initialize",
+    "Initialize_9C4FE72CFB43",
+    "Start",
+    "OnDisable",
+    "InitializeONSPAmbisonicsNativeSib",
+    "SetActive",
+    "AddItem",
+    "UpdateAmbisonicSource",
+    "CreateNativeContext",
+    "OnDestroy",
+    "DestroyNativeContext"
+  ],
+  "hash_methods": [
+    "m_061",
+    "m_338"
+  ]
+}

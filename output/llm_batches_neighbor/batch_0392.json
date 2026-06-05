@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetCachedPtr",
+    ".cctor",
+    "GetCachedPtr_7B53CAC41F9F",
+    "GetCachedPtr_E8BBBFC29454",
+    "GetAndProcessDateTime",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_8E8",
+    "m_834",
+    "m_C38",
+    "m_F75"
+  ]
+}

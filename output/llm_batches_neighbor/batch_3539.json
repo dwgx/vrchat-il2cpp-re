@@ -1,0 +1,33 @@
+{
+  "namespace": "",
+  "class": "ctorDerivedSiblingSibling_4FAB",
+  "parent": "",
+  "named_methods": [
+    "CreateNativeSlice",
+    "ConstructListEnumerator",
+    "Clear",
+    "Pop",
+    "ReadColliderState",
+    "GetEnumerator",
+    "MarshalPInvokeBack_3FBAAAC528DA",
+    "MarshalPInvokeBack_3FBAAAC528DA",
+    "TryGetValue",
+    "ThrowDragPositionMarshalNotSupported",
+    "GetEnumerator_98F5D3C5F42D",
+    "ProcessQuaternion",
+    ".ctor",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_1D8",
+    "m_1E6",
+    "m_5FD",
+    "m_64F",
+    "m_A1F",
+    "m_FA6",
+    "m_6C8",
+    "m_DB8",
+    "m_74D",
+    "m_3DD"
+  ]
+}

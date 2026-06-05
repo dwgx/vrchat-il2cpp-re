@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "IsNativeObjectAlive",
+    "GetGameObject_805",
+    ".cctor",
+    "set_name",
+    ".ctor",
+    "Initialize",
+    "Equals",
+    "op_Implicit"
+  ],
+  "hash_methods": [
+    "m_2DF",
+    "m_525"
+  ]
+}

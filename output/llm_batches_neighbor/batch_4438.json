@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "PointerClickPointerEnter_2318",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "OnDestroy",
+    "OnPointerClick",
+    "ToString",
+    "OnPointerExit",
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "SetCullingMask",
+    "OnPointerEnter",
+    "Deconstruct"
+  ],
+  "hash_methods": [
+    "m_149",
+    "m_321",
+    "m_014",
+    "m_85C",
+    "m_AD6",
+    "m_BFA",
+    "m_94B",
+    "m_C52",
+    "m_609",
+    "m_F06"
+  ]
+}

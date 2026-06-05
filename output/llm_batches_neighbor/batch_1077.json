@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_5DFF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SortArrayRange"
+  ],
+  "hash_methods": [
+    "m_771",
+    "m_239",
+    "m_1D2",
+    "m_561"
+  ]
+}

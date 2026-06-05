@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_3A55",
+  "parent": "",
+  "named_methods": [
+    "GrowMarkStack",
+    "MarkObject",
+    "MarkAndPushObject"
+  ],
+  "hash_methods": [
+    "m_CB6",
+    "m_856",
+    "m_55E",
+    "m_4D0"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_1F0A",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "SetStateMachine",
+    "RemoveAll",
+    "TryReadInt32"
+  ],
+  "hash_methods": [
+    "m_4D8",
+    "m_124",
+    "m_288",
+    "m_4E8",
+    "m_7F6"
+  ]
+}

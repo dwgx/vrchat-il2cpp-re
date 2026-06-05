@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    "DontDestroyOnLoad",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "get_name"
+  ],
+  "hash_methods": [
+    "m_A03",
+    "m_D6B",
+    "m_B87",
+    "m_D5F"
+  ]
+}

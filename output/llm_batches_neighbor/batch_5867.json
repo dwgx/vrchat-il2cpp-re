@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "ProfiledTransformHandler_BF03",
+  "parent": "",
+  "named_methods": [
+    "ConstructProfiledTransformHandler",
+    ".ctor",
+    "Initialize",
+    "InvokeProfiledTransformHandlers"
+  ],
+  "hash_methods": [
+    "m_DEC",
+    "m_D57",
+    "m_7A6",
+    "m_888",
+    "m_146",
+    "m_1C1",
+    "m_2DD",
+    "m_EEC",
+    "m_807",
+    "m_CC8"
+  ]
+}

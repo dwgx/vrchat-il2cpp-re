@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "gameObject_BF28",
+  "parent": "",
+  "named_methods": [
+    "GetLastServiceDescriptor",
+    "GetLastServiceDescriptor_AF963BF126D0",
+    "set_gameObject",
+    "get_gameObject"
+  ],
+  "hash_methods": [
+    "m_687",
+    "m_30B",
+    "m_9E0"
+  ]
+}

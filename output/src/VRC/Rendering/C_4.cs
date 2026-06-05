@@ -1027,12 +1027,12 @@ namespace VRC.Rendering
         public void InvokeInterfaceMethodSlot(){} // RVA: 0x7FFAFB93C400
         public void InvokeInterfaceMethodSlot_6B3E81FCD57E(){} // RVA: 0x7FFAFB93C490
         public void InvokeGenericInterfaceMethodSlot(){} // RVA: 0x7FFAFB93C730
-        public void Equals(){} // RVA: 0x7FFAFB93C7C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Start(){} // RVA: 0x7FFAFB93CD30
         // ── Unresolved (hash) ──
         public void m_DEF(){} // RVA: 0x7FFAFB93C520
         public void m_C9E(){} // RVA: 0x7FFAFB93C6A0
+        public void m_FDE(){} // RVA: 0x7FFAFB93C7C0
         public void m_E15(){} // RVA: 0x7FFAFB93C940
         public void m_5B0(){} // RVA: 0x7FFAFB93CA80
         public void m_288(){} // RVA: 0x7FFAFB93CC00

@@ -1,0 +1,37 @@
+{
+  "namespace": "",
+  "class": "ScanHiddenCamerasScanFrequency_1D05",
+  "parent": "",
+  "named_methods": [
+    "SettingsConstructor",
+    "Start",
+    "ToString",
+    "OnRenderImage",
+    "get_Value",
+    "Deconstruct",
+    "Update",
+    "Deconstruct_C13361869ABC",
+    "Deconstruct_445D331B9F60",
+    "Awake",
+    "OnDestroy",
+    "get_Key",
+    "Deconstruct_4D934F00AE96",
+    ".ctor",
+    "Initialize",
+    "get_Key_69A3C1EF696A",
+    "get_Key_A91D113D212F",
+    "ToString_77AEA83463A8"
+  ],
+  "hash_methods": [
+    "m_3E1",
+    "m_230",
+    "m_1A8",
+    "m_FA0",
+    "m_3B7",
+    "m_943",
+    "m_FFE",
+    "m_DA5",
+    "m_F53",
+    "m_E80"
+  ]
+}

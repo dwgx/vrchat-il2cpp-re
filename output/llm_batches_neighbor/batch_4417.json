@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_5955",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetFrameCount",
+    "GetFrameCount_8CA07B3CD385"
+  ],
+  "hash_methods": [
+    "m_B21",
+    "m_A14",
+    "m_5F3",
+    "m_9DF",
+    "m_278",
+    "m_AE2",
+    "m_A9D",
+    "m_063"
+  ]
+}

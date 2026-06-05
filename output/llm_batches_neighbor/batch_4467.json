@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "UpdateHeight_62CF",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnEnable",
+    "ProcessParticle",
+    "ProcessParticle_F23F48C1CCF9",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "UpdateHeight"
+  ],
+  "hash_methods": [
+    "m_4EC",
+    "m_5FE",
+    "m_0C8",
+    "m_FAB",
+    "m_B58",
+    "m_5F4"
+  ]
+}

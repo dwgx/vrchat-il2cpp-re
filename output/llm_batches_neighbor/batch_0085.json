@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Internal_InstantiateSingle",
+    "Initialize",
+    ".ctor",
+    "GetComponentGameObject",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_A37",
+    "m_EBB",
+    "m_0A0",
+    "m_D36"
+  ]
+}

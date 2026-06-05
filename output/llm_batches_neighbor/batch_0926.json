@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "ParticleHandler_9FB9",
+  "parent": "",
+  "named_methods": [
+    "set_CacheWritingBehavior",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_5EA",
+    "m_6D1",
+    "m_85E",
+    "m_A66",
+    "m_F46",
+    "m_682",
+    "m_FE3",
+    "m_2CB",
+    "m_4B9",
+    "m_F0F"
+  ]
+}

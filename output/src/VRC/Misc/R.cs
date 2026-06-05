@@ -125,7 +125,6 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetUseSpring(){} // RVA: 0x7FFAFB5D3560
-        public void Equals(){} // RVA: 0x7FFAFB5D3910
         public void .ctor(){} // RVA: 0x7FFAFB5D3980
         public void Initialize(){} // RVA: 0x7FFAFB5D39D0
         public void FixedUpdate(){} // RVA: 0x7FFAFB5D3A40
@@ -147,6 +146,7 @@ namespace VRC.Misc
         // ── Unresolved (hash) ──
         public void m_D1C(){} // RVA: 0x7FFAF2D8D320
         public void m_A66(){} // RVA: 0x7FFAFB5D3890
+        public void m_323(){} // RVA: 0x7FFAFB5D3910
     }
 
     /// <summary>Originally: ÌÌÎÍÏÍÍÍÍÍÍÏÏÎÌÌÏÍÏÍÍÎÌ</summary>

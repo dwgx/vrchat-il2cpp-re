@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponentSibling_5877Sibling_D0CD",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "GetHashCode",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_570",
+    "m_015",
+    "m_2C8",
+    "m_6A1",
+    "m_81A",
+    "m_A3E",
+    "m_D94",
+    "m_E2F"
+  ]
+}

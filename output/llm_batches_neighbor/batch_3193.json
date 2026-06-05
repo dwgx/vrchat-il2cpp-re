@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_8A93",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "MoveNext",
+    "Dispose",
+    "ConfigureCollider",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_4E8",
+    "m_E82",
+    "m_DB9"
+  ]
+}

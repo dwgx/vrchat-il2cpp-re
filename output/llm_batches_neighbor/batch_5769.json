@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_89BC",
+  "parent": "",
+  "named_methods": [
+    "Evaluate",
+    ".cctor",
+    "GetMousePosition",
+    "GetHashCode",
+    "GetMousePosition_C891049DECAF",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "GetMouseButton",
+    "GetMouseButton_D95F2F77660B"
+  ],
+  "hash_methods": [
+    "m_ADF",
+    "m_AF3",
+    "m_AFD",
+    "m_22B"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponentImpl_AB77SibSibling_17A6",
+  "parent": "",
+  "named_methods": [
+    "CompareSiblingComponents",
+    "CompareSiblingComponents_FC39ED2A494F",
+    "CompareSiblingComponents_3855B8641274",
+    "CompareSiblingComponents_BBF6F5FC9A50",
+    "OnEnable",
+    "Start",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_7FD",
+    "m_116"
+  ]
+}

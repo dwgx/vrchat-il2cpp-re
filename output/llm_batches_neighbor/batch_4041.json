@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "SearchInFieldsUserSiblingSibling_98F2",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_88A",
+    "m_E69",
+    "m_4EB"
+  ]
+}

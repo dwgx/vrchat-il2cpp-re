@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Initialize_5EC510218770",
+    "GetInstanceID",
+    "set_name_53CEABF366A1",
+    ".cctor",
+    "op_Implicit",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_7B2",
+    "m_69E",
+    "m_540",
+    "m_4C6"
+  ]
+}

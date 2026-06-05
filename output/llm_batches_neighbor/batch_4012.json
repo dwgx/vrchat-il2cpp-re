@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_3F59",
+  "parent": "",
+  "named_methods": [
+    "SetLocalRotation",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_DB9",
+    "m_0A8",
+    "m_440",
+    "m_06D",
+    "m_CE3",
+    "m_E82",
+    "m_EC8"
+  ]
+}

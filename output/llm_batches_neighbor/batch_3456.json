@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "TransformApplicationHandler_3D66",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_BD6",
+    "m_EEE",
+    "m_B45",
+    "m_971",
+    "m_356",
+    "m_FBA",
+    "m_8D2",
+    "m_DF1",
+    "m_F0C",
+    "m_ED7"
+  ]
+}

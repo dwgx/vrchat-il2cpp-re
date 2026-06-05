@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_D10F",
+  "parent": "",
+  "named_methods": [
+    "GetMethodFromNameFlags",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_556",
+    "m_8B6",
+    "m_6FF",
+    "m_1A2",
+    "m_C7F",
+    "m_C99"
+  ]
+}

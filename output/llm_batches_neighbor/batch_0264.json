@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    ".cctor",
+    "GetHashCode_8F69D80BB8EE",
+    "get_name_E4AD73610BD7",
+    "set_name_E4AD73610BD7",
+    "SetRunOnThreadPoolFrameAtIndex",
+    "CompareBaseObjects"
+  ],
+  "hash_methods": [
+    "m_4FA",
+    "m_EE7",
+    "m_0AF"
+  ]
+}

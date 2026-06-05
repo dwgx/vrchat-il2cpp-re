@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "ParticleHandler_2065",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_CFE"
+  ]
+}

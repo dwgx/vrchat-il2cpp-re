@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "SystemInfoBehaviourHandler_2698",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "LateUpdate",
+    "FixedUpdate",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_FA4",
+    "m_C9E"
+  ]
+}

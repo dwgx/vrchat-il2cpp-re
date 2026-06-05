@@ -653,15 +653,15 @@ public class ResetInputAxis
 public class ResolutionStruct
 {
     // ── Methods ──
-    public void Initialize(){} // RVA: 0x7FFAF441AE80
     public void .ctor(){} // RVA: 0x7FFAF441AEC0 | overloaded x2
-    public void Initialize_01DE4B8EF54F(){} // RVA: 0x7FFAF441AE80
-    public void Initialize_AC4468F2800D(){} // RVA: 0x7FFAF441AE80
-    public void Initialize_E87586C47935(){} // RVA: 0x7FFAF441AE80
+    public void Initialize(){} // RVA: 0x7FFAF441AE80
     public void ToString(){} // RVA: 0x7FFAF441AF00
-    public void Initialize_AC26B8FC0BFF(){} // RVA: 0x7FFAF441AE80
     // ── Unresolved (hash) ──
-    public void m_287(){} // RVA: 0x7FFAF441AE80
+    public void m_74B(){} // RVA: 0x7FFAF441AE80
+    public void m_01D(){} // RVA: 0x7FFAF441AE80
+    public void m_AC4(){} // RVA: 0x7FFAF441AE80
+    public void m_E87(){} // RVA: 0x7FFAF441AE80
+    public void m_AC2(){} // RVA: 0x7FFAF441AE80
 }
 
 public class ResolveContext

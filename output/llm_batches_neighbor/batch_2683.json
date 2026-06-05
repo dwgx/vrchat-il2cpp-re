@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "CleanupDisposeStaticMethods_5E33",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DD3"
+  ]
+}

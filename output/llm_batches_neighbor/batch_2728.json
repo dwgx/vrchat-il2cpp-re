@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_BA93",
+  "parent": "",
+  "named_methods": [
+    "ReadCompositeCollider2DState",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_440",
+    "m_288",
+    "m_DB9",
+    "m_63A",
+    "m_CE3"
+  ]
+}

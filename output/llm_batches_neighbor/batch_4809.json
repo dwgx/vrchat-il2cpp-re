@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "SerializableVector3SiblingSibling_A263",
+  "parent": "",
+  "named_methods": [
+    "UpdateSerializableVector3",
+    "Initialize",
+    "Initialize_D74F9E3B7B27",
+    "GetValue",
+    "set_Value",
+    "IsNativeObjectAlive",
+    "GetCachedPtr",
+    "set_Value_F501E422C7A0",
+    "get_Value",
+    "SetValue",
+    "SetUIA2Value",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_A89"
+  ]
+}

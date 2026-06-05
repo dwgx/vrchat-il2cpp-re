@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_D5B7",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OrthoNormalize2"
+  ],
+  "hash_methods": [
+    "m_B50",
+    "m_AAC",
+    "m_FFB",
+    "m_F18",
+    "m_C9A"
+  ]
+}

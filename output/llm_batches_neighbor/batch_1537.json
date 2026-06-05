@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "Static11m_8C28",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_D19",
+    "m_D46",
+    "m_D6F",
+    "m_E1E",
+    "m_423",
+    "m_586",
+    "m_A66",
+    "m_E17"
+  ]
+}

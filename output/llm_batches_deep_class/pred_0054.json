@@ -1,0 +1,16 @@
+{
+ "TransformProfiledSystem_5268::m_775": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_789": "MarshalManagedToNative",
+ "TransformProfiledSystem_5268::m_7BC": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_7C5": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_843": "MarshalManagedToNative",
+ "TransformProfiledSystem_5268::m_889": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_8B0": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_94A": "MarshalManagedToNative",
+ "TransformProfiledSystem_5268::m_99D": "MarshalManagedToNative",
+ "TransformProfiledSystem_5268::m_9B1": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_A07": "SetCacheWritingBehavior",
+ "TransformProfiledSystem_5268::m_AF7": "SetCacheWritingBehavior",
+ "TransformProfiledSystem_5268::m_B3F": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_B88": "MarshalNativeToManaged"
+}

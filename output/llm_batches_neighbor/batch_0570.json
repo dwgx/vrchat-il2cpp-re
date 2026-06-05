@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_15FF",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_ADF",
+    "m_FFC",
+    "m_08B"
+  ]
+}

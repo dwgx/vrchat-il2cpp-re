@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiblingSibling_5A7C",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    "GetMetric",
+    "GetActiveInHierarchy"
+  ],
+  "hash_methods": [
+    "m_C9B",
+    "m_46C",
+    "m_BF6",
+    "m_742",
+    "m_E0D",
+    "m_4CA",
+    "m_989",
+    "m_457",
+    "m_C4F",
+    "m_868"
+  ]
+}

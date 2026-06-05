@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "IsNativeObjectAlive",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "Instantiate",
+    "Internal_InstantiateSingle_Injected"
+  ],
+  "hash_methods": [
+    "m_4F1",
+    "m_828",
+    "m_E49",
+    "m_2C9"
+  ]
+}

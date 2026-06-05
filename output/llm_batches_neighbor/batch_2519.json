@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_9E47",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    ".ctor",
+    "Initialize",
+    "StringToHash"
+  ],
+  "hash_methods": [
+    "m_071",
+    "m_CAE",
+    "m_3E8",
+    "m_63F",
+    "m_9F1",
+    "m_68B",
+    "m_F58",
+    "m_E14",
+    "m_2B4",
+    "m_90C"
+  ]
+}

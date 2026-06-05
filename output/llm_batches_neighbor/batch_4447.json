@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "TextureUIHandler_93DA",
+  "parent": "",
+  "named_methods": [
+    "GetTexelSize",
+    ".ctor",
+    "Initialize",
+    "SetAnisoLevel"
+  ],
+  "hash_methods": [
+    "m_8A7",
+    "m_822"
+  ]
+}

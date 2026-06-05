@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "InputHandler_7493",
+  "parent": "",
+  "named_methods": [
+    "TryGetFeatureValue_bool",
+    "TryGetFeatureValue_bool_42DF152FF915",
+    "TryGetFeatureValue_bool_87328FF45CCD"
+  ],
+  "hash_methods": [
+    "m_AE3",
+    "m_329"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Mono20m_9334_B812",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "Update",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_06A",
+    "m_02D",
+    "m_A31",
+    "m_A74",
+    "m_ABA",
+    "m_F62",
+    "m_85B",
+    "m_C2B",
+    "m_F2C",
+    "m_6DA"
+  ]
+}

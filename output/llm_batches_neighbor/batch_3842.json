@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSibling_F739",
+  "parent": "",
+  "named_methods": [
+    "ContainsItem",
+    "AddItem",
+    "AddItem_E284EF1A0F1F",
+    "ThrowTransitionParamsMarshalException"
+  ],
+  "hash_methods": [
+    "m_BAE",
+    "m_A67",
+    "m_405",
+    "m_28D",
+    "m_B83",
+    "m_DFC",
+    "m_AC4",
+    "m_D52",
+    "m_85F",
+    "m_405"
+  ]
+}

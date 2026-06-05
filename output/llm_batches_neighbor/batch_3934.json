@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "UIObservableList_113E",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    ".ctor",
+    "get_ObservableList",
+    "set_ObservableList",
+    "ExpandMemoryBlock",
+    "WideStringConcatSafe",
+    "WideStringCopySafeWithCount",
+    "FreeLocale"
+  ],
+  "hash_methods": [
+    "m_8B9",
+    "m_11E",
+    "m_798",
+    "m_929",
+    "m_097",
+    "m_11E",
+    "m_78B",
+    "m_910",
+    "m_194",
+    "m_876"
+  ]
+}

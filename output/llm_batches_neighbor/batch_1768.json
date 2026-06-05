@@ -1,0 +1,40 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_163B",
+  "parent": "",
+  "named_methods": [
+    "SendNetworkEvent",
+    "UserCapabilityGetReasonCode",
+    "ProcessAsyncOperationData",
+    "ProcessNetworkUpdate",
+    "OnEnable",
+    "OnDisable",
+    "FixedUpdate",
+    "Start",
+    "Update",
+    "SetPlaneDistance",
+    "Awake",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    ".ctor",
+    "Initialize",
+    "OnTriggerStay",
+    "OnDestroy",
+    "RegisterNetworkCallbacks",
+    "OnTriggerExit",
+    "ResolveVRCNetworkBehaviour",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "ResetNetworkState",
+    "CleanupNetworkBehaviour"
+  ],
+  "hash_methods": [
+    "m_60E",
+    "m_60B",
+    "m_CF4"
+  ]
+}

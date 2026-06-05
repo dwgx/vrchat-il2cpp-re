@@ -515,15 +515,14 @@ public class <>c
     // ── Methods ──
     public void GetTimeRealtimeSinceStartup(){} // RVA: 0x7FFAF2ABDE40
     public void IsNativeObjectAlive(){} // RVA: 0x7FFAF2ABDE40
+    public void Marshal(){} // RVA: 0x7FFAF2ABDE40
+    public void MarshalNotNull(){} // RVA: 0x7FFAF2ABDE40
     public void .ctor(){} // RVA: 0x7FFAF2AD4A50
     public void MarkHandleReferenced(){} // RVA: 0x7FFAF2ABDE40
+    public void MarshalFromInstanceId(){} // RVA: 0x7FFAF2ABDE40
     public void Initialize(){} // RVA: 0x7FFAF2ABDE40
     public void .cctor(){} // RVA: 0x7FFAF2AD4A80
     public void CompareBaseObjects(){} // RVA: 0x7FFAF2ABDE40
-    // ── Unresolved (hash) ──
-    public void m_C13(){} // RVA: 0x7FFAF2ABDE40
-    public void m_5AD(){} // RVA: 0x7FFAF2ABDE40
-    public void m_DF4(){} // RVA: 0x7FFAF2ABDE40
 }
 
 public class <>c

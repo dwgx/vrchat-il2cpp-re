@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSibRelated_F054",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetRoot",
+    "GetRoot_83101FADFD84",
+    "GetRoot_6A37E900BDBE"
+  ],
+  "hash_methods": [
+    "m_61C",
+    "m_00B",
+    "m_2D1",
+    "m_DB6",
+    "m_499",
+    "m_842",
+    "m_1F5",
+    "m_059",
+    "m_5E9",
+    "m_25B"
+  ]
+}

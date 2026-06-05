@@ -45,14 +45,14 @@ namespace VRC.Misc
     public class TimeHandler_167B
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAFBBC9B00
-        public void MoveNext_ECBE8827A2E3(){} // RVA: 0x7FFAFBBC9F20
-        public void MoveNext_09E950B48439(){} // RVA: 0x7FFAFBBCA370
-        public void MoveNext_7E547AD2B261(){} // RVA: 0x7FFAFBBCA3B0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAFBBCB710
         public void GetTimeAsDouble(){} // RVA: 0x7FFAFBBCBE20
         // ── Unresolved (hash) ──
+        public void m_797(){} // RVA: 0x7FFAFBBC9B00
+        public void m_ECB(){} // RVA: 0x7FFAFBBC9F20
+        public void m_09E(){} // RVA: 0x7FFAFBBCA370
+        public void m_7E5(){} // RVA: 0x7FFAFBBCA3B0
         public void m_281(){} // RVA: 0x7FFAFBBCA6B0
         public void m_C55(){} // RVA: 0x7FFAFBBCAAC0
         public void m_6F6(){} // RVA: 0x7FFAFBBCAEE0
@@ -115,22 +115,22 @@ namespace VRC.Misc
     public class TimeHandler_2D6E
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAF45CBE50
-        public void ToString(){} // RVA: 0x7FFAF45CC020
-        public void Equals_9B7B43420BAF(){} // RVA: 0x7FFAF45CC170
         public void GetRealtimeSinceStartup(){} // RVA: 0x7FFAF45CD240
         public void GetResult(){} // RVA: 0x7FFAF45CD490
         public void OnDestroy(){} // RVA: 0x7FFAF45CD710
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF45CD9A0
-        public void GetHashCode(){} // RVA: 0x7FFAF45CDB70
         public void Start(){} // RVA: 0x7FFAF45CEC40
         // ── Unresolved (hash) ──
         public void m_CCE(){} // RVA: 0x7FFAF45CBBF0
         public void m_5B9(){} // RVA: 0x7FFAF45CBC00
         public void m_4CE(){} // RVA: 0x7FFAF45CBC10
+        public void m_6FA(){} // RVA: 0x7FFAF45CBE50
+        public void m_8F6(){} // RVA: 0x7FFAF45CC020
+        public void m_9B7(){} // RVA: 0x7FFAF45CC170
         public void m_6C9(){} // RVA: 0x7FFAF45CD990
         public void m_3D3(){} // RVA: 0x7FFAF45C67A0
+        public void m_705(){} // RVA: 0x7FFAF45CDB70
     }
 
     /// <summary>Originally: ÎÌÎÌÎÎÍÌÏÏÌÏÏÍÍÍÏÎÏÍÎÎÍ</summary>
@@ -196,25 +196,26 @@ namespace VRC.Misc
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF42B5150
-        public void GetHashCode(){} // RVA: 0x7FFAF42B5380
-        public void GetHashCode_4420EFCC105C(){} // RVA: 0x7FFAF42B55B0
-        public void GetHashCode_6AE0EA845759(){} // RVA: 0x7FFAF42B57E0
-        public void GetHashCode_AD9549491373(){} // RVA: 0x7FFAF42B5A10
         public void OnEnable(){} // RVA: 0x7FFAF42B5A20
         public void OnDisable(){} // RVA: 0x7FFAF42B5A30
+        // ── Unresolved (hash) ──
+        public void m_C1E(){} // RVA: 0x7FFAF42B5380
+        public void m_442(){} // RVA: 0x7FFAF42B55B0
+        public void m_6AE(){} // RVA: 0x7FFAF42B57E0
+        public void m_AD9(){} // RVA: 0x7FFAF42B5A10
     }
 
     /// <summary>Originally: ÏÏÍÌÌÏÎÍÎÏÍÌÎÏÎÎÍÌÍÎÌÏÍ</summary>
     public class TimeHandler_8213
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x7FFAF42BC4A0
         public void GetUnscaledDeltaTime(){} // RVA: 0x7FFAF42BCD20
         public void GetUnscaledDeltaTime_408FE72D8C0F(){} // RVA: 0x7FFAF42BD160
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF42BD5A0
         // ── Unresolved (hash) ──
         public void m_CDC(){} // RVA: 0x7FFAF42BC060
+        public void m_34C(){} // RVA: 0x7FFAF42BC4A0
         public void m_464(){} // RVA: 0x7FFAF42BC8E0
         public void m_63D(){} // RVA: 0x7FFAF42BD600
         public void m_FCC(){} // RVA: 0x7FFAF42BD660

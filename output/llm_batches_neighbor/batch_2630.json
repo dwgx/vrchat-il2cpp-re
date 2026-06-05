@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "ApplicationSystemInfoHandler_C1B1",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "GetTimeSinceLevelLoad",
+    ".ctor",
+    ".ctor",
+    ".ctor",
+    "Initialize",
+    "GetDeviceUniqueIdentifier"
+  ],
+  "hash_methods": [
+    "m_005",
+    "m_51A",
+    "m_BF7",
+    "m_887",
+    "m_ACA",
+    "m_141",
+    "m_1D4",
+    "m_A13",
+    "m_EA2",
+    "m_652"
+  ]
+}

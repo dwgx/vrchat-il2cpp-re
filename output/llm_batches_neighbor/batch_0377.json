@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "SetupTaskParametersEnabled",
+    "GetInstanceID",
+    "GetWrapModeV",
+    ".ctor",
+    "UpdateFindObjectsDestroy",
+    "Equals_C9F72092B552"
+  ],
+  "hash_methods": [
+    "m_9A5",
+    "m_440"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_930A",
+  "parent": "",
+  "named_methods": [
+    "FromIl2CppType",
+    "GetMethodFromNameFlags",
+    "GetMethods",
+    "GetProperties",
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    "IsAssignableFrom"
+  ],
+  "hash_methods": [
+    "m_0D7",
+    "m_1C2",
+    "m_2F0",
+    "m_A6E",
+    "m_683",
+    "m_933",
+    "m_EAA",
+    "m_DD3",
+    "m_F27"
+  ]
+}

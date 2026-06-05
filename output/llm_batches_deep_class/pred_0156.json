@@ -1,0 +1,19 @@
+{
+ "UIScroll_0704::m_711": "EnsureHashTableCapacity",
+ "UIScroll_0704::m_7F8": "InitializeHashTable",
+ "UIScroll_0704::m_945": "InitializeIl2CppMetadata",
+ "UIScroll_0704::m_992": "DecompressMetaBlockFast",
+ "UIScroll_0704::m_9F4": "DecompressMetaBlockFast",
+ "UIScroll_0704::m_B21": "FindStringHashTableEntry",
+ "UIScroll_0704::m_B29": "InsertPointerTypeCacheEntry",
+ "UIScroll_0704::m_B54": "DecodeBlockTypeAndLength",
+ "UIScroll_0704::m_B73": "GetOrCreatePointerClass",
+ "UIScroll_0704::m_BA9": "DecompressMetaBlock",
+ "UIScroll_0704::m_D19": "InitializeIl2CppMetadata",
+ "UIScroll_0704::m_D28": "GetOrCreateGenericParameterClass",
+ "UIScroll_0704::m_D5B": "DecompressMetaBlockFast",
+ "UIScroll_0704::m_D97": "EnsureHashTableCapacity",
+ "UIScroll_0704::m_DDA": "GetOrCreateGenericParameterClass",
+ "UIScroll_0704::m_E71": "GetClassFromIl2CppType",
+ "UIScroll_0704::m_ED4": "InitializeIl2CppMetadata"
+}

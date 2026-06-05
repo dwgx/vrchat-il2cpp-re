@@ -1,0 +1,8 @@
+{
+  "m_A9C": "IsNativeObjectAlive",
+  "m_9AA": "OpImplicit",
+  "m_5E7": "GetComponentTransform",
+  "m_D49": "GetName",
+  "m_840": "IsNativeObjectAlivePredicate",
+  "m_55F": "GetInstanceID"
+}

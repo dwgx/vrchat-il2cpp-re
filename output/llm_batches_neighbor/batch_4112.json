@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "ComplexComponent_8C61SiblingSiSibling_4861",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    ".ctor",
+    "Initialize",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "Awake",
+    "Start",
+    "OnTriggerExit",
+    "FixedUpdate",
+    "Update",
+    "ReadAnimatorState"
+  ],
+  "hash_methods": [
+    "m_2D1",
+    "m_3A1",
+    "m_C41",
+    "m_7AA"
+  ]
+}

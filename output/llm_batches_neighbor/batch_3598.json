@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_16D0",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetRuntimeClassName"
+  ],
+  "hash_methods": [
+    "m_CE0"
+  ]
+}

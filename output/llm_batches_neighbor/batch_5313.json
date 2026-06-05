@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_A13C",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext",
+    "TryGetSourceCount",
+    "GetEnumeratorCurrent"
+  ],
+  "hash_methods": [
+    "m_288",
+    "m_4E8",
+    "m_E82",
+    "m_06D",
+    "m_440",
+    "m_4D8"
+  ]
+}

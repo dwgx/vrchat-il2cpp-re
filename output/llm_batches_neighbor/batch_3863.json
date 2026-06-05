@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSiblinRelated_B113",
+  "parent": "",
+  "named_methods": [
+    "OverlapCircleArray",
+    ".ctor",
+    "OverlapCircleArray_9436304ECBFF",
+    "Equals",
+    "GetHashCode",
+    "CapsuleCastNonAlloc",
+    "InternalSphereCastNonAllocInjected",
+    "OverlapSphereNonAlloc",
+    "BoxCastNonAlloc"
+  ],
+  "hash_methods": [
+    "m_B81",
+    "m_61E",
+    "m_0E9",
+    "m_052",
+    "m_052",
+    "m_08A"
+  ]
+}

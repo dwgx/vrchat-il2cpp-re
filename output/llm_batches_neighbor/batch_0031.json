@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "get_name",
+    "GetHashCode",
+    ".cctor",
+    "ResolveComponentTransform",
+    "GetHashCode_A85B085227A4",
+    ".ctor",
+    "Initialize",
+    "IsNativeObjectAlive"
+  ],
+  "hash_methods": [
+    "m_A7D"
+  ]
+}

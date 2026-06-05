@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "ReflectionProbeRenderingHandler_5970",
+  "parent": "",
+  "named_methods": [
+    "SetRealtimeTexture",
+    "OnDestroy",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "get_Instance"
+  ],
+  "hash_methods": [
+    "m_65B",
+    "m_D9D",
+    "m_C58",
+    "m_0A7",
+    "m_E02",
+    "m_038",
+    "m_321",
+    "m_62B",
+    "m_DD7",
+    "m_61B"
+  ]
+}

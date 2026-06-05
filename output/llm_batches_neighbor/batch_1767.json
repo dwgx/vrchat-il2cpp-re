@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_8A5E",
+  "parent": "",
+  "named_methods": [
+    "GetLocalPosition",
+    "SetLocalPosition",
+    "GetLocalPosition_A68EEB9F37DE",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_239",
+    "m_478",
+    "m_570",
+    "m_BA1",
+    "m_4D0",
+    "m_8A8",
+    "m_4B0"
+  ]
+}

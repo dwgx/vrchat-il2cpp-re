@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSiblingSSibling_6CB6",
+  "parent": "",
+  "named_methods": [
+    "InitializeDictionaryBuckets",
+    "InitializeDictionaryStorage",
+    ".ctor",
+    "Initialize",
+    "InitializeDictionaryStorage_5929DE46BE56",
+    "InitializeDictionaryStorage_0E7124332106",
+    "ConstructDictionaryWithCapacityComparer",
+    "InitializeDictionaryStorage_37338D2847D9",
+    "CopyTo",
+    "ConstructWithCapacityAndComparer",
+    "InitializeDictionaryStorage_1187A999384C",
+    "InitializeDictionaryBuckets_A85E3366D41B",
+    "InitializeDictionaryBuckets_FCF657FA6C85",
+    "ConstructWithCapacityAndComparer_2D2846D9A7F8",
+    "ConstructWithCapacityAndComparer_3CD6B3DF31EC",
+    "ConstructWithCapacityAndComparer_71E84FA31FD9",
+    "Awake",
+    "OnDestroy",
+    "ConstructWithCapacityAndComparer_348A9E5260E2",
+    "InitializeDictionaryStorage_22BBC1F0700D",
+    "InitializeDictionaryBuckets_9138D4E083A3",
+    "InitializeDictionaryStorage_3E81508912DE",
+    "InitializeDictionaryStorage_01868FB1F825"
+  ],
+  "hash_methods": [
+    "m_290",
+    "m_DCA"
+  ]
+}

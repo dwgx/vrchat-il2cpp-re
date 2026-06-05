@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "LightingHandler_8E20",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "ToString_C7E95E56F1CC",
+    "Equals",
+    "ToString_224440D0A9F9",
+    ".ctor",
+    "Initialize",
+    "GetLayerShadowCullDistances",
+    "ToString_658CFB53AE90",
+    "GetLightShadowCasterMode",
+    "GetRange",
+    "CompareTo",
+    "GetShadowNearPlane",
+    "Equals_4E44C01F2870",
+    "Equals_3BE870F037EC",
+    "GetType"
+  ],
+  "hash_methods": [
+    "m_542",
+    "m_B06",
+    "m_F2E"
+  ]
+}

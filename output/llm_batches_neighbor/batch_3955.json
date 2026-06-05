@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "RectTransformDimensionsCh_E817",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnRectTransformDimensionsChange"
+  ],
+  "hash_methods": [
+    "m_3E7",
+    "m_EB9",
+    "m_7FF",
+    "m_F9B",
+    "m_D60",
+    "m_79D",
+    "m_E8B"
+  ]
+}

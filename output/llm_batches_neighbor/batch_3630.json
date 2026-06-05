@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "GizmosDebugAnimationHandler_73A3",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ResizeIntBuffer",
+    "SetColor",
+    "GetIsHuman"
+  ],
+  "hash_methods": [
+    "m_3BA",
+    "m_8E3",
+    "m_AE6"
+  ]
+}

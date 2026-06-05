@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "AnimationAudioHandler_D1B8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SetCustomCurveHelper"
+  ],
+  "hash_methods": [
+    "m_3B3",
+    "m_38C",
+    "m_3B5",
+    "m_6C4",
+    "m_3F8",
+    "m_61A",
+    "m_7F0",
+    "m_104"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformPhysicsHandler_31C1",
+  "parent": "",
+  "named_methods": [
+    "SetCenter",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_40F",
+    "m_4F1",
+    "m_6A9",
+    "m_372",
+    "m_4F1",
+    "m_E1E",
+    "m_50C",
+    "m_C30"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeSiblingSibling_35C2",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "Constructor",
+    "Update",
+    "CancelInvoke",
+    "OnEnable_2B4F45D701AE",
+    ".ctor_F5D8351B397B",
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "SetAmbisonicParameters",
+    "ProcessAmbisonics"
+  ],
+  "hash_methods": [
+    "m_F9F",
+    "m_C2F",
+    "m_21B"
+  ]
+}

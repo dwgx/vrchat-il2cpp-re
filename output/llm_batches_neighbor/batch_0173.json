@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "CompareBaseObjects",
+    "get_name",
+    "GetStaticQwordByIndex",
+    "Equals_E32D61CCFC60",
+    "ToString",
+    "Equals_8F83C9AACDDA",
+    "Instantiate",
+    "get_name_3382AF7E1A3E",
+    "Computemain",
+    ".cctor",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_ED3",
+    "m_5C2",
+    "m_95B",
+    "m_93C",
+    "m_EAE",
+    "m_A6A",
+    "m_111",
+    "m_CC6",
+    "m_433",
+    "m_D61"
+  ]
+}

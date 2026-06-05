@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_FD25",
+  "parent": "",
+  "named_methods": [
+    "GetMaterialRenderer",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_06D",
+    "m_EC8",
+    "m_124",
+    "m_752",
+    "m_E82",
+    "m_4E8"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_7E1C",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetHashCode_FFCF2FFC7377",
+    "GetHashCode_C891049DECAF",
+    "ToString",
+    "GetHashCode_B847BC9821CB",
+    "Equals",
+    ".cctor",
+    "ToString_5B69B0E73521",
+    "Equals_ADF82D29E4F8",
+    "Equals_C565E24CE14F",
+    "ToString_48051ABDECC0",
+    "GetHashCode",
+    "Equals_ED0BA99F28B2",
+    "ToString_AFD86FF3F3CE"
+  ],
+  "hash_methods": [
+    "m_08B"
+  ]
+}

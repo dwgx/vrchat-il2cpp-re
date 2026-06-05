@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetGameObject_805",
+    "Instantiate",
+    "CheckRenderTexture",
+    "Equals_54D2DF5E31C0",
+    ".cctor",
+    "GetLastServiceDescriptor",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_DBF",
+    "m_E20"
+  ]
+}

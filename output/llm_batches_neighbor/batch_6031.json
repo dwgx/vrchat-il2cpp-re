@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_F697",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "SetStateMachine",
+    "InternalEquals",
+    "GetRealtimeSinceStartup"
+  ],
+  "hash_methods": [
+    "m_752",
+    "m_4E8",
+    "m_4D8",
+    "m_7F6"
+  ]
+}

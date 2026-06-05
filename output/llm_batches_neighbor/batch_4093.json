@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_B705",
+  "parent": "",
+  "named_methods": [
+    "ParseWidthArgumentIndex",
+    "ParsePrecisionArgumentIndex",
+    "ParsePositionalArgumentIndex",
+    "ParsePositionalArgumentIndex_EEEFF269E718",
+    "RegisterCurrentArgumentSlot",
+    "RegisterCurrentArgumentSlot_2F048217F2F1",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_F2B"
+  ]
+}

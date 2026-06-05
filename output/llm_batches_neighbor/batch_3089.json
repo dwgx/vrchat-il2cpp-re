@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_C32E",
+  "parent": "",
+  "named_methods": [
+    "GetEnumerator",
+    "GetEnumerator_F72A74058861",
+    "GetEnumerator_E0001CD8CE9E",
+    "SetLocalRotation",
+    ".ctor",
+    "Initialize",
+    "GetChild"
+  ],
+  "hash_methods": [
+    "m_F66",
+    "m_628",
+    "m_2B2",
+    "m_3C3"
+  ]
+}

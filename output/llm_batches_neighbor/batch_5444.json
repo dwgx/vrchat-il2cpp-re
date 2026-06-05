@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "TransformLineRenderingHandler_EBCE",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "Dispose",
+    "Cleanup",
+    "SetSiblingIndex",
+    "CalculateQuaternionAngle"
+  ],
+  "hash_methods": [
+    "m_736",
+    "m_C5E",
+    "m_4BC",
+    "m_CC6",
+    "m_FED",
+    "m_8FF",
+    "m_72C",
+    "m_5A5"
+  ]
+}

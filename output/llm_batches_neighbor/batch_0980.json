@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSRelated_8D36",
+  "parent": "",
+  "named_methods": [
+    "Update_3CB451386F3C",
+    "RaiseCancellation",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "Start_C9ED83B2DF2E",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_040"
+  ]
+}

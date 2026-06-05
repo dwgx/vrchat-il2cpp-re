@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "ApplicationComponentHandler_2CCC",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_B59",
+    "m_EEF",
+    "m_5B8",
+    "m_3FD",
+    "m_28B",
+    "m_40A",
+    "m_FE9",
+    "m_4E0",
+    "m_690",
+    "m_2BC"
+  ]
+}

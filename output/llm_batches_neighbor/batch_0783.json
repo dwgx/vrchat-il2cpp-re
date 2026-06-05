@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_8FC5",
+  "parent": "",
+  "named_methods": [
+    "Insert",
+    "MoveNext",
+    "ProcessTransform",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_7F6",
+    "m_63A",
+    "m_440",
+    "m_0A8"
+  ]
+}

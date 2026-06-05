@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_7015",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    "GetHashCode_77960FB9D2E8",
+    "GetHashCode_BF49BDF5B918"
+  ],
+  "hash_methods": [
+    "m_036",
+    "m_300",
+    "m_AFE",
+    "m_52A",
+    "m_163",
+    "m_947"
+  ]
+}

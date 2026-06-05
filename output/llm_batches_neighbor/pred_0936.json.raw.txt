@@ -1,0 +1,1 @@
+{"m_BA2":"HasFontAssetChanged","m_18D":"SubTextObjects","m_01E":"PreviousLossyScaleY","m_F8E":"RectTransformCorners","m_E3A":"CanvasRenderer","m_277":"Canvas","m_3F4":"IsFirstAllocation","m_D91":"MaxCharacters","m_A72":"BaseMaterial"}

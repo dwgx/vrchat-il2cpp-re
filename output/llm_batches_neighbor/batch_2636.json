@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "AnimationAnimatorOverrideControllerHandler_C155",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "ToString",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "GetName"
+  ],
+  "hash_methods": [
+    "m_35D",
+    "m_00B",
+    "m_C9E",
+    "m_E28",
+    "m_87F",
+    "m_A53",
+    "m_6D4",
+    "m_AF0"
+  ]
+}

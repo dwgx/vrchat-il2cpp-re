@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_9D1C",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    ".ctor",
+    "Initialize",
+    "Sort",
+    "AsArray",
+    "RemoveAtSwapBack",
+    "SetLength",
+    "DisposeWithJobHandle",
+    "RemoveAt",
+    "GetHashCode",
+    "RemoveAt_FFCF2FFC7377",
+    "ResizeUninitialized",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_FE4",
+    "m_C56",
+    "m_08B"
+  ]
+}

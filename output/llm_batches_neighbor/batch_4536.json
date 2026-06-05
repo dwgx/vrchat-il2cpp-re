@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "CameraTimeHandler_1097",
+  "parent": "",
+  "named_methods": [
+    "FindLastIndex",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_985",
+    "m_338",
+    "m_E79",
+    "m_EE5"
+  ]
+}

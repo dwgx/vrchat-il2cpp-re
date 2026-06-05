@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_496C",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext",
+    "ReadTimeProperties",
+    "ConnectDeleteDeviceId"
+  ],
+  "hash_methods": [
+    "m_4E8",
+    "m_752",
+    "m_440",
+    "m_0A8"
+  ]
+}

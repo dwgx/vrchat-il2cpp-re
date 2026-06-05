@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_933A",
+  "parent": "",
+  "named_methods": [
+    "GetRealtimeSinceStartup",
+    "GetRealtimeSinceStartup_5EC5C02209DA",
+    "MoveNext",
+    "MoveNext_4A4DA9D34F17",
+    "MoveNext_76BDD5E2A463",
+    "MoveNext_35281EDE60E1",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_BFE",
+    "m_5D4",
+    "m_68C",
+    "m_FAF",
+    "m_92E",
+    "m_236",
+    "m_AAC",
+    "m_0C8",
+    "m_0AB"
+  ]
+}

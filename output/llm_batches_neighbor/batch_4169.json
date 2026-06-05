@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "ParticleHandler_7182",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_276",
+    "m_86A",
+    "m_64D",
+    "m_8AD",
+    "m_E66",
+    "m_0A0",
+    "m_AB3",
+    "m_3A3",
+    "m_C47",
+    "m_9CA"
+  ]
+}

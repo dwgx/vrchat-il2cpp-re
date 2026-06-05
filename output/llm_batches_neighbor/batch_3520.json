@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "ComponentGizmosDebugHandler_1B92",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "Equals",
+    "ToString_1D83DFDEC889",
+    "ReadComponentProperties",
+    "Equals_EB7F3923E8A1",
+    ".ctor",
+    "Initialize",
+    "Equals_D2101A65FD70",
+    "ToString_8E331489BB0C"
+  ],
+  "hash_methods": [
+    "m_F73"
+  ]
+}

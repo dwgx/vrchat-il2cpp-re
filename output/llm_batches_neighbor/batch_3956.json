@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "CloneSiblingSiblingSibling_EA37",
+  "parent": "",
+  "named_methods": [
+    "ReadComponentState",
+    "ReadComponentState_65C41FB89F79",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_637",
+    "m_628",
+    "m_52F",
+    "m_A3D",
+    "m_70E",
+    "m_854",
+    "m_9CD",
+    "m_9CD",
+    "m_9CD",
+    "m_9CD"
+  ]
+}

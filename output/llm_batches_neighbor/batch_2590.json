@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_4826",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "GetMaterial",
+    "GetMaterial_EEEFF269E718"
+  ],
+  "hash_methods": [
+    "m_410",
+    "m_6F8",
+    "m_C01",
+    "m_2F0"
+  ]
+}

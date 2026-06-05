@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "SearchParametersSiblingSibling_41CA",
+  "parent": "",
+  "named_methods": [
+    "InvokeMulticastDelegates",
+    "GetReactionTorque",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_3AB",
+    "m_1E0",
+    "m_A14",
+    "m_90A",
+    "m_2CD",
+    "m_7E2"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "VRC.RemoteLogging",
+  "class": "VRCSentryBuildTimeConfiguration",
+  "parent": "",
+  "named_methods": [
+    "ProcessCollider",
+    "ConfigureSentryOptions",
+    "ConfigureSentryOptionsVariant",
+    "ApplySettings",
+    "Configure",
+    ".ctor_E667FE2D1036",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A88",
+    "m_3B9"
+  ]
+}

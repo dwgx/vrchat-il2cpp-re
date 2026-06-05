@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "MeshHandler_7491",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetVertexCount",
+    "OnEnable",
+    "GetVertexAttributesList",
+    "GetCanAccess",
+    "get_Task",
+    "AwaitOnCompleted",
+    "AwaitUnsafeOnCompleted",
+    "OnDisable",
+    "OnDestroy",
+    "SetResult",
+    "Start",
+    "SetResult_40FF19BC5795",
+    "get_Task_30EB4F736324"
+  ],
+  "hash_methods": [
+    "m_BF2",
+    "m_457",
+    "m_1C8",
+    "m_FA3",
+    "m_A8A",
+    "m_7B0",
+    "m_BD1",
+    "m_AF5",
+    "m_B0F",
+    "m_6F5"
+  ]
+}

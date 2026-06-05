@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PhysicsHingeJoint2DHandler_3F42",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Constructor",
+    "Awake",
+    "GetBreakAction",
+    "Start",
+    "GetConnectedBody",
+    "GetJointAngle",
+    "Constructor_78D933BDC250",
+    "GetJointSpeed",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_00E"
+  ]
+}

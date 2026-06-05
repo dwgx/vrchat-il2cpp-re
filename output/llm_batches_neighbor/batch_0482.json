@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "SystemController",
+  "parent": "",
+  "named_methods": [
+    "BackPressed",
+    "CreateInstance",
+    "Equals",
+    "CreateScriptableObject",
+    "CreateScriptableObjectInstanceFromType",
+    "GetHashCode",
+    "ToString",
+    "GetGameObject_E1B",
+    ".ctor_6E2EED3C818E",
+    "Initialize",
+    "GetGameObject_EAA",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_134",
+    "m_9E8"
+  ]
+}

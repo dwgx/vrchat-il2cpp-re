@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_C41C",
+  "parent": "",
+  "named_methods": [
+    "ConfigureCamera",
+    "Equals",
+    "MoveNext",
+    "Equals_1244533621D8",
+    "GetHashCode",
+    "Equals_D5102AB0CB9C",
+    "GetHashCode_63A097DDAF15",
+    "GetHashCode_E821C8485FEA",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_EC8"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static24m_FF5C",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "Awake",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_53C",
+    "m_214",
+    "m_338",
+    "m_2B2",
+    "m_AF5",
+    "m_5B4",
+    "m_CF7"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "ProfiledHandler_51A2",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "ToStringEnd",
+    "GetHashCode",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "Equals_6BC830AB4B7E"
+  ],
+  "hash_methods": [
+    "m_89A",
+    "m_128",
+    "m_9D7",
+    "m_A95"
+  ]
+}

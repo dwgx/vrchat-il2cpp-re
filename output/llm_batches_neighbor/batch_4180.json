@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "MaterialTransformHandler_31A9",
+  "parent": "",
+  "named_methods": [
+    "Constructor",
+    "GetRect",
+    "GetRect_7CA63C88E9C0",
+    "GetRect_B8B3322197DE",
+    "MoveNext",
+    "GetRect_72F1700E9352",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "MoveNext_4A8F11C62DC6",
+    "Start",
+    "GetRect_244DE9BF0C98",
+    "SetFloatImpl"
+  ],
+  "hash_methods": [
+    "m_DF9",
+    "m_5A2",
+    "m_CE1",
+    "m_41F",
+    "m_147",
+    "m_B71",
+    "m_91E",
+    "m_A42",
+    "m_0B4",
+    "m_CA7"
+  ]
+}

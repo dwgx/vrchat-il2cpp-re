@@ -1,0 +1,9 @@
+{
+  "m_B20": "GetInstanceID",
+  "m_39B": "GetHashCode",
+  "m_B8C": "Equals",
+  "m_B04": "OpImplicit",
+  "m_BDE": "CompareBaseObjects",
+  "m_408": "IsNativeObjectAlive",
+  "m_D58": "OpEquality"
+}

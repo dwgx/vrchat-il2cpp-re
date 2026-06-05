@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "CacheImageUrl",
+    "CreateFindObjectsDestroy",
+    "SetAnchoredPosition",
+    "Equals",
+    "GetGameObject",
+    "op_Implicit",
+    "ProcessCamera",
+    "GetHashCode",
+    "SetJointConnectedBody",
+    "op_Equality",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_403",
+    "m_DD8",
+    "m_234"
+  ]
+}

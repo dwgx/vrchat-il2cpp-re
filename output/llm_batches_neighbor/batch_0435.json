@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c__4`3",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_CA0",
+    "m_178",
+    "m_DD4",
+    "m_509",
+    "m_F7F",
+    "m_7CE",
+    "m_C7A",
+    "m_838"
+  ]
+}

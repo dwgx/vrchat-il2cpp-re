@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c__31`1",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    ".cctor_2BE82DFEF782",
+    ".ctor_29DC90A1923E",
+    "Initialize",
+    "CompareBaseObjects",
+    ".ctor",
+    ".cctor",
+    "get_name",
+    "set_name"
+  ],
+  "hash_methods": [
+    "m_FEC",
+    "m_6F9"
+  ]
+}

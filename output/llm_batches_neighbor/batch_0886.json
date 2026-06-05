@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "FocusInvisibleComponent_733F",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "Awake",
+    "OnTriggerEnter",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_D2F"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_0893",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "Sort",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_015",
+    "m_DB9",
+    "m_EC8",
+    "m_4D8",
+    "m_D51",
+    "m_4E8",
+    "m_124"
+  ]
+}

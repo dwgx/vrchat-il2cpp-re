@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_9C7A",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext",
+    "ProcessGizmos",
+    "ToString",
+    "ToString_1244533621D8"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_EC8",
+    "m_4E8",
+    "m_4D8",
+    "m_06D"
+  ]
+}

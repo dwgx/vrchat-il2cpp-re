@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ReadGridCellGap",
+    "Internal_InstantiateSingleWithParent",
+    "get_name_1B52DDB67D74",
+    "GetCachedPtr",
+    ".ctor_AC9922EB63CE",
+    ".cctor",
+    ".ctor",
+    "Instantiate_7CC3664E3695",
+    "GetComponentTransform"
+  ],
+  "hash_methods": [
+    "m_E76",
+    "m_6D7",
+    "m_25B",
+    "m_768",
+    "m_569"
+  ]
+}

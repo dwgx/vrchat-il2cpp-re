@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySibling_5372",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "Awake",
+    ".ctor",
+    "OnDisable",
+    "Update",
+    "GetAvatar",
+    "SwapIfGreater",
+    "SwapIfGreater_A914C4C1D3ED"
+  ],
+  "hash_methods": [
+    "m_709",
+    "m_108",
+    "m_5E9",
+    "m_AA4",
+    "m_C3D",
+    "m_01B",
+    "m_BE2",
+    "m_25C",
+    "m_E3F",
+    "m_320"
+  ]
+}

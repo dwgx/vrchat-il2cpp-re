@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Matrix4x4Handler_D3B9",
+  "parent": "",
+  "named_methods": [
+    "GetMatrix4x4",
+    "ProcessMatrix4x4",
+    "SetMatrix4x4",
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_5BB",
+    "m_479",
+    "m_972",
+    "m_6DF",
+    "m_C8F",
+    "m_FFA",
+    "m_BAB",
+    "m_7A0",
+    "m_E0C"
+  ]
+}

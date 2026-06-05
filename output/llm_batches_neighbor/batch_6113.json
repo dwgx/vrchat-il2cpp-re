@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_DF66",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "OnEnable",
+    "OnDisable",
+    "OnPointerExit",
+    ".ctor",
+    "Initialize",
+    "OnPointerEnter"
+  ],
+  "hash_methods": [
+    "m_8B7",
+    "m_663",
+    "m_953"
+  ]
+}

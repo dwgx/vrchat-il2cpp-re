@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "zero_1720",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_05E",
+    "m_F31",
+    "m_05E",
+    "m_EFD",
+    "m_2E8",
+    "m_D01",
+    "m_0AA",
+    "m_1FC",
+    "m_965",
+    "m_BF8"
+  ]
+}

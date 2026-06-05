@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_3E87",
+  "parent": "",
+  "named_methods": [
+    "Fmod",
+    "Fmodf",
+    "Dispose",
+    "Cleanup",
+    "Fmodf_51FBC0D981AD",
+    "Fmodf_24F8FB692E5A",
+    "Logf",
+    "Logf_016CB637BE71",
+    "Logf_C0175E97133A"
+  ],
+  "hash_methods": [
+    "m_CF3"
+  ]
+}

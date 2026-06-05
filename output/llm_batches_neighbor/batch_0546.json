@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Static16m_4074",
+  "parent": "",
+  "named_methods": [
+    "SetActiveGameObject",
+    "Reset",
+    "OnDestroy",
+    "Awake",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_F01",
+    "m_99C",
+    "m_7B4",
+    "m_A0F",
+    "m_CF1",
+    "m_963",
+    "m_D50",
+    "m_4BA",
+    "m_C51",
+    "m_CB3"
+  ]
+}

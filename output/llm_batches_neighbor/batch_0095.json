@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name_1237140DB784",
+    "get_name_1237140DB784",
+    "get_name",
+    "SetToggleStateAndRefresh",
+    ".ctor",
+    ".cctor",
+    "Instantiate"
+  ],
+  "hash_methods": [
+    "m_A27",
+    "m_254",
+    "m_336",
+    "m_9CD",
+    "m_356",
+    "m_AEE"
+  ]
+}

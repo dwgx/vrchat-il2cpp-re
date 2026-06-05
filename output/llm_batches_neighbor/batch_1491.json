@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "ReapObject_BFB1",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "ProcessGameObject",
+    "Awake",
+    "ReapObject",
+    "ProcessGameObject_C06DCCA5814A",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_46D",
+    "m_F12",
+    "m_859",
+    "m_32B",
+    "m_3C3"
+  ]
+}

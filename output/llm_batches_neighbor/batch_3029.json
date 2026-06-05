@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_F2D8",
+  "parent": "",
+  "named_methods": [
+    "TryWriteUInt32LittleEndian",
+    "OnEnable",
+    "Equals",
+    "ReadUInt32LittleEndian",
+    "OnDestroy",
+    "ConstructQuaternionHandler",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "Equals_FF1E5C0E4B00",
+    "Equals_9840BF2F3CF7",
+    "ConfigureTransform"
+  ],
+  "hash_methods": [
+    "m_31E",
+    "m_366",
+    "m_5D4",
+    "m_55B",
+    "m_0BA"
+  ]
+}

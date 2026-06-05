@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Clone_5B8D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    "Clone"
+  ],
+  "hash_methods": [
+    "m_87D",
+    "m_089",
+    "m_720",
+    "m_64E",
+    "m_DCF",
+    "m_58B"
+  ]
+}

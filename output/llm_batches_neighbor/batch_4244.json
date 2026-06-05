@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static17m_96F5",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_82E",
+    "m_EB2",
+    "m_097",
+    "m_5F1",
+    "m_89A",
+    "m_04E",
+    "m_004",
+    "m_1A8",
+    "m_11F",
+    "m_FA0"
+  ]
+}

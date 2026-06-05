@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_CBC4",
+  "parent": "",
+  "named_methods": [
+    "SteamSteamNetworkingIpAddr",
+    "Dispose",
+    "Cleanup",
+    "ShouldCompressData"
+  ],
+  "hash_methods": [
+    "m_F2B",
+    "m_410",
+    "m_6EA"
+  ]
+}

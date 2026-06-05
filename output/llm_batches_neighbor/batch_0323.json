@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "OnBecameInvisible",
+    ".ctor",
+    ".ctor_5AF63A2B6A69",
+    "ContainsChild_F32F20",
+    "Equals",
+    "CompareBaseObjects",
+    "set_name"
+  ],
+  "hash_methods": [
+    "m_A20",
+    "m_D9C",
+    "m_243",
+    "m_57C",
+    "m_39B"
+  ]
+}

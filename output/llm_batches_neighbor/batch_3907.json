@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_9797",
+  "parent": "",
+  "named_methods": [
+    "UpdateTransformComponentValues",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_BDA",
+    "m_7E9",
+    "m_993",
+    "m_29D",
+    "m_41E",
+    "m_393",
+    "m_391"
+  ]
+}

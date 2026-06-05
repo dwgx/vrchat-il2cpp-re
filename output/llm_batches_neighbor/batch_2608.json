@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static18m_FF84",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Start",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_476",
+    "m_AA1",
+    "m_DED",
+    "m_90B",
+    "m_C0E",
+    "m_2DE",
+    "m_66A",
+    "m_FA0",
+    "m_E00",
+    "m_98D"
+  ]
+}

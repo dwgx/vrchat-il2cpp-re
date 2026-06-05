@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetCachedPtr",
+    "GetInstanceID_3D31F2484DAE",
+    "Instantiate_7BB9C873DF7D",
+    ".cctor",
+    "FindObjectFromInstanceID",
+    "get_name_DB0036824CF4",
+    "set_name_DB0036824CF4",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A07",
+    "m_408"
+  ]
+}

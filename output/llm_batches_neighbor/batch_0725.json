@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_2778",
+  "parent": "",
+  "named_methods": [
+    "GetEnumerator",
+    "get_Current",
+    "Dispose",
+    "ContainsItem",
+    "MoveNext",
+    "System.Collections.IEnumerator.Reset",
+    "System.Collections.Generic.IEnumerable<PortMidi.MidiDeviceInfo>.GetEnumerator",
+    "System.Collections.IEnumerable.GetEnumerator",
+    "System.Collections.Generic.IEnumerator<PortMidi.MidiDeviceInfo>.get_Current",
+    "get_Current_4E7A80DC21BC",
+    ".ctor",
+    "System.Collections.IEnumerator.get_Current",
+    "System.IDisposable.Dispose"
+  ],
+  "hash_methods": [
+    "m_E82"
+  ]
+}

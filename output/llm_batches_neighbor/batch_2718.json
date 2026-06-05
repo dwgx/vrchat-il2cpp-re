@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_22D6",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "GetDeltaTime",
+    "GetDeltaTime_0A800636C3FA",
+    "GetDeltaTime_EC87777A0E0A",
+    "GetDeltaTime_7525F37D1DF1",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_7F6",
+    "m_4E8",
+    "m_440"
+  ]
+}

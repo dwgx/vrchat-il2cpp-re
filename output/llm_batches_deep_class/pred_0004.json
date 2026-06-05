@@ -1,0 +1,12 @@
+{
+ "TransformPhysicsSystem_923C::m_32A": "GetTime",
+ "TransformPhysicsSystem_923C::m_330": "GetTime",
+ "TransformPhysicsSystem_923C::m_347": "MarshalObjectMetadataPairToNative",
+ "TransformPhysicsSystem_923C::m_34C": "GetTime",
+ "TransformPhysicsSystem_923C::m_37B": "MarshalStringAndFreeCoTaskMem",
+ "TransformPhysicsSystem_923C::m_388": "MarshalCollisionRecordToNative",
+ "TransformPhysicsSystem_923C::m_38E": "GetTime",
+ "TransformPhysicsSystem_923C::m_391": "GetTime",
+ "TransformPhysicsSystem_923C::m_3A4": "InvokeTransformPhysicsCallbacks",
+ "TransformPhysicsSystem_923C::m_41E": "GetTime"
+}

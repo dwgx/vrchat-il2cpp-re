@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "SecurityaspectModeRelated_E63B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SetListAndValue",
+    "FindNodeByValue",
+    "Start",
+    "RemoveAllOccurrences"
+  ],
+  "hash_methods": [
+    "m_AD4",
+    "m_35E",
+    "m_AC9",
+    "m_16B",
+    "m_B3E",
+    "m_01D",
+    "m_4D8",
+    "m_A0F",
+    "m_6DE",
+    "m_9D4"
+  ]
+}

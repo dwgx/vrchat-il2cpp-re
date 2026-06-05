@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_F3F3",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext_01517EFCE392",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_124",
+    "m_4D8",
+    "m_7F6",
+    "m_CE3",
+    "m_DB9"
+  ]
+}

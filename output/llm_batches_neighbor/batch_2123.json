@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "RenderingUIHandler_42B5",
+  "parent": "",
+  "named_methods": [
+    "BuildGenericMethodConstructionFailureMessage",
+    ".ctor",
+    "Initialize",
+    "ResolveAA",
+    "RotateLeft"
+  ],
+  "hash_methods": [
+    "m_509",
+    "m_384",
+    "m_3C7",
+    "m_FD6"
+  ]
+}

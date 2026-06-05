@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "CreatePropertiesCreateContractSibling_E0F4",
+  "parent": "",
+  "named_methods": [
+    "ProcessCollision",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "Start",
+    "OnEnable",
+    "ProcessCollision_3855B8641274"
+  ],
+  "hash_methods": [
+    "m_95C",
+    "m_16A",
+    "m_3B4",
+    "m_259",
+    "m_80F",
+    "m_BEC",
+    "m_E66",
+    "m_187",
+    "m_43F",
+    "m_8D0"
+  ]
+}

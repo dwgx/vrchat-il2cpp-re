@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_5258",
+  "parent": "",
+  "named_methods": [
+    "GetComponentTransform",
+    ".ctor",
+    "Initialize",
+    "ProcessTransform"
+  ],
+  "hash_methods": [
+    "m_6D7",
+    "m_CF8",
+    "m_951",
+    "m_5EE",
+    "m_996"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "PointerEnter_4399",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "UnityEngine.EventSystems.IPointerMoveHandler.OnPointerMove",
+    "UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter",
+    "UnityEngine.EventSystems.IPointerExitHandler.OnPointerExit",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "LateUpdate"
+  ],
+  "hash_methods": [
+    "m_353",
+    "m_AC0",
+    "m_590",
+    "m_5D3",
+    "m_233",
+    "m_514",
+    "m_402",
+    "m_F23",
+    "m_96D",
+    "m_58C"
+  ]
+}

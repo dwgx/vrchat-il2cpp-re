@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_5EE9",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    "SetLocalRotation",
+    "GetHashCode_7C31D47F0B19",
+    "ToString",
+    "OrthoNormalize2"
+  ],
+  "hash_methods": [
+    "m_CFA",
+    "m_96B",
+    "m_D65"
+  ]
+}

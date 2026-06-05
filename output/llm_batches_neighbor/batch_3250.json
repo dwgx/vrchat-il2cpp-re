@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "TransformGameObjectHandler_AE64",
+  "parent": "",
+  "named_methods": [
+    "ConvertMultiByteToWideChar",
+    "ConvertMultiByteToWideChar_AACED8A665BD",
+    "CloseAllStreams",
+    "CloseAllStreams_D9D3C836A17E",
+    "ReallocateHeapMemory",
+    "ControlFloatingPoint",
+    "GetLocalScale",
+    "GetLocalScale_83436FAF1B5B",
+    "GetLocalScale_ECF98379E1A5",
+    "GetLocalScale_8263FD2A0E52",
+    "GetLocalScale_C2167F14638E",
+    "GetLocalScale_5B1C4D52441A",
+    ".ctor",
+    "Initialize",
+    "Sqrt",
+    "Sqrt_05F870848FDA"
+  ],
+  "hash_methods": [
+    "m_EA7",
+    "m_087",
+    "m_36B",
+    "m_6F0"
+  ]
+}

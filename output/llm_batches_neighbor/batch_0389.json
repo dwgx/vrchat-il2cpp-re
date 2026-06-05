@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "LifecycleForward2",
+    "get_name",
+    "SelectInstanceIDEquals",
+    ".cctor",
+    "GetCachedPtr",
+    "set_name",
+    "Equals",
+    "GetInstanceID"
+  ],
+  "hash_methods": [
+    "m_24D"
+  ]
+}

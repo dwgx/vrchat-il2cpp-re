@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiRelated_4EC4",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessGameObject",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_506",
+    "m_697"
+  ]
+}

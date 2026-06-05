@@ -1,0 +1,13 @@
+{
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_B23": "WriteFloatingPointToStream",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_B27": "DecodeBrotliCommandLoop",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_B2D": "ApplyDecodedTextureFrame",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_C1B": "DecodeVarLenUint8",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_CB6": "DecodeContextMap",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_D3E": "WriteIntegerToStream",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_D6E": "WriteIntegerToStream",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_D91": "DecodeContextMap",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_E4A": "GetNextFrameInfo",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_ED5": "GetCtypeFacet",
+ "AnimatedTextureBaseImpl_0682SiSibling_B5C2::m_F51": "WriteIntegerToStream"
+}

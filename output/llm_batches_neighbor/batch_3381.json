@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_4F19",
+  "parent": "",
+  "named_methods": [
+    "ToStringEnd_A7B9FF4C1B12",
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    "ToStringEnd_C15D67F0882C",
+    "ToStringEnd_A7B9FF4C1B12",
+    "ToString",
+    "ToString_938040D554CD",
+    "ToString_9DA8BB6801D8",
+    "ToString_B06E65DFE771"
+  ],
+  "hash_methods": [
+    "m_986",
+    "m_59E",
+    "m_EA5",
+    "m_E91",
+    "m_50D",
+    "m_9E0",
+    "m_78C",
+    "m_F45",
+    "m_E4A",
+    "m_5D7"
+  ]
+}

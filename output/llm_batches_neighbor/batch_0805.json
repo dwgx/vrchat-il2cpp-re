@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySibling_C96F",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "SetLocalPosition",
+    ".cctor",
+    "InvokeInterfaceMethod",
+    "Start",
+    "OnDestroy",
+    "GetReverseIndexedItem",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_700",
+    "m_E75",
+    "m_FCD",
+    "m_302",
+    "m_71D",
+    "m_CCD",
+    "m_2EF",
+    "m_515",
+    "m_9A8",
+    "m_70B"
+  ]
+}

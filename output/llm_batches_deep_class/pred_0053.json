@@ -1,0 +1,16 @@
+{
+ "TransformProfiledSystem_5268::m_429": "MarshalStringStructToManaged",
+ "TransformProfiledSystem_5268::m_434": "MarshalTransformProfileNativeToManaged",
+ "TransformProfiledSystem_5268::m_435": "MarshalTransformProfileManagedToNative",
+ "TransformProfiledSystem_5268::m_457": "MarshalMatrixBufferManagedToNative",
+ "TransformProfiledSystem_5268::m_46B": "MarshalFixedTransformArrayToNative",
+ "TransformProfiledSystem_5268::m_4D8": "Contains",
+ "TransformProfiledSystem_5268::m_57C": "MarshalFixedByteArrayToNative",
+ "TransformProfiledSystem_5268::m_5B4": "MarshalFixedArraysToManaged",
+ "TransformProfiledSystem_5268::m_605": "ConvertFloat3x4ToFloat4x4",
+ "TransformProfiledSystem_5268::m_625": "ConvertFloat4x4ToMatrix4x4",
+ "TransformProfiledSystem_5268::m_62F": "MarshalTransformProfileNativeToManaged",
+ "TransformProfiledSystem_5268::m_637": "MarshalFixedArraysToManaged",
+ "TransformProfiledSystem_5268::m_678": "MarshalTransformBufferNativeToManaged",
+ "TransformProfiledSystem_5268::m_6C9": "MarshalMatrixBufferNativeToManaged"
+}

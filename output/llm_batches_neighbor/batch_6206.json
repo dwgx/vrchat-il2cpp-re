@@ -1,0 +1,32 @@
+{
+  "namespace": "VRC.Audio.Voice",
+  "class": "VoicePriorityManager",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "GetExternFunctionParameterCount",
+    "GetComponentsInChildren",
+    "GetExternFunctionParameterCount_68C6F3540081",
+    "GetComponentsInChildren_3725B3EE4333",
+    "GetComponentsInChildren_4F13759EAE5B",
+    "GetExternFunctionParameterCount_14A959393C9B",
+    "GetMethods",
+    "Initialize",
+    "GetMethodsByName",
+    "GetMethodsByName_96EAD25C2F2E",
+    "GetComponentsInParent",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_5C4",
+    "m_7CB",
+    "m_4F4",
+    "m_861",
+    "m_A1D",
+    "m_ADD",
+    "m_F01",
+    "m_0F8",
+    "m_DB0",
+    "m_61B"
+  ]
+}

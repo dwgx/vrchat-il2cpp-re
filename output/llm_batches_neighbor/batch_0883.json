@@ -1,0 +1,41 @@
+{
+  "namespace": "",
+  "class": "ctorDerivedSibling_1F3A",
+  "parent": "",
+  "named_methods": [
+    "Equals_3FBAAAC528DA",
+    "Equals_65053C07BB28",
+    "GetHashCode",
+    "ConfigureBehaviourEnabled",
+    "GetMuscleDefaultMin",
+    "Equals_FDF9A111A17A",
+    ".cctor",
+    "ToString",
+    "ToString_852E3599EAE7",
+    "Equals_D8B6A49C243D",
+    "Equals_D942B2073188",
+    "GetMuscleName",
+    "ToString_3B498BEDDF68",
+    "Equals_B21C2ED5C938",
+    "Equals_3FBAAAC528DA",
+    "Equals_CB91E0BAFC71",
+    "ToString_D97CCE18F240",
+    ".ctor",
+    "Initialize",
+    "GetHashCode_21517C913F65",
+    "ToString_DA49FAD4A4B0",
+    "ToString_F05A12443844"
+  ],
+  "hash_methods": [
+    "m_410",
+    "m_8F7",
+    "m_1E6",
+    "m_1EC",
+    "m_35F",
+    "m_A66",
+    "m_74D",
+    "m_AE2",
+    "m_1D8",
+    "m_5BE"
+  ]
+}

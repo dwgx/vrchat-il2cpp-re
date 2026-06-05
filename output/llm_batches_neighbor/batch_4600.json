@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PoseLocalUpdateSiblingSibling_ADAF",
+  "parent": "",
+  "named_methods": [
+    "LastIndexOf",
+    "LateUpdate",
+    ".ctor",
+    "Initialize",
+    "IndexOf",
+    "LastIndexOf_EB5AEEEC5C65",
+    "IndexOf_005BF09B7C47",
+    "BinarySearch",
+    "BinarySearch_852E3599EAE7",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_7FD",
+    "m_FC3"
+  ]
+}

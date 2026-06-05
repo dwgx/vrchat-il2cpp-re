@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_104A",
+  "parent": "",
+  "named_methods": [
+    "ReadCanvasState",
+    "SwapIfGreaterWithItems",
+    "ConfigureAnimation",
+    "SetStateMachine",
+    "MoveNext",
+    "ResetEnumerator"
+  ],
+  "hash_methods": [
+    "m_440",
+    "m_E82"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_6E1F",
+  "parent": "",
+  "named_methods": [
+    "ProjectVectorOntoNormal",
+    "GetNormalized",
+    "Normalize"
+  ],
+  "hash_methods": [
+    "m_F7C",
+    "m_709",
+    "m_856",
+    "m_CCF",
+    "m_4D0",
+    "m_CB6"
+  ]
+}

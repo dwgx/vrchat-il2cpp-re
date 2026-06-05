@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "ParticleHandler_9FB9",
+  "parent": "",
+  "named_methods": [
+    "set_CacheWritingBehavior",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_D2A"
+  ]
+}

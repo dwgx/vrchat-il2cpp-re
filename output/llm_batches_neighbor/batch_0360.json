@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "Equals",
+    "Initialize_AF59A1D78E43",
+    "<>9__0_0"
+  ],
+  "hash_methods": [
+    "m_2C0",
+    "m_D84"
+  ]
+}

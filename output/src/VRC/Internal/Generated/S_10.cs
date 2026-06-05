@@ -1371,7 +1371,6 @@ namespace VRC.Internal.Generated
         public void Contains(){} // RVA: 0x7FFAFB935BA0
         public void SqrDistance(){} // RVA: 0x7FFAFB935C20
         public void ClosestPoint(){} // RVA: 0x7FFAFB935C30
-        public void GetHashCode(){} // RVA: 0x7FFAFB935DF0
         public void Awake(){} // RVA: 0x7FFAFB935E70
         public void OnDestroy(){} // RVA: 0x7FFAFB935DE0
         public void ProcessGameObject(){} // RVA: 0x7FFAF3210030
@@ -1386,6 +1385,7 @@ namespace VRC.Internal.Generated
         public void m_D4C(){} // RVA: 0x7FFAFB935C20
         public void m_7FC(){} // RVA: 0x7FFAF2E08740
         public void m_64D(){} // RVA: 0x7FFAFB935DE0
+        public void m_416(){} // RVA: 0x7FFAFB935DF0
     }
 
     /// <summary>Originally: ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ</summary>

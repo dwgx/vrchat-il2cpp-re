@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_427C",
+  "parent": "",
+  "named_methods": [
+    "ReadGameObjectState",
+    ".ctor",
+    "Initialize",
+    "GetLocalPositionRotationTransform"
+  ],
+  "hash_methods": [
+    "m_E0A",
+    "m_618",
+    "m_D45",
+    "m_3B9",
+    "m_6D6"
+  ]
+}

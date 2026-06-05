@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "Static123m_9C6F",
+  "parent": "",
+  "named_methods": [
+    "FixedUpdate",
+    "Awake",
+    "Start",
+    "Update",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_93E",
+    "m_216",
+    "m_0AE",
+    "m_5E4",
+    "m_FEB",
+    "m_A9E",
+    "m_351",
+    "m_E80",
+    "m_426",
+    "m_00B"
+  ]
+}

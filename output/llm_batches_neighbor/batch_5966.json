@@ -1,0 +1,36 @@
+{
+  "namespace": "",
+  "class": "skiddingSiblingSibling_D528",
+  "parent": "",
+  "named_methods": [
+    "GetStructuralHashCode",
+    "GetStructuralHashCode_543C9C3335F8",
+    "AddObjectToList",
+    "Equals",
+    "ContainsObjectInList",
+    "Equals_2071311D480F",
+    "Equals_49929C25A544",
+    "Equals_03CA7C252889",
+    "GetLocalRotation",
+    "GetHashCode",
+    "GetLocalRotation_852E3599EAE7",
+    "CompareTo",
+    "StructuralEquals",
+    "UpdateRotation",
+    "UpdateRotation_114EB5B12426",
+    "AddItemToList",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_8D3",
+    "m_7B6",
+    "m_D29",
+    "m_CCF",
+    "m_AE2",
+    "m_1E1",
+    "m_BE5",
+    "m_228",
+    "m_BC4"
+  ]
+}

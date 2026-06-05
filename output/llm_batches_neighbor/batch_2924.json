@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "GameObjectTransformHandler_B998",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "CreatePrimitive",
+    "CreatePrimitive_8DC98F323686"
+  ],
+  "hash_methods": [
+    "m_DB5",
+    "m_F0E",
+    "m_1DF",
+    "m_2FF",
+    "m_C0F"
+  ]
+}

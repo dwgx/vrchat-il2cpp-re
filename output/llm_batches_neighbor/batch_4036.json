@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PhysicsHandler_577C",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_74C",
+    "m_B03",
+    "m_4CB",
+    "m_677",
+    "m_BAB",
+    "m_EF4",
+    "m_567",
+    "m_B7F",
+    "m_44C",
+    "m_596"
+  ]
+}

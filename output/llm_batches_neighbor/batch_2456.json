@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_C55E",
+  "parent": "",
+  "named_methods": [
+    "GetPointerClass",
+    "GetGenericClassFromDefinition",
+    "ResolveClassFromTypeName"
+  ],
+  "hash_methods": [
+    "m_4D0",
+    "m_9CA",
+    "m_AEE",
+    "m_856"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+ "class": "VRC_SecondarySibling_C96F",
+ "parent": "",
+ "named_methods": [
+  "Update",
+  "SetLocalPosition",
+  ".cctor",
+  "InvokeInterfaceMethod",
+  "Start",
+  "OnDestroy",
+  "GetReverseIndexedItem",
+  ".ctor",
+  "Initialize"
+ ],
+ "hash_methods_with_pseudo": [
+  {
+   "name": "m_8FA",
+   "pseudocode": "float __fastcall sub_18003E500(__int64 a1, __int64 a2, __int64 *a3)\n{\n  __int64 v3; // rdi\n  unsigned __int8 v5; // bp\n  unsigned __int16 v6; // bx\n  __int64 *v7; // rax\n  __int64 v8; // rdx\n  __int64 v9; // r9\n  unsigned __int16 v10; // cx\n  __int64 v11; // r8\n  __int64 v12; // rax\n  char v13; // al\n  int v14; // ecx\n  int v16; // [rsp+38h] [rbp+10h] BYREF\n\n  v3 = qword_18C7CB208;\n  v5 = a2;\n  if ( !*(_QWORD *)(qword_18C7CB208 + 56) )\n    sub_180A4EC20(qword_18C7CB208);\n  v6 = 0;\n  v16 = 0;\n  if ( !a3 )\n    sub_180AAE510(a1, a2);\n  v7 = *(__int64 **)(v3 + 56);\n  v8 = *v7;\n  if ( (*(_BYTE *)(*v7 + 309) & 1) == 0 )\n    v8 = sub_180A4EBA0(*v7);\n  v9 = *a3;\n  v10 = *(_WORD *)(*a3 + 302);\n  if ( v10 )\n  {\n    v11 = *(_QWORD *)(v9 + 176);\n    while ( *(_QWORD *)(v11 + 16LL * v6) != v8 )\n    {\n      if ( ++v6 >= v10 )\n        goto LABEL_10;\n    }\n    v12 = v9 + 16LL * (*(_DWORD *)(v11 + 16LL * v6 + 8) + 7) + 312;\n  }\n  else\n  {\nLABEL_10:\n    v12 = sub_180A4F060(a3, v8, 7);\n  }\n  v13 = (*(__int64 (__fastcall **)(__int64 *, _QWORD, int *, _QWORD))v12)(a3, v5, &v16, *(_QWORD *)(v12 + 8));\n  v14 = 10;\n  if ( v13 )\n    return (float)v16;\n  return (float)v14;\n}\n"
+  },
+  {
+   "name": "m_918",
+   "pseudocode": "__int64 sub_180039B50()\n{\n  __int64 result; // rax\n  signed __int32 v1[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE20899 )\n  {\n    result = sub_180AD1AA0(&qword_18C903598);\n    _InterlockedOr(v1, 0);\n    byte_18CE20899 = 1;\n  }\n  return result;\n}\n"
+  },
+  {
+   "name": "m_9A8",
+   "pseudocode": "__int64 __fastcall sub_180039A00(__int64 a1)\n{\n  return sub_1815226C0(a1 + 16);\n}\n"
+  },
+  {
+   "name": "m_A14",
+   "pseudocode": "__int64 __fastcall sub_18003F690(__int64 *a1, __int64 a2, __int64 a3)\n{\n  __int64 v6; // rsi\n  __int64 v7; // rax\n  __int16 v8; // di\n  __int64 v9; // r14\n  __int64 v10; // rax\n  __int64 v11; // rax\n  signed __int32 v13[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  if ( !byte_18CE1B727 )\n  {\n    sub_180AD1AA0(&qword_18C8F7AB8);\n    _InterlockedOr(v13, 0);\n    byte_18CE1B727 = 1;\n  }\n  v6 = *a1;\n  if ( *a1 )\n  {\n    v7 = qword_18C8F7AB8;\n    if ( !*(_DWORD *)(qword_18C8F7AB8 + 224) )\n    {\n      YloSGiLVOEi_0(qword_18C8F7AB8);\n      v7 = qword_18C8F7AB8;\n    }\n    v8 = *((_WORD *)a1 + 8);\n    v9 = **(_QWORD **)(v7 + 184);\n    v10 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v10 + 309) & 1) == 0 )\n      v10 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    v11 = *(_QWORD *)(*(_QWORD *)(v10 + 192) + 40LL);\n    if ( (*(_BYTE *)(v11 + 309) & 1) == 0 )\n      LODWORD(v11) = sub_180A4EBA0(v11);\n    return sub_1800078B0(2, v11, v6, v9, a2, v8);\n  }\n  else\n  {\n    if ( !a2 )\n      sub_180AAE510(a1, a2);\n    return (*(__int64 (__fastcall **)(_QWORD, _QWORD))(a2 + 24))(*(_QWORD *)(a2 + 64), *(_QWORD *)(a2 + 40));\n  }\n}\n"
+  },
+  {
+   "name": "m_A40",
+   "pseudocode": "signed __int64 __fastcall sub_18003D1D0(_QWORD *a1, __int64 a2)\n{\n  signed __int64 result; // rax\n  __int64 *v5; // rdx\n  signed __int64 v6; // rtt\n  __int64 *v7; // rdx\n  signed __int64 v8; // rtt\n  __int64 *v9; // rdx\n  signed __int64 v10; // rtt\n  signed __int32 v11[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE344CA )\n  {\n    sub_180AD1AA0(&qword_18C86D768);\n    _InterlockedOr(v11, 0);\n    byte_18CE344CA = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C86D768 + 224) )\n    YloSGiLVOEi_0(qword_18C86D768);\n  result = (unsigned int)dword_18CE1C2E8;\n  a1[10] = 0;\n  if ( (_DWORD)result )\n  {\n    v5 = &qword_18CE64E00[(((unsigned __int64)(a1 + 10) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v5 + 35932);\n    do\n      v6 = v5[35932];\n    while ( v6 != _InterlockedCompareExchange64(\n                    v5 + 35932,\n                    v6 | (1LL << (((unsigned __int64)(a1 + 10) >> 12) & 0x3F)),\n                    v6) );\n    result = (unsigned int)dword_18CE1C2E8;\n  }\n  a1[12] = a2;\n  if ( (_DWORD)result )\n  {\n    v7 = &qword_18CE64E00[(((unsigned __int64)(a1 + 12) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v7 + 35932);\n    do\n      v8 = v7[35932];\n    while ( v8 != _InterlockedCompareExchange64(\n                    v7 + 35932,\n                    v8 | (1LL << (((unsigned __int64)(a1 + 12) >> 12) & 0x3F)),\n                    v8) );\n    result = (unsigned int)dword_18CE1C2E8;\n  }\n  a1[11] = 0;\n  if ( (_DWORD)result )\n  {\n    v9 = &qword_18CE64E00[(((unsigned __int64)(a1 + 11) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v9 + 35932);\n    do\n    {\n      v10 = v9[35932];\n      result = _InterlockedCompareExchange64(\n                 v9 + 35932,\n                 v10 | (1LL << (((unsigned __int64)(a1 + 11) >> 12) & 0x3F)),\n                 v10);\n    }\n    while ( v10 != result );\n  }\n  return result;\n}\n"
+  },
+  {
+   "name": "m_AB2",
+   "pseudocode": "__int64 __fastcall sub_180041D60(__int64 a1, __int64 a2, __int64 *a3, __int64 a4, __int64 a5)\n{\n  __int64 v5; // r11\n  unsigned __int16 v6; // ax\n  unsigned __int16 v9; // r10\n  __int64 v10; // r9\n  __int64 v11; // rax\n\n  v5 = *a3;\n  v6 = 0;\n  v9 = *(_WORD *)(*a3 + 302);\n  if ( v9 )\n  {\n    v10 = *(_QWORD *)(v5 + 176);\n    while ( *(_QWORD *)(v10 + 16LL * v6) != qword_18C91AEB0 )\n    {\n      if ( ++v6 >= v9 )\n        goto LABEL_5;\n    }\n    v11 = v5 + 16LL * (*(_DWORD *)(v10 + 16LL * v6 + 8) + 56) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v11 = sub_180A4F060(a3, qword_18C91AEB0, 56);\n  }\n  return (*(__int64 (__fastcall **)(__int64 *, __int64, __int64, _QWORD))v11)(a3, a4, a5, *(_QWORD *)(v11 + 8));\n}\n"
+  },
+  {
+   "name": "m_BC2",
+   "pseudocode": "__int64 (__fastcall *__fastcall sub_18003CF90(_QWORD *a1, __int64 a2))()\n{\n  return sub_180C1E370(a1, a2, qword_18C7BDE10);\n}\n"
+  },
+  {
+   "name": "m_BE4",
+   "pseudocode": "__int64 __fastcall sub_18003F390(\n        int a1,\n        int a2,\n        int a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        __int64 a9,\n        __int64 a10,\n        __int64 a11,\n        __int64 a12,\n        __int64 a13)\n{\n  LOBYTE(a8) = 0;\n  return sub_185858D20(a1, a2, a3, 1, 0, a6, 0, a8, qword_18C7C9A70, a10, a11, a12, a13);\n}\n"
+  },
+  {
+   "name": "m_BF7",
+   "pseudocode": "char __fastcall sub_18003E700(__int64 a1, __int64 a2, _DWORD *a3, __int64 a4)\n{\n  unsigned int v6; // ebp\n  __int64 v8; // rsi\n  __int64 v9; // r10\n  __int64 v10; // rax\n  int v11; // eax\n\n  v6 = a2;\n  v8 = *(_QWORD *)(a1 + 24);\n  if ( !v8 )\n    sub_180AAE510(a1, a2);\n  v9 = *(_QWORD *)(*(_QWORD *)(a4 + 40) + 192LL);\n  v10 = *(_QWORD *)(v9 + 32);\n  if ( (*(_BYTE *)(v10 + 309) & 1) == 0 )\n    v10 = sub_180A4EBA0(*(_QWORD *)(v9 + 32));\n  v11 = sub_180006B50(1, v10, v8);\n  return sub_1801DFE10(a1, v6, v11, a3, *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(a4 + 40) + 192LL) + 320LL));\n}\n"
+  },
+  {
+   "name": "m_CCD",
+   "pseudocode": "__int64 __fastcall sub_1800386C0(__int64 a1, __int64 a2, __int64 *a3)\n{\n  __int64 v3; // r11\n  unsigned __int16 v4; // ax\n  unsigned __int16 v6; // r9\n  __int64 v7; // r10\n  __int64 v8; // rax\n  __int64 v10; // rax\n\n  v3 = *a3;\n  v4 = 0;\n  v6 = *(_WORD *)(*a3 + 302);\n  if ( v6 )\n  {\n    v7 = *(_QWORD *)(v3 + 176);\n    while ( *(_QWORD *)(v7 + 16LL * v4) != qword_18C872918 )\n    {\n      if ( ++v4 >= v6 )\n        goto LABEL_5;\n    }\n    v10 = v3 + 16LL * (*(_DWORD *)(v7 + 16LL * v4 + 8) + 31) + 312;\n    return (*(__int64 (__fastcall **)(__int64 *, _QWORD))v10)(a3, *(_QWORD *)(v10 + 8));\n  }\n  else\n  {\nLABEL_5:\n    v8 = sub_180A4F060(a3, qword_18C872918, 31);\n    return (*(__int64 (__fastcall **)(__int64 *, _QWORD))v8)(a3, *(_QWORD *)(v8 + 8));\n  }\n}\n"
+  },
+  {
+   "name": "m_D4E",
+   "pseudocode": "__int64 __fastcall sub_18003CB10(unsigned __int16 a1, __int64 a2, __int64 *a3, __int64 a4, int a5)\n{\n  __int64 v5; // rbx\n  unsigned __int16 v6; // r9\n  unsigned __int16 v8; // r10\n  __int64 v9; // r11\n  _QWORD *v10; // rax\n\n  v5 = *a3;\n  v6 = 0;\n  v8 = *(_WORD *)(*a3 + 302);\n  if ( v8 )\n  {\n    v9 = *(_QWORD *)(v5 + 176);\n    while ( *(_QWORD *)(v9 + 16LL * v6) != a2 )\n    {\n      if ( ++v6 >= v8 )\n        goto LABEL_5;\n    }\n    v10 = (_QWORD *)(v5 + 16LL * (a1 + *(_DWORD *)(v9 + 16LL * v6 + 8)) + 312);\n  }\n  else\n  {\nLABEL_5:\n    v10 = (_QWORD *)sub_180A4F060(a3, a2, a1);\n  }\n  return ((__int64 (__fastcall *)(__int64 *, _QWORD, __int64 *, _QWORD))*v10)(a3, *v10, a3, v10[1]);\n}\n"
+  },
+  {
+   "name": "m_D80",
+   "pseudocode": "__int64 (__fastcall *__fastcall sub_18003EF60(_QWORD *a1, __int64 a2, __int64 a3))()\n{\n  bool v3; // zf\n  __int64 *v6; // rdx\n  __int64 v7; // rtt\n  char v8; // cl\n  __int64 (__fastcall *v9)(); // rcx\n  __int64 v11; // rax\n\n  v3 = dword_18CE1C2E8 == 0;\n  a1[2] = *(_QWORD *)(a3 + 8);\n  a1[5] = a3;\n  a1[4] = a2;\n  if ( !v3 )\n  {\n    v6 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 4) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v6);\n    do\n      v7 = *v6;\n    while ( v7 != _InterlockedCompareExchange64(v6, *v6 | (1LL << (((unsigned __int64)(a1 + 4) >> 12) & 0x3F)), *v6) );\n  }\n  v8 = *(_BYTE *)(a3 + 82);\n  a1[8] = a1;\n  if ( (*(_BYTE *)(a3 + 76) & 0x10) == 0 )\n  {\n    if ( !a2 )\n    {\n      v11 = sub_180AAE540(0, \"Delegate to an instance method cannot have null 'this'.\");\n      sub_180AAE4E0(v11, 0);\n    }\n    goto LABEL_8;\n  }\n  if ( v8 != 1 )\n  {\nLABEL_8:\n    v9 = (__int64 (__fastcall *)())a1[2];\n    a1[8] = a1[4];\n    goto LABEL_9;\n  }\n  v9 = sub_18005E980;\nLABEL_9:\n  a1[3] = v9;\n  a1[7] = sub_18005E910;\n  return sub_18005E910;\n}\n"
+  },
+  {
+   "name": "m_DC9",
+   "pseudocode": "_QWORD *__fastcall sub_180041820(__int128 *a1)\n{\n  __int64 v1; // rbx\n  __int64 v2; // rax\n  _QWORD *v3; // rbx\n  int v4; // eax\n  bool v5; // zf\n  __int64 *v6; // rdx\n  __int64 v7; // rtt\n  __int128 v9; // [rsp+20h] [rbp-28h]\n  __int128 v10; // [rsp+30h] [rbp-18h]\n\n  v1 = qword_18C7DDD48;\n  v9 = *a1;\n  v10 = a1[1];\n  if ( !*(_QWORD *)(qword_18C7DDD48 + 56) )\n    sub_180A4EC20(qword_18C7DDD48);\n  v2 = **(_QWORD **)(v1 + 56);\n  if ( (*(_BYTE *)(v2 + 309) & 1) == 0 )\n    v2 = sub_180A4EBA0(**(_QWORD **)(v1 + 56));\n  v3 = sub_180A52230(v2);\n  *((_DWORD *)v3 + 4) = -2;\n  v4 = sub_18674DCD0(0);\n  v5 = dword_18CE1C2E8 == 0;\n  *((_OWORD *)v3 + 4) = v9;\n  *((_DWORD *)v3 + 6) = v4;\n  *((_OWORD *)v3 + 5) = v10;\n  if ( !v5 )\n  {\n    v6 = &qword_18CEAB0E0[(((unsigned __int64)(v3 + 8) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v6);\n    do\n      v7 = *v6;\n    while ( v7 != _InterlockedCompareExchange64(v6, *v6 | (1LL << (((unsigned __int64)(v3 + 8) >> 12) & 0x3F)), *v6) );\n  }\n  return v3;\n}\n"
+  },
+  {
+   "name": "m_DD9",
+   "pseudocode": "__int64 (__fastcall *__fastcall sub_18003CFC0(_QWORD *a1, __int64 a2))()\n{\n  return sub_180C1E370(a1, a2, qword_18C7BE348);\n}\n"
+  },
+  {
+   "name": "m_E75",
+   "pseudocode": "_OWORD *__fastcall sub_1800370D0(_OWORD *a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rdi\n  __int64 v7; // rax\n  __int128 v8; // xmm1\n  __int64 v9; // rdi\n  __int64 v10; // xmm2_8\n  __int64 v11; // rax\n  __int128 v12; // xmm0\n  __int128 v13; // xmm1\n  __int128 v14; // xmm2\n  __int128 v15; // xmm3\n  __int128 v16; // xmm4\n  __int64 *v17; // rdx\n  __int64 v18; // rtt\n  __int64 v20; // rax\n  _QWORD *v21; // rbx\n  __int64 v22; // rax\n  signed __int32 v23[8]; // [rsp+0h] [rbp-100h] BYREF\n  __int64 v24; // [rsp+30h] [rbp-D0h]\n  __int128 v25; // [rsp+40h] [rbp-C0h] BYREF\n  __int64 v26; // [rsp+50h] [rbp-B0h]\n  __int128 v27; // [rsp+60h] [rbp-A0h] BYREF\n  __int128 v28; // [rsp+70h] [rbp-90h]\n  __int128 v29; // [rsp+80h] [rbp-80h]\n  __int128 v30; // [rsp+90h] [rbp-70h]\n  __int128 v31; // [rsp+A0h] [rbp-60h]\n  __int128 v32; // [rsp+B0h] [rbp-50h] BYREF\n  __int128 v33; // [rsp+C0h] [rbp-40h]\n  __int128 v34; // [rsp+D0h] [rbp-30h]\n  __int128 v35; // [rsp+E0h] [rbp-20h]\n  __int128 v36; // [rsp+F0h] [rbp-10h]\n  _BYTE v37[32]; // [rsp+100h] [rbp+0h] BYREF\n\n  v3 = qword_18C85B4E8;\n  if ( !*(_QWORD *)(qword_18C85B4E8 + 56) )\n    sub_180A4EC20(qword_18C85B4E8);\n  if ( !a2 )\n  {\n    v20 = sub_180A8B8B0(&qword_18C8CFD48);\n    v21 = sub_180AAE4D0(v20);\n    v22 = sub_180A8B8B0(&qword_18C8EE980);\n    sub_1865C3310(v21, v22, 0);\n    sub_180AAE4E0(v21, v3);\n  }\n  v7 = sub_180138C10(v37, a2, *(_QWORD *)(*(_QWORD *)(v3 + 56) + 8LL));\n  v8 = *(_OWORD *)v7;\n  v9 = *(_QWORD *)(*(_QWORD *)(v3 + 56) + 32LL);\n  v10 = *(_QWORD *)(v7 + 16);\n  v25 = *(_OWORD *)v7;\n  if ( !*(_QWORD *)(v9 + 56) )\n  {\n    sub_180AD1AA0(&qword_18C86F0D8);\n    _InterlockedOr(v23, 0);\n    if ( !*(_QWORD *)(v9 + 56) )\n      sub_180A4EC20(v9);\n    v8 = v25;\n  }\n  if ( !a3 )\n    sub_18A357940(qword_18C86F0D8, 0);\n  v11 = *(_QWORD *)(v9 + 56);\n  v25 = v8;\n  v27 = 0;\n  v28 = 0;\n  v29 = 0;\n  v30 = 0;\n  v31 = 0;\n  v24 = *(_QWORD *)(v11 + 40);\n  v26 = v10;\n  sub_1846018B0((unsigned int)&v27, (unsigned int)&v25, a3, 0, 0, 0, v24);\n  v12 = v27;\n  v13 = v28;\n  v14 = v29;\n  v15 = v30;\n  v16 = v31;\n  v32 = v27;\n  v33 = v28;\n  v34 = v29;\n  v35 = v30;\n  v36 = v31;\n  if ( dword_18CE1C2E8 )\n  {\n    v17 = &qword_18CEAB0E0[(((unsigned __int64)&v32 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v17);\n    do\n      v18 = *v17;\n    while ( v18 != _InterlockedCompareExchange64(v17, *v17 | (1LL << (((unsigned __int64)&v32 >> 12) & 0x3F)), *v17) );\n    v16 = v36;\n    v15 = v35;\n    v14 = v34;\n    v13 = v33;\n    v12 = v32;\n  }\n  *a1 = v12;\n  a1[1] = v13;\n  a1[2] = v14;\n  a1[3] = v15;\n  a1[4] = v16;\n  return a1;\n}\n"
+  },
+  {
+   "name": "m_EFC",
+   "pseudocode": "int *__fastcall sub_180043240(_QWORD *a1)\n{\n  int *result; // rax\n  _QWORD *v3; // rdx\n  __int64 v4; // rcx\n\n  result = (int *)a1[1];\n  if ( *result < 1 )\n  {\n    v3 = (_QWORD *)a1[2];\n    v4 = v3[1];\n    if ( !v4 )\n      sub_180AAE510(0, v3);\n    result = (int *)sub_182416620(v4, *v3, 0);\n  }\n  if ( *a1 )\n    sub_180A92FE0(*a1);\n  return result;\n}\n"
+  },
+  {
+   "name": "m_F35",
+   "pseudocode": "__int64 __fastcall sub_18003D960(\n        unsigned __int16 a1,\n        __int64 a2,\n        __int64 *a3,\n        unsigned __int8 a4,\n        __int64 a5,\n        __int64 a6)\n{\n  unsigned __int16 v7; // ax\n  __int64 v9; // rbx\n  unsigned __int16 v10; // r10\n  __int64 v11; // r11\n  __int64 v12; // rax\n\n  v7 = 0;\n  v9 = *a3;\n  v10 = *(_WORD *)(*a3 + 302);\n  if ( v10 )\n  {\n    v11 = *(_QWORD *)(v9 + 176);\n    while ( *(_QWORD *)(v11 + 16LL * v7) != a2 )\n    {\n      if ( ++v7 >= v10 )\n        goto LABEL_5;\n    }\n    v12 = v9 + 16LL * (a1 + *(_DWORD *)(v11 + 16LL * v7 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v12 = sub_180A4F060(a3, a2, a1);\n  }\n  return (*(__int64 (__fastcall **)(__int64 *, _QWORD, __int64, __int64, _QWORD))v12)(\n           a3,\n           a4,\n           a5,\n           a6,\n           *(_QWORD *)(v12 + 8));\n}\n"
+  },
+  {
+   "name": "m_F6F",
+   "pseudocode": "__int64 __fastcall sub_18003FC40(__int64 a1)\n{\n  return sub_181622320(a1 + 16);\n}\n"
+  },
+  {
+   "name": "m_F77",
+   "pseudocode": "__int64 __fastcall sub_180042E60(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  signed __int32 v9[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !*(_QWORD *)(a4 + 56) )\n  {\n    sub_180AD1AA0(&qword_18C8708E8);\n    _InterlockedOr(v9, 0);\n    if ( !*(_QWORD *)(a4 + 56) )\n      sub_180A4EC20(a4);\n  }\n  *(_BYTE *)(a1 + 25) = 1;\n  if ( !*(_DWORD *)(qword_18C8708E8 + 224) )\n    YloSGiLVOEi_0(qword_18C8708E8);\n  return sub_1801921A0(a1, a2, a3, *(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL));\n}\n"
+  },
+  {
+   "name": "m_FCD",
+   "pseudocode": "__int64 __fastcall sub_1800378D0(__int64 a1, __int64 a2, __int64 *a3)\n{\n  __int64 v3; // r11\n  unsigned __int16 v4; // ax\n  unsigned __int16 v6; // r9\n  __int64 v7; // r10\n  __int64 v8; // rax\n  __int64 v10; // rax\n\n  v3 = *a3;\n  v4 = 0;\n  v6 = *(_WORD *)(*a3 + 302);\n  if ( v6 )\n  {\n    v7 = *(_QWORD *)(v3 + 176);\n    while ( *(_QWORD *)(v7 + 16LL * v4) != qword_18C91AEB0 )\n    {\n      if ( ++v4 >= v6 )\n        goto LABEL_5;\n    }\n    v10 = v3 + 16LL * (*(_DWORD *)(v7 + 16LL * v4 + 8) + 59) + 312;\n    return (*(__int64 (__fastcall **)(__int64 *, _QWORD))v10)(a3, *(_QWORD *)(v10 + 8));\n  }\n  else\n  {\nLABEL_5:\n    v8 = sub_180A4F060(a3, qword_18C91AEB0, 59);\n    return (*(__int64 (__fastcall **)(__int64 *, _QWORD))v8)(a3, *(_QWORD *)(v8 + 8));\n  }\n}\n"
+  }
+ ],
+ "hash_methods_no_pseudo": []
+}

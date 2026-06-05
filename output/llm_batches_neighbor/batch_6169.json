@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_A55E",
+  "parent": "",
+  "named_methods": [
+    "GetRealtimeSinceStartup",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DE9",
+    "m_9F2",
+    "m_39B",
+    "m_D7E",
+    "m_448",
+    "m_801",
+    "m_03B",
+    "m_8C7",
+    "m_BB8"
+  ]
+}
