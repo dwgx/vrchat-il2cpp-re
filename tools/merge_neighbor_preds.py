@@ -175,7 +175,9 @@ def main() -> None:
 
     before_count = len(cross_version)
     cross_version.update(dict(sorted(merged_candidates.items())))
-    write_json(CROSS_VERSION, cross_version)
+    tmp = CROSS_VERSION.with_suffix(".tmp")
+    write_json(tmp, cross_version)
+    tmp.replace(CROSS_VERSION)
     merged = len(cross_version) - before_count
 
     print(f"Total predictions: {total_predictions}")

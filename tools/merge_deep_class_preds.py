@@ -151,8 +151,10 @@ def main() -> None:
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     backup_path = CV_PATH.with_name(f"{CV_PATH.stem}.pre_deep_class_{timestamp}{CV_PATH.suffix}")
     shutil.copy2(CV_PATH, backup_path)
-    with open(CV_PATH, "w", encoding="utf-8") as handle:
+    tmp_path = CV_PATH.with_suffix(".tmp")
+    with open(tmp_path, "w", encoding="utf-8") as handle:
         json.dump(cv, handle, indent=2, ensure_ascii=False)
+    tmp_path.replace(CV_PATH)
 
     report = {
         "prediction_files": len(pred_files),

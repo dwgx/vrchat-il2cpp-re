@@ -80,9 +80,11 @@ def main() -> int:
             continue
         cleaned[signature] = predicted_name
 
-    with PREDICTIONS_PATH.open("w", encoding="utf-8") as f:
+    tmp = PREDICTIONS_PATH.with_suffix(".tmp")
+    with tmp.open("w", encoding="utf-8") as f:
         json.dump(cleaned, f, indent=2, ensure_ascii=False)
         f.write("\n")
+    tmp.replace(PREDICTIONS_PATH)
 
     print(f"backup: {BACKUP_PATH} ({backup_status})")
     print(f"removed count: {len(removed)}")
