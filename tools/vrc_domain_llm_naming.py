@@ -654,7 +654,7 @@ def parse_args() -> argparse.Namespace:
     build.set_defaults(func=build_batches)
 
     run = sub.add_parser("run")
-    run.add_argument("--api-base", default="https://REDACTED_API_HOST")
+    run.add_argument("--api-base", default=os.environ.get("OPENAI_API_BASE", ""))
     run.add_argument("--model", default="gpt-5.5")
     run.add_argument("--temperature", type=float, default=0.25)
     run.add_argument("--max-tokens", type=int, default=4096)
