@@ -1,0 +1,112 @@
+[
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_772",
+  "cv_key": "IEnumeratorImpl_0BDC::m_772",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808767C0(int a1, int a2, __int64 a3, __int64 *a4)\n{\n  __int64 v4; // rcx\n  _QWORD v6[5]; // [rsp+30h] [rbp-28h] BYREF\n  int v7; // [rsp+60h] [rbp+8h] BYREF\n  int v8; // [rsp+68h] [rbp+10h] BYREF\n\n  v8 = a2;\n  v7 = a1;\n  v6[2] = a3;\n  v6[0] = &v7;\n  v4 = *a4;\n  v6[1] = &v8;\n  return ((__int64 (__fastcall *)(__int64, __int64 *, _QWORD, _QWORD *, _QWORD))a4[2])(v4, a4, 0, v6, 0);\n}\n"
+ },
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_885",
+  "cv_key": "IEnumeratorImpl_0BDC::m_885",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18087B7F0(__int64 a1, int a2, __int64 a3)\n{\n  int v4; // [rsp+30h] [rbp-28h] BYREF\n  _QWORD v5[4]; // [rsp+38h] [rbp-20h] BYREF\n\n  v4 = a2;\n  v5[0] = a1;\n  v5[1] = &v4;\n  return (*(__int64 (__fastcall **)(_QWORD, __int64, _QWORD, _QWORD *, _QWORD))(a3 + 16))(*(_QWORD *)a3, a3, 0, v5, 0);\n}\n"
+ },
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_94B",
+  "cv_key": "IEnumeratorImpl_0BDC::m_94B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180879B80(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        int a9,\n        int a10,\n        int a11,\n        int a12,\n        __int64 a13,\n        __int64 a14)\n{\n  __int64 (__fastcall *v15)(__int64, __int64, __int64, _QWORD *, _QWORD); // rax\n  __int64 v16; // rcx\n  _QWORD v18[13]; // [rsp+30h] [rbp-68h] BYREF\n\n  v18[3] = a5;\n  v18[4] = a6;\n  v18[5] = a7;\n  v18[6] = a8;\n  v18[7] = &a9;\n  v18[8] = &a10;\n  v18[9] = &a11;\n  v18[10] = &a12;\n  v18[11] = a13;\n  v15 = *(__int64 (__fastcall **)(__int64, __int64, __int64, _QWORD *, _QWORD))(a14 + 16);\n  v18[0] = a2;\n  v16 = *(_QWORD *)(a14 + 8);\n  v18[1] = a3;\n  v18[2] = a4;\n  return v15(v16, a14, a1, v18, 0);\n}\n"
+ },
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_9DA",
+  "cv_key": "IEnumeratorImpl_0BDC::m_9DA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180877FF0(int a1, __int64 a2, __int64 a3, __int64 a4, __int64 *a5)\n{\n  __int64 (__fastcall *v5)(__int64, __int64 *, _QWORD, _QWORD *, _QWORD); // rax\n  __int64 v6; // rcx\n  _QWORD v8[5]; // [rsp+30h] [rbp-28h] BYREF\n  int v9; // [rsp+60h] [rbp+8h] BYREF\n\n  v9 = a1;\n  v8[0] = &v9;\n  v8[1] = a2;\n  v8[2] = a3;\n  v5 = (__int64 (__fastcall *)(__int64, __int64 *, _QWORD, _QWORD *, _QWORD))a5[2];\n  v6 = *a5;\n  v8[3] = a4;\n  return v5(v6, a5, 0, v8, 0);\n}\n"
+ },
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_B5C",
+  "cv_key": "IEnumeratorImpl_0BDC::m_B5C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180879CC0(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        __int64 a6,\n        __int64 a7,\n        __int64 a8,\n        int a9,\n        __int64 a10)\n{\n  __int64 (__fastcall *v11)(__int64, __int64, __int64, _QWORD *, _QWORD); // rax\n  __int64 v12; // rcx\n  _QWORD v14[9]; // [rsp+30h] [rbp-48h] BYREF\n\n  v14[3] = a5;\n  v14[4] = a6;\n  v14[5] = a7;\n  v14[6] = a8;\n  v14[7] = &a9;\n  v11 = *(__int64 (__fastcall **)(__int64, __int64, __int64, _QWORD *, _QWORD))(a10 + 16);\n  v14[0] = a2;\n  v12 = *(_QWORD *)(a10 + 8);\n  v14[1] = a3;\n  v14[2] = a4;\n  return v11(v12, a10, a1, v14, 0);\n}\n"
+ },
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_D14",
+  "cv_key": "IEnumeratorImpl_0BDC::m_D14",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18087A0C0(__int64 a1, __int64 a2, __int64 a3, __int64 a4, int a5, __int64 a6)\n{\n  _QWORD v7[5]; // [rsp+30h] [rbp-28h] BYREF\n\n  v7[0] = a2;\n  v7[3] = &a5;\n  v7[1] = a3;\n  v7[2] = a4;\n  return (*(__int64 (__fastcall **)(_QWORD, __int64, __int64, _QWORD *, _QWORD))(a6 + 16))(\n           *(_QWORD *)(a6 + 8),\n           a6,\n           a1,\n           v7,\n           0);\n}\n"
+ },
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_DCE",
+  "cv_key": "IEnumeratorImpl_0BDC::m_DCE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180879D40(\n        __int64 a1,\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5,\n        int a6,\n        int a7,\n        __int64 a8)\n{\n  __int64 (__fastcall *v9)(__int64, __int64, __int64, _QWORD *, _QWORD); // rax\n  __int64 v10; // rcx\n  _QWORD v12[7]; // [rsp+30h] [rbp-38h] BYREF\n\n  v12[3] = a5;\n  v12[4] = &a6;\n  v12[5] = &a7;\n  v9 = *(__int64 (__fastcall **)(__int64, __int64, __int64, _QWORD *, _QWORD))(a8 + 16);\n  v12[0] = a2;\n  v10 = *(_QWORD *)(a8 + 8);\n  v12[1] = a3;\n  v12[2] = a4;\n  return v9(v10, a8, a1, v12, 0);\n}\n"
+ },
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_DD8",
+  "cv_key": "IEnumeratorImpl_0BDC::m_DD8",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180876890(__int16 a1, __int64 a2, __int64 a3)\n{\n  _QWORD v4[3]; // [rsp+30h] [rbp-18h] BYREF\n  __int16 v5; // [rsp+50h] [rbp+8h] BYREF\n\n  v5 = a1;\n  v4[1] = a2;\n  v4[0] = &v5;\n  return (*(__int64 (__fastcall **)(_QWORD, __int64, _QWORD, _QWORD *, _QWORD))(a3 + 16))(*(_QWORD *)a3, a3, 0, v4, 0);\n}\n"
+ },
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_F40",
+  "cv_key": "IEnumeratorImpl_0BDC::m_F40",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18087B5E0(__int64 a1, __int64 a2, double a3, __int64 a4, __int64 a5)\n{\n  _QWORD v6[5]; // [rsp+30h] [rbp-28h] BYREF\n  double v7; // [rsp+70h] [rbp+18h] BYREF\n\n  v7 = a3;\n  v6[0] = a2;\n  v6[1] = &v7;\n  v6[2] = a4;\n  return (*(__int64 (__fastcall **)(_QWORD, __int64, __int64, _QWORD *, _QWORD))(a5 + 16))(\n           *(_QWORD *)(a5 + 8),\n           a5,\n           a1,\n           v6,\n           0);\n}\n"
+ },
+ {
+  "class": "IEnumeratorImpl_0BDC",
+  "class_obf": "ÍÏÍÍÎÍÏÌÎÏÎÎÌÌÍÌÌÌÌÎÏÍÌ",
+  "parent": "",
+  "method": "m_F63",
+  "cv_key": "IEnumeratorImpl_0BDC::m_F63",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 sub_18087B680(__int64 a1, __int64 a2, __int64 a3, ...)\n{\n  _QWORD v4[5]; // [rsp+30h] [rbp-28h] BYREF\n  __int64 v5; // [rsp+78h] [rbp+20h] BYREF\n  va_list va; // [rsp+78h] [rbp+20h]\n  __int64 v7; // [rsp+80h] [rbp+28h]\n  va_list va1; // [rsp+88h] [rbp+30h] BYREF\n\n  va_start(va1, a3);\n  va_start(va, a3);\n  v5 = va_arg(va1, _QWORD);\n  v7 = va_arg(va1, _QWORD);\n  v4[0] = a1;\n  v4[1] = a2;\n  va_copy((va_list)&v4[3], va);\n  v4[2] = a3;\n  return (*(__int64 (__fastcall **)(_QWORD, __int64, _QWORD, _QWORD *, _QWORD))(v7 + 16))(*(_QWORD *)v7, v7, 0, v4, 0);\n}\n"
+ }
+]

@@ -1,0 +1,9 @@
+{
+ "FrameSiblingSibling_8019::m_4BA": "AllocateNativeArray",
+ "FrameSiblingSibling_8019::m_4C1": "AllocateNativeArray",
+ "FrameSiblingSibling_8019::m_742": "CopyManagedArrayToNativeArray",
+ "FrameSiblingSibling_8019::m_837": "AllocateNativeArray",
+ "FrameSiblingSibling_8019::m_88F": "AllocateNativeArray",
+ "FrameSiblingSibling_8019::m_F78": "CopyManagedArrayToNativeArray",
+ "GameObjectHandler_0A37::m_13E": "MakeArrayType"
+}

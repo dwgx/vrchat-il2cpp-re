@@ -1,0 +1,10 @@
+{
+ "TransformHandler_5497::m_BF4": "BrotliEncoderCompress",
+ "TransformHandler_5497::m_C48": "BrotliEncoderCompressStream",
+ "TransformHandler_5497::m_C61": "FindByteInRange",
+ "TransformHandler_5497::m_C71": "ThrowLengthError",
+ "TransformHandler_5497::m_C7F": "BrotliEncoderCompress",
+ "TransformHandler_5497::m_EDE": "BrotliEncoderCompressStream",
+ "TransformHandler_55AC::m_28A": "StartNew",
+ "TransformHandler_55AC::m_42D": "StartNew"
+}

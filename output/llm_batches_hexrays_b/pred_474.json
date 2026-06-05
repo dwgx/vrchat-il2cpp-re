@@ -1,0 +1,7 @@
+{
+ "SerializationRecoveryHandler::m_5D1": "OnAfterDeserialize",
+ "SerializationRecoveryHandler::m_C92": "OnBeforeSerialize",
+ "Accept_8D22_5814::m_217": "CreateContext",
+ "CachedPtrComponent_EE40::m_763": "GetOrCreateCachedPtr",
+ "CachedPtrComponent_EE40::m_FF5": "GetOrCreateCachedPtr"
+}

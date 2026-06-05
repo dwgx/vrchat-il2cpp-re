@@ -1,0 +1,4 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_E12E::m_55E": "EnsureAdditionalBufferCapacity",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E12E::m_575": "TrimExcessBufferCapacity"
+}

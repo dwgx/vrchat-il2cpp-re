@@ -1,5 +1,5 @@
 {
- "VRC_MainSiblingSiblingSibling_D43D::m_54E": "AddRange",
- "VRC_MainSiblingSiblingSibling_D43D::m_7BA": "WriteTo",
- "VRC_MainSiblingSiblingSibling_D43D::m_B07": "Equals"
+ "ExceptionInt16OverflowComponent_B2EE::m_5D7": "StaticConstructor",
+ "ExceptionInt16OverflowComponent_B2EE::m_60F": "Constructor",
+ "ExceptionInt16OverflowComponent_B2EE::m_611": "ComputeExponential"
 }

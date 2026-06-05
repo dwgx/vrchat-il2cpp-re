@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_AFF7::m_55E": "JoinPathsWithBackslash",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AFF7::m_575": "GetCurrentDirectoryPath",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AFF7::m_943": "CopyStringBuffer",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AFF7::m_96F": "HandleDllThreadDetach",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AFF7::m_AEE": "CaptureCurrentStackTrace"
+}

@@ -9,6 +9,8 @@ namespace VRC.Core.Transform
     public class DrawGizmosBehaviour_7AAC
     {
         // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAF343AA50
+        public void GetHashCode(){} // RVA: 0x7FFAF343B260
         public void Awake(){} // RVA: 0x7FFAF343B470
         public void OnEnable(){} // RVA: 0x7FFAF343BA20
         public void OnDrawGizmos(){} // RVA: 0x7FFAF343C0D0
@@ -27,17 +29,21 @@ namespace VRC.Core.Transform
         public void OnTriggerStay(){} // RVA: 0x7FFAF343E700
         public void OnTriggerExit(){} // RVA: 0x7FFAF343E870
         public void OnBecameVisible(){} // RVA: 0x7FFAF343FFC0
+        public void GetHashCode_F9E5A7BAC453(){} // RVA: 0x7FFAF3440580
         public void OnCollisionEnter(){} // RVA: 0x7FFAF34405B0
+        public void OnDrawGizmos_4ECD830DA794(){} // RVA: 0x7FFAF311C530
         public void .ctor(){} // RVA: 0x7FFAF34411B0
         public void Initialize(){} // RVA: 0x7FFAF2DBB0D0
+        public void GetHashCode_F3EE1F9B3CCC(){} // RVA: 0x7FFAF34412C0
         public void GetScreenWidth(){} // RVA: 0x7FFAF343D170
-        // ── 12 unresolved (hash) ──
-        public void m_417(){} // RVA: 0x7FFAF343AA50
+        // ── Unresolved (hash) ──
         public void m_CD9(){} // RVA: 0x7FFAF343AC40
         public void m_28B(){} // RVA: 0x7FFAF343B1E0
-        public void m_FB6(){} // RVA: 0x7FFAF343B260
         public void m_410(){} // RVA: 0x7FFAF343C4F0
-        // ... 7 more unresolved methods
+        public void m_07D(){} // RVA: 0x7FFAF3440770
+        public void m_EC3(){} // RVA: 0x7FFAF2DBB0D0
+        public void m_185(){} // RVA: 0x7FFAF34414B0
+        public void m_6DD(){} // RVA: 0x7FFAF343D830
     }
 
 }

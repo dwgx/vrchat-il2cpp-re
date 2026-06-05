@@ -1,0 +1,112 @@
+[
+ {
+  "class": "WorldSpawnSibling_B0D0",
+  "class_obf": "ÎÌÌÏÎÎÏÎÏÌÌÎÌÎÌÏÏÌÍÎÏÎÎ",
+  "parent": "",
+  "method": "m_FA0",
+  "cv_key": "WorldSpawnSibling_B0D0::m_FA0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_QWORD *__fastcall sub_180D77220(__int64 a1)\n{\n  _QWORD *v2; // rdi\n  _QWORD *v3; // rax\n  int v4; // ebx\n  __int64 v5; // rdx\n  __int64 v6; // rcx\n  int v7; // r9d\n  _QWORD *v8; // rax\n  int v9; // ebx\n  int v10; // r9d\n  _QWORD *v11; // rax\n  int v12; // ebx\n  int v13; // r9d\n  _QWORD *v14; // rax\n  int v15; // ebx\n  int v16; // r9d\n  _QWORD *v17; // rax\n  int v18; // ebx\n  int v19; // r9d\n  _QWORD *v20; // rax\n  int v21; // ebx\n  int v22; // r9d\n  _QWORD *v23; // rax\n  int v24; // ebx\n  int v25; // r9d\n  _QWORD *v26; // rax\n  int v27; // ebx\n  int v28; // r9d\n  _QWORD *v29; // rax\n  int v30; // ebx\n  int v31; // r9d\n  _QWORD *v32; // rax\n  int v33; // ebx\n  int v34; // r9d\n  signed __int32 v36[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  if ( !byte_18CE1E0EC )\n  {\n    sub_180AD1AA0(&qword_18C909408);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C909400);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C9093E8);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907B48);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907B28);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907B10);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907B08);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907AF8);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907AF0);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907AE0);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907AC8);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907AC0);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907AB8);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C909248);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907CF0);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907AB0);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C909210);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907A98);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C9091C8);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C909160);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C909110);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907A78);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907A60);\n    _InterlockedOr(v36, 0);\n    sub_180AD1AA0(&qword_18C907CD8);\n    _InterlockedOr(v36, 0);\n    byte_18CE1E0EC = 1;\n  }\n  v2 = sub_180A52230(qword_18C9093E8);\n  sub_183530F90(v2, qword_18C909400);\n  v3 = sub_180A52230(qword_18C909248);\n  v4 = (int)v3;\n  sub_183B57BE0(v3, a1, qword_18C907B48, 0);\n  if ( !v2 )\n    sub_180AAE510(v6, v5);\n  LOBYTE(v7) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C907CD8,\n    v4,\n    v7,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  v8 = sub_180A52230(qword_18C909248);\n  v9 = (int)v8;\n  sub_183B57BE0(v8, a1, qword_18C907B28, 0);\n  LOBYTE(v10) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C909160,\n    v9,\n    v10,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  v11 = sub_180A52230(qword_18C909248);\n  v12 = (int)v11;\n  sub_183B57BE0(v11, a1, qword_18C907B10, 0);\n  LOBYTE(v13) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C909210,\n    v12,\n    v13,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  v14 = sub_180A52230(qword_18C909248);\n  v15 = (int)v14;\n  sub_183B57BE0(v14, a1, qword_18C907B08, 0);\n  LOBYTE(v16) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C9091C8,\n    v15,\n    v16,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  v17 = sub_180A52230(qword_18C909248);\n  v18 = (int)v17;\n  sub_183B57BE0(v17, a1, qword_18C907AF0, 0);\n  LOBYTE(v19) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C909110,\n    v18,\n    v19,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  v20 = sub_180A52230(qword_18C909248);\n  v21 = (int)v20;\n  sub_183B57BE0(v20, a1, qword_18C907AF8, 0);\n  LOBYTE(v22) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C907CF0,\n    v21,\n    v22,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  v23 = sub_180A52230(qword_18C909248);\n  v24 = (int)v23;\n  sub_183B57BE0(v23, a1, qword_18C907AE0, 0);\n  LOBYTE(v25) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C907A98,\n    v24,\n    v25,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  v26 = sub_180A52230(qword_18C909248);\n  v27 = (int)v26;\n  sub_183B57BE0(v26, a1, qword_18C907AC8, 0);\n  LOBYTE(v28) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C907A60,\n    v27,\n    v28,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  v29 = sub_180A52230(qword_18C909248);\n  v30 = (int)v29;\n  sub_183B57BE0(v29, a1, qword_18C907AC0, 0);\n  LOBYTE(v31) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C907AB0,\n    v30,\n    v31,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  v32 = sub_180A52230(qword_18C909248);\n  v33 = (int)v32;\n  sub_183B57BE0(v32, a1, qword_18C907AB8, 0);\n  LOBYTE(v34) = 2;\n  sub_183573F50(\n    (_DWORD)v2,\n    qword_18C907A78,\n    v33,\n    v34,\n    *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(qword_18C909408 + 40) + 192LL) + 280LL));\n  return v2;\n}\n"
+ },
+ {
+  "class": "WorldSpawn_41CA",
+  "class_obf": "ÌÏÌÌÏÌÌÏÎÎÌÍÎÌÎÏÍÌÏÎÍÏÏ",
+  "parent": "",
+  "method": "m_0C3",
+  "cv_key": "WorldSpawn_41CA::m_0C3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A7720(\n        __int64 (__fastcall *a1)(__int64, _QWORD, __int64, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  return a1(a3, *a4, a3, a4[2], a4[3], a4[4], a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawn_41CA",
+  "class_obf": "ÌÏÌÌÏÌÌÏÎÎÌÍÎÌÎÏÍÌÏÎÍÏÏ",
+  "parent": "",
+  "method": "m_276",
+  "cv_key": "WorldSpawn_41CA::m_276",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A7600(\n        __int64 (__fastcall *a1)(__int64, __int64, __int128 *),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4)\n{\n  __int64 v4; // rdx\n  __int128 v6; // [rsp+40h] [rbp-18h] BYREF\n\n  v4 = *a4;\n  v6 = *(_OWORD *)a4[1];\n  return a1(a3, v4, &v6);\n}\n"
+ },
+ {
+  "class": "WorldSpawn_41CA",
+  "class_obf": "ÌÏÌÌÏÌÌÏÎÎÌÍÎÌÎÏÍÌÏÎÍÏÏ",
+  "parent": "",
+  "method": "m_47E",
+  "cv_key": "WorldSpawn_41CA::m_47E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A6B10(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, _DWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  return a1(\n           a3,\n           *(_QWORD *)a4,\n           *(_QWORD *)(a4 + 8),\n           **(unsigned int **)(a4 + 16),\n           **(_DWORD **)(a4 + 24),\n           *(_QWORD *)(a4 + 32),\n           a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawn_41CA",
+  "class_obf": "ÌÏÌÌÏÌÌÏÎÎÌÍÎÌÎÏÍÌÏÎÍÏÏ",
+  "parent": "",
+  "method": "m_54C",
+  "cv_key": "WorldSpawn_41CA::m_54C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A8540(__int64 (__fastcall *a1)(__int64), __int64 a2, __int64 a3)\n{\n  return a1(a3);\n}\n"
+ },
+ {
+  "class": "WorldSpawn_41CA",
+  "class_obf": "ÌÏÌÌÏÌÌÏÎÎÌÍÎÌÎÏÍÌÏÎÍÏÏ",
+  "parent": "",
+  "method": "m_5B4",
+  "cv_key": "WorldSpawn_41CA::m_5B4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A7600(\n        __int64 (__fastcall *a1)(__int64, __int64, __int128 *),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4)\n{\n  __int64 v4; // rdx\n  __int128 v6; // [rsp+40h] [rbp-18h] BYREF\n\n  v4 = *a4;\n  v6 = *(_OWORD *)a4[1];\n  return a1(a3, v4, &v6);\n}\n"
+ },
+ {
+  "class": "WorldSpawn_41CA",
+  "class_obf": "ÌÏÌÌÏÌÌÏÎÎÌÍÎÌÎÏÍÌÏÎÍÏÏ",
+  "parent": "",
+  "method": "m_5CC",
+  "cv_key": "WorldSpawn_41CA::m_5CC",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A63E0(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  return a1(\n           a3,\n           *(_QWORD *)a4,\n           **(_QWORD **)(a4 + 8),\n           *(_QWORD *)(a4 + 16),\n           **(_QWORD **)(a4 + 24),\n           *(_QWORD *)(a4 + 32),\n           a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawn_41CA",
+  "class_obf": "ÌÏÌÌÏÌÌÏÎÎÌÍÎÌÎÏÍÌÏÎÍÏÏ",
+  "parent": "",
+  "method": "m_5F1",
+  "cv_key": "WorldSpawn_41CA::m_5F1",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A6A20(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, _DWORD, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  char v5; // [rsp+28h] [rbp-20h]\n\n  v5 = **(_BYTE **)(a4 + 32);\n  return a1(a3, *(_QWORD *)a4, *(_QWORD *)(a4 + 8), **(unsigned int **)(a4 + 16), **(_DWORD **)(a4 + 24), v5, a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawn_41CA",
+  "class_obf": "ÌÏÌÌÏÌÌÏÎÎÌÍÎÌÎÏÍÌÏÎÍÏÏ",
+  "parent": "",
+  "method": "m_63E",
+  "cv_key": "WorldSpawn_41CA::m_63E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A6260(\n        __int64 (__fastcall *a1)(__int64, __int64, __int64, _OWORD *, __int64, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4)\n{\n  _OWORD *v4; // rax\n  __int128 v7; // xmm1\n  __int64 v8; // r8\n  __int64 v9; // rdx\n  __int128 v10; // xmm0\n  __int128 v11; // xmm1\n  __int128 v12; // xmm0\n  __int128 v13; // xmm1\n  __int128 v14; // xmm0\n  __int128 v15; // xmm1\n  __int128 v16; // xmm0\n  __int64 v17; // rax\n  __int64 v19; // [rsp+28h] [rbp-C0h]\n  _OWORD v21[10]; // [rsp+40h] [rbp-A8h] BYREF\n\n  v4 = (_OWORD *)a4[2];\n  v7 = v4[1];\n  v8 = *(unsigned int *)a4[1];\n  v9 = *a4;\n  v21[0] = *v4;\n  v10 = v4[2];\n  v21[1] = v7;\n  v11 = v4[3];\n  v21[2] = v10;\n  v12 = v4[4];\n  v21[3] = v11;\n  v13 = v4[5];\n  v21[4] = v12;\n  v14 = v4[6];\n  v21[5] = v13;\n  v15 = v4[8];\n  v21[6] = v14;\n  v21[7] = v4[7];\n  v16 = v4[9];\n  v19 = a4[4];\n  v17 = a4[3];\n  v21[8] = v15;\n  v21[9] = v16;\n  return a1(a3, v9, v8, v21, v17, v19, a2);\n}\n"
+ },
+ {
+  "class": "WorldSpawn_41CA",
+  "class_obf": "ÌÏÌÌÏÌÌÏÎÎÌÍÎÌÎÏÍÌÏÎÍÏÏ",
+  "parent": "",
+  "method": "m_718",
+  "cv_key": "WorldSpawn_41CA::m_718",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A5F60(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4)\n{\n  return a1(\n           a3,\n           *(_QWORD *)a4,\n           **(unsigned int **)(a4 + 8),\n           *(_QWORD *)(a4 + 16),\n           *(_QWORD *)(a4 + 24),\n           **(_QWORD **)(a4 + 32),\n           a2);\n}\n"
+ }
+]

@@ -1,0 +1,6 @@
+{
+ "PointerContinuePressed_791E::m_F64": "IndexOf",
+ "PointerEnterPointerExit_D0AA::m_D58": "InvokePointerEnterPointerExitHandlers",
+ "PointerEnterPointerExit_D0AA::m_F36": "InvokePointerEnterPointerExitHandler",
+ "PointerExitPointerDown_E559_D6F9::m_7B6": "Equals"
+}

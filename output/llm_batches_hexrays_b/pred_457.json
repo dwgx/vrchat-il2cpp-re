@@ -1,0 +1,5 @@
+{
+ "PlayerMoveNext_0FC9::m_054": "ResetBrotliHasher",
+ "PlayerMoveNext_0FC9::m_ACC": "BrotliEncoderSetParameter",
+ "PlayerMoveNext_0FC9::m_E59": "ResetBrotliHasher"
+}

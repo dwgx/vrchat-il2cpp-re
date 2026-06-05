@@ -1,112 +1,112 @@
 [
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_61C",
-  "cv_key": "VRC_Main_F4CB::m_61C",
+  "method": "m_0E3",
+  "cv_key": "TransformPhysicsSystem_923C::m_0E3",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "__int64 __fastcall sub_1808435E0(\n        __int64 (__fastcall *a1)(__int64, __int64, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4)\n{\n  __int64 v7; // rax\n  __int64 v8; // rcx\n  __int64 v9; // rdx\n  __int128 v10; // xmm1\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  _OWORD v15[5]; // [rsp+20h] [rbp-68h] BYREF\n  __int64 v16; // [rsp+70h] [rbp-18h]\n\n  v7 = a4[2];\n  v8 = *a4;\n  v9 = *(unsigned int *)a4[1];\n  v10 = *(_OWORD *)(v7 + 16);\n  v15[0] = *(_OWORD *)v7;\n  v11 = *(_OWORD *)(v7 + 32);\n  v15[1] = v10;\n  v12 = *(_OWORD *)(v7 + 48);\n  v15[2] = v11;\n  v13 = *(_OWORD *)(v7 + 64);\n  v15[3] = v12;\n  *(_QWORD *)&v12 = *(_QWORD *)(v7 + 80);\n  v15[4] = v13;\n  v16 = v12;\n  return a1(v8, v9, v15, a2);\n}\n"
+  "pseudocode": "__int64 __fastcall sub_18096FDF0(__int64 a1, __int64 a2)\n{\n  __int64 result; // rax\n\n  if ( !*(_QWORD *)(a1 + 24) || (result = sub_187E10940(*(_QWORD *)(a1 + 24), *(unsigned int *)(a1 + 16), 0), !a2) )\n    sub_180AAE510(a1, a2);\n  *(_DWORD *)(a2 + 16) = result;\n  return result;\n}\n"
  },
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_64F",
-  "cv_key": "VRC_Main_F4CB::m_64F",
+  "method": "m_0F0",
+  "cv_key": "TransformPhysicsSystem_923C::m_0F0",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "__int64 __fastcall sub_18084D6E0(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned __int8 **a4,\n        _DWORD *a5)\n{\n  __int64 result; // rax\n\n  result = a1(**a4, *(unsigned int *)a4[1], a2);\n  *a5 = result;\n  return result;\n}\n"
+  "pseudocode": "double sub_180982C20()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n  double result; // xmm0_8\n\n  v0 = *(_QWORD *)(qword_18C7F5120 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    return YloSGiLVOEi_0(v1);\n  return result;\n}\n"
  },
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_65C",
-  "cv_key": "VRC_Main_F4CB::m_65C",
+  "method": "m_0FA",
+  "cv_key": "TransformPhysicsSystem_923C::m_0FA",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "__int64 __fastcall sub_180845700(\n        __int64 (__fastcall *a1)(char *, char *, char *, __int64),\n        __int64 a2,\n        __int64 a3,\n        char **a4)\n{\n  __int64 v5; // rsi\n  __int64 v7; // rcx\n  __int64 v8; // rax\n  unsigned __int64 v9; // rdx\n  __int64 v10; // rcx\n  unsigned __int64 v11; // rcx\n  void *v12; // rsp\n  void *v13; // rsp\n  char *v14; // rdi\n  char vars0; // [rsp+20h] [rbp+0h] BYREF\n\n  v5 = a2;\n  v7 = **(_QWORD **)(a2 + 48);\n  if ( *(int *)(v7 + 8) >= 0 )\n  {\n    v14 = *a4;\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v8 = sub_180A844A0(v7, a2);\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      v8 = sub_180A4EBA0(v8);\n    v9 = *(unsigned int *)(v8 + 252);\n    v10 = v9 + 15;\n    if ( v9 + 15 < v9 )\n      v10 = 0xFFFFFFFFFFFFFF0LL;\n    v11 = v10 & 0xFFFFFFFFFFFFFFF0uLL;\n    v12 = alloca(v11);\n    v13 = alloca(v11);\n    v14 = &vars0;\n    sub_180B276D0(&vars0, *a4, v9);\n  }\n  return a1(v14, a4[1], a4[2], v5);\n}\n"
+  "pseudocode": "__int64 __fastcall sub_180975A20(__int64 a1, __int64 a2)\n{\n  __int64 v3; // rax\n  __int128 v4; // xmm1\n  __int128 v5; // xmm0\n  __int128 v6; // xmm1\n  _BYTE v8[88]; // [rsp+20h] [rbp-58h] BYREF\n\n  v3 = sub_187EBCB80(v8, a2 + 16);\n  v4 = *(_OWORD *)(v3 + 16);\n  *(_OWORD *)a1 = *(_OWORD *)v3;\n  v5 = *(_OWORD *)(v3 + 32);\n  *(_OWORD *)(a1 + 16) = v4;\n  v6 = *(_OWORD *)(v3 + 48);\n  *(_OWORD *)(a1 + 32) = v5;\n  *(_QWORD *)&v5 = *(_QWORD *)(v3 + 64);\n  LODWORD(v3) = *(_DWORD *)(v3 + 72);\n  *(_OWORD *)(a1 + 48) = v6;\n  *(_QWORD *)(a1 + 64) = v5;\n  *(_DWORD *)(a1 + 72) = v3;\n  return a1;\n}\n"
  },
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_662",
-  "cv_key": "VRC_Main_F4CB::m_662",
+  "method": "m_106",
+  "cv_key": "TransformPhysicsSystem_923C::m_106",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "__int64 __fastcall sub_18083DA80(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        _DWORD *a5)\n{\n  __int64 result; // rax\n\n  result = a1(*(_QWORD *)a4, *(_QWORD *)(a4 + 8), **(unsigned __int8 **)(a4 + 16), a2);\n  *a5 = result;\n  return result;\n}\n"
+  "pseudocode": "__int64 __fastcall sub_18096DB00(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rdi\n  __int64 *v5; // rdx\n  __int64 v6; // rtt\n  __int64 v7; // r8\n  int v8; // eax\n  __int64 v9; // r8\n  __int128 v11; // [rsp+20h] [rbp-28h] BYREF\n  __int128 v12; // [rsp+30h] [rbp-18h] BYREF\n\n  v2 = qword_18C9285B0;\n  if ( !*(_QWORD *)(qword_18C9285B0 + 56) )\n    sub_180A4EC20(qword_18C9285B0);\n  *((_QWORD *)&v11 + 1) = 0;\n  if ( !a2 )\n    sub_186716300(3, 0);\n  *(_QWORD *)&v11 = a2;\n  if ( dword_18CE1C2E8 )\n  {\n    v5 = &qword_18CEAB0E0[(((unsigned __int64)&v11 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v5);\n    do\n      v6 = *v5;\n    while ( v6 != _InterlockedCompareExchange64(v5, *v5 | (1LL << (((unsigned __int64)&v11 >> 12) & 0x3F)), *v5) );\n  }\n  v7 = *(_QWORD *)(v2 + 56);\n  v8 = *(_DWORD *)(a2 + 24);\n  DWORD2(v11) = 0;\n  HIDWORD(v11) = v8;\n  v9 = *(_QWORD *)(v7 + 24);\n  v12 = v11;\n  return sub_182EEA230(a1, &v12, v9);\n}\n"
  },
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_6A6",
-  "cv_key": "VRC_Main_F4CB::m_6A6",
+  "method": "m_108",
+  "cv_key": "TransformPhysicsSystem_923C::m_108",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "__int64 __fastcall sub_18084F060(\n        __int64 (__fastcall *a1)(_OWORD *, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _OWORD **a4,\n        __int64 *a5)\n{\n  _OWORD *v5; // rax\n  _OWORD *v7; // rdx\n  __int128 v8; // xmm1\n  __int128 v9; // xmm0\n  __int64 result; // rax\n  _OWORD v11[3]; // [rsp+20h] [rbp-48h] BYREF\n  __int64 v12; // [rsp+50h] [rbp-18h]\n\n  v5 = *a4;\n  v7 = a4[1];\n  v8 = (*a4)[1];\n  v11[0] = **a4;\n  v9 = v5[2];\n  v11[1] = v8;\n  *(_QWORD *)&v8 = *((_QWORD *)v5 + 6);\n  v11[2] = v9;\n  v12 = v8;\n  result = a1(v11, v7, a2);\n  *a5 = result;\n  return result;\n}\n"
+  "pseudocode": "_OWORD *__fastcall sub_1809706D0(_OWORD *a1, int a2)\n{\n  int v2; // edi\n  signed __int32 v5[8]; // [rsp+0h] [rbp-48h] BYREF\n  char v6; // [rsp+30h] [rbp-18h] BYREF\n\n  v2 = a2 + 16;\n  if ( !byte_18CE53205 )\n  {\n    sub_180AD1AA0(&qword_18C928AB0);\n    _InterlockedOr(v5, 0);\n    byte_18CE53205 = 1;\n  }\n  *a1 = *(_OWORD *)sub_1801C2EA0((unsigned int)&v6, v2, 10, 1, qword_18C928AB0);\n  return a1;\n}\n"
  },
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_6AD",
-  "cv_key": "VRC_Main_F4CB::m_6AD",
+  "method": "m_11A",
+  "cv_key": "TransformPhysicsSystem_923C::m_11A",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "_OWORD *__fastcall sub_180857940(\n        __int64 (__fastcall *a1)(_BYTE *, __int64 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4,\n        _OWORD *a5)\n{\n  int v5; // eax\n  __int128 *v6; // rax\n  __int128 v7; // xmm0\n  __int128 v8; // xmm1\n  __int128 v9; // xmm2\n  __int128 v10; // xmm3\n  __int64 v12; // [rsp+20h] [rbp-58h] BYREF\n  int v13; // [rsp+28h] [rbp-50h]\n  _BYTE v14[72]; // [rsp+30h] [rbp-48h] BYREF\n\n  v5 = *((_DWORD *)*a4 + 2);\n  v12 = **a4;\n  v13 = v5;\n  v6 = (__int128 *)a1(v14, &v12, a2);\n  v7 = *v6;\n  v8 = v6[1];\n  v9 = v6[2];\n  v10 = v6[3];\n  *a5 = v7;\n  a5[1] = v8;\n  a5[2] = v9;\n  a5[3] = v10;\n  return a5;\n}\n"
+  "pseudocode": "__int64 __fastcall sub_18096DD10(__int64 a1)\n{\n  __int64 v1; // rbx\n  int v2; // eax\n  __int64 v3; // rdx\n  __int64 v4; // rcx\n\n  v1 = a1 + 16;\n  v2 = sub_187E0E4E0(a1 + 16, 5, 0);\n  if ( !v2 )\n    return 0;\n  v4 = *(_QWORD *)(v1 + 8);\n  if ( !v4 )\n    sub_180AAE510(0, v3);\n  return sub_187E084A0(v4, (unsigned int)(v2 + *(_DWORD *)v1), 0);\n}\n"
  },
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_6B0",
-  "cv_key": "VRC_Main_F4CB::m_6B0",
+  "method": "m_11C",
+  "cv_key": "TransformPhysicsSystem_923C::m_11C",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "__int64 __fastcall sub_18083D290(\n        __int64 (__fastcall *a1)(_BYTE *, _QWORD, unsigned int *),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4,\n        __int64 a5)\n{\n  __int64 v5; // rax\n  __int128 v6; // xmm6\n  __int128 v7; // xmm7\n  __int128 v8; // xmm8\n  __int128 v9; // xmm9\n  __int128 v10; // xmm1\n  __int128 v11; // xmm2\n  __int128 v12; // xmm3\n  __int128 v13; // xmm4\n  __int128 v14; // xmm5\n  __int64 v15; // xmm0_8\n  _BYTE v17[232]; // [rsp+30h] [rbp-E8h] BYREF\n\n  v5 = a1(v17, **a4, a4[1]);\n  v6 = *(_OWORD *)(v5 + 80);\n  v7 = *(_OWORD *)(v5 + 96);\n  v8 = *(_OWORD *)(v5 + 112);\n  v9 = *(_OWORD *)(v5 + 128);\n  v10 = *(_OWORD *)v5;\n  v11 = *(_OWORD *)(v5 + 16);\n  v12 = *(_OWORD *)(v5 + 32);\n  v13 = *(_OWORD *)(v5 + 48);\n  v14 = *(_OWORD *)(v5 + 64);\n  v15 = *(_QWORD *)(v5 + 144);\n  *(_OWORD *)a5 = v10;\n  *(_OWORD *)(a5 + 16) = v11;\n  *(_OWORD *)(a5 + 32) = v12;\n  *(_OWORD *)(a5 + 48) = v13;\n  *(_OWORD *)(a5 + 64) = v14;\n  *(_OWORD *)(a5 + 80) = v6;\n  *(_OWORD *)(a5 + 96) = v7;\n  *(_OWORD *)(a5 + 112) = v8;\n  *(_OWORD *)(a5 + 128) = v9;\n  *(_QWORD *)(a5 + 144) = v15;\n  return a5;\n}\n"
+  "pseudocode": "double sub_18097ED00()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n  double result; // xmm0_8\n\n  v0 = *(_QWORD *)(qword_18C8A57E8 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 56LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    return YloSGiLVOEi_0(v1);\n  return result;\n}\n"
  },
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_6F8",
-  "cv_key": "VRC_Main_F4CB::m_6F8",
+  "method": "m_120",
+  "cv_key": "TransformPhysicsSystem_923C::m_120",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "__int64 __fastcall sub_180861E90(__int64 a1, float a2, __int64 a3)\n{\n  float v4; // [rsp+48h] [rbp+10h] BYREF\n  unsigned __int8 v5; // [rsp+50h] [rbp+18h] BYREF\n  float *v6; // [rsp+58h] [rbp+20h] BYREF\n\n  v4 = a2;\n  v6 = &v4;\n  (*(void (__fastcall **)(_QWORD, __int64, __int64, float **, unsigned __int8 *))(a3 + 16))(\n    *(_QWORD *)a3,\n    a3,\n    a1,\n    &v6,\n    &v5);\n  return v5;\n}\n"
+  "pseudocode": "double sub_18097D6D0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n  double result; // xmm0_8\n\n  v0 = *(_QWORD *)(qword_18C8A61E0 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 48LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 48LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    return YloSGiLVOEi_0(v1);\n  return result;\n}\n"
  },
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_6FA",
-  "cv_key": "VRC_Main_F4CB::m_6FA",
+  "method": "m_121",
+  "cv_key": "TransformPhysicsSystem_923C::m_121",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "float *__fastcall sub_1808415F0(\n        float (__fastcall *a1)(__int128 *, __int64, __int128 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4,\n        float *a5)\n{\n  __int128 *v7; // r8\n  __int64 v8; // rdx\n  float v9; // xmm0_4\n  __int128 v11; // [rsp+20h] [rbp-18h] BYREF\n\n  v7 = a4[2];\n  v8 = *(unsigned int *)a4[1];\n  v11 = **a4;\n  v9 = a1(&v11, v8, v7, a2);\n  *a5 = v9;\n  return a5;\n}\n"
+  "pseudocode": "__int64 __fastcall sub_180973C90(__int64 a1)\n{\n  __int64 v1; // rsi\n  int v2; // eax\n  __int64 v3; // rdx\n  int v4; // edi\n  __int64 v5; // rcx\n  unsigned int v6; // ebx\n  int v7; // eax\n  int v8; // r14d\n  unsigned int v9; // ebx\n  int v10; // eax\n  __int64 v11; // rbp\n  int v12; // ebx\n  __int64 v13; // rdi\n  char v14; // al\n  __int64 v15; // rcx\n  signed __int32 v17[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v1 = a1 + 16;\n  if ( !byte_18CE5340A )\n  {\n    sub_180AD1AA0(&qword_18C86B030);\n    _InterlockedOr(v17, 0);\n    byte_18CE5340A = 1;\n  }\n  v2 = sub_187E16210(v1, 4, 0);\n  v4 = v2;\n  if ( !v2 )\n    return 0;\n  v5 = *(_QWORD *)(v1 + 8);\n  if ( !v5 )\n    goto LABEL_16;\n  v6 = v2 + *(_DWORD *)v1;\n  v7 = sub_187E10940(v5, v6, 0);\n  v5 = *(_QWORD *)(v1 + 8);\n  v8 = v7 + v6 + 4;\n  if ( !v5 )\n    goto LABEL_16;\n  v9 = v4 + *(_DWORD *)v1;\n  v10 = sub_187E10940(v5, v9, 0);\n  v5 = *(_QWORD *)(v1 + 8);\n  if ( !v5 )\n    goto LABEL_16;\n  v11 = (unsigned int)sub_187E10940(v5, v10 + v9, 0);\n  v12 = 0;\n  v13 = MmKHvpwELkW_0(qword_18C86B030, v11);\n  if ( (int)v11 > 0 )\n  {\n    while ( 1 )\n    {\n      v5 = *(_QWORD *)(v1 + 8);\n      if ( !v5 )\n        break;\n      v14 = sub_187E10590(v5, (unsigned int)(v12 + v8), 0);\n      if ( !v13 )\n        break;\n      if ( (unsigned int)v12 >= *(_DWORD *)(v13 + 24) )\n        sub_180AAE530(v5, v3);\n      v15 = v12++;\n      *(_BYTE *)(v15 + v13 + 32) = v14;\n      if ( v12 >= (int)v11 )\n        return v13;\n    }\nLABEL_16:\n    sub_180AAE510(v5, v3);\n  }\n  return v13;\n}\n"
  },
  {
-  "class": "VRC_Main_F4CB",
-  "class_obf": "ÌÏÌÍÏÏÏÌÍÏÎÏÍÏÏÏÎÏÌÌÎÍÎ",
+  "class": "TransformPhysicsSystem_923C",
+  "class_obf": "ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ",
   "parent": "",
-  "method": "m_71C",
-  "cv_key": "VRC_Main_F4CB::m_71C",
+  "method": "m_124",
+  "cv_key": "TransformPhysicsSystem_923C::m_124",
   "named_methods": [],
   "fields": [],
   "strings": [],
-  "pseudocode": "__int64 __fastcall sub_180840680(\n        __int64 (__fastcall *a1)(_QWORD, _BYTE *, _BYTE *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4,\n        __int64 *a5)\n{\n  __int64 v6; // r14\n  __int64 v8; // rcx\n  __int64 v9; // rax\n  unsigned __int64 v10; // rdx\n  __int64 v11; // rcx\n  unsigned __int64 v12; // rcx\n  void *v13; // rsp\n  void *v14; // rsp\n  _BYTE *v15; // rsi\n  __int64 v16; // rcx\n  __int64 v17; // rax\n  unsigned __int64 v18; // rdx\n  __int64 v19; // rcx\n  unsigned __int64 v20; // rcx\n  void *v21; // rsp\n  void *v22; // rsp\n  _BYTE *v23; // rdi\n  __int64 result; // rax\n  _BYTE v25[16]; // [rsp+20h] [rbp+0h] BYREF\n\n  v6 = a2;\n  v8 = *(_QWORD *)(*(_QWORD *)(a2 + 48) + 8LL);\n  if ( *(int *)(v8 + 8) >= 0 )\n  {\n    v15 = (_BYTE *)a4[1];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v9 = sub_180A844A0(v8, a2);\n    if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n      v9 = sub_180A4EBA0(v9);\n    v10 = *(unsigned int *)(v9 + 252);\n    v11 = v10 + 15;\n    if ( v10 + 15 < v10 )\n      v11 = 0xFFFFFFFFFFFFFF0LL;\n    v12 = v11 & 0xFFFFFFFFFFFFFFF0uLL;\n    v13 = alloca(v12);\n    v14 = alloca(v12);\n    v15 = v25;\n    sub_180B276D0(v25, a4[1], v10);\n  }\n  v16 = *(_QWORD *)(*(_QWORD *)(v6 + 48) + 16LL);\n  if ( *(int *)(v16 + 8) >= 0 )\n  {\n    v23 = (_BYTE *)a4[2];\n  }\n  else\n  {\n    LOBYTE(a2) = 1;\n    v17 = sub_180A844A0(v16, a2);\n    if ( (*(_BYTE *)(v17 + 309) & 1) == 0 )\n      v17 = sub_180A4EBA0(v17);\n    v18 = *(unsigned int *)(v17 + 252);\n    v19 = v18 + 15;\n    if ( v18 + 15 < v18 )\n      v19 = 0xFFFFFFFFFFFFFF0LL;\n    v20 = v19 & 0xFFFFFFFFFFFFFFF0uLL;\n    v21 = alloca(v20);\n    v22 = alloca(v20);\n    v23 = v25;\n    sub_180B276D0(v25, a4[2], v18);\n  }\n  result = a1(*a4, v15, v23, v6);\n  *a5 = result;\n  return result;\n}\n"
+  "pseudocode": "_OWORD *__fastcall sub_180972DC0(_OWORD *a1, int a2)\n{\n  int v2; // edi\n  signed __int32 v5[8]; // [rsp+0h] [rbp-48h] BYREF\n  char v6; // [rsp+30h] [rbp-18h] BYREF\n\n  v2 = a2 + 16;\n  if ( !byte_18CE53373 )\n  {\n    sub_180AD1AA0(&qword_18C928AB0);\n    _InterlockedOr(v5, 0);\n    byte_18CE53373 = 1;\n  }\n  *a1 = *(_OWORD *)sub_1801C2EA0((unsigned int)&v6, v2, 4, 1, qword_18C928AB0);\n  return a1;\n}\n"
  }
 ]

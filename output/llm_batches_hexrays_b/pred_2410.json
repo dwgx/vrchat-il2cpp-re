@@ -1,0 +1,5 @@
+{
+ "VRC_MainSiblingSibling_516E::m_27C": "SetFiberLocalStorageValue",
+ "VRC_MainSiblingSibling_516E::m_2AC": "CommonExit",
+ "VRC_MainSiblingSibling_516E::m_3D4": "SetErrnoFromOsError"
+}

@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_AEA1::m_016": "FindInt32InRange",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AEA1::m_24F": "FindByteSequenceInRange",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AEA1::m_410": "DeleteCriticalSectionPool"
+}

@@ -1,0 +1,4 @@
+{
+ "NetworkReadyHandler_BC67::m_45D": "BeginInvoke",
+ "NetworkReadyHandler_BC67::m_459": "SetTransformPosition"
+}

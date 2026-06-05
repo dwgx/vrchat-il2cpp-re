@@ -1,0 +1,10 @@
+{
+ "UpdateHeight_7FC3::m_28D": "ConvertUnsignedIntToDecimalString",
+ "UpdateHeight_7FC3::m_2BE": "ParseWideIntegerWithBase",
+ "UpdateHeight_7FC3::m_34E": "ReadScanfConversionArgument",
+ "UpdateHeight_7FC3::m_4D6": "ParsePositionalParameterIndex",
+ "UpdateHeight_7FC3::m_4F5": "ReadScanfConversionArgument",
+ "UpdateHeight_7FC3::m_55C": "AreFormatArgumentTypesCompatible",
+ "UpdateHeight_7FC3::m_632": "GetNextFormatArgument",
+ "UpdateHeight_7FC3::m_640": "ReadConsoleWideChars"
+}

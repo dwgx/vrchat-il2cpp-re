@@ -1,0 +1,112 @@
+[
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_088",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_088",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18047A830(__int64 a1, __int128 *a2)\n{\n  __int64 v2; // rax\n  __int64 result; // rax\n  _BYTE *v5; // rax\n  __int64 v6; // rcx\n  __int128 v7; // xmm0\n  __int128 v8; // xmm1\n  __int128 v9; // xmm0\n  __int128 v10; // xmm1\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm1\n  __int64 v15; // rcx\n  __int128 v16; // xmm1\n  __int128 v17; // xmm0\n  __int128 v18; // xmm1\n  __int128 v19; // xmm0\n  __int128 v20; // xmm1\n  __int128 v21; // xmm0\n  __int64 v22; // rdx\n  _BYTE v23[904]; // [rsp+20h] [rbp-388h] BYREF\n\n  v2 = *(_QWORD *)(a1 + 16);\n  if ( !v2 )\n    sub_180AAE510(a1, a2);\n  result = *(unsigned int *)(v2 + 24);\n  if ( *(_DWORD *)(a1 + 24) < (int)result )\n  {\n    v5 = v23;\n    v6 = 6;\n    do\n    {\n      v5 += 128;\n      v7 = *a2;\n      v8 = a2[1];\n      a2 += 8;\n      *((_OWORD *)v5 - 8) = v7;\n      v9 = *(a2 - 6);\n      *((_OWORD *)v5 - 7) = v8;\n      v10 = *(a2 - 5);\n      *((_OWORD *)v5 - 6) = v9;\n      v11 = *(a2 - 4);\n      *((_OWORD *)v5 - 5) = v10;\n      v12 = *(a2 - 3);\n      *((_OWORD *)v5 - 4) = v11;\n      v13 = *(a2 - 2);\n      *((_OWORD *)v5 - 3) = v12;\n      v14 = *(a2 - 1);\n      *((_OWORD *)v5 - 2) = v13;\n      *((_OWORD *)v5 - 1) = v14;\n      --v6;\n    }\n    while ( v6 );\n    v15 = *(_QWORD *)(a1 + 16);\n    v16 = a2[1];\n    *(_OWORD *)v5 = *a2;\n    v17 = a2[2];\n    *((_OWORD *)v5 + 1) = v16;\n    v18 = a2[3];\n    *((_OWORD *)v5 + 2) = v17;\n    v19 = a2[4];\n    *((_OWORD *)v5 + 3) = v18;\n    v20 = a2[5];\n    *((_OWORD *)v5 + 4) = v19;\n    v21 = a2[6];\n    v22 = *((_QWORD *)a2 + 14);\n    *((_OWORD *)v5 + 5) = v20;\n    *((_OWORD *)v5 + 6) = v21;\n    *((_QWORD *)v5 + 14) = v22;\n    result = sub_180477320(v15, *(int *)(a1 + 24), v23);\n    ++*(_DWORD *)(a1 + 24);\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_0B7",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_0B7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18047AF10(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rax\n  __int64 v3; // rbx\n  __int64 v4; // rdx\n  unsigned int *v5; // rcx\n\n  v2 = *(_QWORD *)(a2 + 40);\n  v3 = a1 + 16;\n  if ( (*(_BYTE *)(v2 + 309) & 1) == 0 )\n    v2 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v4 = *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(v2 + 192) + 8LL) + 152LL);\n  v5 = (unsigned int *)(v3 + *(int *)(v4 + 148) - 16);\n  if ( *(int *)(*(_QWORD *)(v4 + 136) + 40LL) >= 0 )\n    v5 = (unsigned int *)(v3 + *(int *)(v4 + 148));\n  return *v5;\n}\n"
+ },
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_155",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_155",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18047A400(__int64 a1)\n{\n  return sub_180478150(a1 + 16);\n}\n"
+ },
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_217",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_217",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "float __fastcall sub_18047A390(__int64 a1)\n{\n  __int64 v1; // r8\n  __int64 v2; // rdx\n\n  v1 = *(int *)(a1 + 24);\n  v2 = *(_QWORD *)(a1 + 16);\n  *(_DWORD *)(a1 + 24) = v1 - 1;\n  if ( (int)v1 - 1 > 0 )\n  {\n    if ( v2 )\n    {\n      if ( (unsigned int)(v1 - 2) < *(_DWORD *)(v2 + 24) )\n        return *(float *)(v2 + 4 * (v1 - 2) + 32);\nLABEL_9:\n      sub_180AAE530(a1, v2);\n    }\nLABEL_8:\n    sub_180AAE510(a1, v2);\n  }\n  *(_DWORD *)(a1 + 24) = 1;\n  if ( !v2 )\n    goto LABEL_8;\n  if ( !*(_DWORD *)(v2 + 24) )\n    goto LABEL_9;\n  return *(float *)(v2 + 32);\n}\n"
+ },
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_458",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_458",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18047A830(__int64 a1, __int128 *a2)\n{\n  __int64 v2; // rax\n  __int64 result; // rax\n  _BYTE *v5; // rax\n  __int64 v6; // rcx\n  __int128 v7; // xmm0\n  __int128 v8; // xmm1\n  __int128 v9; // xmm0\n  __int128 v10; // xmm1\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm1\n  __int64 v15; // rcx\n  __int128 v16; // xmm1\n  __int128 v17; // xmm0\n  __int128 v18; // xmm1\n  __int128 v19; // xmm0\n  __int128 v20; // xmm1\n  __int128 v21; // xmm0\n  __int64 v22; // rdx\n  _BYTE v23[904]; // [rsp+20h] [rbp-388h] BYREF\n\n  v2 = *(_QWORD *)(a1 + 16);\n  if ( !v2 )\n    sub_180AAE510(a1, a2);\n  result = *(unsigned int *)(v2 + 24);\n  if ( *(_DWORD *)(a1 + 24) < (int)result )\n  {\n    v5 = v23;\n    v6 = 6;\n    do\n    {\n      v5 += 128;\n      v7 = *a2;\n      v8 = a2[1];\n      a2 += 8;\n      *((_OWORD *)v5 - 8) = v7;\n      v9 = *(a2 - 6);\n      *((_OWORD *)v5 - 7) = v8;\n      v10 = *(a2 - 5);\n      *((_OWORD *)v5 - 6) = v9;\n      v11 = *(a2 - 4);\n      *((_OWORD *)v5 - 5) = v10;\n      v12 = *(a2 - 3);\n      *((_OWORD *)v5 - 4) = v11;\n      v13 = *(a2 - 2);\n      *((_OWORD *)v5 - 3) = v12;\n      v14 = *(a2 - 1);\n      *((_OWORD *)v5 - 2) = v13;\n      *((_OWORD *)v5 - 1) = v14;\n      --v6;\n    }\n    while ( v6 );\n    v15 = *(_QWORD *)(a1 + 16);\n    v16 = a2[1];\n    *(_OWORD *)v5 = *a2;\n    v17 = a2[2];\n    *((_OWORD *)v5 + 1) = v16;\n    v18 = a2[3];\n    *((_OWORD *)v5 + 2) = v17;\n    v19 = a2[4];\n    *((_OWORD *)v5 + 3) = v18;\n    v20 = a2[5];\n    *((_OWORD *)v5 + 4) = v19;\n    v21 = a2[6];\n    v22 = *((_QWORD *)a2 + 14);\n    *((_OWORD *)v5 + 5) = v20;\n    *((_OWORD *)v5 + 6) = v21;\n    *((_QWORD *)v5 + 14) = v22;\n    result = sub_180477320(v15, *(int *)(a1 + 24), v23);\n    ++*(_DWORD *)(a1 + 24);\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_4B5",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_4B5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180479440(__int64 a1, __int64 a2)\n{\n  __int64 v2; // r9\n  __int64 v3; // r8\n  int v4; // eax\n  __int64 v6; // rcx\n  int v7; // eax\n\n  v2 = a1;\n  v3 = *(_QWORD *)(a2 + 16);\n  if ( *(int *)(a2 + 24) <= 1 )\n  {\n    if ( v3 )\n    {\n      if ( *(_DWORD *)(v3 + 24) )\n      {\n        v4 = *(_DWORD *)(v3 + 48);\n        *(_OWORD *)a1 = *(_OWORD *)(v3 + 32);\n        *(_DWORD *)(a1 + 16) = v4;\n        return a1;\n      }\nLABEL_9:\n      sub_180AAE530(a1, a2);\n    }\nLABEL_8:\n    sub_180AAE510(a1, a2);\n  }\n  if ( !v3 )\n    goto LABEL_8;\n  a1 = *(int *)(a2 + 24);\n  if ( (unsigned int)(a1 - 2) >= *(_DWORD *)(v3 + 24) )\n    goto LABEL_9;\n  v6 = 5 * a1;\n  v7 = *(_DWORD *)(v3 + 4 * v6 + 8);\n  *(_OWORD *)v2 = *(_OWORD *)(v3 + 4 * v6 - 8);\n  *(_DWORD *)(v2 + 16) = v7;\n  return v2;\n}\n"
+ },
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_510",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_510",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18047A340(__int64 a1)\n{\n  return sub_180477F00(a1 + 16);\n}\n"
+ },
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_768",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_768",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18047A540(__int64 a1, unsigned int a2, __int64 a3)\n{\n  __int64 v3; // rax\n  unsigned __int64 v4; // rbx\n  __int64 v5; // rdi\n  __int64 v6; // rax\n  __int64 v7; // rax\n  bool v8; // zf\n  __int64 *v9; // rdx\n  __int64 v10; // rtt\n  __int64 result; // rax\n\n  v3 = *(_QWORD *)(a3 + 40);\n  v4 = a1 + 16;\n  v5 = a2;\n  if ( (*(_BYTE *)(v3 + 309) & 1) == 0 )\n    v3 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v6 = *(_QWORD *)(*(_QWORD *)(v3 + 192) + 24LL);\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    v6 = sub_180A4EBA0(v6);\n  v7 = MmKHvpwELkW_0(v6, v5);\n  v8 = dword_18CE1C2E8 == 0;\n  *(_QWORD *)v4 = v7;\n  if ( !v8 )\n  {\n    v9 = &qword_18CEAB0E0[((v4 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v9);\n    do\n      v10 = *v9;\n    while ( v10 != _InterlockedCompareExchange64(v9, *v9 | (1LL << ((v4 >> 12) & 0x3F)), *v9) );\n  }\n  *(_DWORD *)(v4 + 904) = v5;\n  *(_DWORD *)(v4 + 8) = 0;\n  *(_DWORD *)(v4 + 908) = 0;\n  result = sub_180B27D70(v4 + 16, 0, 888);\n  *(_DWORD *)(v4 + 912) = 0;\n  return result;\n}\n"
+ },
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_848",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_848",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180479260(__int64 a1, __int64 a2)\n{\n  __int64 v2; // r8\n  __int64 v4; // rcx\n  __int64 v5; // rcx\n  int v6; // eax\n  int v8; // eax\n\n  v2 = *(_QWORD *)(a2 + 16);\n  v4 = *(int *)(a2 + 24);\n  *(_DWORD *)(a2 + 24) = v4 - 1;\n  if ( (int)v4 - 1 > 0 )\n  {\n    if ( v2 )\n    {\n      if ( (unsigned int)(v4 - 2) < *(_DWORD *)(v2 + 24) )\n      {\n        v5 = 5 * v4;\n        v6 = *(_DWORD *)(v2 + 4 * v5 + 8);\n        *(_OWORD *)a1 = *(_OWORD *)(v2 + 4 * v5 - 8);\n        *(_DWORD *)(a1 + 16) = v6;\n        return a1;\n      }\nLABEL_9:\n      sub_180AAE530(v4, a2);\n    }\nLABEL_8:\n    sub_180AAE510(v4, a2);\n  }\n  *(_DWORD *)(a2 + 24) = 1;\n  if ( !v2 )\n    goto LABEL_8;\n  if ( !*(_DWORD *)(v2 + 24) )\n    goto LABEL_9;\n  v8 = *(_DWORD *)(v2 + 48);\n  *(_OWORD *)a1 = *(_OWORD *)(v2 + 32);\n  *(_DWORD *)(a1 + 16) = v8;\n  return a1;\n}\n"
+ },
+ {
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "class_obf": "ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ",
+  "parent": "",
+  "method": "m_8AF",
+  "cv_key": "UdonUnregisterEventHandlerRegiSibling_581D::m_8AF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180479E50(__int64 a1, unsigned int a2, __int64 a3)\n{\n  __int64 v3; // rax\n  unsigned __int64 v4; // rbx\n  unsigned __int64 v5; // rdi\n  __int64 v6; // rax\n  unsigned __int64 v7; // rax\n  bool v8; // zf\n  __int64 *v9; // rdx\n  __int64 v10; // rtt\n\n  v3 = *(_QWORD *)(a3 + 40);\n  v4 = a1 + 16;\n  v5 = a2;\n  if ( (*(_BYTE *)(v3 + 309) & 1) == 0 )\n    v3 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v6 = *(_QWORD *)(*(_QWORD *)(v3 + 192) + 24LL);\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    v6 = sub_180A4EBA0(v6);\n  v7 = MmKHvpwELkW_0(v6, v5);\n  v8 = dword_18CE1C2E8 == 0;\n  *(_QWORD *)v4 = v7;\n  if ( !v8 )\n  {\n    v9 = &qword_18CEAB0E0[((v4 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v9);\n    do\n      v10 = *v9;\n    while ( v10 != _InterlockedCompareExchange64(v9, *v9 | (1LL << ((v4 >> 12) & 0x3F)), *v9) );\n  }\n  *(_DWORD *)(v4 + 24) = v5;\n  *(_DWORD *)(v4 + 8) = 0;\n  *(_QWORD *)(v4 + 28) = 0;\n  *(_QWORD *)(v4 + 16) = 0;\n  return 0;\n}\n"
+ }
+]

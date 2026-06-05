@@ -1,9 +1,7 @@
 {
- "VRC_MainSiblingSiblingSiblingSSibling_38AF::m_948": "DestroyUnityObject",
- "VRC_MainSiblingSiblingSiblingSSibling_38AF::m_A39": "DestroyUnityObject",
- "VRC_MainSiblingSiblingSiblingSSibling_38AF::m_A85": "DestroyUnityObject",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_018": "InitializeDictionaryStorage",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_07F": "InitializeDictionaryStorage",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_0C3": "ConstructWithCapacityAndComparer",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_0E7": "InitializeDictionaryStorage"
+ "ExceptionInt16OverflowComponent_B2EE::m_36B": "UpdateShader",
+ "ExceptionInt16OverflowComponent_B2EE::m_379": "CalculateReflectionMatrix",
+ "ExceptionInt16OverflowComponent_B2EE::m_37B": "CreateWaterObjects",
+ "ExceptionInt16OverflowComponent_B2EE::m_3A8": "OnWillRenderObject",
+ "ExceptionInt16OverflowComponent_B2EE::m_3C4": "FindHardwareWaterSupport"
 }

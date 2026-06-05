@@ -104,12 +104,22 @@ def run_one(batch_file: Path) -> tuple[str, int]:
         return batch_file.name, 0
 
     predictions = extract_json(response)
+    if predictions == {} and response.strip() == "{}":
+        with open(pred_file, "w", encoding="utf-8") as handle:
+            json.dump({}, handle, indent=1, ensure_ascii=False)
+        raw_path = BATCH_DIR / f"pred_{suffix}.json.raw.txt"
+        if raw_path.exists():
+            raw_path.unlink()
+        return batch_file.name, 0
     if not predictions:
         (BATCH_DIR / f"pred_{suffix}.json.raw.txt").write_text(response, encoding="utf-8")
         return batch_file.name, 0
 
     with open(pred_file, "w", encoding="utf-8") as handle:
         json.dump(predictions, handle, indent=1, ensure_ascii=False)
+    raw_path = BATCH_DIR / f"pred_{suffix}.json.raw.txt"
+    if raw_path.exists():
+        raw_path.unlink()
     return batch_file.name, len(predictions)
 
 

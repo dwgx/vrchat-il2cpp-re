@@ -1,5 +1,11 @@
 {
- "VRCNetworkBehaviourSibling_BF5Sibling_0941::m_C01": "ComputeCrc32",
- "VRCNetworkBehaviourSibling_BF5Sibling_0941::m_CF3": "ComputeCrc32",
- "VRCNetworkBehaviourSibling_BF5Sibling_0941::m_EEE": "ComputeCrc32"
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_594": "LastIndexOf",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_59F": "LastIndexOf",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_5B1": "IndexOf",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_674": "LastIndexOf",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_67C": "LastIndexOf",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_6CD": "BinarySearch",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_6D7": "LastIndexOf",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_6E1": "LastIndexOf",
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_740": "BinarySearch"
 }

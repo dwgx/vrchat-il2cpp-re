@@ -31,8 +31,7 @@ namespace VRC.UI.Elements.Menus
         public void ResetGalleryState(){} // RVA: 0x7FFAFBB3E280
         public void SetGalleryStateActive(){} // RVA: 0x7FFAFBB3E370
         public void get_ObservableList(){} // RVA: 0x7FFAFBB3E7A0
-        // ── Unresolved (hash) ──
-        public void m_079(){} // RVA: 0x7FFAFBB3E820
+        public void get_ObservableList_07966E63381C(){} // RVA: 0x7FFAFBB3E820
     }
 
     public class GalleryPhotosView
@@ -60,11 +59,11 @@ namespace VRC.UI.Elements.Menus
     public class HeaderElementContentView`1
     {
         // ── Methods ──
+        public void MoveNext(){} // RVA: 0x7FFAF2AD4A50
+        public void MoveNext_3539FAD5DD87(){} // RVA: 0x7FFAF2AD4A50
+        public void MoveNext_5CC7D653E8A9(){} // RVA: 0x7FFAF2ADDC60
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
-        public void m_11E(){} // RVA: 0x7FFAF2AD4A50
-        public void m_353(){} // RVA: 0x7FFAF2AD4A50
-        public void m_5CC(){} // RVA: 0x7FFAF2ADDC60
         public void m_357(){} // RVA: 0x7FFAF2ABCE10
         public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
@@ -72,11 +71,11 @@ namespace VRC.UI.Elements.Menus
     public class HeaderElementContentView`1
     {
         // ── Methods ──
+        public void MoveNext(){} // RVA: 0x7FFAF5FC1E10
+        public void MoveNext_3539FAD5DD87(){} // RVA: 0x7FFAF5FC2010
+        public void MoveNext_5CC7D653E8A9(){} // RVA: 0x7FFAF5FC20B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_11E(){} // RVA: 0x7FFAF5FC1E10
-        public void m_353(){} // RVA: 0x7FFAF5FC2010
-        public void m_5CC(){} // RVA: 0x7FFAF5FC20B0
         public void m_357(){} // RVA: 0x7FFAF2E2B370
         public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
@@ -84,11 +83,11 @@ namespace VRC.UI.Elements.Menus
     public class HeaderElementContentView`1
     {
         // ── Methods ──
+        public void MoveNext(){} // RVA: 0x7FFAF5FC1E10
+        public void MoveNext_3539FAD5DD87(){} // RVA: 0x7FFAF5FC2010
+        public void MoveNext_5CC7D653E8A9(){} // RVA: 0x7FFAF5FC20B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_11E(){} // RVA: 0x7FFAF5FC1E10
-        public void m_353(){} // RVA: 0x7FFAF5FC2010
-        public void m_5CC(){} // RVA: 0x7FFAF5FC20B0
         public void m_357(){} // RVA: 0x7FFAF2E2B370
         public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
@@ -96,11 +95,11 @@ namespace VRC.UI.Elements.Menus
     public class HeaderElementContentView`1
     {
         // ── Methods ──
+        public void MoveNext(){} // RVA: 0x7FFAF5FC1E10
+        public void MoveNext_3539FAD5DD87(){} // RVA: 0x7FFAF5FC2010
+        public void MoveNext_5CC7D653E8A9(){} // RVA: 0x7FFAF5FC20B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_11E(){} // RVA: 0x7FFAF5FC1E10
-        public void m_353(){} // RVA: 0x7FFAF5FC2010
-        public void m_5CC(){} // RVA: 0x7FFAF5FC20B0
         public void m_357(){} // RVA: 0x7FFAF2E2B370
         public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
@@ -108,11 +107,11 @@ namespace VRC.UI.Elements.Menus
     public class HeaderElementContentView`1
     {
         // ── Methods ──
+        public void MoveNext(){} // RVA: 0x7FFAF5FC1E10
+        public void MoveNext_3539FAD5DD87(){} // RVA: 0x7FFAF5FC2010
+        public void MoveNext_5CC7D653E8A9(){} // RVA: 0x7FFAF5FC20B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_11E(){} // RVA: 0x7FFAF5FC1E10
-        public void m_353(){} // RVA: 0x7FFAF5FC2010
-        public void m_5CC(){} // RVA: 0x7FFAF5FC20B0
         public void m_357(){} // RVA: 0x7FFAF2E2B370
         public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
@@ -137,7 +136,7 @@ namespace VRC.UI.Elements.Menus
         public void get_ModalBackgrounds(){} // RVA: 0x7FFAF2F77C50
         public void set_Placeholder(){} // RVA: 0x7FFAF2E55590
         public void set_ClearButton(){} // RVA: 0x7FFAF2E0A740
-        public void set_Cancel(){} // RVA: 0x7FFAF2F77C50
+        public void set_MinimizedKeyboard(){} // RVA: 0x7FFAF2F77C50
         public void get_ClearButton(){} // RVA: 0x7FFAF2E0A740
         public void get_Placeholder(){} // RVA: 0x7FFAF2E2E0E0
         public void get_MinimizedKeyboard(){} // RVA: 0x7FFAF2E55590
@@ -162,12 +161,12 @@ namespace VRC.UI.Elements.Menus
         public void OnEnable(){} // RVA: 0x7FFAF2EEE1C0
         public void OnDisable(){} // RVA: 0x7FFAF5976B90
         public void IndexOf(){} // RVA: 0x7FFAF629FDF0
+        public void Equals(){} // RVA: 0x7FFAF629FFF0
+        public void Equals_DEDA90D54383(){} // RVA: 0x7FFAF62A01E0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_54F(){} // RVA: 0x7FFAF629FFF0
         public void m_11E(){} // RVA: 0x7FFAF62A00D0
         public void m_876(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_DED(){} // RVA: 0x7FFAF62A01E0
         public void m_194(){} // RVA: 0x7FFAF2D33FA0
     }
 
@@ -181,12 +180,12 @@ namespace VRC.UI.Elements.Menus
         public void OnEnable(){} // RVA: 0x7FFAF2AD4A50
         public void OnDisable(){} // RVA: 0x7FFAF2AD4A50
         public void IndexOf(){} // RVA: 0x7FFAF2AD4A50
+        public void Equals(){} // RVA: 0x7FFAF2AD4A50
+        public void Equals_DEDA90D54383(){} // RVA: 0x7FFAF2ADDC60
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
-        public void m_54F(){} // RVA: 0x7FFAF2AD4A50
         public void m_11E(){} // RVA: 0x7FFAF2AD4A50
         public void m_876(){} // RVA: 0x7FFAF2ABCE10
-        public void m_DED(){} // RVA: 0x7FFAF2ADDC60
         public void m_194(){} // RVA: 0x7FFAF2D33FA0
     }
 
@@ -200,12 +199,12 @@ namespace VRC.UI.Elements.Menus
         public void OnEnable(){} // RVA: 0x7FFAF2EEE1C0
         public void OnDisable(){} // RVA: 0x7FFAF5976B90
         public void IndexOf(){} // RVA: 0x7FFAF629FDF0
+        public void Equals(){} // RVA: 0x7FFAF629FFF0
+        public void Equals_DEDA90D54383(){} // RVA: 0x7FFAF62A01E0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_54F(){} // RVA: 0x7FFAF629FFF0
         public void m_11E(){} // RVA: 0x7FFAF62A00D0
         public void m_876(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_DED(){} // RVA: 0x7FFAF62A01E0
         public void m_194(){} // RVA: 0x7FFAF2D33FA0
     }
 
@@ -219,12 +218,12 @@ namespace VRC.UI.Elements.Menus
         public void OnEnable(){} // RVA: 0x7FFAF2EEE1C0
         public void OnDisable(){} // RVA: 0x7FFAF629F7B0
         public void IndexOf(){} // RVA: 0x7FFAF629F7D0
+        public void Equals(){} // RVA: 0x7FFAF629F9B0
+        public void Equals_DEDA90D54383(){} // RVA: 0x7FFAF629FBA0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_54F(){} // RVA: 0x7FFAF629F9B0
         public void m_11E(){} // RVA: 0x7FFAF629FA90
         public void m_876(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_DED(){} // RVA: 0x7FFAF629FBA0
         public void m_194(){} // RVA: 0x7FFAF2AD4B10
     }
 
@@ -238,12 +237,12 @@ namespace VRC.UI.Elements.Menus
         public void OnEnable(){} // RVA: 0x7FFAF2EEE1C0
         public void OnDisable(){} // RVA: 0x7FFAF629F7B0
         public void IndexOf(){} // RVA: 0x7FFAF629F7D0
+        public void Equals(){} // RVA: 0x7FFAF629F9B0
+        public void Equals_DEDA90D54383(){} // RVA: 0x7FFAF629FBA0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_54F(){} // RVA: 0x7FFAF629F9B0
         public void m_11E(){} // RVA: 0x7FFAF629FA90
         public void m_876(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_DED(){} // RVA: 0x7FFAF629FBA0
         public void m_194(){} // RVA: 0x7FFAF2AD4B10
     }
 
@@ -257,12 +256,12 @@ namespace VRC.UI.Elements.Menus
         public void OnEnable(){} // RVA: 0x7FFAF2EEE1C0
         public void OnDisable(){} // RVA: 0x7FFAF629F7B0
         public void IndexOf(){} // RVA: 0x7FFAF629F7D0
+        public void Equals(){} // RVA: 0x7FFAF629F9B0
+        public void Equals_DEDA90D54383(){} // RVA: 0x7FFAF629FBA0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_54F(){} // RVA: 0x7FFAF629F9B0
         public void m_11E(){} // RVA: 0x7FFAF629FA90
         public void m_876(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_DED(){} // RVA: 0x7FFAF629FBA0
         public void m_194(){} // RVA: 0x7FFAF2AD4B10
     }
 
@@ -276,12 +275,12 @@ namespace VRC.UI.Elements.Menus
         public void OnEnable(){} // RVA: 0x7FFAF2EEE1C0
         public void OnDisable(){} // RVA: 0x7FFAF629F7B0
         public void IndexOf(){} // RVA: 0x7FFAF629F7D0
+        public void Equals(){} // RVA: 0x7FFAF629F9B0
+        public void Equals_DEDA90D54383(){} // RVA: 0x7FFAF629FBA0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_54F(){} // RVA: 0x7FFAF629F9B0
         public void m_11E(){} // RVA: 0x7FFAF629FA90
         public void m_876(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_DED(){} // RVA: 0x7FFAF629FBA0
         public void m_194(){} // RVA: 0x7FFAF2AD4B10
     }
 
@@ -295,12 +294,12 @@ namespace VRC.UI.Elements.Menus
         public void OnEnable(){} // RVA: 0x7FFAF2EEE1C0
         public void OnDisable(){} // RVA: 0x7FFAF62A0450
         public void IndexOf(){} // RVA: 0x7FFAF62A0530
+        public void Equals(){} // RVA: 0x7FFAF62A0450
+        public void Equals_DEDA90D54383(){} // RVA: 0x7FFAF62A0940
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_54F(){} // RVA: 0x7FFAF62A0450
         public void m_11E(){} // RVA: 0x7FFAF62A0830
         public void m_876(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_DED(){} // RVA: 0x7FFAF62A0940
         public void m_194(){}
     }
 
@@ -314,12 +313,12 @@ namespace VRC.UI.Elements.Menus
         public void OnEnable(){} // RVA: 0x7FFAF2EEE1C0
         public void OnDisable(){} // RVA: 0x7FFAF629F7B0
         public void IndexOf(){} // RVA: 0x7FFAF629F7D0
+        public void Equals(){} // RVA: 0x7FFAF629F9B0
+        public void Equals_DEDA90D54383(){} // RVA: 0x7FFAF629FBA0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_54F(){} // RVA: 0x7FFAF629F9B0
         public void m_11E(){} // RVA: 0x7FFAF629FA90
         public void m_876(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_DED(){} // RVA: 0x7FFAF629FBA0
         public void m_194(){} // RVA: 0x7FFAF2AD4B10
     }
 

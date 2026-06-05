@@ -1,0 +1,12 @@
+{
+ "NetworkReadyHandler_3F9B::m_36E": "InitializeDictionaryStorage",
+ "NetworkReadyHandler_3F9B::m_380": "InitializeDictionaryStorage",
+ "NetworkReadyHandler_3F9B::m_3F4": "CopyKeyValuePairsToArray",
+ "NetworkReadyHandler_3F9B::m_642": "InitializeWithCapacityAndComparer",
+ "NetworkReadyHandler_3F9B::m_6D4": "SetOrCacheValueUntilReady",
+ "NetworkReadyHandler_3F9B::m_86A": "InitializeDictionaryStorage",
+ "NetworkReadyHandler_3F9B::m_87D": "InitializeDictionaryStorage",
+ "NetworkReadyHandler_3F9B::m_895": "SetOrCacheValueUntilReady",
+ "NetworkReadyHandler_3F9B::m_8D0": "InitializeDictionaryStorage",
+ "NetworkReadyHandler_3F9B::m_92E": "InitializeWithCapacityAndComparer"
+}

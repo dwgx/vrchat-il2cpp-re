@@ -939,6 +939,7 @@ namespace VRC.Rendering
         public void OnEnable(){} // RVA: 0x7FFAF3BB9FB0
         public void Start(){} // RVA: 0x7FFAF3BBA020
         public void Update(){} // RVA: 0x7FFAF3BBA7E0
+        public void FindLastEnabledDependencyIndex(){} // RVA: 0x7FFAF3BBAB30
         public void LateUpdate(){} // RVA: 0x7FFAF3BBAD00
         public void OnDisable(){} // RVA: 0x7FFAF3BBAF50
         public void OnApplicationPause(){} // RVA: 0x7FFAF3BBAFE0
@@ -951,16 +952,17 @@ namespace VRC.Rendering
         public void OnTriggerEnter(){} // RVA: 0x7FFAF3BBCAD0
         public void OnTriggerStay(){} // RVA: 0x7FFAF3BBD480
         public void OnTriggerExit(){} // RVA: 0x7FFAF3BBD500
+        public void DeactivateCameraGameObjects(){} // RVA: 0x7FFAF3BBD5D0
         public void FixedUpdate(){} // RVA: 0x7FFAF3BBD990
         public void .ctor(){} // RVA: 0x7FFAF3BBE030
         public void OnDestroy(){} // RVA: 0x7FFAF3BBE5C0
-        // ── 28 unresolved (hash) ──
+        // ── 26 unresolved (hash) ──
         public void m_58E(){} // RVA: 0x7FFAF3BB8180
         public void m_ACC(){} // RVA: 0x7FFAF3BB81B0
         public void m_678(){} // RVA: 0x7FFAF3BB8260
         public void m_10B(){} // RVA: 0x7FFAF3BB82D0
         public void m_95A(){} // RVA: 0x7FFAF3BB8950
-        // ... 23 more unresolved methods
+        // ... 21 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÍÌÌÎÌÎÍÎÍÏÎÏÌÏÏÌÏÏÎÎÏ</summary>
@@ -973,9 +975,9 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3B5D970
         public void GetAntiAliasing(){} // RVA: 0x7FFAF3B5D9E0
+        public void CopyMainCameraQualitySettings(){} // RVA: 0x7FFAF3B5DA50
         // ── Unresolved (hash) ──
         public void m_A79(){} // RVA: 0x7FFAF3B5D900
-        public void m_9E5(){} // RVA: 0x7FFAF3B5DA50
     }
 
     /// <summary>Originally: ÎÏÍÎÏÏÏÎÌÍÍÎÍÌÍÍÎÏÍÏÎÎÏ</summary>
@@ -997,13 +999,13 @@ namespace VRC.Rendering
     public class CameraTimeHandler_1097
     {
         // ── Methods ──
+        public void FindLastIndex(){} // RVA: 0x7FFAF43C8CA0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF43C8DD0
         // ── Unresolved (hash) ──
         public void m_985(){} // RVA: 0x7FFAF43C8910
         public void m_338(){} // RVA: 0x7FFAF43C8A40
         public void m_E79(){} // RVA: 0x7FFAF43C8B70
-        public void m_09C(){} // RVA: 0x7FFAF43C8CA0
         public void m_EE5(){} // RVA: 0x7FFAF43C8F00
     }
 

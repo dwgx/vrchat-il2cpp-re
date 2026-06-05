@@ -1,0 +1,9 @@
+{
+ "StringStaticMethods_8962::m_0BB": "ClosestPoint",
+ "StringStaticMethods_8962::m_416": "GetHashCode",
+ "StringStaticMethods_8962::m_648": "SqrDistance",
+ "StringStaticMethods_8962::m_720": "TranslatePlane",
+ "StringStaticMethods_8962::m_A33": "SameSide",
+ "StringStaticMethods_8962::m_B42": "Contains",
+ "StringStaticMethods_8962::m_BEE": "SameSide"
+}

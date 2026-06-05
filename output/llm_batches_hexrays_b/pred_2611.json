@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_A446::m_AEE": "FindMethodByNameAndParameters",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A4A6::m_943": "ScanEscapedTypeNameToken",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A67C::m_536": "AllocateObjectInstance",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A67C::m_575": "BoxValueType",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A67C::m_77C": "FindImageByName"
+}

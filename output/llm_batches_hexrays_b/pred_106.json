@@ -1,0 +1,9 @@
+{
+ "UIShowScreenButtonHideScreen_FCF4::m_BA3": "IndexOf",
+ "UIShowScreenButtonHideScreen_FCF4::m_ECF": "IndexOf",
+ "LateUpdateComponent_3C6ESibling_D4A5::m_BB8": "IntrospectiveSort",
+ "UIDescriptionPurchase_F7C6::m_007": "SwapIfGreater",
+ "UIDescriptionPurchase_F7C6::m_0A2": "IndexOf",
+ "UIDescriptionPurchase_F7C6::m_128": "IndexOf",
+ "UIDescriptionPurchase_F7C6::m_160": "SwapIfGreater"
+}

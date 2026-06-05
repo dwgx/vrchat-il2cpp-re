@@ -1,0 +1,9 @@
+{
+ "SerializationRecoveryHandlerSiSibling_AD30::m_4E0": "TryGetSiblingIndex",
+ "SerializationRecoveryHandlerSiSibling_AD30::m_564": "Clear",
+ "SerializationRecoveryHandlerSiSibling_AD30::m_5BB": "IndexOf",
+ "SerializationRecoveryHandlerSiSibling_AD30::m_633": "AllocateStorageArrays",
+ "SerializationRecoveryHandlerSiSibling_AD30::m_852": "Clear",
+ "SerializationRecoveryHandlerSiSibling_AD30::m_973": "CollectSiblingIndicesForObject",
+ "SerializationRecoveryHandlerSiSibling_AD30::m_A08": "BinarySearch"
+}

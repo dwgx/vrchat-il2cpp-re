@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_2722::m_575": "ConvertSafeArrayToManagedArray",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2722::m_77C": "CreateArrayTypeMismatchException",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2722::m_96F": "CreateOverflowException"
+}

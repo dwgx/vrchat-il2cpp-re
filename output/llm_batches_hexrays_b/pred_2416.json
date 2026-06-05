@@ -1,0 +1,12 @@
+{
+ "VRC_SecondarySiblingSibling_966F::m_1BA": "Equals",
+ "VRC_SecondarySiblingSibling_966F::m_1E3": "Equals",
+ "VRC_SecondarySiblingSibling_966F::m_207": "Equals",
+ "VRC_SecondarySiblingSibling_966F::m_22E": "ToString",
+ "VRC_SecondarySiblingSibling_966F::m_286": "ConfigureAwait",
+ "VRC_SecondarySiblingSibling_966F::m_299": "GetHashCode",
+ "VRC_SecondarySiblingSibling_966F::m_2D0": "Equals",
+ "VRC_SecondarySiblingSibling_966F::m_308": "ConstructFromTask",
+ "VRC_SecondarySiblingSibling_966F::m_32B": "Equals",
+ "VRC_SecondarySiblingSibling_966F::m_386": "Equals"
+}

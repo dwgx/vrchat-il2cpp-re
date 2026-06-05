@@ -1,0 +1,112 @@
+[
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_B25",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_B25",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180909120(__int64 a1, float a2)\n{\n  *(_OWORD *)(a1 + 16) = 0;\n  *(_DWORD *)(a1 + 16) = 13;\n  *(float *)(a1 + 20) = a2;\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_B2D",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_B2D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18090BA10(__int64 a1, _OWORD *a2)\n{\n  __int64 v2; // r8\n  bool v3; // zf\n  unsigned int v4; // r8d\n  unsigned __int64 v5; // rax\n  char v6; // r8\n  __int64 *v7; // rdx\n  __int64 v8; // rtt\n\n  v2 = *(_QWORD *)(a1 + 16);\n  if ( !v2 )\n    sub_180AAE510(a1, a2);\n  v3 = dword_18CE1C2E8 == 0;\n  *(_OWORD *)(v2 + 88) = *a2;\n  if ( !v3 )\n  {\n    v4 = ((unsigned __int64)(v2 + 88) >> 12) & 0x1FFFFF;\n    v5 = (unsigned __int64)v4 >> 6;\n    v6 = v4 & 0x3F;\n    v7 = &qword_18CEAB0E0[v5];\n    _m_prefetchw(v7);\n    do\n      v8 = *v7;\n    while ( v8 != _InterlockedCompareExchange64(v7, *v7 | (1LL << v6), *v7) );\n  }\n  return *(_QWORD *)(a1 + 16);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_BDA",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_BDA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18090A9A0(__int64 a1)\n{\n  __int64 v2; // rax\n  __int64 v3; // rcx\n  _QWORD *v5; // rax\n  __int64 v6; // rax\n  __int64 v7; // rdx\n  __int64 v8; // rcx\n  signed __int32 v9[8]; // [rsp+0h] [rbp-38h] BYREF\n  __int128 v10; // [rsp+20h] [rbp-18h] BYREF\n\n  if ( !byte_18CE4477E )\n  {\n    sub_180AD1AA0(&qword_18C8EC9A8);\n    _InterlockedOr(v9, 0);\n    sub_180AD1AA0(&qword_18C8EC9A0);\n    _InterlockedOr(v9, 0);\n    sub_180AD1AA0(&qword_18C8EC998);\n    _InterlockedOr(v9, 0);\n    byte_18CE4477E = 1;\n  }\n  v2 = *(_QWORD *)(a1 + 16);\n  if ( v2 && *(_DWORD *)(v2 + 16) )\n  {\n    v3 = *(_QWORD *)(a1 + 16);\n    if ( (*(_BYTE *)(a1 + 24) & 1) != 0 )\n      return sub_186476F90(v3, qword_18C8EC998, 0);\n    else\n      return sub_186476F90(v3, qword_18C8EC9A0, 0);\n  }\n  else\n  {\n    v10 = *(_OWORD *)(a1 + 16);\n    v5 = (_QWORD *)XFiPLRjvmWI_0(qword_18C8EC9A8, &v10);\n    v6 = XhvlNzYNmaA_0(*v5 + 32LL);\n    if ( !v6 )\n      sub_180AAE510(v8, v7);\n    return (*(__int64 (__fastcall **)(__int64, _QWORD))(*(_QWORD *)v6 + 744LL))(v6, *(_QWORD *)(*(_QWORD *)v6 + 752LL));\n  }\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_BDB",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_BDB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_18090A190(__int64 a1, __int64 a2, int a3)\n{\n  __int64 v4; // r9\n  __int128 v5; // xmm1\n  __int128 v6; // xmm2\n  _OWORD *v7; // r10\n  __int64 v8; // rax\n  _QWORD *v9; // rbx\n  __int64 v10; // rax\n  __int64 v11; // rax\n  _OWORD v12[3]; // [rsp+20h] [rbp-38h] BYREF\n\n  if ( a3 < 0 || !*(_QWORD *)(a2 + 88) || a3 >= *(_DWORD *)(*(_QWORD *)(a2 + 88) + 24LL) )\n  {\n    v8 = sub_180A8B8B0(&qword_18C8EECD8);\n    v9 = sub_180AAE4D0(v8);\n    v10 = sub_180A8B8B0(&qword_18C8D6510);\n    _c____cctor_b__27_0_2(v9, v10, 0);\n    v11 = sub_180A8B8B0(&qword_18C8ED028);\n    sub_180AAE4E0(v9, v11);\n  }\n  *(_QWORD *)&v12[0] = (unsigned int)a3;\n  *((_QWORD *)&v12[0] + 1) = *(_QWORD *)(a2 + 88);\n  memset(&v12[1], 0, 32);\n  sub_180A2BBB0((unsigned __int64)v12 + 8);\n  v5 = *(_OWORD *)(v4 + 56);\n  v6 = *(_OWORD *)(v4 + 72);\n  *v7 = v12[0];\n  v7[1] = v5;\n  v7[2] = v6;\n  return v7;\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_C1B",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_C1B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18090BBC0(__int64 a1, _OWORD *a2, _OWORD *a3)\n{\n  __int64 v3; // rax\n  __int64 v4; // rax\n\n  v3 = *(_QWORD *)(a1 + 16);\n  if ( !v3 || (*(_OWORD *)(v3 + 184) = *a2, (v4 = *(_QWORD *)(a1 + 16)) == 0) )\n    sub_180AAE510(a1, a2);\n  *(_OWORD *)(v4 + 200) = *a3;\n  return *(_QWORD *)(a1 + 16);\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_C2A",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_C2A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18090AD10(__int64 *a1, __int64 *a2)\n{\n  __int64 v4; // rcx\n  __int64 v5; // rax\n  __int64 v6; // rdx\n  __int64 v7; // rcx\n  __int64 v8; // rdx\n  __int64 *v9; // rdx\n  signed __int64 v10; // rtt\n  __int64 v11; // rcx\n  __int64 result; // rax\n  __int64 v13; // rdx\n  __int64 v14; // rcx\n  __int64 v15; // rdx\n  __int64 *v16; // rdx\n  signed __int64 v17; // rtt\n  __int64 *v18; // rdx\n  signed __int64 v19; // rtt\n  __int64 v20; // rsi\n  __int64 v21; // rdi\n  __int64 v22; // rbx\n  __int64 v23; // rcx\n  __int64 v24; // rax\n  __int64 v25; // rdx\n  __int64 v26; // rcx\n  __int64 v27; // rdx\n  __int64 *v28; // rdx\n  signed __int64 v29; // rtt\n  bool v30; // zf\n  __int64 *v31; // rdx\n  __int64 v32; // r8\n  signed __int64 v33; // rtt\n  signed __int32 v34[8]; // [rsp+0h] [rbp-48h] BYREF\n  _OWORD v35[2]; // [rsp+20h] [rbp-28h] BYREF\n\n  if ( !byte_18CE44781 )\n  {\n    sub_180AD1AA0(&qword_18C8EC918);\n    _InterlockedOr(v34, 0);\n    byte_18CE44781 = 1;\n  }\n  v4 = *a1;\n  if ( *a1 )\n  {\n    v6 = -1;\n    do\n      ++v6;\n    while ( *(_BYTE *)(v4 + v6) );\n    v5 = FdYUDnCCdYv_0(v4);\n  }\n  else\n  {\n    v5 = 0;\n  }\n  *a2 = v5;\n  v7 = *a1;\n  if ( *a1 )\n  {\n    v8 = -1;\n    do\n      ++v8;\n    while ( *(_BYTE *)(v7 + v8) );\n    FdYUDnCCdYv_0(v7);\n  }\n  if ( dword_18CE1C2E8 )\n  {\n    v9 = &qword_18CE64E00[(((unsigned __int64)a2 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v9 + 35932);\n    do\n      v10 = v9[35932];\n    while ( v10 != _InterlockedCompareExchange64(v9 + 35932, v10 | (1LL << (((unsigned __int64)a2 >> 12) & 0x3F)), v10) );\n  }\n  v11 = a1[1];\n  if ( v11 )\n  {\n    v13 = -1;\n    do\n      ++v13;\n    while ( *(_BYTE *)(v11 + v13) );\n    result = FdYUDnCCdYv_0(v11);\n  }\n  else\n  {\n    result = 0;\n  }\n  a2[1] = result;\n  v14 = a1[1];\n  if ( v14 )\n  {\n    v15 = -1;\n    do\n      ++v15;\n    while ( *(_BYTE *)(v14 + v15) );\n    result = FdYUDnCCdYv_0(v14);\n  }\n  if ( dword_18CE1C2E8 )\n  {\n    v16 = &qword_18CE64E00[(((unsigned __int64)(a2 + 1) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v16 + 35932);\n    do\n    {\n      v17 = v16[35932];\n      result = _InterlockedCompareExchange64(\n                 v16 + 35932,\n                 v17 | (1LL << (((unsigned __int64)(a2 + 1) >> 12) & 0x3F)),\n                 v17);\n    }\n    while ( v17 != result );\n  }\n  if ( a1[2] )\n  {\n    if ( !a2[2] )\n    {\n      a2[2] = MmKHvpwELkW_0(qword_18C8EC918, 1u);\n      MmKHvpwELkW_0(qword_18C8EC918, 1u);\n      if ( dword_18CE1C2E8 )\n      {\n        v18 = &qword_18CE64E00[(((unsigned __int64)(a2 + 2) >> 12) & 0x1FFFFF) >> 6];\n        _m_prefetchw(v18 + 35932);\n        do\n          v19 = v18[35932];\n        while ( v19 != _InterlockedCompareExchange64(\n                         v18 + 35932,\n                         v19 | (1LL << (((unsigned __int64)(a2 + 2) >> 12) & 0x3F)),\n                         v19) );\n      }\n    }\n    result = a2[2];\n    v20 = *(int *)(result + 24);\n    if ( v20 > 0 )\n    {\n      v21 = 32;\n      do\n      {\n        v22 = v21 + a1[2];\n        v35[0] = 0;\n        v23 = *(_QWORD *)(v22 - 32);\n        if ( v23 )\n        {\n          v25 = -1;\n          do\n            ++v25;\n          while ( *(_BYTE *)(v23 + v25) );\n          v24 = FdYUDnCCdYv_0(v23);\n        }\n        else\n        {\n          v24 = 0;\n        }\n        *(_QWORD *)&v35[0] = v24;\n        v26 = *(_QWORD *)(v22 - 32);\n        if ( v26 )\n        {\n          v27 = -1;\n          do\n            ++v27;\n          while ( *(_BYTE *)(v26 + v27) );\n          FdYUDnCCdYv_0(v26);\n        }\n        if ( dword_18CE1C2E8 )\n        {\n          v28 = &qword_18CE64E00[(((unsigned __int64)v35 >> 12) & 0x1FFFFF) >> 6];\n          _m_prefetchw(v28 + 35932);\n          do\n            v29 = v28[35932];\n          while ( v29 != _InterlockedCompareExchange64(\n                           v28 + 35932,\n                           v29 | (1LL << (((unsigned __int64)v35 >> 12) & 0x3F)),\n                           v29) );\n        }\n        result = a2[2];\n        BYTE8(v35[0]) = *(_DWORD *)(v22 - 24) != 0;\n        BYTE9(v35[0]) = *(_DWORD *)(v22 - 20) != 0;\n        v30 = dword_18CE1C2E8 == 0;\n        *(_OWORD *)(v21 + result) = v35[0];\n        if ( !v30 )\n        {\n          v31 = &qword_18CE64E00[(((unsigned __int64)(v21 + result) >> 12) & 0x1FFFFF) >> 6];\n          v32 = ((unsigned __int64)(v21 + result) >> 12) & 0x3F;\n          _m_prefetchw(v31 + 35932);\n          do\n          {\n            v33 = v31[35932];\n            result = _InterlockedCompareExchange64(v31 + 35932, v33 | (1LL << v32), v33);\n          }\n          while ( v33 != result );\n        }\n        v21 += 16;\n        --v20;\n      }\n      while ( v20 );\n    }\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_C36",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_C36",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180908F10(__int64 a1, _DWORD *a2)\n{\n  __int64 result; // rax\n\n  *a2 = *(_DWORD *)a1;\n  a2[1] = *(unsigned __int8 *)(a1 + 4);\n  *((_BYTE *)a2 + 4) = *(_BYTE *)(a1 + 4);\n  *((_BYTE *)a2 + 4) = *(_BYTE *)(a1 + 4);\n  *((_BYTE *)a2 + 4) = *(_BYTE *)(a1 + 4);\n  *((_WORD *)a2 + 2) = *(_WORD *)(a1 + 4);\n  *((_WORD *)a2 + 2) = *(_WORD *)(a1 + 4);\n  a2[1] = *(_DWORD *)(a1 + 4);\n  a2[1] = *(_DWORD *)(a1 + 4);\n  *(_QWORD *)(a2 + 1) = *(_QWORD *)(a1 + 4);\n  *(_QWORD *)(a2 + 1) = *(_QWORD *)(a1 + 4);\n  a2[1] = *(_DWORD *)(a1 + 4);\n  result = *(_QWORD *)(a1 + 4);\n  *(_QWORD *)(a2 + 1) = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_C3A",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_C3A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "signed __int64 __fastcall sub_18090A680(unsigned int *a1, __int64 a2)\n{\n  signed __int64 result; // rax\n  __int64 *v5; // rdx\n  signed __int64 v6; // rtt\n  int v7; // ecx\n  __int64 v8; // rbx\n  __int64 v9; // rbp\n  __int64 v10; // rdi\n  __int64 v11; // rcx\n  bool v12; // zf\n  unsigned __int64 v13; // rcx\n  __int64 v14; // r8\n  signed __int64 v15; // rtt\n  __int128 v16; // xmm1\n  signed __int32 v17[8]; // [rsp+0h] [rbp-48h] BYREF\n  __int128 v18; // [rsp+20h] [rbp-28h] BYREF\n\n  if ( !byte_18CE4477C )\n  {\n    sub_180AD1AA0(&qword_18C8ED220);\n    _InterlockedOr(v17, 0);\n    byte_18CE4477C = 1;\n  }\n  result = *a1;\n  *(_DWORD *)a2 = result;\n  if ( *((_QWORD *)a1 + 1) )\n  {\n    if ( !*(_QWORD *)(a2 + 8) )\n    {\n      *(_QWORD *)(a2 + 8) = MmKHvpwELkW_0(qword_18C8ED220, 1u);\n      MmKHvpwELkW_0(qword_18C8ED220, 1u);\n      if ( dword_18CE1C2E8 )\n      {\n        v5 = &qword_18CE64E00[(((unsigned __int64)(a2 + 8) >> 12) & 0x1FFFFF) >> 6];\n        _m_prefetchw(v5 + 35932);\n        do\n          v6 = v5[35932];\n        while ( v6 != _InterlockedCompareExchange64(\n                        v5 + 35932,\n                        v6 | (1LL << (((unsigned __int64)(a2 + 8) >> 12) & 0x3F)),\n                        v6) );\n      }\n    }\n    result = *(_QWORD *)(a2 + 8);\n    v7 = *(_DWORD *)(result + 24);\n    if ( v7 > 0 )\n    {\n      v8 = 32;\n      v9 = (unsigned int)v7;\n      v10 = 0;\n      do\n      {\n        v11 = v10 + *((_QWORD *)a1 + 1);\n        v18 = 0;\n        sub_180025170(v11, &v18);\n        v12 = dword_18CE1C2E8 == 0;\n        result = *(_QWORD *)(a2 + 8);\n        *(_OWORD *)(v8 + result) = v18;\n        if ( !v12 )\n        {\n          v13 = (((unsigned __int64)(v8 + result) >> 12) & 0x1FFFFF) >> 6;\n          v14 = ((unsigned __int64)(v8 + result) >> 12) & 0x3F;\n          _m_prefetchw(&qword_18CE64E00[v13 + 35932]);\n          do\n          {\n            v15 = qword_18CE64E00[v13 + 35932];\n            result = _InterlockedCompareExchange64(&qword_18CE64E00[v13 + 35932], v15 | (1LL << v14), v15);\n          }\n          while ( v15 != result );\n        }\n        v10 += 16;\n        v8 += 16;\n        --v9;\n      }\n      while ( v9 );\n    }\n  }\n  v16 = *((_OWORD *)a1 + 2);\n  *(_OWORD *)(a2 + 16) = *((_OWORD *)a1 + 1);\n  *(_OWORD *)(a2 + 32) = v16;\n  return result;\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_C59",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_C59",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180909490(signed __int64 a1, __int64 *a2, int a3)\n{\n  bool v3; // zf\n  unsigned __int64 v4; // r10\n  __int64 *v5; // r11\n  __int64 v6; // rtt\n  __int64 result; // rax\n\n  v3 = dword_18CE1C2E8 == 0;\n  v4 = a1 + 16;\n  *(_QWORD *)(a1 + 16) = a2;\n  v5 = a2;\n  if ( !v3 )\n  {\n    a2 = &qword_18CEAB0E0[((v4 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(a2);\n    do\n    {\n      a1 = *a2 | (1LL << ((v4 >> 12) & 0x3F));\n      v6 = *a2;\n    }\n    while ( v6 != _InterlockedCompareExchange64(a2, a1, *a2) );\n  }\n  *(_DWORD *)(v4 + 8) = a3;\n  if ( !v5 )\n    sub_180AAE510(a1, a2);\n  result = (unsigned int)(*((_DWORD *)v5 + 4) - a3);\n  *(_DWORD *)(v4 + 12) = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_F5E1",
+  "class_obf": "ÏÍÎÍÎÏÍÏÌÏÎÏÏÎÌÌÏÍÎÎÎÍÏ",
+  "parent": "",
+  "method": "m_C89",
+  "cv_key": "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_C89",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18090A890(__int64 a1)\n{\n  __int64 v1; // rbx\n  _OWORD *v2; // rax\n  __int128 v3; // xmm1\n  __int128 v4; // xmm0\n  signed __int32 v6[8]; // [rsp+0h] [rbp-88h] BYREF\n  _OWORD v7[3]; // [rsp+20h] [rbp-68h] BYREF\n  _BYTE v8[56]; // [rsp+50h] [rbp-38h] BYREF\n\n  v1 = a1 + 16;\n  if ( !byte_18CE4477D )\n  {\n    sub_180AD1AA0(&qword_18C8EC9C0);\n    _InterlockedOr(v6, 0);\n    byte_18CE4477D = 1;\n  }\n  v2 = (_OWORD *)sub_187631870(v8, v1, 0);\n  v3 = v2[1];\n  v7[0] = *v2;\n  v4 = v2[2];\n  v7[1] = v3;\n  v7[2] = v4;\n  return XFiPLRjvmWI_0(qword_18C8EC9C0, v7);\n}\n"
+ }
+]

@@ -1,0 +1,9 @@
+{
+ "ApplicationHandler_19BB::m_3CB": "InvokeObjectStruct56ReturnBoolean",
+ "ApplicationHandler_19BB::m_692": "InvokeTwoStruct136ReturnBoolean",
+ "ApplicationHandler_19BB::m_8C4": "InvokeObjectStruct28ReturnBoolean",
+ "ApplicationHandler_19BB::m_943": "InvokeObjectValueBufferReturnBoolean",
+ "ApplicationHandler_19BB::m_A9E": "InvokeUInt32UInt16ReturnBoolean",
+ "ApplicationHandler_19BB::m_C64": "InvokeObjectStruct72ReturnBoolean",
+ "ApplicationHandler_19BB::m_C9E": "InvokeObjectStruct384ReturnBoolean"
+}

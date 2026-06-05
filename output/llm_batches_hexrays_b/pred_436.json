@@ -1,0 +1,6 @@
+{
+ "TransformMeshHandler_C468::m_EE6": "DuplicateWideString",
+ "TransformMeshHandler_C468::m_FAC": "IsFileHandleTerminal",
+ "TransformPhysicsHandler_108A::m_31C": "Equals",
+ "TransformPhysicsHandler_108A::m_5E0": "ToString"
+}

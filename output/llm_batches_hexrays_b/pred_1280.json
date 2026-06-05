@@ -1,0 +1,12 @@
+{
+ "RectTransformDimensionsCh_DFB0::m_350": "ToString",
+ "RectTransformDimensionsCh_DFB0::m_392": "ToString",
+ "RectTransformDimensionsCh_DFB0::m_4B6": "Equals",
+ "RectTransformDimensionsCh_DFB0::m_59F": "GetHashCode",
+ "RectTransformDimensionsCh_DFB0::m_A0C": "ToString",
+ "RectTransformDimensionsCh_DFB0::m_C22": "Equals",
+ "RectTransformDimensionsCh_DFB0::m_C39": "GetHashCode",
+ "RenderPostPreStaticMethods_08BC::m_198": "Contains",
+ "RenderPostPreStaticMethods_08BC::m_1F6": "Contains",
+ "RenderPostPreStaticMethods_08BC::m_270": "GetHashCode"
+}

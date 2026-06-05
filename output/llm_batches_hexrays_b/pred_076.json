@@ -1,3 +1,7 @@
 {
- "VRCNetworkBehaviourSiblinRelated_224D::m_852": "MoveNext"
+ "ctorDerivedSiblingSibling_2E7B::m_5AB": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_5D8": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_5EE": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_639": "GetHashCode",
+ "ctorDerivedSiblingSibling_2E7B::m_647": "ToString"
 }

@@ -1,0 +1,9 @@
+{
+ "PointerEnterPointerExit_0FB8::m_F48": "CreateStringFromUtf16Buffer",
+ "PointerEnterPointerExit_0FB8::m_F80": "FindInternedString",
+ "PointerEnterPointerExit_690A::m_054": "DumpGcCollection",
+ "PointerEnterPointerExit_690A::m_69D": "AllocateHeapSection",
+ "PointerEnterPointerExit_690A::m_C85": "DumpGcCollection",
+ "PointerEnterPointerExit_690A::m_D5F": "DecommitHeapPages",
+ "PointerEnterPointerExit_D76C::m_952": "GetMaterialRenderQueue"
+}

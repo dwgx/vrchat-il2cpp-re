@@ -1,0 +1,6 @@
+{
+ "TransformProfiledSystem_5268::m_EE2": "MarshalFromNative",
+ "TransformProfiledSystem_5268::m_EEB": "CleanupNativeMarshaledData",
+ "TransformProfiledSystem_5268::m_F56": "MarshalToNative",
+ "TransformProfiledSystem_5268::m_F75": "CopyEmbeddedByteArrayToNative"
+}

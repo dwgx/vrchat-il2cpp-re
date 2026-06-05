@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_A314::m_55E": "EnsureBrotliEncoderInitialized",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A314::m_943": "EnsureBrotliEncoderInitialized",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A314::m_96F": "BrotliEncoderDestroyInstance",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A446::m_536": "GetPropertiesByName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_A446::m_77C": "GetMethodsByName"
+}

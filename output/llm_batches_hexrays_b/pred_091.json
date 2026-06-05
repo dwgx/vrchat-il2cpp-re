@@ -1,3 +1,8 @@
 {
- "VRCNetworkBehaviourSibling_BF5Sibling_0A70::m_410": "GetHashCode"
+ "PlayerheadPoseRelativeOffsetTraheadPoseRelativ_1B08::m_EB0": "IndexOf",
+ "ComplexComponentSiblingSibling_D534_21ED::m_606": "ConvertLayerMaskToNames",
+ "ComplexComponentSiblingSibling_D534_21ED::m_8DB": "ConvertLayerMaskToNames",
+ "ComplexComponentSiblingSibling_D534_21ED::m_BC6": "EaseInElastic",
+ "ComplexComponentSiblingSibling_D534_21ED::m_C18": "ConvertLayerMaskToNames",
+ "ComplexComponentSiblingSibling_D534_21ED::m_D1E": "EaseInElastic"
 }

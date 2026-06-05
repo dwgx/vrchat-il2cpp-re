@@ -1,0 +1,4 @@
+{
+ "AsyncStateMachine_340D::m_63A": "ReadFileTextModeBytes",
+ "AsyncStateMachine_340D::m_CE3": "WriteUtf16CharsWithCrLfConversion"
+}

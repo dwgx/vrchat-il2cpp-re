@@ -1,0 +1,112 @@
+[
+ {
+  "class": "AsyncStateMachine_5A31",
+  "class_obf": "ÎÎÌÎÌÌÏÏÍÌÍÌÍÏÌÎÌÍÌÏÎÍÎ",
+  "parent": "",
+  "method": "m_124",
+  "cv_key": "AsyncStateMachine_5A31::m_124",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180018D70(__int64 **a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  __int64 v8; // rax\n  __int64 v9; // rax\n  signed __int32 v11[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !*(_QWORD *)(a4 + 56) )\n  {\n    sub_180AD1AA0(&qword_18C8F37C8);\n    _InterlockedOr(v11, 0);\n    if ( !*(_QWORD *)(a4 + 56) )\n      sub_180A4EC20(a4);\n  }\n  if ( !*a1 )\n  {\n    v8 = *(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL);\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      v8 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL));\n    if ( !*(_DWORD *)(v8 + 224) )\n      YloSGiLVOEi_0(v8);\n    sub_185C76310(a3, a1, *(_QWORD *)(*(_QWORD *)(a4 + 56) + 8LL));\n  }\n  if ( !*a1 )\n    sub_180AAE510(a1, a2);\n  v9 = sub_180002BE0(0, qword_18C8F37C8, *a1);\n  return sub_180D18860(a2, v9);\n}\n"
+ },
+ {
+  "class": "AsyncStateMachine_5A31",
+  "class_obf": "ÎÎÌÎÌÌÏÏÍÌÍÌÍÏÌÎÌÍÌÏÎÍÎ",
+  "parent": "",
+  "method": "m_63A",
+  "cv_key": "AsyncStateMachine_5A31::m_63A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180016F40(\n        __int64 a1,\n        _QWORD *a2,\n        __int64 a3,\n        unsigned __int8 a4,\n        unsigned __int8 a5,\n        __int128 *a6,\n        __int128 *a7)\n{\n  _QWORD *v9; // rbx\n  __int64 v10; // r11\n  __int64 v11; // r10\n  __int64 *v12; // rax\n  __int64 v13; // rax\n  __int64 v14; // rax\n  __int64 (__fastcall *v15)(_QWORD *, __int64, _QWORD, _QWORD, __int128 *, __int128 *, __int64); // r10\n  __int128 v17; // [rsp+40h] [rbp-48h] BYREF\n  __int128 v18; // [rsp+50h] [rbp-38h] BYREF\n  _QWORD v19[4]; // [rsp+60h] [rbp-28h] BYREF\n\n  v9 = a2;\n  v10 = *(_QWORD *)(*a2 + 16 * (*(unsigned __int16 *)(a1 + 80) + 20LL));\n  v11 = 0;\n  if ( (*(_BYTE *)(v10 + 83) & 2) != 0 )\n  {\n    v12 = *(__int64 **)(v10 + 64);\n    v11 = v12[1];\n    v10 = *v12;\n  }\n  v13 = *(_QWORD *)(a1 + 64);\n  LOBYTE(a2) = 1;\n  v19[0] = v10;\n  v19[1] = v11;\n  v19[2] = *(_QWORD *)(v13 + 16);\n  v14 = sub_180AB3C30(v19, a2);\n  v15 = *(__int64 (__fastcall **)(_QWORD *, __int64, _QWORD, _QWORD, __int128 *, __int128 *, __int64))(v14 + 8);\n  v17 = *a7;\n  v18 = *a6;\n  return v15(v9, a3, a4, a5, &v18, &v17, v14);\n}\n"
+ },
+ {
+  "class": "AsyncStateMachine_5A31",
+  "class_obf": "ÎÎÌÎÌÌÏÏÍÌÍÌÍÏÌÎÌÍÌÏÎÍÎ",
+  "parent": "",
+  "method": "m_752",
+  "cv_key": "AsyncStateMachine_5A31::m_752",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18001AAA0(__int64 **a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  __int64 v8; // rax\n  __int64 *v9; // rdi\n  __int64 v10; // rax\n  __int64 v11; // rax\n  __int64 v12; // rax\n\n  if ( !*(_QWORD *)(a4 + 56) )\n    sub_180A4EC20(a4);\n  if ( !*a1 )\n  {\n    v8 = *(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL);\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      v8 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL));\n    if ( !*(_DWORD *)(v8 + 224) )\n      YloSGiLVOEi_0(v8);\n    sub_185D70A80(a3, a1, *(_QWORD *)(*(_QWORD *)(a4 + 56) + 8LL));\n  }\n  v9 = *a1;\n  if ( !v9 )\n    sub_180AAE510(a1, a2);\n  v10 = *(_QWORD *)(a4 + 40);\n  if ( (*(_BYTE *)(v10 + 309) & 1) == 0 )\n    v10 = sub_180A4EBA0(*(_QWORD *)(a4 + 40));\n  v11 = *(_QWORD *)(*(_QWORD *)(v10 + 192) + 8LL);\n  if ( (*(_BYTE *)(v11 + 309) & 1) == 0 )\n    v11 = sub_180A4EBA0(v11);\n  v12 = sub_180002BE0(0, v11, v9);\n  return sub_180D18860(a2, v12);\n}\n"
+ },
+ {
+  "class": "AsyncStateMachine_5A31",
+  "class_obf": "ÎÎÌÎÌÌÏÏÍÌÍÌÍÏÌÎÌÍÌÏÎÍÎ",
+  "parent": "",
+  "method": "m_CE3",
+  "cv_key": "AsyncStateMachine_5A31::m_CE3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180017EF0(__int64 a1, __int64 a2)\n{\n  __int128 v2; // xmm1\n  __int128 v3; // xmm0\n  _OWORD v4[3]; // [rsp+20h] [rbp-48h] BYREF\n  __int64 v5; // [rsp+50h] [rbp-18h]\n\n  v2 = *(_OWORD *)(a2 + 16);\n  v4[0] = *(_OWORD *)a2;\n  v3 = *(_OWORD *)(a2 + 32);\n  v4[1] = v2;\n  *(_QWORD *)&v2 = *(_QWORD *)(a2 + 48);\n  v4[2] = v3;\n  v5 = v2;\n  sub_180EB3A00((__int128 *)(a1 + 16), (__int64)v4);\n}\n"
+ },
+ {
+  "class": "AsyncStateMachine_5A31",
+  "class_obf": "ÎÎÌÎÌÌÏÏÍÌÍÌÍÏÌÎÌÍÌÏÎÍÎ",
+  "parent": "",
+  "method": "m_E82",
+  "cv_key": "AsyncStateMachine_5A31::m_E82",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18001AB80(__int64 **a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  __int64 v8; // rax\n  __int64 v9; // rax\n  signed __int32 v11[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !*(_QWORD *)(a4 + 56) )\n  {\n    sub_180AD1AA0(&qword_18C8F37C8);\n    _InterlockedOr(v11, 0);\n    if ( !*(_QWORD *)(a4 + 56) )\n      sub_180A4EC20(a4);\n  }\n  if ( !*a1 )\n  {\n    v8 = *(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL);\n    if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n      v8 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(a4 + 56) + 16LL));\n    if ( !*(_DWORD *)(v8 + 224) )\n      YloSGiLVOEi_0(v8);\n    sub_185CA0960(a3, a1, *(_QWORD *)(*(_QWORD *)(a4 + 56) + 8LL));\n  }\n  if ( !*a1 )\n    sub_180AAE510(a1, a2);\n  v9 = sub_180002BE0(0, qword_18C8F37C8, *a1);\n  return sub_180D18860(a2, v9);\n}\n"
+ },
+ {
+  "class": "AsyncStateMachine_5A31",
+  "class_obf": "ÎÎÌÎÌÌÏÏÍÌÍÌÍÏÌÎÌÍÌÏÎÍÎ",
+  "parent": "",
+  "method": "m_EC8",
+  "cv_key": "AsyncStateMachine_5A31::m_EC8",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_180017E10(__int64 a1, __int64 a2)\n{\n  bool result; // al\n\n  *(_OWORD *)a2 = *(_OWORD *)a1;\n  *(_OWORD *)(a2 + 16) = *(_OWORD *)(a1 + 16);\n  *(_OWORD *)(a2 + 32) = *(_OWORD *)(a1 + 32);\n  *(_OWORD *)(a2 + 48) = *(_OWORD *)(a1 + 48);\n  *(_OWORD *)(a2 + 64) = *(_OWORD *)(a1 + 64);\n  *(_OWORD *)(a2 + 80) = *(_OWORD *)(a1 + 80);\n  *(_OWORD *)(a2 + 96) = *(_OWORD *)(a1 + 96);\n  *(_OWORD *)(a2 + 112) = *(_OWORD *)(a1 + 112);\n  *(_BYTE *)(a2 + 128) = *(_DWORD *)(a1 + 128) != 0;\n  *(_BYTE *)(a2 + 129) = *(_DWORD *)(a1 + 132) != 0;\n  *(_BYTE *)(a2 + 130) = *(_DWORD *)(a1 + 136) != 0;\n  *(_BYTE *)(a2 + 131) = *(_DWORD *)(a1 + 140) != 0;\n  *(_BYTE *)(a2 + 132) = *(_DWORD *)(a1 + 144) != 0;\n  result = *(_DWORD *)(a1 + 148) != 0;\n  *(_BYTE *)(a2 + 133) = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "AsyncStateMachine_5A4F",
+  "class_obf": "ÌÌÎÌÎÍÏÌÍÌÎÎÎÏÌÏÍÍÌÎÍÎÏ",
+  "parent": "",
+  "method": "m_63A",
+  "cv_key": "AsyncStateMachine_5A4F::m_63A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180873690(__int64 a1, int a2, __int64 a3, int a4, __int64 a5, __int64 a6)\n{\n  _QWORD v7[5]; // [rsp+30h] [rbp-28h] BYREF\n  int v8; // [rsp+68h] [rbp+10h] BYREF\n  int v9; // [rsp+78h] [rbp+20h] BYREF\n\n  v9 = a4;\n  v8 = a2;\n  v7[1] = a3;\n  v7[0] = &v8;\n  v7[2] = &v9;\n  v7[3] = a5;\n  (*(void (__fastcall **)(_QWORD, __int64, __int64, _QWORD *, __int64 *))(a6 + 16))(*(_QWORD *)a6, a6, a1, v7, &a5);\n  return (unsigned int)a5;\n}\n"
+ },
+ {
+  "class": "AsyncStateMachine_5A4F",
+  "class_obf": "ÌÌÎÌÎÍÏÌÍÌÎÎÎÏÌÏÍÍÌÎÍÎÏ",
+  "parent": "",
+  "method": "m_CE3",
+  "cv_key": "AsyncStateMachine_5A4F::m_CE3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180874130(__int64 a1, __int64 a2, __int64 a3, int a4, __int64 a5, __int64 a6, __int64 a7)\n{\n  _QWORD v8[7]; // [rsp+30h] [rbp-38h] BYREF\n  __int64 v9; // [rsp+78h] [rbp+10h] BYREF\n  int v10; // [rsp+88h] [rbp+20h] BYREF\n\n  v10 = a4;\n  v9 = a2;\n  v8[1] = a3;\n  v8[0] = &v9;\n  v8[2] = &v10;\n  v8[3] = a5;\n  v8[4] = a6;\n  (*(void (__fastcall **)(_QWORD, __int64, __int64, _QWORD *, __int64 *))(a7 + 16))(\n    *(_QWORD *)(a7 + 8),\n    a7,\n    a1,\n    v8,\n    &a5);\n  return (unsigned int)a5;\n}\n"
+ },
+ {
+  "class": "AsyncStateMachine_5A4F",
+  "class_obf": "ÌÌÎÌÎÍÏÌÍÌÎÎÎÏÌÏÍÍÌÎÍÎÏ",
+  "parent": "",
+  "method": "m_DB9",
+  "cv_key": "AsyncStateMachine_5A4F::m_DB9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180873DA0(__int64 a1, __int64 a2, __int64 a3, int a4, __int64 a5, __int64 a6)\n{\n  _QWORD v7[5]; // [rsp+30h] [rbp-28h] BYREF\n  __int64 v8; // [rsp+70h] [rbp+18h] BYREF\n  int v9; // [rsp+78h] [rbp+20h] BYREF\n\n  v9 = a4;\n  v8 = a3;\n  v7[0] = a2;\n  v7[1] = &v8;\n  v7[2] = &v9;\n  v7[3] = a5;\n  (*(void (__fastcall **)(_QWORD, __int64, __int64, _QWORD *, __int64 *))(a6 + 16))(\n    *(_QWORD *)(a6 + 8),\n    a6,\n    a1,\n    v7,\n    &a5);\n  return (unsigned int)a5;\n}\n"
+ },
+ {
+  "class": "AsyncStateMachine_5A53",
+  "class_obf": "ÏÏÏÍÎÎÌÍÍÌÎÌÎÌÏÎÏÏÎÌÎÎÎ",
+  "parent": "",
+  "method": "m_015",
+  "cv_key": "AsyncStateMachine_5A53::m_015",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_1808C0740(__int64 a1, __int64 a2)\n{\n  __m128 v2; // xmm2\n  unsigned __int32 v3; // xmm0_4\n  __m128 v4; // xmm2\n  __m128 v5; // xmm2\n  __m128 v6; // xmm1\n  __m128 v7; // xmm1\n\n  *(_DWORD *)(a1 + 16) = _mm_cvtsi128_si32(*(__m128i *)a2);\n  *(_QWORD *)(a1 + 20) = *(_QWORD *)(a2 + 8);\n  v2 = *(__m128 *)(a2 + 16);\n  *(_QWORD *)(a1 + 28) = v2.m128_u64[0];\n  v3 = _mm_shuffle_ps(v2, v2, 170).m128_u32[0];\n  *(_DWORD *)(a1 + 40) = _mm_shuffle_ps(v2, v2, 255).m128_u32[0];\n  v4 = *(__m128 *)(a2 + 32);\n  *(_DWORD *)(a1 + 36) = v3;\n  *(_DWORD *)(a1 + 44) = v4.m128_i32[0];\n  *(_DWORD *)(a1 + 48) = _mm_shuffle_ps(v4, v4, 85).m128_u32[0];\n  v5 = *(__m128 *)(a2 + 32);\n  *(_DWORD *)(a1 + 52) = _mm_shuffle_ps(v5, v5, 170).m128_u32[0];\n  v6 = *(__m128 *)(a2 + 48);\n  *(_DWORD *)(a1 + 60) = v6.m128_i32[0];\n  *(_DWORD *)(a1 + 64) = _mm_shuffle_ps(v6, v6, 85).m128_u32[0];\n  v7 = *(__m128 *)(a2 + 48);\n  *(_DWORD *)(a1 + 56) = _mm_shuffle_ps(v5, v5, 255).m128_u32[0];\n  *(_DWORD *)(a1 + 72) = _mm_shuffle_ps(v7, v7, 255).m128_u32[0];\n  *(_DWORD *)(a1 + 68) = _mm_shuffle_ps(v7, v7, 170).m128_u32[0];\n}\n"
+ }
+]

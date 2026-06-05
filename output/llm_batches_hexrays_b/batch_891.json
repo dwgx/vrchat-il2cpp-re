@@ -1,0 +1,112 @@
+[
+ {
+  "class": "StringStaticMethods_770C",
+  "class_obf": "ÌÌÎÍÍÏÎÍÍÍÎÎÌÌÍÍÍÏÏÍÎÍÎ",
+  "parent": "",
+  "method": "m_1C3",
+  "cv_key": "StringStaticMethods_770C::m_1C3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "// Hidden C++ exception states: #wind=9\n__int64 __fastcall sub_180579E80(unsigned __int16 a1, __int64 a2, __int64 *a3, unsigned int a4, __int64 a5, __int64 a6)\n{\n  unsigned __int16 v7; // ax\n  __int64 v9; // rbx\n  unsigned __int16 v10; // r10\n  __int64 v11; // r11\n  __int64 v12; // rax\n\n  v7 = 0;\n  v9 = *a3;\n  v10 = *(_WORD *)(*a3 + 302);\n  if ( v10 )\n  {\n    v11 = *(_QWORD *)(v9 + 176);\n    while ( *(_QWORD *)(v11 + 16LL * v7) != a2 )\n    {\n      if ( ++v7 >= v10 )\n        goto LABEL_5;\n    }\n    v12 = v9 + 16LL * (a1 + *(_DWORD *)(v11 + 16LL * v7 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v12 = sub_180A4F060(a3, a2, a1);\n  }\n  return (*(__int64 (__fastcall **)(__int64 *, _QWORD, __int64, __int64, _QWORD))v12)(\n           a3,\n           a4,\n           a5,\n           a6,\n           *(_QWORD *)(v12 + 8));\n}\n"
+ },
+ {
+  "class": "StringStaticMethods_770C",
+  "class_obf": "ÌÌÎÍÍÏÎÍÍÍÎÎÌÌÍÍÍÏÏÍÎÍÎ",
+  "parent": "",
+  "method": "m_6C9",
+  "cv_key": "StringStaticMethods_770C::m_6C9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "// Hidden C++ exception states: #wind=9\n__int64 __fastcall sub_180579CC0(__int64 a1, __int64 *a2, unsigned int a3, __int64 a4, __int64 a5)\n{\n  __int64 v6; // rdx\n  __int64 v7; // rbx\n  unsigned __int16 v11; // r9\n  __int64 v12; // r11\n  unsigned __int16 v13; // r10\n  __int64 v14; // r8\n  __int64 v15; // rax\n  __int64 v16; // rdx\n  __int64 v17; // rcx\n  __int64 *v18; // rax\n  __int64 v19; // rax\n  __int64 v20; // rax\n  _QWORD v22[4]; // [rsp+30h] [rbp-38h] BYREF\n\n  v6 = *(_QWORD *)(a1 + 40);\n  v7 = 0;\n  v11 = 0;\n  v12 = *a2;\n  v13 = *(_WORD *)(*a2 + 302);\n  if ( v13 )\n  {\n    v14 = *(_QWORD *)(v12 + 176);\n    while ( *(_QWORD *)(v14 + 16LL * v11) != v6 )\n    {\n      if ( ++v11 >= v13 )\n        goto LABEL_5;\n    }\n    v16 = 2LL * v11;\n    v15 = v12 + 16LL * (*(unsigned __int16 *)(a1 + 80) + *(_DWORD *)(v14 + 16LL * v11 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v15 = sub_180A4F060(a2, v6, *(unsigned __int16 *)(a1 + 80));\n  }\n  v17 = *(_QWORD *)(v15 + 8);\n  if ( (*(_BYTE *)(v17 + 83) & 2) != 0 )\n  {\n    v18 = *(__int64 **)(v17 + 64);\n    v7 = v18[1];\n    v17 = *v18;\n  }\n  v19 = *(_QWORD *)(a1 + 64);\n  LOBYTE(v16) = 1;\n  v22[0] = v17;\n  v22[1] = v7;\n  v22[2] = *(_QWORD *)(v19 + 16);\n  v20 = sub_180AB3C30(v22, v16);\n  return (*(__int64 (__fastcall **)(__int64 *, _QWORD, __int64, __int64, __int64))(v20 + 8))(a2, a3, a4, a5, v20);\n}\n"
+ },
+ {
+  "class": "StringStaticMethods_770C",
+  "class_obf": "ÌÌÎÍÍÏÎÍÍÍÎÎÌÌÍÍÍÏÏÍÎÍÎ",
+  "parent": "",
+  "method": "m_93B",
+  "cv_key": "StringStaticMethods_770C::m_93B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180579B80(__int64 a1, __int64 *a2, unsigned int a3, __int64 *a4, __int64 *a5)\n{\n  __int64 v6; // rbx\n  __int64 v7; // rdx\n  unsigned __int16 v11; // ax\n  __int64 v12; // r11\n  unsigned __int16 v13; // r10\n  __int64 v14; // r8\n  __int64 v15; // rax\n  __int64 v16; // rdx\n  __int64 v17; // rcx\n  __int64 *v18; // rax\n  __int64 v19; // rax\n  __int64 v20; // rax\n  __int64 (__fastcall *v21)(__int64 *, _QWORD, __int64 *, __int64 *, __int64); // r10\n  __int64 v22; // xmm0_8\n  int v23; // ecx\n  __int64 v24; // xmm0_8\n  __int64 v26; // [rsp+30h] [rbp-48h] BYREF\n  int v27; // [rsp+38h] [rbp-40h]\n  __int64 v28; // [rsp+40h] [rbp-38h] BYREF\n  int v29; // [rsp+48h] [rbp-30h]\n  _QWORD v30[4]; // [rsp+50h] [rbp-28h] BYREF\n\n  v6 = 0;\n  v7 = *(_QWORD *)(a1 + 40);\n  v11 = 0;\n  v12 = *a2;\n  v13 = *(_WORD *)(*a2 + 302);\n  if ( v13 )\n  {\n    v14 = *(_QWORD *)(v12 + 176);\n    while ( *(_QWORD *)(v14 + 16LL * v11) != v7 )\n    {\n      if ( ++v11 >= v13 )\n        goto LABEL_5;\n    }\n    v16 = 2LL * v11;\n    v15 = v12 + 16LL * (*(unsigned __int16 *)(a1 + 80) + *(_DWORD *)(v14 + 16LL * v11 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v15 = sub_180A4F060(a2, v7, *(unsigned __int16 *)(a1 + 80));\n  }\n  v17 = *(_QWORD *)(v15 + 8);\n  if ( (*(_BYTE *)(v17 + 83) & 2) != 0 )\n  {\n    v18 = *(__int64 **)(v17 + 64);\n    v6 = v18[1];\n    v17 = *v18;\n  }\n  v19 = *(_QWORD *)(a1 + 64);\n  LOBYTE(v16) = 1;\n  v30[0] = v17;\n  v30[1] = v6;\n  v30[2] = *(_QWORD *)(v19 + 16);\n  v20 = sub_180AB3C30(v30, v16);\n  v21 = *(__int64 (__fastcall **)(__int64 *, _QWORD, __int64 *, __int64 *, __int64))(v20 + 8);\n  v22 = *a5;\n  v27 = *((_DWORD *)a5 + 2);\n  v23 = *((_DWORD *)a4 + 2);\n  v26 = v22;\n  v24 = *a4;\n  v29 = v23;\n  v28 = v24;\n  return v21(a2, a3, &v28, &v26, v20);\n}\n"
+ },
+ {
+  "class": "StringStaticMethods_8962",
+  "class_obf": "ÍÍÌÏÌÍÏÌÎÌÏÏÌÎÎÎÍÌÌÏÎÍÍ",
+  "parent": "",
+  "method": "m_0BB",
+  "cv_key": "StringStaticMethods_8962::m_0BB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180935C30(__int64 a1, __int64 a2, __int64 *a3)\n{\n  __int64 v3; // rdi\n  __int64 v4; // xmm0_8\n  void (__fastcall *v6)(__int64, __int64 *, __int64 *); // rax\n  int v7; // eax\n  __int64 v9; // rax\n  __int64 v10; // [rsp+20h] [rbp-28h] BYREF\n  int v11; // [rsp+28h] [rbp-20h]\n  __int64 v12; // [rsp+30h] [rbp-18h] BYREF\n  int v13; // [rsp+38h] [rbp-10h]\n\n  v3 = a2 + 16;\n  v4 = *a3;\n  v13 = *((_DWORD *)a3 + 2);\n  v10 = 0;\n  v11 = 0;\n  v6 = (void (__fastcall *)(__int64, __int64 *, __int64 *))qword_18CE486E8;\n  v12 = v4;\n  if ( !qword_18CE486E8 )\n  {\n    v6 = (void (__fastcall *)(__int64, __int64 *, __int64 *))CqZPdCzurki_0((__int64)\"UnityEngine.Bounds::ClosestPoint_Inj\"\n                                                                                    \"ected(UnityEngine.Bounds&,UnityEngin\"\n                                                                                    \"e.Vector3&,UnityEngine.Vector3&)\");\n    if ( !v6 )\n    {\n      v9 = sub_180A61A90(\"UnityEngine.Bounds::ClosestPoint_Injected(UnityEngine.Bounds&,UnityEngine.Vector3&,UnityEngine.Vector3&)\");\n      sub_180A5F890(v9, 0);\n    }\n    qword_18CE486E8 = (__int64)v6;\n  }\n  v6(v3, &v12, &v10);\n  v7 = v11;\n  *(_QWORD *)a1 = v10;\n  *(_DWORD *)(a1 + 8) = v7;\n  return a1;\n}\n"
+ },
+ {
+  "class": "StringStaticMethods_8962",
+  "class_obf": "ÍÍÌÏÌÍÏÌÎÌÏÏÌÎÎÎÍÌÌÏÎÍÍ",
+  "parent": "",
+  "method": "m_416",
+  "cv_key": "StringStaticMethods_8962::m_416",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180935DB0(_DWORD *a1)\n{\n  return a1[4]\n       ^ (4 * (a1[7] ^ (4 * (a1[5] ^ (4 * (a1[8] ^ ((a1[6] ^ (4 * a1[9])) << 22)))))))\n       ^ (unsigned int)((int)((a1[9] ^ ((int)a1[8] >> 24)) & 0xFFFFFFF3 ^ ((a1[6] ^ ((int)a1[5] >> 24)) >> 2)) >> 2);\n}\n"
+ },
+ {
+  "class": "StringStaticMethods_8962",
+  "class_obf": "ÍÍÌÏÌÍÏÌÎÌÏÏÌÎÎÎÍÌÌÏÎÍÍ",
+  "parent": "",
+  "method": "m_648",
+  "cv_key": "StringStaticMethods_8962::m_648",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180935BC0(__int64 a1, __int64 *a2)\n{\n  __int64 v2; // rbx\n  __int64 v3; // xmm0_8\n  __int64 (__fastcall *v4)(__int64, __int64 *); // rax\n  __int64 v6; // rax\n  __int64 v7; // [rsp+20h] [rbp-18h] BYREF\n  int v8; // [rsp+28h] [rbp-10h]\n\n  v2 = a1 + 16;\n  v3 = *a2;\n  v8 = *((_DWORD *)a2 + 2);\n  v4 = (__int64 (__fastcall *)(__int64, __int64 *))qword_18CE486D8;\n  v7 = v3;\n  if ( !qword_18CE486D8 )\n  {\n    v4 = (__int64 (__fastcall *)(__int64, __int64 *))CqZPdCzurki_0((__int64)\"UnityEngine.Bounds::SqrDistance_Injected(Uni\"\n                                                                            \"tyEngine.Bounds&,UnityEngine.Vector3&)\");\n    if ( !v4 )\n    {\n      v6 = sub_180A61A90(\"UnityEngine.Bounds::SqrDistance_Injected(UnityEngine.Bounds&,UnityEngine.Vector3&)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE486D8 = (__int64)v4;\n  }\n  return v4(v2, &v7);\n}\n"
+ },
+ {
+  "class": "StringStaticMethods_8962",
+  "class_obf": "ÍÍÌÏÌÍÏÌÎÌÏÏÌÎÎÎÍÌÌÏÎÍÍ",
+  "parent": "",
+  "method": "m_720",
+  "cv_key": "StringStaticMethods_8962::m_720",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180935FA0(__int64 a1, unsigned __int64 *a2)\n{\n  *(float *)(a1 + 28) = (float)((float)((float)(_mm_shuffle_ps((__m128)*a2, (__m128)*a2, 85).m128_f32[0]\n                                              * _mm_shuffle_ps(\n                                                  (__m128)*(unsigned __int64 *)(a1 + 16),\n                                                  (__m128)*(unsigned __int64 *)(a1 + 16),\n                                                  85).m128_f32[0])\n                                      + (float)(COERCE_FLOAT(*a2) * COERCE_FLOAT(*(_QWORD *)(a1 + 16))))\n                              + (float)(*((float *)a2 + 2) * *(float *)(a1 + 24)))\n                      + *(float *)(a1 + 28);\n}\n"
+ },
+ {
+  "class": "StringStaticMethods_8962",
+  "class_obf": "ÍÍÌÏÌÍÏÌÎÌÏÏÌÎÎÎÍÌÌÏÎÍÍ",
+  "parent": "",
+  "method": "m_A33",
+  "cv_key": "StringStaticMethods_8962::m_A33",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_180936120(__int64 a1, unsigned __int64 *a2, unsigned __int64 *a3)\n{\n  float v3; // xmm4_4\n  float v4; // xmm3_4\n\n  v3 = (float)((float)((float)(_mm_shuffle_ps((__m128)*a2, (__m128)*a2, 85).m128_f32[0]\n                             * _mm_shuffle_ps(\n                                 (__m128)*(unsigned __int64 *)(a1 + 16),\n                                 (__m128)*(unsigned __int64 *)(a1 + 16),\n                                 85).m128_f32[0])\n                     + (float)(COERCE_FLOAT(*a2) * COERCE_FLOAT(*(_QWORD *)(a1 + 16))))\n             + (float)(*((float *)a2 + 2) * *(float *)(a1 + 24)))\n     + *(float *)(a1 + 28);\n  v4 = (float)((float)((float)(_mm_shuffle_ps((__m128)*a3, (__m128)*a3, 85).m128_f32[0]\n                             * _mm_shuffle_ps(\n                                 (__m128)*(unsigned __int64 *)(a1 + 16),\n                                 (__m128)*(unsigned __int64 *)(a1 + 16),\n                                 85).m128_f32[0])\n                     + (float)(COERCE_FLOAT(*a3) * COERCE_FLOAT(*(_QWORD *)(a1 + 16))))\n             + (float)(*((float *)a3 + 2) * *(float *)(a1 + 24)))\n     + *(float *)(a1 + 28);\n  if ( v3 > 0.0 && v4 > 0.0 )\n    return 1;\n  if ( v3 <= 0.0 )\n    return v4 <= 0.0;\n  return 0;\n}\n"
+ },
+ {
+  "class": "StringStaticMethods_8962",
+  "class_obf": "ÍÍÌÏÌÍÏÌÎÌÏÏÌÎÎÎÍÌÌÏÎÍÍ",
+  "parent": "",
+  "method": "m_B42",
+  "cv_key": "StringStaticMethods_8962::m_B42",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180935B50(__int64 a1, __int64 *a2)\n{\n  __int64 v2; // rbx\n  __int64 v3; // xmm0_8\n  __int64 (__fastcall *v4)(__int64, __int64 *); // rax\n  __int64 v6; // rax\n  __int64 v7; // [rsp+20h] [rbp-18h] BYREF\n  int v8; // [rsp+28h] [rbp-10h]\n\n  v2 = a1 + 16;\n  v3 = *a2;\n  v8 = *((_DWORD *)a2 + 2);\n  v4 = (__int64 (__fastcall *)(__int64, __int64 *))qword_18CE486D0;\n  v7 = v3;\n  if ( !qword_18CE486D0 )\n  {\n    v4 = (__int64 (__fastcall *)(__int64, __int64 *))CqZPdCzurki_0(\n                                                       \"UnityEngine.Bounds::Contains_Injected(UnityEngine.Bounds&,UnityEngine.Vector3&)\");\n    if ( !v4 )\n    {\n      v6 = sub_180A61A90(\"UnityEngine.Bounds::Contains_Injected(UnityEngine.Bounds&,UnityEngine.Vector3&)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE486D0 = (__int64)v4;\n  }\n  return v4(v2, &v7);\n}\n"
+ },
+ {
+  "class": "StringStaticMethods_8962",
+  "class_obf": "ÍÍÌÏÌÍÏÌÎÌÏÏÌÎÎÎÍÌÌÏÎÍÍ",
+  "parent": "",
+  "method": "m_BEE",
+  "cv_key": "StringStaticMethods_8962::m_BEE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_180936120(__int64 a1, unsigned __int64 *a2, unsigned __int64 *a3)\n{\n  float v3; // xmm4_4\n  float v4; // xmm3_4\n\n  v3 = (float)((float)((float)(_mm_shuffle_ps((__m128)*a2, (__m128)*a2, 85).m128_f32[0]\n                             * _mm_shuffle_ps(\n                                 (__m128)*(unsigned __int64 *)(a1 + 16),\n                                 (__m128)*(unsigned __int64 *)(a1 + 16),\n                                 85).m128_f32[0])\n                     + (float)(COERCE_FLOAT(*a2) * COERCE_FLOAT(*(_QWORD *)(a1 + 16))))\n             + (float)(*((float *)a2 + 2) * *(float *)(a1 + 24)))\n     + *(float *)(a1 + 28);\n  v4 = (float)((float)((float)(_mm_shuffle_ps((__m128)*a3, (__m128)*a3, 85).m128_f32[0]\n                             * _mm_shuffle_ps(\n                                 (__m128)*(unsigned __int64 *)(a1 + 16),\n                                 (__m128)*(unsigned __int64 *)(a1 + 16),\n                                 85).m128_f32[0])\n                     + (float)(COERCE_FLOAT(*a3) * COERCE_FLOAT(*(_QWORD *)(a1 + 16))))\n             + (float)(*((float *)a3 + 2) * *(float *)(a1 + 24)))\n     + *(float *)(a1 + 28);\n  if ( v3 > 0.0 && v4 > 0.0 )\n    return 1;\n  if ( v3 <= 0.0 )\n    return v4 <= 0.0;\n  return 0;\n}\n"
+ }
+]

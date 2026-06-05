@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_F9B9::m_016": "InitializeDefaultAnimationCurve",
+ "VRCNetworkBehaviourSibling_BF5Sibling_F9B9::m_51F": "EvaluateAnimationCurveValue",
+ "VRCNetworkBehaviourSibling_BF5Sibling_F9B9::m_95D": "ApplyLocalPositionAtTime",
+ "VRCNetworkBehaviourSibling_BF5Sibling_F9B9::m_C01": "EvaluateAnimationCurveValue",
+ "VRCNetworkBehaviourSibling_BF5Sibling_F9B9::m_F2B": "InitializeDefaultAnimationCurve"
+}

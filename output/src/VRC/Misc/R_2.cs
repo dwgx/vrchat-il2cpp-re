@@ -11,19 +11,20 @@ namespace VRC.Misc
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB809CD0
+        public void InvokeRectComputeDimensions(){} // RVA: 0x7FFAFB80A2B0
         public void Awake(){} // RVA: 0x7FFAFB80B0D0
         public void OnDestroy(){} // RVA: 0x7FFAFB80B2E0
         public void Start(){} // RVA: 0x7FFAFB80B3E0
         public void FixedUpdate(){} // RVA: 0x7FFAF2DBB130
         public void Update(){} // RVA: 0x7FFAF2DBB130
         public void LateUpdate(){} // RVA: 0x7FFAFB80B810
-        // ── 14 unresolved (hash) ──
+        // ── 13 unresolved (hash) ──
         public void m_A79(){} // RVA: 0x7FFAFB809BD0
         public void m_462(){} // RVA: 0x7FFAFB809DD0
         public void m_56C(){} // RVA: 0x7FFAFB809F40
         public void m_D00(){} // RVA: 0x7FFAFB80A0B0
         public void m_908(){} // RVA: 0x7FFAFB80A1B0
-        // ... 9 more unresolved methods
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÍÌÍÎÏÍÏÎÍÎÏÏÍÎÍÌÌÍÌÍÍ</summary>
@@ -146,14 +147,15 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void ReadCapsuleColliderState(){} // RVA: 0x7FFAF2D900C0
+        public void ResolveDelayLoadedImport(){} // RVA: 0x7FFAF4B0EA20
         public void ReadCapsuleColliderState_DF0402D9E7A5(){} // RVA: 0x7FFAF2D900C0
-        // ── 31 unresolved (hash) ──
+        // ── 30 unresolved (hash) ──
         public void m_4F4(){} // RVA: 0x7FFAF2E6C230
         public void m_41F(){} // RVA: 0x7FFAF4584690
         public void m_712(){} // RVA: 0x7FFAF335C660
         public void m_2AE(){} // RVA: 0x7FFAF44189C0
         public void m_46F(){} // RVA: 0x7FFAF2DBB0D0
-        // ... 26 more unresolved methods
+        // ... 25 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÎÍÏÏÎÌÎÍÌÍÍÏÍÎÎÌÍÍÏÌ</summary>

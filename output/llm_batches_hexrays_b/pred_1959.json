@@ -1,0 +1,10 @@
+{
+ "AsyncStateMachine_E27D::m_DB9": "get_Current",
+ "AsyncStateMachine_E28B::m_63A": "MoveNext",
+ "AsyncStateMachine_E2F2::m_63A": "MoveNext",
+ "AsyncStateMachine_E3A0::m_015": "Equals",
+ "AsyncStateMachine_E3A0::m_440": "GetHashCode",
+ "AsyncStateMachine_E3A0::m_4D8": "GetHashCode",
+ "AsyncStateMachine_E3A0::m_4E8": "GetHashCode",
+ "AsyncStateMachine_E3A0::m_752": "GetHashCode"
+}

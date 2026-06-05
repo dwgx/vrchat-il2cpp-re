@@ -1,0 +1,5 @@
+{
+ "PointerDownBeginDrag_9BA6::m_D17": "set_CacheWritingBehavior",
+ "PointerDownPointerUpSibling_6D85::m_00A": "OnPointerDown",
+ "PointerDownPointerUpSibling_6D85::m_00B": "OnPointerUp"
+}

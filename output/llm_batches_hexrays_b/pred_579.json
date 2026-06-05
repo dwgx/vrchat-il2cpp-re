@@ -1,0 +1,9 @@
+{
+ "TransformMeshHandler_D007::m_9E1": "CloseFileDescriptor",
+ "TransformMeshHandler_D007::m_B64": "WriteCharacterToFileStream",
+ "TransformMeshHandler_D007::m_BEA": "CountLineFeedCharacters",
+ "TransformMeshHandler_D007::m_DBB": "ComputeTextModeStreamPosition",
+ "TransformMeshHandler_D007::m_FB2": "CountLineFeedCharacters",
+ "TransformQuaternionHandler_4824::m_13E": "GetHashCode",
+ "TransformQuaternionHandler_4824::m_1A7": "ToString"
+}

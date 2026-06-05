@@ -1,0 +1,6 @@
+{
+ "ParticleMaterialHandler_34F9::m_29B": "ToSingle",
+ "ParticleMaterialHandler_34F9::m_338": "ToType",
+ "ParticleMaterialHandler_34F9::m_968": "TryFormat",
+ "ParticleMaterialHandler_34F9::m_B3C": "ToDecimal"
+}

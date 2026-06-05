@@ -1,0 +1,8 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_BADC::m_2F0": "InflateFast",
+ "VRCNetworkBehaviourSibling_BF5Sibling_BADC::m_51F": "InflateFast",
+ "VRCNetworkBehaviourSibling_BF5Sibling_BADC::m_6EA": "InflateFast",
+ "VRCNetworkBehaviourSibling_BF5Sibling_BADC::m_6F8": "InflateFast",
+ "VRCNetworkBehaviourSibling_BF5Sibling_BADC::m_C31": "InflateFast",
+ "VRCNetworkBehaviourSibling_BF5Sibling_BADC::m_CF3": "CopyInflateWindowOutput"
+}

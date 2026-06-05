@@ -51,6 +51,7 @@ namespace VRC.Security
     public class UserBlockedIdComponent_5224
     {
         // ── Methods ──
+        public void OnAudioFilterRead(){} // RVA: 0x7FFAF8F12A50
         public void Start(){} // RVA: 0x7FFAF8F12AD0
         public void FixedUpdate(){} // RVA: 0x7FFAF2ABD840
         public void Awake(){} // RVA: 0x7FFAF8F12B70
@@ -72,13 +73,13 @@ namespace VRC.Security
         public void OnTriggerStay(){} // RVA: 0x7FFAF8F16AA0
         public void .ctor(){} // RVA: 0x7FFAF8F186D0
         public void .cctor(){} // RVA: 0x7FFAF8F18950
-        // ── 13 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_52E(){} // RVA: 0x7FFAF8F128D0
         public void m_032(){} // RVA: 0x7FFAF8F12930
         public void m_B09(){} // RVA: 0x7FFAF8F129F0
         public void m_2FC(){} // RVA: 0x7FFAF8F12A00
         public void m_CF6(){} // RVA: 0x7FFAF8F12A20
-        // ... 8 more unresolved methods
+        // ... 7 more unresolved methods
     }
 
 }

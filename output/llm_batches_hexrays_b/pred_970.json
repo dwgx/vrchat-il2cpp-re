@@ -1,0 +1,6 @@
+{
+ "VoicePriorityManager::m_1C3": "GetComponentsInChildren",
+ "VoicePriorityManager::m_35B": "GetComponentsInParent",
+ "VoicePriorityManager::m_372": "GetComponentsInChildren",
+ "VoicePriorityManager::m_4F1": "GetComponentsInChildren"
+}

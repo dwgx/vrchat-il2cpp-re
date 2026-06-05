@@ -1,0 +1,8 @@
+{
+ "AsyncStateMachine_CF98::m_63A": "GetHashCode",
+ "AsyncStateMachine_CF98::m_7F6": "GetHashCode",
+ "AsyncStateMachine_CF98::m_CE3": "Equals",
+ "AsyncStateMachine_D047::m_CE3": "Current",
+ "AsyncStateMachine_D071::m_015": "MoveNext",
+ "AsyncStateMachine_D071::m_124": "MoveNext"
+}

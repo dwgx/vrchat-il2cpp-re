@@ -1,3 +1,4 @@
 {
- "VRC_Main_F4CB::m_9E7": "GetByteAtIndex"
+ "TransformPhysicsSystem_923C::m_249": "MarshalCollisionRecordToNative",
+ "TransformPhysicsSystem_923C::m_253": "ThrowCollisionRecordShapeMarshalException"
 }

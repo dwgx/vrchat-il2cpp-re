@@ -1,4 +1,11 @@
 {
- "VRCNetworkBehaviourSiblinRelated_086D::m_88B": "ThrowDraggedElementMarshalUnsupported",
- "VRCNetworkBehaviourSiblinRelated_224D::m_06A": "IntersectRay"
+ "ctorDerivedSiblingSibling_2E7B::m_43F": "ToStringEnd",
+ "ctorDerivedSiblingSibling_2E7B::m_487": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_49C": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_4A7": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_4C5": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_4DE": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_537": "EqualsObject",
+ "ctorDerivedSiblingSibling_2E7B::m_54B": "EqualsObject",
+ "ctorDerivedSiblingSibling_2E7B::m_563": "GetHashCode"
 }

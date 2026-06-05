@@ -1,0 +1,112 @@
+[
+ {
+  "class": "IsInteractiveInteractSibling_CEFB",
+  "class_obf": "ÏÌÏÌÌÎÎÌÍÌÌÎÍÍÌÏÎÌÎÍÍÌÌ",
+  "parent": "",
+  "method": "m_31B",
+  "cv_key": "IsInteractiveInteractSibling_CEFB::m_31B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180829770(\n        __int64 (__fastcall *a1)(_BYTE *, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 a5)\n{\n  __int64 v5; // rax\n  __int128 v6; // xmm1\n  __int64 v7; // xmm0_8\n  _BYTE v9[40]; // [rsp+30h] [rbp-28h] BYREF\n\n  v5 = a1(v9, *(_QWORD *)a4, **(unsigned int **)(a4 + 8), **(unsigned __int8 **)(a4 + 16), *(_QWORD *)(a4 + 24), a2);\n  v6 = *(_OWORD *)v5;\n  v7 = *(_QWORD *)(v5 + 16);\n  *(_OWORD *)a5 = v6;\n  *(_QWORD *)(a5 + 16) = v7;\n  return a5;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_CEFB",
+  "class_obf": "ÏÌÏÌÌÎÎÌÍÌÌÎÍÍÌÏÎÌÎÍÍÌÌ",
+  "parent": "",
+  "method": "m_CE0",
+  "cv_key": "IsInteractiveInteractSibling_CEFB::m_CE0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_180829860(\n        __int64 (__fastcall *a1)(_BYTE *, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        _OWORD *a5)\n{\n  __int128 v5; // xmm0\n  _BYTE v7[24]; // [rsp+30h] [rbp-18h] BYREF\n\n  v5 = *(_OWORD *)a1(v7, *(_QWORD *)a4, *(_QWORD *)(a4 + 8), *(_QWORD *)(a4 + 16), **(_QWORD **)(a4 + 24), a2);\n  *a5 = v5;\n  return a5;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_CEFB",
+  "class_obf": "ÏÌÏÌÌÎÎÌÍÌÌÎÍÍÌÏÎÌÎÍÍÌÌ",
+  "parent": "",
+  "method": "m_E41",
+  "cv_key": "IsInteractiveInteractSibling_CEFB::m_E41",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180829A20(\n        __int64 (__fastcall *a1)(_BYTE *, __int64, __int128 *, __int128 *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4,\n        __int64 a5)\n{\n  __int128 *v5; // rax\n  __int128 v6; // xmm0\n  __int64 v7; // rdx\n  __int128 *v8; // rax\n  __int128 v9; // xmm0\n  __int64 v10; // rax\n  __int64 v11; // rax\n  __int128 v12; // xmm1\n  __int128 v15; // [rsp+30h] [rbp-58h] BYREF\n  __int128 v16; // [rsp+40h] [rbp-48h] BYREF\n  int v17; // [rsp+50h] [rbp-38h]\n  _BYTE v18[40]; // [rsp+60h] [rbp-28h] BYREF\n\n  v5 = (__int128 *)a4[2];\n  v6 = *v5;\n  v7 = *a4;\n  v17 = *((_DWORD *)v5 + 4);\n  v8 = (__int128 *)a4[1];\n  v16 = v6;\n  v9 = *v8;\n  v10 = a4[3];\n  v15 = v9;\n  v11 = a1(v18, v7, &v15, &v16, v10, a2);\n  v12 = *(_OWORD *)v11;\n  *(_QWORD *)&v9 = *(_QWORD *)(v11 + 16);\n  *(_OWORD *)a5 = v12;\n  *(_QWORD *)(a5 + 16) = v9;\n  return a5;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_CEFB",
+  "class_obf": "ÏÌÏÌÌÎÎÌÍÌÌÎÍÍÌÏÎÌÎÍÍÌÌ",
+  "parent": "",
+  "method": "m_E8C",
+  "cv_key": "IsInteractiveInteractSibling_CEFB::m_E8C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808295F0(\n        __int64 (__fastcall *a1)(_BYTE *, _QWORD, _QWORD, _QWORD, char, __int64),\n        __int64 a2,\n        __int64 a3,\n        unsigned int **a4,\n        __int64 a5)\n{\n  __int64 v5; // rax\n  __int128 v6; // xmm1\n  __int64 v7; // xmm0_8\n  char v9; // [rsp+20h] [rbp-38h]\n  _BYTE v10[40]; // [rsp+30h] [rbp-28h] BYREF\n\n  v9 = *(_BYTE *)a4[3];\n  v5 = a1(v10, **a4, *a4[1], *a4[2], v9, a2);\n  v6 = *(_OWORD *)v5;\n  v7 = *(_QWORD *)(v5 + 16);\n  *(_OWORD *)a5 = v6;\n  *(_QWORD *)(a5 + 16) = v7;\n  return a5;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_E01D",
+  "class_obf": "ÎÍÍÎÎÍÎÏÌÏÌÌÏÌÏÏÏÏÎÍÍÌÎ",
+  "parent": "",
+  "method": "m_035",
+  "cv_key": "IsInteractiveInteractSibling_E01D::m_035",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180829D70(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(\n             **(_QWORD **)a4,\n             **(unsigned int **)(a4 + 8),\n             **(unsigned int **)(a4 + 16),\n             **(unsigned int **)(a4 + 24),\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_E01D",
+  "class_obf": "ÎÍÍÎÎÍÎÏÌÏÌÌÏÌÏÏÏÏÎÍÍÌÎ",
+  "parent": "",
+  "method": "m_086",
+  "cv_key": "IsInteractiveInteractSibling_E01D::m_086",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180829CB0(\n        __int64 (__fastcall *a1)(_QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(\n             *(_QWORD *)a4,\n             **(unsigned int **)(a4 + 8),\n             **(unsigned int **)(a4 + 16),\n             **(unsigned int **)(a4 + 24),\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_E01D",
+  "class_obf": "ÎÍÍÎÎÍÎÏÌÏÌÌÏÌÏÏÏÏÎÍÍÌÎ",
+  "parent": "",
+  "method": "m_31B",
+  "cv_key": "IsInteractiveInteractSibling_E01D::m_31B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_180829E90(\n        __int64 (__fastcall *a1)(_BYTE *, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        _OWORD *a5)\n{\n  __int128 v5; // xmm0\n  _BYTE v7[24]; // [rsp+30h] [rbp-18h] BYREF\n\n  v5 = *(_OWORD *)a1(\n                    v7,\n                    *(_QWORD *)a4,\n                    **(unsigned int **)(a4 + 8),\n                    **(unsigned int **)(a4 + 16),\n                    *(_QWORD *)(a4 + 24),\n                    a2);\n  *a5 = v5;\n  return a5;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_E01D",
+  "class_obf": "ÎÍÍÎÎÍÎÏÌÏÌÌÏÌÏÏÏÏÎÍÍÌÎ",
+  "parent": "",
+  "method": "m_CE0",
+  "cv_key": "IsInteractiveInteractSibling_E01D::m_CE0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180829A90(\n        __int64 (__fastcall *a1)(_BYTE *, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4,\n        __int64 a5)\n{\n  __int64 v5; // rax\n  __int128 v6; // xmm1\n  __int128 v7; // xmm2\n  __int128 v8; // xmm3\n  __int128 v9; // xmm4\n  __int64 v10; // xmm0_8\n  _BYTE v12[88]; // [rsp+30h] [rbp-58h] BYREF\n\n  v5 = a1(v12, *a4, a4[1], a4[2], a4[3], a2);\n  v6 = *(_OWORD *)v5;\n  v7 = *(_OWORD *)(v5 + 16);\n  v8 = *(_OWORD *)(v5 + 32);\n  v9 = *(_OWORD *)(v5 + 48);\n  v10 = *(_QWORD *)(v5 + 64);\n  *(_OWORD *)a5 = v6;\n  *(_OWORD *)(a5 + 16) = v7;\n  *(_OWORD *)(a5 + 32) = v8;\n  *(_OWORD *)(a5 + 48) = v9;\n  *(_QWORD *)(a5 + 64) = v10;\n  return a5;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_E01D",
+  "class_obf": "ÎÍÍÎÎÍÎÏÌÏÌÌÏÌÏÏÏÏÎÍÍÌÎ",
+  "parent": "",
+  "method": "m_E41",
+  "cv_key": "IsInteractiveInteractSibling_E01D::m_E41",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_180829BE0(\n        __int64 (__fastcall *a1)(_BYTE *, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4,\n        _OWORD *a5)\n{\n  __int128 *v5; // rax\n  __int128 v6; // xmm0\n  __int128 v7; // xmm1\n  __int128 v8; // xmm2\n  __int128 v9; // xmm3\n  _BYTE v11[72]; // [rsp+30h] [rbp-48h] BYREF\n\n  v5 = (__int128 *)a1(v11, *a4, a4[1], a4[2], a4[3], a2);\n  v6 = *v5;\n  v7 = v5[1];\n  v8 = v5[2];\n  v9 = v5[3];\n  *a5 = v6;\n  a5[1] = v7;\n  a5[2] = v8;\n  a5[3] = v9;\n  return a5;\n}\n"
+ },
+ {
+  "class": "IsInteractiveInteractSibling_E01D",
+  "class_obf": "ÎÍÍÎÎÍÎÏÌÏÌÌÏÌÏÏÏÏÎÍÍÌÎ",
+  "parent": "",
+  "method": "m_E8C",
+  "cv_key": "IsInteractiveInteractSibling_E01D::m_E8C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_180829B70(\n        __int64 (__fastcall *a1)(_BYTE *, __int128 *, __int128 *, __int128 *, __int128 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4,\n        _OWORD *a5)\n{\n  __int128 *v5; // r8\n  __int128 v6; // xmm0\n  __int128 *v7; // rax\n  __int128 *v8; // r9\n  __int128 *v9; // rax\n  __int128 v10; // xmm0\n  __int128 v11; // xmm1\n  __int128 v12; // xmm2\n  __int128 v13; // xmm3\n  __int128 v14; // xmm4\n  __int128 v16; // [rsp+30h] [rbp-68h] BYREF\n  _BYTE v17[88]; // [rsp+40h] [rbp-58h] BYREF\n\n  v5 = a4[1];\n  v6 = **a4;\n  v7 = a4[3];\n  v8 = a4[2];\n  v16 = v6;\n  v9 = (__int128 *)a1(v17, &v16, v5, v8, v7, a2);\n  v10 = *v9;\n  v11 = v9[1];\n  v12 = v9[2];\n  v13 = v9[3];\n  v14 = v9[4];\n  *a5 = v10;\n  a5[1] = v11;\n  a5[2] = v12;\n  a5[3] = v13;\n  a5[4] = v14;\n  return a5;\n}\n"
+ }
+]

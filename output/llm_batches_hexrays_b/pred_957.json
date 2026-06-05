@@ -1,0 +1,5 @@
+{
+ "VRC_MainSibling_C23A::m_A69": "MarshalNativeToManaged",
+ "VRC_MainSibling_C23A::m_A85": "MarshalNativeToManaged",
+ "VRC_MainSibling_C23A::m_B29": "MarshalManagedToNative"
+}

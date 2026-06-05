@@ -1,0 +1,9 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_ABF7::m_2F0": "FindHashedStringEntry",
+ "VRCNetworkBehaviourSibling_BF5Sibling_ABF7::m_6EA": "FindHashedStringEntry",
+ "VRCNetworkBehaviourSibling_BF5Sibling_ABF7::m_937": "FreeTreeNodes",
+ "VRCNetworkBehaviourSibling_BF5Sibling_ABF7::m_95D": "CollectMethodsMatchingBindingFlags",
+ "VRCNetworkBehaviourSibling_BF5Sibling_ABF7::m_C01": "CollectMethodsMatchingBindingFlags",
+ "VRCNetworkBehaviourSibling_BF5Sibling_ABF7::m_CF3": "FindHashedStringEntry",
+ "VRCNetworkBehaviourSibling_BF5Sibling_ABF7::m_EEE": "IsMatchingHashedStringEntry"
+}

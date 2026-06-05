@@ -1,0 +1,9 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_B533::m_410": "ReclaimHeapBlock",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B533::m_6C6": "ReclaimUnmarkedObjects",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B533::m_6F8": "ReclaimHeapBlock",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B533::m_937": "ReclaimAllHeapBlocks",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B533::m_C01": "ReclaimAllHeapBlocks",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B533::m_C31": "ReclaimUnmarkedObjects",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B533::m_CF3": "ReclaimAllHeapBlocks"
+}

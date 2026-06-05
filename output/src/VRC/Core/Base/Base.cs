@@ -76,32 +76,46 @@ namespace VRC.Core.Base
     public class BaseClass4ImplSiblingSibling_742D
     {
         // ── Methods ──
+        public void Equals(){} // RVA: 0x7FFAF3963740
+        public void Equals_FBE6FC31B71D(){} // RVA: 0x7FFAF3963980
+        public void GetHashCode(){} // RVA: 0x7FFAF3963A20
+        public void ToString(){} // RVA: 0x7FFAF3963C60
+        public void ToString_ED0EA487FEBF(){} // RVA: 0x7FFAF3963F30
+        public void ThrowElementMarshalUnsupported(){} // RVA: 0x7FFAF3964270
+        public void Equals_D53E90EA34A5(){} // RVA: 0x7FFAF39642B0
+        public void Equals_6C608F59ABD9(){} // RVA: 0x7FFAF39642F0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2DF3E80
-        // ── 22 unresolved (hash) ──
-        public void m_18B(){} // RVA: 0x7FFAF3963740
-        public void m_FBE(){} // RVA: 0x7FFAF3963980
+        // ── 14 unresolved (hash) ──
         public void m_D2C(){} // RVA: 0x7FFAF2D8EE30
-        public void m_A2E(){} // RVA: 0x7FFAF3963A20
         public void m_5BA(){} // RVA: 0x7FFAF2D907C0
-        // ... 17 more unresolved methods
+        public void m_C1F(){} // RVA: 0x7FFAF3963D60
+        public void m_CAD(){} // RVA: 0x7FFAF3963E60
+        public void m_537(){} // RVA: 0x7FFAF2DA8380
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÏÎÎÎÌÌÎÍÌÌÌÌÍÍÍÎÎÏÎÌÌ</summary>
     public class BaseClass4ImplSiblingSibling_BABF
     {
         // ── Methods ──
+        public void get_Task(){} // RVA: 0x7FFAF3701380
+        public void get_Task_C85D29FC2D09(){} // RVA: 0x7FFAF37013F0
         public void ConfigureParticleEmissionModule(){} // RVA: 0x7FFAF36F2990
         public void .ctor(){} // RVA: 0x7FFAF37014E0
         public void Initialize(){} // RVA: 0x7FFAF2E2E0E0
         public void ConfigureParticleEmissionModule_345B449A5315(){} // RVA: 0x7FFAF36F2990
-        // ── 24 unresolved (hash) ──
+        public void get_Task_FE5B18ACFA26(){} // RVA: 0x7FFAF3701740
+        public void get_Task_655821E2E2E1(){} // RVA: 0x7FFAF37019A0
+        public void get_Task_E084A85C5CA4(){} // RVA: 0x7FFAF3701BC0
+        public void get_Task_A4D9FC74A648(){} // RVA: 0x7FFAF3701DD0
+        // ── 18 unresolved (hash) ──
         public void m_3A1(){} // RVA: 0x7FFAF2E2B380
         public void m_D49(){} // RVA: 0x7FFAF2E2B370
         public void m_6FB(){} // RVA: 0x7FFAF2E08D50
         public void m_AD2(){} // RVA: 0x7FFAF342C3A0
-        public void m_727(){} // RVA: 0x7FFAF3701380
-        // ... 19 more unresolved methods
+        public void m_3DE(){} // RVA: 0x7FFAF2EE54D0
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÍÎÎÎÌÌÍÍÍÏÌÏÌÌÍÏÎÏÏÍÎÌÏ</summary>
@@ -182,25 +196,27 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ</summary>
     public class BaseClass4Impl_249B
     {
+        // ── Methods ──
+        public void CreateRotationMatrixFromQuaternion(){} // RVA: 0x7FFAF2ABD840
         // ── Unresolved (hash) ──
         public void m_61C(){} // RVA: 0x7FFAF2ABCD60
         public void m_1C1(){} // RVA: 0x7FFAF2D33FA0
         public void m_B5E(){} // RVA: 0x7FFAF2D33FA0
         public void m_49A(){} // RVA: 0x7FFAF2D33FA0
         public void m_FE6(){} // RVA: 0x7FFAF2AD4A50
-        public void m_BCF(){} // RVA: 0x7FFAF2ABD840
     }
 
     /// <summary>Originally: ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ</summary>
     public class BaseClass4Impl_249B : BaseClass4_61C9
     {
+        // ── Methods ──
+        public void CreateRotationMatrixFromQuaternion(){} // RVA: 0x7FFAF7B40A10
         // ── Unresolved (hash) ──
         public void m_61C(){} // RVA: 0x7FFAF2ABCD60
         public void m_1C1(){} // RVA: 0x7FFAF2AD4B10
         public void m_B5E(){} // RVA: 0x7FFAF2ADBAA0
         public void m_49A(){} // RVA: 0x7FFAF2AD4B10
         public void m_FE6(){} // RVA: 0x7FFAF2AD4A50
-        public void m_BCF(){} // RVA: 0x7FFAF7B40A10
     }
 
     /// <summary>Originally: ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ</summary>
@@ -216,37 +232,40 @@ namespace VRC.Core.Base
     /// <summary>Originally: ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ</summary>
     public class BaseClass4Impl_249B : BaseClass4_61C9
     {
+        // ── Methods ──
+        public void CreateRotationMatrixFromQuaternion(){} // RVA: 0x7FFAF7B40A10
         // ── Unresolved (hash) ──
         public void m_61C(){} // RVA: 0x7FFAF2ABCD60
         public void m_1C1(){} // RVA: 0x7FFAF2AD4B10
         public void m_B5E(){} // RVA: 0x7FFAF2ADBAA0
         public void m_49A(){} // RVA: 0x7FFAF2AD4B10
         public void m_FE6(){} // RVA: 0x7FFAF2AD4A50
-        public void m_BCF(){} // RVA: 0x7FFAF7B40A10
     }
 
     /// <summary>Originally: ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ</summary>
     public class BaseClass4Impl_249B : BaseClass4_61C9
     {
+        // ── Methods ──
+        public void CreateRotationMatrixFromQuaternion(){} // RVA: 0x7FFAF7B40A10
         // ── Unresolved (hash) ──
         public void m_61C(){} // RVA: 0x7FFAF2ABCD60
         public void m_1C1(){} // RVA: 0x7FFAF2AD4B10
         public void m_B5E(){} // RVA: 0x7FFAF2ADBAA0
         public void m_49A(){} // RVA: 0x7FFAF2AD4B10
         public void m_FE6(){} // RVA: 0x7FFAF2AD4A50
-        public void m_BCF(){} // RVA: 0x7FFAF7B40A10
     }
 
     /// <summary>Originally: ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ</summary>
     public class BaseClass4Impl_249B : BaseClass4_61C9
     {
+        // ── Methods ──
+        public void CreateRotationMatrixFromQuaternion(){} // RVA: 0x7FFAF7B40A80
         // ── Unresolved (hash) ──
         public void m_61C(){} // RVA: 0x7FFAF2ABCD60
         public void m_1C1(){} // RVA: 0x7FFAF2D33FA0
         public void m_B5E(){} // RVA: 0x7FFAF2D33FA0
         public void m_49A(){} // RVA: 0x7FFAF2D33FA0
         public void m_FE6(){} // RVA: 0x7FFAF2AD4A50
-        public void m_BCF(){} // RVA: 0x7FFAF7B40A80
     }
 
     /// <summary>Originally: ÎÎÍÏÎÏÍÎÏÌÍÌÎÎÍÌÌÍÍÎÏÌÎ</summary>
@@ -260,17 +279,17 @@ namespace VRC.Core.Base
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x7FFAF3F9C890
         public void Start(){} // RVA: 0x7FFAF3F9CB10
+        public void MoveNext(){} // RVA: 0x7FFAF3F9CDA0
+        public void MoveNext_179DB0D809A4(){} // RVA: 0x7FFAF3F9D390
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3F9D610
         // ── Unresolved (hash) ──
         public void m_053(){} // RVA: 0x7FFAF3F9C9D0
         public void m_692(){} // RVA: 0x7FFAF3F9CBD0
         public void m_656(){} // RVA: 0x7FFAF3F9CD10
-        public void m_076(){} // RVA: 0x7FFAF3F9CDA0
         public void m_A76(){} // RVA: 0x7FFAF3F9CEE0
         public void m_ECA(){} // RVA: 0x7FFAF3F9D070
         public void m_DCE(){} // RVA: 0x7FFAF3F9D200
-        public void m_179(){} // RVA: 0x7FFAF3F9D390
         public void m_97E(){} // RVA: 0x7FFAF3F9D4D0
         public void m_D71(){} // RVA: 0x7FFAF3F9D7A0
     }
@@ -336,17 +355,22 @@ namespace VRC.Core.Base
     public class BaseClass9Impl_53D9Sibling_3A65
     {
         // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF3F9A380
         public void OnDisable(){} // RVA: 0x7FFAF3F9A490
+        public void GetEnumerator_42DD884B83A8(){} // RVA: 0x7FFAF3F9A760
+        public void MoveNext(){} // RVA: 0x7FFAF3F9AE70
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void OnEnable(){} // RVA: 0x7FFAF3F9B1E0
         public void Start(){} // RVA: 0x7FFAF3F9B2F0
-        // ── 11 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_F23(){} // RVA: 0x7FFAF3F99F00
         public void m_DCE(){} // RVA: 0x7FFAF3F9A010
         public void m_B8E(){} // RVA: 0x7FFAF3F9A270
-        public void m_656(){} // RVA: 0x7FFAF3F9A380
         public void m_AD9(){} // RVA: 0x7FFAF3F9A650
-        // ... 6 more unresolved methods
+        public void m_D71(){} // RVA: 0x7FFAF3F9A920
+        public void m_ECA(){} // RVA: 0x7FFAF3F9A9B0
+        public void m_65A(){} // RVA: 0x7FFAF3F9AC10
+        public void m_86E(){} // RVA: 0x7FFAF3F9AF80
     }
 
     /// <summary>Originally: ÌÍÍÏÍÍÎÏÏÌÍÏÍÍÍÎÍÎÏÍÌÌÏ</summary>

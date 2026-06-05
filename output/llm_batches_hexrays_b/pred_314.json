@@ -1,0 +1,6 @@
+{
+ "gameObjectSiblingSibling_E669::m_78C": "FreeNativeData",
+ "gameObjectSiblingSibling_E669::m_956": "MarshalNativeToManaged",
+ "gameObjectSiblingSibling_E669::m_9E4": "ConstructDelegate",
+ "gameObjectSiblingSibling_E669::m_B14": "MarshalManagedToNative"
+}

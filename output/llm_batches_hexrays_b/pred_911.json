@@ -1,0 +1,10 @@
+{
+ "TransformMaterialHandler_C08A::m_982": "MoveNext",
+ "TransformPhysicsHandler_FD38::m_16D": "Equals",
+ "TransformPhysicsHandler_FD38::m_179": "Equals",
+ "TransformPhysicsHandler_FD38::m_493": "Equals",
+ "TransformPhysicsHandler_FD38::m_850": "GetHashCode",
+ "TransformQuaternionHandler_D02D::m_271": "GetHashCode",
+ "TransformQuaternionHandler_D02D::m_3B7": "Equals",
+ "TransformQuaternionHandler_D02D::m_3DA": "Equals"
+}

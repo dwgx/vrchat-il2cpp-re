@@ -1,0 +1,112 @@
+[
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_A6D",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_A6D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_18024AA80(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rax\n  __int64 v3; // r9\n  unsigned int v4; // eax\n  __int64 v5; // r8\n  __int64 v6; // rax\n  __int64 v7; // xmm0_8\n\n  v2 = *(_QWORD *)(a1 + 16);\n  if ( !v2 )\n    goto LABEL_11;\n  if ( *(_DWORD *)(a1 + 28) != *(_DWORD *)(v2 + 44) )\n    sub_186717200(0);\n  v3 = *(_QWORD *)(a1 + 16);\n  while ( 1 )\n  {\n    v4 = *(_DWORD *)(v3 + 32);\n    if ( *(_DWORD *)(a1 + 24) >= v4 )\n      break;\n    a2 = *(int *)(a1 + 24);\n    v5 = *(_QWORD *)(v3 + 24);\n    *(_DWORD *)(a1 + 24) = a2 + 1;\n    if ( !v5 )\n      goto LABEL_11;\n    if ( (unsigned int)a2 >= *(_DWORD *)(v5 + 24) )\n      sub_180AAE530(a1, a2);\n    v6 = 56 * a2;\n    if ( *(int *)(56 * a2 + v5 + 32) >= 0 )\n    {\n      v7 = *(_QWORD *)(v6 + v5 + 80);\n      *(_OWORD *)(a1 + 32) = *(_OWORD *)(v6 + v5 + 64);\n      *(_QWORD *)(a1 + 48) = v7;\n      sub_180A2BBB0(a1 + 32);\n      return 1;\n    }\n  }\n  if ( !v3 )\nLABEL_11:\n    sub_180AAE510(a1, a2);\n  *(_DWORD *)(a1 + 24) = v4 + 1;\n  *(_OWORD *)(a1 + 32) = 0;\n  *(_QWORD *)(a1 + 48) = 0;\n  return 0;\n}\n"
+ },
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_B33",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_B33",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_18024C2B0(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rax\n  __int64 v3; // r9\n  __int64 v4; // rbx\n  __int64 v5; // r8\n  unsigned int v6; // eax\n  __int64 v7; // rax\n  __int64 v8; // rcx\n  __int128 v9; // xmm0\n  __int64 v10; // xmm1_8\n  __int32 v11; // edi\n  __int128 v12; // xmm1\n  __m256i v14; // [rsp+30h] [rbp-28h] BYREF\n\n  v2 = *(_QWORD *)(a1 + 16);\n  v3 = a2;\n  v4 = a1;\n  if ( !v2 )\n    goto LABEL_13;\n  if ( *(_DWORD *)(a1 + 24) != *(_DWORD *)(v2 + 44) )\n    sub_186717200(0);\n  v5 = *(_QWORD *)(a1 + 16);\n  do\n  {\n    v6 = *(_DWORD *)(v5 + 32);\n    if ( *(_DWORD *)(v4 + 28) >= v6 )\n    {\n      if ( v5 )\n      {\n        *(_DWORD *)(v4 + 28) = v6 + 1;\n        *(_OWORD *)(v4 + 32) = 0;\n        *(_OWORD *)(v4 + 48) = 0;\n        return 0;\n      }\nLABEL_13:\n      sub_180AAE510(a1, a2);\n    }\n    a1 = *(int *)(v4 + 28);\n    a2 = *(_QWORD *)(v5 + 24);\n    *(_DWORD *)(v4 + 28) = a1 + 1;\n    if ( !a2 )\n      goto LABEL_13;\n    if ( (unsigned int)a1 >= *(_DWORD *)(a2 + 24) )\n      sub_180AAE530(a1, a2);\n    a1 *= 5;\n    v7 = a2 + 8 * a1;\n  }\n  while ( *(int *)(v7 + 32) < 0 );\n  v8 = *(_QWORD *)(v3 + 40);\n  v9 = *(_OWORD *)(v7 + 48);\n  v14.m256i_i32[1] = 0;\n  v10 = *(_QWORD *)(v7 + 64);\n  v11 = *(_DWORD *)(v7 + 40);\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    sub_180A4EBA0(v8);\n  v14.m256i_i32[0] = v11;\n  *(_OWORD *)&v14.m256i_u64[1] = v9;\n  v14.m256i_i64[3] = v10;\n  sub_180A2BBB0(&v14.m256i_u64[2]);\n  v12 = *(_OWORD *)&v14.m256i_u64[2];\n  *(_OWORD *)(v4 + 32) = *(_OWORD *)v14.m256i_i8;\n  *(_OWORD *)(v4 + 48) = v12;\n  sub_180A2BBB0(v4 + 48);\n  return 1;\n}\n"
+ },
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_B62",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_B62",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18024C510(__int64 a1, __int64 a2)\n{\n  __int64 v4; // rax\n  __int64 v5; // rcx\n  __int64 v6; // rax\n  __int64 v7; // xmm1_8\n  bool v8; // zf\n  __int128 v10; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v11; // [rsp+30h] [rbp-18h]\n\n  if ( !*(_DWORD *)(a1 + 28) )\n    goto LABEL_9;\n  v4 = *(_QWORD *)(a1 + 16);\n  if ( !v4 )\n    sub_180AAE510(a1, a2);\n  if ( *(_DWORD *)(a1 + 28) == *(_DWORD *)(v4 + 32) + 1 )\nLABEL_9:\n    sub_186717250(0);\n  v5 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n    sub_180A4EBA0(v5);\n  v6 = *(_QWORD *)(a2 + 40);\n  v7 = *(_QWORD *)(a1 + 56);\n  v8 = (*(_BYTE *)(v6 + 309) & 1) == 0;\n  v10 = *(_OWORD *)(a1 + 40);\n  v11 = v7;\n  if ( v8 )\n    v6 = sub_180A4EBA0(v6);\n  return XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v6 + 192) + 48LL), &v10);\n}\n"
+ },
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_B71",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_B71",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18024A080(__int64 a1)\n{\n  return sub_183782480(a1 + 16);\n}\n"
+ },
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_C42",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_C42",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_18024A0E0(_OWORD *a1, __int64 a2, __int64 a3)\n{\n  __int64 v6; // rax\n  __int64 v7; // rcx\n  __int64 v8; // rax\n  __int64 v9; // xmm1_8\n  bool v10; // zf\n  __int64 v11; // rax\n  __int64 v12; // rcx\n  __int64 v13; // rbp\n  __int64 v14; // rax\n  __int64 v15; // rax\n  __int128 v17; // [rsp+20h] [rbp-38h] BYREF\n  __int128 v18; // [rsp+30h] [rbp-28h] BYREF\n  __int64 v19; // [rsp+40h] [rbp-18h]\n  __int64 v20; // [rsp+60h] [rbp+8h] BYREF\n\n  if ( !*(_DWORD *)(a2 + 28) )\n    goto LABEL_13;\n  v6 = *(_QWORD *)(a2 + 16);\n  if ( !v6 )\n    sub_180AAE510(a1, a2);\n  if ( *(_DWORD *)(a2 + 28) == *(_DWORD *)(v6 + 32) + 1 )\nLABEL_13:\n    sub_186717250(0);\n  v7 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    sub_180A4EBA0(v7);\n  v8 = *(_QWORD *)(a3 + 40);\n  v9 = *(_QWORD *)(a2 + 48);\n  v10 = (*(_BYTE *)(v8 + 309) & 1) == 0;\n  v18 = *(_OWORD *)(a2 + 32);\n  v19 = v9;\n  if ( v10 )\n    v8 = sub_180A4EBA0(v8);\n  v11 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v8 + 192) + 40LL), &v18);\n  v12 = *(_QWORD *)(a3 + 40);\n  v13 = v11;\n  if ( (*(_BYTE *)(v12 + 309) & 1) == 0 )\n    sub_180A4EBA0(v12);\n  v14 = *(_QWORD *)(a3 + 40);\n  v20 = *(_QWORD *)(a2 + 56);\n  if ( (*(_BYTE *)(v14 + 309) & 1) == 0 )\n    v14 = sub_180A4EBA0(v14);\n  v15 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v14 + 192) + 48LL), &v20);\n  v17 = 0;\n  sub_182203510(&v17, v13, v15, 0);\n  *a1 = v17;\n  return a1;\n}\n"
+ },
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_C4F",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_C4F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_18024BF30(_OWORD *a1, __int64 a2, __int64 a3)\n{\n  __int64 v6; // rax\n  __int64 v7; // rcx\n  __int64 v8; // rax\n  __int64 v9; // rax\n  __int64 v10; // rcx\n  __int64 v11; // rbp\n  __int64 v12; // rax\n  __int64 v13; // rax\n  __int128 v15; // [rsp+20h] [rbp-18h] BYREF\n  __int64 v16; // [rsp+40h] [rbp+8h] BYREF\n\n  if ( !*(_DWORD *)(a2 + 28) )\n    goto LABEL_13;\n  v6 = *(_QWORD *)(a2 + 16);\n  if ( !v6 )\n    sub_180AAE510(a1, a2);\n  if ( *(_DWORD *)(a2 + 28) == *(_DWORD *)(v6 + 32) + 1 )\nLABEL_13:\n    sub_186717250(0);\n  v7 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    sub_180A4EBA0(v7);\n  LODWORD(v16) = *(_DWORD *)(a2 + 32);\n  v8 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    v8 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v9 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v8 + 192) + 40LL), &v16);\n  v10 = *(_QWORD *)(a3 + 40);\n  v11 = v9;\n  if ( (*(_BYTE *)(v10 + 309) & 1) == 0 )\n    sub_180A4EBA0(v10);\n  v12 = *(_QWORD *)(a3 + 40);\n  v16 = *(_QWORD *)(a2 + 36);\n  if ( (*(_BYTE *)(v12 + 309) & 1) == 0 )\n    v12 = sub_180A4EBA0(v12);\n  v13 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v12 + 192) + 48LL), &v16);\n  v15 = 0;\n  sub_182203510(&v15, v11, v13, 0);\n  *a1 = v15;\n  return a1;\n}\n"
+ },
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_C51",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_C51",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1802474E0(__int64 a1)\n{\n  return sub_18377D8D0(a1 + 16);\n}\n"
+ },
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_CD7",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_CD7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_1802484F0(_OWORD *a1, __int64 a2, __int64 a3)\n{\n  __int64 v6; // rax\n  __int64 v7; // rcx\n  __int64 v8; // rax\n  __int64 v9; // rax\n  __int64 v10; // rcx\n  __int64 v11; // rbp\n  __int64 v12; // rax\n  __int64 v13; // rax\n  __int128 v15; // [rsp+20h] [rbp-18h] BYREF\n  int v16; // [rsp+40h] [rbp+8h] BYREF\n\n  if ( !*(_DWORD *)(a2 + 28) )\n    goto LABEL_13;\n  v6 = *(_QWORD *)(a2 + 16);\n  if ( !v6 )\n    sub_180AAE510(a1, a2);\n  if ( *(_DWORD *)(a2 + 28) == *(_DWORD *)(v6 + 32) + 1 )\nLABEL_13:\n    sub_186717250(0);\n  v7 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    sub_180A4EBA0(v7);\n  LOBYTE(v16) = *(_BYTE *)(a2 + 32);\n  v8 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    v8 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v9 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v8 + 192) + 40LL), &v16);\n  v10 = *(_QWORD *)(a3 + 40);\n  v11 = v9;\n  if ( (*(_BYTE *)(v10 + 309) & 1) == 0 )\n    sub_180A4EBA0(v10);\n  v12 = *(_QWORD *)(a3 + 40);\n  v16 = *(_DWORD *)(a2 + 36);\n  if ( (*(_BYTE *)(v12 + 309) & 1) == 0 )\n    v12 = sub_180A4EBA0(v12);\n  v13 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v12 + 192) + 48LL), &v16);\n  v15 = 0;\n  sub_182203510(&v15, v11, v13, 0);\n  *a1 = v15;\n  return a1;\n}\n"
+ },
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_CFF",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_CFF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1802439B0(__int64 a1, __int64 a2)\n{\n  __int64 v4; // rcx\n  __int128 v5; // xmm0\n  __int128 v6; // xmm1\n  __int64 v7; // rax\n  __int128 v8; // xmm0\n  bool v9; // zf\n  __int128 v10; // xmm1\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm1\n  _OWORD v16[8]; // [rsp+20h] [rbp-98h] BYREF\n  int v17; // [rsp+A0h] [rbp-18h]\n\n  v4 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    sub_180A4EBA0(v4);\n  v5 = *(_OWORD *)(a1 + 36);\n  v6 = *(_OWORD *)(a1 + 52);\n  v17 = *(_DWORD *)(a1 + 164);\n  v7 = *(_QWORD *)(a2 + 40);\n  v16[0] = v5;\n  v8 = *(_OWORD *)(a1 + 68);\n  v9 = (*(_BYTE *)(v7 + 309) & 1) == 0;\n  v16[1] = v6;\n  v10 = *(_OWORD *)(a1 + 84);\n  v16[2] = v8;\n  v11 = *(_OWORD *)(a1 + 100);\n  v16[3] = v10;\n  v12 = *(_OWORD *)(a1 + 116);\n  v16[4] = v11;\n  v13 = *(_OWORD *)(a1 + 132);\n  v16[5] = v12;\n  v14 = *(_OWORD *)(a1 + 148);\n  v16[6] = v13;\n  v16[7] = v14;\n  if ( v9 )\n    v7 = sub_180A4EBA0(v7);\n  return XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v7 + 192) + 24LL), v16);\n}\n"
+ },
+ {
+  "class": "NetworkDisposeAsync_BFAD",
+  "class_obf": "ÎÍÌÏÎÎÍÍÍÏÎÏÎÎÎÏÎÏÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_D2F",
+  "cv_key": "NetworkDisposeAsync_BFAD::m_D2F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18024B4E0(unsigned __int64 a1, __int64 a2, int a3, __int64 a4)\n{\n  __int64 v6; // rdi\n  __int64 v7; // rax\n  __int64 v8; // rax\n  __int64 v9; // rsi\n  __int64 v10; // rax\n  __int64 v11; // rax\n  __int64 v12; // rax\n  __int64 result; // rax\n  bool v14; // zf\n  __int128 v15; // xmm1\n  __int64 v16; // xmm0_8\n  __int64 *v17; // rdx\n  __int64 v18; // rtt\n  __int128 v19; // [rsp+20h] [rbp-38h] BYREF\n  __int128 v20; // [rsp+30h] [rbp-28h]\n  __int64 v21; // [rsp+40h] [rbp-18h]\n\n  if ( !a2 || (v6 = *(_QWORD *)(a2 + 32)) == 0 )\n    sub_180AAE510(a1, a2);\n  v7 = *(_QWORD *)(a4 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(v7);\n  v8 = *(_QWORD *)(*(_QWORD *)(v7 + 192) + 24LL);\n  v19 = 0;\n  v21 = 0;\n  v20 = 0;\n  v9 = *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(v8 + 40) + 192LL) + 528LL);\n  v10 = *(_QWORD *)(v9 + 40);\n  if ( (*(_BYTE *)(v10 + 309) & 1) == 0 )\n    v10 = sub_180A4EBA0(*(_QWORD *)(v9 + 40));\n  v11 = *(_QWORD *)(*(_QWORD *)(v10 + 192) + 16LL);\n  if ( (*(_BYTE *)(v11 + 309) & 1) == 0 )\n    v11 = sub_180A4EBA0(v11);\n  if ( !*(_DWORD *)(v11 + 224) )\n    YloSGiLVOEi_0(v11);\n  v12 = *(_QWORD *)(v9 + 40);\n  if ( (*(_BYTE *)(v12 + 309) & 1) == 0 )\n    v12 = sub_180A4EBA0(v12);\n  result = sub_183721FF0(&v19, v6, 0, *(_QWORD *)(*(_QWORD *)(v12 + 192) + 8LL));\n  v14 = dword_18CE1C2E8 == 0;\n  v15 = v20;\n  *(_OWORD *)a1 = v19;\n  v16 = v21;\n  *(_OWORD *)(a1 + 16) = v15;\n  *(_QWORD *)(a1 + 32) = v16;\n  if ( !v14 )\n  {\n    v17 = &qword_18CEAB0E0[((a1 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v17);\n    do\n    {\n      v18 = *v17;\n      result = _InterlockedCompareExchange64(v17, *v17 | (1LL << ((a1 >> 12) & 0x3F)), *v17);\n    }\n    while ( v18 != result );\n  }\n  *(_DWORD *)(a1 + 40) = a3;\n  return result;\n}\n"
+ }
+]

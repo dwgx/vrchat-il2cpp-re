@@ -1,0 +1,9 @@
+{
+ "CleanupDisposeStaticMethods_C642::m_B21": "GetHashCode",
+ "CleanupDisposeStaticMethods_C642::m_BAA": "Equals",
+ "CleanupDisposeStaticMethods_C642::m_F2B": "Equals",
+ "CleanupDisposeStaticMethods_C642::m_F70": "Equals",
+ "CloneSiblingSiblingSibling_E16F::m_028": "Equals",
+ "CloneSiblingSiblingSibling_E16F::m_0D7": "Equals",
+ "CloneSiblingSiblingSibling_E16F::m_12D": "Equals"
+}

@@ -1,9 +1,12 @@
 {
- "VRCNetworkBehaviourSiblinRelated_FFBD::m_363": "set_ColorOverTrail",
- "VRCNetworkBehaviourSiblinRelated_FFBD::m_470": "get_ColorOverTrail",
- "VRCNetworkBehaviourSiblinRelated_FFBD::m_4B0": "get_ColliderComponent",
- "VRCNetworkBehaviourSiblinRelated_FFBD::m_5E7": "GetColor",
- "VRCNetworkBehaviourSiblinRelated_FFBD::m_6EF": "set_RibbonCount",
- "VRCNetworkBehaviourSiblinRelated_FFBD::m_943": "GetMode",
- "VRCNetworkBehaviourSiblinRelated_FFBD::m_AF0": "IsValid"
+ "ctorDerivedSiblingSibling_2E7B::m_865": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_877": "ToStringEnd",
+ "ctorDerivedSiblingSibling_2E7B::m_8B5": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_8B7": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_8C4": "GetHashCode",
+ "ctorDerivedSiblingSibling_2E7B::m_8D5": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_8D6": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_8DA": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_8E0": "GetHashCode",
+ "ctorDerivedSiblingSibling_2E7B::m_8FA": "Equals"
 }

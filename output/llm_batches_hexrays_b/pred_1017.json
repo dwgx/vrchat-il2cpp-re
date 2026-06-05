@@ -1,0 +1,11 @@
+{
+ "NetworkDisposeAsync_BFAD::m_32F": "Dispose",
+ "NetworkDisposeAsync_BFAD::m_370": "MoveNext",
+ "NetworkDisposeAsync_BFAD::m_43E": "InitializeDictionaryEnumerator",
+ "NetworkDisposeAsync_BFAD::m_495": "MoveNext",
+ "NetworkDisposeAsync_BFAD::m_4BD": "MoveNext",
+ "NetworkDisposeAsync_BFAD::m_4FA": "MoveNext",
+ "NetworkDisposeAsync_BFAD::m_53C": "get_Current",
+ "NetworkDisposeAsync_BFAD::m_5ED": "get_Current",
+ "NetworkDisposeAsync_BFAD::m_6FC": "get_Current"
+}

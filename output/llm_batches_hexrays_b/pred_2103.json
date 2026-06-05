@@ -1,0 +1,8 @@
+{
+ "QuaternionHandler_1B11::m_22C": "AddQuaternion",
+ "QuaternionHandler_1B11::m_332": "AddQuaternion",
+ "QuaternionHandler_1B11::m_45F": "RemoveQuaternion",
+ "QuaternionHandler_1B11::m_480": "AddQuaternion",
+ "QuaternionHandler_1B11::m_789": "RemoveQuaternion",
+ "QuaternionHandler_1B11::m_838": "AddQuaternion"
+}

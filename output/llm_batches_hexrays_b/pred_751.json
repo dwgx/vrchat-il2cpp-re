@@ -1,0 +1,8 @@
+{
+ "TransformGameObjectHandler_9BE8::m_2E8": "Atan",
+ "TransformGameObjectHandler_9BE8::m_40C": "Cosf",
+ "TransformGameObjectHandler_9BE8::m_476": "Atan2",
+ "TransformGameObjectHandler_9BE8::m_47C": "Putenv",
+ "TransformGameObjectHandler_9BE8::m_4DA": "Mbrtoc32",
+ "TransformGameObjectHandler_9BE8::m_4F2": "ExpandWildcardArguments"
+}

@@ -1,0 +1,11 @@
+{
+ "VRC_MainSibling_12FF::m_1B9": "Equals",
+ "VRC_MainSibling_12FF::m_1C2": "GetHashCode",
+ "VRC_MainSibling_12FF::m_1E2": "ToStringEnd",
+ "VRC_MainSibling_12FF::m_205": "ToString",
+ "VRC_MainSibling_12FF::m_20A": "GetHashCode",
+ "VRC_MainSibling_12FF::m_24A": "Equals",
+ "VRC_MainSibling_12FF::m_25D": "ToStringEnd",
+ "VRC_MainSibling_12FF::m_264": "GetHashCode",
+ "VRC_MainSibling_12FF::m_2B7": "CompareTo"
+}

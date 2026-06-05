@@ -1,0 +1,7 @@
+{
+ "gameObject_F4BASibling_4BBA::m_FF9": "ToString",
+ "PhysSoundTerrain::m_7D5": "ToString",
+ "AvatarActiveServiceComponent_F46C::m_0D5": "CopyTo",
+ "AvatarActiveServiceComponent_F46C::m_521": "CopyTo",
+ "AvatarActiveServiceComponent_F46C::m_578": "CopyTo"
+}

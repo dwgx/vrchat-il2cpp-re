@@ -1,0 +1,8 @@
+{
+ "AsyncStateMachine_D5FF::m_440": "InitializeWithCapacityAndComparer",
+ "AsyncStateMachine_D5FF::m_4E8": "GetHashCode",
+ "AsyncStateMachine_D5FF::m_63A": "InitializeBucketsAndEntries",
+ "AsyncStateMachine_D5FF::m_E82": "GetHashCode",
+ "AsyncStateMachine_D6AE::m_124": "CompareTo",
+ "AsyncStateMachine_D6AE::m_CE3": "CompareTo"
+}

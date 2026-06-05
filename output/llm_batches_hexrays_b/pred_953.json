@@ -1,0 +1,5 @@
+{
+ "VRC_MainSibling_C23A::m_643": "CopyEmbeddedByteArrayToNative",
+ "VRC_MainSibling_C23A::m_67B": "ReadPrimitiveValue",
+ "VRC_MainSibling_C23A::m_6AD": "InvokeVirtualMethod"
+}

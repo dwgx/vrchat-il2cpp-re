@@ -1,0 +1,4 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_90D4::m_AEE": "InitializeCriticalSectionLocks",
+ "VRCNetworkBehaviourSibling_BF5Sibling_90D4::m_C01": "AllocateFiberLocalStorageSlot"
+}

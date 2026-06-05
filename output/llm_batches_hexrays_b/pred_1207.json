@@ -1,0 +1,5 @@
+{
+ "MaterialRendererHandler_9738::m_D85": "DecodeUtf8CodePoint",
+ "MaterialRendererHandler_9738::m_F04": "FormatStringVarArgs",
+ "MaterialRendererHandler_9738::m_FA3": "ConvertUtf8ToUtf16"
+}

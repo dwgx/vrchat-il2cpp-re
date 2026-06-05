@@ -1,0 +1,8 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_37FD::m_F2B": "PrintGcObjectInfo",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3925::m_2F0": "GetTypeInfoFromTypeDefinitionIndex",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3925::m_51F": "CreateTypeInfoFromTypeDefinitionIndex",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3925::m_6EA": "CreateTypeInfoFromTypeDefinitionIndex",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3925::m_EEE": "GetTypeInfoFromTypeDefinitionIndex",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3925::m_F2B": "CreateTypeInfoFromTypeDefinitionIndex"
+}

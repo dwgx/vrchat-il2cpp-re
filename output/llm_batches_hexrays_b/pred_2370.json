@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_E2FB::m_016": "BuildCompositeLocaleName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E2FB::m_24F": "BuildCompositeLocaleName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E2FB::m_6F8": "ReleaseLocaleData",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E2FB::m_C01": "AppendLocaleStringParts",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E2FB::m_C31": "SetWideLocale"
+}

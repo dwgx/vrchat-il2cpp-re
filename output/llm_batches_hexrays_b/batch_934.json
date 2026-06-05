@@ -1,0 +1,112 @@
+[
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_61B",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_61B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180682490(__int64 a1, __int64 a2)\n{\n  __int64 v4; // rcx\n  __int64 v5; // rdi\n  __int64 v6; // rbp\n  __int64 v7; // rax\n  __int64 v8; // rax\n  signed __int32 v10[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  if ( !byte_18CE3260E )\n  {\n    sub_180AD1AA0(&qword_18C8D15B8);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C8DB348);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C904118);\n    _InterlockedOr(v10, 0);\n    byte_18CE3260E = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C8D15B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8D15B8);\n  v4 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    sub_180A4EBA0(v4);\n  if ( !byte_18CE396A9 )\n  {\n    sub_180AD1AA0(&qword_18C80B898);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C82FB50);\n    _InterlockedOr(v10, 0);\n    byte_18CE396A9 = 1;\n  }\n  v5 = qword_18C80B898;\n  if ( *(_BYTE *)(a1 + 16) )\n    v5 = qword_18C82FB50;\n  v6 = qword_18C8DB348;\n  v7 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v8 = sub_18054DF60(a1 + 24, *(_QWORD *)(*(_QWORD *)(v7 + 192) + 208LL));\n  return sub_186477380(v5, v6, v8, qword_18C904118, 0);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_640",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_640",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180682360(__int64 a1, __int64 a2)\n{\n  __int128 v2; // xmm1\n  __int128 v3; // xmm0\n  _OWORD v5[3]; // [rsp+20h] [rbp-48h] BYREF\n  __int64 v6; // [rsp+50h] [rbp-18h]\n\n  v2 = *(_OWORD *)(a2 + 16);\n  v5[0] = *(_OWORD *)a2;\n  v3 = *(_OWORD *)(a2 + 32);\n  v5[1] = v2;\n  *(_QWORD *)&v2 = *(_QWORD *)(a2 + 48);\n  v5[2] = v3;\n  v6 = v2;\n  return sub_1802B5630(a1 + 16, v5);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_750",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_750",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180682420(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rax\n  __int64 v4; // rdi\n\n  v3 = *(_QWORD *)(a3 + 40);\n  v4 = a1 + 16;\n  if ( (*(_BYTE *)(v3 + 309) & 1) == 0 )\n    v3 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  return sub_18067D850(v4, a2, *(_QWORD *)(*(_QWORD *)(v3 + 192) + 192LL));\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_938",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_938",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1806823C0(__int64 a1, __int64 a2)\n{\n  __int128 v2; // xmm1\n  __int128 v3; // xmm0\n  _OWORD v5[3]; // [rsp+20h] [rbp-48h] BYREF\n  __int64 v6; // [rsp+50h] [rbp-18h]\n\n  v2 = *(_OWORD *)(a2 + 16);\n  v5[0] = *(_OWORD *)a2;\n  v3 = *(_OWORD *)(a2 + 32);\n  v5[1] = v2;\n  *(_QWORD *)&v2 = *(_QWORD *)(a2 + 48);\n  v5[2] = v3;\n  v6 = v2;\n  return sub_18029ADC0(a1 + 16, v5);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_A7B",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_A7B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180681F90(__int64 a1)\n{\n  return sub_18067D610(a1 + 16);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_AA9",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_AA9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1802803C0(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v5; // r14\n  unsigned __int64 v6; // rsi\n  unsigned __int64 i; // rbx\n  _OWORD *v8; // rax\n  __int64 v9; // rdx\n  __int64 v10; // rcx\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm1\n  __int128 v15; // xmm0\n  __int128 v16; // xmm1\n  __int128 v17; // xmm0\n  __int128 v18; // xmm1\n  __int64 v19; // rcx\n  _BYTE v21[544]; // [rsp+20h] [rbp-228h] BYREF\n\n  v5 = *(_QWORD *)(a2 + 120);\n  v6 = *(_QWORD *)(v5 + 24);\n  sub_180B27D70(a1, 0, 536);\n  for ( i = 0; i < v6; *(_QWORD *)(v9 + 16) = v19 )\n  {\n    v8 = (_OWORD *)(*(__int64 (__fastcall **)(_BYTE *, _QWORD, __int64, _QWORD))(*(_QWORD *)(v5 + 8 * i + 32) + 24LL))(\n                     v21,\n                     *(_QWORD *)(*(_QWORD *)(v5 + 8 * i + 32) + 64LL),\n                     a3,\n                     *(_QWORD *)(*(_QWORD *)(v5 + 8 * i + 32) + 40LL));\n    v9 = a1;\n    v10 = 4;\n    do\n    {\n      v9 += 128;\n      v11 = *v8;\n      v12 = v8[1];\n      v8 += 8;\n      *(_OWORD *)(v9 - 128) = v11;\n      v13 = *(v8 - 6);\n      *(_OWORD *)(v9 - 112) = v12;\n      v14 = *(v8 - 5);\n      *(_OWORD *)(v9 - 96) = v13;\n      v15 = *(v8 - 4);\n      *(_OWORD *)(v9 - 80) = v14;\n      v16 = *(v8 - 3);\n      *(_OWORD *)(v9 - 64) = v15;\n      v17 = *(v8 - 2);\n      *(_OWORD *)(v9 - 48) = v16;\n      v18 = *(v8 - 1);\n      *(_OWORD *)(v9 - 32) = v17;\n      *(_OWORD *)(v9 - 16) = v18;\n      --v10;\n    }\n    while ( v10 );\n    v19 = *((_QWORD *)v8 + 2);\n    ++i;\n    *(_OWORD *)v9 = *v8;\n  }\n  return a1;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_ADC",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_ADC",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180681F40(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rdi\n\n  v3 = a1 + 16;\n  if ( (*(_BYTE *)(*(_QWORD *)(a3 + 40) + 309LL) & 1) == 0 )\n    sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  return sub_18067D610(v3);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_B3D",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_B3D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180682490(__int64 a1, __int64 a2)\n{\n  __int64 v4; // rcx\n  __int64 v5; // rdi\n  __int64 v6; // rbp\n  __int64 v7; // rax\n  __int64 v8; // rax\n  signed __int32 v10[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  if ( !byte_18CE3260E )\n  {\n    sub_180AD1AA0(&qword_18C8D15B8);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C8DB348);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C904118);\n    _InterlockedOr(v10, 0);\n    byte_18CE3260E = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C8D15B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8D15B8);\n  v4 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    sub_180A4EBA0(v4);\n  if ( !byte_18CE396A9 )\n  {\n    sub_180AD1AA0(&qword_18C80B898);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C82FB50);\n    _InterlockedOr(v10, 0);\n    byte_18CE396A9 = 1;\n  }\n  v5 = qword_18C80B898;\n  if ( *(_BYTE *)(a1 + 16) )\n    v5 = qword_18C82FB50;\n  v6 = qword_18C8DB348;\n  v7 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v8 = sub_18054DF60(a1 + 24, *(_QWORD *)(*(_QWORD *)(v7 + 192) + 208LL));\n  return sub_186477380(v5, v6, v8, qword_18C904118, 0);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_BFE",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_BFE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180682220(__int64 a1, __int64 a2)\n{\n  __int64 v4; // rcx\n  __int64 v5; // rdi\n  __int64 v6; // rbp\n  __int64 v7; // rax\n  __int64 v8; // rax\n  signed __int32 v10[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  if ( !byte_18CE32608 )\n  {\n    sub_180AD1AA0(&qword_18C8D15B8);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C8DB348);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C904118);\n    _InterlockedOr(v10, 0);\n    byte_18CE32608 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C8D15B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8D15B8);\n  v4 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    sub_180A4EBA0(v4);\n  if ( !byte_18CE396A9 )\n  {\n    sub_180AD1AA0(&qword_18C80B898);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C82FB50);\n    _InterlockedOr(v10, 0);\n    byte_18CE396A9 = 1;\n  }\n  v5 = qword_18C80B898;\n  if ( *(_BYTE *)(a1 + 16) )\n    v5 = qword_18C82FB50;\n  v6 = qword_18C8DB348;\n  v7 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v8 = sub_18054DDB0(a1 + 24, *(_QWORD *)(*(_QWORD *)(v7 + 192) + 208LL));\n  return sub_186477380(v5, v6, v8, qword_18C904118, 0);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5500",
+  "class_obf": "ÌÎÌÏÍÍÌÍÌÍÌÍÎÏÎÌÍÏÏÎÍÎÏ",
+  "parent": "",
+  "method": "m_C2C",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_5500::m_C2C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1806821B0(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v3; // rax\n  __int64 v4; // rdi\n\n  v3 = *(_QWORD *)(a3 + 40);\n  v4 = a1 + 16;\n  if ( (*(_BYTE *)(v3 + 309) & 1) == 0 )\n    v3 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  return sub_18067D730(v4, a2, *(_QWORD *)(*(_QWORD *)(v3 + 192) + 192LL));\n}\n"
+ }
+]

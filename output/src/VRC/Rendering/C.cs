@@ -1060,13 +1060,19 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8A5ED0
         public void Start(){} // RVA: 0x7FFAFB8A61C0
-        // ── 12 unresolved (hash) ──
+        public void Equals(){} // RVA: 0x7FFAFB8A6270
+        public void CompareTo(){} // RVA: 0x7FFAFB8A6320
+        // ── Unresolved (hash) ──
         public void m_C9E(){} // RVA: 0x7FFAFB8A5860
         public void m_FCD(){} // RVA: 0x7FFAFB8A5910
         public void m_9F3(){} // RVA: 0x7FFAF2E7B9D0
         public void m_5A8(){} // RVA: 0x7FFAFB8A59E0
         public void m_27F(){} // RVA: 0x7FFAFB8A5AB0
-        // ... 7 more unresolved methods
+        public void m_DA7(){} // RVA: 0x7FFAFB8A5BC0
+        public void m_6B3(){} // RVA: 0x7FFAFB8A60A0
+        public void m_FA5(){} // RVA: 0x7FFAFB8A6150
+        public void m_852(){} // RVA: 0x7FFAFB8A6700
+        public void m_A74(){} // RVA: 0x7FFAFB8A6770
     }
 
 }

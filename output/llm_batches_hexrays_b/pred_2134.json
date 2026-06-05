@@ -1,0 +1,9 @@
+{
+ "TransformComponentHandler_8775::m_A1A": "Equals",
+ "TransformComponentHandler_8775::m_A78": "ToString",
+ "TransformComponentHandler_8775::m_B2A": "ToString",
+ "TransformComponentHandler_8775::m_F21": "ToString",
+ "TransformComponentHandler_8952::m_0D0": "Equals",
+ "TransformComponentHandler_8952::m_79D": "GetStructuralHashCode",
+ "TransformComponentHandler_8952::m_9E5": "GetStructuralHashCode"
+}

@@ -1245,15 +1245,18 @@ namespace VRC.Network
         public void InternalBindStreamTransform(){} // RVA: 0x7FFAF442DB20
         public void Start(){} // RVA: 0x7FFAF442DB70
         public void OnDestroy(){} // RVA: 0x7FFAF2EEE1C0
+        public void Equals(){} // RVA: 0x7FFAF442DCB0
+        public void GetHashCode_6A37E900BDBE(){} // RVA: 0x7FFAF442DD60 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF442DEC0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void .cctor(){} // RVA: 0x7FFAF442F230
-        // ── 24 unresolved (hash) ──
+        // ── 21 unresolved (hash) ──
         public void m_12B(){} // RVA: 0x7FFAF2E2E080
         public void m_AA8(){} // RVA: 0x7FFAF2E2E090
         public void m_FA4(){} // RVA: 0x7FFAF2F476A0
         public void m_2EF(){} // RVA: 0x7FFAF442DB00
         public void m_E72(){} // RVA: 0x7FFAF442DB40
-        // ... 19 more unresolved methods
+        // ... 16 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÎÍÍÎÏÌÏÌÍÎÍÌÍÎÌÌÍÌÌÏÌ</summary>

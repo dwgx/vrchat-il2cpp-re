@@ -1,0 +1,10 @@
+{
+ "UICompareDispose_241DSibling_AD04::m_86C": "GetHashCode",
+ "UICompareDispose_241DSibling_AD04::m_9FC": "GetHashCode",
+ "UICompareDispose_241DSibling_AD04::m_A1C": "CompareTo",
+ "UICompareDispose_241DSibling_AD04::m_A8C": "CompareTo",
+ "UICompareDispose_241DSibling_AD04::m_C7D": "GetHashCode",
+ "UICompareDispose_241DSibling_AD04::m_CC5": "Equals",
+ "UICompareDispose_241DSibling_AD04::m_D1D": "GetHashCode",
+ "UICompareDispose_241DSibling_AD04::m_E40": "CompareTo"
+}

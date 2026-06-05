@@ -1,0 +1,10 @@
+{
+ "VRCPlayerSiblingSibling_BF8C::m_07C": "ToString",
+ "VRCPlayerSiblingSibling_BF8C::m_0B0": "GetStructuralHashCode",
+ "VRCPlayerSiblingSibling_BF8C::m_0B4": "ToString",
+ "VRCPlayerSiblingSibling_BF8C::m_187": "GetHashCode",
+ "VRCPlayerSiblingSibling_BF8C::m_1CF": "ToString",
+ "VRCPlayerSiblingSibling_BF8C::m_21F": "GetHashCode",
+ "VRCPlayerSiblingSibling_BF8C::m_26F": "GetStructuralHashCode",
+ "VRCPlayerSiblingSibling_BF8C::m_290": "Equals"
+}

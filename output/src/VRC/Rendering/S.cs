@@ -14,20 +14,31 @@ namespace VRC.Rendering
         public object ScanHiddenCameras;
 
         // ── Methods ──
+        public void SettingsConstructor(){} // RVA: 0x7FFAF2DF5470
         public void Start(){} // RVA: 0x7FFAF33108E0
+        public void ToString(){} // RVA: 0x7FFAF2DB5FE0
         public void OnRenderImage(){} // RVA: 0x7FFAF3310F40
+        public void get_Value(){} // RVA: 0x7FFAF3311870
+        public void Deconstruct(){} // RVA: 0x7FFAF3311980
         public void Update(){} // RVA: 0x7FFAF3312010
+        public void Deconstruct_C13361869ABC(){} // RVA: 0x7FFAF3312690
+        public void Deconstruct_445D331B9F60(){} // RVA: 0x7FFAF33126F0
         public void Awake(){} // RVA: 0x7FFAF3312800
         public void OnDestroy(){} // RVA: 0x7FFAF3312910
+        public void get_Key(){} // RVA: 0x7FFAF3312920
+        public void Deconstruct_4D934F00AE96(){} // RVA: 0x7FFAF3312A30
         public void .ctor(){} // RVA: 0x7FFAF33133B0
         public void Initialize(){} // RVA: 0x7FFAF2DB5FE0
-        // ── 28 unresolved (hash) ──
+        public void get_Key_69A3C1EF696A(){} // RVA: 0x7FFAF3313440
+        public void get_Key_A91D113D212F(){} // RVA: 0x7FFAF3313480
+        public void ToString_77AEA83463A8(){} // RVA: 0x7FFAF2DB5FF0
+        // ── 18 unresolved (hash) ──
         public void m_3E1(){} // RVA: 0x7FFAF33108A0
         public void m_230(){} // RVA: 0x7FFAF33108D0
-        public void m_93E(){} // RVA: 0x7FFAF2DF5470
         public void m_1A8(){} // RVA: 0x7FFAF3310B20
         public void m_FA0(){} // RVA: 0x7FFAF2DF5470
-        // ... 23 more unresolved methods
+        public void m_3B7(){} // RVA: 0x7FFAF2DF5460
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÎÎÎÎÌÎÏÎÎÌÎÍÎÏÌÎÌÏÍÏ</summary>
@@ -99,12 +110,12 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void PropertyToID(){} // RVA: 0x7FFAF41D6BF0
+        public void TrySetResult(){} // RVA: 0x7FFAF41D76D0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF41D7E10
         // ── Unresolved (hash) ──
         public void m_3F5(){} // RVA: 0x7FFAF41D6F90
         public void m_2E3(){} // RVA: 0x7FFAF41D7330
-        public void m_28A(){} // RVA: 0x7FFAF41D76D0
         public void m_B22(){} // RVA: 0x7FFAF41D7A70
     }
 
@@ -144,19 +155,18 @@ namespace VRC.Rendering
     public class SkinnedMeshTransformHandler_9843
     {
         // ── Methods ──
+        public void SwapElements(){} // RVA: 0x7FFAF43DD0F0
+        public void InsertionSort(){} // RVA: 0x7FFAF43DD340
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF43DD5F0
         public void GetBlendShapeCount(){} // RVA: 0x7FFAF43DD850
-        // ── Unresolved (hash) ──
-        public void m_4EA(){} // RVA: 0x7FFAF43DD0F0
-        public void m_32E(){} // RVA: 0x7FFAF43DD340
-        public void m_AC1(){} // RVA: 0x7FFAF43DDAB0
-        public void m_F69(){} // RVA: 0x7FFAF43DDC90
-        public void m_4D2(){} // RVA: 0x7FFAF43DDDB0
-        public void m_E66(){} // RVA: 0x7FFAF43DDFA0
-        public void m_39C(){} // RVA: 0x7FFAF43DE180
-        public void m_5DE(){} // RVA: 0x7FFAF43DE370
-        public void m_3C9(){} // RVA: 0x7FFAF43DE5C0
+        public void IntrospectiveSort(){} // RVA: 0x7FFAF43DDAB0
+        public void InsertionSort_F69729A98E21(){} // RVA: 0x7FFAF43DDC90
+        public void SwapElements_4D2A5BEF84EC(){} // RVA: 0x7FFAF43DDDB0
+        public void InsertionSort_E66FFF285999(){} // RVA: 0x7FFAF43DDFA0
+        public void SwapElements_39CFB3308125(){} // RVA: 0x7FFAF43DE180
+        public void SwapIfGreaterWithItems(){} // RVA: 0x7FFAF43DE370
+        public void InsertionSort_3C97C52DDC12(){} // RVA: 0x7FFAF43DE5C0
     }
 
 }

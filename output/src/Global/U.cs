@@ -169,8 +169,7 @@ public class UiInputField
     public void Initialize(){} // RVA: 0x7FFAF427B190
     public void OnValueChanged(){} // RVA: 0x7FFAF43173D0
     public void OnEndEdit(){} // RVA: 0x7FFAF36F2990
-    // ── Unresolved (hash) ──
-    public void m_98A(){} // RVA: 0x7FFAF4317620
+    public void Deconstruct(){} // RVA: 0x7FFAF4317620
 }
 
 public class Uint16ToBytes

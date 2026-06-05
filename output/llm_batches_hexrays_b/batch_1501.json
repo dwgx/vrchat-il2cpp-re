@@ -1,0 +1,112 @@
+[
+ {
+  "class": "ComponentHandler_8111",
+  "class_obf": "ÍÎÎÏÎÍÍÌÌÍÌÎÌÎÏÌÏÎÍÌÏÌÏ",
+  "parent": "",
+  "method": "m_E37",
+  "cv_key": "ComponentHandler_8111::m_E37",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __noreturn sub_180A72C90()\n{\n  __int64 v0; // rax\n\n  v0 = sub_180A61820(\n         \"W:\\\\unity\\\\2022.3.22f2-DWR-8f561d91fb36\\\\Editor\\\\Data\\\\il2cpp\\\\libil2cpp\\\\icalls\\\\mscorlib\\\\System\\\\AppDomain.c\"\n         \"pp(222) : Unsupported internal call for IL2CPP:AppDomain::InternalPopDomainRef - \\\"This icall is only used in t\"\n         \"he System.Runtime.Remoting namespace.\\\"\");\n  sub_180A5F890(v0, 0);\n}\n"
+ },
+ {
+  "class": "ComponentHandler_8111",
+  "class_obf": "ÍÎÎÏÎÍÍÌÌÍÌÎÌÎÏÌÏÎÍÌÏÌÏ",
+  "parent": "",
+  "method": "m_EC0",
+  "cv_key": "ComponentHandler_8111::m_EC0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 *__fastcall sub_180A72CD0(__int64 *a1, __int64 a2)\n{\n  __int64 v3; // r9\n  __int64 v4; // r9\n  _QWORD *v5; // rdx\n  __int64 v6; // r9\n  __int64 v7; // r9\n  _QWORD *v8; // rdx\n  __int64 v9; // r9\n  __int64 v10; // rcx\n  _QWORD v12[2]; // [rsp+28h] [rbp-30h] BYREF\n  unsigned __int64 v13; // [rsp+38h] [rbp-20h]\n  unsigned __int64 v14; // [rsp+40h] [rbp-18h]\n\n  sub_180AE27C0(v12, a2, 0);\n  *(_OWORD *)a1 = 0;\n  a1[2] = 0;\n  a1[3] = 15;\n  *(_BYTE *)a1 = 0;\n  sub_180A40D70(a1, (__int64)\"Unable to create an array of type '\", 0x23u, v3);\n  v5 = v12;\n  if ( v14 > 0xF )\n    v5 = (_QWORD *)v12[0];\n  sub_180A40D70(a1, (__int64)v5, v13, v4);\n  sub_180A40D70(\n    a1,\n    (__int64)\"'. IL2CPP needs to know about the array type at compile time, so please define a private static field like \"\n             \"this:\\n\"\n             \"\\n\"\n             \"private static \",\n    0x81u,\n    v6);\n  v8 = v12;\n  if ( v14 > 0xF )\n    v8 = (_QWORD *)v12[0];\n  sub_180A40D70(a1, (__int64)v8, v13, v7);\n  sub_180A40D70(a1, (__int64)\"[] _unused;\\n\\nin any MonoBehaviour class, and this exception should go away.\", 0x4Bu, v9);\n  if ( v14 > 0xF )\n  {\n    v10 = v12[0];\n    if ( v14 + 1 >= 0x1000 )\n    {\n      if ( (unsigned __int64)(v12[0] - *(_QWORD *)(v12[0] - 8LL) - 8LL) > 0x1F )\n        invalid_parameter_noinfo_noreturn();\n      v10 = *(_QWORD *)(v12[0] - 8LL);\n    }\n    sub_180AF6A48(v10);\n  }\n  return a1;\n}\n"
+ },
+ {
+  "class": "ComponentHandler_8737",
+  "class_obf": "ÏÍÎÏÎÏÍÌÌÍÎÏÍÌÏÍÎÍÌÌÎÏÏ",
+  "parent": "",
+  "method": "m_169",
+  "cv_key": "ComponentHandler_8737::m_169",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A9E1D0(\n        __int64 a1,\n        const struct sockaddr *a2,\n        int a3,\n        const char *a4,\n        int len,\n        int a6,\n        int *a7)\n{\n  const struct sockaddr *to; // rax\n  int v11; // edi\n  SOCKET v13; // r14\n  int v14; // ecx\n  int v15; // ebx\n  bool v16; // zf\n  int Error; // ebx\n\n  to = a2;\n  v11 = 0;\n  if ( a6 )\n  {\n    if ( (a6 & 0xFFFF7FE8) != 0 )\n    {\n      v11 = -1;\n    }\n    else\n    {\n      v11 = a6 & 1 | 2;\n      if ( (a6 & 2) == 0 )\n        v11 = a6 & 1;\n      to = a2;\n      if ( (a6 & 4) != 0 )\n        v11 |= 4u;\n    }\n  }\n  if ( v11 == -1 )\n  {\n    *(_DWORD *)(a1 + 28) = 10045;\n    return 4294967293LL;\n  }\n  else\n  {\n    v13 = *(_QWORD *)(a1 + 8);\n    if ( v13 == -1 )\n    {\n      if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)0x274A) )\n        GetLastError();\n      return 4294967293LL;\n    }\n    else\n    {\n      do\n      {\n        v15 = sendto(v13, a4, len, v11, to, a3);\n        if ( v15 != -1 )\n          break;\n        v16 = *(_DWORD *)sub_180AFC848(v14) == 4;\n        to = a2;\n      }\n      while ( v16 );\n      if ( v15 == -1 )\n      {\n        Error = WSAGetLastError();\n        if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)Error) )\n          GetLastError();\n        *(_DWORD *)(a1 + 28) = Error;\n        return 4294967293LL;\n      }\n      else\n      {\n        *a7 = v15;\n        return 0;\n      }\n    }\n  }\n}\n"
+ },
+ {
+  "class": "ComponentHandler_8737",
+  "class_obf": "ÏÍÎÏÎÏÍÌÌÍÎÏÍÌÏÍÎÍÌÌÎÏÏ",
+  "parent": "",
+  "method": "m_2DE",
+  "cv_key": "ComponentHandler_8737::m_2DE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A9DA80(__int64 a1, int a2)\n{\n  SOCKET v4; // rcx\n  int Error; // edi\n\n  v4 = *(_QWORD *)(a1 + 8);\n  if ( v4 == -1 )\n  {\n    if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)0x274A) )\n      GetLastError();\n    return 4294967293LL;\n  }\n  else if ( shutdown(v4, a2) == -1 )\n  {\n    Error = WSAGetLastError();\n    if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)Error) )\n      GetLastError();\n    *(_DWORD *)(a1 + 28) = Error;\n    return 4294967293LL;\n  }\n  else\n  {\n    if ( (a2 & 0xFFFFFFFD) == 0 )\n      *(_DWORD *)(a1 + 32) = 0;\n    return 0;\n  }\n}\n"
+ },
+ {
+  "class": "ComponentHandler_8737",
+  "class_obf": "ÏÍÎÏÎÏÍÌÌÍÎÏÍÌÏÍÎÍÌÌÎÏÏ",
+  "parent": "",
+  "method": "m_4B3",
+  "cv_key": "ComponentHandler_8737::m_4B3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A9D610(__int64 a1, const struct sockaddr *a2, int a3)\n{\n  SOCKET v4; // rdi\n  int v6; // ecx\n  int v7; // ecx\n  int v8; // edi\n  struct pollfd fdArray; // [rsp+38h] [rbp-20h] BYREF\n  int optval; // [rsp+60h] [rbp+8h] BYREF\n  int optlen; // [rsp+78h] [rbp+20h] BYREF\n\n  v4 = *(_QWORD *)(a1 + 8);\n  if ( v4 == -1 )\n  {\n    if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)0x274A) )\n      GetLastError();\n    return 4294967293LL;\n  }\n  else if ( connect(*(_QWORD *)(a1 + 8), a2, a3) == -1 )\n  {\n    if ( *(_DWORD *)sub_180AFC848(v6) == 4 )\n    {\n      *(_QWORD *)&fdArray.events = 16;\n      fdArray.fd = v4;\n      while ( WSAPoll(&fdArray, 1u, -1) == -1 )\n      {\n        if ( *(_DWORD *)sub_180AFC848(v7) != 4 )\n          goto LABEL_12;\n      }\n      optval = 0;\n      optlen = 4;\n      if ( getsockopt(v4, 0xFFFF, 4103, (char *)&optval, &optlen) == -1 )\n      {\nLABEL_12:\n        sub_180A9D1B0(a1);\n        return 4294967293LL;\n      }\n      v8 = optval;\n      if ( optval )\n      {\n        if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)optval) )\n          GetLastError();\n        *(_DWORD *)(a1 + 28) = v8;\n        return 4294967293LL;\n      }\n      else\n      {\n        return 0;\n      }\n    }\n    else\n    {\n      sub_180A9D1B0(a1);\n      return 4294967293LL;\n    }\n  }\n  else\n  {\n    return 0;\n  }\n}\n"
+ },
+ {
+  "class": "ComponentHandler_8737",
+  "class_obf": "ÏÍÎÏÎÏÍÌÌÍÎÏÍÌÏÍÎÍÌÌÎÏÏ",
+  "parent": "",
+  "method": "m_5CF",
+  "cv_key": "ComponentHandler_8737::m_5CF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A9DCE0(\n        __int64 a1,\n        char *a2,\n        __int64 a3,\n        int a4,\n        int *a5,\n        struct sockaddr *from,\n        int *fromlen)\n{\n  char *v9; // rax\n  SOCKET v11; // r14\n  int v13; // ecx\n  int v14; // ebx\n  bool v15; // zf\n  int Error; // ebx\n\n  v9 = a2;\n  v11 = *(_QWORD *)(a1 + 8);\n  if ( v11 == -1 )\n  {\n    if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)0x274A) )\n      GetLastError();\n    return 4294967293LL;\n  }\n  else\n  {\n    do\n    {\n      v14 = recvfrom(v11, v9, a3, a4, from, fromlen);\n      if ( v14 != -1 )\n        break;\n      v15 = *(_DWORD *)sub_180AFC848(v13) == 4;\n      v9 = a2;\n    }\n    while ( v15 );\n    if ( !v14 && a3 && *(_DWORD *)(a1 + 32) != 1 )\n    {\n      v14 = -1;\n      *(_DWORD *)sub_180AFC848(v13) = 4;\n    }\n    if ( v14 == -1 )\n    {\n      Error = WSAGetLastError();\n      if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)Error) )\n        GetLastError();\n      *(_DWORD *)(a1 + 28) = Error;\n      return 4294967293LL;\n    }\n    else\n    {\n      *a5 = v14;\n      return 0;\n    }\n  }\n}\n"
+ },
+ {
+  "class": "ComponentHandler_8737",
+  "class_obf": "ÏÍÎÏÎÏÍÌÌÍÎÏÍÌÏÍÎÍÌÌÎÏÏ",
+  "parent": "",
+  "method": "m_676",
+  "cv_key": "ComponentHandler_8737::m_676",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A9D880(__int64 a1, __int64 a2)\n{\n  SOCKET v4; // rcx\n  __int64 v6; // rdx\n  int Error; // edi\n  struct sockaddr name; // [rsp+30h] [rbp-118h] BYREF\n  int namelen; // [rsp+160h] [rbp+18h] BYREF\n\n  sub_180B27D70(&name, 0, 258);\n  namelen = 258;\n  v4 = *(_QWORD *)(a1 + 8);\n  if ( v4 == -1 )\n  {\n    if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)0x274A) )\n      GetLastError();\n    return 4294967293LL;\n  }\n  else if ( getpeername(v4, &name, &namelen) == -1 )\n  {\n    Error = WSAGetLastError();\n    if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)Error) )\n      GetLastError();\n    *(_DWORD *)(a1 + 28) = Error;\n    return 4294967293LL;\n  }\n  else if ( sub_180A9D1F0((__int64)&name, v6, a2) )\n  {\n    return 0;\n  }\n  else\n  {\n    *(_DWORD *)(a1 + 28) = 10047;\n    return 4294967293LL;\n  }\n}\n"
+ },
+ {
+  "class": "ComponentHandler_8737",
+  "class_obf": "ÏÍÎÏÎÏÍÌÌÍÎÏÍÌÏÍÎÍÌÌÎÏÏ",
+  "parent": "",
+  "method": "m_775",
+  "cv_key": "ComponentHandler_8737::m_775",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A9DE40(__int64 a1, const char *a2, int a3, int a4, int *a5)\n{\n  SOCKET v10; // r14\n  int v11; // ecx\n  int v12; // ebx\n  int Error; // ebx\n\n  *a5 = 0;\n  if ( a4 && (a4 & 0xFFFF7FE8) != 0 )\n  {\n    *(_DWORD *)(a1 + 28) = 10045;\n    return 4294967293LL;\n  }\n  else\n  {\n    v10 = *(_QWORD *)(a1 + 8);\n    if ( v10 == -1 )\n    {\n      if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)0x274A) )\n        GetLastError();\n      return 4294967293LL;\n    }\n    else\n    {\n      do\n        v12 = send(v10, a2, a3, a4);\n      while ( v12 == -1 && *(_DWORD *)sub_180AFC848(v11) == 4 );\n      if ( v12 == -1 )\n      {\n        Error = WSAGetLastError();\n        if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)Error) )\n          GetLastError();\n        *(_DWORD *)(a1 + 28) = Error;\n        return 4294967293LL;\n      }\n      else\n      {\n        *a5 = v12;\n        return 0;\n      }\n    }\n  }\n}\n"
+ },
+ {
+  "class": "ComponentHandler_8737",
+  "class_obf": "ÏÍÎÏÎÏÍÌÌÍÎÏÍÌÏÍÎÍÌÌÎÏÏ",
+  "parent": "",
+  "method": "m_BB5",
+  "cv_key": "ComponentHandler_8737::m_BB5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_180A9D1F0(__int64 a1, __int64 a2, __int64 a3)\n{\n  char result; // al\n  u_short v6; // ax\n\n  switch ( *(_WORD *)a1 )\n  {\n    case 0:\n      *(_DWORD *)a3 = 0;\n      result = 0;\n      break;\n    case 1:\n      *(_DWORD *)a3 = 1;\n      result = 0;\n      break;\n    case 2:\n      *(_DWORD *)a3 = 2;\n      *(_DWORD *)(a3 + 4) = ntohs(*(_WORD *)(a1 + 2));\n      *(_DWORD *)(a3 + 8) = ntohl(*(_DWORD *)(a1 + 4));\n      result = 1;\n      break;\n    case 6:\n      *(_DWORD *)a3 = 3;\n      result = 0;\n      break;\n    case 0xB:\n      *(_DWORD *)a3 = 4;\n      result = 0;\n      break;\n    case 0xC:\n      *(_DWORD *)a3 = 5;\n      result = 0;\n      break;\n    case 0x10:\n      *(_DWORD *)a3 = 6;\n      result = 0;\n      break;\n    case 0x17:\n      *(_DWORD *)a3 = 7;\n      v6 = ntohs(*(_WORD *)(a1 + 2));\n      *(_BYTE *)(a3 + 7) = v6;\n      *(_BYTE *)(a3 + 6) = HIBYTE(v6);\n      *(_BYTE *)(a3 + 12) = *(_BYTE *)(a1 + 8);\n      *(_BYTE *)(a3 + 13) = *(_BYTE *)(a1 + 9);\n      *(_BYTE *)(a3 + 14) = *(_BYTE *)(a1 + 10);\n      *(_BYTE *)(a3 + 15) = *(_BYTE *)(a1 + 11);\n      *(_BYTE *)(a3 + 16) = *(_BYTE *)(a1 + 12);\n      *(_BYTE *)(a3 + 17) = *(_BYTE *)(a1 + 13);\n      *(_BYTE *)(a3 + 18) = *(_BYTE *)(a1 + 14);\n      *(_BYTE *)(a3 + 19) = *(_BYTE *)(a1 + 15);\n      *(_BYTE *)(a3 + 20) = *(_BYTE *)(a1 + 16);\n      *(_BYTE *)(a3 + 21) = *(_BYTE *)(a1 + 17);\n      *(_BYTE *)(a3 + 22) = *(_BYTE *)(a1 + 18);\n      *(_BYTE *)(a3 + 23) = *(_BYTE *)(a1 + 19);\n      *(_BYTE *)(a3 + 24) = *(_BYTE *)(a1 + 20);\n      *(_BYTE *)(a3 + 25) = *(_BYTE *)(a1 + 21);\n      *(_BYTE *)(a3 + 26) = *(_BYTE *)(a1 + 22);\n      *(_BYTE *)(a3 + 27) = *(_BYTE *)(a1 + 23);\n      *(_BYTE *)(a3 + 28) = *(_BYTE *)(a1 + 24);\n      *(_BYTE *)(a3 + 29) = *(_BYTE *)(a1 + 25);\n      *(_BYTE *)(a3 + 30) = *(_BYTE *)(a1 + 26);\n      *(_BYTE *)(a3 + 31) = *(_BYTE *)(a1 + 27);\n      result = 1;\n      break;\n    case 0x1A:\n      *(_DWORD *)a3 = 8;\n      result = 0;\n      break;\n    default:\n      *(_DWORD *)a3 = -1;\n      result = 0;\n      break;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "ComponentHandler_8737",
+  "class_obf": "ÏÍÎÏÎÏÍÌÌÍÎÏÍÌÏÍÎÍÌÌÎÏÏ",
+  "parent": "",
+  "method": "m_BCC",
+  "cv_key": "ComponentHandler_8737::m_BCC",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180A9E090(__int64 a1, struct _WSABUF *a2, DWORD a3, DWORD *a4, DWORD Flags)\n{\n  DWORD v7; // r10d\n  SOCKET v9; // rcx\n  DWORD NumberOfBytesRecvd[4]; // [rsp+48h] [rbp-10h] BYREF\n\n  v7 = 0;\n  if ( Flags )\n  {\n    if ( (Flags & 0xFFFF7FE8) != 0 )\n    {\n      v7 = -1;\n    }\n    else\n    {\n      v7 = Flags & 1 | 2;\n      if ( (Flags & 2) == 0 )\n        v7 = Flags & 1;\n      if ( (Flags & 4) != 0 )\n        v7 |= 4u;\n    }\n  }\n  Flags = v7;\n  if ( v7 == -1 )\n  {\n    *(_DWORD *)(a1 + 28) = 10045;\n    return 4294967293LL;\n  }\n  else\n  {\n    v9 = *(_QWORD *)(a1 + 8);\n    if ( v9 == -1 )\n    {\n      if ( !TlsSetValue(*(_DWORD *)qword_18CE1CEB8, (LPVOID)0x274A) )\n        GetLastError();\n      return 4294967293LL;\n    }\n    else if ( WSARecv(v9, a2, a3, NumberOfBytesRecvd, &Flags, 0, 0) == -1 )\n    {\n      *a4 = 0;\n      sub_180A9D1B0(a1);\n      return 4294967293LL;\n    }\n    else\n    {\n      *a4 = NumberOfBytesRecvd[0];\n      return 0;\n    }\n  }\n}\n"
+ }
+]

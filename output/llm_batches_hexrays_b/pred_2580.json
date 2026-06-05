@@ -1,0 +1,9 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_35F3::m_575": "TryCollectInner",
+ "VRCNetworkBehaviourSibling_BF5Sibling_35F3::m_AEE": "DeallocateLargeBlock",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3A02::m_77C": "GetNarrowEnvironmentStrings",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3A02::m_943": "ExpandWildcardArguments",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3A02::m_96F": "ExpandWildcardPath",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3A02::m_AEE": "AppendExpandedPath",
+ "VRCNetworkBehaviourSibling_BF5Sibling_3A55::m_77C": "MarkObject"
+}

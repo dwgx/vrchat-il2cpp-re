@@ -1,0 +1,112 @@
+[
+ {
+  "class": "TransformComponentHandler_4914",
+  "class_obf": "ÎÏÏÏÏÍÌÌÏÍÌÏÍÍÏÌÌÍÏÏÏÍÌ",
+  "parent": "",
+  "method": "m_9B7",
+  "cv_key": "TransformComponentHandler_4914::m_9B7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1806A1D40(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rdx\n  __int64 v9; // rcx\n  unsigned int v10; // ebp\n  __int64 v11; // rax\n  __int64 v12; // rax\n  unsigned int v13; // eax\n  signed __int32 v15[10]; // [rsp+0h] [rbp-28h] BYREF\n  __int64 v16; // [rsp+30h] [rbp+8h] BYREF\n\n  if ( !byte_18CE3292A )\n  {\n    sub_180AD1AA0(&qword_18C88FAA0);\n    _InterlockedOr(v15, 0);\n    byte_18CE3292A = 1;\n  }\n  LOBYTE(v16) = *(_BYTE *)a1;\n  v6 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    v6 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v7 = XFiPLRjvmWI_0(**(_QWORD **)(v6 + 192), &v16);\n  if ( !a2 )\n    sub_180AAE510(v9, v8);\n  v10 = sub_180005D40(1, qword_18C88FAA0, a2, v7);\n  v11 = *(_QWORD *)(a3 + 40);\n  v16 = *(_QWORD *)(a1 + 4);\n  if ( (*(_BYTE *)(v11 + 309) & 1) == 0 )\n    v11 = sub_180A4EBA0(v11);\n  v12 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v11 + 192) + 16LL), &v16);\n  v13 = sub_180005D40(1, qword_18C88FAA0, a2, v12);\n  return sub_1867134F0(v10, v13, 0);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_4914",
+  "class_obf": "ÎÏÏÏÏÍÌÌÏÍÌÏÍÍÏÌÌÍÏÏÏÍÌ",
+  "parent": "",
+  "method": "m_A3C",
+  "cv_key": "TransformComponentHandler_4914::m_A3C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1806A2800(char *a1, __int64 a2, __int64 a3)\n{\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rdx\n  __int64 v9; // rcx\n  unsigned int v10; // ebp\n  __int64 v11; // rax\n  __int64 v12; // xmm1_8\n  bool v13; // zf\n  __int64 v14; // rax\n  unsigned int v15; // eax\n  signed __int32 v17[8]; // [rsp+0h] [rbp-48h] BYREF\n  __int128 v18; // [rsp+20h] [rbp-28h] BYREF\n  __int64 v19; // [rsp+30h] [rbp-18h]\n  char v20; // [rsp+50h] [rbp+8h] BYREF\n\n  if ( !byte_18CE32966 )\n  {\n    sub_180AD1AA0(&qword_18C88FAA0);\n    _InterlockedOr(v17, 0);\n    byte_18CE32966 = 1;\n  }\n  v20 = *a1;\n  v6 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    v6 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v7 = XFiPLRjvmWI_0(**(_QWORD **)(v6 + 192), &v20);\n  if ( !a2 )\n    sub_180AAE510(v9, v8);\n  v10 = sub_180005D40(1, qword_18C88FAA0, a2, v7);\n  v11 = *(_QWORD *)(a3 + 40);\n  v12 = *((_QWORD *)a1 + 3);\n  v18 = *(_OWORD *)(a1 + 8);\n  v13 = (*(_BYTE *)(v11 + 309) & 1) == 0;\n  v19 = v12;\n  if ( v13 )\n    v11 = sub_180A4EBA0(v11);\n  v14 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v11 + 192) + 16LL), &v18);\n  v15 = sub_180005D40(1, qword_18C88FAA0, a2, v14);\n  return sub_1867134F0(v10, v15, 0);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_4914",
+  "class_obf": "ÎÏÏÏÏÍÌÌÏÍÌÏÍÍÏÌÌÍÏÏÏÍÌ",
+  "parent": "",
+  "method": "m_AC9",
+  "cv_key": "TransformComponentHandler_4914::m_AC9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1806A1F50(char *a1, __int64 a2, __int64 a3)\n{\n  __int64 v6; // rax\n  __int64 v7; // rax\n  __int64 v8; // rdx\n  __int64 v9; // rcx\n  unsigned int v10; // ebp\n  __int64 v11; // rax\n  int v12; // ecx\n  __int64 v13; // rax\n  unsigned int v14; // eax\n  signed __int32 v16[8]; // [rsp+0h] [rbp-38h] BYREF\n  __int64 v17; // [rsp+20h] [rbp-18h] BYREF\n  int v18; // [rsp+28h] [rbp-10h]\n  char v19; // [rsp+40h] [rbp+8h] BYREF\n\n  if ( !byte_18CE32936 )\n  {\n    sub_180AD1AA0(&qword_18C88FAA0);\n    _InterlockedOr(v16, 0);\n    byte_18CE32936 = 1;\n  }\n  v19 = *a1;\n  v6 = *(_QWORD *)(a3 + 40);\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    v6 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n  v7 = XFiPLRjvmWI_0(**(_QWORD **)(v6 + 192), &v19);\n  if ( !a2 )\n    sub_180AAE510(v9, v8);\n  v10 = sub_180005D40(1, qword_18C88FAA0, a2, v7);\n  v11 = *(_QWORD *)(a3 + 40);\n  v12 = *((_DWORD *)a1 + 3);\n  v17 = *(_QWORD *)(a1 + 4);\n  v18 = v12;\n  if ( (*(_BYTE *)(v11 + 309) & 1) == 0 )\n    v11 = sub_180A4EBA0(v11);\n  v13 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v11 + 192) + 16LL), &v17);\n  v14 = sub_180005D40(1, qword_18C88FAA0, a2, v13);\n  return sub_1867134F0(v10, v14, 0);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_7700",
+  "class_obf": "ÌÍÍÌÎÍÌÎÎÌÌÏÏÍÌÍÎÏÏÍÍÎÍ",
+  "parent": "",
+  "method": "m_16B",
+  "cv_key": "TransformComponentHandler_7700::m_16B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1803E7570(__int64 a1, __int128 *a2, int a3, int a4, __int64 a5)\n{\n  __int64 v6; // xmm1_8\n  __int64 v7; // rcx\n  __int64 v8; // rdx\n  __int128 v10; // [rsp+30h] [rbp-28h] BYREF\n  __int64 v11; // [rsp+40h] [rbp-18h]\n\n  if ( !*(_DWORD *)(a1 + 24) )\n    return 0xFFFFFFFFLL;\n  if ( a3 < 0 )\n    sub_186717450(0);\n  if ( !*(_DWORD *)(a1 + 24) )\n    return 0xFFFFFFFFLL;\n  if ( a4 < 0 )\n    sub_186716FF0(16, 4, 0);\n  if ( !*(_DWORD *)(a1 + 24) )\n    return 0xFFFFFFFFLL;\n  if ( a3 >= *(_DWORD *)(a1 + 24) )\n    sub_186716FF0(13, 34, 0);\n  if ( a4 > a3 + 1 )\n    sub_186716FF0(16, 34, 0);\n  v6 = *((_QWORD *)a2 + 2);\n  v7 = *(_QWORD *)(a1 + 16);\n  v8 = *(_QWORD *)(a5 + 40);\n  v10 = *a2;\n  v11 = v6;\n  return sub_182D6AEF0(v7, (unsigned int)&v10, a3, a4, *(_QWORD *)(*(_QWORD *)(v8 + 192) + 384LL));\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_7700",
+  "class_obf": "ÌÍÍÌÎÍÌÎÎÌÌÏÏÍÌÍÎÏÏÍÍÎÍ",
+  "parent": "",
+  "method": "m_1B1",
+  "cv_key": "TransformComponentHandler_7700::m_1B1",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1803E71A0(__int64 a1, int a2, int a3, __int128 *a4, __int64 a5, __int64 a6)\n{\n  __int64 v9; // rax\n  __int64 v10; // rax\n  __int64 v11; // rdx\n  __int64 v12; // rcx\n  __int64 v14; // rax\n  _QWORD *v15; // rbx\n  __int64 v16; // rax\n  __int64 v17; // rax\n  _QWORD *v18; // rbx\n  __int64 v19; // rax\n  __int64 *v20; // rcx\n  __int64 v21; // rdi\n  __int64 v22; // rax\n  _QWORD *v23; // rbx\n  __int64 v24; // rax\n  __int64 v25; // [rsp+30h] [rbp-38h]\n  __int128 v26; // [rsp+40h] [rbp-28h] BYREF\n  __int64 v27; // [rsp+50h] [rbp-18h]\n  __int64 v28; // [rsp+70h] [rbp+8h]\n\n  v26 = *a4;\n  v28 = *((_QWORD *)a4 + 2);\n  if ( !*(_QWORD *)(a6 + 56) )\n    sub_180A4EC20(a6);\n  if ( !a1 )\n  {\n    v14 = sub_180A8B8B0(&qword_18C8CFD48);\n    v15 = sub_180AAE4D0(v14);\n    v16 = sub_180A8B8B0(&qword_18C809138);\n    sub_1865C3310(v15, v16, 0);\n    sub_180AAE4E0(v15, a6);\n  }\n  if ( a2 < 0 || a3 < 0 )\n  {\n    v20 = &qword_18C8D6510;\n    if ( a2 >= 0 )\n      v20 = &qword_18C8BF120;\n    v21 = sub_180A8B8B0(v20);\n    v22 = sub_180A8B8B0(&qword_18C8EECD8);\n    v23 = sub_180AAE4D0(v22);\n    v24 = sub_180A8B8B0(&qword_18C84F080);\n    sub_1865C3450(v23, v21, v24, 0);\n    sub_180AAE4E0(v23, a6);\n  }\n  if ( *(_DWORD *)(a1 + 24) - a2 < a3 )\n  {\n    v17 = sub_180A8B8B0(&qword_18C8FF458);\n    v18 = sub_180AAE4D0(v17);\n    v19 = sub_180A8B8B0(&qword_18C84F0B8);\n    sub_1865C2E00(v18, v19, 0);\n    sub_180AAE4E0(v18, a6);\n  }\n  v9 = *(_QWORD *)(*(_QWORD *)(a6 + 56) + 16LL);\n  if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n    v9 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(a6 + 56) + 16LL));\n  if ( !*(_DWORD *)(v9 + 224) )\n    YloSGiLVOEi_0(v9);\n  v10 = sub_1801678C0(*(_QWORD *)(*(_QWORD *)(a6 + 56) + 8LL));\n  if ( !v10 )\n    sub_180AAE510(v12, v11);\n  v25 = *(_QWORD *)(*(_QWORD *)(a6 + 56) + 48LL);\n  v27 = v28;\n  return sub_185117D60(v10, a1, a2, a3, (__int64)&v26, a5, v25);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_7700",
+  "class_obf": "ÌÍÍÌÎÍÌÎÎÌÌÏÏÍÌÍÎÏÏÍÍÎÍ",
+  "parent": "",
+  "method": "m_9D2",
+  "cv_key": "TransformComponentHandler_7700::m_9D2",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1803E6D70(__int64 a1, __int128 *a2, int a3, int a4, __int64 a5)\n{\n  __int128 v7; // xmm6\n  __int64 v9; // rax\n  __int64 v10; // rsi\n  __int64 *v11; // rax\n  __int64 v12; // rdx\n  __int64 v13; // rcx\n  __int64 v14; // rcx\n  __int64 v16; // rax\n  _QWORD *v17; // rbx\n  __int64 v18; // rax\n  __int64 v19; // rax\n  _QWORD *v20; // rdi\n  __int64 v21; // rbx\n  __int64 v22; // rax\n  __int64 v23; // rax\n  _QWORD *v24; // rdi\n  __int64 v25; // rbx\n  __int64 v26; // rax\n  __int128 v27; // [rsp+30h] [rbp-28h] BYREF\n\n  v7 = *a2;\n  if ( !*(_QWORD *)(a5 + 56) )\n    sub_180A4EC20(a5);\n  if ( !a1 )\n  {\n    v16 = sub_180A8B8B0(&qword_18C8CFD48);\n    v17 = sub_180AAE4D0(v16);\n    v18 = sub_180A8B8B0(&qword_18C809138);\n    sub_1865C3310(v17, v18, 0);\n    sub_180AAE4E0(v17, a5);\n  }\n  if ( a3 < 0 || a3 > *(_DWORD *)(a1 + 24) )\n  {\n    v23 = sub_180A8B8B0(&qword_18C8EECD8);\n    v24 = sub_180AAE4D0(v23);\n    v25 = sub_180A8B8B0(&qword_18C856528);\n    v26 = sub_180A8B8B0(&qword_18C91D258);\n    sub_1865C3450(v24, v26, v25, 0);\n    sub_180AAE4E0(v24, a5);\n  }\n  if ( a4 < 0 || a4 > *(_DWORD *)(a1 + 24) - a3 )\n  {\n    v19 = sub_180A8B8B0(&qword_18C8EECD8);\n    v20 = sub_180AAE4D0(v19);\n    v21 = sub_180A8B8B0(&qword_18C8564A8);\n    v22 = sub_180A8B8B0(&qword_18C86B5A8);\n    sub_1865C3450(v20, v22, v21, 0);\n    sub_180AAE4E0(v20, a5);\n  }\n  v9 = *(_QWORD *)(a5 + 56);\n  v10 = *(_QWORD *)(v9 + 16);\n  if ( !*(_QWORD *)(v10 + 56) )\n    sub_180A4EC20(*(_QWORD *)(v9 + 16));\n  v11 = (__int64 *)sub_182C957E0(**(_QWORD **)(v10 + 56));\n  if ( !v11 )\n    sub_180AAE510(v13, v12);\n  v14 = *v11;\n  v27 = v7;\n  return (*(__int64 (__fastcall **)(__int64 *, __int64, __int128 *, _QWORD, int, _QWORD))(v14 + 472))(\n           v11,\n           a1,\n           &v27,\n           (unsigned int)a3,\n           a4,\n           *(_QWORD *)(v14 + 480));\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_7700",
+  "class_obf": "ÌÍÍÌÎÍÌÎÎÌÌÏÏÍÌÍÎÏÏÍÍÎÍ",
+  "parent": "",
+  "method": "m_B58",
+  "cv_key": "TransformComponentHandler_7700::m_B58",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1803E66B0(__int64 a1, __int128 *a2, int a3, int a4, __int64 a5)\n{\n  __int128 v7; // xmm6\n  __int64 v9; // rax\n  __int64 v10; // rsi\n  __int64 *v11; // rax\n  __int64 v12; // rdx\n  __int64 v13; // rcx\n  __int64 v14; // rcx\n  __int64 v16; // rax\n  _QWORD *v17; // rbx\n  __int64 v18; // rax\n  __int64 v19; // rax\n  _QWORD *v20; // rdi\n  __int64 v21; // rbx\n  __int64 v22; // rax\n  __int64 v23; // rax\n  _QWORD *v24; // rdi\n  __int64 v25; // rbx\n  __int64 v26; // rax\n  __int128 v27; // [rsp+30h] [rbp-28h] BYREF\n\n  v7 = *a2;\n  if ( !*(_QWORD *)(a5 + 56) )\n    sub_180A4EC20(a5);\n  if ( !a1 )\n  {\n    v16 = sub_180A8B8B0(&qword_18C8CFD48);\n    v17 = sub_180AAE4D0(v16);\n    v18 = sub_180A8B8B0(&qword_18C809138);\n    sub_1865C3310(v17, v18, 0);\n    sub_180AAE4E0(v17, a5);\n  }\n  if ( a3 < 0 || a3 > *(_DWORD *)(a1 + 24) )\n  {\n    v23 = sub_180A8B8B0(&qword_18C8EECD8);\n    v24 = sub_180AAE4D0(v23);\n    v25 = sub_180A8B8B0(&qword_18C856528);\n    v26 = sub_180A8B8B0(&qword_18C91D258);\n    sub_1865C3450(v24, v26, v25, 0);\n    sub_180AAE4E0(v24, a5);\n  }\n  if ( a4 < 0 || a4 > *(_DWORD *)(a1 + 24) - a3 )\n  {\n    v19 = sub_180A8B8B0(&qword_18C8EECD8);\n    v20 = sub_180AAE4D0(v19);\n    v21 = sub_180A8B8B0(&qword_18C8564A8);\n    v22 = sub_180A8B8B0(&qword_18C86B5A8);\n    sub_1865C3450(v20, v22, v21, 0);\n    sub_180AAE4E0(v20, a5);\n  }\n  v9 = *(_QWORD *)(a5 + 56);\n  v10 = *(_QWORD *)(v9 + 16);\n  if ( !*(_QWORD *)(v10 + 56) )\n    sub_180A4EC20(*(_QWORD *)(v9 + 16));\n  v11 = (__int64 *)sub_182C95690(**(_QWORD **)(v10 + 56));\n  if ( !v11 )\n    sub_180AAE510(v13, v12);\n  v14 = *v11;\n  v27 = v7;\n  return (*(__int64 (__fastcall **)(__int64 *, __int64, __int128 *, _QWORD, int, _QWORD))(v14 + 472))(\n           v11,\n           a1,\n           &v27,\n           (unsigned int)a3,\n           a4,\n           *(_QWORD *)(v14 + 480));\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_7700",
+  "class_obf": "ÌÍÍÌÎÍÌÎÎÌÌÏÏÍÌÍÎÏÏÍÍÎÍ",
+  "parent": "",
+  "method": "m_F8E",
+  "cv_key": "TransformComponentHandler_7700::m_F8E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1803E7FD0(__int64 a1, __int128 *a2, int a3, int a4, __int64 a5)\n{\n  __int128 v7; // xmm6\n  __int64 v9; // rax\n  __int64 v10; // rsi\n  __int64 *v11; // rax\n  __int64 v12; // rdx\n  __int64 v13; // rcx\n  __int64 v14; // rcx\n  __int64 v16; // rax\n  _QWORD *v17; // rbx\n  __int64 v18; // rax\n  __int64 v19; // rax\n  _QWORD *v20; // rdi\n  __int64 v21; // rbx\n  __int64 v22; // rax\n  __int64 v23; // rax\n  _QWORD *v24; // rdi\n  __int64 v25; // rbx\n  __int64 v26; // rax\n  __int128 v27; // [rsp+30h] [rbp-28h] BYREF\n\n  v7 = *a2;\n  if ( !*(_QWORD *)(a5 + 56) )\n    sub_180A4EC20(a5);\n  if ( !a1 )\n  {\n    v16 = sub_180A8B8B0(&qword_18C8CFD48);\n    v17 = sub_180AAE4D0(v16);\n    v18 = sub_180A8B8B0(&qword_18C809138);\n    sub_1865C3310(v17, v18, 0);\n    sub_180AAE4E0(v17, a5);\n  }\n  if ( a3 < 0 || a3 > *(_DWORD *)(a1 + 24) )\n  {\n    v23 = sub_180A8B8B0(&qword_18C8EECD8);\n    v24 = sub_180AAE4D0(v23);\n    v25 = sub_180A8B8B0(&qword_18C856528);\n    v26 = sub_180A8B8B0(&qword_18C91D258);\n    sub_1865C3450(v24, v26, v25, 0);\n    sub_180AAE4E0(v24, a5);\n  }\n  if ( a4 < 0 || a4 > *(_DWORD *)(a1 + 24) - a3 )\n  {\n    v19 = sub_180A8B8B0(&qword_18C8EECD8);\n    v20 = sub_180AAE4D0(v19);\n    v21 = sub_180A8B8B0(&qword_18C8564A8);\n    v22 = sub_180A8B8B0(&qword_18C86B5A8);\n    sub_1865C3450(v20, v22, v21, 0);\n    sub_180AAE4E0(v20, a5);\n  }\n  v9 = *(_QWORD *)(a5 + 56);\n  v10 = *(_QWORD *)(v9 + 16);\n  if ( !*(_QWORD *)(v10 + 56) )\n    sub_180A4EC20(*(_QWORD *)(v9 + 16));\n  v11 = (__int64 *)sub_182C95BD0(**(_QWORD **)(v10 + 56));\n  if ( !v11 )\n    sub_180AAE510(v13, v12);\n  v14 = *v11;\n  v27 = v7;\n  return (*(__int64 (__fastcall **)(__int64 *, __int64, __int128 *, _QWORD, int, _QWORD))(v14 + 472))(\n           v11,\n           a1,\n           &v27,\n           (unsigned int)a3,\n           a4,\n           *(_QWORD *)(v14 + 480));\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_8775",
+  "class_obf": "ÍÌÌÌÌÏÌÎÎÌÏÍÏÍÌÎÌÌÌÎÎÌÏ",
+  "parent": "",
+  "method": "m_23F",
+  "cv_key": "TransformComponentHandler_8775::m_23F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180677110(__int64 a1, __int64 a2)\n{\n  unsigned __int64 v4; // rax\n  __int64 v5; // rdx\n  __int64 v6; // rcx\n  unsigned __int64 v7; // rbx\n  __int64 v8; // rcx\n  __int64 v9; // r8\n  __int64 v10; // rax\n  __int64 v11; // rax\n  signed __int32 v13[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE324FF )\n  {\n    sub_180AD1AA0(&qword_18C8D15B8);\n    _InterlockedOr(v13, 0);\n    sub_180AD1AA0(&qword_18C8D77C0);\n    _InterlockedOr(v13, 0);\n    sub_180AD1AA0(&qword_18C8DB348);\n    _InterlockedOr(v13, 0);\n    sub_180AD1AA0(&qword_18C8FF358);\n    _InterlockedOr(v13, 0);\n    sub_180AD1AA0(&qword_18C904118);\n    _InterlockedOr(v13, 0);\n    byte_18CE324FF = 1;\n  }\n  v4 = MmKHvpwELkW_0(qword_18C8D77C0, 5u);\n  v7 = v4;\n  if ( !v4 )\n    sub_180AAE510(v6, v5);\n  sub_180002CC0(v4, 0, qword_18C8FF358);\n  if ( !*(_DWORD *)(qword_18C8D15B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8D15B8);\n  v8 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    sub_180A4EBA0(v8);\n  if ( !byte_18CE396A9 )\n  {\n    sub_180AD1AA0(&qword_18C80B898);\n    _InterlockedOr(v13, 0);\n    sub_180AD1AA0(&qword_18C82FB50);\n    _InterlockedOr(v13, 0);\n    byte_18CE396A9 = 1;\n  }\n  v9 = qword_18C80B898;\n  if ( *(_BYTE *)(a1 + 16) )\n    v9 = qword_18C82FB50;\n  sub_180002CC0(v7, 1, v9);\n  sub_180002CC0(v7, 2, qword_18C8DB348);\n  v10 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v10 + 309) & 1) == 0 )\n    v10 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v11 = sub_180540E60(a1 + 24, *(_QWORD *)(*(_QWORD *)(v10 + 192) + 208LL));\n  sub_180002CC0(v7, 3, v11);\n  sub_180002CC0(v7, 4, qword_18C904118);\n  return sub_186477540(v7, 0);\n}\n"
+ },
+ {
+  "class": "TransformComponentHandler_8775",
+  "class_obf": "ÍÌÌÌÌÏÌÎÎÌÏÍÏÍÌÎÌÌÌÎÎÌÏ",
+  "parent": "",
+  "method": "m_87A",
+  "cv_key": "TransformComponentHandler_8775::m_87A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180676060(__int64 a1, __int64 a2)\n{\n  __int64 v4; // rcx\n  __int64 v5; // rdi\n  __int64 v6; // rbp\n  __int64 v7; // rax\n  __int64 v8; // rax\n  signed __int32 v10[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  if ( !byte_18CE324EE )\n  {\n    sub_180AD1AA0(&qword_18C8D15B8);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C8DB348);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C904118);\n    _InterlockedOr(v10, 0);\n    byte_18CE324EE = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C8D15B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8D15B8);\n  v4 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v4 + 309) & 1) == 0 )\n    sub_180A4EBA0(v4);\n  if ( !byte_18CE396A9 )\n  {\n    sub_180AD1AA0(&qword_18C80B898);\n    _InterlockedOr(v10, 0);\n    sub_180AD1AA0(&qword_18C82FB50);\n    _InterlockedOr(v10, 0);\n    byte_18CE396A9 = 1;\n  }\n  v5 = qword_18C80B898;\n  if ( *(_BYTE *)(a1 + 16) )\n    v5 = qword_18C82FB50;\n  v6 = qword_18C8DB348;\n  v7 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v8 = sub_1805405E0(a1 + 24, *(_QWORD *)(*(_QWORD *)(v7 + 192) + 208LL));\n  return sub_186477380(v5, v6, v8, qword_18C904118, 0);\n}\n"
+ }
+]

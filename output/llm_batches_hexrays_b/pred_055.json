@@ -1,12 +1,4 @@
 {
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_118": "InitializeDictionaryStorage",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_19E": "CopyTo",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_22B": "InitializeDictionaryStorage",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_2D2": "ConstructWithCapacityAndComparer",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_348": "ConstructWithCapacityAndComparer",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_373": "InitializeDictionaryStorage",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_3CD": "ConstructWithCapacityAndComparer",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_3E8": "InitializeDictionaryStorage",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_592": "InitializeDictionaryStorage",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_71E": "ConstructWithCapacityAndComparer"
+ "ExceptionInt16OverflowComponent_B2EE::m_40C": "Sqrtf",
+ "ExceptionInt16OverflowComponent_B2EE::m_44B": "Fmod"
 }

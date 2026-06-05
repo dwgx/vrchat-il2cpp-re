@@ -1,0 +1,12 @@
+{
+ "x00Derived_5203::m_119": "TryGetGuid",
+ "x00Derived_5203::m_17F": "GetInt64",
+ "x00Derived_5203::m_186": "GetDecimal",
+ "x00Derived_5203::m_199": "GetInt32",
+ "x00Derived_5203::m_203": "GetGuid",
+ "x00Derived_5203::m_233": "ValueTextEquals",
+ "x00Derived_5203::m_4E0": "AsBytes",
+ "x00Derived_5203::m_5AF": "Read",
+ "x00Derived_5203::m_73D": "GetCurrentState",
+ "x00Derived_5203::m_B5E": "CopyString"
+}

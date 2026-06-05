@@ -1,0 +1,5 @@
+{
+ "PhysicsHandler_89A3::m_ECC": "set_CacheWritingBehavior",
+ "PhysicsJoint2DHandler_88ED::m_306": "InvokePhysicsJoint2DHandlers",
+ "PhysicsJoint2DHandler_88ED::m_5B2": "InvokePhysicsJoint2DHandlers"
+}

@@ -1,0 +1,5 @@
+{
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_5F2": "IsQuaternionAngleWithinThreshold",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_75B": "OnValidate",
+ "ONSPAmbisonicsNativeSiblingSibling_8A5B::m_842": "AnimateMaterialFloatProperty"
+}

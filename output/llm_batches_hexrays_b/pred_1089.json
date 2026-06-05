@@ -1,0 +1,8 @@
+{
+ "TransformHandler_5039::m_199": "AwaitOnCompleted",
+ "TransformHandler_5039::m_395": "Start",
+ "TransformHandler_5039::m_5F4": "get_Task",
+ "TransformHandler_5039::m_64B": "get_Task",
+ "TransformHandler_5039::m_82B": "Start",
+ "TransformHandler_5039::m_8EF": "AwaitUnsafeOnCompleted"
+}

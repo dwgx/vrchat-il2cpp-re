@@ -1,3 +1,4 @@
 {
- "PlayerNet::m_68E": "ConnectInternalInjected"
+ "TransformPhysicsSystem_923C::m_740": "ThrowObjectMetadataPairMarshalException",
+ "TransformPhysicsSystem_923C::m_769": "AddObjectMetadataPair"
 }

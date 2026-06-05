@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_311E::m_55E": "SeekFilePosition",
+ "VRCNetworkBehaviourSibling_BF5Sibling_311E::m_77C": "ReadBytes",
+ "VRCNetworkBehaviourSibling_BF5Sibling_311E::m_943": "WriteBytes"
+}

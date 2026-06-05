@@ -1,0 +1,8 @@
+{
+ "PlayerControllerColliderHit_E831::m_2C5": "CopyKeyValuePairsToArray",
+ "PlayerControllerColliderHit_E831::m_A04": "InitializeDictionaryStorage",
+ "PlayerControllerColliderHit_E831::m_ABF": "InitializeDictionaryStorage",
+ "PlayerControllerColliderHit_E831::m_C0E": "CompareKeysForEquality",
+ "PlayerControllerColliderHit_E831::m_D75": "ConstructWithCapacityComparer",
+ "PlayerControllerColliderHit_E831::m_F1B": "CopyValuesToArray"
+}

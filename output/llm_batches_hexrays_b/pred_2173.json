@@ -1,0 +1,5 @@
+{
+ "TransformQuaternionHandler_DDEA::m_26F": "GetOrCreateCachedQuaternion",
+ "TransformQuaternionHandler_DDEA::m_C76": "GetOrCreateCachedQuaternion",
+ "TransformQuaternionHandler_FFFD::m_1C1": "ApplyQuaternionAtCurrentFrame"
+}

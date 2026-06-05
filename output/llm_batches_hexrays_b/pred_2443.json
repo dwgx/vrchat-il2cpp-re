@@ -1,0 +1,10 @@
+{
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_502": "AllocateNativeArrayStorage",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_519": "ConstructNativeArrayFromManagedArray",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_56D": "CopyManagedArrayToNativeArray",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_61D": "CreateNativeArrayWithOptions",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_73C": "AllocateNativeArrayStorage",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_89F": "CopyNativeArrayContents",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_8DA": "GetNativeArraySubArray",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_A10": "AllocateNativeArrayStorage"
+}

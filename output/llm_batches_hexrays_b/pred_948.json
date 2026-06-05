@@ -1,0 +1,7 @@
+{
+ "VRC_MainSibling_C23A::m_020": "MarshalFourByteArrayToManaged",
+ "VRC_MainSibling_C23A::m_07F": "Marshal64ByteArrayToNative",
+ "VRC_MainSibling_C23A::m_080": "MarshalFixedInt64ArrayToNative",
+ "VRC_MainSibling_C23A::m_08C": "Marshal128ByteArrayToNative",
+ "VRC_MainSibling_C23A::m_0A8": "MarshalFixedInt64ArrayToNative"
+}

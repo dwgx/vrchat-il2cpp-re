@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_56FF::m_C01": "WriteInt32",
+ "VRCNetworkBehaviourSibling_BF5Sibling_56FF::m_DD6": "WriteSingle",
+ "VRCNetworkBehaviourSibling_BF5Sibling_56FF::m_EEE": "get_BaseStream",
+ "VRCNetworkBehaviourSibling_BF5Sibling_56FF::m_F2B": "TryReadBytes16",
+ "VRCNetworkBehaviourSibling_BF5Sibling_6963::m_575": "Contains"
+}

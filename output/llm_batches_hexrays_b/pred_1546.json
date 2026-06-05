@@ -1,0 +1,8 @@
+{
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_21B": "ToDouble",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_338": "Equals",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_643": "ToString",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_6B3": "ConvertInt16ToDecimal",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_70D": "ToSByte",
+ "ONSPAmbisonicsNativeSibliRelated_675A::m_889": "ToUInt32"
+}

@@ -1,0 +1,10 @@
+{
+ "AsyncStateMachine_7CE7::m_CE3": "GetStructuralHashCode",
+ "AsyncStateMachine_7CE7::m_D51": "GetStructuralHashCode",
+ "AsyncStateMachine_7CE7::m_DB9": "GetStructuralHashCode",
+ "AsyncStateMachine_7CFA::m_288": "TryConvertPrimitiveValue",
+ "AsyncStateMachine_7CFA::m_E82": "CopyStringToAnsiBuffer",
+ "AsyncStateMachine_7CFC::m_DB9": "CastClassIfAssignable",
+ "AsyncStateMachine_7F1E::m_015": "IntrospectiveSort",
+ "AsyncStateMachine_7F1E::m_440": "SortWithDefaultComparer"
+}

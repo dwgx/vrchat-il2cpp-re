@@ -1,0 +1,112 @@
+[
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_EDC0",
+  "class_obf": "ÌÏÍÏÎÌÏÍÎÌÌÏÌÍÌÏÏÍÎÎÌÎÏ",
+  "parent": "",
+  "method": "m_F2B",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_EDC0::m_F2B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18099E2B0(__int64 a1, __int64 *a2, unsigned int a3, __int64 a4)\n{\n  __int64 v4; // rbp\n  __int64 v6; // rbx\n  unsigned __int16 v9; // cx\n  __int64 v10; // r11\n  __int64 v11; // rdx\n  unsigned __int16 v12; // r10\n  __int64 v13; // r8\n  __int64 v14; // rax\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int128 *v18; // rax\n  __int64 v20[5]; // [rsp+20h] [rbp-28h] BYREF\n\n  v4 = qword_18C7DF9A8;\n  v6 = 0;\n  v9 = 0;\n  v10 = *a2;\n  v11 = *(_QWORD *)(qword_18C7DF9A8 + 40);\n  v12 = *(_WORD *)(v10 + 302);\n  if ( v12 )\n  {\n    v13 = *(_QWORD *)(v10 + 176);\n    while ( *(_QWORD *)(v13 + 16LL * v9) != v11 )\n    {\n      if ( ++v9 >= v12 )\n        goto LABEL_5;\n    }\n    v14 = v10 + 16LL * (*(unsigned __int16 *)(qword_18C7DF9A8 + 80) + *(_DWORD *)(v13 + 16LL * v9 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v14 = sub_180A4F060(a2, v11, *(_WORD *)(qword_18C7DF9A8 + 80));\n  }\n  v15 = *(_QWORD *)(v14 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v6 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v4 + 64);\n  v20[0] = v15;\n  v20[1] = v6;\n  v20[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v20, 1);\n  return (*((__int64 (__fastcall **)(__int64 *, _QWORD, __int64, __int128 *))v18 + 1))(a2, a3, a4, v18);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F280",
+  "class_obf": "ÍÎÎÏÎÍÍÍÎÏÍÎÌÌÍÏÍÍÏÏÎÍÍ",
+  "parent": "",
+  "method": "m_45A",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_F280::m_45A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_180988530()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C812120 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F280",
+  "class_obf": "ÍÎÎÏÎÍÍÍÎÏÍÎÌÌÍÏÍÍÏÏÎÍÍ",
+  "parent": "",
+  "method": "m_536",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_F280::m_536",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_180988850()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C852750 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F280",
+  "class_obf": "ÍÎÎÏÎÍÍÍÎÏÍÎÌÌÍÏÍÍÏÏÎÍÍ",
+  "parent": "",
+  "method": "m_55E",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_F280::m_55E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_1809871D0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8C3838 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F280",
+  "class_obf": "ÍÎÎÏÎÍÍÍÎÏÍÎÌÌÍÏÍÍÏÏÎÍÍ",
+  "parent": "",
+  "method": "m_575",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_F280::m_575",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_180987B80()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C81C378 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 32LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 32LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F280",
+  "class_obf": "ÍÎÎÏÎÍÍÍÎÏÍÎÌÌÍÏÍÍÏÏÎÍÍ",
+  "parent": "",
+  "method": "m_77C",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_F280::m_77C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_180987810()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C81D9B8 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F280",
+  "class_obf": "ÍÎÎÏÎÍÍÍÎÏÍÎÌÌÍÏÍÍÏÏÎÍÍ",
+  "parent": "",
+  "method": "m_96F",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_F280::m_96F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_1809874F0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C8BF9A8 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 8LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F280",
+  "class_obf": "ÍÎÎÏÎÍÍÍÎÏÍÎÌÌÍÏÍÍÏÏÎÍÍ",
+  "parent": "",
+  "method": "m_AEE",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_F280::m_AEE",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void sub_180987EA0()\n{\n  __int64 v0; // rcx\n  __int64 v1; // rax\n\n  v0 = *(_QWORD *)(qword_18C81C9D0 + 40);\n  v1 = *(_QWORD *)(*(_QWORD *)(v0 + 192) + 64LL);\n  if ( (*(_BYTE *)(v1 + 309) & 1) == 0 )\n    v1 = sub_180A4EBA0(*(_QWORD *)(*(_QWORD *)(v0 + 192) + 64LL));\n  if ( !*(_DWORD *)(v1 + 224) )\n    YloSGiLVOEi_0(v1);\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_FEA6",
+  "class_obf": "ÎÎÏÏÍÏÏÏÍÍÏÍÎÎÌÌÏÏÌÎÎÌÏ",
+  "parent": "",
+  "method": "m_2F0",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_FEA6::m_2F0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "const void *__fastcall sub_180A3B270(__int64 a1)\n{\n  __int64 v2; // rax\n  LPCWSTR v3; // rcx\n  __int64 v4; // r15\n  unsigned __int64 v5; // rsi\n  _QWORD *v6; // rdi\n  unsigned __int64 v7; // rbx\n  __int64 v8; // r9\n  __int64 v9; // r9\n  __int64 v10; // r9\n  __int128 *v11; // rdx\n  __int64 v12; // r8\n  DWORD dwFlagsAndAttributes; // ebx\n  __int128 *v14; // rdx\n  __int64 v15; // r8\n  const WCHAR *v16; // rcx\n  LPCWSTR v17; // rcx\n  int v18; // edi\n  LPCWSTR v19; // rcx\n  const WCHAR *v20; // rcx\n  HANDLE FileW; // rbx\n  DWORD LastError; // ebx\n  LPCWSTR v23; // rcx\n  const char *v24; // rdx\n  LPCWSTR v25; // rcx\n  const void *v26; // rbx\n  __int64 v27; // rcx\n  __int64 v28; // rcx\n  __int128 v30; // [rsp+40h] [rbp-79h] BYREF\n  __int64 v31; // [rsp+50h] [rbp-69h]\n  unsigned __int64 v32; // [rsp+58h] [rbp-61h]\n  LPCWSTR v33[2]; // [rsp+60h] [rbp-59h] BYREF\n  __int64 v34; // [rsp+70h] [rbp-49h]\n  unsigned __int64 v35; // [rsp+78h] [rbp-41h]\n  LPCWSTR lpFileName[3]; // [rsp+80h] [rbp-39h] BYREF\n  unsigned __int64 v37; // [rsp+98h] [rbp-21h]\n  _QWORD v38[2]; // [rsp+A0h] [rbp-19h] BYREF\n  unsigned __int64 v39; // [rsp+B0h] [rbp-9h]\n  unsigned __int64 v40; // [rsp+B8h] [rbp-1h]\n  _DWORD FileInformation[12]; // [rsp+C0h] [rbp+7h] BYREF\n\n  v33[0] = (LPCWSTR)\"Metadata\";\n  v33[1] = (LPCWSTR)8;\n  v2 = sub_180AB7610(lpFileName);\n  sub_180A40F60(v38, v2, v33);\n  if ( v37 > 0xF )\n  {\n    v3 = lpFileName[0];\n    if ( v37 + 1 >= 0x1000 )\n    {\n      if ( (unsigned __int64)lpFileName[0] - *((_QWORD *)lpFileName[0] - 1) - 8 > 0x1F )\n        invalid_parameter_noinfo_noreturn();\n      v3 = (LPCWSTR)*((_QWORD *)lpFileName[0] - 1);\n    }\n    sub_180AF6A48(v3);\n  }\n  v4 = -1;\n  v5 = -1;\n  do\n    ++v5;\n  while ( *(_BYTE *)(a1 + v5) );\n  v6 = v38;\n  if ( v40 > 0xF )\n    v6 = (_QWORD *)v38[0];\n  v7 = v39;\n  v30 = 0;\n  v31 = 0;\n  v32 = 15;\n  LOBYTE(v30) = 0;\n  sub_180A413F0(&v30, v5 + v39 + 1);\n  sub_180A40D70((__int64 *)&v30, (__int64)v6, v7, v8);\n  sub_180A41590((__int64 *)&v30, 1u, 92, v9);\n  sub_180A40D70((__int64 *)&v30, a1, v5, v10);\n  v11 = &v30;\n  if ( v32 > 0xF )\n    v11 = (__int128 *)v30;\n  v12 = -1;\n  do\n    ++v12;\n  while ( *((_BYTE *)v11 + v12) );\n  sub_180ADD240(v33, v11);\n  dwFlagsAndAttributes = 128;\n  v14 = &v30;\n  if ( v32 > 0xF )\n    v14 = (__int128 *)v30;\n  v15 = -1;\n  do\n    ++v15;\n  while ( *((_BYTE *)v14 + v15) );\n  sub_180ADD240(lpFileName, v14);\n  v16 = (const WCHAR *)lpFileName;\n  if ( v37 > 7 )\n    v16 = lpFileName[0];\n  if ( GetFileAttributesExW(v16, GetFileExInfoStandard, FileInformation) )\n  {\n    v18 = FileInformation[0];\n    if ( v37 > 7 )\n    {\n      v19 = lpFileName[0];\n      if ( 2 * v37 + 2 >= 0x1000 )\n      {\n        if ( (unsigned __int64)lpFileName[0] - *((_QWORD *)lpFileName[0] - 1) - 8 > 0x1F )\n          invalid_parameter_noinfo_noreturn();\n        v19 = (LPCWSTR)*((_QWORD *)lpFileName[0] - 1);\n      }\n      sub_180AF6A48(v19);\n    }\n    if ( v18 != -1 && (v18 & 0x10) != 0 )\n      dwFlagsAndAttributes = 33554560;\n  }\n  else\n  {\n    GetLastError();\n    if ( v37 > 7 )\n    {\n      v17 = lpFileName[0];\n      if ( 2 * v37 + 2 >= 0x1000 )\n      {\n        if ( (unsigned __int64)lpFileName[0] - *((_QWORD *)lpFileName[0] - 1) - 8 > 0x1F )\n          invalid_parameter_noinfo_noreturn();\n        v17 = (LPCWSTR)*((_QWORD *)lpFileName[0] - 1);\n      }\n      sub_180AF6A48(v17);\n    }\n  }\n  v20 = (const WCHAR *)v33;\n  if ( v35 > 7 )\n    v20 = v33[0];\n  FileW = CreateFileW(v20, 0x80000000, 1u, 0, 3u, dwFlagsAndAttributes, 0);\n  if ( FileW == (HANDLE)-1LL )\n  {\n    LastError = GetLastError();\n    if ( v35 > 7 )\n    {\n      v23 = v33[0];\n      if ( 2 * v35 + 2 >= 0x1000 )\n      {\n        if ( (unsigned __int64)v33[0] - *((_QWORD *)v33[0] - 1) - 8 > 0x1F )\n          invalid_parameter_noinfo_noreturn();\n        v23 = (LPCWSTR)*((_QWORD *)v33[0] - 1);\n      }\n      sub_180AF6A48(v23);\n    }\n    v34 = 0;\n    v35 = 7;\n    LOWORD(v33[0]) = 0;\n    if ( LastError )\n    {\n      v24 = (const char *)&v30;\n      if ( v32 > 0xF )\n        v24 = (const char *)v30;\n      sub_180ACA920(\"ERROR: Could not open %s\", v24);\n      goto LABEL_55;\n    }\n  }\n  else\n  {\n    if ( v35 > 7 )\n    {\n      v25 = v33[0];\n      if ( 2 * v35 + 2 >= 0x1000 )\n      {\n        if ( (unsigned __int64)v33[0] - *((_QWORD *)v33[0] - 1) - 8 > 0x1F )\n          invalid_parameter_noinfo_noreturn();\n        v25 = (LPCWSTR)*((_QWORD *)v33[0] - 1);\n      }\n      sub_180AF6A48(v25);\n    }\n    v34 = 0;\n    v35 = 7;\n    LOWORD(v33[0]) = 0;\n    v4 = (__int64)FileW;\n  }\n  v26 = (const void *)sub_180ACA990((HANDLE)v4);\n  if ( !CloseHandle((HANDLE)v4) && GetLastError() )\n  {\n    sub_180ACAC30(v26);\nLABEL_55:\n    v26 = 0;\n  }\n  if ( v32 > 0xF )\n  {\n    v27 = v30;\n    if ( v32 + 1 >= 0x1000 )\n    {\n      if ( (unsigned __int64)(v30 - *(_QWORD *)(v30 - 8) - 8) > 0x1F )\n        invalid_parameter_noinfo_noreturn();\n      v27 = *(_QWORD *)(v30 - 8);\n    }\n    sub_180AF6A48(v27);\n  }\n  v31 = 0;\n  v32 = 15;\n  LOBYTE(v30) = 0;\n  if ( v40 > 0xF )\n  {\n    v28 = v38[0];\n    if ( v40 + 1 >= 0x1000 )\n    {\n      if ( (unsigned __int64)(v38[0] - *(_QWORD *)(v38[0] - 8LL) - 8LL) > 0x1F )\n        invalid_parameter_noinfo_noreturn();\n      v28 = *(_QWORD *)(v38[0] - 8LL);\n    }\n    sub_180AF6A48(v28);\n  }\n  return v26;\n}\n"
+ },
+ {
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_FEA6",
+  "class_obf": "ÎÎÏÏÍÏÏÏÍÍÏÍÎÎÌÌÏÏÌÎÎÌÏ",
+  "parent": "",
+  "method": "m_51F",
+  "cv_key": "VRCNetworkBehaviourSibling_BF5Sibling_FEA6::m_51F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall KPguTTMdyiL_0(__int64 a1, _BYTE *a2)\n{\n  __int64 v4; // rbp\n  int v5; // edi\n  __int64 v6; // r15\n  _QWORD *Value; // r14\n  __int64 v8; // rax\n  _QWORD *v9; // rdi\n  _QWORD *v10; // rsi\n  __int64 v11; // rax\n  char v12; // cl\n  __int64 v13; // rax\n  __int64 v14; // r8\n\n  sub_180A88250(*(_QWORD *)(a1 + 8));\n  if ( *(_DWORD *)(a1 + 20) == -1 )\n  {\n    v4 = (int)sub_180A8B760(a1);\n    v5 = HIWORD(*(_DWORD *)(*(_QWORD *)(a1 + 8) + 276LL));\n    v6 = (unsigned __int16)*(_DWORD *)(*(_QWORD *)(a1 + 8) + 276LL);\n    Value = TlsGetValue(*(_DWORD *)qword_18CE1CE38);\n    if ( !Value )\n      GetLastError();\n    v8 = Value[v5];\n    v9 = (_QWORD *)(*(_QWORD *)(v8 + 8 * v6) + v4);\n  }\n  else\n  {\n    v8 = *(_QWORD *)(a1 + 8);\n    v9 = (_QWORD *)(*(_QWORD *)(v8 + 184) + *(int *)(a1 + 20));\n  }\n  v10 = *(_QWORD **)(a1 + 24);\n  if ( (v10[1] & 0x20000000) != 0 )\n  {\nLABEL_39:\n    *v9 = a2;\n    return v8;\n  }\n  LODWORD(v8) = *((char *)v10 + 10) - 2;\n  while ( 2 )\n  {\n    switch ( (int)v8 )\n    {\n      case 0:\n      case 2:\n      case 3:\n        if ( a2 )\n        {\n          LOBYTE(v8) = *a2;\n          *(_BYTE *)v9 = *a2;\n        }\n        else\n        {\n          *(_BYTE *)v9 = 0;\n          LOBYTE(v8) = 0;\n        }\n        return v8;\n      case 1:\n      case 4:\n      case 5:\n        if ( a2 )\n        {\n          LOWORD(v8) = *(_WORD *)a2;\n          *(_WORD *)v9 = *(_WORD *)a2;\n        }\n        else\n        {\n          *(_WORD *)v9 = 0;\n          LOBYTE(v8) = 0;\n        }\n        return v8;\n      case 6:\n      case 7:\n        if ( a2 )\n        {\n          LODWORD(v8) = *(_DWORD *)a2;\n          *(_DWORD *)v9 = *(_DWORD *)a2;\n        }\n        else\n        {\n          *(_DWORD *)v9 = 0;\n          LOBYTE(v8) = 0;\n        }\n        return v8;\n      case 8:\n      case 9:\n      case 22:\n      case 23:\n        if ( a2 )\n        {\n          v8 = *(_QWORD *)a2;\n          *v9 = *(_QWORD *)a2;\n        }\n        else\n        {\n          *v9 = 0;\n          LOBYTE(v8) = 0;\n        }\n        return v8;\n      case 10:\n        if ( a2 )\n          *(_DWORD *)v9 = *(_DWORD *)a2;\n        else\n          *(_DWORD *)v9 = 0;\n        return v8;\n      case 11:\n        if ( a2 )\n          *v9 = *(_QWORD *)a2;\n        else\n          *v9 = 0;\n        return v8;\n      case 12:\n      case 16:\n      case 18:\n      case 26:\n      case 27:\n        LOBYTE(v8) = sub_180A41010(v9, a2);\n        return v8;\n      case 13:\n      case 25:\n        goto LABEL_39;\n      case 15:\n        if ( *((_BYTE *)v10 + 10) == 17 && (*(_BYTE *)(sub_180AD2340(*v10) + 309) & 4) != 0 )\n        {\n          v11 = sub_180AD2340(*v10);\n          if ( *(_QWORD *)(v11 + 64) == v11 )\n            v12 = MEMORY[0xA];\n          else\n            v12 = *(_BYTE *)(*(_QWORD *)(v11 + 64) + 42LL);\nLABEL_15:\n          LODWORD(v8) = v12 - 2;\n          if ( (unsigned int)v8 > 0x1B )\n            return v8;\n          continue;\n        }\n        v13 = sub_180A844A0(v10);\n        v14 = (int)ZVZqfPihelS_0(v13, 0);\n        if ( a2 )\n        {\n          sub_180B276D0(v9, a2, v14);\n          LOBYTE(v8) = sub_180A2BBB0(v9);\n        }\n        else\n        {\n          LOBYTE(v8) = sub_180B27D70(v9, 0, v14);\n        }\n        return v8;\n      case 19:\n        v12 = *(_BYTE *)(sub_180ADEE10(*v10) + 42);\n        goto LABEL_15;\n      default:\n        return v8;\n    }\n  }\n}\n"
+ }
+]

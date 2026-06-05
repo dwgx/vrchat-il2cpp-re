@@ -1,0 +1,7 @@
+{
+ "TransformHandler_2D3D::m_8A6": "CompareTo",
+ "TransformHandler_2D3D::m_BD9": "GetHashCode",
+ "TransformHandler_2D3D::m_CEB": "Equals",
+ "TransformHandler_2D3D::m_D37": "GetHashCode",
+ "TransformHandler_2D3D::m_F0A": "CompareTo"
+}

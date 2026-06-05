@@ -1,3 +1,5 @@
 {
- "VRC_Main_F4CB::m_5EE": "get_LocalPosition"
+ "TransformPhysicsSystem_923C::m_0AF": "Dispose",
+ "TransformPhysicsSystem_923C::m_0B0": "GetHashCode",
+ "TransformPhysicsSystem_923C::m_0BD": "ToString"
 }

@@ -1,0 +1,5 @@
+{
+ "PhysicsHingeJointHandler_776B::m_C8A": "EqualsHingeJointState",
+ "PhysicsJoint2DHandler_98C5::m_2A6": "DeserializeJoint2DState",
+ "PhysicsTransformHandler_6CC1::m_212": "SerializeTransformState"
+}

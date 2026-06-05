@@ -1,0 +1,112 @@
+[
+ {
+  "class": "VerifySignature_DF8F",
+  "class_obf": "ÌÍÌÎÏÌÎÏÏÍÏÍÍÎÍÎÏÌÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_0D4",
+  "cv_key": "VerifySignature_DF8F::m_0D4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_1801CA6B0(__int64 a1)\n{\n  signed __int32 v2[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE3074D )\n  {\n    sub_180AD1AA0(&qword_18C9056C0);\n    _InterlockedOr(v2, 0);\n    byte_18CE3074D = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n    YloSGiLVOEi_0(qword_18C9056C0);\n  _InterlockedOr(v2, 0);\n  *(_DWORD *)(a1 + 56) = 33555456;\n}\n"
+ },
+ {
+  "class": "VerifySignature_DF8F",
+  "class_obf": "ÌÍÌÎÏÌÎÏÏÍÏÍÍÎÍÎÏÌÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_852",
+  "cv_key": "VerifySignature_DF8F::m_852",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_1801CA770(__int64 a1)\n{\n  signed __int32 v2[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE30763 )\n  {\n    sub_180AD1AA0(&qword_18C9056C0);\n    _InterlockedOr(v2, 0);\n    byte_18CE30763 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n    YloSGiLVOEi_0(qword_18C9056C0);\n  _InterlockedOr(v2, 0);\n  *(_DWORD *)(a1 + 56) = 33555456;\n}\n"
+ },
+ {
+  "class": "VerifySignature_DF8F",
+  "class_obf": "ÌÍÌÎÏÌÎÏÏÍÏÍÍÎÍÎÏÌÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_A22",
+  "cv_key": "VerifySignature_DF8F::m_A22",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_1801CA710(__int64 a1)\n{\n  signed __int32 v2[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE30758 )\n  {\n    sub_180AD1AA0(&qword_18C9056C0);\n    _InterlockedOr(v2, 0);\n    byte_18CE30758 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n    YloSGiLVOEi_0(qword_18C9056C0);\n  _InterlockedOr(v2, 0);\n  *(_DWORD *)(a1 + 56) = 33555456;\n}\n"
+ },
+ {
+  "class": "VerifySignature_DF8F",
+  "class_obf": "ÌÍÌÎÏÌÎÏÏÍÏÍÍÎÍÎÏÌÎÎÏÎÍ",
+  "parent": "",
+  "method": "m_A7E",
+  "cv_key": "VerifySignature_DF8F::m_A7E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_1801CA890(__int64 a1)\n{\n  signed __int32 v2[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE30784 )\n  {\n    sub_180AD1AA0(&qword_18C9056C0);\n    _InterlockedOr(v2, 0);\n    byte_18CE30784 = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n    YloSGiLVOEi_0(qword_18C9056C0);\n  _InterlockedOr(v2, 0);\n  *(_DWORD *)(a1 + 56) = 33555456;\n}\n"
+ },
+ {
+  "class": "WorldSpawnSiblingSiblingSibling_4C9D",
+  "class_obf": "ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ",
+  "parent": "",
+  "method": "m_19D",
+  "cv_key": "WorldSpawnSiblingSiblingSibling_4C9D::m_19D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18082C830(\n        __int64 (__fastcall *a1)(__int128 *, __int64, __int64, __int128 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4,\n        _DWORD *a5)\n{\n  __int128 *v5; // rax\n  unsigned int *v7; // r8\n  unsigned int *v8; // rdx\n  __int128 *v9; // r9\n  __int64 v10; // r8\n  __int64 v11; // rdx\n  __int64 result; // rax\n  __int128 v13; // [rsp+30h] [rbp-18h] BYREF\n\n  v5 = *a4;\n  v7 = (unsigned int *)a4[2];\n  v8 = (unsigned int *)a4[1];\n  v9 = a4[3];\n  v10 = *v7;\n  v11 = *v8;\n  v13 = *v5;\n  result = a1(&v13, v11, v10, v9, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "WorldSpawnSiblingSiblingSibling_4C9D",
+  "class_obf": "ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ",
+  "parent": "",
+  "method": "m_2B5",
+  "cv_key": "WorldSpawnSiblingSiblingSibling_4C9D::m_2B5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18082BCE0(\n        __int64 (__fastcall *a1)(__int64 *, __int64 *, __int64, __int64 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4,\n        _BYTE *a5)\n{\n  __int64 *v5; // rax\n  __int64 v6; // xmm0_8\n  __int64 v7; // r8\n  __int64 *v8; // rax\n  __int64 *v9; // r9\n  __int64 v10; // xmm0_8\n  __int64 result; // rax\n  __int64 v12; // [rsp+30h] [rbp-28h] BYREF\n  int v13; // [rsp+38h] [rbp-20h]\n  __int64 v14; // [rsp+40h] [rbp-18h] BYREF\n  int v15; // [rsp+48h] [rbp-10h]\n\n  v5 = a4[1];\n  v6 = *v5;\n  v7 = *(unsigned int *)a4[2];\n  v13 = *((_DWORD *)v5 + 2);\n  v8 = *a4;\n  v9 = a4[3];\n  v12 = v6;\n  v10 = *v8;\n  LODWORD(v8) = *((_DWORD *)v8 + 2);\n  v14 = v10;\n  v15 = (int)v8;\n  result = a1(&v14, &v12, v7, v9, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "WorldSpawnSiblingSiblingSibling_4C9D",
+  "class_obf": "ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ",
+  "parent": "",
+  "method": "m_9CA",
+  "cv_key": "WorldSpawnSiblingSiblingSibling_4C9D::m_9CA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18082BC20(\n        __int64 (__fastcall *a1)(__int64 *, __int64 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4,\n        _BYTE *a5)\n{\n  __int64 *v5; // rax\n  __int64 *v6; // r8\n  __int64 v7; // xmm0_8\n  __int64 *v8; // rax\n  __int64 v9; // xmm0_8\n  __int64 result; // rax\n  __int64 v11; // [rsp+30h] [rbp-28h] BYREF\n  int v12; // [rsp+38h] [rbp-20h]\n  __int64 v13; // [rsp+40h] [rbp-18h] BYREF\n  int v14; // [rsp+48h] [rbp-10h]\n\n  v5 = a4[1];\n  v6 = a4[2];\n  v7 = *v5;\n  v12 = *((_DWORD *)v5 + 2);\n  v8 = *a4;\n  v11 = v7;\n  v9 = *v8;\n  v14 = *((_DWORD *)v8 + 2);\n  v13 = v9;\n  result = a1(&v13, &v11, (__int64)v6);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "WorldSpawnSiblingSiblingSibling_4C9D",
+  "class_obf": "ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ",
+  "parent": "",
+  "method": "m_A74",
+  "cv_key": "WorldSpawnSiblingSiblingSibling_4C9D::m_A74",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18082B880(\n        __int64 (__fastcall *a1)(__int64, __int64 *, __int64 *, __int128 *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 **a4,\n        _BYTE *a5)\n{\n  __int64 *v6; // r8\n  __int64 *v7; // rdx\n  __int64 v8; // rcx\n  __int64 result; // rax\n  __int128 v11; // [rsp+30h] [rbp-18h] BYREF\n\n  v6 = a4[2];\n  v7 = a4[1];\n  v8 = **a4;\n  v11 = *(_OWORD *)a4[3];\n  result = a1(v8, v7, v6, &v11, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "WorldSpawnSiblingSiblingSibling_4C9D",
+  "class_obf": "ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ",
+  "parent": "",
+  "method": "m_C47",
+  "cv_key": "WorldSpawnSiblingSiblingSibling_4C9D::m_C47",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18082C280(\n        __int64 (__fastcall *a1)(__int128 *, __int128 *, __int128 *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4,\n        _BYTE *a5)\n{\n  __int128 *v5; // rax\n  __int128 v6; // xmm1\n  __int128 *v7; // rax\n  unsigned __int8 *v8; // r9\n  __int64 v9; // r9\n  __int64 result; // rax\n  __int128 v11; // [rsp+30h] [rbp-38h] BYREF\n  __int128 v12; // [rsp+40h] [rbp-28h] BYREF\n  __int128 v13; // [rsp+50h] [rbp-18h] BYREF\n\n  v5 = a4[1];\n  v11 = *a4[2];\n  v6 = *v5;\n  v7 = *a4;\n  v8 = (unsigned __int8 *)a4[3];\n  v12 = v6;\n  v9 = *v8;\n  v13 = *v7;\n  result = a1(&v13, &v12, &v11, v9, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "WorldSpawnSiblingSiblingSibling_4C9D",
+  "class_obf": "ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ",
+  "parent": "",
+  "method": "m_C5B",
+  "cv_key": "WorldSpawnSiblingSiblingSibling_4C9D::m_C5B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18082CC00(\n        __int64 (__fastcall *a1)(__int64, __int64, _OWORD *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4,\n        _DWORD *a5)\n{\n  _OWORD *v5; // rax\n  __int64 v8; // rdx\n  __int128 v9; // xmm1\n  __int64 v10; // r9\n  __int64 v11; // rcx\n  __int64 result; // rax\n  _OWORD v14[2]; // [rsp+30h] [rbp-28h] BYREF\n\n  v5 = (_OWORD *)a4[2];\n  v8 = a4[1];\n  v9 = v5[1];\n  v10 = *(unsigned int *)a4[3];\n  v11 = *a4;\n  v14[0] = *v5;\n  v14[1] = v9;\n  result = a1(v11, v8, v14, v10, a2);\n  *a5 = result;\n  return result;\n}\n"
+ }
+]

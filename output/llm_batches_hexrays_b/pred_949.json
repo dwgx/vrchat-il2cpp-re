@@ -1,0 +1,9 @@
+{
+ "VRC_MainSibling_C23A::m_10F": "MarshalManagedToNative",
+ "VRC_MainSibling_C23A::m_123": "MarshalManagedToNative",
+ "VRC_MainSibling_C23A::m_17D": "MarshalManagedToNative",
+ "VRC_MainSibling_C23A::m_1D9": "GetNativeStructSize",
+ "VRC_MainSibling_C23A::m_1EA": "MarshalNativeToManaged",
+ "VRC_MainSibling_C23A::m_1F8": "MarshalManagedToNative",
+ "VRC_MainSibling_C23A::m_23B": "MarshalNativeToManaged"
+}

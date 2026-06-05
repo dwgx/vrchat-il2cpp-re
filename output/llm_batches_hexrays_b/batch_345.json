@@ -1,0 +1,112 @@
+[
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_3FD",
+  "cv_key": "NetworkSyncable_D48C::m_3FD",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180935B50(__int64 a1, __int64 *a2)\n{\n  __int64 v2; // rbx\n  __int64 v3; // xmm0_8\n  __int64 (__fastcall *v4)(__int64, __int64 *); // rax\n  __int64 v6; // rax\n  __int64 v7; // [rsp+20h] [rbp-18h] BYREF\n  int v8; // [rsp+28h] [rbp-10h]\n\n  v2 = a1 + 16;\n  v3 = *a2;\n  v8 = *((_DWORD *)a2 + 2);\n  v4 = (__int64 (__fastcall *)(__int64, __int64 *))qword_18CE486D0;\n  v7 = v3;\n  if ( !qword_18CE486D0 )\n  {\n    v4 = (__int64 (__fastcall *)(__int64, __int64 *))CqZPdCzurki_0(\n                                                       \"UnityEngine.Bounds::Contains_Injected(UnityEngine.Bounds&,UnityEngine.Vector3&)\");\n    if ( !v4 )\n    {\n      v6 = sub_180A61A90(\"UnityEngine.Bounds::Contains_Injected(UnityEngine.Bounds&,UnityEngine.Vector3&)\");\n      sub_180A5F890(v6, 0);\n    }\n    qword_18CE486D0 = (__int64)v4;\n  }\n  return v4(v2, &v7);\n}\n"
+ },
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_434",
+  "cv_key": "NetworkSyncable_D48C::m_434",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_180939720(__int64 a1, unsigned __int64 a2)\n{\n  __int64 *v4; // rdx\n  signed __int64 v5; // rtt\n  __int64 v6; // rdi\n  __int64 v7; // rbx\n  __int64 v8; // rax\n  bool v9; // zf\n  __int64 v10; // rcx\n  char v11; // r8\n  unsigned __int64 v12; // rcx\n  char v13; // r8\n  signed __int64 v14; // rtt\n  signed __int32 v15[8]; // [rsp+0h] [rbp-38h] BYREF\n\n  if ( !byte_18CE4AA12 )\n  {\n    sub_180AD1AA0(&qword_18C8BA140);\n    _InterlockedOr(v15, 0);\n    sub_180AD1AA0(&qword_18C8D19F0);\n    _InterlockedOr(v15, 0);\n    byte_18CE4AA12 = 1;\n  }\n  if ( *(_QWORD *)a1 )\n  {\n    if ( !*(_QWORD *)a2 )\n    {\n      *(_QWORD *)a2 = MmKHvpwELkW_0(qword_18C8BA140, 1);\n      MmKHvpwELkW_0(qword_18C8BA140, 1);\n      if ( dword_18CE1C2E8 )\n      {\n        v4 = &qword_18CE64E00[((a2 >> 12) & 0x1FFFFF) >> 6];\n        _m_prefetchw(v4 + 35932);\n        do\n          v5 = v4[35932];\n        while ( v5 != _InterlockedCompareExchange64(v4 + 35932, v5 | (1LL << ((a2 >> 12) & 0x3F)), v5) );\n      }\n    }\n    v6 = *(int *)(*(_QWORD *)a2 + 24LL);\n    if ( v6 > 0 )\n    {\n      v7 = 32;\n      do\n      {\n        sub_180A52230(qword_18C8D19F0);\n        v8 = sub_180A52230(qword_18C8D19F0);\n        v9 = dword_18CE1C2E8 == 0;\n        *(_QWORD *)(v8 + 16) = *(_QWORD *)(v7 + *(_QWORD *)a1 - 32);\n        v10 = *(_QWORD *)a2;\n        *(_QWORD *)(v7 + *(_QWORD *)a2) = v8;\n        if ( !v9 )\n        {\n          v11 = (unsigned __int64)(v7 + v10) >> 12;\n          v12 = (((unsigned __int64)(v7 + v10) >> 12) & 0x1FFFFF) >> 6;\n          v13 = v11 & 0x3F;\n          _m_prefetchw(&qword_18CE64E00[v12 + 35932]);\n          do\n            v14 = qword_18CE64E00[v12 + 35932];\n          while ( v14 != _InterlockedCompareExchange64(&qword_18CE64E00[v12 + 35932], v14 | (1LL << v13), v14) );\n        }\n        v7 += 8;\n        --v6;\n      }\n      while ( v6 );\n    }\n  }\n  *(_OWORD *)(a2 + 8) = *(_OWORD *)(a1 + 8);\n  *(_OWORD *)(a2 + 24) = *(_OWORD *)(a1 + 24);\n}\n"
+ },
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_46D",
+  "cv_key": "NetworkSyncable_D48C::m_46D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809367C0(__int64 a1, __int128 *a2)\n{\n  __int128 v3; // [rsp+20h] [rbp-18h] BYREF\n\n  v3 = *a2;\n  return sub_182CC3580(a1 + 16, &v3);\n}\n"
+ },
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_4A5",
+  "cv_key": "NetworkSyncable_D48C::m_4A5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809394A0(_DWORD *a1)\n{\n  return a1[4] ^ (16 * (a1[5] ^ (a1[6] << 24))) ^ (unsigned int)((a1[6] ^ ((int)a1[5] >> 24)) >> 4);\n}\n"
+ },
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_522",
+  "cv_key": "NetworkSyncable_D48C::m_522",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180937300(__int64 a1)\n{\n  __int64 v1; // rbx\n  __int64 (__fastcall *v3)(__int64); // rax\n  __int64 v4; // rax\n  __int64 v5; // rcx\n  __int64 v6; // rdi\n  __int64 v7; // rbx\n  __int64 result; // rax\n  __int64 v9; // rax\n\n  v1 = qword_18C7FA8D8;\n  if ( !*(_QWORD *)(qword_18C7FA8D8 + 56) )\n    sub_180A4EC20(qword_18C7FA8D8);\n  v3 = (__int64 (__fastcall *)(__int64))qword_18CE4AE38;\n  if ( !qword_18CE4AE38 )\n  {\n    v3 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0(\"UnityEngine.NoAllocHelpers::ExtractArrayFromList(System.Object)\");\n    if ( !v3 )\n    {\n      v9 = sub_180A61A90(\"UnityEngine.NoAllocHelpers::ExtractArrayFromList(System.Object)\");\n      sub_180A5F890(v9, 0);\n    }\n    qword_18CE4AE38 = (__int64)v3;\n  }\n  v4 = v3(a1);\n  v5 = *(_QWORD *)(v1 + 56);\n  v6 = v4;\n  v7 = *(_QWORD *)(v5 + 8);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(v5 + 8));\n  if ( !v6 )\n    return 0;\n  result = sub_180A52170(v6, v7);\n  if ( !result )\n    sub_180AAEC10(v6, v7);\n  return result;\n}\n"
+ },
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_61E",
+  "cv_key": "NetworkSyncable_D48C::m_61E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180937AB0(__int64 a1)\n{\n  return sub_18795DF00(a1 + 16);\n}\n"
+ },
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_64A",
+  "cv_key": "NetworkSyncable_D48C::m_64A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __noreturn sub_180939B90()\n{\n  __int64 v0; // rax\n\n  v0 = sub_180A61AB0(\"Cannot marshal field 'm_Type' of type 'ResourceRequest': Reference type field marshaling is not supported.\");\n  sub_180AAE4E0(v0, 0);\n}\n"
+ },
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_64B",
+  "cv_key": "NetworkSyncable_D48C::m_64B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180938D50(__int64 a1, __int64 a2)\n{\n  __int64 v3; // rax\n  __int64 v4; // xmm0_8\n  _BYTE v6[24]; // [rsp+20h] [rbp-18h] BYREF\n\n  v3 = sub_180B512C0((__int64)v6, (__int64 *)(a2 + 16));\n  v4 = *(_QWORD *)v3;\n  LODWORD(v3) = *(_DWORD *)(v3 + 8);\n  *(_QWORD *)a1 = v4;\n  *(_DWORD *)(a1 + 8) = v3;\n  return a1;\n}\n"
+ },
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_85A",
+  "cv_key": "NetworkSyncable_D48C::m_85A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809395C0(__int64 a1)\n{\n  return sub_18796D400(a1 + 16);\n}\n"
+ },
+ {
+  "class": "NetworkSyncable_D48C",
+  "class_obf": "ÍÎÎÌÏÍÌÌÍÏÌÎÏÍÌÌÏÌÏÍÎÌÎ",
+  "parent": "",
+  "method": "m_978",
+  "cv_key": "NetworkSyncable_D48C::m_978",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809374C0(__int64 a1)\n{\n  __int64 v1; // rbx\n  __int64 (__fastcall *v3)(__int64); // rax\n  __int64 v4; // rax\n  __int64 v5; // rcx\n  __int64 v6; // rdi\n  __int64 v7; // rbx\n  __int64 result; // rax\n  __int64 v9; // rax\n\n  v1 = qword_18C7F8860;\n  if ( !*(_QWORD *)(qword_18C7F8860 + 56) )\n    sub_180A4EC20(qword_18C7F8860);\n  v3 = (__int64 (__fastcall *)(__int64))qword_18CE4AE38;\n  if ( !qword_18CE4AE38 )\n  {\n    v3 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0(\"UnityEngine.NoAllocHelpers::ExtractArrayFromList(System.Object)\");\n    if ( !v3 )\n    {\n      v9 = sub_180A61A90(\"UnityEngine.NoAllocHelpers::ExtractArrayFromList(System.Object)\");\n      sub_180A5F890(v9, 0);\n    }\n    qword_18CE4AE38 = (__int64)v3;\n  }\n  v4 = v3(a1);\n  v5 = *(_QWORD *)(v1 + 56);\n  v6 = v4;\n  v7 = *(_QWORD *)(v5 + 8);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(v5 + 8));\n  if ( !v6 )\n    return 0;\n  result = sub_180A52170(v6, v7);\n  if ( !result )\n    sub_180AAEC10(v6, v7);\n  return result;\n}\n"
+ }
+]

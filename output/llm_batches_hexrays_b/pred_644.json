@@ -1,0 +1,4 @@
+{
+ "TextureUIHandler_DF1E::m_215": "GetConnectedBodyRotation",
+ "TextureUIHandler_DF1E::m_88A": "GetTransformRotationRelativeToConnectedBody"
+}

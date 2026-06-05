@@ -1,0 +1,112 @@
+[
+ {
+  "class": "GizmosDebugHandler_8E84",
+  "class_obf": "ÎÌÏÌÌÏÍÍÏÌÌÏÌÎÍÎÏÍÎÌÎÌÍ",
+  "parent": "",
+  "method": "m_F05",
+  "cv_key": "GizmosDebugHandler_8E84::m_F05",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int128 *__fastcall sub_1804138A0(__int64 a1, __int128 *a2, __int64 a3)\n{\n  __int64 v5; // rsi\n  __int64 v6; // rax\n  __int64 v7; // r8\n  __int128 *v8; // rax\n  __int64 v9; // rcx\n  __int128 v10; // xmm0\n  __int128 v11; // xmm1\n  __int128 v12; // xmm0\n  __int128 v13; // xmm1\n  __int128 v14; // xmm0\n  __int128 v15; // xmm1\n  __int128 v16; // xmm0\n  __int128 v17; // xmm1\n  __int128 v18; // xmm1\n  __int128 v19; // xmm0\n  __int128 v20; // xmm1\n  __int128 v21; // xmm0\n  __int128 *result; // rax\n  __int128 *v23; // rdx\n  __int128 v24; // xmm0\n  __int128 v25; // xmm1\n  __int128 v26; // xmm0\n  __int128 v27; // xmm1\n  __int128 v28; // xmm0\n  __int128 v29; // xmm1\n  __int128 v30; // xmm0\n  __int128 v31; // xmm1\n  __int128 v32; // xmm1\n  __int128 v33; // xmm0\n  __int128 v34; // xmm1\n  __int128 v35; // xmm0\n  __int64 v36; // r8\n  __int128 *v37; // rax\n  __int64 v38; // rcx\n  __int128 v39; // xmm0\n  __int128 v40; // xmm1\n  __int128 v41; // xmm0\n  __int128 v42; // xmm1\n  __int128 v43; // xmm0\n  __int128 v44; // xmm1\n  __int128 v45; // xmm0\n  __int128 v46; // xmm1\n  __int128 v47; // xmm1\n  __int128 v48; // xmm0\n  __int128 v49; // xmm1\n  __int128 v50; // xmm0\n  __int128 *v51; // rdx\n  __int128 v52; // xmm0\n  __int128 v53; // xmm1\n  __int128 v54; // xmm0\n  __int128 v55; // xmm1\n  __int128 v56; // xmm0\n  __int128 v57; // xmm1\n  __int128 v58; // xmm0\n  __int128 v59; // xmm1\n  __int128 v60; // xmm1\n  __int128 v61; // xmm0\n  __int128 v62; // xmm1\n  __int128 v63; // xmm0\n  _BYTE v64[336]; // [rsp+20h] [rbp-158h] BYREF\n\n  v5 = *(int *)(a1 + 8);\n  if ( *(_DWORD *)(a1 + 8) < *(_DWORD *)(a1 + 12) )\n  {\n    v36 = 2;\n    v37 = (__int128 *)v64;\n    v38 = 2;\n    do\n    {\n      v37 += 8;\n      v39 = *a2;\n      v40 = a2[1];\n      a2 += 8;\n      *(v37 - 8) = v39;\n      v41 = *(a2 - 6);\n      *(v37 - 7) = v40;\n      v42 = *(a2 - 5);\n      *(v37 - 6) = v41;\n      v43 = *(a2 - 4);\n      *(v37 - 5) = v42;\n      v44 = *(a2 - 3);\n      *(v37 - 4) = v43;\n      v45 = *(a2 - 2);\n      *(v37 - 3) = v44;\n      v46 = *(a2 - 1);\n      *(v37 - 2) = v45;\n      *(v37 - 1) = v46;\n      --v38;\n    }\n    while ( v38 );\n    v47 = a2[1];\n    *v37 = *a2;\n    v48 = a2[2];\n    v37[1] = v47;\n    v49 = a2[3];\n    v37[2] = v48;\n    v50 = a2[4];\n    v37[3] = v49;\n    v37[4] = v50;\n    result = (__int128 *)v64;\n    v51 = (__int128 *)(*(_QWORD *)a1 + 336 * v5);\n    do\n    {\n      v51 += 8;\n      v52 = *result;\n      v53 = result[1];\n      result += 8;\n      *(v51 - 8) = v52;\n      v54 = *(result - 6);\n      *(v51 - 7) = v53;\n      v55 = *(result - 5);\n      *(v51 - 6) = v54;\n      v56 = *(result - 4);\n      *(v51 - 5) = v55;\n      v57 = *(result - 3);\n      *(v51 - 4) = v56;\n      v58 = *(result - 2);\n      *(v51 - 3) = v57;\n      v59 = *(result - 1);\n      *(v51 - 2) = v58;\n      *(v51 - 1) = v59;\n      --v36;\n    }\n    while ( v36 );\n    v60 = result[1];\n    *v51 = *result;\n    v61 = result[2];\n    v51[1] = v60;\n    v62 = result[3];\n    v51[2] = v61;\n    v63 = result[4];\n    v51[3] = v62;\n    v51[4] = v63;\n    ++*(_DWORD *)(a1 + 8);\n  }\n  else\n  {\n    v6 = *(_QWORD *)(a3 + 40);\n    if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n      v6 = sub_180A4EBA0(*(_QWORD *)(a3 + 40));\n    sub_1804137C0(a1, (unsigned int)(v5 + 1), 0, *(_QWORD *)(*(_QWORD *)(v6 + 192) + 24LL));\n    v7 = 2;\n    v8 = (__int128 *)v64;\n    v9 = 2;\n    do\n    {\n      v8 += 8;\n      v10 = *a2;\n      v11 = a2[1];\n      a2 += 8;\n      *(v8 - 8) = v10;\n      v12 = *(a2 - 6);\n      *(v8 - 7) = v11;\n      v13 = *(a2 - 5);\n      *(v8 - 6) = v12;\n      v14 = *(a2 - 4);\n      *(v8 - 5) = v13;\n      v15 = *(a2 - 3);\n      *(v8 - 4) = v14;\n      v16 = *(a2 - 2);\n      *(v8 - 3) = v15;\n      v17 = *(a2 - 1);\n      *(v8 - 2) = v16;\n      *(v8 - 1) = v17;\n      --v9;\n    }\n    while ( v9 );\n    v18 = a2[1];\n    *v8 = *a2;\n    v19 = a2[2];\n    v8[1] = v18;\n    v20 = a2[3];\n    v8[2] = v19;\n    v21 = a2[4];\n    v8[3] = v20;\n    v8[4] = v21;\n    result = (__int128 *)v64;\n    v23 = (__int128 *)(*(_QWORD *)a1 + 336 * v5);\n    do\n    {\n      v23 += 8;\n      v24 = *result;\n      v25 = result[1];\n      result += 8;\n      *(v23 - 8) = v24;\n      v26 = *(result - 6);\n      *(v23 - 7) = v25;\n      v27 = *(result - 5);\n      *(v23 - 6) = v26;\n      v28 = *(result - 4);\n      *(v23 - 5) = v27;\n      v29 = *(result - 3);\n      *(v23 - 4) = v28;\n      v30 = *(result - 2);\n      *(v23 - 3) = v29;\n      v31 = *(result - 1);\n      *(v23 - 2) = v30;\n      *(v23 - 1) = v31;\n      --v7;\n    }\n    while ( v7 );\n    v32 = result[1];\n    *v23 = *result;\n    v33 = result[2];\n    v23[1] = v32;\n    v34 = result[3];\n    v23[2] = v33;\n    v35 = result[4];\n    v23[3] = v34;\n    v23[4] = v35;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "GizmosDebugHandler_8E84",
+  "class_obf": "ÎÌÏÌÌÏÍÍÏÌÌÏÌÎÍÎÏÍÎÌÎÌÍ",
+  "parent": "",
+  "method": "m_F96",
+  "cv_key": "GizmosDebugHandler_8E84::m_F96",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_1804132E0(__int64 a1, signed int a2, int a3, __int64 a4)\n{\n  int v4; // esi\n  __int64 v6; // rcx\n  __int64 v10; // rax\n  __int64 v11; // rcx\n  __int64 v12; // rax\n\n  v4 = *(_DWORD *)(a1 + 8);\n  v6 = *(_QWORD *)(a4 + 40);\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    sub_180A4EBA0(v6);\n  if ( a2 > *(_DWORD *)(a1 + 12) )\n  {\n    v10 = *(_QWORD *)(a4 + 40);\n    if ( (*(_BYTE *)(v10 + 309) & 1) == 0 )\n      v10 = sub_180A4EBA0(*(_QWORD *)(a4 + 40));\n    v11 = *(_QWORD *)(*(_QWORD *)(v10 + 192) + 56LL);\n    v12 = *(_QWORD *)(v11 + 40);\n    if ( (*(_BYTE *)(v12 + 309) & 1) == 0 )\n      v12 = sub_180A4EBA0(*(_QWORD *)(v11 + 40));\n    sub_180151220(a1, a1 + 16, (unsigned int)a2, *(_QWORD *)(*(_QWORD *)(v12 + 192) + 120LL));\n  }\n  *(_DWORD *)(a1 + 8) = a2;\n  if ( a3 == 1 && v4 < a2 )\n    sub_1879089A0(*(_QWORD *)a1 + 24 * v4, 24 * (a2 - v4), 0);\n}\n"
+ },
+ {
+  "class": "GizmosDebugHandler_8E84",
+  "class_obf": "ÎÌÏÌÌÏÍÍÏÌÌÏÌÎÍÎÏÍÎÌÎÌÍ",
+  "parent": "",
+  "method": "m_FBC",
+  "cv_key": "GizmosDebugHandler_8E84::m_FBC",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int128 *__fastcall sub_180413620(__int128 *a1, _QWORD **a2, int a3, __int64 a4)\n{\n  _QWORD *v4; // rsi\n  __int64 v6; // rcx\n  __int64 v7; // rdi\n  __int128 *v8; // rcx\n  __int128 *v9; // rax\n  __int64 v10; // rdx\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm1\n  __int128 v15; // xmm0\n  __int128 v16; // xmm1\n  __int128 v17; // xmm0\n  __int128 v18; // xmm1\n  __int128 v19; // xmm1\n  __int128 v20; // xmm0\n  __int128 v21; // xmm1\n  __int128 v22; // xmm0\n\n  v4 = *a2;\n  v6 = *(_QWORD *)(a4 + 40);\n  v7 = a3;\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    sub_180A4EBA0(v6);\n  v8 = a1;\n  v9 = (__int128 *)(336 * v7 + *v4);\n  v10 = 2;\n  do\n  {\n    v8 += 8;\n    v11 = *v9;\n    v12 = v9[1];\n    v9 += 8;\n    *(v8 - 8) = v11;\n    v13 = *(v9 - 6);\n    *(v8 - 7) = v12;\n    v14 = *(v9 - 5);\n    *(v8 - 6) = v13;\n    v15 = *(v9 - 4);\n    *(v8 - 5) = v14;\n    v16 = *(v9 - 3);\n    *(v8 - 4) = v15;\n    v17 = *(v9 - 2);\n    *(v8 - 3) = v16;\n    v18 = *(v9 - 1);\n    *(v8 - 2) = v17;\n    *(v8 - 1) = v18;\n    --v10;\n  }\n  while ( v10 );\n  v19 = v9[1];\n  *v8 = *v9;\n  v20 = v9[2];\n  v8[1] = v19;\n  v21 = v9[3];\n  v8[2] = v20;\n  v22 = v9[4];\n  v8[3] = v21;\n  v8[4] = v22;\n  return a1;\n}\n"
+ },
+ {
+  "class": "HumanTraitHandler_1B0B",
+  "class_obf": "ÍÏÏÎÌÍÎÍÏÌÎÏÍÎÎÎÌÌÌÌÎÍÌ",
+  "parent": "",
+  "method": "m_0E0",
+  "cv_key": "HumanTraitHandler_1B0B::m_0E0",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18044E110(_QWORD *a1, __int64 a2)\n{\n  __int64 v2; // rax\n  __int64 v5; // rax\n  __int64 v6; // rdx\n  __int64 v7; // rcx\n  __int64 v8; // rbx\n\n  v2 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v2 + 309) & 1) == 0 )\n    v2 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v5 = sub_18044DFE0(*(_QWORD *)(*(_QWORD *)(v2 + 192) + 16LL));\n  v7 = *(_QWORD *)(a2 + 40);\n  v8 = v5;\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    sub_180A4EBA0(v7);\n  if ( !v8 )\n    sub_180AAE510(v7, v6);\n  return (*(__int64 (__fastcall **)(__int64, _QWORD, _QWORD, _QWORD))(*(_QWORD *)v8 + 392LL))(\n           v8,\n           *a1,\n           0,\n           *(_QWORD *)(*(_QWORD *)v8 + 400LL));\n}\n"
+ },
+ {
+  "class": "HumanTraitHandler_1B0B",
+  "class_obf": "ÍÏÏÎÌÍÎÍÏÌÎÏÍÎÎÎÌÌÌÌÎÍÌ",
+  "parent": "",
+  "method": "m_117",
+  "cv_key": "HumanTraitHandler_1B0B::m_117",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18044F330(__int64 a1, __int64 a2, __int64 *a3, __int64 a4, __int64 a5, __int64 a6)\n{\n  __int64 v6; // r11\n  unsigned __int16 v7; // ax\n  unsigned __int16 v10; // r10\n  __int64 v11; // r9\n  __int64 v12; // rax\n\n  v6 = *a3;\n  v7 = 0;\n  v10 = *(_WORD *)(*a3 + 302);\n  if ( v10 )\n  {\n    v11 = *(_QWORD *)(v6 + 176);\n    while ( *(_QWORD *)(v11 + 16LL * v7) != qword_18C8EA7E8 )\n    {\n      if ( ++v7 >= v10 )\n        goto LABEL_5;\n    }\n    v12 = v6 + 16LL * *(int *)(v11 + 16LL * v7 + 8) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v12 = sub_180A4F060(a3, qword_18C8EA7E8, 0);\n  }\n  return (*(__int64 (__fastcall **)(__int64 *, __int64, _QWORD, __int64, _QWORD))v12)(\n           a3,\n           a4,\n           (unsigned __int8)a5,\n           a6,\n           *(_QWORD *)(v12 + 8));\n}\n"
+ },
+ {
+  "class": "HumanTraitHandler_1B0B",
+  "class_obf": "ÍÏÏÎÌÍÎÍÏÌÎÏÍÎÎÎÌÌÌÌÎÍÌ",
+  "parent": "",
+  "method": "m_1BF",
+  "cv_key": "HumanTraitHandler_1B0B::m_1BF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18044E730(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rax\n  __int64 v5; // rbx\n  unsigned int v6; // edi\n  __int64 v7; // rcx\n  __int64 v8; // rcx\n  __int64 v9; // rax\n  __int64 v10; // rax\n  __int64 v11; // rcx\n  __int64 v12; // rbx\n  __int64 v14; // [rsp+20h] [rbp-18h] BYREF\n  __int64 v15; // [rsp+28h] [rbp-10h]\n\n  v2 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v2 + 309) & 1) == 0 )\n    v2 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v5 = *(_QWORD *)(a1 + 16);\n  v6 = *(_DWORD *)(a1 + 24);\n  v7 = *(_QWORD *)(*(_QWORD *)(v2 + 192) + 48LL);\n  v15 = 0;\n  v8 = *(_QWORD *)(v7 + 40);\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    sub_180A4EBA0(v8);\n  if ( !v5 || v6 > *(_DWORD *)(v5 + 24) )\n    sub_186717740(v5, 0, v6, 0);\n  v14 = v5;\n  sub_180A2BBB0((unsigned __int64)&v14);\n  v9 = *(_QWORD *)(a2 + 40);\n  LODWORD(v15) = 0;\n  HIDWORD(v15) = v6;\n  if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n    v9 = sub_180A4EBA0(v9);\n  v10 = XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v9 + 192) + 32LL), &v14);\n  v11 = *(_QWORD *)(a2 + 40);\n  v12 = v10;\n  if ( (*(_BYTE *)(v11 + 309) & 1) == 0 )\n    sub_180A4EBA0(v11);\n  return v12;\n}\n"
+ },
+ {
+  "class": "HumanTraitHandler_1B0B",
+  "class_obf": "ÍÏÏÎÌÍÎÍÏÌÎÏÍÎÎÎÌÌÌÌÎÍÌ",
+  "parent": "",
+  "method": "m_3CB",
+  "cv_key": "HumanTraitHandler_1B0B::m_3CB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_18044DC70(__int64 a1, __int64 a2)\n{\n  __int64 v3; // rcx\n  char result; // al\n  __int64 v5; // rdi\n  int v6; // edi\n  signed __int32 v7[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v3 = *(_QWORD *)(a1 + 16);\n  if ( !v3 )\n    goto LABEL_12;\n  result = sub_186796AF0(v3, a2, 0, 0);\n  if ( result )\n    return result;\n  v5 = *(_QWORD *)(a1 + 16);\n  if ( !v5 )\nLABEL_12:\n    sub_180AAE510(v3, a2);\n  if ( !byte_18CE3A498 )\n  {\n    sub_180AD1AA0(&qword_18C9056C0);\n    _InterlockedOr(v7, 0);\n    byte_18CE3A498 = 1;\n  }\n  v6 = *(_DWORD *)(v5 + 56);\n  _InterlockedOr(v7, 0);\n  if ( !*(_DWORD *)(qword_18C9056C0 + 224) )\n    YloSGiLVOEi_0(qword_18C9056C0);\n  if ( (v6 & 0x1600000) == 0 )\n    sub_18047C940(a1);\n  return 0;\n}\n"
+ },
+ {
+  "class": "HumanTraitHandler_1B0B",
+  "class_obf": "ÍÏÏÎÌÍÎÍÏÌÎÏÍÎÎÎÌÌÌÌÎÍÌ",
+  "parent": "",
+  "method": "m_786",
+  "cv_key": "HumanTraitHandler_1B0B::m_786",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18044E580(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rax\n  __int64 v4; // rsi\n  __int64 (__fastcall **v5)(__int64, _QWORD); // rcx\n  __int64 v6; // rax\n  __int64 (__fastcall *v7)(__int64, _QWORD); // rdi\n\n  v2 = *(_QWORD *)(a2 + 40);\n  v4 = *(_QWORD *)(a1 + 16);\n  if ( (*(_BYTE *)(v2 + 309) & 1) == 0 )\n    v2 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v5 = *(__int64 (__fastcall ***)(__int64, _QWORD))(*(_QWORD *)(v2 + 192) + 16LL);\n  v6 = *(_QWORD *)(a2 + 40);\n  v7 = *v5;\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    v6 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  return v7(v4, *(_QWORD *)(*(_QWORD *)(v6 + 192) + 16LL));\n}\n"
+ },
+ {
+  "class": "HumanTraitHandler_1B0B",
+  "class_obf": "ÍÏÏÎÌÍÎÍÏÌÎÏÍÎÎÎÌÌÌÌÎÍÌ",
+  "parent": "",
+  "method": "m_805",
+  "cv_key": "HumanTraitHandler_1B0B::m_805",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18044E520(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rax\n  __int64 v3; // rbx\n\n  v2 = *(_QWORD *)(a2 + 40);\n  v3 = *(_QWORD *)(a1 + 16);\n  if ( (*(_BYTE *)(v2 + 309) & 1) == 0 )\n    v2 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  return sub_180006510(v3, *(_QWORD *)(*(_QWORD *)(v2 + 192) + 16LL));\n}\n"
+ },
+ {
+  "class": "HumanTraitHandler_1B0B",
+  "class_obf": "ÍÏÏÎÌÍÎÍÏÌÎÏÍÎÎÎÌÌÌÌÎÍÌ",
+  "parent": "",
+  "method": "m_87F",
+  "cv_key": "HumanTraitHandler_1B0B::m_87F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18044E520(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rax\n  __int64 v3; // rbx\n\n  v2 = *(_QWORD *)(a2 + 40);\n  v3 = *(_QWORD *)(a1 + 16);\n  if ( (*(_BYTE *)(v2 + 309) & 1) == 0 )\n    v2 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  return sub_180006510(v3, *(_QWORD *)(*(_QWORD *)(v2 + 192) + 16LL));\n}\n"
+ }
+]

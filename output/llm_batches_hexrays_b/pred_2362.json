@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_D7EB::m_2F0": "SetThreadName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_D7EB::m_51F": "SetThreadName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_D7EB::m_95D": "WaitForMultipleHandles",
+ "VRCNetworkBehaviourSibling_BF5Sibling_D7EB::m_C01": "SetThreadState",
+ "VRCNetworkBehaviourSibling_BF5Sibling_D7EB::m_EEE": "RunThreadStartCallback"
+}

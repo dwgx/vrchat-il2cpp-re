@@ -1,0 +1,11 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_4B04::m_51F": "TryAddNetworkBehaviourSiblingEntry",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4B04::m_6EA": "ForEachNetworkBehaviourSibling",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4B04::m_937": "FindNetworkBehaviourSiblingEntry",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4B04::m_EEE": "TryAddNetworkBehaviourSiblingEntry",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4B04::m_F2B": "ForEachNetworkBehaviourSibling",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4BF1::m_2F0": "ShrinkCapacityIfUnderutilized",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4BF1::m_410": "ShrinkCapacityIfUnderutilized",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4BF1::m_6EA": "ShrinkCapacityIfUnderutilized",
+ "VRCNetworkBehaviourSibling_BF5Sibling_4BF1::m_6F8": "ShrinkCapacityIfUnderutilized"
+}

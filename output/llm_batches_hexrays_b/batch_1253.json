@@ -1,0 +1,112 @@
+[
+ {
+  "class": "PointerClickPointerEnterSiblinSibling_E246",
+  "class_obf": "ÏÌÌÌÌÌÎÍÍÍÎÍÎÎÍÎÌÌÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_63D",
+  "cv_key": "PointerClickPointerEnterSiblinSibling_E246::m_63D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18099FC30(__int64 a1, __int64 *a2, unsigned int a3)\n{\n  __int64 v3; // rsi\n  __int64 v5; // rbx\n  unsigned __int16 v7; // ax\n  __int64 v8; // r10\n  int v9; // r11d\n  __int64 v10; // rdx\n  unsigned __int16 v11; // r9\n  __int64 v12; // r8\n  __int64 v13; // rax\n  __int64 v14; // rdx\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int64 v18; // rax\n  _QWORD v20[5]; // [rsp+20h] [rbp-28h] BYREF\n\n  v3 = qword_18C7E1940;\n  v5 = 0;\n  v7 = 0;\n  v8 = *a2;\n  v9 = *(unsigned __int16 *)(qword_18C7E1940 + 80);\n  v10 = *(_QWORD *)(qword_18C7E1940 + 40);\n  v11 = *(_WORD *)(v8 + 302);\n  if ( v11 )\n  {\n    v12 = *(_QWORD *)(v8 + 176);\n    while ( *(_QWORD *)(v12 + 16LL * v7) != v10 )\n    {\n      if ( ++v7 >= v11 )\n        goto LABEL_5;\n    }\n    v14 = 2LL * v7;\n    v13 = v8 + 16LL * (v9 + *(_DWORD *)(v12 + 16LL * v7 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v13 = sub_180A4F060(a2, v10, (unsigned __int16)v9);\n  }\n  v15 = *(_QWORD *)(v13 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v5 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v3 + 64);\n  LOBYTE(v14) = 1;\n  v20[0] = v15;\n  v20[1] = v5;\n  v20[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v20, v14);\n  return (*(__int64 (__fastcall **)(__int64 *, _QWORD, __int64))(v18 + 8))(a2, a3, v18);\n}\n"
+ },
+ {
+  "class": "PointerClickPointerEnterSiblinSibling_E246",
+  "class_obf": "ÏÌÌÌÌÌÎÍÍÍÎÍÎÎÍÎÌÌÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_79C",
+  "cv_key": "PointerClickPointerEnterSiblinSibling_E246::m_79C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18099FD20(__int64 a1, __int64 *a2, unsigned int a3)\n{\n  __int64 v3; // rsi\n  __int64 v5; // rbx\n  unsigned __int16 v7; // ax\n  __int64 v8; // r10\n  int v9; // r11d\n  __int64 v10; // rdx\n  unsigned __int16 v11; // r9\n  __int64 v12; // r8\n  __int64 v13; // rax\n  __int64 v14; // rdx\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int64 v18; // rax\n  _QWORD v20[5]; // [rsp+20h] [rbp-28h] BYREF\n\n  v3 = qword_18C7E1C60;\n  v5 = 0;\n  v7 = 0;\n  v8 = *a2;\n  v9 = *(unsigned __int16 *)(qword_18C7E1C60 + 80);\n  v10 = *(_QWORD *)(qword_18C7E1C60 + 40);\n  v11 = *(_WORD *)(v8 + 302);\n  if ( v11 )\n  {\n    v12 = *(_QWORD *)(v8 + 176);\n    while ( *(_QWORD *)(v12 + 16LL * v7) != v10 )\n    {\n      if ( ++v7 >= v11 )\n        goto LABEL_5;\n    }\n    v14 = 2LL * v7;\n    v13 = v8 + 16LL * (v9 + *(_DWORD *)(v12 + 16LL * v7 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v13 = sub_180A4F060(a2, v10, (unsigned __int16)v9);\n  }\n  v15 = *(_QWORD *)(v13 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v5 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v3 + 64);\n  LOBYTE(v14) = 1;\n  v20[0] = v15;\n  v20[1] = v5;\n  v20[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v20, v14);\n  return (*(__int64 (__fastcall **)(__int64 *, _QWORD, __int64))(v18 + 8))(a2, a3, v18);\n}\n"
+ },
+ {
+  "class": "PointerClickPointerEnterSiblinSibling_E246",
+  "class_obf": "ÏÌÌÌÌÌÎÍÍÍÎÍÎÎÍÎÌÌÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_90C",
+  "cv_key": "PointerClickPointerEnterSiblinSibling_E246::m_90C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18099FF00(__int64 a1, __int64 *a2, unsigned int a3, __int64 a4)\n{\n  __int64 v4; // rbp\n  __int64 v6; // rbx\n  unsigned __int16 v9; // cx\n  __int64 v10; // r11\n  __int64 v11; // rdx\n  unsigned __int16 v12; // r10\n  __int64 v13; // r8\n  __int64 v14; // rax\n  __int64 v15; // rdx\n  __int64 v16; // rcx\n  __int64 *v17; // rax\n  __int64 v18; // rax\n  __int64 v19; // rax\n  _QWORD v21[5]; // [rsp+20h] [rbp-28h] BYREF\n\n  v4 = qword_18C7E1EA8;\n  v6 = 0;\n  v9 = 0;\n  v10 = *a2;\n  v11 = *(_QWORD *)(qword_18C7E1EA8 + 40);\n  v12 = *(_WORD *)(v10 + 302);\n  if ( v12 )\n  {\n    v13 = *(_QWORD *)(v10 + 176);\n    while ( *(_QWORD *)(v13 + 16LL * v9) != v11 )\n    {\n      if ( ++v9 >= v12 )\n        goto LABEL_5;\n    }\n    v15 = 2LL * v9;\n    v14 = v10 + 16LL * (*(unsigned __int16 *)(qword_18C7E1EA8 + 80) + *(_DWORD *)(v13 + 16LL * v9 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v14 = sub_180A4F060(a2, v11, *(unsigned __int16 *)(qword_18C7E1EA8 + 80));\n  }\n  v16 = *(_QWORD *)(v14 + 8);\n  if ( (*(_BYTE *)(v16 + 83) & 2) != 0 )\n  {\n    v17 = *(__int64 **)(v16 + 64);\n    v6 = v17[1];\n    v16 = *v17;\n  }\n  v18 = *(_QWORD *)(v4 + 64);\n  LOBYTE(v15) = 1;\n  v21[0] = v16;\n  v21[1] = v6;\n  v21[2] = *(_QWORD *)(v18 + 16);\n  v19 = sub_180AB3C30(v21, v15);\n  return (*(__int64 (__fastcall **)(__int64 *, _QWORD, __int64, __int64))(v19 + 8))(a2, a3, a4, v19);\n}\n"
+ },
+ {
+  "class": "PointerClickPointerEnterSiblinSibling_E246",
+  "class_obf": "ÏÌÌÌÌÌÎÍÍÍÎÍÎÎÍÎÌÌÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_9CF",
+  "cv_key": "PointerClickPointerEnterSiblinSibling_E246::m_9CF",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809A0890(__int64 a1, __int64 *a2, unsigned int a3)\n{\n  __int64 v3; // rsi\n  __int64 v5; // rbx\n  unsigned __int16 v7; // ax\n  __int64 v8; // r10\n  int v9; // r11d\n  __int64 v10; // rdx\n  unsigned __int16 v11; // r9\n  __int64 v12; // r8\n  __int64 v13; // rax\n  __int64 v14; // rdx\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int64 v18; // rax\n  _QWORD v20[5]; // [rsp+20h] [rbp-28h] BYREF\n\n  v3 = qword_18C7E2400;\n  v5 = 0;\n  v7 = 0;\n  v8 = *a2;\n  v9 = *(unsigned __int16 *)(qword_18C7E2400 + 80);\n  v10 = *(_QWORD *)(qword_18C7E2400 + 40);\n  v11 = *(_WORD *)(v8 + 302);\n  if ( v11 )\n  {\n    v12 = *(_QWORD *)(v8 + 176);\n    while ( *(_QWORD *)(v12 + 16LL * v7) != v10 )\n    {\n      if ( ++v7 >= v11 )\n        goto LABEL_5;\n    }\n    v14 = 2LL * v7;\n    v13 = v8 + 16LL * (v9 + *(_DWORD *)(v12 + 16LL * v7 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v13 = sub_180A4F060(a2, v10, (unsigned __int16)v9);\n  }\n  v15 = *(_QWORD *)(v13 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v5 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v3 + 64);\n  LOBYTE(v14) = 1;\n  v20[0] = v15;\n  v20[1] = v5;\n  v20[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v20, v14);\n  return (*(__int64 (__fastcall **)(__int64 *, _QWORD, __int64))(v18 + 8))(a2, a3, v18);\n}\n"
+ },
+ {
+  "class": "PointerClickPointerEnterSiblinSibling_E246",
+  "class_obf": "ÏÌÌÌÌÌÎÍÍÍÎÍÎÎÍÎÌÌÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_BC4",
+  "cv_key": "PointerClickPointerEnterSiblinSibling_E246::m_BC4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18099FA50(__int64 a1, __int64 *a2, unsigned int a3)\n{\n  __int64 v3; // rsi\n  __int64 v5; // rbx\n  unsigned __int16 v7; // ax\n  __int64 v8; // r10\n  int v9; // r11d\n  __int64 v10; // rdx\n  unsigned __int16 v11; // r9\n  __int64 v12; // r8\n  __int64 v13; // rax\n  __int64 v14; // rdx\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int64 v18; // rax\n  _QWORD v20[5]; // [rsp+20h] [rbp-28h] BYREF\n\n  v3 = qword_18C7E1950;\n  v5 = 0;\n  v7 = 0;\n  v8 = *a2;\n  v9 = *(unsigned __int16 *)(qword_18C7E1950 + 80);\n  v10 = *(_QWORD *)(qword_18C7E1950 + 40);\n  v11 = *(_WORD *)(v8 + 302);\n  if ( v11 )\n  {\n    v12 = *(_QWORD *)(v8 + 176);\n    while ( *(_QWORD *)(v12 + 16LL * v7) != v10 )\n    {\n      if ( ++v7 >= v11 )\n        goto LABEL_5;\n    }\n    v14 = 2LL * v7;\n    v13 = v8 + 16LL * (v9 + *(_DWORD *)(v12 + 16LL * v7 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v13 = sub_180A4F060(a2, v10, (unsigned __int16)v9);\n  }\n  v15 = *(_QWORD *)(v13 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v5 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v3 + 64);\n  LOBYTE(v14) = 1;\n  v20[0] = v15;\n  v20[1] = v5;\n  v20[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v20, v14);\n  return (*(__int64 (__fastcall **)(__int64 *, _QWORD, __int64))(v18 + 8))(a2, a3, v18);\n}\n"
+ },
+ {
+  "class": "PointerClickPointerEnterSiblinSibling_E246",
+  "class_obf": "ÏÌÌÌÌÌÎÍÍÍÎÍÎÎÍÎÌÌÏÎÎÌÌ",
+  "parent": "",
+  "method": "m_FED",
+  "cv_key": "PointerClickPointerEnterSiblinSibling_E246::m_FED",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18099FE10(__int64 a1, __int64 *a2, unsigned int a3)\n{\n  __int64 v3; // rsi\n  __int64 v5; // rbx\n  unsigned __int16 v7; // ax\n  __int64 v8; // r10\n  int v9; // r11d\n  __int64 v10; // rdx\n  unsigned __int16 v11; // r9\n  __int64 v12; // r8\n  __int64 v13; // rax\n  __int64 v14; // rdx\n  __int64 v15; // rcx\n  __int64 *v16; // rax\n  __int64 v17; // rax\n  __int64 v18; // rax\n  _QWORD v20[5]; // [rsp+20h] [rbp-28h] BYREF\n\n  v3 = qword_18C7E1EC0;\n  v5 = 0;\n  v7 = 0;\n  v8 = *a2;\n  v9 = *(unsigned __int16 *)(qword_18C7E1EC0 + 80);\n  v10 = *(_QWORD *)(qword_18C7E1EC0 + 40);\n  v11 = *(_WORD *)(v8 + 302);\n  if ( v11 )\n  {\n    v12 = *(_QWORD *)(v8 + 176);\n    while ( *(_QWORD *)(v12 + 16LL * v7) != v10 )\n    {\n      if ( ++v7 >= v11 )\n        goto LABEL_5;\n    }\n    v14 = 2LL * v7;\n    v13 = v8 + 16LL * (v9 + *(_DWORD *)(v12 + 16LL * v7 + 8)) + 312;\n  }\n  else\n  {\nLABEL_5:\n    v13 = sub_180A4F060(a2, v10, (unsigned __int16)v9);\n  }\n  v15 = *(_QWORD *)(v13 + 8);\n  if ( (*(_BYTE *)(v15 + 83) & 2) != 0 )\n  {\n    v16 = *(__int64 **)(v15 + 64);\n    v5 = v16[1];\n    v15 = *v16;\n  }\n  v17 = *(_QWORD *)(v3 + 64);\n  LOBYTE(v14) = 1;\n  v20[0] = v15;\n  v20[1] = v5;\n  v20[2] = *(_QWORD *)(v17 + 16);\n  v18 = sub_180AB3C30(v20, v14);\n  return (*(__int64 (__fastcall **)(__int64 *, _QWORD, __int64))(v18 + 8))(a2, a3, v18);\n}\n"
+ },
+ {
+  "class": "PointerClick_06F6",
+  "class_obf": "ÏÏÏÌÎÌÍÏÏÏÍÍÍÏÎÍÎÏÎÏÏÌÎ",
+  "parent": "",
+  "method": "m_6B3",
+  "cv_key": "PointerClick_06F6::m_6B3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807F6F70(\n        __int64 (__fastcall *a1)(__int64, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        _QWORD *a4)\n{\n  return a1(a3, *a4, a2);\n}\n"
+ },
+ {
+  "class": "PointerClick_06F6",
+  "class_obf": "ÏÏÏÌÎÌÍÏÏÏÍÍÍÏÎÍÎÏÎÏÏÌÎ",
+  "parent": "",
+  "method": "m_A41",
+  "cv_key": "PointerClick_06F6::m_A41",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807F6670(\n        __int64 (__fastcall *a1)(__int64, _BYTE *, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int128 **a4)\n{\n  __int128 *v4; // r10\n  __int128 *v5; // rax\n  __int64 v6; // r9\n  __int128 v7; // xmm0\n  __int128 v8; // xmm1\n  __int128 v9; // xmm0\n  __int128 v10; // xmm1\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm1\n  __int128 v15; // xmm1\n  __int128 v16; // xmm0\n  _BYTE v18[568]; // [rsp+20h] [rbp-238h] BYREF\n\n  v4 = *a4;\n  v5 = (__int128 *)v18;\n  v6 = 4;\n  do\n  {\n    v5 += 8;\n    v7 = *v4;\n    v8 = v4[1];\n    v4 += 8;\n    *(v5 - 8) = v7;\n    v9 = *(v4 - 6);\n    *(v5 - 7) = v8;\n    v10 = *(v4 - 5);\n    *(v5 - 6) = v9;\n    v11 = *(v4 - 4);\n    *(v5 - 5) = v10;\n    v12 = *(v4 - 3);\n    *(v5 - 4) = v11;\n    v13 = *(v4 - 2);\n    *(v5 - 3) = v12;\n    v14 = *(v4 - 1);\n    *(v5 - 2) = v13;\n    *(v5 - 1) = v14;\n    --v6;\n  }\n  while ( v6 );\n  v15 = v4[1];\n  *v5 = *v4;\n  v16 = v4[2];\n  v5[1] = v15;\n  v5[2] = v16;\n  return a1(a3, v18, a2);\n}\n"
+ },
+ {
+  "class": "PointerClick_06F6",
+  "class_obf": "ÏÏÏÌÎÌÍÏÏÏÍÍÍÏÎÍÎÏÎÏÏÌÎ",
+  "parent": "",
+  "method": "m_A66",
+  "cv_key": "PointerClick_06F6::m_A66",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807F6000(\n        __int64 (__fastcall *a1)(__int64, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _OWORD **a4)\n{\n  _OWORD *v4; // rax\n  __int128 v5; // xmm1\n  __int128 v6; // xmm0\n  __int128 v7; // xmm1\n  _OWORD v9[4]; // [rsp+20h] [rbp-48h] BYREF\n\n  v4 = *a4;\n  v5 = (*a4)[1];\n  v9[0] = **a4;\n  v6 = v4[2];\n  v9[1] = v5;\n  v7 = v4[3];\n  v9[2] = v6;\n  v9[3] = v7;\n  return a1(a3, v9, a2);\n}\n"
+ },
+ {
+  "class": "PointerClick_06F6",
+  "class_obf": "ÏÏÏÌÎÌÍÏÏÏÍÍÍÏÎÍÎÏÎÏÏÌÎ",
+  "parent": "",
+  "method": "m_B8F",
+  "cv_key": "PointerClick_06F6::m_B8F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807F7360(\n        __int64 (__fastcall *a1)(__int64, _OWORD *, __int64),\n        __int64 a2,\n        __int64 a3,\n        _OWORD **a4)\n{\n  _OWORD *v4; // rax\n  __int128 v5; // xmm1\n  __int128 v6; // xmm0\n  __int128 v7; // xmm1\n  __int128 v8; // xmm0\n  __int128 v9; // xmm1\n  __int128 v10; // xmm0\n  __int128 v11; // xmm1\n  _OWORD v13[8]; // [rsp+20h] [rbp-98h] BYREF\n  int v14; // [rsp+A0h] [rbp-18h]\n\n  v4 = *a4;\n  v5 = (*a4)[1];\n  v13[0] = **a4;\n  v6 = v4[2];\n  v13[1] = v5;\n  v7 = v4[3];\n  v13[2] = v6;\n  v8 = v4[4];\n  v13[3] = v7;\n  v9 = v4[5];\n  v13[4] = v8;\n  v10 = v4[6];\n  v13[5] = v9;\n  v11 = v4[7];\n  LODWORD(v4) = *((_DWORD *)v4 + 32);\n  v13[6] = v10;\n  v13[7] = v11;\n  v14 = (int)v4;\n  return a1(a3, v13, a2);\n}\n"
+ }
+]

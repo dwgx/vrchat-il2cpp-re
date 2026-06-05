@@ -22,8 +22,7 @@ public class ONSPAmbisonicsNative
     public void OnEnable(){} // RVA: 0x7FFAF3B09E20
     public void OnDisable(){} // RVA: 0x7FFAF3B0A2A0
     public void .ctor(){} // RVA: 0x7FFAF3B0A720
-    // ── Unresolved (hash) ──
-    public void m_3F5(){} // RVA: 0x7FFAF3B0A770
+    public void ParseLocaleName(){} // RVA: 0x7FFAF3B0A770
 }
 
 public class ONSPAudioSource

@@ -1,0 +1,10 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_2B2E::m_F2B": "InitializeBoehmGarbageCollector",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2E3F::m_016": "RegisterOnExitFunction",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2E3F::m_24F": "InitializeNarrowEnvironmentFromWide",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2E3F::m_410": "ExecuteOnExitTable",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2E3F::m_95D": "RegisterOnExitFunction",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2E3F::m_C01": "CreateEnvironmentStringArray",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2E3F::m_C31": "ExecuteOnExitTableLocked",
+ "VRCNetworkBehaviourSibling_BF5Sibling_2E3F::m_CF3": "InitializeCrtRuntime"
+}

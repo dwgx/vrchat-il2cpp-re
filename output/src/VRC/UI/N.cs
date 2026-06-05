@@ -9,6 +9,8 @@ namespace VRC.UI
     public class NameScreenUIComponent_C0D9
     {
         // ── Methods ──
+        public void LastIndexOf(){} // RVA: 0x7FFAF43795A0
+        public void FindIndex(){} // RVA: 0x7FFAF4379780
         public void FixedUpdate(){} // RVA: 0x7FFAF4379B20
         public void Start(){} // RVA: 0x7FFAF4379DD0
         public void OnDestroy(){} // RVA: 0x7FFAF437A960
@@ -26,17 +28,15 @@ namespace VRC.UI
         public void OnTriggerStay(){} // RVA: 0x7FFAF437C340
         public void OnTriggerExit(){} // RVA: 0x7FFAF437C5D0
         public void Update(){} // RVA: 0x7FFAF437C840
+        public void IndexOf(){} // RVA: 0x7FFAF437C900
+        public void FindIndex_1C8CB58DA779(){} // RVA: 0x7FFAF437CE90
         public void OnDisable(){} // RVA: 0x7FFAF437CF70
         public void Awake(){} // RVA: 0x7FFAF437D350
         public void OnApplicationPause(){} // RVA: 0x7FFAF437D5C0
         // ── Unresolved (hash) ──
-        public void m_AD4(){} // RVA: 0x7FFAF43795A0
-        public void m_4AF(){} // RVA: 0x7FFAF4379780
         public void m_7BB(){} // RVA: 0x7FFAF4379C10
         public void m_66E(){} // RVA: 0x7FFAF437A820
         public void m_249(){} // RVA: 0x7FFAF437C6F0
-        public void m_C2D(){} // RVA: 0x7FFAF437C900
-        public void m_1C8(){} // RVA: 0x7FFAF437CE90
     }
 
 }

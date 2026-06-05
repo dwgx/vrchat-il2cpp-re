@@ -1,0 +1,11 @@
+{
+ "FoldoutListRelated_2D15::m_7C9": "TrySetResult",
+ "FoldoutListRelated_2D15::m_8B4": "IntrospectiveSort",
+ "FoldoutListRelated_2D15::m_E00": "TrySetResult",
+ "FoldoutListRelated_F7AC::m_1C1": "ToString",
+ "FoldoutListRelated_F7AC::m_538": "ToString",
+ "FoldoutListRelated_F7AC::m_837": "ToString",
+ "FoldoutListRelated_F7AC::m_963": "ToString",
+ "FrameSibling_1E61::m_61B": "ClearFrames",
+ "FrameSibling_1E61::m_7DE": "TryGetFrameIndex"
+}

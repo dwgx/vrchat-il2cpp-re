@@ -1,0 +1,9 @@
+{
+ "PhotonMasterHandler_B6E1::m_72E": "ToString",
+ "PhotonMasterHandler_B6E1::m_747": "ToString",
+ "PhotonMasterHandler_B6E1::m_82D": "ToString",
+ "PhotonMasterHandler_B6E1::m_A74": "ToString",
+ "PhotonMasterHandler_B6E1::m_B02": "ToString",
+ "PhotonMasterHandler_B6E1::m_FF3": "ToString",
+ "Physics2DPhysicsHandler_D6A7::m_C70": "ThrowHidDeviceDescriptorElementsMarshalException"
+}

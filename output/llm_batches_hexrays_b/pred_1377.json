@@ -1,0 +1,6 @@
+{
+ "ctorDerivedSiblingSibling_4FAB::m_3B0": "ThrowDragPositionMarshalNotSupported",
+ "ctorDerivedSiblingSibling_4FAB::m_3FB": "MarshalPInvokeBack",
+ "ctorDerivedSiblingSibling_4FAB::m_4AD": "ConstructListEnumerator",
+ "ctorDerivedSiblingSibling_4FAB::m_5AB": "CreateNativeSlice"
+}

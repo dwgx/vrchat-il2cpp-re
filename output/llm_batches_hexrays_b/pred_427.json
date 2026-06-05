@@ -1,0 +1,8 @@
+{
+ "PlayerMoveNext_B538::m_8B5": "Equals",
+ "PlayerMoveNext_B538::m_DB9": "Equals",
+ "PlayerMoveNext_B5CC::m_CBC": "get_Current",
+ "PlayerMoveNext_BEC8::m_288": "GetHashCode",
+ "PlayerMoveNext_C6D0::m_015": "IndexOfArray",
+ "PlayerMoveNext_D80A::m_BFC": "Clear"
+}

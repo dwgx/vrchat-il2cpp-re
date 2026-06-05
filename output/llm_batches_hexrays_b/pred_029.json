@@ -1,12 +1,3 @@
 {
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_02D": "IndexOf",
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_406": "IndexOf",
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_5DD": "IndexOf",
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_692": "LastIndexOf",
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_859": "IndexOf",
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_8CC": "LastIndexOf",
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_A2F": "IndexOf",
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_B59": "IndexOf",
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_E7C": "IndexOf",
- "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_E96": "LastIndexOf"
+ "TransformPhysicsSystem_923C::m_941": "UnregisterOption"
 }

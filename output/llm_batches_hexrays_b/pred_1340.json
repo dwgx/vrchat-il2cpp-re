@@ -1,0 +1,6 @@
+{
+ "TransformQuaternionHandler_6472::m_48D": "TryGetNext",
+ "TransformQuaternionHandler_6472::m_76C": "get_Current",
+ "TransformQuaternionHandler_67C8::m_41F": "get_Item",
+ "TransformQuaternionHandler_67C8::m_587": "GetEnumerator"
+}

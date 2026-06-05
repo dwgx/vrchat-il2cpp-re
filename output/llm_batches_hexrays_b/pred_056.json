@@ -1,7 +1,4 @@
 {
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_913": "InitializeDictionaryBuckets",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_A7A": "InitializeDictionaryBuckets",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_A85": "InitializeDictionaryBuckets",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_EDF": "ConstructDictionaryWithCapacityComparer",
- "VRC_MainSiblingSiblingSiblingSSibling_6CB6::m_FCF": "InitializeDictionaryBuckets"
+ "ExceptionInt16OverflowComponent_B2EE::m_57A": "GetButtonUp",
+ "ExceptionInt16OverflowComponent_B2EE::m_581": "NormalizeVector"
 }

@@ -1,0 +1,7 @@
+{
+ "NetworkSyncable_B5C5::m_2F9": "AddIntItem",
+ "NetworkSyncable_B5C5::m_4F2": "SetIntItemCount",
+ "NetworkSyncable_B5C5::m_5AF": "TryGetValue",
+ "NetworkSyncable_B5C5::m_683": "ClearLookupStorage",
+ "NetworkSyncable_B5C5::m_7FF": "AddLookupEntry"
+}

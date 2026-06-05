@@ -1,0 +1,9 @@
+{
+ "TransformProfiledSystem_5268::m_210": "MarshalToManaged",
+ "TransformProfiledSystem_5268::m_278": "set_CacheWritingBehavior",
+ "TransformProfiledSystem_5268::m_29D": "MarshalFromManaged",
+ "TransformProfiledSystem_5268::m_2BC": "ToString",
+ "TransformProfiledSystem_5268::m_321": "Dispose",
+ "TransformProfiledSystem_5268::m_35B": "set_CacheWritingBehavior",
+ "TransformProfiledSystem_5268::m_387": "get_Item"
+}

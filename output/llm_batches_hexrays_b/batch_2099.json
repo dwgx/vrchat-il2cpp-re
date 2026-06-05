@@ -1,0 +1,112 @@
+[
+ {
+  "class": "PointerEnterRelatedRelated_05DA",
+  "class_obf": "ÍÍÏÎÍÏÏÍÎÌÏÎÍÌÎÌÌÎÍÎÌÏÌ",
+  "parent": "",
+  "method": "m_C47",
+  "cv_key": "PointerEnterRelatedRelated_05DA::m_C47",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180861550(__int64 a1, __int64 a2, __int64 a3, int a4, __int64 *a5)\n{\n  void (__fastcall *v5)(__int64, __int64 *, _QWORD, _QWORD *, __int64 **); // rax\n  __int64 v6; // rcx\n  _QWORD v8[5]; // [rsp+30h] [rbp-28h] BYREF\n  int v9; // [rsp+78h] [rbp+20h] BYREF\n\n  v9 = a4;\n  v8[0] = a1;\n  v8[1] = a2;\n  v8[3] = &v9;\n  v5 = (void (__fastcall *)(__int64, __int64 *, _QWORD, _QWORD *, __int64 **))a5[2];\n  v6 = *a5;\n  v8[2] = a3;\n  v5(v6, a5, 0, v8, &a5);\n  return (unsigned __int8)a5;\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_05DA",
+  "class_obf": "ÍÍÏÎÍÏÏÍÎÌÏÎÍÌÎÌÌÎÍÎÌÏÌ",
+  "parent": "",
+  "method": "m_D1D",
+  "cv_key": "PointerEnterRelatedRelated_05DA::m_D1D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180861470(__int64 a1, __int64 a2, __int64 a3, __int64 a4)\n{\n  _QWORD v5[5]; // [rsp+30h] [rbp-28h] BYREF\n  unsigned __int8 v6; // [rsp+60h] [rbp+8h] BYREF\n  __int64 v7; // [rsp+70h] [rbp+18h] BYREF\n\n  v7 = a3;\n  v5[0] = a1;\n  v5[1] = a2;\n  v5[2] = &v7;\n  (*(void (__fastcall **)(_QWORD, __int64, _QWORD, _QWORD *, unsigned __int8 *))(a4 + 16))(\n    *(_QWORD *)a4,\n    a4,\n    0,\n    v5,\n    &v6);\n  return v6;\n}\n"
+ },
+ {
+  "class": "PointerEnterRelatedRelated_05DA",
+  "class_obf": "ÍÍÏÎÍÏÏÍÎÌÏÎÍÌÎÌÌÎÍÎÌÏÌ",
+  "parent": "",
+  "method": "m_F63",
+  "cv_key": "PointerEnterRelatedRelated_05DA::m_F63",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180861C70(__int64 a1, __int64 a2, __int64 a3, __int64 a4, __int64 a5, __int64 a6)\n{\n  void (__fastcall *v7)(__int64, __int64, __int64, _QWORD *, __int64 *); // rax\n  __int64 v8; // rcx\n  __int64 v10; // [rsp+30h] [rbp-38h] BYREF\n  _QWORD v11[6]; // [rsp+38h] [rbp-30h] BYREF\n\n  v11[0] = a2;\n  v11[1] = &v10;\n  v11[3] = a5;\n  v7 = *(void (__fastcall **)(__int64, __int64, __int64, _QWORD *, __int64 *))(a6 + 16);\n  v8 = *(_QWORD *)(a6 + 8);\n  v10 = a3;\n  v11[2] = a4;\n  v7(v8, a6, a1, v11, &a5);\n  return (unsigned __int8)a5;\n}\n"
+ },
+ {
+  "class": "PointerEnterSiblingSibling_DD42",
+  "class_obf": "ÍÍÏÎÏÎÏÍÍÍÍÎÎÌÍÏÍÍÌÏÎÌÌ",
+  "parent": "",
+  "method": "m_367",
+  "cv_key": "PointerEnterSiblingSibling_DD42::m_367",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808DE000(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rbx\n  __int64 v3; // rax\n  signed __int32 v5[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v2 = qword_18C871FC8;\n  if ( !*(_QWORD *)(qword_18C871FC8 + 56) )\n  {\n    sub_180AD1AA0(&qword_18C88F978);\n    _InterlockedOr(v5, 0);\n    if ( !*(_QWORD *)(v2 + 56) )\n      sub_180A4EC20(v2);\n  }\n  v3 = qword_18C88F978;\n  if ( !*(_DWORD *)(qword_18C88F978 + 224) )\n  {\n    YloSGiLVOEi_0(qword_18C88F978);\n    v3 = qword_18C88F978;\n  }\n  if ( !**(_QWORD **)(v3 + 184) )\n    sub_180AAE510(a1, a2);\n  return 0;\n}\n"
+ },
+ {
+  "class": "PointerEnterSiblingSibling_DD42",
+  "class_obf": "ÍÍÏÎÏÎÏÍÍÍÍÎÎÌÍÏÍÍÌÏÎÌÌ",
+  "parent": "",
+  "method": "m_3CB",
+  "cv_key": "PointerEnterSiblingSibling_DD42::m_3CB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_DWORD *__fastcall sub_1808DE4A0(__int64 a1, __int64 a2)\n{\n  __int64 v2; // r8\n  _DWORD *result; // rax\n\n  v2 = **(_QWORD **)(a1 + 8);\n  if ( !v2 )\n    sub_180AAE510(a1, a2);\n  result = *(_DWORD **)(a1 + 16);\n  *(_DWORD *)(v2 + 40) = *result;\n  if ( *(_QWORD *)a1 )\n    sub_180A92FE0(*(_QWORD *)a1);\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterSiblingSibling_DD42",
+  "class_obf": "ÍÍÏÎÏÎÏÍÍÍÍÎÎÌÍÏÍÍÌÏÎÌÌ",
+  "parent": "",
+  "method": "m_3E7",
+  "cv_key": "PointerEnterSiblingSibling_DD42::m_3E7",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "signed __int64 __fastcall sub_1808DF3A0(__int64 a1)\n{\n  bool v1; // zf\n  __int64 *v2; // rdx\n  signed __int64 result; // rax\n  __int64 v4; // rtt\n\n  v1 = dword_18CE1C2E8 == 0;\n  *(_QWORD *)(a1 + 16) = 0;\n  if ( !v1 )\n  {\n    v2 = &qword_18CEAB0E0[(((unsigned __int64)(a1 + 16) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v2);\n    do\n    {\n      v4 = *v2;\n      result = _InterlockedCompareExchange64(v2, *v2 | (1LL << (((unsigned __int64)(a1 + 16) >> 12) & 0x3F)), *v2);\n    }\n    while ( v4 != result );\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterSiblingSibling_DD42",
+  "class_obf": "ÍÍÏÎÏÎÏÍÍÍÍÎÎÌÍÏÍÍÌÏÎÌÌ",
+  "parent": "",
+  "method": "m_61B",
+  "cv_key": "PointerEnterSiblingSibling_DD42::m_61B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808DF2D0(_QWORD *a1, __int64 *a2)\n{\n  __int64 result; // rax\n\n  result = sub_180AAE830(16, *a1);\n  *a2 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterSiblingSibling_DD42",
+  "class_obf": "ÍÍÏÎÏÎÏÍÍÍÍÎÎÌÍÏÍÍÌÏÎÌÌ",
+  "parent": "",
+  "method": "m_713",
+  "cv_key": "PointerEnterSiblingSibling_DD42::m_713",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "double __fastcall sub_1808DE1D0(__int64 a1, __int64 a2)\n{\n  __int64 v2; // r9\n  __int64 v4; // rdx\n  unsigned int v5; // r8d\n  __int64 v6; // rdx\n  double result; // xmm0_8\n\n  v2 = *(_QWORD *)(a1 + 16);\n  v4 = qword_18C870780;\n  ++*(_DWORD *)(a1 + 28);\n  if ( !v2 )\n    sub_180AAE510(a1, v4);\n  v5 = *(_DWORD *)(a1 + 24);\n  if ( v5 < *(_DWORD *)(v2 + 24) )\n  {\n    v6 = *(int *)(a1 + 24);\n    *(_DWORD *)(a1 + 24) = v5 + 1;\n    return sub_180002CC0(v2, v6, a2);\n  }\n  else\n  {\n    sub_184256290(a1, a2, *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(v4 + 40) + 192LL) + 112LL));\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "PointerEnterSiblingSibling_DD42",
+  "class_obf": "ÍÍÏÎÏÎÏÍÍÍÍÎÎÌÍÏÍÍÌÏÎÌÌ",
+  "parent": "",
+  "method": "m_760",
+  "cv_key": "PointerEnterSiblingSibling_DD42::m_760",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "// Hidden C++ exception states: #wind=2\n__int64 __fastcall sub_1808DD2C0(__int64 a1, __int64 a2, unsigned int a3, __int64 a4)\n{\n  __int64 v8; // rbx\n  __int64 v9; // rcx\n  __int64 v10; // rax\n  __int64 v11; // rax\n  __int64 v12; // rdx\n  __int64 v13; // rcx\n  __int64 v14; // rdx\n  __int64 v15; // rcx\n  __int64 v16; // r8\n  __int64 v17; // r9\n\n  v8 = 0;\n  if ( !TlsGetValue(*(_DWORD *)qword_18CE1CDD8) )\n  {\n    GetLastError();\n    v10 = IAxtFRMbDZr_0(v9);\n    v8 = HvqaehHHlUl_0(v10);\n  }\n  if ( a1 )\n  {\n    v11 = sub_186ED2C90(0);\n    if ( !v11 || (v13 = *(_QWORD *)(v11 + 112)) == 0 )\n      sub_180AAE510(v13, v12);\n    (*(void (__fastcall **)(_QWORD, __int64, __int64, __int64, _QWORD))(v13 + 24))(\n      *(_QWORD *)(v13 + 64),\n      a1,\n      a2,\n      a4,\n      *(_QWORD *)(v13 + 40));\n  }\n  if ( v8 )\n  {\n    sub_180AD4EB0(v8);\n    sub_180A403E0(v15, v14, v16, v17);\n  }\n  return a3;\n}\n"
+ },
+ {
+  "class": "PointerEnterSiblingSibling_DD42",
+  "class_obf": "ÍÍÏÎÏÎÏÍÍÍÍÎÎÌÍÏÍÍÌÏÎÌÌ",
+  "parent": "",
+  "method": "m_953",
+  "cv_key": "PointerEnterSiblingSibling_DD42::m_953",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1808DF020(_QWORD *a1)\n{\n  _QWORD *v2; // rax\n  __int64 v3; // rcx\n  __int64 result; // rax\n\n  v2 = (_QWORD *)a1[1];\n  v3 = *(_QWORD *)(*v2 + 16LL);\n  if ( !v3 || (v3 = *(_QWORD *)(v3 + 536)) == 0 )\n    sub_180AAE510(v3, *v2);\n  result = sub_186ECEDB0(v3, 0);\n  if ( *a1 )\n    sub_180A92FE0(*a1);\n  return result;\n}\n"
+ }
+]

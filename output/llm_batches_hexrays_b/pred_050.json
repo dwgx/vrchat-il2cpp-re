@@ -1,3 +1,4 @@
 {
- "VRCPlayerSibling_40F1::m_55C": "ToString"
+ "ExceptionInt16OverflowComponent_B2EE::m_07A": "ApplyShaderKeywords",
+ "ExceptionInt16OverflowComponent_B2EE::m_080": "GetMousePosition"
 }

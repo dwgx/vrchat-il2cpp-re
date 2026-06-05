@@ -1,0 +1,112 @@
+[
+ {
+  "class": "TransformGameObjectHandler_12E3",
+  "class_obf": "ÍÌÍÏÌÌÌÍÎÌÌÏÌÌÍÏÏÍÎÏÌÏÍ",
+  "parent": "",
+  "method": "m_805",
+  "cv_key": "TransformGameObjectHandler_12E3::m_805",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18089DDA0(__int64 a1)\n{\n  __int64 result; // rax\n  signed __int32 v3[10]; // [rsp+0h] [rbp-28h] BYREF\n  int v4; // [rsp+30h] [rbp+8h] BYREF\n\n  if ( !byte_18CE3A2B3 )\n  {\n    sub_180AD1AA0(&qword_18C8D1048);\n    _InterlockedOr(v3, 0);\n    byte_18CE3A2B3 = 1;\n  }\n  result = *(_QWORD *)(a1 + 24);\n  if ( !result )\n  {\n    v4 = *(_DWORD *)(a1 + 16);\n    return XFiPLRjvmWI_0(qword_18C8D1048, &v4);\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_12E3",
+  "class_obf": "ÍÌÍÏÌÌÌÍÎÌÌÏÌÌÍÏÏÍÎÏÌÏÍ",
+  "parent": "",
+  "method": "m_897",
+  "cv_key": "TransformGameObjectHandler_12E3::m_897",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18089E040(__int64 a1)\n{\n  return sub_186768540(a1 + 16);\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_12E3",
+  "class_obf": "ÍÌÍÏÌÌÌÍÎÌÌÏÌÌÍÏÏÍÎÏÌÏÍ",
+  "parent": "",
+  "method": "m_D4C",
+  "cv_key": "TransformGameObjectHandler_12E3::m_D4C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall sub_18089E380(__int64 a1)\n{\n  int v2; // ebx\n  __int64 v3; // rax\n  _QWORD *v4; // rbx\n  __int64 v5; // rax\n  __int64 v6; // rax\n  signed __int32 v7[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE3A2F6 )\n  {\n    sub_180AD1AA0(&qword_18C7EDDD8);\n    _InterlockedOr(v7, 0);\n    byte_18CE3A2F6 = 1;\n  }\n  v2 = *(_DWORD *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C7EDDD8 + 224) )\n    YloSGiLVOEi_0(qword_18C7EDDD8);\n  if ( (v2 & 0x7F00FFFF) != 0 || (v2 & 0xFF0000u) > 0x1C0000 )\n  {\n    v3 = sub_180A8B8B0(&qword_18C91D528);\n    v4 = sub_180AAE4D0(v3);\n    v5 = sub_180A8B8B0(&qword_18C871428);\n    sub_186556370(v4, v5, 0);\n    v6 = sub_180A8B8B0(&qword_18C88C618);\n    sub_180AAE4E0(v4, v6);\n  }\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_12E3",
+  "class_obf": "ÍÌÍÏÌÌÌÍÎÌÌÏÌÌÍÏÏÍÎÏÌÏÍ",
+  "parent": "",
+  "method": "m_E3E",
+  "cv_key": "TransformGameObjectHandler_12E3::m_E3E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18089E580(__int64 a1, __int128 *a2, __int64 a3, __int128 *a4, __int64 a5)\n{\n  __int128 v9; // xmm6\n  int v10; // ebx\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  signed __int32 v14[8]; // [rsp+0h] [rbp-78h] BYREF\n  __int64 v15; // [rsp+28h] [rbp-50h]\n  __int128 v16; // [rsp+30h] [rbp-48h] BYREF\n  __int128 v17; // [rsp+40h] [rbp-38h] BYREF\n  __int128 v18; // [rsp+50h] [rbp-28h] BYREF\n\n  if ( !byte_18CE3A306 )\n  {\n    sub_180AD1AA0(&qword_18C912998);\n    _InterlockedOr(v14, 0);\n    byte_18CE3A306 = 1;\n  }\n  v9 = *(_OWORD *)(a1 + 16);\n  v10 = Mesh3d__Clone(a5, 0);\n  if ( !*(_DWORD *)(qword_18C912998 + 224) )\n    YloSGiLVOEi_0(qword_18C912998);\n  v11 = *a2;\n  v15 = 0;\n  v12 = *a4;\n  v16 = v11;\n  v17 = v12;\n  v18 = v9;\n  return sub_1866EFC00((unsigned int)&v18, (unsigned int)&v17, v10, (unsigned int)&v16, a3);\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_2728",
+  "class_obf": "ÏÎÍÏÍÍÌÎÏÌÏÌÏÏÍÌÏÌÌÎÍÌÌ",
+  "parent": "",
+  "method": "m_402",
+  "cv_key": "TransformGameObjectHandler_2728::m_402",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18093EBB0(__int64 a1, _OWORD *a2)\n{\n  unsigned __int8 v4; // bl\n  __int64 v5; // rcx\n  _OWORD *v6; // rax\n  __int128 v7; // xmm0\n  signed __int32 v9[8]; // [rsp+0h] [rbp-48h] BYREF\n  __int128 v10; // [rsp+20h] [rbp-28h]\n  __int128 v11; // [rsp+30h] [rbp-18h]\n\n  if ( !byte_18CE4BF3D )\n  {\n    sub_180AD1AA0(&qword_18C814970);\n    _InterlockedOr(v9, 0);\n    byte_18CE4BF3D = 1;\n  }\n  v4 = 0;\n  if ( a2 )\n  {\n    v5 = qword_18C814970;\n    v6 = 0;\n    if ( *(_QWORD *)a2 == qword_18C814970 )\n      v6 = a2;\n    if ( v6 )\n    {\n      if ( !*(_DWORD *)(qword_18C814970 + 224) )\n      {\n        YloSGiLVOEi_0(qword_18C814970);\n        v5 = qword_18C814970;\n      }\n      if ( *(_QWORD *)(*(_QWORD *)a2 + 64LL) != *(_QWORD *)(v5 + 64) )\n        sub_180AAEC10(a2, v5);\n      v11 = a2[1];\n      if ( !byte_18CE4BF3E )\n      {\n        sub_180AD1AA0(&qword_18C814970);\n        _InterlockedOr(v9, 0);\n        v5 = qword_18C814970;\n        byte_18CE4BF3E = 1;\n      }\n      v7 = *(_OWORD *)(a1 + 16);\n      v10 = v7;\n      if ( !*(_DWORD *)(v5 + 224) )\n      {\n        YloSGiLVOEi_0(v5);\n        v7 = v10;\n      }\n      if ( (_QWORD)v7 == (_QWORD)v11 )\n        return DWORD2(v7) == DWORD2(v11);\n    }\n  }\n  return v4;\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_2728",
+  "class_obf": "ÏÎÍÏÍÍÌÎÏÌÏÌÏÏÍÌÏÌÌÎÍÌÌ",
+  "parent": "",
+  "method": "m_679",
+  "cv_key": "TransformGameObjectHandler_2728::m_679",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_18093E6C0(__int64 a1, __int64 a2)\n{\n  __int128 v4; // xmm1\n  bool v5; // zf\n  signed __int32 v7[8]; // [rsp+0h] [rbp-38h] BYREF\n  __int128 v8; // [rsp+20h] [rbp-18h]\n\n  if ( !byte_18CE4BE1F )\n  {\n    sub_180AD1AA0(&qword_18C88AD98);\n    _InterlockedOr(v7, 0);\n    byte_18CE4BE1F = 1;\n  }\n  v4 = *(_OWORD *)(a1 + 16);\n  v5 = *(_DWORD *)(qword_18C88AD98 + 224) == 0;\n  v8 = v4;\n  if ( v5 )\n  {\n    YloSGiLVOEi_0(qword_18C88AD98);\n    v4 = v8;\n  }\n  return (_QWORD)v4 == *(_QWORD *)a2 && DWORD2(v4) == *(_DWORD *)(a2 + 8);\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_2728",
+  "class_obf": "ÏÎÍÏÍÍÌÎÏÌÏÌÏÏÍÌÏÌÌÎÍÌÌ",
+  "parent": "",
+  "method": "m_683",
+  "cv_key": "TransformGameObjectHandler_2728::m_683",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "char __fastcall sub_18093D570(__int64 a1, _QWORD *a2)\n{\n  __int64 v2; // rdi\n  __int64 v4; // rcx\n  _QWORD *v5; // rax\n  signed __int32 v7[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  v2 = a1 + 16;\n  if ( !byte_18CE4BCB9 )\n  {\n    sub_180AD1AA0(&qword_18C80F6D8);\n    _InterlockedOr(v7, 0);\n    byte_18CE4BCB9 = 1;\n  }\n  if ( !a2 )\n    return 0;\n  v4 = qword_18C80F6D8;\n  v5 = 0;\n  if ( *a2 == qword_18C80F6D8 )\n    v5 = a2;\n  if ( !v5 )\n    return 0;\n  if ( !*(_DWORD *)(qword_18C80F6D8 + 224) )\n  {\n    YloSGiLVOEi_0(qword_18C80F6D8);\n    v4 = qword_18C80F6D8;\n  }\n  if ( *(_QWORD *)(*a2 + 64LL) != *(_QWORD *)(v4 + 64) )\n    sub_180AAEC10(a2, v4);\n  return sub_1879ADE30(v2, a2[2], 0);\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_2728",
+  "class_obf": "ÏÎÍÏÍÍÌÎÏÌÏÌÏÏÍÌÏÌÌÎÍÌÌ",
+  "parent": "",
+  "method": "m_E5E",
+  "cv_key": "TransformGameObjectHandler_2728::m_E5E",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18093CE60(__int64 a1, __int64 a2)\n{\n  int v3; // eax\n  __int64 v4; // xmm0_8\n  __int128 v5; // xmm1\n  __int128 v6; // xmm0\n  __int128 v7; // xmm1\n  __int128 v8; // xmm0\n  __int128 v9; // xmm1\n  __int128 v10; // xmm0\n  __int128 v11; // xmm1\n  __int128 v12; // xmm0\n  __int128 v13; // xmm1\n  __int128 v14; // xmm0\n  __int128 v15; // xmm1\n  __int128 v16; // xmm0\n  __int128 v17; // xmm1\n  __int128 v18; // xmm0\n  __int128 v19; // xmm1\n  __int128 v20; // xmm0\n  __int128 v21; // xmm1\n  __int128 v22; // xmm1\n  __int128 v23; // xmm2\n  __int128 v24; // xmm3\n  __int128 v25; // xmm4\n  __int128 v26; // xmm5\n  __int128 v27; // xmm6\n  __int128 v28; // xmm7\n  __int128 v29; // xmm1\n  __int128 v30; // xmm2\n  __int64 v31; // r9\n  __int128 *v32; // rcx\n  __int128 v33; // xmm3\n  __int64 v34; // r10\n  int v35; // eax\n  __int128 *v36; // rax\n  __int128 v37; // xmm0\n  __int128 v38; // xmm1\n  __int128 v39; // xmm0\n  __int128 v40; // xmm1\n  __int128 v41; // xmm0\n  __int128 v42; // xmm1\n  __int128 v43; // xmm0\n  __int128 v44; // xmm1\n  __int128 v45; // xmm1\n  __int128 v46; // xmm0\n  __int128 v47; // xmm1\n  __int128 v48; // xmm0\n  __int128 v49; // xmm1\n  __int128 *v50; // rax\n  __int128 *v51; // rcx\n  __int128 v52; // xmm0\n  __int128 v53; // xmm1\n  __int128 v54; // xmm0\n  __int128 v55; // xmm1\n  __int128 v56; // xmm0\n  __int128 v57; // xmm1\n  __int128 v58; // xmm0\n  __int128 v59; // xmm1\n  __int128 v60; // xmm1\n  __int128 v61; // xmm0\n  __int128 v62; // xmm1\n  __int128 v63; // xmm0\n  __int128 v64; // xmm1\n  __int128 v65; // xmm1\n  __int128 v66; // xmm2\n  __int128 v67; // xmm3\n  __int128 v68; // xmm1\n  __int128 v69; // xmm2\n  __int128 v70; // xmm3\n  __int64 result; // rax\n  __int128 v72; // [rsp+0h] [rbp-408h] BYREF\n  __int128 v73; // [rsp+10h] [rbp-3F8h]\n  __int128 v74; // [rsp+20h] [rbp-3E8h]\n  __int128 v75; // [rsp+30h] [rbp-3D8h]\n  __int128 v76; // [rsp+40h] [rbp-3C8h]\n  __int128 v77; // [rsp+50h] [rbp-3B8h]\n  __int128 v78; // [rsp+60h] [rbp-3A8h]\n  __int128 v79; // [rsp+70h] [rbp-398h]\n  __int128 v80; // [rsp+80h] [rbp-388h]\n  __int128 v81; // [rsp+90h] [rbp-378h]\n\n  *(_DWORD *)a2 = *(_DWORD *)a1;\n  v3 = *(_DWORD *)(a1 + 28);\n  v4 = *(_QWORD *)(a1 + 20);\n  *(_OWORD *)(a2 + 4) = *(_OWORD *)(a1 + 4);\n  *(_QWORD *)(a2 + 20) = v4;\n  *(_DWORD *)(a2 + 28) = v3;\n  v5 = *(_OWORD *)(a1 + 48);\n  v72 = *(_OWORD *)(a1 + 32);\n  v6 = *(_OWORD *)(a1 + 64);\n  v73 = v5;\n  v7 = *(_OWORD *)(a1 + 80);\n  v74 = v6;\n  v8 = *(_OWORD *)(a1 + 96);\n  v75 = v7;\n  v9 = *(_OWORD *)(a1 + 112);\n  v76 = v8;\n  v10 = *(_OWORD *)(a1 + 128);\n  v77 = v9;\n  v11 = *(_OWORD *)(a1 + 160);\n  v78 = v10;\n  v79 = *(_OWORD *)(a1 + 144);\n  v12 = *(_OWORD *)(a1 + 176);\n  v80 = v11;\n  v81 = v12;\n  v13 = v73;\n  *(_OWORD *)(a2 + 32) = v72;\n  v14 = v74;\n  *(_OWORD *)(a2 + 48) = v13;\n  v15 = v75;\n  *(_OWORD *)(a2 + 64) = v14;\n  v16 = v76;\n  *(_OWORD *)(a2 + 80) = v15;\n  v17 = v77;\n  *(_OWORD *)(a2 + 96) = v16;\n  v18 = v78;\n  *(_OWORD *)(a2 + 112) = v17;\n  v19 = v79;\n  *(_OWORD *)(a2 + 128) = v18;\n  v20 = v80;\n  *(_OWORD *)(a2 + 144) = v19;\n  v21 = v81;\n  *(_OWORD *)(a2 + 160) = v20;\n  *(_OWORD *)(a2 + 176) = v21;\n  *(_DWORD *)(a2 + 192) = *(_DWORD *)(a1 + 192);\n  *(_DWORD *)(a2 + 196) = *(_DWORD *)(a1 + 196);\n  *(_QWORD *)(a2 + 200) = *(_QWORD *)(a1 + 200);\n  *(_QWORD *)(a2 + 208) = *(_QWORD *)(a1 + 208);\n  v22 = *(_OWORD *)(a1 + 232);\n  v23 = *(_OWORD *)(a1 + 248);\n  v24 = *(_OWORD *)(a1 + 264);\n  v25 = *(_OWORD *)(a1 + 280);\n  v26 = *(_OWORD *)(a1 + 296);\n  v27 = *(_OWORD *)(a1 + 312);\n  v28 = *(_OWORD *)(a1 + 328);\n  *(_OWORD *)(a2 + 216) = *(_OWORD *)(a1 + 216);\n  *(_OWORD *)(a2 + 232) = v22;\n  *(_OWORD *)(a2 + 248) = v23;\n  *(_OWORD *)(a2 + 264) = v24;\n  *(_OWORD *)(a2 + 280) = v25;\n  *(_OWORD *)(a2 + 296) = v26;\n  *(_OWORD *)(a2 + 312) = v27;\n  *(_OWORD *)(a2 + 328) = v28;\n  *(_DWORD *)(a2 + 344) = *(_DWORD *)(a1 + 344);\n  v29 = *(_OWORD *)(a1 + 364);\n  v30 = *(_OWORD *)(a1 + 380);\n  v31 = 7;\n  v32 = &v72;\n  v33 = *(_OWORD *)(a1 + 396);\n  v34 = 7;\n  *(_OWORD *)(a2 + 348) = *(_OWORD *)(a1 + 348);\n  *(_OWORD *)(a2 + 364) = v29;\n  *(_OWORD *)(a2 + 380) = v30;\n  *(_OWORD *)(a2 + 396) = v33;\n  v35 = *(_DWORD *)(a1 + 420);\n  *(_QWORD *)(a2 + 412) = *(_QWORD *)(a1 + 412);\n  *(_DWORD *)(a2 + 420) = v35;\n  *(_DWORD *)(a2 + 424) = *(_DWORD *)(a1 + 424);\n  *(_DWORD *)(a2 + 428) = *(_DWORD *)(a1 + 428);\n  *(_DWORD *)(a2 + 432) = *(_DWORD *)(a1 + 432);\n  *(_DWORD *)(a2 + 436) = *(_DWORD *)(a1 + 436);\n  v36 = (__int128 *)(a1 + 440);\n  do\n  {\n    v32 += 8;\n    v37 = *v36;\n    v38 = v36[1];\n    v36 += 8;\n    *(v32 - 8) = v37;\n    v39 = *(v36 - 6);\n    *(v32 - 7) = v38;\n    v40 = *(v36 - 5);\n    *(v32 - 6) = v39;\n    v41 = *(v36 - 4);\n    *(v32 - 5) = v40;\n    v42 = *(v36 - 3);\n    *(v32 - 4) = v41;\n    v43 = *(v36 - 2);\n    *(v32 - 3) = v42;\n    v44 = *(v36 - 1);\n    *(v32 - 2) = v43;\n    *(v32 - 1) = v44;\n    --v34;\n  }\n  while ( v34 );\n  v45 = v36[1];\n  *v32 = *v36;\n  v46 = v36[2];\n  v32[1] = v45;\n  v47 = v36[3];\n  v32[2] = v46;\n  v48 = v36[4];\n  v32[3] = v47;\n  v49 = v36[5];\n  v50 = (__int128 *)(a2 + 440);\n  v32[4] = v48;\n  v32[5] = v49;\n  v51 = &v72;\n  do\n  {\n    v50 += 8;\n    v52 = *v51;\n    v53 = v51[1];\n    v51 += 8;\n    *(v50 - 8) = v52;\n    v54 = *(v51 - 6);\n    *(v50 - 7) = v53;\n    v55 = *(v51 - 5);\n    *(v50 - 6) = v54;\n    v56 = *(v51 - 4);\n    *(v50 - 5) = v55;\n    v57 = *(v51 - 3);\n    *(v50 - 4) = v56;\n    v58 = *(v51 - 2);\n    *(v50 - 3) = v57;\n    v59 = *(v51 - 1);\n    *(v50 - 2) = v58;\n    *(v50 - 1) = v59;\n    --v31;\n  }\n  while ( v31 );\n  v60 = v51[1];\n  *v50 = *v51;\n  v61 = v51[2];\n  v50[1] = v60;\n  v62 = v51[3];\n  v50[2] = v61;\n  v63 = v51[4];\n  v50[3] = v62;\n  v64 = v51[5];\n  v50[4] = v63;\n  v50[5] = v64;\n  *(_DWORD *)(a2 + 1432) = *(_DWORD *)(a1 + 1432);\n  *(_DWORD *)(a2 + 1436) = *(_DWORD *)(a1 + 1436);\n  v65 = *(_OWORD *)(a1 + 1456);\n  v66 = *(_OWORD *)(a1 + 1472);\n  v67 = *(_OWORD *)(a1 + 1488);\n  *(_OWORD *)(a2 + 1440) = *(_OWORD *)(a1 + 1440);\n  *(_OWORD *)(a2 + 1456) = v65;\n  *(_OWORD *)(a2 + 1472) = v66;\n  *(_OWORD *)(a2 + 1488) = v67;\n  v68 = *(_OWORD *)(a1 + 1520);\n  v69 = *(_OWORD *)(a1 + 1536);\n  v70 = *(_OWORD *)(a1 + 1552);\n  *(_OWORD *)(a2 + 1504) = *(_OWORD *)(a1 + 1504);\n  *(_OWORD *)(a2 + 1520) = v68;\n  *(_OWORD *)(a2 + 1536) = v69;\n  *(_OWORD *)(a2 + 1552) = v70;\n  *(_DWORD *)(a2 + 1568) = *(_DWORD *)(a1 + 1568);\n  *(_DWORD *)(a2 + 1572) = *(_DWORD *)(a1 + 1572);\n  *(_BYTE *)(a2 + 1576) = *(_DWORD *)(a1 + 1576) != 0;\n  result = *(unsigned int *)(a1 + 1580);\n  *(_DWORD *)(a2 + 1580) = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_A3BD",
+  "class_obf": "ÏÎÏÏÌÎÏÎÏÏÏÏÏÍÍÎÍÌÍÍÍÎÏ",
+  "parent": "",
+  "method": "m_280",
+  "cv_key": "TransformGameObjectHandler_A3BD::m_280",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180B11334(_WORD *a1, _BYTE *a2, unsigned __int64 a3, __int64 a4)\n{\n  _WORD *v6; // rsi\n  unsigned __int64 v7; // rdi\n  __int64 result; // rax\n  __int64 v9; // rax\n  __int64 v10; // rcx\n  __int64 v11; // rax\n  __int64 v12; // rax\n  int v13; // r9d\n  _BYTE *v14; // r8\n  bool i; // zf\n  __int64 v16; // [rsp+60h] [rbp+8h] BYREF\n  _BYTE *v17; // [rsp+68h] [rbp+10h] BYREF\n\n  v17 = a2;\n  v6 = a1;\n  v7 = 0;\n  if ( a1 )\n  {\n    if ( !a3 )\n      return 0;\n    *a1 = 0;\n  }\n  if ( !a2 )\n  {\n    *(_BYTE *)(a4 + 48) = 1;\n    *(_DWORD *)(a4 + 44) = 22;\n    sub_180B06D80(0, 0, 0, 0, 0, a4);\n    return -1;\n  }\n  if ( !*(_BYTE *)(a4 + 40) )\n  {\n    sub_180B01B60(a4);\n    a2 = v17;\n  }\n  v9 = *(_QWORD *)(a4 + 24);\n  v10 = *(unsigned int *)(v9 + 12);\n  if ( (_DWORD)v10 == 65001 )\n  {\n    v16 = 0;\n    return sub_180B117EC((_DWORD)v6, (unsigned int)&v17, a3, (unsigned int)&v16, a4);\n  }\n  v11 = *(_QWORD *)(v9 + 312);\n  if ( !v6 )\n  {\n    v7 = -1;\n    if ( !v11 )\n    {\n      do\n        ++v7;\n      while ( a2[v7] );\n      return v7;\n    }\n    v12 = (int)sub_180B10C60(v10, 9, a2, 0xFFFFFFFFLL, 0, 0);\n    if ( !(_DWORD)v12 )\n    {\n      *(_BYTE *)(a4 + 48) = 1;\n      *(_DWORD *)(a4 + 44) = 42;\n      return v7;\n    }\n    return v12 - 1;\n  }\n  if ( !v11 )\n  {\n    if ( a3 )\n    {\n      do\n      {\n        *v6 = (unsigned __int8)a2[v7];\n        if ( !a2[v7] )\n          break;\n        ++v7;\n        ++v6;\n      }\n      while ( v7 < a3 );\n    }\n    return v7;\n  }\n  v7 = -1;\n  v12 = (int)sub_180B10C60(v10, 9, a2, 0xFFFFFFFFLL, v6, a3);\n  if ( (_DWORD)v12 )\n    return v12 - 1;\n  if ( GetLastError() != 122 )\n    goto LABEL_19;\n  v13 = a3;\n  v14 = v17;\n  for ( i = (_DWORD)a3 == 0; !i; i = v13 == 0 )\n  {\n    --v13;\n    if ( !*v14 )\n      break;\n    if ( *(__int16 *)(**(_QWORD **)(a4 + 24) + 2LL * (unsigned __int8)*v14) < 0 && !*++v14 )\n      goto LABEL_19;\n    ++v14;\n  }\n  result = (int)sub_180B10C60(\n                  *(unsigned int *)(*(_QWORD *)(a4 + 24) + 12LL),\n                  1,\n                  v17,\n                  (unsigned int)((_DWORD)v14 - (_DWORD)v17),\n                  v6,\n                  a3);\n  if ( !(_DWORD)result )\n  {\nLABEL_19:\n    *(_BYTE *)(a4 + 48) = 1;\n    *(_DWORD *)(a4 + 44) = 42;\n    *v6 = 0;\n    return v7;\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "TransformGameObjectHandler_A3BD",
+  "class_obf": "ÏÎÏÏÌÎÏÎÏÏÏÏÏÍÍÎÍÌÍÍÍÎÏ",
+  "parent": "",
+  "method": "m_2E1",
+  "cv_key": "TransformGameObjectHandler_A3BD::m_2E1",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "int __fastcall sub_180B116C8(UINT a1, int a2, const WCHAR *a3, int a4, CHAR *a5, int a6, const CHAR *a7, BOOL *a8)\n{\n  bool v10; // zf\n  bool v11; // zf\n  UINT v12; // eax\n  DWORD v13; // edx\n  BOOL *v15; // r8\n\n  if ( a1 > 0xDEAC )\n  {\n    if ( a1 == 57005 || a1 == 57006 || a1 == 57007 || a1 == 57008 || a1 == 57009 || a1 == 57010 || a1 == 57011 )\n      goto LABEL_25;\n    v12 = a1 - 65000;\n    v11 = a1 == 65000;\n    goto LABEL_21;\n  }\n  if ( a1 == 57004 )\n    goto LABEL_25;\n  if ( a1 > 0xC433 )\n  {\n    if ( a1 == 50229 || a1 == 54936 )\n      goto LABEL_25;\n    v12 = a1 - 57002;\n    v11 = a1 == 57002;\nLABEL_21:\n    if ( !v11 )\n    {\n      v10 = v12 == 1;\n      goto LABEL_23;\n    }\nLABEL_25:\n    v13 = 0;\n    goto LABEL_26;\n  }\n  if ( a1 == 50227 || a1 == 42 || a1 == 50220 || a1 == 50221 || a1 == 50222 )\n    goto LABEL_25;\n  v10 = a1 == 50225;\nLABEL_23:\n  if ( v10 )\n    goto LABEL_25;\n  v13 = a2 & 0xFFFFFF7F;\nLABEL_26:\n  v15 = a8;\n  if ( a1 - 65000 <= 1 )\n  {\n    v15 = 0;\n    a7 = 0;\n    if ( a8 )\n      *a8 = 0;\n  }\n  return WideCharToMultiByte(a1, v13, a3, a4, a5, a6, a7, v15);\n}\n"
+ }
+]

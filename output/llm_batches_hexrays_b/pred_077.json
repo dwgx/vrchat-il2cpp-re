@@ -1,5 +1,11 @@
 {
- "VRCNetworkBehaviourSiblinRelated_B113::m_1FE": "InternalSphereCastNonAllocInjected",
- "VRCNetworkBehaviourSiblinRelated_B113::m_253": "Equals",
- "VRCNetworkBehaviourSiblinRelated_B113::m_331": "GetHashCode"
+ "ctorDerivedSiblingSibling_2E7B::m_648": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_655": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_669": "Equals",
+ "ctorDerivedSiblingSibling_2E7B::m_677": "GetHashCode",
+ "ctorDerivedSiblingSibling_2E7B::m_688": "CompareTo",
+ "ctorDerivedSiblingSibling_2E7B::m_6A1": "GetHashCode",
+ "ctorDerivedSiblingSibling_2E7B::m_6CE": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_6DF": "ToString",
+ "ctorDerivedSiblingSibling_2E7B::m_733": "CompareTo"
 }

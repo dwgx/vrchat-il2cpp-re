@@ -1,0 +1,6 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_AEA1::m_95D": "RemoveMatchingUInt64",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AEA1::m_C01": "FindByteInRange",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AEF7::m_2F0": "LCMapStringA",
+ "VRCNetworkBehaviourSibling_BF5Sibling_AEF7::m_C01": "DestructExceptionObject"
+}

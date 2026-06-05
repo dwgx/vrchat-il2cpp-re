@@ -1,0 +1,11 @@
+{
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_A7F": "AllocateNativeArrayBuffer",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_AF3": "CreateEnumerator",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_B3F": "get_Item",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_BDC": "CreateNativeArray",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_C10": "GetSubArray",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_C85": "Equals",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_DE1": "CopyFromManagedArray",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_E56": "CopyFromManagedArray",
+ "AnimatedTextureBaseImpl_0682Sibling_B4C6::m_E93": "CreateEnumerator"
+}

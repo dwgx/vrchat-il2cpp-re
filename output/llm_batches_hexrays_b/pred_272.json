@@ -1,0 +1,9 @@
+{
+ "PlayerRectTransformDimensionsChCalculateLayout_DF9C::m_C89": "CalculateLayout",
+ "PlayerRectTransformDimensionsChCalculateLayout_DF9C::m_CBD": "CalculateLayout",
+ "PlayerRectTransformDimensionsChCalculateLayout_DF9C::m_D13": "SetLayoutHorizontal",
+ "PlayerRectTransformDimensionsChCalculateLayout_DF9C::m_DA3": "SetLayoutVertical",
+ "PlayerRectTransformDimensionsChCalculateLayout_DF9C::m_DE8": "OnRectTransformDimensionsChange",
+ "PlayerRectTransformDimensionsChCalculateLayout_DF9C::m_E93": "CalculateLayout",
+ "PlayerRectTransformDimensionsChCalculateLayout_DF9C::m_EA8": "CalculateLayout"
+}

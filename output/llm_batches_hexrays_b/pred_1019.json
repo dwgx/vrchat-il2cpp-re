@@ -1,0 +1,10 @@
+{
+ "NetworkDisposeAsync_BFAD::m_A6D": "MoveNext",
+ "NetworkDisposeAsync_BFAD::m_B33": "MoveNext",
+ "NetworkDisposeAsync_BFAD::m_B62": "SystemCollectionsIEnumeratorGetCurrent",
+ "NetworkDisposeAsync_BFAD::m_C42": "SystemCollectionsIDictionaryEnumeratorGetEntry",
+ "NetworkDisposeAsync_BFAD::m_C4F": "SystemCollectionsIDictionaryEnumeratorGetEntry",
+ "NetworkDisposeAsync_BFAD::m_CD7": "SystemCollectionsIDictionaryEnumeratorGetEntry",
+ "NetworkDisposeAsync_BFAD::m_CFF": "SystemCollectionsIEnumeratorGetCurrent",
+ "NetworkDisposeAsync_BFAD::m_D2F": "GetEnumerator"
+}

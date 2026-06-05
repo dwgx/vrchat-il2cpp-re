@@ -1,0 +1,112 @@
+[
+ {
+  "class": "MaterialUIHandler_C19E",
+  "class_obf": "ÏÌÌÍÏÍÍÌÏÌÎÌÎÌÌÎÏÌÏÍÏÏÏ",
+  "parent": "",
+  "method": "m_DB9",
+  "cv_key": "MaterialUIHandler_C19E::m_DB9",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A1020(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, _DWORD, _DWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(\n             a3,\n             *(_QWORD *)a4,\n             *(_QWORD *)(a4 + 8),\n             **(unsigned int **)(a4 + 16),\n             **(_DWORD **)(a4 + 24),\n             **(_DWORD **)(a4 + 32),\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "MaterialUIHandler_C19E",
+  "class_obf": "ÏÌÌÍÏÍÍÌÏÌÎÌÎÌÌÎÏÌÏÍÏÏÏ",
+  "parent": "",
+  "method": "m_ECD",
+  "cv_key": "MaterialUIHandler_C19E::m_ECD",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A0C50(\n        __int64 (__fastcall *a1)(__int64, __int64, __int128 *, __int64, __int64, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4,\n        __int64 *a5)\n{\n  __int128 v5; // xmm0\n  __int64 v6; // rdx\n  __int64 v7; // rax\n  __int64 v8; // r9\n  __int64 result; // rax\n  __int64 v10; // [rsp+28h] [rbp-30h]\n  __int128 v12; // [rsp+40h] [rbp-18h] BYREF\n\n  v5 = *(_OWORD *)a4[1];\n  v6 = *a4;\n  v10 = a4[4];\n  v7 = a4[3];\n  v8 = a4[2];\n  v12 = v5;\n  result = a1(a3, v6, &v12, v8, v7, v10, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "MaterialUIHandler_C19E",
+  "class_obf": "ÏÌÌÍÏÍÍÌÏÌÎÌÎÌÌÎÏÌÏÍÏÏÏ",
+  "parent": "",
+  "method": "m_F62",
+  "cv_key": "MaterialUIHandler_C19E::m_F62",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A0A90(\n        __int64 (__fastcall *a1)(__int64, _QWORD, _QWORD, _QWORD, _QWORD, _QWORD, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 a4,\n        __int64 *a5)\n{\n  __int64 result; // rax\n\n  result = a1(\n             a3,\n             *(_QWORD *)a4,\n             **(unsigned int **)(a4 + 8),\n             **(unsigned int **)(a4 + 16),\n             **(_QWORD **)(a4 + 24),\n             *(_QWORD *)(a4 + 32),\n             a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "MaterialUIHandler_C19E",
+  "class_obf": "ÏÌÌÍÏÍÍÌÏÌÎÌÎÌÌÎÏÌÏÍÏÏÏ",
+  "parent": "",
+  "method": "m_FF1",
+  "cv_key": "MaterialUIHandler_C19E::m_FF1",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1807A0CB0(\n        __int64 (__fastcall *a1)(__int64, __int64, _OWORD *, __int64, _OWORD *, __int64, __int64),\n        __int64 a2,\n        __int64 a3,\n        __int64 *a4,\n        __int64 *a5)\n{\n  __int64 v5; // rax\n  __int64 v6; // rdx\n  __int128 v7; // xmm1\n  __int64 v8; // xmm0_8\n  __int64 v9; // rax\n  __int128 v10; // xmm0\n  __int64 v11; // rax\n  __int64 v12; // r9\n  __int64 result; // rax\n  _OWORD v15[2]; // [rsp+40h] [rbp-68h] BYREF\n  __int64 v16; // [rsp+60h] [rbp-48h]\n  _OWORD v17[2]; // [rsp+70h] [rbp-38h] BYREF\n  __int64 v18; // [rsp+90h] [rbp-18h]\n\n  v5 = a4[3];\n  v6 = *a4;\n  v7 = *(_OWORD *)(v5 + 16);\n  v15[0] = *(_OWORD *)v5;\n  v8 = *(_QWORD *)(v5 + 32);\n  v9 = a4[1];\n  v15[1] = v7;\n  v16 = v8;\n  v10 = *(_OWORD *)(v9 + 16);\n  v17[0] = *(_OWORD *)v9;\n  *(_QWORD *)&v7 = *(_QWORD *)(v9 + 32);\n  v11 = a4[4];\n  v12 = a4[2];\n  v17[1] = v10;\n  v18 = v7;\n  result = a1(a3, v6, v17, v12, v15, v11, a2);\n  *a5 = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshComponentHandler_D30A",
+  "class_obf": "ÍÍÍÎÍÎÏÎÌÎÎÍÏÎÌÎÏÌÍÏÎÌÌ",
+  "parent": "",
+  "method": "m_07A",
+  "cv_key": "MeshComponentHandler_D30A::m_07A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180406740(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rax\n  __int64 v5; // rcx\n  __int64 v6; // rax\n  bool v7; // zf\n  _BYTE v9[24]; // [rsp+30h] [rbp-48h]\n  _OWORD v10[2]; // [rsp+48h] [rbp-30h] BYREF\n  __int64 v11; // [rsp+68h] [rbp-10h]\n\n  v2 = *(_QWORD *)(a2 + 40);\n  if ( (*(_BYTE *)(v2 + 309) & 1) == 0 )\n    v2 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  *(_DWORD *)&v9[20] = 0;\n  v5 = *(_QWORD *)(*(_QWORD *)(*(_QWORD *)(v2 + 192) + 152LL) + 40LL);\n  if ( (*(_BYTE *)(v5 + 309) & 1) == 0 )\n    sub_180A4EBA0(v5);\n  *(_DWORD *)v9 = -1;\n  *(_OWORD *)&v9[4] = 0;\n  v6 = *(_QWORD *)(a2 + 40);\n  v10[0] = *(_OWORD *)(a1 + 16);\n  v7 = (*(_BYTE *)(v6 + 309) & 1) == 0;\n  v10[1] = *(_OWORD *)v9;\n  v11 = *(_QWORD *)&v9[16];\n  if ( v7 )\n    v6 = sub_180A4EBA0(v6);\n  return XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v6 + 192) + 128LL), v10);\n}\n"
+ },
+ {
+  "class": "MeshComponentHandler_D30A",
+  "class_obf": "ÍÍÍÎÍÎÏÎÌÎÎÍÏÎÌÎÏÌÍÏÎÌÌ",
+  "parent": "",
+  "method": "m_0AD",
+  "cv_key": "MeshComponentHandler_D30A::m_0AD",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1804068B0(__int64 a1, __int64 a2, unsigned int a3, __int64 a4)\n{\n  __int128 *v4; // rsi\n  __int64 v8; // rax\n  __int64 v9; // rax\n  bool v10; // zf\n  __int128 v12; // [rsp+20h] [rbp-18h] BYREF\n\n  v4 = (__int128 *)(a1 + 16);\n  if ( !a2 )\n    sub_180AAE510(a1, 0);\n  v8 = *(_QWORD *)(a4 + 40);\n  if ( (*(_BYTE *)(v8 + 309) & 1) == 0 )\n    v8 = sub_180A4EBA0(*(_QWORD *)(a4 + 40));\n  sub_180402C70(*(unsigned int *)(a2 + 24), a3, v4, **(_QWORD **)(v8 + 192));\n  v9 = *(_QWORD *)(a4 + 40);\n  v10 = (*(_BYTE *)(v9 + 309) & 1) == 0;\n  v12 = *v4;\n  if ( v10 )\n    v9 = sub_180A4EBA0(v9);\n  return sub_180402D30(a2, &v12, *(_QWORD *)(*(_QWORD *)(v9 + 192) + 56LL));\n}\n"
+ },
+ {
+  "class": "MeshComponentHandler_D30A",
+  "class_obf": "ÍÍÍÎÍÎÏÎÌÎÎÍÏÎÌÎÏÌÍÏÎÌÌ",
+  "parent": "",
+  "method": "m_46F",
+  "cv_key": "MeshComponentHandler_D30A::m_46F",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "unsigned __int64 __fastcall sub_180406580(__int64 a1, __int64 a2)\n{\n  __int64 v2; // rax\n  unsigned __int64 v4; // rdi\n  __int64 v6; // rax\n  unsigned __int64 v7; // rax\n  unsigned int v8; // ebp\n  unsigned __int64 v9; // rdi\n  __int64 v10; // rax\n  __int128 v12; // [rsp+20h] [rbp-18h] BYREF\n\n  v2 = *(_QWORD *)(a2 + 40);\n  v4 = *(unsigned int *)(a1 + 24);\n  if ( (*(_BYTE *)(v2 + 309) & 1) == 0 )\n    v2 = sub_180A4EBA0(*(_QWORD *)(a2 + 40));\n  v6 = *(_QWORD *)(*(_QWORD *)(v2 + 192) + 112LL);\n  if ( (*(_BYTE *)(v6 + 309) & 1) == 0 )\n    v6 = sub_180A4EBA0(v6);\n  v7 = MmKHvpwELkW_0(v6, v4);\n  v8 = *(_DWORD *)(a1 + 24);\n  v9 = v7;\n  v10 = *(_QWORD *)(a2 + 40);\n  v12 = *(_OWORD *)(a1 + 16);\n  if ( (*(_BYTE *)(v10 + 309) & 1) == 0 )\n    v10 = sub_180A4EBA0(v10);\n  ((void (__fastcall *)(__int128 *, unsigned __int64, _QWORD, _QWORD))sub_180137830)(\n    &v12,\n    v9,\n    v8,\n    *(_QWORD *)(*(_QWORD *)(v10 + 192) + 120LL));\n  return v9;\n}\n"
+ },
+ {
+  "class": "MeshComponentHandler_D30A",
+  "class_obf": "ÍÍÍÎÍÎÏÎÌÎÎÍÏÎÌÎÏÌÍÏÎÌÌ",
+  "parent": "",
+  "method": "m_7E3",
+  "cv_key": "MeshComponentHandler_D30A::m_7E3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1804066A0(__int64 a1, __int64 a2)\n{\n  __int64 v3; // rcx\n  __int64 v5; // rax\n  bool v6; // zf\n  _BYTE v8[24]; // [rsp+30h] [rbp-48h]\n  _OWORD v9[2]; // [rsp+48h] [rbp-30h] BYREF\n  __int64 v10; // [rsp+68h] [rbp-10h]\n\n  v3 = *(_QWORD *)(a2 + 40);\n  *(_DWORD *)&v8[20] = 0;\n  if ( (*(_BYTE *)(v3 + 309) & 1) == 0 )\n    sub_180A4EBA0(v3);\n  v5 = *(_QWORD *)(a2 + 40);\n  *(_DWORD *)v8 = -1;\n  *(_OWORD *)&v8[4] = 0;\n  v6 = (*(_BYTE *)(v5 + 309) & 1) == 0;\n  v9[0] = *(_OWORD *)(a1 + 16);\n  v9[1] = *(_OWORD *)v8;\n  v10 = *(_QWORD *)&v8[16];\n  if ( v6 )\n    v5 = sub_180A4EBA0(v5);\n  return XFiPLRjvmWI_0(*(_QWORD *)(*(_QWORD *)(v5 + 192) + 128LL), v9);\n}\n"
+ },
+ {
+  "class": "MeshComponentHandler_D30A",
+  "class_obf": "ÍÍÍÎÍÎÏÎÌÎÎÍÏÎÌÎÏÌÍÏÎÌÌ",
+  "parent": "",
+  "method": "m_C63",
+  "cv_key": "MeshComponentHandler_D30A::m_C63",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180406800(__int64 a1, unsigned int a2, unsigned int a3, char a4, __int64 a5)\n{\n  __int64 *v5; // rbx\n  __int64 v9; // rax\n  __int64 result; // rax\n  __int64 v11; // rcx\n  __int64 v12; // rdi\n  __int64 v13; // rbx\n\n  v5 = (__int64 *)(a1 + 16);\n  v9 = *(_QWORD *)(a5 + 40);\n  if ( (*(_BYTE *)(v9 + 309) & 1) == 0 )\n    v9 = sub_180A4EBA0(*(_QWORD *)(a5 + 40));\n  result = sub_180402C70(a2, a3, v5, **(_QWORD **)(v9 + 192));\n  if ( (a4 & 1) != 0 )\n  {\n    v11 = *(_QWORD *)(a5 + 40);\n    v12 = *v5;\n    v13 = *((int *)v5 + 2);\n    if ( (*(_BYTE *)(v11 + 309) & 1) == 0 )\n      sub_180A4EBA0(v11);\n    return sub_1879089A0(v12, 4 * v13, 0);\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "MeshComponentHandler_D30A",
+  "class_obf": "ÍÍÍÎÍÎÏÎÌÎÎÍÏÎÌÎÏÌÍÏÎÌÌ",
+  "parent": "",
+  "method": "m_DBB",
+  "cv_key": "MeshComponentHandler_D30A::m_DBB",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180406970(__int64 a1, int a2, int a3)\n{\n  __int64 result; // rax\n\n  result = *(_QWORD *)(a1 + 16);\n  *(_DWORD *)(result + 4LL * a2) = a3;\n  return result;\n}\n"
+ }
+]

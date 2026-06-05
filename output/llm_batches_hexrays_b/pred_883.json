@@ -1,0 +1,5 @@
+{
+ "SecurityaspectMode_F112::m_097": "EndInvoke",
+ "SecurityaspectMode_F112::m_608": "DelegateConstructor",
+ "SecurityaspectMode_F112::m_AF1": "InvokeDelegate"
+}

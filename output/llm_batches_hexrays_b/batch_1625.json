@@ -1,0 +1,112 @@
+[
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_8A3",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_8A3",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_BOOL8 __fastcall sub_1809378C0(__int64 a1, __int64 a2)\n{\n  __m128 v2; // xmm1\n\n  v2 = *(__m128 *)a2;\n  return *(_QWORD *)(a1 + 32) == *(_QWORD *)(a2 + 16)\n      && *(_QWORD *)(a1 + 40) == _mm_srli_si128(*(__m128i *)(a2 + 16), 8).m128i_u64[0]\n      && *(float *)(a1 + 16) == v2.m128_f32[0]\n      && *(float *)(a1 + 20) == _mm_shuffle_ps(v2, v2, 85).m128_f32[0]\n      && *(float *)(a1 + 24) == _mm_shuffle_ps(v2, v2, 170).m128_f32[0]\n      && *(float *)(a1 + 28) == _mm_shuffle_ps(v2, v2, 255).m128_f32[0];\n}\n"
+ },
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_A0D",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_A0D",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180938B40(__int64 a1, float *a2, unsigned __int64 *a3)\n{\n  __m128 v3; // xmm6\n  __m128 v4; // xmm5\n  __m128 v5; // xmm2\n  float v6; // xmm1_4\n\n  v3 = _mm_shuffle_ps((__m128)*a3, (__m128)*a3, 85);\n  v4 = v3;\n  v5 = v3;\n  v5.m128_f32[0] = v3.m128_f32[0] * a2[9];\n  v4.m128_f32[0] = (float)((float)(v3.m128_f32[0] * a2[8]) + (float)(COERCE_FLOAT(*a3) * a2[4]))\n                 + (float)(*((float *)a3 + 2) * a2[12]);\n  v6 = *((float *)a3 + 2);\n  v3.m128_f32[0] = (float)((float)(v3.m128_f32[0] * a2[10]) + (float)(COERCE_FLOAT(*a3) * a2[6])) + (float)(v6 * a2[14]);\n  v5.m128_f32[0] = (float)(v5.m128_f32[0] + (float)(COERCE_FLOAT(*a3) * a2[5])) + (float)(v6 * a2[13]);\n  *(_QWORD *)a1 = _mm_unpacklo_ps(v4, v5).m128_u64[0];\n  *(_DWORD *)(a1 + 8) = v3.m128_i32[0];\n  return a1;\n}\n"
+ },
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_A22",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_A22",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_1809374C0(__int64 a1)\n{\n  __int64 v1; // rbx\n  __int64 (__fastcall *v3)(__int64); // rax\n  __int64 v4; // rax\n  __int64 v5; // rcx\n  __int64 v6; // rdi\n  __int64 v7; // rbx\n  __int64 result; // rax\n  __int64 v9; // rax\n\n  v1 = qword_18C7F8860;\n  if ( !*(_QWORD *)(qword_18C7F8860 + 56) )\n    sub_180A4EC20(qword_18C7F8860);\n  v3 = (__int64 (__fastcall *)(__int64))qword_18CE4AE38;\n  if ( !qword_18CE4AE38 )\n  {\n    v3 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0(\"UnityEngine.NoAllocHelpers::ExtractArrayFromList(System.Object)\");\n    if ( !v3 )\n    {\n      v9 = sub_180A61A90(\"UnityEngine.NoAllocHelpers::ExtractArrayFromList(System.Object)\");\n      sub_180A5F890(v9, 0);\n    }\n    qword_18CE4AE38 = (__int64)v3;\n  }\n  v4 = v3(a1);\n  v5 = *(_QWORD *)(v1 + 56);\n  v6 = v4;\n  v7 = *(_QWORD *)(v5 + 8);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(v5 + 8));\n  if ( !v6 )\n    return 0;\n  result = sub_180A52170(v6, v7);\n  if ( !result )\n    sub_180AAEC10(v6, v7);\n  return result;\n}\n"
+ },
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_AB8",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_AB8",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_180938190(_OWORD *a1, __int64 a2)\n{\n  __int128 v3; // xmm0\n  _BYTE v5[24]; // [rsp+20h] [rbp-18h] BYREF\n\n  v3 = *(_OWORD *)sub_186DDF7C0(v5, a2 + 16);\n  *a1 = v3;\n  return a1;\n}\n"
+ },
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_AFC",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_AFC",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180937740(__int64 a1)\n{\n  void (__fastcall *v1)(__int64, __int64); // rax\n  __int64 v3; // rdi\n  void (__fastcall *v4)(__int64, _QWORD); // rax\n  __int64 v5; // rdi\n  unsigned int v6; // esi\n  void (__fastcall *v7)(__int64, __int64); // rax\n  __int64 v8; // rdi\n  __int64 v10; // rax\n  __int64 v11; // rax\n  __int64 v12; // rax\n\n  v1 = (void (__fastcall *)(__int64, __int64))qword_18CE47BF8;\n  v3 = *(_QWORD *)(a1 + 16);\n  if ( !qword_18CE47BF8 )\n  {\n    v1 = (void (__fastcall *)(__int64, __int64))CqZPdCzurki_0(\n                                                  \"Unity.Collections.LowLevel.Unsafe.UnsafeUtility::LeakErase(System.IntP\"\n                                                  \"tr,Unity.Collections.LeakCategory)\");\n    if ( !v1 )\n    {\n      v10 = sub_180A61A90(\"Unity.Collections.LowLevel.Unsafe.UnsafeUtility::LeakErase(System.IntPtr,Unity.Collections.LeakCategory)\");\n      sub_180A5F890(v10, 0);\n    }\n    qword_18CE47BF8 = (__int64)v1;\n  }\n  v1(v3, 6);\n  if ( *(_DWORD *)(a1 + 24) )\n  {\n    v4 = (void (__fastcall *)(__int64, _QWORD))qword_18CE4A078;\n    v5 = *(_QWORD *)(a1 + 16);\n    v6 = *(_DWORD *)(a1 + 24);\n    if ( !qword_18CE4A078 )\n    {\n      v4 = (void (__fastcall *)(__int64, _QWORD))CqZPdCzurki_0(\n                                                   \"UnityEngine.Mesh/MeshDataArray::ReleaseMeshDatas(System.IntPtr*,System.Int32)\");\n      if ( !v4 )\n      {\n        v11 = sub_180A61A90(\"UnityEngine.Mesh/MeshDataArray::ReleaseMeshDatas(System.IntPtr*,System.Int32)\");\n        sub_180A5F890(v11, 0);\n      }\n      qword_18CE4A078 = (__int64)v4;\n    }\n    v4(v5, v6);\n    v7 = (void (__fastcall *)(__int64, __int64))qword_18CE47C18;\n    v8 = *(_QWORD *)(a1 + 16);\n    if ( !qword_18CE47C18 )\n    {\n      v7 = (void (__fastcall *)(__int64, __int64))CqZPdCzurki_0(\n                                                    \"Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Free(System.Void*,U\"\n                                                    \"nity.Collections.Allocator)\");\n      if ( !v7 )\n      {\n        v12 = sub_180A61A90(\"Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Free(System.Void*,Unity.Collections.Allocator)\");\n        sub_180A5F890(v12, 0);\n      }\n      qword_18CE47C18 = (__int64)v7;\n    }\n    v7(v8, 4);\n  }\n  *(_QWORD *)(a1 + 16) = 0;\n  *(_DWORD *)(a1 + 24) = 0;\n  return 0;\n}\n"
+ },
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_B5A",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_B5A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180938CD0(_DWORD *a1)\n{\n  int v1; // r8d\n  int v2; // edx\n  int v3; // eax\n\n  v1 = a1[4];\n  if ( ((v1 - 1) & 0x7FFFFFFFu) >= 0x7F800000 )\n    v1 &= 0x7F800000u;\n  v2 = a1[5];\n  if ( ((v2 - 1) & 0x7FFFFFFFu) >= 0x7F800000 )\n    v2 &= 0x7F800000u;\n  v3 = a1[6];\n  if ( ((v3 - 1) & 0x7FFFFFFFu) >= 0x7F800000 )\n    v3 &= 0x7F800000u;\n  return v1 ^ (4 * v2) ^ (unsigned int)(v3 >> 2);\n}\n"
+ },
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_B88",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_B88",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18027B130(__int64 a1, __int64 a2, _OWORD *a3, __int64 a4)\n{\n  __int64 (__fastcall *v4)(_BYTE *, _OWORD *, __int64); // rax\n  __int128 v6; // xmm1\n  __int128 v7; // xmm0\n  __int128 v8; // xmm1\n  __int64 v9; // rax\n  __int128 v10; // xmm1\n  __int128 v11; // xmm0\n  __int128 v12; // xmm1\n  __int128 v13; // xmm0\n  __int128 v14; // xmm1\n  __int128 v15; // xmm0\n  __int128 v16; // xmm1\n  __int128 v17; // xmm0\n  _OWORD v19[4]; // [rsp+20h] [rbp-E8h] BYREF\n  _BYTE v20[168]; // [rsp+60h] [rbp-A8h] BYREF\n\n  v4 = *(__int64 (__fastcall **)(_BYTE *, _OWORD *, __int64))(a2 + 16);\n  v6 = a3[1];\n  v19[0] = *a3;\n  v7 = a3[2];\n  v19[1] = v6;\n  v8 = a3[3];\n  v19[2] = v7;\n  v19[3] = v8;\n  v9 = v4(v20, v19, a4);\n  v10 = *(_OWORD *)(v9 + 16);\n  *(_OWORD *)a1 = *(_OWORD *)v9;\n  v11 = *(_OWORD *)(v9 + 32);\n  *(_OWORD *)(a1 + 16) = v10;\n  v12 = *(_OWORD *)(v9 + 48);\n  *(_OWORD *)(a1 + 32) = v11;\n  v13 = *(_OWORD *)(v9 + 64);\n  *(_OWORD *)(a1 + 48) = v12;\n  v14 = *(_OWORD *)(v9 + 80);\n  *(_OWORD *)(a1 + 64) = v13;\n  v15 = *(_OWORD *)(v9 + 96);\n  *(_OWORD *)(a1 + 80) = v14;\n  v16 = *(_OWORD *)(v9 + 112);\n  *(_OWORD *)(a1 + 96) = v15;\n  v17 = *(_OWORD *)(v9 + 128);\n  *(_OWORD *)(a1 + 112) = v16;\n  *(_QWORD *)&v16 = *(_QWORD *)(v9 + 144);\n  *(_OWORD *)(a1 + 128) = v17;\n  *(_QWORD *)(a1 + 144) = v16;\n  return a1;\n}\n"
+ },
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_BC4",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_BC4",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_1809376F0(_DWORD *a1, __int64 a2)\n{\n  bool result; // al\n\n  *(_DWORD *)a2 = *a1;\n  *(_DWORD *)(a2 + 4) = a1[1];\n  *(_DWORD *)(a2 + 8) = a1[2];\n  *(_DWORD *)(a2 + 12) = a1[3];\n  result = a1[4] != 0;\n  *(_BYTE *)(a2 + 16) = result;\n  return result;\n}\n"
+ },
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_C2A",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_C2A",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180937570(__int64 a1)\n{\n  __int64 v1; // rbx\n  __int64 (__fastcall *v3)(__int64); // rax\n  __int64 v4; // rax\n  __int64 v5; // rcx\n  __int64 v6; // rdi\n  __int64 v7; // rbx\n  __int64 result; // rax\n  __int64 v9; // rax\n\n  v1 = qword_18C7F88F0;\n  if ( !*(_QWORD *)(qword_18C7F88F0 + 56) )\n    sub_180A4EC20(qword_18C7F88F0);\n  v3 = (__int64 (__fastcall *)(__int64))qword_18CE4AE38;\n  if ( !qword_18CE4AE38 )\n  {\n    v3 = (__int64 (__fastcall *)(__int64))CqZPdCzurki_0((__int64)\"UnityEngine.NoAllocHelpers::ExtractArrayFromList(System.Object)\");\n    if ( !v3 )\n    {\n      v9 = sub_180A61A90(\"UnityEngine.NoAllocHelpers::ExtractArrayFromList(System.Object)\");\n      sub_180A5F890(v9, 0);\n    }\n    qword_18CE4AE38 = (__int64)v3;\n  }\n  v4 = v3(a1);\n  v5 = *(_QWORD *)(v1 + 56);\n  v6 = v4;\n  v7 = *(_QWORD *)(v5 + 8);\n  if ( (*(_BYTE *)(v7 + 309) & 1) == 0 )\n    v7 = sub_180A4EBA0(*(_QWORD *)(v5 + 8));\n  if ( !v6 )\n    return 0;\n  result = sub_180A52170(v6, v7);\n  if ( !result )\n    sub_180AAEC10(v6, v7);\n  return result;\n}\n"
+ },
+ {
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "class_obf": "ÌÌÌÏÏÌÏÎÏÎÎÍÍÎÎÌÌÏÏÎÍÎÌ",
+  "parent": "",
+  "method": "m_CB2",
+  "cv_key": "TextureCalculateLayoutInpRelated_81F6::m_CB2",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_180938830(_OWORD *a1, __int64 a2)\n{\n  __int128 v3; // xmm0\n  _BYTE v5[24]; // [rsp+20h] [rbp-18h] BYREF\n\n  v3 = *(_OWORD *)sub_187963CF0(v5, a2 + 16);\n  *a1 = v3;\n  return a1;\n}\n"
+ }
+]

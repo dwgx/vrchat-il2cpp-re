@@ -1,0 +1,7 @@
+{
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_DB6": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_E11": "MarshalManagedToNative",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_E3A": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_E4E": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_F22": "SetArraySegment"
+}

@@ -1,0 +1,7 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_8620::m_016": "WriteOverflowCharacter",
+ "VRCNetworkBehaviourSibling_BF5Sibling_8620::m_6EA": "WriteOverflowCharacter",
+ "VRCNetworkBehaviourSibling_BF5Sibling_8620::m_6F8": "WriteOverflowCharacter",
+ "VRCNetworkBehaviourSibling_BF5Sibling_8620::m_C01": "PutbackCharacterOnFailure",
+ "VRCNetworkBehaviourSibling_BF5Sibling_8620::m_CF3": "ReadAndConsumeCharacter"
+}

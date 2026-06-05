@@ -1,0 +1,6 @@
+{
+ "TransformQuaternionHandler_F2D8::m_0A0": "ReadUInt32LittleEndian",
+ "TransformQuaternionHandler_F2D8::m_659": "Equals",
+ "TransformQuaternionHandler_F2D8::m_984": "Equals",
+ "TransformQuaternionHandler_F2D8::m_C28": "TryWriteUInt32LittleEndian"
+}

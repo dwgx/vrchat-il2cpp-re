@@ -19,8 +19,8 @@ namespace VRC.UI.Client.Emoji
         public void set_LoopStyle(){} // RVA: 0x7FFAF2EE54D0
         public void get_LoadFrom(){} // RVA: 0x7FFAF2FC9240
         public void set_Sprite(){} // RVA: 0x7FFAF2E08740
-        public void set_EffectBundleID(){} // RVA: 0x7FFAF2E55510
-        public void set_LoadFrom(){} // RVA: 0x7FFAF2E2B370
+        public void set_FPS(){} // RVA: 0x7FFAF2E55510
+        public void set_EffectBundleID(){} // RVA: 0x7FFAF2E2B370
         public void get_EffectBundleID(){} // RVA: 0x7FFAF37733A0
         public void get_FullResolutionTexture(){} // RVA: 0x7FFAF2E0A740
         public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7FFAF2E09330
@@ -44,8 +44,8 @@ namespace VRC.UI.Client.Emoji
         public void set_IsBuiltIn(){} // RVA: 0x7FFAF2E72850
         public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
         public void set_AnimationStyle(){} // RVA: 0x7FFAF2E08D60
-        public void set_SpawnablePrefabName(){} // RVA: 0x7FFAF2F476A0
-        public void set_FileId(){} // RVA: 0x7FFAF2F4B830
+        public void set_FileId(){} // RVA: 0x7FFAF2F476A0
+        public void set_SpawnablePrefabName(){} // RVA: 0x7FFAF2F4B830
         public void set_ID(){} // RVA: 0x7FFAF2FC9240
         public void get_SpawnablePrefabName(){} // RVA: 0x7FFAF37737F0
         public void get_FileId(){} // RVA: 0x7FFAF2FC9240

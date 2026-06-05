@@ -1,0 +1,9 @@
+{
+ "PlayerallowOffhandGrab_E48B::m_0EB": "TryParseAssemblyNameSpec",
+ "PlayerallowOffhandGrab_E48B::m_2F6": "TryParseGenericArguments",
+ "PlayerallowOffhandGrab_E48B::m_3B3": "TryParseGenericArguments",
+ "PlayerallowOffhandGrab_E48B::m_596": "TryParseVersion",
+ "PlayerallowOffhandGrab_E48B::m_A3F": "TryParseGenericArguments",
+ "PlayerallowOffhandGrab_E48B::m_B82": "TryParseGenericArguments",
+ "PlayerallowOffhandGrab_E48B::m_EDA": "TryParseArrayModifiers"
+}

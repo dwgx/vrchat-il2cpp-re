@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_C55E::m_55E": "GetGenericClassFromDefinition",
+ "VRCNetworkBehaviourSibling_BF5Sibling_C55E::m_575": "ResolveClassFromTypeName",
+ "VRCNetworkBehaviourSibling_BF5Sibling_C55E::m_77C": "GetPointerClass"
+}

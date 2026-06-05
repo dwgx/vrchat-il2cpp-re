@@ -1,0 +1,7 @@
+{
+ "VRC_MainSibling_C23A::m_CF1": "MarshalPInvokeBack",
+ "VRC_MainSibling_C23A::m_CF3": "MarshalPInvokeBack",
+ "VRC_MainSibling_C23A::m_D10": "MarshalPInvokeBack",
+ "VRC_MainSibling_C23A::m_DA2": "MarshalPInvoke",
+ "VRC_MainSibling_C23A::m_DF3": "Equals"
+}

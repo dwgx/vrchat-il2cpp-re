@@ -22,16 +22,23 @@ def sh3(s: str) -> str:
 
 
 def main():
+    mass_path = BASE / 'output/v_new_ida/hexrays_mass_export.json'
     hx_path = BASE / 'output/v_new_ida/hexrays_named.json'
     high_value_path = BASE / 'output/v_new_ida/hexrays_high_value.json'
     direct_high_value = False
-    if hx_path.exists():
+    if mass_path.exists():
+        hx = json.load(open(mass_path, 'r', encoding='utf-8'))
+        direct_high_value = True
+        source_path = mass_path
+    elif hx_path.exists():
         hx = json.load(open(hx_path, 'r', encoding='utf-8'))
+        source_path = hx_path
     elif high_value_path.exists():
         hx = json.load(open(high_value_path, 'r', encoding='utf-8'))
         direct_high_value = True
+        source_path = high_value_path
     else:
-        raise FileNotFoundError('Missing hexrays_named.json or hexrays_high_value.json')
+        raise FileNotFoundError('Missing hexrays_mass_export.json, hexrays_named.json, or hexrays_high_value.json')
 
     cv = json.load(open(BASE / 'output/cross_version_method_names.json', 'r', encoding='utf-8'))
 
@@ -61,7 +68,7 @@ def main():
                 'pseudocode': info['pseudocode'],
             })
 
-        print(f'Loaded direct high-value Hex-Rays export: {high_value_path}')
+        print(f'Loaded direct Hex-Rays export: {source_path}')
         print(f'Total entries: {len(all_entries)}')
 
         out_dir = BASE / 'output/llm_batches_hexrays_b'

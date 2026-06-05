@@ -11,28 +11,40 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF4417700 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF4B3A730
-        // ── 16 unresolved (hash) ──
+        public void InitializeTransformAnimation(){} // RVA: 0x7FFAF4B3C050
+        public void ApplyTransformAnimation(){} // RVA: 0x7FFAF4B3C260
+        // ── 14 unresolved (hash) ──
         public void m_1FA(){} // RVA: 0x7FFAF4B3A800
         public void m_A1A(){} // RVA: 0x7FFAF4B3A9D0
         public void m_FEF(){} // RVA: 0x7FFAF4B3ABA0
         public void m_7D3(){} // RVA: 0x7FFAF4B3ADC0
         public void m_7D7(){} // RVA: 0x7FFAF4B3AF10
-        // ... 11 more unresolved methods
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÌÌÎÎÏÌÍÏÎÏÎÍÎÏÍÍÍÎÍÏ</summary>
     public class ApplicationTransformHandler_10BF
     {
         // ── Methods ──
+        public void SetWideLocaleNoLock(){} // RVA: 0x7FFAF4B0B460
+        public void SetWideLocaleNoLock_5DAB6F0A9F08(){} // RVA: 0x7FFAF4B0B550
+        public void SetWideLocaleCategory(){} // RVA: 0x7FFAF4B0B6F0
+        public void SetWideLocaleCategory_A39B9CD6CE67(){} // RVA: 0x7FFAF4B0B770
+        public void ParseLocaleName(){} // RVA: 0x7FFAF4B0B8F0
+        public void ParseLocaleName_224D4F89ACD0(){} // RVA: 0x7FFAF4B0BA60
         public void .ctor(){} // RVA: 0x7FFAF4417700 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF4B0C580
-        // ── 16 unresolved (hash) ──
-        public void m_61A(){} // RVA: 0x7FFAF4B0B460
-        public void m_5DA(){} // RVA: 0x7FFAF4B0B550
-        public void m_D10(){} // RVA: 0x7FFAF4B0B6F0
-        public void m_A39(){} // RVA: 0x7FFAF4B0B770
-        public void m_68A(){} // RVA: 0x7FFAF4B0B8F0
-        // ... 11 more unresolved methods
+        // ── Unresolved (hash) ──
+        public void m_D0D(){} // RVA: 0x7FFAF4B0BB50
+        public void m_AF7(){} // RVA: 0x7FFAF4B0BCA0
+        public void m_4FB(){} // RVA: 0x7FFAF4B0BD90
+        public void m_E11(){} // RVA: 0x7FFAF4B0BF00
+        public void m_A1B(){} // RVA: 0x7FFAF4B0C050
+        public void m_36A(){} // RVA: 0x7FFAF4B0C1E0
+        public void m_70E(){} // RVA: 0x7FFAF4B0C390
+        public void m_8DE(){} // RVA: 0x7FFAF4B0C6F0
+        public void m_AD8(){} // RVA: 0x7FFAF4B0C890
+        public void m_04A(){} // RVA: 0x7FFAF4B0CA00
     }
 
     /// <summary>Originally: ÌÏÌÍÌÎÌÏÎÍÎÏÌÏÎÍÍÎÌÎÏÌÍ</summary>
@@ -61,6 +73,7 @@ namespace VRC.Core.Transform
         public void .ctor(){} // RVA: 0x7FFAF3ED8B60
         public void Initialize(){} // RVA: 0x7FFAF3ED8CD0
         public void Reset(){} // RVA: 0x7FFAF3ED9200
+        public void HandleAsyncGameObjectLoaded(){} // RVA: 0x7FFAF3ED9A50
         public void Awake(){} // RVA: 0x7FFAF3ED9C20
         public void OnDestroy(){} // RVA: 0x7FFAF3ED9CE0
         public void GetLayer(){} // RVA: 0x7FFAF3ED9FC0
@@ -73,7 +86,6 @@ namespace VRC.Core.Transform
         public void m_4CD(){} // RVA: 0x7FFAF3ED93B0
         public void m_38B(){} // RVA: 0x7FFAF3ED9690
         public void m_4BA(){} // RVA: 0x7FFAF3ED98B0
-        public void m_2D9(){} // RVA: 0x7FFAF3ED9A50
     }
 
 }

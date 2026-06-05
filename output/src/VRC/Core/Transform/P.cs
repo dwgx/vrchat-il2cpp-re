@@ -9,15 +9,21 @@ namespace VRC.Core.Transform
     public class ProfiledTransformHandler_BF03
     {
         // ── Methods ──
+        public void ConstructProfiledTransformHandler(){} // RVA: 0x7FFAF4577270
         public void .ctor(){} // RVA: 0x7FFAF45773B0
         public void Initialize(){} // RVA: 0x7FFAF45775A0
-        // ── 12 unresolved (hash) ──
+        public void InvokeProfiledTransformHandlers(){} // RVA: 0x7FFAF4577700
+        // ── Unresolved (hash) ──
         public void m_DEC(){} // RVA: 0x7FFAF4577190
-        public void m_BCF(){} // RVA: 0x7FFAF4577270
         public void m_D57(){} // RVA: 0x7FFAF45772C0
-        public void m_C46(){} // RVA: 0x7FFAF4577700
         public void m_7A6(){} // RVA: 0x7FFAF2D8D310
-        // ... 7 more unresolved methods
+        public void m_888(){} // RVA: 0x7FFAF4577790
+        public void m_146(){} // RVA: 0x7FFAF4577870
+        public void m_1C1(){} // RVA: 0x7FFAF4577950
+        public void m_2DD(){} // RVA: 0x7FFAF4577AB0
+        public void m_EEC(){} // RVA: 0x7FFAF4577B90
+        public void m_807(){} // RVA: 0x7FFAF4577C20
+        public void m_CC8(){} // RVA: 0x7FFAF4577D00
     }
 
 }

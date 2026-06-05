@@ -1,0 +1,5 @@
+{
+ "PhysicsJoint2DHandler_6D0E::m_588": "WriteStreamElements",
+ "PhysicsJoint2DHandler_6D0E::m_CEF": "ReadStreamElementsSecure",
+ "PhysicsJoint2DHandler_6D0E::m_F92": "ReadStreamElementsSecure"
+}

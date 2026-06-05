@@ -1,0 +1,4 @@
+{
+ "TransformPhysicsSystem_923C::m_BEB": "ContainsTransformId",
+ "TransformPhysicsSystem_923C::m_C1E": "InvokeTransformPhysicsCallbacks"
+}

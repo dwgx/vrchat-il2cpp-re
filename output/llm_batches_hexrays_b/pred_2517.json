@@ -1,0 +1,8 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_B705::m_2F0": "RegisterCurrentArgumentSlot",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B705::m_410": "ParsePositionalArgumentIndex",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B705::m_6EA": "RegisterCurrentArgumentSlot",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B705::m_95D": "ParsePrecisionArgumentIndex",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B705::m_C01": "ParseWidthArgumentIndex",
+ "VRCNetworkBehaviourSibling_BF5Sibling_B705::m_EEE": "ParsePositionalArgumentIndex"
+}

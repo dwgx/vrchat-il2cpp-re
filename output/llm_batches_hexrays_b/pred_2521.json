@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_CED1::m_536": "CreateSystemException",
+ "VRCNetworkBehaviourSibling_BF5Sibling_CED1::m_943": "GetMarshalDirectiveExceptionType",
+ "VRCNetworkBehaviourSibling_BF5Sibling_CED1::m_AEE": "CreateWindowsRuntimeTypeNotFoundException"
+}

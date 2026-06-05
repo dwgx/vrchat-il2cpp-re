@@ -1,0 +1,11 @@
+{
+ "SerializableVector3SiblinRelated_78F4::m_159": "MemCmp",
+ "SerializableVector3SiblinRelated_78F4::m_25F": "MemSet",
+ "SerializableVector3SiblinRelated_78F4::m_2A0": "MemCpy",
+ "SerializableVector3SiblinRelated_78F4::m_348": "MemCpy",
+ "SerializableVector3SiblinRelated_78F4::m_690": "MemCpy",
+ "SerializableVector3SiblinRelated_78F4::m_826": "MemSet",
+ "SerializableVector3SiblinRelated_78F4::m_AAA": "MemCpy",
+ "SerializableVector3SiblinRelated_78F4::m_E81": "MemSet",
+ "SerializableVector3SiblinRelated_78F4::m_F0A": "MemCpy"
+}

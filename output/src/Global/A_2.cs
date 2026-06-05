@@ -1130,16 +1130,20 @@ public class AssetPreloader
     public void GetAssetBundleRequestAllAssets(){} // RVA: 0x7FFAF3C29490
     public void Dispose(){} // RVA: 0x7FFAF3C29E50
     public void Cleanup(){} // RVA: 0x7FFAF3C29F20
+    public void ApplyCachedLocalPosition(){} // RVA: 0x7FFAF3C2A0B0
+    public void GetPreloadAssets(){} // RVA: 0x7FFAF3C2A710
+    public void AddPreloadAssetsFromEntry(){} // RVA: 0x7FFAF3C2A9D0
     public void Initialize(){} // RVA: 0x7FFAF3C2B200
+    public void TryFindPreloadAssetIndices(){} // RVA: 0x7FFAF3C2B310
     public void Finalize(){} // RVA: 0x7FFAF3C2B4E0
     public void .ctor(){} // RVA: 0x7FFAF3C2B960
-    // ── 20 unresolved (hash) ──
+    // ── 16 unresolved (hash) ──
     public void m_902(){} // RVA: 0x7FFAF2D907C0
     public void m_F2B(){} // RVA: 0x7FFAF3C28700
     public void m_8BD(){} // RVA: 0x7FFAF3C287D0
     public void m_4A1(){} // RVA: 0x7FFAF3C28990
     public void m_AC0(){} // RVA: 0x7FFAF3C28FE0
-    // ... 15 more unresolved methods
+    // ... 11 more unresolved methods
 }
 
 public class AssociatedDetection

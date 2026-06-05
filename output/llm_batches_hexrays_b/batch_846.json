@@ -1,0 +1,112 @@
+[
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_182",
+  "cv_key": "ParticleMaterialHandler_34F9::m_182",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "void __fastcall __noreturn sub_1808903E0(__int64 a1)\n{\n  sub_1865C7620(a1 + 16);\n}\n"
+ },
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_29B",
+  "cv_key": "ParticleMaterialHandler_34F9::m_29B",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "float __fastcall sub_18088FBA0(__int64 a1)\n{\n  char v2; // bl\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE396BA )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE396BA = 1;\n  }\n  v2 = *(_BYTE *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  return (float)(v2 != 0);\n}\n"
+ },
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_338",
+  "cv_key": "ParticleMaterialHandler_34F9::m_338",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18088FD30(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v6; // rbx\n  signed __int32 v8[10]; // [rsp+0h] [rbp-28h] BYREF\n  bool v9; // [rsp+30h] [rbp+8h] BYREF\n\n  if ( !byte_18CE396BD )\n  {\n    sub_180AD1AA0(&qword_18C8D15B8);\n    _InterlockedOr(v8, 0);\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v8, 0);\n    byte_18CE396BD = 1;\n  }\n  v9 = *(_BYTE *)(a1 + 16) != 0;\n  v6 = XFiPLRjvmWI_0(qword_18C8D15B8, &v9);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  return sub_1865CC150(v6, a2, a3, 0);\n}\n"
+ },
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_3E8",
+  "cv_key": "ParticleMaterialHandler_34F9::m_3E8",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_180890ED0(__int64 a1, __int64 a2, __int64 a3, char a4, _OWORD *a5)\n{\n  unsigned __int64 v5; // r10\n  int v6; // ecx\n  __int64 *v8; // rdx\n  signed __int64 v9; // rtt\n  _OWORD *result; // rax\n  __int64 *v11; // rdx\n  signed __int64 v12; // rtt\n  __int64 *v13; // rdx\n  signed __int64 v14; // rtt\n  bool v15; // zf\n  __int64 *v16; // rdx\n  signed __int64 v17; // rtt\n  _UNKNOWN *retaddr; // [rsp+0h] [rbp+0h] BYREF\n\n  v5 = a1 + 16;\n  v6 = dword_18CE1C2E8;\n  *(_BYTE *)(v5 + 16) = a4;\n  *(_QWORD *)(v5 + 24) = a3;\n  if ( v6 )\n  {\n    v8 = &qword_18CE64E00[(((v5 + 24) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v8 + 35932);\n    do\n      v9 = v8[35932];\n    while ( v9 != _InterlockedCompareExchange64(v8 + 35932, v9 | (1LL << (((v5 + 24) >> 12) & 0x3F)), v9) );\n    v6 = dword_18CE1C2E8;\n  }\n  result = a5;\n  *(_OWORD *)v5 = *a5;\n  if ( v6 )\n  {\n    v11 = &qword_18CE64E00[((v5 >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v11 + 35932);\n    do\n    {\n      v12 = v11[35932];\n      result = (_OWORD *)_InterlockedCompareExchange64(v11 + 35932, v12 | (1LL << ((v5 >> 12) & 0x3F)), v12);\n    }\n    while ( (_OWORD *)v12 != result );\n    v6 = dword_18CE1C2E8;\n  }\n  *(_QWORD *)(v5 + 32) = a2;\n  if ( v6 )\n  {\n    v13 = &qword_18CE64E00[(((v5 + 32) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v13 + 35932);\n    do\n    {\n      v14 = v13[35932];\n      result = (_OWORD *)_InterlockedCompareExchange64(v13 + 35932, v14 | (1LL << (((v5 + 32) >> 12) & 0x3F)), v14);\n    }\n    while ( (_OWORD *)v14 != result );\n  }\n  _InterlockedOr((volatile signed __int32 *)&retaddr, 0);\n  v15 = dword_18CE1C2E8 == 0;\n  *(_QWORD *)(v5 + 40) = 0;\n  if ( !v15 )\n  {\n    v16 = &qword_18CE64E00[(((v5 + 40) >> 12) & 0x1FFFFF) >> 6];\n    _m_prefetchw(v16 + 35932);\n    do\n    {\n      v17 = v16[35932];\n      result = (_OWORD *)_InterlockedCompareExchange64(v16 + 35932, v17 | (1LL << (((v5 + 40) >> 12) & 0x3F)), v17);\n    }\n    while ( (_OWORD *)v17 != result );\n  }\n  return result;\n}\n"
+ },
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_3EA",
+  "cv_key": "ParticleMaterialHandler_34F9::m_3EA",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180890790(__int64 a1)\n{\n  unsigned int v2; // ebx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE396E9 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE396E9 = 1;\n  }\n  v2 = *(unsigned __int16 *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  return v2;\n}\n"
+ },
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_515",
+  "cv_key": "ParticleMaterialHandler_34F9::m_515",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_180890740(__int64 a1)\n{\n  unsigned __int16 v2; // bx\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE396E8 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE396E8 = 1;\n  }\n  v2 = *(_WORD *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  return v2;\n}\n"
+ },
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_968",
+  "cv_key": "ParticleMaterialHandler_34F9::m_968",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "__int64 __fastcall sub_18088FEC0(__int64 a1, __int128 *a2, __int64 a3, __int128 *a4, __int64 a5)\n{\n  int v9; // ebx\n  __int128 v10; // xmm0\n  __int128 v11; // xmm1\n  signed __int32 v13[8]; // [rsp+0h] [rbp-58h] BYREF\n  __int64 v14; // [rsp+28h] [rbp-30h]\n  __int128 v15; // [rsp+30h] [rbp-28h] BYREF\n  __int128 v16; // [rsp+40h] [rbp-18h] BYREF\n\n  if ( !byte_18CE396C7 )\n  {\n    sub_180AD1AA0(&qword_18C912998);\n    _InterlockedOr(v13, 0);\n    byte_18CE396C7 = 1;\n  }\n  v9 = *(unsigned __int8 *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C912998 + 224) )\n    YloSGiLVOEi_0(qword_18C912998);\n  v10 = *a2;\n  v11 = *a4;\n  v14 = 0;\n  v15 = v10;\n  v16 = v11;\n  return sub_1866F1050(v9, (unsigned int)&v16, a5, (unsigned int)&v15, a3);\n}\n"
+ },
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_B3C",
+  "cv_key": "ParticleMaterialHandler_34F9::m_B3C",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_OWORD *__fastcall sub_18088FC60(_OWORD *a1, __int64 a2)\n{\n  char v4; // di\n  signed __int32 v6[8]; // [rsp+0h] [rbp-38h] BYREF\n  __int128 v7; // [rsp+20h] [rbp-18h]\n\n  if ( !byte_18CE396BC )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v6, 0);\n    byte_18CE396BC = 1;\n  }\n  v4 = *(_BYTE *)(a2 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  if ( !byte_18CE3979D )\n  {\n    sub_180AD1AA0(&qword_18C7EDDD8);\n    _InterlockedOr(v6, 0);\n    byte_18CE3979D = 1;\n  }\n  if ( !*(_DWORD *)(qword_18C7EDDD8 + 224) )\n    YloSGiLVOEi_0(qword_18C7EDDD8);\n  *((_QWORD *)&v7 + 1) = v4 != 0;\n  *(_QWORD *)&v7 = 0;\n  *a1 = v7;\n  return a1;\n}\n"
+ },
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_D16",
+  "cv_key": "ParticleMaterialHandler_34F9::m_D16",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "bool __fastcall sub_18088FF70(__int64 a1)\n{\n  char v2; // bl\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE396C8 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE396C8 = 1;\n  }\n  v2 = *(_BYTE *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  return v2 != 0;\n}\n"
+ },
+ {
+  "class": "ParticleMaterialHandler_34F9",
+  "class_obf": "ÍÎÍÍÎÏÎÌÌÌÌÍÏÍÍÏÎÍÌÎÏÎÏ",
+  "parent": "",
+  "method": "m_DF5",
+  "cv_key": "ParticleMaterialHandler_34F9::m_DF5",
+  "named_methods": [],
+  "fields": [],
+  "strings": [],
+  "pseudocode": "_BOOL8 __fastcall sub_18088FA60(__int64 a1)\n{\n  char v2; // bl\n  signed __int32 v4[10]; // [rsp+0h] [rbp-28h] BYREF\n\n  if ( !byte_18CE396B6 )\n  {\n    sub_180AD1AA0(&qword_18C8FF4B8);\n    _InterlockedOr(v4, 0);\n    byte_18CE396B6 = 1;\n  }\n  v2 = *(_BYTE *)(a1 + 16);\n  if ( !*(_DWORD *)(qword_18C8FF4B8 + 224) )\n    YloSGiLVOEi_0(qword_18C8FF4B8);\n  return v2 != 0;\n}\n"
+ }
+]

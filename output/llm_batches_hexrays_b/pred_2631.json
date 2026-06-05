@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_E752::m_03E": "EraseRedBlackTreeNode",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E752::m_77C": "DestroyRedBlackTreeNodes",
+ "VRCNetworkBehaviourSibling_BF5Sibling_E752::m_96F": "CreateNativeSocket"
+}
