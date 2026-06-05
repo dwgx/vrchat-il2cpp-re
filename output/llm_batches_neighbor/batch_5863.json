@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_A7CD0",
+  "parent": "",
+  "named_methods": [
+    "ProcessEventQueue",
+    "GetQualifiedLocale",
+    "ProcessEventQueue_AEE5EECFBEE7"
+  ],
+  "hash_methods": [
+    "m_F7C",
+    "m_9CA",
+    "m_4D0",
+    "m_96F"
+  ]
+}

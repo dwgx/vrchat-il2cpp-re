@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "get_name",
+    "OpImplicit",
+    ".cctor",
+    "Destroy",
+    ".ctor",
+    "GetBooleanFromDelegateSelector",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_F5B",
+    "m_6CB",
+    "m_9FB",
+    "m_06D"
+  ]
+}

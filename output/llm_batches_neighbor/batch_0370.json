@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "StoreResolvedObject",
+    "get_name",
+    ".ctor",
+    "Initialize",
+    "Initialize_CFE3CB778B51",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_559",
+    "m_7E9",
+    "m_6EA"
+  ]
+}

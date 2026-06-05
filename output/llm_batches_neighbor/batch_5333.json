@@ -1,0 +1,33 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_DBE4",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnApplicationPause",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnDestroy",
+    "OnTriggerEnter",
+    ".ctor",
+    "Initialize",
+    "GetAvatarRoot",
+    "Awake",
+    "OnEnable",
+    "OnCollisionExit",
+    "Awake",
+    "OnTriggerStay",
+    "OnTriggerExit"
+  ],
+  "hash_methods": [
+    "m_2EE"
+  ]
+}

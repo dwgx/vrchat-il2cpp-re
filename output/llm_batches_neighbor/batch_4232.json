@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_C28D",
+  "parent": "",
+  "named_methods": [
+    "ResolveGenericType",
+    ".ctor",
+    "Initialize",
+    "GetTime",
+    "GetTime_BBD41DC1CE66",
+    "ResolveTypeName"
+  ],
+  "hash_methods": [
+    "m_10D"
+  ]
+}

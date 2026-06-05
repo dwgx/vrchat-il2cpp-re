@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_35AF",
+  "parent": "",
+  "named_methods": [
+    "GetLossyScale",
+    "GetLocalPosition",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_8D9",
+    "m_90C",
+    "m_A5C"
+  ]
+}

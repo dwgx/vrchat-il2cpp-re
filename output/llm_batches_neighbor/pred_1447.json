@@ -1,0 +1,12 @@
+{
+  "m_CE4": "WaterMode",
+  "m_313": "DisablePixelLights",
+  "m_890": "TextureSize",
+  "m_0A2": "ClipPlaneOffset",
+  "m_C2A": "ReflectLayers",
+  "m_8F6": "RefractLayers",
+  "m_45F": "ReflectionCameras",
+  "m_267": "RefractionCameras",
+  "m_F27": "ReflectionTexture",
+  "m_780": "RefractionTexture"
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "0DerivedSiblingSiblingRelRelated_43F9",
+  "parent": "",
+  "named_methods": [
+    "ReadCapsuleColliderState",
+    "ReadCapsuleColliderState_63302173BA3F",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_474",
+    "m_9A6",
+    "m_D2A",
+    "m_A4B",
+    "m_A25",
+    "m_063",
+    "m_92D",
+    "m_470",
+    "m_32A"
+  ]
+}

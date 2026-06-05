@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "rawActiveActionSetArray_9A99",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Start",
+    "Stop",
+    "Stop_A66395C728F2"
+  ],
+  "hash_methods": [
+    "m_8EF",
+    "m_3CB",
+    "m_4AB",
+    "m_133",
+    "m_DF2",
+    "m_A74",
+    "m_FA2",
+    "m_66B"
+  ]
+}

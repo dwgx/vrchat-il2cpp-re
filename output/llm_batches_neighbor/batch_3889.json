@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "ctorDerivedSiblingSiblingSibling_BD96",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_44B",
+    "m_E8D",
+    "m_B1C",
+    "m_0DD",
+    "m_98F",
+    "m_EC4",
+    "m_A07",
+    "m_157",
+    "m_8F2",
+    "m_BA7"
+  ]
+}

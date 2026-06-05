@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_03E3",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    "ConfigureTransformRotation"
+  ],
+  "hash_methods": [
+    "m_92D",
+    "m_8D3",
+    "m_657",
+    "m_D88",
+    "m_EF2"
+  ]
+}

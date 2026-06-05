@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "EffectBundleIDIsSpecialFXRelated_8BE5",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessTransform"
+  ],
+  "hash_methods": [
+    "m_D68",
+    "m_CB7",
+    "m_0DC",
+    "m_03F",
+    "m_E5F",
+    "m_F84"
+  ]
+}

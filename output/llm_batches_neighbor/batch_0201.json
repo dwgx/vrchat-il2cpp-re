@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "Equals_4DB90F83FAAC",
+    ".ctor",
+    "Initialize",
+    "ProcessAnimator",
+    "DontDestroyOnLoad",
+    "op_Implicit"
+  ],
+  "hash_methods": [
+    "m_FE4",
+    "m_115",
+    "m_928",
+    "m_1EB",
+    "m_74F"
+  ]
+}

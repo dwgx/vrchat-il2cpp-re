@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeSibliRelated_408B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Awake",
+    "Start",
+    "MarshalArraysAndInvokeNativeDelegate"
+  ],
+  "hash_methods": [
+    "m_F46",
+    "m_3CB",
+    "m_7FB",
+    "m_889",
+    "m_CA7",
+    "m_E02",
+    "m_16D",
+    "m_896"
+  ]
+}

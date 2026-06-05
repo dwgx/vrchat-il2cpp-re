@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PostRenderStaticMethods_ED48",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "OnPostRender",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_55E",
+    "m_096",
+    "m_B69",
+    "m_D31",
+    "m_E61",
+    "m_265",
+    "m_716",
+    "m_BF6",
+    "m_044"
+  ]
+}

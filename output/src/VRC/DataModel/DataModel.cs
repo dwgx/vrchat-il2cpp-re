@@ -8,15 +8,15 @@ namespace VRC.DataModel
     public class CalendarSearchFilters
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFAF48337D0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAF48337D0
         // ── Unresolved (hash) ──
         public void m_886(){} // RVA: 0x7FFAF4833620
+        public void m_C2D(){} // RVA: 0x7FFAF48337D0
         public void m_E4B(){} // RVA: 0x7FFAF4833820
         public void m_628(){} // RVA: 0x7FFAF48338A0
         public void m_089(){} // RVA: 0x7FFAF48338F0
         public void m_1DB(){} // RVA: 0x7FFAF48338A0
-        public void m_9D5(){} // RVA: 0x7FFAF48337D0
         public void m_BFE(){} // RVA: 0x7FFAF4833970
         public void m_ED0(){} // RVA: 0x7FFAF4833B20
         public void m_64E(){} // RVA: 0x7FFAF4833BA0
@@ -100,14 +100,11 @@ namespace VRC.DataModel
         public object System.Collections.Generic.IEnumerator<System.String>.Current;
 
         // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x7FFAF3634FE0
         public void .ctor(){} // RVA: 0x7FFAF48332C0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF4832D00
         public void GetCurrent(){} // RVA: 0x7FFAF4832D80
         public void Create(){} // RVA: 0x7FFAF4832E30
         public void set_FieldDescriptions(){} // RVA: 0x7FFAF4832E60
-        public void MoveNext(){} // RVA: 0x7FFAF4832E80
-        public void Dispose(){} // RVA: 0x7FFAF3020B20
         public void UserGetSdkAccounts(){} // RVA: 0x7FFAF3020B40
         public void get_FieldDescriptions(){} // RVA: 0x7FFAF4832F00
         public void InvokeVirtualPropertyGetter_BFE2F870FCF3(){} // RVA: 0x7FFAF3020B40 | overloaded x2
@@ -115,6 +112,10 @@ namespace VRC.DataModel
         public void ProcessSearchInFieldsUser(){} // RVA: 0x7FFAF4833250
         public void ToString(){} // RVA: 0x7FFAF4833270
         public void set_FieldDescriptions_26C8A9703E9D(){} // RVA: 0x7FFAF4832E60
+        // ── Unresolved (hash) ──
+        public void m_803(){} // RVA: 0x7FFAF3634FE0
+        public void m_ED0(){} // RVA: 0x7FFAF4832E80
+        public void m_290(){} // RVA: 0x7FFAF3020B20
     }
 
     public class SearchInFieldsWorld
@@ -125,16 +126,16 @@ namespace VRC.DataModel
         public void set_FieldDescriptions(){} // RVA: 0x7FFAF4832460
         public void .ctor(){} // RVA: 0x7FFAF4832830 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF48324B0
-        public void Initialize_FE6DF4546CA8(){} // RVA: 0x7FFAF48324B0
-        public void Initialize_EDDDC40B538E(){} // RVA: 0x7FFAF48324B0
         // ── Unresolved (hash) ──
         public void m_53A(){} // RVA: 0x7FFAF4832550
         public void m_D8E(){} // RVA: 0x7FFAF4832600
         public void m_ED0(){} // RVA: 0x7FFAF4832610
         public void m_26C(){} // RVA: 0x7FFAF480C2B0
         public void m_BFE(){} // RVA: 0x7FFAF4832690
+        public void m_FE6(){} // RVA: 0x7FFAF48324B0
         public void m_1DB(){} // RVA: 0x7FFAF4832840
         public void m_D48(){} // RVA: 0x7FFAF4832880
+        public void m_EDD(){} // RVA: 0x7FFAF48324B0
     }
 
     public class SearchParameters

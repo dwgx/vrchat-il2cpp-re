@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "PhysicsHandler_263E",
+  "parent": "",
+  "named_methods": [
+    "SetSolverVelocityIterations",
+    "SetUseGravity",
+    "SetUseGravity_906D13691BD1",
+    "ReadUtf8CodePoint",
+    "MakeArrayType",
+    ".cctor",
+    "GetInterfaces",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "GetNestedTypes"
+  ],
+  "hash_methods": [
+    "m_FC3",
+    "m_07A",
+    "m_A05",
+    "m_4B4",
+    "m_B15",
+    "m_D45",
+    "m_6C9",
+    "m_93C",
+    "m_E4B",
+    "m_2C4"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "namespace": "",
+  "class": "AvatarPlayerAnimatorComponent_D5F6",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "FixedUpdate",
+    "Start",
+    "Update",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "ReallocateAndZeroMemory",
+    "Awake",
+    "CompareWideStringsIgnoreCase",
+    "CompareWideStringsIgnoreCase_7454F7C9E5AE",
+    "LateUpdate",
+    "OnEnable",
+    "DecodeUtf8CodePoint"
+  ],
+  "hash_methods": [
+    "m_81C",
+    "m_323",
+    "m_C8B",
+    "m_9CA",
+    "m_279",
+    "m_5B0",
+    "m_51D"
+  ]
+}

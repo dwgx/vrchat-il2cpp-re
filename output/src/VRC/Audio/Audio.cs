@@ -189,13 +189,13 @@ namespace VRC.Audio
         public void GetIsPlaying(){} // RVA: 0x7FFAF4435FD0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF44365C0
-        public void Equals(){} // RVA: 0x7FFAF4436A20
-        public void Equals_2037B63ED8BB(){} // RVA: 0x7FFAF44371C0
         // ── Unresolved (hash) ──
         public void m_020(){} // RVA: 0x7FFAF4436430
+        public void m_887(){} // RVA: 0x7FFAF4436A20
         public void m_F4C(){} // RVA: 0x7FFAF4436BB0
         public void m_561(){} // RVA: 0x7FFAF4436D40
         public void m_882(){} // RVA: 0x7FFAF4437010
+        public void m_203(){} // RVA: 0x7FFAF44371C0
         public void m_500(){} // RVA: 0x7FFAF4437350
     }
 
@@ -296,16 +296,16 @@ namespace VRC.Audio
         public void OnEnable(){} // RVA: 0x7FFAFB8FE880
         public void Start(){} // RVA: 0x7FFAFB8FE890
         public void CompareTo(){} // RVA: 0x7FFAFB8FEA70
-        public void Dispose(){} // RVA: 0x7FFAFB8FEBC0
-        public void Equals(){} // RVA: 0x7FFAFB8FEE70
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8FE880
-        public void ToString(){} // RVA: 0x7FFAFB8FF050
-        public void ToString_28F0D60F91A3(){} // RVA: 0x7FFAFB8FF060
-        public void GetHashCode(){} // RVA: 0x7FFAFB8FE880
         // ── Unresolved (hash) ──
+        public void m_268(){} // RVA: 0x7FFAFB8FEBC0
         public void m_70F(){} // RVA: 0x7FFAFB8FED10
         public void m_073(){} // RVA: 0x7FFAFB8FED20
+        public void m_DAE(){} // RVA: 0x7FFAFB8FEE70
+        public void m_E93(){} // RVA: 0x7FFAFB8FF050
+        public void m_28F(){} // RVA: 0x7FFAFB8FF060
+        public void m_F5D(){} // RVA: 0x7FFAFB8FE880
         public void m_C47(){} // RVA: 0x7FFAFB8FF220
         public void m_A79(){} // RVA: 0x7FFAFB8FF300
     }
@@ -330,21 +330,20 @@ namespace VRC.Audio
     public class ONSPAmbisonicsNativeRelated_75ED
     {
         // ── Methods ──
+        public void NumFOAChannels(){} // RVA: 0x7FFAF42D4860
+        public void ParamVSpeakerMode(){} // RVA: 0x7FFAF42D49A0
+        public void ParamAmbiStat(){} // RVA: 0x7FFAF42D4A50
         public void .ctor(){} // RVA: 0x7FFAF34DFDF0
         public void Initialize(){} // RVA: 0x7FFAF42D4D50
+        public void ParamAmbiGain(){} // RVA: 0x7FFAF42D4D60
         public void OnEnable(){} // RVA: 0x7FFAF42D4D50
         public void OnDisable(){} // RVA: 0x7FFAF42D4D50
-        // ── Unresolved (hash) ──
-        public void m_C8E(){} // RVA: 0x7FFAF42D4860
-        public void m_909(){} // RVA: 0x7FFAF42D49A0
-        public void m_808(){} // RVA: 0x7FFAF42D4A50
-        public void m_3FA(){} // RVA: 0x7FFAF42D4D60
-        public void m_FF5(){} // RVA: 0x7FFAF2E72850
-        public void m_3B3(){} // RVA: 0x7FFAF42D4DB0
-        public void m_F6B(){} // RVA: 0x7FFAF42D4DB0
-        public void m_F21(){} // RVA: 0x7FFAF42D4E00
-        public void m_92E(){} // RVA: 0x7FFAF2E72850
-        public void m_970(){} // RVA: 0x7FFAF42D4DB0
+        public void ParamAmbiOutputChannels(){} // RVA: 0x7FFAF2E72850
+        public void Source(){} // RVA: 0x7FFAF42D4DB0
+        public void CurrentStatus(){} // RVA: 0x7FFAF42D4DB0
+        public void VirtualSpeakerMode(){} // RVA: 0x7FFAF42D4E00
+        public void Gain(){} // RVA: 0x7FFAF2E72850
+        public void UseVirtualSpeakers(){} // RVA: 0x7FFAF42D4DB0
     }
 
     /// <summary>Originally: ÍÎÍÏÍÎÎÌÌÏÌÌÎÏÍÏÏÎÌÍÎÍÎ</summary>
@@ -432,15 +431,12 @@ namespace VRC.Audio
     public class ONSPAmbisonicsNativeSibliRelated_675A
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAFB897480
-        public void ToString(){} // RVA: 0x7FFAFB8976C0
         public void ToByte(){} // RVA: 0x7FFAFB897900
         public void ToUInt64(){} // RVA: 0x7FFAFB897B40
         public void ConvertInt16ToDecimal(){} // RVA: 0x7FFAFB897CC0
         public void ToSByte(){} // RVA: 0x7FFAFB898040
         public void ToUInt32(){} // RVA: 0x7FFAFB8982C0
         public void ToUInt64_C58F385F6879(){} // RVA: 0x7FFAFB898360
-        public void Equals_338241E6F8A1(){} // RVA: 0x7FFAFB898680
         public void ToUInt16(){} // RVA: 0x7FFAFB898870
         public void ToByte_BA601104B1BD(){} // RVA: 0x7FFAFB898950
         public void ToUInt32_889C759A80D7(){} // RVA: 0x7FFAFB898B90
@@ -451,7 +447,10 @@ namespace VRC.Audio
         public void ToUInt32_BAA11329B504(){} // RVA: 0x7FFAFB8993D0
         public void ToDouble(){} // RVA: 0x7FFAFB899650
         // ── Unresolved (hash) ──
+        public void m_970(){} // RVA: 0x7FFAFB897480
+        public void m_643(){} // RVA: 0x7FFAFB8976C0
         public void m_F46(){} // RVA: 0x7FFAFB8985E0
+        public void m_338(){} // RVA: 0x7FFAFB898680
         public void m_2B5(){} // RVA: 0x7FFAFB898FB0
         public void m_B29(){} // RVA: 0x7FFAFB898FB0
     }
@@ -524,22 +523,22 @@ namespace VRC.Audio
         public void SetSortingLayerID(){} // RVA: 0x7FFAFB6C9FB0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Start(){} // RVA: 0x7FFAFB6CA010
-        public void ToString(){} // RVA: 0x7FFAFB6CA2D0
         public void SetIsStaticShadowCaster(){} // RVA: 0x7FFAFB6CA590
         public void SetTextureMode(){} // RVA: 0x7FFAFB6CA6E0
         public void SetTextureMode_3E885B73235C(){} // RVA: 0x7FFAFB6CA6F0
         public void SetTextureMode_0FBFA6D44864(){} // RVA: 0x7FFAFB6CA6E0
         public void OnDestroy(){} // RVA: 0x7FFAFB6CAC20
-        public void GetHashCode(){} // RVA: 0x7FFAFB6CAF30
-        public void GetHashCode_0C0BCEDAE381(){} // RVA: 0x7FFAFB6CB1E0
-        public void Equals(){} // RVA: 0x7FFAFB6CB830
         public void Awake(){} // RVA: 0x7FFAFB6CB890
-        public void GetHashCode_524014A75791(){} // RVA: 0x7FFAFB6CBB70
-        public void Equals_889C759A80D7(){} // RVA: 0x7FFAFB6CBCC0
         // ── Unresolved (hash) ──
+        public void m_A74(){} // RVA: 0x7FFAFB6CA2D0
+        public void m_338(){} // RVA: 0x7FFAFB6CAF30
         public void m_947(){} // RVA: 0x7FFAFB6CB180
+        public void m_0C0(){} // RVA: 0x7FFAFB6CB1E0
         public void m_868(){} // RVA: 0x7FFAFB6CB4F0
         public void m_CB2(){} // RVA: 0x7FFAFB6CB550
+        public void m_72E(){} // RVA: 0x7FFAFB6CB830
+        public void m_524(){} // RVA: 0x7FFAFB6CBB70
+        public void m_889(){} // RVA: 0x7FFAFB6CBCC0
     }
 
     /// <summary>Originally: ÏÎÌÍÎÌÍÏÎÌÌÌÏÎÌÏÎÌÏÎÎÍÎ</summary>
@@ -548,13 +547,9 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFBC69160
         public void InitializeAmbisonics(){} // RVA: 0x7FFAFBC693E0
-        public void Update(){} // RVA: 0x7FFAFBC694E0
         public void CancelInvoke(){} // RVA: 0x7FFAFBC69560
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFBC69600
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFBC697A0
-        public void Initialize(){} // RVA: 0x7FFAFBC6B320
-        public void OnEnable_338241E6F8A1(){} // RVA: 0x7FFAFBC6B800
-        public void OnDisable(){} // RVA: 0x7FFAFBC6BC10
         public void UpdateAmbisonics(){} // RVA: 0x7FFAFBC6BD00
         public void EnableAmbisonics(){} // RVA: 0x7FFAFBC6BEA0
         public void DisableAmbisonics(){} // RVA: 0x7FFAFBC6C040
@@ -580,6 +575,10 @@ namespace VRC.Audio
         public void RefreshAmbisonics(){} // RVA: 0x7FFAFBC72B00
         public void OnEnable(){} // RVA: 0x7FFAFBC72F40
         // ── Unresolved (hash) ──
+        public void m_8A0(){} // RVA: 0x7FFAFBC694E0
+        public void m_C3D(){} // RVA: 0x7FFAFBC6B320
+        public void m_338(){} // RVA: 0x7FFAFBC6B800
+        public void m_8D2(){} // RVA: 0x7FFAFBC6BC10
         public void m_5F7(){} // RVA: 0x7FFAFBC72C10
     }
 
@@ -588,7 +587,6 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAF2D8EE90
-        public void Update(){} // RVA: 0x7FFAF2D8EE90
         public void CancelInvoke(){} // RVA: 0x7FFAFB89F300
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFB89F350
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
@@ -598,12 +596,13 @@ namespace VRC.Audio
         public void InvokeAmbisonicsNativeCallback(){} // RVA: 0x7FFAFB89FAC0
         public void EndInvoke(){} // RVA: 0x7FFAFB89FBA0
         public void Compare(){} // RVA: 0x7FFAFB89FE80
-        public void Equals(){} // RVA: 0x7FFAFB89FFB0
-        public void Equals_F46FDF545570(){} // RVA: 0x7FFAFB8A0000
         // ── Unresolved (hash) ──
         public void m_D39(){} // RVA: 0x7FFAFB89F220
+        public void m_896(){} // RVA: 0x7FFAF2D8EE90
         public void m_FEF(){} // RVA: 0x7FFAFB89FED0
         public void m_338(){} // RVA: 0x7FFAF2D8EE90
+        public void m_532(){} // RVA: 0x7FFAFB89FFB0
+        public void m_F46(){} // RVA: 0x7FFAFB8A0000
     }
 
     /// <summary>Originally: ÎÎÏÏÏÍÏÌÏÌÏÌÎÏÍÏÌÌÎÍÎÌÏ</summary>
@@ -612,13 +611,9 @@ namespace VRC.Audio
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAFBA20710
         public void InitializeNativeAmbisonics(){} // RVA: 0x7FFAFBA20B60
-        public void Update(){} // RVA: 0x7FFAFBA20BC0
         public void CancelInvoke(){} // RVA: 0x7FFAFBA20DB0
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFBA20B60
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFBA20E10
-        public void Initialize(){} // RVA: 0x7FFAFBA21230
-        public void OnEnable(){} // RVA: 0x7FFAFBA21380
-        public void OnDisable(){} // RVA: 0x7FFAFBA21690
         public void ShutdownNativeAmbisonics(){} // RVA: 0x7FFAFBA21940
         public void UpdateAmbisonicSource(){} // RVA: 0x7FFAFBA21C60
         public void HandleONSPAmbisonicsNativeSib(){} // RVA: 0x7FFAFBA21C70
@@ -633,6 +628,11 @@ namespace VRC.Audio
         public void EnableAmbisonicProcessing(){} // RVA: 0x7FFAFBA225A0
         public void DisableAmbisonicProcessing(){} // RVA: 0x7FFAFBA22800
         public void OnDestroy(){} // RVA: 0x7FFAFBA22810
+        // ── Unresolved (hash) ──
+        public void m_275(){} // RVA: 0x7FFAFBA20BC0
+        public void m_324(){} // RVA: 0x7FFAFBA21230
+        public void m_338(){} // RVA: 0x7FFAFBA21380
+        public void m_2D9(){} // RVA: 0x7FFAFBA21690
     }
 
     /// <summary>Originally: ÏÌÌÍÎÍÏÎÏÌÎÏÏÎÎÍÎÍÎÍÍÌÍ</summary>
@@ -641,19 +641,20 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAF2D8EE90
         public void CreateAmbisonicSource(){} // RVA: 0x7FFAFB8B1710
-        public void Update(){} // RVA: 0x7FFAFB8B17F0
         public void CancelInvoke(){} // RVA: 0x7FFAFB8B1840
         public void Start(){} // RVA: 0x7FFAFB8B19A0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8B1A70
-        public void OnEnable(){} // RVA: 0x7FFAFB8B1B40
-        public void OnDisable(){} // RVA: 0x7FFAFB8B1C20
         public void DestroyAmbisonicSource(){} // RVA: 0x7FFAFB8B1D00
         public void UpdateAmbisonicSource(){} // RVA: 0x7FFAF2D8EE90
         public void SetAmbisonicOrientation(){} // RVA: 0x7FFAFB8B1D50
         public void SetAmbisonicFormat(){} // RVA: 0x7FFAFB8B1EC0
         public void Awake(){} // RVA: 0x7FFAFB8B2080
         public void OnDestroy(){} // RVA: 0x7FFAFB8B2240
+        // ── Unresolved (hash) ──
+        public void m_F0F(){} // RVA: 0x7FFAFB8B17F0
+        public void m_D39(){} // RVA: 0x7FFAFB8B1B40
+        public void m_889(){} // RVA: 0x7FFAFB8B1C20
     }
 
     /// <summary>Originally: ÎÍÏÍÎÍÍÏÏÌÌÍÏÌÌÌÍÏÏÍÏÎÎ</summary>
@@ -662,13 +663,10 @@ namespace VRC.Audio
         // ── Methods ──
         public void Awake(){} // RVA: 0x7FFAFB8996A0
         public void OnDestroy(){} // RVA: 0x7FFAFB899950
-        public void Update(){} // RVA: 0x7FFAFB899BF0
         public void CancelInvoke(){} // RVA: 0x7FFAFB899D00
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFB899D50
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFB89A210
-        public void Initialize(){} // RVA: 0x7FFAFB89A260
         public void OnEnable(){} // RVA: 0x7FFAFB89A2B0
-        public void OnDisable_3E885B73235C(){} // RVA: 0x7FFAFB89A400
         public void InitializeAmbisonics(){} // RVA: 0x7FFAFB89A400
         public void GetKey(){} // RVA: 0x7FFAFB89A4D0
         public void EnableAmbisonics(){} // RVA: 0x7FFAFB89A520
@@ -680,6 +678,10 @@ namespace VRC.Audio
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void OnDisable(){} // RVA: 0x7FFAFB89AB00
         public void ValidateAmbisonics(){} // RVA: 0x7FFAFB89AC90
+        // ── Unresolved (hash) ──
+        public void m_9FE(){} // RVA: 0x7FFAFB899BF0
+        public void m_E93(){} // RVA: 0x7FFAFB89A260
+        public void m_3E8(){} // RVA: 0x7FFAFB89A400
     }
 
     /// <summary>Originally: ÏÌÎÍÎÎÍÍÌÎÌÍÏÎÌÏÎÏÏÍÏÌÎ</summary>
@@ -687,22 +689,22 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFB8A0010
-        public void Equals(){} // RVA: 0x7FFAFB8A0060
-        public void Update(){} // RVA: 0x7FFAFB8A0140
         public void CancelInvoke(){} // RVA: 0x7FFAFB8A0190
         public void OnDestroy(){} // RVA: 0x7FFAFB8A03A0
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFB8A0510
-        public void Initialize(){} // RVA: 0x7FFAF2D8EE90
         public void Start(){} // RVA: 0x7FFAFB8A0680
-        public void OnDisable(){} // RVA: 0x7FFAFB8A07E0
         public void Awake(){} // RVA: 0x7FFAFB8A0BE0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void Initialize(){} // RVA: 0x7FFAFB8A0DA0
         public void GetNativeAmbisonicStream(){} // RVA: 0x7FFAFB8A0F60
         public void SetAmbisonicSource(){} // RVA: 0x7FFAFB8A0190
         // ── Unresolved (hash) ──
+        public void m_FCC(){} // RVA: 0x7FFAFB8A0060
+        public void m_96A(){} // RVA: 0x7FFAFB8A0140
+        public void m_338(){} // RVA: 0x7FFAF2D8EE90
+        public void m_CE1(){} // RVA: 0x7FFAFB8A07E0
         public void m_889(){} // RVA: 0x7FFAFB8A0940
         public void m_6F5(){} // RVA: 0x7FFAFB8A0A20
-        public void m_BEE(){} // RVA: 0x7FFAFB8A0DA0
     }
 
     /// <summary>Originally: ÎÏÍÎÍÍÎÏÏÏÌÌÎÎÍÌÏÍÎÌÍÏÏ</summary>
@@ -711,13 +713,10 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFB8B7CD0
         public void CtorF5D8351B397B(){} // RVA: 0x7FFAFB8B7D30
-        public void Update(){} // RVA: 0x7FFAFB8B7EA0
         public void CancelInvoke(){} // RVA: 0x7FFAFB8B7F40
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8B8120
-        public void Initialize_9C4FE72CFB43(){} // RVA: 0x7FFAFB8B81C0
         public void Start(){} // RVA: 0x7FFAFB8B8260
-        public void OnDisable(){} // RVA: 0x7FFAFB8B84C0
         public void InitializeONSPAmbisonicsNativeSib(){} // RVA: 0x7FFAFB8B8A10
         public void SetActive(){} // RVA: 0x7FFAFB8B8A70
         public void AddItem(){} // RVA: 0x7FFAFB8B8AE0
@@ -726,6 +725,9 @@ namespace VRC.Audio
         public void OnDestroy(){} // RVA: 0x7FFAFB8B8E50
         public void DestroyNativeContext(){} // RVA: 0x7FFAFB8B8FC0
         // ── Unresolved (hash) ──
+        public void m_7C9(){} // RVA: 0x7FFAFB8B7EA0
+        public void m_9C4(){} // RVA: 0x7FFAFB8B81C0
+        public void m_98B(){} // RVA: 0x7FFAFB8B84C0
         public void m_061(){} // RVA: 0x7FFAFB8B86A0
         public void m_338(){} // RVA: 0x7FFAFB8B8880
     }
@@ -736,18 +738,19 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFB906A10
         public void CtorF5D8351B397B(){} // RVA: 0x7FFAFB906B10
-        public void Update(){} // RVA: 0x7FFAFB906B20
         public void CancelInvoke(){} // RVA: 0x7FFAFB906BC0
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFB906CC0
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFB906DC0
         public void .ctor(){} // RVA: 0x7FFAFB906FA0
         public void Initialize(){} // RVA: 0x7FFAFB907010
-        public void OnDisable(){} // RVA: 0x7FFAFB906BC0
         public void SetRendererPriority(){} // RVA: 0x7FFAFB907100
         public void OnAudioFilterRead(){} // RVA: 0x7FFAFB9072E0
         public void OnEnable(){} // RVA: 0x7FFAFB906B10
         public void Awake(){} // RVA: 0x7FFAFB9073E0
         public void OnDestroy(){} // RVA: 0x7FFAFB9075A0
+        // ── Unresolved (hash) ──
+        public void m_A66(){} // RVA: 0x7FFAFB906B20
+        public void m_47A(){} // RVA: 0x7FFAFB906BC0
     }
 
     /// <summary>Originally: ÏÎÌÌÍÍÌÍÍÍÍÏÎÌÌÏÌÎÍÎÎÏÍ</summary>
@@ -756,16 +759,16 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAF2D8EE90
         public void Start(){} // RVA: 0x7FFAFB8B3190
-        public void Update(){} // RVA: 0x7FFAFB8B3260
         public void CancelInvoke(){} // RVA: 0x7FFAFB8B3340
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFB8B34B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8B3580
-        public void OnEnable(){} // RVA: 0x7FFAFB8B3650
-        public void OnDisable(){} // RVA: 0x7FFAFB8B36A0
         public void OnDestroy(){} // RVA: 0x7FFAFB8B3770
         public void Awake(){} // RVA: 0x7FFAFB8B38E0
         // ── Unresolved (hash) ──
+        public void m_889(){} // RVA: 0x7FFAFB8B3260
+        public void m_F46(){} // RVA: 0x7FFAFB8B3650
+        public void m_C30(){} // RVA: 0x7FFAFB8B36A0
         public void m_338(){} // RVA: 0x7FFAF2D8EE90
         public void m_E25(){} // RVA: 0x7FFAFB8B3AA0
     }
@@ -781,8 +784,6 @@ namespace VRC.Audio
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFB891C20
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB891C70
-        public void OnEnable(){} // RVA: 0x7FFAFB891DF0
-        public void OnDisable(){} // RVA: 0x7FFAFB891FA0
         public void Start(){} // RVA: 0x7FFAFB891FF0
         public void Awake(){} // RVA: 0x7FFAFB8920C0
         public void OnEnable2B4F45D701AE(){} // RVA: 0x7FFAFB8923F0
@@ -791,6 +792,9 @@ namespace VRC.Audio
         public void CreateNativeDecoder(){} // RVA: 0x7FFAFB8927A0
         public void DestroyNativeDecoder(){} // RVA: 0x7FFAFB892900
         public void ProcessAmbisonicAudio(){} // RVA: 0x7FFAFB892950
+        // ── Unresolved (hash) ──
+        public void m_28F(){} // RVA: 0x7FFAFB891DF0
+        public void m_086(){} // RVA: 0x7FFAFB891FA0
     }
 
     /// <summary>Originally: ÎÌÏÏÏÏÏÎÍÍÎÏÏÍÌÎÎÌÎÌÎÌÎ</summary>
@@ -799,14 +803,11 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFB678910
         public void DisableEyeTracking(){} // RVA: 0x7FFAFB679030
-        public void Update(){} // RVA: 0x7FFAFB679470
         public void CancelInvoke(){} // RVA: 0x7FFAFB679A00
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFB67A050
         public void Awake(){} // RVA: 0x7FFAFB67A750
-        public void Initialize(){} // RVA: 0x7FFAFB67ACF0
-        public void OnEnable_AF51B7F10F5A(){} // RVA: 0x7FFAFB67B0F0
         public void .ctor(){} // RVA: 0x7FFAFB67B500
-        public void ToString(){} // RVA: 0x7FFAFB67B550
+        public void Initialize(){} // RVA: 0x7FFAFB67B550
         public void ConstructNullableFromValue(){} // RVA: 0x7FFAFB67B6B0
         public void InitializeAmbisonics(){} // RVA: 0x7FFAFB67B7C0
         public void GetLongFromDelegate(){} // RVA: 0x7FFAFB67B860
@@ -824,6 +825,10 @@ namespace VRC.Audio
         public void GetAmbisonicsFormat(){} // RVA: 0x7FFAFB67DCD0
         public void ProcessAmbisonicsAudio(){} // RVA: 0x7FFAFB67DE60
         public void ResetAmbisonics(){} // RVA: 0x7FFAFB67E7B0
+        // ── Unresolved (hash) ──
+        public void m_E74(){} // RVA: 0x7FFAFB679470
+        public void m_977(){} // RVA: 0x7FFAFB67ACF0
+        public void m_AF5(){} // RVA: 0x7FFAFB67B0F0
     }
 
     /// <summary>Originally: ÏÏÍÎÍÏÏÎÏÎÎÍÏÎÌÍÌÌÌÍÌÏÏ</summary>
@@ -831,7 +836,6 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAF462D9F0
-        public void Update(){} // RVA: 0x7FFAF462DC00
         public void CancelInvoke(){} // RVA: 0x7FFAF462DDD0
         public void OnDisable(){} // RVA: 0x7FFAF462DFA0
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAF462E0A0
@@ -841,6 +845,7 @@ namespace VRC.Audio
         public void OnEnable(){} // RVA: 0x7FFAF462E580
         // ── Unresolved (hash) ──
         public void m_9C4(){} // RVA: 0x7FFAF462DB00
+        public void m_3E8(){} // RVA: 0x7FFAF462DC00
     }
 
     /// <summary>Originally: ÏÍÍÏÌÎÌÌÏÎÎÍÌÍÎÎÏÌÎÎÏÍÍ</summary>
@@ -849,7 +854,6 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFBD3C980
         public void UpdateAmbisonics(){} // RVA: 0x7FFAFBD3CC60
-        public void Update(){} // RVA: 0x7FFAFBD3CD00
         public void CancelInvoke(){} // RVA: 0x7FFAFBD3CE70
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFBD3CF10
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFBD3D030
@@ -864,6 +868,8 @@ namespace VRC.Audio
         public void UpdateAmbisonicOrientation(){} // RVA: 0x7FFAFBD3FB40
         public void ProcessAmbisonicAudio(){} // RVA: 0x7FFAFBD3FDE0
         public void Awake(){} // RVA: 0x7FFAFBD3FF60
+        // ── Unresolved (hash) ──
+        public void m_97E(){} // RVA: 0x7FFAFBD3CD00
     }
 
     /// <summary>Originally: ÎÍÎÌÎÎÍÍÍÌÌÍÌÍÎÌÌÌÍÏÎÎÍ</summary>
@@ -872,18 +878,19 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFBA30460
         public void InitializeGarbageCollector(){} // RVA: 0x7FFAFBA304C0
-        public void Update(){} // RVA: 0x7FFAFBA306A0
         public void OnDestroy(){} // RVA: 0x7FFAFBA30770
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFBA30840
-        public void Initialize_9135088DAD27(){} // RVA: 0x7FFAFBA30A20
-        public void OnEnable(){} // RVA: 0x7FFAFBA30A80
-        public void OnDisable(){} // RVA: 0x7FFAFBA30C60
         public void DisableGarbageCollection(){} // RVA: 0x7FFAFBA30CC0
         public void DumpGarbageCollector(){} // RVA: 0x7FFAFBA30D90
         public void GetNativeAmbisonicStream(){} // RVA: 0x7FFAFBA30DF0
         public void SetAmbisonicSource(){} // RVA: 0x7FFAFBA30EC0
         public void Start(){} // RVA: 0x7FFAFBA31040
+        // ── Unresolved (hash) ──
+        public void m_692(){} // RVA: 0x7FFAFBA306A0
+        public void m_913(){} // RVA: 0x7FFAFBA30A20
+        public void m_3E8(){} // RVA: 0x7FFAFBA30A80
+        public void m_649(){} // RVA: 0x7FFAFBA30C60
     }
 
     /// <summary>Originally: ÏÍÎÏÍÎÌÍÏÌÌÍÍÌÍÌÌÏÏÍÏÍÌ</summary>
@@ -891,8 +898,6 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAF42D5E00
-        public void Add(){} // RVA: 0x7FFAF42D5F30
-        public void Update(){} // RVA: 0x7FFAF42D6060
         public void CancelInvoke(){} // RVA: 0x7FFAF42D6190
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAF42D62A0
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAF42D63B0
@@ -900,6 +905,9 @@ namespace VRC.Audio
         public void OnDisable(){} // RVA: 0x7FFAF42D6610
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF42D6740
+        // ── Unresolved (hash) ──
+        public void m_3F5(){} // RVA: 0x7FFAF42D5F30
+        public void m_9A0(){} // RVA: 0x7FFAF42D6060
     }
 
     /// <summary>Originally: ÍÎÏÍÍÏÏÍÏÏÌÌÌÏÌÌÌÎÎÍÎÏÏ</summary>
@@ -908,7 +916,6 @@ namespace VRC.Audio
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x7FFAFB6F1860
         public void Constructor(){} // RVA: 0x7FFAFB6F1AE0
-        public void Update(){} // RVA: 0x7FFAFB6F1B80
         public void CancelInvoke(){} // RVA: 0x7FFAFB6F1E00
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFB6F1F50
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFB6F2110
@@ -919,6 +926,7 @@ namespace VRC.Audio
         public void SetAmbisonicParameters(){} // RVA: 0x7FFAFB6F2B60
         public void ProcessAmbisonics(){} // RVA: 0x7FFAFB6F2D90
         // ── Unresolved (hash) ──
+        public void m_0C0(){} // RVA: 0x7FFAFB6F1B80
         public void m_F9F(){} // RVA: 0x7FFAFB6F2720
         public void m_C2F(){} // RVA: 0x7FFAFB6F28A0
         public void m_21B(){} // RVA: 0x7FFAFB6F2B00
@@ -930,13 +938,11 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFB9E7F40
         public void Start(){} // RVA: 0x7FFAFB9E8060
-        public void Update(){} // RVA: 0x7FFAFB9E8180
         public void CancelInvoke(){} // RVA: 0x7FFAFB9E8190
         public void Awake(){} // RVA: 0x7FFAFB9E8240
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFB9E82F0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB9E8180
-        public void OnDisable(){} // RVA: 0x7FFAFB9E8680
         public void UpdateAmbisonics(){} // RVA: 0x7FFAFB9E8A10
         public void InitializeNativeAmbisonics(){} // RVA: 0x7FFAFB9E8AB0
         public void OnEnable(){} // RVA: 0x7FFAFB9E8180
@@ -946,6 +952,9 @@ namespace VRC.Audio
         public void UpdateAmbisonicOrientation(){} // RVA: 0x7FFAFB9E97E0
         public void CtorF5D8351B397B(){} // RVA: 0x7FFAFB9E9880
         public void OnDestroy(){} // RVA: 0x7FFAFB9E9950
+        // ── Unresolved (hash) ──
+        public void m_B8E(){} // RVA: 0x7FFAFB9E8180
+        public void m_338(){} // RVA: 0x7FFAFB9E8680
     }
 
     /// <summary>Originally: ÌÏÏÌÍÌÍÌÍÌÌÌÏÌÌÌÎÌÏÍÍÌÍ</summary>
@@ -953,13 +962,9 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFBCB03A0
-        public void Update(){} // RVA: 0x7FFAFBCB0B70
         public void OnEnable(){} // RVA: 0x7FFAFBCB1120
         public void OnDisable(){} // RVA: 0x7FFAFBCB1150
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFBCB1580
-        public void Initialize(){} // RVA: 0x7FFAFBCB16E0
-        public void OnEnable_AC7EAC3A2ACA(){} // RVA: 0x7FFAFBCB1790
-        public void OnDisable_46BA3162463E(){} // RVA: 0x7FFAFBCB1910
         public void Evaluate(){} // RVA: 0x7FFAFBCB3AA0
         public void UpdateNative(){} // RVA: 0x7FFAFBCB3BD0
         public void SetRegionPingData(){} // RVA: 0x7FFAFBCB3BF0
@@ -982,33 +987,62 @@ namespace VRC.Audio
         public void OnDestroy(){} // RVA: 0x7FFAFBCB82F0
         public void Start(){} // RVA: 0x7FFAFBCB86E0
         public void OnDisable46BA3162463E(){} // RVA: 0x7FFAFBCB8990
+        public void SetupParticles(){} // RVA: 0x7FFAFBCB8B00
+        public void RebuildParticleTree(){} // RVA: 0x7FFAFBCB8B60
         public void GetAbsoluteDepth(){} // RVA: 0x7FFAFBCB8F50
+        public void RebuildParticleTree_14E581805050(){} // RVA: 0x7FFAFBCB9100
+        public void RebuildParticleTree_16F780C6E2FD(){} // RVA: 0x7FFAFBCB91A0
         public void GetIsActiveAndEnabled(){} // RVA: 0x7FFAFBCB92C0
+        public void AddParticle(){} // RVA: 0x7FFAFBCB9F90
+        public void AddParticle_40FD95BC18B8(){} // RVA: 0x7FFAFBCBA0B0
+        public void AppendParticle(){} // RVA: 0x7FFAFBCBA470
+        public void AppendParticle_67343A12701A(){} // RVA: 0x7FFAFBCBA7C0
+        public void OnDrawGizmos(){} // RVA: 0x7FFAFBCBAB30
         public void UpdateAmbisonicsPlayback(){} // RVA: 0x7FFAFBCBAC80
+        public void ValidateAndRebuildParticleTree(){} // RVA: 0x7FFAFBCBADE0
         public void OnValidate(){} // RVA: 0x7FFAFBCBB0C0
+        public void DrawParticleGizmos(){} // RVA: 0x7FFAFBCBB2E0
+        public void DrawParticleGizmos_4397A4660F6A(){} // RVA: 0x7FFAFBCBB560
         public void OnAudioFilterRead_30E294C36825(){} // RVA: 0x7FFAFBCBBEB0
         public void OnAudioFilterRead_292999E31A04(){} // RVA: 0x7FFAFBCBC0A0
+        public void UpdateParticleConstraints(){} // RVA: 0x7FFAFBCBC0B0
+        public void RestoreParticleTransforms(){} // RVA: 0x7FFAFBCBC420
+        public void InitializeDynamicBone(){} // RVA: 0x7FFAFBCBC7F0
+        public void InitializeDynamicBone_ADC9A5065982(){} // RVA: 0x7FFAFBCBC8C0
+        public void UpdateParticleConstraints_A4667747FA66(){} // RVA: 0x7FFAFBCBCBA0
+        public void UpdateParticleConstraints_8D20D26386EC(){} // RVA: 0x7FFAFBCBD720
+        public void UpdateDistanceCulling(){} // RVA: 0x7FFAFBCBD900
         public void UpdateVirtualSpeakers(){} // RVA: 0x7FFAFBCBD970
         public void UpdateVirtualSpeakers_48A38E5F2C03(){} // RVA: 0x7FFAFBCBDBD0
+        public void SimulateParticles(){} // RVA: 0x7FFAFBCBE070
+        public void SimulateParticles_E74608180EB0(){} // RVA: 0x7FFAFBCBE0D0
+        public void UpdateParticleWorldPositions(){} // RVA: 0x7FFAFBCBE820
+        public void UpdateParticleWorldPositions_84F9BB9987DF(){} // RVA: 0x7FFAFBCBEAC0
+        public void UpdateParticleWorldPositions_28DDB4053EA7(){} // RVA: 0x7FFAFBCBEBE0
         public void IsNullOrEmpty(){} // RVA: 0x7FFAFBCBEF60
         public void IsUnityObjectNull(){} // RVA: 0x7FFAFBCBF070
         public void IsNullOrEmpty_B3B691EBFA9D(){} // RVA: 0x7FFAFBCBF080
         public void IsNullOrEmpty_C92FA22250C9(){} // RVA: 0x7FFAFBCBF280
         public void IsUnityObjectNull_970D25536226(){} // RVA: 0x7FFAFBCBF3D0
         public void ResolveSphereOverlap(){} // RVA: 0x7FFAFBCBF740
+        public void ResolveCapsuleOverlap(){} // RVA: 0x7FFAFBCBFBF0
+        public void DrawColliderGizmos(){} // RVA: 0x7FFAFBCC0E00
         public void ClampPointToCapsule(){} // RVA: 0x7FFAFBCC1180
+        public void UpdateRaycastTarget(){} // RVA: 0x7FFAFBCC1B30
         public void AnimateMaterialFloatProperty(){} // RVA: 0x7FFAFBCC1FF0
-        public void UpdateMaterialAnimation(){} // RVA: 0x7FFAFBCC2ED0
+        public void UpdateMaterialAnimation(){} // RVA: 0x7FFAFBCC2060
+        public void InitializeRendererMaterial(){} // RVA: 0x7FFAFBCC2E40
+        public void UpdateMaterialAnimation_EB2AE4C12163(){} // RVA: 0x7FFAFBCC2ED0
         public void IsQuaternionAngleWithinThreshold(){} // RVA: 0x7FFAFBCC4130
         public void AddByteToBuffer(){} // RVA: 0x7FFAFBCC4CF0
         public void AddByteToBuffer_E206EAB77747(){} // RVA: 0x7FFAFBCC4D00
-        // ── 61 unresolved (hash) ──
+        // ── 36 unresolved (hash) ──
         public void m_4CC(){} // RVA: 0x7FFAFBCB0AD0
-        public void m_AF5(){} // RVA: 0x7FFAFBCB1D30
-        public void m_6D5(){} // RVA: 0x7FFAFBCB8B00
-        public void m_215(){} // RVA: 0x7FFAFBCB8B60
-        public void m_14E(){} // RVA: 0x7FFAFBCB9100
-        // ... 56 more unresolved methods
+        public void m_D00(){} // RVA: 0x7FFAFBCB0B70
+        public void m_FF6(){} // RVA: 0x7FFAFBCB16E0
+        public void m_AC7(){} // RVA: 0x7FFAFBCB1790
+        public void m_46B(){} // RVA: 0x7FFAFBCB1910
+        // ... 31 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÏÌÎÌÍÎÍÍÎÏÎÍÏÎÌÎÌÏÏÌÍ</summary>
@@ -1017,7 +1051,6 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFBD52A90
         public void OnDestroy(){} // RVA: 0x7FFAFBD52B80
-        public void Update(){} // RVA: 0x7FFAFBD52C70
         public void CancelInvoke(){} // RVA: 0x7FFAFBD52FB0
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFBD530A0
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFBD533E0
@@ -1028,6 +1061,7 @@ namespace VRC.Audio
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFBD536D0
         // ── Unresolved (hash) ──
+        public void m_061(){} // RVA: 0x7FFAFBD52C70
         public void m_179(){} // RVA: 0x7FFAFBD534F0
     }
 
@@ -1037,13 +1071,9 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAF45D8210
         public void CtorF5D8351B397B(){} // RVA: 0x7FFAF45D89B0
-        public void Update(){} // RVA: 0x7FFAF45D8A70
         public void CancelInvoke(){} // RVA: 0x7FFAF45D8EF0
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAF45D8F70
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAF45D9440
-        public void Initialize(){} // RVA: 0x7FFAF45D9BF0
-        public void OnEnable_47A10BA8D1AE(){} // RVA: 0x7FFAF45DA1E0
-        public void OnDisable_914733A6A1BE(){} // RVA: 0x7FFAF45DA2A0
         public void GetSharedMaterialArray(){} // RVA: 0x7FFAF3B934C0
         public void LateUpdate(){} // RVA: 0x7FFAF45DA520
         public void RefreshONSPAmbisonicsNative_6C308CA80647(){} // RVA: 0x7FFAF45DAA80 | overloaded x2
@@ -1053,6 +1083,11 @@ namespace VRC.Audio
         public void GetCampaignName(){} // RVA: 0x7FFAF45DAE70
         public void .ctor(){} // RVA: 0x7FFAF45DAEE0
         public void OnEnable(){} // RVA: 0x7FFAF45DB060
+        // ── Unresolved (hash) ──
+        public void m_8E5(){} // RVA: 0x7FFAF45D8A70
+        public void m_FFB(){} // RVA: 0x7FFAF45D9BF0
+        public void m_47A(){} // RVA: 0x7FFAF45DA1E0
+        public void m_914(){} // RVA: 0x7FFAF45DA2A0
     }
 
     /// <summary>Originally: ÎÍÌÍÍÎÌÏÎÍÏÏÍÍÏÌÏÏÏÏÍÍÏ</summary>
@@ -1061,13 +1096,14 @@ namespace VRC.Audio
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3C48890
-        public void Update(){} // RVA: 0x7FFAF3C48890
         public void CancelInvoke(){} // RVA: 0x7FFAF3C488A0
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAF3C48B40
         public void OnEnable(){} // RVA: 0x7FFAF3C48B40
         public void OnDisable(){} // RVA: 0x7FFAF3C48890
-        public void OnEnable_AB91BD95C70A(){} // RVA: 0x7FFAF3C48B50
-        public void OnDisable_CCE378418E26(){} // RVA: 0x7FFAF3C48E00
+        // ── Unresolved (hash) ──
+        public void m_F23(){} // RVA: 0x7FFAF3C48890
+        public void m_AB9(){} // RVA: 0x7FFAF3C48B50
+        public void m_CCE(){} // RVA: 0x7FFAF3C48E00
     }
 
     /// <summary>Originally: ÍÎÏÏÍÏÍÏÏÌÍÍÎÌÏÍÏÏÌÍÌÎÌ</summary>
@@ -1080,14 +1116,14 @@ namespace VRC.Audio
         public void Start(){} // RVA: 0x7FFAF3AA2C10
         public void OnEnable(){} // RVA: 0x7FFAF3AA2D10
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAF3AA2E10
-        public void Initialize(){} // RVA: 0x7FFAF3AA2F10
-        public void OnEnable_D0464AFDB597(){} // RVA: 0x7FFAF3AA3000
-        public void OnDisable_115EBB5FBE58(){} // RVA: 0x7FFAF3AA31A0
         public void Update(){} // RVA: 0x7FFAF3AA31F0
         public void OnDisable115EBB5FBE58(){} // RVA: 0x7FFAF3AA3760
         public void OnDisable(){} // RVA: 0x7FFAF3AA3860
         public void UpdateONSPAmbisonicsNative(){} // RVA: 0x7FFAF3AA3950
         // ── Unresolved (hash) ──
+        public void m_FA4(){} // RVA: 0x7FFAF3AA2F10
+        public void m_D04(){} // RVA: 0x7FFAF3AA3000
+        public void m_115(){} // RVA: 0x7FFAF3AA31A0
         public void m_2B4(){} // RVA: 0x7FFAF3AA3400
         public void m_3CB(){} // RVA: 0x7FFAF3AA3620
         public void m_98C(){} // RVA: 0x7FFAF3AA3710
@@ -1098,18 +1134,19 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFB674C90
-        public void ToString(){} // RVA: 0x7FFAFB674D60
-        public void Update(){} // RVA: 0x7FFAFB674D70
         public void CancelInvoke(){} // RVA: 0x7FFAFB675200
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFB675200
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFB675210
         public void .ctor(){} // RVA: 0x7FFAFB675690
         public void Initialize(){} // RVA: 0x7FFAFB6757B0
-        public void OnDisable(){} // RVA: 0x7FFAF2DBB0C0
         public void EvaluatePlayerInteractivePickupUseDown(){} // RVA: 0x7FFAF2DBB0C0
         public void OnEnable(){} // RVA: 0x7FFAFB675C30
         public void Start(){} // RVA: 0x7FFAFB675C40
         public void CaptureDisposable(){} // RVA: 0x7FFAFB675D10
+        // ── Unresolved (hash) ──
+        public void m_F5D(){} // RVA: 0x7FFAFB674D60
+        public void m_544(){} // RVA: 0x7FFAFB674D70
+        public void m_1E5(){} // RVA: 0x7FFAF2DBB0C0
     }
 
     /// <summary>Originally: ÏÌÍÎÏÎÎÏÌÍÎÌÏÎÎÍÎÏÎÌÏÍÌ</summary>
@@ -1117,16 +1154,16 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAF4263870
-        public void Update(){} // RVA: 0x7FFAF4263B10
         public void CancelInvoke(){} // RVA: 0x7FFAF4263C60
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF4263DB0
-        public void Initialize_47A10BA8D1AE(){} // RVA: 0x7FFAF4263F00
-        public void OnEnable_9A009553BF03(){} // RVA: 0x7FFAF4264050
         public void OnEnable(){} // RVA: 0x7FFAF42641A0
         public void OnDisable(){} // RVA: 0x7FFAF42642F0
         // ── Unresolved (hash) ──
         public void m_F5D(){} // RVA: 0x7FFAF42639C0
+        public void m_B8E(){} // RVA: 0x7FFAF4263B10
+        public void m_47A(){} // RVA: 0x7FFAF4263F00
+        public void m_9A0(){} // RVA: 0x7FFAF4264050
     }
 
     /// <summary>Originally: ÍÏÏÎÍÏÎÎÌÎÎÎÌÍÌÍÌÏÍÏÌÎÎ</summary>
@@ -1139,12 +1176,13 @@ namespace VRC.Audio
         public void CancelInvoke(){} // RVA: 0x7FFAF33F5DC0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF33F6230
-        public void Initialize_9415773EE8C5(){} // RVA: 0x7FFAF33F66A0
-        public void OnEnable_946718D83485(){} // RVA: 0x7FFAF33F69C0
         public void .cctor(){} // RVA: 0x7FFAF33F6CE0
         public void IndexOf(){} // RVA: 0x7FFAF33F6D60
         public void LastIndexOf(){} // RVA: 0x7FFAF33F71D0
         public void SetParameters(){} // RVA: 0x7FFAF33F74F0
+        // ── Unresolved (hash) ──
+        public void m_941(){} // RVA: 0x7FFAF33F66A0
+        public void m_946(){} // RVA: 0x7FFAF33F69C0
     }
 
     /// <summary>Originally: ÎÎÍÍÌÎÏÏÏÏÍÏÍÎÍÏÎÏÏÌÏÌÎ</summary>
@@ -1152,18 +1190,18 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAF37CEAA0
-        public void Update(){} // RVA: 0x7FFAF37CED20
         public void CancelInvoke(){} // RVA: 0x7FFAF37CEEA0
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAF37CEF20
         public void OnDisable(){} // RVA: 0x7FFAF37CEEA0
-        public void Initialize(){} // RVA: 0x7FFAF37CF0A0
-        public void OnEnable_C47FBDB26636(){} // RVA: 0x7FFAF37CF220
-        public void OnDisable_01A1B01B08FC(){} // RVA: 0x7FFAF37CF420
         public void OnEnable(){} // RVA: 0x7FFAF37CF520
         public void ProcessUnsafeProfilerUnsafeUtility(){} // RVA: 0x7FFAF37CEAA0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
         public void m_3F5(){} // RVA: 0x7FFAF37CEBA0
+        public void m_F5D(){} // RVA: 0x7FFAF37CED20
+        public void m_AD9(){} // RVA: 0x7FFAF37CF0A0
+        public void m_C47(){} // RVA: 0x7FFAF37CF220
+        public void m_01A(){} // RVA: 0x7FFAF37CF420
     }
 
     /// <summary>Originally: ÌÏÌÏÌÍÌÏÎÎÏÌÍÌÍÏÎÌÍÎÌÏÌ</summary>
@@ -1172,7 +1210,6 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFBD709E0
         public void OnEnable2B4F45D701AE(){} // RVA: 0x7FFAFBD711E0
-        public void Update(){} // RVA: 0x7FFAFBD71350
         public void CancelInvoke(){} // RVA: 0x7FFAFBD71BB0
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFBD71D20
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFBD71DA0
@@ -1184,6 +1221,8 @@ namespace VRC.Audio
         public void DestroyAmbisonicSource(){} // RVA: 0x7FFAFBD72330
         public void GetSpineMapping(){} // RVA: 0x7FFAFBD72BC0
         public void SetAmbisonicOrientation(){} // RVA: 0x7FFAFBD73450
+        // ── Unresolved (hash) ──
+        public void m_FAF(){} // RVA: 0x7FFAFBD71350
     }
 
     /// <summary>Originally: ÌÎÎÍÍÏÎÎÎÏÏÏÎÏÏÎÎÏÌÍÎÌÎ</summary>
@@ -1192,12 +1231,10 @@ namespace VRC.Audio
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFB6F3010
         public void UpdateAmbisonics(){} // RVA: 0x7FFAF3C895B0
-        public void Update_C9ED83B2DF2E(){} // RVA: 0x7FFAFB6F3020
         public void CancelInvoke(){} // RVA: 0x7FFAFB6F3170
         public void OnEnable_2B4F45D701AE(){} // RVA: 0x7FFAFB6F33A0
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFB6F3610
         public void Update(){} // RVA: 0x7FFAFB6F3620
-        public void OnEnable_338241E6F8A1(){} // RVA: 0x7FFAFB6F3800
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB6F38E0
         public void Start(){} // RVA: 0x7FFAFB6F38F0
@@ -1208,6 +1245,9 @@ namespace VRC.Audio
         public void DestroyNativeDecoder(){} // RVA: 0x7FFAFB6F3D70
         public void EnableNativeAmbisonics(){} // RVA: 0x7FFAFB6F3FE0
         public void DisableNativeAmbisonics(){} // RVA: 0x7FFAFB6F41C0
+        // ── Unresolved (hash) ──
+        public void m_C9E(){} // RVA: 0x7FFAFB6F3020
+        public void m_338(){} // RVA: 0x7FFAFB6F3800
     }
 
     /// <summary>Originally: ÍÎÍÌÌÌÎÎÎÏÌÏÏÎÏÎÌÏÌÎÏÍÌ</summary>
@@ -1215,7 +1255,6 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void .ctor_23927B099279(){} // RVA: 0x7FFAF35870B0
-        public void Initialize(){} // RVA: 0x7FFAF3587460
         public void FindComponentByGameObject(){} // RVA: 0x7FFAF2DBB0C0
         public void set_Instance(){} // RVA: 0x7FFAF2DBB0C0
         public void InitializeONSPSettings(){} // RVA: 0x7FFAF2DBB0C0
@@ -1224,6 +1263,8 @@ namespace VRC.Audio
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void GetTransform(){} // RVA: 0x7FFAF3587BC0
         public void ResetSettings(){} // RVA: 0x7FFAF2DBB130
+        // ── Unresolved (hash) ──
+        public void m_A85(){} // RVA: 0x7FFAF3587460
     }
 
     /// <summary>Originally: ÍÍÎÏÏÌÍÍÏÍÍÏÍÏÎÏÎÎÍÎÎÏÎ</summary>
@@ -1231,7 +1272,6 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void .ctor_23927B099279(){} // RVA: 0x7FFAFB580840
-        public void Initialize(){} // RVA: 0x7FFAFB5809C0
         public void set_Instance(){} // RVA: 0x7FFAFB580C30
         public void GetIsActiveAndEnabled(){} // RVA: 0x7FFAFB580D10
         public void set_Instance_217A89CC68BA(){} // RVA: 0x7FFAFB580DC0
@@ -1241,6 +1281,7 @@ namespace VRC.Audio
         public void GetReactionTorque(){} // RVA: 0x7FFAFB5810D0
         public void GetIsActiveAndEnabled_979C85865388(){} // RVA: 0x7FFAFB580D10
         // ── Unresolved (hash) ──
+        public void m_053(){} // RVA: 0x7FFAFB5809C0
         public void m_25E(){} // RVA: 0x7FFAFB580B50
     }
 
@@ -1289,12 +1330,7 @@ namespace VRC.Audio
     {
         // ── Methods ──
         public void OnDrawGizmos(){} // RVA: 0x7FFAF3607F30
-        public void Equals(){} // RVA: 0x7FFAF360ADA0
         public void ProcessPhysics(){} // RVA: 0x7FFAF360B400
-        public void ToString(){} // RVA: 0x7FFAF360BF00
-        public void ToString_EF891FDBD254(){} // RVA: 0x7FFAF360C220
-        public void Equals_0B73BA2DDE07(){} // RVA: 0x7FFAF360C3A0
-        public void ToString_E5CD5FCC1CBD(){} // RVA: 0x7FFAF360C4F0
         public void Awake(){} // RVA: 0x7FFAF360CA00
         public void Stop(){} // RVA: 0x7FFAF360E6F0
         public void Start(){} // RVA: 0x7FFAF360EAC0
@@ -1303,19 +1339,18 @@ namespace VRC.Audio
         public void GetRadius(){} // RVA: 0x7FFAF360FA40
         public void GetRadius_83E9E5E89F69(){} // RVA: 0x7FFAF360FAA0
         public void ConfigureAudio(){} // RVA: 0x7FFAF3610630
-        public void Equals_F15738B514BE(){} // RVA: 0x7FFAF3610920
         public void SetVolume(){} // RVA: 0x7FFAF3610D70
         public void GetChild(){} // RVA: 0x7FFAF3611230
         public void SetAngularDrag(){} // RVA: 0x7FFAF36117E0
         public void Update(){} // RVA: 0x7FFAF3611970
         public void OnDestroy(){} // RVA: 0x7FFAF3612180
-        // ── 20 unresolved (hash) ──
+        // ── 26 unresolved (hash) ──
         public void m_DD5(){} // RVA: 0x7FFAF360A4F0
         public void m_EC9(){} // RVA: 0x7FFAF360A7F0
+        public void m_3AC(){} // RVA: 0x7FFAF360ADA0
         public void m_77D(){} // RVA: 0x7FFAF360ADB0
         public void m_CD9(){} // RVA: 0x7FFAF360B0A0
-        public void m_9CA(){} // RVA: 0x7FFAF360BBA0
-        // ... 15 more unresolved methods
+        // ... 21 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÌÌÌÎÏÌÌÌÍÍÍÍÏÍÏÏÏÏÍÎÎ</summary>

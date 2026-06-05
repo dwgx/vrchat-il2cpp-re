@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name",
+    "CompareBaseObjects",
+    "GetRealtimeSinceStartup",
+    ".ctor",
+    "get_name",
+    "GetInstanceID",
+    "GetCachedPtr",
+    "ResolveFindObjectsDestroy",
+    ".cctor",
+    "IsNativeObjectAlive"
+  ],
+  "hash_methods": [
+    "m_B52",
+    "m_003",
+    "m_5D3",
+    "m_AD2",
+    "m_946",
+    "m_B5A",
+    "m_9C8",
+    "m_9FB"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "ctorDerivedSiblingSiblingSibling_022A",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "Awake",
+    "OnEnable",
+    "InitializeNavMeshPath",
+    "SetDestination",
+    "SetDestination_C8B4C80FC801",
+    "InitializeNavMeshPath_485095BEA90E",
+    ".ctor",
+    "Initialize",
+    "CalculateHorizontalDistance",
+    "OnDrawGizmos",
+    "ResetLocalTransform",
+    "OnDestroy",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_5B8",
+    "m_5B0",
+    "m_B30",
+    "m_FA0"
+  ]
+}

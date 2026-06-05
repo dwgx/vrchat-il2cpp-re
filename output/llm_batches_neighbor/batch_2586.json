@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PointerPreCullHandler_2B6ASibling_BAA2",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "Start",
+    "OnPreCull",
+    "Update",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DA4",
+    "m_C9E",
+    "m_365",
+    "m_8DD",
+    "m_D29",
+    "m_61D"
+  ]
+}

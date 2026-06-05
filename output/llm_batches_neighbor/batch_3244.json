@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_BC92",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "get_Current",
+    "System.IDisposable.Dispose",
+    "Equals",
+    "GetHashCode",
+    "System.Collections.IEnumerator.get_Current",
+    "ToString",
+    "MoveNext",
+    "System.Collections.IEnumerator.Reset",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_DB7"
+  ]
+}

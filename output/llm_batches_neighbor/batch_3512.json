@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "PhysicsTransformHandler_6CC1",
+  "parent": "",
+  "named_methods": [
+    "GetStructuralHashCode",
+    "GetStructuralHashCode_B234DD79AC0C",
+    ".ctor",
+    "Initialize",
+    "ToString",
+    "ToString_CBC44F76A4CD",
+    "ToString_61B6DD0FC172",
+    "SerializeTransformState",
+    "GetMass"
+  ],
+  "hash_methods": [
+    "m_907",
+    "m_5F8"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F67C",
+  "parent": "",
+  "named_methods": [
+    "set_CacheWritingBehavior",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_49A",
+    "m_020",
+    "m_3C2",
+    "m_940",
+    "m_DA7",
+    "m_619",
+    "m_44C",
+    "m_BCF",
+    "m_87A",
+    "m_020"
+  ]
+}

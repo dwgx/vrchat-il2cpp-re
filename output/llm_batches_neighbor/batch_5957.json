@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "TransformBehaviourHandler_0916",
+  "parent": "",
+  "named_methods": [
+    "GetEnabled",
+    ".ctor",
+    "Initialize",
+    "GetEnabled_4E40DD0AF272",
+    "GetLocalPosition",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A38",
+    "m_381",
+    "m_F29",
+    "m_B24",
+    "m_E04",
+    "m_254",
+    "m_BCF",
+    "m_062",
+    "m_7AF",
+    "m_056"
+  ]
+}

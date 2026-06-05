@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_E5E7",
+  "parent": "",
+  "named_methods": [
+    "DecodeUtf8CodePoint",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_2DF",
+    "m_807",
+    "m_71A",
+    "m_817",
+    "m_5E1",
+    "m_F91",
+    "m_9BF",
+    "m_98E",
+    "m_1A2"
+  ]
+}

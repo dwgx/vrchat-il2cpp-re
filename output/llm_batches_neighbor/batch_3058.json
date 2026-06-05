@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "RectComputeDimensionsComponent_90EB",
+  "parent": "",
+  "named_methods": [
+    "GetUseSpring",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "FixedUpdate",
+    "OnEnable",
+    "Start",
+    "OnDisable",
+    "OnDestroy",
+    "LateUpdate",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnApplicationPause",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "Awake",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnCollisionExit",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_D1C",
+    "m_A66"
+  ]
+}

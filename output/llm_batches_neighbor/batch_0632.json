@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "Static42m_8BE4",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "GetMaterialActiveColorSpace",
+    "ProcessMaterial",
+    "ConfigureRenderTexture",
+    "ProcessRenderTexture",
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_2E1",
+    "m_B08",
+    "m_1B3",
+    "m_B03",
+    "m_4CE",
+    "m_E6B",
+    "m_3FB",
+    "m_7E5",
+    "m_B90",
+    "m_0DB"
+  ]
+}

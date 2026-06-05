@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "ONSPSettingsSibling_A458",
+  "parent": "",
+  "named_methods": [
+    ".ctor_23927B099279",
+    "Initialize",
+    "set_Instance",
+    "GetIsActiveAndEnabled",
+    "set_Instance_217A89CC68BA",
+    ".ctor",
+    "GetReactionForce",
+    "GetIsActiveAndEnabled_6EC75DC15548",
+    "GetReactionTorque",
+    "GetIsActiveAndEnabled_979C85865388"
+  ],
+  "hash_methods": [
+    "m_25E"
+  ]
+}

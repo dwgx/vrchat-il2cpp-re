@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "Static30m_FD66",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_FA0",
+    "m_CBC",
+    "m_D7C",
+    "m_607",
+    "m_E0D",
+    "m_3DA",
+    "m_4A3",
+    "m_C2F",
+    "m_45D",
+    "m_088"
+  ]
+}

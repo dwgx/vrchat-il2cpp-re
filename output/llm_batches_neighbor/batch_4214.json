@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "PointerDownBeginDrag_9BA6",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "InvokePointerDownBeginDrag",
+    "OnBeginDrag",
+    "OnPointerDown",
+    "Update",
+    "OnPointerUp",
+    "set_CacheWritingBehavior"
+  ],
+  "hash_methods": [
+    "m_013",
+    "m_8FB",
+    "m_070",
+    "m_D91",
+    "m_2BE",
+    "m_864",
+    "m_B2E",
+    "m_DB9"
+  ]
+}

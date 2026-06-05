@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name_FBAAE3952971",
+    "IsNativeObjectAlive",
+    ".ctor",
+    "Initialize",
+    "GetAndProcessDateTime",
+    ".cctor",
+    "set_name_3DE88C0C17BA"
+  ],
+  "hash_methods": [
+    "m_976",
+    "m_B38"
+  ]
+}

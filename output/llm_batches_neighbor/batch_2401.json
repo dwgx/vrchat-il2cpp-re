@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_3F75",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".cctor",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_FFC",
+    "m_08B",
+    "m_AFD",
+    "m_ED0",
+    "m_ADF",
+    "m_69D",
+    "m_3F8",
+    "m_480",
+    "m_D95",
+    "m_FE4"
+  ]
+}

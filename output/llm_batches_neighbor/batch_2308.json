@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_5355_6343",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "Start",
+    "Awake",
+    "Update",
+    "LateUpdate",
+    "FixedUpdate",
+    "OnDestroy",
+    ".ctor",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_6CC",
+    "m_664"
+  ]
+}

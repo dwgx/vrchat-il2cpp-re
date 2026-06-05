@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "CloneSiblingSibling_AB06",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_FC0",
+    "m_619"
+  ]
+}

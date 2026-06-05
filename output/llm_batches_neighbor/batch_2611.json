@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static15m_CDEA",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnDestroy",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A41",
+    "m_C5A",
+    "m_11C",
+    "m_1CC",
+    "m_CE1",
+    "m_03C",
+    "m_F46",
+    "m_2AD",
+    "m_9A2",
+    "m_561"
+  ]
+}

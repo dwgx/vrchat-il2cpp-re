@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AudioHandler_890F",
+  "parent": "",
+  "named_methods": [
+    "TrySetResult",
+    ".ctor",
+    "Initialize",
+    "SetPriority",
+    "TrySetResult_F255333B0096"
+  ],
+  "hash_methods": [
+    "m_03A",
+    "m_1A2",
+    "m_706"
+  ]
+}

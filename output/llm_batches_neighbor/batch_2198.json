@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySiblingSibling_BC46",
+  "parent": "",
+  "named_methods": [
+    "GetSkybox",
+    "MoveNext",
+    "Awake",
+    "OnDestroy",
+    "GetSkybox_C5877C581EB9",
+    "HasProperty",
+    "Start",
+    "GetIsDone",
+    ".ctor",
+    "Initialize",
+    "ProcessTransform",
+    "Update",
+    "GetIsDone_6011F75F8317"
+  ],
+  "hash_methods": [
+    "m_4CD",
+    "m_6B3"
+  ]
+}

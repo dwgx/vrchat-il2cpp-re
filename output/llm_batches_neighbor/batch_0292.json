@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "get_name",
+    "ReadGridCellGap",
+    "Equals",
+    ".cctor",
+    "GetInstanceID",
+    "CompareBaseObjects",
+    ".ctor",
+    "get_name_3DE88C0C17BA",
+    "set_name_3DE88C0C17BA"
+  ],
+  "hash_methods": [
+    "m_445",
+    "m_266",
+    "m_C67"
+  ]
+}

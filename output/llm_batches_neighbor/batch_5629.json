@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_089F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetTime"
+  ],
+  "hash_methods": [
+    "m_437",
+    "m_A96",
+    "m_4FB",
+    "m_396",
+    "m_F61",
+    "m_50C",
+    "m_0E1"
+  ]
+}

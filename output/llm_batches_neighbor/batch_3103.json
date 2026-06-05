@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "InputHandler_4691",
+  "parent": "",
+  "named_methods": [
+    "LastIndexOf",
+    "IndexOf",
+    ".ctor",
+    "Initialize",
+    "ProcessPlayableHandle",
+    "ProcessPlayableHandle_F4C8818EEA6C"
+  ],
+  "hash_methods": [
+    "m_124",
+    "m_2C9",
+    "m_7DA",
+    "m_D79",
+    "m_651",
+    "m_96F",
+    "m_8BB"
+  ]
+}

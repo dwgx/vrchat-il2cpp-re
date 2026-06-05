@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitImpl_EA8F_F9DA",
+  "parent": "",
+  "named_methods": [
+    "FixedUpdate",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_6D2",
+    "m_FA4",
+    "m_503",
+    "m_944",
+    "m_0B1"
+  ]
+}

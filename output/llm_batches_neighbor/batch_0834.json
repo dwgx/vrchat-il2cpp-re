@@ -1,0 +1,43 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySibling_4627",
+  "parent": "",
+  "named_methods": [
+    "OnDrawGizmos",
+    "OnDisable",
+    "Update",
+    "DelegateConstructor",
+    "get_Item",
+    "OnEnable",
+    "HasTextureImpl",
+    "HasTextureImpl_B360C8913B7B",
+    "HasProperty",
+    "HasProperty_EFC5A2681A6E",
+    "ProcessMaterial",
+    "GetFloatImpl",
+    ".ctor",
+    "Initialize",
+    "InitializeClosedInstanceDelegate",
+    ".cctor",
+    "TryGetValue",
+    "PropertyToID",
+    "Awake",
+    "OnDestroy",
+    "LateUpdate",
+    "Start",
+    "ReadAnimatorState",
+    "ReadAnimatorState_61D3977B7A6D"
+  ],
+  "hash_methods": [
+    "m_601",
+    "m_8C1",
+    "m_E41",
+    "m_2F7",
+    "m_01E",
+    "m_71D",
+    "m_A44",
+    "m_A40",
+    "m_4B0",
+    "m_BE7"
+  ]
+}

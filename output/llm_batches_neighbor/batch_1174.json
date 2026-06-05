@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "AnimationUIHandler_BE53",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "OnEnable",
+    "OnDisable",
+    "ToArray",
+    "ConstructFromArrayStart",
+    "ToString",
+    "ToArray_FD85A18054E3",
+    "ToArray_34CA7D80C5E8",
+    ".ctor",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_41F",
+    "m_4EC",
+    "m_E6A",
+    "m_3CD",
+    "m_96F",
+    "m_D5F"
+  ]
+}

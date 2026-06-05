@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_FFFD",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ApplyQuaternionAtCurrentFrame"
+  ],
+  "hash_methods": [
+    "m_010",
+    "m_8EE",
+    "m_C29",
+    "m_C59",
+    "m_FE8",
+    "m_83C",
+    "m_52E",
+    "m_237"
+  ]
+}

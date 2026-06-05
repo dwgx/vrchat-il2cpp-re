@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    ".cctor",
+    "set_hideFlags",
+    ".ctor",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_2F3",
+    "m_501",
+    "m_8F0",
+    "m_1DB",
+    "m_E45",
+    "m_7DD"
+  ]
+}

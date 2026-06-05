@@ -1,0 +1,38 @@
+{
+  "namespace": "",
+  "class": "TransformRectApplyComponent_87A9",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "OnEnable",
+    "FixedUpdate",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_EED",
+    "m_B4C",
+    "m_34C",
+    "m_89E",
+    "m_9AC",
+    "m_5C6",
+    "m_752",
+    "m_3AC",
+    "m_996",
+    "m_450"
+  ]
+}

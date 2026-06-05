@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "CameraRenderingHandler_D0B1",
+  "parent": "",
+  "named_methods": [
+    "ProcessCamera",
+    ".ctor",
+    "Initialize",
+    "GetTargetTexture"
+  ],
+  "hash_methods": [
+    "m_D5F",
+    "m_D39",
+    "m_E66",
+    "m_E7C"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "SecurityaspectModeRelatedRelated_E2C1",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_5B5"
+  ]
+}

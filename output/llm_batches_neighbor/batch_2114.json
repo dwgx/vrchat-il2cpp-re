@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "CleanupDisposeFinalizeStaticMethods_A37E",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    ".ctor",
+    "Finalize",
+    "GetSprite"
+  ],
+  "hash_methods": [
+    "m_9B7",
+    "m_ED0",
+    "m_F2E",
+    "m_035",
+    "m_EF3",
+    "m_648",
+    "m_731",
+    "m_515",
+    "m_648",
+    "m_1E6"
+  ]
+}

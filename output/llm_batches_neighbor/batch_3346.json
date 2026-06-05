@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PointerEnterSiblingSibling_BCAB",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_AF1",
+    "m_E25",
+    "m_C00",
+    "m_C01",
+    "m_4DE",
+    "m_F46"
+  ]
+}

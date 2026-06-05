@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PointerDownPointerUpSiblingSibling_9FBC",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessTransform",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_784",
+    "m_5A2",
+    "m_F42",
+    "m_F24",
+    "m_71C",
+    "m_1D5",
+    "m_FF9",
+    "m_7ED",
+    "m_031",
+    "m_BFA"
+  ]
+}

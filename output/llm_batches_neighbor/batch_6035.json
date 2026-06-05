@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_F2CB",
+  "parent": "",
+  "named_methods": [
+    "System.Collections.IEnumerator.get_Current",
+    "get_Current",
+    "Equals",
+    "GetHashCode",
+    ".ctor",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "ToString",
+    "Dispose",
+    "System.IDisposable.Dispose",
+    "MoveNext",
+    "System.Collections.IEnumerator.Reset"
+  ],
+  "hash_methods": [
+    "m_4F1"
+  ]
+}

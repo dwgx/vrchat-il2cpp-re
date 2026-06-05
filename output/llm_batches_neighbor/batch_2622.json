@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static51m_8A0F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_1D4",
+    "m_50F",
+    "m_23F",
+    "m_887",
+    "m_51A",
+    "m_A36",
+    "m_FA1",
+    "m_1B5",
+    "m_555",
+    "m_A5A"
+  ]
+}

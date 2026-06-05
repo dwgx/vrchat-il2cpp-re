@@ -1,0 +1,6 @@
+{
+  "m_E3E": "SetPhysBoneGravityVector",
+  "m_9F1": "SetNameAction",
+  "m_DC8": "IsNativeObjectAlive",
+  "m_D03": "GetIntegerFromDelegate"
+}

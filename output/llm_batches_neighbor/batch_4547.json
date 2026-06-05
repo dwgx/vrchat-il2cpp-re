@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_A96C",
+  "parent": "",
+  "named_methods": [
+    "ProcessVector3",
+    "GetOrCreateKeyframeList",
+    ".ctor",
+    "Initialize",
+    "AddKeyframe"
+  ],
+  "hash_methods": [
+    "m_CF5",
+    "m_566",
+    "m_49B",
+    "m_76E"
+  ]
+}

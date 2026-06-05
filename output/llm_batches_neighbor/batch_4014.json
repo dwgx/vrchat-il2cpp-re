@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_26D7",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "Update",
+    "LateUpdate",
+    ".ctor",
+    "Initialize",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay"
+  ],
+  "hash_methods": [
+    "m_889"
+  ]
+}

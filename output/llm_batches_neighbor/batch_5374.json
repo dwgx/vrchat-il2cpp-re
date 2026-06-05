@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PointerPreCull_94DB",
+  "parent": "",
+  "named_methods": [
+    "OnPostRender",
+    "OnPreCull",
+    ".ctor",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_EA7",
+    "m_950",
+    "m_957",
+    "m_C30",
+    "m_2CA",
+    "m_319",
+    "m_89D",
+    "m_516"
+  ]
+}

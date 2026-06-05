@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "MaterialRendererHandler_9738",
+  "parent": "",
+  "named_methods": [
+    "GetMaterial",
+    ".ctor",
+    "Initialize",
+    "FormatStringVarArgs",
+    "ConvertUtf8ToUtf16",
+    ".ctor",
+    "AppendUtf16ToUtf8",
+    "DecodeUtf8CodePoint"
+  ],
+  "hash_methods": [
+    "m_E32",
+    "m_965",
+    "m_C44",
+    "m_A0A",
+    "m_CFD",
+    "m_249",
+    "m_A5C",
+    "m_20D",
+    "m_642"
+  ]
+}

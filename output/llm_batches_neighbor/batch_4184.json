@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_DDEA",
+  "parent": "",
+  "named_methods": [
+    "GetOrCreateCachedQuaternion",
+    ".ctor",
+    "Initialize",
+    "GetOrCreateCachedQuaternion_26F31603FBA0"
+  ],
+  "hash_methods": [
+    "m_D96",
+    "m_DB4",
+    "m_718",
+    "m_143",
+    "m_7FA",
+    "m_285"
+  ]
+}

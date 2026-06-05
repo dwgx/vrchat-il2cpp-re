@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_5F27",
+  "parent": "",
+  "named_methods": [
+    "GetChildCount",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_D80",
+    "m_216",
+    "m_BA0",
+    "m_115",
+    "m_B70",
+    "m_526",
+    "m_B57"
+  ]
+}

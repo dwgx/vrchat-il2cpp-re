@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static16m_D85E",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_F3B",
+    "m_CBC",
+    "m_147",
+    "m_D55",
+    "m_D36",
+    "m_004",
+    "m_D48",
+    "m_09E",
+    "m_AA7",
+    "m_176"
+  ]
+}

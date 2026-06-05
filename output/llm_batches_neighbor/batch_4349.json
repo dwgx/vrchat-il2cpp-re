@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_0C2A",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "AddTransform",
+    ".ctor",
+    "Initialize",
+    "RefreshChildTransforms",
+    "CalculateAveragePosition",
+    "InitializeDefaultSettings",
+    "GetChild",
+    "Awake",
+    "AddTransform_44FDCBEDCFEF"
+  ],
+  "hash_methods": [
+    "m_E80",
+    "m_300",
+    "m_0CE",
+    "m_593",
+    "m_4BB",
+    "m_06A",
+    "m_D27",
+    "m_30B",
+    "m_A54"
+  ]
+}

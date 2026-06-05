@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_371C",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "SetStateMachine",
+    "ConfigureTransformLocal"
+  ],
+  "hash_methods": [
+    "m_DB9",
+    "m_63A",
+    "m_124",
+    "m_0A8"
+  ]
+}

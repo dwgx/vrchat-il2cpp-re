@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_C80F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "TryGetValue",
+    "TryGetValue_A6E81C035208",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_618",
+    "m_3F8"
+  ]
+}

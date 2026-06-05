@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_A68D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Awake",
+    "OnDestroy",
+    "Start",
+    "Update",
+    "ConfigureComponent",
+    "LateUpdate",
+    "OnDisable",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter"
+  ],
+  "hash_methods": [
+    "m_F5C"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiblingSibling_088A",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_E2A",
+    "m_AEB",
+    "m_71F",
+    "m_E9D",
+    "m_CD9",
+    "m_8B6",
+    "m_FE6",
+    "m_2F0"
+  ]
+}

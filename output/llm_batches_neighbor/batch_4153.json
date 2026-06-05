@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "TransformPhysicsHandler_C73B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetIsKinematic"
+  ],
+  "hash_methods": [
+    "m_25C",
+    "m_D98",
+    "m_231",
+    "m_A07",
+    "m_964",
+    "m_01F",
+    "m_18D",
+    "m_ACA",
+    "m_E80",
+    "m_5A0"
+  ]
+}

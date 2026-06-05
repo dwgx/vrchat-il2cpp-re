@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_87C6",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "ClearHuffmanTables",
+    "PqDownHeap",
+    "GenerateBitLengths",
+    "GenerateHuffmanCodes",
+    "BuildHuffmanDecodeTable"
+  ],
+  "hash_methods": [
+    "m_410"
+  ]
+}

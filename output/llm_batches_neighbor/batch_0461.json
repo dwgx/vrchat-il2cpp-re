@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "AssetPreloader",
+  "parent": "",
+  "named_methods": [
+    "Initialize_C7F63F0380B4",
+    "GetAssetBundleRequestAllAssets",
+    "Dispose",
+    "Cleanup",
+    "ApplyCachedLocalPosition",
+    "GetPreloadAssets",
+    "AddPreloadAssetsFromEntry",
+    "Initialize",
+    "TryFindPreloadAssetIndices",
+    "Finalize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_902",
+    "m_F2B",
+    "m_8BD",
+    "m_4A1",
+    "m_AC0",
+    "m_B59",
+    "m_D88",
+    "m_EDE",
+    "m_06D",
+    "m_866"
+  ]
+}

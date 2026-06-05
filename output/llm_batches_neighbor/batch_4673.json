@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_4EEA",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "GetUseGravity",
+    "ConstructSparseHashIterator",
+    "ResizeSparseHashBuckets"
+  ],
+  "hash_methods": [
+    "m_6EA",
+    "m_6C6",
+    "m_6F8",
+    "m_EEE",
+    "m_016"
+  ]
+}

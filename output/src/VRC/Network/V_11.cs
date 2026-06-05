@@ -86,13 +86,8 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_0764
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAF46B8AC0
         public void GetStructuralHashCode(){} // RVA: 0x7FFAF46B8D30
-        public void Equals_61BFCC218E0B(){} // RVA: 0x7FFAF46B8ED0
         public void CompareTo(){} // RVA: 0x7FFAF46B9380
-        public void Equals_49A97FD253EB(){} // RVA: 0x7FFAF46B95B0
-        public void GetHashCode(){} // RVA: 0x7FFAF46B9800
-        public void GetHashCode_1989F07F24FB(){} // RVA: 0x7FFAF46B98D0
         public void GetGraphicsDevice_A7B9FF4C1B12(){} // RVA: 0x7FFAF46B9FD0 | overloaded x2
         public void EndOpenSource_D5E8F9D62572(){} // RVA: 0x7FFAF46BB350 | overloaded x2
         public void GetStructuralHashCode_5D7DB08BF712(){} // RVA: 0x7FFAF46BBF40
@@ -102,18 +97,14 @@ namespace VRC.Network
         public void ProcessCamera(){} // RVA: 0x7FFAF46BD270
         public void GetFrameRate(){} // RVA: 0x7FFAF46BD810
         public void CanPlay(){} // RVA: 0x7FFAF46BDAE0
-        public void ToString(){} // RVA: 0x7FFAF46BDD90
-        public void ToString_4CC74AF48D66(){} // RVA: 0x7FFAF46BE590
         public void .cctor(){} // RVA: 0x7FFAF46BE9F0
-        // ── Unresolved (hash) ──
-        public void m_053(){} // RVA: 0x7FFAF46BA6C0
-        public void m_D83(){} // RVA: 0x7FFAF46BADA0
-        public void m_9DA(){} // RVA: 0x7FFAF46BB840
-        public void m_1E3(){} // RVA: 0x7FFAF46BBC80
-        public void m_EA5(){} // RVA: 0x7FFAF46BC1F0
-        public void m_E91(){} // RVA: 0x7FFAF46BC4B0
-        public void m_F99(){} // RVA: 0x7FFAF46BCFB0
-        public void m_15B(){} // RVA: 0x7FFAF46BD540
+        // ── 15 unresolved (hash) ──
+        public void m_BEA(){} // RVA: 0x7FFAF46B8AC0
+        public void m_61B(){} // RVA: 0x7FFAF46B8ED0
+        public void m_49A(){} // RVA: 0x7FFAF46B95B0
+        public void m_28D(){} // RVA: 0x7FFAF46B9800
+        public void m_198(){} // RVA: 0x7FFAF46B98D0
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÎÌÏÏÎÍÌÍÏÏÌÍÎÏÍÍÍÎÌÍÌ</summary>
@@ -125,9 +116,9 @@ namespace VRC.Network
         public void SetParent_016CB637BE71(){} // RVA: 0x7FFAF498A280
         public void Dispose(){} // RVA: 0x7FFAF498A5C0
         public void Cleanup(){} // RVA: 0x7FFAF498A630
-        public void GetHashCode(){} // RVA: 0x7FFAF498A7D0
         // ── Unresolved (hash) ──
         public void m_95D(){} // RVA: 0x7FFAF498A420
+        public void m_410(){} // RVA: 0x7FFAF498A7D0
     }
 
     /// <summary>Originally: ÏÍÍÍÎÌÍÎÎÍÏÍÍÍÍÌÌÍÍÌÌÏÍ</summary>

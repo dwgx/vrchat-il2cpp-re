@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "SpatialAudioHandler_12D9",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "IndexOf",
+    "IndexOf_59A3921413DB",
+    "IndexOf_2151336463C7",
+    "IndexOf_F4E8D6D5414B",
+    "Dispose",
+    "Cleanup",
+    "IndexOf_C3B05948A0E5",
+    "IndexOf_38564F310AA4",
+    "IndexOf_6F88E0E35C3C"
+  ],
+  "hash_methods": [
+    "m_DA7",
+    "m_00C",
+    "m_63F",
+    "m_3F0",
+    "m_023",
+    "m_43D",
+    "m_C30"
+  ]
+}

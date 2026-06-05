@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "NetworkItemSibling_FEF9SiblingSibling_F29B",
+  "parent": "",
+  "named_methods": [
+    "get_Count",
+    ".ctor",
+    "Initialize",
+    "get_Item",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_CF7",
+    "m_013"
+  ]
+}

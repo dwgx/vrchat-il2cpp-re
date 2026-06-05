@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSiblingSSibling_ED17",
+  "parent": "",
+  "named_methods": [
+    "ConfigureTransformLocal",
+    "ConfigureTransformLocal_E8EB637FEA94",
+    "ConfigureTransform",
+    ".ctor",
+    "Initialize",
+    "ConfigureTransform_1A3C1F4C12AB"
+  ],
+  "hash_methods": [
+    "m_EB5",
+    "m_25B",
+    "m_F5B",
+    "m_1EE",
+    "m_247",
+    "m_6A9",
+    "m_3D8",
+    "m_F3D",
+    "m_132",
+    "m_4E5"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_14AA",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "Start",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_170",
+    "m_530",
+    "m_0C8",
+    "m_A27"
+  ]
+}

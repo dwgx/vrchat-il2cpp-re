@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PlayerReleaseHandle_4BC5",
+  "parent": "",
+  "named_methods": [
+    "GetRoot",
+    "GetRoot_00E3664B3C7C",
+    "ReleaseHandle",
+    "GetRoot_3DC33AE73861",
+    ".cctor",
+    "SetBounceThreshold",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_CF0",
+    "m_8D8",
+    "m_4A5",
+    "m_E3A",
+    "m_D22",
+    "m_E09"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "FinalizeStaticMethods_1282",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Finalize"
+  ],
+  "hash_methods": [
+    "m_496",
+    "m_DDD",
+    "m_688",
+    "m_A88",
+    "m_9A3",
+    "m_A1A"
+  ]
+}

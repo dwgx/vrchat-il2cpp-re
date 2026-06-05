@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_6938",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "IndexOf",
+    "IndexOf_DB9331771C7C",
+    "IndexOf_CE3811BE79BB",
+    "LastIndexOf",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_7F6",
+    "m_EC8"
+  ]
+}

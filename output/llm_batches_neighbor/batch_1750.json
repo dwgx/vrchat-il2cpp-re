@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_2A41",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay"
+  ],
+  "hash_methods": [
+    "m_423"
+  ]
+}

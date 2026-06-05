@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Ctor7BoxSecondComponent_EB90",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_C28",
+    "m_08E",
+    "m_E05",
+    "m_0DE",
+    "m_FBE",
+    "m_A83",
+    "m_E78",
+    "m_98F"
+  ]
+}

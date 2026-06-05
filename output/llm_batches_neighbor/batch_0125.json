@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "SetHideFlags",
+    "MoveNext",
+    ".cctor",
+    ".ctor",
+    "Instantiate"
+  ],
+  "hash_methods": [
+    "m_660",
+    "m_1B3",
+    "m_B87",
+    "m_0FF"
+  ]
+}

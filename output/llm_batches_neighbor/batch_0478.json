@@ -1,0 +1,40 @@
+{
+  "namespace": "",
+  "class": "OVRLipSync",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy_AD434082A73F",
+    "RaiseCancellation",
+    "Awake",
+    "CancelInvoke_3C1A00D439FA",
+    "Invoke",
+    "StartCoroutineManaged2",
+    "OnCollisionStay_852E3599EAE7",
+    "IsInvoking",
+    "CancelInvoke_3C1A00D439FA",
+    "OnTriggerStay",
+    "OnDestroy",
+    "StartCoroutine_Auto",
+    "StopCoroutine",
+    "Internal_IsInvokingAll",
+    ".cctor_25245ADEC3FD",
+    ".ctor",
+    "Initialize",
+    "set_useGUILayout",
+    ".ctor_431831BA5622",
+    "Initialize_FA55276D91DA",
+    "Internal_IsInvokingAll_15090AE6BB6C",
+    "InvokeDelayed",
+    "OnApplicationPause",
+    "IsObjectMonoBehaviour",
+    "StartCoroutineManaged",
+    "OnCollisionStay_852E3599EAE7",
+    "StopCoroutineManaged",
+    ".cctor",
+    "GetScriptClassName",
+    "OnCancellationTokenCreated"
+  ],
+  "hash_methods": [
+    "m_179"
+  ]
+}

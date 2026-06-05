@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "PointerEnterRelated_C6AF",
+  "parent": "",
+  "named_methods": [
+    "MarshalManagedToNative",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "MarshalNativeToManaged",
+    "MarshalNativeToManaged_035B229B7984",
+    "Start",
+    "MarshalManagedToNative_26BC8ADDC88C"
+  ],
+  "hash_methods": [
+    "m_8A3",
+    "m_BF8",
+    "m_341",
+    "m_D1D",
+    "m_B69",
+    "m_7E8",
+    "m_F63",
+    "m_5BD",
+    "m_4A5",
+    "m_BC4"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_FBB4",
+  "parent": "",
+  "named_methods": [
+    "SetLocalScale",
+    "SetLocalScale_016CB637BE71",
+    "SetLocalScale_C0175E97133A",
+    "Dispose",
+    "Cleanup",
+    "SetLocalScale_24F8FB692E5A",
+    "SetLocalScale_410F56E5D055"
+  ],
+  "hash_methods": [
+    "m_C31"
+  ]
+}

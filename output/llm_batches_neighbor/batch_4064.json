@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "UICanvasHierarchyChanged_6EC2",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "ReadRectOffsetState",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnCanvasHierarchyChanged"
+  ],
+  "hash_methods": [
+    "m_5C9",
+    "m_B8E",
+    "m_5A9",
+    "m_35C",
+    "m_339",
+    "m_FD8",
+    "m_6EA"
+  ]
+}

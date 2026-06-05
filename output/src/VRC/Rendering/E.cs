@@ -22,9 +22,8 @@ namespace VRC.Rendering
         public void set_materialForRendering_3B71080AD584(){} // RVA: 0x7FFAF3403220
         public void Rebuild(){} // RVA: 0x7FFAF3403600
         public void DelayedMaterialRebuild(){} // RVA: 0x7FFAF3403770
+        public void DelayedGraphicRebuild(){} // RVA: 0x7FFAF3403B60
         public void GetMaterial_5499680C1352(){} // RVA: 0x7FFAF3403D60
-        // ── Unresolved (hash) ──
-        public void m_643(){} // RVA: 0x7FFAF3403B60
     }
 
 }

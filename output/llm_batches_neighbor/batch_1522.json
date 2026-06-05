@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_A43B",
+  "parent": "",
+  "named_methods": [
+    "SetActiveGameObject",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_EC5",
+    "m_CCD",
+    "m_86C",
+    "m_A87",
+    "m_376",
+    "m_475",
+    "m_9F0"
+  ]
+}

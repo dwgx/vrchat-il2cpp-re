@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PhotonMasterHandler_B6E1",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ToString",
+    "OnMasterClientSwitched",
+    "ToString_B02BAEF6B7AA",
+    "ToString_2AEEEDBD7739",
+    "ToString_A74F1AF68F0E",
+    "ToString_747B4398187C",
+    "ToString_72E6AFC2981C",
+    "ToString_FF3491B7BE1F"
+  ],
+  "hash_methods": [
+    "m_F90",
+    "m_33D",
+    "m_318",
+    "m_68A"
+  ]
+}

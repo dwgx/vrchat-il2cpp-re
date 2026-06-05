@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_EE81",
+  "parent": "",
+  "named_methods": [
+    "EqualsObject",
+    "GetMatrix",
+    "GetHashCode",
+    "SetColor",
+    "SetMatrix",
+    "SetMatrix_561C8F05B67B",
+    ".ctor",
+    "Initialize",
+    "ToString",
+    "ToString_C565E24CE14F",
+    "Equals",
+    "EqualsObject_3035BF0C4DEC",
+    "GetHashCode_AF3B858DE892",
+    ".cctor",
+    "ToString_25540F3B1E27"
+  ],
+  "hash_methods": [
+    "m_ADF",
+    "m_5B6"
+  ]
+}

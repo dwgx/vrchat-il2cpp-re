@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "AnimationAnimationCurveHandler_23B7",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "SetKeys",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_F6F",
+    "m_562",
+    "m_CB2",
+    "m_A74",
+    "m_976",
+    "m_C9E",
+    "m_AD5"
+  ]
+}

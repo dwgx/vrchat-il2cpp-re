@@ -1,0 +1,36 @@
+{
+  "namespace": "",
+  "class": "TextureCalculateLayoutInpRelated_81F6",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "ExtractArrayFromList",
+    "ExtractArrayFromList_C2A884909B84",
+    "ExtractArrayFromList_D9254B32CD51",
+    "Dispose",
+    "Equals_8A373DF3FE68",
+    "Awake",
+    "ToString",
+    "MultiplyVector",
+    "MultiplyVector_A0D953A13964",
+    "GetHashCode",
+    ".ctor",
+    "OnDestroy",
+    "ToString_728B27C05229",
+    "ConstructFromColumns",
+    "ToStringFormat",
+    "ClampComponents"
+  ],
+  "hash_methods": [
+    "m_58A",
+    "m_679",
+    "m_104",
+    "m_BC4",
+    "m_441",
+    "m_AB8",
+    "m_0D7",
+    "m_E25",
+    "m_F62",
+    "m_4ED"
+  ]
+}

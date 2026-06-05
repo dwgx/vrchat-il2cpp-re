@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static22m_6B53",
+  "parent": "",
+  "named_methods": [
+    "ReadCanvasState",
+    "ConfigureComponent",
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_862",
+    "m_6A5",
+    "m_262",
+    "m_C5E",
+    "m_3EA"
+  ]
+}

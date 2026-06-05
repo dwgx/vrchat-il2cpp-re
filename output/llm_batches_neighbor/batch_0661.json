@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "SearchInFieldsWorldSibling_2147",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "Awake",
+    "OnDestroy",
+    "OnEnable",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_D48",
+    "m_93C",
+    "m_B84",
+    "m_FA4",
+    "m_7EF",
+    "m_04C",
+    "m_4EB",
+    "m_8ED",
+    "m_744"
+  ]
+}

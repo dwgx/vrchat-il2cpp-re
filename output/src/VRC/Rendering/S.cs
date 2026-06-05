@@ -16,7 +16,6 @@ namespace VRC.Rendering
         // ── Methods ──
         public void SettingsConstructor(){} // RVA: 0x7FFAF2DF5470
         public void Start(){} // RVA: 0x7FFAF33108E0
-        public void ToString(){} // RVA: 0x7FFAF2DB5FE0
         public void OnRenderImage(){} // RVA: 0x7FFAF3310F40
         public void get_Value(){} // RVA: 0x7FFAF3311870
         public void Deconstruct(){} // RVA: 0x7FFAF3311980
@@ -31,14 +30,13 @@ namespace VRC.Rendering
         public void Initialize(){} // RVA: 0x7FFAF2DB5FE0
         public void get_Key_69A3C1EF696A(){} // RVA: 0x7FFAF3313440
         public void get_Key_A91D113D212F(){} // RVA: 0x7FFAF3313480
-        public void ToString_77AEA83463A8(){} // RVA: 0x7FFAF2DB5FF0
-        // ── 18 unresolved (hash) ──
+        // ── 20 unresolved (hash) ──
         public void m_3E1(){} // RVA: 0x7FFAF33108A0
         public void m_230(){} // RVA: 0x7FFAF33108D0
         public void m_1A8(){} // RVA: 0x7FFAF3310B20
         public void m_FA0(){} // RVA: 0x7FFAF2DF5470
         public void m_3B7(){} // RVA: 0x7FFAF2DF5460
-        // ... 13 more unresolved methods
+        // ... 15 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÎÎÎÎÌÎÏÎÎÌÎÍÎÏÌÎÌÏÍÏ</summary>

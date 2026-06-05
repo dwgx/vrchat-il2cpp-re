@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static12m_A7CA",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_A85",
+    "m_018",
+    "m_FE6",
+    "m_1DD",
+    "m_1DD",
+    "m_0CD",
+    "m_C62",
+    "m_C10"
+  ]
+}

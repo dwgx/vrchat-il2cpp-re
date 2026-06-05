@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "DoInverseInjecte",
+    "set_planeDistance",
+    "get_planeDistance",
+    "Instantiate",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "IsNativeObjectAlive",
+    "IsNativeObjectAlive_313DAA4AAA02"
+  ],
+  "hash_methods": [
+    "m_2BC"
+  ]
+}

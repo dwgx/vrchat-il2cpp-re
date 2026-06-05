@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ContainsChild",
+    "GetBooleanFromDelegateSelector",
+    "AllocateFrameCache",
+    ".cctor",
+    ".ctor_69354ECCD2A0",
+    "ReadComponentState",
+    "CheckRenderTexture",
+    "CompareBaseObjects",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_640"
+  ]
+}

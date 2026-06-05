@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiblingSibling_D0F1",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_CFA",
+    "m_1D2"
+  ]
+}

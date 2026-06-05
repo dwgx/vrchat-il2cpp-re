@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_B6E9",
+  "parent": "",
+  "named_methods": [
+    "EnsureThreadPoolInitialized",
+    "EnsureThreadPoolInitialized_410F56E5D055",
+    "ThreadPoolWorkerThreadLoop",
+    "Dispose",
+    "Cleanup",
+    "UnsafeQueueCustomWorkItem",
+    "UnsafeQueueCustomWorkItem_6EA0BBD7AB19",
+    "UnsafeQueueCustomWorkItem_6F8246576AC4"
+  ],
+  "hash_methods": [
+    "m_C01",
+    "m_937"
+  ]
+}

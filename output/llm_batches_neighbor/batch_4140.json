@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static47m_86EE",
+  "parent": "",
+  "named_methods": [
+    "ReadCameraState",
+    ".ctor",
+    "Initialize",
+    "CheckRenderingAsyncGpuReadbackRequest"
+  ],
+  "hash_methods": [
+    "m_477",
+    "m_FDF",
+    "m_8B6",
+    "m_258",
+    "m_F82",
+    "m_875",
+    "m_389",
+    "m_329",
+    "m_29C",
+    "m_12B"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "VRC.UI.Elements.Menus",
+  "class": "GalleryPhotosView",
+  "parent": "",
+  "named_methods": [
+    "get_MaxContentCount_033373F0C03C",
+    "set_MaxContentCount",
+    "set_ObservableList",
+    "Start",
+    "OnDisable_E01EA12E2092",
+    "OnEnable",
+    ".ctor",
+    "OnDestroy",
+    "OnDisable",
+    "AccessactiveSelf",
+    "PreparePhotoViewRendering",
+    "get_MaxContentCount",
+    "ProcessGalleryPhotoData",
+    "get_ObservableList"
+  ],
+  "hash_methods": [
+    "m_C47",
+    "m_7C3"
+  ]
+}

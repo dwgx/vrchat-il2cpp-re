@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_3B49",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "RemoveEntryAtIterator",
+    "TryInsertEntry",
+    "FindEntrySlot",
+    "FindEntrySlot_24F8FB692E5A",
+    "RehashIfNeeded",
+    "RehashIfNeeded_C0175E97133A"
+  ],
+  "hash_methods": [
+    "m_937"
+  ]
+}

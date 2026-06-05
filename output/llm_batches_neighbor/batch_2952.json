@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "WorldSpawnSiblingSibling_6B87",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "ToString_8FB65F099B86",
+    ".ctor",
+    "Initialize",
+    "Equals",
+    "ToString_D08E6766C3CB",
+    "Equals_7759F48D13DC",
+    "ToString_C47FBDB26636",
+    "GetHashCode",
+    "GetHashCode_2B598690D4C1",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_336",
+    "m_46D"
+  ]
+}

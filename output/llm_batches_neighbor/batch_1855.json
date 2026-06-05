@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "EffectBundleIDIsSpecialFXSibliSibling_0FD8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Equals",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_813",
+    "m_7DD",
+    "m_E5F",
+    "m_377",
+    "m_4C4",
+    "m_CA8"
+  ]
+}

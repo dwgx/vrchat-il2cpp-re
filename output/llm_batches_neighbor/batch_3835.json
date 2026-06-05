@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5B48",
+  "parent": "",
+  "named_methods": [
+    "RaiseExceptionIfFailed",
+    "RaiseExceptionIfFailed_45A041CB090E",
+    "RaiseExceptionIfFailed_03EAABD9F029",
+    "CreateArgumentException",
+    "CreateIndexOutOfRangeException"
+  ],
+  "hash_methods": [
+    "m_166",
+    "m_9CA",
+    "m_709",
+    "m_55E",
+    "m_4D0"
+  ]
+}

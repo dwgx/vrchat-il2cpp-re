@@ -132,9 +132,8 @@ public class OculusSpatializerUnity
     public void OnDestroy_99DA2BFA4037(){} // RVA: 0x7FFAF3B079B0
     public void Start(){} // RVA: 0x7FFAF3B07A30
     public void .ctor(){} // RVA: 0x7FFAF3B07AD0
+    public void AudioRaycast(){} // RVA: 0x7FFAF3B07E30
     public void FromFlippedZVector3f(){} // RVA: 0x7FFAF3B05C20
-    // ── Unresolved (hash) ──
-    public void m_91A(){} // RVA: 0x7FFAF3B07E30
 }
 
 public class Offset

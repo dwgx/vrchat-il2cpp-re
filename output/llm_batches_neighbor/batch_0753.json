@@ -1,0 +1,39 @@
+{
+  "namespace": "",
+  "class": "BehaviourComponentSystem_DAAB",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    ".ctor",
+    "Initialize",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    ".cctor",
+    "FixedUpdate",
+    "OnDisable",
+    "OnEnable",
+    "OnCollisionEnter",
+    "OnTriggerExit"
+  ],
+  "hash_methods": [
+    "m_DE0",
+    "m_9A0",
+    "m_8A6",
+    "m_8E0",
+    "m_A07",
+    "m_9C3",
+    "m_56B",
+    "m_AB7",
+    "m_52F",
+    "m_FCB"
+  ]
+}

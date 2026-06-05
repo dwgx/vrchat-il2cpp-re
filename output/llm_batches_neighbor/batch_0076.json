@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    ".cctor",
+    "GetHashCode_DE2FABEEEA38",
+    "CreateFindObjectsDestroy",
+    "GetCachedPtr",
+    "ProcessFindObjectsDestroyInfo",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_8B6",
+    "m_B8F",
+    "m_91E",
+    "m_445"
+  ]
+}

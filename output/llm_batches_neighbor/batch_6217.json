@@ -1,0 +1,29 @@
+{
+  "namespace": "VRC.SDK3.Internal",
+  "class": "VRCEventPortalManagerInternal",
+  "parent": "",
+  "named_methods": [
+    "UnregisterEventPortal",
+    "StopListening",
+    ".ctor",
+    "Initialize",
+    "UnregisterAllEventPortals_1AC83F4218E9",
+    "IsNativeObjectAlive",
+    "GetCachedPtr",
+    "RegisterEventPortal_5619CC8B3F63",
+    "set_name",
+    "Instantiate",
+    "GetHashCode",
+    "ToString",
+    "UnregisterAllEventPortals",
+    "Initialize_474C74E9E865",
+    "ProcessEventPortal",
+    "InitializeOnLoad_650BFB8A41F3",
+    "InitializeOnLoad",
+    "StartListening",
+    "RegisterEventPortal"
+  ],
+  "hash_methods": [
+    "m_690"
+  ]
+}

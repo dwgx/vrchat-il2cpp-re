@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_36A8",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "LateUpdate",
+    "OnDisable",
+    "FixedUpdate",
+    "Update",
+    "Start",
+    "OnBecameVisible"
+  ],
+  "hash_methods": [
+    "m_C9E"
+  ]
+}

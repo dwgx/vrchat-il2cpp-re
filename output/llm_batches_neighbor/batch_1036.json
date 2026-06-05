@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_AFEA",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ReadCameraProperties",
+    "ReadCameraProperties_77C4BDDE9616",
+    "ReadCameraProperties_EB2225B87F4A",
+    "ReadCameraProperties_A0EB32874FF7"
+  ],
+  "hash_methods": [
+    "m_499",
+    "m_90D",
+    "m_095",
+    "m_95D",
+    "m_3DB"
+  ]
+}

@@ -99,16 +99,15 @@ namespace VRC.Effects
         public void GetIsDone(){} // RVA: 0x7FFAF3966040
         public void InvokeEffectBundleSpecialFXRelated(){} // RVA: 0x7FFAF3966110
         public void SetRedirectLimitFromScripting_C5E619892E01(){} // RVA: 0x7FFAF39674B0
-        public void GetHashCode(){} // RVA: 0x7FFAF3967670
         public void SetRedirectLimitFromScripting_2CDC00B14C42(){} // RVA: 0x7FFAF3968410
         public void GetIsDone_D8847DF8489B(){} // RVA: 0x7FFAF3968A10
-        // ── 14 unresolved (hash) ──
+        // ── 15 unresolved (hash) ──
         public void m_64C(){} // RVA: 0x7FFAF2DF80C0
         public void m_C7D(){} // RVA: 0x7FFAF2DF8120
         public void m_5CF(){} // RVA: 0x7FFAF39675F0
+        public void m_8DB(){} // RVA: 0x7FFAF3967670
         public void m_DD4(){} // RVA: 0x7FFAF3967880
-        public void m_8F6(){} // RVA: 0x7FFAF3967890
-        // ... 9 more unresolved methods
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÎÏÎÍÌÍÎÏÏÌÏÌÎÏÌÍÌÏÎÍÌ</summary>
@@ -117,14 +116,14 @@ namespace VRC.Effects
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF3965C10
         public void Initialize(){} // RVA: 0x7FFAF2DF80B0
-        public void Equals(){} // RVA: 0x7FFAF46191F0
-        public void GetHashCode(){} // RVA: 0x7FFAF4619A30
         // ── Unresolved (hash) ──
         public void m_813(){} // RVA: 0x7FFAF2DF80B0
         public void m_7DD(){} // RVA: 0x7FFAF2DF80B0
         public void m_E5F(){} // RVA: 0x7FFAF4618DD0
         public void m_377(){} // RVA: 0x7FFAF2DF80B0
+        public void m_14E(){} // RVA: 0x7FFAF46191F0
         public void m_4C4(){} // RVA: 0x7FFAF4619610
+        public void m_8E0(){} // RVA: 0x7FFAF4619A30
         public void m_CA8(){} // RVA: 0x7FFAF2DF80B0
     }
 
@@ -132,18 +131,18 @@ namespace VRC.Effects
     public class EffectBundleIDIsSpecialFXSibliSibling_86A7
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF325B1F0
         public void get_Current(){} // RVA: 0x7FFAF325B330
         public void get_Current_2D7539DB71C7(){} // RVA: 0x7FFAF325B380
         public void get_Current_09A70AE61D90(){} // RVA: 0x7FFAF325B3D0
-        public void MoveNext_07B514A98CC4(){} // RVA: 0x7FFAF325B510
         public void .ctor(){} // RVA: 0x7FFAF325B560
         public void Initialize(){} // RVA: 0x7FFAF325BCF0
         public void ReadCameraState(){} // RVA: 0x7FFAF325BE30
         // ── Unresolved (hash) ──
         public void m_694(){} // RVA: 0x7FFAF2DF8660
+        public void m_C29(){} // RVA: 0x7FFAF325B1F0
         public void m_64C(){} // RVA: 0x7FFAF2DF8670
         public void m_CA8(){} // RVA: 0x7FFAF2DF8660
+        public void m_07B(){} // RVA: 0x7FFAF325B510
         public void m_3AA(){} // RVA: 0x7FFAF2DF8670
     }
 
@@ -200,15 +199,15 @@ namespace VRC.Effects
         public void set_EffectBundleID(){} // RVA: 0x7FFAF463DF90
         public void get_EffectBundleID_64CBD607FE17(){} // RVA: 0x7FFAF2DF80C0
         public void get_IsSpecialFX(){} // RVA: 0x7FFAF463DFE0
-        public void GetHashCode(){} // RVA: 0x7FFAF463E040
         public void get_EffectBundleID(){} // RVA: 0x7FFAF463E090
-        public void Equals(){} // RVA: 0x7FFAF463E0E0
         public void ProcessTransform(){} // RVA: 0x7FFAF2DF80B0
-        public void Equals_E5F4351CDEE0(){} // RVA: 0x7FFAF463E130
-        public void GetHashCode_905B45E8854C(){} // RVA: 0x7FFAF463E440
         public void ProcessTransform_CA8FB71474BC(){} // RVA: 0x7FFAF2DF80B0
         // ── Unresolved (hash) ──
+        public void m_5BA(){} // RVA: 0x7FFAF463E040
         public void m_CA1(){} // RVA: 0x7FFAF2D8D320
+        public void m_DD9(){} // RVA: 0x7FFAF463E0E0
+        public void m_E5F(){} // RVA: 0x7FFAF463E130
+        public void m_905(){} // RVA: 0x7FFAF463E440
     }
 
     /// <summary>Originally: ÍÍÏÎÏÌÍÌÏÎÍÎÍÎÍÍÏÌÍÍÍÍÍ</summary>
@@ -347,12 +346,12 @@ namespace VRC.Effects
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAFB8A7F00
         public void MarshalManagedToNative(){} // RVA: 0x7FFAFB8A7FB0
-        public void Equals(){} // RVA: 0x7FFAFB8A82E0
         public void Reset(){} // RVA: 0x7FFAFB8A9100
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8A9190
         // ── Unresolved (hash) ──
         public void m_A11(){} // RVA: 0x7FFAFB8A79E0
+        public void m_0BA(){} // RVA: 0x7FFAFB8A82E0
         public void m_86F(){} // RVA: 0x7FFAFB8A8800
         public void m_C30(){} // RVA: 0x7FFAFB8A8D20
         public void m_9A8(){} // RVA: 0x7FFAFB8A8DD0
@@ -510,13 +509,13 @@ namespace VRC.Effects
         public void Start(){} // RVA: 0x7FFAFB8D3EA0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8D4D50
-        public void Equals(){} // RVA: 0x7FFAFB8D5060
+        public void CacheWritingBehavior(){} // RVA: 0x7FFAFB8D5E60
         // ── 11 unresolved (hash) ──
         public void m_5EA(){} // RVA: 0x7FFAFB8D3B20
         public void m_6D1(){} // RVA: 0x7FFAFB8D3E30
         public void m_85E(){} // RVA: 0x7FFAFB8D4150
         public void m_A66(){} // RVA: 0x7FFAFB8D41C0
-        public void m_F46(){} // RVA: 0x7FFAFB8D5370
+        public void m_47D(){} // RVA: 0x7FFAFB8D5060
         // ... 6 more unresolved methods
     }
 
@@ -608,22 +607,22 @@ namespace VRC.Effects
     {
         // ── Methods ──
         public void get_EffectBundleID_4D52D745230E(){} // RVA: 0x7FFAF46EAB40
+        public void IsSpecialFX(){} // RVA: 0x7FFAF46EABA0
         public void set_EffectBundleID(){} // RVA: 0x7FFAF2E72850
         public void ContainsNoWhitespaceOrQuotes(){} // RVA: 0x7FFAF46EAC00
-        public void GetHashCode(){} // RVA: 0x7FFAF46EAC60
         public void get_EffectBundleID(){} // RVA: 0x7FFAF46EACC0
         public void .ctor(){} // RVA: 0x7FFAF463E590
         public void Initialize(){} // RVA: 0x7FFAF46EAD10
         public void set_IsSpecialFX(){} // RVA: 0x7FFAF2D8D320
         public void get_IsSpecialFX(){} // RVA: 0x7FFAF46EADC0
-        public void Equals(){} // RVA: 0x7FFAF46EAE20
         public void get_IsSpecialFX_601ABFC98988(){} // RVA: 0x7FFAF2DF8600
         // ── Unresolved (hash) ──
         public void m_64C(){} // RVA: 0x7FFAF2DF8600
-        public void m_BFC(){} // RVA: 0x7FFAF46EABA0
         public void m_CA8(){} // RVA: 0x7FFAF2DF85F0
+        public void m_BDA(){} // RVA: 0x7FFAF46EAC60
         public void m_A14(){} // RVA: 0x7FFAF3E8CE00
         public void m_905(){} // RVA: 0x7FFAF46EAD60
+        public void m_46E(){} // RVA: 0x7FFAF46EAE20
         public void m_377(){} // RVA: 0x7FFAF2DF85F0
     }
 

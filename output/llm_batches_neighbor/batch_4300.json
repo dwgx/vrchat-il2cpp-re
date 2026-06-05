@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_B23FSiblingSibling_F48C",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "set_CacheWritingBehavior",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_338",
+    "m_FC0",
+    "m_79A",
+    "m_544",
+    "m_E92",
+    "m_979"
+  ]
+}

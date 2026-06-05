@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "FinalizeStaticMethods_3BB8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    ".ctor",
+    "Finalize",
+    "IsRight"
+  ],
+  "hash_methods": [
+    "m_279",
+    "m_CD6",
+    "m_479",
+    "m_C9D",
+    "m_843",
+    "m_2B6"
+  ]
+}

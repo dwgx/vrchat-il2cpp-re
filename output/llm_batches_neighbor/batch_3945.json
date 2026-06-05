@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitHandlerSibling_FB69",
+  "parent": "",
+  "named_methods": [
+    "BinarySearch",
+    "IndexOf",
+    "IndexOf_AF1BD88A1FD7",
+    "BinarySearch_C753321EC621",
+    "IndexOf_A85E3366D41B",
+    "IndexOf_8C07ACE0C5BC",
+    "LastIndexOf",
+    ".ctor",
+    "Initialize",
+    "BinarySearch_DF45B8D69F3C",
+    "BinarySearch_01868FB1F825",
+    "IndexOf_E4853F15B2FC",
+    "IndexOf_21C47AB2D483",
+    "IndexOf_9D1EED037823",
+    "LastIndexOf_5840559E3333",
+    "LastIndexOf_720165BD427B"
+  ],
+  "hash_methods": [
+    "m_D36",
+    "m_48A",
+    "m_E22",
+    "m_F13",
+    "m_7E3",
+    "m_D6A",
+    "m_4EC"
+  ]
+}

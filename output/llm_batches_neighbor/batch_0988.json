@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingRelated_3AF1",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Start",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_E93",
+    "m_301",
+    "m_3E8",
+    "m_338",
+    "m_8A3"
+  ]
+}

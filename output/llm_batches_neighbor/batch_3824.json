@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSibRelated_78E2",
+  "parent": "",
+  "named_methods": [
+    "ReadApplicationState",
+    "ReadRenderProperties",
+    "ReadRenderProperties_1834AD72BE36",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_C77",
+    "m_F27",
+    "m_842",
+    "m_280",
+    "m_9F0",
+    "m_831",
+    "m_BFD",
+    "m_B75",
+    "m_A0C",
+    "m_2D1"
+  ]
+}

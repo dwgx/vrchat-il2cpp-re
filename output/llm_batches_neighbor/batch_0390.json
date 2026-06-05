@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "GetHashCode_6C8AC60685D9",
+    "GetHashCode_DE2FABEEEA38",
+    ".cctor",
+    ".ctor",
+    "IsNativeObjectAlive",
+    "GetInstanceID"
+  ],
+  "hash_methods": [
+    "m_DC5",
+    "m_272",
+    "m_6EF",
+    "m_6C0",
+    "m_AD3",
+    "m_31C",
+    "m_E18",
+    "m_3BA",
+    "m_486",
+    "m_072"
+  ]
+}

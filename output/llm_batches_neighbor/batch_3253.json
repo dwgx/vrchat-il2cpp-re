@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "IgnoreLayout_4F20",
+  "parent": "",
+  "named_methods": [
+    "UnityEngine.UI.ILayoutIgnorer.get_ignoreLayout",
+    "SetLocalScale",
+    "get_IgnoreLayout",
+    ".ctor",
+    "Initialize",
+    "UpdateRotation"
+  ],
+  "hash_methods": [
+    "m_B48",
+    "m_7F2",
+    "m_7E2",
+    "m_27C",
+    "m_25A",
+    "m_2C8",
+    "m_2E3",
+    "m_14B",
+    "m_B48",
+    "m_D96"
+  ]
+}

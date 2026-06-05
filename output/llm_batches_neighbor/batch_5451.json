@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncSiblingSibling_BA6D",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy_AD434082A73F",
+    "RaiseCancellation",
+    "Awake",
+    "CancelInvoke_3C1A00D439FA",
+    "StartCoroutineManaged2",
+    ".ctor",
+    "Initialize",
+    "CancelInvoke_3C1A00D439FA_D850A342139A",
+    "OnTriggerStay",
+    ".cctor",
+    "StartCoroutine_Auto",
+    "StopCoroutine",
+    "Internal_IsInvokingAll",
+    ".cctor_25245ADEC3FD",
+    "Initialize_5C7E0A67B58E",
+    "set_useGUILayout"
+  ],
+  "hash_methods": [
+    "m_7EE",
+    "m_33A"
+  ]
+}

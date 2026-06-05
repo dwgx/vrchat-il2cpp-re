@@ -1,0 +1,18 @@
+{
+ "ExceptionInt16OverflowComponent_B2EE::m_4E5": "RenderCameraReflection",
+ "ExceptionInt16OverflowComponent_B2EE::m_56A": "DestroyWaterObjects",
+ "ExceptionInt16OverflowComponent_B2EE::m_598": "UpdateWaterTileRendering",
+ "ExceptionInt16OverflowComponent_B2EE::m_5B6": "RenderWaterReflectionsAndRefractions",
+ "ExceptionInt16OverflowComponent_B2EE::m_5DF": "ExecuteDelayedAction",
+ "ExceptionInt16OverflowComponent_B2EE::m_5EC": "UpdateMouseLook",
+ "ExceptionInt16OverflowComponent_B2EE::m_613": "GetWaterMode",
+ "ExceptionInt16OverflowComponent_B2EE::m_61C": "RenderReflectionTexture",
+ "ExceptionInt16OverflowComponent_B2EE::m_65A": "CacheRenderer",
+ "ExceptionInt16OverflowComponent_B2EE::m_697": "CreateWaterObjects",
+ "ExceptionInt16OverflowComponent_B2EE::m_6B4": "RenderReflectionCamera",
+ "ExceptionInt16OverflowComponent_B2EE::m_6B5": "ApplyWheelDrive",
+ "ExceptionInt16OverflowComponent_B2EE::m_6D4": "UpdateCameraModes",
+ "ExceptionInt16OverflowComponent_B2EE::m_706": "RenderCameraReflection",
+ "ExceptionInt16OverflowComponent_B2EE::m_70D": "RenderReflectionTexture",
+ "ExceptionInt16OverflowComponent_B2EE::m_730": "InitializeWheelArrays"
+}

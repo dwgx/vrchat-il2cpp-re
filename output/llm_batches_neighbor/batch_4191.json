@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_FEA6",
+  "parent": "",
+  "named_methods": [
+    "SetFieldValue",
+    "SetFieldValue_51FBC0D981AD",
+    "LoadMetadataFile",
+    "LoadMetadataFile_EEEFF269E718",
+    "LoadMetadataFile_2F048217F2F1",
+    "LoadMetadataFile_F2B7F5C46C70",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_95D"
+  ]
+}

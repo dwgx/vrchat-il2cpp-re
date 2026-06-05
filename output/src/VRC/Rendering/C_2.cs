@@ -1000,15 +1000,20 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3BB0740
         public void SetBackgroundColor(){} // RVA: 0x7FFAF3BB0B40
+        public void SetLocalPosition(){} // RVA: 0x7FFAF3BB10F0
         public void SetLocalRotation(){} // RVA: 0x7FFAF3BB16D0
         public void SetLocalRotation_7C5A4EF4DA92(){} // RVA: 0x7FFAF3BB1840
-        // ── 11 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_7C3(){} // RVA: 0x7FFAF3BADF00
         public void m_837(){} // RVA: 0x7FFAF3BADF70
         public void m_AC5(){} // RVA: 0x7FFAF3BAE330
         public void m_EC7(){} // RVA: 0x7FFAF3BAE530
         public void m_2EF(){} // RVA: 0x7FFAF3BAE610
-        // ... 6 more unresolved methods
+        public void m_FEA(){} // RVA: 0x7FFAF3BADF00
+        public void m_9B9(){} // RVA: 0x7FFAF3BADF00
+        public void m_B69(){} // RVA: 0x7FFAF3BAFF00
+        public void m_1C0(){} // RVA: 0x7FFAF3BB0020
+        public void m_7DF(){} // RVA: 0x7FFAF3BB05F0
     }
 
     /// <summary>Originally: ÌÏÏÍÏÏÍÍÌÎÎÌÎÏÎÌÎÌÎÌÍÍÎ</summary>
@@ -1032,17 +1037,17 @@ namespace VRC.Rendering
     public class CamerarenderModelNameSibling_858A
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAFB5E5DF0
-        public void Equals_7607E0AB479A(){} // RVA: 0x7FFAFB5E6230
-        public void Equals_970CBE1BAE38(){} // RVA: 0x7FFAFB5E62B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Start(){} // RVA: 0x7FFAFB5E63A0
         // ── Unresolved (hash) ──
         public void m_3B3(){} // RVA: 0x7FFAFB5E5B90
         public void m_C9E(){} // RVA: 0x7FFAFB5E5C80
+        public void m_2FF(){} // RVA: 0x7FFAFB5E5DF0
         public void m_9AD(){} // RVA: 0x7FFAFB5E5EA0
         public void m_6B3(){} // RVA: 0x7FFAFB5E5F50
         public void m_A74(){} // RVA: 0x7FFAFB5E60C0
+        public void m_760(){} // RVA: 0x7FFAFB5E6230
+        public void m_970(){} // RVA: 0x7FFAFB5E62B0
         public void m_1C9(){} // RVA: 0x7FFAFB5E6510
     }
 

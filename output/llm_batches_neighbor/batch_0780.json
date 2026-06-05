@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSibling_B33A",
+  "parent": "",
+  "named_methods": [
+    "Update_3CB451386F3C",
+    ".ctor",
+    "Start",
+    "Initialize",
+    "Start_A7429DE798D1",
+    "Start_C9ED83B2DF2E",
+    "Awake",
+    "OnDestroy",
+    "OnCollisionExit",
+    "StartCoroutine_Auto"
+  ],
+  "hash_methods": [
+    "m_3E8",
+    "m_1B2"
+  ]
+}

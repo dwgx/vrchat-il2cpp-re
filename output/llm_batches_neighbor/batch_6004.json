@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "Static76m_3A83",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    ".cctor",
+    "LateUpdate",
+    "Start",
+    "OnDestroy",
+    "Update",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_91A",
+    "m_8DE",
+    "m_924",
+    "m_A97",
+    "m_3D9",
+    "m_5F2",
+    "m_54B",
+    "m_939",
+    "m_D18",
+    "m_0DF"
+  ]
+}

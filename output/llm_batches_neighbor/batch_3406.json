@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "ParticleParticleSystemRendererHandler_BC4A",
+  "parent": "",
+  "named_methods": [
+    "SetLengthScale",
+    ".ctor",
+    "Initialize",
+    "SetMaterial",
+    "SetMaxParticleSize",
+    "SetMaxParticleSize_6B619E715A30",
+    "SetMeshDistribution",
+    "SetMinParticleSize",
+    "SetNormalDirection",
+    "Start",
+    "SetRenderMode",
+    "SetRenderMode_010717F15EAF",
+    "SetRendererPriority"
+  ],
+  "hash_methods": [
+    "m_852",
+    "m_BFF",
+    "m_21B",
+    "m_985",
+    "m_91B"
+  ]
+}

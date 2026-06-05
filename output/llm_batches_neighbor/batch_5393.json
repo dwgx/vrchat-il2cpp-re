@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_83A1",
+  "parent": "",
+  "named_methods": [
+    "System.Collections.IEnumerable.GetEnumerator",
+    "System.Collections.Generic.IEnumerator<(DataType,BoundType)>.get_Current",
+    "MoveNext",
+    ".ctor",
+    "Initialize",
+    "GetEnumerator",
+    "get_Current",
+    "Dispose",
+    "System.Collections.IEnumerator.Reset",
+    "System.Collections.IEnumerator.get_Current",
+    "System.IDisposable.Dispose",
+    "System.Collections.Generic.IEnumerable<(DataType,BoundType)>.GetEnumerator"
+  ],
+  "hash_methods": [
+    "m_ACC",
+    "m_288",
+    "m_DB9",
+    "m_1AD"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_B1C1",
+  "parent": "",
+  "named_methods": [
+    "IsActive",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_93B",
+    "m_BFE"
+  ]
+}

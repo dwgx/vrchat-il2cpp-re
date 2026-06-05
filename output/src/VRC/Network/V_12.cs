@@ -9,21 +9,16 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSiblinRelated_9D03
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAF3953D90
         public void GetEnabled(){} // RVA: 0x7FFAF39548A0
         public void SetByteIfChanged(){} // RVA: 0x7FFAF3954F60
         public void .ctor(){} // RVA: 0x7FFAF3956240
-        // ── Unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_0EC(){} // RVA: 0x7FFAF3953BA0
+        public void m_943(){} // RVA: 0x7FFAF3953D90
         public void m_F24(){} // RVA: 0x7FFAF3953FE0
         public void m_302(){} // RVA: 0x7FFAF3954310
         public void m_54A(){} // RVA: 0x7FFAF39543A0
-        public void m_65A(){} // RVA: 0x7FFAF3954D70
-        public void m_E0D(){} // RVA: 0x7FFAF3955460
-        public void m_FE4(){} // RVA: 0x7FFAF3955790
-        public void m_623(){} // RVA: 0x7FFAF3955C60
-        public void m_DC4(){} // RVA: 0x7FFAF3955F90
-        public void m_B1C(){} // RVA: 0x7FFAF3956180
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÎÎÎÎÍÌÎÎÌÏÌÎÏÏÏÌÌÏÍÍÌ</summary>
@@ -372,20 +367,15 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_3A1F
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAF4646810
-        public void Equals_5F03390BEE89(){} // RVA: 0x7FFAF4646840
-        public void Equals_646A3D0FE5C2(){} // RVA: 0x7FFAF4646860
         public void .ctor(){} // RVA: 0x7FFAF4646940
         public void Initialize(){} // RVA: 0x7FFAF4646A10
-        // ── Unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
+        public void m_61B(){} // RVA: 0x7FFAF4646810
+        public void m_5F0(){} // RVA: 0x7FFAF4646840
+        public void m_646(){} // RVA: 0x7FFAF4646860
         public void m_239(){} // RVA: 0x7FFAF46468D0
         public void m_BD2(){} // RVA: 0x7FFAF4646900
-        public void m_F19(){} // RVA: 0x7FFAF4646860
-        public void m_4D5(){} // RVA: 0x7FFAF4646A70
-        public void m_C15(){} // RVA: 0x7FFAF4646840
-        public void m_2A7(){} // RVA: 0x7FFAF4646AB0
-        public void m_938(){} // RVA: 0x7FFAF4646AB0
-        public void m_C08(){} // RVA: 0x7FFAF4646AD0
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÎÏÎÌÍÎÌÎÍÏÎÍÏÌÌÌÍÌÍÌÏ</summary>
@@ -1433,26 +1423,15 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_E65A
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x7FFAF369E030
-        public void ToString(){} // RVA: 0x7FFAF369E3B0
-        public void GetHashCode_7BBB233D6144(){} // RVA: 0x7FFAF369E5A0
-        public void ToString_BCF21FE1B233(){} // RVA: 0x7FFAF369E6B0
-        public void Equals(){} // RVA: 0x7FFAF369E710
-        public void Equals_F1E210673BBD(){} // RVA: 0x7FFAF369E7D0
-        public void ToString_9D828BCF4D9D(){} // RVA: 0x7FFAF369EAF0
         public void .ctor(){} // RVA: 0x7FFAF369EBE0
         public void Initialize(){} // RVA: 0x7FFAF369EF20
-        public void ToString_E1E2D13196D7(){} // RVA: 0x7FFAF369EFA0
-        public void ToString_BE3A997FC6D8(){} // RVA: 0x7FFAF369F010
-        public void GetHashCode_BFADA7987AB1(){} // RVA: 0x7FFAF369F180
-        public void ToString_EB2225B87F4A(){} // RVA: 0x7FFAF369F350
-        public void ToString_DB8A6049206F(){} // RVA: 0x7FFAF369F6C0
-        public void ToString_AAAE7E416441(){} // RVA: 0x7FFAF369F8B0
-        public void ToString_C1E9AABACFB0(){} // RVA: 0x7FFAF369FAA0
-        // ── Unresolved (hash) ──
-        public void m_D33(){} // RVA: 0x7FFAF369E7B0
-        public void m_77C(){} // RVA: 0x7FFAF369EB60
-        public void m_AC5(){} // RVA: 0x7FFAF369E7B0
+        // ── 17 unresolved (hash) ──
+        public void m_1A2(){} // RVA: 0x7FFAF369E030
+        public void m_0FB(){} // RVA: 0x7FFAF369E3B0
+        public void m_7BB(){} // RVA: 0x7FFAF369E5A0
+        public void m_BCF(){} // RVA: 0x7FFAF369E6B0
+        public void m_63D(){} // RVA: 0x7FFAF369E710
+        // ... 12 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÎÏÍÎÍÌÎÌÍÏÏÏÏÌÏÏÎÎÌÏÍ</summary>

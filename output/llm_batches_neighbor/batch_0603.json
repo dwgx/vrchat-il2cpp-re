@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "NetworkCancelRPCSibling_230A",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "Start",
+    "LastIndexOf",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "LastIndexOf_3A289D48C7E7",
+    "FindIndex",
+    "LastIndexOf_A7429DE798D1"
+  ],
+  "hash_methods": [
+    "m_3E3",
+    "m_59D",
+    "m_F07",
+    "m_ADD",
+    "m_2E5",
+    "m_1C2",
+    "m_96E"
+  ]
+}

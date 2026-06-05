@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_CCAF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_F00",
+    "m_93E"
+  ]
+}

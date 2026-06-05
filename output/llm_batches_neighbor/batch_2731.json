@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "ShaderHandler_50DE",
+  "parent": "",
+  "named_methods": [
+    "ProcessShader",
+    ".ctor",
+    "Initialize",
+    "ProcessShader_E7737468671C",
+    "ProcessShader_90BC0BFAE850"
+  ],
+  "hash_methods": [
+    "m_DBD",
+    "m_AB6",
+    "m_7E5"
+  ]
+}

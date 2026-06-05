@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_1031",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "FixedUpdate",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    ".ctor",
+    "Start",
+    "Update",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit"
+  ],
+  "hash_methods": [
+    "m_E31"
+  ]
+}

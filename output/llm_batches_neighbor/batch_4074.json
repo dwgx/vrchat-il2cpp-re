@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_6CB6",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Start",
+    "Equals",
+    "IndexOf",
+    "IndexOf_1B24E35EE068",
+    "Add"
+  ],
+  "hash_methods": [
+    "m_F5A",
+    "m_EA9",
+    "m_5D1",
+    "m_1CA",
+    "m_1EF",
+    "m_9EF",
+    "m_CE9",
+    "m_AB8",
+    "m_27B",
+    "m_156"
+  ]
+}

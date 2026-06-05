@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_68B7",
+  "parent": "",
+  "named_methods": [
+    "GetLocalPosition",
+    "ScaleByInertia",
+    "ScaleByInertia_BFE2F870FCF3",
+    ".ctor",
+    "Initialize",
+    "AddFromToForce",
+    "AddFromToForce_CD2F4BC0739C",
+    "AddFromToForce_93BBF7ED98B6",
+    "AddFromToForce_65AC8D0309DA"
+  ],
+  "hash_methods": [
+    "m_B04",
+    "m_BB8",
+    "m_3AF",
+    "m_AF8",
+    "m_FF8",
+    "m_79E",
+    "m_281"
+  ]
+}

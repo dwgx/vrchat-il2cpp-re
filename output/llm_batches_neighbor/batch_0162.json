@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "GetHashCode",
+    "Initialize_05BBF1262C97",
+    "GetHashCode_B3721EF0EE46",
+    ".cctor",
+    ".ctor",
+    "IsNativeObjectAlive",
+    "op_Implicit",
+    "GetComponentTransform",
+    "get_name",
+    "IsNativeObjectAlivePredicate",
+    "GetInstanceID",
+    "get_name_EAA144C8DD52"
+  ],
+  "hash_methods": [
+    "m_A9C",
+    "m_9AA",
+    "m_5E7",
+    "m_D49",
+    "m_840",
+    "m_55F"
+  ]
+}

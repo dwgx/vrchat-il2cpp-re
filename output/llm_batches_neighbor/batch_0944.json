@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_685D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessCaching"
+  ],
+  "hash_methods": [
+    "m_7AC",
+    "m_E45",
+    "m_61D",
+    "m_890",
+    "m_7B4",
+    "m_F8E"
+  ]
+}

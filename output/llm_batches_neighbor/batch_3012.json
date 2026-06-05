@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_C1D4",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "get_Task",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_288",
+    "m_7F6",
+    "m_440",
+    "m_015",
+    "m_DB9",
+    "m_CE3"
+  ]
+}

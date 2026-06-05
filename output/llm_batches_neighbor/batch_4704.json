@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_4254",
+  "parent": "",
+  "named_methods": [
+    "ConfigureParticleEmissionModule",
+    "ConfigureParticleEmissionModule_86F26A67391F",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_0BA",
+    "m_C0B",
+    "m_0D6",
+    "m_CB6",
+    "m_5B5"
+  ]
+}

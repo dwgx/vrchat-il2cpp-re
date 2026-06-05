@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_E779",
+  "parent": "",
+  "named_methods": [
+    "FadeAlphaToTarget",
+    "FadeAlphaToTarget_CF3C4C0F0CAD",
+    "FadeAlphaToZero",
+    "InitializeFadeSettings",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_C01",
+    "m_410"
+  ]
+}

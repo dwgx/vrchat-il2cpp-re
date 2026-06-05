@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static20m_7A70",
+  "parent": "",
+  "named_methods": [
+    "GetTransformTransform",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "Update",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_916",
+    "m_7BF",
+    "m_0C0",
+    "m_4D3"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "UICompareEquals_FF7A",
+  "parent": "",
+  "named_methods": [
+    "CompareTo",
+    "System.IEquatable<VRC.DataModel.IProductPurchaseStatus>.Equals",
+    "Equals",
+    "get_Item",
+    "Add",
+    "System.IComparable.CompareTo",
+    "ReturnArrayToPool",
+    "ReturnArrayToPool_BB010F63BE68",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_EB5",
+    "m_CA4",
+    "m_453"
+  ]
+}

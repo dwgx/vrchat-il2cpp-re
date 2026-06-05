@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSibling_ECEF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_4EC",
+    "m_5D1",
+    "m_018",
+    "m_5DC",
+    "m_A85",
+    "m_239",
+    "m_25E",
+    "m_C92"
+  ]
+}

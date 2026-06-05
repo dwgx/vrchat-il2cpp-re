@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_364C",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Equals_78FA1CA8CBC2",
+    ".ctor",
+    "Initialize",
+    "Equals_E687FBACD344"
+  ],
+  "hash_methods": [
+    "m_174",
+    "m_B41",
+    "m_25F",
+    "m_1FA",
+    "m_A26"
+  ]
+}

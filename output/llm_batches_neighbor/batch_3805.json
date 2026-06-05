@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AudioFilterRead_603B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnAudioFilterRead"
+  ],
+  "hash_methods": [
+    "m_B0D",
+    "m_6B6",
+    "m_55E",
+    "m_55A",
+    "m_19F",
+    "m_2E2",
+    "m_6A7"
+  ]
+}

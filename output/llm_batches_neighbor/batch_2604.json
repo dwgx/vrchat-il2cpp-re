@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_B295",
+  "parent": "",
+  "named_methods": [
+    "Pop",
+    "MoveNext",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_752",
+    "m_440",
+    "m_E82",
+    "m_0A8",
+    "m_EC8",
+    "m_CE3"
+  ]
+}

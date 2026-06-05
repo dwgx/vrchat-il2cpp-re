@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "ParticleHandler_1815",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "OnDestroy",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_055",
+    "m_AB2",
+    "m_BC0",
+    "m_6D8",
+    "m_5AA",
+    "m_EB8",
+    "m_AD5",
+    "m_EDB",
+    "m_2C4",
+    "m_AD0"
+  ]
+}

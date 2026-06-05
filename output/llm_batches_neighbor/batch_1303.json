@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TransformCameraHandler_EDD0",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_3D1",
+    "m_EEA",
+    "m_1FC",
+    "m_CE1",
+    "m_855",
+    "m_98A",
+    "m_270",
+    "m_7C6",
+    "m_BC3"
+  ]
+}

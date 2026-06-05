@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "StringStaticMethods_AC66",
+  "parent": "",
+  "named_methods": [
+    "ReadColliderState",
+    "GetColliderTrigger",
+    "ToString",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_C48",
+    "m_A89",
+    "m_83F",
+    "m_7EE",
+    "m_E8D",
+    "m_62F",
+    "m_BC0",
+    "m_741",
+    "m_7AB",
+    "m_CE1"
+  ]
+}

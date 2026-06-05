@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformBehaviourHandler_019D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetCachedObjectHashCode",
+    "AreFloatsWithinTolerance"
+  ],
+  "hash_methods": [
+    "m_E38",
+    "m_294",
+    "m_A71",
+    "m_E90",
+    "m_E22",
+    "m_1C0"
+  ]
+}

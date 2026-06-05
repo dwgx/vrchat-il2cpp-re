@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_0036",
+  "parent": "",
+  "named_methods": [
+    "FillArraySegment",
+    "FillArraySegment_D4C01184A135",
+    "FillArraySegment_FABA7F614A1C",
+    "IndexOf",
+    "IndexOf_B710BA12EEEA",
+    "LastIndexOf",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_8E0"
+  ]
+}

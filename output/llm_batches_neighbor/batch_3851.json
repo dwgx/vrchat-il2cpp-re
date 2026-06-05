@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_1491SiblingSibling_CAFA",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "Dispose_BFE2F870FCF3",
+    "Dispose_BFE2F870FCF3",
+    "SetLength",
+    "SetCapacity",
+    "RemoveAtSwapBack",
+    "ResizeUninitialized",
+    "AddNoResize"
+  ],
+  "hash_methods": [
+    "m_2F7"
+  ]
+}

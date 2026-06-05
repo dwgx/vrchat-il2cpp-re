@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_F2CF",
+  "parent": "",
+  "named_methods": [
+    "WriteBufferedCharacters",
+    "ClearStreamState",
+    "ClearStreamState_CE3811BE79BB",
+    "SetStateMachine",
+    "ScalarDeletingDestructor",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_440",
+    "m_EC8",
+    "m_DB9",
+    "m_D51"
+  ]
+}

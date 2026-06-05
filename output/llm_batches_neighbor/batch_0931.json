@@ -1,0 +1,42 @@
+{
+  "namespace": "",
+  "class": "TransformGameObjectHandler_9BE8",
+  "parent": "",
+  "named_methods": [
+    "DispatchFloatingPointException",
+    "GetLocalScale",
+    "InitializeCodePageCTypeTables",
+    "OnDestroy",
+    "GetLocalScale_770CAFBEC667",
+    "GetBounds",
+    "ParseFileOpenMode",
+    "CompareWideStringsIgnoreCase",
+    "ExpandWildcardArguments",
+    "ExpandWildcardPath",
+    "Putenv",
+    "CompareIgnoreCaseOrdinal",
+    "Start",
+    "Mbrtoc32",
+    ".ctor",
+    "Initialize",
+    "ConvertIntegerToWideString",
+    "QuickSortArray",
+    "FindLastNonWhitespace",
+    "SetFloatingPointControlWord",
+    "SetFloatingPointControlWord_0D5DC6296584",
+    "Acos",
+    "ComputeArcSine",
+    "Atan",
+    "Atan2",
+    "Atan2_C52ADA376808",
+    "Cosf"
+  ],
+  "hash_methods": [
+    "m_09E",
+    "m_5A2",
+    "m_7C3",
+    "m_0F6",
+    "m_395",
+    "m_949"
+  ]
+}

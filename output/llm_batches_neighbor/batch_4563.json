@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5E58",
+  "parent": "",
+  "named_methods": [
+    "InitializeFromProcessModuleBaseName",
+    "ReleaseWideStringBuffer",
+    "AssignWideString",
+    "ReallocateWideStringAndFill",
+    "ConvertStringVectorToArray"
+  ],
+  "hash_methods": [
+    "m_943",
+    "m_77C",
+    "m_03E",
+    "m_45A"
+  ]
+}

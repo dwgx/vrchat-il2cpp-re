@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "GetInstanceID",
+    "CheckMaterial",
+    "GetMass",
+    "MarkHandleReferenced",
+    ".cctor",
+    "get_name",
+    "set_name"
+  ],
+  "hash_methods": [
+    "m_138",
+    "m_BF2"
+  ]
+}

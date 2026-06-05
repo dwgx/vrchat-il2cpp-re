@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Instantiate",
+    "SelectGameNameDestroy",
+    ".ctor",
+    "GetHashCode",
+    "Equals",
+    "op_Implicit",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_959",
+    "m_436",
+    "m_1B3",
+    "m_47F"
+  ]
+}

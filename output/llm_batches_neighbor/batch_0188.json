@@ -1,0 +1,33 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "SetFlipCameraFrameVertically",
+    ".ctor",
+    "get_name",
+    "Equals",
+    "Instantiate",
+    "GetCachedPtr",
+    "SetVoxelSize",
+    "GetIntegerFromDelegate",
+    ".cctor",
+    "GetInstanceID",
+    "GetCachedPtr_3CE6343AA9D9",
+    "IsInvoking",
+    "Instantiate_0B03536646BE",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_13F",
+    "m_B9C",
+    "m_963",
+    "m_002",
+    "m_FC5",
+    "m_2B4",
+    "m_D4C",
+    "m_299",
+    "m_F62",
+    "m_599"
+  ]
+}

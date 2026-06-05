@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "SpriteHandler_620E",
+  "parent": "",
+  "named_methods": [
+    "InverseTransformPoint",
+    "OnDestroy",
+    "GetRect",
+    "GetRect_296E6D2EAFEC",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_FEB",
+    "m_0DB",
+    "m_578",
+    "m_852",
+    "m_5B8",
+    "m_345",
+    "m_87D",
+    "m_D14",
+    "m_DA5",
+    "m_4DE"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_5FA7SiblingSibling_B328",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_47E",
+    "m_F3F",
+    "m_C28",
+    "m_735",
+    "m_F6F",
+    "m_551",
+    "m_A66",
+    "m_32B",
+    "m_CE4",
+    "m_6BC"
+  ]
+}

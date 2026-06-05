@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_00FC",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationQuit",
+    "OnBecameVisible"
+  ],
+  "hash_methods": [
+    "m_FFB"
+  ]
+}

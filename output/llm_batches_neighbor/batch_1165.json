@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_E24BSibling_4B77",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_E24",
+    "m_B40",
+    "m_CB2",
+    "m_A8A",
+    "m_25E",
+    "m_AF5",
+    "m_5E2"
+  ]
+}

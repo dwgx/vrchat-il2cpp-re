@@ -15,7 +15,6 @@ namespace VRC.UI
         public void OnDisable(){} // RVA: 0x7FFAF2EEE1C0
         public void ToArray(){} // RVA: 0x7FFAF3400900
         public void ConstructFromArrayStart(){} // RVA: 0x7FFAF3400BF0
-        public void ToString(){} // RVA: 0x7FFAF34013D0
         public void ToArray_FD85A18054E3(){} // RVA: 0x7FFAF3401760
         public void ToArray_34CA7D80C5E8(){} // RVA: 0x7FFAF34017C0
         public void .ctor(){} // RVA: 0x7FFAF3401BA0
@@ -26,6 +25,7 @@ namespace VRC.UI
         public void m_E6A(){}
         public void m_3CD(){} // RVA: 0x7FFAF3401290
         public void m_96F(){} // RVA: 0x7FFAF34012D0
+        public void m_39E(){} // RVA: 0x7FFAF34013D0
         public void m_D5F(){} // RVA: 0x7FFAF3401B30
     }
 

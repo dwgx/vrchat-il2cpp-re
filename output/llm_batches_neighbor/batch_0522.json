@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "UIObservableList_5B1E_1CDF",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "set_ObservableList",
+    "CreateObservableListEvent",
+    "Start_5CB1EC5FABE4",
+    "get_ObservableList",
+    ".ctor_56B286629F10",
+    "Initialize",
+    "Start",
+    "get_ObservableList_194E4592E953",
+    ".ctor",
+    "Remove",
+    "Clear",
+    "Contains"
+  ],
+  "hash_methods": [
+    "m_BC0",
+    "m_24A"
+  ]
+}

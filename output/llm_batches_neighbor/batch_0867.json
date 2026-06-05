@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "CamerarenderModelNameSibling_6C15",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_C9E",
+    "m_F7B",
+    "m_AEF",
+    "m_C04",
+    "m_97E",
+    "m_C4C",
+    "m_4BF",
+    "m_8B6"
+  ]
+}

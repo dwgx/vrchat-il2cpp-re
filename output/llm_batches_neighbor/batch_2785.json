@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiRelated_3AA6",
+  "parent": "",
+  "named_methods": [
+    "Highlight",
+    "Dispose",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_FE6"
+  ]
+}

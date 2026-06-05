@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "HumanTraitHandler_1B0B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_3CB",
+    "m_0E0",
+    "m_514",
+    "m_87F",
+    "m_975",
+    "m_6E2",
+    "m_786",
+    "m_1BF",
+    "m_805",
+    "m_CF9"
+  ]
+}

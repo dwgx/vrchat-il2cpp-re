@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "CompareBaseObjects"
+  ],
+  "hash_methods": [
+    "m_A37",
+    "m_2CF",
+    "m_9F4",
+    "m_1AC",
+    "m_54E"
+  ]
+}

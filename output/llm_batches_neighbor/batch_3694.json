@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "PointerClickSubmit_689E",
+  "parent": "",
+  "named_methods": [
+    "OnSubmit",
+    "OnPointerClick",
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_0A6",
+    "m_B01",
+    "m_EA8",
+    "m_6B5",
+    "m_879",
+    "m_0D0",
+    "m_C7F",
+    "m_14C",
+    "m_D8C",
+    "m_F36"
+  ]
+}

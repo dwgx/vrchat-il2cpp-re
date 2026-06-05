@@ -1,0 +1,40 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSiblingSSibling_829F",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "RuntimeInvokeMixedFourteenArguments",
+    "RuntimeInvokeMixedFourteenArguments_B6B2AD482579",
+    "RuntimeInvokeFourteenMarshaledArguments",
+    "Start",
+    "GetLocalPosition_898F2C46EEFC",
+    "SetColor",
+    "ProcessGizmos_3F1F3EA7B3F6",
+    "ProcessGizmos_0B8B54733FB5",
+    "ProcessGizmos_276E8DB1970F",
+    ".ctor",
+    "Initialize",
+    "GetLocalPosition_898F2C46EEFC",
+    "RuntimeInvokeTwelveMarshaledArguments",
+    "RuntimeInvokeTwelveMarshaledArguments_AB1E034150F8",
+    "Update",
+    "GetLocalPosition_E27584E52F30",
+    "RuntimeInvokeMixedElevenArguments",
+    "RuntimeInvokeObjectElevenArguments",
+    "GetLocalToWorldMatrix",
+    "GetLocalPosition_71BA1BE5F2E5",
+    "GetLocalPosition_3EC128C71CD5",
+    "RuntimeInvokeSingleValueTypeArgument",
+    "Awake",
+    "ProcessGizmos_3F1F3EA7B3F6",
+    "GetMaterial",
+    "RuntimeInvokeTenMarshaledArguments",
+    "RuntimeInvokeElevenMarshaledArguments"
+  ],
+  "hash_methods": [
+    "m_82A",
+    "m_4A3",
+    "m_45D"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "Start",
+    "GetTransform",
+    "IsNativeObjectAlive",
+    "RetrieveUdonClientString",
+    ".ctor",
+    "get_name"
+  ],
+  "hash_methods": [
+    "m_4EE",
+    "m_4AC",
+    "m_275",
+    "m_E9F",
+    "m_166",
+    "m_43C",
+    "m_0C5"
+  ]
+}

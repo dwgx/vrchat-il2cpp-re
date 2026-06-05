@@ -1,0 +1,7 @@
+{
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_E4A": "SetFrameDimensions",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_F73": "ToString",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_F83": "GetHashCode",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_FDE": "MarshalNativeToManaged",
+ "AnimatedTextureBaseImpl_0682SiSibling_F5E1::m_FDF": "MarshalNativeToManaged"
+}

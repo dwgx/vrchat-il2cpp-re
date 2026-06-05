@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "PhotonRoomHandlerSibling_8DAC",
+  "parent": "",
+  "named_methods": [
+    "Handle",
+    "Process",
+    "OnReceive",
+    "OnEvent"
+  ],
+  "hash_methods": [
+    "m_6D8"
+  ]
+}

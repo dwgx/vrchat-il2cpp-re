@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Equals_AFEAD753E455",
+    "Instantiate",
+    ".cctor",
+    "GetInstanceID",
+    "InternalCloneSingleWithParent",
+    "ProcessFindObjectsDestroyData"
+  ],
+  "hash_methods": [
+    "m_F8E",
+    "m_3E5",
+    "m_EB4",
+    "m_96E",
+    "m_ED9",
+    "m_8B8",
+    "m_67B"
+  ]
+}

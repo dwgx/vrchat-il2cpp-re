@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsRelated_2726",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "GetLocalScale",
+    "GetLocalScale_F539FB646E92",
+    "GetLocalScale_297FD607BED3",
+    ".ctor",
+    "Initialize",
+    "GetLocalScale_15FFA56523D1"
+  ],
+  "hash_methods": [
+    "m_42F",
+    "m_496",
+    "m_4AD",
+    "m_56F",
+    "m_05C",
+    "m_712",
+    "m_ED9",
+    "m_10F",
+    "m_DDD",
+    "m_8F1"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "ValidateContentCount929Component_DC89",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    ".ctor",
+    "Initialize",
+    "OnCollisionEnter"
+  ],
+  "hash_methods": [
+    "m_CC7",
+    "m_EB7",
+    "m_719",
+    "m_CAD",
+    "m_4C2",
+    "m_99E"
+  ]
+}

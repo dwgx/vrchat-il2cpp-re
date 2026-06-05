@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static43m_894A",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "OnEnable",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_A13",
+    "m_E11",
+    "m_DFA",
+    "m_8F7",
+    "m_C30",
+    "m_051",
+    "m_757",
+    "m_887",
+    "m_2A2",
+    "m_927"
+  ]
+}

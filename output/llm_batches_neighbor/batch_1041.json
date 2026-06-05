@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "CachedPtrComponent_EE40",
+  "parent": "",
+  "named_methods": [
+    "GetOrCreateCachedPtr",
+    "GetOrCreateCachedPtr_763149309395",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "OnApplicationQuit",
+    "OnBecameVisible"
+  ],
+  "hash_methods": [
+    "m_149",
+    "m_7AA"
+  ]
+}

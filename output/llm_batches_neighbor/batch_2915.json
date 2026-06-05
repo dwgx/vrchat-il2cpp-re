@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_A100",
+  "parent": "",
+  "named_methods": [
+    "ToStringEnd",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "ToString",
+    "ToString_10B12615051A",
+    "CompareTo",
+    "Equals_8FCE40D0C696"
+  ],
+  "hash_methods": [
+    "m_0EB",
+    "m_E5F"
+  ]
+}

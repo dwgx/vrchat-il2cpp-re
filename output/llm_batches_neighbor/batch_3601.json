@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5FEC",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "WritePackedSignedInteger",
+    "WritePackedUIntWithFlag"
+  ],
+  "hash_methods": [
+    "m_B3D",
+    "m_F6B",
+    "m_29B",
+    "m_2D4",
+    "m_007",
+    "m_CE8",
+    "m_A13",
+    "m_BCD",
+    "m_3BB",
+    "m_BFF"
+  ]
+}

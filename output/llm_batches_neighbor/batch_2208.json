@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeRelated_47DB",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "SetMatrix"
+  ],
+  "hash_methods": [
+    "m_F5D",
+    "m_AD9",
+    "m_CEF",
+    "m_40E"
+  ]
+}

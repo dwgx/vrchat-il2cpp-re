@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiRelated_737A",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_7FD",
+    "m_FE6",
+    "m_6F8",
+    "m_C64",
+    "m_AEB",
+    "m_8B6"
+  ]
+}

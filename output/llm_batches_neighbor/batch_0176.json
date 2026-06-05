@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    ".ctor",
+    "get_name",
+    ".cctor",
+    "ProcessQuaternion",
+    "GetInstanceID_E57120BD389B",
+    "ContainsChild_344E81"
+  ],
+  "hash_methods": [
+    "m_D77",
+    "m_904",
+    "m_A7D"
+  ]
+}

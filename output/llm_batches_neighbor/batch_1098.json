@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySibling_2289",
+  "parent": "",
+  "named_methods": [
+    "GetFormat",
+    "GetFormat_69814996CE02",
+    "GetFormat_A8FCCFAFCD4A",
+    ".cctor",
+    "GetFormat_879C0B02CA65",
+    "GetFormat_1212E7345BA5",
+    "Awake",
+    "OnDestroy",
+    "Update",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_516",
+    "m_852",
+    "m_1D9",
+    "m_7C2",
+    "m_F2E",
+    "m_E57",
+    "m_7E2",
+    "m_D5A",
+    "m_90E"
+  ]
+}

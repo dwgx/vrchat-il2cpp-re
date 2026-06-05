@@ -1,0 +1,43 @@
+{
+  "namespace": "",
+  "class": "PointerRefreshImmediateComponent_C174",
+  "parent": "",
+  "named_methods": [
+    "SetLocalScale",
+    "GetMaterialRenderQueue",
+    "GetRenderQueue",
+    "GetMaterialRenderQueue_5BC90F3143B6",
+    "GetMaterialRenderQueue_D553306BDA87",
+    "Awake",
+    "OnDestroy",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "ConfigureRigidbody",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    ".ctor",
+    "Initialize",
+    "ConfigureRigidbody_6FEA7663014F",
+    "GetMaterialRenderQueue_A5D3173DAEC6",
+    "SetParent",
+    "SetParent_E3FA58D2DC7E"
+  ],
+  "hash_methods": [
+    "m_62D",
+    "m_DE9",
+    "m_68D",
+    "m_5C1",
+    "m_438"
+  ]
+}

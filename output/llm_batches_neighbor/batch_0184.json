@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "CreateFindObjectsDestroy",
+    "GetIntegerFromDelegate",
+    "CheckNullArgument_4119141C355A",
+    ".cctor",
+    "CacheImageUrl",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_E7D",
+    "m_8EF",
+    "m_DEF",
+    "m_E6B"
+  ]
+}

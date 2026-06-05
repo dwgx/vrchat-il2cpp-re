@@ -1,0 +1,6 @@
+{
+  "m_8D0": "SetEnabled",
+  "m_405": "SetSharedMesh",
+  "m_43F": "GetConvex",
+  "m_9F9": "GetSharedMaterial"
+}

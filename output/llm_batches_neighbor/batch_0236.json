@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    "op_Implicit",
+    "GetNetworkValueAtOffset44",
+    ".cctor",
+    "get_name",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_9ED",
+    "m_6E8",
+    "m_125",
+    "m_C03",
+    "m_0CC",
+    "m_6FC"
+  ]
+}

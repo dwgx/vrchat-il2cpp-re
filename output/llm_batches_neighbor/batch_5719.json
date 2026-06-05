@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_493A",
+  "parent": "",
+  "named_methods": [
+    "ConfigureGameObject",
+    "ProcessQuaternion",
+    "ReadQuaternionState",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_AE4",
+    "m_FEA",
+    "m_DAE",
+    "m_17E",
+    "m_28F"
+  ]
+}

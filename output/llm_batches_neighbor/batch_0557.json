@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_D6AE",
+  "parent": "",
+  "named_methods": [
+    "CompareTo",
+    "SetStateMachine",
+    "CompareTo_1244533621D8",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_EC8",
+    "m_0A8",
+    "m_7F6",
+    "m_DB9",
+    "m_06D",
+    "m_4D8"
+  ]
+}

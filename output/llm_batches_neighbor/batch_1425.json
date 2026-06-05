@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "UIMaxContentCountObservableList_D870",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "OnDestroy",
+    "get_ObservableList_BD5BFFFAC0A0",
+    "get_MaxContentCount_DCF30A976221",
+    "set_ObservableList",
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "get_ObservableList",
+    "set_MaxContentCount",
+    "GetPivot",
+    "get_MaxContentCount",
+    "GetRect",
+    "GetTexture",
+    "OnDisable",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_C47",
+    "m_B3A",
+    "m_CD5",
+    "m_E6A",
+    "m_11E",
+    "m_7C3"
+  ]
+}

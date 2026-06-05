@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PhysicsHandler_7024",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SetIsKinematic"
+  ],
+  "hash_methods": [
+    "m_352",
+    "m_6DB",
+    "m_029",
+    "m_B6B",
+    "m_0DC",
+    "m_841",
+    "m_9AC",
+    "m_E31",
+    "m_61C",
+    "m_782"
+  ]
+}

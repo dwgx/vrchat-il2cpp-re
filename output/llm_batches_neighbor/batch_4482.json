@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TransformBehaviourHandler_DAFD",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "IsUnityObjectAlive"
+  ],
+  "hash_methods": [
+    "m_E33",
+    "m_4FD",
+    "m_C71",
+    "m_506",
+    "m_BF4",
+    "m_67C",
+    "m_9A5",
+    "m_C7F",
+    "m_B04"
+  ]
+}

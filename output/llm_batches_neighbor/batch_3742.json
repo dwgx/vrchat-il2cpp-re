@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_6F55",
+  "parent": "",
+  "named_methods": [
+    "Respawn",
+    "FlagDiscontinuity",
+    "TakeOwnership",
+    "TakeOwnership_582A94372B26",
+    "TeleportTo",
+    "TeleportTo_7B8C43CB6AA3",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnEnable",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_DCB",
+    "m_1F4",
+    "m_AB4",
+    "m_A50",
+    "m_0CC"
+  ]
+}

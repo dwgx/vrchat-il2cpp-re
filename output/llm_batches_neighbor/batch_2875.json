@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static21m_B25D",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "SetPositionRotationTransform",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_89D",
+    "m_A3C",
+    "m_DFF",
+    "m_4D9",
+    "m_7D7",
+    "m_5DF",
+    "m_86B",
+    "m_388",
+    "m_426",
+    "m_944"
+  ]
+}

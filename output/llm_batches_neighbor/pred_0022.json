@@ -1,0 +1,10 @@
+{
+  "m_B52": "GetHashCode",
+  "m_003": "Equals",
+  "m_5D3": "Implicit",
+  "m_AD2": "EnsureRunningOnMainThread",
+  "m_946": "CurrentThreadIsMainThread",
+  "m_B5A": "GetName",
+  "m_9C8": "SetName",
+  "m_9FB": "ToString"
+}

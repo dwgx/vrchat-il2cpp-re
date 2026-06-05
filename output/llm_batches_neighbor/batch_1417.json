@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "Static4m_F463",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_AF5"
+  ]
+}

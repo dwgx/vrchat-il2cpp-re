@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "PhysicsJoint2DHandler_6D0E",
+  "parent": "",
+  "named_methods": [
+    "GetBreakTorque",
+    "GetConnectedAnchor",
+    "GetEnableCollision",
+    "GetEnabled",
+    "GetJointSpeed",
+    "GetJointTranslation",
+    "GetReactionForce",
+    ".cctor",
+    "SetEnableCollision",
+    "CopyNullTerminatedString",
+    "WriteStreamElements",
+    ".ctor",
+    "Initialize",
+    "ReadStreamElementsSecure",
+    "ReadStreamElementsSecure_F92B51F883EC"
+  ],
+  "hash_methods": [
+    "m_E5C",
+    "m_2EA",
+    "m_274",
+    "m_07E",
+    "m_0F6"
+  ]
+}

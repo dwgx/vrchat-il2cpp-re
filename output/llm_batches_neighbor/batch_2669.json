@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_0051",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetActiveInHierarchy"
+  ],
+  "hash_methods": [
+    "m_CD0",
+    "m_02F",
+    "m_D10",
+    "m_329",
+    "m_6E0",
+    "m_D67",
+    "m_3D6",
+    "m_81A"
+  ]
+}

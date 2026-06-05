@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_E12E",
+  "parent": "",
+  "named_methods": [
+    "EnsureAdditionalBufferCapacity",
+    "TrimExcessBufferCapacity",
+    "GetActiveInHierarchy"
+  ],
+  "hash_methods": [
+    "m_943",
+    "m_77C",
+    "m_96F"
+  ]
+}

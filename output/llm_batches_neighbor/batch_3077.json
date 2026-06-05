@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "PhysicsEffector2DHandler_6ECC",
+  "parent": "",
+  "named_methods": [
+    "SetAnimationCurveKeys",
+    ".ctor",
+    "Initialize",
+    "InitializeAnimationCurves",
+    "GetEffectorTransform",
+    "Awake",
+    "OnDestroy",
+    "GetUseColliderMask",
+    "OnDisable",
+    "InverseTransformPoint",
+    "SetUseBounce",
+    "SetUseBounce_10A0EA40A287",
+    "SetUseColliderMask",
+    "SetUseFriction"
+  ],
+  "hash_methods": [
+    "m_36C",
+    "m_914",
+    "m_BDC",
+    "m_C57",
+    "m_289",
+    "m_4DC",
+    "m_3A5",
+    "m_8A4"
+  ]
+}

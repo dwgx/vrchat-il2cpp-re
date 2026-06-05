@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "CamerarenderModelNameSibling_7DBF",
+  "parent": "",
+  "named_methods": [
+    "InvokeVirtualMethodSlot",
+    "InvokeInterfaceMethodSlot",
+    "InvokeInterfaceMethodSlot_6B3E81FCD57E",
+    "InvokeGenericInterfaceMethodSlot",
+    "Equals",
+    ".ctor",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_DEF",
+    "m_C9E",
+    "m_E15",
+    "m_5B0",
+    "m_288",
+    "m_050",
+    "m_FA0"
+  ]
+}

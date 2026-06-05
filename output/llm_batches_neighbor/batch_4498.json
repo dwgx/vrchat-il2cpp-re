@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperRelated_2313",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start",
+    "GetComponentGameObject",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_CE1",
+    "m_182",
+    "m_179",
+    "m_868",
+    "m_385",
+    "m_338",
+    "m_889",
+    "m_F46"
+  ]
+}

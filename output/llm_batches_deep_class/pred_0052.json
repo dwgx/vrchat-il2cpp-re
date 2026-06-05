@@ -1,0 +1,22 @@
+{
+ "TransformProfiledSystem_5268::m_013": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_020": "InitializeEnumerator",
+ "TransformProfiledSystem_5268::m_026": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_02A": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_07C": "MarshalManagedToNative",
+ "TransformProfiledSystem_5268::m_0B3": "GetDictionaryValueOrThrow",
+ "TransformProfiledSystem_5268::m_0B4": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_0BE": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_10B": "MarshalManagedToNative",
+ "TransformProfiledSystem_5268::m_11F": "MarshalFixedAnsiStringToManaged",
+ "TransformProfiledSystem_5268::m_164": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_16E": "MarshalManagedToNative",
+ "TransformProfiledSystem_5268::m_17B": "MarshalFixedAnsiStringToManaged",
+ "TransformProfiledSystem_5268::m_1C8": "MarshalNativeToManaged",
+ "TransformProfiledSystem_5268::m_2F2": "MoveNext",
+ "TransformProfiledSystem_5268::m_346": "InitializeEnumerator",
+ "TransformProfiledSystem_5268::m_3C7": "CleanupNativeMarshaledData",
+ "TransformProfiledSystem_5268::m_3CC": "Dispose",
+ "TransformProfiledSystem_5268::m_3D6": "MarshalManagedToNative",
+ "TransformProfiledSystem_5268::m_3FD": "MarshalManagedToNative"
+}

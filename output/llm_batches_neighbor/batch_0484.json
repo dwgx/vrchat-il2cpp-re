@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "VRCInitializeVRSDK",
+  "parent": "",
+  "named_methods": [
+    ".ctor_A29D5E68A704",
+    "Initialize",
+    "IsInvoking",
+    "CancelInvoke",
+    "Invoke",
+    "InvokeRepeating",
+    "IsInvoking_6476DC3B296B",
+    "Awake",
+    "OnDestroy",
+    "WorkaroundAMDStutterBug",
+    ".ctor",
+    "WorkaroundAMDStutterBug_372F95E8E5F8",
+    "StopCoroutine",
+    "StopAllCoroutines",
+    "Start_BEED6E7AD015",
+    "set_useGUILayout",
+    "Start",
+    "Internal_CancelInvokeAll"
+  ],
+  "hash_methods": [
+    "m_287",
+    "m_202"
+  ]
+}

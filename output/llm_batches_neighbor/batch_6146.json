@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static28m_C537",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_DE0",
+    "m_E25"
+  ]
+}

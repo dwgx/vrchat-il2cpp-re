@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_F2CC",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_D95"
+  ]
+}

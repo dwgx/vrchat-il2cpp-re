@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_C431",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "Update",
+    "OnDestroy",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_62E",
+    "m_837",
+    "m_CBC",
+    "m_738",
+    "m_928",
+    "m_46A"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Instantiate",
+    "GetKeyDown_17BC74",
+    "SetGameObjectActive",
+    "ToString",
+    ".cctor",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_CF6",
+    "m_439",
+    "m_90F",
+    "m_1CE",
+    "m_F58",
+    "m_1B8",
+    "m_747",
+    "m_76D"
+  ]
+}

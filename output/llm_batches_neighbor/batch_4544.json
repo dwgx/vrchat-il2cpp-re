@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "SearchInFieldsUserSiblingSibliSibling_9183",
+  "parent": "",
+  "named_methods": [
+    "ResetLocalTransform",
+    ".ctor",
+    "Initialize",
+    "AdvanceCurrentIndex",
+    "Start",
+    "Contains"
+  ],
+  "hash_methods": [
+    "m_699"
+  ]
+}

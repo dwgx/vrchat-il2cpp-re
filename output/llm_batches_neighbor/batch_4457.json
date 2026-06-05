@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static26m_CEFA",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    ".cctor",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_BAE",
+    "m_368",
+    "m_8D5",
+    "m_7E6",
+    "m_F14",
+    "m_04C",
+    "m_8AA",
+    "m_8AD",
+    "m_E66",
+    "m_0F9"
+  ]
+}

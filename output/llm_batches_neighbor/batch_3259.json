@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_F7AF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Awake",
+    "OnDestroy",
+    "OnPointerExit",
+    "ToString",
+    "OnEnable",
+    "OnDisable",
+    "OnPointerEnter"
+  ],
+  "hash_methods": [
+    "m_40B",
+    "m_A76",
+    "m_8A3",
+    "m_15E",
+    "m_8B2",
+    "m_822",
+    "m_1BA",
+    "m_4C4",
+    "m_CE9",
+    "m_73D"
+  ]
+}

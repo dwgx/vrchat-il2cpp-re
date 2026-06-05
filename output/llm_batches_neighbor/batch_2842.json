@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "UIObservableList_5B1ESiblingSibling_104C",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "ProcessParticle"
+  ],
+  "hash_methods": [
+    "m_6B3",
+    "m_04C",
+    "m_BC0",
+    "m_A74",
+    "m_428",
+    "m_94C",
+    "m_C13",
+    "m_611"
+  ]
+}

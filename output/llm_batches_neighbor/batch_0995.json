@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_4601",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate"
+  ],
+  "hash_methods": [
+    "m_385",
+    "m_1E9",
+    "m_E20"
+  ]
+}

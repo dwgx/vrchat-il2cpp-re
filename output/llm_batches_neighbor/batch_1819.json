@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_4DBE",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Equals_01517EFCE392",
+    "GetRootPlayableInternal_Injected",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_440",
+    "m_752"
+  ]
+}

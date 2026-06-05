@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSibling_EF3D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Update",
+    "Initialize_9BF8DCB34276",
+    "Start",
+    "Start_C9ED83B2DF2E",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_07B",
+    "m_CE1"
+  ]
+}

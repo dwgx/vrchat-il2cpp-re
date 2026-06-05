@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSiblingSSibling_41D5",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "MoveNext",
+    "MoveNext_3E885B73235C",
+    "get_Current_AB1E034150F8",
+    "MoveNext_E105E732FB89",
+    "get_Current_86FC01D825D5",
+    "MoveNext_1BCB8493370B",
+    "Reset",
+    "get_Current_53D31E41996A",
+    "get_Current_7A90F186935F",
+    "get_Current_A3B4FB31945D",
+    "MoveNext_0AD945ECC6CB",
+    ".ctor",
+    "Initialize",
+    "SystemCollectionsIEnumeratorGetCurrent"
+  ],
+  "hash_methods": [
+    "m_F19",
+    "m_F98",
+    "m_D56",
+    "m_480",
+    "m_7E4",
+    "m_742",
+    "m_96C",
+    "m_3FB",
+    "m_657",
+    "m_29A"
+  ]
+}

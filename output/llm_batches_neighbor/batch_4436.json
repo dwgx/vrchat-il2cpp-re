@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "Service21m_642ESibling_E796",
+  "parent": "",
+  "named_methods": [
+    "SetLocalRotation",
+    "SetLocalRotation_77094DBEE19F",
+    "SetLocalRotation_776F6EDD68D1",
+    "SetLocalRotation_015C0D4E115B",
+    "SetLocalRotation_D40235EB3843",
+    "Equals",
+    "GetActiveSelf",
+    "Equals",
+    "Equals",
+    "GetHashCode",
+    ".ctor",
+    "ToString",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_C18",
+    "m_A82",
+    "m_FF3",
+    "m_903"
+  ]
+}

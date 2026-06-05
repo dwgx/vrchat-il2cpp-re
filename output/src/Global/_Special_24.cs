@@ -44,9 +44,9 @@ public class <>c
     public void GetCachedPtr(){} // RVA: 0x7FFAF65F5020
     public void GetKeyDown_17BC74(){} // RVA: 0x7FFAF65F5020
     public void SetBufferEntryAtomic(){} // RVA: 0x7FFAF65F5020
+    public void IsNativeObjectAlive(){} // RVA: 0x7FFAFBE01FC0
     // ── Unresolved (hash) ──
     public void m_67A(){} // RVA: 0x7FFAFBE01CF0
-    public void m_F57(){} // RVA: 0x7FFAFBE01FC0
     public void m_42C(){} // RVA: 0x7FFAFBE020B0
 }
 

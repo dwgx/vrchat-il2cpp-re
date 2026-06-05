@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "UserRoomRectComponent_F0A4",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    ".ctor",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay"
+  ],
+  "hash_methods": [
+    "m_E2F",
+    "m_752",
+    "m_43A",
+    "m_DBA",
+    "m_D85",
+    "m_544",
+    "m_D1C"
+  ]
+}

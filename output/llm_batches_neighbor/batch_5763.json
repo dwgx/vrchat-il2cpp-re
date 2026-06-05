@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_ED6A",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "System.Collections.IEnumerator.get_Current",
+    "get_Current",
+    "System.IDisposable.Dispose",
+    "System.Collections.IEnumerator.Reset",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "MoveNext",
+    "Equals",
+    "GetHashCode",
+    "ToString",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_CE3"
+  ]
+}

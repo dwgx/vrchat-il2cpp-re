@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "GameObjectHandler_8AAF",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "AreArraysEqual",
+    "IndexOf",
+    "IntrospectiveSort",
+    "InsertionSort",
+    ".ctor",
+    "Initialize",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_08C",
+    "m_2E6",
+    "m_3DB",
+    "m_FEC",
+    "m_C72",
+    "m_A10",
+    "m_D2E",
+    "m_D71",
+    "m_9F7"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "AudioPerformClipping_A8DE",
+  "parent": "",
+  "named_methods": [
+    "PerformClipping",
+    "OnDestroy",
+    ".ctor",
+    "Start",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_2E1",
+    "m_684",
+    "m_AC7",
+    "m_2DC",
+    "m_459",
+    "m_8E0",
+    "m_C36",
+    "m_022",
+    "m_E42",
+    "m_7A5"
+  ]
+}

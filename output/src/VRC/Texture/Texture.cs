@@ -95,30 +95,24 @@ namespace VRC.Texture
     public class TextureCalculateLayoutInpRelated_81F6
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAF2E08D50
         public void ExtractArrayFromList(){} // RVA: 0x7FFAFB9374E0
         public void ExtractArrayFromList_C2A884909B84(){} // RVA: 0x7FFAFB9375E0
         public void ExtractArrayFromList_D9254B32CD51(){} // RVA: 0x7FFAFB9375F0
-        public void Dispose(){} // RVA: 0x7FFAFB9377F0
-        public void Equals_8A373DF3FE68(){} // RVA: 0x7FFAFB9378F0
         public void Awake(){} // RVA: 0x7FFAFB937B20
-        public void ToString(){} // RVA: 0x7FFAFB937E60
         public void MultiplyVector(){} // RVA: 0x7FFAFB938B80
         public void MultiplyVector_A0D953A13964(){} // RVA: 0x7FFAFB938B90
-        public void GetHashCode(){} // RVA: 0x7FFAFB938CF0
         public void .ctor(){} // RVA: 0x7FFAFB938D20
         public void OnDestroy(){} // RVA: 0x7FFAFB938DF0
-        public void ToString_728B27C05229(){} // RVA: 0x7FFAFB939050
         public void ConstructFromColumns(){} // RVA: 0x7FFAFB9386F0
         public void ToStringFormat(){} // RVA: 0x7FFAFB939060
         public void ClampComponents(){} // RVA: 0x7FFAFB9393A0
-        // ── 17 unresolved (hash) ──
+        // ── 22 unresolved (hash) ──
         public void m_58A(){} // RVA: 0x7FFAFB9373C0
         public void m_679(){} // RVA: 0x7FFAFB9373D0
+        public void m_8A3(){} // RVA: 0x7FFAFB9378F0
         public void m_104(){} // RVA: 0x7FFAFB937490
         public void m_BC4(){} // RVA: 0x7FFAFB9376F0
-        public void m_441(){} // RVA: 0x7FFAF2E55500
-        // ... 12 more unresolved methods
+        // ... 17 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÎÏÏÌÌÏÏÍÎÍÍÌÏÎÎÎÎÌÍÌÍ</summary>
@@ -177,10 +171,11 @@ namespace VRC.Texture
     public class TextureCalculateLayoutInputHorSibling_9ABA
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF42D7660
         public void Insert(){} // RVA: 0x7FFAF42D7D60
         public void .ctor(){} // RVA: 0x7FFAF2DE7060
         public void Initialize(){} // RVA: 0x7FFAF42D8460
+        // ── Unresolved (hash) ──
+        public void m_1B3(){} // RVA: 0x7FFAF42D7660
     }
 
     /// <summary>Originally: ÎÍÌÎÏÍÏÌÎÍÍÎÍÌÏÎÎÎÍÎÌÏÎ</summary>
@@ -203,17 +198,15 @@ namespace VRC.Texture
     public class TextureCalculateLayoutInputHorSibling_B992
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAF45C2330
         public void .ctor(){} // RVA: 0x7FFAF45C2470
         public void Initialize(){} // RVA: 0x7FFAF45C24D0
-        public void Equals_8202535A30BF(){} // RVA: 0x7FFAF45C2890
-        // ── 13 unresolved (hash) ──
+        // ── 15 unresolved (hash) ──
+        public void m_9EC(){} // RVA: 0x7FFAF45C2330
         public void m_1B3(){} // RVA: 0x7FFAF45C2610
         public void m_235(){} // RVA: 0x7FFAF2E478F0
+        public void m_820(){} // RVA: 0x7FFAF45C2890
         public void m_489(){} // RVA: 0x7FFAF2E478F0
-        public void m_20B(){} // RVA: 0x7FFAF45C2930
-        public void m_9DB(){} // RVA: 0x7FFAF45C2960
-        // ... 8 more unresolved methods
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÏÍÏÏÍÌÍÍÍÍÍÌÎÌÏÏÌÎÎÌÎ</summary>
@@ -284,20 +277,36 @@ namespace VRC.Texture
     {
         // ── Methods ──
         public void get_text(){} // RVA: 0x7FFAFBDAC530
+        public void FontData(){} // RVA: 0x7FFAFBDAC540
+        public void Text(){} // RVA: 0x7FFAFBDAC800
+        public void TextCache(){} // RVA: 0x7FFAFBDAC840
+        public void TextCacheForLayout(){} // RVA: 0x7FFAFBDAC870
+        public void DefaultText(){} // RVA: 0x7FFAFBDAC930
         public void set_text(){} // RVA: 0x7FFAFBDAC940
+        public void DisableFontTextureRebuiltCallback(){} // RVA: 0x7FFAF9A7FA80
+        public void TempVerts(){} // RVA: 0x7FFAFBDACA40
         public void Awake(){} // RVA: 0x7FFAFBDACC40
         public void OnDisable(){} // RVA: 0x7FFAFBDACE60
+        public void HasFontAssetChanged(){} // RVA: 0x7FFAFBDAD110
+        public void SubTextObjects(){} // RVA: 0x7FFAFBDAD450
+        public void PreviousLossyScaleY(){} // RVA: 0x7FFAFBDAD620
+        public void RectTransformCorners(){} // RVA: 0x7FFAF9A7FB10
         public void .ctor(){} // RVA: 0x7FFAF3401F90
         public void Initialize(){} // RVA: 0x7FFAFBDAD650
+        public void CanvasRenderer(){} // RVA: 0x7FFAFBDAD660
+        public void Canvas(){} // RVA: 0x7FFAFBDAD7E0
+        public void IsFirstAllocation(){} // RVA: 0x7FFAFBDAC840
         public void CalculateLayoutInputHorizontal(){} // RVA: 0x7FFAFBDADBA0
+        public void MaxCharacters(){} // RVA: 0x7FFAFBDADD30
         public void OnEnable(){} // RVA: 0x7FFAFBDADE30
-        // ── 29 unresolved (hash) ──
-        public void m_2CD(){} // RVA: 0x7FFAFBDAC540
-        public void m_F62(){} // RVA: 0x7FFAFBDAC800
-        public void m_330(){} // RVA: 0x7FFAFBDAC840
-        public void m_F9F(){} // RVA: 0x7FFAFBDAC870
-        public void m_864(){} // RVA: 0x7FFAFBDAC930
-        // ... 24 more unresolved methods
+        public void BaseMaterial(){} // RVA: 0x7FFAFBDAE190
+        // ── 13 unresolved (hash) ──
+        public void m_D46(){} // RVA: 0x7FFAFBDACA60
+        public void m_569(){} // RVA: 0x7FFAFBDACB10
+        public void m_A49(){} // RVA: 0x7FFAF2DED9C0
+        public void m_8A3(){} // RVA: 0x7FFAFBDACB20
+        public void m_4D4(){} // RVA: 0x7FFAF2DED9C0
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÌÌÎÎÎÏÎÎÍÌÌÍÏÎÌÌÌÏÏÎÌ</summary>
@@ -308,6 +317,7 @@ namespace VRC.Texture
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3F98B10
         public void OnEnable_DCE74E5E4D58(){} // RVA: 0x7FFAF3F98C20
+        public void TextureScale(){} // RVA: 0x7FFAF3F98D30
         public void InvokeRepeating(){} // RVA: 0x7FFAF3F98D30
         public void OnEnable(){} // RVA: 0x7FFAF2F40010
         public void OnDisable(){} // RVA: 0x7FFAF3F98D40
@@ -316,8 +326,6 @@ namespace VRC.Texture
         public void Updateenabled(){} // RVA: 0x7FFAF3F98EC0
         public void Update(){} // RVA: 0x7FFAF3F98F60
         public void StopCoroutine(){} // RVA: 0x7FFAF3F99030
-        // ── Unresolved (hash) ──
-        public void m_3F5(){} // RVA: 0x7FFAF3F98D30
     }
 
     /// <summary>Originally: ÌÏÎÍÍÎÌÌÏÌÌÏÍÍÎÌÌÎÏÍÏÍÍ</summary>

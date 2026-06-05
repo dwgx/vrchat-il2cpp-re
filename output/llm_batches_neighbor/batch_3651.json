@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "CleanupDisposeStaticMethods_1AD3",
+  "parent": "",
+  "named_methods": [
+    "CompareStringsIgnoreCase",
+    "CompareStringsIgnoreCase_C38AFD7E8A0A",
+    "CompareStringsIgnoreCase_185272718DC1",
+    "Dispose",
+    "Cleanup",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_CDA",
+    "m_DA7",
+    "m_70C",
+    "m_DD3",
+    "m_9C5",
+    "m_3A7",
+    "m_DAC"
+  ]
+}

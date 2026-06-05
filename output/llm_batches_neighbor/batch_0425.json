@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".cctor",
+    "CheckServiceStatus",
+    "GetHashCode_BFD09D58902F",
+    ".ctor",
+    "GetInstanceID",
+    "GetInstanceID_C4DE9BDD4B67"
+  ],
+  "hash_methods": [
+    "m_819",
+    "m_17C"
+  ]
+}

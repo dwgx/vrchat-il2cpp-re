@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Static15m_1E33",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "ReadRectOffsetState",
+    "SetParentTransform",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_361",
+    "m_511",
+    "m_4EB",
+    "m_69B",
+    "m_315",
+    "m_228",
+    "m_EDF",
+    "m_42A",
+    "m_C22",
+    "m_AF6"
+  ]
+}

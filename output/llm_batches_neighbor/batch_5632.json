@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "TransformBehaviourHandler_7189",
+  "parent": "",
+  "named_methods": [
+    "GetEnabled",
+    "GetActiveSelf",
+    "GetUnscaledTime",
+    "GetUnscaledTime_BC133D6D2803",
+    "GetUnscaledTime_62B26230742D",
+    "GetUnscaledTime_4AE6BABFCD8D",
+    ".ctor",
+    "Initialize",
+    "GetActiveSelf_0357794FB8CA",
+    "SetLocalRotation"
+  ],
+  "hash_methods": [
+    "m_1DB",
+    "m_F3B",
+    "m_8AB",
+    "m_C10",
+    "m_9A7",
+    "m_5D6",
+    "m_61B",
+    "m_7A4",
+    "m_163"
+  ]
+}

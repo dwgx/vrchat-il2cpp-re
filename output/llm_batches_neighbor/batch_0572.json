@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_E4C5",
+  "parent": "",
+  "named_methods": [
+    "GetDeltaTime",
+    "GetDeltaTime_821CC88E4D9D",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_77C",
+    "m_903",
+    "m_EB2",
+    "m_1A2",
+    "m_573",
+    "m_D6D",
+    "m_95D"
+  ]
+}

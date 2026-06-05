@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "SetServerIpAddress",
+    "ConfigureCanvasGroup",
+    "CompareBaseObjects",
+    ".cctor",
+    "GetInstanceID",
+    "Internal_InstantiateSingle_Injected"
+  ],
+  "hash_methods": [
+    "m_F52",
+    "m_A71",
+    "m_E3C",
+    "m_169"
+  ]
+}

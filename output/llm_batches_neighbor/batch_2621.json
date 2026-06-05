@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_43A2",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "ToString",
+    "SetStateMachine",
+    "ToString_440D1A4DE1DC",
+    "MoveNext",
+    "GetHashCode_4E868F86F32B",
+    "GetHashCode_01517EFCE392"
+  ],
+  "hash_methods": [
+    "m_63A",
+    "m_DB9"
+  ]
+}

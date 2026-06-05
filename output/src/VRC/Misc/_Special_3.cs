@@ -325,18 +325,16 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingSibRelated_72AB
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAF45C2320
-        public void Equals_DE56FD676C83(){} // RVA: 0x7FFAF358F010
         public void SetLocalScale(){} // RVA: 0x7FFAF4AE65B0
         public void SetLocalScale_14AF222A35A2(){} // RVA: 0x7FFAF4AE65D0
         public void SetLocalScale_EDEC97D9C484(){} // RVA: 0x7FFAF4AE65E0
-        // ── 32 unresolved (hash) ──
+        // ── 34 unresolved (hash) ──
+        public void m_2D7(){} // RVA: 0x7FFAF45C2320
         public void m_953(){} // RVA: 0x7FFAF2F12D00
         public void m_258(){} // RVA: 0x7FFAF2E55500
         public void m_239(){} // RVA: 0x7FFAF2DA8380
         public void m_288(){} // RVA: 0x7FFAF2F74D50
-        public void m_FE4(){} // RVA: 0x7FFAF4584690
-        // ... 27 more unresolved methods
+        // ... 29 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÎÍÎÎÍÏÏÍÌÍÎÏÎÎÌÏÎÌÍÎÌ</summary>
@@ -542,16 +540,13 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÌÏÏÍÏÎÎÎÍÎÌÍÍÏÍÏÌÍÏÌÍÎ</summary>
     public class 0DerivedSiblingSiblingSiblingSibling_E8E6
     {
-        // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF4B35470
-        public void MoveNext(){} // RVA: 0x7FFAF4B354C0
-        // ── 11 unresolved (hash) ──
+        // ── 13 unresolved (hash) ──
         public void m_DD3(){} // RVA: 0x7FFAF44189B0
         public void m_3F3(){} // RVA: 0x7FFAF32E3580
+        public void m_22A(){} // RVA: 0x7FFAF4B35470
         public void m_BFE(){} // RVA: 0x7FFAF44189C0
-        public void m_271(){} // RVA: 0x7FFAF44189C0
-        public void m_461(){} // RVA: 0x7FFAF4418950
-        // ... 6 more unresolved methods
+        public void m_425(){} // RVA: 0x7FFAF4B354C0
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÎÎÌÌÏÍÏÎÎÍÌÌÌÍÌÌÌÍÏÎÎÍÎ</summary>

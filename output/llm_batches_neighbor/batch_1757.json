@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Static43m_7678",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "LateUpdate"
+  ],
+  "hash_methods": [
+    "m_1F2",
+    "m_CF4",
+    "m_151",
+    "m_C47",
+    "m_C76",
+    "m_6E9",
+    "m_6A5",
+    "m_66E",
+    "m_B3F",
+    "m_67E"
+  ]
+}

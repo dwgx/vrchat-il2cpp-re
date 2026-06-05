@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySiblingSibling_4237",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "ToString_51F0F4592CA3",
+    "GetIsPlaying",
+    ".ctor",
+    "Initialize",
+    "GetIsPlaying_482257E3B0B0",
+    "Equals",
+    "MoveNext",
+    "MoveNext_70D608906FC8",
+    "Awake",
+    "OnEnable",
+    "OnDisable",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_BFE",
+    "m_D69",
+    "m_26E",
+    "m_BA8",
+    "m_E3F",
+    "m_800"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "ShaderHandler_F1D8",
+  "parent": "",
+  "named_methods": [
+    "PropertyToID",
+    "TrySetResult",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_3F5",
+    "m_2E3",
+    "m_B22"
+  ]
+}

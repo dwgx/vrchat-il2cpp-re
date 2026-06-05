@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSibling_61D3",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_B24",
+    "m_4B5",
+    "m_C89",
+    "m_47F",
+    "m_D84"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "CloneSibling_3F04",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "GetStructuralHashCode",
+    "GetStructuralHashCode_8C2E283E885B",
+    ".ctor",
+    "Initialize",
+    "GetStructuralHashCode_FE6DF4546CA8",
+    "GetHashCode_33AB8969C81C",
+    "GetStructuralHashCode_C2D42F62261D",
+    "GetHashCode_1C9BDCFF018C",
+    "GetHashCode_7458A58FDABA",
+    "GetStructuralHashCode_C01A0C45D348"
+  ],
+  "hash_methods": [
+    "m_5C5",
+    "m_9DE",
+    "m_5F4",
+    "m_FC0",
+    "m_BAC"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "poolSize_F2E7",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_076"
+  ]
+}

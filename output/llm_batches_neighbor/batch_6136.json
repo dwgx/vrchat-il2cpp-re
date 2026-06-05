@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "MaterialUIHandler_3216",
+  "parent": "",
+  "named_methods": [
+    "HasTextureImpl",
+    "GetTextureImpl",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_BE1",
+    "m_E08",
+    "m_29A",
+    "m_428"
+  ]
+}

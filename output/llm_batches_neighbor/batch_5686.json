@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "RectTransformDimensionsCh_CF11",
+  "parent": "",
+  "named_methods": [
+    "OnRectTransformDimensionsChange",
+    ".ctor",
+    "OnEnable",
+    "OnDisable",
+    "OnRectTransformDimensionsChange_098E561A0ABF",
+    "Awake",
+    "OnDestroy",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_283",
+    "m_D97",
+    "m_FAB",
+    "m_CCD",
+    "m_740",
+    "m_11B",
+    "m_1BF"
+  ]
+}

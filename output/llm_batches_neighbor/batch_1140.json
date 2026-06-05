@@ -1,0 +1,42 @@
+{
+  "namespace": "",
+  "class": "MaterialUISystem_932F",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "GetSharedMaterial",
+    "GetMaterial",
+    "GetRenderQueue",
+    "GetSharedMaterial_01868FB1F825",
+    "GetRenderQueue_A85E3366D41B",
+    "SetRenderQueue",
+    "GetSharedMaterial_3AB0A5DE8073",
+    "SetRenderQueue_0BEE8A382E7F",
+    "GetSharedMaterial_29A53A58011F",
+    "GetMaterial_DB4BF841BAEF",
+    "Awake",
+    "OnDestroy",
+    "GetMaterial_BC16714B0BCA",
+    "GetRenderQueue_EA3B007F8A84",
+    ".ctor",
+    "Start",
+    "RandomRangeInt",
+    "GetSharedMaterial_A7B491A39E70",
+    "RandomRangeInt_C37C0AED7C47",
+    "RandomRangeInt_E2B74AD23CFE",
+    "RandomRangeInt_D71D8DE5755D",
+    "RandomRangeInt_E7F5BA373E72",
+    "ProcessMaterial",
+    "ProcessMaterial_60EEA613AACF",
+    "PropertyToID",
+    "GetMaterial_AA38A08754D7"
+  ],
+  "hash_methods": [
+    "m_33D",
+    "m_27C",
+    "m_026",
+    "m_354",
+    "m_B7A",
+    "m_652"
+  ]
+}

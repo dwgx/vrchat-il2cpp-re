@@ -11,12 +11,10 @@ namespace VRC.Network
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAFB6985F0
         public void Initialize(){} // RVA: 0x7FFAFB698860
-        public void ToString(){} // RVA: 0x7FFAFB698A70
         public void Awake(){} // RVA: 0x7FFAFB698C80
         public void OnEnable(){} // RVA: 0x7FFAFB698E50
         public void Start(){} // RVA: 0x7FFAFB698EB0
         public void Update(){} // RVA: 0x7FFAFB698FC0
-        public void ToString_CEEFC8220BFB(){} // RVA: 0x7FFAFB6991D0
         public void LateUpdate(){} // RVA: 0x7FFAFB6993A0
         public void OnDisable(){} // RVA: 0x7FFAFB69A1A0
         public void OnDestroy(){} // RVA: 0x7FFAFB69A370
@@ -25,6 +23,8 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_53F(){} // RVA: 0x7FFAFB698210
         public void m_D0B(){} // RVA: 0x7FFAFB698420
+        public void m_442(){} // RVA: 0x7FFAFB698A70
+        public void m_CEE(){} // RVA: 0x7FFAFB6991D0
     }
 
     /// <summary>Originally: ÏÍÍÍÏÌÌÎÏÎÍÍÍÎÍÌÍÏÍÌÏÌÍ</summary>
@@ -129,15 +129,13 @@ namespace VRC.Network
         public void OnEnable(){} // RVA: 0x7FFAF3D89860
         public void ConfigureParticleEmissionModule(){} // RVA: 0x7FFAF36F2990
         public void GetTimeSmoothDeltaTime(){} // RVA: 0x7FFAF3D89D40
-        public void OnEnable_FBF4943E4ECF(){} // RVA: 0x7FFAF3D8A190
-        public void OnDisable_F8BAC96E1BA1(){} // RVA: 0x7FFAF3D8A2A0
-        // ── 23 unresolved (hash) ──
+        // ── 25 unresolved (hash) ──
         public void m_A04(){} // RVA: 0x7FFAF3D82570
         public void m_9DF(){} // RVA: 0x7FFAF3D825B0
         public void m_7E1(){} // RVA: 0x7FFAF36F1AB0
         public void m_4E2(){} // RVA: 0x7FFAF3D834E0
         public void m_2AD(){} // RVA: 0x7FFAF3D83580
-        // ... 18 more unresolved methods
+        // ... 20 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÌÎÎÍÍÌÎÏÏÏÌÍÌÏÍÏÍÏÎÍ</summary>
@@ -183,19 +181,14 @@ namespace VRC.Network
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF45699C0
         public void Initialize(){} // RVA: 0x7FFAF4569A80
-        public void ToString(){} // RVA: 0x7FFAF4569D70
         public void OnMasterClientSwitched(){} // RVA: 0x7FFAF456A340
-        public void ToString_B02BAEF6B7AA(){} // RVA: 0x7FFAF456A8E0
-        public void ToString_2AEEEDBD7739(){} // RVA: 0x7FFAF456ABD0
-        public void ToString_A74F1AF68F0E(){} // RVA: 0x7FFAF456AE80
-        public void ToString_747B4398187C(){} // RVA: 0x7FFAF456B160
-        public void ToString_72E6AFC2981C(){} // RVA: 0x7FFAF456B740
-        public void ToString_FF3491B7BE1F(){} // RVA: 0x7FFAF456BA20
-        // ── Unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_F90(){} // RVA: 0x7FFAF45696D0
+        public void m_82D(){} // RVA: 0x7FFAF4569D70
         public void m_33D(){} // RVA: 0x7FFAF456A050
         public void m_318(){} // RVA: 0x7FFAF456A630
-        public void m_68A(){} // RVA: 0x7FFAF456B450
+        public void m_B02(){} // RVA: 0x7FFAF456A8E0
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÎÏÌÎÌÎÌÌÍÌÏÏÏÎÏÌÎÍÍÏÌ</summary>
@@ -263,19 +256,11 @@ namespace VRC.Network
     public class PhotonUserConnectionComponent_5CF6
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAFB68B650
-        public void ToString_B381175974AF(){} // RVA: 0x7FFAFB68B980
         public void .ctor(){} // RVA: 0x7FFAFB68BB00
         public void Initialize(){} // RVA: 0x7FFAFB68BBF0
-        public void ToString_AA4BA3A75ECE(){} // RVA: 0x7FFAFB68BD70
-        public void ToString_621A79BC54A6(){} // RVA: 0x7FFAFB68BE60
-        public void Equals(){} // RVA: 0x7FFAFB68BF80
-        public void GetHashCode(){} // RVA: 0x7FFAFB68C530
         public void ReadBehaviourState(){} // RVA: 0x7FFAFB68CCB0
-        public void GetHashCode_15BFCE6F8803(){} // RVA: 0x7FFAFB68CDA0
         public void Awake(){} // RVA: 0x7FFAFB68CEC0
         public void OnEnable(){} // RVA: 0x7FFAFB68CEF0
-        public void GetHashCode_813BF5377F95(){} // RVA: 0x7FFAFB68D270
         public void FixedUpdate(){} // RVA: 0x7FFAFB68D360
         public void Update(){} // RVA: 0x7FFAFB68D8A0
         public void LateUpdate(){} // RVA: 0x7FFAF2AD4B10
@@ -292,7 +277,15 @@ namespace VRC.Network
         public void OnTriggerStay(){} // RVA: 0x7FFAFB68E8F0
         public void OnTriggerExit(){} // RVA: 0x7FFAFB68EA10
         // ── Unresolved (hash) ──
+        public void m_A99(){} // RVA: 0x7FFAFB68B650
+        public void m_B38(){} // RVA: 0x7FFAFB68B980
+        public void m_AA4(){} // RVA: 0x7FFAFB68BD70
+        public void m_621(){} // RVA: 0x7FFAFB68BE60
         public void m_AEC(){} // RVA: 0x7FFAFB68BF50
+        public void m_400(){} // RVA: 0x7FFAFB68BF80
+        public void m_552(){} // RVA: 0x7FFAFB68C530
+        public void m_15B(){} // RVA: 0x7FFAFB68CDA0
+        public void m_813(){} // RVA: 0x7FFAFB68D270
     }
 
 }

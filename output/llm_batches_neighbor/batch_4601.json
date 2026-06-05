@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_CB3A",
+  "parent": "",
+  "named_methods": [
+    "MaybeShrink",
+    "FindPosition",
+    "FindPosition_95DF3ECA53E5",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_6C6",
+    "m_6EA",
+    "m_937",
+    "m_C01",
+    "m_51F"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiRelated_E24A",
+  "parent": "",
+  "named_methods": [
+    "ResizeSparseHashForDelta",
+    "ResizeSparseHashForDelta_32CFA06189A3",
+    "ResizeSparseHashForDelta_30AA1FE6E6FD",
+    "Dispose",
+    "Cleanup",
+    "ResizeSparseHashTable",
+    "ResizeSparseHashTable_51FBC0D981AD",
+    ".ctor",
+    "Initialize",
+    "DestroySparseHashGroups"
+  ],
+  "hash_methods": [
+    "m_A66",
+    "m_6A7",
+    "m_686",
+    "m_26C"
+  ]
+}

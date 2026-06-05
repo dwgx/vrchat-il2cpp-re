@@ -711,19 +711,30 @@ namespace VRC.Internal.Generated
         // ── Methods ──
         public void Reset(){} // RVA: 0x7FFAFBCDE1A0
         public void ReadApplicationState(){} // RVA: 0x7FFAF2DB6070
+        public void RectTransform(){} // RVA: 0x7FFAFBCDE700
         public void Awake(){} // RVA: 0x7FFAFBCDE8D0
+        public void LastSafeArea(){} // RVA: 0x7FFAFBCDF180
+        public void LastScreenSize(){} // RVA: 0x7FFAFBCDE220
         public void .ctor(){} // RVA: 0x7FFAF2DC4BB0
         public void Initialize(){} // RVA: 0x7FFAFBCDF210
+        public void LastOrientation(){} // RVA: 0x7FFAFBCDF280
+        public void ConformX(){} // RVA: 0x7FFAFBCDF450
         public void Start(){} // RVA: 0x7FFAFBCDF6E0
+        public void ConformY(){} // RVA: 0x7FFAFBCDF770
         public void ConfigureRectTransform(){} // RVA: 0x7FFAFBCDFB80
+        public void Logging(){} // RVA: 0x7FFAFBCDFCA0
         public void OnDestroy(){} // RVA: 0x7FFAFBCDFD30
-        // ── 17 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_49B(){} // RVA: 0x7FFAFBCDDEF0
         public void m_BEB(){} // RVA: 0x7FFAFBCDDF50
         public void m_4D5(){} // RVA: 0x7FFAFBCDE060
         public void m_ADC(){} // RVA: 0x7FFAFBCDE1A0
         public void m_115(){} // RVA: 0x7FFAFBCDE220
-        // ... 12 more unresolved methods
+        public void m_E50(){} // RVA: 0x7FFAFBCDE240
+        public void m_CE1(){} // RVA: 0x7FFAFBCDE370
+        public void m_87B(){} // RVA: 0x7FFAFBCDE400
+        public void m_E34(){} // RVA: 0x7FFAFBCDE530
+        public void m_2FF(){} // RVA: 0x7FFAF2F734F0
     }
 
     /// <summary>Originally: ÌÍÎÍÏÎÏÍÍÎÍÏÍÏÌÍÏÌÌÎÏÎÌ</summary>

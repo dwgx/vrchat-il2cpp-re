@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static8m_649F",
+  "parent": "",
+  "named_methods": [
+    "GetGameObjectScene",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_28A",
+    "m_DEB",
+    "m_E49",
+    "m_2F8",
+    "m_C2C"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PhysicsDescriptionPurchase_F17Sibling_2CE3",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    ".ctor",
+    "SortArrayRange",
+    "IntrospectiveSort",
+    "SwapIfGreater"
+  ],
+  "hash_methods": [
+    "m_404",
+    "m_503",
+    "m_BF2",
+    "m_505",
+    "m_311"
+  ]
+}

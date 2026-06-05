@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "FocusInvisibleComponent_2B16",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible"
+  ],
+  "hash_methods": [
+    "m_CA7"
+  ]
+}

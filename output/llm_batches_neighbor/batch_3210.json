@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "SpawnComponent_D9F3",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_AFD",
+    "m_6F5",
+    "m_DC3",
+    "m_1B3",
+    "m_3FB",
+    "m_703"
+  ]
+}

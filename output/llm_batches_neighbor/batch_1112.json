@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "CameraUIHandler_30DE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDrawGizmos",
+    "SetAlpha",
+    "ReadCameraProperties"
+  ],
+  "hash_methods": [
+    "m_852",
+    "m_D0F",
+    "m_4CA",
+    "m_3CE",
+    "m_CB9",
+    "m_942",
+    "m_1D6"
+  ]
+}

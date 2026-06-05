@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_968FSibling_4D4E",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    ".ctor",
+    "Awake",
+    "Update",
+    "LateUpdate",
+    "FixedUpdate"
+  ],
+  "hash_methods": [
+    "m_BEE",
+    "m_FC3",
+    "m_028"
+  ]
+}

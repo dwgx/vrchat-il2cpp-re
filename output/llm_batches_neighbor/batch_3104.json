@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_227D",
+  "parent": "",
+  "named_methods": [
+    "SetItem",
+    "IndexOf",
+    "OnPointerEnter",
+    "Start",
+    ".ctor",
+    "OnPointerExit",
+    "RemoveAt",
+    "IndexOf_3A550DA4DFC3"
+  ],
+  "hash_methods": [
+    "m_710"
+  ]
+}

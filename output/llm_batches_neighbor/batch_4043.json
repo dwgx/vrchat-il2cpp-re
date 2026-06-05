@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static21m_FB8F",
+  "parent": "",
+  "named_methods": [
+    "ReadCapsuleColliderState",
+    "ReadCapsuleColliderState_0C7E30683EC3",
+    "ReadApplicationState",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_497",
+    "m_A52",
+    "m_FCC",
+    "m_498",
+    "m_B47",
+    "m_A4E",
+    "m_AA9",
+    "m_6DB",
+    "m_D1F",
+    "m_09C"
+  ]
+}

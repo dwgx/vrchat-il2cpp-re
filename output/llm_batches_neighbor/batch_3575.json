@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static30m_E141",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_B14",
+    "m_289",
+    "m_AD3",
+    "m_587"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "Alpha_26E3",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize",
+    "RemoveItem",
+    "RemoveItem_DDCB5990973D",
+    "AddItem",
+    "Sphere",
+    "RemoveItem_A4A0E5D72A76",
+    "Line",
+    "get_Alpha",
+    "set_Alpha",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_34C",
+    "m_FC9",
+    "m_2AF",
+    "m_37C",
+    "m_5A4",
+    "m_6B8",
+    "m_0E0"
+  ]
+}

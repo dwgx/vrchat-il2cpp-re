@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_D3DE",
+  "parent": "",
+  "named_methods": [
+    "System.Collections.IEnumerator.get_Current",
+    "System.Collections.IEnumerator.Reset",
+    "System.IDisposable.Dispose",
+    "get_Current",
+    "Equals",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "MoveNext",
+    "GetHashCode",
+    "ToString",
+    "Dispose",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_6AA"
+  ]
+}

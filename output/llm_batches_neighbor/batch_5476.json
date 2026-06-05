@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "AssetCacheSibling_6CC6",
+  "parent": "",
+  "named_methods": [
+    "Get",
+    "Set",
+    "Invalidate",
+    "Clear"
+  ],
+  "hash_methods": [
+    "m_32C"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "RefreshServices_2226::m_A70": "ApplyAvatarScaleToHumanPose",
+ "RefreshServices_2226::m_AA8": "RefreshAvatarComponents",
+ "RefreshServices_2226::m_AC1": "RefreshAvatarComponents",
+ "RefreshServices_2226::m_B10": "GetHumanPose",
+ "RefreshServices_2226::m_B18": "UpdatePlayerTracking",
+ "RefreshServices_2226::m_B60": "InitializeAnimationStreamHandles",
+ "RefreshServices_2226::m_C14": "BuildAvatarPoseData",
+ "RefreshServices_2226::m_CD2": "ProcessHumanPoseUpdate",
+ "RefreshServices_2226::m_D02": "InitializeAnimationStreamHandles",
+ "RefreshServices_2226::m_E3F": "CanUpdatePlayerTracking",
+ "RefreshServices_2226::m_E74": "InitializeAnimationStreamHandles",
+ "RefreshServices_2226::m_E85": "InitializeAnimationStreamHandles",
+ "RefreshServices_2226::m_F1D": "BuildAvatarPoseData"
+}

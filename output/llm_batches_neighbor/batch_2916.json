@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_A230",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "FlushFileStream",
+    "CloseFileStream",
+    "ComputeStringSpanExcludingChars"
+  ],
+  "hash_methods": [
+    "m_CF3",
+    "m_6EA",
+    "m_6F8"
+  ]
+}

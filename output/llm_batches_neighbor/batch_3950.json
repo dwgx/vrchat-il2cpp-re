@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextCannedReRelated_F044",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "LastIndexOf"
+  ],
+  "hash_methods": [
+    "m_455",
+    "m_84A",
+    "m_A53",
+    "m_184",
+    "m_9C8"
+  ]
+}

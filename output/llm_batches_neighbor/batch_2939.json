@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TransformParentComponent_5275",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    ".ctor",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_1CC",
+    "m_076",
+    "m_8A3",
+    "m_97E"
+  ]
+}

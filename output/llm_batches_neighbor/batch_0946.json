@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_226FSiblingSibling_F76C",
+  "parent": "",
+  "named_methods": [
+    "ProcessGizmos",
+    "Insert",
+    "Awake",
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "Update",
+    "Start",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_272"
+  ]
+}

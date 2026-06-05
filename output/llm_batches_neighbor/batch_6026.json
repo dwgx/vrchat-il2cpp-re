@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "hasTexture_5536",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "SetShadowBias",
+    "SetMaterial",
+    "SetStartWidth",
+    "SetIsStaticShadowCaster",
+    "SetStartWidth_C1A640872865",
+    "SetTextureScale",
+    "SetStartWidth_8C60CE4747AC",
+    "SetWidthMultiplier",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_295",
+    "m_692",
+    "m_3DE",
+    "m_A6E",
+    "m_B67",
+    "m_865",
+    "m_A01",
+    "m_DBC",
+    "m_8CE",
+    "m_9AB"
+  ]
+}

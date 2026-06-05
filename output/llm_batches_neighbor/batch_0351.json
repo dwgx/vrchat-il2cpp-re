@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "CompareBaseObjects",
+    "ComputeIsSelf",
+    "Instantiate",
+    "SetBufferEntryAtomic",
+    "op_Implicit",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_E5B",
+    "m_23B",
+    "m_329",
+    "m_957",
+    "m_A88",
+    "m_24D"
+  ]
+}

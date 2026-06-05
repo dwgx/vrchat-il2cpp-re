@@ -1,0 +1,12 @@
+{
+  "m_F57": "HandleRect",
+  "m_B5E": "Direction",
+  "m_BE1": "Value",
+  "m_E99": "Size",
+  "m_8CB": "NumberOfSteps",
+  "m_2E2": "OnValueChanged",
+  "m_729": "ContainerRect",
+  "m_3BD": "Offset",
+  "m_BF8": "Tracker",
+  "m_640": "PointerDownRepeat"
+}

@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_F486",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "System.IDisposable.Dispose",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_FED",
+    "m_B56"
+  ]
+}

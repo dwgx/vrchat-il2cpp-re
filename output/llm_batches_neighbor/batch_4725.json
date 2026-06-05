@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "TransformParentChanged_BBA2",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    "ProcessPhysics",
+    "OnTransformParentChanged",
+    ".ctor",
+    "Initialize",
+    "ProcessPhysics_39AAED1B73AB",
+    "Start",
+    "ProcessPhysics_3A2E00B67103",
+    "ProcessPhysics_77DA768F9E40"
+  ],
+  "hash_methods": [
+    "m_420",
+    "m_03F",
+    "m_889",
+    "m_392",
+    "m_4A3"
+  ]
+}

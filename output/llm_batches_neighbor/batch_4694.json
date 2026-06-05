@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_F9CE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetTimeTime"
+  ],
+  "hash_methods": [
+    "m_3B2",
+    "m_3F5",
+    "m_E0E",
+    "m_C30",
+    "m_59E",
+    "m_CCC"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextCannedSiblingSibling_9106",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "SetChangeValue",
+    "Update",
+    "Update_2B4F45D701AE",
+    "OnEnable",
+    "OnDisable",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_F5D",
+    "m_47A",
+    "m_FF4"
+  ]
+}

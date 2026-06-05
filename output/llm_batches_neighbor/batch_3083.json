@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "SearchInFieldsUserSiblingSibling_D00E",
+  "parent": "",
+  "named_methods": [
+    "OffsetPositionsFromIndex",
+    "ApplyRotationFromIndex",
+    "OffsetRotationsAfterIndex",
+    "ApplyRotationAfterIndex",
+    "Start",
+    "RotateFollowingElementsAroundPivot",
+    ".ctor",
+    "Initialize",
+    "GetParentRotation",
+    "GetParentPosition"
+  ],
+  "hash_methods": [
+    "m_D8E"
+  ]
+}

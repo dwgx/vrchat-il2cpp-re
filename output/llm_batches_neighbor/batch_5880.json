@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PhysicsComponentHandler_B2B7",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_3E4",
+    "m_92A",
+    "m_D1E",
+    "m_3F3",
+    "m_022",
+    "m_164",
+    "m_03E",
+    "m_B8B",
+    "m_ABE",
+    "m_EED"
+  ]
+}

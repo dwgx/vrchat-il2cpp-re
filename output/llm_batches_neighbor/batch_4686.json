@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerDown_1747",
+  "parent": "",
+  "named_methods": [
+    "OnPointerUp",
+    "OnPointerEnter",
+    "OnPointerDown",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_070",
+    "m_291",
+    "m_8E7",
+    "m_A14",
+    "m_054",
+    "m_4D8"
+  ]
+}

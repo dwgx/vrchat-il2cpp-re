@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponentImpl_AB77SibSibling_6341",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_9F1",
+    "m_A92"
+  ]
+}

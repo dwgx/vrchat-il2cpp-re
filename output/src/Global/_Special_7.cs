@@ -55,9 +55,9 @@ public class <>c
     public void GetLastCacheItem(){} // RVA: 0x7FFAFBEA77C0
     public void .cctor(){} // RVA: 0x7FFAFBEA7820
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
-    public void Initialize(){} // RVA: 0x7FFAFBEA7930
+    public void ReadGridCellLayout(){} // RVA: 0x7FFAFBEA7930
     public void HandleFindObjectsDestroy(){} // RVA: 0x7FFAFBEA7A10
-    public void Initialize_07140220E181(){} // RVA: 0x7FFAFBEA7A80
+    public void Initialize(){} // RVA: 0x7FFAFBEA7A80
     // ── Unresolved (hash) ──
     public void m_85D(){} // RVA: 0x7FFAFBEA7690
     public void m_C8E(){} // RVA: 0x7FFAFBEA76F0

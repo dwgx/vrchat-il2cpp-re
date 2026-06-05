@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSibling_454D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "get_Instance",
+    "Finalize"
+  ],
+  "hash_methods": [
+    "m_D54",
+    "m_2F1",
+    "m_197",
+    "m_C85",
+    "m_577",
+    "m_217",
+    "m_BF8",
+    "m_B9F",
+    "m_895",
+    "m_0EB"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "Static16m_CC0B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "OnDisable",
+    "GetRectOffsetRight",
+    "OnEnable",
+    "ProcessTransform"
+  ],
+  "hash_methods": [
+    "m_F83"
+  ]
+}

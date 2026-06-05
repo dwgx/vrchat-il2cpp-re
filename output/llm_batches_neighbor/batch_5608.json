@@ -1,0 +1,37 @@
+{
+  "namespace": "",
+  "class": "PointerClickPointerMoveHandler_4464_A561",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    "Start_14A59A8B106B",
+    "IsInvoking",
+    "CancelInvoke",
+    "OnBeginDrag_1B29763327E9",
+    ".ctor",
+    "Start",
+    "Initialize",
+    "StartCoroutine",
+    "OnBecameVisible",
+    "get_version",
+    "StartCoroutine_Auto",
+    "StopCoroutine",
+    "OnPointerMove",
+    "OnPointerMove_DA121C16F6BD",
+    "OnPointerClick_99077941806D",
+    "get_useGUILayout",
+    "OnPointerClick",
+    "print",
+    "GetTextTracks",
+    "OnEndDrag_6F3051FE4550",
+    "InvokeDelayed",
+    "OnBeginDrag",
+    "OnEndDrag",
+    "StartCoroutineManaged",
+    "StartCoroutineManaged2"
+  ],
+  "hash_methods": [
+    "m_EB1",
+    "m_DF6"
+  ]
+}

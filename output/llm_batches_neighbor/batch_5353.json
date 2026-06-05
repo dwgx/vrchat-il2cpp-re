@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_FE05",
+  "parent": "",
+  "named_methods": [
+    "SetRotation",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_760",
+    "m_049"
+  ]
+}

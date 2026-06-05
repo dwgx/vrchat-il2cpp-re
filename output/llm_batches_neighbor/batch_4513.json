@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "MaterialUIHandler_C19E",
+  "parent": "",
+  "named_methods": [
+    "ProcessMaterial",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_F62",
+    "m_979",
+    "m_ECD",
+    "m_FF1",
+    "m_0CE",
+    "m_DB9",
+    "m_198"
+  ]
+}

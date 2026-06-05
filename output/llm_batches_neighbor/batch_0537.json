@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "Static17m_F332",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "Start",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_58A",
+    "m_75C"
+  ]
+}

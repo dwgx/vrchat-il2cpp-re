@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_920A",
+  "parent": "",
+  "named_methods": [
+    "BrotliEncoderSetParameter",
+    "MoveNext",
+    "BrotliEncoderEnsureInitialized",
+    "BrotliEncoderEnsureInitialized_DB9331771C7C",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_06D",
+    "m_0A8",
+    "m_4D8",
+    "m_288",
+    "m_124"
+  ]
+}

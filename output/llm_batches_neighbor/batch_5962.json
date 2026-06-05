@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PointerDownPointerUpSiblingSibling_174B",
+  "parent": "",
+  "named_methods": [
+    "OpenURL",
+    "LateUpdate",
+    ".ctor",
+    ".cctor",
+    "GetRealtimeSinceStartup",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_256",
+    "m_B83",
+    "m_E99",
+    "m_640",
+    "m_09D",
+    "m_5CF",
+    "m_9B5",
+    "m_E95",
+    "m_8F9",
+    "m_D4A"
+  ]
+}

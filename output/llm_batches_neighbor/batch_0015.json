@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "GetHashCode_B84BD98E3137",
+    "Instantiate_122E4D7E9E37",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "ComputegameObject",
+    "GetCachedPtr",
+    "GetBooleanFromDelegate"
+  ],
+  "hash_methods": [
+    "m_589",
+    "m_6C9",
+    "m_BC3"
+  ]
+}

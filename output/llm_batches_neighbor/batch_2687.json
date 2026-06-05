@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "SearchInFieldsWorldSibling_97CB",
+  "parent": "",
+  "named_methods": [
+    "ProcessAnimationsAnimationHumanStream",
+    "ProcessAnimationsAnimationHumanStream_BFE2F870FCF3",
+    "Dispose",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_FF1",
+    "m_D48",
+    "m_E45",
+    "m_D13",
+    "m_F05",
+    "m_B90",
+    "m_CC8",
+    "m_FCE",
+    "m_B72",
+    "m_FED"
+  ]
+}

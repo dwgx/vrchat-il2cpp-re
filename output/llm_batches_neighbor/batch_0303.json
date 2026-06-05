@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "Equals_5F87EF2A895B",
+    "Instantiate",
+    ".ctor",
+    "FindObjectsByType_DE5001"
+  ],
+  "hash_methods": [
+    "m_F89",
+    "m_0FE",
+    "m_D80",
+    "m_305",
+    "m_F3B",
+    "m_5DD"
+  ]
+}

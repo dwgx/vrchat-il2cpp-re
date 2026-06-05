@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_C50B",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "SetLocalRotation",
+    "SetLocalRotation_7525F37D1DF1",
+    "SetLocalRotation_7F663E5CC641",
+    "GetChild",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_63A",
+    "m_CE3",
+    "m_288"
+  ]
+}

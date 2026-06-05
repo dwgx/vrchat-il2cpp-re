@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "skidding_703E",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "Awake",
+    "OnDestroy",
+    "ReadGameObjectState",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DFB",
+    "m_CC0",
+    "m_08B",
+    "m_886",
+    "m_AA0",
+    "m_5A0",
+    "m_052",
+    "m_50B",
+    "m_D59",
+    "m_C35"
+  ]
+}

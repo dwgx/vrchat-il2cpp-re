@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "FoldoutListRelated_EA4F",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "IndexOf",
+    "Finalize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_5CA",
+    "m_E40",
+    "m_1C1",
+    "m_420",
+    "m_F42",
+    "m_A85",
+    "m_23F",
+    "m_49A",
+    "m_098",
+    "m_020"
+  ]
+}

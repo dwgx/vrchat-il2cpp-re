@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "PhysicsAnchoredJoint2DHandler_F2DB",
+  "parent": "",
+  "named_methods": [
+    "GetReferenceAngle",
+    "GetReferenceAngle_C76983A4B38D",
+    "Initialize",
+    "IntrospectiveSort",
+    "Dispose",
+    "InsertionSort",
+    "InsertionSort_29269F7509F3",
+    "SwapElements",
+    "Swap",
+    ".ctor",
+    "Initialize",
+    "SetBreakAction",
+    "SwapIfGreater",
+    "SetConnectedAnchor",
+    "InsertionSort_77307958DF29"
+  ],
+  "hash_methods": [
+    "m_898",
+    "m_C85",
+    "m_E87",
+    "m_2D1",
+    "m_86C",
+    "m_ABD",
+    "m_604"
+  ]
+}

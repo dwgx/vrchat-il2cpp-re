@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Reset",
+    "get_name_83219329E131",
+    ".ctor",
+    "GetCachedPtr_B226818E9FF3",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_8F0",
+    "m_327",
+    "m_013",
+    "m_F04",
+    "m_423",
+    "m_038"
+  ]
+}

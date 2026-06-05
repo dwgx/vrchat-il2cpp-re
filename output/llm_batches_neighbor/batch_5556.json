@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_B3BB",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "GetLocalPositionAndRotation",
+    "GetLocalPositionAndRotation_6FB89497BB09",
+    "Awake",
+    "SetParent",
+    "SetParent_1E698D25D515",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "OnValidate"
+  ],
+  "hash_methods": [
+    "m_08D",
+    "m_EE9",
+    "m_A54",
+    "m_B30",
+    "m_314",
+    "m_8BD",
+    "m_014",
+    "m_585",
+    "m_DDB",
+    "m_C36"
+  ]
+}

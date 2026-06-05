@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_FA4C",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_31B",
+    "m_641",
+    "m_CE0",
+    "m_E41",
+    "m_F48",
+    "m_086",
+    "m_B03",
+    "m_E8C"
+  ]
+}

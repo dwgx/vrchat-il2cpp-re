@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "GetLongFromDelegate",
+    "SelectFindDestroyName",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_CC9",
+    "m_054",
+    "m_670",
+    "m_697",
+    "m_9B9",
+    "m_6D2"
+  ]
+}

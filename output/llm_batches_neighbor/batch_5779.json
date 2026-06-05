@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "PhysicsNavigationHandler_F1C0",
+  "parent": "",
+  "named_methods": [
+    "ReadNavigationProperties",
+    "GetHeight",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "FixedUpdate",
+    "StringToHash",
+    "GetVelocity",
+    "GetVelocity_C6FE9451D18D",
+    "SetVelocity",
+    "SetApplyRootMotion",
+    "PlayHelper",
+    "GetFixedDeltaTime",
+    "GetVelocity_6BFBD73689AC"
+  ],
+  "hash_methods": [
+    "m_880",
+    "m_C8F",
+    "m_F20",
+    "m_7FC",
+    "m_FBD"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_3C6C",
+  "parent": "",
+  "named_methods": [
+    "Internal_getHierarchyCount",
+    ".ctor",
+    "Initialize",
+    "GetLocalRotation"
+  ],
+  "hash_methods": [
+    "m_239",
+    "m_7D4",
+    "m_59D",
+    "m_FE7",
+    "m_334",
+    "m_AB2",
+    "m_B0E",
+    "m_881"
+  ]
+}

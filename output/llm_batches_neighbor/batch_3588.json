@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeSibliRelated_C18E",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_CE1",
+    "m_4DE",
+    "m_F9F",
+    "m_9A5",
+    "m_179",
+    "m_338",
+    "m_C30",
+    "m_053"
+  ]
+}

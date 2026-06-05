@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static32m_139B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_B04",
+    "m_94D",
+    "m_4DB",
+    "m_0A6",
+    "m_232",
+    "m_DDA",
+    "m_368",
+    "m_410",
+    "m_7E3",
+    "m_7B4"
+  ]
+}

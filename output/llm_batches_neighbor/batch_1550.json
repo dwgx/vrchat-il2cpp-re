@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "TransformTimeHandler_C934",
+  "parent": "",
+  "named_methods": [
+    "InvokeContinuationWithExecutionContext",
+    "InvokeContinuationWithExecutionContext_A31BDF0DCE69",
+    "ReadTimeProperties",
+    "InvokeContinuationWithExecutionContext_561080C1A52C",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B50",
+    "m_B03"
+  ]
+}

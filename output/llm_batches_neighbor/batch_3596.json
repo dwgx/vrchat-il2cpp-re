@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_5310",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetTime"
+  ],
+  "hash_methods": [
+    "m_4D5",
+    "m_95D",
+    "m_E46",
+    "m_FC2",
+    "m_762",
+    "m_215"
+  ]
+}

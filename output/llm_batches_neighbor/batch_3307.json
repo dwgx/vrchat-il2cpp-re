@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_AC06",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "ConfigureTransformLocalScale",
+    "ConstructFromArrayRange",
+    "ConstructFromArrayRange_1244533621D8",
+    "SetStateMachine",
+    "ConstructFromPointerLength"
+  ],
+  "hash_methods": [
+    "m_752",
+    "m_4D8"
+  ]
+}

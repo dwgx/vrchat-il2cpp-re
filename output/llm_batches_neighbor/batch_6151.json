@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_060E",
+  "parent": "",
+  "named_methods": [
+    "CopyTo",
+    "SetStateMachine",
+    "MoveNext",
+    "TryGetValue",
+    "GetEnumerator"
+  ],
+  "hash_methods": [
+    "m_EC8",
+    "m_124",
+    "m_0A8",
+    "m_4E8",
+    "m_D51"
+  ]
+}

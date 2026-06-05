@@ -1,0 +1,7 @@
+{
+  "m_A36": "SetSharedMaterialArray",
+  "m_5DB": "SetSortingLayerName",
+  "m_640": "SetIsStaticShadowCaster",
+  "m_E3C": "GetAdditionalVertexStreams",
+  "m_6EF": "GetEnlightenVertexStream"
+}

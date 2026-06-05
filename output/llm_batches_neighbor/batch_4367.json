@@ -1,0 +1,35 @@
+{
+  "namespace": "",
+  "class": "PointerEnterUpdateMessage_7223",
+  "parent": "",
+  "named_methods": [
+    "InvokePointerEnterUpdateHandlers",
+    "InvokePointerEnterUpdateHandler",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "MoveNext",
+    "UpdateMessage",
+    "OnPointerEnter",
+    "OnEnable",
+    "Awake",
+    "OnDestroy",
+    "ThrowTypeFieldMarshalNotSupported",
+    "ThrowInnerHandlerMarshalException",
+    "OnDisable",
+    "OnPointerExit",
+    "PrintGarbageCollectorObjectInfo"
+  ],
+  "hash_methods": [
+    "m_93F",
+    "m_795",
+    "m_A66",
+    "m_2DE",
+    "m_FA0",
+    "m_455",
+    "m_FEF",
+    "m_A29",
+    "m_126",
+    "m_82D"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "GameObjectTransformHandler_270B",
+  "parent": "",
+  "named_methods": [
+    "CreatePrimitive",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "CreatePrimitive_D9BA1B32CC88",
+    "CreatePrimitive_1F4BCE0F7A70"
+  ],
+  "hash_methods": [
+    "m_CD5",
+    "m_358",
+    "m_D3C",
+    "m_B16",
+    "m_982",
+    "m_FC1",
+    "m_CDE",
+    "m_4C1",
+    "m_B4A",
+    "m_684"
+  ]
+}

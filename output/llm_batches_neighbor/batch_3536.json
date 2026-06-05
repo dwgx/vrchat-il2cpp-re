@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static13m_CA41",
+  "parent": "",
+  "named_methods": [
+    "ReadCapsuleColliderState",
+    ".ctor",
+    "Initialize",
+    "ReadCapsuleColliderState_BA1A799848E2"
+  ],
+  "hash_methods": [
+    "m_506",
+    "m_6A1",
+    "m_C6A",
+    "m_DDE",
+    "m_173",
+    "m_451",
+    "m_3DD",
+    "m_AFA",
+    "m_EC4"
+  ]
+}

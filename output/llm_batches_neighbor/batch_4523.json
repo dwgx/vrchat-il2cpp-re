@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "SearchInFieldsUserSiblingSibliSibling_701B",
+  "parent": "",
+  "named_methods": [
+    "GetLayerCount",
+    "BinarySearch",
+    "BinarySearch_290874A8E1EE",
+    "BinarySearch_8D6B6C08EF8F",
+    "IndexOf",
+    "IndexOf_00C2A1B1F22D",
+    "IndexOf_CA72A33FA256",
+    "IndexOf_5775C93E6E60",
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_4EB",
+    "m_3CB"
+  ]
+}

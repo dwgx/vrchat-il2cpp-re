@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitImplImpSibling_D741",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "MoveNext_E38AA336DFE3",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    "MoveNext_E1BA1D978CA0"
+  ],
+  "hash_methods": [
+    "m_3C7",
+    "m_6C4",
+    "m_5F9",
+    "m_F7E",
+    "m_2A3",
+    "m_5D8",
+    "m_922",
+    "m_4B2",
+    "m_0FB",
+    "m_9E0"
+  ]
+}

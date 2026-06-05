@@ -1,0 +1,12 @@
+{
+  "m_03D": "AddOnRectTransformDimensionsChange",
+  "m_537": "RemoveOnRectTransformDimensionsChange",
+  "m_C31": "AddOnBeforeTransformParentChanged",
+  "m_F38": "RemoveOnBeforeTransformParentChanged",
+  "m_DA7": "AddOnTransformParentChanged",
+  "m_A57": "RemoveOnTransformParentChanged",
+  "m_C5E": "AddOnDidApplyAnimationProperties",
+  "m_F30": "RemoveOnDidApplyAnimationProperties",
+  "m_EF8": "AddOnCanvasGroupChanged",
+  "m_D45": "RemoveOnCanvasGroupChanged"
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_3CFA",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "Equals",
+    "GetHashCode",
+    "ToString",
+    "System.Collections.IEnumerator.get_Current",
+    ".ctor",
+    "Initialize",
+    "Dispose",
+    "System.Collections.IEnumerator.Reset",
+    "System.IDisposable.Dispose",
+    "MoveNext",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current"
+  ],
+  "hash_methods": [
+    "m_71E"
+  ]
+}

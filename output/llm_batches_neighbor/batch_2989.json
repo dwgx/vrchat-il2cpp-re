@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "FrameSibling_1E61",
+  "parent": "",
+  "named_methods": [
+    "RemoveFrameSiblings",
+    "InitializeFrameSiblingStorage",
+    ".ctor",
+    "Initialize",
+    "ClearFrames",
+    "TryGetFrameIndex",
+    "ClearFrameSiblings",
+    "GetRealtimeSinceStartup"
+  ],
+  "hash_methods": [
+    "m_4BA"
+  ]
+}

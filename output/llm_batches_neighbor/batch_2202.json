@@ -1,0 +1,39 @@
+{
+  "namespace": "",
+  "class": "ApplicationHandler_1E40",
+  "parent": "",
+  "named_methods": [
+    "SetGCHandleTarget",
+    "RunGCFinalizerThread",
+    "RunGarbageCollectorFinalizerThread",
+    ".ctor",
+    "Initialize",
+    "MaybeShrinkSparseHashTable",
+    "ConstructSparseHashTable",
+    "AllocateSparseHashBuckets",
+    "ResizeSparseHashTable",
+    "DestroyStdException",
+    "ConstructBadCastException",
+    "InitializeCtypeFacet",
+    "ConstructIosBaseFailure",
+    "HasDirectChild",
+    "FindMethodByName",
+    "DumpRuntimeStats",
+    "PrintMetadataCacheStats",
+    "GetNativeStackTrace",
+    ".ctor",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_0E7",
+    "m_F33",
+    "m_2B4",
+    "m_830",
+    "m_A8D",
+    "m_DD0",
+    "m_1BC",
+    "m_F6E",
+    "m_7E5",
+    "m_B1F"
+  ]
+}

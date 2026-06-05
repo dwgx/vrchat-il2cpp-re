@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "IsNativeObjectAlive",
+    "Instantiate",
+    "Instantiate_755CD497D473",
+    "GetGraphicsDeviceVersion",
+    ".ctor",
+    "Destroy",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_8FF",
+    "m_284"
+  ]
+}

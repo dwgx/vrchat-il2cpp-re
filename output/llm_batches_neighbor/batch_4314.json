@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "PointerClickSubmit_CB08",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "LibOvrPlatform641",
+    "OnSubmit",
+    "OnPointerClick",
+    ".ctor",
+    "Initialize",
+    "LibOvrPlatform641_7C7FD7CDE20D"
+  ],
+  "hash_methods": [
+    "m_82D",
+    "m_823",
+    "m_B01",
+    "m_D91",
+    "m_328",
+    "m_54C",
+    "m_50A",
+    "m_B0C"
+  ]
+}

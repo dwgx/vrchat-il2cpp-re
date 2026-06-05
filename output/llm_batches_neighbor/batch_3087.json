@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextTextureFlipSiSibling_D63D",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "OnEnable_1DC6BC3521E7",
+    "OnEnable_852E3599EAE7",
+    "OnDisable",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_B98"
+  ]
+}

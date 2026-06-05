@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static12m_D04A",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_FA9",
+    "m_682",
+    "m_D59",
+    "m_ED5",
+    "m_FC2",
+    "m_BA9",
+    "m_FC3",
+    "m_482",
+    "m_1A8"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_AA22",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "ProcessGameObject"
+  ],
+  "hash_methods": [
+    "m_F9A",
+    "m_A7F",
+    "m_F6C",
+    "m_5FD",
+    "m_2C9",
+    "m_85A",
+    "m_777",
+    "m_240",
+    "m_178",
+    "m_ECD"
+  ]
+}

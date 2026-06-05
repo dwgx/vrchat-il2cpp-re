@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "PlayerAudioInputDevices_A668",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_E9A",
+    "m_946",
+    "m_A33",
+    "m_832",
+    "m_4D7",
+    "m_78E",
+    "m_1B3",
+    "m_4CB"
+  ]
+}

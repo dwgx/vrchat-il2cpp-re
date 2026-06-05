@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "DispatchIncomingCommandsSendOutgoingComm_8BCB_8607",
+  "parent": "",
+  "named_methods": [
+    "Disconnect",
+    "SendOperation",
+    "DispatchIncomingCommands",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "SendOutgoingCommands"
+  ],
+  "hash_methods": [
+    "m_48C",
+    "m_BA6",
+    "m_A7F",
+    "m_C94",
+    "m_D72",
+    "m_D09",
+    "m_FA7",
+    "m_B4C",
+    "m_918",
+    "m_296"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_430F",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "Equals",
+    ".cctor",
+    "ToString",
+    ".ctor",
+    "Initialize",
+    "GetHashCode_79C7F3F7A583"
+  ],
+  "hash_methods": [
+    "m_480",
+    "m_69D",
+    "m_3F8",
+    "m_AFD",
+    "m_561",
+    "m_C89",
+    "m_ADF"
+  ]
+}

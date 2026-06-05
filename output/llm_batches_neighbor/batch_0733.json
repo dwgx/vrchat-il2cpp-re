@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_704E",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "ThrowLoggerMarshalNotSupported",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_015",
+    "m_7F6",
+    "m_EC8",
+    "m_4D8",
+    "m_124",
+    "m_06D",
+    "m_752"
+  ]
+}

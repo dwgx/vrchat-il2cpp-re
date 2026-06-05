@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Static30m_A62B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnDisable",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_897",
+    "m_6AF",
+    "m_946",
+    "m_409",
+    "m_18D",
+    "m_D1A",
+    "m_BB3",
+    "m_45F",
+    "m_43E",
+    "m_499"
+  ]
+}

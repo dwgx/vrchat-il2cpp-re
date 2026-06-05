@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ReadAnimatorState",
+    "IsNativeObjectAlive",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "InstantiateAction",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_BAE",
+    "m_CDF",
+    "m_445"
+  ]
+}

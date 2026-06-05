@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AudioBehaviourHandler_2D55",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetIsActiveAndEnabled"
+  ],
+  "hash_methods": [
+    "m_298",
+    "m_58B",
+    "m_43C",
+    "m_575",
+    "m_981",
+    "m_380"
+  ]
+}

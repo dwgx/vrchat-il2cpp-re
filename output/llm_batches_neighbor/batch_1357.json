@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_E060",
+  "parent": "",
+  "named_methods": [
+    "GetLayer",
+    "SetLocalRotation",
+    "SetParent",
+    "SetLocalRotation_E67846766FC6",
+    ".ctor",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_C1E",
+    "m_892",
+    "m_1EB",
+    "m_C30",
+    "m_A51"
+  ]
+}

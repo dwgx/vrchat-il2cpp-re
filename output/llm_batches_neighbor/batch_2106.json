@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "CamerarenderModelNameSiblRelated_152A",
+  "parent": "",
+  "named_methods": [
+    "Constructor",
+    "Start",
+    "Update",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_18B",
+    "m_3B0",
+    "m_41F",
+    "m_41E",
+    "m_AF5",
+    "m_6AE",
+    "m_64A",
+    "m_3F5",
+    "m_E6A",
+    "m_AC7"
+  ]
+}

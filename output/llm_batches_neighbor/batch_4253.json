@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "Static11m_4770",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_0C7",
+    "m_E25",
+    "m_179",
+    "m_4DB",
+    "m_0C0",
+    "m_0F6",
+    "m_F46"
+  ]
+}

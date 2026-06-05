@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_4BBC",
+  "parent": "",
+  "named_methods": [
+    "GetStatus",
+    "GetStatus_DB9331771C7C",
+    "MoveNext",
+    "TrySetStateMachine",
+    "SetStateMachine_1244533621D8",
+    "GetResult",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_CE3"
+  ]
+}

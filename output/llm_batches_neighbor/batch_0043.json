@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "get_name",
+    ".cctor",
+    "GetInstanceID",
+    "GetLossyScale_81E9A0B4C744",
+    "GetCachedPtr_8B784E718A0E",
+    "op_Implicit"
+  ],
+  "hash_methods": [
+    "m_C01",
+    "m_F8C",
+    "m_FB3"
+  ]
+}

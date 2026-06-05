@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "QuaternionHandler_37C7",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "Update",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_338",
+    "m_64C",
+    "m_9A4",
+    "m_FCB",
+    "m_9A5",
+    "m_F1A",
+    "m_028",
+    "m_704",
+    "m_FC3",
+    "m_CE1"
+  ]
+}

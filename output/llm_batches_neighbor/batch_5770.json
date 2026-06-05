@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_25CF",
+  "parent": "",
+  "named_methods": [
+    "SplitDistanceBlock",
+    ".ctor",
+    "Initialize",
+    "InitialEntropyCodes",
+    "InitialEntropyCodes_A7C17E0EFBBF",
+    "RefineEntropyCodes",
+    "RefineEntropyCodes_67173CB668A2",
+    "SplitDistanceBlock_7986ED4257EB"
+  ],
+  "hash_methods": [
+    "m_460",
+    "m_AF0",
+    "m_7C8"
+  ]
+}

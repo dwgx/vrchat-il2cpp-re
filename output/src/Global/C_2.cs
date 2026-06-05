@@ -45,14 +45,13 @@ public class ChildrenSection`1
     public void get_SettingComponents(){} // RVA: 0x7FFAF2ABCD60
     public void set_SettingComponents(){} // RVA: 0x7FFAF2ABCD60
     public void set_ValueToAppear(){} // RVA: 0x7FFAF2ABCD60
+    public void GetSettingComponents(){} // RVA: 0x7FFAF2ABCD60
     public void .ctor(){} // RVA: 0x7FFAF2AD4A50
     public void get_ValueToAppear(){} // RVA: 0x7FFAF2D33FA0
-    // ── Unresolved (hash) ──
-    public void m_B45(){} // RVA: 0x7FFAF2ABCD60
-    public void m_B84(){} // RVA: 0x7FFAF2ABCD60
-    public void m_84E(){} // RVA: 0x7FFAF2ABCD60
-    public void m_4E4(){} // RVA: 0x7FFAF2ABCD60
-    public void m_D19(){} // RVA: 0x7FFAF2ABCD60
+    public void SetSettingComponents(){} // RVA: 0x7FFAF2ABCD60
+    public void SetValueToAppear(){} // RVA: 0x7FFAF2ABCD60
+    public void Constructor(){} // RVA: 0x7FFAF2ABCD60
+    public void GetValueToAppear(){} // RVA: 0x7FFAF2ABCD60
 }
 
 public class ChildrenSection`1
@@ -61,14 +60,13 @@ public class ChildrenSection`1
     public void get_SettingComponents(){} // RVA: 0x7FFAF2DBB0C0
     public void set_SettingComponents(){} // RVA: 0x7FFAF2DBB0C0
     public void set_ValueToAppear(){} // RVA: 0x7FFAF2DBB0C0
+    public void GetSettingComponents(){} // RVA: 0x7FFAF2DBB0C0
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void get_ValueToAppear(){} // RVA: 0x7FFAF306ED50
-    // ── Unresolved (hash) ──
-    public void m_B45(){} // RVA: 0x7FFAF2DBB0C0
-    public void m_B84(){} // RVA: 0x7FFAF2DBB0C0
-    public void m_84E(){} // RVA: 0x7FFAF2DBB0C0
-    public void m_4E4(){} // RVA: 0x7FFAF2DBB0C0
-    public void m_D19(){} // RVA: 0x7FFAF2DBB0C0
+    public void SetSettingComponents(){} // RVA: 0x7FFAF2DBB0C0
+    public void SetValueToAppear(){} // RVA: 0x7FFAF2DBB0C0
+    public void Constructor(){} // RVA: 0x7FFAF2DBB0C0
+    public void GetValueToAppear(){} // RVA: 0x7FFAF2DBB0C0
 }
 
 public class ChildrenSection`1
@@ -77,14 +75,13 @@ public class ChildrenSection`1
     public void get_SettingComponents(){} // RVA: 0x7FFAF2DBB0C0
     public void set_SettingComponents(){} // RVA: 0x7FFAF2DBB0C0
     public void set_ValueToAppear(){} // RVA: 0x7FFAF2DBB0C0
+    public void GetSettingComponents(){} // RVA: 0x7FFAF2DBB0C0
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void get_ValueToAppear(){} // RVA: 0x7FFAF2DA84E0
-    // ── Unresolved (hash) ──
-    public void m_B45(){} // RVA: 0x7FFAF2DBB0C0
-    public void m_B84(){} // RVA: 0x7FFAF2DBB0C0
-    public void m_84E(){} // RVA: 0x7FFAF2DBB0C0
-    public void m_4E4(){} // RVA: 0x7FFAF2DBB0C0
-    public void m_D19(){} // RVA: 0x7FFAF2DBB0C0
+    public void SetSettingComponents(){} // RVA: 0x7FFAF2DBB0C0
+    public void SetValueToAppear(){} // RVA: 0x7FFAF2DBB0C0
+    public void Constructor(){} // RVA: 0x7FFAF2DBB0C0
+    public void GetValueToAppear(){} // RVA: 0x7FFAF2DBB0C0
 }
 
 public class Chunk

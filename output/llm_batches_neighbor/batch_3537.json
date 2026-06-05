@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "ComplexComponent_8C61SiblingSiSibling_AF02",
+  "parent": "",
+  "named_methods": [
+    "GetIsPartOfStaticBatch",
+    "GetIsVisible",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_E92",
+    "m_D94",
+    "m_EAB",
+    "m_58A"
+  ]
+}

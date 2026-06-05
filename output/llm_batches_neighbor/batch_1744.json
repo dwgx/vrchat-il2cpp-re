@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static13m_84E9",
+  "parent": "",
+  "named_methods": [
+    "ConfigureRectTransform",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_FF0",
+    "m_B7B",
+    "m_4C2",
+    "m_315",
+    "m_456",
+    "m_0B3",
+    "m_F17",
+    "m_712",
+    "m_0F9",
+    "m_244"
+  ]
+}

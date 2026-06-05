@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "RendererMaterialHandler_17FC",
+  "parent": "",
+  "named_methods": [
+    "GetLightProbeProxyVolumeOverride",
+    "GetLocalBounds",
+    "Start",
+    "GetMaterial",
+    "GetMaterial_799508423D5B",
+    "GetMaterialArray",
+    "GetLightmapIndex",
+    "GetRenderingLayerMask",
+    "GetShadowCastingMode",
+    ".ctor",
+    "Initialize",
+    "GetSortingOrder",
+    "GetTrailMaterial"
+  ],
+  "hash_methods": [
+    "m_EB3",
+    "m_B31",
+    "m_4C1",
+    "m_67A",
+    "m_EED",
+    "m_723",
+    "m_A08",
+    "m_838",
+    "m_F36"
+  ]
+}

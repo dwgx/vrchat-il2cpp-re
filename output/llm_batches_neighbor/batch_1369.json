@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "RendererSkinnedMeshHandler_8083",
+  "parent": "",
+  "named_methods": [
+    "BrotliEncoderCompressStream",
+    "SetReceiveShadows",
+    "SetRenderingLayerMask",
+    "SetRenderingLayerMask_324158C541A7",
+    "SetRootBone",
+    "Start",
+    "SetSortingLayerName",
+    "SetSortingOrder",
+    ".ctor",
+    "Initialize",
+    "ConstructBadException",
+    "LCMapStringA",
+    "LCMapStringAnsi"
+  ],
+  "hash_methods": [
+    "m_853",
+    "m_222",
+    "m_E81",
+    "m_64A",
+    "m_327",
+    "m_96F",
+    "m_0BF",
+    "m_FC9",
+    "m_097",
+    "m_FD4"
+  ]
+}

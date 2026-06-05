@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "ComponentTransformHandler_F7E2",
+  "parent": "",
+  "named_methods": [
+    "GetSharedMaterialArray",
+    "GetSharedMaterialArray_0F0C01D0DC85",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_ADB",
+    "m_98F",
+    "m_D85",
+    "m_D8E",
+    "m_1A9",
+    "m_0D4",
+    "m_44D"
+  ]
+}

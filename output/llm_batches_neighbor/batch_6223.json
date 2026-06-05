@@ -1,0 +1,26 @@
+{
+  "namespace": "VRC.UI.Core",
+  "class": "UIManager",
+  "parent": "",
+  "named_methods": [
+    "Awake_69273C59850D",
+    "RaiseCancellation",
+    ".ctor_6089469BB0F3",
+    "Initialize",
+    "Awake",
+    "OnDisable_0C0BCEDAE381",
+    "CancelInvoke",
+    "IsInvoking",
+    "StartCoroutine",
+    "OnDestroy",
+    ".ctor",
+    "OnEnable",
+    "OnEnable_B8E25FAD904C",
+    "OnDisable",
+    "Start_A85E3366D41B",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_F90"
+  ]
+}

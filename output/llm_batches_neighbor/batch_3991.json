@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_A7A6",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_1AF"
+  ]
+}

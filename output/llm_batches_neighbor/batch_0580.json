@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "NetworkInternalApplyOverrideRPCPlayerJoined_B0D2",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "Start",
+    "Awake",
+    "InternalApplyOverrideRPC",
+    ".ctor",
+    "Initialize",
+    "OnPlayerJoined"
+  ],
+  "hash_methods": [
+    "m_DC6",
+    "m_8A3",
+    "m_6A7",
+    "m_F66",
+    "m_FC3",
+    "m_0E4",
+    "m_76C",
+    "m_1C6"
+  ]
+}

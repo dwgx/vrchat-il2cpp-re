@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_2453",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetComponentGameObject"
+  ],
+  "hash_methods": [
+    "m_384",
+    "m_BFE",
+    "m_2CB",
+    "m_ACB",
+    "m_BF6",
+    "m_019"
+  ]
+}

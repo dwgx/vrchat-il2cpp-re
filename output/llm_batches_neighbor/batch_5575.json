@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformChildrenChangedSetLayoutHorizon_10CA",
+  "parent": "",
+  "named_methods": [
+    "OnTransformChildrenChanged",
+    "SetLayoutVertical",
+    "SetLayoutHorizontal",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_233",
+    "m_76E",
+    "m_A23",
+    "m_BCE",
+    "m_A72"
+  ]
+}

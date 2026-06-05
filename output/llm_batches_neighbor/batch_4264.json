@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "VRC_SecondarySiblingSiblingSibling_3655",
+  "parent": "",
+  "named_methods": [
+    "DelegateConstructor",
+    ".ctor",
+    ".cctor",
+    "Start",
+    "Awake",
+    "ProcessQuaternion",
+    "Update",
+    "OnDestroy",
+    "GetUnityVersion",
+    "LateUpdate",
+    "GetUnityVersion_9F7838EFF0F3",
+    "GetUnityVersion_70E7A87136D4",
+    "GetUnityVersion_C4F3F4A927E8",
+    "Add",
+    "TryParsePrefixedInt"
+  ],
+  "hash_methods": [
+    "m_023",
+    "m_601",
+    "m_AE4",
+    "m_34B",
+    "m_344",
+    "m_07F",
+    "m_BF7",
+    "m_FE9",
+    "m_581",
+    "m_6D0"
+  ]
+}

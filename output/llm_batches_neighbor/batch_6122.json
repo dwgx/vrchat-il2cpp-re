@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static14m_FAE9",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_1BC",
+    "m_06A",
+    "m_CC7",
+    "m_004",
+    "m_AEB",
+    "m_115",
+    "m_F23",
+    "m_A3F",
+    "m_F12",
+    "m_8F7"
+  ]
+}

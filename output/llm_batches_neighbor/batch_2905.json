@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "AnimationBehaviourHandler_2433",
+  "parent": "",
+  "named_methods": [
+    "SetFloatString",
+    "SetFloatString_22AFF8CB038B",
+    "SetFloatString_CD87428B9DB8"
+  ],
+  "hash_methods": [
+    "m_DD3",
+    "m_82C",
+    "m_A98"
+  ]
+}

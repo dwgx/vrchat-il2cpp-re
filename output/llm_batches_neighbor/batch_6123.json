@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSiblingSSibling_2F3E",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_39B",
+    "m_1A1",
+    "m_A00",
+    "m_3B0",
+    "m_1F3",
+    "m_898",
+    "m_3F3",
+    "m_809",
+    "m_BFA",
+    "m_E13"
+  ]
+}

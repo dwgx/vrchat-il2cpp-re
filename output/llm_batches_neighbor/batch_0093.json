@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "op_Equality",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A9B",
+    "m_C64",
+    "m_192",
+    "m_D36",
+    "m_C3E",
+    "m_705"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "GetLastServiceDescriptor",
+    "IsNativeObjectAlive",
+    ".cctor",
+    "IsNativeObjectAlive_FB92415A720F"
+  ],
+  "hash_methods": [
+    "m_701",
+    "m_2AE",
+    "m_CDA"
+  ]
+}

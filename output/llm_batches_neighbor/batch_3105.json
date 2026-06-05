@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_1B9B",
+  "parent": "",
+  "named_methods": [
+    "SetActiveComponent",
+    "ConfigureParticleTextureSheetAnimationModule",
+    ".ctor",
+    "Initialize",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_64B",
+    "m_287",
+    "m_E4C",
+    "m_7B8",
+    "m_2F0",
+    "m_D76",
+    "m_AEF",
+    "m_997"
+  ]
+}

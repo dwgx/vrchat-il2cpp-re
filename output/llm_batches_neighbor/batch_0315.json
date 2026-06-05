@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "ContainsChild_A32E84D5849A",
+    "DoTryParse",
+    ".ctor",
+    "Initialize",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_F7C",
+    "m_312",
+    "m_A4A",
+    "m_77C",
+    "m_284"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSiblingSibling_FADB",
+  "parent": "",
+  "named_methods": [
+    "OnDrawGizmos",
+    "ResetLocalTransform",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "SetParent",
+    "SetParent_886A7E8C1A7B",
+    "SetParent_9BA084575050",
+    "SetParent_AD695F5C0B9F",
+    "GetLossyScale",
+    "LateUpdate"
+  ],
+  "hash_methods": [
+    "m_3AA",
+    "m_C69",
+    "m_BC3",
+    "m_E57",
+    "m_F73",
+    "m_06B",
+    "m_852",
+    "m_F49"
+  ]
+}

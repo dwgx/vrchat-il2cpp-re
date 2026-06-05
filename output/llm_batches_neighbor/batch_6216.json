@@ -1,0 +1,13 @@
+{
+  "namespace": "VRC.SDK3.Internal",
+  "class": "VRCAvatarsInternal",
+  "parent": "",
+  "named_methods": [
+    "IsAvatarFavorited",
+    "FavoriteAvatar",
+    "UnfavoriteAvatar"
+  ],
+  "hash_methods": [
+    "m_516"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "QuaternionHandler_7BFF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "GetBoxedValue",
+    "Equals",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_362",
+    "m_1F2",
+    "m_5DE",
+    "m_285"
+  ]
+}

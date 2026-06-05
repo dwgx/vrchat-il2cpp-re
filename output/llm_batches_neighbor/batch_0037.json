@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals_4D325CD7C1F6",
+    "get_name_53CEABF366A1",
+    ".cctor",
+    ".ctor",
+    "ToString",
+    "GetInstanceID",
+    "GetInstanceID_3C7561AB89FC",
+    "GetInstanceID_D9F6D96B04E2",
+    "DoublePropertyCountClamped",
+    "IsNativeObjectAlive",
+    "IsInvoking",
+    "GetGameObject_D89530",
+    "get_name_A78B579747FE",
+    "CompareBaseObjects",
+    "GetHashCode",
+    "op_Implicit"
+  ],
+  "hash_methods": [
+    "m_1EB",
+    "m_A64",
+    "m_48B",
+    "m_40A",
+    "m_AE6",
+    "m_3F1",
+    "m_D9A"
+  ]
+}

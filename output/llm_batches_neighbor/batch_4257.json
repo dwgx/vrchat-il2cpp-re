@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_39F1",
+  "parent": "",
+  "named_methods": [
+    "InitializeHashTable",
+    "FindEntryByKey",
+    "InsertHashEntry",
+    "ClearHashTable",
+    "SetStateMachine",
+    "MoveNext",
+    "InitializeHashTable_DB9331771C7C"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_440"
+  ]
+}

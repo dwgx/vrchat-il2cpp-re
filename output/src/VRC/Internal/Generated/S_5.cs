@@ -480,13 +480,18 @@ namespace VRC.Internal.Generated
         public void Initialize(){} // RVA: 0x7FFAF2FE96A0
         public void OnDestroy(){} // RVA: 0x7FFAF2FEA270
         public void Awake(){} // RVA: 0x7FFAF2FEA7E0
-        // ── 11 unresolved (hash) ──
+        public void Initialized(){} // RVA: 0x7FFAF2FEB180
+        // ── Unresolved (hash) ──
         public void m_F49(){} // RVA: 0x7FFAF2FE9810
         public void m_053(){} // RVA: 0x7FFAF2FE9980
         public void m_232(){} // RVA: 0x7FFAF2FE9C30
         public void m_A53(){} // RVA: 0x7FFAF2FE9D50
         public void m_CB2(){} // RVA: 0x7FFAF2FE9EC0
-        // ... 6 more unresolved methods
+        public void m_892(){} // RVA: 0x7FFAF2FEA520
+        public void m_EF5(){} // RVA: 0x7FFAF2FEA670
+        public void m_FC3(){} // RVA: 0x7FFAF2FEAB90
+        public void m_1C8(){} // RVA: 0x7FFAF2FEAF40
+        public void m_426(){} // RVA: 0x7FFAF2FEB090
     }
 
     /// <summary>Originally: ÌÎÌÎÎÍÎÍÏÏÌÏÌÏÍÎÌÎÍÏÎÏÌ</summary>
@@ -741,13 +746,15 @@ namespace VRC.Internal.Generated
         public void ReadCapsuleColliderState_755DC97B2917(){} // RVA: 0x7FFAF2D900C0
         public void .ctor(){} // RVA: 0x7FFAF4442060
         public void Initialize(){} // RVA: 0x7FFAF2DB6080
-        // ── 22 unresolved (hash) ──
+        public void WriteCapsuleColliderState(){} // RVA: 0x7FFAF3198B80
+        public void WriteCapsuleColliderState_09CF82021025(){} // RVA: 0x7FFAF335C660
+        // ── 20 unresolved (hash) ──
         public void m_22F(){} // RVA: 0x7FFAF43BAB20
         public void m_B6B(){} // RVA: 0x7FFAF2DDA5C0
         public void m_AAC(){} // RVA: 0x7FFAF335C660
         public void m_015(){} // RVA: 0x7FFAF4441DA0
         public void m_491(){} // RVA: 0x7FFAF335BED0
-        // ... 17 more unresolved methods
+        // ... 15 more unresolved methods
     }
 
     /// <summary>Originally: ÌÎÌÏÎÏÎÎÎÍÎÎÌÎÎÍÏÎÌÏÌÌÍ</summary>

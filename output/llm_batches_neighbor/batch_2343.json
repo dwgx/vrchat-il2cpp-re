@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "BaseClass9Impl_53D9SiblingSibling_F964",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_65A"
+  ]
+}

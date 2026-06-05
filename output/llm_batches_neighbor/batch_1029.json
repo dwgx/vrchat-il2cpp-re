@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "ctorDerivedSiblingSiblingRelated_2021",
+  "parent": "",
+  "named_methods": [
+    "StringToHash",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_D33",
+    "m_860",
+    "m_F84",
+    "m_98F",
+    "m_3BD",
+    "m_EC7",
+    "m_303",
+    "m_62A",
+    "m_386",
+    "m_289"
+  ]
+}

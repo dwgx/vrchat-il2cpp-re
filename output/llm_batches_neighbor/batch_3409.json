@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_4941",
+  "parent": "",
+  "named_methods": [
+    "GetHeight",
+    "Dispose",
+    "Cleanup",
+    "GetHeight_6F8246576AC4"
+  ],
+  "hash_methods": [
+    "m_937",
+    "m_24F",
+    "m_C01",
+    "m_2F0",
+    "m_EEE"
+  ]
+}

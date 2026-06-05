@@ -1,0 +1,36 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_E2B4",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetAudioSourceVolume",
+    "Contains",
+    "ReadCameraState",
+    "Equals",
+    "GetDeltaTime",
+    "GetDeltaTime_26BA95FB8144",
+    "GetHashCode",
+    "SwapIfGreater",
+    "Equals_CB6D097317B6",
+    "Equals",
+    "GetLocalRotation",
+    "GetLocalRotation_7509799A113E",
+    "GetDeltaTime_EEFD2056DA94",
+    "GetDeltaTime_BC678A6EDD53",
+    "GetDeltaTime_A14D5B5DD783"
+  ],
+  "hash_methods": [
+    "m_35D",
+    "m_831",
+    "m_8B4",
+    "m_6E3",
+    "m_994",
+    "m_8FE",
+    "m_AC0",
+    "m_013",
+    "m_36A",
+    "m_014"
+  ]
+}

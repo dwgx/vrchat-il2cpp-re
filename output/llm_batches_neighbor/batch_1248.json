@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static23m_D876",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_E00",
+    "m_B80",
+    "m_E64",
+    "m_960",
+    "m_D83",
+    "m_595",
+    "m_595",
+    "m_CE9",
+    "m_A21"
+  ]
+}

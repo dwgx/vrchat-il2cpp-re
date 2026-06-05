@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_944E",
+  "parent": "",
+  "named_methods": [
+    "GetParameterCount",
+    "GetParameterCount_51FBC0D981AD",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_2F0",
+    "m_6F8",
+    "m_F2B",
+    "m_C01"
+  ]
+}

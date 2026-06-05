@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PoseLocalUpdateSibling_5DD8",
+  "parent": "",
+  "named_methods": [
+    "SetLocalRotation",
+    "SetIsKinematic",
+    "ToString",
+    "LateUpdate",
+    "Equals",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A45",
+    "m_CF8",
+    "m_E2E",
+    "m_EBF"
+  ]
+}

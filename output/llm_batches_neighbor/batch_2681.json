@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_4E74",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "ProcessMaterial",
+    "PropertyToID",
+    "PropertyToID_1244533621D8",
+    "SetFloatImpl",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_E82",
+    "m_CE3",
+    "m_0A8",
+    "m_752"
+  ]
+}

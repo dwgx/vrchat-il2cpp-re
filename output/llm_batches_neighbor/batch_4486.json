@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_7C30",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "Equals",
+    "GetHashCode",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_338",
+    "m_389",
+    "m_35B",
+    "m_B16"
+  ]
+}

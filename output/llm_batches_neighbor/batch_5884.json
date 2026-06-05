@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "ImageRenderStaticMethods_9FB1",
+  "parent": "",
+  "named_methods": [
+    "OnRenderImage",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_67C",
+    "m_BD6",
+    "m_AF6",
+    "m_622",
+    "m_652",
+    "m_FAA",
+    "m_ED7",
+    "m_BA4"
+  ]
+}

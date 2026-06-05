@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSibling_035C",
+  "parent": "",
+  "named_methods": [
+    "ConfigureCameraAllow",
+    "FillInt16Span",
+    "FillWithUInt16Value",
+    "FillUInt16Buffer",
+    ".ctor",
+    "Initialize",
+    "get_LocalPosition"
+  ],
+  "hash_methods": [
+    "m_C28",
+    "m_152",
+    "m_FE3",
+    "m_9EA",
+    "m_829",
+    "m_1F5",
+    "m_42D",
+    "m_4CF",
+    "m_428",
+    "m_F3F"
+  ]
+}

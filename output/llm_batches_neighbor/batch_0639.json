@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_CEFC",
+  "parent": "",
+  "named_methods": [
+    "ProcessQuaternion",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_9E0",
+    "m_ED3",
+    "m_37E",
+    "m_FF3",
+    "m_F46",
+    "m_0EA"
+  ]
+}

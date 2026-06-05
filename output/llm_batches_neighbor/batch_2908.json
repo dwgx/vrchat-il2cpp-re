@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_226FSiblingSibling_BFE7",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_028",
+    "m_9F1"
+  ]
+}

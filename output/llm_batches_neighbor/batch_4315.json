@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "TransformParentInvisibleComponent_427C",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Awake",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "Start",
+    "OnApplicationPause"
+  ],
+  "hash_methods": [
+    "m_BF8",
+    "m_47E",
+    "m_89C",
+    "m_470",
+    "m_A1C",
+    "m_9F7"
+  ]
+}

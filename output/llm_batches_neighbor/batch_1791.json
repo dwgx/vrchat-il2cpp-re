@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "UICompareDispose_241DSibling_AD04",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "CompareTo",
+    "CompareTo_E40ADDE2FB63",
+    "CompareTo_A1C13650D32F",
+    "Equals",
+    "Equals_85C94E49C843",
+    "CompareTo_A8CFC110BA9B",
+    "GetHashCode_D1D57F85F733",
+    "GetHashCode_9FC8BF2DB93B",
+    ".ctor",
+    "Initialize",
+    "GetHashCode_86C22279A8D4",
+    "Equals_5DF750F1694D",
+    "Equals_32CBAA9509C7",
+    "CompareTo_1AD75AFF89D2",
+    "GetHashCode_53196E0B1737",
+    "Equals_CC542791DD01",
+    "CompareTo_74A3D6847B71",
+    "CompareTo_241A4993482B"
+  ],
+  "hash_methods": [
+    "m_4A9",
+    "m_371",
+    "m_ED0"
+  ]
+}

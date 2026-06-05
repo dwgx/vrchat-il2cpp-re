@@ -1,0 +1,37 @@
+{
+  "namespace": "",
+  "class": "TextureUIHandler_6C6F",
+  "parent": "",
+  "named_methods": [
+    "GetMipmapCount",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "SetWrapModeV",
+    "SetWrapModeV_9CF74B94B19F",
+    "GetTextureAtIndex",
+    "GetTextureAtIndex_280DC9B7C93D",
+    "GetTextureAtIndex_176361E08339",
+    "FindTextureIndex",
+    "OnEnable",
+    "Start",
+    "Awake",
+    "SetWrapModeV_B05C5494BF4F",
+    "OnDisable",
+    "HasCompleteHumanoidRig",
+    "HasCompleteHumanoidRig_7D557C8B074D",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_489",
+    "m_9D4",
+    "m_798",
+    "m_E6B",
+    "m_7B8",
+    "m_883",
+    "m_1DD",
+    "m_520",
+    "m_815",
+    "m_941"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static8m_8926",
+  "parent": "",
+  "named_methods": [
+    "ProcessTransform",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_72E",
+    "m_BCB",
+    "m_C76",
+    "m_254",
+    "m_593"
+  ]
+}

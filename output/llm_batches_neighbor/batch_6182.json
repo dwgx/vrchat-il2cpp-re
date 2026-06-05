@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "FrameSiblingSibling_D7DD",
+  "parent": "",
+  "named_methods": [
+    "GetSkybox",
+    "GetSkybox_963E9991E156",
+    "GetSkybox_61BFCC218E0B",
+    "GetSkybox_ADC564B7C7C9",
+    ".ctor",
+    "Initialize",
+    "GetSkybox_837298EB6171",
+    "GetSkybox_C2CEA13C001C",
+    "GetSkybox_7DE7B1BC7E17"
+  ],
+  "hash_methods": [
+    "m_4BA"
+  ]
+}

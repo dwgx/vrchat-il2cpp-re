@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "AddBlendShapeFrame",
+    "set_name",
+    "op_Implicit",
+    ".ctor",
+    "Equals",
+    "ToString",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_B60",
+    "m_F22",
+    "m_EAD",
+    "m_E35"
+  ]
+}

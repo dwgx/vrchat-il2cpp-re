@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "DisposeFinalizeStaticMethods_860E",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Finalize",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_4FE",
+    "m_4ED",
+    "m_BEB",
+    "m_3E9",
+    "m_F96",
+    "m_E41",
+    "m_E34"
+  ]
+}

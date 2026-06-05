@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSibling_2EE7",
+  "parent": "",
+  "named_methods": [
+    "PropertyToID",
+    "GetMaterial",
+    "Awake",
+    "OnDestroy",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_722",
+    "m_BEE",
+    "m_637",
+    "m_5A4",
+    "m_018",
+    "m_BA5",
+    "m_516",
+    "m_C5B"
+  ]
+}

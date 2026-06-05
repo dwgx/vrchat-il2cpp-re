@@ -526,13 +526,14 @@ public class ImageLoadSettings
     public void HasFlagC46487BE14C3(){} // RVA: 0x7FFAF486E5E0
     public void SetFastResize(){} // RVA: 0x7FFAF486E630
     public void SetCompressTexture(){} // RVA: 0x7FFAF486E680
-    public void Initialize(){} // RVA: 0x7FFAF486E720
     public void GetMaxTextureSize(){} // RVA: 0x7FFAF486E770
     public void GetOrCreateNetworkSyncableValue(){} // RVA: 0x7FFAF486E780
     public void .ctor(){} // RVA: 0x7FFAF486E820
     public void GetName1237140DB784(){} // RVA: 0x7FFAF486E850
     public void Setenabled(){} // RVA: 0x7FFAF486E8A0
     public void SetVerticalFlip(){} // RVA: 0x7FFAF486E940
+    // ── Unresolved (hash) ──
+    public void m_8B1(){} // RVA: 0x7FFAF486E720
 }
 
 public class ImageResult

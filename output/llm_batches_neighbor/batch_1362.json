@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "VRCPlayerSibling_1A7B",
+  "parent": "",
+  "named_methods": [
+    "ReadComponentState",
+    "Start",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_E17",
+    "m_47A",
+    "m_A7A",
+    "m_011",
+    "m_0BC",
+    "m_68E",
+    "m_DBA",
+    "m_895",
+    "m_96E",
+    "m_32A"
+  ]
+}

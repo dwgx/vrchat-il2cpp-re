@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_1692",
+  "parent": "",
+  "named_methods": [
+    "ReadAsyncOperationState",
+    "MoveNext",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_440",
+    "m_0A8",
+    "m_CE3",
+    "m_4D8",
+    "m_752"
+  ]
+}

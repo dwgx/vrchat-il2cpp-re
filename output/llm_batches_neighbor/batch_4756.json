@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "QuaternionTransformHandler_1CB8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SetLocalRotation"
+  ],
+  "hash_methods": [
+    "m_06E",
+    "m_501",
+    "m_4F1",
+    "m_370",
+    "m_74C",
+    "m_979",
+    "m_848"
+  ]
+}

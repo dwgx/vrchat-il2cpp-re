@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ResolveComponentGameObject",
+    "get_name",
+    "Equals",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_016",
+    "m_9EB"
+  ]
+}

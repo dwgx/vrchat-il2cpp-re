@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_7A50",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SwitchFocus",
+    "SwitchFocus_4FD6FFC480E4",
+    "SwitchFocus_33CE5C7F1819",
+    ".ctor",
+    "Add",
+    "UnregisterOption"
+  ],
+  "hash_methods": [
+    "m_41F",
+    "m_627",
+    "m_061",
+    "m_761",
+    "m_A9A",
+    "m_C7F",
+    "m_1B3",
+    "m_682",
+    "m_0BC",
+    "m_47E"
+  ]
+}

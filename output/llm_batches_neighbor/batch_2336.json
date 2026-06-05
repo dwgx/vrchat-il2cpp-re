@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_F62A",
+  "parent": "",
+  "named_methods": [
+    "SystemCollectionsIEnumeratorReset",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DA1",
+    "m_A57",
+    "m_0F9",
+    "m_235",
+    "m_7B3",
+    "m_1AF",
+    "m_D45",
+    "m_108",
+    "m_E4E",
+    "m_512"
+  ]
+}

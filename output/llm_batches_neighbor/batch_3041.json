@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_D5CA",
+  "parent": "",
+  "named_methods": [
+    "GetEnumerator",
+    "System.Collections.Generic.IEnumerator<TSource>.get_Current",
+    "System.Collections.IEnumerator.get_Current",
+    "get_Current",
+    "MoveNext",
+    "System.Collections.IEnumerable.GetEnumerator",
+    "Dispose",
+    ".ctor",
+    "System.Collections.Generic.IEnumerable<TSource>.GetEnumerator",
+    "System.IDisposable.Dispose",
+    "System.Collections.IEnumerator.Reset"
+  ],
+  "hash_methods": [
+    "m_63A",
+    "m_29F",
+    "m_9B7",
+    "m_3B7",
+    "m_088"
+  ]
+}

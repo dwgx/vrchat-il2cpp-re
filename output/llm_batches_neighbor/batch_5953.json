@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_5BA0",
+  "parent": "",
+  "named_methods": [
+    "EqualsObject",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B3D",
+    "m_E54",
+    "m_75B",
+    "m_79D",
+    "m_3B8"
+  ]
+}

@@ -35,7 +35,6 @@ namespace VRC.Misc
         public void Start(){} // RVA: 0x7FFAF33B02B0
         public void Awake(){} // RVA: 0x7FFAF33B12E0
         public void IndexOf_D7CF66134862(){} // RVA: 0x7FFAF33B14E0
-        public void GetHashCode(){} // RVA: 0x7FFAF33B16D0
         public void set_Item(){} // RVA: 0x7FFAF33B1AD0
         public void OnDestroy(){} // RVA: 0x7FFAF33B1CC0
         public void set_Item_7A470EB587BE(){} // RVA: 0x7FFAF33B25A0
@@ -50,6 +49,7 @@ namespace VRC.Misc
         public void m_E2A(){} // RVA: 0x7FFAF33AFD40
         public void m_591(){} // RVA: 0x7FFAF33AFEA0
         public void m_186(){} // RVA: 0x7FFAF33B15C0
+        public void m_E2E(){} // RVA: 0x7FFAF33B16D0
         public void m_D29(){} // RVA: 0x7FFAF33B3D50
         public void m_EE9(){} // RVA: 0x7FFAF2E0A740
     }
@@ -58,21 +58,21 @@ namespace VRC.Misc
     public class LightManagerSibling_E678
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x7FFAF42AE750
-        public void Equals(){} // RVA: 0x7FFAF42AEA00
-        public void Equals_BF2ED7042BBB(){} // RVA: 0x7FFAF42AEE80
-        public void GetHashCode_6B3E81FCD57E(){} // RVA: 0x7FFAF42AF130
-        public void Equals_A2AD68B7C4F6(){} // RVA: 0x7FFAF42AF5C0
-        public void GetHashCode_8E32A6F629C3(){} // RVA: 0x7FFAF42AF870
-        public void GetHashCode_5AC823425B83(){} // RVA: 0x7FFAF42AF880
         public void OnDestroy(){} // RVA: 0x7FFAF42AF8A0
-        public void GetHashCode_8A373DF3FE68(){} // RVA: 0x7FFAF42AFC70
-        public void Equals_92E3E713897D(){} // RVA: 0x7FFAF42AFD80
         public void Start(){} // RVA: 0x7FFAF42AFEB0
         public void .ctor(){} // RVA: 0x7FFAF42B0330
         public void Initialize(){} // RVA: 0x7FFAF42B0390
         // ── Unresolved (hash) ──
+        public void m_696(){} // RVA: 0x7FFAF42AE750
+        public void m_C30(){} // RVA: 0x7FFAF42AEA00
+        public void m_BF2(){} // RVA: 0x7FFAF42AEE80
+        public void m_6B3(){} // RVA: 0x7FFAF42AF130
+        public void m_A2A(){} // RVA: 0x7FFAF42AF5C0
+        public void m_8E3(){} // RVA: 0x7FFAF42AF870
+        public void m_5AC(){} // RVA: 0x7FFAF42AF880
         public void m_118(){} // RVA: 0x7FFAF42AF9B0
+        public void m_8A3(){} // RVA: 0x7FFAF42AFC70
+        public void m_92E(){} // RVA: 0x7FFAF42AFD80
     }
 
     /// <summary>Originally: ÎÏÏÌÎÎÍÍÏÍÎÏÌÎÏÍÎÍÍÍÍÏÎ</summary>

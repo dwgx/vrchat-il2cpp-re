@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name_E4AD73610BD7",
+    "GetInstanceID_7B3E1F71092B",
+    "IsInvoking",
+    "IsNativeObjectAlive",
+    "op_Implicit",
+    ".cctor",
+    "CopyRotation",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_C39",
+    "m_F75",
+    "m_FB8",
+    "m_F02"
+  ]
+}

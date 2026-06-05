@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "PointerClick_1143",
+  "parent": "",
+  "named_methods": [
+    "OnPointerClick",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B8F",
+    "m_E64",
+    "m_653",
+    "m_A3A"
+  ]
+}

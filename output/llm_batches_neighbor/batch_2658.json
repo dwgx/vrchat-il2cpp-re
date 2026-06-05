@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "MessengerHelperSibling_5DFE",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    ".ctor",
+    "Initialize",
+    "OnDisable_0E2A4B46508D",
+    "Awake_7FD28589FE1E",
+    "OnDisable_0A17D448B2DB",
+    "OnDestroy",
+    "OnEnable",
+    "OnDisable",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_08D",
+    "m_DDE"
+  ]
+}

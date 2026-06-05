@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponentSiblingRelated_6CCA",
+  "parent": "",
+  "named_methods": [
+    "Equals_C18792173775",
+    ".ctor",
+    "Initialize",
+    "GetHashCode_E2FA525D13AA",
+    "Equals",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_7CA",
+    "m_9BA",
+    "m_8BD",
+    "m_E57",
+    "m_38B",
+    "m_2F8",
+    "m_764"
+  ]
+}

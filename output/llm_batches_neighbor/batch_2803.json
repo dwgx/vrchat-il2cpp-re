@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_82CF",
+  "parent": "",
+  "named_methods": [
+    "ConvertSafeArrayToArray",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_4D8",
+    "m_4E8",
+    "m_440",
+    "m_0A8",
+    "m_7F6",
+    "m_752"
+  ]
+}

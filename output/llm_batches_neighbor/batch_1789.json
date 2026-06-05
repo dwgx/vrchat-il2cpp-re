@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PhysicsHandler_3333",
+  "parent": "",
+  "named_methods": [
+    "GetIgnoreLayerCollision",
+    "ThrowCannotMarshalPageField",
+    "GetIgnoreCollision",
+    "GetIgnoreLayerCollision_87385EE9B3AC",
+    ".ctor",
+    "Start",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_D95",
+    "m_A14",
+    "m_1F2",
+    "m_CCB"
+  ]
+}

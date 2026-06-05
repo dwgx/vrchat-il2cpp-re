@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static19m_7AAF",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_54D",
+    "m_B3B"
+  ]
+}

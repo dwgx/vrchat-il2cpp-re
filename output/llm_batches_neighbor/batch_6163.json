@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static20m_265F",
+  "parent": "",
+  "named_methods": [
+    "ConfigureTransformLocal",
+    "ConfigureTransformLocal_C6F190CFE0EB",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B71",
+    "m_7CA",
+    "m_91E",
+    "m_675",
+    "m_09C",
+    "m_125",
+    "m_1B9",
+    "m_4A8",
+    "m_CE2",
+    "m_BFD"
+  ]
+}

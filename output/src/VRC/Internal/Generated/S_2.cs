@@ -583,13 +583,19 @@ namespace VRC.Internal.Generated
         public void ReadVideoVideoClipState(){} // RVA: 0x7FFAF4382640
         public void ConfigureVideoVideoPlayer(){} // RVA: 0x7FFAF4383100
         public void Update(){} // RVA: 0x7FFAF43831F0
-        // ── 12 unresolved (hash) ──
+        public void VideoVideoPlayer(){} // RVA: 0x7FFAF4382560
+        public void VideoVideoClipState(){} // RVA: 0x7FFAF4382560
+        // ── Unresolved (hash) ──
         public void m_EDA(){} // RVA: 0x7FFAF4382090
         public void m_36D(){} // RVA: 0x7FFAF43820B0
         public void m_8B5(){} // RVA: 0x7FFAF4382370
         public void m_94C(){} // RVA: 0x7FFAF43827D0
         public void m_76B(){} // RVA: 0x7FFAF43820B0
-        // ... 7 more unresolved methods
+        public void m_255(){} // RVA: 0x7FFAF43828C0
+        public void m_200(){} // RVA: 0x7FFAF4382A50
+        public void m_25F(){} // RVA: 0x7FFAF4382B10
+        public void m_0DD(){} // RVA: 0x7FFAF4382C00
+        public void m_852(){} // RVA: 0x7FFAF4382CC0
     }
 
     /// <summary>Originally: ÌÌÎÏÎÍÍÎÎÌÍÎÌÏÏÌÍÏÎÍÏÌÍ</summary>
@@ -824,17 +830,22 @@ namespace VRC.Internal.Generated
         public void ProcessMaterial(){} // RVA: 0x7FFAF46CFC70
         public void ConfigureRenderTexture(){} // RVA: 0x7FFAF46CFF30
         public void ProcessRenderTexture(){} // RVA: 0x7FFAF46D06B0
+        public void GetMaterialActiveColorSpace_6CCDF5DD7C12(){} // RVA: 0x7FFAF46D0C30
+        public void ProcessMaterial_213452249DC7(){} // RVA: 0x7FFAF46D0E70
+        public void ConfigureRenderTexture_E6F345F7B577(){} // RVA: 0x7FFAF46D0EE0
+        public void ProcessRenderTexture_DB2A8667C003(){} // RVA: 0x7FFAF46D0F80
         public void OnEnable(){} // RVA: 0x7FFAF46D1500
         public void OnDisable(){} // RVA: 0x7FFAF46D1510
+        public void Ctor(){} // RVA: 0x7FFAF46D1B80
         public void .ctor(){} // RVA: 0x7FFAF46D1B90
         public void Initialize(){} // RVA: 0x7FFAF46D1C70
-        // ── 32 unresolved (hash) ──
+        // ── 27 unresolved (hash) ──
         public void m_46E(){} // RVA: 0x7FFAF46CC540
         public void m_5BC(){} // RVA: 0x7FFAF46CCC20
         public void m_D80(){} // RVA: 0x7FFAF46CCC30
         public void m_B14(){} // RVA: 0x7FFAF46CD170
         public void m_1FF(){} // RVA: 0x7FFAF46CD6B0
-        // ... 27 more unresolved methods
+        // ... 22 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÎÏÎÍÎÌÎÍÍÏÌÏÎÏÎÏÏÏÍÎÌ</summary>
@@ -1350,13 +1361,13 @@ namespace VRC.Internal.Generated
     public class StringStaticMethods_770C
     {
         // ── Methods ──
+        public void GetTransformChild(){} // RVA: 0x7FFAF4579BF0
         public void .cctor(){} // RVA: 0x7FFAF4579C50
         public void .ctor(){} // RVA: 0x7FFAF4579D70 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8EE30
         public void ToString(){} // RVA: 0x7FFAF4579DE0
         public void GetTransformChildCount(){} // RVA: 0x7FFAF2DA84E0
         // ── Unresolved (hash) ──
-        public void m_93B(){} // RVA: 0x7FFAF4579BF0
         public void m_6A3(){} // RVA: 0x7FFAF2DA8380
         public void m_345(){} // RVA: 0x7FFAF2DA8380
         public void m_60B(){} // RVA: 0x7FFAF2DA8380

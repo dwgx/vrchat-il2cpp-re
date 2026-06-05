@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "ComponentGizmosDebugHandler_F9CE",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "OnDestroy",
+    "Start",
+    "Update",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    ".ctor",
+    "Initialize",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "OnCollisionStay"
+  ],
+  "hash_methods": [
+    "m_A08"
+  ]
+}

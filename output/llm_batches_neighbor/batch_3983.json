@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PhysicsHandler_89A3",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "SetCacheWritingBehavior",
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "set_CacheWritingBehavior",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_B5B",
+    "m_6DB",
+    "m_965",
+    "m_D40"
+  ]
+}

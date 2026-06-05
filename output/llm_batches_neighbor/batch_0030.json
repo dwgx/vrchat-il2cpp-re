@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "IsNativeObjectAlive",
+    ".ctor",
+    "GetGameObject",
+    "Initialize",
+    "RunOnThreadPool",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_667",
+    "m_3E5",
+    "m_67D",
+    "m_C11"
+  ]
+}

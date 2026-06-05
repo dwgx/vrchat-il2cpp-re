@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "DoOpenSubKey_D8E1C1CAA74E",
+    "IsNativeObjectAlive",
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_970",
+    "m_ED7",
+    "m_062",
+    "m_818",
+    "m_526"
+  ]
+}

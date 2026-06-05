@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_0E19",
+  "parent": "",
+  "named_methods": [
+    "GetFrameCount",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Awake",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_25F",
+    "m_9F4",
+    "m_035",
+    "m_45D",
+    "m_E40",
+    "m_9FF",
+    "m_275",
+    "m_3C0",
+    "m_A23",
+    "m_97C"
+  ]
+}

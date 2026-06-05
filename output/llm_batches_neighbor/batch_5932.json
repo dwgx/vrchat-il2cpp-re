@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "0DerivedSiblingSiblingSiblingSibling_DFE4",
+  "parent": "",
+  "named_methods": [
+    "GetPersistentDataPath",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_ADC",
+    "m_AEB"
+  ]
+}

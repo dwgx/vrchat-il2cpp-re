@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static8m_B07A",
+  "parent": "",
+  "named_methods": [
+    "GetTimeDeltaTime",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B1E",
+    "m_D48",
+    "m_E97",
+    "m_F9E",
+    "m_49E"
+  ]
+}

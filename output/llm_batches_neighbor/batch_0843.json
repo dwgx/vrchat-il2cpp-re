@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiRelated_DA9F",
+  "parent": "",
+  "named_methods": [
+    "GetZ",
+    "GetZMultiplier",
+    "ThrowExternalForcesModuleParticleSystemMarshalException",
+    "GetInfluenceFilter",
+    "RemoveInfluenceAtIndex",
+    "GetStrengthY",
+    "ToString",
+    "get_StrengthZ_Injected",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_40B",
+    "m_1C7",
+    "m_2CD",
+    "m_2D4",
+    "m_2B6"
+  ]
+}

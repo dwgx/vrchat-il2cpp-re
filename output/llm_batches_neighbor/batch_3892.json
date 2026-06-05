@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_E15D",
+  "parent": "",
+  "named_methods": [
+    "CancelInvokeAndDeactivateGameObject",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_124",
+    "m_4D8",
+    "m_015",
+    "m_CE3",
+    "m_752"
+  ]
+}

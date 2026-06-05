@@ -1,0 +1,18 @@
+{
+ "GameObjectSystem_FD84::m_051": "InitializeGameObjectReference",
+ "GameObjectSystem_FD84::m_0D4": "InitializeGameObjectReferencePair",
+ "GameObjectSystem_FD84::m_274": "GetGameObjectReferencePair",
+ "GameObjectSystem_FD84::m_2CB": "InitializeObjectReference",
+ "GameObjectSystem_FD84::m_2E6": "InitializeIndexedObjectReference",
+ "GameObjectSystem_FD84::m_3BB": "InitializeGameObjectReferencePair",
+ "GameObjectSystem_FD84::m_56D": "ClearObjectReference",
+ "GameObjectSystem_FD84::m_609": "InitializeGameObjectReferencePair",
+ "GameObjectSystem_FD84::m_633": "InitializeGameObjectReference",
+ "GameObjectSystem_FD84::m_686": "GetGameObjectReferenceState",
+ "GameObjectSystem_FD84::m_6A2": "SetCachedTransformData",
+ "GameObjectSystem_FD84::m_6BA": "InitializeObjectReference",
+ "GameObjectSystem_FD84::m_770": "InitializeActiveObjectReference",
+ "GameObjectSystem_FD84::m_8DA": "ClearObjectReference",
+ "GameObjectSystem_FD84::m_90B": "GetGameObjectReferencePair",
+ "GameObjectSystem_FD84::m_9D1": "ClearObjectReference"
+}

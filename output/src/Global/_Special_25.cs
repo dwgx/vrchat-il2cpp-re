@@ -747,8 +747,7 @@ public class <>c__39`1
     public void .cctor_73A312279464(){} // RVA: 0x7FFAF2ABCD60
     public void set_name(){} // RVA: 0x7FFAF2ABCD60
     public void .ctor_982F61779B70(){} // RVA: 0x7FFAF2ABCD60
-    // ── Unresolved (hash) ──
-    public void m_825(){} // RVA: 0x7FFAF2ABCD60
+    public void GetName(){} // RVA: 0x7FFAF2ABCD60
 }
 
 public class <>c__3`1

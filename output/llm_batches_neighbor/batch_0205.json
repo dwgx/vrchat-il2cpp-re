@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    ".cctor",
+    "Instantiate",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_2FD",
+    "m_EDB",
+    "m_C7B",
+    "m_D25"
+  ]
+}

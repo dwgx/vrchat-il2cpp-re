@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Service23m_C68FSiblingSibling_076C",
+  "parent": "",
+  "named_methods": [
+    "GetRect",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_38D",
+    "m_8B0",
+    "m_2B9",
+    "m_5B1",
+    "m_22C",
+    "m_48D",
+    "m_C78",
+    "m_820",
+    "m_FD3"
+  ]
+}

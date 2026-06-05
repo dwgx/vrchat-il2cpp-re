@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_FB5E",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "get_Current",
+    "Equals",
+    "System.Collections.IEnumerator.get_Current",
+    "System.Collections.IEnumerator.Reset",
+    "GetHashCode",
+    "ToString",
+    "Dispose",
+    "System.IDisposable.Dispose",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_2A0"
+  ]
+}

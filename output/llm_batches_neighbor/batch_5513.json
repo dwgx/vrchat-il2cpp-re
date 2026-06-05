@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PlayerCustomInputTextEditedSibSibling_17A3",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "GetCachedTransformArray",
+    ".ctor",
+    "Initialize",
+    "InitializeTransformState",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_D49",
+    "m_BFE",
+    "m_138",
+    "m_ABD"
+  ]
+}

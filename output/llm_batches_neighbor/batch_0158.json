@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Instantiate",
+    "Equals",
+    "RegQueryValueExW",
+    ".cctor",
+    "IsNativeObjectAlive",
+    "DoGetTexture",
+    "ToString",
+    "Internal_InstantiateSingleWithParent",
+    "IsNativeObjectAlive_DE1ED29528C6",
+    ".ctor",
+    "Initialize",
+    "Internal_InstantiateSingleWithParent_Injected"
+  ],
+  "hash_methods": [
+    "m_DBD"
+  ]
+}

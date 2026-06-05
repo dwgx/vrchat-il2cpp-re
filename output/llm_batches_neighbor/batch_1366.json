@@ -1,0 +1,35 @@
+{
+  "namespace": "",
+  "class": "NetworkReadyHandler_F15E",
+  "parent": "",
+  "named_methods": [
+    "IListContains",
+    "IListContains_63C327DB96A5",
+    "OnNetworkReady",
+    "IListContains_3B5E822A119C",
+    "IListContains_66AC5BEFE6F2",
+    "SetAvatarUse",
+    ".ctor",
+    "OnDestroy",
+    "FindEntry",
+    "Awake",
+    "FindEntry_3855B8641274",
+    "Update",
+    "IListContains_66E139037999",
+    "SetProbeAnchor",
+    "Start",
+    "RefreshAvatar",
+    "InternalArraySetItem",
+    "InternalArraySetItem_5178EC3FAFC2"
+  ],
+  "hash_methods": [
+    "m_C51",
+    "m_55A",
+    "m_FC6",
+    "m_E1D",
+    "m_22A",
+    "m_CE1",
+    "m_A7B",
+    "m_533"
+  ]
+}

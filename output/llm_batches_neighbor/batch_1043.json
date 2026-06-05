@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PointerClickPointerEnterSRelated_FC40",
+  "parent": "",
+  "named_methods": [
+    "ReadCameraState",
+    "AssignPointerArray",
+    ".ctor",
+    "Initialize",
+    "InternalSetDomain",
+    "ReadCameraState_939D15F96BF6",
+    "InternalPopDomainRef"
+  ],
+  "hash_methods": [
+    "m_9DB",
+    "m_8CC",
+    "m_60B",
+    "m_8C5",
+    "m_90C",
+    "m_223",
+    "m_AE9"
+  ]
+}

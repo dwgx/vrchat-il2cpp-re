@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "op_Implicit",
+    "GetAttachedArticulationBody",
+    "GetAttachedRigidbody",
+    ".ctor",
+    "FindObjectOfType",
+    "GetBounds",
+    "ToString",
+    ".cctor",
+    "op_Implicit_D6DBEEC34035",
+    "Internal_CloneSingleWithParent",
+    "GetCookingOptions"
+  ],
+  "hash_methods": [
+    "m_A2C",
+    "m_CA8"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_6465",
+  "parent": "",
+  "named_methods": [
+    "ProcessVector3",
+    "UpdateRotation",
+    ".ctor",
+    "Initialize",
+    "ProcessVector3_159BA84957FA",
+    "UpdateRotation_B6C39C4976E9",
+    "GetLocalToWorldMatrix"
+  ],
+  "hash_methods": [
+    "m_C3B",
+    "m_127",
+    "m_A5D"
+  ]
+}

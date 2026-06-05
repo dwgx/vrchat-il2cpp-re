@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "get_name",
+    "CompareBaseObjects",
+    ".ctor",
+    ".cctor",
+    "op_Implicit",
+    "GetCachedPtr",
+    "set_name_181C50C30DE3",
+    "GetMotorForce"
+  ],
+  "hash_methods": [
+    "m_1A5",
+    "m_10B"
+  ]
+}

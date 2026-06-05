@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiblingSibling_1D01",
+  "parent": "",
+  "named_methods": [
+    "TryGetValue",
+    "TryGetValue_9AA879E5E8FD",
+    "TryGetValue_C159BEE26CD7",
+    "GetEnumerator",
+    "GetEnumerator_598FE0753FDC"
+  ],
+  "hash_methods": [
+    "m_B3D",
+    "m_C4F",
+    "m_359",
+    "m_91F",
+    "m_E60",
+    "m_8C8",
+    "m_8E7",
+    "m_9FE",
+    "m_B3D",
+    "m_929"
+  ]
+}

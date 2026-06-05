@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_E409",
+  "parent": "",
+  "named_methods": [
+    "ReadPrimitiveIntegerValue",
+    "GetEnvironmentVariable",
+    "GetKnownFolderPath",
+    "MoveNext",
+    "SetStateMachine",
+    "QueryInterface"
+  ],
+  "hash_methods": [
+    "m_752",
+    "m_7F6",
+    "m_EC8"
+  ]
+}

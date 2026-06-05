@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_2336",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_B65",
+    "m_C30",
+    "m_A74",
+    "m_8A3",
+    "m_57E"
+  ]
+}

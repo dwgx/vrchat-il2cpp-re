@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "ShaderMaterialHandler_23FE",
+  "parent": "",
+  "named_methods": [
+    "PropertyToID",
+    ".ctor",
+    "Initialize",
+    "ProcessMaterial"
+  ],
+  "hash_methods": [
+    "m_B4D",
+    "m_B74",
+    "m_CD6",
+    "m_29B"
+  ]
+}

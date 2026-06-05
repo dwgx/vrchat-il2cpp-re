@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static33m_C930",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_0F8",
+    "m_A04",
+    "m_E53",
+    "m_E92",
+    "m_378",
+    "m_6DC",
+    "m_B72",
+    "m_0BF",
+    "m_71C",
+    "m_51F"
+  ]
+}

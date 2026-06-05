@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "MaterialShaderHandler_8286",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "PropertyToID",
+    "PropertyToID_6CE22F9109A9",
+    "Update",
+    "PropertyToID_3855B8641274",
+    "Start",
+    "PropertyToID_BEED6E7AD015",
+    "IndexOf",
+    "OnDisable",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_8F0",
+    "m_41F",
+    "m_69B"
+  ]
+}

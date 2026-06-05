@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    ".cctor",
+    "Initialize_ACE08F",
+    "set_name",
+    "IsNativeObjectAlive",
+    "CompareBaseObjects_A588DC8CFF6F",
+    "GetCachedPtr",
+    "ContainsChild",
+    "GetCachedPtr_FB03CF91833F"
+  ],
+  "hash_methods": [
+    "m_680",
+    "m_38D",
+    "m_6ED"
+  ]
+}

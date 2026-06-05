@@ -1,0 +1,41 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingRelated_F63D",
+  "parent": "",
+  "named_methods": [
+    "GetActivationFactory",
+    "Update",
+    "Start",
+    "Awake",
+    "OnDestroy",
+    "DllGetActivationFactory",
+    "ConfigureTransformLocalScale",
+    "OnDisable",
+    "GetExceptionForHR",
+    "CreateArgumentException",
+    "CreateTypeLoadException",
+    "ThrowCouldNotLoadTypeException",
+    "CreateCouldNotLoadTypeException",
+    "CreateWindowsRuntimeTypeNotFoundException",
+    "CreateMissingWindowsRuntimeTypeException",
+    "ThrowCouldNotFindWindowsRuntimeTypeException",
+    "CreateOverflowException",
+    "CreateThreadInterruptedException",
+    "CreateThreadAbortException",
+    "AllocateAlignedMemory",
+    ".ctor",
+    "OnEnable"
+  ],
+  "hash_methods": [
+    "m_BF3",
+    "m_C00",
+    "m_085",
+    "m_F13",
+    "m_229",
+    "m_43F",
+    "m_D2C",
+    "m_125",
+    "m_1BC",
+    "m_6DA"
+  ]
+}

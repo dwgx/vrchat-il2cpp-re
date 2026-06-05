@@ -1,0 +1,11 @@
+{
+ "AnimatedTextureBaseImpl_0682_3A0F::m_28B": "DrainMarkStack",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_28C": "CollectAllocatorGarbage",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_2FD": "PushAllHeapPointers",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_3AB": "CollectALittleInner",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_3F4": "InitializeAllocatorPage",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_401": "InitializeAllocatorPage",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_402": "AddBlockToFreeList",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_406": "CollectAllocatorGarbage",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_45F": "CollectAllocatorGarbage"
+}

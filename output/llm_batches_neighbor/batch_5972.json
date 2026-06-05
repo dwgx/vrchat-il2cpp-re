@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_BF14",
+  "parent": "",
+  "named_methods": [
+    "GetIsHuman",
+    "GetIsHuman_EC87777A0E0A",
+    "GetIsHuman_01517EFCE392",
+    "SetStateMachine",
+    "GetIsHuman_440D1A4DE1DC",
+    "MoveNext",
+    "GetIsHuman_7F663E5CC641",
+    "GetIsHuman_4E868F86F32B"
+  ],
+  "hash_methods": [
+    "m_63A"
+  ]
+}

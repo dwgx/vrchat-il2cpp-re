@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "CheckRenderTexture",
+    ".cctor",
+    ".ctor",
+    "set_name_B917F2E759B3",
+    "get_name_B917F2E759B3",
+    "Initialize_93ACA74553A4",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_4CE",
+    "m_BB1",
+    "m_960"
+  ]
+}

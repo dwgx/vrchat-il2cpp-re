@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_4DD1",
+  "parent": "",
+  "named_methods": [
+    "Contains",
+    "Awake",
+    "OnEnable",
+    "OnDisable",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_296"
+  ]
+}

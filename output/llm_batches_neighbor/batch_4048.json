@@ -1,0 +1,36 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSiblingSSibling_6764",
+  "parent": "",
+  "named_methods": [
+    "UpdateRotation",
+    "UpdateRotation_E31AFB1AD551",
+    ".ctor",
+    "Initialize",
+    "Update",
+    "UpdateRotation_D7CAF1E51BDF",
+    "UpdateRotation_2B7899ADFCC9",
+    "Awake",
+    "Evaluate",
+    "Evaluate_23E6E2BF77DE",
+    "Internal_Create",
+    "OnDestroy",
+    ".cctor",
+    "Start",
+    "Evaluate_A85E3366D41B",
+    "Evaluate_35400CB74824",
+    "Evaluate_35915B3B5FC3"
+  ],
+  "hash_methods": [
+    "m_28B",
+    "m_5BB",
+    "m_33D",
+    "m_D6E",
+    "m_78A",
+    "m_7A3",
+    "m_470",
+    "m_339",
+    "m_BA3",
+    "m_39C"
+  ]
+}

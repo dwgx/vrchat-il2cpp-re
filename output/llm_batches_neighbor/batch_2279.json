@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "EffectBundleIDIsSpecialFXSibliSibling_86A7",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "get_Current",
+    "get_Current_2D7539DB71C7",
+    "get_Current_09A70AE61D90",
+    "MoveNext_07B514A98CC4",
+    ".ctor",
+    "Initialize",
+    "ReadCameraState"
+  ],
+  "hash_methods": [
+    "m_694",
+    "m_64C",
+    "m_CA8",
+    "m_3AA"
+  ]
+}

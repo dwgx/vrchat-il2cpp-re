@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "<>9__0_0",
+    "GetInstanceID",
+    "set_name",
+    "GetTransform",
+    ".cctor",
+    "op_Implicit",
+    "Initialize",
+    "SelectGameNameDestroy",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_337",
+    "m_5A3",
+    "m_DD0",
+    "m_65A",
+    "m_61E"
+  ]
+}

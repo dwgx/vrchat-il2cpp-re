@@ -10,13 +10,14 @@ namespace VRC.UI.Shared
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAFBDBD550
         public void Initialize(){} // RVA: 0x7FFAF3DC9FF0
-        public void Initialize_C538CCA41C44(){} // RVA: 0x7FFAF3DC9FF0
-        public void Initialize_151E96A69AA8(){} // RVA: 0x7FFAF3DC9FF0
-        public void Initialize_C4F28F0F7925(){} // RVA: 0x7FFAF3DC9FF0
-        public void Initialize_2870408EB3B1(){} // RVA: 0x7FFAF3DC9FF0
-        public void Initialize_E608378597AD(){} // RVA: 0x7FFAF3DC9FF0
-        public void Initialize_C9BF71715768(){} // RVA: 0x7FFAF3DC9FF0
-        public void Initialize_B3D4B1913246(){} // RVA: 0x7FFAF3DC9FF0
+        // ── Unresolved (hash) ──
+        public void m_C53(){} // RVA: 0x7FFAF3DC9FF0
+        public void m_151(){} // RVA: 0x7FFAF3DC9FF0
+        public void m_C4F(){} // RVA: 0x7FFAF3DC9FF0
+        public void m_287(){} // RVA: 0x7FFAF3DC9FF0
+        public void m_E60(){} // RVA: 0x7FFAF3DC9FF0
+        public void m_C9B(){} // RVA: 0x7FFAF3DC9FF0
+        public void m_B3D(){} // RVA: 0x7FFAF3DC9FF0
     }
 
 }

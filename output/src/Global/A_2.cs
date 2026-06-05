@@ -1126,24 +1126,34 @@ public class AssetEntry
 public class AssetPreloader
 {
     // ── Methods ──
+    public void GetAssetBundleRequestAllAssets(){} // RVA: 0x7FFAF3C28700
+    public void Dispose_8BD507CE2636(){} // RVA: 0x7FFAF3C287D0
+    public void Cleanup(){} // RVA: 0x7FFAF3C28990
     public void Initialize_C7F63F0380B4(){} // RVA: 0x7FFAF3C28E50
-    public void GetAssetBundleRequestAllAssets(){} // RVA: 0x7FFAF3C29490
+    public void ApplyCachedLocalPosition(){} // RVA: 0x7FFAF3C28FE0
+    public void GetAssetBundleRequestAllAssets_C52554CED5A7(){} // RVA: 0x7FFAF3C29490
+    public void GetPreloadAssets(){} // RVA: 0x7FFAF3C29900
     public void Dispose(){} // RVA: 0x7FFAF3C29E50
-    public void Cleanup(){} // RVA: 0x7FFAF3C29F20
-    public void ApplyCachedLocalPosition(){} // RVA: 0x7FFAF3C2A0B0
-    public void GetPreloadAssets(){} // RVA: 0x7FFAF3C2A710
-    public void AddPreloadAssetsFromEntry(){} // RVA: 0x7FFAF3C2A9D0
+    public void ApplyCachedLocalPosition_B749FC036F48(){} // RVA: 0x7FFAF3C2A0B0
+    public void AddPreloadAssetsFromEntry(){} // RVA: 0x7FFAF3C2A250
+    public void GetPreloadAssets_1C45C7A2C127(){} // RVA: 0x7FFAF3C2A710
+    public void TryFindPreloadAssetIndices(){} // RVA: 0x7FFAF2D907C0
+    public void AddPreloadAssetsFromEntry_5F9BF69D91E8(){} // RVA: 0x7FFAF3C2A9D0
+    public void Finalize_8664D9DDBBC3(){} // RVA: 0x7FFAF3C2ABC0
     public void Initialize(){} // RVA: 0x7FFAF3C2B200
-    public void TryFindPreloadAssetIndices(){} // RVA: 0x7FFAF3C2B310
+    public void TryFindPreloadAssetIndices_793571568F6B(){} // RVA: 0x7FFAF3C2B310
     public void Finalize(){} // RVA: 0x7FFAF3C2B4E0
     public void .ctor(){} // RVA: 0x7FFAF3C2B960
-    // ── 16 unresolved (hash) ──
+    // ── Unresolved (hash) ──
     public void m_902(){} // RVA: 0x7FFAF2D907C0
-    public void m_F2B(){} // RVA: 0x7FFAF3C28700
-    public void m_8BD(){} // RVA: 0x7FFAF3C287D0
-    public void m_4A1(){} // RVA: 0x7FFAF3C28990
-    public void m_AC0(){} // RVA: 0x7FFAF3C28FE0
-    // ... 11 more unresolved methods
+    public void m_0F7(){} // RVA: 0x7FFAF3C29F20
+    public void m_EDE(){} // RVA: 0x7FFAF3C2A900
+    public void m_4FA(){} // RVA: 0x7FFAF3C2AD40
+    public void m_061(){} // RVA: 0x7FFAF3C2B700
+    public void m_644(){} // RVA: 0x7FFAF3C2BE30
+    public void m_0BC(){} // RVA: 0x7FFAF3C2C380
+    public void m_0C1(){} // RVA: 0x7FFAF3C2C560
+    public void m_7F9(){} // RVA: 0x7FFAF3C2C760
 }
 
 public class AssociatedDetection

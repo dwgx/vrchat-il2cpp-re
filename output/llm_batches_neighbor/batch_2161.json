@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_CF98",
+  "parent": "",
+  "named_methods": [
+    "CompareTo",
+    "GetHashCode",
+    "GetHashCode_63A097DDAF15",
+    "MoveNext",
+    "GetHashCode_1244533621D8",
+    "SetStateMachine",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_752"
+  ]
+}

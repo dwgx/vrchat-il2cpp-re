@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "FlagHasInvisibleComponent_2C1A",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start",
+    "FixedUpdate",
+    "OnEnable",
+    "LateUpdate",
+    "OnDisable",
+    "Update",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit"
+  ],
+  "hash_methods": [
+    "m_AF0",
+    "m_9A3",
+    "m_CA7",
+    "m_0AB"
+  ]
+}

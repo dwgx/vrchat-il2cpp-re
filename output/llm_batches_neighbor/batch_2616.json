@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "SetLayoutHorizontalSetLayoutVertical_A1FB",
+  "parent": "",
+  "named_methods": [
+    "SetLayoutHorizontalAndVertical",
+    "SetLayoutHorizontal",
+    "SetLayoutHorizontalAndVertical_D2EAFFAB233D",
+    "StaticConstructor",
+    "SetLayoutVertical",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_E14",
+    "m_9B6",
+    "m_217",
+    "m_992",
+    "m_8A8",
+    "m_850",
+    "m_2D5",
+    "m_D98",
+    "m_BCE"
+  ]
+}

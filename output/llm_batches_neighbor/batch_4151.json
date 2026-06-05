@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_5831",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "SetSortedRangeEndpoints",
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_645",
+    "m_43D",
+    "m_035",
+    "m_3CB",
+    "m_31B",
+    "m_B03",
+    "m_894",
+    "m_E28",
+    "m_31B",
+    "m_249"
+  ]
+}

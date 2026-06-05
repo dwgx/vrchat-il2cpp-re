@@ -1,0 +1,35 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_hideFlags",
+    "GetCachedPtr_FB1F39",
+    "ToString",
+    "op_Implicit",
+    "GetHashCode",
+    "ConfigureBehaviour",
+    ".ctor",
+    "get_name",
+    "GetInstanceID",
+    "DestroyImmediate",
+    "op_Implicit_82F4EBF164FC",
+    ".cctor",
+    "set_name_1BE8284B7893",
+    "IsNativeObjectAlive",
+    "Instantiate",
+    "GetInstanceID_BB904A27BFC3",
+    "set_planeDistance",
+    "get_name_6FE09EE55EE0",
+    "GetHashCode_F61705CA9F0C"
+  ],
+  "hash_methods": [
+    "m_0D4",
+    "m_0B2",
+    "m_3CC",
+    "m_A26",
+    "m_E7C",
+    "m_E4F",
+    "m_914"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_4614",
+  "parent": "",
+  "named_methods": [
+    "GetRealtimeSinceStartup",
+    "OnDestroy",
+    "OnDisable",
+    "OnPreRender",
+    ".ctor",
+    "Initialize",
+    "GetRealtimeSinceStartup_BA50E4EB3D17",
+    "GetRealtimeSinceStartup_789DA1CE01CD",
+    ".cctor",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_403",
+    "m_262",
+    "m_8C5",
+    "m_064",
+    "m_756",
+    "m_83A",
+    "m_9B8",
+    "m_891",
+    "m_AEA",
+    "m_A17"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "ApplicationTransformHandler_0A66",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    "InitializeTransformAnimation",
+    "ApplyTransformAnimation"
+  ],
+  "hash_methods": [
+    "m_1FA",
+    "m_A1A",
+    "m_FEF",
+    "m_7D3",
+    "m_7D7",
+    "m_982",
+    "m_8B6",
+    "m_4CF",
+    "m_931",
+    "m_8E6"
+  ]
+}

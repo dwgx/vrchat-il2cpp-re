@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_91D1",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "GetDispatcherQueueForCurrentThread",
+    "GetDispatcherQueueForCurrentThread_410F56E5D055",
+    "GetHighResolutionTimestamp"
+  ],
+  "hash_methods": [
+    "m_2F0",
+    "m_DD6",
+    "m_6C6",
+    "m_F2B",
+    "m_C31"
+  ]
+}

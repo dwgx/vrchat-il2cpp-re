@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_2BB1",
+  "parent": "",
+  "named_methods": [
+    "SetActiveGameObject",
+    "MoveNext_2889A92F8CA2",
+    "SetStateMachine",
+    "MoveNext",
+    "MoveNext_63A097DDAF15"
+  ],
+  "hash_methods": [
+    "m_06D",
+    "m_4E8",
+    "m_0A8",
+    "m_DB9",
+    "m_7F6"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "Static16m_117C",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    ".cctor",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_E3E",
+    "m_EC3",
+    "m_220"
+  ]
+}

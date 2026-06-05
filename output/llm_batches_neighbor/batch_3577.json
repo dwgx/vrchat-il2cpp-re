@@ -1,0 +1,35 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSiblingSibling_8ABD",
+  "parent": "",
+  "named_methods": [
+    "UpdateTransformPose",
+    "Awake",
+    "OnDisable",
+    "Update",
+    "ApplyCachedRotationSmoothing",
+    "ApplySmoothedRotation",
+    "HasTransform",
+    "SetTransformAndCachePose",
+    "SetTransform",
+    "Constructor",
+    ".ctor",
+    "OnEnable",
+    "CacheComponentReferences",
+    "OnDrawGizmos",
+    "OnDestroy",
+    "OnValidate"
+  ],
+  "hash_methods": [
+    "m_D4B",
+    "m_EE4",
+    "m_322",
+    "m_43D",
+    "m_06D",
+    "m_34E",
+    "m_FF4",
+    "m_1FF",
+    "m_AD5",
+    "m_392"
+  ]
+}

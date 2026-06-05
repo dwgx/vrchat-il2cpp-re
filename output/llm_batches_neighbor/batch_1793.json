@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AudioHandler_44EF",
+  "parent": "",
+  "named_methods": [
+    "GetMinDistance",
+    "GetSpatialize",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_326",
+    "m_56F",
+    "m_024",
+    "m_8B9",
+    "m_DDD",
+    "m_8BF"
+  ]
+}

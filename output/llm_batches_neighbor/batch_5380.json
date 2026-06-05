@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "UITransformTransformHandler_B3CE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetRect"
+  ],
+  "hash_methods": [
+    "m_830",
+    "m_35E",
+    "m_2E5",
+    "m_B7F",
+    "m_F8A",
+    "m_2E5",
+    "m_789",
+    "m_D39",
+    "m_742"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_4824",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "OrthoNormalize2",
+    "OrthoNormalize2_53773F778605",
+    "OrthoNormalize2_89FDFDA23DD8",
+    "OrthoNormalize2_CC29079C5844",
+    "Finalize",
+    "ToString",
+    "GetHashCode",
+    "ToString_2B10A7123444",
+    ".ctor",
+    "Initialize",
+    "ToString_1A73B7457931",
+    "Equals_4DAC361D9F19",
+    "GetHashCode_13E092C848FD",
+    "ToString_F6F606B09A83",
+    "Equals_D4C35CFE8583",
+    "UpdateRotation",
+    "UpdateRotation_113C38E52966"
+  ],
+  "hash_methods": [
+    "m_A03",
+    "m_1B3",
+    "m_6A2",
+    "m_323",
+    "m_630"
+  ]
+}

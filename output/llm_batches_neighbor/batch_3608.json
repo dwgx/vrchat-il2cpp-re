@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_B1C6",
+  "parent": "",
+  "named_methods": [
+    "InvokeMulticastDelegate",
+    "InvokeMulticastDelegate_4E868F86F32B",
+    "InvokeMulticastDelegate_7F663E5CC641",
+    "MoveNext",
+    "SetStateMachine",
+    "InvokeMulticastDelegate_63A097DDAF15",
+    "InvokeMulticastDelegate_7525F37D1DF1",
+    "InvokeMulticastDelegate_01517EFCE392"
+  ],
+  "hash_methods": [
+    "m_EC8"
+  ]
+}

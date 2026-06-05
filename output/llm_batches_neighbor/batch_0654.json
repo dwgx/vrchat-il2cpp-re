@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "NetworkReadyHandler_C7C4",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "ProvideEvents",
+    "OnNetworkReady"
+  ],
+  "hash_methods": [
+    "m_8E4",
+    "m_7FB",
+    "m_B21",
+    "m_FDC",
+    "m_11F",
+    "m_463",
+    "m_10F"
+  ]
+}

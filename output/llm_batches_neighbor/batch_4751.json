@@ -1,0 +1,41 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_5BFA",
+  "parent": "",
+  "named_methods": [
+    "CreateContext",
+    "Awake",
+    "OnEnable",
+    "FixedUpdate",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    ".cctor",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "Start",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    "LateUpdate",
+    "OnDisable",
+    "OnCollisionEnter",
+    "OnCollisionExit"
+  ],
+  "hash_methods": [
+    "m_3CB",
+    "m_AA7",
+    "m_EA3",
+    "m_C36",
+    "m_8C2",
+    "m_30C",
+    "m_29F",
+    "m_079",
+    "m_6FB",
+    "m_72B"
+  ]
+}

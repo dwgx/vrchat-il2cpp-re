@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncQuaternionHandler_1090",
+  "parent": "",
+  "named_methods": [
+    "GetIsDone",
+    "GetIsDone_1999503332B0",
+    ".ctor",
+    "Initialize",
+    "InvokeQuaternionCallback"
+  ],
+  "hash_methods": [
+    "m_BE7",
+    "m_B49"
+  ]
+}

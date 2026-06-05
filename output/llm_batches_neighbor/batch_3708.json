@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "Static41m_77C1",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetTransformChildCount"
+  ],
+  "hash_methods": [
+    "m_69E",
+    "m_753",
+    "m_D3A",
+    "m_5DA",
+    "m_2FF",
+    "m_5B4",
+    "m_76B",
+    "m_8C7"
+  ]
+}

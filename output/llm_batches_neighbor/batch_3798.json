@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSibling_43EC",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_203",
+    "m_E40"
+  ]
+}

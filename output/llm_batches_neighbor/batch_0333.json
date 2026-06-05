@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "op_Implicit",
+    ".ctor",
+    "Initialize",
+    "GetInstanceID",
+    "GetLastServiceDescriptor",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_388",
+    "m_E07",
+    "m_D86",
+    "m_445",
+    "m_F9F"
+  ]
+}

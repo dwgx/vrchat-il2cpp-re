@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_7D8A",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "GetEnabled"
+  ],
+  "hash_methods": [
+    "m_24F",
+    "m_CF3",
+    "m_EEE",
+    "m_937",
+    "m_C01",
+    "m_016",
+    "m_552"
+  ]
+}

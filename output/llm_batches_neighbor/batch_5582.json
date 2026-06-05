@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "Service23m_A3D8SiblingSibling_0859",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_8B3",
+    "m_E51"
+  ]
+}

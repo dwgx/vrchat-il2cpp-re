@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "ContainsChild_F32F20",
+    "Equals",
+    "GetComponentGameObject",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_D51",
+    "m_FFB",
+    "m_333",
+    "m_341"
+  ]
+}

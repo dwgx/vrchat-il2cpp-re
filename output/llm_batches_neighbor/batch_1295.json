@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "Static14m_910C",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_78B"
+  ]
+}

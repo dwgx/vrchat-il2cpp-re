@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "gameObject_F4BA_6551",
+  "parent": "",
+  "named_methods": [
+    "set_gameObject",
+    "ContainsChild",
+    "ContainsChild_4CA37A796513",
+    "get_gameObject"
+  ],
+  "hash_methods": [
+    "m_58D"
+  ]
+}

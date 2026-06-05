@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_E441",
+  "parent": "",
+  "named_methods": [
+    "SetAnimationCurveKeys",
+    "MoveNext",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_4E8",
+    "m_63A",
+    "m_124",
+    "m_752"
+  ]
+}

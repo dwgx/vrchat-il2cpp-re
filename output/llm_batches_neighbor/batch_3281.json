@@ -1,0 +1,33 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_5497",
+  "parent": "",
+  "named_methods": [
+    "BrotliEncoderCompress",
+    "BrotliEncoderCompress_BF446E146E12",
+    "BrotliEncoderCompress_BCF21FE1B233",
+    "BrotliEncoderCompress_27A0F1E541C8",
+    "BrotliEncoderCompress_25AEDA6E2BAA",
+    "BrotliEncoderCompress_C7FFAA4DBEEE",
+    ".ctor",
+    "Initialize",
+    "BrotliEncoderCompressStream",
+    "BrotliEncoderCompressStream_C4850304EADD",
+    "BrotliEncoderCompressStream_EDEBB84CB0B7",
+    "ThrowLengthError",
+    "ThrowOutOfRangeException",
+    "FindByteInRange",
+    "FindUInt64Value",
+    "FindMemorySequence"
+  ],
+  "hash_methods": [
+    "m_C3F",
+    "m_41F",
+    "m_0E2",
+    "m_04E",
+    "m_19F",
+    "m_C94",
+    "m_04E",
+    "m_D3D"
+  ]
+}

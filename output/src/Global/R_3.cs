@@ -247,8 +247,9 @@ public class Rotor
     public void GetHashCode(){} // RVA: 0x7FFAF34AAC60
     public void InternalGetHashCode(){} // RVA: 0x7FFAF34AB090
     public void ToString(){} // RVA: 0x7FFAF34AB4D0
-    public void Equals_9552957DFBFA(){} // RVA: 0x7FFAF34AB910
-    public void GetHashCode_0B5E50BB0FF7(){} // RVA: 0x7FFAF34ABD50
+    // ── Unresolved (hash) ──
+    public void m_955(){} // RVA: 0x7FFAF34AB910
+    public void m_0B5(){} // RVA: 0x7FFAF34ABD50
 }
 
 public class RoutePoint

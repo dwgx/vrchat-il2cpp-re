@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_764D",
+  "parent": "",
+  "named_methods": [
+    "GenerateSigningKey",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible"
+  ],
+  "hash_methods": [
+    "m_33E"
+  ]
+}

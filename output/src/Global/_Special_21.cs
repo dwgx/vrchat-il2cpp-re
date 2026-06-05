@@ -277,12 +277,12 @@ public class <>c
     public void Initialize(){} // RVA: 0x7FFAF34711A0
     public void FindObjectsByType(){} // RVA: 0x7FFAF36B4CF0
     public void .cctor(){} // RVA: 0x7FFAF48322C0
+    public void PreparePointerInteraction(){} // RVA: 0x7FFAF36B4CF0
     public void GetHashCode(){} // RVA: 0x7FFAF3A14F80
-    public void PreparePointerInteraction(){} // RVA: 0x7FFAF3A14F80
+    public void PreparePointerInteraction_DB7720F1F039(){} // RVA: 0x7FFAF3A14F80
     public void get_name(){} // RVA: 0x7FFAF48322A0
     // ── Unresolved (hash) ──
     public void m_44E(){} // RVA: 0x7FFAF48322A0
-    public void m_D55(){} // RVA: 0x7FFAF36B4CF0
 }
 
 public class <>c

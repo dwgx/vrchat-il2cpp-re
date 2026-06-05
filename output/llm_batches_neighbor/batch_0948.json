@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "TransformParentInvisibleComponent_B0A0",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "Awake",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnPreRender"
+  ],
+  "hash_methods": [
+    "m_E09",
+    "m_0C0",
+    "m_3A2",
+    "m_8AD",
+    "m_252"
+  ]
+}

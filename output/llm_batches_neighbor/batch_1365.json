@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "Static15m_FE21",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_A66"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Service23m_C68FSiblingSibling_972B",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    ".ctor",
+    "Initialize",
+    "SetTextureOffsetImplMaterial"
+  ],
+  "hash_methods": [
+    "m_7D2",
+    "m_61E",
+    "m_E2A",
+    "m_D06"
+  ]
+}

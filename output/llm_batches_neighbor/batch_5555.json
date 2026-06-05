@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "ChallengeUpdateEventSiblingSibling_B60B",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A08",
+    "m_F8E",
+    "m_F71",
+    "m_2C5",
+    "m_173",
+    "m_113"
+  ]
+}

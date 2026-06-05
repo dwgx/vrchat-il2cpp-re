@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static19m_3263",
+  "parent": "",
+  "named_methods": [
+    "SetPositionRotationTransform",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_145",
+    "m_916",
+    "m_220",
+    "m_47F",
+    "m_0EB",
+    "m_047",
+    "m_B55",
+    "m_C6A",
+    "m_783",
+    "m_2F7"
+  ]
+}

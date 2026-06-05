@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_261C",
+  "parent": "",
+  "named_methods": [
+    "GetTouchCount",
+    "GetAlpha",
+    "GetAlpha_03EAABD9F029"
+  ],
+  "hash_methods": [
+    "m_9CA",
+    "m_536",
+    "m_96F",
+    "m_CB6",
+    "m_F7C",
+    "m_77C",
+    "m_4D0"
+  ]
+}

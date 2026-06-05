@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_0B87",
+  "parent": "",
+  "named_methods": [
+    "Hypot",
+    "CopySign",
+    "IsLower"
+  ],
+  "hash_methods": [
+    "m_4D0",
+    "m_709",
+    "m_575",
+    "m_77C",
+    "m_CCF"
+  ]
+}

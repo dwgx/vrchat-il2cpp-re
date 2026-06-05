@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_D4FB",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "ContainsBoxedStyleSelector",
+    ".ctor",
+    "Initialize",
+    "ContainsBoxedStyleSelectorPart",
+    "GetHashCode",
+    "ContainsStyleSelectorPart"
+  ],
+  "hash_methods": [
+    "m_FE4",
+    "m_C56",
+    "m_B84",
+    "m_08B",
+    "m_69D",
+    "m_AFD",
+    "m_561",
+    "m_C89",
+    "m_D95"
+  ]
+}

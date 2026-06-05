@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "GizmosDebugTimeHandler_056D",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    ".ctor",
+    "Initialize",
+    "GetUnscaledDeltaTime",
+    "GetUnscaledDeltaTime_628A302626B7",
+    "GetDeltaTime",
+    "GetDeltaTime_E3826D0390BA"
+  ],
+  "hash_methods": [
+    "m_071",
+    "m_158",
+    "m_46B"
+  ]
+}

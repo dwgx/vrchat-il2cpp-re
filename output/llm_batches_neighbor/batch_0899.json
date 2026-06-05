@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_8EF2",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetTime"
+  ],
+  "hash_methods": [
+    "m_DA0",
+    "m_DAC",
+    "m_2E8",
+    "m_764",
+    "m_8C6",
+    "m_FE1",
+    "m_99B"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "PointerEnterSibling_D138",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "Start",
+    "GetTransformTransform",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_E25",
+    "m_AEA",
+    "m_C00",
+    "m_321",
+    "m_AF5",
+    "m_5DD",
+    "m_886",
+    "m_8C3",
+    "m_F46",
+    "m_DB2"
+  ]
+}

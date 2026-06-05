@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_8940",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnBecameInvisible",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_BFE"
+  ]
+}

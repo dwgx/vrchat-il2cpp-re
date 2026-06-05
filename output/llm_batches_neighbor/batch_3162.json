@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PopulateMesh_BCC6",
+  "parent": "",
+  "named_methods": [
+    "OnPopulateMesh",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_4EA",
+    "m_7F6",
+    "m_CDA",
+    "m_D9A",
+    "m_F95",
+    "m_8C7",
+    "m_04A"
+  ]
+}

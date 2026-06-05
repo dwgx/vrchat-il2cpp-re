@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_580D",
+  "parent": "",
+  "named_methods": [
+    "WriteUtf16FileWithCrLfConversion",
+    "MoveNext",
+    "SetStateMachine",
+    "GetAutoConfigureAngle"
+  ],
+  "hash_methods": [
+    "m_4D8",
+    "m_440",
+    "m_4E8"
+  ]
+}

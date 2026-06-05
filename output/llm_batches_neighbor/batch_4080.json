@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_F74D",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "CopyStateMachineFields",
+    "MoveNext",
+    "SetStateMachine_CE3811BE79BB"
+  ],
+  "hash_methods": [
+    "m_0A8",
+    "m_63A",
+    "m_EC8",
+    "m_DB9",
+    "m_7F6"
+  ]
+}

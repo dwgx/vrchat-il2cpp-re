@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_A5C7",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "Equals",
+    "Equals_A9E6C7F590C3"
+  ],
+  "hash_methods": [
+    "m_D15",
+    "m_BA7",
+    "m_537",
+    "m_E3A",
+    "m_B9A",
+    "m_F15"
+  ]
+}

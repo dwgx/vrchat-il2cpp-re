@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "BehaviourHandler_EE7A",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SwapIfGreaterWithItems"
+  ],
+  "hash_methods": [
+    "m_C14",
+    "m_3B4",
+    "m_590",
+    "m_83A",
+    "m_C0E",
+    "m_8A9"
+  ]
+}

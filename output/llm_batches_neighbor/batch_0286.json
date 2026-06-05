@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "get_name",
+    ".cctor",
+    "GetInstanceID",
+    "CompareBaseObjects",
+    "set_name",
+    ".ctor",
+    "Initialize",
+    "Equals_4DB90F83FAAC"
+  ],
+  "hash_methods": [
+    "m_96B",
+    "m_F24"
+  ]
+}

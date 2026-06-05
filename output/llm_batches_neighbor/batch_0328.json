@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ConfigureCanvasGroup",
+    "GetClosestReflectionProbesInternal",
+    ".cctor",
+    "GetHashCode",
+    ".ctor",
+    "TransformPointToWorld",
+    "RunOnThreadPool"
+  ],
+  "hash_methods": [
+    "m_EC9",
+    "m_64F",
+    "m_24D"
+  ]
+}

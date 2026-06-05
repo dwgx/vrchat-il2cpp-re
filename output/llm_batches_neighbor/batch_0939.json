@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "CamerarenderModelNameSiblRelated_93EA",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_AC7",
+    "m_6A5"
+  ]
+}

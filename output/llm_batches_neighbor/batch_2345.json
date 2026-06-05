@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "TransformGameObjectHandler_C5BE",
+  "parent": "",
+  "named_methods": [
+    "CreatePrimitive",
+    "CreatePrimitive_61DB26B0D649",
+    "GetLocalScale",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_04C",
+    "m_967",
+    "m_6CB",
+    "m_9DF",
+    "m_C80",
+    "m_69A",
+    "m_292",
+    "m_1C6",
+    "m_93F",
+    "m_299"
+  ]
+}

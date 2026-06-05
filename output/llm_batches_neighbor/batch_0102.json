@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetLast",
+    ".ctor",
+    "Initialize",
+    "get_name",
+    "CompareBaseObjects",
+    "FailFast",
+    "Instantiate",
+    "get_name_1BE8284B7893",
+    "set_name_1BE8284B7893",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_2E7",
+    "m_970"
+  ]
+}

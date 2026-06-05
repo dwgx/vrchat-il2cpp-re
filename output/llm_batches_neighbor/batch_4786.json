@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "RectComputeDimensionsComponent_4BBB",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "InvokeRectComputeDimensions",
+    "Awake",
+    "OnDestroy",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate"
+  ],
+  "hash_methods": [
+    "m_A79",
+    "m_462",
+    "m_56C",
+    "m_D00",
+    "m_908",
+    "m_F2A",
+    "m_D68",
+    "m_323",
+    "m_A66",
+    "m_73C"
+  ]
+}

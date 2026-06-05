@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "ctorDerivedSiblingSibling_31D9",
+  "parent": "",
+  "named_methods": [
+    "ProcessGameObject",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_50A"
+  ]
+}

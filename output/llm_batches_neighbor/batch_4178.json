@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static24m_E56C",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_F50",
+    "m_DFE",
+    "m_ABB",
+    "m_BDE",
+    "m_84C",
+    "m_E4B",
+    "m_21B",
+    "m_2D7",
+    "m_173",
+    "m_8CB"
+  ]
+}

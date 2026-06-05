@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "CloneSibling_FF6C",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "Equals",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_58B",
+    "m_A13",
+    "m_ED0",
+    "m_E4B",
+    "m_64E"
+  ]
+}

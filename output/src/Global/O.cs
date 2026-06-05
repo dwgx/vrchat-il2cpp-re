@@ -957,6 +957,7 @@ public class OVRLipSync
     public void Initialize_FA55276D91DA(){} // RVA: 0x7FFAF3AD26E0
     public void Internal_IsInvokingAll_15090AE6BB6C(){} // RVA: 0x7FFAF3AD29C0
     public void InvokeDelayed(){} // RVA: 0x7FFAF3AD2AB0
+    public void Shutdown(){} // RVA: 0x7FFAF3AD2B90
     public void OnApplicationPause(){} // RVA: 0x7FFAF3AD2D20
     public void IsObjectMonoBehaviour(){} // RVA: 0x7FFAF3AD2E10
     public void StartCoroutineManaged(){} // RVA: 0x7FFAF3AD2EC0
@@ -964,8 +965,6 @@ public class OVRLipSync
     public void .cctor(){} // RVA: 0x7FFAF3AD31B0
     public void GetScriptClassName(){} // RVA: 0x7FFAF3AD3500
     public void OnCancellationTokenCreated(){} // RVA: 0x7FFAF3AD3670
-    // ── Unresolved (hash) ──
-    public void m_179(){} // RVA: 0x7FFAF3AD2B90
 }
 
 public class OVRLipSyncContext

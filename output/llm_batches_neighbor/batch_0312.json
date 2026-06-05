@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "GetInstanceID",
+    "CompareBaseObjects",
+    "Instantiate",
+    ".ctor",
+    "LateUpdate",
+    "GetCachedPtr",
+    "op_Implicit"
+  ],
+  "hash_methods": [
+    "m_D9D",
+    "m_C8E"
+  ]
+}

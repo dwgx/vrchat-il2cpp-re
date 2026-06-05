@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "InstantiateComponent_6BFA",
+  "parent": "",
+  "named_methods": [
+    "Update",
+    "LateUpdate",
+    "OnDestroy",
+    "OnEnable",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "OnDisable",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_F10",
+    "m_B39",
+    "m_A34",
+    "m_040"
+  ]
+}

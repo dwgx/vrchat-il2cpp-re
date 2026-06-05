@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "AnimationHandler_EED7",
+  "parent": "",
+  "named_methods": [
+    "HasAnimator",
+    "StringToHash",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_3F9",
+    "m_B04",
+    "m_7BC",
+    "m_DCC",
+    "m_F14",
+    "m_544",
+    "m_727",
+    "m_C8A",
+    "m_065",
+    "m_A13"
+  ]
+}

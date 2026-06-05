@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "SerializationRecoveryHandlerSiSibling_7BC9",
+  "parent": "",
+  "named_methods": [
+    "CopyNativeStruct",
+    "Start",
+    "ToString",
+    "ToString_C4471801213E",
+    "FreeNativeMemory",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_AE2",
+    "m_1CC",
+    "m_9C6",
+    "m_72D",
+    "m_A85",
+    "m_F24",
+    "m_CFC",
+    "m_6C5",
+    "m_A86"
+  ]
+}

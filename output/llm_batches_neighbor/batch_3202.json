@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "CleanupDisposeStaticMethods_6151",
+  "parent": "",
+  "named_methods": [
+    "EqualsValue",
+    "Dispose",
+    "Cleanup",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "EqualsObject",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_D71",
+    "m_14A"
+  ]
+}

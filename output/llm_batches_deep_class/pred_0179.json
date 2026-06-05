@@ -1,0 +1,4 @@
+{
+ "PointerClickPointerEnter_2318::m_F81": "IsPointerEnterRecent",
+ "PointerClickPointerEnter_2318::m_FB3": "IsPointerTargetActiveOrWhitelisted"
+}

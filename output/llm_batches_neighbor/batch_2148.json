@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_BD16",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetComponent"
+  ],
+  "hash_methods": [
+    "m_AA2",
+    "m_415",
+    "m_432",
+    "m_1B8",
+    "m_5F6",
+    "m_AA6",
+    "m_FB7"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Static17m_C941",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    "Start",
+    "Awake",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DD3",
+    "m_481",
+    "m_49A",
+    "m_EED",
+    "m_C12",
+    "m_1A9",
+    "m_73E",
+    "m_2AB",
+    "m_90C",
+    "m_9B4"
+  ]
+}

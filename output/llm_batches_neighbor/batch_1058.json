@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "VFXBundleInfo",
+  "parent": "",
+  "named_methods": [
+    "get_EffectBundleID_4D52D745230E",
+    "set_EffectBundleID",
+    "ContainsNoWhitespaceOrQuotes",
+    "GetHashCode",
+    "get_EffectBundleID",
+    ".ctor",
+    "Initialize",
+    "set_IsSpecialFX",
+    "get_IsSpecialFX",
+    "Equals",
+    "get_IsSpecialFX_601ABFC98988"
+  ],
+  "hash_methods": [
+    "m_64C",
+    "m_BFC",
+    "m_CA8",
+    "m_A14",
+    "m_905",
+    "m_377"
+  ]
+}

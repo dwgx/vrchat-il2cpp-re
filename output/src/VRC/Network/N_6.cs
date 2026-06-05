@@ -1200,16 +1200,16 @@ namespace VRC.Network
         // ── Methods ──
         public void ProcessPlayableOutputHandle(){} // RVA: 0x7FFAF442D840
         public void Start(){} // RVA: 0x7FFAF4431BA0
-        public void ToString(){} // RVA: 0x7FFAF4431C40
-        public void ToString_5E9B179AFAD8(){} // RVA: 0x7FFAF4431CB0
-        public void ToString_32323FEE7B0F(){} // RVA: 0x7FFAF4431CE0
-        public void ToString_29B39BE3E372(){} // RVA: 0x7FFAF4431D40
         public void .ctor(){} // RVA: 0x7FFAF4431F60
         public void .cctor(){} // RVA: 0x7FFAF4432030
         public void ReadComponentState(){} // RVA: 0x7FFAF44318A0
         // ── Unresolved (hash) ──
+        public void m_6B9(){} // RVA: 0x7FFAF4431C40
         public void m_0CB(){} // RVA: 0x7FFAF4265330
         public void m_FB9(){} // RVA: 0x7FFAF30D05A0
+        public void m_5E9(){} // RVA: 0x7FFAF4431CB0
+        public void m_323(){} // RVA: 0x7FFAF4431CE0
+        public void m_29B(){} // RVA: 0x7FFAF4431D40
     }
 
     /// <summary>Originally: ÏÏÌÌÎÏÏÌÍÍÍÍÌÌÏÌÍÏÍÍÎÍÎ</summary>

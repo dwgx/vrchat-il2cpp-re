@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_31C3",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "LateUpdate",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_230",
+    "m_7FD",
+    "m_7AF",
+    "m_CB2",
+    "m_FAE",
+    "m_005"
+  ]
+}

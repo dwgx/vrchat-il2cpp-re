@@ -1,0 +1,35 @@
+{
+  "namespace": "",
+  "class": "PlayerControllerColliderHit_14B8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Start",
+    "Awake",
+    "GetHashCode",
+    "ToString",
+    "Reset",
+    "ToString_D76407E1FEF0",
+    "ToString_ADD7760B4EFE",
+    "Equals",
+    "set_ChangedTime",
+    "set_ChangedTime_3BC1C81AE51A",
+    "OnDestroy",
+    "GetHashCode_ABA12473AF1B",
+    "OnControllerColliderHit",
+    "Equals_8DCC829B0EE6",
+    "GetHashCode_C2B47A461CFF"
+  ],
+  "hash_methods": [
+    "m_5D6",
+    "m_56E",
+    "m_6D6",
+    "m_895",
+    "m_057",
+    "m_2A9",
+    "m_4E0",
+    "m_702",
+    "m_26F",
+    "m_5E9"
+  ]
+}

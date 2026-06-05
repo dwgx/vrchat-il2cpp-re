@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static38m_09AD",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_45D",
+    "m_E10",
+    "m_F81",
+    "m_5E5"
+  ]
+}

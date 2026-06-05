@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_2411",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "SetLocalRotation",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_079",
+    "m_8AD",
+    "m_871",
+    "m_9E3",
+    "m_63D",
+    "m_912",
+    "m_1ED",
+    "m_CF0",
+    "m_E6A",
+    "m_254"
+  ]
+}

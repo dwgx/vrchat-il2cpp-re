@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "PointerClick_BAE9",
+  "parent": "",
+  "named_methods": [
+    "OnPointerClick",
+    "ConfigureCanvasGroup",
+    "ConfigureCanvasGroup_0FC8612F633C",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_942",
+    "m_F73",
+    "m_E64",
+    "m_A62",
+    "m_2E0",
+    "m_73E"
+  ]
+}

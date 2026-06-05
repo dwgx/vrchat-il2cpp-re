@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_FB5E",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "MoveNext_93BBF7ED98B6",
+    ".ctor",
+    "Initialize",
+    "MoveNext_BFE2F870FCF3",
+    "MoveNext_765EA9ED8E1E",
+    "IsDestroyed",
+    "IsDestroyed_93EF6B569252"
+  ],
+  "hash_methods": [
+    "m_A97",
+    "m_D35",
+    "m_79E",
+    "m_BCD",
+    "m_62E",
+    "m_65A"
+  ]
+}

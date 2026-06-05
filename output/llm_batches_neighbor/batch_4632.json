@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "CreatePropertiesCreateConRelated_4BF1",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_987",
+    "m_E66",
+    "m_BEC",
+    "m_A7D",
+    "m_557",
+    "m_34A",
+    "m_E23",
+    "m_201",
+    "m_461",
+    "m_BA6"
+  ]
+}

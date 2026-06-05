@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "GetCachedPtr",
+    "set_name_6FE09EE55EE0",
+    "set_name",
+    "SetBreakAction",
+    "GetHashCode",
+    "SetBreakTorque"
+  ],
+  "hash_methods": [
+    "m_C86",
+    "m_C02",
+    "m_F6E"
+  ]
+}

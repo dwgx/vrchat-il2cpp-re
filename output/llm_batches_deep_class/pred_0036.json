@@ -1,0 +1,13 @@
+{
+ "AnimatedTextureBaseImpl_0682_3A0F::m_C29": "ProcessMarkStack",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_CB6": "CollectALittle",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_CBD": "ReadColliderState",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_D30": "PushPointersFromMarkedBlocks",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_D66": "AllocateFreeBlock",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_E1E": "PushObjectPointers",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_E33": "AllocateFreeBlock",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_E4D": "MarkObjectFromPointer",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_E56": "SweepAllocatorPage",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_EE3": "ReleaseBlockHeader",
+ "AnimatedTextureBaseImpl_0682_3A0F::m_EEF": "InitializeAllocatorPage"
+}

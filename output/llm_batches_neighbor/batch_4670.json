@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "supportedHIDUsages_1A31",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_3C3",
+    "m_B33",
+    "m_018",
+    "m_A64",
+    "m_A94",
+    "m_99C",
+    "m_9FF"
+  ]
+}

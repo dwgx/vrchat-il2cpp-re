@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "0DerivedSiblingSiblingSibRelated_1BB1",
+  "parent": "",
+  "named_methods": [
+    "GetMethodsByName",
+    "GetMethodsByName_425457AF32EC",
+    "GetMethodsByName_6EFB9B0E303F",
+    "GetMethodsByName_22AFF8CB038B"
+  ],
+  "hash_methods": [
+    "m_D93",
+    "m_82C",
+    "m_254",
+    "m_461",
+    "m_763",
+    "m_DD3",
+    "m_D09",
+    "m_E0E",
+    "m_271",
+    "m_697"
+  ]
+}

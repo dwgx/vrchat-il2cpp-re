@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "FoldoutListRelatedRelated_1FB9",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_8B3",
+    "m_028",
+    "m_234",
+    "m_F6B",
+    "m_020",
+    "m_7B3",
+    "m_45F",
+    "m_F45",
+    "m_8B4",
+    "m_DB0"
+  ]
+}

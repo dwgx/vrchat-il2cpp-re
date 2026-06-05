@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "QuaternionTransformHandler_55C0",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessVector3",
+    "ProcessVector3_744371458707",
+    "UpdateRotation"
+  ],
+  "hash_methods": [
+    "m_C76",
+    "m_F86",
+    "m_9EF",
+    "m_AAD"
+  ]
+}

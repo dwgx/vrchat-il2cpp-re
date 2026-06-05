@@ -1,0 +1,30 @@
+{
+  "namespace": "",
+  "class": "SerializableVector3SiblinRelated_78F4",
+  "parent": "",
+  "named_methods": [
+    "MemCmp",
+    "MemCpy",
+    "MemCpy_2A00BBDC20D9",
+    ".ctor",
+    "Initialize",
+    "MemCpy_F0A056CE7FA8",
+    "MemCpy_3480852EF7EA",
+    "MemSet",
+    "MemSet_8269A0FBE9C9",
+    "MemCpy_AAAA43E7A3F1",
+    "FillMemoryWithByte",
+    "Memset",
+    ".ctor",
+    "MemSet_25F3DF01548B"
+  ],
+  "hash_methods": [
+    "m_B87",
+    "m_5BA",
+    "m_0C5",
+    "m_B7E",
+    "m_91D",
+    "m_2AF",
+    "m_4CF"
+  ]
+}

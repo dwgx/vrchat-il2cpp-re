@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_8F93",
+  "parent": "",
+  "named_methods": [
+    "ReadQuaternionState",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_DB9",
+    "m_4E8",
+    "m_7F6",
+    "m_06D",
+    "m_0A8",
+    "m_124",
+    "m_288"
+  ]
+}

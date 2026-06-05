@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSibling_E5F5",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SetBooleanFieldValue",
+    "GetJobData"
+  ],
+  "hash_methods": [
+    "m_98C",
+    "m_9D5",
+    "m_55D",
+    "m_7D9",
+    "m_FD2",
+    "m_5A9",
+    "m_409",
+    "m_FE9",
+    "m_017",
+    "m_75E"
+  ]
+}

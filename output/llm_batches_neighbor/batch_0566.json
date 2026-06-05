@@ -1,0 +1,32 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_6BD6",
+  "parent": "",
+  "named_methods": [
+    "set_CacheWritingBehavior",
+    "IsValueInRange",
+    "Equals_CDAFCFD6DACC",
+    "TryWriteInt32",
+    "Equals_CDAFCFD6DACC",
+    "Equals_BEA5D84A002C",
+    "IsChildOf",
+    "IsChildOf_15A0B4FAB0BF",
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    "Finalize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_E43",
+    "m_7F8",
+    "m_79D",
+    "m_F11",
+    "m_E88",
+    "m_951",
+    "m_11B",
+    "m_046",
+    "m_E45",
+    "m_6C9"
+  ]
+}

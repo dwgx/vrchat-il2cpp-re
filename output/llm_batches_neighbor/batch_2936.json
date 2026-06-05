@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "UdonOperationResponseDisconnecSibling_9ACD",
+  "parent": "",
+  "named_methods": [
+    "GetLocalRotation",
+    ".ctor",
+    "Initialize",
+    "GetLocalRotation_C089388A5939"
+  ],
+  "hash_methods": [
+    "m_20D",
+    "m_8D9",
+    "m_D4B",
+    "m_582",
+    "m_609",
+    "m_7EC",
+    "m_6E0",
+    "m_567",
+    "m_329",
+    "m_537"
+  ]
+}

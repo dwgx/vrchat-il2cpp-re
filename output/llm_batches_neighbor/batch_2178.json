@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "NetworkItem_722FSiblingSiblingSibling_1B78",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "ToString",
+    "GetHashCode",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_129",
+    "m_340",
+    "m_157",
+    "m_CA1"
+  ]
+}

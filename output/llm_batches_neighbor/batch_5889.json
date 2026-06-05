@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitSiRelated_6136",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessPhysics",
+    "Dispose",
+    "Dispose_921894A43D9D",
+    "ConfigureCanvasAdditionalShaderChannels",
+    "ProcessPhysics_566F9940ADFB",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_D56",
+    "m_84D",
+    "m_629",
+    "m_F04",
+    "m_E91",
+    "m_1BB",
+    "m_5A1",
+    "m_ECA",
+    "m_F90",
+    "m_2C8"
+  ]
+}

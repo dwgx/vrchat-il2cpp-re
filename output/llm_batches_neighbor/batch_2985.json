@@ -1,0 +1,33 @@
+{
+  "namespace": "",
+  "class": "ServiceActionArgumentComponent_014B",
+  "parent": "",
+  "named_methods": [
+    "OnCollisionStay",
+    "OnCollisionStay",
+    "OnCollisionStay",
+    "Start",
+    "OnCollisionStay",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    ".ctor",
+    "Initialize",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "OnCollisionExit"
+  ],
+  "hash_methods": [
+    "m_3CB",
+    "m_E1E",
+    "m_7B5",
+    "m_CCF",
+    "m_3CB",
+    "m_C30",
+    "m_C34",
+    "m_53F"
+  ]
+}

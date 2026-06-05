@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_B066",
+  "parent": "",
+  "named_methods": [
+    "ProcessMaterial",
+    "PropertyToID",
+    "ProcessMaterial_2889A92F8CA2",
+    "SetPass",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_440",
+    "m_06D",
+    "m_4D8",
+    "m_DB9"
+  ]
+}

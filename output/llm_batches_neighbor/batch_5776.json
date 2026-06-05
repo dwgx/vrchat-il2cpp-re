@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsRelated_DC87",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "MarkLayoutForRebuild",
+    "MarkLayoutForRebuild_7714DD5E968C",
+    ".cctor",
+    "ForceRebuildLayoutImmediate",
+    "ForceRebuildLayoutImmediate_65AC8D0309DA",
+    "PerformLayoutCalculation",
+    "PerformLayoutControl",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_EB2",
+    "m_867",
+    "m_C69",
+    "m_C43",
+    "m_916",
+    "m_797",
+    "m_F30",
+    "m_ED0",
+    "m_DFA"
+  ]
+}

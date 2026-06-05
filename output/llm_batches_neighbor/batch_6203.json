@@ -1,0 +1,16 @@
+{
+  "namespace": "VRC",
+  "class": "BackgroundOptions",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "set_Options",
+    "get_Options_404873064031",
+    "get_Options"
+  ],
+  "hash_methods": [
+    "m_104",
+    "m_35C"
+  ]
+}

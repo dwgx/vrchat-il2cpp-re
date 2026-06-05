@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "AudioFilterRead_DB62",
+  "parent": "",
+  "named_methods": [
+    "LateUpdate",
+    "OnAudioFilterRead_D3C5C2E87979",
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "OnAudioFilterRead",
+    "OpenUrl",
+    "Awake",
+    "OnDestroy",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_2E3"
+  ]
+}

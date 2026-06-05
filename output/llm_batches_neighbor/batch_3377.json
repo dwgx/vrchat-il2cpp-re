@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSiblingSibling_FEF3",
+  "parent": "",
+  "named_methods": [
+    "TryGetValue",
+    "CleanupNativeMarshal",
+    "MarshalNativeArrayToManaged",
+    "MarshalManagedToNative",
+    "MarshalNativeToManaged",
+    "MarshalNativeToManaged_84C6577D99AF",
+    "MarshalManagedToCom",
+    "MarshalNativeToManaged_618FC4213FEC",
+    "Dispose",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_CA1",
+    "m_F5F",
+    "m_0DB",
+    "m_1C2",
+    "m_D60",
+    "m_226",
+    "m_394",
+    "m_5DD",
+    "m_E42",
+    "m_DBE"
+  ]
+}

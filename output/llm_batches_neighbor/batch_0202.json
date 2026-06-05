@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetGameObjectTransform",
+    "GetHashCode",
+    ".ctor",
+    "Initialize",
+    "SetActiveGameObject",
+    "GetName",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_D81"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_D4E3",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "MarshalStringToCoTaskMemAnsi",
+    "MarshalStringToCoTaskMemAnsi_6F8246576AC4",
+    "MarshalStringToAnsiBuffer",
+    "MarshalStringToAnsiBuffer_C0175E97133A",
+    "InitializeStringBuilderFromCharPointer"
+  ],
+  "hash_methods": [
+    "m_6EA",
+    "m_EEE"
+  ]
+}

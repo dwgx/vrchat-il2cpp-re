@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682Sibling_E30C",
+  "parent": "",
+  "named_methods": [
+    "TryPopLastElement",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_AD3",
+    "m_FE0",
+    "m_4A7",
+    "m_A14",
+    "m_3AC",
+    "m_D2F",
+    "m_233",
+    "m_676",
+    "m_B9A",
+    "m_E21"
+  ]
+}

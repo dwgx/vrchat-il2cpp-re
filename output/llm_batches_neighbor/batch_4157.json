@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_CC98",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_B5F",
+    "m_015",
+    "m_9C0",
+    "m_014",
+    "m_4DB",
+    "m_3C2",
+    "m_EE7"
+  ]
+}

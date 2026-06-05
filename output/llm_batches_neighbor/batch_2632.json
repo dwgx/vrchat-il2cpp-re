@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_50AB",
+  "parent": "",
+  "named_methods": [
+    "IndexOfStringSegment",
+    "GetHashCode",
+    "MoveNext",
+    "SetStateMachine",
+    "IndexOfCharacter",
+    "IndexOfCharacter_4D87CF38F622",
+    "IndexOfCharacter_7F663E5CC641",
+    "IndexOfCharacter_2889A92F8CA2",
+    "IndexOfCharacter_1244533621D8"
+  ],
+  "hash_methods": [
+    "m_015"
+  ]
+}

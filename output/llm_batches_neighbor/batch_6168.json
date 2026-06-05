@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_2D6E",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "ToString",
+    "Equals_9B7B43420BAF",
+    "GetRealtimeSinceStartup",
+    "GetResult",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_CCE",
+    "m_5B9",
+    "m_4CE",
+    "m_6C9",
+    "m_3D3"
+  ]
+}

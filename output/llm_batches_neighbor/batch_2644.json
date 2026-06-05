@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AnimatorStaticMethods_4CBB",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnAnimatorMove"
+  ],
+  "hash_methods": [
+    "m_387",
+    "m_F8D",
+    "m_424",
+    "m_859",
+    "m_D44",
+    "m_328"
+  ]
+}

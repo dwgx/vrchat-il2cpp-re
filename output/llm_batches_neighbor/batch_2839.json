@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_4635",
+  "parent": "",
+  "named_methods": [
+    "GetTransformChildCount",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_06F",
+    "m_60B",
+    "m_FD7",
+    "m_6AF",
+    "m_35E",
+    "m_569",
+    "m_473",
+    "m_C01",
+    "m_580",
+    "m_7EF"
+  ]
+}

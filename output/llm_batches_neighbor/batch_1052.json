@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "PointerContinuePressed_791E",
+  "parent": "",
+  "named_methods": [
+    "GetClip",
+    "ContinuePressed",
+    "GetClip_F7D19B71D24A",
+    "GetClip_6710FDFFD70D",
+    "GetChannels",
+    "GetComponent",
+    "GetComponent_9B8975210D96",
+    "IndexOf",
+    "OnEnable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_65C",
+    "m_86E",
+    "m_B96",
+    "m_565",
+    "m_2A1",
+    "m_B9A",
+    "m_0E8"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    ".ctor",
+    "Initialize",
+    "set_name",
+    "SyncTransform",
+    "GetTransformPosition",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_FAB",
+    "m_3A5"
+  ]
+}

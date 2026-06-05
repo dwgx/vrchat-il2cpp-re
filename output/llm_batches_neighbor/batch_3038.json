@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_F0AE",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetInstance",
+    "UpdateActiveState",
+    "IsActive"
+  ],
+  "hash_methods": [
+    "m_4BE",
+    "m_65A",
+    "m_79E",
+    "m_B1D",
+    "m_C0B",
+    "m_BFE",
+    "m_521",
+    "m_22F",
+    "m_0AA",
+    "m_07F"
+  ]
+}

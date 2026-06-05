@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_3A02",
+  "parent": "",
+  "named_methods": [
+    "ExpandWildcardArguments",
+    "AppendExpandedPath",
+    "ExpandWildcardPath",
+    "GetNarrowEnvironmentStrings"
+  ],
+  "hash_methods": [
+    "m_4D0",
+    "m_F7C",
+    "m_CB6",
+    "m_CCF"
+  ]
+}

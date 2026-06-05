@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_58BB",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "InvokeMulticastHandlers",
+    "SetStateMachine",
+    "MultiplyFloats"
+  ],
+  "hash_methods": [
+    "m_4E8",
+    "m_DB9",
+    "m_EC8",
+    "m_4D8",
+    "m_440"
+  ]
+}

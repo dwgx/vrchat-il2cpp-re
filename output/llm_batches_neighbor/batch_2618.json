@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "ParticleHandler_4393",
+  "parent": "",
+  "named_methods": [
+    "get_RandomSeed",
+    "get_MeshIndex",
+    "SwapIfGreaterWithItems",
+    "SwapParticles",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A2A",
+    "m_657",
+    "m_877",
+    "m_665",
+    "m_98A"
+  ]
+}

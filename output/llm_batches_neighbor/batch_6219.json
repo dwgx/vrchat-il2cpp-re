@@ -1,0 +1,21 @@
+{
+  "namespace": "VRC.UI.Client.Groups",
+  "class": "GroupCache",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    "Equals",
+    "GetHashCode",
+    "op_Implicit",
+    "CompareBaseObjects",
+    "IsNativeObjectAlive",
+    "GetCachedPtr",
+    "get_name",
+    ".ctor_FE6DF4546CA8",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_8E1"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsRelated_5640",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "StringToHash",
+    "StringToHash_75EC6D43D0BA"
+  ],
+  "hash_methods": [
+    "m_860",
+    "m_F6E",
+    "m_28D",
+    "m_ABA",
+    "m_637",
+    "m_872",
+    "m_C99"
+  ]
+}

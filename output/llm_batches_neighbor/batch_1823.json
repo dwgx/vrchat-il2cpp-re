@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "SetEnableSibling_001E",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "GetHashCode_BC2C85EFBCF5",
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "GetHashCode_47A10BA8D1AE"
+  ],
+  "hash_methods": [
+    "m_F5D",
+    "m_F23",
+    "m_43F"
+  ]
+}

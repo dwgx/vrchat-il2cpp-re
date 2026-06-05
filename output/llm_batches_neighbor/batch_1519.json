@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_8E42",
+  "parent": "",
+  "named_methods": [
+    "CollectOrExpandHeap",
+    "CollectOrExpandHeap_6F8246576AC4",
+    "AllocateHeapBlock",
+    "AllocateHeapBlock_C0175E97133A",
+    "Dispose",
+    "Cleanup",
+    "AllocateHeapBlock_F2B7F5C46C70"
+  ],
+  "hash_methods": [
+    "m_6EA"
+  ]
+}

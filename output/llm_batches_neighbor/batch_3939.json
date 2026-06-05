@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponentSibling_FD32Sibling_ECDB",
+  "parent": "",
+  "named_methods": [
+    "GetParentTransform",
+    ".ctor",
+    "OnEnable",
+    "Start",
+    "FixedUpdate",
+    "GetUnityEngine",
+    "Update",
+    "LateUpdate",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "Awake",
+    "OnBecameInvisible",
+    "OnDisable",
+    "OnCollisionStay"
+  ],
+  "hash_methods": [
+    "m_385",
+    "m_2DE",
+    "m_9F1"
+  ]
+}

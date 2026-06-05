@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_62EE",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "GetAngle"
+  ],
+  "hash_methods": [
+    "m_31B",
+    "m_31B",
+    "m_3E7",
+    "m_C93",
+    "m_09C",
+    "m_E00",
+    "m_A09",
+    "m_641",
+    "m_A6B",
+    "m_B03"
+  ]
+}

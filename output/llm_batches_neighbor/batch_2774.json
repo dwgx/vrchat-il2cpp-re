@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "EffectBundleIDIsSpecialFX_89FA",
+  "parent": "",
+  "named_methods": [
+    "set_IsSpecialFX",
+    "get_EffectBundleID_8E01FDDE064B",
+    "get_IsSpecialFX",
+    "get_IsSpecialFX_1CAE9A6BE513",
+    ".ctor",
+    "Initialize",
+    "set_EffectBundleID",
+    "GetParentTransform",
+    "get_EffectBundleID"
+  ],
+  "hash_methods": [
+    "m_6D7",
+    "m_E5F",
+    "m_A14",
+    "m_CA1",
+    "m_905"
+  ]
+}

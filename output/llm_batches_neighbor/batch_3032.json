@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_BA27",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "IndexOf_436726BE6AA9",
+    "BinarySearch",
+    "LastIndexOf",
+    ".ctor",
+    "Initialize",
+    "Fill"
+  ],
+  "hash_methods": [
+    "m_547",
+    "m_7BD",
+    "m_45B"
+  ]
+}

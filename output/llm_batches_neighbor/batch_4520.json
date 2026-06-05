@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static17m_E64E",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_6A8",
+    "m_6B3",
+    "m_364",
+    "m_06D",
+    "m_69B",
+    "m_2A0",
+    "m_1EF",
+    "m_C75",
+    "m_CFD",
+    "m_68E"
+  ]
+}

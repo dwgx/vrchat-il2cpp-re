@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Static18m_54C1",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Update",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_CB2",
+    "m_2C4",
+    "m_220",
+    "m_9F9",
+    "m_6C7",
+    "m_C0C",
+    "m_F35",
+    "m_9A3",
+    "m_91A",
+    "m_52E"
+  ]
+}

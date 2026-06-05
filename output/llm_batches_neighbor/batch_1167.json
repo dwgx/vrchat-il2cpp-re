@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextCannedRelated_8A86",
+  "parent": "",
+  "named_methods": [
+    "LastIndexOf",
+    "ReadComponentState",
+    "ReadComponentState_CA72A33FA256",
+    "Update",
+    "OnEnable",
+    "OnDisable",
+    "Start",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_84C",
+    "m_64A"
+  ]
+}

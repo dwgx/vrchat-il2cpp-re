@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "QuaternionHandler_6F96",
+  "parent": "",
+  "named_methods": [
+    "UpdateRotation",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_20F",
+    "m_406",
+    "m_253",
+    "m_C56",
+    "m_FFF",
+    "m_0F3",
+    "m_B16"
+  ]
+}

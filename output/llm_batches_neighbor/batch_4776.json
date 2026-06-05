@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_EFDF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_9C8",
+    "m_C06",
+    "m_514",
+    "m_E47",
+    "m_954",
+    "m_2ED",
+    "m_695",
+    "m_34C",
+    "m_B91",
+    "m_CF9"
+  ]
+}

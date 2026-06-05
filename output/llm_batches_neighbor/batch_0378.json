@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "IsNativeObjectAlive",
+    "Equals_784FD0018380",
+    "GetLoadedMipmapLevel",
+    "Instantiate",
+    "op_Implicit",
+    "GetMipMapBias",
+    ".ctor",
+    "set_name",
+    "GetNetworkValueAtOffset44",
+    "GetMipmapCount",
+    "GetMipmapLimitGroup",
+    "ToString",
+    "GetHashCode",
+    ".cctor",
+    "GetStreamingMipmaps",
+    "ConfigureBehaviourEnabled",
+    "GetTexelSize"
+  ],
+  "hash_methods": [
+    "m_C51",
+    "m_9A4",
+    "m_8DF",
+    "m_2BB",
+    "m_A63"
+  ]
+}

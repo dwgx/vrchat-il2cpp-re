@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextCannedSibling_F49A",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "Awake",
+    "SetChangeValue",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "GetRect"
+  ],
+  "hash_methods": [
+    "m_2B4"
+  ]
+}

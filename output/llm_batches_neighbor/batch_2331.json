@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "MonoBehaviourHandler_E558",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "CancelInvoke"
+  ],
+  "hash_methods": [
+    "m_36B",
+    "m_ECC",
+    "m_AF5",
+    "m_DF7",
+    "m_8F0"
+  ]
+}

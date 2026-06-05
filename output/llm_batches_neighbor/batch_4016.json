@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "SecurityaspectModeRelatedRelated_1EA8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    "FreeSystemSemaphore",
+    "FreeThreadLocalStorage"
+  ],
+  "hash_methods": [
+    "m_2BE",
+    "m_A3D",
+    "m_39C",
+    "m_C6A",
+    "m_E27",
+    "m_72B",
+    "m_C5B",
+    "m_D80",
+    "m_F74",
+    "m_0DC"
+  ]
+}

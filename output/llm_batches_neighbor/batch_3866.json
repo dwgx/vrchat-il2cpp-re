@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PlayerBroadcastJoinedComponent_7907",
+  "parent": "",
+  "named_methods": [
+    "GetHashCode",
+    "Awake",
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause"
+  ],
+  "hash_methods": [
+    "m_692",
+    "m_8ED",
+    "m_661"
+  ]
+}

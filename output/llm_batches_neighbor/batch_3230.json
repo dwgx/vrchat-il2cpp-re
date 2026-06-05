@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformAnimationHandler_BEB2",
+  "parent": "",
+  "named_methods": [
+    "GetAngularVelocity",
+    "SetTransformAnimation",
+    "GetDeltaTime",
+    "SetFloatID_32CA25997FE7",
+    "SetFloatID_32CA25997FE7",
+    "SetFloatID_F2A2CF1CD6FD"
+  ],
+  "hash_methods": [
+    "m_240",
+    "m_EAD",
+    "m_E9B",
+    "m_92D"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "SearchInFieldsUserSibling_C21C",
+  "parent": "",
+  "named_methods": [
+    "DisposeNativeBuffer",
+    "DisposeNativeBuffer_0164A2042C3F",
+    "ConfigureTransformLocal",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_437"
+  ]
+}

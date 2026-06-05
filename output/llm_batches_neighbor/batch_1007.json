@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSibling_CC5C",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "AddRange",
+    "RemoveAt",
+    "set_Item",
+    "AddRange_B9A4DC4C2703"
+  ],
+  "hash_methods": [
+    "m_7A2",
+    "m_7A2",
+    "m_7A2",
+    "m_7A2",
+    "m_B1B"
+  ]
+}

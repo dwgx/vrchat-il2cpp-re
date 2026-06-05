@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "CompareBaseObjects",
+    "GetHashCode",
+    "CompareBaseObjects_14DAD2AC9FD4",
+    ".ctor",
+    "StartCoroutine",
+    "set_name_6FE09EE55EE0",
+    "get_name_6FE09EE55EE0",
+    "set_name_6FE09EE55EE0_9ECE477DA5E0"
+  ],
+  "hash_methods": [
+    "m_05D",
+    "m_571"
+  ]
+}

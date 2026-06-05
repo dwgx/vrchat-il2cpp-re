@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "SetLayoutHorizontalSetLayoutVertical_680A_C760",
+  "parent": "m_Spacing",
+  "named_methods": [
+    "SetLayoutHorizontal",
+    "SetLayoutVertical",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_D13"
+  ]
+}

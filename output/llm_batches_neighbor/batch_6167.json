@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSiblinSibling_1E07",
+  "parent": "",
+  "named_methods": [
+    "Update_3CB451386F3C",
+    "OnDisable",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnEnable2B4F45D701AE",
+    "Awake",
+    "OnDestroy",
+    "OnCollisionExit",
+    "StartCoroutine_Auto",
+    "OnDisable_27F4FB37914C"
+  ],
+  "hash_methods": [
+    "m_E27",
+    "m_3CB",
+    "m_2CD"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "ONSPAmbisonicsNativeSiblingSibSibling_34F5",
+  "parent": "",
+  "named_methods": [
+    "get_destroyCancellationToken",
+    "Update",
+    "CancelInvoke",
+    "OnEnable_2B4F45D701AE",
+    ".ctor",
+    "OnDestroy",
+    "Awake",
+    "Start",
+    "InvokeAmbisonicsNativeCallback",
+    "EndInvoke",
+    "Compare",
+    "Equals",
+    "Equals_F46FDF545570"
+  ],
+  "hash_methods": [
+    "m_D39",
+    "m_FEF",
+    "m_338"
+  ]
+}

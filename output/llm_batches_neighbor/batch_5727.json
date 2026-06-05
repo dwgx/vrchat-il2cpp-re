@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_DAD8",
+  "parent": "",
+  "named_methods": [
+    "ConfigureApplicationRunBackground",
+    "Start",
+    "ReadGameObjectState",
+    "GetComponentGameObject",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_3F0",
+    "m_ECC",
+    "m_002"
+  ]
+}

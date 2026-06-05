@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextTextureFlipSiSibling_1484",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_474",
+    "m_93D",
+    "m_1FC",
+    "m_146",
+    "m_51F"
+  ]
+}

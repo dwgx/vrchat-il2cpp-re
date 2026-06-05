@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "VRCPlayerSiblingSibling_26E5",
+  "parent": "",
+  "named_methods": [
+    "SystemIConvertibleToByte",
+    ".cctor",
+    "SystemIConvertibleToDecimal",
+    "ToType",
+    "CompareTo",
+    "CompareTo_852E3599EAE7",
+    ".ctor",
+    "Initialize",
+    "GetHashCode",
+    "ThrowKeysMarshalException",
+    "CompareTo_D5704AD5BA37",
+    "GetHashCode_D00E681C4A81",
+    "ToString",
+    "ThrowDefaultCtorMarshalException",
+    "CleanupNativeData"
+  ],
+  "hash_methods": [
+    "m_A6E",
+    "m_385",
+    "m_849",
+    "m_761",
+    "m_1B9",
+    "m_EB6",
+    "m_F80",
+    "m_E61",
+    "m_8F8",
+    "m_E84"
+  ]
+}

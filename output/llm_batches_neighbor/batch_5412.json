@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_4D2D",
+  "parent": "",
+  "named_methods": [
+    "SwapElements",
+    "SwapIfGreater",
+    "SetStateMachine",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_7F6",
+    "m_440",
+    "m_4D8",
+    "m_4E8"
+  ]
+}

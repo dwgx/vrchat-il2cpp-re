@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static23m_F60B",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Update",
+    "Start",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_68C",
+    "m_C22",
+    "m_FA0",
+    "m_A74",
+    "m_370",
+    "m_F2B",
+    "m_3FB",
+    "m_E1B"
+  ]
+}

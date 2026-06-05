@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static33m_1115",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_91E",
+    "m_C23",
+    "m_41C",
+    "m_DF9",
+    "m_0B4",
+    "m_98A",
+    "m_448",
+    "m_1EC",
+    "m_982",
+    "m_E2A"
+  ]
+}

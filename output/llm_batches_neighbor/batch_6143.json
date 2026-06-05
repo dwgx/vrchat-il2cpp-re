@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_D5CC",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "MoveNext_5752BD00C0B9",
+    "Reset"
+  ],
+  "hash_methods": [
+    "m_96F",
+    "m_AEE",
+    "m_77C",
+    "m_45A"
+  ]
+}

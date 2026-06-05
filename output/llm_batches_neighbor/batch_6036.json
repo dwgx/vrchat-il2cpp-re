@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponentImpl_E2CCSibSibling_289C",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_E45",
+    "m_295",
+    "m_8CF",
+    "m_FEE",
+    "m_A36",
+    "m_720",
+    "m_A6E",
+    "m_6B8",
+    "m_AF5",
+    "m_579"
+  ]
+}

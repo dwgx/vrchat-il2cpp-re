@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "PictureManagerSibling_F355",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    "CompareBaseObjects",
+    "GetCachedPtr"
+  ],
+  "hash_methods": [
+    "m_3D8",
+    "m_645",
+    "m_C47",
+    "m_D24"
+  ]
+}

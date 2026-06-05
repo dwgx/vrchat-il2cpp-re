@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_5C91",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "GetBatteryLevel",
+    "GetBatteryLevel_24F8FB692E5A"
+  ],
+  "hash_methods": [
+    "m_410",
+    "m_F2B",
+    "m_016"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_7A5B",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_0D1",
+    "m_92D",
+    "m_4FE",
+    "m_572",
+    "m_98D",
+    "m_B40",
+    "m_7DC",
+    "m_747"
+  ]
+}

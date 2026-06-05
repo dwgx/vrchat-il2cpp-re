@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static33m_45D5",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_BB3",
+    "m_01F",
+    "m_7C2",
+    "m_162",
+    "m_CAB",
+    "m_A66",
+    "m_CDF",
+    "m_3C4",
+    "m_DD3",
+    "m_28F"
+  ]
+}

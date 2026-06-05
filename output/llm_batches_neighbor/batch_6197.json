@@ -1,0 +1,23 @@
+{
+  "namespace": "Photon.Realtime",
+  "class": "MatchmakingReconnectInformation",
+  "parent": "",
+  "named_methods": [
+    "get_Timeout_0D7BEB6F7E02",
+    "set_HasTimedOut",
+    "IsNativeObjectAlive",
+    "ToString_CF3C4C0F0CAD",
+    "get_HasTimedOut",
+    "GetCachedPtr",
+    "get_name",
+    ".ctor",
+    "get_Timeout",
+    "Instantiate",
+    "ToString",
+    "set_Timeout"
+  ],
+  "hash_methods": [
+    "m_C01",
+    "m_C01"
+  ]
+}

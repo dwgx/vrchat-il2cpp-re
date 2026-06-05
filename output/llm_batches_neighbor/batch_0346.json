@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "DestroyImmediate",
+    ".cctor",
+    "GetCachedPtr",
+    ".ctor",
+    "UpdateFindObjectsDestroy"
+  ],
+  "hash_methods": [
+    "m_C50",
+    "m_C2F",
+    "m_F15"
+  ]
+}

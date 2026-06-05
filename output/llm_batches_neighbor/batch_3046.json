@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitHandlerSibling_2E74",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "InvokePointerEnterPointerExitHandler",
+    "InvokePointerEnterPointerExitHandler_C9252D11C316",
+    "InvokePointerEnterPointerExitHandler_A85E3366D41B",
+    "InvokePointerEnterPointerExitHandler_DF45B8D69F3C"
+  ],
+  "hash_methods": [
+    "m_AB5",
+    "m_9D1",
+    "m_371",
+    "m_C90",
+    "m_4EC",
+    "m_AEA",
+    "m_584",
+    "m_680",
+    "m_48A",
+    "m_44E"
+  ]
+}

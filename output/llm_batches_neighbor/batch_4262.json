@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AvatarMaskVRCHandler_4F87",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "SetTransformWeight",
+    "Equals",
+    "Equals_6B3E81FCD57E",
+    "Start",
+    "OnDestroy",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_179",
+    "m_687"
+  ]
+}

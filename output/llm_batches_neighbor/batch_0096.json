@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name_B917F2E759B3",
+    "get_name_B917F2E759B3",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "op_Implicit"
+  ],
+  "hash_methods": [
+    "m_BBB",
+    "m_9ED",
+    "m_35B"
+  ]
+}

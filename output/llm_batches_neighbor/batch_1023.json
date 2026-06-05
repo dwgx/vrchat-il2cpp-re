@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Static25m_EB4A",
+  "parent": "",
+  "named_methods": [
+    "Reset",
+    "ReadApplicationState",
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "ConfigureRectTransform",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_5FD",
+    "m_FA0",
+    "m_410",
+    "m_9A8",
+    "m_339",
+    "m_0C0",
+    "m_A74"
+  ]
+}

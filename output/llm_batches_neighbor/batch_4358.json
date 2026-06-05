@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "gameObject_772D",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_C53",
+    "m_11F",
+    "m_978",
+    "m_41F"
+  ]
+}

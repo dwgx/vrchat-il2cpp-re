@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "Static67m_C586",
+  "parent": "",
+  "named_methods": [
+    "ProcessQuaternion",
+    "LateUpdate",
+    "OnDestroy",
+    "Start",
+    "Awake",
+    "ProcessQuaternion_DD5129E1D00D",
+    ".cctor",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_E26",
+    "m_8BE",
+    "m_3E4",
+    "m_A25",
+    "m_0CF",
+    "m_BF8",
+    "m_364",
+    "m_3D8",
+    "m_B31",
+    "m_509"
+  ]
+}

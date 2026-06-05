@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_CF71",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "ConfigureParticleEmissionModuleRateOver",
+    "MoveNext",
+    "MoveNext_1244533621D8",
+    "MoveNext_DB9331771C7C",
+    "MoveNext_63A097DDAF15"
+  ],
+  "hash_methods": [
+    "m_4E8"
+  ]
+}

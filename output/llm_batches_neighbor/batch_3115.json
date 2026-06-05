@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_8C1B",
+  "parent": "",
+  "named_methods": [
+    "GetTargetTexture",
+    "GetTargetTexture_6EA0BBD7AB19",
+    "GetTargetTexture_6F8246576AC4",
+    "Dispose",
+    "Cleanup"
+  ],
+  "hash_methods": [
+    "m_C31",
+    "m_51F",
+    "m_F2B",
+    "m_C01",
+    "m_016"
+  ]
+}

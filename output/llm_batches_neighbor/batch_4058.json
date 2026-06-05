@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_64C4",
+  "parent": "",
+  "named_methods": [
+    "DeserializeNetworkState",
+    "GetF5C6",
+    "OnOwnershipTransferred",
+    "GetTransform",
+    "ProcessVRCNetworkBehaviour",
+    "Awake",
+    "OnDestroy",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_515",
+    "m_18C",
+    "m_D35"
+  ]
+}

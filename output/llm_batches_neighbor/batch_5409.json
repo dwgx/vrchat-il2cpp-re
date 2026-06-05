@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "PointerDragSibling_B161",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_3CB",
+    "m_A74",
+    "m_6B3",
+    "m_57F",
+    "m_240",
+    "m_2A8"
+  ]
+}

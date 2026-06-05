@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "CompareBaseObjects",
+    "Equals",
+    "ResolveFindObjectsDestroy",
+    ".cctor",
+    "Instantiate_BBE513E291D8"
+  ],
+  "hash_methods": [
+    "m_CA1",
+    "m_FCD",
+    "m_85D",
+    "m_526",
+    "m_3B0"
+  ]
+}

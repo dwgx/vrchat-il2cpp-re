@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_2568",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "SetStateMachine",
+    "ReadCanvasState"
+  ],
+  "hash_methods": [
+    "m_63A",
+    "m_0A8",
+    "m_288",
+    "m_DB9",
+    "m_E82",
+    "m_4E8"
+  ]
+}

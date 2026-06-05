@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PhysicsJoint2DHandler_98C5",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetReactionTorque",
+    "DeserializeJoint2DState"
+  ],
+  "hash_methods": [
+    "m_A77",
+    "m_4A5",
+    "m_D4F",
+    "m_D72",
+    "m_B51",
+    "m_712",
+    "m_95F",
+    "m_EED",
+    "m_3F0",
+    "m_48E"
+  ]
+}

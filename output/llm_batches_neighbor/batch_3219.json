@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "ComponentGameObjectHandler_FB12",
+  "parent": "",
+  "named_methods": [
+    "GetActiveInHierarchy",
+    ".ctor",
+    "Initialize",
+    "GetActiveInHierarchy_0302EF412541",
+    "GetActiveInHierarchy_EB20219B727B",
+    "GetActiveInHierarchy_8E8EE0D2C7B0"
+  ],
+  "hash_methods": [
+    "m_1AE",
+    "m_2F2",
+    "m_BD5",
+    "m_1AA"
+  ]
+}

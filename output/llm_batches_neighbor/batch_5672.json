@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "InvisibleComponent_23F9",
+  "parent": "",
+  "named_methods": [
+    "ProcessRenderingCommandBuffer",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "OnBecameVisible",
+    "OnBecameInvisible"
+  ],
+  "hash_methods": [
+    "m_7DA"
+  ]
+}

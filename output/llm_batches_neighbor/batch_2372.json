@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static29m_EC50",
+  "parent": "",
+  "named_methods": [
+    "OnDisable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_6FA",
+    "m_DBC"
+  ]
+}

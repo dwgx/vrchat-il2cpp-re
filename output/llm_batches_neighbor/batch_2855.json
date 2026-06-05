@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "Static7m_7BED",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ProcessRenderer"
+  ],
+  "hash_methods": [
+    "m_4C8",
+    "m_3B5",
+    "m_94D",
+    "m_D76"
+  ]
+}

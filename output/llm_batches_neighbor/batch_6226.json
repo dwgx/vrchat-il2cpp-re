@@ -1,0 +1,16 @@
+{
+  "namespace": "VRC.UI.Elements.HelperMethods",
+  "class": "UIConfirmDialog",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "InternalEquals",
+    "DefaultEquals",
+    "GetHashCode",
+    "InternalGetHashCode",
+    "ToString"
+  ],
+  "hash_methods": [
+    "m_240"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_E2AF",
+  "parent": "",
+  "named_methods": [
+    "SetLocalRotation",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "Update",
+    "get_Values",
+    "AddKeyValuePair"
+  ],
+  "hash_methods": [
+    "m_036",
+    "m_098",
+    "m_D5B",
+    "m_9F1"
+  ]
+}

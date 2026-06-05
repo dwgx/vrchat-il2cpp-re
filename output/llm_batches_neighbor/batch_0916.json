@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "FoldoutListRelated_F7AC",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    ".ctor",
+    "Initialize",
+    "ToString",
+    "ToString_1C162FC8E11C",
+    "ToString_963E9991E156",
+    "ToString_837298EB6171"
+  ],
+  "hash_methods": [
+    "m_B99",
+    "m_4E8"
+  ]
+}

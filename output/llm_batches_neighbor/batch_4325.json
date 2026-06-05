@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static30m_BDF6",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetTransformLocal"
+  ],
+  "hash_methods": [
+    "m_3A9",
+    "m_F69",
+    "m_5A2",
+    "m_DF9",
+    "m_282",
+    "m_538",
+    "m_91E",
+    "m_75A",
+    "m_B71",
+    "m_1C6"
+  ]
+}

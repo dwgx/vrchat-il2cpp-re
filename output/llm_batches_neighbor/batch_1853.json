@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "ValidateCleanupSkeletonComponent_6CB1",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_021",
+    "m_FDC",
+    "m_692",
+    "m_C9E",
+    "m_4C7",
+    "m_DCC",
+    "m_C8C",
+    "m_3CB",
+    "m_499"
+  ]
+}

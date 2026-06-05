@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static26m_EA95",
+  "parent": "",
+  "named_methods": [
+    "ReadCapsuleColliderState",
+    "ReadCapsuleColliderState_755DC97B2917",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_6BF",
+    "m_4FE",
+    "m_498",
+    "m_5E5",
+    "m_6DB",
+    "m_426",
+    "m_F48",
+    "m_D10",
+    "m_275",
+    "m_32B"
+  ]
+}

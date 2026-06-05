@@ -1,0 +1,7 @@
+{
+ "VRC_MainSibling_C23A::m_A2B": "MarshalNativeToManagedWithFixedArrays",
+ "VRC_MainSibling_C23A::m_B8E": "MarshalManagedToNativeWithTwoStrings",
+ "VRC_MainSibling_C23A::m_CAB": "GetNativeStructSize",
+ "VRC_MainSibling_C23A::m_D97": "FreeNativeString",
+ "VRC_MainSibling_C23A::m_ED1": "MarshalManagedToNativeWithStringAndInt"
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_2274",
+  "parent": "",
+  "named_methods": [
+    "ProcessGizmos",
+    "ProcessGizmos_FFCF2FFC7377",
+    "ProcessGizmos_C891049DECAF",
+    "ProcessGizmos_D95F2F77660B",
+    "ProcessGizmos_48051ABDECC0",
+    ".cctor",
+    "ProcessGizmos_AFD86FF3F3CE",
+    "ProcessGizmos_1B274183C476",
+    "GetHashCode_ADF82D29E4F8",
+    "Equals",
+    "GetHashCode",
+    "ToString",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_08B",
+    "m_B84"
+  ]
+}

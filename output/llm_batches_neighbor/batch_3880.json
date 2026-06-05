@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_833D",
+  "parent": "",
+  "named_methods": [
+    "ReadAsyncOperationState",
+    ".ctor",
+    "Initialize",
+    "ReadAsyncOperationState_4E5D5D0393EE"
+  ],
+  "hash_methods": [
+    "m_F66",
+    "m_AAD",
+    "m_A4E",
+    "m_46B",
+    "m_4DB",
+    "m_125"
+  ]
+}

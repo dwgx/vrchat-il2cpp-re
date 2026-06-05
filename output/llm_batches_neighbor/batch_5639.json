@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "WorldSpawnSiblingSibling_708F",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "GetHashCode",
+    "Equals",
+    "Equals_A413F1627161",
+    "ToString_60B7AD4D3394",
+    "GetHashCode_C47FBDB26636",
+    "ToString_F763357E814D",
+    "ToString_8FB65F099B86",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "Equals_93385FD6B7B6",
+    "Equals_CE1C34E6667C",
+    "ToString_0CD0CE3F0C4E",
+    "ToString_63E288EC1831",
+    "Equals_ECFBB18916E6"
+  ],
+  "hash_methods": [
+    "m_DCE"
+  ]
+}

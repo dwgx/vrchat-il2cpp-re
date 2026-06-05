@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "TransformMeshHandler_1229",
+  "parent": "",
+  "named_methods": [
+    "SetFileLength",
+    "SetFileLength_7AA197239E93",
+    "SetFileLength_86E5973DF2DA",
+    "SetFileDescriptorSize",
+    "ConvertWideCharsToMultibyte",
+    "ConvertWideCharsToMultiByte",
+    "ShouldRoundDecimalDigit",
+    "FormatRoundedMantissa",
+    "FormatRoundedFloatDigits",
+    "FormatRoundedMantissa_CD4CE9626B26",
+    ".ctor",
+    "Initialize",
+    "GetLocalScale",
+    "GetLocalScale_D9D3C836A17E",
+    "GetLocalScale_05F870848FDA",
+    "GetBounds",
+    "SetLocalRotation"
+  ],
+  "hash_methods": [
+    "m_F92",
+    "m_65B"
+  ]
+}

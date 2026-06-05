@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "IsInvoking",
+    ".cctor",
+    "Instantiate",
+    ".ctor",
+    "Initialize",
+    "CompareBaseObjects",
+    "ToString",
+    "set_name"
+  ],
+  "hash_methods": [
+    "m_422",
+    "m_C82",
+    "m_925",
+    "m_93C",
+    "m_7CB",
+    "m_4B0",
+    "m_309",
+    "m_B92"
+  ]
+}

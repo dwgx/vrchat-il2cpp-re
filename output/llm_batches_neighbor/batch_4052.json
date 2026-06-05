@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "Static8m_31E8_57DD",
+  "parent": "",
+  "named_methods": [
+    "NameToLayer",
+    "UpdateRotation",
+    "ConfigureTransformPosition",
+    ".ctor",
+    "Equals",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_A50",
+    "m_026"
+  ]
+}

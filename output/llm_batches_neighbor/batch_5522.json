@@ -1,0 +1,37 @@
+{
+  "namespace": "",
+  "class": "FoldoutListRelatedRelated_80CD",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "TrySetException",
+    "TrySetCanceled",
+    "TrySetException_8B44995EF753",
+    "TrySetException_29708C6D7680",
+    "ValidateToken",
+    "TrySetResult",
+    "TrySetException_2718AA49A502",
+    "TrySetResult_F6B8CCE6C3E0",
+    "TrySetResult_BA3885FFC546",
+    "TrySetResult_DCC2662526E9",
+    "TrySetException_60BC6280D4D8",
+    "TrySetResult_CE5268449B25",
+    "TrySetCanceled_0202FD1068A2",
+    "GetStatus",
+    "TrySetResult_12FCD11936F4",
+    "TrySetResult_5C276417FBFC",
+    "TrySetException_64EC02DC51CC",
+    "ResetCompletionState",
+    "Reset",
+    "Reset_C057CF3BCDCB",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_1F8",
+    "m_C3B",
+    "m_48D",
+    "m_B16",
+    "m_591",
+    "m_7B3"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0682SiSibling_D158",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "ReadCameraState"
+  ],
+  "hash_methods": [
+    "m_29C",
+    "m_56C",
+    "m_98E",
+    "m_B3B",
+    "m_3E9",
+    "m_30C",
+    "m_9B9",
+    "m_42C",
+    "m_8F8",
+    "m_16A"
+  ]
+}

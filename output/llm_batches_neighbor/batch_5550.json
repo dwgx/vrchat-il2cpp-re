@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_311E",
+  "parent": "",
+  "named_methods": [
+    "SeekFilePosition",
+    "WriteBytes",
+    "ReadBytes"
+  ],
+  "hash_methods": [
+    "m_709",
+    "m_45A",
+    "m_CB6",
+    "m_4D0",
+    "m_856"
+  ]
+}

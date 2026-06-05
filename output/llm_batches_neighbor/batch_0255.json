@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".cctor_311D11132290",
+    "IsNativeObjectAlive",
+    "CompareBaseObjects",
+    "Internal_CloneSingle",
+    "MoveNext",
+    ".ctor",
+    "Instantiate_A99F30C3A980",
+    "FindFirstObjectByType"
+  ],
+  "hash_methods": [
+    "m_327",
+    "m_07B"
+  ]
+}

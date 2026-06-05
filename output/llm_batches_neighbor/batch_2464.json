@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_226FSibling_176C",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Equals_41FC6867FB08",
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "Start",
+    "FixedUpdate",
+    "Update"
+  ],
+  "hash_methods": [
+    "m_CE1",
+    "m_3CB"
+  ]
+}

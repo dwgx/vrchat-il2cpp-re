@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSibRelated_389A",
+  "parent": "",
+  "named_methods": [
+    "ReadApplicationState",
+    "IndexOf",
+    "IndexOf_F971C0668DAE",
+    "IndexOf_0318E8C59B7D",
+    "IndexOf_0590059499A7",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_3D8",
+    "m_842"
+  ]
+}

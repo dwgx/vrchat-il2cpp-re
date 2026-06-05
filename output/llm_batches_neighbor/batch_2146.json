@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_5FA7SiblingSibling_F2C3",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible"
+  ],
+  "hash_methods": [
+    "m_F46",
+    "m_126"
+  ]
+}

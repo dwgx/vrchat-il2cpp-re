@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static23m_B702",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_B0A",
+    "m_FD5",
+    "m_AF5",
+    "m_7F7",
+    "m_959",
+    "m_84F",
+    "m_3F5",
+    "m_4B3",
+    "m_B36",
+    "m_071"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    ".cctor",
+    ".ctor",
+    "GetCachedPtr",
+    "GetInstanceID",
+    "InvokeRepeating"
+  ],
+  "hash_methods": [
+    "m_BC4",
+    "m_272",
+    "m_02A",
+    "m_556"
+  ]
+}

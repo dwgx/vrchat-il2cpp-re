@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "AudioFilterRead_74D7",
+  "parent": "",
+  "named_methods": [
+    "ReadApplicationState",
+    "OnAudioFilterRead",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_66E"
+  ]
+}

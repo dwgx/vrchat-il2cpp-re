@@ -1,0 +1,28 @@
+{
+  "namespace": "",
+  "class": "SecurityaspectMode_F112",
+  "parent": "",
+  "named_methods": [
+    "SyncTransforms",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "InvokeDelegate",
+    "EndInvoke",
+    "SetDefaultMaxAngularSpeed",
+    "SetGravity",
+    "DelegateConstructor"
+  ],
+  "hash_methods": [
+    "m_928",
+    "m_F33",
+    "m_85D",
+    "m_B5C",
+    "m_35A",
+    "m_DF4",
+    "m_296",
+    "m_E93",
+    "m_DEB",
+    "m_DFC"
+  ]
+}

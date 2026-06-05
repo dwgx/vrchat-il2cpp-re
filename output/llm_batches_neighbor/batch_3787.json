@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSibling_FF86",
+  "parent": "",
+  "named_methods": [
+    "AddItem",
+    "SetItem",
+    "GetItem",
+    "AddItem_5676D2161C68",
+    "GetCount",
+    "ClearItems",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_A4A",
+    "m_91F",
+    "m_DD8",
+    "m_5FA",
+    "m_EFE"
+  ]
+}

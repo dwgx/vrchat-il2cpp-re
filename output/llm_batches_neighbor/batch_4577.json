@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_76C2",
+  "parent": "",
+  "named_methods": [
+    "System.IDisposable.Dispose",
+    "System.Collections.IEnumerable.GetEnumerator",
+    "GetEnumerator",
+    "get_Current",
+    "System.Collections.IEnumerator.get_Current",
+    "Dispose",
+    ".ctor",
+    "Initialize",
+    "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator",
+    "MoveNext",
+    "System.Collections.Generic.IEnumerator<System.String>.get_Current",
+    "System.Collections.IEnumerator.Reset"
+  ],
+  "hash_methods": [
+    "m_030",
+    "m_CE3",
+    "m_054",
+    "m_DB3"
+  ]
+}

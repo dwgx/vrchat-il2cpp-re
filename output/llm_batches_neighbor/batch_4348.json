@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static42m_1510",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnDisable",
+    ".ctor",
+    "Initialize",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_097",
+    "m_C65",
+    "m_C04",
+    "m_F4C",
+    "m_675",
+    "m_249",
+    "m_BB8"
+  ]
+}

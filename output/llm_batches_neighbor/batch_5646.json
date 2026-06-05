@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "CoroutineComponent_8671",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause"
+  ],
+  "hash_methods": [
+    "m_A66",
+    "m_F46",
+    "m_540",
+    "m_747"
+  ]
+}

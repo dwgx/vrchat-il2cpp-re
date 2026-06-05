@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_4747",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    "FillArraySegment",
+    "IndexOfArraySegment",
+    "IndexOf_C7A4399BB442",
+    "IndexOfArraySegment_0CD1FAB79A99",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_6DF",
+    "m_472",
+    "m_0AC"
+  ]
+}

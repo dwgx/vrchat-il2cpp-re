@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_B23FSiblingSibling_9C68",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Awake",
+    "Start",
+    "Update",
+    "FixedUpdate",
+    "LateUpdate",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_182",
+    "m_6F5"
+  ]
+}

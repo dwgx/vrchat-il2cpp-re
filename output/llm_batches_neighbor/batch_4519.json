@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static14m_D7E3",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_35A",
+    "m_006",
+    "m_D1B",
+    "m_C64",
+    "m_9ED",
+    "m_CFE",
+    "m_0A9",
+    "m_B7F",
+    "m_F8A",
+    "m_210"
+  ]
+}

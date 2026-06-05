@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_308B",
+  "parent": "",
+  "named_methods": [
+    "ConfigureLight",
+    "SetStateMachine",
+    "GetLightColor",
+    "GetMaterialArrayRenderer",
+    "MoveNext"
+  ],
+  "hash_methods": [
+    "m_288",
+    "m_440",
+    "m_0A8",
+    "m_D51",
+    "m_CE3"
+  ]
+}

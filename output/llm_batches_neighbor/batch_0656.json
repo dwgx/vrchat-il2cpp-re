@@ -1,0 +1,39 @@
+{
+  "namespace": "",
+  "class": "AnimatedTextureBaseImpl_0Related_2475",
+  "parent": "",
+  "named_methods": [
+    "ContainsItem",
+    "GetHashCode",
+    "set_Item",
+    "ReadCameraState",
+    ".ctor",
+    "Initialize",
+    "IndexOfItem",
+    "GetHashCode_906D2C76FDBB",
+    "GetHashCode_345B449A5315",
+    "SetItem",
+    "IndexOfItem_B1670832D9C2",
+    "IndexOf",
+    "IndexOfItem_B7898572497A",
+    "ContainsItem_B612CC5C11E3",
+    "ContainsItem_9ADE75D73577",
+    "IndexOfItem_F50AADF1C47A",
+    "IndexOfItem_B6E0637D8384",
+    "ContainsItem_88C4B22ECC7A",
+    "ReadCameraState_53773F778605",
+    "ContainsItem_9B4E767861C6"
+  ],
+  "hash_methods": [
+    "m_1C0",
+    "m_CB5",
+    "m_216",
+    "m_892",
+    "m_9DA",
+    "m_25C",
+    "m_603",
+    "m_3D8",
+    "m_85A",
+    "m_213"
+  ]
+}

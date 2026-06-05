@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "Static16m_ADBE",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Update",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_CC2",
+    "m_CDD"
+  ]
+}

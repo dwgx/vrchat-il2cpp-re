@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "CameraHandler_33B6",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    ".ctor",
+    "Initialize",
+    "GetMain"
+  ],
+  "hash_methods": [
+    "m_89B",
+    "m_8AA",
+    "m_C64",
+    "m_E28",
+    "m_AAF",
+    "m_6B3",
+    "m_FD8",
+    "m_2CE",
+    "m_3D3",
+    "m_9C4"
+  ]
+}

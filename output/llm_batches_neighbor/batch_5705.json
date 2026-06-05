@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "Invoke3FocusSamplerComponent_8051",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetUnscaledTimeAsDouble",
+    "Awake",
+    "OnEnable",
+    "Start",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_B3D",
+    "m_862",
+    "m_988",
+    "m_D0C",
+    "m_3B0"
+  ]
+}

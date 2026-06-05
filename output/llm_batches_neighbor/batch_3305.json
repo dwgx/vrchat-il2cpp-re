@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_A77C",
+  "parent": "",
+  "named_methods": [
+    "System.Collections.Generic.IEnumerator<System.String>.get_Current",
+    "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator",
+    ".ctor",
+    "Initialize",
+    "GetEnumerator",
+    "get_Current",
+    "System.Collections.IEnumerator.Reset",
+    "System.Collections.IEnumerable.GetEnumerator",
+    "Dispose",
+    "get_Current_DB34E8696B31",
+    "System.Collections.IEnumerator.get_Current",
+    "MoveNext",
+    "System.IDisposable.Dispose"
+  ],
+  "hash_methods": [
+    "m_644",
+    "m_16A"
+  ]
+}

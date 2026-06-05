@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "BuildFindDestroyObjects",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_4FB",
+    "m_6E5",
+    "m_887",
+    "m_A1F"
+  ]
+}

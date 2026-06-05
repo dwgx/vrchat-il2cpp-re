@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_A314",
+  "parent": "",
+  "named_methods": [
+    "EnsureBrotliEncoderInitialized",
+    "EnsureBrotliEncoderInitialized_9436CB6014C0",
+    "BrotliEncoderDestroyInstance"
+  ],
+  "hash_methods": [
+    "m_4D0",
+    "m_77C",
+    "m_709",
+    "m_CB6"
+  ]
+}

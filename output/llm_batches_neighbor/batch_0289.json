@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor_2FC0753D54EE",
+    ".cctor",
+    "get_name",
+    "IsNativeObjectAlive",
+    "FindObjectsOfType",
+    "Equals",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_FDF",
+    "m_1A5",
+    "m_802"
+  ]
+}

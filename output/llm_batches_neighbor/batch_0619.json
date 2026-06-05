@@ -1,0 +1,31 @@
+{
+  "namespace": "",
+  "class": "CreatePropertiesCreateConRelated_A0D3",
+  "parent": "",
+  "named_methods": [
+    "GetEnabled",
+    "Update",
+    "GetSharedMesh",
+    "OnEnable",
+    "Start",
+    "SetConvex",
+    "SetExcludeLayers",
+    "SetIncludeLayers",
+    "SetSharedMaterial",
+    "OnDisable",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_419",
+    "m_35D",
+    "m_EAC",
+    "m_FA0",
+    "m_CE3",
+    "m_FED",
+    "m_04C",
+    "m_506",
+    "m_16A",
+    "m_75D"
+  ]
+}

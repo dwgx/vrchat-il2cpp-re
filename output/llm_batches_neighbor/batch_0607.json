@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "ComponentHandler_38F7",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Update",
+    "LateUpdate",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_1E9"
+  ]
+}

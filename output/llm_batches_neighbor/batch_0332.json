@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "SetRectAnchorsAction",
+    ".cctor",
+    "Instantiate",
+    "Instantiate_8EE22E18ECBC",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_24F",
+    "m_744",
+    "m_8B9"
+  ]
+}

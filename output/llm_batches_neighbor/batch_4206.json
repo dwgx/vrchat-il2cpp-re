@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_2E37",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "MoveNext",
+    "GetEnumerator",
+    "Add",
+    "ProcessTransform",
+    "IndexOf",
+    "ConfigureCanvasGroup"
+  ],
+  "hash_methods": [
+    "m_0A8"
+  ]
+}

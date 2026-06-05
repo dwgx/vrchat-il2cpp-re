@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_27A1",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "ToString",
+    "SetStateMachine_4E868F86F32B",
+    "SetTargetAngularVelocity",
+    "Equals",
+    "SetStateMachine",
+    "Equals_440D1A4DE1DC"
+  ],
+  "hash_methods": [
+    "m_015",
+    "m_63A"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "CameraQualitySettingsHandler_78B9",
+  "parent": "",
+  "named_methods": [
+    "GetTargetTexture",
+    "GetTargetTexture_D214574933F3",
+    "GetTargetTexture_53708C25DDB2",
+    ".ctor",
+    "Initialize",
+    "GetAntiAliasing",
+    "CopyMainCameraQualitySettings"
+  ],
+  "hash_methods": [
+    "m_A79"
+  ]
+}

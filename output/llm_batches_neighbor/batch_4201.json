@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_A4A3",
+  "parent": "",
+  "named_methods": [
+    "InitializeMemoryBlockMap",
+    "InitializeMemoryBlockMap_937CF8FBCAA6",
+    "InitializeMemoryBlockMap_24F8FB692E5A",
+    "InitializeMemoryBlockMap_CF3C4C0F0CAD",
+    "Dispose"
+  ],
+  "hash_methods": [
+    "m_EEE",
+    "m_95D",
+    "m_410",
+    "m_C01"
+  ]
+}

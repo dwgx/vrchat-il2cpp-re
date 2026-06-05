@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "ContainsChild_A184AF",
+    ".cctor",
+    "GetInstanceID_78BD63",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_3FD",
+    "m_BC2",
+    "m_8DA",
+    "m_9C2",
+    "m_B9F",
+    "m_2F3",
+    "m_4C1"
+  ]
+}

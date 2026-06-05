@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_8F6D",
+  "parent": "",
+  "named_methods": [
+    "ConstructSystemErrorFromErrorCode",
+    "CopyConstructSystemError",
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "ConstructSystemErrorFromErrorCode_3E45727E8272"
+  ],
+  "hash_methods": [
+    "m_49E",
+    "m_C47",
+    "m_6F5",
+    "m_8FA",
+    "m_775",
+    "m_BEE"
+  ]
+}

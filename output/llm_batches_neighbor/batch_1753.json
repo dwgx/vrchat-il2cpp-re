@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "Static23m_DFA1",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_B8E",
+    "m_CED",
+    "m_FC3",
+    "m_7FD",
+    "m_F46",
+    "m_091",
+    "m_32A",
+    "m_3C4",
+    "m_675",
+    "m_2F8"
+  ]
+}

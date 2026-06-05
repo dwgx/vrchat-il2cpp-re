@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "PlayerLeft_DF31",
+  "parent": "",
+  "named_methods": [
+    "OnPlayerLeft",
+    "ProcessTransform_03ED334B60F1",
+    "ProcessTransform_03ED334B60F1",
+    "ComparePlayerLeftEvents",
+    "CompareByTimestampThenName"
+  ],
+  "hash_methods": [
+    "m_E92",
+    "m_8DC"
+  ]
+}

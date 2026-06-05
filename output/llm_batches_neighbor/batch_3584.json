@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitImpl_EASibling_CD3F",
+  "parent": "",
+  "named_methods": [
+    "GetJobData",
+    "ProcessTransform",
+    ".ctor",
+    "Initialize",
+    "FixedUpdate"
+  ],
+  "hash_methods": [
+    "m_503",
+    "m_F23",
+    "m_D23",
+    "m_197",
+    "m_601",
+    "m_5D2",
+    "m_155",
+    "m_720",
+    "m_908"
+  ]
+}

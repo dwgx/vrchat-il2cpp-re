@@ -1,0 +1,35 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExitImplImpSibling_18C4",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Equals_212154D0E5F9",
+    "Equals_C27415B59CA7",
+    "Equals_BB817CDB28A5",
+    "Equals_7C434C10C325",
+    "UpdateRotation",
+    "UpdateRotation_6C404081514D",
+    "UpdateRotation_0D0D12185653",
+    "Equals_71FCBB6FF5D1",
+    "Equals_7DF9765D4A1F",
+    "Equals_036F5B265897",
+    "Equals_8241B8A7734F",
+    "GetHashCode",
+    "Awake",
+    "OnDestroy",
+    "GetHashCode_7AF711048FC7",
+    "Equals_E5ABD9450BB3",
+    "Equals_2B468E77D9EC",
+    ".ctor",
+    "Initialize",
+    "GetHashCode_309B420AD415",
+    "Equals_8C4B481BF2E6",
+    "GetHashCode_7FD28589FE1E"
+  ],
+  "hash_methods": [
+    "m_F8F",
+    "m_195",
+    "m_F8F"
+  ]
+}

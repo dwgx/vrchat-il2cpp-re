@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "IEnumeratorImpl_0BDC",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "get_Current",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_23C",
+    "m_045",
+    "m_550",
+    "m_4C2",
+    "m_772",
+    "m_3E4",
+    "m_DD8",
+    "m_61B",
+    "m_1F7",
+    "m_9DA"
+  ]
+}

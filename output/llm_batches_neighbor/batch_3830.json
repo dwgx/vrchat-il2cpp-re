@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static22m_CFDF",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "LateUpdate",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_748",
+    "m_484",
+    "m_1EC",
+    "m_DB6",
+    "m_BB1",
+    "m_234",
+    "m_638",
+    "m_3B7",
+    "m_A85",
+    "m_863"
+  ]
+}

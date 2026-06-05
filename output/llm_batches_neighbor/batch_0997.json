@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "Service53m_E21F",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnEnable",
+    "Awake",
+    ".ctor",
+    "Initialize",
+    "OnDisable",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_9BC",
+    "m_A66",
+    "m_E07",
+    "m_083",
+    "m_F52",
+    "m_FAC",
+    "m_600",
+    "m_5DF",
+    "m_046",
+    "m_4CB"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static22m_ACA3",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "Start",
+    "OnDisable",
+    "OnDestroy",
+    "ReadComponentState",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_AD3",
+    "m_0FC",
+    "m_BA0",
+    "m_0CB",
+    "m_45B"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ProcessFindObjectsDestroy",
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "Initialize_F167B2FD2194",
+    "GetInstanceID"
+  ],
+  "hash_methods": [
+    "m_464",
+    "m_FCE"
+  ]
+}

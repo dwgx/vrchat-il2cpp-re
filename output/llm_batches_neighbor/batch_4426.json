@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_F6DB",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    "StringToHash",
+    "StringToHash_93BBF7ED98B6",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_5D2",
+    "m_10E",
+    "m_0C7",
+    "m_E6D",
+    "m_868",
+    "m_79E",
+    "m_E57",
+    "m_6DD",
+    "m_E74"
+  ]
+}

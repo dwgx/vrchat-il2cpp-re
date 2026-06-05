@@ -1,0 +1,36 @@
+{
+  "namespace": "VRC.Economy.Internal",
+  "class": "EconomyStoresManager",
+  "parent": "",
+  "named_methods": [
+    "GetInstanceID",
+    "Equals",
+    "GetHashCode",
+    ".cctor_5794A82D5283",
+    "GetLookupToId",
+    "IsNativeObjectAlive",
+    "GetCachedPtr",
+    "set_colorMin",
+    "SetEconomyStoreParameter",
+    "AddUnitNode",
+    "Instantiate",
+    "ToString",
+    "Doop_GreaterThan",
+    "DoTryParse",
+    "InitializeStoreCache",
+    "LoadStoreCatalog",
+    "ProcessStoreInitialization",
+    "Initialize",
+    "Destroy",
+    "DestroyImmediate",
+    ".cctor",
+    ".ctor_70B844A121FF",
+    "GetPlatform",
+    "FindObjectsByType",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_76E",
+    "m_09C"
+  ]
+}

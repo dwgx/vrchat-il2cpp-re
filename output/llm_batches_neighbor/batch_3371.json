@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "PointerEnterSiblingSiblingSibling_64FE",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_F32",
+    "m_914"
+  ]
+}

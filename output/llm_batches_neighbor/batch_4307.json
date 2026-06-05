@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_E94F",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize",
+    "ProcessGizmos",
+    "GetHashCode",
+    "ProcessGizmos_2A8DCB12BFAB"
+  ],
+  "hash_methods": [
+    "m_4E1",
+    "m_C89",
+    "m_FE4",
+    "m_AFD",
+    "m_ADF",
+    "m_08B",
+    "m_255",
+    "m_D95",
+    "m_561",
+    "m_480"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "PhysicsJoint2DHandler_88ED",
+  "parent": "",
+  "named_methods": [
+    "GetAnchor",
+    "InvokePhysicsJoint2DHandlers",
+    "GetAttachedRigidbody",
+    ".ctor",
+    "Initialize",
+    "InvokePhysicsJoint2DHandlers_3062183F9774",
+    "GetConnectedBody",
+    "GetDampingRatio"
+  ],
+  "hash_methods": [
+    "m_4C9",
+    "m_8F6",
+    "m_5BB",
+    "m_D4D",
+    "m_930",
+    "m_D4A"
+  ]
+}

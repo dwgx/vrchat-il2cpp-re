@@ -1,0 +1,15 @@
+{
+  "namespace": "",
+  "class": "TransformComponentHandler_7DD8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetUnscaledDeltaTime"
+  ],
+  "hash_methods": [
+    "m_165",
+    "m_E28",
+    "m_8EB"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static19m_F517",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_D0C",
+    "m_FD6",
+    "m_B78",
+    "m_EFD",
+    "m_ABB",
+    "m_8B4",
+    "m_41F",
+    "m_FA0",
+    "m_BA9",
+    "m_98F"
+  ]
+}

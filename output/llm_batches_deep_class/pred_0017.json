@@ -1,0 +1,12 @@
+{
+ "TransformPhysicsSystem_923C::m_EE8": "Invoke",
+ "TransformPhysicsSystem_923C::m_EEC": "GetTime",
+ "TransformPhysicsSystem_923C::m_EFD": "Dispose",
+ "TransformPhysicsSystem_923C::m_F14": "GetTime",
+ "TransformPhysicsSystem_923C::m_F64": "GetTime",
+ "TransformPhysicsSystem_923C::m_F6D": "get_Value",
+ "TransformPhysicsSystem_923C::m_F7E": "GetTime",
+ "TransformPhysicsSystem_923C::m_FB2": "OnUpdate",
+ "TransformPhysicsSystem_923C::m_FC7": "Add",
+ "TransformPhysicsSystem_923C::m_FC8": "GetTime"
+}

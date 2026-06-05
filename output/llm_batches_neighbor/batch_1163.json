@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "FocusComponent_5549",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnEnable",
+    "FixedUpdate",
+    "Start",
+    "Update",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    ".ctor",
+    "Initialize",
+    "OnApplicationQuit",
+    "OnBecameVisible"
+  ],
+  "hash_methods": [
+    "m_CE1"
+  ]
+}

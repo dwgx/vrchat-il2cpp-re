@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Static9m_6F06",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetSharedMaterialArrayRenderer"
+  ],
+  "hash_methods": [
+    "m_232",
+    "m_CED",
+    "m_8F7",
+    "m_356",
+    "m_6F5",
+    "m_327"
+  ]
+}

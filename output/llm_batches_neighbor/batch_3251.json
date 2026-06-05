@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "UdonUnregisterEventHandlerRegiSibling_581D",
+  "parent": "",
+  "named_methods": [
+    "PushRegistration",
+    "PopRegistration",
+    "Update",
+    "GetEnabled",
+    "GetEnabled_874AAFB32E69",
+    "GetEnabled_A660C4F07AE5",
+    "PushObject",
+    "PopObject",
+    "InitializeObjectRingBuffer",
+    "GetEnabled_8C84D06B25F5",
+    ".ctor",
+    "Initialize",
+    "OnDestroy",
+    "Start",
+    "SetCullingMode"
+  ],
+  "hash_methods": [
+    "m_848",
+    "m_ABF",
+    "m_4B5",
+    "m_8AF",
+    "m_510",
+    "m_217",
+    "m_155",
+    "m_A83",
+    "m_018",
+    "m_768"
+  ]
+}

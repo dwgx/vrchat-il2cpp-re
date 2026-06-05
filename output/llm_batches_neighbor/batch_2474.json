@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "ApplicationPlayerPrefsHandler_EC7F",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "DeleteKey",
+    "GetDeviceUniqueIdentifier"
+  ],
+  "hash_methods": [
+    "m_520",
+    "m_E8A",
+    "m_5A0"
+  ]
+}

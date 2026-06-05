@@ -1,0 +1,5 @@
+{
+ "TransformSystem_ACB1::m_1FE": "SetDiscordActivityStartTimestamp",
+ "TransformSystem_ACB1::m_2D1": "InitializeDiscordActivity",
+ "TransformSystem_ACB1::m_40E": "SetDiscordActivityStartTimestamp"
+}

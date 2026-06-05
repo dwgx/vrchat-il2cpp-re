@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PointerInitializePotentialDragBeginDrag_3864",
+  "parent": "",
+  "named_methods": [
+    "OnBeginDrag",
+    "OnDrag",
+    "OnEndDrag",
+    ".ctor",
+    "OnInitializePotentialDrag"
+  ],
+  "hash_methods": [
+    "m_557",
+    "m_40C",
+    "m_278",
+    "m_C51",
+    "m_56B",
+    "m_0D3",
+    "m_D9B"
+  ]
+}

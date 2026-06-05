@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Clone_3177",
+  "parent": "",
+  "named_methods": [
+    "Clone",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_FE6",
+    "m_EDD",
+    "m_DC3",
+    "m_1C9",
+    "m_7B8",
+    "m_689",
+    "m_73D",
+    "m_779",
+    "m_111",
+    "m_FC0"
+  ]
+}

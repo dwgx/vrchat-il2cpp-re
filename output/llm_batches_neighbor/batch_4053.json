@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "LifecycleComponent_5FA7SiblingSibling_D85E",
+  "parent": "",
+  "named_methods": [
+    "CacheInitialLocalRotation",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_33E",
+    "m_846",
+    "m_E1E",
+    "m_6B6",
+    "m_CA6",
+    "m_E93",
+    "m_2B7",
+    "m_FA0",
+    "m_A66",
+    "m_7F9"
+  ]
+}

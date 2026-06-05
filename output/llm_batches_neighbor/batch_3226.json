@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_FED2",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "MoveNext_1244533621D8",
+    "SetStateMachine",
+    "get_Current"
+  ],
+  "hash_methods": [
+    "m_4D8",
+    "m_752",
+    "m_015"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSiblingSiblingSSibling_21CA",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "get_Item",
+    "ConfigureTransformLocal",
+    "ConfigureTransformLocal_90A6C4BEBED2"
+  ],
+  "hash_methods": [
+    "m_B84",
+    "m_853",
+    "m_5CD",
+    "m_74F",
+    "m_F62",
+    "m_C4F",
+    "m_25B",
+    "m_110",
+    "m_3E6",
+    "m_068"
+  ]
+}

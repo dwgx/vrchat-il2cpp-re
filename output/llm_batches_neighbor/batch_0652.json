@@ -1,0 +1,27 @@
+{
+  "namespace": "",
+  "class": "StyleElementSiblingSiblinRelated_E1A0",
+  "parent": "",
+  "named_methods": [
+    "GetConnectedBody",
+    ".cctor",
+    "GetShadowStrength",
+    ".ctor",
+    "Initialize",
+    "SetShadowDistance",
+    "SetShadowStrength",
+    "AreSiblingRelationshipsEqual",
+    "Equals",
+    "GetFieldOfView",
+    "CreateContext",
+    "AreSiblingRelationshipsEqual_ED0BA99F28B2",
+    "GetHashCode"
+  ],
+  "hash_methods": [
+    "m_0D1",
+    "m_4E1",
+    "m_F91",
+    "m_D95",
+    "m_C89"
+  ]
+}

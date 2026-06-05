@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static12m_8204",
+  "parent": "",
+  "named_methods": [
+    "ProcessGameObject",
+    "OnEnable",
+    "OnDisable",
+    "ProcessGameObject_A580FF6E2C8D",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_53A",
+    "m_98D",
+    "m_47A",
+    "m_C7A",
+    "m_1D9",
+    "m_3E2",
+    "m_C47"
+  ]
+}

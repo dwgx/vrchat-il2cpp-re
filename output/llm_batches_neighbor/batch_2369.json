@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_2EFC",
+  "parent": "",
+  "named_methods": [
+    "GetTransformPosition",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_38E",
+    "m_5F5",
+    "m_D2E",
+    "m_493",
+    "m_2BB",
+    "m_557",
+    "m_C53"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "namespace": "",
+  "class": "PhysicsHandler_68C4",
+  "parent": "",
+  "named_methods": [
+    "AcosFloat",
+    "Acos",
+    "Acos_2FFD0CCE6357",
+    ".ctor",
+    "Initialize",
+    "Start",
+    "Atan2Double",
+    "Atan2Double_A9081C151460",
+    "Atan2",
+    "Atan2_06BA369E00D5",
+    "SinDouble",
+    "Atan2_070A156C04AD",
+    "Awake",
+    "OnDestroy",
+    "Exp",
+    "ExpFloat",
+    "FloorDouble",
+    "FmodDouble",
+    "FmodFloat",
+    "LogFloat",
+    "LogFloat_4E43C4DD4780",
+    "Log2"
+  ],
+  "hash_methods": [
+    "m_FC4",
+    "m_FE0",
+    "m_05F",
+    "m_C69"
+  ]
+}

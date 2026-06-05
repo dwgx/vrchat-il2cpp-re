@@ -1,0 +1,13 @@
+{
+  "namespace": "",
+  "class": "Static34m_A66C",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_760"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "CloneSiblingSibling_8FCA",
+  "parent": "",
+  "named_methods": [
+    "GetDeltaTime",
+    "GetDeltaTime_1C9BDCFF018C",
+    "GetDeltaTime_AB3D1F871C9F",
+    "GetDeltaTime_39EC9E57F6B8",
+    "GetDeltaTime_FC0B34846CBD",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_41B",
+    "m_619",
+    "m_5F4",
+    "m_C01",
+    "m_E39",
+    "m_C8E",
+    "m_FE6",
+    "m_3B2",
+    "m_6FB"
+  ]
+}

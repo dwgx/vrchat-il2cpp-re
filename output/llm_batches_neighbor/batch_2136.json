@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "TransformQuaternionHandler_A1D8",
+  "parent": "",
+  "named_methods": [
+    "UpdateRotation",
+    "EndInvoke",
+    "ClampFloatToBounds",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A5F",
+    "m_8B7",
+    "m_C9D",
+    "m_F07",
+    "m_2A0"
+  ]
+}

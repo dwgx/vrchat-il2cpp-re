@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "TimeHandler_200D",
+  "parent": "",
+  "named_methods": [
+    "SwapEntries",
+    ".ctor",
+    "Initialize",
+    "GetTime",
+    "GetTime_8DB186753831"
+  ],
+  "hash_methods": [
+    "m_C35",
+    "m_4E6",
+    "m_717"
+  ]
+}

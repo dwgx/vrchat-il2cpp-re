@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "OVRLipSyncContextTextureFlipSiSibling_D5DE",
+  "parent": "",
+  "named_methods": [
+    "CacheTransformRotation",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_1DC",
+    "m_FA5",
+    "m_CAD",
+    "m_214",
+    "m_F73"
+  ]
+}

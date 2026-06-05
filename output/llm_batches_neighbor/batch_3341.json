@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSibling_3766",
+  "parent": "",
+  "named_methods": [
+    "Dispose",
+    "Cleanup",
+    "GetTransformChildCount",
+    ".ctor",
+    "Initialize",
+    ".cctor",
+    "get_Identity"
+  ],
+  "hash_methods": [
+    "m_ECF",
+    "m_023",
+    "m_96E",
+    "m_A22",
+    "m_C6F",
+    "m_223",
+    "m_F12",
+    "m_769",
+    "m_D11",
+    "m_FE8"
+  ]
+}

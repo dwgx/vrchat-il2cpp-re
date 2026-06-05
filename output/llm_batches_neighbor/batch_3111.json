@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "PointerEnterPointerExit_F508",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "OnPointerExit",
+    "OnPointerEnter",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_32A",
+    "m_C98",
+    "m_5CC",
+    "m_838",
+    "m_E6D",
+    "m_AF5"
+  ]
+}

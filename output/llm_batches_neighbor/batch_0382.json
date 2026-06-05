@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "set_name",
+    "OnCollisionStay",
+    ".cctor",
+    "op_Implicit",
+    "Initialize_5F94C6",
+    ".ctor_94D852B4CA51",
+    ".ctor",
+    "CompareBaseObjects"
+  ],
+  "hash_methods": [
+    "m_475",
+    "m_D2F",
+    "m_34F"
+  ]
+}

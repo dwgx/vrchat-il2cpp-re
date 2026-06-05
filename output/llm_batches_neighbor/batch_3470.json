@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "PointerClick_6192",
+  "parent": "",
+  "named_methods": [
+    "OnDestroy",
+    ".ctor",
+    "OnPointerClick",
+    "GetSizes"
+  ],
+  "hash_methods": [
+    "m_B8F",
+    "m_8A3",
+    "m_54D",
+    "m_DFE",
+    "m_742",
+    "m_9CD",
+    "m_DEC",
+    "m_692"
+  ]
+}

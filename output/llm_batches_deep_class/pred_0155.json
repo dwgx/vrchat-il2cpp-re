@@ -1,0 +1,21 @@
+{
+ "UIScroll_0704::m_132": "InitializeIl2CppMetadata",
+ "UIScroll_0704::m_17B": "CopyUncompressedBlockToRingBuffer",
+ "UIScroll_0704::m_18B": "DecodeCommandBlockSwitch",
+ "UIScroll_0704::m_22A": "GetOrCreateGenericMethod",
+ "UIScroll_0704::m_31B": "TryGetGenericInstFromCache",
+ "UIScroll_0704::m_344": "FindStringHashTableEntry",
+ "UIScroll_0704::m_350": "FastDecodeMetaBlock",
+ "UIScroll_0704::m_374": "SwapEntries",
+ "UIScroll_0704::m_377": "SetupInterfaceOffsets",
+ "UIScroll_0704::m_3A1": "EnsureGenericMethodCacheCapacity",
+ "UIScroll_0704::m_3B1": "SafeDecodeLiteralBlockSwitch",
+ "UIScroll_0704::m_3F8": "InitializeClass",
+ "UIScroll_0704::m_41F": "DecodeLiteralBlockSwitch",
+ "UIScroll_0704::m_439": "SafeDecodeMetaBlock",
+ "UIScroll_0704::m_4A5": "SafeDecodeMetaBlock",
+ "UIScroll_0704::m_553": "FastDecodeMetaBlock",
+ "UIScroll_0704::m_587": "RehashStringHashTable",
+ "UIScroll_0704::m_5DF": "SafeDecodeCommandBlockSwitch",
+ "UIScroll_0704::m_645": "SetupInterfaces"
+}

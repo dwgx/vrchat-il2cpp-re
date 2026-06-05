@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "PlayerMoveNext_9EE7",
+  "parent": "",
+  "named_methods": [
+    "get_Current",
+    "Equals",
+    "GetHashCode",
+    "System.Collections.IEnumerator.Reset",
+    "ToString",
+    "Dispose",
+    "System.IDisposable.Dispose",
+    "MoveNext",
+    "System.Collections.IEnumerator.get_Current",
+    ".ctor",
+    "Initialize",
+    "System.Collections.Generic.IEnumerator<System.Object>.get_Current"
+  ],
+  "hash_methods": [
+    "m_F88"
+  ]
+}

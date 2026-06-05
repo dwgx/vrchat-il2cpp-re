@@ -1,0 +1,37 @@
+{
+  "namespace": "",
+  "class": "PlayerMotionApplyComponent_7035",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    "Awake",
+    "OnDestroy",
+    "Start",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    ".ctor",
+    "Initialize",
+    "OnCollisionStay",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit"
+  ],
+  "hash_methods": [
+    "m_CCB",
+    "m_FC9",
+    "m_49D",
+    "m_CB4",
+    "m_976",
+    "m_6AA",
+    "m_B0C",
+    "m_ACC",
+    "m_DA3",
+    "m_F15"
+  ]
+}

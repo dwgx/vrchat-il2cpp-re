@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "MessengerHelperSiblingSiblingSibling_D560",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "OnDisable_0A17D448B2DB",
+    "Start",
+    "OnEnable",
+    "Awake_7FD28589FE1E",
+    "OnDisable_0A17D448B2DB_3CB451386F3C",
+    "OnDestroy",
+    "Awake_B8E25FAD904C",
+    "OnDisable",
+    "Awake"
+  ],
+  "hash_methods": [
+    "m_7FD"
+  ]
+}

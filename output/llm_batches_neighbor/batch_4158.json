@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "OVRTouchpadHelperSiblingSiblinSibling_8560",
+  "parent": "",
+  "named_methods": [
+    "Update_3CB451386F3C",
+    "Awake",
+    "OnDestroy",
+    "Initialize",
+    "Start",
+    "Start_C9ED83B2DF2E",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_55F",
+    "m_44D"
+  ]
+}

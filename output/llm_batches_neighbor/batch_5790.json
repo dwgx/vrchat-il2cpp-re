@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_AF6C",
+  "parent": "",
+  "named_methods": [
+    "SetStateMachine",
+    "ReadRectOffsetState",
+    "MoveNext",
+    "ReadRectOffsetState_E821C8485FEA"
+  ],
+  "hash_methods": [
+    "m_4D8",
+    "m_4E8",
+    "m_752",
+    "m_0A8"
+  ]
+}

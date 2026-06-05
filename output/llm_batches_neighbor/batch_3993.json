@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "WorldSpawnSiblingSibling_D1CC",
+  "parent": "",
+  "named_methods": [
+    "AsUniTask",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "Equals_2684A8BDA075",
+    "Equals_B629CD71EEFB"
+  ],
+  "hash_methods": [
+    "m_F76",
+    "m_263",
+    "m_9DE",
+    "m_C28",
+    "m_63E",
+    "m_912",
+    "m_F3F",
+    "m_001",
+    "m_C7B",
+    "m_05B"
+  ]
+}

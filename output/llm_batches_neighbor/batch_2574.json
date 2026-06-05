@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "TransformCameraHandler_A098",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetFocalLength",
+    "SetLocalRotation",
+    "SetLocalRotation_49EE45F71121",
+    "GetEnabled"
+  ],
+  "hash_methods": [
+    "m_9B3",
+    "m_FEF",
+    "m_18B",
+    "m_EEA",
+    "m_D5A",
+    "m_B46"
+  ]
+}

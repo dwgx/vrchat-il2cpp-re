@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_54BE",
+  "parent": "",
+  "named_methods": [
+    "GetLocalScale",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_72C",
+    "m_A02",
+    "m_CA4",
+    "m_E5C",
+    "m_41A",
+    "m_028"
+  ]
+}

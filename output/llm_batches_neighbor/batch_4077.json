@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "BaseClass4ImplSiblingSibling_742D",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Equals_FBE6FC31B71D",
+    "GetHashCode",
+    "ToString",
+    "ToString_ED0EA487FEBF",
+    "ThrowElementMarshalUnsupported",
+    "Equals_D53E90EA34A5",
+    "Equals_6C608F59ABD9",
+    ".ctor",
+    "Initialize",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_D95",
+    "m_727",
+    "m_1CB",
+    "m_2A0"
+  ]
+}

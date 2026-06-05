@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "ToString",
+    "Initialize",
+    ".ctor",
+    "GetHashCode",
+    ".cctor",
+    "SetRandomRowEnabled"
+  ],
+  "hash_methods": [
+    "m_F58",
+    "m_CE0",
+    "m_475",
+    "m_3AB",
+    "m_B2A"
+  ]
+}

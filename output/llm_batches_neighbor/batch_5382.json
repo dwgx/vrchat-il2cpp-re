@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_0520",
+  "parent": "",
+  "named_methods": [
+    "BuildAssemblyFullName",
+    "MoveNext",
+    "ParseTypeName",
+    "ParseArraySpec",
+    "SkipTypeName",
+    "SetStateMachine"
+  ],
+  "hash_methods": [
+    "m_CE3",
+    "m_0A8",
+    "m_E82"
+  ]
+}

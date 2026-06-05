@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_CCAF",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".ctor",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_B21",
+    "m_840",
+    "m_BF7",
+    "m_811",
+    "m_569",
+    "m_0A0",
+    "m_537",
+    "m_512",
+    "m_609",
+    "m_FEA"
+  ]
+}

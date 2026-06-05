@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "FoldoutListRelatedRelated_98B4",
+  "parent": "",
+  "named_methods": [
+    "IndexOf",
+    ".ctor",
+    "Initialize",
+    "ReadCanvasState",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_04F",
+    "m_BF1",
+    "m_64E",
+    "m_B61",
+    "m_48D",
+    "m_F6B",
+    "m_E7E",
+    "m_8DD",
+    "m_B16",
+    "m_08E"
+  ]
+}

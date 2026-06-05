@@ -1,0 +1,14 @@
+{
+  "namespace": "",
+  "class": "ComplexComponent_8C61SiblingSiSibling_9E96",
+  "parent": "",
+  "named_methods": [
+    "AreListContentsEqual",
+    "AddInvocationDelegate",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_532",
+    "m_8ED"
+  ]
+}

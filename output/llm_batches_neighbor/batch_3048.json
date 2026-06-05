@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "PlayerLeftSiblingSibling_B3B1",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "Equals_6B3E81FCD57E",
+    ".ctor",
+    "Start",
+    "Update",
+    "Equals_B38F61B06BD1"
+  ],
+  "hash_methods": [
+    "m_CC7",
+    "m_81A",
+    "m_212",
+    "m_A30",
+    "m_F17",
+    "m_4F8",
+    "m_D1F",
+    "m_14B",
+    "m_A74",
+    "m_703"
+  ]
+}

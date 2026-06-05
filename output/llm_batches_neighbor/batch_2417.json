@@ -1,0 +1,43 @@
+{
+  "namespace": "",
+  "class": "PhotonConnectionHandler_D6F1",
+  "parent": "",
+  "named_methods": [
+    "RegisterPhotonCustomTypes",
+    "RegisterPhotonCustomTypes_40E266D77E85",
+    "Awake",
+    "StopFallbackSendAckThread",
+    "RealtimeFallbackThread",
+    ".ctor",
+    "Initialize",
+    "ProcessTexture",
+    "ProcessTexture_1858BE66B4B2",
+    "ProcessTexture_8D4E327CDAA3",
+    "OnDestroy",
+    "GetPersistentDataPath",
+    "OnDisable",
+    "GetOrCreateInstance",
+    "GetRealtimeSinceStartup",
+    "OnConnectedToMaster",
+    "OnCustomAuthenticationFailed",
+    "get_Instance",
+    "Start",
+    "OnEnable",
+    "ConfigureParticleEmissionModule",
+    "GetTimeSmoothDeltaTime",
+    "OnEnable_FBF4943E4ECF",
+    "OnDisable_F8BAC96E1BA1"
+  ],
+  "hash_methods": [
+    "m_56F",
+    "m_2CC",
+    "m_EFA",
+    "m_A7C",
+    "m_AB0",
+    "m_4FD",
+    "m_D02",
+    "m_F41",
+    "m_384",
+    "m_3DA"
+  ]
+}

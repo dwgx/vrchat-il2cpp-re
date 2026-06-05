@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "ApplicationSystemInfoHandler_EE2D",
+  "parent": "",
+  "named_methods": [
+    "InsertionSort",
+    "GetDeviceUniqueIdentifier",
+    "GetDeviceUniqueIdentifier_FEB95A2E1CD0",
+    ".ctor",
+    "Initialize",
+    "SwapIfGreater",
+    "GetDeviceUniqueIdentifier_5719D5764680"
+  ],
+  "hash_methods": [
+    "m_E18"
+  ]
+}

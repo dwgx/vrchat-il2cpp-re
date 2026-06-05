@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "Static28m_B886",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_F34",
+    "m_FED",
+    "m_338",
+    "m_19F",
+    "m_4E3",
+    "m_9BA",
+    "m_FB9",
+    "m_8F7",
+    "m_1A7",
+    "m_2B6"
+  ]
+}

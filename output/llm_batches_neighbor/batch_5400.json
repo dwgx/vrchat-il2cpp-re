@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_5F56",
+  "parent": "",
+  "named_methods": [
+    "MoveNext",
+    "ThrowTextureMarshalNotSupportedException",
+    "SetStateMachine",
+    "Equals"
+  ],
+  "hash_methods": [
+    "m_7F6",
+    "m_4D8",
+    "m_06D",
+    "m_752",
+    "m_015",
+    "m_4E8"
+  ]
+}

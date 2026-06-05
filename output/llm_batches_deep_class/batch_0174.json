@@ -1,0 +1,59 @@
+{
+ "class": "ctorDerivedSiblingSibling_34BC",
+ "parent": "",
+ "named_methods": [
+  "Highlight"
+ ],
+ "hash_methods_with_pseudo": [
+  {
+   "name": "m_384",
+   "pseudocode": "__int64 __fastcall sub_180ADA640(__int64 a1, __int64 a2, __int64 a3)\n{\n  __int64 v5; // r8\n  __int64 v6; // r9\n  unsigned __int16 *v7; // rbx\n  unsigned __int64 i; // rdx\n  _QWORD *v9; // rbx\n  _QWORD *v10; // rdi\n  unsigned __int64 v11; // r14\n  __int64 v12; // rsi\n  _QWORD *v13; // r15\n  _QWORD *v14; // rdx\n  unsigned __int64 v15; // r8\n  unsigned __int64 *v16; // rcx\n  bool v17; // bl\n  __int64 v18; // rcx\n  unsigned __int8 v19; // bl\n  _QWORD *v21; // [rsp+20h] [rbp-60h] BYREF\n  _QWORD *v22; // [rsp+28h] [rbp-58h]\n  __int128 v23; // [rsp+38h] [rbp-48h] BYREF\n  __int64 v24; // [rsp+48h] [rbp-38h]\n  unsigned __int64 v25; // [rsp+50h] [rbp-30h]\n  _QWORD v26[5]; // [rsp+58h] [rbp-28h] BYREF\n  __int64 v27; // [rsp+C8h] [rbp+48h] BYREF\n\n  IDataWriter__WriteInt64(&v21, a1);\n  v7 = (unsigned __int16 *)(a2 + 20);\n  for ( i = 0; *v7; ++i )\n    ++v7;\n  v23 = 0;\n  v24 = 0;\n  v25 = 15;\n  LOBYTE(v23) = 0;\n  sub_180A413F0((__int64 *)&v23, i, v5, v6);\n  sub_180ADD5E0(&v27, (unsigned __int16 *)(a2 + 20), v7, (__int64)&v23);\n  sub_180A40AF0(v26, &v23);\n  v9 = v21;\n  v10 = v22;\n  if ( v21 != v22 )\n  {\n    v11 = v26[3];\n    v12 = v26[2];\n    v13 = (_QWORD *)v26[0];\n    do\n    {\n      v14 = v26;\n      if ( v11 > 0xF )\n        v14 = v13;\n      v15 = v9[3];\n      v16 = v9 + 1;\n      if ( v9[4] > 0xFu )\n        v16 = (unsigned __int64 *)v9[1];\n      if ( v15 == v12 && (!v15 || !(unsigned int)sub_180B275D0(v16, (__int64)v14, v15)) )\n        break;\n      v9 += 6;\n    }\n    while ( v9 != v10 );\n  }\n  sub_180A40BF0(v26);\n  v17 = v9 != v22;\n  if ( v25 > 0xF )\n  {\n    v18 = v23;\n    if ( v25 + 1 >= 0x1000 )\n    {\n      if ( (unsigned __int64)(v23 - *(_QWORD *)(v23 - 8) - 8) > 0x1F )\n        invalid_parameter_noinfo_noreturn();\n      v18 = *(_QWORD *)(v23 - 8);\n    }\n    sub_180AF6A48(v18);\n  }\n  if ( v17 )\n  {\n    *(_DWORD *)(a3 + 32) = 5;\n    v19 = 1;\n  }\n  else\n  {\n    v19 = 0;\n  }\n  sub_180ADAAD0(&v21);\n  return v19;\n}\n"
+  }
+ ],
+ "hash_methods_no_pseudo": [
+  "m_062",
+  "m_082",
+  "m_0B1",
+  "m_0D8",
+  "m_0E8",
+  "m_165",
+  "m_19F",
+  "m_1A5",
+  "m_203",
+  "m_21B",
+  "m_235",
+  "m_23F",
+  "m_31A",
+  "m_321",
+  "m_323",
+  "m_32A",
+  "m_409",
+  "m_43A",
+  "m_4B0",
+  "m_4DE",
+  "m_4EB",
+  "m_51A",
+  "m_561",
+  "m_574",
+  "m_5AB",
+  "m_639",
+  "m_6CE",
+  "m_88D",
+  "m_8BF",
+  "m_8FA",
+  "m_9C4",
+  "m_A3B",
+  "m_A62",
+  "m_A7D",
+  "m_CC2",
+  "m_D08",
+  "m_D2D",
+  "m_D48",
+  "m_D73",
+  "m_D77",
+  "m_DE3",
+  "m_E88",
+  "m_E8D",
+  "m_F95"
+ ]
+}

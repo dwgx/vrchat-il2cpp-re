@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_E787",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "OnDestroy",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_0C0",
+    "m_A2A",
+    "m_72C",
+    "m_33A",
+    "m_6F6",
+    "m_118",
+    "m_283"
+  ]
+}

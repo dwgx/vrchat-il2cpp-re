@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Initialize_ACE08F",
+    "Initialize",
+    "GetCachedPtr",
+    ".cctor",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_C0C",
+    "m_4A0",
+    "m_7D6",
+    "m_6EF",
+    "m_405",
+    "m_FB2"
+  ]
+}

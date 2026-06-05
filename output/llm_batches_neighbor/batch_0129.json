@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "set_name",
+    "ReadLossyScale",
+    "Initialize_0A4F05B522FB",
+    ".cctor"
+  ],
+  "hash_methods": [
+    "m_B0C",
+    "m_FB4",
+    "m_A1D",
+    "m_341",
+    "m_FF0"
+  ]
+}

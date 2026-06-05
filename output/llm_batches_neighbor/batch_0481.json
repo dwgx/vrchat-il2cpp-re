@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "ResolutionStruct",
+  "parent": "",
+  "named_methods": [
+    "Initialize",
+    ".ctor",
+    ".ctor",
+    "Initialize_01DE4B8EF54F",
+    "Initialize_AC4468F2800D",
+    "Initialize_E87586C47935",
+    "ToString",
+    "Initialize_AC26B8FC0BFF"
+  ],
+  "hash_methods": [
+    "m_287"
+  ]
+}

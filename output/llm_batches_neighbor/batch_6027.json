@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "hasTexture_5536",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "Start",
+    ".ctor",
+    "Initialize",
+    "SetShadowBias",
+    "SetMaterial",
+    "SetStartWidth",
+    "SetIsStaticShadowCaster",
+    "SetStartWidth_C1A640872865",
+    "SetTextureScale",
+    "SetStartWidth_8C60CE4747AC",
+    "SetWidthMultiplier",
+    "Awake",
+    "OnDestroy"
+  ],
+  "hash_methods": [
+    "m_3F6"
+  ]
+}

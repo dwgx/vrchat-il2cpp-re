@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static24m_557C",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    "Update",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_04F",
+    "m_AD3",
+    "m_EE9",
+    "m_6C2",
+    "m_171",
+    "m_569",
+    "m_A74",
+    "m_4CE",
+    "m_9F1"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "Static14m_EFAD",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_729",
+    "m_8A3",
+    "m_0C0",
+    "m_A41",
+    "m_CE6",
+    "m_BA8",
+    "m_515",
+    "m_661",
+    "m_385"
+  ]
+}

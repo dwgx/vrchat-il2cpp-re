@@ -1,0 +1,34 @@
+{
+  "namespace": "",
+  "class": "BehaviourComponentHandler_474D",
+  "parent": "",
+  "named_methods": [
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "OnBecameVisible",
+    "Initialize",
+    "Awake",
+    "Start",
+    "OnCollisionExit",
+    "OnTriggerEnter",
+    "OnTriggerStay",
+    "OnTriggerExit",
+    ".ctor",
+    "Initialize",
+    "CalculateSignedAngle",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    "OnCollisionStay",
+    "GetEnabled"
+  ],
+  "hash_methods": [
+    "m_3F5",
+    "m_BA9",
+    "m_BAF"
+  ]
+}

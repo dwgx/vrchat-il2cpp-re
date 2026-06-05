@@ -1,0 +1,18 @@
+{
+  "namespace": "",
+  "class": "Configure_7586",
+  "parent": "",
+  "named_methods": [
+    "Configure",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_419",
+    "m_6D5",
+    "m_302",
+    "m_C9E",
+    "m_C77",
+    "m_0E5"
+  ]
+}

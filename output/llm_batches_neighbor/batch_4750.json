@@ -1,0 +1,26 @@
+{
+  "namespace": "",
+  "class": "ComponentGameObjectHandler_2393",
+  "parent": "",
+  "named_methods": [
+    "GetDeltaTime",
+    "Awake",
+    "OnEnable",
+    "GetDeltaTime_E575FE2BFAD6",
+    "FixedUpdate",
+    "Update",
+    "LateUpdate",
+    "OnDisable",
+    "OnDestroy",
+    "OnApplicationPause",
+    "OnApplicationQuit",
+    "Start",
+    "OnBecameInvisible",
+    "OnCollisionEnter",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_5AF",
+    "m_0EC"
+  ]
+}

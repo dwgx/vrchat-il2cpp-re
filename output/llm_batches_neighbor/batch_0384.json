@@ -1,0 +1,23 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "IsInvoking",
+    ".ctor",
+    "Instantiate",
+    "Instantiate_52C0758B87B6",
+    "get_name",
+    ".cctor",
+    "ReadRectTransformState"
+  ],
+  "hash_methods": [
+    "m_F56",
+    "m_B89",
+    "m_5A8",
+    "m_E42",
+    "m_981",
+    "m_3A8"
+  ]
+}

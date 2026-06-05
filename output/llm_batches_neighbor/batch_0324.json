@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "RegQueryValueExW",
+    "get_name",
+    ".cctor",
+    "get_name_6A6FDA330886",
+    "StartCoroutine",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_16D",
+    "m_01A",
+    "m_2C3",
+    "m_FD6",
+    "m_31D"
+  ]
+}

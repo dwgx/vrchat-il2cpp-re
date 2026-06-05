@@ -350,9 +350,8 @@ namespace VRC.Network
         public void RegisterOnExitFunction_95DF3ECA53E5(){} // RVA: 0x7FFAF4B0DB10
         public void ExecuteOnExitTable(){} // RVA: 0x7FFAF4B0DC40
         public void InitializeCrtRuntime(){} // RVA: 0x7FFAF4B0DD70
+        public void InitializeOnExitTable(){} // RVA: 0x7FFAF4B0DEA0
         public void Dispose(){} // RVA: 0x7FFAF4B0DFD0
-        // ── Unresolved (hash) ──
-        public void m_937(){} // RVA: 0x7FFAF4B0DEA0
     }
 
     /// <summary>Originally: ÌÌÌÍÏÌÌÍÏÏÌÎÏÍÌÎÍÌÌÌÎÍÏ</summary>
@@ -681,13 +680,12 @@ namespace VRC.Network
         // ── Methods ──
         public void Dispose(){} // RVA: 0x7FFAF4A33920
         public void Cleanup(){} // RVA: 0x7FFAF4A33990
+        public void BuildHuffmanTree(){} // RVA: 0x7FFAF4A33AF0
         public void ClearHuffmanTables(){} // RVA: 0x7FFAF4A33C50
         public void PqDownHeap(){} // RVA: 0x7FFAF4A33DB0
         public void GenerateBitLengths(){} // RVA: 0x7FFAF4A33F10
         public void GenerateHuffmanCodes(){} // RVA: 0x7FFAF4A34070
         public void BuildHuffmanDecodeTable(){} // RVA: 0x7FFAF4A340E0
-        // ── Unresolved (hash) ──
-        public void m_410(){} // RVA: 0x7FFAF4A33AF0
     }
 
     /// <summary>Originally: ÌÌÎÌÏÏÏÌÍÏÎÍÍÎÏÏÌÎÏÎÎÍÏ</summary>
@@ -926,11 +924,11 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_BA0E
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFAF4A20EF0
         public void Dispose(){} // RVA: 0x7FFAF4A21030
         public void Cleanup(){} // RVA: 0x7FFAF4A210A0
         // ── Unresolved (hash) ──
         public void m_6F8(){} // RVA: 0x7FFAF4A20E80
+        public void m_24F(){} // RVA: 0x7FFAF4A20EF0
         public void m_51F(){} // RVA: 0x7FFAF4A211E0
         public void m_C01(){} // RVA: 0x7FFAF4A21250
         public void m_CF3(){} // RVA: 0x7FFAF4A21390
@@ -1032,13 +1030,13 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_E3C6
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF4B52E70
         public void CacheInitialLocalTransform(){} // RVA: 0x7FFAF4B53140
         // ── Unresolved (hash) ──
         public void m_77C(){} // RVA: 0x7FFAF4B52600
         public void m_AEE(){} // RVA: 0x7FFAF4B528D0
         public void m_CB6(){} // RVA: 0x7FFAF4584690
         public void m_96F(){} // RVA: 0x7FFAF4B52BA0
+        public void m_943(){} // RVA: 0x7FFAF4B52E70
         public void m_4D0(){} // RVA: 0x7FFAF4584690
     }
 

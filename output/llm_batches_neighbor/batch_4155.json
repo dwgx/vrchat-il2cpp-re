@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "Static12m_32A8",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "OnEnable",
+    "OnDisable"
+  ],
+  "hash_methods": [
+    "m_196",
+    "m_CCE",
+    "m_88F",
+    "m_B47",
+    "m_EBC",
+    "m_BD8",
+    "m_3CB",
+    "m_7F7"
+  ]
+}

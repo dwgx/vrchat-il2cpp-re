@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "PhysicsScene2DHandler_5443",
+  "parent": "",
+  "named_methods": [
+    "OnEnable",
+    "OnDisable",
+    "ProcessPhysics",
+    ".ctor",
+    "Start"
+  ],
+  "hash_methods": [
+    "m_4B9",
+    "m_9B8",
+    "m_268",
+    "m_E93",
+    "m_A74",
+    "m_70F",
+    "m_A79",
+    "m_C47",
+    "m_B8E",
+    "m_C9E"
+  ]
+}

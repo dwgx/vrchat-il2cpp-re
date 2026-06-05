@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "PointerEnterSiblingSibling_D8E7",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "OnDestroy",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_1B3",
+    "m_BEE",
+    "m_6F5",
+    "m_C00",
+    "m_A70",
+    "m_BFD",
+    "m_F46"
+  ]
+}

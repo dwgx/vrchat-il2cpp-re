@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "VRC_MainSiblingSibling_2422",
+  "parent": "",
+  "named_methods": [
+    "Start",
+    "Highlight",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_C6C",
+    "m_43A",
+    "m_193",
+    "m_3E0",
+    "m_A32",
+    "m_499",
+    "m_3FD",
+    "m_562",
+    "m_BA5",
+    "m_4A3"
+  ]
+}

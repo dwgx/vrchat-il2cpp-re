@@ -1,0 +1,17 @@
+{
+  "namespace": "",
+  "class": "AsyncStateMachine_435A",
+  "parent": "",
+  "named_methods": [
+    "GetIsHuman",
+    "MoveNext",
+    "GetHashCode",
+    "SetStateMachine",
+    "ToString",
+    "Equals",
+    "Equals_01517EFCE392"
+  ],
+  "hash_methods": [
+    "m_DB9"
+  ]
+}

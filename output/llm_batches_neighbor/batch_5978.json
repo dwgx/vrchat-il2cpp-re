@@ -1,0 +1,24 @@
+{
+  "namespace": "",
+  "class": "RequiresStoring_5E04",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "set_RequiresStoring",
+    ".ctor",
+    "get_RequiresStoring"
+  ],
+  "hash_methods": [
+    "m_B63",
+    "m_B5E",
+    "m_289",
+    "m_7C2",
+    "m_679",
+    "m_B09",
+    "m_E74",
+    "m_A7C",
+    "m_5A2",
+    "m_82C"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "get_name",
+    "DestroyImmediate",
+    ".cctor",
+    "Equals_86E9DF89CDF2",
+    "op_Implicit",
+    ".ctor"
+  ],
+  "hash_methods": [
+    "m_054",
+    "m_1AE",
+    "m_413",
+    "m_5E2",
+    "m_17F"
+  ]
+}

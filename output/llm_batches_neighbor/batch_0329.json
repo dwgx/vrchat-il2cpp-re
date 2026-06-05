@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "<>c",
+  "parent": "",
+  "named_methods": [
+    "Equals",
+    "ProcessTransform",
+    ".ctor",
+    ".cctor",
+    "op_Implicit_08EE0CED7801",
+    "Instantiate"
+  ],
+  "hash_methods": [
+    "m_375",
+    "m_C98",
+    "m_D29",
+    "m_609",
+    "m_7F1"
+  ]
+}

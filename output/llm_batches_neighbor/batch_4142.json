@@ -1,0 +1,19 @@
+{
+  "namespace": "",
+  "class": "Static10m_BECE",
+  "parent": "",
+  "named_methods": [
+    "ReadCapsuleColliderState",
+    ".ctor",
+    "Initialize",
+    "ReadCapsuleColliderState_05C6AE5D5ECE"
+  ],
+  "hash_methods": [
+    "m_C41",
+    "m_94A",
+    "m_675",
+    "m_A17",
+    "m_F9D",
+    "m_016"
+  ]
+}

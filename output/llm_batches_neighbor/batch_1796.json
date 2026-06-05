@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "UIRectTransformDimensionsChBefSibling_85AF",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_860",
+    "m_F87",
+    "m_75F",
+    "m_7E0",
+    "m_AF8",
+    "m_C0C",
+    "m_A57",
+    "m_5A4",
+    "m_9B8",
+    "m_AE6"
+  ]
+}

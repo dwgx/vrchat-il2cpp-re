@@ -1,0 +1,22 @@
+{
+  "namespace": "",
+  "class": "NetworkSyncableSibling_2D86",
+  "parent": "",
+  "named_methods": [
+    ".cctor",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_DFD",
+    "m_EFF",
+    "m_E41",
+    "m_C18",
+    "m_E28",
+    "m_3C0",
+    "m_49E",
+    "m_32F",
+    "m_6EB",
+    "m_999"
+  ]
+}

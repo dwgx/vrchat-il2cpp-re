@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "ApplicationHandler_E393",
+  "parent": "",
+  "named_methods": [
+    ".ctor",
+    "Initialize",
+    "GetPersistentDataPath",
+    "GetPersistentDataPath_85A9DED518BA"
+  ],
+  "hash_methods": [
+    "m_2CE",
+    "m_5B4",
+    "m_E08",
+    "m_D01",
+    "m_B80",
+    "m_7E1",
+    "m_A36",
+    "m_CFF"
+  ]
+}

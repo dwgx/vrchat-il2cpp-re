@@ -1,0 +1,25 @@
+{
+  "namespace": "",
+  "class": "TransformHandler_0E1C",
+  "parent": "",
+  "named_methods": [
+    "Awake",
+    "Start",
+    "Update",
+    "Equals",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_A41",
+    "m_3CA",
+    "m_FEE",
+    "m_634",
+    "m_71B",
+    "m_07F",
+    "m_2C5",
+    "m_6F5",
+    "m_FC3",
+    "m_EDF"
+  ]
+}

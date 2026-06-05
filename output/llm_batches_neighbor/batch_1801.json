@@ -1,0 +1,29 @@
+{
+  "namespace": "",
+  "class": "IsInteractiveInteractSibling_2237",
+  "parent": "",
+  "named_methods": [
+    "StructuralGetHashCode",
+    "GetHashCode",
+    "Equals",
+    ".ctor",
+    "Initialize",
+    "Equals_31B927F603EA",
+    "Equals_25015CB02698",
+    "Start",
+    "GetLocalRotation",
+    "Equals_72DDD69170B1"
+  ],
+  "hash_methods": [
+    "m_E57",
+    "m_219",
+    "m_A46",
+    "m_1EB",
+    "m_21B",
+    "m_280",
+    "m_43D",
+    "m_90A",
+    "m_BBF",
+    "m_3C7"
+  ]
+}

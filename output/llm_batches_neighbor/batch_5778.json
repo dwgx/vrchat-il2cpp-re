@@ -1,0 +1,21 @@
+{
+  "namespace": "",
+  "class": "UICompareTo_75E9",
+  "parent": "",
+  "named_methods": [
+    "CompareTo",
+    "CompareTo",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_3C8",
+    "m_28F",
+    "m_2DD",
+    "m_00F",
+    "m_6A0",
+    "m_DF1",
+    "m_C33",
+    "m_7D8"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "namespace": "",
+  "class": "NetworkReadyHandler_98F0",
+  "parent": "",
+  "named_methods": [
+    "OnNetworkReady",
+    ".ctor",
+    "Initialize"
+  ],
+  "hash_methods": [
+    "m_0C9",
+    "m_6A7",
+    "m_B4E",
+    "m_7AA",
+    "m_359",
+    "m_225",
+    "m_026",
+    "m_017"
+  ]
+}
