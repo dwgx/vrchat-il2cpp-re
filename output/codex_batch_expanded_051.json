@@ -1,0 +1,181 @@
+[
+  {
+    "class": "Static18m_A37E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9B7",
+      "m_ED0",
+      "m_F2E",
+      "m_035",
+      "m_EF3",
+      "m_648",
+      "m_731",
+      "m_515",
+      "m_1E6",
+      "m_64F",
+      "m_AFF",
+      "m_DFD"
+    ]
+  },
+  {
+    "class": "LifecycleComponentImpl_AB77SibSibling_17DC",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnApplicationPause"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_076",
+      "m_A74"
+    ]
+  },
+  {
+    "class": "LifecycleComponentImpl_E2CCSibSibling_06E7",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible"
+    ],
+    "fields": [
+      "_06E7"
+    ],
+    "hash_methods": [
+      "m_716",
+      "m_CB2"
+    ]
+  },
+  {
+    "class": "LoadingInfoData",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "CreateInstance",
+      "CreateScriptableObject",
+      "DoSlerp_Injected"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2E2",
+      "m_C28"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1ESiblingSibling_104C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6B3",
+      "m_04C",
+      "m_BC0",
+      "m_A74",
+      "m_428",
+      "m_94C",
+      "m_C13",
+      "m_611",
+      "m_81C"
+    ]
+  },
+  {
+    "class": "DisconnectReceive_2C39",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2A6",
+      "m_4CC",
+      "m_5ED",
+      "m_A66",
+      "m_0FD",
+      "m_417",
+      "m_8B1",
+      "m_252",
+      "m_F82",
+      "m_85D",
+      "m_29C",
+      "m_00D"
+    ]
+  },
+  {
+    "class": "mainTexturePopulateMesh_800B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_mainTexture"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_853",
+      "m_B27",
+      "m_355",
+      "m_E64",
+      "m_DFC",
+      "m_603",
+      "m_D61",
+      "m_E44",
+      "m_11E",
+      "m_68A",
+      "m_275"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_F2C3",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F46",
+      "m_126"
+    ]
+  },
+  {
+    "class": "Rotor",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "InternalEquals",
+      "DefaultEquals",
+      "InternalGetHashCode"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_955",
+      "m_0B5"
+    ]
+  },
+  {
+    "class": "IVRCPlatformChecker",
+    "parent": "",
+    "namespace": "VRC.SDK3.Internal",
+    "readable_methods": [
+      "GetLastServiceDescriptor",
+      "GetValueAsByte",
+      "Enable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_269"
+    ]
+  }
+]

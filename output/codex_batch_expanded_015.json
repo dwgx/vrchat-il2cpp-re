@@ -1,0 +1,218 @@
+[
+  {
+    "class": "PointerDownPointerUpHandler_382C_8F4E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_SensorSize",
+      "OnDrag",
+      "OnPointerUp",
+      "IsValid",
+      "OnPointerDown"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_ECD"
+    ]
+  },
+  {
+    "class": "VRCSentryBuildTimeConfiguration",
+    "parent": "",
+    "namespace": "VRC.RemoteLogging",
+    "readable_methods": [
+      "ProcessCollider",
+      "ConfigureSentryOptions",
+      "ConfigureSentryOptionsVariant",
+      "ApplySettings"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A88",
+      "m_3B9"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_8724",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_931",
+      "m_E2A",
+      "m_8B6",
+      "m_A66",
+      "m_EF2",
+      "m_423",
+      "m_C64",
+      "m_686",
+      "m_E79",
+      "m_7FD",
+      "m_FE6",
+      "m_3D5"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_8724",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_931",
+      "m_E2A",
+      "m_8B6",
+      "m_A66",
+      "m_EF2",
+      "m_423",
+      "m_C64",
+      "m_686",
+      "m_E79",
+      "m_7FD",
+      "m_FE6",
+      "m_3D5"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_8724",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_931",
+      "m_E2A",
+      "m_8B6",
+      "m_A66",
+      "m_EF2",
+      "m_423",
+      "m_C64",
+      "m_686",
+      "m_E79",
+      "m_7FD",
+      "m_FE6",
+      "m_3D5"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_8724",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_931",
+      "m_E2A",
+      "m_8B6",
+      "m_A66",
+      "m_EF2",
+      "m_423",
+      "m_C64",
+      "m_686",
+      "m_E79",
+      "m_7FD",
+      "m_FE6",
+      "m_3D5"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_8724",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_931",
+      "m_E2A",
+      "m_8B6",
+      "m_A66",
+      "m_EF2",
+      "m_423",
+      "m_C64",
+      "m_686",
+      "m_E79",
+      "m_7FD",
+      "m_FE6",
+      "m_3D5"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_AEC0",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C64",
+      "m_6F8",
+      "m_AED",
+      "m_A66",
+      "m_4CF",
+      "m_2D4",
+      "m_E9D",
+      "m_3D5",
+      "m_AEB",
+      "m_1BE",
+      "m_F72",
+      "m_E2A"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_088A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3D5",
+      "m_6A1",
+      "m_2D4",
+      "m_3D4",
+      "m_C64",
+      "m_7FD",
+      "m_600",
+      "m_F2B",
+      "m_019",
+      "m_A66",
+      "m_E2A",
+      "m_AEB"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_088A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3D5",
+      "m_6A1",
+      "m_2D4",
+      "m_3D4",
+      "m_C64",
+      "m_7FD",
+      "m_600",
+      "m_F2B",
+      "m_019",
+      "m_A66",
+      "m_E2A",
+      "m_AEB"
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "class": "NetworkReadyHandler_3F9B",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnSpawn",
+      "OnNetworkReady",
+      ".cctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BC2",
+      "m_BD8",
+      "m_87D",
+      "m_262",
+      "m_3F4",
+      "m_B2F",
+      "m_32A",
+      "m_8D0",
+      "m_642",
+      "m_B95",
+      "m_963",
+      "m_380"
+    ],
+    "remaining_hash_methods": 29,
+    "total_methods": 38,
+    "signal_score": 90
+  },
+  {
+    "class": "InvisibleBehaviour_7932",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnCollisionEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3CB",
+      "m_D4E",
+      "m_4BB"
+    ],
+    "remaining_hash_methods": 3,
+    "total_methods": 20,
+    "signal_score": 88
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_4201",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AF5",
+      "m_AEA"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 18,
+    "signal_score": 88
+  },
+  {
+    "class": "DescriptorParser_3830",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Start",
+      "OnEnable",
+      ".ctor"
+    ],
+    "fields": [
+      "Parser",
+      "Descriptor"
+    ],
+    "hash_methods": [
+      "m_170",
+      "m_4E4",
+      "m_571",
+      "m_155",
+      "m_7FB",
+      "m_BCB",
+      "m_99C",
+      "m_36D",
+      "m_44E",
+      "m_3F5",
+      "m_463",
+      "m_8D4"
+    ],
+    "remaining_hash_methods": 26,
+    "total_methods": 34,
+    "signal_score": 88
+  },
+  {
+    "class": "PlayerLeft_0AA8",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnPlayerLeft",
+      ".ctor",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_852",
+      "m_A24",
+      "m_B1A",
+      "m_D1F",
+      "m_14B",
+      "m_106",
+      "m_81A",
+      "m_703",
+      "m_111",
+      "m_897",
+      "m_CC7",
+      "m_7C1"
+    ],
+    "remaining_hash_methods": 28,
+    "total_methods": 31,
+    "signal_score": 88
+  }
+]

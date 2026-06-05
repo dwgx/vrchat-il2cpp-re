@@ -1,0 +1,93 @@
+[
+  {
+    "namespace": "",
+    "class": "VRCPlayerSiblingSibling_2549",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E55",
+      "m_641",
+      "m_A4E",
+      "m_326",
+      "m_057",
+      "m_1DC",
+      "m_F2A",
+      "m_A78",
+      "m_C9C",
+      "m_ECD",
+      "m_AB3",
+      "m_117",
+      "m_A3D",
+      "m_4AC",
+      "m_42C",
+      "m_222",
+      "m_991",
+      "m_2F5",
+      "m_56E",
+      "m_A08",
+      "m_E4C",
+      "m_DCC",
+      "m_115",
+      "m_A89",
+      "m_B92"
+    ],
+    "all_method_count": 28,
+    "chunk_index": 0,
+    "chunk_count": 2
+  },
+  {
+    "namespace": "",
+    "class": "VRCPlayerSiblingSibling_2549",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DEF"
+    ],
+    "all_method_count": 28,
+    "chunk_index": 1,
+    "chunk_count": 2
+  },
+  {
+    "namespace": "",
+    "class": "VRCPlayerSiblingSibling_26E5",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3F1",
+      "m_70B",
+      "m_B98",
+      "m_E2F",
+      "m_852",
+      "m_018",
+      "m_A6E",
+      "m_21C",
+      "m_D57",
+      "m_385",
+      "m_D00",
+      "m_849",
+      "m_8D3",
+      "m_A85",
+      "m_761",
+      "m_1B9",
+      "m_EB6",
+      "m_F80",
+      "m_E61",
+      "m_8F8",
+      "m_E24",
+      "m_E84"
+    ],
+    "all_method_count": 25
+  }
+]

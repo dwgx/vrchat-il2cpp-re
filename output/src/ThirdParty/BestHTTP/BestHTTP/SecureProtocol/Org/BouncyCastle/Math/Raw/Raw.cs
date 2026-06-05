@@ -5,352 +5,352 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.Raw
 {
-    public class Interleave : Object
+    public class Interleave
     {
         // ── Methods ──
-        public void Expand8to16(){} // RVA: 0x7FFE8A3F6F60
-        public void Expand16to32(){} // RVA: 0x7FFE8A3F6F90
-        public void Expand32to64(){} // RVA: 0x7FFE8A3F6FD0
-        public void Expand64To128(){} // RVA: 0x7FFE8A3F7060
-        public void Expand64To128Rev(){} // RVA: 0x7FFE8A3F7160
-        public void Shuffle(){} // RVA: 0x7FFE8A3F72E0 | overloaded x2
-        public void Shuffle2(){} // RVA: 0x7FFE8A3F7390
-        public void Unshuffle(){} // RVA: 0x7FFE8A3F7470 | overloaded x2
-        public void Unshuffle2(){} // RVA: 0x7FFE8A3F7520
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Expand8to16(){} // RVA: 0x7FFAFC44B530
+        public void Expand16to32(){} // RVA: 0x7FFAFC44B560
+        public void Expand32to64(){} // RVA: 0x7FFAFC44B5A0
+        public void Expand64To128(){} // RVA: 0x7FFAFC44B630
+        public void Expand64To128Rev(){} // RVA: 0x7FFAFC44B730
+        public void Shuffle(){} // RVA: 0x7FFAFC44B8B0 | overloaded x2
+        public void Shuffle2(){} // RVA: 0x7FFAFC44B960
+        public void Unshuffle(){} // RVA: 0x7FFAFC44BA40 | overloaded x2
+        public void Unshuffle2(){} // RVA: 0x7FFAFC44BAF0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Mod : Object
+    public class Mod
     {
         // ── Methods ──
-        public void Invert(){} // RVA: 0x7FFE8A3F7590
-        public void Random(){} // RVA: 0x7FFE8A3F7CE0
-        public void Add(){} // RVA: 0x7FFE8A3F7F30
-        public void Subtract(){} // RVA: 0x7FFE8A3F8030
-        public void InversionResult(){} // RVA: 0x7FFE8A3F8120
-        public void InversionStep(){} // RVA: 0x7FFE8A3F81D0
-        public void GetTrailingZeroes(){} // RVA: 0x7FFE8A3F8440
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE8A3F8460
+        public void Invert(){} // RVA: 0x7FFAFC44BB60
+        public void Random(){} // RVA: 0x7FFAFC44C2B0
+        public void Add(){} // RVA: 0x7FFAFC44C500
+        public void Subtract(){} // RVA: 0x7FFAFC44C600
+        public void InversionResult(){} // RVA: 0x7FFAFC44C6F0
+        public void InversionStep(){} // RVA: 0x7FFAFC44C7A0
+        public void GetTrailingZeroes(){} // RVA: 0x7FFAFC44CA10
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFC44CA30
     }
 
-    public class Nat : Object
+    public class Nat
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFE8A3F8520
-        public void Add33At(){} // RVA: 0x7FFE8A3F8640 | overloaded x2
-        public void Add33To(){} // RVA: 0x7FFE8A3F87A0 | overloaded x2
-        public void AddBothTo(){} // RVA: 0x7FFE8A3F88E0 | overloaded x2
-        public void AddDWordAt(){} // RVA: 0x7FFE8A3F8A70 | overloaded x2
-        public void AddDWordTo(){} // RVA: 0x7FFE8A3F8BE0 | overloaded x2
-        public void AddTo(){} // RVA: 0x7FFE8A3F8DA0 | overloaded x3
-        public void AddToEachOther(){} // RVA: 0x7FFE8A3F8E40
-        public void AddWordAt(){} // RVA: 0x7FFE8A3F8F60 | overloaded x2
-        public void AddWordTo(){} // RVA: 0x7FFE8A3F9070 | overloaded x2
-        public void CAdd(){} // RVA: 0x7FFE8A3F90F0
-        public void CMov(){} // RVA: 0x7FFE8A3F9190 | overloaded x2
-        public void Copy(){} // RVA: 0x7FFE8A3F92E0 | overloaded x3
-        public void Copy64(){} // RVA: 0x7FFE8A3F92E0 | overloaded x3
-        public void Create(){} // RVA: 0x7FFE8A3F9390
-        public void Create64(){} // RVA: 0x7FFE8A3F93D0
-        public void CSub(){} // RVA: 0x7FFE8A3F94B0 | overloaded x2
-        public void Dec(){} // RVA: 0x7FFE8A3F95F0 | overloaded x2
-        public void DecAt(){} // RVA: 0x7FFE8A3F96E0 | overloaded x2
-        public void Eq(){} // RVA: 0x7FFE8A3F9740
-        public void FromBigInteger(){} // RVA: 0x7FFE8A3F97A0
-        public void FromBigInteger64(){} // RVA: 0x7FFE8A3F98D0
-        public void GetBit(){} // RVA: 0x7FFE8A3F9A30
-        public void Gte(){} // RVA: 0x7FFE8A3F9A90
-        public void Inc(){} // RVA: 0x7FFE8A3F9B40 | overloaded x2
-        public void IncAt(){} // RVA: 0x7FFE8A3F9C20 | overloaded x2
-        public void IsOne(){} // RVA: 0x7FFE8A3F9C80
-        public void IsZero(){} // RVA: 0x7FFE8A3F9CE0
-        public void Mul(){} // RVA: 0x7FFE8A3FA040 | overloaded x3
-        public void MulAddTo(){} // RVA: 0x7FFE8A3FA330 | overloaded x2
-        public void Mul31BothAdd(){} // RVA: 0x7FFE8A3FA480
-        public void MulWord(){} // RVA: 0x7FFE8A3FA5C0 | overloaded x2
-        public void MulWordAddTo(){} // RVA: 0x7FFE8A3FA660
-        public void MulWordDwordAddAt(){} // RVA: 0x7FFE8A3FA710
-        public void ShiftDownBit(){} // RVA: 0x7FFE8A3FA900 | overloaded x4
-        public void ShiftDownBits(){} // RVA: 0x7FFE8A3FAB70 | overloaded x4
-        public void ShiftDownWord(){} // RVA: 0x7FFE8A3FAC40
-        public void ShiftUpBit(){} // RVA: 0x7FFE8A3FADC0 | overloaded x4
-        public void ShiftUpBit64(){} // RVA: 0x7FFE8A3FAE60
-        public void ShiftUpBits(){} // RVA: 0x7FFE8A3FB1B0 | overloaded x4
-        public void ShiftUpBits64(){} // RVA: 0x7FFE8A3FB280 | overloaded x2
-        public void Square(){} // RVA: 0x7FFE8A3FB540 | overloaded x2
-        public void SquareWordAdd(){} // RVA: 0x7FFE8A3FB800 | overloaded x2
-        public void SquareWordAddTo(){} // RVA: 0x7FFE8A3FB800 | overloaded x2
-        public void Sub(){} // RVA: 0x7FFE8A3FB930 | overloaded x2
-        public void Sub33At(){} // RVA: 0x7FFE8A3FBAB0 | overloaded x2
-        public void Sub33From(){} // RVA: 0x7FFE8A3FBC30 | overloaded x2
-        public void SubBothFrom(){} // RVA: 0x7FFE8A3FBD70 | overloaded x2
-        public void SubDWordAt(){} // RVA: 0x7FFE8A3FBF00 | overloaded x2
-        public void SubDWordFrom(){} // RVA: 0x7FFE8A3FC080 | overloaded x2
-        public void SubFrom(){} // RVA: 0x7FFE8A3FC1B0 | overloaded x2
-        public void SubWordAt(){} // RVA: 0x7FFE8A3FC2C0 | overloaded x2
-        public void SubWordFrom(){} // RVA: 0x7FFE8A3FC3D0 | overloaded x2
-        public void ToBigInteger(){} // RVA: 0x7FFE8A3FC450
-        public void Zero(){} // RVA: 0x7FFE8A3FC5B0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Add(){} // RVA: 0x7FFAFC44CAF0
+        public void Add33At(){} // RVA: 0x7FFAFC44CC10 | overloaded x2
+        public void Add33To(){} // RVA: 0x7FFAFC44CD70 | overloaded x2
+        public void AddBothTo(){} // RVA: 0x7FFAFC44CEB0 | overloaded x2
+        public void AddDWordAt(){} // RVA: 0x7FFAFC44D040 | overloaded x2
+        public void AddDWordTo(){} // RVA: 0x7FFAFC44D1B0 | overloaded x2
+        public void AddTo(){} // RVA: 0x7FFAFC44D370 | overloaded x3
+        public void AddToEachOther(){} // RVA: 0x7FFAFC44D410
+        public void AddWordAt(){} // RVA: 0x7FFAFC44D530 | overloaded x2
+        public void AddWordTo(){} // RVA: 0x7FFAFC44D640 | overloaded x2
+        public void CAdd(){} // RVA: 0x7FFAFC44D6C0
+        public void CMov(){} // RVA: 0x7FFAFC44D760 | overloaded x2
+        public void Copy(){} // RVA: 0x7FFAFC44D8B0 | overloaded x3
+        public void Copy64(){} // RVA: 0x7FFAFC44D8B0 | overloaded x3
+        public void Create(){} // RVA: 0x7FFAFC44D960
+        public void Create64(){} // RVA: 0x7FFAFC44D9A0
+        public void CSub(){} // RVA: 0x7FFAFC44DA80 | overloaded x2
+        public void Dec(){} // RVA: 0x7FFAFC44DBC0 | overloaded x2
+        public void DecAt(){} // RVA: 0x7FFAFC44DCB0 | overloaded x2
+        public void Eq(){} // RVA: 0x7FFAFC44DD10
+        public void FromBigInteger(){} // RVA: 0x7FFAFC44DD70
+        public void FromBigInteger64(){} // RVA: 0x7FFAFC44DEA0
+        public void GetBit(){} // RVA: 0x7FFAFC44E000
+        public void Gte(){} // RVA: 0x7FFAFC44E060
+        public void Inc(){} // RVA: 0x7FFAFC44E110 | overloaded x2
+        public void IncAt(){} // RVA: 0x7FFAFC44E1F0 | overloaded x2
+        public void IsOne(){} // RVA: 0x7FFAFC44E250
+        public void IsZero(){} // RVA: 0x7FFAFC44E2B0
+        public void Mul(){} // RVA: 0x7FFAFC44E610 | overloaded x3
+        public void MulAddTo(){} // RVA: 0x7FFAFC44E900 | overloaded x2
+        public void Mul31BothAdd(){} // RVA: 0x7FFAFC44EA50
+        public void MulWord(){} // RVA: 0x7FFAFC44EB90 | overloaded x2
+        public void MulWordAddTo(){} // RVA: 0x7FFAFC44EC30
+        public void MulWordDwordAddAt(){} // RVA: 0x7FFAFC44ECE0
+        public void ShiftDownBit(){} // RVA: 0x7FFAFC44EED0 | overloaded x4
+        public void ShiftDownBits(){} // RVA: 0x7FFAFC44F140 | overloaded x4
+        public void ShiftDownWord(){} // RVA: 0x7FFAFC44F210
+        public void ShiftUpBit(){} // RVA: 0x7FFAFC44F390 | overloaded x4
+        public void ShiftUpBit64(){} // RVA: 0x7FFAFC44F430
+        public void ShiftUpBits(){} // RVA: 0x7FFAFC44F780 | overloaded x4
+        public void ShiftUpBits64(){} // RVA: 0x7FFAFC44F850 | overloaded x2
+        public void Square(){} // RVA: 0x7FFAFC44FB10 | overloaded x2
+        public void SquareWordAdd(){} // RVA: 0x7FFAFC44FDD0 | overloaded x2
+        public void SquareWordAddTo(){} // RVA: 0x7FFAFC44FDD0 | overloaded x2
+        public void Sub(){} // RVA: 0x7FFAFC44FF00 | overloaded x2
+        public void Sub33At(){} // RVA: 0x7FFAFC450080 | overloaded x2
+        public void Sub33From(){} // RVA: 0x7FFAFC450200 | overloaded x2
+        public void SubBothFrom(){} // RVA: 0x7FFAFC450340 | overloaded x2
+        public void SubDWordAt(){} // RVA: 0x7FFAFC4504D0 | overloaded x2
+        public void SubDWordFrom(){} // RVA: 0x7FFAFC450650 | overloaded x2
+        public void SubFrom(){} // RVA: 0x7FFAFC450780 | overloaded x2
+        public void SubWordAt(){} // RVA: 0x7FFAFC450890 | overloaded x2
+        public void SubWordFrom(){} // RVA: 0x7FFAFC4509A0 | overloaded x2
+        public void ToBigInteger(){} // RVA: 0x7FFAFC450A20
+        public void Zero(){} // RVA: 0x7FFAFC450B80
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat128 : Object
+    public class Nat128
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFE8A3FC5F0
-        public void AddBothTo(){} // RVA: 0x7FFE8A3FC6E0
-        public void AddTo(){} // RVA: 0x7FFE8A3FC8B0 | overloaded x2
-        public void AddToEachOther(){} // RVA: 0x7FFE8A3FC9C0
-        public void Copy(){} // RVA: 0x7FFE8A3FCB80 | overloaded x2
-        public void Copy64(){} // RVA: 0x7FFE8A3FCC80 | overloaded x2
-        public void Create(){} // RVA: 0x7FFE8A3FCCE0
-        public void Create64(){} // RVA: 0x7FFE8A3FCD20
-        public void CreateExt(){} // RVA: 0x7FFE8A3FCD60
-        public void CreateExt64(){} // RVA: 0x7FFE8A3FCDA0
-        public void Diff(){} // RVA: 0x7FFE8A3FCDE0
-        public void Eq(){} // RVA: 0x7FFE8A3FCEE0
-        public void Eq64(){} // RVA: 0x7FFE8A3FCF40
-        public void FromBigInteger(){} // RVA: 0x7FFE8A3FCFA0
-        public void FromBigInteger64(){} // RVA: 0x7FFE8A3FD0D0
-        public void GetBit(){} // RVA: 0x7FFE8A3FD230
-        public void Gte(){} // RVA: 0x7FFE8A3FD2F0 | overloaded x2
-        public void IsOne(){} // RVA: 0x7FFE8A3FD360
-        public void IsOne64(){} // RVA: 0x7FFE8A3FD3B0
-        public void IsZero(){} // RVA: 0x7FFE8A3FD410
-        public void IsZero64(){} // RVA: 0x7FFE8A3FD450
-        public void Mul(){} // RVA: 0x7FFE8A3FD6A0 | overloaded x2
-        public void MulAddTo(){} // RVA: 0x7FFE8A3FDA70 | overloaded x2
-        public void Mul33Add(){} // RVA: 0x7FFE8A3FDC40
-        public void MulWordAddExt(){} // RVA: 0x7FFE8A3FDDD0
-        public void Mul33DWordAdd(){} // RVA: 0x7FFE8A3FDEE0
-        public void Mul33WordAdd(){} // RVA: 0x7FFE8A3FDFB0
-        public void MulWordDwordAdd(){} // RVA: 0x7FFE8A3FE080
-        public void MulWordsAdd(){} // RVA: 0x7FFE8A3FE160
-        public void MulWord(){} // RVA: 0x7FFE8A3FE200
-        public void Square(){} // RVA: 0x7FFE8A3FE500 | overloaded x2
-        public void Sub(){} // RVA: 0x7FFE8A3FE920 | overloaded x2
-        public void SubBothFrom(){} // RVA: 0x7FFE8A3FEA70
-        public void SubFrom(){} // RVA: 0x7FFE8A3FEC40 | overloaded x2
-        public void ToBigInteger(){} // RVA: 0x7FFE8A3FED50
-        public void ToBigInteger64(){} // RVA: 0x7FFE8A3FEE90
-        public void Zero(){} // RVA: 0x7FFE8A3FEF90
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Add(){} // RVA: 0x7FFAFC450BC0
+        public void AddBothTo(){} // RVA: 0x7FFAFC450CB0
+        public void AddTo(){} // RVA: 0x7FFAFC450E80 | overloaded x2
+        public void AddToEachOther(){} // RVA: 0x7FFAFC450F90
+        public void Copy(){} // RVA: 0x7FFAFC451150 | overloaded x2
+        public void Copy64(){} // RVA: 0x7FFAFC451250 | overloaded x2
+        public void Create(){} // RVA: 0x7FFAFC4512B0
+        public void Create64(){} // RVA: 0x7FFAFC4512F0
+        public void CreateExt(){} // RVA: 0x7FFAFC451330
+        public void CreateExt64(){} // RVA: 0x7FFAFC451370
+        public void Diff(){} // RVA: 0x7FFAFC4513B0
+        public void Eq(){} // RVA: 0x7FFAFC4514B0
+        public void Eq64(){} // RVA: 0x7FFAFC451510
+        public void FromBigInteger(){} // RVA: 0x7FFAFC451570
+        public void FromBigInteger64(){} // RVA: 0x7FFAFC4516A0
+        public void GetBit(){} // RVA: 0x7FFAFC451800
+        public void Gte(){} // RVA: 0x7FFAFC4518C0 | overloaded x2
+        public void IsOne(){} // RVA: 0x7FFAFC451930
+        public void IsOne64(){} // RVA: 0x7FFAFC451980
+        public void IsZero(){} // RVA: 0x7FFAFC4519E0
+        public void IsZero64(){} // RVA: 0x7FFAFC451A20
+        public void Mul(){} // RVA: 0x7FFAFC451C70 | overloaded x2
+        public void MulAddTo(){} // RVA: 0x7FFAFC452040 | overloaded x2
+        public void Mul33Add(){} // RVA: 0x7FFAFC452210
+        public void MulWordAddExt(){} // RVA: 0x7FFAFC4523A0
+        public void Mul33DWordAdd(){} // RVA: 0x7FFAFC4524B0
+        public void Mul33WordAdd(){} // RVA: 0x7FFAFC452580
+        public void MulWordDwordAdd(){} // RVA: 0x7FFAFC452650
+        public void MulWordsAdd(){} // RVA: 0x7FFAFC452730
+        public void MulWord(){} // RVA: 0x7FFAFC4527D0
+        public void Square(){} // RVA: 0x7FFAFC452AD0 | overloaded x2
+        public void Sub(){} // RVA: 0x7FFAFC452EF0 | overloaded x2
+        public void SubBothFrom(){} // RVA: 0x7FFAFC453040
+        public void SubFrom(){} // RVA: 0x7FFAFC453210 | overloaded x2
+        public void ToBigInteger(){} // RVA: 0x7FFAFC453320
+        public void ToBigInteger64(){} // RVA: 0x7FFAFC453460
+        public void Zero(){} // RVA: 0x7FFAFC453560
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat160 : Object
+    public class Nat160
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFE8A3FEFD0
-        public void AddBothTo(){} // RVA: 0x7FFE8A3FF0F0
-        public void AddTo(){} // RVA: 0x7FFE8A3FF330 | overloaded x2
-        public void AddToEachOther(){} // RVA: 0x7FFE8A3FF490
-        public void Copy(){} // RVA: 0x7FFE8A3FF6D0 | overloaded x2
-        public void Create(){} // RVA: 0x7FFE8A3FF7B0
-        public void CreateExt(){} // RVA: 0x7FFE8A3FF7F0
-        public void Diff(){} // RVA: 0x7FFE8A3FF830
-        public void Eq(){} // RVA: 0x7FFE8A3FF930
-        public void FromBigInteger(){} // RVA: 0x7FFE8A3FF990
-        public void GetBit(){} // RVA: 0x7FFE8A3FFAC0
-        public void Gte(){} // RVA: 0x7FFE8A3FFB80 | overloaded x2
-        public void IsOne(){} // RVA: 0x7FFE8A3FFBF0
-        public void IsZero(){} // RVA: 0x7FFE8A3FFC40
-        public void Mul(){} // RVA: 0x7FFE8A3FFEE0 | overloaded x2
-        public void MulAddTo(){} // RVA: 0x7FFE8A400350 | overloaded x2
-        public void Mul33Add(){} // RVA: 0x7FFE8A400560
-        public void MulWordAddExt(){} // RVA: 0x7FFE8A400730
-        public void Mul33DWordAdd(){} // RVA: 0x7FFE8A400870
-        public void Mul33WordAdd(){} // RVA: 0x7FFE8A400970
-        public void MulWordDwordAdd(){} // RVA: 0x7FFE8A400A40
-        public void MulWordsAdd(){} // RVA: 0x7FFE8A400B20
-        public void MulWord(){} // RVA: 0x7FFE8A400BC0
-        public void Square(){} // RVA: 0x7FFE8A400F80 | overloaded x2
-        public void Sub(){} // RVA: 0x7FFE8A4014C0 | overloaded x2
-        public void SubBothFrom(){} // RVA: 0x7FFE8A401650
-        public void SubFrom(){} // RVA: 0x7FFE8A401890 | overloaded x2
-        public void ToBigInteger(){} // RVA: 0x7FFE8A4019D0
-        public void Zero(){} // RVA: 0x7FFE8A401B10
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Add(){} // RVA: 0x7FFAFC4535A0
+        public void AddBothTo(){} // RVA: 0x7FFAFC4536C0
+        public void AddTo(){} // RVA: 0x7FFAFC453900 | overloaded x2
+        public void AddToEachOther(){} // RVA: 0x7FFAFC453A60
+        public void Copy(){} // RVA: 0x7FFAFC453CA0 | overloaded x2
+        public void Create(){} // RVA: 0x7FFAFC453D80
+        public void CreateExt(){} // RVA: 0x7FFAFC453DC0
+        public void Diff(){} // RVA: 0x7FFAFC453E00
+        public void Eq(){} // RVA: 0x7FFAFC453F00
+        public void FromBigInteger(){} // RVA: 0x7FFAFC453F60
+        public void GetBit(){} // RVA: 0x7FFAFC454090
+        public void Gte(){} // RVA: 0x7FFAFC454150 | overloaded x2
+        public void IsOne(){} // RVA: 0x7FFAFC4541C0
+        public void IsZero(){} // RVA: 0x7FFAFC454210
+        public void Mul(){} // RVA: 0x7FFAFC4544B0 | overloaded x2
+        public void MulAddTo(){} // RVA: 0x7FFAFC454920 | overloaded x2
+        public void Mul33Add(){} // RVA: 0x7FFAFC454B30
+        public void MulWordAddExt(){} // RVA: 0x7FFAFC454D00
+        public void Mul33DWordAdd(){} // RVA: 0x7FFAFC454E40
+        public void Mul33WordAdd(){} // RVA: 0x7FFAFC454F40
+        public void MulWordDwordAdd(){} // RVA: 0x7FFAFC455010
+        public void MulWordsAdd(){} // RVA: 0x7FFAFC4550F0
+        public void MulWord(){} // RVA: 0x7FFAFC455190
+        public void Square(){} // RVA: 0x7FFAFC455550 | overloaded x2
+        public void Sub(){} // RVA: 0x7FFAFC455A90 | overloaded x2
+        public void SubBothFrom(){} // RVA: 0x7FFAFC455C20
+        public void SubFrom(){} // RVA: 0x7FFAFC455E60 | overloaded x2
+        public void ToBigInteger(){} // RVA: 0x7FFAFC455FA0
+        public void Zero(){} // RVA: 0x7FFAFC4560E0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat192 : Object
+    public class Nat192
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFE8A401B60
-        public void AddBothTo(){} // RVA: 0x7FFE8A401CB0
-        public void AddTo(){} // RVA: 0x7FFE8A401F50 | overloaded x2
-        public void AddToEachOther(){} // RVA: 0x7FFE8A4020D0
-        public void Copy(){} // RVA: 0x7FFE8A402370 | overloaded x2
-        public void Copy64(){} // RVA: 0x7FFE8A4024E0 | overloaded x2
-        public void Create(){} // RVA: 0x7FFE8A402560
-        public void Create64(){} // RVA: 0x7FFE8A4025A0
-        public void CreateExt(){} // RVA: 0x7FFE8A4025E0
-        public void CreateExt64(){} // RVA: 0x7FFE8A402620
-        public void Diff(){} // RVA: 0x7FFE8A402660
-        public void Eq(){} // RVA: 0x7FFE8A402760
-        public void Eq64(){} // RVA: 0x7FFE8A4027C0
-        public void FromBigInteger(){} // RVA: 0x7FFE8A402820
-        public void FromBigInteger64(){} // RVA: 0x7FFE8A402950
-        public void GetBit(){} // RVA: 0x7FFE8A402AB0
-        public void Gte(){} // RVA: 0x7FFE8A402B70 | overloaded x2
-        public void IsOne(){} // RVA: 0x7FFE8A402BE0
-        public void IsOne64(){} // RVA: 0x7FFE8A402C30
-        public void IsZero(){} // RVA: 0x7FFE8A402C90
-        public void IsZero64(){} // RVA: 0x7FFE8A402CD0
-        public void Mul(){} // RVA: 0x7FFE8A402FD0 | overloaded x2
-        public void MulAddTo(){} // RVA: 0x7FFE8A4034F0 | overloaded x2
-        public void Mul33Add(){} // RVA: 0x7FFE8A403750
-        public void MulWordAddExt(){} // RVA: 0x7FFE8A403970
-        public void Mul33DWordAdd(){} // RVA: 0x7FFE8A403AE0
-        public void Mul33WordAdd(){} // RVA: 0x7FFE8A403BE0
-        public void MulWordDwordAdd(){} // RVA: 0x7FFE8A403CB0
-        public void MulWord(){} // RVA: 0x7FFE8A403D90
-        public void Square(){} // RVA: 0x7FFE8A404230 | overloaded x2
-        public void Sub(){} // RVA: 0x7FFE8A4048C0 | overloaded x2
-        public void SubBothFrom(){} // RVA: 0x7FFE8A404A90
-        public void SubFrom(){} // RVA: 0x7FFE8A404D20 | overloaded x2
-        public void ToBigInteger(){} // RVA: 0x7FFE8A404EA0
-        public void ToBigInteger64(){} // RVA: 0x7FFE8A404FE0
-        public void Zero(){} // RVA: 0x7FFE8A4050E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Add(){} // RVA: 0x7FFAFC456130
+        public void AddBothTo(){} // RVA: 0x7FFAFC456280
+        public void AddTo(){} // RVA: 0x7FFAFC456520 | overloaded x2
+        public void AddToEachOther(){} // RVA: 0x7FFAFC4566A0
+        public void Copy(){} // RVA: 0x7FFAFC456940 | overloaded x2
+        public void Copy64(){} // RVA: 0x7FFAFC456AB0 | overloaded x2
+        public void Create(){} // RVA: 0x7FFAFC456B30
+        public void Create64(){} // RVA: 0x7FFAFC456B70
+        public void CreateExt(){} // RVA: 0x7FFAFC456BB0
+        public void CreateExt64(){} // RVA: 0x7FFAFC456BF0
+        public void Diff(){} // RVA: 0x7FFAFC456C30
+        public void Eq(){} // RVA: 0x7FFAFC456D30
+        public void Eq64(){} // RVA: 0x7FFAFC456D90
+        public void FromBigInteger(){} // RVA: 0x7FFAFC456DF0
+        public void FromBigInteger64(){} // RVA: 0x7FFAFC456F20
+        public void GetBit(){} // RVA: 0x7FFAFC457080
+        public void Gte(){} // RVA: 0x7FFAFC457140 | overloaded x2
+        public void IsOne(){} // RVA: 0x7FFAFC4571B0
+        public void IsOne64(){} // RVA: 0x7FFAFC457200
+        public void IsZero(){} // RVA: 0x7FFAFC457260
+        public void IsZero64(){} // RVA: 0x7FFAFC4572A0
+        public void Mul(){} // RVA: 0x7FFAFC4575A0 | overloaded x2
+        public void MulAddTo(){} // RVA: 0x7FFAFC457AC0 | overloaded x2
+        public void Mul33Add(){} // RVA: 0x7FFAFC457D20
+        public void MulWordAddExt(){} // RVA: 0x7FFAFC457F40
+        public void Mul33DWordAdd(){} // RVA: 0x7FFAFC4580B0
+        public void Mul33WordAdd(){} // RVA: 0x7FFAFC4581B0
+        public void MulWordDwordAdd(){} // RVA: 0x7FFAFC458280
+        public void MulWord(){} // RVA: 0x7FFAFC458360
+        public void Square(){} // RVA: 0x7FFAFC458800 | overloaded x2
+        public void Sub(){} // RVA: 0x7FFAFC458E90 | overloaded x2
+        public void SubBothFrom(){} // RVA: 0x7FFAFC459060
+        public void SubFrom(){} // RVA: 0x7FFAFC4592F0 | overloaded x2
+        public void ToBigInteger(){} // RVA: 0x7FFAFC459470
+        public void ToBigInteger64(){} // RVA: 0x7FFAFC4595B0
+        public void Zero(){} // RVA: 0x7FFAFC4596B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat224 : Object
+    public class Nat224
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFE8A4052D0 | overloaded x2
-        public void AddBothTo(){} // RVA: 0x7FFE8A405690 | overloaded x2
-        public void AddTo(){} // RVA: 0x7FFE8A405A10 | overloaded x2
-        public void AddToEachOther(){} // RVA: 0x7FFE8A405BD0
-        public void Copy(){} // RVA: 0x7FFE8A405EE0 | overloaded x2
-        public void Create(){} // RVA: 0x7FFE8A406010
-        public void CreateExt(){} // RVA: 0x7FFE8A406050
-        public void Diff(){} // RVA: 0x7FFE8A406090
-        public void Eq(){} // RVA: 0x7FFE8A406190
-        public void FromBigInteger(){} // RVA: 0x7FFE8A4061F0
-        public void GetBit(){} // RVA: 0x7FFE8A406320
-        public void Gte(){} // RVA: 0x7FFE8A4063E0 | overloaded x2
-        public void IsOne(){} // RVA: 0x7FFE8A406450
-        public void IsZero(){} // RVA: 0x7FFE8A4064A0
-        public void Mul(){} // RVA: 0x7FFE8A406800 | overloaded x2
-        public void MulAddTo(){} // RVA: 0x7FFE8A406DC0 | overloaded x2
-        public void Mul33Add(){} // RVA: 0x7FFE8A407070
-        public void MulByWord(){} // RVA: 0x7FFE8A4072E0
-        public void MulByWordAddTo(){} // RVA: 0x7FFE8A4073B0
-        public void MulWordAddTo(){} // RVA: 0x7FFE8A407510
-        public void Mul33DWordAdd(){} // RVA: 0x7FFE8A4076C0
-        public void Mul33WordAdd(){} // RVA: 0x7FFE8A4077C0
-        public void MulWordDwordAdd(){} // RVA: 0x7FFE8A407890
-        public void MulWord(){} // RVA: 0x7FFE8A407970
-        public void Square(){} // RVA: 0x7FFE8A407F30 | overloaded x2
-        public void Sub(){} // RVA: 0x7FFE8A408750 | overloaded x2
-        public void SubBothFrom(){} // RVA: 0x7FFE8A408970
-        public void SubFrom(){} // RVA: 0x7FFE8A408C70 | overloaded x2
-        public void ToBigInteger(){} // RVA: 0x7FFE8A408E30
-        public void Zero(){} // RVA: 0x7FFE8A408F70
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Add(){} // RVA: 0x7FFAFC4598A0 | overloaded x2
+        public void AddBothTo(){} // RVA: 0x7FFAFC459C60 | overloaded x2
+        public void AddTo(){} // RVA: 0x7FFAFC459FE0 | overloaded x2
+        public void AddToEachOther(){} // RVA: 0x7FFAFC45A1A0
+        public void Copy(){} // RVA: 0x7FFAFC45A4B0 | overloaded x2
+        public void Create(){} // RVA: 0x7FFAFC45A5E0
+        public void CreateExt(){} // RVA: 0x7FFAFC45A620
+        public void Diff(){} // RVA: 0x7FFAFC45A660
+        public void Eq(){} // RVA: 0x7FFAFC45A760
+        public void FromBigInteger(){} // RVA: 0x7FFAFC45A7C0
+        public void GetBit(){} // RVA: 0x7FFAFC45A8F0
+        public void Gte(){} // RVA: 0x7FFAFC45A9B0 | overloaded x2
+        public void IsOne(){} // RVA: 0x7FFAFC45AA20
+        public void IsZero(){} // RVA: 0x7FFAFC45AA70
+        public void Mul(){} // RVA: 0x7FFAFC45ADD0 | overloaded x2
+        public void MulAddTo(){} // RVA: 0x7FFAFC45B390 | overloaded x2
+        public void Mul33Add(){} // RVA: 0x7FFAFC45B640
+        public void MulByWord(){} // RVA: 0x7FFAFC45B8B0
+        public void MulByWordAddTo(){} // RVA: 0x7FFAFC45B980
+        public void MulWordAddTo(){} // RVA: 0x7FFAFC45BAE0
+        public void Mul33DWordAdd(){} // RVA: 0x7FFAFC45BC90
+        public void Mul33WordAdd(){} // RVA: 0x7FFAFC45BD90
+        public void MulWordDwordAdd(){} // RVA: 0x7FFAFC45BE60
+        public void MulWord(){} // RVA: 0x7FFAFC45BF40
+        public void Square(){} // RVA: 0x7FFAFC45C500 | overloaded x2
+        public void Sub(){} // RVA: 0x7FFAFC45CD20 | overloaded x2
+        public void SubBothFrom(){} // RVA: 0x7FFAFC45CF40
+        public void SubFrom(){} // RVA: 0x7FFAFC45D240 | overloaded x2
+        public void ToBigInteger(){} // RVA: 0x7FFAFC45D400
+        public void Zero(){} // RVA: 0x7FFAFC45D540
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat256 : Object
+    public class Nat256
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFE8A409190 | overloaded x2
-        public void AddBothTo(){} // RVA: 0x7FFE8A4095D0 | overloaded x2
-        public void AddTo(){} // RVA: 0x7FFE8A4099B0 | overloaded x2
-        public void AddToEachOther(){} // RVA: 0x7FFE8A409BB0
-        public void Copy(){} // RVA: 0x7FFE8A409F30 | overloaded x2
-        public void Copy64(){} // RVA: 0x7FFE8A40A100 | overloaded x2
-        public void Create(){} // RVA: 0x7FFE8A40A1B0
-        public void Create64(){} // RVA: 0x7FFE8A40A1F0
-        public void CreateExt(){} // RVA: 0x7FFE8A40A230
-        public void CreateExt64(){} // RVA: 0x7FFE8A40A270
-        public void Diff(){} // RVA: 0x7FFE8A40A2B0
-        public void Eq(){} // RVA: 0x7FFE8A40A3B0
-        public void Eq64(){} // RVA: 0x7FFE8A40A410
-        public void FromBigInteger(){} // RVA: 0x7FFE8A40A470
-        public void FromBigInteger64(){} // RVA: 0x7FFE8A40A5A0
-        public void GetBit(){} // RVA: 0x7FFE8A40A700
-        public void Gte(){} // RVA: 0x7FFE8A40A7C0 | overloaded x2
-        public void IsOne(){} // RVA: 0x7FFE8A40A830
-        public void IsOne64(){} // RVA: 0x7FFE8A40A880
-        public void IsZero(){} // RVA: 0x7FFE8A40A8E0
-        public void IsZero64(){} // RVA: 0x7FFE8A40A920
-        public void Mul(){} // RVA: 0x7FFE8A40ACE0 | overloaded x2
-        public void MulAddTo(){} // RVA: 0x7FFE8A40B350 | overloaded x2
-        public void Mul33Add(){} // RVA: 0x7FFE8A40B650
-        public void MulByWord(){} // RVA: 0x7FFE8A40B910
-        public void MulByWordAddTo(){} // RVA: 0x7FFE8A40BA00
-        public void MulWordAddTo(){} // RVA: 0x7FFE8A40BB90
-        public void Mul33DWordAdd(){} // RVA: 0x7FFE8A40BD70
-        public void Mul33WordAdd(){} // RVA: 0x7FFE8A40BE70
-        public void MulWordDwordAdd(){} // RVA: 0x7FFE8A40BF40
-        public void MulWord(){} // RVA: 0x7FFE8A40C020
-        public void Square(){} // RVA: 0x7FFE8A40C720 | overloaded x2
-        public void Sub(){} // RVA: 0x7FFE8A40D0E0 | overloaded x2
-        public void SubBothFrom(){} // RVA: 0x7FFE8A40D340
-        public void SubFrom(){} // RVA: 0x7FFE8A40D6A0 | overloaded x2
-        public void ToBigInteger(){} // RVA: 0x7FFE8A40D890
-        public void ToBigInteger64(){} // RVA: 0x7FFE8A40D9D0
-        public void Zero(){} // RVA: 0x7FFE8A40DAD0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Add(){} // RVA: 0x7FFAFC45D760 | overloaded x2
+        public void AddBothTo(){} // RVA: 0x7FFAFC45DBA0 | overloaded x2
+        public void AddTo(){} // RVA: 0x7FFAFC45DF80 | overloaded x2
+        public void AddToEachOther(){} // RVA: 0x7FFAFC45E180
+        public void Copy(){} // RVA: 0x7FFAFC45E500 | overloaded x2
+        public void Copy64(){} // RVA: 0x7FFAFC45E6D0 | overloaded x2
+        public void Create(){} // RVA: 0x7FFAFC45E780
+        public void Create64(){} // RVA: 0x7FFAFC45E7C0
+        public void CreateExt(){} // RVA: 0x7FFAFC45E800
+        public void CreateExt64(){} // RVA: 0x7FFAFC45E840
+        public void Diff(){} // RVA: 0x7FFAFC45E880
+        public void Eq(){} // RVA: 0x7FFAFC45E980
+        public void Eq64(){} // RVA: 0x7FFAFC45E9E0
+        public void FromBigInteger(){} // RVA: 0x7FFAFC45EA40
+        public void FromBigInteger64(){} // RVA: 0x7FFAFC45EB70
+        public void GetBit(){} // RVA: 0x7FFAFC45ECD0
+        public void Gte(){} // RVA: 0x7FFAFC45ED90 | overloaded x2
+        public void IsOne(){} // RVA: 0x7FFAFC45EE00
+        public void IsOne64(){} // RVA: 0x7FFAFC45EE50
+        public void IsZero(){} // RVA: 0x7FFAFC45EEB0
+        public void IsZero64(){} // RVA: 0x7FFAFC45EEF0
+        public void Mul(){} // RVA: 0x7FFAFC45F2B0 | overloaded x2
+        public void MulAddTo(){} // RVA: 0x7FFAFC45F920 | overloaded x2
+        public void Mul33Add(){} // RVA: 0x7FFAFC45FC20
+        public void MulByWord(){} // RVA: 0x7FFAFC45FEE0
+        public void MulByWordAddTo(){} // RVA: 0x7FFAFC45FFD0
+        public void MulWordAddTo(){} // RVA: 0x7FFAFC460160
+        public void Mul33DWordAdd(){} // RVA: 0x7FFAFC460340
+        public void Mul33WordAdd(){} // RVA: 0x7FFAFC460440
+        public void MulWordDwordAdd(){} // RVA: 0x7FFAFC460510
+        public void MulWord(){} // RVA: 0x7FFAFC4605F0
+        public void Square(){} // RVA: 0x7FFAFC460CF0 | overloaded x2
+        public void Sub(){} // RVA: 0x7FFAFC4616B0 | overloaded x2
+        public void SubBothFrom(){} // RVA: 0x7FFAFC461910
+        public void SubFrom(){} // RVA: 0x7FFAFC461C70 | overloaded x2
+        public void ToBigInteger(){} // RVA: 0x7FFAFC461E60
+        public void ToBigInteger64(){} // RVA: 0x7FFAFC461FA0
+        public void Zero(){} // RVA: 0x7FFAFC4620A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat320 : Object
+    public class Nat320
     {
         // ── Methods ──
-        public void Copy64(){} // RVA: 0x7FFE8A40DBD0 | overloaded x2
-        public void Create64(){} // RVA: 0x7FFE8A40DCB0
-        public void CreateExt64(){} // RVA: 0x7FFE8A40DCF0
-        public void Eq64(){} // RVA: 0x7FFE8A40DD30
-        public void FromBigInteger64(){} // RVA: 0x7FFE8A40DD90
-        public void IsOne64(){} // RVA: 0x7FFE8A40DEF0
-        public void IsZero64(){} // RVA: 0x7FFE8A40DF50
-        public void ToBigInteger64(){} // RVA: 0x7FFE8A40DF90
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Copy64(){} // RVA: 0x7FFAFC4621A0 | overloaded x2
+        public void Create64(){} // RVA: 0x7FFAFC462280
+        public void CreateExt64(){} // RVA: 0x7FFAFC4622C0
+        public void Eq64(){} // RVA: 0x7FFAFC462300
+        public void FromBigInteger64(){} // RVA: 0x7FFAFC462360
+        public void IsOne64(){} // RVA: 0x7FFAFC4624C0
+        public void IsZero64(){} // RVA: 0x7FFAFC462520
+        public void ToBigInteger64(){} // RVA: 0x7FFAFC462560
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat384 : Object
+    public class Nat384
     {
         // ── Methods ──
-        public void Mul(){} // RVA: 0x7FFE8A40E090
-        public void Square(){} // RVA: 0x7FFE8A40E410
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Mul(){} // RVA: 0x7FFAFC462660
+        public void Square(){} // RVA: 0x7FFAFC4629E0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat448 : Object
+    public class Nat448
     {
         // ── Methods ──
-        public void Copy64(){} // RVA: 0x7FFE8A40E710 | overloaded x2
-        public void Create64(){} // RVA: 0x7FFE8A40E840
-        public void CreateExt64(){} // RVA: 0x7FFE8A40E880
-        public void Eq64(){} // RVA: 0x7FFE8A40E8C0
-        public void FromBigInteger64(){} // RVA: 0x7FFE8A40E920
-        public void IsOne64(){} // RVA: 0x7FFE8A40EA80
-        public void IsZero64(){} // RVA: 0x7FFE8A40EAE0
-        public void ToBigInteger64(){} // RVA: 0x7FFE8A40EB20
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Copy64(){} // RVA: 0x7FFAFC462CE0 | overloaded x2
+        public void Create64(){} // RVA: 0x7FFAFC462E10
+        public void CreateExt64(){} // RVA: 0x7FFAFC462E50
+        public void Eq64(){} // RVA: 0x7FFAFC462E90
+        public void FromBigInteger64(){} // RVA: 0x7FFAFC462EF0
+        public void IsOne64(){} // RVA: 0x7FFAFC463050
+        public void IsZero64(){} // RVA: 0x7FFAFC4630B0
+        public void ToBigInteger64(){} // RVA: 0x7FFAFC4630F0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat512 : Object
+    public class Nat512
     {
         // ── Methods ──
-        public void Mul(){} // RVA: 0x7FFE8A40EC20
-        public void Square(){} // RVA: 0x7FFE8A40EFA0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Mul(){} // RVA: 0x7FFAFC4631F0
+        public void Square(){} // RVA: 0x7FFAFC463570
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Nat576 : Object
+    public class Nat576
     {
         // ── Methods ──
-        public void Copy64(){} // RVA: 0x7FFE8A40F2D0 | overloaded x2
-        public void Create64(){} // RVA: 0x7FFE8A40F460
-        public void CreateExt64(){} // RVA: 0x7FFE8A40F4A0
-        public void Eq64(){} // RVA: 0x7FFE8A40F4E0
-        public void FromBigInteger64(){} // RVA: 0x7FFE8A40F540
-        public void IsOne64(){} // RVA: 0x7FFE8A40F6A0
-        public void IsZero64(){} // RVA: 0x7FFE8A40F700
-        public void ToBigInteger64(){} // RVA: 0x7FFE8A40F740
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Copy64(){} // RVA: 0x7FFAFC4638A0 | overloaded x2
+        public void Create64(){} // RVA: 0x7FFAFC463A30
+        public void CreateExt64(){} // RVA: 0x7FFAFC463A70
+        public void Eq64(){} // RVA: 0x7FFAFC463AB0
+        public void FromBigInteger64(){} // RVA: 0x7FFAFC463B10
+        public void IsOne64(){} // RVA: 0x7FFAFC463C70
+        public void IsZero64(){} // RVA: 0x7FFAFC463CD0
+        public void ToBigInteger64(){} // RVA: 0x7FFAFC463D10
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

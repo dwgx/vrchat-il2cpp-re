@@ -5,28 +5,25 @@
 
 namespace ThirdParty.DotNet.System.Xml.Schema
 {
-    public class ValidationEventArgs : EventArgs
+    public class ValidationEventArgs
     {
-        public System.Xml.Schema.XmlSchemaException ex; // 0x10
-        public 0x6655E5FC severity; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE874CD5B0 | overloaded x2
-        public void get_Severity(){} // RVA: 0x7FFE813DB630
-        public void get_Exception(){} // RVA: 0x7FFE81116380
+        public void .ctor(){} // RVA: 0x7FFAF943E2E0 | overloaded x2
+        public void get_Severity(){} // RVA: 0x7FFAF306ED50
+        public void get_Exception(){} // RVA: 0x7FFAF2DA8380
     }
 
-    public class ValidationEventHandler : MulticastDelegate
+    public class ValidationEventHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE828867F0
-        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void .ctor(){} // RVA: 0x7FFAF45AE240
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
     }
 
-    public class ValidationState : Object
+    public class ValidationState
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE874CD670
+        public void .ctor(){} // RVA: 0x7FFAF943E3A0
     }
 
 }

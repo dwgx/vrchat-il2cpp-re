@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Unity.UnityEngine.Experimental.U2D
 {
-    public class SpriteIntermediateRendererInfo : ValueType
+    public class SpriteIntermediateRendererInfo
     {
     }
 
-    public class SpriteRendererGroup : Object
+    public class SpriteRendererGroup
     {
     }
 

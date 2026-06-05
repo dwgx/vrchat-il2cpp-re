@@ -5,10 +5,10 @@
 
 namespace VRC.UI.Elements.Analytics
 {
-    public class AnalyticsControllerSavedData : ScriptableObject
+    public class AnalyticsControllerSavedData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89CFB110
+        public void .ctor(){} // RVA: 0x7FFAFBCE0BA0
     }
 
 }

@@ -5,87 +5,84 @@
 
 namespace ThirdParty.Sentry.Sentry.Ben.BlockingDetector
 {
-    public class BlockingMonitor : Object
+    public class BlockingMonitor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE811DAE00 | overloaded x2
-        public void ShouldSkipFrame(){} // RVA: 0x7FFE86F8AE30
-        public void BlockingStart(){} // RVA: 0x7FFE86F8AEE0
-        public void BlockingEnd(){} // RVA: 0x7FFE86F8B430
+        public void .ctor(){} // RVA: 0x7FFAF2E6CE00 | overloaded x2
+        public void ShouldSkipFrame(){} // RVA: 0x7FFAF8EFA450
+        public void BlockingStart(){} // RVA: 0x7FFAF8EFA500
+        public void BlockingEnd(){} // RVA: 0x7FFAF8EFAA50
     }
 
-    public class DetectBlockingSynchronizationContext : SynchronizationContext
+    public class DetectBlockingSynchronizationContext
     {
         // ── Methods ──
-        public void Suppress(){} // RVA: 0x7FFE86F8B4E0
-        public void Restore(){} // RVA: 0x7FFE86F8B4F0
-        public void .ctor(){} // RVA: 0x7FFE86F8B560 | overloaded x2
-        public void Wait(){} // RVA: 0x7FFE86F8B640
-        public void WaitInternal(){} // RVA: 0x7FFE86F8B770
+        public void Suppress(){} // RVA: 0x7FFAF8EFAB00
+        public void Restore(){} // RVA: 0x7FFAF8EFAB10
+        public void .ctor(){} // RVA: 0x7FFAF8EFAB80 | overloaded x2
+        public void Wait(){} // RVA: 0x7FFAF8EFAC60
+        public void WaitInternal(){} // RVA: 0x7FFAF8EFAD90
     }
 
     public class IBlockingMonitor
     {
         // ── Methods ──
-        public void BlockingStart(){} // RVA: 0x7FFE80E46530
-        public void BlockingEnd(){} // RVA: 0x7FFE80E45FE0
+        public void BlockingStart(){} // RVA: 0x7FFAF2AD4FA0
+        public void BlockingEnd(){} // RVA: 0x7FFAF2AD4A50
     }
 
     public class IRecursionTracker
     {
         // ── Methods ──
-        public void Recurse(){} // RVA: 0x7FFE80E45FE0
-        public void Backtrack(){} // RVA: 0x7FFE80E45FE0
-        public void IsFirstRecursion(){} // RVA: 0x7FFE80E2F150
+        public void Recurse(){} // RVA: 0x7FFAF2AD4A50
+        public void Backtrack(){} // RVA: 0x7FFAF2AD4A50
+        public void IsFirstRecursion(){} // RVA: 0x7FFAF2ABDBE0
     }
 
     public class ITaskBlockingListenerState
     {
         // ── Methods ──
-        public void Suppress(){} // RVA: 0x7FFE80E45FE0
-        public void IsSuppressed(){} // RVA: 0x7FFE80E2F150
-        public void Restore(){} // RVA: 0x7FFE80E45FE0
+        public void Suppress(){} // RVA: 0x7FFAF2AD4A50
+        public void IsSuppressed(){} // RVA: 0x7FFAF2ABDBE0
+        public void Restore(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class OnStartedRecordingVideoCallback : Object
+    public class OnStartedRecordingVideoCallback
     {
         // ── Methods ──
-        public void Recurse(){} // RVA: 0x7FFE86F8B890
-        public void Backtrack(){} // RVA: 0x7FFE86F8B960
-        public void IsRecursive(){} // RVA: 0x7FFE86F8BA00
-        public void IsFirstRecursion(){} // RVA: 0x7FFE86F8BA80
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Recurse(){} // RVA: 0x7FFAF8EFAEB0
+        public void Backtrack(){} // RVA: 0x7FFAF8EFAF80
+        public void IsRecursive(){} // RVA: 0x7FFAF8EFB020
+        public void IsFirstRecursion(){} // RVA: 0x7FFAF8EFB0A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class OnStoppedRecordingVideoCallback : Object
+    public class OnStoppedRecordingVideoCallback
     {
         // ── Methods ──
-        public void Suppress(){} // RVA: 0x7FFE86F8BB00
-        public void IsSuppressed(){} // RVA: 0x7FFE86F8BBD0
-        public void Restore(){} // RVA: 0x7FFE86F8BC50
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Suppress(){} // RVA: 0x7FFAF8EFB120
+        public void IsSuppressed(){} // RVA: 0x7FFAF8EFB1F0
+        public void Restore(){} // RVA: 0x7FFAF8EFB270
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SuppressBlockingDetection : Object
+    public class SuppressBlockingDetection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86F8BEB0 | overloaded x2
-        public void Dispose(){} // RVA: 0x7FFE86F8BFE0
+        public void .ctor(){} // RVA: 0x7FFAF8EFB4D0 | overloaded x2
+        public void Dispose(){} // RVA: 0x7FFAF8EFB600
     }
 
-    public class TaskBlockingListener : EventListener
+    public class TaskBlockingListener
     {
-        public System.Guid s_tplGuid;
-        public Sentry.Ben.BlockingDetector.IBlockingMonitor _monitor; // 0x10
-
         // ── Methods ──
-        public void get_LazyDefaultState(){} // RVA: 0x7FFE86F8C050
-        public void get_DefaultState(){} // RVA: 0x7FFE86F8C0D0
-        public void .ctor(){} // RVA: 0x7FFE86F8C2C0 | overloaded x2
-        public void OnEventSourceCreated(){} // RVA: 0x7FFE86F8C3D0
-        public void OnEventWritten(){} // RVA: 0x7FFE86F8C450
-        public void DoHandleEvent(){} // RVA: 0x7FFE86F8C4F0
-        public void .cctor(){} // RVA: 0x7FFE86F8C6A0
+        public void get_LazyDefaultState(){} // RVA: 0x7FFAF8EFB670
+        public void get_DefaultState(){} // RVA: 0x7FFAF8EFB6F0
+        public void .ctor(){} // RVA: 0x7FFAF8EFB8E0 | overloaded x2
+        public void OnEventSourceCreated(){} // RVA: 0x7FFAF8EFB9F0
+        public void OnEventWritten(){} // RVA: 0x7FFAF8EFBA70
+        public void DoHandleEvent(){} // RVA: 0x7FFAF8EFBB10
+        public void .cctor(){} // RVA: 0x7FFAF8EFBCC0
     }
 
 }

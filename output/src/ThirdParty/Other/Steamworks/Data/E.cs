@@ -5,22 +5,18 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class EncryptedAppTicketResponse_t : ValueType
+    public class EncryptedAppTicketResponse_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E55C00
-        public void .cctor(){} // RVA: 0x7FFE82E55C10
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B77800
+        public void .cctor(){} // RVA: 0x7FFAF4B77810
     }
 
-    public class EndGameResultCallback_t : ValueType
+    public class EndGameResultCallback_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E59880
-        public void .cctor(){} // RVA: 0x7FFE82E59890
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7B480
+        public void .cctor(){} // RVA: 0x7FFAF4B7B490
     }
 
 }

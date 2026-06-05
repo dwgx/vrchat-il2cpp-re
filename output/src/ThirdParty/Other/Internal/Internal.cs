@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.Internal
 {
-    public class PaddingFor32 : ValueType
+    public class PaddingFor32
     {
     }
 

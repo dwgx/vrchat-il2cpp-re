@@ -5,32 +5,29 @@
 
 namespace VRCCore
 {
-    public class ApiAdminFile : ApiModel
-    {
-        public string _fileName; // 0x68
-        public string _url; // 0x70
-
-        // ── Methods ──
-        public void get_fileName(){} // RVA: 0x7FFE81176D50
-        public void set_fileName(){} // RVA: 0x7FFE81176D60
-        public void get_url(){} // RVA: 0x7FFE811C3590
-        public void set_url(){} // RVA: 0x7FFE811C35A0
-        public void UploadAdminFile(){} // RVA: 0x7FFE89E89B40
-        public void DeleteAdminFile(){} // RVA: 0x7FFE89E89EE0
-        public void .ctor(){} // RVA: 0x7FFE89E8A3C0
-    }
-
-    public class AssetBundleFooter : Object
+    public class ApiAdminFile
     {
         // ── Methods ──
-        public void AppendToStream(){} // RVA: 0x7FFE89E8A4C0
-        public void GetFooterSections(){} // RVA: 0x7FFE89E8A720 | overloaded x2
-        public void ReadNullTerminatedString(){} // RVA: 0x7FFE89E8AF30
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE89E8B020
+        public void get_fileName(){} // RVA: 0x7FFAF2E08D50
+        public void set_fileName(){} // RVA: 0x7FFAF2E08D60
+        public void get_url(){} // RVA: 0x7FFAF2E55590
+        public void set_url(){} // RVA: 0x7FFAF2E555A0
+        public void UploadAdminFile(){} // RVA: 0x7FFAFBED7770
+        public void DeleteAdminFile(){} // RVA: 0x7FFAFBED7B10
+        public void .ctor(){} // RVA: 0x7FFAFBED7FF0
     }
 
-    public class FooterSection : ValueType
+    public class AssetBundleFooter
+    {
+        // ── Methods ──
+        public void AppendToStream(){} // RVA: 0x7FFAFBED80F0
+        public void GetFooterSections(){} // RVA: 0x7FFAFBED8350 | overloaded x2
+        public void ReadNullTerminatedString(){} // RVA: 0x7FFAFBED8B60
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFBED8C50
+    }
+
+    public class FooterSection
     {
     }
 

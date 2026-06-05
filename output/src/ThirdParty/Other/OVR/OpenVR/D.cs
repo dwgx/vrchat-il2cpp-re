@@ -5,15 +5,15 @@
 
 namespace ThirdParty.Other.OVR.OpenVR
 {
-    public class D3D12TextureData_t : ValueType
+    public class D3D12TextureData_t
     {
     }
 
-    public class DistortionCoordinates_t : ValueType
+    public class DistortionCoordinates_t
     {
     }
 
-    public class DriverDirectMode_FrameTiming : ValueType
+    public class DriverDirectMode_FrameTiming
     {
     }
 

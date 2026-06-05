@@ -5,16 +5,16 @@
 
 namespace ThirdParty.DotNet.Microsoft.CSharp
 {
-    public class CSharpCodeProvider : CodeDomProvider
+    public class CSharpCodeProvider
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class CodeDomProvider : Object
+    public class CodeDomProvider
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

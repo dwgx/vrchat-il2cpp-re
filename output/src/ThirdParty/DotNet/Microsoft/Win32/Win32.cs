@@ -5,74 +5,74 @@
 
 namespace ThirdParty.DotNet.Microsoft.Win32
 {
-    public class NativeMethods : Object
+    public class NativeMethods
     {
         // ── Methods ──
-        public void DuplicateHandle(){} // RVA: 0x7FFE87728640
-        public void GetCurrentProcess(){} // RVA: 0x7FFE87728800
-        public void GetExitCodeProcess(){} // RVA: 0x7FFE877289A0 | overloaded x2
-        public void TerminateProcess(){} // RVA: 0x7FFE87728B70 | overloaded x2
-        public void GetProcessTimes(){} // RVA: 0x7FFE87728C50 | overloaded x2
-        public void GetCurrentProcessId(){} // RVA: 0x7FFE87728D50
-        public void CloseProcess(){} // RVA: 0x7FFE87728D60
+        public void DuplicateHandle(){} // RVA: 0x7FFAF9697790
+        public void GetCurrentProcess(){} // RVA: 0x7FFAF9697950
+        public void GetExitCodeProcess(){} // RVA: 0x7FFAF9697AF0 | overloaded x2
+        public void TerminateProcess(){} // RVA: 0x7FFAF9697CC0 | overloaded x2
+        public void GetProcessTimes(){} // RVA: 0x7FFAF9697DA0 | overloaded x2
+        public void GetCurrentProcessId(){} // RVA: 0x7FFAF9697EA0
+        public void CloseProcess(){} // RVA: 0x7FFAF9697EB0
     }
 
-    public class Registry : Object
+    public class Registry
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8675F330
+        public void .cctor(){} // RVA: 0x7FFAF86CE4E0
     }
 
-    public class RegistryKey : MarshalByRefObject
+    public class RegistryKey
     {
         // ── Methods ──
-        public void ClosePerfDataKey(){} // RVA: 0x7FFE8675F700
-        public void OpenBaseKeyCore(){} // RVA: 0x7FFE8675F760
-        public void InternalOpenSubKeyCore(){} // RVA: 0x7FFE8675F8F0
-        public void InternalSubKeyCountCore(){} // RVA: 0x7FFE8675FCC0
-        public void InternalGetSubKeyNamesCore(){} // RVA: 0x7FFE8675FE10
-        public void InternalValueCountCore(){} // RVA: 0x7FFE867601B0
-        public void GetValueNamesCore(){} // RVA: 0x7FFE86760300
-        public void InternalGetValueCore(){} // RVA: 0x7FFE86760850
-        public void Win32Error(){} // RVA: 0x7FFE867618C0
-        public void GetRegistryKeyAccess(){} // RVA: 0x7FFE86761A60
-        public void .ctor(){} // RVA: 0x7FFE86761A80
-        public void Dispose(){} // RVA: 0x7FFE86761C20
-        public void OpenBaseKey(){} // RVA: 0x7FFE86761DA0
-        public void OpenSubKey(){} // RVA: 0x7FFE86761F80 | overloaded x2
-        public void InternalSubKeyCount(){} // RVA: 0x7FFE86762060
-        public void GetSubKeyNames(){} // RVA: 0x7FFE86762220
-        public void InternalGetSubKeyNames(){} // RVA: 0x7FFE86762230
-        public void InternalValueCount(){} // RVA: 0x7FFE86762480
-        public void GetValueNames(){} // RVA: 0x7FFE86762640
-        public void GetValue(){} // RVA: 0x7FFE86762910 | overloaded x2
-        public void InternalGetValue(){} // RVA: 0x7FFE867629E0
-        public void ToString(){} // RVA: 0x7FFE86762A80
-        public void FixupName(){} // RVA: 0x7FFE86762AE0
-        public void FixupPath(){} // RVA: 0x7FFE86762D10
-        public void EnsureNotDisposed(){} // RVA: 0x7FFE86762E40
-        public void GetSubKeyPermissionCheck(){} // RVA: 0x7FFE86762EA0
-        public void ValidateKeyName(){} // RVA: 0x7FFE86762EC0
-        public void ValidateKeyView(){} // RVA: 0x7FFE86763330
-        public void IsSystemKey(){} // RVA: 0x7FFE867633A0
-        public void IsPerfDataKey(){} // RVA: 0x7FFE867633B0
-        public void .cctor(){} // RVA: 0x7FFE867633C0
+        public void ClosePerfDataKey(){} // RVA: 0x7FFAF86CE8B0
+        public void OpenBaseKeyCore(){} // RVA: 0x7FFAF86CE910
+        public void InternalOpenSubKeyCore(){} // RVA: 0x7FFAF86CEAA0
+        public void InternalSubKeyCountCore(){} // RVA: 0x7FFAF86CEE70
+        public void InternalGetSubKeyNamesCore(){} // RVA: 0x7FFAF86CEFC0
+        public void InternalValueCountCore(){} // RVA: 0x7FFAF86CF360
+        public void GetValueNamesCore(){} // RVA: 0x7FFAF86CF4B0
+        public void InternalGetValueCore(){} // RVA: 0x7FFAF86CFA00
+        public void Win32Error(){} // RVA: 0x7FFAF86D0A70
+        public void GetRegistryKeyAccess(){} // RVA: 0x7FFAF86D0C10
+        public void .ctor(){} // RVA: 0x7FFAF86D0C30
+        public void Dispose(){} // RVA: 0x7FFAF86D0DD0
+        public void OpenBaseKey(){} // RVA: 0x7FFAF86D0F50
+        public void OpenSubKey(){} // RVA: 0x7FFAF86D1130 | overloaded x2
+        public void InternalSubKeyCount(){} // RVA: 0x7FFAF86D1210
+        public void GetSubKeyNames(){} // RVA: 0x7FFAF86D13D0
+        public void InternalGetSubKeyNames(){} // RVA: 0x7FFAF86D13E0
+        public void InternalValueCount(){} // RVA: 0x7FFAF86D1630
+        public void GetValueNames(){} // RVA: 0x7FFAF86D17F0
+        public void GetValue(){} // RVA: 0x7FFAF86D1AC0 | overloaded x2
+        public void InternalGetValue(){} // RVA: 0x7FFAF86D1B90
+        public void ToString(){} // RVA: 0x7FFAF86D1C30
+        public void FixupName(){} // RVA: 0x7FFAF86D1C90
+        public void FixupPath(){} // RVA: 0x7FFAF86D1EC0
+        public void EnsureNotDisposed(){} // RVA: 0x7FFAF86D1FF0
+        public void GetSubKeyPermissionCheck(){} // RVA: 0x7FFAF86D2050
+        public void ValidateKeyName(){} // RVA: 0x7FFAF86D2070
+        public void ValidateKeyView(){} // RVA: 0x7FFAF86D24E0
+        public void IsSystemKey(){} // RVA: 0x7FFAF86D2550
+        public void IsPerfDataKey(){} // RVA: 0x7FFAF86D2560
+        public void .cctor(){} // RVA: 0x7FFAF86D2570
     }
 
-    public class ThrowHelper : Object
+    public class ThrowHelper
     {
         // ── Methods ──
-        public void ThrowArgumentException(){} // RVA: 0x7FFE86763630
-        public void ThrowArgumentNullException(){} // RVA: 0x7FFE86763690
-        public void ThrowSecurityException(){} // RVA: 0x7FFE867636E0
-        public void ThrowObjectDisposedException(){} // RVA: 0x7FFE86763730
+        public void ThrowArgumentException(){} // RVA: 0x7FFAF86D27E0
+        public void ThrowArgumentNullException(){} // RVA: 0x7FFAF86D2840
+        public void ThrowSecurityException(){} // RVA: 0x7FFAF86D2890
+        public void ThrowObjectDisposedException(){} // RVA: 0x7FFAF86D28E0
     }
 
-    public class Win32Native : Object
+    public class Win32Native
     {
         // ── Methods ──
-        public void GetMessage(){} // RVA: 0x7FFE86763790
-        public void MakeHRFromErrorCode(){} // RVA: 0x7FFE867637E0
+        public void GetMessage(){} // RVA: 0x7FFAF86D2940
+        public void MakeHRFromErrorCode(){} // RVA: 0x7FFAF86D2990
     }
 
 }

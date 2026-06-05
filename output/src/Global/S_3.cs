@@ -1,978 +1,1020 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 397
+// Methods: 497
 
-public class SharedStatic : Object
+public class SequenceNumber
 {
     // ── Methods ──
-    public void GetOrCreateSharedStaticInternal(){} // RVA: 0x7FFE87BF9420
+    public void NextValue(){} // RVA: 0x7FFAFBFE3040
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class SharedStatic`1 : ValueType
-{
-    public void* _buffer;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810A1420
-    public void get_Data(){} // RVA: 0x7FFE80E2E2E0
-    public void GetOrCreate(){} // RVA: 0x7FFE810A1420
-}
-
-public class SharedStatics : Object
-{
-}
-
-public class SheetHandleKey : ValueType
+public class SerialNumber
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87EC5890
+    public void .ctor(){} // RVA: 0x7FFAF86813B0
 }
 
-public class SheetHandleKeyComparer : Object
+public class SerializableBundleFileData
+{
+}
+
+public class SerializableContainer
 {
     // ── Methods ──
-    public void Equals(){} // RVA: 0x7FFE87EC58D0
-    public void GetHashCode(){} // RVA: 0x7FFE84108250
-    public void .ctor(){} // RVA: 0x7FFE810FB310
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
 }
 
-public class SigStream : BaseOutputStream
+public class SerializableVector3
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE89F83F60
-    public void WriteByte(){} // RVA: 0x7FFE89F97820
-    public void Write(){} // RVA: 0x7FFE89F97880
+    public void .ctor(){} // RVA: 0x7FFAF3A9D160
+    public void Initialize(){} // RVA: 0x7FFAF3A9D180
+    public void Initialize_D74F9E3B7B27(){} // RVA: 0x7FFAF3A9D180
+    public void op_Implicit(){} // RVA: 0x7FFAF3A9D180
+    public void set_Value(){} // RVA: 0x7FFAF3A9D180
+    public void IsNativeObjectAlive(){} // RVA: 0x7FFAF3A9D180
+    public void GetCachedPtr(){} // RVA: 0x7FFAF3A9D180
+    public void set_Value_F501E422C7A0(){} // RVA: 0x7FFAF3A9D180
+    public void get_Value(){} // RVA: 0x7FFAF3A9D180
 }
 
-public class SignalSource : Object
-{
-    public Cinemachine.CinemachineImpulseDefinition m_Def; // 0x10
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE82ABFC20
-    public void get_SignalDuration(){} // RVA: 0x7FFE82ABFC90
-    public void GetSignal(){} // RVA: 0x7FFE82ABFCB0
-}
-
-public class SignedData : Object
-{
-    public byte version; // 0x10
-    public string hashAlgorithm; // 0x18
-    public ContentInfo contentInfo; // 0x20
-    public Mono.Security.X509.X509CertificateCollection certs; // 0x28
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE866FAE50
-    public void get_Certificates(){} // RVA: 0x7FFE81129130
-    public void get_ContentInfo(){} // RVA: 0x7FFE811290C0
-    public void set_HashName(){} // RVA: 0x7FFE866FB6C0
-    public void get_SignerInfo(){} // RVA: 0x7FFE8143BA80
-    public void OidToName(){} // RVA: 0x7FFE866FB7A0
-}
-
-public class SignerInf : Object
-{
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Cms.CmsSignedGenerator outer; // 0x10
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.ISignatureFactory sigCalc; // 0x18
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cms.SignerIdentifier signerIdentifier; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8A1042F0 | overloaded x2
-    public void get_DigestAlgorithmID(){} // RVA: 0x7FFE8A104740
-    public void get_SignedAttributes(){} // RVA: 0x7FFE8143BA80
-    public void get_UnsignedAttributes(){} // RVA: 0x7FFE81178740
-    public void ToSignerInfo(){} // RVA: 0x7FFE8A104820
-}
-
-public class SignerInfo : Object
-{
-    public byte version; // 0x10
-    public string hashAlgorithm; // 0x18
-    public System.Collections.ArrayList authenticatedAttributes; // 0x20
-    public System.Collections.ArrayList unauthenticatedAttributes; // 0x28
-    public byte[] signature; // 0x30
-    public string issuer; // 0x38
-    public byte[] serial; // 0x40
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE866FBB90 | overloaded x2
-    public void get_IssuerName(){} // RVA: 0x7FFE8143BA80
-    public void get_SerialNumber(){} // RVA: 0x7FFE866FC060
-    public void get_AuthenticatedAttributes(){} // RVA: 0x7FFE811290C0
-    public void get_HashName(){} // RVA: 0x7FFE810FE7C0
-    public void set_HashName(){} // RVA: 0x7FFE81161E80
-    public void get_Signature(){} // RVA: 0x7FFE866FC0E0
-    public void get_UnauthenticatedAttributes(){} // RVA: 0x7FFE81129130
-    public void get_Version(){} // RVA: 0x7FFE811C55E0
-}
-
-public class SignerInfoGeneratorImpl : Object
+public class SerializationCallback
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8A10AA20
-    public void Generate(){} // RVA: 0x7FFE8A10B0F0
+    public void .ctor(){}
+    public void Invoke(){}
+    public void BeginInvoke(){} // RVA: 0x7FFAF2D33FA0
+    public void EndInvoke(){} // RVA: 0x7FFAF2ADDC60
 }
 
-public class SigningKey : ValueType
+public class SerializationCallback
 {
-    public byte[] _key; // 0x10
-
-    // ── Methods ──
-    public void get_Key(){} // RVA: 0x7FFE8284EF60
-    public void .ctor(){} // RVA: 0x7FFE8A2AB990
 }
 
-public class SimplePropertyDescriptor : PropertyDescriptor
+public class SerializationCallback
 {
-    public System.Type componentType; // 0x88
-    public System.Type propertyType; // 0x90
-    public object field_2;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE877DD5B0 | overloaded x2
-    public void get_ComponentType(){} // RVA: 0x7FFE8113A010
-    public void get_IsReadOnly(){} // RVA: 0x7FFE877DD6A0
-    public void get_PropertyType(){} // RVA: 0x7FFE8154EB60
-    public void CanResetValue(){} // RVA: 0x7FFE877DD780
-    public void ResetValue(){} // RVA: 0x7FFE877DD940
-    public void ShouldSerializeValue(){} // RVA: 0x7FFE810FB320
 }
 
-public class SimpleScheduledItem : VisualElementScheduledItem`1
+public class SerializationCallback
+{
+}
+
+public class SerializationCallback
+{
+}
+
+public class SerializationCallback
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87F9CCA0
-    public void PerformTimerUpdate(){} // RVA: 0x7FFE87F9CD00
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
 }
 
-public class SingleAnchorDelegatePair : ValueType
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB69A0
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB6C90
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB69A0
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB6BE0
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationCallback
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6AB8E40
+    public void Invoke(){} // RVA: 0x7FFAF5DB7D60
+    public void BeginInvoke(){} // RVA: 0x7FFAF6AB8F20
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializationDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF5E5F670
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
+    public void EndInvoke(){} // RVA: 0x7FFAF45EC940
+}
+
+public class Serialize32QuaternionDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF5DB76C0
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAFA089960
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class Serialize32Vector3Delegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF5DB76C0
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAFA089960
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializeFloatDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF8F2A400
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAFA0899A0
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializeFloatsDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF48C1FC0
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAFA089960
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializeQuaternionDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF5DB76C0
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAFA089960
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializeVector3Delegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF5DB76C0
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAFA089960
+    public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+}
+
+public class SerializedBundleRef
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+}
+
+public class SerializedState
 {
 }
 
-public class SingleByteUnion : ValueType
+public class SerializedSurfaceGeometry
 {
 }
 
-public class SingleConsumerUnboundedChannelReader : ChannelReader`1
+public class Serializer
 {
-    public System.Action`1<object> CancellationCallbackDelegate;
+}
+
+public class Serializer
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF8D02B30
+    public void Serialize(){} // RVA: 0x7FFAF8D01340
+    public void SerializeValue(){} // RVA: 0x7FFAF8D02BD0
+    public void SerializeObject(){} // RVA: 0x7FFAF8D02E60
+    public void SerializeArray(){} // RVA: 0x7FFAF8D031E0
+    public void SerializeString(){} // RVA: 0x7FFAF8D034D0
+    public void SerializeOther(){} // RVA: 0x7FFAF8D03960
+}
+
+public class Serializer32
+{
+}
+
+public class SerializerData
+{
+    // ── Methods ──
+    public void CreateWriter(){} // RVA: 0x7FFAF9575F20
+}
+
+public class ServerHandshakeState
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAFBFDDB30
+}
+
+public class ServiceAccessor
+{
+    // ── Methods ──
+    public void get_CallSite(){} // RVA: 0x7FFAF2DA8380
+    public void set_CallSite(){} // RVA: 0x7FFAF2D8EE30
+    public void get_RealizedService(){} // RVA: 0x7FFAF2D907C0
+    public void set_RealizedService(){} // RVA: 0x7FFAF2DF3E80
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+}
+
+public class ServiceCollectionDebugView
+{
+}
+
+public class ServiceDescriptorCacheItem
+{
+    // ── Methods ──
+    public void get_Last(){} // RVA: 0x7FFAF8647AD0
+    public void get_Count(){} // RVA: 0x7FFAF8647B70
+    public void get_Item(){} // RVA: 0x7FFAF8647BD0
+    public void GetSlot(){} // RVA: 0x7FFAF8647CF0
+    public void Add(){} // RVA: 0x7FFAF8647E60
+}
+
+public class ServiceProviderDebugView
+{
+}
+
+public class ServiceProviderEngineScopeDebugView
+{
+}
+
+public class SessionStateChanged
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF9FA6940
+    public void Invoke(){} // RVA: 0x7FFAF44E3A80
+}
+
+public class SetAnimatorBoolDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAFC5217B0
+    public void Invoke(){} // RVA: 0x7FFAF2EE94E0
+    public void BeginInvoke(){} // RVA: 0x7FFAFC521930
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+}
+
+public class SetClassValueAction
+{
+    // ── Methods ──
+    public void .ctor(){}
+    public void Invoke(){} // RVA: 0x7FFAF2D33FA0
+}
+
+public class SetElementProperty
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0x7FFAF2ABCD60
+    public void .ctor(){} // RVA: 0x7FFAF2AD4A50
+}
+
+public class SetElementProperty
+{
+    public object UnityEngine.PropertiesModule;
+}
+
+public class SetErrorLocation
+{
+    // ── Methods ──
+    public void ToString(){} // RVA: 0x7FFAFC5722E0
+}
+
+public class SetOnInvokeMres
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF89FF440
+    public void Invoke(){} // RVA: 0x7FFAF89D39A0
+    public void get_InvokeMayRunArbitraryCode(){} // RVA: 0x7FFAF2D8D320
+}
+
+public class SetOwnerDelegate
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6191EA0
+    public void Invoke(){} // RVA: 0x7FFAF2EE9370
+    public void BeginInvoke(){} // RVA: 0x7FFAFA0FABA0
+    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+}
+
+public class SetStructValueAction
+{
+    // ── Methods ──
+    public void .ctor(){}
+    public void Invoke(){} // RVA: 0x7FFAF2D33FA0
+}
+
+public class Settings
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAFC2F1560
+    public void Get(){} // RVA: 0x7FFAF2D33FA0
+    public void Save(){} // RVA: 0x7FFAF2D33FA0
+    public void LoadFromStorage(){} // RVA: 0x7FFAFC2F1840
+    public void GetSettingsFilePath(){} // RVA: 0x7FFAFC2F1DC0
+    public void WriteToStorage(){} // RVA: 0x7FFAFC2F1E50
+    public void <Save>b__9_0(){} // RVA: 0x7FFAF2AD4A50
+}
+
+public class Settings
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2DF53A0
+}
+
+public class Settings
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2F0B7C0
+}
+
+public class Settings
+{
+    public object Default;
+    public object DiagnosticOnly;
+    public object MergeFrom;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE80E460A0
-    public void get_Completion(){} // RVA: 0x7FFE80E2DCF0
-    public void TryRead(){} // RVA: 0x7FFE80E2F3B0
+    public void get_Default(){} // RVA: 0x7FFAF84DBDC0
+    public void .cctor(){} // RVA: 0x7FFAF84DBE20
+    public void get_FormatDefaultValues(){} // RVA: 0x7FFAF2E575E0
+    public void get_TypeRegistry(){} // RVA: 0x7FFAF2D907C0
+    public void get_FormatEnumsAsIntegers(){} // RVA: 0x7FFAF2E7B9D0
+    public void get_PreserveProtoFieldNames(){} // RVA: 0x7FFAF316B3A0
+    public void .ctor(){} // RVA: 0x7FFAF84DC210 | overloaded x3
+}
+
+public class Settings
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF8D17250
+}
+
+public class ShaderAssetList
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
+}
+
+public class ShaderHandleErrors
+{
+}
+
+public class ShaderIds
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF48DEB90
+}
+
+public class ShaderIds
+{
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7FFAF48F7E90
+}
+
+public class Shaders
+{
+    // ── Methods ──
+    public void Clone(){} // RVA: 0x7FFAF99F3AA0
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+}
+
+public class Shape
+{
+    // ── Methods ──
+    public void get_id(){} // RVA: 0x7FFAFA116DE0
+    public void set_id(){} // RVA: 0x7FFAFA116DF0
+    public void .ctor(){} // RVA: 0x7FFAFA116E20
+    public void .cctor(){} // RVA: 0x7FFAFA116ED0
+}
+
+public class Shape
+{
+}
+
+public class ShapeCache
+{
+    // ── Methods ──
+    public void Invalidate(){} // RVA: 0x7FFAF478DB30
+    public void ValidateCache(){} // RVA: 0x7FFAF478DCD0
+    public void IsValid(){} // RVA: 0x7FFAF478E840
+    public void CalculateDeltaTransformationMatrix(){} // RVA: 0x7FFAF478EB20
+}
+
+public class ShapeData
+{
+    // ── Methods ──
+    public void ToCollisionShape(){} // RVA: 0x7FFAFA116F10
+    public void GetMidpoint(){} // RVA: 0x7FFAFA116F60
+    public void GetClosestPoint(){} // RVA: 0x7FFAFA117000
+    public void CalcVelocityAtPoint(){} // RVA: 0x7FFAFA117390
+    public void UpdateShape(){} // RVA: 0x7FFAFA117670
+    public void GetTransformLossyScale(){} // RVA: 0x7FFAFA119890
+    public void UpdateVelocity(){} // RVA: 0x7FFAFA119AE0
+}
+
+public class ShapeModule
+{
+    public object enabled;
+    public object type;
+    public object mode;
+    public object dampen;
+    public object dampenMultiplier;
+    public object bounce;
+    public object bounceMultiplier;
+    public object lifetimeLoss;
+    public object lifetimeLossMultiplier;
+    public object minKillSpeed;
+    public object maxKillSpeed;
+    public object collidesWith;
+    public object enableDynamicColliders;
+    public object maxCollisionShapes;
+    public object quality;
+    public object voxelSize;
+    public object radiusScale;
+    public object sendCollisionMessages;
+    public object colliderForce;
+    public object multiplyColliderForceByCollisionAngle;
+    public object multiplyColliderForceByParticleSpeed;
+    public object multiplyColliderForceByParticleSize;
+    public object planeCount;
+    public object `;
+    public object set_enabled;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF3ABA2F0
+    public void get_enabled(){} // RVA: 0x7FFAF9C633C0
+    public void set_enabled(){} // RVA: 0x7FFAF9C63410
+    public void get_shapeType(){} // RVA: 0x7FFAF9C63470
+    public void set_shapeType(){} // RVA: 0x7FFAF9C634C0
+    public void get_randomDirectionAmount(){} // RVA: 0x7FFAF9C63520
+    public void set_randomDirectionAmount(){} // RVA: 0x7FFAF9C63570
+    public void get_sphericalDirectionAmount(){} // RVA: 0x7FFAF9C635D0
+    public void set_sphericalDirectionAmount(){} // RVA: 0x7FFAF9C63620
+    public void get_randomPositionAmount(){} // RVA: 0x7FFAF9C63680
+    public void set_randomPositionAmount(){} // RVA: 0x7FFAF9C636D0
+    public void get_alignToDirection(){} // RVA: 0x7FFAF9C63730
+    public void set_alignToDirection(){} // RVA: 0x7FFAF9C63780
+    public void get_radius(){} // RVA: 0x7FFAF9C637E0
+    public void set_radius(){} // RVA: 0x7FFAF9C63830
+    public void get_radiusMode(){} // RVA: 0x7FFAF9C63890
+    public void set_radiusMode(){} // RVA: 0x7FFAF9C638E0
+    public void get_radiusSpread(){} // RVA: 0x7FFAF9C63940
+    public void set_radiusSpread(){} // RVA: 0x7FFAF9C63990
+    public void get_radiusSpeed(){} // RVA: 0x7FFAF9C639F0
+    public void set_radiusSpeed(){} // RVA: 0x7FFAF9C63A60
+    public void get_radiusSpeedMultiplier(){} // RVA: 0x7FFAF9C63AC0
+    public void set_radiusSpeedMultiplier(){} // RVA: 0x7FFAF9C63B10
+    public void get_radiusThickness(){} // RVA: 0x7FFAF9C63B70
+    public void set_radiusThickness(){} // RVA: 0x7FFAF9C63BC0
+    public void get_angle(){} // RVA: 0x7FFAF9C63C20
+    public void set_angle(){} // RVA: 0x7FFAF9C63C70
+    public void get_length(){} // RVA: 0x7FFAF9C63CD0
+    public void set_length(){} // RVA: 0x7FFAF9C63D20
+    public void get_boxThickness(){} // RVA: 0x7FFAF9C63D80
+    public void set_boxThickness(){} // RVA: 0x7FFAF9C63DF0
+    public void get_meshShapeType(){} // RVA: 0x7FFAF9C63E50
+    public void set_meshShapeType(){} // RVA: 0x7FFAF9C63EA0
+    public void get_mesh(){} // RVA: 0x7FFAF9C63F00
+    public void set_mesh(){} // RVA: 0x7FFAF9C63F50
+    public void get_meshRenderer(){} // RVA: 0x7FFAF9C63FB0
+    public void set_meshRenderer(){} // RVA: 0x7FFAF9C64000
+    public void get_skinnedMeshRenderer(){} // RVA: 0x7FFAF9C64060
+    public void set_skinnedMeshRenderer(){} // RVA: 0x7FFAF9C640B0
+    public void get_sprite(){} // RVA: 0x7FFAF9C64110
+    public void set_sprite(){} // RVA: 0x7FFAF9C64160
+    public void get_spriteRenderer(){} // RVA: 0x7FFAF9C641C0
+    public void set_spriteRenderer(){} // RVA: 0x7FFAF9C64210
+    public void get_useMeshMaterialIndex(){} // RVA: 0x7FFAF9C64270
+    public void set_useMeshMaterialIndex(){} // RVA: 0x7FFAF9C642C0
+    public void get_meshMaterialIndex(){} // RVA: 0x7FFAF9C64320
+    public void set_meshMaterialIndex(){} // RVA: 0x7FFAF9C64370
+    public void get_useMeshColors(){} // RVA: 0x7FFAF9C643D0
+    public void set_useMeshColors(){} // RVA: 0x7FFAF9C64420
+    public void get_normalOffset(){} // RVA: 0x7FFAF9C64480
+    public void set_normalOffset(){} // RVA: 0x7FFAF9C644D0
+    public void get_meshSpawnMode(){} // RVA: 0x7FFAF9C64530
+    public void set_meshSpawnMode(){} // RVA: 0x7FFAF9C64580
+    public void get_meshSpawnSpread(){} // RVA: 0x7FFAF9C645E0
+    public void set_meshSpawnSpread(){} // RVA: 0x7FFAF9C64630
+    public void get_meshSpawnSpeed(){} // RVA: 0x7FFAF9C64690
+    public void set_meshSpawnSpeed(){} // RVA: 0x7FFAF9C64700
+    public void get_meshSpawnSpeedMultiplier(){} // RVA: 0x7FFAF9C64760
+    public void set_meshSpawnSpeedMultiplier(){} // RVA: 0x7FFAF9C647B0
+    public void get_arc(){} // RVA: 0x7FFAF9C64810
+    public void set_arc(){} // RVA: 0x7FFAF9C64860
+    public void get_arcMode(){} // RVA: 0x7FFAF9C648C0
+    public void set_arcMode(){} // RVA: 0x7FFAF9C64910
+    public void get_arcSpread(){} // RVA: 0x7FFAF9C64970
+    public void set_arcSpread(){} // RVA: 0x7FFAF9C649C0
+    public void get_arcSpeed(){} // RVA: 0x7FFAF9C64A20
+    public void set_arcSpeed(){} // RVA: 0x7FFAF9C64A90
+    public void get_arcSpeedMultiplier(){} // RVA: 0x7FFAF9C64AF0
+    public void set_arcSpeedMultiplier(){} // RVA: 0x7FFAF9C64B40
+    public void get_donutRadius(){} // RVA: 0x7FFAF9C64BA0
+    public void set_donutRadius(){} // RVA: 0x7FFAF9C64BF0
+    public void get_position(){} // RVA: 0x7FFAF9C64C50
+    public void set_position(){} // RVA: 0x7FFAF9C64CC0
+    public void get_rotation(){} // RVA: 0x7FFAF9C64D20
+    public void set_rotation(){} // RVA: 0x7FFAF9C64D90
+    public void get_scale(){} // RVA: 0x7FFAF9C64DF0
+    public void set_scale(){} // RVA: 0x7FFAF9C64E60
+    public void get_texture(){} // RVA: 0x7FFAF9C64EC0
+    public void set_texture(){} // RVA: 0x7FFAF9C64F10
+    public void get_textureClipChannel(){} // RVA: 0x7FFAF9C64F70
+    public void set_textureClipChannel(){} // RVA: 0x7FFAF9C64FC0
+    public void get_textureClipThreshold(){} // RVA: 0x7FFAF9C65020
+    public void set_textureClipThreshold(){} // RVA: 0x7FFAF9C65070
+    public void get_textureColorAffectsParticles(){} // RVA: 0x7FFAF9C650D0
+    public void set_textureColorAffectsParticles(){} // RVA: 0x7FFAF9C65120
+    public void get_textureAlphaAffectsParticles(){} // RVA: 0x7FFAF9C65180
+    public void set_textureAlphaAffectsParticles(){} // RVA: 0x7FFAF9C651D0
+    public void get_textureBilinearFiltering(){} // RVA: 0x7FFAF9C65230
+    public void set_textureBilinearFiltering(){} // RVA: 0x7FFAF9C65280
+    public void get_textureUVChannel(){} // RVA: 0x7FFAF9C652E0
+    public void set_textureUVChannel(){} // RVA: 0x7FFAF9C65330
+    public void get_enabled_Injected(){} // RVA: 0x7FFAF9C633C0
+    public void set_enabled_Injected(){} // RVA: 0x7FFAF9C63410
+    public void get_shapeType_Injected(){} // RVA: 0x7FFAF9C63470
+    public void set_shapeType_Injected(){} // RVA: 0x7FFAF9C634C0
+    public void get_randomDirectionAmount_Injected(){} // RVA: 0x7FFAF9C63520
+    public void set_randomDirectionAmount_Injected(){} // RVA: 0x7FFAF9C63570
+    public void get_sphericalDirectionAmount_Injected(){} // RVA: 0x7FFAF9C635D0
+    public void set_sphericalDirectionAmount_Injected(){} // RVA: 0x7FFAF9C63620
+    public void get_randomPositionAmount_Injected(){} // RVA: 0x7FFAF9C63680
+    public void set_randomPositionAmount_Injected(){} // RVA: 0x7FFAF9C636D0
+    public void get_alignToDirection_Injected(){} // RVA: 0x7FFAF9C63730
+    public void set_alignToDirection_Injected(){} // RVA: 0x7FFAF9C63780
+    public void get_radius_Injected(){} // RVA: 0x7FFAF9C637E0
+    public void set_radius_Injected(){} // RVA: 0x7FFAF9C63830
+    public void get_radiusMode_Injected(){} // RVA: 0x7FFAF9C63890
+    public void set_radiusMode_Injected(){} // RVA: 0x7FFAF9C638E0
+    public void get_radiusSpread_Injected(){} // RVA: 0x7FFAF9C63940
+    public void set_radiusSpread_Injected(){} // RVA: 0x7FFAF9C63990
+    public void get_radiusSpeed_Injected(){} // RVA: 0x7FFAF9C65390
+    public void set_radiusSpeed_Injected(){} // RVA: 0x7FFAF9C653F0
+    public void get_radiusSpeedMultiplier_Injected(){} // RVA: 0x7FFAF9C63AC0
+    public void set_radiusSpeedMultiplier_Injected(){} // RVA: 0x7FFAF9C63B10
+    public void get_radiusThickness_Injected(){} // RVA: 0x7FFAF9C63B70
+    public void set_radiusThickness_Injected(){} // RVA: 0x7FFAF9C63BC0
+    public void get_angle_Injected(){} // RVA: 0x7FFAF9C63C20
+    public void set_angle_Injected(){} // RVA: 0x7FFAF9C63C70
+    public void get_length_Injected(){} // RVA: 0x7FFAF9C63CD0
+    public void set_length_Injected(){} // RVA: 0x7FFAF9C63D20
+    public void get_boxThickness_Injected(){} // RVA: 0x7FFAF9C65450
+    public void set_boxThickness_Injected(){} // RVA: 0x7FFAF9C654B0
+    public void get_meshShapeType_Injected(){} // RVA: 0x7FFAF9C63E50
+    public void set_meshShapeType_Injected(){} // RVA: 0x7FFAF9C63EA0
+    public void get_mesh_Injected(){} // RVA: 0x7FFAF9C63F00
+    public void set_mesh_Injected(){} // RVA: 0x7FFAF9C63F50
+    public void get_meshRenderer_Injected(){} // RVA: 0x7FFAF9C63FB0
+    public void set_meshRenderer_Injected(){} // RVA: 0x7FFAF9C64000
+    public void get_skinnedMeshRenderer_Injected(){} // RVA: 0x7FFAF9C64060
+    public void set_skinnedMeshRenderer_Injected(){} // RVA: 0x7FFAF9C640B0
+    public void get_sprite_Injected(){} // RVA: 0x7FFAF9C64110
+    public void set_sprite_Injected(){} // RVA: 0x7FFAF9C64160
+    public void get_spriteRenderer_Injected(){} // RVA: 0x7FFAF9C641C0
+    public void set_spriteRenderer_Injected(){} // RVA: 0x7FFAF9C64210
+    public void get_useMeshMaterialIndex_Injected(){} // RVA: 0x7FFAF9C64270
+    public void set_useMeshMaterialIndex_Injected(){} // RVA: 0x7FFAF9C642C0
+    public void get_meshMaterialIndex_Injected(){} // RVA: 0x7FFAF9C64320
+    public void set_meshMaterialIndex_Injected(){} // RVA: 0x7FFAF9C64370
+    public void get_useMeshColors_Injected(){} // RVA: 0x7FFAF9C643D0
+    public void set_useMeshColors_Injected(){} // RVA: 0x7FFAF9C64420
+    public void get_normalOffset_Injected(){} // RVA: 0x7FFAF9C64480
+    public void set_normalOffset_Injected(){} // RVA: 0x7FFAF9C644D0
+    public void get_meshSpawnMode_Injected(){} // RVA: 0x7FFAF9C64530
+    public void set_meshSpawnMode_Injected(){} // RVA: 0x7FFAF9C64580
+    public void get_meshSpawnSpread_Injected(){} // RVA: 0x7FFAF9C645E0
+    public void set_meshSpawnSpread_Injected(){} // RVA: 0x7FFAF9C64630
+    public void get_meshSpawnSpeed_Injected(){} // RVA: 0x7FFAF9C65510
+    public void set_meshSpawnSpeed_Injected(){} // RVA: 0x7FFAF9C65570
+    public void get_meshSpawnSpeedMultiplier_Injected(){} // RVA: 0x7FFAF9C64760
+    public void set_meshSpawnSpeedMultiplier_Injected(){} // RVA: 0x7FFAF9C647B0
+    public void get_arc_Injected(){} // RVA: 0x7FFAF9C64810
+    public void set_arc_Injected(){} // RVA: 0x7FFAF9C64860
+    public void get_arcMode_Injected(){} // RVA: 0x7FFAF9C648C0
+    public void set_arcMode_Injected(){} // RVA: 0x7FFAF9C64910
+    public void get_arcSpread_Injected(){} // RVA: 0x7FFAF9C64970
+    public void set_arcSpread_Injected(){} // RVA: 0x7FFAF9C649C0
+    public void get_arcSpeed_Injected(){} // RVA: 0x7FFAF9C655D0
+    public void set_arcSpeed_Injected(){} // RVA: 0x7FFAF9C65630
+    public void get_arcSpeedMultiplier_Injected(){} // RVA: 0x7FFAF9C64AF0
+    public void set_arcSpeedMultiplier_Injected(){} // RVA: 0x7FFAF9C64B40
+    public void get_donutRadius_Injected(){} // RVA: 0x7FFAF9C64BA0
+    public void set_donutRadius_Injected(){} // RVA: 0x7FFAF9C64BF0
+    public void get_position_Injected(){} // RVA: 0x7FFAF9C65690
+    public void set_position_Injected(){} // RVA: 0x7FFAF9C656F0
+    public void get_rotation_Injected(){} // RVA: 0x7FFAF9C65750
+    public void set_rotation_Injected(){} // RVA: 0x7FFAF9C657B0
+    public void get_scale_Injected(){} // RVA: 0x7FFAF9C65810
+    public void set_scale_Injected(){} // RVA: 0x7FFAF9C65870
+    public void get_texture_Injected(){} // RVA: 0x7FFAF9C64EC0
+    public void set_texture_Injected(){} // RVA: 0x7FFAF9C64F10
+    public void get_textureClipChannel_Injected(){} // RVA: 0x7FFAF9C64F70
+    public void set_textureClipChannel_Injected(){} // RVA: 0x7FFAF9C64FC0
+    public void get_textureClipThreshold_Injected(){} // RVA: 0x7FFAF9C65020
+    public void set_textureClipThreshold_Injected(){} // RVA: 0x7FFAF9C65070
+    public void get_textureColorAffectsParticles_Injected(){} // RVA: 0x7FFAF9C650D0
+    public void set_textureColorAffectsParticles_Injected(){} // RVA: 0x7FFAF9C65120
+    public void get_textureAlphaAffectsParticles_Injected(){} // RVA: 0x7FFAF9C65180
+    public void set_textureAlphaAffectsParticles_Injected(){} // RVA: 0x7FFAF9C651D0
+    public void get_textureBilinearFiltering_Injected(){} // RVA: 0x7FFAF9C65230
+    public void set_textureBilinearFiltering_Injected(){} // RVA: 0x7FFAF9C65280
+    public void get_textureUVChannel_Injected(){} // RVA: 0x7FFAF9C652E0
+    public void set_textureUVChannel_Injected(){} // RVA: 0x7FFAF9C65330
+}
+
+public class SharedBool
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF88BE8A0
+}
+
+public class SharedInt
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF88BE890
+}
+
+public class SharedLong
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF4417700
+}
+
+public class SharedPtr
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6886EA0
+    public void DeleteMpPtr(){} // RVA: 0x7FFAF858B4B0
+    public void Get(){} // RVA: 0x7FFAF858B570
+}
+
+public class SharedPtr
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF688B3A0
+    public void DeleteMpPtr(){} // RVA: 0x7FFAF858B170
+    public void Get(){} // RVA: 0x7FFAF858B230
+}
+
+public class SharedPtr
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF6886EA0
+    public void DeleteMpPtr(){} // RVA: 0x7FFAF858BA20
+    public void Get(){} // RVA: 0x7FFAF858BAE0
+}
+
+public class SharedStatic
+{
+    // ── Methods ──
+    public void GetOrCreateSharedStaticInternal(){} // RVA: 0x7FFAF9B68440
+}
+
+public class SharedStatic`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+    public void get_Data(){} // RVA: 0x7FFAF2ABCD60
+    public void GetOrCreate(){} // RVA: 0x7FFAF2D33FA0
+}
+
+public class SharedStatic`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF45C2320
+    public void get_Data(){} // RVA: 0x7FFAF6AC9EE0
+    public void GetOrCreate(){} // RVA: 0x7FFAF2D33FA0
+}
+
+public class SharedStatics
+{
+}
+
+public class SheetHandleKey
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF9E35710
+}
+
+public class SheetHandleKeyComparer
+{
+    // ── Methods ──
+    public void Equals(){} // RVA: 0x7FFAF9E35750
+    public void GetHashCode(){} // RVA: 0x7FFAF5F23490
+    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+}
+
+public class SigStream
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAFBFD1B90
+    public void WriteByte(){} // RVA: 0x7FFAFBFE5450
+    public void Write(){} // RVA: 0x7FFAFBFE54B0
+}
+
+public class SignalSource
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF47E1DA0
+    public void get_SignalDuration(){} // RVA: 0x7FFAF47E1E10
+    public void GetSignal(){} // RVA: 0x7FFAF47E1E30
+}
+
+public class SignedData
+{
+    public object IssuerName;
+    public object SerialNumber;
+    public object AuthenticatedAttributes;
+    public object HashName;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF866A000
+    public void get_Certificates(){} // RVA: 0x7FFAF2DBB130
+    public void get_ContentInfo(){} // RVA: 0x7FFAF2DBB0C0
+    public void set_HashName(){} // RVA: 0x7FFAF866A870
+    public void get_SignerInfo(){} // RVA: 0x7FFAF2F476A0
+    public void OidToName(){} // RVA: 0x7FFAF866A950
+}
+
+public class SignerInf
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAFC151F10 | overloaded x2
+    public void get_DigestAlgorithmID(){} // RVA: 0x7FFAFC152360
+    public void get_SignedAttributes(){} // RVA: 0x7FFAF2F476A0
+    public void get_UnsignedAttributes(){} // RVA: 0x7FFAF2E0A740
+    public void ToSignerInfo(){} // RVA: 0x7FFAFC152440
+}
+
+public class SignerInfo
+{
+    public object BagOID;
+    public object ASN1;
+    public object set_HashName;
+
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF866AD40 | overloaded x2
+    public void get_IssuerName(){} // RVA: 0x7FFAF2F476A0
+    public void get_SerialNumber(){} // RVA: 0x7FFAF866B210
+    public void get_AuthenticatedAttributes(){} // RVA: 0x7FFAF2DBB0C0
+    public void get_HashName(){} // RVA: 0x7FFAF2D907C0
+    public void set_HashName(){} // RVA: 0x7FFAF2DF3E80
+    public void get_Signature(){} // RVA: 0x7FFAF866B290
+    public void get_UnauthenticatedAttributes(){} // RVA: 0x7FFAF2DBB130
+    public void get_Version(){} // RVA: 0x7FFAF2E575E0
+}
+
+public class SignerInfoGeneratorImpl : `
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAFC158640
+    public void Generate(){} // RVA: 0x7FFAFC158D10
+}
+
+public class SigningKey
+{
+    public object SigningKey;
+
+    // ── Methods ──
+    public void get_Key(){} // RVA: 0x7FFAF4584690
+    public void .ctor(){} // RVA: 0x7FFAFC2F95B0
+}
+
+public class SigningKey
+{
+    // ── Methods ──
+    public void get_Key(){} // RVA: 0x7FFAF4584690
+    public void .ctor(){} // RVA: 0x7FFAFA1AEF60
+}
+
+public class SimplePropertyDescriptor
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF974C700 | overloaded x2
+    public void get_ComponentType(){} // RVA: 0x7FFAF2DCC010
+    public void get_IsReadOnly(){} // RVA: 0x7FFAF974C7F0
+    public void get_PropertyType(){} // RVA: 0x7FFAF3246DE0
+    public void CanResetValue(){} // RVA: 0x7FFAF974C8D0
+    public void ResetValue(){} // RVA: 0x7FFAF974CA90
+    public void ShouldSerializeValue(){} // RVA: 0x7FFAF2D8D320
+}
+
+public class SimpleScheduledItem
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF9F0CB00
+    public void PerformTimerUpdate(){} // RVA: 0x7FFAF9F0CB60
+}
+
+public class SingleAnchorDelegatePair
+{
+}
+
+public class SingleByteUnion
+{
+}
+
+public class SingleConsumerUnboundedChannelReader
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+    public void get_Completion(){} // RVA: 0x7FFAF2ABC770
+    public void TryRead(){} // RVA: 0x7FFAF2ABDE40
     public void WaitToReadAsync(){}
-    public void SingalContinuation(){} // RVA: 0x7FFE80E45FE0
-    public void SingalCancellation(){} // RVA: 0x7FFE80E46250
-    public void SingalCompleted(){} // RVA: 0x7FFE80E460A0
+    public void SingalContinuation(){} // RVA: 0x7FFAF2AD4A50
+    public void SingalCancellation(){} // RVA: 0x7FFAF2AD4CC0
+    public void SingalCompleted(){} // RVA: 0x7FFAF2AD4B10
     public void ReadAllAsync(){}
-    public void Cysharp.Threading.Tasks.IUniTaskSource<System.Boolean>.GetResult(){} // RVA: 0x7FFE80E2FFD0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFE80E461D0
+    public void Cysharp.Threading.Tasks.IUniTaskSource<System.Boolean>.GetResult(){} // RVA: 0x7FFAF2ABEA60
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF2AD4C40
     public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){}
     public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){}
-    public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7FFE80E2EDB0
-    public void CancellationCallback(){} // RVA: 0x7FFE80E46070
+    public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7FFAF2ABD840
+    public void CancellationCallback(){} // RVA: 0x7FFAF2AD4AE0
 }
 
-public class SingleConsumerUnboundedChannelWriter : ChannelWriter`1
+public class SingleConsumerUnboundedChannelReader
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE80E460A0
-    public void TryWrite(){} // RVA: 0x7FFE810A1420
-    public void TryComplete(){} // RVA: 0x7FFE80E2F3B0
+    public void .ctor(){} // RVA: 0x7FFAF6ACEA50
+    public void get_Completion(){} // RVA: 0x7FFAF6ACEB70
+    public void TryRead(){} // RVA: 0x7FFAF6ACED70
+    public void WaitToReadAsync(){} // RVA: 0x7FFAF6ACF200
+    public void SingalContinuation(){} // RVA: 0x7FFAF6ACF760
+    public void SingalCancellation(){} // RVA: 0x7FFAF6ACF7A0
+    public void SingalCompleted(){} // RVA: 0x7FFAF6ACF7F0
+    public void ReadAllAsync(){} // RVA: 0x7FFAF6ACF870
+    public void Cysharp.Threading.Tasks.IUniTaskSource<System.Boolean>.GetResult(){} // RVA: 0x7FFAF6ACF8F0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF6ACF940
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7FFAF6ACF990
+    public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7FFAF6ACF9E0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7FFAF6ACFA60
+    public void CancellationCallback(){} // RVA: 0x7FFAF6ACFAA0
 }
 
-public class SingleObjectEnumerator : Object
-{
-    public object loneValue; // 0x10
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE83C3D9B0
-    public void get_Current(){} // RVA: 0x7FFE875A1610
-    public void MoveNext(){} // RVA: 0x7FFE875A1670
-    public void Reset(){} // RVA: 0x7FFE82A55FE0
-}
-
-public class SingleProducerSingleConsumerQueue_DebugView : Object
-{
-}
-
-public class SingleQueryMatcher : UQueryMatcher
-{
-    public UnityEngine.UIElements.VisualElement _match; // 0x18
-
-    // ── Methods ──
-    public void get_match(){} // RVA: 0x7FFE810FE7C0
-    public void set_match(){} // RVA: 0x7FFE81161E80
-    public void Run(){} // RVA: 0x7FFE87FCCD50
-    public void IsInUse(){} // RVA: 0x7FFE87FCCE90
-    public void CreateNew(){} // RVA: 0x7FFE80E2E2E0
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-}
-
-public class SingleRange : ValueType
+public class SingleConsumerUnboundedChannelReader
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE84455D80
+    public void .ctor(){} // RVA: 0x7FFAF6AD1F80
+    public void get_Completion(){} // RVA: 0x7FFAF6AD20A0
+    public void TryRead(){} // RVA: 0x7FFAF6AD22A0
+    public void WaitToReadAsync(){} // RVA: 0x7FFAF6AD2870
+    public void SingalContinuation(){} // RVA: 0x7FFAF6AD2DD0
+    public void SingalCancellation(){} // RVA: 0x7FFAF6AD2E10
+    public void SingalCompleted(){} // RVA: 0x7FFAF6AD2E60
+    public void ReadAllAsync(){} // RVA: 0x7FFAF6AD2EE0
+    public void Cysharp.Threading.Tasks.IUniTaskSource<System.Boolean>.GetResult(){} // RVA: 0x7FFAF6AD2F60
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF6AD2FB0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7FFAF6AD3000
+    public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7FFAF6AD3050
+    public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7FFAF6AD30D0
+    public void CancellationCallback(){} // RVA: 0x7FFAF6AD3110
 }
 
-public class SingleRangeComparer : Object
+public class SingleConsumerUnboundedChannelReader
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-    public void Compare(){} // RVA: 0x7FFE87751120
-    public void .cctor(){} // RVA: 0x7FFE87751180
+    public void .ctor(){} // RVA: 0x7FFAF6ACC5F0
+    public void get_Completion(){} // RVA: 0x7FFAF6ACC710
+    public void TryRead(){} // RVA: 0x7FFAF6ACC910
+    public void WaitToReadAsync(){} // RVA: 0x7FFAF6ACCEC0
+    public void SingalContinuation(){} // RVA: 0x7FFAF6ACD420
+    public void SingalCancellation(){} // RVA: 0x7FFAF6ACD460
+    public void SingalCompleted(){} // RVA: 0x7FFAF6ACD4B0
+    public void ReadAllAsync(){} // RVA: 0x7FFAF6ACD530
+    public void Cysharp.Threading.Tasks.IUniTaskSource<System.Boolean>.GetResult(){} // RVA: 0x7FFAF6ACD5B0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF6ACD600
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7FFAF6ACD650
+    public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7FFAF6ACD6A0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7FFAF6ACD720
+    public void CancellationCallback(){} // RVA: 0x7FFAF6ACD760
 }
 
-public class Site : Object
-{
-    public string _name; // 0x10
-    public System.ComponentModel.IComponent _component; // 0x18
-    public System.ComponentModel.IContainer _container; // 0x20
-    public object field_3; // 0x27D
-    public object field_4; // 0x27E
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE877B2CB0
-    public void get_Component(){} // RVA: 0x7FFE810FE7C0
-    public void get_Container(){} // RVA: 0x7FFE811290C0
-    public void GetService(){} // RVA: 0x7FFE877B2DB0
-    public void get_DesignMode(){} // RVA: 0x7FFE877B2F00
-    public void get_FullName(){} // RVA: 0x7FFE877B2FF0
-    public void get_Name(){} // RVA: 0x7FFE81116380
-    public void set_Name(){} // RVA: 0x7FFE877B3110
-}
-
-public class Size3f : ValueType
+public class SingleConsumerUnboundedChannelWriter
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7FFE86CB15E0
+    public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+    public void TryWrite(){} // RVA: 0x7FFAF2D33FA0
+    public void TryComplete(){} // RVA: 0x7FFAF2ABDE40
 }
 
-public class SizeBySpeedModule : ValueType
-{
-    public UnityEngine.ParticleSystem m_ParticleSystem; // 0x10
-    public object field_1; // 0x141
-    public object field_2; // 0x142
-    public object field_3; // 0x143
-    public object field_4; // 0x144
-    public object field_5; // 0x145
-    public object field_6; // 0x146
-    public object field_7; // 0x147
-    public object field_8; // 0x148
-    public object field_9; // 0x149
-    public object field_10; // 0x14A
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81D7E9E0
-    public void get_enabled(){} // RVA: 0x7FFE87CFF060
-    public void set_enabled(){} // RVA: 0x7FFE87CFF0B0
-    public void get_size(){} // RVA: 0x7FFE87CFF110
-    public void set_size(){} // RVA: 0x7FFE87CFF180
-    public void get_sizeMultiplier(){} // RVA: 0x7FFE87CFF1E0
-    public void set_sizeMultiplier(){} // RVA: 0x7FFE87CFF230
-    public void get_x(){} // RVA: 0x7FFE87CFF290
-    public void set_x(){} // RVA: 0x7FFE87CFF300
-    public void get_xMultiplier(){} // RVA: 0x7FFE87CFF360
-    public void set_xMultiplier(){} // RVA: 0x7FFE87CFF3B0
-    public void get_y(){} // RVA: 0x7FFE87CFF410
-    public void set_y(){} // RVA: 0x7FFE87CFF480
-    public void get_yMultiplier(){} // RVA: 0x7FFE87CFF4E0
-    public void set_yMultiplier(){} // RVA: 0x7FFE87CFF530
-    public void get_z(){} // RVA: 0x7FFE87CFF590
-    public void set_z(){} // RVA: 0x7FFE87CFF600
-    public void get_zMultiplier(){} // RVA: 0x7FFE87CFF660
-    public void set_zMultiplier(){} // RVA: 0x7FFE87CFF6B0
-    public void get_separateAxes(){} // RVA: 0x7FFE87CFF710
-    public void set_separateAxes(){} // RVA: 0x7FFE87CFF760
-    public void get_range(){} // RVA: 0x7FFE87CFF7C0
-    public void set_range(){} // RVA: 0x7FFE87CFF820
-    public void get_enabled_Injected(){} // RVA: 0x7FFE87CFF060
-    public void set_enabled_Injected(){} // RVA: 0x7FFE87CFF0B0
-    public void get_size_Injected(){} // RVA: 0x7FFE87CFF880
-    public void set_size_Injected(){} // RVA: 0x7FFE87CFF8E0
-    public void get_sizeMultiplier_Injected(){} // RVA: 0x7FFE87CFF1E0
-    public void set_sizeMultiplier_Injected(){} // RVA: 0x7FFE87CFF230
-    public void get_x_Injected(){} // RVA: 0x7FFE87CFF940
-    public void set_x_Injected(){} // RVA: 0x7FFE87CFF9A0
-    public void get_xMultiplier_Injected(){} // RVA: 0x7FFE87CFF360
-    public void set_xMultiplier_Injected(){} // RVA: 0x7FFE87CFF3B0
-    public void get_y_Injected(){} // RVA: 0x7FFE87CFFA00
-    public void set_y_Injected(){} // RVA: 0x7FFE87CFFA60
-    public void get_yMultiplier_Injected(){} // RVA: 0x7FFE87CFF4E0
-    public void set_yMultiplier_Injected(){} // RVA: 0x7FFE87CFF530
-    public void get_z_Injected(){} // RVA: 0x7FFE87CFFAC0
-    public void set_z_Injected(){} // RVA: 0x7FFE87CFFB20
-    public void get_zMultiplier_Injected(){} // RVA: 0x7FFE87CFF660
-    public void set_zMultiplier_Injected(){} // RVA: 0x7FFE87CFF6B0
-    public void get_separateAxes_Injected(){} // RVA: 0x7FFE87CFF710
-    public void set_separateAxes_Injected(){} // RVA: 0x7FFE87CFF760
-    public void get_range_Injected(){} // RVA: 0x7FFE87CFFB80
-    public void set_range_Injected(){} // RVA: 0x7FFE87CFFBE0
-}
-
-public class SizeGroup : Object
-{
-    public System.Collections.Generic.Stack`1<T[]> ArrayStack;
-
-    // ── Methods ──
-    public void get_Count(){} // RVA: 0x7FFE80E2EDB0
-    public void TryGetArray(){} // RVA: 0x7FFE80E2E2E0
-    public void ReturnArray(){} // RVA: 0x7FFE80E460A0
-    public void Cleanup(){} // RVA: 0x7FFE80E2EDB0
-    public void Contains(){} // RVA: 0x7FFE80E2F3B0
-    public void .ctor(){} // RVA: 0x7FFE80E45FE0
-}
-
-public class SizeOverLifetimeModule : ValueType
-{
-    public UnityEngine.ParticleSystem m_ParticleSystem; // 0x10
-    public object field_1; // 0x137
-    public object field_2; // 0x138
-    public object field_3; // 0x139
-    public object field_4; // 0x13A
-    public object field_5; // 0x13B
-    public object field_6; // 0x13C
-    public object field_7; // 0x13D
-    public object field_8; // 0x13E
-    public object field_9; // 0x13F
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81D7E9E0
-    public void get_enabled(){} // RVA: 0x7FFE87CFE600
-    public void set_enabled(){} // RVA: 0x7FFE87CFE650
-    public void get_size(){} // RVA: 0x7FFE87CFE6B0
-    public void set_size(){} // RVA: 0x7FFE87CFE720
-    public void get_sizeMultiplier(){} // RVA: 0x7FFE87CFE780
-    public void set_sizeMultiplier(){} // RVA: 0x7FFE87CFE7D0
-    public void get_x(){} // RVA: 0x7FFE87CFE830
-    public void set_x(){} // RVA: 0x7FFE87CFE8A0
-    public void get_xMultiplier(){} // RVA: 0x7FFE87CFE900
-    public void set_xMultiplier(){} // RVA: 0x7FFE87CFE950
-    public void get_y(){} // RVA: 0x7FFE87CFE9B0
-    public void set_y(){} // RVA: 0x7FFE87CFEA20
-    public void get_yMultiplier(){} // RVA: 0x7FFE87CFEA80
-    public void set_yMultiplier(){} // RVA: 0x7FFE87CFEAD0
-    public void get_z(){} // RVA: 0x7FFE87CFEB30
-    public void set_z(){} // RVA: 0x7FFE87CFEBA0
-    public void get_zMultiplier(){} // RVA: 0x7FFE87CFEC00
-    public void set_zMultiplier(){} // RVA: 0x7FFE87CFEC50
-    public void get_separateAxes(){} // RVA: 0x7FFE87CFECB0
-    public void set_separateAxes(){} // RVA: 0x7FFE87CFED00
-    public void get_enabled_Injected(){} // RVA: 0x7FFE87CFE600
-    public void set_enabled_Injected(){} // RVA: 0x7FFE87CFE650
-    public void get_size_Injected(){} // RVA: 0x7FFE87CFED60
-    public void set_size_Injected(){} // RVA: 0x7FFE87CFEDC0
-    public void get_sizeMultiplier_Injected(){} // RVA: 0x7FFE87CFE780
-    public void set_sizeMultiplier_Injected(){} // RVA: 0x7FFE87CFE7D0
-    public void get_x_Injected(){} // RVA: 0x7FFE87CFEE20
-    public void set_x_Injected(){} // RVA: 0x7FFE87CFEE80
-    public void get_xMultiplier_Injected(){} // RVA: 0x7FFE87CFE900
-    public void set_xMultiplier_Injected(){} // RVA: 0x7FFE87CFE950
-    public void get_y_Injected(){} // RVA: 0x7FFE87CFEEE0
-    public void set_y_Injected(){} // RVA: 0x7FFE87CFEF40
-    public void get_yMultiplier_Injected(){} // RVA: 0x7FFE87CFEA80
-    public void set_yMultiplier_Injected(){} // RVA: 0x7FFE87CFEAD0
-    public void get_z_Injected(){} // RVA: 0x7FFE87CFEFA0
-    public void set_z_Injected(){} // RVA: 0x7FFE87CFF000
-    public void get_zMultiplier_Injected(){} // RVA: 0x7FFE87CFEC00
-    public void set_zMultiplier_Injected(){} // RVA: 0x7FFE87CFEC50
-    public void get_separateAxes_Injected(){} // RVA: 0x7FFE87CFECB0
-    public void set_separateAxes_Injected(){} // RVA: 0x7FFE87CFED00
-}
-
-public class SizeProperty : Property`2
+public class SingleConsumerUnboundedChannelWriter
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x7FFE87D4F800
-    public void .ctor(){} // RVA: 0x7FFE87D4F840
+    public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+    public void TryWrite(){} // RVA: 0x7FFAF6AD45B0
+    public void TryComplete(){} // RVA: 0x7FFAF6AD4820
 }
 
-public class Sizef : ValueType
+public class SingleConsumerUnboundedChannelWriter
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7FFE86CB15A0
-}
-
-public class Sizei : ValueType
-{
-    // ── Methods ──
-    public void Equals(){} // RVA: 0x7FFE86CB14A0 | overloaded x2
-    public void GetHashCode(){} // RVA: 0x7FFE86BC1AE0
-    public void .cctor(){} // RVA: 0x7FFE86CB1550
-}
-
-public class Skeleton : ValueType
-{
-}
-
-public class Skeleton2 : ValueType
-{
-}
-
-public class Skeleton2Internal : ValueType
-{
-}
-
-public class SkeletonBlendablePose : Object
-{
-    // ── Methods ──
-    public void GetHandSnapshot(){} // RVA: 0x7FFE87036C40
-    public void UpdateAdditiveAnimation(){} // RVA: 0x7FFE87036C50
-    public void .ctor(){} // RVA: 0x7FFE810FB310 | overloaded x2
-    public void PoseToSnapshots(){} // RVA: 0x7FFE870375E0
-}
-
-public class SkeletonPoseData : ValueType
-{
-    public Posef _rootPose; // 0x10
-    public float _rootScale; // 0x2C
-    public Quatf[] _boneRotations; // 0x30
-    public bool _isDataValid; // 0x38
-    public bool _isDataHighConfidence; // 0x39
-    public Vector3f[] _boneTranslations; // 0x40
-    public int _skeletonChangedCount; // 0x48
-
-    // ── Methods ──
-    public void get_RootPose(){} // RVA: 0x7FFE84458FD0
-    public void set_RootPose(){} // RVA: 0x7FFE86D04A10
-    public void get_RootScale(){} // RVA: 0x7FFE811C8570
-    public void set_RootScale(){} // RVA: 0x7FFE811C8580
-    public void get_BoneRotations(){} // RVA: 0x7FFE811290C0
-    public void set_BoneRotations(){} // RVA: 0x7FFE811290D0
-    public void get_IsDataValid(){} // RVA: 0x7FFE815F1380
-    public void set_IsDataValid(){} // RVA: 0x7FFE81C15740
-    public void get_IsDataHighConfidence(){} // RVA: 0x7FFE819C2EA0
-    public void set_IsDataHighConfidence(){} // RVA: 0x7FFE8268C820
-    public void get_BoneTranslations(){} // RVA: 0x7FFE8144E200
-    public void set_BoneTranslations(){} // RVA: 0x7FFE81129890
-    public void get_SkeletonChangedCount(){} // RVA: 0x7FFE81D46090
-    public void set_SkeletonChangedCount(){} // RVA: 0x7FFE81D46A00
-}
-
-public class SkeletonRendererData : ValueType
-{
-    public float _rootScale; // 0x10
-    public bool _isDataValid; // 0x14
-    public bool _isDataHighConfidence; // 0x15
-    public bool _shouldUseSystemGestureMaterial; // 0x16
-
-    // ── Methods ──
-    public void get_RootScale(){} // RVA: 0x7FFE82AB44F0
-    public void set_RootScale(){} // RVA: 0x7FFE82D03BB0
-    public void get_IsDataValid(){} // RVA: 0x7FFE82C770F0
-    public void set_IsDataValid(){} // RVA: 0x7FFE81E63F40
-    public void get_IsDataHighConfidence(){} // RVA: 0x7FFE82C77100
-    public void set_IsDataHighConfidence(){} // RVA: 0x7FFE81E63F70
-    public void get_ShouldUseSystemGestureMaterial(){} // RVA: 0x7FFE82E019C0
-    public void set_ShouldUseSystemGestureMaterial(){} // RVA: 0x7FFE81E63EE0
-}
-
-public class SkeletonsUpdatedHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE823781B0
-    public void Invoke(){} // RVA: 0x7FFE81156C60
-    public void BeginInvoke(){} // RVA: 0x7FFE8702C170
-    public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
-}
-
-public class SkinChangedDelegate : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE81159980
-    public void Invoke(){} // RVA: 0x7FFE81159A50
-}
-
-public class SlabAllocator : ValueType
-{
-    public AllocatorHandle m_handle; // 0x10
-    public Block Storage; // 0x18
-
-    // ── Methods ──
-    public void get_Handle(){} // RVA: 0x7FFE826F4220
-    public void get_SlabSizeInBytes(){} // RVA: 0x7FFE878B82A0
-    public void Try(){} // RVA: 0x7FFE878B84D0 | overloaded x2
-    public void Dispose(){} // RVA: 0x7FFE810FB310
-    public void Try$BurstManaged(){} // RVA: 0x7FFE878B8530
-}
-
-public class SliderEvent : UnityEvent`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE88012BF0
-}
-
-public class Slot : ValueType
-{
-}
-
-public class SlotDefinition : ValueType
-{
-}
-
-public class SlotUsageEntry : ValueType
-{
-}
-
-public class SmallXmlNodeList : ValueType
-{
-    public object field; // 0x10
-    public object field_1; // 0x24F
-
-    // ── Methods ──
-    public void get_Count(){} // RVA: 0x7FFE875A0CF0
-    public void get_Item(){} // RVA: 0x7FFE875A0D90
-    public void Add(){} // RVA: 0x7FFE875A0ED0
-    public void RemoveAt(){} // RVA: 0x7FFE875A1140
-    public void Insert(){} // RVA: 0x7FFE875A1290
-    public void GetEnumerator(){} // RVA: 0x7FFE875A14B0
-}
-
-public class Snapshot : ValueType
-{
-    public string avatarName; // 0x10
-    public System.Nullable`1<int> polyCount; // 0x18
-
-    // ── Methods ──
-    public void get_downloadSize(){} // RVA: 0x7FFE8A4F4E40
-    public void get_uncompressedSize(){} // RVA: 0x7FFE8A4F4EE0
-    public void .ctor(){} // RVA: 0x7FFE8A4F4F80
-    public void ToString(){} // RVA: 0x7FFE8A4F53F0
-}
-
-public class SortedColumnState : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE815AE520
-}
-
-public class SortedListDebugView : Object
-{
-}
-
-public class SortedListEnumerator : Object
-{
-    public System.Collections.SortedList _sortedList; // 0x10
-    public object _key; // 0x18
-    public object _value; // 0x20
-    public int _index; // 0x28
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86942580
-    public void Clone(){} // RVA: 0x7FFE868BC310
-    public void get_Key(){} // RVA: 0x7FFE86942610
-    public void MoveNext(){} // RVA: 0x7FFE869426E0
-    public void get_Entry(){} // RVA: 0x7FFE86942930
-    public void get_Current(){} // RVA: 0x7FFE86942A10
-    public void get_Value(){} // RVA: 0x7FFE86942AF0
-    public void Reset(){} // RVA: 0x7FFE86942BC0
-}
-
-public class SortedListKeyEnumerator : Object
-{
-    public System.Collections.Generic.SortedList`2<U,T> _sortedList;
-    public int _index;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE80E460A0
-    public void Dispose(){} // RVA: 0x7FFE80E45FE0
-    public void MoveNext(){} // RVA: 0x7FFE80E2F150
-    public void get_Current(){} // RVA: 0x7FFE810A1420
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE80E2E2E0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE80E45FE0
-}
-
-public class SortedListValueEnumerator : Object
-{
-    public System.Collections.Generic.SortedList`2<U,T> _sortedList;
-    public int _index;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE80E460A0
-    public void Dispose(){} // RVA: 0x7FFE80E45FE0
-    public void MoveNext(){} // RVA: 0x7FFE80E2F150
-    public void get_Current(){} // RVA: 0x7FFE810A1420
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE80E2E2E0
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFE80E45FE0
-}
-
-public class SorterGenericArray : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86A10DE0
-    public void SwapIfGreaterWithItems(){} // RVA: 0x7FFE86A10F60
-    public void Swap(){} // RVA: 0x7FFE86A110E0
-    public void Sort(){} // RVA: 0x7FFE86A111D0
-    public void IntrospectiveSort(){} // RVA: 0x7FFE86A111E0
-    public void IntroSort(){} // RVA: 0x7FFE86A112D0
-    public void PickPivotAndPartition(){} // RVA: 0x7FFE86A113B0
-    public void Heapsort(){} // RVA: 0x7FFE86A11560
-    public void DownHeap(){} // RVA: 0x7FFE86A11620
-    public void InsertionSort(){} // RVA: 0x7FFE86A11870
-}
-
-public class SorterObjectArray : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86A0FEE0
-    public void SwapIfGreaterWithItems(){} // RVA: 0x7FFE86A10060
-    public void Swap(){} // RVA: 0x7FFE86A10270
-    public void Sort(){} // RVA: 0x7FFE86A10410
-    public void IntrospectiveSort(){} // RVA: 0x7FFE86A10420
-    public void IntroSort(){} // RVA: 0x7FFE86A104F0
-    public void PickPivotAndPartition(){} // RVA: 0x7FFE86A105D0
-    public void Heapsort(){} // RVA: 0x7FFE86A10770
-    public void DownHeap(){} // RVA: 0x7FFE86A10830
-    public void InsertionSort(){} // RVA: 0x7FFE86A10B50
-}
-
-public class SortingData : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE881FF120
-}
-
-public class SortingGroupsUpdate : ValueType
-{
-}
-
-public class Sounds : ValueType
-{
-}
-
-public class Source : Object
-{
-}
-
-public class SourceElement : Object
-{
-}
-
-public class SourceMap : Object
-{
-}
-
-public class SpaceContainerInternal : ValueType
-{
-}
-
-public class SpaceEraseCompleteData : ValueType
-{
-}
-
-public class SpaceFilterInfoComponents : ValueType
-{
-}
-
-public class SpaceFilterInfoIds : ValueType
-{
-}
-
-public class SpaceLocationf : ValueType
-{
-}
-
-public class SpaceQueryCompleteData : ValueType
-{
-}
-
-public class SpaceQueryInfo : ValueType
-{
-}
-
-public class SpaceQueryResult : ValueType
-{
-}
-
-public class SpaceQueryResultsData : ValueType
-{
-}
-
-public class SpaceSaveCompleteData : ValueType
-{
-}
-
-public class SpaceSemanticLabelInternal : ValueType
-{
-}
-
-public class SpaceSetComponentStatusCompleteData : ValueType
-{
-}
-
-public class SparseArray`1 : Object
-{
-    public T[] m_array;
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE80E46530
-    public void get_Current(){} // RVA: 0x7FFE80E2E2E0
-    public void Add(){} // RVA: 0x7FFE810A1420
-    public void Remove(){} // RVA: 0x7FFE810A1420
-}
-
-public class SpatialAnchorCreateCompleteData : ValueType
-{
-}
-
-public class SpatialAnchorCreateInfo : ValueType
-{
-}
-
-public class SpecialCharacter : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE87B48560
-}
-
-public class Spectrum : Object
-{
-    public int selection; // 0x10
-
-    // ── Methods ──
-    public void get_Item(){} // RVA: 0x7FFE81E15700
-    public void set_Item(){} // RVA: 0x7FFE81E15D40
-    public void Equals(){} // RVA: 0x7FFE81E163A0
-    public void op_Implicit(){} // RVA: 0x7FFE81E16A00
-    public void CompareBaseObjects(){} // RVA: 0x7FFE81E17060
-    public void IsNativeObjectAlive(){} // RVA: 0x7FFE81E176C0
-    public void .ctor(){} // RVA: 0x7FFE81E17D20
-    public void Initialize(){} // RVA: 0x7FFE81E17DE0
-}
-
-public class Sphere : ValueType
-{
-    // ── Methods ──
-    public void ClosestPoint(){} // RVA: 0x7FFE881AA140
-}
-
-public class Spine : BodyPart
-{
-    public UnityEngine.Transform headTarget; // 0x48
-    public UnityEngine.Transform pelvisTarget; // 0x50
-    public float positionWeight; // 0x58
-    public float rotationWeight; // 0x5C
-    public float pelvisPositionWeight; // 0x60
-    public float pelvisRotationWeight; // 0x64
-    public UnityEngine.Transform chestGoal; // 0x68
-    public float chestGoalWeight; // 0x70
-
-    // ── Methods ──
-    public void get_pelvis(){} // RVA: 0x7FFE81230110
-    public void get_firstSpineBone(){} // RVA: 0x7FFE81230140
-    public void get_chest(){} // RVA: 0x7FFE81230170
-    public void get_neck(){} // RVA: 0x7FFE812301E0
-    public void get_head(){} // RVA: 0x7FFE81230210
-    public void get_anchorRotation(){} // RVA: 0x7FFE81166710
-    public void set_anchorRotation(){} // RVA: 0x7FFE81166720
-    public void get_anchorRelativeToHead(){} // RVA: 0x7FFE81166730
-    public void set_anchorRelativeToHead(){} // RVA: 0x7FFE81166740
-    public void get_VrcAdjustedSpineLengthFactor(){} // RVA: 0x7FFE81230240
-    public void set_VrcAdjustedSpineLengthFactor(){} // RVA: 0x7FFE81230250
-    public void OnRead(){} // RVA: 0x7FFE81230260
-    public void PreSolve(){} // RVA: 0x7FFE81231BC0
-    public void ApplyOffsets(){} // RVA: 0x7FFE81232360
-    public void CalculateChestTargetRotation(){} // RVA: 0x7FFE81233080
-    public void Solve(){} // RVA: 0x7FFE81233730
-    public void FABRIKPass(){} // RVA: 0x7FFE81234BE0
-    public void SolvePelvis(){} // RVA: 0x7FFE81234F90
-    public void Write(){} // RVA: 0x7FFE81238030
-    public void ResetOffsets(){} // RVA: 0x7FFE812382A0
-    public void VrcSolveLockHead(){} // RVA: 0x7FFE81238400
-    public void VrcPelvisPitchBack(){} // RVA: 0x7FFE81239C80
-    public void VrcRotateSpineToChestGoal(){} // RVA: 0x7FFE8123A300
-    public void VrcGetQuaternionAngle(){} // RVA: 0x7FFE8123A9D0
-    public void VrcSmoothClampAngle(){} // RVA: 0x7FFE8123AA10
-    public void VrcGetReflectedChestGoalPosition(){} // RVA: 0x7FFE8123AAD0
-    public void VrcRotateSpineToChestGoalOld(){} // RVA: 0x7FFE8123AF20
-    public void VrcApplyTposeRotationsRelativeTo(){} // RVA: 0x7FFE8123B210
-    public void VrcApplyDeltaToSpineBones(){} // RVA: 0x7FFE8123B870
-    public void VrcBlendQuaternion(){} // RVA: 0x7FFE8123E4E0
-    public void VrcRotateTowardsHeadAt(){} // RVA: 0x7FFE8123EB40
-    public void VrcAverageNeckRotation(){} // RVA: 0x7FFE8123ECE0
-    public void VrcRotateNeckTowardsHeadTarget(){} // RVA: 0x7FFE8123F890
-    public void VrcAngleOfRotationAroundAxis(){} // RVA: 0x7FFE81240F70
-    public void VrcApplyChestTwist(){} // RVA: 0x7FFE812411B0
-    public void VrcApplyChestSwing(){} // RVA: 0x7FFE81242D60
-    public void VrcSinEaseIn01(){} // RVA: 0x7FFE81243470
-    public void VrcGetTwistOnAxis(){} // RVA: 0x7FFE812434C0
-    public void VrcOffsetBoneAndChildBones(){} // RVA: 0x7FFE81243590
-    public void AdjustChestByHands(){} // RVA: 0x7FFE81243620
-    public void InverseTranslateToHead(){} // RVA: 0x7FFE812441C0
-    public void TranslatePelvis(){} // RVA: 0x7FFE81244350
-    public void LimitPelvisPosition(){} // RVA: 0x7FFE81244E40
-    public void Bend(){} // RVA: 0x7FFE812454E0 | overloaded x2
-    public void .ctor(){} // RVA: 0x7FFE812458D0
-}
-
-public class SpineEffector : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE811BA800 | overloaded x2
-}
-
-public class SpriteAtlasManagerUpdate : ValueType
-{
-}
-
-public class SpriteDataObject : Object
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-}
-
-public class SpriteFrame : ValueType
-{
-    // ── Methods ──
-    public void ToString(){} // RVA: 0x7FFE87B54360
-}
-
-public class SpriteSize : ValueType
-{
-    // ── Methods ──
-    public void ToString(){} // RVA: 0x7FFE87B54500
-}
-
-public class Sprites : ValueType
-{
-}
-
-public class Sse : Object
-{
-    // ── Methods ──
-    public void get_IsSseSupported(){} // RVA: 0x7FFE810FB320
-    public void SHUFFLE(){} // RVA: 0x7FFE878B5D10
-}
-
-public class Sse2 : Object
-{
-    // ── Methods ──
-    public void add_epi64(){} // RVA: 0x7FFE878B5D40
-    public void mul_epu32(){} // RVA: 0x7FFE878B5D60
-    public void slli_epi64(){} // RVA: 0x7FFE878B5D80
-    public void srli_epi64(){} // RVA: 0x7FFE878B5E20
-    public void xor_si128(){} // RVA: 0x7FFE878B5EE0
-    public void shuffle_epi32(){} // RVA: 0x7FFE878B5F00
-}
-
-public class StackAllocator : ValueType
-{
-    public AllocatorHandle m_handle; // 0x10
-
-    // ── Methods ──
-    public void get_Handle(){} // RVA: 0x7FFE826F4220
-    public void Try(){} // RVA: 0x7FFE878B7CB0 | overloaded x2
-    public void Dispose(){} // RVA: 0x7FFE810FB310
-    public void Try$BurstManaged(){} // RVA: 0x7FFE878B7D10
-}
-
-public class StackDebugView : Object
-{
-}
-
-public class StackEnumerator : Object
-{
-    public System.Collections.Stack _stack; // 0x10
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86944080
-    public void Clone(){} // RVA: 0x7FFE868BC310
-    public void MoveNext(){} // RVA: 0x7FFE86944160
-    public void get_Current(){} // RVA: 0x7FFE869442B0
-    public void Reset(){} // RVA: 0x7FFE86944360
-}
-
-public class StackRow : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE8164E250
-}
-
-public class StackRowStack : ValueType
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE86E4B270
-    public void Dispose(){} // RVA: 0x7FFE86E4B330
-    public void Push(){} // RVA: 0x7FFE86E4B400
-    public void Pop(){} // RVA: 0x7FFE86E4B5A0
-    public void Enlarge(){} // RVA: 0x7FFE86E4B7D0
-}
-
-public class StandardValuesCollection : Object
-{
-    public System.Collections.ICollection values; // 0x10
-    public System.Array valueArray; // 0x18
-    public object field_2; // 0x308
-    public object field_3; // 0x309
-    public object field_4; // 0x30A
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE877DDAD0
-    public void get_Count(){} // RVA: 0x7FFE877DDC30
-    public void get_Item(){} // RVA: 0x7FFE877DDCA0
-    public void CopyTo(){} // RVA: 0x7FFE877DDDF0
-    public void GetEnumerator(){} // RVA: 0x7FFE877DDE60
-    public void System.Collections.ICollection.get_Count(){} // RVA: 0x7FFE877DDEB0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFE810FB320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7FFE813240E0
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7FFE877DDDF0
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE877DDE60
-}
-
-public class StartSendingMsg : Object
-{
-    // ── Methods ──
-    public void Process(){} // RVA: 0x7FFE879AA810
-}
-
-public class State : ValueType
-{
-}
-
-public class StateChangeMonitorDelegate : Object
-{
-    // ── Methods ──
-    public void NotifyControlStateChanged(){} // RVA: 0x7FFE87A289F0
-    public void NotifyTimerExpired(){} // RVA: 0x7FFE87A28A20
-    public void .ctor(){} // RVA: 0x7FFE810FB310
-}
-
-public class StateChangeMonitorListener : ValueType
-{
-}
-
-public class StateChangeMonitorTimeout : ValueType
-{
-}
-
-public class StateChangeMonitorsForDevice : ValueType
-{
-    public BitRegion[] memoryRegions; // 0x10
-
-    // ── Methods ──
-    public void get_count(){} // RVA: 0x7FFE81549710
-    public void Add(){} // RVA: 0x7FFE879C6320
-    public void Remove(){} // RVA: 0x7FFE879C6650
-    public void Clear(){} // RVA: 0x7FFE879C6720
-    public void CompactArrays(){} // RVA: 0x7FFE879C67C0
-    public void RemoveAt(){} // RVA: 0x7FFE879C6820
-    public void SortMonitorsByIndex(){} // RVA: 0x7FFE879C69D0
-}
-
-public class StateChanged : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE84261260
-    public void Invoke(){} // RVA: 0x7FFE81156C60
-}
-
-public class StateDownHandler : MulticastDelegate
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFE823D7070
-    public void Invoke(){} // RVA: 0x7FFE81257370
-    public void BeginInvoke(){} // RVA: 0x7FFE86FE8380
-    public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+    public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+    public void TryWrite(){} // RVA: 0x7FFAF6AD5C30
+    public void TryComplete(){} // RVA: 0x7FFAF6AD5EB0
 }

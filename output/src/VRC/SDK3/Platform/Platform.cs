@@ -5,7 +5,7 @@
 
 namespace VRC.SDK3.Platform
 {
-    public class ScreenUpdateData : ValueType
+    public class ScreenUpdateData
     {
     }
 

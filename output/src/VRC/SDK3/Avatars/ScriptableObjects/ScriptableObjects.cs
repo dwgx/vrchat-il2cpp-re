@@ -5,21 +5,21 @@
 
 namespace VRC.SDK3.Avatars.ScriptableObjects
 {
-    public class VRCExpressionParameters : ScriptableObject
+    public class VRCExpressionParameters
     {
         // ── Methods ──
-        public void GetParameter(){} // RVA: 0x7FFE8A47A280
-        public void FindParameter(){} // RVA: 0x7FFE8A47A2C0
-        public void CalcTotalCost(){} // RVA: 0x7FFE8A47A370
-        public void TypeCost(){} // RVA: 0x7FFE8A47A3E0
-        public void IsWithinBudget(){} // RVA: 0x7FFE8A47A420 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void GetParameter(){} // RVA: 0x7FFAFC4CEAC0
+        public void FindParameter(){} // RVA: 0x7FFAFC4CEB00
+        public void CalcTotalCost(){} // RVA: 0x7FFAFC4CEBB0
+        public void TypeCost(){} // RVA: 0x7FFAFC4CEC20
+        public void IsWithinBudget(){} // RVA: 0x7FFAFC4CEC60 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class VRCExpressionsMenu : ScriptableObject
+    public class VRCExpressionsMenu
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A47A610
+        public void .ctor(){} // RVA: 0x7FFAFC4CEE50
     }
 
 }

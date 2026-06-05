@@ -1,43 +1,40 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.SDK.Experimental
 // Classes: 2
-// Methods: 24
+// Methods: 22
 
 namespace VRC.SDK.Experimental
 {
-    public class VRCImageSaver : VRCCustomAction
+    public class VRCImageSaver
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7FFE829C52C0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE829C4F60
-        public void Initialize(){} // RVA: 0x7FFE829C50D0
+        public void DispatchSaveNetworkEvent(){} // RVA: 0x7FFAF46EC710
+        public void Execute(){} // RVA: 0x7FFAF46ED870 | overloaded x2
+        public void Execute_DD2C77ABE3ED(){} // RVA: 0x7FFAF46ECAD0
+        public void Execute_3B0C35ED7358(){} // RVA: 0x7FFAF46ECCC0
+        public void GetProgress(){} // RVA: 0x7FFAF46ECEC0
+        public void op_Implicit(){} // RVA: 0x7FFAF46ED0B0
+        public void CheckImageSaveConditions(){} // RVA: 0x7FFAF46ED2A0
+        public void BuildImageSavePath(){} // RVA: 0x7FFAF46ED490
+        public void .ctor_04373766EF8D(){} // RVA: 0x7FFAF46ED680
+        public void .ctor(){} // RVA: 0x7FFAF46EDC40
         // ── Unresolved (hash) ──
-        public void m_7C8(){} // RVA: 0x7FFE829C3FB0
-        public void m_374(){} // RVA: 0x7FFE829C41A0
-        public void m_96F(){} // RVA: 0x7FFE829C4390
-        public void m_89C(){} // RVA: 0x7FFE829C4580
-        public void m_325(){} // RVA: 0x7FFE829C4780
-        public void m_6C8(){} // RVA: 0x7FFE829C4980
-        public void m_918(){} // RVA: 0x7FFE829C4B70
-        public void m_BE3(){} // RVA: 0x7FFE829C4D70
+        public void m_1B2(){} // RVA: 0x7FFAF46EDA50
     }
 
-    public class VRCUdonMovieCapture : VRCCustomAction
+    public class VRCUdonMovieCapture
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7FFE829C9C40
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
-        public void Start(){} // RVA: 0x7FFE81307DB0
-        // ── Unresolved (hash) ──
-        public void m_918(){} // RVA: 0x7FFE829C9260
-        public void m_29F(){} // RVA: 0x7FFE829C9450
-        public void m_E4B(){} // RVA: 0x7FFE81307DB0
-        public void m_89C(){} // RVA: 0x7FFE829C9650
-        public void m_325(){} // RVA: 0x7FFE829C9840
-        public void m_0F6(){} // RVA: 0x7FFE829C9A40
-        public void m_EF8(){} // RVA: 0x7FFE81307DB0
-        public void m_E68(){} // RVA: 0x7FFE829C9E20
-        public void m_539(){} // RVA: 0x7FFE81307DB0
+        public void Execute(){} // RVA: 0x7FFAF46F42B0
+        public void ProcessComplexUpdateState(){} // RVA: 0x7FFAF46F4490
+        public void .ctor_CA72A33FA256(){} // RVA: 0x7FFAF2FAA030
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void Initialize(){} // RVA: 0x7FFAF2FAA030
+        public void Start(){} // RVA: 0x7FFAF2FAA030
+        public void FinalizeMovieCapture(){} // RVA: 0x7FFAF46F4690
+        public void FindRelativeTransformWithPath(){} // RVA: 0x7FFAF46F4880
+        public void Awake(){} // RVA: 0x7FFAF2FAA030
+        public void Start_6BFF4026B4C7(){} // RVA: 0x7FFAF46F4A70
     }
 
 }

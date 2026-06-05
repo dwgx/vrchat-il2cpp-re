@@ -5,53 +5,51 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Misc
 {
-    public class Cast5CbcParameters : Asn1Encodable
+    public class Cast5CbcParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger keyLength; // 0x10
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1F3A60
-        public void .ctor(){} // RVA: 0x7FFE8A1F3DF0 | overloaded x2
-        public void GetIV(){} // RVA: 0x7FFE8A1F40C0
-        public void get_KeyLength(){} // RVA: 0x7FFE8A1F41A0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1F4200
+        public void GetInstance(){} // RVA: 0x7FFAFC241660
+        public void .ctor(){} // RVA: 0x7FFAFC2419F0 | overloaded x2
+        public void GetIV(){} // RVA: 0x7FFAFC241CC0
+        public void get_KeyLength(){} // RVA: 0x7FFAFC241DA0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC241E00
     }
 
-    public class IdeaCbcPar : Asn1Encodable
+    public class IdeaCbcPar
     {
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1F4310
-        public void .ctor(){} // RVA: 0x7FFE8A1F4720 | overloaded x2
-        public void GetIV(){} // RVA: 0x7FFE8A187C30
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1F4880
+        public void GetInstance(){} // RVA: 0x7FFAFC241F10
+        public void .ctor(){} // RVA: 0x7FFAFC242320 | overloaded x2
+        public void GetIV(){} // RVA: 0x7FFAFC1D5830
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC242480
     }
 
-    public class MiscObjectIdentifiers : Object
+    public class MiscObjectIdentifiers
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE8A1F4A00
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFC242600
     }
 
-    public class NetscapeCertType : DerBitString
+    public class NetscapeCertType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1F6560 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE8A1F6610
+        public void .ctor(){} // RVA: 0x7FFAFC244160 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAFC244210
     }
 
-    public class NetscapeRevocationUrl : DerIA5String
+    public class NetscapeRevocationUrl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1F6750
-        public void ToString(){} // RVA: 0x7FFE8A1F6820
+        public void .ctor(){} // RVA: 0x7FFAFC244350
+        public void ToString(){} // RVA: 0x7FFAFC244420
     }
 
-    public class VerisignCzagExtension : DerIA5String
+    public class VerisignCzagExtension
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1F6750
-        public void ToString(){} // RVA: 0x7FFE8A1F6880
+        public void .ctor(){} // RVA: 0x7FFAFC244350
+        public void ToString(){} // RVA: 0x7FFAFC244480
     }
 
 }

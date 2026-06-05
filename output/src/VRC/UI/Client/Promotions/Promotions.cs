@@ -1,30 +1,30 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI.Client.Promotions
 // Classes: 1
-// Methods: 15
+// Methods: 16
 
 namespace VRC.UI.Client.Promotions
 {
-    public class PromotionDataManager : Object
+    public class PromotionDataManager
     {
-        public System.Collections.Generic.HashSet`1<ÍÎÏÏÎÍÌÍÎÏÏÏÌÌÍÏÏÌÎÍÎÏÌ> PromotionDataHandlers; // 0x10
-
         // ── Methods ──
-        public void set_Key(){} // RVA: 0x7FFE819ADFE0
-        public void get_Key(){} // RVA: 0x7FFE819AE160
-        public void Equals(){} // RVA: 0x7FFE819AE250
-        public void op_Implicit(){} // RVA: 0x7FFE819AE3D0
-        public void CompareBaseObjects(){} // RVA: 0x7FFE819AE620
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE819AE930
-        public void GetCachedPtr(){} // RVA: 0x7FFE819AEB80
-        public void get_name(){} // RVA: 0x7FFE819AEC30
-        public void set_name(){} // RVA: 0x7FFE819AED20
-        public void Instantiate(){} // RVA: 0x7FFE819AEEA0
-        public void GetHashCode(){} // RVA: 0x7FFE819AF0F0
-        public void ToString(){} // RVA: 0x7FFE819AF330
-        public void Finalize(){} // RVA: 0x7FFE819AF3E0
-        public void ProcessChildTransforms(){} // RVA: 0x7FFE819AF4A0
-        public void .ctor(){} // RVA: 0x7FFE819AF590
+        public void get_Key_AA892FA7BA72(){} // RVA: 0x7FFAF36CF690
+        public void .ctor(){} // RVA: 0x7FFAF36CF910
+        public void Initialize(){} // RVA: 0x7FFAF36CF9D0
+        public void op_Implicit(){} // RVA: 0x7FFAF36CFA80
+        public void Finalize(){} // RVA: 0x7FFAF36CFB30
+        public void .ctor_90AC1F81B321(){} // RVA: 0x7FFAF36CFBF0
+        public void Initialize_34B07D7D8BD5(){} // RVA: 0x7FFAF36CFE70
+        public void get_name(){} // RVA: 0x7FFAF36D00C0
+        public void set_name(){} // RVA: 0x7FFAF36D0240
+        public void set_Key(){} // RVA: 0x7FFAF36D0490
+        public void Finalize_A602369923AE(){} // RVA: 0x7FFAF36D06E0
+        public void GetHashCode(){} // RVA: 0x7FFAF36D0930
+        public void ToString(){} // RVA: 0x7FFAF36D0A00
+        public void get_Key(){} // RVA: 0x7FFAF36D0C50
+        public void Start(){} // RVA: 0x7FFAF36D0E50
+        // ── Unresolved (hash) ──
+        public void m_F8C(){} // RVA: 0x7FFAF36D0D50
     }
 
 }

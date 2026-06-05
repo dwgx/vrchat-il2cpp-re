@@ -5,19 +5,19 @@
 
 namespace ThirdParty.Unity.UnityEngine.ParticleSystemJobs
 {
-    public class NativeParticleData : ValueType
+    public class NativeParticleData
     {
     }
 
-    public class ParticleSystemJobData : ValueType
+    public class ParticleSystemJobData
     {
     }
 
-    public class ParticleSystemNativeArray3 : ValueType
+    public class ParticleSystemNativeArray3
     {
     }
 
-    public class ParticleSystemNativeArray4 : ValueType
+    public class ParticleSystemNativeArray4
     {
     }
 

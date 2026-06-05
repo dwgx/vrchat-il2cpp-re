@@ -5,15 +5,12 @@
 
 namespace ThirdParty.Other.Unity.IL2CPP.CompilerServices.BlobHandles
 {
-    public class Il2CppSetOptionAttribute : Attribute
+    public class Il2CppSetOptionAttribute
     {
-        public emove_frameDropped _option; // 0x10
-        public object _value; // 0x18
-
         // ── Methods ──
-        public void set_Option(){} // RVA: 0x7FFE810FE0C0
-        public void set_Value(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE82A53990
+        public void set_Option(){} // RVA: 0x7FFAF2D900C0
+        public void set_Value(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAF4775AF0
     }
 
 }

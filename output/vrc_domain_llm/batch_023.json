@@ -1,0 +1,50 @@
+[
+  {
+    "namespace": "VRC.UI.Client.Promotions",
+    "class": "PromotionDataManager",
+    "parent": "",
+    "known_methods": [
+      "get_Key",
+      "Initialize",
+      "Finalize",
+      "set_Key",
+      "Start"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F8C"
+    ],
+    "all_method_count": 16
+  },
+  {
+    "namespace": "VRC.Networking",
+    "class": "SerializationRecoveryHandler",
+    "parent": "",
+    "known_methods": [
+      "Init",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C92",
+      "m_5D1"
+    ],
+    "all_method_count": 13
+  },
+  {
+    "namespace": "VRC.SDK3.Internal",
+    "class": "IVRCPlatformChecker",
+    "parent": "",
+    "known_methods": [
+      "GetLastServiceDescriptor",
+      "m",
+      "GetValueAsByte",
+      "Enable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_269"
+    ],
+    "all_method_count": 4
+  }
+]

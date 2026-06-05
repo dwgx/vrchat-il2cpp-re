@@ -1,58 +1,23 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Rendering
-// Classes: 5
-// Methods: 19
+// Classes: 1
+// Methods: 8
 
 namespace VRC.Rendering
 {
-    /// <summary>Originally: ÏÍÏÌÌÏÍÍÏÍÍÍÌÍÍÍÍÌÍÏÎÌÍ</summary>
-    public class BatchRendererCullingOutput : Object
-    {
-        public ÎÎÍÌÌÌÎÌÌÏÍÏÏÎÎÍÏÍÌÍÏÎÏ _d1AD;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE82DA7620
-        public void Equals(){} // RVA: 0x7FFE82DA77F0
-    }
-
-    /// <summary>Originally: ÎÌÍÍÍÍÏÍÏÍÍÌÍÏÍÏÏÏÏÍÍÌÍ</summary>
-    public class BeforeRenderHelper : ValueType
+    /// <summary>Originally: ÎÎÎÍÍÍÍÌÎÌÎÍÎÎÍÍÏÏÌÌÌÏÍ</summary>
+    public class BehaviourMeshHandler_7016
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89D20B00
-    }
-
-    /// <summary>Originally: ÌÏÌÏÍÍÏÏÏÎÏÍÍÌÌÎÌÍÌÏÌÍÍ</summary>
-    public class BillboardRenderer : Object
-    {
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE82416580
-        public void Equals(){} // RVA: 0x7FFE82416580
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Initialize(){} // RVA: 0x7FFE824165D0
-        public void CompareBaseObjects(){} // RVA: 0x7FFE82416580
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE82416580
-        public void GetCachedPtr(){} // RVA: 0x7FFE824165D0
-        public void get_name(){} // RVA: 0x7FFE82416580
-        public void set_name(){} // RVA: 0x7FFE824165D0
-        public void Instantiate(){} // RVA: 0x7FFE824165D0
-    }
-
-    /// <summary>Originally: ÏÎÎÎÏÌÏÏÏÍÎÏÏÍÌÌÌÎÏÌÌÌÌ</summary>
-    public class BuiltinShaderMode : Object
-    {
-    }
-
-    /// <summary>Originally: ÍÍÍÏÍÍÍÏÍÌÍÎÎÏÏÎÍÏÍÍÌÎÍ</summary>
-    public class BuiltinShaderType : ValueType
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE81FAD2E0
-        public void InternalEquals(){} // RVA: 0x7FFE81FAD3E0
-        public void DefaultEquals(){} // RVA: 0x7FFE81FAD4E0
-        public void GetHashCode(){} // RVA: 0x7FFE81FAD5E0
-        public void InternalGetHashCode(){} // RVA: 0x7FFE81FAD6E0
-        public void ToString(){} // RVA: 0x7FFE81FAD7E0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAF4406C90
+        public void GetEnabled(){} // RVA: 0x7FFAF4407940
+        public void GetBlendShapeFrameWeight(){} // RVA: 0x7FFAF4407BC0
+        // ── Unresolved (hash) ──
+        public void m_41F(){} // RVA: 0x7FFAF4406A10
+        public void m_98C(){} // RVA: 0x7FFAF4407060
+        public void m_D9C(){} // RVA: 0x7FFAF4407440
+        public void m_0F8(){} // RVA: 0x7FFAF44076C0
     }
 
 }

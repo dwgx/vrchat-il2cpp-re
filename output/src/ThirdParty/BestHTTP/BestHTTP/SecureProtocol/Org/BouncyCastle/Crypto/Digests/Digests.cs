@@ -5,691 +5,628 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Digests
 {
-    public class Blake2bDigest : Object
+    public class Blake2bDigest
     {
-        public ulong[] blake2b_IV;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0AE020 | overloaded x5
-        public void Init(){} // RVA: 0x7FFE8A0AE3A0
-        public void InitializeInternalState(){} // RVA: 0x7FFE8A0AE780
-        public void Update(){} // RVA: 0x7FFE8A0AE950
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0AEA00
-        public void DoFinal(){} // RVA: 0x7FFE8A0AEB50
-        public void Reset(){} // RVA: 0x7FFE8A0AED30
-        public void Compress(){} // RVA: 0x7FFE8A0AEE10
-        public void G(){} // RVA: 0x7FFE8A0AF6C0
-        public void Rotr64(){} // RVA: 0x7FFE867DB690
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0AF900
-        public void GetDigestSize(){} // RVA: 0x7FFE811485C0
-        public void GetByteLength(){} // RVA: 0x7FFE835C5D00
-        public void ClearKey(){} // RVA: 0x7FFE8A0AF940
-        public void ClearSalt(){} // RVA: 0x7FFE8A0AF9A0
-        public void .cctor(){} // RVA: 0x7FFE8A0AF9C0
+        public void .ctor(){} // RVA: 0x7FFAFC0FBC40 | overloaded x5
+        public void Init(){} // RVA: 0x7FFAFC0FBFC0
+        public void InitializeInternalState(){} // RVA: 0x7FFAFC0FC3A0
+        public void Update(){} // RVA: 0x7FFAFC0FC570
+        public void BlockUpdate(){} // RVA: 0x7FFAFC0FC620
+        public void DoFinal(){} // RVA: 0x7FFAFC0FC770
+        public void Reset(){} // RVA: 0x7FFAFC0FC950
+        public void Compress(){} // RVA: 0x7FFAFC0FCA30
+        public void G(){} // RVA: 0x7FFAFC0FD2E0
+        public void Rotr64(){} // RVA: 0x7FFAF874A7F0
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC0FD520
+        public void GetDigestSize(){} // RVA: 0x7FFAF2DDA5C0
+        public void GetByteLength(){} // RVA: 0x7FFAF4BC18B0
+        public void ClearKey(){} // RVA: 0x7FFAFC0FD560
+        public void ClearSalt(){} // RVA: 0x7FFAFC0FD5C0
+        public void .cctor(){} // RVA: 0x7FFAFC0FD5E0
     }
 
-    public class Blake2sDigest : Object
+    public class Blake2sDigest
     {
-        public uint[] blake2s_IV;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0B0320 | overloaded x5
-        public void Init(){} // RVA: 0x7FFE8A0B06A0
-        public void InitializeInternalState(){} // RVA: 0x7FFE8A0B0B50
-        public void Update(){} // RVA: 0x7FFE8A0B0D00
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0B0DB0
-        public void DoFinal(){} // RVA: 0x7FFE8A0B0F00
-        public void Reset(){} // RVA: 0x7FFE8A0B1100
-        public void Compress(){} // RVA: 0x7FFE8A0B11D0
-        public void G(){} // RVA: 0x7FFE8A0B1930
-        public void rotr32(){} // RVA: 0x7FFE8A0B1B20
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0B1B40
-        public void GetDigestSize(){} // RVA: 0x7FFE811485C0
-        public void GetByteLength(){} // RVA: 0x7FFE81914040
-        public void ClearKey(){} // RVA: 0x7FFE8A0AF940
-        public void ClearSalt(){} // RVA: 0x7FFE8A0AF9A0
-        public void .cctor(){} // RVA: 0x7FFE8A0B1B80
+        public void .ctor(){} // RVA: 0x7FFAFC0FDF40 | overloaded x5
+        public void Init(){} // RVA: 0x7FFAFC0FE2C0
+        public void InitializeInternalState(){} // RVA: 0x7FFAFC0FE770
+        public void Update(){} // RVA: 0x7FFAFC0FE920
+        public void BlockUpdate(){} // RVA: 0x7FFAFC0FE9D0
+        public void DoFinal(){} // RVA: 0x7FFAFC0FEB20
+        public void Reset(){} // RVA: 0x7FFAFC0FED20
+        public void Compress(){} // RVA: 0x7FFAFC0FEDF0
+        public void G(){} // RVA: 0x7FFAFC0FF550
+        public void rotr32(){} // RVA: 0x7FFAFC0FF740
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC0FF760
+        public void GetDigestSize(){} // RVA: 0x7FFAF2DDA5C0
+        public void GetByteLength(){} // RVA: 0x7FFAF371A420
+        public void ClearKey(){} // RVA: 0x7FFAFC0FD560
+        public void ClearSalt(){} // RVA: 0x7FFAFC0FD5C0
+        public void .cctor(){} // RVA: 0x7FFAFC0FF7A0
     }
 
-    public class Dstu7564Digest : Object
+    public class Dstu7564Digest
     {
-        public int NB_512;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0B2090 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0B1D50
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0B2330
-        public void GetDigestSize(){} // RVA: 0x7FFE811485C0
-        public void GetByteLength(){} // RVA: 0x7FFE8164B230
-        public void Update(){} // RVA: 0x7FFE8A0B2370
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0B23E0
-        public void DoFinal(){} // RVA: 0x7FFE8A0B24F0
-        public void Reset(){} // RVA: 0x7FFE8A0B3AE0 | overloaded x2
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0B2930
-        public void P(){} // RVA: 0x7FFE8A0B2B70
-        public void Q(){} // RVA: 0x7FFE8A0B2C10
-        public void MixColumn(){} // RVA: 0x7FFE8A0B2CF0
-        public void MixColumns(){} // RVA: 0x7FFE8A0B2E30
-        public void Rotate(){} // RVA: 0x7FFE8A06BF80
-        public void ShiftRows(){} // RVA: 0x7FFE8A0B3020
-        public void SubBytes(){} // RVA: 0x7FFE8A0B3800
-        public void Copy(){} // RVA: 0x7FFE8A0B3A80
-        public void .cctor(){} // RVA: 0x7FFE8A0B3B70
+        public void .ctor(){} // RVA: 0x7FFAFC0FFCB0 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC0FF970
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC0FFF50
+        public void GetDigestSize(){} // RVA: 0x7FFAF2DDA5C0
+        public void GetByteLength(){} // RVA: 0x7FFAF335BED0
+        public void Update(){} // RVA: 0x7FFAFC0FFF90
+        public void BlockUpdate(){} // RVA: 0x7FFAFC100000
+        public void DoFinal(){} // RVA: 0x7FFAFC100110
+        public void Reset(){} // RVA: 0x7FFAFC101700 | overloaded x2
+        public void ProcessBlock(){} // RVA: 0x7FFAFC100550
+        public void P(){} // RVA: 0x7FFAFC100790
+        public void Q(){} // RVA: 0x7FFAFC100830
+        public void MixColumn(){} // RVA: 0x7FFAFC100910
+        public void MixColumns(){} // RVA: 0x7FFAFC100A50
+        public void Rotate(){} // RVA: 0x7FFAFC0B9BA0
+        public void ShiftRows(){} // RVA: 0x7FFAFC100C40
+        public void SubBytes(){} // RVA: 0x7FFAFC101420
+        public void Copy(){} // RVA: 0x7FFAFC1016A0
+        public void .cctor(){} // RVA: 0x7FFAFC101790
     }
 
-    public class GeneralDigest : Object
+    public class GeneralDigest
     {
-        public int BYTE_LENGTH;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0B3EE0 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0B3FD0
-        public void Update(){} // RVA: 0x7FFE8A0B4030
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0B40B0
-        public void Finish(){} // RVA: 0x7FFE8A0B4230
-        public void Reset(){} // RVA: 0x7FFE80E460A0 | overloaded x2
-        public void GetByteLength(){} // RVA: 0x7FFE81914040
-        public void ProcessWord(){} // RVA: 0x7FFE80E4D070
-        public void ProcessLength(){} // RVA: 0x7FFE80E46250
-        public void ProcessBlock(){} // RVA: 0x7FFE80E45FE0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE80E2E2E0
-        public void GetDigestSize(){} // RVA: 0x7FFE80E2EDB0
+        public void .ctor(){} // RVA: 0x7FFAFC101B00 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC101BF0
+        public void Update(){} // RVA: 0x7FFAFC101C50
+        public void BlockUpdate(){} // RVA: 0x7FFAFC101CD0
+        public void Finish(){} // RVA: 0x7FFAFC101E50
+        public void Reset(){} // RVA: 0x7FFAF2AD4B10 | overloaded x2
+        public void GetByteLength(){} // RVA: 0x7FFAF371A420
+        public void ProcessWord(){} // RVA: 0x7FFAF2ADBAA0
+        public void ProcessLength(){} // RVA: 0x7FFAF2AD4CC0
+        public void ProcessBlock(){} // RVA: 0x7FFAF2AD4A50
+        public void get_AlgorithmName(){} // RVA: 0x7FFAF2ABCD60
+        public void GetDigestSize(){} // RVA: 0x7FFAF2ABD840
         public void DoFinal(){}
-        public void Copy(){} // RVA: 0x7FFE80E2E2E0
+        public void Copy(){} // RVA: 0x7FFAF2ABCD60
     }
 
-    public class Gost3411Digest : Object
+    public class Gost3411Digest
     {
-        public int DIGEST_LENGTH;
-
         // ── Methods ──
-        public void MakeC(){} // RVA: 0x7FFE8A0B4350
-        public void .ctor(){} // RVA: 0x7FFE8A0B5420 | overloaded x3
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0B5B40
-        public void GetDigestSize(){} // RVA: 0x7FFE835C28C0
-        public void Update(){} // RVA: 0x7FFE8A0B5B80
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0B5C60
-        public void P(){} // RVA: 0x7FFE8A0B5DF0
-        public void A(){} // RVA: 0x7FFE8A0B5F00
-        public void E(){} // RVA: 0x7FFE8A0B5FD0
-        public void fw(){} // RVA: 0x7FFE8A0B60D0
-        public void processBlock(){} // RVA: 0x7FFE8A0B62E0
-        public void finish(){} // RVA: 0x7FFE8A0B67A0
-        public void DoFinal(){} // RVA: 0x7FFE8A0B68A0
-        public void Reset(){} // RVA: 0x7FFE8A0B6D80 | overloaded x2
-        public void sumByteArray(){} // RVA: 0x7FFE8A0B6B80
-        public void cpyBytesToShort(){} // RVA: 0x7FFE8A0B6C00
-        public void cpyShortToBytes(){} // RVA: 0x7FFE8A0B6C90
-        public void GetByteLength(){} // RVA: 0x7FFE835C28C0
-        public void Copy(){} // RVA: 0x7FFE8A0B6D20
-        public void .cctor(){} // RVA: 0x7FFE8A0B7100
+        public void MakeC(){} // RVA: 0x7FFAFC101F70
+        public void .ctor(){} // RVA: 0x7FFAFC103040 | overloaded x3
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC103760
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE300
+        public void Update(){} // RVA: 0x7FFAFC1037A0
+        public void BlockUpdate(){} // RVA: 0x7FFAFC103880
+        public void P(){} // RVA: 0x7FFAFC103A10
+        public void A(){} // RVA: 0x7FFAFC103B20
+        public void E(){} // RVA: 0x7FFAFC103BF0
+        public void fw(){} // RVA: 0x7FFAFC103CF0
+        public void processBlock(){} // RVA: 0x7FFAFC103F00
+        public void finish(){} // RVA: 0x7FFAFC1043C0
+        public void DoFinal(){} // RVA: 0x7FFAFC1044C0
+        public void Reset(){} // RVA: 0x7FFAFC1049A0 | overloaded x2
+        public void sumByteArray(){} // RVA: 0x7FFAFC1047A0
+        public void cpyBytesToShort(){} // RVA: 0x7FFAFC104820
+        public void cpyShortToBytes(){} // RVA: 0x7FFAFC1048B0
+        public void GetByteLength(){} // RVA: 0x7FFAF4BBE300
+        public void Copy(){} // RVA: 0x7FFAFC104940
+        public void .cctor(){} // RVA: 0x7FFAFC104D20
     }
 
-    public class Gost3411_2012Digest : Object
+    public class Gost3411_2012Digest
     {
-        public byte[] IV; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0B71E0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE80E2E2E0
-        public void Copy(){} // RVA: 0x7FFE80E2E2E0
-        public void DoFinal(){} // RVA: 0x7FFE8A0B7730
-        public void GetByteLength(){} // RVA: 0x7FFE81914040
-        public void GetDigestSize(){} // RVA: 0x7FFE80E2EDB0
-        public void Reset(){} // RVA: 0x7FFE8A0B7EE0 | overloaded x2
-        public void Update(){} // RVA: 0x7FFE8A0B8060
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0B82A0
-        public void F(){} // RVA: 0x7FFE8A0B85F0
-        public void xor512(){} // RVA: 0x7FFE8A0B9A20
-        public void E(){} // RVA: 0x7FFE8A0B9A70
-        public void g_N(){} // RVA: 0x7FFE8A0B9D00
-        public void addMod512(){} // RVA: 0x7FFE8A0B9EC0 | overloaded x2
-        public void reverse(){} // RVA: 0x7FFE8A0B9F30
-        public void .cctor(){} // RVA: 0x7FFE8A0B9FA0
+        public void .ctor(){} // RVA: 0x7FFAFC104E00
+        public void get_AlgorithmName(){} // RVA: 0x7FFAF2ABCD60
+        public void Copy(){} // RVA: 0x7FFAF2ABCD60
+        public void DoFinal(){} // RVA: 0x7FFAFC105350
+        public void GetByteLength(){} // RVA: 0x7FFAF371A420
+        public void GetDigestSize(){} // RVA: 0x7FFAF2ABD840
+        public void Reset(){} // RVA: 0x7FFAFC105B00 | overloaded x2
+        public void Update(){} // RVA: 0x7FFAFC105C80
+        public void BlockUpdate(){} // RVA: 0x7FFAFC105EC0
+        public void F(){} // RVA: 0x7FFAFC106210
+        public void xor512(){} // RVA: 0x7FFAFC107640
+        public void E(){} // RVA: 0x7FFAFC107690
+        public void g_N(){} // RVA: 0x7FFAFC107920
+        public void addMod512(){} // RVA: 0x7FFAFC107AE0 | overloaded x2
+        public void reverse(){} // RVA: 0x7FFAFC107B50
+        public void .cctor(){} // RVA: 0x7FFAFC107BC0
     }
 
-    public class Gost3411_2012_256Digest : Gost3411_2012Digest
+    public class Gost3411_2012_256Digest
     {
-        public byte[] IV;
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0BA750
-        public void .ctor(){} // RVA: 0x7FFE8A0BA830 | overloaded x2
-        public void GetDigestSize(){} // RVA: 0x7FFE835C28C0
-        public void DoFinal(){} // RVA: 0x7FFE8A0BA8E0
-        public void Copy(){} // RVA: 0x7FFE8A0BA990
-        public void .cctor(){} // RVA: 0x7FFE8A0BAA80
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC108370
+        public void .ctor(){} // RVA: 0x7FFAFC108450 | overloaded x2
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE300
+        public void DoFinal(){} // RVA: 0x7FFAFC108500
+        public void Copy(){} // RVA: 0x7FFAFC1085B0
+        public void .cctor(){} // RVA: 0x7FFAFC1086A0
     }
 
-    public class Gost3411_2012_512Digest : Gost3411_2012Digest
+    public class Gost3411_2012_512Digest
     {
-        public byte[] IV;
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0BAB60
-        public void .ctor(){} // RVA: 0x7FFE8A0BAC40 | overloaded x2
-        public void GetDigestSize(){} // RVA: 0x7FFE81914040
-        public void Copy(){} // RVA: 0x7FFE8A0BACF0
-        public void .cctor(){} // RVA: 0x7FFE8A0BADE0
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC108780
+        public void .ctor(){} // RVA: 0x7FFAFC108860 | overloaded x2
+        public void GetDigestSize(){} // RVA: 0x7FFAF371A420
+        public void Copy(){} // RVA: 0x7FFAFC108910
+        public void .cctor(){} // RVA: 0x7FFAFC108A00
     }
 
-    public class KeccakDigest : Object
+    public class KeccakDigest
     {
-        public ulong[] KeccakRoundConstants;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0BAFE0 | overloaded x3
-        public void CopyIn(){} // RVA: 0x7FFE8A0BB170
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0BB210
-        public void GetDigestSize(){} // RVA: 0x7FFE8A0BB260
-        public void Update(){} // RVA: 0x7FFE8A0BB270
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0BB300
-        public void DoFinal(){} // RVA: 0x7FFE8A0BB360 | overloaded x2
-        public void Reset(){} // RVA: 0x7FFE8A0BCAE0 | overloaded x2
-        public void GetByteLength(){} // RVA: 0x7FFE8A0BB400
-        public void Init(){} // RVA: 0x7FFE8A0BB410
-        public void InitSponge(){} // RVA: 0x7FFE8A0BB5F0
-        public void Absorb(){} // RVA: 0x7FFE8A0BB730
-        public void AbsorbBits(){} // RVA: 0x7FFE8A0BB910
-        public void PadAndSwitchToSqueezingPhase(){} // RVA: 0x7FFE8A0BBA80
-        public void Squeeze(){} // RVA: 0x7FFE8A0BBC70
-        public void KeccakAbsorb(){} // RVA: 0x7FFE8A0BBDD0
-        public void KeccakExtract(){} // RVA: 0x7FFE8A0BBE70
-        public void KeccakPermutation(){} // RVA: 0x7FFE8A0BBFB0
-        public void Copy(){} // RVA: 0x7FFE8A0BCA80
-        public void .cctor(){} // RVA: 0x7FFE8A0BCBE0
+        public void .ctor(){} // RVA: 0x7FFAFC108C00 | overloaded x3
+        public void CopyIn(){} // RVA: 0x7FFAFC108D90
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC108E30
+        public void GetDigestSize(){} // RVA: 0x7FFAFC108E80
+        public void Update(){} // RVA: 0x7FFAFC108E90
+        public void BlockUpdate(){} // RVA: 0x7FFAFC108F20
+        public void DoFinal(){} // RVA: 0x7FFAFC108F80 | overloaded x2
+        public void Reset(){} // RVA: 0x7FFAFC10A700 | overloaded x2
+        public void GetByteLength(){} // RVA: 0x7FFAFC109020
+        public void Init(){} // RVA: 0x7FFAFC109030
+        public void InitSponge(){} // RVA: 0x7FFAFC109210
+        public void Absorb(){} // RVA: 0x7FFAFC109350
+        public void AbsorbBits(){} // RVA: 0x7FFAFC109530
+        public void PadAndSwitchToSqueezingPhase(){} // RVA: 0x7FFAFC1096A0
+        public void Squeeze(){} // RVA: 0x7FFAFC109890
+        public void KeccakAbsorb(){} // RVA: 0x7FFAFC1099F0
+        public void KeccakExtract(){} // RVA: 0x7FFAFC109A90
+        public void KeccakPermutation(){} // RVA: 0x7FFAFC109BD0
+        public void Copy(){} // RVA: 0x7FFAFC10A6A0
+        public void .cctor(){} // RVA: 0x7FFAFC10A800
     }
 
-    public class LongDigest : Object
+    public class LongDigest
     {
-        public int MyByteLength; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0BCDF0 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0BCF40
-        public void Update(){} // RVA: 0x7FFE8A0BD030
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0BD0A0
-        public void Finish(){} // RVA: 0x7FFE8A0BD280
-        public void Reset(){} // RVA: 0x7FFE80E460A0 | overloaded x2
-        public void ProcessWord(){} // RVA: 0x7FFE8A0BD480
-        public void AdjustByteCounts(){} // RVA: 0x7FFE8A0BD500
-        public void ProcessLength(){} // RVA: 0x7FFE8A0BD530
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0BD5A0
-        public void Ch(){} // RVA: 0x7FFE867DB6B0
-        public void Maj(){} // RVA: 0x7FFE867DB6C0
-        public void Sum0(){} // RVA: 0x7FFE8A0BDFA0
-        public void Sum1(){} // RVA: 0x7FFE8A0BDFE0
-        public void Sigma0(){} // RVA: 0x7FFE8A0BE020
-        public void Sigma1(){} // RVA: 0x7FFE8A0BE050
-        public void GetByteLength(){} // RVA: 0x7FFE811485C0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE80E2E2E0
-        public void GetDigestSize(){} // RVA: 0x7FFE80E2EDB0
+        public void .ctor(){} // RVA: 0x7FFAFC10AA10 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC10AB60
+        public void Update(){} // RVA: 0x7FFAFC10AC50
+        public void BlockUpdate(){} // RVA: 0x7FFAFC10ACC0
+        public void Finish(){} // RVA: 0x7FFAFC10AEA0
+        public void Reset(){} // RVA: 0x7FFAF2AD4B10 | overloaded x2
+        public void ProcessWord(){} // RVA: 0x7FFAFC10B0A0
+        public void AdjustByteCounts(){} // RVA: 0x7FFAFC10B120
+        public void ProcessLength(){} // RVA: 0x7FFAFC10B150
+        public void ProcessBlock(){} // RVA: 0x7FFAFC10B1C0
+        public void Ch(){} // RVA: 0x7FFAF874A810
+        public void Maj(){} // RVA: 0x7FFAF874A820
+        public void Sum0(){} // RVA: 0x7FFAFC10BBC0
+        public void Sum1(){} // RVA: 0x7FFAFC10BC00
+        public void Sigma0(){} // RVA: 0x7FFAFC10BC40
+        public void Sigma1(){} // RVA: 0x7FFAFC10BC70
+        public void GetByteLength(){} // RVA: 0x7FFAF2DDA5C0
+        public void get_AlgorithmName(){} // RVA: 0x7FFAF2ABCD60
+        public void GetDigestSize(){} // RVA: 0x7FFAF2ABD840
         public void DoFinal(){}
-        public void Copy(){} // RVA: 0x7FFE80E2E2E0
-        public void .cctor(){} // RVA: 0x7FFE8A0BE080
+        public void Copy(){} // RVA: 0x7FFAF2ABCD60
+        public void .cctor(){} // RVA: 0x7FFAFC10BCA0
     }
 
-    public class MD2Digest : Object
+    public class MD2Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0BE2D0 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0BE450
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0BE520
-        public void GetDigestSize(){} // RVA: 0x7FFE835C1D80
-        public void GetByteLength(){} // RVA: 0x7FFE835C1D80
-        public void DoFinal(){} // RVA: 0x7FFE8A0BE560
-        public void Reset(){} // RVA: 0x7FFE8A0BEDC0 | overloaded x2
-        public void Update(){} // RVA: 0x7FFE8A0BE740
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0BE7B0
-        public void ProcessChecksum(){} // RVA: 0x7FFE8A0BE940
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0BEA70
-        public void Copy(){} // RVA: 0x7FFE8A0BEC10
-        public void .cctor(){} // RVA: 0x7FFE8A0BEE50
+        public void .ctor(){} // RVA: 0x7FFAFC10BEF0 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC10C070
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC10C140
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE2B0
+        public void GetByteLength(){} // RVA: 0x7FFAF4BBE2B0
+        public void DoFinal(){} // RVA: 0x7FFAFC10C180
+        public void Reset(){} // RVA: 0x7FFAFC10C9E0 | overloaded x2
+        public void Update(){} // RVA: 0x7FFAFC10C360
+        public void BlockUpdate(){} // RVA: 0x7FFAFC10C3D0
+        public void ProcessChecksum(){} // RVA: 0x7FFAFC10C560
+        public void ProcessBlock(){} // RVA: 0x7FFAFC10C690
+        public void Copy(){} // RVA: 0x7FFAFC10C830
+        public void .cctor(){} // RVA: 0x7FFAFC10CA70
     }
 
-    public class MD4Digest : GeneralDigest
+    public class MD4Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0BEFE0 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0BF0A0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0BF150
-        public void GetDigestSize(){} // RVA: 0x7FFE835C1D80
-        public void ProcessWord(){} // RVA: 0x7FFE8A0BF190
-        public void ProcessLength(){} // RVA: 0x7FFE8A0BF260
-        public void UnpackWord(){} // RVA: 0x7FFE8A0BF2D0
-        public void DoFinal(){} // RVA: 0x7FFE8A0BF340
-        public void Reset(){} // RVA: 0x7FFE8A0C0040 | overloaded x2
-        public void RotateLeft(){} // RVA: 0x7FFE8A078D90
-        public void F(){} // RVA: 0x7FFE8671EB20
-        public void G(){} // RVA: 0x7FFE8671EB30
-        public void H(){} // RVA: 0x7FFE8671EB40
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0BF590
-        public void Copy(){} // RVA: 0x7FFE8A0BFF50
+        public void .ctor(){} // RVA: 0x7FFAFC10CC00 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC10CCC0
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC10CD70
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE2B0
+        public void ProcessWord(){} // RVA: 0x7FFAFC10CDB0
+        public void ProcessLength(){} // RVA: 0x7FFAFC10CE80
+        public void UnpackWord(){} // RVA: 0x7FFAFC10CEF0
+        public void DoFinal(){} // RVA: 0x7FFAFC10CF60
+        public void Reset(){} // RVA: 0x7FFAFC10DC60 | overloaded x2
+        public void RotateLeft(){} // RVA: 0x7FFAFC0C69B0
+        public void F(){} // RVA: 0x7FFAF868DCD0
+        public void G(){} // RVA: 0x7FFAF868DCE0
+        public void H(){} // RVA: 0x7FFAF868DCF0
+        public void ProcessBlock(){} // RVA: 0x7FFAFC10D1B0
+        public void Copy(){} // RVA: 0x7FFAFC10DB70
     }
 
-    public class MD5Digest : GeneralDigest
+    public class MD5Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0C0180 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0BF0A0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0C0240
-        public void GetDigestSize(){} // RVA: 0x7FFE835C1D80
-        public void ProcessWord(){} // RVA: 0x7FFE8A0C0280
-        public void ProcessLength(){} // RVA: 0x7FFE8A0C0340
-        public void DoFinal(){} // RVA: 0x7FFE8A0BF340
-        public void Reset(){} // RVA: 0x7FFE8A0C16D0 | overloaded x2
-        public void RotateLeft(){} // RVA: 0x7FFE869D7C70
-        public void F(){} // RVA: 0x7FFE867CDDA0
-        public void G(){} // RVA: 0x7FFE867CDDC0
-        public void H(){} // RVA: 0x7FFE867CDD90
-        public void K(){} // RVA: 0x7FFE8A0C03F0
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0C0400
-        public void Copy(){} // RVA: 0x7FFE8A0C1670
-        public void .cctor(){} // RVA: 0x7FFE8A0C1760
+        public void .ctor(){} // RVA: 0x7FFAFC10DDA0 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC10CCC0
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC10DE60
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE2B0
+        public void ProcessWord(){} // RVA: 0x7FFAFC10DEA0
+        public void ProcessLength(){} // RVA: 0x7FFAFC10DF60
+        public void DoFinal(){} // RVA: 0x7FFAFC10CF60
+        public void Reset(){} // RVA: 0x7FFAFC10F2F0 | overloaded x2
+        public void RotateLeft(){} // RVA: 0x7FFAF8946E30
+        public void F(){} // RVA: 0x7FFAF873CF00
+        public void G(){} // RVA: 0x7FFAF873CF20
+        public void H(){} // RVA: 0x7FFAF873CEF0
+        public void K(){} // RVA: 0x7FFAFC10E010
+        public void ProcessBlock(){} // RVA: 0x7FFAFC10E020
+        public void Copy(){} // RVA: 0x7FFAFC10F290
+        public void .cctor(){} // RVA: 0x7FFAFC10F380
     }
 
-    public class NonMemoableDigest : Object
+    public class NonMemoableDigest
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest mBaseDigest; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0C18E0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0C1990
-        public void GetDigestSize(){} // RVA: 0x7FFE8A0C19E0
-        public void Update(){} // RVA: 0x7FFE8A0C1A30
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0C1A90
-        public void DoFinal(){} // RVA: 0x7FFE8A0C1B20
-        public void Reset(){} // RVA: 0x7FFE8A0C1B90
-        public void GetByteLength(){} // RVA: 0x7FFE8A0C1BE0
+        public void .ctor(){} // RVA: 0x7FFAFC10F500
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC10F5B0
+        public void GetDigestSize(){} // RVA: 0x7FFAFC10F600
+        public void Update(){} // RVA: 0x7FFAFC10F650
+        public void BlockUpdate(){} // RVA: 0x7FFAFC10F6B0
+        public void DoFinal(){} // RVA: 0x7FFAFC10F740
+        public void Reset(){} // RVA: 0x7FFAFC10F7B0
+        public void GetByteLength(){} // RVA: 0x7FFAFC10F800
     }
 
-    public class NullDigest : Object
+    public class NullDigest
     {
-        public System.IO.MemoryStream bOut; // 0x10
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0C1C30
-        public void GetByteLength(){} // RVA: 0x7FFE813240E0
-        public void GetDigestSize(){} // RVA: 0x7FFE87119A80
-        public void Update(){} // RVA: 0x7FFE869997A0
-        public void BlockUpdate(){} // RVA: 0x7FFE86999860
-        public void DoFinal(){} // RVA: 0x7FFE8A0C1C70
-        public void Reset(){} // RVA: 0x7FFE8A0C1E00
-        public void .ctor(){} // RVA: 0x7FFE8A0C1E30
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC10F850
+        public void GetByteLength(){} // RVA: 0x7FFAF2FC9240
+        public void GetDigestSize(){} // RVA: 0x7FFAF908ABF0
+        public void Update(){} // RVA: 0x7FFAF8908960
+        public void BlockUpdate(){} // RVA: 0x7FFAF8908A20
+        public void DoFinal(){} // RVA: 0x7FFAFC10F890
+        public void Reset(){} // RVA: 0x7FFAFC10FA20
+        public void .ctor(){} // RVA: 0x7FFAFC10FA50
     }
 
-    public class RipeMD128Digest : GeneralDigest
+    public class RipeMD128Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0C1F80 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0BF0A0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0C2040
-        public void GetDigestSize(){} // RVA: 0x7FFE835C1D80
-        public void ProcessWord(){} // RVA: 0x7FFE8A0BF190
-        public void ProcessLength(){} // RVA: 0x7FFE8A0BF260
-        public void UnpackWord(){} // RVA: 0x7FFE8A0BF2D0
-        public void DoFinal(){} // RVA: 0x7FFE8A0BF340
-        public void Reset(){} // RVA: 0x7FFE8A0C3AF0 | overloaded x2
-        public void RL(){} // RVA: 0x7FFE8A078D90
-        public void F1(){} // RVA: 0x7FFE8A0C20A0 | overloaded x2
-        public void F2(){} // RVA: 0x7FFE8A0C20D0 | overloaded x2
-        public void F3(){} // RVA: 0x7FFE8A0C2110 | overloaded x2
-        public void F4(){} // RVA: 0x7FFE8A0C2150 | overloaded x2
-        public void FF1(){} // RVA: 0x7FFE8A0C20A0
-        public void FF2(){} // RVA: 0x7FFE8A0C2190
-        public void FF3(){} // RVA: 0x7FFE8A0C21D0
-        public void FF4(){} // RVA: 0x7FFE8A0C2210
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0C2250
-        public void Copy(){} // RVA: 0x7FFE8A0C3A00
+        public void .ctor(){} // RVA: 0x7FFAFC10FBA0 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC10CCC0
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC10FC60
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE2B0
+        public void ProcessWord(){} // RVA: 0x7FFAFC10CDB0
+        public void ProcessLength(){} // RVA: 0x7FFAFC10CE80
+        public void UnpackWord(){} // RVA: 0x7FFAFC10CEF0
+        public void DoFinal(){} // RVA: 0x7FFAFC10CF60
+        public void Reset(){} // RVA: 0x7FFAFC111710 | overloaded x2
+        public void RL(){} // RVA: 0x7FFAFC0C69B0
+        public void F1(){} // RVA: 0x7FFAFC10FCC0 | overloaded x2
+        public void F2(){} // RVA: 0x7FFAFC10FCF0 | overloaded x2
+        public void F3(){} // RVA: 0x7FFAFC10FD30 | overloaded x2
+        public void F4(){} // RVA: 0x7FFAFC10FD70 | overloaded x2
+        public void FF1(){} // RVA: 0x7FFAFC10FCC0
+        public void FF2(){} // RVA: 0x7FFAFC10FDB0
+        public void FF3(){} // RVA: 0x7FFAFC10FDF0
+        public void FF4(){} // RVA: 0x7FFAFC10FE30
+        public void ProcessBlock(){} // RVA: 0x7FFAFC10FE70
+        public void Copy(){} // RVA: 0x7FFAFC111620
     }
 
-    public class RipeMD160Digest : GeneralDigest
+    public class RipeMD160Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0C3C30 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0C3CF0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0C3DB0
-        public void GetDigestSize(){} // RVA: 0x7FFE813FC490
-        public void ProcessWord(){} // RVA: 0x7FFE8A0C3DF0
-        public void ProcessLength(){} // RVA: 0x7FFE8A0C3EC0
-        public void UnpackWord(){} // RVA: 0x7FFE8A0BF2D0
-        public void DoFinal(){} // RVA: 0x7FFE8A0C3F30
-        public void Reset(){} // RVA: 0x7FFE8A0C8B70 | overloaded x2
-        public void RL(){} // RVA: 0x7FFE8A078D90
-        public void F1(){} // RVA: 0x7FFE8671EB40
-        public void F2(){} // RVA: 0x7FFE8671EB20
-        public void F3(){} // RVA: 0x7FFE8A0C2080
-        public void F4(){} // RVA: 0x7FFE8A0C2090
-        public void F5(){} // RVA: 0x7FFE8A0C41E0
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0C41F0
-        public void Copy(){} // RVA: 0x7FFE8A0C8A80
+        public void .ctor(){} // RVA: 0x7FFAFC111850 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC111910
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC1119D0
+        public void GetDigestSize(){} // RVA: 0x7FFAF30AAB20
+        public void ProcessWord(){} // RVA: 0x7FFAFC111A10
+        public void ProcessLength(){} // RVA: 0x7FFAFC111AE0
+        public void UnpackWord(){} // RVA: 0x7FFAFC10CEF0
+        public void DoFinal(){} // RVA: 0x7FFAFC111B50
+        public void Reset(){} // RVA: 0x7FFAFC116790 | overloaded x2
+        public void RL(){} // RVA: 0x7FFAFC0C69B0
+        public void F1(){} // RVA: 0x7FFAF868DCF0
+        public void F2(){} // RVA: 0x7FFAF868DCD0
+        public void F3(){} // RVA: 0x7FFAFC10FCA0
+        public void F4(){} // RVA: 0x7FFAFC10FCB0
+        public void F5(){} // RVA: 0x7FFAFC111E00
+        public void ProcessBlock(){} // RVA: 0x7FFAFC111E10
+        public void Copy(){} // RVA: 0x7FFAFC1166A0
     }
 
-    public class RipeMD256Digest : GeneralDigest
+    public class RipeMD256Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0C8C00
-        public void GetDigestSize(){} // RVA: 0x7FFE835C28C0
-        public void .ctor(){} // RVA: 0x7FFE8A0C8CF0 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0C8DB0
-        public void ProcessWord(){} // RVA: 0x7FFE8A0C8E80
-        public void ProcessLength(){} // RVA: 0x7FFE8A0C8F50
-        public void UnpackWord(){} // RVA: 0x7FFE8A0BF2D0
-        public void DoFinal(){} // RVA: 0x7FFE8A0C8FC0
-        public void Reset(){} // RVA: 0x7FFE8A0CAC00 | overloaded x2
-        public void RL(){} // RVA: 0x7FFE8A078D90
-        public void F1(){} // RVA: 0x7FFE8A0C20A0 | overloaded x2
-        public void F2(){} // RVA: 0x7FFE8A0C20D0 | overloaded x2
-        public void F3(){} // RVA: 0x7FFE8A0C2110 | overloaded x2
-        public void F4(){} // RVA: 0x7FFE8A0C2150 | overloaded x2
-        public void FF1(){} // RVA: 0x7FFE8A0C20A0
-        public void FF2(){} // RVA: 0x7FFE8A0C2190
-        public void FF3(){} // RVA: 0x7FFE8A0C21D0
-        public void FF4(){} // RVA: 0x7FFE8A0C2210
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0C9390
-        public void Copy(){} // RVA: 0x7FFE8A0CAB10
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC116820
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE300
+        public void .ctor(){} // RVA: 0x7FFAFC116910 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC1169D0
+        public void ProcessWord(){} // RVA: 0x7FFAFC116AA0
+        public void ProcessLength(){} // RVA: 0x7FFAFC116B70
+        public void UnpackWord(){} // RVA: 0x7FFAFC10CEF0
+        public void DoFinal(){} // RVA: 0x7FFAFC116BE0
+        public void Reset(){} // RVA: 0x7FFAFC118820 | overloaded x2
+        public void RL(){} // RVA: 0x7FFAFC0C69B0
+        public void F1(){} // RVA: 0x7FFAFC10FCC0 | overloaded x2
+        public void F2(){} // RVA: 0x7FFAFC10FCF0 | overloaded x2
+        public void F3(){} // RVA: 0x7FFAFC10FD30 | overloaded x2
+        public void F4(){} // RVA: 0x7FFAFC10FD70 | overloaded x2
+        public void FF1(){} // RVA: 0x7FFAFC10FCC0
+        public void FF2(){} // RVA: 0x7FFAFC10FDB0
+        public void FF3(){} // RVA: 0x7FFAFC10FDF0
+        public void FF4(){} // RVA: 0x7FFAFC10FE30
+        public void ProcessBlock(){} // RVA: 0x7FFAFC116FB0
+        public void Copy(){} // RVA: 0x7FFAFC118730
     }
 
-    public class RipeMD320Digest : GeneralDigest
+    public class RipeMD320Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0CAC90
-        public void GetDigestSize(){} // RVA: 0x7FFE835C1DA0
-        public void .ctor(){} // RVA: 0x7FFE8A0CAD80 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0CAE40
-        public void ProcessWord(){} // RVA: 0x7FFE8A0CAF20
-        public void ProcessLength(){} // RVA: 0x7FFE8A0CAFF0
-        public void UnpackWord(){} // RVA: 0x7FFE8A0BF2D0
-        public void DoFinal(){} // RVA: 0x7FFE8A0CB060
-        public void Reset(){} // RVA: 0x7FFE8A0CFEF0 | overloaded x2
-        public void RL(){} // RVA: 0x7FFE8A078D90
-        public void F1(){} // RVA: 0x7FFE8671EB40
-        public void F2(){} // RVA: 0x7FFE8671EB20
-        public void F3(){} // RVA: 0x7FFE8A0C2080
-        public void F4(){} // RVA: 0x7FFE8A0C2090
-        public void F5(){} // RVA: 0x7FFE8A0C41E0
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0CB4E0
-        public void Copy(){} // RVA: 0x7FFE8A0CFE00
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC1188B0
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE2E0
+        public void .ctor(){} // RVA: 0x7FFAFC1189A0 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC118A60
+        public void ProcessWord(){} // RVA: 0x7FFAFC118B40
+        public void ProcessLength(){} // RVA: 0x7FFAFC118C10
+        public void UnpackWord(){} // RVA: 0x7FFAFC10CEF0
+        public void DoFinal(){} // RVA: 0x7FFAFC118C80
+        public void Reset(){} // RVA: 0x7FFAFC11DB10 | overloaded x2
+        public void RL(){} // RVA: 0x7FFAFC0C69B0
+        public void F1(){} // RVA: 0x7FFAF868DCF0
+        public void F2(){} // RVA: 0x7FFAF868DCD0
+        public void F3(){} // RVA: 0x7FFAFC10FCA0
+        public void F4(){} // RVA: 0x7FFAFC10FCB0
+        public void F5(){} // RVA: 0x7FFAFC111E00
+        public void ProcessBlock(){} // RVA: 0x7FFAFC119100
+        public void Copy(){} // RVA: 0x7FFAFC11DA20
     }
 
-    public class SM3Digest : GeneralDigest
+    public class SM3Digest
     {
-        public int DIGEST_LENGTH;
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8A0D9E00
-        public void .ctor(){} // RVA: 0x7FFE8A0DA110 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0DA2F0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0DA380
-        public void GetDigestSize(){} // RVA: 0x7FFE835C28C0
-        public void Copy(){} // RVA: 0x7FFE8A0DA3C0
-        public void Reset(){} // RVA: 0x7FFE8A0DA540 | overloaded x2
-        public void DoFinal(){} // RVA: 0x7FFE8A0DA660
-        public void ProcessWord(){} // RVA: 0x7FFE8A0DA740
-        public void ProcessLength(){} // RVA: 0x7FFE8A0DA810
-        public void P0(){} // RVA: 0x7FFE8A0DA8F0
-        public void P1(){} // RVA: 0x7FFE8A0DA920
-        public void FF0(){} // RVA: 0x7FFE8671EB40
-        public void FF1(){} // RVA: 0x7FFE8671EB30
-        public void GG0(){} // RVA: 0x7FFE8671EB40
-        public void GG1(){} // RVA: 0x7FFE8671EB20
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0DA950
+        public void .cctor(){} // RVA: 0x7FFAFC127A20
+        public void .ctor(){} // RVA: 0x7FFAFC127D30 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC127F10
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC127FA0
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE300
+        public void Copy(){} // RVA: 0x7FFAFC127FE0
+        public void Reset(){} // RVA: 0x7FFAFC128160 | overloaded x2
+        public void DoFinal(){} // RVA: 0x7FFAFC128280
+        public void ProcessWord(){} // RVA: 0x7FFAFC128360
+        public void ProcessLength(){} // RVA: 0x7FFAFC128430
+        public void P0(){} // RVA: 0x7FFAFC128510
+        public void P1(){} // RVA: 0x7FFAFC128540
+        public void FF0(){} // RVA: 0x7FFAF868DCF0
+        public void FF1(){} // RVA: 0x7FFAF868DCE0
+        public void GG0(){} // RVA: 0x7FFAF868DCF0
+        public void GG1(){} // RVA: 0x7FFAF868DCD0
+        public void ProcessBlock(){} // RVA: 0x7FFAFC128570
     }
 
-    public class Sha1Digest : GeneralDigest
+    public class Sha1Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0D0030 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0C3CF0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D00F0
-        public void GetDigestSize(){} // RVA: 0x7FFE813FC490
-        public void ProcessWord(){} // RVA: 0x7FFE8A0D0130
-        public void ProcessLength(){} // RVA: 0x7FFE8A0D0200
-        public void DoFinal(){} // RVA: 0x7FFE8A0D0270
-        public void Reset(){} // RVA: 0x7FFE8A0D0D60 | overloaded x2
-        public void F(){} // RVA: 0x7FFE867CDDA0
-        public void H(){} // RVA: 0x7FFE867CDD90
-        public void G(){} // RVA: 0x7FFE8A0D0510
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0D0520
-        public void Copy(){} // RVA: 0x7FFE8A0D0D00
+        public void .ctor(){} // RVA: 0x7FFAFC11DC50 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC111910
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC11DD10
+        public void GetDigestSize(){} // RVA: 0x7FFAF30AAB20
+        public void ProcessWord(){} // RVA: 0x7FFAFC11DD50
+        public void ProcessLength(){} // RVA: 0x7FFAFC11DE20
+        public void DoFinal(){} // RVA: 0x7FFAFC11DE90
+        public void Reset(){} // RVA: 0x7FFAFC11E980 | overloaded x2
+        public void F(){} // RVA: 0x7FFAF873CF00
+        public void H(){} // RVA: 0x7FFAF873CEF0
+        public void G(){} // RVA: 0x7FFAFC11E130
+        public void ProcessBlock(){} // RVA: 0x7FFAFC11E140
+        public void Copy(){} // RVA: 0x7FFAFC11E920
     }
 
-    public class Sha224Digest : GeneralDigest
+    public class Sha224Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0D0EA0 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0C8DB0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D0F60
-        public void GetDigestSize(){} // RVA: 0x7FFE87633430
-        public void ProcessWord(){} // RVA: 0x7FFE8A0D0FA0
-        public void ProcessLength(){} // RVA: 0x7FFE8A0D1070
-        public void DoFinal(){} // RVA: 0x7FFE8A0D10E0
-        public void Reset(){} // RVA: 0x7FFE8A0D1E10 | overloaded x2
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0D1440
-        public void Ch(){} // RVA: 0x7FFE867D9B30
-        public void Maj(){} // RVA: 0x7FFE867D9B40
-        public void Sum0(){} // RVA: 0x7FFE8A0D1D30
-        public void Sum1(){} // RVA: 0x7FFE8A0D1D70
-        public void Theta0(){} // RVA: 0x7FFE8A070420
-        public void Theta1(){} // RVA: 0x7FFE8A070450
-        public void Copy(){} // RVA: 0x7FFE8A0D1DB0
-        public void .cctor(){} // RVA: 0x7FFE8A0D1EA0
+        public void .ctor(){} // RVA: 0x7FFAFC11EAC0 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC1169D0
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC11EB80
+        public void GetDigestSize(){} // RVA: 0x7FFAF39B0450
+        public void ProcessWord(){} // RVA: 0x7FFAFC11EBC0
+        public void ProcessLength(){} // RVA: 0x7FFAFC11EC90
+        public void DoFinal(){} // RVA: 0x7FFAFC11ED00
+        public void Reset(){} // RVA: 0x7FFAFC11FA30 | overloaded x2
+        public void ProcessBlock(){} // RVA: 0x7FFAFC11F060
+        public void Ch(){} // RVA: 0x7FFAF8748C90
+        public void Maj(){} // RVA: 0x7FFAF8748CA0
+        public void Sum0(){} // RVA: 0x7FFAFC11F950
+        public void Sum1(){} // RVA: 0x7FFAFC11F990
+        public void Theta0(){} // RVA: 0x7FFAFC0BE040
+        public void Theta1(){} // RVA: 0x7FFAFC0BE070
+        public void Copy(){} // RVA: 0x7FFAFC11F9D0
+        public void .cctor(){} // RVA: 0x7FFAFC11FAC0
     }
 
-    public class Sha256Digest : GeneralDigest
+    public class Sha256Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0D2050 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0C8DB0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D2110
-        public void GetDigestSize(){} // RVA: 0x7FFE835C28C0
-        public void ProcessWord(){} // RVA: 0x7FFE8A0D0FA0
-        public void ProcessLength(){} // RVA: 0x7FFE8A0D1070
-        public void DoFinal(){} // RVA: 0x7FFE8A0D2150
-        public void Reset(){} // RVA: 0x7FFE8A0D2F20 | overloaded x2
-        public void initHs(){} // RVA: 0x7FFE8A0D2510
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0D2550
-        public void Sum1Ch(){} // RVA: 0x7FFE8A0D2E20
-        public void Sum0Maj(){} // RVA: 0x7FFE8A0D2E70
-        public void Theta0(){} // RVA: 0x7FFE8A070420
-        public void Theta1(){} // RVA: 0x7FFE8A070450
-        public void Copy(){} // RVA: 0x7FFE8A0D2EC0
-        public void .cctor(){} // RVA: 0x7FFE8A0D2FB0
+        public void .ctor(){} // RVA: 0x7FFAFC11FC70 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC1169D0
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC11FD30
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE300
+        public void ProcessWord(){} // RVA: 0x7FFAFC11EBC0
+        public void ProcessLength(){} // RVA: 0x7FFAFC11EC90
+        public void DoFinal(){} // RVA: 0x7FFAFC11FD70
+        public void Reset(){} // RVA: 0x7FFAFC120B40 | overloaded x2
+        public void initHs(){} // RVA: 0x7FFAFC120130
+        public void ProcessBlock(){} // RVA: 0x7FFAFC120170
+        public void Sum1Ch(){} // RVA: 0x7FFAFC120A40
+        public void Sum0Maj(){} // RVA: 0x7FFAFC120A90
+        public void Theta0(){} // RVA: 0x7FFAFC0BE040
+        public void Theta1(){} // RVA: 0x7FFAFC0BE070
+        public void Copy(){} // RVA: 0x7FFAFC120AE0
+        public void .cctor(){} // RVA: 0x7FFAFC120BD0
     }
 
-    public class Sha384Digest : LongDigest
+    public class Sha384Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0D30E0 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D3140
-        public void GetDigestSize(){} // RVA: 0x7FFE835C28A0
-        public void DoFinal(){} // RVA: 0x7FFE8A0D3180
-        public void Reset(){} // RVA: 0x7FFE8A0D36C0 | overloaded x2
-        public void Copy(){} // RVA: 0x7FFE8A0D3630
+        public void .ctor(){} // RVA: 0x7FFAFC120D00 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC120D60
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE2D0
+        public void DoFinal(){} // RVA: 0x7FFAFC120DA0
+        public void Reset(){} // RVA: 0x7FFAFC1212E0 | overloaded x2
+        public void Copy(){} // RVA: 0x7FFAFC121250
     }
 
-    public class Sha3Digest : KeccakDigest
+    public class Sha3Digest
     {
         // ── Methods ──
-        public void CheckBitLength(){} // RVA: 0x7FFE8A0D3750
-        public void .ctor(){} // RVA: 0x7FFE8A0D3920 | overloaded x3
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D3980
-        public void DoFinal(){} // RVA: 0x7FFE8A0D3A50 | overloaded x2
-        public void Copy(){} // RVA: 0x7FFE8A0D3BF0
+        public void CheckBitLength(){} // RVA: 0x7FFAFC121370
+        public void .ctor(){} // RVA: 0x7FFAFC121540 | overloaded x3
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC1215A0
+        public void DoFinal(){} // RVA: 0x7FFAFC121670 | overloaded x2
+        public void Copy(){} // RVA: 0x7FFAFC121810
     }
 
-    public class Sha512Digest : LongDigest
+    public class Sha512Digest
     {
-        public int DigestLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0D3CD0 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D3D30
-        public void GetDigestSize(){} // RVA: 0x7FFE81914040
-        public void DoFinal(){} // RVA: 0x7FFE8A0D3D70
-        public void Reset(){} // RVA: 0x7FFE8A0D4430 | overloaded x2
-        public void Copy(){} // RVA: 0x7FFE8A0D43A0
+        public void .ctor(){} // RVA: 0x7FFAFC1218F0 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC121950
+        public void GetDigestSize(){} // RVA: 0x7FFAF371A420
+        public void DoFinal(){} // RVA: 0x7FFAFC121990
+        public void Reset(){} // RVA: 0x7FFAFC122050 | overloaded x2
+        public void Copy(){} // RVA: 0x7FFAFC121FC0
     }
 
-    public class Sha512tDigest : LongDigest
+    public class Sha512tDigest
     {
-        public ulong A5;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0D46A0 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D4730
-        public void GetDigestSize(){} // RVA: 0x7FFE8194AD00
-        public void DoFinal(){} // RVA: 0x7FFE8A0D4800
-        public void Reset(){} // RVA: 0x7FFE8A0D5200 | overloaded x2
-        public void tIvGenerate(){} // RVA: 0x7FFE8A0D49D0
-        public void UInt64_To_BE(){} // RVA: 0x7FFE8A0D4F70
-        public void UInt32_To_BE(){} // RVA: 0x7FFE8A0D5070
-        public void Copy(){} // RVA: 0x7FFE8A0D5140
+        public void .ctor(){} // RVA: 0x7FFAFC1222C0 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC122350
+        public void GetDigestSize(){} // RVA: 0x7FFAF36690C0
+        public void DoFinal(){} // RVA: 0x7FFAFC122420
+        public void Reset(){} // RVA: 0x7FFAFC122E20 | overloaded x2
+        public void tIvGenerate(){} // RVA: 0x7FFAFC1225F0
+        public void UInt64_To_BE(){} // RVA: 0x7FFAFC122B90
+        public void UInt32_To_BE(){} // RVA: 0x7FFAFC122C90
+        public void Copy(){} // RVA: 0x7FFAFC122D60
     }
 
-    public class ShakeDigest : KeccakDigest
+    public class ShakeDigest
     {
         // ── Methods ──
-        public void CheckBitLength(){} // RVA: 0x7FFE8A0D5360
-        public void .ctor(){} // RVA: 0x7FFE8A0D5560 | overloaded x3
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D55C0
-        public void DoFinal(){} // RVA: 0x7FFE8A0D57B0 | overloaded x4
-        public void DoOutput(){} // RVA: 0x7FFE8A0D56C0
-        public void Copy(){} // RVA: 0x7FFE8A0D5940
+        public void CheckBitLength(){} // RVA: 0x7FFAFC122F80
+        public void .ctor(){} // RVA: 0x7FFAFC123180 | overloaded x3
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC1231E0
+        public void DoFinal(){} // RVA: 0x7FFAFC1233D0 | overloaded x4
+        public void DoOutput(){} // RVA: 0x7FFAFC1232E0
+        public void Copy(){} // RVA: 0x7FFAFC123560
     }
 
-    public class ShortenedDigest : Object
+    public class ShortenedDigest
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest baseDigest; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0D59D0
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D5B20
-        public void GetDigestSize(){} // RVA: 0x7FFE813DB630
-        public void Update(){} // RVA: 0x7FFE8A0D5C50
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0D5CB0
-        public void DoFinal(){} // RVA: 0x7FFE8A0D5D40
-        public void Reset(){} // RVA: 0x7FFE8A0D5E20
-        public void GetByteLength(){} // RVA: 0x7FFE8A0D5E70
+        public void .ctor(){} // RVA: 0x7FFAFC1235F0
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC123740
+        public void GetDigestSize(){} // RVA: 0x7FFAF306ED50
+        public void Update(){} // RVA: 0x7FFAFC123870
+        public void BlockUpdate(){} // RVA: 0x7FFAFC1238D0
+        public void DoFinal(){} // RVA: 0x7FFAFC123960
+        public void Reset(){} // RVA: 0x7FFAFC123A40
+        public void GetByteLength(){} // RVA: 0x7FFAFC123A90
     }
 
-    public class SkeinDigest : Object
+    public class SkeinDigest
     {
-        public int SKEIN_256;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0D5F90 | overloaded x2
-        public void Reset(){} // RVA: 0x7FFE8A02EC70 | overloaded x2
-        public void Copy(){} // RVA: 0x7FFE8A0D6250
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0D6390
-        public void GetDigestSize(){} // RVA: 0x7FFE81CCB610
-        public void GetByteLength(){} // RVA: 0x7FFE8A0D6550
-        public void Init(){} // RVA: 0x7FFE8A0D6590
-        public void Update(){} // RVA: 0x7FFE8A02ECD0
-        public void BlockUpdate(){} // RVA: 0x7FFE8A02ECF0
-        public void DoFinal(){} // RVA: 0x7FFE8A02ED20
+        public void .ctor(){} // RVA: 0x7FFAFC123BB0 | overloaded x2
+        public void Reset(){} // RVA: 0x7FFAFC07C890 | overloaded x2
+        public void Copy(){} // RVA: 0x7FFAFC123E70
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC123FB0
+        public void GetDigestSize(){} // RVA: 0x7FFAF39EF910
+        public void GetByteLength(){} // RVA: 0x7FFAFC124170
+        public void Init(){} // RVA: 0x7FFAFC1241B0
+        public void Update(){} // RVA: 0x7FFAFC07C8F0
+        public void BlockUpdate(){} // RVA: 0x7FFAFC07C910
+        public void DoFinal(){} // RVA: 0x7FFAFC07C940
     }
 
-    public class SkeinEngine : Object
+    public class SkeinEngine
     {
-        public int SKEIN_256;
-        public int SKEIN_512;
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8A0D65B0
-        public void InitialState(){} // RVA: 0x7FFE8A0D6970
-        public void VariantIdentifier(){} // RVA: 0x7FFE8A0D6A70
-        public void .ctor(){} // RVA: 0x7FFE8A0D6D10 | overloaded x2
-        public void CopyIn(){} // RVA: 0x7FFE8A0D6D80
-        public void Clone(){} // RVA: 0x7FFE8A0D7100
-        public void Copy(){} // RVA: 0x7FFE8A0D71A0
-        public void Reset(){} // RVA: 0x7FFE8A0D82D0 | overloaded x2
-        public void get_OutputSize(){} // RVA: 0x7FFE813DB630
-        public void get_BlockSize(){} // RVA: 0x7FFE815889F0
-        public void Init(){} // RVA: 0x7FFE8A0D7380
-        public void InitParams(){} // RVA: 0x7FFE8A0D7580
-        public void CreateInitialState(){} // RVA: 0x7FFE8A0D7C30
-        public void UbiComplete(){} // RVA: 0x7FFE8A0D8320
-        public void UbiInit(){} // RVA: 0x7FFE8A0D8390
-        public void UbiFinal(){} // RVA: 0x7FFE8A0D8460
-        public void CheckInitialised(){} // RVA: 0x7FFE8A0D8490
-        public void Update(){} // RVA: 0x7FFE8A0D85B0 | overloaded x2
-        public void DoFinal(){} // RVA: 0x7FFE8A0D8630
-        public void Output(){} // RVA: 0x7FFE8A0D8900
+        public void .cctor(){} // RVA: 0x7FFAFC1241D0
+        public void InitialState(){} // RVA: 0x7FFAFC124590
+        public void VariantIdentifier(){} // RVA: 0x7FFAFC124690
+        public void .ctor(){} // RVA: 0x7FFAFC124930 | overloaded x2
+        public void CopyIn(){} // RVA: 0x7FFAFC1249A0
+        public void Clone(){} // RVA: 0x7FFAFC124D20
+        public void Copy(){} // RVA: 0x7FFAFC124DC0
+        public void Reset(){} // RVA: 0x7FFAFC125EF0 | overloaded x2
+        public void get_OutputSize(){} // RVA: 0x7FFAF306ED50
+        public void get_BlockSize(){} // RVA: 0x7FFAF32A0310
+        public void Init(){} // RVA: 0x7FFAFC124FA0
+        public void InitParams(){} // RVA: 0x7FFAFC1251A0
+        public void CreateInitialState(){} // RVA: 0x7FFAFC125850
+        public void UbiComplete(){} // RVA: 0x7FFAFC125F40
+        public void UbiInit(){} // RVA: 0x7FFAFC125FB0
+        public void UbiFinal(){} // RVA: 0x7FFAFC126080
+        public void CheckInitialised(){} // RVA: 0x7FFAFC1260B0
+        public void Update(){} // RVA: 0x7FFAFC1261D0 | overloaded x2
+        public void DoFinal(){} // RVA: 0x7FFAFC126250
+        public void Output(){} // RVA: 0x7FFAFC126520
     }
 
-    public class TigerDigest : Object
+    public class TigerDigest
     {
-        public int MyByteLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A0DB060 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0DB270
-        public void GetDigestSize(){} // RVA: 0x7FFE835C1D90
-        public void GetByteLength(){} // RVA: 0x7FFE81914040
-        public void ProcessWord(){} // RVA: 0x7FFE8A0DB2B0
-        public void Update(){} // RVA: 0x7FFE8A0DB420
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0DB490
-        public void RoundABC(){} // RVA: 0x7FFE8A0DB600
-        public void RoundBCA(){} // RVA: 0x7FFE8A0DB7F0
-        public void RoundCAB(){} // RVA: 0x7FFE8A0DB9E0
-        public void KeySchedule(){} // RVA: 0x7FFE8A0DBBD0
-        public void ProcessBlock(){} // RVA: 0x7FFE8A0DBEF0
-        public void UnpackWord(){} // RVA: 0x7FFE8A0DC3B0
-        public void ProcessLength(){} // RVA: 0x7FFE8A0DC4A0
-        public void Finish(){} // RVA: 0x7FFE8A0DC4D0
-        public void DoFinal(){} // RVA: 0x7FFE8A0DC5C0
-        public void Reset(){} // RVA: 0x7FFE8A0DC870 | overloaded x2
-        public void Copy(){} // RVA: 0x7FFE8A0DC810
-        public void .cctor(){} // RVA: 0x7FFE8A0DC980
+        public void .ctor(){} // RVA: 0x7FFAFC128C80 | overloaded x2
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC128E90
+        public void GetDigestSize(){} // RVA: 0x7FFAF4BBE290
+        public void GetByteLength(){} // RVA: 0x7FFAF371A420
+        public void ProcessWord(){} // RVA: 0x7FFAFC128ED0
+        public void Update(){} // RVA: 0x7FFAFC129040
+        public void BlockUpdate(){} // RVA: 0x7FFAFC1290B0
+        public void RoundABC(){} // RVA: 0x7FFAFC129220
+        public void RoundBCA(){} // RVA: 0x7FFAFC129410
+        public void RoundCAB(){} // RVA: 0x7FFAFC129600
+        public void KeySchedule(){} // RVA: 0x7FFAFC1297F0
+        public void ProcessBlock(){} // RVA: 0x7FFAFC129B10
+        public void UnpackWord(){} // RVA: 0x7FFAFC129FD0
+        public void ProcessLength(){} // RVA: 0x7FFAFC12A0C0
+        public void Finish(){} // RVA: 0x7FFAFC12A0F0
+        public void DoFinal(){} // RVA: 0x7FFAFC12A1E0
+        public void Reset(){} // RVA: 0x7FFAFC12A490 | overloaded x2
+        public void Copy(){} // RVA: 0x7FFAFC12A430
+        public void .cctor(){} // RVA: 0x7FFAFC12A5A0
     }
 
-    public class WhirlpoolDigest : Object
+    public class WhirlpoolDigest
     {
-        public int BYTE_LENGTH;
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8A0DCC60
-        public void .ctor(){} // RVA: 0x7FFE8A0DDC80 | overloaded x2
-        public void packIntoLong(){} // RVA: 0x7FFE8A0DDC00
-        public void maskWithReductionPolynomial(){} // RVA: 0x7FFE8A0DDC60
-        public void get_AlgorithmName(){} // RVA: 0x7FFE8A0DE000
-        public void GetDigestSize(){} // RVA: 0x7FFE81914040
-        public void DoFinal(){} // RVA: 0x7FFE8A0DE040
-        public void Reset(){} // RVA: 0x7FFE8A0DF7D0 | overloaded x2
-        public void processFilledBuffer(){} // RVA: 0x7FFE8A0DE430
-        public void bytesToLongFromBuffer(){} // RVA: 0x7FFE8A0DE630
-        public void convertLongToByteArray(){} // RVA: 0x7FFE8A0DE750
-        public void processBlock(){} // RVA: 0x7FFE8A0DE7B0
-        public void Update(){} // RVA: 0x7FFE8A0DF160
-        public void increment(){} // RVA: 0x7FFE8A0DF2C0
-        public void BlockUpdate(){} // RVA: 0x7FFE8A0DF3E0
-        public void finish(){} // RVA: 0x7FFE8A0DF590
-        public void copyBitLength(){} // RVA: 0x7FFE8A0DF6E0
-        public void GetByteLength(){} // RVA: 0x7FFE81914040
-        public void Copy(){} // RVA: 0x7FFE8A0DF770
+        public void .cctor(){} // RVA: 0x7FFAFC12A880
+        public void .ctor(){} // RVA: 0x7FFAFC12B8A0 | overloaded x2
+        public void packIntoLong(){} // RVA: 0x7FFAFC12B820
+        public void maskWithReductionPolynomial(){} // RVA: 0x7FFAFC12B880
+        public void get_AlgorithmName(){} // RVA: 0x7FFAFC12BC20
+        public void GetDigestSize(){} // RVA: 0x7FFAF371A420
+        public void DoFinal(){} // RVA: 0x7FFAFC12BC60
+        public void Reset(){} // RVA: 0x7FFAFC12D3F0 | overloaded x2
+        public void processFilledBuffer(){} // RVA: 0x7FFAFC12C050
+        public void bytesToLongFromBuffer(){} // RVA: 0x7FFAFC12C250
+        public void convertLongToByteArray(){} // RVA: 0x7FFAFC12C370
+        public void processBlock(){} // RVA: 0x7FFAFC12C3D0
+        public void Update(){} // RVA: 0x7FFAFC12CD80
+        public void increment(){} // RVA: 0x7FFAFC12CEE0
+        public void BlockUpdate(){} // RVA: 0x7FFAFC12D000
+        public void finish(){} // RVA: 0x7FFAFC12D1B0
+        public void copyBitLength(){} // RVA: 0x7FFAFC12D300
+        public void GetByteLength(){} // RVA: 0x7FFAF371A420
+        public void Copy(){} // RVA: 0x7FFAFC12D390
     }
 
 }

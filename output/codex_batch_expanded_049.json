@@ -1,0 +1,194 @@
+[
+  {
+    "class": "Static20m_3950",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_03C",
+      "m_186",
+      "m_F72",
+      "m_F4D",
+      "m_BF7",
+      "m_BF2",
+      "m_4E1",
+      "m_28E",
+      "m_B35",
+      "m_8CA",
+      "m_043",
+      "m_FEA"
+    ]
+  },
+  {
+    "class": "Static20m_6151",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CB4",
+      "m_483",
+      "m_A23",
+      "m_588",
+      "m_E7D",
+      "m_35F",
+      "m_C99",
+      "m_EB1",
+      "m_678",
+      "m_12E",
+      "m_63A",
+      "m_30B"
+    ]
+  },
+  {
+    "class": "UIConfirmDialog",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.HelperMethods",
+    "readable_methods": [
+      "InternalEquals",
+      "DefaultEquals",
+      "InternalGetHashCode"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_240"
+    ]
+  },
+  {
+    "class": "FoldoutListRelated_EA4F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_5CA",
+      "m_E40",
+      "m_1C1",
+      "m_420",
+      "m_F42",
+      "m_A85",
+      "m_23F",
+      "m_49A",
+      "m_098",
+      "m_020",
+      "m_0C7",
+      "m_FF8"
+    ]
+  },
+  {
+    "class": "PromotionDataManager",
+    "parent": "",
+    "namespace": "VRC.UI.Client.Promotions",
+    "readable_methods": [
+      "get_Key",
+      "set_Key",
+      "Finalize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F8C"
+    ]
+  },
+  {
+    "class": "UILogOnceEveryFormatLogWarningFormat_ABCD_472E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_IsEnabled",
+      "LogWarningFormat"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AEC",
+      "m_6E3",
+      "m_AE8",
+      "m_A16"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_1B9B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_64B",
+      "m_51F",
+      "m_287",
+      "m_E4C",
+      "m_7B8",
+      "m_2F0",
+      "m_D76",
+      "m_AEF",
+      "m_6F8",
+      "m_997"
+    ]
+  },
+  {
+    "class": "Static18m_15FE",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FE0",
+      "m_F8B",
+      "m_EFB",
+      "m_609",
+      "m_A1F",
+      "m_C0B",
+      "m_B22",
+      "m_A35",
+      "m_598",
+      "m_058",
+      "m_076",
+      "m_E40"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_BD57",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Start_C9ED83B2DF2E",
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_11A",
+      "m_028"
+    ]
+  },
+  {
+    "class": "ChildrenSection`1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_SettingComponents",
+      "set_ValueToAppear"
+    ],
+    "fields": [
+      "_settingComponents",
+      "_sections"
+    ],
+    "hash_methods": [
+      "m_B45",
+      "m_B84",
+      "m_84E",
+      "m_4E4",
+      "m_D19"
+    ]
+  }
+]

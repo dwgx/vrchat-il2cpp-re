@@ -5,31 +5,31 @@
 
 namespace ThirdParty.Other.Assets.OVR.Scripts
 {
-    public class FixMethodDelegate : MulticastDelegate
+    public class FixMethodDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE84421760
-        public void Invoke(){} // RVA: 0x7FFE812574E0
-        public void BeginInvoke(){} // RVA: 0x7FFE86D32C50
-        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+        public void .ctor(){} // RVA: 0x7FFAF62A4640
+        public void Invoke(){} // RVA: 0x7FFAF2EE94E0
+        public void BeginInvoke(){} // RVA: 0x7FFAF8CA1DB0
+        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
     }
 
-    public class FixRecord : Record
+    public class FixRecord
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D32D00
+        public void .ctor(){} // RVA: 0x7FFAF8CA1E60
     }
 
-    public class RangedRecord : Record
+    public class RangedRecord
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D32C10
+        public void .ctor(){} // RVA: 0x7FFAF8CA1D70
     }
 
-    public class Record : Object
+    public class Record
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE83B45810
+        public void .ctor(){} // RVA: 0x7FFAF59266D0
     }
 
 }

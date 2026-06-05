@@ -8,34 +8,34 @@ namespace ThirdParty.Other.Unity.Services.Core.Device
     public class IUserIdentifierProvider
     {
         // ── Methods ──
-        public void get_UserId(){} // RVA: 0x7FFE80E2E2E0
-        public void set_UserId(){} // RVA: 0x7FFE80E460A0
+        public void get_UserId(){} // RVA: 0x7FFAF2ABCD60
+        public void set_UserId(){} // RVA: 0x7FFAF2AD4B10
     }
 
-    public class InstallationId : Object
+    public class InstallationId
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87A99590
-        public void CreateIdentifier(){} // RVA: 0x7FFE87A996B0
-        public void ReadIdentifierFromFile(){} // RVA: 0x7FFE87A999B0
-        public void WriteIdentifierToFile(){} // RVA: 0x7FFE87A999F0
-        public void GenerateGuid(){} // RVA: 0x7FFE87A99A70
+        public void .ctor(){} // RVA: 0x7FFAF9A08700
+        public void CreateIdentifier(){} // RVA: 0x7FFAF9A08820
+        public void ReadIdentifierFromFile(){} // RVA: 0x7FFAF9A08B20
+        public void WriteIdentifierToFile(){} // RVA: 0x7FFAF9A08B60
+        public void GenerateGuid(){} // RVA: 0x7FFAF9A08BE0
     }
 
-    public class UnityAdsIdentifier : Object
+    public class UnityAdsIdentifier
     {
         // ── Methods ──
-        public void get_UserId(){} // RVA: 0x7FFE813240E0
-        public void set_UserId(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_UserId(){} // RVA: 0x7FFAF2FC9240
+        public void set_UserId(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UnityAnalyticsIdentifier : Object
+    public class UnityAnalyticsIdentifier
     {
         // ── Methods ──
-        public void get_UserId(){} // RVA: 0x7FFE87A99B00
-        public void set_UserId(){} // RVA: 0x7FFE87A99B40
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_UserId(){} // RVA: 0x7FFAF9A08C70
+        public void set_UserId(){} // RVA: 0x7FFAF9A08CB0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

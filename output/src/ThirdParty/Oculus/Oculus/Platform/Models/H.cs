@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class HttpTransferUpdate : Object
+    public class HttpTransferUpdate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C290D0
+        public void .ctor(){} // RVA: 0x7FFAF8B98300
     }
 
 }

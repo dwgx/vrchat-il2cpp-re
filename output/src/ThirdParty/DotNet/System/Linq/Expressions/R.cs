@@ -5,19 +5,15 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class RuntimeVariablesExpression : Expression
+    public class RuntimeVariablesExpression
     {
-        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression> _variables; // 0x10
-        public object field_1; // 0x1FC
-        public object field_2; // 0x1FD
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87140E20 | overloaded x2
-        public void get_Type(){} // RVA: 0x7FFE87140C80
-        public void get_NodeType(){} // RVA: 0x7FFE87140D30
-        public void get_Variables(){} // RVA: 0x7FFE81116380
-        public void Accept(){} // RVA: 0x7FFE87140D40
-        public void Update(){} // RVA: 0x7FFE87140D70
+        public void .ctor(){} // RVA: 0x7FFAF90B1F50 | overloaded x2
+        public void get_Type(){} // RVA: 0x7FFAF90B1DC0
+        public void get_NodeType(){} // RVA: 0x7FFAF3A96270
+        public void get_Variables(){} // RVA: 0x7FFAF2DA8380
+        public void Accept(){} // RVA: 0x7FFAF90B1E70
+        public void Update(){} // RVA: 0x7FFAF90B1EA0
     }
 
 }

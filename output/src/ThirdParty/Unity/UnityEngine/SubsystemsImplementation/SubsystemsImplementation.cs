@@ -5,50 +5,45 @@
 
 namespace ThirdParty.Unity.UnityEngine.SubsystemsImplementation
 {
-    public class SubsystemDescriptorStore : Object
+    public class SubsystemDescriptorStore
     {
         // ── Methods ──
-        public void InitializeManagedDescriptor(){} // RVA: 0x7FFE87D9ADB0
-        public void ClearManagedDescriptors(){} // RVA: 0x7FFE87D9AE90
-        public void ReportSingleSubsystemAnalytics(){} // RVA: 0x7FFE87D9B070
-        public void GetSubsystemDescriptors(){} // RVA: 0x7FFE80E46070
-        public void AddDescriptorSubset(){} // RVA: 0x7FFE80E462E0
-        public void RegisterDescriptor(){} // RVA: 0x7FFE810A1420
-        public void RegisterDeprecatedDescriptor(){} // RVA: 0x7FFE87D9B0C0
-        public void .cctor(){} // RVA: 0x7FFE87D9B140
+        public void InitializeManagedDescriptor(){} // RVA: 0x7FFAF9D0AC10
+        public void ClearManagedDescriptors(){} // RVA: 0x7FFAF9D0ACF0
+        public void ReportSingleSubsystemAnalytics(){} // RVA: 0x7FFAF9D0AED0
+        public void GetSubsystemDescriptors(){} // RVA: 0x7FFAF2AD4AE0
+        public void AddDescriptorSubset(){} // RVA: 0x7FFAF2AD4D50
+        public void RegisterDescriptor(){} // RVA: 0x7FFAF2D33FA0
+        public void RegisterDeprecatedDescriptor(){} // RVA: 0x7FFAF9D0AF20
+        public void .cctor(){} // RVA: 0x7FFAF9D0AFA0
     }
 
-    public class SubsystemDescriptorWithProvider : Object
+    public class SubsystemDescriptorWithProvider
     {
-        public string _id; // 0x10
-
         // ── Methods ──
-        public void get_id(){} // RVA: 0x7FFE81116380
-        public void CreateImpl(){} // RVA: 0x7FFE80E2E2E0
-        public void UnityEngine.ISubsystemDescriptor.Create(){} // RVA: 0x7FFE8725AEB0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_id(){} // RVA: 0x7FFAF2DA8380
+        public void CreateImpl(){} // RVA: 0x7FFAF2ABCD60
+        public void UnityEngine.ISubsystemDescriptor.Create(){} // RVA: 0x7FFAF91CBFB0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SubsystemProvider : Object
+    public class SubsystemProvider
     {
     }
 
-    public class SubsystemWithProvider : Object
+    public class SubsystemWithProvider
     {
-        public bool _running; // 0x10
-        public UnityEngine.SubsystemsImplementation.SubsystemProvider _providerBase; // 0x18
-
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFE87D9B390
-        public void OnStart(){} // RVA: 0x7FFE80E45FE0
-        public void Stop(){} // RVA: 0x7FFE87D9B3D0
-        public void OnStop(){} // RVA: 0x7FFE80E45FE0
-        public void Destroy(){} // RVA: 0x7FFE87D9B410
-        public void OnDestroy(){} // RVA: 0x7FFE80E45FE0
-        public void get_running(){} // RVA: 0x7FFE811C55E0
-        public void set_running(){} // RVA: 0x7FFE811C55F0
-        public void get_providerBase(){} // RVA: 0x7FFE810FE7C0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Start(){} // RVA: 0x7FFAF9D0B1F0
+        public void OnStart(){} // RVA: 0x7FFAF2AD4A50
+        public void Stop(){} // RVA: 0x7FFAF9D0B230
+        public void OnStop(){} // RVA: 0x7FFAF2AD4A50
+        public void Destroy(){} // RVA: 0x7FFAF9D0B270
+        public void OnDestroy(){} // RVA: 0x7FFAF2AD4A50
+        public void get_running(){} // RVA: 0x7FFAF2E575E0
+        public void set_running(){} // RVA: 0x7FFAF2E575F0
+        public void get_providerBase(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

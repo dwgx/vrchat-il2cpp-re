@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Other.Unity.IO.LowLevel.Unsafe
 {
-    public class AsyncReadManagerMetricsFilters : Object
+    public class AsyncReadManagerMetricsFilters
     {
     }
 
-    public class AsyncReadManagerRequestMetric : ValueType
+    public class AsyncReadManagerRequestMetric
     {
     }
 

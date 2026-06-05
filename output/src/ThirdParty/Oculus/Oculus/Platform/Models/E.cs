@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class Error : Object
+    public class Error
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C288F0
+        public void .ctor(){} // RVA: 0x7FFAF8B97B20
     }
 
 }

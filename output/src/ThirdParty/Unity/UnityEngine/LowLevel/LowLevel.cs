@@ -5,24 +5,24 @@
 
 namespace ThirdParty.Unity.UnityEngine.LowLevel
 {
-    public class PlayerLoop : Object
+    public class PlayerLoop
     {
         // ── Methods ──
-        public void GetCurrentPlayerLoop(){} // RVA: 0x7FFE87C8BD60
-        public void SetPlayerLoop(){} // RVA: 0x7FFE87C8BE00
-        public void PlayerLoopSystemToInternal(){} // RVA: 0x7FFE87C8BFC0
-        public void InternalToPlayerLoopSystem(){} // RVA: 0x7FFE87C8C2E0
-        public void GetCurrentPlayerLoopInternal(){} // RVA: 0x7FFE87C8C710
-        public void SetPlayerLoopInternal(){} // RVA: 0x7FFE87C8C760
+        public void GetCurrentPlayerLoop(){} // RVA: 0x7FFAF9BFB0F0
+        public void SetPlayerLoop(){} // RVA: 0x7FFAF9BFB190
+        public void PlayerLoopSystemToInternal(){} // RVA: 0x7FFAF9BFB350
+        public void InternalToPlayerLoopSystem(){} // RVA: 0x7FFAF9BFB670
+        public void GetCurrentPlayerLoopInternal(){} // RVA: 0x7FFAF9BFBAA0
+        public void SetPlayerLoopInternal(){} // RVA: 0x7FFAF9BFBAF0
     }
 
-    public class PlayerLoopSystem : ValueType
+    public class PlayerLoopSystem
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE87C8BD30
+        public void ToString(){} // RVA: 0x7FFAF9BFB0C0
     }
 
-    public class PlayerLoopSystemInternal : ValueType
+    public class PlayerLoopSystemInternal
     {
     }
 

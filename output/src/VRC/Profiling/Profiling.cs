@@ -1,24 +1,22 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Profiling
 // Classes: 1
-// Methods: 10
+// Methods: 8
 
 namespace VRC.Profiling
 {
-    public class ProfilerMarker : ValueType
+    public class ProfilerMarker
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE81340220
-        public void InternalEquals(){} // RVA: 0x7FFE81340270
-        public void DefaultEquals(){} // RVA: 0x7FFE813402C0
-        public void GetHashCode(){} // RVA: 0x7FFE81340310
-        public void InternalGetHashCode(){} // RVA: 0x7FFE81340310
-        public void ToString(){} // RVA: 0x7FFE81340310
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE81340310
-        public void .ctor(){} // RVA: 0x7FFE813403F0
-        public void Initialize(){} // RVA: 0x7FFE81340590
+        public void .ctor(){} // RVA: 0x7FFAF2FE7180
+        public void Initialize(){} // RVA: 0x7FFAF2FE7400
         // ── Unresolved (hash) ──
-        public void m_9F2(){} // RVA: 0x7FFE813403A0
+        public void m_1DC(){} // RVA: 0x7FFAF2FE7130
+        public void m_D5E(){} // RVA: 0x7FFAF2FE7320
+        public void m_784(){} // RVA: 0x7FFAF2FE7320
+        public void m_FA5(){} // RVA: 0x7FFAF2FE73B0
+        public void m_6C1(){} // RVA: 0x7FFAF2FE7320
+        public void m_B79(){} // RVA: 0x7FFAF2FE7320
     }
 
 }

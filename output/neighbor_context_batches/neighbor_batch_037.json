@@ -1,0 +1,138 @@
+[
+  {
+    "class": "UIObservableList_5B1ERelated_3C38",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "IndexOf",
+      "Insert",
+      "get_Item",
+      "set_Item",
+      "Contains",
+      "CopyTo",
+      "get_Count",
+      "get_IsReadOnly",
+      "GetEnumerator"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3E0",
+      "m_AA6",
+      "m_BC0",
+      "m_0EB",
+      "m_1FD",
+      "m_F14",
+      "m_411",
+      "m_79F"
+    ],
+    "remaining_hash_methods": 8,
+    "total_methods": 20,
+    "signal_score": 109
+  },
+  {
+    "class": "VRC_MainSiblingSibling_3766",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Dispose",
+      "Cleanup",
+      ".ctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_ECF",
+      "m_023",
+      "m_96E",
+      "m_A22",
+      "m_C6F",
+      "m_223",
+      "m_F12",
+      "m_769",
+      "m_D11",
+      "m_FE8",
+      "m_93D",
+      "m_8A1"
+    ],
+    "remaining_hash_methods": 38,
+    "total_methods": 44,
+    "signal_score": 109
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_DBE4",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnTriggerEnter",
+      "OnCollisionExit",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2EE",
+      "m_962"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 24,
+    "signal_score": 108
+  },
+  {
+    "class": "PhotonConnectionHandler_D6F1",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnConnectedToMaster",
+      "OnCustomAuthenticationFailed",
+      "Awake"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_399",
+      "m_A04",
+      "m_9DF",
+      "m_7E1",
+      "m_40E",
+      "m_4E2",
+      "m_2AD",
+      "m_0AD",
+      "m_41C",
+      "m_254",
+      "m_4E0",
+      "m_07E"
+    ],
+    "remaining_hash_methods": 38,
+    "total_methods": 47,
+    "signal_score": 108
+  },
+  {
+    "class": "PlayerMoveNext_048C",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "System.IDisposable.Dispose",
+      "System.Collections.Generic.IEnumerable<VRC.DataModel.ISpawnedProp>.GetEnumerator",
+      "System.Collections.IEnumerable.GetEnumerator",
+      "System.Collections.IEnumerator.Reset",
+      "GetEnumerator",
+      "System.Collections.Generic.IEnumerator<VRC.DataModel.ISpawnedProp>.get_Current",
+      "get_Current",
+      "Dispose",
+      "MoveNext",
+      "System.Collections.IEnumerator.get_Current"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D23",
+      "m_2AD"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 13,
+    "signal_score": 107
+  }
+]

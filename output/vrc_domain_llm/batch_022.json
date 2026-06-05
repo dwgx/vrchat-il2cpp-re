@@ -1,0 +1,56 @@
+[
+  {
+    "namespace": "VRC.SDK3.Internal",
+    "class": "PlatformChecker",
+    "parent": "",
+    "known_methods": [
+      "StartFetchingWorldInfo",
+      "set_ValidExpressions",
+      "get_ValidExpressions",
+      "Initialize",
+      "Enable",
+      "HandleWorldInfoFetched"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9A7"
+    ],
+    "all_method_count": 17
+  },
+  {
+    "namespace": "VRC.SDK3.Internal",
+    "class": "VRCPrideCampaign",
+    "parent": "",
+    "known_methods": [
+      "RefreshData",
+      "DoSetVector_Injected",
+      "UpdateCampaignProgress",
+      "CheckCampaignStatusAndExecute",
+      "ProcessCampaignData",
+      "InitializeCampaignData"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BBE"
+    ],
+    "all_method_count": 17
+  },
+  {
+    "namespace": "VRC.UI.Core",
+    "class": "UIManager",
+    "parent": "",
+    "known_methods": [
+      "Awake",
+      "Initialize",
+      "OnDisable",
+      "OnDestroy",
+      "OnEnable",
+      "Start"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F90"
+    ],
+    "all_method_count": 17
+  }
+]

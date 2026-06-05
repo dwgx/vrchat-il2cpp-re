@@ -1,0 +1,9 @@
+{
+ "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_410": "ParseWideInteger",
+ "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_6EA": "ParseWideInteger",
+ "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_937": "WideStringToInt",
+ "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_C01": "ParseNarrowInteger",
+ "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_C31": "ParseWideInteger",
+ "VRCNetworkBehaviourSibling_BF5Sibling_01D4::m_F2B": "GetEnvironmentVariableNoLock",
+ "VRCNetworkBehaviourSibling_BF5Sibling_02F6::m_016": "SwapHashContainers"
+}

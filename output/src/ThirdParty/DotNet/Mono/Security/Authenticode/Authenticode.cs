@@ -5,47 +5,44 @@
 
 namespace ThirdParty.DotNet.Mono.Security.Authenticode
 {
-    public class AuthenticodeBase : Object
+    public class AuthenticodeBase
     {
-        public byte[] fileblock; // 0x10
+        public object RawData;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86726900
-        public void get_PEOffset(){} // RVA: 0x7FFE86726990
-        public void Open(){} // RVA: 0x7FFE86726AC0 | overloaded x2
-        public void Close(){} // RVA: 0x7FFE86726B90
-        public void ReadFirstBlock(){} // RVA: 0x7FFE86726C10
-        public void ProcessFirstBlock(){} // RVA: 0x7FFE86726CF0
-        public void GetSecurityEntry(){} // RVA: 0x7FFE867270E0
-        public void GetHash(){} // RVA: 0x7FFE867271B0
+        public void .ctor(){} // RVA: 0x7FFAF8695AB0
+        public void get_PEOffset(){} // RVA: 0x7FFAF8695B40
+        public void Open(){} // RVA: 0x7FFAF8695C70 | overloaded x2
+        public void Close(){} // RVA: 0x7FFAF8695D40
+        public void ReadFirstBlock(){} // RVA: 0x7FFAF8695DC0
+        public void ProcessFirstBlock(){} // RVA: 0x7FFAF8695EA0
+        public void GetSecurityEntry(){} // RVA: 0x7FFAF8696290
+        public void GetHash(){} // RVA: 0x7FFAF8696360
     }
 
-    public class AuthenticodeDeformatter : AuthenticodeBase
+    public class AuthenticodeDeformatter
     {
-        public string filename; // 0x40
-        public byte[] rawdata; // 0x48
+        public object RSA;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86727950 | overloaded x2
-        public void set_RawData(){} // RVA: 0x7FFE86727B30
-        public void get_SigningCertificate(){} // RVA: 0x7FFE811C3590
-        public void CheckSignature(){} // RVA: 0x7FFE86727BE0
-        public void CompareIssuerSerial(){} // RVA: 0x7FFE867281F0
-        public void VerifySignature(){} // RVA: 0x7FFE86728320
-        public void VerifyCounterSignature(){} // RVA: 0x7FFE86728F30
-        public void Reset(){} // RVA: 0x7FFE86729B80
+        public void .ctor(){} // RVA: 0x7FFAF8696B00 | overloaded x2
+        public void set_RawData(){} // RVA: 0x7FFAF8696CE0
+        public void get_SigningCertificate(){} // RVA: 0x7FFAF2E55590
+        public void CheckSignature(){} // RVA: 0x7FFAF8696D90
+        public void CompareIssuerSerial(){} // RVA: 0x7FFAF86973A0
+        public void VerifySignature(){} // RVA: 0x7FFAF86974D0
+        public void VerifyCounterSignature(){} // RVA: 0x7FFAF86980E0
+        public void Reset(){} // RVA: 0x7FFAF8698D30
     }
 
-    public class PrivateKey : Object
+    public class PrivateKey
     {
-        public bool encrypted; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86729E10
-        public void get_RSA(){} // RVA: 0x7FFE810FE7C0
-        public void DeriveKey(){} // RVA: 0x7FFE86729EE0
-        public void Decode(){} // RVA: 0x7FFE8672A1E0
-        public void CreateFromFile(){} // RVA: 0x7FFE8672A720 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF8698FC0
+        public void get_RSA(){} // RVA: 0x7FFAF2D907C0
+        public void DeriveKey(){} // RVA: 0x7FFAF8699090
+        public void Decode(){} // RVA: 0x7FFAF8699390
+        public void CreateFromFile(){} // RVA: 0x7FFAF86998D0 | overloaded x2
     }
 
 }

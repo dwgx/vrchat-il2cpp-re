@@ -5,13 +5,11 @@
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.XInput.LowLevel
 {
-    public class XInputControllerWindowsState : ValueType
+    public class XInputControllerWindowsState
     {
-        public ushort buttons; // 0x10
-
         // ── Methods ──
-        public void get_format(){} // RVA: 0x7FFE879E4190
-        public void WithButton(){} // RVA: 0x7FFE879E41A0
+        public void get_format(){} // RVA: 0x7FFAF9953300
+        public void WithButton(){} // RVA: 0x7FFAF9953310
     }
 
 }

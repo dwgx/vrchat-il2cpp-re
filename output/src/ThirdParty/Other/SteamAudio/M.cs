@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class Material : ValueType
+    public class Material
     {
     }
 
-    public class Matrix4x4 : ValueType
+    public class Matrix4x4
     {
     }
 

@@ -1,0 +1,150 @@
+[
+  {
+    "class": "PlayerMoveNext_EA5D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BFC",
+      "m_6AA"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_EB07",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4F6",
+      "m_088"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_EB38",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DB7",
+      "m_12E"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_F03E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_668",
+      "m_C45"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_F0BE",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F60",
+      "m_DB9"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_F3FF",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F60",
+      "m_63A"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_F7ED",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1AD",
+      "m_ACC"
+    ]
+  },
+  {
+    "class": "VRCCertificatePolicy",
+    "parent": "",
+    "namespace": "VRC.Core",
+    "readable_methods": [
+      "CheckValidationResult",
+      "InitVRCCertificatePolicy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_914",
+      "m_BE9"
+    ]
+  },
+  {
+    "class": "SearchInFieldsWorld",
+    "parent": "",
+    "namespace": "VRC.DataModel",
+    "readable_methods": [
+      "set_FieldDescriptions"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_53A",
+      "m_D8E",
+      "m_ED0",
+      "m_26C",
+      "m_BFE",
+      "m_1DB",
+      "m_D48"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_01D4",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6EA",
+      "m_C31",
+      "m_410",
+      "m_C01",
+      "m_2F0",
+      "m_937",
+      "m_F2B"
+    ]
+  }
+]

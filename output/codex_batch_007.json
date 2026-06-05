@@ -1,0 +1,336 @@
+[
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_5E43",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D68",
+      "m_EB0",
+      "m_363",
+      "m_CE4",
+      "m_CA8"
+    ]
+  },
+  {
+    "class": "OVRLipSyncSiblingSibling_FC45",
+    "parent": "",
+    "readable_methods": [
+      "OnDestroy_AD434082A73F",
+      "Awake_14ABA0958F65",
+      "CancelInvoke_3C1A00D439FA",
+      "OnCollisionStay_852E3599EAE7",
+      "Initialize",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      ".cctor_25245ADEC3FD",
+      "Initialize_10F6F6FDBB5A",
+      ".ctor_431831BA5622"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_817",
+      "m_384",
+      "m_474",
+      "m_67E"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContext",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "GetPlatform",
+      "UpdateLipSyncIfEnabled",
+      "UpdateLaughterScore",
+      "StartCoroutine_Auto",
+      "ScaleAudioBufferByLaughterScore",
+      "Initialize_947582829772",
+      ".ctor_CEC0CAF9E29C",
+      "Initialize_9B2C663F961C",
+      "Update_937EA44FDDB1",
+      "ProcessLipSyncEvent"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_662",
+      "m_558",
+      "m_662"
+    ]
+  },
+  {
+    "class": "AnimatedTexture",
+    "parent": "",
+    "readable_methods": [
+      "set_LoopStyle",
+      "set_EffectBundleID",
+      "set_LinearLoop",
+      "Initialize",
+      "set_Frames",
+      "Initialize_8B4FBC9AB653",
+      "set_FullResolutionTexture",
+      "set_MaskTag",
+      "set_FileId",
+      "set_IsSpecialFX",
+      "set_IsBuiltIn"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CB1",
+      "m_2B2",
+      "m_3E7"
+    ]
+  },
+  {
+    "class": "PlayerModComponentHealth_3237",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "set_TypeId"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1C2",
+      "m_01A",
+      "m_1B2",
+      "m_36C",
+      "m_96E",
+      "m_895",
+      "m_9C3",
+      "m_C4F",
+      "m_F2D",
+      "m_8E8",
+      "m_A77"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_76D9",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Initialize",
+      "Update_2B4F45D701AE"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E0C",
+      "m_1CA",
+      "m_71A",
+      "m_675",
+      "m_47C",
+      "m_098",
+      "m_F2D",
+      "m_6F7",
+      "m_B1F",
+      "m_41F"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibSibling_CF31",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "Initialize",
+      "Initialize_9C4FE72CFB43",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_692",
+      "m_061",
+      "m_338",
+      "m_484",
+      "m_743",
+      "m_BA7",
+      "m_D39",
+      "m_889",
+      "m_8B4"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourBase",
+    "parent": "",
+    "readable_methods": [
+      "get_Type",
+      "Awake",
+      "Initialize",
+      "OnDestroy_895EBA02F486",
+      "set_TypeId"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8C4",
+      "m_FF9",
+      "m_B25",
+      "m_96E",
+      "m_B52",
+      "m_DF6",
+      "m_3CD",
+      "m_91E"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_EB90",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C28",
+      "m_08E",
+      "m_E05",
+      "m_0DE",
+      "m_FBE",
+      "m_A83",
+      "m_E78",
+      "m_98F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_EB90",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C28",
+      "m_08E",
+      "m_E05",
+      "m_0DE",
+      "m_FBE",
+      "m_A83",
+      "m_E78",
+      "m_98F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_EB90",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C28",
+      "m_08E",
+      "m_E05",
+      "m_0DE",
+      "m_FBE",
+      "m_A83",
+      "m_E78",
+      "m_98F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_EB90",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C28",
+      "m_08E",
+      "m_E05",
+      "m_0DE",
+      "m_FBE",
+      "m_A83",
+      "m_E78",
+      "m_98F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_EB90",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C28",
+      "m_08E",
+      "m_E05",
+      "m_0DE",
+      "m_FBE",
+      "m_A83",
+      "m_E78",
+      "m_98F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_EB90",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C28",
+      "m_08E",
+      "m_E05",
+      "m_0DE",
+      "m_FBE",
+      "m_A83",
+      "m_E78",
+      "m_98F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_EB90",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C28",
+      "m_08E",
+      "m_E05",
+      "m_0DE",
+      "m_FBE",
+      "m_A83",
+      "m_E78",
+      "m_98F"
+    ]
+  }
+]

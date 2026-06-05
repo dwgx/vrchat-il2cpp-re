@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Other.Unity.Burst.CompilerServices
 {
-    public class AssumeRangeAttribute : Attribute
+    public class AssumeRangeAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

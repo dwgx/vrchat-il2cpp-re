@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.OVR.OpenVR
 {
-    public class AppOverrideKeys_t : ValueType
+    public class AppOverrideKeys_t
     {
     }
 

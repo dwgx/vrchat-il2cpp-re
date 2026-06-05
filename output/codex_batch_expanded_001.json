@@ -1,0 +1,227 @@
+[
+  {
+    "class": "NetworkSyncable_EF4F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_TypeId"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9BB",
+      "m_06D",
+      "m_1C2",
+      "m_69F",
+      "m_454",
+      "m_952",
+      "m_6B9",
+      "m_8C6",
+      "m_ADD",
+      "m_F83",
+      "m_316",
+      "m_162"
+    ]
+  },
+  {
+    "class": "NetworkSyncable_CB76",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_UniqueHash",
+      "set_TypeId"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_49E",
+      "m_680",
+      "m_972",
+      "m_2DA",
+      "m_DFD",
+      "m_783",
+      "m_B84",
+      "m_5E3",
+      "m_F57",
+      "m_94D",
+      "m_AC4",
+      "m_E7F"
+    ]
+  },
+  {
+    "class": "NetworkSyncable_2EE1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_TypeId"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FE6",
+      "m_540",
+      "m_109",
+      "m_8EB",
+      "m_40A",
+      "m_9BB",
+      "m_648",
+      "m_F03",
+      "m_93B",
+      "m_91E",
+      "m_8C6",
+      "m_DD3"
+    ]
+  },
+  {
+    "class": "NetworkSyncable_B5C5",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_TypeId"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_593",
+      "m_D14",
+      "m_74F",
+      "m_7D4",
+      "m_DCC",
+      "m_245",
+      "m_B14",
+      "m_852",
+      "m_BAC",
+      "m_5C7",
+      "m_FD6",
+      "m_07C"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_DBE4",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnTriggerEnter",
+      "OnCollisionExit",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2EE",
+      "m_962"
+    ]
+  },
+  {
+    "class": "EconomyStoresManager",
+    "parent": "",
+    "namespace": "VRC.Economy.Internal",
+    "readable_methods": [
+      "GetLookupToId",
+      "set_colorMin",
+      "SetEconomyStoreParameter",
+      "AddUnitNode",
+      "Doop_GreaterThan",
+      "DoTryParse",
+      "InitializeStoreCache",
+      "LoadStoreCatalog",
+      "ProcessStoreInitialization",
+      "GetPlatform"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_76E",
+      "m_09C"
+    ]
+  },
+  {
+    "class": "Service23m_C68FSiblingSibling_972B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_927",
+      "m_EAE",
+      "m_07E",
+      "m_15F",
+      "m_CD4",
+      "m_388",
+      "m_F0C",
+      "m_04F",
+      "m_D06",
+      "m_ECB",
+      "m_A7E",
+      "m_F56"
+    ]
+  },
+  {
+    "class": "ControlData",
+    "parent": "",
+    "namespace": "RealisticEyeMovements",
+    "readable_methods": [
+      "InitializeControlData",
+      "InitializeControlDataDestroy",
+      "UpdateConditionalField",
+      "InitializeStaticContext",
+      "GetInitializedValue",
+      "InitializeManagerState",
+      "ProcessIndexedEyeControl",
+      "SetIndexedBytesConditional",
+      "GetIndexedBooleanConditional",
+      "SetIndexedByteConditional"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1B3",
+      "m_B98"
+    ]
+  },
+  {
+    "class": "WorldProximityExitStation_C9A0",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Proximity"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_88D",
+      "m_695",
+      "m_94E",
+      "m_F85",
+      "m_1B8",
+      "m_961",
+      "m_1F3",
+      "m_56D",
+      "m_EEC",
+      "m_01F",
+      "m_780",
+      "m_150"
+    ]
+  },
+  {
+    "class": "UdonOperationResponseStatusChanged_6550_B67D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_AudioCaptureSource",
+      "OnBecameInvisible",
+      "OnOperationResponse",
+      "NewImpulseEvent",
+      "OnStatusChanged",
+      "get_customCaretColor",
+      "GetGameObject",
+      "OnEvent",
+      "GetCurrentTextCue"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_24B"
+    ]
+  }
+]

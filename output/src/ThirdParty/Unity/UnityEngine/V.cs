@@ -5,305 +5,241 @@
 
 namespace ThirdParty.Unity.UnityEngine
 {
-    public class Vector2 : ValueType
+    public class Vector2
     {
-        public float x; // 0x10
-        public float y; // 0x14
-        public UnityEngine.Vector2 zeroVector;
-        public UnityEngine.Vector2 oneVector; // 0x8
-        public UnityEngine.Vector2 upVector; // 0x10
-        public UnityEngine.Vector2 downVector; // 0x18
-        public UnityEngine.Vector2 leftVector; // 0x20
-        public UnityEngine.Vector2 rightVector; // 0x28
-        public UnityEngine.Vector2 positiveInfinityVector; // 0x30
-        public UnityEngine.Vector2 negativeInfinityVector; // 0x38
-        public float kEpsilon;
-        public float kEpsilonNormalSqrt;
-
         // ── Methods ──
-        public void get_Item(){} // RVA: 0x7FFE81855890
-        public void set_Item(){} // RVA: 0x7FFE87C5AB90
-        public void .ctor(){} // RVA: 0x7FFE8111ED10
-        public void Set(){} // RVA: 0x7FFE8111ED10
-        public void Lerp(){} // RVA: 0x7FFE87C5AC10
-        public void LerpUnclamped(){} // RVA: 0x7FFE87C5AC80
-        public void MoveTowards(){} // RVA: 0x7FFE87C5ACD0
-        public void Scale(){} // RVA: 0x7FFE87C5AE10 | overloaded x2
-        public void Normalize(){} // RVA: 0x7FFE8111FEA0
-        public void get_normalized(){} // RVA: 0x7FFE87C5AE40
-        public void ToString(){} // RVA: 0x7FFE87C5AF10 | overloaded x3
-        public void GetHashCode(){} // RVA: 0x7FFE87C5B0D0
-        public void Equals(){} // RVA: 0x7FFE87361150 | overloaded x2
-        public void Reflect(){} // RVA: 0x7FFE87C5B1B0
-        public void Perpendicular(){} // RVA: 0x7FFE87C5B210
-        public void Dot(){} // RVA: 0x7FFE87C5B240
-        public void get_magnitude(){} // RVA: 0x7FFE87C5B270
-        public void get_sqrMagnitude(){} // RVA: 0x7FFE811480D0
-        public void Angle(){} // RVA: 0x7FFE87C5B330
-        public void SignedAngle(){} // RVA: 0x7FFE87C5B490
-        public void Distance(){} // RVA: 0x7FFE87C5B4F0
-        public void ClampMagnitude(){} // RVA: 0x7FFE87C5B5A0
-        public void SqrMagnitude(){} // RVA: 0x7FFE811480D0 | overloaded x2
-        public void Min(){} // RVA: 0x7FFE87C5B6C0
-        public void Max(){} // RVA: 0x7FFE87C5B700
-        public void SmoothDamp(){} // RVA: 0x7FFE87C5B8A0 | overloaded x3
-        public void op_Addition(){} // RVA: 0x7FFE87361180
-        public void op_Subtraction(){} // RVA: 0x7FFE873611C0
-        public void op_Multiply(){} // RVA: 0x7FFE87361240 | overloaded x3
-        public void op_Division(){} // RVA: 0x7FFE87C5BBC0 | overloaded x2
-        public void op_UnaryNegation(){} // RVA: 0x7FFE87C5BB90
-        public void op_Equality(){} // RVA: 0x7FFE87C5BBF0
-        public void op_Inequality(){} // RVA: 0x7FFE87C5BC40
-        public void op_Implicit(){} // RVA: 0x7FFE87C5BC90 | overloaded x2
-        public void get_zero(){} // RVA: 0x7FFE87C5BCC0
-        public void get_one(){} // RVA: 0x7FFE87C5BD10
-        public void get_up(){} // RVA: 0x7FFE87C5BD60
-        public void get_down(){} // RVA: 0x7FFE87C5BDB0
-        public void get_left(){} // RVA: 0x7FFE87C5BE00
-        public void get_right(){} // RVA: 0x7FFE87C5BE50
-        public void get_positiveInfinity(){} // RVA: 0x7FFE87C5BEA0
-        public void get_negativeInfinity(){} // RVA: 0x7FFE87C5BEF0
-        public void .cctor(){} // RVA: 0x7FFE87C5BF40
+        public void get_Item(){} // RVA: 0x7FFAF356C9F0
+        public void set_Item(){} // RVA: 0x7FFAF9BC9ED0
+        public void .ctor(){} // RVA: 0x7FFAF2DB0D10
+        public void Set(){} // RVA: 0x7FFAF2DB0D10
+        public void Lerp(){} // RVA: 0x7FFAF9BC9F50
+        public void LerpUnclamped(){} // RVA: 0x7FFAF9BC9FC0
+        public void MoveTowards(){} // RVA: 0x7FFAF9BCA010
+        public void Scale(){} // RVA: 0x7FFAF9BCA150 | overloaded x2
+        public void Normalize(){} // RVA: 0x7FFAF2DB1EA0
+        public void get_normalized(){} // RVA: 0x7FFAF9BCA180
+        public void ToString(){} // RVA: 0x7FFAF9BCA250 | overloaded x3
+        public void GetHashCode(){} // RVA: 0x7FFAF9BCA410
+        public void Equals(){} // RVA: 0x7FFAF92D1E70 | overloaded x2
+        public void Reflect(){} // RVA: 0x7FFAF9BCA4F0
+        public void Perpendicular(){} // RVA: 0x7FFAF9BCA550
+        public void Dot(){} // RVA: 0x7FFAF9BCA580
+        public void get_magnitude(){} // RVA: 0x7FFAF9BCA5B0
+        public void get_sqrMagnitude(){} // RVA: 0x7FFAF2DDA0D0
+        public void Angle(){} // RVA: 0x7FFAF9BCA670
+        public void SignedAngle(){} // RVA: 0x7FFAF9BCA7D0
+        public void Distance(){} // RVA: 0x7FFAF9BCA830
+        public void ClampMagnitude(){} // RVA: 0x7FFAF9BCA8E0
+        public void SqrMagnitude(){} // RVA: 0x7FFAF2DDA0D0 | overloaded x2
+        public void Min(){} // RVA: 0x7FFAF9BCAA00
+        public void Max(){} // RVA: 0x7FFAF9BCAA40
+        public void SmoothDamp(){} // RVA: 0x7FFAF9BCABE0 | overloaded x3
+        public void op_Addition(){} // RVA: 0x7FFAF92D1EA0
+        public void op_Subtraction(){} // RVA: 0x7FFAF92D1EE0
+        public void op_Multiply(){} // RVA: 0x7FFAF92D1F60 | overloaded x3
+        public void op_Division(){} // RVA: 0x7FFAF9BCAF00 | overloaded x2
+        public void op_UnaryNegation(){} // RVA: 0x7FFAF9BCAED0
+        public void op_Equality(){} // RVA: 0x7FFAF9BCAF30
+        public void op_Inequality(){} // RVA: 0x7FFAF9BCAF80
+        public void op_Implicit(){} // RVA: 0x7FFAF9BCAFD0 | overloaded x2
+        public void get_zero(){} // RVA: 0x7FFAF9BCB000
+        public void get_one(){} // RVA: 0x7FFAF9BCB050
+        public void get_up(){} // RVA: 0x7FFAF9BCB0A0
+        public void get_down(){} // RVA: 0x7FFAF9BCB0F0
+        public void get_left(){} // RVA: 0x7FFAF9BCB140
+        public void get_right(){} // RVA: 0x7FFAF9BCB190
+        public void get_positiveInfinity(){} // RVA: 0x7FFAF9BCB1E0
+        public void get_negativeInfinity(){} // RVA: 0x7FFAF9BCB230
+        public void .cctor(){} // RVA: 0x7FFAF9BCB280
     }
 
-    public class Vector2Int : ValueType
+    public class Vector2Int
     {
-        public int m_X; // 0x10
-        public int m_Y; // 0x14
-        public UnityEngine.Vector2Int s_Zero;
-        public UnityEngine.Vector2Int s_One; // 0x8
-        public UnityEngine.Vector2Int s_Up; // 0x10
-        public UnityEngine.Vector2Int s_Down; // 0x18
-        public UnityEngine.Vector2Int s_Left; // 0x20
-        public UnityEngine.Vector2Int s_Right; // 0x28
-        public object field_8; // 0x2F1
-        public object field_9; // 0x2F2
-        public object field_10; // 0x2F3
-
         // ── Methods ──
-        public void get_x(){} // RVA: 0x7FFE8733C3B0
-        public void set_x(){} // RVA: 0x7FFE815BF990
-        public void get_y(){} // RVA: 0x7FFE84D2D330
-        public void set_y(){} // RVA: 0x7FFE826F4290
-        public void .ctor(){} // RVA: 0x7FFE8164E250
-        public void Set(){} // RVA: 0x7FFE8164E250
-        public void get_Item(){} // RVA: 0x7FFE87C5C030
-        public void set_Item(){} // RVA: 0x7FFE87C5C0E0
-        public void get_magnitude(){} // RVA: 0x7FFE87C5C190
-        public void get_sqrMagnitude(){} // RVA: 0x7FFE87C5C1C0
-        public void Distance(){} // RVA: 0x7FFE87C5C1D0
-        public void Min(){} // RVA: 0x7FFE87C5C290
-        public void Max(){} // RVA: 0x7FFE87C5C2C0
-        public void Scale(){} // RVA: 0x7FFE87C5C310 | overloaded x2
-        public void Clamp(){} // RVA: 0x7FFE87C5C330
-        public void op_Implicit(){} // RVA: 0x7FFE87C5C3C0
-        public void op_Explicit(){} // RVA: 0x7FFE87C5C3E0
-        public void FloorToInt(){} // RVA: 0x7FFE87C5C410
-        public void CeilToInt(){} // RVA: 0x7FFE87C5C450
-        public void RoundToInt(){} // RVA: 0x7FFE87C5C490
-        public void op_UnaryNegation(){} // RVA: 0x7FFE87C5C4D0
-        public void op_Addition(){} // RVA: 0x7FFE87C5C4F0
-        public void op_Subtraction(){} // RVA: 0x7FFE87C5C510
-        public void op_Multiply(){} // RVA: 0x7FFE87C5C550 | overloaded x3
-        public void op_Division(){} // RVA: 0x7FFE87C5C570
-        public void op_Equality(){} // RVA: 0x7FFE87C5C5A0
-        public void op_Inequality(){} // RVA: 0x7FFE87C5C5C0
-        public void Equals(){} // RVA: 0x7FFE87C5C680 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE87C5C6A0
-        public void ToString(){} // RVA: 0x7FFE87C5C6D0 | overloaded x3
-        public void get_zero(){} // RVA: 0x7FFE87C5C980
-        public void get_one(){} // RVA: 0x7FFE87C5C9C0
-        public void get_up(){} // RVA: 0x7FFE87C5CA00
-        public void get_down(){} // RVA: 0x7FFE87C5CA40
-        public void get_left(){} // RVA: 0x7FFE87C5CA80
-        public void get_right(){} // RVA: 0x7FFE87C5CAC0
-        public void .cctor(){} // RVA: 0x7FFE87C5CB00
+        public void get_x(){} // RVA: 0x7FFAF92AD0D0
+        public void set_x(){} // RVA: 0x7FFAF32E3580
+        public void get_y(){} // RVA: 0x7FFAF6B67110
+        public void set_y(){} // RVA: 0x7FFAF44189D0
+        public void .ctor(){} // RVA: 0x7FFAF335E010
+        public void Set(){} // RVA: 0x7FFAF335E010
+        public void get_Item(){} // RVA: 0x7FFAF9BCB370
+        public void set_Item(){} // RVA: 0x7FFAF9BCB420
+        public void get_magnitude(){} // RVA: 0x7FFAF9BCB4D0
+        public void get_sqrMagnitude(){} // RVA: 0x7FFAF9BCB500
+        public void Distance(){} // RVA: 0x7FFAF9BCB510
+        public void Min(){} // RVA: 0x7FFAF9BCB5D0
+        public void Max(){} // RVA: 0x7FFAF9BCB600
+        public void Scale(){} // RVA: 0x7FFAF9BCB650 | overloaded x2
+        public void Clamp(){} // RVA: 0x7FFAF9BCB670
+        public void op_Implicit(){} // RVA: 0x7FFAF9BCB700
+        public void op_Explicit(){} // RVA: 0x7FFAF9BCB720
+        public void FloorToInt(){} // RVA: 0x7FFAF9BCB750
+        public void CeilToInt(){} // RVA: 0x7FFAF9BCB790
+        public void RoundToInt(){} // RVA: 0x7FFAF9BCB7D0
+        public void op_UnaryNegation(){} // RVA: 0x7FFAF9BCB810
+        public void op_Addition(){} // RVA: 0x7FFAF9BCB830
+        public void op_Subtraction(){} // RVA: 0x7FFAF9BCB850
+        public void op_Multiply(){} // RVA: 0x7FFAF9BCB890 | overloaded x3
+        public void op_Division(){} // RVA: 0x7FFAF9BCB8B0
+        public void op_Equality(){} // RVA: 0x7FFAF9BCB8E0
+        public void op_Inequality(){} // RVA: 0x7FFAF9BCB900
+        public void Equals(){} // RVA: 0x7FFAF9BCB9C0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF9BCB9E0
+        public void ToString(){} // RVA: 0x7FFAF9BCBA10 | overloaded x3
+        public void get_zero(){} // RVA: 0x7FFAF9BCBCC0
+        public void get_one(){} // RVA: 0x7FFAF9BCBD00
+        public void get_up(){} // RVA: 0x7FFAF9BCBD40
+        public void get_down(){} // RVA: 0x7FFAF9BCBD80
+        public void get_left(){} // RVA: 0x7FFAF9BCBDC0
+        public void get_right(){} // RVA: 0x7FFAF9BCBE00
+        public void .cctor(){} // RVA: 0x7FFAF9BCBE40
     }
 
-    public class Vector3 : ValueType
+    public class Vector3
     {
-        public float kEpsilon;
-        public float kEpsilonNormalSqrt;
-        public float x; // 0x10
-        public float y; // 0x14
-        public float z; // 0x18
-        public UnityEngine.Vector3 zeroVector;
-        public UnityEngine.Vector3 oneVector; // 0xC
-        public UnityEngine.Vector3 upVector; // 0x18
-        public UnityEngine.Vector3 downVector; // 0x24
-        public UnityEngine.Vector3 leftVector; // 0x30
-        public UnityEngine.Vector3 rightVector; // 0x3C
-        public UnityEngine.Vector3 forwardVector; // 0x48
-        public UnityEngine.Vector3 backVector; // 0x54
-        public UnityEngine.Vector3 positiveInfinityVector; // 0x60
-
         // ── Methods ──
-        public void Slerp(){} // RVA: 0x7FFE87C560D0
-        public void SlerpUnclamped(){} // RVA: 0x7FFE87C56160
-        public void OrthoNormalize2(){} // RVA: 0x7FFE87C561F0
-        public void OrthoNormalize(){} // RVA: 0x7FFE87C56250 | overloaded x2
-        public void OrthoNormalize3(){} // RVA: 0x7FFE87C56250
-        public void RotateTowards(){} // RVA: 0x7FFE87C562C0
-        public void Lerp(){} // RVA: 0x7FFE8111F3E0
-        public void LerpUnclamped(){} // RVA: 0x7FFE87C56360
-        public void MoveTowards(){} // RVA: 0x7FFE87C563B0
-        public void SmoothDamp(){} // RVA: 0x7FFE87C56730 | overloaded x3
-        public void get_Item(){} // RVA: 0x7FFE82ABA5F0
-        public void set_Item(){} // RVA: 0x7FFE81DC5300
-        public void .ctor(){} // RVA: 0x7FFE87C56AA0 | overloaded x2
-        public void Set(){} // RVA: 0x7FFE8111ED70
-        public void Scale(){} // RVA: 0x7FFE87C56AF0 | overloaded x2
-        public void Cross(){} // RVA: 0x7FFE81147E60
-        public void GetHashCode(){} // RVA: 0x7FFE8410A1D0
-        public void Equals(){} // RVA: 0x7FFE86FA2B80 | overloaded x2
-        public void Reflect(){} // RVA: 0x7FFE87C56BD0
-        public void Normalize(){} // RVA: 0x7FFE81147DC0 | overloaded x2
-        public void get_normalized(){} // RVA: 0x7FFE8111F2C0
-        public void Dot(){} // RVA: 0x7FFE8111F5A0
-        public void Project(){} // RVA: 0x7FFE87C56C50
-        public void ProjectOnPlane(){} // RVA: 0x7FFE87C56DA0
-        public void Angle(){} // RVA: 0x7FFE87C56EC0
-        public void SignedAngle(){} // RVA: 0x7FFE81327390
-        public void Distance(){} // RVA: 0x7FFE87C57030
-        public void ClampMagnitude(){} // RVA: 0x7FFE87C57100
-        public void Magnitude(){} // RVA: 0x7FFE87C57200
-        public void get_magnitude(){} // RVA: 0x7FFE87C572B0
-        public void SqrMagnitude(){} // RVA: 0x7FFE87C573A0
-        public void get_sqrMagnitude(){} // RVA: 0x7FFE87C573A0
-        public void Min(){} // RVA: 0x7FFE87C573D0
-        public void Max(){} // RVA: 0x7FFE87C57410
-        public void get_zero(){} // RVA: 0x7FFE87C57450
-        public void get_one(){} // RVA: 0x7FFE87C574A0
-        public void get_forward(){} // RVA: 0x7FFE87C574F0
-        public void get_back(){} // RVA: 0x7FFE87C57540
-        public void get_up(){} // RVA: 0x7FFE87C57590
-        public void get_down(){} // RVA: 0x7FFE87C575E0
-        public void get_left(){} // RVA: 0x7FFE87C57630
-        public void get_right(){} // RVA: 0x7FFE87C57680
-        public void get_positiveInfinity(){} // RVA: 0x7FFE87C576D0
-        public void get_negativeInfinity(){} // RVA: 0x7FFE87C57720
-        public void op_Addition(){} // RVA: 0x7FFE8111ED40
-        public void op_Subtraction(){} // RVA: 0x7FFE8111F290
-        public void op_UnaryNegation(){} // RVA: 0x7FFE8111EE20
-        public void op_Multiply(){} // RVA: 0x7FFE8111F450 | overloaded x2
-        public void op_Division(){} // RVA: 0x7FFE8111FAB0
-        public void op_Equality(){} // RVA: 0x7FFE87C57770
-        public void op_Inequality(){} // RVA: 0x7FFE87C577B0
-        public void ToString(){} // RVA: 0x7FFE87C57830 | overloaded x3
-        public void .cctor(){} // RVA: 0x7FFE87C57A40
-        public void Slerp_Injected(){} // RVA: 0x7FFE87C57BC0
-        public void SlerpUnclamped_Injected(){} // RVA: 0x7FFE87C57C40
-        public void RotateTowards_Injected(){} // RVA: 0x7FFE87C57CC0
+        public void Slerp(){} // RVA: 0x7FFAF9BC5410
+        public void SlerpUnclamped(){} // RVA: 0x7FFAF9BC54A0
+        public void OrthoNormalize2(){} // RVA: 0x7FFAF9BC5530
+        public void OrthoNormalize(){} // RVA: 0x7FFAF9BC5590 | overloaded x2
+        public void OrthoNormalize3(){} // RVA: 0x7FFAF9BC5590
+        public void RotateTowards(){} // RVA: 0x7FFAF9BC5600
+        public void Lerp(){} // RVA: 0x7FFAF2DB13E0
+        public void LerpUnclamped(){} // RVA: 0x7FFAF9BC56A0
+        public void MoveTowards(){} // RVA: 0x7FFAF9BC56F0
+        public void SmoothDamp(){} // RVA: 0x7FFAF9BC5A70 | overloaded x3
+        public void get_Item(){} // RVA: 0x7FFAF47DC770
+        public void set_Item(){} // RVA: 0x7FFAF3B20320
+        public void .ctor(){} // RVA: 0x7FFAF9BC5DE0 | overloaded x2
+        public void Set(){} // RVA: 0x7FFAF2DB0D70
+        public void Scale(){} // RVA: 0x7FFAF9BC5E30 | overloaded x2
+        public void Cross(){} // RVA: 0x7FFAF2DD9E60
+        public void GetHashCode(){} // RVA: 0x7FFAF5F27B60
+        public void Equals(){} // RVA: 0x7FFAF8F12200 | overloaded x2
+        public void Reflect(){} // RVA: 0x7FFAF9BC5F10
+        public void Normalize(){} // RVA: 0x7FFAF2DD9DC0 | overloaded x2
+        public void get_normalized(){} // RVA: 0x7FFAF2DB12C0
+        public void Dot(){} // RVA: 0x7FFAF2DB15A0
+        public void Project(){} // RVA: 0x7FFAF9BC5F90
+        public void ProjectOnPlane(){} // RVA: 0x7FFAF9BC60E0
+        public void Angle(){} // RVA: 0x7FFAF9BC6200
+        public void SignedAngle(){} // RVA: 0x7FFAF2FBCD00
+        public void Distance(){} // RVA: 0x7FFAF9BC6370
+        public void ClampMagnitude(){} // RVA: 0x7FFAF9BC6440
+        public void Magnitude(){} // RVA: 0x7FFAF9BC6540
+        public void get_magnitude(){} // RVA: 0x7FFAF9BC65F0
+        public void SqrMagnitude(){} // RVA: 0x7FFAF9BC66E0
+        public void get_sqrMagnitude(){} // RVA: 0x7FFAF9BC66E0
+        public void Min(){} // RVA: 0x7FFAF9BC6710
+        public void Max(){} // RVA: 0x7FFAF9BC6750
+        public void get_zero(){} // RVA: 0x7FFAF9BC6790
+        public void get_one(){} // RVA: 0x7FFAF9BC67E0
+        public void get_forward(){} // RVA: 0x7FFAF9BC6830
+        public void get_back(){} // RVA: 0x7FFAF9BC6880
+        public void get_up(){} // RVA: 0x7FFAF9BC68D0
+        public void get_down(){} // RVA: 0x7FFAF9BC6920
+        public void get_left(){} // RVA: 0x7FFAF9BC6970
+        public void get_right(){} // RVA: 0x7FFAF9BC69C0
+        public void get_positiveInfinity(){} // RVA: 0x7FFAF9BC6A10
+        public void get_negativeInfinity(){} // RVA: 0x7FFAF9BC6A60
+        public void op_Addition(){} // RVA: 0x7FFAF2DB0D40
+        public void op_Subtraction(){} // RVA: 0x7FFAF2DB1290
+        public void op_UnaryNegation(){} // RVA: 0x7FFAF2DB0E20
+        public void op_Multiply(){} // RVA: 0x7FFAF2DB1450 | overloaded x2
+        public void op_Division(){} // RVA: 0x7FFAF2DB1AB0
+        public void op_Equality(){} // RVA: 0x7FFAF9BC6AB0
+        public void op_Inequality(){} // RVA: 0x7FFAF9BC6AF0
+        public void ToString(){} // RVA: 0x7FFAF9BC6B70 | overloaded x3
+        public void .cctor(){} // RVA: 0x7FFAF9BC6D80
+        public void Slerp_Injected(){} // RVA: 0x7FFAF9BC6F00
+        public void SlerpUnclamped_Injected(){} // RVA: 0x7FFAF9BC6F80
+        public void RotateTowards_Injected(){} // RVA: 0x7FFAF9BC7000
     }
 
-    public class Vector3Int : ValueType
+    public class Vector3Int
     {
-        public int m_X; // 0x10
-        public int m_Y; // 0x14
-        public int m_Z; // 0x18
-        public UnityEngine.Vector3Int s_Zero;
-        public UnityEngine.Vector3Int s_One; // 0xC
-        public UnityEngine.Vector3Int s_Up; // 0x18
-        public UnityEngine.Vector3Int s_Down; // 0x24
-        public UnityEngine.Vector3Int s_Left; // 0x30
-        public UnityEngine.Vector3Int s_Right; // 0x3C
-        public UnityEngine.Vector3Int s_Forward; // 0x48
-        public UnityEngine.Vector3Int s_Back; // 0x54
-        public object field_11; // 0x2FC
-        public object field_12; // 0x2FD
-        public object field_13; // 0x2FE
-
         // ── Methods ──
-        public void get_x(){} // RVA: 0x7FFE8733C3B0
-        public void set_x(){} // RVA: 0x7FFE815BF990
-        public void get_y(){} // RVA: 0x7FFE84D2D330
-        public void set_y(){} // RVA: 0x7FFE826F4290
-        public void get_z(){} // RVA: 0x7FFE848C3400
-        public void set_z(){} // RVA: 0x7FFE82C33010
-        public void .ctor(){} // RVA: 0x7FFE855D5D40 | overloaded x2
-        public void Set(){} // RVA: 0x7FFE855D5D40
-        public void get_Item(){} // RVA: 0x7FFE87C5CC10
-        public void set_Item(){} // RVA: 0x7FFE87C5CD10
-        public void get_magnitude(){} // RVA: 0x7FFE87C5CE10
-        public void get_sqrMagnitude(){} // RVA: 0x7FFE87C5CE50
-        public void Distance(){} // RVA: 0x7FFE87C5CE70
-        public void Min(){} // RVA: 0x7FFE87C5CEF0
-        public void Max(){} // RVA: 0x7FFE87C5CF50
-        public void Scale(){} // RVA: 0x7FFE87C5CFF0 | overloaded x2
-        public void Clamp(){} // RVA: 0x7FFE87C5D010
-        public void op_Implicit(){} // RVA: 0x7FFE87C5D0D0
-        public void op_Explicit(){} // RVA: 0x7FFE87C5D100
-        public void FloorToInt(){} // RVA: 0x7FFE87C5D120
-        public void CeilToInt(){} // RVA: 0x7FFE87C5D180
-        public void RoundToInt(){} // RVA: 0x7FFE87C5D1E0
-        public void op_Addition(){} // RVA: 0x7FFE87C5D240
-        public void op_Subtraction(){} // RVA: 0x7FFE87C5D280
-        public void op_Multiply(){} // RVA: 0x7FFE87C5D330 | overloaded x3
-        public void op_UnaryNegation(){} // RVA: 0x7FFE87C5D2C0
-        public void op_Division(){} // RVA: 0x7FFE87C5D370
-        public void op_Equality(){} // RVA: 0x7FFE87C5D3B0
-        public void op_Inequality(){} // RVA: 0x7FFE87C5D3D0
-        public void Equals(){} // RVA: 0x7FFE87C5D4F0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE87C5D540
-        public void ToString(){} // RVA: 0x7FFE87C5D590 | overloaded x3
-        public void get_zero(){} // RVA: 0x7FFE87C5D920
-        public void get_one(){} // RVA: 0x7FFE87C5D970
-        public void get_up(){} // RVA: 0x7FFE87C5D9C0
-        public void get_down(){} // RVA: 0x7FFE87C5DA10
-        public void get_left(){} // RVA: 0x7FFE87C5DA60
-        public void get_right(){} // RVA: 0x7FFE87C5DAB0
-        public void get_forward(){} // RVA: 0x7FFE87C5DB00
-        public void get_back(){} // RVA: 0x7FFE87C5DB50
-        public void .cctor(){} // RVA: 0x7FFE87C5DBA0
+        public void get_x(){} // RVA: 0x7FFAF92AD0D0
+        public void set_x(){} // RVA: 0x7FFAF32E3580
+        public void get_y(){} // RVA: 0x7FFAF6B67110
+        public void set_y(){} // RVA: 0x7FFAF44189D0
+        public void get_z(){} // RVA: 0x7FFAF66FE030
+        public void set_z(){} // RVA: 0x7FFAF49598A0
+        public void .ctor(){} // RVA: 0x7FFAF74893F0 | overloaded x2
+        public void Set(){} // RVA: 0x7FFAF74893F0
+        public void get_Item(){} // RVA: 0x7FFAF9BCBF50
+        public void set_Item(){} // RVA: 0x7FFAF9BCC050
+        public void get_magnitude(){} // RVA: 0x7FFAF9BCC150
+        public void get_sqrMagnitude(){} // RVA: 0x7FFAF9BCC190
+        public void Distance(){} // RVA: 0x7FFAF9BCC1B0
+        public void Min(){} // RVA: 0x7FFAF9BCC230
+        public void Max(){} // RVA: 0x7FFAF9BCC290
+        public void Scale(){} // RVA: 0x7FFAF9BCC330 | overloaded x2
+        public void Clamp(){} // RVA: 0x7FFAF9BCC350
+        public void op_Implicit(){} // RVA: 0x7FFAF9BCC410
+        public void op_Explicit(){} // RVA: 0x7FFAF9BCC440
+        public void FloorToInt(){} // RVA: 0x7FFAF9BCC460
+        public void CeilToInt(){} // RVA: 0x7FFAF9BCC4C0
+        public void RoundToInt(){} // RVA: 0x7FFAF9BCC520
+        public void op_Addition(){} // RVA: 0x7FFAF9BCC580
+        public void op_Subtraction(){} // RVA: 0x7FFAF9BCC5C0
+        public void op_Multiply(){} // RVA: 0x7FFAF9BCC670 | overloaded x3
+        public void op_UnaryNegation(){} // RVA: 0x7FFAF9BCC600
+        public void op_Division(){} // RVA: 0x7FFAF9BCC6B0
+        public void op_Equality(){} // RVA: 0x7FFAF9BCC6F0
+        public void op_Inequality(){} // RVA: 0x7FFAF9BCC710
+        public void Equals(){} // RVA: 0x7FFAF9BCC830 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF9BCC880
+        public void ToString(){} // RVA: 0x7FFAF9BCC8D0 | overloaded x3
+        public void get_zero(){} // RVA: 0x7FFAF9BCCC60
+        public void get_one(){} // RVA: 0x7FFAF9BCCCB0
+        public void get_up(){} // RVA: 0x7FFAF9BCCD00
+        public void get_down(){} // RVA: 0x7FFAF9BCCD50
+        public void get_left(){} // RVA: 0x7FFAF9BCCDA0
+        public void get_right(){} // RVA: 0x7FFAF9BCCDF0
+        public void get_forward(){} // RVA: 0x7FFAF9BCCE40
+        public void get_back(){} // RVA: 0x7FFAF9BCCE90
+        public void .cctor(){} // RVA: 0x7FFAF9BCCEE0
     }
 
-    public class Vector4 : ValueType
+    public class Vector4
     {
-        public float kEpsilon;
-        public float x; // 0x10
-        public float y; // 0x14
-        public float z; // 0x18
-        public float w; // 0x1C
-        public UnityEngine.Vector4 zeroVector;
-        public UnityEngine.Vector4 oneVector; // 0x10
-        public UnityEngine.Vector4 positiveInfinityVector; // 0x20
-
         // ── Methods ──
-        public void get_Item(){} // RVA: 0x7FFE8111F9C0
-        public void set_Item(){} // RVA: 0x7FFE81855910
-        public void .ctor(){} // RVA: 0x7FFE87C5DD20 | overloaded x3
-        public void Set(){} // RVA: 0x7FFE8111F570
-        public void Lerp(){} // RVA: 0x7FFE81147EC0
-        public void LerpUnclamped(){} // RVA: 0x7FFE87C51300
-        public void MoveTowards(){} // RVA: 0x7FFE87C5DD30
-        public void Scale(){} // RVA: 0x7FFE87C5DEF0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE81BDC9F0
-        public void Equals(){} // RVA: 0x7FFE87321FF0 | overloaded x2
-        public void Normalize(){} // RVA: 0x7FFE87C5E0C0 | overloaded x2
-        public void get_normalized(){} // RVA: 0x7FFE827E89E0
-        public void Dot(){} // RVA: 0x7FFE87C58760
-        public void Project(){} // RVA: 0x7FFE87C5E170
-        public void Distance(){} // RVA: 0x7FFE87C5E270
-        public void Magnitude(){} // RVA: 0x7FFE87C5E2F0
-        public void get_magnitude(){} // RVA: 0x7FFE87C5E3C0
-        public void get_sqrMagnitude(){} // RVA: 0x7FFE87C5E490
-        public void Min(){} // RVA: 0x7FFE87C5E4E0
-        public void Max(){} // RVA: 0x7FFE87C5E540
-        public void get_zero(){} // RVA: 0x7FFE87C5E5A0
-        public void get_one(){} // RVA: 0x7FFE87C5E5F0
-        public void get_positiveInfinity(){} // RVA: 0x7FFE87C5E640
-        public void get_negativeInfinity(){} // RVA: 0x7FFE87C5E690
-        public void op_Addition(){} // RVA: 0x7FFE87C51040
-        public void op_Subtraction(){} // RVA: 0x7FFE87C510A0
-        public void op_UnaryNegation(){} // RVA: 0x7FFE87C5E6E0
-        public void op_Multiply(){} // RVA: 0x7FFE87C511B0 | overloaded x2
-        public void op_Division(){} // RVA: 0x7FFE87C51200
-        public void op_Equality(){} // RVA: 0x7FFE87C5E700
-        public void op_Inequality(){} // RVA: 0x7FFE87C5E760
-        public void op_Implicit(){} // RVA: 0x7FFE87C0EC10 | overloaded x4
-        public void ToString(){} // RVA: 0x7FFE87C5E8A0 | overloaded x3
-        public void SqrMagnitude(){} // RVA: 0x7FFE87C5E490 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE87C5EB00
+        public void get_Item(){} // RVA: 0x7FFAF2DB19C0
+        public void set_Item(){} // RVA: 0x7FFAF356CA70
+        public void .ctor(){} // RVA: 0x7FFAF9BCD060 | overloaded x3
+        public void Set(){} // RVA: 0x7FFAF2DB1570
+        public void Lerp(){} // RVA: 0x7FFAF2DD9EC0
+        public void LerpUnclamped(){} // RVA: 0x7FFAF9BC0640
+        public void MoveTowards(){} // RVA: 0x7FFAF9BCD070
+        public void Scale(){} // RVA: 0x7FFAF9BCD230 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF392CB90
+        public void Equals(){} // RVA: 0x7FFAF92930F0 | overloaded x2
+        public void Normalize(){} // RVA: 0x7FFAF9BCD400 | overloaded x2
+        public void get_normalized(){} // RVA: 0x7FFAF4520740
+        public void Dot(){} // RVA: 0x7FFAF9BC7AA0
+        public void Project(){} // RVA: 0x7FFAF9BCD4B0
+        public void Distance(){} // RVA: 0x7FFAF9BCD5B0
+        public void Magnitude(){} // RVA: 0x7FFAF9BCD630
+        public void get_magnitude(){} // RVA: 0x7FFAF9BCD700
+        public void get_sqrMagnitude(){} // RVA: 0x7FFAF9BCD7D0
+        public void Min(){} // RVA: 0x7FFAF9BCD820
+        public void Max(){} // RVA: 0x7FFAF9BCD880
+        public void get_zero(){} // RVA: 0x7FFAF9BCD8E0
+        public void get_one(){} // RVA: 0x7FFAF9BCD930
+        public void get_positiveInfinity(){} // RVA: 0x7FFAF9BCD980
+        public void get_negativeInfinity(){} // RVA: 0x7FFAF9BCD9D0
+        public void op_Addition(){} // RVA: 0x7FFAF9BC0380
+        public void op_Subtraction(){} // RVA: 0x7FFAF9BC03E0
+        public void op_UnaryNegation(){} // RVA: 0x7FFAF9BCDA20
+        public void op_Multiply(){} // RVA: 0x7FFAF9BC04F0 | overloaded x2
+        public void op_Division(){} // RVA: 0x7FFAF9BC0540
+        public void op_Equality(){} // RVA: 0x7FFAF9BCDA40
+        public void op_Inequality(){} // RVA: 0x7FFAF9BCDAA0
+        public void op_Implicit(){} // RVA: 0x7FFAF9B7DCF0 | overloaded x4
+        public void ToString(){} // RVA: 0x7FFAF9BCDBE0 | overloaded x3
+        public void SqrMagnitude(){} // RVA: 0x7FFAF9BCD7D0 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF9BCDE40
     }
 
 }

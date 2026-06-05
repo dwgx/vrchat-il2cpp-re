@@ -5,351 +5,331 @@
 
 namespace ThirdParty.DotNet.System.Net.NetworkInformation
 {
-    public class AlignmentUnion : ValueType
+    public class AlignmentUnion
     {
     }
 
     public class INetworkChange
     {
         // ── Methods ──
-        public void add_NetworkAddressChanged(){} // RVA: 0x7FFE80E460A0
-        public void remove_NetworkAddressChanged(){} // RVA: 0x7FFE80E460A0
-        public void get_HasRegisteredEvents(){} // RVA: 0x7FFE80E2F150
+        public void add_NetworkAddressChanged(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_NetworkAddressChanged(){} // RVA: 0x7FFAF2AD4B10
+        public void get_HasRegisteredEvents(){} // RVA: 0x7FFAF2ABDBE0
     }
 
-    public class IPAddressInformation : Object
+    public class IPAddressInformation
     {
         // ── Methods ──
-        public void get_Address(){} // RVA: 0x7FFE80E2E2E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Address(){} // RVA: 0x7FFAF2ABCD60
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class IPGlobalProperties : Object
+    public class IPGlobalProperties
     {
         // ── Methods ──
-        public void GetIPGlobalProperties(){} // RVA: 0x7FFE876CE5C0
-        public void InternalGetIPGlobalProperties(){} // RVA: 0x7FFE876CE5C0
-        public void get_DomainName(){} // RVA: 0x7FFE80E2E2E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetIPGlobalProperties(){} // RVA: 0x7FFAF963F310
+        public void InternalGetIPGlobalProperties(){} // RVA: 0x7FFAF963F310
+        public void get_DomainName(){} // RVA: 0x7FFAF2ABCD60
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class IPGlobalPropertiesFactoryPal : Object
+    public class IPGlobalPropertiesFactoryPal
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE876CE5C0
+        public void Create(){} // RVA: 0x7FFAF963F310
     }
 
-    public class IPInterfaceProperties : Object
+    public class IPInterfaceProperties
     {
         // ── Methods ──
-        public void get_UnicastAddresses(){} // RVA: 0x7FFE80E2E2E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_UnicastAddresses(){} // RVA: 0x7FFAF2ABCD60
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class IPv4InterfaceStatistics : Object
+    public class IPv4InterfaceStatistics
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class LinuxNetworkChange : Object
-    {
-        public object _lock; // 0x10
-
-        // ── Methods ──
-        public void add_NetworkAddressChanged(){} // RVA: 0x7FFE876D0ED0
-        public void remove_NetworkAddressChanged(){} // RVA: 0x7FFE876D0FD0
-        public void get_HasRegisteredEvents(){} // RVA: 0x7FFE876D0FE0
-        public void Dispose(){} // RVA: 0x7FFE810FB310
-        public void EnsureSocket(){} // RVA: 0x7FFE876D1000
-        public void MaybeCloseSocket(){} // RVA: 0x7FFE876D11B0
-        public void GetAvailability(){} // RVA: 0x7FFE876D1220
-        public void OnAvailabilityChanged(){} // RVA: 0x7FFE876D1300
-        public void OnAddressChanged(){} // RVA: 0x7FFE876D1470
-        public void OnEventDue(){} // RVA: 0x7FFE876D14F0
-        public void QueueEvent(){} // RVA: 0x7FFE876D17C0
-        public void OnDataAvailable(){} // RVA: 0x7FFE876D1AE0
-        public void Register(){} // RVA: 0x7FFE876D0ED0
-        public void Unregister(){} // RVA: 0x7FFE876D1BC0
-        public void CreateNLSocket(){} // RVA: 0x7FFE876D1E30
-        public void ReadEvents(){} // RVA: 0x7FFE876D1E40
-        public void CloseNLSocket(){} // RVA: 0x7FFE876D1E50
-        public void .ctor(){} // RVA: 0x7FFE876D1E60
-    }
-
-    public class MacNetworkChange : Object
-    {
-        public UIntPtr handle; // 0x10
-        public UIntPtr runLoopMode; // 0x18
-
-        // ── Methods ──
-        public void dlopen(){} // RVA: 0x7FFE876CFA00
-        public void dlsym(){} // RVA: 0x7FFE876CFAB0
-        public void dlclose(){} // RVA: 0x7FFE876CFB70
-        public void CFRelease(){} // RVA: 0x7FFE876CFBF0
-        public void CFRunLoopGetMain(){} // RVA: 0x7FFE876CFC70
-        public void SCNetworkReachabilityCreateWithAddress(){} // RVA: 0x7FFE876CFCE0
-        public void SCNetworkReachabilityGetFlags(){} // RVA: 0x7FFE876CFD70
-        public void SCNetworkReachabilitySetCallback(){} // RVA: 0x7FFE876CFE00
-        public void SCNetworkReachabilityScheduleWithRunLoop(){} // RVA: 0x7FFE876CFEB0
-        public void SCNetworkReachabilityUnscheduleFromRunLoop(){} // RVA: 0x7FFE876CFF50
-        public void add_networkAddressChanged(){} // RVA: 0x7FFE876CFFF0
-        public void remove_networkAddressChanged(){} // RVA: 0x7FFE876D00E0
-        public void add_NetworkAddressChanged(){} // RVA: 0x7FFE876D01D0
-        public void remove_NetworkAddressChanged(){} // RVA: 0x7FFE876D00E0
-        public void get_IsAvailable(){} // RVA: 0x7FFE876D0320
-        public void get_HasRegisteredEvents(){} // RVA: 0x7FFE876D0340
-        public void .ctor(){} // RVA: 0x7FFE876D0360
-        public void LoadRunLoopMode(){} // RVA: 0x7FFE876D07A0
-        public void Dispose(){} // RVA: 0x7FFE876D0A40
-        public void HandleCallback(){} // RVA: 0x7FFE876D0D10
-    }
-
-    public class NetworkAddressChangedEventHandler : MulticastDelegate
+    public class LinuxNetworkChange
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE83F84C40
-        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void add_NetworkAddressChanged(){} // RVA: 0x7FFAF9641C20
+        public void remove_NetworkAddressChanged(){} // RVA: 0x7FFAF9641D20
+        public void get_HasRegisteredEvents(){} // RVA: 0x7FFAF9641D30
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void EnsureSocket(){} // RVA: 0x7FFAF9641D50
+        public void MaybeCloseSocket(){} // RVA: 0x7FFAF9641F00
+        public void GetAvailability(){} // RVA: 0x7FFAF9641F70
+        public void OnAvailabilityChanged(){} // RVA: 0x7FFAF9642050
+        public void OnAddressChanged(){} // RVA: 0x7FFAF96421C0
+        public void OnEventDue(){} // RVA: 0x7FFAF9642240
+        public void QueueEvent(){} // RVA: 0x7FFAF9642510
+        public void OnDataAvailable(){} // RVA: 0x7FFAF9642830
+        public void Register(){} // RVA: 0x7FFAF9641C20
+        public void Unregister(){} // RVA: 0x7FFAF9642910
+        public void CreateNLSocket(){} // RVA: 0x7FFAF9642B80
+        public void ReadEvents(){} // RVA: 0x7FFAF9642B90
+        public void CloseNLSocket(){} // RVA: 0x7FFAF9642BA0
+        public void .ctor(){} // RVA: 0x7FFAF9642BB0
     }
 
-    public class NetworkAvailabilityChangedEventHandler : MulticastDelegate
+    public class MacNetworkChange
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE828867F0
-        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void dlopen(){} // RVA: 0x7FFAF9640750
+        public void dlsym(){} // RVA: 0x7FFAF9640800
+        public void dlclose(){} // RVA: 0x7FFAF96408C0
+        public void CFRelease(){} // RVA: 0x7FFAF9640940
+        public void CFRunLoopGetMain(){} // RVA: 0x7FFAF96409C0
+        public void SCNetworkReachabilityCreateWithAddress(){} // RVA: 0x7FFAF9640A30
+        public void SCNetworkReachabilityGetFlags(){} // RVA: 0x7FFAF9640AC0
+        public void SCNetworkReachabilitySetCallback(){} // RVA: 0x7FFAF9640B50
+        public void SCNetworkReachabilityScheduleWithRunLoop(){} // RVA: 0x7FFAF9640C00
+        public void SCNetworkReachabilityUnscheduleFromRunLoop(){} // RVA: 0x7FFAF9640CA0
+        public void add_networkAddressChanged(){} // RVA: 0x7FFAF9640D40
+        public void remove_networkAddressChanged(){} // RVA: 0x7FFAF9640E30
+        public void add_NetworkAddressChanged(){} // RVA: 0x7FFAF9640F20
+        public void remove_NetworkAddressChanged(){} // RVA: 0x7FFAF9640E30
+        public void get_IsAvailable(){} // RVA: 0x7FFAF9641070
+        public void get_HasRegisteredEvents(){} // RVA: 0x7FFAF9641090
+        public void .ctor(){} // RVA: 0x7FFAF96410B0
+        public void LoadRunLoopMode(){} // RVA: 0x7FFAF96414F0
+        public void Dispose(){} // RVA: 0x7FFAF9641790
+        public void HandleCallback(){} // RVA: 0x7FFAF9641A60
     }
 
-    public class NetworkAvailabilityEventArgs : EventArgs
+    public class NetworkAddressChangedEventHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876CE640
+        public void .ctor(){} // RVA: 0x7FFAF5DB76C0
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
     }
 
-    public class NetworkChange : Object
-    {
-        public System.Net.NetworkInformation.INetworkChange networkChange;
-
-        // ── Methods ──
-        public void add_NetworkAddressChanged(){} // RVA: 0x7FFE876CF200
-        public void remove_NetworkAddressChanged(){} // RVA: 0x7FFE876CF420
-        public void MaybeCreate(){} // RVA: 0x7FFE876CF750
-        public void get_IsWindows(){} // RVA: 0x7FFE869A8880
-        public void MaybeDispose(){} // RVA: 0x7FFE876CF8F0
-    }
-
-    public class NetworkInformationException : Win32Exception
+    public class NetworkAvailabilityChangedEventHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8765BC90 | overloaded x3
-        public void get_ErrorCode(){} // RVA: 0x7FFE814AA220
+        public void .ctor(){} // RVA: 0x7FFAF45AE240
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
     }
 
-    public class NetworkInterface : Object
+    public class NetworkAvailabilityEventArgs
     {
         // ── Methods ──
-        public void GetAllNetworkInterfaces(){} // RVA: 0x7FFE876CE760
-        public void get_Id(){} // RVA: 0x7FFE876CE7B0
-        public void GetIPProperties(){} // RVA: 0x7FFE876CE7F0
-        public void get_OperationalStatus(){} // RVA: 0x7FFE876CE830
-        public void GetPhysicalAddress(){} // RVA: 0x7FFE876CE870
-        public void get_NetworkInterfaceType(){} // RVA: 0x7FFE876CE8B0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF963F390
     }
 
-    public class NetworkInterfaceFactory : Object
+    public class NetworkChange
     {
         // ── Methods ──
-        public void GetAllNetworkInterfaces(){} // RVA: 0x7FFE80E2E2E0
-        public void Create(){} // RVA: 0x7FFE876D2110
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void add_NetworkAddressChanged(){} // RVA: 0x7FFAF963FF50
+        public void remove_NetworkAddressChanged(){} // RVA: 0x7FFAF9640170
+        public void MaybeCreate(){} // RVA: 0x7FFAF96404A0
+        public void get_IsWindows(){} // RVA: 0x7FFAF8917A40
+        public void MaybeDispose(){} // RVA: 0x7FFAF9640640
     }
 
-    public class NetworkInterfaceFactoryPal : Object
+    public class NetworkInformationException
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE876D2110
+        public void .ctor(){} // RVA: 0x7FFAF95CC9D0 | overloaded x3
+        public void get_ErrorCode(){} // RVA: 0x7FFAF315FD40
     }
 
-    public class PhysicalAddress : Object
+    public class NetworkInterface
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE868896F0
-        public void GetHashCode(){} // RVA: 0x7FFE876CE8F0
-        public void Equals(){} // RVA: 0x7FFE876CEA00
-        public void ToString(){} // RVA: 0x7FFE876CEB00
-        public void .cctor(){} // RVA: 0x7FFE876CEC60
+        public void GetAllNetworkInterfaces(){} // RVA: 0x7FFAF963F4B0
+        public void get_Id(){} // RVA: 0x7FFAF963F500
+        public void GetIPProperties(){} // RVA: 0x7FFAF963F540
+        public void get_OperationalStatus(){} // RVA: 0x7FFAF963F580
+        public void GetPhysicalAddress(){} // RVA: 0x7FFAF963F5C0
+        public void get_NetworkInterfaceType(){} // RVA: 0x7FFAF963F600
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Ping : Component
+    public class NetworkInterfaceFactory
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE876D2210
-        public void .ctor(){} // RVA: 0x7FFE876D2600
-        public void capget(){} // RVA: 0x7FFE876D2740
-        public void CheckLinuxCapabilities(){} // RVA: 0x7FFE876D27D0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFE810FB310
+        public void GetAllNetworkInterfaces(){} // RVA: 0x7FFAF2ABCD60
+        public void Create(){} // RVA: 0x7FFAF9642E60
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class SystemNetworkInterface : Object
+    public class NetworkInterfaceFactoryPal
     {
         // ── Methods ──
-        public void GetNetworkInterfaces(){} // RVA: 0x7FFE876D1EF0
-        public void .cctor(){} // RVA: 0x7FFE876D1F80
+        public void Create(){} // RVA: 0x7FFAF9642E60
     }
 
-    public class UnicastIPAddressInformation : IPAddressInformation
+    public class PhysicalAddress
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF87F87F0
+        public void GetHashCode(){} // RVA: 0x7FFAF963F640
+        public void Equals(){} // RVA: 0x7FFAF963F750
+        public void ToString(){} // RVA: 0x7FFAF963F850
+        public void .cctor(){} // RVA: 0x7FFAF963F9B0
     }
 
-    public class UnicastIPAddressInformationCollection : Object
-    {
-        public System.Collections.ObjectModel.Collection`1<System.Net.NetworkInformation.UnicastIPAddressInformation> addresses; // 0x10
-        public object field_1; // 0x59C
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876CED90
-        public void CopyTo(){} // RVA: 0x7FFE876CEE50
-        public void get_Count(){} // RVA: 0x7FFE876CEEF0
-        public void get_IsReadOnly(){} // RVA: 0x7FFE811E0850
-        public void Add(){} // RVA: 0x7FFE876CEF70
-        public void InternalAdd(){} // RVA: 0x7FFE876CEFD0
-        public void Contains(){} // RVA: 0x7FFE876CF030
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE8713AA70
-        public void GetEnumerator(){} // RVA: 0x7FFE876CF0C0
-        public void Remove(){} // RVA: 0x7FFE876CF140
-        public void Clear(){} // RVA: 0x7FFE876CF1A0
-    }
-
-    public class UnixIPGlobalPropertiesFactoryPal : Object
+    public class Ping
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE813240E0
+        public void .cctor(){} // RVA: 0x7FFAF9642F60
+        public void .ctor(){} // RVA: 0x7FFAF9643350
+        public void capget(){} // RVA: 0x7FFAF9643490
+        public void CheckLinuxCapabilities(){} // RVA: 0x7FFAF9643520
+        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UnixNetworkInterfaceFactoryPal : Object
+    public class SystemNetworkInterface
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE813240E0
+        public void GetNetworkInterfaces(){} // RVA: 0x7FFAF9642C40
+        public void .cctor(){} // RVA: 0x7FFAF9642CD0
     }
 
-    public class Win32IPGlobalProperties : IPGlobalProperties
+    public class UnicastIPAddressInformation
     {
         // ── Methods ──
-        public void get_DomainName(){} // RVA: 0x7FFE876D2920
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Win32IPGlobalPropertiesFactoryPal : Object
+    public class UnicastIPAddressInformationCollection
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE876D2940
+        public void .ctor(){} // RVA: 0x7FFAF963FAE0
+        public void CopyTo(){} // RVA: 0x7FFAF963FBA0
+        public void get_Count(){} // RVA: 0x7FFAF963FC40
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
+        public void Add(){} // RVA: 0x7FFAF963FCC0
+        public void InternalAdd(){} // RVA: 0x7FFAF963FD20
+        public void Contains(){} // RVA: 0x7FFAF963FD80
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF4304290
+        public void GetEnumerator(){} // RVA: 0x7FFAF963FE10
+        public void Remove(){} // RVA: 0x7FFAF963FE90
+        public void Clear(){} // RVA: 0x7FFAF963FEF0
     }
 
-    public class Win32IPInterfaceProperties2 : IPInterfaceProperties
-    {
-        public System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876D2980
-        public void get_UnicastAddresses(){} // RVA: 0x7FFE876D2BB0
-        public void Win32FromUnicast(){} // RVA: 0x7FFE876D2BF0
-    }
-
-    public class Win32IPv4InterfaceStatistics : IPv4InterfaceStatistics
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876D2E50
-    }
-
-    public class Win32LengthFlagsUnion : ValueType
-    {
-    }
-
-    public class Win32NetworkInterface : Object
-    {
-        public System.Net.NetworkInformation.Win32_FIXED_INFO fixedInfo;
-
-        // ── Methods ──
-        public void GetNetworkParams(){} // RVA: 0x7FFE876D4450
-        public void MultiByteToWideChar(){} // RVA: 0x7FFE876D44F0
-        public void get_FixedInfo(){} // RVA: 0x7FFE876D45C0
-        public void <get_FixedInfo>g__GetStringFromMultiByte|5_0(){} // RVA: 0x7FFE876D4C30
-    }
-
-    public class Win32NetworkInterface2 : NetworkInterface
-    {
-        public System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr; // 0x10
-        public System.Net.NetworkInformation.Win32_MIB_IFROW mib4; // 0x118
-        public System.Net.NetworkInformation.Win32_MIB_IFROW mib6; // 0x188
-
-        // ── Methods ──
-        public void GetIfEntry(){} // RVA: 0x7FFE876D3990
-        public void .ctor(){} // RVA: 0x7FFE876D3B10
-        public void GetIPProperties(){} // RVA: 0x7FFE81B14500
-        public void GetPhysicalAddress(){} // RVA: 0x7FFE876D4290
-        public void get_Id(){} // RVA: 0x7FFE811290C0
-        public void get_NetworkInterfaceType(){} // RVA: 0x7FFE826A9B90
-        public void get_OperationalStatus(){} // RVA: 0x7FFE8286C0A0
-    }
-
-    public class Win32NetworkInterfaceAPI : NetworkInterfaceFactory
+    public class UnixIPGlobalPropertiesFactoryPal
     {
         // ── Methods ──
-        public void GetAdaptersAddresses(){} // RVA: 0x7FFE876D2FA0 | overloaded x2
-        public void GetAllNetworkInterfaces(){} // RVA: 0x7FFE876D3710
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Create(){} // RVA: 0x7FFAF2FC9240
     }
 
-    public class Win32NetworkInterfaceFactoryPal : Object
+    public class UnixNetworkInterfaceFactoryPal
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE876D4390
+        public void Create(){} // RVA: 0x7FFAF2FC9240
     }
 
-    public class Win32UnicastIPAddressInformation : UnicastIPAddressInformation
-    {
-        public System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876D4F90
-        public void get_Address(){} // RVA: 0x7FFE876D51B0
-        public void PrefixLengthToSubnetMask(){} // RVA: 0x7FFE876D51C0
-    }
-
-    public class Win32_FIXED_INFO : ValueType
-    {
-    }
-
-    public class Win32_FIXED_INFO_Marshal : ValueType
-    {
-    }
-
-    public class Win32_IP_ADAPTER_ADDRESSES : ValueType
-    {
-    }
-
-    public class Win32_IP_ADAPTER_UNICAST_ADDRESS : ValueType
-    {
-    }
-
-    public class Win32_IP_ADDR_STRING : ValueType
-    {
-    }
-
-    public class Win32_MIB_IFROW : ValueType
-    {
-    }
-
-    public class Win32_SOCKADDR : ValueType
-    {
-    }
-
-    public class Win32_SOCKET_ADDRESS : ValueType
+    public class Win32IPGlobalProperties
     {
         // ── Methods ──
-        public void GetIPAddress(){} // RVA: 0x7FFE876D4D30
+        public void get_DomainName(){} // RVA: 0x7FFAF9643670
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class Win32IPGlobalPropertiesFactoryPal
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7FFAF9643690
+    }
+
+    public class Win32IPInterfaceProperties2
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF96436D0
+        public void get_UnicastAddresses(){} // RVA: 0x7FFAF9643900
+        public void Win32FromUnicast(){} // RVA: 0x7FFAF9643940
+    }
+
+    public class Win32IPv4InterfaceStatistics
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF9643BA0
+    }
+
+    public class Win32LengthFlagsUnion
+    {
+    }
+
+    public class Win32NetworkInterface
+    {
+        // ── Methods ──
+        public void GetNetworkParams(){} // RVA: 0x7FFAF96451A0
+        public void MultiByteToWideChar(){} // RVA: 0x7FFAF9645240
+        public void get_FixedInfo(){} // RVA: 0x7FFAF9645310
+        public void <get_FixedInfo>g__GetStringFromMultiByte|5_0(){} // RVA: 0x7FFAF9645980
+    }
+
+    public class Win32NetworkInterface2
+    {
+        // ── Methods ──
+        public void GetIfEntry(){} // RVA: 0x7FFAF96446E0
+        public void .ctor(){} // RVA: 0x7FFAF9644860
+        public void GetIPProperties(){} // RVA: 0x7FFAF384E9A0
+        public void GetPhysicalAddress(){} // RVA: 0x7FFAF9644FE0
+        public void get_Id(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_NetworkInterfaceType(){} // RVA: 0x7FFAF43D9080
+        public void get_OperationalStatus(){} // RVA: 0x7FFAF4593800
+    }
+
+    public class Win32NetworkInterfaceAPI
+    {
+        // ── Methods ──
+        public void GetAdaptersAddresses(){} // RVA: 0x7FFAF9643CF0 | overloaded x2
+        public void GetAllNetworkInterfaces(){} // RVA: 0x7FFAF9644460
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class Win32NetworkInterfaceFactoryPal
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7FFAF96450E0
+    }
+
+    public class Win32UnicastIPAddressInformation
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF9645CE0
+        public void get_Address(){} // RVA: 0x7FFAF9645F00
+        public void PrefixLengthToSubnetMask(){} // RVA: 0x7FFAF9645F10
+    }
+
+    public class Win32_FIXED_INFO
+    {
+    }
+
+    public class Win32_FIXED_INFO_Marshal
+    {
+    }
+
+    public class Win32_IP_ADAPTER_ADDRESSES
+    {
+    }
+
+    public class Win32_IP_ADAPTER_UNICAST_ADDRESS
+    {
+    }
+
+    public class Win32_IP_ADDR_STRING
+    {
+    }
+
+    public class Win32_MIB_IFROW
+    {
+    }
+
+    public class Win32_SOCKADDR
+    {
+    }
+
+    public class Win32_SOCKET_ADDRESS
+    {
+        // ── Methods ──
+        public void GetIPAddress(){} // RVA: 0x7FFAF9645A80
     }
 
 }

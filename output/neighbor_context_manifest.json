@@ -1,0 +1,614 @@
+{
+  "generated_at": "2026-06-05T07:26:36",
+  "source": "output\\deobfuscated_dump.json",
+  "candidate_classes": 940,
+  "selected_classes": 500,
+  "selected_hash_methods": 3382,
+  "batch_size": 5,
+  "min_methods": 5,
+  "min_named": 3,
+  "min_hash": 1,
+  "target_classes": 500,
+  "batches": [
+    {
+      "batch_id": 0,
+      "file": "neighbor_batch_000.json",
+      "class_count": 5,
+      "hash_methods": 39
+    },
+    {
+      "batch_id": 1,
+      "file": "neighbor_batch_001.json",
+      "class_count": 5,
+      "hash_methods": 41
+    },
+    {
+      "batch_id": 2,
+      "file": "neighbor_batch_002.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 3,
+      "file": "neighbor_batch_003.json",
+      "class_count": 5,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 4,
+      "file": "neighbor_batch_004.json",
+      "class_count": 5,
+      "hash_methods": 39
+    },
+    {
+      "batch_id": 5,
+      "file": "neighbor_batch_005.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 6,
+      "file": "neighbor_batch_006.json",
+      "class_count": 5,
+      "hash_methods": 30
+    },
+    {
+      "batch_id": 7,
+      "file": "neighbor_batch_007.json",
+      "class_count": 5,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 8,
+      "file": "neighbor_batch_008.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 9,
+      "file": "neighbor_batch_009.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 10,
+      "file": "neighbor_batch_010.json",
+      "class_count": 5,
+      "hash_methods": 47
+    },
+    {
+      "batch_id": 11,
+      "file": "neighbor_batch_011.json",
+      "class_count": 5,
+      "hash_methods": 49
+    },
+    {
+      "batch_id": 12,
+      "file": "neighbor_batch_012.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 13,
+      "file": "neighbor_batch_013.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 14,
+      "file": "neighbor_batch_014.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 15,
+      "file": "neighbor_batch_015.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 16,
+      "file": "neighbor_batch_016.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 17,
+      "file": "neighbor_batch_017.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 18,
+      "file": "neighbor_batch_018.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 19,
+      "file": "neighbor_batch_019.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 20,
+      "file": "neighbor_batch_020.json",
+      "class_count": 5,
+      "hash_methods": 57
+    },
+    {
+      "batch_id": 21,
+      "file": "neighbor_batch_021.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 22,
+      "file": "neighbor_batch_022.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 23,
+      "file": "neighbor_batch_023.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 24,
+      "file": "neighbor_batch_024.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 25,
+      "file": "neighbor_batch_025.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 26,
+      "file": "neighbor_batch_026.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 27,
+      "file": "neighbor_batch_027.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 28,
+      "file": "neighbor_batch_028.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 29,
+      "file": "neighbor_batch_029.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 30,
+      "file": "neighbor_batch_030.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 31,
+      "file": "neighbor_batch_031.json",
+      "class_count": 5,
+      "hash_methods": 54
+    },
+    {
+      "batch_id": 32,
+      "file": "neighbor_batch_032.json",
+      "class_count": 5,
+      "hash_methods": 36
+    },
+    {
+      "batch_id": 33,
+      "file": "neighbor_batch_033.json",
+      "class_count": 5,
+      "hash_methods": 35
+    },
+    {
+      "batch_id": 34,
+      "file": "neighbor_batch_034.json",
+      "class_count": 5,
+      "hash_methods": 29
+    },
+    {
+      "batch_id": 35,
+      "file": "neighbor_batch_035.json",
+      "class_count": 5,
+      "hash_methods": 28
+    },
+    {
+      "batch_id": 36,
+      "file": "neighbor_batch_036.json",
+      "class_count": 5,
+      "hash_methods": 27
+    },
+    {
+      "batch_id": 37,
+      "file": "neighbor_batch_037.json",
+      "class_count": 5,
+      "hash_methods": 36
+    },
+    {
+      "batch_id": 38,
+      "file": "neighbor_batch_038.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 39,
+      "file": "neighbor_batch_039.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 40,
+      "file": "neighbor_batch_040.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 41,
+      "file": "neighbor_batch_041.json",
+      "class_count": 5,
+      "hash_methods": 15
+    },
+    {
+      "batch_id": 42,
+      "file": "neighbor_batch_042.json",
+      "class_count": 5,
+      "hash_methods": 27
+    },
+    {
+      "batch_id": 43,
+      "file": "neighbor_batch_043.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 44,
+      "file": "neighbor_batch_044.json",
+      "class_count": 5,
+      "hash_methods": 34
+    },
+    {
+      "batch_id": 45,
+      "file": "neighbor_batch_045.json",
+      "class_count": 5,
+      "hash_methods": 37
+    },
+    {
+      "batch_id": 46,
+      "file": "neighbor_batch_046.json",
+      "class_count": 5,
+      "hash_methods": 16
+    },
+    {
+      "batch_id": 47,
+      "file": "neighbor_batch_047.json",
+      "class_count": 5,
+      "hash_methods": 16
+    },
+    {
+      "batch_id": 48,
+      "file": "neighbor_batch_048.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 49,
+      "file": "neighbor_batch_049.json",
+      "class_count": 5,
+      "hash_methods": 41
+    },
+    {
+      "batch_id": 50,
+      "file": "neighbor_batch_050.json",
+      "class_count": 5,
+      "hash_methods": 38
+    },
+    {
+      "batch_id": 51,
+      "file": "neighbor_batch_051.json",
+      "class_count": 5,
+      "hash_methods": 31
+    },
+    {
+      "batch_id": 52,
+      "file": "neighbor_batch_052.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 53,
+      "file": "neighbor_batch_053.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 54,
+      "file": "neighbor_batch_054.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 55,
+      "file": "neighbor_batch_055.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 56,
+      "file": "neighbor_batch_056.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 57,
+      "file": "neighbor_batch_057.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 58,
+      "file": "neighbor_batch_058.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 59,
+      "file": "neighbor_batch_059.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 60,
+      "file": "neighbor_batch_060.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 61,
+      "file": "neighbor_batch_061.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 62,
+      "file": "neighbor_batch_062.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 63,
+      "file": "neighbor_batch_063.json",
+      "class_count": 5,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 64,
+      "file": "neighbor_batch_064.json",
+      "class_count": 5,
+      "hash_methods": 41
+    },
+    {
+      "batch_id": 65,
+      "file": "neighbor_batch_065.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 66,
+      "file": "neighbor_batch_066.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 67,
+      "file": "neighbor_batch_067.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 68,
+      "file": "neighbor_batch_068.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 69,
+      "file": "neighbor_batch_069.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 70,
+      "file": "neighbor_batch_070.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 71,
+      "file": "neighbor_batch_071.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 72,
+      "file": "neighbor_batch_072.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 73,
+      "file": "neighbor_batch_073.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 74,
+      "file": "neighbor_batch_074.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 75,
+      "file": "neighbor_batch_075.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 76,
+      "file": "neighbor_batch_076.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 77,
+      "file": "neighbor_batch_077.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 78,
+      "file": "neighbor_batch_078.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 79,
+      "file": "neighbor_batch_079.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 80,
+      "file": "neighbor_batch_080.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 81,
+      "file": "neighbor_batch_081.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 82,
+      "file": "neighbor_batch_082.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 83,
+      "file": "neighbor_batch_083.json",
+      "class_count": 5,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 84,
+      "file": "neighbor_batch_084.json",
+      "class_count": 5,
+      "hash_methods": 39
+    },
+    {
+      "batch_id": 85,
+      "file": "neighbor_batch_085.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 86,
+      "file": "neighbor_batch_086.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 87,
+      "file": "neighbor_batch_087.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 88,
+      "file": "neighbor_batch_088.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 89,
+      "file": "neighbor_batch_089.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 90,
+      "file": "neighbor_batch_090.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 91,
+      "file": "neighbor_batch_091.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 92,
+      "file": "neighbor_batch_092.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 93,
+      "file": "neighbor_batch_093.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 94,
+      "file": "neighbor_batch_094.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 95,
+      "file": "neighbor_batch_095.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 96,
+      "file": "neighbor_batch_096.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 97,
+      "file": "neighbor_batch_097.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 98,
+      "file": "neighbor_batch_098.json",
+      "class_count": 5,
+      "hash_methods": 5
+    },
+    {
+      "batch_id": 99,
+      "file": "neighbor_batch_099.json",
+      "class_count": 5,
+      "hash_methods": 5
+    }
+  ]
+}

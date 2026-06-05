@@ -5,16 +5,16 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class BlockedUser : Object
+    public class BlockedUser
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C247E0
+        public void .ctor(){} // RVA: 0x7FFAF8B93A10
     }
 
-    public class BlockedUserList : DeserializableList`1
+    public class BlockedUserList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C248A0
+        public void .ctor(){} // RVA: 0x7FFAF8B93AD0
     }
 
 }

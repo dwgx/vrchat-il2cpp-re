@@ -5,11 +5,11 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.PlatformSupport.Threading
 {
-    public class ThreadedRunner : Object
+    public class ThreadedRunner
     {
         // ── Methods ──
-        public void RunShortLiving(){} // RVA: 0x7FFE8A25DB60 | overloaded x4
-        public void RunLongLiving(){} // RVA: 0x7FFE8A25DC50
+        public void RunShortLiving(){} // RVA: 0x7FFAFC2AB760 | overloaded x4
+        public void RunLongLiving(){} // RVA: 0x7FFAFC2AB850
     }
 
 }

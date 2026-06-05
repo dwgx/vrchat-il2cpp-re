@@ -5,27 +5,27 @@
 
 namespace VRC.Core
 {
-    public class BaseConfig : Object
+    public class BaseConfig
     {
         // ── Methods ──
-        public void GetValue(){} // RVA: 0x7FFE8A388150
-        public void Init(){} // RVA: 0x7FFE8A388200
-        public void HasKey(){} // RVA: 0x7FFE8A388260
-        public void GetObject(){} // RVA: 0x7FFE8A3882B0
-        public void GetString(){} // RVA: 0x7FFE8A388320
-        public void GetInt(){} // RVA: 0x7FFE8A3883B0
-        public void GetBool(){} // RVA: 0x7FFE8A388520
-        public void GetFloat(){} // RVA: 0x7FFE8A388680
-        public void GetList(){} // RVA: 0x7FFE8A388750
-        public void GetDictionary(){} // RVA: 0x7FFE8A388810
-        public void GetListOfDictionaries(){} // RVA: 0x7FFE8A3888C0
-        public void GetObjectAtPath(){} // RVA: 0x7FFE8A388C00
-        public void IsInitializedInternal(){} // RVA: 0x7FFE8A389190
-        public void IsInitialized(){} // RVA: 0x7FFE81C8DC00
-        public void FetchConfig(){} // RVA: 0x7FFE80E4F230
-        public void TryGet(){} // RVA: 0x7FFE80E32650
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE8A389270
+        public void GetValue(){} // RVA: 0x7FFAFC3DC120
+        public void Init(){} // RVA: 0x7FFAFC3DC1D0
+        public void HasKey(){} // RVA: 0x7FFAFC3DC230
+        public void GetObject(){} // RVA: 0x7FFAFC3DC280
+        public void GetString(){} // RVA: 0x7FFAFC3DC2F0
+        public void GetInt(){} // RVA: 0x7FFAFC3DC380
+        public void GetBool(){} // RVA: 0x7FFAFC3DC4F0
+        public void GetFloat(){} // RVA: 0x7FFAFC3DC650
+        public void GetList(){} // RVA: 0x7FFAFC3DC720
+        public void GetDictionary(){} // RVA: 0x7FFAFC3DC7E0
+        public void GetListOfDictionaries(){} // RVA: 0x7FFAFC3DC890
+        public void GetObjectAtPath(){} // RVA: 0x7FFAFC3DCBD0
+        public void IsInitializedInternal(){} // RVA: 0x7FFAFC3DD160
+        public void IsInitialized(){} // RVA: 0x7FFAF39B1170
+        public void FetchConfig(){} // RVA: 0x7FFAF2ADDC60
+        public void TryGet(){} // RVA: 0x7FFAF2AC1120
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFC3DD240
     }
 
 }

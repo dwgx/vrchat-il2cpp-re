@@ -5,7 +5,7 @@
 
 namespace VRC.SDKInterface
 {
-    public class SDKInterfaceProxy : Object
+    public class SDKInterfaceProxy
     {
     }
 

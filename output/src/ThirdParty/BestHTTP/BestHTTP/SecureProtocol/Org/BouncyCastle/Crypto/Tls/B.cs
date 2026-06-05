@@ -5,65 +5,56 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls
 {
-    public class BasicTlsPskIdentity : Object
+    public class BasicTlsPskIdentity : .ctor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89F778E0 | overloaded x2
-        public void SkipIdentityHint(){} // RVA: 0x7FFE810FB310
-        public void NotifyIdentityHint(){} // RVA: 0x7FFE810FB310
-        public void GetPskIdentity(){} // RVA: 0x7FFE81116380
-        public void GetPsk(){} // RVA: 0x7FFE89F77A90
+        public void .ctor(){} // RVA: 0x7FFAFBFC5510 | overloaded x2
+        public void SkipIdentityHint(){} // RVA: 0x7FFAF2D8D310
+        public void NotifyIdentityHint(){} // RVA: 0x7FFAF2D8D310
+        public void GetPskIdentity(){} // RVA: 0x7FFAF2DA8380
+        public void GetPsk(){} // RVA: 0x7FFAFBFC56C0
     }
 
-    public class BulkCipherAlgorithm : Object
+    public class BulkCipherAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ByteQueue : Object
+    public class ByteQueue
     {
-        public int DefaultCapacity;
-
         // ── Methods ──
-        public void NextTwoPow(){} // RVA: 0x7FFE89F77B40
-        public void .ctor(){} // RVA: 0x7FFE89F77D10 | overloaded x3
-        public void AddData(){} // RVA: 0x7FFE89F77D70
-        public void get_Available(){} // RVA: 0x7FFE82707EE0
-        public void CopyTo(){} // RVA: 0x7FFE89F77F00
-        public void Read(){} // RVA: 0x7FFE89F78000
-        public void ReadFrom(){} // RVA: 0x7FFE89F781E0
-        public void RemoveData(){} // RVA: 0x7FFE89F78440 | overloaded x3
-        public void Shrink(){} // RVA: 0x7FFE89F784E0
+        public void NextTwoPow(){} // RVA: 0x7FFAFBFC5770
+        public void .ctor(){} // RVA: 0x7FFAFBFC5940 | overloaded x3
+        public void AddData(){} // RVA: 0x7FFAFBFC59A0
+        public void get_Available(){} // RVA: 0x7FFAF442C3B0
+        public void CopyTo(){} // RVA: 0x7FFAFBFC5B30
+        public void Read(){} // RVA: 0x7FFAFBFC5C30
+        public void ReadFrom(){} // RVA: 0x7FFAFBFC5E10
+        public void RemoveData(){} // RVA: 0x7FFAFBFC6070 | overloaded x3
+        public void Shrink(){} // RVA: 0x7FFAFBFC6110
     }
 
-    public class ByteQueueStream : Stream
+    public class ByteQueueStream
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ByteQueue buffer; // 0x28
-        public object field_1; // 0x403
-        public object field_2; // 0x404
-        public object field_3; // 0x405
-        public object field_4; // 0x406
-        public object field_5; // 0x407
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89F786A0
-        public void get_Available(){} // RVA: 0x7FFE89F78770
-        public void get_CanRead(){} // RVA: 0x7FFE811E0850
-        public void get_CanSeek(){} // RVA: 0x7FFE810FB320
-        public void get_CanWrite(){} // RVA: 0x7FFE811E0850
-        public void Flush(){} // RVA: 0x7FFE810FB310
-        public void get_Length(){} // RVA: 0x7FFE89F78790
-        public void Peek(){} // RVA: 0x7FFE89F787D0
-        public void get_Position(){} // RVA: 0x7FFE89F78870
-        public void set_Position(){} // RVA: 0x7FFE89F788B0
-        public void Read(){} // RVA: 0x7FFE89F788F0 | overloaded x2
-        public void ReadByte(){} // RVA: 0x7FFE89F789C0
-        public void Seek(){} // RVA: 0x7FFE89F78A10
-        public void SetLength(){} // RVA: 0x7FFE89F78A50
-        public void Skip(){} // RVA: 0x7FFE89F78A90
-        public void Write(){} // RVA: 0x7FFE89F78B60 | overloaded x2
-        public void WriteByte(){} // RVA: 0x7FFE89F78B90
+        public void .ctor(){} // RVA: 0x7FFAFBFC62D0
+        public void get_Available(){} // RVA: 0x7FFAFBFC63A0
+        public void get_CanRead(){} // RVA: 0x7FFAF2E72850
+        public void get_CanSeek(){} // RVA: 0x7FFAF2D8D320
+        public void get_CanWrite(){} // RVA: 0x7FFAF2E72850
+        public void Flush(){} // RVA: 0x7FFAF2D8D310
+        public void get_Length(){} // RVA: 0x7FFAFBFC63C0
+        public void Peek(){} // RVA: 0x7FFAFBFC6400
+        public void get_Position(){} // RVA: 0x7FFAFBFC64A0
+        public void set_Position(){} // RVA: 0x7FFAFBFC64E0
+        public void Read(){} // RVA: 0x7FFAFBFC6520 | overloaded x2
+        public void ReadByte(){} // RVA: 0x7FFAFBFC65F0
+        public void Seek(){} // RVA: 0x7FFAFBFC6640
+        public void SetLength(){} // RVA: 0x7FFAFBFC6680
+        public void Skip(){} // RVA: 0x7FFAFBFC66C0
+        public void Write(){} // RVA: 0x7FFAFBFC6790 | overloaded x2
+        public void WriteByte(){} // RVA: 0x7FFAFBFC67C0
     }
 
 }

@@ -5,79 +5,79 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.Gcm
 {
-    public class BasicGcmExponentiator : Object
+    public class BasicGcmExponentiator
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFE8A011350
-        public void ExponentiateX(){} // RVA: 0x7FFE8A011400
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFAFC05EF80
+        public void ExponentiateX(){} // RVA: 0x7FFAFC05F030
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class BasicGcmMultiplier : Object
+    public class BasicGcmMultiplier
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFE8A011660
-        public void MultiplyH(){} // RVA: 0x7FFE8A011710
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFAFC05F290
+        public void MultiplyH(){} // RVA: 0x7FFAFC05F340
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class GcmUtilities : Object
+    public class GcmUtilities
     {
         // ── Methods ──
-        public void GenerateLookup(){} // RVA: 0x7FFE8A011820
-        public void OneAsBytes(){} // RVA: 0x7FFE8A011920
-        public void OneAsUints(){} // RVA: 0x7FFE8A011980
-        public void OneAsUlongs(){} // RVA: 0x7FFE8A0119E0
-        public void AsBytes(){} // RVA: 0x7FFE8A011B60 | overloaded x4
-        public void AsUints(){} // RVA: 0x7FFE8A011C60 | overloaded x2
-        public void AsUlongs(){} // RVA: 0x7FFE8A011D70 | overloaded x2
-        public void Multiply(){} // RVA: 0x7FFE8A011FF0 | overloaded x3
-        public void MultiplyP(){} // RVA: 0x7FFE8A0121D0 | overloaded x2
-        public void MultiplyP8(){} // RVA: 0x7FFE8A0123B0 | overloaded x2
-        public void ShiftRight(){} // RVA: 0x7FFE8A012550 | overloaded x2
-        public void ShiftRightN(){} // RVA: 0x7FFE8A0126A0 | overloaded x2
-        public void Xor(){} // RVA: 0x7FFE89F16F50 | overloaded x10
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE8A012E40
+        public void GenerateLookup(){} // RVA: 0x7FFAFC05F450
+        public void OneAsBytes(){} // RVA: 0x7FFAFC05F550
+        public void OneAsUints(){} // RVA: 0x7FFAFC05F5B0
+        public void OneAsUlongs(){} // RVA: 0x7FFAFC05F610
+        public void AsBytes(){} // RVA: 0x7FFAFC05F790 | overloaded x4
+        public void AsUints(){} // RVA: 0x7FFAFC05F890 | overloaded x2
+        public void AsUlongs(){} // RVA: 0x7FFAFC05F9A0 | overloaded x2
+        public void Multiply(){} // RVA: 0x7FFAFC05FC20 | overloaded x3
+        public void MultiplyP(){} // RVA: 0x7FFAFC05FE00 | overloaded x2
+        public void MultiplyP8(){} // RVA: 0x7FFAFC05FFE0 | overloaded x2
+        public void ShiftRight(){} // RVA: 0x7FFAFC060180 | overloaded x2
+        public void ShiftRightN(){} // RVA: 0x7FFAFC0602D0 | overloaded x2
+        public void Xor(){} // RVA: 0x7FFAFBF64B80 | overloaded x10
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFC060A70
     }
 
     public class IGcmExponentiator
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFE80E460A0
+        public void Init(){} // RVA: 0x7FFAF2AD4B10
         public void ExponentiateX(){}
     }
 
     public class IGcmMultiplier
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFE80E460A0
-        public void MultiplyH(){} // RVA: 0x7FFE80E460A0
+        public void Init(){} // RVA: 0x7FFAF2AD4B10
+        public void MultiplyH(){} // RVA: 0x7FFAF2AD4B10
     }
 
-    public class Tables1kGcmExponentiator : Object
+    public class Tables1kGcmExponentiator
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFE8A012FC0
-        public void ExponentiateX(){} // RVA: 0x7FFE8A0132D0
-        public void EnsureAvailable(){} // RVA: 0x7FFE8A013500
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFAFC060BF0
+        public void ExponentiateX(){} // RVA: 0x7FFAFC060F00
+        public void EnsureAvailable(){} // RVA: 0x7FFAFC061130
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Tables64kGcmMultiplier : Object
+    public class Tables64kGcmMultiplier
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFE8A023660
-        public void MultiplyH(){} // RVA: 0x7FFE8A023FF0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Init(){} // RVA: 0x7FFAFC071280
+        public void MultiplyH(){} // RVA: 0x7FFAFC071C10
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Tables8kGcmMultiplier : Object
+    public class Tables8kGcmMultiplier
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFE8A0241B0
-        public void MultiplyH(){} // RVA: 0x7FFE8A024F10
-        public void .ctor(){} // RVA: 0x7FFE8A0251F0
+        public void Init(){} // RVA: 0x7FFAFC071DD0
+        public void MultiplyH(){} // RVA: 0x7FFAFC072B30
+        public void .ctor(){} // RVA: 0x7FFAFC072E10
     }
 
 }

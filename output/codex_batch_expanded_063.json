@@ -1,0 +1,164 @@
+[
+  {
+    "class": "PlayercontrolPathInternal_241A_BAE7",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_control",
+      "SetupInputControl",
+      "get_controlPathInternal"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C29"
+    ]
+  },
+  {
+    "class": "PoseAV2Update",
+    "parent": "",
+    "namespace": "VRC.Networking.Pose",
+    "readable_methods": [
+      "SampleProfilerBegin",
+      "CaptureProfilerSample",
+      "BeginProfilerSection"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E2E"
+    ]
+  },
+  {
+    "class": "VoicePriorityManagerSibling_62A2",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Shutdown",
+      "Register",
+      "Unregister"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1C3"
+    ]
+  },
+  {
+    "class": "PlayerNetSibling_FEC9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "CanSerialize32Bit",
+      "ProcessNetworkSynchronizationParameter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_60B",
+      "m_F24",
+      "m_E4E"
+    ]
+  },
+  {
+    "class": "UICompareEquals_FF7A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "CompareTo"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2FD",
+      "m_D77",
+      "m_EB5",
+      "m_CA4",
+      "m_CAE",
+      "m_453",
+      "m_197",
+      "m_BB0"
+    ]
+  },
+  {
+    "class": "RequiresStoring_5E04",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_RequiresStoring"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B63",
+      "m_B5E",
+      "m_289",
+      "m_7C2",
+      "m_679",
+      "m_B09",
+      "m_E74",
+      "m_A7C",
+      "m_5A2",
+      "m_82C",
+      "m_B33"
+    ]
+  },
+  {
+    "class": "keepWaiting_AA91",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_keepWaiting"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4A1",
+      "m_FB7",
+      "m_293",
+      "m_F06",
+      "m_B5E",
+      "m_1D0",
+      "m_326",
+      "m_FB9",
+      "m_FF6",
+      "m_60E",
+      "m_CA8"
+    ]
+  },
+  {
+    "class": "BaseClass9Impl_53D9_3656",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "CopyReferenceIntoArray",
+      "set_textureScale",
+      "Updateenabled"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3F5"
+    ]
+  },
+  {
+    "class": "LifecycleComponentSibling_FD32Sibling_CA2D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_535"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_438B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C30"
+    ]
+  }
+]

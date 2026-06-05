@@ -5,64 +5,64 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class MatchmakingAdminSnapshot : Object
+    public class MatchmakingAdminSnapshot
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2CAF0
+        public void .ctor(){} // RVA: 0x7FFAF8B9BD20
     }
 
-    public class MatchmakingAdminSnapshotCandidate : Object
+    public class MatchmakingAdminSnapshotCandidate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2CCA0
+        public void .ctor(){} // RVA: 0x7FFAF8B9BED0
     }
 
-    public class MatchmakingAdminSnapshotCandidateList : DeserializableList`1
+    public class MatchmakingAdminSnapshotCandidateList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2CF70
+        public void .ctor(){} // RVA: 0x7FFAF8B9C1A0
     }
 
-    public class MatchmakingBrowseResult : Object
+    public class MatchmakingBrowseResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2D250
+        public void .ctor(){} // RVA: 0x7FFAF8B9C480
     }
 
-    public class MatchmakingEnqueueResult : Object
+    public class MatchmakingEnqueueResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2DA70
+        public void .ctor(){} // RVA: 0x7FFAF8B9CCA0
     }
 
-    public class MatchmakingEnqueueResultAndRoom : Object
+    public class MatchmakingEnqueueResultAndRoom
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2DFD0
+        public void .ctor(){} // RVA: 0x7FFAF8B9D200
     }
 
-    public class MatchmakingEnqueuedUser : Object
+    public class MatchmakingEnqueuedUser
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2D4A0
+        public void .ctor(){} // RVA: 0x7FFAF8B9C6D0
     }
 
-    public class MatchmakingEnqueuedUserList : DeserializableList`1
+    public class MatchmakingEnqueuedUserList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2D790
+        public void .ctor(){} // RVA: 0x7FFAF8B9C9C0
     }
 
-    public class MatchmakingStats : Object
+    public class MatchmakingStats
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2E220
+        public void .ctor(){} // RVA: 0x7FFAF8B9D450
     }
 
-    public class MicrophoneAvailabilityState : Object
+    public class MicrophoneAvailabilityState
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2E4C0
+        public void .ctor(){} // RVA: 0x7FFAF8B9D6F0
     }
 
 }

@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.FxResources.Microsoft.Extensions.Logging.Abstractions
 {
-    public class SR : Object
+    public class SR
     {
     }
 

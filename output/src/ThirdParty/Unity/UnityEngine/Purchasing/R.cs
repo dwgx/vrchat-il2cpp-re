@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class ReceiptParserException : Exception
+    public class ReceiptParserException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87D8AA40 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF9CFA8A0 | overloaded x2
     }
 
 }

@@ -1,0 +1,54 @@
+[
+  {
+    "namespace": "VRC.UI.Elements.Menus",
+    "class": "HeaderElementContentView`1",
+    "parent": "",
+    "known_methods": [
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_11E",
+      "m_353",
+      "m_5CC",
+      "m_357",
+      "m_CAD"
+    ],
+    "all_method_count": 6
+  },
+  {
+    "namespace": "VRC.UI.Elements.Menus",
+    "class": "HeaderElementContentView`1",
+    "parent": "",
+    "known_methods": [
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_11E",
+      "m_353",
+      "m_5CC",
+      "m_357",
+      "m_CAD"
+    ],
+    "all_method_count": 6
+  },
+  {
+    "namespace": "VRC.RemoteLogging",
+    "class": "VRCSentryBuildTimeConfiguration",
+    "parent": "",
+    "known_methods": [
+      "ProcessCollider",
+      "ConfigureSentryOptions",
+      "ConfigureSentryOptionsVariant",
+      "ApplySettings",
+      "Configure"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A88",
+      "m_3B9"
+    ],
+    "all_method_count": 9
+  }
+]

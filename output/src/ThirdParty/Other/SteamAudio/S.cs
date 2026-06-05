@@ -5,394 +5,383 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class SOFAFile : ScriptableObject
+    public class SOFAFile
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB8200
+        public void .ctor(){} // RVA: 0x7FFAF8F29130
     }
 
-    public class Scene : Object
+    public class Scene
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB6810 | overloaded x3
-        public void Finalize(){} // RVA: 0x7FFE86FB6900
-        public void Release(){} // RVA: 0x7FFE86FB6940
-        public void Get(){} // RVA: 0x7FFE810FE7C0
-        public void Save(){} // RVA: 0x7FFE86FB6A10
-        public void SaveOBJ(){} // RVA: 0x7FFE86FB6B20
-        public void NotifyAddObject(){} // RVA: 0x7FFE86FB6BD0
-        public void NotifyRemoveObject(){} // RVA: 0x7FFE86FB6BE0
-        public void GetNumObjects(){} // RVA: 0x7FFE8151D690
-        public void Commit(){} // RVA: 0x7FFE86FB6BF0
+        public void .ctor(){} // RVA: 0x7FFAF8F27740 | overloaded x3
+        public void Finalize(){} // RVA: 0x7FFAF8F27830
+        public void Release(){} // RVA: 0x7FFAF8F27870
+        public void Get(){} // RVA: 0x7FFAF2D907C0
+        public void Save(){} // RVA: 0x7FFAF8F27940
+        public void SaveOBJ(){} // RVA: 0x7FFAF8F27A50
+        public void NotifyAddObject(){} // RVA: 0x7FFAF8F27B00
+        public void NotifyRemoveObject(){} // RVA: 0x7FFAF8F27B10
+        public void GetNumObjects(){} // RVA: 0x7FFAF3210030
+        public void Commit(){} // RVA: 0x7FFAF8F27B20
     }
 
-    public class SceneSettings : ValueType
+    public class SceneSettings
     {
     }
 
-    public class SerializedData : ScriptableObject
-    {
-        // ── Methods ──
-        public void PromptForNewAsset(){} // RVA: 0x7FFE813240E0
-        public void .ctor(){} // RVA: 0x7FFE81345B60
-    }
-
-    public class SerializedObject : Object
+    public class SerializedData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB6EC0 | overloaded x3
-        public void Finalize(){} // RVA: 0x7FFE86FB6F60
-        public void Release(){} // RVA: 0x7FFE86FB6FA0
-        public void Get(){} // RVA: 0x7FFE81116380
-        public void GetSize(){} // RVA: 0x7FFE86FB7080
-        public void GetData(){} // RVA: 0x7FFE86FB7100
-        public void WriteToFile(){} // RVA: 0x7FFE86FB7180
-        public void FlushWrite(){} // RVA: 0x7FFE810FB310
-        public void FlushAllWrites(){} // RVA: 0x7FFE86FB7470
+        public void PromptForNewAsset(){} // RVA: 0x7FFAF2FC9240
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class SerializedObjectSettings : ValueType
-    {
-    }
-
-    public class SimulationInputs : ValueType
-    {
-    }
-
-    public class SimulationOutputs : ValueType
-    {
-    }
-
-    public class SimulationSettings : ValueType
-    {
-    }
-
-    public class SimulationSharedInputs : ValueType
-    {
-    }
-
-    public class Simulator : Object
+    public class SerializedObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB7740 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFE86FB77E0
-        public void Release(){} // RVA: 0x7FFE86FB7820
-        public void Get(){} // RVA: 0x7FFE81116380
-        public void SetScene(){} // RVA: 0x7FFE86FB78A0
-        public void AddProbeBatch(){} // RVA: 0x7FFE86FB7940
-        public void RemoveProbeBatch(){} // RVA: 0x7FFE86FB79E0
-        public void SetSharedInputs(){} // RVA: 0x7FFE86FB7A80
-        public void Commit(){} // RVA: 0x7FFE86FB7AA0
-        public void RunDirect(){} // RVA: 0x7FFE86FB7B20
-        public void RunReflections(){} // RVA: 0x7FFE86FB7BA0
-        public void RunPathing(){} // RVA: 0x7FFE86FB7C20
+        public void .ctor(){} // RVA: 0x7FFAF8F27DF0 | overloaded x3
+        public void Finalize(){} // RVA: 0x7FFAF8F27E90
+        public void Release(){} // RVA: 0x7FFAF8F27ED0
+        public void Get(){} // RVA: 0x7FFAF2DA8380
+        public void GetSize(){} // RVA: 0x7FFAF8F27FB0
+        public void GetData(){} // RVA: 0x7FFAF8F28030
+        public void WriteToFile(){} // RVA: 0x7FFAF8F280B0
+        public void FlushWrite(){} // RVA: 0x7FFAF2D8D310
+        public void FlushAllWrites(){} // RVA: 0x7FFAF8F283A0
     }
 
-    public class Source : Object
+    public class SerializedObjectSettings
+    {
+    }
+
+    public class SimulationInputs
+    {
+    }
+
+    public class SimulationOutputs
+    {
+    }
+
+    public class SimulationSettings
+    {
+    }
+
+    public class SimulationSharedInputs
+    {
+    }
+
+    public class Simulator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB7E00 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFE86FB7EA0
-        public void Release(){} // RVA: 0x7FFE86FB7EE0
-        public void Get(){} // RVA: 0x7FFE81116380
-        public void AddToSimulator(){} // RVA: 0x7FFE86FB7F60
-        public void RemoveFromSimulator(){} // RVA: 0x7FFE86FB8000
-        public void SetInputs(){} // RVA: 0x7FFE86FB80A0
-        public void GetOutputs(){} // RVA: 0x7FFE86FB80C0
+        public void .ctor(){} // RVA: 0x7FFAF8F28670 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFAF8F28710
+        public void Release(){} // RVA: 0x7FFAF8F28750
+        public void Get(){} // RVA: 0x7FFAF2DA8380
+        public void SetScene(){} // RVA: 0x7FFAF8F287D0
+        public void AddProbeBatch(){} // RVA: 0x7FFAF8F28870
+        public void RemoveProbeBatch(){} // RVA: 0x7FFAF8F28910
+        public void SetSharedInputs(){} // RVA: 0x7FFAF8F289B0
+        public void Commit(){} // RVA: 0x7FFAF8F289D0
+        public void RunDirect(){} // RVA: 0x7FFAF8F28A50
+        public void RunReflections(){} // RVA: 0x7FFAF8F28AD0
+        public void RunPathing(){} // RVA: 0x7FFAF8F28B50
     }
 
-    public class SourceSettings : ValueType
-    {
-    }
-
-    public class Sphere : ValueType
-    {
-    }
-
-    public class SteamAudioAmbisonicSource : MonoBehaviour
+    public class Source
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x7FFE86FC0280
-        public void Start(){} // RVA: 0x7FFE86FC03C0
-        public void OnDestroy(){} // RVA: 0x7FFE86FC03F0
-        public void OnEnable(){} // RVA: 0x7FFE86FC03C0
-        public void Update(){} // RVA: 0x7FFE86FC03C0
-        public void .ctor(){} // RVA: 0x7FFE81155060
+        public void .ctor(){} // RVA: 0x7FFAF8F28D30 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFAF8F28DD0
+        public void Release(){} // RVA: 0x7FFAF8F28E10
+        public void Get(){} // RVA: 0x7FFAF2DA8380
+        public void AddToSimulator(){} // RVA: 0x7FFAF8F28E90
+        public void RemoveFromSimulator(){} // RVA: 0x7FFAF8F28F30
+        public void SetInputs(){} // RVA: 0x7FFAF8F28FD0
+        public void GetOutputs(){} // RVA: 0x7FFAF8F28FF0
     }
 
-    public class SteamAudioBakedListener : MonoBehaviour
+    public class SourceSettings
     {
-        // ── Methods ──
-        public void GetTotalDataSize(){} // RVA: 0x7FFE81156CD0
-        public void GetProbeDataSizes(){} // RVA: 0x7FFE8143BA80
-        public void GetSizeForProbeBatch(){} // RVA: 0x7FFE86FC0410
-        public void GetProbeBatchesUsed(){} // RVA: 0x7FFE86FC0440
-        public void GetBakedDataIdentifier(){} // RVA: 0x7FFE86FC0470
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFE86FC0590
-        public void UpdateBakedDataStatistics(){} // RVA: 0x7FFE86FC0B60
-        public void BeginBake(){} // RVA: 0x7FFE86FC0CC0
-        public void CacheIdentifier(){} // RVA: 0x7FFE86FC1390
-        public void CacheProbeBatchesUsed(){} // RVA: 0x7FFE86FC13C0
-        public void .ctor(){} // RVA: 0x7FFE86FC1480
     }
 
-    public class SteamAudioBakedSource : MonoBehaviour
+    public class Sphere
     {
-        // ── Methods ──
-        public void GetTotalDataSize(){} // RVA: 0x7FFE81156CD0
-        public void GetProbeDataSizes(){} // RVA: 0x7FFE8143BA80
-        public void GetSizeForProbeBatch(){} // RVA: 0x7FFE86FC0410
-        public void GetProbeBatchesUsed(){} // RVA: 0x7FFE86FC14F0
-        public void GetBakedDataIdentifier(){} // RVA: 0x7FFE86FC1520
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFE86FC1640
-        public void UpdateBakedDataStatistics(){} // RVA: 0x7FFE86FC1C10
-        public void BeginBake(){} // RVA: 0x7FFE86FC1D70
-        public void CacheIdentifier(){} // RVA: 0x7FFE86FC2440
-        public void CacheProbeBatchesUsed(){} // RVA: 0x7FFE86FC2470
-        public void .ctor(){} // RVA: 0x7FFE86FC1480
     }
 
-    public class SteamAudioDynamicObject : MonoBehaviour
+    public class SteamAudioAmbisonicSource
     {
         // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x7FFE86FC2530
-        public void OnEnable(){} // RVA: 0x7FFE86FC2560
-        public void OnDisable(){} // RVA: 0x7FFE86FC2610
-        public void Update(){} // RVA: 0x7FFE86FC2730
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void Awake(){} // RVA: 0x7FFAF8F311D0
+        public void Start(){} // RVA: 0x7FFAF8F31310
+        public void OnDestroy(){} // RVA: 0x7FFAF8F31340
+        public void OnEnable(){} // RVA: 0x7FFAF8F31310
+        public void Update(){} // RVA: 0x7FFAF8F31310
+        public void .ctor(){} // RVA: 0x7FFAF2DE7060
     }
 
-    public class SteamAudioGeometry : MonoBehaviour
+    public class SteamAudioBakedListener
     {
         // ── Methods ──
-        public void GetNumVertices(){} // RVA: 0x7FFE86FC2C30
-        public void GetNumTriangles(){} // RVA: 0x7FFE86FC2E30
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void GetTotalDataSize(){} // RVA: 0x7FFAF2DE8CD0
+        public void GetProbeDataSizes(){} // RVA: 0x7FFAF2F476A0
+        public void GetSizeForProbeBatch(){} // RVA: 0x7FFAF8F31360
+        public void GetProbeBatchesUsed(){} // RVA: 0x7FFAF8F31390
+        public void GetBakedDataIdentifier(){} // RVA: 0x7FFAF8F313C0
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAF8F314E0
+        public void UpdateBakedDataStatistics(){} // RVA: 0x7FFAF8F31AB0
+        public void BeginBake(){} // RVA: 0x7FFAF8F31C10
+        public void CacheIdentifier(){} // RVA: 0x7FFAF8F322E0
+        public void CacheProbeBatchesUsed(){} // RVA: 0x7FFAF8F32310
+        public void .ctor(){} // RVA: 0x7FFAF8F323D0
     }
 
-    public class SteamAudioListener : MonoBehaviour
+    public class SteamAudioBakedSource
     {
         // ── Methods ──
-        public void GetTotalDataSize(){} // RVA: 0x7FFE8119C080
-        public void GetProbeDataSizes(){} // RVA: 0x7FFE81176730
-        public void GetSizeForProbeBatch(){} // RVA: 0x7FFE86FC3030
-        public void GetProbeBatchesUsed(){} // RVA: 0x7FFE86FC3060
-        public void Awake(){} // RVA: 0x7FFE86FC3090
-        public void Reinitialize(){} // RVA: 0x7FFE86FC30A0
-        public void OnDestroy(){} // RVA: 0x7FFE86FC3340
-        public void Start(){} // RVA: 0x7FFE86FC3360
-        public void OnEnable(){} // RVA: 0x7FFE86FC33D0
-        public void OnDisable(){} // RVA: 0x7FFE86FC3570
-        public void Update(){} // RVA: 0x7FFE86FC3360
-        public void GetBakedDataIdentifier(){} // RVA: 0x7FFE86FC3700
-        public void SetInputs(){} // RVA: 0x7FFE86FC3730
-        public void UpdateOutputs(){} // RVA: 0x7FFE810FB310
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFE86FC3BD0
-        public void UpdateBakedDataStatistics(){} // RVA: 0x7FFE86FC4040
-        public void BeginBake(){} // RVA: 0x7FFE86FC41A0
-        public void CacheIdentifier(){} // RVA: 0x7FFE86FC4850
-        public void CacheProbeBatchesUsed(){} // RVA: 0x7FFE86FC4860
-        public void .ctor(){} // RVA: 0x7FFE86FC4920
+        public void GetTotalDataSize(){} // RVA: 0x7FFAF2DE8CD0
+        public void GetProbeDataSizes(){} // RVA: 0x7FFAF2F476A0
+        public void GetSizeForProbeBatch(){} // RVA: 0x7FFAF8F31360
+        public void GetProbeBatchesUsed(){} // RVA: 0x7FFAF8F32440
+        public void GetBakedDataIdentifier(){} // RVA: 0x7FFAF8F32470
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAF8F32590
+        public void UpdateBakedDataStatistics(){} // RVA: 0x7FFAF8F32B60
+        public void BeginBake(){} // RVA: 0x7FFAF8F32CC0
+        public void CacheIdentifier(){} // RVA: 0x7FFAF8F33390
+        public void CacheProbeBatchesUsed(){} // RVA: 0x7FFAF8F333C0
+        public void .ctor(){} // RVA: 0x7FFAF8F323D0
     }
 
-    public class SteamAudioManager : MonoBehaviour
+    public class SteamAudioDynamicObject
     {
-        public int currentHRTF; // 0x20
-        public string[] hrtfNames; // 0x28
-        public int mNumCPUCores; // 0x30
-        public SteamAudio.AudioSettings mAudioSettings; // 0x34
-        public SteamAudio.Context mContext; // 0x40
-        public SteamAudio.HRTF[] mHRTFs; // 0x48
-        public SteamAudio.EmbreeDevice mEmbreeDevice; // 0x50
-        public bool mEmbreeInitFailed; // 0x58
-        public SteamAudio.OpenCLDevice mOpenCLDevice; // 0x60
-        public bool mOpenCLInitFailed; // 0x68
-
         // ── Methods ──
-        public void get_Singleton(){} // RVA: 0x7FFE86FC4980
-        public void get_Context(){} // RVA: 0x7FFE86FC49C0
-        public void get_CurrentHRTF(){} // RVA: 0x7FFE86FC4A10
-        public void get_EmbreeDevice(){} // RVA: 0x7FFE86FC4A80
-        public void get_OpenCLDevice(){} // RVA: 0x7FFE86FC4AE0
-        public void get_RadeonRaysDevice(){} // RVA: 0x7FFE86FC4B40
-        public void get_TrueAudioNextDevice(){} // RVA: 0x7FFE86FC4BA0
-        public void get_CurrentScene(){} // RVA: 0x7FFE86FC4C00
-        public void get_Simulator(){} // RVA: 0x7FFE86FC4C50
-        public void get_AudioSettings(){} // RVA: 0x7FFE86FC4CA0
-        public void GetAudioEngineState(){} // RVA: 0x7FFE86FC4CF0
-        public void GetSteamAudioListener(){} // RVA: 0x7FFE86FC4D40
-        public void NumThreadsForCPUCorePercentage(){} // RVA: 0x7FFE86FC4E60
-        public void GetSceneType(){} // RVA: 0x7FFE86FC4E90
-        public void GetReflectionEffectType(){} // RVA: 0x7FFE86FC4F30
-        public void GetPerspectiveCorrection(){} // RVA: 0x7FFE86FC4FA0
-        public void GetMainCamera(){} // RVA: 0x7FFE8181E3D0
-        public void GetSimulationSettings(){} // RVA: 0x7FFE86FC54D0
-        public void OnApplicationStart(){} // RVA: 0x7FFE86FC5900
-        public void LoadHRTFFromFile(){} // RVA: 0x7FFE86FC6720
-        public void UnloadHRTFByName(){} // RVA: 0x7FFE86FC68F0
-        public void SetHRTFAtIndex(){} // RVA: 0x7FFE86FC6C10
-        public void OnApplicationQuit(){} // RVA: 0x7FFE86FC6CF0
-        public void OnSceneLoaded(){} // RVA: 0x7FFE86FC6D40
-        public void OnSceneUnloaded(){} // RVA: 0x7FFE86FC6EA0
-        public void NotifyAudioListenerChanged(){} // RVA: 0x7FFE86FC6EB0
-        public void NotifyAudioListenerChangedTo(){} // RVA: 0x7FFE86FC6F00
-        public void NotifyMainCameraChanged(){} // RVA: 0x7FFE86FC7120
-        public void ScheduleCommitScene(){} // RVA: 0x7FFE86FC71C0
-        public void LateUpdate(){} // RVA: 0x7FFE86FC7210
-        public void RunSimulationInternal(){} // RVA: 0x7FFE86FC82A0
-        public void RunSimulation(){} // RVA: 0x7FFE86FC83C0
-        public void Initialize(){} // RVA: 0x7FFE86FC8420
-        public void ShutDown(){} // RVA: 0x7FFE86FC85C0
-        public void Reinitialize(){} // RVA: 0x7FFE86FC8CF0
-        public void AddSource(){} // RVA: 0x7FFE86FC9DF0
-        public void RemoveSource(){} // RVA: 0x7FFE86FC9E80
-        public void AddListener(){} // RVA: 0x7FFE86FC9F00
-        public void RemoveListener(){} // RVA: 0x7FFE86FC9F90
-        public void ExportDynamicObject(){} // RVA: 0x7FFE86FCA010
-        public void ExportDynamicObjectsInArray(){} // RVA: 0x7FFE86FCA2F0
-        public void GetDynamicObjectsInScene(){} // RVA: 0x7FFE86FCA5C0
-        public void LoadScene(){} // RVA: 0x7FFE86FCA720
-        public void LoadDynamicObject(){} // RVA: 0x7FFE86FCA7E0
-        public void UnloadDynamicObject(){} // RVA: 0x7FFE86FCADB0
-        public void GetGameObjectsForExport(){} // RVA: 0x7FFE86FCAFC0
-        public void GetNumVertices(){} // RVA: 0x7FFE86FCB7B0
-        public void GetNumTriangles(){} // RVA: 0x7FFE86FCBCE0
-        public void ClosestHit(){} // RVA: 0x7FFE86FCC220
-        public void AnyHit(){} // RVA: 0x7FFE86FCC590
-        public void AutoInitialize(){} // RVA: 0x7FFE86FCC7B0
-        public void FirstAutoInitialize(){} // RVA: 0x7FFE86FCC800
-        public void ExportScene(){} // RVA: 0x7FFE86FCC860
-        public void Export(){} // RVA: 0x7FFE86FCCC10
-        public void CreateScene(){} // RVA: 0x7FFE86FCD0E0
-        public void Load(){} // RVA: 0x7FFE86FCD500
-        public void RemoveAllDynamicObjects(){} // RVA: 0x7FFE86FCD580
-        public void RemoveAllAdditiveScenes(){} // RVA: 0x7FFE86FCDB10
-        public void GetMaterialBufferForTransform(){} // RVA: 0x7FFE86FCDC40
-        public void GetStaticGameObjectsForExport(){} // RVA: 0x7FFE86FCDFA0
-        public void GetDynamicGameObjectsForExport(){} // RVA: 0x7FFE86FCE0C0
-        public void IsDynamicSubObject(){} // RVA: 0x7FFE86FCE160
-        public void IsActiveInHierarchy(){} // RVA: 0x7FFE86FCE320
-        public void GetGeometryAndMaterialBuffers(){} // RVA: 0x7FFE86FCE4F0
-        public void GetDynamicObjectInParent(){} // RVA: 0x7FFE86FCEB00
-        public void GetVertices(){} // RVA: 0x7FFE86FCED40
-        public void GetTriangles(){} // RVA: 0x7FFE86FCFBA0
-        public void FixupTriangleIndices(){} // RVA: 0x7FFE86FD0260
-        public void GetTerrainSimplificationLevel(){} // RVA: 0x7FFE86FD02D0
-        public void GetMaterialMapping(){} // RVA: 0x7FFE86FD0330
-        public void GetMaterialForGameObject(){} // RVA: 0x7FFE86FD0B90
-        public void GetOBJFileName(){} // RVA: 0x7FFE86FD1010 | overloaded x2
-        public void GetDataAsset(){} // RVA: 0x7FFE86FD14E0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE86FD1500
+        public void OnDestroy(){} // RVA: 0x7FFAF8F33480
+        public void OnEnable(){} // RVA: 0x7FFAF8F334B0
+        public void OnDisable(){} // RVA: 0x7FFAF8F33560
+        public void Update(){} // RVA: 0x7FFAF8F33680
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
-    public class SteamAudioMaterial : ScriptableObject
+    public class SteamAudioGeometry
     {
         // ── Methods ──
-        public void GetMaterial(){} // RVA: 0x7FFE86FD1840
-        public void .ctor(){} // RVA: 0x7FFE86FD1880
+        public void GetNumVertices(){} // RVA: 0x7FFAF8F33B80
+        public void GetNumTriangles(){} // RVA: 0x7FFAF8F33D80
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
-    public class SteamAudioProbeBatch : MonoBehaviour
+    public class SteamAudioListener
     {
         // ── Methods ──
-        public void GetAsset(){} // RVA: 0x7FFE86FD18C0
-        public void GetNumProbes(){} // RVA: 0x7FFE86FD1AC0
-        public void GetNumLayers(){} // RVA: 0x7FFE86FD1AE0
-        public void GetProbeBatch(){} // RVA: 0x7FFE86FD1B30
-        public void Awake(){} // RVA: 0x7FFE86FD1B50
-        public void OnDestroy(){} // RVA: 0x7FFE86FD1D10
-        public void OnEnable(){} // RVA: 0x7FFE86FD1D30
-        public void OnDisable(){} // RVA: 0x7FFE86FD1E20
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFE86FD1F50
-        public void GenerateProbes(){} // RVA: 0x7FFE86FD2430
-        public void DeleteBakedDataForIdentifier(){} // RVA: 0x7FFE86FD31D0
-        public void GetSizeForLayer(){} // RVA: 0x7FFE86FD3670
-        public void GetInfoForLayer(){} // RVA: 0x7FFE86FD3820
-        public void ResetLayers(){} // RVA: 0x7FFE86FD38C0
-        public void AddLayer(){} // RVA: 0x7FFE86FD3930
-        public void RemoveLayer(){} // RVA: 0x7FFE86FD3A60
-        public void AddOrUpdateLayer(){} // RVA: 0x7FFE86FD3C90
-        public void UpdateGameObjectStatistics(){} // RVA: 0x7FFE86FD3F70
-        public void GetBakedDataIdentifier(){} // RVA: 0x7FFE86FD4060
-        public void BeginBake(){} // RVA: 0x7FFE86FD40A0
-        public void .ctor(){} // RVA: 0x7FFE86FD4630
+        public void GetTotalDataSize(){} // RVA: 0x7FFAF2E2E080
+        public void GetProbeDataSizes(){} // RVA: 0x7FFAF2E08730
+        public void GetSizeForProbeBatch(){} // RVA: 0x7FFAF8F33F80
+        public void GetProbeBatchesUsed(){} // RVA: 0x7FFAF8F33FB0
+        public void Awake(){} // RVA: 0x7FFAF8F33FE0
+        public void Reinitialize(){} // RVA: 0x7FFAF8F33FF0
+        public void OnDestroy(){} // RVA: 0x7FFAF8F34290
+        public void Start(){} // RVA: 0x7FFAF8F342B0
+        public void OnEnable(){} // RVA: 0x7FFAF8F34320
+        public void OnDisable(){} // RVA: 0x7FFAF8F344C0
+        public void Update(){} // RVA: 0x7FFAF8F342B0
+        public void GetBakedDataIdentifier(){} // RVA: 0x7FFAF8F34650
+        public void SetInputs(){} // RVA: 0x7FFAF8F34680
+        public void UpdateOutputs(){} // RVA: 0x7FFAF2D8D310
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAF8F34B20
+        public void UpdateBakedDataStatistics(){} // RVA: 0x7FFAF8F34F90
+        public void BeginBake(){} // RVA: 0x7FFAF8F350F0
+        public void CacheIdentifier(){} // RVA: 0x7FFAF8F357A0
+        public void CacheProbeBatchesUsed(){} // RVA: 0x7FFAF8F357B0
+        public void .ctor(){} // RVA: 0x7FFAF8F35870
     }
 
-    public class SteamAudioReverbData : ScriptableObject
+    public class SteamAudioManager
     {
+        public object _singleton;
+
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFE86FD4730
-        public void GetImpulseResponseSize(){} // RVA: 0x7FFE86FD4890
-        public void GetEnergyFieldData(){} // RVA: 0x7FFE86FD48B0
-        public void GetEnergyFieldSize(){} // RVA: 0x7FFE86FD48F0
-        public void GetImpulseResponseData(){} // RVA: 0x7FFE86FD4910
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void get_Singleton(){} // RVA: 0x7FFAF8F358D0
+        public void get_Context(){} // RVA: 0x7FFAF8F35910
+        public void get_CurrentHRTF(){} // RVA: 0x7FFAF8F35960
+        public void get_EmbreeDevice(){} // RVA: 0x7FFAF8F359D0
+        public void get_OpenCLDevice(){} // RVA: 0x7FFAF8F35A30
+        public void get_RadeonRaysDevice(){} // RVA: 0x7FFAF8F35A90
+        public void get_TrueAudioNextDevice(){} // RVA: 0x7FFAF8F35AF0
+        public void get_CurrentScene(){} // RVA: 0x7FFAF8F35B50
+        public void get_Simulator(){} // RVA: 0x7FFAF8F35BA0
+        public void get_AudioSettings(){} // RVA: 0x7FFAF8F35BF0
+        public void GetAudioEngineState(){} // RVA: 0x7FFAF8F35C40
+        public void GetSteamAudioListener(){} // RVA: 0x7FFAF8F35C90
+        public void NumThreadsForCPUCorePercentage(){} // RVA: 0x7FFAF8F35DB0
+        public void GetSceneType(){} // RVA: 0x7FFAF8F35DE0
+        public void GetReflectionEffectType(){} // RVA: 0x7FFAF8F35E80
+        public void GetPerspectiveCorrection(){} // RVA: 0x7FFAF8F35EF0
+        public void GetMainCamera(){} // RVA: 0x7FFAF35402E0
+        public void GetSimulationSettings(){} // RVA: 0x7FFAF8F36420
+        public void OnApplicationStart(){} // RVA: 0x7FFAF8F36850
+        public void LoadHRTFFromFile(){} // RVA: 0x7FFAF8F37670
+        public void UnloadHRTFByName(){} // RVA: 0x7FFAF8F37840
+        public void SetHRTFAtIndex(){} // RVA: 0x7FFAF8F37B60
+        public void OnApplicationQuit(){} // RVA: 0x7FFAF8F37C40
+        public void OnSceneLoaded(){} // RVA: 0x7FFAF8F37C90
+        public void OnSceneUnloaded(){} // RVA: 0x7FFAF8F37DF0
+        public void NotifyAudioListenerChanged(){} // RVA: 0x7FFAF8F37E00
+        public void NotifyAudioListenerChangedTo(){} // RVA: 0x7FFAF8F37E50
+        public void NotifyMainCameraChanged(){} // RVA: 0x7FFAF8F38070
+        public void ScheduleCommitScene(){} // RVA: 0x7FFAF8F38110
+        public void LateUpdate(){} // RVA: 0x7FFAF8F38160
+        public void RunSimulationInternal(){} // RVA: 0x7FFAF8F391F0
+        public void RunSimulation(){} // RVA: 0x7FFAF8F39310
+        public void Initialize(){} // RVA: 0x7FFAF8F39370
+        public void ShutDown(){} // RVA: 0x7FFAF8F39510
+        public void Reinitialize(){} // RVA: 0x7FFAF8F39C40
+        public void AddSource(){} // RVA: 0x7FFAF8F3AD40
+        public void RemoveSource(){} // RVA: 0x7FFAF8F3ADD0
+        public void AddListener(){} // RVA: 0x7FFAF8F3AE50
+        public void RemoveListener(){} // RVA: 0x7FFAF8F3AEE0
+        public void ExportDynamicObject(){} // RVA: 0x7FFAF8F3AF60
+        public void ExportDynamicObjectsInArray(){} // RVA: 0x7FFAF8F3B240
+        public void GetDynamicObjectsInScene(){} // RVA: 0x7FFAF8F3B510
+        public void LoadScene(){} // RVA: 0x7FFAF8F3B670
+        public void LoadDynamicObject(){} // RVA: 0x7FFAF8F3B730
+        public void UnloadDynamicObject(){} // RVA: 0x7FFAF8F3BD00
+        public void GetGameObjectsForExport(){} // RVA: 0x7FFAF8F3BF10
+        public void GetNumVertices(){} // RVA: 0x7FFAF8F3C700
+        public void GetNumTriangles(){} // RVA: 0x7FFAF8F3CC30
+        public void ClosestHit(){} // RVA: 0x7FFAF8F3D170
+        public void AnyHit(){} // RVA: 0x7FFAF8F3D4E0
+        public void AutoInitialize(){} // RVA: 0x7FFAF8F3D700
+        public void FirstAutoInitialize(){} // RVA: 0x7FFAF8F3D750
+        public void ExportScene(){} // RVA: 0x7FFAF8F3D7B0
+        public void Export(){} // RVA: 0x7FFAF8F3DB60
+        public void CreateScene(){} // RVA: 0x7FFAF8F3E030
+        public void Load(){} // RVA: 0x7FFAF8F3E450
+        public void RemoveAllDynamicObjects(){} // RVA: 0x7FFAF8F3E4D0
+        public void RemoveAllAdditiveScenes(){} // RVA: 0x7FFAF8F3EA60
+        public void GetMaterialBufferForTransform(){} // RVA: 0x7FFAF8F3EB90
+        public void GetStaticGameObjectsForExport(){} // RVA: 0x7FFAF8F3EEF0
+        public void GetDynamicGameObjectsForExport(){} // RVA: 0x7FFAF8F3F010
+        public void IsDynamicSubObject(){} // RVA: 0x7FFAF8F3F0B0
+        public void IsActiveInHierarchy(){} // RVA: 0x7FFAF8F3F270
+        public void GetGeometryAndMaterialBuffers(){} // RVA: 0x7FFAF8F3F440
+        public void GetDynamicObjectInParent(){} // RVA: 0x7FFAF8F3FA50
+        public void GetVertices(){} // RVA: 0x7FFAF8F3FC90
+        public void GetTriangles(){} // RVA: 0x7FFAF8F40AF0
+        public void FixupTriangleIndices(){} // RVA: 0x7FFAF8F411B0
+        public void GetTerrainSimplificationLevel(){} // RVA: 0x7FFAF8F41220
+        public void GetMaterialMapping(){} // RVA: 0x7FFAF8F41280
+        public void GetMaterialForGameObject(){} // RVA: 0x7FFAF8F41AE0
+        public void GetOBJFileName(){} // RVA: 0x7FFAF8F41F60 | overloaded x2
+        public void GetDataAsset(){} // RVA: 0x7FFAF8F42430 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF8F42450
     }
 
-    public class SteamAudioReverbDataPoint : MonoBehaviour
+    public class SteamAudioMaterial
     {
         // ── Methods ──
-        public void CreateFolderRecursively(){} // RVA: 0x7FFE810FB310
-        public void GetAssetFolderPath(){} // RVA: 0x7FFE86FD4950
-        public void GetBakedDataIdentifier(){} // RVA: 0x7FFE86FC3700
-        public void EnsureValidData(){} // RVA: 0x7FFE810FB310
-        public void BeginBake(){} // RVA: 0x7FFE86FD4990
-        public void UpdateEnergyField(){} // RVA: 0x7FFE86FD5100
-        public void UpdateImpulseResponse(){} // RVA: 0x7FFE86FD54E0
-        public void WriteReverbDataToFile(){} // RVA: 0x7FFE86FD5880
-        public void FlushWrite(){} // RVA: 0x7FFE810FB310
-        public void FlushAllWrites(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE86FD5A10
+        public void GetMaterial(){} // RVA: 0x7FFAF8F42790
+        public void .ctor(){} // RVA: 0x7FFAF8F427D0
     }
 
-    public class SteamAudioSettings : ScriptableObject
+    public class SteamAudioProbeBatch
     {
-        public 0x6669443C audioEngine; // 0x18
-
         // ── Methods ──
-        public void get_Singleton(){} // RVA: 0x7FFE86FD5AB0
-        public void .ctor(){} // RVA: 0x7FFE86FD5DB0
+        public void GetAsset(){} // RVA: 0x7FFAF8F42810
+        public void GetNumProbes(){} // RVA: 0x7FFAF8F42A10
+        public void GetNumLayers(){} // RVA: 0x7FFAF8F42A30
+        public void GetProbeBatch(){} // RVA: 0x7FFAF8F42A80
+        public void Awake(){} // RVA: 0x7FFAF8F42AA0
+        public void OnDestroy(){} // RVA: 0x7FFAF8F42C60
+        public void OnEnable(){} // RVA: 0x7FFAF8F42C80
+        public void OnDisable(){} // RVA: 0x7FFAF8F42D70
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAF8F42EA0
+        public void GenerateProbes(){} // RVA: 0x7FFAF8F43380
+        public void DeleteBakedDataForIdentifier(){} // RVA: 0x7FFAF8F44120
+        public void GetSizeForLayer(){} // RVA: 0x7FFAF8F445C0
+        public void GetInfoForLayer(){} // RVA: 0x7FFAF8F44770
+        public void ResetLayers(){} // RVA: 0x7FFAF8F44810
+        public void AddLayer(){} // RVA: 0x7FFAF8F44880
+        public void RemoveLayer(){} // RVA: 0x7FFAF8F449B0
+        public void AddOrUpdateLayer(){} // RVA: 0x7FFAF8F44BE0
+        public void UpdateGameObjectStatistics(){} // RVA: 0x7FFAF8F44EC0
+        public void GetBakedDataIdentifier(){} // RVA: 0x7FFAF8F44FB0
+        public void BeginBake(){} // RVA: 0x7FFAF8F44FF0
+        public void .ctor(){} // RVA: 0x7FFAF8F45580
     }
 
-    public class SteamAudioSource : MonoBehaviour
+    public class SteamAudioReverbData
     {
-        public bool directBinaural; // 0x20
-
         // ── Methods ──
-        public void get_interpolation(){} // RVA: 0x7FFE811EDAF0
-        public void Awake(){} // RVA: 0x7FFE86FD5ED0
-        public void LazyInitSource(){} // RVA: 0x7FFE86FD61A0
-        public void AssignHandle(){} // RVA: 0x7FFE86FD6460
-        public void SetAttenuationModel(){} // RVA: 0x7FFE86FD66F0
-        public void UpdateParameters(){} // RVA: 0x7FFE86FD6B10
-        public void Start(){} // RVA: 0x7FFE86FD6B40
-        public void OnDestroy(){} // RVA: 0x7FFE86FD6B70
-        public void OnEnable(){} // RVA: 0x7FFE86FD6D40
-        public void OnDisable(){} // RVA: 0x7FFE86FD6E30
-        public void LateUpdate(){} // RVA: 0x7FFE86FD6B10
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFE86FD6F60
-        public void SetInputs(){} // RVA: 0x7FFE86FD7680
-        public void GetOutputs(){} // RVA: 0x7FFE86FD84C0
-        public void GetSource(){} // RVA: 0x7FFE81823850
-        public void UpdateOutputs(){} // RVA: 0x7FFE86FD8610
-        public void InitializeDeformedSphereMesh(){} // RVA: 0x7FFE86FD87D0
-        public void DeformSphereMesh(){} // RVA: 0x7FFE86FD9060
-        public void DeformedVertex(){} // RVA: 0x7FFE86FD94C0
-        public void EvaluateDistanceCurve(){} // RVA: 0x7FFE86FD9540
-        public void .ctor(){} // RVA: 0x7FFE86FD96A0
-        public void .cctor(){} // RVA: 0x7FFE86FD99D0
+        public void Initialize(){} // RVA: 0x7FFAF8F45680
+        public void GetImpulseResponseSize(){} // RVA: 0x7FFAF8F457E0
+        public void GetEnergyFieldData(){} // RVA: 0x7FFAF8F45800
+        public void GetEnergyFieldSize(){} // RVA: 0x7FFAF8F45840
+        public void GetImpulseResponseData(){} // RVA: 0x7FFAF8F45860
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class SteamAudioStaticMesh : MonoBehaviour
+    public class SteamAudioReverbDataPoint
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFE86FD9B60
-        public void OnDestroy(){} // RVA: 0x7FFE86FD9D90
-        public void OnEnable(){} // RVA: 0x7FFE86FD9F50
-        public void OnDisable(){} // RVA: 0x7FFE86FDA000
-        public void Update(){} // RVA: 0x7FFE86FDA120
-        public void .ctor(){} // RVA: 0x7FFE86FDA360
-        public void <Update>b__8_0(){} // RVA: 0x7FFE86FDA430
+        public void CreateFolderRecursively(){} // RVA: 0x7FFAF2D8D310
+        public void GetAssetFolderPath(){} // RVA: 0x7FFAF8F458A0
+        public void GetBakedDataIdentifier(){} // RVA: 0x7FFAF8F34650
+        public void EnsureValidData(){} // RVA: 0x7FFAF2D8D310
+        public void BeginBake(){} // RVA: 0x7FFAF8F458E0
+        public void UpdateEnergyField(){} // RVA: 0x7FFAF8F46050
+        public void UpdateImpulseResponse(){} // RVA: 0x7FFAF8F46430
+        public void WriteReverbDataToFile(){} // RVA: 0x7FFAF8F467D0
+        public void FlushWrite(){} // RVA: 0x7FFAF2D8D310
+        public void FlushAllWrites(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF8F46960
+    }
+
+    public class SteamAudioSettings
+    {
+        public object CameraSelector;
+
+        // ── Methods ──
+        public void get_Singleton(){} // RVA: 0x7FFAF8F46A00
+        public void .ctor(){} // RVA: 0x7FFAF8F46D00
+    }
+
+    public class SteamAudioSource
+    {
+        // ── Methods ──
+        public void get_interpolation(){} // RVA: 0x7FFAF2E7FAF0
+        public void Awake(){} // RVA: 0x7FFAF8F46E20
+        public void LazyInitSource(){} // RVA: 0x7FFAF8F470F0
+        public void AssignHandle(){} // RVA: 0x7FFAF8F473B0
+        public void SetAttenuationModel(){} // RVA: 0x7FFAF8F47640
+        public void UpdateParameters(){} // RVA: 0x7FFAF8F47A60
+        public void Start(){} // RVA: 0x7FFAF8F47A90
+        public void OnDestroy(){} // RVA: 0x7FFAF8F47AC0
+        public void OnEnable(){} // RVA: 0x7FFAF8F47C90
+        public void OnDisable(){} // RVA: 0x7FFAF8F47D80
+        public void LateUpdate(){} // RVA: 0x7FFAF8F47A60
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAF8F47EB0
+        public void SetInputs(){} // RVA: 0x7FFAF8F485D0
+        public void GetOutputs(){} // RVA: 0x7FFAF8F49410
+        public void GetSource(){} // RVA: 0x7FFAF353E870
+        public void UpdateOutputs(){} // RVA: 0x7FFAF8F49560
+        public void InitializeDeformedSphereMesh(){} // RVA: 0x7FFAF8F49720
+        public void DeformSphereMesh(){} // RVA: 0x7FFAF8F49FB0
+        public void DeformedVertex(){} // RVA: 0x7FFAF8F4A410
+        public void EvaluateDistanceCurve(){} // RVA: 0x7FFAF8F4A490
+        public void .ctor(){} // RVA: 0x7FFAF8F4A5F0
+        public void .cctor(){} // RVA: 0x7FFAF8F4A920
+    }
+
+    public class SteamAudioStaticMesh
+    {
+        // ── Methods ──
+        public void Start(){} // RVA: 0x7FFAF8F4AAB0
+        public void OnDestroy(){} // RVA: 0x7FFAF8F4ACE0
+        public void OnEnable(){} // RVA: 0x7FFAF8F4AEA0
+        public void OnDisable(){} // RVA: 0x7FFAF8F4AF50
+        public void Update(){} // RVA: 0x7FFAF8F4B070
+        public void .ctor(){} // RVA: 0x7FFAF8F4B2B0
+        public void <Update>b__8_0(){} // RVA: 0x7FFAF8F4B380
     }
 
 }

@@ -5,19 +5,19 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class Pairwise`1 : Object
+    public class Pairwise`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
         public void GetAsyncEnumerator(){}
     }
 
-    public class Publish`1 : Object
+    public class Publish`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0
-        public void Connect(){} // RVA: 0x7FFE80E2E2E0
-        public void ConsumeEnumerator(){} // RVA: 0x7FFE80E2F150
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+        public void Connect(){} // RVA: 0x7FFAF2ABCD60
+        public void ConsumeEnumerator(){} // RVA: 0x7FFAF2ABDBE0
         public void GetAsyncEnumerator(){}
     }
 

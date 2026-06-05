@@ -5,77 +5,77 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class PanicFunction_ : Object
+    public class PanicFunction_
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB9060 | overloaded x3
-        public void Finalize(){} // RVA: 0x7FFE86FB9150
-        public void Release(){} // RVA: 0x7FFE86FB9190
-        public void Get(){} // RVA: 0x7FFE810FE7C0
-        public void Save(){} // RVA: 0x7FFE86FB9260
-        public void AddToScene(){} // RVA: 0x7FFE86FB9370
-        public void RemoveFromScene(){} // RVA: 0x7FFE86FB9420
+        public void .ctor(){} // RVA: 0x7FFAF8F29F90 | overloaded x3
+        public void Finalize(){} // RVA: 0x7FFAF8F2A080
+        public void Release(){} // RVA: 0x7FFAF8F2A0C0
+        public void Get(){} // RVA: 0x7FFAF2D907C0
+        public void Save(){} // RVA: 0x7FFAF8F2A190
+        public void AddToScene(){} // RVA: 0x7FFAF8F2A2A0
+        public void RemoveFromScene(){} // RVA: 0x7FFAF8F2A350
     }
 
-    public class PathBakeParams : ValueType
+    public class PathBakeParams
     {
     }
 
-    public class PathEffectParams : ValueType
+    public class PathEffectParams
     {
     }
 
-    public class PathingVisualizationCallback : MulticastDelegate
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FBA360
-        public void Invoke(){} // RVA: 0x7FFE86FBA430
-        public void BeginInvoke(){} // RVA: 0x7FFE86FBA490
-        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
-    }
-
-    public class PerspectiveCorrection : ValueType
-    {
-    }
-
-    public class ProbeArray : Object
+    public class PathingVisualizationCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB5250 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFE86FB52F0
-        public void Release(){} // RVA: 0x7FFE86FB5330
-        public void Get(){} // RVA: 0x7FFE81116380
-        public void GenerateProbes(){} // RVA: 0x7FFE86FB53B0
-        public void GetNumProbes(){} // RVA: 0x7FFE86FB5460
-        public void GetProbe(){} // RVA: 0x7FFE86FB54E0
+        public void .ctor(){} // RVA: 0x7FFAF8F2B2B0
+        public void Invoke(){} // RVA: 0x7FFAF8F2B380
+        public void BeginInvoke(){} // RVA: 0x7FFAF8F2B3E0
+        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
     }
 
-    public class ProbeBatch : Object
+    public class PerspectiveCorrection
+    {
+    }
+
+    public class ProbeArray
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB58B0 | overloaded x3
-        public void Finalize(){} // RVA: 0x7FFE86FB59A0
-        public void Release(){} // RVA: 0x7FFE86FB59E0
-        public void Get(){} // RVA: 0x7FFE810FE7C0
-        public void Save(){} // RVA: 0x7FFE86FB5AB0
-        public void AddProbeArray(){} // RVA: 0x7FFE86FB5BE0
-        public void AddProbe(){} // RVA: 0x7FFE86FB5C80
-        public void Commit(){} // RVA: 0x7FFE86FB5D20
-        public void RemoveData(){} // RVA: 0x7FFE86FB5DA0
-        public void GetDataSize(){} // RVA: 0x7FFE86FB5E30
+        public void .ctor(){} // RVA: 0x7FFAF8F26180 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFAF8F26220
+        public void Release(){} // RVA: 0x7FFAF8F26260
+        public void Get(){} // RVA: 0x7FFAF2DA8380
+        public void GenerateProbes(){} // RVA: 0x7FFAF8F262E0
+        public void GetNumProbes(){} // RVA: 0x7FFAF8F26390
+        public void GetProbe(){} // RVA: 0x7FFAF8F26410
     }
 
-    public class ProbeGenerationParams : ValueType
-    {
-    }
-
-    public class ProgressCallback : MulticastDelegate
+    public class ProbeBatch
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB94D0
-        public void Invoke(){} // RVA: 0x7FFE81257370
-        public void BeginInvoke(){} // RVA: 0x7FFE86FB95A0
-        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+        public void .ctor(){} // RVA: 0x7FFAF8F267E0 | overloaded x3
+        public void Finalize(){} // RVA: 0x7FFAF8F268D0
+        public void Release(){} // RVA: 0x7FFAF8F26910
+        public void Get(){} // RVA: 0x7FFAF2D907C0
+        public void Save(){} // RVA: 0x7FFAF8F269E0
+        public void AddProbeArray(){} // RVA: 0x7FFAF8F26B10
+        public void AddProbe(){} // RVA: 0x7FFAF8F26BB0
+        public void Commit(){} // RVA: 0x7FFAF8F26C50
+        public void RemoveData(){} // RVA: 0x7FFAF8F26CD0
+        public void GetDataSize(){} // RVA: 0x7FFAF8F26D60
+    }
+
+    public class ProbeGenerationParams
+    {
+    }
+
+    public class ProgressCallback
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF8F2A400
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
+        public void BeginInvoke(){} // RVA: 0x7FFAF8F2A4D0
+        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
     }
 
 }

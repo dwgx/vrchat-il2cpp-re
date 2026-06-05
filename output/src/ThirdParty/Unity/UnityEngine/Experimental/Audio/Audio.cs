@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Unity.UnityEngine.Experimental.Audio
 {
-    public class AudioSampleProvider : Object
+    public class AudioSampleProvider
     {
         // ── Methods ──
-        public void InvokeSampleFramesAvailable(){} // RVA: 0x7FFE87BF2FA0
-        public void InvokeSampleFramesOverflow(){} // RVA: 0x7FFE87BF2FD0
+        public void InvokeSampleFramesAvailable(){} // RVA: 0x7FFAF9B61FC0
+        public void InvokeSampleFramesOverflow(){} // RVA: 0x7FFAF9B61FF0
     }
 
 }

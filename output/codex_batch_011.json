@@ -1,0 +1,289 @@
+[
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibSibling_C833",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      ".ctor_F5D8351B397B",
+      "Initialize",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FCC",
+      "m_889",
+      "m_6F5",
+      "m_BEE",
+      "m_D39",
+      "m_F46"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSibling_8C91",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Initialize",
+      "Update_2B4F45D701AE",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_076",
+      "m_028",
+      "m_99A",
+      "m_303",
+      "m_9F1",
+      "m_A0E"
+    ]
+  },
+  {
+    "class": "LifecycleComponentImpl_E2CCSibSibling_EE97",
+    "parent": "",
+    "readable_methods": [
+      "OnDestroy",
+      "OnDisable",
+      "Update",
+      "LateUpdate"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8BE",
+      "m_F5C",
+      "m_6F5",
+      "m_3A0",
+      "m_62F",
+      "m_1EF"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSibling_0A4F",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Initialize_D74F9E3B7B27",
+      "set_Value",
+      "set_Value_F501E422C7A0",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_5BA",
+      "m_06E",
+      "m_745",
+      "m_6E3",
+      "m_D74"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSibling_B0A0",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "OnEnable",
+      "Start",
+      "FixedUpdate",
+      "Update"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E09",
+      "m_0C0",
+      "m_3A2",
+      "m_8AD",
+      "m_252"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibSibling_FB0E",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "Initialize",
+      "Initialize_9135088DAD27",
+      "OnEnable",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_061",
+      "m_179",
+      "m_38F",
+      "m_053",
+      "m_338"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_0842",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AF5",
+      "m_DC5",
+      "m_510",
+      "m_527",
+      "m_850"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_08C5",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "Initialize",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_938",
+      "m_52E",
+      "m_A66",
+      "m_817",
+      "m_F5D"
+    ]
+  },
+  {
+    "class": "ComplexComponent_8C61SiblRelated_EE40",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FF5",
+      "m_763",
+      "m_149",
+      "m_7AA"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_90EB",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "FixedUpdate",
+      "OnEnable",
+      "OnDestroy",
+      "LateUpdate",
+      "Update"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FEB",
+      "m_D1C",
+      "m_A66",
+      "m_323"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_7907",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Initialize",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_692",
+      "m_8ED",
+      "m_661",
+      "m_0C0"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_0D84",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnDisable",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "Initialize"
+    ],
+    "fields": [
+      "_0D84"
+    ],
+    "hash_methods": [
+      "m_AF5",
+      "m_E1F",
+      "m_7C8",
+      "m_9A3"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_C44A",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "Initialize",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F7A",
+      "m_A66",
+      "m_CE1",
+      "m_C83"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_8671",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Initialize",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A66",
+      "m_F46",
+      "m_540",
+      "m_747"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_14AA",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_170",
+      "m_530",
+      "m_0C8",
+      "m_A27"
+    ]
+  }
+]

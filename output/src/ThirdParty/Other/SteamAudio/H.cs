@@ -5,21 +5,21 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class HRTF : Object
+    public class HRTF
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB4350 | overloaded x3
-        public void Finalize(){} // RVA: 0x7FFE86FB43F0
-        public void Release(){} // RVA: 0x7FFE86FB4430
-        public void Get(){} // RVA: 0x7FFE81116380
-        public void dBToGain(){} // RVA: 0x7FFE86FB44B0
+        public void .ctor(){} // RVA: 0x7FFAF8F25280 | overloaded x3
+        public void Finalize(){} // RVA: 0x7FFAF8F25320
+        public void Release(){} // RVA: 0x7FFAF8F25360
+        public void Get(){} // RVA: 0x7FFAF2DA8380
+        public void dBToGain(){} // RVA: 0x7FFAF8F253E0
     }
 
-    public class HRTFSettings : ValueType
+    public class HRTFSettings
     {
     }
 
-    public class Hit : ValueType
+    public class Hit
     {
     }
 

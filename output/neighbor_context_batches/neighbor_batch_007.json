@@ -1,0 +1,163 @@
+[
+  {
+    "class": "VRC_MainSiblingSiblingSibling_F0C0",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnDrawGizmos",
+      "OnDestroy",
+      ".ctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E90",
+      "m_63D",
+      "m_BC8",
+      "m_FD9",
+      "m_FF4",
+      "m_BC3",
+      "m_F2E",
+      "m_697",
+      "m_104",
+      "m_567",
+      "m_DF9",
+      "m_4CF"
+    ],
+    "remaining_hash_methods": 81,
+    "total_methods": 91,
+    "signal_score": 195
+  },
+  {
+    "class": "VRCPlayerSiblingSibling_BF8C",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnDestroy",
+      "Awake",
+      "Start"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C56",
+      "m_D66",
+      "m_BEF",
+      "m_7E8",
+      "m_BB7",
+      "m_ACC",
+      "m_5D0",
+      "m_6B3",
+      "m_4FE",
+      "m_290",
+      "m_D4F",
+      "m_BF1"
+    ],
+    "remaining_hash_methods": 79,
+    "total_methods": 85,
+    "signal_score": 191
+  },
+  {
+    "class": "PlayerManuallyRecordInteractionGetIsPlayingCon_5B6A_F584",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "GetPropId",
+      "RequestConsume",
+      "GetIsConsumable",
+      "StopPlayingConsumableEffect",
+      "GetUserAttributes",
+      "GetScale",
+      "StartPlayingConsumableEffect",
+      "GetPlayersInRange",
+      "GetItemId",
+      "GetRotation",
+      "GetNearestPlayerInRange",
+      "GetIsPlayingConsumableEffect",
+      "RequestDespawn",
+      "ManuallyRecordInteractionEvent",
+      "GetSpawner",
+      "SetUserAttributes",
+      "GetPosition",
+      "GetQuantity"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_64D",
+      "m_BB2"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 31,
+    "signal_score": 190
+  },
+  {
+    "class": "NetworkSyncable_B5C5",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "NeedsSync",
+      "CanSerialize8Bit",
+      "Decode",
+      "CanSerialize32Bit",
+      "Encode",
+      "SerializedName",
+      "set_TypeId",
+      "get_TypeId",
+      "NeedsImportant"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_593",
+      "m_D14",
+      "m_74F",
+      "m_7D4",
+      "m_DCC",
+      "m_245",
+      "m_B14",
+      "m_852",
+      "m_BAC",
+      "m_5C7",
+      "m_FD6",
+      "m_07C"
+    ],
+    "remaining_hash_methods": 48,
+    "total_methods": 67,
+    "signal_score": 188
+  },
+  {
+    "class": "ButtonTransformCoroutineComponent_DBB1",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnPointerEnter",
+      "OnPointerExit",
+      "OnPointerDown",
+      "OnPointerUp",
+      "OnPointerClick",
+      "OnSelect",
+      "OnDeselect",
+      "OnSubmit",
+      "OnCancel",
+      "OnMove",
+      "OnScroll",
+      "OnValueChanged",
+      "OnEndEdit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2FD",
+      "m_B78",
+      "m_6B3",
+      "m_C49",
+      "m_35C",
+      "m_3BF",
+      "m_34E",
+      "m_AB9",
+      "m_050",
+      "m_5CC",
+      "m_1F0",
+      "m_A4C"
+    ],
+    "remaining_hash_methods": 27,
+    "total_methods": 47,
+    "signal_score": 187
+  }
+]

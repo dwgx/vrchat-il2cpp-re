@@ -5,84 +5,80 @@
 
 namespace ThirdParty.DotNet.System.Runtime.Remoting.Activation
 {
-    public class ActivationServices : Object
+    public class ActivationServices
     {
-        public System.Runtime.Remoting.Activation.IActivator _constructionActivator;
+        public object NextActivator;
 
         // ── Methods ──
-        public void get_ConstructionActivator(){} // RVA: 0x7FFE86830680
-        public void Activate(){} // RVA: 0x7FFE86830760
-        public void RemoteActivate(){} // RVA: 0x7FFE868309B0
-        public void CreateConstructionCall(){} // RVA: 0x7FFE86830A70
-        public void CreateInstanceFromMessage(){} // RVA: 0x7FFE86831460
-        public void CreateProxyForType(){} // RVA: 0x7FFE86831560
-        public void AllocateUninitializedClassInstance(){} // RVA: 0x7FFE868317C0
-        public void EnableProxyActivation(){} // RVA: 0x7FFE86831800
+        public void get_ConstructionActivator(){} // RVA: 0x7FFAF879F780
+        public void Activate(){} // RVA: 0x7FFAF879F860
+        public void RemoteActivate(){} // RVA: 0x7FFAF879FAB0
+        public void CreateConstructionCall(){} // RVA: 0x7FFAF879FB70
+        public void CreateInstanceFromMessage(){} // RVA: 0x7FFAF87A0560
+        public void CreateProxyForType(){} // RVA: 0x7FFAF87A0660
+        public void AllocateUninitializedClassInstance(){} // RVA: 0x7FFAF87A08C0
+        public void EnableProxyActivation(){} // RVA: 0x7FFAF87A0900
     }
 
-    public class AppDomainLevelActivator : Object
+    public class AppDomainLevelActivator
     {
-        public string _activationUrl; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0
-        public void get_NextActivator(){} // RVA: 0x7FFE810FE7C0
-        public void Activate(){} // RVA: 0x7FFE86831810
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void get_NextActivator(){} // RVA: 0x7FFAF2D907C0
+        public void Activate(){} // RVA: 0x7FFAF87A0910
     }
 
-    public class ConstructionLevelActivator : Object
+    public class ConstructionLevelActivator
     {
         // ── Methods ──
-        public void get_NextActivator(){} // RVA: 0x7FFE813240E0
-        public void Activate(){} // RVA: 0x7FFE86831BD0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_NextActivator(){} // RVA: 0x7FFAF2FC9240
+        public void Activate(){} // RVA: 0x7FFAF87A0CD0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ContextLevelActivator : Object
+    public class ContextLevelActivator
     {
-        public System.Runtime.Remoting.Activation.IActivator m_NextActivator; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_NextActivator(){} // RVA: 0x7FFE81116380
-        public void Activate(){} // RVA: 0x7FFE86831CA0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_NextActivator(){} // RVA: 0x7FFAF2DA8380
+        public void Activate(){} // RVA: 0x7FFAF87A0DA0
     }
 
     public class IActivator
     {
         // ── Methods ──
-        public void get_NextActivator(){} // RVA: 0x7FFE80E2E2E0
-        public void Activate(){} // RVA: 0x7FFE80E2E390
+        public void get_NextActivator(){} // RVA: 0x7FFAF2ABCD60
+        public void Activate(){} // RVA: 0x7FFAF2ABCE10
     }
 
     public class IConstructionCallMessage
     {
         // ── Methods ──
-        public void get_ActivationType(){} // RVA: 0x7FFE80E2E2E0
-        public void get_ActivationTypeName(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Activator(){} // RVA: 0x7FFE80E2E2E0
-        public void set_Activator(){} // RVA: 0x7FFE80E460A0
-        public void get_CallSiteActivationAttributes(){} // RVA: 0x7FFE80E2E2E0
-        public void get_ContextProperties(){} // RVA: 0x7FFE80E2E2E0
+        public void get_ActivationType(){} // RVA: 0x7FFAF2ABCD60
+        public void get_ActivationTypeName(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Activator(){} // RVA: 0x7FFAF2ABCD60
+        public void set_Activator(){} // RVA: 0x7FFAF2AD4B10
+        public void get_CallSiteActivationAttributes(){} // RVA: 0x7FFAF2ABCD60
+        public void get_ContextProperties(){} // RVA: 0x7FFAF2ABCD60
     }
 
     public class IConstructionReturnMessage
     {
     }
 
-    public class RemoteActivationAttribute : Attribute
+    public class RemoteActivationAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void IsContextOK(){} // RVA: 0x7FFE810FB320
-        public void GetPropertiesForNewContext(){} // RVA: 0x7FFE86831F00
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void IsContextOK(){} // RVA: 0x7FFAF2D8D320
+        public void GetPropertiesForNewContext(){} // RVA: 0x7FFAF87A1000
     }
 
-    public class RemoteActivator : MarshalByRefObject
+    public class RemoteActivator : T<D
     {
         // ── Methods ──
-        public void Activate(){} // RVA: 0x7FFE86832230
-        public void get_NextActivator(){} // RVA: 0x7FFE868324E0
+        public void Activate(){} // RVA: 0x7FFAF87A1330
+        public void get_NextActivator(){} // RVA: 0x7FFAF87A15E0
     }
 
 }

@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.FxResources.System.IO.Hashing
 {
-    public class SR : Object
+    public class SR
     {
     }
 

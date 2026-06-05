@@ -5,34 +5,32 @@
 
 namespace ThirdParty.Unity.UnityEngine.TerrainUtils
 {
-    public class TerrainMap : Object
+    public class TerrainMap
     {
-        public UnityEngine.Vector3 m_patchSize; // 0x10
-
         // ── Methods ──
-        public void GetTerrain(){} // RVA: 0x7FFE87D9F7F0
-        public void CreateFromPlacement(){} // RVA: 0x7FFE87D9FF30 | overloaded x2
-        public void get_terrainTiles(){} // RVA: 0x7FFE811290C0
-        public void .ctor(){} // RVA: 0x7FFE87DA0490
-        public void AddTerrainInternal(){} // RVA: 0x7FFE87DA05D0
-        public void TryToAddTerrain(){} // RVA: 0x7FFE87DA0850
-        public void ValidateTerrain(){} // RVA: 0x7FFE87DA0A80
-        public void Validate(){} // RVA: 0x7FFE87DA1970
+        public void GetTerrain(){} // RVA: 0x7FFAF9D0F650
+        public void CreateFromPlacement(){} // RVA: 0x7FFAF9D0FD90 | overloaded x2
+        public void get_terrainTiles(){} // RVA: 0x7FFAF2DBB0C0
+        public void .ctor(){} // RVA: 0x7FFAF9D102F0
+        public void AddTerrainInternal(){} // RVA: 0x7FFAF9D10430
+        public void TryToAddTerrain(){} // RVA: 0x7FFAF9D106B0
+        public void ValidateTerrain(){} // RVA: 0x7FFAF9D108E0
+        public void Validate(){} // RVA: 0x7FFAF9D117D0
     }
 
-    public class TerrainTileCoord : ValueType
+    public class TerrainTileCoord
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8164E250
+        public void .ctor(){} // RVA: 0x7FFAF335E010
     }
 
-    public class TerrainUtility : Object
+    public class TerrainUtility
     {
         // ── Methods ──
-        public void ValidTerrainsExist(){} // RVA: 0x7FFE87DA1BF0
-        public void ClearConnectivity(){} // RVA: 0x7FFE87DA1CA0
-        public void CollectTerrains(){} // RVA: 0x7FFE87DA1DC0
-        public void AutoConnect(){} // RVA: 0x7FFE87DA2170
+        public void ValidTerrainsExist(){} // RVA: 0x7FFAF9D11A50
+        public void ClearConnectivity(){} // RVA: 0x7FFAF9D11B00
+        public void CollectTerrains(){} // RVA: 0x7FFAF9D11C20
+        public void AutoConnect(){} // RVA: 0x7FFAF9D11FD0
     }
 
 }

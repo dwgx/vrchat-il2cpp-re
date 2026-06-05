@@ -5,37 +5,37 @@
 
 namespace ThirdParty.DOTween.DG.Tweening.Core.Easing
 {
-    public class Bounce : Object
+    public class Bounce
     {
         // ── Methods ──
-        public void EaseIn(){} // RVA: 0x7FFE82C39C00
-        public void EaseOut(){} // RVA: 0x7FFE82C39CE0
-        public void EaseInOut(){} // RVA: 0x7FFE82C39D80
+        public void EaseIn(){} // RVA: 0x7FFAF49604A0
+        public void EaseOut(){} // RVA: 0x7FFAF4960580
+        public void EaseInOut(){} // RVA: 0x7FFAF4960620
     }
 
-    public class EaseCurve : Object
+    public class EaseCurve
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Evaluate(){} // RVA: 0x7FFE82C3DAB0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Evaluate(){} // RVA: 0x7FFAF4964350
     }
 
-    public class EaseManager : Object
+    public class EaseManager
     {
         // ── Methods ──
-        public void Evaluate(){} // RVA: 0x7FFE82C39F10 | overloaded x2
-        public void ToEaseFunction(){} // RVA: 0x7FFE82C3ACA0
-        public void IsFlashEase(){} // RVA: 0x7FFE82C3C970
+        public void Evaluate(){} // RVA: 0x7FFAF49607B0 | overloaded x2
+        public void ToEaseFunction(){} // RVA: 0x7FFAF4961540
+        public void IsFlashEase(){} // RVA: 0x7FFAF4963210
     }
 
-    public class Flash : Object
+    public class Flash
     {
         // ── Methods ──
-        public void Ease(){} // RVA: 0x7FFE82C3DC00
-        public void EaseIn(){} // RVA: 0x7FFE82C3DCC0
-        public void EaseOut(){} // RVA: 0x7FFE82C3DD90
-        public void EaseInOut(){} // RVA: 0x7FFE82C3DE70
-        public void WeightedEase(){} // RVA: 0x7FFE82C3DF80
+        public void Ease(){} // RVA: 0x7FFAF49644A0
+        public void EaseIn(){} // RVA: 0x7FFAF4964560
+        public void EaseOut(){} // RVA: 0x7FFAF4964630
+        public void EaseInOut(){} // RVA: 0x7FFAF4964710
+        public void WeightedEase(){} // RVA: 0x7FFAF4964820
     }
 
 }

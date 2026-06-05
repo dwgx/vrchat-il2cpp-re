@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-05T07:36:39",
+  "dry_run": false,
+  "raw_predictions": 98,
+  "filtered_candidates": 5,
+  "cross_version_before": 8916,
+  "cross_version_after": 8921,
+  "new_entries": 5,
+  "rejected": {
+    "per_class_duplicate": 60,
+    "no_context_overlap": 17,
+    "bad_format_or_too_short": 12,
+    "conflicting_duplicate_prediction": 4,
+    "duplicates_known_sibling": 3,
+    "embedded_digits": 1
+  },
+  "sample": {
+    "AppSettings::m_B00": "OnPointerExit",
+    "UIRectTransformDimensionsChBefSibling_1299::m_4B5": "OnTransformChildrenChanged",
+    "VRCNetworkBehaviourSibling_BF5Sibling_4201::m_AEA": "OnCollisionStay",
+    "VRCNetworkBehaviourSibling_BF5Sibling_4201::m_AF5": "OnCollisionEnter",
+    "VRCNetworkBehaviour_3E57::m_07A": "OnBecameVisible"
+  }
+}

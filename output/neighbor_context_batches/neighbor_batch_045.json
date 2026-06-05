@@ -1,0 +1,136 @@
+[
+  {
+    "class": "PlayerMotionApplyComponent_7035",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CCB",
+      "m_FC9",
+      "m_49D",
+      "m_CB4",
+      "m_976",
+      "m_6AA",
+      "m_B0C",
+      "m_ACC",
+      "m_DA3",
+      "m_F15"
+    ],
+    "remaining_hash_methods": 10,
+    "total_methods": 28,
+    "signal_score": 102
+  },
+  {
+    "class": "NetworkReadyHandler_BC67",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnNetworkReady",
+      "Awake",
+      ".cctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_024",
+      "m_FC8",
+      "m_F69",
+      "m_35F",
+      "m_DA9",
+      "m_481",
+      "m_976",
+      "m_ADD",
+      "m_ABF",
+      "m_6D0",
+      "m_0DD",
+      "m_07A"
+    ],
+    "remaining_hash_methods": 34,
+    "total_methods": 43,
+    "signal_score": 100
+  },
+  {
+    "class": "InputControlBinding_FB76",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnPointerDown",
+      "OnDrag",
+      "OnPointerUp",
+      "GetWarningMessage",
+      "SetStartColor",
+      "get_controlPathInternal",
+      "set_controlPathInternal",
+      "set_isGrounded",
+      "NeedsSync"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D66",
+      "m_78E"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 22,
+    "signal_score": 97
+  },
+  {
+    "class": "UdonOperationResponseStatusChanged_6550_B67D",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnEvent",
+      "set_AudioCaptureSource",
+      "OnBecameInvisible",
+      "OnOperationResponse",
+      "NewImpulseEvent",
+      "OnStatusChanged",
+      "get_customCaretColor",
+      "GetGameObject",
+      "GetCurrentTextCue"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_24B"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 18,
+    "signal_score": 97
+  },
+  {
+    "class": "NetworkSyncableSiblingSibling_2395",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      ".ctor",
+      "Initialize",
+      ".cctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2E8",
+      "m_404",
+      "m_953",
+      "m_56C",
+      "m_853",
+      "m_1C9",
+      "m_1F7",
+      "m_5E9",
+      "m_9E5",
+      "m_381",
+      "m_3A0",
+      "m_29E"
+    ],
+    "remaining_hash_methods": 32,
+    "total_methods": 35,
+    "signal_score": 97
+  }
+]

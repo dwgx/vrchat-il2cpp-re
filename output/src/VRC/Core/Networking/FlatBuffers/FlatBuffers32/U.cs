@@ -5,1113 +5,994 @@
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
-    public class Udon : ValueType
+    public class Udon
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x338
-        public object field_2; // 0x339
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdon(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void VerifyUdon(){} // RVA: 0x7FFE881751F0
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void DataType(){} // RVA: 0x7FFE8814C6C0
-        public void get_DataTypeLength(){} // RVA: 0x7FFE8814C740
-        public void GetDataTypeBytes(){} // RVA: 0x7FFE881752E0
-        public void GetDataTypeArray(){} // RVA: 0x7FFE88175350
-        public void Data(){} // RVA: 0x7FFE810A1420
-        public void get_DataLength(){} // RVA: 0x7FFE8814D440
-        public void CreateUdon(){} // RVA: 0x7FFE88175480
-        public void StartUdon(){} // RVA: 0x7FFE8814D560
-        public void AddDataType(){} // RVA: 0x7FFE8814C380
-        public void CreateDataTypeVector(){} // RVA: 0x7FFE8814C8F0
-        public void CreateDataTypeVectorBlock(){} // RVA: 0x7FFE881756E0 | overloaded x3
-        public void StartDataTypeVector(){} // RVA: 0x7FFE8814CC40
-        public void AddData(){} // RVA: 0x7FFE8814D7F0
-        public void CreateDataVector(){} // RVA: 0x7FFE88144E80
-        public void CreateDataVectorBlock(){} // RVA: 0x7FFE88175940 | overloaded x3
-        public void StartDataVector(){} // RVA: 0x7FFE88145240
-        public void EndUdon(){} // RVA: 0x7FFE88175A00
-        public void FinishUdonBuffer(){} // RVA: 0x7FFE8814DAE0
-        public void FinishSizePrefixedUdonBuffer(){} // RVA: 0x7FFE8814DB40
-        public void UnPack(){} // RVA: 0x7FFE88175A50
-        public void UnPackTo(){} // RVA: 0x7FFE88175B00
-        public void Pack(){} // RVA: 0x7FFE88177AC0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdon(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void VerifyUdon(){} // RVA: 0x7FFAFA0E81A0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void DataType(){} // RVA: 0x7FFAFA0BF670
+        public void get_DataTypeLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetDataTypeBytes(){} // RVA: 0x7FFAFA0E8290
+        public void GetDataTypeArray(){} // RVA: 0x7FFAFA0E8300
+        public void Data(){} // RVA: 0x7FFAF2D33FA0
+        public void get_DataLength(){} // RVA: 0x7FFAFA0C03F0
+        public void CreateUdon(){} // RVA: 0x7FFAFA0E8430
+        public void StartUdon(){} // RVA: 0x7FFAFA0C0510
+        public void AddDataType(){} // RVA: 0x7FFAFA0BF330
+        public void CreateDataTypeVector(){} // RVA: 0x7FFAFA0BF8A0
+        public void CreateDataTypeVectorBlock(){} // RVA: 0x7FFAFA0E8690 | overloaded x3
+        public void StartDataTypeVector(){} // RVA: 0x7FFAFA0BFBF0
+        public void AddData(){} // RVA: 0x7FFAFA0C07A0
+        public void CreateDataVector(){} // RVA: 0x7FFAFA0B7E30
+        public void CreateDataVectorBlock(){} // RVA: 0x7FFAFA0E88F0 | overloaded x3
+        public void StartDataVector(){} // RVA: 0x7FFAFA0B81F0
+        public void EndUdon(){} // RVA: 0x7FFAFA0E89B0
+        public void FinishUdonBuffer(){} // RVA: 0x7FFAFA0C0A90
+        public void FinishSizePrefixedUdonBuffer(){} // RVA: 0x7FFAFA0C0AF0
+        public void UnPack(){} // RVA: 0x7FFAFA0E8A00
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E8AB0
+        public void Pack(){} // RVA: 0x7FFAFA0EAA70
     }
 
-    public class UdonBool : ValueType
+    public class UdonBool
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2D8
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8814BB50
-        public void CreateUdonBool(){} // RVA: 0x7FFE8816A4F0
-        public void UnPack(){} // RVA: 0x7FFE8816A580
-        public void UnPackTo(){} // RVA: 0x7FFE8814BC80
-        public void Pack(){} // RVA: 0x7FFE8816A5F0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0BEB00
+        public void CreateUdonBool(){} // RVA: 0x7FFAFA0DD4A0
+        public void UnPack(){} // RVA: 0x7FFAFA0DD530
+        public void UnPackTo(){} // RVA: 0x7FFAFA0BEC30
+        public void Pack(){} // RVA: 0x7FFAFA0DD5A0
     }
 
-    public class UdonBoolArray : ValueType
+    public class UdonBoolArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x302
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonBoolArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8816BF50
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE8816BFD0
-        public void GetValueArray(){} // RVA: 0x7FFE8816C040
-        public void CreateUdonBoolArray(){} // RVA: 0x7FFE8816C090
-        public void StartUdonBoolArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE8816C110
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE8816C440 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE8814CC40
-        public void EndUdonBoolArray(){} // RVA: 0x7FFE8816C500
-        public void UnPack(){} // RVA: 0x7FFE8816C550
-        public void UnPackTo(){} // RVA: 0x7FFE8816C600
-        public void Pack(){} // RVA: 0x7FFE8816C810
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonBoolArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0DEF00
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0DEF80
+        public void GetValueArray(){} // RVA: 0x7FFAFA0DEFF0
+        public void CreateUdonBoolArray(){} // RVA: 0x7FFAFA0DF040
+        public void StartUdonBoolArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0DF0C0
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0DF3F0 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0BFBF0
+        public void EndUdonBoolArray(){} // RVA: 0x7FFAFA0DF4B0
+        public void UnPack(){} // RVA: 0x7FFAFA0DF500
+        public void UnPackTo(){} // RVA: 0x7FFAFA0DF5B0
+        public void Pack(){} // RVA: 0x7FFAFA0DF7C0
     }
 
-    public class UdonBoolArrayT : Object
+    public class UdonBoolArrayT
     {
-        public System.Collections.Generic.List`1<bool> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonBoolArrayVerify : Object
+    public class UdonBoolArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8814D140
+        public void Verify(){} // RVA: 0x7FFAFA0C00F0
     }
 
-    public class UdonBoolT : Object
+    public class UdonBoolT
     {
-        public bool _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE811C55E0
-        public void set_Value(){} // RVA: 0x7FFE811C55F0
-        public void .ctor(){} // RVA: 0x7FFE81FCAC70
+        public void get_Value(){} // RVA: 0x7FFAF2E575E0
+        public void set_Value(){} // RVA: 0x7FFAF2E575F0
+        public void .ctor(){} // RVA: 0x7FFAF316DA00
     }
 
-    public class UdonByte : ValueType
+    public class UdonByte
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2DE
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE88155130
-        public void CreateUdonByte(){} // RVA: 0x7FFE8816A730
-        public void UnPack(){} // RVA: 0x7FFE8816A7C0
-        public void UnPackTo(){} // RVA: 0x7FFE88160BE0
-        public void Pack(){} // RVA: 0x7FFE8816A830
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0C80E0
+        public void CreateUdonByte(){} // RVA: 0x7FFAFA0DD6E0
+        public void UnPack(){} // RVA: 0x7FFAFA0DD770
+        public void UnPackTo(){} // RVA: 0x7FFAFA0D3B90
+        public void Pack(){} // RVA: 0x7FFAFA0DD7E0
     }
 
-    public class UdonByteArray : ValueType
+    public class UdonByteArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x308
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonByteArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8814C6C0
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE8816D2D0
-        public void GetValueArray(){} // RVA: 0x7FFE8816D340
-        public void CreateUdonByteArray(){} // RVA: 0x7FFE8816D390
-        public void StartUdonByteArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE8814C8F0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE8816D5B0 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE8814CC40
-        public void EndUdonByteArray(){} // RVA: 0x7FFE8816D670
-        public void UnPack(){} // RVA: 0x7FFE8816D6C0
-        public void UnPackTo(){} // RVA: 0x7FFE8816D770
-        public void Pack(){} // RVA: 0x7FFE8816D980
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonByteArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0BF670
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E0280
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E02F0
+        public void CreateUdonByteArray(){} // RVA: 0x7FFAFA0E0340
+        public void StartUdonByteArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0BF8A0
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E0560 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0BFBF0
+        public void EndUdonByteArray(){} // RVA: 0x7FFAFA0E0620
+        public void UnPack(){} // RVA: 0x7FFAFA0E0670
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E0720
+        public void Pack(){} // RVA: 0x7FFAFA0E0930
     }
 
-    public class UdonByteArrayT : Object
+    public class UdonByteArrayT
     {
-        public System.Collections.Generic.List`1<byte> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonByteArrayVerify : Object
+    public class UdonByteArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8814D140
+        public void Verify(){} // RVA: 0x7FFAFA0C00F0
     }
 
-    public class UdonByteT : Object
+    public class UdonByteT
     {
-        public byte _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE811C55E0
-        public void set_Value(){} // RVA: 0x7FFE811C55F0
-        public void .ctor(){} // RVA: 0x7FFE81FCAC70
+        public void get_Value(){} // RVA: 0x7FFAF2E575E0
+        public void set_Value(){} // RVA: 0x7FFAF2E575F0
+        public void .ctor(){} // RVA: 0x7FFAF316DA00
     }
 
-    public class UdonChar : ValueType
+    public class UdonChar
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2DB
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8815FE60
-        public void CreateUdonChar(){} // RVA: 0x7FFE8816A610
-        public void UnPack(){} // RVA: 0x7FFE8816A6A0
-        public void UnPackTo(){} // RVA: 0x7FFE8815FF90
-        public void Pack(){} // RVA: 0x7FFE8816A710
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0D2E10
+        public void CreateUdonChar(){} // RVA: 0x7FFAFA0DD5C0
+        public void UnPack(){} // RVA: 0x7FFAFA0DD650
+        public void UnPackTo(){} // RVA: 0x7FFAFA0D2F40
+        public void Pack(){} // RVA: 0x7FFAFA0DD6C0
     }
 
-    public class UdonCharArray : ValueType
+    public class UdonCharArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x305
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonCharArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8816C900
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE8816C980
-        public void GetValueArray(){} // RVA: 0x7FFE8816C9F0
-        public void CreateUdonCharArray(){} // RVA: 0x7FFE8816CA40
-        public void StartUdonCharArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE8816CAC0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE8816CD50 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE8816CE10
-        public void EndUdonCharArray(){} // RVA: 0x7FFE8816CE40
-        public void UnPack(){} // RVA: 0x7FFE8816CE90
-        public void UnPackTo(){} // RVA: 0x7FFE8816CF40
-        public void Pack(){} // RVA: 0x7FFE8816D170
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonCharArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0DF8B0
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0DF930
+        public void GetValueArray(){} // RVA: 0x7FFAFA0DF9A0
+        public void CreateUdonCharArray(){} // RVA: 0x7FFAFA0DF9F0
+        public void StartUdonCharArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0DFA70
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0DFD00 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0DFDC0
+        public void EndUdonCharArray(){} // RVA: 0x7FFAFA0DFDF0
+        public void UnPack(){} // RVA: 0x7FFAFA0DFE40
+        public void UnPackTo(){} // RVA: 0x7FFAFA0DFEF0
+        public void Pack(){} // RVA: 0x7FFAFA0E0120
     }
 
-    public class UdonCharArrayT : Object
+    public class UdonCharArrayT
     {
-        public System.Collections.Generic.List`1<ushort> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonCharArrayVerify : Object
+    public class UdonCharArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8816D260
+        public void Verify(){} // RVA: 0x7FFAFA0E0210
     }
 
-    public class UdonCharT : Object
+    public class UdonCharT
     {
-        public ushort _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE8299FB40
-        public void set_Value(){} // RVA: 0x7FFE8299FB10
-        public void .ctor(){} // RVA: 0x7FFE82B02750
+        public void get_Value(){} // RVA: 0x7FFAF46BF720
+        public void set_Value(){} // RVA: 0x7FFAF46BFA70
+        public void .ctor(){} // RVA: 0x7FFAF4822E00
     }
 
-    public class UdonDouble : ValueType
+    public class UdonDouble
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2F3
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE88160720
-        public void CreateUdonDouble(){} // RVA: 0x7FFE8816AFC0
-        public void UnPack(){} // RVA: 0x7FFE8816B050
-        public void UnPackTo(){} // RVA: 0x7FFE88160860
-        public void Pack(){} // RVA: 0x7FFE8816B0D0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0D36D0
+        public void CreateUdonDouble(){} // RVA: 0x7FFAFA0DDF70
+        public void UnPack(){} // RVA: 0x7FFAFA0DE000
+        public void UnPackTo(){} // RVA: 0x7FFAFA0D3810
+        public void Pack(){} // RVA: 0x7FFAFA0DE080
     }
 
-    public class UdonDoubleArray : ValueType
+    public class UdonDoubleArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x31D
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonDoubleArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE88170DC0
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE88170E40
-        public void GetValueArray(){} // RVA: 0x7FFE88170EB0
-        public void CreateUdonDoubleArray(){} // RVA: 0x7FFE88170F00
-        public void StartUdonDoubleArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE88170F80
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE881712A0 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE8816E7D0
-        public void EndUdonDoubleArray(){} // RVA: 0x7FFE88171360
-        public void UnPack(){} // RVA: 0x7FFE881713B0
-        public void UnPackTo(){} // RVA: 0x7FFE88171460
-        public void Pack(){} // RVA: 0x7FFE88171670
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonDoubleArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0E3D70
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E3DF0
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E3E60
+        public void CreateUdonDoubleArray(){} // RVA: 0x7FFAFA0E3EB0
+        public void StartUdonDoubleArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0E3F30
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E4250 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0E1780
+        public void EndUdonDoubleArray(){} // RVA: 0x7FFAFA0E4310
+        public void UnPack(){} // RVA: 0x7FFAFA0E4360
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E4410
+        public void Pack(){} // RVA: 0x7FFAFA0E4620
     }
 
-    public class UdonDoubleArrayT : Object
+    public class UdonDoubleArrayT
     {
-        public System.Collections.Generic.List`1<double> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonDoubleArrayVerify : Object
+    public class UdonDoubleArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8816EC10
+        public void Verify(){} // RVA: 0x7FFAFA0E1BC0
     }
 
-    public class UdonDoubleT : Object
+    public class UdonDoubleT
     {
-        public double _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE83BB0D80
-        public void set_Value(){} // RVA: 0x7FFE84D215B0
-        public void .ctor(){} // RVA: 0x7FFE81DB74C0
+        public void get_Value(){} // RVA: 0x7FFAF5991B30
+        public void set_Value(){} // RVA: 0x7FFAF6B5B380
+        public void .ctor(){} // RVA: 0x7FFAF3B121F0
     }
 
-    public class UdonFloat : ValueType
+    public class UdonFloat
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2F0
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8814BF90
-        public void CreateUdonFloat(){} // RVA: 0x7FFE8816AE30
-        public void UnPack(){} // RVA: 0x7FFE8816AEC0
-        public void UnPackTo(){} // RVA: 0x7FFE8814C0C0
-        public void Pack(){} // RVA: 0x7FFE8816AF30
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0BEF40
+        public void CreateUdonFloat(){} // RVA: 0x7FFAFA0DDDE0
+        public void UnPack(){} // RVA: 0x7FFAFA0DDE70
+        public void UnPackTo(){} // RVA: 0x7FFAFA0BF070
+        public void Pack(){} // RVA: 0x7FFAFA0DDEE0
     }
 
-    public class UdonFloatArray : ValueType
+    public class UdonFloatArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x31A
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonFloatArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE88170420
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE881704A0
-        public void GetValueArray(){} // RVA: 0x7FFE88170510
-        public void CreateUdonFloatArray(){} // RVA: 0x7FFE88170560
-        public void StartUdonFloatArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE881705E0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE88170900 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE88145240
-        public void EndUdonFloatArray(){} // RVA: 0x7FFE881709C0
-        public void UnPack(){} // RVA: 0x7FFE88170A10
-        public void UnPackTo(){} // RVA: 0x7FFE88170AC0
-        public void Pack(){} // RVA: 0x7FFE88170CD0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonFloatArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0E33D0
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E3450
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E34C0
+        public void CreateUdonFloatArray(){} // RVA: 0x7FFAFA0E3510
+        public void StartUdonFloatArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0E3590
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E38B0 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0B81F0
+        public void EndUdonFloatArray(){} // RVA: 0x7FFAFA0E3970
+        public void UnPack(){} // RVA: 0x7FFAFA0E39C0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E3A70
+        public void Pack(){} // RVA: 0x7FFAFA0E3C80
     }
 
-    public class UdonFloatArrayT : Object
+    public class UdonFloatArrayT
     {
-        public System.Collections.Generic.List`1<float> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonFloatArrayVerify : Object
+    public class UdonFloatArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8815CE20
+        public void Verify(){} // RVA: 0x7FFAFA0CFDD0
     }
 
-    public class UdonFloatT : Object
+    public class UdonFloatT
     {
-        public float _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81225320
-        public void set_Value(){} // RVA: 0x7FFE81225330
-        public void .ctor(){} // RVA: 0x7FFE817EE4A0
+        public void get_Value(){} // RVA: 0x7FFAF2EB7320
+        public void set_Value(){} // RVA: 0x7FFAF2EB7330
+        public void .ctor(){} // RVA: 0x7FFAF350D070
     }
 
-    public class UdonInfo : ValueType
+    public class UdonInfo
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x208
-        public object field_2; // 0x209
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonInfo(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Names(){} // RVA: 0x7FFE8814F2E0
-        public void get_NamesLength(){} // RVA: 0x7FFE8814C740
-        public void Types(){} // RVA: 0x7FFE8814F3B0
-        public void get_TypesLength(){} // RVA: 0x7FFE8814D440
-        public void CreateUdonInfo(){} // RVA: 0x7FFE8814F480
-        public void StartUdonInfo(){} // RVA: 0x7FFE8814D560
-        public void AddNames(){} // RVA: 0x7FFE8814C380
-        public void CreateNamesVector(){} // RVA: 0x7FFE88144E80
-        public void CreateNamesVectorBlock(){} // RVA: 0x7FFE8814F6D0 | overloaded x3
-        public void StartNamesVector(){} // RVA: 0x7FFE88145240
-        public void AddTypes(){} // RVA: 0x7FFE8814D7F0
-        public void CreateTypesVector(){} // RVA: 0x7FFE88144E80
-        public void CreateTypesVectorBlock(){} // RVA: 0x7FFE8814F930 | overloaded x3
-        public void StartTypesVector(){} // RVA: 0x7FFE88145240
-        public void EndUdonInfo(){} // RVA: 0x7FFE8814F9F0
-        public void UnPack(){} // RVA: 0x7FFE8814FA40
-        public void UnPackTo(){} // RVA: 0x7FFE8814FAB0
-        public void Pack(){} // RVA: 0x7FFE8814FDA0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonInfo(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Names(){} // RVA: 0x7FFAFA0C2290
+        public void get_NamesLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void Types(){} // RVA: 0x7FFAFA0C2360
+        public void get_TypesLength(){} // RVA: 0x7FFAFA0C03F0
+        public void CreateUdonInfo(){} // RVA: 0x7FFAFA0C2430
+        public void StartUdonInfo(){} // RVA: 0x7FFAFA0C0510
+        public void AddNames(){} // RVA: 0x7FFAFA0BF330
+        public void CreateNamesVector(){} // RVA: 0x7FFAFA0B7E30
+        public void CreateNamesVectorBlock(){} // RVA: 0x7FFAFA0C2680 | overloaded x3
+        public void StartNamesVector(){} // RVA: 0x7FFAFA0B81F0
+        public void AddTypes(){} // RVA: 0x7FFAFA0C07A0
+        public void CreateTypesVector(){} // RVA: 0x7FFAFA0B7E30
+        public void CreateTypesVectorBlock(){} // RVA: 0x7FFAFA0C28E0 | overloaded x3
+        public void StartTypesVector(){} // RVA: 0x7FFAFA0B81F0
+        public void EndUdonInfo(){} // RVA: 0x7FFAFA0C29A0
+        public void UnPack(){} // RVA: 0x7FFAFA0C29F0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0C2A60
+        public void Pack(){} // RVA: 0x7FFAFA0C2D50
     }
 
-    public class UdonInfoT : Object
+    public class UdonInfoT
     {
-        public System.Collections.Generic.List`1<string> _names; // 0x10
-        public System.Collections.Generic.List`1<string> _types; // 0x18
-
         // ── Methods ──
-        public void get_Names(){} // RVA: 0x7FFE81116380
-        public void set_Names(){} // RVA: 0x7FFE810FCE30
-        public void get_Types(){} // RVA: 0x7FFE810FE7C0
-        public void set_Types(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE8812BFA0
+        public void get_Names(){} // RVA: 0x7FFAF2DA8380
+        public void set_Names(){} // RVA: 0x7FFAF2D8EE30
+        public void get_Types(){} // RVA: 0x7FFAF2D907C0
+        public void set_Types(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAFA09EF50
     }
 
-    public class UdonInfoVerify : Object
+    public class UdonInfoVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE88150120
+        public void Verify(){} // RVA: 0x7FFAFA0C30D0
     }
 
-    public class UdonInt : ValueType
+    public class UdonInt
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2E1
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8814BD70
-        public void CreateUdonInt(){} // RVA: 0x7FFE8816A850
-        public void UnPack(){} // RVA: 0x7FFE8816A8E0
-        public void UnPackTo(){} // RVA: 0x7FFE8814BEA0
-        public void Pack(){} // RVA: 0x7FFE8816A950
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0BED20
+        public void CreateUdonInt(){} // RVA: 0x7FFAFA0DD800
+        public void UnPack(){} // RVA: 0x7FFAFA0DD890
+        public void UnPackTo(){} // RVA: 0x7FFAFA0BEE50
+        public void Pack(){} // RVA: 0x7FFAFA0DD900
     }
 
-    public class UdonIntArray : ValueType
+    public class UdonIntArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x30B
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonIntArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8815C5F0
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE8816DA70
-        public void GetValueArray(){} // RVA: 0x7FFE8816DAE0
-        public void CreateUdonIntArray(){} // RVA: 0x7FFE8816DB30
-        public void StartUdonIntArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE881507C0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE8816DD50 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE88145240
-        public void EndUdonIntArray(){} // RVA: 0x7FFE8816DE10
-        public void UnPack(){} // RVA: 0x7FFE8816DE60
-        public void UnPackTo(){} // RVA: 0x7FFE8816DF10
-        public void Pack(){} // RVA: 0x7FFE8816E130
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonIntArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0CF5A0
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E0A20
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E0A90
+        public void CreateUdonIntArray(){} // RVA: 0x7FFAFA0E0AE0
+        public void StartUdonIntArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0C3770
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E0D00 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0B81F0
+        public void EndUdonIntArray(){} // RVA: 0x7FFAFA0E0DC0
+        public void UnPack(){} // RVA: 0x7FFAFA0E0E10
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E0EC0
+        public void Pack(){} // RVA: 0x7FFAFA0E10E0
     }
 
-    public class UdonIntArrayT : Object
+    public class UdonIntArrayT
     {
-        public System.Collections.Generic.List`1<int> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonIntArrayVerify : Object
+    public class UdonIntArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8815CE20
+        public void Verify(){} // RVA: 0x7FFAFA0CFDD0
     }
 
-    public class UdonIntT : Object
+    public class UdonIntT
     {
-        public int _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE811485C0
-        public void set_Value(){} // RVA: 0x7FFE810FE0C0
-        public void .ctor(){} // RVA: 0x7FFE817EE4A0
+        public void get_Value(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_Value(){} // RVA: 0x7FFAF2D900C0
+        public void .ctor(){} // RVA: 0x7FFAF350D070
     }
 
-    public class UdonLong : ValueType
+    public class UdonLong
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2E4
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE88154C80
-        public void CreateUdonLong(){} // RVA: 0x7FFE8816A970
-        public void UnPack(){} // RVA: 0x7FFE8816AA00
-        public void UnPackTo(){} // RVA: 0x7FFE8816AA70
-        public void Pack(){} // RVA: 0x7FFE8816AAB0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0C7C30
+        public void CreateUdonLong(){} // RVA: 0x7FFAFA0DD920
+        public void UnPack(){} // RVA: 0x7FFAFA0DD9B0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0DDA20
+        public void Pack(){} // RVA: 0x7FFAFA0DDA60
     }
 
-    public class UdonLongArray : ValueType
+    public class UdonLongArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x30E
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonLongArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8816E220
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE8816E2A0
-        public void GetValueArray(){} // RVA: 0x7FFE8816E310
-        public void CreateUdonLongArray(){} // RVA: 0x7FFE8816E360
-        public void StartUdonLongArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE8816E3E0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE8816E710 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE8816E7D0
-        public void EndUdonLongArray(){} // RVA: 0x7FFE8816E800
-        public void UnPack(){} // RVA: 0x7FFE8816E850
-        public void UnPackTo(){} // RVA: 0x7FFE8816E900
-        public void Pack(){} // RVA: 0x7FFE8816EB20
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonLongArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0E11D0
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E1250
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E12C0
+        public void CreateUdonLongArray(){} // RVA: 0x7FFAFA0E1310
+        public void StartUdonLongArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0E1390
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E16C0 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0E1780
+        public void EndUdonLongArray(){} // RVA: 0x7FFAFA0E17B0
+        public void UnPack(){} // RVA: 0x7FFAFA0E1800
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E18B0
+        public void Pack(){} // RVA: 0x7FFAFA0E1AD0
     }
 
-    public class UdonLongArrayT : Object
+    public class UdonLongArrayT
     {
-        public System.Collections.Generic.List`1<long> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonLongArrayVerify : Object
+    public class UdonLongArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8816EC10
+        public void Verify(){} // RVA: 0x7FFAFA0E1BC0
     }
 
-    public class UdonLongT : Object
+    public class UdonLongT
     {
-        public long _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE826F2ED0
-        public void .ctor(){} // RVA: 0x7FFE81DB74C0
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF4417700
+        public void .ctor(){} // RVA: 0x7FFAF3B121F0
     }
 
-    public class UdonShort : ValueType
+    public class UdonShort
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2F6
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8815FE60
-        public void CreateUdonShort(){} // RVA: 0x7FFE8816B160
-        public void UnPack(){} // RVA: 0x7FFE8816B1F0
-        public void UnPackTo(){} // RVA: 0x7FFE8815FF90
-        public void Pack(){} // RVA: 0x7FFE8816B260
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0D2E10
+        public void CreateUdonShort(){} // RVA: 0x7FFAFA0DE110
+        public void UnPack(){} // RVA: 0x7FFAFA0DE1A0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0D2F40
+        public void Pack(){} // RVA: 0x7FFAFA0DE210
     }
 
-    public class UdonShortArray : ValueType
+    public class UdonShortArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x320
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonShortArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8816C900
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE88171760
-        public void GetValueArray(){} // RVA: 0x7FFE881717D0
-        public void CreateUdonShortArray(){} // RVA: 0x7FFE88171820
-        public void StartUdonShortArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE8816CAC0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE88171AE0 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE8816CE10
-        public void EndUdonShortArray(){} // RVA: 0x7FFE88171BA0
-        public void UnPack(){} // RVA: 0x7FFE88171BF0
-        public void UnPackTo(){} // RVA: 0x7FFE88171CA0
-        public void Pack(){} // RVA: 0x7FFE88171ED0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonShortArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0DF8B0
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E4710
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E4780
+        public void CreateUdonShortArray(){} // RVA: 0x7FFAFA0E47D0
+        public void StartUdonShortArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0DFA70
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E4A90 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0DFDC0
+        public void EndUdonShortArray(){} // RVA: 0x7FFAFA0E4B50
+        public void UnPack(){} // RVA: 0x7FFAFA0E4BA0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E4C50
+        public void Pack(){} // RVA: 0x7FFAFA0E4E80
     }
 
-    public class UdonShortArrayT : Object
+    public class UdonShortArrayT
     {
-        public System.Collections.Generic.List`1<short> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonShortArrayVerify : Object
+    public class UdonShortArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8816D260
+        public void Verify(){} // RVA: 0x7FFAFA0E0210
     }
 
-    public class UdonShortT : Object
+    public class UdonShortT
     {
-        public short _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE8299FB40
-        public void set_Value(){} // RVA: 0x7FFE8299FB10
-        public void .ctor(){} // RVA: 0x7FFE82B02750
+        public void get_Value(){} // RVA: 0x7FFAF46BF720
+        public void set_Value(){} // RVA: 0x7FFAF46BFA70
+        public void .ctor(){} // RVA: 0x7FFAF4822E00
     }
 
-    public class UdonString : ValueType
+    public class UdonString
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x2FC
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonString(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8814C190
-        public void GetValueBytes(){} // RVA: 0x7FFE8816B3A0
-        public void GetValueArray(){} // RVA: 0x7FFE8816B410
-        public void CreateUdonString(){} // RVA: 0x7FFE8816B460
-        public void StartUdonString(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void EndUdonString(){} // RVA: 0x7FFE8816B4E0
-        public void UnPack(){} // RVA: 0x7FFE8816B530
-        public void UnPackTo(){} // RVA: 0x7FFE8814C520
-        public void Pack(){} // RVA: 0x7FFE8816B640
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonString(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0BF140
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0DE350
+        public void GetValueArray(){} // RVA: 0x7FFAFA0DE3C0
+        public void CreateUdonString(){} // RVA: 0x7FFAFA0DE410
+        public void StartUdonString(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void EndUdonString(){} // RVA: 0x7FFAFA0DE490
+        public void UnPack(){} // RVA: 0x7FFAFA0DE4E0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0BF4D0
+        public void Pack(){} // RVA: 0x7FFAFA0DE5F0
     }
 
-    public class UdonStringArray : ValueType
+    public class UdonStringArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x2FF
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonStringArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8814F2E0
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void CreateUdonStringArray(){} // RVA: 0x7FFE8816B700
-        public void StartUdonStringArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE88144E80
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE8816B920 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE88145240
-        public void EndUdonStringArray(){} // RVA: 0x7FFE8816B9E0
-        public void UnPack(){} // RVA: 0x7FFE8816BA30
-        public void UnPackTo(){} // RVA: 0x7FFE8816BAE0
-        public void Pack(){} // RVA: 0x7FFE8816BCA0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonStringArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0C2290
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void CreateUdonStringArray(){} // RVA: 0x7FFAFA0DE6B0
+        public void StartUdonStringArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0B7E30
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0DE8D0 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0B81F0
+        public void EndUdonStringArray(){} // RVA: 0x7FFAFA0DE990
+        public void UnPack(){} // RVA: 0x7FFAFA0DE9E0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0DEA90
+        public void Pack(){} // RVA: 0x7FFAFA0DEC50
     }
 
-    public class UdonStringArrayT : Object
+    public class UdonStringArrayT
     {
-        public System.Collections.Generic.List`1<string> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonStringArrayVerify : Object
+    public class UdonStringArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8816BEE0
+        public void Verify(){} // RVA: 0x7FFAFA0DEE90
     }
 
-    public class UdonStringT : Object
+    public class UdonStringT
     {
-        public string _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonStringVerify : Object
+    public class UdonStringVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8814C650
+        public void Verify(){} // RVA: 0x7FFAFA0BF600
     }
 
-    public class UdonT : Object
+    public class UdonT
     {
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.UdonValueUnion> _data; // 0x10
-
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x7FFE81116380
-        public void set_Data(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
-        public void DeserializeFromBinary(){} // RVA: 0x7FFE88177E70
-        public void SerializeToBinary(){} // RVA: 0x7FFE88177F20
+        public void get_Data(){} // RVA: 0x7FFAF2DA8380
+        public void set_Data(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
+        public void DeserializeFromBinary(){} // RVA: 0x7FFAFA0EAE20
+        public void SerializeToBinary(){} // RVA: 0x7FFAFA0EAED0
     }
 
-    public class UdonUByte : ValueType
+    public class UdonUByte
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2E7
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE88155130
-        public void CreateUdonUByte(){} // RVA: 0x7FFE8816AAD0
-        public void UnPack(){} // RVA: 0x7FFE8816AB60
-        public void UnPackTo(){} // RVA: 0x7FFE88160BE0
-        public void Pack(){} // RVA: 0x7FFE8816ABD0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0C80E0
+        public void CreateUdonUByte(){} // RVA: 0x7FFAFA0DDA80
+        public void UnPack(){} // RVA: 0x7FFAFA0DDB10
+        public void UnPackTo(){} // RVA: 0x7FFAFA0D3B90
+        public void Pack(){} // RVA: 0x7FFAFA0DDB80
     }
 
-    public class UdonUByteArray : ValueType
+    public class UdonUByteArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x311
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonUByteArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8814C6C0
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE8816EC80
-        public void GetValueArray(){} // RVA: 0x7FFE8816ECF0
-        public void CreateUdonUByteArray(){} // RVA: 0x7FFE8816ED40
-        public void StartUdonUByteArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE8814C8F0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE8816EF60 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE8814CC40
-        public void EndUdonUByteArray(){} // RVA: 0x7FFE8816F020
-        public void UnPack(){} // RVA: 0x7FFE8816F070
-        public void UnPackTo(){} // RVA: 0x7FFE8816F120
-        public void Pack(){} // RVA: 0x7FFE8816F330
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonUByteArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0BF670
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E1C30
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E1CA0
+        public void CreateUdonUByteArray(){} // RVA: 0x7FFAFA0E1CF0
+        public void StartUdonUByteArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0BF8A0
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E1F10 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0BFBF0
+        public void EndUdonUByteArray(){} // RVA: 0x7FFAFA0E1FD0
+        public void UnPack(){} // RVA: 0x7FFAFA0E2020
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E20D0
+        public void Pack(){} // RVA: 0x7FFAFA0E22E0
     }
 
-    public class UdonUByteArrayT : Object
+    public class UdonUByteArrayT
     {
-        public System.Collections.Generic.List`1<byte> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonUByteArrayVerify : Object
+    public class UdonUByteArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8814D140
+        public void Verify(){} // RVA: 0x7FFAFA0C00F0
     }
 
-    public class UdonUByteT : Object
+    public class UdonUByteT
     {
-        public byte _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE811C55E0
-        public void set_Value(){} // RVA: 0x7FFE811C55F0
-        public void .ctor(){} // RVA: 0x7FFE81FCAC70
+        public void get_Value(){} // RVA: 0x7FFAF2E575E0
+        public void set_Value(){} // RVA: 0x7FFAF2E575F0
+        public void .ctor(){} // RVA: 0x7FFAF316DA00
     }
 
-    public class UdonUInt : ValueType
+    public class UdonUInt
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2EA
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8814BD70
-        public void CreateUdonUInt(){} // RVA: 0x7FFE8816ABF0
-        public void UnPack(){} // RVA: 0x7FFE8816AC80
-        public void UnPackTo(){} // RVA: 0x7FFE8814BEA0
-        public void Pack(){} // RVA: 0x7FFE8816ACF0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0BED20
+        public void CreateUdonUInt(){} // RVA: 0x7FFAFA0DDBA0
+        public void UnPack(){} // RVA: 0x7FFAFA0DDC30
+        public void UnPackTo(){} // RVA: 0x7FFAFA0BEE50
+        public void Pack(){} // RVA: 0x7FFAFA0DDCA0
     }
 
-    public class UdonUIntArray : ValueType
+    public class UdonUIntArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x314
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonUIntArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8815C5F0
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE8816F420
-        public void GetValueArray(){} // RVA: 0x7FFE8816F490
-        public void CreateUdonUIntArray(){} // RVA: 0x7FFE8816F4E0
-        public void StartUdonUIntArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE881507C0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE8816F700 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE88145240
-        public void EndUdonUIntArray(){} // RVA: 0x7FFE8816F7C0
-        public void UnPack(){} // RVA: 0x7FFE8816F810
-        public void UnPackTo(){} // RVA: 0x7FFE8816F8C0
-        public void Pack(){} // RVA: 0x7FFE8816FAE0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonUIntArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0CF5A0
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E23D0
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E2440
+        public void CreateUdonUIntArray(){} // RVA: 0x7FFAFA0E2490
+        public void StartUdonUIntArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0C3770
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E26B0 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0B81F0
+        public void EndUdonUIntArray(){} // RVA: 0x7FFAFA0E2770
+        public void UnPack(){} // RVA: 0x7FFAFA0E27C0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E2870
+        public void Pack(){} // RVA: 0x7FFAFA0E2A90
     }
 
-    public class UdonUIntArrayT : Object
+    public class UdonUIntArrayT
     {
-        public System.Collections.Generic.List`1<uint> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonUIntArrayVerify : Object
+    public class UdonUIntArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8815CE20
+        public void Verify(){} // RVA: 0x7FFAFA0CFDD0
     }
 
-    public class UdonUIntT : Object
+    public class UdonUIntT
     {
-        public uint _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE811485C0
-        public void set_Value(){} // RVA: 0x7FFE810FE0C0
-        public void .ctor(){} // RVA: 0x7FFE817EE4A0
+        public void get_Value(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_Value(){} // RVA: 0x7FFAF2D900C0
+        public void .ctor(){} // RVA: 0x7FFAF350D070
     }
 
-    public class UdonULong : ValueType
+    public class UdonULong
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2ED
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE88154C80
-        public void CreateUdonULong(){} // RVA: 0x7FFE8816AD10
-        public void UnPack(){} // RVA: 0x7FFE8816ADA0
-        public void UnPackTo(){} // RVA: 0x7FFE8816AA70
-        public void Pack(){} // RVA: 0x7FFE8816AE10
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0C7C30
+        public void CreateUdonULong(){} // RVA: 0x7FFAFA0DDCC0
+        public void UnPack(){} // RVA: 0x7FFAFA0DDD50
+        public void UnPackTo(){} // RVA: 0x7FFAFA0DDA20
+        public void Pack(){} // RVA: 0x7FFAFA0DDDC0
     }
 
-    public class UdonULongArray : ValueType
+    public class UdonULongArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x317
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonULongArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8816E220
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE8816FBD0
-        public void GetValueArray(){} // RVA: 0x7FFE8816FC40
-        public void CreateUdonULongArray(){} // RVA: 0x7FFE8816FC90
-        public void StartUdonULongArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE8816E3E0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE8816FF50 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE8816E7D0
-        public void EndUdonULongArray(){} // RVA: 0x7FFE88170010
-        public void UnPack(){} // RVA: 0x7FFE88170060
-        public void UnPackTo(){} // RVA: 0x7FFE88170110
-        public void Pack(){} // RVA: 0x7FFE88170330
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonULongArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0E11D0
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E2B80
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E2BF0
+        public void CreateUdonULongArray(){} // RVA: 0x7FFAFA0E2C40
+        public void StartUdonULongArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0E1390
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E2F00 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0E1780
+        public void EndUdonULongArray(){} // RVA: 0x7FFAFA0E2FC0
+        public void UnPack(){} // RVA: 0x7FFAFA0E3010
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E30C0
+        public void Pack(){} // RVA: 0x7FFAFA0E32E0
     }
 
-    public class UdonULongArrayT : Object
+    public class UdonULongArrayT
     {
-        public System.Collections.Generic.List`1<ulong> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonULongArrayVerify : Object
+    public class UdonULongArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8816EC10
+        public void Verify(){} // RVA: 0x7FFAFA0E1BC0
     }
 
-    public class UdonULongT : Object
+    public class UdonULongT
     {
-        public ulong _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE826F2ED0
-        public void .ctor(){} // RVA: 0x7FFE81DB74C0
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF4417700
+        public void .ctor(){} // RVA: 0x7FFAF3B121F0
     }
 
-    public class UdonUShort : ValueType
+    public class UdonUShort
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-        public object field_1; // 0x2F9
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Value(){} // RVA: 0x7FFE8815FE60
-        public void CreateUdonUShort(){} // RVA: 0x7FFE8816B280
-        public void UnPack(){} // RVA: 0x7FFE8816B310
-        public void UnPackTo(){} // RVA: 0x7FFE8815FF90
-        public void Pack(){} // RVA: 0x7FFE8816B380
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Value(){} // RVA: 0x7FFAFA0D2E10
+        public void CreateUdonUShort(){} // RVA: 0x7FFAFA0DE230
+        public void UnPack(){} // RVA: 0x7FFAFA0DE2C0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0D2F40
+        public void Pack(){} // RVA: 0x7FFAFA0DE330
     }
 
-    public class UdonUShortArray : ValueType
+    public class UdonUShortArray
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x323
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsUdonUShortArray(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void Value(){} // RVA: 0x7FFE8816C900
-        public void get_ValueLength(){} // RVA: 0x7FFE8814C740
-        public void GetValueBytes(){} // RVA: 0x7FFE88171FC0
-        public void GetValueArray(){} // RVA: 0x7FFE88172030
-        public void CreateUdonUShortArray(){} // RVA: 0x7FFE88172080
-        public void StartUdonUShortArray(){} // RVA: 0x7FFE8814C360
-        public void AddValue(){} // RVA: 0x7FFE8814C380
-        public void CreateValueVector(){} // RVA: 0x7FFE8816CAC0
-        public void CreateValueVectorBlock(){} // RVA: 0x7FFE881722A0 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x7FFE8816CE10
-        public void EndUdonUShortArray(){} // RVA: 0x7FFE88172360
-        public void UnPack(){} // RVA: 0x7FFE881723B0
-        public void UnPackTo(){} // RVA: 0x7FFE88172460
-        public void Pack(){} // RVA: 0x7FFE88172690
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsUdonUShortArray(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void Value(){} // RVA: 0x7FFAFA0DF8B0
+        public void get_ValueLength(){} // RVA: 0x7FFAFA0BF6F0
+        public void GetValueBytes(){} // RVA: 0x7FFAFA0E4F70
+        public void GetValueArray(){} // RVA: 0x7FFAFA0E4FE0
+        public void CreateUdonUShortArray(){} // RVA: 0x7FFAFA0E5030
+        public void StartUdonUShortArray(){} // RVA: 0x7FFAFA0BF310
+        public void AddValue(){} // RVA: 0x7FFAFA0BF330
+        public void CreateValueVector(){} // RVA: 0x7FFAFA0DFA70
+        public void CreateValueVectorBlock(){} // RVA: 0x7FFAFA0E5250 | overloaded x3
+        public void StartValueVector(){} // RVA: 0x7FFAFA0DFDC0
+        public void EndUdonUShortArray(){} // RVA: 0x7FFAFA0E5310
+        public void UnPack(){} // RVA: 0x7FFAFA0E5360
+        public void UnPackTo(){} // RVA: 0x7FFAFA0E5410
+        public void Pack(){} // RVA: 0x7FFAFA0E5640
     }
 
-    public class UdonUShortArrayT : Object
+    public class UdonUShortArrayT
     {
-        public System.Collections.Generic.List`1<ushort> _value; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE81116380
-        public void set_Value(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE86200400
+        public void get_Value(){} // RVA: 0x7FFAF2DA8380
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF81FFB20
     }
 
-    public class UdonUShortArrayVerify : Object
+    public class UdonUShortArrayVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8816D260
+        public void Verify(){} // RVA: 0x7FFAFA0E0210
     }
 
-    public class UdonUShortT : Object
+    public class UdonUShortT
     {
-        public ushort _value; // 0x10
+        public object ByteBuffer;
 
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x7FFE8299FB40
-        public void set_Value(){} // RVA: 0x7FFE8299FB10
-        public void .ctor(){} // RVA: 0x7FFE82B02750
+        public void get_Value(){} // RVA: 0x7FFAF46BF720
+        public void set_Value(){} // RVA: 0x7FFAF46BFA70
+        public void .ctor(){} // RVA: 0x7FFAF4822E00
     }
 
-    public class UdonValueUnion : Object
+    public class UdonValueUnion
     {
-        public 0x665FBEB4 _type; // 0x10
-        public object _value; // 0x18
+        public object Type;
+        public object Value;
 
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x7FFE811C55E0
-        public void set_Type(){} // RVA: 0x7FFE811C55F0
-        public void get_Value(){} // RVA: 0x7FFE810FE7C0
-        public void set_Value(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE8811CB20
-        public void As(){} // RVA: 0x7FFE810A1420
-        public void AsUdonShort(){} // RVA: 0x7FFE88165E60
-        public void FromUdonShort(){} // RVA: 0x7FFE88165EA0
-        public void AsUdonUShort(){} // RVA: 0x7FFE88165FA0
-        public void FromUdonUShort(){} // RVA: 0x7FFE88165FE0
-        public void AsUdonChar(){} // RVA: 0x7FFE881660E0
-        public void FromUdonChar(){} // RVA: 0x7FFE88166120
-        public void AsUdonByte(){} // RVA: 0x7FFE88166220
-        public void FromUdonByte(){} // RVA: 0x7FFE88166260
-        public void AsUdonUByte(){} // RVA: 0x7FFE88166360
-        public void FromUdonUByte(){} // RVA: 0x7FFE881663A0
-        public void AsUdonLong(){} // RVA: 0x7FFE881664A0
-        public void FromUdonLong(){} // RVA: 0x7FFE881664E0
-        public void AsUdonULong(){} // RVA: 0x7FFE881665E0
-        public void FromUdonULong(){} // RVA: 0x7FFE88166620
-        public void AsUdonDouble(){} // RVA: 0x7FFE88166720
-        public void FromUdonDouble(){} // RVA: 0x7FFE88166760
-        public void AsUdonBool(){} // RVA: 0x7FFE88166860
-        public void FromUdonBool(){} // RVA: 0x7FFE881668A0
-        public void AsUdonFloat(){} // RVA: 0x7FFE881669A0
-        public void FromUdonFloat(){} // RVA: 0x7FFE881669E0
-        public void AsUdonInt(){} // RVA: 0x7FFE88166AE0
-        public void FromUdonInt(){} // RVA: 0x7FFE88166B20
-        public void AsUdonUInt(){} // RVA: 0x7FFE88166C20
-        public void FromUdonUInt(){} // RVA: 0x7FFE88166C60
-        public void AsVector2(){} // RVA: 0x7FFE88166D60
-        public void FromVector2(){} // RVA: 0x7FFE88166DA0
-        public void AsVector3(){} // RVA: 0x7FFE88166EA0
-        public void FromVector3(){} // RVA: 0x7FFE88166EE0
-        public void AsVector4(){} // RVA: 0x7FFE88166FE0
-        public void FromVector4(){} // RVA: 0x7FFE88167020
-        public void AsQuaternion(){} // RVA: 0x7FFE88167120
-        public void FromQuaternion(){} // RVA: 0x7FFE88167160
-        public void AsColor(){} // RVA: 0x7FFE88167260
-        public void FromColor(){} // RVA: 0x7FFE881672A0
-        public void AsColor32(){} // RVA: 0x7FFE881673A0
-        public void FromColor32(){} // RVA: 0x7FFE881673E0
-        public void AsUdonShortArray(){} // RVA: 0x7FFE881674E0
-        public void FromUdonShortArray(){} // RVA: 0x7FFE88167520
-        public void AsUdonUShortArray(){} // RVA: 0x7FFE88167620
-        public void FromUdonUShortArray(){} // RVA: 0x7FFE88167660
-        public void AsUdonCharArray(){} // RVA: 0x7FFE88167760
-        public void FromUdonCharArray(){} // RVA: 0x7FFE881677A0
-        public void AsUdonByteArray(){} // RVA: 0x7FFE881678A0
-        public void FromUdonByteArray(){} // RVA: 0x7FFE881678E0
-        public void AsUdonUByteArray(){} // RVA: 0x7FFE881679E0
-        public void FromUdonUByteArray(){} // RVA: 0x7FFE88167A20
-        public void AsUdonLongArray(){} // RVA: 0x7FFE88167B20
-        public void FromUdonLongArray(){} // RVA: 0x7FFE88167B60
-        public void AsUdonULongArray(){} // RVA: 0x7FFE88167C60
-        public void FromUdonULongArray(){} // RVA: 0x7FFE88167CA0
-        public void AsUdonDoubleArray(){} // RVA: 0x7FFE88167DA0
-        public void FromUdonDoubleArray(){} // RVA: 0x7FFE88167DE0
-        public void AsUdonBoolArray(){} // RVA: 0x7FFE88167EE0
-        public void FromUdonBoolArray(){} // RVA: 0x7FFE88167F20
-        public void AsUdonFloatArray(){} // RVA: 0x7FFE88168020
-        public void FromUdonFloatArray(){} // RVA: 0x7FFE88168060
-        public void AsUdonIntArray(){} // RVA: 0x7FFE88168160
-        public void FromUdonIntArray(){} // RVA: 0x7FFE881681A0
-        public void AsUdonUIntArray(){} // RVA: 0x7FFE881682A0
-        public void FromUdonUIntArray(){} // RVA: 0x7FFE881682E0
-        public void AsVector2Array(){} // RVA: 0x7FFE881683E0
-        public void FromVector2Array(){} // RVA: 0x7FFE88168420
-        public void AsVector3Array(){} // RVA: 0x7FFE88168520
-        public void FromVector3Array(){} // RVA: 0x7FFE88168560
-        public void AsVector4Array(){} // RVA: 0x7FFE88168660
-        public void FromVector4Array(){} // RVA: 0x7FFE881686A0
-        public void AsQuaternionArray(){} // RVA: 0x7FFE881687A0
-        public void FromQuaternionArray(){} // RVA: 0x7FFE881687E0
-        public void AsColorArray(){} // RVA: 0x7FFE881688E0
-        public void FromColorArray(){} // RVA: 0x7FFE88168920
-        public void AsColor32Array(){} // RVA: 0x7FFE88168A20
-        public void FromColor32Array(){} // RVA: 0x7FFE88168A60
-        public void AsUdonString(){} // RVA: 0x7FFE88168B60
-        public void FromUdonString(){} // RVA: 0x7FFE88168BA0
-        public void Pack(){} // RVA: 0x7FFE88168CA0
+        public void get_Type(){} // RVA: 0x7FFAF2E575E0
+        public void set_Type(){} // RVA: 0x7FFAF2E575F0
+        public void get_Value(){} // RVA: 0x7FFAF2D907C0
+        public void set_Value(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAFA08FAD0
+        public void As(){} // RVA: 0x7FFAF2D33FA0
+        public void AsUdonShort(){} // RVA: 0x7FFAFA0D8E10
+        public void FromUdonShort(){} // RVA: 0x7FFAFA0D8E50
+        public void AsUdonUShort(){} // RVA: 0x7FFAFA0D8F50
+        public void FromUdonUShort(){} // RVA: 0x7FFAFA0D8F90
+        public void AsUdonChar(){} // RVA: 0x7FFAFA0D9090
+        public void FromUdonChar(){} // RVA: 0x7FFAFA0D90D0
+        public void AsUdonByte(){} // RVA: 0x7FFAFA0D91D0
+        public void FromUdonByte(){} // RVA: 0x7FFAFA0D9210
+        public void AsUdonUByte(){} // RVA: 0x7FFAFA0D9310
+        public void FromUdonUByte(){} // RVA: 0x7FFAFA0D9350
+        public void AsUdonLong(){} // RVA: 0x7FFAFA0D9450
+        public void FromUdonLong(){} // RVA: 0x7FFAFA0D9490
+        public void AsUdonULong(){} // RVA: 0x7FFAFA0D9590
+        public void FromUdonULong(){} // RVA: 0x7FFAFA0D95D0
+        public void AsUdonDouble(){} // RVA: 0x7FFAFA0D96D0
+        public void FromUdonDouble(){} // RVA: 0x7FFAFA0D9710
+        public void AsUdonBool(){} // RVA: 0x7FFAFA0D9810
+        public void FromUdonBool(){} // RVA: 0x7FFAFA0D9850
+        public void AsUdonFloat(){} // RVA: 0x7FFAFA0D9950
+        public void FromUdonFloat(){} // RVA: 0x7FFAFA0D9990
+        public void AsUdonInt(){} // RVA: 0x7FFAFA0D9A90
+        public void FromUdonInt(){} // RVA: 0x7FFAFA0D9AD0
+        public void AsUdonUInt(){} // RVA: 0x7FFAFA0D9BD0
+        public void FromUdonUInt(){} // RVA: 0x7FFAFA0D9C10
+        public void AsVector2(){} // RVA: 0x7FFAFA0D9D10
+        public void FromVector2(){} // RVA: 0x7FFAFA0D9D50
+        public void AsVector3(){} // RVA: 0x7FFAFA0D9E50
+        public void FromVector3(){} // RVA: 0x7FFAFA0D9E90
+        public void AsVector4(){} // RVA: 0x7FFAFA0D9F90
+        public void FromVector4(){} // RVA: 0x7FFAFA0D9FD0
+        public void AsQuaternion(){} // RVA: 0x7FFAFA0DA0D0
+        public void FromQuaternion(){} // RVA: 0x7FFAFA0DA110
+        public void AsColor(){} // RVA: 0x7FFAFA0DA210
+        public void FromColor(){} // RVA: 0x7FFAFA0DA250
+        public void AsColor32(){} // RVA: 0x7FFAFA0DA350
+        public void FromColor32(){} // RVA: 0x7FFAFA0DA390
+        public void AsUdonShortArray(){} // RVA: 0x7FFAFA0DA490
+        public void FromUdonShortArray(){} // RVA: 0x7FFAFA0DA4D0
+        public void AsUdonUShortArray(){} // RVA: 0x7FFAFA0DA5D0
+        public void FromUdonUShortArray(){} // RVA: 0x7FFAFA0DA610
+        public void AsUdonCharArray(){} // RVA: 0x7FFAFA0DA710
+        public void FromUdonCharArray(){} // RVA: 0x7FFAFA0DA750
+        public void AsUdonByteArray(){} // RVA: 0x7FFAFA0DA850
+        public void FromUdonByteArray(){} // RVA: 0x7FFAFA0DA890
+        public void AsUdonUByteArray(){} // RVA: 0x7FFAFA0DA990
+        public void FromUdonUByteArray(){} // RVA: 0x7FFAFA0DA9D0
+        public void AsUdonLongArray(){} // RVA: 0x7FFAFA0DAAD0
+        public void FromUdonLongArray(){} // RVA: 0x7FFAFA0DAB10
+        public void AsUdonULongArray(){} // RVA: 0x7FFAFA0DAC10
+        public void FromUdonULongArray(){} // RVA: 0x7FFAFA0DAC50
+        public void AsUdonDoubleArray(){} // RVA: 0x7FFAFA0DAD50
+        public void FromUdonDoubleArray(){} // RVA: 0x7FFAFA0DAD90
+        public void AsUdonBoolArray(){} // RVA: 0x7FFAFA0DAE90
+        public void FromUdonBoolArray(){} // RVA: 0x7FFAFA0DAED0
+        public void AsUdonFloatArray(){} // RVA: 0x7FFAFA0DAFD0
+        public void FromUdonFloatArray(){} // RVA: 0x7FFAFA0DB010
+        public void AsUdonIntArray(){} // RVA: 0x7FFAFA0DB110
+        public void FromUdonIntArray(){} // RVA: 0x7FFAFA0DB150
+        public void AsUdonUIntArray(){} // RVA: 0x7FFAFA0DB250
+        public void FromUdonUIntArray(){} // RVA: 0x7FFAFA0DB290
+        public void AsVector2Array(){} // RVA: 0x7FFAFA0DB390
+        public void FromVector2Array(){} // RVA: 0x7FFAFA0DB3D0
+        public void AsVector3Array(){} // RVA: 0x7FFAFA0DB4D0
+        public void FromVector3Array(){} // RVA: 0x7FFAFA0DB510
+        public void AsVector4Array(){} // RVA: 0x7FFAFA0DB610
+        public void FromVector4Array(){} // RVA: 0x7FFAFA0DB650
+        public void AsQuaternionArray(){} // RVA: 0x7FFAFA0DB750
+        public void FromQuaternionArray(){} // RVA: 0x7FFAFA0DB790
+        public void AsColorArray(){} // RVA: 0x7FFAFA0DB890
+        public void FromColorArray(){} // RVA: 0x7FFAFA0DB8D0
+        public void AsColor32Array(){} // RVA: 0x7FFAFA0DB9D0
+        public void FromColor32Array(){} // RVA: 0x7FFAFA0DBA10
+        public void AsUdonString(){} // RVA: 0x7FFAFA0DBB10
+        public void FromUdonString(){} // RVA: 0x7FFAFA0DBB50
+        public void Pack(){} // RVA: 0x7FFAFA0DBC50
     }
 
-    public class UdonValueVerify : Object
+    public class UdonValueVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8816A0D0
+        public void Verify(){} // RVA: 0x7FFAFA0DD080
     }
 
-    public class UdonVerify : Object
+    public class UdonVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE8814D140
+        public void Verify(){} // RVA: 0x7FFAFA0C00F0
     }
 
 }

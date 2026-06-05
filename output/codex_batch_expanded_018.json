@@ -1,0 +1,181 @@
+[
+  {
+    "class": "VRCImageSaver",
+    "parent": "",
+    "namespace": "VRC.SDK.Experimental",
+    "readable_methods": [
+      "DispatchSaveNetworkEvent",
+      "GetProgress",
+      "CheckImageSaveConditions",
+      "BuildImageSavePath"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_1B2"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_8940",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BFE"
+    ]
+  },
+  {
+    "class": "VRCUdonAnalytics",
+    "parent": "",
+    "namespace": "VRC.SDK.Internal",
+    "readable_methods": [
+      "ProcessAnalyticsRemoteString",
+      "ResolveAnalyticsRemoteString",
+      "ProcessRemoteStringVariables",
+      "DisableKeyword"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DD2"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_0FC9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_054",
+      "m_EEE",
+      "m_E59",
+      "m_668",
+      "m_ACC",
+      "m_4E7"
+    ]
+  },
+  {
+    "class": "AssetCacheSibling_6CC6",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Get",
+      "Set",
+      "Invalidate",
+      "Clear"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_32C"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_737A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_291",
+      "m_2D4",
+      "m_71F",
+      "m_26C",
+      "m_F67",
+      "m_A65",
+      "m_552",
+      "m_E9D",
+      "m_423",
+      "m_E2A",
+      "m_7FD",
+      "m_FE6"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1ERelated_3C38",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_640",
+      "m_3E0",
+      "m_171",
+      "m_CAE",
+      "m_AA6",
+      "m_BC0",
+      "m_6ED",
+      "m_291",
+      "m_568",
+      "m_733",
+      "m_0EB",
+      "m_334"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_77D6",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8B5",
+      "m_399",
+      "m_4F6",
+      "m_2AD",
+      "m_9B7"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_9295",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_529",
+      "m_030",
+      "m_9AE",
+      "m_288",
+      "m_45D"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D5CA",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_63A",
+      "m_29F",
+      "m_9B7",
+      "m_3B7",
+      "m_088"
+    ]
+  }
+]

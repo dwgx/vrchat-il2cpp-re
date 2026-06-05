@@ -5,390 +5,298 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Pkcs
 {
-    public class AttributePkcs : Asn1Encodable
+    public class AttributePkcs
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier attrType; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set attrValues; // 0x18
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1D4020
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x2
-        public void get_AttrType(){} // RVA: 0x7FFE81116380
-        public void get_AttrValues(){} // RVA: 0x7FFE810FE7C0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D4360
+        public void GetInstance(){} // RVA: 0x7FFAFC221C20
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0 | overloaded x2
+        public void get_AttrType(){} // RVA: 0x7FFAF2DA8380
+        public void get_AttrValues(){} // RVA: 0x7FFAF2D907C0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC221F60
     }
 
-    public class AuthenticatedSafe : Asn1Encodable
+    public class AuthenticatedSafe
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1D46D0 | overloaded x2
-        public void GetContentInfo(){} // RVA: 0x7FFE8A1D47D0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D4850
+        public void .ctor(){} // RVA: 0x7FFAFC2222D0 | overloaded x2
+        public void GetContentInfo(){} // RVA: 0x7FFAFC2223D0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC222450
     }
 
-    public class CertBag : Asn1Encodable
+    public class CertBag
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier certID; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object certValue; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x2
-        public void get_CertID(){} // RVA: 0x7FFE81116380
-        public void get_CertValue(){} // RVA: 0x7FFE810FE7C0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D4AF0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0 | overloaded x2
+        public void get_CertID(){} // RVA: 0x7FFAF2DA8380
+        public void get_CertValue(){} // RVA: 0x7FFAF2D907C0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC2226F0
     }
 
-    public class CertificationRequest : Asn1Encodable
+    public class CertificationRequest
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo reqInfo; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgId; // 0x18
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1D4C80
-        public void .ctor(){} // RVA: 0x7FFE8A1D4D90 | overloaded x3
-        public void GetCertificationRequestInfo(){} // RVA: 0x7FFE81116380
-        public void get_SignatureAlgorithm(){} // RVA: 0x7FFE810FE7C0
-        public void get_Signature(){} // RVA: 0x7FFE811290C0
-        public void GetSignatureOctets(){} // RVA: 0x7FFE87264760
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D50A0
+        public void GetInstance(){} // RVA: 0x7FFAFC222880
+        public void .ctor(){} // RVA: 0x7FFAFC222990 | overloaded x3
+        public void GetCertificationRequestInfo(){} // RVA: 0x7FFAF2DA8380
+        public void get_SignatureAlgorithm(){} // RVA: 0x7FFAF2D907C0
+        public void get_Signature(){} // RVA: 0x7FFAF2DBB0C0
+        public void GetSignatureOctets(){} // RVA: 0x7FFAF91D5860
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC222CA0
     }
 
-    public class CertificationRequestInfo : Asn1Encodable
+    public class CertificationRequestInfo
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger version; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Name subject; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo subjectPKInfo; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set attributes; // 0x28
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1D5200
-        public void .ctor(){} // RVA: 0x7FFE8A1D5510 | overloaded x2
-        public void get_Version(){} // RVA: 0x7FFE81116380
-        public void get_Subject(){} // RVA: 0x7FFE810FE7C0
-        public void get_SubjectPublicKeyInfo(){} // RVA: 0x7FFE811290C0
-        public void get_Attributes(){} // RVA: 0x7FFE81129130
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D5940
-        public void ValidateAttributes(){} // RVA: 0x7FFE8A1D5B80
+        public void GetInstance(){} // RVA: 0x7FFAFC222E00
+        public void .ctor(){} // RVA: 0x7FFAFC223110 | overloaded x2
+        public void get_Version(){} // RVA: 0x7FFAF2DA8380
+        public void get_Subject(){} // RVA: 0x7FFAF2D907C0
+        public void get_SubjectPublicKeyInfo(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_Attributes(){} // RVA: 0x7FFAF2DBB130
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC223540
+        public void ValidateAttributes(){} // RVA: 0x7FFAFC223780
     }
 
-    public class ContentInfo : Asn1Encodable
+    public class ContentInfo
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier contentType; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable content; // 0x18
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1D5FA0
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x2
-        public void get_ContentType(){} // RVA: 0x7FFE81116380
-        public void get_Content(){} // RVA: 0x7FFE810FE7C0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D62B0
+        public void GetInstance(){} // RVA: 0x7FFAFC223BA0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0 | overloaded x2
+        public void get_ContentType(){} // RVA: 0x7FFAF2DA8380
+        public void get_Content(){} // RVA: 0x7FFAF2D907C0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC223EB0
     }
 
-    public class DHParameter : Asn1Encodable
+    public class DHParameter
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger p; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger g; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger l; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1D6760 | overloaded x2
-        public void get_P(){} // RVA: 0x7FFE8A18D380
-        public void get_G(){} // RVA: 0x7FFE8A18D3A0
-        public void get_L(){} // RVA: 0x7FFE8A1D6B00
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D6B20
+        public void .ctor(){} // RVA: 0x7FFAFC224360 | overloaded x2
+        public void get_P(){} // RVA: 0x7FFAFC1DAF80
+        public void get_G(){} // RVA: 0x7FFAFC1DAFA0
+        public void get_L(){} // RVA: 0x7FFAFC224700
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC224720
     }
 
-    public class EncryptedData : Asn1Encodable
+    public class EncryptedData
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Sequence data; // 0x10
-        public object field_1; // 0x781
-        public object field_2; // 0x782
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1D6D60
-        public void .ctor(){} // RVA: 0x7FFE8A1D7210 | overloaded x2
-        public void get_ContentType(){} // RVA: 0x7FFE8A1D7450
-        public void get_EncryptionAlgorithm(){} // RVA: 0x7FFE8A1D74F0
-        public void get_Content(){} // RVA: 0x7FFE8A1D7530
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D76B0
+        public void GetInstance(){} // RVA: 0x7FFAFC224960
+        public void .ctor(){} // RVA: 0x7FFAFC224E10 | overloaded x2
+        public void get_ContentType(){} // RVA: 0x7FFAFC225050
+        public void get_EncryptionAlgorithm(){} // RVA: 0x7FFAFC2250F0
+        public void get_Content(){} // RVA: 0x7FFAFC225130
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC2252B0
     }
 
-    public class EncryptedPrivateKeyInfo : Asn1Encodable
+    public class EncryptedPrivateKeyInfo
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1D79D0 | overloaded x2
-        public void GetInstance(){} // RVA: 0x7FFE8A1D7B80
-        public void get_EncryptionAlgorithm(){} // RVA: 0x7FFE81116380
-        public void GetEncryptedData(){} // RVA: 0x7FFE86802D70
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D7D60
+        public void .ctor(){} // RVA: 0x7FFAFC2255D0 | overloaded x2
+        public void GetInstance(){} // RVA: 0x7FFAFC225780
+        public void get_EncryptionAlgorithm(){} // RVA: 0x7FFAF2DA8380
+        public void GetEncryptedData(){} // RVA: 0x7FFAF8771E70
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC225960
     }
 
-    public class EncryptionScheme : AlgorithmIdentifier
+    public class EncryptionScheme
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1D7E70 | overloaded x3
-        public void GetInstance(){} // RVA: 0x7FFE8A1D7F50
-        public void get_Asn1Object(){} // RVA: 0x7FFE8A1D81E0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D8220
+        public void .ctor(){} // RVA: 0x7FFAFC225A70 | overloaded x3
+        public void GetInstance(){} // RVA: 0x7FFAFC225B50
+        public void get_Asn1Object(){} // RVA: 0x7FFAFC225DE0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC225E20
     }
 
-    public class IssuerAndSerialNumber : Asn1Encodable
+    public class IssuerAndSerialNumber
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Name name; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger certSerialNumber; // 0x18
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1D8360
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x3
-        public void get_Name(){} // RVA: 0x7FFE81116380
-        public void get_CertificateSerialNumber(){} // RVA: 0x7FFE810FE7C0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D88F0
+        public void GetInstance(){} // RVA: 0x7FFAFC225F60
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0 | overloaded x3
+        public void get_Name(){} // RVA: 0x7FFAF2DA8380
+        public void get_CertificateSerialNumber(){} // RVA: 0x7FFAF2D907C0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC2264F0
     }
 
-    public class KeyDerivationFunc : AlgorithmIdentifier
+    public class KeyDerivationFunc
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EE23A0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF8E51980 | overloaded x2
     }
 
-    public class MacData : Asn1Encodable
+    public class MacData
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.DigestInfo digInfo; // 0x10
-        public byte[] salt; // 0x18
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1D8A10
-        public void .ctor(){} // RVA: 0x7FFE8A1D8F20 | overloaded x2
-        public void get_Mac(){} // RVA: 0x7FFE81116380
-        public void GetSalt(){} // RVA: 0x7FFE8A1D9110
-        public void get_IterationCount(){} // RVA: 0x7FFE811290C0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D9190
+        public void GetInstance(){} // RVA: 0x7FFAFC226610
+        public void .ctor(){} // RVA: 0x7FFAFC226B20 | overloaded x2
+        public void get_Mac(){} // RVA: 0x7FFAF2DA8380
+        public void GetSalt(){} // RVA: 0x7FFAFC226D10
+        public void get_IterationCount(){} // RVA: 0x7FFAF2DBB0C0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC226D90
     }
 
-    public class PbeParameter : Asn1Encodable
+    public class PbeParameter
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString salt; // 0x10
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1D95D0
-        public void .ctor(){} // RVA: 0x7FFE8A1D9940 | overloaded x2
-        public void GetSalt(){} // RVA: 0x7FFE86853DF0
-        public void get_IterationCount(){} // RVA: 0x7FFE8A1B4A20
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1D9B40
+        public void GetInstance(){} // RVA: 0x7FFAFC2271D0
+        public void .ctor(){} // RVA: 0x7FFAFC227540 | overloaded x2
+        public void GetSalt(){} // RVA: 0x7FFAF87C2EF0
+        public void get_IterationCount(){} // RVA: 0x7FFAFC202620
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC227740
     }
 
-    public class PbeS2Parameters : Asn1Encodable
+    public class PbeS2Parameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc func; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme; // 0x18
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1D9C50
-        public void .ctor(){} // RVA: 0x7FFE8A1D9D00 | overloaded x2
-        public void get_KeyDerivationFunc(){} // RVA: 0x7FFE81116380
-        public void get_EncryptionScheme(){} // RVA: 0x7FFE810FE7C0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1DA0F0
+        public void GetInstance(){} // RVA: 0x7FFAFC227850
+        public void .ctor(){} // RVA: 0x7FFAFC227900 | overloaded x2
+        public void get_KeyDerivationFunc(){} // RVA: 0x7FFAF2DA8380
+        public void get_EncryptionScheme(){} // RVA: 0x7FFAF2D907C0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC227CF0
     }
 
-    public class Pbkdf2Params : Asn1Encodable
+    public class Pbkdf2Params
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algid_hmacWithSHA1;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString octStr; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger iterationCount; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger keyLength; // 0x20
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1DA200
-        public void .ctor(){} // RVA: 0x7FFE8A1DAC60 | overloaded x5
-        public void GetSalt(){} // RVA: 0x7FFE86853DF0
-        public void get_IterationCount(){} // RVA: 0x7FFE8A1B4A20
-        public void get_KeyLength(){} // RVA: 0x7FFE8A187C60
-        public void get_IsDefaultPrf(){} // RVA: 0x7FFE8A1DACD0
-        public void get_Prf(){} // RVA: 0x7FFE8A1DAD60
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1DADD0
-        public void .cctor(){} // RVA: 0x7FFE8A1DB0A0
+        public void GetInstance(){} // RVA: 0x7FFAFC227E00
+        public void .ctor(){} // RVA: 0x7FFAFC228860 | overloaded x5
+        public void GetSalt(){} // RVA: 0x7FFAF87C2EF0
+        public void get_IterationCount(){} // RVA: 0x7FFAFC202620
+        public void get_KeyLength(){} // RVA: 0x7FFAFC1D5860
+        public void get_IsDefaultPrf(){} // RVA: 0x7FFAFC2288D0
+        public void get_Prf(){} // RVA: 0x7FFAFC228960
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC2289D0
+        public void .cctor(){} // RVA: 0x7FFAFC228CA0
     }
 
-    public class Pfx : Asn1Encodable
+    public class Pfx
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Pkcs.ContentInfo contentInfo; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Pkcs.MacData macData; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x2
-        public void get_AuthSafe(){} // RVA: 0x7FFE81116380
-        public void get_MacData(){} // RVA: 0x7FFE810FE7C0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1DB630
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0 | overloaded x2
+        public void get_AuthSafe(){} // RVA: 0x7FFAF2DA8380
+        public void get_MacData(){} // RVA: 0x7FFAF2D907C0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC229230
     }
 
-    public class Pkcs12PbeParams : Asn1Encodable
+    public class Pkcs12PbeParams
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger iterations; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1DBA50 | overloaded x2
-        public void GetInstance(){} // RVA: 0x7FFE8A1DBBF0
-        public void get_Iterations(){} // RVA: 0x7FFE8A1DBDD0
-        public void GetIV(){} // RVA: 0x7FFE86802D70
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1DBDF0
+        public void .ctor(){} // RVA: 0x7FFAFC229650 | overloaded x2
+        public void GetInstance(){} // RVA: 0x7FFAFC2297F0
+        public void get_Iterations(){} // RVA: 0x7FFAFC2299D0
+        public void GetIV(){} // RVA: 0x7FFAF8771E70
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC2299F0
     }
 
-    public class PkcsObjectIdentifiers : Object
+    public class PkcsObjectIdentifiers
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE8A1DBF00
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAFC229B00
     }
 
-    public class PrivateKeyInfo : Asn1Encodable
+    public class PrivateKeyInfo
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger version; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString privateKey; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set attributes; // 0x28
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1DFAF0 | overloaded x2
-        public void GetVersionValue(){} // RVA: 0x7FFE8A1DFBD0
-        public void .ctor(){} // RVA: 0x7FFE8A1E0140 | overloaded x4
-        public void get_Attributes(){} // RVA: 0x7FFE81129130
-        public void get_HasPublicKey(){} // RVA: 0x7FFE85C00B10
-        public void get_PrivateKeyAlgorithm(){} // RVA: 0x7FFE810FE7C0
-        public void ParsePrivateKey(){} // RVA: 0x7FFE8A1E07F0
-        public void ParsePublicKey(){} // RVA: 0x7FFE8A1E0830
-        public void get_PublicKeyData(){} // RVA: 0x7FFE8144E200
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1E0870
+        public void GetInstance(){} // RVA: 0x7FFAFC22D6F0 | overloaded x2
+        public void GetVersionValue(){} // RVA: 0x7FFAFC22D7D0
+        public void .ctor(){} // RVA: 0x7FFAFC22DD40 | overloaded x4
+        public void get_Attributes(){} // RVA: 0x7FFAF2DBB130
+        public void get_HasPublicKey(){} // RVA: 0x7FFAF7C055E0
+        public void get_PrivateKeyAlgorithm(){} // RVA: 0x7FFAF2D907C0
+        public void ParsePrivateKey(){} // RVA: 0x7FFAFC22E3F0
+        public void ParsePublicKey(){} // RVA: 0x7FFAFC22E430
+        public void get_PublicKeyData(){} // RVA: 0x7FFAF30E74D0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC22E470
     }
 
-    public class RC2CbcParameter : Asn1Encodable
+    public class RC2CbcParameter
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger version; // 0x10
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1E0B20
-        public void .ctor(){} // RVA: 0x7FFE8A1E0FD0 | overloaded x3
-        public void get_RC2ParameterVersion(){} // RVA: 0x7FFE8A1E1350
-        public void GetIV(){} // RVA: 0x7FFE8A1E1370
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1E1450
+        public void GetInstance(){} // RVA: 0x7FFAFC22E720
+        public void .ctor(){} // RVA: 0x7FFAFC22EBD0 | overloaded x3
+        public void get_RC2ParameterVersion(){} // RVA: 0x7FFAFC22EF50
+        public void GetIV(){} // RVA: 0x7FFAFC22EF70
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC22F050
     }
 
-    public class RsaPrivateKeyStructure : Asn1Encodable
+    public class RsaPrivateKeyStructure
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger modulus; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger publicExponent; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger privateExponent; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger prime1; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger prime2; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger exponent1; // 0x38
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger exponent2; // 0x40
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger coefficient; // 0x48
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1E24E0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE8A1E25C0 | overloaded x2
-        public void get_Modulus(){} // RVA: 0x7FFE81116380
-        public void get_PublicExponent(){} // RVA: 0x7FFE810FE7C0
-        public void get_PrivateExponent(){} // RVA: 0x7FFE811290C0
-        public void get_Prime1(){} // RVA: 0x7FFE81129130
-        public void get_Prime2(){} // RVA: 0x7FFE8144E200
-        public void get_Exponent1(){} // RVA: 0x7FFE8143BA80
-        public void get_Exponent2(){} // RVA: 0x7FFE81178740
-        public void get_Coefficient(){} // RVA: 0x7FFE81176730
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1E2CF0
+        public void GetInstance(){} // RVA: 0x7FFAFC2300E0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAFC2301C0 | overloaded x2
+        public void get_Modulus(){} // RVA: 0x7FFAF2DA8380
+        public void get_PublicExponent(){} // RVA: 0x7FFAF2D907C0
+        public void get_PrivateExponent(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_Prime1(){} // RVA: 0x7FFAF2DBB130
+        public void get_Prime2(){} // RVA: 0x7FFAF30E74D0
+        public void get_Exponent1(){} // RVA: 0x7FFAF2F476A0
+        public void get_Exponent2(){} // RVA: 0x7FFAF2E0A740
+        public void get_Coefficient(){} // RVA: 0x7FFAF2E08730
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC2308F0
     }
 
-    public class RsaesOaepParameters : Asn1Encodable
+    public class RsaesOaepParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier maskGenAlgorithm; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier pSourceAlgorithm; // 0x20
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1E1600
-        public void .ctor(){} // RVA: 0x7FFE8A1E1950 | overloaded x3
-        public void get_HashAlgorithm(){} // RVA: 0x7FFE81116380
-        public void get_MaskGenAlgorithm(){} // RVA: 0x7FFE810FE7C0
-        public void get_PSourceAlgorithm(){} // RVA: 0x7FFE811290C0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1E1C80
-        public void .cctor(){} // RVA: 0x7FFE8A1E20E0
+        public void GetInstance(){} // RVA: 0x7FFAFC22F200
+        public void .ctor(){} // RVA: 0x7FFAFC22F550 | overloaded x3
+        public void get_HashAlgorithm(){} // RVA: 0x7FFAF2DA8380
+        public void get_MaskGenAlgorithm(){} // RVA: 0x7FFAF2D907C0
+        public void get_PSourceAlgorithm(){} // RVA: 0x7FFAF2DBB0C0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC22F880
+        public void .cctor(){} // RVA: 0x7FFAFC22FCE0
     }
 
-    public class RsassaPssParameters : Asn1Encodable
+    public class RsassaPssParameters
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier maskGenAlgorithm; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger saltLength; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger trailerField; // 0x28
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1E35D0
-        public void .ctor(){} // RVA: 0x7FFE8A1E3970 | overloaded x3
-        public void get_HashAlgorithm(){} // RVA: 0x7FFE81116380
-        public void get_MaskGenAlgorithm(){} // RVA: 0x7FFE810FE7C0
-        public void get_SaltLength(){} // RVA: 0x7FFE811290C0
-        public void get_TrailerField(){} // RVA: 0x7FFE81129130
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1E3DC0
-        public void .cctor(){} // RVA: 0x7FFE8A1E4320
+        public void GetInstance(){} // RVA: 0x7FFAFC2311D0
+        public void .ctor(){} // RVA: 0x7FFAFC231570 | overloaded x3
+        public void get_HashAlgorithm(){} // RVA: 0x7FFAF2DA8380
+        public void get_MaskGenAlgorithm(){} // RVA: 0x7FFAF2D907C0
+        public void get_SaltLength(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_TrailerField(){} // RVA: 0x7FFAF2DBB130
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC2319C0
+        public void .cctor(){} // RVA: 0x7FFAFC231F20
     }
 
-    public class SafeBag : Asn1Encodable
+    public class SafeBag
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier bagID; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Object bagValue; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set bagAttributes; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A1E47A0 | overloaded x3
-        public void get_BagID(){} // RVA: 0x7FFE81116380
-        public void get_BagValue(){} // RVA: 0x7FFE810FE7C0
-        public void get_BagAttributes(){} // RVA: 0x7FFE811290C0
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1E4B00
+        public void .ctor(){} // RVA: 0x7FFAFC2323A0 | overloaded x3
+        public void get_BagID(){} // RVA: 0x7FFAF2DA8380
+        public void get_BagValue(){} // RVA: 0x7FFAF2D907C0
+        public void get_BagAttributes(){} // RVA: 0x7FFAF2DBB0C0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC232700
     }
 
-    public class SignedData : Asn1Encodable
+    public class SignedData
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger version; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set digestAlgorithms; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Pkcs.ContentInfo contentInfo; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set certificates; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set crls; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set signerInfos; // 0x38
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1E4DC0
-        public void .ctor(){} // RVA: 0x7FFE8A1E4E70 | overloaded x2
-        public void get_Version(){} // RVA: 0x7FFE81116380
-        public void get_DigestAlgorithms(){} // RVA: 0x7FFE810FE7C0
-        public void get_ContentInfo(){} // RVA: 0x7FFE811290C0
-        public void get_Certificates(){} // RVA: 0x7FFE81129130
-        public void get_Crls(){} // RVA: 0x7FFE8144E200
-        public void get_SignerInfos(){} // RVA: 0x7FFE8143BA80
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1E53F0
+        public void GetInstance(){} // RVA: 0x7FFAFC2329C0
+        public void .ctor(){} // RVA: 0x7FFAFC232A70 | overloaded x2
+        public void get_Version(){} // RVA: 0x7FFAF2DA8380
+        public void get_DigestAlgorithms(){} // RVA: 0x7FFAF2D907C0
+        public void get_ContentInfo(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_Certificates(){} // RVA: 0x7FFAF2DBB130
+        public void get_Crls(){} // RVA: 0x7FFAF30E74D0
+        public void get_SignerInfos(){} // RVA: 0x7FFAF2F476A0
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC232FF0
     }
 
-    public class SignerInfo : Asn1Encodable
+    public class SignerInfo
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger version; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Pkcs.IssuerAndSerialNumber issuerAndSerialNumber; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier digAlgorithm; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set authenticatedAttributes; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier digEncryptionAlgorithm; // 0x30
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString encryptedDigest; // 0x38
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Set unauthenticatedAttributes; // 0x40
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1E5670
-        public void .ctor(){} // RVA: 0x7FFE8A1E5850 | overloaded x2
-        public void get_Version(){} // RVA: 0x7FFE81116380
-        public void get_IssuerAndSerialNumber(){} // RVA: 0x7FFE810FE7C0
-        public void get_AuthenticatedAttributes(){} // RVA: 0x7FFE81129130
-        public void get_DigestAlgorithm(){} // RVA: 0x7FFE811290C0
-        public void get_EncryptedDigest(){} // RVA: 0x7FFE8143BA80
-        public void get_DigestEncryptionAlgorithm(){} // RVA: 0x7FFE8144E200
-        public void get_UnauthenticatedAttributes(){} // RVA: 0x7FFE81178740
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1E6070
+        public void GetInstance(){} // RVA: 0x7FFAFC233270
+        public void .ctor(){} // RVA: 0x7FFAFC233450 | overloaded x2
+        public void get_Version(){} // RVA: 0x7FFAF2DA8380
+        public void get_IssuerAndSerialNumber(){} // RVA: 0x7FFAF2D907C0
+        public void get_AuthenticatedAttributes(){} // RVA: 0x7FFAF2DBB130
+        public void get_DigestAlgorithm(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_EncryptedDigest(){} // RVA: 0x7FFAF2F476A0
+        public void get_DigestEncryptionAlgorithm(){} // RVA: 0x7FFAF30E74D0
+        public void get_UnauthenticatedAttributes(){} // RVA: 0x7FFAF2E0A740
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC233C70
     }
 
 }

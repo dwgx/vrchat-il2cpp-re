@@ -1,0 +1,156 @@
+[
+  {
+    "class": "LifecycleComponentSibling_FD32Sibling_E224",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F23"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_00FC",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationQuit",
+      "OnBecameVisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FFB"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSibling_828B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8A3"
+    ]
+  },
+  {
+    "class": "Static10m_1C40",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_32B",
+      "m_523",
+      "m_45E",
+      "m_E82",
+      "m_F7A",
+      "m_13D"
+    ]
+  },
+  {
+    "class": "Static10m_286A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6A1",
+      "m_97C",
+      "m_504",
+      "m_DEA",
+      "m_6FD",
+      "m_831"
+    ]
+  },
+  {
+    "class": "Static9m_D102",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_504",
+      "m_DEA",
+      "m_6A1",
+      "m_6FD",
+      "m_97C",
+      "m_5A9"
+    ]
+  },
+  {
+    "class": "ListContentView`1",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ]
+  },
+  {
+    "class": "ListContentView`1",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ]
+  },
+  {
+    "class": "ListContentView`1",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ]
+  },
+  {
+    "class": "ListContentView`1",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ]
+  }
+]

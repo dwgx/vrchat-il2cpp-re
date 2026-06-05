@@ -5,30 +5,29 @@
 
 namespace VRC.PlayerDrone
 {
-    public class PIDController : ValueType
+    public class PIDController
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE817C6390
-        public void InternalEquals(){} // RVA: 0x7FFE817C6450
-        public void DefaultEquals(){} // RVA: 0x7FFE817C6470
-        public void GetHashCode(){} // RVA: 0x7FFE817C6530
-        public void InternalGetHashCode(){} // RVA: 0x7FFE817C65F0
-        public void ToString(){} // RVA: 0x7FFE817C66B0
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE817C6770
+        public void Equals(){} // RVA: 0x7FFAF34E8E90
+        public void InternalEquals(){} // RVA: 0x7FFAF34E8EA0
+        public void DefaultEquals(){} // RVA: 0x7FFAF34E8F60
+        public void GetHashCode(){} // RVA: 0x7FFAF34E9020
+        public void InternalGetHashCode(){} // RVA: 0x7FFAF34E9040
+        public void ToString(){} // RVA: 0x7FFAF34E9100
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAF34E91C0
     }
 
-    public class PIDControllerQuaternion : ValueType
+    public class PIDControllerQuaternion
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE817C6780
-        public void InternalEquals(){} // RVA: 0x7FFE817C6780
-        public void DefaultEquals(){} // RVA: 0x7FFE817C6810
-        public void GetHashCode(){} // RVA: 0x7FFE817C6780
-        public void InternalGetHashCode(){} // RVA: 0x7FFE817C6C30
-        public void ToString(){} // RVA: 0x7FFE817C6780
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE817C6780
-        // ── Unresolved (hash) ──
-        public void m_555(){} // RVA: 0x7FFE817C6780
+        public void Equals(){} // RVA: 0x7FFAF34E9280
+        public void InternalEquals(){} // RVA: 0x7FFAF34E96A0
+        public void DefaultEquals(){} // RVA: 0x7FFAF34E96A0
+        public void GetHashCode(){} // RVA: 0x7FFAF34E96A0
+        public void InternalGetHashCode(){} // RVA: 0x7FFAF34E96A0
+        public void ToString(){} // RVA: 0x7FFAF34E9730
+        public void GetHashCodeOfPtr(){} // RVA: 0x7FFAF34E96A0
+        public void ComputeQuaternionControlOutput(){} // RVA: 0x7FFAF34E9B50
     }
 
 }

@@ -5,64 +5,62 @@
 
 namespace ThirdParty.Other.Unity.Jobs
 {
-    public class DOTSCompilerGeneratedAttribute : Attribute
+    public class DOTSCompilerGeneratedAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class EarlyInitHelpers : Object
+    public class EarlyInitHelpers
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE878B6AE0
-        public void FlushEarlyInits(){} // RVA: 0x7FFE878B6AF0
-        public void JobReflectionDataCreationFailed(){} // RVA: 0x7FFE878B6CB0
+        public void .cctor(){} // RVA: 0x7FFAF9825C40
+        public void FlushEarlyInits(){} // RVA: 0x7FFAF9825C50
+        public void JobReflectionDataCreationFailed(){} // RVA: 0x7FFAF9825E10
     }
 
     public class IJob
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7FFE80E45FE0
+        public void Execute(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class IJobExtensions : Object
+    public class IJobExtensions
     {
         // ── Methods ──
-        public void EarlyJobInit(){} // RVA: 0x7FFE80E46010
-        public void GetReflectionData(){} // RVA: 0x7FFE80E2DEE0
-        public void Schedule(){} // RVA: 0x7FFE810A1420
+        public void EarlyJobInit(){} // RVA: 0x7FFAF2AD4A80
+        public void GetReflectionData(){} // RVA: 0x7FFAF2ABC960
+        public void Schedule(){} // RVA: 0x7FFAF2D33FA0
     }
 
     public class IJobParallelFor
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x7FFE80E46530
+        public void Execute(){} // RVA: 0x7FFAF2AD4FA0
     }
 
-    public class IJobParallelForExtensions : Object
+    public class IJobParallelForExtensions
     {
         // ── Methods ──
-        public void EarlyJobInit(){} // RVA: 0x7FFE80E46010
-        public void GetReflectionData(){} // RVA: 0x7FFE80E2DEE0
-        public void Schedule(){} // RVA: 0x7FFE810A1420
+        public void EarlyJobInit(){} // RVA: 0x7FFAF2AD4A80
+        public void GetReflectionData(){} // RVA: 0x7FFAF2ABC960
+        public void Schedule(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class JobHandle : ValueType
+    public class JobHandle
     {
-        public ulong jobGroup; // 0x10
-
         // ── Methods ──
-        public void Complete(){} // RVA: 0x7FFE87BF6B70
-        public void get_IsCompleted(){} // RVA: 0x7FFE87BF6BD0
-        public void ScheduleBatchedJobs(){} // RVA: 0x7FFE87BF6C20
-        public void ScheduleBatchedJobsAndComplete(){} // RVA: 0x7FFE87BF6C70
-        public void ScheduleBatchedJobsAndIsCompleted(){} // RVA: 0x7FFE87BF6BD0
-        public void CombineDependencies(){} // RVA: 0x7FFE87BF6DF0 | overloaded x3
-        public void CombineDependenciesInternal2(){} // RVA: 0x7FFE87BF6EA0
-        public void CombineDependenciesInternalPtr(){} // RVA: 0x7FFE87BF6F20
-        public void Equals(){} // RVA: 0x7FFE87BF6FA0
-        public void CombineDependenciesInternal2_Injected(){} // RVA: 0x7FFE87BF6FB0
-        public void CombineDependenciesInternalPtr_Injected(){} // RVA: 0x7FFE87BF7020
+        public void Complete(){} // RVA: 0x7FFAF9B65B90
+        public void get_IsCompleted(){} // RVA: 0x7FFAF9B65BF0
+        public void ScheduleBatchedJobs(){} // RVA: 0x7FFAF9B65C40
+        public void ScheduleBatchedJobsAndComplete(){} // RVA: 0x7FFAF9B65C90
+        public void ScheduleBatchedJobsAndIsCompleted(){} // RVA: 0x7FFAF9B65BF0
+        public void CombineDependencies(){} // RVA: 0x7FFAF9B65E10 | overloaded x3
+        public void CombineDependenciesInternal2(){} // RVA: 0x7FFAF9B65EC0
+        public void CombineDependenciesInternalPtr(){} // RVA: 0x7FFAF9B65F40
+        public void Equals(){} // RVA: 0x7FFAF9B65FC0
+        public void CombineDependenciesInternal2_Injected(){} // RVA: 0x7FFAF9B65FD0
+        public void CombineDependenciesInternalPtr_Injected(){} // RVA: 0x7FFAF9B66040
     }
 
 }

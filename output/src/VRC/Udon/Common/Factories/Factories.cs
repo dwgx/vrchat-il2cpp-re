@@ -5,11 +5,11 @@
 
 namespace VRC.Udon.Common.Factories
 {
-    public class UdonHeapFactory : Object
+    public class UdonHeapFactory
     {
         // ── Methods ──
-        public void ConstructUdonHeap(){} // RVA: 0x7FFE8823A080 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void ConstructUdonHeap(){} // RVA: 0x7FFAFA1AD3D0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

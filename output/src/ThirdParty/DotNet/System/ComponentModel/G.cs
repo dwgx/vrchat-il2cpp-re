@@ -5,14 +5,14 @@
 
 namespace ThirdParty.DotNet.System.ComponentModel
 {
-    public class GuidConverter : TypeConverter
+    public class GuidConverter
     {
         // ── Methods ──
-        public void CanConvertFrom(){} // RVA: 0x7FFE877A63F0
-        public void CanConvertTo(){} // RVA: 0x7FFE877A64E0
-        public void ConvertFrom(){} // RVA: 0x7FFE877A65D0
-        public void ConvertTo(){} // RVA: 0x7FFE877A67E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void CanConvertFrom(){} // RVA: 0x7FFAF9715540
+        public void CanConvertTo(){} // RVA: 0x7FFAF9715630
+        public void ConvertFrom(){} // RVA: 0x7FFAF9715720
+        public void ConvertTo(){} // RVA: 0x7FFAF9715930
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

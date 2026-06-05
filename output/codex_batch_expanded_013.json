@@ -1,0 +1,227 @@
+[
+  {
+    "class": "Static30m_1E10",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_052",
+      "m_A36",
+      "m_73F",
+      "m_A68",
+      "m_1B6",
+      "m_9C6",
+      "m_C7B",
+      "m_24C",
+      "m_60D",
+      "m_213",
+      "m_79F",
+      "m_A45"
+    ]
+  },
+  {
+    "class": "AssetPreloader",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_902",
+      "m_F2B",
+      "m_8BD",
+      "m_4A1",
+      "m_AC0",
+      "m_C52",
+      "m_B59",
+      "m_B74",
+      "m_D88",
+      "m_1C4",
+      "m_EDE",
+      "m_06D"
+    ]
+  },
+  {
+    "class": "VFXBundleInfo",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_EffectBundleID",
+      "ContainsNoWhitespaceOrQuotes",
+      "set_IsSpecialFX"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4D5",
+      "m_64C",
+      "m_BFC",
+      "m_CA8",
+      "m_BDA",
+      "m_A14",
+      "m_905",
+      "m_46E",
+      "m_377",
+      "m_601"
+    ]
+  },
+  {
+    "class": "CameraCanWritePosition_FCC8",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_CanWrite",
+      "set_CanRead",
+      "set_CanSeek",
+      "set_Length"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_038",
+      "m_BDA",
+      "m_A4B",
+      "m_BA1",
+      "m_AFC"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_993B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A66",
+      "m_7FD",
+      "m_AEB",
+      "m_2D4",
+      "m_71F",
+      "m_E2A",
+      "m_6A7",
+      "m_F2B",
+      "m_E9D",
+      "m_092",
+      "m_D46",
+      "m_0B2"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_E24A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7FD",
+      "m_AEB",
+      "m_32C",
+      "m_30A",
+      "m_E9D",
+      "m_2D4",
+      "m_E2A",
+      "m_779",
+      "m_C64",
+      "m_3D5",
+      "m_51F",
+      "m_71F"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_E24A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7FD",
+      "m_AEB",
+      "m_32C",
+      "m_30A",
+      "m_E9D",
+      "m_2D4",
+      "m_E2A",
+      "m_779",
+      "m_C64",
+      "m_3D5",
+      "m_51F",
+      "m_71F"
+    ]
+  },
+  {
+    "class": "FoldoutListRelatedRelated_98B4",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E89",
+      "m_020",
+      "m_BF6",
+      "m_60B",
+      "m_316",
+      "m_B48",
+      "m_FEF",
+      "m_09B",
+      "m_8B4",
+      "m_57F",
+      "m_5B0",
+      "m_04F"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_C4E9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_582",
+      "m_9B7",
+      "m_E2B",
+      "m_378",
+      "m_399",
+      "m_DB5",
+      "m_82A",
+      "m_8B5",
+      "m_EB5"
+    ]
+  },
+  {
+    "class": "PlayerCalculateLayoutInputHorizCalculateLayout_5653_C3BC",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_padding"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CBB",
+      "m_C86",
+      "m_2B4",
+      "m_BE3",
+      "m_4FE",
+      "m_7E1",
+      "m_2A2",
+      "m_DB5",
+      "m_3B9",
+      "m_93E",
+      "m_6FA",
+      "m_476"
+    ]
+  }
+]

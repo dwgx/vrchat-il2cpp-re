@@ -1,149 +1,139 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Photon.Photon.Client
-// Classes: 45
-// Methods: 659
+// Classes: 50
+// Methods: 726
 
 namespace ThirdParty.Photon.Photon.Client
 {
-    public class ByteArraySlice : Object
+    public class ByteArraySlice
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D488C0
-        public void Dispose(){} // RVA: 0x7FFE86D489F0
-        public void Release(){} // RVA: 0x7FFE86D48A30
+        public void .ctor(){} // RVA: 0x7FFAF8CB7A20
+        public void Dispose(){} // RVA: 0x7FFAF8CB7B50
+        public void Release(){} // RVA: 0x7FFAF8CB7B90
     }
 
-    public class ByteArraySlicePool : Object
+    public class ByteArraySlicePool
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D48A70
-        public void Acquire(){} // RVA: 0x7FFE86D48CC0
-        public void PopOrCreate(){} // RVA: 0x7FFE86D49110
-        public void Release(){} // RVA: 0x7FFE86D49430
+        public void .ctor(){} // RVA: 0x7FFAF8CB7BD0
+        public void Acquire(){} // RVA: 0x7FFAF8CB7E20
+        public void PopOrCreate(){} // RVA: 0x7FFAF8CB8270
+        public void Release(){} // RVA: 0x7FFAF8CB8590
     }
 
-    public class CustomType : Object
+    public class CustomType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D65870
+        public void .ctor(){} // RVA: 0x7FFAF8CD4D90
     }
 
-    public class DeserializeStreamMethod : MulticastDelegate
+    public class DeserializeStreamMethod
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D656F0
-        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void .ctor(){} // RVA: 0x7FFAF8CD4C10
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
     }
 
-    public class DictionaryEntryEnumerator : ValueType
+    public class DictionaryEntryEnumerator
     {
-        public Enumerator<object,object> enumerator; // 0x10
-        public object field_1; // 0xE
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE835C2650
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFE86D4A640
-        public void get_Current(){} // RVA: 0x7FFE86D4A790
-        public void MoveNext(){} // RVA: 0x7FFE86D4A820
-        public void Reset(){} // RVA: 0x7FFE86D4A860
-        public void Dispose(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF5328D50
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF8CB97A0
+        public void get_Current(){} // RVA: 0x7FFAF8CB98F0
+        public void MoveNext(){} // RVA: 0x7FFAF8CB9980
+        public void Reset(){} // RVA: 0x7FFAF8CB99C0
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class DisconnectMessage : Object
+    public class DisconnectMessage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class EnetChannel : Object
+    public class EnetChannel
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D4A930
-        public void AddSequencedIfNew(){} // RVA: 0x7FFE86D4AE00
-        public void TryGetFragment(){} // RVA: 0x7FFE86D4AED0
-        public void RemoveFragment(){} // RVA: 0x7FFE86D4AF50
-        public void clearAll(){} // RVA: 0x7FFE86D4AFC0
-        public void QueueIncomingReliableUnsequenced(){} // RVA: 0x7FFE86D4B300
-        public void ApplySequenceNumberModifier(){} // RVA: 0x7FFE86D4B640
-        public void Received(){} // RVA: 0x7FFE86D4B690
-        public void GetGapBlock(){} // RVA: 0x7FFE86D4B940
+        public void .ctor(){} // RVA: 0x7FFAF8CB9A90
+        public void AddSequencedIfNew(){} // RVA: 0x7FFAF8CB9F60
+        public void TryGetFragment(){} // RVA: 0x7FFAF8CBA030
+        public void RemoveFragment(){} // RVA: 0x7FFAF8CBA0B0
+        public void clearAll(){} // RVA: 0x7FFAF8CBA120
+        public void QueueIncomingReliableUnsequenced(){} // RVA: 0x7FFAF8CBA460
+        public void ApplySequenceNumberModifier(){} // RVA: 0x7FFAF8CBA7A0
+        public void Received(){} // RVA: 0x7FFAF8CBA7F0
+        public void GetGapBlock(){} // RVA: 0x7FFAF8CBAAA0
     }
 
-    public class EnetPeer : PeerBase
+    public class EnetPeer
     {
-        public Photon.Client.Pool`1<Photon.Client.NCommand> nCommandPool; // 0x128
-        public System.Collections.Generic.List`1<Photon.Client.NCommand> sentReliableCommands; // 0x130
-        public int sendWindowUpdateRequiredBackValue; // 0x138
-        public Photon.Client.StreamBuffer outgoingAcknowledgementsPool; // 0x140
-
         // ── Methods ──
-        public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x7FFE86D4BD70
-        public void get_SendWindowUpdateRequired(){} // RVA: 0x7FFE86D4C090
-        public void set_SendWindowUpdateRequired(){} // RVA: 0x7FFE86D4C0B0
-        public void get_DatagramEncryptedConnection(){} // RVA: 0x7FFE86D4C0D0
-        public void set_DatagramEncryptedConnection(){} // RVA: 0x7FFE86D4C0F0
-        public void get_useAck2(){} // RVA: 0x7FFE86D4C110
-        public void .ctor(){} // RVA: 0x7FFE86D4C140
-        public void IsTransportEncrypted(){} // RVA: 0x7FFE86D4C0D0
-        public void Reset(){} // RVA: 0x7FFE86D4CAD0
-        public void ApplyRandomizedSequenceNumbers(){} // RVA: 0x7FFE86D4D340
-        public void GetChannel(){} // RVA: 0x7FFE86D4D560
-        public void Connect(){} // RVA: 0x7FFE86D4D5C0
-        public void Disconnect(){} // RVA: 0x7FFE86D4D690
-        public void FetchServerTimestamp(){} // RVA: 0x7FFE86D4DBD0
-        public void DispatchCommandQueue(){} // RVA: 0x7FFE86D4DCF0
-        public void DispatchIncomingCommands(){} // RVA: 0x7FFE86D4DDD0
-        public void GetFragmentLength(){} // RVA: 0x7FFE86D4E960
-        public void CalculatePacketSize(){} // RVA: 0x7FFE86D4EA40
-        public void CalculateInitialOffset(){} // RVA: 0x7FFE86D4EAD0
-        public void SendAcksOnly(){} // RVA: 0x7FFE86D4EB20
-        public void SendOutgoingCommands(){} // RVA: 0x7FFE86D4EB40 | overloaded x2
-        public void UpdateSendWindow(){} // RVA: 0x7FFE86D4FC40
-        public void EnqueuePhotonMessage(){} // RVA: 0x7FFE86D50680
-        public void CreateAndEnqueueCommand(){} // RVA: 0x7FFE86D506D0
-        public void SerializeAckToBuffer(){} // RVA: 0x7FFE86D50CC0
-        public void SerializeToBuffer(){} // RVA: 0x7FFE86D511C0
-        public void SerializeCommandToBuffer(){} // RVA: 0x7FFE86D51310
-        public void SendData(){} // RVA: 0x7FFE86D514F0
-        public void SendToSocket(){} // RVA: 0x7FFE86D51860
-        public void SendDataEncrypted(){} // RVA: 0x7FFE86D519D0
-        public void QueueSentCommand(){} // RVA: 0x7FFE86D51CE0
-        public void QueueOutgoingReliableCommand(){} // RVA: 0x7FFE86D52080
-        public void QueueOutgoingUnreliableCommand(){} // RVA: 0x7FFE86D522B0
-        public void QueueOutgoingAcknowledgement(){} // RVA: 0x7FFE86D52550
-        public void ReceiveIncomingCommands(){} // RVA: 0x7FFE86D52A50
-        public void ExecuteCommand(){} // RVA: 0x7FFE86D53600
-        public void QueueIncomingCommand(){} // RVA: 0x7FFE86D54E00
-        public void RemoveSentReliableCommand(){} // RVA: 0x7FFE86D556F0
-        public void .cctor(){} // RVA: 0x7FFE86D55B90
-        public void <ExecuteCommand>b__78_0(){} // RVA: 0x7FFE86D55C70
+        public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x7FFAF8CBAED0
+        public void get_SendWindowUpdateRequired(){} // RVA: 0x7FFAF8CBB1F0
+        public void set_SendWindowUpdateRequired(){} // RVA: 0x7FFAF8CBB210
+        public void get_DatagramEncryptedConnection(){} // RVA: 0x7FFAF8CBB230
+        public void set_DatagramEncryptedConnection(){} // RVA: 0x7FFAF8CBB250
+        public void get_useAck2(){} // RVA: 0x7FFAF8CBB270
+        public void .ctor(){} // RVA: 0x7FFAF8CBB2A0
+        public void IsTransportEncrypted(){} // RVA: 0x7FFAF8CBB230
+        public void Reset(){} // RVA: 0x7FFAF8CBBC30
+        public void ApplyRandomizedSequenceNumbers(){} // RVA: 0x7FFAF8CBC4A0
+        public void GetChannel(){} // RVA: 0x7FFAF8CBC6C0
+        public void Connect(){} // RVA: 0x7FFAF8CBC720
+        public void Disconnect(){} // RVA: 0x7FFAF8CBC7F0
+        public void FetchServerTimestamp(){} // RVA: 0x7FFAF8CBCD30
+        public void DispatchCommandQueue(){} // RVA: 0x7FFAF8CBCE50
+        public void DispatchIncomingCommands(){} // RVA: 0x7FFAF8CBCF30
+        public void GetFragmentLength(){} // RVA: 0x7FFAF8CBDAC0
+        public void CalculatePacketSize(){} // RVA: 0x7FFAF8CBDBA0
+        public void CalculateInitialOffset(){} // RVA: 0x7FFAF8CBDC30
+        public void SendAcksOnly(){} // RVA: 0x7FFAF8CBDC80
+        public void SendOutgoingCommands(){} // RVA: 0x7FFAF8CBDCA0 | overloaded x2
+        public void UpdateSendWindow(){} // RVA: 0x7FFAF8CBEDA0
+        public void EnqueuePhotonMessage(){} // RVA: 0x7FFAF8CBF7E0
+        public void CreateAndEnqueueCommand(){} // RVA: 0x7FFAF8CBF830
+        public void SerializeAckToBuffer(){} // RVA: 0x7FFAF8CBFE20
+        public void SerializeToBuffer(){} // RVA: 0x7FFAF8CC0320
+        public void SerializeCommandToBuffer(){} // RVA: 0x7FFAF8CC0470
+        public void SendData(){} // RVA: 0x7FFAF8CC0650
+        public void SendToSocket(){} // RVA: 0x7FFAF8CC09C0
+        public void SendDataEncrypted(){} // RVA: 0x7FFAF8CC0B30
+        public void QueueSentCommand(){} // RVA: 0x7FFAF8CC0E40
+        public void QueueOutgoingReliableCommand(){} // RVA: 0x7FFAF8CC11E0
+        public void QueueOutgoingUnreliableCommand(){} // RVA: 0x7FFAF8CC1410
+        public void QueueOutgoingAcknowledgement(){} // RVA: 0x7FFAF8CC16B0
+        public void ReceiveIncomingCommands(){} // RVA: 0x7FFAF8CC1BB0
+        public void ExecuteCommand(){} // RVA: 0x7FFAF8CC2770
+        public void QueueIncomingCommand(){} // RVA: 0x7FFAF8CC3F70
+        public void RemoveSentReliableCommand(){} // RVA: 0x7FFAF8CC4870
+        public void .cctor(){} // RVA: 0x7FFAF8CC4D10
+        public void <ExecuteCommand>b__78_0(){} // RVA: 0x7FFAF8CC4DF0
     }
 
-    public class EventData : Object
+    public class EventData
     {
-        public byte Code; // 0x10
-        public Photon.Client.ParameterDictionary Parameters; // 0x18
-        public byte SenderKey; // 0x20
+        public object Item;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D7C180
-        public void get_Item(){} // RVA: 0x7FFE86D7C230
-        public void get_Sender(){} // RVA: 0x7FFE86D7C2A0
-        public void set_Sender(){} // RVA: 0x7FFE82447980
-        public void get_CustomData(){} // RVA: 0x7FFE86D7C320
-        public void Reset(){} // RVA: 0x7FFE86D7C3B0
-        public void ToString(){} // RVA: 0x7FFE86D7C430
+        public void .ctor(){} // RVA: 0x7FFAF8CEB6A0
+        public void get_Item(){} // RVA: 0x7FFAF8CEB750
+        public void get_Sender(){} // RVA: 0x7FFAF8CEB7C0
+        public void set_Sender(){} // RVA: 0x7FFAF4191F00
+        public void get_CustomData(){} // RVA: 0x7FFAF8CEB840
+        public void Reset(){} // RVA: 0x7FFAF8CEB8D0
+        public void ToString(){} // RVA: 0x7FFAF8CEB950
     }
 
     public class IPhotonPeerListener
     {
         // ── Methods ──
-        public void DebugReturn(){} // RVA: 0x7FFE80E46BE0
-        public void OnOperationResponse(){} // RVA: 0x7FFE80E460A0
-        public void OnStatusChanged(){} // RVA: 0x7FFE80E46530
-        public void OnEvent(){} // RVA: 0x7FFE80E460A0
-        public void OnMessage(){} // RVA: 0x7FFE80E46BE0
-        public void OnDisconnectMessage(){} // RVA: 0x7FFE80E460A0
+        public void DebugReturn(){} // RVA: 0x7FFAF2AD5600
+        public void OnOperationResponse(){} // RVA: 0x7FFAF2AD4B10
+        public void OnStatusChanged(){} // RVA: 0x7FFAF2AD4FA0
+        public void OnEvent(){} // RVA: 0x7FFAF2AD4B10
+        public void OnMessage(){} // RVA: 0x7FFAF2AD5600
+        public void OnDisconnectMessage(){} // RVA: 0x7FFAF2AD4B10
     }
 
     public class ITrafficRecorder
@@ -152,857 +142,805 @@ namespace ThirdParty.Photon.Photon.Client
         public void Record(){}
     }
 
-    public class InvalidDataException : Exception
+    public class InvalidDataException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D6FA80
+        public void .ctor(){} // RVA: 0x7FFAF8CDEFA0
     }
 
-    public class MessageProtocol : Object
+    public class MessageProtocol
     {
         // ── Methods ──
-        public void Serialize(){} // RVA: 0x7FFE86D7C6B0 | overloaded x3
-        public void Deserialize(){} // RVA: 0x7FFE86D7C9A0 | overloaded x3
-        public void .cctor(){} // RVA: 0x7FFE86D7CCD0
+        public void Serialize(){} // RVA: 0x7FFAF8CEBBD0 | overloaded x3
+        public void Deserialize(){} // RVA: 0x7FFAF8CEBEC0 | overloaded x3
+        public void .cctor(){} // RVA: 0x7FFAF8CEC1F0
     }
 
-    public class NCommand : Object
+    public class NCommand
     {
-        public byte Ack2FeatureFlag;
-        public byte ReliableSendWindowFeatureFlag;
-        public byte FeatureFlagsLow;
-
         // ── Methods ──
-        public void get_SizeOfPayload(){} // RVA: 0x7FFE86D55DD0
-        public void get_IsFlaggedUnsequenced(){} // RVA: 0x7FFE86D55DF0
-        public void get_IsFlaggedReliable(){} // RVA: 0x7FFE86D55E00
-        public void CreateAck(){} // RVA: 0x7FFE86D55E20
-        public void CreateAck2(){} // RVA: 0x7FFE86D56050
-        public void Initialize(){} // RVA: 0x7FFE86D56620 | overloaded x2
-        public void Reset(){} // RVA: 0x7FFE86D56C40
-        public void SerializeHeader(){} // RVA: 0x7FFE86D56C80
-        public void Serialize(){} // RVA: 0x7FFE86D57110
-        public void FreePayload(){} // RVA: 0x7FFE86D57130
-        public void CompareTo(){} // RVA: 0x7FFE86D57210
-        public void ToString(){} // RVA: 0x7FFE86D57250 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE86D57AB0
+        public void get_SizeOfPayload(){} // RVA: 0x7FFAF8CC4F50
+        public void get_IsFlaggedUnsequenced(){} // RVA: 0x7FFAF8CC4F70
+        public void get_IsFlaggedReliable(){} // RVA: 0x7FFAF8CC4F80
+        public void CreateAck(){} // RVA: 0x7FFAF8CC4FA0
+        public void CreateAck2(){} // RVA: 0x7FFAF8CC51D0
+        public void Initialize(){} // RVA: 0x7FFAF8CC57A0 | overloaded x2
+        public void Reset(){} // RVA: 0x7FFAF8CC5DC0
+        public void SerializeHeader(){} // RVA: 0x7FFAF8CC5E00
+        public void Serialize(){} // RVA: 0x7FFAF8CC6290
+        public void FreePayload(){} // RVA: 0x7FFAF8CC62B0
+        public void CompareTo(){} // RVA: 0x7FFAF8CC6390
+        public void ToString(){} // RVA: 0x7FFAF8CC63D0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF8CC6C30
     }
 
-    public class NetworkSimulationSet : Object
+    public class NetworkSimulationSet
     {
-        public bool isSimulationEnabled; // 0x10
-        public int outgoingLag; // 0x14
-        public int outgoingJitter; // 0x18
-        public int outgoingLossPercentage; // 0x1C
-        public int incomingLag; // 0x20
-
         // ── Methods ──
-        public void get_IsSimulationEnabled(){} // RVA: 0x7FFE811C55E0
-        public void set_IsSimulationEnabled(){} // RVA: 0x7FFE86D57AC0
-        public void set_OutgoingLossPercentage(){} // RVA: 0x7FFE82717690
-        public void set_IncomingLossPercentage(){} // RVA: 0x7FFE817E4800
-        public void set_LostPackagesOut(){} // RVA: 0x7FFE8119C0D0
-        public void set_LostPackagesIn(){} // RVA: 0x7FFE82B06A20
-        public void ToString(){} // RVA: 0x7FFE86D586F0
-        public void .ctor(){} // RVA: 0x7FFE86D58A40
+        public void get_IsSimulationEnabled(){} // RVA: 0x7FFAF2E575E0
+        public void set_IsSimulationEnabled(){} // RVA: 0x7FFAF8CC6C40
+        public void set_OutgoingLossPercentage(){} // RVA: 0x7FFAF4439FD0
+        public void set_IncomingLossPercentage(){} // RVA: 0x7FFAF3503440
+        public void set_LostPackagesOut(){} // RVA: 0x7FFAF2E2E0D0
+        public void set_LostPackagesIn(){} // RVA: 0x7FFAF4825D90
+        public void ToString(){} // RVA: 0x7FFAF8CC7870
+        public void .ctor(){} // RVA: 0x7FFAF8CC7BC0
     }
 
-    public class NonAllocDictionary`2 : Object
+    public class NonAllocDictionary`2
     {
-        public uint[] _primeTableUInt;
-        public int _freeHead;
-        public int _freeCount;
-        public int _usedCount;
-        public uint _capacity;
-        public int[] _buckets;
-
         // ── Methods ──
-        public void get_Keys(){} // RVA: 0x7FFE810A1420
-        public void System.Collections.Generic.IDictionary<K,V>.get_Values(){} // RVA: 0x7FFE80E2E2E0
-        public void System.Collections.Generic.IDictionary<K,V>.get_Keys(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Count(){} // RVA: 0x7FFE80E2EDB0
-        public void get_IsReadOnly(){} // RVA: 0x7FFE80E2F150
-        public void .ctor(){} // RVA: 0x7FFE80E46530
-        public void ContainsKey(){} // RVA: 0x7FFE810A1420
-        public void Contains(){} // RVA: 0x7FFE810A1420
-        public void TryGetValue(){} // RVA: 0x7FFE810A1420
-        public void get_Item(){} // RVA: 0x7FFE810A1420
-        public void set_Item(){} // RVA: 0x7FFE810A1420
-        public void Add(){} // RVA: 0x7FFE810A1420 | overloaded x2
-        public void Remove(){} // RVA: 0x7FFE810A1420 | overloaded x2
-        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<K,V>>.GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
-        public void GetEnumerator(){} // RVA: 0x7FFE810A1420
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
-        public void FindNode(){} // RVA: 0x7FFE810A1420
-        public void Insert(){} // RVA: 0x7FFE810A1420
-        public void Expand(){} // RVA: 0x7FFE80E45FE0
-        public void Clear(){} // RVA: 0x7FFE80E45FE0
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<K,V>>.CopyTo(){} // RVA: 0x7FFE80E4D070
-        public void IsPrimeFromList(){} // RVA: 0x7FFE80E2FBF0
-        public void GetNextPrime(){} // RVA: 0x7FFE80E35560
-        public void Assert(){} // RVA: 0x7FFE80E464B0
-        public void .cctor(){} // RVA: 0x7FFE80E46010
+        public void get_Keys(){} // RVA: 0x7FFAF2D33FA0
+        public void System.Collections.Generic.IDictionary<K,V>.get_Values(){} // RVA: 0x7FFAF2ABCD60
+        public void System.Collections.Generic.IDictionary<K,V>.get_Keys(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Count(){} // RVA: 0x7FFAF2ABD840
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4FA0
+        public void ContainsKey(){} // RVA: 0x7FFAF2D33FA0
+        public void Contains(){} // RVA: 0x7FFAF2D33FA0
+        public void TryGetValue(){} // RVA: 0x7FFAF2D33FA0
+        public void get_Item(){} // RVA: 0x7FFAF2D33FA0
+        public void set_Item(){} // RVA: 0x7FFAF2D33FA0
+        public void Add(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void Remove(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<K,V>>.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void GetEnumerator(){} // RVA: 0x7FFAF2D33FA0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void FindNode(){} // RVA: 0x7FFAF2D33FA0
+        public void Insert(){} // RVA: 0x7FFAF2D33FA0
+        public void Expand(){} // RVA: 0x7FFAF2AD4A50
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<K,V>>.CopyTo(){} // RVA: 0x7FFAF2ADBAA0
+        public void IsPrimeFromList(){} // RVA: 0x7FFAF2ABE680
+        public void GetNextPrime(){} // RVA: 0x7FFAF2AC3FF0
+        public void Assert(){} // RVA: 0x7FFAF2AD4F20
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
     }
 
-    public class OperationRequest : Object
+    public class NonAllocDictionary`2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Keys(){} // RVA: 0x7FFAF674A8B0
+        public void System.Collections.Generic.IDictionary<K,V>.get_Values(){} // RVA: 0x7FFAF2E0A740
+        public void System.Collections.Generic.IDictionary<K,V>.get_Keys(){} // RVA: 0x7FFAF2F476A0
+        public void get_Count(){} // RVA: 0x7FFAF674A910
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2DB3450
+        public void .ctor(){} // RVA: 0x7FFAF674A920
+        public void ContainsKey(){} // RVA: 0x7FFAF674AB20
+        public void Contains(){} // RVA: 0x7FFAF674AB40
+        public void TryGetValue(){} // RVA: 0x7FFAF674ABF0
+        public void get_Item(){} // RVA: 0x7FFAF674AC90
+        public void set_Item(){} // RVA: 0x7FFAF674AD70
+        public void Add(){} // RVA: 0x7FFAF674AFF0 | overloaded x2
+        public void Remove(){} // RVA: 0x7FFAF674B260 | overloaded x2
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<K,V>>.GetEnumerator(){} // RVA: 0x7FFAF674B340
+        public void GetEnumerator(){} // RVA: 0x7FFAF674A8B0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF674B340
+        public void FindNode(){} // RVA: 0x7FFAF674B3D0
+        public void Insert(){} // RVA: 0x7FFAF674B460
+        public void Expand(){} // RVA: 0x7FFAF674B650
+        public void Clear(){} // RVA: 0x7FFAF674BA10
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<K,V>>.CopyTo(){} // RVA: 0x7FFAF674BA70
+        public void IsPrimeFromList(){} // RVA: 0x7FFAF674BC60
+        public void GetNextPrime(){} // RVA: 0x7FFAF674BDE0
+        public void Assert(){} // RVA: 0x7FFAF674C0D0
+        public void .cctor(){} // RVA: 0x7FFAF674C130
     }
 
-    public class OperationResponse : Object
+    public class NonAllocDictionary`2
     {
-        public byte OperationCode; // 0x10
-
         // ── Methods ──
-        public void get_Item(){} // RVA: 0x7FFE86D7BD50
-        public void ToString(){} // RVA: 0x7FFE86D7BDC0
-        public void ToStringFull(){} // RVA: 0x7FFE86D7BF40
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Keys(){} // RVA: 0x7FFAF674A8B0
+        public void System.Collections.Generic.IDictionary<K,V>.get_Values(){} // RVA: 0x7FFAF2E0A740
+        public void System.Collections.Generic.IDictionary<K,V>.get_Keys(){} // RVA: 0x7FFAF2F476A0
+        public void get_Count(){} // RVA: 0x7FFAF674A910
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2DB3450
+        public void .ctor(){} // RVA: 0x7FFAF674C260
+        public void ContainsKey(){} // RVA: 0x7FFAF674C460
+        public void Contains(){} // RVA: 0x7FFAF674C480
+        public void TryGetValue(){} // RVA: 0x7FFAF674C520
+        public void get_Item(){} // RVA: 0x7FFAF674C5C0
+        public void set_Item(){} // RVA: 0x7FFAF674C6A0
+        public void Add(){} // RVA: 0x7FFAF674C920 | overloaded x2
+        public void Remove(){} // RVA: 0x7FFAF674CB80 | overloaded x2
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<K,V>>.GetEnumerator(){} // RVA: 0x7FFAF674B340
+        public void GetEnumerator(){} // RVA: 0x7FFAF674A8B0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF674B340
+        public void FindNode(){} // RVA: 0x7FFAF674CC60
+        public void Insert(){} // RVA: 0x7FFAF674CCF0
+        public void Expand(){} // RVA: 0x7FFAF674CEE0
+        public void Clear(){} // RVA: 0x7FFAF674BA10
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<K,V>>.CopyTo(){} // RVA: 0x7FFAF674D2A0
+        public void IsPrimeFromList(){} // RVA: 0x7FFAF674BC60
+        public void GetNextPrime(){} // RVA: 0x7FFAF674BDE0
+        public void Assert(){} // RVA: 0x7FFAF674C0D0
+        public void .cctor(){} // RVA: 0x7FFAF674D490
     }
 
-    public class ParameterDictionary : Object
+    public class OperationRequest
     {
-        public Photon.Client.NonAllocDictionary`2<byte,object> paramDict; // 0x10
-        public Photon.Client.StructWrapping.StructWrapperPools wrapperPools; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D58C60 | overloaded x2
-        public void op_Implicit(){} // RVA: 0x7FFE85B3A480
-        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.Byte,System.Object>>.GetEnumerator(){} // RVA: 0x7FFE86D58DC0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE86D58E10
-        public void GetEnumerator(){} // RVA: 0x7FFE86D58E60
-        public void get_Item(){} // RVA: 0x7FFE86D58F10
-        public void set_Item(){} // RVA: 0x7FFE86D58FC0
-        public void get_Count(){} // RVA: 0x7FFE86D59030
-        public void Clear(){} // RVA: 0x7FFE86D59080
-        public void Add(){} // RVA: 0x7FFE86D595F0 | overloaded x5
-        public void Get(){} // RVA: 0x7FFE810A1420
-        public void ContainsKey(){} // RVA: 0x7FFE86D596F0
-        public void TryGetValue(){} // RVA: 0x7FFE86D59750 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class PeerBase : Object
+    public class OperationResponse
     {
-        public Photon.Client.PhotonPeer photonPeer; // 0x10
-        public Photon.Client.Protocol SerializationProtocol; // 0x18
-        public 0x6666444C usedTransportProtocol; // 0x20
-        public Photon.Client.PhotonSocket PhotonSocket; // 0x28
-        public string _serverAddress; // 0x30
-        public string _proxyServerAddress; // 0x38
-        public int peerConnectionStateField; // 0x40
-        public int ByteCountLastOperation; // 0x44
-        public int ByteCountCurrentDispatch; // 0x48
-        public Photon.Client.NCommand CommandInCurrentDispatch; // 0x50
-        public int packetLossByCrc; // 0x58
-        public int packetLossByChallenge; // 0x5C
-        public int throttledBySendWindow; // 0x60
-        public System.Collections.Generic.Queue`1<MyAction> ActionQueue; // 0x68
-        public short peerID; // 0x70
-        public short peerCount;
-        public int serverTimeOffset; // 0x74
-        public bool serverTimeOffsetIsAvailable; // 0x78
-        public float roundTripTime; // 0x7C
-        public float roundTripTimeVariance; // 0x80
-        public int lastRoundTripTime; // 0x84
-
         // ── Methods ──
-        public void get_Stats(){} // RVA: 0x7FFE81727D90
-        public void get_Listener(){} // RVA: 0x7FFE8189C060
-        public void get_LogLevel(){} // RVA: 0x7FFE82863E90
-        public void get_ServerAddress(){} // RVA: 0x7FFE8144E200
-        public void set_ServerAddress(){} // RVA: 0x7FFE81129890
-        public void get_ProxyServerAddress(){} // RVA: 0x7FFE8143BA80
-        public void set_ProxyServerAddress(){} // RVA: 0x7FFE81437330
-        public void get_peerConnectionState(){} // RVA: 0x7FFE86D59850
-        public void set_peerConnectionState(){} // RVA: 0x7FFE86D59860
-        public void TryUpdateConnectionState(){} // RVA: 0x7FFE86D59870
-        public void get_rttVarString(){} // RVA: 0x7FFE86D59890
-        public void get_TimeoutVarianceCompensation(){} // RVA: 0x7FFE86D59970
-        public void get_DisconnectTimeout(){} // RVA: 0x7FFE86D599D0
-        public void get_PingInterval(){} // RVA: 0x7FFE86893420
-        public void get_ChannelCount(){} // RVA: 0x7FFE86D599F0
-        public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x7FFE80E2EDB0
-        public void get_timeInt(){} // RVA: 0x7FFE86D59A10
-        public void set_ServerFeatureFlags(){} // RVA: 0x7FFE86D59A40
-        public void get_serverFeatureFlagsAvailable(){} // RVA: 0x7FFE86D59A80
-        public void set_serverFeatureFlagsAvailable(){} // RVA: 0x7FFE86D59A90
-        public void get_serverFeatureAck2Available(){} // RVA: 0x7FFE86D59AA0
-        public void set_serverFeatureAck2Available(){} // RVA: 0x7FFE86D59AB0
-        public void get_serverFeatureSyncReliableQueue(){} // RVA: 0x7FFE86D59AC0
-        public void set_serverFeatureSyncReliableQueue(){} // RVA: 0x7FFE86D59AD0
-        public void get_ServerMaxQueueableReliableCommands(){} // RVA: 0x7FFE86D59AE0
-        public void set_ServerMaxQueueableReliableCommands(){} // RVA: 0x7FFE86D59AF0
-        public void get_mtu(){} // RVA: 0x7FFE86D59B00
-        public void get_IsIpv6(){} // RVA: 0x7FFE86D59B20
-        public void .ctor(){} // RVA: 0x7FFE86D59B40
-        public void Reset(){} // RVA: 0x7FFE86D5A0A0
-        public void Connect(){} // RVA: 0x7FFE80E32AD0
-        public void GetHttpKeyValueString(){} // RVA: 0x7FFE86D5A7A0
-        public void WriteInitRequest(){} // RVA: 0x7FFE86D5AA40
-        public void WriteInitV3(){} // RVA: 0x7FFE86D5B140
-        public void PrepareWebSocketUrl(){} // RVA: 0x7FFE86D5B760
-        public void OnInitResponse(){} // RVA: 0x7FFE86D5BBD0
-        public void Disconnect(){} // RVA: 0x7FFE80E466C0
-        public void FetchServerTimestamp(){} // RVA: 0x7FFE80E45FE0
-        public void IsTransportEncrypted(){} // RVA: 0x7FFE80E2F150
+        public void get_Item(){} // RVA: 0x7FFAF8CEB270
+        public void ToString(){} // RVA: 0x7FFAF8CEB2E0
+        public void ToStringFull(){} // RVA: 0x7FFAF8CEB460
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class ParameterDictionary
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF8CC7DE0 | overloaded x2
+        public void op_Implicit(){} // RVA: 0x7FFAF7996280
+        public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.Byte,System.Object>>.GetEnumerator(){} // RVA: 0x7FFAF8CC7F40
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF8CC7F90
+        public void GetEnumerator(){} // RVA: 0x7FFAF8CC7FE0
+        public void get_Item(){} // RVA: 0x7FFAF8CC8090
+        public void set_Item(){} // RVA: 0x7FFAF8CC8140
+        public void get_Count(){} // RVA: 0x7FFAF8CC81B0
+        public void Clear(){} // RVA: 0x7FFAF8CC8200
+        public void Add(){} // RVA: 0x7FFAF8CC8770 | overloaded x5
+        public void Get(){} // RVA: 0x7FFAF2D33FA0
+        public void ContainsKey(){} // RVA: 0x7FFAF8CC8870
+        public void TryGetValue(){} // RVA: 0x7FFAF8CC88D0 | overloaded x2
+    }
+
+    public class PeerBase
+    {
+        // ── Methods ──
+        public void get_Stats(){} // RVA: 0x7FFAF3468470
+        public void get_Listener(){} // RVA: 0x7FFAF35DE770
+        public void get_LogLevel(){} // RVA: 0x7FFAF4596E70
+        public void get_ServerAddress(){} // RVA: 0x7FFAF30E74D0
+        public void set_ServerAddress(){} // RVA: 0x7FFAF2DBB890
+        public void get_ProxyServerAddress(){} // RVA: 0x7FFAF2F476A0
+        public void set_ProxyServerAddress(){} // RVA: 0x7FFAF2F4B830
+        public void get_peerConnectionState(){} // RVA: 0x7FFAF8CC89D0
+        public void set_peerConnectionState(){} // RVA: 0x7FFAF8CC89E0
+        public void TryUpdateConnectionState(){} // RVA: 0x7FFAF8CC89F0
+        public void get_rttVarString(){} // RVA: 0x7FFAF8CC8A10
+        public void get_TimeoutVarianceCompensation(){} // RVA: 0x7FFAF8CC8AF0
+        public void get_DisconnectTimeout(){} // RVA: 0x7FFAF8CC8B50
+        public void get_PingInterval(){} // RVA: 0x7FFAF8802520
+        public void get_ChannelCount(){} // RVA: 0x7FFAF8CC8B70
+        public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x7FFAF2ABD840
+        public void get_timeInt(){} // RVA: 0x7FFAF8CC8B90
+        public void set_ServerFeatureFlags(){} // RVA: 0x7FFAF8CC8BC0
+        public void get_serverFeatureFlagsAvailable(){} // RVA: 0x7FFAF8CC8C00
+        public void set_serverFeatureFlagsAvailable(){} // RVA: 0x7FFAF8CC8C10
+        public void get_serverFeatureAck2Available(){} // RVA: 0x7FFAF8CC8C20
+        public void set_serverFeatureAck2Available(){} // RVA: 0x7FFAF8CC8C30
+        public void get_serverFeatureSyncReliableQueue(){} // RVA: 0x7FFAF8CC8C40
+        public void set_serverFeatureSyncReliableQueue(){} // RVA: 0x7FFAF8CC8C50
+        public void get_ServerMaxQueueableReliableCommands(){} // RVA: 0x7FFAF8CC8C60
+        public void set_ServerMaxQueueableReliableCommands(){} // RVA: 0x7FFAF8CC8C70
+        public void get_mtu(){} // RVA: 0x7FFAF8CC8C80
+        public void get_IsIpv6(){} // RVA: 0x7FFAF8CC8CA0
+        public void .ctor(){} // RVA: 0x7FFAF8CC8CC0
+        public void Reset(){} // RVA: 0x7FFAF8CC9220
+        public void Connect(){} // RVA: 0x7FFAF2AC15A0
+        public void GetHttpKeyValueString(){} // RVA: 0x7FFAF8CC9920
+        public void WriteInitRequest(){} // RVA: 0x7FFAF8CC9BC0
+        public void WriteInitV3(){} // RVA: 0x7FFAF8CCA2C0
+        public void PrepareWebSocketUrl(){} // RVA: 0x7FFAF8CCA8E0
+        public void OnInitResponse(){} // RVA: 0x7FFAF8CCAD50
+        public void Disconnect(){} // RVA: 0x7FFAF2AD5130
+        public void FetchServerTimestamp(){} // RVA: 0x7FFAF2AD4A50
+        public void IsTransportEncrypted(){} // RVA: 0x7FFAF2ABDBE0
         public void EnqueuePhotonMessage(){}
-        public void SerializeOperationToMessage(){} // RVA: 0x7FFE86D5BC70
-        public void SendOutgoingCommands(){} // RVA: 0x7FFE80E2F150
-        public void SendAcksOnly(){} // RVA: 0x7FFE810FB320
-        public void ReceiveIncomingCommands(){} // RVA: 0x7FFE80E4D070
-        public void DispatchIncomingCommands(){} // RVA: 0x7FFE80E2F150
-        public void DeserializeMessageAndCallback(){} // RVA: 0x7FFE86D5BF20
-        public void UpdateRoundTripTimeAndVariance(){} // RVA: 0x7FFE86D5CCB0
-        public void ExchangeKeysForEncryption(){} // RVA: 0x7FFE86D5CE20
-        public void DeriveSharedKey(){} // RVA: 0x7FFE86D5D4C0
-        public void InitEncryption(){} // RVA: 0x7FFE86D5D670
-        public void EnqueueActionForDispatch(){} // RVA: 0x7FFE86D5DB10
-        public void EnqueueDebugReturn(){} // RVA: 0x7FFE86D5DC90
-        public void EnqueueStatusCallback(){} // RVA: 0x7FFE86D5DF60
-        public void get_NetworkSimulationSettings(){} // RVA: 0x7FFE813A1DA0
-        public void NetworkSimRun(){} // RVA: 0x7FFE86D5E1D0
-        public void .cctor(){} // RVA: 0x7FFE86D5E870
-        public void <DeserializeMessageAndCallback>b__122_0(){} // RVA: 0x7FFE86D5EA50
+        public void SerializeOperationToMessage(){} // RVA: 0x7FFAF8CCADF0
+        public void SendOutgoingCommands(){} // RVA: 0x7FFAF2ABDBE0
+        public void SendAcksOnly(){} // RVA: 0x7FFAF2D8D320
+        public void ReceiveIncomingCommands(){} // RVA: 0x7FFAF2ADBAA0
+        public void DispatchIncomingCommands(){} // RVA: 0x7FFAF2ABDBE0
+        public void DeserializeMessageAndCallback(){} // RVA: 0x7FFAF8CCB0A0
+        public void UpdateRoundTripTimeAndVariance(){} // RVA: 0x7FFAF8CCBE30
+        public void ExchangeKeysForEncryption(){} // RVA: 0x7FFAF8CCBFA0
+        public void DeriveSharedKey(){} // RVA: 0x7FFAF8CCC640
+        public void InitEncryption(){} // RVA: 0x7FFAF8CCC7F0
+        public void EnqueueActionForDispatch(){} // RVA: 0x7FFAF8CCCC90
+        public void EnqueueDebugReturn(){} // RVA: 0x7FFAF8CCCE10
+        public void EnqueueStatusCallback(){} // RVA: 0x7FFAF8CCD0E0
+        public void get_NetworkSimulationSettings(){} // RVA: 0x7FFAF304E660
+        public void NetworkSimRun(){} // RVA: 0x7FFAF8CCD350
+        public void .cctor(){} // RVA: 0x7FFAF8CCD9F0
+        public void <DeserializeMessageAndCallback>b__121_0(){} // RVA: 0x7FFAF8CCDBD0
     }
 
-    public class PhotonClientWebSocket : PhotonSocket
+    public class PhotonClientWebSocket
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D5EC90
-        public void Connect(){} // RVA: 0x7FFE86D5ED10
-        public void AsyncConnectAndReceive(){} // RVA: 0x7FFE86D5EE40
-        public void Disconnect(){} // RVA: 0x7FFE86D60030
-        public void Send(){} // RVA: 0x7FFE86D60280
-        public void Receive(){} // RVA: 0x7FFE86D605E0
+        public void .ctor(){} // RVA: 0x7FFAF8CCDE10
+        public void Connect(){} // RVA: 0x7FFAF8CCDE90
+        public void AsyncConnectAndReceive(){} // RVA: 0x7FFAF8CCDFC0
+        public void Disconnect(){} // RVA: 0x7FFAF8CCF240
+        public void Send(){} // RVA: 0x7FFAF8CCF5C0
+        public void Receive(){} // RVA: 0x7FFAF8CCFAC0
     }
 
-    public class PhotonCodes : Object
+    public class PhotonCodes
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE86D597C0
+        public void .cctor(){} // RVA: 0x7FFAF8CC8940
     }
 
-    public class PhotonHashtable : Dictionary`2
+    public class PhotonHashtable
     {
-        public object[] boxedByte;
-        public object field_1; // 0xB
-        public object field_2; // 0xC
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE86D49770
-        public void .ctor(){} // RVA: 0x7FFE86D49A10 | overloaded x2
-        public void get_Item(){} // RVA: 0x7FFE86D49CF0 | overloaded x3
-        public void set_Item(){} // RVA: 0x7FFE86D49C20 | overloaded x2
-        public void Add(){} // RVA: 0x7FFE86D49D80
-        public void ContainsKey(){} // RVA: 0x7FFE86D49E50
-        public void GetEnumerator(){} // RVA: 0x7FFE86D49F10
-        public void ToString(){} // RVA: 0x7FFE86D4A050
+        public void .cctor(){} // RVA: 0x7FFAF8CB88D0
+        public void .ctor(){} // RVA: 0x7FFAF8CB8B70 | overloaded x2
+        public void get_Item(){} // RVA: 0x7FFAF8CB8E50 | overloaded x3
+        public void set_Item(){} // RVA: 0x7FFAF8CB8D80 | overloaded x2
+        public void Add(){} // RVA: 0x7FFAF8CB8EE0
+        public void ContainsKey(){} // RVA: 0x7FFAF8CB8FB0
+        public void GetEnumerator(){} // RVA: 0x7FFAF8CB9070
+        public void ToString(){} // RVA: 0x7FFAF8CB91B0
     }
 
-    public class PhotonPeer : Object
+    public class PhotonPeer
     {
-        public bool NoSocket;
-        public bool DebugBuild;
-        public int NativeEncryptorApiVersion;
-        public 0x666644FC TargetFramework; // 0x10
-        public byte ClientSdkId; // 0x14
-        public string clientVersion;
-        public bool NoNativeCallbacks; // 0x8
-        public bool RemoveAppIdFromWebSocketPath; // 0x15
-        public bool UseInitV3; // 0x16
-        public bool _useAck2; // 0x17
-        public bool EnableEncryptedFlag; // 0x18
-        public 0x66664CE4 _serializationProtocolType; // 0x1C
-        public System.Collections.Generic.Dictionary`2<0x6666444C,System.Type> SocketImplementationConfig; // 0x20
-        public System.Type _socketImplementation; // 0x28
-        public 0x666644A4 LogLevel; // 0x30
-        public Photon.Client.IPhotonPeerListener _listener; // 0x38
-        public bool reuseEventInstance; // 0x40
-        public bool useByteArraySlicePoolForEvents; // 0x41
-        public bool wrapIncomingStructs; // 0x42
-        public bool SendInCreationOrder; // 0x43
-        public int SendWindowSize; // 0x44
-        public byte quickResendAttempts; // 0x48
-        public int MaxResends; // 0x4C
-        public int InitialResendTimeMax; // 0x50
-        public int disconnectTimeout; // 0x54
-        public bool crcEnabled; // 0x58
-        public int PingInterval; // 0x5C
-        public byte ChannelCount; // 0x60
-        public 0x6666444C _transportProtocol; // 0x61
-        public int OutgoingStreamBufferSize; // 0xC
-        public int mtu; // 0x64
-        public bool AsyncKeyExchange; // 0x10
-        public bool RandomizeSequenceNumbers; // 0x68
-        public byte[] RandomizedSequenceNumbers; // 0x70
-        public System.Type payloadEncryptorType; // 0x78
-        public byte[] PayloadEncryptionSecret; // 0x80
-
         // ── Methods ──
-        public void get_ClientSdkIdShifted(){} // RVA: 0x7FFE86D60620
-        public void get_Version(){} // RVA: 0x7FFE86D60630
-        public void get_UseAck2(){} // RVA: 0x7FFE86D60A10
-        public void set_UseAck2(){} // RVA: 0x7FFE86D60A20
-        public void get_SerializationProtocolType(){} // RVA: 0x7FFE82707EE0
-        public void set_SerializationProtocolType(){} // RVA: 0x7FFE82717690
-        public void get_SocketImplementation(){} // RVA: 0x7FFE81129130
-        public void set_SocketImplementation(){} // RVA: 0x7FFE810FCE90
-        public void get_SocketErrorCode(){} // RVA: 0x7FFE86D60A30
-        public void get_Listener(){} // RVA: 0x7FFE8143BA80
-        public void set_Listener(){} // RVA: 0x7FFE81437330
-        public void get_PeerState(){} // RVA: 0x7FFE86D60A60
-        public void get_ReuseEventInstance(){} // RVA: 0x7FFE811B6C00
-        public void set_ReuseEventInstance(){} // RVA: 0x7FFE86D60AD0
-        public void get_UseByteArraySlicePoolForEvents(){} // RVA: 0x7FFE814645D0
-        public void get_WrapIncomingStructs(){} // RVA: 0x7FFE81463AF0
-        public void get_QuickResendAttempts(){} // RVA: 0x7FFE811B2D30
-        public void set_QuickResendAttempts(){} // RVA: 0x7FFE86D60C80
-        public void get_DisconnectTimeout(){} // RVA: 0x7FFE819EA920
-        public void set_DisconnectTimeout(){} // RVA: 0x7FFE86D60CA0
-        public void get_CrcEnabled(){} // RVA: 0x7FFE813A1140
-        public void set_CrcEnabled(){} // RVA: 0x7FFE86D60CB0
-        public void get_ServerAddress(){} // RVA: 0x7FFE86D60D40
-        public void get_UsedProtocol(){} // RVA: 0x7FFE86D60D60
-        public void get_TransportProtocol(){} // RVA: 0x7FFE81EC3970
-        public void set_TransportProtocol(){} // RVA: 0x7FFE81EB6360
-        public void set_IsSimulationEnabled(){} // RVA: 0x7FFE86D60D80
-        public void get_NetworkSimulationSettings(){} // RVA: 0x7FFE86D60F20
-        public void get_MaximumTransferUnit(){} // RVA: 0x7FFE8139DA60
-        public void get_IsEncryptionAvailable(){} // RVA: 0x7FFE86D60F50
-        public void get_PayloadEncryptorType(){} // RVA: 0x7FFE81463AE0
-        public void get_EncryptorType(){} // RVA: 0x7FFE8113A010
-        public void set_EncryptorType(){} // RVA: 0x7FFE86D60F80
-        public void get_ServerTimeInMilliseconds(){} // RVA: 0x7FFE86D61140
-        public void get_EnableServerTracing(){} // RVA: 0x7FFE820E9360
-        public void get_ConnectionTime(){} // RVA: 0x7FFE86D61190
-        public void get_BytesIn(){} // RVA: 0x7FFE86D611C0
-        public void get_BytesOut(){} // RVA: 0x7FFE86D611E0
-        public void get_ByteCountCurrentDispatch(){} // RVA: 0x7FFE86D61200
-        public void get_ByteCountLastOperation(){} // RVA: 0x7FFE86D61220
-        public void get_PacketLossByCrc(){} // RVA: 0x7FFE86D61240
-        public void get_PacketLossByChallenge(){} // RVA: 0x7FFE86D61260
-        public void get_CountDiscarded(){} // RVA: 0x7FFE848BEED0
-        public void set_CountDiscarded(){} // RVA: 0x7FFE848BEEE0
-        public void set_DeltaUnreliableNumber(){} // RVA: 0x7FFE81A34770
-        public void get_QueuedOutgoingCommands(){} // RVA: 0x7FFE86D61280
-        public void get_Stats(){} // RVA: 0x7FFE81166040
-        public void set_Stats(){} // RVA: 0x7FFE81166050
-        public void .ctor(){} // RVA: 0x7FFE86D61940 | overloaded x2
-        public void Connect(){} // RVA: 0x7FFE86D619C0
-        public void CreatePeerBase(){} // RVA: 0x7FFE86D626C0
-        public void Disconnect(){} // RVA: 0x7FFE86D628E0
-        public void FetchServerTimestamp(){} // RVA: 0x7FFE86D62BA0
-        public void EstablishEncryption(){} // RVA: 0x7FFE86D62BD0
-        public void InitDatagramEncryption(){} // RVA: 0x7FFE86D62CB0
-        public void InitPayloadEncryption(){} // RVA: 0x7FFE81282380
-        public void Service(){} // RVA: 0x7FFE86D63100
-        public void SendOutgoingCommands(){} // RVA: 0x7FFE86D63150
-        public void SendAcksOnly(){} // RVA: 0x7FFE86D63330
-        public void DispatchIncomingCommands(){} // RVA: 0x7FFE86D634A0
-        public void SendOperation(){} // RVA: 0x7FFE86D63690
-        public void RegisterType(){} // RVA: 0x7FFE86D63B20
-        public void .cctor(){} // RVA: 0x7FFE86D63BB0
-        public void <EstablishEncryption>b__203_0(){} // RVA: 0x7FFE86D63C10
+        public void get_ClientSdkIdShifted(){} // RVA: 0x7FFAF8CCFB00
+        public void get_Version(){} // RVA: 0x7FFAF8CCFB10
+        public void get_UseAck2(){} // RVA: 0x7FFAF8CCFEF0
+        public void set_UseAck2(){} // RVA: 0x7FFAF8CCFF00
+        public void get_SerializationProtocolType(){} // RVA: 0x7FFAF442C3B0
+        public void set_SerializationProtocolType(){} // RVA: 0x7FFAF4439FD0
+        public void get_SocketImplementation(){} // RVA: 0x7FFAF2DBB130
+        public void set_SocketImplementation(){} // RVA: 0x7FFAF2D8EE90
+        public void get_SocketErrorCode(){} // RVA: 0x7FFAF8CCFF10
+        public void get_Listener(){} // RVA: 0x7FFAF2F476A0
+        public void set_Listener(){} // RVA: 0x7FFAF2F4B830
+        public void get_PeerState(){} // RVA: 0x7FFAF8CCFF40
+        public void get_ReuseEventInstance(){} // RVA: 0x7FFAF2E48C00
+        public void set_ReuseEventInstance(){} // RVA: 0x7FFAF8CCFFB0
+        public void get_UseByteArraySlicePoolForEvents(){} // RVA: 0x7FFAF310EEC0
+        public void get_WrapIncomingStructs(){} // RVA: 0x7FFAF310F560
+        public void get_QuickResendAttempts(){} // RVA: 0x7FFAF2E44D30
+        public void set_QuickResendAttempts(){} // RVA: 0x7FFAF8CD0160
+        public void get_DisconnectTimeout(){} // RVA: 0x7FFAF370BE80
+        public void set_DisconnectTimeout(){} // RVA: 0x7FFAF8CD0180
+        public void get_CrcEnabled(){} // RVA: 0x7FFAF304FF30
+        public void set_CrcEnabled(){} // RVA: 0x7FFAF8CD0190
+        public void get_ServerAddress(){} // RVA: 0x7FFAF8CD0220
+        public void get_UsedProtocol(){} // RVA: 0x7FFAF8CD0240
+        public void get_TransportProtocol(){} // RVA: 0x7FFAF3C0A230
+        public void set_TransportProtocol(){} // RVA: 0x7FFAF3BFF200
+        public void set_IsSimulationEnabled(){} // RVA: 0x7FFAF8CD0260
+        public void get_NetworkSimulationSettings(){} // RVA: 0x7FFAF8CD0400
+        public void get_MaximumTransferUnit(){} // RVA: 0x7FFAF304C4F0
+        public void get_IsEncryptionAvailable(){} // RVA: 0x7FFAF8CD0430
+        public void get_PayloadEncryptorType(){} // RVA: 0x7FFAF2F77C50
+        public void get_EncryptorType(){} // RVA: 0x7FFAF2DCC010
+        public void set_EncryptorType(){} // RVA: 0x7FFAF8CD0460
+        public void get_ServerTimeInMilliseconds(){} // RVA: 0x7FFAF8CD0620
+        public void get_EnableServerTracing(){} // RVA: 0x7FFAF461CD50
+        public void get_ConnectionTime(){} // RVA: 0x7FFAF8CD0670
+        public void get_BytesIn(){} // RVA: 0x7FFAF8CD06A0
+        public void get_BytesOut(){} // RVA: 0x7FFAF8CD06C0
+        public void get_ByteCountCurrentDispatch(){} // RVA: 0x7FFAF8CD06E0
+        public void get_ByteCountLastOperation(){} // RVA: 0x7FFAF8CD0700
+        public void get_PacketLossByCrc(){} // RVA: 0x7FFAF8CD0720
+        public void get_PacketLossByChallenge(){} // RVA: 0x7FFAF8CD0740
+        public void get_CountDiscarded(){} // RVA: 0x7FFAF66F9C00
+        public void set_CountDiscarded(){} // RVA: 0x7FFAF66F9C10
+        public void set_DeltaUnreliableNumber(){} // RVA: 0x7FFAF3779310
+        public void get_QueuedOutgoingCommands(){} // RVA: 0x7FFAF8CD0760
+        public void get_Stats(){} // RVA: 0x7FFAF2DF8040
+        public void set_Stats(){} // RVA: 0x7FFAF2DF8050
+        public void .ctor(){} // RVA: 0x7FFAF8CD0E20 | overloaded x2
+        public void Connect(){} // RVA: 0x7FFAF8CD0EA0
+        public void CreatePeerBase(){} // RVA: 0x7FFAF8CD1BA0
+        public void Disconnect(){} // RVA: 0x7FFAF8CD1DC0
+        public void FetchServerTimestamp(){} // RVA: 0x7FFAF8CD2080
+        public void EstablishEncryption(){} // RVA: 0x7FFAF8CD20B0
+        public void InitDatagramEncryption(){} // RVA: 0x7FFAF8CD2190
+        public void InitPayloadEncryption(){} // RVA: 0x7FFAF2F14450
+        public void Service(){} // RVA: 0x7FFAF8CD25E0
+        public void SendOutgoingCommands(){} // RVA: 0x7FFAF8CD2630
+        public void SendAcksOnly(){} // RVA: 0x7FFAF8CD2810
+        public void DispatchIncomingCommands(){} // RVA: 0x7FFAF8CD2980
+        public void SendOperation(){} // RVA: 0x7FFAF8CD2B70
+        public void RegisterType(){} // RVA: 0x7FFAF8CD3000
+        public void .cctor(){} // RVA: 0x7FFAF8CD3090
+        public void <EstablishEncryption>b__202_0(){} // RVA: 0x7FFAF8CD30F0
     }
 
-    public class PhotonSocket : Object
+    public class PhotonSocket
     {
-        public Photon.Client.PeerBase peerBase; // 0x10
-        public 0x6666444C Protocol; // 0x18
-        public bool PollReceive; // 0x19
-        public 0x66664B84 _state; // 0x1C
-        public int _socketErrorCode; // 0x20
-        public string ConnectAddress; // 0x28
-        public string _serverAddress; // 0x30
-        public string _proxyServerAddress; // 0x38
-        public string _serverIpAddress; // 0x40
-        public int _serverPort; // 0x48
-        public bool _addressResolvedAsIpv6; // 0x4C
-        public string _urlProtocol; // 0x50
-        public string _urlPath; // 0x58
-
         // ── Methods ──
-        public void get_Listener(){} // RVA: 0x7FFE86D63C40
-        public void get_MTU(){} // RVA: 0x7FFE86D63C70
-        public void get_State(){} // RVA: 0x7FFE82707EE0
-        public void set_State(){} // RVA: 0x7FFE82717690
-        public void get_SocketErrorCode(){} // RVA: 0x7FFE8151D690
-        public void set_SocketErrorCode(){} // RVA: 0x7FFE8170B670
-        public void get_Connected(){} // RVA: 0x7FFE86D63CA0
-        public void get_ServerAddress(){} // RVA: 0x7FFE8144E200
-        public void set_ServerAddress(){} // RVA: 0x7FFE81129890
-        public void get_ProxyServerAddress(){} // RVA: 0x7FFE8143BA80
-        public void set_ProxyServerAddress(){} // RVA: 0x7FFE81437330
-        public void set_ServerIpAddress(){} // RVA: 0x7FFE81123200
-        public void get_ServerPort(){} // RVA: 0x7FFE8119C0C0
-        public void set_ServerPort(){} // RVA: 0x7FFE8119C0D0
-        public void get_AddressResolvedAsIpv6(){} // RVA: 0x7FFE82447BA0
-        public void set_AddressResolvedAsIpv6(){} // RVA: 0x7FFE824479E0
-        public void set_UrlProtocol(){} // RVA: 0x7FFE812534D0
-        public void set_UrlPath(){} // RVA: 0x7FFE811C3510
-        public void get_SerializationProtocol(){} // RVA: 0x7FFE86D63CB0
-        public void .ctor(){} // RVA: 0x7FFE86D63E70
-        public void Connect(){} // RVA: 0x7FFE86D63FA0
-        public void Disconnect(){} // RVA: 0x7FFE80E2F150
+        public void get_Listener(){} // RVA: 0x7FFAF8CD3120
+        public void get_MTU(){} // RVA: 0x7FFAF8CD3150
+        public void get_State(){} // RVA: 0x7FFAF442C3B0
+        public void set_State(){} // RVA: 0x7FFAF4439FD0
+        public void get_SocketErrorCode(){} // RVA: 0x7FFAF3210030
+        public void set_SocketErrorCode(){} // RVA: 0x7FFAF344E0D0
+        public void get_Connected(){} // RVA: 0x7FFAF8CD3180
+        public void get_LogLevel(){} // RVA: 0x7FFAF8CD3190
+        public void get_ServerAddress(){} // RVA: 0x7FFAF30E74D0
+        public void set_ServerAddress(){} // RVA: 0x7FFAF2DBB890
+        public void get_ProxyServerAddress(){} // RVA: 0x7FFAF2F476A0
+        public void set_ProxyServerAddress(){} // RVA: 0x7FFAF2F4B830
+        public void set_ServerIpAddress(){} // RVA: 0x7FFAF2DB5200
+        public void get_ServerPort(){} // RVA: 0x7FFAF2E2E0C0
+        public void set_ServerPort(){} // RVA: 0x7FFAF2E2E0D0
+        public void get_AddressResolvedAsIpv6(){} // RVA: 0x7FFAF418A880
+        public void set_AddressResolvedAsIpv6(){} // RVA: 0x7FFAF4190A80
+        public void set_UrlProtocol(){} // RVA: 0x7FFAF2EE54D0
+        public void set_UrlPath(){} // RVA: 0x7FFAF2E55510
+        public void get_SerializationProtocol(){} // RVA: 0x7FFAF8CD31C0
+        public void .ctor(){} // RVA: 0x7FFAF8CD3380
+        public void Connect(){} // RVA: 0x7FFAF8CD34C0
+        public void Disconnect(){} // RVA: 0x7FFAF2ABDBE0
         public void Send(){}
-        public void Receive(){} // RVA: 0x7FFE80E33B00
-        public void HandleReceivedDatagram(){} // RVA: 0x7FFE86D64350
-        public void ReportDebugOfLevel(){} // RVA: 0x7FFE86D64380
-        public void EnqueueDebugReturn(){} // RVA: 0x7FFE86D643B0
-        public void HandleException(){} // RVA: 0x7FFE86D643D0
-        public void TryParseAddress(){} // RVA: 0x7FFE86D64480
-        public void IpAddressTryParse(){} // RVA: 0x7FFE86D64970
-        public void GetIpAddresses(){} // RVA: 0x7FFE86D64C30
-        public void AddressSortComparer(){} // RVA: 0x7FFE86D653F0
-        public void <HandleException>b__56_0(){} // RVA: 0x7FFE86D65450
+        public void Receive(){} // RVA: 0x7FFAF2AC2590
+        public void HandleReceivedDatagram(){} // RVA: 0x7FFAF8CD3870
+        public void ReportDebugOfLevel(){} // RVA: 0x7FFAF8CD38A0
+        public void EnqueueDebugReturn(){} // RVA: 0x7FFAF8CD38D0
+        public void HandleException(){} // RVA: 0x7FFAF8CD38F0
+        public void TryParseAddress(){} // RVA: 0x7FFAF8CD39A0
+        public void IpAddressTryParse(){} // RVA: 0x7FFAF8CD3E90
+        public void GetIpAddresses(){} // RVA: 0x7FFAF8CD4150
+        public void AddressSortComparer(){} // RVA: 0x7FFAF8CD4910
+        public void <HandleException>b__58_0(){} // RVA: 0x7FFAF8CD4970
     }
 
-    public class Pool`1 : Object
+    public class Pool`1
     {
         // ── Methods ──
         public void .ctor(){}
-        public void CreatePoolItems(){} // RVA: 0x7FFE80E46530
-        public void Release(){} // RVA: 0x7FFE810A1420
-        public void Acquire(){} // RVA: 0x7FFE810A1420
+        public void CreatePoolItems(){} // RVA: 0x7FFAF2AD4FA0
+        public void Release(){} // RVA: 0x7FFAF2D33FA0
+        public void Acquire(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class PreserveAttribute : Attribute
+    public class Pool`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF68A5130
+        public void CreatePoolItems(){} // RVA: 0x7FFAF68A52F0
+        public void Release(){} // RVA: 0x7FFAF68A5370
+        public void Acquire(){} // RVA: 0x7FFAF68A5540
     }
 
-    public class Protocol : Object
+    public class Pool`1
     {
-        public Photon.Client.ByteArraySlicePool ByteArraySlicePool; // 0x10
-        public System.Collections.Generic.Dictionary`2<System.Type,Photon.Client.CustomType> TypeDict;
-
         // ── Methods ──
-        public void get_ProtocolType(){} // RVA: 0x7FFE80E2E2E0
-        public void get_VersionBytes(){} // RVA: 0x7FFE80E2E2E0
-        public void Serialize(){} // RVA: 0x7FFE86D65980 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF68A5130
+        public void CreatePoolItems(){} // RVA: 0x7FFAF68A52F0
+        public void Release(){} // RVA: 0x7FFAF68A5370
+        public void Acquire(){} // RVA: 0x7FFAF68A5540
+    }
+
+    public class Pool`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF68A5130
+        public void CreatePoolItems(){} // RVA: 0x7FFAF68A52F0
+        public void Release(){} // RVA: 0x7FFAF68A5370
+        public void Acquire(){} // RVA: 0x7FFAF68A5540
+    }
+
+    public class PreserveAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class Protocol
+    {
+        // ── Methods ──
+        public void get_ProtocolType(){} // RVA: 0x7FFAF2ABCD60
+        public void get_VersionBytes(){} // RVA: 0x7FFAF2ABCD60
+        public void Serialize(){} // RVA: 0x7FFAF8CD4EA0 | overloaded x2
         public void SerializeShort(){}
         public void SerializeString(){}
         public void SerializeEventData(){}
         public void SerializeOperationRequest(){}
         public void SerializeOperationResponse(){}
-        public void Deserialize(){} // RVA: 0x7FFE86D65A20 | overloaded x2
-        public void DeserializeShort(){} // RVA: 0x7FFE80E34A20
-        public void DeserializeByte(){} // RVA: 0x7FFE80E2F3B0
+        public void Deserialize(){} // RVA: 0x7FFAF8CD4F40 | overloaded x2
+        public void DeserializeShort(){} // RVA: 0x7FFAF2AC34B0
+        public void DeserializeByte(){} // RVA: 0x7FFAF2ABDE40
         public void DeserializeEventData(){}
-        public void DeserializeOperationRequest(){} // RVA: 0x7FFE80E3F2F0
-        public void DeserializeOperationResponse(){} // RVA: 0x7FFE80E3F2F0
-        public void DeserializeDisconnectMessage(){} // RVA: 0x7FFE80E2E390
-        public void DeserializeMessage(){} // RVA: 0x7FFE86D65B10
-        public void TryRegisterType(){} // RVA: 0x7FFE86D65B70
-        public void .ctor(){} // RVA: 0x7FFE86D65EE0
-        public void .cctor(){} // RVA: 0x7FFE86D65F80
+        public void DeserializeOperationRequest(){} // RVA: 0x7FFAF2ACDD80
+        public void DeserializeOperationResponse(){} // RVA: 0x7FFAF2ACDD80
+        public void DeserializeDisconnectMessage(){} // RVA: 0x7FFAF2ABCE10
+        public void DeserializeMessage(){} // RVA: 0x7FFAF8CD5030
+        public void TryRegisterType(){} // RVA: 0x7FFAF8CD5090
+        public void .ctor(){} // RVA: 0x7FFAF8CD5400
+        public void .cctor(){} // RVA: 0x7FFAF8CD54A0
     }
 
-    public class Protocol16 : Protocol
+    public class Protocol16
     {
-        public byte[] versionBytes; // 0x18
-        public byte[] memShort; // 0x20
-
         // ── Methods ──
-        public void get_ProtocolType(){} // RVA: 0x7FFE86D66120
-        public void get_VersionBytes(){} // RVA: 0x7FFE810FE7C0
-        public void SerializeCustom(){} // RVA: 0x7FFE86D66160
-        public void DeserializeCustom(){} // RVA: 0x7FFE86D66530
-        public void GetTypeOfCode(){} // RVA: 0x7FFE86D66860
-        public void GetCodeOfType(){} // RVA: 0x7FFE86D66BE0
-        public void CreateArrayByType(){} // RVA: 0x7FFE86D66F80
-        public void SerializeOperationRequest(){} // RVA: 0x7FFE86D66FF0 | overloaded x2
-        public void DeserializeOperationRequest(){} // RVA: 0x7FFE86D670D0
-        public void SerializeOperationResponse(){} // RVA: 0x7FFE86D671C0
-        public void DeserializeDisconnectMessage(){} // RVA: 0x7FFE86D67350
-        public void DeserializeOperationResponse(){} // RVA: 0x7FFE86D67520
-        public void SerializeEventData(){} // RVA: 0x7FFE86D67710
-        public void DeserializeEventData(){} // RVA: 0x7FFE86D677F0
-        public void SerializeParameterTable(){} // RVA: 0x7FFE86D678B0
-        public void DeserializeParameterDictionary(){} // RVA: 0x7FFE86D67C40
-        public void Serialize(){} // RVA: 0x7FFE86D67D70
-        public void SerializeByte(){} // RVA: 0x7FFE86D689A0
-        public void SerializeBoolean(){} // RVA: 0x7FFE86D68A50
-        public void SerializeShort(){} // RVA: 0x7FFE86D68B00
-        public void SerializeLengthAsShort(){} // RVA: 0x7FFE86D68D50
-        public void SerializeInteger(){} // RVA: 0x7FFE86D68FA0
-        public void SerializeLong(){} // RVA: 0x7FFE86D69210
-        public void SerializeFloat(){} // RVA: 0x7FFE86D696C0
-        public void SerializeDouble(){} // RVA: 0x7FFE86D69C30
-        public void SerializeString(){} // RVA: 0x7FFE86D6A0F0
-        public void SerializeArray(){} // RVA: 0x7FFE86D6A2D0
-        public void SerializeByteArray(){} // RVA: 0x7FFE86D6A9B0
-        public void SerializeByteArraySegment(){} // RVA: 0x7FFE86D6AA70
-        public void SerializeIntArrayOptimized(){} // RVA: 0x7FFE86D6AB50
-        public void SerializeObjectArray(){} // RVA: 0x7FFE86D6ADB0
-        public void SerializeHashTable(){} // RVA: 0x7FFE86D6B000
-        public void SerializeDictionary(){} // RVA: 0x7FFE86D6B360
-        public void SerializeDictionaryHeader(){} // RVA: 0x7FFE86D6B460 | overloaded x2
-        public void SerializeDictionaryElements(){} // RVA: 0x7FFE86D6B8A0
-        public void Deserialize(){} // RVA: 0x7FFE86D6BC00
-        public void DeserializeByte(){} // RVA: 0x7FFE86D6C530
-        public void DeserializeBoolean(){} // RVA: 0x7FFE86D6C550
-        public void DeserializeShort(){} // RVA: 0x7FFE86D6C580
-        public void DeserializeInteger(){} // RVA: 0x7FFE86D6C930
-        public void DeserializeLong(){} // RVA: 0x7FFE86D6CD00
-        public void DeserializeFloat(){} // RVA: 0x7FFE86D6D140
-        public void DeserializeDouble(){} // RVA: 0x7FFE86D6D580
-        public void DeserializeString(){} // RVA: 0x7FFE86D6DA50
-        public void DeserializeArray(){} // RVA: 0x7FFE86D6DBB0
-        public void DeserializeByteArray(){} // RVA: 0x7FFE86D6E5D0
-        public void DeserializeIntArray(){} // RVA: 0x7FFE86D6E690
-        public void DeserializeStringArray(){} // RVA: 0x7FFE86D6E750
-        public void DeserializeObjectArray(){} // RVA: 0x7FFE86D6E860
-        public void DeserializeHashTable(){} // RVA: 0x7FFE86D6E9E0
-        public void DeserializeDictionary(){} // RVA: 0x7FFE86D6EB50
-        public void DeserializeDictionaryArray(){} // RVA: 0x7FFE86D6EF30
-        public void DeserializeDictionaryType(){} // RVA: 0x7FFE86D6F1E0
-        public void .ctor(){} // RVA: 0x7FFE86D6F4B0
-        public void .cctor(){} // RVA: 0x7FFE86D6F930
+        public void get_ProtocolType(){} // RVA: 0x7FFAF8CD5640
+        public void get_VersionBytes(){} // RVA: 0x7FFAF2D907C0
+        public void SerializeCustom(){} // RVA: 0x7FFAF8CD5680
+        public void DeserializeCustom(){} // RVA: 0x7FFAF8CD5A50
+        public void GetTypeOfCode(){} // RVA: 0x7FFAF8CD5D80
+        public void GetCodeOfType(){} // RVA: 0x7FFAF8CD6100
+        public void CreateArrayByType(){} // RVA: 0x7FFAF8CD64A0
+        public void SerializeOperationRequest(){} // RVA: 0x7FFAF8CD6510 | overloaded x2
+        public void DeserializeOperationRequest(){} // RVA: 0x7FFAF8CD65F0
+        public void SerializeOperationResponse(){} // RVA: 0x7FFAF8CD66E0
+        public void DeserializeDisconnectMessage(){} // RVA: 0x7FFAF8CD6870
+        public void DeserializeOperationResponse(){} // RVA: 0x7FFAF8CD6A40
+        public void SerializeEventData(){} // RVA: 0x7FFAF8CD6C30
+        public void DeserializeEventData(){} // RVA: 0x7FFAF8CD6D10
+        public void SerializeParameterTable(){} // RVA: 0x7FFAF8CD6DD0
+        public void DeserializeParameterDictionary(){} // RVA: 0x7FFAF8CD7160
+        public void Serialize(){} // RVA: 0x7FFAF8CD7290
+        public void SerializeByte(){} // RVA: 0x7FFAF8CD7EC0
+        public void SerializeBoolean(){} // RVA: 0x7FFAF8CD7F70
+        public void SerializeShort(){} // RVA: 0x7FFAF8CD8020
+        public void SerializeLengthAsShort(){} // RVA: 0x7FFAF8CD8270
+        public void SerializeInteger(){} // RVA: 0x7FFAF8CD84C0
+        public void SerializeLong(){} // RVA: 0x7FFAF8CD8730
+        public void SerializeFloat(){} // RVA: 0x7FFAF8CD8BE0
+        public void SerializeDouble(){} // RVA: 0x7FFAF8CD9150
+        public void SerializeString(){} // RVA: 0x7FFAF8CD9610
+        public void SerializeArray(){} // RVA: 0x7FFAF8CD97F0
+        public void SerializeByteArray(){} // RVA: 0x7FFAF8CD9ED0
+        public void SerializeByteArraySegment(){} // RVA: 0x7FFAF8CD9F90
+        public void SerializeIntArrayOptimized(){} // RVA: 0x7FFAF8CDA070
+        public void SerializeObjectArray(){} // RVA: 0x7FFAF8CDA2D0
+        public void SerializeHashTable(){} // RVA: 0x7FFAF8CDA520
+        public void SerializeDictionary(){} // RVA: 0x7FFAF8CDA880
+        public void SerializeDictionaryHeader(){} // RVA: 0x7FFAF8CDA980 | overloaded x2
+        public void SerializeDictionaryElements(){} // RVA: 0x7FFAF8CDADC0
+        public void Deserialize(){} // RVA: 0x7FFAF8CDB120
+        public void DeserializeByte(){} // RVA: 0x7FFAF8CDBA50
+        public void DeserializeBoolean(){} // RVA: 0x7FFAF8CDBA70
+        public void DeserializeShort(){} // RVA: 0x7FFAF8CDBAA0
+        public void DeserializeInteger(){} // RVA: 0x7FFAF8CDBE50
+        public void DeserializeLong(){} // RVA: 0x7FFAF8CDC220
+        public void DeserializeFloat(){} // RVA: 0x7FFAF8CDC660
+        public void DeserializeDouble(){} // RVA: 0x7FFAF8CDCAA0
+        public void DeserializeString(){} // RVA: 0x7FFAF8CDCF70
+        public void DeserializeArray(){} // RVA: 0x7FFAF8CDD0D0
+        public void DeserializeByteArray(){} // RVA: 0x7FFAF8CDDAF0
+        public void DeserializeIntArray(){} // RVA: 0x7FFAF8CDDBB0
+        public void DeserializeStringArray(){} // RVA: 0x7FFAF8CDDC70
+        public void DeserializeObjectArray(){} // RVA: 0x7FFAF8CDDD80
+        public void DeserializeHashTable(){} // RVA: 0x7FFAF8CDDF00
+        public void DeserializeDictionary(){} // RVA: 0x7FFAF8CDE070
+        public void DeserializeDictionaryArray(){} // RVA: 0x7FFAF8CDE450
+        public void DeserializeDictionaryType(){} // RVA: 0x7FFAF8CDE700
+        public void .ctor(){} // RVA: 0x7FFAF8CDE9D0
+        public void .cctor(){} // RVA: 0x7FFAF8CDEE50
     }
 
-    public class Protocol18 : Protocol
+    public class Protocol18
     {
-        public byte[] versionBytes; // 0x18
-        public byte[] boolMasks;
-
         // ── Methods ──
-        public void get_ProtocolType(){} // RVA: 0x7FFE86D6FAE0
-        public void get_VersionBytes(){} // RVA: 0x7FFE810FE7C0
-        public void Serialize(){} // RVA: 0x7FFE86D6FB20
-        public void SerializeShort(){} // RVA: 0x7FFE86D6FBA0
-        public void SerializeString(){} // RVA: 0x7FFE86D6FC10
-        public void Deserialize(){} // RVA: 0x7FFE86D6FC20
-        public void DeserializeShort(){} // RVA: 0x7FFE86D6FC40
-        public void DeserializeByte(){} // RVA: 0x7FFE86D6C530
-        public void GetAllowedDictionaryKeyTypes(){} // RVA: 0x7FFE86D6FCC0
-        public void GetClrArrayType(){} // RVA: 0x7FFE86D6FEB0
-        public void GetCodeOfType(){} // RVA: 0x7FFE86D70210
-        public void GetCodeOfTypeCode(){} // RVA: 0x7FFE86D70A30
-        public void Read(){} // RVA: 0x7FFE86D70B20 | overloaded x2
-        public void ReadBoolean(){} // RVA: 0x7FFE86D6C550
-        public void ReadByte(){} // RVA: 0x7FFE86D6C530
-        public void ReadInt16(){} // RVA: 0x7FFE86D6FC40
-        public void ReadUShort(){} // RVA: 0x7FFE86D6FC40
-        public void ReadSingle(){} // RVA: 0x7FFE86D71DD0
-        public void ReadDouble(){} // RVA: 0x7FFE86D71E70
-        public void ReadNonAllocByteArray(){} // RVA: 0x7FFE86D71F10
-        public void ReadByteArray(){} // RVA: 0x7FFE86D71FB0
-        public void ReadCustomType(){} // RVA: 0x7FFE86D72060
-        public void DeserializeEventData(){} // RVA: 0x7FFE86D72420
-        public void ReadParameterDictionary(){} // RVA: 0x7FFE86D72660
-        public void ReadHashtable(){} // RVA: 0x7FFE86D72790
-        public void DeserializeOperationRequest(){} // RVA: 0x7FFE86D72980
-        public void DeserializeOperationResponse(){} // RVA: 0x7FFE86D72A70
-        public void DeserializeDisconnectMessage(){} // RVA: 0x7FFE86D72C80
-        public void ReadString(){} // RVA: 0x7FFE86D72E60
-        public void ReadCustomTypeArray(){} // RVA: 0x7FFE86D72F40
-        public void ReadDictionaryType(){} // RVA: 0x7FFE86D737E0 | overloaded x2
-        public void GetDictArrayType(){} // RVA: 0x7FFE86D73A90
-        public void ReadDictionary(){} // RVA: 0x7FFE86D73B90
-        public void ReadDictionaryElements(){} // RVA: 0x7FFE86D73DC0
-        public void ReadObjectArray(){} // RVA: 0x7FFE86D73F40
-        public void ReadBooleanArray(){} // RVA: 0x7FFE86D740B0
-        public void ReadInt16Array(){} // RVA: 0x7FFE86D742F0
-        public void ReadSingleArray(){} // RVA: 0x7FFE86D743F0
-        public void ReadDoubleArray(){} // RVA: 0x7FFE86D744B0
-        public void ReadStringArray(){} // RVA: 0x7FFE86D74570
-        public void ReadHashtableArray(){} // RVA: 0x7FFE86D74670
-        public void ReadDictionaryArray(){} // RVA: 0x7FFE86D74800
-        public void ReadArrayInArray(){} // RVA: 0x7FFE86D74B90
-        public void ReadInt1(){} // RVA: 0x7FFE86D74D30
-        public void ReadInt2(){} // RVA: 0x7FFE86D74D70
-        public void ReadCompressedInt32(){} // RVA: 0x7FFE86D74E30
-        public void ReadCompressedUInt32(){} // RVA: 0x7FFE86D74E50
-        public void ReadCompressedInt64(){} // RVA: 0x7FFE86D750F0
-        public void ReadCompressedUInt64(){} // RVA: 0x7FFE86D751D0
-        public void ReadCompressedInt32Array(){} // RVA: 0x7FFE86D752A0
-        public void ReadCompressedInt64Array(){} // RVA: 0x7FFE86D75360
-        public void DecodeZigZag32(){} // RVA: 0x7FFE86D75410
-        public void DecodeZigZag64(){} // RVA: 0x7FFE86D75420
-        public void Write(){} // RVA: 0x7FFE86D75430 | overloaded x2
-        public void SerializeEventData(){} // RVA: 0x7FFE86D76A70
-        public void WriteParameterTable(){} // RVA: 0x7FFE86D76B50
-        public void SerializeOperationRequest(){} // RVA: 0x7FFE86D76F50 | overloaded x2
-        public void SerializeOperationResponse(){} // RVA: 0x7FFE86D77030
-        public void WriteByte(){} // RVA: 0x7FFE86D771E0
-        public void WriteBoolean(){} // RVA: 0x7FFE86D77270
-        public void WriteUShort(){} // RVA: 0x7FFE86D77310
-        public void WriteInt16(){} // RVA: 0x7FFE86D6FBA0
-        public void WriteDouble(){} // RVA: 0x7FFE86D77340
-        public void WriteSingle(){} // RVA: 0x7FFE86D776F0
-        public void WriteString(){} // RVA: 0x7FFE86D77AA0
-        public void WriteHashtable(){} // RVA: 0x7FFE86D77C50
-        public void WriteByteArray(){} // RVA: 0x7FFE86D77F60
-        public void WriteArraySegmentByte(){} // RVA: 0x7FFE86D78010
-        public void WriteByteArraySlice(){} // RVA: 0x7FFE86D78160
-        public void WriteInt32ArrayCompressed(){} // RVA: 0x7FFE86D78240
-        public void WriteInt64ArrayCompressed(){} // RVA: 0x7FFE86D78310
-        public void WriteBoolArray(){} // RVA: 0x7FFE86D783F0
-        public void WriteInt16Array(){} // RVA: 0x7FFE86D786E0
-        public void WriteSingleArray(){} // RVA: 0x7FFE86D787B0
-        public void WriteDoubleArray(){} // RVA: 0x7FFE86D788A0
-        public void WriteStringArray(){} // RVA: 0x7FFE86D78990
-        public void WriteObjectArray(){} // RVA: 0x7FFE86D78B50
-        public void WriteArrayInArray(){} // RVA: 0x7FFE86D78D70
-        public void WriteCustomTypeBody(){} // RVA: 0x7FFE86D78EA0
-        public void WriteCustomType(){} // RVA: 0x7FFE86D79140
-        public void WriteCustomTypeArray(){} // RVA: 0x7FFE86D79620
-        public void WriteArrayHeader(){} // RVA: 0x7FFE86D79CB0
-        public void WriteDictionaryElements(){} // RVA: 0x7FFE86D79E10
-        public void WriteDictionary(){} // RVA: 0x7FFE86D7A0E0
-        public void WriteDictionaryHeader(){} // RVA: 0x7FFE86D7A220
-        public void WriteArrayType(){} // RVA: 0x7FFE86D7A9E0
-        public void WriteHashtableArray(){} // RVA: 0x7FFE86D7AEB0
-        public void WriteDictionaryArray(){} // RVA: 0x7FFE86D7B000
-        public void WriteIntLength(){} // RVA: 0x7FFE86D7B140
-        public void WriteCompressedInt32(){} // RVA: 0x7FFE86D7B150
-        public void WriteCompressedInt64(){} // RVA: 0x7FFE86D7B300
-        public void WriteCompressedUInt32(){} // RVA: 0x7FFE86D7B6A0 | overloaded x2
-        public void WriteCompressedUInt64(){} // RVA: 0x7FFE86D7B710
-        public void EncodeZigZag32(){} // RVA: 0x7FFE86D7B950
-        public void EncodeZigZag64(){} // RVA: 0x7FFE86D7B960
-        public void .ctor(){} // RVA: 0x7FFE86D7B970
-        public void .cctor(){} // RVA: 0x7FFE86D7BC70
+        public void get_ProtocolType(){} // RVA: 0x7FFAF8CDF000
+        public void get_VersionBytes(){} // RVA: 0x7FFAF2D907C0
+        public void Serialize(){} // RVA: 0x7FFAF8CDF040
+        public void SerializeShort(){} // RVA: 0x7FFAF8CDF0C0
+        public void SerializeString(){} // RVA: 0x7FFAF8CDF130
+        public void Deserialize(){} // RVA: 0x7FFAF8CDF140
+        public void DeserializeShort(){} // RVA: 0x7FFAF8CDF160
+        public void DeserializeByte(){} // RVA: 0x7FFAF8CDBA50
+        public void GetAllowedDictionaryKeyTypes(){} // RVA: 0x7FFAF8CDF1E0
+        public void GetClrArrayType(){} // RVA: 0x7FFAF8CDF3D0
+        public void GetCodeOfType(){} // RVA: 0x7FFAF8CDF730
+        public void GetCodeOfTypeCode(){} // RVA: 0x7FFAF8CDFF50
+        public void Read(){} // RVA: 0x7FFAF8CE0040 | overloaded x2
+        public void ReadBoolean(){} // RVA: 0x7FFAF8CDBA70
+        public void ReadByte(){} // RVA: 0x7FFAF8CDBA50
+        public void ReadInt16(){} // RVA: 0x7FFAF8CDF160
+        public void ReadUShort(){} // RVA: 0x7FFAF8CDF160
+        public void ReadSingle(){} // RVA: 0x7FFAF8CE12F0
+        public void ReadDouble(){} // RVA: 0x7FFAF8CE1390
+        public void ReadNonAllocByteArray(){} // RVA: 0x7FFAF8CE1430
+        public void ReadByteArray(){} // RVA: 0x7FFAF8CE14D0
+        public void ReadCustomType(){} // RVA: 0x7FFAF8CE1580
+        public void DeserializeEventData(){} // RVA: 0x7FFAF8CE1940
+        public void ReadParameterDictionary(){} // RVA: 0x7FFAF8CE1B80
+        public void ReadHashtable(){} // RVA: 0x7FFAF8CE1CB0
+        public void DeserializeOperationRequest(){} // RVA: 0x7FFAF8CE1EA0
+        public void DeserializeOperationResponse(){} // RVA: 0x7FFAF8CE1F90
+        public void DeserializeDisconnectMessage(){} // RVA: 0x7FFAF8CE21A0
+        public void ReadString(){} // RVA: 0x7FFAF8CE2380
+        public void ReadCustomTypeArray(){} // RVA: 0x7FFAF8CE2460
+        public void ReadDictionaryType(){} // RVA: 0x7FFAF8CE2D00 | overloaded x2
+        public void GetDictArrayType(){} // RVA: 0x7FFAF8CE2FB0
+        public void ReadDictionary(){} // RVA: 0x7FFAF8CE30B0
+        public void ReadDictionaryElements(){} // RVA: 0x7FFAF8CE32E0
+        public void ReadObjectArray(){} // RVA: 0x7FFAF8CE3460
+        public void ReadBooleanArray(){} // RVA: 0x7FFAF8CE35D0
+        public void ReadInt16Array(){} // RVA: 0x7FFAF8CE3810
+        public void ReadSingleArray(){} // RVA: 0x7FFAF8CE3910
+        public void ReadDoubleArray(){} // RVA: 0x7FFAF8CE39D0
+        public void ReadStringArray(){} // RVA: 0x7FFAF8CE3A90
+        public void ReadHashtableArray(){} // RVA: 0x7FFAF8CE3B90
+        public void ReadDictionaryArray(){} // RVA: 0x7FFAF8CE3D20
+        public void ReadArrayInArray(){} // RVA: 0x7FFAF8CE40B0
+        public void ReadInt1(){} // RVA: 0x7FFAF8CE4250
+        public void ReadInt2(){} // RVA: 0x7FFAF8CE4290
+        public void ReadCompressedInt32(){} // RVA: 0x7FFAF8CE4350
+        public void ReadCompressedUInt32(){} // RVA: 0x7FFAF8CE4370
+        public void ReadCompressedInt64(){} // RVA: 0x7FFAF8CE4610
+        public void ReadCompressedUInt64(){} // RVA: 0x7FFAF8CE46F0
+        public void ReadCompressedInt32Array(){} // RVA: 0x7FFAF8CE47C0
+        public void ReadCompressedInt64Array(){} // RVA: 0x7FFAF8CE4880
+        public void DecodeZigZag32(){} // RVA: 0x7FFAF8CE4930
+        public void DecodeZigZag64(){} // RVA: 0x7FFAF8CE4940
+        public void Write(){} // RVA: 0x7FFAF8CE4950 | overloaded x2
+        public void SerializeEventData(){} // RVA: 0x7FFAF8CE5F90
+        public void WriteParameterTable(){} // RVA: 0x7FFAF8CE6070
+        public void SerializeOperationRequest(){} // RVA: 0x7FFAF8CE6470 | overloaded x2
+        public void SerializeOperationResponse(){} // RVA: 0x7FFAF8CE6550
+        public void WriteByte(){} // RVA: 0x7FFAF8CE6700
+        public void WriteBoolean(){} // RVA: 0x7FFAF8CE6790
+        public void WriteUShort(){} // RVA: 0x7FFAF8CE6830
+        public void WriteInt16(){} // RVA: 0x7FFAF8CDF0C0
+        public void WriteDouble(){} // RVA: 0x7FFAF8CE6860
+        public void WriteSingle(){} // RVA: 0x7FFAF8CE6C10
+        public void WriteString(){} // RVA: 0x7FFAF8CE6FC0
+        public void WriteHashtable(){} // RVA: 0x7FFAF8CE7170
+        public void WriteByteArray(){} // RVA: 0x7FFAF8CE7480
+        public void WriteArraySegmentByte(){} // RVA: 0x7FFAF8CE7530
+        public void WriteByteArraySlice(){} // RVA: 0x7FFAF8CE7680
+        public void WriteInt32ArrayCompressed(){} // RVA: 0x7FFAF8CE7760
+        public void WriteInt64ArrayCompressed(){} // RVA: 0x7FFAF8CE7830
+        public void WriteBoolArray(){} // RVA: 0x7FFAF8CE7910
+        public void WriteInt16Array(){} // RVA: 0x7FFAF8CE7C00
+        public void WriteSingleArray(){} // RVA: 0x7FFAF8CE7CD0
+        public void WriteDoubleArray(){} // RVA: 0x7FFAF8CE7DC0
+        public void WriteStringArray(){} // RVA: 0x7FFAF8CE7EB0
+        public void WriteObjectArray(){} // RVA: 0x7FFAF8CE8070
+        public void WriteArrayInArray(){} // RVA: 0x7FFAF8CE8290
+        public void WriteCustomTypeBody(){} // RVA: 0x7FFAF8CE83C0
+        public void WriteCustomType(){} // RVA: 0x7FFAF8CE8660
+        public void WriteCustomTypeArray(){} // RVA: 0x7FFAF8CE8B40
+        public void WriteArrayHeader(){} // RVA: 0x7FFAF8CE91D0
+        public void WriteDictionaryElements(){} // RVA: 0x7FFAF8CE9330
+        public void WriteDictionary(){} // RVA: 0x7FFAF8CE9600
+        public void WriteDictionaryHeader(){} // RVA: 0x7FFAF8CE9740
+        public void WriteArrayType(){} // RVA: 0x7FFAF8CE9F00
+        public void WriteHashtableArray(){} // RVA: 0x7FFAF8CEA3D0
+        public void WriteDictionaryArray(){} // RVA: 0x7FFAF8CEA520
+        public void WriteIntLength(){} // RVA: 0x7FFAF8CEA660
+        public void WriteCompressedInt32(){} // RVA: 0x7FFAF8CEA670
+        public void WriteCompressedInt64(){} // RVA: 0x7FFAF8CEA820
+        public void WriteCompressedUInt32(){} // RVA: 0x7FFAF8CEABC0 | overloaded x2
+        public void WriteCompressedUInt64(){} // RVA: 0x7FFAF8CEAC30
+        public void EncodeZigZag32(){} // RVA: 0x7FFAF8CEAE70
+        public void EncodeZigZag64(){} // RVA: 0x7FFAF8CEAE80
+        public void .ctor(){} // RVA: 0x7FFAF8CEAE90
+        public void .cctor(){} // RVA: 0x7FFAF8CEB190
     }
 
-    public class SendOptions : ValueType
+    public class SendOptions
     {
-        public Photon.Client.SendOptions SendReliable;
-
         // ── Methods ──
-        public void get_Reliability(){} // RVA: 0x7FFE86D7CE20
-        public void set_Reliability(){} // RVA: 0x7FFE86D7CE30
-        public void .cctor(){} // RVA: 0x7FFE86D7CE40
+        public void get_Reliability(){} // RVA: 0x7FFAF8CEC340
+        public void set_Reliability(){} // RVA: 0x7FFAF8CEC350
+        public void .cctor(){} // RVA: 0x7FFAF8CEC360
     }
 
-    public class SerializationProtocolFactory : Object
+    public class SerializationProtocolFactory
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7FFE86D65660
+        public void Create(){} // RVA: 0x7FFAF8CD4B80
     }
 
-    public class SerializeStreamMethod : MulticastDelegate
+    public class SerializeStreamMethod
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8401BBD0
-        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void .ctor(){} // RVA: 0x7FFAF5E5FC70
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
     }
 
-    public class SimulationItem : Object
+    public class SimulationItem
     {
-        public System.Diagnostics.Stopwatch stopw; // 0x10
-
         // ── Methods ──
-        public void get_Delay(){} // RVA: 0x7FFE81549710
+        public void get_Delay(){} // RVA: 0x7FFAF3241DC0
     }
 
-    public class SocketTcp : PhotonSocket
+    public class SocketTcp
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D7CEB0
-        public void Finalize(){} // RVA: 0x7FFE86D7CFD0
-        public void Dispose(){} // RVA: 0x7FFE86D7D010
-        public void Connect(){} // RVA: 0x7FFE86D7D120
-        public void Disconnect(){} // RVA: 0x7FFE86D7D3C0
-        public void Send(){} // RVA: 0x7FFE86D7D620
-        public void Receive(){} // RVA: 0x7FFE82878320
-        public void DnsAndConnect(){} // RVA: 0x7FFE86D7D910
-        public void ReceiveLoop(){} // RVA: 0x7FFE86D7E040
+        public void .ctor(){} // RVA: 0x7FFAF8CEC3D0
+        public void Finalize(){} // RVA: 0x7FFAF8CEC4F0
+        public void Dispose(){} // RVA: 0x7FFAF8CEC530
+        public void Connect(){} // RVA: 0x7FFAF8CEC640
+        public void Disconnect(){} // RVA: 0x7FFAF8CEC8E0
+        public void Send(){} // RVA: 0x7FFAF8CECB40
+        public void Receive(){} // RVA: 0x7FFAF45325D0
+        public void DnsAndConnect(){} // RVA: 0x7FFAF8CECE30
+        public void ReceiveLoop(){} // RVA: 0x7FFAF8CED560
     }
 
-    public class SocketTcpAsync : PhotonSocket
+    public class SocketTcpAsync
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D7EA40
-        public void Finalize(){} // RVA: 0x7FFE86D7EB60
-        public void Dispose(){} // RVA: 0x7FFE86D7EBA0
-        public void Connect(){} // RVA: 0x7FFE86D7ECC0
-        public void Disconnect(){} // RVA: 0x7FFE86D7EF60
-        public void Send(){} // RVA: 0x7FFE86D7F1F0
-        public void Receive(){} // RVA: 0x7FFE82878320
-        public void DnsAndConnect(){} // RVA: 0x7FFE86D7F720
-        public void ReceiveAsync(){} // RVA: 0x7FFE86D80230 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF8CEDF60
+        public void Finalize(){} // RVA: 0x7FFAF8CEE080
+        public void Dispose(){} // RVA: 0x7FFAF8CEE0C0
+        public void Connect(){} // RVA: 0x7FFAF8CEE1E0
+        public void Disconnect(){} // RVA: 0x7FFAF8CEE480
+        public void Send(){} // RVA: 0x7FFAF8CEE710
+        public void Receive(){} // RVA: 0x7FFAF45325D0
+        public void DnsAndConnect(){} // RVA: 0x7FFAF8CEEC40
+        public void ReceiveAsync(){} // RVA: 0x7FFAF8CEF750 | overloaded x2
     }
 
-    public class SocketUdp : PhotonSocket
+    public class SocketUdp
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D80A40
-        public void Finalize(){} // RVA: 0x7FFE86D80BD0
-        public void Dispose(){} // RVA: 0x7FFE86D80C10
-        public void Connect(){} // RVA: 0x7FFE86D80D30
-        public void Disconnect(){} // RVA: 0x7FFE86D80FD0
-        public void Send(){} // RVA: 0x7FFE86D81260
-        public void Receive(){} // RVA: 0x7FFE82878320
-        public void DnsAndConnect(){} // RVA: 0x7FFE86D81DD0
-        public void ReceiveLoop(){} // RVA: 0x7FFE86D82440
+        public void .ctor(){} // RVA: 0x7FFAF8CEFF60
+        public void Finalize(){} // RVA: 0x7FFAF8CF00F0
+        public void Dispose(){} // RVA: 0x7FFAF8CF0130
+        public void Connect(){} // RVA: 0x7FFAF8CF0250
+        public void Disconnect(){} // RVA: 0x7FFAF8CF04F0
+        public void Send(){} // RVA: 0x7FFAF8CF0780
+        public void Receive(){} // RVA: 0x7FFAF45325D0
+        public void DnsAndConnect(){} // RVA: 0x7FFAF8CF1300
+        public void ReceiveLoop(){} // RVA: 0x7FFAF8CF1970
     }
 
-    public class SocketUdpAsync : PhotonSocket
+    public class SocketUdpAsync
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D82B70
-        public void Finalize(){} // RVA: 0x7FFE86D7EB60
-        public void Dispose(){} // RVA: 0x7FFE86D7EBA0
-        public void Connect(){} // RVA: 0x7FFE86D82C90
-        public void Disconnect(){} // RVA: 0x7FFE86D82F30
-        public void Send(){} // RVA: 0x7FFE86D831C0
-        public void Receive(){} // RVA: 0x7FFE82878320
-        public void DnsAndConnect(){} // RVA: 0x7FFE86D83720
-        public void StartReceive(){} // RVA: 0x7FFE86D83C90
-        public void OnReceive(){} // RVA: 0x7FFE86D83F10
+        public void .ctor(){} // RVA: 0x7FFAF8CF2090
+        public void Finalize(){} // RVA: 0x7FFAF8CEE080
+        public void Dispose(){} // RVA: 0x7FFAF8CEE0C0
+        public void Connect(){} // RVA: 0x7FFAF8CF21B0
+        public void Disconnect(){} // RVA: 0x7FFAF8CF2450
+        public void Send(){} // RVA: 0x7FFAF8CF26E0
+        public void Receive(){} // RVA: 0x7FFAF45325D0
+        public void DnsAndConnect(){} // RVA: 0x7FFAF8CF2C40
+        public void StartReceive(){} // RVA: 0x7FFAF8CF31B0
+        public void OnReceive(){} // RVA: 0x7FFAF8CF3430
     }
 
-    public class StreamBuffer : Object
+    public class StreamBuffer
     {
-        public int DefaultInitialSize;
-        public int pos; // 0x10
-        public int len; // 0x14
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86D84900 | overloaded x2
-        public void ToArray(){} // RVA: 0x7FFE86D84970
-        public void Compact(){} // RVA: 0x7FFE86D849E0
-        public void GetBuffer(){} // RVA: 0x7FFE810FE7C0
-        public void GetBufferAndAdvance(){} // RVA: 0x7FFE86D84A60
-        public void get_Length(){} // RVA: 0x7FFE8164B230
-        public void get_Position(){} // RVA: 0x7FFE811485C0
-        public void set_Position(){} // RVA: 0x7FFE86D84AA0
-        public void get_Available(){} // RVA: 0x7FFE86D84AC0
-        public void Reset(){} // RVA: 0x7FFE86D84AD0
-        public void Seek(){} // RVA: 0x7FFE86D84AE0
-        public void SetLength(){} // RVA: 0x7FFE86D84C00
-        public void SetCapacityMinimum(){} // RVA: 0x7FFE86D84C30
-        public void Read(){} // RVA: 0x7FFE86D84C40
-        public void Write(){} // RVA: 0x7FFE86D84CA0
-        public void ReadByte(){} // RVA: 0x7FFE86D84D20
-        public void WriteByte(){} // RVA: 0x7FFE86D84E10
-        public void WriteBytes(){} // RVA: 0x7FFE86D84E70
-        public void CheckSize(){} // RVA: 0x7FFE86D84F00
+        public void .ctor(){} // RVA: 0x7FFAF8CF3E20 | overloaded x2
+        public void ToArray(){} // RVA: 0x7FFAF8CF3E90
+        public void Compact(){} // RVA: 0x7FFAF8CF3F00
+        public void GetBuffer(){} // RVA: 0x7FFAF2D907C0
+        public void GetBufferAndAdvance(){} // RVA: 0x7FFAF8CF3F80
+        public void get_Length(){} // RVA: 0x7FFAF335BED0
+        public void get_Position(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_Position(){} // RVA: 0x7FFAF8CF3FC0
+        public void get_Available(){} // RVA: 0x7FFAF8CF3FE0
+        public void Reset(){} // RVA: 0x7FFAF8CF3FF0
+        public void Seek(){} // RVA: 0x7FFAF8CF4000
+        public void SetLength(){} // RVA: 0x7FFAF8CF4120
+        public void SetCapacityMinimum(){} // RVA: 0x7FFAF8CF4150
+        public void Read(){} // RVA: 0x7FFAF8CF4160
+        public void Write(){} // RVA: 0x7FFAF8CF41C0
+        public void ReadByte(){} // RVA: 0x7FFAF8CF4240
+        public void WriteByte(){} // RVA: 0x7FFAF8CF4330
+        public void WriteBytes(){} // RVA: 0x7FFAF8CF4390
+        public void CheckSize(){} // RVA: 0x7FFAF8CF4420
     }
 
-    public class SupportClass : Object
+    public class SupportClass
     {
         // ── Methods ──
-        public void WriteStackTrace(){} // RVA: 0x7FFE86D85010
-        public void DictionaryToString(){} // RVA: 0x7FFE86D85BB0 | overloaded x2
-        public void ByteArrayToString(){} // RVA: 0x7FFE86D866E0
-        public void InitializeTable(){} // RVA: 0x7FFE86D86760
-        public void CalculateCrc(){} // RVA: 0x7FFE86D86A90 | overloaded x2
+        public void WriteStackTrace(){} // RVA: 0x7FFAF8CF4530
+        public void DictionaryToString(){} // RVA: 0x7FFAF8CF50D0 | overloaded x2
+        public void ByteArrayToString(){} // RVA: 0x7FFAF8CF5C00
+        public void InitializeTable(){} // RVA: 0x7FFAF8CF5C80
+        public void CalculateCrc(){} // RVA: 0x7FFAF8CF5FB0 | overloaded x2
     }
 
-    public class TPeer : PeerBase
+    public class TPeer
     {
-        public System.Collections.Generic.Queue`1<Photon.Client.StreamBuffer> incomingList; // 0x128
-
         // ── Methods ──
-        public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x7FFE86D86D70
-        public void .ctor(){} // RVA: 0x7FFE86D86DC0
-        public void IsTransportEncrypted(){} // RVA: 0x7FFE86D86FF0
-        public void Reset(){} // RVA: 0x7FFE86D87000
-        public void Connect(){} // RVA: 0x7FFE86D87190
-        public void Disconnect(){} // RVA: 0x7FFE86D875F0 | overloaded x2
-        public void FetchServerTimestamp(){} // RVA: 0x7FFE86D878A0
-        public void EnqueueInit(){} // RVA: 0x7FFE86D879E0
-        public void DispatchIncomingCommands(){} // RVA: 0x7FFE86D87B80
-        public void SendOutgoingCommands(){} // RVA: 0x7FFE86D880C0
-        public void SendAcksOnly(){} // RVA: 0x7FFE86D88590
-        public void EnqueuePhotonMessage(){} // RVA: 0x7FFE86D88600
-        public void EnqueueMessageAsPayload(){} // RVA: 0x7FFE86D88630
-        public void SendPing(){} // RVA: 0x7FFE86D889E0
-        public void SendData(){} // RVA: 0x7FFE86D88E80
-        public void ReceiveIncomingCommands(){} // RVA: 0x7FFE86D89010
-        public void ReadPingResult(){} // RVA: 0x7FFE86D896B0 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE86D89800
+        public void get_QueuedOutgoingCommandsCount(){} // RVA: 0x7FFAF8CF6290
+        public void .ctor(){} // RVA: 0x7FFAF8CF62E0
+        public void IsTransportEncrypted(){} // RVA: 0x7FFAF8CF6510
+        public void Reset(){} // RVA: 0x7FFAF8CF6520
+        public void Connect(){} // RVA: 0x7FFAF8CF66B0
+        public void Disconnect(){} // RVA: 0x7FFAF8CF6B10 | overloaded x2
+        public void FetchServerTimestamp(){} // RVA: 0x7FFAF8CF6DC0
+        public void EnqueueInit(){} // RVA: 0x7FFAF8CF6F00
+        public void DispatchIncomingCommands(){} // RVA: 0x7FFAF8CF70A0
+        public void SendOutgoingCommands(){} // RVA: 0x7FFAF8CF75E0
+        public void SendAcksOnly(){} // RVA: 0x7FFAF8CF7AB0
+        public void EnqueuePhotonMessage(){} // RVA: 0x7FFAF8CF7B20
+        public void EnqueueMessageAsPayload(){} // RVA: 0x7FFAF8CF7B50
+        public void SendPing(){} // RVA: 0x7FFAF8CF7EB0
+        public void SendData(){} // RVA: 0x7FFAF8CF8460
+        public void ReceiveIncomingCommands(){} // RVA: 0x7FFAF8CF85F0
+        public void ReadPingResult(){} // RVA: 0x7FFAF8CF8C90 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF8CF8DE0
     }
 
-    public class TrafficStats : TrafficStatsBase
+    public class TrafficStats
     {
-        public System.Diagnostics.Stopwatch connectionStopwatch; // 0x60
-        public int LastSendOutgoingTimestamp; // 0x68
-        public int LastSendAckTimestamp; // 0x6C
-        public int _lastReceiveTimestamp; // 0x70
-        public int _lastDispatchTimestamp; // 0x74
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81199380
-        public void get_LastReceiveTimestamp(){} // RVA: 0x7FFE81E60180
-        public void set_LastReceiveTimestamp(){} // RVA: 0x7FFE81293CF0
-        public void get_LastDispatchTimestamp(){} // RVA: 0x7FFE826A9B90
-        public void set_LastDispatchTimestamp(){} // RVA: 0x7FFE82B1F9C0
-        public void get_LongestDeltaBetweenDispatchCalls(){} // RVA: 0x7FFE8286C0A0
-        public void set_LongestDeltaBetweenDispatchCalls(){} // RVA: 0x7FFE82862F10
-        public void set_LastDispatchDuration(){} // RVA: 0x7FFE86D89990
-        public void get_LongestDeltaBetweenSendOutgoingCalls(){} // RVA: 0x7FFE81D30560
-        public void set_LongestDeltaBetweenSendOutgoingCalls(){} // RVA: 0x7FFE81D307B0
-        public void DispatchIncomingCommandsCalled(){} // RVA: 0x7FFE86D899A0
-        public void SendOutgoingCommandsCalled(){} // RVA: 0x7FFE86D899C0
-        public void ToString(){} // RVA: 0x7FFE86D899F0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2E2B380
+        public void get_LastReceiveTimestamp(){} // RVA: 0x7FFAF3B95CF0
+        public void set_LastReceiveTimestamp(){} // RVA: 0x7FFAF2F25080
+        public void get_LastDispatchTimestamp(){} // RVA: 0x7FFAF43D9080
+        public void set_LastDispatchTimestamp(){} // RVA: 0x7FFAF483D640
+        public void get_LongestDeltaBetweenDispatchCalls(){} // RVA: 0x7FFAF4593800
+        public void set_LongestDeltaBetweenDispatchCalls(){} // RVA: 0x7FFAF4596D80
+        public void set_LastDispatchDuration(){} // RVA: 0x7FFAF8CF8F70
+        public void get_LongestDeltaBetweenSendOutgoingCalls(){} // RVA: 0x7FFAF3A74570
+        public void set_LongestDeltaBetweenSendOutgoingCalls(){} // RVA: 0x7FFAF3A74560
+        public void DispatchIncomingCommandsCalled(){} // RVA: 0x7FFAF8CF8F80
+        public void SendOutgoingCommandsCalled(){} // RVA: 0x7FFAF8CF8FA0
+        public void ToString(){} // RVA: 0x7FFAF8CF8FD0 | overloaded x2
     }
 
-    public class TrafficStatsBase : Object
+    public class TrafficStatsBase
     {
-        public long _bytesIn; // 0x10
-        public long _bytesOut; // 0x18
-        public int _packagesIn; // 0x20
-        public int _packagesOut; // 0x24
-        public int _udpFragmentsIn; // 0x28
-        public int _udpFragmentsOut; // 0x2C
-        public int _udpUnreliableCommandsSent; // 0x30
-        public int _udpReliableCommandsSent; // 0x34
-        public int _udpReliableCommandsResent; // 0x38
-        public int _udpReliableCommandsInFlight; // 0x3C
-        public int _dispatchIncomingCommandsCalls; // 0x40
-        public int _sendOutgoingCommandsCalls; // 0x44
-        public long _roundtripTime; // 0x48
-        public long _roundtripTimeVariance; // 0x50
-        public long _lastRoundtripTime; // 0x58
-
         // ── Methods ──
-        public void get_BytesIn(){} // RVA: 0x7FFE81116380
-        public void set_BytesIn(){} // RVA: 0x7FFE826F2ED0
-        public void get_BytesOut(){} // RVA: 0x7FFE810FE7C0
-        public void set_BytesOut(){} // RVA: 0x7FFE819EA910
-        public void get_PackagesIn(){} // RVA: 0x7FFE8151D690
-        public void set_PackagesIn(){} // RVA: 0x7FFE8170B670
-        public void get_PackagesOut(){} // RVA: 0x7FFE81A56130
-        public void set_PackagesOut(){} // RVA: 0x7FFE82447980
-        public void get_UdpFragmentsIn(){} // RVA: 0x7FFE81549710
-        public void set_UdpFragmentsIn(){} // RVA: 0x7FFE817E4800
-        public void get_UdpFragmentsOut(){} // RVA: 0x7FFE81F84A50
-        public void set_UdpFragmentsOut(){} // RVA: 0x7FFE82883A50
-        public void get_UdpUnreliableCommandsSent(){} // RVA: 0x7FFE81156CD0
-        public void set_UdpUnreliableCommandsSent(){} // RVA: 0x7FFE81156CE0
-        public void get_UdpReliableCommandsSent(){} // RVA: 0x7FFE82447220
-        public void set_UdpReliableCommandsSent(){} // RVA: 0x7FFE82443340
-        public void get_UdpReliableCommandsResent(){} // RVA: 0x7FFE81D46090
-        public void set_UdpReliableCommandsResent(){} // RVA: 0x7FFE81D46A00
-        public void set_UdpReliableCommandsInFlight(){} // RVA: 0x7FFE82A4B070
-        public void get_DispatchIncomingCommandsCalls(){} // RVA: 0x7FFE8119C080
-        public void set_DispatchIncomingCommandsCalls(){} // RVA: 0x7FFE8119C090
-        public void get_SendOutgoingCommandsCalls(){} // RVA: 0x7FFE8119C0A0
-        public void set_SendOutgoingCommandsCalls(){} // RVA: 0x7FFE8119C0B0
-        public void get_RoundtripTime(){} // RVA: 0x7FFE81176730
-        public void set_RoundtripTime(){} // RVA: 0x7FFE82502600
-        public void get_RoundtripTimeVariance(){} // RVA: 0x7FFE8119C0E0
-        public void set_RoundtripTimeVariance(){} // RVA: 0x7FFE82506C00
-        public void set_LastRoundtripTime(){} // RVA: 0x7FFE825093B0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_BytesIn(){} // RVA: 0x7FFAF2DA8380
+        public void set_BytesIn(){} // RVA: 0x7FFAF4417700
+        public void get_BytesOut(){} // RVA: 0x7FFAF2D907C0
+        public void set_BytesOut(){} // RVA: 0x7FFAF370BE60
+        public void get_PackagesIn(){} // RVA: 0x7FFAF3210030
+        public void set_PackagesIn(){} // RVA: 0x7FFAF344E0D0
+        public void get_PackagesOut(){} // RVA: 0x7FFAF379F5B0
+        public void set_PackagesOut(){} // RVA: 0x7FFAF4191F00
+        public void get_UdpFragmentsIn(){} // RVA: 0x7FFAF3241DC0
+        public void set_UdpFragmentsIn(){} // RVA: 0x7FFAF3503440
+        public void get_UdpFragmentsOut(){} // RVA: 0x7FFAF3CB9F00
+        public void set_UdpFragmentsOut(){} // RVA: 0x7FFAF45ACF60
+        public void get_UdpUnreliableCommandsSent(){} // RVA: 0x7FFAF2DE8CD0
+        public void set_UdpUnreliableCommandsSent(){} // RVA: 0x7FFAF2DE8CE0
+        public void get_UdpReliableCommandsSent(){} // RVA: 0x7FFAF2F76670
+        public void set_UdpReliableCommandsSent(){} // RVA: 0x7FFAF2F75F20
+        public void get_UdpReliableCommandsResent(){} // RVA: 0x7FFAF3A8C9F0
+        public void set_UdpReliableCommandsResent(){} // RVA: 0x7FFAF3A8D6E0
+        public void set_UdpReliableCommandsInFlight(){} // RVA: 0x7FFAF47695F0
+        public void get_DispatchIncomingCommandsCalls(){} // RVA: 0x7FFAF2E2E080
+        public void set_DispatchIncomingCommandsCalls(){} // RVA: 0x7FFAF2E2E090
+        public void get_SendOutgoingCommandsCalls(){} // RVA: 0x7FFAF2E2E0A0
+        public void set_SendOutgoingCommandsCalls(){} // RVA: 0x7FFAF2E2E0B0
+        public void get_RoundtripTime(){} // RVA: 0x7FFAF2E08730
+        public void set_RoundtripTime(){} // RVA: 0x7FFAF424D760
+        public void get_RoundtripTimeVariance(){} // RVA: 0x7FFAF2E2E0E0
+        public void set_RoundtripTimeVariance(){} // RVA: 0x7FFAF2F74D50
+        public void set_LastRoundtripTime(){} // RVA: 0x7FFAF2F734E0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UnknownType : Object
+    public class UnknownType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Version : Object
+    public class Version
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE86D8A130
+        public void .cctor(){} // RVA: 0x7FFAF8CF9710
     }
 
 }

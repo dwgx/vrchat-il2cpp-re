@@ -1,0 +1,806 @@
+{
+  "generated_at": "2026-06-05T06:26:30",
+  "covered_initial_classes": 270,
+  "candidate_classes": 2474,
+  "selected_classes": 1316,
+  "selected_hash_methods": 9001,
+  "batch_size": 10,
+  "min_known": 1,
+  "min_hash": 1,
+  "target_classes": 900,
+  "target_methods": 9000,
+  "batches": [
+    {
+      "batch_id": 0,
+      "file": "codex_batch_expanded_000.json",
+      "class_count": 10,
+      "hash_methods": 23
+    },
+    {
+      "batch_id": 1,
+      "file": "codex_batch_expanded_001.json",
+      "class_count": 10,
+      "hash_methods": 79
+    },
+    {
+      "batch_id": 2,
+      "file": "codex_batch_expanded_002.json",
+      "class_count": 10,
+      "hash_methods": 24
+    },
+    {
+      "batch_id": 3,
+      "file": "codex_batch_expanded_003.json",
+      "class_count": 10,
+      "hash_methods": 14
+    },
+    {
+      "batch_id": 4,
+      "file": "codex_batch_expanded_004.json",
+      "class_count": 10,
+      "hash_methods": 36
+    },
+    {
+      "batch_id": 5,
+      "file": "codex_batch_expanded_005.json",
+      "class_count": 10,
+      "hash_methods": 46
+    },
+    {
+      "batch_id": 6,
+      "file": "codex_batch_expanded_006.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 7,
+      "file": "codex_batch_expanded_007.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 8,
+      "file": "codex_batch_expanded_008.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 9,
+      "file": "codex_batch_expanded_009.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 10,
+      "file": "codex_batch_expanded_010.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 11,
+      "file": "codex_batch_expanded_011.json",
+      "class_count": 10,
+      "hash_methods": 100
+    },
+    {
+      "batch_id": 12,
+      "file": "codex_batch_expanded_012.json",
+      "class_count": 10,
+      "hash_methods": 54
+    },
+    {
+      "batch_id": 13,
+      "file": "codex_batch_expanded_013.json",
+      "class_count": 10,
+      "hash_methods": 108
+    },
+    {
+      "batch_id": 14,
+      "file": "codex_batch_expanded_014.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 15,
+      "file": "codex_batch_expanded_015.json",
+      "class_count": 10,
+      "hash_methods": 99
+    },
+    {
+      "batch_id": 16,
+      "file": "codex_batch_expanded_016.json",
+      "class_count": 10,
+      "hash_methods": 84
+    },
+    {
+      "batch_id": 17,
+      "file": "codex_batch_expanded_017.json",
+      "class_count": 10,
+      "hash_methods": 91
+    },
+    {
+      "batch_id": 18,
+      "file": "codex_batch_expanded_018.json",
+      "class_count": 10,
+      "hash_methods": 49
+    },
+    {
+      "batch_id": 19,
+      "file": "codex_batch_expanded_019.json",
+      "class_count": 10,
+      "hash_methods": 106
+    },
+    {
+      "batch_id": 20,
+      "file": "codex_batch_expanded_020.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 21,
+      "file": "codex_batch_expanded_021.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 22,
+      "file": "codex_batch_expanded_022.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 23,
+      "file": "codex_batch_expanded_023.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 24,
+      "file": "codex_batch_expanded_024.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 25,
+      "file": "codex_batch_expanded_025.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 26,
+      "file": "codex_batch_expanded_026.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 27,
+      "file": "codex_batch_expanded_027.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 28,
+      "file": "codex_batch_expanded_028.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 29,
+      "file": "codex_batch_expanded_029.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 30,
+      "file": "codex_batch_expanded_030.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 31,
+      "file": "codex_batch_expanded_031.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 32,
+      "file": "codex_batch_expanded_032.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 33,
+      "file": "codex_batch_expanded_033.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 34,
+      "file": "codex_batch_expanded_034.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 35,
+      "file": "codex_batch_expanded_035.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 36,
+      "file": "codex_batch_expanded_036.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 37,
+      "file": "codex_batch_expanded_037.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 38,
+      "file": "codex_batch_expanded_038.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 39,
+      "file": "codex_batch_expanded_039.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 40,
+      "file": "codex_batch_expanded_040.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 41,
+      "file": "codex_batch_expanded_041.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 42,
+      "file": "codex_batch_expanded_042.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 43,
+      "file": "codex_batch_expanded_043.json",
+      "class_count": 10,
+      "hash_methods": 40
+    },
+    {
+      "batch_id": 44,
+      "file": "codex_batch_expanded_044.json",
+      "class_count": 10,
+      "hash_methods": 85
+    },
+    {
+      "batch_id": 45,
+      "file": "codex_batch_expanded_045.json",
+      "class_count": 10,
+      "hash_methods": 42
+    },
+    {
+      "batch_id": 46,
+      "file": "codex_batch_expanded_046.json",
+      "class_count": 10,
+      "hash_methods": 13
+    },
+    {
+      "batch_id": 47,
+      "file": "codex_batch_expanded_047.json",
+      "class_count": 10,
+      "hash_methods": 83
+    },
+    {
+      "batch_id": 48,
+      "file": "codex_batch_expanded_048.json",
+      "class_count": 10,
+      "hash_methods": 31
+    },
+    {
+      "batch_id": 49,
+      "file": "codex_batch_expanded_049.json",
+      "class_count": 10,
+      "hash_methods": 71
+    },
+    {
+      "batch_id": 50,
+      "file": "codex_batch_expanded_050.json",
+      "class_count": 10,
+      "hash_methods": 77
+    },
+    {
+      "batch_id": 51,
+      "file": "codex_batch_expanded_051.json",
+      "class_count": 10,
+      "hash_methods": 55
+    },
+    {
+      "batch_id": 52,
+      "file": "codex_batch_expanded_052.json",
+      "class_count": 10,
+      "hash_methods": 61
+    },
+    {
+      "batch_id": 53,
+      "file": "codex_batch_expanded_053.json",
+      "class_count": 10,
+      "hash_methods": 80
+    },
+    {
+      "batch_id": 54,
+      "file": "codex_batch_expanded_054.json",
+      "class_count": 10,
+      "hash_methods": 80
+    },
+    {
+      "batch_id": 55,
+      "file": "codex_batch_expanded_055.json",
+      "class_count": 10,
+      "hash_methods": 80
+    },
+    {
+      "batch_id": 56,
+      "file": "codex_batch_expanded_056.json",
+      "class_count": 10,
+      "hash_methods": 80
+    },
+    {
+      "batch_id": 57,
+      "file": "codex_batch_expanded_057.json",
+      "class_count": 10,
+      "hash_methods": 80
+    },
+    {
+      "batch_id": 58,
+      "file": "codex_batch_expanded_058.json",
+      "class_count": 10,
+      "hash_methods": 80
+    },
+    {
+      "batch_id": 59,
+      "file": "codex_batch_expanded_059.json",
+      "class_count": 10,
+      "hash_methods": 80
+    },
+    {
+      "batch_id": 60,
+      "file": "codex_batch_expanded_060.json",
+      "class_count": 10,
+      "hash_methods": 80
+    },
+    {
+      "batch_id": 61,
+      "file": "codex_batch_expanded_061.json",
+      "class_count": 10,
+      "hash_methods": 80
+    },
+    {
+      "batch_id": 62,
+      "file": "codex_batch_expanded_062.json",
+      "class_count": 10,
+      "hash_methods": 77
+    },
+    {
+      "batch_id": 63,
+      "file": "codex_batch_expanded_063.json",
+      "class_count": 10,
+      "hash_methods": 39
+    },
+    {
+      "batch_id": 64,
+      "file": "codex_batch_expanded_064.json",
+      "class_count": 10,
+      "hash_methods": 17
+    },
+    {
+      "batch_id": 65,
+      "file": "codex_batch_expanded_065.json",
+      "class_count": 10,
+      "hash_methods": 20
+    },
+    {
+      "batch_id": 66,
+      "file": "codex_batch_expanded_066.json",
+      "class_count": 10,
+      "hash_methods": 20
+    },
+    {
+      "batch_id": 67,
+      "file": "codex_batch_expanded_067.json",
+      "class_count": 10,
+      "hash_methods": 20
+    },
+    {
+      "batch_id": 68,
+      "file": "codex_batch_expanded_068.json",
+      "class_count": 10,
+      "hash_methods": 20
+    },
+    {
+      "batch_id": 69,
+      "file": "codex_batch_expanded_069.json",
+      "class_count": 10,
+      "hash_methods": 20
+    },
+    {
+      "batch_id": 70,
+      "file": "codex_batch_expanded_070.json",
+      "class_count": 10,
+      "hash_methods": 20
+    },
+    {
+      "batch_id": 71,
+      "file": "codex_batch_expanded_071.json",
+      "class_count": 10,
+      "hash_methods": 20
+    },
+    {
+      "batch_id": 72,
+      "file": "codex_batch_expanded_072.json",
+      "class_count": 10,
+      "hash_methods": 20
+    },
+    {
+      "batch_id": 73,
+      "file": "codex_batch_expanded_073.json",
+      "class_count": 10,
+      "hash_methods": 30
+    },
+    {
+      "batch_id": 74,
+      "file": "codex_batch_expanded_074.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 75,
+      "file": "codex_batch_expanded_075.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 76,
+      "file": "codex_batch_expanded_076.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 77,
+      "file": "codex_batch_expanded_077.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 78,
+      "file": "codex_batch_expanded_078.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 79,
+      "file": "codex_batch_expanded_079.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 80,
+      "file": "codex_batch_expanded_080.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 81,
+      "file": "codex_batch_expanded_081.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 82,
+      "file": "codex_batch_expanded_082.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 83,
+      "file": "codex_batch_expanded_083.json",
+      "class_count": 10,
+      "hash_methods": 70
+    },
+    {
+      "batch_id": 84,
+      "file": "codex_batch_expanded_084.json",
+      "class_count": 10,
+      "hash_methods": 89
+    },
+    {
+      "batch_id": 85,
+      "file": "codex_batch_expanded_085.json",
+      "class_count": 10,
+      "hash_methods": 49
+    },
+    {
+      "batch_id": 86,
+      "file": "codex_batch_expanded_086.json",
+      "class_count": 10,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 87,
+      "file": "codex_batch_expanded_087.json",
+      "class_count": 10,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 88,
+      "file": "codex_batch_expanded_088.json",
+      "class_count": 10,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 89,
+      "file": "codex_batch_expanded_089.json",
+      "class_count": 10,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 90,
+      "file": "codex_batch_expanded_090.json",
+      "class_count": 10,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 91,
+      "file": "codex_batch_expanded_091.json",
+      "class_count": 10,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 92,
+      "file": "codex_batch_expanded_092.json",
+      "class_count": 10,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 93,
+      "file": "codex_batch_expanded_093.json",
+      "class_count": 10,
+      "hash_methods": 10
+    },
+    {
+      "batch_id": 94,
+      "file": "codex_batch_expanded_094.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 95,
+      "file": "codex_batch_expanded_095.json",
+      "class_count": 10,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 96,
+      "file": "codex_batch_expanded_096.json",
+      "class_count": 10,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 97,
+      "file": "codex_batch_expanded_097.json",
+      "class_count": 10,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 98,
+      "file": "codex_batch_expanded_098.json",
+      "class_count": 10,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 99,
+      "file": "codex_batch_expanded_099.json",
+      "class_count": 10,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 100,
+      "file": "codex_batch_expanded_100.json",
+      "class_count": 10,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 101,
+      "file": "codex_batch_expanded_101.json",
+      "class_count": 10,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 102,
+      "file": "codex_batch_expanded_102.json",
+      "class_count": 10,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 103,
+      "file": "codex_batch_expanded_103.json",
+      "class_count": 10,
+      "hash_methods": 60
+    },
+    {
+      "batch_id": 104,
+      "file": "codex_batch_expanded_104.json",
+      "class_count": 10,
+      "hash_methods": 72
+    },
+    {
+      "batch_id": 105,
+      "file": "codex_batch_expanded_105.json",
+      "class_count": 10,
+      "hash_methods": 34
+    },
+    {
+      "batch_id": 106,
+      "file": "codex_batch_expanded_106.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 107,
+      "file": "codex_batch_expanded_107.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 108,
+      "file": "codex_batch_expanded_108.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 109,
+      "file": "codex_batch_expanded_109.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 110,
+      "file": "codex_batch_expanded_110.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 111,
+      "file": "codex_batch_expanded_111.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 112,
+      "file": "codex_batch_expanded_112.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 113,
+      "file": "codex_batch_expanded_113.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 114,
+      "file": "codex_batch_expanded_114.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 115,
+      "file": "codex_batch_expanded_115.json",
+      "class_count": 10,
+      "hash_methods": 50
+    },
+    {
+      "batch_id": 116,
+      "file": "codex_batch_expanded_116.json",
+      "class_count": 10,
+      "hash_methods": 59
+    },
+    {
+      "batch_id": 117,
+      "file": "codex_batch_expanded_117.json",
+      "class_count": 10,
+      "hash_methods": 35
+    },
+    {
+      "batch_id": 118,
+      "file": "codex_batch_expanded_118.json",
+      "class_count": 10,
+      "hash_methods": 19
+    },
+    {
+      "batch_id": 119,
+      "file": "codex_batch_expanded_119.json",
+      "class_count": 10,
+      "hash_methods": 17
+    },
+    {
+      "batch_id": 120,
+      "file": "codex_batch_expanded_120.json",
+      "class_count": 10,
+      "hash_methods": 31
+    },
+    {
+      "batch_id": 121,
+      "file": "codex_batch_expanded_121.json",
+      "class_count": 10,
+      "hash_methods": 41
+    },
+    {
+      "batch_id": 122,
+      "file": "codex_batch_expanded_122.json",
+      "class_count": 10,
+      "hash_methods": 42
+    },
+    {
+      "batch_id": 123,
+      "file": "codex_batch_expanded_123.json",
+      "class_count": 10,
+      "hash_methods": 21
+    },
+    {
+      "batch_id": 124,
+      "file": "codex_batch_expanded_124.json",
+      "class_count": 10,
+      "hash_methods": 15
+    },
+    {
+      "batch_id": 125,
+      "file": "codex_batch_expanded_125.json",
+      "class_count": 10,
+      "hash_methods": 13
+    },
+    {
+      "batch_id": 126,
+      "file": "codex_batch_expanded_126.json",
+      "class_count": 10,
+      "hash_methods": 98
+    },
+    {
+      "batch_id": 127,
+      "file": "codex_batch_expanded_127.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 128,
+      "file": "codex_batch_expanded_128.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 129,
+      "file": "codex_batch_expanded_129.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 130,
+      "file": "codex_batch_expanded_130.json",
+      "class_count": 10,
+      "hash_methods": 120
+    },
+    {
+      "batch_id": 131,
+      "file": "codex_batch_expanded_131.json",
+      "class_count": 6,
+      "hash_methods": 72
+    }
+  ]
+}

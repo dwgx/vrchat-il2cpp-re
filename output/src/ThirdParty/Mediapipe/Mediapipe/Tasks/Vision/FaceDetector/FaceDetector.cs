@@ -5,39 +5,32 @@
 
 namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceDetector
 {
-    public class FaceDetector : BaseVisionTaskApi
+    public class FaceDetector
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866B86E0
-        public void CreateFromOptions(){} // RVA: 0x7FFE866B8810
-        public void TryDetect(){} // RVA: 0x7FFE866B9050
-        public void DetectInternal(){} // RVA: 0x7FFE866B9270
-        public void TryDetectForVideo(){} // RVA: 0x7FFE866B93D0
-        public void DetectForVideoInternal(){} // RVA: 0x7FFE866B9600
-        public void DetectAsync(){} // RVA: 0x7FFE866B9780
-        public void BuildPacketsCallback(){} // RVA: 0x7FFE866B9900
-        public void TryBuildFaceDetectorResult(){} // RVA: 0x7FFE866B9A90
+        public void .ctor(){} // RVA: 0x7FFAF86278B0
+        public void CreateFromOptions(){} // RVA: 0x7FFAF86279E0
+        public void TryDetect(){} // RVA: 0x7FFAF8628220
+        public void DetectInternal(){} // RVA: 0x7FFAF8628440
+        public void TryDetectForVideo(){} // RVA: 0x7FFAF86285A0
+        public void DetectForVideoInternal(){} // RVA: 0x7FFAF86287D0
+        public void DetectAsync(){} // RVA: 0x7FFAF8628950
+        public void BuildPacketsCallback(){} // RVA: 0x7FFAF8628AD0
+        public void TryBuildFaceDetectorResult(){} // RVA: 0x7FFAF8628C60
     }
 
-    public class FaceDetectorOptions : Object
+    public class FaceDetectorOptions
     {
-        public Mediapipe.Tasks.Core.BaseOptions _baseOptions; // 0x10
-        public 0x6660F784 _runningMode; // 0x18
-        public float _minDetectionConfidence; // 0x1C
-        public float _minSuppressionThreshold; // 0x20
-        public int _numFaces; // 0x24
-        public ResultCallback _resultCallback; // 0x28
-
         // ── Methods ──
-        public void get_baseOptions(){} // RVA: 0x7FFE81116380
-        public void get_runningMode(){} // RVA: 0x7FFE813DB630
-        public void get_minDetectionConfidence(){} // RVA: 0x7FFE811C8570
-        public void get_minSuppressionThreshold(){} // RVA: 0x7FFE81124080
-        public void get_numFaces(){} // RVA: 0x7FFE81A56130
-        public void get_resultCallback(){} // RVA: 0x7FFE81129130
-        public void .ctor(){} // RVA: 0x7FFE866BA0F0
-        public void ToProto(){} // RVA: 0x7FFE866BA1C0
-        public void Mediapipe.Tasks.Core.ITaskOptions.ToCalculatorOptions(){} // RVA: 0x7FFE866BA2D0
+        public void get_baseOptions(){} // RVA: 0x7FFAF2DA8380
+        public void get_runningMode(){} // RVA: 0x7FFAF306ED50
+        public void get_minDetectionConfidence(){} // RVA: 0x7FFAF2E5A570
+        public void get_minSuppressionThreshold(){} // RVA: 0x7FFAF2DB6080
+        public void get_numFaces(){} // RVA: 0x7FFAF379F5B0
+        public void get_resultCallback(){} // RVA: 0x7FFAF2DBB130
+        public void .ctor(){} // RVA: 0x7FFAF86292C0
+        public void ToProto(){} // RVA: 0x7FFAF8629390
+        public void Mediapipe.Tasks.Core.ITaskOptions.ToCalculatorOptions(){} // RVA: 0x7FFAF86294A0
     }
 
 }

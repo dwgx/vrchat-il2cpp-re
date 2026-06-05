@@ -5,14 +5,14 @@
 
 namespace ThirdParty.Other.Unity.Burst.LowLevel
 {
-    public class BurstCompilerService : Object
+    public class BurstCompilerService
     {
         // ── Methods ──
-        public void CompileAsyncDelegateMethod(){} // RVA: 0x7FFE87BF9F50
-        public void GetAsyncCompiledAsyncDelegateMethod(){} // RVA: 0x7FFE87BF9FB0
-        public void GetOrCreateSharedMemory(){} // RVA: 0x7FFE87BFA000
-        public void Log(){} // RVA: 0x7FFE87BFA070
-        public void RuntimeLog(){} // RVA: 0x7FFE87BFA0F0
+        public void CompileAsyncDelegateMethod(){} // RVA: 0x7FFAF9B68F70
+        public void GetAsyncCompiledAsyncDelegateMethod(){} // RVA: 0x7FFAF9B68FD0
+        public void GetOrCreateSharedMemory(){} // RVA: 0x7FFAF9B69020
+        public void Log(){} // RVA: 0x7FFAF9B69090
+        public void RuntimeLog(){} // RVA: 0x7FFAF9B69110
     }
 
 }

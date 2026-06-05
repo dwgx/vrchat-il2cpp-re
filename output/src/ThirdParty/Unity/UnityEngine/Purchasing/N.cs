@@ -5,25 +5,25 @@
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class NativeStoreProvider : Object
+    public class NativeStoreProvider
     {
         // ── Methods ──
-        public void GetAndroidStore(){} // RVA: 0x7FFE87D7E0B0
-        public void GetAndroidStoreHelper(){} // RVA: 0x7FFE87D7E1A0
-        public void GetStorekit(){} // RVA: 0x7FFE87D7E8E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void GetAndroidStore(){} // RVA: 0x7FFAF9CEDF10
+        public void GetAndroidStoreHelper(){} // RVA: 0x7FFAF9CEE000
+        public void GetStorekit(){} // RVA: 0x7FFAF9CEE740
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class NullProductIdException : ReceiptParserException
+    public class NullProductIdException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87D8A9F0
+        public void .ctor(){} // RVA: 0x7FFAF9CFA850
     }
 
-    public class NullReceiptException : ReceiptParserException
+    public class NullReceiptException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87D8A9F0
+        public void .ctor(){} // RVA: 0x7FFAF9CFA850
     }
 
 }

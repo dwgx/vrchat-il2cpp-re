@@ -5,44 +5,44 @@
 
 namespace ThirdParty.Other.SteamAudio
 {
-    public class RadeonRaysDevice : Object
+    public class RadeonRaysDevice
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86FB5FF0 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFE86FB6090
-        public void Release(){} // RVA: 0x7FFE86FB60D0
-        public void Get(){} // RVA: 0x7FFE81116380
+        public void .ctor(){} // RVA: 0x7FFAF8F26F20 | overloaded x2
+        public void Finalize(){} // RVA: 0x7FFAF8F26FC0
+        public void Release(){} // RVA: 0x7FFAF8F27000
+        public void Get(){} // RVA: 0x7FFAF2DA8380
     }
 
-    public class RadeonRaysDeviceSettings : ValueType
+    public class RadeonRaysDeviceSettings
     {
     }
 
-    public class Ray : ValueType
+    public class Ray
     {
     }
 
-    public class ReconstructorInputs : ValueType
+    public class ReconstructorInputs
     {
     }
 
-    public class ReconstructorOutputs : ValueType
+    public class ReconstructorOutputs
     {
     }
 
-    public class ReconstructorSettings : ValueType
+    public class ReconstructorSettings
     {
     }
 
-    public class ReconstructorSharedInputs : ValueType
+    public class ReconstructorSharedInputs
     {
     }
 
-    public class ReflectionEffectParams : ValueType
+    public class ReflectionEffectParams
     {
     }
 
-    public class ReflectionsBakeParams : ValueType
+    public class ReflectionsBakeParams
     {
     }
 

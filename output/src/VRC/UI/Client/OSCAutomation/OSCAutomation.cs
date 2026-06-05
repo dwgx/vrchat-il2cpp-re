@@ -5,16 +5,16 @@
 
 namespace VRC.UI.Client.OSCAutomation
 {
-    public class ScrollLogic : Object
+    public class ScrollLogic
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE819B51A0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF36D5EB0 | overloaded x2
     }
 
-    public class UIAutomationCommand : Object
+    public class UIAutomationCommand
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE819B4FE0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
     }
 
 }

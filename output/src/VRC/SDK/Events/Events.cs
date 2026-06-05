@@ -5,21 +5,21 @@
 
 namespace VRC.SDK.Events
 {
-    public class VRCRemoteString : VRCCustomAction
+    public class VRCRemoteString
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
-        public void OnDestroy(){} // RVA: 0x7FFE811097C0
-        public void Execute(){} // RVA: 0x7FFE81F0FA70
-        public void InitializeAndSetRemoteString(){} // RVA: 0x7FFE811097C0
-        public void Start(){} // RVA: 0x7FFE829C2A40
+        public void ProcessQuaternion(){} // RVA: 0x7FFAF46EAE80
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void Initialize(){} // RVA: 0x7FFAF2D9B7C0
+        public void ReadAnimatorState(){} // RVA: 0x7FFAF2D9B7C0
+        public void GetQuaternion(){} // RVA: 0x7FFAF46EB900
+        public void OnDestroy(){} // RVA: 0x7FFAF2D9B7C0
+        public void Start(){} // RVA: 0x7FFAF46EBB00
         // ── Unresolved (hash) ──
-        public void m_A41(){} // RVA: 0x7FFE829C2210
-        public void m_1D6(){} // RVA: 0x7FFE81F0FA70
-        public void m_C5E(){} // RVA: 0x7FFE829C2320
-        public void m_539(){} // RVA: 0x7FFE829C2750
-        public void m_89C(){} // RVA: 0x7FFE829C2850
-        public void m_325(){} // RVA: 0x7FFE829C2B40
+        public void m_3D5(){} // RVA: 0x7FFAF46EAF80
+        public void m_3B0(){} // RVA: 0x7FFAF46EB090
+        public void m_1DC(){} // RVA: 0x7FFAF46EB280
+        public void m_852(){} // RVA: 0x7FFAF46EB5C0
     }
 
 }

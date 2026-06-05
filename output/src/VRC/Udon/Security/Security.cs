@@ -5,80 +5,72 @@
 
 namespace VRC.Udon.Security
 {
-    public class AudioSourceMixerHolder : Object
+    public class AudioSourceMixerHolder
     {
-        public UnityEngine.Audio.AudioMixerGroup _worldGroup;
-
         // ── Methods ──
-        public void get_WorldGroup(){} // RVA: 0x7FFE882571C0
-        public void set_WorldGroup(){} // RVA: 0x7FFE88257200
-        public void PlayClipAtPoint(){} // RVA: 0x7FFE882572D0 | overloaded x2
+        public void get_WorldGroup(){} // RVA: 0x7FFAFA1CA500
+        public void set_WorldGroup(){} // RVA: 0x7FFAFA1CA540
+        public void PlayClipAtPoint(){} // RVA: 0x7FFAFA1CA610 | overloaded x2
     }
 
     public class IUdonSignatureHolder
     {
         // ── Methods ──
-        public void get_Signature(){} // RVA: 0x7FFE80E2E2E0
-        public void set_Signature(){} // RVA: 0x7FFE80E460A0
-        public void get_SignedData(){} // RVA: 0x7FFE80E2E2E0
-        public void get_IsInternallyValidated(){} // RVA: 0x7FFE80E2F150
-        public void EnsureGZipFormat(){} // RVA: 0x7FFE80E45FE0
+        public void get_Signature(){} // RVA: 0x7FFAF2ABCD60
+        public void set_Signature(){} // RVA: 0x7FFAF2AD4B10
+        public void get_SignedData(){} // RVA: 0x7FFAF2ABCD60
+        public void get_IsInternallyValidated(){} // RVA: 0x7FFAF2ABDBE0
+        public void EnsureGZipFormat(){} // RVA: 0x7FFAF2AD4A50
     }
 
     public class IUdonSignatureVerifier
     {
         // ── Methods ──
-        public void VerifySignature(){} // RVA: 0x7FFE80E2F3B0
+        public void VerifySignature(){} // RVA: 0x7FFAF2ABDE40
     }
 
-    public class Texture2DDefaultTextureHolder : Object
+    public class Texture2DDefaultTextureHolder
     {
         // ── Methods ──
-        public void ResetTextures(){} // RVA: 0x7FFE88256420
-        public void BlacklistDefaultTextures(){} // RVA: 0x7FFE88256F60
+        public void ResetTextures(){} // RVA: 0x7FFAFA1C9760
+        public void BlacklistDefaultTextures(){} // RVA: 0x7FFAFA1CA2A0
     }
 
-    public class UdonSignatureHolderMarker : Attribute
+    public class UdonSignatureHolderMarker
     {
-        public System.Type _type; // 0x10
-
         // ── Methods ──
-        public void get_type(){} // RVA: 0x7FFE81116380
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_type(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
-    public class UnityEngineObjectSecurityBlacklist : Object
+    public class UnityEngineObjectSecurityBlacklist
     {
-        public System.Collections.Generic.HashSet`1<UnityEngine.Object> _objectBlacklist; // 0x10
-
         // ── Methods ──
-        public void IsBlacklisted(){} // RVA: 0x7FFE88258A70 | overloaded x2
-        public void IsBlacklistedGameObject(){} // RVA: 0x7FFE882578F0
-        public void ApplyFilter(){} // RVA: 0x7FFE88258620 | overloaded x2
-        public void ApplyLightCullingMaskFilter(){} // RVA: 0x7FFE882579A0
-        public void get_LightReservedLayerMask(){} // RVA: 0x7FFE81549710
-        public void set_LightReservedLayerMask(){} // RVA: 0x7FFE817E4800
-        public void IsTypeSafe(){} // RVA: 0x7FFE882579B0
-        public void Blacklist(){} // RVA: 0x7FFE88258450 | overloaded x2
-        public void CleanBlacklist(){} // RVA: 0x7FFE88258D40
-        public void IdentifyDontDestroyOnLoadHandle(){} // RVA: 0x7FFE88258EC0
-        public void .ctor(){} // RVA: 0x7FFE88258FF0
+        public void IsBlacklisted(){} // RVA: 0x7FFAFA1CBDB0 | overloaded x2
+        public void IsBlacklistedGameObject(){} // RVA: 0x7FFAFA1CAC30
+        public void ApplyFilter(){} // RVA: 0x7FFAFA1CB960 | overloaded x2
+        public void ApplyLightCullingMaskFilter(){} // RVA: 0x7FFAFA1CACE0
+        public void get_LightReservedLayerMask(){} // RVA: 0x7FFAF3241DC0
+        public void set_LightReservedLayerMask(){} // RVA: 0x7FFAF3503440
+        public void IsTypeSafe(){} // RVA: 0x7FFAFA1CACF0
+        public void Blacklist(){} // RVA: 0x7FFAFA1CB790 | overloaded x2
+        public void CleanBlacklist(){} // RVA: 0x7FFAFA1CC080
+        public void IdentifyDontDestroyOnLoadHandle(){} // RVA: 0x7FFAFA1CC200
+        public void .ctor(){} // RVA: 0x7FFAFA1CC330
     }
 
-    public class UnityEngineObjectSecurityWhitelist : Object
+    public class UnityEngineObjectSecurityWhitelist
     {
-        public System.Collections.Generic.HashSet`1<UnityEngine.Object> _objectWhitelist; // 0x10
-
         // ── Methods ──
-        public void ApplyFilter(){} // RVA: 0x7FFE88259A30 | overloaded x2
-        public void ApplyLightCullingMaskFilter(){} // RVA: 0x7FFE882593C0
-        public void get_LightReservedLayerMask(){} // RVA: 0x7FFE8151D690
-        public void set_LightReservedLayerMask(){} // RVA: 0x7FFE8170B670
-        public void IsTypeSafe(){} // RVA: 0x7FFE882593D0
-        public void Whitelist(){} // RVA: 0x7FFE88259760 | overloaded x2
-        public void IsWhitelisted(){} // RVA: 0x7FFE88259C00
-        public void CleanWhitelist(){} // RVA: 0x7FFE88259D10
-        public void .ctor(){} // RVA: 0x7FFE88259E90
+        public void ApplyFilter(){} // RVA: 0x7FFAFA1CCD70 | overloaded x2
+        public void ApplyLightCullingMaskFilter(){} // RVA: 0x7FFAFA1CC700
+        public void get_LightReservedLayerMask(){} // RVA: 0x7FFAF3210030
+        public void set_LightReservedLayerMask(){} // RVA: 0x7FFAF344E0D0
+        public void IsTypeSafe(){} // RVA: 0x7FFAFA1CC710
+        public void Whitelist(){} // RVA: 0x7FFAFA1CCAA0 | overloaded x2
+        public void IsWhitelisted(){} // RVA: 0x7FFAFA1CCF40
+        public void CleanWhitelist(){} // RVA: 0x7FFAFA1CD050
+        public void .ctor(){} // RVA: 0x7FFAFA1CD1D0
     }
 
 }

@@ -1,0 +1,148 @@
+[
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_1B04",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F2B",
+      "m_51F",
+      "m_6F8"
+    ]
+  },
+  {
+    "class": "LifecycleComponentImpl_AB77SibSibling_49C2",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BEE"
+    ]
+  },
+  {
+    "class": "LifecycleComponentImpl_AB77SibSibling_FDE5",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_908"
+    ]
+  },
+  {
+    "class": "LifecycleComponentImpl_E2CCSibSibling_8E8D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_076"
+    ]
+  },
+  {
+    "class": "PoseRemoteUpdate",
+    "parent": "",
+    "namespace": "VRC.Networking.Pose",
+    "readable_methods": [
+      "StartCoroutine_Auto",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_48B"
+    ]
+  },
+  {
+    "class": "FoldoutListRelatedRelated_BDC4",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B16",
+      "m_60B",
+      "m_8B4",
+      "m_F6B",
+      "m_64E",
+      "m_020"
+    ]
+  },
+  {
+    "class": "FoldoutListRelated_F7AC",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_538",
+      "m_B99",
+      "m_1C1",
+      "m_4E8",
+      "m_963",
+      "m_837"
+    ]
+  },
+  {
+    "class": "ONSPSettingsSibling_A458",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Instance"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_25E",
+      "m_9C4",
+      "m_21C",
+      "m_6EC",
+      "m_AA7",
+      "m_979"
+    ]
+  },
+  {
+    "class": "mainTexturePopulateMesh_0B6F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_mainTexture"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E76",
+      "m_B18",
+      "m_326",
+      "m_CD1",
+      "m_5CC"
+    ]
+  },
+  {
+    "class": "LifecycleComponentImpl_E2CCSibling_3808",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationQuit",
+      "OnBecameVisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3EB"
+    ]
+  }
+]

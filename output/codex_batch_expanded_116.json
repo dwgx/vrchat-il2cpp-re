@@ -1,0 +1,172 @@
+[
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_F6AA",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_95D",
+      "m_F2B",
+      "m_2F0",
+      "m_410",
+      "m_24F"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_F9B9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_95D",
+      "m_51F",
+      "m_C01",
+      "m_F2B",
+      "m_016"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_FBC7",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_410",
+      "m_C01",
+      "m_F2B",
+      "m_6F8",
+      "m_24F"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_FC64",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C01",
+      "m_016",
+      "m_6EA",
+      "m_51F",
+      "m_CF3"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_FE37",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6EA",
+      "m_CF3",
+      "m_6F8",
+      "m_51F",
+      "m_2F0"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_FF57",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_24F",
+      "m_C01",
+      "m_2F0",
+      "m_CF3",
+      "m_51F"
+    ]
+  },
+  {
+    "class": "Static13m_50F1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_15C",
+      "m_3A7",
+      "m_DD3",
+      "m_185",
+      "m_7A2",
+      "m_055",
+      "m_70C",
+      "m_DAC",
+      "m_9C5"
+    ]
+  },
+  {
+    "class": "Static13m_50F1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_15C",
+      "m_3A7",
+      "m_DD3",
+      "m_185",
+      "m_7A2",
+      "m_055",
+      "m_70C",
+      "m_DAC",
+      "m_9C5"
+    ]
+  },
+  {
+    "class": "Static13m_50F1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_15C",
+      "m_3A7",
+      "m_DD3",
+      "m_185",
+      "m_7A2",
+      "m_055",
+      "m_70C",
+      "m_DAC",
+      "m_9C5"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_69CF",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_637",
+      "m_A41"
+    ]
+  }
+]

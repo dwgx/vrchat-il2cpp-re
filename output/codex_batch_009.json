@@ -1,0 +1,323 @@
+[
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_F700",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Initialize",
+      "Initialize_41D40AFDAA4B",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B2C",
+      "m_8D3",
+      "m_9F4",
+      "m_2CD"
+    ]
+  },
+  {
+    "class": "OVRLipSyncSibling_4E04",
+    "parent": "",
+    "readable_methods": [
+      "OnDestroy_AD434082A73F",
+      "Awake",
+      "CancelInvoke_3C1A00D439FA",
+      "OnCollisionStay_852E3599EAE7",
+      "CancelInvoke_3C1A00D439FA_B753B9D7118D",
+      "OnDestroy_961D4CCE5DB5",
+      ".cctor_25245ADEC3FD",
+      "Initialize",
+      "Initialize_FA55276D91DA",
+      "Internal_IsInvokingAll_15090AE6BB6C"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_518",
+      "m_97E",
+      "m_8C3"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_014B",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3CB",
+      "m_E1E",
+      "m_7B5",
+      "m_CCF",
+      "m_3CB",
+      "m_C30",
+      "m_C34",
+      "m_53F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiRelated_F0A4",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E2F",
+      "m_752",
+      "m_43A",
+      "m_DBA",
+      "m_D85",
+      "m_544",
+      "m_D1C"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSibling_FA8F",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Initialize_D74F9E3B7B27",
+      "set_Value",
+      "set_Value_F501E422C7A0",
+      "get_Value"
+    ],
+    "fields": [
+      "Goal",
+      "CurrentProgress"
+    ],
+    "hash_methods": [
+      "m_469",
+      "m_B0C",
+      "m_BFF",
+      "m_229",
+      "m_67C",
+      "m_075",
+      "m_390"
+    ]
+  },
+  {
+    "class": "ComplexComponentImpl_FE07SibliSibling_8103",
+    "parent": "",
+    "readable_methods": [
+      "OnDisable",
+      "FixedUpdate",
+      "LateUpdate",
+      "OnDestroy",
+      "Start"
+    ],
+    "fields": [
+      "x",
+      "y"
+    ],
+    "hash_methods": [
+      "m_0C8",
+      "m_3E8",
+      "m_229",
+      "m_2E2",
+      "m_296",
+      "m_F23",
+      "m_0C8"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_F228SiblingSibling_6A11",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Update",
+      "LateUpdate",
+      "FixedUpdate",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FA4",
+      "m_CB2",
+      "m_156",
+      "m_CEE",
+      "m_BB3",
+      "m_31D",
+      "m_B47"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSibling_F424",
+    "parent": "",
+    "readable_methods": [
+      "Update_C9ED83B2DF2E",
+      "OnEnable_2B4F45D701AE",
+      ".ctor_F5D8351B397B",
+      "OnEnable_338241E6F8A1",
+      "Initialize",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FA0",
+      "m_F5D",
+      "m_64A",
+      "m_169",
+      "m_2B4",
+      "m_F9F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_1491SiblingSibling_D9F3",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [
+      "_d9F3"
+    ],
+    "hash_methods": [
+      "m_AFD",
+      "m_6F5",
+      "m_DC3",
+      "m_1B3",
+      "m_3FB",
+      "m_703"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_8958",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Awake",
+      "OnDestroy",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E24",
+      "m_44D",
+      "m_D66",
+      "m_C3D",
+      "m_7B4"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_302F",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2CD",
+      "m_754",
+      "m_134",
+      "m_D42"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibSibling_E5EF",
+    "parent": "",
+    "readable_methods": [
+      "OnEnable_2B4F45D701AE",
+      "Initialize",
+      "OnEnable",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E5E",
+      "m_8B2",
+      "m_F73",
+      "m_889",
+      "m_3E8",
+      "m_52E",
+      "m_385"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibling_7B99",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      ".ctor_F5D8351B397B",
+      "Initialize",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9C4",
+      "m_8A3",
+      "m_3AB",
+      "m_AF5",
+      "m_1AF",
+      "m_889",
+      "m_692"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibSibling_F1F2",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "OnEnable_2B4F45D701AE",
+      ".ctor_F5D8351B397B",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FCC",
+      "m_3C9",
+      "m_72A",
+      "m_3CB",
+      "m_FD0",
+      "m_BEE",
+      "m_338"
+    ]
+  },
+  {
+    "class": "ComplexComponentSiblingSiblingSibling_5994",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "Initialize",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F25",
+      "m_5B4",
+      "m_260",
+      "m_450",
+      "m_338",
+      "m_C83"
+    ]
+  }
+]

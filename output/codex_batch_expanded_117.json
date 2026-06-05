@@ -1,0 +1,153 @@
+[
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_99F2",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_ED8",
+      "m_2CD"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_E3B4",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D35",
+      "m_03E"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1ESiblingSibling_7A63",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DC6",
+      "m_498",
+      "m_428",
+      "m_56B",
+      "m_568"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1ESiblingSibling_A4E9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BC0",
+      "m_553",
+      "m_428",
+      "m_568",
+      "m_56B"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1ESibling_D0EA",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_568",
+      "m_498",
+      "m_428",
+      "m_BC0",
+      "m_56B"
+    ]
+  },
+  {
+    "class": "IpsProvidedContentLoader`2",
+    "parent": "",
+    "namespace": "VRC.UI.Client.IPS",
+    "readable_methods": [
+      "set_PagedData"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BCD",
+      "m_8EB",
+      "m_85C",
+      "m_AE9",
+      "m_CB3",
+      "m_050",
+      "m_2AB"
+    ]
+  },
+  {
+    "class": "gameObject_BF28",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetLastServiceDescriptor",
+      "set_gameObject"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_687",
+      "m_30B",
+      "m_9E0"
+    ]
+  },
+  {
+    "class": "OVRLipSyncSiblingSibling_0CD1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnTriggerStay",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B33",
+      "m_1E9"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSRelated_4977",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_28B",
+      "m_7B4"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSRelated_CD4D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnCollisionExit",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F46",
+      "m_7B4"
+    ]
+  }
+]

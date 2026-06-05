@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Sentry.Sentry.Unity.Json
 {
-    public class SafeSerializer : Object
+    public class SafeSerializer
     {
         // ── Methods ──
-        public void SerializeSafely(){} // RVA: 0x7FFE86EC8D70
+        public void SerializeSafely(){} // RVA: 0x7FFAF8E38350
     }
 
 }

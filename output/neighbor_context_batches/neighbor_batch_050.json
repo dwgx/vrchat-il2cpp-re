@@ -1,0 +1,130 @@
+[
+  {
+    "class": "VRC_MainSibling_3920",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      ".cctor",
+      ".ctor",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7A2",
+      "m_812",
+      "m_884",
+      "m_FB4",
+      "m_0C8",
+      "m_0BC",
+      "m_58D",
+      "m_940",
+      "m_146",
+      "m_BFE",
+      "m_739",
+      "m_098"
+    ],
+    "remaining_hash_methods": 27,
+    "total_methods": 41,
+    "signal_score": 87
+  },
+  {
+    "class": "TextureCalculateLayoutInputHorSibling_F9FE",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      ".ctor",
+      "Awake",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_246",
+      "m_F8E",
+      "m_FF4",
+      "m_9D6",
+      "m_2BC",
+      "m_01E",
+      "m_6ED",
+      "m_07B",
+      "m_218",
+      "m_6BB",
+      "m_330",
+      "m_4D4"
+    ],
+    "remaining_hash_methods": 25,
+    "total_methods": 29,
+    "signal_score": 86
+  },
+  {
+    "class": "WorldSpawn_532E",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnSpawn",
+      "Start",
+      ".ctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C11",
+      "m_C28",
+      "m_114",
+      "m_8FB",
+      "m_63E",
+      "m_2DA",
+      "m_0A7",
+      "m_5EC",
+      "m_E96",
+      "m_4F7",
+      "m_276",
+      "m_A66"
+    ],
+    "remaining_hash_methods": 27,
+    "total_methods": 32,
+    "signal_score": 86
+  },
+  {
+    "class": "NetworkItemSibling_FEF9_E418",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_scale",
+      "GetMaxDampTime",
+      "get_AreaX",
+      "get_preferredPeakBitRate",
+      "GetMaxHealth",
+      "SetActive",
+      "InitializeStaticResources",
+      "GetCurrentHealth"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C93"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 33,
+    "signal_score": 85
+  },
+  {
+    "class": "PlayerMoveNext_5C2B",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_Current",
+      "Dispose",
+      "System.Collections.IEnumerator.get_Current",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "System.IDisposable.Dispose",
+      "SetPlayerMoveNext",
+      "System.Collections.IEnumerator.Reset",
+      "MoveNext"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_63A"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 14,
+    "signal_score": 85
+  }
+]

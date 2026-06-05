@@ -5,70 +5,70 @@
 
 namespace ThirdParty.DOTween.DG.Tweening.Plugins.Options
 {
-    public class ColorOptions : ValueType
+    public class ColorOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE82C291A0
+        public void Reset(){} // RVA: 0x7FFAF494FA40
     }
 
-    public class FloatOptions : ValueType
+    public class FloatOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE82C291A0
+        public void Reset(){} // RVA: 0x7FFAF494FA40
     }
 
     public class IPlugOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE80E45FE0
+        public void Reset(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class NoOptions : ValueType
+    public class NoOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE810FB310
+        public void Reset(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class PathOptions : ValueType
+    public class PathOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE82C28FB0
+        public void Reset(){} // RVA: 0x7FFAF494F850
     }
 
-    public class QuaternionOptions : ValueType
+    public class QuaternionOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE82C29140
+        public void Reset(){} // RVA: 0x7FFAF494F9E0
     }
 
-    public class RectOptions : ValueType
+    public class RectOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE82C291A0
+        public void Reset(){} // RVA: 0x7FFAF494FA40
     }
 
-    public class StringOptions : ValueType
+    public class StringOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE82C29210
+        public void Reset(){} // RVA: 0x7FFAF494FAB0
     }
 
-    public class UintOptions : ValueType
+    public class UintOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE82C291A0
+        public void Reset(){} // RVA: 0x7FFAF494FA40
     }
 
-    public class Vector3ArrayOptions : ValueType
+    public class Vector3ArrayOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE82C291B0
+        public void Reset(){} // RVA: 0x7FFAF494FA50
     }
 
-    public class VectorOptions : ValueType
+    public class VectorOptions
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFE82C29280
+        public void Reset(){} // RVA: 0x7FFAF494FB20
     }
 
 }

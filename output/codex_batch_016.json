@@ -1,0 +1,218 @@
+[
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_F3B9",
+    "parent": "",
+    "readable_methods": [
+      "OnDestroy",
+      "Update"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AF5",
+      "m_E5E",
+      "m_97C",
+      "m_F76"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSibling_640B",
+    "parent": "",
+    "readable_methods": [
+      "OnDisable",
+      "Initialize",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FAC",
+      "m_64A",
+      "m_2B4"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_E45D",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_63A",
+      "m_668",
+      "m_DB9"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_A742",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DB7",
+      "m_E82",
+      "m_015"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_86DD",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9B7",
+      "m_A24",
+      "m_75E"
+    ]
+  },
+  {
+    "class": "MessengerHelperSiblingSibling_FE1A",
+    "parent": "",
+    "readable_methods": [
+      "Awake_7FD28589FE1E",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A3F",
+      "m_6B3",
+      "m_A46"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_5D02",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_428",
+      "m_71E",
+      "m_BFC"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_95EF",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CBC",
+      "m_668",
+      "m_4E7"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D6A2",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DB5",
+      "m_CBC",
+      "m_C45"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_C62C",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2A0",
+      "m_288",
+      "m_63A"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_A267",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_428",
+      "m_F88",
+      "m_015"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_2848",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C45",
+      "m_DB9",
+      "m_088"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_640A",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4F1",
+      "m_2A0",
+      "m_333"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_FF80",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_333",
+      "m_63A",
+      "m_DB7"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_0359",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_668",
+      "m_DB5",
+      "m_2A0"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+ "VRC_MainSibling_818F::m_F35": "ApplyStoredLocalTransforms",
+ "VRC_SecondarySiblingSibling_4237::m_16B": "ToString",
+ "VRC_SecondarySiblingSibling_4237::m_3FC": "MoveNext",
+ "VRC_SecondarySiblingSibling_4237::m_3FD": "Equals",
+ "VRC_SecondarySiblingSibling_4237::m_3F5": "GetHashCode",
+ "VRC_SecondarySiblingSibling_4237::m_482": "get_Current",
+ "VRC_SecondarySiblingSibling_4237::m_51F": "ToString",
+ "VRC_SecondarySiblingSibling_4237::m_70D": "MoveNext"
+}

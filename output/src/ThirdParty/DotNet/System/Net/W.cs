@@ -1,503 +1,411 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Net
-// Classes: 17
-// Methods: 336
+// Classes: 18
+// Methods: 346
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class WebCompletionSource : WebCompletionSource`1
+    public class WebCompletionSource
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876B7350
+        public void .ctor(){} // RVA: 0x7FFAF96280A0
     }
 
-    public class WebCompletionSource`1 : Object
+    public class WebCompletionSource`1
     {
-        public System.Threading.Tasks.TaskCompletionSource`1<Result<T>> completion;
-        public Result<T> currentResult;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E466C0
-        public void get_CurrentResult(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Task(){} // RVA: 0x7FFE80E2E2E0
-        public void TrySetCompleted(){} // RVA: 0x7FFE80E2F150 | overloaded x2
-        public void TrySetCanceled(){} // RVA: 0x7FFE80E2F3B0 | overloaded x2
-        public void TrySetException(){} // RVA: 0x7FFE80E2F3B0
-        public void ThrowOnError(){} // RVA: 0x7FFE80E45FE0
-        public void WaitForCompletion(){} // RVA: 0x7FFE80E2E2E0
+        public void .ctor(){} // RVA: 0x7FFAF2AD5130
+        public void get_CurrentResult(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Task(){} // RVA: 0x7FFAF2ABCD60
+        public void TrySetCompleted(){} // RVA: 0x7FFAF2ABDBE0 | overloaded x2
+        public void TrySetCanceled(){} // RVA: 0x7FFAF2ABDE40 | overloaded x2
+        public void TrySetException(){} // RVA: 0x7FFAF2ABDE40
+        public void ThrowOnError(){} // RVA: 0x7FFAF2AD4A50
+        public void WaitForCompletion(){} // RVA: 0x7FFAF2ABCD60
     }
 
-    public class WebConnection : Object
+    public class WebCompletionSource`1
     {
-        public System.Net.NetworkCredential ntlm_credentials; // 0x10
-        public bool ntlm_authenticated; // 0x18
-        public bool unsafe_sharing; // 0x19
-        public System.IO.Stream networkStream; // 0x20
-        public System.Net.Sockets.Socket socket; // 0x28
-        public Mono.Net.Security.MonoTlsStream monoTlsStream; // 0x30
-
         // ── Methods ──
-        public void get_ServicePoint(){} // RVA: 0x7FFE81176730
-        public void .ctor(){} // RVA: 0x7FFE81176740
-        public void CanReuse(){} // RVA: 0x7FFE876B7390
-        public void CheckReusable(){} // RVA: 0x7FFE876B73C0
-        public void Connect(){} // RVA: 0x7FFE876B7410
-        public void CreateStream(){} // RVA: 0x7FFE876B7690
-        public void InitConnection(){} // RVA: 0x7FFE876B7900
-        public void GetException(){} // RVA: 0x7FFE876B7B50
-        public void ReadLine(){} // RVA: 0x7FFE876B7D70
-        public void CanReuseConnection(){} // RVA: 0x7FFE876B7FD0
-        public void PrepareSharingNtlm(){} // RVA: 0x7FFE876B8480
-        public void Reset(){} // RVA: 0x7FFE876B8730
-        public void Close(){} // RVA: 0x7FFE876B8920
-        public void CloseSocket(){} // RVA: 0x7FFE876B8A70
-        public void get_Closed(){} // RVA: 0x7FFE876B8DB0
-        public void get_IdleSince(){} // RVA: 0x7FFE811C3500
-        public void StartOperation(){} // RVA: 0x7FFE876B8DC0
-        public void Continue(){} // RVA: 0x7FFE876B90A0
-        public void Dispose(){} // RVA: 0x7FFE876B9300 | overloaded x2
-        public void ResetNtlm(){} // RVA: 0x7FFE876B9320
-        public void get_NtlmAuthenticated(){} // RVA: 0x7FFE811164E0
-        public void set_NtlmAuthenticated(){} // RVA: 0x7FFE811164F0
-        public void get_NtlmCredential(){} // RVA: 0x7FFE81116380
-        public void set_NtlmCredential(){} // RVA: 0x7FFE810FCE30
-        public void get_UnsafeAuthenticatedConnectionSharing(){} // RVA: 0x7FFE814B3730
-        public void set_UnsafeAuthenticatedConnectionSharing(){} // RVA: 0x7FFE81CD0510
+        public void .ctor(){} // RVA: 0x7FFAF760D690
+        public void get_CurrentResult(){} // RVA: 0x7FFAF2D907C0
+        public void get_Task(){} // RVA: 0x7FFAF35DECF0
+        public void TrySetCompleted(){} // RVA: 0x7FFAF760D8E0 | overloaded x2
+        public void TrySetCanceled(){} // RVA: 0x7FFAF760DAE0 | overloaded x2
+        public void TrySetException(){} // RVA: 0x7FFAF760DD00
+        public void ThrowOnError(){} // RVA: 0x7FFAF760DF20
+        public void WaitForCompletion(){} // RVA: 0x7FFAF760E3A0
     }
 
-    public class WebConnectionStream : Stream
+    public class WebConnection
     {
-        public bool closed; // 0x28
-        public bool disposed; // 0x29
-        public object locker; // 0x30
-        public int read_timeout; // 0x38
-        public int write_timeout; // 0x3C
-        public bool IgnoreIOErrors; // 0x40
-        public System.Net.HttpWebRequest _request; // 0x48
-        public System.Net.WebConnection _connection; // 0x50
-        public System.Net.WebOperation _operation; // 0x58
-        public byte[] crlf;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876BB150
-        public void get_Request(){} // RVA: 0x7FFE81176730
-        public void get_Connection(){} // RVA: 0x7FFE8119C0E0
-        public void get_Operation(){} // RVA: 0x7FFE811C3500
-        public void get_ServicePoint(){} // RVA: 0x7FFE876BB360
-        public void get_CanTimeout(){} // RVA: 0x7FFE811E0850
-        public void get_ReadTimeout(){} // RVA: 0x7FFE81D46090
-        public void set_ReadTimeout(){} // RVA: 0x7FFE876BB380
-        public void get_WriteTimeout(){} // RVA: 0x7FFE816311C0
-        public void set_WriteTimeout(){} // RVA: 0x7FFE876BB3F0
-        public void GetException(){} // RVA: 0x7FFE876BB460
+        public void get_ServicePoint(){} // RVA: 0x7FFAF2E08730
+        public void .ctor(){} // RVA: 0x7FFAF2E08740
+        public void CanReuse(){} // RVA: 0x7FFAF96280E0
+        public void CheckReusable(){} // RVA: 0x7FFAF9628110
+        public void Connect(){} // RVA: 0x7FFAF9628160
+        public void CreateStream(){} // RVA: 0x7FFAF96283E0
+        public void InitConnection(){} // RVA: 0x7FFAF9628650
+        public void GetException(){} // RVA: 0x7FFAF96288A0
+        public void ReadLine(){} // RVA: 0x7FFAF9628AC0
+        public void CanReuseConnection(){} // RVA: 0x7FFAF9628D20
+        public void PrepareSharingNtlm(){} // RVA: 0x7FFAF96291D0
+        public void Reset(){} // RVA: 0x7FFAF9629480
+        public void Close(){} // RVA: 0x7FFAF9629670
+        public void CloseSocket(){} // RVA: 0x7FFAF96297C0
+        public void get_Closed(){} // RVA: 0x7FFAF9629B00
+        public void get_IdleSince(){} // RVA: 0x7FFAF2E55500
+        public void StartOperation(){} // RVA: 0x7FFAF9629B10
+        public void Continue(){} // RVA: 0x7FFAF9629DF0
+        public void Dispose(){} // RVA: 0x7FFAF962A050 | overloaded x2
+        public void ResetNtlm(){} // RVA: 0x7FFAF962A070
+        public void get_NtlmAuthenticated(){} // RVA: 0x7FFAF2DA84E0
+        public void set_NtlmAuthenticated(){} // RVA: 0x7FFAF2DA84F0
+        public void get_NtlmCredential(){} // RVA: 0x7FFAF2DA8380
+        public void set_NtlmCredential(){} // RVA: 0x7FFAF2D8EE30
+        public void get_UnsafeAuthenticatedConnectionSharing(){} // RVA: 0x7FFAF31693D0
+        public void set_UnsafeAuthenticatedConnectionSharing(){} // RVA: 0x7FFAF39F3D70
+    }
+
+    public class WebConnectionStream
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF962BEA0
+        public void get_Request(){} // RVA: 0x7FFAF2E08730
+        public void get_Connection(){} // RVA: 0x7FFAF2E2E0E0
+        public void get_Operation(){} // RVA: 0x7FFAF2E55500
+        public void get_ServicePoint(){} // RVA: 0x7FFAF962C0B0
+        public void get_CanTimeout(){} // RVA: 0x7FFAF2E72850
+        public void get_ReadTimeout(){} // RVA: 0x7FFAF3A8C9F0
+        public void set_ReadTimeout(){} // RVA: 0x7FFAF962C0D0
+        public void get_WriteTimeout(){} // RVA: 0x7FFAF3341AF0
+        public void set_WriteTimeout(){} // RVA: 0x7FFAF962C140
+        public void GetException(){} // RVA: 0x7FFAF962C1B0
         public void TryReadFromBufferedContent(){}
-        public void Read(){} // RVA: 0x7FFE876BB600
-        public void BeginRead(){} // RVA: 0x7FFE876BB8C0
-        public void EndRead(){} // RVA: 0x7FFE876BBB40
-        public void BeginWrite(){} // RVA: 0x7FFE876BBC10
-        public void EndWrite(){} // RVA: 0x7FFE876BBE40
-        public void Write(){} // RVA: 0x7FFE876BBEF0
-        public void Flush(){} // RVA: 0x7FFE810FB310
-        public void FlushAsync(){} // RVA: 0x7FFE876BC130
-        public void InternalClose(){} // RVA: 0x7FFE876BC1E0
-        public void Close_internal(){} // RVA: 0x7FFE80E460A0
-        public void Close(){} // RVA: 0x7FFE876BC1F0
-        public void Seek(){} // RVA: 0x7FFE876BC210
-        public void SetLength(){} // RVA: 0x7FFE876BC260
-        public void get_CanSeek(){} // RVA: 0x7FFE810FB320
-        public void get_Length(){} // RVA: 0x7FFE876BC2B0
-        public void get_Position(){} // RVA: 0x7FFE876BC300
-        public void set_Position(){} // RVA: 0x7FFE876BC350
+        public void Read(){} // RVA: 0x7FFAF962C350
+        public void BeginRead(){} // RVA: 0x7FFAF962C610
+        public void EndRead(){} // RVA: 0x7FFAF962C890
+        public void BeginWrite(){} // RVA: 0x7FFAF962C960
+        public void EndWrite(){} // RVA: 0x7FFAF962CB90
+        public void Write(){} // RVA: 0x7FFAF962CC40
+        public void Flush(){} // RVA: 0x7FFAF2D8D310
+        public void FlushAsync(){} // RVA: 0x7FFAF962CE80
+        public void InternalClose(){} // RVA: 0x7FFAF962CF30
+        public void Close_internal(){} // RVA: 0x7FFAF2AD4B10
+        public void Close(){} // RVA: 0x7FFAF962CF40
+        public void Seek(){} // RVA: 0x7FFAF962CF60
+        public void SetLength(){} // RVA: 0x7FFAF962CFB0
+        public void get_CanSeek(){} // RVA: 0x7FFAF2D8D320
+        public void get_Length(){} // RVA: 0x7FFAF962D000
+        public void get_Position(){} // RVA: 0x7FFAF962D050
+        public void set_Position(){} // RVA: 0x7FFAF962D0A0
     }
 
-    public class WebConnectionTunnel : Object
+    public class WebConnectionTunnel
     {
-        public System.Net.HttpWebRequest _request; // 0x10
-        public System.Uri _connectUri; // 0x18
-        public System.Net.HttpWebRequest connectRequest; // 0x20
-        public 0x6653703C ntlmAuthState; // 0x28
-        public bool _success; // 0x2C
-        public bool _closeConnection; // 0x2D
-        public int _statusCode; // 0x30
-        public string _statusDescription; // 0x38
-        public string[] _challenge; // 0x40
-        public System.Net.WebHeaderCollection _headers; // 0x48
-
         // ── Methods ──
-        public void get_Request(){} // RVA: 0x7FFE81116380
-        public void get_ConnectUri(){} // RVA: 0x7FFE810FE7C0
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0
-        public void get_Success(){} // RVA: 0x7FFE811DA230
-        public void set_Success(){} // RVA: 0x7FFE811DA240
-        public void get_CloseConnection(){} // RVA: 0x7FFE8130C7C0
-        public void set_CloseConnection(){} // RVA: 0x7FFE8130B300
-        public void get_StatusCode(){} // RVA: 0x7FFE81156CD0
-        public void set_StatusCode(){} // RVA: 0x7FFE81156CE0
-        public void set_StatusDescription(){} // RVA: 0x7FFE81437330
-        public void get_Challenge(){} // RVA: 0x7FFE81178740
-        public void set_Challenge(){} // RVA: 0x7FFE81123200
-        public void get_Headers(){} // RVA: 0x7FFE81176730
-        public void set_Headers(){} // RVA: 0x7FFE81176740
-        public void get_ProxyVersion(){} // RVA: 0x7FFE8119C0E0
-        public void set_ProxyVersion(){} // RVA: 0x7FFE812534D0
-        public void get_Data(){} // RVA: 0x7FFE811C3500
-        public void set_Data(){} // RVA: 0x7FFE811C3510
-        public void Initialize(){} // RVA: 0x7FFE876BC3A0
-        public void ReadHeaders(){} // RVA: 0x7FFE876BC620
-        public void FlushContents(){} // RVA: 0x7FFE876BC880
+        public void get_Request(){} // RVA: 0x7FFAF2DA8380
+        public void get_ConnectUri(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void get_Success(){} // RVA: 0x7FFAF2E6C230
+        public void set_Success(){} // RVA: 0x7FFAF2E6C240
+        public void get_CloseConnection(){} // RVA: 0x7FFAF2FADE20
+        public void set_CloseConnection(){} // RVA: 0x7FFAF2FAC950
+        public void get_StatusCode(){} // RVA: 0x7FFAF2DE8CD0
+        public void set_StatusCode(){} // RVA: 0x7FFAF2DE8CE0
+        public void set_StatusDescription(){} // RVA: 0x7FFAF2F4B830
+        public void get_Challenge(){} // RVA: 0x7FFAF2E0A740
+        public void set_Challenge(){} // RVA: 0x7FFAF2DB5200
+        public void get_Headers(){} // RVA: 0x7FFAF2E08730
+        public void set_Headers(){} // RVA: 0x7FFAF2E08740
+        public void get_ProxyVersion(){} // RVA: 0x7FFAF2E2E0E0
+        public void set_ProxyVersion(){} // RVA: 0x7FFAF2EE54D0
+        public void get_Data(){} // RVA: 0x7FFAF2E55500
+        public void set_Data(){} // RVA: 0x7FFAF2E55510
+        public void Initialize(){} // RVA: 0x7FFAF962D0F0
+        public void ReadHeaders(){} // RVA: 0x7FFAF962D370
+        public void FlushContents(){} // RVA: 0x7FFAF962D5D0
     }
 
-    public class WebException : InvalidOperationException
+    public class WebException
     {
-        public 0x6653417C m_Status; // 0x90
-        public System.Net.WebResponse m_Response; // 0x98
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87661BC0 | overloaded x10
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87661C50
-        public void GetObjectData(){} // RVA: 0x7FFE87660600
-        public void get_Status(){} // RVA: 0x7FFE814AA220
-        public void get_Response(){} // RVA: 0x7FFE817AE360
+        public void .ctor(){} // RVA: 0x7FFAF95D2900 | overloaded x10
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF95D2990
+        public void GetObjectData(){} // RVA: 0x7FFAF95D1340
+        public void get_Status(){} // RVA: 0x7FFAF315FD40
+        public void get_Response(){} // RVA: 0x7FFAF34CC8C0
     }
 
-    public class WebExceptionMapping : Object
+    public class WebExceptionMapping
     {
         // ── Methods ──
-        public void GetWebStatusString(){} // RVA: 0x7FFE87661C80
-        public void .cctor(){} // RVA: 0x7FFE87661E70
+        public void GetWebStatusString(){} // RVA: 0x7FFAF95D29C0
+        public void .cctor(){} // RVA: 0x7FFAF95D2BB0
     }
 
-    public class WebHeaderCollection : NameValueCollection
+    public class WebHeaderCollection
     {
-        public int ApproxAveHeaderLineSize;
-        public int ApproxHighAvgNumHeaders;
-        public System.Net.HeaderInfoTable HInfo;
-        public string[] m_CommonHeaders; // 0x68
-
         // ── Methods ──
-        public void NormalizeCommonHeaders(){} // RVA: 0x7FFE87661F30
-        public void get_InnerCollection(){} // RVA: 0x7FFE876620C0
-        public void AllowMultiValues(){} // RVA: 0x7FFE876621C0
-        public void get_AllowHttpRequestHeader(){} // RVA: 0x7FFE876622A0
-        public void Remove(){} // RVA: 0x7FFE87663790 | overloaded x2
-        public void AddInternal(){} // RVA: 0x7FFE87662440
-        public void ChangeInternal(){} // RVA: 0x7FFE876624B0
-        public void RemoveInternal(){} // RVA: 0x7FFE87662520
-        public void CheckBadChars(){} // RVA: 0x7FFE87662580
-        public void ContainsNonAsciiChars(){} // RVA: 0x7FFE87662B70
-        public void ThrowOnRestrictedHeader(){} // RVA: 0x7FFE87662BE0
-        public void Add(){} // RVA: 0x7FFE87663000 | overloaded x2
-        public void Set(){} // RVA: 0x7FFE87663300
-        public void SetInternal(){} // RVA: 0x7FFE87663550
-        public void GetValues(){} // RVA: 0x7FFE87664D80 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE87663B10
-        public void GetAsString(){} // RVA: 0x7FFE87663B70
-        public void .ctor(){} // RVA: 0x7FFE87664020 | overloaded x3
-        public void OnDeserialization(){} // RVA: 0x7FFE810FB310
-        public void GetObjectData(){} // RVA: 0x7FFE87664330
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87664920
-        public void Get(){} // RVA: 0x7FFE87664D30 | overloaded x2
-        public void GetEnumerator(){} // RVA: 0x7FFE87664C80
-        public void get_Count(){} // RVA: 0x7FFE87664CF0
-        public void GetKey(){} // RVA: 0x7FFE87664DD0
-        public void get_AllKeys(){} // RVA: 0x7FFE87664E20
-        public void .cctor(){} // RVA: 0x7FFE87664E70
+        public void NormalizeCommonHeaders(){} // RVA: 0x7FFAF95D2C70
+        public void get_InnerCollection(){} // RVA: 0x7FFAF95D2E00
+        public void AllowMultiValues(){} // RVA: 0x7FFAF95D2F00
+        public void get_AllowHttpRequestHeader(){} // RVA: 0x7FFAF95D2FE0
+        public void Remove(){} // RVA: 0x7FFAF95D44D0 | overloaded x2
+        public void AddInternal(){} // RVA: 0x7FFAF95D3180
+        public void ChangeInternal(){} // RVA: 0x7FFAF95D31F0
+        public void RemoveInternal(){} // RVA: 0x7FFAF95D3260
+        public void CheckBadChars(){} // RVA: 0x7FFAF95D32C0
+        public void ContainsNonAsciiChars(){} // RVA: 0x7FFAF95D38B0
+        public void ThrowOnRestrictedHeader(){} // RVA: 0x7FFAF95D3920
+        public void Add(){} // RVA: 0x7FFAF95D3D40 | overloaded x2
+        public void Set(){} // RVA: 0x7FFAF95D4040
+        public void SetInternal(){} // RVA: 0x7FFAF95D4290
+        public void GetValues(){} // RVA: 0x7FFAF95D5AC0 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF95D4850
+        public void GetAsString(){} // RVA: 0x7FFAF95D48B0
+        public void .ctor(){} // RVA: 0x7FFAF95D4D60 | overloaded x3
+        public void OnDeserialization(){} // RVA: 0x7FFAF2D8D310
+        public void GetObjectData(){} // RVA: 0x7FFAF95D5070
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF95D5660
+        public void Get(){} // RVA: 0x7FFAF95D5A70 | overloaded x2
+        public void GetEnumerator(){} // RVA: 0x7FFAF95D59C0
+        public void get_Count(){} // RVA: 0x7FFAF95D5A30
+        public void GetKey(){} // RVA: 0x7FFAF95D5B10
+        public void get_AllKeys(){} // RVA: 0x7FFAF95D5B60
+        public void .cctor(){} // RVA: 0x7FFAF95D5BB0
     }
 
-    public class WebOperation : Object
+    public class WebOperation
     {
-        public System.Net.HttpWebRequest _request; // 0x10
-        public System.Net.WebConnection _connection; // 0x18
-        public System.Net.ServicePoint _servicePoint; // 0x20
-        public System.Net.BufferOffsetSize _writeBuffer; // 0x28
-        public bool _isNtlmChallenge; // 0x30
-        public int ID; // 0x34
-        public System.Threading.CancellationTokenSource cts; // 0x38
-        public System.Net.WebCompletionSource`1<System.Net.WebRequestStream> requestTask; // 0x40
-        public System.Net.WebCompletionSource`1<System.Net.WebRequestStream> requestWrittenTask; // 0x48
-
         // ── Methods ──
-        public void get_Request(){} // RVA: 0x7FFE81116380
-        public void get_Connection(){} // RVA: 0x7FFE810FE7C0
-        public void set_Connection(){} // RVA: 0x7FFE81161E80
-        public void get_ServicePoint(){} // RVA: 0x7FFE811290C0
-        public void set_ServicePoint(){} // RVA: 0x7FFE811290D0
-        public void get_WriteBuffer(){} // RVA: 0x7FFE81129130
-        public void get_IsNtlmChallenge(){} // RVA: 0x7FFE81121450
-        public void .ctor(){} // RVA: 0x7FFE876BE870
-        public void get_Aborted(){} // RVA: 0x7FFE876BECC0
-        public void get_Closed(){} // RVA: 0x7FFE876BED20
-        public void Abort(){} // RVA: 0x7FFE876BED80
-        public void Close(){} // RVA: 0x7FFE876BEDE0
-        public void SetCanceled(){} // RVA: 0x7FFE876BEE80
-        public void SetError(){} // RVA: 0x7FFE876BEF90
-        public void SetDisposed(){} // RVA: 0x7FFE876BF040
-        public void CheckDisposed(){} // RVA: 0x7FFE876BF260
-        public void ThrowIfDisposed(){} // RVA: 0x7FFE876BF3B0 | overloaded x2
-        public void ThrowIfClosedOrDisposed(){} // RVA: 0x7FFE876BF500 | overloaded x2
-        public void CheckThrowDisposed(){} // RVA: 0x7FFE876BF600
-        public void RegisterRequest(){} // RVA: 0x7FFE876BF680
-        public void SetPriorityRequest(){} // RVA: 0x7FFE876BFB00
-        public void GetRequestStream(){} // RVA: 0x7FFE876BFD00
-        public void GetRequestStreamInternal(){} // RVA: 0x7FFE876BFE90
-        public void get_WriteStream(){} // RVA: 0x7FFE876BFEE0
-        public void GetResponseStream(){} // RVA: 0x7FFE876BFF40
-        public void get_Finished(){} // RVA: 0x7FFE811C3500
-        public void Run(){} // RVA: 0x7FFE876BFF90
-        public void CompleteRequestWritten(){} // RVA: 0x7FFE876C0170
-        public void Finish(){} // RVA: 0x7FFE876C0200
-        public void <RegisterRequest>b__48_0(){} // RVA: 0x7FFE876C0610
+        public void get_Request(){} // RVA: 0x7FFAF2DA8380
+        public void get_Connection(){} // RVA: 0x7FFAF2D907C0
+        public void set_Connection(){} // RVA: 0x7FFAF2DF3E80
+        public void get_ServicePoint(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_ServicePoint(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_WriteBuffer(){} // RVA: 0x7FFAF2DBB130
+        public void get_IsNtlmChallenge(){} // RVA: 0x7FFAF2DB3450
+        public void .ctor(){} // RVA: 0x7FFAF962F5C0
+        public void get_Aborted(){} // RVA: 0x7FFAF962FA10
+        public void get_Closed(){} // RVA: 0x7FFAF962FA70
+        public void Abort(){} // RVA: 0x7FFAF962FAD0
+        public void Close(){} // RVA: 0x7FFAF962FB30
+        public void SetCanceled(){} // RVA: 0x7FFAF962FBD0
+        public void SetError(){} // RVA: 0x7FFAF962FCE0
+        public void SetDisposed(){} // RVA: 0x7FFAF962FD90
+        public void CheckDisposed(){} // RVA: 0x7FFAF962FFB0
+        public void ThrowIfDisposed(){} // RVA: 0x7FFAF9630100 | overloaded x2
+        public void ThrowIfClosedOrDisposed(){} // RVA: 0x7FFAF9630250 | overloaded x2
+        public void CheckThrowDisposed(){} // RVA: 0x7FFAF9630350
+        public void RegisterRequest(){} // RVA: 0x7FFAF96303D0
+        public void SetPriorityRequest(){} // RVA: 0x7FFAF9630850
+        public void GetRequestStream(){} // RVA: 0x7FFAF9630A50
+        public void GetRequestStreamInternal(){} // RVA: 0x7FFAF9630BE0
+        public void get_WriteStream(){} // RVA: 0x7FFAF9630C30
+        public void GetResponseStream(){} // RVA: 0x7FFAF9630C90
+        public void get_Finished(){} // RVA: 0x7FFAF2E55500
+        public void Run(){} // RVA: 0x7FFAF9630CE0
+        public void CompleteRequestWritten(){} // RVA: 0x7FFAF9630EC0
+        public void Finish(){} // RVA: 0x7FFAF9630F50
+        public void <RegisterRequest>b__48_0(){} // RVA: 0x7FFAF9631360
     }
 
-    public class WebProxy : Object
+    public class WebProxy
     {
-        public bool _UseRegistry; // 0x10
-        public bool _BypassOnLocal; // 0x11
-        public bool m_EnableAutoproxy; // 0x12
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87682EA0 | overloaded x4
-        public void get_Credentials(){} // RVA: 0x7FFE81129130
-        public void get_UseDefaultCredentials(){} // RVA: 0x7FFE876813E0
-        public void set_UseDefaultCredentials(){} // RVA: 0x7FFE87681450
-        public void GetProxy(){} // RVA: 0x7FFE876814C0
-        public void UpdateRegExList(){} // RVA: 0x7FFE87681720
-        public void IsMatchInBypassList(){} // RVA: 0x7FFE876819D0
-        public void IsLocal(){} // RVA: 0x7FFE87681BF0
-        public void IsLocalInProxyHash(){} // RVA: 0x7FFE876821A0
-        public void IsBypassed(){} // RVA: 0x7FFE87682290
-        public void IsBypassedManual(){} // RVA: 0x7FFE876823D0
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87667F80
-        public void GetObjectData(){} // RVA: 0x7FFE87682950
-        public void get_ScriptEngine(){} // RVA: 0x7FFE81178740
-        public void CreateDefaultProxy(){} // RVA: 0x7FFE87682E60
-        public void UnsafeUpdateFromRegistry(){} // RVA: 0x7FFE814B8390
-        public void GetProxyAuto(){} // RVA: 0x7FFE87682EB0
-        public void IsBypassedAuto(){} // RVA: 0x7FFE87682FC0
-        public void AreAllBypassed(){} // RVA: 0x7FFE87683060
-        public void ProxyUri(){} // RVA: 0x7FFE87683200
+        public void .ctor(){} // RVA: 0x7FFAF95F3BF0 | overloaded x4
+        public void get_Credentials(){} // RVA: 0x7FFAF2DBB130
+        public void get_UseDefaultCredentials(){} // RVA: 0x7FFAF95F2130
+        public void set_UseDefaultCredentials(){} // RVA: 0x7FFAF95F21A0
+        public void GetProxy(){} // RVA: 0x7FFAF95F2210
+        public void UpdateRegExList(){} // RVA: 0x7FFAF95F2470
+        public void IsMatchInBypassList(){} // RVA: 0x7FFAF95F2720
+        public void IsLocal(){} // RVA: 0x7FFAF95F2940
+        public void IsLocalInProxyHash(){} // RVA: 0x7FFAF95F2EF0
+        public void IsBypassed(){} // RVA: 0x7FFAF95F2FE0
+        public void IsBypassedManual(){} // RVA: 0x7FFAF95F3120
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF95D8CC0
+        public void GetObjectData(){} // RVA: 0x7FFAF95F36A0
+        public void get_ScriptEngine(){} // RVA: 0x7FFAF2E0A740
+        public void CreateDefaultProxy(){} // RVA: 0x7FFAF95F3BB0
+        public void UnsafeUpdateFromRegistry(){} // RVA: 0x7FFAF316D7E0
+        public void GetProxyAuto(){} // RVA: 0x7FFAF95F3C00
+        public void IsBypassedAuto(){} // RVA: 0x7FFAF95F3D10
+        public void AreAllBypassed(){} // RVA: 0x7FFAF95F3DB0
+        public void ProxyUri(){} // RVA: 0x7FFAF95F3F50
     }
 
-    public class WebReadStream : Stream
+    public class WebReadStream
     {
-        public System.Net.WebOperation _operation; // 0x28
-        public System.IO.Stream _innerStream; // 0x30
-        public bool disposed; // 0x38
-        public object field_3; // 0x57E
-        public object field_4; // 0x57F
-        public object field_5; // 0x580
-        public object field_6; // 0x581
-
         // ── Methods ──
-        public void get_Operation(){} // RVA: 0x7FFE81129130
-        public void get_InnerStream(){} // RVA: 0x7FFE8144E200
-        public void .ctor(){} // RVA: 0x7FFE876C1480
-        public void get_Length(){} // RVA: 0x7FFE876C1590
-        public void get_Position(){} // RVA: 0x7FFE876C15D0
-        public void set_Position(){} // RVA: 0x7FFE876C1610
-        public void get_CanSeek(){} // RVA: 0x7FFE810FB320
-        public void get_CanRead(){} // RVA: 0x7FFE811E0850
-        public void get_CanWrite(){} // RVA: 0x7FFE810FB320
-        public void SetLength(){} // RVA: 0x7FFE876C1650
-        public void Seek(){} // RVA: 0x7FFE876C1690
-        public void Write(){} // RVA: 0x7FFE876C16D0
-        public void Flush(){} // RVA: 0x7FFE876C1710
-        public void GetException(){} // RVA: 0x7FFE876C1750
-        public void Read(){} // RVA: 0x7FFE876C18F0
-        public void BeginRead(){} // RVA: 0x7FFE876C1BB0
-        public void EndRead(){} // RVA: 0x7FFE876C1E30
-        public void ReadAsync(){} // RVA: 0x7FFE876C1F00
+        public void get_Operation(){} // RVA: 0x7FFAF2DBB130
+        public void get_InnerStream(){} // RVA: 0x7FFAF30E74D0
+        public void .ctor(){} // RVA: 0x7FFAF96321D0
+        public void get_Length(){} // RVA: 0x7FFAF96322E0
+        public void get_Position(){} // RVA: 0x7FFAF9632320
+        public void set_Position(){} // RVA: 0x7FFAF9632360
+        public void get_CanSeek(){} // RVA: 0x7FFAF2D8D320
+        public void get_CanRead(){} // RVA: 0x7FFAF2E72850
+        public void get_CanWrite(){} // RVA: 0x7FFAF2D8D320
+        public void SetLength(){} // RVA: 0x7FFAF96323A0
+        public void Seek(){} // RVA: 0x7FFAF96323E0
+        public void Write(){} // RVA: 0x7FFAF9632420
+        public void Flush(){} // RVA: 0x7FFAF9632460
+        public void GetException(){} // RVA: 0x7FFAF96324A0
+        public void Read(){} // RVA: 0x7FFAF9632640
+        public void BeginRead(){} // RVA: 0x7FFAF9632900
+        public void EndRead(){} // RVA: 0x7FFAF9632B80
+        public void ReadAsync(){} // RVA: 0x7FFAF9632C50
         public void ProcessReadAsync(){}
-        public void FinishReading(){} // RVA: 0x7FFE876AC2A0
-        public void Dispose(){} // RVA: 0x7FFE876C2180
+        public void FinishReading(){} // RVA: 0x7FFAF961CFF0
+        public void Dispose(){} // RVA: 0x7FFAF9632ED0
     }
 
-    public class WebRequest : MarshalByRefObject
+    public class WebRequest
     {
-        public int DefaultTimeout;
-        public System.Collections.ArrayList s_PrefixList;
-        public object s_InternalSyncObject; // 0x8
-        public Queue s_DefaultTimerQueue; // 0x10
-        public 0x6653B294 m_AuthenticationLevel; // 0x18
-        public 0x664C6FEC m_ImpersonationLevel; // 0x1C
-        public System.Net.Cache.RequestCachePolicy m_CachePolicy; // 0x20
-        public System.Net.Cache.RequestCacheProtocol m_CacheProtocol; // 0x28
-        public System.Net.Cache.RequestCacheBinding m_CacheBinding; // 0x30
-        public DesignerWebRequestCreate webRequestCreate; // 0x18
-        public System.Net.IWebProxy s_DefaultWebProxy; // 0x20
-        public bool s_DefaultWebProxyInitialized; // 0x28
-        public object field_12; // 0x45C
-        public object field_13; // 0x45D
-        public object field_14; // 0x45E
-        public object field_15; // 0x45F
-
         // ── Methods ──
-        public void get_InternalSyncObject(){} // RVA: 0x7FFE87665B60
-        public void Create(){} // RVA: 0x7FFE876661F0 | overloaded x3
-        public void get_PrefixList(){} // RVA: 0x7FFE876662C0
-        public void PopulatePrefixList(){} // RVA: 0x7FFE87666540
-        public void .ctor(){} // RVA: 0x7FFE810FB310 | overloaded x2
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87666770
-        public void GetObjectData(){} // RVA: 0x7FFE810FB310
-        public void get_DefaultCachePolicy(){} // RVA: 0x7FFE876667A0
-        public void set_CachePolicy(){} // RVA: 0x7FFE87666820
-        public void InternalSetCachePolicy(){} // RVA: 0x7FFE87666820
-        public void get_Method(){} // RVA: 0x7FFE87666900
-        public void set_Method(){} // RVA: 0x7FFE87666930
-        public void get_RequestUri(){} // RVA: 0x7FFE87666960
-        public void set_ConnectionGroupName(){} // RVA: 0x7FFE87666990
-        public void get_Headers(){} // RVA: 0x7FFE876669C0
-        public void get_ContentLength(){} // RVA: 0x7FFE876669F0
-        public void set_ContentLength(){} // RVA: 0x7FFE87666A20
-        public void get_Credentials(){} // RVA: 0x7FFE87666A50
-        public void set_Credentials(){} // RVA: 0x7FFE87666A80
-        public void get_UseDefaultCredentials(){} // RVA: 0x7FFE87666AB0
-        public void get_Proxy(){} // RVA: 0x7FFE87666AE0
-        public void set_Proxy(){} // RVA: 0x7FFE87666B10
-        public void set_PreAuthenticate(){} // RVA: 0x7FFE87666B40
-        public void get_Timeout(){} // RVA: 0x7FFE87666B70
-        public void set_Timeout(){} // RVA: 0x7FFE87666BA0
-        public void GetResponse(){} // RVA: 0x7FFE87666BD0
-        public void BeginGetResponse(){} // RVA: 0x7FFE87666C00
-        public void EndGetResponse(){} // RVA: 0x7FFE87666C30
-        public void BeginGetRequestStream(){} // RVA: 0x7FFE87666C60
-        public void EndGetRequestStream(){} // RVA: 0x7FFE87666C90
-        public void GetRequestStreamAsync(){} // RVA: 0x7FFE87666CC0
-        public void GetResponseAsync(){} // RVA: 0x7FFE87666FD0
-        public void SafeCaptureIdenity(){} // RVA: 0x7FFE876672E0
-        public void Abort(){} // RVA: 0x7FFE87667330
-        public void get_CacheProtocol(){} // RVA: 0x7FFE81129130
-        public void set_CacheProtocol(){} // RVA: 0x7FFE810FCE90
-        public void get_InternalDefaultWebProxy(){} // RVA: 0x7FFE87667360
-        public void .cctor(){} // RVA: 0x7FFE876675E0
-        public void <GetRequestStreamAsync>b__78_0(){} // RVA: 0x7FFE87667740
-        public void <GetResponseAsync>b__79_0(){} // RVA: 0x7FFE87667870
+        public void get_InternalSyncObject(){} // RVA: 0x7FFAF95D68A0
+        public void Create(){} // RVA: 0x7FFAF95D6F30 | overloaded x3
+        public void get_PrefixList(){} // RVA: 0x7FFAF95D7000
+        public void PopulatePrefixList(){} // RVA: 0x7FFAF95D7280
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF95D74B0
+        public void GetObjectData(){} // RVA: 0x7FFAF2D8D310
+        public void get_DefaultCachePolicy(){} // RVA: 0x7FFAF95D74E0
+        public void set_CachePolicy(){} // RVA: 0x7FFAF95D7560
+        public void InternalSetCachePolicy(){} // RVA: 0x7FFAF95D7560
+        public void get_Method(){} // RVA: 0x7FFAF95D7640
+        public void set_Method(){} // RVA: 0x7FFAF95D7670
+        public void get_RequestUri(){} // RVA: 0x7FFAF95D76A0
+        public void set_ConnectionGroupName(){} // RVA: 0x7FFAF95D76D0
+        public void get_Headers(){} // RVA: 0x7FFAF95D7700
+        public void get_ContentLength(){} // RVA: 0x7FFAF95D7730
+        public void set_ContentLength(){} // RVA: 0x7FFAF95D7760
+        public void get_Credentials(){} // RVA: 0x7FFAF95D7790
+        public void set_Credentials(){} // RVA: 0x7FFAF95D77C0
+        public void get_UseDefaultCredentials(){} // RVA: 0x7FFAF95D77F0
+        public void get_Proxy(){} // RVA: 0x7FFAF95D7820
+        public void set_Proxy(){} // RVA: 0x7FFAF95D7850
+        public void set_PreAuthenticate(){} // RVA: 0x7FFAF95D7880
+        public void get_Timeout(){} // RVA: 0x7FFAF95D78B0
+        public void set_Timeout(){} // RVA: 0x7FFAF95D78E0
+        public void GetResponse(){} // RVA: 0x7FFAF95D7910
+        public void BeginGetResponse(){} // RVA: 0x7FFAF95D7940
+        public void EndGetResponse(){} // RVA: 0x7FFAF95D7970
+        public void BeginGetRequestStream(){} // RVA: 0x7FFAF95D79A0
+        public void EndGetRequestStream(){} // RVA: 0x7FFAF95D79D0
+        public void GetRequestStreamAsync(){} // RVA: 0x7FFAF95D7A00
+        public void GetResponseAsync(){} // RVA: 0x7FFAF95D7D10
+        public void SafeCaptureIdenity(){} // RVA: 0x7FFAF95D8020
+        public void Abort(){} // RVA: 0x7FFAF95D8070
+        public void get_CacheProtocol(){} // RVA: 0x7FFAF2DBB130
+        public void set_CacheProtocol(){} // RVA: 0x7FFAF2D8EE90
+        public void get_InternalDefaultWebProxy(){} // RVA: 0x7FFAF95D80A0
+        public void .cctor(){} // RVA: 0x7FFAF95D8320
+        public void <GetRequestStreamAsync>b__78_0(){} // RVA: 0x7FFAF95D8480
+        public void <GetResponseAsync>b__79_0(){} // RVA: 0x7FFAF95D85B0
     }
 
-    public class WebRequestPrefixElement : Object
+    public class WebRequestPrefixElement
     {
-        public string Prefix; // 0x10
-
         // ── Methods ──
-        public void get_Creator(){} // RVA: 0x7FFE8765F370
-        public void set_Creator(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0
+        public void get_Creator(){} // RVA: 0x7FFAF95D00B0
+        public void set_Creator(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
     }
 
-    public class WebRequestStream : WebConnectionStream
+    public class WebRequestStream
     {
-        public byte[] crlf;
-        public System.IO.MemoryStream writeBuffer; // 0x60
-        public bool requestWritten; // 0x68
-        public bool allowBuffering; // 0x69
-        public bool sendChunked; // 0x6A
-        public System.Net.WebCompletionSource pendingWrite; // 0x70
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE876C2850
-        public void get_InnerStream(){} // RVA: 0x7FFE8179C860
-        public void get_KeepAlive(){} // RVA: 0x7FFE813A1D80
-        public void get_CanRead(){} // RVA: 0x7FFE810FB320
-        public void get_CanWrite(){} // RVA: 0x7FFE811E0850
-        public void get_HasWriteBuffer(){} // RVA: 0x7FFE876C2A40
-        public void get_WriteBufferLength(){} // RVA: 0x7FFE876C2A70
-        public void GetWriteBuffer(){} // RVA: 0x7FFE876C2AD0
-        public void FinishWriting(){} // RVA: 0x7FFE876C2C00
-        public void WriteAsync(){} // RVA: 0x7FFE876C2E10
-        public void WriteAsyncInner(){} // RVA: 0x7FFE876C3100
-        public void ProcessWrite(){} // RVA: 0x7FFE876C33D0
-        public void CheckWriteOverflow(){} // RVA: 0x7FFE876C3670
-        public void Initialize(){} // RVA: 0x7FFE876C3720
-        public void SetHeadersAsync(){} // RVA: 0x7FFE876C3940
-        public void WriteRequestAsync(){} // RVA: 0x7FFE876C3B80
-        public void WriteChunkTrailer_inner(){} // RVA: 0x7FFE876C3DA0
-        public void WriteChunkTrailer(){} // RVA: 0x7FFE876C3FB0
-        public void KillBuffer(){} // RVA: 0x7FFE865AB620
-        public void ReadAsync(){} // RVA: 0x7FFE876C4170
-        public void TryReadFromBufferedContent(){} // RVA: 0x7FFE876C4220
-        public void Close_internal(){} // RVA: 0x7FFE876C4260
-        public void .cctor(){} // RVA: 0x7FFE876C45E0
+        public void .ctor(){} // RVA: 0x7FFAF96335A0
+        public void get_InnerStream(){} // RVA: 0x7FFAF34B85E0
+        public void get_KeepAlive(){} // RVA: 0x7FFAF3056180
+        public void get_CanRead(){} // RVA: 0x7FFAF2D8D320
+        public void get_CanWrite(){} // RVA: 0x7FFAF2E72850
+        public void get_HasWriteBuffer(){} // RVA: 0x7FFAF9633790
+        public void get_WriteBufferLength(){} // RVA: 0x7FFAF96337C0
+        public void GetWriteBuffer(){} // RVA: 0x7FFAF9633820
+        public void FinishWriting(){} // RVA: 0x7FFAF9633950
+        public void WriteAsync(){} // RVA: 0x7FFAF9633B60
+        public void WriteAsyncInner(){} // RVA: 0x7FFAF9633E50
+        public void ProcessWrite(){} // RVA: 0x7FFAF9634120
+        public void CheckWriteOverflow(){} // RVA: 0x7FFAF96343C0
+        public void Initialize(){} // RVA: 0x7FFAF9634470
+        public void SetHeadersAsync(){} // RVA: 0x7FFAF9634690
+        public void WriteRequestAsync(){} // RVA: 0x7FFAF96348D0
+        public void WriteChunkTrailer_inner(){} // RVA: 0x7FFAF9634AF0
+        public void WriteChunkTrailer(){} // RVA: 0x7FFAF9634D00
+        public void KillBuffer(){} // RVA: 0x7FFAF851A920
+        public void ReadAsync(){} // RVA: 0x7FFAF9634EC0
+        public void TryReadFromBufferedContent(){} // RVA: 0x7FFAF9634F70
+        public void Close_internal(){} // RVA: 0x7FFAF9634FB0
+        public void .cctor(){} // RVA: 0x7FFAF9635330
     }
 
-    public class WebResponse : MarshalByRefObject
+    public class WebResponse
     {
-        public bool m_IsCacheFresh; // 0x18
-        public bool m_IsFromCache; // 0x19
-        public object field_2; // 0x46C
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310 | overloaded x2
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFE87667F80
-        public void GetObjectData(){} // RVA: 0x7FFE810FB310
-        public void Close(){} // RVA: 0x7FFE810FB310
-        public void Dispose(){} // RVA: 0x7FFE87668020 | overloaded x2
-        public void get_IsFromCache(){} // RVA: 0x7FFE814B3730
-        public void GetResponseStream(){} // RVA: 0x7FFE87668050
-        public void get_ResponseUri(){} // RVA: 0x7FFE87668080
-        public void get_Headers(){} // RVA: 0x7FFE876680B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7FFAF95D8CC0
+        public void GetObjectData(){} // RVA: 0x7FFAF2D8D310
+        public void Close(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose(){} // RVA: 0x7FFAF95D8D60 | overloaded x2
+        public void get_IsFromCache(){} // RVA: 0x7FFAF31693D0
+        public void GetResponseStream(){} // RVA: 0x7FFAF95D8D90
+        public void get_ResponseUri(){} // RVA: 0x7FFAF95D8DC0
+        public void get_Headers(){} // RVA: 0x7FFAF95D8DF0
     }
 
-    public class WebResponseStream : WebConnectionStream
+    public class WebResponseStream
     {
-        public System.Net.WebReadStream innerStream; // 0x60
-        public bool nextReadCalled; // 0x68
-        public bool bufferedEntireContent; // 0x69
-        public System.Net.WebCompletionSource pendingRead; // 0x70
-        public object locker; // 0x78
-        public int nestedRead; // 0x80
-        public bool read_eof; // 0x84
-        public System.Net.WebRequestStream _requestStream; // 0x88
-        public System.Net.WebHeaderCollection _headers; // 0x90
-        public 0x66532CDC _statusCode; // 0x98
-
         // ── Methods ──
-        public void get_RequestStream(){} // RVA: 0x7FFE8113A010
-        public void get_Headers(){} // RVA: 0x7FFE8154EB60
-        public void set_Headers(){} // RVA: 0x7FFE818CE320
-        public void get_StatusCode(){} // RVA: 0x7FFE82B06A40
-        public void set_StatusCode(){} // RVA: 0x7FFE82B06FA0
-        public void get_StatusDescription(){} // RVA: 0x7FFE8179C860
-        public void set_StatusDescription(){} // RVA: 0x7FFE8171B4D0
-        public void get_Version(){} // RVA: 0x7FFE817AB5E0
-        public void set_Version(){} // RVA: 0x7FFE81857260
-        public void get_KeepAlive(){} // RVA: 0x7FFE824A0700
-        public void set_KeepAlive(){} // RVA: 0x7FFE824A0BA0
-        public void .ctor(){} // RVA: 0x7FFE876C8080
-        public void get_CanRead(){} // RVA: 0x7FFE811E0850
-        public void get_CanWrite(){} // RVA: 0x7FFE810FB320
-        public void get_ChunkedRead(){} // RVA: 0x7FFE8111C4C0
-        public void set_ChunkedRead(){} // RVA: 0x7FFE8111C4D0
-        public void ReadAsync(){} // RVA: 0x7FFE876C81A0
-        public void ProcessRead(){} // RVA: 0x7FFE876C8400
-        public void TryReadFromBufferedContent(){} // RVA: 0x7FFE876C8830
-        public void get_ExpectContent(){} // RVA: 0x7FFE876C8960
-        public void Initialize(){} // RVA: 0x7FFE876C8A20
-        public void ReadAllAsyncInner(){} // RVA: 0x7FFE876C9A10
-        public void ReadAllAsync(){} // RVA: 0x7FFE876C9C10
-        public void WriteAsync(){} // RVA: 0x7FFE876C9E50
-        public void Close_internal(){} // RVA: 0x7FFE876C9EF0
-        public void GetReadException(){} // RVA: 0x7FFE876C9FE0
-        public void InitReadAsync(){} // RVA: 0x7FFE876CA360
-        public void GetResponse(){} // RVA: 0x7FFE876CA580
+        public void get_RequestStream(){} // RVA: 0x7FFAF2DCC010
+        public void get_Headers(){} // RVA: 0x7FFAF3246DE0
+        public void set_Headers(){} // RVA: 0x7FFAF3604600
+        public void get_StatusCode(){} // RVA: 0x7FFAF4826570
+        public void set_StatusCode(){} // RVA: 0x7FFAF4826000
+        public void get_StatusDescription(){} // RVA: 0x7FFAF34B85E0
+        public void set_StatusDescription(){} // RVA: 0x7FFAF345A5F0
+        public void get_Version(){} // RVA: 0x7FFAF34CC130
+        public void set_Version(){} // RVA: 0x7FFAF3595030
+        public void get_KeepAlive(){} // RVA: 0x7FFAF41E23D0
+        public void set_KeepAlive(){} // RVA: 0x7FFAF41E5610
+        public void .ctor(){} // RVA: 0x7FFAF9638DD0
+        public void get_CanRead(){} // RVA: 0x7FFAF2E72850
+        public void get_CanWrite(){} // RVA: 0x7FFAF2D8D320
+        public void get_ChunkedRead(){} // RVA: 0x7FFAF2DAE4C0
+        public void set_ChunkedRead(){} // RVA: 0x7FFAF2DAE4D0
+        public void ReadAsync(){} // RVA: 0x7FFAF9638EF0
+        public void ProcessRead(){} // RVA: 0x7FFAF9639150
+        public void TryReadFromBufferedContent(){} // RVA: 0x7FFAF9639580
+        public void get_ExpectContent(){} // RVA: 0x7FFAF96396B0
+        public void Initialize(){} // RVA: 0x7FFAF9639770
+        public void ReadAllAsyncInner(){} // RVA: 0x7FFAF963A760
+        public void ReadAllAsync(){} // RVA: 0x7FFAF963A960
+        public void WriteAsync(){} // RVA: 0x7FFAF963ABA0
+        public void Close_internal(){} // RVA: 0x7FFAF963AC40
+        public void GetReadException(){} // RVA: 0x7FFAF963AD30
+        public void InitReadAsync(){} // RVA: 0x7FFAF963B0B0
+        public void GetResponse(){} // RVA: 0x7FFAF963B2D0
     }
 
-    public class WebUtility : Object
+    public class WebUtility
     {
-        public char[] _htmlEntityEndingChars;
-
         // ── Methods ──
-        public void HtmlEncode(){} // RVA: 0x7FFE87668210 | overloaded x2
-        public void IndexOfHtmlEncodingChars(){} // RVA: 0x7FFE87668630
-        public void get_HtmlEncodeConformance(){} // RVA: 0x7FFE87668740
-        public void UrlEncode(){} // RVA: 0x7FFE87668D50 | overloaded x3
-        public void UrlDecodeInternal(){} // RVA: 0x7FFE87668E80
-        public void UrlDecode(){} // RVA: 0x7FFE876691E0
-        public void GetNextUnicodeScalarValueFromUtf16Surrogate(){} // RVA: 0x7FFE87669260
-        public void HexToInt(){} // RVA: 0x7FFE87669330
-        public void IntToHex(){} // RVA: 0x7FFE87669370
-        public void IsUrlSafeChar(){} // RVA: 0x7FFE87669380
-        public void ValidateUrlEncodingParameters(){} // RVA: 0x7FFE876693F0
-        public void .cctor(){} // RVA: 0x7FFE87669510
+        public void HtmlEncode(){} // RVA: 0x7FFAF95D8F50 | overloaded x2
+        public void IndexOfHtmlEncodingChars(){} // RVA: 0x7FFAF95D9370
+        public void get_HtmlEncodeConformance(){} // RVA: 0x7FFAF95D9480
+        public void UrlEncode(){} // RVA: 0x7FFAF95D9A90 | overloaded x3
+        public void UrlDecodeInternal(){} // RVA: 0x7FFAF95D9BC0
+        public void UrlDecode(){} // RVA: 0x7FFAF95D9F20
+        public void GetNextUnicodeScalarValueFromUtf16Surrogate(){} // RVA: 0x7FFAF95D9FA0
+        public void HexToInt(){} // RVA: 0x7FFAF95DA070
+        public void IntToHex(){} // RVA: 0x7FFAF95DA0B0
+        public void IsUrlSafeChar(){} // RVA: 0x7FFAF95DA0C0
+        public void ValidateUrlEncodingParameters(){} // RVA: 0x7FFAF95DA130
+        public void .cctor(){} // RVA: 0x7FFAF95DA250
     }
 
 }

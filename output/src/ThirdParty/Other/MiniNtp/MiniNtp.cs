@@ -5,27 +5,27 @@
 
 namespace ThirdParty.Other.MiniNtp
 {
-    public class ExtensionMethods : Object
+    public class ExtensionMethods
     {
         // ── Methods ──
-        public void ReverseBytes(){} // RVA: 0x7FFE82E55190
+        public void ReverseBytes(){} // RVA: 0x7FFAF4B76D90
     }
 
-    public class NtpTimestamp : ValueType
+    public class NtpTimestamp
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86BC17C0 | overloaded x2
-        public void ToBigEndianBytes(){} // RVA: 0x7FFE86BC1950
-        public void ToString(){} // RVA: 0x7FFE86BC1960
-        public void Equals(){} // RVA: 0x7FFE86BC1A50 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE86BC1AE0
-        public void CompareTo(){} // RVA: 0x7FFE86BC1AF0
+        public void .ctor(){} // RVA: 0x7FFAF8B309F0 | overloaded x2
+        public void ToBigEndianBytes(){} // RVA: 0x7FFAF8B30B80
+        public void ToString(){} // RVA: 0x7FFAF8B30B90
+        public void Equals(){} // RVA: 0x7FFAF8B30C80 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF8B30D10
+        public void CompareTo(){} // RVA: 0x7FFAF8B30D20
     }
 
-    public class TimeConstants : Object
+    public class TimeConstants
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE86BC1B20
+        public void .cctor(){} // RVA: 0x7FFAF8B30D50
     }
 
 }

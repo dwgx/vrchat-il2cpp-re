@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Other.OVR.OpenVR
 {
-    public class Texture_t : ValueType
+    public class Texture_t
     {
     }
 
-    public class TrackedDevicePose_t : ValueType
+    public class TrackedDevicePose_t
     {
     }
 

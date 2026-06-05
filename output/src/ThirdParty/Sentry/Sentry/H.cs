@@ -5,62 +5,59 @@
 
 namespace ThirdParty.Sentry.Sentry
 {
-    public class HasExtraExtensions : Object
+    public class HasExtraExtensions
     {
         // ── Methods ──
-        public void SetExtras(){} // RVA: 0x7FFE86DEAC90
+        public void SetExtras(){} // RVA: 0x7FFAF8D5A260
     }
 
-    public class HasTagsExtensions : Object
+    public class HasTagsExtensions
     {
         // ── Methods ──
-        public void SetTags(){} // RVA: 0x7FFE86DEB030
+        public void SetTags(){} // RVA: 0x7FFAF8D5A600
     }
 
-    public class HintTypes : Object
+    public class HintTypes
     {
     }
 
-    public class HttpHeadersExtensions : Object
-    {
-        // ── Methods ──
-        public void GetCookies(){} // RVA: 0x7FFE86DE8570
-    }
-
-    public class HttpStatusCodeRange : ValueType
-    {
-        public int _start; // 0x10
-        public int _end; // 0x14
-
-        // ── Methods ──
-        public void get_Start(){} // RVA: 0x7FFE826F4220
-        public void set_Start(){} // RVA: 0x7FFE815BF990
-        public void get_End(){} // RVA: 0x7FFE826F42A0
-        public void set_End(){} // RVA: 0x7FFE826F4290
-        public void .ctor(){} // RVA: 0x7FFE86DE8630 | overloaded x2
-        public void op_Implicit(){} // RVA: 0x7FFE86DE86C0 | overloaded x4
-        public void Contains(){} // RVA: 0x7FFE86DE8760 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFE86DE8770
-        public void PrintMembers(){} // RVA: 0x7FFE86DE88A0
-        public void op_Inequality(){} // RVA: 0x7FFE86DE8A50
-        public void op_Equality(){} // RVA: 0x7FFE86DE8A70
-        public void GetHashCode(){} // RVA: 0x7FFE86DE8A90
-        public void Equals(){} // RVA: 0x7FFE86DE8BC0 | overloaded x2
-    }
-
-    public class HubExtensions : Object
+    public class HttpHeadersExtensions
     {
         // ── Methods ──
-        public void StartTransaction(){} // RVA: 0x7FFE86DE9DD0 | overloaded x5
-        public void AddBreadcrumb(){} // RVA: 0x7FFE86DE94C0 | overloaded x3
-        public void PushAndLockScope(){} // RVA: 0x7FFE86DE9670
-        public void LockScope(){} // RVA: 0x7FFE86DE96D0
-        public void UnlockScope(){} // RVA: 0x7FFE86DE9840
-        public void CaptureExceptionInternal(){} // RVA: 0x7FFE86DE99B0
-        public void CaptureException(){} // RVA: 0x7FFE86DE9B20
-        public void CaptureMessage(){} // RVA: 0x7FFE86DE9C20
-        public void GetTransaction(){} // RVA: 0x7FFE86DE9F80
-        public void GetTransactionIfSampled(){} // RVA: 0x7FFE86DEA0A0
+        public void GetCookies(){} // RVA: 0x7FFAF8D57B40
+    }
+
+    public class HttpStatusCodeRange
+    {
+        // ── Methods ──
+        public void get_Start(){} // RVA: 0x7FFAF44189B0
+        public void set_Start(){} // RVA: 0x7FFAF32E3580
+        public void get_End(){} // RVA: 0x7FFAF44189E0
+        public void set_End(){} // RVA: 0x7FFAF44189D0
+        public void .ctor(){} // RVA: 0x7FFAF8D57C00 | overloaded x2
+        public void op_Implicit(){} // RVA: 0x7FFAF8D57C90 | overloaded x4
+        public void Contains(){} // RVA: 0x7FFAF8D57D30 | overloaded x2
+        public void ToString(){} // RVA: 0x7FFAF8D57D40
+        public void PrintMembers(){} // RVA: 0x7FFAF8D57E70
+        public void op_Inequality(){} // RVA: 0x7FFAF8D58020
+        public void op_Equality(){} // RVA: 0x7FFAF8D58040
+        public void GetHashCode(){} // RVA: 0x7FFAF8D58060
+        public void Equals(){} // RVA: 0x7FFAF8D58190 | overloaded x2
+    }
+
+    public class HubExtensions
+    {
+        // ── Methods ──
+        public void StartTransaction(){} // RVA: 0x7FFAF8D593A0 | overloaded x5
+        public void AddBreadcrumb(){} // RVA: 0x7FFAF8D58A90 | overloaded x3
+        public void PushAndLockScope(){} // RVA: 0x7FFAF8D58C40
+        public void LockScope(){} // RVA: 0x7FFAF8D58CA0
+        public void UnlockScope(){} // RVA: 0x7FFAF8D58E10
+        public void CaptureExceptionInternal(){} // RVA: 0x7FFAF8D58F80
+        public void CaptureException(){} // RVA: 0x7FFAF8D590F0
+        public void CaptureMessage(){} // RVA: 0x7FFAF8D591F0
+        public void GetTransaction(){} // RVA: 0x7FFAF8D59550
+        public void GetTransactionIfSampled(){} // RVA: 0x7FFAF8D59670
     }
 
 }

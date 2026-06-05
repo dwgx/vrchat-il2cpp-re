@@ -1,0 +1,109 @@
+[
+  {
+    "namespace": "VRC.Audio.Voice",
+    "class": "VoicePriorityManager",
+    "parent": "",
+    "known_methods": [
+      "GetExternFunctionParameterCount",
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_5C4",
+      "m_7CB",
+      "m_4F4",
+      "m_861",
+      "m_A1D",
+      "m_ADD",
+      "m_1C3",
+      "m_372",
+      "m_4F1",
+      "m_95F",
+      "m_F01",
+      "m_F04",
+      "m_96E",
+      "m_0F8",
+      "m_DB0",
+      "m_35B",
+      "m_61B",
+      "m_895"
+    ],
+    "all_method_count": 24
+  },
+  {
+    "namespace": "VRC.UI.Client.Emoji",
+    "class": "EmojiData",
+    "parent": "",
+    "known_methods": [
+      "get_OwnerID",
+      "get_FPS",
+      "set_LoopStyle",
+      "get_LoadFrom",
+      "set_Sprite",
+      "set_EffectBundleID",
+      "set_LoadFrom",
+      "get_EffectBundleID",
+      "get_FullResolutionTexture",
+      "set_OwnerCanUseAnimatedEmoji",
+      "set_IsAnimated",
+      "get_IsAnimated",
+      "set_Frames",
+      "get_Frames",
+      "get_Sprite",
+      "get_OwnerCanUseAnimatedEmoji",
+      "set_IsPremium",
+      "get_IsPremium",
+      "get_ID",
+      "get_MaskTag",
+      "get_AnimationStyle",
+      "get_IsSpecialFX",
+      "set_FullResolutionTexture",
+      "set_DisplayTexture",
+      "get_IsBuiltIn",
+      "get_DisplayTexture",
+      "get_LoopStyle",
+      "set_IsBuiltIn",
+      "set_AnimationStyle",
+      "set_SpawnablePrefabName",
+      "set_FileId",
+      "set_ID",
+      "get_SpawnablePrefabName",
+      "get_FileId"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_34D"
+    ],
+    "all_method_count": 36
+  },
+  {
+    "namespace": "VRC.DataModel",
+    "class": "SearchParameters",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize",
+      "set_DefaultIncludeCommunityLabs",
+      "set_SearchTypeDescription",
+      "set_IsWorldsSearch",
+      "get_DefaultIncludeCommunityLabs",
+      "get_SearchTypeDescription",
+      "get_IsWorldsSearch"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_211",
+      "m_E4B",
+      "m_461",
+      "m_3AB",
+      "m_2CD",
+      "m_E60",
+      "m_A14",
+      "m_F60",
+      "m_6FF",
+      "m_FE6"
+    ],
+    "all_method_count": 18
+  }
+]

@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Sentry.Sentry
 {
-    public class AttributeReader : Object
+    public class AttributeReader
     {
         // ── Methods ──
-        public void TryGetProjectDirectory(){} // RVA: 0x7FFE86DDB390
+        public void TryGetProjectDirectory(){} // RVA: 0x7FFAF8D4A960
     }
 
 }

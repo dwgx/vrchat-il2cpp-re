@@ -5,66 +5,66 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class GroupByAwaitWithCancellation`3 : Object
+    public class GroupByAwaitWithCancellation`3
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E50FC0
+        public void .ctor(){} // RVA: 0x7FFAF2ADF9F0
         public void GetAsyncEnumerator(){}
     }
 
-    public class GroupByAwaitWithCancellation`4 : Object
+    public class GroupByAwaitWithCancellation`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E51270
+        public void .ctor(){} // RVA: 0x7FFAF2ADFCA0
         public void GetAsyncEnumerator(){}
     }
 
-    public class GroupByAwait`3 : Object
+    public class GroupByAwait`3
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E50FC0
+        public void .ctor(){} // RVA: 0x7FFAF2ADF9F0
         public void GetAsyncEnumerator(){}
     }
 
-    public class GroupByAwait`4 : Object
+    public class GroupByAwait`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E51270
+        public void .ctor(){} // RVA: 0x7FFAF2ADFCA0
         public void GetAsyncEnumerator(){}
     }
 
-    public class GroupBy`3 : Object
+    public class GroupBy`3
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E50FC0
+        public void .ctor(){} // RVA: 0x7FFAF2ADF9F0
         public void GetAsyncEnumerator(){}
     }
 
-    public class GroupBy`4 : Object
+    public class GroupBy`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E51270
+        public void .ctor(){} // RVA: 0x7FFAF2ADFCA0
         public void GetAsyncEnumerator(){}
     }
 
-    public class GroupJoinAwaitWithCancellation`4 : Object
+    public class GroupJoinAwaitWithCancellation`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E513E0
+        public void .ctor(){} // RVA: 0x7FFAF2ADFE10
         public void GetAsyncEnumerator(){}
     }
 
-    public class GroupJoinAwait`4 : Object
+    public class GroupJoinAwait`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E513E0
+        public void .ctor(){} // RVA: 0x7FFAF2ADFE10
         public void GetAsyncEnumerator(){}
     }
 
-    public class GroupJoin`4 : Object
+    public class GroupJoin`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E513E0
+        public void .ctor(){} // RVA: 0x7FFAF2ADFE10
         public void GetAsyncEnumerator(){}
     }
 

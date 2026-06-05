@@ -1,0 +1,159 @@
+[
+  {
+    "class": "PlayerControllerColliderHit_14B8",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Reset",
+      "OnControllerColliderHit",
+      ".ctor"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FB4",
+      "m_6CA",
+      "m_156",
+      "m_8FF",
+      "m_2F6",
+      "m_42B",
+      "m_51A",
+      "m_115",
+      "m_FA7",
+      "m_B46",
+      "m_E04",
+      "m_6F6"
+    ],
+    "remaining_hash_methods": 48,
+    "total_methods": 54,
+    "signal_score": 130
+  },
+  {
+    "class": "ConditionElementUIComponent_3620",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F15",
+      "m_746",
+      "m_455",
+      "m_B0C",
+      "m_B0A",
+      "m_A66",
+      "m_7BE",
+      "m_C11",
+      "m_98F",
+      "m_921",
+      "m_D8B",
+      "m_912"
+    ],
+    "remaining_hash_methods": 13,
+    "total_methods": 32,
+    "signal_score": 128
+  },
+  {
+    "class": "WorldProximityExitStation_C9A0",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "UseStation",
+      "ExitStation",
+      "set_Proximity",
+      "get_Proximity"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_88D",
+      "m_695",
+      "m_94E",
+      "m_F85",
+      "m_1B8",
+      "m_961",
+      "m_1F3",
+      "m_56D",
+      "m_EEC",
+      "m_01F",
+      "m_780",
+      "m_150"
+    ],
+    "remaining_hash_methods": 42,
+    "total_methods": 56,
+    "signal_score": 128
+  },
+  {
+    "class": "FocusBehaviour_72CC",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnApplicationFocus",
+      "OnApplicationPause",
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D19",
+      "m_397",
+      "m_836",
+      "m_E19",
+      "m_3CB",
+      "m_146",
+      "m_5EF"
+    ],
+    "remaining_hash_methods": 7,
+    "total_methods": 28,
+    "signal_score": 126
+  },
+  {
+    "class": "AvatarPlayerAnimatorComponent_D5F6",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_21E",
+      "m_81C",
+      "m_323",
+      "m_6C7",
+      "m_745",
+      "m_C8B",
+      "m_9CA",
+      "m_279",
+      "m_5B0",
+      "m_71D",
+      "m_51D"
+    ],
+    "remaining_hash_methods": 11,
+    "total_methods": 31,
+    "signal_score": 125
+  }
+]

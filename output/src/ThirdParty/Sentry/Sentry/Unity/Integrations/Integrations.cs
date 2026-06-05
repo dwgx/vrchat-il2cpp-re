@@ -5,113 +5,104 @@
 
 namespace ThirdParty.Sentry.Sentry.Unity.Integrations
 {
-    public class ApplicationAdapter : Object
+    public class ApplicationAdapter
     {
-        public Sentry.Unity.Integrations.ApplicationAdapter Instance;
-        public LogCallback LogMessageReceived; // 0x10
-        public System.Action Quitting; // 0x18
-        public object LogMessageReceived; // 0xC
-        public System.Action LogMessageReceived; // 0xEB50
-        public object field_5; // 0xFB50
-        public object field_6; // 0xFB50
-        public object field_7; // 0xFB50
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EC9010
-        public void add_LogMessageReceived(){} // RVA: 0x7FFE86EC9260
-        public void remove_LogMessageReceived(){} // RVA: 0x7FFE86EC9350
-        public void add_Quitting(){} // RVA: 0x7FFE86EC9440
-        public void remove_Quitting(){} // RVA: 0x7FFE86EC9530
-        public void get_ActiveSceneName(){} // RVA: 0x7FFE86EC9620
-        public void get_IsEditor(){} // RVA: 0x7FFE86EC96B0
-        public void get_ProductName(){} // RVA: 0x7FFE86EC9700
-        public void get_Version(){} // RVA: 0x7FFE86EC9780
-        public void get_BuildGUID(){} // RVA: 0x7FFE86EC9800
-        public void get_UnityVersion(){} // RVA: 0x7FFE86EC9880
-        public void get_PersistentDataPath(){} // RVA: 0x7FFE86EC9900
-        public void get_Platform(){} // RVA: 0x7FFE86EC9980
-        public void OnLogMessageReceived(){} // RVA: 0x7FFE86EC9A00
-        public void OnQuitting(){} // RVA: 0x7FFE8148FF70
-        public void .cctor(){} // RVA: 0x7FFE86EC9A20
+        public void .ctor(){} // RVA: 0x7FFAF8E385F0
+        public void add_LogMessageReceived(){} // RVA: 0x7FFAF8E38840
+        public void remove_LogMessageReceived(){} // RVA: 0x7FFAF8E38930
+        public void add_Quitting(){} // RVA: 0x7FFAF8E38A20
+        public void remove_Quitting(){} // RVA: 0x7FFAF8E38B10
+        public void get_ActiveSceneName(){} // RVA: 0x7FFAF8E38C00
+        public void get_IsEditor(){} // RVA: 0x7FFAF8E38C90
+        public void get_ProductName(){} // RVA: 0x7FFAF8E38CE0
+        public void get_Version(){} // RVA: 0x7FFAF8E38D60
+        public void get_BuildGUID(){} // RVA: 0x7FFAF8E38DE0
+        public void get_UnityVersion(){} // RVA: 0x7FFAF8E38E60
+        public void get_PersistentDataPath(){} // RVA: 0x7FFAF8E38EE0
+        public void get_Platform(){} // RVA: 0x7FFAF8E38F60
+        public void OnLogMessageReceived(){} // RVA: 0x7FFAF8E38FE0
+        public void OnQuitting(){} // RVA: 0x7FFAF313B350
+        public void .cctor(){} // RVA: 0x7FFAF8E39000
     }
 
-    public class ApplicationNotRespondingException : Exception
+    public class ApplicationNotRespondingException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EC8FA0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF8E38580 | overloaded x3
     }
 
     public class IApplication
     {
         // ── Methods ──
-        public void add_LogMessageReceived(){} // RVA: 0x7FFE80E460A0
-        public void remove_LogMessageReceived(){} // RVA: 0x7FFE80E460A0
-        public void add_Quitting(){} // RVA: 0x7FFE80E460A0
-        public void remove_Quitting(){} // RVA: 0x7FFE80E460A0
-        public void get_ActiveSceneName(){} // RVA: 0x7FFE80E2E2E0
-        public void get_IsEditor(){} // RVA: 0x7FFE80E2F150
-        public void get_ProductName(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Version(){} // RVA: 0x7FFE80E2E2E0
-        public void get_BuildGUID(){} // RVA: 0x7FFE80E2E2E0
-        public void get_UnityVersion(){} // RVA: 0x7FFE80E2E2E0
-        public void get_PersistentDataPath(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Platform(){} // RVA: 0x7FFE80E2EDB0
+        public void add_LogMessageReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_LogMessageReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void add_Quitting(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_Quitting(){} // RVA: 0x7FFAF2AD4B10
+        public void get_ActiveSceneName(){} // RVA: 0x7FFAF2ABCD60
+        public void get_IsEditor(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_ProductName(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Version(){} // RVA: 0x7FFAF2ABCD60
+        public void get_BuildGUID(){} // RVA: 0x7FFAF2ABCD60
+        public void get_UnityVersion(){} // RVA: 0x7FFAF2ABCD60
+        public void get_PersistentDataPath(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Platform(){} // RVA: 0x7FFAF2ABD840
     }
 
-    public class SceneManagerIntegration : Object
+    public class SceneManagerIntegration
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x2
-        public void Register(){} // RVA: 0x7FFE86EC9B80
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
+        public void Register(){} // RVA: 0x7FFAF8E39160
     }
 
-    public class SessionIntegration : Object
+    public class SessionIntegration : `
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Register(){} // RVA: 0x7FFE86ECA540
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Register(){} // RVA: 0x7FFAF8E39B20
     }
 
-    public class UnityBadGatewayExceptionFilter : Object
+    public class UnityBadGatewayExceptionFilter
     {
         // ── Methods ──
-        public void Filter(){} // RVA: 0x7FFE86ECA8B0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Filter(){} // RVA: 0x7FFAF8E39E90
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UnityBeforeSceneLoadIntegration : Object
+    public class UnityBeforeSceneLoadIntegration : `
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86ECA9E0
-        public void Register(){} // RVA: 0x7FFE86ECAAB0
+        public void .ctor(){} // RVA: 0x7FFAF8E39FC0
+        public void Register(){} // RVA: 0x7FFAF8E3A090
     }
 
-    public class UnityLogHandlerIntegration : Object
+    public class UnityLogHandlerIntegration
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86ECAC20
-        public void Register(){} // RVA: 0x7FFE86ECAEA0
-        public void LogException(){} // RVA: 0x7FFE86ECB190
-        public void CaptureException(){} // RVA: 0x7FFE86ECB2C0
-        public void LogFormat(){} // RVA: 0x7FFE86ECB6B0
-        public void CaptureLogFormat(){} // RVA: 0x7FFE86ECB850
-        public void OnQuitting(){} // RVA: 0x7FFE86ECBC00
-        public void ToEventTagType(){} // RVA: 0x7FFE86ECBE00
-        public void ToBreadcrumbLevel(){} // RVA: 0x7FFE86ECBE30
+        public void .ctor(){} // RVA: 0x7FFAF8E3A200
+        public void Register(){} // RVA: 0x7FFAF8E3A480
+        public void LogException(){} // RVA: 0x7FFAF8E3A770
+        public void CaptureException(){} // RVA: 0x7FFAF8E3A8A0
+        public void LogFormat(){} // RVA: 0x7FFAF8E3AC90
+        public void CaptureLogFormat(){} // RVA: 0x7FFAF8E3AE30
+        public void OnQuitting(){} // RVA: 0x7FFAF8E3B1E0
+        public void ToEventTagType(){} // RVA: 0x7FFAF8E3B3E0
+        public void ToBreadcrumbLevel(){} // RVA: 0x7FFAF8E3B410
     }
 
-    public class UnitySocketExceptionFilter : Object
+    public class UnitySocketExceptionFilter
     {
         // ── Methods ──
-        public void Filter(){} // RVA: 0x7FFE86ECBE60
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Filter(){} // RVA: 0x7FFAF8E3B440
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UnityWebExceptionFilter : Object
+    public class UnityWebExceptionFilter
     {
         // ── Methods ──
-        public void Filter(){} // RVA: 0x7FFE86ECBFC0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Filter(){} // RVA: 0x7FFAF8E3B5A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

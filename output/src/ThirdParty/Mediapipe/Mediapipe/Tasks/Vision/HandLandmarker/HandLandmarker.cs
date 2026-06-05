@@ -5,50 +5,42 @@
 
 namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker
 {
-    public class HandLandmarker : BaseVisionTaskApi
+    public class HandLandmarker
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE866A1DD0
-        public void CreateFromOptions(){} // RVA: 0x7FFE866A1F00
-        public void TryDetect(){} // RVA: 0x7FFE866A29B0
-        public void DetectInternal(){} // RVA: 0x7FFE866A2BD0
-        public void TryDetectForVideo(){} // RVA: 0x7FFE866A2D30
-        public void DetectForVideoInternal(){} // RVA: 0x7FFE866A2F60
-        public void DetectAsync(){} // RVA: 0x7FFE866A30E0
-        public void BuildPacketsCallback(){} // RVA: 0x7FFE866A3260
-        public void TryBuildHandLandmarkerResult(){} // RVA: 0x7FFE866A3410
+        public void .ctor(){} // RVA: 0x7FFAF8610FA0
+        public void CreateFromOptions(){} // RVA: 0x7FFAF86110D0
+        public void TryDetect(){} // RVA: 0x7FFAF8611B80
+        public void DetectInternal(){} // RVA: 0x7FFAF8611DA0
+        public void TryDetectForVideo(){} // RVA: 0x7FFAF8611F00
+        public void DetectForVideoInternal(){} // RVA: 0x7FFAF8612130
+        public void DetectAsync(){} // RVA: 0x7FFAF86122B0
+        public void BuildPacketsCallback(){} // RVA: 0x7FFAF8612430
+        public void TryBuildHandLandmarkerResult(){} // RVA: 0x7FFAF86125E0
     }
 
-    public class HandLandmarkerOptions : Object
+    public class HandLandmarkerOptions
     {
-        public Mediapipe.Tasks.Core.BaseOptions _baseOptions; // 0x10
-        public 0x6660F784 _runningMode; // 0x18
-        public int _numHands; // 0x1C
-        public float _minHandDetectionConfidence; // 0x20
-        public float _minHandPresenceConfidence; // 0x24
-        public float _minTrackingConfidence; // 0x28
-        public ResultCallback _resultCallback; // 0x30
-
         // ── Methods ──
-        public void get_baseOptions(){} // RVA: 0x7FFE81116380
-        public void get_runningMode(){} // RVA: 0x7FFE813DB630
-        public void get_numHands(){} // RVA: 0x7FFE82707EE0
-        public void get_minHandDetectionConfidence(){} // RVA: 0x7FFE81124080
-        public void get_minHandPresenceConfidence(){} // RVA: 0x7FFE81268F50
-        public void get_minTrackingConfidence(){} // RVA: 0x7FFE811DA210
-        public void get_resultCallback(){} // RVA: 0x7FFE8144E200
-        public void .ctor(){} // RVA: 0x7FFE866A3A30
-        public void ToProto(){} // RVA: 0x7FFE866A3B30
-        public void Mediapipe.Tasks.Core.ITaskOptions.ToCalculatorOptions(){} // RVA: 0x7FFE866A3D50
+        public void get_baseOptions(){} // RVA: 0x7FFAF2DA8380
+        public void get_runningMode(){} // RVA: 0x7FFAF306ED50
+        public void get_numHands(){} // RVA: 0x7FFAF442C3B0
+        public void get_minHandDetectionConfidence(){} // RVA: 0x7FFAF2DB6080
+        public void get_minHandPresenceConfidence(){} // RVA: 0x7FFAF2EFAF50
+        public void get_minTrackingConfidence(){} // RVA: 0x7FFAF2E6C210
+        public void get_resultCallback(){} // RVA: 0x7FFAF30E74D0
+        public void .ctor(){} // RVA: 0x7FFAF8612C00
+        public void ToProto(){} // RVA: 0x7FFAF8612D00
+        public void Mediapipe.Tasks.Core.ITaskOptions.ToCalculatorOptions(){} // RVA: 0x7FFAF8612F20
     }
 
-    public class HandLandmarkerResult : ValueType
+    public class HandLandmarkerResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE82760A10
-        public void Alloc(){} // RVA: 0x7FFE866A3E40
-        public void CloneTo(){} // RVA: 0x7FFE866A3F80
-        public void ToString(){} // RVA: 0x7FFE866A4330
+        public void .ctor(){} // RVA: 0x7FFAF4488110
+        public void Alloc(){} // RVA: 0x7FFAF8613010
+        public void CloneTo(){} // RVA: 0x7FFAF8613150
+        public void ToString(){} // RVA: 0x7FFAF8613500
     }
 
 }

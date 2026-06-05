@@ -5,69 +5,69 @@
 
 namespace ThirdParty.DOTween.DG.Tweening.Plugins.Core.PathCore
 {
-    public class ABSPathDecoder : Object
+    public class ABSPathDecoder
     {
         // ── Methods ──
         public void FinalizePath(){}
         public void GetPoint(){}
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class CatmullRomDecoder : ABSPathDecoder
+    public class CatmullRomDecoder
     {
         // ── Methods ──
-        public void FinalizePath(){} // RVA: 0x7FFE82C2B600
-        public void GetPoint(){} // RVA: 0x7FFE82C2B9A0
-        public void SetTimeToLengthTables(){} // RVA: 0x7FFE82C2BE20
-        public void SetWaypointsLengths(){} // RVA: 0x7FFE82C2C1C0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE82C2C6D0
+        public void FinalizePath(){} // RVA: 0x7FFAF4951EA0
+        public void GetPoint(){} // RVA: 0x7FFAF4952240
+        public void SetTimeToLengthTables(){} // RVA: 0x7FFAF49526C0
+        public void SetWaypointsLengths(){} // RVA: 0x7FFAF4952A60
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF4952F70
     }
 
-    public class ControlPoint : ValueType
+    public class ControlPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81104DF0
-        public void op_Addition(){} // RVA: 0x7FFE82C2B460
-        public void ToString(){} // RVA: 0x7FFE82C2B4F0
+        public void .ctor(){} // RVA: 0x7FFAF2D96DF0
+        public void op_Addition(){} // RVA: 0x7FFAF4951D00
+        public void ToString(){} // RVA: 0x7FFAF4951D90
     }
 
-    public class CubicBezierDecoder : ABSPathDecoder
+    public class CubicBezierDecoder
     {
         // ── Methods ──
-        public void FinalizePath(){} // RVA: 0x7FFE82C2A270
-        public void GetPoint(){} // RVA: 0x7FFE82C2A8D0
-        public void SetTimeToLengthTables(){} // RVA: 0x7FFE82C2AB50
-        public void SetWaypointsLengths(){} // RVA: 0x7FFE82C2AEF0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE82C2B310
+        public void FinalizePath(){} // RVA: 0x7FFAF4950B10
+        public void GetPoint(){} // RVA: 0x7FFAF4951170
+        public void SetTimeToLengthTables(){} // RVA: 0x7FFAF49513F0
+        public void SetWaypointsLengths(){} // RVA: 0x7FFAF4951790
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF4951BB0
     }
 
-    public class LinearDecoder : ABSPathDecoder
+    public class LinearDecoder
     {
         // ── Methods ──
-        public void FinalizePath(){} // RVA: 0x7FFE82C2C820
-        public void GetPoint(){} // RVA: 0x7FFE82C2C8B0
-        public void SetTimeToLengthTables(){} // RVA: 0x7FFE82C2CA90
-        public void SetWaypointsLengths(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void FinalizePath(){} // RVA: 0x7FFAF49530C0
+        public void GetPoint(){} // RVA: 0x7FFAF4953150
+        public void SetTimeToLengthTables(){} // RVA: 0x7FFAF4953330
+        public void SetWaypointsLengths(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Path : Object
+    public class Path
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE82C2D080 | overloaded x2
-        public void FinalizePath(){} // RVA: 0x7FFE82C2D0A0
-        public void GetPoint(){} // RVA: 0x7FFE82C2D1E0
-        public void ConvertToConstantPathPerc(){} // RVA: 0x7FFE82C2D270
-        public void GetWaypointIndexFromPerc(){} // RVA: 0x7FFE82C2D3B0
-        public void GetDrawPoints(){} // RVA: 0x7FFE82C2D450
-        public void RefreshNonLinearDrawWps(){} // RVA: 0x7FFE82C2D580
-        public void Destroy(){} // RVA: 0x7FFE82C2D6F0
-        public void CloneIncremental(){} // RVA: 0x7FFE82C2D9C0
-        public void AssignWaypoints(){} // RVA: 0x7FFE82C2E340
-        public void AssignDecoder(){} // RVA: 0x7FFE82C2E4D0
-        public void Draw(){} // RVA: 0x7FFE82C2E7E0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF4953920 | overloaded x2
+        public void FinalizePath(){} // RVA: 0x7FFAF4953940
+        public void GetPoint(){} // RVA: 0x7FFAF4953A80
+        public void ConvertToConstantPathPerc(){} // RVA: 0x7FFAF4953B10
+        public void GetWaypointIndexFromPerc(){} // RVA: 0x7FFAF4953C50
+        public void GetDrawPoints(){} // RVA: 0x7FFAF4953CF0
+        public void RefreshNonLinearDrawWps(){} // RVA: 0x7FFAF4953E20
+        public void Destroy(){} // RVA: 0x7FFAF4953F90
+        public void CloneIncremental(){} // RVA: 0x7FFAF4954260
+        public void AssignWaypoints(){} // RVA: 0x7FFAF4954BE0
+        public void AssignDecoder(){} // RVA: 0x7FFAF4954D70
+        public void Draw(){} // RVA: 0x7FFAF4955080 | overloaded x2
     }
 
 }

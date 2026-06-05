@@ -5,12 +5,12 @@
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class KnownHttpVerb : Object
+    public class KnownHttpVerb
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8765F620
-        public void .cctor(){} // RVA: 0x7FFE8765F690
-        public void Parse(){} // RVA: 0x7FFE8765FE60
+        public void .ctor(){} // RVA: 0x7FFAF95D0360
+        public void .cctor(){} // RVA: 0x7FFAF95D03D0
+        public void Parse(){} // RVA: 0x7FFAF95D0BA0
     }
 
 }

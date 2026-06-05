@@ -1,0 +1,359 @@
+[
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_A4FB",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start_2CDC00B14C42",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable",
+      "Start_2CDC00B14C42"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D5D",
+      "m_D57",
+      "m_189",
+      "m_DBD",
+      "m_C3E",
+      "m_7D1"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_A4FB",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start_2CDC00B14C42",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable",
+      "Start_2CDC00B14C42"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D5D",
+      "m_D57",
+      "m_189",
+      "m_DBD",
+      "m_C3E",
+      "m_7D1"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_A4FB",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start_2CDC00B14C42",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable",
+      "Start_2CDC00B14C42"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D5D",
+      "m_D57",
+      "m_189",
+      "m_DBD",
+      "m_C3E",
+      "m_7D1"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSiblingSibling_6CB1",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_021",
+      "m_FDC",
+      "m_692",
+      "m_C9E",
+      "m_4C7",
+      "m_DCC",
+      "m_C8C",
+      "m_3CB",
+      "m_499"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_9CA6",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AF9",
+      "m_595",
+      "m_5B1",
+      "m_FD3",
+      "m_3B3",
+      "m_B1A",
+      "m_A66",
+      "m_E01"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_896E",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy_5BA8B09FF060"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_515",
+      "m_AFD",
+      "m_50A",
+      "m_CCC",
+      "m_7A7",
+      "m_10B",
+      "m_09E",
+      "m_3D3"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_0241",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_14E",
+      "m_E5F",
+      "m_64C",
+      "m_EB0",
+      "m_CA8",
+      "m_1EB",
+      "m_6C9"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_DFF7",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D57",
+      "m_D5D",
+      "m_C3E",
+      "m_8B3",
+      "m_E24",
+      "m_E5C",
+      "m_794"
+    ]
+  },
+  {
+    "class": "LoadingInfoSet",
+    "parent": "",
+    "readable_methods": [
+      "CreateInstance",
+      "Awake_70F82936F1F6",
+      "OnDestroy",
+      "CreateScriptableObjectInstanceFromType",
+      "ComputeMaterial",
+      "OnDisable_impl",
+      "Initialize",
+      "CreateLoadingContext",
+      "ConfiguremainTexture",
+      "GetOrProcessLoadingInfo",
+      "VRCSetAvatarMainIK"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_373",
+      "m_E9E",
+      "m_227",
+      "m_BAA"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSibling_86E5",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Initialize_D74F9E3B7B27",
+      "set_Value",
+      "set_Value_F501E422C7A0",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2A0",
+      "m_E99",
+      "m_61B",
+      "m_95E",
+      "m_FD5",
+      "m_D74",
+      "m_5BA",
+      "m_179",
+      "m_A10"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibSibling_9783",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "OnEnable_2B4F45D701AE",
+      ".ctor_F5D8351B397B",
+      "Initialize",
+      "OnDisable_3E885B73235C"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_061",
+      "m_702",
+      "m_515",
+      "m_F23",
+      "m_F46",
+      "m_21E",
+      "m_A3F",
+      "m_86D",
+      "m_9C4"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_5358",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CA7",
+      "m_A01",
+      "m_338",
+      "m_A74",
+      "m_865",
+      "m_04C",
+      "m_DAA",
+      "m_8B7"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_7CE0",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E84",
+      "m_2CD",
+      "m_067",
+      "m_23A",
+      "m_C97",
+      "m_B3B"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSRelated_AFAF",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AB3",
+      "m_0F2",
+      "m_887",
+      "m_D5E",
+      "m_7B1"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSiblinRelated_477C",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Awake",
+      "OnEnable",
+      "Start",
+      "FixedUpdate",
+      "LateUpdate",
+      "OnDisable",
+      "OnDestroy",
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AA9",
+      "m_F84",
+      "m_8C4",
+      "m_6DA",
+      "m_79B"
+    ]
+  }
+]

@@ -5,12 +5,12 @@
 
 namespace ThirdParty.Other.Stores.Util
 {
-    public class JsonProductDescriptionsDeserializer : Object
+    public class JsonProductDescriptionsDeserializer
     {
         // ── Methods ──
-        public void DeserializeProductDescriptions(){} // RVA: 0x7FFE87D5DB30
-        public void DeserializeMetadata(){} // RVA: 0x7FFE87D5E030
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void DeserializeProductDescriptions(){} // RVA: 0x7FFAF9CCD990
+        public void DeserializeMetadata(){} // RVA: 0x7FFAF9CCDE90
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

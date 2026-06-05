@@ -1,0 +1,159 @@
+[
+  {
+    "class": "OculusSpatializerUnity",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationQuit",
+      "StartCoroutine_Auto",
+      "FromFlippedZVector3f"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_91A"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_9113",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2AD"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_9587",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4E7"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_9587",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4E7"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_C427",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_16A"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_F024",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4B0"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_FC29",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BFC"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_3022",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C92"
+    ]
+  },
+  {
+    "class": "MicrophoneManager",
+    "parent": "",
+    "namespace": "VRC.Audio.Voice",
+    "readable_methods": [
+      "GetPosition"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C20",
+      "m_EF5",
+      "m_7D0",
+      "m_A33",
+      "m_8EA",
+      "m_23F",
+      "m_BAA",
+      "m_581",
+      "m_81D",
+      "m_1C9",
+      "m_91E",
+      "m_8FB"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_FEE3",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3DD",
+      "m_C8B",
+      "m_78B",
+      "m_AF8",
+      "m_1D9",
+      "m_137",
+      "m_0B2",
+      "m_DFB",
+      "m_C31",
+      "m_E79",
+      "m_2F0"
+    ]
+  }
+]

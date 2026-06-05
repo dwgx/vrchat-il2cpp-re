@@ -5,37 +5,41 @@
 
 namespace VRC.DataModel.Challenges
 {
-    public class ChallengeCompleteEvent : ChallengeEvent
+    public class ChallengeCompleteEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ChallengeEvent : Object
+    public class ChallengeEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ChallengeUpdateEvent : ChallengeEvent
+    public class ChallengeUpdateEvent
     {
-        public string f_1BA; // 0x10
-        public string f_9A5; // 0x18
-        public ÏÍÍÏÍÎÎÏÍÏÍÎÎÎÎÎÎÎÌÎÎÏÏ f_FD0; // 0x20
-        public 0x6656DF34 f_05E; // 0x28
-        public ÍÏÎÌÌÏÍÍÍÎÍÍÌÍÎÍÎÏÏÎÍÎÎ f_AEE; // 0x30
-        public string f_193; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Initialize(){} // RVA: 0x7FFE810FCE30
-        // ── 17 unresolved (hash) ──
-        public void m_DE0(){} // RVA: 0x7FFE811290C0
-        public void m_AED(){} // RVA: 0x7FFE817E4800
-        public void m_59F(){} // RVA: 0x7FFE811290D0
-        public void m_249(){} // RVA: 0x7FFE81116380
-        public void m_601(){} // RVA: 0x7FFE8144E200
-        // ... 12 more unresolved methods
+        public void GetPlatform(){} // RVA: 0x7FFAF2DBB0D0
+        public void GetSessionId(){} // RVA: 0x7FFAF3241DC0
+        public void GetTitle(){} // RVA: 0x7FFAF30E74D0
+        public void GetGameObject(){} // RVA: 0x7FFAF3503440
+        public void .ctor_9C2371B5833C(){} // RVA: 0x7FFAF2DBB0C0
+        public void SetCurrentSocket(){} // RVA: 0x7FFAF2F4B830
+        public void GetTextureTransparency(){} // RVA: 0x7FFAF2DBB0C0
+        public void AddUnitNode(){} // RVA: 0x7FFAF3241DC0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAF2DBB890
+        public void GetExceptionThrowImageBase(){} // RVA: 0x7FFAF2F476A0
+        public void set_element(){} // RVA: 0x7FFAF2DBB0C0
+        public void Initialize_60B417C4B11F(){} // RVA: 0x7FFAF2D907C0
+        public void ReadTransformState(){} // RVA: 0x7FFAF2DBB0D0
+        public void SetMessage(){} // RVA: 0x7FFAF2D8EE30
+        public void GetProgress(){} // RVA: 0x7FFAF2DBB890
+        public void Init(){} // RVA: 0x7FFAF2DF3E80
+        public void SendNetworkEvent(){} // RVA: 0x7FFAF2D907C0
+        // ── Unresolved (hash) ──
+        public void m_85A(){} // RVA: 0x7FFAF2DA8380
     }
 
 }

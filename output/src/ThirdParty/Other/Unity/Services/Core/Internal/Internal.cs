@@ -5,213 +5,201 @@
 
 namespace ThirdParty.Other.Unity.Services.Core.Internal
 {
-    public class AsyncOperationBase : CustomYieldInstruction
+    public class AsyncOperationBase
     {
         // ── Methods ──
-        public void get_keepWaiting(){} // RVA: 0x7FFE87A99BD0
-        public void get_IsCompleted(){} // RVA: 0x7FFE80E2F150
+        public void get_keepWaiting(){} // RVA: 0x7FFAF9A08D40
+        public void get_IsCompleted(){} // RVA: 0x7FFAF2ABDBE0
     }
 
-    public class CircularDependencyException : ServicesInitializationException
+    public class CircularDependencyException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87A98BD0
+        public void .ctor(){} // RVA: 0x7FFAF9A07D40
     }
 
-    public class ComponentRegistry : Object
+    public class ComponentRegistry
     {
-        public System.Collections.Generic.Dictionary`2<int,Unity.Services.Core.Internal.IServiceComponent> _componentTypeHashToInstance; // 0x10
-
         // ── Methods ──
-        public void get_ComponentTypeHashToInstance(){} // RVA: 0x7FFE81116380
-        public void .ctor(){} // RVA: 0x7FFE87A99F70
-        public void RegisterServiceComponent(){} // RVA: 0x7FFE810A1420
-        public void GetServiceComponent(){} // RVA: 0x7FFE810A1420
-        public void IsComponentTypeRegistered(){} // RVA: 0x7FFE87A9A030
-        public void ResetProvidedComponents(){} // RVA: 0x7FFE87A9A120
+        public void get_ComponentTypeHashToInstance(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x7FFAF9A090E0
+        public void RegisterServiceComponent(){} // RVA: 0x7FFAF2D33FA0
+        public void GetServiceComponent(){} // RVA: 0x7FFAF2D33FA0
+        public void IsComponentTypeRegistered(){} // RVA: 0x7FFAF9A091A0
+        public void ResetProvidedComponents(){} // RVA: 0x7FFAF9A09290
     }
 
-    public class CoreDiagnostics : Object
+    public class CoreDiagnostics
     {
-        public Unity.Services.Core.Internal.CoreDiagnostics _instance;
-        public System.Collections.Generic.IDictionary`2<string,string> _coreTags; // 0x10
-
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7FFE87A9F6F0
-        public void set_Instance(){} // RVA: 0x7FFE87A9F730
-        public void set_DiagnosticsComponentProvider(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE87A9F7D0
+        public void get_Instance(){} // RVA: 0x7FFAF9A0E860
+        public void set_Instance(){} // RVA: 0x7FFAF9A0E8A0
+        public void set_DiagnosticsComponentProvider(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAF9A0E940
     }
 
-    public class CoreLogger : Object
+    public class CoreLogger
     {
         // ── Methods ──
-        public void LogWarning(){} // RVA: 0x7FFE87A99CC0
-        public void LogError(){} // RVA: 0x7FFE87A99DA0
-        public void LogException(){} // RVA: 0x7FFE87A99E80
+        public void LogWarning(){} // RVA: 0x7FFAF9A08E30
+        public void LogError(){} // RVA: 0x7FFAF9A08F10
+        public void LogException(){} // RVA: 0x7FFAF9A08FF0
     }
 
-    public class CoreMetrics : Object
+    public class CoreMetrics
     {
-        public Unity.Services.Core.Internal.CoreMetrics _instance;
-
         // ── Methods ──
-        public void set_Instance(){} // RVA: 0x7FFE87A9F890
-        public void .ctor(){} // RVA: 0x7FFE87A9F930
+        public void set_Instance(){} // RVA: 0x7FFAF9A0EA00
+        public void .ctor(){} // RVA: 0x7FFAF9A0EAA0
     }
 
-    public class CorePackageRegistry : Object
+    public class CorePackageRegistry
     {
-        public Unity.Services.Core.Internal.CorePackageRegistry _instance;
-        public Unity.Services.Core.Internal.IPackageRegistry _registry; // 0x10
-
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7FFE87A9A1F0
-        public void set_Instance(){} // RVA: 0x7FFE87A9A230
-        public void get_Registry(){} // RVA: 0x7FFE81116380
-        public void set_Registry(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE87A9A2D0
-        public void Register(){} // RVA: 0x7FFE810A1420
-        public void Lock(){} // RVA: 0x7FFE87A9A3F0
+        public void get_Instance(){} // RVA: 0x7FFAF9A09360
+        public void set_Instance(){} // RVA: 0x7FFAF9A093A0
+        public void get_Registry(){} // RVA: 0x7FFAF2DA8380
+        public void set_Registry(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF9A09440
+        public void Register(){} // RVA: 0x7FFAF2D33FA0
+        public void Lock(){} // RVA: 0x7FFAF9A09560
     }
 
-    public class CoreRegistration : ValueType
+    public class CoreRegistration
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE815AE520
-        public void DependsOn(){} // RVA: 0x7FFE810A1420
-        public void OptionallyDependsOn(){} // RVA: 0x7FFE810A1420
-        public void ProvidesComponent(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFAF32D0840
+        public void DependsOn(){} // RVA: 0x7FFAF2D33FA0
+        public void OptionallyDependsOn(){} // RVA: 0x7FFAF2D33FA0
+        public void ProvidesComponent(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class CoreRegistry : Object
+    public class CoreRegistry
     {
-        public Unity.Services.Core.Internal.CoreRegistry _instance;
-        public string _instanceId; // 0x10
-        public 8 _type; // 0x18
-        public Unity.Services.Core.InitializationOptions _options; // 0x20
-        public Unity.Services.Core.Internal.IPackageRegistry _packageRegistry; // 0x28
-        public Unity.Services.Core.Internal.IComponentRegistry _componentRegistry; // 0x30
+        public object format;
+        public object isReadable;
+        public object streamingMipmaps;
+        public object streamingMipmapsPriority;
+        public object requestedMipmapLevel;
+        public object desiredMipmapLevel;
 
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7FFE87A9A510
-        public void set_Instance(){} // RVA: 0x7FFE87A9A550
-        public void get_Type(){} // RVA: 0x7FFE813DB630
-        public void set_Type(){} // RVA: 0x7FFE8144DF00
-        public void get_Options(){} // RVA: 0x7FFE811290C0
-        public void get_PackageRegistry(){} // RVA: 0x7FFE81129130
-        public void set_PackageRegistry(){} // RVA: 0x7FFE810FCE90
-        public void get_ComponentRegistry(){} // RVA: 0x7FFE8144E200
-        public void set_ComponentRegistry(){} // RVA: 0x7FFE81129890
-        public void set_ServiceRegistry(){} // RVA: 0x7FFE81437330
-        public void .ctor(){} // RVA: 0x7FFE87A9A5F0
-        public void RegisterPackage(){} // RVA: 0x7FFE810A1420
-        public void RegisterServiceComponent(){} // RVA: 0x7FFE810A1420
-        public void GetServiceComponent(){} // RVA: 0x7FFE810A1420
-        public void LockComponentRegistration(){} // RVA: 0x7FFE87A9A900
+        public void get_Instance(){} // RVA: 0x7FFAF9A09680
+        public void set_Instance(){} // RVA: 0x7FFAF9A096C0
+        public void get_Type(){} // RVA: 0x7FFAF306ED50
+        public void set_Type(){} // RVA: 0x7FFAF30E74E0
+        public void get_Options(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_PackageRegistry(){} // RVA: 0x7FFAF2DBB130
+        public void set_PackageRegistry(){} // RVA: 0x7FFAF2D8EE90
+        public void get_ComponentRegistry(){} // RVA: 0x7FFAF30E74D0
+        public void set_ComponentRegistry(){} // RVA: 0x7FFAF2DBB890
+        public void set_ServiceRegistry(){} // RVA: 0x7FFAF2F4B830
+        public void .ctor(){} // RVA: 0x7FFAF9A09760
+        public void RegisterPackage(){} // RVA: 0x7FFAF2D33FA0
+        public void RegisterServiceComponent(){} // RVA: 0x7FFAF2D33FA0
+        public void GetServiceComponent(){} // RVA: 0x7FFAF2D33FA0
+        public void LockComponentRegistration(){} // RVA: 0x7FFAF9A09A70
     }
 
-    public class CoreRegistryInitializer : Object
+    public class CoreRegistryInitializer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0
-        public void InitializeRegistryAsync(){} // RVA: 0x7FFE87A9AA20
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void InitializeRegistryAsync(){} // RVA: 0x7FFAF9A09B90
     }
 
-    public class DependencyTree : Object
+    public class DependencyTree
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81143A50 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2DD5A50 | overloaded x2
     }
 
-    public class DependencyTreeComponentHashException : HashException
+    public class DependencyTreeComponentHashException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87A9F3A0
+        public void .ctor(){} // RVA: 0x7FFAF9A0E510
     }
 
-    public class DependencyTreeExtensions : Object
+    public class DependencyTreeExtensions
     {
         // ── Methods ──
-        public void ToJson(){} // RVA: 0x7FFE87A9C8A0
-        public void IsOptional(){} // RVA: 0x7FFE87A9D280
-        public void IsProvided(){} // RVA: 0x7FFE87A9D310
-        public void GetPackageJObject(){} // RVA: 0x7FFE87A9D390
-        public void GetComponentJObject(){} // RVA: 0x7FFE87A9DCE0
-        public void GetComponentIdentifier(){} // RVA: 0x7FFE87A9E250
+        public void ToJson(){} // RVA: 0x7FFAF9A0BA10
+        public void IsOptional(){} // RVA: 0x7FFAF9A0C3F0
+        public void IsProvided(){} // RVA: 0x7FFAF9A0C480
+        public void GetPackageJObject(){} // RVA: 0x7FFAF9A0C500
+        public void GetComponentJObject(){} // RVA: 0x7FFAF9A0CE50
+        public void GetComponentIdentifier(){} // RVA: 0x7FFAF9A0D3C0
     }
 
-    public class DependencyTreeInitializeOrderSorter : ValueType
+    public class DependencyTreeInitializeOrderSorter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87A9E320
-        public void SortRegisteredPackagesIntoTarget(){} // RVA: 0x7FFE87A9E420
-        public void RemoveUnprovidedOptionalDependenciesFromTree(){} // RVA: 0x7FFE87A9E820
-        public void RemoveUnprovidedOptionalDependencies(){} // RVA: 0x7FFE87A9EA30
-        public void SortTreeThrough(){} // RVA: 0x7FFE87A9EEB0 | overloaded x2
-        public void MarkPackage(){} // RVA: 0x7FFE87A9F090
-        public void GetPackageTypeHashes(){} // RVA: 0x7FFE87A9F120
-        public void GetPackageTypeHashFor(){} // RVA: 0x7FFE87A9F180
-        public void GetDependencyTypeHashesFor(){} // RVA: 0x7FFE87A9F2A0
+        public void .ctor(){} // RVA: 0x7FFAF9A0D490
+        public void SortRegisteredPackagesIntoTarget(){} // RVA: 0x7FFAF9A0D590
+        public void RemoveUnprovidedOptionalDependenciesFromTree(){} // RVA: 0x7FFAF9A0D990
+        public void RemoveUnprovidedOptionalDependencies(){} // RVA: 0x7FFAF9A0DBA0
+        public void SortTreeThrough(){} // RVA: 0x7FFAF9A0E020 | overloaded x2
+        public void MarkPackage(){} // RVA: 0x7FFAF9A0E200
+        public void GetPackageTypeHashes(){} // RVA: 0x7FFAF9A0E290
+        public void GetPackageTypeHashFor(){} // RVA: 0x7FFAF9A0E2F0
+        public void GetDependencyTypeHashesFor(){} // RVA: 0x7FFAF9A0E410
     }
 
-    public class DependencyTreePackageHashException : HashException
+    public class DependencyTreePackageHashException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87A9F400 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF9A0E570 | overloaded x2
     }
 
-    public class DependencyTreeSortFailedException : Exception
+    public class DependencyTreeSortFailedException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87A9C680
-        public void CreateExceptionMessage(){} // RVA: 0x7FFE87A9C7C0
+        public void .ctor(){} // RVA: 0x7FFAF9A0B7F0
+        public void CreateExceptionMessage(){} // RVA: 0x7FFAF9A0B930
     }
 
-    public class DictionaryExtensions : Object
+    public class DictionaryExtensions
     {
         // ── Methods ──
-        public void MergeAllowOverride(){} // RVA: 0x7FFE810A1420
-        public void ValueEquals(){} // RVA: 0x7FFE810A1420 | overloaded x2
+        public void MergeAllowOverride(){} // RVA: 0x7FFAF2D33FA0
+        public void ValueEquals(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
     }
 
-    public class HashException : Exception
+    public class HashException
     {
-        public int _hash; // 0x90
-
         // ── Methods ──
-        public void get_Hash(){} // RVA: 0x7FFE814AA220
-        public void .ctor(){} // RVA: 0x7FFE87A9F400 | overloaded x2
+        public void get_Hash(){} // RVA: 0x7FFAF315FD40
+        public void .ctor(){} // RVA: 0x7FFAF9A0E570 | overloaded x2
     }
 
     public class IComponentRegistry
     {
         // ── Methods ──
-        public void RegisterServiceComponent(){} // RVA: 0x7FFE810A1420
-        public void GetServiceComponent(){} // RVA: 0x7FFE810A1420
-        public void ResetProvidedComponents(){} // RVA: 0x7FFE80E460A0
+        public void RegisterServiceComponent(){} // RVA: 0x7FFAF2D33FA0
+        public void GetServiceComponent(){} // RVA: 0x7FFAF2D33FA0
+        public void ResetProvidedComponents(){} // RVA: 0x7FFAF2AD4B10
     }
 
     public class IInitializablePackage
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFE80E2E390
+        public void Initialize(){} // RVA: 0x7FFAF2ABCE10
     }
 
     public class IInitializablePackageV2
     {
         // ── Methods ──
-        public void InitializeInstanceAsync(){} // RVA: 0x7FFE80E2E390
+        public void InitializeInstanceAsync(){} // RVA: 0x7FFAF2ABCE10
     }
 
     public class IPackageRegistry
     {
         // ── Methods ──
-        public void get_Tree(){} // RVA: 0x7FFE80E2E2E0
-        public void RegisterPackage(){} // RVA: 0x7FFE810A1420
-        public void RegisterDependency(){} // RVA: 0x7FFE80E46530
-        public void RegisterOptionalDependency(){} // RVA: 0x7FFE80E46530
-        public void RegisterProvision(){} // RVA: 0x7FFE80E46530
+        public void get_Tree(){} // RVA: 0x7FFAF2ABCD60
+        public void RegisterPackage(){} // RVA: 0x7FFAF2D33FA0
+        public void RegisterDependency(){} // RVA: 0x7FFAF2AD4FA0
+        public void RegisterOptionalDependency(){} // RVA: 0x7FFAF2AD4FA0
+        public void RegisterProvision(){} // RVA: 0x7FFAF2AD4FA0
     }
 
     public class IServiceComponent
@@ -222,98 +210,84 @@ namespace ThirdParty.Other.Unity.Services.Core.Internal
     {
     }
 
-    public class LockedComponentRegistry : Object
+    public class LockedComponentRegistry
     {
-        public Unity.Services.Core.Internal.IComponentRegistry _registry; // 0x10
-
         // ── Methods ──
-        public void get_Registry(){} // RVA: 0x7FFE81116380
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void RegisterServiceComponent(){} // RVA: 0x7FFE810A1420
-        public void GetServiceComponent(){} // RVA: 0x7FFE810A1420
-        public void ResetProvidedComponents(){} // RVA: 0x7FFE87A9A1A0
+        public void get_Registry(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void RegisterServiceComponent(){} // RVA: 0x7FFAF2D33FA0
+        public void GetServiceComponent(){} // RVA: 0x7FFAF2D33FA0
+        public void ResetProvidedComponents(){} // RVA: 0x7FFAF9A09310
     }
 
-    public class LockedPackageRegistry : Object
+    public class LockedPackageRegistry
     {
-        public Unity.Services.Core.Internal.IPackageRegistry _registry; // 0x10
-        public object field_1; // 0x12
-
         // ── Methods ──
-        public void get_Registry(){} // RVA: 0x7FFE81116380
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_Tree(){} // RVA: 0x7FFE87A9F490
-        public void RegisterPackage(){} // RVA: 0x7FFE810A1420
-        public void RegisterDependency(){} // RVA: 0x7FFE80E46530
-        public void RegisterOptionalDependency(){} // RVA: 0x7FFE80E46530
-        public void RegisterProvision(){} // RVA: 0x7FFE80E46530
+        public void get_Registry(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_Tree(){} // RVA: 0x7FFAF9A0E600
+        public void RegisterPackage(){} // RVA: 0x7FFAF2D33FA0
+        public void RegisterDependency(){} // RVA: 0x7FFAF2AD4FA0
+        public void RegisterOptionalDependency(){} // RVA: 0x7FFAF2AD4FA0
+        public void RegisterProvision(){} // RVA: 0x7FFAF2AD4FA0
     }
 
-    public class MissingComponent : Object
+    public class MissingComponent
     {
-        public System.Type _intendedType; // 0x10
-
         // ── Methods ──
-        public void get_IntendedType(){} // RVA: 0x7FFE81116380
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void get_IntendedType(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
-    public class PackageInitializationInfo : Object
+    public class PackageInitializationInfo
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class PackageRegistry : Object
+    public class PackageRegistry
     {
-        public Unity.Services.Core.Internal.DependencyTree _tree; // 0x10
-
         // ── Methods ──
-        public void get_Tree(){} // RVA: 0x7FFE81116380
-        public void set_Tree(){} // RVA: 0x7FFE810FCE30
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void RegisterPackage(){} // RVA: 0x7FFE810A1420
-        public void RegisterDependency(){} // RVA: 0x7FFE80E46530
-        public void RegisterOptionalDependency(){} // RVA: 0x7FFE80E46530
-        public void RegisterProvision(){} // RVA: 0x7FFE80E46530
-        public void AddComponentDependencyToPackage(){} // RVA: 0x7FFE87A9F4E0
+        public void get_Tree(){} // RVA: 0x7FFAF2DA8380
+        public void set_Tree(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void RegisterPackage(){} // RVA: 0x7FFAF2D33FA0
+        public void RegisterDependency(){} // RVA: 0x7FFAF2AD4FA0
+        public void RegisterOptionalDependency(){} // RVA: 0x7FFAF2AD4FA0
+        public void RegisterProvision(){} // RVA: 0x7FFAF2AD4FA0
+        public void AddComponentDependencyToPackage(){} // RVA: 0x7FFAF9A0E650
     }
 
-    public class ServiceRegistry : Object
+    public class ServiceRegistry
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87A9F630
+        public void .ctor(){} // RVA: 0x7FFAF9A0E7A0
     }
 
-    public class TaskAsyncOperation : AsyncOperationBase
+    public class TaskAsyncOperation
     {
-        public System.Threading.Tasks.TaskScheduler Scheduler;
-
         // ── Methods ──
-        public void get_IsCompleted(){} // RVA: 0x7FFE82749A10
-        public void SetScheduler(){} // RVA: 0x7FFE87A99C00
+        public void get_IsCompleted(){} // RVA: 0x7FFAF444D670
+        public void SetScheduler(){} // RVA: 0x7FFAF9A08D70
     }
 
-    public class UnityServicesInitializer : Object
+    public class UnityServicesInitializer
     {
         // ── Methods ──
-        public void CreateStaticInstance(){} // RVA: 0x7FFE87A9F9F0
-        public void EnableServicesInitializationAsync(){} // RVA: 0x7FFE87AA01B0
+        public void CreateStaticInstance(){} // RVA: 0x7FFAF9A0EB60
+        public void EnableServicesInitializationAsync(){} // RVA: 0x7FFAF9A0F320
     }
 
-    public class UnityServicesInternal : Object
+    public class UnityServicesInternal
     {
-        public 0x666E067C _state; // 0x10
-        public bool CanInitialize; // 0x14
-
         // ── Methods ──
-        public void get_State(){} // RVA: 0x7FFE811485C0
-        public void set_State(){} // RVA: 0x7FFE810FE0C0
-        public void get_Registry(){} // RVA: 0x7FFE811290C0
-        public void .ctor(){} // RVA: 0x7FFE87AA0740
-        public void HasRequestedInitialization(){} // RVA: 0x7FFE866148F0
-        public void InitializeServicesAsync(){} // RVA: 0x7FFE87AA0840
-        public void EnableInitializationAsync(){} // RVA: 0x7FFE87AA09F0
+        public void get_State(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_State(){} // RVA: 0x7FFAF2D900C0
+        public void get_Registry(){} // RVA: 0x7FFAF2DBB0C0
+        public void .ctor(){} // RVA: 0x7FFAF9A0F8B0
+        public void HasRequestedInitialization(){} // RVA: 0x7FFAF8583AC0
+        public void InitializeServicesAsync(){} // RVA: 0x7FFAF9A0F9B0
+        public void EnableInitializationAsync(){} // RVA: 0x7FFAF9A0FB60
     }
 
 }

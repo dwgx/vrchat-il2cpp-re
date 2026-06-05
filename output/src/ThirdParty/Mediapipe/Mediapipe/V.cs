@@ -5,13 +5,13 @@
 
 namespace ThirdParty.Mediapipe.Mediapipe
 {
-    public class ValidatedGraphConfig : MpResourceHandle
+    public class ValidatedGraphConfig
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8661B380
-        public void DeleteMpPtr(){} // RVA: 0x7FFE8661B4C0
-        public void Initialize(){} // RVA: 0x7FFE8661B580
-        public void Config(){} // RVA: 0x7FFE8661B6C0
+        public void .ctor(){} // RVA: 0x7FFAF858A550
+        public void DeleteMpPtr(){} // RVA: 0x7FFAF858A690
+        public void Initialize(){} // RVA: 0x7FFAF858A750
+        public void Config(){} // RVA: 0x7FFAF858A890
     }
 
 }

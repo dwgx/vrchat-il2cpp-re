@@ -5,200 +5,173 @@
 
 namespace ThirdParty.DotNet.System.ComponentModel
 {
-    public class LicFileLicenseProvider : LicenseProvider
+    public class LicFileLicenseProvider
     {
         // ── Methods ──
-        public void IsKeyValid(){} // RVA: 0x7FFE877A76D0
-        public void GetKey(){} // RVA: 0x7FFE877A7720
-        public void GetLicense(){} // RVA: 0x7FFE877A7840
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void IsKeyValid(){} // RVA: 0x7FFAF9716820
+        public void GetKey(){} // RVA: 0x7FFAF9716870
+        public void GetLicense(){} // RVA: 0x7FFAF9716990
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class License : Object
+    public class License
     {
         // ── Methods ──
-        public void get_LicenseKey(){} // RVA: 0x7FFE80E2E2E0
-        public void Dispose(){} // RVA: 0x7FFE80E45FE0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_LicenseKey(){} // RVA: 0x7FFAF2ABCD60
+        public void Dispose(){} // RVA: 0x7FFAF2AD4A50
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class LicenseContext : Object
+    public class LicenseContext
     {
         // ── Methods ──
-        public void get_UsageMode(){} // RVA: 0x7FFE813240E0
-        public void GetSavedLicenseKey(){} // RVA: 0x7FFE813240E0
-        public void GetService(){} // RVA: 0x7FFE813240E0
-        public void SetSavedLicenseKey(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_UsageMode(){} // RVA: 0x7FFAF2FC9240
+        public void GetSavedLicenseKey(){} // RVA: 0x7FFAF2FC9240
+        public void GetService(){} // RVA: 0x7FFAF2FC9240
+        public void SetSavedLicenseKey(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class LicenseException : SystemException
+    public class LicenseException
     {
-        public System.Type type; // 0x90
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF9737C60 | overloaded x5
+        public void get_LicensedType(){} // RVA: 0x7FFAF3246DE0
+        public void GetObjectData(){} // RVA: 0x7FFAF9737F90
+    }
+
+    public class LicenseManager
+    {
+        public object LicenseProvider;
+        public object TypeId;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877C8B10 | overloaded x5
-        public void get_LicensedType(){} // RVA: 0x7FFE8154EB60
-        public void GetObjectData(){} // RVA: 0x7FFE877C8E40
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_CurrentContext(){} // RVA: 0x7FFAF9716EB0
+        public void set_CurrentContext(){} // RVA: 0x7FFAF9717160
+        public void get_UsageMode(){} // RVA: 0x7FFAF97173D0
+        public void CacheProvider(){} // RVA: 0x7FFAF9717490
+        public void CreateWithContext(){} // RVA: 0x7FFAF9717820 | overloaded x2
+        public void GetCachedNoLicenseProvider(){} // RVA: 0x7FFAF9717BF0
+        public void GetCachedProvider(){} // RVA: 0x7FFAF9717CB0
+        public void GetCachedProviderInstance(){} // RVA: 0x7FFAF9717D80
+        public void IsLicensed(){} // RVA: 0x7FFAF9717E50
+        public void IsValid(){} // RVA: 0x7FFAF9718030 | overloaded x2
+        public void LockContext(){} // RVA: 0x7FFAF97180B0
+        public void UnlockContext(){} // RVA: 0x7FFAF9718310
+        public void ValidateInternal(){} // RVA: 0x7FFAF9718580
+        public void ValidateInternalRecursive(){} // RVA: 0x7FFAF9718630
+        public void Validate(){} // RVA: 0x7FFAF9718E40 | overloaded x2
+        public void .cctor(){} // RVA: 0x7FFAF9718F60
     }
 
-    public class LicenseManager : Object
-    {
-        public object s_selfLock;
-        public System.ComponentModel.LicenseContext s_context; // 0x8
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_CurrentContext(){} // RVA: 0x7FFE877A7D60
-        public void set_CurrentContext(){} // RVA: 0x7FFE877A8010
-        public void get_UsageMode(){} // RVA: 0x7FFE877A8280
-        public void CacheProvider(){} // RVA: 0x7FFE877A8340
-        public void CreateWithContext(){} // RVA: 0x7FFE877A86D0 | overloaded x2
-        public void GetCachedNoLicenseProvider(){} // RVA: 0x7FFE877A8AA0
-        public void GetCachedProvider(){} // RVA: 0x7FFE877A8B60
-        public void GetCachedProviderInstance(){} // RVA: 0x7FFE877A8C30
-        public void IsLicensed(){} // RVA: 0x7FFE877A8D00
-        public void IsValid(){} // RVA: 0x7FFE877A8EE0 | overloaded x2
-        public void LockContext(){} // RVA: 0x7FFE877A8F60
-        public void UnlockContext(){} // RVA: 0x7FFE877A91C0
-        public void ValidateInternal(){} // RVA: 0x7FFE877A9430
-        public void ValidateInternalRecursive(){} // RVA: 0x7FFE877A94E0
-        public void Validate(){} // RVA: 0x7FFE877A9CF0 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFE877A9E10
-    }
-
-    public class LicenseProvider : Object
+    public class LicenseProvider
     {
         // ── Methods ──
         public void GetLicense(){}
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class LicenseProviderAttribute : Attribute
+    public class LicenseProviderAttribute
     {
-        public System.ComponentModel.LicenseProviderAttribute Default;
-        public System.Type _licenseProviderType; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30 | overloaded x3
-        public void get_LicenseProvider(){} // RVA: 0x7FFE877A9F50
-        public void get_TypeId(){} // RVA: 0x7FFE877AA050
-        public void Equals(){} // RVA: 0x7FFE877AA120
-        public void GetHashCode(){} // RVA: 0x7FFE8778BF30
-        public void .cctor(){} // RVA: 0x7FFE877AA240
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x3
+        public void get_LicenseProvider(){} // RVA: 0x7FFAF97190A0
+        public void get_TypeId(){} // RVA: 0x7FFAF97191A0
+        public void Equals(){} // RVA: 0x7FFAF9719270
+        public void GetHashCode(){} // RVA: 0x7FFAF96FB080
+        public void .cctor(){} // RVA: 0x7FFAF9719390
     }
 
-    public class ListBindableAttribute : Attribute
+    public class ListBindableAttribute
     {
-        public System.ComponentModel.ListBindableAttribute Yes;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877AA340 | overloaded x2
-        public void get_ListBindable(){} // RVA: 0x7FFE81346E30
-        public void Equals(){} // RVA: 0x7FFE877AA360
-        public void GetHashCode(){} // RVA: 0x7FFE8778BF30
-        public void IsDefaultAttribute(){} // RVA: 0x7FFE877AA3E0
-        public void .cctor(){} // RVA: 0x7FFE877AA460
+        public void .ctor(){} // RVA: 0x7FFAF9719490 | overloaded x2
+        public void get_ListBindable(){} // RVA: 0x7FFAF2FF3460
+        public void Equals(){} // RVA: 0x7FFAF97194B0
+        public void GetHashCode(){} // RVA: 0x7FFAF96FB080
+        public void IsDefaultAttribute(){} // RVA: 0x7FFAF9719530
+        public void .cctor(){} // RVA: 0x7FFAF97195B0
     }
 
-    public class ListChangedEventArgs : EventArgs
+    public class ListChangedEventArgs
     {
-        public 0x6652DB0C _listChangedType; // 0x10
-        public int _newIndex; // 0x14
-        public int _oldIndex; // 0x18
-        public System.ComponentModel.PropertyDescriptor _propertyDescriptor; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877AA800 | overloaded x4
-        public void get_ListChangedType(){} // RVA: 0x7FFE811485C0
-        public void get_NewIndex(){} // RVA: 0x7FFE8164B230
-        public void get_OldIndex(){} // RVA: 0x7FFE813DB630
-        public void get_PropertyDescriptor(){} // RVA: 0x7FFE811290C0
+        public void .ctor(){} // RVA: 0x7FFAF9719950 | overloaded x4
+        public void get_ListChangedType(){} // RVA: 0x7FFAF2DDA5C0
+        public void get_NewIndex(){} // RVA: 0x7FFAF335BED0
+        public void get_OldIndex(){} // RVA: 0x7FFAF306ED50
+        public void get_PropertyDescriptor(){} // RVA: 0x7FFAF2DBB0C0
     }
 
-    public class ListChangedEventHandler : MulticastDelegate
+    public class ListChangedEventHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE828867F0
-        public void Invoke(){} // RVA: 0x7FFE81257370
-        public void BeginInvoke(){} // RVA: 0x7FFE82886970
-        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+        public void .ctor(){} // RVA: 0x7FFAF45AE240
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
+        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
+        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
     }
 
-    public class ListSortDescription : Object
+    public class ListSortDescription
     {
-        public System.ComponentModel.PropertyDescriptor _propertyDescriptor; // 0x10
-        public 0x6652DC14 _sortDirection; // 0x18
+        public object Item;
+        public object System.Collections.IList.IsFixedSize;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE82AF3A20
-        public void get_PropertyDescriptor(){} // RVA: 0x7FFE81116380
-        public void set_PropertyDescriptor(){} // RVA: 0x7FFE810FCE30
-        public void get_SortDirection(){} // RVA: 0x7FFE813DB630
-        public void set_SortDirection(){} // RVA: 0x7FFE8144DF00
+        public void .ctor(){} // RVA: 0x7FFAF4816A50
+        public void get_PropertyDescriptor(){} // RVA: 0x7FFAF2DA8380
+        public void set_PropertyDescriptor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_SortDirection(){} // RVA: 0x7FFAF306ED50
+        public void set_SortDirection(){} // RVA: 0x7FFAF30E74E0
     }
 
-    public class ListSortDescriptionCollection : Object
+    public class ListSortDescriptionCollection
     {
-        public System.Collections.ArrayList _sorts; // 0x10
-        public object field_1; // 0x255
-        public object field_2; // 0x256
-        public object field_3; // 0x257
-        public object field_4; // 0x258
-        public object field_5; // 0x259
-        public object field_6; // 0x25A
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE877AA920 | overloaded x2
-        public void get_Item(){} // RVA: 0x7FFE877AAA20
-        public void set_Item(){} // RVA: 0x7FFE877AAAC0
-        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x7FFE811E0850
-        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0x7FFE811E0850
-        public void System.Collections.IList.get_Item(){} // RVA: 0x7FFE877AAA20
-        public void System.Collections.IList.set_Item(){} // RVA: 0x7FFE877AAB10
-        public void System.Collections.IList.Add(){} // RVA: 0x7FFE877AAB60
-        public void System.Collections.IList.Clear(){} // RVA: 0x7FFE877AABB0
-        public void Contains(){} // RVA: 0x7FFE877AAC00
-        public void IndexOf(){} // RVA: 0x7FFE877AAC60
-        public void System.Collections.IList.Insert(){} // RVA: 0x7FFE877AACC0
-        public void System.Collections.IList.Remove(){} // RVA: 0x7FFE877AAD10
-        public void System.Collections.IList.RemoveAt(){} // RVA: 0x7FFE877AAD60
-        public void get_Count(){} // RVA: 0x7FFE8154F670
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFE811E0850
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7FFE827C4A80
-        public void CopyTo(){} // RVA: 0x7FFE8693D140
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE8670DE60
+        public void .ctor(){} // RVA: 0x7FFAF9719A70 | overloaded x2
+        public void get_Item(){} // RVA: 0x7FFAF9719B70
+        public void set_Item(){} // RVA: 0x7FFAF9719C10
+        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x7FFAF2E72850
+        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
+        public void System.Collections.IList.get_Item(){} // RVA: 0x7FFAF9719B70
+        public void System.Collections.IList.set_Item(){} // RVA: 0x7FFAF9719C60
+        public void System.Collections.IList.Add(){} // RVA: 0x7FFAF9719CB0
+        public void System.Collections.IList.Clear(){} // RVA: 0x7FFAF9719D00
+        public void Contains(){} // RVA: 0x7FFAF9719D50
+        public void IndexOf(){} // RVA: 0x7FFAF9719DB0
+        public void System.Collections.IList.Insert(){} // RVA: 0x7FFAF9719E10
+        public void System.Collections.IList.Remove(){} // RVA: 0x7FFAF9719E60
+        public void System.Collections.IList.RemoveAt(){} // RVA: 0x7FFAF9719EB0
+        public void get_Count(){} // RVA: 0x7FFAF88AC050
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFAF2E72850
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7FFAF44EF520
+        public void CopyTo(){} // RVA: 0x7FFAF88AC300
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF867D010
     }
 
-    public class LocalizableAttribute : Attribute
+    public class LocalizableAttribute
     {
-        public bool _isLocalizable; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE811C55F0
-        public void get_IsLocalizable(){} // RVA: 0x7FFE811C55E0
-        public void Equals(){} // RVA: 0x7FFE87790420
-        public void GetHashCode(){} // RVA: 0x7FFE8778BF30
-        public void IsDefaultAttribute(){} // RVA: 0x7FFE877904E0
-        public void .cctor(){} // RVA: 0x7FFE87790550
+        public void .ctor(){} // RVA: 0x7FFAF2E575F0
+        public void get_IsLocalizable(){} // RVA: 0x7FFAF2E575E0
+        public void Equals(){} // RVA: 0x7FFAF96FF570
+        public void GetHashCode(){} // RVA: 0x7FFAF96FB080
+        public void IsDefaultAttribute(){} // RVA: 0x7FFAF96FF630
+        public void .cctor(){} // RVA: 0x7FFAF96FF6A0
     }
 
-    public class LookupBindingPropertiesAttribute : Attribute
+    public class LookupBindingPropertiesAttribute
     {
-        public string _dataSource; // 0x10
-        public string _displayMember; // 0x18
-        public string _valueMember; // 0x20
-        public string _lookupMember; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81143A50 | overloaded x2
-        public void get_DataSource(){} // RVA: 0x7FFE81116380
-        public void get_DisplayMember(){} // RVA: 0x7FFE810FE7C0
-        public void get_ValueMember(){} // RVA: 0x7FFE811290C0
-        public void get_LookupMember(){} // RVA: 0x7FFE81129130
-        public void Equals(){} // RVA: 0x7FFE877AAF00
-        public void GetHashCode(){} // RVA: 0x7FFE8778BF30
-        public void .cctor(){} // RVA: 0x7FFE877AB090
+        public void .ctor(){} // RVA: 0x7FFAF2DD5A50 | overloaded x2
+        public void get_DataSource(){} // RVA: 0x7FFAF2DA8380
+        public void get_DisplayMember(){} // RVA: 0x7FFAF2D907C0
+        public void get_ValueMember(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_LookupMember(){} // RVA: 0x7FFAF2DBB130
+        public void Equals(){} // RVA: 0x7FFAF971A050
+        public void GetHashCode(){} // RVA: 0x7FFAF96FB080
+        public void .cctor(){} // RVA: 0x7FFAF971A1E0
     }
 
 }

@@ -5,30 +5,30 @@
 
 namespace ThirdParty.Mediapipe.Mediapipe.Unity.CoordinateSystem
 {
-    public class ImageCoordinate : Object
+    public class ImageCoordinate
     {
         // ── Methods ──
-        public void ImageToLocalPoint(){} // RVA: 0x7FFE86696A60
-        public void ImageToPoint(){} // RVA: 0x7FFE86696B80
-        public void ImageNormalizedToLocalPoint(){} // RVA: 0x7FFE86696D80 | overloaded x2
-        public void ImageNormalizedToPoint(){} // RVA: 0x7FFE86696F40 | overloaded x2
-        public void ImageToRectVertices(){} // RVA: 0x7FFE86697A20 | overloaded x4
-        public void ImageNormalizedToRectVertices(){} // RVA: 0x7FFE86697A90 | overloaded x2
-        public void GetRectVertices(){} // RVA: 0x7FFE86698970 | overloaded x6
-        public void GetPoint(){} // RVA: 0x7FFE86698500 | overloaded x4
-        public void IsXReversed(){} // RVA: 0x7FFE86698A70
-        public void IsYReversed(){} // RVA: 0x7FFE86698AA0
-        public void IsInverted(){} // RVA: 0x7FFE86698AC0
+        public void ImageToLocalPoint(){} // RVA: 0x7FFAF8605C30
+        public void ImageToPoint(){} // RVA: 0x7FFAF8605D50
+        public void ImageNormalizedToLocalPoint(){} // RVA: 0x7FFAF8605F50 | overloaded x2
+        public void ImageNormalizedToPoint(){} // RVA: 0x7FFAF8606110 | overloaded x2
+        public void ImageToRectVertices(){} // RVA: 0x7FFAF8606BF0 | overloaded x4
+        public void ImageNormalizedToRectVertices(){} // RVA: 0x7FFAF8606C60 | overloaded x2
+        public void GetRectVertices(){} // RVA: 0x7FFAF8607B40 | overloaded x6
+        public void GetPoint(){} // RVA: 0x7FFAF86076D0 | overloaded x4
+        public void IsXReversed(){} // RVA: 0x7FFAF8607C40
+        public void IsYReversed(){} // RVA: 0x7FFAF8607C70
+        public void IsInverted(){} // RVA: 0x7FFAF8607C90
     }
 
-    public class RealWorldCoordinate : Object
+    public class RealWorldCoordinate
     {
         // ── Methods ──
-        public void RealWorldToLocalPoint(){} // RVA: 0x7FFE86698AE0
-        public void GetPoint(){} // RVA: 0x7FFE86698B90
-        public void IsXReversed(){} // RVA: 0x7FFE86698A70
-        public void IsYReversed(){} // RVA: 0x7FFE86698AA0
-        public void IsInverted(){} // RVA: 0x7FFE86698AC0
+        public void RealWorldToLocalPoint(){} // RVA: 0x7FFAF8607CB0
+        public void GetPoint(){} // RVA: 0x7FFAF8607D60
+        public void IsXReversed(){} // RVA: 0x7FFAF8607C40
+        public void IsYReversed(){} // RVA: 0x7FFAF8607C70
+        public void IsInverted(){} // RVA: 0x7FFAF8607C90
     }
 
 }

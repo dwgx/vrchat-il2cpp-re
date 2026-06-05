@@ -1,31 +1,30 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.RemoteLogging
 // Classes: 2
-// Methods: 12
+// Methods: 11
 
 namespace VRC.RemoteLogging
 {
-    public class VRCSentryBuildTimeConfiguration : SentryBuildTimeOptionsConfiguration
+    public class VRCSentryBuildTimeConfiguration
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x7FFE813458C0
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void ProcessCollider(){} // RVA: 0x7FFAF2FEB990
+        public void ConfigureSentryOptions(){} // RVA: 0x7FFAF2FEBA70
+        public void ConfigureSentryOptionsVariant(){} // RVA: 0x7FFAF2FEBC30
+        public void ApplySettings(){} // RVA: 0x7FFAF2FEBD10
+        public void Configure(){} // RVA: 0x7FFAF2FEBED0
+        public void .ctor_E667FE2D1036(){} // RVA: 0x7FFAF2FEBED0
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
         // ── Unresolved (hash) ──
-        public void m_572(){} // RVA: 0x7FFE81345460
-        public void m_DE1(){} // RVA: 0x7FFE81345540
-        public void m_DDE(){} // RVA: 0x7FFE81345620
-        public void m_62E(){} // RVA: 0x7FFE81345700
-        public void m_68C(){} // RVA: 0x7FFE813457E0
-        public void m_594(){} // RVA: 0x7FFE813459A0
-        public void m_CD4(){} // RVA: 0x7FFE813458C0
-        public void m_771(){} // RVA: 0x7FFE81345A80
+        public void m_A88(){} // RVA: 0x7FFAF2FEBB50
+        public void m_3B9(){} // RVA: 0x7FFAF2FEBDF0
     }
 
-    public class VRCSentryRuntimeConfiguration : SentryRuntimeOptionsConfiguration
+    public class VRCSentryRuntimeConfiguration
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x7FFE810FB310
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void Configure(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
 }

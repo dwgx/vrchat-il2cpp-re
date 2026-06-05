@@ -5,7 +5,7 @@
 
 namespace ThirdParty.Other.OVR.OpenVR
 {
-    public class NotificationBitmap_t : ValueType
+    public class NotificationBitmap_t
     {
     }
 

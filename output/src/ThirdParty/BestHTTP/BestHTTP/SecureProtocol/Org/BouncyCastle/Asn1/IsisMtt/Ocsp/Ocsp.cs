@@ -5,29 +5,24 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.IsisMtt.Ocsp
 {
-    public class CertHash : Asn1Encodable
+    public class CertHash
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x10
-        public byte[] certificateHash; // 0x18
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1FEBB0
-        public void .ctor(){} // RVA: 0x7FFE8A1FEF60 | overloaded x2
-        public void get_HashAlgorithm(){} // RVA: 0x7FFE81116380
-        public void get_CertificateHash(){} // RVA: 0x7FFE8A1FF170
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1FF1F0
+        public void GetInstance(){} // RVA: 0x7FFAFC24C7B0
+        public void .ctor(){} // RVA: 0x7FFAFC24CB60 | overloaded x2
+        public void get_HashAlgorithm(){} // RVA: 0x7FFAF2DA8380
+        public void get_CertificateHash(){} // RVA: 0x7FFAFC24CD70
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC24CDF0
     }
 
-    public class RequestedCertificate : Asn1Encodable
+    public class RequestedCertificate
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509CertificateStructure cert; // 0x10
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFE8A1FF640 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE8A1FF950 | overloaded x3
-        public void get_Type(){} // RVA: 0x7FFE8A1FFAE0
-        public void GetCertificateBytes(){} // RVA: 0x7FFE8A1FFB00
-        public void ToAsn1Object(){} // RVA: 0x7FFE8A1FFC00
+        public void GetInstance(){} // RVA: 0x7FFAFC24D240 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAFC24D550 | overloaded x3
+        public void get_Type(){} // RVA: 0x7FFAFC24D6E0
+        public void GetCertificateBytes(){} // RVA: 0x7FFAFC24D700
+        public void ToAsn1Object(){} // RVA: 0x7FFAFC24D800
     }
 
 }

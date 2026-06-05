@@ -1,0 +1,7 @@
+{
+  "PlayercontrolPathInternal_241A_BAE7::m_C29": "set_controlPathInternal",
+  "PoseAV2Update::m_E2E": "EndProfilerSection",
+  "BaseClass9Impl_53D9_3656::m_3F5": "get_textureScale",
+  "LifecycleComponentSibling_FD32Sibling_CA2D::m_535": "OnCollisionEnter",
+  "LifecycleComponent_5FA7SiblingSibling_438B::m_C30": "OnBecameInvisible"
+}

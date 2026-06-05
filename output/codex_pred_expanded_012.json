@@ -1,0 +1,8 @@
+{
+  "ConnectionHandler::m_A60": "OnApplicationQuit",
+  "LifecycleComponent_5FA7SiblingSibling_A0B1::m_1E5": "OnCollisionExit",
+  "LifecycleComponent_B23FSiblingSibling_26D7::m_889": "OnCollisionExit",
+  "NetworkSyncable_D48C::m_BBD": "get_TypeId",
+  "UIMaxContentCountObservableList_D870::m_BD5": "get_ObservableList",
+  "UIMaxContentCountObservableList_D870::m_DCF": "get_MaxContentCount"
+}

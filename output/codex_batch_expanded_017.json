@@ -1,0 +1,213 @@
+[
+  {
+    "class": "MidiDeviceInfoEnumerator_DC8F",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "MoveNext",
+      "get_Current"
+    ],
+    "fields": [
+      "System.Collections.Generic.IEnumerator<PortMidi.MidiDeviceInfo>.Current",
+      "System.Collections.IEnumerator.Current"
+    ],
+    "hash_methods": [
+      "m_8EB",
+      "m_5A5",
+      "m_644",
+      "m_1C5",
+      "m_921"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_197C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E9D",
+      "m_DBC",
+      "m_6F8",
+      "m_779",
+      "m_51F",
+      "m_E2A",
+      "m_3D5",
+      "m_2D4",
+      "m_8B6",
+      "m_71F",
+      "m_B85",
+      "m_7FD"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_197C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E9D",
+      "m_DBC",
+      "m_6F8",
+      "m_779",
+      "m_51F",
+      "m_E2A",
+      "m_3D5",
+      "m_2D4",
+      "m_8B6",
+      "m_71F",
+      "m_B85",
+      "m_7FD"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiRelated_197C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E9D",
+      "m_DBC",
+      "m_6F8",
+      "m_779",
+      "m_51F",
+      "m_E2A",
+      "m_3D5",
+      "m_2D4",
+      "m_8B6",
+      "m_71F",
+      "m_B85",
+      "m_7FD"
+    ]
+  },
+  {
+    "class": "VRC_MainSiblingSiblingSiblingSSibling_CB07",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_66A",
+      "m_7A9",
+      "m_86F",
+      "m_0B8",
+      "m_06E",
+      "m_276",
+      "m_AB1",
+      "m_A3B",
+      "m_4A3",
+      "m_39B",
+      "m_3E8",
+      "m_03A"
+    ]
+  },
+  {
+    "class": "VRC_MainSiblingSiblingSiblingSSibling_CB07",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_66A",
+      "m_7A9",
+      "m_86F",
+      "m_0B8",
+      "m_06E",
+      "m_276",
+      "m_AB1",
+      "m_A3B",
+      "m_4A3",
+      "m_39B",
+      "m_3E8",
+      "m_03A"
+    ]
+  },
+  {
+    "class": "VRC_MainSiblingSiblingSiblingSSibling_CB07",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_66A",
+      "m_7A9",
+      "m_86F",
+      "m_0B8",
+      "m_06E",
+      "m_276",
+      "m_AB1",
+      "m_A3B",
+      "m_4A3",
+      "m_39B",
+      "m_3E8",
+      "m_03A"
+    ]
+  },
+  {
+    "class": "FoldoutListRelated_5F0B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_84F",
+      "m_AE2",
+      "m_CC4",
+      "m_D05",
+      "m_EEE",
+      "m_1A7",
+      "m_F3A",
+      "m_922",
+      "m_B2C",
+      "m_BD3",
+      "m_8FB",
+      "m_3D4"
+    ]
+  },
+  {
+    "class": "AudioGetDeviceNamesOpenDevice_173D_DEA7",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_Name",
+      "get_Name",
+      "GetDeviceNames",
+      "add_OnMidiVoiceMessage"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_368"
+    ]
+  },
+  {
+    "class": "VRCEventPortalManagerInternal",
+    "parent": "",
+    "namespace": "VRC.SDK3.Internal",
+    "readable_methods": [
+      "UnregisterAllEventPortals",
+      "RegisterEventPortal",
+      "ProcessEventPortal",
+      "InitializeOnLoad"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_690"
+    ]
+  }
+]

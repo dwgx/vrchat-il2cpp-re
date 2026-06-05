@@ -5,59 +5,56 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class NetSyncConnection : Object
+    public class NetSyncConnection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2E590
+        public void .ctor(){} // RVA: 0x7FFAF8B9D7C0
     }
 
-    public class NetSyncSession : Object
+    public class NetSyncSession
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2E860
+        public void .ctor(){} // RVA: 0x7FFAF8B9DA90
     }
 
-    public class NetSyncSessionList : DeserializableList`1
+    public class NetSyncSessionList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2EB30
+        public void .ctor(){} // RVA: 0x7FFAF8B9DD60
     }
 
-    public class NetSyncSessionsChangedNotification : Object
+    public class NetSyncSessionsChangedNotification
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2EE10
+        public void .ctor(){} // RVA: 0x7FFAF8B9E040
     }
 
-    public class NetSyncSetSessionPropertyResult : Object
+    public class NetSyncSetSessionPropertyResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2EFC0
+        public void .ctor(){} // RVA: 0x7FFAF8B9E1F0
     }
 
-    public class NetSyncVoipAttenuationValue : Object
+    public class NetSyncVoipAttenuationValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2F110
+        public void .ctor(){} // RVA: 0x7FFAF8B9E340
     }
 
-    public class NetSyncVoipAttenuationValueList : DeserializableList`1
+    public class NetSyncVoipAttenuationValueList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C2F240
+        public void .ctor(){} // RVA: 0x7FFAF8B9E470
     }
 
-    public class NetworkingPeer : Object
+    public class NetworkingPeer
     {
-        public ulong _iD; // 0x10
-        public 0x6665130C _state; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE826F4900
-        public void get_ID(){} // RVA: 0x7FFE81116380
-        public void set_ID(){} // RVA: 0x7FFE826F2ED0
-        public void get_State(){} // RVA: 0x7FFE813DB630
-        public void set_State(){} // RVA: 0x7FFE8144DF00
+        public void .ctor(){} // RVA: 0x7FFAF4419380
+        public void get_ID(){} // RVA: 0x7FFAF2DA8380
+        public void set_ID(){} // RVA: 0x7FFAF4417700
+        public void get_State(){} // RVA: 0x7FFAF306ED50
+        public void set_State(){} // RVA: 0x7FFAF30E74E0
     }
 
 }

@@ -5,101 +5,101 @@
 
 namespace ThirdParty.Unity.UnityEngine
 {
-    public class UICharInfo : ValueType
+    public class UICharInfo
     {
     }
 
-    public class UILineInfo : ValueType
+    public class UILineInfo
     {
     }
 
-    public class UINumericFieldsUtils : Object
+    public class UINumericFieldsUtils
     {
         // ── Methods ──
-        public void TryConvertStringToDouble(){} // RVA: 0x7FFE87C75740 | overloaded x2
-        public void TryConvertStringToFloat(){} // RVA: 0x7FFE87C758C0
-        public void TryConvertStringToLong(){} // RVA: 0x7FFE87C75A30 | overloaded x2
-        public void TryConvertStringToULong(){} // RVA: 0x7FFE87C75CD0 | overloaded x2
-        public void TryConvertStringToInt(){} // RVA: 0x7FFE87C75EE0
-        public void TryConvertStringToUInt(){} // RVA: 0x7FFE87C75F90
-        public void .cctor(){} // RVA: 0x7FFE87C76040
+        public void TryConvertStringToDouble(){} // RVA: 0x7FFAF9BE4AD0 | overloaded x2
+        public void TryConvertStringToFloat(){} // RVA: 0x7FFAF9BE4C50
+        public void TryConvertStringToLong(){} // RVA: 0x7FFAF9BE4DC0 | overloaded x2
+        public void TryConvertStringToULong(){} // RVA: 0x7FFAF9BE5060 | overloaded x2
+        public void TryConvertStringToInt(){} // RVA: 0x7FFAF9BE5270
+        public void TryConvertStringToUInt(){} // RVA: 0x7FFAF9BE5320
+        public void .cctor(){} // RVA: 0x7FFAF9BE53D0
     }
 
-    public class UISystemProfilerApi : Object
+    public class UISystemProfilerApi
     {
         // ── Methods ──
-        public void BeginSample(){} // RVA: 0x7FFE87FE18D0
-        public void EndSample(){} // RVA: 0x7FFE87FE1920
-        public void AddMarker(){} // RVA: 0x7FFE87FE1970
+        public void BeginSample(){} // RVA: 0x7FFAF9F51730
+        public void EndSample(){} // RVA: 0x7FFAF9F51780
+        public void AddMarker(){} // RVA: 0x7FFAF9F517D0
     }
 
-    public class UIVertex : ValueType
+    public class UIVertex
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87DF3D90
+        public void .cctor(){} // RVA: 0x7FFAF9D63BF0
     }
 
-    public class UnassignedReferenceException : Exception
+    public class UnassignedReferenceException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87C6D000 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF9BDC340 | overloaded x2
     }
 
-    public class UnhandledExceptionHandler : Object
+    public class UnhandledExceptionHandler
     {
         // ── Methods ──
-        public void RegisterUECatcher(){} // RVA: 0x7FFE87C6DF70
+        public void RegisterUECatcher(){} // RVA: 0x7FFAF9BDD2B0
     }
 
-    public class UnityAPICompatibilityVersionAttribute : Attribute
+    public class UnityAPICompatibilityVersionAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87C6E250 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF9BDD590 | overloaded x2
     }
 
-    public class UnityEngineModuleAssembly : Attribute
+    public class UnityEngineModuleAssembly
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UnityException : Exception
+    public class UnityException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87C6CF10 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF9BDC250 | overloaded x3
     }
 
-    public class UnityLogWriter : TextWriter
+    public class UnityLogWriter
     {
         // ── Methods ──
-        public void WriteStringToUnityLog(){} // RVA: 0x7FFE87C509A0
-        public void WriteStringToUnityLogImpl(){} // RVA: 0x7FFE87C50A00
-        public void Init(){} // RVA: 0x7FFE87C50A50
-        public void get_Encoding(){} // RVA: 0x7FFE87C50B00
-        public void Write(){} // RVA: 0x7FFE87C50C50 | overloaded x3
-        public void .ctor(){} // RVA: 0x7FFE87C50CC0
+        public void WriteStringToUnityLog(){} // RVA: 0x7FFAF9BBFCE0
+        public void WriteStringToUnityLogImpl(){} // RVA: 0x7FFAF9BBFD40
+        public void Init(){} // RVA: 0x7FFAF9BBFD90
+        public void get_Encoding(){} // RVA: 0x7FFAF9BBFE40
+        public void Write(){} // RVA: 0x7FFAF9BBFF90 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAF9BC0000
     }
 
-    public class UnityString : Object
+    public class UnityString
     {
         // ── Methods ──
-        public void Format(){} // RVA: 0x7FFE87D965D0
+        public void Format(){} // RVA: 0x7FFAF9D06430
     }
 
-    public class UnitySynchronizationContext : SynchronizationContext
+    public class UnitySynchronizationContext
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87C70670 | overloaded x2
-        public void Send(){} // RVA: 0x7FFE87C70830
-        public void OperationStarted(){} // RVA: 0x7FFE87C70B80
-        public void OperationCompleted(){} // RVA: 0x7FFE87C70B90
-        public void Post(){} // RVA: 0x7FFE87C70BA0
-        public void CreateCopy(){} // RVA: 0x7FFE87C70D90
-        public void Exec(){} // RVA: 0x7FFE87C70F80
-        public void HasPendingTasks(){} // RVA: 0x7FFE87C71330
-        public void InitializeSynchronizationContext(){} // RVA: 0x7FFE87C71390
-        public void ExecuteTasks(){} // RVA: 0x7FFE87C71450
-        public void ExecutePendingTasks(){} // RVA: 0x7FFE87C714B0
+        public void .ctor(){} // RVA: 0x7FFAF9BDF9B0 | overloaded x2
+        public void Send(){} // RVA: 0x7FFAF9BDFB70
+        public void OperationStarted(){} // RVA: 0x7FFAF9BDFEC0
+        public void OperationCompleted(){} // RVA: 0x7FFAF9BDFED0
+        public void Post(){} // RVA: 0x7FFAF9BDFEE0
+        public void CreateCopy(){} // RVA: 0x7FFAF9BE00D0
+        public void Exec(){} // RVA: 0x7FFAF9BE02C0
+        public void HasPendingTasks(){} // RVA: 0x7FFAF9BE0670
+        public void InitializeSynchronizationContext(){} // RVA: 0x7FFAF9BE06D0
+        public void ExecuteTasks(){} // RVA: 0x7FFAF9BE0790
+        public void ExecutePendingTasks(){} // RVA: 0x7FFAF9BE07F0
     }
 
 }

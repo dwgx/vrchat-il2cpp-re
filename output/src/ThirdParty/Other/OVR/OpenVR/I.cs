@@ -5,107 +5,105 @@
 
 namespace ThirdParty.Other.OVR.OpenVR
 {
-    public class IVRApplications : ValueType
+    public class IVRApplications
     {
     }
 
-    public class IVRChaperone : ValueType
+    public class IVRChaperone
     {
     }
 
-    public class IVRChaperoneSetup : ValueType
+    public class IVRChaperoneSetup
     {
     }
 
-    public class IVRCompositor : ValueType
+    public class IVRCompositor
     {
     }
 
-    public class IVRDriverManager : ValueType
+    public class IVRDriverManager
     {
     }
 
-    public class IVRExtendedDisplay : ValueType
+    public class IVRExtendedDisplay
     {
     }
 
-    public class IVRIOBuffer : ValueType
+    public class IVRIOBuffer
     {
     }
 
-    public class IVRInput : ValueType
+    public class IVRInput
     {
     }
 
-    public class IVRNotifications : ValueType
+    public class IVRNotifications
     {
     }
 
-    public class IVROverlay : ValueType
+    public class IVROverlay
     {
     }
 
-    public class IVRRenderModels : ValueType
+    public class IVRRenderModels
     {
     }
 
-    public class IVRResources : ValueType
+    public class IVRResources
     {
     }
 
-    public class IVRScreenshots : ValueType
+    public class IVRScreenshots
     {
     }
 
-    public class IVRSettings : ValueType
+    public class IVRSettings
     {
     }
 
-    public class IVRSpatialAnchors : ValueType
+    public class IVRSpatialAnchors
     {
     }
 
-    public class IVRSystem : ValueType
+    public class IVRSystem
     {
     }
 
-    public class IVRTrackedCamera : ValueType
+    public class IVRTrackedCamera
     {
     }
 
-    public class ImuSample_t : ValueType
+    public class ImuSample_t
     {
     }
 
-    public class InputAnalogActionData_t : ValueType
+    public class InputAnalogActionData_t
     {
     }
 
-    public class InputDigitalActionData_t : ValueType
+    public class InputDigitalActionData_t
     {
     }
 
-    public class InputOriginInfo_t : ValueType
+    public class InputOriginInfo_t
     {
-        public ulong devicePath; // 0x10
-
         // ── Methods ──
-        public void get_rchRenderModelComponentName(){} // RVA: 0x7FFE86D2F600
+        public void get_rchRenderModelComponentName(){} // RVA: 0x7FFAF8C9E760
     }
 
-    public class InputPoseActionData_t : ValueType
+    public class InputPoseActionData_t
     {
     }
 
-    public class InputSkeletalActionData_t : ValueType
+    public class InputSkeletalActionData_t
     {
     }
 
-    public class IntersectionMaskCircle_t : ValueType
+    public class IntersectionMaskCircle_t
     {
     }
 
-    public class IntersectionMaskRectangle_t : ValueType
+    public class IntersectionMaskRectangle_t
     {
     }
 

@@ -5,23 +5,21 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Operators
 {
-    public class CmsContentEncryptorBuilder : Object
+    public class CmsContentEncryptorBuilder
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE89F6A720
-        public void GetKeySize(){} // RVA: 0x7FFE89F6AAF0
-        public void .ctor(){} // RVA: 0x7FFE89F6AE50 | overloaded x2
-        public void Build(){} // RVA: 0x7FFE89F6AF50
+        public void .cctor(){} // RVA: 0x7FFAFBFB8350
+        public void GetKeySize(){} // RVA: 0x7FFAFBFB8720
+        public void .ctor(){} // RVA: 0x7FFAFBFB8A80 | overloaded x2
+        public void Build(){} // RVA: 0x7FFAFBFB8B80
     }
 
-    public class CmsKeyTransRecipientInfoGenerator : KeyTransRecipientInfoGenerator
+    public class CmsKeyTransRecipientInfoGenerator
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IKeyWrapper keyWrapper; // 0x40
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89F6B270 | overloaded x2
-        public void get_AlgorithmDetails(){} // RVA: 0x7FFE89F6B450
-        public void GenerateWrappedKey(){} // RVA: 0x7FFE89F6B4F0
+        public void .ctor(){} // RVA: 0x7FFAFBFB8EA0 | overloaded x2
+        public void get_AlgorithmDetails(){} // RVA: 0x7FFAFBFB9080
+        public void GenerateWrappedKey(){} // RVA: 0x7FFAFBFB9120
     }
 
 }

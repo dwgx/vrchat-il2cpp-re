@@ -5,147 +5,124 @@
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
-    public class NetworkCallingEntrypoint : ValueType
+    public class NetworkCallingEntrypoint
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x229
-        public object field_2; // 0x22A
-        public object field_3; // 0x22B
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsNetworkCallingEntrypoint(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_NameHash(){} // RVA: 0x7FFE881501B0
-        public void get_Ratelimit(){} // RVA: 0x7FFE88150200
-        public void Parameters(){} // RVA: 0x7FFE88152E00
-        public void get_ParametersLength(){} // RVA: 0x7FFE88148000
-        public void CreateNetworkCallingEntrypoint(){} // RVA: 0x7FFE88152F70
-        public void StartNetworkCallingEntrypoint(){} // RVA: 0x7FFE881530A0
-        public void AddNameHash(){} // RVA: 0x7FFE881506E0
-        public void AddRatelimit(){} // RVA: 0x7FFE88150750
-        public void AddParameters(){} // RVA: 0x7FFE88148950
-        public void CreateParametersVector(){} // RVA: 0x7FFE88144E80
-        public void CreateParametersVectorBlock(){} // RVA: 0x7FFE88153300 | overloaded x3
-        public void StartParametersVector(){} // RVA: 0x7FFE88145240
-        public void EndNetworkCallingEntrypoint(){} // RVA: 0x7FFE881533C0
-        public void UnPack(){} // RVA: 0x7FFE88153410
-        public void UnPackTo(){} // RVA: 0x7FFE881534C0
-        public void Pack(){} // RVA: 0x7FFE88153730
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsNetworkCallingEntrypoint(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_NameHash(){} // RVA: 0x7FFAFA0C3160
+        public void get_Ratelimit(){} // RVA: 0x7FFAFA0C31B0
+        public void Parameters(){} // RVA: 0x7FFAFA0C5DB0
+        public void get_ParametersLength(){} // RVA: 0x7FFAFA0BAFB0
+        public void CreateNetworkCallingEntrypoint(){} // RVA: 0x7FFAFA0C5F20
+        public void StartNetworkCallingEntrypoint(){} // RVA: 0x7FFAFA0C6050
+        public void AddNameHash(){} // RVA: 0x7FFAFA0C3690
+        public void AddRatelimit(){} // RVA: 0x7FFAFA0C3700
+        public void AddParameters(){} // RVA: 0x7FFAFA0BB900
+        public void CreateParametersVector(){} // RVA: 0x7FFAFA0B7E30
+        public void CreateParametersVectorBlock(){} // RVA: 0x7FFAFA0C62B0 | overloaded x3
+        public void StartParametersVector(){} // RVA: 0x7FFAFA0B81F0
+        public void EndNetworkCallingEntrypoint(){} // RVA: 0x7FFAFA0C6370
+        public void UnPack(){} // RVA: 0x7FFAFA0C63C0
+        public void UnPackTo(){} // RVA: 0x7FFAFA0C6470
+        public void Pack(){} // RVA: 0x7FFAFA0C66E0
     }
 
-    public class NetworkCallingEntrypointT : Object
+    public class NetworkCallingEntrypointT
     {
-        public uint _nameHash; // 0x10
-        public int _ratelimit; // 0x14
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.NetworkCallingParameterT> _parameters; // 0x18
-
         // ── Methods ──
-        public void get_NameHash(){} // RVA: 0x7FFE811485C0
-        public void set_NameHash(){} // RVA: 0x7FFE810FE0C0
-        public void get_Ratelimit(){} // RVA: 0x7FFE8164B230
-        public void set_Ratelimit(){} // RVA: 0x7FFE8164E0F0
-        public void get_Parameters(){} // RVA: 0x7FFE810FE7C0
-        public void set_Parameters(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE88153AB0
+        public void get_NameHash(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_NameHash(){} // RVA: 0x7FFAF2D900C0
+        public void get_Ratelimit(){} // RVA: 0x7FFAF335BED0
+        public void set_Ratelimit(){} // RVA: 0x7FFAF335C660
+        public void get_Parameters(){} // RVA: 0x7FFAF2D907C0
+        public void set_Parameters(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAFA0C6A60
     }
 
-    public class NetworkCallingEntrypointVerify : Object
+    public class NetworkCallingEntrypointVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE88153B10
+        public void Verify(){} // RVA: 0x7FFAFA0C6AC0
     }
 
-    public class NetworkCallingParameter : ValueType
+    public class NetworkCallingParameter
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x226
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsNetworkCallingParameter(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_Type(){} // RVA: 0x7FFE88152A00
-        public void CreateNetworkCallingParameter(){} // RVA: 0x7FFE88152A50
-        public void StartNetworkCallingParameter(){} // RVA: 0x7FFE8814C360
-        public void AddType(){} // RVA: 0x7FFE88152B00
-        public void EndNetworkCallingParameter(){} // RVA: 0x7FFE88152B70
-        public void UnPack(){} // RVA: 0x7FFE88152BC0
-        public void UnPackTo(){} // RVA: 0x7FFE88152C60
-        public void Pack(){} // RVA: 0x7FFE88152CC0
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsNetworkCallingParameter(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_Type(){} // RVA: 0x7FFAFA0C59B0
+        public void CreateNetworkCallingParameter(){} // RVA: 0x7FFAFA0C5A00
+        public void StartNetworkCallingParameter(){} // RVA: 0x7FFAFA0BF310
+        public void AddType(){} // RVA: 0x7FFAFA0C5AB0
+        public void EndNetworkCallingParameter(){} // RVA: 0x7FFAFA0C5B20
+        public void UnPack(){} // RVA: 0x7FFAFA0C5B70
+        public void UnPackTo(){} // RVA: 0x7FFAFA0C5C10
+        public void Pack(){} // RVA: 0x7FFAFA0C5C70
     }
 
-    public class NetworkCallingParameterT : Object
+    public class NetworkCallingParameterT
     {
-        public byte _type; // 0x10
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x7FFE811C55E0
-        public void set_Type(){} // RVA: 0x7FFE811C55F0
-        public void .ctor(){} // RVA: 0x7FFE81FCAC70
+        public void get_Type(){} // RVA: 0x7FFAF2E575E0
+        public void set_Type(){} // RVA: 0x7FFAF2E575F0
+        public void .ctor(){} // RVA: 0x7FFAF316DA00
     }
 
-    public class NetworkCallingParameterVerify : Object
+    public class NetworkCallingParameterVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE88152D80
+        public void Verify(){} // RVA: 0x7FFAFA0C5D30
     }
 
-    public class NetworkCallingView : ValueType
+    public class NetworkCallingView
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-        public object field_1; // 0x230
-        public object field_2; // 0x231
-        public object field_3; // 0x232
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFE826F4210
-        public void ValidateVersion(){} // RVA: 0x7FFE810FB310
-        public void GetRootAsNetworkCallingView(){} // RVA: 0x7FFE881444A0 | overloaded x2
-        public void __init(){} // RVA: 0x7FFE8811D5B0
-        public void __assign(){} // RVA: 0x7FFE8811D680
-        public void get_ViewId(){} // RVA: 0x7FFE881501B0
-        public void get_ComponentIndex(){} // RVA: 0x7FFE88150200
-        public void Entrypoints(){} // RVA: 0x7FFE88153C80
-        public void get_EntrypointsLength(){} // RVA: 0x7FFE88148000
-        public void CreateNetworkCallingView(){} // RVA: 0x7FFE88153DF0
-        public void StartNetworkCallingView(){} // RVA: 0x7FFE881530A0
-        public void AddViewId(){} // RVA: 0x7FFE881506E0
-        public void AddComponentIndex(){} // RVA: 0x7FFE88150750
-        public void AddEntrypoints(){} // RVA: 0x7FFE88148950
-        public void CreateEntrypointsVector(){} // RVA: 0x7FFE88144E80
-        public void CreateEntrypointsVectorBlock(){} // RVA: 0x7FFE88154160 | overloaded x3
-        public void StartEntrypointsVector(){} // RVA: 0x7FFE88145240
-        public void EndNetworkCallingView(){} // RVA: 0x7FFE88154220
-        public void UnPack(){} // RVA: 0x7FFE88154270
-        public void UnPackTo(){} // RVA: 0x7FFE88154320
-        public void Pack(){} // RVA: 0x7FFE88154590
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void ValidateVersion(){} // RVA: 0x7FFAF2D8D310
+        public void GetRootAsNetworkCallingView(){} // RVA: 0x7FFAFA0B7450 | overloaded x2
+        public void __init(){} // RVA: 0x7FFAFA090560
+        public void __assign(){} // RVA: 0x7FFAFA090630
+        public void get_ViewId(){} // RVA: 0x7FFAFA0C3160
+        public void get_ComponentIndex(){} // RVA: 0x7FFAFA0C31B0
+        public void Entrypoints(){} // RVA: 0x7FFAFA0C6C30
+        public void get_EntrypointsLength(){} // RVA: 0x7FFAFA0BAFB0
+        public void CreateNetworkCallingView(){} // RVA: 0x7FFAFA0C6DA0
+        public void StartNetworkCallingView(){} // RVA: 0x7FFAFA0C6050
+        public void AddViewId(){} // RVA: 0x7FFAFA0C3690
+        public void AddComponentIndex(){} // RVA: 0x7FFAFA0C3700
+        public void AddEntrypoints(){} // RVA: 0x7FFAFA0BB900
+        public void CreateEntrypointsVector(){} // RVA: 0x7FFAFA0B7E30
+        public void CreateEntrypointsVectorBlock(){} // RVA: 0x7FFAFA0C7110 | overloaded x3
+        public void StartEntrypointsVector(){} // RVA: 0x7FFAFA0B81F0
+        public void EndNetworkCallingView(){} // RVA: 0x7FFAFA0C71D0
+        public void UnPack(){} // RVA: 0x7FFAFA0C7220
+        public void UnPackTo(){} // RVA: 0x7FFAFA0C72D0
+        public void Pack(){} // RVA: 0x7FFAFA0C7540
     }
 
-    public class NetworkCallingViewT : Object
+    public class NetworkCallingViewT
     {
-        public int _viewId; // 0x10
-        public int _componentIndex; // 0x14
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.NetworkCallingEntrypointT> _entrypoints; // 0x18
-
         // ── Methods ──
-        public void get_ViewId(){} // RVA: 0x7FFE811485C0
-        public void set_ViewId(){} // RVA: 0x7FFE810FE0C0
-        public void get_ComponentIndex(){} // RVA: 0x7FFE8164B230
-        public void set_ComponentIndex(){} // RVA: 0x7FFE8164E0F0
-        public void get_Entrypoints(){} // RVA: 0x7FFE810FE7C0
-        public void set_Entrypoints(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE88153AB0
+        public void get_ViewId(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_ViewId(){} // RVA: 0x7FFAF2D900C0
+        public void get_ComponentIndex(){} // RVA: 0x7FFAF335BED0
+        public void set_ComponentIndex(){} // RVA: 0x7FFAF335C660
+        public void get_Entrypoints(){} // RVA: 0x7FFAF2D907C0
+        public void set_Entrypoints(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAFA0C6A60
     }
 
-    public class NetworkCallingViewVerify : Object
+    public class NetworkCallingViewVerify
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7FFE88154870
+        public void Verify(){} // RVA: 0x7FFAFA0C7820
     }
 
 }

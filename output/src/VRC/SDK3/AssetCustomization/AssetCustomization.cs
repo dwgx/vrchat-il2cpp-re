@@ -5,76 +5,69 @@
 
 namespace VRC.SDK3.AssetCustomization
 {
-    public class AssetPart : MonoBehaviour
+    public class AssetPart : ؄}e
     {
-        public string displayName; // 0x20
-        public string assetId; // 0x28
-
         // ── Methods ──
-        public void OnValidate(){} // RVA: 0x7FFE8A451B60
-        public void get_AssetId(){} // RVA: 0x7FFE81129130
-        public void set_AssetId(){} // RVA: 0x7FFE810FCE90
-        public void get_References(){} // RVA: 0x7FFE8A451CF0
-        public void .ctor(){} // RVA: 0x7FFE8A451DA0
+        public void OnValidate(){} // RVA: 0x7FFAFC4A6130
+        public void get_AssetId(){} // RVA: 0x7FFAF2DBB130
+        public void set_AssetId(){} // RVA: 0x7FFAF2D8EE90
+        public void get_References(){} // RVA: 0x7FFAFC4A62C0
+        public void .ctor(){} // RVA: 0x7FFAFC4A6370
     }
 
-    public class BoolVariable : Variable
+    public class BoolVariable
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ColorVariable : Variable
+    public class ColorVariable
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A4529E0
+        public void .ctor(){} // RVA: 0x7FFAFC4A6FB0
     }
 
-    public class FloatVariable : Variable
+    public class FloatVariable
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A4529D0
+        public void .ctor(){} // RVA: 0x7FFAFC4A6FA0
     }
 
     public class IAssetPart
     {
         // ── Methods ──
-        public void set_AssetId(){} // RVA: 0x7FFE80E460A0
+        public void set_AssetId(){} // RVA: 0x7FFAF2AD4B10
     }
 
-    public class IAssetPartExtensions : Object
+    public class IAssetPartExtensions
     {
         // ── Methods ──
-        public void GenerateAssetId(){} // RVA: 0x7FFE8A4527D0
+        public void GenerateAssetId(){} // RVA: 0x7FFAFC4A6DA0
     }
 
     public class IReferenceObject
     {
     }
 
-    public class Variable : Object
+    public class Variable
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class VariableLink : ValueType
+    public class VariableLink
     {
-        public string assetId; // 0x10
-        public string variableId; // 0x18
-        public object field_2; // 0x6
-
         // ── Methods ──
-        public void get_AssetId(){} // RVA: 0x7FFE8284EF60
-        public void get_VariableId(){} // RVA: 0x7FFE826F4210
-        public void get_IsValid(){} // RVA: 0x7FFE8A452960
-        public void ToString(){} // RVA: 0x7FFE8A452980
+        public void get_AssetId(){} // RVA: 0x7FFAF4584690
+        public void get_VariableId(){} // RVA: 0x7FFAF44189C0
+        public void get_IsValid(){} // RVA: 0x7FFAFC4A6F30
+        public void ToString(){} // RVA: 0x7FFAFC4A6F50
     }
 
-    public class VariableTypeFilterAttribute : PropertyAttribute
+    public class VariableTypeFilterAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
     }
 
 }

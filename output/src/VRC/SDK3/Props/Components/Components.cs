@@ -5,20 +5,20 @@
 
 namespace VRC.SDK3.Props.Components
 {
-    public class CustomAttribute : Object
+    public class CustomAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class VRCPropDescriptor : VRC_PropDescriptor
+    public class VRCPropDescriptor
     {
         // ── Methods ──
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFE8A482630
-        public void DrawSelectorGizmos(){} // RVA: 0x7FFE8A482730
-        public void DrawBearingGizmos(){} // RVA: 0x7FFE8A4829A0
-        public void .ctor(){} // RVA: 0x7FFE8A482AA0
-        public void <DrawBearingGizmos>g__DrawBearingLine|8_0(){} // RVA: 0x7FFE8A482B80
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAFC4D6E70
+        public void DrawSelectorGizmos(){} // RVA: 0x7FFAFC4D6F70
+        public void DrawBearingGizmos(){} // RVA: 0x7FFAFC4D71E0
+        public void .ctor(){} // RVA: 0x7FFAFC4D72E0
+        public void <DrawBearingGizmos>g__DrawBearingLine|8_0(){} // RVA: 0x7FFAFC4D73C0
     }
 
 }

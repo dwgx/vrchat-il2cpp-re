@@ -1,0 +1,83 @@
+[
+  {
+    "namespace": "VRC.Audio.Voice",
+    "class": "MicrophoneManager",
+    "parent": "",
+    "known_methods": [
+      "GetPosition",
+      "Initialize",
+      "m"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C20",
+      "m_EF5",
+      "m_7D0",
+      "m_A33",
+      "m_8EA",
+      "m_23F",
+      "m_BAA",
+      "m_581",
+      "m_81D",
+      "m_1C9",
+      "m_91E",
+      "m_8FB"
+    ],
+    "all_method_count": 15
+  },
+  {
+    "namespace": "VRC.Localization",
+    "class": "LocalizationManager",
+    "parent": "",
+    "known_methods": [
+      "OnPlayerJoined",
+      "StaticInitialize",
+      "OnPlayerJoined_impl",
+      "Doremove_OnUdonReady",
+      "ResolveLocalizedValue",
+      "RegisterLocalizationContext",
+      "GetOrInitializeCurrentUICulture",
+      "GetMethod",
+      "GetPlatform",
+      "SetCompletedSynchronously",
+      "GetLocalizedValue",
+      "IsResource",
+      "GetLocalizedInstance",
+      "SetStoreCallback",
+      "GetLanguage",
+      "GetInternalData",
+      "RefreshLocalizationContext",
+      "RegisterLocalizationManager",
+      "InitializeLocalizationStaticData",
+      "Initialize",
+      "ComputeValue"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AA6"
+    ],
+    "all_method_count": 52
+  },
+  {
+    "namespace": "VRC.DataModel",
+    "class": "CalendarSearchFilters",
+    "parent": "",
+    "known_methods": [
+      "m",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_886",
+      "m_E4B",
+      "m_628",
+      "m_089",
+      "m_1DB",
+      "m_9D5",
+      "m_BFE",
+      "m_ED0",
+      "m_64E"
+    ],
+    "all_method_count": 11
+  }
+]

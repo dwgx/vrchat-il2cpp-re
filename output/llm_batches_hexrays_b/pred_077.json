@@ -1,0 +1,5 @@
+{
+ "VRCNetworkBehaviourSiblinRelated_B113::m_1FE": "InternalSphereCastNonAllocInjected",
+ "VRCNetworkBehaviourSiblinRelated_B113::m_253": "Equals",
+ "VRCNetworkBehaviourSiblinRelated_B113::m_331": "GetHashCode"
+}

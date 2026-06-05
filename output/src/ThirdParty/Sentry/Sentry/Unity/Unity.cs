@@ -5,60 +5,58 @@
 
 namespace ThirdParty.Sentry.Sentry.Unity
 {
-    public class AnrIntegration : Object
+    public class AnrIntegration
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Register(){} // RVA: 0x7FFE86EB05D0
-        public void .cctor(){} // RVA: 0x7FFE86EB0C10
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Register(){} // RVA: 0x7FFAF8E1FBB0
+        public void .cctor(){} // RVA: 0x7FFAF8E201F0
     }
 
-    public class AnrWatchDog : Object
+    public class AnrWatchDog
     {
-        public int DetectionTimeoutMs; // 0x10
-
         // ── Methods ──
-        public void add_OnApplicationNotResponding(){} // RVA: 0x7FFE86EB0CE0
-        public void remove_OnApplicationNotResponding(){} // RVA: 0x7FFE86EB0DE0
-        public void get_Paused(){} // RVA: 0x7FFE81121450
-        public void set_Paused(){} // RVA: 0x7FFE81121460
-        public void .ctor(){} // RVA: 0x7FFE86EB0EE0
-        public void Stop(){} // RVA: 0x7FFE80E466C0
-        public void Report(){} // RVA: 0x7FFE86EB13D0
-        public void <.ctor>b__11_0(){} // RVA: 0x7FFE825203D0
-        public void <.ctor>b__11_1(){} // RVA: 0x7FFE8143BA90
-        public void <.ctor>b__11_2(){} // RVA: 0x7FFE86EB1570
+        public void add_OnApplicationNotResponding(){} // RVA: 0x7FFAF8E202C0
+        public void remove_OnApplicationNotResponding(){} // RVA: 0x7FFAF8E203C0
+        public void get_Paused(){} // RVA: 0x7FFAF2DB3450
+        public void set_Paused(){} // RVA: 0x7FFAF2DB3460
+        public void .ctor(){} // RVA: 0x7FFAF8E204C0
+        public void Stop(){} // RVA: 0x7FFAF2AD5130
+        public void Report(){} // RVA: 0x7FFAF8E209B0
+        public void <.ctor>b__11_0(){} // RVA: 0x7FFAF4265330
+        public void <.ctor>b__11_1(){} // RVA: 0x7FFAF30D05A0
+        public void <.ctor>b__11_2(){} // RVA: 0x7FFAF8E20B50
     }
 
-    public class AnrWatchDogMultiThreaded : AnrWatchDog
+    public class AnrWatchDogMultiThreaded
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EB1630
-        public void Stop(){} // RVA: 0x7FFE86EB1900
-        public void UpdateUiStatus(){} // RVA: 0x7FFE86EB1930
-        public void Run(){} // RVA: 0x7FFE86EB19D0
+        public void .ctor(){} // RVA: 0x7FFAF8E20C10
+        public void Stop(){} // RVA: 0x7FFAF8E20EE0
+        public void UpdateUiStatus(){} // RVA: 0x7FFAF8E20F10
+        public void Run(){} // RVA: 0x7FFAF8E20FB0
     }
 
-    public class AnrWatchDogSingleThreaded : AnrWatchDog
+    public class AnrWatchDogSingleThreaded
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EB1EF0
-        public void Stop(){} // RVA: 0x7FFE82BBB440
-        public void UpdateUiStatus(){} // RVA: 0x7FFE86EB20D0
+        public void .ctor(){} // RVA: 0x7FFAF8E214D0
+        public void Stop(){} // RVA: 0x7FFAF35B4010
+        public void UpdateUiStatus(){} // RVA: 0x7FFAF8E216B0
     }
 
-    public class ContextWriter : Object
+    public class ContextWriter
     {
         // ── Methods ──
-        public void Write(){} // RVA: 0x7FFE86EABF90
+        public void Write(){} // RVA: 0x7FFAF8E1B570
         public void WriteScope(){}
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ErrorTimeDebounce : TimeDebounceBase
+    public class ErrorTimeDebounce
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE826F2ED0
+        public void .ctor(){} // RVA: 0x7FFAF4417700
     }
 
     public class IEventCapture
@@ -70,989 +68,799 @@ namespace ThirdParty.Sentry.Sentry.Unity
     public class ISceneManager
     {
         // ── Methods ──
-        public void add_SceneLoaded(){} // RVA: 0x7FFE80E460A0
-        public void remove_SceneLoaded(){} // RVA: 0x7FFE80E460A0
-        public void add_SceneUnloaded(){} // RVA: 0x7FFE80E460A0
-        public void remove_SceneUnloaded(){} // RVA: 0x7FFE80E460A0
-        public void add_ActiveSceneChanged(){} // RVA: 0x7FFE80E460A0
-        public void remove_ActiveSceneChanged(){} // RVA: 0x7FFE80E460A0
+        public void add_SceneLoaded(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_SceneLoaded(){} // RVA: 0x7FFAF2AD4B10
+        public void add_SceneUnloaded(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_SceneUnloaded(){} // RVA: 0x7FFAF2AD4B10
+        public void add_ActiveSceneChanged(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_ActiveSceneChanged(){} // RVA: 0x7FFAF2AD4B10
     }
 
     public class ISentrySystemInfo
     {
+        public object get_SupportsVibration;
+        public object get_SystemMemorySize;
+
         // ── Methods ──
-        public void get_MainThreadId(){} // RVA: 0x7FFE80E2E2E0
-        public void get_OperatingSystem(){} // RVA: 0x7FFE80E2E2E0
-        public void get_ProcessorCount(){} // RVA: 0x7FFE80E2E2E0
-        public void get_SupportsVibration(){} // RVA: 0x7FFE80E2E210
-        public void get_DeviceType(){} // RVA: 0x7FFE80E2E2E0
-        public void get_CpuDescription(){} // RVA: 0x7FFE80E2E2E0
-        public void get_DeviceName(){} // RVA: 0x7FFE80E2E2E0
-        public void get_DeviceUniqueIdentifier(){} // RVA: 0x7FFE80E2E2E0
-        public void get_DeviceModel(){} // RVA: 0x7FFE80E2E2E0
-        public void get_SystemMemorySize(){} // RVA: 0x7FFE80E2E2E0
-        public void get_GraphicsDeviceId(){} // RVA: 0x7FFE80E2E2E0
-        public void get_GraphicsDeviceName(){} // RVA: 0x7FFE80E2E2E0
-        public void get_GraphicsDeviceVendorId(){} // RVA: 0x7FFE80E2E2E0
-        public void get_GraphicsDeviceVendor(){} // RVA: 0x7FFE80E2E2E0
-        public void get_GraphicsMemorySize(){} // RVA: 0x7FFE80E2E2E0
-        public void get_GraphicsMultiThreaded(){} // RVA: 0x7FFE80E2E2E0
-        public void get_NpotSupport(){} // RVA: 0x7FFE80E2E2E0
-        public void get_GraphicsDeviceVersion(){} // RVA: 0x7FFE80E2E2E0
-        public void get_GraphicsDeviceType(){} // RVA: 0x7FFE80E2E2E0
-        public void get_MaxTextureSize(){} // RVA: 0x7FFE80E2E2E0
-        public void get_SupportsDrawCallInstancing(){} // RVA: 0x7FFE80E2E210
-        public void get_SupportsRayTracing(){} // RVA: 0x7FFE80E2E210
-        public void get_SupportsComputeShaders(){} // RVA: 0x7FFE80E2E210
-        public void get_SupportsGeometryShaders(){} // RVA: 0x7FFE80E2E210
-        public void get_GraphicsShaderLevel(){} // RVA: 0x7FFE80E2E2E0
-        public void get_GraphicsUVStartsAtTop(){} // RVA: 0x7FFE80E2E210
-        public void get_IsDebugBuild(){} // RVA: 0x7FFE80E2E2E0
-        public void get_EditorVersion(){} // RVA: 0x7FFE80E2E2E0
-        public void get_InstallMode(){} // RVA: 0x7FFE80E2E2E0
-        public void get_TargetFrameRate(){} // RVA: 0x7FFE80E2E2E0
-        public void get_CopyTextureSupport(){} // RVA: 0x7FFE80E2E2E0
-        public void get_RenderingThreadingMode(){} // RVA: 0x7FFE80E2E2E0
-        public void get_StartTime(){} // RVA: 0x7FFE80E2E2E0
+        public void get_MainThreadId(){} // RVA: 0x7FFAF2ABCD60
+        public void get_OperatingSystem(){} // RVA: 0x7FFAF2ABCD60
+        public void get_ProcessorCount(){} // RVA: 0x7FFAF2ABCD60
+        public void get_SupportsVibration(){} // RVA: 0x7FFAF2ABCC90
+        public void get_DeviceType(){} // RVA: 0x7FFAF2ABCD60
+        public void get_CpuDescription(){} // RVA: 0x7FFAF2ABCD60
+        public void get_DeviceName(){} // RVA: 0x7FFAF2ABCD60
+        public void get_DeviceUniqueIdentifier(){} // RVA: 0x7FFAF2ABCD60
+        public void get_DeviceModel(){} // RVA: 0x7FFAF2ABCD60
+        public void get_SystemMemorySize(){} // RVA: 0x7FFAF2ABCD60
+        public void get_GraphicsDeviceId(){} // RVA: 0x7FFAF2ABCD60
+        public void get_GraphicsDeviceName(){} // RVA: 0x7FFAF2ABCD60
+        public void get_GraphicsDeviceVendorId(){} // RVA: 0x7FFAF2ABCD60
+        public void get_GraphicsDeviceVendor(){} // RVA: 0x7FFAF2ABCD60
+        public void get_GraphicsMemorySize(){} // RVA: 0x7FFAF2ABCD60
+        public void get_GraphicsMultiThreaded(){} // RVA: 0x7FFAF2ABCD60
+        public void get_NpotSupport(){} // RVA: 0x7FFAF2ABCD60
+        public void get_GraphicsDeviceVersion(){} // RVA: 0x7FFAF2ABCD60
+        public void get_GraphicsDeviceType(){} // RVA: 0x7FFAF2ABCD60
+        public void get_MaxTextureSize(){} // RVA: 0x7FFAF2ABCD60
+        public void get_SupportsDrawCallInstancing(){} // RVA: 0x7FFAF2ABCC90
+        public void get_SupportsRayTracing(){} // RVA: 0x7FFAF2ABCC90
+        public void get_SupportsComputeShaders(){} // RVA: 0x7FFAF2ABCC90
+        public void get_SupportsGeometryShaders(){} // RVA: 0x7FFAF2ABCC90
+        public void get_GraphicsShaderLevel(){} // RVA: 0x7FFAF2ABCD60
+        public void get_GraphicsUVStartsAtTop(){} // RVA: 0x7FFAF2ABCC90
+        public void get_IsDebugBuild(){} // RVA: 0x7FFAF2ABCD60
+        public void get_EditorVersion(){} // RVA: 0x7FFAF2ABCD60
+        public void get_InstallMode(){} // RVA: 0x7FFAF2ABCD60
+        public void get_TargetFrameRate(){} // RVA: 0x7FFAF2ABCD60
+        public void get_CopyTextureSupport(){} // RVA: 0x7FFAF2ABCD60
+        public void get_RenderingThreadingMode(){} // RVA: 0x7FFAF2ABCD60
+        public void get_StartTime(){} // RVA: 0x7FFAF2ABCD60
     }
 
     public class ISentryUnityInfo
     {
         // ── Methods ──
-        public void get_IL2CPP(){} // RVA: 0x7FFE80E2F150
-        public void get_Il2CppMethods(){} // RVA: 0x7FFE80E2E2E0
-        public void IsKnownPlatform(){} // RVA: 0x7FFE80E2F150
-        public void IsLinux(){} // RVA: 0x7FFE80E2F150
-        public void IsNativeSupportEnabled(){} // RVA: 0x7FFE80E31D70
-        public void IsSupportedBySentryNative(){} // RVA: 0x7FFE80E2F760
-        public void GetDebugImageType(){} // RVA: 0x7FFE80E3D230
+        public void get_IL2CPP(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_Il2CppMethods(){} // RVA: 0x7FFAF2ABCD60
+        public void IsKnownPlatform(){} // RVA: 0x7FFAF2ABDBE0
+        public void IsLinux(){} // RVA: 0x7FFAF2ABDBE0
+        public void IsNativeSupportEnabled(){} // RVA: 0x7FFAF2AC0840
+        public void IsSupportedBySentryNative(){} // RVA: 0x7FFAF2ABE1F0
+        public void GetDebugImageType(){} // RVA: 0x7FFAF2ACBCC0
     }
 
     public class IUnityLogMessageDebounce
     {
         // ── Methods ──
-        public void Debounced(){} // RVA: 0x7FFE80E2F150
+        public void Debounced(){} // RVA: 0x7FFAF2ABDBE0
     }
 
-    public class Il2CppFree : MulticastDelegate
+    public class Il2CppFree
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE82BE9AD0
-        public void Invoke(){} // RVA: 0x7FFE81156C60
-        public void BeginInvoke(){} // RVA: 0x7FFE86EB54A0
-        public void EndInvoke(){} // RVA: 0x7FFE810FCCB0
+        public void .ctor(){} // RVA: 0x7FFAF49104F0
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+        public void BeginInvoke(){} // RVA: 0x7FFAF8E24A80
+        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
     }
 
-    public class Il2CppGcHandleGetTarget : MulticastDelegate
+    public class Il2CppGcHandleGetTarget
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8400E910
-        public void Invoke(){} // RVA: 0x7FFE81156C60
-        public void BeginInvoke(){} // RVA: 0x7FFE86EB5260
-        public void EndInvoke(){} // RVA: 0x7FFE82DC25A0
+        public void .ctor(){} // RVA: 0x7FFAF5E1B8D0
+        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+        public void BeginInvoke(){} // RVA: 0x7FFAF8E24840
+        public void EndInvoke(){} // RVA: 0x7FFAF4AE56F0
     }
 
-    public class Il2CppMethods : Object
+    public class Il2CppMethods
     {
-        public Sentry.Unity.Il2CppGcHandleGetTarget _il2CppGcHandleGetTarget; // 0x10
-        public Sentry.Unity.Il2CppNativeStackTrace _il2CppNativeStackTrace; // 0x18
-        public Sentry.Unity.Il2CppFree _il2CppFree; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE811DAE00
-        public void get_Il2CppGcHandleGetTarget(){} // RVA: 0x7FFE81116380
-        public void get_Il2CppNativeStackTrace(){} // RVA: 0x7FFE810FE7C0
-        public void get_Il2CppFree(){} // RVA: 0x7FFE811290C0
+        public void .ctor(){} // RVA: 0x7FFAF2E6CE00
+        public void get_Il2CppGcHandleGetTarget(){} // RVA: 0x7FFAF2DA8380
+        public void get_Il2CppNativeStackTrace(){} // RVA: 0x7FFAF2D907C0
+        public void get_Il2CppFree(){} // RVA: 0x7FFAF2DBB0C0
     }
 
-    public class Il2CppNativeStackTrace : MulticastDelegate
+    public class Il2CppNativeStackTrace
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EB52E0
-        public void Invoke(){} // RVA: 0x7FFE83F99C10
-        public void BeginInvoke(){} // RVA: 0x7FFE86EB53B0
-        public void EndInvoke(){} // RVA: 0x7FFE851EC540
+        public void .ctor(){} // RVA: 0x7FFAF8E248C0
+        public void Invoke(){} // RVA: 0x7FFAF5DCB260
+        public void BeginInvoke(){} // RVA: 0x7FFAF8E24990
+        public void EndInvoke(){} // RVA: 0x7FFAF709E930
     }
 
-    public class LogTimeDebounce : TimeDebounceBase
+    public class LogTimeDebounce
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE826F2ED0
+        public void .ctor(){} // RVA: 0x7FFAF4417700
     }
 
-    public class MainThreadData : Object
+    public class MainThreadData
     {
-        public System.Nullable`1<int> _mainThreadId;
-        public string _operatingSystem; // 0x8
-        public System.Nullable`1<int> _processorCount; // 0x10
-        public System.Nullable`1<bool> _supportsVibration; // 0x18
-        public string _deviceType; // 0x20
-        public string _cpuDescription; // 0x28
-        public string _deviceName; // 0x30
-        public string _deviceUniqueIdentifier; // 0x38
-        public string _deviceModel; // 0x40
-        public System.Nullable`1<int> _systemMemorySize; // 0x48
-        public System.Nullable`1<int> _graphicsDeviceId; // 0x50
-        public string _graphicsDeviceName; // 0x58
-        public string _graphicsDeviceVendorId; // 0x60
-        public string _graphicsDeviceVendor; // 0x68
-        public System.Nullable`1<int> _graphicsMemorySize; // 0x70
-        public System.Nullable`1<bool> _graphicsMultiThreaded; // 0x78
-        public string _npotSupport; // 0x80
-        public string _graphicsDeviceVersion; // 0x88
-        public string _graphicsDeviceType; // 0x90
-        public System.Nullable`1<int> _maxTextureSize; // 0x98
-        public System.Nullable`1<bool> _supportsDrawCallInstancing; // 0xA0
-        public System.Nullable`1<bool> _supportsRayTracing; // 0xA2
-        public System.Nullable`1<bool> _supportsComputeShaders; // 0xA4
-        public System.Nullable`1<bool> _supportsGeometryShaders; // 0xA6
-        public System.Nullable`1<int> _graphicsShaderLevel; // 0xA8
-        public System.Nullable`1<bool> _isDebugBuild; // 0xB0
-        public string _editorVersion; // 0xB8
-        public string _installMode; // 0xC0
-        public string _targetFrameRate; // 0xC8
-        public string _copyTextureSupport; // 0xD0
-        public string _renderingThreadingMode; // 0xD8
-        public System.Nullable`1<System.DateTimeOffset> _startTime; // 0xE0
-        public Sentry.Unity.ISentrySystemInfo _sentrySystemInfo; // 0xF8
-
         // ── Methods ──
-        public void get_MainThreadId(){} // RVA: 0x7FFE86EB5520
-        public void set_MainThreadId(){} // RVA: 0x7FFE86EB5560
-        public void get_OperatingSystem(){} // RVA: 0x7FFE86EB55B0
-        public void set_OperatingSystem(){} // RVA: 0x7FFE86EB55F0
-        public void get_ProcessorCount(){} // RVA: 0x7FFE86EB5690
-        public void set_ProcessorCount(){} // RVA: 0x7FFE86EB56D0
-        public void get_SupportsVibration(){} // RVA: 0x7FFE86EB5720
-        public void set_SupportsVibration(){} // RVA: 0x7FFE86EB5760
-        public void get_DeviceType(){} // RVA: 0x7FFE86EB57B0
-        public void set_DeviceType(){} // RVA: 0x7FFE86EB57F0
-        public void get_CpuDescription(){} // RVA: 0x7FFE86EB5890
-        public void set_CpuDescription(){} // RVA: 0x7FFE86EB58D0
-        public void get_DeviceName(){} // RVA: 0x7FFE86EB5970
-        public void set_DeviceName(){} // RVA: 0x7FFE86EB59B0
-        public void get_DeviceUniqueIdentifier(){} // RVA: 0x7FFE86EB5A50
-        public void set_DeviceUniqueIdentifier(){} // RVA: 0x7FFE86EB5A90
-        public void get_DeviceModel(){} // RVA: 0x7FFE86EB5B30
-        public void set_DeviceModel(){} // RVA: 0x7FFE86EB5B70
-        public void get_SystemMemorySize(){} // RVA: 0x7FFE86EB5C10
-        public void set_SystemMemorySize(){} // RVA: 0x7FFE86EB5C50
-        public void get_GraphicsDeviceId(){} // RVA: 0x7FFE86EB5CA0
-        public void set_GraphicsDeviceId(){} // RVA: 0x7FFE86EB5CE0
-        public void get_GraphicsDeviceName(){} // RVA: 0x7FFE86EB5D30
-        public void set_GraphicsDeviceName(){} // RVA: 0x7FFE86EB5D70
-        public void get_GraphicsDeviceVendorId(){} // RVA: 0x7FFE86EB5E10
-        public void set_GraphicsDeviceVendorId(){} // RVA: 0x7FFE86EB5E50
-        public void get_GraphicsDeviceVendor(){} // RVA: 0x7FFE86EB5EF0
-        public void set_GraphicsDeviceVendor(){} // RVA: 0x7FFE86EB5F30
-        public void get_GraphicsMemorySize(){} // RVA: 0x7FFE86EB5FD0
-        public void set_GraphicsMemorySize(){} // RVA: 0x7FFE86EB6010
-        public void get_GraphicsMultiThreaded(){} // RVA: 0x7FFE86EB6060
-        public void set_GraphicsMultiThreaded(){} // RVA: 0x7FFE86EB60A0
-        public void get_NpotSupport(){} // RVA: 0x7FFE86EB60F0
-        public void set_NpotSupport(){} // RVA: 0x7FFE86EB6130
-        public void get_GraphicsDeviceVersion(){} // RVA: 0x7FFE86EB61D0
-        public void set_GraphicsDeviceVersion(){} // RVA: 0x7FFE86EB6210
-        public void get_GraphicsDeviceType(){} // RVA: 0x7FFE86EB62B0
-        public void set_GraphicsDeviceType(){} // RVA: 0x7FFE86EB62F0
-        public void get_MaxTextureSize(){} // RVA: 0x7FFE86EB6390
-        public void set_MaxTextureSize(){} // RVA: 0x7FFE86EB63D0
-        public void get_SupportsDrawCallInstancing(){} // RVA: 0x7FFE86EB6420
-        public void set_SupportsDrawCallInstancing(){} // RVA: 0x7FFE86EB6460
-        public void get_SupportsRayTracing(){} // RVA: 0x7FFE86EB64B0
-        public void set_SupportsRayTracing(){} // RVA: 0x7FFE86EB64F0
-        public void get_SupportsComputeShaders(){} // RVA: 0x7FFE86EB6540
-        public void set_SupportsComputeShaders(){} // RVA: 0x7FFE86EB6580
-        public void get_SupportsGeometryShaders(){} // RVA: 0x7FFE86EB65D0
-        public void set_SupportsGeometryShaders(){} // RVA: 0x7FFE86EB6610
-        public void get_GraphicsShaderLevel(){} // RVA: 0x7FFE86EB6660
-        public void set_GraphicsShaderLevel(){} // RVA: 0x7FFE86EB66A0
-        public void get_IsDebugBuild(){} // RVA: 0x7FFE86EB66F0
-        public void set_IsDebugBuild(){} // RVA: 0x7FFE86EB6730
-        public void get_EditorVersion(){} // RVA: 0x7FFE86EB6780
-        public void set_EditorVersion(){} // RVA: 0x7FFE86EB67C0
-        public void get_InstallMode(){} // RVA: 0x7FFE86EB6860
-        public void set_InstallMode(){} // RVA: 0x7FFE86EB68A0
-        public void get_TargetFrameRate(){} // RVA: 0x7FFE86EB6940
-        public void set_TargetFrameRate(){} // RVA: 0x7FFE86EB6980
-        public void get_CopyTextureSupport(){} // RVA: 0x7FFE86EB6A20
-        public void set_CopyTextureSupport(){} // RVA: 0x7FFE86EB6A60
-        public void get_RenderingThreadingMode(){} // RVA: 0x7FFE86EB6B00
-        public void set_RenderingThreadingMode(){} // RVA: 0x7FFE86EB6B40
-        public void get_StartTime(){} // RVA: 0x7FFE86EB6BE0
-        public void set_StartTime(){} // RVA: 0x7FFE86EB6C40
-        public void IsMainThread(){} // RVA: 0x7FFE86EB6CA0
-        public void get_SentrySystemInfo(){} // RVA: 0x7FFE86EB6DC0
-        public void set_SentrySystemInfo(){} // RVA: 0x7FFE86EB6E00
-        public void CollectData(){} // RVA: 0x7FFE86EB6EA0
+        public void get_MainThreadId(){} // RVA: 0x7FFAF8E24B00
+        public void set_MainThreadId(){} // RVA: 0x7FFAF8E24B40
+        public void get_OperatingSystem(){} // RVA: 0x7FFAF8E24B90
+        public void set_OperatingSystem(){} // RVA: 0x7FFAF8E24BD0
+        public void get_ProcessorCount(){} // RVA: 0x7FFAF8E24C70
+        public void set_ProcessorCount(){} // RVA: 0x7FFAF8E24CB0
+        public void get_SupportsVibration(){} // RVA: 0x7FFAF8E24D00
+        public void set_SupportsVibration(){} // RVA: 0x7FFAF8E24D40
+        public void get_DeviceType(){} // RVA: 0x7FFAF8E24D90
+        public void set_DeviceType(){} // RVA: 0x7FFAF8E24DD0
+        public void get_CpuDescription(){} // RVA: 0x7FFAF8E24E70
+        public void set_CpuDescription(){} // RVA: 0x7FFAF8E24EB0
+        public void get_DeviceName(){} // RVA: 0x7FFAF8E24F50
+        public void set_DeviceName(){} // RVA: 0x7FFAF8E24F90
+        public void get_DeviceUniqueIdentifier(){} // RVA: 0x7FFAF8E25030
+        public void set_DeviceUniqueIdentifier(){} // RVA: 0x7FFAF8E25070
+        public void get_DeviceModel(){} // RVA: 0x7FFAF8E25110
+        public void set_DeviceModel(){} // RVA: 0x7FFAF8E25150
+        public void get_SystemMemorySize(){} // RVA: 0x7FFAF8E251F0
+        public void set_SystemMemorySize(){} // RVA: 0x7FFAF8E25230
+        public void get_GraphicsDeviceId(){} // RVA: 0x7FFAF8E25280
+        public void set_GraphicsDeviceId(){} // RVA: 0x7FFAF8E252C0
+        public void get_GraphicsDeviceName(){} // RVA: 0x7FFAF8E25310
+        public void set_GraphicsDeviceName(){} // RVA: 0x7FFAF8E25350
+        public void get_GraphicsDeviceVendorId(){} // RVA: 0x7FFAF8E253F0
+        public void set_GraphicsDeviceVendorId(){} // RVA: 0x7FFAF8E25430
+        public void get_GraphicsDeviceVendor(){} // RVA: 0x7FFAF8E254D0
+        public void set_GraphicsDeviceVendor(){} // RVA: 0x7FFAF8E25510
+        public void get_GraphicsMemorySize(){} // RVA: 0x7FFAF8E255B0
+        public void set_GraphicsMemorySize(){} // RVA: 0x7FFAF8E255F0
+        public void get_GraphicsMultiThreaded(){} // RVA: 0x7FFAF8E25640
+        public void set_GraphicsMultiThreaded(){} // RVA: 0x7FFAF8E25680
+        public void get_NpotSupport(){} // RVA: 0x7FFAF8E256D0
+        public void set_NpotSupport(){} // RVA: 0x7FFAF8E25710
+        public void get_GraphicsDeviceVersion(){} // RVA: 0x7FFAF8E257B0
+        public void set_GraphicsDeviceVersion(){} // RVA: 0x7FFAF8E257F0
+        public void get_GraphicsDeviceType(){} // RVA: 0x7FFAF8E25890
+        public void set_GraphicsDeviceType(){} // RVA: 0x7FFAF8E258D0
+        public void get_MaxTextureSize(){} // RVA: 0x7FFAF8E25970
+        public void set_MaxTextureSize(){} // RVA: 0x7FFAF8E259B0
+        public void get_SupportsDrawCallInstancing(){} // RVA: 0x7FFAF8E25A00
+        public void set_SupportsDrawCallInstancing(){} // RVA: 0x7FFAF8E25A40
+        public void get_SupportsRayTracing(){} // RVA: 0x7FFAF8E25A90
+        public void set_SupportsRayTracing(){} // RVA: 0x7FFAF8E25AD0
+        public void get_SupportsComputeShaders(){} // RVA: 0x7FFAF8E25B20
+        public void set_SupportsComputeShaders(){} // RVA: 0x7FFAF8E25B60
+        public void get_SupportsGeometryShaders(){} // RVA: 0x7FFAF8E25BB0
+        public void set_SupportsGeometryShaders(){} // RVA: 0x7FFAF8E25BF0
+        public void get_GraphicsShaderLevel(){} // RVA: 0x7FFAF8E25C40
+        public void set_GraphicsShaderLevel(){} // RVA: 0x7FFAF8E25C80
+        public void get_IsDebugBuild(){} // RVA: 0x7FFAF8E25CD0
+        public void set_IsDebugBuild(){} // RVA: 0x7FFAF8E25D10
+        public void get_EditorVersion(){} // RVA: 0x7FFAF8E25D60
+        public void set_EditorVersion(){} // RVA: 0x7FFAF8E25DA0
+        public void get_InstallMode(){} // RVA: 0x7FFAF8E25E40
+        public void set_InstallMode(){} // RVA: 0x7FFAF8E25E80
+        public void get_TargetFrameRate(){} // RVA: 0x7FFAF8E25F20
+        public void set_TargetFrameRate(){} // RVA: 0x7FFAF8E25F60
+        public void get_CopyTextureSupport(){} // RVA: 0x7FFAF8E26000
+        public void set_CopyTextureSupport(){} // RVA: 0x7FFAF8E26040
+        public void get_RenderingThreadingMode(){} // RVA: 0x7FFAF8E260E0
+        public void set_RenderingThreadingMode(){} // RVA: 0x7FFAF8E26120
+        public void get_StartTime(){} // RVA: 0x7FFAF8E261C0
+        public void set_StartTime(){} // RVA: 0x7FFAF8E26220
+        public void IsMainThread(){} // RVA: 0x7FFAF8E26280
+        public void get_SentrySystemInfo(){} // RVA: 0x7FFAF8E263A0
+        public void set_SentrySystemInfo(){} // RVA: 0x7FFAF8E263E0
+        public void CollectData(){} // RVA: 0x7FFAF8E26480
     }
 
-    public class NativeStackTrace : Object
+    public class NativeStackTrace
     {
-        public UIntPtr[] _frames; // 0x10
-        public string _imageUuid; // 0x18
-        public string _imageName; // 0x20
-
         // ── Methods ──
-        public void get_Frames(){} // RVA: 0x7FFE81116380
-        public void set_Frames(){} // RVA: 0x7FFE810FCE30
-        public void get_ImageUuid(){} // RVA: 0x7FFE810FE7C0
-        public void set_ImageUuid(){} // RVA: 0x7FFE81161E80
-        public void get_ImageName(){} // RVA: 0x7FFE811290C0
-        public void set_ImageName(){} // RVA: 0x7FFE811290D0
-        public void .ctor(){} // RVA: 0x7FFE86EB0540
+        public void get_Frames(){} // RVA: 0x7FFAF2DA8380
+        public void set_Frames(){} // RVA: 0x7FFAF2D8EE30
+        public void get_ImageUuid(){} // RVA: 0x7FFAF2D907C0
+        public void set_ImageUuid(){} // RVA: 0x7FFAF2DF3E80
+        public void get_ImageName(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_ImageName(){} // RVA: 0x7FFAF2DBB0D0
+        public void .ctor(){} // RVA: 0x7FFAF8E1FB20
     }
 
-    public class SceneAdapter : ValueType
+    public class SceneAdapter
     {
-        public string _name; // 0x10
+        public object Version;
 
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFE8284EF60
-        public void .ctor(){} // RVA: 0x7FFE81D7E9E0
+        public void get_Name(){} // RVA: 0x7FFAF4584690
+        public void .ctor(){} // RVA: 0x7FFAF3ABA2F0
     }
 
-    public class SceneManagerAdapter : Object
+    public class SceneManagerAdapter
     {
         // ── Methods ──
-        public void add_SceneLoaded(){} // RVA: 0x7FFE86EB2370
-        public void remove_SceneLoaded(){} // RVA: 0x7FFE86EB2470
-        public void add_SceneUnloaded(){} // RVA: 0x7FFE86EB2570
-        public void remove_SceneUnloaded(){} // RVA: 0x7FFE86EB2670
-        public void add_ActiveSceneChanged(){} // RVA: 0x7FFE86EB2770
-        public void remove_ActiveSceneChanged(){} // RVA: 0x7FFE86EB2870
-        public void .ctor(){} // RVA: 0x7FFE86EB2970
-        public void .cctor(){} // RVA: 0x7FFE86EB2CB0
-        public void <.ctor>b__10_0(){} // RVA: 0x7FFE86EB2D60
-        public void <.ctor>b__10_1(){} // RVA: 0x7FFE86EB2E50
-        public void <.ctor>b__10_2(){} // RVA: 0x7FFE86EB2F20
+        public void add_SceneLoaded(){} // RVA: 0x7FFAF8E21950
+        public void remove_SceneLoaded(){} // RVA: 0x7FFAF8E21A50
+        public void add_SceneUnloaded(){} // RVA: 0x7FFAF8E21B50
+        public void remove_SceneUnloaded(){} // RVA: 0x7FFAF8E21C50
+        public void add_ActiveSceneChanged(){} // RVA: 0x7FFAF8E21D50
+        public void remove_ActiveSceneChanged(){} // RVA: 0x7FFAF8E21E50
+        public void .ctor(){} // RVA: 0x7FFAF8E21F50
+        public void .cctor(){} // RVA: 0x7FFAF8E22290
+        public void <.ctor>b__10_0(){} // RVA: 0x7FFAF8E22340
+        public void <.ctor>b__10_1(){} // RVA: 0x7FFAF8E22430
+        public void <.ctor>b__10_2(){} // RVA: 0x7FFAF8E22500
     }
 
-    public class SceneManagerTracingAPI : SceneManagerAPI
+    public class SceneManagerTracingAPI
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE865D1710
-        public void LoadSceneAsyncByNameOrIndex(){} // RVA: 0x7FFE865D17B0
+        public void .ctor(){} // RVA: 0x7FFAF85409B0
+        public void LoadSceneAsyncByNameOrIndex(){} // RVA: 0x7FFAF8540A50
     }
 
-    public class SceneManagerTracingIntegration : Object
+    public class SceneManagerTracingIntegration : kA
     {
         // ── Methods ──
-        public void Register(){} // RVA: 0x7FFE865D1420
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Register(){} // RVA: 0x7FFAF85406C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ScopeObserver : Object
+    public class ScopeObserver
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8680DC00
-        public void AddBreadcrumb(){} // RVA: 0x7FFE86EB8140
-        public void AddBreadcrumbImpl(){} // RVA: 0x7FFE80E460A0
-        public void SetExtra(){} // RVA: 0x7FFE86EB8350
-        public void SetExtraImpl(){} // RVA: 0x7FFE80E4F230
-        public void SetTag(){} // RVA: 0x7FFE86EB8690
-        public void SetTagImpl(){} // RVA: 0x7FFE80E4F230
-        public void UnsetTag(){} // RVA: 0x7FFE86EB8870
-        public void UnsetTagImpl(){} // RVA: 0x7FFE80E460A0
-        public void SetUser(){} // RVA: 0x7FFE86EB8A10
-        public void SetUserImpl(){} // RVA: 0x7FFE80E460A0
-        public void UnsetUserImpl(){} // RVA: 0x7FFE80E45FE0
+        public void .ctor(){} // RVA: 0x7FFAF877CD00
+        public void AddBreadcrumb(){} // RVA: 0x7FFAF8E27720
+        public void AddBreadcrumbImpl(){} // RVA: 0x7FFAF2AD4B10
+        public void SetExtra(){} // RVA: 0x7FFAF8E27930
+        public void SetExtraImpl(){} // RVA: 0x7FFAF2ADDC60
+        public void SetTag(){} // RVA: 0x7FFAF8E27C70
+        public void SetTagImpl(){} // RVA: 0x7FFAF2ADDC60
+        public void UnsetTag(){} // RVA: 0x7FFAF8E27E50
+        public void UnsetTagImpl(){} // RVA: 0x7FFAF2AD4B10
+        public void SetUser(){} // RVA: 0x7FFAF8E27FF0
+        public void SetUserImpl(){} // RVA: 0x7FFAF2AD4B10
+        public void UnsetUserImpl(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class ScreenshotAttachment : SentryAttachment
+    public class ScreenshotAttachment
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EB8CD0
+        public void .ctor(){} // RVA: 0x7FFAF8E282B0
     }
 
-    public class ScreenshotAttachmentContent : Object
+    public class ScreenshotAttachmentContent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void GetStream(){} // RVA: 0x7FFE86EB8D50
-        public void GetTargetResolution(){} // RVA: 0x7FFE86EB8FA0
-        public void CaptureScreenshot(){} // RVA: 0x7FFE86EB8FC0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void GetStream(){} // RVA: 0x7FFAF8E28330
+        public void GetTargetResolution(){} // RVA: 0x7FFAF8E28580
+        public void CaptureScreenshot(){} // RVA: 0x7FFAF8E285A0
     }
 
-    public class ScriptableSentryUnityOptions : ScriptableObject
+    public class ScriptableSentryUnityOptions
     {
-        public string ConfigRootFolder;
-        public string ConfigName;
-        public bool _enabled; // 0x18
-        public string _dsn; // 0x20
-        public bool _captureInEditor; // 0x28
-        public bool _enableLogDebouncing; // 0x29
-        public int _debounceTimeLog; // 0x2C
-        public int _debounceTimeWarning; // 0x30
-        public int _debounceTimeError; // 0x34
-        public double _tracesSampleRate; // 0x38
-        public bool _autoStartupTraces; // 0x40
-        public bool _autoSceneLoadTraces; // 0x41
-        public bool _autoAwakeTraces; // 0x42
-        public bool _autoSessionTracking; // 0x43
-        public int _autoSessionTrackingInterval; // 0x44
-        public string _releaseOverride; // 0x48
-        public string _environmentOverride; // 0x50
-        public bool _attachStacktrace; // 0x58
-        public bool _attachScreenshot; // 0x59
-        public 0x66685974 _screenshotQuality; // 0x5C
-        public int _screenshotCompression; // 0x60
-        public bool _attachViewHierarchy; // 0x64
-        public int _maxViewHierarchyRootObjects; // 0x68
-        public int _maxViewHierarchyObjectChildCount; // 0x6C
-        public int _maxViewHierarchyDepth; // 0x70
-        public bool _breadcrumbsForLogs; // 0x74
-        public bool _breadcrumbsForWarnings; // 0x75
-        public bool _breadcrumbsForAsserts; // 0x76
-        public bool _breadcrumbsForErrors; // 0x77
-        public bool _breadcrumbsForExceptions; // 0x78
-        public int _maxBreadcrumbs; // 0x7C
-        public 0x66591A2C _reportAssembliesMode; // 0x80
-        public bool _sendDefaultPii; // 0x84
-        public bool _isEnvironmentUser; // 0x85
-        public bool _enableOfflineCaching; // 0x86
-        public int _maxCacheItems; // 0x88
-        public int _initCacheFlushTimeout; // 0x8C
-        public float _sampleRate; // 0x90
-        public int _shutdownTimeout; // 0x94
-        public int _maxQueueItems; // 0x98
-        public bool _anrDetectionEnabled; // 0x9C
-        public int _anrTimeout; // 0xA0
-        public bool _captureFailedRequests; // 0xA4
-        public System.Collections.Generic.List`1<int> _failedRequestStatusCodes; // 0xA8
-        public bool _filterBadGatewayExceptions; // 0xB0
-        public bool _filterWebExceptions; // 0xB1
-        public bool _filterSocketExceptions; // 0xB2
-        public bool _iosNativeSupportEnabled; // 0xB3
-        public bool _androidNativeSupportEnabled; // 0xB4
-        public bool _ndkIntegrationEnabled; // 0xB5
-        public bool _ndkScopeSyncEnabled; // 0xB6
-        public int _postGenerateGradleProjectCallbackOrder; // 0xB8
-        public bool _windowsNativeSupportEnabled; // 0xBC
-        public bool _macosNativeSupportEnabled; // 0xBD
-        public bool _linuxNativeSupportEnabled; // 0xBE
-        public bool _il2CppLineNumberSupportEnabled; // 0xBF
-        public Sentry.Unity.SentryRuntimeOptionsConfiguration _runtimeOptionsConfiguration; // 0xC0
-        public Sentry.Unity.SentryBuildTimeOptionsConfiguration _buildTimeOptionsConfiguration; // 0xC8
-        public Sentry.Unity.SentryOptionsConfiguration _optionsConfiguration; // 0xD0
-        public bool _debug; // 0xD8
-
         // ── Methods ──
-        public void GetConfigPath(){} // RVA: 0x7FFE86EB98B0
-        public void get_Enabled(){} // RVA: 0x7FFE811164E0
-        public void set_Enabled(){} // RVA: 0x7FFE811164F0
-        public void get_Dsn(){} // RVA: 0x7FFE811290C0
-        public void set_Dsn(){} // RVA: 0x7FFE811290D0
-        public void get_CaptureInEditor(){} // RVA: 0x7FFE815F1380
-        public void set_CaptureInEditor(){} // RVA: 0x7FFE81C15740
-        public void get_EnableLogDebouncing(){} // RVA: 0x7FFE819C2EA0
-        public void set_EnableLogDebouncing(){} // RVA: 0x7FFE8268C820
-        public void get_DebounceTimeLog(){} // RVA: 0x7FFE81F84A50
-        public void set_DebounceTimeLog(){} // RVA: 0x7FFE82883A50
-        public void get_DebounceTimeWarning(){} // RVA: 0x7FFE81156CD0
-        public void set_DebounceTimeWarning(){} // RVA: 0x7FFE81156CE0
-        public void get_DebounceTimeError(){} // RVA: 0x7FFE82447220
-        public void set_DebounceTimeError(){} // RVA: 0x7FFE82443340
-        public void get_TracesSampleRate(){} // RVA: 0x7FFE83FADDB0
-        public void set_TracesSampleRate(){} // RVA: 0x7FFE83FADDC0
-        public void get_AutoStartupTraces(){} // RVA: 0x7FFE811B6C00
-        public void set_AutoStartupTraces(){} // RVA: 0x7FFE811B6C10
-        public void get_AutoSceneLoadTraces(){} // RVA: 0x7FFE814645D0
-        public void set_AutoSceneLoadTraces(){} // RVA: 0x7FFE814641E0
-        public void get_AutoAwakeTraces(){} // RVA: 0x7FFE81463AF0
-        public void set_AutoAwakeTraces(){} // RVA: 0x7FFE81463C10
-        public void get_AutoSessionTracking(){} // RVA: 0x7FFE822BB340
-        public void set_AutoSessionTracking(){} // RVA: 0x7FFE82876450
-        public void get_AutoSessionTrackingInterval(){} // RVA: 0x7FFE8119C0A0
-        public void set_AutoSessionTrackingInterval(){} // RVA: 0x7FFE8119C0B0
-        public void get_ReleaseOverride(){} // RVA: 0x7FFE81176730
-        public void set_ReleaseOverride(){} // RVA: 0x7FFE81176740
-        public void get_EnvironmentOverride(){} // RVA: 0x7FFE8119C0E0
-        public void set_EnvironmentOverride(){} // RVA: 0x7FFE812534D0
-        public void get_AttachStacktrace(){} // RVA: 0x7FFE813A1140
-        public void set_AttachStacktrace(){} // RVA: 0x7FFE819E83C0
-        public void get_AttachScreenshot(){} // RVA: 0x7FFE85BA8C00
-        public void set_AttachScreenshot(){} // RVA: 0x7FFE86B5F180
-        public void get_ScreenshotQuality(){} // RVA: 0x7FFE813A7A20
-        public void set_ScreenshotQuality(){} // RVA: 0x7FFE8175ACA0
-        public void get_ScreenshotCompression(){} // RVA: 0x7FFE8139EA30
-        public void set_ScreenshotCompression(){} // RVA: 0x7FFE8139E520
-        public void get_AttachViewHierarchy(){} // RVA: 0x7FFE821FF050
-        public void set_AttachViewHierarchy(){} // RVA: 0x7FFE82A22EE0
-        public void get_MaxViewHierarchyRootObjects(){} // RVA: 0x7FFE82A22EF0
-        public void set_MaxViewHierarchyRootObjects(){} // RVA: 0x7FFE82A22F00
-        public void get_MaxViewHierarchyObjectChildCount(){} // RVA: 0x7FFE82A22F10
-        public void set_MaxViewHierarchyObjectChildCount(){} // RVA: 0x7FFE82A22F20
-        public void get_MaxViewHierarchyDepth(){} // RVA: 0x7FFE81E60180
-        public void set_MaxViewHierarchyDepth(){} // RVA: 0x7FFE81293CF0
-        public void get_BreadcrumbsForLogs(){} // RVA: 0x7FFE81E8DCD0
-        public void set_BreadcrumbsForLogs(){} // RVA: 0x7FFE8656ED40
-        public void get_BreadcrumbsForWarnings(){} // RVA: 0x7FFE81EB9540
-        public void set_BreadcrumbsForWarnings(){} // RVA: 0x7FFE86EB9930
-        public void get_BreadcrumbsForAsserts(){} // RVA: 0x7FFE81EC3960
-        public void set_BreadcrumbsForAsserts(){} // RVA: 0x7FFE86EB9940
-        public void get_BreadcrumbsForErrors(){} // RVA: 0x7FFE86EB9950
-        public void set_BreadcrumbsForErrors(){} // RVA: 0x7FFE86EB9960
-        public void get_BreadcrumbsForExceptions(){} // RVA: 0x7FFE816400C0
-        public void set_BreadcrumbsForExceptions(){} // RVA: 0x7FFE81FE6AC0
-        public void get_MaxBreadcrumbs(){} // RVA: 0x7FFE8286B570
-        public void set_MaxBreadcrumbs(){} // RVA: 0x7FFE86D89990
-        public void get_ReportAssembliesMode(){} // RVA: 0x7FFE81D30560
-        public void set_ReportAssembliesMode(){} // RVA: 0x7FFE81D307B0
-        public void get_SendDefaultPii(){} // RVA: 0x7FFE811DACE0
-        public void set_SendDefaultPii(){} // RVA: 0x7FFE811DACF0
-        public void get_IsEnvironmentUser(){} // RVA: 0x7FFE81EB0A70
-        public void set_IsEnvironmentUser(){} // RVA: 0x7FFE86EB9970
-        public void get_EnableOfflineCaching(){} // RVA: 0x7FFE821F4D30
-        public void set_EnableOfflineCaching(){} // RVA: 0x7FFE86EB9980
-        public void get_MaxCacheItems(){} // RVA: 0x7FFE8194AD00
-        public void set_MaxCacheItems(){} // RVA: 0x7FFE8194A400
-        public void get_InitCacheFlushTimeout(){} // RVA: 0x7FFE842B66B0
-        public void set_InitCacheFlushTimeout(){} // RVA: 0x7FFE848F07E0
-        public void get_SampleRate(){} // RVA: 0x7FFE81163540
-        public void set_SampleRate(){} // RVA: 0x7FFE81163550
-        public void get_ShutdownTimeout(){} // RVA: 0x7FFE814AA230
-        public void set_ShutdownTimeout(){} // RVA: 0x7FFE81680470
-        public void get_MaxQueueItems(){} // RVA: 0x7FFE82B06A40
-        public void set_MaxQueueItems(){} // RVA: 0x7FFE82B06FA0
-        public void get_AnrDetectionEnabled(){} // RVA: 0x7FFE86EB9990
-        public void set_AnrDetectionEnabled(){} // RVA: 0x7FFE86560ED0
-        public void get_AnrTimeout(){} // RVA: 0x7FFE82B06FB0
-        public void set_AnrTimeout(){} // RVA: 0x7FFE82B06FC0
-        public void get_CaptureFailedRequests(){} // RVA: 0x7FFE813A1BB0
-        public void set_CaptureFailedRequests(){} // RVA: 0x7FFE813A4B20
-        public void get_FailedRequestStatusCodes(){} // RVA: 0x7FFE817AB5E0
-        public void set_FailedRequestStatusCodes(){} // RVA: 0x7FFE81857260
-        public void get_FilterBadGatewayExceptions(){} // RVA: 0x7FFE824A0700
-        public void set_FilterBadGatewayExceptions(){} // RVA: 0x7FFE824A0BA0
-        public void get_FilterWebExceptions(){} // RVA: 0x7FFE848BEF10
-        public void set_FilterWebExceptions(){} // RVA: 0x7FFE848BEF20
-        public void get_FilterSocketExceptions(){} // RVA: 0x7FFE86CE93D0
-        public void set_FilterSocketExceptions(){} // RVA: 0x7FFE86CE93E0
-        public void get_IosNativeSupportEnabled(){} // RVA: 0x7FFE86CE93F0
-        public void set_IosNativeSupportEnabled(){} // RVA: 0x7FFE86CE9400
-        public void get_AndroidNativeSupportEnabled(){} // RVA: 0x7FFE86CE9410
-        public void set_AndroidNativeSupportEnabled(){} // RVA: 0x7FFE86CE9420
-        public void get_NdkIntegrationEnabled(){} // RVA: 0x7FFE86EB99A0
-        public void set_NdkIntegrationEnabled(){} // RVA: 0x7FFE86EB99B0
-        public void get_NdkScopeSyncEnabled(){} // RVA: 0x7FFE86EB99C0
-        public void set_NdkScopeSyncEnabled(){} // RVA: 0x7FFE86EB99D0
-        public void get_PostGenerateGradleProjectCallbackOrder(){} // RVA: 0x7FFE8260FFA0
-        public void set_PostGenerateGradleProjectCallbackOrder(){} // RVA: 0x7FFE826140C0
-        public void get_WindowsNativeSupportEnabled(){} // RVA: 0x7FFE86C70890
-        public void set_WindowsNativeSupportEnabled(){} // RVA: 0x7FFE86C708A0
-        public void get_MacosNativeSupportEnabled(){} // RVA: 0x7FFE86EB99E0
-        public void set_MacosNativeSupportEnabled(){} // RVA: 0x7FFE86EB99F0
-        public void get_LinuxNativeSupportEnabled(){} // RVA: 0x7FFE86EB9A00
-        public void set_LinuxNativeSupportEnabled(){} // RVA: 0x7FFE86EB9A10
-        public void get_Il2CppLineNumberSupportEnabled(){} // RVA: 0x7FFE86EB9A20
-        public void set_Il2CppLineNumberSupportEnabled(){} // RVA: 0x7FFE86EB9A30
-        public void get_RuntimeOptionsConfiguration(){} // RVA: 0x7FFE81166120
-        public void set_RuntimeOptionsConfiguration(){} // RVA: 0x7FFE81166130
-        public void get_BuildTimeOptionsConfiguration(){} // RVA: 0x7FFE81253460
-        public void set_BuildTimeOptionsConfiguration(){} // RVA: 0x7FFE81253470
-        public void get_OptionsConfiguration(){} // RVA: 0x7FFE81218100
-        public void set_OptionsConfiguration(){} // RVA: 0x7FFE81218110
-        public void get_Debug(){} // RVA: 0x7FFE82078290
-        public void set_Debug(){} // RVA: 0x7FFE86C70900
-        public void get_DebugOnlyInEditor(){} // RVA: 0x7FFE86EB9A40
-        public void set_DebugOnlyInEditor(){} // RVA: 0x7FFE86EB9A50
-        public void get_DiagnosticLevel(){} // RVA: 0x7FFE86EB9A60
-        public void set_DiagnosticLevel(){} // RVA: 0x7FFE86EB9A70
-        public void LoadSentryUnityOptions(){} // RVA: 0x7FFE86EB9A80
-        public void ToSentryUnityOptions(){} // RVA: 0x7FFE86EB9B00
-        public void HandlePlatformRestrictedOptions(){} // RVA: 0x7FFE86EBA8A0
-        public void HandleExceptionFilter(){} // RVA: 0x7FFE86EBAB00
-        public void ShouldDebug(){} // RVA: 0x7FFE86EBABC0
-        public void .ctor(){} // RVA: 0x7FFE86EBABE0
+        public void GetConfigPath(){} // RVA: 0x7FFAF8E28E90
+        public void get_Enabled(){} // RVA: 0x7FFAF2DA84E0
+        public void set_Enabled(){} // RVA: 0x7FFAF2DA84F0
+        public void get_Dsn(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_Dsn(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_CaptureInEditor(){} // RVA: 0x7FFAF3198A80
+        public void set_CaptureInEditor(){} // RVA: 0x7FFAF3198B80
+        public void get_EnableLogDebouncing(){} // RVA: 0x7FFAF36E6000
+        public void set_EnableLogDebouncing(){} // RVA: 0x7FFAF43BAB20
+        public void get_DebounceTimeLog(){} // RVA: 0x7FFAF3CB9F00
+        public void set_DebounceTimeLog(){} // RVA: 0x7FFAF45ACF60
+        public void get_DebounceTimeWarning(){} // RVA: 0x7FFAF2DE8CD0
+        public void set_DebounceTimeWarning(){} // RVA: 0x7FFAF2DE8CE0
+        public void get_DebounceTimeError(){} // RVA: 0x7FFAF2F76670
+        public void set_DebounceTimeError(){} // RVA: 0x7FFAF2F75F20
+        public void get_TracesSampleRate(){} // RVA: 0x7FFAF5DDF490
+        public void set_TracesSampleRate(){} // RVA: 0x7FFAF5DDF4A0
+        public void get_AutoStartupTraces(){} // RVA: 0x7FFAF2E48C00
+        public void set_AutoStartupTraces(){} // RVA: 0x7FFAF2E48C10
+        public void get_AutoSceneLoadTraces(){} // RVA: 0x7FFAF310EEC0
+        public void set_AutoSceneLoadTraces(){} // RVA: 0x7FFAF310EEB0
+        public void get_AutoAwakeTraces(){} // RVA: 0x7FFAF310F560
+        public void set_AutoAwakeTraces(){} // RVA: 0x7FFAF310F1B0
+        public void get_AutoSessionTracking(){} // RVA: 0x7FFAF3FC4560
+        public void set_AutoSessionTracking(){} // RVA: 0x7FFAF45A8C50
+        public void get_AutoSessionTrackingInterval(){} // RVA: 0x7FFAF2E2E0A0
+        public void set_AutoSessionTrackingInterval(){} // RVA: 0x7FFAF2E2E0B0
+        public void get_ReleaseOverride(){} // RVA: 0x7FFAF2E08730
+        public void set_ReleaseOverride(){} // RVA: 0x7FFAF2E08740
+        public void get_EnvironmentOverride(){} // RVA: 0x7FFAF2E2E0E0
+        public void set_EnvironmentOverride(){} // RVA: 0x7FFAF2EE54D0
+        public void get_AttachStacktrace(){} // RVA: 0x7FFAF304FF30
+        public void set_AttachStacktrace(){} // RVA: 0x7FFAF370F680
+        public void get_AttachScreenshot(){} // RVA: 0x7FFAF7A94B90
+        public void set_AttachScreenshot(){} // RVA: 0x7FFAF8ACE3A0
+        public void get_ScreenshotQuality(){} // RVA: 0x7FFAF30554D0
+        public void set_ScreenshotQuality(){} // RVA: 0x7FFAF349ACA0
+        public void get_ScreenshotCompression(){} // RVA: 0x7FFAF304CEC0
+        public void set_ScreenshotCompression(){} // RVA: 0x7FFAF304C530
+        public void get_AttachViewHierarchy(){} // RVA: 0x7FFAF3F48640
+        public void set_AttachViewHierarchy(){} // RVA: 0x7FFAF4741430
+        public void get_MaxViewHierarchyRootObjects(){} // RVA: 0x7FFAF4741440
+        public void set_MaxViewHierarchyRootObjects(){} // RVA: 0x7FFAF4741450
+        public void get_MaxViewHierarchyObjectChildCount(){} // RVA: 0x7FFAF4741460
+        public void set_MaxViewHierarchyObjectChildCount(){} // RVA: 0x7FFAF4741470
+        public void get_MaxViewHierarchyDepth(){} // RVA: 0x7FFAF3B95CF0
+        public void set_MaxViewHierarchyDepth(){} // RVA: 0x7FFAF2F25080
+        public void get_BreadcrumbsForLogs(){} // RVA: 0x7FFAF3BD0170
+        public void set_BreadcrumbsForLogs(){} // RVA: 0x7FFAF84DDFE0
+        public void get_BreadcrumbsForWarnings(){} // RVA: 0x7FFAF3C0F200
+        public void set_BreadcrumbsForWarnings(){} // RVA: 0x7FFAF8E28F10
+        public void get_BreadcrumbsForAsserts(){} // RVA: 0x7FFAF3C10850
+        public void set_BreadcrumbsForAsserts(){} // RVA: 0x7FFAF8E28F20
+        public void get_BreadcrumbsForErrors(){} // RVA: 0x7FFAF8E28F30
+        public void set_BreadcrumbsForErrors(){} // RVA: 0x7FFAF8E28F40
+        public void get_BreadcrumbsForExceptions(){} // RVA: 0x7FFAF33510E0
+        public void set_BreadcrumbsForExceptions(){} // RVA: 0x7FFAF4138890
+        public void get_MaxBreadcrumbs(){} // RVA: 0x7FFAF4596E60
+        public void set_MaxBreadcrumbs(){} // RVA: 0x7FFAF8CF8F70
+        public void get_ReportAssembliesMode(){} // RVA: 0x7FFAF3A74570
+        public void set_ReportAssembliesMode(){} // RVA: 0x7FFAF3A74560
+        public void get_SendDefaultPii(){} // RVA: 0x7FFAF2E6CCE0
+        public void set_SendDefaultPii(){} // RVA: 0x7FFAF2E6CCF0
+        public void get_IsEnvironmentUser(){} // RVA: 0x7FFAF3BE2B00
+        public void set_IsEnvironmentUser(){} // RVA: 0x7FFAF8E28F50
+        public void get_EnableOfflineCaching(){} // RVA: 0x7FFAF3F40E50
+        public void set_EnableOfflineCaching(){} // RVA: 0x7FFAF8E28F60
+        public void get_MaxCacheItems(){} // RVA: 0x7FFAF36690C0
+        public void set_MaxCacheItems(){} // RVA: 0x7FFAF3669E60
+        public void get_InitCacheFlushTimeout(){} // RVA: 0x7FFAF60EA7C0
+        public void set_InitCacheFlushTimeout(){} // RVA: 0x7FFAF672AFE0
+        public void get_SampleRate(){} // RVA: 0x7FFAF2DF5540
+        public void set_SampleRate(){} // RVA: 0x7FFAF2DF5550
+        public void get_ShutdownTimeout(){} // RVA: 0x7FFAF315FD30
+        public void set_ShutdownTimeout(){} // RVA: 0x7FFAF338F350
+        public void get_MaxQueueItems(){} // RVA: 0x7FFAF4826570
+        public void set_MaxQueueItems(){} // RVA: 0x7FFAF4826000
+        public void get_AnrDetectionEnabled(){} // RVA: 0x7FFAF8E28F70
+        public void set_AnrDetectionEnabled(){} // RVA: 0x7FFAF84D0170
+        public void get_AnrTimeout(){} // RVA: 0x7FFAF4826590
+        public void set_AnrTimeout(){} // RVA: 0x7FFAF4826550
+        public void get_CaptureFailedRequests(){} // RVA: 0x7FFAF304FF40
+        public void set_CaptureFailedRequests(){} // RVA: 0x7FFAF3056940
+        public void get_FailedRequestStatusCodes(){} // RVA: 0x7FFAF34CC130
+        public void set_FailedRequestStatusCodes(){} // RVA: 0x7FFAF3595030
+        public void get_FilterBadGatewayExceptions(){} // RVA: 0x7FFAF41E23D0
+        public void set_FilterBadGatewayExceptions(){} // RVA: 0x7FFAF41E5610
+        public void get_FilterWebExceptions(){} // RVA: 0x7FFAF66F9C40
+        public void set_FilterWebExceptions(){} // RVA: 0x7FFAF66F9C50
+        public void get_FilterSocketExceptions(){} // RVA: 0x7FFAF8C585F0
+        public void set_FilterSocketExceptions(){} // RVA: 0x7FFAF8C58600
+        public void get_IosNativeSupportEnabled(){} // RVA: 0x7FFAF8C58610
+        public void set_IosNativeSupportEnabled(){} // RVA: 0x7FFAF8C58620
+        public void get_AndroidNativeSupportEnabled(){} // RVA: 0x7FFAF8C58630
+        public void set_AndroidNativeSupportEnabled(){} // RVA: 0x7FFAF8C58640
+        public void get_NdkIntegrationEnabled(){} // RVA: 0x7FFAF8E28F80
+        public void set_NdkIntegrationEnabled(){} // RVA: 0x7FFAF8E28F90
+        public void get_NdkScopeSyncEnabled(){} // RVA: 0x7FFAF8E28FA0
+        public void set_NdkScopeSyncEnabled(){} // RVA: 0x7FFAF8E28FB0
+        public void get_PostGenerateGradleProjectCallbackOrder(){} // RVA: 0x7FFAF4346340
+        public void set_PostGenerateGradleProjectCallbackOrder(){} // RVA: 0x7FFAF4346350
+        public void get_WindowsNativeSupportEnabled(){} // RVA: 0x7FFAF8BDFAC0
+        public void set_WindowsNativeSupportEnabled(){} // RVA: 0x7FFAF8BDFAD0
+        public void get_MacosNativeSupportEnabled(){} // RVA: 0x7FFAF8E28FC0
+        public void set_MacosNativeSupportEnabled(){} // RVA: 0x7FFAF8E28FD0
+        public void get_LinuxNativeSupportEnabled(){} // RVA: 0x7FFAF8E28FE0
+        public void set_LinuxNativeSupportEnabled(){} // RVA: 0x7FFAF8E28FF0
+        public void get_Il2CppLineNumberSupportEnabled(){} // RVA: 0x7FFAF8E29000
+        public void set_Il2CppLineNumberSupportEnabled(){} // RVA: 0x7FFAF8E29010
+        public void get_RuntimeOptionsConfiguration(){} // RVA: 0x7FFAF2DF8120
+        public void set_RuntimeOptionsConfiguration(){} // RVA: 0x7FFAF2DF8130
+        public void get_BuildTimeOptionsConfiguration(){} // RVA: 0x7FFAF2EE5460
+        public void set_BuildTimeOptionsConfiguration(){} // RVA: 0x7FFAF2EE5470
+        public void get_OptionsConfiguration(){} // RVA: 0x7FFAF2EAA100
+        public void set_OptionsConfiguration(){} // RVA: 0x7FFAF2EAA110
+        public void get_Debug(){} // RVA: 0x7FFAF3DAD610
+        public void set_Debug(){} // RVA: 0x7FFAF8BDFB20
+        public void get_DebugOnlyInEditor(){} // RVA: 0x7FFAF8E29020
+        public void set_DebugOnlyInEditor(){} // RVA: 0x7FFAF8E29030
+        public void get_DiagnosticLevel(){} // RVA: 0x7FFAF8E29040
+        public void set_DiagnosticLevel(){} // RVA: 0x7FFAF8E29050
+        public void LoadSentryUnityOptions(){} // RVA: 0x7FFAF8E29060
+        public void ToSentryUnityOptions(){} // RVA: 0x7FFAF8E290E0
+        public void HandlePlatformRestrictedOptions(){} // RVA: 0x7FFAF8E29E80
+        public void HandleExceptionFilter(){} // RVA: 0x7FFAF8E2A0E0
+        public void ShouldDebug(){} // RVA: 0x7FFAF8E2A1A0
+        public void .ctor(){} // RVA: 0x7FFAF8E2A1C0
     }
 
-    public class SentryBuildTimeOptionsConfiguration : ScriptableObject
+    public class SentryBuildTimeOptionsConfiguration
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x7FFE80E4F230
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void Configure(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class SentryCliOptions : ScriptableObject
+    public class SentryCliOptions
     {
-        public string ConfigName;
-        public string EditorMenuPath;
-        public bool _uploadSymbols; // 0x18
-        public bool _uploadDevelopmentSymbols; // 0x19
-        public bool _uploadSources; // 0x1A
-        public string _urlOverride; // 0x20
-        public string _auth; // 0x28
-        public string _organization; // 0x30
-        public string _project; // 0x38
+        public object ShouldApplyVolume;
+        public object ShouldApplyPitch;
+        public object ShouldApplyClip;
+        public object ShouldApplyLoop;
+        public object debugString;
+        public object initialized;
 
         // ── Methods ──
-        public void get_UploadSymbols(){} // RVA: 0x7FFE811164E0
-        public void set_UploadSymbols(){} // RVA: 0x7FFE811164F0
-        public void get_UploadDevelopmentSymbols(){} // RVA: 0x7FFE814B3730
-        public void set_UploadDevelopmentSymbols(){} // RVA: 0x7FFE81CD0510
-        public void get_UploadSources(){} // RVA: 0x7FFE82930110
-        public void set_UploadSources(){} // RVA: 0x7FFE8292DD10
-        public void get_UrlOverride(){} // RVA: 0x7FFE811290C0
-        public void set_UrlOverride(){} // RVA: 0x7FFE811290D0
-        public void get_Auth(){} // RVA: 0x7FFE81129130
-        public void set_Auth(){} // RVA: 0x7FFE810FCE90
-        public void get_Organization(){} // RVA: 0x7FFE8144E200
-        public void set_Organization(){} // RVA: 0x7FFE81129890
-        public void get_Project(){} // RVA: 0x7FFE8143BA80
-        public void set_Project(){} // RVA: 0x7FFE81437330
-        public void get_IgnoreCliErrors(){} // RVA: 0x7FFE811B6C00
-        public void set_IgnoreCliErrors(){} // RVA: 0x7FFE811B6C10
-        public void get_CliOptionsConfiguration(){} // RVA: 0x7FFE81176730
-        public void set_CliOptionsConfiguration(){} // RVA: 0x7FFE81176740
-        public void GetConfigPath(){} // RVA: 0x7FFE86EBB200
-        public void MissingFieldWarning(){} // RVA: 0x7FFE86EBB280
-        public void IsValid(){} // RVA: 0x7FFE86EBB340
-        public void .ctor(){} // RVA: 0x7FFE86EBB4D0
+        public void get_UploadSymbols(){} // RVA: 0x7FFAF2DA84E0
+        public void set_UploadSymbols(){} // RVA: 0x7FFAF2DA84F0
+        public void get_UploadDevelopmentSymbols(){} // RVA: 0x7FFAF31693D0
+        public void set_UploadDevelopmentSymbols(){} // RVA: 0x7FFAF39F3D70
+        public void get_UploadSources(){} // RVA: 0x7FFAF4648340
+        public void set_UploadSources(){} // RVA: 0x7FFAF4648210
+        public void get_UrlOverride(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_UrlOverride(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_Auth(){} // RVA: 0x7FFAF2DBB130
+        public void set_Auth(){} // RVA: 0x7FFAF2D8EE90
+        public void get_Organization(){} // RVA: 0x7FFAF30E74D0
+        public void set_Organization(){} // RVA: 0x7FFAF2DBB890
+        public void get_Project(){} // RVA: 0x7FFAF2F476A0
+        public void set_Project(){} // RVA: 0x7FFAF2F4B830
+        public void get_IgnoreCliErrors(){} // RVA: 0x7FFAF2E48C00
+        public void set_IgnoreCliErrors(){} // RVA: 0x7FFAF2E48C10
+        public void get_CliOptionsConfiguration(){} // RVA: 0x7FFAF2E08730
+        public void set_CliOptionsConfiguration(){} // RVA: 0x7FFAF2E08740
+        public void GetConfigPath(){} // RVA: 0x7FFAF8E2A7E0
+        public void MissingFieldWarning(){} // RVA: 0x7FFAF8E2A860
+        public void IsValid(){} // RVA: 0x7FFAF8E2A920
+        public void .ctor(){} // RVA: 0x7FFAF8E2AAB0
     }
 
-    public class SentryCliOptionsConfiguration : ScriptableObject
+    public class SentryCliOptionsConfiguration
     {
         // ── Methods ──
-        public void GetAssetPath(){} // RVA: 0x7FFE86EBB4E0
-        public void Configure(){} // RVA: 0x7FFE80E460A0
-        public void .ctor(){} // RVA: 0x7FFE81345B60
-        public void .cctor(){} // RVA: 0x7FFE86EBB540
+        public void GetAssetPath(){} // RVA: 0x7FFAF8E2AAC0
+        public void Configure(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
+        public void .cctor(){} // RVA: 0x7FFAF8E2AB20
     }
 
-    public class SentryInitialization : Object
+    public class SentryInitialization
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFE865CF740
+        public void Init(){} // RVA: 0x7FFAF853E9E0
     }
 
-    public class SentryIntegrations : Object
+    public class SentryIntegrations
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x7FFE865D0770
+        public void Configure(){} // RVA: 0x7FFAF853FA10
     }
 
-    public class SentryMonoBehaviour : MonoBehaviour
+    public class SentryMonoBehaviour
     {
-        public Sentry.Unity.SentryMonoBehaviour _instance;
-        public System.Action ApplicationResuming; // 0x20
-
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x7FFE86EBB5F0
-        public void StartAwakeSpan(){} // RVA: 0x7FFE86EBB810
-        public void FinishAwakeSpan(){} // RVA: 0x7FFE86EBB9B0
-        public void add_ApplicationResuming(){} // RVA: 0x7FFE86EBBA30
-        public void remove_ApplicationResuming(){} // RVA: 0x7FFE86EBBB20
-        public void add_ApplicationPausing(){} // RVA: 0x7FFE86EBBC10
-        public void remove_ApplicationPausing(){} // RVA: 0x7FFE86EBBD00
-        public void get_Application(){} // RVA: 0x7FFE86EBBDF0
-        public void set_Application(){} // RVA: 0x7FFE81437330
-        public void UpdatePauseStatus(){} // RVA: 0x7FFE86EBBEB0
-        public void OnApplicationPause(){} // RVA: 0x7FFE86EBBEB0
-        public void OnApplicationFocus(){} // RVA: 0x7FFE86EBBEF0
-        public void OnApplicationQuit(){} // RVA: 0x7FFE86EBBF30
-        public void Awake(){} // RVA: 0x7FFE86EBBFD0
-        public void .ctor(){} // RVA: 0x7FFE811AF710
+        public void get_Instance(){} // RVA: 0x7FFAF8E2ABD0
+        public void StartAwakeSpan(){} // RVA: 0x7FFAF8E2ADF0
+        public void FinishAwakeSpan(){} // RVA: 0x7FFAF8E2AF90
+        public void add_ApplicationResuming(){} // RVA: 0x7FFAF8E2B010
+        public void remove_ApplicationResuming(){} // RVA: 0x7FFAF8E2B100
+        public void add_ApplicationPausing(){} // RVA: 0x7FFAF8E2B1F0
+        public void remove_ApplicationPausing(){} // RVA: 0x7FFAF8E2B2E0
+        public void get_Application(){} // RVA: 0x7FFAF8E2B3D0
+        public void set_Application(){} // RVA: 0x7FFAF2F4B830
+        public void UpdatePauseStatus(){} // RVA: 0x7FFAF8E2B490
+        public void OnApplicationPause(){} // RVA: 0x7FFAF8E2B490
+        public void OnApplicationFocus(){} // RVA: 0x7FFAF8E2B4D0
+        public void OnApplicationQuit(){} // RVA: 0x7FFAF8E2B510
+        public void Awake(){} // RVA: 0x7FFAF8E2B5B0
+        public void .ctor(){} // RVA: 0x7FFAF2E41710
     }
 
-    public class SentryOptionsConfiguration : ScriptableObject
+    public class SentryOptionsConfiguration
     {
         // ── Methods ──
-        public void GetAssetPath(){} // RVA: 0x7FFE86EBC0A0
-        public void Configure(){} // RVA: 0x7FFE80E460A0
-        public void .ctor(){} // RVA: 0x7FFE81345B60
-        public void .cctor(){} // RVA: 0x7FFE86EBC100
+        public void GetAssetPath(){} // RVA: 0x7FFAF8E2B680
+        public void Configure(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
+        public void .cctor(){} // RVA: 0x7FFAF8E2B6E0
     }
 
-    public class SentryRuntimeOptionsConfiguration : ScriptableObject
+    public class SentryRuntimeOptionsConfiguration
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x7FFE80E460A0
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void Configure(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class SentrySystemInfoAdapter : Object
+    public class SentrySystemInfoAdapter
     {
-        public Sentry.Unity.SentrySystemInfoAdapter Instance;
-        public object field_1; // 0xC3
-        public object field_2; // 0xC4
-        public object field_3; // 0xC5
-        public object field_4; // 0xC6
-        public object field_5; // 0xC7
-        public object field_6; // 0xC8
-        public object field_7; // 0xC9
-        public object field_8; // 0xCA
-        public object field_9; // 0xCB
-        public object field_10; // 0xCC
-        public object field_11; // 0xCD
-        public object field_12; // 0xCE
-        public object field_13; // 0xCF
-        public object field_14; // 0xD0
-        public object field_15; // 0xD1
-        public object field_16; // 0xD2
-        public object field_17; // 0xD3
-        public object field_18; // 0xD4
-        public object field_19; // 0xD5
-        public object field_20; // 0xD6
-        public object field_21; // 0xD7
-        public object field_22; // 0xD8
-        public object field_23; // 0xD9
-        public object field_24; // 0xDA
-        public object field_25; // 0xDB
-        public object field_26; // 0xDC
-        public object field_27; // 0xDD
-        public object field_28; // 0xDE
-        public object field_29; // 0xDF
-        public object field_30; // 0xE0
-        public object field_31; // 0xE1
-        public object field_32; // 0xE2
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_MainThreadId(){} // RVA: 0x7FFE86EBF250
-        public void get_OperatingSystem(){} // RVA: 0x7FFE86EBF2F0
-        public void get_ProcessorCount(){} // RVA: 0x7FFE86EBF340
-        public void get_SupportsVibration(){} // RVA: 0x7FFE86EBF3C0
-        public void get_DeviceType(){} // RVA: 0x7FFE86EBF440
-        public void get_CpuDescription(){} // RVA: 0x7FFE86EBF5E0
-        public void get_DeviceName(){} // RVA: 0x7FFE86EBF630
-        public void get_DeviceUniqueIdentifier(){} // RVA: 0x7FFE86EBF890
-        public void get_DeviceModel(){} // RVA: 0x7FFE86EBFA30
-        public void get_SystemMemorySize(){} // RVA: 0x7FFE86EBFBD0
-        public void get_GraphicsDeviceId(){} // RVA: 0x7FFE86EBFC50
-        public void get_GraphicsDeviceName(){} // RVA: 0x7FFE86EBFCD0
-        public void get_GraphicsDeviceVendorId(){} // RVA: 0x7FFE86EBFD20
-        public void get_GraphicsDeviceVendor(){} // RVA: 0x7FFE86EBFEC0
-        public void get_GraphicsMemorySize(){} // RVA: 0x7FFE86EBFF10
-        public void get_GraphicsMultiThreaded(){} // RVA: 0x7FFE86EBFF90
-        public void get_NpotSupport(){} // RVA: 0x7FFE86EC0120
-        public void get_GraphicsDeviceVersion(){} // RVA: 0x7FFE86EC01B0
-        public void get_GraphicsDeviceType(){} // RVA: 0x7FFE86EC0200
-        public void get_MaxTextureSize(){} // RVA: 0x7FFE86EC0290
-        public void get_SupportsDrawCallInstancing(){} // RVA: 0x7FFE86EC0310
-        public void get_SupportsRayTracing(){} // RVA: 0x7FFE86EC0390
-        public void get_SupportsComputeShaders(){} // RVA: 0x7FFE86EC0410
-        public void get_SupportsGeometryShaders(){} // RVA: 0x7FFE86EC0490
-        public void get_GraphicsShaderLevel(){} // RVA: 0x7FFE86EC0510
-        public void get_GraphicsUVStartsAtTop(){} // RVA: 0x7FFE86EC0590
-        public void get_IsDebugBuild(){} // RVA: 0x7FFE86EC0610
-        public void get_EditorVersion(){} // RVA: 0x7FFE86EC07A0
-        public void get_InstallMode(){} // RVA: 0x7FFE86EC0820
-        public void get_TargetFrameRate(){} // RVA: 0x7FFE86EC08E0
-        public void get_CopyTextureSupport(){} // RVA: 0x7FFE86EC0A80
-        public void get_RenderingThreadingMode(){} // RVA: 0x7FFE86EC0C20
-        public void get_StartTime(){} // RVA: 0x7FFE86EC0DC0
-        public void .cctor(){} // RVA: 0x7FFE86EC0F50
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_MainThreadId(){} // RVA: 0x7FFAF8E2E830
+        public void get_OperatingSystem(){} // RVA: 0x7FFAF8E2E8D0
+        public void get_ProcessorCount(){} // RVA: 0x7FFAF8E2E920
+        public void get_SupportsVibration(){} // RVA: 0x7FFAF8E2E9A0
+        public void get_DeviceType(){} // RVA: 0x7FFAF8E2EA20
+        public void get_CpuDescription(){} // RVA: 0x7FFAF8E2EBC0
+        public void get_DeviceName(){} // RVA: 0x7FFAF8E2EC10
+        public void get_DeviceUniqueIdentifier(){} // RVA: 0x7FFAF8E2EE70
+        public void get_DeviceModel(){} // RVA: 0x7FFAF8E2F010
+        public void get_SystemMemorySize(){} // RVA: 0x7FFAF8E2F1B0
+        public void get_GraphicsDeviceId(){} // RVA: 0x7FFAF8E2F230
+        public void get_GraphicsDeviceName(){} // RVA: 0x7FFAF8E2F2B0
+        public void get_GraphicsDeviceVendorId(){} // RVA: 0x7FFAF8E2F300
+        public void get_GraphicsDeviceVendor(){} // RVA: 0x7FFAF8E2F4A0
+        public void get_GraphicsMemorySize(){} // RVA: 0x7FFAF8E2F4F0
+        public void get_GraphicsMultiThreaded(){} // RVA: 0x7FFAF8E2F570
+        public void get_NpotSupport(){} // RVA: 0x7FFAF8E2F700
+        public void get_GraphicsDeviceVersion(){} // RVA: 0x7FFAF8E2F790
+        public void get_GraphicsDeviceType(){} // RVA: 0x7FFAF8E2F7E0
+        public void get_MaxTextureSize(){} // RVA: 0x7FFAF8E2F870
+        public void get_SupportsDrawCallInstancing(){} // RVA: 0x7FFAF8E2F8F0
+        public void get_SupportsRayTracing(){} // RVA: 0x7FFAF8E2F970
+        public void get_SupportsComputeShaders(){} // RVA: 0x7FFAF8E2F9F0
+        public void get_SupportsGeometryShaders(){} // RVA: 0x7FFAF8E2FA70
+        public void get_GraphicsShaderLevel(){} // RVA: 0x7FFAF8E2FAF0
+        public void get_GraphicsUVStartsAtTop(){} // RVA: 0x7FFAF8E2FB70
+        public void get_IsDebugBuild(){} // RVA: 0x7FFAF8E2FBF0
+        public void get_EditorVersion(){} // RVA: 0x7FFAF8E2FD80
+        public void get_InstallMode(){} // RVA: 0x7FFAF8E2FE00
+        public void get_TargetFrameRate(){} // RVA: 0x7FFAF8E2FEC0
+        public void get_CopyTextureSupport(){} // RVA: 0x7FFAF8E30060
+        public void get_RenderingThreadingMode(){} // RVA: 0x7FFAF8E30200
+        public void get_StartTime(){} // RVA: 0x7FFAF8E303A0
+        public void .cctor(){} // RVA: 0x7FFAF8E30530
     }
 
-    public class SentryUnity : Object
+    public class SentryUnity
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x7FFE86EBC2A0 | overloaded x2
-        public void Close(){} // RVA: 0x7FFE86EBC3A0
+        public void Init(){} // RVA: 0x7FFAF8E2B880 | overloaded x2
+        public void Close(){} // RVA: 0x7FFAF8E2B980
     }
 
-    public class SentryUnityInfo : Object
+    public class SentryUnityInfo
     {
-        public Sentry.Unity.Il2CppMethods _il2CppMethods; // 0x10
-        public object field_1; // 0x1
-
         // ── Methods ──
-        public void get_IL2CPP(){} // RVA: 0x7FFE811E0850
-        public void get_Il2CppMethods(){} // RVA: 0x7FFE81116380
-        public void SanitizeDebugId(){} // RVA: 0x7FFE865CFD60
-        public void Il2CppGcHandleGetTargetShim(){} // RVA: 0x7FFE865CFDD0
-        public void il2cpp_gchandle_get_target(){} // RVA: 0x7FFE865CFDD0
-        public void il2cpp_free(){} // RVA: 0x7FFE865CFDE0
-        public void Il2CppNativeStackTraceShim(){} // RVA: 0x7FFE865CFDF0
-        public void il2cpp_native_stack_trace(){} // RVA: 0x7FFE865D0020
-        public void IsKnownPlatform(){} // RVA: 0x7FFE865D0030
-        public void IsLinux(){} // RVA: 0x7FFE865D00D0
-        public void IsNativeSupportEnabled(){} // RVA: 0x7FFE865D0160
-        public void IsSupportedBySentryNative(){} // RVA: 0x7FFE865D0200
-        public void GetDebugImageType(){} // RVA: 0x7FFE865D0220
-        public void .ctor(){} // RVA: 0x7FFE865D02F0
+        public void get_IL2CPP(){} // RVA: 0x7FFAF2E72850
+        public void get_Il2CppMethods(){} // RVA: 0x7FFAF2DA8380
+        public void SanitizeDebugId(){} // RVA: 0x7FFAF853F000
+        public void Il2CppGcHandleGetTargetShim(){} // RVA: 0x7FFAF853F070
+        public void il2cpp_gchandle_get_target(){} // RVA: 0x7FFAF853F070
+        public void il2cpp_free(){} // RVA: 0x7FFAF853F080
+        public void Il2CppNativeStackTraceShim(){} // RVA: 0x7FFAF853F090
+        public void il2cpp_native_stack_trace(){} // RVA: 0x7FFAF853F2C0
+        public void IsKnownPlatform(){} // RVA: 0x7FFAF853F2D0
+        public void IsLinux(){} // RVA: 0x7FFAF853F370
+        public void IsNativeSupportEnabled(){} // RVA: 0x7FFAF853F400
+        public void IsSupportedBySentryNative(){} // RVA: 0x7FFAF853F4A0
+        public void GetDebugImageType(){} // RVA: 0x7FFAF853F4C0
+        public void .ctor(){} // RVA: 0x7FFAF853F590
     }
 
-    public class SentryUnityOptions : SentryOptions
+    public class SentryUnityOptions
     {
-        public string PackageName;
-        public bool _enabled; // 0x288
-        public bool _autoStartupTraces; // 0x289
-        public bool _autoSceneLoadTraces; // 0x28A
-        public bool _captureInEditor; // 0x28B
-        public bool _enableLogDebouncing; // 0x28C
-        public System.TimeSpan _debounceTimeLog; // 0x290
-        public System.TimeSpan _debounceTimeWarning; // 0x298
-        public System.TimeSpan _debounceTimeError; // 0x2A0
-        public 0x6668591C _requestBodyCompressionLevel; // 0x2A8
-        public bool _attachScreenshot; // 0x2AC
-        public bool _attachViewHierarchy; // 0x2AD
-        public int _maxViewHierarchyRootObjects; // 0x2B0
-        public int _maxViewHierarchyObjectChildCount; // 0x2B4
-        public int _maxViewHierarchyDepth; // 0x2B8
-        public 0x66685974 _screenshotQuality; // 0x2BC
-        public int _screenshotCompression; // 0x2C0
-        public System.Collections.Generic.Dictionary`2<*,bool> _addBreadcrumbsForLogType; // 0x2C8
-        public System.TimeSpan _anrTimeout; // 0x2D0
-        public bool _filterBadGatewayExceptions; // 0x2D8
-        public bool _iosNativeSupportEnabled; // 0x2D9
-        public bool _androidNativeSupportEnabled; // 0x2DA
-        public bool _ndkIntegrationEnabled; // 0x2DB
-        public bool _ndkScopeSyncEnabled; // 0x2DC
-        public bool _windowsNativeSupportEnabled; // 0x2DD
-        public bool _macosNativeSupportEnabled; // 0x2DE
-        public bool _linuxNativeSupportEnabled; // 0x2DF
-        public bool _il2CppLineNumberSupportEnabled; // 0x2E0
-        public bool _performanceAutoInstrumentationEnabled; // 0x2E1
-        public 0x6659391C _stackTraceMode; // 0x2E4
-        public string _defaultUserId; // 0x2E8
-        public bool MultiThreading; // 0x2F0
-        public Sentry.Unity.ContextWriter _nativeContextWriter; // 0x2F8
-
         // ── Methods ──
-        public void get_Enabled(){} // RVA: 0x7FFE86EBC460
-        public void set_Enabled(){} // RVA: 0x7FFE86EBC470
-        public void get_AutoStartupTraces(){} // RVA: 0x7FFE86EBC480
-        public void set_AutoStartupTraces(){} // RVA: 0x7FFE86EBC490
-        public void get_AutoSceneLoadTraces(){} // RVA: 0x7FFE86EBC4A0
-        public void set_AutoSceneLoadTraces(){} // RVA: 0x7FFE86EBC4B0
-        public void get_CaptureInEditor(){} // RVA: 0x7FFE86EBC4C0
-        public void set_CaptureInEditor(){} // RVA: 0x7FFE86EBC4D0
-        public void get_EnableLogDebouncing(){} // RVA: 0x7FFE86EBC4E0
-        public void set_EnableLogDebouncing(){} // RVA: 0x7FFE86EBC4F0
-        public void get_DebounceTimeLog(){} // RVA: 0x7FFE81B2FC70
-        public void set_DebounceTimeLog(){} // RVA: 0x7FFE86EBC500
-        public void get_DebounceTimeWarning(){} // RVA: 0x7FFE81B2D410
-        public void set_DebounceTimeWarning(){} // RVA: 0x7FFE86EBC510
-        public void get_DebounceTimeError(){} // RVA: 0x7FFE81B20980
-        public void set_DebounceTimeError(){} // RVA: 0x7FFE86EBC520
-        public void get_RequestBodyCompressionLevel(){} // RVA: 0x7FFE86EBC530
-        public void set_RequestBodyCompressionLevel(){} // RVA: 0x7FFE86EBC540
-        public void get_AttachScreenshot(){} // RVA: 0x7FFE86EBC560
-        public void set_AttachScreenshot(){} // RVA: 0x7FFE86EBC570
-        public void get_AttachViewHierarchy(){} // RVA: 0x7FFE86EBC580
-        public void set_AttachViewHierarchy(){} // RVA: 0x7FFE86EBC590
-        public void get_MaxViewHierarchyRootObjects(){} // RVA: 0x7FFE86EBC5A0
-        public void set_MaxViewHierarchyRootObjects(){} // RVA: 0x7FFE86EBC5B0
-        public void get_MaxViewHierarchyObjectChildCount(){} // RVA: 0x7FFE86EBC5C0
-        public void set_MaxViewHierarchyObjectChildCount(){} // RVA: 0x7FFE86EBC5D0
-        public void get_MaxViewHierarchyDepth(){} // RVA: 0x7FFE86EBC5E0
-        public void set_MaxViewHierarchyDepth(){} // RVA: 0x7FFE86EBC5F0
-        public void get_ScreenshotQuality(){} // RVA: 0x7FFE86EBC600
-        public void set_ScreenshotQuality(){} // RVA: 0x7FFE86EBC610
-        public void get_ScreenshotCompression(){} // RVA: 0x7FFE86EBC620
-        public void set_ScreenshotCompression(){} // RVA: 0x7FFE86EBC630
-        public void get_AddBreadcrumbsForLogType(){} // RVA: 0x7FFE81B14AA0
-        public void set_AddBreadcrumbsForLogType(){} // RVA: 0x7FFE81B26FF0
-        public void get_AnrTimeout(){} // RVA: 0x7FFE81B36B70
-        public void set_AnrTimeout(){} // RVA: 0x7FFE86EBC640
-        public void get_FilterBadGatewayExceptions(){} // RVA: 0x7FFE86EBC650
-        public void set_FilterBadGatewayExceptions(){} // RVA: 0x7FFE86EBC660
-        public void get_IosNativeSupportEnabled(){} // RVA: 0x7FFE86EBC670
-        public void set_IosNativeSupportEnabled(){} // RVA: 0x7FFE86EBC680
-        public void get_AndroidNativeSupportEnabled(){} // RVA: 0x7FFE86EBC690
-        public void set_AndroidNativeSupportEnabled(){} // RVA: 0x7FFE86EBC6A0
-        public void get_NdkIntegrationEnabled(){} // RVA: 0x7FFE86EBC6B0
-        public void set_NdkIntegrationEnabled(){} // RVA: 0x7FFE86EBC6C0
-        public void get_NdkScopeSyncEnabled(){} // RVA: 0x7FFE86EBC6D0
-        public void set_NdkScopeSyncEnabled(){} // RVA: 0x7FFE86EBC6E0
-        public void get_WindowsNativeSupportEnabled(){} // RVA: 0x7FFE86EBC6F0
-        public void set_WindowsNativeSupportEnabled(){} // RVA: 0x7FFE86EBC700
-        public void get_MacosNativeSupportEnabled(){} // RVA: 0x7FFE86EBC710
-        public void set_MacosNativeSupportEnabled(){} // RVA: 0x7FFE86EBC720
-        public void get_LinuxNativeSupportEnabled(){} // RVA: 0x7FFE86EBC730
-        public void set_LinuxNativeSupportEnabled(){} // RVA: 0x7FFE86EBC740
-        public void get_Il2CppLineNumberSupportEnabled(){} // RVA: 0x7FFE86EBC750
-        public void set_Il2CppLineNumberSupportEnabled(){} // RVA: 0x7FFE86EBC760
-        public void get_PerformanceAutoInstrumentationEnabled(){} // RVA: 0x7FFE86EBC770
-        public void set_PerformanceAutoInstrumentationEnabled(){} // RVA: 0x7FFE86EBC780
-        public void get_StackTraceMode(){} // RVA: 0x7FFE86EBC790
-        public void set_StackTraceMode(){} // RVA: 0x7FFE86EBC7A0
-        public void get_DefaultUserId(){} // RVA: 0x7FFE81B381B0
-        public void set_DefaultUserId(){} // RVA: 0x7FFE86EBC7B0
-        public void get_NativeContextWriter(){} // RVA: 0x7FFE81B30900
-        public void set_NativeContextWriter(){} // RVA: 0x7FFE81B0D290
-        public void get_NativeSupportCloseCallback(){} // RVA: 0x7FFE811661F0
-        public void set_NativeSupportCloseCallback(){} // RVA: 0x7FFE81166200
-        public void get_SdkIntegrationNames(){} // RVA: 0x7FFE81B25780
-        public void set_SdkIntegrationNames(){} // RVA: 0x7FFE81B251F0
-        public void .ctor(){} // RVA: 0x7FFE86EBC9B0 | overloaded x3
-        public void ToString(){} // RVA: 0x7FFE86EBD760
+        public void get_Enabled(){} // RVA: 0x7FFAF8E2BA40
+        public void set_Enabled(){} // RVA: 0x7FFAF8E2BA50
+        public void get_AutoStartupTraces(){} // RVA: 0x7FFAF8E2BA60
+        public void set_AutoStartupTraces(){} // RVA: 0x7FFAF8E2BA70
+        public void get_AutoSceneLoadTraces(){} // RVA: 0x7FFAF8E2BA80
+        public void set_AutoSceneLoadTraces(){} // RVA: 0x7FFAF8E2BA90
+        public void get_CaptureInEditor(){} // RVA: 0x7FFAF8E2BAA0
+        public void set_CaptureInEditor(){} // RVA: 0x7FFAF8E2BAB0
+        public void get_EnableLogDebouncing(){} // RVA: 0x7FFAF8E2BAC0
+        public void set_EnableLogDebouncing(){} // RVA: 0x7FFAF8E2BAD0
+        public void get_DebounceTimeLog(){} // RVA: 0x7FFAF384AA90
+        public void set_DebounceTimeLog(){} // RVA: 0x7FFAF8E2BAE0
+        public void get_DebounceTimeWarning(){} // RVA: 0x7FFAF3850DF0
+        public void set_DebounceTimeWarning(){} // RVA: 0x7FFAF8E2BAF0
+        public void get_DebounceTimeError(){} // RVA: 0x7FFAF3844B80
+        public void set_DebounceTimeError(){} // RVA: 0x7FFAF8E2BB00
+        public void get_RequestBodyCompressionLevel(){} // RVA: 0x7FFAF8E2BB10
+        public void set_RequestBodyCompressionLevel(){} // RVA: 0x7FFAF8E2BB20
+        public void get_AttachScreenshot(){} // RVA: 0x7FFAF8E2BB40
+        public void set_AttachScreenshot(){} // RVA: 0x7FFAF8E2BB50
+        public void get_AttachViewHierarchy(){} // RVA: 0x7FFAF8E2BB60
+        public void set_AttachViewHierarchy(){} // RVA: 0x7FFAF8E2BB70
+        public void get_MaxViewHierarchyRootObjects(){} // RVA: 0x7FFAF8E2BB80
+        public void set_MaxViewHierarchyRootObjects(){} // RVA: 0x7FFAF8E2BB90
+        public void get_MaxViewHierarchyObjectChildCount(){} // RVA: 0x7FFAF8E2BBA0
+        public void set_MaxViewHierarchyObjectChildCount(){} // RVA: 0x7FFAF8E2BBB0
+        public void get_MaxViewHierarchyDepth(){} // RVA: 0x7FFAF8E2BBC0
+        public void set_MaxViewHierarchyDepth(){} // RVA: 0x7FFAF8E2BBD0
+        public void get_ScreenshotQuality(){} // RVA: 0x7FFAF8E2BBE0
+        public void set_ScreenshotQuality(){} // RVA: 0x7FFAF8E2BBF0
+        public void get_ScreenshotCompression(){} // RVA: 0x7FFAF8E2BC00
+        public void set_ScreenshotCompression(){} // RVA: 0x7FFAF8E2BC10
+        public void get_AddBreadcrumbsForLogType(){} // RVA: 0x7FFAF3858080
+        public void set_AddBreadcrumbsForLogType(){} // RVA: 0x7FFAF3864D00
+        public void get_AnrTimeout(){} // RVA: 0x7FFAF384E220
+        public void set_AnrTimeout(){} // RVA: 0x7FFAF8E2BC20
+        public void get_FilterBadGatewayExceptions(){} // RVA: 0x7FFAF8E2BC30
+        public void set_FilterBadGatewayExceptions(){} // RVA: 0x7FFAF8E2BC40
+        public void get_IosNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BC50
+        public void set_IosNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BC60
+        public void get_AndroidNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BC70
+        public void set_AndroidNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BC80
+        public void get_NdkIntegrationEnabled(){} // RVA: 0x7FFAF8E2BC90
+        public void set_NdkIntegrationEnabled(){} // RVA: 0x7FFAF8E2BCA0
+        public void get_NdkScopeSyncEnabled(){} // RVA: 0x7FFAF8E2BCB0
+        public void set_NdkScopeSyncEnabled(){} // RVA: 0x7FFAF8E2BCC0
+        public void get_WindowsNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BCD0
+        public void set_WindowsNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BCE0
+        public void get_MacosNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BCF0
+        public void set_MacosNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BD00
+        public void get_LinuxNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BD10
+        public void set_LinuxNativeSupportEnabled(){} // RVA: 0x7FFAF8E2BD20
+        public void get_Il2CppLineNumberSupportEnabled(){} // RVA: 0x7FFAF8E2BD30
+        public void set_Il2CppLineNumberSupportEnabled(){} // RVA: 0x7FFAF8E2BD40
+        public void get_PerformanceAutoInstrumentationEnabled(){} // RVA: 0x7FFAF8E2BD50
+        public void set_PerformanceAutoInstrumentationEnabled(){} // RVA: 0x7FFAF8E2BD60
+        public void get_StackTraceMode(){} // RVA: 0x7FFAF8E2BD70
+        public void set_StackTraceMode(){} // RVA: 0x7FFAF8E2BD80
+        public void get_DefaultUserId(){} // RVA: 0x7FFAF3851AE0
+        public void set_DefaultUserId(){} // RVA: 0x7FFAF8E2BD90
+        public void get_NativeContextWriter(){} // RVA: 0x7FFAF384BC90
+        public void set_NativeContextWriter(){} // RVA: 0x7FFAF384B860
+        public void get_NativeSupportCloseCallback(){} // RVA: 0x7FFAF2DF81F0
+        public void set_NativeSupportCloseCallback(){} // RVA: 0x7FFAF2DF8200
+        public void get_SdkIntegrationNames(){} // RVA: 0x7FFAF3835910
+        public void set_SdkIntegrationNames(){} // RVA: 0x7FFAF38393E0
+        public void .ctor(){} // RVA: 0x7FFAF8E2BF90 | overloaded x3
+        public void ToString(){} // RVA: 0x7FFAF8E2CD40
     }
 
-    public class SentryUnityOptionsExtensions : Object
+    public class SentryUnityOptionsExtensions
     {
         // ── Methods ──
-        public void ShouldInitializeSdk(){} // RVA: 0x7FFE86EBDA50 | overloaded x2
-        public void IsValid(){} // RVA: 0x7FFE86EBDC30
-        public void SetupLogging(){} // RVA: 0x7FFE86EBDD10
-        public void AddIl2CppExceptionProcessor(){} // RVA: 0x7FFE86EBDF00
-        public void DisableUnityApplicationLoggingIntegration(){} // RVA: 0x7FFE86EBE000
-        public void DisableAnrIntegration(){} // RVA: 0x7FFE86EBE050
-        public void DisableBadGatewayExceptionFilter(){} // RVA: 0x7FFE86EBE0A0
-        public void DisableWebExceptionFilter(){} // RVA: 0x7FFE86EBE0F0
-        public void DisableSocketExceptionFilter(){} // RVA: 0x7FFE86EBE140
+        public void ShouldInitializeSdk(){} // RVA: 0x7FFAF8E2D030 | overloaded x2
+        public void IsValid(){} // RVA: 0x7FFAF8E2D210
+        public void SetupLogging(){} // RVA: 0x7FFAF8E2D2F0
+        public void AddIl2CppExceptionProcessor(){} // RVA: 0x7FFAF8E2D4E0
+        public void DisableUnityApplicationLoggingIntegration(){} // RVA: 0x7FFAF8E2D5E0
+        public void DisableAnrIntegration(){} // RVA: 0x7FFAF8E2D630
+        public void DisableBadGatewayExceptionFilter(){} // RVA: 0x7FFAF8E2D680
+        public void DisableWebExceptionFilter(){} // RVA: 0x7FFAF8E2D6D0
+        public void DisableSocketExceptionFilter(){} // RVA: 0x7FFAF8E2D720
     }
 
-    public class SentryUnitySdk : Object
+    public class SentryUnitySdk
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Init(){} // RVA: 0x7FFE86EBE190
-        public void Close(){} // RVA: 0x7FFE86EBE790
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Init(){} // RVA: 0x7FFAF8E2D770
+        public void Close(){} // RVA: 0x7FFAF8E2DD70
     }
 
-    public class StartupTracingIntegration : Object
+    public class StartupTracingIntegration
     {
         // ── Methods ──
-        public void Register(){} // RVA: 0x7FFE865D08A0
-        public void AfterAssembliesLoaded(){} // RVA: 0x7FFE865D0980
-        public void BeforeSplashScreen(){} // RVA: 0x7FFE865D0BB0
-        public void BeforeSceneLoad(){} // RVA: 0x7FFE865D0DE0
-        public void AfterSceneLoad(){} // RVA: 0x7FFE865D1010
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Register(){} // RVA: 0x7FFAF853FB40
+        public void AfterAssembliesLoaded(){} // RVA: 0x7FFAF853FC20
+        public void BeforeSplashScreen(){} // RVA: 0x7FFAF853FE50
+        public void BeforeSceneLoad(){} // RVA: 0x7FFAF8540080
+        public void AfterSceneLoad(){} // RVA: 0x7FFAF85402B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class TagValueNormalizer : Object
+    public class TagValueNormalizer
     {
         // ── Methods ──
-        public void ToTagValue(){} // RVA: 0x7FFE86EC1F40
+        public void ToTagValue(){} // RVA: 0x7FFAF8E31520
     }
 
-    public class TimeDebounceBase : Object
+    public class TimeDebounceBase
     {
-        public System.TimeSpan DebounceOffset; // 0x10
-
         // ── Methods ──
-        public void get_Now(){} // RVA: 0x7FFE86EC16C0
-        public void Debounced(){} // RVA: 0x7FFE86EC1770
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Now(){} // RVA: 0x7FFAF8E30CA0
+        public void Debounced(){} // RVA: 0x7FFAF8E30D50
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class UnityEventProcessor : Object
+    public class UnityEventProcessor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Process(){} // RVA: 0x7FFE86EC18F0 | overloaded x2
-        public void SetEventContext(){} // RVA: 0x7FFE86EC1960
-        public void PopulateDevice(){} // RVA: 0x7FFE86EC1B50
-        public void PopulateSdkIntegrations(){} // RVA: 0x7FFE86EC1DA0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Process(){} // RVA: 0x7FFAF8E30ED0 | overloaded x2
+        public void SetEventContext(){} // RVA: 0x7FFAF8E30F40
+        public void PopulateDevice(){} // RVA: 0x7FFAF8E31130
+        public void PopulateSdkIntegrations(){} // RVA: 0x7FFAF8E31380
     }
 
-    public class UnityIl2CppEventExceptionProcessor : Object
+    public class UnityIl2CppEventExceptionProcessor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EACEE0
-        public void Process(){} // RVA: 0x7FFE86EAD1D0
-        public void NormalizeUuid(){} // RVA: 0x7FFE86EAE5B0
-        public void FindDebugImageContainingAddress(){} // RVA: 0x7FFE86EAE660
-        public void EnumerateChainedExceptions(){} // RVA: 0x7FFE86EAE7D0
-        public void GetNativeStackTrace(){} // RVA: 0x7FFE86EAE8E0
-        public void .cctor(){} // RVA: 0x7FFE86EAED00
+        public void .ctor(){} // RVA: 0x7FFAF8E1C4C0
+        public void Process(){} // RVA: 0x7FFAF8E1C7B0
+        public void NormalizeUuid(){} // RVA: 0x7FFAF8E1DB90
+        public void FindDebugImageContainingAddress(){} // RVA: 0x7FFAF8E1DC40
+        public void EnumerateChainedExceptions(){} // RVA: 0x7FFAF8E1DDB0
+        public void GetNativeStackTrace(){} // RVA: 0x7FFAF8E1DEC0
+        public void .cctor(){} // RVA: 0x7FFAF8E1E2E0
     }
 
-    public class UnityLogger : Object
+    public class UnityLogger : IsEnabled
     {
         // ── Methods ──
-        public void IsEnabled(){} // RVA: 0x7FFE86EC1FA0
-        public void .ctor(){} // RVA: 0x7FFE86EC20E0 | overloaded x2
-        public void Log(){} // RVA: 0x7FFE86EC21F0
-        public void GetUnityLogType(){} // RVA: 0x7FFE86EC2440
-        public void ToString(){} // RVA: 0x7FFE86EC2470
+        public void IsEnabled(){} // RVA: 0x7FFAF8E31580
+        public void .ctor(){} // RVA: 0x7FFAF8E316C0 | overloaded x2
+        public void Log(){} // RVA: 0x7FFAF8E317D0
+        public void GetUnityLogType(){} // RVA: 0x7FFAF8E31A20
+        public void ToString(){} // RVA: 0x7FFAF8E31A50
     }
 
-    public class UnityScopeIntegration : Object
+    public class UnityScopeIntegration : `
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Register(){} // RVA: 0x7FFE86EB33C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Register(){} // RVA: 0x7FFAF8E229A0
     }
 
-    public class UnityScopeUpdater : Object
+    public class UnityScopeUpdater
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0
-        public void ConfigureScope(){} // RVA: 0x7FFE86EB3570
-        public void PopulateSdk(){} // RVA: 0x7FFE86EB3C20
-        public void PopulateApp(){} // RVA: 0x7FFE86EB3E00
-        public void PopulateOperatingSystem(){} // RVA: 0x7FFE86EB3F60
-        public void PopulateDevice(){} // RVA: 0x7FFE86EB4000
-        public void PopulateGpu(){} // RVA: 0x7FFE86EB4560
-        public void PopulateUnity(){} // RVA: 0x7FFE86EB4C70
-        public void PopulateTags(){} // RVA: 0x7FFE86EB4F40
-        public void PopulateUser(){} // RVA: 0x7FFE86EB51E0
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void ConfigureScope(){} // RVA: 0x7FFAF8E22B50
+        public void PopulateSdk(){} // RVA: 0x7FFAF8E23200
+        public void PopulateApp(){} // RVA: 0x7FFAF8E233E0
+        public void PopulateOperatingSystem(){} // RVA: 0x7FFAF8E23540
+        public void PopulateDevice(){} // RVA: 0x7FFAF8E235E0
+        public void PopulateGpu(){} // RVA: 0x7FFAF8E23B40
+        public void PopulateUnity(){} // RVA: 0x7FFAF8E24250
+        public void PopulateTags(){} // RVA: 0x7FFAF8E24520
+        public void PopulateUser(){} // RVA: 0x7FFAF8E247C0
     }
 
-    public class UnitySdkInfo : Object
+    public class UnitySdkInfo
     {
-        public string _version;
-
         // ── Methods ──
-        public void get_Version(){} // RVA: 0x7FFE86EB30B0
-        public void .cctor(){} // RVA: 0x7FFE86EB3110
+        public void get_Version(){} // RVA: 0x7FFAF8E22690
+        public void .cctor(){} // RVA: 0x7FFAF8E226F0
     }
 
-    public class UnityViewHierarchyAttachmentContent : Object
+    public class UnityViewHierarchyAttachmentContent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void GetStream(){} // RVA: 0x7FFE86EC24B0
-        public void CaptureViewHierarchy(){} // RVA: 0x7FFE86EC2580
-        public void CreateViewHierarchy(){} // RVA: 0x7FFE86EC2790
-        public void CreateNode(){} // RVA: 0x7FFE86EC2BB0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void GetStream(){} // RVA: 0x7FFAF8E31A90
+        public void CaptureViewHierarchy(){} // RVA: 0x7FFAF8E31B60
+        public void CreateViewHierarchy(){} // RVA: 0x7FFAF8E31D70
+        public void CreateNode(){} // RVA: 0x7FFAF8E32190
     }
 
-    public class UnityViewHierarchyNode : ViewHierarchyNode
+    public class UnityViewHierarchyNode
     {
-        public string _tag; // 0x20
-        public string _position; // 0x28
-        public string _rotation; // 0x30
-        public string _scale; // 0x38
-        public System.Nullable`1<bool> _active; // 0x40
-        public System.Collections.Generic.List`1<string> _extras; // 0x48
-
         // ── Methods ──
-        public void get_Tag(){} // RVA: 0x7FFE811290C0
-        public void set_Tag(){} // RVA: 0x7FFE811290D0
-        public void get_Position(){} // RVA: 0x7FFE81129130
-        public void set_Position(){} // RVA: 0x7FFE810FCE90
-        public void get_Rotation(){} // RVA: 0x7FFE8144E200
-        public void set_Rotation(){} // RVA: 0x7FFE81129890
-        public void get_Scale(){} // RVA: 0x7FFE8143BA80
-        public void set_Scale(){} // RVA: 0x7FFE81437330
-        public void get_Active(){} // RVA: 0x7FFE851042F0
-        public void set_Active(){} // RVA: 0x7FFE86EC3420
-        public void get_Extras(){} // RVA: 0x7FFE81176730
-        public void set_Extras(){} // RVA: 0x7FFE81176740
-        public void .ctor(){} // RVA: 0x7FFE81161E80
-        public void WriteAdditionalProperties(){} // RVA: 0x7FFE86EC3430
+        public void get_Tag(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_Tag(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_Position(){} // RVA: 0x7FFAF2DBB130
+        public void set_Position(){} // RVA: 0x7FFAF2D8EE90
+        public void get_Rotation(){} // RVA: 0x7FFAF30E74D0
+        public void set_Rotation(){} // RVA: 0x7FFAF2DBB890
+        public void get_Scale(){} // RVA: 0x7FFAF2F476A0
+        public void set_Scale(){} // RVA: 0x7FFAF2F4B830
+        public void get_Active(){} // RVA: 0x7FFAF6F7B950
+        public void set_Active(){} // RVA: 0x7FFAF8E32A00
+        public void get_Extras(){} // RVA: 0x7FFAF2E08730
+        public void set_Extras(){} // RVA: 0x7FFAF2E08740
+        public void .ctor(){} // RVA: 0x7FFAF2DF3E80
+        public void WriteAdditionalProperties(){} // RVA: 0x7FFAF8E32A10
     }
 
-    public class UnityWebRequestTransport : HttpTransportBase
+    public class UnityWebRequestTransport
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EC3B90
-        public void SendEnvelopeAsync(){} // RVA: 0x7FFE86EC3C10
-        public void CreateWebRequest(){} // RVA: 0x7FFE86EC3D10
-        public void GetResponse(){} // RVA: 0x7FFE86EC42B0
+        public void .ctor(){} // RVA: 0x7FFAF8E33170
+        public void SendEnvelopeAsync(){} // RVA: 0x7FFAF8E331F0
+        public void CreateWebRequest(){} // RVA: 0x7FFAF8E332F0
+        public void GetResponse(){} // RVA: 0x7FFAF8E33890
     }
 
-    public class WarningTimeDebounce : TimeDebounceBase
+    public class WarningTimeDebounce
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE826F2ED0
+        public void .ctor(){} // RVA: 0x7FFAF4417700
     }
 
-    public class WebBackgroundWorker : Object
+    public class WebBackgroundWorker
     {
-        public Sentry.Unity.SentryMonoBehaviour _behaviour; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86EC3820
-        public void EnqueueEnvelope(){} // RVA: 0x7FFE86EC39B0
-        public void FlushAsync(){} // RVA: 0x7FFE86EC3AF0
-        public void get_QueuedItems(){} // RVA: 0x7FFE8151D690
+        public void .ctor(){} // RVA: 0x7FFAF8E32E00
+        public void EnqueueEnvelope(){} // RVA: 0x7FFAF8E32F90
+        public void FlushAsync(){} // RVA: 0x7FFAF8E330D0
+        public void get_QueuedItems(){} // RVA: 0x7FFAF3210030
     }
 
 }

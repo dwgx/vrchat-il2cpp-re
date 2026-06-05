@@ -1,0 +1,9 @@
+{
+ "VRCNetworkBehaviourSiblinRelated_FFBD::m_363": "set_ColorOverTrail",
+ "VRCNetworkBehaviourSiblinRelated_FFBD::m_470": "get_ColorOverTrail",
+ "VRCNetworkBehaviourSiblinRelated_FFBD::m_4B0": "get_ColliderComponent",
+ "VRCNetworkBehaviourSiblinRelated_FFBD::m_5E7": "GetColor",
+ "VRCNetworkBehaviourSiblinRelated_FFBD::m_6EF": "set_RibbonCount",
+ "VRCNetworkBehaviourSiblinRelated_FFBD::m_943": "GetMode",
+ "VRCNetworkBehaviourSiblinRelated_FFBD::m_AF0": "IsValid"
+}

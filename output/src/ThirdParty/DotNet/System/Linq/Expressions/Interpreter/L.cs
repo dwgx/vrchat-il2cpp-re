@@ -5,455 +5,411 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class LabelInfo : Object
+    public class LabelInfo
     {
-        public System.Linq.Expressions.LabelTarget _node; // 0x10
-        public System.Linq.Expressions.Interpreter.BranchLabel _label; // 0x18
+        public object padding;
+        public object childAlignment;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87165570
-        public void GetLabel(){} // RVA: 0x7FFE87165690
-        public void Reference(){} // RVA: 0x7FFE87165720
-        public void Define(){} // RVA: 0x7FFE871657D0
-        public void ValidateJump(){} // RVA: 0x7FFE87165B70
-        public void ValidateFinish(){} // RVA: 0x7FFE87165F50
-        public void EnsureLabel(){} // RVA: 0x7FFE87165FE0
-        public void DefinedIn(){} // RVA: 0x7FFE87166060
-        public void get_HasDefinitions(){} // RVA: 0x7FFE82BC81D0
-        public void FirstDefinition(){} // RVA: 0x7FFE87166130
-        public void AddDefinition(){} // RVA: 0x7FFE87166360
-        public void get_HasMultipleDefinitions(){} // RVA: 0x7FFE87166580
-        public void CommonNode(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFAF90D6680
+        public void GetLabel(){} // RVA: 0x7FFAF90D67A0
+        public void Reference(){} // RVA: 0x7FFAF90D6830
+        public void Define(){} // RVA: 0x7FFAF90D68E0
+        public void ValidateJump(){} // RVA: 0x7FFAF90D6C80
+        public void ValidateFinish(){} // RVA: 0x7FFAF90D7060
+        public void EnsureLabel(){} // RVA: 0x7FFAF90D70F0
+        public void DefinedIn(){} // RVA: 0x7FFAF90D7170
+        public void get_HasDefinitions(){} // RVA: 0x7FFAF48EEC10
+        public void FirstDefinition(){} // RVA: 0x7FFAF90D7240
+        public void AddDefinition(){} // RVA: 0x7FFAF90D7470
+        public void get_HasMultipleDefinitions(){} // RVA: 0x7FFAF90D7690
+        public void CommonNode(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class LabelScopeInfo : Object
+    public class LabelScopeInfo
     {
-        public System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Interpreter.LabelInfo> _labels; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE871666B0
-        public void get_CanJumpInto(){} // RVA: 0x7FFE87166710
-        public void ContainsTarget(){} // RVA: 0x7FFE87166720
-        public void TryGetLabelInfo(){} // RVA: 0x7FFE87166810
-        public void AddLabelInfo(){} // RVA: 0x7FFE871668E0
+        public void .ctor(){} // RVA: 0x7FFAF90D77C0
+        public void get_CanJumpInto(){} // RVA: 0x7FFAF90D7820
+        public void ContainsTarget(){} // RVA: 0x7FFAF90D7830
+        public void TryGetLabelInfo(){} // RVA: 0x7FFAF90D7920
+        public void AddLabelInfo(){} // RVA: 0x7FFAF90D79F0
     }
 
-    public class LeaveExceptionFilterInstruction : Instruction
+    public class LeaveExceptionFilterInstruction
     {
-        public System.Linq.Expressions.Interpreter.LeaveExceptionFilterInstruction Instance;
-        public object field_1; // 0x2B7
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_InstructionName(){} // RVA: 0x7FFE871519E0
-        public void get_ConsumedStack(){} // RVA: 0x7FFE81200CB0
-        public void Run(){} // RVA: 0x7FFE811EDAF0
-        public void .cctor(){} // RVA: 0x7FFE87151A20
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_InstructionName(){} // RVA: 0x7FFAF90C2B10
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E92CB0
+        public void Run(){} // RVA: 0x7FFAF2E7FAF0
+        public void .cctor(){} // RVA: 0x7FFAF90C2B50
     }
 
-    public class LeaveExceptionHandlerInstruction : IndexedBranchInstruction
+    public class LeaveExceptionHandlerInstruction
     {
-        public System.Linq.Expressions.Interpreter.LeaveExceptionHandlerInstruction[] s_cache;
-        public bool _hasValue; // 0x18
-        public object field_2; // 0x2BC
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87150510
-        public void get_InstructionName(){} // RVA: 0x7FFE87151C30
-        public void get_ConsumedStack(){} // RVA: 0x7FFE8714FEF0
-        public void get_ProducedStack(){} // RVA: 0x7FFE8714FEF0
-        public void Create(){} // RVA: 0x7FFE87151C70
-        public void Run(){} // RVA: 0x7FFE87151DD0
-        public void .cctor(){} // RVA: 0x7FFE87151E20
+        public void .ctor(){} // RVA: 0x7FFAF90C1640
+        public void get_InstructionName(){} // RVA: 0x7FFAF90C2D60
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF90C1020
+        public void get_ProducedStack(){} // RVA: 0x7FFAF90C1020
+        public void Create(){} // RVA: 0x7FFAF90C2DA0
+        public void Run(){} // RVA: 0x7FFAF90C2F00
+        public void .cctor(){} // RVA: 0x7FFAF90C2F50
     }
 
-    public class LeaveFaultInstruction : Instruction
+    public class LeaveFaultInstruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction Instance;
-        public object field_1; // 0x2B2
-        public object field_2; // 0x2B3
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_ConsumedStack(){} // RVA: 0x7FFE81200CB0
-        public void get_ConsumedContinuations(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE871517F0
-        public void Run(){} // RVA: 0x7FFE87151830
-        public void .cctor(){} // RVA: 0x7FFE87151860
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E92CB0
+        public void get_ConsumedContinuations(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90C2920
+        public void Run(){} // RVA: 0x7FFAF90C2960
+        public void .cctor(){} // RVA: 0x7FFAF90C2990
     }
 
-    public class LeaveFinallyInstruction : Instruction
+    public class LeaveFinallyInstruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction Instance;
-        public object field_1; // 0x2AE
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void get_ConsumedStack(){} // RVA: 0x7FFE81200CB0
-        public void get_InstructionName(){} // RVA: 0x7FFE87151420
-        public void Run(){} // RVA: 0x7FFE87151460
-        public void .cctor(){} // RVA: 0x7FFE871514A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E92CB0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90C2550
+        public void Run(){} // RVA: 0x7FFAF90C2590
+        public void .cctor(){} // RVA: 0x7FFAF90C25D0
     }
 
-    public class LeftShiftInstruction : Instruction
+    public class LeftShiftInstruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7FFE81200CB0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE871669E0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Create(){} // RVA: 0x7FFE87166A20
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E92CB0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90D7AF0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Create(){} // RVA: 0x7FFAF90D7B30
     }
 
-    public class LessThanInstruction : Instruction
+    public class LessThanInstruction
     {
-        public object _nullValue; // 0x10
-        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7FFE81200CB0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE871679A0
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Create(){} // RVA: 0x7FFE871679E0
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E92CB0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90D8AB0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Create(){} // RVA: 0x7FFAF90D8AF0
     }
 
-    public class LessThanOrEqualInstruction : Instruction
+    public class LessThanOrEqualInstruction
     {
-        public object _nullValue; // 0x10
-        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7FFE81200CB0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE871696E0
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Create(){} // RVA: 0x7FFE87169720
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E92CB0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90DA7F0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Create(){} // RVA: 0x7FFAF90DA830
     }
 
-    public class LightCompiler : Object
+    public class LightCompiler
     {
-        public System.Linq.Expressions.Interpreter.InstructionList _instructions; // 0x10
+        public object DebugView;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8716C800 | overloaded x2
-        public void get_Instructions(){} // RVA: 0x7FFE81116380
-        public void CompileTop(){} // RVA: 0x7FFE8716C870
-        public void MakeInterpreter(){} // RVA: 0x7FFE8716CD80
-        public void CompileConstantExpression(){} // RVA: 0x7FFE8716D300
-        public void CompileDefaultExpression(){} // RVA: 0x7FFE8716D400 | overloaded x2
-        public void EnsureAvailableForClosure(){} // RVA: 0x7FFE8716D5C0
-        public void ResolveLocal(){} // RVA: 0x7FFE8716D980
-        public void CompileGetVariable(){} // RVA: 0x7FFE8716D9F0
-        public void EmitCopyValueType(){} // RVA: 0x7FFE8716DAF0
-        public void LoadLocalNoValueTypeCopy(){} // RVA: 0x7FFE8716DBD0
-        public void MaybeMutableValueType(){} // RVA: 0x7FFE8716DCF0
-        public void CompileGetBoxedVariable(){} // RVA: 0x7FFE8716DD70
-        public void CompileSetVariable(){} // RVA: 0x7FFE8716DE10
-        public void CompileParameterExpression(){} // RVA: 0x7FFE8716E030
-        public void CompileBlockExpression(){} // RVA: 0x7FFE8716E0C0
-        public void CompileBlockStart(){} // RVA: 0x7FFE8716E340
-        public void CompileBlockEnd(){} // RVA: 0x7FFE8716E900
-        public void CompileIndexExpression(){} // RVA: 0x7FFE8716E9E0
-        public void EmitIndexGet(){} // RVA: 0x7FFE8716EB30
-        public void CompileIndexAssignment(){} // RVA: 0x7FFE8716ECE0
-        public void CompileMemberAssignment(){} // RVA: 0x7FFE8716F310 | overloaded x2
-        public void CompileVariableAssignment(){} // RVA: 0x7FFE8716F8F0
-        public void CompileAssignBinaryExpression(){} // RVA: 0x7FFE8716F9B0
-        public void CompileBinaryExpression(){} // RVA: 0x7FFE8716FC40
-        public void CompileEqual(){} // RVA: 0x7FFE87170E10
-        public void CompileNotEqual(){} // RVA: 0x7FFE87170EB0
-        public void CompileComparison(){} // RVA: 0x7FFE87170F50
-        public void CompileArithmetic(){} // RVA: 0x7FFE87171150
-        public void CompileConvertUnaryExpression(){} // RVA: 0x7FFE871713E0
-        public void CompileConvertToType(){} // RVA: 0x7FFE87171C80
-        public void CompileNotExpression(){} // RVA: 0x7FFE87172460
-        public void CompileUnaryExpression(){} // RVA: 0x7FFE871724D0
-        public void EmitUnaryMethodCall(){} // RVA: 0x7FFE87172A00
-        public void EmitUnaryBoolCheck(){} // RVA: 0x7FFE87172B10
-        public void CompileAndAlsoBinaryExpression(){} // RVA: 0x7FFE87172D40
-        public void CompileOrElseBinaryExpression(){} // RVA: 0x7FFE87172DD0
-        public void CompileLogicalBinaryExpression(){} // RVA: 0x7FFE87172E60
-        public void CompileMethodLogicalBinaryExpression(){} // RVA: 0x7FFE871730B0
-        public void CompileLiftedLogicalBinaryExpression(){} // RVA: 0x7FFE871732F0
-        public void CompileUnliftedLogicalBinaryExpression(){} // RVA: 0x7FFE87174170
-        public void CompileConditionalExpression(){} // RVA: 0x7FFE871742B0
-        public void CompileLoopExpression(){} // RVA: 0x7FFE87174580
-        public void CompileSwitchExpression(){} // RVA: 0x7FFE87174A10
-        public void CompileIntSwitchExpression(){} // RVA: 0x7FFE80E460A0
-        public void CompileStringSwitchExpression(){} // RVA: 0x7FFE871753F0
-        public void CompileLabelExpression(){} // RVA: 0x7FFE87175CC0
-        public void CompileGotoExpression(){} // RVA: 0x7FFE87175F50
-        public void PushLabelBlock(){} // RVA: 0x7FFE871762D0
-        public void PopLabelBlock(){} // RVA: 0x7FFE871763D0
-        public void EnsureLabel(){} // RVA: 0x7FFE87176440
-        public void ReferenceLabel(){} // RVA: 0x7FFE871765A0
-        public void DefineLabel(){} // RVA: 0x7FFE87176660
-        public void TryPushLabelBlock(){} // RVA: 0x7FFE87176700
-        public void DefineBlockLabels(){} // RVA: 0x7FFE87176AE0
-        public void CheckRethrow(){} // RVA: 0x7FFE87176CD0
-        public void CompileThrowUnaryExpression(){} // RVA: 0x7FFE87176D30
-        public void CompileTryExpression(){} // RVA: 0x7FFE87177040
-        public void CompileTryFaultExpression(){} // RVA: 0x7FFE87177EA0
-        public void CompileMethodCallExpression(){} // RVA: 0x7FFE87178440 | overloaded x2
-        public void CompileArrayIndexAddress(){} // RVA: 0x7FFE87178980
-        public void EmitThisForMethodCall(){} // RVA: 0x7FFE87178D20
-        public void ShouldWritebackNode(){} // RVA: 0x7FFE87178D30
-        public void CompileAddress(){} // RVA: 0x7FFE87178F50
-        public void CompileMultiDimArrayAccess(){} // RVA: 0x7FFE87179E90
-        public void CompileNewExpression(){} // RVA: 0x7FFE8717A670
-        public void CompileMemberExpression(){} // RVA: 0x7FFE8717ABD0
-        public void CompileMember(){} // RVA: 0x7FFE8717AC90
-        public void CompileNewArrayExpression(){} // RVA: 0x7FFE8717B010
-        public void CompileDebugInfoExpression(){} // RVA: 0x7FFE8717B520
-        public void CompileRuntimeVariablesExpression(){} // RVA: 0x7FFE8717B730
-        public void CompileLambdaExpression(){} // RVA: 0x7FFE8717BA50
-        public void CompileCoalesceBinaryExpression(){} // RVA: 0x7FFE8717BE50
-        public void CompileInvocationExpression(){} // RVA: 0x7FFE8717C6B0
-        public void CompileListInitExpression(){} // RVA: 0x7FFE8717C9D0
-        public void CompileListInit(){} // RVA: 0x7FFE8717CA70
-        public void CompileMemberInitExpression(){} // RVA: 0x7FFE8717CE20
-        public void CompileMemberInit(){} // RVA: 0x7FFE8717CEC0
-        public void GetMemberType(){} // RVA: 0x7FFE8717D370
-        public void CompileQuoteUnaryExpression(){} // RVA: 0x7FFE8717D4B0
-        public void CompileUnboxUnaryExpression(){} // RVA: 0x7FFE8717DA30
-        public void CompileTypeEqualExpression(){} // RVA: 0x7FFE8717DB90
-        public void CompileTypeAsExpression(){} // RVA: 0x7FFE8717DDE0
-        public void CompileTypeIsExpression(){} // RVA: 0x7FFE8717DEC0
-        public void Compile(){} // RVA: 0x7FFE8717EDB0 | overloaded x2
-        public void CompileAsVoid(){} // RVA: 0x7FFE8717E1F0
-        public void CompileNoLabelPush(){} // RVA: 0x7FFE8717E380
-        public void .cctor(){} // RVA: 0x7FFE8717EE10
+        public void .ctor(){} // RVA: 0x7FFAF90DD910 | overloaded x2
+        public void get_Instructions(){} // RVA: 0x7FFAF2DA8380
+        public void CompileTop(){} // RVA: 0x7FFAF90DD980
+        public void MakeInterpreter(){} // RVA: 0x7FFAF90DDE90
+        public void CompileConstantExpression(){} // RVA: 0x7FFAF90DE410
+        public void CompileDefaultExpression(){} // RVA: 0x7FFAF90DE510 | overloaded x2
+        public void EnsureAvailableForClosure(){} // RVA: 0x7FFAF90DE6D0
+        public void ResolveLocal(){} // RVA: 0x7FFAF90DEA90
+        public void CompileGetVariable(){} // RVA: 0x7FFAF90DEB00
+        public void EmitCopyValueType(){} // RVA: 0x7FFAF90DEC00
+        public void LoadLocalNoValueTypeCopy(){} // RVA: 0x7FFAF90DECE0
+        public void MaybeMutableValueType(){} // RVA: 0x7FFAF90DEE00
+        public void CompileGetBoxedVariable(){} // RVA: 0x7FFAF90DEE80
+        public void CompileSetVariable(){} // RVA: 0x7FFAF90DEF20
+        public void CompileParameterExpression(){} // RVA: 0x7FFAF90DF140
+        public void CompileBlockExpression(){} // RVA: 0x7FFAF90DF1D0
+        public void CompileBlockStart(){} // RVA: 0x7FFAF90DF450
+        public void CompileBlockEnd(){} // RVA: 0x7FFAF90DFA10
+        public void CompileIndexExpression(){} // RVA: 0x7FFAF90DFAF0
+        public void EmitIndexGet(){} // RVA: 0x7FFAF90DFC40
+        public void CompileIndexAssignment(){} // RVA: 0x7FFAF90DFDF0
+        public void CompileMemberAssignment(){} // RVA: 0x7FFAF90E0420 | overloaded x2
+        public void CompileVariableAssignment(){} // RVA: 0x7FFAF90E0A00
+        public void CompileAssignBinaryExpression(){} // RVA: 0x7FFAF90E0AC0
+        public void CompileBinaryExpression(){} // RVA: 0x7FFAF90E0D50
+        public void CompileEqual(){} // RVA: 0x7FFAF90E1F20
+        public void CompileNotEqual(){} // RVA: 0x7FFAF90E1FC0
+        public void CompileComparison(){} // RVA: 0x7FFAF90E2060
+        public void CompileArithmetic(){} // RVA: 0x7FFAF90E2260
+        public void CompileConvertUnaryExpression(){} // RVA: 0x7FFAF90E24F0
+        public void CompileConvertToType(){} // RVA: 0x7FFAF90E2D90
+        public void CompileNotExpression(){} // RVA: 0x7FFAF90E3570
+        public void CompileUnaryExpression(){} // RVA: 0x7FFAF90E35E0
+        public void EmitUnaryMethodCall(){} // RVA: 0x7FFAF90E3B10
+        public void EmitUnaryBoolCheck(){} // RVA: 0x7FFAF90E3C20
+        public void CompileAndAlsoBinaryExpression(){} // RVA: 0x7FFAF90E3E50
+        public void CompileOrElseBinaryExpression(){} // RVA: 0x7FFAF90E3EE0
+        public void CompileLogicalBinaryExpression(){} // RVA: 0x7FFAF90E3F70
+        public void CompileMethodLogicalBinaryExpression(){} // RVA: 0x7FFAF90E41C0
+        public void CompileLiftedLogicalBinaryExpression(){} // RVA: 0x7FFAF90E4400
+        public void CompileUnliftedLogicalBinaryExpression(){} // RVA: 0x7FFAF90E5280
+        public void CompileConditionalExpression(){} // RVA: 0x7FFAF90E53C0
+        public void CompileLoopExpression(){} // RVA: 0x7FFAF90E5690
+        public void CompileSwitchExpression(){} // RVA: 0x7FFAF90E5B20
+        public void CompileIntSwitchExpression(){} // RVA: 0x7FFAF2AD4B10
+        public void CompileStringSwitchExpression(){} // RVA: 0x7FFAF90E6500
+        public void CompileLabelExpression(){} // RVA: 0x7FFAF90E6DD0
+        public void CompileGotoExpression(){} // RVA: 0x7FFAF90E7060
+        public void PushLabelBlock(){} // RVA: 0x7FFAF90E73E0
+        public void PopLabelBlock(){} // RVA: 0x7FFAF90E74E0
+        public void EnsureLabel(){} // RVA: 0x7FFAF90E7550
+        public void ReferenceLabel(){} // RVA: 0x7FFAF90E76B0
+        public void DefineLabel(){} // RVA: 0x7FFAF90E7770
+        public void TryPushLabelBlock(){} // RVA: 0x7FFAF90E7810
+        public void DefineBlockLabels(){} // RVA: 0x7FFAF90E7BF0
+        public void CheckRethrow(){} // RVA: 0x7FFAF90E7DE0
+        public void CompileThrowUnaryExpression(){} // RVA: 0x7FFAF90E7E40
+        public void CompileTryExpression(){} // RVA: 0x7FFAF90E8150
+        public void CompileTryFaultExpression(){} // RVA: 0x7FFAF90E8FB0
+        public void CompileMethodCallExpression(){} // RVA: 0x7FFAF90E9550 | overloaded x2
+        public void CompileArrayIndexAddress(){} // RVA: 0x7FFAF90E9A90
+        public void EmitThisForMethodCall(){} // RVA: 0x7FFAF90E9E30
+        public void ShouldWritebackNode(){} // RVA: 0x7FFAF90E9E40
+        public void CompileAddress(){} // RVA: 0x7FFAF90EA060
+        public void CompileMultiDimArrayAccess(){} // RVA: 0x7FFAF90EAFA0
+        public void CompileNewExpression(){} // RVA: 0x7FFAF90EB780
+        public void CompileMemberExpression(){} // RVA: 0x7FFAF90EBCE0
+        public void CompileMember(){} // RVA: 0x7FFAF90EBDA0
+        public void CompileNewArrayExpression(){} // RVA: 0x7FFAF90EC120
+        public void CompileDebugInfoExpression(){} // RVA: 0x7FFAF90EC630
+        public void CompileRuntimeVariablesExpression(){} // RVA: 0x7FFAF90EC840
+        public void CompileLambdaExpression(){} // RVA: 0x7FFAF90ECB60
+        public void CompileCoalesceBinaryExpression(){} // RVA: 0x7FFAF90ECF60
+        public void CompileInvocationExpression(){} // RVA: 0x7FFAF90ED7C0
+        public void CompileListInitExpression(){} // RVA: 0x7FFAF90EDAE0
+        public void CompileListInit(){} // RVA: 0x7FFAF90EDB80
+        public void CompileMemberInitExpression(){} // RVA: 0x7FFAF90EDF30
+        public void CompileMemberInit(){} // RVA: 0x7FFAF90EDFD0
+        public void GetMemberType(){} // RVA: 0x7FFAF90EE480
+        public void CompileQuoteUnaryExpression(){} // RVA: 0x7FFAF90EE5C0
+        public void CompileUnboxUnaryExpression(){} // RVA: 0x7FFAF90EEB40
+        public void CompileTypeEqualExpression(){} // RVA: 0x7FFAF90EECA0
+        public void CompileTypeAsExpression(){} // RVA: 0x7FFAF90EEEF0
+        public void CompileTypeIsExpression(){} // RVA: 0x7FFAF90EEFD0
+        public void Compile(){} // RVA: 0x7FFAF90EFEC0 | overloaded x2
+        public void CompileAsVoid(){} // RVA: 0x7FFAF90EF300
+        public void CompileNoLabelPush(){} // RVA: 0x7FFAF90EF490
+        public void .cctor(){} // RVA: 0x7FFAF90EFF20
     }
 
-    public class LightDelegateCreator : Object
+    public class LightDelegateCreator
     {
-        public System.Linq.Expressions.LambdaExpression _lambda; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8680DC00
-        public void get_Interpreter(){} // RVA: 0x7FFE810FE7C0
-        public void CreateDelegate(){} // RVA: 0x7FFE87180A30 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF877CD00
+        public void get_Interpreter(){} // RVA: 0x7FFAF2D907C0
+        public void CreateDelegate(){} // RVA: 0x7FFAF90F1B40 | overloaded x2
     }
 
-    public class LightLambda : Object
+    public class LightLambda
     {
-        public int MaxParameters;
-
         // ── Methods ──
-        public void Run0(){} // RVA: 0x7FFE810A1420
-        public void RunVoid0(){} // RVA: 0x7FFE87180C30
-        public void MakeRun0(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid0(){} // RVA: 0x7FFE87180CF0
-        public void Run1(){} // RVA: 0x7FFE810A1420
-        public void RunVoid1(){} // RVA: 0x7FFE810A1420
-        public void MakeRun1(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid1(){} // RVA: 0x7FFE80E2E3D0
-        public void Run2(){} // RVA: 0x7FFE810A1420
-        public void RunVoid2(){} // RVA: 0x7FFE810A1420
-        public void MakeRun2(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid2(){} // RVA: 0x7FFE80E2E3D0
-        public void Run3(){} // RVA: 0x7FFE810A1420
-        public void RunVoid3(){} // RVA: 0x7FFE810A1420
-        public void MakeRun3(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid3(){} // RVA: 0x7FFE80E2E3D0
-        public void Run4(){} // RVA: 0x7FFE810A1420
-        public void RunVoid4(){} // RVA: 0x7FFE810A1420
-        public void MakeRun4(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid4(){} // RVA: 0x7FFE80E2E3D0
-        public void Run5(){} // RVA: 0x7FFE810A1420
-        public void RunVoid5(){} // RVA: 0x7FFE810A1420
-        public void MakeRun5(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid5(){} // RVA: 0x7FFE80E2E3D0
-        public void Run6(){} // RVA: 0x7FFE810A1420
-        public void RunVoid6(){} // RVA: 0x7FFE810A1420
-        public void MakeRun6(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid6(){} // RVA: 0x7FFE80E2E3D0
-        public void Run7(){} // RVA: 0x7FFE810A1420
-        public void RunVoid7(){} // RVA: 0x7FFE810A1420
-        public void MakeRun7(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid7(){} // RVA: 0x7FFE80E2E3D0
-        public void Run8(){} // RVA: 0x7FFE810A1420
-        public void RunVoid8(){} // RVA: 0x7FFE810A1420
-        public void MakeRun8(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid8(){} // RVA: 0x7FFE80E2E3D0
-        public void Run9(){} // RVA: 0x7FFE810A1420
-        public void RunVoid9(){} // RVA: 0x7FFE810A1420
-        public void MakeRun9(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid9(){} // RVA: 0x7FFE80E2E3D0
-        public void Run10(){} // RVA: 0x7FFE810A1420
-        public void RunVoid10(){} // RVA: 0x7FFE810A1420
-        public void MakeRun10(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid10(){} // RVA: 0x7FFE80E2E3D0
-        public void Run11(){} // RVA: 0x7FFE810A1420
-        public void RunVoid11(){} // RVA: 0x7FFE810A1420
-        public void MakeRun11(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid11(){} // RVA: 0x7FFE80E2E3D0
-        public void Run12(){} // RVA: 0x7FFE810A1420
-        public void RunVoid12(){} // RVA: 0x7FFE810A1420
-        public void MakeRun12(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid12(){} // RVA: 0x7FFE80E2E3D0
-        public void Run13(){} // RVA: 0x7FFE810A1420
-        public void RunVoid13(){} // RVA: 0x7FFE810A1420
-        public void MakeRun13(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid13(){} // RVA: 0x7FFE80E2E3D0
-        public void Run14(){} // RVA: 0x7FFE810A1420
-        public void RunVoid14(){} // RVA: 0x7FFE810A1420
-        public void MakeRun14(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid14(){} // RVA: 0x7FFE80E2E3D0
-        public void Run15(){} // RVA: 0x7FFE810A1420
-        public void RunVoid15(){} // RVA: 0x7FFE810A1420
-        public void MakeRun15(){} // RVA: 0x7FFE80E2E3D0
-        public void MakeRunVoid15(){} // RVA: 0x7FFE80E2E3D0
-        public void .ctor(){} // RVA: 0x7FFE87180D70
-        public void get_DebugView(){} // RVA: 0x7FFE87180EA0
-        public void GetRunDelegateCtor(){} // RVA: 0x7FFE87180F20
-        public void MakeRunDelegateCtor(){} // RVA: 0x7FFE87181220
-        public void CreateCustomDelegate(){} // RVA: 0x7FFE87181E10
-        public void MakeDelegate(){} // RVA: 0x7FFE87182600
-        public void MakeFrame(){} // RVA: 0x7FFE87182690
-        public void RunVoidRef2(){} // RVA: 0x7FFE80E4F230
-        public void Run(){} // RVA: 0x7FFE87182700
-        public void RunVoid(){} // RVA: 0x7FFE87182AA0
-        public void .cctor(){} // RVA: 0x7FFE87182CA0
+        public void Run0(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid0(){} // RVA: 0x7FFAF90F1D40
+        public void MakeRun0(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid0(){} // RVA: 0x7FFAF90F1E00
+        public void Run1(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid1(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun1(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid1(){} // RVA: 0x7FFAF2ABCE50
+        public void Run2(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid2(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun2(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid2(){} // RVA: 0x7FFAF2ABCE50
+        public void Run3(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid3(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun3(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid3(){} // RVA: 0x7FFAF2ABCE50
+        public void Run4(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid4(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun4(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid4(){} // RVA: 0x7FFAF2ABCE50
+        public void Run5(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid5(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun5(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid5(){} // RVA: 0x7FFAF2ABCE50
+        public void Run6(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid6(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun6(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid6(){} // RVA: 0x7FFAF2ABCE50
+        public void Run7(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid7(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun7(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid7(){} // RVA: 0x7FFAF2ABCE50
+        public void Run8(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid8(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun8(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid8(){} // RVA: 0x7FFAF2ABCE50
+        public void Run9(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid9(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun9(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid9(){} // RVA: 0x7FFAF2ABCE50
+        public void Run10(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid10(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun10(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid10(){} // RVA: 0x7FFAF2ABCE50
+        public void Run11(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid11(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun11(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid11(){} // RVA: 0x7FFAF2ABCE50
+        public void Run12(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid12(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun12(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid12(){} // RVA: 0x7FFAF2ABCE50
+        public void Run13(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid13(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun13(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid13(){} // RVA: 0x7FFAF2ABCE50
+        public void Run14(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid14(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun14(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid14(){} // RVA: 0x7FFAF2ABCE50
+        public void Run15(){} // RVA: 0x7FFAF2D33FA0
+        public void RunVoid15(){} // RVA: 0x7FFAF2D33FA0
+        public void MakeRun15(){} // RVA: 0x7FFAF2ABCE50
+        public void MakeRunVoid15(){} // RVA: 0x7FFAF2ABCE50
+        public void .ctor(){} // RVA: 0x7FFAF90F1E80
+        public void get_DebugView(){} // RVA: 0x7FFAF90F1FB0
+        public void GetRunDelegateCtor(){} // RVA: 0x7FFAF90F2030
+        public void MakeRunDelegateCtor(){} // RVA: 0x7FFAF90F2330
+        public void CreateCustomDelegate(){} // RVA: 0x7FFAF90F2F20
+        public void MakeDelegate(){} // RVA: 0x7FFAF90F3710
+        public void MakeFrame(){} // RVA: 0x7FFAF90F37A0
+        public void RunVoidRef2(){} // RVA: 0x7FFAF2ADDC60
+        public void Run(){} // RVA: 0x7FFAF90F3810
+        public void RunVoid(){} // RVA: 0x7FFAF90F3BB0
+        public void .cctor(){} // RVA: 0x7FFAF90F3DB0
     }
 
-    public class LoadCachedObjectInstruction : Instruction
+    public class LoadCachedObjectInstruction
     {
-        public uint _index; // 0x10
-        public object field_1; // 0x363
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FE0C0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE87193500
-        public void Run(){} // RVA: 0x7FFE87193540
-        public void ToDebugString(){} // RVA: 0x7FFE871935E0
-        public void ToString(){} // RVA: 0x7FFE87193750
+        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF9104610
+        public void Run(){} // RVA: 0x7FFAF9104650
+        public void ToDebugString(){} // RVA: 0x7FFAF91046F0
+        public void ToString(){} // RVA: 0x7FFAF9104860
     }
 
-    public class LoadFieldInstruction : FieldInstruction
+    public class LoadFieldInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_InstructionName(){} // RVA: 0x7FFE87157B70
-        public void get_ConsumedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void Run(){} // RVA: 0x7FFE87157BB0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_InstructionName(){} // RVA: 0x7FFAF90C8CA0
+        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void Run(){} // RVA: 0x7FFAF90C8CE0
     }
 
-    public class LoadLocalBoxedInstruction : LocalAccessInstruction
+    public class LoadLocalBoxedInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FE0C0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE87184520
-        public void Run(){} // RVA: 0x7FFE87184560
+        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90F5630
+        public void Run(){} // RVA: 0x7FFAF90F5670
     }
 
-    public class LoadLocalFromClosureBoxedInstruction : LocalAccessInstruction
+    public class LoadLocalFromClosureBoxedInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FE0C0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE87184790
-        public void Run(){} // RVA: 0x7FFE871847D0
+        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90F58A0
+        public void Run(){} // RVA: 0x7FFAF90F58E0
     }
 
-    public class LoadLocalFromClosureInstruction : LocalAccessInstruction
+    public class LoadLocalFromClosureInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FE0C0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE87184670
-        public void Run(){} // RVA: 0x7FFE871846B0
+        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90F5780
+        public void Run(){} // RVA: 0x7FFAF90F57C0
     }
 
-    public class LoadLocalInstruction : LocalAccessInstruction
+    public class LoadLocalInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FE0C0
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE871843D0
-        public void Run(){} // RVA: 0x7FFE87184410
-        public void BoxIfIndexMatches(){} // RVA: 0x7FFE871844B0
+        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF90F54E0
+        public void Run(){} // RVA: 0x7FFAF90F5520
+        public void BoxIfIndexMatches(){} // RVA: 0x7FFAF90F55C0
     }
 
-    public class LoadObjectInstruction : Instruction
+    public class LoadObjectInstruction
     {
-        public object _value; // 0x10
-        public object field_1; // 0x361
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void get_InstructionName(){} // RVA: 0x7FFE871933A0
-        public void Run(){} // RVA: 0x7FFE871933E0
-        public void ToString(){} // RVA: 0x7FFE87193460
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void get_InstructionName(){} // RVA: 0x7FFAF91044B0
+        public void Run(){} // RVA: 0x7FFAF91044F0
+        public void ToString(){} // RVA: 0x7FFAF9104570
     }
 
-    public class LoadStaticFieldInstruction : FieldInstruction
+    public class LoadStaticFieldInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_InstructionName(){} // RVA: 0x7FFE87157A80
-        public void get_ProducedStack(){} // RVA: 0x7FFE811EDAF0
-        public void Run(){} // RVA: 0x7FFE87157AC0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_InstructionName(){} // RVA: 0x7FFAF90C8BB0
+        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
+        public void Run(){} // RVA: 0x7FFAF90C8BF0
     }
 
-    public class LocalAccessInstruction : Instruction
+    public class LocalAccessInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FE0C0
-        public void ToDebugString(){} // RVA: 0x7FFE87184230
+        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void ToDebugString(){} // RVA: 0x7FFAF90F5340
     }
 
-    public class LocalDefinition : ValueType
+    public class LocalDefinition
     {
-        public int _index; // 0x10
-        public System.Linq.Expressions.ParameterExpression _parameter; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE844576B0
-        public void get_Index(){} // RVA: 0x7FFE826F4220
-        public void get_Parameter(){} // RVA: 0x7FFE826F4210
-        public void Equals(){} // RVA: 0x7FFE87185F00
-        public void GetHashCode(){} // RVA: 0x7FFE87185FA0
+        public void .ctor(){} // RVA: 0x7FFAF6276C70
+        public void get_Index(){} // RVA: 0x7FFAF44189B0
+        public void get_Parameter(){} // RVA: 0x7FFAF44189C0
+        public void Equals(){} // RVA: 0x7FFAF90F7010
+        public void GetHashCode(){} // RVA: 0x7FFAF90F70B0
     }
 
-    public class LocalVariable : Object
+    public class LocalVariable
     {
-        public int IsBoxedFlag;
-        public int InClosureFlag;
+        public object Index;
+        public object Parameter;
 
         // ── Methods ──
-        public void get_IsBoxed(){} // RVA: 0x7FFE87185D70
-        public void set_IsBoxed(){} // RVA: 0x7FFE87185D80
-        public void get_InClosure(){} // RVA: 0x7FFE87185DA0
-        public void .ctor(){} // RVA: 0x7FFE87185DB0
-        public void ToString(){} // RVA: 0x7FFE87185DC0
+        public void get_IsBoxed(){} // RVA: 0x7FFAF90F6E80
+        public void set_IsBoxed(){} // RVA: 0x7FFAF90F6E90
+        public void get_InClosure(){} // RVA: 0x7FFAF90F6EB0
+        public void .ctor(){} // RVA: 0x7FFAF90F6EC0
+        public void ToString(){} // RVA: 0x7FFAF90F6ED0
     }
 
-    public class LocalVariables : Object
+    public class LocalVariables
     {
-        public System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<System.Linq.Expressions.ParameterExpression,VariableScope> _variables; // 0x10
-        public System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.Interpreter.LocalVariable> _closureVariables; // 0x18
-
         // ── Methods ──
-        public void DefineLocal(){} // RVA: 0x7FFE87185FE0
-        public void UndefineLocal(){} // RVA: 0x7FFE871863A0
-        public void Box(){} // RVA: 0x7FFE87186520
-        public void get_LocalCount(){} // RVA: 0x7FFE81A56130
-        public void TryGetLocalOrClosure(){} // RVA: 0x7FFE871866A0
-        public void get_ClosureVariables(){} // RVA: 0x7FFE810FE7C0
-        public void AddClosureVariable(){} // RVA: 0x7FFE871868B0
-        public void .ctor(){} // RVA: 0x7FFE87186A30
+        public void DefineLocal(){} // RVA: 0x7FFAF90F70F0
+        public void UndefineLocal(){} // RVA: 0x7FFAF90F74B0
+        public void Box(){} // RVA: 0x7FFAF90F7630
+        public void get_LocalCount(){} // RVA: 0x7FFAF379F5B0
+        public void TryGetLocalOrClosure(){} // RVA: 0x7FFAF90F77B0
+        public void get_ClosureVariables(){} // RVA: 0x7FFAF2D907C0
+        public void AddClosureVariable(){} // RVA: 0x7FFAF90F79C0
+        public void .ctor(){} // RVA: 0x7FFAF90F7B40
     }
 
 }

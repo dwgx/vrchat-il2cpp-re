@@ -1,0 +1,199 @@
+[
+  {
+    "class": "UpdateComponent_107BSibling_B256",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnBecameVisible",
+      "OnBecameInvisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_88E",
+      "m_9F1"
+    ]
+  },
+  {
+    "class": "InputControlBinding_FB76",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnPointerDown",
+      "GetWarningMessage",
+      "SetStartColor",
+      "set_controlPathInternal",
+      "set_isGrounded",
+      "NeedsSync",
+      "get_controlPathInternal"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D66",
+      "m_78E"
+    ]
+  },
+  {
+    "class": "UpdateComponent_7909Sibling_8382",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnBecameInvisible"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_31C"
+    ]
+  },
+  {
+    "class": "UIObservableList_5B1E_1CDF",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf",
+      "set_ObservableList",
+      "CreateObservableListEvent",
+      "get_ObservableList",
+      "Remove",
+      "Clear",
+      "Contains"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BC0",
+      "m_24A"
+    ]
+  },
+  {
+    "class": "FoldoutListRelated_FDA3",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8FB",
+      "m_AE2",
+      "m_EE1",
+      "m_F6F",
+      "m_CC4",
+      "m_BB0",
+      "m_35F",
+      "m_84F",
+      "m_2CD",
+      "m_AA6",
+      "m_1FD",
+      "m_EEE"
+    ]
+  },
+  {
+    "class": "NetworkSyncable_9834",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_UniqueHash",
+      "set_TypeId"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_42C",
+      "m_895",
+      "m_F4B",
+      "m_367",
+      "m_2FA",
+      "m_851",
+      "m_ADD",
+      "m_2EE",
+      "m_551",
+      "m_91E",
+      "m_D36",
+      "m_4C6"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_F228Sibling_133D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnTriggerStay"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_EA2",
+      "m_3ED"
+    ]
+  },
+  {
+    "class": "PhysSoundTerrain",
+    "parent": "",
+    "namespace": "PhysSound",
+    "readable_methods": [
+      "Computetransform",
+      "DoGetEnumerator",
+      "GetMaxParameterIndex",
+      "FindMaxParameterIndexWithThreshold",
+      "ProcessTerrainPhysicsData",
+      "ComputeInternal_a",
+      "DoGetAlphamaps"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7D5"
+    ]
+  },
+  {
+    "class": "BackgroundOption",
+    "parent": "",
+    "namespace": "VRC",
+    "readable_methods": [
+      "set_Preview",
+      "get_IsLoaded",
+      "set_IsLoaded",
+      "set_BackgroundName",
+      "get_DisplayName",
+      "set_IsVRCPlus",
+      "get_BackgroundName"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_612"
+    ]
+  },
+  {
+    "class": "PlayercontrolPathInternal_23AE_8640",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_controlPath",
+      "SetCompletedSynchronously",
+      "OnPointerDown",
+      "get_HasAnyActive",
+      "OnPointerEnter",
+      "set_controlPathInternal",
+      "OnPointerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_37E"
+    ]
+  }
+]

@@ -5,117 +5,100 @@
 
 namespace ThirdParty.Unity.UnityEngine.XR.Management
 {
-    public class XRConfigurationDataAttribute : Attribute
+    public class XRConfigurationDataAttribute
     {
-        public string _displayName; // 0x10
-        public string _buildSettingsKey; // 0x18
-
         // ── Methods ──
-        public void get_displayName(){} // RVA: 0x7FFE81116380
-        public void set_displayName(){} // RVA: 0x7FFE810FCE30
-        public void get_buildSettingsKey(){} // RVA: 0x7FFE810FE7C0
-        public void set_buildSettingsKey(){} // RVA: 0x7FFE81161E80
-        public void .ctor(){} // RVA: 0x7FFE81CA56D0 | overloaded x2
+        public void get_displayName(){} // RVA: 0x7FFAF2DA8380
+        public void set_displayName(){} // RVA: 0x7FFAF2D8EE30
+        public void get_buildSettingsKey(){} // RVA: 0x7FFAF2D907C0
+        public void set_buildSettingsKey(){} // RVA: 0x7FFAF2DF3E80
+        public void .ctor(){} // RVA: 0x7FFAF39C9AE0 | overloaded x2
     }
 
-    public class XRGeneralSettings : ScriptableObject
+    public class XRGeneralSettings
     {
-        public string k_SettingsKey;
-        public UnityEngine.XR.Management.XRGeneralSettings s_RuntimeSettingsInstance; // 0x8
-        public UnityEngine.XR.Management.XRManagerSettings m_LoaderManagerInstance; // 0x18
-        public bool m_InitManagerOnStart; // 0x20
-
         // ── Methods ──
-        public void get_Manager(){} // RVA: 0x7FFE810FE7C0
-        public void set_Manager(){} // RVA: 0x7FFE81161E80
-        public void get_Instance(){} // RVA: 0x7FFE87B8BB60
-        public void get_AssignedSettings(){} // RVA: 0x7FFE810FE7C0
-        public void get_InitManagerOnStart(){} // RVA: 0x7FFE811E99D0
-        public void Awake(){} // RVA: 0x7FFE87B8BBC0
-        public void Quit(){} // RVA: 0x7FFE87B8BDA0
-        public void Start(){} // RVA: 0x7FFE87B8BEE0
-        public void OnDestroy(){} // RVA: 0x7FFE87B8BEF0
-        public void AttemptInitializeXRSDKOnLoad(){} // RVA: 0x7FFE87B8BF00
-        public void AttemptStartXRSDKOnBeforeSplashScreen(){} // RVA: 0x7FFE87B8C040
-        public void InitXRSDK(){} // RVA: 0x7FFE87B8C180
-        public void StartXRSDK(){} // RVA: 0x7FFE87B8C4F0
-        public void StopXRSDK(){} // RVA: 0x7FFE87B8C680
-        public void DeInitXRSDK(){} // RVA: 0x7FFE87B8C810
-        public void .ctor(){} // RVA: 0x7FFE87B8CA00
-        public void .cctor(){} // RVA: 0x7FFE87B8CA10
+        public void get_Manager(){} // RVA: 0x7FFAF2D907C0
+        public void set_Manager(){} // RVA: 0x7FFAF2DF3E80
+        public void get_Instance(){} // RVA: 0x7FFAF9AFAC90
+        public void get_AssignedSettings(){} // RVA: 0x7FFAF2D907C0
+        public void get_InitManagerOnStart(){} // RVA: 0x7FFAF2E7B9D0
+        public void Awake(){} // RVA: 0x7FFAF9AFACF0
+        public void Quit(){} // RVA: 0x7FFAF9AFAED0
+        public void Start(){} // RVA: 0x7FFAF9AFB010
+        public void OnDestroy(){} // RVA: 0x7FFAF9AFB020
+        public void AttemptInitializeXRSDKOnLoad(){} // RVA: 0x7FFAF9AFB030
+        public void AttemptStartXRSDKOnBeforeSplashScreen(){} // RVA: 0x7FFAF9AFB170
+        public void InitXRSDK(){} // RVA: 0x7FFAF9AFB2B0
+        public void StartXRSDK(){} // RVA: 0x7FFAF9AFB620
+        public void StopXRSDK(){} // RVA: 0x7FFAF9AFB7B0
+        public void DeInitXRSDK(){} // RVA: 0x7FFAF9AFB940
+        public void .ctor(){} // RVA: 0x7FFAF9AFBB30
+        public void .cctor(){} // RVA: 0x7FFAF9AFBB40
     }
 
-    public class XRLoader : ScriptableObject
+    public class XRLoader
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFE811E0850
-        public void Start(){} // RVA: 0x7FFE811E0850
-        public void Stop(){} // RVA: 0x7FFE811E0850
-        public void Deinitialize(){} // RVA: 0x7FFE811E0850
-        public void GetLoadedSubsystem(){} // RVA: 0x7FFE810A1420
-        public void GetSupportedGraphicsDeviceTypes(){} // RVA: 0x7FFE87B8CB30
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void Initialize(){} // RVA: 0x7FFAF2E72850
+        public void Start(){} // RVA: 0x7FFAF2E72850
+        public void Stop(){} // RVA: 0x7FFAF2E72850
+        public void Deinitialize(){} // RVA: 0x7FFAF2E72850
+        public void GetLoadedSubsystem(){} // RVA: 0x7FFAF2D33FA0
+        public void GetSupportedGraphicsDeviceTypes(){} // RVA: 0x7FFAF9AFBC60
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class XRLoaderHelper : XRLoader
+    public class XRLoaderHelper
     {
         // ── Methods ──
-        public void GetLoadedSubsystem(){} // RVA: 0x7FFE810A1420
-        public void StartSubsystem(){} // RVA: 0x7FFE80E45FE0
-        public void StopSubsystem(){} // RVA: 0x7FFE80E45FE0
-        public void DestroySubsystem(){} // RVA: 0x7FFE80E45FE0
-        public void CreateSubsystem(){} // RVA: 0x7FFE80E4F230
-        public void CreateIntegratedSubsystem(){} // RVA: 0x7FFE80E4F230
-        public void CreateStandaloneSubsystem(){} // RVA: 0x7FFE80E4F230
-        public void Deinitialize(){} // RVA: 0x7FFE87B8CB90
-        public void .ctor(){} // RVA: 0x7FFE87B8CBE0
+        public void GetLoadedSubsystem(){} // RVA: 0x7FFAF2D33FA0
+        public void StartSubsystem(){} // RVA: 0x7FFAF2AD4A50
+        public void StopSubsystem(){} // RVA: 0x7FFAF2AD4A50
+        public void DestroySubsystem(){} // RVA: 0x7FFAF2AD4A50
+        public void CreateSubsystem(){} // RVA: 0x7FFAF2ADDC60
+        public void CreateIntegratedSubsystem(){} // RVA: 0x7FFAF2ADDC60
+        public void CreateStandaloneSubsystem(){} // RVA: 0x7FFAF2ADDC60
+        public void Deinitialize(){} // RVA: 0x7FFAF9AFBCC0
+        public void .ctor(){} // RVA: 0x7FFAF9AFBD10
     }
 
-    public class XRManagementAnalytics : Object
+    public class XRManagementAnalytics
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFE87B8CCB0
+        public void Initialize(){} // RVA: 0x7FFAF9AFBDE0
     }
 
-    public class XRManagerSettings : ScriptableObject
+    public class XRManagerSettings
     {
-        public bool m_InitializationComplete; // 0x18
-        public bool m_RequiresSettingsUpdate; // 0x19
-        public bool m_AutomaticLoading; // 0x1A
-        public bool m_AutomaticRunning; // 0x1B
-        public System.Collections.Generic.List`1<UnityEngine.XR.Management.XRLoader> m_Loaders; // 0x20
-        public System.Collections.Generic.HashSet`1<UnityEngine.XR.Management.XRLoader> m_RegisteredLoaders; // 0x28
-        public UnityEngine.XR.Management.XRLoader _activeLoader; // 0x30
-        public object field_7; // 0x7
-
         // ── Methods ──
-        public void get_automaticLoading(){} // RVA: 0x7FFE82930110
-        public void set_automaticLoading(){} // RVA: 0x7FFE8292DD10
-        public void get_automaticRunning(){} // RVA: 0x7FFE814B32C0
-        public void set_automaticRunning(){} // RVA: 0x7FFE8292DD00
-        public void get_loaders(){} // RVA: 0x7FFE811290C0
-        public void get_activeLoaders(){} // RVA: 0x7FFE811290C0
-        public void get_isInitializationComplete(){} // RVA: 0x7FFE811164E0
-        public void get_activeLoader(){} // RVA: 0x7FFE8144E200
-        public void set_activeLoader(){} // RVA: 0x7FFE81129890
-        public void ActiveLoaderAs(){} // RVA: 0x7FFE810A1420
-        public void InitializeLoaderSync(){} // RVA: 0x7FFE87B8CCF0
-        public void InitializeLoader(){} // RVA: 0x7FFE87B8D020
-        public void TryAddLoader(){} // RVA: 0x7FFE87B8D0C0
-        public void TryRemoveLoader(){} // RVA: 0x7FFE87B8D2F0
-        public void TrySetLoaders(){} // RVA: 0x7FFE87B8D390
-        public void Awake(){} // RVA: 0x7FFE87B8D5A0
-        public void CheckGraphicsAPICompatibility(){} // RVA: 0x7FFE87B8D760
-        public void StartSubsystems(){} // RVA: 0x7FFE87B8D980
-        public void StopSubsystems(){} // RVA: 0x7FFE87B8DAD0
-        public void DeinitializeLoader(){} // RVA: 0x7FFE87B8DC20
-        public void Start(){} // RVA: 0x7FFE87B8DD80
-        public void OnDisable(){} // RVA: 0x7FFE87B8DDA0
-        public void OnDestroy(){} // RVA: 0x7FFE87B8DDC0
-        public void get_currentLoaders(){} // RVA: 0x7FFE811290C0
-        public void set_currentLoaders(){} // RVA: 0x7FFE811290D0
-        public void get_registeredLoaders(){} // RVA: 0x7FFE81129130
-        public void .ctor(){} // RVA: 0x7FFE87B8DDD0
+        public void get_automaticLoading(){} // RVA: 0x7FFAF4648340
+        public void set_automaticLoading(){} // RVA: 0x7FFAF4648210
+        public void get_automaticRunning(){} // RVA: 0x7FFAF31690C0
+        public void set_automaticRunning(){} // RVA: 0x7FFAF4648350
+        public void get_loaders(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_activeLoaders(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_isInitializationComplete(){} // RVA: 0x7FFAF2DA84E0
+        public void get_activeLoader(){} // RVA: 0x7FFAF30E74D0
+        public void set_activeLoader(){} // RVA: 0x7FFAF2DBB890
+        public void ActiveLoaderAs(){} // RVA: 0x7FFAF2D33FA0
+        public void InitializeLoaderSync(){} // RVA: 0x7FFAF9AFBE20
+        public void InitializeLoader(){} // RVA: 0x7FFAF9AFC150
+        public void TryAddLoader(){} // RVA: 0x7FFAF9AFC1F0
+        public void TryRemoveLoader(){} // RVA: 0x7FFAF9AFC420
+        public void TrySetLoaders(){} // RVA: 0x7FFAF9AFC4C0
+        public void Awake(){} // RVA: 0x7FFAF9AFC6D0
+        public void CheckGraphicsAPICompatibility(){} // RVA: 0x7FFAF9AFC890
+        public void StartSubsystems(){} // RVA: 0x7FFAF9AFCAB0
+        public void StopSubsystems(){} // RVA: 0x7FFAF9AFCC00
+        public void DeinitializeLoader(){} // RVA: 0x7FFAF9AFCD50
+        public void Start(){} // RVA: 0x7FFAF9AFCEB0
+        public void OnDisable(){} // RVA: 0x7FFAF9AFCED0
+        public void OnDestroy(){} // RVA: 0x7FFAF9AFCEF0
+        public void get_currentLoaders(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_currentLoaders(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_registeredLoaders(){} // RVA: 0x7FFAF2DBB130
+        public void .ctor(){} // RVA: 0x7FFAF9AFCF00
     }
 
 }

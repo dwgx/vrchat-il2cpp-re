@@ -5,146 +5,144 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class CancellationTokenDisposable : Object
+    public class CancellationTokenDisposable
     {
-        public System.Threading.CancellationTokenSource cts; // 0x10
-
         // ── Methods ──
-        public void get_Token(){} // RVA: 0x7FFE8620BFB0
-        public void Dispose(){} // RVA: 0x7FFE8620BFD0
-        public void .ctor(){} // RVA: 0x7FFE87864A20
+        public void get_Token(){} // RVA: 0x7FFAF820B7E0
+        public void Dispose(){} // RVA: 0x7FFAF820B800
+        public void .ctor(){} // RVA: 0x7FFAF97D3B80
     }
 
-    public class Cast`1 : Object
+    public class Cast`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`10 : Object
+    public class CombineLatest`10
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E51A30
+        public void .ctor(){} // RVA: 0x7FFAF2AE0460
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`11 : Object
+    public class CombineLatest`11
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E51C10
+        public void .ctor(){} // RVA: 0x7FFAF2AE0640
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`12 : Object
+    public class CombineLatest`12
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E51E20
+        public void .ctor(){} // RVA: 0x7FFAF2AE0850
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`13 : Object
+    public class CombineLatest`13
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E52040
+        public void .ctor(){} // RVA: 0x7FFAF2AE0A70
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`14 : Object
+    public class CombineLatest`14
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E52290
+        public void .ctor(){} // RVA: 0x7FFAF2AE0CC0
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`15 : Object
+    public class CombineLatest`15
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E52500
+        public void .ctor(){} // RVA: 0x7FFAF2AE0F30
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`16 : Object
+    public class CombineLatest`16
     {
         // ── Methods ──
         public void .ctor(){}
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`3 : Object
+    public class CombineLatest`3
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E50660
+        public void .ctor(){} // RVA: 0x7FFAF2ADF090
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`4 : Object
+    public class CombineLatest`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E50FC0
+        public void .ctor(){} // RVA: 0x7FFAF2ADF9F0
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`5 : Object
+    public class CombineLatest`5
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E51270
+        public void .ctor(){} // RVA: 0x7FFAF2ADFCA0
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`6 : Object
+    public class CombineLatest`6
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E513E0
+        public void .ctor(){} // RVA: 0x7FFAF2ADFE10
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`7 : Object
+    public class CombineLatest`7
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E51610
+        public void .ctor(){} // RVA: 0x7FFAF2AE0040
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`8 : Object
+    public class CombineLatest`8
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E516F0
+        public void .ctor(){} // RVA: 0x7FFAF2AE0120
         public void GetAsyncEnumerator(){}
     }
 
-    public class CombineLatest`9 : Object
+    public class CombineLatest`9
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E51870
+        public void .ctor(){} // RVA: 0x7FFAF2AE02A0
         public void GetAsyncEnumerator(){}
     }
 
-    public class Concat`1 : Object
+    public class Concat`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
         public void GetAsyncEnumerator(){}
     }
 
-    public class Contains : Object
+    public class Contains
     {
         // ── Methods ──
-        public void ContainsAsync(){} // RVA: 0x7FFE810A1420
+        public void ContainsAsync(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class Count : Object
+    public class Count
     {
         // ── Methods ──
-        public void CountAsync(){} // RVA: 0x7FFE810A1420 | overloaded x2
-        public void CountAwaitAsync(){} // RVA: 0x7FFE810A1420
-        public void CountAwaitWithCancellationAsync(){} // RVA: 0x7FFE810A1420
+        public void CountAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void CountAwaitAsync(){} // RVA: 0x7FFAF2D33FA0
+        public void CountAwaitWithCancellationAsync(){} // RVA: 0x7FFAF2D33FA0
     }
 
-    public class Create`1 : Object
+    public class Create`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
         public void GetAsyncEnumerator(){}
     }
 

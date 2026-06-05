@@ -5,10 +5,10 @@
 
 namespace VRC.UI.Elements.Events
 {
-    public class ImageEvent : UnityEvent`1
+    public class ImageEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89843B50
+        public void .ctor(){} // RVA: 0x7FFAFB805CE0
     }
 
 }

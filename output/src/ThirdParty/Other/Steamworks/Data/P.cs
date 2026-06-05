@@ -5,58 +5,48 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class P2PSessionConnectFail_t : ValueType
+    public class P2PSessionConnectFail_t
     {
-        public ulong SteamIDRemote; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5D0D0
-        public void .cctor(){} // RVA: 0x7FFE82E5D0E0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7ECD0
+        public void .cctor(){} // RVA: 0x7FFAF4B7ECE0
     }
 
-    public class P2PSessionRequest_t : ValueType
+    public class P2PSessionRequest_t
     {
-        public ulong SteamIDRemote; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5CFC0
-        public void .cctor(){} // RVA: 0x7FFE82E5CFD0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7EBC0
+        public void .cctor(){} // RVA: 0x7FFAF4B7EBD0
     }
 
-    public class PSNGameBootInviteResult_t : ValueType
+    public class PSNGameBootInviteResult_t
     {
-        public bool GameBootInviteExists; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E59000
-        public void .cctor(){} // RVA: 0x7FFE82E59010
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7AC00
+        public void .cctor(){} // RVA: 0x7FFAF4B7AC10
     }
 
-    public class PersonaStateChange_t : ValueType
+    public class PersonaStateChange_t
     {
-        public ulong SteamID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E56370
-        public void .cctor(){} // RVA: 0x7FFE82E56380
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B77F70
+        public void .cctor(){} // RVA: 0x7FFAF4B77F80
     }
 
-    public class PlaybackStatusHasChanged_t : ValueType
+    public class PlaybackStatusHasChanged_t
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5D400
-        public void .cctor(){} // RVA: 0x7FFE82E5D410
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7F000
+        public void .cctor(){} // RVA: 0x7FFAF4B7F010
     }
 
-    public class PublishedFileId : ValueType
+    public class PublishedFileId
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE82E54010
-        public void GetHashCode(){} // RVA: 0x7FFE82E53BC0
-        public void Equals(){} // RVA: 0x7FFE82E643F0 | overloaded x2
-        public void CompareTo(){} // RVA: 0x7FFE82E64400
+        public void ToString(){} // RVA: 0x7FFAF4B75C10
+        public void GetHashCode(){} // RVA: 0x7FFAF4B757C0
+        public void Equals(){} // RVA: 0x7FFAF4B85FF0 | overloaded x2
+        public void CompareTo(){} // RVA: 0x7FFAF4B86000
     }
 
 }

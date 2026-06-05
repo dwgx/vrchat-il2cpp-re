@@ -5,44 +5,39 @@
 
 namespace ThirdParty.Unity.UnityEngineInternal.Input
 {
-    public class NativeInputEvent : ValueType
+    public class NativeInputEvent
     {
     }
 
-    public class NativeInputEventBuffer : ValueType
+    public class NativeInputEventBuffer
     {
     }
 
-    public class NativeInputSystem : Object
-    {
-        public UnityEngineInternal.Input.NativeUpdateCallback onUpdate;
-        public System.Action`1<0x666DC1BC> onBeforeUpdate; // 0x8
-        public System.Func`2<0x666DC1BC,bool> onShouldRunUpdate; // 0x10
-        public System.Action`2<int,string> s_OnDeviceDiscoveredCallback; // 0x18
-
-        // ── Methods ──
-        public void get_onDeviceDiscovered(){} // RVA: 0x7FFE87CEB510
-        public void set_onDeviceDiscovered(){} // RVA: 0x7FFE87CEB570
-        public void .cctor(){} // RVA: 0x7FFE87CEB680
-        public void NotifyBeforeUpdate(){} // RVA: 0x7FFE87CEB6D0
-        public void NotifyUpdate(){} // RVA: 0x7FFE87CEB750
-        public void NotifyDeviceDiscovered(){} // RVA: 0x7FFE87CEB7F0
-        public void ShouldRunUpdate(){} // RVA: 0x7FFE87CEB870
-        public void set_hasDeviceDiscoveredCallback(){} // RVA: 0x7FFE87CEB900
-        public void get_currentTime(){} // RVA: 0x7FFE87CEB950
-        public void get_currentTimeOffsetToRealtimeSinceStartup(){} // RVA: 0x7FFE87CEB9A0
-        public void AllocateDeviceId(){} // RVA: 0x7FFE87CEB9F0
-        public void QueueInputEvent(){} // RVA: 0x7FFE87CEBA40
-        public void IOCTL(){} // RVA: 0x7FFE87CEBA90
-        public void SetPollingFrequency(){} // RVA: 0x7FFE87CEBB10
-        public void Update(){} // RVA: 0x7FFE87CEBB70
-    }
-
-    public class NativeUpdateCallback : MulticastDelegate
+    public class NativeInputSystem
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE812572A0
-        public void Invoke(){} // RVA: 0x7FFE81257370
+        public void get_onDeviceDiscovered(){} // RVA: 0x7FFAF9C5B370
+        public void set_onDeviceDiscovered(){} // RVA: 0x7FFAF9C5B3D0
+        public void .cctor(){} // RVA: 0x7FFAF9C5B4E0
+        public void NotifyBeforeUpdate(){} // RVA: 0x7FFAF9C5B530
+        public void NotifyUpdate(){} // RVA: 0x7FFAF9C5B5B0
+        public void NotifyDeviceDiscovered(){} // RVA: 0x7FFAF9C5B650
+        public void ShouldRunUpdate(){} // RVA: 0x7FFAF9C5B6D0
+        public void set_hasDeviceDiscoveredCallback(){} // RVA: 0x7FFAF9C5B760
+        public void get_currentTime(){} // RVA: 0x7FFAF9C5B7B0
+        public void get_currentTimeOffsetToRealtimeSinceStartup(){} // RVA: 0x7FFAF9C5B800
+        public void AllocateDeviceId(){} // RVA: 0x7FFAF9C5B850
+        public void QueueInputEvent(){} // RVA: 0x7FFAF9C5B8A0
+        public void IOCTL(){} // RVA: 0x7FFAF9C5B8F0
+        public void SetPollingFrequency(){} // RVA: 0x7FFAF9C5B970
+        public void Update(){} // RVA: 0x7FFAF9C5B9D0
+    }
+
+    public class NativeUpdateCallback
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAF2EE92A0
+        public void Invoke(){} // RVA: 0x7FFAF2EE9370
     }
 
 }

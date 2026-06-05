@@ -1,0 +1,222 @@
+[
+  {
+    "class": "PlayerMoveNext_F7C4",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F46",
+      "m_3B9",
+      "m_378",
+      "m_DB7",
+      "m_F6D"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_F7C4",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F46",
+      "m_3B9",
+      "m_378",
+      "m_DB7",
+      "m_F6D"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_81DD",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_ACD",
+      "m_F30",
+      "m_B28",
+      "m_ED1",
+      "m_0C8",
+      "m_31E",
+      "m_4FA",
+      "m_D88",
+      "m_1AC",
+      "m_D87",
+      "m_C01",
+      "m_410"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_2821",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_51F",
+      "m_A66",
+      "m_B3D",
+      "m_AFD",
+      "m_3D5",
+      "m_C31",
+      "m_6F8",
+      "m_8B6",
+      "m_8B3",
+      "m_C64",
+      "m_FE6"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_2821",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_51F",
+      "m_A66",
+      "m_B3D",
+      "m_AFD",
+      "m_3D5",
+      "m_C31",
+      "m_6F8",
+      "m_8B6",
+      "m_8B3",
+      "m_C64",
+      "m_FE6"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_2821",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_51F",
+      "m_A66",
+      "m_B3D",
+      "m_AFD",
+      "m_3D5",
+      "m_C31",
+      "m_6F8",
+      "m_8B6",
+      "m_8B3",
+      "m_C64",
+      "m_FE6"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_2821",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_51F",
+      "m_A66",
+      "m_B3D",
+      "m_AFD",
+      "m_3D5",
+      "m_C31",
+      "m_6F8",
+      "m_8B6",
+      "m_8B3",
+      "m_C64",
+      "m_FE6"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_2821",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_51F",
+      "m_A66",
+      "m_B3D",
+      "m_AFD",
+      "m_3D5",
+      "m_C31",
+      "m_6F8",
+      "m_8B6",
+      "m_8B3",
+      "m_C64",
+      "m_FE6"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_2821",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_51F",
+      "m_A66",
+      "m_B3D",
+      "m_AFD",
+      "m_3D5",
+      "m_C31",
+      "m_6F8",
+      "m_8B6",
+      "m_8B3",
+      "m_C64",
+      "m_FE6"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_2821",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2F0",
+      "m_51F",
+      "m_A66",
+      "m_B3D",
+      "m_AFD",
+      "m_3D5",
+      "m_C31",
+      "m_6F8",
+      "m_8B6",
+      "m_8B3",
+      "m_C64",
+      "m_FE6"
+    ]
+  }
+]

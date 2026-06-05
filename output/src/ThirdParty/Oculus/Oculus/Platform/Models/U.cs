@@ -5,58 +5,58 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class User : Object
+    public class User
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C343D0
+        public void .ctor(){} // RVA: 0x7FFAF8BA3600
     }
 
-    public class UserAndRoom : Object
+    public class UserAndRoom
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C35230
+        public void .ctor(){} // RVA: 0x7FFAF8BA4460
     }
 
-    public class UserAndRoomList : DeserializableList`1
+    public class UserAndRoomList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C35540
+        public void .ctor(){} // RVA: 0x7FFAF8BA4770
     }
 
-    public class UserCapability : Object
+    public class UserCapability
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C35930
+        public void .ctor(){} // RVA: 0x7FFAF8BA4B60
     }
 
-    public class UserCapabilityList : DeserializableList`1
+    public class UserCapabilityList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C35CD0
+        public void .ctor(){} // RVA: 0x7FFAF8BA4F00
     }
 
-    public class UserDataStoreUpdateResponse : Object
+    public class UserDataStoreUpdateResponse
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C360C0
+        public void .ctor(){} // RVA: 0x7FFAF8BA52F0
     }
 
-    public class UserList : DeserializableList`1
+    public class UserList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C34E40
+        public void .ctor(){} // RVA: 0x7FFAF8BA4070
     }
 
-    public class UserProof : Object
+    public class UserProof
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C36190
+        public void .ctor(){} // RVA: 0x7FFAF8BA53C0
     }
 
-    public class UserReportID : Object
+    public class UserReportID
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C362E0
+        public void .ctor(){} // RVA: 0x7FFAF8BA5510
     }
 
 }

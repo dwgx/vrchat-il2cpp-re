@@ -1,0 +1,244 @@
+[
+  {
+    "class": "SerializableVector3SiblingSiblSibling_961F",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Initialize_D74F9E3B7B27",
+      "set_Value",
+      "set_Value_F501E422C7A0",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AAA",
+      "m_F12",
+      "m_06E"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblingSiblSibling_5283",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Initialize_D74F9E3B7B27",
+      "set_Value",
+      "set_Value_F501E422C7A0",
+      "get_Value"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_745",
+      "m_FEF",
+      "m_834"
+    ]
+  },
+  {
+    "class": "SystemControllerSibling_29B9",
+    "parent": "",
+    "readable_methods": [
+      "BackPressed",
+      "CreateInstance",
+      "Initialize",
+      "GetGameObject_E1B",
+      ".ctor_6E2EED3C818E"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_413",
+      "m_134",
+      "m_D97"
+    ]
+  },
+  {
+    "class": "ComplexComponent_8C61SiblingSiSibling_CD4B",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_900",
+      "m_527",
+      "m_DA6",
+      "m_168",
+      "m_CAF"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_53C7",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Initialize",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C3A",
+      "m_A00",
+      "m_2B4",
+      "m_DCE"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSiblingSibling_F53A",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Update_2B4F45D701AE",
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3F5",
+      "m_656",
+      "m_DCE",
+      "m_2DE"
+    ]
+  },
+  {
+    "class": "UpdateComponent_7909_6BFA",
+    "parent": "",
+    "readable_methods": [
+      "LateUpdate",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F10",
+      "m_B39",
+      "m_A34",
+      "m_040"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_F228SiblingSibling_AFEF",
+    "parent": "",
+    "readable_methods": [
+      "LateUpdate",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_899",
+      "m_CB2",
+      "m_AF5",
+      "m_B73"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSibling_8234",
+    "parent": "",
+    "readable_methods": [
+      "OnEnable",
+      "Initialize",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_076",
+      "m_40F",
+      "m_285"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_B23FSiblingSibling_6548",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A7F",
+      "m_182",
+      "m_753"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSibling_8BCB",
+    "parent": "",
+    "readable_methods": [
+      "OnDisable",
+      "Initialize",
+      "Initialize_9415773EE8C5",
+      "OnEnable_946718D83485"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F5D",
+      "m_9DF",
+      "m_C6F"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_6076Sibling_3FE8",
+    "parent": "",
+    "readable_methods": [
+      "Awake",
+      "Initialize",
+      "Update",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_EBF",
+      "m_597",
+      "m_A9A"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_3C6C",
+    "parent": "",
+    "readable_methods": [
+      "OnEnable",
+      "Update",
+      "LateUpdate",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_0AF",
+      "m_4DE",
+      "m_A66"
+    ]
+  },
+  {
+    "class": "MessengerHelperSiblingSibling_B521",
+    "parent": "",
+    "readable_methods": [
+      "OnDisable_3CBDA69A696C",
+      "OnDisable_3CB451386F3C",
+      "OnDestroy",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8ED",
+      "m_A3F",
+      "m_B8E"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_ECC0",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2A0",
+      "m_12E",
+      "m_DB3",
+      "m_F60"
+    ]
+  }
+]

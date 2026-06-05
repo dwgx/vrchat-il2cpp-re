@@ -5,12 +5,12 @@
 
 namespace VRC.SDK3.Dynamics.Constraint
 {
-    public class ConstraintsPerformanceScanner : AbstractPerformanceScanner
+    public class ConstraintsPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFE8A4AAF10
-        public void GetGroupDepth(){} // RVA: 0x7FFE8A4AB0D0
-        public void .ctor(){} // RVA: 0x7FFE88228F30
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFAFC50F670
+        public void GetGroupDepth(){} // RVA: 0x7FFAFC50F830
+        public void .ctor(){} // RVA: 0x7FFAFA19BE10
     }
 
 }

@@ -5,17 +5,17 @@
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class AsyncHelper : Object
+    public class AsyncHelper
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE87427BE0
+        public void .cctor(){} // RVA: 0x7FFAF9398910
     }
 
-    public class AttributePSVIInfo : Object
+    public class AttributePSVIInfo
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE875849C0
-        public void Reset(){} // RVA: 0x7FFE87584A60
+        public void .ctor(){} // RVA: 0x7FFAF94F56D0
+        public void Reset(){} // RVA: 0x7FFAF94F5770
     }
 
 }

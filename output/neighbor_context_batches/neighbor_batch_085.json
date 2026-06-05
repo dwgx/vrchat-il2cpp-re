@@ -1,0 +1,107 @@
+[
+  {
+    "class": "AudioGetDeviceNamesOpenDevice_173D_DEA7",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Close",
+      "add_OnMidiVoiceMessage",
+      "remove_OnMidiVoiceMessage",
+      "set_Name",
+      "get_Name",
+      "GetDeviceNames",
+      "OpenDevice"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_368"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 17,
+    "signal_score": 75
+  },
+  {
+    "class": "OculusSpatializerUnity",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "RaiseCancellation",
+      "OnApplicationQuit",
+      "StartCoroutine_Auto",
+      "get_useGUILayout",
+      "set_useGUILayout",
+      "print",
+      "FromFlippedZVector3f"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_91A"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 24,
+    "signal_score": 75
+  },
+  {
+    "class": "PlayerMoveNext_0261",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_Current",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "System.Collections.IEnumerator.Reset",
+      "MoveNext",
+      "System.Collections.IEnumerator.get_Current",
+      "Dispose",
+      "System.IDisposable.Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4F1"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 12,
+    "signal_score": 75
+  },
+  {
+    "class": "PlayerMoveNext_04F0",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "get_Current",
+      "System.Collections.IEnumerator.Reset",
+      "System.IDisposable.Dispose",
+      "Dispose",
+      "MoveNext",
+      "System.Collections.IEnumerator.get_Current"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CBC"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 13,
+    "signal_score": 75
+  },
+  {
+    "class": "PlayerMoveNext_083D",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "get_Current",
+      "System.Collections.IEnumerator.get_Current",
+      "MoveNext",
+      "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+      "Dispose",
+      "System.Collections.IEnumerator.Reset",
+      "System.IDisposable.Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F60"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 12,
+    "signal_score": 75
+  }
+]

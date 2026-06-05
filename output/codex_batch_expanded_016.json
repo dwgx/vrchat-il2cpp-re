@@ -1,0 +1,213 @@
+[
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_088A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3D5",
+      "m_6A1",
+      "m_2D4",
+      "m_3D4",
+      "m_C64",
+      "m_7FD",
+      "m_600",
+      "m_F2B",
+      "m_019",
+      "m_A66",
+      "m_E2A",
+      "m_AEB"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_088A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_3D5",
+      "m_6A1",
+      "m_2D4",
+      "m_3D4",
+      "m_C64",
+      "m_7FD",
+      "m_600",
+      "m_F2B",
+      "m_019",
+      "m_A66",
+      "m_E2A",
+      "m_AEB"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSiblingSiblingSibling_2B81",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_EDD",
+      "m_93F",
+      "m_EF2",
+      "m_F72",
+      "m_FE6",
+      "m_3D5",
+      "m_7FD",
+      "m_71F",
+      "m_E6E",
+      "m_FF1",
+      "m_E9D",
+      "m_AEB"
+    ]
+  },
+  {
+    "class": "VRCPlayerSibling_1A7B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E05",
+      "m_E17",
+      "m_47A",
+      "m_A7A",
+      "m_011",
+      "m_0BC",
+      "m_68E",
+      "m_DBA",
+      "m_895",
+      "m_96E",
+      "m_32A",
+      "m_B90"
+    ]
+  },
+  {
+    "class": "VoicePriorityManager",
+    "parent": "",
+    "namespace": "VRC.Audio.Voice",
+    "readable_methods": [
+      "GetExternFunctionParameterCount"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_5C4",
+      "m_7CB",
+      "m_4F4",
+      "m_861",
+      "m_A1D",
+      "m_ADD",
+      "m_1C3",
+      "m_372",
+      "m_4F1",
+      "m_95F",
+      "m_F01",
+      "m_F04"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_60B7",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AE7"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_B42B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_925"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_E179",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnCollisionEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_5A1"
+    ]
+  },
+  {
+    "class": "Enumerator_93BF",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "MoveNext",
+      "get_Current"
+    ],
+    "fields": [
+      "System.Collections.Generic.IEnumerator<System.Object>.Current"
+    ],
+    "hash_methods": [
+      "m_3CF",
+      "m_2F6",
+      "m_651",
+      "m_E01",
+      "m_114",
+      "m_D6A",
+      "m_D08",
+      "m_3FE",
+      "m_1C1",
+      "m_F0F",
+      "m_246"
+    ]
+  },
+  {
+    "class": "SearchParameters",
+    "parent": "",
+    "namespace": "VRC.DataModel",
+    "readable_methods": [
+      "set_DefaultIncludeCommunityLabs",
+      "set_SearchTypeDescription",
+      "set_IsWorldsSearch"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_211",
+      "m_E4B",
+      "m_461",
+      "m_3AB",
+      "m_2CD",
+      "m_E60",
+      "m_A14",
+      "m_F60",
+      "m_6FF",
+      "m_FE6"
+    ]
+  }
+]

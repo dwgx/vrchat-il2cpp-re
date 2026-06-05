@@ -1,0 +1,145 @@
+[
+  {
+    "class": "NameScreenUIComponent_C0D9",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit",
+      "OnApplicationPause"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_AD4",
+      "m_4AF",
+      "m_7BB",
+      "m_66E",
+      "m_249",
+      "m_C2D",
+      "m_1C8"
+    ],
+    "remaining_hash_methods": 7,
+    "total_methods": 28,
+    "signal_score": 116
+  },
+  {
+    "class": "PlayerMoveNext_0FC9",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "System.Collections.IEnumerator.Reset",
+      "System.Collections.Generic.IEnumerable<VRC.UI.Shared.IPage>.GetEnumerator",
+      "System.Collections.IEnumerator.get_Current",
+      "System.IDisposable.Dispose",
+      "GetEnumerator",
+      "get_Current",
+      "Dispose",
+      "System.Collections.IEnumerable.GetEnumerator",
+      "System.Collections.Generic.IEnumerator<VRC.UI.Shared.IPage>.get_Current",
+      "MoveNext"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_054",
+      "m_EEE",
+      "m_E59",
+      "m_668",
+      "m_ACC",
+      "m_4E7"
+    ],
+    "remaining_hash_methods": 6,
+    "total_methods": 17,
+    "signal_score": 115
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_6F55",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      ".ctor",
+      "Initialize",
+      "Awake"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_160",
+      "m_5EE",
+      "m_FA0",
+      "m_5C3",
+      "m_479",
+      "m_4C6",
+      "m_541",
+      "m_3DE",
+      "m_0A8",
+      "m_86B",
+      "m_25B",
+      "m_5D1"
+    ],
+    "remaining_hash_methods": 40,
+    "total_methods": 46,
+    "signal_score": 114
+  },
+  {
+    "class": "PlayerMoveNext_77D6",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "System.Collections.IEnumerator.get_Current",
+      "System.Collections.IEnumerator.Reset",
+      "MoveNext",
+      "GetEnumerator",
+      "get_Current",
+      "Dispose",
+      "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.Int32,System.Collections.Generic.List<System.String>>>.get_Current",
+      "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.Int32,System.Collections.Generic.List<System.String>>>.GetEnumerator",
+      "System.IDisposable.Dispose",
+      "System.Collections.IEnumerable.GetEnumerator"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8B5",
+      "m_399",
+      "m_4F6",
+      "m_2AD",
+      "m_9B7"
+    ],
+    "remaining_hash_methods": 5,
+    "total_methods": 16,
+    "signal_score": 113
+  },
+  {
+    "class": "PlayerMoveNext_9295",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose",
+      "MoveNext",
+      "System.Collections.IEnumerator.Reset",
+      "System.IDisposable.Dispose",
+      "System.Collections.Generic.IEnumerator<System.String>.get_Current",
+      "System.Collections.IEnumerator.get_Current",
+      "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator",
+      "System.Collections.IEnumerable.GetEnumerator"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_529",
+      "m_030",
+      "m_9AE",
+      "m_288",
+      "m_45D"
+    ],
+    "remaining_hash_methods": 5,
+    "total_methods": 16,
+    "signal_score": 113
+  }
+]

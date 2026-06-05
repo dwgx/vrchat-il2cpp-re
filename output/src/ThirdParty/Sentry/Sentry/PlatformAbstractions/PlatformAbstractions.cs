@@ -5,93 +5,81 @@
 
 namespace ThirdParty.Sentry.Sentry.PlatformAbstractions
 {
-    public class DeviceInfo : Object
+    public class DeviceInfo
     {
     }
 
-    public class FrameworkInfo : Object
+    public class FrameworkInfo
     {
-        public System.Collections.Generic.IReadOnlyDictionary`2<int,string> _netFxReleaseVersionMap;
+        public object ShortName;
 
         // ── Methods ──
-        public void get_NetFxReleaseVersionMap(){} // RVA: 0x7FFE86F36CA0
-        public void GetLatest(){} // RVA: 0x7FFE813240E0
-        public void GetInstallations(){} // RVA: 0x7FFE86F36D00
-        public void .cctor(){} // RVA: 0x7FFE86F36D40
+        public void get_NetFxReleaseVersionMap(){} // RVA: 0x7FFAF8EA62A0
+        public void GetLatest(){} // RVA: 0x7FFAF2FC9240
+        public void GetInstallations(){} // RVA: 0x7FFAF8EA6300
+        public void .cctor(){} // RVA: 0x7FFAF8EA6340
     }
 
-    public class FrameworkInstallation : Object
+    public class FrameworkInstallation
     {
-        public string _shortName; // 0x10
-        public System.Version _version; // 0x18
-        public System.Nullable`1<int> _servicePack; // 0x20
-        public System.Nullable`1<?..?> _profile; // 0x28
-        public System.Nullable`1<int> _release; // 0x30
-
         // ── Methods ──
-        public void get_ShortName(){} // RVA: 0x7FFE81116380
-        public void set_ShortName(){} // RVA: 0x7FFE810FCE30
-        public void get_Version(){} // RVA: 0x7FFE810FE7C0
-        public void set_Version(){} // RVA: 0x7FFE81161E80
-        public void get_ServicePack(){} // RVA: 0x7FFE811290C0
-        public void set_ServicePack(){} // RVA: 0x7FFE81859C50
-        public void get_Profile(){} // RVA: 0x7FFE81129130
-        public void set_Profile(){} // RVA: 0x7FFE8164D390
-        public void get_Release(){} // RVA: 0x7FFE8144E200
-        public void set_Release(){} // RVA: 0x7FFE82D00170
-        public void ToString(){} // RVA: 0x7FFE86F373B0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_ShortName(){} // RVA: 0x7FFAF2DA8380
+        public void set_ShortName(){} // RVA: 0x7FFAF2D8EE30
+        public void get_Version(){} // RVA: 0x7FFAF2D907C0
+        public void set_Version(){} // RVA: 0x7FFAF2DF3E80
+        public void get_ServicePack(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_ServicePack(){} // RVA: 0x7FFAF35983A0
+        public void get_Profile(){} // RVA: 0x7FFAF2DBB130
+        public void set_Profile(){} // RVA: 0x7FFAF335C650
+        public void get_Release(){} // RVA: 0x7FFAF30E74D0
+        public void set_Release(){} // RVA: 0x7FFAF4A24DF0
+        public void ToString(){} // RVA: 0x7FFAF8EA69B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class FrameworkInstallationExtensions : Object
+    public class FrameworkInstallationExtensions
     {
         // ── Methods ──
-        public void GetVersionNumber(){} // RVA: 0x7FFE86F37560
+        public void GetVersionNumber(){} // RVA: 0x7FFAF8EA6B60
     }
 
-    public class RuntimeInfo : Object
+    public class RuntimeInfo
     {
         // ── Methods ──
-        public void GetRuntime(){} // RVA: 0x7FFE86F37610
-        public void WithAdditionalProperties(){} // RVA: 0x7FFE86F376C0
-        public void Parse(){} // RVA: 0x7FFE86F378E0
-        public void GetNetCoreVersion(){} // RVA: 0x7FFE86F37CC0
-        public void GetFromRuntimeInformation(){} // RVA: 0x7FFE86F37E20
-        public void GetFromMonoRuntime(){} // RVA: 0x7FFE86F37EB0
-        public void GetFromEnvironmentVariable(){} // RVA: 0x7FFE86F380B0
-        public void .cctor(){} // RVA: 0x7FFE86F382E0
-        public void <GetNetCoreVersion>g__RemovePrefixOrNull|4_0(){} // RVA: 0x7FFE86F383C0
+        public void GetRuntime(){} // RVA: 0x7FFAF8EA6C10
+        public void WithAdditionalProperties(){} // RVA: 0x7FFAF8EA6CC0
+        public void Parse(){} // RVA: 0x7FFAF8EA6EE0
+        public void GetNetCoreVersion(){} // RVA: 0x7FFAF8EA72C0
+        public void GetFromRuntimeInformation(){} // RVA: 0x7FFAF8EA7420
+        public void GetFromMonoRuntime(){} // RVA: 0x7FFAF8EA74B0
+        public void GetFromEnvironmentVariable(){} // RVA: 0x7FFAF8EA76B0
+        public void .cctor(){} // RVA: 0x7FFAF8EA78E0
+        public void <GetNetCoreVersion>g__RemovePrefixOrNull|4_0(){} // RVA: 0x7FFAF8EA79C0
     }
 
-    public class SentryRuntime : Object
+    public class SentryRuntime
     {
-        public System.Lazy`1<Sentry.PlatformAbstractions.SentryRuntime> _currentRuntime;
-        public string _name; // 0x10
-        public string _version; // 0x18
-        public string _raw; // 0x20
-        public string _identifier; // 0x28
-
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFE86F384F0
-        public void get_Name(){} // RVA: 0x7FFE81116380
-        public void get_Version(){} // RVA: 0x7FFE810FE7C0
-        public void get_Raw(){} // RVA: 0x7FFE811290C0
-        public void get_Identifier(){} // RVA: 0x7FFE81129130
-        public void .ctor(){} // RVA: 0x7FFE81143A50
-        public void ToString(){} // RVA: 0x7FFE86F38570
-        public void Equals(){} // RVA: 0x7FFE86F38740 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE86F38940
-        public void .cctor(){} // RVA: 0x7FFE86F38A20
+        public void get_Current(){} // RVA: 0x7FFAF8EA7AF0
+        public void get_Name(){} // RVA: 0x7FFAF2DA8380
+        public void get_Version(){} // RVA: 0x7FFAF2D907C0
+        public void get_Raw(){} // RVA: 0x7FFAF2DBB0C0
+        public void get_Identifier(){} // RVA: 0x7FFAF2DBB130
+        public void .ctor(){} // RVA: 0x7FFAF2DD5A50
+        public void ToString(){} // RVA: 0x7FFAF8EA7B70
+        public void Equals(){} // RVA: 0x7FFAF8EA7D40 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF8EA7F40
+        public void .cctor(){} // RVA: 0x7FFAF8EA8020
     }
 
-    public class SentryRuntimeExtensions : Object
+    public class SentryRuntimeExtensions
     {
         // ── Methods ──
-        public void IsNetFx(){} // RVA: 0x7FFE86F38B60
-        public void IsNetCore(){} // RVA: 0x7FFE86F38BB0
-        public void IsMono(){} // RVA: 0x7FFE86F38C50
-        public void IsBrowserWasm(){} // RVA: 0x7FFE86F38CA0
-        public void StartsWith(){} // RVA: 0x7FFE86F38D30
+        public void IsNetFx(){} // RVA: 0x7FFAF8EA8160
+        public void IsNetCore(){} // RVA: 0x7FFAF8EA81B0
+        public void IsMono(){} // RVA: 0x7FFAF8EA8250
+        public void IsBrowserWasm(){} // RVA: 0x7FFAF8EA82A0
+        public void StartsWith(){} // RVA: 0x7FFAF8EA8330
     }
 
 }

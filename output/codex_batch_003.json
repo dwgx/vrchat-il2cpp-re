@@ -1,0 +1,489 @@
+[
+  {
+    "class": "BaseClass136Impl_17E8_D8A8",
+    "parent": "",
+    "readable_methods": [
+      ".ctor_40E73D0B0A44",
+      "Dispose_5EBB6D2908F7",
+      "Cleanup",
+      "CreateRenderCommand",
+      ".ctor_9EC0039062D4",
+      "Initialize",
+      "GetIKSolver",
+      ".ctor_FEB00197D51E",
+      ".ctor_71006B3D03D0",
+      "RaiseStateChangedEvent",
+      "WriteValue",
+      "GetRange",
+      "ContainsChild",
+      "SetModelShader",
+      "SelectWordRight",
+      "CopyBoundsToOutput",
+      "SelectWordRight_0101D7925942"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_48F",
+      "m_161",
+      "m_203",
+      "m_6B1",
+      "m_E18",
+      "m_C8C",
+      "m_D11",
+      "m_DDF",
+      "m_9BB"
+    ]
+  },
+  {
+    "class": "LightManager_6ACB",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "StartCoroutine_Auto",
+      "VRC.Udon.Common.Interfaces.IUdonSecurityFilter.ApplyFilter_AFADDC6BC7AC",
+      "VRC.Udon.ClientBindings.Interfaces.IUdonClientInterface.set_DebugLogging_5B84B0D30F3B",
+      ".cctor_D9A4B4375AF9",
+      "ToString_8B2FE244894C",
+      "GetBufferedTimes",
+      "get_ipsQuery",
+      "ApplyLightCullingMaskFilter_66FAB00653B7",
+      "VRC.Udon.Security.Interfaces.IUdonSecurityWhitelist<UnityEngine.Object>.Whitelist_C01AC3052ADE",
+      "StopCoroutineFromEnumeratorManaged",
+      "GetScriptClassName",
+      "OnDisable",
+      "OnDestroy_708C0064C5FB",
+      "VRC.Udon.ClientBindings.Interfaces.IUdonClientInterface.get_DebugLogging_B3BB48AA1427",
+      "OnTriggerStay_0D9C2BD12E34",
+      "Initialize_763D7DEEFDEA",
+      "get_article",
+      "get_LightReservedLayerMask_5EF268128696",
+      "get_cageUpdateEveryFrame"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B60",
+      "m_954",
+      "m_FAC"
+    ]
+  },
+  {
+    "class": "Service42m_DE2F_6C16",
+    "parent": "",
+    "readable_methods": [
+      "ContainsChild",
+      "InvokeDelegate",
+      "ContainsChild",
+      "MoveNext",
+      "GetSessionId",
+      "Initialize",
+      "InvokeUpdate",
+      "Initialize",
+      "GetHashCode_860226D010DC",
+      "ElementAt",
+      "InvokeUpdate",
+      "InvokeUpdate",
+      "InvokeDelegate",
+      "InvokeDelegate",
+      "op_Equality_942CA0B8B15B",
+      "ReadValue",
+      "Initialize_84AC6771785D",
+      ".ctor_5C97456C1E50",
+      ".ctor_A82379DD05E3",
+      "Initialize"
+    ],
+    "fields": [
+      "f_60D",
+      "f_14A",
+      "f_7DE"
+    ],
+    "hash_methods": [
+      "m_73A",
+      "m_73A",
+      "m_73A"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_003D",
+    "parent": "",
+    "readable_methods": [
+      "Initialize",
+      "Start",
+      "OnEnable",
+      "LateUpdate",
+      "FixedUpdate"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_970",
+      "m_C3C",
+      "m_9DA",
+      "m_585",
+      "m_608",
+      "m_6AA",
+      "m_5EE",
+      "m_3E0",
+      "m_FBA",
+      "m_8E4",
+      "m_BEE",
+      "m_ED3",
+      "m_CF5",
+      "m_720",
+      "m_CAC",
+      "m_936",
+      "m_30C",
+      "m_48E",
+      "m_312",
+      "m_3C9"
+    ]
+  },
+  {
+    "class": "PointerPreCullHandler_2B6A_4B8D",
+    "parent": "",
+    "readable_methods": [
+      "AddUnitNode",
+      "OnDestroy",
+      "Get2B6A",
+      "Set2B6A",
+      "StartCoroutine_Auto",
+      "Update2B6A",
+      "Reset2B6A",
+      "OnDestroy_36541C2C288B",
+      ".ctor_8970F99EB419",
+      "Initialize",
+      "StopCoroutineFromEnumeratorManaged",
+      "OnPostRender_D295645F6D38",
+      "HandlePointerPreCullHandler",
+      "OnPreCull_2F2997B2C8F2",
+      "BitPack",
+      "AttachPointerPreCullBody",
+      "HandlePointerPreCullHandlerPointerPreCull",
+      "RefreshPointerPreCull",
+      "HandlePointerPreCull",
+      "GetStructData"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A6B",
+      "m_45D",
+      "m_808"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_2F34",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Awake_1C79AE33B865",
+      "OnDestroy",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_EAE",
+      "m_FBF",
+      "m_981",
+      "m_2CD",
+      "m_09C",
+      "m_17F",
+      "m_C3B",
+      "m_2C9",
+      "m_B87",
+      "m_057",
+      "m_D5D",
+      "m_B61",
+      "m_D10",
+      "m_6DF",
+      "m_6B8",
+      "m_E45"
+    ]
+  },
+  {
+    "class": "LateUpdateComponent_C601_04A7",
+    "parent": "",
+    "readable_methods": [
+      "OnEnable",
+      "Start",
+      "FixedUpdate",
+      "Update",
+      "OnDisable",
+      "Initialize"
+    ],
+    "fields": [
+      "f_9F2",
+      "f_56B",
+      "f_56B",
+      "f_69A"
+    ],
+    "hash_methods": [
+      "m_1CB",
+      "m_278",
+      "m_352",
+      "m_9E4",
+      "m_CB9",
+      "m_1EC",
+      "m_292",
+      "m_FEF",
+      "m_DC9",
+      "m_B88",
+      "m_BF5",
+      "m_C51",
+      "m_3B7",
+      "m_A4D",
+      "m_A6F",
+      "m_32F",
+      "m_CB8"
+    ]
+  },
+  {
+    "class": "ComplexComponent_8C61SiblRelated_2A85",
+    "parent": "",
+    "readable_methods": [
+      "OnDestroy",
+      "Start",
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "OnDisable",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_97D",
+      "m_719",
+      "m_16B",
+      "m_DBD",
+      "m_17C",
+      "m_A99",
+      "m_7AA",
+      "m_69F",
+      "m_4ED",
+      "m_113",
+      "m_940",
+      "m_A05",
+      "m_435",
+      "m_5C0",
+      "m_DB8",
+      "m_527"
+    ]
+  },
+  {
+    "class": "ImageLoadSettings",
+    "parent": "",
+    "readable_methods": [
+      "HasFlag",
+      "HasFlag_C46487BE14C3",
+      "GetGenerateMipMaps",
+      "SetGenerateMipMaps",
+      "GetFastResize",
+      "SetFastResize",
+      "Initialize",
+      "SetVerticalFlip"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_BDC",
+      "m_2E8",
+      "m_26B",
+      "m_02E",
+      "m_CCE",
+      "m_A52",
+      "m_2F5",
+      "m_062",
+      "m_6D1",
+      "m_8F5",
+      "m_275",
+      "m_A9E",
+      "m_E6F",
+      "m_645",
+      "m_CD3"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_66B9",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "OnDestroy_AA3AC3D8F269",
+      "StartCoroutine_Auto",
+      "OnDisable_B3BF6903B427"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CE7",
+      "m_F8E",
+      "m_DD6",
+      "m_6DE",
+      "m_2E8",
+      "m_AE2",
+      "m_5A2",
+      "m_A7D",
+      "m_606",
+      "m_FFA",
+      "m_D98",
+      "m_3B6",
+      "m_F25",
+      "m_D68",
+      "m_064",
+      "m_8E7",
+      "m_50B"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_2A18",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Initialize",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake",
+      "OnDestroy_50AC33E64DBC",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_736",
+      "m_CBC",
+      "m_F84",
+      "m_C55",
+      "m_038",
+      "m_3AC",
+      "m_285",
+      "m_BC9",
+      "m_2BC",
+      "m_444",
+      "m_BB6",
+      "m_B25",
+      "m_719",
+      "m_B61",
+      "m_CF4"
+    ]
+  },
+  {
+    "class": "OVRTouchpadHelperSiblingSiblinSibling_07ED",
+    "parent": "",
+    "readable_methods": [
+      "Update_3CB451386F3C",
+      "Update",
+      "Initialize",
+      "Start",
+      "Start_C9ED83B2DF2E",
+      "Awake_1A381F231C9A",
+      "StartCoroutine_Auto",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_891",
+      "m_E77",
+      "m_0D1",
+      "m_AF5",
+      "m_387",
+      "m_AF5",
+      "m_30F",
+      "m_2CD",
+      "m_F39",
+      "m_D68",
+      "m_D49",
+      "m_CAC",
+      "m_B5A",
+      "m_078"
+    ]
+  },
+  {
+    "class": "PointerDestroyDropdownListCreateDropdownList_883D",
+    "parent": "",
+    "readable_methods": [
+      "IndexOf",
+      "OnPointerEnter",
+      "OnPointerExit",
+      "OnPointerDown",
+      "OnPointerUp",
+      "OnSelect",
+      "OnDeselect",
+      "OnSubmit",
+      "OnCancel",
+      "OnMove",
+      "OnScroll",
+      "OnValueChanged",
+      "OnEndEdit",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_775",
+      "m_2EC",
+      "m_497",
+      "m_9A8",
+      "m_853",
+      "m_858",
+      "m_328",
+      "m_105"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_57C8",
+    "parent": "",
+    "readable_methods": [
+      "FixedUpdate",
+      "Update",
+      "LateUpdate",
+      "Initialize"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_03A",
+      "m_777",
+      "m_A05",
+      "m_452",
+      "m_0B4",
+      "m_832",
+      "m_E5D",
+      "m_441",
+      "m_4F6",
+      "m_8F1",
+      "m_E16",
+      "m_A66",
+      "m_BE9",
+      "m_FA2",
+      "m_5EC",
+      "m_138",
+      "m_5D8"
+    ]
+  },
+  {
+    "class": "ONSPAmbisonicsNativeSiblingSibSibling_E731",
+    "parent": "",
+    "readable_methods": [
+      "Update",
+      "OnEnable_2B4F45D701AE",
+      "Initialize",
+      "OnEnable_AF51B7F10F5A",
+      "OnDisable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_673",
+      "m_8E9",
+      "m_E66",
+      "m_4CC",
+      "m_922",
+      "m_82C",
+      "m_F61",
+      "m_033",
+      "m_5D4",
+      "m_4A4",
+      "m_9CF",
+      "m_4CA",
+      "m_641",
+      "m_448",
+      "m_C6B",
+      "m_FDF"
+    ]
+  }
+]

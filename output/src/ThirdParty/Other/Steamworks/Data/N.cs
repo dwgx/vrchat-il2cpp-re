@@ -5,41 +5,35 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class NetAddress : ValueType
+    public class NetAddress
     {
-        public IPV4 ip; // 0x10
-
         // ── Methods ──
-        public void InternalClear(){} // RVA: 0x7FFE82E63A60
-        public void InternalSetIPv4(){} // RVA: 0x7FFE82E63AE0
-        public void InternalToString(){} // RVA: 0x7FFE82E63B80
-        public void From(){} // RVA: 0x7FFE82E63C30
-        public void get_Cleared(){} // RVA: 0x7FFE82E63EA0
-        public void ToString(){} // RVA: 0x7FFE82E63F30
+        public void InternalClear(){} // RVA: 0x7FFAF4B85660
+        public void InternalSetIPv4(){} // RVA: 0x7FFAF4B856E0
+        public void InternalToString(){} // RVA: 0x7FFAF4B85780
+        public void From(){} // RVA: 0x7FFAF4B85830
+        public void get_Cleared(){} // RVA: 0x7FFAF4B85AA0
+        public void ToString(){} // RVA: 0x7FFAF4B85B30
     }
 
-    public class NetIdentity : ValueType
+    public class NetIdentity
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE82E638F0
+        public void ToString(){} // RVA: 0x7FFAF4B854F0
     }
 
-    public class NewUrlLaunchParameters_t : ValueType
+    public class NewUrlLaunchParameters_t
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5CB80
-        public void .cctor(){} // RVA: 0x7FFE82E5CB90
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7E780
+        public void .cctor(){} // RVA: 0x7FFAF4B7E790
     }
 
-    public class NumberOfCurrentPlayers_t : ValueType
+    public class NumberOfCurrentPlayers_t
     {
-        public byte Success; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5C1F0
-        public void .cctor(){} // RVA: 0x7FFE82E5C200
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7DDF0
+        public void .cctor(){} // RVA: 0x7FFAF4B7DE00
     }
 
 }

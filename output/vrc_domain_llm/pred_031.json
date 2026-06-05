@@ -1,0 +1,19 @@
+{
+  "PhotonRoomHandler_8699::m_4D0": "OnConnected",
+  "PhotonRoomHandler_8699::m_72E": "OnCreateRoomFailed",
+  "PhotonRoomHandler_8699::m_764": "OnJoinRoomFailed",
+  "PhotonRoomHandler_8699::m_FE8": "OnJoinedLobby",
+  "PhotonRoomHandler_8699::m_52F": "OnLeftLobby",
+  "PhotonRoomHandler_8699::m_BFF": "OnDisconnected",
+  "PhotonRoomHandler_8699::m_76B": "OnRegionListReceived",
+  "PhotonRoomHandler_8699::m_D1E": "OnRoomListUpdate",
+  "PhotonRoomHandler_8699::m_6FC": "OnPlayerEnteredRoom",
+  "PhotonRoomHandler_8699::m_BDA": "OnPlayerLeftRoom",
+  "PhotonRoomHandler_8699::m_1E0": "OnJoinRandomFailed",
+  "PhotonRoomHandler_8699::m_748": "OnRoomPropertiesUpdate",
+  "PhotonRoomHandler_8699::m_B0E": "OnPlayerPropertiesUpdate",
+  "PhotonRoomHandler_8699::m_8BE": "OnFriendListUpdate",
+  "PhotonRoomHandler_8699::m_861": "OnWebRpcResponse",
+  "PhotonRoomHandler_8699::m_04A": "OnLobbyStatisticsUpdate",
+  "PhotonRoomHandler_8699::m_210": "OnErrorInfo"
+}

@@ -5,179 +5,163 @@
 
 namespace VRC.SDK3.Avatars.Components
 {
-    public class VRCAccessoryDescriptor : AssetPart
+    public class VRCAccessoryDescriptor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A482620
+        public void .ctor(){} // RVA: 0x7FFAFC4D6E60
     }
 
-    public class VRCAnimatorLayerControl : VRC_AnimatorLayerControl
+    public class VRCAnimatorLayerControl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A47D310
+        public void .ctor(){} // RVA: 0x7FFAFC4D1B50
     }
 
-    public class VRCAnimatorLocomotionControl : VRC_AnimatorLocomotionControl
+    public class VRCAnimatorLocomotionControl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class VRCAnimatorPlayAudio : VRC_AnimatorPlayAudio
+    public class VRCAnimatorPlayAudio
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A47D320
+        public void .ctor(){} // RVA: 0x7FFAFC4D1B60
     }
 
-    public class VRCAnimatorTemporaryPoseSpace : VRC_AnimatorTemporaryPoseSpace
+    public class VRCAnimatorTemporaryPoseSpace
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A47D370
+        public void .ctor(){} // RVA: 0x7FFAFC4D1BB0
     }
 
-    public class VRCAnimatorTrackingControl : VRC_AnimatorTrackingControl
+    public class VRCAnimatorTrackingControl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class VRCAvatarDescriptor : VRC_AvatarDescriptor
+    public class VRCAvatarDescriptor
     {
         // ── Methods ──
-        public void GetExpressionParameterCount(){} // RVA: 0x7FFE8A47D380
-        public void GetExpressionParameter(){} // RVA: 0x7FFE8A47D480
-        public void CalcHeadCollider(){} // RVA: 0x7FFE8A47D5A0
-        public void CalcTorsoCollider(){} // RVA: 0x7FFE8A47E010
-        public void CalcPalmCollider(){} // RVA: 0x7FFE8A47EAE0
-        public void CalcFootCollider(){} // RVA: 0x7FFE8A47F900
-        public void CalcFingerCollider(){} // RVA: 0x7FFE8A4800D0
-        public void MaxScale(){} // RVA: 0x7FFE8A480720
-        public void .ctor(){} // RVA: 0x7FFE8A480750
-        public void <CalcPalmCollider>g__AddBone|37_0(){} // RVA: 0x7FFE8A4813A0
-        public void <CalcFootCollider>g__FindEndBone|38_0(){} // RVA: 0x7FFE8A481530
+        public void GetExpressionParameterCount(){} // RVA: 0x7FFAFC4D1BC0
+        public void GetExpressionParameter(){} // RVA: 0x7FFAFC4D1CC0
+        public void CalcHeadCollider(){} // RVA: 0x7FFAFC4D1DE0
+        public void CalcTorsoCollider(){} // RVA: 0x7FFAFC4D2850
+        public void CalcPalmCollider(){} // RVA: 0x7FFAFC4D3320
+        public void CalcFootCollider(){} // RVA: 0x7FFAFC4D4140
+        public void CalcFingerCollider(){} // RVA: 0x7FFAFC4D4910
+        public void MaxScale(){} // RVA: 0x7FFAFC4D4F60
+        public void .ctor(){} // RVA: 0x7FFAFC4D4F90
+        public void <CalcPalmCollider>g__AddBone|37_0(){} // RVA: 0x7FFAFC4D5BE0
+        public void <CalcFootCollider>g__FindEndBone|38_0(){} // RVA: 0x7FFAFC4D5D70
     }
 
-    public class VRCAvatarParameterDriver : VRC_AvatarParameterDriver
+    public class VRCAvatarParameterDriver
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A481B50
+        public void .ctor(){} // RVA: 0x7FFAFC4D6390
     }
 
-    public class VRCHeadChop : MonoBehaviour
+    public class VRCHeadChop
     {
         // ── Methods ──
-        public void OnValidate(){} // RVA: 0x7FFE8A481C20
-        public void Start(){} // RVA: 0x7FFE810FB310
-        public void AppendDesiredTransformScaleFactors(){} // RVA: 0x7FFE8A481E10
-        public void .ctor(){} // RVA: 0x7FFE8A4824A0
+        public void OnValidate(){} // RVA: 0x7FFAFC4D6460
+        public void Start(){} // RVA: 0x7FFAF2D8D310
+        public void AppendDesiredTransformScaleFactors(){} // RVA: 0x7FFAFC4D6650
+        public void .ctor(){} // RVA: 0x7FFAFC4D6CE0
     }
 
-    public class VRCImpostorEnvironment : MonoBehaviour
+    public class VRCImpostorEnvironment
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A4825C0
+        public void .ctor(){} // RVA: 0x7FFAFC4D6E00
     }
 
-    public class VRCImpostorSettings : MonoBehaviour
+    public class VRCImpostorSettings
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81103920
+        public void .ctor(){} // RVA: 0x7FFAF2D95920
     }
 
-    public class VRCPlayableLayerControl : VRC_PlayableLayerControl
+    public class VRCPlayableLayerControl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class VRCRaycast : MonoBehaviour
+    public class VRCRaycast
     {
-        public UnityEngine.Vector3 raycastDirection; // 0x20
-        public float distance; // 0x2C
-        public bool applyTransformScale; // 0x30
-        public 0x666CE4B4 collisionMode; // 0x34
-        public UnityEngine.LayerMask customCollisionLayers; // 0x38
-        public UnityEngine.LayerMask _worldLayerMask; // 0x3C
-        public UnityEngine.LayerMask _playerLayerMask; // 0x40
-        public UnityEngine.Transform _cachedTransform; // 0x48
-        public UnityEngine.Transform resultTransform; // 0x50
-        public bool applyRotation; // 0x58
-        public UnityEngine.Vector3 alignmentAxis; // 0x5C
-        public 0x666CE50C behaviorOnMiss; // 0x68
-        public string parameter; // 0x70
-
         // ── Methods ──
-        public void get_RaycastDirection(){} // RVA: 0x7FFE81161EE0
-        public void set_RaycastDirection(){} // RVA: 0x7FFE81161F00
-        public void get_Distance(){} // RVA: 0x7FFE812846C0
-        public void set_Distance(){} // RVA: 0x7FFE8A47A820
-        public void get_ApplyTransformScale(){} // RVA: 0x7FFE81121450
-        public void set_ApplyTransformScale(){} // RVA: 0x7FFE81121460
-        public void get_RaycastCollisionMode(){} // RVA: 0x7FFE82447220
-        public void set_RaycastCollisionMode(){} // RVA: 0x7FFE82443340
-        public void get_CustomCollisionLayers(){} // RVA: 0x7FFE81D46090
-        public void set_CustomCollisionLayers(){} // RVA: 0x7FFE81D46A00
-        public void get_ResultTransform(){} // RVA: 0x7FFE8119C0E0
-        public void set_ResultTransform(){} // RVA: 0x7FFE812534D0
-        public void get_ApplyRotation(){} // RVA: 0x7FFE813A1140
-        public void set_ApplyRotation(){} // RVA: 0x7FFE819E83C0
-        public void get_AlignmentAxis(){} // RVA: 0x7FFE8130C760
-        public void set_AlignmentAxis(){} // RVA: 0x7FFE8A47A830
-        public void get_BehaviorOnMiss(){} // RVA: 0x7FFE82A22EF0
-        public void set_BehaviorOnMiss(){} // RVA: 0x7FFE82A22F00
-        public void get_Parameter(){} // RVA: 0x7FFE811C3590
-        public void set_Parameter(){} // RVA: 0x7FFE811C35A0
-        public void get_CommandIndex(){} // RVA: 0x7FFE8194AD00
-        public void set_CommandIndex(){} // RVA: 0x7FFE8194A400
-        public void get_InitExternallyBlocked(){} // RVA: 0x7FFE820BD7B0
-        public void set_InitExternallyBlocked(){} // RVA: 0x7FFE81A8B340
-        public void get_EffectiveDistance(){} // RVA: 0x7FFE8A47A840
-        public void Awake(){} // RVA: 0x7FFE8A47A9B0
-        public void Start(){} // RVA: 0x7FFE8A47AB70
-        public void VRC.Dynamics.IParameterSetup.InitParameters(){} // RVA: 0x7FFE8A47ABA0
-        public void TriggerInitializeParameters(){} // RVA: 0x7FFE8A47ABB0
-        public void OnEnable(){} // RVA: 0x7FFE8A47AC30
-        public void OnDisable(){} // RVA: 0x7FFE8A47AC60
-        public void Register(){} // RVA: 0x7FFE8A47AC70
-        public void Unregister(){} // RVA: 0x7FFE8A47AC60
-        public void PopulateRaycastCommand(){} // RVA: 0x7FFE8A47AC90
-        public void CalculateWorldSpaceDirection(){} // RVA: 0x7FFE8A47AED0
-        public void HandleRaycastResult(){} // RVA: 0x7FFE8A47B0F0
-        public void SetResult(){} // RVA: 0x7FFE8A47B440
-        public void SetAnimatorParameterValues(){} // RVA: 0x7FFE8A47B8D0
-        public void IsFiniteVector(){} // RVA: 0x7FFE8A47B9B0
-        public void OnDrawGizmosSelected(){} // RVA: 0x7FFE8A47B9D0
-        public void .ctor(){} // RVA: 0x7FFE8A47BC70
-        public void .cctor(){} // RVA: 0x7FFE8A47BD50
+        public void get_RaycastDirection(){} // RVA: 0x7FFAF2DF3EE0
+        public void set_RaycastDirection(){} // RVA: 0x7FFAF2DF3F00
+        public void get_Distance(){} // RVA: 0x7FFAF2F152A0
+        public void set_Distance(){} // RVA: 0x7FFAFC4CF060
+        public void get_ApplyTransformScale(){} // RVA: 0x7FFAF2DB3450
+        public void set_ApplyTransformScale(){} // RVA: 0x7FFAF2DB3460
+        public void get_RaycastCollisionMode(){} // RVA: 0x7FFAF2F76670
+        public void set_RaycastCollisionMode(){} // RVA: 0x7FFAF2F75F20
+        public void get_CustomCollisionLayers(){} // RVA: 0x7FFAF3A8C9F0
+        public void set_CustomCollisionLayers(){} // RVA: 0x7FFAF3A8D6E0
+        public void get_ResultTransform(){} // RVA: 0x7FFAF2E2E0E0
+        public void set_ResultTransform(){} // RVA: 0x7FFAF2EE54D0
+        public void get_ApplyRotation(){} // RVA: 0x7FFAF304FF30
+        public void set_ApplyRotation(){} // RVA: 0x7FFAF370F680
+        public void get_AlignmentAxis(){} // RVA: 0x7FFAF2FAA510
+        public void set_AlignmentAxis(){} // RVA: 0x7FFAFC4CF070
+        public void get_BehaviorOnMiss(){} // RVA: 0x7FFAF4741440
+        public void set_BehaviorOnMiss(){} // RVA: 0x7FFAF4741450
+        public void get_Parameter(){} // RVA: 0x7FFAF2E55590
+        public void set_Parameter(){} // RVA: 0x7FFAF2E555A0
+        public void get_CommandIndex(){} // RVA: 0x7FFAF36690C0
+        public void set_CommandIndex(){} // RVA: 0x7FFAF3669E60
+        public void get_InitExternallyBlocked(){} // RVA: 0x7FFAF3DF4120
+        public void set_InitExternallyBlocked(){} // RVA: 0x7FFAF37CF6A0
+        public void get_EffectiveDistance(){} // RVA: 0x7FFAFC4CF080
+        public void Awake(){} // RVA: 0x7FFAFC4CF1F0
+        public void Start(){} // RVA: 0x7FFAFC4CF3B0
+        public void VRC.Dynamics.IParameterSetup.InitParameters(){} // RVA: 0x7FFAFC4CF3E0
+        public void TriggerInitializeParameters(){} // RVA: 0x7FFAFC4CF3F0
+        public void OnEnable(){} // RVA: 0x7FFAFC4CF470
+        public void OnDisable(){} // RVA: 0x7FFAFC4CF4A0
+        public void Register(){} // RVA: 0x7FFAFC4CF4B0
+        public void Unregister(){} // RVA: 0x7FFAFC4CF4A0
+        public void PopulateRaycastCommand(){} // RVA: 0x7FFAFC4CF4D0
+        public void CalculateWorldSpaceDirection(){} // RVA: 0x7FFAFC4CF710
+        public void HandleRaycastResult(){} // RVA: 0x7FFAFC4CF930
+        public void SetResult(){} // RVA: 0x7FFAFC4CFC80
+        public void SetAnimatorParameterValues(){} // RVA: 0x7FFAFC4D0110
+        public void IsFiniteVector(){} // RVA: 0x7FFAFC4D01F0
+        public void OnDrawGizmosSelected(){} // RVA: 0x7FFAFC4D0210
+        public void .ctor(){} // RVA: 0x7FFAFC4D04B0
+        public void .cctor(){} // RVA: 0x7FFAFC4D0590
     }
 
-    public class VRCRaycastHandler : Object
+    public class VRCRaycastHandler
     {
-        public System.Collections.Generic.List`1<VRC.SDK3.Avatars.Components.VRCRaycast> _activeRaycastComponents;
-
         // ── Methods ──
-        public void get_ProcessingRaycasts(){} // RVA: 0x7FFE8A47BDC0
-        public void Initialize(){} // RVA: 0x7FFE8A47BE00
-        public void Uninitialize(){} // RVA: 0x7FFE8A47C260
-        public void AddRaycaster(){} // RVA: 0x7FFE8A47C5B0
-        public void RemoveRaycaster(){} // RVA: 0x7FFE8A47C710
-        public void AddressPendingRaycasters(){} // RVA: 0x7FFE8A47C830
-        public void EnsureBuffers(){} // RVA: 0x7FFE8A47CB60
-        public void UpdateRaycastHandler(){} // RVA: 0x7FFE8A47CD90
-        public void SubmitRaycasts(){} // RVA: 0x7FFE8A47CDE0
-        public void CompleteRaycasts(){} // RVA: 0x7FFE8A47D140
+        public void get_ProcessingRaycasts(){} // RVA: 0x7FFAFC4D0600
+        public void Initialize(){} // RVA: 0x7FFAFC4D0640
+        public void Uninitialize(){} // RVA: 0x7FFAFC4D0AA0
+        public void AddRaycaster(){} // RVA: 0x7FFAFC4D0DF0
+        public void RemoveRaycaster(){} // RVA: 0x7FFAFC4D0F50
+        public void AddressPendingRaycasters(){} // RVA: 0x7FFAFC4D1070
+        public void EnsureBuffers(){} // RVA: 0x7FFAFC4D13A0
+        public void UpdateRaycastHandler(){} // RVA: 0x7FFAFC4D15D0
+        public void SubmitRaycasts(){} // RVA: 0x7FFAFC4D1620
+        public void CompleteRaycasts(){} // RVA: 0x7FFAFC4D1980
     }
 
-    public class VRCSpatialAudioSource : VRC_SpatialAudioSource
+    public class VRCSpatialAudioSource
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A4427A0
+        public void .ctor(){} // RVA: 0x7FFAFC496D70
     }
 
-    public class VRCStation : VRCStation
+    public class VRCStation
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A44EFA0
+        public void .ctor(){} // RVA: 0x7FFAFC4A3570
     }
 
 }

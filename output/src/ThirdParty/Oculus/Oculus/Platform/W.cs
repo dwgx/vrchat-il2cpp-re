@@ -5,14 +5,14 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform
 {
-    public class WindowsPlatform : Object
+    public class WindowsPlatform
     {
         // ── Methods ──
-        public void CPPLogCallback(){} // RVA: 0x7FFE86C21120
-        public void getCallbackPointer(){} // RVA: 0x7FFE813240E0
-        public void Initialize(){} // RVA: 0x7FFE86C21260
-        public void AsyncInitialize(){} // RVA: 0x7FFE86C21390
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void CPPLogCallback(){} // RVA: 0x7FFAF8B90350
+        public void getCallbackPointer(){} // RVA: 0x7FFAF2FC9240
+        public void Initialize(){} // RVA: 0x7FFAF8B90490
+        public void AsyncInitialize(){} // RVA: 0x7FFAF8B905C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

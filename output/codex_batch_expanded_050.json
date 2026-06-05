@@ -1,0 +1,201 @@
+[
+  {
+    "class": "ChildrenSection`1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_SettingComponents",
+      "set_ValueToAppear"
+    ],
+    "fields": [
+      "_settingComponents",
+      "_sections"
+    ],
+    "hash_methods": [
+      "m_B45",
+      "m_B84",
+      "m_84E",
+      "m_4E4",
+      "m_D19"
+    ]
+  },
+  {
+    "class": "ChildrenSection`1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_SettingComponents",
+      "set_ValueToAppear"
+    ],
+    "fields": [
+      "_settingComponents",
+      "_sections"
+    ],
+    "hash_methods": [
+      "m_B45",
+      "m_B84",
+      "m_84E",
+      "m_4E4",
+      "m_D19"
+    ]
+  },
+  {
+    "class": "FoldoutListRelated_2D15",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_60B",
+      "m_1AE",
+      "m_4BA",
+      "m_DE0",
+      "m_3B3",
+      "m_F6B",
+      "m_61B",
+      "m_E00",
+      "m_7C9",
+      "m_0D6",
+      "m_8B4",
+      "m_30D"
+    ]
+  },
+  {
+    "class": "OVRLipSyncSiblingSibling_BA6D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "CancelInvoke_3C1A00D439FA",
+      "OnTriggerStay",
+      "StartCoroutine_Auto"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7EE",
+      "m_33A"
+    ]
+  },
+  {
+    "class": "PointerExitPointerDown_E559_D6F9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IsResource",
+      "OnPointerDown",
+      "OnPointerUp"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_7B6",
+      "m_8A3"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_619A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C31",
+      "m_6C6",
+      "m_DD6",
+      "m_6F8",
+      "m_51F",
+      "m_77C",
+      "m_C01",
+      "m_943",
+      "m_CF3"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_7FD0",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_24F",
+      "m_2F0",
+      "m_95D",
+      "m_51F",
+      "m_C01",
+      "m_C31",
+      "m_536",
+      "m_CF3",
+      "m_77C"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_8F01",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F2B",
+      "m_2F0",
+      "m_937",
+      "m_C01",
+      "m_EEE",
+      "m_96F",
+      "m_55E",
+      "m_6C6",
+      "m_24F"
+    ]
+  },
+  {
+    "class": "Static17m_C642",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F2B",
+      "m_A2E",
+      "m_4C4",
+      "m_B21",
+      "m_825",
+      "m_811",
+      "m_BAA",
+      "m_871",
+      "m_F70",
+      "m_5F9",
+      "m_A49",
+      "m_4E3"
+    ]
+  },
+  {
+    "class": "Static18m_2B07_438C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_871",
+      "m_D4F",
+      "m_513",
+      "m_5EE",
+      "m_0F4",
+      "m_E27",
+      "m_0E3",
+      "m_E85",
+      "m_70B",
+      "m_C39",
+      "m_BBB",
+      "m_51F"
+    ]
+  }
+]

@@ -5,86 +5,80 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class IPCFailure_t : ValueType
+    public class IPCFailure_t
     {
-        public byte FailureType; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E557C0
-        public void .cctor(){} // RVA: 0x7FFE82E557D0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B773C0
+        public void .cctor(){} // RVA: 0x7FFAF4B773D0
     }
 
-    public class IPCountry_t : ValueType
+    public class IPCountry_t
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E57CF0
-        public void .cctor(){} // RVA: 0x7FFE82E57D00
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B798F0
+        public void .cctor(){} // RVA: 0x7FFAF4B79900
     }
 
-    public class InputActionSetHandle_t : ValueType
+    public class InputActionSetHandle_t
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE82E54010
-        public void GetHashCode(){} // RVA: 0x7FFE82E53BC0
-        public void Equals(){} // RVA: 0x7FFE82E643F0 | overloaded x2
-        public void CompareTo(){} // RVA: 0x7FFE82E64400
+        public void ToString(){} // RVA: 0x7FFAF4B75C10
+        public void GetHashCode(){} // RVA: 0x7FFAF4B757C0
+        public void Equals(){} // RVA: 0x7FFAF4B85FF0 | overloaded x2
+        public void CompareTo(){} // RVA: 0x7FFAF4B86000
     }
 
-    public class InputAnalogActionHandle_t : ValueType
+    public class InputAnalogActionHandle_t
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE82E54010
-        public void GetHashCode(){} // RVA: 0x7FFE82E53BC0
-        public void Equals(){} // RVA: 0x7FFE82E643F0 | overloaded x2
-        public void CompareTo(){} // RVA: 0x7FFE82E64400
+        public void ToString(){} // RVA: 0x7FFAF4B75C10
+        public void GetHashCode(){} // RVA: 0x7FFAF4B757C0
+        public void Equals(){} // RVA: 0x7FFAF4B85FF0 | overloaded x2
+        public void CompareTo(){} // RVA: 0x7FFAF4B86000
     }
 
-    public class InputDigitalActionHandle_t : ValueType
+    public class InputDigitalActionHandle_t
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE82E54010
-        public void GetHashCode(){} // RVA: 0x7FFE82E53BC0
-        public void Equals(){} // RVA: 0x7FFE82E643F0 | overloaded x2
-        public void CompareTo(){} // RVA: 0x7FFE82E64400
+        public void ToString(){} // RVA: 0x7FFAF4B75C10
+        public void GetHashCode(){} // RVA: 0x7FFAF4B757C0
+        public void Equals(){} // RVA: 0x7FFAF4B85FF0 | overloaded x2
+        public void CompareTo(){} // RVA: 0x7FFAF4B86000
     }
 
-    public class InputHandle_t : ValueType
+    public class InputHandle_t
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE82E54010
-        public void GetHashCode(){} // RVA: 0x7FFE82E53BC0
-        public void Equals(){} // RVA: 0x7FFE82E643F0 | overloaded x2
-        public void CompareTo(){} // RVA: 0x7FFE82E64400
+        public void ToString(){} // RVA: 0x7FFAF4B75C10
+        public void GetHashCode(){} // RVA: 0x7FFAF4B757C0
+        public void Equals(){} // RVA: 0x7FFAF4B85FF0 | overloaded x2
+        public void CompareTo(){} // RVA: 0x7FFAF4B86000
     }
 
-    public class InventoryDefId : ValueType
+    public class InventoryDefId
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE82E64250
-        public void GetHashCode(){} // RVA: 0x7FFE826F4220
-        public void Equals(){} // RVA: 0x7FFE82E64220 | overloaded x2
-        public void CompareTo(){} // RVA: 0x7FFE82E642F0
+        public void ToString(){} // RVA: 0x7FFAF4B85E50
+        public void GetHashCode(){} // RVA: 0x7FFAF44189B0
+        public void Equals(){} // RVA: 0x7FFAF4B85E20 | overloaded x2
+        public void CompareTo(){} // RVA: 0x7FFAF4B85EF0
     }
 
-    public class InventoryItemId : ValueType
+    public class InventoryItemId
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFE82E54010
-        public void GetHashCode(){} // RVA: 0x7FFE82E53BC0
-        public void Equals(){} // RVA: 0x7FFE82E643F0 | overloaded x2
-        public void op_Equality(){} // RVA: 0x7FFE82E646C0
-        public void CompareTo(){} // RVA: 0x7FFE82E64400
+        public void ToString(){} // RVA: 0x7FFAF4B75C10
+        public void GetHashCode(){} // RVA: 0x7FFAF4B757C0
+        public void Equals(){} // RVA: 0x7FFAF4B85FF0 | overloaded x2
+        public void op_Equality(){} // RVA: 0x7FFAF4B862C0
+        public void CompareTo(){} // RVA: 0x7FFAF4B86000
     }
 
-    public class ItemInstalled_t : ValueType
+    public class ItemInstalled_t
     {
-        public Steamworks.AppId AppID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5EFA0
-        public void .cctor(){} // RVA: 0x7FFE82E5EFB0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B80BA0
+        public void .cctor(){} // RVA: 0x7FFAF4B80BB0
     }
 
 }

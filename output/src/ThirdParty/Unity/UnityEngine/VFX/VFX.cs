@@ -5,96 +5,94 @@
 
 namespace ThirdParty.Unity.UnityEngine.VFX
 {
-    public class VFXBatchInfo : ValueType
+    public class VFXBatchInfo
     {
     }
 
-    public class VFXBatchedEffectInfo : ValueType
+    public class VFXBatchedEffectInfo
     {
     }
 
-    public class VFXCameraXRSettings : ValueType
+    public class VFXCameraXRSettings
     {
     }
 
-    public class VFXEventAttribute : Object
+    public class VFXEventAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88040760
-        public void CreateEventAttributeWrapper(){} // RVA: 0x7FFE880407C0
-        public void SetWrapValue(){} // RVA: 0x7FFE88040860
-        public void Internal_Create(){} // RVA: 0x7FFE880408D0
-        public void Internal_InstanciateVFXEventAttribute(){} // RVA: 0x7FFE88040920
-        public void Internal_InitFromAsset(){} // RVA: 0x7FFE88040A60
-        public void Release(){} // RVA: 0x7FFE88040AC0
-        public void Finalize(){} // RVA: 0x7FFE88040B80
-        public void Dispose(){} // RVA: 0x7FFE88040BC0
-        public void Internal_Destroy(){} // RVA: 0x7FFE88040C20
+        public void .ctor(){} // RVA: 0x7FFAF9FB0590
+        public void CreateEventAttributeWrapper(){} // RVA: 0x7FFAF9FB05F0
+        public void SetWrapValue(){} // RVA: 0x7FFAF9FB0690
+        public void Internal_Create(){} // RVA: 0x7FFAF9FB0700
+        public void Internal_InstanciateVFXEventAttribute(){} // RVA: 0x7FFAF9FB0750
+        public void Internal_InitFromAsset(){} // RVA: 0x7FFAF9FB0890
+        public void Release(){} // RVA: 0x7FFAF9FB08F0
+        public void Finalize(){} // RVA: 0x7FFAF9FB09B0
+        public void Dispose(){} // RVA: 0x7FFAF9FB09F0
+        public void Internal_Destroy(){} // RVA: 0x7FFAF9FB0A50
     }
 
-    public class VFXExpressionValues : Object
+    public class VFXExpressionValues
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void CreateExpressionValuesWrapper(){} // RVA: 0x7FFE88040C70
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void CreateExpressionValuesWrapper(){} // RVA: 0x7FFAF9FB0AA0
     }
 
-    public class VFXManager : Object
+    public class VFXManager
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE88040CC0
+        public void .cctor(){} // RVA: 0x7FFAF9FB0AF0
     }
 
-    public class VFXOutputEventArgs : ValueType
+    public class VFXOutputEventArgs
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE844576B0
+        public void .ctor(){} // RVA: 0x7FFAF6276C70
     }
 
-    public class VFXSpawnerCallbacks : ScriptableObject
+    public class VFXSpawnerCallbacks
     {
         // ── Methods ──
-        public void OnPlay(){} // RVA: 0x7FFE80E50660
-        public void OnUpdate(){} // RVA: 0x7FFE80E50660
-        public void OnStop(){} // RVA: 0x7FFE80E50660
-        public void .ctor(){} // RVA: 0x7FFE81345B60
+        public void OnPlay(){} // RVA: 0x7FFAF2ADF090
+        public void OnUpdate(){} // RVA: 0x7FFAF2ADF090
+        public void OnStop(){} // RVA: 0x7FFAF2ADF090
+        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
     }
 
-    public class VFXSpawnerState : Object
+    public class VFXSpawnerState
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88040D20
-        public void CreateSpawnerStateWrapper(){} // RVA: 0x7FFE88040D30
-        public void PrepareWrapper(){} // RVA: 0x7FFE88040F10
-        public void SetWrapValue(){} // RVA: 0x7FFE880410B0
-        public void Release(){} // RVA: 0x7FFE880411D0
-        public void Finalize(){} // RVA: 0x7FFE88041290
-        public void Dispose(){} // RVA: 0x7FFE880412D0
-        public void Internal_Destroy(){} // RVA: 0x7FFE88041330
+        public void .ctor(){} // RVA: 0x7FFAF9FB0B50
+        public void CreateSpawnerStateWrapper(){} // RVA: 0x7FFAF9FB0B60
+        public void PrepareWrapper(){} // RVA: 0x7FFAF9FB0D40
+        public void SetWrapValue(){} // RVA: 0x7FFAF9FB0EE0
+        public void Release(){} // RVA: 0x7FFAF9FB1000
+        public void Finalize(){} // RVA: 0x7FFAF9FB10C0
+        public void Dispose(){} // RVA: 0x7FFAF9FB1100
+        public void Internal_Destroy(){} // RVA: 0x7FFAF9FB1160
     }
 
-    public class VisualEffect : Behaviour
+    public class VisualEffect
     {
-        public UnityEngine.VFX.VFXEventAttribute m_cachedEventAttribute; // 0x18
-
         // ── Methods ──
-        public void get_visualEffectAsset(){} // RVA: 0x7FFE880414D0
-        public void CreateVFXEventAttribute(){} // RVA: 0x7FFE88041520
-        public void InvokeGetCachedEventAttributeForOutputEvent_Internal(){} // RVA: 0x7FFE880417B0
-        public void InvokeOutputEventReceived_Internal(){} // RVA: 0x7FFE88041840
+        public void get_visualEffectAsset(){} // RVA: 0x7FFAF9FB1300
+        public void CreateVFXEventAttribute(){} // RVA: 0x7FFAF9FB1350
+        public void InvokeGetCachedEventAttributeForOutputEvent_Internal(){} // RVA: 0x7FFAF9FB15E0
+        public void InvokeOutputEventReceived_Internal(){} // RVA: 0x7FFAF9FB1670
     }
 
-    public class VisualEffectAsset : VisualEffectObject
+    public class VisualEffectAsset
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88041380
-        public void .cctor(){} // RVA: 0x7FFE880413D0
+        public void .ctor(){} // RVA: 0x7FFAF9FB11B0
+        public void .cctor(){} // RVA: 0x7FFAF9FB1200
     }
 
-    public class VisualEffectObject : Object
+    public class VisualEffectObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE88041380
+        public void .ctor(){} // RVA: 0x7FFAF9FB11B0
     }
 
 }

@@ -1,12 +1,3 @@
 {
- "VRC_Main::m_F67": "CheckAndDisable",
- "VRC_Main::m_685": "CheckAndDisable",
- "VRC_Main::m_986": "InvokeDelegate",
- "VRC_Main::m_3C5": "InvokeDelegate",
- "VRC_Main::m_BA6": "Dispose",
- "VRC_Main::m_911": "Dispose",
- "VRC_Main::m_B4A": "ProcessData",
- "VRC_Main::m_17E": "InvokeDelegate",
- "VRC_Main::m_1E3": "AtomicUpdate",
- "VRC_Main::m_BB7": "ExecuteAction"
+ "VRC_Secondary_8E5E::m_EE9": "DestroySafeArrays"
 }

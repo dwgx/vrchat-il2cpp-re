@@ -1,81 +1,81 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Transmtn
-// Classes: 33
-// Methods: 153
+// Classes: 42
+// Methods: 171
 
 namespace ThirdParty.Other.Transmtn
 {
-    public class Api : Object
+    public class Api
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A52AF60
-        public void Dispose(){} // RVA: 0x7FFE8A52BE60
+        public void .ctor(){} // RVA: 0x7FFAFC59B8D0
+        public void Dispose(){} // RVA: 0x7FFAFC59C7D0
     }
 
-    public class ChallengesWebsocketEventHandler : Object
+    public class ChallengesWebsocketEventHandler
     {
         // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE8A52BF30
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE8A52C030
-        public void In(){} // RVA: 0x7FFE8A52C130
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAFC59C8A0
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAFC59C9A0
+        public void In(){} // RVA: 0x7FFAFC59CAA0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ContentEvent : EventArgs
+    public class ContentEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A52DC90
+        public void .ctor(){} // RVA: 0x7FFAFC59E600
     }
 
-    public class ContentWebSocketEventHandler : Object
+    public class ContentWebSocketEventHandler
     {
         // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE8A52C9D0
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE8A52CAD0
-        public void In(){} // RVA: 0x7FFE8A52CBD0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAFC59D340
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAFC59D440
+        public void In(){} // RVA: 0x7FFAFC59D540
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class EconomyEvent : EventArgs
+    public class EconomyEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A52F300
+        public void .ctor(){} // RVA: 0x7FFAFC59FC70
     }
 
-    public class EconomyWebsocketEventHandler : Object
+    public class EconomyWebsocketEventHandler
     {
         // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE8A52DCE0
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE8A52DDE0
-        public void In(){} // RVA: 0x7FFE8A52DEE0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAFC59E650
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAFC59E750
+        public void In(){} // RVA: 0x7FFAFC59E850
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class GroupEvent : EventArgs
+    public class GroupEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A530820
+        public void .ctor(){} // RVA: 0x7FFAFC5A1190
     }
 
-    public class GroupsWebSocketEventHandler : Object
+    public class GroupsWebSocketEventHandler
     {
         // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE8A52F350
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE8A52F450
-        public void In(){} // RVA: 0x7FFE8A52F550
-        public void Handle(){} // RVA: 0x7FFE8A52F700
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAFC59FCC0
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAFC59FDC0
+        public void In(){} // RVA: 0x7FFAFC59FEC0
+        public void Handle(){} // RVA: 0x7FFAFC5A0070
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class HttpClient : Object
+    public class HttpClient
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0x7FFE8A530870
-        public void Post(){} // RVA: 0x7FFE8A530910
-        public void Put(){} // RVA: 0x7FFE8A530BA0
-        public void Delete(){} // RVA: 0x7FFE8A530C30
-        public void MakeResponseContainer(){} // RVA: 0x7FFE8A530CC0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Get(){} // RVA: 0x7FFAFC5A11E0
+        public void Post(){} // RVA: 0x7FFAFC5A1280
+        public void Put(){} // RVA: 0x7FFAFC5A1510
+        public void Delete(){} // RVA: 0x7FFAFC5A15A0
+        public void MakeResponseContainer(){} // RVA: 0x7FFAFC5A1630
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
     public class IAcceptMessages
@@ -87,272 +87,302 @@ namespace ThirdParty.Other.Transmtn
     public class IEventHandler`1
     {
         // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE80E460A0
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE80E460A0
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+    }
+
+    public class IEventHandler`1
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAF2AD4B10
     }
 
     public class IServerTimeProvider
     {
         // ── Methods ──
-        public void get_ServerTimeUtc(){} // RVA: 0x7FFE80E2E2E0
+        public void get_ServerTimeUtc(){} // RVA: 0x7FFAF2ABCD60
     }
 
-    public class InstanceEvent : EventArgs
+    public class InstanceEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A531FB0
+        public void .ctor(){} // RVA: 0x7FFAFC5A2920
     }
 
-    public class InstanceWebSocketEventHandler : Object
+    public class InstanceWebSocketEventHandler
     {
         // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE8A531260
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE8A531360
-        public void In(){} // RVA: 0x7FFE8A531460
-        public void Handle(){} // RVA: 0x7FFE8A531620
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAFC5A1BD0
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAFC5A1CD0
+        public void In(){} // RVA: 0x7FFAFC5A1DD0
+        public void Handle(){} // RVA: 0x7FFAFC5A1F90
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class InventoryContentEvent : ContentEvent
+    public class InventoryContentEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A52DC90
+        public void .ctor(){} // RVA: 0x7FFAFC59E600
     }
 
-    public class InventoryEvent : Object
-    {
-        public 0x666A6C8C _type; // 0x10
-
-        // ── Methods ──
-        public void get_Type(){} // RVA: 0x7FFE811485C0
-        public void set_Type(){} // RVA: 0x7FFE810FE0C0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-    }
-
-    public class InventoryShareEvent : InventoryEvent
-    {
-        public string _fromUserId; // 0x18
-        public string _itemId; // 0x20
-        public string _fromDisplayName; // 0x28
-        public string _token; // 0x30
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE817EE4A0
-        public void get_FromUserId(){} // RVA: 0x7FFE810FE7C0
-        public void set_FromUserId(){} // RVA: 0x7FFE81161E80
-        public void get_ItemId(){} // RVA: 0x7FFE811290C0
-        public void set_ItemId(){} // RVA: 0x7FFE811290D0
-        public void get_FromDisplayName(){} // RVA: 0x7FFE81129130
-        public void set_FromDisplayName(){} // RVA: 0x7FFE810FCE90
-        public void get_Token(){} // RVA: 0x7FFE8144E200
-        public void set_Token(){} // RVA: 0x7FFE81129890
-    }
-
-    public class InventoryWebSocketEventHandler : Object
+    public class InventoryEvent
     {
         // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE8A532000
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE8A532100
-        public void In(){} // RVA: 0x7FFE8A532200
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_Type(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_Type(){} // RVA: 0x7FFAF2D900C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class LegacyContentEvent : ContentEvent
+    public class InventoryShareEvent
     {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A52DC90
-    }
-
-    public class ModifiedImageUpdateEvent : TextureEvent
-    {
-        public string _fileID; // 0x18
-        public string _versionNumber; // 0x20
-        public int _pixelSize; // 0x28
-        public bool _needsProcessing; // 0x2C
+        public object notification;
+        public object version;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE817EE4A0
-        public void get_FileID(){} // RVA: 0x7FFE810FE7C0
-        public void set_FileID(){} // RVA: 0x7FFE81161E80
-        public void get_VersionNumber(){} // RVA: 0x7FFE811290C0
-        public void set_VersionNumber(){} // RVA: 0x7FFE811290D0
-        public void get_PixelSize(){} // RVA: 0x7FFE81549710
-        public void set_PixelSize(){} // RVA: 0x7FFE817E4800
-        public void get_NeedsProcessing(){} // RVA: 0x7FFE811DA230
-        public void set_NeedsProcessing(){} // RVA: 0x7FFE811DA240
+        public void .ctor(){} // RVA: 0x7FFAF350D070
+        public void get_FromUserId(){} // RVA: 0x7FFAF2D907C0
+        public void set_FromUserId(){} // RVA: 0x7FFAF2DF3E80
+        public void get_ItemId(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_ItemId(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_FromDisplayName(){} // RVA: 0x7FFAF2DBB130
+        public void set_FromDisplayName(){} // RVA: 0x7FFAF2D8EE90
+        public void get_Token(){} // RVA: 0x7FFAF30E74D0
+        public void set_Token(){} // RVA: 0x7FFAF2DBB890
     }
 
-    public class NotificationDeleteEvent : ValueType
-    {
-    }
-
-    public class NotificationEvent : EventArgs
-    {
-        public Transmtn.DTO.Notifications.Notification _notification; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A5360A0
-        public void get_notification(){} // RVA: 0x7FFE81116380
-        public void set_notification(){} // RVA: 0x7FFE810FCE30
-    }
-
-    public class NotificationUpdateEvent : ValueType
-    {
-    }
-
-    public class PhoneBook : Object
+    public class InventoryWebSocketEventHandler
     {
         // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE8A532F10
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE8A533010
-        public void In(){} // RVA: 0x7FFE8A533110
-        public void Handle(){} // RVA: 0x7FFE8A5332C0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAFC5A2970
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAFC5A2A70
+        public void In(){} // RVA: 0x7FFAFC5A2B70
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class PostOffice : Object
+    public class LegacyContentEvent
     {
-        public Transmtn.HttpClient _httpClient; // 0x10
-        public string NOTIFICATION; // 0x18
-        public string NOTIFICATIONV2; // 0x20
-        public System.EventHandler`1<Transmtn.NotificationEvent> OnNotification; // 0x28
-        public int maximumAllowedFileAttachmentInBytes;
-        public Transmtn.IServerTimeProvider _serverTimeProvider; // 0x30
-        public System.TimeSpan fiveMinutes;
-        public System.Collections.Generic.SortedList`2<System.DateTime,Transmtn.DTO.Notifications.Notification> _sortedNotifications; // 0x38
-        public System.Collections.Generic.Dictionary`2<string,Transmtn.DTO.Notifications.Notification> _notificationDictionary; // 0x40
-        public System.Collections.Generic.List`1<string> _notificationsToDelete; // 0x48
-        public System.Collections.Generic.List`1<string> _notificationsToUpdate; // 0x50
-        public int fetchCount;
-        public object field_12; // 0x8
-
         // ── Methods ──
-        public void get_HttpClient(){} // RVA: 0x7FFE81116380
-        public void set_HttpClient(){} // RVA: 0x7FFE810FCE30
-        public void add_OnNotification(){} // RVA: 0x7FFE8A536140
-        public void remove_OnNotification(){} // RVA: 0x7FFE8A536240
-        public void get_Messages(){} // RVA: 0x7FFE8A536340
-        public void get_FriendRequests(){} // RVA: 0x7FFE8A5364C0
-        public void get_Invites(){} // RVA: 0x7FFE8A536640
-        public void get_Broadcasts(){} // RVA: 0x7FFE8A5367C0
-        public void get_Alerts(){} // RVA: 0x7FFE8A536940
-        public void get_TopFourNotifications(){} // RVA: 0x7FFE8A536AC0
-        public void get_RecentNotifications(){} // RVA: 0x7FFE8A536B10
-        public void get_Notifications(){} // RVA: 0x7FFE8A536BC0
-        public void get_SortedNotifications(){} // RVA: 0x7FFE8143BA80
-        public void set_SortedNotifications(){} // RVA: 0x7FFE81437330
-        public void get_NotificationDictionary(){} // RVA: 0x7FFE81178740
-        public void set_NotificationDictionary(){} // RVA: 0x7FFE81123200
-        public void get_NotificationsToDelete(){} // RVA: 0x7FFE81176730
-        public void set_NotificationsToDelete(){} // RVA: 0x7FFE81176740
-        public void get_NotificationsToUpdate(){} // RVA: 0x7FFE8119C0E0
-        public void set_NotificationsToUpdate(){} // RVA: 0x7FFE812534D0
-        public void ContainsValidImageDataAttachment(){} // RVA: 0x7FFE8A536C40
-        public void .ctor(){} // RVA: 0x7FFE8A536C60
-        public void In(){} // RVA: 0x7FFE8A537090
-        public void ProcessNotification(){} // RVA: 0x7FFE8A537260
-        public void Remove(){} // RVA: 0x7FFE8A5377F0 | overloaded x2
-        public void See(){} // RVA: 0x7FFE8A537D40 | overloaded x2
-        public void FetchFriendRequests(){} // RVA: 0x7FFE8A537DB0
-        public void FetchNotifications(){} // RVA: 0x7FFE8A537F90
-        public void Send(){} // RVA: 0x7FFE8A538190
-        public void MarkAsSeen(){} // RVA: 0x7FFE8A538EF0
-        public void Delete(){} // RVA: 0x7FFE8A5391C0
-        public void Hide(){} // RVA: 0x7FFE8A539610
-        public void AnswerNotification(){} // RVA: 0x7FFE8A539910
-        public void ReplyNotification(){} // RVA: 0x7FFE8A539C90
-        public void AcceptFriendRequest(){} // RVA: 0x7FFE8A539E50
-        public void .cctor(){} // RVA: 0x7FFE8A53A280
-        public void <get_RecentNotifications>b__25_0(){} // RVA: 0x7FFE8A53A310
-        public void <FetchNotifications>b__54_0(){} // RVA: 0x7FFE8A53A420
+        public void .ctor(){} // RVA: 0x7FFAFC59E600
     }
 
-    public class QueueEvent : EventArgs
+    public class ModifiedImageUpdateEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A53F160
+        public void .ctor(){} // RVA: 0x7FFAF350D070
+        public void get_FileID(){} // RVA: 0x7FFAF2D907C0
+        public void set_FileID(){} // RVA: 0x7FFAF2DF3E80
+        public void get_VersionNumber(){} // RVA: 0x7FFAF2DBB0C0
+        public void set_VersionNumber(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_PixelSize(){} // RVA: 0x7FFAF3241DC0
+        public void set_PixelSize(){} // RVA: 0x7FFAF3503440
+        public void get_NeedsProcessing(){} // RVA: 0x7FFAF2E6C230
+        public void set_NeedsProcessing(){} // RVA: 0x7FFAF2E6C240
     }
 
-    public class QueueWebSocketEventHandler : Object
+    public class NotificationDeleteEvent
     {
-        // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE8A53DD40
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE8A53DE40
-        public void In(){} // RVA: 0x7FFE8A53DF40
-        public void HandleReady(){} // RVA: 0x7FFE8A53E100
-        public void Handle(){} // RVA: 0x7FFE8A53E290
-        public void .ctor(){} // RVA: 0x7FFE810FB310
     }
 
-    public class Router : Object
+    public class NotificationEvent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A5402F0
-        public void AddRoute(){} // RVA: 0x7FFE8A5403B0
-        public void ProcessItem(){} // RVA: 0x7FFE8A5404F0
+        public void .ctor(){} // RVA: 0x7FFAFC5A6A10
+        public void get_notification(){} // RVA: 0x7FFAF2DA8380
+        public void set_notification(){} // RVA: 0x7FFAF2D8EE30
     }
 
-    public class SocketEnvelope : Object
+    public class NotificationUpdateEvent
     {
-        public string _type; // 0x10
-        public string _content; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A540CF0
-        public void get_type(){} // RVA: 0x7FFE81116380
-        public void set_type(){} // RVA: 0x7FFE810FCE30
-        public void get_content(){} // RVA: 0x7FFE810FE7C0
-        public void set_content(){} // RVA: 0x7FFE81161E80
     }
 
-    public class TextureEvent : Object
+    public class PhoneBook
     {
-        public + _type; // 0x10
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x7FFE811485C0
-        public void set_Type(){} // RVA: 0x7FFE810FE0C0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAFC5A3880
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAFC5A3980
+        public void In(){} // RVA: 0x7FFAFC5A3A80
+        public void Handle(){} // RVA: 0x7FFAFC5A3C30
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class TextureWebSocketEventHandler : Object
+    public class PostOffice
     {
         // ── Methods ──
-        public void add_OnUpdateReceived(){} // RVA: 0x7FFE8A53F1B0
-        public void remove_OnUpdateReceived(){} // RVA: 0x7FFE8A53F2B0
-        public void In(){} // RVA: 0x7FFE8A53F3B0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void get_HttpClient(){} // RVA: 0x7FFAF2DA8380
+        public void set_HttpClient(){} // RVA: 0x7FFAF2D8EE30
+        public void add_OnNotification(){} // RVA: 0x7FFAFC5A6AB0
+        public void remove_OnNotification(){} // RVA: 0x7FFAFC5A6BB0
+        public void get_Messages(){} // RVA: 0x7FFAFC5A6CB0
+        public void get_FriendRequests(){} // RVA: 0x7FFAFC5A6E30
+        public void get_Invites(){} // RVA: 0x7FFAFC5A6FB0
+        public void get_Broadcasts(){} // RVA: 0x7FFAFC5A7130
+        public void get_Alerts(){} // RVA: 0x7FFAFC5A72B0
+        public void get_TopFourNotifications(){} // RVA: 0x7FFAFC5A7430
+        public void get_RecentNotifications(){} // RVA: 0x7FFAFC5A7480
+        public void get_Notifications(){} // RVA: 0x7FFAFC5A7530
+        public void get_SortedNotifications(){} // RVA: 0x7FFAF2F476A0
+        public void set_SortedNotifications(){} // RVA: 0x7FFAF2F4B830
+        public void get_NotificationDictionary(){} // RVA: 0x7FFAF2E0A740
+        public void set_NotificationDictionary(){} // RVA: 0x7FFAF2DB5200
+        public void get_NotificationsToDelete(){} // RVA: 0x7FFAF2E08730
+        public void set_NotificationsToDelete(){} // RVA: 0x7FFAF2E08740
+        public void get_NotificationsToUpdate(){} // RVA: 0x7FFAF2E2E0E0
+        public void set_NotificationsToUpdate(){} // RVA: 0x7FFAF2EE54D0
+        public void ContainsValidImageDataAttachment(){} // RVA: 0x7FFAFC5A75B0
+        public void .ctor(){} // RVA: 0x7FFAFC5A75D0
+        public void In(){} // RVA: 0x7FFAFC5A7A00
+        public void ProcessNotification(){} // RVA: 0x7FFAFC5A7BD0
+        public void Remove(){} // RVA: 0x7FFAFC5A8160 | overloaded x2
+        public void See(){} // RVA: 0x7FFAFC5A86B0 | overloaded x2
+        public void FetchFriendRequests(){} // RVA: 0x7FFAFC5A8720
+        public void FetchNotifications(){} // RVA: 0x7FFAFC5A8900
+        public void Send(){} // RVA: 0x7FFAFC5A8B00
+        public void MarkAsSeen(){} // RVA: 0x7FFAFC5A9860
+        public void Delete(){} // RVA: 0x7FFAFC5A9B30
+        public void Hide(){} // RVA: 0x7FFAFC5A9F80
+        public void AnswerNotification(){} // RVA: 0x7FFAFC5AA280
+        public void ReplyNotification(){} // RVA: 0x7FFAFC5AA600
+        public void AcceptFriendRequest(){} // RVA: 0x7FFAFC5AA7C0
+        public void .cctor(){} // RVA: 0x7FFAFC5AABF0
+        public void <get_RecentNotifications>b__25_0(){} // RVA: 0x7FFAFC5AAC80
+        public void <FetchNotifications>b__54_0(){} // RVA: 0x7FFAFC5AAD90
     }
 
-    public class UpdateEvent : EventArgs
+    public class QueueEvent
     {
-        public Transmtn.DTO.User _user; // 0x10
-        public 0x666A623C _messageType; // 0x18
-
         // ── Methods ──
-        public void get_user(){} // RVA: 0x7FFE81116380
-        public void set_user(){} // RVA: 0x7FFE810FCE30
-        public void get_messageType(){} // RVA: 0x7FFE813DB630
-        public void set_messageType(){} // RVA: 0x7FFE8144DF00
-        public void .ctor(){} // RVA: 0x7FFE8A532E50
+        public void .ctor(){} // RVA: 0x7FFAFC5AFAD0
     }
 
-    public class WebsocketPipeline : Object
+    public class QueueWebSocketEventHandler
     {
         // ── Methods ──
-        public void add_OnConnectionEstablished(){} // RVA: 0x7FFE8A540E50
-        public void remove_OnConnectionEstablished(){} // RVA: 0x7FFE8A540F40
-        public void add_OnLostConnection(){} // RVA: 0x7FFE8A541030
-        public void remove_OnLostConnection(){} // RVA: 0x7FFE8A541130
-        public void LogError(){} // RVA: 0x7FFE8A541230
-        public void LogDebug(){} // RVA: 0x7FFE8A5413E0
-        public void .ctor(){} // RVA: 0x7FFE8A541590
-        public void ProcessPipe(){} // RVA: 0x7FFE8A541960
-        public void Dispose(){} // RVA: 0x7FFE8A541AA0
-        public void <ProcessPipe>b__17_0(){} // RVA: 0x7FFE8A541B70
-        public void <ProcessPipe>b__17_1(){} // RVA: 0x7FFE8143C6A0
-        public void <ProcessPipe>b__17_2(){} // RVA: 0x7FFE8A541C90
-        public void <ProcessPipe>b__17_3(){} // RVA: 0x7FFE8A541DA0
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAFC5AE6B0
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAFC5AE7B0
+        public void In(){} // RVA: 0x7FFAFC5AE8B0
+        public void HandleReady(){} // RVA: 0x7FFAFC5AEA70
+        public void Handle(){} // RVA: 0x7FFAFC5AEC00
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class Router
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAFC5B0C60
+        public void AddRoute(){} // RVA: 0x7FFAFC5B0D20
+        public void ProcessItem(){} // RVA: 0x7FFAFC5B0E60
+    }
+
+    public class SocketEnvelope
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7FFAFC5B1660
+        public void get_type(){} // RVA: 0x7FFAF2DA8380
+        public void set_type(){} // RVA: 0x7FFAF2D8EE30
+        public void get_content(){} // RVA: 0x7FFAF2D907C0
+        public void set_content(){} // RVA: 0x7FFAF2DF3E80
+    }
+
+    public class TextureEvent
+    {
+        // ── Methods ──
+        public void get_Type(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_Type(){} // RVA: 0x7FFAF2D900C0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class TextureWebSocketEventHandler
+    {
+        // ── Methods ──
+        public void add_OnUpdateReceived(){} // RVA: 0x7FFAFC5AFB20
+        public void remove_OnUpdateReceived(){} // RVA: 0x7FFAFC5AFC20
+        public void In(){} // RVA: 0x7FFAFC5AFD20
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    }
+
+    public class UpdateEvent
+    {
+        // ── Methods ──
+        public void get_user(){} // RVA: 0x7FFAF2DA8380
+        public void set_user(){} // RVA: 0x7FFAF2D8EE30
+        public void get_messageType(){} // RVA: 0x7FFAF306ED50
+        public void set_messageType(){} // RVA: 0x7FFAF30E74E0
+        public void .ctor(){} // RVA: 0x7FFAFC5A37C0
+    }
+
+    public class WebsocketPipeline
+    {
+        // ── Methods ──
+        public void add_OnConnectionEstablished(){} // RVA: 0x7FFAFC5B17C0
+        public void remove_OnConnectionEstablished(){} // RVA: 0x7FFAFC5B18B0
+        public void add_OnLostConnection(){} // RVA: 0x7FFAFC5B19A0
+        public void remove_OnLostConnection(){} // RVA: 0x7FFAFC5B1AA0
+        public void LogError(){} // RVA: 0x7FFAFC5B1BA0
+        public void LogDebug(){} // RVA: 0x7FFAFC5B1D50
+        public void .ctor(){} // RVA: 0x7FFAFC5B1F00
+        public void ProcessPipe(){} // RVA: 0x7FFAFC5B22D0
+        public void Dispose(){} // RVA: 0x7FFAFC5B2410
+        public void <ProcessPipe>b__17_0(){} // RVA: 0x7FFAFC5B24E0
+        public void <ProcessPipe>b__17_1(){} // RVA: 0x7FFAF30D42C0
+        public void <ProcessPipe>b__17_2(){} // RVA: 0x7FFAFC5B2600
+        public void <ProcessPipe>b__17_3(){} // RVA: 0x7FFAFC5B2710
     }
 
 }

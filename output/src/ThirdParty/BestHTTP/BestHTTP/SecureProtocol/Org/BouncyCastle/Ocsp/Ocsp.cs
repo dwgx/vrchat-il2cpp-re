@@ -5,236 +5,207 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 {
-    public class BasicOcspResp : X509ExtensionBase
+    public class BasicOcspResp
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.BasicOcspResponse resp; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.ResponseData data; // 0x18
-        public object field_2; // 0x1A2
-        public object field_3; // 0x1A3
-        public object field_4; // 0x1A4
-        public object field_5; // 0x1A5
-        public object field_6; // 0x1A6
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A3DCCA0
-        public void GetTbsResponseData(){} // RVA: 0x7FFE8A3DCD80
-        public void get_Version(){} // RVA: 0x7FFE8A3DCE10
-        public void get_ResponderId(){} // RVA: 0x7FFE8A3DCE80
-        public void get_ProducedAt(){} // RVA: 0x7FFE8A3DCF20
-        public void get_Responses(){} // RVA: 0x7FFE8A3DCF50
-        public void get_ResponseExtensions(){} // RVA: 0x7FFE86BAE0A0
-        public void GetX509Extensions(){} // RVA: 0x7FFE86BAE0A0
-        public void get_SignatureAlgName(){} // RVA: 0x7FFE8A3DD160
-        public void get_SignatureAlgOid(){} // RVA: 0x7FFE89EAFE10
-        public void GetResponseData(){} // RVA: 0x7FFE8A3DD2E0
-        public void GetSignature(){} // RVA: 0x7FFE89EAFCA0
-        public void GetCertList(){} // RVA: 0x7FFE8A3DD380
-        public void GetCerts(){} // RVA: 0x7FFE8A3DD700
-        public void GetCertificates(){} // RVA: 0x7FFE8A3DDA00
-        public void Verify(){} // RVA: 0x7FFE8A3DDB10
-        public void GetEncoded(){} // RVA: 0x7FFE89EBCFE0
-        public void Equals(){} // RVA: 0x7FFE8A3DDE80
-        public void GetHashCode(){} // RVA: 0x7FFE8170B620
+        public void .ctor(){} // RVA: 0x7FFAFC431270
+        public void GetTbsResponseData(){} // RVA: 0x7FFAFC431350
+        public void get_Version(){} // RVA: 0x7FFAFC4313E0
+        public void get_ResponderId(){} // RVA: 0x7FFAFC431450
+        public void get_ProducedAt(){} // RVA: 0x7FFAFC4314F0
+        public void get_Responses(){} // RVA: 0x7FFAFC431520
+        public void get_ResponseExtensions(){} // RVA: 0x7FFAF8B1D2D0
+        public void GetX509Extensions(){} // RVA: 0x7FFAF8B1D2D0
+        public void get_SignatureAlgName(){} // RVA: 0x7FFAFC431730
+        public void get_SignatureAlgOid(){} // RVA: 0x7FFAFBEFDA40
+        public void GetResponseData(){} // RVA: 0x7FFAFC4318B0
+        public void GetSignature(){} // RVA: 0x7FFAFBEFD8D0
+        public void GetCertList(){} // RVA: 0x7FFAFC431950
+        public void GetCerts(){} // RVA: 0x7FFAFC431CD0
+        public void GetCertificates(){} // RVA: 0x7FFAFC431FD0
+        public void Verify(){} // RVA: 0x7FFAFC4320E0
+        public void GetEncoded(){} // RVA: 0x7FFAFBF0AC10
+        public void Equals(){} // RVA: 0x7FFAFC432450
+        public void GetHashCode(){} // RVA: 0x7FFAF344E0E0
     }
 
-    public class BasicOcspRespGenerator : Object
+    public class BasicOcspRespGenerator
     {
-        public System.Collections.IList list; // 0x10
+        public object HashAlgOid;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A3DE090 | overloaded x2
-        public void AddResponse(){} // RVA: 0x7FFE8A3DE510 | overloaded x4
-        public void SetResponseExtensions(){} // RVA: 0x7FFE81161E80
-        public void GenerateResponse(){} // RVA: 0x7FFE8A3DE5F0
-        public void Generate(){} // RVA: 0x7FFE8A3DF4B0 | overloaded x3
-        public void get_SignatureAlgNames(){} // RVA: 0x7FFE8A3DF520
+        public void .ctor(){} // RVA: 0x7FFAFC432660 | overloaded x2
+        public void AddResponse(){} // RVA: 0x7FFAFC432AE0 | overloaded x4
+        public void SetResponseExtensions(){} // RVA: 0x7FFAF2DF3E80
+        public void GenerateResponse(){} // RVA: 0x7FFAFC432BC0
+        public void Generate(){} // RVA: 0x7FFAFC433A80 | overloaded x3
+        public void get_SignatureAlgNames(){} // RVA: 0x7FFAFC433AF0
     }
 
-    public class CertificateID : Object
+    public class CertificateID
     {
-        public string HashSha1;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.CertID id; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A3DFE60 | overloaded x2
-        public void get_HashAlgOid(){} // RVA: 0x7FFE8A3E0080
-        public void GetIssuerNameHash(){} // RVA: 0x7FFE8A3192D0
-        public void GetIssuerKeyHash(){} // RVA: 0x7FFE8A3E00C0
-        public void get_SerialNumber(){} // RVA: 0x7FFE8A153B10
-        public void MatchesIssuer(){} // RVA: 0x7FFE8A3E0100
-        public void ToAsn1Object(){} // RVA: 0x7FFE81116380
-        public void Equals(){} // RVA: 0x7FFE8A3E0150
-        public void GetHashCode(){} // RVA: 0x7FFE8A3E0270
-        public void DeriveCertificateID(){} // RVA: 0x7FFE8A3E02C0
-        public void CreateCertID(){} // RVA: 0x7FFE8A3E0510
+        public void .ctor(){} // RVA: 0x7FFAFC434430 | overloaded x2
+        public void get_HashAlgOid(){} // RVA: 0x7FFAFC434650
+        public void GetIssuerNameHash(){} // RVA: 0x7FFAFC3675B0
+        public void GetIssuerKeyHash(){} // RVA: 0x7FFAFC434690
+        public void get_SerialNumber(){} // RVA: 0x7FFAFC1A1710
+        public void MatchesIssuer(){} // RVA: 0x7FFAFC4346D0
+        public void ToAsn1Object(){} // RVA: 0x7FFAF2DA8380
+        public void Equals(){} // RVA: 0x7FFAFC434720
+        public void GetHashCode(){} // RVA: 0x7FFAFC434840
+        public void DeriveCertificateID(){} // RVA: 0x7FFAFC434890
+        public void CreateCertID(){} // RVA: 0x7FFAFC434AE0
     }
 
-    public class CertificateStatus : Object
+    public class CertificateStatus
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class OCSPRespGenerator : Object
+    public class OCSPRespGenerator
     {
         // ── Methods ──
-        public void Generate(){} // RVA: 0x7FFE8A3E34B0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Generate(){} // RVA: 0x7FFAFC437A80
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class OcscpRespStatus : OcspRespStatus
+    public class OcscpRespStatus
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class OcspException : Exception
+    public class OcspException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A3E0970 | overloaded x3
+        public void .ctor(){} // RVA: 0x7FFAFC434F40 | overloaded x3
     }
 
-    public class OcspReq : X509ExtensionBase
+    public class OcspReq
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.OcspRequest req; // 0x10
-        public object field_1; // 0x1AC
-        public object field_2; // 0x1AD
-        public object field_3; // 0x1AE
-        public object field_4; // 0x1AF
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A3E0B30 | overloaded x4
-        public void GetTbsRequest(){} // RVA: 0x7FFE8A3E0CC0
-        public void get_Version(){} // RVA: 0x7FFE89EBC370
-        public void get_RequestorName(){} // RVA: 0x7FFE8A3E0D60
-        public void GetRequestList(){} // RVA: 0x7FFE8A3E0D90
-        public void get_RequestExtensions(){} // RVA: 0x7FFE8A3E0FB0
-        public void GetX509Extensions(){} // RVA: 0x7FFE8A3E0FB0
-        public void get_SignatureAlgOid(){} // RVA: 0x7FFE8A3E1020
-        public void GetSignature(){} // RVA: 0x7FFE8A3E1070
-        public void GetCertList(){} // RVA: 0x7FFE8A3E10C0
-        public void GetCerts(){} // RVA: 0x7FFE8A3E1400
-        public void GetCertificates(){} // RVA: 0x7FFE8A3E1720
-        public void get_IsSigned(){} // RVA: 0x7FFE8A3E1850
-        public void Verify(){} // RVA: 0x7FFE8A3E1870
-        public void GetEncoded(){} // RVA: 0x7FFE89EBCFE0
+        public void .ctor(){} // RVA: 0x7FFAFC435100 | overloaded x4
+        public void GetTbsRequest(){} // RVA: 0x7FFAFC435290
+        public void get_Version(){} // RVA: 0x7FFAFBF09FA0
+        public void get_RequestorName(){} // RVA: 0x7FFAFC435330
+        public void GetRequestList(){} // RVA: 0x7FFAFC435360
+        public void get_RequestExtensions(){} // RVA: 0x7FFAFC435580
+        public void GetX509Extensions(){} // RVA: 0x7FFAFC435580
+        public void get_SignatureAlgOid(){} // RVA: 0x7FFAFC4355F0
+        public void GetSignature(){} // RVA: 0x7FFAFC435640
+        public void GetCertList(){} // RVA: 0x7FFAFC435690
+        public void GetCerts(){} // RVA: 0x7FFAFC4359D0
+        public void GetCertificates(){} // RVA: 0x7FFAFC435CF0
+        public void get_IsSigned(){} // RVA: 0x7FFAFC435E20
+        public void Verify(){} // RVA: 0x7FFAFC435E40
+        public void GetEncoded(){} // RVA: 0x7FFAFBF0AC10
     }
 
-    public class OcspReqGenerator : Object
+    public class OcspReqGenerator
     {
-        public System.Collections.IList list; // 0x10
+        public object Status;
 
         // ── Methods ──
-        public void AddRequest(){} // RVA: 0x7FFE8A3E1BD0 | overloaded x2
-        public void SetRequestorName(){} // RVA: 0x7FFE81161E80 | overloaded x2
-        public void SetRequestExtensions(){} // RVA: 0x7FFE811290D0
-        public void GenerateRequest(){} // RVA: 0x7FFE8A3E1DE0
-        public void Generate(){} // RVA: 0x7FFE8A3E29B0 | overloaded x3
-        public void get_SignatureAlgNames(){} // RVA: 0x7FFE8A3E2C70
-        public void .ctor(){} // RVA: 0x7FFE8A3E2CC0
+        public void AddRequest(){} // RVA: 0x7FFAFC4361A0 | overloaded x2
+        public void SetRequestorName(){} // RVA: 0x7FFAF2DF3E80 | overloaded x2
+        public void SetRequestExtensions(){} // RVA: 0x7FFAF2DBB0D0
+        public void GenerateRequest(){} // RVA: 0x7FFAFC4363B0
+        public void Generate(){} // RVA: 0x7FFAFC436F80 | overloaded x3
+        public void get_SignatureAlgNames(){} // RVA: 0x7FFAFC437240
+        public void .ctor(){} // RVA: 0x7FFAFC437290
     }
 
-    public class OcspResp : Object
+    public class OcspResp
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.OcspResponse resp; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A3E3060 | overloaded x4
-        public void get_Status(){} // RVA: 0x7FFE8A3E3180
-        public void GetResponseObject(){} // RVA: 0x7FFE8A3E31F0
-        public void GetEncoded(){} // RVA: 0x7FFE89EBCFE0
-        public void Equals(){} // RVA: 0x7FFE8A3E33E0
-        public void GetHashCode(){} // RVA: 0x7FFE8170B620
+        public void .ctor(){} // RVA: 0x7FFAFC437630 | overloaded x4
+        public void get_Status(){} // RVA: 0x7FFAFC437750
+        public void GetResponseObject(){} // RVA: 0x7FFAFC4377C0
+        public void GetEncoded(){} // RVA: 0x7FFAFBF0AC10
+        public void Equals(){} // RVA: 0x7FFAFC4379B0
+        public void GetHashCode(){} // RVA: 0x7FFAF344E0E0
     }
 
-    public class OcspRespStatus : Object
+    public class OcspRespStatus
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class OcspUtilities : Object
+    public class OcspUtilities
     {
-        public System.Collections.IDictionary algorithms;
+        public object SingleRequestExtensions;
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE8A3E39D0
-        public void GetAlgorithmOid(){} // RVA: 0x7FFE8A3E50E0
-        public void GetAlgorithmName(){} // RVA: 0x7FFE8A3E5270
-        public void GetSigAlgID(){} // RVA: 0x7FFE8A3E5390
-        public void get_AlgNames(){} // RVA: 0x7FFE8A3E5510
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFAFC437FA0
+        public void GetAlgorithmOid(){} // RVA: 0x7FFAFC4396B0
+        public void GetAlgorithmName(){} // RVA: 0x7FFAFC439840
+        public void GetSigAlgID(){} // RVA: 0x7FFAFC439960
+        public void get_AlgNames(){} // RVA: 0x7FFAFC439AE0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Req : X509ExtensionBase
+    public class Req
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.Request req; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void GetCertID(){} // RVA: 0x7FFE8A3E5660
-        public void get_SingleRequestExtensions(){} // RVA: 0x7FFE8189C080
-        public void GetX509Extensions(){} // RVA: 0x7FFE8189C080
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void GetCertID(){} // RVA: 0x7FFAFC439C30
+        public void get_SingleRequestExtensions(){} // RVA: 0x7FFAF35DEEA0
+        public void GetX509Extensions(){} // RVA: 0x7FFAF35DEEA0
     }
 
-    public class RespData : X509ExtensionBase
+    public class RespData
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.ResponseData data; // 0x10
-        public object field_1; // 0x1B5
-        public object field_2; // 0x1B6
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_Version(){} // RVA: 0x7FFE8A188EE0
-        public void GetResponderId(){} // RVA: 0x7FFE8A3E5750
-        public void get_ProducedAt(){} // RVA: 0x7FFE8A3E57F0
-        public void GetResponses(){} // RVA: 0x7FFE8A3E5820
-        public void get_ResponseExtensions(){} // RVA: 0x7FFE8189C060
-        public void GetX509Extensions(){} // RVA: 0x7FFE8189C060
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_Version(){} // RVA: 0x7FFAFC1D6AE0
+        public void GetResponderId(){} // RVA: 0x7FFAFC439D20
+        public void get_ProducedAt(){} // RVA: 0x7FFAFC439DC0
+        public void GetResponses(){} // RVA: 0x7FFAFC439DF0
+        public void get_ResponseExtensions(){} // RVA: 0x7FFAF35DE770
+        public void GetX509Extensions(){} // RVA: 0x7FFAF35DE770
     }
 
-    public class RespID : Object
+    public class RespID
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A3E5B80 | overloaded x3
-        public void ToAsn1Object(){} // RVA: 0x7FFE81116380
-        public void Equals(){} // RVA: 0x7FFE8A3E5E70
-        public void GetHashCode(){} // RVA: 0x7FFE8170B620
+        public void .ctor(){} // RVA: 0x7FFAFC43A150 | overloaded x3
+        public void ToAsn1Object(){} // RVA: 0x7FFAF2DA8380
+        public void Equals(){} // RVA: 0x7FFAFC43A440
+        public void GetHashCode(){} // RVA: 0x7FFAF344E0E0
     }
 
-    public class RevokedStatus : CertificateStatus
+    public class RevokedStatus
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.RevokedInfo info; // 0x10
-        public object field_1; // 0x1B8
-        public object field_2; // 0x1B9
+        public object ThisUpdate;
+        public object NextUpdate;
+        public object SingleExtensions;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A3E5F40 | overloaded x2
-        public void get_RevocationTime(){} // RVA: 0x7FFE8A3E60A0
-        public void get_HasRevocationReason(){} // RVA: 0x7FFE8A3E1850
-        public void get_RevocationReason(){} // RVA: 0x7FFE8A3E60D0
+        public void .ctor(){} // RVA: 0x7FFAFC43A510 | overloaded x2
+        public void get_RevocationTime(){} // RVA: 0x7FFAFC43A670
+        public void get_HasRevocationReason(){} // RVA: 0x7FFAFC435E20
+        public void get_RevocationReason(){} // RVA: 0x7FFAFC43A6A0
     }
 
-    public class SingleResp : X509ExtensionBase
+    public class SingleResp
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.SingleResponse resp; // 0x10
-        public object field_1; // 0x1BB
-        public object field_2; // 0x1BC
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void GetCertID(){} // RVA: 0x7FFE8A3E6190
-        public void GetCertStatus(){} // RVA: 0x7FFE8A3E6280
-        public void get_ThisUpdate(){} // RVA: 0x7FFE8A3E6380
-        public void get_NextUpdate(){} // RVA: 0x7FFE8A3E63B0
-        public void get_SingleExtensions(){} // RVA: 0x7FFE8189BF90
-        public void GetX509Extensions(){} // RVA: 0x7FFE8189BF90
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void GetCertID(){} // RVA: 0x7FFAFC43A760
+        public void GetCertStatus(){} // RVA: 0x7FFAFC43A850
+        public void get_ThisUpdate(){} // RVA: 0x7FFAFC43A950
+        public void get_NextUpdate(){} // RVA: 0x7FFAFC43A980
+        public void get_SingleExtensions(){} // RVA: 0x7FFAF35DEE60
+        public void GetX509Extensions(){} // RVA: 0x7FFAF35DEE60
     }
 
-    public class UnknownStatus : CertificateStatus
+    public class UnknownStatus
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

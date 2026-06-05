@@ -1,0 +1,142 @@
+[
+  {
+    "class": "PlayerMoveNext_17E5",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6AA",
+      "m_C45"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_1D4B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DB5",
+      "m_BFC"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_1FB1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D23",
+      "m_45D"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_2180",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_088",
+      "m_CE3"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_2226",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F88",
+      "m_4F6"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_223B",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6AA",
+      "m_ACC"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_248D",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_E82",
+      "m_EEE"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_276A",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_124",
+      "m_63A"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_30FE",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CE3",
+      "m_1AD"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_3786",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_015",
+      "m_E82"
+    ]
+  }
+]

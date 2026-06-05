@@ -5,120 +5,120 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform
 {
-    public class AbuseReport : Object
+    public class AbuseReport
     {
         // ── Methods ──
-        public void ReportRequestHandled(){} // RVA: 0x7FFE86C11CA0
-        public void SetReportButtonPressedNotificationCallback(){} // RVA: 0x7FFE86C11E40
+        public void ReportRequestHandled(){} // RVA: 0x7FFAF8B80ED0
+        public void SetReportButtonPressedNotificationCallback(){} // RVA: 0x7FFAF8B81070
     }
 
-    public class AbuseReportOptions : Object
+    public class AbuseReportOptions
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86BC23B0
-        public void SetPreventPeopleChooser(){} // RVA: 0x7FFE86BC2460
-        public void SetReportType(){} // RVA: 0x7FFE86BC2520
-        public void op_Explicit(){} // RVA: 0x7FFE86BC25E0
-        public void Finalize(){} // RVA: 0x7FFE86BC25F0
+        public void .ctor(){} // RVA: 0x7FFAF8B315E0
+        public void SetPreventPeopleChooser(){} // RVA: 0x7FFAF8B31690
+        public void SetReportType(){} // RVA: 0x7FFAF8B31750
+        public void op_Explicit(){} // RVA: 0x7FFAF8B31810
+        public void Finalize(){} // RVA: 0x7FFAF8B31820
     }
 
-    public class Achievements : Object
+    public class Achievements
     {
         // ── Methods ──
-        public void AddCount(){} // RVA: 0x7FFE86C11EB0
-        public void AddFields(){} // RVA: 0x7FFE86C120F0
-        public void GetAllDefinitions(){} // RVA: 0x7FFE86C12350
-        public void GetAllProgress(){} // RVA: 0x7FFE86C12500
-        public void GetDefinitionsByName(){} // RVA: 0x7FFE86C126B0
-        public void GetProgressByName(){} // RVA: 0x7FFE86C12960
-        public void Unlock(){} // RVA: 0x7FFE86C12C10
-        public void GetNextAchievementDefinitionListPage(){} // RVA: 0x7FFE86C12E40
-        public void GetNextAchievementProgressListPage(){} // RVA: 0x7FFE86C12FF0
+        public void AddCount(){} // RVA: 0x7FFAF8B810E0
+        public void AddFields(){} // RVA: 0x7FFAF8B81320
+        public void GetAllDefinitions(){} // RVA: 0x7FFAF8B81580
+        public void GetAllProgress(){} // RVA: 0x7FFAF8B81730
+        public void GetDefinitionsByName(){} // RVA: 0x7FFAF8B818E0
+        public void GetProgressByName(){} // RVA: 0x7FFAF8B81B90
+        public void Unlock(){} // RVA: 0x7FFAF8B81E40
+        public void GetNextAchievementDefinitionListPage(){} // RVA: 0x7FFAF8B82070
+        public void GetNextAchievementProgressListPage(){} // RVA: 0x7FFAF8B82220
     }
 
-    public class AdvancedAbuseReportOptions : Object
+    public class AdvancedAbuseReportOptions
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86BC26E0
-        public void SetDeveloperDefinedContext(){} // RVA: 0x7FFE86BC2790
-        public void ClearDeveloperDefinedContext(){} // RVA: 0x7FFE86BC2900
-        public void SetObjectType(){} // RVA: 0x7FFE86BC29C0
-        public void SetReportType(){} // RVA: 0x7FFE86BC2B00
-        public void AddSuggestedUser(){} // RVA: 0x7FFE86BC2BC0
-        public void ClearSuggestedUsers(){} // RVA: 0x7FFE86BC2C90
-        public void SetVideoMode(){} // RVA: 0x7FFE86BC2D50
-        public void op_Explicit(){} // RVA: 0x7FFE86BC25E0
-        public void Finalize(){} // RVA: 0x7FFE86BC2E10
+        public void .ctor(){} // RVA: 0x7FFAF8B31910
+        public void SetDeveloperDefinedContext(){} // RVA: 0x7FFAF8B319C0
+        public void ClearDeveloperDefinedContext(){} // RVA: 0x7FFAF8B31B30
+        public void SetObjectType(){} // RVA: 0x7FFAF8B31BF0
+        public void SetReportType(){} // RVA: 0x7FFAF8B31D30
+        public void AddSuggestedUser(){} // RVA: 0x7FFAF8B31DF0
+        public void ClearSuggestedUsers(){} // RVA: 0x7FFAF8B31EC0
+        public void SetVideoMode(){} // RVA: 0x7FFAF8B31F80
+        public void op_Explicit(){} // RVA: 0x7FFAF8B31810
+        public void Finalize(){} // RVA: 0x7FFAF8B32040
     }
 
-    public class AndroidPlatform : Object
+    public class AndroidPlatform
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFE810FB320
-        public void AsyncInitialize(){} // RVA: 0x7FFE86BC2F00
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void Initialize(){} // RVA: 0x7FFAF2D8D320
+        public void AsyncInitialize(){} // RVA: 0x7FFAF8B32130
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class Application : Object
+    public class Application
     {
         // ── Methods ──
-        public void GetVersion(){} // RVA: 0x7FFE86C131A0
-        public void LaunchOtherApp(){} // RVA: 0x7FFE86C13350
+        public void GetVersion(){} // RVA: 0x7FFAF8B823D0
+        public void LaunchOtherApp(){} // RVA: 0x7FFAF8B82580
     }
 
-    public class ApplicationLifecycle : Object
+    public class ApplicationLifecycle
     {
         // ── Methods ──
-        public void GetLaunchDetails(){} // RVA: 0x7FFE86C05490
-        public void LogDeeplinkResult(){} // RVA: 0x7FFE86C05570
-        public void SetLaunchIntentChangedNotificationCallback(){} // RVA: 0x7FFE86C056A0
+        public void GetLaunchDetails(){} // RVA: 0x7FFAF8B746C0
+        public void LogDeeplinkResult(){} // RVA: 0x7FFAF8B747A0
+        public void SetLaunchIntentChangedNotificationCallback(){} // RVA: 0x7FFAF8B748D0
     }
 
-    public class ApplicationOptions : Object
+    public class ApplicationOptions
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86BC2F50
-        public void SetDeeplinkMessage(){} // RVA: 0x7FFE86BC3000
-        public void SetDestinationApiName(){} // RVA: 0x7FFE86BC3140
-        public void SetLobbySessionId(){} // RVA: 0x7FFE86BC3280
-        public void SetMatchSessionId(){} // RVA: 0x7FFE86BC33C0
-        public void SetRoomId(){} // RVA: 0x7FFE86BC3500
-        public void op_Explicit(){} // RVA: 0x7FFE86BC25E0
-        public void Finalize(){} // RVA: 0x7FFE86BC35D0
+        public void .ctor(){} // RVA: 0x7FFAF8B32180
+        public void SetDeeplinkMessage(){} // RVA: 0x7FFAF8B32230
+        public void SetDestinationApiName(){} // RVA: 0x7FFAF8B32370
+        public void SetLobbySessionId(){} // RVA: 0x7FFAF8B324B0
+        public void SetMatchSessionId(){} // RVA: 0x7FFAF8B325F0
+        public void SetRoomId(){} // RVA: 0x7FFAF8B32730
+        public void op_Explicit(){} // RVA: 0x7FFAF8B31810
+        public void Finalize(){} // RVA: 0x7FFAF8B32800
     }
 
-    public class AssetFile : Object
+    public class AssetFile
     {
         // ── Methods ──
-        public void Delete(){} // RVA: 0x7FFE86C13520
-        public void DeleteById(){} // RVA: 0x7FFE86C136E0
-        public void DeleteByName(){} // RVA: 0x7FFE86C138A0
-        public void Download(){} // RVA: 0x7FFE86C13AD0
-        public void DownloadById(){} // RVA: 0x7FFE86C13C90
-        public void DownloadByName(){} // RVA: 0x7FFE86C13E50
-        public void DownloadCancel(){} // RVA: 0x7FFE86C14080
-        public void DownloadCancelById(){} // RVA: 0x7FFE86C14240
-        public void DownloadCancelByName(){} // RVA: 0x7FFE86C14400
-        public void GetList(){} // RVA: 0x7FFE86C14630
-        public void Status(){} // RVA: 0x7FFE86C147E0
-        public void StatusById(){} // RVA: 0x7FFE86C149A0
-        public void StatusByName(){} // RVA: 0x7FFE86C14B60
-        public void SetDownloadUpdateNotificationCallback(){} // RVA: 0x7FFE86C14D90
+        public void Delete(){} // RVA: 0x7FFAF8B82750
+        public void DeleteById(){} // RVA: 0x7FFAF8B82910
+        public void DeleteByName(){} // RVA: 0x7FFAF8B82AD0
+        public void Download(){} // RVA: 0x7FFAF8B82D00
+        public void DownloadById(){} // RVA: 0x7FFAF8B82EC0
+        public void DownloadByName(){} // RVA: 0x7FFAF8B83080
+        public void DownloadCancel(){} // RVA: 0x7FFAF8B832B0
+        public void DownloadCancelById(){} // RVA: 0x7FFAF8B83470
+        public void DownloadCancelByName(){} // RVA: 0x7FFAF8B83630
+        public void GetList(){} // RVA: 0x7FFAF8B83860
+        public void Status(){} // RVA: 0x7FFAF8B83A10
+        public void StatusById(){} // RVA: 0x7FFAF8B83BD0
+        public void StatusByName(){} // RVA: 0x7FFAF8B83D90
+        public void SetDownloadUpdateNotificationCallback(){} // RVA: 0x7FFAF8B83FC0
     }
 
-    public class Avatar : Object
+    public class Avatar
     {
         // ── Methods ──
-        public void LaunchAvatarEditor(){} // RVA: 0x7FFE86C14E00
+        public void LaunchAvatarEditor(){} // RVA: 0x7FFAF8B84030
     }
 
-    public class AvatarEditorOptions : Object
+    public class AvatarEditorOptions
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86BC36C0
-        public void SetSourceOverride(){} // RVA: 0x7FFE86BC3770
-        public void op_Explicit(){} // RVA: 0x7FFE86BC25E0
-        public void Finalize(){} // RVA: 0x7FFE86BC38B0
+        public void .ctor(){} // RVA: 0x7FFAF8B328F0
+        public void SetSourceOverride(){} // RVA: 0x7FFAF8B329A0
+        public void op_Explicit(){} // RVA: 0x7FFAF8B31810
+        public void Finalize(){} // RVA: 0x7FFAF8B32AE0
     }
 
 }

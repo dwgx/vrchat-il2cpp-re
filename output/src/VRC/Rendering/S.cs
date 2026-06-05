@@ -1,196 +1,162 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Rendering
-// Classes: 11
-// Methods: 104
+// Classes: 9
+// Methods: 109
 
 namespace VRC.Rendering
 {
-    /// <summary>Originally: ÌÌÎÏÏÍÌÍÏÏÎÏÏÍÍÏÍÎÏÎÏÏÍ</summary>
-    public class ScriptableRenderContext : Object
+    /// <summary>Originally: ÎÍÏÎÍÌÍÌÍÍÏÏÎÍÌÎÌÍÍÍÍÍÏ</summary>
+    public class ScanHiddenCamerasScanFrequency_1D05
     {
+        public object Camera;
+        public object SelectBy;
+        public object ScanFrequency;
+        public object ScanHiddenCameras;
+
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE81FFE8A0
-        public void Equals(){} // RVA: 0x7FFE81FFE9D0
-        public void GetHashCode(){} // RVA: 0x7FFE81FFEB00
-        public void op_Implicit(){} // RVA: 0x7FFE81FFEC30
-        public void CompareBaseObjects(){} // RVA: 0x7FFE81FFED60
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Initialize(){} // RVA: 0x7FFE81FFEE90
-        public void get_name(){} // RVA: 0x7FFE81FFEFC0
-        public void set_name(){} // RVA: 0x7FFE81FFF0F0
+        public void Start(){} // RVA: 0x7FFAF33108E0
+        public void OnRenderImage(){} // RVA: 0x7FFAF3310F40
+        public void Update(){} // RVA: 0x7FFAF3312010
+        public void Awake(){} // RVA: 0x7FFAF3312800
+        public void OnDestroy(){} // RVA: 0x7FFAF3312910
+        public void .ctor(){} // RVA: 0x7FFAF33133B0
+        public void Initialize(){} // RVA: 0x7FFAF2DB5FE0
+        // ── 28 unresolved (hash) ──
+        public void m_3E1(){} // RVA: 0x7FFAF33108A0
+        public void m_230(){} // RVA: 0x7FFAF33108D0
+        public void m_93E(){} // RVA: 0x7FFAF2DF5470
+        public void m_1A8(){} // RVA: 0x7FFAF3310B20
+        public void m_FA0(){} // RVA: 0x7FFAF2DF5470
+        // ... 23 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÎÍÌÏÎÏÎÍÍÌÍÎÎÏÍÍÍÎÌÌÎÍ</summary>
-    public class SetMaterialDirtySetVerticesDirty_866B : Text
+    /// <summary>Originally: ÏÌÌÎÎÎÎÌÎÏÎÎÌÎÍÎÏÌÎÌÏÍÏ</summary>
+    public class SetMaterialDirtySetVerticesDirty_54B3
     {
         // ── Methods ──
-        public void get_cachedTextGenerator(){} // RVA: 0x7FFE81D90A10
-        public void get_cachedTextGeneratorForLayout(){} // RVA: 0x7FFE81D90C30
-        public void get_mainTexture(){} // RVA: 0x7FFE81D90E50
-        public void OnPopulateMesh(){} // RVA: 0x7FFE81D91070
-        public void SetMaterialDirty(){} // RVA: 0x7FFE81D91120
-        public void SetVerticesDirty(){} // RVA: 0x7FFE81D911C0
-        public void SetLayoutDirty(){} // RVA: 0x7FFE81D91260
-        public void set_text(){} // RVA: 0x7FFE81D91310
-        public void .ctor(){} // RVA: 0x7FFE81D91530
-        public void Initialize(){} // RVA: 0x7FFE81D91770
+        public void SetMaterialDirty(){} // RVA: 0x7FFAF3ACBAB0
+        public void .ctor(){} // RVA: 0x7FFAF3ACC5F0
+        public void SetLayoutDirty(){} // RVA: 0x7FFAF3ACC830
+        public void SetVerticesDirty(){} // RVA: 0x7FFAF3ACCB00
+        public void OnPopulateMesh(){} // RVA: 0x7FFAF3ACCBA0
         // ── Unresolved (hash) ──
-        public void m_74F(){} // RVA: 0x7FFE81D907F0
+        public void m_D64(){} // RVA: 0x7FFAF3ACBB50
+        public void m_C9D(){} // RVA: 0x7FFAF3ACBD70
+        public void m_FF9(){} // RVA: 0x7FFAF3ACBF90
+        public void m_408(){} // RVA: 0x7FFAF3ACC1B0
+        public void m_F20(){} // RVA: 0x7FFAF3ACC3D0
+        public void m_D62(){} // RVA: 0x7FFAF3ACC8E0
     }
 
-    /// <summary>Originally: ÌÍÍÏÎÍÍÏÌÎÏÍÍÌÏÍÏÏÏÌÎÎÏ</summary>
-    public class Shader : ValueType
+    /// <summary>Originally: ÍÎÍÌÍÍÏÎÍÏÎÌÎÏÍÎÌÏÎÎÎÎÌ</summary>
+    public class ShaderHandler_4F17
     {
-        public 0x66696A64 f_8E6; // 0x10
-        public bool f_F02; // 0x14
-        public UnityEngine.Transform f_312; // 0x18
-        public UnityEngine.Transform f_D04; // 0x20
-
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE89D52FD0
-        public void InternalEquals(){} // RVA: 0x7FFE89D52FE0
-        public void DefaultEquals(){} // RVA: 0x7FFE89D52FE0
-        public void GetHashCode(){} // RVA: 0x7FFE89D53070
-        public void InternalGetHashCode(){} // RVA: 0x7FFE89D53220
-        public void ToString(){} // RVA: 0x7FFE89D53070
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE89D532F0
+        public void PropertyToID(){} // RVA: 0x7FFAFB6E69B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAFB6E6A20
+        public void PropertyToID_D79A6F811928(){} // RVA: 0x7FFAFB6E69B0
+        public void PropertyToID_7B0B489765B2(){} // RVA: 0x7FFAFB6E69B0
+        public void PropertyToID_DC726AD1DF09(){} // RVA: 0x7FFAFB6E69B0
+        public void PropertyToID_1F651C8429FB(){} // RVA: 0x7FFAFB6E69B0
+        public void PropertyToID_714E1E71FEC7(){} // RVA: 0x7FFAFB6E69B0
         // ── Unresolved (hash) ──
-        public void m_865(){} // RVA: 0x7FFE89D534C0
-        public void m_842(){} // RVA: 0x7FFE89D53740
-        public void m_922(){} // RVA: 0x7FFE89D52FE0
-        public void m_2E2(){} // RVA: 0x7FFE89D53070
-        public void m_EB0(){} // RVA: 0x7FFE89D53750
+        public void m_E01(){} // RVA: 0x7FFAFB6E6B50
     }
 
-    /// <summary>Originally: ÌÍÎÏÌÌÌÎÎÌÏÏÏÎÏÎÏÎÏÏÌÍÏ</summary>
-    public class ShaderPropertyFlags : ValueType
+    /// <summary>Originally: ÍÍÏÌÏÌÍÎÌÏÏÏÌÍÌÍÍÌÏÌÏÎÌ</summary>
+    public class ShaderHandler_50DE
     {
-        public 0x664DEE84 f_AA2; // 0x10
-        public object f_833; // 0x18
-        public ÏÏÌÎÌÏÍÍÍÍÍÍÏÍÏÎÍÌÍÍÎÌÍ f_44F; // 0x20
-        public 0x664DEE84 f_B21; // 0x28
-
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE813DB630
-        public void InternalEquals(){} // RVA: 0x7FFE826F4230
-        public void DefaultEquals(){} // RVA: 0x7FFE810FCE30
-        public void GetHashCode(){} // RVA: 0x7FFE826F4220
-        public void InternalGetHashCode(){} // RVA: 0x7FFE810FCE30
-        public void ToString(){} // RVA: 0x7FFE826F4230
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE826F4210
-        public void op_Equality(){} // RVA: 0x7FFE826F4210
-        public void GetHashCode_3CDD05EC234A(){} // RVA: 0x7FFE826F4210
-        public void Equals_62B39A545625(){} // RVA: 0x7FFE82DAEA60
-        public void ToString_9E16F52ACFC7(){} // RVA: 0x7FFE815BF990
+        public void ProcessShader(){} // RVA: 0x7FFAF37B0930
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAF37B0960
+        public void ProcessShader_E7737468671C(){} // RVA: 0x7FFAF37B0930
+        public void ProcessShader_90BC0BFAE850(){} // RVA: 0x7FFAF37B0930
         // ── Unresolved (hash) ──
-        public void m_97B(){} // RVA: 0x7FFE813DB630
-        public void m_E27(){} // RVA: 0x7FFE8144DF00
-        public void m_BDD(){} // RVA: 0x7FFE81116380
-        public void m_034(){} // RVA: 0x7FFE81116380
+        public void m_DBD(){} // RVA: 0x7FFAF37B0960
+        public void m_AB6(){} // RVA: 0x7FFAF37B0960
+        public void m_7E5(){} // RVA: 0x7FFAF37B0960
     }
 
-    /// <summary>Originally: ÏÍÌÍÏÏÎÍÍÍÎÎÎÏÌÎÎÍÏÏÎÌÍ</summary>
-    public class ShaderPropertyType : Object
+    /// <summary>Originally: ÎÌÌÏÌÏÎÏÍÏÎÍÍÏÍÍÍÌÏÍÎÍÎ</summary>
+    public class ShaderHandler_CF38
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Initialize(){} // RVA: 0x7FFE82001D60
-        public void Equals(){} // RVA: 0x7FFE82001D60
-        public void op_Implicit(){} // RVA: 0x7FFE82001D60
-        public void CompareBaseObjects(){} // RVA: 0x7FFE82001D60
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE82001D60
-        public void GetCachedPtr(){} // RVA: 0x7FFE82001D60
-        public void get_name(){} // RVA: 0x7FFE82001D60
-    }
-
-    /// <summary>Originally: ÎÏÎÎÌÏÎÍÌÌÌÍÏÎÎÍÌÏÎÍÍÍÏ</summary>
-    public class ShaderTagId : ValueType
-    {
-        public ÏÍÎÏÌÎÍÌÍÏÎÍÌÍÏÍÌÎÎÌÏÎÌ f_344; // 0x10
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7FFE81D7E9E0
-        public void InternalEquals(){} // RVA: 0x7FFE8284EF60
-        public void DefaultEquals(){} // RVA: 0x7FFE81D7E9E0
-        public void GetHashCode(){} // RVA: 0x7FFE81D7E9E0
-        public void InternalGetHashCode(){} // RVA: 0x7FFE8284EF60
-        public void ToString(){} // RVA: 0x7FFE8284EF60
-        public void GetHashCodeOfPtr(){} // RVA: 0x7FFE8284EF60
-    }
-
-    /// <summary>Originally: ÏÌÍÎÌÏÏÌÍÎÎÌÎÍÎÎÎÎÌÍÌÌÌ</summary>
-    public class SkinnedMeshRenderer
-    {
+        public void ProcessShader(){} // RVA: 0x7FFAF37B0990
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAF37B0C90
         // ── Unresolved (hash) ──
-        public void m_878(){} // RVA: 0x7FFE80E2E2E0
+        public void m_392(){} // RVA: 0x7FFAF37B0D10
+        public void m_2B9(){} // RVA: 0x7FFAF37B0D90
+        public void m_DEE(){} // RVA: 0x7FFAF37B0E10
+        public void m_CAF(){} // RVA: 0x7FFAF37B1110
+        public void m_405(){} // RVA: 0x7FFAF37B1190
     }
 
-    /// <summary>Originally: ÏÌÍÎÏÎÏÏÍÍÏÎÎÌÏÍÎÌÍÌÌÍÎ</summary>
-    public class SpriteIntermediateRendererInfo : Object
+    /// <summary>Originally: ÌÎÍÍÍÏÍÏÎÍÍÌÌÌÌÌÎÎÌÍÏÍÌ</summary>
+    public class ShaderHandler_F1D8
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Initialize(){} // RVA: 0x7FFE82029B30
-        public void Equals(){} // RVA: 0x7FFE82029C20
-        public void op_Implicit(){} // RVA: 0x7FFE82029CC0
-        public void CompareBaseObjects(){} // RVA: 0x7FFE82029D60
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE82029DB0
-        public void GetCachedPtr(){} // RVA: 0x7FFE82029ED0
-        public void get_name(){} // RVA: 0x7FFE8202A040
-        public void set_name(){} // RVA: 0x7FFE82029CC0
-        public void Instantiate(){} // RVA: 0x7FFE8202A130
-        public void GetHashCode(){} // RVA: 0x7FFE8202A290
-        public void ToString(){} // RVA: 0x7FFE8202A420
-        public void CopyTo(){} // RVA: 0x7FFE8202A580
-        public void Destroy(){} // RVA: 0x7FFE8202AB10
-        public void DestroyImmediate(){} // RVA: 0x7FFE8202AC70
+        public void PropertyToID(){} // RVA: 0x7FFAF41D6BF0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAF41D7E10
         // ── Unresolved (hash) ──
-        public void m_7B7(){} // RVA: 0x7FFE8202A670
-        public void m_6D4(){} // RVA: 0x7FFE8202A710
-        public void m_667(){} // RVA: 0x7FFE8202A870
-        public void m_1EE(){} // RVA: 0x7FFE8202A990
-        public void m_48C(){} // RVA: 0x7FFE8202AA30
-        public void m_8E8(){} // RVA: 0x7FFE8202AAA0
-        public void m_323(){} // RVA: 0x7FFE8202AAA0
-        public void m_10D(){} // RVA: 0x7FFE8202AD10
+        public void m_3F5(){} // RVA: 0x7FFAF41D6F90
+        public void m_2E3(){} // RVA: 0x7FFAF41D7330
+        public void m_28A(){} // RVA: 0x7FFAF41D76D0
+        public void m_B22(){} // RVA: 0x7FFAF41D7A70
     }
 
-    /// <summary>Originally: ÏÍÌÌÍÏÌÏÎÍÌÌÎÎÎÎÌÌÍÌÏÏÏ</summary>
-    public class SpriteRenderer : Object
+    /// <summary>Originally: ÏÏÍÌÌÎÎÍÏÍÏÍÎÏÍÏÍÎÏÎÎÌÍ</summary>
+    public class ShaderMaterialHandler_23FE
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE82B1B000
-        public void Equals(){} // RVA: 0x7FFE82B1B000
-        public void GetHashCode(){} // RVA: 0x7FFE82B1B020
-        public void op_Implicit(){} // RVA: 0x7FFE82B1B160
-        public void CompareBaseObjects(){} // RVA: 0x7FFE82B1B310
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE82B1B590
-        public void GetCachedPtr(){} // RVA: 0x7FFE82B1B820
+        public void PropertyToID(){} // RVA: 0x7FFAF419A9A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAF419B060
+        public void ProcessMaterial(){} // RVA: 0x7FFAF419B1F0
+        // ── Unresolved (hash) ──
+        public void m_B4D(){} // RVA: 0x7FFAF419AB40
+        public void m_B74(){} // RVA: 0x7FFAF419AD00
+        public void m_CD6(){} // RVA: 0x7FFAF419AEA0
+        public void m_29B(){} // RVA: 0x7FFAF419B380
     }
 
-    /// <summary>Originally: ÌÍÏÏÎÏÍÏÎÌÎÏÍÏÌÍÏÎÏÍÍÏÍ</summary>
-    public class SpriteRendererGroup : Object
+    /// <summary>Originally: ÍÎÎÏÎÍÏÎÍÏÎÎÌÎÍÍÌÌÏÎÎÏÎ</summary>
+    public class ShaderMaterialHandler_8235
     {
-        public ÏÎÍÎÏÌÏÌÎÍÎÌÎÌÌÎÎÌÍÌÎÎÌ _9247;
-
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE82DB6340
-        public void Equals(){} // RVA: 0x7FFE82DB6510
+        public void GetActiveInHierarchy(){} // RVA: 0x7FFAF4199ED0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAF419A440
+        public void GetPropertyType(){} // RVA: 0x7FFAF419A6F0
+        // ── Unresolved (hash) ──
+        public void m_BDD(){} // RVA: 0x7FFAF4199D80
+        public void m_664(){} // RVA: 0x7FFAF419A030
+        public void m_639(){} // RVA: 0x7FFAF419A190
+        public void m_CE0(){} // RVA: 0x7FFAF419A2E0
+        public void m_DDC(){} // RVA: 0x7FFAF419A590
+        public void m_0C0(){} // RVA: 0x7FFAF419A840
     }
 
-    /// <summary>Originally: ÎÏÏÌÎÍÎÏÍÍÎÌÍÏÌÍÏÏÍÌÍÍÍ</summary>
-    public class SupportedRenderingFeatures : Object
+    /// <summary>Originally: ÏÏÏÍÎÎÍÍÏÌÏÌÏÌÌÍÏÍÍÌÍÎÎ</summary>
+    public class SkinnedMeshTransformHandler_9843
     {
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x7FFE82000670
-        public void Equals(){} // RVA: 0x7FFE82000680
-        public void GetHashCode(){} // RVA: 0x7FFE82000670
-        public void op_Implicit(){} // RVA: 0x7FFE81FCAC70
-        public void CompareBaseObjects(){} // RVA: 0x7FFE82000670
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFE82000670
-        public void GetCachedPtr(){} // RVA: 0x7FFE814B8390
-        public void get_name(){} // RVA: 0x7FFE813752C0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Initialize(){} // RVA: 0x7FFAF43DD5F0
+        public void GetBlendShapeCount(){} // RVA: 0x7FFAF43DD850
+        // ── Unresolved (hash) ──
+        public void m_4EA(){} // RVA: 0x7FFAF43DD0F0
+        public void m_32E(){} // RVA: 0x7FFAF43DD340
+        public void m_AC1(){} // RVA: 0x7FFAF43DDAB0
+        public void m_F69(){} // RVA: 0x7FFAF43DDC90
+        public void m_4D2(){} // RVA: 0x7FFAF43DDDB0
+        public void m_E66(){} // RVA: 0x7FFAF43DDFA0
+        public void m_39C(){} // RVA: 0x7FFAF43DE180
+        public void m_5DE(){} // RVA: 0x7FFAF43DE370
+        public void m_3C9(){} // RVA: 0x7FFAF43DE5C0
     }
 
 }

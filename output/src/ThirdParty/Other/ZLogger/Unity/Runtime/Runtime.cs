@@ -5,14 +5,14 @@
 
 namespace ThirdParty.Other.ZLogger.Unity.Runtime
 {
-    public class DiagnosticsHelper : Object
+    public class DiagnosticsHelper
     {
         // ── Methods ──
-        public void CleanupStackTrace(){} // RVA: 0x7FFE88214790
-        public void BeautifyType(){} // RVA: 0x7FFE88214F00
-        public void IgnoreLine(){} // RVA: 0x7FFE88215550
-        public void AppendHyperLink(){} // RVA: 0x7FFE88215610
-        public void .cctor(){} // RVA: 0x7FFE882159E0
+        public void CleanupStackTrace(){} // RVA: 0x7FFAFA187670
+        public void BeautifyType(){} // RVA: 0x7FFAFA187DE0
+        public void IgnoreLine(){} // RVA: 0x7FFAFA188430
+        public void AppendHyperLink(){} // RVA: 0x7FFAFA1884F0
+        public void .cctor(){} // RVA: 0x7FFAFA1888C0
     }
 
 }

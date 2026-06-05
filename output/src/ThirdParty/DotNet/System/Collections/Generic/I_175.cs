@@ -1,0 +1,417 @@
+// VRChat IL2CPP Deobfuscated Source
+// Namespace: ThirdParty.DotNet.System.Collections.Generic
+// Classes: 100
+// Methods: 4
+
+namespace ThirdParty.DotNet.System.Collections.Generic
+{
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x7FFAF2ABD840
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x7FFAF2ABD840
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x7FFAF2ABD840
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x7FFAF2ABD840
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+        public object <5;
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+    public class IReadOnlyCollection`1
+    {
+    }
+
+}

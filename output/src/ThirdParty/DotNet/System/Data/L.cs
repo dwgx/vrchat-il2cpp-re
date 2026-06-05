@@ -5,40 +5,38 @@
 
 namespace ThirdParty.DotNet.System.Data
 {
-    public class LikeNode : BinaryNode
+    public class LikeNode
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8725A0A0
-        public void Eval(){} // RVA: 0x7FFE8725A0B0
-        public void AnalyzePattern(){} // RVA: 0x7FFE8725A740
+        public void .ctor(){} // RVA: 0x7FFAF91CB1A0
+        public void Eval(){} // RVA: 0x7FFAF91CB1B0
+        public void AnalyzePattern(){} // RVA: 0x7FFAF91CB840
     }
 
-    public class Listeners`1 : Object
+    public class Listeners`1
     {
-        public System.Collections.Generic.List`1<T> _listeners;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E48220
-        public void get_HasListeners(){} // RVA: 0x7FFE80E2F150
-        public void Add(){} // RVA: 0x7FFE810A1420
-        public void IndexOfReference(){} // RVA: 0x7FFE810A1420
-        public void Remove(){} // RVA: 0x7FFE810A1420
-        public void Notify(){} // RVA: 0x7FFE810A1420
-        public void RemoveNullListeners(){} // RVA: 0x7FFE80E46530
+        public void .ctor(){} // RVA: 0x7FFAF2AD6C40
+        public void get_HasListeners(){} // RVA: 0x7FFAF2ABDBE0
+        public void Add(){} // RVA: 0x7FFAF2D33FA0
+        public void IndexOfReference(){} // RVA: 0x7FFAF2D33FA0
+        public void Remove(){} // RVA: 0x7FFAF2D33FA0
+        public void Notify(){} // RVA: 0x7FFAF2D33FA0
+        public void RemoveNullListeners(){} // RVA: 0x7FFAF2AD4FA0
     }
 
-    public class LookupNode : ExpressionNode
+    public class LookupNode
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE87261D50
-        public void Bind(){} // RVA: 0x7FFE87261E70
-        public void Eval(){} // RVA: 0x7FFE87262530 | overloaded x3
-        public void IsConstant(){} // RVA: 0x7FFE810FB320
-        public void IsTableConstant(){} // RVA: 0x7FFE810FB320
-        public void HasLocalAggregate(){} // RVA: 0x7FFE810FB320
-        public void HasRemoteAggregate(){} // RVA: 0x7FFE810FB320
-        public void DependsOn(){} // RVA: 0x7FFE87262570
-        public void Optimize(){} // RVA: 0x7FFE827C4A80
+        public void .ctor(){} // RVA: 0x7FFAF91D2E50
+        public void Bind(){} // RVA: 0x7FFAF91D2F70
+        public void Eval(){} // RVA: 0x7FFAF91D3630 | overloaded x3
+        public void IsConstant(){} // RVA: 0x7FFAF2D8D320
+        public void IsTableConstant(){} // RVA: 0x7FFAF2D8D320
+        public void HasLocalAggregate(){} // RVA: 0x7FFAF2D8D320
+        public void HasRemoteAggregate(){} // RVA: 0x7FFAF2D8D320
+        public void DependsOn(){} // RVA: 0x7FFAF91D3670
+        public void Optimize(){} // RVA: 0x7FFAF44EF520
     }
 
 }

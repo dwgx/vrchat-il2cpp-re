@@ -1,0 +1,172 @@
+[
+  {
+    "class": "PlayerMoveNext_061E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D80",
+      "m_B44",
+      "m_ACC",
+      "m_CE3"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_7318",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9B7",
+      "m_4F6",
+      "m_AEB",
+      "m_E1D"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_7363",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_860",
+      "m_9B7",
+      "m_1AD",
+      "m_22E"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_76C2",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_030",
+      "m_CE3",
+      "m_054",
+      "m_DB3"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_83A1",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_ACC",
+      "m_288",
+      "m_DB9",
+      "m_1AD"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_BEC8",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_288",
+      "m_29F",
+      "m_1AD",
+      "m_428"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D033",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F46",
+      "m_E82",
+      "m_BFC",
+      "m_9B7"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D033",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F46",
+      "m_E82",
+      "m_BFC",
+      "m_9B7"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D033",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F46",
+      "m_E82",
+      "m_BFC",
+      "m_9B7"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_D033",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F46",
+      "m_E82",
+      "m_BFC",
+      "m_9B7"
+    ]
+  }
+]

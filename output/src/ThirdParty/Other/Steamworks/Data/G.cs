@@ -5,255 +5,201 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class GSClientAchievementStatus_t : ValueType
+    public class GSClientAchievementStatus_t
     {
-        public ulong SteamID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E62E50
-        public void .cctor(){} // RVA: 0x7FFE82E62E60
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B84A50
+        public void .cctor(){} // RVA: 0x7FFAF4B84A60
     }
 
-    public class GSClientApprove_t : ValueType
+    public class GSClientApprove_t
     {
-        public ulong SteamID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E62B20
-        public void .cctor(){} // RVA: 0x7FFE82E62B30
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B84720
+        public void .cctor(){} // RVA: 0x7FFAF4B84730
     }
 
-    public class GSClientDeny_t : ValueType
+    public class GSClientDeny_t
     {
-        public ulong SteamID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E62C30
-        public void .cctor(){} // RVA: 0x7FFE82E62C40
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B84830
+        public void .cctor(){} // RVA: 0x7FFAF4B84840
     }
 
-    public class GSClientGroupStatus_t : ValueType
+    public class GSClientGroupStatus_t
     {
-        public ulong SteamIDUser; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E63180
-        public void .cctor(){} // RVA: 0x7FFE82E63190
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B84D80
+        public void .cctor(){} // RVA: 0x7FFAF4B84D90
     }
 
-    public class GSClientKick_t : ValueType
+    public class GSClientKick_t
     {
-        public ulong SteamID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E62D40
-        public void .cctor(){} // RVA: 0x7FFE82E62D50
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B84940
+        public void .cctor(){} // RVA: 0x7FFAF4B84950
     }
 
-    public class GSGameplayStats_t : ValueType
+    public class GSGameplayStats_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E63070
-        public void .cctor(){} // RVA: 0x7FFE82E63080
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B84C70
+        public void .cctor(){} // RVA: 0x7FFAF4B84C80
     }
 
-    public class GSPolicyResponse_t : ValueType
+    public class GSPolicyResponse_t
     {
-        public byte Secure; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E62F60
-        public void .cctor(){} // RVA: 0x7FFE82E62F70
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B84B60
+        public void .cctor(){} // RVA: 0x7FFAF4B84B70
     }
 
-    public class GSReputation_t : ValueType
+    public class GSReputation_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E63290
-        public void .cctor(){} // RVA: 0x7FFE82E632A0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B84E90
+        public void .cctor(){} // RVA: 0x7FFAF4B84EA0
     }
 
-    public class GSStatsReceived_t : ValueType
+    public class GSStatsReceived_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E635C0
-        public void .cctor(){} // RVA: 0x7FFE82E635D0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B851C0
+        public void .cctor(){} // RVA: 0x7FFAF4B851D0
     }
 
-    public class GSStatsStored_t : ValueType
+    public class GSStatsStored_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E636D0
-        public void .cctor(){} // RVA: 0x7FFE82E636E0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B852D0
+        public void .cctor(){} // RVA: 0x7FFAF4B852E0
     }
 
-    public class GameConnectedChatJoin_t : ValueType
+    public class GameConnectedChatJoin_t
     {
-        public ulong SteamIDClanChat; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E57030
-        public void .cctor(){} // RVA: 0x7FFE82E57040
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B78C30
+        public void .cctor(){} // RVA: 0x7FFAF4B78C40
     }
 
-    public class GameConnectedChatLeave_t : ValueType
+    public class GameConnectedChatLeave_t
     {
-        public ulong SteamIDClanChat; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E57140
-        public void .cctor(){} // RVA: 0x7FFE82E57150
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B78D40
+        public void .cctor(){} // RVA: 0x7FFAF4B78D50
     }
 
-    public class GameConnectedClanChatMsg_t : ValueType
+    public class GameConnectedClanChatMsg_t
     {
-        public ulong SteamIDClanChat; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E56F20
-        public void .cctor(){} // RVA: 0x7FFE82E56F30
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B78B20
+        public void .cctor(){} // RVA: 0x7FFAF4B78B30
     }
 
-    public class GameConnectedFriendChatMsg_t : ValueType
+    public class GameConnectedFriendChatMsg_t
     {
-        public ulong SteamIDUser; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E57470
-        public void .cctor(){} // RVA: 0x7FFE82E57480
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B79070
+        public void .cctor(){} // RVA: 0x7FFAF4B79080
     }
 
-    public class GameId : ValueType
+    public class GameId
     {
     }
 
-    public class GameLobbyJoinRequested_t : ValueType
+    public class GameLobbyJoinRequested_t
     {
-        public ulong SteamIDLobby; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E568C0
-        public void .cctor(){} // RVA: 0x7FFE82E568D0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B784C0
+        public void .cctor(){} // RVA: 0x7FFAF4B784D0
     }
 
-    public class GameOverlayActivated_t : ValueType
+    public class GameOverlayActivated_t
     {
-        public byte Active; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E56480
-        public void .cctor(){} // RVA: 0x7FFE82E56490
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B78080
+        public void .cctor(){} // RVA: 0x7FFAF4B78090
     }
 
-    public class GameRichPresenceJoinRequested_t : ValueType
+    public class GameRichPresenceJoinRequested_t
     {
-        public ulong SteamIDFriend; // 0x10
-
         // ── Methods ──
-        public void ConnectUTF8(){} // RVA: 0x7FFE82E56D00
-        public void get_CallbackType(){} // RVA: 0x7FFE82E56E10
-        public void .cctor(){} // RVA: 0x7FFE82E56E20
+        public void ConnectUTF8(){} // RVA: 0x7FFAF4B78900
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B78A10
+        public void .cctor(){} // RVA: 0x7FFAF4B78A20
     }
 
-    public class GameServerChangeRequested_t : ValueType
+    public class GameServerChangeRequested_t
     {
-        public byte[] Server; // 0x10
-
         // ── Methods ──
-        public void ServerUTF8(){} // RVA: 0x7FFE82E56590
-        public void PasswordUTF8(){} // RVA: 0x7FFE82E566A0
-        public void get_CallbackType(){} // RVA: 0x7FFE82E567B0
-        public void .cctor(){} // RVA: 0x7FFE82E567C0
+        public void ServerUTF8(){} // RVA: 0x7FFAF4B78190
+        public void PasswordUTF8(){} // RVA: 0x7FFAF4B782A0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B783B0
+        public void .cctor(){} // RVA: 0x7FFAF4B783C0
     }
 
-    public class GameWebCallback_t : ValueType
+    public class GameWebCallback_t
     {
-        public byte[] URL; // 0x10
-
         // ── Methods ──
-        public void URLUTF8(){} // RVA: 0x7FFE82E55E20
-        public void get_CallbackType(){} // RVA: 0x7FFE82E55F30
-        public void .cctor(){} // RVA: 0x7FFE82E55F40
+        public void URLUTF8(){} // RVA: 0x7FFAF4B77A20
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B77B30
+        public void .cctor(){} // RVA: 0x7FFAF4B77B40
     }
 
-    public class GamepadTextInputDismissed_t : ValueType
+    public class GamepadTextInputDismissed_t
     {
-        public bool Submitted; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E58240
-        public void .cctor(){} // RVA: 0x7FFE82E58250
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B79E40
+        public void .cctor(){} // RVA: 0x7FFAF4B79E50
     }
 
-    public class GetAppDependenciesResult_t : ValueType
+    public class GetAppDependenciesResult_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5FB50
-        public void .cctor(){} // RVA: 0x7FFE82E5FB60
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B81750
+        public void .cctor(){} // RVA: 0x7FFAF4B81760
     }
 
-    public class GetAuthSessionTicketResponse_t : ValueType
+    public class GetAuthSessionTicketResponse_t
     {
-        public uint AuthTicket; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E55D10
-        public void .cctor(){} // RVA: 0x7FFE82E55D20
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B77910
+        public void .cctor(){} // RVA: 0x7FFAF4B77920
     }
 
-    public class GetOPFSettingsResult_t : ValueType
+    public class GetOPFSettingsResult_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E62190
-        public void .cctor(){} // RVA: 0x7FFE82E621A0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B83D90
+        public void .cctor(){} // RVA: 0x7FFAF4B83DA0
     }
 
-    public class GetUserItemVoteResult_t : ValueType
+    public class GetUserItemVoteResult_t
     {
-        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5F3E0
-        public void .cctor(){} // RVA: 0x7FFE82E5F3F0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B80FE0
+        public void .cctor(){} // RVA: 0x7FFAF4B80FF0
     }
 
-    public class GetVideoURLResult_t : ValueType
+    public class GetVideoURLResult_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E62080
-        public void .cctor(){} // RVA: 0x7FFE82E62090
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B83C80
+        public void .cctor(){} // RVA: 0x7FFAF4B83C90
     }
 
-    public class GlobalAchievementPercentagesReady_t : ValueType
+    public class GlobalAchievementPercentagesReady_t
     {
-        public ulong GameID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5C630
-        public void .cctor(){} // RVA: 0x7FFE82E5C640
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7E230
+        public void .cctor(){} // RVA: 0x7FFAF4B7E240
     }
 
-    public class GlobalStatsReceived_t : ValueType
+    public class GlobalStatsReceived_t
     {
-        public ulong GameID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5C850
-        public void .cctor(){} // RVA: 0x7FFE82E5C860
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7E450
+        public void .cctor(){} // RVA: 0x7FFAF4B7E460
     }
 
 }

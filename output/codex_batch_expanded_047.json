@@ -1,0 +1,203 @@
+[
+  {
+    "class": "PlayerMoveNext_9049",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_DFE",
+      "m_F60"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_E338",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_9B7",
+      "m_433"
+    ]
+  },
+  {
+    "class": "EffectBundleIDIsSpecialFX_A663",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_EffectBundleID",
+      "set_IsSpecialFX"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_CA1",
+      "m_2C7",
+      "m_CA8",
+      "m_6D7",
+      "m_64C",
+      "m_1CA",
+      "m_BD2"
+    ]
+  },
+  {
+    "class": "gameObject_F4BA_6551",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "set_gameObject",
+      "ContainsChild"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D68",
+      "m_08E",
+      "m_32B",
+      "m_036",
+      "m_1EC",
+      "m_FA0",
+      "m_AD6",
+      "m_3D9",
+      "m_241",
+      "m_1F3",
+      "m_58D"
+    ]
+  },
+  {
+    "class": "VRCNetworkBehaviourSibling_BF5Sibling_F486",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_042",
+      "m_20C",
+      "m_759",
+      "m_29F",
+      "m_587",
+      "m_064",
+      "m_9E7",
+      "m_0DA",
+      "m_131",
+      "m_4E0",
+      "m_FED",
+      "m_B56"
+    ]
+  },
+  {
+    "class": "UICalculateFragmentLengthCalculateEncrypte_1B94_CA19",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Decrypt2",
+      "Finalize",
+      "CalculateFragmentLength"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_759"
+    ]
+  },
+  {
+    "class": "NetworkItem_722FSibling_2F80",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_89C",
+      "m_597",
+      "m_733",
+      "m_D10",
+      "m_682",
+      "m_107",
+      "m_06F",
+      "m_6F8",
+      "m_B01",
+      "m_762",
+      "m_B3D",
+      "m_B47"
+    ]
+  },
+  {
+    "class": "FoldoutListRelatedRelated_5F9E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_78E",
+      "m_6A5",
+      "m_2B8",
+      "m_4B7",
+      "m_5B8",
+      "m_CE5",
+      "m_63C",
+      "m_E1C",
+      "m_48D",
+      "m_B16",
+      "m_60B",
+      "m_8B4"
+    ]
+  },
+  {
+    "class": "FoldoutListRelatedRelated_8232",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_FCE",
+      "m_09B",
+      "m_B16",
+      "m_B61",
+      "m_F6B",
+      "m_8B4",
+      "m_F71",
+      "m_FEF",
+      "m_48D",
+      "m_9F1",
+      "m_142",
+      "m_E96"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextTextureFlipSiSibling_EC46",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_6EA",
+      "m_837",
+      "m_146",
+      "m_93D",
+      "m_042",
+      "m_5A2",
+      "m_BDE",
+      "m_295",
+      "m_5C6",
+      "m_7F0",
+      "m_7E5",
+      "m_F09"
+    ]
+  }
+]

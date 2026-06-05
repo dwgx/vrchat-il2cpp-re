@@ -1,0 +1,87 @@
+C:\Users\dwgx1\AppData\Roaming\Hex-Rays\IDA Pro\plugins\mcp-plugin.py: Python 3.11 or higher is required for the MCP plugin
+Traceback (most recent call last):
+  File "D:\Software\IDA Professional 9.2\python\ida_idaapi.py", line 502, in IDAPython_ExecScript
+    exec(code, g)
+  File "C:/Users/dwgx1/AppData/Roaming/Hex-Rays/IDA Pro/plugins/mcp-plugin.py", line 5, in <module>
+    raise RuntimeError("Python 3.11 or higher is required for the MCP plugin")
+RuntimeError: Python 3.11 or higher is required for the MCP plugin
+
+Possible file format: MS-DOS executable (EXE) (D:\Software\IDA Professional 9.2\loaders\dos.dll)
+Possible file format: Portable executable for AMD64 (PE) (D:\Software\IDA Professional 9.2\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+134217728 16384 8192 allocating memory for b-tree...
+268435456 32768 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+402915328            total memory allocated
+
+Loading file 'D:\Project\vrchat-il2cpp-re\dumps\GameAssembly_jun05.dll' into database...
+Detected file format: Portable executable for AMD64 (PE)
+Loading processor module D:\Software\IDA Professional 9.2\procs\pc.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+C:\Users\dwgx1\AppData\Roaming\Hex-Rays\IDA Pro\plugins\mcp-plugin.py: Python 3.11 or higher is required for the MCP plugin
+Traceback (most recent call last):
+  File "D:\Software\IDA Professional 9.2\python\ida_idaapi.py", line 502, in IDAPython_ExecScript
+    exec(code, g)
+  File "C:/Users/dwgx1/AppData/Roaming/Hex-Rays/IDA Pro/plugins/mcp-plugin.py", line 5, in <module>
+    raise RuntimeError("Python 3.11 or higher is required for the MCP plugin")
+RuntimeError: Python 3.11 or higher is required for the MCP plugin
+
+  0. Creating a new segment  (0000000180001000-0000000180B2D000) ... ... OK
+  1. Creating a new segment  (0000000180B2D000-000000018A40F000) ... ... OK
+  2. Creating a new segment  (000000018A40F000-000000018C527000) ... ... OK
+  3. Creating a new segment  (000000018C527000-000000018D108000) ... ... OK
+  4. Creating a new segment  (000000018D108000-000000018D795000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+Reading exception directory (.pdata)...
+Parsing .pdata and creating 572161 functions...
+Applying fixups...
+  5. Creating a new segment  (000000018A40F7A8-000000018C527000) ... ... OK
+File c:\windows\system32\ws2_32.dll is used for module WS2_32...
+PDB: using PDBIDA provider
+PDB: directory 'C:\Users\dwgx1\AppData\Local\Temp\ida' doesn't exist will use 'C:\Users\dwgx1\AppData\Local\Temp\claude\ida' instead
+PDB: downloading http://msdl.microsoft.com/download/symbols/GameAssembly.pdb/3B2D7BC58C1E4132ADD49076125F40B51/GameAssembly.pdb => C:\Users\dwgx1\AppData\Local\Temp\claude\ida\GameAssembly.pdb\3B2D7BC58C1E4132ADD49076125F40B51\GameAssembly.pdb
+Could not find PDB file 'GameAssembly.pdb'.
+Please check _NT_SYMBOL_PATH
+D:\Project\vrchat-il2cpp-re\dumps\GameAssembly_jun05.dll: failed to load pdb info.
+
+Do you want to browse for the pdb file on disk? -> ~Y~es
+Plan  FLIRT signature: Microsoft VisualC v7/14 64bit runtime
+autoload.cfg: vc64rtf.sig autoloads mssdk64_win7.til
+Type library 'mssdk64_win7' loaded. Applying types...
+Types applied to 224 names.
+Plan  FLIRT signature: SEH for vc64 7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\Project\vrchat-il2cpp-re\dumps\GameAssembly_jun05.dll' has been successfully loaded into the database.
+Flushing buffers, please wait...ok
+Hex-Rays Decompiler plugin has been loaded (v9.2.0.250814)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.2.0.250814 has been detected, gooMBA plugin ready to use
+C:\Users\dwgx1\AppData\Roaming\Hex-Rays\IDA Pro\plugins\mcp-plugin.py: Python 3.11 or higher is required for the MCP plugin
+Traceback (most recent call last):
+  File "D:\Software\IDA Professional 9.2\python\ida_idaapi.py", line 502, in IDAPython_ExecScript
+    exec(code, g)
+  File "C:/Users/dwgx1/AppData/Roaming/Hex-Rays/IDA Pro/plugins/mcp-plugin.py", line 5, in <module>
+    raise RuntimeError("Python 3.11 or higher is required for the MCP plugin")
+RuntimeError: Python 3.11 or higher is required for the MCP plugin
+
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Waiting for the end of the auto analysis...
+Using FLIRT signature: Microsoft VisualC v7/14 64bit runtime
+Using FLIRT signature: SEH for vc64 7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+
+
+------ Creating the output file.... --------
+All done, exiting...
+Flushing buffers, please wait...ok
+Unloading IDP module D:\Software\IDA Professional 9.2\procs\pc.dll...

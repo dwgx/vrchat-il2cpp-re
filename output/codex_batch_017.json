@@ -1,0 +1,212 @@
+[
+  {
+    "class": "PlayerMoveNext_6317",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_B28",
+      "m_F88",
+      "m_DB9"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_BAB6",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F88",
+      "m_428",
+      "m_29F"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_9B4E",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A24",
+      "m_71E",
+      "m_45D"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_F60E",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F81",
+      "m_2AD",
+      "m_333"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_320A",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2AD",
+      "m_E82",
+      "m_015"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_F746",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A24",
+      "m_CBC",
+      "m_AE3"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_F8FD",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_A24",
+      "m_D23",
+      "m_4F6"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_DF3D",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_D51",
+      "m_A24",
+      "m_BFC"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_4DE6",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_45D",
+      "m_B28",
+      "m_288"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_1AF1",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_288",
+      "m_088",
+      "m_F81"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_A96E",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_2AD",
+      "m_4F6",
+      "m_BFC"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_B2DE",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_12E",
+      "m_BFC",
+      "m_ACC"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_8FF3",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4F1",
+      "m_2A0",
+      "m_288"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_5DD9",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_088",
+      "m_EEE",
+      "m_DB9"
+    ]
+  },
+  {
+    "class": "PlayerMoveNext_679D",
+    "parent": "",
+    "readable_methods": [
+      "get_Current",
+      "Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_557",
+      "m_CBC",
+      "m_4E7"
+    ]
+  }
+]

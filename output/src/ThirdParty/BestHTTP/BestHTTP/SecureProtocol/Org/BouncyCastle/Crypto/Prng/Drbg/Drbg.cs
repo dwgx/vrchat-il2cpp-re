@@ -5,79 +5,73 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Prng.Drbg
 {
-    public class CtrSP800Drbg : Object
+    public class CtrSP800Drbg
     {
-        public long TDEA_RESEED_MAX;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89FE2090
-        public void CTR_DRBG_Instantiate_algorithm(){} // RVA: 0x7FFE89FE2360
-        public void CTR_DRBG_Update(){} // RVA: 0x7FFE89FE2590
-        public void CTR_DRBG_Reseed_algorithm(){} // RVA: 0x7FFE89FE28F0
-        public void XOR(){} // RVA: 0x7FFE89FE2B20
-        public void AddOneTo(){} // RVA: 0x7FFE89FE2BA0
-        public void GetEntropy(){} // RVA: 0x7FFE89FE2BF0
-        public void Block_Cipher_df(){} // RVA: 0x7FFE89FE2CB0
-        public void BCC(){} // RVA: 0x7FFE89FE31F0
-        public void copyIntToByteArray(){} // RVA: 0x7FFE89FE34F0
-        public void get_BlockSize(){} // RVA: 0x7FFE89FE3560
-        public void Generate(){} // RVA: 0x7FFE89FE3580
-        public void Reseed(){} // RVA: 0x7FFE89FE3A80
-        public void IsTdea(){} // RVA: 0x7FFE89FE3A90
-        public void GetMaxSecurityStrength(){} // RVA: 0x7FFE89FE3BA0
-        public void ExpandKey(){} // RVA: 0x7FFE89FE3CA0
-        public void PadKey(){} // RVA: 0x7FFE89FE3D80
-        public void .cctor(){} // RVA: 0x7FFE89FE4050
+        public void .ctor(){} // RVA: 0x7FFAFC02FCC0
+        public void CTR_DRBG_Instantiate_algorithm(){} // RVA: 0x7FFAFC02FF90
+        public void CTR_DRBG_Update(){} // RVA: 0x7FFAFC0301C0
+        public void CTR_DRBG_Reseed_algorithm(){} // RVA: 0x7FFAFC030520
+        public void XOR(){} // RVA: 0x7FFAFC030750
+        public void AddOneTo(){} // RVA: 0x7FFAFC0307D0
+        public void GetEntropy(){} // RVA: 0x7FFAFC030820
+        public void Block_Cipher_df(){} // RVA: 0x7FFAFC0308E0
+        public void BCC(){} // RVA: 0x7FFAFC030E20
+        public void copyIntToByteArray(){} // RVA: 0x7FFAFC031120
+        public void get_BlockSize(){} // RVA: 0x7FFAFC031190
+        public void Generate(){} // RVA: 0x7FFAFC0311B0
+        public void Reseed(){} // RVA: 0x7FFAFC0316B0
+        public void IsTdea(){} // RVA: 0x7FFAFC0316C0
+        public void GetMaxSecurityStrength(){} // RVA: 0x7FFAFC0317D0
+        public void ExpandKey(){} // RVA: 0x7FFAFC0318D0
+        public void PadKey(){} // RVA: 0x7FFAFC0319B0
+        public void .cctor(){} // RVA: 0x7FFAFC031C80
     }
 
-    public class DrbgUtilities : Object
+    public class DrbgUtilities
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE89FE4190
-        public void GetMaxSecurityStrength(){} // RVA: 0x7FFE89FE4670 | overloaded x2
-        public void HashDF(){} // RVA: 0x7FFE89FE47C0
-        public void IsTooLarge(){} // RVA: 0x7FFE89FE12D0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .cctor(){} // RVA: 0x7FFAFC031DC0
+        public void GetMaxSecurityStrength(){} // RVA: 0x7FFAFC0322A0 | overloaded x2
+        public void HashDF(){} // RVA: 0x7FFAFC0323F0
+        public void IsTooLarge(){} // RVA: 0x7FFAFC02EF00
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class HMacSP800Drbg : Object
+    public class HMacSP800Drbg
     {
-        public long RESEED_MAX;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE89FE6480
-        public void hmac_DRBG_Update(){} // RVA: 0x7FFE89FE69B0
-        public void hmac_DRBG_Update_Func(){} // RVA: 0x7FFE89FE69F0
-        public void get_BlockSize(){} // RVA: 0x7FFE89FE6C00
-        public void Generate(){} // RVA: 0x7FFE89FE6C20
-        public void Reseed(){} // RVA: 0x7FFE89FE7140
-        public void GetEntropy(){} // RVA: 0x7FFE89FE7370
-        public void .cctor(){} // RVA: 0x7FFE89FE7430
+        public void .ctor(){} // RVA: 0x7FFAFC0340B0
+        public void hmac_DRBG_Update(){} // RVA: 0x7FFAFC0345E0
+        public void hmac_DRBG_Update_Func(){} // RVA: 0x7FFAFC034620
+        public void get_BlockSize(){} // RVA: 0x7FFAFC034830
+        public void Generate(){} // RVA: 0x7FFAFC034850
+        public void Reseed(){} // RVA: 0x7FFAFC034D70
+        public void GetEntropy(){} // RVA: 0x7FFAFC034FA0
+        public void .cctor(){} // RVA: 0x7FFAFC035060
     }
 
-    public class HashSP800Drbg : Object
+    public class HashSP800Drbg
     {
-        public byte[] ONE;
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFE89FE4D80
-        public void .ctor(){} // RVA: 0x7FFE89FE5260
-        public void get_BlockSize(){} // RVA: 0x7FFE89FE57F0
-        public void Generate(){} // RVA: 0x7FFE89FE5850
-        public void GetEntropy(){} // RVA: 0x7FFE89FE5C90
-        public void AddTo(){} // RVA: 0x7FFE89FE5D50
-        public void Reseed(){} // RVA: 0x7FFE89FE5E10
-        public void Hash(){} // RVA: 0x7FFE89FE60D0
-        public void DoHash(){} // RVA: 0x7FFE89FE6170
-        public void hashgen(){} // RVA: 0x7FFE89FE6220
+        public void .cctor(){} // RVA: 0x7FFAFC0329B0
+        public void .ctor(){} // RVA: 0x7FFAFC032E90
+        public void get_BlockSize(){} // RVA: 0x7FFAFC033420
+        public void Generate(){} // RVA: 0x7FFAFC033480
+        public void GetEntropy(){} // RVA: 0x7FFAFC0338C0
+        public void AddTo(){} // RVA: 0x7FFAFC033980
+        public void Reseed(){} // RVA: 0x7FFAFC033A40
+        public void Hash(){} // RVA: 0x7FFAFC033D00
+        public void DoHash(){} // RVA: 0x7FFAFC033DA0
+        public void hashgen(){} // RVA: 0x7FFAFC033E50
     }
 
     public class ISP80090Drbg
     {
         // ── Methods ──
-        public void get_BlockSize(){} // RVA: 0x7FFE80E2EDB0
+        public void get_BlockSize(){} // RVA: 0x7FFAF2ABD840
         public void Generate(){}
-        public void Reseed(){} // RVA: 0x7FFE80E460A0
+        public void Reseed(){} // RVA: 0x7FFAF2AD4B10
     }
 
 }

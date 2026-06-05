@@ -1,0 +1,154 @@
+[
+  {
+    "class": "ListContentView`1",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ]
+  },
+  {
+    "class": "ListContentView`1",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ]
+  },
+  {
+    "class": "ListContentView`1",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ]
+  },
+  {
+    "class": "ListContentView`1",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ]
+  },
+  {
+    "class": "ListContentView`1",
+    "parent": "",
+    "namespace": "VRC.UI.Elements.Menus",
+    "readable_methods": [
+      "IndexOf"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_54F",
+      "m_11E",
+      "m_876",
+      "m_DED",
+      "m_194"
+    ]
+  },
+  {
+    "class": "SerializableVector3SiblinRelated_B905",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_079",
+      "m_32B",
+      "m_523",
+      "m_45E",
+      "m_E82"
+    ]
+  },
+  {
+    "class": "AssetCache",
+    "parent": "",
+    "namespace": "VRC",
+    "readable_methods": [
+      "ProcessChildTransforms"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_8AE",
+      "m_648"
+    ]
+  },
+  {
+    "class": "VRCInitializeVRSDK",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "WorkaroundAMDStutterBug"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_287",
+      "m_202"
+    ]
+  },
+  {
+    "class": "Static9m_A34E",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "Cleanup"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_13D",
+      "m_E82",
+      "m_32B",
+      "m_079",
+      "m_45E"
+    ]
+  },
+  {
+    "class": "OVRLipSyncContextCannedSibling_FFA9",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "LoadLibraryEx"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C30",
+      "m_CA7",
+      "m_2B4"
+    ]
+  }
+]

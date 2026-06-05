@@ -5,20 +5,20 @@
 
 namespace VRC.SDK3
 {
-    public class ControllerColliderPlayerHit : Object
+    public class ControllerColliderPlayerHit
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class IVRCNetworkId
+    public class IVRCNetworkId : `
     {
     }
 
-    public class VRCTestMarker : MonoBehaviour
+    public class VRCTestMarker
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FBD50
+        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
     }
 
 }

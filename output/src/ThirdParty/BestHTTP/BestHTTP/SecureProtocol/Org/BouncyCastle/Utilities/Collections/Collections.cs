@@ -5,262 +5,220 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections
 {
-    public class CollectionUtilities : Object
+    public class CollectionUtilities
     {
         // ── Methods ──
-        public void AddRange(){} // RVA: 0x7FFE8A149B10
-        public void CheckElementsAreOfType(){} // RVA: 0x7FFE8A149D90
-        public void ReadOnly(){} // RVA: 0x7FFE8A14A050 | overloaded x3
-        public void RequireNext(){} // RVA: 0x7FFE8A14A0E0
-        public void ToString(){} // RVA: 0x7FFE8A14A180
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void AddRange(){} // RVA: 0x7FFAFC197730
+        public void CheckElementsAreOfType(){} // RVA: 0x7FFAFC1979B0
+        public void ReadOnly(){} // RVA: 0x7FFAFC197C70 | overloaded x3
+        public void RequireNext(){} // RVA: 0x7FFAFC197D00
+        public void ToString(){} // RVA: 0x7FFAFC197DA0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class EmptyEnumerable : Object
+    public class EmptyEnumerable
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void GetEnumerator(){} // RVA: 0x7FFE8A14A4A0
-        public void .cctor(){} // RVA: 0x7FFE8A14A500
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void GetEnumerator(){} // RVA: 0x7FFAFC1980C0
+        public void .cctor(){} // RVA: 0x7FFAFC198120
     }
 
-    public class EmptyEnumerator : Object
+    public class EmptyEnumerator
     {
-        public System.Collections.IEnumerator Instance;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void MoveNext(){} // RVA: 0x7FFE810FB320
-        public void Reset(){} // RVA: 0x7FFE810FB310
-        public void get_Current(){} // RVA: 0x7FFE8A14A5A0
-        public void .cctor(){} // RVA: 0x7FFE8A14A5F0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void MoveNext(){} // RVA: 0x7FFAF2D8D320
+        public void Reset(){} // RVA: 0x7FFAF2D8D310
+        public void get_Current(){} // RVA: 0x7FFAFC1981C0
+        public void .cctor(){} // RVA: 0x7FFAFC198210
     }
 
-    public class EnumerableProxy : Object
+    public class EnumerableProxy : `
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A14A690
-        public void GetEnumerator(){} // RVA: 0x7FFE8A14A740
+        public void .ctor(){} // RVA: 0x7FFAFC1982B0
+        public void GetEnumerator(){} // RVA: 0x7FFAFC198360
     }
 
-    public class HashSet : Object
+    public class HashSet
     {
-        public System.Collections.IDictionary impl; // 0x10
-        public object field_1; // 0x114
-        public object field_2; // 0x115
-        public object field_3; // 0x116
-        public object field_4; // 0x117
-        public object field_5; // 0x118
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A14A870 | overloaded x2
-        public void Add(){} // RVA: 0x7FFE8A14AB20
-        public void AddAll(){} // RVA: 0x7FFE8A14AB90
-        public void Clear(){} // RVA: 0x7FFE8A14AD80
-        public void Contains(){} // RVA: 0x7FFE8A14ADD0
-        public void CopyTo(){} // RVA: 0x7FFE8A14AE30
-        public void get_Count(){} // RVA: 0x7FFE8A14AEC0
-        public void GetEnumerator(){} // RVA: 0x7FFE8A14AF10
-        public void get_IsEmpty(){} // RVA: 0x7FFE8A14AF90
-        public void get_IsFixedSize(){} // RVA: 0x7FFE8A14AFF0
-        public void get_IsReadOnly(){} // RVA: 0x7FFE8A14B040
-        public void get_IsSynchronized(){} // RVA: 0x7FFE8A14B090
-        public void Remove(){} // RVA: 0x7FFE8A14B0E0
-        public void RemoveAll(){} // RVA: 0x7FFE8A14B140
-        public void get_SyncRoot(){} // RVA: 0x7FFE8A14B330
+        public void .ctor(){} // RVA: 0x7FFAFC198490 | overloaded x2
+        public void Add(){} // RVA: 0x7FFAFC198740
+        public void AddAll(){} // RVA: 0x7FFAFC1987B0
+        public void Clear(){} // RVA: 0x7FFAFC1989A0
+        public void Contains(){} // RVA: 0x7FFAFC1989F0
+        public void CopyTo(){} // RVA: 0x7FFAFC198A50
+        public void get_Count(){} // RVA: 0x7FFAFC198AE0
+        public void GetEnumerator(){} // RVA: 0x7FFAFC198B30
+        public void get_IsEmpty(){} // RVA: 0x7FFAFC198BB0
+        public void get_IsFixedSize(){} // RVA: 0x7FFAFC198C10
+        public void get_IsReadOnly(){} // RVA: 0x7FFAFC198C60
+        public void get_IsSynchronized(){} // RVA: 0x7FFAFC198CB0
+        public void Remove(){} // RVA: 0x7FFAFC198D00
+        public void RemoveAll(){} // RVA: 0x7FFAFC198D60
+        public void get_SyncRoot(){} // RVA: 0x7FFAFC198F50
     }
 
     public class ISet
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFE80E460A0
-        public void AddAll(){} // RVA: 0x7FFE80E460A0
-        public void Clear(){} // RVA: 0x7FFE80E45FE0
-        public void Contains(){} // RVA: 0x7FFE80E2F3B0
-        public void get_IsEmpty(){} // RVA: 0x7FFE80E2F150
-        public void get_IsFixedSize(){} // RVA: 0x7FFE80E2F150
-        public void get_IsReadOnly(){} // RVA: 0x7FFE80E2F150
-        public void Remove(){} // RVA: 0x7FFE80E460A0
-        public void RemoveAll(){} // RVA: 0x7FFE80E460A0
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void AddAll(){} // RVA: 0x7FFAF2AD4B10
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
+        public void Contains(){} // RVA: 0x7FFAF2ABDE40
+        public void get_IsEmpty(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsFixedSize(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
+        public void Remove(){} // RVA: 0x7FFAF2AD4B10
+        public void RemoveAll(){} // RVA: 0x7FFAF2AD4B10
     }
 
-    public class LinkedDictionary : Object
+    public class LinkedDictionary
     {
-        public System.Collections.IDictionary hash; // 0x10
-        public System.Collections.IList keys; // 0x18
-        public object field_2; // 0x11D
-        public object field_3; // 0x11E
-        public object field_4; // 0x11F
-        public object field_5; // 0x120
-        public object field_6; // 0x121
-        public object field_7; // 0x122
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE8A14B380
-        public void Add(){} // RVA: 0x7FFE8A14B510
-        public void Clear(){} // RVA: 0x7FFE8A14B5B0
-        public void Contains(){} // RVA: 0x7FFE8A14B630
-        public void CopyTo(){} // RVA: 0x7FFE8A14B690
-        public void get_Count(){} // RVA: 0x7FFE8A14B960
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE8A14B9B0
-        public void GetEnumerator(){} // RVA: 0x7FFE8A14B9D0
-        public void Remove(){} // RVA: 0x7FFE8A14BA70
-        public void get_IsFixedSize(){} // RVA: 0x7FFE810FB320
-        public void get_IsReadOnly(){} // RVA: 0x7FFE810FB320
-        public void get_IsSynchronized(){} // RVA: 0x7FFE810FB320
-        public void get_SyncRoot(){} // RVA: 0x7FFE8A14BB00
-        public void get_Keys(){} // RVA: 0x7FFE8A14BBE0
-        public void get_Values(){} // RVA: 0x7FFE8A14BC80
-        public void get_Item(){} // RVA: 0x7FFE8A14C060
-        public void set_Item(){} // RVA: 0x7FFE8A14C0C0
+        public void .ctor(){} // RVA: 0x7FFAFC198FA0
+        public void Add(){} // RVA: 0x7FFAFC199130
+        public void Clear(){} // RVA: 0x7FFAFC1991D0
+        public void Contains(){} // RVA: 0x7FFAFC199250
+        public void CopyTo(){} // RVA: 0x7FFAFC1992B0
+        public void get_Count(){} // RVA: 0x7FFAFC199580
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF7B76E60
+        public void GetEnumerator(){} // RVA: 0x7FFAFC1995D0
+        public void Remove(){} // RVA: 0x7FFAFC199670
+        public void get_IsFixedSize(){} // RVA: 0x7FFAF2D8D320
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2D8D320
+        public void get_IsSynchronized(){} // RVA: 0x7FFAF2D8D320
+        public void get_SyncRoot(){} // RVA: 0x7FFAFC199700
+        public void get_Keys(){} // RVA: 0x7FFAFC1997E0
+        public void get_Values(){} // RVA: 0x7FFAFC199880
+        public void get_Item(){} // RVA: 0x7FFAFC199C60
+        public void set_Item(){} // RVA: 0x7FFAFC199CC0
     }
 
-    public class LinkedDictionaryEnumerator : Object
+    public class LinkedDictionaryEnumerator
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.LinkedDictionary parent; // 0x10
-        public int pos; // 0x18
-        public object field_2; // 0x125
-        public object field_3; // 0x126
-        public object field_4; // 0x127
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE83C3D9B0
-        public void get_Current(){} // RVA: 0x7FFE8A14C180
-        public void get_Entry(){} // RVA: 0x7FFE8A14C1F0
-        public void get_Key(){} // RVA: 0x7FFE8A14C290
-        public void MoveNext(){} // RVA: 0x7FFE8A14C2A0
-        public void Reset(){} // RVA: 0x7FFE82A55FE0
-        public void get_Value(){} // RVA: 0x7FFE8A14C350
-        public void get_CurrentKey(){} // RVA: 0x7FFE8A14C3C0
+        public void .ctor(){} // RVA: 0x7FFAF5A43A00
+        public void get_Current(){} // RVA: 0x7FFAFC199D80
+        public void get_Entry(){} // RVA: 0x7FFAFC199DF0
+        public void get_Key(){} // RVA: 0x7FFAFC199E90
+        public void MoveNext(){} // RVA: 0x7FFAFC199EA0
+        public void Reset(){} // RVA: 0x7FFAF4778140
+        public void get_Value(){} // RVA: 0x7FFAFC199F50
+        public void get_CurrentKey(){} // RVA: 0x7FFAFC199FC0
     }
 
-    public class UnmodifiableDictionary : Object
+    public class UnmodifiableDictionary
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Add(){} // RVA: 0x7FFE8A14C4B0
-        public void Clear(){} // RVA: 0x7FFE8A14C4F0
-        public void Contains(){} // RVA: 0x7FFE80E2F3B0
-        public void CopyTo(){} // RVA: 0x7FFE80E4D070
-        public void get_Count(){} // RVA: 0x7FFE80E2EDB0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFE8A14B9B0
-        public void GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
-        public void Remove(){} // RVA: 0x7FFE8A14C530
-        public void get_IsFixedSize(){} // RVA: 0x7FFE80E2F150
-        public void get_IsReadOnly(){} // RVA: 0x7FFE811E0850
-        public void get_IsSynchronized(){} // RVA: 0x7FFE80E2F150
-        public void get_SyncRoot(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Keys(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Values(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Item(){} // RVA: 0x7FFE87741860
-        public void set_Item(){} // RVA: 0x7FFE8A14C570
-        public void GetValue(){} // RVA: 0x7FFE80E2E390
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Add(){} // RVA: 0x7FFAFC19A0B0
+        public void Clear(){} // RVA: 0x7FFAFC19A0F0
+        public void Contains(){} // RVA: 0x7FFAF2ABDE40
+        public void CopyTo(){} // RVA: 0x7FFAF2ADBAA0
+        public void get_Count(){} // RVA: 0x7FFAF2ABD840
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF7B76E60
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void Remove(){} // RVA: 0x7FFAFC19A130
+        public void get_IsFixedSize(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
+        public void get_IsSynchronized(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_SyncRoot(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Keys(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Values(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Item(){} // RVA: 0x7FFAF96B09B0
+        public void set_Item(){} // RVA: 0x7FFAFC19A170
+        public void GetValue(){} // RVA: 0x7FFAF2ABCE10
     }
 
-    public class UnmodifiableDictionaryProxy : UnmodifiableDictionary
+    public class UnmodifiableDictionaryProxy
     {
-        public System.Collections.IDictionary d; // 0x10
-        public object field_1; // 0x132
-        public object field_2; // 0x133
-        public object field_3; // 0x134
-        public object field_4; // 0x135
-        public object field_5; // 0x136
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Contains(){} // RVA: 0x7FFE8A14C5B0
-        public void CopyTo(){} // RVA: 0x7FFE8A14C610
-        public void get_Count(){} // RVA: 0x7FFE8A14C680
-        public void GetEnumerator(){} // RVA: 0x7FFE8A14C6D0
-        public void get_IsFixedSize(){} // RVA: 0x7FFE8A14C720
-        public void get_IsSynchronized(){} // RVA: 0x7FFE8A14C770
-        public void get_SyncRoot(){} // RVA: 0x7FFE8A14C7C0
-        public void get_Keys(){} // RVA: 0x7FFE8A14C810
-        public void get_Values(){} // RVA: 0x7FFE8A14C860
-        public void GetValue(){} // RVA: 0x7FFE8A14C8B0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Contains(){} // RVA: 0x7FFAFC19A1B0
+        public void CopyTo(){} // RVA: 0x7FFAFC19A210
+        public void get_Count(){} // RVA: 0x7FFAFC19A280
+        public void GetEnumerator(){} // RVA: 0x7FFAFC19A2D0
+        public void get_IsFixedSize(){} // RVA: 0x7FFAFC19A320
+        public void get_IsSynchronized(){} // RVA: 0x7FFAFC19A370
+        public void get_SyncRoot(){} // RVA: 0x7FFAFC19A3C0
+        public void get_Keys(){} // RVA: 0x7FFAFC19A410
+        public void get_Values(){} // RVA: 0x7FFAFC19A460
+        public void GetValue(){} // RVA: 0x7FFAFC19A4B0
     }
 
-    public class UnmodifiableList : Object
+    public class UnmodifiableList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Add(){} // RVA: 0x7FFE8A14C910
-        public void Clear(){} // RVA: 0x7FFE8A14C950
-        public void Contains(){} // RVA: 0x7FFE80E2F3B0
-        public void CopyTo(){} // RVA: 0x7FFE80E4D070
-        public void get_Count(){} // RVA: 0x7FFE80E2EDB0
-        public void GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
-        public void IndexOf(){} // RVA: 0x7FFE80E33B00
-        public void Insert(){} // RVA: 0x7FFE8A14C990
-        public void get_IsFixedSize(){} // RVA: 0x7FFE80E2F150
-        public void get_IsReadOnly(){} // RVA: 0x7FFE811E0850
-        public void get_IsSynchronized(){} // RVA: 0x7FFE80E2F150
-        public void Remove(){} // RVA: 0x7FFE8A14C9D0
-        public void RemoveAt(){} // RVA: 0x7FFE8A14CA10
-        public void get_SyncRoot(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Item(){} // RVA: 0x7FFE8A14CA50
-        public void set_Item(){} // RVA: 0x7FFE8A14CA70
-        public void GetValue(){} // RVA: 0x7FFE80E3D230
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Add(){} // RVA: 0x7FFAFC19A510
+        public void Clear(){} // RVA: 0x7FFAFC19A550
+        public void Contains(){} // RVA: 0x7FFAF2ABDE40
+        public void CopyTo(){} // RVA: 0x7FFAF2ADBAA0
+        public void get_Count(){} // RVA: 0x7FFAF2ABD840
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void IndexOf(){} // RVA: 0x7FFAF2AC2590
+        public void Insert(){} // RVA: 0x7FFAFC19A590
+        public void get_IsFixedSize(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
+        public void get_IsSynchronized(){} // RVA: 0x7FFAF2ABDBE0
+        public void Remove(){} // RVA: 0x7FFAFC19A5D0
+        public void RemoveAt(){} // RVA: 0x7FFAFC19A610
+        public void get_SyncRoot(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Item(){} // RVA: 0x7FFAFC19A650
+        public void set_Item(){} // RVA: 0x7FFAFC19A670
+        public void GetValue(){} // RVA: 0x7FFAF2ACBCC0
     }
 
-    public class UnmodifiableListProxy : UnmodifiableList
+    public class UnmodifiableListProxy
     {
-        public System.Collections.IList l; // 0x10
-        public object field_1; // 0x13E
-        public object field_2; // 0x13F
-        public object field_3; // 0x140
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Contains(){} // RVA: 0x7FFE8A14CAB0
-        public void CopyTo(){} // RVA: 0x7FFE8A14CB10
-        public void get_Count(){} // RVA: 0x7FFE8A14CB80
-        public void GetEnumerator(){} // RVA: 0x7FFE8A14CBD0
-        public void IndexOf(){} // RVA: 0x7FFE8A14CC20
-        public void get_IsFixedSize(){} // RVA: 0x7FFE8A14CC80
-        public void get_IsSynchronized(){} // RVA: 0x7FFE8A14CCD0
-        public void get_SyncRoot(){} // RVA: 0x7FFE8A14CD20
-        public void GetValue(){} // RVA: 0x7FFE8A14CD70
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Contains(){} // RVA: 0x7FFAFC19A6B0
+        public void CopyTo(){} // RVA: 0x7FFAFC19A710
+        public void get_Count(){} // RVA: 0x7FFAFC19A780
+        public void GetEnumerator(){} // RVA: 0x7FFAFC19A7D0
+        public void IndexOf(){} // RVA: 0x7FFAFC19A820
+        public void get_IsFixedSize(){} // RVA: 0x7FFAFC19A880
+        public void get_IsSynchronized(){} // RVA: 0x7FFAFC19A8D0
+        public void get_SyncRoot(){} // RVA: 0x7FFAFC19A920
+        public void GetValue(){} // RVA: 0x7FFAFC19A970
     }
 
-    public class UnmodifiableSet : Object
+    public class UnmodifiableSet
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Add(){} // RVA: 0x7FFE8A14CDD0
-        public void AddAll(){} // RVA: 0x7FFE8A14CE10
-        public void Clear(){} // RVA: 0x7FFE8A14CE50
-        public void Contains(){} // RVA: 0x7FFE80E2F3B0
-        public void CopyTo(){} // RVA: 0x7FFE80E4D070
-        public void get_Count(){} // RVA: 0x7FFE80E2EDB0
-        public void GetEnumerator(){} // RVA: 0x7FFE80E2E2E0
-        public void get_IsEmpty(){} // RVA: 0x7FFE80E2F150
-        public void get_IsFixedSize(){} // RVA: 0x7FFE80E2F150
-        public void get_IsReadOnly(){} // RVA: 0x7FFE811E0850
-        public void get_IsSynchronized(){} // RVA: 0x7FFE80E2F150
-        public void get_SyncRoot(){} // RVA: 0x7FFE80E2E2E0
-        public void Remove(){} // RVA: 0x7FFE8A14CE90
-        public void RemoveAll(){} // RVA: 0x7FFE8A14CED0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Add(){} // RVA: 0x7FFAFC19A9D0
+        public void AddAll(){} // RVA: 0x7FFAFC19AA10
+        public void Clear(){} // RVA: 0x7FFAFC19AA50
+        public void Contains(){} // RVA: 0x7FFAF2ABDE40
+        public void CopyTo(){} // RVA: 0x7FFAF2ADBAA0
+        public void get_Count(){} // RVA: 0x7FFAF2ABD840
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void get_IsEmpty(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsFixedSize(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
+        public void get_IsSynchronized(){} // RVA: 0x7FFAF2ABDBE0
+        public void get_SyncRoot(){} // RVA: 0x7FFAF2ABCD60
+        public void Remove(){} // RVA: 0x7FFAFC19AA90
+        public void RemoveAll(){} // RVA: 0x7FFAFC19AAD0
     }
 
-    public class UnmodifiableSetProxy : UnmodifiableSet
+    public class UnmodifiableSetProxy
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Collections.ISet s; // 0x10
-        public object field_1; // 0x148
-        public object field_2; // 0x149
-        public object field_3; // 0x14A
-        public object field_4; // 0x14B
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void Contains(){} // RVA: 0x7FFE8A14CF10
-        public void CopyTo(){} // RVA: 0x7FFE8A14CF70
-        public void get_Count(){} // RVA: 0x7FFE8A14CFE0
-        public void GetEnumerator(){} // RVA: 0x7FFE8A14D030
-        public void get_IsEmpty(){} // RVA: 0x7FFE8A14D080
-        public void get_IsFixedSize(){} // RVA: 0x7FFE8A14D0D0
-        public void get_IsSynchronized(){} // RVA: 0x7FFE8A14D120
-        public void get_SyncRoot(){} // RVA: 0x7FFE8A14D170
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void Contains(){} // RVA: 0x7FFAFC19AB10
+        public void CopyTo(){} // RVA: 0x7FFAFC19AB70
+        public void get_Count(){} // RVA: 0x7FFAFC19ABE0
+        public void GetEnumerator(){} // RVA: 0x7FFAFC19AC30
+        public void get_IsEmpty(){} // RVA: 0x7FFAFC19AC80
+        public void get_IsFixedSize(){} // RVA: 0x7FFAFC19ACD0
+        public void get_IsSynchronized(){} // RVA: 0x7FFAFC19AD20
+        public void get_SyncRoot(){} // RVA: 0x7FFAFC19AD70
     }
 
 }

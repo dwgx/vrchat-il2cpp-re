@@ -5,88 +5,70 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class ChangeNumOpenSlotsCallback_t : ValueType
+    public class ChangeNumOpenSlotsCallback_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E59CC0
-        public void .cctor(){} // RVA: 0x7FFE82E59CD0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7B8C0
+        public void .cctor(){} // RVA: 0x7FFAF4B7B8D0
     }
 
-    public class CheckFileSignature_t : ValueType
+    public class CheckFileSignature_t
     {
-        public 0x66687704 CheckFileSignature; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E58130
-        public void .cctor(){} // RVA: 0x7FFE82E58140
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B79D30
+        public void .cctor(){} // RVA: 0x7FFAF4B79D40
     }
 
-    public class ClanOfficerListResponse_t : ValueType
+    public class ClanOfficerListResponse_t
     {
-        public ulong SteamIDClan; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E56AE0
-        public void .cctor(){} // RVA: 0x7FFE82E56AF0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B786E0
+        public void .cctor(){} // RVA: 0x7FFAF4B786F0
     }
 
-    public class ClientGameServerDeny_t : ValueType
+    public class ClientGameServerDeny_t
     {
-        public uint AppID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E556B0
-        public void .cctor(){} // RVA: 0x7FFE82E556C0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B772B0
+        public void .cctor(){} // RVA: 0x7FFAF4B772C0
     }
 
-    public class ComputeNewPlayerCompatibilityResult_t : ValueType
+    public class ComputeNewPlayerCompatibilityResult_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E634B0
-        public void .cctor(){} // RVA: 0x7FFE82E634C0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B850B0
+        public void .cctor(){} // RVA: 0x7FFAF4B850C0
     }
 
-    public class Connection : ValueType
+    public class Connection
     {
-        public uint _id; // 0x10
-
         // ── Methods ──
-        public void get_Id(){} // RVA: 0x7FFE826F4220
-        public void Equals(){} // RVA: 0x7FFE82E648A0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFE826F4220
-        public void ToString(){} // RVA: 0x7FFE82E64930
-        public void Accept(){} // RVA: 0x7FFE82E649D0
-        public void Close(){} // RVA: 0x7FFE82E64AB0
+        public void get_Id(){} // RVA: 0x7FFAF44189B0
+        public void Equals(){} // RVA: 0x7FFAF4B864A0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x7FFAF44189B0
+        public void ToString(){} // RVA: 0x7FFAF4B86530
+        public void Accept(){} // RVA: 0x7FFAF4B865D0
+        public void Close(){} // RVA: 0x7FFAF4B866B0
     }
 
-    public class ConnectionInfo : ValueType
+    public class ConnectionInfo
     {
-        public Steamworks.Data.NetIdentity identity; // 0x10
-
         // ── Methods ──
-        public void get_State(){} // RVA: 0x7FFE82E64BF0
+        public void get_State(){} // RVA: 0x7FFAF4B867F0
     }
 
-    public class CreateBeaconCallback_t : ValueType
+    public class CreateBeaconCallback_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E59AA0
-        public void .cctor(){} // RVA: 0x7FFE82E59AB0
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B7B6A0
+        public void .cctor(){} // RVA: 0x7FFAF4B7B6B0
     }
 
-    public class CreateItemResult_t : ValueType
+    public class CreateItemResult_t
     {
-        public 0x666873EC Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFE82E5ED80
-        public void .cctor(){} // RVA: 0x7FFE82E5ED90
+        public void get_CallbackType(){} // RVA: 0x7FFAF4B80980
+        public void .cctor(){} // RVA: 0x7FFAF4B80990
     }
 
 }

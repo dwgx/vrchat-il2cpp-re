@@ -5,31 +5,31 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class Range : Object
+    public class Range
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE878647F0
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFE87864800
+        public void .ctor(){} // RVA: 0x7FFAF97D3950
+        public void GetAsyncEnumerator(){} // RVA: 0x7FFAF97D3960
     }
 
-    public class Repeat`1 : Object
+    public class Repeat`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
         public void GetAsyncEnumerator(){}
     }
 
-    public class Return`1 : Object
+    public class Return`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810A1420
+        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
         public void GetAsyncEnumerator(){}
     }
 
-    public class Reverse`1 : Object
+    public class Reverse`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E460A0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
         public void GetAsyncEnumerator(){}
     }
 

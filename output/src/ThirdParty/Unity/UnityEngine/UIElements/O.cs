@@ -1,29 +1,239 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 2
+// Classes: 55
 // Methods: 9
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class ObjectListPool`1 : Object
+    public class ObjectListPool`1
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0x7FFE80E2DEE0
-        public void Release(){} // RVA: 0x7FFE80E46070
-        public void .cctor(){} // RVA: 0x7FFE80E46010
+        public void Get(){} // RVA: 0x7FFAF2ABC960
+        public void Release(){} // RVA: 0x7FFAF2AD4AE0
+        public void .cctor(){} // RVA: 0x7FFAF2AD4A80
     }
 
-    public class ObjectPool`1 : Object
+    public class ObjectPool`1
     {
-        public System.Collections.Generic.Stack`1<T> m_Stack;
-
         // ── Methods ──
-        public void get_maxSize(){} // RVA: 0x7FFE80E2EDB0
-        public void set_maxSize(){} // RVA: 0x7FFE80E46530
-        public void .ctor(){} // RVA: 0x7FFE80E4D070
-        public void Size(){} // RVA: 0x7FFE80E2EDB0
-        public void Get(){} // RVA: 0x7FFE810A1420
-        public void Release(){} // RVA: 0x7FFE810A1420
+        public void get_maxSize(){} // RVA: 0x7FFAF2ABD840
+        public void set_maxSize(){} // RVA: 0x7FFAF2AD4FA0
+        public void .ctor(){} // RVA: 0x7FFAF2ADBAA0
+        public void Size(){} // RVA: 0x7FFAF2ABD840
+        public void Get(){} // RVA: 0x7FFAF2D33FA0
+        public void Release(){} // RVA: 0x7FFAF2D33FA0
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
+    }
+
+    public class ObjectPool`1
+    {
     }
 
 }

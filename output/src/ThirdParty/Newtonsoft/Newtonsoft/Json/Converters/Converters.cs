@@ -5,554 +5,481 @@
 
 namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Converters
 {
-    public class BinaryConverter : JsonConverter
+    public class BinaryConverter
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE86BA0D90
-        public void GetByteArray(){} // RVA: 0x7FFE86BA0E00
-        public void EnsureReflectionObject(){} // RVA: 0x7FFE86BA1060
-        public void ReadJson(){} // RVA: 0x7FFE86BA1270
-        public void ReadByteArray(){} // RVA: 0x7FFE86BA17C0
-        public void CanConvert(){} // RVA: 0x7FFE86BA1A40
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void WriteJson(){} // RVA: 0x7FFAF8B0FFC0
+        public void GetByteArray(){} // RVA: 0x7FFAF8B10030
+        public void EnsureReflectionObject(){} // RVA: 0x7FFAF8B10290
+        public void ReadJson(){} // RVA: 0x7FFAF8B104A0
+        public void ReadByteArray(){} // RVA: 0x7FFAF8B109F0
+        public void CanConvert(){} // RVA: 0x7FFAF8B10C70
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class BsonObjectIdConverter : JsonConverter
+    public class BsonObjectIdConverter
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE86BA1B80
-        public void ReadJson(){} // RVA: 0x7FFE86BA1DB0
-        public void CanConvert(){} // RVA: 0x7FFE86BA2070
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void WriteJson(){} // RVA: 0x7FFAF8B10DB0
+        public void ReadJson(){} // RVA: 0x7FFAF8B10FE0
+        public void CanConvert(){} // RVA: 0x7FFAF8B112A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class CustomCreationConverter`1 : JsonConverter
+    public class CustomCreationConverter`1
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE80E50660
-        public void ReadJson(){} // RVA: 0x7FFE80E40660
-        public void Create(){} // RVA: 0x7FFE810A1420
-        public void CanConvert(){} // RVA: 0x7FFE80E2F3B0
-        public void get_CanWrite(){} // RVA: 0x7FFE80E2F150
-        public void .ctor(){} // RVA: 0x7FFE80E45FE0
+        public void WriteJson(){} // RVA: 0x7FFAF2ADF090
+        public void ReadJson(){} // RVA: 0x7FFAF2ACF0F0
+        public void Create(){} // RVA: 0x7FFAF2D33FA0
+        public void CanConvert(){} // RVA: 0x7FFAF2ABDE40
+        public void get_CanWrite(){} // RVA: 0x7FFAF2ABDBE0
+        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
     }
 
-    public class DataSetConverter : JsonConverter
+    public class DataSetConverter
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE86BA2140
-        public void ReadJson(){} // RVA: 0x7FFE86BA2560
-        public void CanConvert(){} // RVA: 0x7FFE86BA28F0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void WriteJson(){} // RVA: 0x7FFAF8B11370
+        public void ReadJson(){} // RVA: 0x7FFAF8B11790
+        public void CanConvert(){} // RVA: 0x7FFAF8B11B20
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class DataTableConverter : JsonConverter
+    public class DataTableConverter
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE86BA29D0
-        public void ReadJson(){} // RVA: 0x7FFE86BA2F60
-        public void CreateRow(){} // RVA: 0x7FFE86BA32F0
-        public void GetColumnDataType(){} // RVA: 0x7FFE86BA38D0
-        public void CanConvert(){} // RVA: 0x7FFE86BA3AF0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void WriteJson(){} // RVA: 0x7FFAF8B11C00
+        public void ReadJson(){} // RVA: 0x7FFAF8B12190
+        public void CreateRow(){} // RVA: 0x7FFAF8B12520
+        public void GetColumnDataType(){} // RVA: 0x7FFAF8B12B00
+        public void CanConvert(){} // RVA: 0x7FFAF8B12D20
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class DateTimeConverterBase : JsonConverter
+    public class DateTimeConverterBase
     {
         // ── Methods ──
-        public void CanConvert(){} // RVA: 0x7FFE86BA3BD0
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void CanConvert(){} // RVA: 0x7FFAF8B12E00
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class DiscriminatedUnionConverter : JsonConverter
+    public class DiscriminatedUnionConverter
     {
         // ── Methods ──
-        public void CreateUnionTypeLookup(){} // RVA: 0x7FFE86BA3D60
-        public void CreateUnion(){} // RVA: 0x7FFE86BA3FC0
-        public void WriteJson(){} // RVA: 0x7FFE86BA4AF0
-        public void ReadJson(){} // RVA: 0x7FFE86BA50F0
-        public void CanConvert(){} // RVA: 0x7FFE86BA5B60
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE86BA5E70
+        public void CreateUnionTypeLookup(){} // RVA: 0x7FFAF8B12F90
+        public void CreateUnion(){} // RVA: 0x7FFAF8B131F0
+        public void WriteJson(){} // RVA: 0x7FFAF8B13D20
+        public void ReadJson(){} // RVA: 0x7FFAF8B14320
+        public void CanConvert(){} // RVA: 0x7FFAF8B14D90
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF8B150A0
     }
 
-    public class EntityKeyMemberConverter : JsonConverter
+    public class EntityKeyMemberConverter
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE86BA6270
-        public void ReadAndAssertProperty(){} // RVA: 0x7FFE86BA6630
-        public void ReadJson(){} // RVA: 0x7FFE86BA6820
-        public void EnsureReflectionObject(){} // RVA: 0x7FFE86BA6C00
-        public void CanConvert(){} // RVA: 0x7FFE86BA6D50
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void WriteJson(){} // RVA: 0x7FFAF8B154A0
+        public void ReadAndAssertProperty(){} // RVA: 0x7FFAF8B15860
+        public void ReadJson(){} // RVA: 0x7FFAF8B15A50
+        public void EnsureReflectionObject(){} // RVA: 0x7FFAF8B15E30
+        public void CanConvert(){} // RVA: 0x7FFAF8B15F80
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class ExpandoObjectConverter : JsonConverter
+    public class ExpandoObjectConverter
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE810FB310
-        public void ReadJson(){} // RVA: 0x7FFE86BA6DB0
-        public void ReadValue(){} // RVA: 0x7FFE86BA6DC0
-        public void ReadList(){} // RVA: 0x7FFE86BA70A0
-        public void ReadObject(){} // RVA: 0x7FFE86BA71E0
-        public void CanConvert(){} // RVA: 0x7FFE86BA74B0
-        public void get_CanWrite(){} // RVA: 0x7FFE810FB320
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void WriteJson(){} // RVA: 0x7FFAF2D8D310
+        public void ReadJson(){} // RVA: 0x7FFAF8B15FE0
+        public void ReadValue(){} // RVA: 0x7FFAF8B15FF0
+        public void ReadList(){} // RVA: 0x7FFAF8B162D0
+        public void ReadObject(){} // RVA: 0x7FFAF8B16410
+        public void CanConvert(){} // RVA: 0x7FFAF8B166E0
+        public void get_CanWrite(){} // RVA: 0x7FFAF2D8D320
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class IXmlDeclaration
+    public class IXmlDeclaration : ؄}e
     {
         // ── Methods ──
-        public void get_Version(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Encoding(){} // RVA: 0x7FFE80E2E2E0
-        public void set_Encoding(){} // RVA: 0x7FFE80E460A0
-        public void get_Standalone(){} // RVA: 0x7FFE80E2E2E0
-        public void set_Standalone(){} // RVA: 0x7FFE80E460A0
+        public void get_Version(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Encoding(){} // RVA: 0x7FFAF2ABCD60
+        public void set_Encoding(){} // RVA: 0x7FFAF2AD4B10
+        public void get_Standalone(){} // RVA: 0x7FFAF2ABCD60
+        public void set_Standalone(){} // RVA: 0x7FFAF2AD4B10
     }
 
     public class IXmlDocument
     {
         // ── Methods ──
-        public void CreateComment(){} // RVA: 0x7FFE80E2E390
-        public void CreateTextNode(){} // RVA: 0x7FFE80E2E390
-        public void CreateCDataSection(){} // RVA: 0x7FFE80E2E390
-        public void CreateWhitespace(){} // RVA: 0x7FFE80E2E390
-        public void CreateSignificantWhitespace(){} // RVA: 0x7FFE80E2E390
-        public void CreateXmlDeclaration(){} // RVA: 0x7FFE80E403A0
-        public void CreateXmlDocumentType(){} // RVA: 0x7FFE80E40660
-        public void CreateProcessingInstruction(){} // RVA: 0x7FFE80E3FC10
-        public void CreateElement(){} // RVA: 0x7FFE80E3FC10 | overloaded x2
-        public void CreateAttribute(){} // RVA: 0x7FFE80E403A0 | overloaded x2
-        public void get_DocumentElement(){} // RVA: 0x7FFE80E2E2E0
+        public void CreateComment(){} // RVA: 0x7FFAF2ABCE10
+        public void CreateTextNode(){} // RVA: 0x7FFAF2ABCE10
+        public void CreateCDataSection(){} // RVA: 0x7FFAF2ABCE10
+        public void CreateWhitespace(){} // RVA: 0x7FFAF2ABCE10
+        public void CreateSignificantWhitespace(){} // RVA: 0x7FFAF2ABCE10
+        public void CreateXmlDeclaration(){} // RVA: 0x7FFAF2ACEE30
+        public void CreateXmlDocumentType(){} // RVA: 0x7FFAF2ACF0F0
+        public void CreateProcessingInstruction(){} // RVA: 0x7FFAF2ACE6A0
+        public void CreateElement(){} // RVA: 0x7FFAF2ACE6A0 | overloaded x2
+        public void CreateAttribute(){} // RVA: 0x7FFAF2ACEE30 | overloaded x2
+        public void get_DocumentElement(){} // RVA: 0x7FFAF2ABCD60
     }
 
     public class IXmlDocumentType
     {
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFE80E2E2E0
-        public void get_System(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Public(){} // RVA: 0x7FFE80E2E2E0
-        public void get_InternalSubset(){} // RVA: 0x7FFE80E2E2E0
+        public void get_Name(){} // RVA: 0x7FFAF2ABCD60
+        public void get_System(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Public(){} // RVA: 0x7FFAF2ABCD60
+        public void get_InternalSubset(){} // RVA: 0x7FFAF2ABCD60
     }
 
     public class IXmlElement
     {
         // ── Methods ──
-        public void SetAttributeNode(){} // RVA: 0x7FFE80E460A0
-        public void GetPrefixOfNamespace(){} // RVA: 0x7FFE80E2E390
-        public void get_IsEmpty(){} // RVA: 0x7FFE80E2F150
+        public void SetAttributeNode(){} // RVA: 0x7FFAF2AD4B10
+        public void GetPrefixOfNamespace(){} // RVA: 0x7FFAF2ABCE10
+        public void get_IsEmpty(){} // RVA: 0x7FFAF2ABDBE0
     }
 
     public class IXmlNode
     {
         // ── Methods ──
-        public void get_NodeType(){} // RVA: 0x7FFE80E2EDB0
-        public void get_LocalName(){} // RVA: 0x7FFE80E2E2E0
-        public void get_ChildNodes(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Attributes(){} // RVA: 0x7FFE80E2E2E0
-        public void get_ParentNode(){} // RVA: 0x7FFE80E2E2E0
-        public void get_Value(){} // RVA: 0x7FFE80E2E2E0
-        public void set_Value(){} // RVA: 0x7FFE80E460A0
-        public void AppendChild(){} // RVA: 0x7FFE80E2E390
-        public void get_NamespaceUri(){} // RVA: 0x7FFE80E2E2E0
-        public void get_WrappedNode(){} // RVA: 0x7FFE80E2E2E0
+        public void get_NodeType(){} // RVA: 0x7FFAF2ABD840
+        public void get_LocalName(){} // RVA: 0x7FFAF2ABCD60
+        public void get_ChildNodes(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Attributes(){} // RVA: 0x7FFAF2ABCD60
+        public void get_ParentNode(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Value(){} // RVA: 0x7FFAF2ABCD60
+        public void set_Value(){} // RVA: 0x7FFAF2AD4B10
+        public void AppendChild(){} // RVA: 0x7FFAF2ABCE10
+        public void get_NamespaceUri(){} // RVA: 0x7FFAF2ABCD60
+        public void get_WrappedNode(){} // RVA: 0x7FFAF2ABCD60
     }
 
-    public class IsoDateTimeConverter : DateTimeConverterBase
+    public class IsoDateTimeConverter
     {
-        public string DefaultDateTimeFormat;
-        public 0x664D42FC _dateTimeStyles; // 0x10
-        public string _dateTimeFormat; // 0x18
-
         // ── Methods ──
-        public void get_DateTimeStyles(){} // RVA: 0x7FFE811485C0
-        public void set_DateTimeStyles(){} // RVA: 0x7FFE810FE0C0
-        public void get_DateTimeFormat(){} // RVA: 0x7FFE86BA7580
-        public void set_DateTimeFormat(){} // RVA: 0x7FFE86BA75D0
-        public void get_Culture(){} // RVA: 0x7FFE86BA7650
-        public void set_Culture(){} // RVA: 0x7FFE811290D0
-        public void WriteJson(){} // RVA: 0x7FFE86BA76E0
-        public void ReadJson(){} // RVA: 0x7FFE86BA7A20
-        public void .ctor(){} // RVA: 0x7FFE86BA7FD0
+        public void get_DateTimeStyles(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_DateTimeStyles(){} // RVA: 0x7FFAF2D900C0
+        public void get_DateTimeFormat(){} // RVA: 0x7FFAF8B167B0
+        public void set_DateTimeFormat(){} // RVA: 0x7FFAF8B16800
+        public void get_Culture(){} // RVA: 0x7FFAF8B16880
+        public void set_Culture(){} // RVA: 0x7FFAF2DBB0D0
+        public void WriteJson(){} // RVA: 0x7FFAF8B16910
+        public void ReadJson(){} // RVA: 0x7FFAF8B16C50
+        public void .ctor(){} // RVA: 0x7FFAF8B17200
     }
 
-    public class JavaScriptDateTimeConverter : DateTimeConverterBase
+    public class JavaScriptDateTimeConverter
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE86BA7FE0
-        public void ReadJson(){} // RVA: 0x7FFE86BA8300
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void WriteJson(){} // RVA: 0x7FFAF8B17210
+        public void ReadJson(){} // RVA: 0x7FFAF8B17530
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class KeyValuePairConverter : JsonConverter
+    public class KeyValuePairConverter
     {
         // ── Methods ──
-        public void InitializeReflectionObject(){} // RVA: 0x7FFE86BA8730
-        public void WriteJson(){} // RVA: 0x7FFE86BA8930
-        public void ReadJson(){} // RVA: 0x7FFE86BA8C90
-        public void CanConvert(){} // RVA: 0x7FFE86BA9320
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE86BA9440
+        public void InitializeReflectionObject(){} // RVA: 0x7FFAF8B17960
+        public void WriteJson(){} // RVA: 0x7FFAF8B17B60
+        public void ReadJson(){} // RVA: 0x7FFAF8B17EC0
+        public void CanConvert(){} // RVA: 0x7FFAF8B18550
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF8B18670
     }
 
-    public class RegexConverter : JsonConverter
+    public class RegexConverter
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE86BA98F0 | overloaded x2
-        public void HasFlag(){} // RVA: 0x7FFE86874540
-        public void WriteBson(){} // RVA: 0x7FFE86BA96A0
-        public void ReadJson(){} // RVA: 0x7FFE86BA9B10
-        public void ReadRegexString(){} // RVA: 0x7FFE86BA9D10
-        public void ReadRegexObject(){} // RVA: 0x7FFE86BA9E80
-        public void CanConvert(){} // RVA: 0x7FFE86BAA290
-        public void IsRegex(){} // RVA: 0x7FFE86BAA340
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void WriteJson(){} // RVA: 0x7FFAF8B18B20 | overloaded x2
+        public void HasFlag(){} // RVA: 0x7FFAF87E3640
+        public void WriteBson(){} // RVA: 0x7FFAF8B188D0
+        public void ReadJson(){} // RVA: 0x7FFAF8B18D40
+        public void ReadRegexString(){} // RVA: 0x7FFAF8B18F40
+        public void ReadRegexObject(){} // RVA: 0x7FFAF8B190B0
+        public void CanConvert(){} // RVA: 0x7FFAF8B194C0
+        public void IsRegex(){} // RVA: 0x7FFAF8B19570
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class StringEnumConverter : JsonConverter
+    public class StringEnumConverter
     {
-        public Newtonsoft.Json.Serialization.NamingStrategy _namingStrategy; // 0x10
-        public bool _allowIntegerValues; // 0x18
-        public object field_2; // 0x251
-
         // ── Methods ──
-        public void get_CamelCaseText(){} // RVA: 0x7FFE86BAA540
-        public void set_CamelCaseText(){} // RVA: 0x7FFE86BAA5B0
-        public void get_NamingStrategy(){} // RVA: 0x7FFE81116380
-        public void set_NamingStrategy(){} // RVA: 0x7FFE810FCE30
-        public void get_AllowIntegerValues(){} // RVA: 0x7FFE811164E0
-        public void set_AllowIntegerValues(){} // RVA: 0x7FFE811164F0
-        public void .ctor(){} // RVA: 0x7FFE86BAA9C0 | overloaded x6
-        public void WriteJson(){} // RVA: 0x7FFE86BAAAF0
-        public void ReadJson(){} // RVA: 0x7FFE86BAAD00
-        public void CanConvert(){} // RVA: 0x7FFE86BAB180
+        public void get_CamelCaseText(){} // RVA: 0x7FFAF8B19770
+        public void set_CamelCaseText(){} // RVA: 0x7FFAF8B197E0
+        public void get_NamingStrategy(){} // RVA: 0x7FFAF2DA8380
+        public void set_NamingStrategy(){} // RVA: 0x7FFAF2D8EE30
+        public void get_AllowIntegerValues(){} // RVA: 0x7FFAF2DA84E0
+        public void set_AllowIntegerValues(){} // RVA: 0x7FFAF2DA84F0
+        public void .ctor(){} // RVA: 0x7FFAF8B19BF0 | overloaded x6
+        public void WriteJson(){} // RVA: 0x7FFAF8B19D20
+        public void ReadJson(){} // RVA: 0x7FFAF8B19F30
+        public void CanConvert(){} // RVA: 0x7FFAF8B1A3B0
     }
 
-    public class UnixDateTimeConverter : DateTimeConverterBase
+    public class UnixDateTimeConverter
     {
-        public System.DateTime UnixEpoch;
-
         // ── Methods ──
-        public void get_AllowPreEpoch(){} // RVA: 0x7FFE811C55E0
-        public void set_AllowPreEpoch(){} // RVA: 0x7FFE811C55F0
-        public void .ctor(){} // RVA: 0x7FFE811C55F0 | overloaded x2
-        public void WriteJson(){} // RVA: 0x7FFE86BAB210
-        public void ReadJson(){} // RVA: 0x7FFE86BAB580
-        public void .cctor(){} // RVA: 0x7FFE86BABB90
+        public void get_AllowPreEpoch(){} // RVA: 0x7FFAF2E575E0
+        public void set_AllowPreEpoch(){} // RVA: 0x7FFAF2E575F0
+        public void .ctor(){} // RVA: 0x7FFAF2E575F0 | overloaded x2
+        public void WriteJson(){} // RVA: 0x7FFAF8B1A440
+        public void ReadJson(){} // RVA: 0x7FFAF8B1A7B0
+        public void .cctor(){} // RVA: 0x7FFAF8B1ADC0
     }
 
-    public class VersionConverter : JsonConverter
+    public class VersionConverter
     {
         // ── Methods ──
-        public void WriteJson(){} // RVA: 0x7FFE86BABC10
-        public void ReadJson(){} // RVA: 0x7FFE86BABD10
-        public void CanConvert(){} // RVA: 0x7FFE86BABF70
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void WriteJson(){} // RVA: 0x7FFAF8B1AE40
+        public void ReadJson(){} // RVA: 0x7FFAF8B1AF40
+        public void CanConvert(){} // RVA: 0x7FFAF8B1B1A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class XAttributeWrapper : XObjectWrapper
+    public class XAttributeWrapper
     {
         // ── Methods ──
-        public void get_Attribute(){} // RVA: 0x7FFE86BB0930
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_Value(){} // RVA: 0x7FFE86BB09B0
-        public void set_Value(){} // RVA: 0x7FFE86BB09D0
-        public void get_LocalName(){} // RVA: 0x7FFE86BB0B90
-        public void get_NamespaceUri(){} // RVA: 0x7FFE86BB0BC0
-        public void get_ParentNode(){} // RVA: 0x7FFE86BB0C00
+        public void get_Attribute(){} // RVA: 0x7FFAF8B1FB60
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_Value(){} // RVA: 0x7FFAF8B1FBE0
+        public void set_Value(){} // RVA: 0x7FFAF8B1FC00
+        public void get_LocalName(){} // RVA: 0x7FFAF8B1FDC0
+        public void get_NamespaceUri(){} // RVA: 0x7FFAF8B1FDF0
+        public void get_ParentNode(){} // RVA: 0x7FFAF8B1FE30
     }
 
-    public class XCommentWrapper : XObjectWrapper
+    public class XCommentWrapper
     {
         // ── Methods ──
-        public void get_Text(){} // RVA: 0x7FFE86BAF6F0
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_Value(){} // RVA: 0x7FFE86BAF770
-        public void set_Value(){} // RVA: 0x7FFE86BAF790
-        public void get_ParentNode(){} // RVA: 0x7FFE86BAF940
+        public void get_Text(){} // RVA: 0x7FFAF8B1E920
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_Value(){} // RVA: 0x7FFAF8B1E9A0
+        public void set_Value(){} // RVA: 0x7FFAF8B1E9C0
+        public void get_ParentNode(){} // RVA: 0x7FFAF8B1EB70
     }
 
-    public class XContainerWrapper : XObjectWrapper
+    public class XContainerWrapper
     {
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _childNodes; // 0x18
-        public object field_1; // 0x291
-        public object field_2; // 0x292
-        public object field_3; // 0x293
-
         // ── Methods ──
-        public void get_Container(){} // RVA: 0x7FFE86BAFC10
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_ChildNodes(){} // RVA: 0x7FFE86BAFC90
-        public void get_HasChildNodes(){} // RVA: 0x7FFE86BB00E0
-        public void get_ParentNode(){} // RVA: 0x7FFE86BB0110
-        public void WrapNode(){} // RVA: 0x7FFE86BB0170
-        public void AppendChild(){} // RVA: 0x7FFE86BB06F0
+        public void get_Container(){} // RVA: 0x7FFAF8B1EE40
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_ChildNodes(){} // RVA: 0x7FFAF8B1EEC0
+        public void get_HasChildNodes(){} // RVA: 0x7FFAF8B1F310
+        public void get_ParentNode(){} // RVA: 0x7FFAF8B1F340
+        public void WrapNode(){} // RVA: 0x7FFAF8B1F3A0
+        public void AppendChild(){} // RVA: 0x7FFAF8B1F920
     }
 
-    public class XDeclarationWrapper : XObjectWrapper
+    public class XDeclarationWrapper
     {
-        public System.Xml.Linq.XDeclaration _declaration; // 0x18
-        public object field_1; // 0x27A
-        public object field_2; // 0x27B
-        public object field_3; // 0x27C
-        public object field_4; // 0x27D
-
         // ── Methods ──
-        public void get_Declaration(){} // RVA: 0x7FFE810FE7C0
-        public void .ctor(){} // RVA: 0x7FFE86BADEB0
-        public void get_NodeType(){} // RVA: 0x7FFE86BADF70
-        public void get_Version(){} // RVA: 0x7FFE81D29350
-        public void get_Encoding(){} // RVA: 0x7FFE86BADF80
-        public void set_Encoding(){} // RVA: 0x7FFE86BADFA0
-        public void get_Standalone(){} // RVA: 0x7FFE82A2A930
-        public void set_Standalone(){} // RVA: 0x7FFE86BAE010
+        public void get_Declaration(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x7FFAF8B1D0E0
+        public void get_NodeType(){} // RVA: 0x7FFAF8B1D1A0
+        public void get_Version(){} // RVA: 0x7FFAF3A4DC10
+        public void get_Encoding(){} // RVA: 0x7FFAF8B1D1B0
+        public void set_Encoding(){} // RVA: 0x7FFAF8B1D1D0
+        public void get_Standalone(){} // RVA: 0x7FFAF4748E90
+        public void set_Standalone(){} // RVA: 0x7FFAF8B1D240
     }
 
-    public class XDocumentTypeWrapper : XObjectWrapper
+    public class XDocumentTypeWrapper
     {
-        public System.Xml.Linq.XDocumentType _documentType; // 0x18
-        public object field_1; // 0x27F
-        public object field_2; // 0x280
-        public object field_3; // 0x281
-        public object field_4; // 0x282
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86A84CF0
-        public void get_Name(){} // RVA: 0x7FFE86BAE080
-        public void get_System(){} // RVA: 0x7FFE86BAE0A0
-        public void get_Public(){} // RVA: 0x7FFE86BAE0C0
-        public void get_InternalSubset(){} // RVA: 0x7FFE86BAE0E0
-        public void get_LocalName(){} // RVA: 0x7FFE86BAE100
+        public void .ctor(){} // RVA: 0x7FFAF89F3ED0
+        public void get_Name(){} // RVA: 0x7FFAF8B1D2B0
+        public void get_System(){} // RVA: 0x7FFAF8B1D2D0
+        public void get_Public(){} // RVA: 0x7FFAF8B1D2F0
+        public void get_InternalSubset(){} // RVA: 0x7FFAF8B1D310
+        public void get_LocalName(){} // RVA: 0x7FFAF8B1D330
     }
 
-    public class XDocumentWrapper : XContainerWrapper
+    public class XDocumentWrapper
     {
         // ── Methods ──
-        public void get_Document(){} // RVA: 0x7FFE86BAE140
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_ChildNodes(){} // RVA: 0x7FFE86BAE1C0
-        public void get_HasChildNodes(){} // RVA: 0x7FFE86BAE310
-        public void CreateComment(){} // RVA: 0x7FFE86BAE360
-        public void CreateTextNode(){} // RVA: 0x7FFE86BAE4C0
-        public void CreateCDataSection(){} // RVA: 0x7FFE86BAE620
-        public void CreateWhitespace(){} // RVA: 0x7FFE86BAE780
-        public void CreateSignificantWhitespace(){} // RVA: 0x7FFE86BAE8E0
-        public void CreateXmlDeclaration(){} // RVA: 0x7FFE86BAEA40
-        public void CreateXmlDocumentType(){} // RVA: 0x7FFE86BAEAF0
-        public void CreateProcessingInstruction(){} // RVA: 0x7FFE86BAEBB0
-        public void CreateElement(){} // RVA: 0x7FFE86BAEE20 | overloaded x2
-        public void CreateAttribute(){} // RVA: 0x7FFE86BAF190 | overloaded x2
-        public void get_DocumentElement(){} // RVA: 0x7FFE86BAF370
-        public void AppendChild(){} // RVA: 0x7FFE86BAF450
+        public void get_Document(){} // RVA: 0x7FFAF8B1D370
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_ChildNodes(){} // RVA: 0x7FFAF8B1D3F0
+        public void get_HasChildNodes(){} // RVA: 0x7FFAF8B1D540
+        public void CreateComment(){} // RVA: 0x7FFAF8B1D590
+        public void CreateTextNode(){} // RVA: 0x7FFAF8B1D6F0
+        public void CreateCDataSection(){} // RVA: 0x7FFAF8B1D850
+        public void CreateWhitespace(){} // RVA: 0x7FFAF8B1D9B0
+        public void CreateSignificantWhitespace(){} // RVA: 0x7FFAF8B1DB10
+        public void CreateXmlDeclaration(){} // RVA: 0x7FFAF8B1DC70
+        public void CreateXmlDocumentType(){} // RVA: 0x7FFAF8B1DD20
+        public void CreateProcessingInstruction(){} // RVA: 0x7FFAF8B1DDE0
+        public void CreateElement(){} // RVA: 0x7FFAF8B1E050 | overloaded x2
+        public void CreateAttribute(){} // RVA: 0x7FFAF8B1E3C0 | overloaded x2
+        public void get_DocumentElement(){} // RVA: 0x7FFAF8B1E5A0
+        public void AppendChild(){} // RVA: 0x7FFAF8B1E680
     }
 
-    public class XElementWrapper : XContainerWrapper
+    public class XElementWrapper
     {
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes; // 0x20
-        public object field_1; // 0x2A2
-        public object field_2; // 0x2A3
-        public object field_3; // 0x2A4
-        public object field_4; // 0x2A5
-        public object field_5; // 0x2A6
-
         // ── Methods ──
-        public void get_Element(){} // RVA: 0x7FFE86BB0C60
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void SetAttributeNode(){} // RVA: 0x7FFE86BB0CE0
-        public void get_Attributes(){} // RVA: 0x7FFE86BB0DE0
-        public void HasImplicitNamespaceAttribute(){} // RVA: 0x7FFE86BB1320
-        public void AppendChild(){} // RVA: 0x7FFE86BB1690
-        public void get_Value(){} // RVA: 0x7FFE86BB1700
-        public void set_Value(){} // RVA: 0x7FFE86BB1730
-        public void get_LocalName(){} // RVA: 0x7FFE86BB1800
-        public void get_NamespaceUri(){} // RVA: 0x7FFE86BB1830
-        public void GetPrefixOfNamespace(){} // RVA: 0x7FFE86BB1870
-        public void get_IsEmpty(){} // RVA: 0x7FFE86BB18D0
+        public void get_Element(){} // RVA: 0x7FFAF8B1FE90
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void SetAttributeNode(){} // RVA: 0x7FFAF8B1FF10
+        public void get_Attributes(){} // RVA: 0x7FFAF8B20010
+        public void HasImplicitNamespaceAttribute(){} // RVA: 0x7FFAF8B20550
+        public void AppendChild(){} // RVA: 0x7FFAF8B208C0
+        public void get_Value(){} // RVA: 0x7FFAF8B20930
+        public void set_Value(){} // RVA: 0x7FFAF8B20960
+        public void get_LocalName(){} // RVA: 0x7FFAF8B20A30
+        public void get_NamespaceUri(){} // RVA: 0x7FFAF8B20A60
+        public void GetPrefixOfNamespace(){} // RVA: 0x7FFAF8B20AA0
+        public void get_IsEmpty(){} // RVA: 0x7FFAF8B20B00
     }
 
-    public class XObjectWrapper : Object
+    public class XObjectWrapper
     {
-        public System.Xml.Linq.XObject _xmlObject; // 0x10
-        public object field_1; // 0x295
-        public object field_2; // 0x296
-        public object field_3; // 0x297
-        public object field_4; // 0x298
-        public object field_5; // 0x299
-        public object field_6; // 0x29A
-        public object field_7; // 0x29B
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_WrappedNode(){} // RVA: 0x7FFE81116380
-        public void get_NodeType(){} // RVA: 0x7FFE86BB07D0
-        public void get_LocalName(){} // RVA: 0x7FFE813240E0
-        public void get_ChildNodes(){} // RVA: 0x7FFE86BB07F0
-        public void get_Attributes(){} // RVA: 0x7FFE86BB0850
-        public void get_ParentNode(){} // RVA: 0x7FFE813240E0
-        public void get_Value(){} // RVA: 0x7FFE813240E0
-        public void set_Value(){} // RVA: 0x7FFE86BB08B0
-        public void AppendChild(){} // RVA: 0x7FFE86BB08F0
-        public void get_NamespaceUri(){} // RVA: 0x7FFE813240E0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_WrappedNode(){} // RVA: 0x7FFAF2DA8380
+        public void get_NodeType(){} // RVA: 0x7FFAF8B1FA00
+        public void get_LocalName(){} // RVA: 0x7FFAF2FC9240
+        public void get_ChildNodes(){} // RVA: 0x7FFAF8B1FA20
+        public void get_Attributes(){} // RVA: 0x7FFAF8B1FA80
+        public void get_ParentNode(){} // RVA: 0x7FFAF2FC9240
+        public void get_Value(){} // RVA: 0x7FFAF2FC9240
+        public void set_Value(){} // RVA: 0x7FFAF8B1FAE0
+        public void AppendChild(){} // RVA: 0x7FFAF8B1FB20
+        public void get_NamespaceUri(){} // RVA: 0x7FFAF2FC9240
     }
 
-    public class XProcessingInstructionWrapper : XObjectWrapper
+    public class XProcessingInstructionWrapper
     {
         // ── Methods ──
-        public void get_ProcessingInstruction(){} // RVA: 0x7FFE86BAF9A0
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_LocalName(){} // RVA: 0x7FFE86BAFA20
-        public void get_Value(){} // RVA: 0x7FFE86BAFA40
-        public void set_Value(){} // RVA: 0x7FFE86BAFA60
+        public void get_ProcessingInstruction(){} // RVA: 0x7FFAF8B1EBD0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_LocalName(){} // RVA: 0x7FFAF8B1EC50
+        public void get_Value(){} // RVA: 0x7FFAF8B1EC70
+        public void set_Value(){} // RVA: 0x7FFAF8B1EC90
     }
 
-    public class XTextWrapper : XObjectWrapper
+    public class XTextWrapper
     {
         // ── Methods ──
-        public void get_Text(){} // RVA: 0x7FFE86BAF570
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_Value(){} // RVA: 0x7FFE86BAF5F0
-        public void set_Value(){} // RVA: 0x7FFE86BAF610
-        public void get_ParentNode(){} // RVA: 0x7FFE86BAF690
+        public void get_Text(){} // RVA: 0x7FFAF8B1E7A0
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_Value(){} // RVA: 0x7FFAF8B1E820
+        public void set_Value(){} // RVA: 0x7FFAF8B1E840
+        public void get_ParentNode(){} // RVA: 0x7FFAF8B1E8C0
     }
 
-    public class XmlDeclarationWrapper : XmlNodeWrapper
+    public class XmlDeclarationWrapper
     {
-        public System.Xml.XmlDeclaration _declaration; // 0x28
-        public object field_1; // 0x257
-        public object field_2; // 0x258
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86BAC040
-        public void get_Version(){} // RVA: 0x7FFE84D055D0
-        public void get_Encoding(){} // RVA: 0x7FFE86BACD10
-        public void set_Encoding(){} // RVA: 0x7FFE86BACD30
-        public void get_Standalone(){} // RVA: 0x7FFE86BACDF0
-        public void set_Standalone(){} // RVA: 0x7FFE86BACE10
+        public void .ctor(){} // RVA: 0x7FFAF8B1B270
+        public void get_Version(){} // RVA: 0x7FFAF6B3F310
+        public void get_Encoding(){} // RVA: 0x7FFAF8B1BF40
+        public void set_Encoding(){} // RVA: 0x7FFAF8B1BF60
+        public void get_Standalone(){} // RVA: 0x7FFAF8B1C020
+        public void set_Standalone(){} // RVA: 0x7FFAF8B1C040
     }
 
-    public class XmlDocumentTypeWrapper : XmlNodeWrapper
+    public class XmlDocumentTypeWrapper
     {
-        public System.Xml.XmlDocumentType _documentType; // 0x28
-        public object field_1; // 0x25A
-        public object field_2; // 0x25B
-        public object field_3; // 0x25C
-        public object field_4; // 0x25D
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86BAC040
-        public void get_Name(){} // RVA: 0x7FFE86BACE30
-        public void get_System(){} // RVA: 0x7FFE86BACDF0
-        public void get_Public(){} // RVA: 0x7FFE86BACD10
-        public void get_InternalSubset(){} // RVA: 0x7FFE86BACE60
-        public void get_LocalName(){} // RVA: 0x7FFE86BACE80
+        public void .ctor(){} // RVA: 0x7FFAF8B1B270
+        public void get_Name(){} // RVA: 0x7FFAF8B1C060
+        public void get_System(){} // RVA: 0x7FFAF8B1C020
+        public void get_Public(){} // RVA: 0x7FFAF8B1BF40
+        public void get_InternalSubset(){} // RVA: 0x7FFAF8B1C090
+        public void get_LocalName(){} // RVA: 0x7FFAF8B1C0B0
     }
 
-    public class XmlDocumentWrapper : XmlNodeWrapper
+    public class XmlDocumentWrapper
     {
-        public System.Xml.XmlDocument _document; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86BAC040
-        public void CreateComment(){} // RVA: 0x7FFE86BAC0F0
-        public void CreateTextNode(){} // RVA: 0x7FFE86BAC1C0
-        public void CreateCDataSection(){} // RVA: 0x7FFE86BAC290
-        public void CreateWhitespace(){} // RVA: 0x7FFE86BAC360
-        public void CreateSignificantWhitespace(){} // RVA: 0x7FFE86BAC430
-        public void CreateXmlDeclaration(){} // RVA: 0x7FFE86BAC500
-        public void CreateXmlDocumentType(){} // RVA: 0x7FFE86BAC5B0
-        public void CreateProcessingInstruction(){} // RVA: 0x7FFE86BAC670
-        public void CreateElement(){} // RVA: 0x7FFE86BAC7D0 | overloaded x2
-        public void CreateAttribute(){} // RVA: 0x7FFE86BAC9D0 | overloaded x2
-        public void get_DocumentElement(){} // RVA: 0x7FFE86BACB30
+        public void .ctor(){} // RVA: 0x7FFAF8B1B270
+        public void CreateComment(){} // RVA: 0x7FFAF8B1B320
+        public void CreateTextNode(){} // RVA: 0x7FFAF8B1B3F0
+        public void CreateCDataSection(){} // RVA: 0x7FFAF8B1B4C0
+        public void CreateWhitespace(){} // RVA: 0x7FFAF8B1B590
+        public void CreateSignificantWhitespace(){} // RVA: 0x7FFAF8B1B660
+        public void CreateXmlDeclaration(){} // RVA: 0x7FFAF8B1B730
+        public void CreateXmlDocumentType(){} // RVA: 0x7FFAF8B1B7E0
+        public void CreateProcessingInstruction(){} // RVA: 0x7FFAF8B1B8A0
+        public void CreateElement(){} // RVA: 0x7FFAF8B1BA00 | overloaded x2
+        public void CreateAttribute(){} // RVA: 0x7FFAF8B1BC00 | overloaded x2
+        public void get_DocumentElement(){} // RVA: 0x7FFAF8B1BD60
     }
 
-    public class XmlElementWrapper : XmlNodeWrapper
+    public class XmlElementWrapper
     {
-        public System.Xml.XmlElement _element; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86BAC040
-        public void SetAttributeNode(){} // RVA: 0x7FFE86BACBC0
-        public void GetPrefixOfNamespace(){} // RVA: 0x7FFE86BACCC0
-        public void get_IsEmpty(){} // RVA: 0x7FFE86BACCF0
+        public void .ctor(){} // RVA: 0x7FFAF8B1B270
+        public void SetAttributeNode(){} // RVA: 0x7FFAF8B1BDF0
+        public void GetPrefixOfNamespace(){} // RVA: 0x7FFAF8B1BEF0
+        public void get_IsEmpty(){} // RVA: 0x7FFAF8B1BF20
     }
 
-    public class XmlNodeConverter : JsonConverter
+    public class XmlNodeConverter
     {
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> EmptyChildNodes;
-        public string TextName;
-        public string CommentName;
-        public string CDataName;
-
         // ── Methods ──
-        public void get_DeserializeRootElementName(){} // RVA: 0x7FFE81116380
-        public void set_DeserializeRootElementName(){} // RVA: 0x7FFE810FCE30
-        public void get_WriteArrayAttribute(){} // RVA: 0x7FFE811164E0
-        public void set_WriteArrayAttribute(){} // RVA: 0x7FFE811164F0
-        public void get_OmitRootObject(){} // RVA: 0x7FFE814B3730
-        public void set_OmitRootObject(){} // RVA: 0x7FFE81CD0510
-        public void get_EncodeSpecialCharacters(){} // RVA: 0x7FFE82930110
-        public void set_EncodeSpecialCharacters(){} // RVA: 0x7FFE8292DD10
-        public void WriteJson(){} // RVA: 0x7FFE86BB1900
-        public void WrapXml(){} // RVA: 0x7FFE86BB1B50
-        public void PushParentNamespaces(){} // RVA: 0x7FFE86BB1CA0
-        public void ResolveFullName(){} // RVA: 0x7FFE86BB2270
-        public void GetPropertyName(){} // RVA: 0x7FFE86BB2490
-        public void IsArray(){} // RVA: 0x7FFE86BB28A0
-        public void SerializeGroupedNodes(){} // RVA: 0x7FFE86BB2B50
-        public void WriteGroupedNodes(){} // RVA: 0x7FFE86BB3580 | overloaded x2
-        public void SerializeNode(){} // RVA: 0x7FFE86BB3670
-        public void AllSameName(){} // RVA: 0x7FFE86BB45D0
-        public void ReadJson(){} // RVA: 0x7FFE86BB47C0
-        public void DeserializeValue(){} // RVA: 0x7FFE86BB4FF0
-        public void ReadElement(){} // RVA: 0x7FFE86BB5490
-        public void CreateElement(){} // RVA: 0x7FFE86BB8140 | overloaded x2
-        public void AddAttribute(){} // RVA: 0x7FFE86BB5F80
-        public void ConvertTokenToXmlValue(){} // RVA: 0x7FFE86BB6200
-        public void ReadArrayElements(){} // RVA: 0x7FFE86BB6AB0
-        public void AddJsonArrayAttribute(){} // RVA: 0x7FFE86BB6DE0
-        public void ShouldReadInto(){} // RVA: 0x7FFE86BB6F80
-        public void ReadAttributeElements(){} // RVA: 0x7FFE86BB7010
-        public void CreateInstruction(){} // RVA: 0x7FFE86BB7820
-        public void CreateDocumentType(){} // RVA: 0x7FFE86BB7CA0
-        public void DeserializeNode(){} // RVA: 0x7FFE86BB8300
-        public void IsNamespaceAttribute(){} // RVA: 0x7FFE86BB8CA0
-        public void ValueAttributes(){} // RVA: 0x7FFE86BB8EF0
-        public void CanConvert(){} // RVA: 0x7FFE86BB9180
-        public void IsXObject(){} // RVA: 0x7FFE86BB9260
-        public void IsXmlNode(){} // RVA: 0x7FFE86BB9340
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void .cctor(){} // RVA: 0x7FFE86BB9420
+        public void get_DeserializeRootElementName(){} // RVA: 0x7FFAF2DA8380
+        public void set_DeserializeRootElementName(){} // RVA: 0x7FFAF2D8EE30
+        public void get_WriteArrayAttribute(){} // RVA: 0x7FFAF2DA84E0
+        public void set_WriteArrayAttribute(){} // RVA: 0x7FFAF2DA84F0
+        public void get_OmitRootObject(){} // RVA: 0x7FFAF31693D0
+        public void set_OmitRootObject(){} // RVA: 0x7FFAF39F3D70
+        public void get_EncodeSpecialCharacters(){} // RVA: 0x7FFAF4648340
+        public void set_EncodeSpecialCharacters(){} // RVA: 0x7FFAF4648210
+        public void WriteJson(){} // RVA: 0x7FFAF8B20B30
+        public void WrapXml(){} // RVA: 0x7FFAF8B20D80
+        public void PushParentNamespaces(){} // RVA: 0x7FFAF8B20ED0
+        public void ResolveFullName(){} // RVA: 0x7FFAF8B214A0
+        public void GetPropertyName(){} // RVA: 0x7FFAF8B216C0
+        public void IsArray(){} // RVA: 0x7FFAF8B21AD0
+        public void SerializeGroupedNodes(){} // RVA: 0x7FFAF8B21D80
+        public void WriteGroupedNodes(){} // RVA: 0x7FFAF8B227B0 | overloaded x2
+        public void SerializeNode(){} // RVA: 0x7FFAF8B228A0
+        public void AllSameName(){} // RVA: 0x7FFAF8B23800
+        public void ReadJson(){} // RVA: 0x7FFAF8B239F0
+        public void DeserializeValue(){} // RVA: 0x7FFAF8B24220
+        public void ReadElement(){} // RVA: 0x7FFAF8B246C0
+        public void CreateElement(){} // RVA: 0x7FFAF8B27370 | overloaded x2
+        public void AddAttribute(){} // RVA: 0x7FFAF8B251B0
+        public void ConvertTokenToXmlValue(){} // RVA: 0x7FFAF8B25430
+        public void ReadArrayElements(){} // RVA: 0x7FFAF8B25CE0
+        public void AddJsonArrayAttribute(){} // RVA: 0x7FFAF8B26010
+        public void ShouldReadInto(){} // RVA: 0x7FFAF8B261B0
+        public void ReadAttributeElements(){} // RVA: 0x7FFAF8B26240
+        public void CreateInstruction(){} // RVA: 0x7FFAF8B26A50
+        public void CreateDocumentType(){} // RVA: 0x7FFAF8B26ED0
+        public void DeserializeNode(){} // RVA: 0x7FFAF8B27530
+        public void IsNamespaceAttribute(){} // RVA: 0x7FFAF8B27ED0
+        public void ValueAttributes(){} // RVA: 0x7FFAF8B28120
+        public void CanConvert(){} // RVA: 0x7FFAF8B283B0
+        public void IsXObject(){} // RVA: 0x7FFAF8B28490
+        public void IsXmlNode(){} // RVA: 0x7FFAF8B28570
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .cctor(){} // RVA: 0x7FFAF8B28650
     }
 
-    public class XmlNodeWrapper : Object
+    public class XmlNodeWrapper
     {
-        public System.Xml.XmlNode _node; // 0x10
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _childNodes; // 0x18
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes; // 0x20
-        public object field_3; // 0x25F
-        public object field_4; // 0x260
-        public object field_5; // 0x261
-        public object field_6; // 0x262
-        public object field_7; // 0x263
-        public object field_8; // 0x264
-        public object field_9; // 0x265
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FCE30
-        public void get_WrappedNode(){} // RVA: 0x7FFE81116380
-        public void get_NodeType(){} // RVA: 0x7FFE86853DC0
-        public void get_LocalName(){} // RVA: 0x7FFE86BACEC0
-        public void get_ChildNodes(){} // RVA: 0x7FFE86BACEF0
-        public void get_HasChildNodes(){} // RVA: 0x7FFE86BAD390
-        public void WrapNode(){} // RVA: 0x7FFE86BAD3C0
-        public void get_Attributes(){} // RVA: 0x7FFE86BAD5F0
-        public void get_HasAttributes(){} // RVA: 0x7FFE86BADB20
-        public void get_ParentNode(){} // RVA: 0x7FFE86BADC00
-        public void get_Value(){} // RVA: 0x7FFE86BADCC0
-        public void set_Value(){} // RVA: 0x7FFE86BADCF0
-        public void AppendChild(){} // RVA: 0x7FFE86BADD20
-        public void get_NamespaceUri(){} // RVA: 0x7FFE86BADE80
+        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_WrappedNode(){} // RVA: 0x7FFAF2DA8380
+        public void get_NodeType(){} // RVA: 0x7FFAF87C2EC0
+        public void get_LocalName(){} // RVA: 0x7FFAF8B1C0F0
+        public void get_ChildNodes(){} // RVA: 0x7FFAF8B1C120
+        public void get_HasChildNodes(){} // RVA: 0x7FFAF8B1C5C0
+        public void WrapNode(){} // RVA: 0x7FFAF8B1C5F0
+        public void get_Attributes(){} // RVA: 0x7FFAF8B1C820
+        public void get_HasAttributes(){} // RVA: 0x7FFAF8B1CD50
+        public void get_ParentNode(){} // RVA: 0x7FFAF8B1CE30
+        public void get_Value(){} // RVA: 0x7FFAF8B1CEF0
+        public void set_Value(){} // RVA: 0x7FFAF8B1CF20
+        public void AppendChild(){} // RVA: 0x7FFAF8B1CF50
+        public void get_NamespaceUri(){} // RVA: 0x7FFAF8B1D0B0
     }
 
 }

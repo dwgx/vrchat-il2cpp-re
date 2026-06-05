@@ -5,20 +5,20 @@
 
 namespace ThirdParty.DotNet.System.Xml.Schema
 {
-    public class QNameFacetsChecker : FacetsChecker
+    public class QNameFacetsChecker
     {
         // ── Methods ──
-        public void CheckValueFacets(){} // RVA: 0x7FFE8746D540 | overloaded x2
-        public void MatchEnumeration(){} // RVA: 0x7FFE8746D8F0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void CheckValueFacets(){} // RVA: 0x7FFAF93DE270 | overloaded x2
+        public void MatchEnumeration(){} // RVA: 0x7FFAF93DE620 | overloaded x2
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class QmarkNode : InteriorNode
+    public class QmarkNode
     {
         // ── Methods ──
-        public void ConstructPos(){} // RVA: 0x7FFE8761B3B0
-        public void get_IsNullable(){} // RVA: 0x7FFE811E0850
-        public void .ctor(){} // RVA: 0x7FFE810FB310
+        public void ConstructPos(){} // RVA: 0x7FFAF958C0C0
+        public void get_IsNullable(){} // RVA: 0x7FFAF2E72850
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

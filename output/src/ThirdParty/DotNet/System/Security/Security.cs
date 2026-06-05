@@ -5,151 +5,138 @@
 
 namespace ThirdParty.DotNet.System.Security
 {
-    public class CodeAccessPermission : Object
+    public class CodeAccessPermission
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE810FB310
-        public void Demand(){} // RVA: 0x7FFE867A4640
-        public void Equals(){} // RVA: 0x7FFE867A4670
-        public void GetHashCode(){} // RVA: 0x7FFE867A47B0
-        public void IsSubsetOf(){} // RVA: 0x7FFE80E2F3B0
-        public void ToString(){} // RVA: 0x7FFE867A47C0
-        public void ToXml(){} // RVA: 0x7FFE80E2E2E0
-        public void Element(){} // RVA: 0x7FFE867A4800
-        public void CheckPermissionState(){} // RVA: 0x7FFE867A4990
-        public void ThrowInvalidPermission(){} // RVA: 0x7FFE867A4A50
-        public void System.Security.IPermission.Demand(){} // RVA: 0x7FFE810FB310
+        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Demand(){} // RVA: 0x7FFAF87137A0
+        public void Equals(){} // RVA: 0x7FFAF87137D0
+        public void GetHashCode(){} // RVA: 0x7FFAF8713910
+        public void IsSubsetOf(){} // RVA: 0x7FFAF2ABDE40
+        public void ToString(){} // RVA: 0x7FFAF8713920
+        public void ToXml(){} // RVA: 0x7FFAF2ABCD60
+        public void Element(){} // RVA: 0x7FFAF8713960
+        public void CheckPermissionState(){} // RVA: 0x7FFAF8713AF0
+        public void ThrowInvalidPermission(){} // RVA: 0x7FFAF8713BB0
+        public void System.Security.IPermission.Demand(){} // RVA: 0x7FFAF2D8D310
     }
 
     public class IPermission
     {
         // ── Methods ──
-        public void Demand(){} // RVA: 0x7FFE80E45FE0
-        public void IsSubsetOf(){} // RVA: 0x7FFE80E2F3B0
+        public void Demand(){} // RVA: 0x7FFAF2AD4A50
+        public void IsSubsetOf(){} // RVA: 0x7FFAF2ABDE40
     }
 
     public class ISecurityEncodable
     {
         // ── Methods ──
-        public void ToXml(){} // RVA: 0x7FFE80E2E2E0
+        public void ToXml(){} // RVA: 0x7FFAF2ABCD60
     }
 
-    public class NamedPermissionSet : PermissionSet
+    public class NamedPermissionSet
     {
-        public string name; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867A4CD0 | overloaded x3
-        public void get_Name(){} // RVA: 0x7FFE8144E200
-        public void set_Name(){} // RVA: 0x7FFE867A4E50
-        public void ToXml(){} // RVA: 0x7FFE867A4F80
-        public void Equals(){} // RVA: 0x7FFE867A5030
-        public void GetHashCode(){} // RVA: 0x7FFE867A50E0
+        public void .ctor(){} // RVA: 0x7FFAF8713E30 | overloaded x3
+        public void get_Name(){} // RVA: 0x7FFAF30E74D0
+        public void set_Name(){} // RVA: 0x7FFAF8713FB0
+        public void ToXml(){} // RVA: 0x7FFAF87140E0
+        public void Equals(){} // RVA: 0x7FFAF8714190
+        public void GetHashCode(){} // RVA: 0x7FFAF8714240
     }
 
-    public class PermissionSet : Object
+    public class PermissionSet
     {
-        public object[] psUnrestricted;
-        public 0x664C45FC state; // 0x10
-        public System.Collections.ArrayList list; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867A5230 | overloaded x3
-        public void CopyTo(){} // RVA: 0x7FFE867A5280
-        public void Demand(){} // RVA: 0x7FFE867A5410
-        public void CasOnlyDemand(){} // RVA: 0x7FFE867A56A0
-        public void GetEnumerator(){} // RVA: 0x7FFE867A5750
-        public void IsEmpty(){} // RVA: 0x7FFE867A5780
-        public void IsUnrestricted(){} // RVA: 0x7FFE84C37D50
-        public void ToString(){} // RVA: 0x7FFE867A59A0
-        public void ToXml(){} // RVA: 0x7FFE867A59E0
-        public void get_Count(){} // RVA: 0x7FFE85B0C750
-        public void get_IsSynchronized(){} // RVA: 0x7FFE867A5E30
-        public void get_SyncRoot(){} // RVA: 0x7FFE827C4A80
-        public void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(){} // RVA: 0x7FFE810FB310
-        public void Equals(){} // RVA: 0x7FFE867A5E60
-        public void GetHashCode(){} // RVA: 0x7FFE867A6030
-        public void .cctor(){} // RVA: 0x7FFE867A6080
+        public void .ctor(){} // RVA: 0x7FFAF8714390 | overloaded x3
+        public void CopyTo(){} // RVA: 0x7FFAF87143E0
+        public void Demand(){} // RVA: 0x7FFAF8714570
+        public void CasOnlyDemand(){} // RVA: 0x7FFAF8714800
+        public void GetEnumerator(){} // RVA: 0x7FFAF87148B0
+        public void IsEmpty(){} // RVA: 0x7FFAF87148E0
+        public void IsUnrestricted(){} // RVA: 0x7FFAF6A700F0
+        public void ToString(){} // RVA: 0x7FFAF8714B00
+        public void ToXml(){} // RVA: 0x7FFAF8714B40
+        public void get_Count(){} // RVA: 0x7FFAF8714F90
+        public void get_IsSynchronized(){} // RVA: 0x7FFAF7AF0B10
+        public void get_SyncRoot(){} // RVA: 0x7FFAF44EF520
+        public void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(){} // RVA: 0x7FFAF2D8D310
+        public void Equals(){} // RVA: 0x7FFAF8714FC0
+        public void GetHashCode(){} // RVA: 0x7FFAF8715190
+        public void .cctor(){} // RVA: 0x7FFAF87151E0
     }
 
-    public class SecureString : Object
+    public class SecureString
     {
-        public int BlockSize;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867A63C0 | overloaded x2
-        public void get_Length(){} // RVA: 0x7FFE867A6530
-        public void Dispose(){} // RVA: 0x7FFE867A65A0
-        public void Encrypt(){} // RVA: 0x7FFE81D95990
-        public void Decrypt(){} // RVA: 0x7FFE81D95990
-        public void Alloc(){} // RVA: 0x7FFE867A6640
-        public void GetBuffer(){} // RVA: 0x7FFE867A6800
+        public void .ctor(){} // RVA: 0x7FFAF8715520 | overloaded x2
+        public void get_Length(){} // RVA: 0x7FFAF8715690
+        public void Dispose(){} // RVA: 0x7FFAF8715700
+        public void Encrypt(){} // RVA: 0x7FFAF3AD0CE0
+        public void Decrypt(){} // RVA: 0x7FFAF3AD0CE0
+        public void Alloc(){} // RVA: 0x7FFAF87157A0
+        public void GetBuffer(){} // RVA: 0x7FFAF8715960
     }
 
-    public class SecurityDocument : Object
+    public class SecurityDocument
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867A3970
-        public void GuaranteeSize(){} // RVA: 0x7FFE867A3A10
-        public void AddString(){} // RVA: 0x7FFE867A3B10
-        public void AppendString(){} // RVA: 0x7FFE867A3C50
-        public void EncodedStringSize(){} // RVA: 0x7FFE867A3CF0
-        public void GetString(){} // RVA: 0x7FFE867A3D10
-        public void AddToken(){} // RVA: 0x7FFE867A41C0
-        public void GetRootElement(){} // RVA: 0x7FFE867A4220
-        public void GetElement(){} // RVA: 0x7FFE867A4250
-        public void InternalGetElement(){} // RVA: 0x7FFE867A4270
+        public void .ctor(){} // RVA: 0x7FFAF8712AD0
+        public void GuaranteeSize(){} // RVA: 0x7FFAF8712B70
+        public void AddString(){} // RVA: 0x7FFAF8712C70
+        public void AppendString(){} // RVA: 0x7FFAF8712DB0
+        public void EncodedStringSize(){} // RVA: 0x7FFAF8712E50
+        public void GetString(){} // RVA: 0x7FFAF8712E70
+        public void AddToken(){} // RVA: 0x7FFAF8713320
+        public void GetRootElement(){} // RVA: 0x7FFAF8713380
+        public void GetElement(){} // RVA: 0x7FFAF87133B0
+        public void InternalGetElement(){} // RVA: 0x7FFAF87133D0
     }
 
-    public class SecurityElement : Object
+    public class SecurityElement
     {
-        public string text; // 0x10
-        public string tag; // 0x18
-        public System.Collections.ArrayList attributes; // 0x20
-        public System.Collections.ArrayList children; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867A68C0 | overloaded x2
-        public void get_Children(){} // RVA: 0x7FFE81129130
-        public void get_Tag(){} // RVA: 0x7FFE810FE7C0
-        public void set_Text(){} // RVA: 0x7FFE867A6AB0
-        public void AddAttribute(){} // RVA: 0x7FFE867A6C50
-        public void AddChild(){} // RVA: 0x7FFE867A6E50
-        public void Escape(){} // RVA: 0x7FFE867A6F80
-        public void Unescape(){} // RVA: 0x7FFE867A7200
-        public void IsValidAttributeName(){} // RVA: 0x7FFE867A7420
-        public void IsValidAttributeValue(){} // RVA: 0x7FFE867A74B0
-        public void IsValidTag(){} // RVA: 0x7FFE867A7540
-        public void IsValidText(){} // RVA: 0x7FFE867A75D0
-        public void SearchForChildByTag(){} // RVA: 0x7FFE867A7660
-        public void SearchForTextOfTag(){} // RVA: 0x7FFE867A77F0
-        public void ToString(){} // RVA: 0x7FFE867A79A0
-        public void ToXml(){} // RVA: 0x7FFE867A7A30
-        public void GetAttribute(){} // RVA: 0x7FFE867A8070
-        public void set_m_strText(){} // RVA: 0x7FFE810FCE30
-        public void SearchForTextOfLocalName(){} // RVA: 0x7FFE867A8280
-        public void .cctor(){} // RVA: 0x7FFE867A8550
+        public void .ctor(){} // RVA: 0x7FFAF8715A20 | overloaded x2
+        public void get_Children(){} // RVA: 0x7FFAF2DBB130
+        public void get_Tag(){} // RVA: 0x7FFAF2D907C0
+        public void set_Text(){} // RVA: 0x7FFAF8715C10
+        public void AddAttribute(){} // RVA: 0x7FFAF8715DB0
+        public void AddChild(){} // RVA: 0x7FFAF8715FB0
+        public void Escape(){} // RVA: 0x7FFAF87160E0
+        public void Unescape(){} // RVA: 0x7FFAF8716360
+        public void IsValidAttributeName(){} // RVA: 0x7FFAF8716580
+        public void IsValidAttributeValue(){} // RVA: 0x7FFAF8716610
+        public void IsValidTag(){} // RVA: 0x7FFAF87166A0
+        public void IsValidText(){} // RVA: 0x7FFAF8716730
+        public void SearchForChildByTag(){} // RVA: 0x7FFAF87167C0
+        public void SearchForTextOfTag(){} // RVA: 0x7FFAF8716950
+        public void ToString(){} // RVA: 0x7FFAF8716B00
+        public void ToXml(){} // RVA: 0x7FFAF8716B90
+        public void GetAttribute(){} // RVA: 0x7FFAF87171D0
+        public void set_m_strText(){} // RVA: 0x7FFAF2D8EE30
+        public void SearchForTextOfLocalName(){} // RVA: 0x7FFAF87173E0
+        public void .cctor(){} // RVA: 0x7FFAF87176B0
     }
 
-    public class SecurityException : SystemException
+    public class SecurityException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE867A8E80 | overloaded x4
-        public void GetObjectData(){} // RVA: 0x7FFE867A8EA0
-        public void ToString(){} // RVA: 0x7FFE867A9110
+        public void .ctor(){} // RVA: 0x7FFAF8717FE0 | overloaded x4
+        public void GetObjectData(){} // RVA: 0x7FFAF8718000
+        public void ToString(){} // RVA: 0x7FFAF8718270
     }
 
-    public class SecurityManager : Object
+    public class SecurityManager
     {
         // ── Methods ──
-        public void get_SecurityEnabled(){} // RVA: 0x7FFE810FB320
-        public void EnsureElevatedPermissions(){} // RVA: 0x7FFE810FB310
+        public void get_SecurityEnabled(){} // RVA: 0x7FFAF2D8D320
+        public void EnsureElevatedPermissions(){} // RVA: 0x7FFAF2D8D310
     }
 
-    public class XmlSyntaxException : SystemException
+    public class XmlSyntaxException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE827C3CE0 | overloaded x4
+        public void .ctor(){} // RVA: 0x7FFAF44EE1C0 | overloaded x4
     }
 
 }

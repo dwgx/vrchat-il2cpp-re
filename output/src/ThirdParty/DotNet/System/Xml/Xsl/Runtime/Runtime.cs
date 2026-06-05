@@ -5,15 +5,15 @@
 
 namespace ThirdParty.DotNet.System.Xml.Xsl.Runtime
 {
-    public class StringConcat : ValueType
+    public class StringConcat
     {
-        public string s1; // 0x10
+        public object CurNode;
 
         // ── Methods ──
-        public void Clear(){} // RVA: 0x7FFE8760DC20
-        public void get_Count(){} // RVA: 0x7FFE81156CD0
-        public void GetResult(){} // RVA: 0x7FFE8760DC80
-        public void ConcatNoDelimiter(){} // RVA: 0x7FFE8760DD80
+        public void Clear(){} // RVA: 0x7FFAF957E930
+        public void get_Count(){} // RVA: 0x7FFAF2DE8CD0
+        public void GetResult(){} // RVA: 0x7FFAF957E990
+        public void ConcatNoDelimiter(){} // RVA: 0x7FFAF957EA90
     }
 
 }

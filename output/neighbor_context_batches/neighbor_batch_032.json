@@ -1,0 +1,154 @@
+[
+  {
+    "class": "PlayerMoveNext_C4E9",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "GetEnumerator",
+      "get_Current",
+      "Dispose",
+      "System.Collections.IEnumerator.get_Current",
+      "System.Collections.IEnumerable.GetEnumerator",
+      "MoveNext",
+      "System.Collections.IEnumerator.Reset",
+      "System.Collections.Generic.IEnumerator<System.String>.get_Current",
+      "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator",
+      "System.IDisposable.Dispose"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_582",
+      "m_9B7",
+      "m_E2B",
+      "m_378",
+      "m_399",
+      "m_DB5",
+      "m_82A",
+      "m_8B5",
+      "m_EB5"
+    ],
+    "remaining_hash_methods": 9,
+    "total_methods": 21,
+    "signal_score": 121
+  },
+  {
+    "class": "NetworkSyncable_2FB8",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "Encode",
+      "CanSerialize32Bit",
+      "NeedsSync",
+      "SerializedName",
+      "Decode",
+      "CanSerialize8Bit",
+      "set_TypeId",
+      "get_TypeId",
+      "NeedsImportant"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_97E",
+      "m_5A2",
+      "m_724",
+      "m_E66",
+      "m_B2E",
+      "m_91E",
+      "m_96E",
+      "m_8A3",
+      "m_1C2",
+      "m_A66",
+      "m_3A8",
+      "m_540"
+    ],
+    "remaining_hash_methods": 14,
+    "total_methods": 31,
+    "signal_score": 120
+  },
+  {
+    "class": "AppSettings",
+    "parent": "",
+    "namespace": "Mediapipe.Unity.Sample",
+    "known_methods": [
+      "set_assetLoaderType",
+      "set_preferableInferenceMode",
+      "get_State",
+      "set_defaultImageSource",
+      "get_assetLoaderType",
+      "get_preferredMaximumResolution",
+      "get_defaultImageSource",
+      "set_logLevel",
+      "get_preferableInferenceMode",
+      "get_logLevel",
+      "OnPointerEnter"
+    ],
+    "fields": [
+      "clipCaps"
+    ],
+    "hash_methods": [
+      "m_B00"
+    ],
+    "remaining_hash_methods": 1,
+    "total_methods": 16,
+    "signal_score": 118
+  },
+  {
+    "class": "LookTargetController",
+    "parent": "",
+    "namespace": "RealisticEyeMovements",
+    "known_methods": [
+      "set_ScaleMode",
+      "RaiseCancellation",
+      "DoRange",
+      "Computevalue",
+      "OnApplicationQuit",
+      "get_useGUILayout",
+      "set_useGUILayout",
+      "OnCollisionEnter",
+      "IsObjectMonoBehaviour",
+      "StopCoroutineFromEnumeratorManaged",
+      "GetScriptClassName"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_86D",
+      "m_F91"
+    ],
+    "remaining_hash_methods": 2,
+    "total_methods": 35,
+    "signal_score": 117
+  },
+  {
+    "class": "TransformField16DisposeComponent_57C8",
+    "parent": "",
+    "namespace": "",
+    "known_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_03A",
+      "m_777",
+      "m_A05",
+      "m_452",
+      "m_0B4",
+      "m_832",
+      "m_E5D",
+      "m_441",
+      "m_4F6",
+      "m_8F1",
+      "m_E16",
+      "m_A66"
+    ],
+    "remaining_hash_methods": 17,
+    "total_methods": 35,
+    "signal_score": 117
+  }
+]

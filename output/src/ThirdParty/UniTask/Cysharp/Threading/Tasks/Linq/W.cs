@@ -5,45 +5,45 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class WhereAwaitWithCancellation`1 : Object
+    public class WhereAwaitWithCancellation`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
         public void GetAsyncEnumerator(){}
     }
 
-    public class WhereAwait`1 : Object
+    public class WhereAwait`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
         public void GetAsyncEnumerator(){}
     }
 
-    public class WhereIntAwaitWithCancellation`1 : Object
+    public class WhereIntAwaitWithCancellation`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
         public void GetAsyncEnumerator(){}
     }
 
-    public class WhereIntAwait`1 : Object
+    public class WhereIntAwait`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
         public void GetAsyncEnumerator(){}
     }
 
-    public class WhereInt`1 : Object
+    public class WhereInt`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
         public void GetAsyncEnumerator(){}
     }
 
-    public class Where`1 : Object
+    public class Where`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE80E4F230
+        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
         public void GetAsyncEnumerator(){}
     }
 

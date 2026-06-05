@@ -1,0 +1,197 @@
+[
+  {
+    "class": "UdonDisableEventProcessing_A521_6832",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "RunEventAdvanced",
+      "SetProgramVariable",
+      "GetIsNetworkingSupported",
+      "set_DisableEventProcessing",
+      "RunEvent",
+      "set_InteractionText",
+      "DoThrowUInt16OverflowException",
+      "set_SyncMetadataTable"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_5D8"
+    ]
+  },
+  {
+    "class": "AvatarCullingMonitor",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_AvatarCullableShouldRun",
+      "set_AvatarCullableShouldRun",
+      "set_AvatarScreenSizeAboveTriggerThreshold",
+      "Cleanup",
+      "set_AvatarKindValidForExecution",
+      "Dispose",
+      "SteamVR_Behaviour_Boolean_OnState",
+      "RefreshAvatarCullingState"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_47A"
+    ]
+  },
+  {
+    "class": "NetworkItemSibling_FEF9_E418",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_scale",
+      "GetMaxDampTime",
+      "get_AreaX",
+      "get_preferredPeakBitRate",
+      "GetMaxHealth",
+      "SetActive",
+      "InitializeStaticResources",
+      "GetCurrentHealth"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_C93"
+    ]
+  },
+  {
+    "class": "StyleEngine",
+    "parent": "",
+    "namespace": "VRC.UI.Core.Styles",
+    "readable_methods": [
+      "get_fullPath",
+      "ProcessLipSyncAudio",
+      "DoAlloc",
+      "ResetOVRLipSyncContext",
+      "OnApplicationQuit",
+      "VRCSetAvatarMainIK",
+      "GetScriptClassName",
+      "OnTriggerExit"
+    ],
+    "fields": [
+      "importedWithErrors"
+    ],
+    "hash_methods": [
+      "m_CFE"
+    ]
+  },
+  {
+    "class": "PointerClickPointerMoveHandler_4464_A561",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBeginDrag",
+      "OnBecameVisible",
+      "get_version",
+      "StartCoroutine_Auto",
+      "OnPointerMove",
+      "OnPointerClick",
+      "GetTextTracks",
+      "OnEndDrag"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_EB1",
+      "m_DF6"
+    ]
+  },
+  {
+    "class": "ShouldActivateModuleIsModuleSupported_8A61_DA85",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "get_sendPointerHoverToParent",
+      "ShouldActivateModule",
+      "set_inputOverride",
+      "IsModuleSupported",
+      "get_ThrottleInput",
+      "DetermineMoveDirection",
+      "HandlePointerExitAndEnter",
+      "set_ThrottleInput"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_4BE"
+    ]
+  },
+  {
+    "class": "PlayerManuallyRecordInteractionGetIsPlayingCon_5B6A_F584",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "GetUserAttributes",
+      "GetItemId",
+      "GetScale",
+      "ManuallyRecordInteractionEvent",
+      "GetPlayersInRange",
+      "GetNearestPlayerInRange",
+      "SetUserAttributes"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_64D",
+      "m_BB2"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7SiblingSibling_0512",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnCollisionStay",
+      "OnCollisionExit",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_F68",
+      "m_2A2"
+    ]
+  },
+  {
+    "class": "LifecycleComponent_5FA7Sibling_694C",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnApplicationPause",
+      "OnApplicationQuit",
+      "OnBecameVisible",
+      "OnBecameInvisible",
+      "OnCollisionEnter",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "OnTriggerExit"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_47F",
+      "m_A66"
+    ]
+  },
+  {
+    "class": "PointerEnterPointerExitHandler_1283_EDB0",
+    "parent": "",
+    "namespace": "",
+    "readable_methods": [
+      "OnPointerExit",
+      "OnCollisionStay",
+      "OnTriggerEnter",
+      "OnTriggerStay",
+      "GetTargets",
+      "ResetOVRLipSyncContext",
+      "SetupLipSyncProcessing",
+      "OnPointerEnter"
+    ],
+    "fields": [],
+    "hash_methods": [
+      "m_37E"
+    ]
+  }
+]

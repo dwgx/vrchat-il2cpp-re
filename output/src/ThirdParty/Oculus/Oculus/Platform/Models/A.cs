@@ -5,100 +5,100 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class AbuseReportRecording : Object
+    public class AbuseReportRecording
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C21590
+        public void .ctor(){} // RVA: 0x7FFAF8B907C0
     }
 
-    public class AchievementDefinition : Object
+    public class AchievementDefinition
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C216E0
+        public void .ctor(){} // RVA: 0x7FFAF8B90910
     }
 
-    public class AchievementDefinitionList : DeserializableList`1
+    public class AchievementDefinitionList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C21950
+        public void .ctor(){} // RVA: 0x7FFAF8B90B80
     }
 
-    public class AchievementProgress : Object
+    public class AchievementProgress
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C21D40
+        public void .ctor(){} // RVA: 0x7FFAF8B90F70
     }
 
-    public class AchievementProgressList : DeserializableList`1
+    public class AchievementProgressList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C220F0
+        public void .ctor(){} // RVA: 0x7FFAF8B91320
     }
 
-    public class AchievementUpdate : Object
+    public class AchievementUpdate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C224E0
+        public void .ctor(){} // RVA: 0x7FFAF8B91710
     }
 
-    public class ApplicationInvite : Object
+    public class ApplicationInvite
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C226B0
+        public void .ctor(){} // RVA: 0x7FFAF8B918E0
     }
 
-    public class ApplicationInviteList : DeserializableList`1
+    public class ApplicationInviteList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C22D00
+        public void .ctor(){} // RVA: 0x7FFAF8B91F30
     }
 
-    public class ApplicationVersion : Object
+    public class ApplicationVersion
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C230F0
+        public void .ctor(){} // RVA: 0x7FFAF8B92320
     }
 
-    public class AssetDetails : Object
+    public class AssetDetails
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C233F0
+        public void .ctor(){} // RVA: 0x7FFAF8B92620
     }
 
-    public class AssetDetailsList : DeserializableList`1
+    public class AssetDetailsList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C23B20
+        public void .ctor(){} // RVA: 0x7FFAF8B92D50
     }
 
-    public class AssetFileDeleteResult : Object
+    public class AssetFileDeleteResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C23E00
+        public void .ctor(){} // RVA: 0x7FFAF8B93030
     }
 
-    public class AssetFileDownloadCancelResult : Object
+    public class AssetFileDownloadCancelResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C24080
+        public void .ctor(){} // RVA: 0x7FFAF8B932B0
     }
 
-    public class AssetFileDownloadResult : Object
+    public class AssetFileDownloadResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C24300
+        public void .ctor(){} // RVA: 0x7FFAF8B93530
     }
 
-    public class AssetFileDownloadUpdate : Object
+    public class AssetFileDownloadUpdate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C244C0
+        public void .ctor(){} // RVA: 0x7FFAF8B936F0
     }
 
-    public class AvatarEditorResult : Object
+    public class AvatarEditorResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFE86C24710
+        public void .ctor(){} // RVA: 0x7FFAF8B93940
     }
 
 }

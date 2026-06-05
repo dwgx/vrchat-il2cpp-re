@@ -11,55 +11,57 @@
       "community_name_mapping.json": "64b09f7a697202ca47c1492367bbd47c7d8dc6bcef37ea9b172f27def2672d61",
       "structural_matches.json": "d079e725d67401d833d0e34a1a17f20ddea7ce6a61049d0be77c787d9671eb0b",
       "additional_names.json": "b9259666091918dc050fdf6fdafe2c91a3f889bf97f5f1c96a5aeb3e8f6889ff",
-      "cross_version_method_names.json": "ca3940f5ac17e50b5c1bf301dbc132ce117fe1009ca685b7cd1c225c877d1939",
+      "cross_version_method_names.json": "1e2d583fd682363d9292994901e08c3114c43ba2cad2ad1a9fe2e73a0629ff70",
       "apr25_lifted_vocab.json": "75fc703dae66a414512249aa498d39cbc557a7c76e4b064b41a040a4d28534a3"
     },
-    "output_hash": "7c5862194325c5374f27ffd6d680b332e413cd10ceb8e601a7097231d9d3bcf0",
-    "timestamp": "2026-05-04 04:50:26",
+    "output_hash": "a72348bf25825f335b1f2272f099571f3df4feb0438b4610c5fc8421c2ca9784",
+    "timestamp": "2026-06-05 09:12:55",
     "completed": true
   },
   "stage_1": {
     "input_hashes": {
-      "precise_dump.json": "182068755516303233c234aadd98d819e8d6016a3fcd69851e97594041c28ce2",
-      "unified_vocabulary.json": "7c5862194325c5374f27ffd6d680b332e413cd10ceb8e601a7097231d9d3bcf0",
+      "precise_dump.json": "fc933ac29de4915e3dd4d3984e1e2a61374816dab36c28370416cf26d67d54f2",
+      "unified_vocabulary.json": "a72348bf25825f335b1f2272f099571f3df4feb0438b4610c5fc8421c2ca9784",
       "va_propagation_names.json": "cbde7403a8a921b97066afe975a1bfa0bc3b1752fc124ff63c93da668603619f",
       "callgraph_method_names.json": "9eb20febb55326e93fc813d981286be77b63af835a7d5b9ceb9fee141b3ea9a2",
-      "string_api_method_names.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "string_api_method_names.json": "1c84b9c8d4ace90b3b17562a3bb9cd79ff386a3de23ca422d6a30a9b375d92d0",
       "ida_method_string_names.json": "42273d8d5861f8115c5560fc9f0703ef2da99a4da04bea57f9cd5e52e4da4b17",
-      "llm_predicted_names.json": "3317d2d121dff21a12817deb3997197e0b5b85560ad50b3f797da0d036fd5b75"
+      "llm_predicted_names.json": "7e17864d0285b99909b2e8d1e5a5cf55be119adb83f940f9ddc24590549a5ec9",
+      "structural_renames.json": "1d534ee7eac3105c8cfd09fb77fe4a433d6f378f0992a8d86d0dfd08dff78ae7"
     },
-    "output_hash": "a8a94eee8579d717a4b1f17b3ad3048624dffa4835f60300fb80f76df850655e",
-    "timestamp": "2026-05-04 04:50:39",
+    "output_hash": "7d9f25e336160334a1b8c326002d5a67809841ac82314ca0b1ed197666b566d3",
+    "timestamp": "2026-06-05 09:13:20",
     "completed": true
   },
   "stage_2": {
     "input_hashes": {
-      "deobfuscated_dump.json": "d5c158f307c2ad592ddf0f8f639b2571b63c6d89aa838193bef286462347096c",
-      "name_mapping.json": "43df2f71cc038f8c7f8667969ba8ee62bc8817e50efb29d7ae8de58303604240",
+      "deobfuscated_dump.json": "103d7d20aa904f71d8f249d2f0f0ebe78824a1e26e19c9636705fa6e718aace4",
+      "name_mapping.json": "136c854cf3a0421a3d7464c0b127428556c65c20f504879085f37d0865b48d61",
       "structural_matches.json": "d079e725d67401d833d0e34a1a17f20ddea7ce6a61049d0be77c787d9671eb0b",
+      "structural_renames.json": "1d534ee7eac3105c8cfd09fb77fe4a433d6f378f0992a8d86d0dfd08dff78ae7",
       "community_name_mapping.json": "64b09f7a697202ca47c1492367bbd47c7d8dc6bcef37ea9b172f27def2672d61",
       "additional_names.json": "b9259666091918dc050fdf6fdafe2c91a3f889bf97f5f1c96a5aeb3e8f6889ff",
       "photon_protocol_analysis.md": "170dbaffa5f33c4221f6f569539fa2ddaabba6cd265ea8c8bc684307fbe42f9e"
     },
-    "output_hash": "d5c158f307c2ad592ddf0f8f639b2571b63c6d89aa838193bef286462347096c",
-    "timestamp": "2026-05-04 04:50:41",
+    "output_hash": "103d7d20aa904f71d8f249d2f0f0ebe78824a1e26e19c9636705fa6e718aace4",
+    "timestamp": "2026-06-05 09:13:22",
     "completed": true
   },
   "stage_3": {
     "input_hashes": {
-      "deobfuscated_dump.json": "d5c158f307c2ad592ddf0f8f639b2571b63c6d89aa838193bef286462347096c"
+      "deobfuscated_dump.json": "103d7d20aa904f71d8f249d2f0f0ebe78824a1e26e19c9636705fa6e718aace4"
     },
     "output_hash": null,
-    "timestamp": "2026-05-04 04:50:43",
+    "timestamp": "2026-06-05 09:13:25",
     "completed": true
   },
   "stage_4": {
     "input_hashes": {
-      "deobfuscated_dump.json": "d5c158f307c2ad592ddf0f8f639b2571b63c6d89aa838193bef286462347096c",
-      "name_mapping.json": "43df2f71cc038f8c7f8667969ba8ee62bc8817e50efb29d7ae8de58303604240"
+      "deobfuscated_dump.json": "103d7d20aa904f71d8f249d2f0f0ebe78824a1e26e19c9636705fa6e718aace4",
+      "name_mapping.json": "136c854cf3a0421a3d7464c0b127428556c65c20f504879085f37d0865b48d61"
     },
-    "output_hash": "f250fd226698ac483c9b625af0698a6424b27b606f40f7582f8fee423daeb510",
-    "timestamp": "2026-05-04 04:50:44",
+    "output_hash": "7b0629935e2af90c5462cf44c8d023b89161b7336ae66ab5e9ab704dd75f29db",
+    "timestamp": "2026-06-05 09:13:26",
     "completed": true
   }
 }
