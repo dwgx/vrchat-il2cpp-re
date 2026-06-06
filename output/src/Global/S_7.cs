@@ -335,8 +335,8 @@ public class SystemController
     public void Initialize(){} // RVA: 0x7FFAF4268EE0
     public void GetGameObject_EAA(){} // RVA: 0x7FFAF38471C0
     public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
+    public void Logout(){} // RVA: 0x7FFAF38471C0
     // ── Unresolved (hash) ──
-    public void m_134(){} // RVA: 0x7FFAF38471C0
     public void m_9E8(){} // RVA: 0x7FFAF4268F70
 }
 

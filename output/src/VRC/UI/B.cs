@@ -41,7 +41,10 @@ namespace VRC.UI
         public void OnScroll(){} // RVA: 0x7FFAFB700C00
         public void OnValueChanged(){} // RVA: 0x7FFAFB7019D0
         public void OnEndEdit(){} // RVA: 0x7FFAF304E660
+        public void get_ResponseModels(){} // RVA: 0x7FFAF2E08D50
         public void StartStateMachine(){} // RVA: 0x7FFAFB703B80
+        public void get_up(){} // RVA: 0x7FFAF304E660
+        public void OnTransformChildrenChanged(){} // RVA: 0x7FFAF2E2B370
         public void DispatchButtonTransformResult(){} // RVA: 0x7FFAFB7058F0
         public void DispatchButtonTransformResult_FFED58473F42(){} // RVA: 0x7FFAFB705A00
         public void Awake(){} // RVA: 0x7FFAFB705B30
@@ -51,13 +54,13 @@ namespace VRC.UI
         public void Initialize(){} // RVA: 0x7FFAFB707640
         public void LateUpdate(){} // RVA: 0x7FFAFB707780
         public void OnDisable(){} // RVA: 0x7FFAFB7078D0
-        // ── 24 unresolved (hash) ──
+        // ── 21 unresolved (hash) ──
         public void m_2FD(){} // RVA: 0x7FFAFB701A90
-        public void m_B78(){} // RVA: 0x7FFAF2E08D50
         public void m_6B3(){} // RVA: 0x7FFAFB701C90
         public void m_C49(){} // RVA: 0x7FFAFB702560
         public void m_35C(){} // RVA: 0x7FFAFB703120
-        // ... 19 more unresolved methods
+        public void m_3BF(){} // RVA: 0x7FFAFB703320
+        // ... 16 more unresolved methods
     }
 
 }

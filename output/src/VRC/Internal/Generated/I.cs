@@ -9,6 +9,8 @@ namespace VRC.Internal.Generated
     public class IEnumerableImpl_0799
     {
         // ── Methods ──
+        public void get_Count(){} // RVA: 0x7FFAF2ABD840
+        public void get_Count_A7979636A751(){} // RVA: 0x7FFAF2ABD840
         public void GetEnumerator_C01D27672798(){} // RVA: 0x7FFAF2ABD840
         public void op_Implicit(){} // RVA: 0x7FFAF2AE18E0
         public void MutateCameraState(){} // RVA: 0x7FFAF2ABD840
@@ -21,9 +23,6 @@ namespace VRC.Internal.Generated
         public void .ctor_FE6DF4546CA8(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2AD4FA0
         public void Initialize(){} // RVA: 0x7FFAF2ABD840
-        // ── Unresolved (hash) ──
-        public void m_E39(){} // RVA: 0x7FFAF2ABD840
-        public void m_A79(){} // RVA: 0x7FFAF2ABD840
     }
 
     /// <summary>Originally: ÏÌÌÎÎÎÍÏÏÏÌÏÌÌÎÎÏÍÌÍÌÎÏ</summary>

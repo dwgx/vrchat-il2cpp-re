@@ -11,13 +11,13 @@ namespace VRC.UI.Client.IPS
         public void .ctor(){} // RVA: 0x7FFAF2ADDC60
         public void Initialize(){} // RVA: 0x7FFAF2ABCD60
         public void set_PagedData(){} // RVA: 0x7FFAF2ADDC60
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF2ADDC60
+        public void AwaitUnsafeOnCompleted_AE9C2D98AF72(){} // RVA: 0x7FFAF2ADDC60
         public void get_PagedData(){} // RVA: 0x7FFAF2ABCD60
+        public void AwaitUnsafeOnCompleted_CB39B4F08737(){} // RVA: 0x7FFAF2ADDC60
         // ── Unresolved (hash) ──
         public void m_BCD(){} // RVA: 0x7FFAF2ABCD60
         public void m_8EB(){} // RVA: 0x7FFAF2ABCD60
-        public void m_85C(){} // RVA: 0x7FFAF2ADDC60
-        public void m_AE9(){} // RVA: 0x7FFAF2ADDC60
-        public void m_CB3(){} // RVA: 0x7FFAF2ADDC60
         public void m_050(){} // RVA: 0x7FFAF2ABCD60
         public void m_2AB(){} // RVA: 0x7FFAF2ABCD60
     }

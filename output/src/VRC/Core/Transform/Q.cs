@@ -40,14 +40,14 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF34481F0
+        public void <UploadSticker>b__1(){} // RVA: 0x7FFAF34481F0
         public void SetLocalRotation(){} // RVA: 0x7FFAF461ABD0
+        public void <UploadSticker>b__1_370B3563B201(){} // RVA: 0x7FFAF34481F0
+        public void <UploadSticker>b__1_74CD5C78188A(){} // RVA: 0x7FFAF34481F0
+        public void <UploadSticker>b__1_979B43B12743(){} // RVA: 0x7FFAF34481F0
         // ── Unresolved (hash) ──
-        public void m_06E(){} // RVA: 0x7FFAF34481F0
         public void m_501(){} // RVA: 0x7FFAF461AA70
         public void m_4F1(){} // RVA: 0x7FFAF461AB20
-        public void m_370(){} // RVA: 0x7FFAF34481F0
-        public void m_74C(){} // RVA: 0x7FFAF34481F0
-        public void m_979(){} // RVA: 0x7FFAF34481F0
         public void m_848(){} // RVA: 0x7FFAF461AC80
     }
 

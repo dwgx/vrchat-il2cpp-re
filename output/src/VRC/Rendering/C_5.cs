@@ -953,16 +953,17 @@ namespace VRC.Rendering
         public void OnTriggerStay(){} // RVA: 0x7FFAF3BBD480
         public void OnTriggerExit(){} // RVA: 0x7FFAF3BBD500
         public void DeactivateCameraGameObjects(){} // RVA: 0x7FFAF3BBD5D0
+        public void OnCollisionEnter_5862DA097990(){} // RVA: 0x7FFAF3BBBE30
         public void FixedUpdate(){} // RVA: 0x7FFAF3BBD990
         public void .ctor(){} // RVA: 0x7FFAF3BBE030
         public void OnDestroy(){} // RVA: 0x7FFAF3BBE5C0
-        // ── 26 unresolved (hash) ──
+        // ── 25 unresolved (hash) ──
         public void m_58E(){} // RVA: 0x7FFAF3BB8180
         public void m_ACC(){} // RVA: 0x7FFAF3BB81B0
         public void m_678(){} // RVA: 0x7FFAF3BB8260
         public void m_10B(){} // RVA: 0x7FFAF3BB82D0
         public void m_95A(){} // RVA: 0x7FFAF3BB8950
-        // ... 21 more unresolved methods
+        // ... 20 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÍÌÌÎÌÎÍÎÍÏÎÏÌÏÏÌÏÏÎÎÏ</summary>

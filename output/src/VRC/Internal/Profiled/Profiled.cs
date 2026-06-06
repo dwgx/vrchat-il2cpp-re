@@ -65,20 +65,34 @@ namespace VRC.Internal.Profiled
     {
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFAF3977A60
+        public void Contains(){} // RVA: 0x7FFAF3977A70
+        public void CopyTo(){} // RVA: 0x7FFAF2DBB130
+        public void Clear(){} // RVA: 0x7FFAF3977C80
+        public void Add(){} // RVA: 0x7FFAF3977DD0
         public void .ctor(){} // RVA: 0x7FFAF3978010
         public void Initialize(){} // RVA: 0x7FFAF3978280
         public void OnDestroy(){} // RVA: 0x7FFAF2E08900
+        public void Remove(){} // RVA: 0x7FFAF3978310
+        public void get_Data(){} // RVA: 0x7FFAF2DBB130
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
+        public void OnApplicationQuit(){} // RVA: 0x7FFAF3978530
         public void Awake(){} // RVA: 0x7FFAF39785E0
+        public void OnEnable_9A009553BF03(){} // RVA: 0x7FFAF3977A60
         public void OnApplicationFocus(){} // RVA: 0x7FFAF3978B40
         public void OnDisable(){} // RVA: 0x7FFAF2E08900
+        public void OnApplicationQuit_3CBDA69A696C(){} // RVA: 0x7FFAF3978530
         public void Start(){} // RVA: 0x7FFAF3978EC0
-        // ── 20 unresolved (hash) ──
-        public void m_D19(){} // RVA: 0x7FFAF3977A70
-        public void m_2D2(){} // RVA: 0x7FFAF2DBB130
-        public void m_87B(){} // RVA: 0x7FFAF3977C80
-        public void m_31C(){} // RVA: 0x7FFAF3977DD0
-        public void m_942(){} // RVA: 0x7FFAF3978310
-        // ... 15 more unresolved methods
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFAF2D8D320
+        // ── Unresolved (hash) ──
+        public void m_FCD(){} // RVA: 0x7FFAF3978540
+        public void m_E26(){} // RVA: 0x7FFAF3978810
+        public void m_515(){} // RVA: 0x7FFAF3978AD0
+        public void m_397(){} // RVA: 0x7FFAF3978B50
+        public void m_836(){} // RVA: 0x7FFAF2DBB0C0
+        public void m_0EE(){} // RVA: 0x7FFAF3978540
+        public void m_E19(){} // RVA: 0x7FFAF3978BD0
+        public void m_146(){} // RVA: 0x7FFAF3978D00
+        public void m_5EF(){} // RVA: 0x7FFAF3978D90
     }
 
     /// <summary>Originally: ÍÎÌÏÌÍÎÎÍÍÍÌÌÏÌÏÍÏÏÏÌÏÌ</summary>

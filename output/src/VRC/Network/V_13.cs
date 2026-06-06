@@ -73,13 +73,19 @@ namespace VRC.Network
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF480A120
         public void Initialize(){} // RVA: 0x7FFAF2D33FA0
-        // ── 12 unresolved (hash) ──
+        public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0
+        public void TryCopyTo_1C162FC8E11C(){} // RVA: 0x7FFAF2D33FA0
+        // ── Unresolved (hash) ──
         public void m_F4F(){} // RVA: 0x7FFAF480A040
         public void m_C30(){} // RVA: 0x7FFAF480A0B0
         public void m_779(){} // RVA: 0x7FFAF480A1E0
-        public void m_4A8(){} // RVA: 0x7FFAF2D33FA0
         public void m_A4E(){} // RVA: 0x7FFAF480A230
-        // ... 7 more unresolved methods
+        public void m_34A(){} // RVA: 0x7FFAF480A280
+        public void m_4CF(){} // RVA: 0x7FFAF480A2F0
+        public void m_FE6(){} // RVA: 0x7FFAF480A340
+        public void m_EDD(){} // RVA: 0x7FFAF480A390
+        public void m_3D4(){} // RVA: 0x7FFAF480A3E0
+        public void m_7E3(){} // RVA: 0x7FFAF480A430
     }
 
     /// <summary>Originally: ÏÏÏÏÍÍÎÏÍÏÏÏÍÌÌÌÎÍÍÍÏÎÏ</summary>

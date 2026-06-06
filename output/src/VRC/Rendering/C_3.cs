@@ -995,7 +995,7 @@ namespace VRC.Rendering
         public void EndRead(){} // RVA: 0x7FFAF44E8CF0
         // ── Unresolved (hash) ──
         public void m_038(){} // RVA: 0x7FFAF44E83B0
-        public void m_BDA(){} // RVA: 0x7FFAF44E7D40
+        public void m_A4B(){} // RVA: 0x7FFAF44E7D40
     }
 
     /// <summary>Originally: ÍÍÌÌÌÍÌÍÍÌÌÎÏÏÎÏÌÏÎÎÌÍÌ</summary>

@@ -1,5 +1,5 @@
 # VRChat IL2CPP Pipeline Coverage Report
-Generated: 2026-06-06 13:53:23
+Generated: 2026-06-06 15:58:20
 
 ## Overall Coverage
 
@@ -10,7 +10,7 @@ Generated: 2026-06-06 13:53:23
 | Semantic names | 7,813 | 67.9% of renamed |
 | Fallback names | 3,690 | 32.1% of renamed |
 | Total methods | 528,135 | - |
-| Renamed methods | 70,106 | - |
+| Renamed methods | 54,249 | - |
 | Total fields | 2,870 | - |
 | Renamed fields | 158 | - |
 

@@ -272,6 +272,7 @@ public class <>c
 {
     // ── Methods ──
     public void SetRunOnThreadPoolFrameAtIndex(){} // RVA: 0x7FFAF36B4CF0
+    public void get_name(){} // RVA: 0x7FFAF48322A0
     public void GetInstanceID_7B3E1F71092B(){} // RVA: 0x7FFAF3A14F80
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void Initialize(){} // RVA: 0x7FFAF34711A0
@@ -280,9 +281,7 @@ public class <>c
     public void PreparePointerInteraction(){} // RVA: 0x7FFAF36B4CF0
     public void GetHashCode(){} // RVA: 0x7FFAF3A14F80
     public void PreparePointerInteraction_DB7720F1F039(){} // RVA: 0x7FFAF3A14F80
-    public void get_name(){} // RVA: 0x7FFAF48322A0
-    // ── Unresolved (hash) ──
-    public void m_44E(){} // RVA: 0x7FFAF48322A0
+    public void get_name_7BEF35A2F47F(){} // RVA: 0x7FFAF48322A0
 }
 
 public class <>c

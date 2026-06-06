@@ -738,15 +738,14 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
+    public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0
     public void Equals(){} // RVA: 0x7FFAF2AD4B10
     public void .ctor(){} // RVA: 0x7FFAF2AD4A50
     public void Initialize(){} // RVA: 0x7FFAF2ABDBE0
     public void GetCachedPtr(){} // RVA: 0x7FFAF2AD4B10
+    public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
     public void .cctor(){} // RVA: 0x7FFAF2AD4A80
     public void set_name(){} // RVA: 0x7FFAF2ABDBE0
     public void Instantiate(){} // RVA: 0x7FFAF2ABDBE0
-    // ── Unresolved (hash) ──
-    public void m_D6E(){} // RVA: 0x7FFAF2D33FA0
-    public void m_F06(){} // RVA: 0x7FFAF2ABDBE0
-    public void m_1B4(){} // RVA: 0x7FFAF2ABDBE0
+    public void get_IsReadOnly_1B4794584C3A(){} // RVA: 0x7FFAF2ABDBE0
 }

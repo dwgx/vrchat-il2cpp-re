@@ -288,13 +288,13 @@ namespace VRC.Internal.Async
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFAF30CB270
         public void MoveNext(){} // RVA: 0x7FFAF36DD000
+        public void SetStateMachine_4D87CF38F622(){} // RVA: 0x7FFAF30CB270
         // ── Unresolved (hash) ──
         public void m_CE3(){} // RVA: 0x7FFAF36DC6A0
         public void m_015(){} // RVA: 0x7FFAF36DCB50
         public void m_124(){} // RVA: 0x7FFAF36DD4B0
         public void m_DB9(){} // RVA: 0x7FFAF36DD960
         public void m_288(){} // RVA: 0x7FFAF36DDE10
-        public void m_4D8(){} // RVA: 0x7FFAF30CB270
         public void m_E82(){} // RVA: 0x7FFAF36DE2C0
     }
 
@@ -657,11 +657,11 @@ namespace VRC.Internal.Async
         public void TryReadGameObjectState(){} // RVA: 0x7FFAFB62FD30
         public void ReadGameObjectState(){} // RVA: 0x7FFAFB630110
         public void SetStateMachine(){} // RVA: 0x7FFAF30CB270
+        public void SetStateMachine_7F663E5CC641(){} // RVA: 0x7FFAF30CB270
         public void GetTask(){} // RVA: 0x7FFAFB6304F0
+        public void SetStateMachine_4E868F86F32B(){} // RVA: 0x7FFAF30CB270
         public void MoveNext(){} // RVA: 0x7FFAFB6308D0
         // ── Unresolved (hash) ──
-        public void m_7F6(){} // RVA: 0x7FFAF30CB270
-        public void m_4E8(){} // RVA: 0x7FFAF30CB270
         public void m_63A(){} // RVA: 0x7FFAFB630CB0
     }
 
@@ -1183,15 +1183,15 @@ namespace VRC.Internal.Async
     public class AsyncStateMachine_BCF5
     {
         // ── Methods ──
+        public void SetStateMachine_4E868F86F32B(){} // RVA: 0x7FFAF30CB270
+        public void SetStateMachine_0A800636C3FA(){} // RVA: 0x7FFAF30CB270
         public void MoveNext(){} // RVA: 0x7FFAFB9F7FA0
         public void SetStateMachine(){} // RVA: 0x7FFAF30CB270
+        public void SetStateMachine_4D87CF38F622(){} // RVA: 0x7FFAF30CB270
+        public void SetStateMachine_440D1A4DE1DC(){} // RVA: 0x7FFAF30CB270
+        public void SetStateMachine_7F663E5CC641(){} // RVA: 0x7FFAF30CB270
         // ── Unresolved (hash) ──
         public void m_288(){} // RVA: 0x7FFAFB9F7DF0
-        public void m_4E8(){} // RVA: 0x7FFAF30CB270
-        public void m_0A8(){} // RVA: 0x7FFAF30CB270
-        public void m_4D8(){} // RVA: 0x7FFAF30CB270
-        public void m_440(){} // RVA: 0x7FFAF30CB270
-        public void m_7F6(){} // RVA: 0x7FFAF30CB270
         public void m_DB9(){} // RVA: 0x7FFAFB9F8150
     }
 
@@ -1199,16 +1199,16 @@ namespace VRC.Internal.Async
     public class AsyncStateMachine_BD2F
     {
         // ── Methods ──
+        public void SetStateMachine_7525F37D1DF1(){} // RVA: 0x7FFAF30CB270
+        public void SetStateMachine_4D87CF38F622(){} // RVA: 0x7FFAF30CB270
         public void MoveNext(){} // RVA: 0x7FFAFB6349F0
+        public void SetStateMachine_4E868F86F32B(){} // RVA: 0x7FFAF30CB270
         public void SetStateMachine(){} // RVA: 0x7FFAF30CB270
         // ── Unresolved (hash) ──
-        public void m_752(){} // RVA: 0x7FFAF30CB270
         public void m_288(){} // RVA: 0x7FFAFB633E50
         public void m_E82(){} // RVA: 0x7FFAFB634230
         public void m_124(){} // RVA: 0x7FFAFB634610
-        public void m_4D8(){} // RVA: 0x7FFAF30CB270
         public void m_015(){} // RVA: 0x7FFAFB634DD0
-        public void m_4E8(){} // RVA: 0x7FFAF30CB270
     }
 
     /// <summary>Originally: ÎÍÎÌÌÎÍÏÎÎÍÌÌÎÍÎÎÍÎÍÍÍÌ</summary>
@@ -1218,10 +1218,10 @@ namespace VRC.Internal.Async
         public void MoveNext(){} // RVA: 0x7FFAFBB90D90
         public void SetStateMachine(){} // RVA: 0x7FFAF30CB270
         public void HandleContact(){} // RVA: 0x7FFAFBB911B0
+        public void SetStateMachine_7525F37D1DF1(){} // RVA: 0x7FFAF30CB270
         public void CalculateContactForce(){} // RVA: 0x7FFAFBB915E0
+        public void SetStateMachine_440D1A4DE1DC(){} // RVA: 0x7FFAF30CB270
         // ── Unresolved (hash) ──
-        public void m_752(){} // RVA: 0x7FFAF30CB270
-        public void m_440(){} // RVA: 0x7FFAF30CB270
         public void m_015(){} // RVA: 0x7FFAFBB91A10
     }
 

@@ -36,13 +36,13 @@ namespace VRC.World
     {
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAF43081D0
+        public void OnDisable_A3F98919F1D2(){} // RVA: 0x7FFAF43082C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF4308240
         public void OnDisable(){} // RVA: 0x7FFAF43082C0
         // ── Unresolved (hash) ──
         public void m_C30(){} // RVA: 0x7FFAF43081D0
         public void m_8ED(){} // RVA: 0x7FFAF4308240
-        public void m_A3F(){} // RVA: 0x7FFAF43082C0
         public void m_A74(){} // RVA: 0x7FFAF4308340
         public void m_CA7(){} // RVA: 0x7FFAF43081D0
         public void m_3CB(){} // RVA: 0x7FFAF43081D0
@@ -99,6 +99,8 @@ namespace VRC.World
         public object _d9F3;
 
         // ── Methods ──
+        public void OnHandFocusLost(){} // RVA: 0x7FFAF2F6EC00
+        public void OnDestroy(){} // RVA: 0x7FFAF2F6F550
         public void Awake(){} // RVA: 0x7FFAF3D9B700
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF2F6EC00
@@ -106,38 +108,43 @@ namespace VRC.World
         public void Update(){} // RVA: 0x7FFAF2F6F550
         public void LateUpdate(){} // RVA: 0x7FFAF2F6F550
         public void OnDisable(){} // RVA: 0x7FFAF3D9B790
-        public void OnDestroy(){} // RVA: 0x7FFAF3D9B820
         // ── Unresolved (hash) ──
         public void m_AFD(){} // RVA: 0x7FFAF3D9B470
         public void m_6F5(){} // RVA: 0x7FFAF3D9B570
         public void m_DC3(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_1B3(){} // RVA: 0x7FFAF2F6EC00
-        public void m_3FB(){} // RVA: 0x7FFAF2F6F550
         public void m_703(){} // RVA: 0x7FFAF3D9B600
+        public void m_FC3(){} // RVA: 0x7FFAF3D9B820
     }
 
     /// <summary>Originally: ÎÎÎÍÏÎÌÌÌÌÎÎÎÎÍÌÌÍÍÎÎÎÌ</summary>
     public class UserRoomRectComponent_CDC4
     {
         // ── Methods ──
+        public void Contains(){} // RVA: 0x7FFAFB874A40
+        public void Clear(){} // RVA: 0x7FFAFB874CE0
+        public void Add(){} // RVA: 0x7FFAFB874CF0
+        public void Remove(){} // RVA: 0x7FFAFB874DE0
         public void .ctor(){} // RVA: 0x7FFAFB874DF0
         public void Initialize(){} // RVA: 0x7FFAFB875070
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFAF2D8D320
+        public void CopyTo(){} // RVA: 0x7FFAFB874CE0
         public void Awake(){} // RVA: 0x7FFAFB875780
         public void OnEnable(){} // RVA: 0x7FFAFB875A60
         public void Start(){} // RVA: 0x7FFAFB875B70
         public void Update(){} // RVA: 0x7FFAFB875C10
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
         public void LateUpdate(){} // RVA: 0x7FFAF2DF85F0
         public void OnDisable(){} // RVA: 0x7FFAFB876030
         public void OnDestroy(){} // RVA: 0x7FFAFB876040
         public void OnApplicationPause(){} // RVA: 0x7FFAFB876460
         public void OnApplicationQuit(){} // RVA: 0x7FFAFB876570
-        // ── 13 unresolved (hash) ──
-        public void m_43A(){} // RVA: 0x7FFAFB874A40
-        public void m_E3C(){} // RVA: 0x7FFAFB874CE0
-        public void m_E45(){} // RVA: 0x7FFAFB874CF0
-        public void m_BC6(){} // RVA: 0x7FFAFB874DE0
+        // ── Unresolved (hash) ──
         public void m_F50(){} // RVA: 0x7FFAFB8752A0
-        // ... 8 more unresolved methods
+        public void m_96F(){} // RVA: 0x7FFAFB8752B0
+        public void m_E2F(){} // RVA: 0x7FFAFB875410
+        public void m_E34(){} // RVA: 0x7FFAFB8756D0
+        public void m_9D5(){} // RVA: 0x7FFAFB875700
+        public void m_F6E(){} // RVA: 0x7FFAFB8756D0
     }
 
     /// <summary>Originally: ÌÌÎÌÌÎÍÌÍÏÌÎÏÏÍÎÎÌÏÎÎÏÏ</summary>
@@ -179,6 +186,7 @@ namespace VRC.World
         public void GetLocalPosition_56D456BF851E(){} // RVA: 0x7FFAF41B2BA0
         public void SetLocalScale(){} // RVA: 0x7FFAF41B2D30
         public void SetLocalScale_842071BD57EC(){} // RVA: 0x7FFAF41B2D80
+        public void get_template(){} // RVA: 0x7FFAF3544E10
         public void SetLocalScale_6F8930570FFD(){} // RVA: 0x7FFAF41B2E00
         public void SetLocalScale_080A2E9D9C0E(){} // RVA: 0x7FFAF41B2E10
         public void GetBounds(){} // RVA: 0x7FFAF41B2E20
@@ -204,20 +212,22 @@ namespace VRC.World
         public void OnDisable(){} // RVA: 0x7FFAF41BB620
         public void .ctor(){} // RVA: 0x7FFAF41BB800
         public void .cctor(){} // RVA: 0x7FFAF41BBA30
+        public void RetryConnection(){} // RVA: 0x7FFAF304F950
         public void SetLocalRotation_6290FAEC7B4F(){} // RVA: 0x7FFAF41BBC40
-        // ── 21 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_695(){} // RVA: 0x7FFAF41B2250
         public void m_94E(){} // RVA: 0x7FFAF41B2470
         public void m_EEC(){} // RVA: 0x7FFAF41B2CA0
         public void m_01F(){} // RVA: 0x7FFAF41B2CF0
         public void m_780(){} // RVA: 0x7FFAF41B2D10
-        // ... 16 more unresolved methods
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ</summary>
     public class WorldSpawnSiblingSiblingSibling_4C9D
     {
         // ── Methods ──
+        public void get_Data(){} // RVA: 0x7FFAF2DBB130
         public void Start(){} // RVA: 0x7FFAFB82C940
         public void .ctor(){} // RVA: 0x7FFAFB82CA10
         public void Initialize(){} // RVA: 0x7FFAFB82CB30
@@ -228,7 +238,6 @@ namespace VRC.World
         public void m_C93(){} // RVA: 0x7FFAFB82BB50
         public void m_9CA(){} // RVA: 0x7FFAFB82BC40
         public void m_2B5(){} // RVA: 0x7FFAFB82BD30
-        public void m_B06(){} // RVA: 0x7FFAF2DBB130
         public void m_C47(){} // RVA: 0x7FFAFB82C2B0
         public void m_19D(){} // RVA: 0x7FFAFB82C850
         public void m_C5B(){} // RVA: 0x7FFAFB82CC20

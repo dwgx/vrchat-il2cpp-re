@@ -511,17 +511,18 @@ namespace VRC.Misc
         public void Disconnect(){} // RVA: 0x7FFAF386A550
         public void SendOperation(){} // RVA: 0x7FFAF386B530
         public void DispatchIncomingCommands(){} // RVA: 0x7FFAF386C5D0
+        public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0
         public void .cctor(){} // RVA: 0x7FFAF38714D0
         public void .ctor(){} // RVA: 0x7FFAF3871990
         public void Initialize(){} // RVA: 0x7FFAF38721C0
         public void SendOutgoingCommands(){} // RVA: 0x7FFAF3872DF0
-        // ── 39 unresolved (hash) ──
+        // ── 38 unresolved (hash) ──
         public void m_30C(){} // RVA: 0x7FFAF386A4B0
         public void m_F14(){} // RVA: 0x7FFAF386A780
         public void m_4FF(){} // RVA: 0x7FFAF386A7E0
         public void m_206(){} // RVA: 0x7FFAF386B4F0
         public void m_A5F(){} // RVA: 0x7FFAF386C300
-        // ... 34 more unresolved methods
+        // ... 33 more unresolved methods
     }
 
 }

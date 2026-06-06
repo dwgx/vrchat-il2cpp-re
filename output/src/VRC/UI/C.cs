@@ -13,15 +13,15 @@ namespace VRC.UI
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3BB6D70
         public void OnDrawGizmos(){} // RVA: 0x7FFAF3BB7260
+        public void OnDisable(){} // RVA: 0x7FFAF3BB74B0
         public void SetAlpha(){} // RVA: 0x7FFAF3BB7A90
         public void ReadCameraProperties(){} // RVA: 0x7FFAF3BB7CE0
+        public void get_CallbackType(){} // RVA: 0x7FFAF3968B00
         // ── Unresolved (hash) ──
         public void m_D0F(){} // RVA: 0x7FFAF3BB6B20
-        public void m_4CA(){} // RVA: 0x7FFAF3BB74B0
         public void m_3CE(){} // RVA: 0x7FFAF3BB7510
         public void m_CB9(){} // RVA: 0x7FFAF3BB7760
         public void m_942(){} // RVA: 0x7FFAF3BB7F30
-        public void m_1D6(){} // RVA: 0x7FFAF3968B00
     }
 
     /// <summary>Originally: ÏÍÍÏÍÏÌÎÌÍÎÎÎÌÏÏÌÌÏÌÌÌÏ</summary>
@@ -86,6 +86,7 @@ namespace VRC.UI
     public class ConditionElementUIComponent_3620
     {
         // ── Methods ──
+        public void UnregisterMainCallback(){} // RVA: 0x7FFAF3858A90
         public void NormalizeConditionElementPositions(){} // RVA: 0x7FFAFBC236F0
         public void AnimateConditionElementPositions(){} // RVA: 0x7FFAFBC23C40
         public void .ctor(){} // RVA: 0x7FFAFBC244C0
@@ -115,7 +116,6 @@ namespace VRC.UI
         public void FindMatchingConditionElement(){} // RVA: 0x7FFAFBC2A7B0
         // ── Unresolved (hash) ──
         public void m_F15(){} // RVA: 0x7FFAFBC23290
-        public void m_746(){} // RVA: 0x7FFAF3858A90
         public void m_455(){} // RVA: 0x7FFAFBC23540
         public void m_B0A(){} // RVA: 0x7FFAFBC23760
         public void m_7BE(){} // RVA: 0x7FFAFBC24310

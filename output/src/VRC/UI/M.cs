@@ -41,40 +41,58 @@ namespace VRC.UI
     public class MaterialUISystem_932F
     {
         // ── Methods ──
+        public void Contains(){} // RVA: 0x7FFAF3799980
+        public void CopyTo(){} // RVA: 0x7FFAF3799B20
+        public void Clear(){} // RVA: 0x7FFAF3799C30
+        public void Add(){} // RVA: 0x7FFAF3799C40
+        public void Remove(){} // RVA: 0x7FFAF3799D80
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
         public void .cctor(){} // RVA: 0x7FFAF3799E40
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFAF379B910
         public void GetSharedMaterial(){} // RVA: 0x7FFAF379BCC0
         public void GetMaterial(){} // RVA: 0x7FFAF379BF30
+        public void System.Collections.ICollection.get_IsSynchronized_315F7A35C5E5(){} // RVA: 0x7FFAF2D8D320
         public void GetRenderQueue(){} // RVA: 0x7FFAF379BF40
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF2E55500
         public void GetSharedMaterial_01868FB1F825(){} // RVA: 0x7FFAF379C090
         public void GetRenderQueue_A85E3366D41B(){} // RVA: 0x7FFAF379C140
         public void SetRenderQueue(){} // RVA: 0x7FFAF379C3C0
         public void GetSharedMaterial_3AB0A5DE8073(){} // RVA: 0x7FFAF379C480
         public void SetRenderQueue_0BEE8A382E7F(){} // RVA: 0x7FFAF379C5D0
+        public void get_isRigid(){} // RVA: 0x7FFAF2E6C230
         public void GetSharedMaterial_29A53A58011F(){} // RVA: 0x7FFAF379C6D0
+        public void OnCanvasHierarchyChanged_3C526DFDD836(){} // RVA: 0x7FFAF2E55500
+        public void get_IgnoreCase(){} // RVA: 0x7FFAF2E7B9D0
+        public void System.Collections.ICollection.get_IsSynchronized_6ACDDA9332D3(){} // RVA: 0x7FFAF2D8D320
+        public void System.Collections.ICollection.get_IsSynchronized_9627EE7C666C(){} // RVA: 0x7FFAF2D8D320
         public void GetMaterial_DB4BF841BAEF(){} // RVA: 0x7FFAF379D8F0
         public void Awake(){} // RVA: 0x7FFAF379DA80
         public void OnDestroy(){} // RVA: 0x7FFAF2E6C240
         public void GetMaterial_BC16714B0BCA(){} // RVA: 0x7FFAF379DE10
         public void GetRenderQueue_EA3B007F8A84(){} // RVA: 0x7FFAF379BF40
+        public void get_MoveNext(){} // RVA: 0x7FFAF2F476A0
         public void .ctor(){} // RVA: 0x7FFAF379EB40
         public void Start(){} // RVA: 0x7FFAF3799D80
         public void RandomRangeInt(){} // RVA: 0x7FFAF379EE60
+        public void System.Collections.ICollection.get_IsSynchronized_89999C4DD7CD(){} // RVA: 0x7FFAF2D8D320
         public void GetSharedMaterial_A7B491A39E70(){} // RVA: 0x7FFAF379C480
         public void RandomRangeInt_C37C0AED7C47(){} // RVA: 0x7FFAF379F000
         public void RandomRangeInt_E2B74AD23CFE(){} // RVA: 0x7FFAF379F1D0
         public void RandomRangeInt_D71D8DE5755D(){} // RVA: 0x7FFAF379F200
         public void RandomRangeInt_E7F5BA373E72(){} // RVA: 0x7FFAF379F1D0
+        public void get_Count(){} // RVA: 0x7FFAF379F5B0
         public void ProcessMaterial(){} // RVA: 0x7FFAF379FD50
         public void ProcessMaterial_60EEA613AACF(){} // RVA: 0x7FFAF379FE10
         public void PropertyToID(){} // RVA: 0x7FFAF37A0370
         public void GetMaterial_AA38A08754D7(){} // RVA: 0x7FFAF37A0840
-        // ── 54 unresolved (hash) ──
-        public void m_EE1(){} // RVA: 0x7FFAF3799980
-        public void m_4E8(){} // RVA: 0x7FFAF3799B20
-        public void m_375(){} // RVA: 0x7FFAF3799C30
-        public void m_DDD(){} // RVA: 0x7FFAF3799C40
-        public void m_DA8(){} // RVA: 0x7FFAF3799D80
-        // ... 49 more unresolved methods
+        public void set_isRigid(){} // RVA: 0x7FFAF2E6C240
+        // ── 37 unresolved (hash) ──
+        public void m_E2A(){} // RVA: 0x7FFAF3799E10
+        public void m_A1F(){} // RVA: 0x7FFAF3799E10
+        public void m_FEF(){} // RVA: 0x7FFAF379B7D0
+        public void m_BFC(){} // RVA: 0x7FFAF3799E10
+        public void m_E7D(){} // RVA: 0x7FFAF379BE90
+        // ... 32 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÏÍÌÏÎÏÌÍÍÌÌÏÍÏÌÏÌÎÍÌÎ</summary>

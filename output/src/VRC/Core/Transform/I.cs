@@ -29,9 +29,9 @@ namespace VRC.Core.Transform
         public void ComputeDrawGizmosHash(){} // RVA: 0x7FFAF3439C70
         public void OnDrawGizmos(){} // RVA: 0x7FFAF3439E90
         public void OnApplicationQuit(){} // RVA: 0x7FFAF343A350
+        public void OnApplicationQuit_70BC530773F0(){} // RVA: 0x7FFAF343A350
         // ── Unresolved (hash) ──
         public void m_1C9(){} // RVA: 0x7FFAF343A270
-        public void m_70B(){} // RVA: 0x7FFAF343A350
     }
 
 }

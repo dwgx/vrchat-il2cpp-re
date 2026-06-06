@@ -10,13 +10,13 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetMatrix4x4(){} // RVA: 0x7FFAFB7169D0
-        public void ProcessMatrix4x4(){} // RVA: 0x7FFAFB716A80
         public void SetMatrix4x4(){} // RVA: 0x7FFAFB716A00
+        public void ProcessMatrix4x4(){} // RVA: 0x7FFAFB716A80
+        public void SetMatrix4x4_21674D5040A2(){} // RVA: 0x7FFAFB716A00
         public void Start(){} // RVA: 0x7FFAFB7175B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB7177A0
         // ── Unresolved (hash) ──
-        public void m_5BB(){} // RVA: 0x7FFAFB716A00
         public void m_479(){} // RVA: 0x7FFAFB716EA0
         public void m_972(){} // RVA: 0x7FFAFB7172F0
         public void m_6DF(){} // RVA: 0x7FFAFB717300
@@ -51,13 +51,12 @@ namespace VRC.Misc
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF2F27F90
+        public void FixedUpdate(){} // RVA: 0x7FFAF2F27F90
+        public void Awake(){} // RVA: 0x7FFAF2F28460
         public void Awake_7FD28589FE1E(){} // RVA: 0x7FFAF2F28460
         public void OnEnable(){} // RVA: 0x7FFAF2F27F90
         public void OnDisable(){} // RVA: 0x7FFAF2F28460
-        // ── Unresolved (hash) ──
-        public void m_2DE(){} // RVA: 0x7FFAF2F27F90
-        public void m_A3F(){} // RVA: 0x7FFAF2F28460
-        public void m_47A(){} // RVA: 0x7FFAF2F27F90
+        public void FixedUpdate_47A10BA8D1AE(){} // RVA: 0x7FFAF2F27F90
     }
 
     /// <summary>Originally: ÏÏÌÍÌÍÍÌÎÍÏÌÍÌÎÏÎÏÏÌÌÎÌ</summary>
@@ -184,10 +183,10 @@ namespace VRC.Misc
         public void Awake_7FD28589FE1E(){} // RVA: 0x7FFAFBDBF5F0
         public void OnDisable_0A17D448B2DB(){} // RVA: 0x7FFAFBDBF590
         public void MoveNext(){} // RVA: 0x7FFAFBDBF590
+        public void MoveNext_2DE07977C756(){} // RVA: 0x7FFAFBDBF590
+        public void MoveNext_A3F98919F1D2(){} // RVA: 0x7FFAFBDBF590
         // ── Unresolved (hash) ──
         public void m_3CB(){} // RVA: 0x7FFAFBDBF6B0
-        public void m_8ED(){} // RVA: 0x7FFAFBDBF590
-        public void m_A3F(){} // RVA: 0x7FFAFBDBF590
         public void m_6DB(){} // RVA: 0x7FFAFBDBF710
     }
 
