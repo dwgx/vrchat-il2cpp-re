@@ -8,16 +8,14 @@
 
 | Metric | Count | Coverage |
 |--------|------:|----------|
-| Classes (semantic) | 83,873 / 88,400 | **94.9%** (0 obfuscated remaining) |
-| Methods (semantic) | 440,440 / 528,135 | **83.4%** semantic |
-| Fields (semantic + typed) | 2,712 / 2,870 | **94.5%** semantic |
-| Identifiers total | 527,025 / 619,405 | **85.1%** semantic |
-| Unique source files | 2,179 | — |
-| Pipeline runtime | ~25s full run + 5s field types | — |
+| Classes (semantic) | 7,813 / 11,503 obfuscated | **67.9%** semantic class names |
+| Methods (named) | 479,421 / 528,135 | **90.8%** semantic |
+| Methods (hash remaining) | 48,714 | 9.2% fallback (m_XXX) |
+| Fields | 2,870 total, 158 renamed | — |
+| cross_version entries | 38,386+ | growing via Codex batches |
+| Pipeline runtime | ~25s full run | — |
 
-Earlier build (2026-04-25): 99.78% across 43,158 classes / 305,681 methods / 41,286 fields.
-June-5 coverage will rise as more global-namespace fallback names are lifted from
-method bodies, strings, cross-version matches, and runtime metadata.
+Naming sources: RVA propagation (15.5K), Codex mega-batches (1.6K), sibling-context inference (in progress), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts.
 
 ## Beebyte struct layout (June 5 build)
 
