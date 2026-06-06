@@ -470,17 +470,16 @@ public class _ZipAwaitWithCancellation
 public class __JobReflectionRegistrationOutput__1221673671587648887
 {
     // ── Methods ──
+    public void GetCurrentToken(){} // RVA: 0x7FFAF3A9C9B0
     public void SetCurrentToken(){} // RVA: 0x7FFAF3A9CA30
+    public void CreateJobReflectionData(){} // RVA: 0x7FFAF3A9CAB0
     public void EarlyInit_CEDB20D77D50(){} // RVA: 0x7FFAF3A9CB30
     public void EarlyInit(){} // RVA: 0x7FFAF3A9CB30
-    // ── Unresolved (hash) ──
-    public void m_DA5(){} // RVA: 0x7FFAF3A9C9B0
-    public void m_CC5(){} // RVA: 0x7FFAF3A9CAB0
-    public void m_2A8(){} // RVA: 0x7FFAF3A9CB40
-    public void m_3BA(){} // RVA: 0x7FFAF3A9CBC0
-    public void m_32F(){} // RVA: 0x7FFAF3A9CBC0
-    public void m_319(){} // RVA: 0x7FFAF3A9CBD0
-    public void m_316(){} // RVA: 0x7FFAF3A9CBE0
+    public void RegisterJobReflectionData(){} // RVA: 0x7FFAF3A9CB40
+    public void InitializeJobReflectionData(){} // RVA: 0x7FFAF3A9CBC0
+    public void InitializeJobReflectionData_CEDB20D77D50(){} // RVA: 0x7FFAF3A9CBC0
+    public void EarlyInitJobReflection(){} // RVA: 0x7FFAF3A9CBD0
+    public void EnsureInitialized(){} // RVA: 0x7FFAF3A9CBE0
 }
 
 public class __JobReflectionRegistrationOutput__1652832624114795843

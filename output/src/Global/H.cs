@@ -113,12 +113,12 @@ public class HandInputData
     public void CreateSpanFromArray(){} // RVA: 0x7FFAF40140D0
     public void CreateSpanFromArray_2A0F4BCB43D7(){} // RVA: 0x7FFAF40145D0
     public void FillSpan(){} // RVA: 0x7FFAF4014CA0
+    public void ConvertAll(){} // RVA: 0x7FFAF4015F10
     public void CreateSpanFromArraySegment(){} // RVA: 0x7FFAF40165E0
     public void LoadImage(){} // RVA: 0x7FFAF4017190
     // ── Unresolved (hash) ──
     public void m_D42(){} // RVA: 0x7FFAF40151A0
     public void m_F3E(){} // RVA: 0x7FFAF4015840
-    public void m_1DF(){} // RVA: 0x7FFAF4015F10
     public void m_61E(){} // RVA: 0x7FFAF4016950
     public void m_9FB(){} // RVA: 0x7FFAF4016CC0
 }

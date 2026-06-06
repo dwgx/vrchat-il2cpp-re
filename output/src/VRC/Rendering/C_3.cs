@@ -980,6 +980,7 @@ namespace VRC.Rendering
         public void set_CanSeek(){} // RVA: 0x7FFAF44E7D40
         public void Seek(){} // RVA: 0x7FFAF44E8320
         public void get_CanSeek(){} // RVA: 0x7FFAF44E8380
+        public void BeginWrite_0389ADA2FB9B(){} // RVA: 0x7FFAF44E83B0
         public void BeginWrite(){} // RVA: 0x7FFAF44E8550
         public void Flush(){} // RVA: 0x7FFAF44E85F0
         public void set_Length(){} // RVA: 0x7FFAF44E8690
@@ -994,7 +995,6 @@ namespace VRC.Rendering
         public void get_Position(){} // RVA: 0x7FFAF44E8C90
         public void EndRead(){} // RVA: 0x7FFAF44E8CF0
         // ── Unresolved (hash) ──
-        public void m_038(){} // RVA: 0x7FFAF44E83B0
         public void m_A4B(){} // RVA: 0x7FFAF44E7D40
     }
 
@@ -1005,18 +1005,17 @@ namespace VRC.Rendering
         public void SetLocalScale(){} // RVA: 0x7FFAF49B4020
         public void .ctor(){} // RVA: 0x7FFAF4417700 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF49B4200
+        public void SetCameraPosition(){} // RVA: 0x7FFAF49B43B0
+        public void SetCameraRotation(){} // RVA: 0x7FFAF49B4560
         public void ConfigureCamera(){} // RVA: 0x7FFAF49B4710
+        public void SetCameraViewport(){} // RVA: 0x7FFAF49B48C0
+        public void SetCameraTargetTexture(){} // RVA: 0x7FFAF49B4A70
+        public void GetCameraProjectionMatrix(){} // RVA: 0x7FFAF49B4BF0
+        public void SetCameraProjectionMatrix(){} // RVA: 0x7FFAF49B4DD0
+        public void SetCameraCullingMask(){} // RVA: 0x7FFAF49B4FB0
+        public void RenderCameraToTexture(){} // RVA: 0x7FFAF49B5100
         public void Render(){} // RVA: 0x7FFAF49B52E0
-        // ── Unresolved (hash) ──
-        public void m_102(){} // RVA: 0x7FFAF49B43B0
-        public void m_DF2(){} // RVA: 0x7FFAF49B4560
-        public void m_C8C(){} // RVA: 0x7FFAF49B48C0
-        public void m_A67(){} // RVA: 0x7FFAF49B4A70
-        public void m_F3A(){} // RVA: 0x7FFAF49B4BF0
-        public void m_F47(){} // RVA: 0x7FFAF49B4DD0
-        public void m_7C0(){} // RVA: 0x7FFAF49B4FB0
-        public void m_B68(){} // RVA: 0x7FFAF49B5100
-        public void m_D3A(){} // RVA: 0x7FFAF49B54C0
+        public void CleanupCameraRenderState(){} // RVA: 0x7FFAF49B54C0
     }
 
     /// <summary>Originally: ÍÏÏÌÎÌÏÌÎÍÏÌÎÍÍÍÎÏÏÏÍÍÎ</summary>
@@ -1040,7 +1039,15 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAFBC63570
+        public void OnApplicationFocus(){} // RVA: 0x7FFAFBC64200
+        public void RefreshBounds(){} // RVA: 0x7FFAFBC642B0
+        public void SetExpanded(){} // RVA: 0x7FFAFBC64320
+        public void SetCollapsed(){} // RVA: 0x7FFAFBC646E0
+        public void UpdateExpansionState(){} // RVA: 0x7FFAFBC647A0
         public void ForceLast(){} // RVA: 0x7FFAFBC64880
+        public void RegisterInputFocusHandler(){} // RVA: 0x7FFAFBC649A0
+        public void UnregisterInputFocusHandler(){} // RVA: 0x7FFAFBC64AE0
+        public void RecomputeExpandedBounds(){} // RVA: 0x7FFAFBC64F60
         public void OnInputFocus(){} // RVA: 0x7FFAFBC65060
         public void ComputeExpandedBoundsPose(){} // RVA: 0x7FFAFBC650F0
         public void .ctor(){} // RVA: 0x7FFAFBC655E0
@@ -1050,13 +1057,12 @@ namespace VRC.Rendering
         public void GetBounds(){} // RVA: 0x7FFAFBC658F0
         public void Expand(){} // RVA: 0x7FFAFBC65980
         public void Collapse(){} // RVA: 0x7FFAFBC65A80
-        // ── 13 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_0F9(){} // RVA: 0x7FFAFBC634E0
         public void m_6E5(){} // RVA: 0x7FFAFBC639F0
         public void m_662(){} // RVA: 0x7FFAFBC63B30
         public void m_0A1(){} // RVA: 0x7FFAFBC63C60
         public void m_A74(){} // RVA: 0x7FFAFBC63D80
-        // ... 8 more unresolved methods
     }
 
 }

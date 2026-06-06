@@ -51,6 +51,7 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
+    public void Internal_InstantiateSingle_Injected(){} // RVA: 0x7FFAFBEA7690
     public void get_name(){} // RVA: 0x7FFAFBEA7760
     public void GetLastCacheItem(){} // RVA: 0x7FFAFBEA77C0
     public void .cctor(){} // RVA: 0x7FFAFBEA7820
@@ -59,7 +60,6 @@ public class <>c
     public void HandleFindObjectsDestroy(){} // RVA: 0x7FFAFBEA7A10
     public void Initialize(){} // RVA: 0x7FFAFBEA7A80
     // ── Unresolved (hash) ──
-    public void m_85D(){} // RVA: 0x7FFAFBEA7690
     public void m_C8E(){} // RVA: 0x7FFAFBEA76F0
     public void m_8EF(){} // RVA: 0x7FFAFBEA78C0
     public void m_345(){} // RVA: 0x7FFAFBEA79A0

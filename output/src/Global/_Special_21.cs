@@ -239,6 +239,7 @@ public class <>c
     public void GetCachedPtr(){} // RVA: 0x7FFAF481E700
     public void ToString(){} // RVA: 0x7FFAF481E750
     public void Instantiate(){} // RVA: 0x7FFAF481E7A0
+    public void ConfigureBehaviourEnabled(){} // RVA: 0x7FFAF481E7F0
     public void GetHashCode(){} // RVA: 0x7FFAF481E8A0
     public void Instantiate_034501211EDF(){} // RVA: 0x7FFAF481E990
     public void Instantiate_674A070DAC34(){} // RVA: 0x7FFAF481E9E0
@@ -246,7 +247,6 @@ public class <>c
     public void IsNativeObjectAlive(){} // RVA: 0x7FFAF481EA90
     public void .cctor(){} // RVA: 0x7FFAF481EAE0
     // ── Unresolved (hash) ──
-    public void m_48B(){} // RVA: 0x7FFAF481E7F0
     public void m_896(){} // RVA: 0x7FFAF481E850
     public void m_ABA(){} // RVA: 0x7FFAF481E8F0
     public void m_5F4(){} // RVA: 0x7FFAF481E940
@@ -261,11 +261,10 @@ public class <>c
     public void Initialize_2E3F930C45CC(){} // RVA: 0x7FFAF482B460
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void op_Implicit(){} // RVA: 0x7FFAF482B670
+    public void SetLocalPosition(){} // RVA: 0x7FFAF482B880
     public void SetLocalRotation(){} // RVA: 0x7FFAF482BA90
+    public void SetLocalScale(){} // RVA: 0x7FFAF482BCA0
     public void .cctor(){} // RVA: 0x7FFAF482BEB0
-    // ── Unresolved (hash) ──
-    public void m_A91(){} // RVA: 0x7FFAF482B880
-    public void m_B8C(){} // RVA: 0x7FFAF482BCA0
 }
 
 public class <>c

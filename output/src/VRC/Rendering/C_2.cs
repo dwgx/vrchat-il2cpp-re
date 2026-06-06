@@ -954,22 +954,21 @@ namespace VRC.Rendering
     public class CameraHandler_33B6
     {
         // ── Methods ──
+        public void ConfigureCameraDepth(){} // RVA: 0x7FFAFB863320
+        public void GetCameraCullingMask(){} // RVA: 0x7FFAFB8634A0
+        public void TryGetCameraComponent(){} // RVA: 0x7FFAFB8636E0
         public void Start(){} // RVA: 0x7FFAFB863C10
+        public void SetCameraTargetTexture(){} // RVA: 0x7FFAFB863D00
+        public void GetCameraComponentId(){} // RVA: 0x7FFAFB863E80
+        public void GetCameraComponentPair(){} // RVA: 0x7FFAFB863EF0
         public void .ctor(){} // RVA: 0x7FFAFB863FE0
         public void Initialize(){} // RVA: 0x7FFAFB8640B0
+        public void GetCameraComponentId_FD8F2EB51742(){} // RVA: 0x7FFAFB863E80
+        public void GetCameraFlag(){} // RVA: 0x7FFAFB864110
+        public void GetCameraProperty(){} // RVA: 0x7FFAFB864640
         public void GetMain(){} // RVA: 0x7FFAFB8647C0
         public void get_MoveNext(){} // RVA: 0x7FFAF2F476A0
-        // ── Unresolved (hash) ──
-        public void m_89B(){} // RVA: 0x7FFAFB863320
-        public void m_8AA(){} // RVA: 0x7FFAFB8634A0
-        public void m_C64(){} // RVA: 0x7FFAFB8636E0
-        public void m_E28(){} // RVA: 0x7FFAFB863D00
-        public void m_AAF(){} // RVA: 0x7FFAFB863E80
-        public void m_6B3(){} // RVA: 0x7FFAFB863EF0
-        public void m_FD8(){} // RVA: 0x7FFAFB863E80
-        public void m_2CE(){} // RVA: 0x7FFAFB864110
-        public void m_3D3(){} // RVA: 0x7FFAFB864640
-        public void m_855(){} // RVA: 0x7FFAFB864A00
+        public void GetCameraRenderState(){} // RVA: 0x7FFAFB864A00
     }
 
     /// <summary>Originally: ÍÌÌÍÏÏÎÍÎÏÎÍÍÍÎÌÍÎÌÌÏÌÍ</summary>
@@ -996,7 +995,13 @@ namespace VRC.Rendering
     public class CameraRenderingHandler_2A50
     {
         // ── Methods ──
+        public void CopyTransformToCamera(){} // RVA: 0x7FFAF3BADF00
+        public void CopyTransformToCamera_83781DC35CE1(){} // RVA: 0x7FFAF3BADF70
+        public void CopyTransformToCamera_AC576910BD2F(){} // RVA: 0x7FFAF3BAE330
+        public void GetCamera(){} // RVA: 0x7FFAF3BAE530
+        public void GetCamera_2EFCA2522B2A(){} // RVA: 0x7FFAF3BAE610
         public void Start(){} // RVA: 0x7FFAF3BAEAA0
+        public void CopyTransformToCamera_FEA0FCA4D75E(){} // RVA: 0x7FFAF3BADF00
         public void OnDestroy(){} // RVA: 0x7FFAF3BAEF30
         public void SetAutoGenerateMips(){} // RVA: 0x7FFAF3BAF310
         public void SetFloatImpl(){} // RVA: 0x7FFAF3BAF500
@@ -1004,7 +1009,10 @@ namespace VRC.Rendering
         public void SetTargetTexture(){} // RVA: 0x7FFAF3BAF700
         public void .cctor(){} // RVA: 0x7FFAF3BAFCE0
         public void ReleaseTexture(){} // RVA: 0x7FFAF3BAFDD0
+        public void GetRenderTextureDescriptor(){} // RVA: 0x7FFAF3BAFF00
         public void GetGraphicsDeviceType(){} // RVA: 0x7FFAF3BAFFA0
+        public void GetRenderTexture(){} // RVA: 0x7FFAF3BB0020
+        public void SetCameraTransform(){} // RVA: 0x7FFAF3BB05F0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3BB0740
         public void SetBackgroundColor(){} // RVA: 0x7FFAF3BB0B40
@@ -1012,16 +1020,7 @@ namespace VRC.Rendering
         public void SetLocalRotation(){} // RVA: 0x7FFAF3BB16D0
         public void SetLocalRotation_7C5A4EF4DA92(){} // RVA: 0x7FFAF3BB1840
         // ── Unresolved (hash) ──
-        public void m_7C3(){} // RVA: 0x7FFAF3BADF00
-        public void m_837(){} // RVA: 0x7FFAF3BADF70
-        public void m_AC5(){} // RVA: 0x7FFAF3BAE330
-        public void m_EC7(){} // RVA: 0x7FFAF3BAE530
-        public void m_2EF(){} // RVA: 0x7FFAF3BAE610
-        public void m_FEA(){} // RVA: 0x7FFAF3BADF00
         public void m_9B9(){} // RVA: 0x7FFAF3BADF00
-        public void m_B69(){} // RVA: 0x7FFAF3BAFF00
-        public void m_1C0(){} // RVA: 0x7FFAF3BB0020
-        public void m_7DF(){} // RVA: 0x7FFAF3BB05F0
     }
 
     /// <summary>Originally: ÌÏÏÍÏÏÍÍÌÎÎÌÎÏÎÌÎÌÎÌÍÍÎ</summary>
@@ -1053,6 +1052,7 @@ namespace VRC.Rendering
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Start(){} // RVA: 0x7FFAFB5E63A0
+        public void OnRenderObject(){} // RVA: 0x7FFAFB5E6510
         // ── Unresolved (hash) ──
         public void m_3B3(){} // RVA: 0x7FFAFB5E5B90
         public void m_C9E(){} // RVA: 0x7FFAFB5E5C80
@@ -1062,7 +1062,6 @@ namespace VRC.Rendering
         public void m_A74(){} // RVA: 0x7FFAFB5E60C0
         public void m_760(){} // RVA: 0x7FFAFB5E6230
         public void m_970(){} // RVA: 0x7FFAFB5E62B0
-        public void m_1C9(){} // RVA: 0x7FFAFB5E6510
     }
 
 }

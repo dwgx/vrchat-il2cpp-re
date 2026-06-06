@@ -88,7 +88,7 @@ public class <>c
 {
     // ── Methods ──
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
-    public void Initialize(){} // RVA: 0x7FFAFBDF7FA0
+    public void DoWriteDefaultValueCallback(){} // RVA: 0x7FFAFBDF7FA0
     public void Instantiate(){} // RVA: 0x7FFAF65F5020
     public void Instantiate_ECD56D6BCAC6(){} // RVA: 0x7FFAF65F5020
     public void CompareBaseObjects(){} // RVA: 0x7FFAFBDF7FA0
@@ -347,16 +347,16 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
+    public void get_lossyScale(){} // RVA: 0x7FFAFBECB010
     public void .cctor(){} // RVA: 0x7FFAFBECB0D0
+    public void get_localScale(){} // RVA: 0x7FFAFBECB170
+    public void GetPositionAndRotation(){} // RVA: 0x7FFAFBECB230
     public void ReadLossyScale(){} // RVA: 0x7FFAFBECB2F0
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void Initialize(){} // RVA: 0x7FFAFBECB3B0
     public void .ctor_693D7FCB26A6(){} // RVA: 0x7FFAFBECB470
     public void CompareBaseObjects(){} // RVA: 0x7FFAFBECB530
     // ── Unresolved (hash) ──
-    public void m_86D(){} // RVA: 0x7FFAFBECB010
-    public void m_C15(){} // RVA: 0x7FFAFBECB170
-    public void m_B75(){} // RVA: 0x7FFAFBECB230
     public void m_BC6(){} // RVA: 0x7FFAFBECB5F0
 }
 
@@ -452,15 +452,15 @@ public class <>c
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void <>9__0_0_80ED228B04B9(){} // RVA: 0x7FFAFBECD060
     public void <GetType>b__2_0(){} // RVA: 0x7FFAF9B21380
+    public void GetTypePredicate(){} // RVA: 0x7FFAFBECD160
     public void .cctor(){} // RVA: 0x7FFAFBECD3A0
+    public void InstantiateCallback(){} // RVA: 0x7FFAFBECD440
+    public void CompareType(){} // RVA: 0x7FFAFBECD710
     public void Equals(){} // RVA: 0x7FFAFBECD830
     // ── Unresolved (hash) ──
-    public void m_B86(){} // RVA: 0x7FFAFBECD160
     public void m_B04(){} // RVA: 0x7FFAFBECD280
-    public void m_A68(){} // RVA: 0x7FFAFBECD440
     public void m_84F(){} // RVA: 0x7FFAFBECD520
     public void m_2A8(){} // RVA: 0x7FFAFBECD600
-    public void m_F78(){} // RVA: 0x7FFAFBECD710
 }
 
 public class <>c

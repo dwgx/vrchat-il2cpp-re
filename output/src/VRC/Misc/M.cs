@@ -12,16 +12,16 @@ namespace VRC.Misc
         public void GetMatrix4x4(){} // RVA: 0x7FFAFB7169D0
         public void SetMatrix4x4(){} // RVA: 0x7FFAFB716A00
         public void ProcessMatrix4x4(){} // RVA: 0x7FFAFB716A80
+        public void SetMatrix4x4IfReady(){} // RVA: 0x7FFAFB716EA0
+        public void ProcessMatrix4x4IfReady(){} // RVA: 0x7FFAFB7172F0
+        public void ProcessMatrix4x4IfReady_6DF73487EBEB(){} // RVA: 0x7FFAFB717300
         public void SetMatrix4x4_21674D5040A2(){} // RVA: 0x7FFAFB716A00
+        public void ProcessMatrix4x4IfReady_C8FEF7E90B0A(){} // RVA: 0x7FFAFB717320
+        public void ProcessMatrix4x4IfReady_FFAAE2369E4B(){} // RVA: 0x7FFAFB717350
         public void Start(){} // RVA: 0x7FFAFB7175B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB7177A0
         // ── Unresolved (hash) ──
-        public void m_479(){} // RVA: 0x7FFAFB716EA0
-        public void m_972(){} // RVA: 0x7FFAFB7172F0
-        public void m_6DF(){} // RVA: 0x7FFAFB717300
-        public void m_C8F(){} // RVA: 0x7FFAFB717320
-        public void m_FFA(){} // RVA: 0x7FFAFB717350
         public void m_BAB(){} // RVA: 0x7FFAFB717300
         public void m_7A0(){} // RVA: 0x7FFAFB717320
         public void m_E0C(){} // RVA: 0x7FFAFB717320
@@ -65,12 +65,12 @@ namespace VRC.Misc
         // ── Methods ──
         public void get_destroyCancellationToken(){} // RVA: 0x7FFAFB7A9540
         public void OnDisable(){} // RVA: 0x7FFAFB7A9670
+        public void CancelDestroyToken(){} // RVA: 0x7FFAFB7A97B0
         public void Awake_7FD28589FE1E(){} // RVA: 0x7FFAFB7A9A20
         public void OnEnable(){} // RVA: 0x7FFAFB7A9B50
         public void RegisterHandlers(){} // RVA: 0x7FFAFB7AA330
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         // ── Unresolved (hash) ──
-        public void m_A3F(){} // RVA: 0x7FFAFB7A97B0
         public void m_E45(){} // RVA: 0x7FFAFB7A98F0
         public void m_27E(){} // RVA: 0x7FFAFB7A9E50
         public void m_D8C(){} // RVA: 0x7FFAFB7A9F80

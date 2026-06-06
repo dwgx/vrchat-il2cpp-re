@@ -16,18 +16,18 @@ namespace VRC.Rendering
         public void ToType(){} // RVA: 0x7FFAFB88FD90
         public void TryFormat(){} // RVA: 0x7FFAFB88FF10
         public void Start(){} // RVA: 0x7FFAFB8900B0
+        public void ToBoolean(){} // RVA: 0x7FFAFB8903E0
         public void ConvertCharToString(){} // RVA: 0x7FFAFB890560
         public void ConvertCharToInt16(){} // RVA: 0x7FFAFB8906E0
+        public void ToByte(){} // RVA: 0x7FFAFB890770
+        public void ToDouble(){} // RVA: 0x7FFAFB8907B0
         public void OnDestroy(){} // RVA: 0x7FFAFB890860
         public void OnDisable(){} // RVA: 0x7FFAFB890C30
         public void OnEnable(){} // RVA: 0x7FFAFB890DC0
+        public void ToInt32(){} // RVA: 0x7FFAFB890F10
         // ── Unresolved (hash) ──
         public void m_DF5(){} // RVA: 0x7FFAFB88FA70
         public void m_D16(){} // RVA: 0x7FFAFB88FFA0
-        public void m_182(){} // RVA: 0x7FFAFB8903E0
-        public void m_515(){} // RVA: 0x7FFAFB890770
-        public void m_3EA(){} // RVA: 0x7FFAFB8907B0
-        public void m_3E8(){} // RVA: 0x7FFAFB890F10
     }
 
     /// <summary>Originally: ÍÌÍÌÌÎÌÎÏÎÏÍÎÍÎÎÍÍÏÏÏÍÌ</summary>
@@ -39,11 +39,11 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF34270D0
         public void get_FileId_0CC4E723CCFB(){} // RVA: 0x7FFAF34270D0
+        public void SetTrailMaterial_C07147FD6AAA(){} // RVA: 0x7FFAFB873280
         public void SetVelocityScale(){} // RVA: 0x7FFAFB873360
+        public void SetVelocityScale_52BFF41622E8(){} // RVA: 0x7FFAFB873440
         public void get_FileId_499D8515C891(){} // RVA: 0x7FFAF34270D0
         // ── Unresolved (hash) ──
-        public void m_C07(){} // RVA: 0x7FFAFB873280
-        public void m_52B(){} // RVA: 0x7FFAFB873440
         public void m_E5F(){} // RVA: 0x7FFAFB873520
         public void m_AFF(){} // RVA: 0x7FFAFB873600
     }
@@ -117,53 +117,51 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x7FFAFBBD6470
+        public void SetStartWidth(){} // RVA: 0x7FFAFBBD6480
         public void GetNumCornerVertices(){} // RVA: 0x7FFAFBBD6640
         public void GetLightmapIndex(){} // RVA: 0x7FFAFBBD6980
+        public void SetEndWidth(){} // RVA: 0x7FFAFBBD6A80
+        public void SetTime(){} // RVA: 0x7FFAFBBD7160
         public void GetSortingLayerID(){} // RVA: 0x7FFAFBBD7530
         public void GetSortingLayerName(){} // RVA: 0x7FFAFBBD76C0
+        public void GetSortingLayerName_CC891DF2643E(){} // RVA: 0x7FFAFBBD81D0
+        public void GetSortingLayerID_884EF222AF0A(){} // RVA: 0x7FFAFBBD82D0
         public void GetWorldToLocalMatrix(){} // RVA: 0x7FFAFBBD8380
+        public void SetStartColor(){} // RVA: 0x7FFAFBBD8830
+        public void SetEndColor(){} // RVA: 0x7FFAFBBD88A0
+        public void SetMaterial(){} // RVA: 0x7FFAFBBD8A60
         public void SetAlignment(){} // RVA: 0x7FFAFBBD8C90
+        public void SetMinVertexDistance(){} // RVA: 0x7FFAFBBD8D40
         public void .ctor(){} // RVA: 0x7FFAFBBD8DD0
         public void Initialize(){} // RVA: 0x7FFAFBBD8EC0
         public void SetAutodestruct(){} // RVA: 0x7FFAFBBD8F70
-        public void SetEndColor(){} // RVA: 0x7FFAFBBD9560
-        public void SetEndWidth(){} // RVA: 0x7FFAFBBD95F0
+        public void SetAlignment_98F5D3C5F42D(){} // RVA: 0x7FFAFBBD9410
+        public void SetEndColor_1A4875DD87A6(){} // RVA: 0x7FFAFBBD9560
+        public void SetEndWidth_325D830FAE1A(){} // RVA: 0x7FFAFBBD95F0
         public void Start(){} // RVA: 0x7FFAFBBD9740
         public void SetLightProbeUsage(){} // RVA: 0x7FFAFBBD9B50
-        public void SetStartColor(){} // RVA: 0x7FFAFBBD9D10
-        public void SetMaterial(){} // RVA: 0x7FFAFBBDA0F0
+        public void SetStartColor_291B7C750994(){} // RVA: 0x7FFAFBBD9D10
+        public void SetMaterial_0AF119FA237E(){} // RVA: 0x7FFAFBBDA0F0
         public void SetMaterial_49CE05C802B2(){} // RVA: 0x7FFAFBBDA160
-        public void SetStartWidth(){} // RVA: 0x7FFAFBBDA300
-        public void SetMinVertexDistance(){} // RVA: 0x7FFAFBBDA350
+        public void SetStartWidth_85034BC75B94(){} // RVA: 0x7FFAFBBDA300
+        public void SetMinVertexDistance_1943811D943C(){} // RVA: 0x7FFAFBBDA350
         public void SetMinVertexDistance_FEDE4F3005A9(){} // RVA: 0x7FFAFBBDA3A0
-        public void SetTime(){} // RVA: 0x7FFAFBBDA780
-        // ── Unresolved (hash) ──
-        public void m_65E(){} // RVA: 0x7FFAFBBD6480
-        public void m_535(){} // RVA: 0x7FFAFBBD6A80
-        public void m_1F5(){} // RVA: 0x7FFAFBBD7160
-        public void m_CC8(){} // RVA: 0x7FFAFBBD81D0
-        public void m_884(){} // RVA: 0x7FFAFBBD82D0
-        public void m_256(){} // RVA: 0x7FFAFBBD8830
-        public void m_EA9(){} // RVA: 0x7FFAFBBD88A0
-        public void m_9DA(){} // RVA: 0x7FFAFBBD8A60
-        public void m_595(){} // RVA: 0x7FFAFBBD8D40
-        public void m_98F(){} // RVA: 0x7FFAFBBD9410
+        public void SetTime_1F1E5DCC02ED(){} // RVA: 0x7FFAFBBDA780
     }
 
     /// <summary>Originally: ÏÌÌÎÎÏÍÏÏÏÍÌÌÎÌÍÎÌÍÏÎÏÌ</summary>
     public class PhysicsMaterialHandler_643F
     {
         // ── Methods ──
+        public void Tanf(){} // RVA: 0x7FFAFBB25D00
         public void SetMaterial(){} // RVA: 0x7FFAFBB25E80
+        public void Tanf_B0D504C8E5DF(){} // RVA: 0x7FFAFBB25FC0
+        public void Tanf_CA72A33FA256(){} // RVA: 0x7FFAFBB26050
         public void SetProvidesContacts(){} // RVA: 0x7FFAFBB26190
         public void Start(){} // RVA: 0x7FFAFBB26220
         public void .ctor(){} // RVA: 0x7FFAFBB26360
         public void Initialize(){} // RVA: 0x7FFAFBB263B0
         public void Tanh(){} // RVA: 0x7FFAFBB264F0
-        // ── Unresolved (hash) ──
-        public void m_289(){} // RVA: 0x7FFAFBB25D00
-        public void m_B0D(){} // RVA: 0x7FFAFBB25FC0
-        public void m_CA7(){} // RVA: 0x7FFAFBB26050
     }
 
     /// <summary>Originally: ÎÎÍÎÏÍÍÌÌÌÎÌÎÌÎÎÌÎÏÏÍÏÎ</summary>
@@ -190,18 +188,18 @@ namespace VRC.Rendering
     public class PopulateMesh_9F7F
     {
         // ── Methods ──
+        public void GetDefaultSprite(){} // RVA: 0x7FFAF3598C00
+        public void InitializeSpriteState(){} // RVA: 0x7FFAF35990D0
+        public void InitializeSpriteState_CA22113C1531(){} // RVA: 0x7FFAF3599120
         public void .ctor(){} // RVA: 0x7FFAF35995F0
         public void Initialize(){} // RVA: 0x7FFAF35996B0
+        public void InitializeSpriteState_C1ED48DE9C5E(){} // RVA: 0x7FFAF3599BB0
         public void OnPopulateMesh(){} // RVA: 0x7FFAF359A0A0
+        public void CreateUIVertex(){} // RVA: 0x7FFAF359A820
+        public void InitializeStatic(){} // RVA: 0x7FFAF355F6E0
         // ── Unresolved (hash) ──
-        public void m_A30(){} // RVA: 0x7FFAF3598C00
-        public void m_8A7(){} // RVA: 0x7FFAF35990D0
-        public void m_CA2(){} // RVA: 0x7FFAF3599120
-        public void m_C1E(){} // RVA: 0x7FFAF3599BB0
         public void m_37C(){} // RVA: 0x7FFAF359A300
         public void m_1F3(){} // RVA: 0x7FFAF359A350
-        public void m_85B(){} // RVA: 0x7FFAF359A820
-        public void m_F59(){} // RVA: 0x7FFAF355F6E0
     }
 
     /// <summary>Originally: ÍÏÌÎÎÍÌÏÌÍÍÍÌÎÎÌÎÌÏÏÎÏÌ</summary>
@@ -227,12 +225,12 @@ namespace VRC.Rendering
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x7FFAF355EC30
         public void OnDisable(){} // RVA: 0x7FFAF355F640
+        public void InitializeStatic(){} // RVA: 0x7FFAF355F6E0
         public void .cctor(){} // RVA: 0x7FFAF355F7C0
         public void .ctor(){} // RVA: 0x7FFAF355FA90
         public void OnPopulateMesh(){} // RVA: 0x7FFAF355FAB0
         // ── Unresolved (hash) ──
         public void m_C5C(){} // RVA: 0x7FFAF355F690
-        public void m_F59(){} // RVA: 0x7FFAF355F6E0
         public void m_667(){} // RVA: 0x7FFAF355F720
         public void m_3EC(){} // RVA: 0x7FFAF355F770
         public void m_30D(){} // RVA: 0x7FFAF355FA40
@@ -259,21 +257,20 @@ namespace VRC.Rendering
     public class PostRenderStaticMethods_ED48
     {
         // ── Methods ──
+        public void RegisterCameraCallbacks(){} // RVA: 0x7FFAF3EE3B30
         public void Awake(){} // RVA: 0x7FFAF3EE3EA0
         public void OnDestroy(){} // RVA: 0x7FFAF3EE3F40
+        public void UnregisterCameraCallbacks(){} // RVA: 0x7FFAF3EE4120
+        public void BuildPostRenderQueue(){} // RVA: 0x7FFAF3EE4300
         public void OnPostRender(){} // RVA: 0x7FFAF3EE4670
+        public void ProcessPostRenderObjects(){} // RVA: 0x7FFAF3EE4680
+        public void ProcessPostRenderObjects_E611F4682F5F(){} // RVA: 0x7FFAF3EE49F0
+        public void RenderQueuedObjects(){} // RVA: 0x7FFAF3EE5BF0
+        public void ClearPostRenderQueue(){} // RVA: 0x7FFAF3EE6C70
         public void .ctor(){} // RVA: 0x7FFAF3EE6E50
         public void Initialize(){} // RVA: 0x7FFAF3EE6F50
-        // ── Unresolved (hash) ──
-        public void m_55E(){} // RVA: 0x7FFAF3EE3B30
-        public void m_096(){} // RVA: 0x7FFAF3EE4120
-        public void m_B69(){} // RVA: 0x7FFAF3EE4300
-        public void m_D31(){} // RVA: 0x7FFAF3EE4680
-        public void m_E61(){} // RVA: 0x7FFAF3EE49F0
-        public void m_265(){} // RVA: 0x7FFAF3EE5BF0
-        public void m_716(){} // RVA: 0x7FFAF3EE6C70
-        public void m_BF6(){} // RVA: 0x7FFAF3EE7FD0
-        public void m_044(){} // RVA: 0x7FFAF3EE8340
+        public void RebuildRenderObjectCache(){} // RVA: 0x7FFAF3EE7FD0
+        public void FlushPostRenderCommands(){} // RVA: 0x7FFAF3EE8340
     }
 
     /// <summary>Originally: ÍÍÎÎÌÌÍÏÎÎÎÍÍÎÏÏÏÏÍÌÍÎÍ</summary>

@@ -9,12 +9,12 @@ namespace VRC.Core.Transform
     public class SwapTransform_8565
     {
         // ── Methods ──
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void SwapTransform(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_2BA(){} // RVA: 0x7FFAF2D8D310
         public void m_A0D(){} // RVA: 0x7FFAF2D8D310
         public void m_754(){} // RVA: 0x7FFAF2D8D310
         public void m_593(){} // RVA: 0x7FFAF2D8D310

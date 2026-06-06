@@ -10,23 +10,29 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void OverlapCircleArray(){} // RVA: 0x7FFAF394EA00
+        public void BoxCastNonAlloc_B8128706856D(){} // RVA: 0x7FFAF3950AD0 | overloaded x2
         public void get_ResponseModels(){} // RVA: 0x7FFAF2E08D50
+        public void OverlapCircleNonAlloc(){} // RVA: 0x7FFAF394F2A0
         public void .ctor(){} // RVA: 0x7FFAF394F550
         public void OverlapCircleArray_9436304ECBFF(){} // RVA: 0x7FFAF394F5A0
+        public void OverlapCircleArray_A3E854C4EB30(){} // RVA: 0x7FFAF394F640
+        public void OverlapBoxNonAlloc(){} // RVA: 0x7FFAF394F860
+        public void CircleCastNonAlloc(){} // RVA: 0x7FFAF394FA80
+        public void RaycastNonAlloc(){} // RVA: 0x7FFAF394FB60
         public void get_ResponseModels_8C00BB24E03F(){} // RVA: 0x7FFAF2E08D50
+        public void LinecastNonAlloc(){} // RVA: 0x7FFAF394FC00
         public void set_ResponseModels(){} // RVA: 0x7FFAF2E08D60
         public void CapsuleCastNonAlloc(){} // RVA: 0x7FFAF394FE50
         public void get_ResponseModels_FA79D652A77A(){} // RVA: 0x7FFAF2E08D50
         public void InternalSphereCastNonAllocInjected(){} // RVA: 0x7FFAF3950100
         public void OverlapSphereNonAlloc(){} // RVA: 0x7FFAF3950220
-        public void BoxCastNonAlloc(){} // RVA: 0x7FFAF39505F0
-        // ── 12 unresolved (hash) ──
-        public void m_B81(){} // RVA: 0x7FFAF3950AD0
-        public void m_125(){} // RVA: 0x7FFAF394F2A0
-        public void m_A3E(){} // RVA: 0x7FFAF394F640
-        public void m_AC9(){} // RVA: 0x7FFAF394F860
-        public void m_B27(){} // RVA: 0x7FFAF394FA80
-        // ... 7 more unresolved methods
+        public void SphereCastNonAlloc(){} // RVA: 0x7FFAF39504D0
+        public void BoxCastNonAlloc_54A5461007E0(){} // RVA: 0x7FFAF39505F0
+        public void CapsuleCastNonAlloc_61E75F35C266(){} // RVA: 0x7FFAF3951080
+        public void InternalSphereCastNonAllocInjected_0E93F58B9162(){} // RVA: 0x7FFAF3951120
+        public void GetRayIntersectionNonAlloc(){} // RVA: 0x7FFAF3951BB0
+        // ── Unresolved (hash) ──
+        public void m_052(){} // RVA: 0x7FFAF3951B60
     }
 
     /// <summary>Originally: ÎÎÏÍÏÎÎÍÏÍÌÌÌÌÎÎÏÍÌÏÍÍÍ</summary>
@@ -50,12 +56,11 @@ namespace VRC.Network
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF499DA70
         public void Cleanup_016CB637BE71(){} // RVA: 0x7FFAF499DA80
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup_CF3C4C0F0CAD(){} // RVA: 0x7FFAF499DA70
         public void Dispose_51FBC0D981AD(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x7FFAF2D8D310
-        public void m_C31(){} // RVA: 0x7FFAF2D8D310
-        public void m_6EA(){} // RVA: 0x7FFAF2D8D310
+        public void DisposeInternal(){} // RVA: 0x7FFAF2D8D310
+        public void ReleaseResources(){} // RVA: 0x7FFAF2D8D310
     }
 
     /// <summary>Originally: ÎÍÏÍÏÍÍÏÏÎÏÎÌÍÏÍÏÎÍÎÏÍÎ</summary>
@@ -85,13 +90,13 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_06A0
     {
         // ── Methods ──
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
+        public void Cleanup_C0175E97133A(){} // RVA: 0x7FFAF498D870
+        public void ResetState(){} // RVA: 0x7FFAF498D860
         public void Cleanup(){} // RVA: 0x7FFAF498D870
         public void Dispose_55208C4CA348(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_6EA(){} // RVA: 0x7FFAF2D8D310
-        public void m_410(){} // RVA: 0x7FFAF498D870
-        public void m_CF3(){} // RVA: 0x7FFAF498D860
         public void m_6F8(){} // RVA: 0x7FFAF2D8D310
         public void m_C31(){} // RVA: 0x7FFAF2D8D310
         public void m_C01(){} // RVA: 0x7FFAF498D870
@@ -102,33 +107,31 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_072F
     {
         // ── Methods ──
+        public void InvokeVirtualInt64Method(){} // RVA: 0x7FFAF49B2AA0
+        public void InvokeVirtualInt64Method_51FBC0D981AD(){} // RVA: 0x7FFAF49B2B10
         public void Dispose(){} // RVA: 0x7FFAF49B2B80
         public void Cleanup(){} // RVA: 0x7FFAF49B2BF0
-        // ── Unresolved (hash) ──
-        public void m_6F8(){} // RVA: 0x7FFAF49B2AA0
-        public void m_51F(){} // RVA: 0x7FFAF49B2B10
-        public void m_C31(){} // RVA: 0x7FFAF49B2DA0
-        public void m_24F(){} // RVA: 0x7FFAF49B2E10
-        public void m_F2B(){} // RVA: 0x7FFAF49B2FC0
-        public void m_552(){} // RVA: 0x7FFAF49B3030
-        public void m_016(){} // RVA: 0x7FFAF49B30A0
-        public void m_C01(){} // RVA: 0x7FFAF49B3260
+        public void InvokeVirtualObjectMethod(){} // RVA: 0x7FFAF49B2DA0
+        public void InvokeVirtualUInt32Method(){} // RVA: 0x7FFAF49B2E10
+        public void InvokeVirtualUInt32MethodWithContext(){} // RVA: 0x7FFAF49B2FC0
+        public void InvokeVirtualInt64MethodWithContext(){} // RVA: 0x7FFAF49B3030
+        public void InvokeVirtualInt64Method_016CB637BE71(){} // RVA: 0x7FFAF49B30A0
+        public void InvokeVirtualUInt32MethodWithContext_C0175E97133A(){} // RVA: 0x7FFAF49B3260
     }
 
     /// <summary>Originally: ÎÏÍÌÌÎÌÌÏÍÏÍÏÏÎÏÌÌÎÏÌÌÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_095C
     {
         // ── Methods ──
+        public void InitializeNativeState(){} // RVA: 0x7FFAF49AA330
         public void Dispose(){} // RVA: 0x7FFAF49AA3A0
         public void Cleanup(){} // RVA: 0x7FFAF49AA410
-        // ── Unresolved (hash) ──
-        public void m_DD6(){} // RVA: 0x7FFAF49AA330
-        public void m_C31(){} // RVA: 0x7FFAF49AA540
-        public void m_F2B(){} // RVA: 0x7FFAF49AA5B0
-        public void m_C01(){} // RVA: 0x7FFAF49AA620
-        public void m_6EA(){} // RVA: 0x7FFAF49AA750
-        public void m_410(){} // RVA: 0x7FFAF49AA7C0
-        public void m_016(){} // RVA: 0x7FFAF49AA8F0
+        public void FinalizeNativeResources(){} // RVA: 0x7FFAF49AA540
+        public void DisposeNativeResources(){} // RVA: 0x7FFAF49AA5B0
+        public void MarkGcObjectReferences(){} // RVA: 0x7FFAF49AA620
+        public void InitializeExplicitGcTyping(){} // RVA: 0x7FFAF49AA750
+        public void RegisterNativeCallbacks(){} // RVA: 0x7FFAF49AA7C0
+        public void ReleaseNativeHandle(){} // RVA: 0x7FFAF49AA8F0
     }
 
     /// <summary>Originally: ÎÏÎÏÏÎÍÍÏÌÎÏÍÌÌÏÏÏÍÌÌÏÍ</summary>
@@ -136,13 +139,13 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void Hypot(){} // RVA: 0x7FFAF4B07970
         public void CopySign(){} // RVA: 0x7FFAF4B07B70
         public void IsLower(){} // RVA: 0x7FFAF4B07D70
+        public void LoadResourceString(){} // RVA: 0x7FFAF4B07F70
+        public void LoadResourceString_77C4BDDE9616(){} // RVA: 0x7FFAF4B08170
         // ── Unresolved (hash) ──
-        public void m_709(){} // RVA: 0x7FFAF44189C0
-        public void m_575(){} // RVA: 0x7FFAF4B07F70
-        public void m_77C(){} // RVA: 0x7FFAF4B08170
         public void m_CCF(){} // RVA: 0x7FFAF44189C0
     }
 
@@ -150,16 +153,16 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_0C4E
     {
         // ── Methods ──
+        public void CleanupNativeResources(){} // RVA: 0x7FFAF498D870
+        public void Cleanup_C0175E97133A(){} // RVA: 0x7FFAF498D870
+        public void CleanupManagedResources(){} // RVA: 0x7FFAF498D860
         public void Cleanup(){} // RVA: 0x7FFAF498D860
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void DisposeInternal(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
+        public void ReleaseResources(){} // RVA: 0x7FFAF2D8D310
         public void Dispose_2F048217F2F1(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_C01(){} // RVA: 0x7FFAF498D870
-        public void m_937(){} // RVA: 0x7FFAF498D870
-        public void m_6C6(){} // RVA: 0x7FFAF498D860
-        public void m_C31(){} // RVA: 0x7FFAF2D8D310
-        public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_6F8(){} // RVA: 0x7FFAF2D8D310
         public void m_F2B(){} // RVA: 0x7FFAF2D8D310
     }
 
@@ -168,32 +171,32 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void Dispose_51FBC0D981AD(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
+        public void ResetState(){} // RVA: 0x7FFAF498D860
         public void Cleanup(){} // RVA: 0x7FFAF498D870
+        public void Cleanup_C0175E97133A(){} // RVA: 0x7FFAF498D870
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_6EA(){} // RVA: 0x7FFAF2D8D310
-        public void m_95D(){} // RVA: 0x7FFAF498D860
         public void m_CF3(){} // RVA: 0x7FFAF498D860
-        public void m_C01(){} // RVA: 0x7FFAF498D870
     }
 
     /// <summary>Originally: ÎÏÌÌÍÏÎÌÍÍÏÍÍÎÏÍÍÎÍÌÎÎÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_0ED7
     {
         // ── Methods ──
+        public void set_Item(){} // RVA: 0x7FFAF2AD4B10
         public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void get_Item(){} // RVA: 0x7FFAF2AD4B10
         public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void Dispose(){} // RVA: 0x7FFAF2AD5130
         public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         // ── Unresolved (hash) ──
-        public void m_A78(){} // RVA: 0x7FFAF2AD4B10
         public void m_E48(){} // RVA: 0x7FFAF2AD4B10
         public void m_B09(){} // RVA: 0x7FFAF2AD4B10
         public void m_C5E(){} // RVA: 0x7FFAF2AD4B10
         public void m_D1D(){} // RVA: 0x7FFAF2AD4B10
         public void m_695(){} // RVA: 0x7FFAF2AD4B10
-        public void m_F5C(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÎÏÎÌÌÎÌÍÏÌÍÍÌÎÌÏÍÌÎÍÏÎÍ</summary>
@@ -202,24 +205,23 @@ namespace VRC.Network
         // ── Methods ──
         public void Dispose(){} // RVA: 0x7FFAF49972F0
         public void Cleanup(){} // RVA: 0x7FFAF4997340
-        // ── Unresolved (hash) ──
-        public void m_6EA(){} // RVA: 0x7FFAF4997460
-        public void m_F2B(){} // RVA: 0x7FFAF49974B0
-        public void m_410(){} // RVA: 0x7FFAF4997500
-        public void m_2F0(){} // RVA: 0x7FFAF4997620
-        public void m_6F8(){} // RVA: 0x7FFAF4997670
-        public void m_C31(){} // RVA: 0x7FFAF49976C0
+        public void InitializeExplicitGcTyping(){} // RVA: 0x7FFAF4997460
+        public void DisposeNativeResources(){} // RVA: 0x7FFAF49974B0
+        public void RegisterNativeCallbacks(){} // RVA: 0x7FFAF4997500
+        public void FinalizeNativeResources(){} // RVA: 0x7FFAF4997620
+        public void CleanupNativeResources(){} // RVA: 0x7FFAF4997670
+        public void ReleaseNativeHandle(){} // RVA: 0x7FFAF49976C0
     }
 
     /// <summary>Originally: ÎÍÏÏÌÏÌÌÌÍÍÍÌÎÎÌÌÎÌÌÌÌÏ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_1CB6
     {
         // ── Methods ──
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         // ── Unresolved (hash) ──
         public void m_536(){} // RVA: 0x7FFAF49D8AD0
         public void m_03E(){} // RVA: 0x7FFAF49D8CF0
-        public void m_856(){} // RVA: 0x7FFAF44189C0
         public void m_709(){} // RVA: 0x7FFAF44189C0
         public void m_45A(){} // RVA: 0x7FFAF49D8F10
         public void m_943(){} // RVA: 0x7FFAF49D9130
@@ -248,28 +250,27 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_258A
     {
         // ── Methods ──
+        public void CleanupManagedResources(){} // RVA: 0x7FFAF498D860
+        public void CleanupNativeResources(){} // RVA: 0x7FFAF498D860
         public void Cleanup(){} // RVA: 0x7FFAF498D870
+        public void ReleaseCachedHandles(){} // RVA: 0x7FFAF498D860
+        public void Cleanup_C0175E97133A(){} // RVA: 0x7FFAF498D870
+        public void ResetState(){} // RVA: 0x7FFAF498D870
         public void Dispose_DD69F86CA4D2(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_410(){} // RVA: 0x7FFAF498D860
-        public void m_24F(){} // RVA: 0x7FFAF498D860
-        public void m_EEE(){} // RVA: 0x7FFAF498D860
-        public void m_C01(){} // RVA: 0x7FFAF498D870
-        public void m_95D(){} // RVA: 0x7FFAF498D870
-        public void m_F2B(){} // RVA: 0x7FFAF2D8D310
     }
 
     /// <summary>Originally: ÎÍÏÏÌÏÍÎÎÏÎÍÌÎÏÏÌÌÌÏÎÌÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_261C
     {
         // ── Methods ──
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void GetTouchCount(){} // RVA: 0x7FFAF4B35FF0
         public void GetAlpha(){} // RVA: 0x7FFAF4B36140
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void GetAlpha_03EAABD9F029(){} // RVA: 0x7FFAF4B363E0
         // ── Unresolved (hash) ──
-        public void m_9CA(){} // RVA: 0x7FFAF44189C0
         public void m_536(){} // RVA: 0x7FFAF4B35D50
         public void m_96F(){} // RVA: 0x7FFAF4B35EA0
         public void m_CB6(){} // RVA: 0x7FFAF44189C0
@@ -295,17 +296,17 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_3D30
     {
         // ── Methods ──
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void MoveMemory(){} // RVA: 0x7FFAF4B27D00
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void SetMemory(){} // RVA: 0x7FFAF4B27F00
+        public void GetStaticByteBuffer(){} // RVA: 0x7FFAF4B28100
+        public void set_ByteBuffer_CCF64FB06FBE(){} // RVA: 0x7FFAF44189C0
+        public void GetBufferHandle(){} // RVA: 0x7FFAF4B28300
+        public void set_ByteBuffer_4D0FE4F77B27(){} // RVA: 0x7FFAF44189C0
         // ── Unresolved (hash) ──
-        public void m_F7C(){} // RVA: 0x7FFAF44189C0
-        public void m_03E(){} // RVA: 0x7FFAF4B28100
         public void m_709(){} // RVA: 0x7FFAF44189C0
-        public void m_CCF(){} // RVA: 0x7FFAF44189C0
-        public void m_575(){} // RVA: 0x7FFAF4B28300
         public void m_856(){} // RVA: 0x7FFAF44189C0
-        public void m_4D0(){} // RVA: 0x7FFAF44189C0
     }
 
     /// <summary>Originally: ÎÎÎÌÌÌÎÏÏÌÍÎÏÏÎÏÌÏÍÌÌÏÍ</summary>
@@ -352,14 +353,14 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_42C0
     {
         // ── Methods ──
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
+        public void ResetState(){} // RVA: 0x7FFAF498D860
+        public void Cleanup_C0175E97133A(){} // RVA: 0x7FFAF498D870
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF498D860
         public void Dispose_51FBC0D981AD(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup_016CB637BE71(){} // RVA: 0x7FFAF498D860
         // ── Unresolved (hash) ──
-        public void m_DD6(){} // RVA: 0x7FFAF2D8D310
-        public void m_95D(){} // RVA: 0x7FFAF498D860
-        public void m_C01(){} // RVA: 0x7FFAF498D870
         public void m_C31(){} // RVA: 0x7FFAF2D8D310
         public void m_F2B(){} // RVA: 0x7FFAF2D8D310
     }
@@ -384,28 +385,27 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_44C5
     {
         // ── Methods ──
+        public void InitializeNativeState(){} // RVA: 0x7FFAF4AB29B0
         public void Dispose(){} // RVA: 0x7FFAF4AB2B50
         public void Cleanup(){} // RVA: 0x7FFAF4AB2BC0
-        // ── Unresolved (hash) ──
-        public void m_CF3(){} // RVA: 0x7FFAF4AB29B0
-        public void m_51F(){} // RVA: 0x7FFAF4AB2D60
-        public void m_95D(){} // RVA: 0x7FFAF4AB2DD0
-        public void m_016(){} // RVA: 0x7FFAF4AB2F70
-        public void m_C31(){} // RVA: 0x7FFAF4AB3110
-        public void m_C01(){} // RVA: 0x7FFAF4AB3180
+        public void DisposeNativeResources(){} // RVA: 0x7FFAF4AB2D60
+        public void CleanupNativeResources(){} // RVA: 0x7FFAF4AB2DD0
+        public void ReleaseNativeHandle(){} // RVA: 0x7FFAF4AB2F70
+        public void FinalizeNativeResources(){} // RVA: 0x7FFAF4AB3110
+        public void MarkGcObjectReferences(){} // RVA: 0x7FFAF4AB3180
     }
 
     /// <summary>Originally: ÎÏÌÏÌÎÌÍÍÍÌÍÌÍÏÍÍÍÎÌÎÏÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_4CC90
     {
         // ── Methods ──
+        public void Cleanup_C0175E97133A(){} // RVA: 0x7FFAF498D870
         public void Dispose_2F048217F2F1(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF498D870
         public void Cleanup_24F8FB692E5A(){} // RVA: 0x7FFAF498D870
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_C01(){} // RVA: 0x7FFAF498D870
-        public void m_6F8(){} // RVA: 0x7FFAF2D8D310
         public void m_F2B(){} // RVA: 0x7FFAF2D8D310
     }
 
@@ -427,16 +427,15 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_547C
     {
         // ── Methods ──
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose_6EA0BBD7AB19_DD69F86CA4D2(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose_6F8246576AC4(){} // RVA: 0x7FFAF2D8D310
+        public void Cleanup_016CB637BE71(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF498D870
+        public void Cleanup_24F8FB692E5A(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup_95DF3ECA53E5(){} // RVA: 0x7FFAF498D870
         public void Dispose_2F048217F2F1(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_C31(){} // RVA: 0x7FFAF2D8D310
-        public void m_DD6(){} // RVA: 0x7FFAF2D8D310
-        public void m_F2B(){} // RVA: 0x7FFAF2D8D310
-        public void m_6EA(){} // RVA: 0x7FFAF2D8D310
-        public void m_51F(){} // RVA: 0x7FFAF2D8D310
     }
 
     /// <summary>Originally: ÎÏÏÌÍÌÏÎÎÏÌÍÎÏÌÌÎÌÌÌÌÏÎ</summary>
@@ -445,12 +444,12 @@ namespace VRC.Network
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void GetFields(){} // RVA: 0x7FFAF4A97EE0
+        public void GetProperties(){} // RVA: 0x7FFAF4A980E0
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void GetConstructors(){} // RVA: 0x7FFAF4A982E0
         public void GetMethods(){} // RVA: 0x7FFAF4A984E0
         // ── Unresolved (hash) ──
-        public void m_77C(){} // RVA: 0x7FFAF4A980E0
-        public void m_CB6(){} // RVA: 0x7FFAF44189C0
         public void m_9CA(){} // RVA: 0x7FFAF44189C0
-        public void m_96F(){} // RVA: 0x7FFAF4A982E0
     }
 
     /// <summary>Originally: ÎÏÌÌÏÌÌÎÏÌÍÍÌÌÍÏÍÎÍÌÎÎÏ</summary>
@@ -485,14 +484,13 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_5C91
     {
         // ── Methods ──
+        public void InitializeBatteryLevel(){} // RVA: 0x7FFAF4AC0B60
         public void Dispose(){} // RVA: 0x7FFAF4AC0C40
         public void Cleanup(){} // RVA: 0x7FFAF4AC0CB0
+        public void ReadBatteryLevel(){} // RVA: 0x7FFAF4AC0D20
         public void GetBatteryLevel(){} // RVA: 0x7FFAF4AC0D90
         public void GetBatteryLevel_24F8FB692E5A(){} // RVA: 0x7FFAF4AC0E70
-        // ── Unresolved (hash) ──
-        public void m_410(){} // RVA: 0x7FFAF4AC0B60
-        public void m_F2B(){} // RVA: 0x7FFAF4AC0D20
-        public void m_016(){} // RVA: 0x7FFAF4AC0F50
+        public void GetBatteryLevelInternal(){} // RVA: 0x7FFAF4AC0F50
     }
 
     /// <summary>Originally: ÎÎÍÍÏÎÍÎÎÏÌÎÏÌÍÍÎÍÏÎÏÍÏ</summary>
@@ -514,14 +512,13 @@ namespace VRC.Network
         // ── Methods ──
         public void FreeSystemSemaphore(){} // RVA: 0x7FFAF4B2BCE0
         public void ReleaseNativeLibraryAndSemaphore(){} // RVA: 0x7FFAF4B2BE50
+        public void LoadNativeLibrary(){} // RVA: 0x7FFAF4B2BFC0
         public void UnloadNativeLibrary(){} // RVA: 0x7FFAF4B2C120
         public void Dispose(){} // RVA: 0x7FFAF4B2C290
         public void Cleanup(){} // RVA: 0x7FFAF4B2C300
-        // ── Unresolved (hash) ──
-        public void m_C01(){} // RVA: 0x7FFAF4B2BFC0
-        public void m_410(){} // RVA: 0x7FFAF4B2C370
-        public void m_937(){} // RVA: 0x7FFAF4B2C4E0
-        public void m_6EA(){} // RVA: 0x7FFAF4B2C640
+        public void AcquireSystemSemaphore(){} // RVA: 0x7FFAF4B2C370
+        public void CreateSystemSemaphore(){} // RVA: 0x7FFAF4B2C4E0
+        public void DisposeNativeHandles(){} // RVA: 0x7FFAF4B2C640
     }
 
     /// <summary>Originally: ÎÎÎÍÎÎÏÍÏÌÎÏÎÌÌÏÌÏÏÎÏÏÏ</summary>
@@ -533,26 +530,25 @@ namespace VRC.Network
         public void FormatGuidString_5752BD00C0B9(){} // RVA: 0x7FFAF4ADE430
         public void GetVersionString(){} // RVA: 0x7FFAF4ADE680
         public void GetVersionString_96F2BF9A5AED(){} // RVA: 0x7FFAF4ADE8D0
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         // ── Unresolved (hash) ──
         public void m_77C(){} // RVA: 0x7FFAF4ADDF90
-        public void m_F7C(){} // RVA: 0x7FFAF44189C0
     }
 
     /// <summary>Originally: ÎÏÎÏÏÏÍÌÍÏÌÎÍÍÏÎÏÏÍÏÎÍÍ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_6406
     {
         // ── Methods ──
+        public void InvokeVirtualObjectMethod(){} // RVA: 0x7FFAF49F98C0
+        public void InvokeVirtualObjectMethod_C0175E97133A(){} // RVA: 0x7FFAF49F9930
+        public void InvokeVirtualUInt32Method(){} // RVA: 0x7FFAF49F9AD0
+        public void InvokeVirtualInt64Method(){} // RVA: 0x7FFAF49F9C70
+        public void InvokeVirtualUInt32Method_95DF3ECA53E5(){} // RVA: 0x7FFAF49F9E10
         public void Dispose(){} // RVA: 0x7FFAF49F9FB0
         public void Cleanup(){} // RVA: 0x7FFAF49FA020
-        // ── Unresolved (hash) ──
-        public void m_C31(){} // RVA: 0x7FFAF49F98C0
-        public void m_C01(){} // RVA: 0x7FFAF49F9930
-        public void m_6C6(){} // RVA: 0x7FFAF49F9AD0
-        public void m_016(){} // RVA: 0x7FFAF49F9C70
-        public void m_95D(){} // RVA: 0x7FFAF49F9E10
-        public void m_DD6(){} // RVA: 0x7FFAF49FA090
-        public void m_F2B(){} // RVA: 0x7FFAF49FA100
-        public void m_51F(){} // RVA: 0x7FFAF49FA170
+        public void InvokeVirtualUInt32MethodWithContext(){} // RVA: 0x7FFAF49FA090
+        public void InvokeVirtualUInt32MethodWithContext_F2B7F5C46C70(){} // RVA: 0x7FFAF49FA100
+        public void InvokeVirtualInt64Method_51FBC0D981AD(){} // RVA: 0x7FFAF49FA170
     }
 
     /// <summary>Originally: ÎÏÎÌÏÍÎÍÎÍÎÎÍÏÎÍÎÍÎÌÎÏÏ</summary>
@@ -596,15 +592,14 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_6A53
     {
         // ── Methods ──
+        public void InvokeLongKeyAccessor(){} // RVA: 0x7FFAF49994F0
+        public void InvokeUIntKeyAccessor(){} // RVA: 0x7FFAF49996D0
+        public void InvokeUIntKeySetter(){} // RVA: 0x7FFAF49998B0
+        public void InvokeLongValueAccessor(){} // RVA: 0x7FFAF4999A90
+        public void get_Value(){} // RVA: 0x7FFAF4584690
         public void get_Key(){} // RVA: 0x7FFAF4584690
-        // ── Unresolved (hash) ──
-        public void m_575(){} // RVA: 0x7FFAF49994F0
-        public void m_45A(){} // RVA: 0x7FFAF49996D0
-        public void m_AEE(){} // RVA: 0x7FFAF49998B0
-        public void m_77C(){} // RVA: 0x7FFAF4999A90
-        public void m_9CA(){} // RVA: 0x7FFAF4584690
-        public void m_96F(){} // RVA: 0x7FFAF4999C70
-        public void m_55E(){} // RVA: 0x7FFAF4999E50
+        public void InvokeUIntValueAccessor(){} // RVA: 0x7FFAF4999C70
+        public void InvokeKeyValuePairAccessor(){} // RVA: 0x7FFAF4999E50
     }
 
     /// <summary>Originally: ÎÎÍÌÍÍÌÎÎÎÌÎÌÌÏÎÌÌÏÎÌÌÏ</summary>
@@ -613,13 +608,13 @@ namespace VRC.Network
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void P2AddNotifyIncomingPacketQueueFull(){} // RVA: 0x7FFAF49A9380
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         // ── Unresolved (hash) ──
         public void m_575(){} // RVA: 0x7FFAF49A8D20
         public void m_45A(){} // RVA: 0x7FFAF49A8F40
         public void m_55E(){} // RVA: 0x7FFAF49A9160
         public void m_536(){} // RVA: 0x7FFAF49A95A0
         public void m_943(){} // RVA: 0x7FFAF49A97C0
-        public void m_856(){} // RVA: 0x7FFAF44189C0
         public void m_AEE(){} // RVA: 0x7FFAF49A99E0
     }
 
@@ -627,31 +622,30 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_6FFD
     {
         // ── Methods ──
+        public void InitializeExplicitGcTyping(){} // RVA: 0x7FFAF4B28500
+        public void MarkGcObjectReferences(){} // RVA: 0x7FFAF4B28570
         public void Dispose(){} // RVA: 0x7FFAF4B286D0
         public void Cleanup(){} // RVA: 0x7FFAF4B28740
-        // ── Unresolved (hash) ──
-        public void m_6EA(){} // RVA: 0x7FFAF4B28500
-        public void m_C01(){} // RVA: 0x7FFAF4B28570
-        public void m_2F0(){} // RVA: 0x7FFAF4B287B0
-        public void m_F2B(){} // RVA: 0x7FFAF4B28820
-        public void m_95D(){} // RVA: 0x7FFAF4B28890
+        public void FinalizeNativeResources(){} // RVA: 0x7FFAF4B287B0
+        public void DisposeNativeResources(){} // RVA: 0x7FFAF4B28820
+        public void CleanupNativeResources(){} // RVA: 0x7FFAF4B28890
     }
 
     /// <summary>Originally: ÎÎÍÌÍÏÌÌÎÎÌÍÍÌÏÌÏÏÌÏÌÏÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_7637
     {
         // ── Methods ──
+        public void Dispose_2F048217F2F1(){} // RVA: 0x7FFAF4AE2430
+        public void Cleanup_95DF3ECA53E5(){} // RVA: 0x7FFAF4AE2630
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF4AE26A0
         public void Dispose(){} // RVA: 0x7FFAF4AE2710
         public void Cleanup(){} // RVA: 0x7FFAF4AE2780
         public void SortArrayWithContext(){} // RVA: 0x7FFAF4AE2980
+        public void Cleanup_016CB637BE71(){} // RVA: 0x7FFAF4AE29F0
+        public void SortArrayWithContext_95DF3ECA53E5(){} // RVA: 0x7FFAF4AE2A60
         public void SortArrayWithContext_51FBC0D981AD(){} // RVA: 0x7FFAF4AE2C60
         // ── Unresolved (hash) ──
         public void m_C01(){} // RVA: 0x7FFAF4AE2230
-        public void m_937(){} // RVA: 0x7FFAF4AE2430
-        public void m_552(){} // RVA: 0x7FFAF4AE2630
-        public void m_F2B(){} // RVA: 0x7FFAF4AE26A0
-        public void m_6EA(){} // RVA: 0x7FFAF4AE29F0
-        public void m_EEE(){} // RVA: 0x7FFAF4AE2A60
     }
 
     /// <summary>Originally: ÎÎÍÎÏÌÎÌÌÌÍÌÏÍÍÌÌÎÏÌÏÌÎ</summary>
@@ -694,12 +688,12 @@ namespace VRC.Network
         public void RegisterDisappearingLink_937CF8FBCAA6(){} // RVA: 0x7FFAF4A29650
         public void RegisterDisappearingLink_EEEFF269E718(){} // RVA: 0x7FFAF4A29650
         public void RegisterDisappearingLink_C0175E97133A(){} // RVA: 0x7FFAF4A29650
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D8D310
         public void RegisterDisappearingLink_CF3C4C0F0CAD(){} // RVA: 0x7FFAF4A29650
         public void Dispose_2F048217F2F1(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_51F(){} // RVA: 0x7FFAF2D8D310
         public void m_6F8(){} // RVA: 0x7FFAF2D8D310
     }
 
@@ -707,16 +701,15 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_7D0F
     {
         // ── Methods ──
+        public void AllocateNativeBuffer(){} // RVA: 0x7FFAF4997710
+        public void InitializeNativeState(){} // RVA: 0x7FFAF4997760
+        public void RegisterNativeCallbacks(){} // RVA: 0x7FFAF49977B0
         public void Dispose(){} // RVA: 0x7FFAF49978D0
         public void Cleanup(){} // RVA: 0x7FFAF4997920
-        // ── Unresolved (hash) ──
-        public void m_51F(){} // RVA: 0x7FFAF4997710
-        public void m_2F0(){} // RVA: 0x7FFAF4997760
-        public void m_CF3(){} // RVA: 0x7FFAF49977B0
-        public void m_6F8(){} // RVA: 0x7FFAF4997970
-        public void m_24F(){} // RVA: 0x7FFAF49979C0
-        public void m_937(){} // RVA: 0x7FFAF4997AE0
-        public void m_C01(){} // RVA: 0x7FFAF4997C00
+        public void DisposeNativeResources(){} // RVA: 0x7FFAF4997970
+        public void CleanupNativeResources(){} // RVA: 0x7FFAF49979C0
+        public void ReleaseNativeHandle(){} // RVA: 0x7FFAF4997AE0
+        public void MarkGcObjectReferences(){} // RVA: 0x7FFAF4997C00
     }
 
     /// <summary>Originally: ÎÎÍÍÍÎÏÍÎÌÌÌÎÍÌÏÎÍÍÏÎÍÎ</summary>
@@ -724,9 +717,9 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void UpdateRotation(){} // RVA: 0x7FFAF4B43010
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         // ── Unresolved (hash) ──
-        public void m_CCF(){} // RVA: 0x7FFAF44189C0
         public void m_77C(){} // RVA: 0x7FFAF4B43260
         public void m_96F(){} // RVA: 0x7FFAF4B434B0
         public void m_F7C(){} // RVA: 0x7FFAF44189C0
@@ -755,12 +748,12 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         // ── Unresolved (hash) ──
         public void m_943(){} // RVA: 0x7FFAF498FFE0
         public void m_77C(){} // RVA: 0x7FFAF4990360
         public void m_AEE(){} // RVA: 0x7FFAF49906E0
         public void m_575(){} // RVA: 0x7FFAF4990A60
-        public void m_F7C(){} // RVA: 0x7FFAF44189C0
         public void m_96F(){} // RVA: 0x7FFAF4990DE0
     }
 
@@ -782,12 +775,12 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_8689
     {
         // ── Methods ──
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF499DA70
         public void Dispose_2F048217F2F1(){} // RVA: 0x7FFAF2D8D310
+        public void CleanupResources(){} // RVA: 0x7FFAF499DA70
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_F2B(){} // RVA: 0x7FFAF2D8D310
-        public void m_937(){} // RVA: 0x7FFAF499DA70
         public void m_95D(){} // RVA: 0x7FFAF499DA70
         public void m_C01(){} // RVA: 0x7FFAF499DA70
         public void m_410(){} // RVA: 0x7FFAF499DA70
@@ -799,10 +792,10 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void UpdateRotation(){} // RVA: 0x7FFAF49FDEE0
+        public void get_Value(){} // RVA: 0x7FFAF4584690
+        public void set_Key(){} // RVA: 0x7FFAF4584690
         public void get_Key(){} // RVA: 0x7FFAF4584690
         // ── Unresolved (hash) ──
-        public void m_9CA(){} // RVA: 0x7FFAF4584690
-        public void m_856(){} // RVA: 0x7FFAF4584690
         public void m_4D0(){} // RVA: 0x7FFAF4584690
         public void m_77C(){} // RVA: 0x7FFAF49FE100
         public void m_709(){} // RVA: 0x7FFAF4584690
@@ -815,15 +808,14 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x7FFAF4601430
+        public void FinalizeNativeResources(){} // RVA: 0x7FFAF4601460
+        public void DisposeNativeResources(){} // RVA: 0x7FFAF4601430
+        public void InitializeNativeState(){} // RVA: 0x7FFAF4601460
         public void .ctor(){} // RVA: 0x7FFAF2D8EE30
         public void Initialize(){} // RVA: 0x7FFAF4601430
+        public void InitializeExplicitGcTyping(){} // RVA: 0x7FFAF4601430
         public void Dispose(){} // RVA: 0x7FFAF4601430
-        // ── Unresolved (hash) ──
-        public void m_2F0(){} // RVA: 0x7FFAF4601460
-        public void m_6F8(){} // RVA: 0x7FFAF4601430
-        public void m_DD6(){} // RVA: 0x7FFAF4601460
-        public void m_6EA(){} // RVA: 0x7FFAF4601430
-        public void m_F2B(){} // RVA: 0x7FFAF4601430
+        public void CleanupNativeResources(){} // RVA: 0x7FFAF4601430
     }
 
     /// <summary>Originally: ÎÎÌÏÎÎÎÎÎÏÍÌÎÎÎÏÌÎÎÎÌÌÏ</summary>
@@ -844,33 +836,31 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_8F01
     {
         // ── Methods ──
+        public void ResolveVirtualMethod(){} // RVA: 0x7FFAF49FA1E0
+        public void InvokeVirtualInt64Method(){} // RVA: 0x7FFAF49FA250
+        public void InvokeVirtualInt64Method_937CF8FBCAA6(){} // RVA: 0x7FFAF49FA2C0
+        public void InvokeVirtualUInt32Method(){} // RVA: 0x7FFAF49FA3F0
+        public void InvokeVirtualInt64Method_EEEFF269E718(){} // RVA: 0x7FFAF49FA520
+        public void InvokeVirtualUInt32Method_96F2BF9A5AED(){} // RVA: 0x7FFAF49FA650
+        public void InvokeVirtualInt64Method_55E424353A49(){} // RVA: 0x7FFAF49FA830
+        public void InvokeVirtualUInt32Method_6C6F45E29ACC(){} // RVA: 0x7FFAF49FAA10
+        public void InvokeVirtualUInt32MethodWithContext(){} // RVA: 0x7FFAF49FAB40
         public void Dispose(){} // RVA: 0x7FFAF49FAC70
         public void Cleanup(){} // RVA: 0x7FFAF49FACE0
-        // ── Unresolved (hash) ──
-        public void m_F2B(){} // RVA: 0x7FFAF49FA1E0
-        public void m_2F0(){} // RVA: 0x7FFAF49FA250
-        public void m_937(){} // RVA: 0x7FFAF49FA2C0
-        public void m_C01(){} // RVA: 0x7FFAF49FA3F0
-        public void m_EEE(){} // RVA: 0x7FFAF49FA520
-        public void m_96F(){} // RVA: 0x7FFAF49FA650
-        public void m_55E(){} // RVA: 0x7FFAF49FA830
-        public void m_6C6(){} // RVA: 0x7FFAF49FAA10
-        public void m_24F(){} // RVA: 0x7FFAF49FAB40
     }
 
     /// <summary>Originally: ÎÏÍÌÎÍÎÎÌÎÏÏÏÏÍÏÍÎÎÏÍÌÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_935C
     {
         // ── Methods ──
+        public void DisposeNativeResources(){} // RVA: 0x7FFAF49A02D0
         public void Dispose(){} // RVA: 0x7FFAF49A0340
         public void Cleanup(){} // RVA: 0x7FFAF49A03B0
-        // ── Unresolved (hash) ──
-        public void m_F2B(){} // RVA: 0x7FFAF49A02D0
-        public void m_24F(){} // RVA: 0x7FFAF49A0540
-        public void m_6F8(){} // RVA: 0x7FFAF49A06D0
-        public void m_EEE(){} // RVA: 0x7FFAF49A0740
-        public void m_016(){} // RVA: 0x7FFAF49A08D0
-        public void m_51F(){} // RVA: 0x7FFAF49A0A60
+        public void CleanupNativeResources(){} // RVA: 0x7FFAF49A0540
+        public void RegisterNativeCallbacks(){} // RVA: 0x7FFAF49A06D0
+        public void RegisterNativeCallbacks_EEEFF269E718(){} // RVA: 0x7FFAF49A0740
+        public void ReleaseNativeHandle(){} // RVA: 0x7FFAF49A08D0
+        public void FinalizeNativeResources(){} // RVA: 0x7FFAF49A0A60
     }
 
     /// <summary>Originally: ÎÏÎÎÏÌÏÏÍÎÌÎÌÏÍÎÍÍÏÎÎÏÍ</summary>
@@ -890,15 +880,15 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_96BE
     {
         // ── Methods ──
+        public void ResetState(){} // RVA: 0x7FFAF498D860
+        public void CleanupManagedResources(){} // RVA: 0x7FFAF498D860
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF498D870
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void CleanupNativeResources(){} // RVA: 0x7FFAF498D870
         public void Dispose_2F048217F2F1(){} // RVA: 0x7FFAF2D8D310
+        public void ReleaseCachedHandles(){} // RVA: 0x7FFAF498D870
         // ── Unresolved (hash) ──
-        public void m_95D(){} // RVA: 0x7FFAF498D860
-        public void m_EEE(){} // RVA: 0x7FFAF498D860
-        public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_C01(){} // RVA: 0x7FFAF498D870
-        public void m_CF3(){} // RVA: 0x7FFAF498D870
         public void m_937(){} // RVA: 0x7FFAF498D860
     }
 
@@ -922,9 +912,9 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_A6AD
     {
         // ── Methods ──
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         // ── Unresolved (hash) ──
-        public void m_9CA(){} // RVA: 0x7FFAF44189C0
         public void m_CB6(){} // RVA: 0x7FFAF44189C0
         public void m_4D0(){} // RVA: 0x7FFAF44189C0
         public void m_55E(){} // RVA: 0x7FFAF4A03AD0
@@ -938,15 +928,14 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_A7B4
     {
         // ── Methods ──
+        public void MarshalStringToCoTaskMemUni(){} // RVA: 0x7FFAF4AE4A40
         public void Dispose(){} // RVA: 0x7FFAF4AE4C40
         public void Cleanup(){} // RVA: 0x7FFAF4AE4CB0
         public void CopyConstructNetworkBehaviourSibling(){} // RVA: 0x7FFAF4AE4D20
         public void CopyConstructNetworkBehaviourSibling_24F8FB692E5A(){} // RVA: 0x7FFAF4AE4F20
+        public void MarshalStringToUnicodeBuffer(){} // RVA: 0x7FFAF4AE5120
+        public void FreeCoTaskMem(){} // RVA: 0x7FFAF4AE5190
         public void SnprintfSafe(){} // RVA: 0x7FFAF4AE5390
-        // ── Unresolved (hash) ──
-        public void m_95D(){} // RVA: 0x7FFAF4AE4A40
-        public void m_51F(){} // RVA: 0x7FFAF4AE5120
-        public void m_C01(){} // RVA: 0x7FFAF4AE5190
     }
 
     /// <summary>Originally: ÎÏÏÍÌÍÌÌÍÏÌÏÍÌÎÏÌÍÍÏÌÏÍ</summary>
@@ -960,8 +949,7 @@ namespace VRC.Network
         public void Dispose(){} // RVA: 0x7FFAF4B1D380
         public void Cleanup(){} // RVA: 0x7FFAF4B1D3D0
         public void DecrementMultibyteStringPointer(){} // RVA: 0x7FFAF4B1D420
-        // ── Unresolved (hash) ──
-        public void m_C01(){} // RVA: 0x7FFAF4B1D4E0
+        public void IncrementMultibyteStringPointer(){} // RVA: 0x7FFAF4B1D4E0
     }
 
     /// <summary>Originally: ÎÏÌÍÍÎÏÏÍÎÏÎÎÌÌÍÌÏÏÍÏÏÎ</summary>
@@ -971,11 +959,10 @@ namespace VRC.Network
         public void InitializeDistanceParams(){} // RVA: 0x7FFAF4AA1EB0
         public void TryCalculateDistanceEncodingCost(){} // RVA: 0x7FFAF4AA1FE0
         public void TryCalculateDistanceEncodingCost_95DF3ECA53E5(){} // RVA: 0x7FFAF4AA2050
+        public void CalculateDistanceEncodingCost(){} // RVA: 0x7FFAF4AA2180
         public void Dispose(){} // RVA: 0x7FFAF4AA22B0
         public void Cleanup(){} // RVA: 0x7FFAF4AA2320
-        // ── Unresolved (hash) ──
-        public void m_CF3(){} // RVA: 0x7FFAF4AA2180
-        public void m_6EA(){} // RVA: 0x7FFAF4AA2450
+        public void ReleaseDistanceParams(){} // RVA: 0x7FFAF4AA2450
     }
 
     /// <summary>Originally: ÎÏÌÌÎÎÍÍÍÎÎÍÌÏÍÍÍÏÎÏÏÏÌ</summary>
@@ -999,17 +986,16 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_B321
     {
         // ── Methods ──
+        public void InitializeMirrorCamera(){} // RVA: 0x7FFAF4B416A0
+        public void UpdateMirrorCamera(){} // RVA: 0x7FFAF4B417C0
+        public void MarkGcObjectReferences(){} // RVA: 0x7FFAF4B418E0
+        public void DisposeNativeResources(){} // RVA: 0x7FFAF4B41A00
         public void Dispose(){} // RVA: 0x7FFAF4B41A50
         public void Cleanup(){} // RVA: 0x7FFAF4B41AA0
-        // ── Unresolved (hash) ──
-        public void m_6C6(){} // RVA: 0x7FFAF4B416A0
-        public void m_CF3(){} // RVA: 0x7FFAF4B417C0
-        public void m_C01(){} // RVA: 0x7FFAF4B418E0
-        public void m_6F8(){} // RVA: 0x7FFAF4B41A00
-        public void m_6EA(){} // RVA: 0x7FFAF4B41BC0
-        public void m_51F(){} // RVA: 0x7FFAF4B41C10
-        public void m_937(){} // RVA: 0x7FFAF4B41C60
-        public void m_EEE(){} // RVA: 0x7FFAF4B41D80
+        public void InitializeExplicitGcTyping(){} // RVA: 0x7FFAF4B41BC0
+        public void RenderMirrorReflection(){} // RVA: 0x7FFAF4B41C10
+        public void ReleaseNativeHandle(){} // RVA: 0x7FFAF4B41C60
+        public void CleanupMirrorCamera(){} // RVA: 0x7FFAF4B41D80
     }
 
     /// <summary>Originally: ÎÎÏÍÎÌÏÍÍÏÎÎÏÎÍÍÎÍÎÏÎÏÌ</summary>
@@ -1046,14 +1032,14 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_B74E
     {
         // ── Methods ──
+        public void get_Value(){} // RVA: 0x7FFAF4584690
+        public void set_Key(){} // RVA: 0x7FFAF4584690
         public void GetOrCreateHashTableEntry(){} // RVA: 0x7FFAF4A4F730
         public void GetOrAddHashTableEntry(){} // RVA: 0x7FFAF4A4FAF0
         public void ConstructHashTableStorage(){} // RVA: 0x7FFAF4A4FEB0
         public void ResizeHashTableIfNeeded(){} // RVA: 0x7FFAF4A50270
         public void get_Key(){} // RVA: 0x7FFAF4584690
         // ── Unresolved (hash) ──
-        public void m_856(){} // RVA: 0x7FFAF4584690
-        public void m_CCF(){} // RVA: 0x7FFAF4584690
         public void m_9CA(){} // RVA: 0x7FFAF4584690
     }
 
@@ -1074,16 +1060,16 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_BBA7
     {
         // ── Methods ──
+        public void set_Key(){} // RVA: 0x7FFAF4A64A00
+        public void get_Value(){} // RVA: 0x7FFAF4584690
         public void get_Key(){} // RVA: 0x7FFAF4584690
+        public void CompareKeys(){} // RVA: 0x7FFAF4A64E60
+        public void RotateRedBlackTreeNode(){} // RVA: 0x7FFAF4584690
+        public void DecodeUtf8CodePoint(){} // RVA: 0x7FFAF4A652C0
         public void InsertRedBlackTreeNode(){} // RVA: 0x7FFAF4A65720
         public void ShiftUtf8CodePoint(){} // RVA: 0x7FFAF4A65B80
         // ── Unresolved (hash) ──
-        public void m_77C(){} // RVA: 0x7FFAF4A64A00
-        public void m_CCF(){} // RVA: 0x7FFAF4584690
         public void m_CB6(){} // RVA: 0x7FFAF4584690
-        public void m_536(){} // RVA: 0x7FFAF4A64E60
-        public void m_856(){} // RVA: 0x7FFAF4584690
-        public void m_55E(){} // RVA: 0x7FFAF4A652C0
     }
 
     /// <summary>Originally: ÎÎÌÏÏÍÎÏÌÏÎÎÏÌÌÍÌÎÌÌÎÍÎ</summary>
@@ -1120,17 +1106,17 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_C07F
     {
         // ── Methods ──
+        public void get_Value(){} // RVA: 0x7FFAF4584690
+        public void set_Key(){} // RVA: 0x7FFAF4584690
         public void InsertHashTableEntry(){} // RVA: 0x7FFAF4A550E0
         public void get_Key(){} // RVA: 0x7FFAF4584690
+        public void set_HashCode(){} // RVA: 0x7FFAF4584690
         public void ReleaseHashTableStorage(){} // RVA: 0x7FFAF4A55480
         public void InitializeHashTableStorage(){} // RVA: 0x7FFAF4A55820
+        public void FindHashTableEntry(){} // RVA: 0x7FFAF4A55BC0
+        public void RemoveHashTableEntry(){} // RVA: 0x7FFAF4A55F60
         // ── Unresolved (hash) ──
-        public void m_856(){} // RVA: 0x7FFAF4584690
-        public void m_DBC(){} // RVA: 0x7FFAF4584690
         public void m_77C(){} // RVA: 0x7FFAF4A54D40
-        public void m_4D0(){} // RVA: 0x7FFAF4584690
-        public void m_AEE(){} // RVA: 0x7FFAF4A55BC0
-        public void m_45A(){} // RVA: 0x7FFAF4A55F60
     }
 
     /// <summary>Originally: ÎÍÏÏÎÌÌÎÍÌÌÍÎÍÏÎÎÍÎÏÏÌÍ</summary>
@@ -1171,12 +1157,12 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_C326
     {
         // ── Methods ──
+        public void SteamISteamUserGetSteamID(){} // RVA: 0x7FFAF4AD1FE0
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void SteamISteamUserGetAuthSessionTicket(){} // RVA: 0x7FFAF4AD2200
         public void GetDeltaTime(){} // RVA: 0x7FFAF4AD2420
         // ── Unresolved (hash) ──
-        public void m_AEE(){} // RVA: 0x7FFAF4AD1FE0
-        public void m_CB6(){} // RVA: 0x7FFAF44189C0
         public void m_9CA(){} // RVA: 0x7FFAF44189C0
         public void m_856(){} // RVA: 0x7FFAF44189C0
     }
@@ -1188,11 +1174,10 @@ namespace VRC.Network
         public void AdvanceMatchingStringSegment(){} // RVA: 0x7FFAF4A509E0
         public void ConstructConcatenatedString(){} // RVA: 0x7FFAF4A50C20
         public void PrependString(){} // RVA: 0x7FFAF4A50E60
+        public void RemoveCompletedTasks(){} // RVA: 0x7FFAF4A510A0
+        public void ClearStringSegments(){} // RVA: 0x7FFAF4A512E0
         public void get_Key(){} // RVA: 0x7FFAF4584690
-        // ── Unresolved (hash) ──
-        public void m_55E(){} // RVA: 0x7FFAF4A510A0
-        public void m_943(){} // RVA: 0x7FFAF4A512E0
-        public void m_AEE(){} // RVA: 0x7FFAF4A51520
+        public void MarkReferenceFields(){} // RVA: 0x7FFAF4A51520
     }
 
     /// <summary>Originally: ÎÏÎÌÏÌÎÍÌÏÏÎÎÍÏÎÍÏÎÍÌÏÎ</summary>
@@ -1216,13 +1201,12 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void SteamSteamNetworkingIpAddr(){} // RVA: 0x7FFAF4AE5C60
+        public void BuildStaticHuffmanTables(){} // RVA: 0x7FFAF4AE5CF0
+        public void BuildStaticHuffmanTables_410F56E5D055(){} // RVA: 0x7FFAF4AE5D80
+        public void CompressDataWithDynamicHuffman(){} // RVA: 0x7FFAF4AE5F80
         public void Dispose(){} // RVA: 0x7FFAF4AE6010
         public void Cleanup(){} // RVA: 0x7FFAF4AE60A0
         public void ShouldCompressData(){} // RVA: 0x7FFAF4AE62A0
-        // ── Unresolved (hash) ──
-        public void m_F2B(){} // RVA: 0x7FFAF4AE5CF0
-        public void m_410(){} // RVA: 0x7FFAF4AE5D80
-        public void m_6EA(){} // RVA: 0x7FFAF4AE5F80
     }
 
     /// <summary>Originally: ÎÍÏÏÏÍÏÏÌÎÍÍÌÏÎÏÌÏÌÌÍÎÌ</summary>
@@ -1249,20 +1233,24 @@ namespace VRC.Network
         public void GetMaterial_B3D4B1913246(){} // RVA: 0x7FFAF3AC1550
         public void GetMaterial_DDE2C253B338(){} // RVA: 0x7FFAF3AC1570
         public void GetMaterial_6A678BEB33E0(){} // RVA: 0x7FFAF3AC1590
+        public void GetMaterial_0B344FEFB921(){} // RVA: 0x7FFAF3AC4060
         public void GetMaterial_852ADEADC57D(){} // RVA: 0x7FFAF3AC4080
         public void GetMaterial_273BA4FB728A(){} // RVA: 0x7FFAF3AC4100
         public void GetMaterial_29B35F11DB87(){} // RVA: 0x7FFAF3AC4120
+        public void GetMaterial_CB7CB22D4B57(){} // RVA: 0x7FFAF3AC5AC0
+        public void GetMaterial_06AF721EFD7F(){} // RVA: 0x7FFAF3AC5AE0
+        public void GetMaterial_805A384FC1E5(){} // RVA: 0x7FFAF3AC5B20
         public void GetMaterial_602E6C686F84(){} // RVA: 0x7FFAF3AC4080
         public void .ctor(){} // RVA: 0x7FFAF3ABA2F0
         public void Initialize(){} // RVA: 0x7FFAF3AC5BC0
         public void GetMaterial_4885E8F1F6DC(){} // RVA: 0x7FFAF3AC4100
-        // ── 21 unresolved (hash) ──
-        public void m_0B3(){} // RVA: 0x7FFAF3AC4060
-        public void m_CB7(){} // RVA: 0x7FFAF3AC5AC0
-        public void m_06A(){} // RVA: 0x7FFAF3AC5AE0
-        public void m_805(){} // RVA: 0x7FFAF3AC5B20
+        // ── 17 unresolved (hash) ──
         public void m_7CC(){} // RVA: 0x7FFAF3AC5B40
-        // ... 16 more unresolved methods
+        public void m_8AD(){} // RVA: 0x7FFAF3AC5B60
+        public void m_7B4(){} // RVA: 0x7FFAF3AC5B80
+        public void m_F67(){} // RVA: 0x7FFAF3AC5BA0
+        public void m_547(){} // RVA: 0x7FFAF3AC5BE0
+        // ... 12 more unresolved methods
     }
 
     /// <summary>Originally: ÎÎÍÎÍÎÍÍÍÏÏÏÌÌÌÌÏÍÍÏÎÍÎ</summary>
@@ -1282,10 +1270,10 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_CD5C
     {
         // ── Methods ──
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void SetAnchorMax(){} // RVA: 0x7FFAF4B2DA80
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         // ── Unresolved (hash) ──
-        public void m_F7C(){} // RVA: 0x7FFAF44189C0
         public void m_943(){} // RVA: 0x7FFAF4B2D880
         public void m_856(){} // RVA: 0x7FFAF44189C0
         public void m_CB6(){} // RVA: 0x7FFAF44189C0
@@ -1296,14 +1284,13 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_CD7B
     {
         // ── Methods ──
+        public void InvokeNetworkFieldSerializer(){} // RVA: 0x7FFAF4A4D320
+        public void InvokeNetworkFieldDeserializer(){} // RVA: 0x7FFAF4A4D480
+        public void InvokeNetworkFieldUpdater(){} // RVA: 0x7FFAF4A4D5E0
+        public void InvokeNetworkFieldSetter(){} // RVA: 0x7FFAF4A4D740
         public void Dispose(){} // RVA: 0x7FFAF4A4D8A0
         public void Cleanup(){} // RVA: 0x7FFAF4A4D910
-        // ── Unresolved (hash) ──
-        public void m_410(){} // RVA: 0x7FFAF4A4D320
-        public void m_24F(){} // RVA: 0x7FFAF4A4D480
-        public void m_CF3(){} // RVA: 0x7FFAF4A4D5E0
-        public void m_016(){} // RVA: 0x7FFAF4A4D740
-        public void m_6F8(){} // RVA: 0x7FFAF4A4DA70
+        public void CleanupNetworkField(){} // RVA: 0x7FFAF4A4DA70
     }
 
     /// <summary>Originally: ÎÏÌÏÏÏÏÎÌÎÏÎÏÎÍÎÌÎÌÎÏÏÎ</summary>
@@ -1312,12 +1299,12 @@ namespace VRC.Network
         // ── Methods ──
         public void Dispose(){} // RVA: 0x7FFAF4AEC9F0
         public void Cleanup(){} // RVA: 0x7FFAF4AECA40
+        public void ResetBuffer(){} // RVA: 0x7FFAF4AECB00
         public void BrotliEncoderSetParameter(){} // RVA: 0x7FFAF4AECBC0
         public void EnsureBufferCapacity(){} // RVA: 0x7FFAF4AECC80
         // ── Unresolved (hash) ──
         public void m_6F8(){} // RVA: 0x7FFAF4AEC8E0
         public void m_24F(){} // RVA: 0x7FFAF4AEC930
-        public void m_410(){} // RVA: 0x7FFAF4AECB00
     }
 
     /// <summary>Originally: ÎÏÌÍÎÎÍÌÏÍÌÏÏÏÌÍÎÏÏÏÍÍÍ</summary>
@@ -1352,13 +1339,13 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x7FFAF498D860
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         public void Dispose_51FBC0D981AD(){} // RVA: 0x7FFAF2D8D310
+        public void Cleanup_C0175E97133A(){} // RVA: 0x7FFAF498D870
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_6EA(){} // RVA: 0x7FFAF2D8D310
         public void m_C31(){} // RVA: 0x7FFAF2D8D310
         public void m_DD6(){} // RVA: 0x7FFAF2D8D310
-        public void m_C01(){} // RVA: 0x7FFAF498D870
         public void m_CF3(){} // RVA: 0x7FFAF498D870
         public void m_6F8(){} // RVA: 0x7FFAF2D8D310
     }
@@ -1398,13 +1385,13 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_E143
     {
         // ── Methods ──
+        public void ResetState(){} // RVA: 0x7FFAF498D860
         public void Cleanup(){} // RVA: 0x7FFAF498D870
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
+        public void Cleanup_C0175E97133A(){} // RVA: 0x7FFAF498D870
         public void Dispose_6F8246576AC4(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_EEE(){} // RVA: 0x7FFAF498D860
-        public void m_F2B(){} // RVA: 0x7FFAF2D8D310
-        public void m_24F(){} // RVA: 0x7FFAF498D870
         public void m_C01(){} // RVA: 0x7FFAF498D870
         public void m_410(){} // RVA: 0x7FFAF498D870
     }
@@ -1413,17 +1400,17 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_E16A
     {
         // ── Methods ──
+        public void InitializeCameraRenderTextureState(){} // RVA: 0x7FFAF4B3E220
+        public void get_Value(){} // RVA: 0x7FFAF4584690
+        public void ConfigureTargetCamera(){} // RVA: 0x7FFAF4B3E6C0
+        public void set_Key(){} // RVA: 0x7FFAF4584690
         public void get_Key(){} // RVA: 0x7FFAF4584690
         public void CreateCameraSizedRenderTexture(){} // RVA: 0x7FFAF4B3EB60
+        public void GetTargetCameraComponent(){} // RVA: 0x7FFAF4B3F000
+        public void RenderCameraToTargetTexture(){} // RVA: 0x7FFAF4B3F4A0
         // ── Unresolved (hash) ──
-        public void m_77C(){} // RVA: 0x7FFAF4B3E220
-        public void m_709(){} // RVA: 0x7FFAF4584690
-        public void m_575(){} // RVA: 0x7FFAF4B3E6C0
-        public void m_856(){} // RVA: 0x7FFAF4584690
         public void m_9CA(){} // RVA: 0x7FFAF4584690
-        public void m_45A(){} // RVA: 0x7FFAF4B3F000
         public void m_4D0(){} // RVA: 0x7FFAF4584690
-        public void m_03E(){} // RVA: 0x7FFAF4B3F4A0
     }
 
     /// <summary>Originally: ÎÎÏÍÌÎÌÎÏÏÍÍÏÎÌÎÌÌÌÎÌÏÍ</summary>
@@ -1431,14 +1418,14 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void ReleaseNativeSocketEntry(){} // RVA: 0x7FFAF4A6C330
+        public void get_Value(){} // RVA: 0x7FFAF4584690
         public void get_Key(){} // RVA: 0x7FFAF4584690
         public void FindNativeSocketByHandle(){} // RVA: 0x7FFAF4A6C6E0
+        public void set_Key(){} // RVA: 0x7FFAF4584690
         public void CreateNativeSocket(){} // RVA: 0x7FFAF4A6CA90
         public void EraseRedBlackTreeNode(){} // RVA: 0x7FFAF4A6CE40
         public void DestroyRedBlackTreeNodes(){} // RVA: 0x7FFAF4A6D1F0
         // ── Unresolved (hash) ──
-        public void m_4D0(){} // RVA: 0x7FFAF4584690
-        public void m_709(){} // RVA: 0x7FFAF4584690
         public void m_F7C(){} // RVA: 0x7FFAF4584690
         public void m_CCF(){} // RVA: 0x7FFAF4584690
     }
@@ -1462,15 +1449,15 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void Cleanup(){} // RVA: 0x7FFAF45630D0
+        public void ResetNetworkBehaviour(){} // RVA: 0x7FFAF45630D0
         public void .ctor(){} // RVA: 0x7FFAF45631B0
         public void Initialize(){} // RVA: 0x7FFAF45630D0
         public void Dispose(){} // RVA: 0x7FFAF45630D0
+        public void ReleaseNetworkResources(){} // RVA: 0x7FFAF45630D0
         // ── Unresolved (hash) ──
         public void m_6EA(){} // RVA: 0x7FFAF45630D0
         public void m_F2B(){} // RVA: 0x7FFAF45630D0
         public void m_DD6(){} // RVA: 0x7FFAF45630D0
-        public void m_6F8(){} // RVA: 0x7FFAF45630D0
-        public void m_C31(){} // RVA: 0x7FFAF45630D0
     }
 
     /// <summary>Originally: ÎÏÎÍÎÏÎÎÍÌÎÍÏÌÍÏÎÎÏÎÎÎÎ</summary>
@@ -1502,13 +1489,13 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_EF0F
     {
         // ── Methods ──
+        public void Cleanup_C0175E97133A(){} // RVA: 0x7FFAF498D870
         public void Dispose_F2B7F5C46C70(){} // RVA: 0x7FFAF2D8D310
+        public void ResetState(){} // RVA: 0x7FFAF498D860
         public void Cleanup(){} // RVA: 0x7FFAF498D860
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_C01(){} // RVA: 0x7FFAF498D870
-        public void m_95D(){} // RVA: 0x7FFAF498D860
-        public void m_51F(){} // RVA: 0x7FFAF2D8D310
         public void m_24F(){} // RVA: 0x7FFAF498D870
     }
 
@@ -1516,14 +1503,14 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_F27D
     {
         // ── Methods ──
+        public void InitializeNetworkBehaviour(){} // RVA: 0x7FFAF49FBAF0
+        public void GetNetworkBehaviour(){} // RVA: 0x7FFAF49FBC80
+        public void SetNetworkBehaviour(){} // RVA: 0x7FFAF49FBE10
+        public void GetBatteryLevel(){} // RVA: 0x7FFAF49FC130
         public void Dispose(){} // RVA: 0x7FFAF49FC450
         public void Cleanup(){} // RVA: 0x7FFAF49FC4C0
         // ── Unresolved (hash) ──
-        public void m_CF3(){} // RVA: 0x7FFAF49FBAF0
-        public void m_016(){} // RVA: 0x7FFAF49FBC80
-        public void m_EEE(){} // RVA: 0x7FFAF49FBE10
         public void m_C01(){} // RVA: 0x7FFAF49FBFA0
-        public void m_410(){} // RVA: 0x7FFAF49FC130
         public void m_95D(){} // RVA: 0x7FFAF49FC2C0
     }
 
@@ -1533,11 +1520,11 @@ namespace VRC.Network
         // ── Methods ──
         public void ParsePrintfFormatSpecifier(){} // RVA: 0x7FFAF4AFFF20
         public void ParseScanfFormatSpecifier(){} // RVA: 0x7FFAF4B00120
+        public void set_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void ParsePrintfConversionSpecifier(){} // RVA: 0x7FFAF4B00320
         public void ParsePrintfConversionSpecifier_AEE5EECFBEE7(){} // RVA: 0x7FFAF4B00520
         public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         // ── Unresolved (hash) ──
-        public void m_CB6(){} // RVA: 0x7FFAF44189C0
         public void m_9CA(){} // RVA: 0x7FFAF44189C0
     }
 

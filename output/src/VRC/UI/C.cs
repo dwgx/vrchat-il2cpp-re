@@ -10,18 +10,17 @@ namespace VRC.UI
     {
         // ── Methods ──
         public void MarkCameraPropertyRead(){} // RVA: 0x7FFAF3BB6910
+        public void CacheCameraReferences(){} // RVA: 0x7FFAF3BB6B20
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3BB6D70
         public void OnDrawGizmos(){} // RVA: 0x7FFAF3BB7260
         public void OnDisable(){} // RVA: 0x7FFAF3BB74B0
+        public void RegisterCameraProperty(){} // RVA: 0x7FFAF3BB7510
+        public void UnregisterCameraProperty(){} // RVA: 0x7FFAF3BB7760
         public void SetAlpha(){} // RVA: 0x7FFAF3BB7A90
         public void ReadCameraProperties(){} // RVA: 0x7FFAF3BB7CE0
+        public void UpdateCameraProperties(){} // RVA: 0x7FFAF3BB7F30
         public void get_CallbackType(){} // RVA: 0x7FFAF3968B00
-        // ── Unresolved (hash) ──
-        public void m_D0F(){} // RVA: 0x7FFAF3BB6B20
-        public void m_3CE(){} // RVA: 0x7FFAF3BB7510
-        public void m_CB9(){} // RVA: 0x7FFAF3BB7760
-        public void m_942(){} // RVA: 0x7FFAF3BB7F30
     }
 
     /// <summary>Originally: ÏÍÍÏÍÏÌÎÌÍÎÎÎÌÏÏÌÌÏÌÌÌÏ</summary>
@@ -29,14 +28,13 @@ namespace VRC.UI
     {
         // ── Methods ──
         public void GetTargetTexture(){} // RVA: 0x7FFAF3B56E20
+        public void ReleaseAsyncGpuReadbackResources(){} // RVA: 0x7FFAF3B57830
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3B58240
         public void CacheAsyncGpuReadbackResources(){} // RVA: 0x7FFAF3B58C50
+        public void SubmitAsyncGPUReadbackRequest(){} // RVA: 0x7FFAF3B59660
         public void ProcessAsyncGPUReadbackRequest(){} // RVA: 0x7FFAF3B5A070
         public void Render(){} // RVA: 0x7FFAF3B5AA80
-        // ── Unresolved (hash) ──
-        public void m_ABF(){} // RVA: 0x7FFAF3B57830
-        public void m_735(){} // RVA: 0x7FFAF3B59660
     }
 
     /// <summary>Originally: ÍÍÌÎÍÎÎÍÏÏÎÎÍÎÌÎÎÍÍÏÍÎÎ</summary>
@@ -45,14 +43,13 @@ namespace VRC.UI
         // ── Methods ──
         public void ClampInputAxes(){} // RVA: 0x7FFAF3B56880
         public void ClampInputAxes_C692DDA62106(){} // RVA: 0x7FFAF3B569C0
+        public void UpdateInputAxesFromTransform(){} // RVA: 0x7FFAF3B56B00
+        public void UpdateInputAxesFromTransform_88871864AED5(){} // RVA: 0x7FFAF3B56B60
+        public void UpdateInputAxesFromTransform_F08BCD27C277(){} // RVA: 0x7FFAF3B56BC0
         public void GetTargetTexture(){} // RVA: 0x7FFAF3B56C20
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF3B56D60
+        public void UpdateInputAxesFromTransform_888FBC4DDF2E(){} // RVA: 0x7FFAF3B56D60
         public void GetTargetTexture_0E1034899A06(){} // RVA: 0x7FFAF3B56DC0
-        // ── Unresolved (hash) ──
-        public void m_CAA(){} // RVA: 0x7FFAF3B56B00
-        public void m_888(){} // RVA: 0x7FFAF3B56B60
-        public void m_F08(){} // RVA: 0x7FFAF3B56BC0
     }
 
     /// <summary>Originally: ÎÌÎÍÏÎÍÏÎÌÏÏÎÌÏÏÌÎÌÌÏÎÌ</summary>

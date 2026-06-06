@@ -11,14 +11,14 @@ namespace VRC.Internal.Generated
         // ── Methods ──
         public void CreateCollection(){} // RVA: 0x7FFAF2ADF090
         public void CreateCollection_B4B9B720ED31(){} // RVA: 0x7FFAF2ADF090
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Item(){} // RVA: 0x7FFAF2ABCD60
         public void CreateCollection_152B104D8270(){} // RVA: 0x7FFAF2ADF090
         public void Remove(){} // RVA: 0x7FFAF2ABDE40
         // ── Unresolved (hash) ──
         public void m_62E(){}
         public void m_F9C(){}
-        public void m_D8B(){} // RVA: 0x7FFAF2ABCD60
-        public void m_283(){} // RVA: 0x7FFAF2ABCD60
         public void m_54E(){} // RVA: 0x7FFAF2ABCD60
     }
 
@@ -29,10 +29,10 @@ namespace VRC.Internal.Generated
         public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         public void Initialize(){} // RVA: 0x7FFAF2AD4B10
+        public void set_Item(){} // RVA: 0x7FFAF2AD4B10
+        public void get_Item(){} // RVA: 0x7FFAF2AD4B10
         public void Add(){} // RVA: 0x7FFAF2AD4B10
         // ── Unresolved (hash) ──
-        public void m_8A1(){} // RVA: 0x7FFAF2AD4B10
-        public void m_9BA(){} // RVA: 0x7FFAF2AD4B10
         public void m_7A2(){} // RVA: 0x7FFAF2AD4B10
         public void m_E1D(){} // RVA: 0x7FFAF2AD4B10
         public void m_840(){} // RVA: 0x7FFAF2AD4B10
@@ -604,13 +604,12 @@ namespace VRC.Internal.Generated
     public class Static6m_E851
     {
         // ── Methods ──
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void GetHashCode(){} // RVA: 0x7FFAF2AC2590
         public void ConvertAll(){} // RVA: 0x7FFAF2ABCE10
         public void CreateCollection(){} // RVA: 0x7FFAF2ADF090
         public void get_Item(){} // RVA: 0x7FFAF2ACBCC0
-        // ── Unresolved (hash) ──
-        public void m_624(){} // RVA: 0x7FFAF2ABCD60
     }
 
     /// <summary>Originally: ÍÍÏÍÎÏÏÌÌÏÎÌÎÌÍÍÏÏÎÍÌÎÎ</summary>

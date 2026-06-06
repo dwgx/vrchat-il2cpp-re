@@ -33,6 +33,7 @@ namespace VRC.Core.Transform
         public void Initialize(){} // RVA: 0x7FFAF2DBB0D0
         public void GetScreenWidth(){} // RVA: 0x7FFAF343D170
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x7FFAF2DBB0D0
+        public void GetScreenHeight(){} // RVA: 0x7FFAF34414B0
         public void OnBecameInvisible_6DD34FBF209D(){} // RVA: 0x7FFAF343D830
         // ── Unresolved (hash) ──
         public void m_417(){} // RVA: 0x7FFAF343AA50
@@ -43,7 +44,6 @@ namespace VRC.Core.Transform
         public void m_F9E(){} // RVA: 0x7FFAF3440580
         public void m_07D(){} // RVA: 0x7FFAF3440770
         public void m_F3E(){} // RVA: 0x7FFAF34412C0
-        public void m_185(){} // RVA: 0x7FFAF34414B0
     }
 
 }

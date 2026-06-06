@@ -57,10 +57,10 @@ namespace VRC.Internal.Enumerator
         public void .cctor(){} // RVA: 0x7FFAF4417C10
         public void MoveNext(){} // RVA: 0x7FFAF4417D60
         public void get_Current(){} // RVA: 0x7FFAF4417DD0
+        public void GetTouchId(){} // RVA: 0x7FFAF4417E40
         public void GetEnumerator(){} // RVA: 0x7FFAF4417F00
         public void ContainsMidiDeviceInfo(){} // RVA: 0x7FFAF44182C0
         // ── Unresolved (hash) ──
-        public void m_8EB(){} // RVA: 0x7FFAF4417E40
         public void m_5A5(){} // RVA: 0x7FFAF4417EB0
         public void m_1C5(){} // RVA: 0x7FFAF4418150
     }
@@ -73,16 +73,16 @@ namespace VRC.Internal.Enumerator
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFAF303C0A0
         public void get_Current(){} // RVA: 0x7FFAF303C120
+        public void Equals(){} // RVA: 0x7FFAF303C1E0
+        public void GetHashCode(){} // RVA: 0x7FFAF303C440
+        public void ToString(){} // RVA: 0x7FFAF303C770
+        public void System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator_1147DD2720FE(){} // RVA: 0x7FFAF303CCB0 | overloaded x2
         public void ConstructDelegate(){} // RVA: 0x7FFAF303CE00
+        public void ConstructDelegate_D086259C9736(){} // RVA: 0x7FFAF303CEC0
         public void Reset(){} // RVA: 0x7FFAF303E1C0
         public void .cctor(){} // RVA: 0x7FFAF303E540
         // ── Unresolved (hash) ──
-        public void m_3CF(){} // RVA: 0x7FFAF303C1E0
-        public void m_2F6(){} // RVA: 0x7FFAF303C440
-        public void m_651(){} // RVA: 0x7FFAF303C770
         public void m_E01(){} // RVA: 0x7FFAF303CAC0
-        public void m_114(){} // RVA: 0x7FFAF303CCB0
-        public void m_D08(){} // RVA: 0x7FFAF303CEC0
         public void m_3FE(){} // RVA: 0x7FFAF303CF60
         public void m_1C1(){} // RVA: 0x7FFAF303D0B0
         public void m_F0F(){} // RVA: 0x7FFAF303D4F0

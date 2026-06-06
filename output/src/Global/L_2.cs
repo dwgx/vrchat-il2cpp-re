@@ -342,8 +342,8 @@ public class LoadingInfoData
     public void DoSlerp_Injected_4C0(){} // RVA: 0x7FFAF427E630
     public void .ctor_479C9CC596E0(){} // RVA: 0x7FFAF427E880
     public void Initialize_8AE138BA8AD3(){} // RVA: 0x7FFAF427EA20
+    public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x7FFAF427EBC0
     // ── Unresolved (hash) ──
-    public void m_2E2(){} // RVA: 0x7FFAF427EBC0
     public void m_C28(){} // RVA: 0x7FFAF427ED60
 }
 

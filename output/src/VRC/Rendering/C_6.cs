@@ -826,14 +826,13 @@ namespace VRC.Rendering
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF35FBC20
+        public void CreateCameraComponentContext(){} // RVA: 0x7FFAF35FBD30
         public void AreCameraComponentsEqual(){} // RVA: 0x7FFAF35FBE20
+        public void ResolveCameraComponent(){} // RVA: 0x7FFAF35FBED0
+        public void ResolveCameraComponent_F60ED9F707C7(){} // RVA: 0x7FFAF35FBFE0
+        public void CreateCameraComponentContext_CB120E9AE5CB(){} // RVA: 0x7FFAF35FC1C0
         public void GetComponent(){} // RVA: 0x7FFAF35FC2D0
         public void GetComponent_741344C1E2AE(){} // RVA: 0x7FFAF35FC380
-        // ── Unresolved (hash) ──
-        public void m_296(){} // RVA: 0x7FFAF35FBD30
-        public void m_706(){} // RVA: 0x7FFAF35FBED0
-        public void m_F60(){} // RVA: 0x7FFAF35FBFE0
-        public void m_CB1(){} // RVA: 0x7FFAF35FC1C0
     }
 
     /// <summary>Originally: ÏÏÎÎÎÎÎÏÎÍÎÏÎÍÏÏÎÍÏÌÏÏÏ</summary>

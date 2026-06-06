@@ -17,6 +17,7 @@ namespace VRC.Core.Transform
         public void InitializeTransformAnimation_8B691007A2C4(){} // RVA: 0x7FFAF4B3B290
         public void InitializeTransformAnimation_4CFC429CE0B0(){} // RVA: 0x7FFAF4B3B480
         public void ApplyTransformAnimation_19E1E3B2D3B2(){} // RVA: 0x7FFAF4B3BA60
+        public void ApplyTransformAnimation_E30CE2CE6646(){} // RVA: 0x7FFAF4B3BC50
         public void InitializeTransformAnimation_B7BEEE93F3FC(){} // RVA: 0x7FFAF4B3C050
         public void ApplyTransformAnimation_BAA0A07A6258(){} // RVA: 0x7FFAF4B3C260
         // ── Unresolved (hash) ──
@@ -26,7 +27,6 @@ namespace VRC.Core.Transform
         public void m_931(){} // RVA: 0x7FFAF4B3B630
         public void m_8E6(){} // RVA: 0x7FFAF4B3B7E0
         public void m_4A2(){} // RVA: 0x7FFAF4B3B920
-        public void m_E30(){} // RVA: 0x7FFAF4B3BC50
         public void m_CB5(){} // RVA: 0x7FFAF4B3BE20
     }
 
@@ -83,6 +83,8 @@ namespace VRC.Core.Transform
         public void Reset(){} // RVA: 0x7FFAF3ED9200
         public void HandleAsyncGameObjectLoaded(){} // RVA: 0x7FFAF3ED93A0
         public void HandleAsyncGameObjectLoaded_4CD528CD9B1C(){} // RVA: 0x7FFAF3ED93B0
+        public void HandleAsyncGameObjectLoaded_38BD4CCF32CE(){} // RVA: 0x7FFAF3ED9690
+        public void HandleAsyncGameObjectLoaded_4BAD0CBC1D2C(){} // RVA: 0x7FFAF3ED98B0
         public void HandleAsyncGameObjectLoaded_2D9342D98F8A(){} // RVA: 0x7FFAF3ED9A50
         public void Awake(){} // RVA: 0x7FFAF3ED9C20
         public void OnDestroy(){} // RVA: 0x7FFAF3ED9CE0
@@ -92,8 +94,6 @@ namespace VRC.Core.Transform
         // ── Unresolved (hash) ──
         public void m_92C(){} // RVA: 0x7FFAF3ED8FB0
         public void m_C30(){} // RVA: 0x7FFAF3ED9160
-        public void m_38B(){} // RVA: 0x7FFAF3ED9690
-        public void m_4BA(){} // RVA: 0x7FFAF3ED98B0
     }
 
 }

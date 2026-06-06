@@ -18,18 +18,18 @@ namespace VRC.UI.Core
     public class UIElement
     {
         // ── Methods ──
+        public void get_Value(){} // RVA: 0x7FFAF2DBB0C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF2DBB0D0
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x7FFAF2DBB0D0
         public void GetTransformChildCount_609445D97B38_9891D48649BC(){} // RVA: 0x7FFAF2DBB0D0
+        public void get_Data(){} // RVA: 0x7FFAF2DBB0C0
         public void Awake(){} // RVA: 0x7FFAF2D8D310
         public void OnDestroy(){} // RVA: 0x7FFAF2DBB0D0
+        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_EB8(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_F17(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_CB2(){} // RVA: 0x7FFAF2D8D310
         public void m_FC3(){} // RVA: 0x7FFAF2D8D310
     }
 

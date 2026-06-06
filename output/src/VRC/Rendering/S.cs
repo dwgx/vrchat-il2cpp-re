@@ -26,8 +26,10 @@ namespace VRC.Rendering
         public void OnRenderImage(){} // RVA: 0x7FFAF3310F40
         public void get_Value(){} // RVA: 0x7FFAF3311870
         public void Deconstruct_9F1C94E7475E(){} // RVA: 0x7FFAF3311980
+        public void Deconstruct_DA5D3EA0FF57(){} // RVA: 0x7FFAF3312000
         public void Update(){} // RVA: 0x7FFAF3312010
         public void Deconstruct_C13361869ABC(){} // RVA: 0x7FFAF3312690
+        public void Deconstruct_F5379E9AB47A(){} // RVA: 0x7FFAF33126B0
         public void GetKey(){} // RVA: 0x7FFAF33126D0
         public void Deconstruct_445D331B9F60(){} // RVA: 0x7FFAF33126F0
         public void Awake(){} // RVA: 0x7FFAF3312800
@@ -44,13 +46,11 @@ namespace VRC.Rendering
         public void get_Key_69A3C1EF696A(){} // RVA: 0x7FFAF3313440
         public void get_Key_A91D113D212F(){} // RVA: 0x7FFAF3313480
         public void OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency(){} // RVA: 0x7FFAF2DB5FF0
+        public void SettingsConstructor_25B5F17D262B(){} // RVA: 0x7FFAF3313B30
+        public void get_DefaultComparer(){} // RVA: 0x7FFAF3313CC0
         // ── Unresolved (hash) ──
         public void m_FFE(){} // RVA: 0x7FFAF3311840
-        public void m_DA5(){} // RVA: 0x7FFAF3312000
-        public void m_F53(){} // RVA: 0x7FFAF33126B0
         public void m_3AE(){} // RVA: 0x7FFAF3312B50
-        public void m_25B(){} // RVA: 0x7FFAF3313B30
-        public void m_1E7(){} // RVA: 0x7FFAF3313CC0
     }
 
     /// <summary>Originally: ÏÌÌÎÎÎÎÌÎÏÎÎÌÎÍÎÏÌÎÌÏÍÏ</summary>
@@ -60,15 +60,14 @@ namespace VRC.Rendering
         public void SetMaterialDirty(){} // RVA: 0x7FFAF3ACBAB0
         public void WriteCompressionBlockHeader(){} // RVA: 0x7FFAF3ACBB50
         public void ShouldMergeCompressionBlock(){} // RVA: 0x7FFAF3ACBD70
+        public void SetAllDirty(){} // RVA: 0x7FFAF3ACBF90
+        public void SetLayoutDirty_40835A4F4EFA(){} // RVA: 0x7FFAF3ACC1B0
+        public void SetVerticesDirty_F203132ED0A8(){} // RVA: 0x7FFAF3ACC3D0
         public void .ctor(){} // RVA: 0x7FFAF3ACC5F0
         public void SetLayoutDirty(){} // RVA: 0x7FFAF3ACC830
+        public void SetMaterialDirty_D62CDF9072C8(){} // RVA: 0x7FFAF3ACC8E0
         public void SetVerticesDirty(){} // RVA: 0x7FFAF3ACCB00
         public void OnPopulateMesh(){} // RVA: 0x7FFAF3ACCBA0
-        // ── Unresolved (hash) ──
-        public void m_FF9(){} // RVA: 0x7FFAF3ACBF90
-        public void m_408(){} // RVA: 0x7FFAF3ACC1B0
-        public void m_F20(){} // RVA: 0x7FFAF3ACC3D0
-        public void m_D62(){} // RVA: 0x7FFAF3ACC8E0
     }
 
     /// <summary>Originally: ÍÎÍÌÍÍÏÎÍÏÎÌÎÏÍÎÌÏÎÎÎÎÌ</summary>
@@ -121,13 +120,12 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void PropertyToID(){} // RVA: 0x7FFAF41D6BF0
+        public void GetPropertyID(){} // RVA: 0x7FFAF41D6F90
+        public void SetShaderProperty(){} // RVA: 0x7FFAF41D7330
         public void TrySetResult(){} // RVA: 0x7FFAF41D76D0
+        public void GetShaderProperty(){} // RVA: 0x7FFAF41D7A70
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF41D7E10
-        // ── Unresolved (hash) ──
-        public void m_3F5(){} // RVA: 0x7FFAF41D6F90
-        public void m_2E3(){} // RVA: 0x7FFAF41D7330
-        public void m_B22(){} // RVA: 0x7FFAF41D7A70
     }
 
     /// <summary>Originally: ÏÏÍÌÌÎÎÍÏÍÏÍÎÏÍÏÍÎÏÎÎÌÍ</summary>
@@ -135,14 +133,13 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void PropertyToID(){} // RVA: 0x7FFAF419A9A0
+        public void GetShaderPropertyId(){} // RVA: 0x7FFAF419AB40
+        public void GetMaterialPropertyType(){} // RVA: 0x7FFAF419AD00
+        public void SetMaterialProperty(){} // RVA: 0x7FFAF419AEA0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF419B060
         public void ProcessMaterial(){} // RVA: 0x7FFAF419B1F0
-        // ── Unresolved (hash) ──
-        public void m_B4D(){} // RVA: 0x7FFAF419AB40
-        public void m_B74(){} // RVA: 0x7FFAF419AD00
-        public void m_CD6(){} // RVA: 0x7FFAF419AEA0
-        public void m_29B(){} // RVA: 0x7FFAF419B380
+        public void ProcessMaterial_29B0DC8FE36F(){} // RVA: 0x7FFAF419B380
     }
 
     /// <summary>Originally: ÍÎÎÏÎÍÏÎÍÏÎÎÌÎÍÍÌÌÏÎÎÏÎ</summary>

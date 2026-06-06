@@ -39,14 +39,14 @@ namespace VRC.World
         public void OnDisable_A3F98919F1D2(){} // RVA: 0x7FFAF43082C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF4308240
+        public void SearchInFields(){} // RVA: 0x7FFAF4308340
         public void OnDisable(){} // RVA: 0x7FFAF43082C0
+        public void ClearSearchResults(){} // RVA: 0x7FFAF43083B0
         // ── Unresolved (hash) ──
         public void m_C30(){} // RVA: 0x7FFAF43081D0
         public void m_8ED(){} // RVA: 0x7FFAF4308240
-        public void m_A74(){} // RVA: 0x7FFAF4308340
         public void m_CA7(){} // RVA: 0x7FFAF43081D0
         public void m_3CB(){} // RVA: 0x7FFAF43081D0
-        public void m_A41(){} // RVA: 0x7FFAF43083B0
     }
 
     /// <summary>Originally: ÌÌÎÌÏÌÍÏÏÎÏÏÎÏÏÍÎÍÎÏÌÍÍ</summary>
@@ -54,43 +54,42 @@ namespace VRC.World
     {
         // ── Methods ──
         public void OnDisable(){} // RVA: 0x7FFAF3E19130
+        public void RegisterSearchCallbacks(){} // RVA: 0x7FFAF3E192D0
         public void Awake(){} // RVA: 0x7FFAF3E194D0
         public void OnDestroy(){} // RVA: 0x7FFAF3E194E0
+        public void UnregisterSearchCallbacks(){} // RVA: 0x7FFAF3E19650
+        public void SearchInFields(){} // RVA: 0x7FFAF3E19910
+        public void ApplySearchFilter(){} // RVA: 0x7FFAF3E19A90
+        public void ClearSearchHighlights(){} // RVA: 0x7FFAF3E19C90
         public void OnEnable(){} // RVA: 0x7FFAF3E19ED0
+        public void RefreshSearchResults(){} // RVA: 0x7FFAF3E1A040
+        public void OnSearchTextChanged(){} // RVA: 0x7FFAF3E1A070
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3E192A0
+        public void SearchInFieldsMoveNext(){} // RVA: 0x7FFAF3E1A1F0
         // ── Unresolved (hash) ──
         public void m_D48(){} // RVA: 0x7FFAF3E192A0
-        public void m_93C(){} // RVA: 0x7FFAF3E192D0
-        public void m_B84(){} // RVA: 0x7FFAF3E19650
-        public void m_FA4(){} // RVA: 0x7FFAF3E19910
-        public void m_7EF(){} // RVA: 0x7FFAF3E19A90
-        public void m_04C(){} // RVA: 0x7FFAF3E19C90
-        public void m_4EB(){} // RVA: 0x7FFAF3E1A040
-        public void m_8ED(){} // RVA: 0x7FFAF3E1A070
-        public void m_744(){} // RVA: 0x7FFAF3E1A1F0
     }
 
     /// <summary>Originally: ÍÍÎÎÌÍÌÍÎÏÏÍÌÍÎÏÏÎÌÎÌÌÌ</summary>
     public class SearchInFieldsWorldSibling_97CB
     {
         // ── Methods ──
+        public void DestroyContext(){} // RVA: 0x7FFAF3072E30
         public void GetOrCreateContext(){} // RVA: 0x7FFAF30731A0
         public void SetGpuCacheWritingBehavior(){} // RVA: 0x7FFAF3073480
         public void SetGpuCacheWritingBehavior_D13A5B659E83(){} // RVA: 0x7FFAF3073560
         public void ProcessAnimationsAnimationHumanStream(){} // RVA: 0x7FFAF30735F0
         public void SetGpuCacheWritingBehavior_F05205BE9514(){} // RVA: 0x7FFAF30736D0
+        public void ReleaseContext(){} // RVA: 0x7FFAF3073960
         public void ProcessAnimationsAnimationHumanStream_BFE2F870FCF3(){} // RVA: 0x7FFAF3073AD0
         public void Dispose(){} // RVA: 0x7FFAF3073E40
         public void .ctor(){} // RVA: 0x7FFAF3073EB0
         public void Initialize(){} // RVA: 0x7FFAF3074190
+        public void ProcessAnimationStream(){} // RVA: 0x7FFAF3074630
         public void CreateContext(){} // RVA: 0x7FFAF30748C0
-        // ── Unresolved (hash) ──
-        public void m_FF1(){} // RVA: 0x7FFAF3072E30
-        public void m_B90(){} // RVA: 0x7FFAF3073960
-        public void m_CC8(){} // RVA: 0x7FFAF3074630
-        public void m_B72(){} // RVA: 0x7FFAF3074C30
-        public void m_FED(){} // RVA: 0x7FFAF3074DA0
+        public void SetGpuCacheReadingBehavior(){} // RVA: 0x7FFAF3074C30
+        public void ResetGpuCacheWritingBehavior(){} // RVA: 0x7FFAF3074DA0
     }
 
     /// <summary>Originally: ÍÏÍÍÍÏÎÍÏÍÎÎÎÎÍÏÍÏÌÎÎÏÌ</summary>
@@ -99,9 +98,12 @@ namespace VRC.World
         public object _d9F3;
 
         // ── Methods ──
+        public void SpawnOrInitialize(){} // RVA: 0x7FFAF3D9B470
+        public void SpawnOrInitialize_6F5F1BFA4741(){} // RVA: 0x7FFAF3D9B570
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void OnHandFocusLost(){} // RVA: 0x7FFAF2F6EC00
         public void OnDestroy(){} // RVA: 0x7FFAF2F6F550
+        public void SpawnOrInitialize_703E43492CB4(){} // RVA: 0x7FFAF3D9B600
         public void Awake(){} // RVA: 0x7FFAF3D9B700
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF2F6EC00
@@ -110,9 +112,6 @@ namespace VRC.World
         public void LateUpdate(){} // RVA: 0x7FFAF2F6F550
         public void OnDisable(){} // RVA: 0x7FFAF3D9B790
         // ── Unresolved (hash) ──
-        public void m_AFD(){} // RVA: 0x7FFAF3D9B470
-        public void m_6F5(){} // RVA: 0x7FFAF3D9B570
-        public void m_703(){} // RVA: 0x7FFAF3D9B600
         public void m_FC3(){} // RVA: 0x7FFAF3D9B820
     }
 
@@ -126,8 +125,14 @@ namespace VRC.World
         public void Remove(){} // RVA: 0x7FFAFB874DE0
         public void .ctor(){} // RVA: 0x7FFAFB874DF0
         public void Initialize(){} // RVA: 0x7FFAFB875070
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAFB8752A0
         public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFAF2D8D320
+        public void OnTransformParentChanged(){} // RVA: 0x7FFAFB8752B0
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAFB875410
+        public void OnBecameVisible(){} // RVA: 0x7FFAFB8756D0
+        public void OnBecameInvisible(){} // RVA: 0x7FFAFB875700
         public void CopyTo(){} // RVA: 0x7FFAFB874CE0
+        public void OnBecameVisible_F6EC5946322F(){} // RVA: 0x7FFAFB8756D0
         public void Awake(){} // RVA: 0x7FFAFB875780
         public void OnEnable(){} // RVA: 0x7FFAFB875A60
         public void Start(){} // RVA: 0x7FFAFB875B70
@@ -138,13 +143,6 @@ namespace VRC.World
         public void OnDestroy(){} // RVA: 0x7FFAFB876040
         public void OnApplicationPause(){} // RVA: 0x7FFAFB876460
         public void OnApplicationQuit(){} // RVA: 0x7FFAFB876570
-        // ── Unresolved (hash) ──
-        public void m_F50(){} // RVA: 0x7FFAFB8752A0
-        public void m_96F(){} // RVA: 0x7FFAFB8752B0
-        public void m_E2F(){} // RVA: 0x7FFAFB875410
-        public void m_E34(){} // RVA: 0x7FFAFB8756D0
-        public void m_9D5(){} // RVA: 0x7FFAFB875700
-        public void m_F6E(){} // RVA: 0x7FFAFB8756D0
     }
 
     /// <summary>Originally: ÌÌÎÌÌÎÍÌÍÏÌÎÏÏÍÎÎÌÏÎÎÏÏ</summary>
@@ -179,12 +177,18 @@ namespace VRC.World
     {
         // ── Methods ──
         public void GetLocalPosition(){} // RVA: 0x7FFAF41B1EC0
+        public void TrySetStation(){} // RVA: 0x7FFAF41B2250
+        public void GetTransform_94E34688D2AB(){} // RVA: 0x7FFAF41B2470 | overloaded x2
         public void ConstructVector3Array(){} // RVA: 0x7FFAF41B26B0
         public void ConstructVector2Array(){} // RVA: 0x7FFAF41B2760
         public void set_Item(){} // RVA: 0x7FFAF41B27C0
         public void ConstructSpanFromArraySegment(){} // RVA: 0x7FFAF41B2AA0
         public void GetLocalPosition_56D456BF851E(){} // RVA: 0x7FFAF41B2BA0
+        public void SetValueDirect(){} // RVA: 0x7FFAF41B2CA0
+        public void SetValueDirect_01FE3D881A29(){} // RVA: 0x7FFAF41B2CF0
+        public void GetValueDirect(){} // RVA: 0x7FFAF41B2D10
         public void SetLocalScale(){} // RVA: 0x7FFAF41B2D30
+        public void GetValueDirect_E98EE2FC737F(){} // RVA: 0x7FFAF41B2D60
         public void SetLocalScale_842071BD57EC(){} // RVA: 0x7FFAF41B2D80
         public void get_template(){} // RVA: 0x7FFAF3544E10
         public void SetLocalScale_6F8930570FFD(){} // RVA: 0x7FFAF41B2E00
@@ -192,6 +196,7 @@ namespace VRC.World
         public void GetBounds(){} // RVA: 0x7FFAF41B2E20
         public void Awake(){} // RVA: 0x7FFAF41B2E30
         public void Start(){} // RVA: 0x7FFAF41B3390
+        public void GetComponentInParent(){} // RVA: 0x7FFAF41B3430
         public void Update(){} // RVA: 0x7FFAF41B34D0
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void UseStation(){} // RVA: 0x7FFAF41B42C0
@@ -206,6 +211,15 @@ namespace VRC.World
         public void GetMaterial_473D25AB7BD9(){} // RVA: 0x7FFAF41B70F0
         public void get_Proximity(){} // RVA: 0x7FFAF41B7A50
         public void InternalArraySetItem(){} // RVA: 0x7FFAF41B7B50
+        public void SetGameObjectActive(){} // RVA: 0x7FFAF41B7F60
+        public void InitializeStation(){} // RVA: 0x7FFAF41B82C0
+        public void InvokeDelegate(){} // RVA: 0x7FFAF41B86E0
+        public void InternalArraySetItem_A1A4A9E4A802(){} // RVA: 0x7FFAF41B8A20
+        public void GetArrayElement(){} // RVA: 0x7FFAF41B9100
+        public void ConstructVector3Array_01262A56845D(){} // RVA: 0x7FFAF41B97E0
+        public void CreateEnumerator(){} // RVA: 0x7FFAF41BA150
+        public void GetTransform_A728F7E75EF5(){} // RVA: 0x7FFAF41BA750
+        public void UseStationInternal(){} // RVA: 0x7FFAF41BADF0
         public void SetLocalRotation_928E4994C44C(){} // RVA: 0x7FFAF41BB0B0
         public void SetLocalRotation_63906A68001F(){} // RVA: 0x7FFAF41BB290
         public void OnDestroy(){} // RVA: 0x7FFAF41BB330
@@ -215,13 +229,9 @@ namespace VRC.World
         public void .cctor(){} // RVA: 0x7FFAF41BBA30
         public void RetryConnection(){} // RVA: 0x7FFAF304F950
         public void SetLocalRotation_6290FAEC7B4F(){} // RVA: 0x7FFAF41BBC40
-        // ── 18 unresolved (hash) ──
-        public void m_695(){} // RVA: 0x7FFAF41B2250
-        public void m_94E(){} // RVA: 0x7FFAF41B2470
-        public void m_EEC(){} // RVA: 0x7FFAF41B2CA0
-        public void m_01F(){} // RVA: 0x7FFAF41B2CF0
-        public void m_780(){} // RVA: 0x7FFAF41B2D10
-        // ... 13 more unresolved methods
+        // ── Unresolved (hash) ──
+        public void m_D42(){} // RVA: 0x7FFAF41B95D0
+        public void m_C85(){} // RVA: 0x7FFAF41B9960
     }
 
     /// <summary>Originally: ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ</summary>
@@ -292,20 +302,20 @@ namespace VRC.World
     public class WorldSpawnSiblingSibling_6B87
     {
         // ── Methods ──
+        public void ToString_8FB65F099B86(){} // RVA: 0x7FFAFB62D870
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB62D930
+        public void ToString_D08E6766C3CB(){} // RVA: 0x7FFAFB62DB80
+        public void Equals_7759F48D13DC(){} // RVA: 0x7FFAFB62DD40
+        public void FormatSpawnVector(){} // RVA: 0x7FFAFB62E420
+        public void ToString_C47FBDB26636(){} // RVA: 0x7FFAFB62EB00
+        public void FormatSpawnQuaternion(){} // RVA: 0x7FFAFB62F3D0
+        public void GetHashCode_2B598690D4C1(){} // RVA: 0x7FFAFB62F460
         public void Start(){} // RVA: 0x7FFAFB62FB40
         // ── Unresolved (hash) ──
         public void m_F7C(){} // RVA: 0x7FFAFB62D7D0
-        public void m_8FB(){} // RVA: 0x7FFAFB62D870
         public void m_276(){} // RVA: 0x7FFAFB62D9C0
-        public void m_D08(){} // RVA: 0x7FFAFB62DB80
-        public void m_775(){} // RVA: 0x7FFAFB62DD40
-        public void m_336(){} // RVA: 0x7FFAFB62E420
-        public void m_C47(){} // RVA: 0x7FFAFB62EB00
         public void m_A74(){} // RVA: 0x7FFAFB62F1E0
-        public void m_46D(){} // RVA: 0x7FFAFB62F3D0
-        public void m_2B5(){} // RVA: 0x7FFAFB62F460
     }
 
     /// <summary>Originally: ÏÎÍÍÏÎÎÎÏÎÍÍÏÏÌÏÌÍÏÏÌÎÍ</summary>
@@ -328,16 +338,26 @@ namespace VRC.World
     public class WorldSpawnSiblingSibling_D1CC
     {
         // ── Methods ──
+        public void CreateWorldSpawnTask(){} // RVA: 0x7FFAFB6228D0
+        public void CreateWorldSpawnUniTask(){} // RVA: 0x7FFAFB6229B0
         public void AsUniTask(){} // RVA: 0x7FFAFB622C10
+        public void GetAwaiter(){} // RVA: 0x7FFAFB624060
+        public void GetResult(){} // RVA: 0x7FFAFB6240D0
         public void .ctor(){} // RVA: 0x7FFAFB624160
         public void Initialize(){} // RVA: 0x7FFAFB6241D0
-        // ── 16 unresolved (hash) ──
-        public void m_F76(){} // RVA: 0x7FFAFB6228D0
-        public void m_263(){} // RVA: 0x7FFAFB6229B0
+        public void AsUniTask_63E288EC1831(){} // RVA: 0x7FFAFB6249F0
+        public void AsUniTask_91217FC8FD48(){} // RVA: 0x7FFAFB624AE0
+        public void GetStatus(){} // RVA: 0x7FFAFB624D00
+        public void OnCompleted(){} // RVA: 0x7FFAFB624E80
+        public void UnsafeOnCompleted(){} // RVA: 0x7FFAFB624EF0
+        public void CreateWorldSpawnUniTask_08039CE8C5F1(){} // RVA: 0x7FFAFB624FD0
+        public void CreateWorldSpawnUniTask_B7A47C0833F8(){} // RVA: 0x7FFAFB625040
+        // ── Unresolved (hash) ──
         public void m_276(){} // RVA: 0x7FFAFB623F80
-        public void m_9DE(){} // RVA: 0x7FFAFB624060
-        public void m_C28(){} // RVA: 0x7FFAFB6240D0
-        // ... 11 more unresolved methods
+        public void m_268(){} // RVA: 0x7FFAFB624430
+        public void m_F3F(){} // RVA: 0x7FFAFB624BF0
+        public void m_001(){} // RVA: 0x7FFAFB624C90
+        public void m_B62(){} // RVA: 0x7FFAFB624E10
     }
 
     /// <summary>Originally: ÏÍÌÏÎÏÎÍÍÏÎÏÏÎÏÎÏÌÌÍÍÎÎ</summary>
@@ -345,15 +365,22 @@ namespace VRC.World
     {
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAFB7A8760
+        public void InvokeSpawnWithPositionRotationFlags(){} // RVA: 0x7FFAFB7A8870
+        public void InvokeSpawnWithNetworkIdFlags(){} // RVA: 0x7FFAFB7A88C0
+        public void InvokeSpawnWithFourVectorStates(){} // RVA: 0x7FFAFB7A89A0
+        public void InvokeSpawnWithTransformAndOptions(){} // RVA: 0x7FFAFB7A89F0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB7A86F0
-        // ── 13 unresolved (hash) ──
+        public void InvokeSpawnWithFiveValues(){} // RVA: 0x7FFAFB7A8A40
+        public void InvokeSpawnWithVectorIntFlags(){} // RVA: 0x7FFAFB7A8A90
+        public void InvokeSpawnWithVectorIntFlags_68AA159BBA51(){} // RVA: 0x7FFAFB7A8AE0
+        public void InvokeSpawnWithTransformVectors(){} // RVA: 0x7FFAFB7A8BC0
+        public void InvokeSpawnWithPositionRotation(){} // RVA: 0x7FFAFB7A8C10
+        public void InvokeSpawnWithFiveByteArrays(){} // RVA: 0x7FFAFB7A94A0
+        public void InvokeSpawnWithFiveByteArrays_276E8DB1970F(){} // RVA: 0x7FFAFB7A94F0
+        // ── Unresolved (hash) ──
         public void m_42B(){} // RVA: 0x7FFAFB7A86F0
-        public void m_60B(){} // RVA: 0x7FFAFB7A8870
         public void m_A30(){} // RVA: 0x7FFAFB7A86F0
-        public void m_63E(){} // RVA: 0x7FFAFB7A88C0
-        public void m_6BC(){} // RVA: 0x7FFAFB7A89A0
-        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÍÍÍÏÍÌÏÏÌÍÌÌÎÍÌÏÎÏÏÍÏÏÏ</summary>
@@ -419,18 +446,25 @@ namespace VRC.World
     public class WorldSpawn_532E
     {
         // ── Methods ──
+        public void EqualsObject(){} // RVA: 0x7FFAFB61DFB0
+        public void SetSpawnState(){} // RVA: 0x7FFAFB61F600
+        public void ContainsSpawnState(){} // RVA: 0x7FFAFB61F8E0
+        public void CreateSpawnContext(){} // RVA: 0x7FFAFB620BA0
+        public void BoxSpawnState(){} // RVA: 0x7FFAFB620DB0
+        public void CreateSpawnContext_6DACCE7D12CC(){} // RVA: 0x7FFAFB620F90
+        public void BoxSpawnState_AACC73CEA29F(){} // RVA: 0x7FFAFB621330
         public void Start(){} // RVA: 0x7FFAFB621510
         public void Ctor(){} // RVA: 0x7FFAFB621690
         public void OnSpawn(){} // RVA: 0x7FFAFB6220B0
         public void .ctor(){} // RVA: 0x7FFAFB6222A0
         public void Initialize(){} // RVA: 0x7FFAFB6223B0
-        // ── 26 unresolved (hash) ──
+        // ── 19 unresolved (hash) ──
         public void m_C11(){} // RVA: 0x7FFAFB61D020
         public void m_C28(){} // RVA: 0x7FFAFB620D20
         public void m_114(){} // RVA: 0x7FFAFB61DC80
         public void m_8FB(){} // RVA: 0x7FFAFB61DF00
-        public void m_63E(){} // RVA: 0x7FFAFB61DFB0
-        // ... 21 more unresolved methods
+        public void m_2DA(){} // RVA: 0x7FFAFB61E0D0
+        // ... 14 more unresolved methods
     }
 
 }

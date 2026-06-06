@@ -9,20 +9,28 @@ namespace VRC.Internal.Generated
     public class Mono20m_9334_B812
     {
         // ── Methods ──
+        public void SKIP(){} // RVA: 0x7FFAF45D30C0
         public void .cctor(){} // RVA: 0x7FFAF45D34B0
+        public void SKIP_02DE054C37C1(){} // RVA: 0x7FFAF45D3550
+        public void SKIP_A3124834DAD7(){} // RVA: 0x7FFAF45D3610
         public void .ctor(){} // RVA: 0x7FFAF45D3670
         public void Initialize(){} // RVA: 0x7FFAF45D36F0
+        public void SKIP_A7429DE798D1(){} // RVA: 0x7FFAF45D3C90
         public void SetProgress(){} // RVA: 0x7FFAF2FAB970
         public void Update(){} // RVA: 0x7FFAF45D4E60
         public void Start(){} // RVA: 0x7FFAF45D6450
         public void get_Progress(){} // RVA: 0x7FFAF2FAE250
-        // ── 14 unresolved (hash) ──
-        public void m_06A(){} // RVA: 0x7FFAF45D30C0
-        public void m_02D(){} // RVA: 0x7FFAF45D3550
-        public void m_A31(){} // RVA: 0x7FFAF45D3610
-        public void m_A74(){} // RVA: 0x7FFAF45D3C90
+        // ── Unresolved (hash) ──
         public void m_ABA(){} // RVA: 0x7FFAF45D44E0
-        // ... 9 more unresolved methods
+        public void m_F62(){} // RVA: 0x7FFAF45D4700
+        public void m_85B(){} // RVA: 0x7FFAF45D47C0
+        public void m_F2C(){} // RVA: 0x7FFAF45D4AA0
+        public void m_6DA(){} // RVA: 0x7FFAF45D4D80
+        public void m_FFD(){} // RVA: 0x7FFAF45D55D0
+        public void m_6B9(){} // RVA: 0x7FFAF45D56B0
+        public void m_601(){} // RVA: 0x7FFAF45D5A80
+        public void m_EE7(){} // RVA: 0x7FFAF45D5E40
+        public void m_642(){} // RVA: 0x7FFAF45D5EA0
     }
 
     /// <summary>Originally: ÍÎÍÏÎÍÍÌÌÎÏÍÍÌÎÎÌÌÌÎÎÏÏ</summary>
@@ -64,13 +72,13 @@ namespace VRC.Internal.Generated
     public class MonoBehaviourHandler_7903
     {
         // ── Methods ──
+        public void StartCoroutine(){} // RVA: 0x7FFAF457DED0
+        public void StopCoroutine(){} // RVA: 0x7FFAF457E060
         public void StopAllCoroutines(){} // RVA: 0x7FFAF457E1F0
+        public void CancelInvoke(){} // RVA: 0x7FFAF457E380
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF457E510
         // ── Unresolved (hash) ──
-        public void m_C84(){} // RVA: 0x7FFAF457DED0
-        public void m_744(){} // RVA: 0x7FFAF457E060
-        public void m_464(){} // RVA: 0x7FFAF457E380
         public void m_017(){} // RVA: 0x7FFAF457E6A0
     }
 
@@ -78,15 +86,15 @@ namespace VRC.Internal.Generated
     public class MonoBehaviourHandler_E558
     {
         // ── Methods ──
+        public void IsInvoking(){} // RVA: 0x7FFAF3F17780
+        public void InvokeRepeating(){} // RVA: 0x7FFAF3F17DF0
+        public void CancelInvoke(){} // RVA: 0x7FFAF3F18130
+        public void StopCoroutine(){} // RVA: 0x7FFAF3F18470
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3F18790
-        public void CancelInvoke(){} // RVA: 0x7FFAF3F18AC0
+        public void CancelInvoke_640D96FE90E1(){} // RVA: 0x7FFAF3F18AC0
         // ── Unresolved (hash) ──
-        public void m_36B(){} // RVA: 0x7FFAF3F17780
         public void m_ECC(){} // RVA: 0x7FFAF3F17AC0
-        public void m_AF5(){} // RVA: 0x7FFAF3F17DF0
-        public void m_DF7(){} // RVA: 0x7FFAF3F18130
-        public void m_8F0(){} // RVA: 0x7FFAF3F18470
     }
 
 }

@@ -46,74 +46,68 @@ namespace VRC.UI.Elements.Menus
         public void .ctor(){} // RVA: 0x7FFAFBB3FC50
         public void OnDestroy(){} // RVA: 0x7FFAFBB3FCC0
         public void OnDisable(){} // RVA: 0x7FFAFBB3FDB0
+        public void SetupPhotoViewContent(){} // RVA: 0x7FFAFBB3FE40
         public void AccessactiveSelf(){} // RVA: 0x7FFAFBB40260
+        public void SetupPhotoViewContent_7C38C4EDC1FE(){} // RVA: 0x7FFAFBB40350
         public void PreparePhotoViewRendering(){} // RVA: 0x7FFAFBB40770
         public void get_MaxContentCount(){} // RVA: 0x7FFAFBB40A70
         public void ProcessGalleryPhotoData(){} // RVA: 0x7FFAFBB40AF0
         public void get_ObservableList(){} // RVA: 0x7FFAFBB40E10
-        // ── Unresolved (hash) ──
-        public void m_C47(){} // RVA: 0x7FFAFBB3FE40
-        public void m_7C3(){} // RVA: 0x7FFAFBB40350
     }
 
     public class HeaderElementContentView`1
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x7FFAF2AD4A50
+        public void RefreshContent(){} // RVA: 0x7FFAF2AD4A50
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF2ADDC60
         public void OnTransformChildrenChanged(){} // RVA: 0x7FFAF2ABCE10
+        public void InitializeCollection(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
-        // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x7FFAF2AD4A50
-        public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
 
     public class HeaderElementContentView`1
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x7FFAF5FC1E10
+        public void RefreshContent(){} // RVA: 0x7FFAF5FC2010
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF5FC20B0
         public void OnTransformChildrenChanged(){} // RVA: 0x7FFAF2E2B370
+        public void InitializeCollection(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x7FFAF5FC2010
-        public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
 
     public class HeaderElementContentView`1
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x7FFAF5FC1E10
+        public void RefreshContent(){} // RVA: 0x7FFAF5FC2010
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF5FC20B0
         public void OnTransformChildrenChanged(){} // RVA: 0x7FFAF2E2B370
+        public void InitializeCollection(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x7FFAF5FC2010
-        public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
 
     public class HeaderElementContentView`1
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x7FFAF5FC1E10
+        public void RefreshContent(){} // RVA: 0x7FFAF5FC2010
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF5FC20B0
         public void OnTransformChildrenChanged(){} // RVA: 0x7FFAF2E2B370
+        public void InitializeCollection(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x7FFAF5FC2010
-        public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
 
     public class HeaderElementContentView`1
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x7FFAF5FC1E10
+        public void RefreshContent(){} // RVA: 0x7FFAF5FC2010
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF5FC20B0
         public void OnTransformChildrenChanged(){} // RVA: 0x7FFAF2E2B370
+        public void InitializeCollection(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x7FFAF5FC2010
-        public void m_CAD(){} // RVA: 0x7FFAF2AD4A50
     }
 
     public class KeyboardInputModalComponents
@@ -136,7 +130,7 @@ namespace VRC.UI.Elements.Menus
         public void get_ModalBackgrounds(){} // RVA: 0x7FFAF2F77C50
         public void set_ClearButton(){} // RVA: 0x7FFAF2E55590
         public void set_MinimizedKeyboard(){} // RVA: 0x7FFAF2E0A740
-        public void set_Cancel(){} // RVA: 0x7FFAF2F77C50
+        public void set_Placeholder(){} // RVA: 0x7FFAF2F77C50
         public void get_ClearButton(){} // RVA: 0x7FFAF2E0A740
         public void get_Placeholder(){} // RVA: 0x7FFAF2E2E0E0
         public void get_MinimizedKeyboard(){} // RVA: 0x7FFAF2E55590

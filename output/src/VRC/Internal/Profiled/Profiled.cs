@@ -28,18 +28,17 @@ namespace VRC.Internal.Profiled
     public class ProfiledHandler_5339
     {
         // ── Methods ──
+        public void GetTotalAllocatedMemoryLong(){} // RVA: 0x7FFAF3D644E0
+        public void GetTotalUnusedReservedMemoryLong(){} // RVA: 0x7FFAF3D64580
+        public void GetAllocatedMemoryForGraphicsDriver(){} // RVA: 0x7FFAF3D64620
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3D646C0
+        public void GetMonoHeapSizeLong(){} // RVA: 0x7FFAF3D64760
         public void GetMonoUsedSizeLong(){} // RVA: 0x7FFAF3D64800
         public void GetMonoUsedSizeLong_434A69CD3694(){} // RVA: 0x7FFAF3D648A0
         public void GetMonoUsedSizeLong_4BDD3DF1D17A(){} // RVA: 0x7FFAF3D64940
         public void GetTotalReservedMemoryLong(){} // RVA: 0x7FFAF3D649E0
         public void GetTotalReservedMemoryLong_CB7F802C8E94(){} // RVA: 0x7FFAF3D64A80
-        // ── Unresolved (hash) ──
-        public void m_BBD(){} // RVA: 0x7FFAF3D644E0
-        public void m_30E(){} // RVA: 0x7FFAF3D64580
-        public void m_68C(){} // RVA: 0x7FFAF3D64620
-        public void m_3C4(){} // RVA: 0x7FFAF3D64760
     }
 
     /// <summary>Originally: ÎÌÌÏÎÌÏÎÍÎÎÎÏÎÏÍÌÏÍÎÎÌÎ</summary>
@@ -47,17 +46,17 @@ namespace VRC.Internal.Profiled
     {
         // ── Methods ──
         public void NotifyProfiledTextureHandlers(){} // RVA: 0x7FFAF38BAB70
+        public void RegisterProfiledTextureHandler(){} // RVA: 0x7FFAF38BB8F0
+        public void UnregisterProfiledTextureHandler(){} // RVA: 0x7FFAF38BC060
+        public void RegisterProfiledFrameHandler(){} // RVA: 0x7FFAF38BC7D0
+        public void UnregisterProfiledFrameHandler(){} // RVA: 0x7FFAF38BCF40
         public void NotifyProfiledFrameHandlers(){} // RVA: 0x7FFAF38BD6B0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF38BD9B0
+        public void CleanupProfiledHandlers(){} // RVA: 0x7FFAF38BDCC0
         // ── Unresolved (hash) ──
         public void m_D72(){} // RVA: 0x7FFAF38BB2E0
         public void m_B2C(){} // RVA: 0x7FFAF38BB5E0
-        public void m_122(){} // RVA: 0x7FFAF38BB8F0
-        public void m_945(){} // RVA: 0x7FFAF38BC060
-        public void m_E50(){} // RVA: 0x7FFAF38BC7D0
-        public void m_A9C(){} // RVA: 0x7FFAF38BCF40
-        public void m_FEA(){} // RVA: 0x7FFAF38BDCC0
     }
 
     /// <summary>Originally: ÍÎÎÍÍÏÌÎÌÍÏÌÍÏÏÍÎÏÍÎÌÏÍ</summary>
@@ -79,6 +78,7 @@ namespace VRC.Internal.Profiled
         public void Awake(){} // RVA: 0x7FFAF39785E0
         public void OnEnable_9A009553BF03(){} // RVA: 0x7FFAF3977A60
         public void OnApplicationFocus(){} // RVA: 0x7FFAF3978B40
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void OnDisable(){} // RVA: 0x7FFAF2E08900
         public void OnApplicationQuit_3CBDA69A696C(){} // RVA: 0x7FFAF3978530
         public void Start(){} // RVA: 0x7FFAF3978EC0
@@ -88,7 +88,6 @@ namespace VRC.Internal.Profiled
         public void m_E26(){} // RVA: 0x7FFAF3978810
         public void m_515(){} // RVA: 0x7FFAF3978AD0
         public void m_397(){} // RVA: 0x7FFAF3978B50
-        public void m_836(){} // RVA: 0x7FFAF2DBB0C0
         public void m_0EE(){} // RVA: 0x7FFAF3978540
         public void m_E19(){} // RVA: 0x7FFAF3978BD0
         public void m_146(){} // RVA: 0x7FFAF3978D00

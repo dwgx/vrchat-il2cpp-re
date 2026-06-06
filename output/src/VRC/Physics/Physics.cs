@@ -59,29 +59,27 @@ namespace VRC.Physics
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB90FF90
         public void ProcessPhysics(){} // RVA: 0x7FFAFB910110
+        public void get_gravity(){} // RVA: 0x7FFAFB910290
         public void ProcessPhysics_C9C0EA4322F6(){} // RVA: 0x7FFAFB910410
         public void ProcessPhysics_B5F91CBD3BB2(){} // RVA: 0x7FFAFB910590
-        // ── Unresolved (hash) ──
-        public void m_345(){} // RVA: 0x7FFAFB910290
-        public void m_FB2(){} // RVA: 0x7FFAFB910710
-        public void m_230(){} // RVA: 0x7FFAFB910890
+        public void get_queriesHitTriggers(){} // RVA: 0x7FFAFB910710
+        public void CopyContactFilter2D(){} // RVA: 0x7FFAFB910890
     }
 
     /// <summary>Originally: ÌÎÌÏÌÎÌÏÏÎÏÎÏÏÌÏÏÏÏÎÍÏÎ</summary>
     public class Physics2DPhysicsHandler_D6A7
     {
         // ── Methods ──
+        public void WithCollisionLayerMaskBit(){} // RVA: 0x7FFAFB910A10
+        public void SetCollisionLayerMaskBit(){} // RVA: 0x7FFAFB910AB0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB910D40
+        public void ReadPhysicsShapeFlags(){} // RVA: 0x7FFAFB910E70
+        public void get_IsTrigger(){} // RVA: 0x7FFAFB910FA0
+        public void IsPhysicsShapeValid(){} // RVA: 0x7FFAFB911040
         public void ThrowHidDeviceDescriptorElementsMarshalException(){} // RVA: 0x7FFAFB911170
+        public void AddPhysics2DContactPoint(){} // RVA: 0x7FFAFB911400
         public void Start(){} // RVA: 0x7FFAFB911530
-        // ── Unresolved (hash) ──
-        public void m_F0F(){} // RVA: 0x7FFAFB910A10
-        public void m_073(){} // RVA: 0x7FFAFB910AB0
-        public void m_11C(){} // RVA: 0x7FFAFB910E70
-        public void m_F46(){} // RVA: 0x7FFAFB910FA0
-        public void m_2AD(){} // RVA: 0x7FFAFB911040
-        public void m_C1D(){} // RVA: 0x7FFAFB911400
     }
 
     /// <summary>Originally: ÍÌÎÎÌÎÏÌÌÏÌÍÍÍÍÏÌÏÌÌÏÌÎ</summary>
@@ -90,9 +88,14 @@ namespace VRC.Physics
         // ── Methods ──
         public void GetReferenceAngle(){} // RVA: 0x7FFAFB581250
         public void GetReferenceAngle_C76983A4B38D(){} // RVA: 0x7FFAFB581250
+        public void GetReferenceAngle_8987028D9FCC(){} // RVA: 0x7FFAFB581280
+        public void SetReferenceAngle(){} // RVA: 0x7FFAFB5812A0
         public void Initialize(){} // RVA: 0x7FFAFB581D40 | overloaded x2
+        public void Sort(){} // RVA: 0x7FFAFB581440
         public void IntrospectiveSort(){} // RVA: 0x7FFAFB581500
         public void InsertionSort_77307958DF29(){} // RVA: 0x7FFAFB581770
+        public void GetReferenceAngle_ABDFED0C8D2D(){} // RVA: 0x7FFAFB581280
+        public void GetReferenceAngle_6048F59A3F8A(){} // RVA: 0x7FFAFB581280
         public void InsertionSort(){} // RVA: 0x7FFAFB581800
         public void InsertionSort_29269F7509F3(){} // RVA: 0x7FFAFB581850
         public void SwapElements(){} // RVA: 0x7FFAFB581A50
@@ -102,12 +105,7 @@ namespace VRC.Physics
         public void SwapIfGreater(){} // RVA: 0x7FFAFB582060
         public void SetConnectedAnchor(){} // RVA: 0x7FFAFB5822E0
         // ── Unresolved (hash) ──
-        public void m_898(){} // RVA: 0x7FFAFB581280
-        public void m_C85(){} // RVA: 0x7FFAFB5812A0
-        public void m_E87(){} // RVA: 0x7FFAFB581440
         public void m_2D1(){} // RVA: 0x7FFAFB5814E0
-        public void m_ABD(){} // RVA: 0x7FFAFB581280
-        public void m_604(){} // RVA: 0x7FFAFB581280
         public void m_299(){} // RVA: 0x7FFAFB5814E0
         public void m_773(){} // RVA: 0x7FFAFB581770
     }
@@ -149,15 +147,14 @@ namespace VRC.Physics
     public class PhysicsCollider2DHandler_C028
     {
         // ── Methods ──
+        public void OnCollisionEnter2D(){} // RVA: 0x7FFAFB9AF6C0
+        public void OnCollisionStay2D(){} // RVA: 0x7FFAFB9AF980
         public void ProcessCollision(){} // RVA: 0x7FFAFB9AFC40
         public void ProcessCollision_C30AA4084D87(){} // RVA: 0x7FFAFB9AFF00
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB9B00F0
         public void Start(){} // RVA: 0x7FFAFB9B03B0
-        // ── Unresolved (hash) ──
-        public void m_C58(){} // RVA: 0x7FFAFB9AF6C0
-        public void m_914(){} // RVA: 0x7FFAFB9AF980
-        public void m_62B(){} // RVA: 0x7FFAFB9B0590
+        public void OnCollisionExit2D(){} // RVA: 0x7FFAFB9B0590
     }
 
     /// <summary>Originally: ÌÍÍÏÎÍÏÎÏÏÍÌÍÏÌÌÌÎÌÍÍÏÌ</summary>
@@ -221,24 +218,48 @@ namespace VRC.Physics
     public class PhysicsComponentHandler_B72D
     {
         // ── Methods ──
+        public void InvokeGetIsTrigger(){} // RVA: 0x7FFAF4A1B070
+        public void GetRigidbodyComponent(){} // RVA: 0x7FFAF4A1B1F0
+        public void InvokeSetColliderMaterial(){} // RVA: 0x7FFAF4A1B340
+        public void InvokeSetColliderState(){} // RVA: 0x7FFAF4A1B4E0
+        public void GetColliderState(){} // RVA: 0x7FFAF4A1B680
+        public void GetDefaultPhysicsMaterial(){} // RVA: 0x7FFAF4A1B770
+        public void BoxColliderState(){} // RVA: 0x7FFAF4A1B8B0
+        public void MoveNextColliderState(){} // RVA: 0x7FFAF4A1B920
+        public void GetNullableValue(){} // RVA: 0x7FFAF4A1BA40
+        public void CreateNullableValue(){} // RVA: 0x7FFAF4A1BC60
         public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF4A1BE00
+        public void CreateNullableFromValue(){} // RVA: 0x7FFAF4A1BF50
+        public void get_HasValue(){} // RVA: 0x7FFAF4A1C0A0
+        public void DisposeEnumerator(){} // RVA: 0x7FFAF4A1C170
+        public void CopyObjectAndInt(){} // RVA: 0x7FFAF4A1C390
+        public void GetBoxColliderCollection(){} // RVA: 0x7FFAF4A1C5B0
+        public void GetCapsuleColliderCollection(){} // RVA: 0x7FFAF4A1C710
+        public void GetSphereColliderCollection(){} // RVA: 0x7FFAF4A1C8A0
+        public void DisposeNullableValue(){} // RVA: 0x7FFAF4A1C9F0
         public void SetIsTrigger(){} // RVA: 0x7FFAF4A1CB80
+        public void GetColliderStateById(){} // RVA: 0x7FFAF4A1CCA0
+        public void CreatePhysicsComponentMap(){} // RVA: 0x7FFAF4A1CD70
+        public void CopyManagedObjectReference(){} // RVA: 0x7FFAF4A1CF40
+        public void CopyObjectPair(){} // RVA: 0x7FFAF4A1D110
+        public void CopyObjectPair_85BDBD7151E4(){} // RVA: 0x7FFAF4A1D230
+        public void GetValueOrDefault(){} // RVA: 0x7FFAF4A1D380
+        public void CompareNullableTime(){} // RVA: 0x7FFAF4A1D480
         public void UnboxNullableValue(){} // RVA: 0x7FFAF4A1D5A0
+        public void InitializePhysicsTypes(){} // RVA: 0x7FFAF4A1D750
+        public void GetEmptyEnumerator(){} // RVA: 0x7FFAF4A1D860
+        public void InvokeGetColliderEnabled(){} // RVA: 0x7FFAF4A1D9A0
         public void TryGetValue(){} // RVA: 0x7FFAF4A1DB30
-        // ── 29 unresolved (hash) ──
-        public void m_DAF(){} // RVA: 0x7FFAF4A1B070
-        public void m_ECE(){} // RVA: 0x7FFAF4A1B1F0
-        public void m_23E(){} // RVA: 0x7FFAF4A1B340
-        public void m_8DC(){} // RVA: 0x7FFAF4A1B4E0
-        public void m_CEB(){} // RVA: 0x7FFAF4A1B680
-        // ... 24 more unresolved methods
+        public void GetNullableHashCode(){} // RVA: 0x7FFAF4A1DC60
     }
 
     /// <summary>Originally: ÎÍÏÌÍÏÎÌÌÌÍÍÏÌÎÎÍÌÎÏÍÌÏ</summary>
     public class PhysicsConfigurableJointHandler_790F
     {
         // ── Methods ──
+        public void ReadJointProperties(){} // RVA: 0x7FFAF3696DD0
+        public void ConfigureJointMotor(){} // RVA: 0x7FFAF36971D0
         public void ConfigureHingeJoint(){} // RVA: 0x7FFAF36973B0
         public void GetUseMotor(){} // RVA: 0x7FFAF36977B0
         public void ConfigureConfigurableJoint(){} // RVA: 0x7FFAF3697BB0
@@ -247,9 +268,6 @@ namespace VRC.Physics
         public void Initialize(){} // RVA: 0x7FFAF36981A0
         public void ConfigureConfigurableJoint_95879F031D78(){} // RVA: 0x7FFAF3698390
         public void ConfigureCharacterJoint(){} // RVA: 0x7FFAF3698790
-        // ── Unresolved (hash) ──
-        public void m_041(){} // RVA: 0x7FFAF3696DD0
-        public void m_D68(){} // RVA: 0x7FFAF36971D0
     }
 
     /// <summary>Originally: ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ</summary>
@@ -279,6 +297,7 @@ namespace VRC.Physics
         public void ResetName(){} // RVA: 0x7FFAF2ABD840
         public void WriteValue(){} // RVA: 0x7FFAF2ABDBE0
         public void ProcessPhysicsPurchase(){} // RVA: 0x7FFAF2ABDBE0
+        public void RefreshPhysicsDescription(){} // RVA: 0x7FFAF2ABCD60
         public void RefreshPurchaseDescription(){} // RVA: 0x7FFAF2ABCD60
         public void ProcessPhysicsPurchase_5A8C87CEEB71(){} // RVA: 0x7FFAF2ABDBE0
         public void GetCampaignName(){} // RVA: 0x7FFAF2ABDBE0
@@ -307,6 +326,8 @@ namespace VRC.Physics
         public void CachePurchaseDescription_FAB1ED77A865(){} // RVA: 0x7FFAF2ABCD60
         public void get_Buyer(){} // RVA: 0x7FFAF2ABCD60
         public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Item(){} // RVA: 0x7FFAF2ABCD60
         public void HandlePhysicsPurchase(){} // RVA: 0x7FFAF2ABDBE0
         public void ForwardPhysicsPurchase(){} // RVA: 0x7FFAF2ABDBE0
         public void DispatchPhysicsPurchase(){} // RVA: 0x7FFAF2ABDBE0
@@ -324,9 +345,6 @@ namespace VRC.Physics
         public void GetBuyer(){}
         public void Disable(){}
         // ── Unresolved (hash) ──
-        public void m_C87(){} // RVA: 0x7FFAF2ABCD60
-        public void m_5E5(){} // RVA: 0x7FFAF2ABCD60
-        public void m_C4A(){} // RVA: 0x7FFAF2ABCD60
         public void m_F35(){} // RVA: 0x7FFAF2ABCD60
     }
 
@@ -363,6 +381,7 @@ namespace VRC.Physics
     public class PhysicsDescriptionPurchase_F17Sibling_D93C
     {
         // ── Methods ──
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_Count(){} // RVA: 0x7FFAF2ABD840
         public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
@@ -377,43 +396,61 @@ namespace VRC.Physics
         public void get_Count_05244E293A2E(){} // RVA: 0x7FFAF2ABD840
         public void get_Item(){} // RVA: 0x7FFAF2ACBCC0
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF2ADDC60
-        // ── 15 unresolved (hash) ──
-        public void m_537(){} // RVA: 0x7FFAF2ABCD60
+        // ── 14 unresolved (hash) ──
         public void m_E4E(){} // RVA: 0x7FFAF2ABCD60
         public void m_623(){} // RVA: 0x7FFAF2ABCD60
         public void m_98A(){} // RVA: 0x7FFAF2ABCD60
         public void m_60B(){} // RVA: 0x7FFAF2ABCD60
-        // ... 10 more unresolved methods
+        public void m_5E5(){} // RVA: 0x7FFAF2ABCD60
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÍÎÏÍÏÎÌÎÎÏÏÌÌÌÍÍÎÍÍÎÎÌÏ</summary>
     public class PhysicsEffector2DHandler_6ECC
     {
         // ── Methods ──
+        public void SetAnimationCurveKeys(){} // RVA: 0x7FFAFBB71750
+        public void SetAnimationCurveKeys_E8AE24252ACD(){} // RVA: 0x7FFAFBB71810
+        public void SetAnimationCurveKeys_14B674A1E042(){} // RVA: 0x7FFAFBB71CD0
         public void InitializeAnimationCurves_6439409C6119(){} // RVA: 0x7FFAFBB71F80
         public void InitializeAnimationCurves(){} // RVA: 0x7FFAFBB72000
         public void InitializeAnimationCurves_CCB3FF6A53E4(){} // RVA: 0x7FFAFBB72330
-        public void SetAnimationCurveKeys(){} // RVA: 0x7FFAFBB72360
+        public void SetAnimationCurveKeys_FC59C736AC7B(){} // RVA: 0x7FFAFBB72360
         public void SetAnimationCurveKeys_85D0BA18F5C5(){} // RVA: 0x7FFAFBB72530
+        public void SetUseBounce(){} // RVA: 0x7FFAFBB72860
         public void .ctor(){} // RVA: 0x7FFAFBB72880
         public void Initialize(){} // RVA: 0x7FFAFBB728E0
+        public void SetUseColliderMask(){} // RVA: 0x7FFAFBB72A00
+        public void SetUseFriction(){} // RVA: 0x7FFAFBB72B90
+        public void FilterComponentsByInstanceId_4DCB359E9800(){} // RVA: 0x7FFAFBB765E0 | overloaded x2
+        public void InitializeAnimationCurves_B365D1F5E98C(){} // RVA: 0x7FFAFBB72F80
+        public void InitializeHumanoidMuscleCurves(){} // RVA: 0x7FFAFBB73170
+        public void InitializeHumanoidMuscleCurves_068D26C47BA6(){} // RVA: 0x7FFAFBB73570
+        public void InitializeHumanoidMuscleCurves_792826C1487C(){} // RVA: 0x7FFAFBB735A0
+        public void InitializeAnimationCurves_C8DB938D9608(){} // RVA: 0x7FFAFBB736E0
+        public void InitializeHumanoidMuscleCurves_12C11FFCD502(){} // RVA: 0x7FFAFBB73760
         public void GetEffectorTransform(){} // RVA: 0x7FFAFBB73A80
+        public void ApplyAnimationCurves(){} // RVA: 0x7FFAFBB73CD0
         public void Awake(){} // RVA: 0x7FFAFBB73D40
+        public void SampleAnimationCurveFrame(){} // RVA: 0x7FFAFBB74570
         public void OnDestroy(){} // RVA: 0x7FFAFBB748A0
         public void GetUseColliderMask(){} // RVA: 0x7FFAFBB74DE0
         public void OnDisable(){} // RVA: 0x7FFAFBB750A0
         public void InverseTransformPoint(){} // RVA: 0x7FFAFBB75140
-        public void SetUseBounce(){} // RVA: 0x7FFAFBB76090
+        public void SetUseBounce_914D5AEA5727(){} // RVA: 0x7FFAFBB75800
+        public void InitializeAnimationCurves_BDCA08B04035(){} // RVA: 0x7FFAFBB75A50
+        public void SetUseBounce_14ECCA329315(){} // RVA: 0x7FFAFBB76090
         public void SetUseBounce_10A0EA40A287(){} // RVA: 0x7FFAFBB760F0
-        public void SetUseColliderMask(){} // RVA: 0x7FFAFBB761B0
-        public void SetUseFriction(){} // RVA: 0x7FFAFBB76450
-        // ── 24 unresolved (hash) ──
-        public void m_1B3(){} // RVA: 0x7FFAFBB71750
-        public void m_E8A(){} // RVA: 0x7FFAFBB71810
-        public void m_14B(){} // RVA: 0x7FFAFBB71CD0
-        public void m_CDF(){} // RVA: 0x7FFAFBB72860
+        public void SetUseColliderMask_81A081E2449E(){} // RVA: 0x7FFAFBB761B0
+        public void InitializeAnimationCurves_C5737EEB367E(){} // RVA: 0x7FFAFBB76280
+        public void SetUseFriction_6A1D22C05319(){} // RVA: 0x7FFAFBB76450
+        public void FilterComponentsByInstanceId_289B4B19D92D(){} // RVA: 0x7FFAFBB76550
+        public void FilterComponentsByInstanceId_3A51B84F0479(){} // RVA: 0x7FFAFBB76620
+        public void FilterComponentsByInstanceId_8A4049867E7A(){} // RVA: 0x7FFAFBB76810
+        // ── Unresolved (hash) ──
         public void m_643(){} // RVA: 0x7FFAFBB71F80
-        // ... 19 more unresolved methods
+        public void m_98F(){} // RVA: 0x7FFAFBB738F0
+        public void m_388(){} // RVA: 0x7FFAFBB739F0
     }
 
     /// <summary>Originally: ÎÌÎÏÍÏÍÍÌÍÏÎÌÏÎÍÏÌÌÌÏÍÎ</summary>
@@ -456,27 +493,34 @@ namespace VRC.Physics
     public class PhysicsHandler_263E
     {
         // ── Methods ──
+        public void SortMetadataByToken(){} // RVA: 0x7FFAFBA91400
         public void SetSolverVelocityIterations(){} // RVA: 0x7FFAFBA93020
         public void SetUseGravity(){} // RVA: 0x7FFAFBA930D0
         public void SetUseGravity_906D13691BD1(){} // RVA: 0x7FFAFBA93170
         public void OnFetchStorePromotionOrderFailed(){} // RVA: 0x7FFAF9CEA840
         public void ReadUtf8CodePoint(){} // RVA: 0x7FFAFBA939D0
+        public void SortFieldsByOffset(){} // RVA: 0x7FFAFBA93E00
+        public void GetMethods(){} // RVA: 0x7FFAFBA94660
+        public void GetFields(){} // RVA: 0x7FFAFBA94950
+        public void GetProperties(){} // RVA: 0x7FFAFBA94E20
+        public void GetNestedTypes(){} // RVA: 0x7FFAFBA95680
         public void FormatArrayTypeName(){} // RVA: 0x7FFAFBA95740
         public void MakeArrayType(){} // RVA: 0x7FFAFBA95760
         public void .cctor(){} // RVA: 0x7FFAFBA95BB0
         public void GetInterfaces(){} // RVA: 0x7FFAFBA95F50
         public void Awake(){} // RVA: 0x7FFAFBA95F60
         public void OnDestroy(){} // RVA: 0x7FFAFBA97A90
+        public void GetFields_E4BC2DF6955A(){} // RVA: 0x7FFAFBA97B30
+        public void GetMethods_2C479A195CEF(){} // RVA: 0x7FFAFBA97B80
+        public void GetMethods_7607E0AB479A(){} // RVA: 0x7FFAFBA97CA0
+        public void GetFields_515450E678B1(){} // RVA: 0x7FFAFBA98040
+        public void GetProperties_83D7B7BBFE44(){} // RVA: 0x7FFAFBA980E0
         public void .ctor(){} // RVA: 0x7FFAFBA98540
         public void Initialize(){} // RVA: 0x7FFAFBA98C10
-        public void GetNestedTypes(){} // RVA: 0x7FFAFBA994D0
-        // ── 14 unresolved (hash) ──
-        public void m_FC3(){} // RVA: 0x7FFAFBA91400
-        public void m_A05(){} // RVA: 0x7FFAFBA93E00
-        public void m_4B4(){} // RVA: 0x7FFAFBA94660
-        public void m_B15(){} // RVA: 0x7FFAFBA94950
-        public void m_D45(){} // RVA: 0x7FFAFBA94E20
-        // ... 9 more unresolved methods
+        public void GetEvents(){} // RVA: 0x7FFAFBA990F0
+        public void GetNestedTypes_4FA9E123FA87(){} // RVA: 0x7FFAFBA99190
+        public void GetEvents_6EF57D6528B1(){} // RVA: 0x7FFAFBA99250
+        public void GetNestedTypes_E81991D0E7CA(){} // RVA: 0x7FFAFBA994D0
     }
 
     /// <summary>Originally: ÌÏÎÌÍÍÍÏÎÍÎÎÌÌÏÌÌÍÌÏÏÏÎ</summary>
@@ -484,40 +528,62 @@ namespace VRC.Physics
     {
         // ── Methods ──
         public void GetIgnoreLayerCollision(){} // RVA: 0x7FFAFB8EFCF0
+        public void IsTextNodeType(){} // RVA: 0x7FFAFB8EFE60
         public void ThrowCannotMarshalPageField(){} // RVA: 0x7FFAFB8EFED0
+        public void MarshalXPathNavigatorToNative(){} // RVA: 0x7FFAFB8F0060
         public void GetIgnoreCollision(){} // RVA: 0x7FFAFB8F02C0
         public void ObjectType(){} // RVA: 0x7FFAF2EE54D0
         public void GetIgnoreLayerCollision_87385EE9B3AC(){} // RVA: 0x7FFAFB8F0390
         public void .ctor(){} // RVA: 0x7FFAFB8F06E0
         public void Start(){} // RVA: 0x7FFAFB8F07E0
+        public void GetObjectType(){} // RVA: 0x7FFAFB8F08C0
+        public void MarshalXPathNodeRefToNative(){} // RVA: 0x7FFAFB8F0B30
+        public void MarshalXPathNodeToNative(){} // RVA: 0x7FFAFB8F0E00
+        public void MarshalXPathNodeListToNative(){} // RVA: 0x7FFAFB8F1040
         public void StringType(){} // RVA: 0x7FFAF2E2E0E0
+        public void MarshalXPathNodeListToNative_8A4220455B85(){} // RVA: 0x7FFAFB8F10B0
+        public void MarshalXPathNodeRefToNative_C3E759234234(){} // RVA: 0x7FFAFB8F1260
+        public void WriteXPathNodeRef(){} // RVA: 0x7FFAFB8F14A0
         public void Awake(){} // RVA: 0x7FFAFB8F16E0
         public void OnDestroy(){} // RVA: 0x7FFAFB8F1990
-        // ── 12 unresolved (hash) ──
-        public void m_80B(){} // RVA: 0x7FFAFB8EFE60
-        public void m_28F(){} // RVA: 0x7FFAFB8F0060
-        public void m_FB3(){} // RVA: 0x7FFAFB8F08C0
-        public void m_17E(){} // RVA: 0x7FFAFB8F0B30
-        public void m_AAC(){} // RVA: 0x7FFAFB8F0E00
-        // ... 7 more unresolved methods
+        public void GetStringType(){} // RVA: 0x7FFAFB8F1B90
+        public void GetStringType_1F2D3C87CF44(){} // RVA: 0x7FFAFB8F1E00
+        public void CheckXPathNodeFlags(){} // RVA: 0x7FFAFB8F2150
     }
 
     /// <summary>Originally: ÎÎÍÎÏÎÎÍÏÌÏÎÍÎÍÎÍÍÎÎÏÌÎ</summary>
     public class PhysicsHandler_577C
     {
         // ── Methods ──
+        public void InvokePhysicsPoseCallback(){} // RVA: 0x7FFAF4844D10
         public void get_MoveNext(){} // RVA: 0x7FFAF2F476A0
+        public void InvokePhysicsObjectCallback(){} // RVA: 0x7FFAF4844FA0
+        public void InvokePhysicsBufferCallback(){} // RVA: 0x7FFAF48450E0
         public void ToString(){} // RVA: 0x7FFAF4845250
+        public void InvokePhysicsBooleanCallback(){} // RVA: 0x7FFAF4845530
+        public void InvokePhysicsVectorCallback(){} // RVA: 0x7FFAF48456E0
+        public void InvokePhysicsStringIntCallback(){} // RVA: 0x7FFAF4845820
+        public void InvokePhysicsStringPairCallback(){} // RVA: 0x7FFAF4845A60
+        public void InvokePhysicsStringPairHandler(){} // RVA: 0x7FFAF4845CD0
+        public void InvokePhysicsTransformCallback(){} // RVA: 0x7FFAF4845F10
+        public void InvokePhysicsLayerCallback(){} // RVA: 0x7FFAF4845F60
+        public void InvokePhysicsBoundsCallback(){} // RVA: 0x7FFAF4846020
+        public void InvokePhysicsTripleBufferCallback(){} // RVA: 0x7FFAF4846E80
+        public void InvokePhysicsVector3Callback(){} // RVA: 0x7FFAF4847030
+        public void InvokePhysicsContactCallback(){} // RVA: 0x7FFAF48470C0
+        public void InvokePhysicsRaycastCallback(){} // RVA: 0x7FFAF4847200
+        public void InvokePhysicsMatrixCallback(){} // RVA: 0x7FFAF48472B0
+        public void InvokePhysicsColliderCallback(){} // RVA: 0x7FFAF4847960
         public void .ctor(){} // RVA: 0x7FFAF4847AA0
         public void Initialize(){} // RVA: 0x7FFAF4847E70
         public void .cctor(){} // RVA: 0x7FFAF4848520
-        // ── 24 unresolved (hash) ──
-        public void m_8CB(){} // RVA: 0x7FFAF4844D10
-        public void m_4A5(){} // RVA: 0x7FFAF4844FA0
-        public void m_241(){} // RVA: 0x7FFAF48450E0
-        public void m_3CB(){} // RVA: 0x7FFAF4845530
-        public void m_44D(){} // RVA: 0x7FFAF48456E0
-        // ... 19 more unresolved methods
+        public void InvokePhysicsBoundsResultCallback(){} // RVA: 0x7FFAF4848760
+        public void InvokePhysicsPairResultCallback(){} // RVA: 0x7FFAF4848E20
+        public void InvokePhysicsHitResultCallback(){} // RVA: 0x7FFAF48490B0
+        public void InvokePhysicsCastResultCallback(){} // RVA: 0x7FFAF4849220
+        public void InvokePhysicsTransformResultCallback(){} // RVA: 0x7FFAF4849440
+        public void InvokePhysicsPoseResultCallback(){} // RVA: 0x7FFAF48495D0
+        public void InvokePhysicsExtendedResultCallback(){} // RVA: 0x7FFAF4849730
     }
 
     /// <summary>Originally: ÍÍÏÏÏÏÍÎÎÎÎÍÎÌÏÏÏÍÏÌÍÏÍ</summary>
@@ -561,6 +627,7 @@ namespace VRC.Physics
         public void set_Priority(){} // RVA: 0x7FFAF30E74E0
         public void ReadCapsuleColliderState(){} // RVA: 0x7FFAF2D900C0
         public void set_Width(){} // RVA: 0x7FFAF3A9C7A0
+        public void SetIsKinematic(){} // RVA: 0x7FFAF4439F20
         public void set_Count(){} // RVA: 0x7FFAF335C660
         public void set_Sigma(){} // RVA: 0x7FFAF2EFAF60
         public void get_Count_491594F6E6A0(){} // RVA: 0x7FFAF306ED50
@@ -574,6 +641,7 @@ namespace VRC.Physics
         public void get_InstantiationKind(){} // RVA: 0x7FFAF2DDA5C0
         public void set_Width_0DCF12E6553A(){} // RVA: 0x7FFAF3A9C7A0
         public void get_isRigid(){} // RVA: 0x7FFAF2E6C230
+        public void ReadCapsuleColliderState_9ACF238555E9(){} // RVA: 0x7FFAF4439FE0
         public void get_Sigma(){} // RVA: 0x7FFAF2EFAF50
         public void set_Sigma_61C6D9FD3C6F(){} // RVA: 0x7FFAF2EFAF60
         public void get_Sigma_782533EC17D9(){} // RVA: 0x7FFAF2EFAF50
@@ -581,11 +649,8 @@ namespace VRC.Physics
         public void get_Count_6DB018E90EA2(){} // RVA: 0x7FFAF335BED0
         public void get_Count_27BEA582135E(){} // RVA: 0x7FFAF335BED0
         public void set_Priority_C87D08CD9F0F(){} // RVA: 0x7FFAF30E74E0
-        public void SetIsKinematic(){} // RVA: 0x7FFAF443A1A0
+        public void SetIsKinematic_498C5450A855(){} // RVA: 0x7FFAF443A1A0
         public void ReadApplicationState_F29EFB7F1E3A(){} // RVA: 0x7FFAF2DB6080
-        // ── Unresolved (hash) ──
-        public void m_D19(){} // RVA: 0x7FFAF4439F20
-        public void m_9AC(){} // RVA: 0x7FFAF4439FE0
     }
 
     /// <summary>Originally: ÎÎÍÌÎÎÍÏÍÍÍÍÏÌÎÎÏÌÍÌÌÏÍ</summary>
@@ -593,6 +658,7 @@ namespace VRC.Physics
     {
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAFB8F2C00
+        public void GetAvailableDeviceNames(){} // RVA: 0x7FFAFB8F2D40
         public void SetCacheWritingBehavior(){} // RVA: 0x7FFAFB8F2F20
         public void OnEnable(){} // RVA: 0x7FFAFB8F30E0
         public void OnDisable(){} // RVA: 0x7FFAFB8F30F0
@@ -605,16 +671,15 @@ namespace VRC.Physics
         public void set_CacheWritingBehavior(){} // RVA: 0x7FFAFB8F3B10
         public void .cctor(){} // RVA: 0x7FFAFB8F3D80
         public void OnDisable_C30E74D1F2F5(){} // RVA: 0x7FFAFB8F30F0
+        public void NotifyCacheWritingBehaviorChanged(){} // RVA: 0x7FFAFB8F4100
+        public void CopyPhysicsConfiguration(){} // RVA: 0x7FFAFB8F4470
+        public void CopyPhysicsConfiguration_6DB0D5302365(){} // RVA: 0x7FFAFB8F4540
+        public void CopyPhysicsState(){} // RVA: 0x7FFAFB8F4680
+        public void CopyPhysicsState_D409014B7D2A(){} // RVA: 0x7FFAFB8F47B0
         // ── Unresolved (hash) ──
-        public void m_F50(){} // RVA: 0x7FFAFB8F2D40
         public void m_3E8(){} // RVA: 0x7FFAFB8F3160
         public void m_456(){} // RVA: 0x7FFAFB8F3170
         public void m_450(){} // RVA: 0x7FFAFB8F32A0
-        public void m_64B(){} // RVA: 0x7FFAFB8F4100
-        public void m_B5B(){} // RVA: 0x7FFAFB8F4470
-        public void m_6DB(){} // RVA: 0x7FFAFB8F4540
-        public void m_965(){} // RVA: 0x7FFAFB8F4680
-        public void m_D40(){} // RVA: 0x7FFAFB8F47B0
     }
 
     /// <summary>Originally: ÌÍÎÏÎÍÌÍÏÎÍÎÎÏÌÍÎÎÍÏÏÏÏ</summary>
@@ -674,14 +739,13 @@ namespace VRC.Physics
     public class PhysicsHingeJointHandler_DF6F
     {
         // ── Methods ──
-        public void SetUseMotor(){} // RVA: 0x7FFAFB5D56E0
+        public void SetUseMotor(){} // RVA: 0x7FFAFB5D5680
+        public void SetUseMotor_73C419950CD1(){} // RVA: 0x7FFAFB5D56B0
+        public void SetUseMotor_FD24E34E98EC(){} // RVA: 0x7FFAFB5D56E0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAFB5D56B0
         public void SetUseMotor_0DABCD07E180(){} // RVA: 0x7FFAFB5D5710
         public void SetUseMotor_CB158BCA4B0C(){} // RVA: 0x7FFAFB5D5710
-        // ── Unresolved (hash) ──
-        public void m_210(){} // RVA: 0x7FFAFB5D5680
-        public void m_73C(){} // RVA: 0x7FFAFB5D56B0
     }
 
     /// <summary>Originally: ÏÌÏÍÎÌÌÌÎÍÏÎÌÍÏÍÌÎÌÌÍÎÏ</summary>
@@ -733,6 +797,7 @@ namespace VRC.Physics
         public void GetConnectedBody(){} // RVA: 0x7FFAFBA28580
         public void CollectAllocatorMemory_D96CA210FF69(){} // RVA: 0x7FFAFBA28A90
         public void EnsureMemoryAvailable(){} // RVA: 0x7FFAFBA28F50
+        public void AllocateLargeBlock(){} // RVA: 0x7FFAFBA29080
         public void GetReactionTorque(){} // RVA: 0x7FFAFBA292C0
         public void GrowFreeObjectTable(){} // RVA: 0x7FFAFBA29530
         public void UpdateFreeObjectTableEntry(){} // RVA: 0x7FFAFBA29B40
@@ -743,8 +808,6 @@ namespace VRC.Physics
         public void OnDestroy(){} // RVA: 0x7FFAFBA2AB90
         public void ProcessDeferredFrees(){} // RVA: 0x7FFAFBA2B040
         public void Start(){} // RVA: 0x7FFAFBA2B210
-        // ── Unresolved (hash) ──
-        public void m_308(){} // RVA: 0x7FFAFBA29080
     }
 
     /// <summary>Originally: ÎÏÎÌÌÎÌÏÏÏÍÏÎÍÍÏÍÌÍÍÌÏÎ</summary>
@@ -762,40 +825,38 @@ namespace VRC.Physics
         public void GetJointTranslation(){} // RVA: 0x7FFAFBB06420
         public void GetReactionForce(){} // RVA: 0x7FFAFBB06A30
         public void .cctor(){} // RVA: 0x7FFAFBB07300
+        public void SetBreakTorque(){} // RVA: 0x7FFAFBB07F80
         public void SetEnableCollision(){} // RVA: 0x7FFAFBB08380
         public void CopyNullTerminatedString(){} // RVA: 0x7FFAFBB08B70
+        public void ReadStreamElements(){} // RVA: 0x7FFAFBB08C40
+        public void WriteStreamElementsSecure(){} // RVA: 0x7FFAFBB09070
         public void WriteStreamElements(){} // RVA: 0x7FFAFBB09230
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFBB095A0
         public void ReadStreamElementsSecure(){} // RVA: 0x7FFAFBB099D0
         public void ReadStreamElementsSecure_F92B51F883EC(){} // RVA: 0x7FFAFBB09AC0
-        // ── Unresolved (hash) ──
-        public void m_E5C(){} // RVA: 0x7FFAFBB07F80
-        public void m_2EA(){} // RVA: 0x7FFAFBB08C40
-        public void m_274(){} // RVA: 0x7FFAFBB09070
-        public void m_07E(){} // RVA: 0x7FFAFBB09E20
-        public void m_0F6(){} // RVA: 0x7FFAFBB09EF0
+        public void GetReactionTorque(){} // RVA: 0x7FFAFBB09E20
+        public void SetEnabled(){} // RVA: 0x7FFAFBB09EF0
     }
 
     /// <summary>Originally: ÎÏÍÏÌÏÍÍÌÎÏÍÌÌÏÍÎÎÏÏÏÍÏ</summary>
     public class PhysicsJoint2DHandler_88ED
     {
         // ── Methods ──
+        public void GetBreakForce(){} // RVA: 0x7FFAFB57FCF0
+        public void GetBreakTorque(){} // RVA: 0x7FFAFB57FD90
         public void GetAnchor(){} // RVA: 0x7FFAFB57FE00
         public void InvokePhysicsJoint2DHandlers(){} // RVA: 0x7FFAFB57FEA0
         public void GetAttachedRigidbody(){} // RVA: 0x7FFAFB57FF90
+        public void GetReactionForce(){} // RVA: 0x7FFAFB580030
+        public void GetReactionTorque(){} // RVA: 0x7FFAFB580160
+        public void GetEnableCollision(){} // RVA: 0x7FFAFB580250
         public void .ctor(){} // RVA: 0x7FFAFB580330
         public void Initialize(){} // RVA: 0x7FFAFB5803F0
+        public void SetConnectedBody(){} // RVA: 0x7FFAFB580460
         public void InvokePhysicsJoint2DHandlers_3062183F9774(){} // RVA: 0x7FFAFB580590
         public void GetConnectedBody(){} // RVA: 0x7FFAFB580630
         public void GetDampingRatio(){} // RVA: 0x7FFAFB580760
-        // ── Unresolved (hash) ──
-        public void m_4C9(){} // RVA: 0x7FFAFB57FCF0
-        public void m_8F6(){} // RVA: 0x7FFAFB57FD90
-        public void m_5BB(){} // RVA: 0x7FFAFB580030
-        public void m_D4D(){} // RVA: 0x7FFAFB580160
-        public void m_930(){} // RVA: 0x7FFAFB580250
-        public void m_D4A(){} // RVA: 0x7FFAFB580460
     }
 
     /// <summary>Originally: ÌÎÎÍÏÎÍÍÎÍÏÌÏÏÌÏÏÎÏÌÍÏÎ</summary>
@@ -882,13 +943,13 @@ namespace VRC.Physics
         public void ProcessPhysics(){} // RVA: 0x7FFAFB96BDA0
         public void ProcessPhysics_CB2067AE3FE6(){} // RVA: 0x7FFAFB96C070
         public void OnDisable_9C478D7FF148(){} // RVA: 0x7FFAFB96BD20
+        public void ProcessPhysics_C4F15A31618A(){} // RVA: 0x7FFAFB96C200
+        public void SimulatePhysicsScene(){} // RVA: 0x7FFAFB96C6E0
         // ── Unresolved (hash) ──
         public void m_B8B(){} // RVA: 0x7FFAFB96B040
         public void m_098(){} // RVA: 0x7FFAFB96B520
         public void m_B87(){} // RVA: 0x7FFAFB96B9E0
-        public void m_C4F(){} // RVA: 0x7FFAFB96C200
         public void m_8A9(){} // RVA: 0x7FFAFB96B9E0
-        public void m_028(){} // RVA: 0x7FFAFB96C6E0
     }
 
     /// <summary>Originally: ÌÏÍÎÏÌÎÌÌÏÏÎÎÏÍÍÍÌÎÌÌÍÏ</summary>
@@ -941,26 +1002,26 @@ namespace VRC.Physics
     {
         // ── Methods ──
         public void GetNextDeltaTime(){} // RVA: 0x7FFAF39FDB90
+        public void GetFixedDeltaTime(){} // RVA: 0x7FFAF39FDDE0
         public void GetDeltaTime(){} // RVA: 0x7FFAF3684EC0
+        public void GetMaximumDeltaTime(){} // RVA: 0x7FFAF39FDE50
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF39FE040
+        public void set_TimeScale(){} // RVA: 0x7FFAF39FE230
+        public void GetFixedDeltaTime_325A2C944D23(){} // RVA: 0x7FFAF39FDDE0
+        public void set_FixedDeltaTime(){} // RVA: 0x7FFAF39FE480
+        public void set_MaximumDeltaTime(){} // RVA: 0x7FFAF39FE670
         public void GetDeltaTime_CF7E1165960C(){} // RVA: 0x7FFAF3684EC0
-        // ── Unresolved (hash) ──
-        public void m_AD3(){} // RVA: 0x7FFAF39FDDE0
-        public void m_131(){} // RVA: 0x7FFAF39FDE50
-        public void m_2B6(){} // RVA: 0x7FFAF39FE230
-        public void m_325(){} // RVA: 0x7FFAF39FDDE0
-        public void m_609(){} // RVA: 0x7FFAF39FE480
-        public void m_A0D(){} // RVA: 0x7FFAF39FE670
-        public void m_AB2(){} // RVA: 0x7FFAF39FE860
-        public void m_796(){} // RVA: 0x7FFAF39FEA50
-        public void m_94B(){} // RVA: 0x7FFAF39FEC40
+        public void ResetDeltaTime(){} // RVA: 0x7FFAF39FE860
+        public void UpdateDeltaTime(){} // RVA: 0x7FFAF39FEA50
+        public void UpdateFixedDeltaTime(){} // RVA: 0x7FFAF39FEC40
     }
 
     /// <summary>Originally: ÎÌÎÏÏÌÏÍÎÏÏÎÍÍÏÍÌÌÌÍÎÍÍ</summary>
     public class PhysicsTimeHandler_D4EA
     {
         // ── Methods ──
+        public void UpdatePrint(){} // RVA: 0x7FFAF3684880
         public void GetDeltaTime(){} // RVA: 0x7FFAF3684BA0
         public void <UpdatePrint>b__1(){} // RVA: 0x7FFAF30EBE20
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
@@ -969,7 +1030,6 @@ namespace VRC.Physics
         public void GetDeltaTime_8926A06AC37D(){} // RVA: 0x7FFAF3684EC0
         public void GetDeltaTime_6F12CAC41042(){} // RVA: 0x7FFAF3684EC0
         // ── Unresolved (hash) ──
-        public void m_DBF(){} // RVA: 0x7FFAF3684880
         public void m_854(){} // RVA: 0x7FFAF3685240
     }
 
@@ -1051,8 +1111,11 @@ namespace VRC.Physics
         public void set_pointerType(){} // RVA: 0x7FFAF3595030
         public void get_pointerType(){} // RVA: 0x7FFAF34CC130
         public void Start(){} // RVA: 0x7FFAF37F90F0
+        public void set_releaseStatus(){} // RVA: 0x7FFAF37F9260
         public void Awake(){} // RVA: 0x7FFAF37F9AF0
         public void get_releaseStatus(){} // RVA: 0x7FFAF2DF8040
+        public void set_Default(){} // RVA: 0x7FFAF37FAF10
+        public void set_pointerType_E807A2B6D698(){} // RVA: 0x7FFAF37FB140
         public void OnDestroy(){} // RVA: 0x7FFAF37FCEF0
         public void StaticConstructor(){} // RVA: 0x7FFAF37FDCA0
         public void Constructor(){} // RVA: 0x7FFAF37FDD10
@@ -1069,13 +1132,13 @@ namespace VRC.Physics
         public void Constructor_F0BC91BAA46B(){} // RVA: 0x7FFAF380A3B0
         public void Register(){} // RVA: 0x7FFAF2DCC010
         public void Unregister_D7A6638FB765(){} // RVA: 0x7FFAF37FDDF0
-        // ── 59 unresolved (hash) ──
+        // ── 56 unresolved (hash) ──
         public void m_D9B(){} // RVA: 0x7FFAF37F91B0
         public void m_2BF(){} // RVA: 0x7FFAF37F67A0
         public void m_9AE(){} // RVA: 0x7FFAF37F6B20
         public void m_F41(){} // RVA: 0x7FFAF37F6CB0
         public void m_C96(){} // RVA: 0x7FFAF37F6F00
-        // ... 54 more unresolved methods
+        // ... 51 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÏÎÏÎÎÌÏÍÌÍÍÎÌÏÎÏÌÏÌÍ</summary>
@@ -1083,24 +1146,29 @@ namespace VRC.Physics
     {
         // ── Methods ──
         public void Update(){} // RVA: 0x7FFAF41AC8E0
+        public void OnCollisionEnter(){} // RVA: 0x7FFAF41ACA20
         public void Awake(){} // RVA: 0x7FFAF41ACBB0
+        public void OnCollisionStay(){} // RVA: 0x7FFAF41ACCC0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void OnTriggerEnter(){} // RVA: 0x7FFAF41ACFA0
         public void Start(){} // RVA: 0x7FFAF41AD170
         public void OnDestroy(){} // RVA: 0x7FFAF41AD2B0
+        public void OnCollisionExit(){} // RVA: 0x7FFAF41AD340
         public void OnTriggerStay(){} // RVA: 0x7FFAF41AD3B0
+        public void OnTriggerEnter_C9ED83B2DF2E(){} // RVA: 0x7FFAF41AD610
+        public void OnTriggerStay_6B3E81FCD57E(){} // RVA: 0x7FFAF41AD750
         public void OnTriggerExit(){} // RVA: 0x7FFAF41AD890
+        public void OnTriggerExit_55BEFDE72922(){} // RVA: 0x7FFAF41AD9F0
         public void .ctor_21C04F93F8C8(){} // RVA: 0x7FFAF2F44040
+        public void OnBecameVisible(){} // RVA: 0x7FFAF41ADAC0
+        public void OnBecameInvisible(){} // RVA: 0x7FFAF41ADCF0
         public void OnEnable(){} // RVA: 0x7FFAF41AE3D0
         public void OnDisable(){} // RVA: 0x7FFAF41AE4D0
         public void SetParent(){} // RVA: 0x7FFAF41AE640
-        // ── 11 unresolved (hash) ──
-        public void m_C6A(){} // RVA: 0x7FFAF41ACA20
-        public void m_D30(){} // RVA: 0x7FFAF41ACCC0
-        public void m_009(){} // RVA: 0x7FFAF41AD340
-        public void m_C9E(){} // RVA: 0x7FFAF41AD610
-        public void m_6B3(){} // RVA: 0x7FFAF41AD750
-        // ... 6 more unresolved methods
+        // ── Unresolved (hash) ──
+        public void m_E31(){} // RVA: 0x7FFAF41ADE30
+        public void m_925(){} // RVA: 0x7FFAF41AE1C0
+        public void m_A74(){} // RVA: 0x7FFAF41AE290
     }
 
     /// <summary>Originally: ÏÏÏÌÏÏÍÌÎÍÍÏÏÌÍÎÎÍÌÌÍÏÏ</summary>
@@ -1182,16 +1250,16 @@ namespace VRC.Physics
     {
         // ── Methods ──
         public void SetCenter(){} // RVA: 0x7FFAF368B980
+        public void GetLocalScale(){} // RVA: 0x7FFAF368BC20
+        public void SetLocalScale(){} // RVA: 0x7FFAF368BCA0
+        public void GetCenter(){} // RVA: 0x7FFAF368BF40
         public void .ctor(){} // RVA: 0x7FFAF368C480
         public void Initialize(){} // RVA: 0x7FFAF368C5E0
+        public void GetPhysicsPosition(){} // RVA: 0x7FFAF368C880
+        public void GetPhysicsRotation(){} // RVA: 0x7FFAF368CB20
+        public void CopyPhysicsTransform(){} // RVA: 0x7FFAF368CB60
         // ── Unresolved (hash) ──
-        public void m_40F(){} // RVA: 0x7FFAF368BC20
         public void m_4F1(){} // RVA: 0x7FFAF368C1E0
-        public void m_6A9(){} // RVA: 0x7FFAF368BCA0
-        public void m_372(){} // RVA: 0x7FFAF368BF40
-        public void m_E1E(){} // RVA: 0x7FFAF368C880
-        public void m_50C(){} // RVA: 0x7FFAF368CB20
-        public void m_C30(){} // RVA: 0x7FFAF368CB60
     }
 
     /// <summary>Originally: ÎÎÏÍÍÍÎÍÎÍÎÍÌÎÎÏÎÌÍÌÏÌÍ</summary>
@@ -1215,13 +1283,18 @@ namespace VRC.Physics
     {
         // ── Methods ──
         public void SetResult(){} // RVA: 0x7FFAF470A6E0
+        public void SetResult_2E0676F19157(){} // RVA: 0x7FFAF470A780
         public void OnDestroy(){} // RVA: 0x7FFAF470A7C0
         public void .ctor(){} // RVA: 0x7FFAF470A8D0
         public void Initialize(){} // RVA: 0x7FFAF470B030
-        public void get_Task(){} // RVA: 0x7FFAF470B1A0
+        public void get_Task(){} // RVA: 0x7FFAF470B070
+        public void get_Task_01868FB1F825(){} // RVA: 0x7FFAF470B100
+        public void get_Task_7FE44764F299(){} // RVA: 0x7FFAF470B1A0
         public void ConfigureTransform(){} // RVA: 0x7FFAF470B230
         public void get_ResponseModels(){} // RVA: 0x7FFAF2E08D50
         public void get_Comparer(){} // RVA: 0x7FFAF30E74D0
+        public void get_Task_2900F0EFC50C(){} // RVA: 0x7FFAF470B500
+        public void get_Task_4FADA6AC0A66(){} // RVA: 0x7FFAF470B5F0
         public void Start(){} // RVA: 0x7FFAF470B6E0
         public void get_Task_79C56DE90B39(){} // RVA: 0x7FFAF470B870
         public void get_Task_8E7F31A5481B(){} // RVA: 0x7FFAF470BD50
@@ -1232,6 +1305,7 @@ namespace VRC.Physics
         public void get_Task_6A7D64740AC4(){} // RVA: 0x7FFAF470BEB0
         public void get_Data_BC77DE74F6CA(){} // RVA: 0x7FFAF2DBB130
         public void get_Task_B52996DA9941(){} // RVA: 0x7FFAF470C390
+        public void SetResult_1B840AF9B181(){} // RVA: 0x7FFAF470D370
         public void get_Task_5D1822382783_850BE897C0E7(){} // RVA: 0x7FFAF470BE40
         public void GetChild(){} // RVA: 0x7FFAF470D450
         public void GetChild_CE848A8A188E(){} // RVA: 0x7FFAF470D670
@@ -1240,15 +1314,14 @@ namespace VRC.Physics
         public void get_Task_CE52C96B353D(){} // RVA: 0x7FFAF470DA20
         public void GetDigestSize(){} // RVA: 0x7FFAF30AAB20
         public void Awake(){} // RVA: 0x7FFAF470DBE0
+        public void SetResult_E55C33722F98(){} // RVA: 0x7FFAF470DCA0
         public void GetLocalPosition(){} // RVA: 0x7FFAF470E140
+        public void SetResult_FC39ED2A494F(){} // RVA: 0x7FFAF470E400
+        public void GetLocalPosition_35D27CA10287(){} // RVA: 0x7FFAF470E4C0
         public void SetResult_95E11DFEB896(){} // RVA: 0x7FFAF470E780
-        // ── 11 unresolved (hash) ──
-        public void m_2E0(){} // RVA: 0x7FFAF470A780
-        public void m_258(){} // RVA: 0x7FFAF470B070
-        public void m_018(){} // RVA: 0x7FFAF470B100
-        public void m_290(){} // RVA: 0x7FFAF470B500
-        public void m_4FA(){} // RVA: 0x7FFAF470B5F0
-        // ... 6 more unresolved methods
+        // ── Unresolved (hash) ──
+        public void m_3B0(){} // RVA: 0x7FFAF470B840
+        public void m_E5F(){} // RVA: 0x7FFAF470E7C0
     }
 
     /// <summary>Originally: ÎÎÏÌÏÏÌÏÌÍÌÏÎÏÏÏÏÍÍÌÌÌÍ</summary>
@@ -1296,6 +1369,7 @@ namespace VRC.Physics
         public void StartWithHighestBandwidth(){} // RVA: 0x7FFAF459ED00
         public void MoveNext(){} // RVA: 0x7FFAF459F0C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void get_Value(){} // RVA: 0x7FFAF2D8EE30
         public void StartWithHighestBandwidth_56CA4DD9867D(){} // RVA: 0x7FFAF368B570
         public void set_Value(){} // RVA: 0x7FFAF2D8EE30
         public void Equals(){} // RVA: 0x7FFAF2DF3E80
@@ -1306,13 +1380,13 @@ namespace VRC.Physics
         public void set_IsFrameAccumulated(){} // RVA: 0x7FFAF45A0B40
         public void set_IsFrameAccumulated_43698312DCC2(){} // RVA: 0x7FFAF45A0B40
         public void GetMaterial_4E333D97235A(){} // RVA: 0x7FFAF45A0B50
-        // ── 12 unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_6BB(){} // RVA: 0x7FFAF459F4A0
-        public void m_C27(){} // RVA: 0x7FFAF2D8EE30
         public void m_3D7(){} // RVA: 0x7FFAF459F620
         public void m_573(){} // RVA: 0x7FFAF459FD50
         public void m_4EE(){} // RVA: 0x7FFAF459FFE0
-        // ... 7 more unresolved methods
+        public void m_17E(){} // RVA: 0x7FFAF45A0040
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÍÌÏÌÏÍÌÏÎÎÎÎÏÏÌÏÎÍÌÎÏ</summary>
@@ -1323,13 +1397,12 @@ namespace VRC.Physics
         public void Initialize(){} // RVA: 0x7FFAF365A120
         public void GetLossyScale(){} // RVA: 0x7FFAF365A260
         public void OnDestroy(){} // RVA: 0x7FFAF365A300
+        public void SetPosition(){} // RVA: 0x7FFAF365A3F0
         public void GetAngularVelocity(){} // RVA: 0x7FFAF365A4E0
+        public void SetLocalPosition(){} // RVA: 0x7FFAF365A7A0
         public void Start(){} // RVA: 0x7FFAF365A8E0
-        // ── Unresolved (hash) ──
-        public void m_179(){} // RVA: 0x7FFAF365A3F0
-        public void m_493(){} // RVA: 0x7FFAF365A7A0
-        public void m_850(){} // RVA: 0x7FFAF365A980
-        public void m_16D(){} // RVA: 0x7FFAF365AC40
+        public void GetPosition(){} // RVA: 0x7FFAF365A980
+        public void SetTransformState(){} // RVA: 0x7FFAF365AC40
     }
 
     /// <summary>Originally: ÏÎÏÏÌÌÏÏÌÌÍÏÌÌÍÍÎÎÎÏÌÎÏ</summary>
@@ -1343,34 +1416,103 @@ namespace VRC.Physics
         public void GetUnscaledTime_8DBC289EAAE1(){} // RVA: 0x7FFAF496D5B0
         public void GetUnscaledTime_32344E565110(){} // RVA: 0x7FFAF496D650
         public void ThrowAnimatorIntMarshalException(){} // RVA: 0x7FFAF496D6F0
+        public void GetDeltaTime(){} // RVA: 0x7FFAF496D790
+        public void GetSmoothDeltaTime(){} // RVA: 0x7FFAF496D830
+        public void GetTimeScale(){} // RVA: 0x7FFAF496D8D0
+        public void set_TimeScale(){} // RVA: 0x7FFAF496D970
         public void ReadTimeProperties(){} // RVA: 0x7FFAF496D9F0
         public void ReadTimeProperties_50A9538F67D4(){} // RVA: 0x7FFAF496DA70
         public void GetFixedTime(){} // RVA: 0x7FFAF496DB00
+        public void GetFrameCount(){} // RVA: 0x7FFAF496DB90
+        public void GetRenderedFrameCount(){} // RVA: 0x7FFAF496DC20
+        public void GetCaptureDeltaTime(){} // RVA: 0x7FFAF496DCA0
+        public void set_CaptureDeltaTime(){} // RVA: 0x7FFAF496DD50
+        public void GetMaximumDeltaTime(){} // RVA: 0x7FFAF496DE00
+        public void set_MaximumDeltaTime(){} // RVA: 0x7FFAF496DE90
+        public void GetFixedUnscaledTime(){} // RVA: 0x7FFAF496DF40
+        public void GetFixedUnscaledDeltaTime(){} // RVA: 0x7FFAF496DFC0
         public void ThrowCannotMarshalUdonUIntField(){} // RVA: 0x7FFAF496E060
         public void ThrowCannotMarshalUdonDoublePointerField(){} // RVA: 0x7FFAF496E0F0
         public void ThrowCannotMarshalUdonShortField(){} // RVA: 0x7FFAF496E180
+        public void GetTimeAsDouble(){} // RVA: 0x7FFAF496E200
+        public void GetUnscaledTimeAsDouble(){} // RVA: 0x7FFAF496E280
+        public void GetRealtimeSinceStartupAsDouble(){} // RVA: 0x7FFAF496E310
+        public void GetInFixedTimeStep(){} // RVA: 0x7FFAF496E3C0
+        public void SetParentWorldPositionStays(){} // RVA: 0x7FFAF496E470
+        public void GetParent(){} // RVA: 0x7FFAF496E520
         public void Dispose(){} // RVA: 0x7FFAF496E5D0
+        public void get_parent(){} // RVA: 0x7FFAF496E680
+        public void set_parent(){} // RVA: 0x7FFAF496E710
+        public void GetRoot(){} // RVA: 0x7FFAF496E7A0
+        public void GetChild(){} // RVA: 0x7FFAF496E840
+        public void GetChildCount(){} // RVA: 0x7FFAF496E8F0
+        public void FindChild(){} // RVA: 0x7FFAF496E9A0
         public void UnregisterOption(){} // RVA: 0x7FFAF496EA30
+        public void DetachChildren(){} // RVA: 0x7FFAF496EAC0
+        public void SetAsFirstSibling(){} // RVA: 0x7FFAF496EB50
+        public void SetAsLastSibling(){} // RVA: 0x7FFAF496EBE0
+        public void SetSiblingIndex(){} // RVA: 0x7FFAF496EC70
+        public void GetSiblingIndex(){} // RVA: 0x7FFAF496ED00
+        public void IsChildOf(){} // RVA: 0x7FFAF496ED90
+        public void GetPosition(){} // RVA: 0x7FFAF496EE20
+        public void SetPosition(){} // RVA: 0x7FFAF496EEC0
+        public void GetLocalPosition(){} // RVA: 0x7FFAF496EF70
         public void GetHashCode(){} // RVA: 0x7FFAF496F000
+        public void SetLocalPosition(){} // RVA: 0x7FFAF496F0B0
         public void ReadTimeProperties_62DEC1AE98B7(){} // RVA: 0x7FFAF496F160
+        public void GetRotation(){} // RVA: 0x7FFAF496F210
         public void SetBounceCombine(){} // RVA: 0x7FFAF496F2A0
         public void GetFixedDeltaTime(){} // RVA: 0x7FFAF496F330
         public void GetBounds(){} // RVA: 0x7FFAF496F3D0
+        public void SetRotation(){} // RVA: 0x7FFAF496F460
+        public void GetLocalRotation(){} // RVA: 0x7FFAF496F4F0
         public void CompareFixed32ByteSequences(){} // RVA: 0x7FFAF496F580
         public void CompareThirtyTwoBytes(){} // RVA: 0x7FFAF496F610
         public void EqualsSigningKey(){} // RVA: 0x7FFAF496F6A0
+        public void SetLocalRotation(){} // RVA: 0x7FFAF496F730
+        public void GetEulerAngles(){} // RVA: 0x7FFAF496F7C0
+        public void SetEulerAngles(){} // RVA: 0x7FFAF496F850
+        public void GetLocalEulerAngles(){} // RVA: 0x7FFAF496F8E0
+        public void SetLocalEulerAngles(){} // RVA: 0x7FFAF496F970
+        public void GetLocalScale(){} // RVA: 0x7FFAF496FA20
+        public void SetLocalScale(){} // RVA: 0x7FFAF496FAB0
         public void AddObjectMetadataPair(){} // RVA: 0x7FFAF496FB40
+        public void GetLossyScale(){} // RVA: 0x7FFAF496FBD0
+        public void GetForward(){} // RVA: 0x7FFAF496FC60
+        public void SetForward(){} // RVA: 0x7FFAF496FCF0
         public void ReadBoolean(){} // RVA: 0x7FFAF496FD80
+        public void GetRight(){} // RVA: 0x7FFAF496FE10
+        public void GetUp(){} // RVA: 0x7FFAF496FEA0
+        public void TransformDirection(){} // RVA: 0x7FFAF496FF30
+        public void InverseTransformDirection(){} // RVA: 0x7FFAF496FFE0
+        public void TransformVector(){} // RVA: 0x7FFAF4970070
+        public void InverseTransformVector(){} // RVA: 0x7FFAF4970120
+        public void TransformPoint(){} // RVA: 0x7FFAF49701C0
+        public void InverseTransformPoint(){} // RVA: 0x7FFAF4970270
+        public void Rotate(){} // RVA: 0x7FFAF4970320
+        public void RotateAround(){} // RVA: 0x7FFAF49703B0
+        public void LookAt(){} // RVA: 0x7FFAF4970430
+        public void Translate(){} // RVA: 0x7FFAF49704C0
+        public void GetLocalToWorldMatrix(){} // RVA: 0x7FFAF4970560
+        public void GetWorldToLocalMatrix(){} // RVA: 0x7FFAF49705F0
         public void CreateRigidTransformMatrix(){} // RVA: 0x7FFAF4970690
+        public void SetPositionAndRotation(){} // RVA: 0x7FFAF4970710
         public void ThrowObjectMetadataPairMarshalException(){} // RVA: 0x7FFAF49707C0
+        public void SetLocalPositionAndRotation(){} // RVA: 0x7FFAF4970870
+        public void GetPositionAndRotation(){} // RVA: 0x7FFAF4970920
+        public void GetFixedUnscaledDeltaTime_600BE45C564B(){} // RVA: 0x7FFAF49709D0
+        public void GetLocalPositionAndRotation(){} // RVA: 0x7FFAF4970A60
         public void SetIsKinematic(){} // RVA: 0x7FFAF4970AE0
+        public void CreatePrimitiveInternal(){} // RVA: 0x7FFAF4970B90
         public void SetParent(){} // RVA: 0x7FFAF4970C40
         public void SetParent_9253447C6B37(){} // RVA: 0x7FFAF4970CE0
         public void SetParent_61686CB1ED1F(){} // RVA: 0x7FFAF4970D90
         public void ConfigureTransform(){} // RVA: 0x7FFAF4970E40
         public void GetRealtimeSinceStartup(){} // RVA: 0x7FFAF4970EE0
         public void GetRealtimeSinceStartup_8B07B2D52589(){} // RVA: 0x7FFAF4970F80
+        public void GetComponentFastPath(){} // RVA: 0x7FFAF4971020
         public void get_Value(){} // RVA: 0x7FFAF49710C0
+        public void GetComponentsInternal(){} // RVA: 0x7FFAF4971160
         public void CreatePrimitive(){} // RVA: 0x7FFAF4971210
         public void CreatePrimitive_4B7BC002B306(){} // RVA: 0x7FFAF49712C0
         public void CreatePrimitive_B31F883CF19D(){} // RVA: 0x7FFAF4971370
@@ -1379,49 +1521,146 @@ namespace VRC.Physics
         public void GetIsKinematic(){} // RVA: 0x7FFAF4971510
         public void CreatePrimitive_558EDC716332(){} // RVA: 0x7FFAF4971590
         public void CreatePrimitive_53166F81E0A4(){} // RVA: 0x7FFAF4971620
+        public void TryGetComponent(){} // RVA: 0x7FFAF49716B0
         public void ConfigureTransform_4BCFEC32B6B9(){} // RVA: 0x7FFAF4971760
+        public void GetComponentInChildren(){} // RVA: 0x7FFAF49717E0
+        public void GetComponentInParent(){} // RVA: 0x7FFAF4971890
+        public void SetActive(){} // RVA: 0x7FFAF4971940
+        public void get_activeSelf(){} // RVA: 0x7FFAF49719F0
         public void ConfigureTransform_360C63EAC636(){} // RVA: 0x7FFAF4971AA0
+        public void get_activeInHierarchy(){} // RVA: 0x7FFAF4971B50
         public void ReadByteVector(){} // RVA: 0x7FFAF4971BE0
         public void ReadByteArray(){} // RVA: 0x7FFAF4971C70
+        public void set_layer(){} // RVA: 0x7FFAF4971D20
         public void ThrowWrappedULongFieldMarshalException(){} // RVA: 0x7FFAF4971DD0
-        public void SetLocalPosition(){} // RVA: 0x7FFAF4971F20
+        public void get_layer(){} // RVA: 0x7FFAF4971E80
+        public void SetLocalPosition_8F3684A20236(){} // RVA: 0x7FFAF4971F20
         public void ThrowWrappedIntMarshalException(){} // RVA: 0x7FFAF4971FD0
         public void get_Current(){} // RVA: 0x7FFAF4972080
         public void ThrowWrappedByteMarshalException(){} // RVA: 0x7FFAF4972130
+        public void set_tag(){} // RVA: 0x7FFAF49721E0
+        public void get_tag(){} // RVA: 0x7FFAF4972290
+        public void CompareTag(){} // RVA: 0x7FFAF4972340
+        public void FindGameObjectWithTag(){} // RVA: 0x7FFAF49723F0
+        public void FindGameObjectsWithTag(){} // RVA: 0x7FFAF49724A0
+        public void DestroyObject(){} // RVA: 0x7FFAF4972550
+        public void DestroyObjectImmediate(){} // RVA: 0x7FFAF49725E0
+        public void DontDestroyOnLoad(){} // RVA: 0x7FFAF4972690
+        public void InstantiateObject(){} // RVA: 0x7FFAF4972720
+        public void SetIsKinematic_Injected(){} // RVA: 0x7FFAF49727B0
+        public void GetIsKinematic_8B71BBEC4986(){} // RVA: 0x7FFAF4972840
+        public void SetUseGravity(){} // RVA: 0x7FFAF49728D0
+        public void GetUseGravity(){} // RVA: 0x7FFAF4972960
+        public void SetVelocity(){} // RVA: 0x7FFAF49729F0
         public void InvokeTransformPhysicsCallbacks(){} // RVA: 0x7FFAF4972A80
-        public void GetDeltaTime(){} // RVA: 0x7FFAF4972BC0
+        public void GetVelocity(){} // RVA: 0x7FFAF4972B10
+        public void GetDeltaTime_D12C77AD7D4A(){} // RVA: 0x7FFAF4972BC0
         public void GetDeltaTime_26D136323BAD(){} // RVA: 0x7FFAF4972C70
-        public void SetVelocity(){} // RVA: 0x7FFAF4972D80
-        public void SetAngularVelocity(){} // RVA: 0x7FFAF4973080
+        public void SetAngularVelocity(){} // RVA: 0x7FFAF4972D00
+        public void SetVelocity_FF932E236FFE(){} // RVA: 0x7FFAF4972D80
+        public void GetAngularVelocity(){} // RVA: 0x7FFAF4972E00
+        public void SetMass(){} // RVA: 0x7FFAF4972E80
+        public void GetMass(){} // RVA: 0x7FFAF4972F00
+        public void SetDrag(){} // RVA: 0x7FFAF4972F80
+        public void GetDrag(){} // RVA: 0x7FFAF4973000
+        public void SetAngularVelocity_5097C1DEEB7B(){} // RVA: 0x7FFAF4973080
         public void UpdateTransformPose(){} // RVA: 0x7FFAF4973130
         public void UpdateTransformPose_79170CD17531(){} // RVA: 0x7FFAF49731D0
+        public void SetAngularDrag(){} // RVA: 0x7FFAF4973270
+        public void GetChild_0B04342D2825(){} // RVA: 0x7FFAF4973310
+        public void GetAngularDrag(){} // RVA: 0x7FFAF49733B0
+        public void AddForce(){} // RVA: 0x7FFAF4973450
+        public void AddRelativeForce(){} // RVA: 0x7FFAF49734F0
+        public void AddTorque(){} // RVA: 0x7FFAF49735A0
+        public void AddRelativeTorque(){} // RVA: 0x7FFAF4973640
+        public void AddForceAtPosition(){} // RVA: 0x7FFAF49736E0
+        public void MovePosition(){} // RVA: 0x7FFAF4973780
+        public void MoveRotation(){} // RVA: 0x7FFAF4973820
+        public void Sleep(){} // RVA: 0x7FFAF49738C0
+        public void WakeUp(){} // RVA: 0x7FFAF4973960
+        public void IsSleeping(){} // RVA: 0x7FFAF49739E0
+        public void ResetCenterOfMass(){} // RVA: 0x7FFAF4973A70
+        public void ResetInertiaTensor(){} // RVA: 0x7FFAF4973B00
+        public void GetCenterOfMass(){} // RVA: 0x7FFAF4973B90
+        public void SetCenterOfMass(){} // RVA: 0x7FFAF4973C20
+        public void GetWorldCenterOfMass(){} // RVA: 0x7FFAF4973CB0
+        public void GetInertiaTensor(){} // RVA: 0x7FFAF4973D40
+        public void GetDeltaTime_1720F1BF3847(){} // RVA: 0x7FFAF4973DD0
+        public void SetInertiaTensor(){} // RVA: 0x7FFAF4973E60
+        public void GetInertiaTensorRotation(){} // RVA: 0x7FFAF4973EF0
         public void InvokeTransformPhysicsCallbacks_3A45875C7651(){} // RVA: 0x7FFAF4973F70
+        public void SetInertiaTensorRotation(){} // RVA: 0x7FFAF4974020
         public void InvokeTransformPhysicsCallbacks_67DE5C4C1798(){} // RVA: 0x7FFAF49740D0
         public void InvokeTransformPhysicsCallbacks_0740D138A749(){} // RVA: 0x7FFAF4974180
+        public void GetCollisionDetectionMode(){} // RVA: 0x7FFAF4974230
+        public void SetCollisionDetectionMode(){} // RVA: 0x7FFAF49742E0
         public void InvokeTransformPhysicsCallbacks_C1E4128C0B52(){} // RVA: 0x7FFAF4974390
+        public void GetConstraints(){} // RVA: 0x7FFAF4974440
+        public void SetConstraints(){} // RVA: 0x7FFAF49744E0
+        public void GetInterpolation(){} // RVA: 0x7FFAF4974570
         public void MarshalStringAndFreeCoTaskMem(){} // RVA: 0x7FFAF4974610
+        public void SetInterpolation(){} // RVA: 0x7FFAF4974690
+        public void GetColliderBounds(){} // RVA: 0x7FFAF4974710
+        public void SetColliderEnabled(){} // RVA: 0x7FFAF4974790
         public void MarshalObjectMetadataPairToNative(){} // RVA: 0x7FFAF4974830
         public void MarshalObjectMetadataPairToNative_9A5A07C1B199(){} // RVA: 0x7FFAF49748E0
         public void ContainsTransformId(){} // RVA: 0x7FFAF4974990
+        public void GetColliderEnabled(){} // RVA: 0x7FFAF4974A40
+        public void GetAttachedRigidbody(){} // RVA: 0x7FFAF4974AD0
+        public void ClosestPoint(){} // RVA: 0x7FFAF4974B60
+        public void RaycastCollider(){} // RVA: 0x7FFAF4974BF0
+        public void PhysicsRaycast(){} // RVA: 0x7FFAF4974C80
+        public void CompareTag_ABC2DE780152(){} // RVA: 0x7FFAF4974D10
         public void SwitchFocus(){} // RVA: 0x7FFAF4974DC0
         public void MarshalCollisionRecordShapeToNative(){} // RVA: 0x7FFAF4974E70
+        public void PhysicsRaycastAll(){} // RVA: 0x7FFAF4974F00
         public void MarshalCollisionRecordShapeToNative_A30ED4DABB79(){} // RVA: 0x7FFAF4974F90
+        public void PhysicsLinecast(){} // RVA: 0x7FFAF4975040
+        public void PhysicsSphereCast(){} // RVA: 0x7FFAF49750B0
+        public void PhysicsCapsuleCast(){} // RVA: 0x7FFAF4975130
+        public void PhysicsBoxCast(){} // RVA: 0x7FFAF49751C0
+        public void PhysicsOverlapSphere(){} // RVA: 0x7FFAF4975240
+        public void PhysicsOverlapBox(){} // RVA: 0x7FFAF49752F0
+        public void PhysicsOverlapCapsule(){} // RVA: 0x7FFAF4975380
+        public void PhysicsCheckSphere(){} // RVA: 0x7FFAF4975410
         public void MarshalCollisionRecordToNative(){} // RVA: 0x7FFAF49754A0
         public void MarshalCollisionRecordFromNative(){} // RVA: 0x7FFAF4975530
+        public void PhysicsCheckBox(){} // RVA: 0x7FFAF49755C0
+        public void PhysicsCheckCapsule(){} // RVA: 0x7FFAF4975670
         public void CalculateColliderCenter(){} // RVA: 0x7FFAF4975720
         public void UnregisterOption_941B4E8AFEA7(){} // RVA: 0x7FFAF49757C0
         public void UpdateTransformPose_DA7780749A01(){} // RVA: 0x7FFAF4975870
+        public void IgnoreCollision(){} // RVA: 0x7FFAF4975910
+        public void IgnoreLayerCollision(){} // RVA: 0x7FFAF49759A0
+        public void GetIgnoreLayerCollision(){} // RVA: 0x7FFAF4975A20
         public void CalculateColliderCenter_5D6ABACB8989(){} // RVA: 0x7FFAF4975AD0
         public void GetValueOrDefault(){} // RVA: 0x7FFAF4975B80
+        public void SyncTransforms(){} // RVA: 0x7FFAF4975C10
+        public void SimulatePhysicsScene(){} // RVA: 0x7FFAF4975CC0
         public void ReadTimeProperties_001A9E00CAF4(){} // RVA: 0x7FFAF4975D70
         public void ReadTimeProperties_73D4C0D5C4D1(){} // RVA: 0x7FFAF4975E10
         public void ReadTimeProperties_112B1D29DF12(){} // RVA: 0x7FFAF4975EB0
         public void ReadTimeProperties_8EDF2286F624(){} // RVA: 0x7FFAF4975F50
+        public void GetDefaultPhysicsScene(){} // RVA: 0x7FFAF4975FF0
+        public void GetGravity(){} // RVA: 0x7FFAF4976090
+        public void SetGravity(){} // RVA: 0x7FFAF4976130
+        public void GetBounceCombine(){} // RVA: 0x7FFAF49761B0
+        public void SetFrictionCombine(){} // RVA: 0x7FFAF4976240
         public void ThrowVRCConstraintSourceMarshalException(){} // RVA: 0x7FFAF49762D0
+        public void GetStaticFriction(){} // RVA: 0x7FFAF4976360
+        public void SetStaticFriction(){} // RVA: 0x7FFAF49763E0
+        public void GetDynamicFriction(){} // RVA: 0x7FFAF4976460
         public void AddObjectMetadataPair_7690837FDF9D(){} // RVA: 0x7FFAF4976510
+        public void SetDynamicFriction(){} // RVA: 0x7FFAF49765C0
+        public void ReadBoundsCenter(){} // RVA: 0x7FFAF4976670
         public void Contains(){} // RVA: 0x7FFAF4976710
+        public void ReadBoundsExtents(){} // RVA: 0x7FFAF49767B0
+        public void ReadBoundsSize(){} // RVA: 0x7FFAF4976850
         public void GetIsKinematic_69C2C56761CE(){} // RVA: 0x7FFAF49768F0
-        public void GetVelocity(){} // RVA: 0x7FFAF4976B50
+        public void SetBoundsCenter(){} // RVA: 0x7FFAF4976990
+        public void SetBoundsExtents(){} // RVA: 0x7FFAF4976A30
+        public void EncapsulateBounds(){} // RVA: 0x7FFAF4976AC0
+        public void GetVelocity_24D867DAECBD(){} // RVA: 0x7FFAF4976B50
         public void GetVelocity_8C54F55E5600(){} // RVA: 0x7FFAF4976BE0
         public void SetVelocity_F050684D40EB(){} // RVA: 0x7FFAF4976C70
         public void SetVelocity_AC0F06C42551(){} // RVA: 0x7FFAF4976D00
@@ -1432,13 +1671,26 @@ namespace VRC.Physics
         public void SetAngularVelocity_EEAC2E343832(){} // RVA: 0x7FFAF4976FA0
         public void SetAngularVelocity_A90A72E30A39(){} // RVA: 0x7FFAF4977020
         public void SetAngularVelocity_5094EE08ABA3(){} // RVA: 0x7FFAF49770B0
+        public void ExpandBounds(){} // RVA: 0x7FFAF4977140
+        public void IntersectsBounds(){} // RVA: 0x7FFAF49771D0
         public void ContainsTransformId_BEB2C5D762D0(){} // RVA: 0x7FFAF4977260
+        public void ContainsPoint(){} // RVA: 0x7FFAF49772F0
+        public void SqrDistanceToBounds(){} // RVA: 0x7FFAF4977380
+        public void ClosestPointOnBounds(){} // RVA: 0x7FFAF4977410
+        public void GetTransformPosition(){} // RVA: 0x7FFAF49774B0
         public void SetVelocity_62E21CFAD565(){} // RVA: 0x7FFAF4977560
+        public void GetTransformRotation(){} // RVA: 0x7FFAF49775F0
+        public void GetTransformScale(){} // RVA: 0x7FFAF4977670
+        public void GetVelocity_4405BBB55D99(){} // RVA: 0x7FFAF4977700
+        public void GetParentTransform(){} // RVA: 0x7FFAF4977790
         public void MarshalCollisionRecordToNative_A2A5793A0564(){} // RVA: 0x7FFAF4977820
+        public void SetIsKinematic_Injected_38843D66D39D(){} // RVA: 0x7FFAF49778B0
         public void MarshalPInvokeBack(){} // RVA: 0x7FFAF4977940
         public void ReadTimeProperties_73D8052CDB96(){} // RVA: 0x7FFAF49779F0
         public void MarshalCollisionRecordToManaged(){} // RVA: 0x7FFAF4977AA0
         public void GetEnabled(){} // RVA: 0x7FFAF4977B50
+        public void GetChildTransform(){} // RVA: 0x7FFAF4977C00
+        public void GetRootTransform(){} // RVA: 0x7FFAF4977CB0
         public void CreateRigidTransformMatrix_B9A8A2690D0C(){} // RVA: 0x7FFAF4977D60
         public void GetEnabled_6A2589E0AE5B(){} // RVA: 0x7FFAF4977E10
         public void GetEnabled_0A90FE5E5653(){} // RVA: 0x7FFAF4977EC0
@@ -1448,97 +1700,341 @@ namespace VRC.Physics
         public void GetEnabled_92E579FEF3B0(){} // RVA: 0x7FFAF4978140
         public void GetEnabled_9398D30F32D3(){} // RVA: 0x7FFAF49781E0
         public void GetEnabled_8F98E127E9B6(){} // RVA: 0x7FFAF4978280
+        public void GetWorldMatrix(){} // RVA: 0x7FFAF4978330
+        public void GetLocalMatrix(){} // RVA: 0x7FFAF49783D0
         public void IsCollisionShapeAxisEnabled(){} // RVA: 0x7FFAF4978480
         public void Dispose_8C44E02D2CB6(){} // RVA: 0x7FFAF4978530
+        public void GetRigidTransform(){} // RVA: 0x7FFAF49785C0
+        public void GetTRSMatrix(){} // RVA: 0x7FFAF4978670
         public void OnUpdate(){} // RVA: 0x7FFAF4978720
         public void OnUpdate_FB249628ACC5(){} // RVA: 0x7FFAF49787D0
         public void GetIsKinematic_FB8D6445BF78(){} // RVA: 0x7FFAF4978870
         public void OnUpdate_475E974DC0AB(){} // RVA: 0x7FFAF4978920
         public void GetIsKinematic_B34688345805(){} // RVA: 0x7FFAF49789D0
         public void MarshalCollisionRecordToNative_946897F03597(){} // RVA: 0x7FFAF4978A80
+        public void GetQuaternion(){} // RVA: 0x7FFAF4978B30
+        public void GetForwardVector(){} // RVA: 0x7FFAF4978BE0
+        public void GetInertiaTensor_E18DCE8060A4(){} // RVA: 0x7FFAF4978C90
+        public void GetRightVector(){} // RVA: 0x7FFAF4978D40
         public void MarshalObjectMetadataPairToNative_96CED5ADFF31(){} // RVA: 0x7FFAF4978DF0
+        public void SetConstraints_7963320584A2(){} // RVA: 0x7FFAF4978EA0
+        public void GetUpVector(){} // RVA: 0x7FFAF4978F50
+        public void GetBounds_072DF038E563(){} // RVA: 0x7FFAF4978FE0
+        public void GetBoundsCenter(){} // RVA: 0x7FFAF4979070
+        public void GetBoundsExtents(){} // RVA: 0x7FFAF4979100
+        public void GetBoundsSize(){} // RVA: 0x7FFAF4979190
+        public void GetPlane(){} // RVA: 0x7FFAF4979220
+        public void GetRay(){} // RVA: 0x7FFAF49792B0
+        public void GetRaycastHit(){} // RVA: 0x7FFAF4979340
+        public void GetCollider(){} // RVA: 0x7FFAF49793D0
+        public void GetRigidbody(){} // RVA: 0x7FFAF4979460
+        public void GetRigidbodyVelocity(){} // RVA: 0x7FFAF49794F0
+        public void GetRigidbodyAngularVelocity(){} // RVA: 0x7FFAF49795A0
+        public void GetRigidbodyMass(){} // RVA: 0x7FFAF4979650
+        public void GetRigidbodyDrag(){} // RVA: 0x7FFAF49796F0
+        public void GetRigidbodyConstraints(){} // RVA: 0x7FFAF4979780
+        public void GetRigidbodyInterpolation(){} // RVA: 0x7FFAF4979810
+        public void GetRigidbodyCollisionDetectionMode(){} // RVA: 0x7FFAF49798A0
         public void GetIsKinematic_EC014D91AD01(){} // RVA: 0x7FFAF4979930
         public void GetIsKinematic_58623E7CA3EB(){} // RVA: 0x7FFAF49799D0
         public void GetIsKinematic_AB57CF828F5E(){} // RVA: 0x7FFAF4979A80
+        public void GetRigidbodySleepState(){} // RVA: 0x7FFAF4979B30
+        public void GetPhysicsScene(){} // RVA: 0x7FFAF4979BB0
+        public void GetPhysicsMaterial(){} // RVA: 0x7FFAF4979C60
+        public void GetCollisionLayerMask(){} // RVA: 0x7FFAF4979D10
+        public void GetLayerCollision(){} // RVA: 0x7FFAF4979DA0
+        public void GetTimeAsDouble_FB186D3D4CA6(){} // RVA: 0x7FFAF4979E50
+        public void GetContactPoint(){} // RVA: 0x7FFAF4979F00
+        public void GetTriggerState(){} // RVA: 0x7FFAF4979FB0
+        public void GetKinematicState(){} // RVA: 0x7FFAF497A060
+        public void SetForward_5EF13BB3138D(){} // RVA: 0x7FFAF497A110
+        public void GetGravityState(){} // RVA: 0x7FFAF497A1A0
+        public void GetVelocityVector(){} // RVA: 0x7FFAF497A230
+        public void SetAngularDrag_C41C0E2BA6FF(){} // RVA: 0x7FFAF497A2C0
+        public void GetAngularVelocityVector(){} // RVA: 0x7FFAF497A360
+        public void GetForceVector(){} // RVA: 0x7FFAF497A400
+        public void GetTorqueVector(){} // RVA: 0x7FFAF497A4A0
+        public void GetTimeValue(){} // RVA: 0x7FFAF497A550
+        public void GetFixedTime_F3C61C68BDB1(){} // RVA: 0x7FFAF497A5F0
+        public void GetRigidbodyAngularVelocity_EC718EFD95C3(){} // RVA: 0x7FFAF497A6A0
+        public void GetFixedDeltaTime_D746C13C8AA6(){} // RVA: 0x7FFAF497A750
+        public void GetUnscaledTime_08A8790696FF(){} // RVA: 0x7FFAF497A7E0
+        public void GetRealtimeSinceStartup_60E03DBD0601(){} // RVA: 0x7FFAF497A870
+        public void GetGameObject(){} // RVA: 0x7FFAF497A900
         public void GetIsKinematic_03B5883C3F5E(){} // RVA: 0x7FFAF497A990
+        public void GetPrimitive(){} // RVA: 0x7FFAF497AA20
         public void GetIsKinematic_29A0CF5A1D36(){} // RVA: 0x7FFAF497AAB0
         public void GetIsKinematic_4F1567C39067(){} // RVA: 0x7FFAF497AB40
+        public void PhysicsRaycastAll_4D7328F4FF96(){} // RVA: 0x7FFAF497ABD0
+        public void GetComponent(){} // RVA: 0x7FFAF497AC60
+        public void GetComponentList(){} // RVA: 0x7FFAF497ACE0
+        public void GetActiveState(){} // RVA: 0x7FFAF497AD60
         public void ContainsTransformId_9CB013563318(){} // RVA: 0x7FFAF497ADE0
+        public void GetLayer(){} // RVA: 0x7FFAF497AE90
+        public void GetTag(){} // RVA: 0x7FFAF497AF40
+        public void GetName(){} // RVA: 0x7FFAF497AFC0
+        public void GetInstanceId(){} // RVA: 0x7FFAF497B040
+        public void GetCachedPtr(){} // RVA: 0x7FFAF497B0C0
+        public void GetNativePtr(){} // RVA: 0x7FFAF497B140
+        public void SetBoundsExtents_66FA8C271FED(){} // RVA: 0x7FFAF497B1C0
+        public void GetUdonField(){} // RVA: 0x7FFAF497B240
+        public void GetMetadataPair(){} // RVA: 0x7FFAF497B2E0
         public void GetBounciness(){} // RVA: 0x7FFAF497B360
+        public void GetBooleanField(){} // RVA: 0x7FFAF497B3E0
+        public void GetIntField(){} // RVA: 0x7FFAF497B460
+        public void GetFloatField(){} // RVA: 0x7FFAF497B4E0
+        public void GetDoubleField(){} // RVA: 0x7FFAF497B560
+        public void GetVector2Field(){} // RVA: 0x7FFAF497B5E0
+        public void GetVector3Field(){} // RVA: 0x7FFAF497B660
+        public void GetVector4Field(){} // RVA: 0x7FFAF497B6E0
+        public void GetQuaternionField(){} // RVA: 0x7FFAF497B760
+        public void GetColorField(){} // RVA: 0x7FFAF497B800
+        public void GetStringField(){} // RVA: 0x7FFAF497B8A0
         public void ReadMaterialProperties(){} // RVA: 0x7FFAF497B920
+        public void GetObjectReference(){} // RVA: 0x7FFAF497B9A0
         public void GetIsKinematic_F13FBFA57AD8(){} // RVA: 0x7FFAF497BA20
         public void GetIsKinematic_99ABF87494E2(){} // RVA: 0x7FFAF497BAA0
         public void GetIsKinematic_4BA8B81C0F93(){} // RVA: 0x7FFAF497BB20
         public void GetIsKinematic_267444EBB8C2(){} // RVA: 0x7FFAF497BBA0
+        public void GetSerializedValue(){} // RVA: 0x7FFAF497BC20
+        public void GetByteBuffer(){} // RVA: 0x7FFAF497BCA0
+        public void GetThirtyTwoByteBuffer(){} // RVA: 0x7FFAF497BD20
         public void GetIsKinematic_03B6742D910E(){} // RVA: 0x7FFAF497BE20
+        public void GetSigningKey(){} // RVA: 0x7FFAF497BEA0
+        public void SetRotation_48656704FAE5(){} // RVA: 0x7FFAF497BF20
+        public void GetOption(){} // RVA: 0x7FFAF497BFA0
+        public void GetParent_9A78A8C3B876(){} // RVA: 0x7FFAF497C030
+        public void GetAllocatorHandle(){} // RVA: 0x7FFAF497C0C0
+        public void GetNativeArray(){} // RVA: 0x7FFAF497C150
+        public void GetTransformAccess(){} // RVA: 0x7FFAF497C1E0
         public void SetEnabled(){} // RVA: 0x7FFAF497C260
+        public void GetPhysicsQuery(){} // RVA: 0x7FFAF497C2E0
+        public void GetRaycastCommand(){} // RVA: 0x7FFAF497C360
+        public void GetContactFilter(){} // RVA: 0x7FFAF497C400
+        public void GetJoint(){} // RVA: 0x7FFAF497C480
+        public void GetJointLimits(){} // RVA: 0x7FFAF497C520
+        public void GetSpringJoint(){} // RVA: 0x7FFAF497C5C0
         public void GenerateSigningKey(){} // RVA: 0x7FFAF497C670
         public void VerifyMessage(){} // RVA: 0x7FFAF497C720
+        public void GetConfigurableJoint(){} // RVA: 0x7FFAF497C7D0
+        public void SetTransformPosition(){} // RVA: 0x7FFAF497C850
+        public void SetTransformRotation(){} // RVA: 0x7FFAF497C8F0
+        public void SetTransformScale(){} // RVA: 0x7FFAF497C9A0
+        public void GetBoundsSize_4C69D10FAE08(){} // RVA: 0x7FFAF497CA50
+        public void SetParentTransform(){} // RVA: 0x7FFAF497CB00
         public void GetIsKinematic_38A80CAA1181(){} // RVA: 0x7FFAF497CBB0
         public void GetIsKinematic_E8F0E3F28E92(){} // RVA: 0x7FFAF497CC40
         public void GetMaterial(){} // RVA: 0x7FFAF497CCC0
+        public void SetChildTransform(){} // RVA: 0x7FFAF497CD50
+        public void SetRootTransform(){} // RVA: 0x7FFAF497CDE0
+        public void GetSerializedValue_BC809789F698(){} // RVA: 0x7FFAF497CE70
+        public void SetWorldMatrix(){} // RVA: 0x7FFAF497CF00
+        public void SetLocalMatrix(){} // RVA: 0x7FFAF497CFB0
+        public void SetRigidTransform(){} // RVA: 0x7FFAF497D060
+        public void SetTRSMatrix(){} // RVA: 0x7FFAF497D100
+        public void SetQuaternion(){} // RVA: 0x7FFAF497D1A0
+        public void SetForwardVector(){} // RVA: 0x7FFAF497D250
+        public void SetRightVector(){} // RVA: 0x7FFAF497D2E0
+        public void SetUpVector(){} // RVA: 0x7FFAF497D360
+        public void SetLossyScale(){} // RVA: 0x7FFAF497D410
+        public void SetBounds(){} // RVA: 0x7FFAF497D4A0
+        public void SetBoundsSize(){} // RVA: 0x7FFAF497D530
+        public void SetPlane(){} // RVA: 0x7FFAF497D5E0
+        public void SetRay(){} // RVA: 0x7FFAF497D660
+        public void SetRaycastHit(){} // RVA: 0x7FFAF497D6E0
+        public void SetCollider(){} // RVA: 0x7FFAF497D780
+        public void SetColliderBounds(){} // RVA: 0x7FFAF497D810
+        public void SetRigidbody(){} // RVA: 0x7FFAF497D8B0
+        public void SetRigidbodyVelocity(){} // RVA: 0x7FFAF497D960
+        public void SetRigidbodyAngularVelocity(){} // RVA: 0x7FFAF497D9F0
+        public void SetRigidbodyMass(){} // RVA: 0x7FFAF497DAA0
         public void GetIsKinematic_4A8EC222E498(){} // RVA: 0x7FFAF497DB40
         public void GetIsKinematic_5D8D2613D2E9(){} // RVA: 0x7FFAF497DBE0
         public void GetIsKinematic_1E9D446C6F17(){} // RVA: 0x7FFAF497DC90
+        public void SetRigidbodyDrag(){} // RVA: 0x7FFAF497DD40
+        public void SetRigidbodyConstraints(){} // RVA: 0x7FFAF497DDF0
+        public void GetComponent_0406F1E0BD3C(){} // RVA: 0x7FFAF497DE70
+        public void SetRigidbodyInterpolation(){} // RVA: 0x7FFAF497DF20
+        public void SetRigidbodyCollisionDetectionMode(){} // RVA: 0x7FFAF497DFD0
+        public void SetRigidbodySleepState(){} // RVA: 0x7FFAF497E080
+        public void SetPhysicsScene(){} // RVA: 0x7FFAF497E130
+        public void SetPhysicsMaterial(){} // RVA: 0x7FFAF497E1E0
+        public void SetCollisionLayerMask(){} // RVA: 0x7FFAF497E290
+        public void SetLayerCollision(){} // RVA: 0x7FFAF497E330
+        public void SetContactPoint(){} // RVA: 0x7FFAF497E3D0
+        public void SetTriggerState(){} // RVA: 0x7FFAF497E460
+        public void SetKinematicState(){} // RVA: 0x7FFAF497E4F0
+        public void SetGravityState(){} // RVA: 0x7FFAF497E580
+        public void SetVelocityVector(){} // RVA: 0x7FFAF497E610
+        public void SetAngularVelocityVector(){} // RVA: 0x7FFAF497E6A0
+        public void SetForceVector(){} // RVA: 0x7FFAF497E730
+        public void SetTorqueVector(){} // RVA: 0x7FFAF497E7B0
         public void GetIsKinematic_F131809AB84A(){} // RVA: 0x7FFAF497E830
+        public void SetTimeValue(){} // RVA: 0x7FFAF497E8E0
+        public void SetDeltaTime(){} // RVA: 0x7FFAF497E990
         public void ReadMaterialProperties_B2A71E202405(){} // RVA: 0x7FFAF497EA20
         public void ReadMaterialProperties_2D1F8FBEDF7A(){} // RVA: 0x7FFAF497EAD0
         public void GetMaterial_DC5B45E9FEA5(){} // RVA: 0x7FFAF497EB60
         public void SetBounciness(){} // RVA: 0x7FFAF497EBF0
+        public void SetFixedTime(){} // RVA: 0x7FFAF497EC80
+        public void GetUseGravity_11CC8FBAE657(){} // RVA: 0x7FFAF497ED10
+        public void SetFixedDeltaTime(){} // RVA: 0x7FFAF497EDA0
+        public void SetUnscaledTime(){} // RVA: 0x7FFAF497EE30
+        public void SetRealtimeSinceStartup(){} // RVA: 0x7FFAF497EEC0
+        public void SetFrameCount(){} // RVA: 0x7FFAF497EF50
         public void GetTime_C609EB3111B4(){} // RVA: 0x7FFAF497EFE0
+        public void SetTimeScale(){} // RVA: 0x7FFAF497F090
+        public void SetMaximumDeltaTime(){} // RVA: 0x7FFAF497F140
         public void ReadMaterialProperties_1D056A3AF532(){} // RVA: 0x7FFAF497F1D0
         public void ReadTimeProperties_0016A5A13CE6(){} // RVA: 0x7FFAF497F280
+        public void SetSmoothDeltaTime(){} // RVA: 0x7FFAF497F330
+        public void SetGameObject(){} // RVA: 0x7FFAF497F3E0
+        public void SetPrimitive(){} // RVA: 0x7FFAF497F490
+        public void SetComponent(){} // RVA: 0x7FFAF497F540
+        public void SetComponentList(){} // RVA: 0x7FFAF497F5F0
+        public void SetActiveState(){} // RVA: 0x7FFAF497F6A0
         public void GetBounciness_F52451EBC638(){} // RVA: 0x7FFAF497F750
         public void ReadMaterialProperties_382F23D32AE7(){} // RVA: 0x7FFAF497F7E0
+        public void SetLayer(){} // RVA: 0x7FFAF497F870
         public void ReadMaterialProperties_D6C5E0102A3D(){} // RVA: 0x7FFAF497F900
+        public void SetTag(){} // RVA: 0x7FFAF497F9B0
         public void SetBounceCombine_511E77D35FDB(){} // RVA: 0x7FFAF497FA60
+        public void SetName(){} // RVA: 0x7FFAF497FB10
+        public void SetInstanceId(){} // RVA: 0x7FFAF497FBC0
+        public void SetCachedPtr(){} // RVA: 0x7FFAF497FC70
+        public void SetNativePtr(){} // RVA: 0x7FFAF497FD20
         public void GetTime_9C7BFDB7CF3F(){} // RVA: 0x7FFAF497FDA0
+        public void SetUdonField(){} // RVA: 0x7FFAF497FE20
+        public void SetMetadataPair(){} // RVA: 0x7FFAF497FED0
         public void ReadMaterialProperties_BFA9C6223439(){} // RVA: 0x7FFAF497FF80
+        public void SetBooleanField(){} // RVA: 0x7FFAF4980010
+        public void SetIntField(){} // RVA: 0x7FFAF49800A0
+        public void SetFloatField(){} // RVA: 0x7FFAF4980130
+        public void SetDoubleField(){} // RVA: 0x7FFAF49801C0
+        public void SetVector2Field(){} // RVA: 0x7FFAF4980250
+        public void SetVector3Field(){} // RVA: 0x7FFAF4980300
+        public void SetVector4Field(){} // RVA: 0x7FFAF49803A0
+        public void SetQuaternionField(){} // RVA: 0x7FFAF4980450
         public void GetMaterial_CE5EE902A6CD(){} // RVA: 0x7FFAF49804E0
         public void GetBounciness_F0DD9B404BF3(){} // RVA: 0x7FFAF4980560
         public void ReadMaterialProperties_09BE19E15192(){} // RVA: 0x7FFAF4980610
         public void ReadMaterialProperties_212619EB44FA(){} // RVA: 0x7FFAF4980690
         public void GetMaterial_A951B20C7F1B(){} // RVA: 0x7FFAF4980730
         public void SetBounciness_D875194AFE8E(){} // RVA: 0x7FFAF49807D0
+        public void SetColorField(){} // RVA: 0x7FFAF4980870
+        public void SetStringField(){} // RVA: 0x7FFAF4980900
+        public void SetObjectReference(){} // RVA: 0x7FFAF4980980
+        public void SetSerializedValue(){} // RVA: 0x7FFAF4980A00
+        public void SetByteBuffer(){} // RVA: 0x7FFAF4980A90
+        public void GetCaptureDeltaTime_1FCBFB3092DF(){} // RVA: 0x7FFAF4980B10
         public void GetTime_10DC993EC51F(){} // RVA: 0x7FFAF4980BA0
+        public void SetThirtyTwoByteBuffer(){} // RVA: 0x7FFAF4980C30
+        public void SetHashCode(){} // RVA: 0x7FFAF4980CC0
         public void ReadMaterialProperties_74B3F0933ECA(){} // RVA: 0x7FFAF4980D50
         public void ReadMaterialProperties_9B046523CBD1(){} // RVA: 0x7FFAF4980DE0
+        public void SetSigningKey(){} // RVA: 0x7FFAF4980E70
+        public void SetOption(){} // RVA: 0x7FFAF4980F00
         public void UpdateTransformPose_875BDD3529C0(){} // RVA: 0x7FFAF4980F90
+        public void SetAllocatorHandle(){} // RVA: 0x7FFAF4981030
+        public void SetNativeArray(){} // RVA: 0x7FFAF49810E0
+        public void SetTransformAccess(){} // RVA: 0x7FFAF4981170
+        public void SetPhysicsQuery(){} // RVA: 0x7FFAF49811F0
+        public void SetRaycastCommand(){} // RVA: 0x7FFAF4981280
         public void GetBounciness_9C2C112A084C(){} // RVA: 0x7FFAF4981310
         public void ReadMaterialProperties_D71412E9ABF8(){} // RVA: 0x7FFAF49813A0
         public void ReadMaterialProperties_22B9BE9FC936(){} // RVA: 0x7FFAF4981430
         public void GetMaterial_C8677459079C(){} // RVA: 0x7FFAF49814C0
         public void SetBounciness_2BC04EA9A89C(){} // RVA: 0x7FFAF4981570
+        public void SetContactFilter(){} // RVA: 0x7FFAF4981620
+        public void SetJoint(){} // RVA: 0x7FFAF49816D0
+        public void SetJointLimits(){} // RVA: 0x7FFAF4981780
+        public void SetSpringJoint(){} // RVA: 0x7FFAF4981830
+        public void SetConfigurableJoint(){} // RVA: 0x7FFAF49818E0
         public void GetTime_8C015D9D97BF(){} // RVA: 0x7FFAF4981980
+        public void ReadTransformPosition(){} // RVA: 0x7FFAF4981A20
+        public void ReadTransformRotation(){} // RVA: 0x7FFAF4981AC0
         public void ReadMaterialProperties_1762130979F2(){} // RVA: 0x7FFAF4981B60
+        public void ReadTransformScale(){} // RVA: 0x7FFAF4981C00
         public void GetTime_6B160F7E9CA8(){} // RVA: 0x7FFAF4981CA0
+        public void ReadLocalPosition(){} // RVA: 0x7FFAF4981D50
+        public void SetGravity_D1A843EDF94C(){} // RVA: 0x7FFAF4981DE0
+        public void ReadLocalRotation(){} // RVA: 0x7FFAF4981E90
         public void GetTime_607020DD9757(){} // RVA: 0x7FFAF4981F20
+        public void ReadLocalScale(){} // RVA: 0x7FFAF4981FD0
+        public void SetTag_65CD7CA275D9(){} // RVA: 0x7FFAF4982060
         public void GetBounciness_0464E305C25E(){} // RVA: 0x7FFAF4982110
         public void ReadMaterialProperties_2243E2B7E926(){} // RVA: 0x7FFAF49821C0
         public void ReadMaterialProperties_4F931F9A9482(){} // RVA: 0x7FFAF4982270
+        public void ReadParentTransform(){} // RVA: 0x7FFAF4982320
         public void GetMaterial_EEB9492462A4(){} // RVA: 0x7FFAF49823B0
+        public void ReadChildTransform(){} // RVA: 0x7FFAF4982440
+        public void ReadRootTransform(){} // RVA: 0x7FFAF49824D0
+        public void ReadWorldMatrix(){} // RVA: 0x7FFAF4982560
+        public void ReadLocalMatrix(){} // RVA: 0x7FFAF49825F0
+        public void ReadRigidTransform(){} // RVA: 0x7FFAF4982680
         public void GetTime_860B56CF1D2C(){} // RVA: 0x7FFAF4982730
+        public void ReadTRSMatrix(){} // RVA: 0x7FFAF49827E0
+        public void ReadQuaternion(){} // RVA: 0x7FFAF4982890
         public void ReadMaterialProperties_06A91DB08920(){} // RVA: 0x7FFAF4982940
+        public void ReadEulerAngles(){} // RVA: 0x7FFAF49829E0
         public void GetTime_9C4D8ABDA3FF(){} // RVA: 0x7FFAF4982A50
+        public void ReadForwardVector(){} // RVA: 0x7FFAF4982AF0
+        public void ReadRightVector(){} // RVA: 0x7FFAF4982B90
+        public void ReadUpVector(){} // RVA: 0x7FFAF4982C20
+        public void ClosestPoint_25EBC6C87115(){} // RVA: 0x7FFAF4982CD0
+        public void ReadLossyScale(){} // RVA: 0x7FFAF4982D80
+        public void ReadBounds(){} // RVA: 0x7FFAF4982E00
         public void GetBounciness_6BB8F7D90F01(){} // RVA: 0x7FFAF4982E80
         public void ReadMaterialProperties_EE01FF6B6CF3(){} // RVA: 0x7FFAF4982F00
         public void ReadMaterialProperties_223BE8AF4261(){} // RVA: 0x7FFAF4982FA0
         public void ReadMaterialProperties_D1F37F091603(){} // RVA: 0x7FFAF4983020
+        public void ReadPlane(){} // RVA: 0x7FFAF49830C0
         public void SetBounciness_201B02BD614B(){} // RVA: 0x7FFAF4983160
+        public void ReadRay(){} // RVA: 0x7FFAF4983210
+        public void ReadRaycastHit(){} // RVA: 0x7FFAF4983290
+        public void ReadCollider(){} // RVA: 0x7FFAF4983320
+        public void ReadColliderBounds(){} // RVA: 0x7FFAF49833D0
+        public void ReadColliderEnabled(){} // RVA: 0x7FFAF4983480
+        public void ReadRigidbody(){} // RVA: 0x7FFAF4983530
+        public void ReadTransformRotation_C00A36EA1798(){} // RVA: 0x7FFAF49835C0
+        public void ReadRigidbodyVelocity(){} // RVA: 0x7FFAF4983670
         public void ReadMaterialProperties_AD347EE83FF7(){} // RVA: 0x7FFAF4983720
+        public void ReadRigidbodyAngularVelocity(){} // RVA: 0x7FFAF49837B0
+        public void ReadBoundsCenter_04B88D965280(){} // RVA: 0x7FFAF4983840
+        public void ReadRigidbodyMass(){} // RVA: 0x7FFAF49838C0
+        public void ReadRigidbodyDrag(){} // RVA: 0x7FFAF4983950
+        public void ReadRigidbodyConstraints(){} // RVA: 0x7FFAF49839E0
+        public void ReadRigidbodyInterpolation(){} // RVA: 0x7FFAF4983A90
+        public void ReadRigidbodyCollisionDetectionMode(){} // RVA: 0x7FFAF4983B20
+        public void ReadRigidbodySleepState(){} // RVA: 0x7FFAF4983BB0
         public void GetBounciness_AA8432C7E494(){} // RVA: 0x7FFAF4983C40
+        public void ReadPhysicsScene(){} // RVA: 0x7FFAF4983CD0
         public void ReadMaterialProperties_D7A3FAC57444(){} // RVA: 0x7FFAF4983D60
         public void ReadMaterialProperties_DD2BB3BC30F9(){} // RVA: 0x7FFAF4983DF0
         public void GetMaterial_63770B60F49F(){} // RVA: 0x7FFAF4983E80
+        public void ReadPhysicsMaterial(){} // RVA: 0x7FFAF4983F10
+        public void SetRigidTransform_5D4D75CF777E(){} // RVA: 0x7FFAF4983FA0
+        public void ReadCollisionLayerMask(){} // RVA: 0x7FFAF4984030
+        public void ReadLayerCollision(){} // RVA: 0x7FFAF49840C0
+        public void ReadContactPoint(){} // RVA: 0x7FFAF4984170
+        public void ReadTriggerState(){} // RVA: 0x7FFAF4984220
         public void GetTime_76BC77D46495(){} // RVA: 0x7FFAF49842D0
+        public void ReadKinematicState(){} // RVA: 0x7FFAF4984380
+        public void ReadGravityState(){} // RVA: 0x7FFAF4984400
         public void ReadMaterialProperties_BBBD37B4413C(){} // RVA: 0x7FFAF49844A0
-        // ── 401 unresolved (hash) ──
-        public void m_172(){} // RVA: 0x7FFAF4973DD0
-        public void m_E93(){} // RVA: 0x7FFAF496D830
-        public void m_729(){} // RVA: 0x7FFAF496D8D0
-        public void m_01A(){} // RVA: 0x7FFAF496D970
-        public void m_106(){} // RVA: 0x7FFAF496DB90
-        // ... 396 more unresolved methods
+        public void ReadVelocityVector(){} // RVA: 0x7FFAF4984540
+        public void ReadAngularVelocityVector(){} // RVA: 0x7FFAF49845E0
+        public void ReadForceVector(){} // RVA: 0x7FFAF4984680
+        public void ReadTorqueVector(){} // RVA: 0x7FFAF4984720
+        public void set_parent_B288F6CBB935(){} // RVA: 0x7FFAF49847C0
+        public void ReadCenterOfMass(){} // RVA: 0x7FFAF4984840
+        public void ReadInertiaTensor(){} // RVA: 0x7FFAF49848D0
+        public void ReadTimeValue(){} // RVA: 0x7FFAF4984960
+        public void ReadDeltaTime(){} // RVA: 0x7FFAF4984A10
+        public void ReadFixedTime(){} // RVA: 0x7FFAF4984AC0
+        public void ReadFixedDeltaTime(){} // RVA: 0x7FFAF4984B70
+        // ── Unresolved (hash) ──
+        public void m_1F4(){} // RVA: 0x7FFAF497BDA0
     }
 
     /// <summary>Originally: ÎÌÍÌÌÍÏÌÏÌÍÏÏÍÍÌÏÍÎÌÎÏÎ</summary>

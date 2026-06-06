@@ -23,17 +23,16 @@ namespace VRC.Rendering
     public class ImageRenderStaticMethods_7AB9
     {
         // ── Methods ──
+        public void RenderSourceImage(){} // RVA: 0x7FFAF35393D0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF35395D0
+        public void RenderDepthImage(){} // RVA: 0x7FFAF3539740
+        public void RenderNormalImage(){} // RVA: 0x7FFAF35398A0
+        public void RenderColorImage(){} // RVA: 0x7FFAF3539AB0
         public void Start(){} // RVA: 0x7FFAF3539B50
         public void OnRenderImage(){} // RVA: 0x7FFAF3539CB0
-        // ── Unresolved (hash) ──
-        public void m_D80(){} // RVA: 0x7FFAF35393D0
-        public void m_C30(){} // RVA: 0x7FFAF3539740
-        public void m_CE6(){} // RVA: 0x7FFAF35398A0
-        public void m_652(){} // RVA: 0x7FFAF3539AB0
-        public void m_B93(){} // RVA: 0x7FFAF3539D50
-        public void m_ED7(){} // RVA: 0x7FFAF3539F60
+        public void RenderResultImage(){} // RVA: 0x7FFAF3539D50
+        public void CopyRenderImageState(){} // RVA: 0x7FFAF3539F60
     }
 
     /// <summary>Originally: ÏÏÏÏÍÌÌÏÏÏÏÌÎÎÍÌÏÍÏÏÌÌÍ</summary>
@@ -44,12 +43,11 @@ namespace VRC.Rendering
         public void EnsureCapacity(){} // RVA: 0x7FFAF32D78F0
         public void Insert(){} // RVA: 0x7FFAF32D7E00
         public void EnsureCapacity_BD63C6093A4E(){} // RVA: 0x7FFAF32D8300
+        public void GetRenderImageCommand(){} // RVA: 0x7FFAF32D8800
+        public void InitializeRenderImageCommand(){} // RVA: 0x7FFAF32D8D00
         public void OnRenderImage(){} // RVA: 0x7FFAF32D91F0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF32D96F0
-        // ── Unresolved (hash) ──
-        public void m_BA4(){} // RVA: 0x7FFAF32D8800
-        public void m_652(){} // RVA: 0x7FFAF32D8D00
     }
 
     /// <summary>Originally: ÏÏÌÍÌÍÌÎÎÎÌÌÍÌÎÎÍÎÎÍÎÍÍ</summary>

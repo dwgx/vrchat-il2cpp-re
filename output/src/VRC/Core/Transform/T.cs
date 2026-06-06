@@ -9,17 +9,16 @@ namespace VRC.Core.Transform
     public class TimeTransformHandler_E6AD
     {
         // ── Methods ──
+        public void WriteDeltaTimeKey(){} // RVA: 0x7FFAF375D140
         public void GetDeltaTime(){} // RVA: 0x7FFAF375D220
+        public void WriteTimestampKey(){} // RVA: 0x7FFAF375D550
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF375D630
+        public void WriteVector3Key(){} // RVA: 0x7FFAF375D960
         public void GetKeys(){} // RVA: 0x7FFAF375DC90
-        // ── Unresolved (hash) ──
-        public void m_1D8(){} // RVA: 0x7FFAF375D140
-        public void m_41A(){} // RVA: 0x7FFAF375D550
-        public void m_EDC(){} // RVA: 0x7FFAF375D960
-        public void m_433(){} // RVA: 0x7FFAF375DD70
-        public void m_E7B(){} // RVA: 0x7FFAF375E0A0
-        public void m_7CC(){} // RVA: 0x7FFAF375E180
+        public void WriteIntegerKey(){} // RVA: 0x7FFAF375DD70
+        public void WriteTransformKeyFrame(){} // RVA: 0x7FFAF375E0A0
+        public void WriteTransformKeyFrame_7CC955588612(){} // RVA: 0x7FFAF375E180
     }
 
     /// <summary>Originally: ÍÌÎÍÍÌÍÌÍÎÍÍÍÌÍÏÍÏÎÎÍÏÍ</summary>
@@ -91,17 +90,17 @@ namespace VRC.Core.Transform
     public class TransformComponentHandler_037C
     {
         // ── Methods ──
+        public void FillArraySegment(){} // RVA: 0x7FFAF43F4050
         public void IndexOf(){} // RVA: 0x7FFAF43F4250
-        public void set_Item(){} // RVA: 0x7FFAF43F4C50
+        public void FillArraySegment_376112CED4B3(){} // RVA: 0x7FFAF43F4650
+        public void set_Item(){} // RVA: 0x7FFAF43F4A50
+        public void set_Item_883C5B7A6F7A(){} // RVA: 0x7FFAF43F4C50
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF43F4E50
-        public void FillArraySegment(){} // RVA: 0x7FFAF43F5050
+        public void FillArraySegment_BE1DF9A237F2(){} // RVA: 0x7FFAF43F5050
         // ── Unresolved (hash) ──
-        public void m_870(){} // RVA: 0x7FFAF43F4050
         public void m_B71(){} // RVA: 0x7FFAF43F4450
-        public void m_376(){} // RVA: 0x7FFAF43F4650
         public void m_B9B(){} // RVA: 0x7FFAF43F4850
-        public void m_6C1(){} // RVA: 0x7FFAF43F4A50
     }
 
     /// <summary>Originally: ÍÌÏÏÎÌÌÏÍÏÏÍÍÍÍÏÏÎÏÎÏÎÎ</summary>
@@ -120,6 +119,7 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x7FFAF435D8A0
         public void FixedUpdate(){} // RVA: 0x7FFAF435D990
+        public void UpdateTransformState(){} // RVA: 0x7FFAF435DC20
         public void LateUpdate(){} // RVA: 0x7FFAF435D8A0
         public void OnDisable(){} // RVA: 0x7FFAF435E0A0
         public void OnDestroy(){} // RVA: 0x7FFAF2D8D310
@@ -130,8 +130,6 @@ namespace VRC.Core.Transform
         public void OnCollisionEnter(){} // RVA: 0x7FFAF435F3B0
         public void OnCollisionStay(){} // RVA: 0x7FFAF435D8A0
         public void OnCollisionExit(){} // RVA: 0x7FFAF435FD80
-        // ── Unresolved (hash) ──
-        public void m_E31(){} // RVA: 0x7FFAF435DC20
     }
 
     /// <summary>Originally: ÍÍÌÌÏÏÍÍÎÌÍÍÌÌÎÎÌÏÍÌÏÌÌ</summary>
@@ -404,17 +402,16 @@ namespace VRC.Core.Transform
     {
         // ── Methods ──
         public void Position(){} // RVA: 0x7FFAF3673C80
+        public void PositionToString(){} // RVA: 0x7FFAF3673D30
+        public void PositionToString_742866074C24(){} // RVA: 0x7FFAF3673DE0
+        public void PositionGetHashCode(){} // RVA: 0x7FFAF3674110
+        public void RotationToString(){} // RVA: 0x7FFAF36741C0
+        public void RotationToString_46F4D48CD4FC(){} // RVA: 0x7FFAF3674270
         public void Rotation(){} // RVA: 0x7FFAF3674590
         public void Scale(){} // RVA: 0x7FFAF36748C0
+        public void ScaleGetHashCode(){} // RVA: 0x7FFAF3674BF0
+        public void ScaleToString(){} // RVA: 0x7FFAF3674F20
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_797(){} // RVA: 0x7FFAF3673D30
-        public void m_742(){} // RVA: 0x7FFAF3673DE0
-        public void m_370(){} // RVA: 0x7FFAF3674110
-        public void m_C45(){} // RVA: 0x7FFAF36741C0
-        public void m_46F(){} // RVA: 0x7FFAF3674270
-        public void m_1C8(){} // RVA: 0x7FFAF3674BF0
-        public void m_54E(){} // RVA: 0x7FFAF3674F20
     }
 
     /// <summary>Originally: ÌÍÍÎÍÎÌÌÏÎÏÌÎÎÌÎÌÏÌÍÏÎÌ</summary>
@@ -490,27 +487,31 @@ namespace VRC.Core.Transform
     public class TransformComponentHandler_FABB
     {
         // ── Methods ──
+        public void ComparePositionState(){} // RVA: 0x7FFAF35E9DF0
+        public void CompareRotationState(){} // RVA: 0x7FFAF35E9E30
+        public void CompareScaleState(){} // RVA: 0x7FFAF35E9EC0
+        public void CompareActiveState(){} // RVA: 0x7FFAF35E9F00
+        public void CompareParentState(){} // RVA: 0x7FFAF35E9FC0
+        public void CompareLocalPositionState(){} // RVA: 0x7FFAF35EA000
+        public void CompareLocalRotationState(){} // RVA: 0x7FFAF35EA040
+        public void CompareScaleState_2EECB9284D7A(){} // RVA: 0x7FFAF35E9EC0
+        public void CompareTransformState(){} // RVA: 0x7FFAF35EA080
+        public void CompareReferenceState(){} // RVA: 0x7FFAF35EA0C0
         public void CompareTransformReferenceState(){} // RVA: 0x7FFAF35EA100
         public void CompareTransformReferenceState_CD570A8D6B8C(){} // RVA: 0x7FFAF35EA190
         public void CompareTransformReferenceState_EA807D010B82(){} // RVA: 0x7FFAF35EA1D0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_C4A(){} // RVA: 0x7FFAF35E9DF0
-        public void m_7C5(){} // RVA: 0x7FFAF35E9E30
-        public void m_5ED(){} // RVA: 0x7FFAF35E9EC0
-        public void m_B17(){} // RVA: 0x7FFAF35E9F00
-        public void m_579(){} // RVA: 0x7FFAF35E9FC0
-        public void m_9BB(){} // RVA: 0x7FFAF35EA000
-        public void m_333(){} // RVA: 0x7FFAF35EA040
-        public void m_2EE(){} // RVA: 0x7FFAF35E9EC0
-        public void m_585(){} // RVA: 0x7FFAF35EA080
-        public void m_8A0(){} // RVA: 0x7FFAF35EA0C0
     }
 
     /// <summary>Originally: ÍÍÍÌÌÎÍÎÌÏÎÍÎÎÏÌÎÏÍÌÏÎÍ</summary>
     public class TransformFindPathComponent_6759
     {
         // ── Methods ──
+        public void FindTransformPath(){} // RVA: 0x7FFAFBD35600
+        public void ResolveTransformPath(){} // RVA: 0x7FFAFBD356F0
+        public void GetTransformPath(){} // RVA: 0x7FFAFBD357E0
+        public void CacheTransformPath(){} // RVA: 0x7FFAFBD35A00
+        public void ApplyTransformPath(){} // RVA: 0x7FFAFBD35C20
         public void Awake(){} // RVA: 0x7FFAFBD35D10
         public void OnEnable(){} // RVA: 0x7FFAFBD35FB0
         public void Start(){} // RVA: 0x7FFAFBD362C0
@@ -523,11 +524,6 @@ namespace VRC.Core.Transform
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFBD37740
         // ── Unresolved (hash) ──
-        public void m_866(){} // RVA: 0x7FFAFBD35600
-        public void m_341(){} // RVA: 0x7FFAFBD356F0
-        public void m_41F(){} // RVA: 0x7FFAFBD357E0
-        public void m_FAC(){} // RVA: 0x7FFAFBD35A00
-        public void m_26A(){} // RVA: 0x7FFAFBD35C20
         public void m_F74(){} // RVA: 0x7FFAFBD36970
         public void m_86C(){} // RVA: 0x7FFAFBD36E30
     }
@@ -536,16 +532,15 @@ namespace VRC.Core.Transform
     public class TransformGameObjectHandler_12E3
     {
         // ── Methods ──
+        public void GetOrCreateTransformAccessHandle(){} // RVA: 0x7FFAF389DDE0
+        public void ReleaseTransformAccessHandle(){} // RVA: 0x7FFAF389DF10
         public void GetTransformAccessHandle(){} // RVA: 0x7FFAF389E040
         public void GetChildCount(){} // RVA: 0x7FFAF389E170
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF389E2A0
+        public void ValidateTransformAccessHandle(){} // RVA: 0x7FFAF389E3D0
+        public void EqualsTransformAccessHandle(){} // RVA: 0x7FFAF389E500
         public void CloneMeshWithTransform(){} // RVA: 0x7FFAF389E630
-        // ── Unresolved (hash) ──
-        public void m_805(){} // RVA: 0x7FFAF389DDE0
-        public void m_6DD(){} // RVA: 0x7FFAF389DF10
-        public void m_D4C(){} // RVA: 0x7FFAF389E3D0
-        public void m_6D9(){} // RVA: 0x7FFAF389E500
     }
 
     /// <summary>Originally: ÌÎÏÎÍÍÏÏÍÍÍÏÌÏÍÌÍÍÏÌÎÍÍ</summary>
@@ -560,12 +555,18 @@ namespace VRC.Core.Transform
     {
         // ── Methods ──
         public void DispatchFloatingPointException(){} // RVA: 0x7FFAF3B15A70
+        public void InitializeLocaleCurrencyData(){} // RVA: 0x7FFAF3B15F50
+        public void InitializeLocaleCurrencyData_55630497591C(){} // RVA: 0x7FFAF3B16340
+        public void InitializeLocaleTimeData(){} // RVA: 0x7FFAF3B16820
+        public void InitializeLocaleTimeData_5046A2654ADC(){} // RVA: 0x7FFAF3B16AB0
         public void GetLocalScale(){} // RVA: 0x7FFAF3B16F90
+        public void GetLocaleInfoCache(){} // RVA: 0x7FFAF3B17470
         public void InitializeCodePageCTypeTables(){} // RVA: 0x7FFAF3B17950
         public void InitializeCodePageCTypeData(){} // RVA: 0x7FFAF3B17E30
         public void OnDestroy(){} // RVA: 0x7FFAF3B18310
+        public void ValidateLocaleName(){} // RVA: 0x7FFAF3B18380
         public void ResolveLocaleCodePage(){} // RVA: 0x7FFAF3B18860
-        public void ValidateLocaleName(){} // RVA: 0x7FFAF3B18D40
+        public void ValidateLocaleName_77C52FB5A315(){} // RVA: 0x7FFAF3B18D40
         public void GetLocalScale_770CAFBEC667(){} // RVA: 0x7FFAF3B19220
         public void GetBounds(){} // RVA: 0x7FFAF3B19320
         public void OnDestroy_75FFAA0A4D53(){} // RVA: 0x7FFAF3B18310
@@ -580,6 +581,7 @@ namespace VRC.Core.Transform
         public void CompareIgnoreCaseOrdinal(){} // RVA: 0x7FFAF3B1B370
         public void Start(){} // RVA: 0x7FFAF3B1B9D0
         public void Mbrtoc32(){} // RVA: 0x7FFAF3B1B9E0
+        public void ClassifyFloatingPointValue(){} // RVA: 0x7FFAF3B1BEC0
         public void .ctor(){} // RVA: 0x7FFAF3B1C3A0
         public void Initialize(){} // RVA: 0x7FFAF3B1C570
         public void ConvertIntegerToWideString(){} // RVA: 0x7FFAF3B1CA50
@@ -592,17 +594,9 @@ namespace VRC.Core.Transform
         public void Atan(){} // RVA: 0x7FFAF3B1E6D0
         public void Atan2(){} // RVA: 0x7FFAF3B1EBB0
         public void Atan2_C52ADA376808(){} // RVA: 0x7FFAF3B1EFA0
+        public void Cos(){} // RVA: 0x7FFAF3B1F480
+        public void Cos_949A60624BF4(){} // RVA: 0x7FFAF3B1F960
         public void Cosf(){} // RVA: 0x7FFAF3B1FE40
-        // ── Unresolved (hash) ──
-        public void m_B17(){} // RVA: 0x7FFAF3B15F50
-        public void m_556(){} // RVA: 0x7FFAF3B16340
-        public void m_AB6(){} // RVA: 0x7FFAF3B16820
-        public void m_504(){} // RVA: 0x7FFAF3B16AB0
-        public void m_2CF(){} // RVA: 0x7FFAF3B17470
-        public void m_3D1(){} // RVA: 0x7FFAF3B18380
-        public void m_0F6(){} // RVA: 0x7FFAF3B1BEC0
-        public void m_395(){} // RVA: 0x7FFAF3B1F480
-        public void m_949(){} // RVA: 0x7FFAF3B1F960
     }
 
     /// <summary>Originally: ÌÍÏÎÌÎÌÎÏÌÏÌÏÍÏÎÌÍÎÏÍÎÍ</summary>
@@ -639,6 +633,7 @@ namespace VRC.Core.Transform
     public class TransformGameObjectHandler_C5BE
     {
         // ── Methods ──
+        public void get_Value(){} // RVA: 0x7FFAF2DBB0C0
         public void CreatePrimitive(){} // RVA: 0x7FFAF4825D90
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2D8EE90
         public void set_Value(){} // RVA: 0x7FFAF2D8EE30
@@ -665,8 +660,6 @@ namespace VRC.Core.Transform
         public void SetLocalRotation(){} // RVA: 0x7FFAF2DF3E80
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void set_Bitrate(){} // RVA: 0x7FFAF3A8D6E0
-        // ── Unresolved (hash) ──
-        public void m_E06(){} // RVA: 0x7FFAF2DBB0C0
     }
 
     /// <summary>Originally: ÌÍÌÍÌÌÎÍÏÌÎÏÍÎÏÎÎÍÎÍÍÏÎ</summary>
@@ -718,25 +711,34 @@ namespace VRC.Core.Transform
     public class TransformHandler_0E1C
     {
         // ── Methods ──
+        public void CreateMoveNextRunner(){} // RVA: 0x7FFAF46122E0
         public void get_MoveNext(){} // RVA: 0x7FFAF2F476A0
+        public void StartMoveNextRunner(){} // RVA: 0x7FFAF4612310
         public void StringType(){} // RVA: 0x7FFAF2E2E0E0
+        public void StartMoveNextRunner_FAFEAB352B4C(){} // RVA: 0x7FFAF4612320
         public void StringType_292C7875A98E(){} // RVA: 0x7FFAF2E2E0E0
+        public void CreateMoveNextContext(){} // RVA: 0x7FFAF46124B0
         public void Awake(){} // RVA: 0x7FFAF4612600
         public void Start(){} // RVA: 0x7FFAF46126C0
+        public void StartMoveNextRunner_981B54D8E953(){} // RVA: 0x7FFAF4612820
         public void StringType_8CF74FA9A5C6(){} // RVA: 0x7FFAF2E2E0E0
         public void Update(){} // RVA: 0x7FFAF4612880
+        public void CreateMoveNextContext_A413F1627161(){} // RVA: 0x7FFAF4612940
         public void get_MoveNext_3CA55CC131F2(){} // RVA: 0x7FFAF2E0A740
         public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x7FFAF2E08730
+        public void AddFromToForce(){} // RVA: 0x7FFAF4612BD0
+        public void AddFromToForce_71BE4BD6D2B6(){} // RVA: 0x7FFAF4612BE0
         public void AddFromToForce_58CEA1EB071C_07FDA3448F57(){} // RVA: 0x7FFAF2E08730
+        public void StartMoveNextRunner_2C54DDFED17E(){} // RVA: 0x7FFAF46122E0
+        public void AddFromToForce_6F5F1BFA4741(){} // RVA: 0x7FFAF4613020
         public void .ctor(){} // RVA: 0x7FFAF46130E0
         public void Initialize(){} // RVA: 0x7FFAF4613400
-        // ── 15 unresolved (hash) ──
-        public void m_850(){} // RVA: 0x7FFAF46122E0
-        public void m_1CD(){} // RVA: 0x7FFAF4612310
-        public void m_FAF(){} // RVA: 0x7FFAF4612320
-        public void m_414(){} // RVA: 0x7FFAF46124B0
-        public void m_981(){} // RVA: 0x7FFAF4612820
-        // ... 10 more unresolved methods
+        public void AddFromToForce_FC39ED2A494F(){} // RVA: 0x7FFAF4613530
+        public void UpdateTransformState(){} // RVA: 0x7FFAF46122E0
+        // ── Unresolved (hash) ──
+        public void m_706(){} // RVA: 0x7FFAF46122E0
+        public void m_1B8(){} // RVA: 0x7FFAF4612AA0
+        public void m_FBB(){} // RVA: 0x7FFAF46135F0
     }
 
     /// <summary>Originally: ÍÎÎÍÍÌÎÎÍÌÌÏÍÎÏÏÏÌÍÎÌÌÌ</summary>
@@ -766,17 +768,16 @@ namespace VRC.Core.Transform
     public class TransformHandler_297B
     {
         // ── Methods ──
+        public void DeserializeTransformUpdate(){} // RVA: 0x7FFAF3E436F0
+        public void DeserializeTransformPosition(){} // RVA: 0x7FFAF3E43A70
+        public void DeserializeTransformRotation(){} // RVA: 0x7FFAF3E43DF0
+        public void DeserializeTransformScale(){} // RVA: 0x7FFAF3E44170
+        public void ApplyTransformUpdate(){} // RVA: 0x7FFAF3E444F0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3E44870
         public void SetParent(){} // RVA: 0x7FFAF3E44BF0
-        // ── Unresolved (hash) ──
-        public void m_349(){} // RVA: 0x7FFAF3E436F0
-        public void m_078(){} // RVA: 0x7FFAF3E43A70
-        public void m_A21(){} // RVA: 0x7FFAF3E43DF0
-        public void m_DEA(){} // RVA: 0x7FFAF3E44170
-        public void m_100(){} // RVA: 0x7FFAF3E444F0
-        public void m_D7A(){} // RVA: 0x7FFAF3E44F70
-        public void m_813(){} // RVA: 0x7FFAF3E452F0
+        public void SetLocalPosition(){} // RVA: 0x7FFAF3E44F70
+        public void SetLocalRotation(){} // RVA: 0x7FFAF3E452F0
     }
 
     /// <summary>Originally: ÌÌÍÌÌÎÍÏÎÎÎÌÌÌÏÍÏÎÏÍÎÍÏ</summary>
@@ -790,14 +791,13 @@ namespace VRC.Core.Transform
         public void TryGetTransformedValue_39AC4D045342(){} // RVA: 0x7FFAF446BC60
         public void TryGetTransformedValue_3CB451386F3C(){} // RVA: 0x7FFAF446BD00
         public void TryGetTransformedValue_0724C0C9E462(){} // RVA: 0x7FFAF446BD10
+        public void TryGetTransformedValue_1EBDD79A1C6C(){} // RVA: 0x7FFAF446BDB0
         public void Start(){} // RVA: 0x7FFAF446BF40
         public void TryGetTransformedValue_FCAB4ACF2427(){} // RVA: 0x7FFAF446BF50
         public void TryGetTransformedValue_4FDDD457E8C7(){} // RVA: 0x7FFAF446BFF0
+        public void TransformValue(){} // RVA: 0x7FFAF446C1F0
+        public void ClearTransformCache(){} // RVA: 0x7FFAF446C380
         public void TryGetTransformedValue_3CB451386F3C_CA72A33FA256(){} // RVA: 0x7FFAF446BD00
-        // ── Unresolved (hash) ──
-        public void m_1EB(){} // RVA: 0x7FFAF446BDB0
-        public void m_7D1(){} // RVA: 0x7FFAF446C1F0
-        public void m_DF9(){} // RVA: 0x7FFAF446C380
     }
 
     /// <summary>Originally: ÌÏÌÍÌÍÏÍÍÏÍÌÌÎÍÌÎÎÍÎÍÎÍ</summary>
@@ -829,15 +829,14 @@ namespace VRC.Core.Transform
     {
         // ── Methods ──
         public void Close(){} // RVA: 0x7FFAF3459580
+        public void GetTypeDefinitionFromMetadataToken(){} // RVA: 0x7FFAF3A891A0
+        public void InitializeTypeMetadataCache(){} // RVA: 0x7FFAF3A89610
+        public void InitializeTypeMetadataCache_E5CD30C0A7FE(){} // RVA: 0x7FFAF3A89A80
         public void GetLocalScale(){} // RVA: 0x7FFAF3459580
+        public void GetLocalScale_Injected(){} // RVA: 0x7FFAF3A791B0
         public void GetLocalScale_201FFC34214C(){} // RVA: 0x7FFAF3A89EF0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3A8A360
-        // ── Unresolved (hash) ──
-        public void m_A02(){} // RVA: 0x7FFAF3A891A0
-        public void m_CA4(){} // RVA: 0x7FFAF3A89610
-        public void m_E5C(){} // RVA: 0x7FFAF3A89A80
-        public void m_028(){} // RVA: 0x7FFAF3A791B0
     }
 
     /// <summary>Originally: ÍÌÎÍÏÏÎÏÌÍÌÎÎÍÌÍÏÏÌÏÍÏÏ</summary>
@@ -860,15 +859,15 @@ namespace VRC.Core.Transform
     public class TransformHandler_5CDB
     {
         // ── Methods ──
+        public void GetLocalRotation(){} // RVA: 0x7FFAF48A6110
         public void MarshalToNative(){} // RVA: 0x7FFAF48A63E0
         public void MarshalToNative_652DACFD2BD6(){} // RVA: 0x7FFAF48A64D0
         public void MarshalFromNative(){} // RVA: 0x7FFAF48A65C0
         public void MarshalFromNative_952C6B5208A4(){} // RVA: 0x7FFAF48A66B0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF48A67A0
-        public void GetLocalRotation(){} // RVA: 0x7FFAF48A6890
+        public void GetLocalRotation_5054359D945B(){} // RVA: 0x7FFAF48A6890
         // ── Unresolved (hash) ──
-        public void m_810(){} // RVA: 0x7FFAF48A6110
         public void m_AA9(){} // RVA: 0x7FFAF48A6200
         public void m_AC9(){} // RVA: 0x7FFAF48A62F0
     }
@@ -877,14 +876,13 @@ namespace VRC.Core.Transform
     public class TransformHandler_5D98
     {
         // ── Methods ──
+        public void GetChild(){} // RVA: 0x7FFAF37711D0
+        public void GetParent(){} // RVA: 0x7FFAF37715B0
+        public void SetParent(){} // RVA: 0x7FFAF3771990
+        public void GetSiblingIndex(){} // RVA: 0x7FFAF3771D70
         public void GetChildCount(){} // RVA: 0x7FFAF3772150
+        public void SetSiblingIndex(){} // RVA: 0x7FFAF3772530
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_544(){} // RVA: 0x7FFAF37711D0
-        public void m_68D(){} // RVA: 0x7FFAF37715B0
-        public void m_998(){} // RVA: 0x7FFAF3771990
-        public void m_CD5(){} // RVA: 0x7FFAF3771D70
-        public void m_E78(){} // RVA: 0x7FFAF3772530
     }
 
     /// <summary>Originally: ÌÍÎÍÏÌÏÌÏÌÏÍÌÍÏÌÎÏÏÍÏÏÏ</summary>
@@ -961,35 +959,34 @@ namespace VRC.Core.Transform
         public void Equals(){} // RVA: 0x7FFAF79747D0
         public void <Send>b__0(){} // RVA: 0x7FFAF60A5430
         public void get_Item(){} // RVA: 0x7FFAF79779D0
+        public void TryCopyTo(){} // RVA: 0x7FFAF7977AA0
+        public void TryCopyTo_C7FFAA4DBEEE(){} // RVA: 0x7FFAF7977E00
         public void ThrowColliderToRemoveDataCompMarshalException(){} // RVA: 0x7FFAF7977EB0
         public void ThrowColliderToRemoveDataCompMarshalException_68277EBD9C98(){} // RVA: 0x7FFAF7977EB0
         public void HasReaders(){} // RVA: 0x7FFAF7974C10
         public void SetOverlayName(){} // RVA: 0x7FFAF7978010
-        public void SwitchFocus(){} // RVA: 0x7FFAF7974D70
+        public void SwitchFocus(){} // RVA: 0x7FFAF7978040
+        public void SwitchFocus_C4C75CD70BD4(){} // RVA: 0x7FFAF7974D70
         public void SwitchFocus_4FD6FFC480E4(){} // RVA: 0x7FFAF7974D80
         public void SwitchFocus_33CE5C7F1819(){} // RVA: 0x7FFAF7974DB0
         public void BrotliEncoderIsFinished_04EF656D5A4F_04EF656D5A4F(){} // RVA: 0x7FFAF7975180 | overloaded x2
         public void SwitchFocus_FD25BF21A042(){} // RVA: 0x7FFAF7974D70
-        public void TryCopyTo(){} // RVA: 0x7FFAF7978350
+        public void TryCopyTo_727DB55CB25B(){} // RVA: 0x7FFAF7978350
         public void SetOverlayName_0BBE9D0C6153(){} // RVA: 0x7FFAF7974C40
         public void <Send>b__0_506331BFB6DE(){} // RVA: 0x7FFAF60A5430
         public void <Send>b__0_B049A4C4F575(){} // RVA: 0x7FFAF375F770
         public void InteractSibling(){} // RVA: 0x7FFAF7975060
         public void SetOverlayName_C719277A55C5(){} // RVA: 0x7FFAF7978010
+        public void HasReaders_EDEBB84CB0B7(){} // RVA: 0x7FFAF7978480
         public void Return(){} // RVA: 0x7FFAF7978580
         public void Add(){} // RVA: 0x7FFAF79785F0
         public void <Send>b__0_68402F5DE60D(){} // RVA: 0x7FFAF375F770
         public void CopyTo(){} // RVA: 0x7FFAF79786A0
+        public void set_Item(){} // RVA: 0x7FFAF7978750
         public void <Send>b__0_E75B9518D693(){} // RVA: 0x7FFAF60A5430
         public void Equals_1F38C2BF87A0(){} // RVA: 0x7FFAF79747D0
         public void HasReaders_1ED7093CB4C2(){} // RVA: 0x7FFAF7974C10
         public void UnregisterOption(){} // RVA: 0x7FFAF7978B90
-        // ── Unresolved (hash) ──
-        public void m_A9A(){} // RVA: 0x7FFAF7977AA0
-        public void m_C7F(){} // RVA: 0x7FFAF7977E00
-        public void m_BF4(){} // RVA: 0x7FFAF7978040
-        public void m_EDE(){} // RVA: 0x7FFAF7978480
-        public void m_C3F(){} // RVA: 0x7FFAF7978750
     }
 
     /// <summary>Originally: ÌÌÎÏÍÏÌÏÍÎÏÏÏÌÏÍÎÍÍÏÍÎÌ</summary>
@@ -1002,35 +999,34 @@ namespace VRC.Core.Transform
         public void Equals(){} // RVA: 0x7FFAF2AC1120
         public void <Send>b__0(){} // RVA: 0x7FFAF2AD5130
         public void get_Item(){} // RVA: 0x7FFAF2ACBCC0
+        public void TryCopyTo(){}
+        public void TryCopyTo_C7FFAA4DBEEE(){} // RVA: 0x7FFAF2AD4B10
         public void ThrowColliderToRemoveDataCompMarshalException(){}
         public void ThrowColliderToRemoveDataCompMarshalException_68277EBD9C98(){}
         public void HasReaders(){} // RVA: 0x7FFAF2AC3FB0
         public void SetOverlayName(){} // RVA: 0x7FFAF2D33FA0
-        public void SwitchFocus(){} // RVA: 0x7FFAF2ABDBE0
+        public void SwitchFocus(){} // RVA: 0x7FFAF2AD4B10
+        public void SwitchFocus_C4C75CD70BD4(){} // RVA: 0x7FFAF2ABDBE0
         public void SwitchFocus_4FD6FFC480E4(){} // RVA: 0x7FFAF2D33FA0
         public void SwitchFocus_33CE5C7F1819(){}
         public void BrotliEncoderIsFinished_04EF656D5A4F_04EF656D5A4F(){} // RVA: 0x7FFAF2AD6980 | overloaded x2
         public void SwitchFocus_FD25BF21A042(){} // RVA: 0x7FFAF2ABDBE0
-        public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0
+        public void TryCopyTo_727DB55CB25B(){} // RVA: 0x7FFAF2D33FA0
         public void SetOverlayName_0BBE9D0C6153(){} // RVA: 0x7FFAF2D33FA0
         public void <Send>b__0_506331BFB6DE(){} // RVA: 0x7FFAF2AD5130
         public void <Send>b__0_B049A4C4F575(){} // RVA: 0x7FFAF2AD5130
         public void InteractSibling(){} // RVA: 0x7FFAF2D33FA0
         public void SetOverlayName_C719277A55C5(){} // RVA: 0x7FFAF2ACDD80
+        public void HasReaders_EDEBB84CB0B7(){} // RVA: 0x7FFAF2AD4B10
         public void Return(){} // RVA: 0x7FFAF2ADA620
         public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void <Send>b__0_68402F5DE60D(){} // RVA: 0x7FFAF2AD5130
         public void CopyTo(){} // RVA: 0x7FFAF2ADBAA0
+        public void set_Item(){} // RVA: 0x7FFAF2AD4B10
         public void <Send>b__0_E75B9518D693(){} // RVA: 0x7FFAF2AD5130
         public void Equals_1F38C2BF87A0(){} // RVA: 0x7FFAF2AC1120
         public void HasReaders_1ED7093CB4C2(){} // RVA: 0x7FFAF2AC3FB0
         public void UnregisterOption(){} // RVA: 0x7FFAF2AD4B10
-        // ── Unresolved (hash) ──
-        public void m_A9A(){}
-        public void m_C7F(){} // RVA: 0x7FFAF2AD4B10
-        public void m_BF4(){} // RVA: 0x7FFAF2AD4B10
-        public void m_EDE(){} // RVA: 0x7FFAF2AD4B10
-        public void m_C3F(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÌÌÎÏÍÏÌÏÍÎÏÏÏÌÏÍÎÍÍÏÍÎÌ</summary>
@@ -1043,35 +1039,34 @@ namespace VRC.Core.Transform
         public void Equals(){} // RVA: 0x7FFAF79747D0
         public void <Send>b__0(){} // RVA: 0x7FFAF375F770
         public void get_Item(){} // RVA: 0x7FFAF7974820
+        public void TryCopyTo(){} // RVA: 0x7FFAF79748D0
+        public void TryCopyTo_C7FFAA4DBEEE(){} // RVA: 0x7FFAF7974A80
         public void ThrowColliderToRemoveDataCompMarshalException(){} // RVA: 0x7FFAF7974B10
         public void ThrowColliderToRemoveDataCompMarshalException_68277EBD9C98(){} // RVA: 0x7FFAF7974B10
         public void HasReaders(){} // RVA: 0x7FFAF7974C10
         public void SetOverlayName(){} // RVA: 0x7FFAF7974C40
-        public void SwitchFocus(){} // RVA: 0x7FFAF7974D70
+        public void SwitchFocus(){} // RVA: 0x7FFAF7975910
+        public void SwitchFocus_C4C75CD70BD4(){} // RVA: 0x7FFAF7974D70
         public void SwitchFocus_4FD6FFC480E4(){} // RVA: 0x7FFAF7974D80
         public void SwitchFocus_33CE5C7F1819(){} // RVA: 0x7FFAF7974DB0
         public void BrotliEncoderIsFinished_04EF656D5A4F_04EF656D5A4F(){} // RVA: 0x7FFAF7975180 | overloaded x2
         public void SwitchFocus_FD25BF21A042(){} // RVA: 0x7FFAF7974D70
-        public void TryCopyTo(){} // RVA: 0x7FFAF7974F90
+        public void TryCopyTo_727DB55CB25B(){} // RVA: 0x7FFAF7974F90
         public void SetOverlayName_0BBE9D0C6153(){} // RVA: 0x7FFAF7974C40
         public void <Send>b__0_506331BFB6DE(){} // RVA: 0x7FFAF375F770
         public void <Send>b__0_B049A4C4F575(){} // RVA: 0x7FFAF375F770
         public void InteractSibling(){} // RVA: 0x7FFAF7975060
         public void SetOverlayName_C719277A55C5(){} // RVA: 0x7FFAF7974C40
+        public void HasReaders_EDEBB84CB0B7(){} // RVA: 0x7FFAF7975A10
         public void Return(){} // RVA: 0x7FFAF79751A0
         public void Add(){} // RVA: 0x7FFAF7975210
         public void <Send>b__0_68402F5DE60D(){} // RVA: 0x7FFAF375F770
         public void CopyTo(){} // RVA: 0x7FFAF79752A0
+        public void set_Item(){} // RVA: 0x7FFAF7975B10
         public void <Send>b__0_E75B9518D693(){} // RVA: 0x7FFAF375F770
         public void Equals_1F38C2BF87A0(){} // RVA: 0x7FFAF79747D0
         public void HasReaders_1ED7093CB4C2(){} // RVA: 0x7FFAF7974C10
         public void UnregisterOption(){} // RVA: 0x7FFAF7975F50
-        // ── Unresolved (hash) ──
-        public void m_A9A(){} // RVA: 0x7FFAF79748D0
-        public void m_C7F(){} // RVA: 0x7FFAF7974A80
-        public void m_BF4(){} // RVA: 0x7FFAF7975910
-        public void m_EDE(){} // RVA: 0x7FFAF7975A10
-        public void m_C3F(){} // RVA: 0x7FFAF7975B10
     }
 
     /// <summary>Originally: ÌÌÎÏÍÏÌÏÍÎÏÏÏÌÏÍÎÍÍÏÍÎÌ</summary>
@@ -1084,35 +1079,34 @@ namespace VRC.Core.Transform
         public void Equals(){} // RVA: 0x7FFAF79747D0
         public void <Send>b__0(){} // RVA: 0x7FFAF375F770
         public void get_Item(){} // RVA: 0x7FFAF7976050
+        public void TryCopyTo(){} // RVA: 0x7FFAF79760D0
+        public void TryCopyTo_C7FFAA4DBEEE(){} // RVA: 0x7FFAF7974A80
         public void ThrowColliderToRemoveDataCompMarshalException(){} // RVA: 0x7FFAF7976210
         public void ThrowColliderToRemoveDataCompMarshalException_68277EBD9C98(){} // RVA: 0x7FFAF7976210
         public void HasReaders(){} // RVA: 0x7FFAF7974C10
         public void SetOverlayName(){} // RVA: 0x7FFAF7974C40
-        public void SwitchFocus(){} // RVA: 0x7FFAF7974D70
+        public void SwitchFocus(){} // RVA: 0x7FFAF79762E0
+        public void SwitchFocus_C4C75CD70BD4(){} // RVA: 0x7FFAF7974D70
         public void SwitchFocus_4FD6FFC480E4(){} // RVA: 0x7FFAF7974D80
         public void SwitchFocus_33CE5C7F1819(){} // RVA: 0x7FFAF7974DB0
         public void BrotliEncoderIsFinished_04EF656D5A4F_04EF656D5A4F(){} // RVA: 0x7FFAF7975180 | overloaded x2
         public void SwitchFocus_FD25BF21A042(){} // RVA: 0x7FFAF7974D70
-        public void TryCopyTo(){} // RVA: 0x7FFAF7976550
+        public void TryCopyTo_727DB55CB25B(){} // RVA: 0x7FFAF7976550
         public void SetOverlayName_0BBE9D0C6153(){} // RVA: 0x7FFAF7974C40
         public void <Send>b__0_506331BFB6DE(){} // RVA: 0x7FFAF375F770
         public void <Send>b__0_B049A4C4F575(){} // RVA: 0x7FFAF375F770
         public void InteractSibling(){} // RVA: 0x7FFAF7975060
         public void SetOverlayName_C719277A55C5(){} // RVA: 0x7FFAF7974C40
+        public void HasReaders_EDEBB84CB0B7(){} // RVA: 0x7FFAF79765F0
         public void Return(){} // RVA: 0x7FFAF79751A0
         public void Add(){} // RVA: 0x7FFAF7975210
         public void <Send>b__0_68402F5DE60D(){} // RVA: 0x7FFAF375F770
         public void CopyTo(){} // RVA: 0x7FFAF79766F0
+        public void set_Item(){} // RVA: 0x7FFAF79767E0
         public void <Send>b__0_E75B9518D693(){} // RVA: 0x7FFAF375F770
         public void Equals_1F38C2BF87A0(){} // RVA: 0x7FFAF79747D0
         public void HasReaders_1ED7093CB4C2(){} // RVA: 0x7FFAF7974C10
         public void UnregisterOption(){} // RVA: 0x7FFAF7976C20
-        // ── Unresolved (hash) ──
-        public void m_A9A(){} // RVA: 0x7FFAF79760D0
-        public void m_C7F(){} // RVA: 0x7FFAF7974A80
-        public void m_BF4(){} // RVA: 0x7FFAF79762E0
-        public void m_EDE(){} // RVA: 0x7FFAF79765F0
-        public void m_C3F(){} // RVA: 0x7FFAF79767E0
     }
 
     /// <summary>Originally: ÌÌÎÏÍÏÌÏÍÎÏÏÏÌÏÍÎÍÍÏÍÎÌ</summary>
@@ -1125,35 +1119,34 @@ namespace VRC.Core.Transform
         public void Equals(){} // RVA: 0x7FFAF79747D0
         public void <Send>b__0(){} // RVA: 0x7FFAF375F770
         public void get_Item(){} // RVA: 0x7FFAF7976D20
+        public void TryCopyTo(){} // RVA: 0x7FFAF7976D80
+        public void TryCopyTo_C7FFAA4DBEEE(){} // RVA: 0x7FFAF7974A80
         public void ThrowColliderToRemoveDataCompMarshalException(){} // RVA: 0x7FFAF7976EE0
         public void ThrowColliderToRemoveDataCompMarshalException_68277EBD9C98(){} // RVA: 0x7FFAF7976EE0
         public void HasReaders(){} // RVA: 0x7FFAF7974C10
         public void SetOverlayName(){} // RVA: 0x7FFAF7974C40
-        public void SwitchFocus(){} // RVA: 0x7FFAF7974D70
+        public void SwitchFocus(){} // RVA: 0x7FFAF7976FB0
+        public void SwitchFocus_C4C75CD70BD4(){} // RVA: 0x7FFAF7974D70
         public void SwitchFocus_4FD6FFC480E4(){} // RVA: 0x7FFAF7974D80
         public void SwitchFocus_33CE5C7F1819(){} // RVA: 0x7FFAF7974DB0
         public void BrotliEncoderIsFinished_04EF656D5A4F_04EF656D5A4F(){} // RVA: 0x7FFAF7975180 | overloaded x2
         public void SwitchFocus_FD25BF21A042(){} // RVA: 0x7FFAF7974D70
-        public void TryCopyTo(){} // RVA: 0x7FFAF79771F0
+        public void TryCopyTo_727DB55CB25B(){} // RVA: 0x7FFAF79771F0
         public void SetOverlayName_0BBE9D0C6153(){} // RVA: 0x7FFAF7974C40
         public void <Send>b__0_506331BFB6DE(){} // RVA: 0x7FFAF375F770
         public void <Send>b__0_B049A4C4F575(){} // RVA: 0x7FFAF375F770
         public void InteractSibling(){} // RVA: 0x7FFAF7975060
         public void SetOverlayName_C719277A55C5(){} // RVA: 0x7FFAF7974C40
+        public void HasReaders_EDEBB84CB0B7(){} // RVA: 0x7FFAF7977290
         public void Return(){} // RVA: 0x7FFAF79751A0
         public void Add(){} // RVA: 0x7FFAF7975210
         public void <Send>b__0_68402F5DE60D(){} // RVA: 0x7FFAF375F770
         public void CopyTo(){} // RVA: 0x7FFAF7977390
+        public void set_Item(){} // RVA: 0x7FFAF7977490
         public void <Send>b__0_E75B9518D693(){} // RVA: 0x7FFAF375F770
         public void Equals_1F38C2BF87A0(){} // RVA: 0x7FFAF79747D0
         public void HasReaders_1ED7093CB4C2(){} // RVA: 0x7FFAF7974C10
         public void UnregisterOption(){} // RVA: 0x7FFAF79778D0
-        // ── Unresolved (hash) ──
-        public void m_A9A(){} // RVA: 0x7FFAF7976D80
-        public void m_C7F(){} // RVA: 0x7FFAF7974A80
-        public void m_BF4(){} // RVA: 0x7FFAF7976FB0
-        public void m_EDE(){} // RVA: 0x7FFAF7977290
-        public void m_C3F(){} // RVA: 0x7FFAF7977490
     }
 
     /// <summary>Originally: ÌÌÎÏÍÏÌÏÍÎÏÏÏÌÏÍÎÍÍÏÍÎÌ</summary>
@@ -1166,35 +1159,34 @@ namespace VRC.Core.Transform
         public void Equals(){} // RVA: 0x7FFAF79747D0
         public void <Send>b__0(){} // RVA: 0x7FFAF375F770
         public void get_Item(){} // RVA: 0x7FFAF7974820
+        public void TryCopyTo(){} // RVA: 0x7FFAF79748D0
+        public void TryCopyTo_C7FFAA4DBEEE(){} // RVA: 0x7FFAF7974A80
         public void ThrowColliderToRemoveDataCompMarshalException(){} // RVA: 0x7FFAF7974B10
         public void ThrowColliderToRemoveDataCompMarshalException_68277EBD9C98(){} // RVA: 0x7FFAF7974B10
         public void HasReaders(){} // RVA: 0x7FFAF7974C10
         public void SetOverlayName(){} // RVA: 0x7FFAF7974C40
-        public void SwitchFocus(){} // RVA: 0x7FFAF7974D70
+        public void SwitchFocus(){} // RVA: 0x7FFAF7975910
+        public void SwitchFocus_C4C75CD70BD4(){} // RVA: 0x7FFAF7974D70
         public void SwitchFocus_4FD6FFC480E4(){} // RVA: 0x7FFAF7974D80
         public void SwitchFocus_33CE5C7F1819(){} // RVA: 0x7FFAF7974DB0
         public void BrotliEncoderIsFinished_04EF656D5A4F_04EF656D5A4F(){} // RVA: 0x7FFAF7975180 | overloaded x2
         public void SwitchFocus_FD25BF21A042(){} // RVA: 0x7FFAF7974D70
-        public void TryCopyTo(){} // RVA: 0x7FFAF7974F90
+        public void TryCopyTo_727DB55CB25B(){} // RVA: 0x7FFAF7974F90
         public void SetOverlayName_0BBE9D0C6153(){} // RVA: 0x7FFAF7974C40
         public void <Send>b__0_506331BFB6DE(){} // RVA: 0x7FFAF375F770
         public void <Send>b__0_B049A4C4F575(){} // RVA: 0x7FFAF375F770
         public void InteractSibling(){} // RVA: 0x7FFAF7975060
         public void SetOverlayName_C719277A55C5(){} // RVA: 0x7FFAF7974C40
+        public void HasReaders_EDEBB84CB0B7(){} // RVA: 0x7FFAF7975A10
         public void Return(){} // RVA: 0x7FFAF79751A0
         public void Add(){} // RVA: 0x7FFAF7975210
         public void <Send>b__0_68402F5DE60D(){} // RVA: 0x7FFAF375F770
         public void CopyTo(){} // RVA: 0x7FFAF79752A0
+        public void set_Item(){} // RVA: 0x7FFAF7975B10
         public void <Send>b__0_E75B9518D693(){} // RVA: 0x7FFAF375F770
         public void Equals_1F38C2BF87A0(){} // RVA: 0x7FFAF79747D0
         public void HasReaders_1ED7093CB4C2(){} // RVA: 0x7FFAF7974C10
         public void UnregisterOption(){} // RVA: 0x7FFAF7975F50
-        // ── Unresolved (hash) ──
-        public void m_A9A(){} // RVA: 0x7FFAF79748D0
-        public void m_C7F(){} // RVA: 0x7FFAF7974A80
-        public void m_BF4(){} // RVA: 0x7FFAF7975910
-        public void m_EDE(){} // RVA: 0x7FFAF7975A10
-        public void m_C3F(){} // RVA: 0x7FFAF7975B10
     }
 
     /// <summary>Originally: ÌÌÎÏÍÏÌÏÍÎÏÏÏÌÏÍÎÍÍÏÍÎÌ</summary>
@@ -1207,35 +1199,34 @@ namespace VRC.Core.Transform
         public void Equals(){} // RVA: 0x7FFAF79747D0
         public void <Send>b__0(){} // RVA: 0x7FFAF375F770
         public void get_Item(){} // RVA: 0x7FFAF7974820
+        public void TryCopyTo(){} // RVA: 0x7FFAF79748D0
+        public void TryCopyTo_C7FFAA4DBEEE(){} // RVA: 0x7FFAF7974A80
         public void ThrowColliderToRemoveDataCompMarshalException(){} // RVA: 0x7FFAF7974B10
         public void ThrowColliderToRemoveDataCompMarshalException_68277EBD9C98(){} // RVA: 0x7FFAF7974B10
         public void HasReaders(){} // RVA: 0x7FFAF7974C10
         public void SetOverlayName(){} // RVA: 0x7FFAF7974C40
-        public void SwitchFocus(){} // RVA: 0x7FFAF7974D70
+        public void SwitchFocus(){} // RVA: 0x7FFAF7974C70
+        public void SwitchFocus_C4C75CD70BD4(){} // RVA: 0x7FFAF7974D70
         public void SwitchFocus_4FD6FFC480E4(){} // RVA: 0x7FFAF7974D80
         public void SwitchFocus_33CE5C7F1819(){} // RVA: 0x7FFAF7974DB0
         public void BrotliEncoderIsFinished_04EF656D5A4F_04EF656D5A4F(){} // RVA: 0x7FFAF7975180 | overloaded x2
         public void SwitchFocus_FD25BF21A042(){} // RVA: 0x7FFAF7974D70
-        public void TryCopyTo(){} // RVA: 0x7FFAF7974F90
+        public void TryCopyTo_727DB55CB25B(){} // RVA: 0x7FFAF7974F90
         public void SetOverlayName_0BBE9D0C6153(){} // RVA: 0x7FFAF7974C40
         public void <Send>b__0_506331BFB6DE(){} // RVA: 0x7FFAF375F770
         public void <Send>b__0_B049A4C4F575(){} // RVA: 0x7FFAF375F770
         public void InteractSibling(){} // RVA: 0x7FFAF7975060
         public void SetOverlayName_C719277A55C5(){} // RVA: 0x7FFAF7974C40
+        public void HasReaders_EDEBB84CB0B7(){} // RVA: 0x7FFAF7975080
         public void Return(){} // RVA: 0x7FFAF79751A0
         public void Add(){} // RVA: 0x7FFAF7975210
         public void <Send>b__0_68402F5DE60D(){} // RVA: 0x7FFAF375F770
         public void CopyTo(){} // RVA: 0x7FFAF79752A0
+        public void set_Item(){} // RVA: 0x7FFAF79753D0
         public void <Send>b__0_E75B9518D693(){} // RVA: 0x7FFAF375F770
         public void Equals_1F38C2BF87A0(){} // RVA: 0x7FFAF79747D0
         public void HasReaders_1ED7093CB4C2(){} // RVA: 0x7FFAF7974C10
         public void UnregisterOption(){} // RVA: 0x7FFAF7975810
-        // ── Unresolved (hash) ──
-        public void m_A9A(){} // RVA: 0x7FFAF79748D0
-        public void m_C7F(){} // RVA: 0x7FFAF7974A80
-        public void m_BF4(){} // RVA: 0x7FFAF7974C70
-        public void m_EDE(){} // RVA: 0x7FFAF7975080
-        public void m_C3F(){} // RVA: 0x7FFAF79753D0
     }
 
     /// <summary>Originally: ÌÍÏÍÏÏÌÎÍÏÌÎÍÌÍÌÎÌÏÏÌÍÏ</summary>
@@ -1256,15 +1247,14 @@ namespace VRC.Core.Transform
     public class TransformHandler_7F80
     {
         // ── Methods ──
+        public void SetLocalScale_1C162FC8E11C(){} // RVA: 0x7FFAF4B45AD0 | overloaded x2
         public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF4B45970
-        public void SetLocalScale(){} // RVA: 0x7FFAF4B45AC0
+        public void SetLocalScale_0AB356F6575F(){} // RVA: 0x7FFAF4B45AC0
         public void SetLocalScale_D101957BA9A6(){} // RVA: 0x7FFAF4B45AC0
         public void SetLocalScale_36CEC1ABD747(){} // RVA: 0x7FFAF4B45AC0
-        // ── Unresolved (hash) ──
-        public void m_1C1(){} // RVA: 0x7FFAF4B45AD0
-        public void m_402(){} // RVA: 0x7FFAF4B45C20
-        public void m_5E6(){} // RVA: 0x7FFAF4B45D70
+        public void SetLocalScale_Injected(){} // RVA: 0x7FFAF4B45C20
+        public void ApplyLocalScaleToTransform(){} // RVA: 0x7FFAF4B45D70
     }
 
     /// <summary>Originally: ÍÍÎÌÍÌÎÌÍÎÌÎÍÎÏÏÎÌÍÎÏÌÌ</summary>
@@ -1282,16 +1272,15 @@ namespace VRC.Core.Transform
         public void GetLocalPosition(){} // RVA: 0x7FFAF47058F0
         public void SetLocalPosition(){} // RVA: 0x7FFAF4705A40
         public void GetLocalPosition_A68EEB9F37DE(){} // RVA: 0x7FFAF4705CF0
+        public void CreateLocalPositionDelegate(){} // RVA: 0x7FFAF4705FA0
+        public void CreateSetLocalPositionDelegate(){} // RVA: 0x7FFAF47060F0
+        public void CreateGetLocalPositionDelegate(){} // RVA: 0x7FFAF47063A0
+        public void CreateSetPositionDelegate(){} // RVA: 0x7FFAF47064F0
+        public void CreateSetPositionDelegate_4D045A0F6DEF(){} // RVA: 0x7FFAF4706560
+        public void CreateTransformPositionDelegate(){} // RVA: 0x7FFAF47065E0
+        public void CreateTransformPositionDelegate_4B06D8BF7491(){} // RVA: 0x7FFAF4706670
         public void .ctor(){} // RVA: 0x7FFAF47067C0
         public void Initialize(){} // RVA: 0x7FFAF4706CC0
-        // ── Unresolved (hash) ──
-        public void m_239(){} // RVA: 0x7FFAF4705FA0
-        public void m_478(){} // RVA: 0x7FFAF47060F0
-        public void m_570(){} // RVA: 0x7FFAF47063A0
-        public void m_BA1(){} // RVA: 0x7FFAF47064F0
-        public void m_4D0(){} // RVA: 0x7FFAF4706560
-        public void m_8A8(){} // RVA: 0x7FFAF47065E0
-        public void m_4B0(){} // RVA: 0x7FFAF4706670
     }
 
     /// <summary>Originally: ÍÌÍÏÍÏÍÎÎÏÏÏÎÌÎÌÎÏÎÏÎÏÎ</summary>
@@ -1315,16 +1304,15 @@ namespace VRC.Core.Transform
     public class TransformHandler_93D5
     {
         // ── Methods ──
-        public void OnPointerClick(){} // RVA: 0x7FFAF3639A80
+        public void OnPointerClick(){} // RVA: 0x7FFAF363E140
+        public void OnPointerClick_C15ED72169D4(){} // RVA: 0x7FFAF3639A80
         public void OnPointerClick_D46CDE0DC413(){} // RVA: 0x7FFAF3639A80
         public void OnPointerClick_05CBAAA80788(){} // RVA: 0x7FFAF3639A80
         public void OnPointerClick_9545646DCFA2(){} // RVA: 0x7FFAF3639A80
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF363E490
-        // ── Unresolved (hash) ──
-        public void m_E9B(){} // RVA: 0x7FFAF363E140
-        public void m_0C8(){} // RVA: 0x7FFAF363E7E0
-        public void m_EA3(){} // RVA: 0x7FFAF363EB30
+        public void OnPointerClick_0C8DB15249C6(){} // RVA: 0x7FFAF363E7E0
+        public void OnPointerClick_EA3215110D25(){} // RVA: 0x7FFAF363EB30
     }
 
     /// <summary>Originally: ÍÌÌÏÎÍÏÎÏÍÍÏÏÌÎÏÏÏÍÎÌÏÌ</summary>
@@ -1356,15 +1344,15 @@ namespace VRC.Core.Transform
         public void SetLocalScale(){} // RVA: 0x7FFAF3A8E440
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3A8E7B0
+        public void CreateInflaterState(){} // RVA: 0x7FFAF3A8E810
+        public void SwapInflaterState(){} // RVA: 0x7FFAF3A8E7B0
         // ── Unresolved (hash) ──
         public void m_F80(){} // RVA: 0x7FFAF3A8E7B0
         public void m_99B(){} // RVA: 0x7FFAF3A8E7B0
         public void m_7C1(){} // RVA: 0x7FFAF3A8E7B0
         public void m_AB5(){} // RVA: 0x7FFAF3A8E7B0
         public void m_B01(){} // RVA: 0x7FFAF3A8E7B0
-        public void m_6A9(){} // RVA: 0x7FFAF3A8E810
         public void m_80A(){} // RVA: 0x7FFAF3A8E7B0
-        public void m_08A(){} // RVA: 0x7FFAF3A8E7B0
     }
 
     /// <summary>Originally: ÌÍÏÍÌÍÎÍÌÍÏÍÎÍÍÍÏÌÎÍÏÏÍ</summary>
@@ -1372,16 +1360,16 @@ namespace VRC.Core.Transform
     {
         // ── Methods ──
         public void OnPointerClick(){} // RVA: 0x7FFAF3639A80
+        public void OnPointerEnter(){} // RVA: 0x7FFAF363CCB0
+        public void OnPointerExit(){} // RVA: 0x7FFAF363CF40
+        public void SetTransform(){} // RVA: 0x7FFAF363D1D0
         public void OnPointerClick_E9FC8D7604CB(){} // RVA: 0x7FFAF3639A80
+        public void ResetTransform(){} // RVA: 0x7FFAF363D460
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
         public void m_13F(){} // RVA: 0x7FFAF363C500
         public void m_511(){} // RVA: 0x7FFAF363C790
         public void m_B33(){} // RVA: 0x7FFAF363CA20
-        public void m_18A(){} // RVA: 0x7FFAF363CCB0
-        public void m_821(){} // RVA: 0x7FFAF363CF40
-        public void m_5E3(){} // RVA: 0x7FFAF363D1D0
-        public void m_B55(){} // RVA: 0x7FFAF363D460
     }
 
     /// <summary>Originally: ÍÍÏÍÏÌÎÏÏÎÌÏÌÍÏÏÎÌÌÌÎÌÏ</summary>
@@ -1390,13 +1378,13 @@ namespace VRC.Core.Transform
         public object _aBCF;
 
         // ── Methods ──
+        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x7FFAF2DA8380
+        public void get_Value(){} // RVA: 0x7FFAF369FB90
         public void .ctor(){} // RVA: 0x7FFAF369FCB0
         public void Initialize(){} // RVA: 0x7FFAF2D8EE30
         public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void set_Value(){} // RVA: 0x7FFAF2D8EE30
         // ── Unresolved (hash) ──
-        public void m_F24(){} // RVA: 0x7FFAF2DA8380
-        public void m_2DE(){} // RVA: 0x7FFAF369FB90
         public void m_450(){} // RVA: 0x7FFAF2D8EE30
         public void m_24C(){} // RVA: 0x7FFAF369FE30
         public void m_D93(){} // RVA: 0x7FFAF369FF50
@@ -1418,18 +1406,18 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void SetLocalPosition(){} // RVA: 0x7FFAF4830060
         public void SetLocalPosition_DC5406AD19AD(){} // RVA: 0x7FFAF48300F0
+        public void SetLocalPosition_B7180C9F853F(){} // RVA: 0x7FFAF4830180
+        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x7FFAF2DA8380
         public void GetLocalScale(){} // RVA: 0x7FFAF3A8C9F0
         public void SetLocalPosition_2287CB9BAC06(){} // RVA: 0x7FFAF48300F0
         public void get_MoveNext(){} // RVA: 0x7FFAF2E0A740
         public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void SetLocalPosition_DB897AFFCFC9(){} // RVA: 0x7FFAF4830210
+        public void SetLocalPosition_8A3650E28133(){} // RVA: 0x7FFAF4830180
+        public void SetLocalPosition_8D3928040071(){} // RVA: 0x7FFAF4830180
         public void .ctor(){} // RVA: 0x7FFAF48302A0
         // ── Unresolved (hash) ──
-        public void m_B71(){} // RVA: 0x7FFAF4830180
-        public void m_EBF(){} // RVA: 0x7FFAF2DA8380
         public void m_AF4(){} // RVA: 0x7FFAF2DA8380
-        public void m_8A3(){} // RVA: 0x7FFAF4830180
-        public void m_8D3(){} // RVA: 0x7FFAF4830180
         public void m_7BC(){} // RVA: 0x7FFAF2DA8380
     }
 
@@ -1437,19 +1425,18 @@ namespace VRC.Core.Transform
     public class TransformHandler_C0C7
     {
         // ── Methods ──
+        public void ReadTransformHandle(){} // RVA: 0x7FFAF4703230
+        public void ReadTransformState(){} // RVA: 0x7FFAF47032B0
+        public void ReadTransformState_BA6FF12EAA31(){} // RVA: 0x7FFAF4703370
         public void Awake(){} // RVA: 0x7FFAF47034C0
         public void OnDestroy(){} // RVA: 0x7FFAF4703580
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF4703720
         public void GetChild(){} // RVA: 0x7FFAF47038C0
         public void GetChild_F41AD378681A(){} // RVA: 0x7FFAF4703980
-        // ── Unresolved (hash) ──
-        public void m_C1C(){} // RVA: 0x7FFAF4703230
-        public void m_1E9(){} // RVA: 0x7FFAF47032B0
-        public void m_BA6(){} // RVA: 0x7FFAF4703370
-        public void m_4A5(){} // RVA: 0x7FFAF4703B20
-        public void m_BEE(){} // RVA: 0x7FFAF4703BA0
-        public void m_B23(){} // RVA: 0x7FFAF4703C60
+        public void WriteTransformState(){} // RVA: 0x7FFAF4703B20
+        public void ApplyTransformState(){} // RVA: 0x7FFAF4703BA0
+        public void WriteTransformHandle(){} // RVA: 0x7FFAF4703C60
     }
 
     /// <summary>Originally: ÌÍÍÏÏÌÎÍÌÍÌÎÏÏÏÏÍÌÌÍÌÌÎ</summary>
@@ -1460,20 +1447,24 @@ namespace VRC.Core.Transform
         public void ApplyInterpolatedRotation_24285EF62C5E(){} // RVA: 0x7FFAF3C9C180
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3C9C530
+        public void InitializeInterpolationCurves(){} // RVA: 0x7FFAF3C9C7C0
         public void GetLatestAnimationCurveKeyTime(){} // RVA: 0x7FFAF3C9CC80
+        public void ComputeLatestAnimationCurveKeyTime(){} // RVA: 0x7FFAF3C9D150
+        public void ApplyAnimationCurveRotation(){} // RVA: 0x7FFAF3C9D820
         public void ResetCachedRotationsToIdentity(){} // RVA: 0x7FFAF3C9DCF0
         public void CacheCurrentPositionSamples(){} // RVA: 0x7FFAF3C9E1C0
+        public void ApplyInterpolatedPosition(){} // RVA: 0x7FFAF3C9E310
+        public void ApplyInterpolatedPosition_1D65BFBA4EEF(){} // RVA: 0x7FFAF3C9E460
+        public void ApplyInterpolatedPosition_62E4D0E647BD(){} // RVA: 0x7FFAF3C9E5A0
+        public void EvaluateAnimationCurveOffsets(){} // RVA: 0x7FFAF3C9E740
         public void OnEnable(){} // RVA: 0x7FFAF3C9E860
+        public void ResetCachedPositionSamples(){} // RVA: 0x7FFAF3C9E870
         public void Update(){} // RVA: 0x7FFAF3C9E880
         public void OnDestroy(){} // RVA: 0x7FFAF3C9EB10
+        public void UpdateCachedVelocity(){} // RVA: 0x7FFAF3C9ECE0
         public void OnDisable(){} // RVA: 0x7FFAF3C9EE00
-        // ── 11 unresolved (hash) ──
-        public void m_656(){} // RVA: 0x7FFAF3C9C7C0
-        public void m_BFE(){} // RVA: 0x7FFAF3C9D150
-        public void m_16C(){} // RVA: 0x7FFAF3C9D820
-        public void m_2C6(){} // RVA: 0x7FFAF3C9E310
-        public void m_1D6(){} // RVA: 0x7FFAF3C9E460
-        // ... 6 more unresolved methods
+        public void ApplyAnimationCurvePosition(){} // RVA: 0x7FFAF3C9EE70
+        public void ClearCachedPositionSamples(){} // RVA: 0x7FFAF3C9EE80
     }
 
     /// <summary>Originally: ÌÌÌÍÏÌÎÍÎÏÏÌÎÍÍÏÌÏÌÌÎÏÍ</summary>
@@ -1482,11 +1473,10 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void HasTransformUpdateTimedOut(){} // RVA: 0x7FFAF2F785C0
         public void SetLocalPosition(){} // RVA: 0x7FFAF4830B40
-        // ── Unresolved (hash) ──
-        public void m_4F4(){} // RVA: 0x7FFAF4831200
-        public void m_A89(){} // RVA: 0x7FFAF4831790
-        public void m_3CD(){} // RVA: 0x7FFAF4831B90
-        public void m_3EB(){} // RVA: 0x7FFAF4831F90
+        public void GetLocalPosition(){} // RVA: 0x7FFAF4831200
+        public void SetLocalRotation(){} // RVA: 0x7FFAF4831790
+        public void GetLocalRotation(){} // RVA: 0x7FFAF4831B90
+        public void SetLocalScale(){} // RVA: 0x7FFAF4831F90
     }
 
     /// <summary>Originally: ÍÌÎÏÎÎÎÍÌÏÎÍÏÎÍÍÍÎÍÍÏÌÍ</summary>
@@ -1556,13 +1546,14 @@ namespace VRC.Core.Transform
         public void StartNew_DE96345F4802(){} // RVA: 0x7FFAF4499DE0
         public void TrySetMatrixValue(){} // RVA: 0x7FFAF449CBB0
         public void StartNew_C769D590E8CA(){} // RVA: 0x7FFAF449CD10
-        // ── 12 unresolved (hash) ──
+        public void StartNew_6E2EED3C818E(){} // RVA: 0x7FFAF449CD50
+        // ── 11 unresolved (hash) ──
         public void m_FDA(){} // RVA: 0x7FFAF4499970
         public void m_A86(){} // RVA: 0x7FFAF4499A70
         public void m_514(){} // RVA: 0x7FFAF4499DB0
         public void m_99E(){} // RVA: 0x7FFAF4499E20
         public void m_4D0(){} // RVA: 0x7FFAF449A120
-        // ... 7 more unresolved methods
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÍÎÍÏÌÎÍÎÎÎÏÌÍÏÌÌÌÎÎÎÏÍÍ</summary>
@@ -1588,12 +1579,17 @@ namespace VRC.Core.Transform
     public class TransformParentInvisibleComponent_B0A0
     {
         // ── Methods ──
+        public void OnTransformParentChanged(){} // RVA: 0x7FFAF8F1A630
+        public void OnTransformParentChanged_0C0BCEDAE381(){} // RVA: 0x7FFAF8F1A850
+        public void OnTransformChildrenChanged(){} // RVA: 0x7FFAF8F1AEC0
         public void .ctor(){} // RVA: 0x7FFAF8F1B080
         public void Initialize(){} // RVA: 0x7FFAF8F1B440
+        public void OnPostRender(){} // RVA: 0x7FFAF8F1B4E0
         public void OnEnable(){} // RVA: 0x7FFAF8F1C2D0
         public void Start(){} // RVA: 0x7FFAF8F1C940
         public void FixedUpdate(){} // RVA: 0x7FFAF8F1CA00
         public void Update(){} // RVA: 0x7FFAF8F1CAC0
+        public void MoveNextUpdateInvisibleParent(){} // RVA: 0x7FFAF8F1CF80
         public void LateUpdate(){} // RVA: 0x7FFAF8F1CFA0
         public void OnDestroy(){} // RVA: 0x7FFAF8F1DD70
         public void OnApplicationPause(){} // RVA: 0x7FFAF8F1E3E0
@@ -1604,12 +1600,6 @@ namespace VRC.Core.Transform
         public void OnCollisionEnter(){} // RVA: 0x7FFAF8F1F850
         public void OnCollisionStay(){} // RVA: 0x7FFAF8F1F8F0
         public void OnPreRender(){} // RVA: 0x7FFAF8F1F930
-        // ── Unresolved (hash) ──
-        public void m_E09(){} // RVA: 0x7FFAF8F1A630
-        public void m_0C0(){} // RVA: 0x7FFAF8F1A850
-        public void m_3A2(){} // RVA: 0x7FFAF8F1AEC0
-        public void m_8AD(){} // RVA: 0x7FFAF8F1B4E0
-        public void m_252(){} // RVA: 0x7FFAF8F1CF80
     }
 
     /// <summary>Originally: ÍÌÎÏÌÌÎÌÍÎÍÍÏÏÎÎÍÍÏÌÌÏÍ</summary>
@@ -1664,6 +1654,7 @@ namespace VRC.Core.Transform
     public class TransformQuaternionHandler_5AB6
     {
         // ── Methods ──
+        public void UpdatePrint(){} // RVA: 0x7FFAF3692410
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF30EBE20
         public void EqualsObject(){} // RVA: 0x7FFAF3693190
@@ -1671,7 +1662,6 @@ namespace VRC.Core.Transform
         public void <UpdatePrint>b__1_9E58BC3F825F(){} // RVA: 0x7FFAF30EBE20
         // ── Unresolved (hash) ──
         public void m_B25(){} // RVA: 0x7FFAF3691D40
-        public void m_22C(){} // RVA: 0x7FFAF3692410
         public void m_9F6(){} // RVA: 0x7FFAF3692AC0
         public void m_F50(){} // RVA: 0x7FFAF3693840
     }
@@ -1680,7 +1670,9 @@ namespace VRC.Core.Transform
     public class TransformQuaternionHandler_67C8
     {
         // ── Methods ──
+        public void Create(){} // RVA: 0x7FFAF4460CA0
         public void get_IsEmpty(){} // RVA: 0x7FFAF4461210
+        public void ToArray(){} // RVA: 0x7FFAF4461440
         public void TryCopyTo(){} // RVA: 0x7FFAF4461540
         public void get_Span(){} // RVA: 0x7FFAF4461700
         public void GetEnumerator(){} // RVA: 0x7FFAF44617A0
@@ -1694,8 +1686,6 @@ namespace VRC.Core.Transform
         public void Update(){} // RVA: 0x7FFAF4462CB0
         public void Start(){} // RVA: 0x7FFAF4462F80
         // ── Unresolved (hash) ──
-        public void m_C15(){} // RVA: 0x7FFAF4460CA0
-        public void m_530(){} // RVA: 0x7FFAF4461440
         public void m_F1C(){} // RVA: 0x7FFAF4463470
     }
 
@@ -1785,17 +1775,16 @@ namespace VRC.Core.Transform
     public class TransformQuaternionHandler_A1D8
     {
         // ── Methods ──
+        public void CreateUpdateRotationDelegate(){} // RVA: 0x7FFAF36FCF80
         public void UpdateRotation(){} // RVA: 0x7FFAF36FD090
         public void EndInvoke(){} // RVA: 0x7FFAF36FD1A0
         public void ClampFloatToBounds(){} // RVA: 0x7FFAF36FD2B0
+        public void InvokeUpdateRotation(){} // RVA: 0x7FFAF36FD3C0
+        public void BeginInvoke(){} // RVA: 0x7FFAF36FD4D0
+        public void InitializeInvokeState(){} // RVA: 0x7FFAF36FD5E0
+        public void EndInvoke_2A0CC558F62C(){} // RVA: 0x7FFAF36FD6F0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF36FD800
-        // ── Unresolved (hash) ──
-        public void m_A5F(){} // RVA: 0x7FFAF36FCF80
-        public void m_8B7(){} // RVA: 0x7FFAF36FD3C0
-        public void m_C9D(){} // RVA: 0x7FFAF36FD4D0
-        public void m_F07(){} // RVA: 0x7FFAF36FD5E0
-        public void m_2A0(){} // RVA: 0x7FFAF36FD6F0
     }
 
     /// <summary>Originally: ÍÎÎÏÏÌÎÌÎÎÍÍÎÌÏÍÏÍÏÎÌÌÎ</summary>
@@ -1846,15 +1835,14 @@ namespace VRC.Core.Transform
     public class TransformQuaternionHandler_E3AB
     {
         // ── Methods ──
+        public void GetWorldRotation(){} // RVA: 0x7FFAF36A1090
+        public void SetLocalRotation(){} // RVA: 0x7FFAF36A11F0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF36A1350
         public void GetLocalRotation(){} // RVA: 0x7FFAF36A14B0
+        public void ProcessQuaternion(){} // RVA: 0x7FFAF36A1610
+        public void SetWorldRotation(){} // RVA: 0x7FFAF36A1770
         public void UpdateRotation(){} // RVA: 0x7FFAF36A18D0
-        // ── Unresolved (hash) ──
-        public void m_9DD(){} // RVA: 0x7FFAF36A1090
-        public void m_CD7(){} // RVA: 0x7FFAF36A11F0
-        public void m_C75(){} // RVA: 0x7FFAF36A1610
-        public void m_F96(){} // RVA: 0x7FFAF36A1770
     }
 
     /// <summary>Originally: ÍÎÎÏÎÎÏÏÌÍÌÌÍÌÎÍÌÍÍÏÎÍÎ</summary>
@@ -1891,12 +1879,44 @@ namespace VRC.Core.Transform
         public void Add(){} // RVA: 0x7FFAFB831180
         public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFAF2D8D320
         public void Remove(){} // RVA: 0x7FFAFB831260
+        public void InvokeObjectUIntObjectObject(){} // RVA: 0x7FFAFB831340
+        public void InvokeObjectUIntObjectBoolean(){} // RVA: 0x7FFAFB831420
+        public void InvokeObjectUIntContextBoolean(){} // RVA: 0x7FFAFB8315B0
+        public void InvokeObjectUIntStringObject(){} // RVA: 0x7FFAFB831690
+        public void InvokeObjectObjectObject(){} // RVA: 0x7FFAFB831750
+        public void InvokeObjectBooleanVector4UInt(){} // RVA: 0x7FFAFB832BE0
+        public void InvokeUShortUIntUIntUInt(){} // RVA: 0x7FFAFB832CC0
+        public void InvokeObjectContextObject(){} // RVA: 0x7FFAFB832DA0
+        public void InvokeObjectObjectObjectBoolean(){} // RVA: 0x7FFAFB832E40
+        public void InvokeRectContextObjectRef(){} // RVA: 0x7FFAFB832F20
+        public void InvokeObjectUIntVector4Vector4(){} // RVA: 0x7FFAFB833630
+        public void InvokeObjectUIntVector4Vector4_12A82F8183CA(){} // RVA: 0x7FFAFB833650
+        public void InvokeVector4Pair(){} // RVA: 0x7FFAFB833730
+        public void InvokeTransformTripleWithBounds(){} // RVA: 0x7FFAFB833810
+        public void InvokeObjectObjectObjectShort(){} // RVA: 0x7FFAFB833B20
+        public void InvokeObjectUIntUIntObject(){} // RVA: 0x7FFAFB833CB0
+        public void InvokeObjectUIntUIntObject_34CDA5DCD89B(){} // RVA: 0x7FFAFB833CC0
+        public void InvokeFloatGetter(){} // RVA: 0x7FFAFB833DD0
+        public void InvokeObjectUIntUIntObject_9AC9619B1FA0(){} // RVA: 0x7FFAFB833F60
+        public void InvokeObjectVector4Vector4Vector4(){} // RVA: 0x7FFAFB833F70
+        public void InvokeObjectVector4Vector4Vector4_752278E0C5CF(){} // RVA: 0x7FFAFB833F80
+        public void InvokeObjectUIntUIntMatrix(){} // RVA: 0x7FFAFB835410
+        public void InvokeObjectUIntUIntMatrix_996BBE6227A0(){} // RVA: 0x7FFAFB835420
         public void get_triggerPressed(){} // RVA: 0x7FFAF337BA20
+        public void InvokeObjectUIntUIntVector4(){} // RVA: 0x7FFAFB835430
+        public void InvokeObjectUIntUIntVector4_B7B1EB8790A9(){} // RVA: 0x7FFAFB835440
+        public void InvokeObjectUIntUIntVector4_ECC01E3E66D3(){} // RVA: 0x7FFAFB835450
+        public void InvokeObjectUIntUInt(){} // RVA: 0x7FFAFB835550
+        public void InvokeObjectUIntUIntMatrix4x4(){} // RVA: 0x7FFAFB835630
+        public void InvokeObjectObjectUIntObject(){} // RVA: 0x7FFAFB835700
         public void Initialize_78F09E941D1A(){} // RVA: 0x7FFAF38644E0
+        public void InvokeObjectStringObjectObject(){} // RVA: 0x7FFAFB8357E0
+        public void InvokeObjectVector4ObjectObject(){} // RVA: 0x7FFAFB8358C0
         public void Awake(){} // RVA: 0x7FFAFB8358D0
         public void get_CameraSelector(){} // RVA: 0x7FFAF38415D0
         public void Start(){} // RVA: 0x7FFAFB8359C0
         public void Update(){} // RVA: 0x7FFAFB835A60
+        public void InvokeObjectUIntUIntObject_DFC5C6EB4D06(){} // RVA: 0x7FFAFB835BF0
         public void LateUpdate(){} // RVA: 0x7FFAFB835CD0
         public void OnDisable(){} // RVA: 0x7FFAFB835CE0
         public void OnDestroy(){} // RVA: 0x7FFAFB835E40
@@ -1910,17 +1930,21 @@ namespace VRC.Core.Transform
         public void OnTriggerEnter(){} // RVA: 0x7FFAFB836180
         public void OnTriggerStay(){} // RVA: 0x7FFAFB836260
         public void OnTriggerExit(){} // RVA: 0x7FFAFB8363F0
+        public void InvokeObjectUIntObjectUInt(){} // RVA: 0x7FFAFB836400
+        public void InvokeObjectUIntObjectVector4(){} // RVA: 0x7FFAFB836410
+        public void InvokeObjectRectSelfUInt(){} // RVA: 0x7FFAFB8371F0
+        public void InvokeObjectRectSelfUInt_C8B6C15932E6(){} // RVA: 0x7FFAFB837200
         public void set_iconImageUrl(){} // RVA: 0x7FFAF3844B80
+        public void InvokeObjectStringUIntUInt(){} // RVA: 0x7FFAFB837390
+        public void InvokeObjectStringUIntUInt_8E8A04A39804(){} // RVA: 0x7FFAFB8373A0
         public void OnEnable(){} // RVA: 0x7FFAFB8373B0
+        public void InvokeFloatGetter_1662EA6EF688(){} // RVA: 0x7FFAFB833F60
         public void FixedUpdate(){} // RVA: 0x7FFAFB837510
+        public void InvokeRectRectVector4Vector4(){} // RVA: 0x7FFAFB837C20
+        public void InvokeVector4Vector4ObjectObject(){} // RVA: 0x7FFAFB837DB0
+        public void InvokeStringStringObjectObject(){} // RVA: 0x7FFAFB837DC0
+        public void InvokeStringStringObjectObject_5F1A5686BCAF(){} // RVA: 0x7FFAFB837DD0
         public void .ctor(){} // RVA: 0x7FFAFB837DE0
-        // ── 43 unresolved (hash) ──
-        public void m_A8A(){} // RVA: 0x7FFAFB831340
-        public void m_EA6(){} // RVA: 0x7FFAFB831420
-        public void m_356(){} // RVA: 0x7FFAFB8315B0
-        public void m_327(){} // RVA: 0x7FFAFB831690
-        public void m_4F0(){} // RVA: 0x7FFAFB831750
-        // ... 38 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÍÎÏÎÏÏÍÌÍÎÎÌÎÌÌÎÍÌÏÌÏ</summary>
@@ -1929,15 +1953,14 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void GetTime(){} // RVA: 0x7FFAF375C640
         public void GetTime_4E07541D7375(){} // RVA: 0x7FFAF375C750
+        public void GetDeltaTime(){} // RVA: 0x7FFAF375C860
+        public void GetFixedTime(){} // RVA: 0x7FFAF375C970
+        public void GetFixedDeltaTime(){} // RVA: 0x7FFAF375CA80
+        public void GetUnscaledTime(){} // RVA: 0x7FFAF375CB90
+        public void GetUnscaledDeltaTime(){} // RVA: 0x7FFAF375CCA0
+        public void get_timeScale(){} // RVA: 0x7FFAF375CDB0
+        public void set_timeScale(){} // RVA: 0x7FFAF375CEC0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_E79(){} // RVA: 0x7FFAF375C860
-        public void m_AB5(){} // RVA: 0x7FFAF375C970
-        public void m_B20(){} // RVA: 0x7FFAF375CA80
-        public void m_A49(){} // RVA: 0x7FFAF375CB90
-        public void m_26F(){} // RVA: 0x7FFAF375CCA0
-        public void m_35C(){} // RVA: 0x7FFAF375CDB0
-        public void m_FCF(){} // RVA: 0x7FFAF375CEC0
     }
 
     /// <summary>Originally: ÌÏÌÏÏÍÎÎÏÌÎÌÍÍÏÎÌÍÌÎÌÌÌ</summary>
@@ -1980,32 +2003,30 @@ namespace VRC.Core.Transform
     public class TransformVector3Handler_2588
     {
         // ── Methods ──
+        public void ProcessLocalVector3(){} // RVA: 0x7FFAF36B2BD0
         public void OrthoNormalize2(){} // RVA: 0x7FFAF36B2D90
+        public void ProcessWorldVector3(){} // RVA: 0x7FFAF36B3270
+        public void ProcessRelativeVector3(){} // RVA: 0x7FFAF36B3750
+        public void NormalizeVector3(){} // RVA: 0x7FFAF36B3910
+        public void GetVector3Magnitude(){} // RVA: 0x7FFAF36B3DF0
+        public void ProcessDirectionVector3(){} // RVA: 0x7FFAF36B42D0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF36B47B0
         public void ProcessVector3(){} // RVA: 0x7FFAF36B4970
-        // ── Unresolved (hash) ──
-        public void m_9E5(){} // RVA: 0x7FFAF36B2BD0
-        public void m_B3D(){} // RVA: 0x7FFAF36B3270
-        public void m_D94(){} // RVA: 0x7FFAF36B3750
-        public void m_79D(){} // RVA: 0x7FFAF36B3910
-        public void m_E28(){} // RVA: 0x7FFAF36B3DF0
-        public void m_FF5(){} // RVA: 0x7FFAF36B42D0
-        public void m_B76(){} // RVA: 0x7FFAF36B4B30
+        public void FormatVector3(){} // RVA: 0x7FFAF36B4B30
     }
 
     /// <summary>Originally: ÌÎÏÏÌÌÍÎÎÌÌÍÎÌÌÌÏÌÎÍÎÍÏ</summary>
     public class TransformVector3Handler_3205
     {
         // ── Methods ──
+        public void GetLocalPosition(){} // RVA: 0x7FFAF370A550
+        public void SetLocalPosition(){} // RVA: 0x7FFAF370A670
         public void ProcessVector3(){} // RVA: 0x7FFAF370A790
         public void ProcessVector3_A3332127A23B(){} // RVA: 0x7FFAF370A8B0
+        public void UpdatePosition(){} // RVA: 0x7FFAF370A9D0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF370AAF0
-        // ── Unresolved (hash) ──
-        public void m_C64(){} // RVA: 0x7FFAF370A550
-        public void m_7EB(){} // RVA: 0x7FFAF370A670
-        public void m_F77(){} // RVA: 0x7FFAF370A9D0
     }
 
 }

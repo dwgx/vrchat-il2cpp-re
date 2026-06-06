@@ -1038,17 +1038,28 @@ namespace VRC.Rendering
     public class CamerarenderModelNameSibling_6C15
     {
         // ── Methods ──
+        public void CreateRenderModelCamera(){} // RVA: 0x7FFAF34E4230
+        public void ConfigureRenderModelCamera(){} // RVA: 0x7FFAF34E4330
+        public void CreateRenderModelTexture(){} // RVA: 0x7FFAF34E43C0
+        public void ApplyRenderModelTexture(){} // RVA: 0x7FFAF34E4450
+        public void RegisterRenderModelName(){} // RVA: 0x7FFAF34E45E0
+        public void CreateRenderTextureDescriptor(){} // RVA: 0x7FFAF34E4670
         public void Start(){} // RVA: 0x7FFAF34E4700
+        public void ApplyRenderTextureSettings(){} // RVA: 0x7FFAF34E4980
+        public void CreateCameraRenderTexture(){} // RVA: 0x7FFAF34E4330
+        public void ReleaseRenderTexture(){} // RVA: 0x7FFAF34E43C0
+        public void CreateMaterialRenderTexture(){} // RVA: 0x7FFAF34E4C00
         public void .ctor(){} // RVA: 0x7FFAF34E4CC0
         public void Initialize(){} // RVA: 0x7FFAF34E4670
+        public void CreateRenderModelMesh(){} // RVA: 0x7FFAF34E5020
+        public void UpdateRenderModelName(){} // RVA: 0x7FFAF34E45E0
+        public void SetRenderModelName(){} // RVA: 0x7FFAF34E4670
+        public void GetRenderModelName(){} // RVA: 0x7FFAF34E4330
+        public void ApplyCameraTargetTexture(){} // RVA: 0x7FFAF34E52A0
         public void OnDestroy(){} // RVA: 0x7FFAF34E5520
-        // ── 18 unresolved (hash) ──
-        public void m_588(){} // RVA: 0x7FFAF34E4230
-        public void m_5D7(){} // RVA: 0x7FFAF34E4330
-        public void m_579(){} // RVA: 0x7FFAF34E43C0
-        public void m_AF5(){} // RVA: 0x7FFAF34E4450
-        public void m_6AB(){} // RVA: 0x7FFAF34E45E0
-        // ... 13 more unresolved methods
+        public void ResetCameraTargetTexture(){} // RVA: 0x7FFAF34E45E0
+        public void ApplyRenderModelMaterial(){} // RVA: 0x7FFAF34E45E0
+        public void ApplyRenderModelMesh(){} // RVA: 0x7FFAF34E57A0
     }
 
     /// <summary>Originally: ÌÍÍÌÌÏÍÎÏÌÏÌÎÌÍÍÍÎÌÌÎÌÌ</summary>
@@ -1057,22 +1068,22 @@ namespace VRC.Rendering
         public object renderModelName;
 
         // ── Methods ──
+        public void GetRenderModelName(){} // RVA: 0x7FFAFB8A5860
+        public void SetRenderModelError(){} // RVA: 0x7FFAFB8A5910
         public void get_IgnoreCase(){} // RVA: 0x7FFAF2E7B9D0
+        public void LoadRenderModel(){} // RVA: 0x7FFAFB8A59E0
+        public void ReleaseRenderModel(){} // RVA: 0x7FFAFB8A5AB0
+        public void LoadRenderModelTexture(){} // RVA: 0x7FFAFB8A5BC0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8A5ED0
+        public void CompareRenderModelName(){} // RVA: 0x7FFAFB8A60A0
         public void Start(){} // RVA: 0x7FFAFB8A61C0
         public void CompareTo(){} // RVA: 0x7FFAFB8A6320
+        public void CopyRenderModelName(){} // RVA: 0x7FFAFB8A6770
         // ── Unresolved (hash) ──
-        public void m_C9E(){} // RVA: 0x7FFAFB8A5860
-        public void m_FCD(){} // RVA: 0x7FFAFB8A5910
-        public void m_5A8(){} // RVA: 0x7FFAFB8A59E0
-        public void m_27F(){} // RVA: 0x7FFAFB8A5AB0
-        public void m_DA7(){} // RVA: 0x7FFAFB8A5BC0
-        public void m_6B3(){} // RVA: 0x7FFAFB8A60A0
         public void m_FA5(){} // RVA: 0x7FFAFB8A6150
         public void m_3CB(){} // RVA: 0x7FFAFB8A6270
         public void m_852(){} // RVA: 0x7FFAFB8A6700
-        public void m_A74(){} // RVA: 0x7FFAFB8A6770
     }
 
 }

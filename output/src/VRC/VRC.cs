@@ -22,10 +22,9 @@ namespace VRC
         public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
         public void ToString(){} // RVA: 0x7FFAF466F340
         public void ProcessChildTransforms(){} // RVA: 0x7FFAF466E8E0
+        public void get_name(){} // RVA: 0x7FFAF466F470
         public void IsNativeObjectAlive_648472B1FD23(){} // RVA: 0x7FFAF466EB90
-        // ── Unresolved (hash) ──
-        public void m_8AE(){} // RVA: 0x7FFAF466F470
-        public void m_F73(){} // RVA: 0x7FFAF466F7D0
+        public void op_Implicit(){} // RVA: 0x7FFAF466F7D0
     }
 
     public class BackgroundOption

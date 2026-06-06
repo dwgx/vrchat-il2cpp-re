@@ -958,13 +958,16 @@ namespace VRC.Rendering
         public void FixedUpdate(){} // RVA: 0x7FFAF3BBD990
         public void .ctor(){} // RVA: 0x7FFAF3BBE030
         public void OnDestroy(){} // RVA: 0x7FFAF3BBE5C0
-        // ── 24 unresolved (hash) ──
+        public void GetBoneTransform(){} // RVA: 0x7FFAF3BBEB90
+        public void FindLastEnabledDependencyIndex_F877CC432432(){} // RVA: 0x7FFAF3BBEF40
+        public void FindLastEnabledDependencyIndex_68CEE073055F(){} // RVA: 0x7FFAF3BBF060
+        // ── 21 unresolved (hash) ──
         public void m_58E(){} // RVA: 0x7FFAF3BB8180
         public void m_ACC(){} // RVA: 0x7FFAF3BB81B0
         public void m_678(){} // RVA: 0x7FFAF3BB8260
         public void m_10B(){} // RVA: 0x7FFAF3BB82D0
         public void m_95A(){} // RVA: 0x7FFAF3BB8950
-        // ... 19 more unresolved methods
+        // ... 16 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÍÌÌÎÌÎÍÎÍÏÎÏÌÏÏÌÏÏÎÎÏ</summary>
@@ -986,28 +989,27 @@ namespace VRC.Rendering
     public class CameraRenderingHandler_D0B1
     {
         // ── Methods ──
+        public void ResetRenderingState(){} // RVA: 0x7FFAF3B5EFA0
         public void ProcessCamera(){} // RVA: 0x7FFAF3B5F1A0
+        public void UpdateCharacterControllerCameraMotion(){} // RVA: 0x7FFAF3B5F3A0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3B5F5A0
+        public void PlayRandomGroundedAudioClip(){} // RVA: 0x7FFAF3B5F7A0
+        public void PlayRandomGroundedAudioClip_E7C6006C02D1(){} // RVA: 0x7FFAF3B5F9A0
         public void GetTargetTexture(){} // RVA: 0x7FFAF3B5FBA0
-        // ── Unresolved (hash) ──
-        public void m_D5F(){} // RVA: 0x7FFAF3B5EFA0
-        public void m_D39(){} // RVA: 0x7FFAF3B5F3A0
-        public void m_E66(){} // RVA: 0x7FFAF3B5F7A0
-        public void m_E7C(){} // RVA: 0x7FFAF3B5F9A0
     }
 
     /// <summary>Originally: ÏÌÌÎÏÎÌÎÌÎÏÏÍÍÍÏÎÌÏÌÏÍÎ</summary>
     public class CameraTimeHandler_1097
     {
         // ── Methods ──
-        public void FindLastIndexInRange(){} // RVA: 0x7FFAF43C8B70
-        public void FindLastIndex(){} // RVA: 0x7FFAF43C8CA0
+        public void FindLastIndexInRange(){} // RVA: 0x7FFAF43C8910
+        public void FindLastIndex(){} // RVA: 0x7FFAF43C8A40
+        public void FindLastIndexInRange_E79A1713D584(){} // RVA: 0x7FFAF43C8B70
+        public void FindLastIndex_09C905B4A150(){} // RVA: 0x7FFAF43C8CA0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF43C8DD0
         // ── Unresolved (hash) ──
-        public void m_985(){} // RVA: 0x7FFAF43C8910
-        public void m_338(){} // RVA: 0x7FFAF43C8A40
         public void m_EE5(){} // RVA: 0x7FFAF43C8F00
     }
 
@@ -1015,16 +1017,15 @@ namespace VRC.Rendering
     public class CameraTransformHandler_8D72
     {
         // ── Methods ──
+        public void EqualsCameraTransformState(){} // RVA: 0x7FFAF3600E70
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3600F20
+        public void GetCameraTransformState(){} // RVA: 0x7FFAF3600FD0
+        public void GetCameraTransformState_F9081F079F2A(){} // RVA: 0x7FFAF3601080
+        public void CreateCameraTransformEnumerator(){} // RVA: 0x7FFAF3601130
+        public void CreateCameraTransformEnumerator_33482BBA3005(){} // RVA: 0x7FFAF36011E0
         public void GetCurrent(){} // RVA: 0x7FFAF3601290
         public void ReadCameraProperties(){} // RVA: 0x7FFAF3601340
-        // ── Unresolved (hash) ──
-        public void m_DE6(){} // RVA: 0x7FFAF3600E70
-        public void m_D3F(){} // RVA: 0x7FFAF3600FD0
-        public void m_F90(){} // RVA: 0x7FFAF3601080
-        public void m_187(){} // RVA: 0x7FFAF3601130
-        public void m_334(){} // RVA: 0x7FFAF36011E0
     }
 
 }

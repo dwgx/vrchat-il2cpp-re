@@ -9,6 +9,8 @@ namespace VRC.Misc
     public class LightManagerSibling_5E85
     {
         // ── Methods ──
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Item(){} // RVA: 0x7FFAF2ABCD60
         public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void Remove(){} // RVA: 0x7FFAF2ABDE40
@@ -16,8 +18,6 @@ namespace VRC.Misc
         public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void Clear(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
-        public void m_10E(){} // RVA: 0x7FFAF2ABCD60
-        public void m_B25(){} // RVA: 0x7FFAF2ABCD60
         public void m_0BA(){} // RVA: 0x7FFAF2ABCD60
         public void m_352(){} // RVA: 0x7FFAF2ABCD60
     }
@@ -146,6 +146,8 @@ namespace VRC.Misc
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Item(){} // RVA: 0x7FFAF2ABCD60
         public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_Count(){} // RVA: 0x7FFAF2ABD840
         public void ConvertAll(){} // RVA: 0x7FFAF2ABCE10
@@ -158,13 +160,13 @@ namespace VRC.Misc
         public void GetCustomAttributes_08FE711B4A07(){} // RVA: 0x7FFAF2ACD640
         public void ConvertAll_931D3ED54BEB(){} // RVA: 0x7FFAF2ABCE10
         public void ConvertAll_A6044F048A6A(){} // RVA: 0x7FFAF2ABCE10
-        // ── 13 unresolved (hash) ──
-        public void m_A95(){} // RVA: 0x7FFAF2ABCD60
-        public void m_93D(){} // RVA: 0x7FFAF2ABCD60
+        // ── 11 unresolved (hash) ──
         public void m_58A(){} // RVA: 0x7FFAF2ABCD60
         public void m_FAE(){} // RVA: 0x7FFAF2ABCD60
         public void m_D94(){} // RVA: 0x7FFAF2ABCD60
-        // ... 8 more unresolved methods
+        public void m_CE5(){} // RVA: 0x7FFAF2ABCD60
+        public void m_9AA(){} // RVA: 0x7FFAF2ABCD60
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÏÌÌÌÌÎÌÏÌÎÌÎÏÍÏÍÌÎÍÍÍ</summary>
@@ -180,9 +182,8 @@ namespace VRC.Misc
         public void FillArrayRange_241361A2E81F(){} // RVA: 0x7FFAF432E500
         public void FillArrayRange_F82A2C534C71(){} // RVA: 0x7FFAF432E730
         public void Exit(){} // RVA: 0x7FFAF432E960
+        public void ExitApplication(){} // RVA: 0x7FFAF432E9B0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_E04(){} // RVA: 0x7FFAF432E9B0
     }
 
 }

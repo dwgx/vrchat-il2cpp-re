@@ -1147,10 +1147,10 @@ public class AssetPreloader
     public void Initialize(){} // RVA: 0x7FFAF3C2B200
     public void TryFindPreloadAssetIndices_793571568F6B(){} // RVA: 0x7FFAF3C2B310
     public void Finalize(){} // RVA: 0x7FFAF3C2B4E0
+    public void FindPreloadAsset(){} // RVA: 0x7FFAF3C2B700
     public void .ctor(){} // RVA: 0x7FFAF3C2B960
     public void ApplyCachedLocalPosition_644D4CCA2C1E(){} // RVA: 0x7FFAF3C2BE30
     // ── Unresolved (hash) ──
-    public void m_061(){} // RVA: 0x7FFAF3C2B700
     public void m_0BC(){} // RVA: 0x7FFAF3C2C380
     public void m_0C1(){} // RVA: 0x7FFAF3C2C560
     public void m_7F9(){} // RVA: 0x7FFAF3C2C760

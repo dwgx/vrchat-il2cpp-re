@@ -28,6 +28,7 @@ namespace VRC.UI
         public void OnTriggerEnter(){} // RVA: 0x7FFAF437C1A0
         public void OnTriggerStay(){} // RVA: 0x7FFAF437C340
         public void OnTriggerExit(){} // RVA: 0x7FFAF437C5D0
+        public void RemoveAt(){} // RVA: 0x7FFAF437C6F0
         public void Update(){} // RVA: 0x7FFAF437C840
         public void IndexOf(){} // RVA: 0x7FFAF437C900
         public void FindIndex_1C8CB58DA779(){} // RVA: 0x7FFAF437CE90
@@ -36,7 +37,6 @@ namespace VRC.UI
         public void OnApplicationPause(){} // RVA: 0x7FFAF437D5C0
         // ── Unresolved (hash) ──
         public void m_7BB(){} // RVA: 0x7FFAF4379C10
-        public void m_249(){} // RVA: 0x7FFAF437C6F0
     }
 
 }

@@ -24,15 +24,14 @@ namespace VRC.Rendering
     public class GeometryUtilityRendererHandler_4756
     {
         // ── Methods ──
+        public void GetRendererBounds(){} // RVA: 0x7FFAF44A7CE0
+        public void GetGeometryBounds(){} // RVA: 0x7FFAF44A7D20
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF44A7DD0
         public void GetBounds(){} // RVA: 0x7FFAF44A7E80
         public void GetBounds_6EF5B35C8E3E(){} // RVA: 0x7FFAF44A7F30
         public void GetBounds_F7FA7A1E00F9(){} // RVA: 0x7FFAF44A7F70
         public void ProcessGeometryUtility(){} // RVA: 0x7FFAF44A8020
-        // ── Unresolved (hash) ──
-        public void m_072(){} // RVA: 0x7FFAF44A7CE0
-        public void m_027(){} // RVA: 0x7FFAF44A7D20
     }
 
 }

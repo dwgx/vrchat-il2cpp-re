@@ -513,7 +513,10 @@ public class EventReplicator`2
 {
     // ── Methods ──
     public void Awake(){} // RVA: 0x7FFAF2AD4A50
+    public void set_Item(){} // RVA: 0x7FFAF2AD4B10
     public void Add(){} // RVA: 0x7FFAF2AD4B10
+    public void get_Item(){} // RVA: 0x7FFAF2AD4B10
+    public void InitializeCollection(){} // RVA: 0x7FFAF2AD4A50
     public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF2ADDC60
     public void OnDestroy(){} // RVA: 0x7FFAF2AD4A50
     public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
@@ -534,9 +537,6 @@ public class EventReplicator`2
     public void Update(){} // RVA: 0x7FFAF2AD4A50
     public void get_MoveNext(){} // RVA: 0x7FFAF2ABCD60
     // ── Unresolved (hash) ──
-    public void m_128(){} // RVA: 0x7FFAF2AD4B10
-    public void m_C8C(){} // RVA: 0x7FFAF2AD4B10
-    public void m_8A3(){} // RVA: 0x7FFAF2AD4A50
     public void m_A81(){} // RVA: 0x7FFAF2AD4B10
     public void m_C46(){} // RVA: 0x7FFAF2AD4A50
     public void m_2B4(){} // RVA: 0x7FFAF2AD4A50
@@ -549,7 +549,10 @@ public class EventReplicator`2
 {
     // ── Methods ──
     public void Awake(){} // RVA: 0x7FFAF5DB7F10
+    public void set_Item(){} // RVA: 0x7FFAF5DB8130
     public void Add(){} // RVA: 0x7FFAF5DB8240
+    public void get_Item(){} // RVA: 0x7FFAF5DB8510
+    public void InitializeCollection(){} // RVA: 0x7FFAF5DB8620
     public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF5DB89E0
     public void OnDestroy(){} // RVA: 0x7FFAF5DB8DA0
     public void get_IsReadOnly(){} // RVA: 0x7FFAF5DB8F80
@@ -570,9 +573,6 @@ public class EventReplicator`2
     public void Update(){} // RVA: 0x7FFAF5DBC010
     public void get_MoveNext(){} // RVA: 0x7FFAF2F476A0
     // ── Unresolved (hash) ──
-    public void m_128(){} // RVA: 0x7FFAF5DB8130
-    public void m_C8C(){} // RVA: 0x7FFAF5DB8510
-    public void m_8A3(){} // RVA: 0x7FFAF5DB8620
     public void m_A81(){} // RVA: 0x7FFAF5DB8800
     public void m_C46(){} // RVA: 0x7FFAF5DBA2C0
     public void m_2B4(){} // RVA: 0x7FFAF5DBACA0

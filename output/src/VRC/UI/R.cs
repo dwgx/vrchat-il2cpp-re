@@ -17,15 +17,14 @@ namespace VRC.UI
     {
         // ── Methods ──
         public void BuildGenericMethodConstructionFailureMessage(){} // RVA: 0x7FFAFBA6B4E0
+        public void IsAssignableFrom(){} // RVA: 0x7FFAFBA6B9A0
+        public void GetInterfaces(){} // RVA: 0x7FFAFBA6BE60
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFBA6C320
+        public void ReleaseInterfaceCache(){} // RVA: 0x7FFAFBA6C7E0
         public void ResolveAA(){} // RVA: 0x7FFAFBA6CCA0
         public void RotateLeft(){} // RVA: 0x7FFAFBA6D160
-        // ── Unresolved (hash) ──
-        public void m_509(){} // RVA: 0x7FFAFBA6B9A0
-        public void m_384(){} // RVA: 0x7FFAFBA6BE60
-        public void m_3C7(){} // RVA: 0x7FFAFBA6C7E0
-        public void m_FD6(){} // RVA: 0x7FFAFBA6D620
+        public void GetGenericArguments(){} // RVA: 0x7FFAFBA6D620
     }
 
     /// <summary>Originally: ÍÌÎÍÍÍÌÌÏÌÌÍÌÎÍÎÌÏÍÌÌÎÍ</summary>

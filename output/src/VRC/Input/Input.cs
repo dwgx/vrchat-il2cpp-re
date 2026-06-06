@@ -15,14 +15,13 @@ namespace VRC.Input
         public void Initialize(){} // RVA: 0x7FFAF3594370
         public void CreateBindingContext_BC4C59E7F6C2(){} // RVA: 0x7FFAF35945B0
         public void OnDestroy(){} // RVA: 0x7FFAF3594780
+        public void GetOrCreateBindingContext(){} // RVA: 0x7FFAF3594880
         public void Start(){} // RVA: 0x7FFAF35948F0
+        public void CreateBindingContext_A9A0B0FDF305(){} // RVA: 0x7FFAF3594AE0
         public void CreateBindingContext_D7AEE41AE5BA(){} // RVA: 0x7FFAF3594B50
-        // ── Unresolved (hash) ──
-        public void m_322(){} // RVA: 0x7FFAF3594880
-        public void m_A9A(){} // RVA: 0x7FFAF3594AE0
-        public void m_88D(){} // RVA: 0x7FFAF3594C30
-        public void m_C1C(){} // RVA: 0x7FFAF3594D10
-        public void m_2D5(){} // RVA: 0x7FFAF3594F50
+        public void CompareBindingContext(){} // RVA: 0x7FFAF3594C30
+        public void CompareBindingContext_C1C7CE7F39E9(){} // RVA: 0x7FFAF3594D10
+        public void CreateBindingContext_2D58A824DD26(){} // RVA: 0x7FFAF3594F50
     }
 
     /// <summary>Originally: ÍÏÍÍÏÌÌÍÍÏÏÌÌÍÎÎÍÌÏÍÍÏÌ</summary>
@@ -133,14 +132,14 @@ namespace VRC.Input
         public void Update(){} // RVA: 0x7FFAF3605B10
         public void get_MoveNext_AC432A2A491A(){} // RVA: 0x7FFAF2F12D00
         public void GetAxisRaw(){} // RVA: 0x7FFAF3606F70
+        public void GetAxis(){} // RVA: 0x7FFAF36070B0
         public void get_minTrackingConfidence(){} // RVA: 0x7FFAF2E6C210
+        public void GetButton(){} // RVA: 0x7FFAF3607D20
         // ── Unresolved (hash) ──
         public void m_2EF(){} // RVA: 0x7FFAF3604730
         public void m_CA7(){} // RVA: 0x7FFAF3605490
         public void m_348(){} // RVA: 0x7FFAF3605A80
         public void m_632(){} // RVA: 0x7FFAF3606760
-        public void m_FAC(){} // RVA: 0x7FFAF36070B0
-        public void m_EC9(){} // RVA: 0x7FFAF3607D20
     }
 
     /// <summary>Originally: ÍÌÍÏÎÏÌÏÎÍÌÏÌÏÍÎÏÍÌÍÏÌÎ</summary>
@@ -237,9 +236,8 @@ namespace VRC.Input
         public void OnScroll(){} // RVA: 0x7FFAF427B210
         public void OnEndEdit(){} // RVA: 0x7FFAF427B650
         public void OnPointerExit(){} // RVA: 0x7FFAF427BCC0
+        public void SetText(){} // RVA: 0x7FFAF427BDF0
         public void OnValueChanged_7B90950F2F00(){} // RVA: 0x7FFAF427BF20
-        // ── Unresolved (hash) ──
-        public void m_FE4(){} // RVA: 0x7FFAF427BDF0
     }
 
     /// <summary>Originally: ÎÏÏÎÎÎÌÍÏÍÍÍÌÍÌÍÌÍÎÏÏÌÏ</summary>

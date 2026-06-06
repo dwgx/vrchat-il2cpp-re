@@ -47,7 +47,9 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void ConfigureGameObject(){} // RVA: 0x7FFAF3D14D00
+        public void get_relatedTarget(){} // RVA: 0x7FFAF3D156B0
         public void OnTransformChildrenChanged(){} // RVA: 0x7FFAF2E2B370
+        public void set_SameFunc(){} // RVA: 0x7FFAF3D15770
         public void LastIndexOf_674CB52AB8CC(){} // RVA: 0x7FFAF3357360
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF2E55500
         public void SetLocalScale(){} // RVA: 0x7FFAF3D157C0
@@ -63,8 +65,11 @@ namespace VRC.Animation
         public void get_MoveNext(){} // RVA: 0x7FFAF2F12D00
         public void IndexOf(){} // RVA: 0x7FFAF3352E80
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
+        public void set_MoveNext(){} // RVA: 0x7FFAF3D18B50
         public void GetFirstChildTransform_38706C326265(){} // RVA: 0x7FFAF3D18BA0
         public void GetFirstChildTransform_20E5F8DE6A9B(){} // RVA: 0x7FFAF3D18BB0
+        public void get_isHmdPresent(){} // RVA: 0x7FFAF3D18E30
+        public void set_isHmdPresent(){} // RVA: 0x7FFAF3D18EF0
         public void Constructor_C377E0B22BD2(){} // RVA: 0x7FFAF2E2B380
         public void BinarySearch(){} // RVA: 0x7FFAF33579A0
         public void ObjectType(){} // RVA: 0x7FFAF2EE54D0
@@ -72,29 +77,22 @@ namespace VRC.Animation
         public void LastIndexOf_674CB52AB8CC_10D401C63C59(){} // RVA: 0x7FFAF3357360
         public void OnTransformChildrenChanged_4645AD4B2D76(){} // RVA: 0x7FFAF2E2B370
         public void get_isHmdPresent_802E4E(){} // RVA: 0x7FFAF3358570
-        // ── Unresolved (hash) ──
-        public void m_F0A(){} // RVA: 0x7FFAF3D156B0
-        public void m_A84(){} // RVA: 0x7FFAF3D15770
-        public void m_AE6(){} // RVA: 0x7FFAF3D18B50
-        public void m_338(){} // RVA: 0x7FFAF3D18E30
-        public void m_201(){} // RVA: 0x7FFAF3D18EF0
     }
 
     /// <summary>Originally: ÏÎÍÍÎÌÌÏÏÌÏÎÏÌÍÌÎÌÍÏÎÎÍ</summary>
     public class TransformAnimationHandler_BE44
     {
         // ── Methods ──
+        public void CopyAvatarAnimationReferences(){} // RVA: 0x7FFAF396BB20
+        public void CopyAvatarAnimationReferences_C957709D2F81(){} // RVA: 0x7FFAF396BBD0
+        public void CopyAvatarAnimationReferences_8289DF0E29A2(){} // RVA: 0x7FFAF396BC80
+        public void CopyAvatarAnimationReferences_D49E32235043(){} // RVA: 0x7FFAF396BD30
         public void GetIsHuman(){} // RVA: 0x7FFAF396BDE0
         public void GetAvatar(){} // RVA: 0x7FFAF396BE90
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF396BF40
         public void GetAvatar_CFCBA11B8BEE(){} // RVA: 0x7FFAF396BFF0
         public void GetIsHuman_534A787E0362(){} // RVA: 0x7FFAF396C0A0
-        // ── Unresolved (hash) ──
-        public void m_6AF(){} // RVA: 0x7FFAF396BB20
-        public void m_C95(){} // RVA: 0x7FFAF396BBD0
-        public void m_828(){} // RVA: 0x7FFAF396BC80
-        public void m_D49(){} // RVA: 0x7FFAF396BD30
     }
 
     /// <summary>Originally: ÍÏÍÏÎÌÍÎÎÎÌÍÍÌÍÍÏÌÎÍÎÎÏ</summary>

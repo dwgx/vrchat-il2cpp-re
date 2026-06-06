@@ -41,11 +41,20 @@ namespace VRC.UI
         public void OnScroll(){} // RVA: 0x7FFAFB700C00
         public void OnValueChanged(){} // RVA: 0x7FFAFB7019D0
         public void OnEndEdit(){} // RVA: 0x7FFAF304E660
+        public void InitializeResponseModel(){} // RVA: 0x7FFAFB701A90
         public void get_ResponseModels(){} // RVA: 0x7FFAF2E08D50
-        public void StartStateMachine(){} // RVA: 0x7FFAFB703B80
+        public void StartStateMachine(){} // RVA: 0x7FFAFB701C90
+        public void StartStateMachine_C49941558721(){} // RVA: 0x7FFAFB702560
+        public void DispatchButtonTransformResult(){} // RVA: 0x7FFAFB703120
+        public void StartStateMachine_3BF22ED2C33E(){} // RVA: 0x7FFAFB703320
+        public void StartStateMachine_34EA3FBFA3F1(){} // RVA: 0x7FFAFB703450
+        public void StartStateMachine_A4C0F321D30A(){} // RVA: 0x7FFAFB703B80
         public void get_up(){} // RVA: 0x7FFAF304E660
         public void OnTransformChildrenChanged(){} // RVA: 0x7FFAF2E2B370
-        public void DispatchButtonTransformResult(){} // RVA: 0x7FFAFB7058F0
+        public void DispatchButtonTransformResult_5E1D66D66472(){} // RVA: 0x7FFAFB7054B0
+        public void DispatchButtonTransformResult_641A0581468D(){} // RVA: 0x7FFAFB7057C0
+        public void DispatchButtonTransformResult_5FE4B716000D(){} // RVA: 0x7FFAFB7057E0
+        public void DispatchButtonTransformResult_16165AA0D68A(){} // RVA: 0x7FFAFB7058F0
         public void DispatchButtonTransformResult_FFED58473F42(){} // RVA: 0x7FFAFB705A00
         public void Awake(){} // RVA: 0x7FFAFB705B30
         public void OnEnable(){} // RVA: 0x7FFAFB705D40
@@ -54,13 +63,13 @@ namespace VRC.UI
         public void Initialize(){} // RVA: 0x7FFAFB707640
         public void LateUpdate(){} // RVA: 0x7FFAFB707780
         public void OnDisable(){} // RVA: 0x7FFAFB7078D0
-        // ── 21 unresolved (hash) ──
-        public void m_2FD(){} // RVA: 0x7FFAFB701A90
-        public void m_6B3(){} // RVA: 0x7FFAFB701C90
-        public void m_C49(){} // RVA: 0x7FFAFB702560
-        public void m_35C(){} // RVA: 0x7FFAFB703120
-        public void m_3BF(){} // RVA: 0x7FFAFB703320
-        // ... 16 more unresolved methods
+        // ── 12 unresolved (hash) ──
+        public void m_AB9(){} // RVA: 0x7FFAFB7034B0
+        public void m_050(){} // RVA: 0x7FFAFB703680
+        public void m_5CC(){} // RVA: 0x7FFAFB7037A0
+        public void m_1F0(){} // RVA: 0x7FFAFB703AB0
+        public void m_A72(){} // RVA: 0x7FFAFB703D30
+        // ... 7 more unresolved methods
     }
 
 }

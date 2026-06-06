@@ -10,29 +10,33 @@ namespace VRC.Player
     {
         // ── Methods ──
         public void AddPlayerMods(){} // RVA: 0x7FFAF3EDB760
+        public void BuildPlayerModOperation(){} // RVA: 0x7FFAF3EDB880
         public void RemovePlayerMods(){} // RVA: 0x7FFAF3EDB910
+        public void ApplyPlayerModsCoroutine(){} // RVA: 0x7FFAF3EDBA30
+        public void RefreshPlayerMods(){} // RVA: 0x7FFAF3EDBB50
         public void Start(){} // RVA: 0x7FFAF3EDBBE0
         public void OnDestroy(){} // RVA: 0x7FFAF3EDBE10
+        public void CleanupPlayerModsCoroutine(){} // RVA: 0x7FFAF3EDBEA0
         public void UnloadUnusedAssets(){} // RVA: 0x7FFAF3EDC0D0
         public void .cctor(){} // RVA: 0x7FFAF3EDC160
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3EDC240
         public void GetIsDone(){} // RVA: 0x7FFAF3EDC2D0
-        // ── Unresolved (hash) ──
-        public void m_053(){} // RVA: 0x7FFAF3EDB880
-        public void m_0F7(){} // RVA: 0x7FFAF3EDBA30
-        public void m_692(){} // RVA: 0x7FFAF3EDBB50
-        public void m_C9E(){} // RVA: 0x7FFAF3EDBEA0
     }
 
     /// <summary>Originally: ÌÏÎÍÌÎÏÏÍÏÌÏÌÎÍÌÍÍÏÎÍÍÎ</summary>
     public class RoomPlayerTransformComponent_C49E
     {
         // ── Methods ──
+        public void RegisterAwaitContinuation(){} // RVA: 0x7FFAF3745840
+        public void RegisterAwaitContinuation_27FF045237FA(){} // RVA: 0x7FFAF37458E0
+        public void RegisterAwaitContinuation_C3C84E0D6692(){} // RVA: 0x7FFAF3745C70
         public void OrthoNormalize2(){} // RVA: 0x7FFAF3746010
+        public void RegisterAwaitContinuation_99AECA76DCFC(){} // RVA: 0x7FFAF3746100
         public void get_SameFunc(){} // RVA: 0x7FFAF2DCC010
+        public void OrthoNormalize2_79945F09EB64(){} // RVA: 0x7FFAF3746170
         public void OrthoNormalize2_709B84A9FB1C(){} // RVA: 0x7FFAF3746250
-        public void RegisterAwaitContinuation(){} // RVA: 0x7FFAF3746AA0
+        public void RegisterAwaitContinuation_0A251D938162(){} // RVA: 0x7FFAF3746AA0
         public void set_displayName(){} // RVA: 0x7FFAF2F4B830
         public void RegisterAwaitContinuation_15CA3DBC39E3(){} // RVA: 0x7FFAF3746AC0
         public void SetLocalRotation(){} // RVA: 0x7FFAF3747EA0
@@ -79,13 +83,13 @@ namespace VRC.Player
         public void OnTriggerStay(){} // RVA: 0x7FFAF374E4D0
         public void OnTriggerExit(){} // RVA: 0x7FFAF374E5C0
         public void RegisterAwaitContinuation_056B8992BC26(){} // RVA: 0x7FFAF374F120
-        // ── 32 unresolved (hash) ──
-        public void m_907(){} // RVA: 0x7FFAF3745840
-        public void m_27F(){} // RVA: 0x7FFAF37458E0
-        public void m_C3C(){} // RVA: 0x7FFAF3745C70
-        public void m_99A(){} // RVA: 0x7FFAF3746100
-        public void m_799(){} // RVA: 0x7FFAF3746170
-        // ... 27 more unresolved methods
+        // ── 27 unresolved (hash) ──
+        public void m_527(){} // RVA: 0x7FFAF3746C80
+        public void m_658(){} // RVA: 0x7FFAF3746CE0
+        public void m_D3F(){} // RVA: 0x7FFAF3746CF0
+        public void m_FC1(){} // RVA: 0x7FFAF3746E60
+        public void m_892(){} // RVA: 0x7FFAF3747170
+        // ... 22 more unresolved methods
     }
 
 }

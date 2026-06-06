@@ -508,21 +508,52 @@ namespace VRC.Misc
     public class DispatchIncomingCommandsSendOutgoingComm_8BCB_8607
     {
         // ── Methods ──
+        public void TrySendOperationWithParameters(){} // RVA: 0x7FFAF386A4B0
         public void Disconnect(){} // RVA: 0x7FFAF386A550
+        public void TrySendOperationWithOptions(){} // RVA: 0x7FFAF386A780
+        public void TrySendOperationWithPayload(){} // RVA: 0x7FFAF386A7E0
+        public void TrySendOperation(){} // RVA: 0x7FFAF386B4F0
         public void SendOperation(){} // RVA: 0x7FFAF386B530
+        public void DispatchOperationResponse(){} // RVA: 0x7FFAF386C300
+        public void GetQueuedOperation(){} // RVA: 0x7FFAF386C500
         public void DispatchIncomingCommands(){} // RVA: 0x7FFAF386C5D0
-        public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0
+        public void CopyOperationResult(){} // RVA: 0x7FFAF386C630
+        public void CopyCommandResult(){} // RVA: 0x7FFAF386C7A0
+        public void CopyIncomingCommand(){} // RVA: 0x7FFAF386C8C0
+        public void TryCopyTo(){} // RVA: 0x7FFAF386D4D0
+        public void QueueOutgoingCommand(){} // RVA: 0x7FFAF386D710
+        public void SendOperationWithFlags(){} // RVA: 0x7FFAF386D740
+        public void SendOperationWithCallback(){} // RVA: 0x7FFAF386E340
+        public void SendOperationAsync(){} // RVA: 0x7FFAF386E600
+        public void TryCopyTo_3F6D8B1A3B0F(){} // RVA: 0x7FFAF2D33FA0
+        public void SendOperationWithBooleans(){} // RVA: 0x7FFAF386D710
+        public void SendOperationWithParameterSet(){} // RVA: 0x7FFAF386E630
+        public void DispatchIncomingCommand(){} // RVA: 0x7FFAF386E650
+        public void DispatchEventData(){} // RVA: 0x7FFAF386E6C0
+        public void DispatchOperationEvent(){} // RVA: 0x7FFAF386EAC0
+        public void DispatchOperationWithResult(){} // RVA: 0x7FFAF386F030
+        public void SendOutgoingOperation(){} // RVA: 0x7FFAF386F0D0
+        public void SendOutgoingOperationAsync(){} // RVA: 0x7FFAF386F130
+        public void DispatchIncomingCommandsBatch(){} // RVA: 0x7FFAF386F850
+        public void SendOutgoingCommandsBatch(){} // RVA: 0x7FFAF386FA20
+        public void SendOutgoingCommandsBatchAsync(){} // RVA: 0x7FFAF386FA90
+        public void DispatchReliableCommandsAsync(){} // RVA: 0x7FFAF38705B0
+        public void DispatchReliableCommands(){} // RVA: 0x7FFAF3870800
+        public void DispatchReliableCommandsWithCallback(){} // RVA: 0x7FFAF3870880
+        public void GetRoundTripTime(){} // RVA: 0x7FFAF3870C10
+        public void GetServerTimestamp(){} // RVA: 0x7FFAF3870C20
+        public void GetNetworkStatistic(){} // RVA: 0x7FFAF3870C50
+        public void GetNetworkStatisticForPeer(){} // RVA: 0x7FFAF38711C0
+        public void SetNetworkPosition(){} // RVA: 0x7FFAF38712B0
         public void .cctor(){} // RVA: 0x7FFAF38714D0
+        public void GetNetworkFloat(){} // RVA: 0x7FFAF3871920
         public void .ctor(){} // RVA: 0x7FFAF3871990
         public void Initialize(){} // RVA: 0x7FFAF38721C0
+        public void GetSmoothedValue(){} // RVA: 0x7FFAF3872A10
+        public void GetSmoothedValueUnbound(){} // RVA: 0x7FFAF3872A50
         public void SendOutgoingCommands(){} // RVA: 0x7FFAF3872DF0
-        // ── 38 unresolved (hash) ──
-        public void m_30C(){} // RVA: 0x7FFAF386A4B0
-        public void m_F14(){} // RVA: 0x7FFAF386A780
-        public void m_4FF(){} // RVA: 0x7FFAF386A7E0
-        public void m_206(){} // RVA: 0x7FFAF386B4F0
-        public void m_A5F(){} // RVA: 0x7FFAF386C300
-        // ... 33 more unresolved methods
+        public void CalculateNetworkValue(){} // RVA: 0x7FFAF3872E80
+        public void CalculateNetworkValueFromIntegers(){} // RVA: 0x7FFAF3873110
     }
 
 }
