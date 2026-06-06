@@ -29,8 +29,8 @@ SOURCE_WEIGHTS = [
     ("old_new_window_match.json", 4),
     ("signature_pattern_predictions.json", 4),
     ("va_propagation_v3_names.json", 4),
-    ("claude_rule_names.json", 3),
-    ("claude_oldname_in_strings.json", 3),
+    ("llm_rule_names.json", 3),
+    ("llm_oldname_in_strings.json", 3),
 ]
 
 GENERIC_METHODS = {

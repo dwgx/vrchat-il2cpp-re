@@ -10,9 +10,9 @@
 2. 关闭不必要 apps（保留 Steam + VRChat + 这个终端）
 3. **重启一次**（apply 34GB pagefile — 当前 runtime 仍是 23GB）
 4. 重启后：Steam 启动 VRChat → 进 world → memory ≥ 5GB
-5. 告诉 Claude "ready"
+5. 准备好后继续
 
-## Claude 做 (trigger BSOD)
+## 触发 BSOD
 ```bash
 # Verify VRChat loaded
 powershell -Command "(Get-Process VRChat).WorkingSet64 / 1GB"  # should be >5
@@ -28,9 +28,9 @@ Windows 会：
 
 ## Post-Reboot (VRChat 已死，MEMORY.DMP 在磁盘)
 
-User 重新打开终端 → 回到项目 → 告诉 Claude "back"
+User 重新打开终端 → 回到项目 → 继续操作
 
-Claude 做：
+下一步：
 ```bash
 ls -la /c/Windows/MEMORY.DMP  # verify exists, ~32GB
 ```

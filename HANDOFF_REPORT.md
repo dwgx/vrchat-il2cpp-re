@@ -649,9 +649,9 @@ Name-source and lift maps:
 | `additional_names.json` | Manual/source-analysis class/method/type rules. |
 | `archive_recovered_names.json` | Small archive recovered names list. |
 | `callgraph_method_names.json` | Method names inferred from call graph. |
-| `claude_hexrays_names.json` | Small Claude Hex-Rays predictions. |
-| `claude_pseudocode_names.json` | Small Claude pseudocode predictions. |
-| `claude_theme_names.json` | Empty theme-name prediction file. |
+| `claude_hexrays_names.json` | Small LLM Hex-Rays predictions. |
+| `claude_pseudocode_names.json` | Small LLM pseudocode predictions. |
+| `claude_theme_names.json` | Empty theme-name prediction file (legacy). |
 | `cluster_propagated_names.json` | Hex-Rays cluster propagation output. |
 | `community_name_mapping.json` | Community direct matches/vocabulary. |
 | `cross_version_lifted_names.json` | Cross-version class/method lift data. |

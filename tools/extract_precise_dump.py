@@ -440,7 +440,49 @@ def parse_args():
         default=None,
         help="Explicit path for precise_dump C# stub output",
     )
+    parser.add_argument(
+        "--offsets",
+        default=None,
+        help="Path to struct_layout_report.json from reverse_struct_layout.py (auto-load offsets for new builds)",
+    )
     return parser.parse_args()
+
+
+def _load_offsets_from_report(report_path):
+    """Load struct offsets from reverse_struct_layout.py output."""
+    global OFF_ELEM, OFF_CAST, OFF_NAME, OFF_FIELDS, OFF_METHODS, OFF_PARENT
+    global MI_NAME, FI_STRIDE, FI_NAME
+    with open(report_path, "r", encoding="utf-8") as f:
+        report = json.load(f)
+    offsets = report.get("final_offsets", {})
+    if not offsets:
+        print(f"[-] No final_offsets in {report_path}")
+        return False
+    def h(v):
+        return int(v, 16) if isinstance(v, str) else int(v)
+    if "OFF_NAME" in offsets:
+        OFF_NAME = h(offsets["OFF_NAME"])
+    if "OFF_ELEM" in offsets:
+        OFF_ELEM = h(offsets["OFF_ELEM"])
+    if "OFF_CAST" in offsets:
+        OFF_CAST = h(offsets["OFF_CAST"])
+    if "OFF_FIELDS" in offsets:
+        OFF_FIELDS = h(offsets["OFF_FIELDS"])
+    if "OFF_METHODS" in offsets:
+        OFF_METHODS = h(offsets["OFF_METHODS"])
+    if "OFF_PARENT" in offsets:
+        OFF_PARENT = h(offsets["OFF_PARENT"])
+    if "MI_NAME" in offsets:
+        MI_NAME = h(offsets["MI_NAME"])
+    if "FI_STRIDE" in offsets:
+        FI_STRIDE = h(offsets["FI_STRIDE"])
+    if "FI_NAME" in offsets:
+        FI_NAME = h(offsets["FI_NAME"])
+    print(f"[+] Loaded offsets from {report_path}:")
+    print(f"    OFF_NAME=0x{OFF_NAME:X} OFF_ELEM=0x{OFF_ELEM:X} OFF_CAST=0x{OFF_CAST:X}")
+    print(f"    OFF_FIELDS=0x{OFF_FIELDS:X} OFF_METHODS=0x{OFF_METHODS:X} OFF_PARENT=0x{OFF_PARENT:X}")
+    print(f"    MI_NAME=0x{MI_NAME:X} FI_STRIDE=0x{FI_STRIDE:X} FI_NAME=0x{FI_NAME:X}")
+    return True
 
 
 def main():
@@ -451,6 +493,13 @@ def main():
     if not os.path.exists(dump_path):
         print(f"[-] Dump file not found: {dump_path}")
         sys.exit(1)
+
+    if args.offsets:
+        if not os.path.exists(args.offsets):
+            print(f"[-] Offsets file not found: {args.offsets}")
+            sys.exit(1)
+        if not _load_offsets_from_report(args.offsets):
+            sys.exit(1)
 
     print("[+] Opening dump...")
     dr = DumpReader(dump_path)

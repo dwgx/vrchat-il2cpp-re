@@ -45,8 +45,8 @@ TARGET_CLASS_NAMES = (
     "Il2CppObject",
 )
 
-HEAP_VA_START = 0x30000000
-HEAP_VA_END = 0x3E000000
+DEFAULT_HEAP_VA_START = 0x30000000
+DEFAULT_HEAP_VA_END = 0x3E000000
 NEARBY_WINDOW = 0x4000
 SELF_REF_LIMIT = 0xC0
 CLASS_SCAN_FOOTPRINT = 0x140
@@ -456,10 +456,12 @@ def scan_candidate_classes(
     off_ns: int,
     off_elem: int,
     off_cast: int,
+    heap_va_start: int = DEFAULT_HEAP_VA_START,
+    heap_va_end: int = DEFAULT_HEAP_VA_END,
 ) -> list[dict[str, object]]:
     candidates: list[dict[str, object]] = []
 
-    for range_start, range_end, file_off in dr.iter_ranges(HEAP_VA_START, HEAP_VA_END):
+    for range_start, range_end, file_off in dr.iter_ranges(heap_va_start, heap_va_end):
         last_va = range_end - CLASS_SCAN_FOOTPRINT
         if last_va < range_start:
             continue
@@ -826,6 +828,11 @@ def main() -> int:
         default=str(DEFAULT_OUTPUT_PATH),
         help=f"Path to the output JSON report (default: {DEFAULT_OUTPUT_PATH})",
     )
+    parser.add_argument(
+        "--auto-heap",
+        action="store_true",
+        help="Auto-detect heap VA range from string hit locations (use when default range fails)",
+    )
     args = parser.parse_args()
 
     dump_path = Path(args.dump)
@@ -862,15 +869,68 @@ def main() -> int:
         else:
             print("    nearby pass did not yield a usable triple")
 
+        # Determine heap VA range
+        heap_va_start = DEFAULT_HEAP_VA_START
+        heap_va_end = DEFAULT_HEAP_VA_END
+        auto_heap = getattr(args, 'auto_heap', False)
+
+        if auto_heap:
+            hit_vas = [int(str(h["va"]), 16) for h in string_hits]
+            if hit_vas:
+                va_min = min(hit_vas)
+                va_max = max(hit_vas)
+                heap_va_start = max(0, (va_min - 0x10000000) & ~0xFFF)
+                heap_va_end = (va_max + 0x10000000) | 0xFFF
+                print(f"[+] Auto-detected heap range: {hexv(heap_va_start)} - {hexv(heap_va_end)}")
+
         print("[+] Heap-wide pointer scan for known string VAs")
         t1 = time.time()
-        heap_pointer_hits = scan_qword_refs_in_ranges(dr, HEAP_VA_START, HEAP_VA_END, target_vas)
+        heap_pointer_hits = scan_qword_refs_in_ranges(dr, heap_va_start, heap_va_end, target_vas)
         heap_hist = build_layout_histogram(dr, heap_pointer_hits)
         timings["scan_heap_refs"] = time.time() - t1
         print(f"    heap pointer hits: {len(heap_pointer_hits)}")
 
+        if not heap_hist and not auto_heap:
+            print("[!] Default heap range found nothing, retrying with auto-detected range...")
+            hit_vas = [int(str(h["va"]), 16) for h in string_hits]
+            if hit_vas:
+                va_min = min(hit_vas)
+                va_max = max(hit_vas)
+                heap_va_start = max(0, (va_min - 0x10000000) & ~0xFFF)
+                heap_va_end = (va_max + 0x10000000) | 0xFFF
+                print(f"    auto range: {hexv(heap_va_start)} - {hexv(heap_va_end)}")
+                t1 = time.time()
+                heap_pointer_hits = scan_qword_refs_in_ranges(dr, heap_va_start, heap_va_end, target_vas)
+                heap_hist = build_layout_histogram(dr, heap_pointer_hits)
+                timings["scan_heap_refs_auto"] = time.time() - t1
+                print(f"    auto heap pointer hits: {len(heap_pointer_hits)}")
+
+        if not heap_hist and nearby_hist:
+            print("[!] Heap scan failed, falling back to nearby-window results")
+            heap_hist = nearby_hist
+            heap_pointer_hits = nearby_pointer_hits
+
         if not heap_hist:
-            raise RuntimeError("no layout candidates found from heap pointer scan")
+            print("[!] Trying full VA range scan as last resort...")
+            all_starts = [s for s, _, _ in dr.va_map]
+            all_ends = [s + sz for s, sz, _ in dr.va_map]
+            full_start = min(all_starts) if all_starts else 0
+            full_end = max(all_ends) if all_ends else 0
+            heap_va_start = full_start
+            heap_va_end = full_end
+            print(f"    full range: {hexv(full_start)} - {hexv(full_end)}")
+            t1 = time.time()
+            heap_pointer_hits = scan_qword_refs_in_ranges(dr, full_start, full_end, target_vas)
+            heap_hist = build_layout_histogram(dr, heap_pointer_hits)
+            timings["scan_full_refs"] = time.time() - t1
+            print(f"    full scan pointer hits: {len(heap_pointer_hits)}")
+
+        if not heap_hist:
+            raise RuntimeError(
+                "no layout candidates found from any scan pass. "
+                "Possible causes: dump too small, VRChat not fully loaded, "
+                "or Beebyte changed string storage. Try --auto-heap flag."
+            )
 
         best_layout = heap_hist[0]
         off_name = int(best_layout["off_name"])
@@ -892,6 +952,8 @@ def main() -> int:
             off_ns=0x18,
             off_elem=off_elem,
             off_cast=off_cast,
+            heap_va_start=heap_va_start,
+            heap_va_end=heap_va_end,
         )
         timings["scan_candidate_classes"] = time.time() - t1
         print(f"    candidate classes: {len(candidate_classes)}")

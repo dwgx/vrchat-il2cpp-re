@@ -3,7 +3,7 @@
 Build prediction batches for LLM method-name inference.
 
 Mirrors gemini_auto_loop.build_batches() but writes a fixed batch layout the
-Claude orchestrator can hand off to subagents:
+LLM orchestrator can hand off to subagents:
 
   output/llm_batches/batch_NNN.json   - 50 classes per batch, hash methods + known methods
   output/llm_batches/manifest.json    - batch index + class counts
