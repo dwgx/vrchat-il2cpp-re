@@ -125,6 +125,8 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetUseSpring(){} // RVA: 0x7FFAFB5D3560
+        public void UseSpring(){} // RVA: 0x7FFAF2D8D320
+        public void Initialized(){} // RVA: 0x7FFAFB5D3890
         public void .ctor(){} // RVA: 0x7FFAFB5D3980
         public void Initialize(){} // RVA: 0x7FFAFB5D39D0
         public void FixedUpdate(){} // RVA: 0x7FFAFB5D3A40
@@ -144,8 +146,6 @@ namespace VRC.Misc
         public void OnCollisionExit(){} // RVA: 0x7FFAFB5D5440
         public void Update(){} // RVA: 0x7FFAF2D8D320
         // ── Unresolved (hash) ──
-        public void m_D1C(){} // RVA: 0x7FFAF2D8D320
-        public void m_A66(){} // RVA: 0x7FFAFB5D3890
         public void m_323(){} // RVA: 0x7FFAFB5D3910
     }
 
@@ -573,13 +573,16 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetAspect(){} // RVA: 0x7FFAF44E46F0
-        // ── 25 unresolved (hash) ──
+        public void GetAspect_244256B39248(){} // RVA: 0x7FFAF4A15E80
+        public void GetAspect_61B007A2553B(){} // RVA: 0x7FFAF4A15E90
+        public void GetAspect_4A7D1EB76C3E(){} // RVA: 0x7FFAF4A15E70
+        // ── 22 unresolved (hash) ──
         public void m_DE8(){} // RVA: 0x7FFAF2F4B830
         public void m_888(){} // RVA: 0x7FFAF4A15E70
         public void m_7A3(){} // RVA: 0x7FFAF2D907C0
         public void m_B3A(){} // RVA: 0x7FFAF2E08740
         public void m_3F5(){} // RVA: 0x7FFAF4418950
-        // ... 20 more unresolved methods
+        // ... 17 more unresolved methods
     }
 
     /// <summary>Originally: ÌÎÏÏÏÌÏÏÏÏÌÌÍÏÌÏÍÍÌÌÏÍÏ</summary>
@@ -896,15 +899,17 @@ namespace VRC.Misc
     public class RequiresStoringSiblingSibRelated_F185
     {
         // ── Methods ──
-        public void ReadCapsuleColliderState(){} // RVA: 0x7FFAF2D900C0
+        public void ReadCapsuleColliderState(){} // RVA: 0x7FFAF4A693E0
+        public void ReadCapsuleColliderState_E8B3FD3085EA(){} // RVA: 0x7FFAF4A693F0
+        public void ReadCapsuleColliderState_04ACF4816B24(){} // RVA: 0x7FFAF2D900C0
         public void ReadCapsuleColliderState_277FF8898E54(){} // RVA: 0x7FFAF2D900C0
-        // ── 17 unresolved (hash) ──
+        // ── 15 unresolved (hash) ──
         public void m_D2D(){} // RVA: 0x7FFAF4A693E0
         public void m_968(){} // RVA: 0x7FFAF4959890
         public void m_6F4(){} // RVA: 0x7FFAF440A9C0
         public void m_84A(){} // RVA: 0x7FFAF30492B0
         public void m_453(){} // RVA: 0x7FFAF2DDA5C0
-        // ... 12 more unresolved methods
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÍÌÌÎÍÍÎÏÌÍÏÏÏÍÍÏÎÍÎÎÌÎÏ</summary>

@@ -118,15 +118,14 @@ namespace VRC.Network
         // ── Methods ──
         public void Dispose(){} // RVA: 0x7FFAF4A57910
         public void Cleanup(){} // RVA: 0x7FFAF4A57960
-        public void TryAdd(){} // RVA: 0x7FFAF4A57AC0
+        public void TryAdd(){} // RVA: 0x7FFAF4A579B0
+        public void TryAdd_6EA0BBD7AB19(){} // RVA: 0x7FFAF4A57A70
+        public void TryAdd_C0175E97133A(){} // RVA: 0x7FFAF4A57AC0
         public void TryAdd_EEEFF269E718(){} // RVA: 0x7FFAF4A57B80
-        public void TryGetValue(){} // RVA: 0x7FFAF4A57CE0
+        public void TryGetValue(){} // RVA: 0x7FFAF4A57C40
+        public void TryGetValue_2F048217F2F1(){} // RVA: 0x7FFAF4A57C90
+        public void TryGetValue_CF3C4C0F0CAD(){} // RVA: 0x7FFAF4A57CE0
         public void TryGetValue_937CF8FBCAA6(){} // RVA: 0x7FFAF4A57DA0
-        // ── Unresolved (hash) ──
-        public void m_6C6(){} // RVA: 0x7FFAF4A579B0
-        public void m_6EA(){} // RVA: 0x7FFAF4A57A70
-        public void m_51F(){} // RVA: 0x7FFAF4A57C40
-        public void m_2F0(){} // RVA: 0x7FFAF4A57C90
     }
 
     /// <summary>Originally: ÏÏÏÌÎÏÌÎÍÍÍÎÏÍÌÍÍÍÍÍÏÌÎ</summary>

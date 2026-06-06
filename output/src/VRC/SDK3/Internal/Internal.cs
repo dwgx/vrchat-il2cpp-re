@@ -97,8 +97,7 @@ namespace VRC.SDK3.Internal
         public void IsAvatarFavorited(){} // RVA: 0x7FFAF4713000
         public void FavoriteAvatar(){} // RVA: 0x7FFAF47130A0
         public void UnfavoriteAvatar(){} // RVA: 0x7FFAF47130F0
-        // ── Unresolved (hash) ──
-        public void m_516(){} // RVA: 0x7FFAF4713140
+        public void IsAvatarFavorited_516580FDA7C2(){} // RVA: 0x7FFAF4713140
     }
 
     public class VRCBestInstances
@@ -122,6 +121,7 @@ namespace VRC.SDK3.Internal
         public void Instantiate(){} // RVA: 0x7FFAF471AA90
         public void GetHashCode(){} // RVA: 0x7FFAF471AC70
         public void ToString(){} // RVA: 0x7FFAF471AE90
+        public void GetEventPortalManager(){} // RVA: 0x7FFAF471AFD0
         public void UnregisterAllEventPortals(){} // RVA: 0x7FFAF471B140
         public void Initialize_474C74E9E865(){} // RVA: 0x7FFAF471B3E0
         public void ProcessEventPortal(){} // RVA: 0x7FFAF471B590
@@ -129,8 +129,6 @@ namespace VRC.SDK3.Internal
         public void InitializeOnLoad(){} // RVA: 0x7FFAF471B960
         public void StartListening(){} // RVA: 0x7FFAF471BAA0
         public void RegisterEventPortal(){} // RVA: 0x7FFAF471BCF0
-        // ── Unresolved (hash) ──
-        public void m_690(){} // RVA: 0x7FFAF471AFD0
     }
 
     public class VRCExperiments

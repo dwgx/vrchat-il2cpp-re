@@ -36,8 +36,8 @@ namespace VRC
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF4611FB0
         public void get_Preview(){} // RVA: 0x7FFAF2E0A740
-        public void set_IsLoaded(){} // RVA: 0x7FFAF4612060
-        public void set_BackgroundName(){} // RVA: 0x7FFAF368B960
+        public void set_BackgroundName(){} // RVA: 0x7FFAF4612060
+        public void set_IsLoaded(){} // RVA: 0x7FFAF368B960
         public void get_BackgroundName(){} // RVA: 0x7FFAF368B960
         public void get_DisplayName(){} // RVA: 0x7FFAF2E44D30
         public void get_IsLoaded(){} // RVA: 0x7FFAF4612110

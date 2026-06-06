@@ -70,19 +70,19 @@ namespace VRC.Core.Transform
     {
         // ── Methods ──
         public void OnRectTransformDimensionsChange(){} // RVA: 0x7FFAFB6B47A0
+        public void FormatRectTransformDimensionsState(){} // RVA: 0x7FFAFB6B47D0
         public void Start(){} // RVA: 0x7FFAFB6B5070
+        public void FormatRectTransformDimensionsChange(){} // RVA: 0x7FFAFB6B54A0
+        public void FormatRectTransformDimensionsChange_35038ACA56D1(){} // RVA: 0x7FFAFB6B57D0
         public void .ctor(){} // RVA: 0x7FFAFB6B5ED0
         public void Initialize(){} // RVA: 0x7FFAFB6B5F30
         // ── Unresolved (hash) ──
-        public void m_A0C(){} // RVA: 0x7FFAFB6B47D0
         public void m_4B6(){} // RVA: 0x7FFAFB6B4B00
         public void m_81B(){} // RVA: 0x7FFAF4741440
         public void m_0E1(){} // RVA: 0x7FFAFB6B5080
         public void m_59F(){} // RVA: 0x7FFAFB6B50B0
         public void m_C39(){} // RVA: 0x7FFAFB6B5170
-        public void m_392(){} // RVA: 0x7FFAFB6B54A0
         public void m_29F(){} // RVA: 0x7FFAF4741440
-        public void m_350(){} // RVA: 0x7FFAFB6B57D0
         public void m_C22(){} // RVA: 0x7FFAFB6B5E10
     }
 
@@ -124,10 +124,10 @@ namespace VRC.Core.Transform
         public void LateUpdate(){} // RVA: 0x7FFAFB8E2970
         public void OnDisable(){} // RVA: 0x7FFAF2E2E0E0
         public void get_Value(){} // RVA: 0x7FFAFB8E2AB0
+        public void OnTriggerExit(){} // RVA: 0x7FFAFB8E65F0
         public void .ctor(){} // RVA: 0x7FFAFB8E6F60
         // ── Unresolved (hash) ──
         public void m_AB6(){} // RVA: 0x7FFAFB8E2EF0
-        public void m_822(){} // RVA: 0x7FFAFB8E65F0
         public void m_864(){} // RVA: 0x7FFAFB8E6C10
         public void m_3E6(){} // RVA: 0x7FFAFB8E6DC0
     }

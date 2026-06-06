@@ -9,22 +9,29 @@ namespace VRC.Misc
     public class RectComputeDimensionsComponent_4BBB
     {
         // ── Methods ──
+        public void InvokeRectComputeDimensionsWithFlags(){} // RVA: 0x7FFAFB809BD0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB809CD0
+        public void InvokeRectComputeDimensionsDelegate(){} // RVA: 0x7FFAFB809DD0
+        public void InvokeRectComputeDimensionsDelegate_56C9B1B8C285(){} // RVA: 0x7FFAFB809F40
+        public void InvokeRectComputeDimensionsWithCopiedBuffers(){} // RVA: 0x7FFAFB80A0B0
+        public void InvokeRectComputeDimensionsWithCopiedBuffers_9089287D17D1(){} // RVA: 0x7FFAFB80A1B0
         public void InvokeRectComputeDimensions(){} // RVA: 0x7FFAFB80A2B0
+        public void InvokeRectComputeDimensionsWithRectInputs(){} // RVA: 0x7FFAFB80A630
+        public void InvokeRectComputeDimensionsDelegate_3237FA0FC297(){} // RVA: 0x7FFAFB80A8B0
+        public void CopyRectComputedSizeResult(){} // RVA: 0x7FFAFB80A9B0
+        public void CopyRectComputedDimensionsResult(){} // RVA: 0x7FFAFB80AC60
+        public void CopyRectComputeResultVector(){} // RVA: 0x7FFAFB80AD60
+        public void StoreRectDimensionReferences(){} // RVA: 0x7FFAFA0FA5C0
+        public void InvokeRectComputeDimensionsTripleArgumentDelegate(){} // RVA: 0x7FFAFB80AFD0
         public void Awake(){} // RVA: 0x7FFAFB80B0D0
         public void OnDestroy(){} // RVA: 0x7FFAFB80B2E0
         public void Start(){} // RVA: 0x7FFAFB80B3E0
         public void FixedUpdate(){} // RVA: 0x7FFAF2DBB130
         public void Update(){} // RVA: 0x7FFAF2DBB130
         public void LateUpdate(){} // RVA: 0x7FFAFB80B810
-        // ── 13 unresolved (hash) ──
-        public void m_A79(){} // RVA: 0x7FFAFB809BD0
-        public void m_462(){} // RVA: 0x7FFAFB809DD0
-        public void m_56C(){} // RVA: 0x7FFAFB809F40
-        public void m_D00(){} // RVA: 0x7FFAFB80A0B0
-        public void m_908(){} // RVA: 0x7FFAFB80A1B0
-        // ... 8 more unresolved methods
+        // ── Unresolved (hash) ──
+        public void m_F2A(){} // RVA: 0x7FFAFB80A3B0
     }
 
     /// <summary>Originally: ÏÏÍÌÍÎÏÍÏÎÍÎÏÏÍÎÍÌÌÍÌÍÍ</summary>
@@ -224,13 +231,16 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÍÏÎÌÎÌÏÏÍÍÎÎÌÎÏÌÏÏÏÌÏ</summary>
     public class RequiresStoringSiblingSibRelated_D16F
     {
-        // ── 16 unresolved (hash) ──
+        // ── Methods ──
+        public void RecordFrameCountAndClearFlag(){} // RVA: 0x7FFAF4B4B7C0
+        public void RecordFrameCountAndClearFlag_CD87428B9DB8(){} // RVA: 0x7FFAF4B4B810
+        // ── 14 unresolved (hash) ──
         public void m_B63(){} // RVA: 0x7FFAF2D907C0
         public void m_FCE(){} // RVA: 0x7FFAF2DA8380
         public void m_E0E(){} // RVA: 0x7FFAF32E3580
         public void m_DD3(){} // RVA: 0x7FFAF44189B0
         public void m_271(){} // RVA: 0x7FFAF44189C0
-        // ... 11 more unresolved methods
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÏÌÏÌÏÌÏÍÏÍÎÍÎÏÌÎÍÌÍÎÍ</summary>

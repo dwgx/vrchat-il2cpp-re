@@ -1137,6 +1137,7 @@ public class AssetPreloader
     public void ApplyCachedLocalPosition_B749FC036F48(){} // RVA: 0x7FFAF3C2A0B0
     public void AddPreloadAssetsFromEntry(){} // RVA: 0x7FFAF3C2A250
     public void GetPreloadAssets_1C45C7A2C127(){} // RVA: 0x7FFAF3C2A710
+    public void AddPreloadAssetsFromEntry_EDE29F95B93B(){} // RVA: 0x7FFAF3C2A900
     public void TryFindPreloadAssetIndices(){} // RVA: 0x7FFAF2D907C0
     public void AddPreloadAssetsFromEntry_5F9BF69D91E8(){} // RVA: 0x7FFAF3C2A9D0
     public void Finalize_8664D9DDBBC3(){} // RVA: 0x7FFAF3C2ABC0
@@ -1144,13 +1145,12 @@ public class AssetPreloader
     public void TryFindPreloadAssetIndices_793571568F6B(){} // RVA: 0x7FFAF3C2B310
     public void Finalize(){} // RVA: 0x7FFAF3C2B4E0
     public void .ctor(){} // RVA: 0x7FFAF3C2B960
+    public void ApplyCachedLocalPosition_644D4CCA2C1E(){} // RVA: 0x7FFAF3C2BE30
     // ── Unresolved (hash) ──
     public void m_902(){} // RVA: 0x7FFAF2D907C0
     public void m_0F7(){} // RVA: 0x7FFAF3C29F20
-    public void m_EDE(){} // RVA: 0x7FFAF3C2A900
     public void m_4FA(){} // RVA: 0x7FFAF3C2AD40
     public void m_061(){} // RVA: 0x7FFAF3C2B700
-    public void m_644(){} // RVA: 0x7FFAF3C2BE30
     public void m_0BC(){} // RVA: 0x7FFAF3C2C380
     public void m_0C1(){} // RVA: 0x7FFAF3C2C560
     public void m_7F9(){} // RVA: 0x7FFAF3C2C760

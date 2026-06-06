@@ -43,6 +43,7 @@ namespace VRC.UI
         public void OnEndEdit(){} // RVA: 0x7FFAF304E660
         public void StartStateMachine(){} // RVA: 0x7FFAFB703B80
         public void DispatchButtonTransformResult(){} // RVA: 0x7FFAFB7058F0
+        public void DispatchButtonTransformResult_FFED58473F42(){} // RVA: 0x7FFAFB705A00
         public void Awake(){} // RVA: 0x7FFAFB705B30
         public void OnEnable(){} // RVA: 0x7FFAFB705D40
         public void Start(){} // RVA: 0x7FFAFB706860
@@ -50,13 +51,13 @@ namespace VRC.UI
         public void Initialize(){} // RVA: 0x7FFAFB707640
         public void LateUpdate(){} // RVA: 0x7FFAFB707780
         public void OnDisable(){} // RVA: 0x7FFAFB7078D0
-        // ── 25 unresolved (hash) ──
+        // ── 24 unresolved (hash) ──
         public void m_2FD(){} // RVA: 0x7FFAFB701A90
         public void m_B78(){} // RVA: 0x7FFAF2E08D50
         public void m_6B3(){} // RVA: 0x7FFAFB701C90
         public void m_C49(){} // RVA: 0x7FFAFB702560
         public void m_35C(){} // RVA: 0x7FFAFB703120
-        // ... 20 more unresolved methods
+        // ... 19 more unresolved methods
     }
 
 }

@@ -136,6 +136,7 @@ namespace VRC.Core.Component
     public class LifecycleComponentImpl_AB77SibSibling_C782
     {
         // ── Methods ──
+        public void GetParentLightComponent(){} // RVA: 0x7FFAFBCD9B20
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Awake(){} // RVA: 0x7FFAFBCD9CA0
         public void OnDestroy(){} // RVA: 0x7FFAFBCD9E20
@@ -145,7 +146,6 @@ namespace VRC.Core.Component
         public void m_FC3(){} // RVA: 0x7FFAFBCD96A0
         public void m_7FD(){} // RVA: 0x7FFAFBCD9820
         public void m_6F5(){} // RVA: 0x7FFAFBCD99A0
-        public void m_BEE(){} // RVA: 0x7FFAFBCD9B20
     }
 
     /// <summary>Originally: ÏÏÏÏÌÍÏÎÎÎÍÎÍÌÍÏÏÏÍÌÌÌÎ</summary>

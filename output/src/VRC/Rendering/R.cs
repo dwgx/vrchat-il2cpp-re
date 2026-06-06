@@ -9,16 +9,15 @@ namespace VRC.Rendering
     public class RandomMaterialHandler_75E4
     {
         // ── Methods ──
+        public void InvokeRangeWithByteIndex(){} // RVA: 0x7FFAF377EAC0
+        public void InvokeRangeWithIntegerBounds(){} // RVA: 0x7FFAF377EB80
         public void Range(){} // RVA: 0x7FFAF377EC40
         public void Range_3BD05A4485DD(){} // RVA: 0x7FFAF377ED00
         public void Range_636914CC0487(){} // RVA: 0x7FFAF377EDC0
         public void Range_376EC2EDA934(){} // RVA: 0x7FFAF377EE80
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF377EF40
-        // ── Unresolved (hash) ──
-        public void m_928(){} // RVA: 0x7FFAF377EAC0
-        public void m_B7B(){} // RVA: 0x7FFAF377EB80
-        public void m_363(){} // RVA: 0x7FFAF377F000
+        public void InvokeRangeWithVectorParameters(){} // RVA: 0x7FFAF377F000
     }
 
     /// <summary>Originally: ÎÏÍÎÌÍÌÏÎÎÎÎÍÎÎÍÌÏÌÌÍÏÎ</summary>
@@ -36,17 +35,20 @@ namespace VRC.Rendering
         // ── Methods ──
         public void SetRealtimeTexture(){} // RVA: 0x7FFAFBA18AE0
         public void OnDestroy(){} // RVA: 0x7FFAFBA18E90
+        public void AdvanceRealtimeTextureListEnumerator(){} // RVA: 0x7FFAFBA18F30
+        public void CopyRealtimeTextureNameAndTexture(){} // RVA: 0x7FFAFBA19030
         public void Start(){} // RVA: 0x7FFAFBA194B0
         public void .ctor(){} // RVA: 0x7FFAFBA19D50
         public void Initialize(){} // RVA: 0x7FFAFBA1A1A0
         public void get_Instance(){} // RVA: 0x7FFAFBA1B7B0
-        // ── 18 unresolved (hash) ──
+        public void AssignRealtimeTextureEnumeratorTarget(){} // RVA: 0x7FFAFBA1BB60
+        // ── 15 unresolved (hash) ──
         public void m_65B(){} // RVA: 0x7FFAF2D8D310
-        public void m_D9D(){} // RVA: 0x7FFAFBA18F30
-        public void m_C58(){} // RVA: 0x7FFAFBA19030
         public void m_0A7(){} // RVA: 0x7FFAFBA19370
         public void m_E02(){} // RVA: 0x7FFAF2D8D310
-        // ... 13 more unresolved methods
+        public void m_038(){} // RVA: 0x7FFAFBA19550
+        public void m_321(){} // RVA: 0x7FFAFBA19630
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÎÎÍÏÎÎÍÏÍÎÌÍÌÏÏÌÍÌÍÏÍÎÎ</summary>
@@ -157,7 +159,8 @@ namespace VRC.Rendering
         public void SetRendererPriority_1D8CD0430F21(){} // RVA: 0x7FFAFBA43390
         public void SetShadowCastingMode(){} // RVA: 0x7FFAFBA43610
         public void Start(){} // RVA: 0x7FFAFBA439A0
-        public void CalculateUtf8Entropy(){} // RVA: 0x7FFAFBA445A0
+        public void CalculateUtf8Entropy(){} // RVA: 0x7FFAFBA44430
+        public void CalculateUtf8Entropy_B18E9F96B1E8(){} // RVA: 0x7FFAFBA445A0
         public void CalculateByteEntropy(){} // RVA: 0x7FFAFBA44720
         public void CalculateByteEntropy_BC4D9EACA205(){} // RVA: 0x7FFAFBA447A0
         public void OnDisable(){} // RVA: 0x7FFAFBA44DF0
@@ -167,7 +170,6 @@ namespace VRC.Rendering
         public void m_F1E(){} // RVA: 0x7FFAFBA42D00
         public void m_693(){} // RVA: 0x7FFAFBA43E10
         public void m_490(){} // RVA: 0x7FFAFBA44080
-        public void m_00F(){} // RVA: 0x7FFAFBA44430
         public void m_763(){} // RVA: 0x7FFAFBA44A30
         public void m_12A(){} // RVA: 0x7FFAFBA44C30
         public void m_A57(){} // RVA: 0x7FFAFBA45070
@@ -242,6 +244,10 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x7FFAFBAF52C0
         public void Initialize(){} // RVA: 0x7FFAFBAF54A0
         public void ConstructBadException(){} // RVA: 0x7FFAFBAF5690
+        public void ReleaseExceptionPointer(){} // RVA: 0x7FFAFBAF5790
+        public void CreateExceptionPointer(){} // RVA: 0x7FFAFBAF5D40
+        public void RaiseStoredException(){} // RVA: 0x7FFAFBAF61D0
+        public void MapLocaleStringFromMultiByte(){} // RVA: 0x7FFAFBAF62D0
         public void LCMapStringA(){} // RVA: 0x7FFAFBAF6340
         public void LCMapStringAnsi(){} // RVA: 0x7FFAFBAF63B0
         // ── Unresolved (hash) ──
@@ -249,12 +255,8 @@ namespace VRC.Rendering
         public void m_222(){} // RVA: 0x7FFAFBAF5130
         public void m_E81(){} // RVA: 0x7FFAFBAF51A0
         public void m_64A(){} // RVA: 0x7FFAFBAF5510
-        public void m_327(){} // RVA: 0x7FFAFBAF5790
         public void m_96F(){} // RVA: 0x7FFAFBAF5C30
-        public void m_0BF(){} // RVA: 0x7FFAFBAF5D40
         public void m_FC9(){} // RVA: 0x7FFAFBAF60D0
-        public void m_097(){} // RVA: 0x7FFAFBAF61D0
-        public void m_FD4(){} // RVA: 0x7FFAFBAF62D0
     }
 
     /// <summary>Originally: ÍÌÍÌÎÎÍÌÎÎÏÌÎÎÏÌÍÍÏÌÏÎÎ</summary>

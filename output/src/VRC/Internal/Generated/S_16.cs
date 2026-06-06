@@ -674,19 +674,25 @@ namespace VRC.Internal.Generated
     public class Static36m_9172
     {
         // ── Methods ──
+        public void ParticleSystem(){} // RVA: 0x7FFAF2F8ADA0
+        public void OriginalEmissionEnabled(){} // RVA: 0x7FFAF2F8AF30
+        public void OriginalRateOverTime(){} // RVA: 0x7FFAF2F8B390
+        public void OriginalRateOverDistance(){} // RVA: 0x7FFAF2F8B7D0
         public void Awake(){} // RVA: 0x7FFAF2F8B8D0
+        public void OriginalBursts(){} // RVA: 0x7FFAF2F8BA20
         public void Start(){} // RVA: 0x7FFAF2F8C3B0
+        public void OriginalBurstCount(){} // RVA: 0x7FFAF2F8C470
         public void ReadParticleEmissionModuleState(){} // RVA: 0x7FFAF2F8DF20
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF2F8E280
         public void OnDestroy(){} // RVA: 0x7FFAF2F91710
-        // ── 30 unresolved (hash) ──
-        public void m_EDF(){} // RVA: 0x7FFAF2F8ADA0
-        public void m_DF8(){} // RVA: 0x7FFAF2F8AF30
-        public void m_053(){} // RVA: 0x7FFAF2F8B390
-        public void m_538(){} // RVA: 0x7FFAF2F8B7D0
-        public void m_547(){} // RVA: 0x7FFAF2F8BA20
-        // ... 25 more unresolved methods
+        // ── 24 unresolved (hash) ──
+        public void m_E1D(){} // RVA: 0x7FFAF2F8C550
+        public void m_C35(){} // RVA: 0x7FFAF2F8C920
+        public void m_01C(){} // RVA: 0x7FFAF2F8CA60
+        public void m_9AE(){} // RVA: 0x7FFAF2F8CC60
+        public void m_E2E(){} // RVA: 0x7FFAF2F8CD60
+        // ... 19 more unresolved methods
     }
 
     /// <summary>Originally: ÍÏÍÏÌÏÎÍÏÎÏÌÍÍÎÌÏÌÍÏÏÏÏ</summary>

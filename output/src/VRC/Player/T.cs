@@ -17,7 +17,8 @@ namespace VRC.Player
         public void GrowDequeMap(){} // RVA: 0x7FFAF4A9C920
         public void RevertToSelf(){} // RVA: 0x7FFAF4A9CA10
         public void TryConvertHostEntry(){} // RVA: 0x7FFAF4A9CC50
-        public void GetAddressInfo(){} // RVA: 0x7FFAF4A9CFA0
+        public void GetAddressInfo(){} // RVA: 0x7FFAF4A9CD40
+        public void GetAddressInfo_0D4BD5E75841(){} // RVA: 0x7FFAF4A9CFA0
         public void .ctor(){} // RVA: 0x7FFAF4417700 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF4A9D070
         public void ConvertSockaddrToSocketAddress(){} // RVA: 0x7FFAF4A9D230
@@ -37,21 +38,20 @@ namespace VRC.Player
         public void PollSockets_D4B8392877EB(){} // RVA: 0x7FFAF4A9EBB0
         public void CaptureStackTrace(){} // RVA: 0x7FFAF4A9EDC0
         public void GetNativeStackTrace(){} // RVA: 0x7FFAF4A9EF00
+        public void CreateSystemSemaphoreState(){} // RVA: 0x7FFAF4A9EFD0
         public void ExecuteQueuedCallbacks(){} // RVA: 0x7FFAF4A9F0A0
+        public void GetCurrentComApartmentType(){} // RVA: 0x7FFAF4A9F1C0
         public void GetHStringRawBuffer(){} // RVA: 0x7FFAF4A9F420
         public void EmplaceBackString(){} // RVA: 0x7FFAF4A9F510
         public void EmplaceBackString_7D4DB0AB7849(){} // RVA: 0x7FFAF4A9F600
+        public void GrowVectorAndInsertElement(){} // RVA: 0x7FFAF4A9F720
         public void CreateCustomAttributeFormatException(){} // RVA: 0x7FFAF4A9FA90
         public void CreateCustomAttributeFormatException_83D5804A37BE(){} // RVA: 0x7FFAF4A9FBD0
         public void ParseCustomAttributeBlob(){} // RVA: 0x7FFAF4A9FE00
         // ── Unresolved (hash) ──
         public void m_76C(){} // RVA: 0x7FFAF4A9C340
         public void m_410(){} // RVA: 0x7FFAF4A9C590
-        public void m_271(){} // RVA: 0x7FFAF4A9CD40
         public void m_E33(){} // RVA: 0x7FFAF4A9E650
-        public void m_977(){} // RVA: 0x7FFAF4A9EFD0
-        public void m_7E6(){} // RVA: 0x7FFAF4A9F1C0
-        public void m_0D2(){} // RVA: 0x7FFAF4A9F720
         public void m_DD3(){} // RVA: 0x7FFAF4A9F840
         public void m_02B(){} // RVA: 0x7FFAF4A9FCC0
         public void m_B49(){} // RVA: 0x7FFAF4A9FF50

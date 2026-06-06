@@ -79,9 +79,10 @@ namespace VRC.Core.Transform
     /// <summary>Originally: ÍÍÎÌÏÎÎÌÌÍÍÏÍÌÏÏÏÌÌÍÍÎÎ</summary>
     public class ComponentGameObjectHandler_53B5
     {
+        // ── Methods ──
+        public void OnComponentAdded(){} // RVA: 0x7FFAFBED3FB0
         // ── Unresolved (hash) ──
         public void m_AA4(){} // RVA: 0x7FFAF2D33FA0
-        public void m_0E0(){} // RVA: 0x7FFAFBED3FB0
         public void m_182(){} // RVA: 0x7FFAFBED4040
         public void m_6B7(){} // RVA: 0x7FFAFBED44C0
         public void m_7FB(){} // RVA: 0x7FFAFBED4780
@@ -256,15 +257,16 @@ namespace VRC.Core.Transform
     public class ComponentGameObjectHandler_E2B7
     {
         // ── Methods ──
+        public void FindChildComponentIndex(){} // RVA: 0x7FFAF3BC7FF0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3BC3B40
-        // ── 12 unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_082(){} // RVA: 0x7FFAF3BC5170
         public void m_ABB(){} // RVA: 0x7FFAF3BC7B70
         public void m_959(){} // RVA: 0x7FFAF3BC7C90
         public void m_E8D(){} // RVA: 0x7FFAF3BC7DB0
         public void m_CB9(){} // RVA: 0x7FFAF3BC3B40
-        // ... 7 more unresolved methods
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÏÌÏÌÌÍÌÌÎÌÏÏÌÎÌÍÌÏÏÏÌ</summary>
@@ -301,11 +303,11 @@ namespace VRC.Core.Transform
         public void GetActiveInHierarchy_0302EF412541(){} // RVA: 0x7FFAF4199A70
         public void GetActiveInHierarchy_EB20219B727B(){} // RVA: 0x7FFAF4199A70
         public void GetActiveInHierarchy_8E8EE0D2C7B0(){} // RVA: 0x7FFAF4199AA0
+        public void GetActiveInHierarchy_1AA9673BA4EC(){} // RVA: 0x7FFAF4199D00
         // ── Unresolved (hash) ──
         public void m_1AE(){} // RVA: 0x7FFAF41992F0
         public void m_2F2(){} // RVA: 0x7FFAF4199320
         public void m_BD5(){} // RVA: 0x7FFAF41997E0
-        public void m_1AA(){} // RVA: 0x7FFAF4199D00
     }
 
     /// <summary>Originally: ÍÌÌÏÍÍÎÏÍÎÏÏÎÍÎÎÎÌÌÍÏÎÍ</summary>
@@ -390,16 +392,16 @@ namespace VRC.Core.Transform
     public class ComponentTransformHandler_9193
     {
         // ── Methods ──
+        public void FormatTransformState(){} // RVA: 0x7FFAF3672BE0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3672C90
+        public void FormatTransformState_BBF1D53EE4C9(){} // RVA: 0x7FFAF3672D40
+        public void CompareTransformState(){} // RVA: 0x7FFAF3672DF0
+        public void CompareTransformState_AF61ABBE8131(){} // RVA: 0x7FFAF3672EA0
+        public void ComputeTransformStateHash(){} // RVA: 0x7FFAF3672F50
+        public void CompareTransformState_F755DF7E78EF(){} // RVA: 0x7FFAF3673000
+        public void FormatTransformState_F654FC56A054(){} // RVA: 0x7FFAF36730B0
         // ── Unresolved (hash) ──
-        public void m_4C9(){} // RVA: 0x7FFAF3672BE0
-        public void m_BBF(){} // RVA: 0x7FFAF3672D40
-        public void m_BEA(){} // RVA: 0x7FFAF3672DF0
-        public void m_AF6(){} // RVA: 0x7FFAF3672EA0
-        public void m_E8F(){} // RVA: 0x7FFAF3672F50
-        public void m_F75(){} // RVA: 0x7FFAF3673000
-        public void m_F65(){} // RVA: 0x7FFAF36730B0
         public void m_F78(){} // RVA: 0x7FFAF3673160
     }
 

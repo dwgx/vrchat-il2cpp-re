@@ -13,13 +13,13 @@ namespace VRC.Core.Transform
         public void .ctor(){} // RVA: 0x7FFAF45773B0
         public void Initialize(){} // RVA: 0x7FFAF45775A0
         public void InvokeProfiledTransformHandlers(){} // RVA: 0x7FFAF4577700
+        public void InvokeRegisteredProfiledTransformHandlers(){} // RVA: 0x7FFAF4577950
         // ── Unresolved (hash) ──
         public void m_DEC(){} // RVA: 0x7FFAF4577190
         public void m_D57(){} // RVA: 0x7FFAF45772C0
         public void m_7A6(){} // RVA: 0x7FFAF2D8D310
         public void m_888(){} // RVA: 0x7FFAF4577790
         public void m_146(){} // RVA: 0x7FFAF4577870
-        public void m_1C1(){} // RVA: 0x7FFAF4577950
         public void m_2DD(){} // RVA: 0x7FFAF4577AB0
         public void m_EEC(){} // RVA: 0x7FFAF4577B90
         public void m_807(){} // RVA: 0x7FFAF4577C20

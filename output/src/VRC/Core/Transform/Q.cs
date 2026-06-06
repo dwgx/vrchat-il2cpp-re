@@ -124,8 +124,7 @@ namespace VRC.Core.Transform
         public void GetFixedDeltaTime(){} // RVA: 0x7FFAF496B0A0
         public void InvokeNativeByteArrayCallback(){} // RVA: 0x7FFAF496B140
         public void GetFixedDeltaTime_DAEFD6EAF3E9(){} // RVA: 0x7FFAF496B1E0
-        // ── Unresolved (hash) ──
-        public void m_E7C(){} // RVA: 0x7FFAF496B280
+        public void InvokeNativeIntArrayCallback(){} // RVA: 0x7FFAF496B280
     }
 
     /// <summary>Originally: ÌÎÍÏÎÏÌÏÏÎÌÏÏÌÏÌÏÏÎÏÌÍÎ</summary>

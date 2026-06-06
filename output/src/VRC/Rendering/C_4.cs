@@ -995,13 +995,13 @@ namespace VRC.Rendering
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAF2AD4A50
         public void GetAndClearFloatingPointExceptions(){} // RVA: 0x7FFAF2AD4A50
+        public void GetAndClearFloatingPointExceptions_3B0CDCB7ACF9(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
         public void m_08E(){} // RVA: 0x7FFAF2D33FA0
         public void m_DD8(){} // RVA: 0x7FFAF2D33FA0
         public void m_AC7(){} // RVA: 0x7FFAF2AD4A50
         public void m_62B(){} // RVA: 0x7FFAF2AD4A50
-        public void m_3B0(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÍÍÏÍÌÎÍÌÍÍÍÎÍÍÎÍÎÏÎÍÎÌ</summary>
@@ -1010,13 +1010,13 @@ namespace VRC.Rendering
         // ── Methods ──
         public void Start(){} // RVA: 0x7FFAF7B1CF70
         public void GetAndClearFloatingPointExceptions(){} // RVA: 0x7FFAF7B1D660
+        public void GetAndClearFloatingPointExceptions_3B0CDCB7ACF9(){} // RVA: 0x7FFAF7B1D6E0
         public void .ctor(){} // RVA: 0x7FFAF7B1D770
         // ── Unresolved (hash) ──
         public void m_08E(){} // RVA: 0x7FFAF383A610
         public void m_DD8(){} // RVA: 0x7FFAF7B1D1D0
         public void m_AC7(){} // RVA: 0x7FFAF7B1D4E0
         public void m_62B(){} // RVA: 0x7FFAF7B1D5B0
-        public void m_3B0(){} // RVA: 0x7FFAF7B1D6E0
     }
 
     /// <summary>Originally: ÎÎÎÎÎÏÌÎÍÌÎÎÏÌÎÌÎÌÏÏÏÏÌ</summary>
@@ -1026,12 +1026,12 @@ namespace VRC.Rendering
         public void InvokeVirtualMethodSlot(){} // RVA: 0x7FFAFB93C280
         public void InvokeInterfaceMethodSlot(){} // RVA: 0x7FFAFB93C400
         public void InvokeInterfaceMethodSlot_6B3E81FCD57E(){} // RVA: 0x7FFAFB93C490
+        public void InvokeVirtualMethodSlot_DEF5DDFCCA8F(){} // RVA: 0x7FFAFB93C520
+        public void InvokeInterfaceMethodSlot_C9ED83B2DF2E(){} // RVA: 0x7FFAFB93C6A0
         public void InvokeGenericInterfaceMethodSlot(){} // RVA: 0x7FFAFB93C730
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Start(){} // RVA: 0x7FFAFB93CD30
         // ── Unresolved (hash) ──
-        public void m_DEF(){} // RVA: 0x7FFAFB93C520
-        public void m_C9E(){} // RVA: 0x7FFAFB93C6A0
         public void m_FDE(){} // RVA: 0x7FFAFB93C7C0
         public void m_E15(){} // RVA: 0x7FFAFB93C940
         public void m_5B0(){} // RVA: 0x7FFAFB93CA80

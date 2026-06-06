@@ -10,15 +10,15 @@ namespace VRC.Internal.Profiled
     {
         // ── Methods ──
         public void ToStringEnd(){} // RVA: 0x7FFAF46BFF40
+        public void ComputeProfiledCollectionHash(){} // RVA: 0x7FFAF46C01E0
+        public void FormatProfiledPairWithParameterCount(){} // RVA: 0x7FFAF46C1A40
         public void .ctor(){} // RVA: 0x7FFAF46C33F0
         public void Initialize(){} // RVA: 0x7FFAF46C3640
         public void .cctor(){} // RVA: 0x7FFAF46C3D00
         // ── Unresolved (hash) ──
         public void m_27C(){} // RVA: 0x7FFAF46BFAA0
-        public void m_217(){} // RVA: 0x7FFAF46C01E0
         public void m_89A(){} // RVA: 0x7FFAF46C0C60
         public void m_3C9(){} // RVA: 0x7FFAF46C1330
-        public void m_128(){} // RVA: 0x7FFAF46C1A40
         public void m_9D7(){} // RVA: 0x7FFAF46C1EE0
         public void m_A95(){} // RVA: 0x7FFAF46C2970
         public void m_6BC(){} // RVA: 0x7FFAF46C3EB0
@@ -46,17 +46,17 @@ namespace VRC.Internal.Profiled
     public class ProfiledHandler_6709
     {
         // ── Methods ──
+        public void NotifyProfiledTextureHandlers(){} // RVA: 0x7FFAF38BAB70
+        public void NotifyProfiledFrameHandlers(){} // RVA: 0x7FFAF38BD6B0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF38BD9B0
         // ── Unresolved (hash) ──
-        public void m_5B3(){} // RVA: 0x7FFAF38BAB70
         public void m_D72(){} // RVA: 0x7FFAF38BB2E0
         public void m_B2C(){} // RVA: 0x7FFAF38BB5E0
         public void m_122(){} // RVA: 0x7FFAF38BB8F0
         public void m_945(){} // RVA: 0x7FFAF38BC060
         public void m_E50(){} // RVA: 0x7FFAF38BC7D0
         public void m_A9C(){} // RVA: 0x7FFAF38BCF40
-        public void m_1F5(){} // RVA: 0x7FFAF38BD6B0
         public void m_FEA(){} // RVA: 0x7FFAF38BDCC0
     }
 

@@ -246,16 +246,16 @@ namespace VRC.Avatar
         public void Awake(){} // RVA: 0x7FFAFBB1B030
         public void CompareWideStringsIgnoreCase(){} // RVA: 0x7FFAFBB1B160
         public void CompareWideStringsIgnoreCase_7454F7C9E5AE(){} // RVA: 0x7FFAFBB1B170
+        public void CompareWideStringsIgnoreCase_C8B4C80FC801(){} // RVA: 0x7FFAFBB1B290
+        public void CompareWideStringsIgnoreCase_9CA466CBA363(){} // RVA: 0x7FFAFBB1B2E0
         public void LateUpdate(){} // RVA: 0x7FFAFBB1B370
         public void OnEnable(){} // RVA: 0x7FFAFBB1B420
+        public void CompareStringsIgnoreCase(){} // RVA: 0x7FFAFBB1B430
+        public void CompareMultiByteStrings(){} // RVA: 0x7FFAFBB1B7B0
         public void DecodeUtf8CodePoint(){} // RVA: 0x7FFAFBB1B8D0
         // ── Unresolved (hash) ──
         public void m_81C(){} // RVA: 0x7FFAFBB1AEC0
         public void m_323(){} // RVA: 0x7FFAFBB1AFF0
-        public void m_C8B(){} // RVA: 0x7FFAFBB1B290
-        public void m_9CA(){} // RVA: 0x7FFAFBB1B2E0
-        public void m_279(){} // RVA: 0x7FFAFBB1B430
-        public void m_5B0(){} // RVA: 0x7FFAFBB1B7B0
         public void m_51D(){} // RVA: 0x7FFAF2E2B370
     }
 
@@ -358,12 +358,12 @@ namespace VRC.Avatar
         public void StartSkidTrail(){} // RVA: 0x7FFAF3DB4AF0
         public void OnDestroy(){} // RVA: 0x7FFAF2D8D310
         public void StartSkidTrail_D8601AA6FF3A(){} // RVA: 0x7FFAF3DB4B40
+        public void StartSkidTrail_10E49A85FF12(){} // RVA: 0x7FFAF3DB4BD0
+        public void StartSkidTrail_23326A0C1F70(){} // RVA: 0x7FFAF3DB4CA0
         public void StartSkidTrail_97F9940D3CAC(){} // RVA: 0x7FFAF3DB4D20
+        public void StartSkidTrail_32DB75F519EC(){} // RVA: 0x7FFAF3DB4D70
         // ── Unresolved (hash) ──
         public void m_7FD(){} // RVA: 0x7FFAF2D8D310
-        public void m_10E(){} // RVA: 0x7FFAF3DB4BD0
-        public void m_233(){} // RVA: 0x7FFAF3DB4CA0
-        public void m_32D(){} // RVA: 0x7FFAF3DB4D70
         public void m_061(){} // RVA: 0x7FFAF3DB4EC0
         public void m_852(){} // RVA: 0x7FFAF3DB4F40
         public void m_0C0(){} // RVA: 0x7FFAF2D8D310

@@ -26,10 +26,10 @@ namespace VRC.Core.Transform
         public void OnTriggerExit(){} // RVA: 0x7FFAF3438B20
         public void OnBecameInvisible(){} // RVA: 0x7FFAF3438E20
         public void OnCollisionEnter(){} // RVA: 0x7FFAF3439BA0
+        public void ComputeDrawGizmosHash(){} // RVA: 0x7FFAF3439C70
         public void OnDrawGizmos(){} // RVA: 0x7FFAF3439E90
         public void OnApplicationQuit(){} // RVA: 0x7FFAF343A350
         // ── Unresolved (hash) ──
-        public void m_131(){} // RVA: 0x7FFAF3439C70
         public void m_1C9(){} // RVA: 0x7FFAF343A270
         public void m_70B(){} // RVA: 0x7FFAF343A350
     }

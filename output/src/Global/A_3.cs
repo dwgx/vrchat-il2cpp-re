@@ -516,14 +516,13 @@ public class AvatarCullingMonitor
     public void Cleanup(){} // RVA: 0x7FFAF3B7B190
     public void get_AvatarScreenSizeAboveTriggerThreshold(){} // RVA: 0x7FFAF3B7B290
     public void set_AvatarKindValidForExecution(){} // RVA: 0x7FFAF3B7B2A0
+    public void GetAvatarCullableShouldRun(){} // RVA: 0x7FFAF3B7B380
     public void Dispose_6096FC2D9640(){} // RVA: 0x7FFAF3B7B480
     public void get_AvatarKindValidForExecution(){} // RVA: 0x7FFAF3B7B600
     public void get_AvatarCullableShouldRun(){} // RVA: 0x7FFAF3B7B670
     public void ToString(){} // RVA: 0x7FFAF3B7B6E0
     public void SteamVR_Behaviour_Boolean_OnState(){} // RVA: 0x7FFAF3B7B6F0
     public void RefreshAvatarCullingState(){} // RVA: 0x7FFAF3B7B870
-    // ── Unresolved (hash) ──
-    public void m_47A(){} // RVA: 0x7FFAF3B7B380
 }
 
 public class AvatarOscConfig

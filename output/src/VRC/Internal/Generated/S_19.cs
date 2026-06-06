@@ -782,8 +782,7 @@ namespace VRC.Internal.Generated
         public void LobbyUpdateLobbyModification(){} // RVA: 0x7FFAF48D9650
         public void .ctor(){} // RVA: 0x7FFAF48D9640
         public void Initialize(){} // RVA: 0x7FFAF48D9730
-        // ── Unresolved (hash) ──
-        public void m_FB7(){} // RVA: 0x7FFAF48D9830
+        public void LobbyUpdateLobbyModification_FB7CFD90A7BF(){} // RVA: 0x7FFAF48D9830
     }
 
     /// <summary>Originally: ÎÍÌÎÌÍÍÌÎÍÍÎÏÌÏÎÌÏÏÏÎÌÏ</summary>

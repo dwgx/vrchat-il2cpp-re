@@ -285,18 +285,21 @@ namespace VRC.Network
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
@@ -308,18 +311,21 @@ namespace VRC.Network
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B85020
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF6AF61C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B85480
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B85590
         public void .ctor(){} // RVA: 0x7FFAF7B85910 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B7B6F0
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B85020
         public void m_B3D(){} // RVA: 0x7FFAF7B7AEB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B85480
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B7B010
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
@@ -346,72 +352,84 @@ namespace VRC.Network
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B74A60
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF3210030
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B74EB0
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B74F30
         public void .ctor(){} // RVA: 0x7FFAF7B751F0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B75180
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B74A60
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B74EB0
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B745D0
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÍÌÌÎÍÏÎÍÌÍÎÏÎÌÌÏÌÍÎÏÌ</summary>
@@ -1086,6 +1104,7 @@ namespace VRC.Network
         public void GSHandlerCheckCommon(){} // RVA: 0x7FFAF4AF6DF0
         public void DllMainDispatch(){} // RVA: 0x7FFAF4AF6D00
         public void InitializeCpuFeatures(){} // RVA: 0x7FFAF4AF6F20
+        public void UnwindWithExceptionRecord(){} // RVA: 0x7FFAF4AF7FD0
         public void GSHandlerCheckCommon_9FF939A27384(){} // RVA: 0x7FFAF4AF6DE0
         public void DllMainDispatch_3DADCABEE27D(){} // RVA: 0x7FFAF4AF6CE0
         public void DllMainDispatch_89D788078B67(){} // RVA: 0x7FFAF4AF6CF0
@@ -1094,7 +1113,6 @@ namespace VRC.Network
         public void m_58C(){} // RVA: 0x7FFAF2DDA5C0
         public void m_305(){} // RVA: 0x7FFAF4AF6F20
         public void m_DE3(){} // RVA: 0x7FFAF4AF6DF0
-        public void m_C6C(){} // RVA: 0x7FFAF4AF7FD0
     }
 
     /// <summary>Originally: ÏÎÎÏÍÍÍÌÌÏÎÎÏÎÍÍÍÎÌÏÏÍÌ</summary>
@@ -1135,14 +1153,14 @@ namespace VRC.Network
         public void GetPersistentDataPath(){} // RVA: 0x7FFAF4417700
         public void .ctor(){} // RVA: 0x7FFAFBEA1F30
         public void Initialize(){} // RVA: 0x7FFAFBEA2090
+        public void HasNoCurrentCoroutine(){} // RVA: 0x7FFAFBEA2DD0
+        public void HasNoCurrentCoroutine_1A38346B571F(){} // RVA: 0x7FFAFBEA2E70
         public void GetPersistentDataPath_5564A50164FC(){} // RVA: 0x7FFAF4417700
         // ── Unresolved (hash) ──
         public void m_E9B(){} // RVA: 0x7FFAFBEA0160
         public void m_FA9(){} // RVA: 0x7FFAFBEA0F60
         public void m_8D3(){} // RVA: 0x7FFAF59922E0
         public void m_B96(){} // RVA: 0x7FFAF59922E0
-        public void m_F99(){} // RVA: 0x7FFAFBEA2DD0
-        public void m_1A3(){} // RVA: 0x7FFAFBEA2E70
     }
 
     /// <summary>Originally: ÏÍÏÏÍÏÌÎÏÌÍÎÎÎÏÏÌÎÏÏÌÏÌ</summary>

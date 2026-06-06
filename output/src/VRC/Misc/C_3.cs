@@ -94,14 +94,18 @@ namespace VRC.Misc
         // ── Methods ──
         public void EmplaceBackString(){} // RVA: 0x7FFAFBA9F5C0
         public void InsertVectorElementWithReallocation(){} // RVA: 0x7FFAFBA9F6E0
+        public void InsertVectorElementWithReallocation_FFB31D37FD32(){} // RVA: 0x7FFAFBA9F780
+        public void EmplaceBackString_7607E0AB479A(){} // RVA: 0x7FFAFBA9F910
         public void CreateInvalidCustomAttributeFormatException(){} // RVA: 0x7FFAFBA9FBE0
         public void Update(){} // RVA: 0x7FFAFBA9FFC0
         public void Start(){} // RVA: 0x7FFAFBAA0420
         public void EnsureAdditionalCapacity(){} // RVA: 0x7FFAFBAA1680
+        public void ResizeSparseHashTable(){} // RVA: 0x7FFAFBAA1AC0
         public void ProcessPhysics(){} // RVA: 0x7FFAFBAA1B20
         public void ProcessPhysics_F8E6D0D80353(){} // RVA: 0x7FFAFBAA1B70
         public void ProcessPhysics_28FBB214A452(){} // RVA: 0x7FFAFBAA1B80
         public void GetShapes_Internal(){} // RVA: 0x7FFAFBAA1C60
+        public void CreateInvalidCustomAttributeFormatException_62DF573B21EC(){} // RVA: 0x7FFAFBAA1DB0
         public void ProcessPhysics_CB98910B2C02(){} // RVA: 0x7FFAFBAA1EC0
         public void IsAwake(){} // RVA: 0x7FFAFBAA2070
         public void IsSleeping(){} // RVA: 0x7FFAFBAA2170
@@ -115,6 +119,7 @@ namespace VRC.Misc
         public void GetAttachedColliderCount(){} // RVA: 0x7FFAFBAA3B10
         public void GetBodyType(){} // RVA: 0x7FFAFBAA3CE0
         public void GetCollisionDetectionMode(){} // RVA: 0x7FFAFBAA3E90
+        public void InitializeCommandBlockSplitter(){} // RVA: 0x7FFAFBAA3F20
         public void GetDrag(){} // RVA: 0x7FFAFBAA4070
         public void GetFreezeRotation(){} // RVA: 0x7FFAFBAA4320
         public void GetGravityScale(){} // RVA: 0x7FFAFBAA4540
@@ -127,6 +132,7 @@ namespace VRC.Misc
         public void GetSleepMode(){} // RVA: 0x7FFAFBAA5220
         public void InitializeLiteralBlockSplitter(){} // RVA: 0x7FFAFBAA5590
         public void InitializeLiteralBlockSplitter_BC8ED0AD78DE(){} // RVA: 0x7FFAFBAA5670
+        public void InitializeBlockSplitter(){} // RVA: 0x7FFAFBAA5790
         public void .ctor(){} // RVA: 0x7FFAFBAA5B40
         public void Initialize(){} // RVA: 0x7FFAFBAA5EF0
         public void SetAngularDrag(){} // RVA: 0x7FFAFBAA63A0
@@ -139,20 +145,22 @@ namespace VRC.Misc
         public void BuildSampledLiteralHistograms(){} // RVA: 0x7FFAFBAA76A0
         public void EstimateLiteralBitCosts(){} // RVA: 0x7FFAFBAA7750
         public void SetSharedMaterial(){} // RVA: 0x7FFAFBAA78C0
-        // ── 22 unresolved (hash) ──
-        public void m_FFB(){} // RVA: 0x7FFAFBA9F780
-        public void m_760(){} // RVA: 0x7FFAFBA9F910
-        public void m_257(){} // RVA: 0x7FFAFBAA1AC0
-        public void m_62D(){} // RVA: 0x7FFAFBAA1DB0
+        // ── 16 unresolved (hash) ──
         public void m_FA2(){} // RVA: 0x7FFAFBAA2350
-        // ... 17 more unresolved methods
+        public void m_01F(){} // RVA: 0x7FFAFBAA3600
+        public void m_AF4(){} // RVA: 0x7FFAFBAA36B0
+        public void m_502(){} // RVA: 0x7FFAFBAA3760
+        public void m_75A(){} // RVA: 0x7FFAFBAA43C0
+        // ... 11 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÏÏÌÏÎÏÏÎÍÍÌÎÎÎÏÍÏÍÍÍÎ</summary>
     public class ComponentHandler_0FB8
     {
         // ── Methods ──
-        public void RegisterFinalizerInner(){} // RVA: 0x7FFAF4A29B50
+        public void RegisterFinalizerInner(){} // RVA: 0x7FFAF4A29A60
+        public void RegisterFinalizerInner_393F04B292C4(){} // RVA: 0x7FFAF4A29B50
+        public void RegisterFinalizerInner_E2874D824ED0(){} // RVA: 0x7FFAF4A29BC0
         public void .cctor(){} // RVA: 0x7FFAF4A29D10
         public void RegisterFinalizerInner_711BF1F9639A(){} // RVA: 0x7FFAF4A29D50
         public void RegisterFinalizerInner_5C739D6A9991(){} // RVA: 0x7FFAF4A29F00
@@ -167,18 +175,22 @@ namespace VRC.Misc
         public void GenericMallocInner(){} // RVA: 0x7FFAF4A2B300
         public void AllocateSmallBlock(){} // RVA: 0x7FFAF4A2B410
         public void AllocateMemoryBlock(){} // RVA: 0x7FFAF4A2B5A0
+        public void GenericMallocInner_F0B5E35574C3(){} // RVA: 0x7FFAF4A2B6C0
+        public void AllocateHeapBlock_FC82B34350D6(){} // RVA: 0x7FFAF4A2B870
         public void FreeObject(){} // RVA: 0x7FFAF4A2BA60
+        public void FreeObject_D00FAA776D32(){} // RVA: 0x7FFAF4A2BAD0
         public void MarkPageDirty(){} // RVA: 0x7FFAF4A2BBF0
         public void MarkBlockInUse(){} // RVA: 0x7FFAF4A2BDA0
         public void MarkFromDirtyPages(){} // RVA: 0x7FFAF4A2BF50
         public void MarkFromDirtyPages_CE578F4AF789(){} // RVA: 0x7FFAF4A2C100
-        // ── 12 unresolved (hash) ──
-        public void m_CEB(){} // RVA: 0x7FFAF4A29A60
-        public void m_E28(){} // RVA: 0x7FFAF4A29BC0
+        // ── Unresolved (hash) ──
         public void m_E4C(){} // RVA: 0x7FFAF4A2A100
         public void m_B99(){} // RVA: 0x7FFAF4A2A320
         public void m_00A(){} // RVA: 0x7FFAF4A2A460
-        // ... 7 more unresolved methods
+        public void m_1CC(){} // RVA: 0x7FFAF4A2A680
+        public void m_B54(){} // RVA: 0x7FFAF4A2A830
+        public void m_1B1(){} // RVA: 0x7FFAF4A2AA80
+        public void m_A74(){} // RVA: 0x7FFAF4A2AE30
     }
 
     /// <summary>Originally: ÏÏÌÌÌÏÏÌÍÏÎÎÍÌÍÍÏÎÏÎÎÍÎ</summary>
@@ -242,17 +254,17 @@ namespace VRC.Misc
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF4682A20
         public void Initialize(){} // RVA: 0x7FFAF4682B40
+        public void FormatBooleanVectorState(){} // RVA: 0x7FFAF4682C00
+        public void FormatBooleanVectorState_F61B5DA402E9(){} // RVA: 0x7FFAF4682D00
+        public void CompareBooleanVectorState(){} // RVA: 0x7FFAF4682E00
+        public void CompareBooleanVectorState_438E69861B99(){} // RVA: 0x7FFAF4682EC0
         public void Awake(){} // RVA: 0x7FFAF2DE8CD0
         public void OnEnable(){} // RVA: 0x7FFAF2DE8CD0
         public void Start(){} // RVA: 0x7FFAF4682FC0
         public void Update(){} // RVA: 0x7FFAF2DE8CD0
         // ── Unresolved (hash) ──
-        public void m_36A(){} // RVA: 0x7FFAF4682C00
-        public void m_F61(){} // RVA: 0x7FFAF4682D00
         public void m_D74(){} // RVA: 0x7FFAF2DE8CD0
         public void m_E27(){} // RVA: 0x7FFAF2D8D320
-        public void m_6B3(){} // RVA: 0x7FFAF4682E00
-        public void m_438(){} // RVA: 0x7FFAF4682EC0
         public void m_97C(){} // RVA: 0x7FFAF2E72850
     }
 

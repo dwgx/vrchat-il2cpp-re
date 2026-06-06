@@ -180,13 +180,14 @@ namespace VRC.Misc
         public void OnDestroy(){} // RVA: 0x7FFAF2D8D320
         public void .ctor(){} // RVA: 0x7FFAFBA13700
         public void Initialize(){} // RVA: 0x7FFAF2F13060
-        // ── 20 unresolved (hash) ──
+        public void FreeNativeData(){} // RVA: 0x7FFAFBA13A80
+        // ── 19 unresolved (hash) ──
         public void m_1A8(){} // RVA: 0x7FFAF3604600
         public void m_F9F(){} // RVA: 0x7FFAF3604600
         public void m_13F(){} // RVA: 0x7FFAF2F12D00
         public void m_5FE(){} // RVA: 0x7FFAF2E2B370
         public void m_687(){} // RVA: 0x7FFAF3246DE0
-        // ... 15 more unresolved methods
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÏÌÍÎÌÍÍÍÌÎÌÍÌÎÍÍÏÎÍÏÏ</summary>
@@ -242,19 +243,20 @@ namespace VRC.Misc
     public class gameObjectSibling_68CA
     {
         // ── Methods ──
-        public void ParseBoolean(){} // RVA: 0x7FFAFB8EB940
+        public void ParseBoolean(){} // RVA: 0x7FFAFB8EB8F0
+        public void ParseBoolean_C03966618A6D(){} // RVA: 0x7FFAFB8EB940
         public void ParseUInt16(){} // RVA: 0x7FFAFB8EB990
         public void Awake(){} // RVA: 0x7FFAFB8EC550
         public void OnDestroy(){} // RVA: 0x7FFAFB8EC820
         public void .ctor(){} // RVA: 0x7FFAFB8EC840
         public void Initialize(){} // RVA: 0x7FFAFB8ECAF0
-        // ── 34 unresolved (hash) ──
+        // ── 33 unresolved (hash) ──
         public void m_215(){} // RVA: 0x7FFAFB8EB410
         public void m_E9D(){} // RVA: 0x7FFAF3843D70
         public void m_E79(){} // RVA: 0x7FFAF2D8D320
         public void m_19B(){} // RVA: 0x7FFAF3341B50
         public void m_B14(){} // RVA: 0x7FFAFB8EB430
-        // ... 29 more unresolved methods
+        // ... 28 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÌÍÍÍÎÎÎÎÎÏÍÏÎÎÍÌÌÏÎÎ</summary>

@@ -175,6 +175,7 @@ public class VRCInitializeVRSDK
     public void OnDestroy(){} // RVA: 0x7FFAF423F6A0
     public void WorkaroundAMDStutterBug(){} // RVA: 0x7FFAF423F860
     public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+    public void CancelOrInvokeByState(){} // RVA: 0x7FFAF423EFE0
     public void WorkaroundAMDStutterBug_372F95E8E5F8(){} // RVA: 0x7FFAF423F960
     public void StopCoroutine(){} // RVA: 0x7FFAF423FA00
     public void StopAllCoroutines(){} // RVA: 0x7FFAF423FA40
@@ -184,7 +185,6 @@ public class VRCInitializeVRSDK
     public void Internal_CancelInvokeAll(){} // RVA: 0x7FFAF4240290
     // ── Unresolved (hash) ──
     public void m_287(){} // RVA: 0x7FFAF423EFE0
-    public void m_202(){} // RVA: 0x7FFAF423EFE0
 }
 
 public class VRCInputBindingPreset

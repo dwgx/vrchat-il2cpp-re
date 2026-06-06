@@ -19,14 +19,14 @@ namespace VRC.UI
         public void RegisterSocketPoll(){} // RVA: 0x7FFAFBA6E860
         public void GetWrapModeW(){} // RVA: 0x7FFAFBA6FB80
         public void Update(){} // RVA: 0x7FFAFBA6FD70
+        public void RunIl2CppThreadpoolWorker(){} // RVA: 0x7FFAFBA6E3E0
+        public void CreateThreadpoolScheduler(){} // RVA: 0x7FFAFBA6FE10
         public void .ctor(){} // RVA: 0x7FFAFBA70060
         // ── Unresolved (hash) ──
         public void m_559(){} // RVA: 0x7FFAFBA6E3E0
         public void m_FD1(){} // RVA: 0x7FFAFBA6EE90
         public void m_CE5(){} // RVA: 0x7FFAFBA6F100
         public void m_2F8(){} // RVA: 0x7FFAFBA6F7F0
-        public void m_403(){} // RVA: 0x7FFAFBA6E3E0
-        public void m_5EE(){} // RVA: 0x7FFAFBA6FE10
     }
 
     /// <summary>Originally: ÍÎÎÌÎÎÎÎÎÏÏÌÎÍÏÍÏÍÌÍÎÎÍ</summary>
@@ -52,6 +52,7 @@ namespace VRC.UI
         public void .ctor(){} // RVA: 0x7FFAFBBBC350
         public void Initialize(){} // RVA: 0x7FFAFBBBC840
         public void OnDestroy(){} // RVA: 0x7FFAFBBBC940
+        public void ActivateGameObjectAndClearConnectedBody(){} // RVA: 0x7FFAFBBBD250
         public void SetWrapModeV(){} // RVA: 0x7FFAFBBBDBF0
         public void SetWrapModeV_9CF74B94B19F(){} // RVA: 0x7FFAFBBBDC00
         public void GetTextureAtIndex(){} // RVA: 0x7FFAFBBBEC60
@@ -64,15 +65,18 @@ namespace VRC.UI
         public void SetWrapModeV_B05C5494BF4F(){} // RVA: 0x7FFAFBBBDBF0
         public void OnDisable(){} // RVA: 0x7FFAFBBC2760
         public void HasCompleteHumanoidRig(){} // RVA: 0x7FFAFBBC2D90
+        public void CompareHumanAnimatorBone(){} // RVA: 0x7FFAFBBC2E20
+        public void CompareHumanAnimatorBone_384A372ED58B(){} // RVA: 0x7FFAFBBC3010
+        public void CompareHumanAnimatorBone_EF67DB82EC47(){} // RVA: 0x7FFAFBBC30A0
         public void HasCompleteHumanoidRig_7D557C8B074D(){} // RVA: 0x7FFAFBBC3380
         public void .cctor(){} // RVA: 0x7FFAFBBC3660
-        // ── 30 unresolved (hash) ──
+        // ── 26 unresolved (hash) ──
         public void m_489(){} // RVA: 0x7FFAFBBBC260
         public void m_9D4(){} // RVA: 0x7FFAFBBBC8D0
         public void m_798(){} // RVA: 0x7FFAFBBBCD50
         public void m_E6B(){} // RVA: 0x7FFAFBBBCD60
         public void m_7B8(){} // RVA: 0x7FFAFBBBCE80
-        // ... 25 more unresolved methods
+        // ... 21 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÍÌÎÌÎÌÌÎÌÌÏÍÌÎÌÍÌÏÎÎÌ</summary>
@@ -147,6 +151,7 @@ namespace VRC.UI
     public class TextureUIHandler_DF1E
     {
         // ── Methods ──
+        public void CacheRigidbodyVelocities(){} // RVA: 0x7FFAFBB9F5F0
         public void OnEnable(){} // RVA: 0x7FFAFBB9F6E0
         public void ApplyCachedLocalPosition(){} // RVA: 0x7FFAFBBA0450
         public void .ctor(){} // RVA: 0x7FFAFBBA1530
@@ -155,16 +160,18 @@ namespace VRC.UI
         public void GetFilterMode(){} // RVA: 0x7FFAFBBA1E90
         public void Internal_GetStoredColorSpace(){} // RVA: 0x7FFAFBBA2010
         public void GetConnectedBodyRotation(){} // RVA: 0x7FFAFBBA2140
+        public void GetConnectedBodyRotation_90AD667B029F(){} // RVA: 0x7FFAFBBA21D0
         public void OnDisable(){} // RVA: 0x7FFAFBBA2420
         public void GetTexelSize(){} // RVA: 0x7FFAFBBA2650
         public void GetUpdateCount(){} // RVA: 0x7FFAFBBA2710
-        // ── 24 unresolved (hash) ──
-        public void m_277(){} // RVA: 0x7FFAFBB9F5F0
+        public void TransformRotationRelativeToQuaternion(){} // RVA: 0x7FFAFBBA28B0
+        // ── 21 unresolved (hash) ──
         public void m_31A(){} // RVA: 0x7FFAFBB9FBD0
         public void m_B6D(){} // RVA: 0x7FFAFBB9FC60
         public void m_0F1(){} // RVA: 0x7FFAFBB9FC60
         public void m_1B4(){} // RVA: 0x7FFAFBB9FCA0
-        // ... 19 more unresolved methods
+        public void m_21B(){} // RVA: 0x7FFAFBB9FDC0
+        // ... 16 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÌÌÏÍÌÏÎÎÌÌÌÍÏÍÏÏÏÎÎÏÌ</summary>

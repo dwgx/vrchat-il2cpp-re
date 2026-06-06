@@ -15,15 +15,16 @@ namespace VRC.Player
         public void Reset(){} // RVA: 0x7FFAF2FAB770
         public void set_ChangedTime(){} // RVA: 0x7FFAF2FADE90
         public void set_ChangedTime_3BC1C81AE51A(){} // RVA: 0x7FFAF2FADEA0
+        public void SetChangedTime(){} // RVA: 0x7FFAF2FADEB0
         public void OnDestroy(){} // RVA: 0x7FFAF2FADDD0
         public void OnControllerColliderHit(){} // RVA: 0x7FFAF2FAE260
-        // ── 46 unresolved (hash) ──
+        // ── 45 unresolved (hash) ──
         public void m_FB4(){} // RVA: 0x7FFAF2FAA1F0
         public void m_6CA(){} // RVA: 0x7FFAF2FAA510
         public void m_156(){} // RVA: 0x7FFAF2FAAC60
         public void m_8FF(){} // RVA: 0x7FFAF2FAAC70
         public void m_2F6(){} // RVA: 0x7FFAF2FAAD10
-        // ... 41 more unresolved methods
+        // ... 40 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÎÏÎÏÍÎÎÎÍÍÏÌÌÎÌÏÍÌÏÎ</summary>

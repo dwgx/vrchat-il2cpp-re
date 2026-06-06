@@ -73,22 +73,22 @@ namespace VRC.Network
     public class PhotonConnectionHandler_3DFD
     {
         // ── Methods ──
+        public void InvokeCustomAuthenticationResponseCallback(){} // RVA: 0x7FFAF4564500
+        public void InvokeConnectedToMasterWithState(){} // RVA: 0x7FFAF45648C0
         public void OnCustomAuthenticationResponse(){} // RVA: 0x7FFAF4564B40
         public void OnConnectedToMaster(){} // RVA: 0x7FFAF4564E30
+        public void InvokeCustomAuthenticationFailedCallback(){} // RVA: 0x7FFAF4565420
+        public void InvokeConnectedToMasterCallback(){} // RVA: 0x7FFAF45657E0
+        public void InvokeCustomAuthenticationFailedWithMessage(){} // RVA: 0x7FFAF4565BA0
         public void OnCustomAuthenticationFailed(){} // RVA: 0x7FFAF4565E20
+        public void AssignPhotonCallbackTarget(){} // RVA: 0x7FFAF4566190
+        public void InvokeCustomAuthenticationResponseWithPayload(){} // RVA: 0x7FFAF4566490
         public void .ctor(){} // RVA: 0x7FFAF4566800
         public void Initialize(){} // RVA: 0x7FFAF45668C0
         // ── Unresolved (hash) ──
         public void m_7B7(){} // RVA: 0x7FFAF4564200
-        public void m_41C(){} // RVA: 0x7FFAF4564500
-        public void m_95A(){} // RVA: 0x7FFAF45648C0
         public void m_B42(){} // RVA: 0x7FFAF45650B0
         public void m_7D2(){} // RVA: 0x7FFAF2D8D310
-        public void m_72F(){} // RVA: 0x7FFAF4565420
-        public void m_56D(){} // RVA: 0x7FFAF45657E0
-        public void m_FDD(){} // RVA: 0x7FFAF4565BA0
-        public void m_8A5(){} // RVA: 0x7FFAF4566190
-        public void m_949(){} // RVA: 0x7FFAF4566490
     }
 
     /// <summary>Originally: ÏÌÏÏÍÍÎÌÎÎÎÎÏÎÎÎÎÎÌÌÎÏÌ</summary>
@@ -161,18 +161,19 @@ namespace VRC.Network
         public void Start(){} // RVA: 0x7FFAF45353A0
         public void OnJoinedRoom(){} // RVA: 0x7FFAF2D8D310
         public void OnLeftRoom(){} // RVA: 0x7FFAF2D8D310
+        public void RemoveMasterClientSwitchedDelegate(){} // RVA: 0x7FFAF4535510
         public void OnDisable(){} // RVA: 0x7FFAF4535850
         public void Awake(){} // RVA: 0x7FFAF45358B0
         public void OnDestroy(){} // RVA: 0x7FFAF2D8D310
         public void OnCreatedRoom(){} // RVA: 0x7FFAF2D8D310
         public void OnEnable(){} // RVA: 0x7FFAF4535E00
-        // ── 13 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_A02(){} // RVA: 0x7FFAF2D8D310
         public void m_F90(){} // RVA: 0x7FFAF2D8D310
         public void m_597(){} // RVA: 0x7FFAF2D8D310
         public void m_8CF(){} // RVA: 0x7FFAF2D8D310
         public void m_32A(){} // RVA: 0x7FFAF2D8D310
-        // ... 8 more unresolved methods
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÍÎÏÎÍÌÌÌÎÍÍÌÍÌÍÎÏÎÏÍÌÏÎ</summary>
@@ -193,13 +194,18 @@ namespace VRC.Network
         public void .ctor(){} // RVA: 0x7FFAF45699C0
         public void Initialize(){} // RVA: 0x7FFAF4569A80
         public void OnMasterClientSwitched(){} // RVA: 0x7FFAF456A340
-        // ── 11 unresolved (hash) ──
+        public void SendMasterClientSwitchedEvent(){} // RVA: 0x7FFAF456ABD0
+        // ── Unresolved (hash) ──
         public void m_F90(){} // RVA: 0x7FFAF45696D0
         public void m_82D(){} // RVA: 0x7FFAF4569D70
         public void m_33D(){} // RVA: 0x7FFAF456A050
         public void m_318(){} // RVA: 0x7FFAF456A630
         public void m_B02(){} // RVA: 0x7FFAF456A8E0
-        // ... 6 more unresolved methods
+        public void m_A74(){} // RVA: 0x7FFAF456AE80
+        public void m_747(){} // RVA: 0x7FFAF456B160
+        public void m_68A(){} // RVA: 0x7FFAF456B450
+        public void m_72E(){} // RVA: 0x7FFAF456B740
+        public void m_FF3(){} // RVA: 0x7FFAF456BA20
     }
 
     /// <summary>Originally: ÌÌÎÏÌÎÌÎÌÌÍÌÏÏÏÎÏÌÎÍÍÏÌ</summary>
@@ -220,13 +226,16 @@ namespace VRC.Network
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF35DD550
         public void Initialize(){} // RVA: 0x7FFAF2DBB0C0
-        // ── 14 unresolved (hash) ──
+        public void AssignRoomHandlerPayload(){} // RVA: 0x7FFAF35DD720
+        public void EvaluateRoomHandlerPredicate(){} // RVA: 0x7FFAF35DD810
+        public void InvokeRoomHandlerCallback(){} // RVA: 0x7FFAF35DD900
+        // ── 11 unresolved (hash) ──
         public void m_8CE(){} // RVA: 0x7FFAF2DBB0C0
         public void m_C44(){} // RVA: 0x7FFAF2DF3E80
         public void m_6D8(){} // RVA: 0x7FFAF2DBB0C0
         public void m_52F(){} // RVA: 0x7FFAF2DBB0D0
         public void m_D1F(){} // RVA: 0x7FFAF35DD700
-        // ... 9 more unresolved methods
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÌÍÍÏÍÌÏÏÎÏÎÍÏÌÏÌÎÌÏÎ</summary>

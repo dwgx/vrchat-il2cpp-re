@@ -315,16 +315,16 @@ namespace VRC.Core.Base
         public void Start(){} // RVA: 0x7FFAF3E21510
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void OnDisable(){} // RVA: 0x7FFAF3E216A0
+        public void GetBool(){} // RVA: 0x7FFAF3E21920
+        public void GetFloat(){} // RVA: 0x7FFAF3E21C40
+        public void GetInteger(){} // RVA: 0x7FFAF3E21DC0
         // ── Unresolved (hash) ──
         public void m_3CB(){} // RVA: 0x7FFAF3E20FF0
         public void m_D71(){} // RVA: 0x7FFAF3E211F0
         public void m_DCE(){} // RVA: 0x7FFAF3E21380
         public void m_3FB(){} // RVA: 0x7FFAF3E217A0
-        public void m_B8E(){} // RVA: 0x7FFAF3E21920
         public void m_656(){} // RVA: 0x7FFAF3E21A20
         public void m_0A1(){} // RVA: 0x7FFAF3E21B40
-        public void m_65A(){} // RVA: 0x7FFAF3E21C40
-        public void m_C29(){} // RVA: 0x7FFAF3E21DC0
         public void m_86E(){} // RVA: 0x7FFAF3E21F50
     }
 
