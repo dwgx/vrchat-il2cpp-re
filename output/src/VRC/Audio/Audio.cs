@@ -255,13 +255,13 @@ namespace VRC.Audio
         public void SelectNextMic(){} // RVA: 0x7FFAF2D8D310
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void SelectPreviousMic(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
         public void m_419(){} // RVA: 0x7FFAF2D8D310
         public void m_D17(){} // RVA: 0x7FFAF2D8D310
         public void m_920(){} // RVA: 0x7FFAF2D8D310
         public void m_688(){} // RVA: 0x7FFAF2D8D310
         public void m_7FB(){} // RVA: 0x7FFAF2D8D310
-        public void m_23B(){} // RVA: 0x7FFAF2D8D310
         public void m_6C7(){} // RVA: 0x7FFAF2D8D310
     }
 
@@ -1159,6 +1159,7 @@ namespace VRC.Audio
         public void .ctor_F5D8351B397B(){} // RVA: 0x7FFAFB675210
         public void .ctor(){} // RVA: 0x7FFAFB675690
         public void Initialize(){} // RVA: 0x7FFAFB6757B0
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void EvaluatePlayerInteractivePickupUseDown(){} // RVA: 0x7FFAF2DBB0C0
         public void OnEnable(){} // RVA: 0x7FFAFB675C30
         public void Start(){} // RVA: 0x7FFAFB675C40
@@ -1166,7 +1167,6 @@ namespace VRC.Audio
         // ── Unresolved (hash) ──
         public void m_F5D(){} // RVA: 0x7FFAFB674D60
         public void m_544(){} // RVA: 0x7FFAFB674D70
-        public void m_1E5(){} // RVA: 0x7FFAF2DBB0C0
     }
 
     /// <summary>Originally: ÏÌÍÎÏÎÎÏÌÍÎÌÏÎÎÍÎÏÎÌÏÍÌ</summary>

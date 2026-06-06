@@ -15,10 +15,10 @@ namespace VRC.UI.Client.IPS
         public void AwaitUnsafeOnCompleted_AE9C2D98AF72(){} // RVA: 0x7FFAF2ADDC60
         public void get_PagedData(){} // RVA: 0x7FFAF2ABCD60
         public void AwaitUnsafeOnCompleted_CB39B4F08737(){} // RVA: 0x7FFAF2ADDC60
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         // ── Unresolved (hash) ──
         public void m_BCD(){} // RVA: 0x7FFAF2ABCD60
         public void m_8EB(){} // RVA: 0x7FFAF2ABCD60
-        public void m_050(){} // RVA: 0x7FFAF2ABCD60
         public void m_2AB(){} // RVA: 0x7FFAF2ABCD60
     }
 

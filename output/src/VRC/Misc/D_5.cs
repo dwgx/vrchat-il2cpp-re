@@ -457,8 +457,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÎÏÏÏÌÌÏÍÌÌÎÎÏÌÎÏÎÌÎÍÌÏ</summary>
     public class Derived_84B3
     {
-        // ── Unresolved (hash) ──
-        public void m_C01(){} // RVA: 0x7FFAF2AD4B10
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ</summary>

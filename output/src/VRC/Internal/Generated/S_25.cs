@@ -404,8 +404,9 @@ namespace VRC.Internal.Generated
     /// <summary>Originally: ÏÌÌÍÌÏÏÎÏÏÏÏÍÍÌÌÍÎÍÎÍÌÌ</summary>
     public class Static2m_A0E3
     {
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         // ── Unresolved (hash) ──
-        public void m_0D6(){} // RVA: 0x7FFAF2ABCD60
         public void m_619(){} // RVA: 0x7FFAF2ABCD60
     }
 
@@ -457,14 +458,15 @@ namespace VRC.Internal.Generated
         public void Initialize(){} // RVA: 0x7FFAF2FC9240
         public void TouchIdFromPointerId(){} // RVA: 0x7FFAF441A350
         public void MoveNext(){} // RVA: 0x7FFAF4417D60
+        public void get_Current(){} // RVA: 0x7FFAF4417DD0
         public void get_ElementType(){} // RVA: 0x7FFAF2FC9240
-        // ── 27 unresolved (hash) ──
+        // ── 26 unresolved (hash) ──
         public void m_1AE(){} // RVA: 0x7FFAF441A180
         public void m_763(){} // RVA: 0x7FFAF441A190
         public void m_E16(){} // RVA: 0x7FFAF441A220
         public void m_A9A(){} // RVA: 0x7FFAF441A2B0
         public void m_2F7(){} // RVA: 0x7FFAF441A340
-        // ... 22 more unresolved methods
+        // ... 21 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÎÍÏÎÌÏÍÍÏÎÍÎÎÎÌÏÌÏÏÌ</summary>
@@ -473,10 +475,10 @@ namespace VRC.Internal.Generated
         // ── Methods ──
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void Rewrite(){} // RVA: 0x7FFAF2ACE6A0
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
         public void m_8DF(){} // RVA: 0x7FFAF301C8E0
-        public void m_449(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÏÌÌÎÏÌÎÏÎÍÍÏÌÍÍÏÏÍÏÏÎÏÌ</summary>
@@ -715,11 +717,11 @@ namespace VRC.Internal.Generated
     public class Static8m_FD7C
     {
         // ── Methods ──
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         public void Initialize(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
         public void m_DA2(){} // RVA: 0x7FFAF2AD4A50
-        public void m_2AD(){} // RVA: 0x7FFAF2AD4A50
         public void m_44F(){} // RVA: 0x7FFAF2AD4A50
         public void m_D87(){} // RVA: 0x7FFAF2AD4A50
         public void m_B12(){} // RVA: 0x7FFAF2AD4A50

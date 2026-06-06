@@ -34,6 +34,7 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void SetRealtimeTexture(){} // RVA: 0x7FFAFBA18AE0
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void OnDestroy(){} // RVA: 0x7FFAFBA18E90
         public void AdvanceRealtimeTextureListEnumerator(){} // RVA: 0x7FFAFBA18F30
         public void CopyRealtimeTextureNameAndTexture(){} // RVA: 0x7FFAFBA19030
@@ -43,13 +44,13 @@ namespace VRC.Rendering
         public void get_Instance(){} // RVA: 0x7FFAFBA1B7B0
         public void OnHandFocusLost(){} // RVA: 0x7FFAF2F6EC00
         public void AssignRealtimeTextureEnumeratorTarget(){} // RVA: 0x7FFAFBA1BB60
-        // ── 14 unresolved (hash) ──
-        public void m_65B(){} // RVA: 0x7FFAF2D8D310
+        // ── 13 unresolved (hash) ──
         public void m_0A7(){} // RVA: 0x7FFAFBA19370
         public void m_E02(){} // RVA: 0x7FFAF2D8D310
         public void m_038(){} // RVA: 0x7FFAFBA19550
         public void m_321(){} // RVA: 0x7FFAFBA19630
-        // ... 9 more unresolved methods
+        public void m_62B(){} // RVA: 0x7FFAFBA19900
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÎÎÍÏÎÎÍÏÍÎÌÍÌÏÏÌÍÌÍÏÍÎÎ</summary>
@@ -114,6 +115,7 @@ namespace VRC.Rendering
         public void GetMaterialArray(){} // RVA: 0x7FFAFB86CC40
         public void GetLightmapIndex(){} // RVA: 0x7FFAFB86D950
         public void GetRenderingLayerMask(){} // RVA: 0x7FFAFB86DFF0
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void GetShadowCastingMode(){} // RVA: 0x7FFAFB86E350
         public void .ctor(){} // RVA: 0x7FFAFB86E660
         public void Initialize(){} // RVA: 0x7FFAFB86E880
@@ -127,7 +129,6 @@ namespace VRC.Rendering
         public void m_723(){} // RVA: 0x7FFAFB86D530
         public void m_A08(){} // RVA: 0x7FFAFB86D620
         public void m_838(){} // RVA: 0x7FFAFB86DE70
-        public void m_F36(){} // RVA: 0x7FFAF2DBB0C0
     }
 
     /// <summary>Originally: ÎÎÏÎÍÏÍÍÌÌÌÏÍÌÏÌÎÌÌÍÎÎÏ</summary>

@@ -942,6 +942,7 @@ namespace VRC.Rendering
         public void FindLastEnabledDependencyIndex(){} // RVA: 0x7FFAF3BBAB30
         public void LateUpdate(){} // RVA: 0x7FFAF3BBAD00
         public void OnDisable(){} // RVA: 0x7FFAF3BBAF50
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void OnApplicationPause(){} // RVA: 0x7FFAF3BBAFE0
         public void OnApplicationQuit(){} // RVA: 0x7FFAF3BBB520
         public void OnBecameVisible(){} // RVA: 0x7FFAF3BBB9F0
@@ -957,13 +958,13 @@ namespace VRC.Rendering
         public void FixedUpdate(){} // RVA: 0x7FFAF3BBD990
         public void .ctor(){} // RVA: 0x7FFAF3BBE030
         public void OnDestroy(){} // RVA: 0x7FFAF3BBE5C0
-        // ── 25 unresolved (hash) ──
+        // ── 24 unresolved (hash) ──
         public void m_58E(){} // RVA: 0x7FFAF3BB8180
         public void m_ACC(){} // RVA: 0x7FFAF3BB81B0
         public void m_678(){} // RVA: 0x7FFAF3BB8260
         public void m_10B(){} // RVA: 0x7FFAF3BB82D0
         public void m_95A(){} // RVA: 0x7FFAF3BB8950
-        // ... 20 more unresolved methods
+        // ... 19 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÍÌÌÎÌÎÍÎÍÏÎÏÌÏÏÌÏÏÎÎÏ</summary>

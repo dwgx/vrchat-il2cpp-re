@@ -75,16 +75,22 @@ namespace VRC.Misc
         // ── Methods ──
         public void Equals_425E4162FC84(){} // RVA: 0x7FFAF2AC1120 | overloaded x2
         public void Remove(){} // RVA: 0x7FFAF2ABDE40
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void get_Count(){} // RVA: 0x7FFAF2ABD840
+        public void Dispose(){} // RVA: 0x7FFAF2AD5130
         public void ConvertAll(){} // RVA: 0x7FFAF2ABCE10
-        // ── 12 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_924(){}
         public void m_0D7(){}
         public void m_CB9(){}
         public void m_4CA(){} // RVA: 0x7FFAF2AD4B10
-        public void m_41E(){} // RVA: 0x7FFAF2AD4A50
-        // ... 7 more unresolved methods
+        public void m_536(){} // RVA: 0x7FFAF2AD4B10
+        public void m_FE6(){} // RVA: 0x7FFAF2AD4A50
+        public void m_FE9(){} // RVA: 0x7FFAF2AD4B10
+        public void m_3B0(){}
+        public void m_56F(){}
     }
 
     /// <summary>Originally: ÏÎÎÌÏÎÎÍÏÌÎÍÌÎÎÏÌÌÎÎÍÏÍ</summary>

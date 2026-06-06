@@ -891,12 +891,12 @@ public class <>c
     public void GetHashCode_A5182362E8F9(){} // RVA: 0x7FFAF30B4140
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void GetHashCode_31B82A91A081(){} // RVA: 0x7FFAF30B4140
+    public void op_Implicit(){} // RVA: 0x7FFAF30B4390
     public void FindObjectOfType(){} // RVA: 0x7FFAF30B4120
     // ── Unresolved (hash) ──
     public void m_5CC(){} // RVA: 0x7FFAF30B4210
     public void m_388(){} // RVA: 0x7FFAF30B42D0
     public void m_E89(){} // RVA: 0x7FFAF30B4120
-    public void m_13B(){} // RVA: 0x7FFAF30B4390
 }
 
 public class <>c

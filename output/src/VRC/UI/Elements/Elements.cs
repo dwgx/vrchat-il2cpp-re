@@ -25,9 +25,9 @@ namespace VRC.UI.Elements
         public void get_LastLocalRotation(){} // RVA: 0x7FFAFB660FA0
         public void get_ScaleContainer(){} // RVA: 0x7FFAF2DA8380
         public void get_MenuPlacementZDepthVR(){} // RVA: 0x7FFAF2D91CF0
-        public void set_ScaleContainer(){} // RVA: 0x7FFAF8BDF570
+        public void set_DesktopPosition(){} // RVA: 0x7FFAF8BDF570
         public void get_LastLocalLookRotation(){} // RVA: 0x7FFAFB660FB0
-        public void set_DesktopPosition(){} // RVA: 0x7FFAFB660FD0
+        public void set_ScaleContainer(){} // RVA: 0x7FFAFB660FD0
         public void set_LastLocalRotation(){} // RVA: 0x7FFAFB661070
         public void get_DesktopPosition(){} // RVA: 0x7FFAF2DF5480
         public void set_VrPosition(){} // RVA: 0x7FFAFB660FA0

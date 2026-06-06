@@ -996,12 +996,12 @@ namespace VRC.Rendering
         public void PublishStateAndLoadLiteral(){} // RVA: 0x7FFAF2D33FA0
         public void Start(){} // RVA: 0x7FFAF2AD4A50
         public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void GetAndClearFloatingPointExceptions(){} // RVA: 0x7FFAF2AD4A50
         public void GetAndClearFloatingPointExceptions_3B0CDCB7ACF9(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
         public void m_AC7(){} // RVA: 0x7FFAF2AD4A50
-        public void m_62B(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÍÍÏÍÌÎÍÌÍÍÍÎÍÍÎÍÎÏÎÍÎÌ</summary>
@@ -1011,12 +1011,12 @@ namespace VRC.Rendering
         public void PublishStateAndLoadLiteral(){} // RVA: 0x7FFAF383A610
         public void Start(){} // RVA: 0x7FFAF7B1CF70
         public void TryCopyTo(){} // RVA: 0x7FFAF7B1D1D0
+        public void Clear(){} // RVA: 0x7FFAF7B1D5B0
         public void GetAndClearFloatingPointExceptions(){} // RVA: 0x7FFAF7B1D660
         public void GetAndClearFloatingPointExceptions_3B0CDCB7ACF9(){} // RVA: 0x7FFAF7B1D6E0
         public void .ctor(){} // RVA: 0x7FFAF7B1D770
         // ── Unresolved (hash) ──
         public void m_AC7(){} // RVA: 0x7FFAF7B1D4E0
-        public void m_62B(){} // RVA: 0x7FFAF7B1D5B0
     }
 
     /// <summary>Originally: ÎÎÎÎÎÏÌÎÍÌÎÎÏÌÎÌÎÌÏÏÏÏÌ</summary>

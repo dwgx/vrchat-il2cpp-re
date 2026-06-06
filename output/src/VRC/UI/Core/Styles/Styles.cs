@@ -16,9 +16,8 @@ namespace VRC.UI.Core.Styles
         public void InvokeRepeating(){} // RVA: 0x7FFAF2DBB0C0
         public void CancelInvoke(){} // RVA: 0x7FFAF2DBB0C0
         public void OnPointerClick(){} // RVA: 0x7FFAF2DBB0C0
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_477(){} // RVA: 0x7FFAF2DBB0C0
     }
 
     public class StyleElement
@@ -93,13 +92,13 @@ namespace VRC.UI.Core.Styles
         public void __get_targetGraphic__UnityEngineUIGraphic(){} // RVA: 0x7FFAFB59D820
         public void InvokeStyleElementMethod(){} // RVA: 0x7FFAFB59D840
         public void FixedUpdate_9939BEFD7FBC(){} // RVA: 0x7FFAFB59DA90
-        public void MoveNext(){} // RVA: 0x7FFAFB59DD50
         public void OnPointerUp_EF7721E573A9(){} // RVA: 0x7FFAFB59DFC0
         public void OnPointerExit_7EB0E7B99FCC(){} // RVA: 0x7FFAFB59E170
         // ── Unresolved (hash) ──
         public void m_1CF(){} // RVA: 0x7FFAFB598D30
         public void m_E6F(){} // RVA: 0x7FFAFB59B780
         public void m_314(){} // RVA: 0x7FFAFB59D520
+        public void m_096(){} // RVA: 0x7FFAFB59DD50
     }
 
     public class StyleEngine
@@ -124,6 +123,7 @@ namespace VRC.UI.Core.Styles
         public void Awake(){} // RVA: 0x7FFAFB5A1560
         public void StopAllCoroutines(){} // RVA: 0x7FFAFB5A15D0
         public void .ctor(){} // RVA: 0x7FFAFB5A1690
+        public void get_importedWithErrors(){} // RVA: 0x7FFAFB5A19A0
         public void Start(){} // RVA: 0x7FFAFB5A1C10
         public void LateUpdate_E2B4CA80F2CC(){} // RVA: 0x7FFAFB5A1C20
         public void Start_8E55ABA21492(){} // RVA: 0x7FFAFB5A1D70
@@ -138,8 +138,6 @@ namespace VRC.UI.Core.Styles
         public void GetScriptClassName(){} // RVA: 0x7FFAFB5A2600
         public void OnCancellationTokenCreated(){} // RVA: 0x7FFAF6B3F2D0
         public void OnTriggerExit(){} // RVA: 0x7FFAFB5A2790
-        // ── Unresolved (hash) ──
-        public void m_CFE(){} // RVA: 0x7FFAFB5A19A0
     }
 
     public class StyleResource

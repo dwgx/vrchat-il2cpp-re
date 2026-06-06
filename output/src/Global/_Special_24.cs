@@ -19,6 +19,7 @@ public class <>c
     public void op_Implicit(){} // RVA: 0x7FFAFBDF7FA0
     public void set_name(){} // RVA: 0x7FFAF9125860
     public void op_Equality(){} // RVA: 0x7FFAF9125860
+    public void op_Implicit_13BC59F34EDA(){} // RVA: 0x7FFAFBDF7FA0
     public void Equals(){} // RVA: 0x7FFAF5335D30
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void .cctor(){} // RVA: 0x7FFAFBDF7FB0
@@ -27,7 +28,6 @@ public class <>c
     public void GetLastCacheItem(){} // RVA: 0x7FFAF9125860
     // ── Unresolved (hash) ──
     public void m_AFF(){} // RVA: 0x7FFAFBDF7FA0
-    public void m_13B(){} // RVA: 0x7FFAFBDF7FA0
     public void m_F86(){} // RVA: 0x7FFAFBDF7FA0
     public void m_F52(){} // RVA: 0x7FFAF5335D30
 }

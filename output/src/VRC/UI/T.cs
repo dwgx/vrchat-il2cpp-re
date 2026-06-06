@@ -213,6 +213,7 @@ namespace VRC.UI
     public class TransformUITransformHandler_A1CF
     {
         // ── Methods ──
+        public void get_Current(){} // RVA: 0x7FFAF2ABC770
         public void get_minHeight(){} // RVA: 0x7FFAF35AF380
         public void get_ErrorCount(){} // RVA: 0x7FFAF349AB90
         public void RandomRangeInt(){} // RVA: 0x7FFAF3C50EB0
@@ -222,7 +223,6 @@ namespace VRC.UI
         public void .ctor(){} // RVA: 0x7FFAF3C52920
         // ── Unresolved (hash) ──
         public void m_600(){} // RVA: 0x7FFAF3C50D80
-        public void m_AB6(){} // RVA: 0x7FFAF2ABC770
         public void m_B60(){} // RVA: 0x7FFAF3C511E0
         public void m_6EF(){} // RVA: 0x7FFAF3C514A0
         public void m_722(){} // RVA: 0x7FFAF3C51980

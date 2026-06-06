@@ -8,9 +8,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÎÏÍÍÍÎÏÏÍÍÍÌÏÌÌÌÏÏÌÍÍÍ</summary>
     public class ODerived_ADF8 : O<#
     {
-        // ── Unresolved (hash) ──
-        public void m_6FB(){} // RVA: 0x7FFAF2ABCD60
-        public void m_5F4(){} // RVA: 0x7FFAF2AD4B10
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÏÌÌÌÎÌÎÎÍÍÍÌÌÏÌÎÌÍÏÎÌÎÌ</summary>
@@ -77,6 +77,7 @@ namespace VRC.Misc
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x7FFAFBD7CA40
         public void RaiseCancellation(){} // RVA: 0x7FFAFBD7CB40
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAFBD7CF50
         public void Awake(){} // RVA: 0x7FFAFBD7CFB0
         public void OnCollisionEnter(){} // RVA: 0x7FFAFBD7D100
@@ -87,7 +88,6 @@ namespace VRC.Misc
         public void OnDestroy(){} // RVA: 0x7FFAFBD7D640
         public void .ctor(){} // RVA: 0x7FFAFBD7D750
         // ── Unresolved (hash) ──
-        public void m_2CD(){} // RVA: 0x7FFAF2AD4B10
         public void m_D5D(){} // RVA: 0x7FFAFBD7CC40
         public void m_E60(){} // RVA: 0x7FFAFBD7CDB0
         public void m_F30(){} // RVA: 0x7FFAFBD7D170
@@ -115,19 +115,19 @@ namespace VRC.Misc
         public void Update_3CB451386F3C(){} // RVA: 0x7FFAF2ABCD60
         public void RaiseCancellation(){} // RVA: 0x7FFAF2ABC770
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
+        public void Dispose(){} // RVA: 0x7FFAF2AD5130
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2AD4B10
         public void GetIntegerFromDelegate(){} // RVA: 0x7FFAF2ABC770
         public void HandleTouchpadRelease(){} // RVA: 0x7FFAF2AD4B10
+        public void get_Current(){} // RVA: 0x7FFAF2ABC770
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void OnCollisionExit(){} // RVA: 0x7FFAF2ABC770
         public void StartCoroutine_Auto(){} // RVA: 0x7FFAF2AD4B10
         public void UpdateTouchpadState(){} // RVA: 0x7FFAF2AD4B10
         public void ProcessTouchpadInput(){} // RVA: 0x7FFAF2ABCD60
         public void StopTouchpadPolling(){} // RVA: 0x7FFAF2AC1120
         // ── Unresolved (hash) ──
-        public void m_7B4(){} // RVA: 0x7FFAF2AD5130
-        public void m_FFC(){} // RVA: 0x7FFAF2ABCD60
-        public void m_4F8(){} // RVA: 0x7FFAF2ABC770
-        public void m_0CA(){} // RVA: 0x7FFAF2AD4B10
         public void m_ED0(){}
     }
 
@@ -165,10 +165,10 @@ namespace VRC.Misc
         public void OnDestroy(){} // RVA: 0x7FFAFB641D40
         public void OnCollisionExit(){} // RVA: 0x7FFAF2D8D310
         public void StartCoroutine_Auto(){} // RVA: 0x7FFAFB641F60
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
         public void m_6F5(){} // RVA: 0x7FFAFB641520
         public void m_9AB(){} // RVA: 0x7FFAFB641E90
-        public void m_761(){} // RVA: 0x7FFAF2D8D310
     }
 
     /// <summary>Originally: ÌÌÎÎÎÏÎÍÍÍÎÍÌÎÍÌÍÎÌÏÌÎÎ</summary>
@@ -212,8 +212,7 @@ namespace VRC.Misc
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x7FFAF2ABDBE0
         public void RaiseCancellation(){} // RVA: 0x7FFAF2AD5130
-        // ── Unresolved (hash) ──
-        public void m_E24(){} // RVA: 0x7FFAF2AD4A50
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÌÍÌÌÌÎÍÏÌÏÌÌÏÏÍÌÌÌÍÍÍ</summary>
@@ -370,9 +369,8 @@ namespace VRC.Misc
         public void RaiseCancellation(){} // RVA: 0x7FFAF2ABDBE0
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF2ADDC60
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2AD4B10
-        // ── Unresolved (hash) ──
-        public void m_81B(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÎÏÍÌÍÌÏÏÍÍÍÍÎÍÌÏÌÍÏÏÌÎÏ</summary>
@@ -382,7 +380,9 @@ namespace VRC.Misc
         public void Update_3CB451386F3C(){} // RVA: 0x7FFAF2ABCE10
         public void RaiseCancellation(){} // RVA: 0x7FFAF2AD4A50
         public void OnDestroy(){} // RVA: 0x7FFAFBCF00D0
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2AD4A50
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0
         public void get_pointerType(){} // RVA: 0x7FFAF34CC130
         public void OnCollisionExit(){} // RVA: 0x7FFAF2D33FA0
@@ -402,9 +402,7 @@ namespace VRC.Misc
         public void UpdatePropPlacement(){} // RVA: 0x7FFAFBCF0EA0
         public void UpdateOVRTouchpadHelperSiblin(){} // RVA: 0x7FFAFBCF10C0
         // ── Unresolved (hash) ──
-        public void m_60E(){} // RVA: 0x7FFAF2ABCD60
         public void m_0B4(){} // RVA: 0x7FFAFBCF0150
-        public void m_736(){} // RVA: 0x7FFAF2AD4A50
         public void m_CBC(){} // RVA: 0x7FFAFBCF0260
     }
 
@@ -540,8 +538,7 @@ namespace VRC.Misc
         public void RefreshTouchpadState(){} // RVA: 0x7FFAF34449A0
         public void OnTouchpadEnabled(){} // RVA: 0x7FFAF2DF5480
         public void OnTouchpadDisabled(){} // RVA: 0x7FFAF3965500
-        // ── Unresolved (hash) ──
-        public void m_2AF(){} // RVA: 0x7FFAF3444EE0
+        public void get_Current(){} // RVA: 0x7FFAF3444EE0
     }
 
     /// <summary>Originally: ÍÌÏÌÎÌÎÏÎÏÎÎÎÎÍÍÌÏÍÏÏÌÏ</summary>
@@ -571,13 +568,13 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Start(){} // RVA: 0x7FFAFBD7D970
         // ── Unresolved (hash) ──
         public void m_F31(){} // RVA: 0x7FFAF2D8D310
         public void m_B3D(){} // RVA: 0x7FFAF2D8D310
         public void m_CE1(){} // RVA: 0x7FFAFBD7D7A0
         public void m_5A8(){} // RVA: 0x7FFAF2D8D310
-        public void m_2CD(){} // RVA: 0x7FFAF2D8D310
     }
 
     /// <summary>Originally: ÏÌÌÌÎÌÎÌÎÎÎÍÌÌÍÍÌÌÍÎÎÎÏ</summary>
@@ -1014,21 +1011,21 @@ namespace VRC.Misc
         public void RaiseCancellation(){} // RVA: 0x7FFAF2AD4A50
         public void OnCollisionExit(){} // RVA: 0x7FFAF2AD4A50
         public void RefreshOVRTouchpadHelperSiblin(){} // RVA: 0x7FFAF2AD5130
+        public void Add_2CDC00B14C42(){} // RVA: 0x7FFAF2AD4B10 | overloaded x2
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2ABCD60
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50 | overloaded x2
         public void HandleTouchpadPress(){} // RVA: 0x7FFAF2AD4A50
         public void OnCollisionExit_2D42AC4F82B4(){} // RVA: 0x7FFAF2AD4A50
         public void StartCoroutine_Auto(){} // RVA: 0x7FFAF2AD4A50
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void HandleTouchpadRelease(){} // RVA: 0x7FFAF2ABDBE0
         public void UpdateTouchpadState(){} // RVA: 0x7FFAF2AD4A50
         public void ProcessTouchpadInput(){} // RVA: 0x7FFAF2D33FA0
         public void HandlePointerExitAvatar(){} // RVA: 0x7FFAF2ABCD60
         public void RefreshOVRTouchpadHelperSiblin_7D1B1F0F88C9(){} // RVA: 0x7FFAF2AD5130
         // ── Unresolved (hash) ──
-        public void m_2CD(){} // RVA: 0x7FFAF2AD4B10
         public void m_794(){} // RVA: 0x7FFAF2AD4B10
         public void m_8B3(){} // RVA: 0x7FFAF2AD4A50
-        public void m_7EB(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÏÏÍÌÎÍÏÍÌÏÍÌÏÏÍÎÏÌÍÎÏÏÌ</summary>
@@ -1039,21 +1036,21 @@ namespace VRC.Misc
         public void RaiseCancellation(){} // RVA: 0x7FFAF7BFEE10
         public void OnCollisionExit(){} // RVA: 0x7FFAF7BFEE30
         public void RefreshOVRTouchpadHelperSiblin(){} // RVA: 0x7FFAF7BFEE50
+        public void Add_2CDC00B14C42(){} // RVA: 0x7FFAF7BFF660 | overloaded x2
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2DBB0C0
         public void .ctor(){} // RVA: 0x7FFAF3020B20 | overloaded x2
         public void HandleTouchpadPress(){} // RVA: 0x7FFAF7BFF0C0
         public void OnCollisionExit_2D42AC4F82B4(){} // RVA: 0x7FFAF7BFEE30
         public void StartCoroutine_Auto(){} // RVA: 0x7FFAF7BFEE10
+        public void Clear(){} // RVA: 0x7FFAF7BFF4F0
         public void HandleTouchpadRelease(){} // RVA: 0x7FFAF2E575E0
         public void UpdateTouchpadState(){} // RVA: 0x7FFAF7BFEE10
         public void ProcessTouchpadInput(){} // RVA: 0x7FFAF7BFF5E0
         public void HandlePointerExitAvatar(){} // RVA: 0x7FFAF30E74D0
         public void RefreshOVRTouchpadHelperSiblin_7D1B1F0F88C9(){} // RVA: 0x7FFAF7BFEE50
         // ── Unresolved (hash) ──
-        public void m_2CD(){} // RVA: 0x7FFAF7BFF660
         public void m_794(){} // RVA: 0x7FFAF7BFF370
         public void m_8B3(){} // RVA: 0x7FFAF7BFF400
-        public void m_7EB(){} // RVA: 0x7FFAF7BFF4F0
     }
 
     /// <summary>Originally: ÏÏÍÌÎÍÏÍÌÏÍÌÏÏÍÎÏÌÍÎÏÏÌ</summary>
@@ -1064,21 +1061,21 @@ namespace VRC.Misc
         public void RaiseCancellation(){} // RVA: 0x7FFAF7BFEE10
         public void OnCollisionExit(){} // RVA: 0x7FFAF7BFEE30
         public void RefreshOVRTouchpadHelperSiblin(){} // RVA: 0x7FFAF7BFEE50
+        public void Add_2CDC00B14C42(){} // RVA: 0x7FFAF7BFF660 | overloaded x2
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2DBB0C0
         public void .ctor(){} // RVA: 0x7FFAF3020B20 | overloaded x2
         public void HandleTouchpadPress(){} // RVA: 0x7FFAF7BFF0C0
         public void OnCollisionExit_2D42AC4F82B4(){} // RVA: 0x7FFAF7BFEE30
         public void StartCoroutine_Auto(){} // RVA: 0x7FFAF7BFEE10
+        public void Clear(){} // RVA: 0x7FFAF7BFF4F0
         public void HandleTouchpadRelease(){} // RVA: 0x7FFAF2E575E0
         public void UpdateTouchpadState(){} // RVA: 0x7FFAF7BFEE10
         public void ProcessTouchpadInput(){} // RVA: 0x7FFAF7BFF5E0
         public void HandlePointerExitAvatar(){} // RVA: 0x7FFAF30E74D0
         public void RefreshOVRTouchpadHelperSiblin_7D1B1F0F88C9(){} // RVA: 0x7FFAF7BFEE50
         // ── Unresolved (hash) ──
-        public void m_2CD(){} // RVA: 0x7FFAF7BFF660
         public void m_794(){} // RVA: 0x7FFAF7BFF370
         public void m_8B3(){} // RVA: 0x7FFAF7BFF400
-        public void m_7EB(){} // RVA: 0x7FFAF7BFF4F0
     }
 
     /// <summary>Originally: ÏÍÏÎÎÏÎÌÌÏÏÌÌÏÏÏÍÏÏÍÌÌÍ</summary>
@@ -1232,6 +1229,7 @@ namespace VRC.Misc
         public void HandleTouchpadRelease(){} // RVA: 0x7FFAF48C2BA0
         public void .ctor(){} // RVA: 0x7FFAF48C3040 | overloaded x2
         public void HandlePointerExitAvatar(){} // RVA: 0x7FFAF2DBB130
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void ProcessTouchpadInput(){} // RVA: 0x7FFAF48C2E70
         public void RegisterTouchpadCallbacks(){} // RVA: 0x7FFAF48C2F00
         public void UnregisterTouchpadCallbacks(){} // RVA: 0x7FFAF2E575E0
@@ -1241,7 +1239,6 @@ namespace VRC.Misc
         public void m_765(){} // RVA: 0x7FFAF48C2950
         public void m_7B4(){} // RVA: 0x7FFAF48C2DF0
         public void m_C7E(){} // RVA: 0x7FFAF48C2E10
-        public void m_176(){} // RVA: 0x7FFAF2DBB0C0
     }
 
     /// <summary>Originally: ÎÍÎÍÎÌÎÎÍÎÏÌÎÏÎÎÎÌÍÏÍÏÎ</summary>
@@ -1269,16 +1266,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x7FFAF2ABDBE0
         public void RaiseCancellation(){} // RVA: 0x7FFAF2ABDBE0
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2AD4B10
         public void LateUpdate(){} // RVA: 0x7FFAF2D33FA0
         public void get_IsSpecialFX_601ABFC98988(){} // RVA: 0x7FFAF2D33FA0
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF2ADDC60
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
-        public void m_584(){} // RVA: 0x7FFAF2ABCD60
         public void m_81B(){} // RVA: 0x7FFAF2AD4B10
-        public void m_2CD(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÏÎÌÍÍÏÎÏÏÎÍÎÏÌÍÏÌÌÏÏÌÍÎ</summary>
@@ -1287,16 +1284,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x7FFAF7BBF400
         public void RaiseCancellation(){} // RVA: 0x7FFAF7BBF490
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2AD4B10
         public void LateUpdate(){} // RVA: 0x7FFAF2DF85F0
         public void get_IsSpecialFX_601ABFC98988(){} // RVA: 0x7FFAF2DF8600
+        public void Add(){} // RVA: 0x7FFAF7BBF520
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF7BBF610
         public void .ctor(){} // RVA: 0x7FFAF463E590
         // ── Unresolved (hash) ──
-        public void m_584(){} // RVA: 0x7FFAF2ABCD60
         public void m_81B(){} // RVA: 0x7FFAF2AD4B10
-        public void m_2CD(){} // RVA: 0x7FFAF7BBF520
     }
 
     /// <summary>Originally: ÏÎÌÍÍÏÎÏÏÎÍÎÏÌÍÏÌÌÏÏÌÍÎ</summary>
@@ -1305,16 +1302,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x7FFAF7BBF400
         public void RaiseCancellation(){} // RVA: 0x7FFAF7BBF490
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2AD4B10
         public void LateUpdate(){} // RVA: 0x7FFAF2DF85F0
         public void get_IsSpecialFX_601ABFC98988(){} // RVA: 0x7FFAF2DF8600
+        public void Add(){} // RVA: 0x7FFAF7BBF520
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF7BBF610
         public void .ctor(){} // RVA: 0x7FFAF463E590
         // ── Unresolved (hash) ──
-        public void m_584(){} // RVA: 0x7FFAF2ABCD60
         public void m_81B(){} // RVA: 0x7FFAF2AD4B10
-        public void m_2CD(){} // RVA: 0x7FFAF7BBF520
     }
 
     /// <summary>Originally: ÏÎÌÍÍÏÎÏÏÎÍÎÏÌÍÏÌÌÏÏÌÍÎ</summary>
@@ -1323,16 +1320,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x7FFAF7BBF400
         public void RaiseCancellation(){} // RVA: 0x7FFAF7BBF490
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2AD4B10
         public void LateUpdate(){} // RVA: 0x7FFAF2DF85F0
         public void get_IsSpecialFX_601ABFC98988(){} // RVA: 0x7FFAF2DF8600
+        public void Add(){} // RVA: 0x7FFAF7BBF520
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF7BBF610
         public void .ctor(){} // RVA: 0x7FFAF463E590
         // ── Unresolved (hash) ──
-        public void m_584(){} // RVA: 0x7FFAF2ABCD60
         public void m_81B(){} // RVA: 0x7FFAF2AD4B10
-        public void m_2CD(){} // RVA: 0x7FFAF7BBF520
     }
 
     /// <summary>Originally: ÏÎÌÍÍÏÎÏÏÎÍÎÏÌÍÏÌÌÏÏÌÍÎ</summary>
@@ -1341,16 +1338,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void Update_3CB451386F3C(){} // RVA: 0x7FFAF7BBF400
         public void RaiseCancellation(){} // RVA: 0x7FFAF7BBF490
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2AD4B10
         public void LateUpdate(){} // RVA: 0x7FFAF2DF85F0
         public void get_IsSpecialFX_601ABFC98988(){} // RVA: 0x7FFAF2DF8600
+        public void Add(){} // RVA: 0x7FFAF7BBF520
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x7FFAF7BBF610
         public void .ctor(){} // RVA: 0x7FFAF463E590
         // ── Unresolved (hash) ──
-        public void m_584(){} // RVA: 0x7FFAF2ABCD60
         public void m_81B(){} // RVA: 0x7FFAF2AD4B10
-        public void m_2CD(){} // RVA: 0x7FFAF7BBF520
     }
 
     /// <summary>Originally: ÏÏÌÍÎÏÏÏÍÎÎÍÍÎÍÍÏÏÎÌÎÌÌ</summary>

@@ -239,14 +239,14 @@ namespace VRC.Core.Component
         // ── Methods ──
         public void Equals(){} // RVA: 0x7FFAF4896660
         public void MoveNext(){} // RVA: 0x7FFAF2DA8380
-        public void get_Current(){} // RVA: 0x7FFAF4896700
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.IEnumerator.get_Current_6A1EC2FCD983(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void GetHashCode(){} // RVA: 0x7FFAF4896980
         public void .ctor(){} // RVA: 0x7FFAF2F7F2A0
         // ── Unresolved (hash) ──
+        public void m_015(){} // RVA: 0x7FFAF4896700
         public void m_81A(){} // RVA: 0x7FFAF48967A0
-        public void m_A3E(){} // RVA: 0x7FFAF2DA8380
         public void m_D94(){} // RVA: 0x7FFAF4896840
         public void m_E2F(){} // RVA: 0x7FFAF48968E0
     }
@@ -274,15 +274,15 @@ namespace VRC.Core.Component
     {
         // ── Methods ──
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void get_IsReadOnly_5627EC181F5C(){} // RVA: 0x7FFAF2ABDBE0
         public void UpdateScrollOffset(){} // RVA: 0x7FFAF2AD51C0
         public void get_IsReadOnly_43AA2F2FC668(){} // RVA: 0x7FFAF2ABDBE0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
+        public void Dispose(){} // RVA: 0x7FFAF2AD5130
         // ── Unresolved (hash) ──
         public void m_A32(){} // RVA: 0x7FFAF2AD4B10
-        public void m_499(){} // RVA: 0x7FFAF2AD4B10
         public void m_AAE(){} // RVA: 0x7FFAF2AD4A50
-        public void m_2B7(){} // RVA: 0x7FFAF2AD4A50
-        public void m_515(){} // RVA: 0x7FFAF2AD5130
     }
 
     /// <summary>Originally: ÏÍÎÌÎÏÌÌÎÌÎÌÎÍÍÌÍÏÏÍÎÌÎ</summary>
@@ -529,9 +529,10 @@ namespace VRC.Core.Component
     /// <summary>Originally: ÏÎÍÏÎÎÌÏÏÏÎÎÎÎÌÌÎÍÏÏÏÏÏ</summary>
     public class LifecycleComponent_FDB8Sibling_DB66
     {
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         // ── Unresolved (hash) ──
         public void m_537(){} // RVA: 0x7FFAF2ABCD60
-        public void m_08E(){} // RVA: 0x7FFAF2ABCD60
         public void m_624(){} // RVA: 0x7FFAF2ABCD60
         public void m_352(){} // RVA: 0x7FFAF2ABCD60
     }

@@ -281,10 +281,10 @@ namespace VRC.Core.Transform
         public void CreatePrimitive_1F4BCE0F7A70(){} // RVA: 0x7FFAF4826560
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void get_flags(){} // RVA: 0x7FFAF4826570
-        public void get_Current(){} // RVA: 0x7FFAF2DBB0C0
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2D8EE90
         public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF2E55500
         public void ReadApplicationState(){} // RVA: 0x7FFAF2DB6020
+        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void set_Options_38E5B71A7282(){} // RVA: 0x7FFAF2DBB890
         public void set_arraySize(){} // RVA: 0x7FFAF4826580
         public void StringType(){} // RVA: 0x7FFAF2E2E0E0
@@ -306,7 +306,7 @@ namespace VRC.Core.Transform
         public void get_completePromotionOnPress(){} // RVA: 0x7FFAF3058B10
         public void GetComponentTransform(){} // RVA: 0x7FFAF2F77C50
         // ── Unresolved (hash) ──
-        public void m_69A(){} // RVA: 0x7FFAF2DA8380
+        public void m_684(){} // RVA: 0x7FFAF2DBB0C0
     }
 
     /// <summary>Originally: ÏÍÍÌÎÍÌÌÎÌÌÎÏÎÍÌÎÍÍÍÍÏÍ</summary>

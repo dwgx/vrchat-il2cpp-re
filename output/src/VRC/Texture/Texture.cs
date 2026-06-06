@@ -91,11 +91,14 @@ namespace VRC.Texture
         // ── Methods ──
         public void ObjectType(){} // RVA: 0x7FFAF2EE54D0
         public void OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency(){} // RVA: 0x7FFAF2DB5FE0
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
         public void set_ElapsedTimeSinceBase(){} // RVA: 0x7FFAF32804A0
         public void OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency_EBD94829C609(){} // RVA: 0x7FFAF2DB5FE0
         public void get_preferredPeakBitRate(){} // RVA: 0x7FFAF3280490
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7FFAF3280800
+        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void StringType(){} // RVA: 0x7FFAF2E2E0E0
+        public void Add(){} // RVA: 0x7FFAF3280820
         public void get_defaultDeadzoneMax(){} // RVA: 0x7FFAF2D95970
         public void OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency(){} // RVA: 0x7FFAF2DB5FF0
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current_B7180C9F853F(){} // RVA: 0x7FFAF3280800
@@ -107,12 +110,9 @@ namespace VRC.Texture
         public void CompareComponentPath(){} // RVA: 0x7FFAF2D95980
         public void StringType_F7999EEC1CD0(){} // RVA: 0x7FFAF2E2E0E0
         // ── Unresolved (hash) ──
-        public void m_609(){} // RVA: 0x7FFAF2D8EE30
         public void m_D6D(){} // RVA: 0x7FFAF470A0D0
         public void m_D43(){} // RVA: 0x7FFAF470A140
         public void m_117(){} // RVA: 0x7FFAF470A460
-        public void m_537(){} // RVA: 0x7FFAF2DA8380
-        public void m_F62(){} // RVA: 0x7FFAF3280820
         public void m_1C4(){} // RVA: 0x7FFAF470A3F0
         public void m_F6E(){} // RVA: 0x7FFAF2D8EE30
         public void m_8B7(){} // RVA: 0x7FFAF470A0D0
@@ -138,6 +138,7 @@ namespace VRC.Texture
         public void MultiplyVector(){} // RVA: 0x7FFAFB938B80
         public void MultiplyVector_A0D953A13964(){} // RVA: 0x7FFAFB938B90
         public void ComputeVector3HashCode(){} // RVA: 0x7FFAFB938CF0
+        public void Clear(){} // RVA: 0x7FFAF79EF630
         public void .ctor(){} // RVA: 0x7FFAFB938D20
         public void OnDestroy(){} // RVA: 0x7FFAFB938DF0
         public void ToString_F46FDF545570(){} // RVA: 0x7FFAF2E41BC0
@@ -152,7 +153,6 @@ namespace VRC.Texture
         public void m_0D7(){} // RVA: 0x7FFAFB9373C0
         public void m_F62(){} // RVA: 0x7FFAFB9381E0
         public void m_CB2(){} // RVA: 0x7FFAFB938840
-        public void m_21E(){} // RVA: 0x7FFAF79EF630
         public void m_4D7(){} // RVA: 0x7FFAFB939020
         public void m_E3D(){} // RVA: 0x7FFAFB939040
         public void m_728(){} // RVA: 0x7FFAFB939050
@@ -164,18 +164,23 @@ namespace VRC.Texture
         // ── Methods ──
         public void GetMatrixElement(){} // RVA: 0x7FFAFB938750
         public void ExtractArrayFromList_D9254B32CD51(){} // RVA: 0x7FFAFB9375F0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
+        public void Dispose(){} // RVA: 0x7FFAF2AD5130
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void OnPointerEnter(){} // RVA: 0x7FFAF313B300
         public void <FetchListDetails>b__1(){} // RVA: 0x7FFAF3A18C90
         public void OnPointerClick(){} // RVA: 0x7FFAF3639A80
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── 11 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_A78(){} // RVA: 0x7FFAFBD8AE20
         public void m_3AD(){} // RVA: 0x7FFAFB9376F0
         public void m_C5E(){} // RVA: 0x7FFAFBD8AF10
         public void m_D1D(){} // RVA: 0x7FFAFBD8B010
         public void m_695(){} // RVA: 0x7FFAFBD8B110
-        // ... 6 more unresolved methods
+        public void m_F5C(){} // RVA: 0x7FFAFBD8B200
+        public void m_ACF(){} // RVA: 0x7FFAF79EF630
     }
 
     /// <summary>Originally: ÎÌÏÏÌÍÏÍÏÏÏÏÎÍÏÌÍÎÌÎÌÏÏ</summary>
@@ -233,15 +238,14 @@ namespace VRC.Texture
         public object hˉe;
 
         // ── Methods ──
+        public void get_Current(){} // RVA: 0x7FFAF2ABC770
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         public void GetExpectedContentHeight(){} // RVA: 0x7FFAF2AD1890
         public void set_value(){} // RVA: 0x7FFAF2AE25B0
         public void get_Count(){} // RVA: 0x7FFAF2ABD840
         public void RemoveAt(){} // RVA: 0x7FFAF2AD4FA0
         public void get_Count_2461A5D93F06(){} // RVA: 0x7FFAF2ABD840
         public void RemoveAt_F8E65C89E88F(){} // RVA: 0x7FFAF2AD4FA0
-        // ── Unresolved (hash) ──
-        public void m_01E(){} // RVA: 0x7FFAF2ABC770
-        public void m_330(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÎÏÌÎÎÍÏÍÏÎÎÌÏÌÎÏÌÏÍÌÏÎÍ</summary>

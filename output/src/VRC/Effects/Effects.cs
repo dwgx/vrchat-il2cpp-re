@@ -256,8 +256,8 @@ namespace VRC.Effects
     public class EffectBundleIDIsSpecialFX_A663
     {
         // ── Methods ──
-        public void set_IsSpecialFX(){} // RVA: 0x7FFAF463E490
-        public void set_EffectBundleID(){} // RVA: 0x7FFAF2DF8600
+        public void set_EffectBundleID(){} // RVA: 0x7FFAF463E490
+        public void set_IsSpecialFX(){} // RVA: 0x7FFAF2DF8600
         public void get_EffectBundleID(){} // RVA: 0x7FFAF463E4E0
         public void get_IsSpecialFX(){} // RVA: 0x7FFAF463E530
         public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFAF2D8D320
@@ -481,16 +481,17 @@ namespace VRC.Effects
     public class ParticleHandler_882C
     {
         // ── Methods ──
+        public void Clear(){} // RVA: 0x7FFAF79EF630
         public void Start(){} // RVA: 0x7FFAFB8AEE20
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8AEFA0
-        // ── 12 unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_F9C(){} // RVA: 0x7FFAFB8AEBB0
-        public void m_E6D(){} // RVA: 0x7FFAF79EF630
         public void m_EBF(){} // RVA: 0x7FFAFB8AECA0
         public void m_A41(){} // RVA: 0x7FFAFB8AED90
         public void m_CE4(){} // RVA: 0x7FFAFB8AEEB0
-        // ... 7 more unresolved methods
+        public void m_461(){} // RVA: 0x7FFAFB8AF090
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÍÏÌÍÌÍÍÎÏÍÏÍÍÎÍÍÍÎÍÌÎÍÎ</summary>
@@ -678,9 +679,8 @@ namespace VRC.Effects
     public class VFXBundleInfoRelated_CBEC
     {
         // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
-        // ── Unresolved (hash) ──
-        public void m_905(){} // RVA: 0x7FFAF2ABCD60
     }
 
     /// <summary>Originally: ÍÏÏÍÍÌÌÎÌÏÏÌÏÌÎÍÍÎÎÍÏÍÎ</summary>

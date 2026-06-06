@@ -9,11 +9,11 @@ namespace VRC.Misc
     public class IgnoreLayoutSibling_CABC
     {
         // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
         public void m_537(){} // RVA: 0x7FFAF2ABCD60
-        public void m_441(){} // RVA: 0x7FFAF2ABCD60
-        public void m_C81(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÏÍÌÏÌÍÏÏÍÎÍÎÍÎÎÎÌÍÍÏÍÌÌ</summary>
@@ -43,6 +43,7 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2D8EE90
         public void set_Type(){} // RVA: 0x7FFAF2E575F0
         public void OnInitialized(){} // RVA: 0x7FFAF2FEF070
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void OnInitializeFailed(){} // RVA: 0x7FFAF2FF2F30 | overloaded x2
         public void .cctor(){} // RVA: 0x7FFAF2FF0EF0
         public void set_KeysOrderedAcrossPartitions(){} // RVA: 0x7FFAF2FF2D70
@@ -57,13 +58,13 @@ namespace VRC.Misc
         public void get_ReturnValue(){} // RVA: 0x7FFAF2E575E0
         public void System.Collections.Generic.IEnumerator<TResult>.get_Current(){} // RVA: 0x7FFAF2FF4FD0
         public void set_deltaPosition(){} // RVA: 0x7FFAF2FF4FE0
-        // ── 33 unresolved (hash) ──
+        // ── 32 unresolved (hash) ──
         public void m_A4F(){} // RVA: 0x7FFAF2FECCF0
         public void m_BE5(){} // RVA: 0x7FFAF2FECF10
         public void m_A16(){} // RVA: 0x7FFAF2FED090
         public void m_34B(){} // RVA: 0x7FFAF2FED4E0
         public void m_CB0(){} // RVA: 0x7FFAF2FED720
-        // ... 28 more unresolved methods
+        // ... 27 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÏÌÎÎÍÍÎÏÍÏÍÌÌÎÏÏÎÍÎÌÎ</summary>
@@ -704,6 +705,7 @@ namespace VRC.Misc
         public void Initialize(){} // RVA: 0x7FFAFBA79D50
         public void SeekStream(){} // RVA: 0x7FFAFBA7A0D0
         public void WriteBytes_31B927F603EA(){} // RVA: 0x7FFAFBA7A340 | overloaded x2
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void get_MoveNext(){} // RVA: 0x7FFAF2F476A0
         public void Awake(){} // RVA: 0x7FFAFBA7A520
         public void OnDestroy(){} // RVA: 0x7FFAFBA7A640
@@ -711,7 +713,6 @@ namespace VRC.Misc
         // ── Unresolved (hash) ──
         public void m_E76(){} // RVA: 0x7FFAFBA79C10
         public void m_035(){} // RVA: 0x7FFAFBA79EF0
-        public void m_838(){} // RVA: 0x7FFAF2D8D310
         public void m_5E3(){} // RVA: 0x7FFAFBA79C10
     }
 
@@ -852,8 +853,8 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÎÌÎÏÏÎÏÎÌÌÎÍÎÏÎÍÍÏÏÍÌÌ</summary>
     public class IsInteractiveInteractSibling_B7EB
     {
-        // ── Unresolved (hash) ──
-        public void m_31B(){} // RVA: 0x7FFAF2AD4B10
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÏÌÏÌÌÎÎÌÍÌÌÎÍÍÌÏÎÌÎÍÍÌÌ</summary>
@@ -878,9 +879,8 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF5673860
         public void SetAudioSourceClip(){} // RVA: 0x7FFAF7B4DE80
         public void SetAudioSourceClip_A66395C728F2(){} // RVA: 0x7FFAF7B4DFA0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF5DC3940
-        // ── Unresolved (hash) ──
-        public void m_9CF(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÍÌÌÎÎÎÏÍÎÌÍÌÏÍÌÍÎÌÌÎÍ</summary>
@@ -890,9 +890,8 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2AD4B10
         public void SetAudioSourceClip(){} // RVA: 0x7FFAF2AD4A50
         public void SetAudioSourceClip_A66395C728F2(){} // RVA: 0x7FFAF2D33FA0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
-        // ── Unresolved (hash) ──
-        public void m_9CF(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÍÌÌÎÎÎÏÍÎÌÍÌÏÍÌÍÎÌÌÎÍ</summary>
@@ -902,9 +901,8 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2D8EE90
         public void SetAudioSourceClip(){} // RVA: 0x7FFAF7B4DDD0
         public void SetAudioSourceClip_A66395C728F2(){} // RVA: 0x7FFAF7B4DDF0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_9CF(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÍÌÌÎÎÎÏÍÎÌÍÌÏÍÌÍÎÌÌÎÍ</summary>
@@ -914,9 +912,8 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2D8EE90
         public void SetAudioSourceClip(){} // RVA: 0x7FFAF7B4DDD0
         public void SetAudioSourceClip_A66395C728F2(){} // RVA: 0x7FFAF7B4DDF0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_9CF(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÍÌÌÎÎÎÏÍÎÌÍÌÏÍÌÍÎÌÌÎÍ</summary>
@@ -926,9 +923,8 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2D8EE90
         public void SetAudioSourceClip(){} // RVA: 0x7FFAF7B4DDD0
         public void SetAudioSourceClip_A66395C728F2(){} // RVA: 0x7FFAF7B4DDF0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_9CF(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÍÌÌÎÎÎÏÍÎÌÍÌÏÍÌÍÎÌÌÎÍ</summary>
@@ -938,9 +934,8 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2D8EE90
         public void SetAudioSourceClip(){} // RVA: 0x7FFAF7B4DDD0
         public void SetAudioSourceClip_A66395C728F2(){} // RVA: 0x7FFAF7B4DDF0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_9CF(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÍÌÌÎÎÎÏÍÎÌÍÌÏÍÌÍÎÌÌÎÍ</summary>
@@ -950,9 +945,8 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2DBB890
         public void SetAudioSourceClip(){} // RVA: 0x7FFAF7B4E130
         public void SetAudioSourceClip_A66395C728F2(){} // RVA: 0x7FFAF7B4E170
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_9CF(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÍÌÌÎÎÎÏÍÎÌÍÌÏÍÌÍÎÌÌÎÍ</summary>
@@ -962,9 +956,8 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2D8EE90
         public void SetAudioSourceClip(){} // RVA: 0x7FFAF7B4DDD0
         public void SetAudioSourceClip_A66395C728F2(){} // RVA: 0x7FFAF7B4DDF0
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        // ── Unresolved (hash) ──
-        public void m_9CF(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÏÌÏÍÍÍÏÎÍÏÌÍÌÍÏÏÎÎÌÏÌÌÌ</summary>

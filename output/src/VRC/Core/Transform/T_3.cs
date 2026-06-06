@@ -223,6 +223,7 @@ namespace VRC.Core.Transform
     {
         // ── Methods ──
         public void set_CountActive(){} // RVA: 0x7FFAF310F570
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Awake(){} // RVA: 0x7FFAF3603930
         public void OnEnable(){} // RVA: 0x7FFAF36039B0
         public void Start(){} // RVA: 0x7FFAF36039E0
@@ -235,7 +236,6 @@ namespace VRC.Core.Transform
         public void Initialize(){} // RVA: 0x7FFAF3603930
         // ── Unresolved (hash) ──
         public void m_BD0(){} // RVA: 0x7FFAF3602EB0
-        public void m_336(){} // RVA: 0x7FFAF2D8D310
     }
 
     /// <summary>Originally: ÏÏÏÎÍÏÌÌÎÌÌÎÏÎÌÏÌÌÍÍÍÍÍ</summary>
@@ -251,15 +251,15 @@ namespace VRC.Core.Transform
         public void MoveNext(){} // RVA: 0x7FFAF46000B0
         public void set_Date_83519D5111E6(){} // RVA: 0x7FFAF4600090
         public void Equals(){} // RVA: 0x7FFAF2DF3E80
-        public void get_Current(){} // RVA: 0x7FFAF46001E0
         public void set_Date_62C63761D48B(){} // RVA: 0x7FFAF4600090
         public void AddFromToForce(){} // RVA: 0x7FFAF2E08740
         public void set_point(){} // RVA: 0x7FFAF2DF3F60
+        public void get_Current(){} // RVA: 0x7FFAF46001E0
         public void Equals_4432A48F417F(){} // RVA: 0x7FFAF2DF3E80
         public void .ctor(){} // RVA: 0x7FFAF4600330
         // ── Unresolved (hash) ──
+        public void m_949(){} // RVA: 0x7FFAF46001E0
         public void m_517(){} // RVA: 0x7FFAF4600200
-        public void m_B4E(){} // RVA: 0x7FFAF46001E0
     }
 
     /// <summary>Originally: ÏÎÍÏÍÍÌÎÏÌÏÌÏÏÍÌÏÌÌÎÍÌÌ</summary>
@@ -578,6 +578,7 @@ namespace VRC.Core.Transform
         public void GetTime_DD0FE5C0BA82(){} // RVA: 0x7FFAF38A7AB0
         public void MarshalFromNative(){} // RVA: 0x7FFAF38A7D30
         public void System.Collections.ICollection.get_IsSynchronized_510249009912(){} // RVA: 0x7FFAF2D8D320
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void ConvertFloat4x4ToMatrix4x4(){} // RVA: 0x7FFAF38A7E10
         public void ConvertFloat3x4ToFloat4x4(){} // RVA: 0x7FFAF38A7F00
         public void ConvertFloat3x4ToFloat4x4_E0D8250D4BAC(){} // RVA: 0x7FFAF38A7F50
@@ -624,13 +625,13 @@ namespace VRC.Core.Transform
         public void MarshalMatrixBufferManagedToNative(){} // RVA: 0x7FFAF38AC610
         public void GetDictionaryValueOrThrow_E8531A9F5521(){} // RVA: 0x7FFAF38AD2E0
         public void get_Item(){} // RVA: 0x7FFAF38AD360
-        // ── 65 unresolved (hash) ──
+        // ── 64 unresolved (hash) ──
         public void m_A07(){} // RVA: 0x7FFAF38A1570
         public void m_7A9(){} // RVA: 0x7FFAF38A1430
         public void m_5E9(){} // RVA: 0x7FFAF38A2680
         public void m_997(){} // RVA: 0x7FFAF38A2720
         public void m_4D8(){} // RVA: 0x7FFAF38A2AC0
-        // ... 60 more unresolved methods
+        // ... 59 more unresolved methods
     }
 
     /// <summary>Originally: ÏÎÍÌÏÎÏÌÌÌÎÍÌÏÌÏÍÎÍÎÍÌÎ</summary>

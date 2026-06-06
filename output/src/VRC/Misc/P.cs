@@ -54,11 +54,11 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetInstanceID(){}
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void CompareBaseObjects(){} // RVA: 0x7FFAF2ABDBE0
         public void GetCachedPtr(){} // RVA: 0x7FFAF2ABCD60
         // ── Unresolved (hash) ──
-        public void m_3D8(){} // RVA: 0x7FFAF2AD4B10
-        public void m_645(){} // RVA: 0x7FFAF2ABCD60
         public void m_C47(){} // RVA: 0x7FFAF2ABCD60
         public void m_D24(){} // RVA: 0x7FFAF2ABCD60
     }
@@ -243,13 +243,14 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÏÌÎÌÍÌÎÏÏÌÎÏÌÍÎÎÌÌÍÌÍÍ</summary>
     public class poolSizeSiblingSibling_773F
     {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7FFAF4584690
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void MoveNext(){} // RVA: 0x7FFAF4418950
         // ── Unresolved (hash) ──
-        public void m_8E9(){} // RVA: 0x7FFAF4584690
         public void m_7AE(){} // RVA: 0x7FFAF4418950
         public void m_B99(){} // RVA: 0x7FFAF4584690
-        public void m_0BE(){} // RVA: 0x7FFAF44189C0
         public void m_E2D(){} // RVA: 0x7FFAF44189C0
-        public void m_07A(){} // RVA: 0x7FFAF4418950
         public void m_F8F(){} // RVA: 0x7FFAF4418950
         public void m_6B9(){} // RVA: 0x7FFAF4418950
         public void m_9AD(){} // RVA: 0x7FFAF4584690
@@ -259,13 +260,19 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÍÎÍÍÏÍÌÍÌÌÏÌÎÌÎÌÎÍÌÌÌÎ</summary>
     public class poolSizeSibling_81B1
     {
-        // ── 11 unresolved (hash) ──
+        // ── Methods ──
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void MoveNext(){} // RVA: 0x7FFAF4418950
+        public void get_Key(){} // RVA: 0x7FFAF4584690
+        // ── Unresolved (hash) ──
         public void m_A36(){} // RVA: 0x7FFAF44189C0
         public void m_B99(){} // RVA: 0x7FFAF4584690
-        public void m_9A9(){} // RVA: 0x7FFAF44189C0
         public void m_926(){} // RVA: 0x7FFAF3ABA2F0
         public void m_9AD(){} // RVA: 0x7FFAF4584690
-        // ... 6 more unresolved methods
+        public void m_F26(){} // RVA: 0x7FFAF3ABA2F0
+        public void m_BF7(){} // RVA: 0x7FFAF44189C0
+        public void m_E49(){} // RVA: 0x7FFAF4418950
+        public void m_DEB(){} // RVA: 0x7FFAF4418950
     }
 
     /// <summary>Originally: ÏÏÌÏÍÎÏÌÏÍÌÏÎÎÎÍÍÎÌÌÎÍÌ</summary>

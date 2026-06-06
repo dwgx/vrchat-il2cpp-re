@@ -11,13 +11,13 @@ namespace VRC.Misc
         // ── Methods ──
         public void CreateCollection(){} // RVA: 0x7FFAF2ADF090
         public void CreateCollection_AF319CB74FC4(){} // RVA: 0x7FFAF2ADF090
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Current(){} // RVA: 0x7FFAF2ABC770
         public void Remove(){} // RVA: 0x7FFAF2ABDE40
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         // ── Unresolved (hash) ──
         public void m_A72(){} // RVA: 0x7FFAF2ABCD60
         public void m_571(){}
-        public void m_76E(){} // RVA: 0x7FFAF2ABCD60
-        public void m_30E(){} // RVA: 0x7FFAF2ABC770
-        public void m_579(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÏÍÍÍÏÎÌÎÍÌÍÎÎÏÍÏÏÎÌÌÌÏÏ</summary>
@@ -260,6 +260,7 @@ namespace VRC.Misc
         public void GetMousePosition(){} // RVA: 0x7FFAF3B4C2B0
         public void CacheRenderer(){} // RVA: 0x7FFAF3B4C330
         public void ReadAvatarState(){} // RVA: 0x7FFAF3B4C8A0
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void SetBlocksRaycasts_2D9F8753B1C8(){} // RVA: 0x7FFAF3B4D3C0
         public void HandleAvoidanceTriggerEnter(){} // RVA: 0x7FFAF3B4D480
         public void DestroyWaterObjects(){} // RVA: 0x7FFAF3B4D890
@@ -286,13 +287,13 @@ namespace VRC.Misc
         public void NormalizeVector(){} // RVA: 0x7FFAF3B51300
         public void MoveTowards(){} // RVA: 0x7FFAF3B51680
         public void Project(){} // RVA: 0x7FFAF3B51930
-        // ── 57 unresolved (hash) ──
+        // ── 56 unresolved (hash) ──
         public void m_A5F(){} // RVA: 0x7FFAF3B21DB0
         public void m_305(){} // RVA: 0x7FFAF3B22520
         public void m_65C(){} // RVA: 0x7FFAF3B26C00
         public void m_33B(){} // RVA: 0x7FFAF3B51360
         public void m_664(){} // RVA: 0x7FFAF3B283D0
-        // ... 52 more unresolved methods
+        // ... 51 more unresolved methods
     }
 
     /// <summary>Originally: ÌÎÎÍÎÏÎÌÎÏÎÌÏÌÍÍÌÍÌÏÏÏÍ</summary>
@@ -351,18 +352,18 @@ namespace VRC.Misc
     public class eDerived_0017 : ؄}e
     {
         // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         // ── Unresolved (hash) ──
         public void m_ECB(){} // RVA: 0x7FFAF2ABCD60
-        public void m_197(){} // RVA: 0x7FFAF2ABCD60
         public void m_D77(){} // RVA: 0x7FFAF2ABCD60
     }
 
     /// <summary>Originally: ÍÍÌÌÍÎÏÍÏÏÍÍÎÍÍÍÎÌÌÎÏÌÏ</summary>
     public class eDerived_BD88 : ؄}e
     {
-        // ── Unresolved (hash) ──
-        public void m_653(){} // RVA: 0x7FFAF2ABCD60
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
     }
 
     /// <summary>Originally: ÏÌÏÏÍÎÍÌÌÌÍÏÏÍÎÍÌÎÌÎÍÍÏ</summary>

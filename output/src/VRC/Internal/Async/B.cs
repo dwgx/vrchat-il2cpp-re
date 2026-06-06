@@ -18,8 +18,7 @@ namespace VRC.Internal.Async
         public void MoveNext(){} // RVA: 0x7FFAF43FD090
         public void ToString(){} // RVA: 0x7FFAF43FDB30
         public void SetConnectedBody(){} // RVA: 0x7FFAF43FE5A0
-        // ── Unresolved (hash) ──
-        public void m_EC8(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
     }
 
 }

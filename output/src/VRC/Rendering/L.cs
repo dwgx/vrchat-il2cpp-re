@@ -12,6 +12,7 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x7FFAFB6A6DB0
         public void Initialize(){} // RVA: 0x7FFAFB6A6F80
         public void GetLayerShadowCullDistances(){} // RVA: 0x7FFAFB6A7D20
+        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void GetLightShadowCasterMode(){} // RVA: 0x7FFAFB6A7E90
         public void GetRange(){} // RVA: 0x7FFAFB6A80A0
         public void CompareTo(){} // RVA: 0x7FFAFB6A8130
@@ -25,7 +26,6 @@ namespace VRC.Rendering
         public void m_224(){} // RVA: 0x7FFAFB6A6B50
         public void m_B06(){} // RVA: 0x7FFAFB6A6BA0
         public void m_658(){} // RVA: 0x7FFAFB6A7DE0
-        public void m_F2E(){} // RVA: 0x7FFAF2DA8380
         public void m_4E4(){} // RVA: 0x7FFAFB6A8750
         public void m_3BE(){} // RVA: 0x7FFAFB6A89A0
     }
