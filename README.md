@@ -9,10 +9,10 @@
 | Metric | Count | Coverage |
 |--------|------:|----------|
 | Classes (semantic) | 7,813 / 11,503 obfuscated | **67.9%** semantic class names |
-| Methods (named) | 479,421 / 528,135 | **90.8%** semantic |
-| Methods (hash remaining) | 48,714 | 9.2% fallback (m_XXX) |
+| Methods (named) | 496,886 / 528,135 | **94.1%** semantic |
+| Methods (hash remaining) | 31,249 | 5.9% fallback (m_XXX) |
 | Fields | 2,870 total, 158 renamed | — |
-| cross_version entries | 38,386+ | growing via Codex batches |
+| cross_version entries | 53,292 | RVA + Codex + sibling-context |
 | Pipeline runtime | ~25s full run | — |
 
 Naming sources: RVA propagation (15.5K), Codex mega-batches (1.6K), sibling-context inference (in progress), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts.

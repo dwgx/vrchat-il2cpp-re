@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VRChat IL2CPP Reverse Engineering</title>
-<meta name="description" content="June 5 IL2CPP deobfuscation coverage for VRChat's GameAssembly.dll: 90.8% semantic naming across 88,400 classes, 528,135 methods, and 2,870 fields.">
+<meta name="description" content="June 5 IL2CPP deobfuscation coverage for VRChat's GameAssembly.dll: 94.1% semantic naming across 88,400 classes, 528,135 methods, and 2,870 fields.">
 <style>
 :root {
   --bg: #030712; --bg2: #0a0f1e; --bg3: #111827;
@@ -129,14 +129,14 @@ tr:hover td{background:rgba(255,255,255,0.02)}
 
 <!-- ═══════ HERO ═══════ -->
 <div class="hero">
-  <div class="hero-badge"><span class="dot" style="width:6px;height:6px;border-radius:50%;background:var(--green)"></span> 90.8% Semantic Coverage</div>
+  <div class="hero-badge"><span class="dot" style="width:6px;height:6px;border-radius:50%;background:var(--green)"></span> 94.1% Semantic Coverage</div>
   <h1>VRChat <span>IL2CPP</span> Reverse Engineering</h1>
   <p class="hero-sub">Deep deobfuscation of VRChat's GameAssembly.dll — 527,025 semantic identifiers across the June 5 build. Beebyte ÌÍÎÏ obfuscation defeated via M1-M16 pipeline + 7 data sources + LLM predictions + Hex-Rays clustering.</p>
   <div class="stats-row">
     <div class="stat-item"><div class="stat-num c-blue" data-count="88400">0</div><div class="stat-label">Classes</div></div>
     <div class="stat-item"><div class="stat-num c-purple" data-count="528135">0</div><div class="stat-label">Methods</div></div>
     <div class="stat-item"><div class="stat-num c-cyan" data-count="2870">0</div><div class="stat-label">Fields</div></div>
-    <div class="stat-item"><div class="stat-num c-green">90.8%</div><div class="stat-label">Semantic</div></div>
+    <div class="stat-item"><div class="stat-num c-green">94.1%</div><div class="stat-label">Semantic</div></div>
   </div>
   <div class="version"><span class="dot"></span> June 5 build &middot; Unity 2022.3.x &middot; IL2CPP v29.1 &middot; 88,400 classes</div>
 </div>
@@ -171,9 +171,9 @@ tr:hover td{background:rgba(255,255,255,0.02)}
       <div style="font-size:28px;font-weight:700;color:var(--purple)">528,135</div>
       <div class="progress"><div class="progress-bar pb-purple" data-width="83.4"></div></div>
       <div class="s-row"><span>Semantic</span><span class="s-val">440,440 (83.4%)</span></div>
-      <div class="s-row"><span>Renamed methods</span><span class="s-val">48,714</span></div>
+      <div class="s-row"><span>Renamed methods</span><span class="s-val">31,249</span></div>
       <div class="s-row"><span>Semantic</span><span class="s-val" style="color:var(--green)">440,440 (83.4%)</span></div>
-      <div class="s-row"><span>Fallback/renamed</span><span class="s-val">48,714 (16.6%)</span></div>
+      <div class="s-row"><span>Fallback/renamed</span><span class="s-val">31,249 (16.6%)</span></div>
       <div class="s-row"><span>VA propagation v2</span><span class="s-val" style="color:var(--cyan)">+7,252 new</span></div>
     </div>
     <!-- Fields -->
@@ -197,9 +197,9 @@ tr:hover td{background:rgba(255,255,255,0.02)}
           <svg viewBox="0 0 120 120">
             <defs><linearGradient id="gSem"><stop offset="0%" stop-color="var(--green)"/><stop offset="100%" stop-color="var(--cyan)"/></linearGradient></defs>
             <circle cx="60" cy="60" r="50" fill="none" stroke="var(--bg3)" stroke-width="12"/>
-            <circle cx="60" cy="60" r="50" fill="none" stroke="url(#gSem)" stroke-width="12" stroke-dasharray="314.16" stroke-dashoffset="28.90" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="50" fill="none" stroke="url(#gSem)" stroke-width="12" stroke-dasharray="314.16" stroke-dashoffset="18.54" stroke-linecap="round"/>
           </svg>
-          <div class="donut-center"><span class="donut-pct">90.8%</span><span class="donut-label">Semantic</span></div>
+          <div class="donut-center"><span class="donut-pct">94.1%</span><span class="donut-label">Semantic</span></div>
         </div>
         <div class="legend">
           <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div>Semantic names: 527,025</div>
@@ -208,7 +208,7 @@ tr:hover td{background:rgba(255,255,255,0.02)}
         </div>
       </div>
       <div style="flex:1;min-width:280px">
-        <p style="color:var(--dim);font-size:14px;margin-bottom:12px">Every identifier in VRChat's IL2CPP binary has been named. 90.8% have semantic names derived from 11 data sources including RVA propagation, Codex batch analysis, and sibling-context inference; the remaining 9.2% are stable fallback identifiers (m_XXX, f_XXX) consistent across sessions.</p>
+        <p style="color:var(--dim);font-size:14px;margin-bottom:12px">Every identifier in VRChat's IL2CPP binary has been named. 94.1% have semantic names derived from 11 data sources including RVA propagation, Codex batch analysis, and sibling-context inference; the remaining 9.2% are stable fallback identifiers (m_XXX, f_XXX) consistent across sessions.</p>
         <div style="padding:12px;background:rgba(16,185,129,0.06);border:1px solid rgba(16,185,129,0.15);border-radius:8px;font-size:13px;color:var(--green)">
           <strong>Zero raw obfuscated class names remain.</strong> The current pipeline reports 11,503 renamed obfuscated classes, including 6,976 semantic names and 4,527 fallback names. Methods and fields total 528,135 and 2,870 respectively.
         </div>
@@ -247,7 +247,7 @@ tr:hover td{background:rgba(255,255,255,0.02)}
       <table>
         <tr><th>Metric</th><th>Count</th><th>Coverage</th></tr>
         <tr><td style="color:var(--green)">Semantic methods</td><td>440,440</td><td>83.4% of all methods</td></tr>
-        <tr><td style="color:var(--amber)">Renamed/fallback methods</td><td>48,714</td><td>9.2% of all methods</td></tr>
+        <tr><td style="color:var(--amber)">Renamed/fallback methods</td><td>31,249</td><td>5.9% of all methods</td></tr>
         <tr><td>Total methods</td><td>528,135</td><td>June 5 dump</td></tr>
       </table>
       <div style="margin-top:12px">
@@ -303,7 +303,7 @@ tr:hover td{background:rgba(255,255,255,0.02)}
       <div class="pipe-step"><div class="pipe-num">4</div><div class="pipe-body"><strong>Inheritance Chain</strong><br><span>570 classes named via parent → child propagation</span></div></div>
       <div class="pipe-step"><div class="pipe-num">5</div><div class="pipe-body"><strong>Cross-Reference</strong><br><span>593 by shared methods, sibling analysis, community maps</span></div></div>
       <div class="pipe-step"><div class="pipe-num">6</div><div class="pipe-body"><strong>Fallback Hashing</strong><br><span>4,527 renamed classes use stable fallback names</span></div></div>
-      <div class="pipe-step"><div class="pipe-num" style="background:var(--green)">7</div><div class="pipe-body"><strong>Smart Field & Method Renaming</strong><br><span>158 fields + 48,714 methods — 4 field strategies + VA propagation + context-aware inference</span></div></div>
+      <div class="pipe-step"><div class="pipe-num" style="background:var(--green)">7</div><div class="pipe-body"><strong>Smart Field & Method Renaming</strong><br><span>158 fields + 31,249 methods — 4 field strategies + VA propagation + context-aware inference</span></div></div>
     </div>
   </div>
 
@@ -431,7 +431,7 @@ tr:hover td{background:rgba(255,255,255,0.02)}
     <span>88,400 classes</span> &middot;
     <span>528,135 methods</span> &middot;
     <span>2,870 fields</span> &middot;
-    <span style="color:var(--green)">90.8% semantic</span>
+    <span style="color:var(--green)">94.1% semantic</span>
   </div>
   <div>Built with Python, Frida, IDA Pro &middot; Last updated June 5, 2026</div>
 </div>
