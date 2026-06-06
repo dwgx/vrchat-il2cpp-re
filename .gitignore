@@ -182,3 +182,19 @@ data/apr18_baseline/
 # === Empty LLM prediction cache (waiting for API quota) ===
 data/llm_field_predictions.json
 temp/
+
+# === Root-level junk (temp files, one-off artifacts) ===
+batch_*.txt
+result.json
+tmp_*
+json_artifact_summary.json
+tool_audit_summary.json
+
+# === Codex/LLM batch working directories (large, regenerable) ===
+output/codex_mega_batches/
+output/sibling_batches/
+output/sibling_preds/
+output/llm_batches_hexrays_r2/
+
+# === Cross-version backups (regenerable) ===
+output/cross_version_method_names.pre_*.json
