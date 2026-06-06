@@ -8,14 +8,15 @@ namespace VRC.Misc
     /// <summary>Originally: ÎÏÎÌÌÎÏÏÏÎÎÎÎÏÍÌÎÍÌÍÌÏÌ</summary>
     public class BackgroundOptionsSiblingSibling_3D8F
     {
+        // ── Methods ──
+        public void mm256_load_ps(){} // RVA: 0x7FFAF4B45F20
+        public void mm256_load_ps_AA07B8EE4938(){} // RVA: 0x7FFAF4B45F20
+        public void mm256_load_ps_404873064031(){} // RVA: 0x7FFAF4B45F20
+        public void mm256_load_ps_FC4E882FCDA8(){} // RVA: 0x7FFAF4B45F20
         // ── Unresolved (hash) ──
         public void m_C6B(){} // RVA: 0x7FFAF4B45EC0
         public void m_B32(){} // RVA: 0x7FFAF4B45EC0
-        public void m_104(){} // RVA: 0x7FFAF4B45F20
-        public void m_AA0(){} // RVA: 0x7FFAF4B45F20
-        public void m_404(){} // RVA: 0x7FFAF4B45F20
         public void m_7F4(){} // RVA: 0x7FFAF4B45EC0
-        public void m_FC4(){} // RVA: 0x7FFAF4B45F20
     }
 
     /// <summary>Originally: ÍÎÌÏÎÎÏÎÎÏÎÏÏÎÍÏÍÍÍÌÌÌÍ</summary>
@@ -209,18 +210,18 @@ namespace VRC.Misc
     public class BehaviourHandler_2199
     {
         // ── Methods ──
+        public void get_done(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_362CB6D5306C(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_9264CFB4F02C(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_540CCDBC969F(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_1B0FFEBB5E32(){} // RVA: 0x7FFAF32F9F30
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF32F9F30
         // ── Unresolved (hash) ──
         public void m_754(){} // RVA: 0x7FFAF443A490
         public void m_A36(){} // RVA: 0x7FFAF443A490
         public void m_6D3(){} // RVA: 0x7FFAF443A490
-        public void m_3B4(){} // RVA: 0x7FFAF32F9F30
-        public void m_362(){} // RVA: 0x7FFAF32F9F30
-        public void m_926(){} // RVA: 0x7FFAF32F9F30
         public void m_590(){} // RVA: 0x7FFAF443A490
-        public void m_540(){} // RVA: 0x7FFAF32F9F30
-        public void m_1B0(){} // RVA: 0x7FFAF32F9F30
     }
 
     /// <summary>Originally: ÏÍÍÌÎÏÍÏÍÎÎÏÏÍÏÏÎÌÎÍÎÏÍ</summary>
@@ -229,16 +230,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF443A490
+        public void get_done(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_3BE2F97564DA(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_362CB6D5306C(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_3B46FB0FC4C3(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_5D74B05714D9(){} // RVA: 0x7FFAF32F9F30
         // ── Unresolved (hash) ──
-        public void m_0BF(){} // RVA: 0x7FFAF32F9F30
         public void m_590(){} // RVA: 0x7FFAF443A490
         public void m_BAE(){} // RVA: 0x7FFAF443A490
-        public void m_3BE(){} // RVA: 0x7FFAF32F9F30
         public void m_754(){} // RVA: 0x7FFAF443A490
-        public void m_362(){} // RVA: 0x7FFAF32F9F30
         public void m_D00(){} // RVA: 0x7FFAF443A490
-        public void m_3B4(){} // RVA: 0x7FFAF32F9F30
-        public void m_5D7(){} // RVA: 0x7FFAF32F9F30
     }
 
     /// <summary>Originally: ÏÍÌÍÎÍÌÎÎÎÏÍÍÍÍÌÌÎÎÌÎÍÏ</summary>
@@ -261,6 +262,9 @@ namespace VRC.Misc
     public class BehaviourHandler_D9D1
     {
         // ── Methods ──
+        public void get_done(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_540CCDBC969F(){} // RVA: 0x7FFAF32F9F30
+        public void get_done_5D74B05714D9(){} // RVA: 0x7FFAF32F9F30
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF443A490
         // ── Unresolved (hash) ──
@@ -269,25 +273,22 @@ namespace VRC.Misc
         public void m_880(){} // RVA: 0x7FFAF443A490
         public void m_754(){} // RVA: 0x7FFAF443A490
         public void m_BAE(){} // RVA: 0x7FFAF443A490
-        public void m_3B4(){} // RVA: 0x7FFAF32F9F30
-        public void m_540(){} // RVA: 0x7FFAF32F9F30
-        public void m_5D7(){} // RVA: 0x7FFAF32F9F30
     }
 
     /// <summary>Originally: ÌÏÌÍÌÌÏÎÌÎÏÎÌÎÎÍÏÌÌÏÍÍÍ</summary>
     public class BehaviourHandler_EE7A
     {
         // ── Methods ──
+        public void SwapIfGreaterWithItems(){} // RVA: 0x7FFAF4446910
+        public void get_done(){} // RVA: 0x7FFAF32F9F30
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF32F9F30
-        public void SwapIfGreaterWithItems(){} // RVA: 0x7FFAF4446910
+        public void SwapIfGreaterWithItems_83A721967C1C(){} // RVA: 0x7FFAF4446910
         public void SwapIfGreaterWithItems_0B29883BC8D6(){} // RVA: 0x7FFAF4446940
+        public void SwapIfGreaterWithItems_C0EF9628E31D(){} // RVA: 0x7FFAF4446910
+        public void SwapIfGreaterWithItems_0B29883BC8D6_8A95AAFA74CB(){} // RVA: 0x7FFAF4446940
         // ── Unresolved (hash) ──
-        public void m_C14(){} // RVA: 0x7FFAF4446910
-        public void m_3B4(){} // RVA: 0x7FFAF32F9F30
         public void m_590(){} // RVA: 0x7FFAF443A490
-        public void m_C0E(){} // RVA: 0x7FFAF4446910
-        public void m_8A9(){} // RVA: 0x7FFAF4446940
     }
 
     /// <summary>Originally: ÍÍÌÏÎÍÌÍÍÏÏÍÌÏÍÎÌÏÎÏÏÍÌ</summary>

@@ -12,27 +12,30 @@ namespace VRC.Internal.Generated
         public void .cctor(){} // RVA: 0x7FFAF45D34B0
         public void .ctor(){} // RVA: 0x7FFAF45D3670
         public void Initialize(){} // RVA: 0x7FFAF45D36F0
+        public void SetProgress(){} // RVA: 0x7FFAF2FAB970
         public void Update(){} // RVA: 0x7FFAF45D4E60
         public void Start(){} // RVA: 0x7FFAF45D6450
-        // ── 16 unresolved (hash) ──
+        public void get_Progress(){} // RVA: 0x7FFAF2FAE250
+        // ── 14 unresolved (hash) ──
         public void m_06A(){} // RVA: 0x7FFAF45D30C0
         public void m_02D(){} // RVA: 0x7FFAF45D3550
         public void m_A31(){} // RVA: 0x7FFAF45D3610
         public void m_A74(){} // RVA: 0x7FFAF45D3C90
         public void m_ABA(){} // RVA: 0x7FFAF45D44E0
-        // ... 11 more unresolved methods
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÍÎÍÏÎÍÍÌÌÎÏÍÍÌÎÎÌÌÌÎÎÏÏ</summary>
     public class MonoBehaviourHandler_649B
     {
         // ── Methods ──
+        public void FixedUpdate(){} // RVA: 0x7FFAF4638CF0
         public void OnTriggerExit(){} // RVA: 0x7FFAF463AF80
         public void OnTriggerStay(){} // RVA: 0x7FFAF463B070
         public void Awake(){} // RVA: 0x7FFAF463BF40
         public void OnEnable(){} // RVA: 0x7FFAF463C020
         public void Start(){} // RVA: 0x7FFAF463C100
-        public void FixedUpdate(){} // RVA: 0x7FFAF4638CF0
+        public void FixedUpdate_11213253D8A1(){} // RVA: 0x7FFAF4638CF0
         public void Update(){} // RVA: 0x7FFAF463C380
         public void LateUpdate(){} // RVA: 0x7FFAF463C680
         public void OnDisable(){} // RVA: 0x7FFAF463C6E0
@@ -47,7 +50,6 @@ namespace VRC.Internal.Generated
         public void OnTriggerEnter(){} // RVA: 0x7FFAF463D4D0
         // ── Unresolved (hash) ──
         public void m_404(){} // RVA: 0x7FFAF4638CE0
-        public void m_7FA(){} // RVA: 0x7FFAF4638CF0
         public void m_7C1(){} // RVA: 0x7FFAF4638DB0
         public void m_341(){} // RVA: 0x7FFAF4639000
         public void m_931(){} // RVA: 0x7FFAF46393E0

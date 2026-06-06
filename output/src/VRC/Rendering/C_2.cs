@@ -958,30 +958,38 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x7FFAFB863FE0
         public void Initialize(){} // RVA: 0x7FFAFB8640B0
         public void GetMain(){} // RVA: 0x7FFAFB8647C0
-        // ── 11 unresolved (hash) ──
+        public void get_MoveNext(){} // RVA: 0x7FFAF2F476A0
+        // ── Unresolved (hash) ──
         public void m_89B(){} // RVA: 0x7FFAFB863320
         public void m_8AA(){} // RVA: 0x7FFAFB8634A0
         public void m_C64(){} // RVA: 0x7FFAFB8636E0
         public void m_E28(){} // RVA: 0x7FFAFB863D00
         public void m_AAF(){} // RVA: 0x7FFAFB863E80
-        // ... 6 more unresolved methods
+        public void m_6B3(){} // RVA: 0x7FFAFB863EF0
+        public void m_FD8(){} // RVA: 0x7FFAFB863E80
+        public void m_2CE(){} // RVA: 0x7FFAFB864110
+        public void m_3D3(){} // RVA: 0x7FFAFB864640
+        public void m_855(){} // RVA: 0x7FFAFB864A00
     }
 
     /// <summary>Originally: ÍÌÌÍÏÏÎÍÎÏÎÍÍÍÎÌÍÎÌÌÏÌÍ</summary>
     public class CameraHandler_361B
     {
         // ── Methods ──
+        public void get_BytesInHistory(){} // RVA: 0x7FFAF44E4510
         public void GetFieldOfView(){} // RVA: 0x7FFAF44E4630
         public void GetAspect(){} // RVA: 0x7FFAF44E46F0
         public void .ctor(){} // RVA: 0x7FFAF44E4730
         public void Initialize(){} // RVA: 0x7FFAF44E4850
-        // ── 20 unresolved (hash) ──
+        public void SafeToWriteTo(){} // RVA: 0x7FFAF44E4930
+        public void InputAvailable(){} // RVA: 0x7FFAF44E4E10
+        // ── 17 unresolved (hash) ──
         public void m_04F(){} // RVA: 0x7FFAF44E4110
         public void m_690(){} // RVA: 0x7FFAF44E4390
         public void m_545(){} // RVA: 0x7FFAF44E4430
-        public void m_C26(){} // RVA: 0x7FFAF44E4510
         public void m_D8C(){} // RVA: 0x7FFAF44E4530
-        // ... 15 more unresolved methods
+        public void m_A50(){} // RVA: 0x7FFAF44E4550
+        // ... 12 more unresolved methods
     }
 
     /// <summary>Originally: ÌÎÌÍÌÎÏÌÍÍÌÏÍÍÏÍÎÏÎÍÌÏÌ</summary>

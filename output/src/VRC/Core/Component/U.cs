@@ -52,14 +52,13 @@ namespace VRC.Core.Component
         // ── Methods ──
         public void SetLocalRotation(){} // RVA: 0x7FFAF4827690
         public void ToString(){} // RVA: 0x7FFAF4827740
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFAF2D8D320
         public void GetActiveSelf(){} // RVA: 0x7FFAF4827880
+        public void op_Equality(){} // RVA: 0x7FFAF48278C0
         public void GetHashCode(){} // RVA: 0x7FFAF48278F0
         public void Equals(){} // RVA: 0x7FFAF4827A20 | overloaded x2
+        public void Contains(){} // RVA: 0x7FFAF2ABCD60
         public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
-        // ── Unresolved (hash) ──
-        public void m_903(){} // RVA: 0x7FFAF2D8D320
-        public void m_A82(){} // RVA: 0x7FFAF48278C0
-        public void m_D40(){} // RVA: 0x7FFAF2ABCD60
     }
 
     /// <summary>Originally: ÍÌÍÌÌÍÌÌÏÏÍÎÌÌÍÎÌÏÍÎÏÎÎ</summary>

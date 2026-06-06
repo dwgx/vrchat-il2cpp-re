@@ -13,14 +13,15 @@ namespace VRC.Internal.Enumerator
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFAF38763C0
         public void get_Current(){} // RVA: 0x7FFAF3876510
+        public void GetEnumerator_1F904209CA6F(){} // RVA: 0x7FFAF387A530 | overloaded x2
         public void .cctor(){} // RVA: 0x7FFAF387BA10
-        // ── 19 unresolved (hash) ──
+        // ── 18 unresolved (hash) ──
         public void m_23C(){} // RVA: 0x7FFAF3876600
         public void m_045(){} // RVA: 0x7FFAF3876650
         public void m_550(){} // RVA: 0x7FFAF3876710
         public void m_4C2(){} // RVA: 0x7FFAF3876770
         public void m_772(){} // RVA: 0x7FFAF38767E0
-        // ... 14 more unresolved methods
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÎÏÎÎÍÌÌÎÍÌÌÌÌÎÏÏÎÌÍÏÌ</summary>
@@ -29,6 +30,7 @@ namespace VRC.Internal.Enumerator
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFAF2AD4A50
         public void get_Current(){} // RVA: 0x7FFAF2AD4B10
+        public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7FFAF2ABDBE0
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF2AD4A50
         public void CompareBaseObjects(){} // RVA: 0x7FFAF2D33FA0
@@ -44,7 +46,6 @@ namespace VRC.Internal.Enumerator
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
         public void m_FAC(){} // RVA: 0x7FFAF2ABCD60
-        public void m_88A(){} // RVA: 0x7FFAF2ABDBE0
     }
 
     /// <summary>Originally: ÏÎÌÍÍÎÌÍÏÌÎÏÍÍÏÎÏÏÏÎÎÌÌ</summary>
@@ -74,6 +75,7 @@ namespace VRC.Internal.Enumerator
         public void MoveNext(){} // RVA: 0x7FFAF303C0A0
         public void get_Current(){} // RVA: 0x7FFAF303C120
         public void ConstructDelegate(){} // RVA: 0x7FFAF303CE00
+        public void Reset(){} // RVA: 0x7FFAF303E1C0
         public void .cctor(){} // RVA: 0x7FFAF303E540
         // ── Unresolved (hash) ──
         public void m_3CF(){} // RVA: 0x7FFAF303C1E0
@@ -85,7 +87,6 @@ namespace VRC.Internal.Enumerator
         public void m_3FE(){} // RVA: 0x7FFAF303CF60
         public void m_1C1(){} // RVA: 0x7FFAF303D0B0
         public void m_F0F(){} // RVA: 0x7FFAF303D4F0
-        public void m_246(){} // RVA: 0x7FFAF303E1C0
     }
 
     /// <summary>Originally: ÏÏÎÌÏÍÍÌÏÏÍÍÎÎÌÍÍÏÎÍÎÍÎ</summary>

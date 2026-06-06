@@ -9,15 +9,14 @@ namespace VRC.Rendering
     public class ImageRenderStaticMethods_274D
     {
         // ── Methods ──
+        public void OnRenderImage_BD63C6093A4E(){} // RVA: 0x7FFAF8F0DD60
+        public void OnRenderImage_ED71B027379B(){} // RVA: 0x7FFAF8F0DD60
         public void Contains(){} // RVA: 0x7FFAF8F0DD60
+        public void OnRenderImage_BA479F74D5FE(){} // RVA: 0x7FFAF8F0DD60
         public void RenderFirstMatchingImage(){} // RVA: 0x7FFAF4BBE2A0
         public void OnRenderImage(){} // RVA: 0x7FFAF8F0DD60
         public void .ctor(){} // RVA: 0x7FFAF8F1FA00
         public void Initialize(){} // RVA: 0x7FFAF8F0DD60
-        // ── Unresolved (hash) ──
-        public void m_BD6(){} // RVA: 0x7FFAF8F0DD60
-        public void m_ED7(){} // RVA: 0x7FFAF8F0DD60
-        public void m_BA4(){} // RVA: 0x7FFAF8F0DD60
     }
 
     /// <summary>Originally: ÏÏÌÏÏÍÍÎÍÌÌÏÎÌÌÌÌÍÍÍÎÎÌ</summary>
@@ -57,18 +56,17 @@ namespace VRC.Rendering
     public class ImageRenderStaticMethods_9FB1
     {
         // ── Methods ──
+        public void IsLocalPlayerOrNoNetworkRef(){} // RVA: 0x7FFAF41303D0
+        public void OnRenderImage_BD63C6093A4E(){} // RVA: 0x7FFAF8F0DD60
+        public void OnRenderImage_AF69679B41DC(){} // RVA: 0x7FFAF8F0DD60
+        public void OnRenderImage_62228D051EDD(){} // RVA: 0x7FFAF8F0DD60
         public void OnRenderImage(){} // RVA: 0x7FFAF8F0DD60
+        public void OnRenderImage_652972AB5829(){} // RVA: 0x7FFAF8F0DD60
+        public void OnRenderImage_FAAFFB682FC8(){} // RVA: 0x7FFAF8F0DD60
         public void .ctor(){} // RVA: 0x7FFAF8F0DD70
         public void Initialize(){} // RVA: 0x7FFAF8F0DD60
-        // ── Unresolved (hash) ──
-        public void m_67C(){} // RVA: 0x7FFAF41303D0
-        public void m_BD6(){} // RVA: 0x7FFAF8F0DD60
-        public void m_AF6(){} // RVA: 0x7FFAF8F0DD60
-        public void m_622(){} // RVA: 0x7FFAF8F0DD60
-        public void m_652(){} // RVA: 0x7FFAF8F0DD60
-        public void m_FAA(){} // RVA: 0x7FFAF8F0DD60
-        public void m_ED7(){} // RVA: 0x7FFAF8F0DD60
-        public void m_BA4(){} // RVA: 0x7FFAF8F0DD60
+        public void OnRenderImage_ED71B027379B(){} // RVA: 0x7FFAF8F0DD60
+        public void OnRenderImage_BA479F74D5FE(){} // RVA: 0x7FFAF8F0DD60
     }
 
 }

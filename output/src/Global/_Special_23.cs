@@ -649,14 +649,13 @@ public class <>c
     // ── Methods ──
     public void Equals(){} // RVA: 0x7FFAF5926B90
     public void get_name(){} // RVA: 0x7FFAF5926B90
+    public void CanConvert(){} // RVA: 0x7FFAF5926B90
+    public void CanConvert_46FA2D106427(){} // RVA: 0x7FFAF5926B90
+    public void CanConvert_867743F30221(){} // RVA: 0x7FFAF5926B90
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void .cctor(){} // RVA: 0x7FFAFBE61350
+    public void CanConvert_24F26825A4B2(){} // RVA: 0x7FFAF5926B90
     public void Instantiate(){} // RVA: 0x7FFAF5926B90
-    // ── Unresolved (hash) ──
-    public void m_F48(){} // RVA: 0x7FFAF5926B90
-    public void m_46F(){} // RVA: 0x7FFAF5926B90
-    public void m_867(){} // RVA: 0x7FFAF5926B90
-    public void m_24F(){} // RVA: 0x7FFAF5926B90
 }
 
 public class <>c

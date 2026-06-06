@@ -9,18 +9,18 @@ namespace VRC.Player
     public class PlayerBroadcastJoinedComponent_7907
     {
         // ── Methods ──
+        public void OnDisable(){} // RVA: 0x7FFAF32CA860
         public void Awake(){} // RVA: 0x7FFAF32CAB40
         public void OnEnable(){} // RVA: 0x7FFAF32CACF0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF32CAD10
         public void Update(){} // RVA: 0x7FFAF32CAEC0
         public void LateUpdate(){} // RVA: 0x7FFAF32CAFD0
-        public void OnDisable(){} // RVA: 0x7FFAF32CA860
+        public void OnDisable_53FFA7DFBB76(){} // RVA: 0x7FFAF32CA860
         public void OnDestroy(){} // RVA: 0x7FFAF32CB180
         public void OnApplicationPause(){} // RVA: 0x7FFAF32CB290
         // ── Unresolved (hash) ──
         public void m_692(){} // RVA: 0x7FFAF32CA750
-        public void m_8ED(){} // RVA: 0x7FFAF32CA860
         public void m_661(){} // RVA: 0x7FFAF32CA880
         public void m_0C0(){} // RVA: 0x7FFAF32CAA30
     }
@@ -98,6 +98,10 @@ namespace VRC.Player
     public class PlayerLeft_0AA8
     {
         // ── Methods ──
+        public void get_Height(){} // RVA: 0x7FFAF316B3A0
+        public void set_EyeFollowingBlendshapesValid(){} // RVA: 0x7FFAF35D65D0
+        public void get_MoveNext(){} // RVA: 0x7FFAF2F12D00
+        public void set_authorId(){} // RVA: 0x7FFAF2F14450
         public void IndexOf(){} // RVA: 0x7FFAF433F1D0
         public void LastIndexOf(){} // RVA: 0x7FFAF433F210
         public void LastIndexOf_703EF431D8B5(){} // RVA: 0x7FFAF433F250
@@ -105,6 +109,8 @@ namespace VRC.Player
         public void IndexOf_CC7214CB1755(){} // RVA: 0x7FFAF433F470
         public void BinarySearch(){} // RVA: 0x7FFAF433F570
         public void IndexOf_AD0A59FFC330(){} // RVA: 0x7FFAF433F670
+        public void IsLocalPlayerMaster(){} // RVA: 0x7FFAF3F47900
+        public void UpdateBipedIK(){} // RVA: 0x7FFAF3F48020
         public void InitializeNetworkSyncContainer(){} // RVA: 0x7FFAF3F3E6E0
         public void WriteInt64(){} // RVA: 0x7FFAF2ADA620
         public void IndexOf_5F0AFA7AD30D(){} // RVA: 0x7FFAF433F680
@@ -117,13 +123,13 @@ namespace VRC.Player
         public void TryGetIndexValue(){} // RVA: 0x7FFAF4344320
         public void .ctor(){} // RVA: 0x7FFAF4344350
         public void Initialize(){} // RVA: 0x7FFAF4344790
-        // ── 12 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_852(){} // RVA: 0x7FFAF2AD4A50
-        public void m_A24(){} // RVA: 0x7FFAF316B3A0
-        public void m_B1A(){} // RVA: 0x7FFAF35D65D0
-        public void m_D1F(){} // RVA: 0x7FFAF2F12D00
-        public void m_14B(){} // RVA: 0x7FFAF2F14450
-        // ... 7 more unresolved methods
+        public void m_897(){} // RVA: 0x7FFAF433F370
+        public void m_2A5(){} // RVA: 0x7FFAF43425C0
+        public void m_C58(){} // RVA: 0x7FFAF4344050
+        public void m_2B6(){} // RVA: 0x7FFAF2D8D310
+        public void m_1CD(){} // RVA: 0x7FFAF4344A10
     }
 
     /// <summary>Originally: ÎÍÌÌÎÎÌÏÎÏÎÌÏÎÍÌÍÏÍÍÌÎÌ</summary>
@@ -183,6 +189,7 @@ namespace VRC.Player
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFBE13280
         public void MoveNext(){} // RVA: 0x7FFAFBE132C0
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_B44D29CBB9E6(){} // RVA: 0x7FFAF2D907C0
         public void .ctor(){} // RVA: 0x7FFAF32887F0
         public void Initialize(){} // RVA: 0x7FFAFBE13360
         public void ConfigureRectTransform(){} // RVA: 0x7FFAFBE133F0
@@ -192,7 +199,6 @@ namespace VRC.Player
         public void System.Collections.Generic.IEnumerable<System.Reflection.Assembly>.GetEnumerator(){} // RVA: 0x7FFAFBE13430
         // ── Unresolved (hash) ──
         public void m_D80(){} // RVA: 0x7FFAFBE131F0
-        public void m_B44(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÏÌÌÌÍÏÍÌÌÌÏÎÌÏÍÏÍÌÏÍÍÍÏ</summary>
@@ -285,10 +291,9 @@ namespace VRC.Player
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF41DFB00
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_6AA32EC8E62B(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void MoveNext(){} // RVA: 0x7FFAF41DFBF0
-        // ── Unresolved (hash) ──
-        public void m_6AA(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÍÌÍÎÏÏÍÍÎÍÌÎÎÌÍÍÎÌÎÏÍÍ</summary>
@@ -455,12 +460,11 @@ namespace VRC.Player
         public void ToString(){} // RVA: 0x7FFAF2D907C0
         public void Dispose(){} // RVA: 0x7FFAFB9C5450
         public void MoveNext(){} // RVA: 0x7FFAFB9C5600
+        public void System.Collections.IEnumerator.get_Current_4E7A80DC21BC(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        // ── Unresolved (hash) ──
-        public void m_4E7(){} // RVA: 0x7FFAF2D907C0
-        public void m_AE3(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_AE343345A4A5(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÍÎÌÍÍÍÍÌÏÌÍÎÍÍÎÌÎÏÌÏÌÍ</summary>
@@ -612,8 +616,7 @@ namespace VRC.Player
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
         public void .ctor(){} // RVA: 0x7FFAF2D900C0
         public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        // ── Unresolved (hash) ──
-        public void m_75E(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_75E8BA09A20D(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÌÎÌÌÎÏÏÎÍÍÌÍÏÍÏÍÍÎÌÍÌÌ</summary>
@@ -711,11 +714,11 @@ namespace VRC.Player
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF32890A0
         public void System.Collections.Generic.IEnumerable<VRC.DataModel.ISpawnedProp>.GetEnumerator(){} // RVA: 0x7FFAF3289160
+        public void System.Collections.IEnumerator.get_Current_E1DE08E5446F(){} // RVA: 0x7FFAF2D907C0
         // ── Unresolved (hash) ──
         public void m_9B7(){} // RVA: 0x7FFAF3289010
         public void m_4F6(){} // RVA: 0x7FFAF3289060
         public void m_AEB(){} // RVA: 0x7FFAF3288AF0
-        public void m_E1D(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÎÍÌÍÍÎÏÌÎÏÏÏÍÍÏÏÎÏÎÏÍÍ</summary>
@@ -771,8 +774,7 @@ namespace VRC.Player
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFB5DD8E0
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        // ── Unresolved (hash) ──
-        public void m_6AA(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_6AA32EC8E62B(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÍÏÌÌÎÍÎÏÍÏÎÏÏÍÎÍÎÎÌÏÍÍ</summary>
@@ -784,7 +786,9 @@ namespace VRC.Player
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF357B540
         public void Dispose(){} // RVA: 0x7FFAF357B580
         public void MoveNext(){} // RVA: 0x7FFAF357B640
+        public void System.Collections.IEnumerator.get_Current_86031F4BEC1D(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_1ADE5F7A7E79(){} // RVA: 0x7FFAF2D907C0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF357B990
         public void System.Collections.Generic.IEnumerator<VRC.Playables.AvatarParameter>.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF357BA10
@@ -792,9 +796,7 @@ namespace VRC.Player
         public void ResetAvatarParameterBuffers(){} // RVA: 0x7FFAF357B470
         public void .ctor(){} // RVA: 0x7FFAF32887F0
         // ── Unresolved (hash) ──
-        public void m_860(){} // RVA: 0x7FFAF2D907C0
         public void m_9B7(){} // RVA: 0x7FFAF357B940
-        public void m_1AD(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÌÏÎÏÏÎÌÎÌÍÍÍÏÏÎÌÌÎÏÌÌÏ</summary>
@@ -829,10 +831,10 @@ namespace VRC.Player
         public void ToString(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF3D812C0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void System.Collections.IEnumerator.get_Current_71E55CDE843A(){} // RVA: 0x7FFAF2D907C0
         public void MoveNext(){} // RVA: 0x7FFAF3D81710
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D81B70
         // ── Unresolved (hash) ──
-        public void m_71E(){} // RVA: 0x7FFAF2D907C0
         public void m_12E(){} // RVA: 0x7FFAF2D8D310
     }
 
@@ -1162,13 +1164,12 @@ namespace VRC.Player
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41BC510
+        public void System.Collections.IEnumerator.get_Current_A2407A35E299(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_EEE11926D826(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void .ctor(){} // RVA: 0x7FFAF2D900C0
         public void Initialize(){} // RVA: 0x7FFAF41BC550
         public void MoveNext(){} // RVA: 0x7FFAF41BC690
-        // ── Unresolved (hash) ──
-        public void m_A24(){} // RVA: 0x7FFAF2D907C0
-        public void m_EEE(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÍÍÎÍÍÍÎÏÎÏÎÍÌÎÍÌÏÍÍÌÍÌ</summary>
@@ -1297,11 +1298,10 @@ namespace VRC.Player
         public void ReadComponentState(){} // RVA: 0x7FFAF435C560
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF435C5A0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void System.Collections.IEnumerator.get_Current_2AD4D4D68139(){} // RVA: 0x7FFAF2D907C0
         public void .ctor(){} // RVA: 0x7FFAF2D900C0
         public void Initialize(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        // ── Unresolved (hash) ──
-        public void m_2AD(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÌÌÍÎÌÏÍÍÏÍÍÍÍÍÎÌÍÌÌÍÍÏ</summary>
@@ -1339,9 +1339,9 @@ namespace VRC.Player
         public void Dispose(){} // RVA: 0x7FFAF3D4FA10
         public void .ctor(){} // RVA: 0x7FFAF2D900C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_75E8BA09A20D(){} // RVA: 0x7FFAF2D907C0
         // ── Unresolved (hash) ──
         public void m_557(){} // RVA: 0x7FFAF3D4FAE0
-        public void m_75E(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÏÍÎÍÎÍÏÏÏÍÌÍÌÎÎÌÍÎÍÏÎÍ</summary>
@@ -1417,9 +1417,9 @@ namespace VRC.Player
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
         public void MoveNext(){} // RVA: 0x7FFAF451CD00
+        public void System.Collections.IEnumerator.get_Current_2AD4D4D68139(){} // RVA: 0x7FFAF2D907C0
         // ── Unresolved (hash) ──
         public void m_CBC(){} // RVA: 0x7FFAF451CCC0
-        public void m_2AD(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÌÍÌÍÌÌÏÏÌÌÌÍÏÌÍÌÎÏÌÎÍÎ</summary>
@@ -1470,13 +1470,13 @@ namespace VRC.Player
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF3652AC0
+        public void System.Collections.IEnumerator.get_Current_1ADE5F7A7E79(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x7FFAF3652B00
         public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void get_Current_333BA53AA594(){} // RVA: 0x7FFAF2D907C0
         public void .ctor(){} // RVA: 0x7FFAF32887F0
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF3652AB0
         // ── Unresolved (hash) ──
-        public void m_1AD(){} // RVA: 0x7FFAF2D907C0
         public void m_DB7(){} // RVA: 0x7FFAF2D8D310
     }
 
@@ -1496,8 +1496,7 @@ namespace VRC.Player
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_6AA(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_6AA32EC8E62B(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÏÍÍÎÌÏÏÍÍÎÎÍÏÌÍÏÎÏÍÎÏÍ</summary>
@@ -1531,16 +1530,15 @@ namespace VRC.Player
         public void Dispose(){} // RVA: 0x7FFAF3653BE0
         public void MoveNext(){} // RVA: 0x7FFAF3653C20
         public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x7FFAF3653F10
+        public void System.Collections.IEnumerator.get_Current_64498EE95670(){} // RVA: 0x7FFAF2D907C0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void System.Collections.IEnumerator.get_Current_18A21193CFFA(){} // RVA: 0x7FFAF2D907C0
         public void get_Current_AEB744F72123(){} // RVA: 0x7FFAF3653BD0
         public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void .ctor(){} // RVA: 0x7FFAF32887F0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3653FA0
         public void GetEnumerator_8174517B4A94(){} // RVA: 0x7FFAF3653BD0
-        // ── Unresolved (hash) ──
-        public void m_644(){} // RVA: 0x7FFAF2D907C0
-        public void m_18A(){} // RVA: 0x7FFAF2D907C0
     }
 
     /// <summary>Originally: ÎÍÌÎÏÍÌÍÏÎÏÍÍÎÌÍÍÏÍÎÏÏÏ</summary>
@@ -1617,8 +1615,8 @@ namespace VRC.Player
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
         public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_668D67375E4F(){} // RVA: 0x7FFAF2D907C0
         // ── Unresolved (hash) ──
-        public void m_668(){} // RVA: 0x7FFAF2D907C0
         public void m_D51(){} // RVA: 0x7FFAF2F318F0
     }
 
@@ -1766,12 +1764,12 @@ namespace VRC.Player
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void ToString(){} // RVA: 0x7FFAF2D8D310
         public void Dispose(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current_333BA53AA594(){} // RVA: 0x7FFAF2D907C0
         public void GetUnityEngine(){} // RVA: 0x7FFAF2D8D310
         public void .ctor(){} // RVA: 0x7FFAF2D900C0
         public void MoveNext(){} // RVA: 0x7FFAF37CDCD0
         public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
-        public void m_333(){} // RVA: 0x7FFAF2D907C0
         public void m_63A(){} // RVA: 0x7FFAF37CCEE0
     }
 
@@ -1790,6 +1788,7 @@ namespace VRC.Player
         public void DecodeNetworkStateFCC48D9AC334(){} // RVA: 0x7FFAF3DF27B0
         public void Updatemass(){} // RVA: 0x7FFAF3DF28A0
         public void UpdateUnityEngineState(){} // RVA: 0x7FFAF3DF28B0
+        public void get_DefaultCreatorNonPublic(){} // RVA: 0x7FFAF3DF2AB0
         public void GetPlayerApiReference(){} // RVA: 0x7FFAF3DF2AC0
         public void get_ShouldUseSystemGestureMaterial(){} // RVA: 0x7FFAF3DF2C40
         public void ProcessNetworkParameter(){} // RVA: 0x7FFAF3DF2C50
@@ -1809,6 +1808,7 @@ namespace VRC.Player
         public void Awake(){} // RVA: 0x7FFAF3DF4050
         public void GetPackingRotation(){} // RVA: 0x7FFAF3DF4120
         public void GetPackingRotation_C17BEA6173D2(){} // RVA: 0x7FFAF3DF4130
+        public void set_applyShapeToPosition(){} // RVA: 0x7FFAF3DF4EC0
         public void DisableGravity(){} // RVA: 0x7FFAF3DF4ED0
         public void Computemass(){} // RVA: 0x7FFAF3DF50E0
         public void GetPackingRotation_024CB72CA5D4(){} // RVA: 0x7FFAF3DF53D0
@@ -1822,7 +1822,10 @@ namespace VRC.Player
         public void DisableKinematic(){} // RVA: 0x7FFAF3DF7CF0
         public void GetNetworkProperty296(){} // RVA: 0x7FFAF3DF7F20
         public void GetBufferedTimes(){} // RVA: 0x7FFAF3DF8980
+        public void get_ErrorCount(){} // RVA: 0x7FFAF349AB90
         public void GetDoubleFromParts(){} // RVA: 0x7FFAF3DF89C0
+        public void OnDestroy_EE6A302CC2B2(){} // RVA: 0x7FFAF3DF2E10
+        public void set_IsDataValid(){} // RVA: 0x7FFAF37CF6A0
         public void set_Rotation(){} // RVA: 0x7FFAF2DF5520
         public void ConnectInternalInjected(){} // RVA: 0x7FFAF304E660
         public void GetRect(){} // RVA: 0x7FFAF3DF8BB0
@@ -1837,30 +1840,37 @@ namespace VRC.Player
         public void .ctor(){} // RVA: 0x7FFAF3DF9F90
         public void Initialize(){} // RVA: 0x7FFAF3DFA0A0
         public void GetRect_97E6FAC1F212(){} // RVA: 0x7FFAF3DFA200
+        public void Constructor(){} // RVA: 0x7FFAF2E2B380
         public void GetRect_2C02551402CA(){} // RVA: 0x7FFAF3DFA380
         public void TryGetPhotonOwnerId(){} // RVA: 0x7FFAF2E08D50
+        public void get_AlertDescription(){} // RVA: 0x7FFAF3DFA670
+        public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF3DFA680
+        public void get_IsDataHighConfidence(){} // RVA: 0x7FFAF3DFA9E0
         public void OnDisable(){} // RVA: 0x7FFAF3DFA9F0
+        public void get_IsDataHighConfidence_9CA5029A8008(){} // RVA: 0x7FFAF3DFA9E0
         public void GenerateComponentInfo(){} // RVA: 0x7FFAF3DFB260
         public void CanSerialize8Bit(){} // RVA: 0x7FFAF2E72850
         public void NeedsSync(){} // RVA: 0x7FFAF3DFC4B0
         public void Update_540CB71AC481(){} // RVA: 0x7FFAF3DFC840
         public void set_LastPosition(){} // RVA: 0x7FFAF3DFC8E0
         public void get_LastPosition(){} // RVA: 0x7FFAF2E2B370
+        public void OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenDepthTolerance(){} // RVA: 0x7FFAF33584A0
         public void set_HasMemberAttribute(){} // RVA: 0x7FFAF3DFD310
         public void DoDestroy(){} // RVA: 0x7FFAF3DFD320
         public void Updatemass_91E17EE6511B(){} // RVA: 0x7FFAF304F950
         public void set_HasMemberAttribute_A740272858FD(){} // RVA: 0x7FFAF3DFD310
         public void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenDepthTolerance(){} // RVA: 0x7FFAF3354930
+        public void get_hasToes(){} // RVA: 0x7FFAF2EB8F80
         public void Encode_3A84C5619216(){} // RVA: 0x7FFAF3DF8D60
         public void OnControllerColliderHit(){} // RVA: 0x7FFAF3DFDA50
         public void ProxyNetworkFunctionCall(){} // RVA: 0x7FFAF3DFE380
-        // ── 39 unresolved (hash) ──
+        // ── 27 unresolved (hash) ──
         public void m_924(){} // RVA: 0x7FFAF3DF2660
-        public void m_096(){} // RVA: 0x7FFAF3DF2AB0
         public void m_B78(){} // RVA: 0x7FFAF3DF3DB0
         public void m_F97(){} // RVA: 0x7FFAF3DF4690
-        public void m_C83(){} // RVA: 0x7FFAF3DF4EC0
-        // ... 34 more unresolved methods
+        public void m_EC1(){} // RVA: 0x7FFAF3DF6880
+        public void m_852(){} // RVA: 0x7FFAF3DF6970
+        // ... 22 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÏÎÍÍÏÌÏÎÏÏÎÍÎÎÏÌÏÍÎÍÏ</summary>
@@ -2015,44 +2025,50 @@ namespace VRC.Player
     /// <summary>Originally: ÎÍÎÎÌÌÍÎÍÍÍÌÎÎÌÍÎÌÎÎÍÎÏ</summary>
     public class PlayerOwnerCanUseAnimatedEmojiSibling_3670
     {
-        // ── 11 unresolved (hash) ──
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x7FFAF306ED50
+        public void get_Value(){} // RVA: 0x7FFAF4A1F090
+        public void get_Value_61990F1C56DD(){} // RVA: 0x7FFAF4A1F090
+        public void get_Value_7B8446D83078(){} // RVA: 0x7FFAF4A1F090
+        public void set_Priority(){} // RVA: 0x7FFAF30E74E0
+        public void set_Low64(){} // RVA: 0x7FFAF45C2320
+        public void TryGetValue(){} // RVA: 0x7FFAF4A1F0A0
+        public void get_Count_0F4816D5991A(){} // RVA: 0x7FFAF306ED50
+        // ── Unresolved (hash) ──
         public void m_E5B(){} // RVA: 0x7FFAF4584690
         public void m_EED(){} // RVA: 0x7FFAF4584690
-        public void m_4DF(){} // RVA: 0x7FFAF306ED50
-        public void m_D80(){} // RVA: 0x7FFAF4A1F090
-        public void m_619(){} // RVA: 0x7FFAF4A1F090
-        // ... 6 more unresolved methods
+        public void m_87C(){} // RVA: 0x7FFAF4584690
     }
 
     /// <summary>Originally: ÎÏÏÏÏÌÌÌÌÌÌÍÎÌÎÎÌÌÍÎÌÌÎ</summary>
     public class PlayerOwnerCanUseAnimatedEmojiSibling_5059
     {
         // ── Methods ──
+        public void get_InstantiationKind(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_name(){} // RVA: 0x7FFAF4A2E940
+        public void GetAwaiter(){} // RVA: 0x7FFAF320E7E0
         public void ReadCapsuleColliderState(){} // RVA: 0x7FFAF2D900C0
+        public void GetAwaiter_4E0F260434F9(){} // RVA: 0x7FFAF320E7E0
+        public void get_InstantiationKind_D7249FAB5437(){} // RVA: 0x7FFAF2DDA5C0
+        public void set_name_396D8E5E81C2(){} // RVA: 0x7FFAF4A2E940
+        public void get_InstantiationKind_9A5DE7E34B83(){} // RVA: 0x7FFAF2DDA5C0
         public void ReadCapsuleColliderState_1D9107BC3DA6(){} // RVA: 0x7FFAF2D900C0
-        // ── Unresolved (hash) ──
-        public void m_0F4(){} // RVA: 0x7FFAF2DDA5C0
-        public void m_588(){} // RVA: 0x7FFAF4A2E940
-        public void m_619(){} // RVA: 0x7FFAF320E7E0
-        public void m_4E0(){} // RVA: 0x7FFAF320E7E0
-        public void m_D72(){} // RVA: 0x7FFAF2DDA5C0
-        public void m_396(){} // RVA: 0x7FFAF4A2E940
-        public void m_9A5(){} // RVA: 0x7FFAF2DDA5C0
-        public void m_156(){} // RVA: 0x7FFAF4A2E940
-        public void m_66C(){} // RVA: 0x7FFAF320E7E0
-        public void m_FD3(){} // RVA: 0x7FFAF320E7E0
+        public void set_name_156DAB0EE65A(){} // RVA: 0x7FFAF4A2E940
+        public void GetAwaiter_66C69DC531C0(){} // RVA: 0x7FFAF320E7E0
+        public void GetAwaiter_FD377C15AC41(){} // RVA: 0x7FFAF320E7E0
     }
 
     /// <summary>Originally: ÎÍÎÌÎÍÌÌÍÎÌÍÏÎÍÎÏÏÍÏÌÌÍ</summary>
     public class PlayerOwnerCanUseAnimatedEmojiSibling_B045
     {
+        // ── Methods ──
+        public void Decode_E41E86F9CC1A(){} // RVA: 0x7FFAF2E2E0D0
+        public void GetStatus(){} // RVA: 0x7FFAF2E2E0C0
+        public void Decode_E41E86F9CC1A_7084049C135B(){} // RVA: 0x7FFAF2E2E0D0
+        public void GetStatus_B1670832D9C2(){} // RVA: 0x7FFAF2E2E0C0
         // ── Unresolved (hash) ──
-        public void m_ADA(){} // RVA: 0x7FFAF2E2E0D0
         public void m_FC4(){} // RVA: 0x7FFAF4A66C50
         public void m_4D3(){} // RVA: 0x7FFAF4A66BD0
-        public void m_AFD(){} // RVA: 0x7FFAF2E2E0C0
-        public void m_708(){} // RVA: 0x7FFAF2E2E0D0
-        public void m_B16(){} // RVA: 0x7FFAF2E2E0C0
         public void m_831(){} // RVA: 0x7FFAF4A66C50
         public void m_EDA(){} // RVA: 0x7FFAF4A66BD0
         public void m_66A(){} // RVA: 0x7FFAF4A66C50
@@ -2066,14 +2082,14 @@ namespace VRC.Player
         public void set_AnimationStyle(){} // RVA: 0x7FFAF399FD10
         public void set_FileId(){} // RVA: 0x7FFAF46E7750
         public void get_FileId(){} // RVA: 0x7FFAF34270D0
-        public void set_IsSpecialFX(){} // RVA: 0x7FFAF2E2B370
+        public void set_MaskTag(){} // RVA: 0x7FFAF2E2B370
         public void SetFPS(){} // RVA: 0x7FFAF3A74480
-        public void set_DisplayTexture(){} // RVA: 0x7FFAF2D8EE90
+        public void set_IsSpecialFX(){} // RVA: 0x7FFAF2D8EE90
         public void get_IsSpecialFX(){} // RVA: 0x7FFAF39EB700
-        public void set_EffectBundleID(){} // RVA: 0x7FFAF2DBB130
+        public void set_DisplayTexture(){} // RVA: 0x7FFAF2DBB130
         public void RichPresenceOptionsSetApiName(){} // RVA: 0x7FFAF46E77A0
         public void get_DisplayTexture(){} // RVA: 0x7FFAF2E08D50
-        public void set_Frames(){} // RVA: 0x7FFAF3467650
+        public void set_EffectBundleID(){} // RVA: 0x7FFAF3467650
         public void get_EffectBundleID(){} // RVA: 0x7FFAF3467650
         public void get_AnimationStyle(){} // RVA: 0x7FFAF3427430
         public void get_Frames(){} // RVA: 0x7FFAF46E7960
@@ -2082,21 +2098,21 @@ namespace VRC.Player
         public void get_IsAnimated(){} // RVA: 0x7FFAF46E7980
         public void get_SpawnablePrefabName(){} // RVA: 0x7FFAF2DBB130
         public void set_SpawnablePrefabName(){} // RVA: 0x7FFAF46E7960
-        public void set_IsAnimated(){} // RVA: 0x7FFAF2E2B380
+        public void set_LoadFrom(){} // RVA: 0x7FFAF2E2B380
         public void .ctor(){} // RVA: 0x7FFAF46E79A0
         public void get_LoadFrom(){} // RVA: 0x7FFAF46E7B30
-        public void set_LoadFrom(){} // RVA: 0x7FFAF30E74D0
+        public void set_IsPremium(){} // RVA: 0x7FFAF30E74D0
         public void set_Sprite(){} // RVA: 0x7FFAF46E7B60
         public void get_Sprite(){} // RVA: 0x7FFAF2FC9240
         public void get_IsPremium(){} // RVA: 0x7FFAF46E7C20
         public void SetEffectBundleID(){} // RVA: 0x7FFAF2E555A0
         public void set_LoopStyle(){} // RVA: 0x7FFAF46E7C40
-        public void set_Frames_156DAB0EE65A(){} // RVA: 0x7FFAF2E2B380
+        public void set_Frames(){} // RVA: 0x7FFAF2E2B380
         public void get_IsPremium_AB7D7D00DFA0(){} // RVA: 0x7FFAF2E08D60
         public void SetFrames(){} // RVA: 0x7FFAF46E7CB0
         public void get_LoopStyle(){} // RVA: 0x7FFAF46E8410
-        public void set_FullResolutionTexture(){} // RVA: 0x7FFAF46E7C40
-        public void set_FPS(){} // RVA: 0x7FFAF3498FF0
+        public void set_FPS(){} // RVA: 0x7FFAF46E7C40
+        public void set_FullResolutionTexture(){} // RVA: 0x7FFAF3498FF0
         public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7FFAF2E7B9D0
         public void get_FPS(){} // RVA: 0x7FFAF3A74480
         public void get_FullResolutionTexture(){} // RVA: 0x7FFAF2E55590
@@ -2203,6 +2219,8 @@ namespace VRC.Player
         public void OnApplicationFocus(){} // RVA: 0x7FFAF3AE0B10
         public void TryParseGenericArguments(){} // RVA: 0x7FFAF3AE0B10
         public void TryParseGenericArguments_A3F98919F1D2(){} // RVA: 0x7FFAF3AE0B20
+        public void TryParseGenericArguments_2F6169385825(){} // RVA: 0x7FFAF3AE0B30
+        public void get_minHeight(){} // RVA: 0x7FFAF35AF380
         public void Start(){} // RVA: 0x7FFAF3AE0B40
         public void TryParseGenericArguments_B82325B070AA(){} // RVA: 0x7FFAF3AE0C00
         public void OnDisable(){} // RVA: 0x7FFAF3AE0B20
@@ -2213,15 +2231,13 @@ namespace VRC.Player
         public void GetIsInitialized(){} // RVA: 0x7FFAF3AE1110
         public void GetIsInitialized_E0E0B26EC7E3(){} // RVA: 0x7FFAF3AE13B0
         public void GetIsInitialized_60707134FF5F(){} // RVA: 0x7FFAF3AE1770
-        public void TryParseGenericArguments_2F6169385825(){} // RVA: 0x7FFAF3AE0B30
         public void TryParseVersion(){} // RVA: 0x7FFAF3AE1A80
         public void Update(){} // RVA: 0x7FFAF3AE1AB0
         public void OnApplicationPause(){} // RVA: 0x7FFAF3AE1C70
         public void Awake(){} // RVA: 0x7FFAF3AE1C80
         public void OnDestroy(){} // RVA: 0x7FFAF3AE1E50
         // ── Unresolved (hash) ──
-        public void m_E3F(){} // RVA: 0x7FFAF3AE0B30
-        public void m_EC1(){} // RVA: 0x7FFAF35AF380
+        public void m_2F6(){} // RVA: 0x7FFAF3AE0B30
     }
 
 }

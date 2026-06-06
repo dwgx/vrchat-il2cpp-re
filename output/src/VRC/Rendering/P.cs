@@ -35,15 +35,15 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void SetTrailMaterial(){} // RVA: 0x7FFAFB8731A0
+        public void get_FileId(){} // RVA: 0x7FFAF34270D0
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF34270D0
+        public void get_FileId_0CC4E723CCFB(){} // RVA: 0x7FFAF34270D0
         public void SetVelocityScale(){} // RVA: 0x7FFAFB873360
+        public void get_FileId_499D8515C891(){} // RVA: 0x7FFAF34270D0
         // ── Unresolved (hash) ──
-        public void m_A15(){} // RVA: 0x7FFAF34270D0
-        public void m_0CC(){} // RVA: 0x7FFAF34270D0
         public void m_C07(){} // RVA: 0x7FFAFB873280
         public void m_52B(){} // RVA: 0x7FFAFB873440
-        public void m_499(){} // RVA: 0x7FFAF34270D0
         public void m_E5F(){} // RVA: 0x7FFAFB873520
         public void m_AFF(){} // RVA: 0x7FFAFB873600
     }
@@ -52,8 +52,10 @@ namespace VRC.Rendering
     public class ParticleParticleSystemRendererHandler_8DCE
     {
         // ── Methods ──
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7FFAF2E55500
         public void GetEnabled(){} // RVA: 0x7FFAFB86B8A0
         public void GetEnabled_85BBCCB28EA0(){} // RVA: 0x7FFAFB86B8C0
+        public void OnCanvasHierarchyChanged_BE438DA96AEC(){} // RVA: 0x7FFAF2E55500
         public void GetEnabled_86804A1E55FA(){} // RVA: 0x7FFAFB86B900
         public void Start(){} // RVA: 0x7FFAFB86C160
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
@@ -62,9 +64,7 @@ namespace VRC.Rendering
         public void GetEnabled_6099C3ED0420(){} // RVA: 0x7FFAFB86B8C0
         // ── Unresolved (hash) ──
         public void m_97B(){} // RVA: 0x7FFAFB86B870
-        public void m_F58(){} // RVA: 0x7FFAF2E55500
         public void m_9C3(){} // RVA: 0x7FFAF3C7E800
-        public void m_BE4(){} // RVA: 0x7FFAF2E55500
         public void m_8E4(){} // RVA: 0x7FFAFB86B870
         public void m_910(){} // RVA: 0x7FFAFB86BD30
         public void m_537(){} // RVA: 0x7FFAFB86B870

@@ -9,6 +9,7 @@ namespace VRC.UI
     public class TextureUIHandler_22D3
     {
         // ── Methods ──
+        public void RunIl2CppThreadpoolWorker(){} // RVA: 0x7FFAFBA6E3E0
         public void GetEnableRandomWrite(){} // RVA: 0x7FFAFBA6E580
         public void Start(){} // RVA: 0x7FFAFBA6E6F0
         public void OnDisable(){} // RVA: 0x7FFAFBA6E860
@@ -19,11 +20,10 @@ namespace VRC.UI
         public void RegisterSocketPoll(){} // RVA: 0x7FFAFBA6E860
         public void GetWrapModeW(){} // RVA: 0x7FFAFBA6FB80
         public void Update(){} // RVA: 0x7FFAFBA6FD70
-        public void RunIl2CppThreadpoolWorker(){} // RVA: 0x7FFAFBA6E3E0
+        public void RunIl2CppThreadpoolWorker_40323ACB2C8B(){} // RVA: 0x7FFAFBA6E3E0
         public void CreateThreadpoolScheduler(){} // RVA: 0x7FFAFBA6FE10
         public void .ctor(){} // RVA: 0x7FFAFBA70060
         // ── Unresolved (hash) ──
-        public void m_559(){} // RVA: 0x7FFAFBA6E3E0
         public void m_FD1(){} // RVA: 0x7FFAFBA6EE90
         public void m_CE5(){} // RVA: 0x7FFAFBA6F100
         public void m_2F8(){} // RVA: 0x7FFAFBA6F7F0
@@ -54,6 +54,7 @@ namespace VRC.UI
         public void OnDestroy(){} // RVA: 0x7FFAFBBBC940
         public void ActivateGameObjectAndClearConnectedBody(){} // RVA: 0x7FFAFBBBD250
         public void SetWrapModeV(){} // RVA: 0x7FFAFBBBDBF0
+        public void TrySetBitFlag(){} // RVA: 0x7FFAF3838BD0
         public void SetWrapModeV_9CF74B94B19F(){} // RVA: 0x7FFAFBBBDC00
         public void GetTextureAtIndex(){} // RVA: 0x7FFAFBBBEC60
         public void GetTextureAtIndex_280DC9B7C93D(){} // RVA: 0x7FFAFBBBEDA0
@@ -70,13 +71,13 @@ namespace VRC.UI
         public void CompareHumanAnimatorBone_EF67DB82EC47(){} // RVA: 0x7FFAFBBC30A0
         public void HasCompleteHumanoidRig_7D557C8B074D(){} // RVA: 0x7FFAFBBC3380
         public void .cctor(){} // RVA: 0x7FFAFBBC3660
-        // ── 26 unresolved (hash) ──
+        // ── 25 unresolved (hash) ──
         public void m_489(){} // RVA: 0x7FFAFBBBC260
         public void m_9D4(){} // RVA: 0x7FFAFBBBC8D0
         public void m_798(){} // RVA: 0x7FFAFBBBCD50
         public void m_E6B(){} // RVA: 0x7FFAFBBBCD60
         public void m_7B8(){} // RVA: 0x7FFAFBBBCE80
-        // ... 21 more unresolved methods
+        // ... 20 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÍÌÎÌÎÌÌÎÌÌÏÍÌÎÌÍÌÏÎÎÌ</summary>
@@ -186,9 +187,9 @@ namespace VRC.UI
         public void SetAlpha(){} // RVA: 0x7FFAF3DC3490
         public void GetActiveSelf(){} // RVA: 0x7FFAF3DC4250
         public void .cctor(){} // RVA: 0x7FFAF3DC4520
+        public void set_CacheWritingBehavior_14C1BBB069A8(){} // RVA: 0x7FFAF3DC2500
         public void set_CacheWritingBehavior_16879069C15E(){} // RVA: 0x7FFAF3DC6B40
         public void GetActiveInHierarchy(){} // RVA: 0x7FFAF3DC8BC0
-        public void set_CacheWritingBehavior_14C1BBB069A8(){} // RVA: 0x7FFAF3DC2500
         // ── 53 unresolved (hash) ──
         public void m_619(){} // RVA: 0x7FFAF3DC1550
         public void m_F35(){} // RVA: 0x7FFAF3DC1690
@@ -212,17 +213,23 @@ namespace VRC.UI
     public class TransformUITransformHandler_A1CF
     {
         // ── Methods ──
+        public void get_minHeight(){} // RVA: 0x7FFAF35AF380
+        public void get_ErrorCount(){} // RVA: 0x7FFAF349AB90
         public void RandomRangeInt(){} // RVA: 0x7FFAF3C50EB0
         public void Start(){} // RVA: 0x7FFAF3C50FB0
         public void Update(){} // RVA: 0x7FFAF3C51720
+        public void get_CleanedUp(){} // RVA: 0x7FFAF3C52580
         public void .ctor(){} // RVA: 0x7FFAF3C52920
-        // ── 12 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_600(){} // RVA: 0x7FFAF3C50D80
         public void m_AB6(){} // RVA: 0x7FFAF2ABC770
-        public void m_5B2(){} // RVA: 0x7FFAF35AF380
-        public void m_74D(){} // RVA: 0x7FFAF349AB90
         public void m_B60(){} // RVA: 0x7FFAF3C511E0
-        // ... 7 more unresolved methods
+        public void m_6EF(){} // RVA: 0x7FFAF3C514A0
+        public void m_722(){} // RVA: 0x7FFAF3C51980
+        public void m_081(){} // RVA: 0x7FFAF3C522A0
+        public void m_32A(){}
+        public void m_CC2(){} // RVA: 0x7FFAF3C52560
+        public void m_609(){} // RVA: 0x7FFAF3C52590
     }
 
 }

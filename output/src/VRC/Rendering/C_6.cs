@@ -848,14 +848,13 @@ namespace VRC.Rendering
         public void UpdateThreadPoolHillClimbing(){} // RVA: 0x7FFAFBA70850
         public void UpdateThreadPoolHillClimbing_3CD4B3800BC4(){} // RVA: 0x7FFAFBA70960
         public void UpdateThreadPoolHillClimbing_2BE6E6165C6E(){} // RVA: 0x7FFAFBA709B0
+        public void UpdateThreadPoolHillClimbing_2BE6E6165C6E_4DBB0E2815D0(){} // RVA: 0x7FFAFBA709B0
+        public void UpdateThreadPoolHillClimbing_3CD4B3800BC4_9B0FC767FCAB(){} // RVA: 0x7FFAFBA70960
         public void OnDestroy(){} // RVA: 0x7FFAFBA709F0
         public void Start(){} // RVA: 0x7FFAFBA70B30
         public void UpdateThreadPoolHillClimbing_2B42D4EE332F(){} // RVA: 0x7FFAFBA70C30
         public void .ctor(){} // RVA: 0x7FFAFBA70C70
         public void Initialize(){} // RVA: 0x7FFAFBA70D90
-        // ── Unresolved (hash) ──
-        public void m_4DB(){} // RVA: 0x7FFAFBA709B0
-        public void m_9B0(){} // RVA: 0x7FFAFBA70960
     }
 
     /// <summary>Originally: ÏÏÎÎÏÏÌÍÌÏÌÍÎÌÌÌÌÌÌÏÌÏÎ</summary>

@@ -32,9 +32,11 @@ namespace VRC.Security
         public void GetLocalBounds(){} // RVA: 0x7FFAFBA3FA80
         public void GetLocalToWorldMatrix(){} // RVA: 0x7FFAFBA3FC10
         public void GetLocalToWorldMatrix_FAC42409448A(){} // RVA: 0x7FFAFBA3FC20
+        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x7FFAF2D8EE90
         public void Update(){} // RVA: 0x7FFAFBA3FA70
         public void .ctor(){} // RVA: 0x7FFAF4265070
         public void Initialize(){} // RVA: 0x7FFAFBA3FC20
+        public void CompareTo_DC618AA5A9A7_B9F6C439961C(){} // RVA: 0x7FFAF2D8EE90
         public void GetMaterial(){} // RVA: 0x7FFAFBA3FDB0
         public void GetMotionVectorGenerationMode(){} // RVA: 0x7FFAFBA3FFE0
         public void GetLightmapIndex(){} // RVA: 0x7FFAFBA40410
@@ -42,8 +44,6 @@ namespace VRC.Security
         // ── Unresolved (hash) ──
         public void m_41F(){} // RVA: 0x7FFAFBA3FA70
         public void m_2B4(){} // RVA: 0x7FFAFBA3FA70
-        public void m_262(){} // RVA: 0x7FFAF2D8EE90
-        public void m_B9F(){} // RVA: 0x7FFAF2D8EE90
         public void m_56E(){} // RVA: 0x7FFAFBA401E0
     }
 

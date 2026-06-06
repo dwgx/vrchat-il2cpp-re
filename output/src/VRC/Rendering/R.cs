@@ -41,14 +41,15 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x7FFAFBA19D50
         public void Initialize(){} // RVA: 0x7FFAFBA1A1A0
         public void get_Instance(){} // RVA: 0x7FFAFBA1B7B0
+        public void OnHandFocusLost(){} // RVA: 0x7FFAF2F6EC00
         public void AssignRealtimeTextureEnumeratorTarget(){} // RVA: 0x7FFAFBA1BB60
-        // ── 15 unresolved (hash) ──
+        // ── 14 unresolved (hash) ──
         public void m_65B(){} // RVA: 0x7FFAF2D8D310
         public void m_0A7(){} // RVA: 0x7FFAFBA19370
         public void m_E02(){} // RVA: 0x7FFAF2D8D310
         public void m_038(){} // RVA: 0x7FFAFBA19550
         public void m_321(){} // RVA: 0x7FFAFBA19630
-        // ... 10 more unresolved methods
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÎÎÍÏÎÎÍÏÍÎÌÍÌÏÏÌÍÌÍÏÍÎÎ</summary>
@@ -106,6 +107,7 @@ namespace VRC.Rendering
         // ── Methods ──
         public void GetLightProbeProxyVolumeOverride(){} // RVA: 0x7FFAFB86C280
         public void GetLocalBounds(){} // RVA: 0x7FFAFB86C750
+        public void StringType(){} // RVA: 0x7FFAF2E2E0E0
         public void Start(){} // RVA: 0x7FFAFB86C8C0
         public void GetMaterial(){} // RVA: 0x7FFAFB86CAB0
         public void GetMaterial_799508423D5B(){} // RVA: 0x7FFAFB86CB10
@@ -120,7 +122,6 @@ namespace VRC.Rendering
         // ── Unresolved (hash) ──
         public void m_EB3(){} // RVA: 0x7FFAFB86C2F0
         public void m_B31(){} // RVA: 0x7FFAFB86C420
-        public void m_4C1(){} // RVA: 0x7FFAF2E2E0E0
         public void m_67A(){} // RVA: 0x7FFAFB86CF30
         public void m_EED(){} // RVA: 0x7FFAFB86D4D0
         public void m_723(){} // RVA: 0x7FFAFB86D530
@@ -134,6 +135,7 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void GetRendererPriority(){} // RVA: 0x7FFAFBA40860
+        public void get_MoveNext(){} // RVA: 0x7FFAF2F476A0
         public void GetSharedMaterialArray(){} // RVA: 0x7FFAFBA40D00
         public void GetSharedMaterialArray_5F721EA853BF(){} // RVA: 0x7FFAFBA40D70
         public void AppendStringBytes(){} // RVA: 0x7FFAFBA40DA0
@@ -165,7 +167,6 @@ namespace VRC.Rendering
         public void CalculateByteEntropy_BC4D9EACA205(){} // RVA: 0x7FFAFBA447A0
         public void OnDisable(){} // RVA: 0x7FFAFBA44DF0
         // ── Unresolved (hash) ──
-        public void m_920(){} // RVA: 0x7FFAF2F476A0
         public void m_CF2(){} // RVA: 0x7FFAFBA426A0
         public void m_F1E(){} // RVA: 0x7FFAFBA42D00
         public void m_693(){} // RVA: 0x7FFAFBA43E10

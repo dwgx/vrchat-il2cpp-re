@@ -483,12 +483,12 @@ namespace VRC.Internal.Async
     {
         // ── Methods ──
         public void SetStateMachine(){} // RVA: 0x7FFAF30CB270
+        public void SetStateMachine_4E868F86F32B(){} // RVA: 0x7FFAF30CB270
+        public void SetStateMachine_7525F37D1DF1(){} // RVA: 0x7FFAF30CB270
         public void MoveNext(){} // RVA: 0x7FFAF3BC4940
         // ── Unresolved (hash) ──
         public void m_63A(){} // RVA: 0x7FFAF3BC42E0
-        public void m_4E8(){} // RVA: 0x7FFAF30CB270
         public void m_015(){} // RVA: 0x7FFAF3BC4610
-        public void m_752(){} // RVA: 0x7FFAF30CB270
         public void m_124(){} // RVA: 0x7FFAF3BC4C70
     }
 
