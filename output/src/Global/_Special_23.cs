@@ -599,13 +599,13 @@ public class <>c
     public void Initialize(){} // RVA: 0x7FFAFBE4C0D0
     public void CompareBaseObjects(){} // RVA: 0x7FFAFBE4CA80
     public void .cctor(){} // RVA: 0x7FFAFBE4CB60
+    public void op_Implicit(){} // RVA: 0x7FFAFBE4CC00
     // ── Unresolved (hash) ──
     public void m_7FA(){} // RVA: 0x7FFAFBE4C310
     public void m_85C(){} // RVA: 0x7FFAFBE4C460
     public void m_F2A(){} // RVA: 0x7FFAFBE4C540
     public void m_3A8(){} // RVA: 0x7FFAFBE4C780
     public void m_E58(){} // RVA: 0x7FFAFBE4C9A0
-    public void m_13B(){} // RVA: 0x7FFAFBE4CC00
     public void m_D9A(){} // RVA: 0x7FFAFBE4CE10
 }
 

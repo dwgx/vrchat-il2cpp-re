@@ -10,18 +10,18 @@ namespace VRC.Audio.Voice
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFAF2DBB0C0
         public void GetPosition(){} // RVA: 0x7FFAF3A94A40
-        public void get_Current(){} // RVA: 0x7FFAF3A94AC0
         public void .ctor(){} // RVA: 0x7FFAF3A94E20
         public void Initialize(){} // RVA: 0x7FFAF3A953A0
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         // ── Unresolved (hash) ──
+        public void m_EF5(){} // RVA: 0x7FFAF3A94AC0
         public void m_7D0(){} // RVA: 0x7FFAF3A94B40
         public void m_A33(){} // RVA: 0x7FFAF3A950C0
-        public void m_8EA(){} // RVA: 0x7FFAF2DBB0C0
         public void m_23F(){} // RVA: 0x7FFAF2DA8380
         public void m_BAA(){} // RVA: 0x7FFAF2DBB0C0
         public void m_81D(){} // RVA: 0x7FFAF3A95480
-        public void m_1C9(){} // RVA: 0x7FFAF2DA8380
         public void m_91E(){} // RVA: 0x7FFAF3A95610
         public void m_8FB(){} // RVA: 0x7FFAF3A95690
     }

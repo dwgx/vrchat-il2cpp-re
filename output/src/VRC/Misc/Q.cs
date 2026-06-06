@@ -88,20 +88,20 @@ namespace VRC.Misc
     public class QuaternionHandler_2EFD
     {
         // ── Methods ──
+        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void GetHashCode(){} // RVA: 0x7FFAF44189B0
         public void set_mode(){} // RVA: 0x7FFAF32E3580
         public void GetHashCode_DD3861874A71(){} // RVA: 0x7FFAF44189B0
+        public void MoveNext(){} // RVA: 0x7FFAF4418950
         public void GetHashCode_8811DA0E192C(){} // RVA: 0x7FFAF44189B0
         public void UpdateRotation(){} // RVA: 0x7FFAF49FE540
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
+        public void set_Value(){} // RVA: 0x7FFAF2D8EE30
         public void GetHashCode_7C237A5852EF(){} // RVA: 0x7FFAF44189B0
         // ── Unresolved (hash) ──
-        public void m_FCE(){} // RVA: 0x7FFAF2DA8380
         public void m_D87(){} // RVA: 0x7FFAF2D8EE30
-        public void m_697(){} // RVA: 0x7FFAF4418950
         public void m_FF3(){} // RVA: 0x7FFAF2D8EE30
         public void m_656(){} // RVA: 0x7FFAF44189C0
-        public void m_254(){} // RVA: 0x7FFAF44189C0
-        public void m_867(){} // RVA: 0x7FFAF2D8EE30
         public void m_271(){} // RVA: 0x7FFAF44189C0
         public void m_9CB(){} // RVA: 0x7FFAF2D8EE30
     }
@@ -132,15 +132,15 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void get_Count(){} // RVA: 0x7FFAF2ABD840
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Current(){} // RVA: 0x7FFAF2ABC770
+        public void Clear(){} // RVA: 0x7FFAF2AD4A50
         // ── Unresolved (hash) ──
         public void m_92D(){} // RVA: 0x7FFAF2ABCD60
-        public void m_32A(){} // RVA: 0x7FFAF2ABCD60
         public void m_9B6(){} // RVA: 0x7FFAF2ABCD60
         public void m_4B8(){} // RVA: 0x7FFAF2ABC770
-        public void m_063(){} // RVA: 0x7FFAF2ABC770
         public void m_76F(){} // RVA: 0x7FFAF48BDB00
         public void m_A38(){} // RVA: 0x7FFAF2ABC770
-        public void m_A4B(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÍÏÍÍÏÏÌÎÎÌÍÎÍÌÍÎÌÏÏÌÍ</summary>

@@ -19,7 +19,7 @@ namespace VRC.UI.Client.Emoji
         public void set_LoopStyle(){} // RVA: 0x7FFAF2EE54D0
         public void get_LoadFrom(){} // RVA: 0x7FFAF2FC9240
         public void set_Sprite(){} // RVA: 0x7FFAF2E08740
-        public void set_FPS(){} // RVA: 0x7FFAF2E55510
+        public void set_LoadFrom(){} // RVA: 0x7FFAF2E55510
         public void set_EffectBundleID(){} // RVA: 0x7FFAF2E2B370
         public void get_EffectBundleID(){} // RVA: 0x7FFAF37733A0
         public void get_FullResolutionTexture(){} // RVA: 0x7FFAF2E0A740

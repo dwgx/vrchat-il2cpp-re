@@ -121,6 +121,7 @@ namespace VRC.Rendering
     public class MaterialPhysicMaterialHandler_8839
     {
         // ── Methods ──
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void GetFrictionCombine(){} // RVA: 0x7FFAFB8DFCD0
         public void set_ResponseModels(){} // RVA: 0x7FFAF2E08D60
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
@@ -139,7 +140,6 @@ namespace VRC.Rendering
         public void GetBounceCombine(){} // RVA: 0x7FFAF2F476A0
         public void GetFrictionCombine_E632440AD8A8(){} // RVA: 0x7FFAFB8DFCD0
         // ── Unresolved (hash) ──
-        public void m_EC4(){} // RVA: 0x7FFAF2DBB0C0
         public void m_027(){} // RVA: 0x7FFAFB8DFDD0
         public void m_828(){} // RVA: 0x7FFAFB8DFDF0
         public void m_4D7(){} // RVA: 0x7FFAFB8DFDD0
@@ -334,13 +334,13 @@ namespace VRC.Rendering
         public void .ctor(){} // RVA: 0x7FFAF3FC46B0
         public void Initialize(){} // RVA: 0x7FFAF3FC4770
         public void Start(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void GetRect_244DE9BF0C98(){} // RVA: 0x7FFAF3FC4540
         public void SetFloatImpl(){} // RVA: 0x7FFAF3FC6120
         // ── Unresolved (hash) ──
         public void m_52E(){} // RVA: 0x7FFAF3FC4670
         public void m_CA7(){} // RVA: 0x7FFAF2D8D310
         public void m_4A8(){} // RVA: 0x7FFAF3FC47B0
-        public void m_A74(){} // RVA: 0x7FFAF2D8D310
     }
 
     /// <summary>Originally: ÍÌÏÍÏÎÏÎÍÎÏÍÎÏÏÏÏÏÍÎÏÍÍ</summary>
@@ -370,6 +370,7 @@ namespace VRC.Rendering
         public void set_Low64(){} // RVA: 0x7FFAF45C2320
         public void set_totalCount(){} // RVA: 0x7FFAF2F25080
         public void get_Comparer_E5936E0785A0(){} // RVA: 0x7FFAF30E74D0
+        public void get_Key(){} // RVA: 0x7FFAF4584690
         public void set_Expires(){} // RVA: 0x7FFAF4A24DF0
         public void set_startColor(){} // RVA: 0x7FFAF4A24E00
         public void get_Value(){} // RVA: 0x7FFAF4A1F090
@@ -378,13 +379,13 @@ namespace VRC.Rendering
         public void set_isPickedUp_E021BB658C7C(){} // RVA: 0x7FFAF2E2B250
         public void get_twist(){} // RVA: 0x7FFAF2DB6060
         public void TryGetMaterialTransformIndex_2B71A319BFD1(){} // RVA: 0x7FFAF4346340
-        // ── 14 unresolved (hash) ──
+        // ── 13 unresolved (hash) ──
         public void m_825(){} // RVA: 0x7FFAF3312000
         public void m_0E2(){} // RVA: 0x7FFAF4A24C80
         public void m_33D(){} // RVA: 0x7FFAF4A24CC0
         public void m_2B3(){} // RVA: 0x7FFAF4A24CE0
         public void m_ECC(){} // RVA: 0x7FFAF4A24CF0
-        // ... 9 more unresolved methods
+        // ... 8 more unresolved methods
     }
 
     /// <summary>Originally: ÍÍÍÎÍÎÏÎÌÎÎÍÏÎÌÎÏÌÍÏÎÌÌ</summary>

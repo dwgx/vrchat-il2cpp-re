@@ -11,6 +11,7 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void SwapTransform(){} // RVA: 0x7FFAF2D8D310
         // ── Unresolved (hash) ──
         public void m_2BA(){} // RVA: 0x7FFAF2D8D310
@@ -18,7 +19,6 @@ namespace VRC.Core.Transform
         public void m_754(){} // RVA: 0x7FFAF2D8D310
         public void m_593(){} // RVA: 0x7FFAF2D8D310
         public void m_F15(){} // RVA: 0x7FFAF2D8D310
-        public void m_295(){} // RVA: 0x7FFAF2D8D310
         public void m_785(){} // RVA: 0x7FFAF2D8D310
     }
 

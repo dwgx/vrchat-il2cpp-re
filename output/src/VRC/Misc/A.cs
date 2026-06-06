@@ -650,15 +650,14 @@ namespace VRC.Misc
         public void get_Current(){} // RVA: 0x7FFAF44189C0
         public void set_y(){} // RVA: 0x7FFAF4998D20
         public void set_Low64(){} // RVA: 0x7FFAF45C2320
+        public void get_Key(){} // RVA: 0x7FFAF4584690
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void set_Expires_89B760FCE7E4(){} // RVA: 0x7FFAF4A24DF0
         public void set_Expires_023668C379CA(){} // RVA: 0x7FFAF3A001D0
         public void set_timerMonitorIndex(){} // RVA: 0x7FFAF335C650
         public void System.Collections.IEnumerator.get_Current_7F592D4F5766(){} // RVA: 0x7FFAF2D907C0
         public void set_timerMonitorIndex_9A48CB55E0F6(){} // RVA: 0x7FFAF335C650
         public void set_Low64_1426E327C6C1(){} // RVA: 0x7FFAF45C2320
-        // ── Unresolved (hash) ──
-        public void m_0D1(){} // RVA: 0x7FFAF4584690
-        public void m_7AD(){} // RVA: 0x7FFAF2DBB0C0
     }
 
     /// <summary>Originally: ÎÎÌÎÏÌÏÌÌÍÌÌÍÍÌÌÎÏÏÏÎÌÍ</summary>
@@ -704,30 +703,30 @@ namespace VRC.Misc
         public object f_8CE;
 
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF4AE5C00
         public void Equals(){} // RVA: 0x7FFAF2DF3E80
-        public void get_Current(){} // RVA: 0x7FFAF4AE5C30
+        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void GetPersistentDataPath(){} // RVA: 0x7FFAF4417700
         public void get_Comparer(){} // RVA: 0x7FFAF30E74D0
+        public void MoveNext(){} // RVA: 0x7FFAF4AE5C00
         public void set_timerMonitorIndex(){} // RVA: 0x7FFAF335C650
         public void set_y(){} // RVA: 0x7FFAF4998D20
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x7FFAF2DBB0D0
         public void set_timerMonitorIndex_FC54B3275039(){} // RVA: 0x7FFAF335C650
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void set_Low64(){} // RVA: 0x7FFAF45C2320
         public void GetTransformChildCount_609445D97B38_7A37D7243A7D(){} // RVA: 0x7FFAF2DBB0D0
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void GetPersistentDataPath_01EB2F08ACB4(){} // RVA: 0x7FFAF4417700
         public void get_Data(){} // RVA: 0x7FFAF2DBB130
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void GetPersistentDataPath_8208731C0D30(){} // RVA: 0x7FFAF4A24DF0
+        public void get_Key(){} // RVA: 0x7FFAF4584690
         // ── Unresolved (hash) ──
+        public void m_6F6(){} // RVA: 0x7FFAF4AE5C00
+        public void m_97D(){} // RVA: 0x7FFAF4AE5C30
         public void m_4CA(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_038(){} // RVA: 0x7FFAF2DA8380
         public void m_AAF(){} // RVA: 0x7FFAF4AE5C30
-        public void m_B2E(){} // RVA: 0x7FFAF4AE5C00
-        public void m_063(){} // RVA: 0x7FFAF44189C0
-        public void m_050(){} // RVA: 0x7FFAF2DBB0C0
         public void m_B50(){} // RVA: 0x7FFAF2DBB0C0
-        public void m_AE0(){} // RVA: 0x7FFAF4584690
     }
 
     /// <summary>Originally: ÍÎÌÌÍÌÏÎÍÍÎÍÎÍÏÏÍÍÎÌÌÏÎ</summary>
@@ -927,6 +926,7 @@ namespace VRC.Misc
     public class ApplicationHandler_6270
     {
         // ── Methods ──
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void OpenURL(){} // RVA: 0x7FFAF40B2860
         public void OnDestroy(){} // RVA: 0x7FFAF40B2970
         public void OpenURL_3D907633C955(){} // RVA: 0x7FFAF40B2AA0
@@ -936,13 +936,13 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF40B4470
         public void OpenURL_3D907633C955_6B3E81FCD57E(){} // RVA: 0x7FFAF40B2AA0
-        // ── 32 unresolved (hash) ──
+        // ── 31 unresolved (hash) ──
         public void m_86F(){} // RVA: 0x7FFAF40B1BD0
         public void m_BD4(){} // RVA: 0x7FFAF40B1C40
-        public void m_3EC(){} // RVA: 0x7FFAF2D8D310
         public void m_8C5(){} // RVA: 0x7FFAF40B1EF0
         public void m_1F8(){} // RVA: 0x7FFAF40B1F40
-        // ... 27 more unresolved methods
+        public void m_A85(){} // RVA: 0x7FFAF40B2000
+        // ... 26 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÏÍÌÌÌÌÎÎÏÎÏÍÎÍÏÏÍÏÍÌ</summary>
@@ -950,18 +950,19 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFAF4418950
-        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void Equals(){} // RVA: 0x7FFAF2DF3E80
         public void GetPersistentDataPath(){} // RVA: 0x7FFAF4417700
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
         public void set_Low64(){} // RVA: 0x7FFAF45C2320
+        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
         public void System.Collections.IEnumerator.get_Current_7CA530D49254(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x7FFAF4418950
+        public void get_Key(){} // RVA: 0x7FFAF4584690
+        public void get_Current_794B881BFBFD(){} // RVA: 0x7FFAF2DA8380
         // ── Unresolved (hash) ──
+        public void m_51B(){} // RVA: 0x7FFAF2DA8380
         public void m_8D4(){} // RVA: 0x7FFAF2DA8380
-        public void m_C3E(){} // RVA: 0x7FFAF44189C0
         public void m_62C(){} // RVA: 0x7FFAF4584690
-        public void m_794(){} // RVA: 0x7FFAF2DA8380
-        public void m_382(){} // RVA: 0x7FFAF4584690
         public void m_DD7(){} // RVA: 0x7FFAF44189C0
     }
 
@@ -1013,18 +1014,18 @@ namespace VRC.Misc
         public void set_Low64(){} // RVA: 0x7FFAF45C2320
         public void set_timerMonitorIndex_AFD81822BC72(){} // RVA: 0x7FFAF335C650
         public void set_Low64_36454562F4E4(){} // RVA: 0x7FFAF45C2320
-        public void get_Current(){} // RVA: 0x7FFAF44189C0
         public void set_y(){} // RVA: 0x7FFAF4998D20
         public void GetPersistentDataPath(){} // RVA: 0x7FFAF4417700
         public void GetPersistentDataPath_05B953546427(){} // RVA: 0x7FFAF4417700
         public void set_Low64_9F62E4049AA1(){} // RVA: 0x7FFAF45C2320
         public void set_y_D24637F2C314(){} // RVA: 0x7FFAF4998D20
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void get_Key(){} // RVA: 0x7FFAF4584690
+        public void get_Current(){} // RVA: 0x7FFAF2DA8380
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void set_Seconds(){} // RVA: 0x7FFAF370BE60
         // ── Unresolved (hash) ──
-        public void m_6C5(){} // RVA: 0x7FFAF4584690
-        public void m_B40(){} // RVA: 0x7FFAF2DA8380
-        public void m_1A3(){} // RVA: 0x7FFAF2DBB0C0
+        public void m_010(){} // RVA: 0x7FFAF44189C0
     }
 
     /// <summary>Originally: ÏÍÌÌÌÎÏÏÍÍÎÌÍÌÎÏÌÎÎÍÎÌÏ</summary>
@@ -1094,10 +1095,10 @@ namespace VRC.Misc
         public void GetPersistentDataPath(){} // RVA: 0x7FFAF4417700
         public void System.Collections.IEnumerator.get_Current_B80B35BD5E4F(){} // RVA: 0x7FFAF2D907C0
         public void GetPersistentDataPath_85A9DED518BA(){} // RVA: 0x7FFAF4417700
-        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         public void Equals_A36513945346(){} // RVA: 0x7FFAF2DF3E80
+        public void get_Current(){} // RVA: 0x7FFAF2DA8380
         // ── Unresolved (hash) ──
-        public void m_CFF(){} // RVA: 0x7FFAF2DA8380
+        public void m_7E1(){} // RVA: 0x7FFAF2DA8380
     }
 
     /// <summary>Originally: ÏÌÍÏÏÍÌÏÏÏÎÎÏÎÏÎÎÍÎÏÏÍÏ</summary>
@@ -1204,10 +1205,10 @@ namespace VRC.Misc
     public class AssetPreloaderSibling_8F83
     {
         // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void Remove(){} // RVA: 0x7FFAF2ABDE40
         public void Initialize_C7F63F0380B4(){}
         // ── Unresolved (hash) ──
-        public void m_06D(){} // RVA: 0x7FFAF2ABCD60
         public void m_0C1(){}
         public void m_C7F(){}
     }
@@ -1215,9 +1216,9 @@ namespace VRC.Misc
     /// <summary>Originally: ÏÌÏÌÍÍÌÍÌÌÎÌÎÍÌÎÍÍÍÌÌÍÎ</summary>
     public class AtDerived_B059 : At
     {
-        // ── Unresolved (hash) ──
-        public void m_8A3(){} // RVA: 0x7FFAF2ABC770
-        public void m_F62(){} // RVA: 0x7FFAF2AD4B10
+        // ── Methods ──
+        public void get_Current(){} // RVA: 0x7FFAF2ABC770
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÎÏÌÌÍÍÍÎÍÍÏÍÎÎÍÌÎÎÍÏÎÍÍ</summary>

@@ -715,6 +715,7 @@ public class <>c
 {
     // ── Methods ──
     public void DontDestroyOnLoad(){} // RVA: 0x7FFAF3F174C0
+    public void Dispose(){} // RVA: 0x7FFAF2D8D310
     public void .ctor(){} // RVA: 0x7FFAF2D8D310
     public void Initialize(){} // RVA: 0x7FFAF3F17620
     public void CachedDelegate(){} // RVA: 0x7FFAF2D8D310
@@ -723,7 +724,6 @@ public class <>c
     // ── Unresolved (hash) ──
     public void m_DD0(){} // RVA: 0x7FFAF3F17460
     public void m_464(){} // RVA: 0x7FFAF2D8D310
-    public void m_1BF(){} // RVA: 0x7FFAF2D8D310
     public void m_470(){} // RVA: 0x7FFAF2D8D310
     public void m_811(){} // RVA: 0x7FFAF2D8D310
     public void m_891(){} // RVA: 0x7FFAF2D8D310

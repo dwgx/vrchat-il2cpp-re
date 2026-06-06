@@ -633,6 +633,7 @@ namespace VRC.Network.Core
         public void InvokeNetworkReadyHandlers(){} // RVA: 0x7FFAF304F970
         public void LogError(){} // RVA: 0x7FFAF304E2D0
         public void ProcessTransform(){} // RVA: 0x7FFAF2DF8050
+        public void Cleanup(){} // RVA: 0x7FFAF304FF30
         public void get_UseAlternateSSL(){} // RVA: 0x7FFAF304FF40
         public void MakeTransformHash(){} // RVA: 0x7FFAF304FF50
         public void DecodeNetworkReady(){} // RVA: 0x7FFAF2E92CB0
@@ -671,13 +672,13 @@ namespace VRC.Network.Core
         public void OnSpawn(){} // RVA: 0x7FFAF304E500
         public void get_completePromotionOnPress(){} // RVA: 0x7FFAF3058B10
         public void LogErrorFormat(){} // RVA: 0x7FFAF304E2E0
-        // ── 54 unresolved (hash) ──
+        // ── 53 unresolved (hash) ──
         public void m_667(){} // RVA: 0x7FFAF304D500
         public void m_436(){} // RVA: 0x7FFAF304F320
         public void m_96E(){} // RVA: 0x7FFAF304F480
         public void m_DE2(){} // RVA: 0x7FFAF304F630
         public void m_C23(){} // RVA: 0x7FFAF3052C70
-        // ... 49 more unresolved methods
+        // ... 48 more unresolved methods
     }
 
     /// <summary>Originally: ÎÎÎÏÌÏÏÍÎÍÎÎÏÎÎÎÌÍÎÌÏÌÏ</summary>
@@ -883,17 +884,18 @@ namespace VRC.Network.Core
         public void System.Collections.ICollection.get_IsSynchronized_CF4EC0126ED6(){} // RVA: 0x7FFAF2D8D320
         public void RetryConnection(){} // RVA: 0x7FFAF304F950
         public void ToString(){} // RVA: 0x7FFAF2E41BE0
+        public void Cleanup(){} // RVA: 0x7FFAF304FF30
         public void RemoteClear(){} // RVA: 0x7FFAF41F04A0
         public void get_Value_35AE01B1FBC1(){} // RVA: 0x7FFAF41F0AF0
         public void CanSerialize8Bit(){} // RVA: 0x7FFAF2E72850
         public void Value(){} // RVA: 0x7FFAF41F1570
-        // ── 30 unresolved (hash) ──
+        // ── 29 unresolved (hash) ──
         public void m_ADD(){} // RVA: 0x7FFAF41EC3E0
         public void m_F83(){} // RVA: 0x7FFAF41ECF00
         public void m_162(){} // RVA: 0x7FFAF41ED510
         public void m_02D(){} // RVA: 0x7FFAF41EDCC0
         public void m_274(){} // RVA: 0x7FFAF41E23E0
-        // ... 25 more unresolved methods
+        // ... 24 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÌÎÌÌÍÍÍÎÎÌÌÌÌÎÎÎÏÌÏÏÍ</summary>
@@ -971,6 +973,7 @@ namespace VRC.Network.Core
         public void OnCreatedRoom(){} // RVA: 0x7FFAF3DDBB20
         public void InitializeShaderBlocklists(){} // RVA: 0x7FFAF3DDBD60
         public void OnJoinedRoom(){} // RVA: 0x7FFAF3DDBFA0
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void get_focusController_EBFA8D8D7654(){} // RVA: 0x7FFAF34CC8C0
         public void Main(){} // RVA: 0x7FFAF3DDC230
         public void OnCustomAuthenticationResponse(){} // RVA: 0x7FFAF3DDC320
@@ -994,13 +997,13 @@ namespace VRC.Network.Core
         public void GetTransformLocalPosition(){} // RVA: 0x7FFAF2DAE4D0
         public void OnLobbyStatisticsUpdate(){} // RVA: 0x7FFAF3DDD8F0
         public void OnErrorInfo(){} // RVA: 0x7FFAF3DDD9F0
-        // ── 38 unresolved (hash) ──
+        // ── 37 unresolved (hash) ──
         public void m_862(){} // RVA: 0x7FFAF3DD1C20
         public void m_BDC(){} // RVA: 0x7FFAF3DD1F60
         public void m_4D9(){} // RVA: 0x7FFAF3DD1FA0
         public void m_36E(){} // RVA: 0x7FFAF3DD2320
         public void m_639(){} // RVA: 0x7FFAF3DD2390
-        // ... 33 more unresolved methods
+        // ... 32 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÍÌÌÎÎÏÎÏÍÍÍÍÏÌÍÌÍÍÎÎÌ</summary>
@@ -1343,13 +1346,16 @@ namespace VRC.Network.Core
     /// <summary>Originally: ÌÎÏÎÎÍÎÎÎÍÌÌÏÏÎÍÏÏÎÎÏÏÌ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_C533
     {
-        // ── 68 unresolved (hash) ──
-        public void m_49E(){} // RVA: 0x7FFAF2D33FA0
+        // ── Methods ──
+        public void OnTransformParentChanged(){} // RVA: 0x7FFAF2D33FA0 | overloaded x15
+        public void TryCopyTo(){} // RVA: 0x7FFAF2D33FA0 | overloaded x20
+        // ── 66 unresolved (hash) ──
         public void m_9EB(){} // RVA: 0x7FFAF2D33FA0
         public void m_8B5(){} // RVA: 0x7FFAF2D33FA0
         public void m_B85(){} // RVA: 0x7FFAF2D33FA0
         public void m_0BF(){} // RVA: 0x7FFAF2D33FA0
-        // ... 63 more unresolved methods
+        public void m_504(){} // RVA: 0x7FFAF2D33FA0
+        // ... 61 more unresolved methods
     }
 
 }

@@ -11,17 +11,17 @@
       "community_name_mapping.json": "64b09f7a697202ca47c1492367bbd47c7d8dc6bcef37ea9b172f27def2672d61",
       "structural_matches.json": "d079e725d67401d833d0e34a1a17f20ddea7ce6a61049d0be77c787d9671eb0b",
       "additional_names.json": "b9259666091918dc050fdf6fdafe2c91a3f889bf97f5f1c96a5aeb3e8f6889ff",
-      "cross_version_method_names.json": "9002b8f0e28aaddcb6b647e76baddf764df7736fdea560be517284db53221adf",
+      "cross_version_method_names.json": "2de761703eece79e8010cfadb055cf1b663be3d641ca1d00dd17a2475d9b1ead",
       "apr25_lifted_vocab.json": "75fc703dae66a414512249aa498d39cbc557a7c76e4b064b41a040a4d28534a3"
     },
-    "output_hash": "046cf5c1ba3fbc1d75aee23629c0aa11c62707f71ecf7dbb3a80e5c54a7f275c",
-    "timestamp": "2026-06-06 15:57:58",
+    "output_hash": "7d1f7772e430e657cfaaf9843f1357196927864daa06264a305689a4a47a73c8",
+    "timestamp": "2026-06-06 16:06:12",
     "completed": true
   },
   "stage_1": {
     "input_hashes": {
       "precise_dump.json": "fc933ac29de4915e3dd4d3984e1e2a61374816dab36c28370416cf26d67d54f2",
-      "unified_vocabulary.json": "046cf5c1ba3fbc1d75aee23629c0aa11c62707f71ecf7dbb3a80e5c54a7f275c",
+      "unified_vocabulary.json": "7d1f7772e430e657cfaaf9843f1357196927864daa06264a305689a4a47a73c8",
       "va_propagation_names.json": "cbde7403a8a921b97066afe975a1bfa0bc3b1752fc124ff63c93da668603619f",
       "callgraph_method_names.json": "9eb20febb55326e93fc813d981286be77b63af835a7d5b9ceb9fee141b3ea9a2",
       "string_api_method_names.json": "1c84b9c8d4ace90b3b17562a3bb9cd79ff386a3de23ca422d6a30a9b375d92d0",
@@ -29,39 +29,39 @@
       "llm_predicted_names.json": "7e17864d0285b99909b2e8d1e5a5cf55be119adb83f940f9ddc24590549a5ec9",
       "structural_renames.json": "1d534ee7eac3105c8cfd09fb77fe4a433d6f378f0992a8d86d0dfd08dff78ae7"
     },
-    "output_hash": "da8601c1f239c0c17234f89350222b86a3222b8a2a52a9ca6f8b4a4ec464b909",
-    "timestamp": "2026-06-06 15:58:15",
+    "output_hash": "2cfa4e77f798d05f7294a4bc140b6e8118fd4ab2bae7134c7d7c9d70571a30d9",
+    "timestamp": "2026-06-06 16:06:30",
     "completed": true
   },
   "stage_2": {
     "input_hashes": {
-      "deobfuscated_dump.json": "97fc2718e3b2c1c124c59790ada79e3e5b937f630f78f544c42fdbc0244ebc82",
-      "name_mapping.json": "e01202e5c91468ab918cd2316515ba2c1000653b6411fb58c2337d7ee894ca95",
+      "deobfuscated_dump.json": "cd2bbe1f368ed99ec03228572e937a41459bc030bbe89e8c6d764ec423436a4c",
+      "name_mapping.json": "73e7a99032f208a6f351184064ea45e5de53ca22649e8eeacd9d93384ed2299b",
       "structural_matches.json": "d079e725d67401d833d0e34a1a17f20ddea7ce6a61049d0be77c787d9671eb0b",
       "structural_renames.json": "1d534ee7eac3105c8cfd09fb77fe4a433d6f378f0992a8d86d0dfd08dff78ae7",
       "community_name_mapping.json": "64b09f7a697202ca47c1492367bbd47c7d8dc6bcef37ea9b172f27def2672d61",
       "additional_names.json": "b9259666091918dc050fdf6fdafe2c91a3f889bf97f5f1c96a5aeb3e8f6889ff",
       "photon_protocol_analysis.md": "170dbaffa5f33c4221f6f569539fa2ddaabba6cd265ea8c8bc684307fbe42f9e"
     },
-    "output_hash": "97fc2718e3b2c1c124c59790ada79e3e5b937f630f78f544c42fdbc0244ebc82",
-    "timestamp": "2026-06-06 15:58:18",
+    "output_hash": "cd2bbe1f368ed99ec03228572e937a41459bc030bbe89e8c6d764ec423436a4c",
+    "timestamp": "2026-06-06 16:06:32",
     "completed": true
   },
   "stage_3": {
     "input_hashes": {
-      "deobfuscated_dump.json": "97fc2718e3b2c1c124c59790ada79e3e5b937f630f78f544c42fdbc0244ebc82"
+      "deobfuscated_dump.json": "cd2bbe1f368ed99ec03228572e937a41459bc030bbe89e8c6d764ec423436a4c"
     },
     "output_hash": null,
-    "timestamp": "2026-06-06 15:58:20",
+    "timestamp": "2026-06-06 16:06:34",
     "completed": true
   },
   "stage_4": {
     "input_hashes": {
-      "deobfuscated_dump.json": "97fc2718e3b2c1c124c59790ada79e3e5b937f630f78f544c42fdbc0244ebc82",
-      "name_mapping.json": "e01202e5c91468ab918cd2316515ba2c1000653b6411fb58c2337d7ee894ca95"
+      "deobfuscated_dump.json": "cd2bbe1f368ed99ec03228572e937a41459bc030bbe89e8c6d764ec423436a4c",
+      "name_mapping.json": "73e7a99032f208a6f351184064ea45e5de53ca22649e8eeacd9d93384ed2299b"
     },
-    "output_hash": "d1331271b85cd8cf30f12c3244c81bde0aeb2ba127fe06e2dbdb6d40701cdea3",
-    "timestamp": "2026-06-06 15:58:21",
+    "output_hash": "b4c9e365aa4780c55a49ceca5eabab40b3ade74db7a30bd1f3e4d376fbee81c5",
+    "timestamp": "2026-06-06 16:06:35",
     "completed": true
   }
 }

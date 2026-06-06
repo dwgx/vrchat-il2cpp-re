@@ -8,19 +8,21 @@ namespace VRC.Misc
     /// <summary>Originally: ÌÍÎÍÎÏÌÏÌÎÍÏÏÍÌÍÍÍÌÌÍÏÏ</summary>
     public class Unknown4m_62FD : ÌÌÌÍÎÌÌÍÍÏÎÍÌÍÍÌÌÌÏÍÏÏÎ
     {
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
         // ── Unresolved (hash) ──
-        public void m_A1C(){} // RVA: 0x7FFAF2ABCD60
         public void m_5DF(){} // RVA: 0x7FFAF2AD4B10
-        public void m_241(){} // RVA: 0x7FFAF2AD4B10
         public void m_ED0(){} // RVA: 0x7FFAF2ABCD60
     }
 
     /// <summary>Originally: ÌÏÌÍÏÌÌÍÌÌÍÌÎÍÌÍÎÏÌÌÌÎÏ</summary>
     public class Unknown4m_C236 : ÏÍÏÏÏÌÍÍÎÏÍÎÍÌÎÌÎÍÏÏÎÏÏ
     {
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         // ── Unresolved (hash) ──
         public void m_C1F(){} // RVA: 0x7FFAF2ABCD60
-        public void m_49A(){} // RVA: 0x7FFAF2ABCD60
         public void m_C84(){} // RVA: 0x7FFAF2ABCD60
         public void m_74C(){} // RVA: 0x7FFAF2ABCD60
     }
@@ -29,21 +31,21 @@ namespace VRC.Misc
     public class Unknown6m_250A : ÎÍÍÎÍÍÎÏÌÌÎÌÎÎÏÌÎÏÌÏÌÎÍ
     {
         // ── Methods ──
+        public void Add_AC976329F234(){} // RVA: 0x7FFAF2AD4B10 | overloaded x2
         public void OnScroll(){} // RVA: 0x7FFAF2AE3510
         public void OnScroll_A685ED906A1A(){} // RVA: 0x7FFAF2AE3510
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         // ── Unresolved (hash) ──
-        public void m_AC9(){} // RVA: 0x7FFAF2AD4B10
         public void m_60D(){} // RVA: 0x7FFAF2ABCD60
-        public void m_4A7(){} // RVA: 0x7FFAF2ABCD60
     }
 
     /// <summary>Originally: ÌÌÌÌÌÏÏÌÎÎÍÍÏÎÏÎÍÎÌÎÏÎÍ</summary>
     public class Unknown6m_72F1 : ÌÏÎÏÍÏÌÎÍÏÏÏÍÏÌÎÏÍÍÌÎÏÍ
     {
         // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void .ctor(){} // RVA: 0x7FFAFBAE4990
         // ── Unresolved (hash) ──
-        public void m_223(){} // RVA: 0x7FFAF2ABCD60
         public void m_0CE(){} // RVA: 0x7FFAFBAE4120
         public void m_8F7(){} // RVA: 0x7FFAFBAE4230
         public void m_A10(){} // RVA: 0x7FFAFBAE44D0
@@ -54,13 +56,12 @@ namespace VRC.Misc
     public class Unknown6m_AE7B : ÎÏÌÎÌÏÏÎÎÍÎÍÎÏÎÌÏÌÏÎÌÍÏ
     {
         // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_Count(){} // RVA: 0x7FFAF2ABD840
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void get_Count_4BB75D229D27(){} // RVA: 0x7FFAF2ABD840
         public void get_IsReadOnly_69331AC95F9A(){} // RVA: 0x7FFAF2ABDBE0
         public void CreateCollection(){} // RVA: 0x7FFAF2ADF090
-        // ── Unresolved (hash) ──
-        public void m_113(){} // RVA: 0x7FFAF2ABCD60
     }
 
     /// <summary>Originally: ÌÍÍÏÌÎÌÏÏÏÍÎÏÍÏÌÎÏÎÎÌÎÏ</summary>

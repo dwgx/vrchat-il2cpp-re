@@ -408,8 +408,8 @@ namespace VRC.Network
     /// <summary>Originally: ÌÍÍÏÏÎÌÎÏÌÏÍÏÍÌÎÎÏÎÌÍÍÎ</summary>
     public class VRCNetworkBehaviourSibling_BF5Sibling_1AED
     {
-        // ── Unresolved (hash) ──
-        public void m_77C(){} // RVA: 0x7FFAF2AD4B10
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7FFAF2AD4B10
     }
 
     /// <summary>Originally: ÌÍÍÏÏÎÌÎÏÌÏÍÏÍÌÎÎÏÎÌÍÍÎ</summary>

@@ -43,9 +43,7 @@ namespace VRC.UI
         // ── Methods ──
         public void Contains(){} // RVA: 0x7FFAF3799980
         public void CopyTo(){} // RVA: 0x7FFAF3799B20
-        public void Clear(){} // RVA: 0x7FFAF3799C30
-        public void Add(){} // RVA: 0x7FFAF3799C40
-        public void Remove(){} // RVA: 0x7FFAF3799D80
+        public void Remove(){} // RVA: 0x7FFAF3799C30
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x7FFAF2E72850
         public void .cctor(){} // RVA: 0x7FFAF3799E40
         public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7FFAF379B910
@@ -65,6 +63,7 @@ namespace VRC.UI
         public void get_IgnoreCase(){} // RVA: 0x7FFAF2E7B9D0
         public void System.Collections.ICollection.get_IsSynchronized_6ACDDA9332D3(){} // RVA: 0x7FFAF2D8D320
         public void System.Collections.ICollection.get_IsSynchronized_9627EE7C666C(){} // RVA: 0x7FFAF2D8D320
+        public void Clear(){} // RVA: 0x7FFAF3799C30
         public void GetMaterial_DB4BF841BAEF(){} // RVA: 0x7FFAF379D8F0
         public void Awake(){} // RVA: 0x7FFAF379DA80
         public void OnDestroy(){} // RVA: 0x7FFAF2E6C240
@@ -79,6 +78,7 @@ namespace VRC.UI
         public void RandomRangeInt_C37C0AED7C47(){} // RVA: 0x7FFAF379F000
         public void RandomRangeInt_E2B74AD23CFE(){} // RVA: 0x7FFAF379F1D0
         public void RandomRangeInt_D71D8DE5755D(){} // RVA: 0x7FFAF379F200
+        public void Add(){} // RVA: 0x7FFAF3799C40
         public void RandomRangeInt_E7F5BA373E72(){} // RVA: 0x7FFAF379F1D0
         public void get_Count(){} // RVA: 0x7FFAF379F5B0
         public void ProcessMaterial(){} // RVA: 0x7FFAF379FD50
@@ -87,11 +87,11 @@ namespace VRC.UI
         public void GetMaterial_AA38A08754D7(){} // RVA: 0x7FFAF37A0840
         public void set_isRigid(){} // RVA: 0x7FFAF2E6C240
         // ── 37 unresolved (hash) ──
+        public void m_DDD(){} // RVA: 0x7FFAF3799C40
+        public void m_DA8(){} // RVA: 0x7FFAF3799D80
         public void m_E2A(){} // RVA: 0x7FFAF3799E10
         public void m_A1F(){} // RVA: 0x7FFAF3799E10
         public void m_FEF(){} // RVA: 0x7FFAF379B7D0
-        public void m_BFC(){} // RVA: 0x7FFAF3799E10
-        public void m_E7D(){} // RVA: 0x7FFAF379BE90
         // ... 32 more unresolved methods
     }
 

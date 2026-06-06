@@ -30,6 +30,7 @@ namespace VRC.Internal.Enumerator
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x7FFAF2AD4A50
         public void get_Current(){} // RVA: 0x7FFAF2AD4B10
+        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
         public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7FFAF2ABDBE0
         public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF2AD4A50
@@ -44,8 +45,6 @@ namespace VRC.Internal.Enumerator
         public void ToString_4E7A80DC21BC(){} // RVA: 0x7FFAF2ABCD60
         public void ToString_C58A70ACF129(){} // RVA: 0x7FFAF2ABDBE0
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
-        // ── Unresolved (hash) ──
-        public void m_FAC(){} // RVA: 0x7FFAF2ABCD60
     }
 
     /// <summary>Originally: ÏÎÌÍÍÎÌÍÏÌÎÏÍÍÏÎÏÏÏÎÎÌÌ</summary>

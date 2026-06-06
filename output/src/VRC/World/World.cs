@@ -99,6 +99,7 @@ namespace VRC.World
         public object _d9F3;
 
         // ── Methods ──
+        public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
         public void OnHandFocusLost(){} // RVA: 0x7FFAF2F6EC00
         public void OnDestroy(){} // RVA: 0x7FFAF2F6F550
         public void Awake(){} // RVA: 0x7FFAF3D9B700
@@ -111,7 +112,6 @@ namespace VRC.World
         // ── Unresolved (hash) ──
         public void m_AFD(){} // RVA: 0x7FFAF3D9B470
         public void m_6F5(){} // RVA: 0x7FFAF3D9B570
-        public void m_DC3(){} // RVA: 0x7FFAF2DBB0C0
         public void m_703(){} // RVA: 0x7FFAF3D9B600
         public void m_FC3(){} // RVA: 0x7FFAF3D9B820
     }
@@ -193,6 +193,7 @@ namespace VRC.World
         public void Awake(){} // RVA: 0x7FFAF41B2E30
         public void Start(){} // RVA: 0x7FFAF41B3390
         public void Update(){} // RVA: 0x7FFAF41B34D0
+        public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void UseStation(){} // RVA: 0x7FFAF41B42C0
         public void DelegateConstructor(){} // RVA: 0x7FFAF41B4430
         public void SetLocalRotation(){} // RVA: 0x7FFAF41B45A0
@@ -214,13 +215,13 @@ namespace VRC.World
         public void .cctor(){} // RVA: 0x7FFAF41BBA30
         public void RetryConnection(){} // RVA: 0x7FFAF304F950
         public void SetLocalRotation_6290FAEC7B4F(){} // RVA: 0x7FFAF41BBC40
-        // ── 19 unresolved (hash) ──
+        // ── 18 unresolved (hash) ──
         public void m_695(){} // RVA: 0x7FFAF41B2250
         public void m_94E(){} // RVA: 0x7FFAF41B2470
         public void m_EEC(){} // RVA: 0x7FFAF41B2CA0
         public void m_01F(){} // RVA: 0x7FFAF41B2CF0
         public void m_780(){} // RVA: 0x7FFAF41B2D10
-        // ... 14 more unresolved methods
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ</summary>
