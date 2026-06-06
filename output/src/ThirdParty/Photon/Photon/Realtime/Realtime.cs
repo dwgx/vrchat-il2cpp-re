@@ -42,9 +42,8 @@ namespace ThirdParty.Photon.Photon.Realtime
         public void GetCachedPtr(){} // RVA: 0x7FFAF453BB70
         public void .cctor(){} // RVA: 0x7FFAF453BC60
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        // ── Unresolved (hash) ──
-        public void m_505(){} // RVA: 0x7FFAF453BD30
-        public void m_FBA(){} // RVA: 0x7FFAF453BDE0
+        public void Preserve(){} // RVA: 0x7FFAF453BD30
+        public void Preserve_FBAFD50B4AE8(){} // RVA: 0x7FFAF453BDE0
     }
 
     public class ConnectionHandler

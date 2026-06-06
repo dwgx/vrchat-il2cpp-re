@@ -99,6 +99,7 @@ namespace VRC.Player
         // ── Methods ──
         public void OnPlayerLeft(){} // RVA: 0x7FFAF3209AC0
         public void InitializeDictionaryStorage_34E52B44F67E(){} // RVA: 0x7FFAF320C6E0 | overloaded x2
+        public void InitializeDictionaryStorage_FD87645A1B0E(){} // RVA: 0x7FFAF320ABA0
         public void CopyEntriesToArray(){} // RVA: 0x7FFAF320AED0
         public void InitializeDictionaryStorage_3A71A136B93B(){} // RVA: 0x7FFAF320B180
         public void CopyEntriesToArray_1AF9AF719FE1(){} // RVA: 0x7FFAF320B2A0
@@ -106,16 +107,15 @@ namespace VRC.Player
         public void ContainsObjectKey(){} // RVA: 0x7FFAF316D7E0
         public void .ctor(){} // RVA: 0x7FFAF320B510
         public void Initialize(){} // RVA: 0x7FFAF320BA20
+        public void InitializeDictionaryStorage_CA3556EE2A9E(){} // RVA: 0x7FFAF320BB20
+        public void InitializeDictionaryStorage_C469C0ECDF6C(){} // RVA: 0x7FFAF320BB30
         public void InitializeDictionaryStorage_53E7718D557F(){} // RVA: 0x7FFAF320BEA0
         public void InitializeDictionaryStorage_2C9D21636C05(){} // RVA: 0x7FFAF320C2E0
         // ── Unresolved (hash) ──
         public void m_8B0(){} // RVA: 0x7FFAF3209B50
         public void m_B02(){} // RVA: 0x7FFAF320A900
-        public void m_FD8(){} // RVA: 0x7FFAF320ABA0
         public void m_B32(){} // RVA: 0x7FFAF320B400
         public void m_BE9(){} // RVA: 0x7FFAF316D7E0
-        public void m_CA3(){} // RVA: 0x7FFAF320BB20
-        public void m_C46(){} // RVA: 0x7FFAF320BB30
     }
 
     /// <summary>Originally: ÌÏÌÏÍÎÎÍÌÏÎÍÏÎÌÌÌÌÎÎÏÍÍ</summary>

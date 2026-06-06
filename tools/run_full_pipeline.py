@@ -574,8 +574,10 @@ def stage0_gather_vocabulary():
     }
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    with open(UNIFIED_VOCAB_PATH, 'w', encoding='utf-8') as f:
+    tmp_vocab = UNIFIED_VOCAB_PATH.with_suffix('.tmp')
+    with open(tmp_vocab, 'w', encoding='utf-8') as f:
         json.dump(unified_data, f, indent=2, ensure_ascii=False)
+    tmp_vocab.replace(UNIFIED_VOCAB_PATH)
 
     print(f'\n  --- Stage 0 Summary ---')
     print(f'  Sources loaded:         {len(sources_loaded)}')

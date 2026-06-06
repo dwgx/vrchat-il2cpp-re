@@ -59,7 +59,7 @@ namespace VRC.Misc
         public void RaiseCancellation(){} // RVA: 0x7FFAF48C34E0
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF3198B80
         public void .ctor(){} // RVA: 0x7FFAF48C3740 | overloaded x2
-        public void Initialize(){} // RVA: 0x7FFAF48C3750
+        public void SetCacheWritingBehavior(){} // RVA: 0x7FFAF48C3750
         public void OnCollisionExit(){} // RVA: 0x7FFAF48C3890
         public void StartCoroutine_Auto(){} // RVA: 0x7FFAF48C39D0
         // ── Unresolved (hash) ──
@@ -797,12 +797,12 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8AB890
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAFB8ABED0
+        public void LocalTouchEventCallback(){} // RVA: 0x7FFAFB8AC090
         public void MarshalManagedToNative(){} // RVA: 0x7FFAFB8AC250
         // ── Unresolved (hash) ──
         public void m_371(){} // RVA: 0x7FFAFB8ABA50
         public void m_BE6(){} // RVA: 0x7FFAFB8ABC10
         public void m_2CD(){} // RVA: 0x7FFAFB8ABD70
-        public void m_2D2(){} // RVA: 0x7FFAFB8AC090
         public void m_46C(){} // RVA: 0x7FFAFB8AC410
         public void m_61D(){} // RVA: 0x7FFAFB8AC570
     }
@@ -839,12 +839,12 @@ namespace VRC.Misc
         public void Awake(){} // RVA: 0x7FFAF3AB42B0
         public void OnDestroy(){} // RVA: 0x7FFAF3AB42C0
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF3AB4A40
+        public void Instance(){} // RVA: 0x7FFAF3AB4AF0
+        public void IsInitialized(){} // RVA: 0x7FFAF3AB4BA0
         public void .ctor(){} // RVA: 0x7FFAF3AB5260
         // ── Unresolved (hash) ──
         public void m_5A4(){} // RVA: 0x7FFAF3AB42D0
         public void m_2CD(){} // RVA: 0x7FFAF3AB4380
-        public void m_55F(){} // RVA: 0x7FFAF3AB4AF0
-        public void m_44D(){} // RVA: 0x7FFAF3AB4BA0
     }
 
     /// <summary>Originally: ÏÌÌÏÍÌÌÎÏÍÎÏÏÎÏÌÌÌÌÎÎÏÏ</summary>
@@ -1247,13 +1247,13 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFBD6FBC0
         public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF2D33FA0
+        public void Activity(){} // RVA: 0x7FFAFBD6FD20
+        public void Touchpad(){} // RVA: 0x7FFAFBD6FE30
         public void OnCollisionExit(){} // RVA: 0x7FFAFBD70000
         public void StartCoroutine_Auto(){} // RVA: 0x7FFAFBD700B0
         // ── Unresolved (hash) ──
         public void m_AF5(){} // RVA: 0x7FFAFBD6FC70
         public void m_3EB(){} // RVA: 0x7FFAFBD6FC70
-        public void m_D35(){} // RVA: 0x7FFAFBD6FD20
-        public void m_03E(){} // RVA: 0x7FFAFBD6FE30
         public void m_6F2(){} // RVA: 0x7FFAFBD6FF40
         public void m_FE4(){} // RVA: 0x7FFAFBD6FFA0
     }

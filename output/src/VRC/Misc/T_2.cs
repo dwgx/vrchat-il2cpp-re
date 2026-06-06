@@ -45,11 +45,11 @@ namespace VRC.Misc
     public class TimeHandler_167B
     {
         // ── Methods ──
+        public void AdvanceTimedTransitionCountdown(){} // RVA: 0x7FFAFBBC9B00
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAFBBCB710
         public void GetTimeAsDouble(){} // RVA: 0x7FFAFBBCBE20
         // ── Unresolved (hash) ──
-        public void m_797(){} // RVA: 0x7FFAFBBC9B00
         public void m_ECB(){} // RVA: 0x7FFAFBBC9F20
         public void m_09E(){} // RVA: 0x7FFAFBBCA370
         public void m_7E5(){} // RVA: 0x7FFAFBBCA3B0
@@ -80,15 +80,14 @@ namespace VRC.Misc
     public class TimeHandler_200D
     {
         // ── Methods ──
+        public void CreateTimeEntryStorage(){} // RVA: 0x7FFAF3A8EB80
         public void SwapEntries(){} // RVA: 0x7FFAF3A8EC60
+        public void ResizeAndRehashTimeEntries(){} // RVA: 0x7FFAF3A8ED40
+        public void ResizeAndRehashTimeEntries_71798B4370B6(){} // RVA: 0x7FFAF3A8EE20
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3A8EF00
         public void GetTime(){} // RVA: 0x7FFAF3A8EFE0
         public void GetTime_8DB186753831(){} // RVA: 0x7FFAF3A8F0C0
-        // ── Unresolved (hash) ──
-        public void m_C35(){} // RVA: 0x7FFAF3A8EB80
-        public void m_4E6(){} // RVA: 0x7FFAF3A8ED40
-        public void m_717(){} // RVA: 0x7FFAF3A8EE20
     }
 
     /// <summary>Originally: ÏÌÏÏÍÏÎÌÏÌÍÏÌÎÌÏÌÌÍÍÌÌÍ</summary>
@@ -115,22 +114,22 @@ namespace VRC.Misc
     public class TimeHandler_2D6E
     {
         // ── Methods ──
+        public void TryStoreRealtimeSample(){} // RVA: 0x7FFAF45CBE50
+        public void ConvertNullableRealtimeSample(){} // RVA: 0x7FFAF45CC020
+        public void TryStoreRealtimeSample_9B7B43420BAF(){} // RVA: 0x7FFAF45CC170
         public void GetRealtimeSinceStartup(){} // RVA: 0x7FFAF45CD240
         public void GetResult(){} // RVA: 0x7FFAF45CD490
         public void OnDestroy(){} // RVA: 0x7FFAF45CD710
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF45CD9A0
+        public void ReadNullableRealtimeSample(){} // RVA: 0x7FFAF45CDB70
         public void Start(){} // RVA: 0x7FFAF45CEC40
         // ── Unresolved (hash) ──
         public void m_CCE(){} // RVA: 0x7FFAF45CBBF0
         public void m_5B9(){} // RVA: 0x7FFAF45CBC00
         public void m_4CE(){} // RVA: 0x7FFAF45CBC10
-        public void m_6FA(){} // RVA: 0x7FFAF45CBE50
-        public void m_8F6(){} // RVA: 0x7FFAF45CC020
-        public void m_9B7(){} // RVA: 0x7FFAF45CC170
         public void m_6C9(){} // RVA: 0x7FFAF45CD990
         public void m_3D3(){} // RVA: 0x7FFAF45C67A0
-        public void m_705(){} // RVA: 0x7FFAF45CDB70
     }
 
     /// <summary>Originally: ÎÌÎÌÎÎÍÌÏÏÌÏÏÍÍÍÏÎÏÍÎÎÍ</summary>
@@ -139,7 +138,9 @@ namespace VRC.Misc
         // ── Methods ──
         public void GetRealtimeSinceStartup(){} // RVA: 0x7FFAF3EE9530
         public void OnDestroy(){} // RVA: 0x7FFAF3EE95A0
+        public void ContainsRealtimeSample(){} // RVA: 0x7FFAF3EE9D10
         public void OnDisable(){} // RVA: 0x7FFAF3EE9E80
+        public void DoesNotContainRealtimeSample(){} // RVA: 0x7FFAF3EE9E90
         public void OnPreRender(){} // RVA: 0x7FFAF3EEA830
         public void .ctor(){} // RVA: 0x7FFAF3EEA8F0
         public void Initialize(){} // RVA: 0x7FFAF3EEA970
@@ -147,13 +148,13 @@ namespace VRC.Misc
         public void GetRealtimeSinceStartup_789DA1CE01CD(){} // RVA: 0x7FFAF3EEB0C0
         public void .cctor(){} // RVA: 0x7FFAF3EEBE60
         public void Awake(){} // RVA: 0x7FFAF3EEC3F0
-        // ── 13 unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_403(){} // RVA: 0x7FFAF3EE93C0
         public void m_262(){} // RVA: 0x7FFAF3EE96C0
         public void m_8C5(){} // RVA: 0x7FFAF3EE9840
-        public void m_064(){} // RVA: 0x7FFAF3EE9D10
-        public void m_756(){} // RVA: 0x7FFAF3EE9E90
-        // ... 8 more unresolved methods
+        public void m_83A(){} // RVA: 0x7FFAF3EEA800
+        public void m_9B8(){} // RVA: 0x7FFAF3EEAE30
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÏÌÌÏÎÍÎÏÌÌÍÎÎÏÏÍÎÌÎÏ</summary>
@@ -182,12 +183,12 @@ namespace VRC.Misc
         public void GetRealtimeSinceStartup(){} // RVA: 0x7FFAF3A44DC0
         public void GetRealtimeSinceStartup_B64AA2C6C7A2(){} // RVA: 0x7FFAF3A44E60
         public void GetRealtimeSinceStartup_7670EC6467C6(){} // RVA: 0x7FFAF3A44F00
+        public void FindBestRealtimeSamplePair(){} // RVA: 0x7FFAF3A44FA0
         // ── Unresolved (hash) ──
         public void m_87F(){} // RVA: 0x7FFAF3A44BA0
         public void m_662(){} // RVA: 0x7FFAF3A44C00
         public void m_620(){} // RVA: 0x7FFAF3A44C60
         public void m_362(){} // RVA: 0x7FFAF3A44D00
-        public void m_BDF(){} // RVA: 0x7FFAF3A44FA0
     }
 
     /// <summary>Originally: ÎÏÏÍÎÏÌÏÎÎÎÏÎÏÍÌÍÌÎÌÍÎÎ</summary>
@@ -209,12 +210,12 @@ namespace VRC.Misc
     public class TimeHandler_8213
     {
         // ── Methods ──
+        public void EqualsUnscaledDeltaTimeValue(){} // RVA: 0x7FFAF42BC060
         public void GetUnscaledDeltaTime(){} // RVA: 0x7FFAF42BCD20
         public void GetUnscaledDeltaTime_408FE72D8C0F(){} // RVA: 0x7FFAF42BD160
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF42BD5A0
         // ── Unresolved (hash) ──
-        public void m_CDC(){} // RVA: 0x7FFAF42BC060
         public void m_34C(){} // RVA: 0x7FFAF42BC4A0
         public void m_464(){} // RVA: 0x7FFAF42BC8E0
         public void m_63D(){} // RVA: 0x7FFAF42BD600
@@ -313,12 +314,12 @@ namespace VRC.Misc
         public void GetRealtimeSinceStartup(){} // RVA: 0x7FFAF3A53450
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3A53630
+        public void ResolveValueField(){} // RVA: 0x7FFAF3A539F0
         public void GetRealtimeSinceStartup_0B8ECC56406F(){} // RVA: 0x7FFAF3A53BD0
         // ── Unresolved (hash) ──
         public void m_6AE(){} // RVA: 0x7FFAF30D42C0
         public void m_889(){} // RVA: 0x7FFAF30D42C0
         public void m_79F(){} // RVA: 0x7FFAF3A53810
-        public void m_0D4(){} // RVA: 0x7FFAF3A539F0
         public void m_98F(){} // RVA: 0x7FFAF30D42C0
         public void m_400(){} // RVA: 0x7FFAF30D42C0
         public void m_794(){} // RVA: 0x7FFAF3A53DB0
@@ -358,13 +359,13 @@ namespace VRC.Misc
         // ── Methods ──
         public void GetRealtimeSinceStartup(){} // RVA: 0x7FFAF3A50540
         public void SetResizeThresholds(){} // RVA: 0x7FFAF3A50600
+        public void ResizeSparseHashTable(){} // RVA: 0x7FFAF3A50780
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF3A50840
+        public void ResizeSparseHashTable_D010719F35AF(){} // RVA: 0x7FFAF3A50900
         public void AdvancePastEmptyAndDeleted(){} // RVA: 0x7FFAF3A509C0
         // ── Unresolved (hash) ──
         public void m_2A3(){} // RVA: 0x7FFAF3A506C0
-        public void m_3E8(){} // RVA: 0x7FFAF3A50780
-        public void m_D01(){} // RVA: 0x7FFAF3A50900
         public void m_756(){} // RVA: 0x7FFAF3A50A80
         public void m_1C3(){} // RVA: 0x7FFAF3A50B40
     }

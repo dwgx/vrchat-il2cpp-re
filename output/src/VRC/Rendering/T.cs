@@ -170,7 +170,9 @@ namespace VRC.Rendering
         public void InitializeDefaults(){} // RVA: 0x7FFAF3BC97C0
         public void OnDestroy(){} // RVA: 0x7FFAF3BCA6A0
         public void GetMaterial(){} // RVA: 0x7FFAF3B95CF0
+        public void RestoreRigidbodySettingsOverTime(){} // RVA: 0x7FFAF3BCA6B0
         public void InitializeHumanoidMappings(){} // RVA: 0x7FFAF3BCAA50
+        public void CheckAnimatorIsHuman(){} // RVA: 0x7FFAF3BCADD0
         public void RestoreTransformStateFromSnapshot(){} // RVA: 0x7FFAF3BCB760
         public void RestoreTransformStateFromSnapshot_69F987E94DF4(){} // RVA: 0x7FFAF3BCB8E0
         public void RestoreTransformStateFromSnapshot_5FE58BFD7580(){} // RVA: 0x7FFAF3BCB980
@@ -178,6 +180,7 @@ namespace VRC.Rendering
         public void ApplyTransformPoseAtIndex(){} // RVA: 0x7FFAF3BCC380
         public void ApplyTransformPoseAtIndex_56A7FDBCC162(){} // RVA: 0x7FFAF3BCC390
         public void ApplyTransformPoseAtIndex_300BA4B1B5CB(){} // RVA: 0x7FFAF3BCC4A0
+        public void CacheColliderSharedMaterials(){} // RVA: 0x7FFAF3BCC900
         public void ValidateTargetTransform(){} // RVA: 0x7FFAF3BCD000
         public void ResetLocalTransform(){} // RVA: 0x7FFAF3BCD290
         public void Awake(){} // RVA: 0x7FFAF3BCD330
@@ -195,13 +198,13 @@ namespace VRC.Rendering
         public void UpdateTransformPose_852E3599EAE7(){} // RVA: 0x7FFAF3BD1EA0
         public void .ctor(){} // RVA: 0x7FFAF3BD37B0
         public void Initialize(){} // RVA: 0x7FFAF3BD3930
-        // ── 32 unresolved (hash) ──
+        // ── 29 unresolved (hash) ──
         public void m_423(){} // RVA: 0x7FFAF2F25080
-        public void m_471(){} // RVA: 0x7FFAF3BCA6B0
-        public void m_FE6(){} // RVA: 0x7FFAF3BCADD0
         public void m_C39(){} // RVA: 0x7FFAF3BCB9D0
         public void m_C4F(){} // RVA: 0x7FFAF304F730
-        // ... 27 more unresolved methods
+        public void m_B4F(){} // RVA: 0x7FFAF3BCC440
+        public void m_EFD(){} // RVA: 0x7FFAF3BCC5D0
+        // ... 24 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÍÌÎÎÏÌÍÌÏÍÌÏÌÍÍÎÎÎÌÎÎ</summary>
@@ -348,20 +351,20 @@ namespace VRC.Rendering
     public class TransformShaderHandler_4F98
     {
         // ── Methods ──
+        public void GetSharedMaterial(){} // RVA: 0x7FFAF35F7080
         public void GetTime(){} // RVA: 0x7FFAF35F7180
         public void GetTime_78A06AB061BF(){} // RVA: 0x7FFAF35F7280
-        public void GetSharedMaterial(){} // RVA: 0x7FFAF35F8630
+        public void GetSharedMaterial_7FE44764F299(){} // RVA: 0x7FFAF35F8630
         public void .ctor(){} // RVA: 0x7FFAF35F8B40
         public void Initialize(){} // RVA: 0x7FFAF35F8BD0
         public void GetComponent(){} // RVA: 0x7FFAF35F8F70
         public void CreateTransformShaderContext(){} // RVA: 0x7FFAF35FA000
+        public void GetComponent_1EABE99B1D96(){} // RVA: 0x7FFAF35FA7E0
         // ── Unresolved (hash) ──
-        public void m_83F(){} // RVA: 0x7FFAF35F7080
         public void m_9DD(){} // RVA: 0x7FFAF35F7A50
         public void m_AE9(){} // RVA: 0x7FFAF35F8040
         public void m_8FF(){} // RVA: 0x7FFAF35F8CD0
         public void m_785(){} // RVA: 0x7FFAF35F9F00
-        public void m_1EA(){} // RVA: 0x7FFAF35FA7E0
         public void m_59B(){} // RVA: 0x7FFAF35FA8E0
         public void m_A8F(){} // RVA: 0x7FFAF35FAD30
     }

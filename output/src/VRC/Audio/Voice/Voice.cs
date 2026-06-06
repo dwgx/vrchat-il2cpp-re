@@ -23,6 +23,7 @@ namespace VRC.Audio.Voice
     public class VoicePriorityManager
     {
         // ── Methods ──
+        public void ResolveTypeName(){} // RVA: 0x7FFAF3A96900
         public void .cctor(){} // RVA: 0x7FFAF3A97090
         public void GetExternFunctionParameterCount(){} // RVA: 0x7FFAF3A97170
         public void GetComponentsInChildren(){} // RVA: 0x7FFAF3A97AD0
@@ -34,15 +35,19 @@ namespace VRC.Audio.Voice
         public void Initialize(){} // RVA: 0x7FFAF3A98200
         public void GetMethodsByName(){} // RVA: 0x7FFAF3A982E0
         public void GetMethodsByName_96EAD25C2F2E(){} // RVA: 0x7FFAF3A98360
+        public void GetProperties(){} // RVA: 0x7FFAF3A98510
+        public void GetFields(){} // RVA: 0x7FFAF3A986F0
         public void GetComponentsInParent(){} // RVA: 0x7FFAF3A98830
         public void .ctor(){} // RVA: 0x7FFAF3A98970
-        // ── 11 unresolved (hash) ──
-        public void m_5C4(){} // RVA: 0x7FFAF3A96900
+        public void GetFieldsByName(){} // RVA: 0x7FFAF3A98B50
+        public void GetFieldsByName_895EBA02F486(){} // RVA: 0x7FFAF3A98CD0
+        // ── Unresolved (hash) ──
         public void m_7CB(){} // RVA: 0x7FFAF2DA8380
         public void m_4F4(){} // RVA: 0x7FFAF2D8D320
         public void m_861(){} // RVA: 0x7FFAF3A97180
         public void m_A1D(){} // RVA: 0x7FFAF3A971D0
-        // ... 6 more unresolved methods
+        public void m_ADD(){} // RVA: 0x7FFAF3A97380
+        public void m_F01(){} // RVA: 0x7FFAF2DA8380
     }
 
 }

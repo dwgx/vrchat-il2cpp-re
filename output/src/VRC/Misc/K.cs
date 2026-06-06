@@ -123,13 +123,13 @@ namespace VRC.Misc
         public void set_keepWaiting(){} // RVA: 0x7FFAF4427DE0
         public void get_keepWaiting(){} // RVA: 0x7FFAF4427EA0
         public void GetComponentTransform(){} // RVA: 0x7FFAF2E48C00
+        public void GetComponentTransform_B5E4C0F2A35C(){} // RVA: 0x7FFAF4427EC0
         public void .ctor(){} // RVA: 0x7FFAF4427F20
         public void Initialize(){} // RVA: 0x7FFAF2D8EE30
         // ── Unresolved (hash) ──
         public void m_4A1(){} // RVA: 0x7FFAF2DA8380
         public void m_FB7(){} // RVA: 0x7FFAF2E08740
         public void m_F06(){} // RVA: 0x7FFAF2E08730
-        public void m_B5E(){} // RVA: 0x7FFAF4427EC0
         public void m_1D0(){} // RVA: 0x7FFAF2DA8380
         public void m_326(){} // RVA: 0x7FFAF2E48C10
         public void m_FB9(){} // RVA: 0x7FFAF4428120

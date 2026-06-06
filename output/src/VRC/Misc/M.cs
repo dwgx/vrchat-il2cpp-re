@@ -183,10 +183,10 @@ namespace VRC.Misc
         public void Initialize(){} // RVA: 0x7FFAFBDBF590
         public void Awake_7FD28589FE1E(){} // RVA: 0x7FFAFBDBF5F0
         public void OnDisable_0A17D448B2DB(){} // RVA: 0x7FFAFBDBF590
+        public void MoveNext(){} // RVA: 0x7FFAFBDBF590
         // ── Unresolved (hash) ──
         public void m_3CB(){} // RVA: 0x7FFAFBDBF6B0
         public void m_8ED(){} // RVA: 0x7FFAFBDBF590
-        public void m_2DE(){} // RVA: 0x7FFAFBDBF590
         public void m_A3F(){} // RVA: 0x7FFAFBDBF590
         public void m_6DB(){} // RVA: 0x7FFAFBDBF710
     }

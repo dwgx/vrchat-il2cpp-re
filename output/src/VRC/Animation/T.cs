@@ -12,6 +12,7 @@ namespace VRC.Animation
         public void GetLocalPosition(){} // RVA: 0x7FFAF4458650
         public void GetLocalPosition_B1BE8CE6A645(){} // RVA: 0x7FFAF4458650
         public void SetLocalPosition(){} // RVA: 0x7FFAF4458790
+        public void GetItem(){} // RVA: 0x7FFAF4458AD0
         public void get_Item(){} // RVA: 0x7FFAF4458B00
         public void get_Item_C769D590E8CA(){} // RVA: 0x7FFAF4458E60
         public void GetLocalPosition_72BF126D1872(){} // RVA: 0x7FFAF4458650
@@ -21,16 +22,18 @@ namespace VRC.Animation
         public void Start(){} // RVA: 0x7FFAF4459610
         public void get_Item_E628F204F74A(){} // RVA: 0x7FFAF4459760
         public void GetLocalPosition_FD020F77F913(){} // RVA: 0x7FFAF4458650
-        public void FindIndex(){} // RVA: 0x7FFAF445A8C0
+        public void GetPackedIndex(){} // RVA: 0x7FFAF4458610
+        public void FindIndex(){} // RVA: 0x7FFAF445A2F0
+        public void FindIndex_99E73B913343(){} // RVA: 0x7FFAF445A8C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF445ABC0
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_F54(){} // RVA: 0x7FFAF4458610
         public void m_87B(){} // RVA: 0x7FFAF4458690
         public void m_358(){} // RVA: 0x7FFAF4458A90
-        public void m_514(){} // RVA: 0x7FFAF4458AD0
         public void m_87F(){} // RVA: 0x7FFAF4458690
-        // ... 10 more unresolved methods
+        public void m_27A(){} // RVA: 0x7FFAF4458F00
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÌÌÎÏÏÌÍÏÎÎÍÌÏÌÎÍÏÌÌÎÍ</summary>
@@ -61,17 +64,17 @@ namespace VRC.Animation
     public class TransformAnimationHandler_BE44
     {
         // ── Methods ──
+        public void GetIsHuman(){} // RVA: 0x7FFAF396BDE0
+        public void GetAvatar(){} // RVA: 0x7FFAF396BE90
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF396BF40
-        public void GetAvatar(){} // RVA: 0x7FFAF396BFF0
-        public void GetIsHuman(){} // RVA: 0x7FFAF396C0A0
+        public void GetAvatar_CFCBA11B8BEE(){} // RVA: 0x7FFAF396BFF0
+        public void GetIsHuman_534A787E0362(){} // RVA: 0x7FFAF396C0A0
         // ── Unresolved (hash) ──
         public void m_6AF(){} // RVA: 0x7FFAF396BB20
         public void m_C95(){} // RVA: 0x7FFAF396BBD0
         public void m_828(){} // RVA: 0x7FFAF396BC80
         public void m_D49(){} // RVA: 0x7FFAF396BD30
-        public void m_0F2(){} // RVA: 0x7FFAF396BDE0
-        public void m_2F5(){} // RVA: 0x7FFAF396BE90
     }
 
     /// <summary>Originally: ÍÏÍÏÎÌÍÎÎÎÌÍÍÌÍÍÏÌÎÍÎÎÏ</summary>

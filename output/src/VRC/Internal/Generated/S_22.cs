@@ -151,12 +151,12 @@ namespace VRC.Internal.Generated
         public void OnDisable(){} // RVA: 0x7FFAFBBE7980
         public void .ctor(){} // RVA: 0x7FFAFBBE7B30
         public void Initialize(){} // RVA: 0x7FFAFBBE7B80
+        public void Constructor(){} // RVA: 0x7FFAFBBE7C80
         public void OnEnable(){} // RVA: 0x7FFAFBBE7E90
         // ── Unresolved (hash) ──
         public void m_F8B(){} // RVA: 0x7FFAFBBE7560
         public void m_165(){} // RVA: 0x7FFAFBBE7660
         public void m_3CB(){} // RVA: 0x7FFAFBBE79F0
-        public void m_CA1(){} // RVA: 0x7FFAFBBE7C80
         public void m_BE6(){} // RVA: 0x7FFAFBBE7D80
         public void m_270(){} // RVA: 0x7FFAFBBE7F70
     }

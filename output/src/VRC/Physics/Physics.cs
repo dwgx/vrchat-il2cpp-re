@@ -27,13 +27,12 @@ namespace VRC.Physics
         // ── Methods ──
         public void OnParticleCollision(){} // RVA: 0x7FFAF420C4D0
         public void InitializeBucketsAndEntries(){} // RVA: 0x7FFAF420C6D0
+        public void ConstructWithCapacityAndComparer(){} // RVA: 0x7FFAF420C8D0
         public void InitializeBucketsAndEntries_4B81096D2697(){} // RVA: 0x7FFAF420CAD0
         public void InitializeBucketsAndEntries_58F358E53221(){} // RVA: 0x7FFAF420CCD0
-        public void ConstructWithCapacityAndComparer(){} // RVA: 0x7FFAF420CED0
+        public void ConstructWithCapacityAndComparer_677AD6A9F811(){} // RVA: 0x7FFAF420CED0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF420D0D0
-        // ── Unresolved (hash) ──
-        public void m_B5C(){} // RVA: 0x7FFAF420C8D0
     }
 
     /// <summary>Originally: ÎÍÏÍÎÏÌÌÌÍÏÎÌÍÌÎÍÍÎÎÏÏÍ</summary>
@@ -367,10 +366,13 @@ namespace VRC.Physics
     public class PhysicsEffector2DHandler_6ECC
     {
         // ── Methods ──
-        public void SetAnimationCurveKeys(){} // RVA: 0x7FFAFBB72530
+        public void InitializeAnimationCurves(){} // RVA: 0x7FFAFBB72000
+        public void InitializeAnimationCurves_CCB3FF6A53E4(){} // RVA: 0x7FFAFBB72330
+        public void SetAnimationCurveKeys(){} // RVA: 0x7FFAFBB72360
+        public void SetAnimationCurveKeys_85D0BA18F5C5(){} // RVA: 0x7FFAFBB72530
         public void .ctor(){} // RVA: 0x7FFAFBB72880
         public void Initialize(){} // RVA: 0x7FFAFBB728E0
-        public void InitializeAnimationCurves(){} // RVA: 0x7FFAFBB71F80
+        public void InitializeAnimationCurves_6439409C6119(){} // RVA: 0x7FFAFBB71F80
         public void GetEffectorTransform(){} // RVA: 0x7FFAFBB73A80
         public void Awake(){} // RVA: 0x7FFAFBB73D40
         public void OnDestroy(){} // RVA: 0x7FFAFBB748A0
@@ -381,13 +383,13 @@ namespace VRC.Physics
         public void SetUseBounce_10A0EA40A287(){} // RVA: 0x7FFAFBB760F0
         public void SetUseColliderMask(){} // RVA: 0x7FFAFBB761B0
         public void SetUseFriction(){} // RVA: 0x7FFAFBB76450
-        // ── 27 unresolved (hash) ──
+        // ── 24 unresolved (hash) ──
         public void m_1B3(){} // RVA: 0x7FFAFBB71750
         public void m_E8A(){} // RVA: 0x7FFAFBB71810
         public void m_14B(){} // RVA: 0x7FFAFBB71CD0
         public void m_C17(){} // RVA: 0x7FFAFBB71F80
-        public void m_956(){} // RVA: 0x7FFAFBB72000
-        // ... 22 more unresolved methods
+        public void m_CDF(){} // RVA: 0x7FFAFBB72860
+        // ... 19 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÎÏÍÏÍÍÌÍÏÎÌÏÎÍÏÌÌÌÏÍÎ</summary>
@@ -546,17 +548,20 @@ namespace VRC.Physics
         public void SetCacheWritingBehavior(){} // RVA: 0x7FFAFB8F2F20
         public void OnEnable(){} // RVA: 0x7FFAFB8F30E0
         public void OnDisable(){} // RVA: 0x7FFAFB8F30F0
+        public void SetCacheWritingBehavior_BAE35E170016(){} // RVA: 0x7FFAFB8F3510
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFB8F3650
+        public void SetCacheWritingBehavior_406472DE612D(){} // RVA: 0x7FFAFB8F3790
+        public void SetCacheWritingBehavior_E0C3EA7A6AD6(){} // RVA: 0x7FFAFB8F39E0
         public void set_CacheWritingBehavior(){} // RVA: 0x7FFAFB8F3B10
         public void .cctor(){} // RVA: 0x7FFAFB8F3D80
-        // ── 14 unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_F50(){} // RVA: 0x7FFAFB8F2D40
         public void m_3E8(){} // RVA: 0x7FFAFB8F3160
         public void m_456(){} // RVA: 0x7FFAFB8F3170
         public void m_450(){} // RVA: 0x7FFAFB8F32A0
-        public void m_BAE(){} // RVA: 0x7FFAFB8F3510
-        // ... 9 more unresolved methods
+        public void m_140(){} // RVA: 0x7FFAFB8F30F0
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÎÏÎÍÌÍÏÎÍÎÎÏÌÍÎÎÍÏÏÏÏ</summary>
@@ -581,13 +586,18 @@ namespace VRC.Physics
         public void Constructor_78D933BDC250(){} // RVA: 0x7FFAFB5DE9C0
         public void GetJointSpeed(){} // RVA: 0x7FFAFB5DFDD0
         public void OnDestroy(){} // RVA: 0x7FFAFB5E0360
-        // ── 11 unresolved (hash) ──
+        public void OnJointBreak2D(){} // RVA: 0x7FFAFB5E0750
+        // ── Unresolved (hash) ──
         public void m_9E8(){} // RVA: 0x7FFAFB5DD920
         public void m_64C(){} // RVA: 0x7FFAFB5DDCC0
         public void m_B39(){} // RVA: 0x7FFAFB5DE180
         public void m_49A(){} // RVA: 0x7FFAFB5DE290
         public void m_053(){} // RVA: 0x7FFAFB5DE4F0
-        // ... 6 more unresolved methods
+        public void m_FC5(){} // RVA: 0x7FFAFB5DE9C0
+        public void m_AF5(){} // RVA: 0x7FFAFB5DEAE0
+        public void m_9FB(){} // RVA: 0x7FFAFB5DED00
+        public void m_3E7(){} // RVA: 0x7FFAFB5DEF60
+        public void m_86C(){} // RVA: 0x7FFAFB5DFFD0
     }
 
     /// <summary>Originally: ÍÌÌÌÍÏÏÌÌÌÌÏÏÎÎÍÏÍÌÍÏÏÎ</summary>
@@ -648,27 +658,31 @@ namespace VRC.Physics
         public void SwapElements(){} // RVA: 0x7FFAFB582E70
         public void .ctor(){} // RVA: 0x7FFAFB583480
         public void Initialize(){} // RVA: 0x7FFAFB583970
-        // ── 20 unresolved (hash) ──
+        public void SetFrequency(){} // RVA: 0x7FFAFB586810
+        // ── 19 unresolved (hash) ──
         public void m_05F(){} // RVA: 0x7FFAFB582A80
         public void m_799(){} // RVA: 0x7FFAFB585710
         public void m_897(){} // RVA: 0x7FFAFB583D00
         public void m_4B7(){} // RVA: 0x7FFAFB583D50
         public void m_327(){} // RVA: 0x7FFAFB5845F0
-        // ... 15 more unresolved methods
+        // ... 14 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÌÎÍÍÎÌÎÎÍÌÎÏÌÌÍÏÏÎÍÏÍ</summary>
     public class PhysicsJoint2DHandler_51CC
     {
         // ── Methods ──
+        public void DeallocateLargeBlock(){} // RVA: 0x7FFAFBA26EE0
         public void ShouldCollectMemory(){} // RVA: 0x7FFAFBA27250
         public void CollectUntilMemoryAvailable(){} // RVA: 0x7FFAFBA27750
+        public void CollectAllocatorMemory(){} // RVA: 0x7FFAFBA27D60
         public void GetAutoConfigureOffset(){} // RVA: 0x7FFAFBA280D0
         public void GetConnectedBody(){} // RVA: 0x7FFAFBA28580
-        public void CollectAllocatorMemory(){} // RVA: 0x7FFAFBA28A90
+        public void CollectAllocatorMemory_D96CA210FF69(){} // RVA: 0x7FFAFBA28A90
         public void EnsureMemoryAvailable(){} // RVA: 0x7FFAFBA28F50
         public void GetReactionTorque(){} // RVA: 0x7FFAFBA292C0
         public void GrowFreeObjectTable(){} // RVA: 0x7FFAFBA29530
+        public void UpdateFreeObjectTableEntry(){} // RVA: 0x7FFAFBA29B40
         public void SetAutoConfigureOffset(){} // RVA: 0x7FFAFBA29F10
         public void SetBreakForce(){} // RVA: 0x7FFAFBA2A0E0
         public void .ctor(){} // RVA: 0x7FFAFBA2A4C0
@@ -677,10 +691,7 @@ namespace VRC.Physics
         public void ProcessDeferredFrees(){} // RVA: 0x7FFAFBA2B040
         public void Start(){} // RVA: 0x7FFAFBA2B210
         // ── Unresolved (hash) ──
-        public void m_050(){} // RVA: 0x7FFAFBA26EE0
-        public void m_9D1(){} // RVA: 0x7FFAFBA27D60
         public void m_308(){} // RVA: 0x7FFAFBA29080
-        public void m_C72(){} // RVA: 0x7FFAFBA29B40
     }
 
     /// <summary>Originally: ÎÏÎÌÌÎÌÏÏÏÍÏÎÍÍÏÍÌÍÍÌÏÎ</summary>
@@ -794,6 +805,7 @@ namespace VRC.Physics
         public void Awake(){} // RVA: 0x7FFAFBA9C810
         public void OnDestroy(){} // RVA: 0x7FFAFBA9C9D0
         public void .cctor(){} // RVA: 0x7FFAFBA9CB60
+        public void ResolveHostAddresses(){} // RVA: 0x7FFAFBA9CCC0
         // ── Unresolved (hash) ──
         public void m_F31(){} // RVA: 0x7FFAFBA99B30
         public void m_AC5(){} // RVA: 0x7FFAFBA99B70
@@ -802,7 +814,6 @@ namespace VRC.Physics
         public void m_C0B(){} // RVA: 0x7FFAFBA9B7F0
         public void m_515(){} // RVA: 0x7FFAFBA7E660
         public void m_331(){} // RVA: 0x7FFAFBA99B30
-        public void m_64B(){} // RVA: 0x7FFAFBA9CCC0
         public void m_EF9(){} // RVA: 0x7FFAFBA99B30
     }
 
@@ -917,6 +928,7 @@ namespace VRC.Physics
         public void .ctor(){} // RVA: 0x7FFAF3613210
         public void Initialize(){} // RVA: 0x7FFAF360B400
         public void GetLocalRotation(){} // RVA: 0x7FFAF3613880
+        public void AreTransformReferencesEqual(){} // RVA: 0x7FFAF3613E00
         public void Update(){} // RVA: 0x7FFAF36143E0
         public void Start(){} // RVA: 0x7FFAF3615500
         public void ProcessPhysics_C409E97538C0(){} // RVA: 0x7FFAF3615600
@@ -926,7 +938,6 @@ namespace VRC.Physics
         public void m_661(){} // RVA: 0x7FFAF3613010
         public void m_76D(){} // RVA: 0x7FFAF36129B0
         public void m_03F(){} // RVA: 0x7FFAF3613330
-        public void m_CD9(){} // RVA: 0x7FFAF3613E00
         public void m_7CB(){} // RVA: 0x7FFAF3614150
         public void m_FD2(){} // RVA: 0x7FFAF3615270
         public void m_14E(){} // RVA: 0x7FFAF3615710
@@ -940,14 +951,14 @@ namespace VRC.Physics
         public void GetStructuralHashCode_B234DD79AC0C(){} // RVA: 0x7FFAF368E770
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF368EC90
+        public void GetStructuralHashCode_90737C07894E(){} // RVA: 0x7FFAF368FBF0
         public void SerializeTransformState(){} // RVA: 0x7FFAF36902D0
         public void GetMass(){} // RVA: 0x7FFAF36907F0
+        public void GetStructuralHashCode_5F8DFBF05798(){} // RVA: 0x7FFAF3690D10
         // ── Unresolved (hash) ──
         public void m_E84(){} // RVA: 0x7FFAF368F1B0
         public void m_CBC(){} // RVA: 0x7FFAF368F6D0
-        public void m_907(){} // RVA: 0x7FFAF368FBF0
         public void m_61B(){} // RVA: 0x7FFAF368FDB0
-        public void m_5F8(){} // RVA: 0x7FFAF3690D10
     }
 
     /// <summary>Originally: ÍÌÎÎÏÍÍÎÍÏÍÎÌÎÍÏÍÌÎÎÎÎÏ</summary>
@@ -975,16 +986,24 @@ namespace VRC.Physics
         public void Start(){} // RVA: 0x7FFAF37F90F0
         public void Awake(){} // RVA: 0x7FFAF37F9AF0
         public void OnDestroy(){} // RVA: 0x7FFAF37FCEF0
+        public void StaticConstructor(){} // RVA: 0x7FFAF37FDCA0
+        public void Constructor(){} // RVA: 0x7FFAF37FDD10
         public void .cctor(){} // RVA: 0x7FFAF37FDE60
         public void .ctor(){} // RVA: 0x7FFAF3800970
         public void Initialize(){} // RVA: 0x7FFAF2F77C50
-        // ── 80 unresolved (hash) ──
+        public void StaticConstructor_E3AA862E6CFF(){} // RVA: 0x7FFAF2DF8050
+        public void Constructor_511049633036(){} // RVA: 0x7FFAF38028B0
+        public void StaticConstructor_A3D1C3020722(){} // RVA: 0x7FFAF380A260
+        public void Constructor_F0BC91BAA46B(){} // RVA: 0x7FFAF380A3B0
+        public void Register(){} // RVA: 0x7FFAF2DCC010
+        public void Unregister(){} // RVA: 0x7FFAF37FDDF0
+        // ── 72 unresolved (hash) ──
         public void m_F57(){} // RVA: 0x7FFAF2ABC960
         public void m_9CA(){} // RVA: 0x7FFAF2F12D00
         public void m_4F7(){} // RVA: 0x7FFAF37F60F0
         public void m_1A0(){} // RVA: 0x7FFAF37F6240
         public void m_5E6(){} // RVA: 0x7FFAF37F63B0
-        // ... 75 more unresolved methods
+        // ... 67 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÏÎÏÎÎÌÏÍÌÍÍÎÌÏÎÏÌÏÌÍ</summary>
@@ -1044,14 +1063,15 @@ namespace VRC.Physics
         public void GetKeyInt_B25398BA2B15(){} // RVA: 0x7FFAF361EB80
         public void GetLocalRotation(){} // RVA: 0x7FFAF36209F0
         public void GetLocalRotation_FDF918432DE9(){} // RVA: 0x7FFAF3620B80
+        public void CreateRuntimeContext(){} // RVA: 0x7FFAF36220D0
         public void Awake(){} // RVA: 0x7FFAF3622140
-        // ── 12 unresolved (hash) ──
+        // ── 11 unresolved (hash) ──
         public void m_03F(){} // RVA: 0x7FFAF361B7A0
         public void m_3F7(){} // RVA: 0x7FFAF361BED0
         public void m_A45(){} // RVA: 0x7FFAF361C160
         public void m_3BE(){} // RVA: 0x7FFAF361CE00
         public void m_5E0(){} // RVA: 0x7FFAF361E100
-        // ... 7 more unresolved methods
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÎÍÌÎÏÎÌÏÏÍÎÌÍÌÏÌÍÎÍÏÏ</summary>
@@ -1149,16 +1169,18 @@ namespace VRC.Physics
     public class TransformPhysicsHandler_C73B
     {
         // ── Methods ──
+        public void GetIsKinematic(){} // RVA: 0x7FFAF3738BA0
+        public void GetIsKinematic_231DA9B25645(){} // RVA: 0x7FFAF3738B90
         public void .ctor(){} // RVA: 0x7FFAF3738B90
         public void Initialize(){} // RVA: 0x7FFAF37391D0
-        public void GetIsKinematic(){} // RVA: 0x7FFAF373A410
-        // ── 14 unresolved (hash) ──
+        public void GetIsKinematic_B6780CEE1D49(){} // RVA: 0x7FFAF373A410
+        // ── 12 unresolved (hash) ──
         public void m_25C(){} // RVA: 0x7FFAF3738B90
-        public void m_D98(){} // RVA: 0x7FFAF3738BA0
-        public void m_231(){} // RVA: 0x7FFAF3738B90
         public void m_A07(){} // RVA: 0x7FFAF3738EF0
         public void m_964(){} // RVA: 0x7FFAF3738F00
-        // ... 9 more unresolved methods
+        public void m_01F(){} // RVA: 0x7FFAF37394A0
+        public void m_18D(){} // RVA: 0x7FFAF3739570
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÍÎÍÏÎÏÎÌÌÍÍÏÎÎÍÏÌÎÏÎÎ</summary>
@@ -1232,8 +1254,11 @@ namespace VRC.Physics
         public void SetBounceCombine(){} // RVA: 0x7FFAF496F2A0
         public void GetFixedDeltaTime(){} // RVA: 0x7FFAF496F330
         public void GetBounds(){} // RVA: 0x7FFAF496F3D0
+        public void CompareFixed32ByteSequences(){} // RVA: 0x7FFAF496F580
+        public void CompareThirtyTwoBytes(){} // RVA: 0x7FFAF496F610
         public void EqualsSigningKey(){} // RVA: 0x7FFAF496F6A0
         public void AddObjectMetadataPair(){} // RVA: 0x7FFAF496FB40
+        public void ReadBoolean(){} // RVA: 0x7FFAF496FD80
         public void CreateRigidTransformMatrix(){} // RVA: 0x7FFAF4970690
         public void ThrowObjectMetadataPairMarshalException(){} // RVA: 0x7FFAF49707C0
         public void SetIsKinematic(){} // RVA: 0x7FFAF4970AE0
@@ -1254,6 +1279,8 @@ namespace VRC.Physics
         public void CreatePrimitive_53166F81E0A4(){} // RVA: 0x7FFAF4971620
         public void ConfigureTransform_4BCFEC32B6B9(){} // RVA: 0x7FFAF4971760
         public void ConfigureTransform_360C63EAC636(){} // RVA: 0x7FFAF4971AA0
+        public void ReadByteVector(){} // RVA: 0x7FFAF4971BE0
+        public void ReadByteArray(){} // RVA: 0x7FFAF4971C70
         public void ThrowWrappedULongFieldMarshalException(){} // RVA: 0x7FFAF4971DD0
         public void SetLocalPosition(){} // RVA: 0x7FFAF4971F20
         public void ThrowWrappedIntMarshalException(){} // RVA: 0x7FFAF4971FD0
@@ -1271,8 +1298,12 @@ namespace VRC.Physics
         public void InvokeTransformPhysicsCallbacks_0740D138A749(){} // RVA: 0x7FFAF4974180
         public void InvokeTransformPhysicsCallbacks_C1E4128C0B52(){} // RVA: 0x7FFAF4974390
         public void MarshalStringAndFreeCoTaskMem(){} // RVA: 0x7FFAF4974610
+        public void MarshalObjectMetadataPairToNative(){} // RVA: 0x7FFAF4974830
+        public void MarshalObjectMetadataPairToNative_9A5A07C1B199(){} // RVA: 0x7FFAF49748E0
         public void ContainsTransformId(){} // RVA: 0x7FFAF4974990
         public void SwitchFocus(){} // RVA: 0x7FFAF4974DC0
+        public void MarshalCollisionRecordShapeToNative(){} // RVA: 0x7FFAF4974E70
+        public void MarshalCollisionRecordShapeToNative_A30ED4DABB79(){} // RVA: 0x7FFAF4974F90
         public void MarshalCollisionRecordToNative(){} // RVA: 0x7FFAF49754A0
         public void MarshalCollisionRecordFromNative(){} // RVA: 0x7FFAF4975530
         public void CalculateColliderCenter(){} // RVA: 0x7FFAF4975720
@@ -1301,6 +1332,7 @@ namespace VRC.Physics
         public void SetAngularVelocity_5094EE08ABA3(){} // RVA: 0x7FFAF49770B0
         public void ContainsTransformId_BEB2C5D762D0(){} // RVA: 0x7FFAF4977260
         public void SetVelocity_62E21CFAD565(){} // RVA: 0x7FFAF4977560
+        public void MarshalCollisionRecordToNative_A2A5793A0564(){} // RVA: 0x7FFAF4977820
         public void MarshalPInvokeBack(){} // RVA: 0x7FFAF4977940
         public void ReadTimeProperties_73D8052CDB96(){} // RVA: 0x7FFAF49779F0
         public void MarshalCollisionRecordToManaged(){} // RVA: 0x7FFAF4977AA0
@@ -1321,6 +1353,8 @@ namespace VRC.Physics
         public void GetIsKinematic_FB8D6445BF78(){} // RVA: 0x7FFAF4978870
         public void OnUpdate_475E974DC0AB(){} // RVA: 0x7FFAF4978920
         public void GetIsKinematic_B34688345805(){} // RVA: 0x7FFAF49789D0
+        public void MarshalCollisionRecordToNative_946897F03597(){} // RVA: 0x7FFAF4978A80
+        public void MarshalObjectMetadataPairToNative_96CED5ADFF31(){} // RVA: 0x7FFAF4978DF0
         public void GetIsKinematic_EC014D91AD01(){} // RVA: 0x7FFAF4979930
         public void GetIsKinematic_58623E7CA3EB(){} // RVA: 0x7FFAF49799D0
         public void GetIsKinematic_AB57CF828F5E(){} // RVA: 0x7FFAF4979A80
@@ -1396,13 +1430,13 @@ namespace VRC.Physics
         public void GetMaterial_63770B60F49F(){} // RVA: 0x7FFAF4983E80
         public void GetTime_76BC77D46495(){} // RVA: 0x7FFAF49842D0
         public void ReadMaterialProperties_BBBD37B4413C(){} // RVA: 0x7FFAF49844A0
-        // ── 413 unresolved (hash) ──
+        // ── 401 unresolved (hash) ──
         public void m_172(){} // RVA: 0x7FFAF4973DD0
         public void m_E93(){} // RVA: 0x7FFAF496D830
         public void m_729(){} // RVA: 0x7FFAF496D8D0
         public void m_01A(){} // RVA: 0x7FFAF496D970
         public void m_106(){} // RVA: 0x7FFAF496DB90
-        // ... 408 more unresolved methods
+        // ... 396 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÍÌÌÍÏÌÏÌÍÏÏÍÍÌÏÍÎÌÎÏÎ</summary>
@@ -1414,6 +1448,7 @@ namespace VRC.Physics
         public void OnDestroy(){} // RVA: 0x7FFAF3DFF250
         public void OnEnable(){} // RVA: 0x7FFAF3DFFA10
         public void get_Instance(){} // RVA: 0x7FFAF3E00190
+        public void BeginProfilerSample(){} // RVA: 0x7FFAF3E002C0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAF3E00550
         public void GetLocalPosition(){} // RVA: 0x7FFAF3E00D30
@@ -1423,7 +1458,6 @@ namespace VRC.Physics
         public void m_91B(){} // RVA: 0x7FFAF3DFE990
         public void m_705(){} // RVA: 0x7FFAF3DFF8E0
         public void m_7B4(){} // RVA: 0x7FFAF3DFFB00
-        public void m_51E(){} // RVA: 0x7FFAF3E002C0
         public void m_D8A(){} // RVA: 0x7FFAF3E003F0
         public void m_CB2(){} // RVA: 0x7FFAF3E006A0
     }

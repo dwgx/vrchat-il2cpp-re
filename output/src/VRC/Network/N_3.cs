@@ -147,59 +147,83 @@ namespace VRC.Network
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF2DA8380
         public void get_Item(){} // RVA: 0x7FFAF45797E0
+        public void Items(){} // RVA: 0x7FFAF2DA84E0
+        public void Count(){} // RVA: 0x7FFAF2DA84F0
         public void ToString(){} // RVA: 0x7FFAF4579800
-        // ── 12 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_D4B(){} // RVA: 0x7FFAF2D8EE30
         public void m_330(){} // RVA: 0x7FFAF2DBB0D0
         public void m_603(){} // RVA: 0x7FFAF2DBB0C0
         public void m_430(){} // RVA: 0x7FFAF2DBB0C0
         public void m_7FC(){} // RVA: 0x7FFAF2DBB0C0
-        // ... 7 more unresolved methods
+        public void m_0FD(){} // RVA: 0x7FFAF2DBB0D0
+        public void m_7DB(){} // RVA: 0x7FFAF2DA84E0
+        public void m_8D9(){} // RVA: 0x7FFAF2DA8380
+        public void m_F89(){} // RVA: 0x7FFAF2DA8380
+        public void m_CB2(){} // RVA: 0x7FFAF2DA84F0
     }
 
     /// <summary>Originally: ÎÏÍÍÏÌÏÌÎÌÏÏÎÌÏÏÌÏÌÌÍÍÌ</summary>
     public class NetworkItem_722FSiblingSiRelated_09FA
     {
         // ── Methods ──
+        public void GetRigidbodySpeedMph(){} // RVA: 0x7FFAF7B4E5E0
+        public void SetAudioSourceClip(){} // RVA: 0x7FFAF7B4E3E0
         public void Dispose(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF7B4E750
-        // ── 12 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_7FD(){} // RVA: 0x7FFAF7B4E4F0
-        public void m_E9D(){} // RVA: 0x7FFAF7B4E5E0
         public void m_71F(){} // RVA: 0x7FFAF7AD4FF0
         public void m_AEB(){} // RVA: 0x7FFAF7AD5100
         public void m_C64(){} // RVA: 0x7FFAF2D8D320
-        // ... 7 more unresolved methods
+        public void m_E2A(){} // RVA: 0x7FFAF2DA8380
+        public void m_3D5(){} // RVA: 0x7FFAF60C7A70
+        public void m_A66(){} // RVA: 0x7FFAF7B4E3E0
+        public void m_2D4(){} // RVA: 0x7FFAF7A9B470
+        public void m_FE6(){} // RVA: 0x7FFAF7A9B470
+        public void m_B3D(){} // RVA: 0x7FFAF7B4E6D0
     }
 
     /// <summary>Originally: ÎÏÍÍÏÌÏÌÎÌÏÏÎÌÏÏÌÏÌÌÍÍÌ</summary>
     public class NetworkItem_722FSiblingSiRelated_09FA
     {
         // ── Methods ──
+        public void GetRigidbodySpeedMph(){} // RVA: 0x7FFAF2AD4B10
+        public void SetAudioSourceClip(){} // RVA: 0x7FFAF2AD4B10
         public void Dispose(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
-        // ── 12 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_7FD(){} // RVA: 0x7FFAF2AD4B10
-        public void m_E9D(){} // RVA: 0x7FFAF2AD4B10
         public void m_71F(){} // RVA: 0x7FFAF2AD4B10
         public void m_AEB(){} // RVA: 0x7FFAF2AD4B10
         public void m_C64(){} // RVA: 0x7FFAF2ABDBE0
-        // ... 7 more unresolved methods
+        public void m_E2A(){} // RVA: 0x7FFAF2ABCD60
+        public void m_3D5(){} // RVA: 0x7FFAF2ABCD60
+        public void m_A66(){} // RVA: 0x7FFAF2AD4B10
+        public void m_2D4(){} // RVA: 0x7FFAF2AD4A50
+        public void m_FE6(){} // RVA: 0x7FFAF2AD4A50
+        public void m_B3D(){} // RVA: 0x7FFAF2AD4A50
     }
 
     /// <summary>Originally: ÎÏÍÍÏÌÏÌÎÌÏÏÎÌÏÏÌÏÌÌÍÍÌ</summary>
     public class NetworkItem_722FSiblingSiRelated_09FA
     {
         // ── Methods ──
+        public void GetRigidbodySpeedMph(){} // RVA: 0x7FFAF7B4E5E0
+        public void SetAudioSourceClip(){} // RVA: 0x7FFAF7B4E3E0
         public void Dispose(){} // RVA: 0x7FFAF2AD4A50
         public void .ctor(){} // RVA: 0x7FFAF7B4E750
-        // ── 12 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_7FD(){} // RVA: 0x7FFAF7B4E4F0
-        public void m_E9D(){} // RVA: 0x7FFAF7B4E5E0
         public void m_71F(){} // RVA: 0x7FFAF7AD4FF0
         public void m_AEB(){} // RVA: 0x7FFAF7AD5100
         public void m_C64(){} // RVA: 0x7FFAF2D8D320
-        // ... 7 more unresolved methods
+        public void m_E2A(){} // RVA: 0x7FFAF2DA8380
+        public void m_3D5(){} // RVA: 0x7FFAF60C7A70
+        public void m_A66(){} // RVA: 0x7FFAF7B4E3E0
+        public void m_2D4(){} // RVA: 0x7FFAF7A9B470
+        public void m_FE6(){} // RVA: 0x7FFAF7A9B470
+        public void m_B3D(){} // RVA: 0x7FFAF7B4E6D0
     }
 
     /// <summary>Originally: ÎÍÏÎÌÎÏÏÏÎÏÎÍÏÏÍÎÍÎÍÏÏÌ</summary>
@@ -269,10 +293,9 @@ namespace VRC.Network
         public void InitializeCrtStartup(){} // RVA: 0x7FFAF2D33FA0
         public void .ctor(){} // RVA: 0x7FFAF2D33FA0
         public void Initialize(){} // RVA: 0x7FFAF2D33FA0
+        public void DllMainCrtStartup(){} // RVA: 0x7FFAF2D33FA0
         public void DispatchDllMain(){} // RVA: 0x7FFAF2D33FA0
-        // ── Unresolved (hash) ──
-        public void m_B23(){} // RVA: 0x7FFAF2D33FA0
-        public void m_3A8(){} // RVA: 0x7FFAF2D33FA0
+        public void DllMain(){} // RVA: 0x7FFAF2D33FA0
     }
 
     /// <summary>Originally: ÍÏÎÎÎÏÏÍÌÏÎÏÎÍÎÌÌÌÍÎÎÌÍ</summary>
@@ -282,82 +305,75 @@ namespace VRC.Network
         public void InitializeCrtStartup(){} // RVA: 0x7FFAF7AF6B50
         public void .ctor(){} // RVA: 0x7FFAF7AF6C40
         public void Initialize(){} // RVA: 0x7FFAF7AF6C80
+        public void DllMainCrtStartup(){} // RVA: 0x7FFAF37BE450
         public void DispatchDllMain(){} // RVA: 0x7FFAF7AF6D40
-        // ── Unresolved (hash) ──
-        public void m_B23(){} // RVA: 0x7FFAF37BE450
-        public void m_3A8(){} // RVA: 0x7FFAF396B900
+        public void DllMain(){} // RVA: 0x7FFAF396B900
     }
 
     /// <summary>Originally: ÎÌÎÍÎÍÌÏÌÍÌÍÏÌÎÎÌÌÏÎÎÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_4EC4
     {
         // ── Methods ──
+        public void GetSiblingIndex(){} // RVA: 0x7FFAF2D33FA0
         public void .ctor(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2AD4FA0
+        public void SetSiblingIndex(){} // RVA: 0x7FFAF2D33FA0
         public void ProcessGameObject(){} // RVA: 0x7FFAF2ABD840
-        // ── Unresolved (hash) ──
-        public void m_506(){} // RVA: 0x7FFAF2D33FA0
-        public void m_697(){} // RVA: 0x7FFAF2D33FA0
     }
 
     /// <summary>Originally: ÎÌÎÍÎÍÌÏÌÍÌÍÏÌÎÎÌÌÏÎÎÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_4EC4
     {
         // ── Methods ──
+        public void GetSiblingIndex(){} // RVA: 0x7FFAF7B16250
         public void .ctor(){} // RVA: 0x7FFAF7B16510 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF7B163B0
+        public void SetSiblingIndex(){} // RVA: 0x7FFAF2DE8CD0
         public void ProcessGameObject(){} // RVA: 0x7FFAF3210030
-        // ── Unresolved (hash) ──
-        public void m_506(){} // RVA: 0x7FFAF7B16250
-        public void m_697(){} // RVA: 0x7FFAF2DE8CD0
     }
 
     /// <summary>Originally: ÎÌÎÍÎÍÌÏÌÍÌÍÏÌÎÎÌÌÏÎÎÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_4EC4
     {
         // ── Methods ──
+        public void GetSiblingIndex(){} // RVA: 0x7FFAF7B16250
         public void .ctor(){} // RVA: 0x7FFAF7B16510 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF7B163B0
+        public void SetSiblingIndex(){} // RVA: 0x7FFAF2DE8CD0
         public void ProcessGameObject(){} // RVA: 0x7FFAF3210030
-        // ── Unresolved (hash) ──
-        public void m_506(){} // RVA: 0x7FFAF7B16250
-        public void m_697(){} // RVA: 0x7FFAF2DE8CD0
     }
 
     /// <summary>Originally: ÎÌÎÍÎÍÌÏÌÍÌÍÏÌÎÎÌÌÏÎÎÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_4EC4
     {
         // ── Methods ──
+        public void GetSiblingIndex(){} // RVA: 0x7FFAF7B16250
         public void .ctor(){} // RVA: 0x7FFAF7B16510 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF7B163B0
+        public void SetSiblingIndex(){} // RVA: 0x7FFAF2DE8CD0
         public void ProcessGameObject(){} // RVA: 0x7FFAF3210030
-        // ── Unresolved (hash) ──
-        public void m_506(){} // RVA: 0x7FFAF7B16250
-        public void m_697(){} // RVA: 0x7FFAF2DE8CD0
     }
 
     /// <summary>Originally: ÎÌÎÍÎÍÌÏÌÍÌÍÏÌÎÎÌÌÏÎÎÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_4EC4
     {
         // ── Methods ──
+        public void GetSiblingIndex(){} // RVA: 0x7FFAF7B16250
         public void .ctor(){} // RVA: 0x7FFAF7B16510 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF7B163B0
+        public void SetSiblingIndex(){} // RVA: 0x7FFAF2DE8CD0
         public void ProcessGameObject(){} // RVA: 0x7FFAF3210030
-        // ── Unresolved (hash) ──
-        public void m_506(){} // RVA: 0x7FFAF7B16250
-        public void m_697(){} // RVA: 0x7FFAF2DE8CD0
     }
 
     /// <summary>Originally: ÎÌÎÍÎÍÌÏÌÍÌÍÏÌÎÎÌÌÏÎÎÏÏ</summary>
     public class NetworkItem_722FSiblingSiRelated_4EC4
     {
         // ── Methods ──
+        public void GetSiblingIndex(){} // RVA: 0x7FFAF7B16250
         public void .ctor(){} // RVA: 0x7FFAF7B16510 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF7B163B0
+        public void SetSiblingIndex(){} // RVA: 0x7FFAF2DE8CD0
         public void ProcessGameObject(){} // RVA: 0x7FFAF3210030
-        // ── Unresolved (hash) ──
-        public void m_506(){} // RVA: 0x7FFAF7B16250
-        public void m_697(){} // RVA: 0x7FFAF2DE8CD0
     }
 
     /// <summary>Originally: ÎÌÍÍÌÍÏÎÌÍÍÏÎÌÏÌÎÎÌÏÏÎÏ</summary>
@@ -559,738 +575,861 @@ namespace VRC.Network
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF2AD4B10
         public void Dispose(){} // RVA: 0x7FFAF2AD4A50
         public void Cleanup(){} // RVA: 0x7FFAF2D33FA0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF2D33FA0
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF2D33FA0
         public void .ctor(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2AD4A50
         public void ToString(){} // RVA: 0x7FFAF2ABCD60
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2AD4A50
         public void m_51F(){} // RVA: 0x7FFAF2AD4A50
-        public void m_A66(){} // RVA: 0x7FFAF2AD4B10
         public void m_B3D(){} // RVA: 0x7FFAF2D33FA0
-        public void m_AFD(){} // RVA: 0x7FFAF2D33FA0
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF2ABCD60
+        public void m_C31(){} // RVA: 0x7FFAF2AD4A50
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B723A0
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2E7B9D0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B727F0
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B728B0
         public void .ctor(){} // RVA: 0x7FFAF7B72C40 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B72B90
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B723A0
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B727F0
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B72870
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B74100
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF3210030
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B74550
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B74610
         public void .ctor(){} // RVA: 0x7FFAF7B749F0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B74940
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B74100
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B74550
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B745D0
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B78C30
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2D13BC0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B79270
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B79510
         public void .ctor(){} // RVA: 0x7FFAF7B79EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B79D40
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B78C30
         public void m_B3D(){} // RVA: 0x7FFAF2D13BC0
-        public void m_AFD(){} // RVA: 0x7FFAF7B79270
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B79470
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ</summary>
     public class NetworkItem_722FSiblingSiblingSibling_2821
     {
         // ── Methods ──
+        public void CreateFromToRotation(){} // RVA: 0x7FFAF7B76930
         public void Dispose(){} // RVA: 0x7FFAF2D8D310
         public void Cleanup(){} // RVA: 0x7FFAF2DBB0C0
+        public void RotateVectorByInverseQuaternion(){} // RVA: 0x7FFAF7B76D90
+        public void CalculateQuaternionDelta(){} // RVA: 0x7FFAF7B76E80
         public void .ctor(){} // RVA: 0x7FFAF7B770D0 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAF2D8D310
         public void ToString(){} // RVA: 0x7FFAF7B77090
-        // ── 15 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_2F0(){} // RVA: 0x7FFAF2D8D310
         public void m_51F(){} // RVA: 0x7FFAF2D8D310
-        public void m_A66(){} // RVA: 0x7FFAF7B76930
         public void m_B3D(){} // RVA: 0x7FFAF7B71CB0
-        public void m_AFD(){} // RVA: 0x7FFAF7B76D90
-        // ... 10 more unresolved methods
+        public void m_3D5(){} // RVA: 0x7FFAF7B76E60
+        public void m_C31(){} // RVA: 0x7FFAF2D8D310
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÍÏÍÌÌÏÎÌÍÍÌÌÎÏÌÌÎÍÏÍÏ</summary>
@@ -1368,31 +1507,31 @@ namespace VRC.Network
         public void OnEnable(){} // RVA: 0x7FFAF447BDF0
         public void Start(){} // RVA: 0x7FFAF447BF20
         public void Update(){} // RVA: 0x7FFAF447BD70
+        public void OnBecameInvisible(){} // RVA: 0x7FFAF447C190
         public void .ctor(){} // RVA: 0x7FFAF44778B0
         public void Initialize(){} // RVA: 0x7FFAF447C2C0
         public void OnDestroy(){} // RVA: 0x7FFAF447C3F0
         public void OnApplicationPause(){} // RVA: 0x7FFAF447C880
         public void OnApplicationQuit(){} // RVA: 0x7FFAF447C9B0
         public void OnBecameVisible(){} // RVA: 0x7FFAF447CAE0
-        // ── Unresolved (hash) ──
-        public void m_219(){} // RVA: 0x7FFAF447C190
     }
 
     /// <summary>Originally: ÏÌÌÎÍÎÎÍÌÌÌÌÎÍÌÍÎÌÎÍÍÍÏ</summary>
     public class NetworkShouldBroadcastInsRelated_D61B
     {
         // ── Methods ──
+        public void GetRootTransform(){} // RVA: 0x7FFAF442C3B0
         public void .ctor(){} // RVA: 0x7FFAFBE9FA00
         public void Initialize(){} // RVA: 0x7FFAF2DDA5C0
         public void ReadCapsuleColliderState(){} // RVA: 0x7FFAF2D900C0
         public void ProcessGameObject(){} // RVA: 0x7FFAF3210030
-        // ── 16 unresolved (hash) ──
+        // ── 15 unresolved (hash) ──
         public void m_AFE(){} // RVA: 0x7FFAF2F87670
-        public void m_2C2(){} // RVA: 0x7FFAF442C3B0
         public void m_64D(){} // RVA: 0x7FFAF2DA87C0
         public void m_1A3(){} // RVA: 0x7FFAFBE9F7E0
         public void m_995(){} // RVA: 0x7FFAF59BFE60
-        // ... 11 more unresolved methods
+        public void m_8D3(){} // RVA: 0x7FFAF43A7880
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÏÍÌÏÌÌÍÎÌÎÍÍÎÎÏÌÎÍÍÎÍÎÏ</summary>
@@ -1436,13 +1575,14 @@ namespace VRC.Network
         public void ReadRenderProperties_1834AD72BE36(){} // RVA: 0x7FFAF44ACE20
         public void .ctor(){} // RVA: 0x7FFAF44AE3F0
         public void Initialize(){} // RVA: 0x7FFAF4450210
-        // ── 21 unresolved (hash) ──
+        public void WriteRenderProperties(){} // RVA: 0x7FFAF44AEB00
+        // ── 20 unresolved (hash) ──
         public void m_3E7(){} // RVA: 0x7FFAF44ACB60
         public void m_3D8(){} // RVA: 0x7FFAF4450240
         public void m_059(){} // RVA: 0x7FFAF44ACE80
         public void m_5C3(){} // RVA: 0x7FFAF44ADD00
         public void m_6A3(){} // RVA: 0x7FFAF44ADD60
-        // ... 16 more unresolved methods
+        // ... 15 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÍÌÏÌÎÎÌÍÎÌÍÌÎÍÏÏÍÎÏÍ</summary>
@@ -1490,16 +1630,17 @@ namespace VRC.Network
         public void ConfigureTransformLocal(){} // RVA: 0x7FFAF4457C20
         public void ConfigureTransformLocal_E8EB637FEA94(){} // RVA: 0x7FFAF4457DF0
         public void ConfigureTransform(){} // RVA: 0x7FFAF4457730
+        public void CopyTo(){} // RVA: 0x7FFAF4457260
         public void .ctor(){} // RVA: 0x7FFAF44B1F00
         public void Initialize(){} // RVA: 0x7FFAF44B1F40
         public void ConfigureTransform_1A3C1F4C12AB(){} // RVA: 0x7FFAF4457730
-        // ── 16 unresolved (hash) ──
+        // ── 15 unresolved (hash) ──
         public void m_EB5(){} // RVA: 0x7FFAF44B16C0
         public void m_25B(){} // RVA: 0x7FFAF44B17A0
         public void m_F5B(){} // RVA: 0x7FFAF44B1800
         public void m_1EE(){} // RVA: 0x7FFAF44B1B80
         public void m_247(){} // RVA: 0x7FFAF44B1C60
-        // ... 11 more unresolved methods
+        // ... 10 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÍÌÌÏÎÌÍÍÎÏÌÍÎÏÌÍÎÎÏÎÌ</summary>
@@ -1510,10 +1651,9 @@ namespace VRC.Network
         public void SortUnmanagedArrayWithComparer_0CBB3338B084(){} // RVA: 0x7FFAF2AD4A50
         public void SortUnmanagedArrayWithComparer_FB952E181EDD(){} // RVA: 0x7FFAF2AD4A50
         public void SortUnmanagedArrayWithComparer_5E9B179AFAD8(){} // RVA: 0x7FFAF2AD4A50
+        public void SortUnmanagedArrayWithComparer_B82F5CDC53D1(){} // RVA: 0x7FFAF2ABCD60
+        public void SortUnmanagedArrayWithComparer_1DA1CA711315(){} // RVA: 0x7FFAF2ADDDE0
         public void .ctor(){} // RVA: 0x7FFAF2AD4A50
-        // ── Unresolved (hash) ──
-        public void m_B82(){} // RVA: 0x7FFAF2ABCD60
-        public void m_1DA(){} // RVA: 0x7FFAF2ADDDE0
     }
 
     /// <summary>Originally: ÎÍÍÌÌÏÎÌÍÍÎÏÌÍÎÏÌÍÎÎÏÎÌ</summary>
@@ -1524,10 +1664,9 @@ namespace VRC.Network
         public void SortUnmanagedArrayWithComparer_0CBB3338B084(){} // RVA: 0x7FFAF7B1CC90
         public void SortUnmanagedArrayWithComparer_FB952E181EDD(){} // RVA: 0x7FFAF7B1CD00
         public void SortUnmanagedArrayWithComparer_5E9B179AFAD8(){} // RVA: 0x7FFAF7B1CDC0
+        public void SortUnmanagedArrayWithComparer_B82F5CDC53D1(){} // RVA: 0x7FFAF2ABCD60
+        public void SortUnmanagedArrayWithComparer_1DA1CA711315(){} // RVA: 0x7FFAF2ADDDE0
         public void .ctor(){} // RVA: 0x7FFAF7B1CE70
-        // ── Unresolved (hash) ──
-        public void m_B82(){} // RVA: 0x7FFAF2ABCD60
-        public void m_1DA(){} // RVA: 0x7FFAF2ADDDE0
     }
 
     /// <summary>Originally: ÎÍÍÌÌÏÎÌÍÍÎÏÌÍÎÏÌÍÎÎÏÎÌ</summary>
@@ -1538,10 +1677,9 @@ namespace VRC.Network
         public void SortUnmanagedArrayWithComparer_0CBB3338B084(){} // RVA: 0x7FFAF7B1CC90
         public void SortUnmanagedArrayWithComparer_FB952E181EDD(){} // RVA: 0x7FFAF7B1CD00
         public void SortUnmanagedArrayWithComparer_5E9B179AFAD8(){} // RVA: 0x7FFAF7B1CDC0
+        public void SortUnmanagedArrayWithComparer_B82F5CDC53D1(){} // RVA: 0x7FFAF2ABCD60
+        public void SortUnmanagedArrayWithComparer_1DA1CA711315(){} // RVA: 0x7FFAF2ADDDE0
         public void .ctor(){} // RVA: 0x7FFAF7B1CE70
-        // ── Unresolved (hash) ──
-        public void m_B82(){} // RVA: 0x7FFAF2ABCD60
-        public void m_1DA(){} // RVA: 0x7FFAF2ADDDE0
     }
 
     /// <summary>Originally: ÎÍÍÌÌÏÎÌÍÍÎÏÌÍÎÏÌÍÎÎÏÎÌ</summary>
@@ -1552,10 +1690,9 @@ namespace VRC.Network
         public void SortUnmanagedArrayWithComparer_0CBB3338B084(){} // RVA: 0x7FFAF7B1CC90
         public void SortUnmanagedArrayWithComparer_FB952E181EDD(){} // RVA: 0x7FFAF7B1CD00
         public void SortUnmanagedArrayWithComparer_5E9B179AFAD8(){} // RVA: 0x7FFAF7B1CDC0
+        public void SortUnmanagedArrayWithComparer_B82F5CDC53D1(){} // RVA: 0x7FFAF2ABCD60
+        public void SortUnmanagedArrayWithComparer_1DA1CA711315(){} // RVA: 0x7FFAF2ADDDE0
         public void .ctor(){} // RVA: 0x7FFAF7B1CE70
-        // ── Unresolved (hash) ──
-        public void m_B82(){} // RVA: 0x7FFAF2ABCD60
-        public void m_1DA(){} // RVA: 0x7FFAF2ADDDE0
     }
 
     /// <summary>Originally: ÎÍÍÌÌÏÎÌÍÍÎÏÌÍÎÏÌÍÎÎÏÎÌ</summary>
@@ -1566,10 +1703,9 @@ namespace VRC.Network
         public void SortUnmanagedArrayWithComparer_0CBB3338B084(){} // RVA: 0x7FFAF7B1CC90
         public void SortUnmanagedArrayWithComparer_FB952E181EDD(){} // RVA: 0x7FFAF7B1CD00
         public void SortUnmanagedArrayWithComparer_5E9B179AFAD8(){} // RVA: 0x7FFAF7B1CDC0
+        public void SortUnmanagedArrayWithComparer_B82F5CDC53D1(){} // RVA: 0x7FFAF2ABCD60
+        public void SortUnmanagedArrayWithComparer_1DA1CA711315(){} // RVA: 0x7FFAF2ADDDE0
         public void .ctor(){} // RVA: 0x7FFAF7B1CE70
-        // ── Unresolved (hash) ──
-        public void m_B82(){} // RVA: 0x7FFAF2ABCD60
-        public void m_1DA(){} // RVA: 0x7FFAF2ADDDE0
     }
 
     /// <summary>Originally: ÍÏÍÌÍÏÏÌÏÍÍÍÍÎÏÍÏÏÎÎÎÏÌ</summary>
@@ -1621,18 +1757,19 @@ namespace VRC.Network
         public void ContainsEntry(){} // RVA: 0x7FFAF441B580
         public void RemoveAtSwapBack_3751C1E87A43(){} // RVA: 0x7FFAF441B6B0
         public void InsertItem(){} // RVA: 0x7FFAF441BA70
+        public void ConstructWithCapacity(){} // RVA: 0x7FFAF441C000
         public void GetEnumerator(){} // RVA: 0x7FFAF441C0A0
         public void InsertItem_D5C16A906E72(){} // RVA: 0x7FFAF441C1A0
-        public void ConstructWithCapacity(){} // RVA: 0x7FFAF441C5D0
+        public void ConstructWithCapacity_404CE80ADE11(){} // RVA: 0x7FFAF441C5D0
         public void AddEntry(){} // RVA: 0x7FFAF441B070
         public void RemoveEntry(){} // RVA: 0x7FFAF441C7A0
-        // ── 13 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_58F(){} // RVA: 0x7FFAF441B070
         public void m_56C(){} // RVA: 0x7FFAF2E478E0
         public void m_DC8(){} // RVA: 0x7FFAF441B5E0
         public void m_92F(){} // RVA: 0x7FFAF441B070
         public void m_AB9(){} // RVA: 0x7FFAF441BE70
-        // ... 8 more unresolved methods
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÎÎÎÍÎÏÏÌÎÌÍÌÍÏÏÌÍÌÌÍ</summary>
@@ -1692,14 +1829,15 @@ namespace VRC.Network
         public void ContainsItem(){} // RVA: 0x7FFAF3082000
         public void AddItem(){} // RVA: 0x7FFAF30820A0
         public void AddItem_E284EF1A0F1F(){} // RVA: 0x7FFAF3082200
+        public void RecordRealtimeSinceStartup(){} // RVA: 0x7FFAF3082570
         public void ThrowTransitionParamsMarshalException(){} // RVA: 0x7FFAF30835F0
-        // ── 37 unresolved (hash) ──
+        // ── 36 unresolved (hash) ──
         public void m_240(){} // RVA: 0x7FFAF307E770
         public void m_9A2(){} // RVA: 0x7FFAF3081010
         public void m_783(){} // RVA: 0x7FFAF3081570
         public void m_94B(){} // RVA: 0x7FFAF3081620
         public void m_700(){} // RVA: 0x7FFAF30816C0
-        // ... 32 more unresolved methods
+        // ... 31 more unresolved methods
     }
 
 }

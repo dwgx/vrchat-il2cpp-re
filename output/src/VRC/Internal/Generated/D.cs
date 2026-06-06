@@ -39,6 +39,7 @@ namespace VRC.Internal.Generated
         // ── Methods ──
         public void .ctor(){} // RVA: 0x7FFAFBDD3090 | overloaded x2
         public void Initialize(){} // RVA: 0x7FFAFBDD22E0
+        public void ReplaceMatchingSharedMaterials(){} // RVA: 0x7FFAFBDD3080
         public void Dispose(){} // RVA: 0x7FFAFBDD34B0
         // ── Unresolved (hash) ──
         public void m_E08(){} // RVA: 0x7FFAFBDD22F0
@@ -46,7 +47,6 @@ namespace VRC.Internal.Generated
         public void m_32B(){} // RVA: 0x7FFAFBDD2660
         public void m_079(){} // RVA: 0x7FFAFBDD29C0
         public void m_13D(){} // RVA: 0x7FFAFBDD2D20
-        public void m_EC8(){} // RVA: 0x7FFAFBDD3080
         public void m_BBA(){} // RVA: 0x7FFAFBDD22E0
     }
 

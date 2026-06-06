@@ -14,29 +14,37 @@ namespace VRC.Rendering
         public object ScanHiddenCameras;
 
         // ── Methods ──
-        public void SettingsConstructor(){} // RVA: 0x7FFAF2DF5470
+        public void SettingsConstructor(){} // RVA: 0x7FFAF33108A0
+        public void SettingsConstructor_93EB20C03694(){} // RVA: 0x7FFAF2DF5470
         public void Start(){} // RVA: 0x7FFAF33108E0
+        public void ToString(){} // RVA: 0x7FFAF3310B20
+        public void OnRenderImage_FA06D614DA55(){} // RVA: 0x7FFAF2DF5470
+        public void SettingsConstructor_3B77A2E351B6(){} // RVA: 0x7FFAF2DF5460
+        public void Deconstruct(){} // RVA: 0x7FFAF2DF5460
         public void OnRenderImage(){} // RVA: 0x7FFAF3310F40
         public void get_Value(){} // RVA: 0x7FFAF3311870
-        public void Deconstruct(){} // RVA: 0x7FFAF3311980
+        public void Deconstruct_9F1C94E7475E(){} // RVA: 0x7FFAF3311980
         public void Update(){} // RVA: 0x7FFAF3312010
         public void Deconstruct_C13361869ABC(){} // RVA: 0x7FFAF3312690
+        public void GetKey(){} // RVA: 0x7FFAF33126D0
         public void Deconstruct_445D331B9F60(){} // RVA: 0x7FFAF33126F0
         public void Awake(){} // RVA: 0x7FFAF3312800
         public void OnDestroy(){} // RVA: 0x7FFAF3312910
         public void get_Key(){} // RVA: 0x7FFAF3312920
         public void Deconstruct_4D934F00AE96(){} // RVA: 0x7FFAF3312A30
+        public void SettingsConstructor_C862C6863EAD(){} // RVA: 0x7FFAF3313070
+        public void SettingsConstructor_EEA28B71E1F8(){} // RVA: 0x7FFAF33131B0
         public void .ctor(){} // RVA: 0x7FFAF33133B0
         public void Initialize(){} // RVA: 0x7FFAF2DB5FE0
         public void get_Key_69A3C1EF696A(){} // RVA: 0x7FFAF3313440
         public void get_Key_A91D113D212F(){} // RVA: 0x7FFAF3313480
-        // ── 20 unresolved (hash) ──
-        public void m_3E1(){} // RVA: 0x7FFAF33108A0
+        // ── 12 unresolved (hash) ──
         public void m_230(){} // RVA: 0x7FFAF33108D0
-        public void m_1A8(){} // RVA: 0x7FFAF3310B20
-        public void m_FA0(){} // RVA: 0x7FFAF2DF5470
-        public void m_3B7(){} // RVA: 0x7FFAF2DF5460
-        // ... 15 more unresolved methods
+        public void m_C4A(){} // RVA: 0x7FFAF2DB5FE0
+        public void m_FFE(){} // RVA: 0x7FFAF3311840
+        public void m_DA5(){} // RVA: 0x7FFAF3312000
+        public void m_F53(){} // RVA: 0x7FFAF33126B0
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÎÎÎÎÌÎÏÎÎÌÎÍÎÏÌÎÌÏÍÏ</summary>
@@ -44,13 +52,13 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void SetMaterialDirty(){} // RVA: 0x7FFAF3ACBAB0
+        public void WriteCompressionBlockHeader(){} // RVA: 0x7FFAF3ACBB50
+        public void ShouldMergeCompressionBlock(){} // RVA: 0x7FFAF3ACBD70
         public void .ctor(){} // RVA: 0x7FFAF3ACC5F0
         public void SetLayoutDirty(){} // RVA: 0x7FFAF3ACC830
         public void SetVerticesDirty(){} // RVA: 0x7FFAF3ACCB00
         public void OnPopulateMesh(){} // RVA: 0x7FFAF3ACCBA0
         // ── Unresolved (hash) ──
-        public void m_D64(){} // RVA: 0x7FFAF3ACBB50
-        public void m_C9D(){} // RVA: 0x7FFAF3ACBD70
         public void m_FF9(){} // RVA: 0x7FFAF3ACBF90
         public void m_408(){} // RVA: 0x7FFAF3ACC1B0
         public void m_F20(){} // RVA: 0x7FFAF3ACC3D0

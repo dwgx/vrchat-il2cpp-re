@@ -16,6 +16,8 @@ namespace VRC.Rendering
         public void ToType(){} // RVA: 0x7FFAFB88FD90
         public void TryFormat(){} // RVA: 0x7FFAFB88FF10
         public void Start(){} // RVA: 0x7FFAFB8900B0
+        public void ConvertCharToString(){} // RVA: 0x7FFAFB890560
+        public void ConvertCharToInt16(){} // RVA: 0x7FFAFB8906E0
         public void OnDestroy(){} // RVA: 0x7FFAFB890860
         public void OnDisable(){} // RVA: 0x7FFAFB890C30
         public void OnEnable(){} // RVA: 0x7FFAFB890DC0
@@ -23,8 +25,6 @@ namespace VRC.Rendering
         public void m_DF5(){} // RVA: 0x7FFAFB88FA70
         public void m_D16(){} // RVA: 0x7FFAFB88FFA0
         public void m_182(){} // RVA: 0x7FFAFB8903E0
-        public void m_E3A(){} // RVA: 0x7FFAFB890560
-        public void m_FC3(){} // RVA: 0x7FFAFB8906E0
         public void m_515(){} // RVA: 0x7FFAFB890770
         public void m_3EA(){} // RVA: 0x7FFAFB8907B0
         public void m_3E8(){} // RVA: 0x7FFAFB890F10
@@ -242,18 +242,17 @@ namespace VRC.Rendering
     public class PopulateMesh_F6AB
     {
         // ── Methods ──
+        public void Sprite(){} // RVA: 0x7FFAF35608B0
         public void OnPopulateMesh(){} // RVA: 0x7FFAF35951D0
+        public void OverrideSprite(){} // RVA: 0x7FFAF3595CD0
+        public void Type(){} // RVA: 0x7FFAF3596200
+        public void PreserveAspect(){} // RVA: 0x7FFAF3596730
         public void .ctor(){} // RVA: 0x7FFAF3596C60
         public void Initialize(){} // RVA: 0x7FFAF3596CF0
-        // ── Unresolved (hash) ──
-        public void m_B09(){} // RVA: 0x7FFAF35608B0
-        public void m_8A7(){} // RVA: 0x7FFAF3595CD0
-        public void m_05C(){} // RVA: 0x7FFAF3596200
-        public void m_C5C(){} // RVA: 0x7FFAF3596730
-        public void m_F59(){} // RVA: 0x7FFAF3597220
-        public void m_788(){} // RVA: 0x7FFAF3597750
-        public void m_3EC(){} // RVA: 0x7FFAF3597840
-        public void m_37C(){} // RVA: 0x7FFAF3597D70
+        public void FillCenter(){} // RVA: 0x7FFAF3597220
+        public void FillMethod(){} // RVA: 0x7FFAF3597750
+        public void FillAmount(){} // RVA: 0x7FFAF3597840
+        public void FillClockwise(){} // RVA: 0x7FFAF3597D70
     }
 
     /// <summary>Originally: ÍÌÌÌÍÎÌÍÎÍÌÌÏÏÍÎÌÎÏÏÎÌÏ</summary>

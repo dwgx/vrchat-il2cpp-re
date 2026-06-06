@@ -27,6 +27,8 @@ namespace VRC.Internal.Generated
     public class MonoBehaviourHandler_649B
     {
         // ── Methods ──
+        public void OnTriggerExit(){} // RVA: 0x7FFAF463AF80
+        public void OnTriggerStay(){} // RVA: 0x7FFAF463B070
         public void Awake(){} // RVA: 0x7FFAF463BF40
         public void OnEnable(){} // RVA: 0x7FFAF463C020
         public void Start(){} // RVA: 0x7FFAF463C100
@@ -43,13 +45,17 @@ namespace VRC.Internal.Generated
         public void Initialize(){} // RVA: 0x7FFAF463D1F0
         public void .cctor(){} // RVA: 0x7FFAF463D350
         public void OnTriggerEnter(){} // RVA: 0x7FFAF463D4D0
-        // ── 12 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_404(){} // RVA: 0x7FFAF4638CE0
         public void m_7FA(){} // RVA: 0x7FFAF4638CF0
         public void m_7C1(){} // RVA: 0x7FFAF4638DB0
         public void m_341(){} // RVA: 0x7FFAF4639000
         public void m_931(){} // RVA: 0x7FFAF46393E0
-        // ... 7 more unresolved methods
+        public void m_2F4(){} // RVA: 0x7FFAF4639630
+        public void m_EAE(){} // RVA: 0x7FFAF463ABB0
+        public void m_EB4(){} // RVA: 0x7FFAF463AD80
+        public void m_74C(){} // RVA: 0x7FFAF463AE70
+        public void m_32D(){} // RVA: 0x7FFAF463AF60
     }
 
     /// <summary>Originally: ÌÏÎÎÏÍÏÏÍÍÌÎÍÍÍÍÌÌÏÏÏÏÌ</summary>

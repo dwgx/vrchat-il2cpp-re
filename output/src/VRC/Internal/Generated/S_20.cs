@@ -195,17 +195,16 @@ namespace VRC.Internal.Generated
     public class Static10m_9954
     {
         // ── Methods ──
+        public void StartAnimationMode(){} // RVA: 0x7FFAFB5E3770
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAFB5E37B0
+        public void StopAnimationMode(){} // RVA: 0x7FFAFB5E3820
+        public void InAnimationMode(){} // RVA: 0x7FFAFB5E3880
+        public void BeginSampling(){} // RVA: 0x7FFAFB5E38F0
+        public void EndSampling(){} // RVA: 0x7FFAFB5E38F0
         public void ReadGameObjectState(){} // RVA: 0x7FFAFB5E3930
-        // ── Unresolved (hash) ──
-        public void m_954(){} // RVA: 0x7FFAFB5E3770
-        public void m_3E0(){} // RVA: 0x7FFAFB5E3820
-        public void m_52C(){} // RVA: 0x7FFAFB5E3880
-        public void m_4DE(){} // RVA: 0x7FFAFB5E38F0
-        public void m_02A(){} // RVA: 0x7FFAFB5E38F0
-        public void m_DD4(){} // RVA: 0x7FFAFB5E3770
-        public void m_B02(){} // RVA: 0x7FFAFB5E3990
+        public void SampleAnimationClip(){} // RVA: 0x7FFAFB5E3770
+        public void AddPropertyModification(){} // RVA: 0x7FFAFB5E3990
     }
 
     /// <summary>Originally: ÎÍÍÌÎÍÏÌÎÏÍÌÍÌÏÏÌÎÌÎÏÎÎ</summary>
@@ -523,11 +522,11 @@ namespace VRC.Internal.Generated
         public void Start(){} // RVA: 0x7FFAFBD3BDB0
         public void .ctor(){} // RVA: 0x7FFAF2D8DD50
         public void Initialize(){} // RVA: 0x7FFAFBD3BF20
+        public void CanvasGroup(){} // RVA: 0x7FFAFBD3C090
         public void ConfigureCanvasGroup_F23F16001D6E(){} // RVA: 0x7FFAFBD3C370
         public void OnEnable(){} // RVA: 0x7FFAFBD3C530
         public void OnDisable(){} // RVA: 0x7FFAFBD3C6F0
         // ── Unresolved (hash) ──
-        public void m_3F6(){} // RVA: 0x7FFAFBD3C090
         public void m_B8E(){} // RVA: 0x7FFAFBD3C120
         public void m_658(){} // RVA: 0x7FFAFBD3C2E0
         public void m_CE1(){} // RVA: 0x7FFAFBD3C780
@@ -1232,15 +1231,14 @@ namespace VRC.Internal.Generated
     public class Static8m_8951
     {
         // ── Methods ──
+        public void CanvasGroup(){} // RVA: 0x7FFAF32C9480
+        public void Alpha(){} // RVA: 0x7FFAF32C9730
+        public void Interactable(){} // RVA: 0x7FFAF32C99E0
+        public void BlocksRaycasts(){} // RVA: 0x7FFAF32C9C90
         public void .ctor(){} // RVA: 0x7FFAF2D8D310
         public void Initialize(){} // RVA: 0x7FFAF32C9F40
         public void ConfigureCanvasGroup(){} // RVA: 0x7FFAF32CA1F0
-        // ── Unresolved (hash) ──
-        public void m_BDA(){} // RVA: 0x7FFAF32C9480
-        public void m_C49(){} // RVA: 0x7FFAF32C9730
-        public void m_FE0(){} // RVA: 0x7FFAF32C99E0
-        public void m_C97(){} // RVA: 0x7FFAF32C9C90
-        public void m_78F(){} // RVA: 0x7FFAF32CA4A0
+        public void IgnoreParentGroups(){} // RVA: 0x7FFAF32CA4A0
     }
 
     /// <summary>Originally: ÎÍÍÌÌÍÎÌÏÏÎÍÍÏÍÏÌÎÏÏÌÎÍ</summary>
