@@ -1,5 +1,11 @@
 # VRChat IL2CPP Reverse Engineering Handoff
 
+> ⚠️ **HISTORICAL SNAPSHOT (2026-06-05 audit).** Coverage numbers in this document
+> predate the v2.3 quality audit. For current canonical numbers see
+> `output/coverage_stats.json`; for the up-to-date workflow and handoff guide see
+> `WORKFLOW.md` (especially §6 "接手者：从这里开始"). This file is retained for its
+> detailed architectural/tool inventory, which remains accurate.
+
 Generated during repository audit on 2026-06-05 JST.
 
 Scope: current checkout of `D:\Project\vrchat-il2cpp-re`. This report is based on direct review of the core pipeline, deobfuscator, Frida scripts, IDA scripts, LLM naming tools, protocol documents, dashboard, source-tree product, and repository inventories. Some artifacts are stale relative to others: `README.md` and `output/pipeline_coverage_report.md` describe the May 2026 / 86K-class build, while `output/coverage_report.md` and `docs/index.html` describe older April snapshots. Those discrepancies are called out instead of normalized away.
