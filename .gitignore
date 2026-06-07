@@ -1,6 +1,10 @@
 # === Secrets ===
 .env
 
+# === Private handoff (operational/sensitive — never publish) ===
+HANDOFF_PRIVATE.md
+HANDOFF_PRIVATE*.md
+
 # === Huge binary files (17GB+) ===
 dumps/
 ida/*.i64
