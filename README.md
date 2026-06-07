@@ -15,7 +15,7 @@
 | cross_version entries | 53,292 | RVA + Codex + sibling-context |
 | Pipeline runtime | ~25s full run | — |
 
-Naming sources: RVA propagation (15.5K), Codex mega-batches (1.6K), sibling-context inference (in progress), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts.
+Naming sources: RVA propagation (15.5K), Codex mega-batches (2.8K), sibling-context inference (13.5K), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts.
 
 ## Beebyte struct layout (June 5 build)
 
