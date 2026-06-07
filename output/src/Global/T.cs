@@ -262,7 +262,7 @@ public class TDictionary
 public class TEdge
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class TEventEqualityComparerType
@@ -276,15 +276,15 @@ public class TEventType
 public class TIME_DYNAMIC_ZONE_INFORMATION
 {
     // ── Methods ──
-    public void GetTimeZoneKeyName(){} // RVA: 0x7FFAF86A2C90
+    public void GetTimeZoneKeyName(){} // RVA: 0x5BF2C90
 }
 
 public class TIME_ZONE_INFORMATION
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF86A2CB0
-    public void GetStandardName(){} // RVA: 0x7FFAF86A2DD0
-    public void GetDaylightName(){} // RVA: 0x7FFAF86A2DE0
+    public void .ctor(){} // RVA: 0x5BF2CB0
+    public void GetStandardName(){} // RVA: 0x5BF2DD0
+    public void GetDaylightName(){} // RVA: 0x5BF2DE0
 }
 
 public class TKey

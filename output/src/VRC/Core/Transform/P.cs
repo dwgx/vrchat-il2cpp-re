@@ -9,21 +9,21 @@ namespace VRC.Core.Transform
     public class ProfiledTransformHandler_BF03
     {
         // ── Methods ──
-        public void ConstructProfiledTransformHandler(){} // RVA: 0x7FFAF4577270
-        public void .ctor(){} // RVA: 0x7FFAF45773B0
-        public void Initialize(){} // RVA: 0x7FFAF45775A0
-        public void InvokeProfiledTransformHandlers(){} // RVA: 0x7FFAF4577700
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void InvokeRegisteredProfiledTransformHandlers(){} // RVA: 0x7FFAF4577950
+        public void ConstructProfiledTransformHandler(){} // RVA: 0x1AC7270
+        public void .ctor(){} // RVA: 0x1AC73B0
+        public void Initialize(){} // RVA: 0x1AC75A0
+        public void InvokeProfiledTransformHandlers(){} // RVA: 0x1AC7700
+        public void Dispose(){} // RVA: 0x2DD310
+        public void InvokeRegisteredProfiledTransformHandlers(){} // RVA: 0x1AC7950
         // ── Unresolved (hash) ──
-        public void m_DEC(){} // RVA: 0x7FFAF4577190
-        public void m_D57(){} // RVA: 0x7FFAF45772C0
-        public void m_888(){} // RVA: 0x7FFAF4577790
-        public void m_146(){} // RVA: 0x7FFAF4577870
-        public void m_2DD(){} // RVA: 0x7FFAF4577AB0
-        public void m_EEC(){} // RVA: 0x7FFAF4577B90
-        public void m_807(){} // RVA: 0x7FFAF4577C20
-        public void m_CC8(){} // RVA: 0x7FFAF4577D00
+        public void m_DEC(){} // RVA: 0x1AC7190
+        public void m_D57(){} // RVA: 0x1AC72C0
+        public void m_888(){} // RVA: 0x1AC7790
+        public void m_146(){} // RVA: 0x1AC7870
+        public void m_2DD(){} // RVA: 0x1AC7AB0
+        public void m_EEC(){} // RVA: 0x1AC7B90
+        public void m_807(){} // RVA: 0x1AC7C20
+        public void m_CC8(){} // RVA: 0x1AC7D00
     }
 
 }

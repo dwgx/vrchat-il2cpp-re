@@ -8,55 +8,55 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class User
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA3600
+        public void .ctor(){} // RVA: 0x60F3600
     }
 
     public class UserAndRoom
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA4460
+        public void .ctor(){} // RVA: 0x60F4460
     }
 
     public class UserAndRoomList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA4770
+        public void .ctor(){} // RVA: 0x60F4770
     }
 
     public class UserCapability
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA4B60
+        public void .ctor(){} // RVA: 0x60F4B60
     }
 
     public class UserCapabilityList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA4F00
+        public void .ctor(){} // RVA: 0x60F4F00
     }
 
     public class UserDataStoreUpdateResponse
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA52F0
+        public void .ctor(){} // RVA: 0x60F52F0
     }
 
     public class UserList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA4070
+        public void .ctor(){} // RVA: 0x60F4070
     }
 
     public class UserProof
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA53C0
+        public void .ctor(){} // RVA: 0x60F53C0
     }
 
     public class UserReportID
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA5510
+        public void .ctor(){} // RVA: 0x60F5510
     }
 
 }

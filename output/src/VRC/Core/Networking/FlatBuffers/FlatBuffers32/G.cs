@@ -8,14 +8,14 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
     public class Guid
     {
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x7FFAF44189C0
-        public void __init(){} // RVA: 0x7FFAFA090560
-        public void __assign(){} // RVA: 0x7FFAFA090630
-        public void Bytes(){} // RVA: 0x7FFAFA0D4F80
-        public void CreateGuid(){} // RVA: 0x7FFAFA0D6B80
-        public void UnPack(){} // RVA: 0x7FFAFA0D6C50
-        public void UnPackTo(){} // RVA: 0x7FFAFA0D6CC0
-        public void Pack(){} // RVA: 0x7FFAFA0D6DC0
+        public void get_ByteBuffer(){} // RVA: 0x19689C0
+        public void __init(){} // RVA: 0x75E0560
+        public void __assign(){} // RVA: 0x75E0630
+        public void Bytes(){} // RVA: 0x7624F80
+        public void CreateGuid(){} // RVA: 0x7626B80
+        public void UnPack(){} // RVA: 0x7626C50
+        public void UnPackTo(){} // RVA: 0x7626CC0
+        public void Pack(){} // RVA: 0x7626DC0
     }
 
     public class GuidT
@@ -23,9 +23,9 @@ namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
         public object ViewId;
 
         // ── Methods ──
-        public void get_Bytes(){} // RVA: 0x7FFAF2DA8380
-        public void set_Bytes(){} // RVA: 0x7FFAF2D8EE30
-        public void .ctor(){} // RVA: 0x7FFAFA0D6EA0
+        public void get_Bytes(){} // RVA: 0x2F8380
+        public void set_Bytes(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7626EA0
     }
 
 }

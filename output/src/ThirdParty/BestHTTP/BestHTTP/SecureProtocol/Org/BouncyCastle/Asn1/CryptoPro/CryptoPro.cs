@@ -8,8 +8,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cryp
     public class CryptoProObjectIdentifiers
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAFC26A3C0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x97BA3C0
     }
 
     public class ECGost3410NamedCurves
@@ -17,34 +17,34 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cryp
         public object P;
 
         // ── Methods ──
-        public void ConfigureBasepoint(){} // RVA: 0x7FFAFC26B270
-        public void ConfigureCurve(){} // RVA: 0x7FFAF44EF520
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAFC26B310
-        public void GetByOid(){} // RVA: 0x7FFAFC26D6B0
-        public void get_Names(){} // RVA: 0x7FFAFC26D790
-        public void GetByName(){} // RVA: 0x7FFAFC26D8E0
-        public void GetName(){} // RVA: 0x7FFAFC26DA60
-        public void GetOid(){} // RVA: 0x7FFAFC26DB20
+        public void ConfigureBasepoint(){} // RVA: 0x97BB270
+        public void ConfigureCurve(){} // RVA: 0x1A3F520
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x97BB310
+        public void GetByOid(){} // RVA: 0x97BD6B0
+        public void get_Names(){} // RVA: 0x97BD790
+        public void GetByName(){} // RVA: 0x97BD8E0
+        public void GetName(){} // RVA: 0x97BDA60
+        public void GetOid(){} // RVA: 0x97BDB20
     }
 
     public class ECGost3410ParamSetParameters
     {
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFAFC26DDD0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAFC26E5C0 | overloaded x2
-        public void get_P(){} // RVA: 0x7FFAFC1DAF80
-        public void get_Q(){} // RVA: 0x7FFAFC1DAFA0
-        public void get_A(){} // RVA: 0x7FFAFC1DAFC0
-        public void ToAsn1Object(){} // RVA: 0x7FFAFC26E920
+        public void GetInstance(){} // RVA: 0x97BDDD0 | overloaded x2
+        public void .ctor(){} // RVA: 0x97BE5C0 | overloaded x2
+        public void get_P(){} // RVA: 0x972AF80
+        public void get_Q(){} // RVA: 0x972AFA0
+        public void get_A(){} // RVA: 0x972AFC0
+        public void ToAsn1Object(){} // RVA: 0x97BE920
     }
 
     public class Gost28147Parameters
     {
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFAFC26ED10 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAFC26EED0
-        public void ToAsn1Object(){} // RVA: 0x7FFAFC26F0B0
+        public void GetInstance(){} // RVA: 0x97BED10 | overloaded x2
+        public void .ctor(){} // RVA: 0x97BEED0
+        public void ToAsn1Object(){} // RVA: 0x97BF0B0
     }
 
     public class Gost3410NamedParameters
@@ -52,35 +52,35 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cryp
         public object KeySize;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAFC26F1C0
-        public void GetByOid(){} // RVA: 0x7FFAFC26F9B0
-        public void get_Names(){} // RVA: 0x7FFAFC26FA90
-        public void GetByName(){} // RVA: 0x7FFAFC26FBE0
-        public void GetOid(){} // RVA: 0x7FFAFC26FD60
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x97BF1C0
+        public void GetByOid(){} // RVA: 0x97BF9B0
+        public void get_Names(){} // RVA: 0x97BFA90
+        public void GetByName(){} // RVA: 0x97BFBE0
+        public void GetOid(){} // RVA: 0x97BFD60
     }
 
     public class Gost3410ParamSetParameters
     {
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFAFC270010 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAFC270560 | overloaded x2
-        public void get_KeySize(){} // RVA: 0x7FFAF2DDA5C0
-        public void get_P(){} // RVA: 0x7FFAFC1DAFA0
-        public void get_Q(){} // RVA: 0x7FFAFC1DAFC0
-        public void get_A(){} // RVA: 0x7FFAFC2707F0
-        public void ToAsn1Object(){} // RVA: 0x7FFAFC270810
+        public void GetInstance(){} // RVA: 0x97C0010 | overloaded x2
+        public void .ctor(){} // RVA: 0x97C0560 | overloaded x2
+        public void get_KeySize(){} // RVA: 0x32A5C0
+        public void get_P(){} // RVA: 0x972AFA0
+        public void get_Q(){} // RVA: 0x972AFC0
+        public void get_A(){} // RVA: 0x97C07F0
+        public void ToAsn1Object(){} // RVA: 0x97C0810
     }
 
     public class Gost3410PublicKeyAlgParameters
     {
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFAFC270A00 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAFC270CB0 | overloaded x3
-        public void get_PublicKeyParamSet(){} // RVA: 0x7FFAF2DA8380
-        public void get_DigestParamSet(){} // RVA: 0x7FFAF2D907C0
-        public void get_EncryptionParamSet(){} // RVA: 0x7FFAF2DBB0C0
-        public void ToAsn1Object(){} // RVA: 0x7FFAFC271010
+        public void GetInstance(){} // RVA: 0x97C0A00 | overloaded x2
+        public void .ctor(){} // RVA: 0x97C0CB0 | overloaded x3
+        public void get_PublicKeyParamSet(){} // RVA: 0x2F8380
+        public void get_DigestParamSet(){} // RVA: 0x2E07C0
+        public void get_EncryptionParamSet(){} // RVA: 0x30B0C0
+        public void ToAsn1Object(){} // RVA: 0x97C1010
     }
 
 }

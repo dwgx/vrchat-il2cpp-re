@@ -8,9 +8,9 @@ namespace ThirdParty.Valve.Valve.VR
     public class Utils
     {
         // ── Methods ──
-        public void ToUtf8(){} // RVA: 0x7FFAF9B0D4C0
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAF9B0D760
+        public void ToUtf8(){} // RVA: 0x705D4C0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x705D760
     }
 
 }

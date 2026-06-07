@@ -10,14 +10,14 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
         public object System.Collections.Generic.IEnumerator<System.Int32>.Current;
 
         // ── Methods ──
-        public void TryGetValue(){} // RVA: 0x7FFAF2D33FA0
-        public void Remove(){} // RVA: 0x7FFAF2D33FA0
-        public void ContainsKey(){} // RVA: 0x7FFAF2D33FA0
-        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
-        public void GetEnumeratorWorker(){} // RVA: 0x7FFAF2ABCD60
-        public void get_Item(){} // RVA: 0x7FFAF2D33FA0
-        public void set_Item(){} // RVA: 0x7FFAF2D33FA0
-        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
+        public void TryGetValue(){} // RVA: 0x283FA0
+        public void Remove(){} // RVA: 0x283FA0
+        public void ContainsKey(){} // RVA: 0x283FA0
+        public void GetEnumerator(){} // RVA: 0xCD60
+        public void GetEnumeratorWorker(){} // RVA: 0xCD60
+        public void get_Item(){} // RVA: 0x283FA0
+        public void set_Item(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x24A50
     }
 
 }

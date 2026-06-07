@@ -8,8 +8,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Iana
     public class IanaObjectIdentifiers
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAFC250380
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x97A0380
     }
 
 }

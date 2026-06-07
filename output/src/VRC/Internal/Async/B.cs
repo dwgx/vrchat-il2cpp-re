@@ -9,16 +9,16 @@ namespace VRC.Internal.Async
     public class BodyConnectedMachineAsyncStateMachine_F6D2
     {
         // ── Methods ──
-        public void SetStateMachine_DB9331771C7C(){} // RVA: 0x7FFAF43FB0B0
-        public void SetStateMachine(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext_D5102AB0CB9C(){} // RVA: 0x7FFAF43FBB50
-        public void Equals(){} // RVA: 0x7FFAF43FC5F0
-        public void InternalGetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF43FD090
-        public void ToString(){} // RVA: 0x7FFAF43FDB30
-        public void SetConnectedBody(){} // RVA: 0x7FFAF43FE5A0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void SetStateMachine_DB9331771C7C(){} // RVA: 0x194B0B0
+        public void SetStateMachine(){} // RVA: 0x2DD310
+        public void MoveNext_D5102AB0CB9C(){} // RVA: 0x194BB50
+        public void Equals(){} // RVA: 0x194C5F0
+        public void InternalGetHashCode(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x194D090
+        public void ToString(){} // RVA: 0x194DB30
+        public void SetConnectedBody(){} // RVA: 0x194E5A0
+        public void get_ConnectedBody(){} // RVA: 0x2DD310
     }
 
 }

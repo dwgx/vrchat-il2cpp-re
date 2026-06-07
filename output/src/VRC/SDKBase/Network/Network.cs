@@ -8,23 +8,23 @@ namespace VRC.SDKBase.Network
     public class NetworkIDAssignment
     {
         // ── Methods ──
-        public void GetNetworkIDGameObjectPath(){} // RVA: 0x7FFAFC5706D0
-        public void GetSerializedTypes(){} // RVA: 0x7FFAFC570A70 | overloaded x2
-        public void ConfigureNetworkIDs(){} // RVA: 0x7FFAFC570CA0
-        public void <ConfigureNetworkIDs>g__DoTypesMatch|7_7(){} // RVA: 0x7FFAFC572230
+        public void GetNetworkIDGameObjectPath(){} // RVA: 0x9AC06D0
+        public void GetSerializedTypes(){} // RVA: 0x9AC0A70 | overloaded x2
+        public void ConfigureNetworkIDs(){} // RVA: 0x9AC0CA0
+        public void <ConfigureNetworkIDs>g__DoTypesMatch|7_7(){} // RVA: 0x9AC2230
     }
 
     public class NetworkIDPair
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAFC570410
-        public void .ctor(){} // RVA: 0x7FFAFC570610
+        public void ToString(){} // RVA: 0x9AC0410
+        public void .ctor(){} // RVA: 0x9AC0610
     }
 
     public class VRCNetworkBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void .ctor(){} // RVA: 0x2DDD50
     }
 
 }

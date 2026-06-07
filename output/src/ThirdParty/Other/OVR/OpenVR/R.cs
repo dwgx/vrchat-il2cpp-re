@@ -20,8 +20,8 @@ namespace ThirdParty.Other.OVR.OpenVR
     public class RenderModel_TextureMap_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8C9E6C0
-        public void Unpack(){} // RVA: 0x7FFAF8C9E6E0
+        public void .ctor(){} // RVA: 0x61EE6C0
+        public void Unpack(){} // RVA: 0x61EE6E0
     }
 
     public class RenderModel_Vertex_t
@@ -35,8 +35,8 @@ namespace ThirdParty.Other.OVR.OpenVR
     public class RenderModel_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8C9E700
-        public void Unpack(){} // RVA: 0x7FFAF8C9E730
+        public void .ctor(){} // RVA: 0x61EE700
+        public void Unpack(){} // RVA: 0x61EE730
     }
 
 }

@@ -9,35 +9,35 @@ namespace VRC.Player
     public class PlayerBroadcastJoinedComponent_7907
     {
         // ── Methods ──
-        public void OnDisable(){} // RVA: 0x7FFAF32CA860
-        public void Awake(){} // RVA: 0x7FFAF32CAB40
-        public void OnEnable(){} // RVA: 0x7FFAF32CACF0
-        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        public void Initialize(){} // RVA: 0x7FFAF32CAD10
-        public void Update(){} // RVA: 0x7FFAF32CAEC0
-        public void LateUpdate(){} // RVA: 0x7FFAF32CAFD0
-        public void OnDisable_53FFA7DFBB76(){} // RVA: 0x7FFAF32CA860
-        public void OnDestroy(){} // RVA: 0x7FFAF32CB180
-        public void OnApplicationPause(){} // RVA: 0x7FFAF32CB290
+        public void OnDisable(){} // RVA: 0x81A860
+        public void Awake(){} // RVA: 0x81AB40
+        public void OnEnable(){} // RVA: 0x81ACF0
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void Initialize(){} // RVA: 0x81AD10
+        public void Update(){} // RVA: 0x81AEC0
+        public void LateUpdate(){} // RVA: 0x81AFD0
+        public void OnDisable_53FFA7DFBB76(){} // RVA: 0x81A860
+        public void OnDestroy(){} // RVA: 0x81B180
+        public void OnApplicationPause(){} // RVA: 0x81B290
         // ── Unresolved (hash) ──
-        public void m_692(){} // RVA: 0x7FFAF32CA750
-        public void m_661(){} // RVA: 0x7FFAF32CA880
-        public void m_0C0(){} // RVA: 0x7FFAF32CAA30
+        public void m_692(){} // RVA: 0x81A750
+        public void m_661(){} // RVA: 0x81A880
+        public void m_0C0(){} // RVA: 0x81AA30
     }
 
     /// <summary>Originally: ÎÌÍÌÌÏÍÍÍÍÏÏÎÍÎÍÎÎÌÍÍÍÎ</summary>
     public class PlayerCustomInputTextEditedSibling_D467
     {
         // ── Methods ──
-        public void GetComponent(){} // RVA: 0x7FFAFBBCFBA0
-        public void .ctor(){} // RVA: 0x7FFAFB67B500
-        public void Initialize(){} // RVA: 0x7FFAFBBCFBD0
+        public void GetComponent(){} // RVA: 0x911FBA0
+        public void .ctor(){} // RVA: 0x8BCB500
+        public void Initialize(){} // RVA: 0x911FBD0
         // ── 16 unresolved (hash) ──
-        public void m_3B0(){} // RVA: 0x7FFAFBBCFD80
-        public void m_A0F(){} // RVA: 0x7FFAFBBCFDF0
-        public void m_238(){} // RVA: 0x7FFAFBBCFFD0
-        public void m_E46(){} // RVA: 0x7FFAFBBD0180
-        public void m_FA0(){} // RVA: 0x7FFAFBBD0360
+        public void m_3B0(){} // RVA: 0x911FD80
+        public void m_A0F(){} // RVA: 0x911FDF0
+        public void m_238(){} // RVA: 0x911FFD0
+        public void m_E46(){} // RVA: 0x9120180
+        public void m_FA0(){} // RVA: 0x9120360
         // ... 11 more unresolved methods
     }
 
@@ -45,49 +45,50 @@ namespace VRC.Player
     public class PlayerCustomInputTextEdited_02B7
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFB67B500
-        public void Initialize(){} // RVA: 0x7FFAFBB4EE60
-        public void OnCustomInputTextEdited(){} // RVA: 0x7FFAFBB4F5E0
-        public void ApplyWheelVelocityDamping(){} // RVA: 0x7FFAFBB4F890
-        public void ApplyWheelMotorTorque(){} // RVA: 0x7FFAFBB4FB70
-        public void Awake(){} // RVA: 0x7FFAFBB4FBD0
-        public void OnDestroy(){} // RVA: 0x7FFAFBB4FC90
-        public void AddVelocityScaledRigidbodyForce(){} // RVA: 0x7FFAFBB50230
+        public void .ctor(){} // RVA: 0x8BCB500
+        public void Initialize(){} // RVA: 0x909EE60
+        public void OnCustomInputTextEdited(){} // RVA: 0x909F5E0
+        public void ApplyWheelVelocityDamping(){} // RVA: 0x909F890
+        public void ApplyWheelMotorTorque(){} // RVA: 0x909FB70
+        public void Awake(){} // RVA: 0x909FBD0
+        public void OnDestroy(){} // RVA: 0x909FC90
+        public void AddVelocityScaledRigidbodyForce(){} // RVA: 0x90A0230
         // ── Unresolved (hash) ──
-        public void m_33C(){} // RVA: 0x7FFAFBB4EE10
-        public void m_552(){} // RVA: 0x7FFAFBB4EE80
-        public void m_AFA(){} // RVA: 0x7FFAFBB4EE60
-        public void m_CED(){} // RVA: 0x7FFAFBB4F300
-        public void m_FAB(){} // RVA: 0x7FFAFBB4FF70
+        public void m_33C(){} // RVA: 0x909EE10
+        public void m_552(){} // RVA: 0x909EE80
+        public void m_AFA(){} // RVA: 0x909EE60
+        public void m_CED(){} // RVA: 0x909F300
+        public void m_FAB(){} // RVA: 0x909FF70
     }
 
     /// <summary>Originally: ÎÍÍÌÎÎÏÏÌÎÎÍÎÎÎÏÍÍÌÍÎÌÌ</summary>
     public class PlayerIsInteractivePickupUseDown_3AE2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF32DDF40
-        public void Initialize(){} // RVA: 0x7FFAF32DDF50
-        public void OnPickupUseDown(){} // RVA: 0x7FFAF32DE080
-        public void InvokePickupUseDown(){} // RVA: 0x7FFAF32DE0A0
-        public void CanInteract(){} // RVA: 0x7FFAF32DE1D0
-        public void OnDrop(){} // RVA: 0x7FFAF32DE300
-        public void OnPickupUseUp(){} // RVA: 0x7FFAF32DE360
-        public void Awake(){} // RVA: 0x7FFAF32DE490
-        public void OnDestroy(){} // RVA: 0x7FFAF32DE570
-        public void OnPickup(){} // RVA: 0x7FFAF32DE6A0
-        public void set_IsInteractive(){} // RVA: 0x7FFAF32DE700
-        public void get_IsInteractive(){} // RVA: 0x7FFAF2E72850
-        public void SetInteractiveState(){} // RVA: 0x7FFAF32DE830
-        public void InvokeInteract(){} // RVA: 0x7FFAF32DE960
-        public void InvokePickupUseUp(){} // RVA: 0x7FFAF32DEA90
-        public void Interact(){} // RVA: 0x7FFAF32DEBC0
+        public void .ctor(){} // RVA: 0x82DF40
+        public void Initialize(){} // RVA: 0x82DF50
+        public void OnPickupUseDown(){} // RVA: 0x82E080
+        public void InvokePickupUseDown(){} // RVA: 0x82E0A0
+        public void CanInteract(){} // RVA: 0x82E1D0
+        public void OnDrop(){} // RVA: 0x82E300
+        public void Awake(){} // RVA: 0x82E490
+        public void OnDestroy(){} // RVA: 0x82E570
+        public void OnPickup(){} // RVA: 0x82E6A0
+        public void set_IsInteractive(){} // RVA: 0x82E700
+        public void get_IsInteractive(){} // RVA: 0x3C2850
+        public void Interact(){} // RVA: 0x82EBC0
+        // ── Unresolved (hash) ──
+        public void m_61B(){} // RVA: 0x82E360
+        public void m_C77(){} // RVA: 0x82E830
+        public void m_365(){} // RVA: 0x82E960
+        public void m_FFF(){} // RVA: 0x82EA90
     }
 
     /// <summary>Originally: ÎÏÍÎÎÎÍÎÎÏÎÌÌÏÌÏÎÏÍÏÏÍÌ</summary>
     public class PlayerLeftSibling_6863
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void Add(){} // RVA: 0x24B10
         // ── Unresolved (hash) ──
         public void m_B32(){}
         public void m_34E(){}
@@ -98,2120 +99,2136 @@ namespace VRC.Player
     public class PlayerLeft_0AA8
     {
         // ── Methods ──
-        public void InternalArrayGetItem(){} // RVA: 0x7FFAF2AD4A50
-        public void get_Height(){} // RVA: 0x7FFAF316B3A0
-        public void set_EyeFollowingBlendshapesValid(){} // RVA: 0x7FFAF35D65D0
-        public void get_MoveNext(){} // RVA: 0x7FFAF2F12D00
-        public void set_authorId(){} // RVA: 0x7FFAF2F14450
-        public void IndexOf(){} // RVA: 0x7FFAF433F1D0
-        public void LastIndexOf(){} // RVA: 0x7FFAF433F210
-        public void LastIndexOf_703EF431D8B5(){} // RVA: 0x7FFAF433F250
-        public void LastIndexOf_11195BDB46FA(){} // RVA: 0x7FFAF433F270
-        public void InternalArrayInsert(){} // RVA: 0x7FFAF433F370
-        public void IndexOf_CC7214CB1755(){} // RVA: 0x7FFAF433F470
-        public void BinarySearch(){} // RVA: 0x7FFAF433F570
-        public void IndexOf_AD0A59FFC330(){} // RVA: 0x7FFAF433F670
-        public void IsLocalPlayerMaster(){} // RVA: 0x7FFAF3F47900
-        public void UpdateBipedIK(){} // RVA: 0x7FFAF3F48020
-        public void InitializeNetworkSyncContainer(){} // RVA: 0x7FFAF3F3E6E0
-        public void WriteInt64(){} // RVA: 0x7FFAF2ADA620
-        public void IndexOf_5F0AFA7AD30D(){} // RVA: 0x7FFAF433F680
-        public void IndexOf_88F378180185(){} // RVA: 0x7FFAF4340A20
-        public void IndexOf_F541A4655B07(){} // RVA: 0x7FFAF4342290
-        public void InternalArrayIndexOf(){} // RVA: 0x7FFAF43425C0
-        public void IndexOf_1C1BFD186846(){} // RVA: 0x7FFAF43428A0
-        public void InternalArraySetItem(){} // RVA: 0x7FFAF4344050
-        public void OnPlayerLeft(){} // RVA: 0x7FFAF4344170
-        public void Clear(){} // RVA: 0x7FFAF43441F0
-        public void Clear_2EC40DFD40A2(){} // RVA: 0x7FFAF4344200
-        public void TryGetIndexValue(){} // RVA: 0x7FFAF4344320
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF4344350
-        public void Initialize(){} // RVA: 0x7FFAF4344790
-        public void InternalArraySetItem_1CD7189DC32B(){} // RVA: 0x7FFAF4344A10
+        public void MemSet(){} // RVA: 0x24A50
+        public void get_Height(){} // RVA: 0x6BB3A0
+        public void set_EyeFollowingBlendshapesValid(){} // RVA: 0xB265D0
+        public void get_MoveNext(){} // RVA: 0x462D00
+        public void set_authorId(){} // RVA: 0x464450
+        public void IndexOf(){} // RVA: 0x188F1D0
+        public void LastIndexOf(){} // RVA: 0x188F210
+        public void LastIndexOf_703EF431D8B5(){} // RVA: 0x188F250
+        public void LastIndexOf_11195BDB46FA(){} // RVA: 0x188F270
+        public void IndexOf_CC7214CB1755(){} // RVA: 0x188F470
+        public void BinarySearch(){} // RVA: 0x188F570
+        public void IndexOf_AD0A59FFC330(){} // RVA: 0x188F670
+        public void IsLocalPlayerMaster(){} // RVA: 0x1497900
+        public void UpdateBipedIK(){} // RVA: 0x1498020
+        public void InitializeNetworkSyncContainer(){} // RVA: 0x148E6E0
+        public void WriteInt64(){} // RVA: 0x2A620
+        public void IndexOf_5F0AFA7AD30D(){} // RVA: 0x188F680
+        public void IndexOf_88F378180185(){} // RVA: 0x1890A20
+        public void IndexOf_F541A4655B07(){} // RVA: 0x1892290
+        public void IndexOf_1C1BFD186846(){} // RVA: 0x18928A0
+        public void OnPlayerLeft(){} // RVA: 0x1894170
+        public void Clear(){} // RVA: 0x18941F0
+        public void Clear_2EC40DFD40A2(){} // RVA: 0x1894200
+        public void TryGetIndexValue(){} // RVA: 0x1894320
+        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x1894350
+        public void Initialize(){} // RVA: 0x1894790
+        // ── Unresolved (hash) ──
+        public void m_897(){} // RVA: 0x188F370
+        public void m_2A5(){} // RVA: 0x18925C0
+        public void m_C58(){} // RVA: 0x1894050
+        public void m_1CD(){} // RVA: 0x1894A10
     }
 
     /// <summary>Originally: ÎÍÌÌÎÎÌÏÎÏÎÌÏÎÍÌÍÏÍÍÌÎÌ</summary>
     public class PlayerManuallyRecordInteractionStartPlayingCon_017F
     {
         // ── Methods ──
-        public void GetNearestPlayerInRange(){} // RVA: 0x7FFAF32A00A0
-        public void GetScale(){} // RVA: 0x7FFAF32A00D0
-        public void SetUserAttributes(){} // RVA: 0x7FFAF32A0120
-        public void RequestDespawn(){} // RVA: 0x7FFAF32A0150
-        public void GetQuantity(){} // RVA: 0x7FFAF32A0180
-        public void GetPropId(){} // RVA: 0x7FFAF32A01B0
-        public void GetRotation(){} // RVA: 0x7FFAF32A01E0
-        public void ManuallyRecordInteractionEvent(){} // RVA: 0x7FFAF32A0220
-        public void GetItemId(){} // RVA: 0x7FFAF32A0250
-        public void GetIsConsumable(){} // RVA: 0x7FFAF32A0280
-        public void RequestConsume(){} // RVA: 0x7FFAF32A02B0
-        public void GetSpawner(){} // RVA: 0x7FFAF32A02E0
-        public void GetUserAttributes(){} // RVA: 0x7FFAF32A0310
-        public void StopPlayingConsumableEffect(){} // RVA: 0x7FFAF32A0340
-        public void StartPlayingConsumableEffect(){} // RVA: 0x7FFAF32A0370
-        public void GetPlayersInRange(){} // RVA: 0x7FFAF32A0510 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAF32A03D0
-        public void GetIsPlayingConsumableEffect(){} // RVA: 0x7FFAF32A0490
-        public void GetPosition(){} // RVA: 0x7FFAF32A04C0
+        public void GetNearestPlayerInRange(){} // RVA: 0x7F00A0
+        public void GetScale(){} // RVA: 0x7F00D0
+        public void SetUserAttributes(){} // RVA: 0x7F0120
+        public void RequestDespawn(){} // RVA: 0x7F0150
+        public void GetQuantity(){} // RVA: 0x7F0180
+        public void GetPropId(){} // RVA: 0x7F01B0
+        public void GetRotation(){} // RVA: 0x7F01E0
+        public void ManuallyRecordInteractionEvent(){} // RVA: 0x7F0220
+        public void GetItemId(){} // RVA: 0x7F0250
+        public void GetIsConsumable(){} // RVA: 0x7F0280
+        public void RequestConsume(){} // RVA: 0x7F02B0
+        public void GetSpawner(){} // RVA: 0x7F02E0
+        public void GetUserAttributes(){} // RVA: 0x7F0310
+        public void StopPlayingConsumableEffect(){} // RVA: 0x7F0340
+        public void StartPlayingConsumableEffect(){} // RVA: 0x7F0370
+        public void GetPlayersInRange(){} // RVA: 0x7F0510 | overloaded x2
+        public void .ctor(){} // RVA: 0x7F03D0
+        public void GetIsPlayingConsumableEffect(){} // RVA: 0x7F0490
+        public void GetPosition(){} // RVA: 0x7F04C0
     }
 
     /// <summary>Originally: ÎÌÎÌÌÍÌÎÎÌÌÌÏÏÌÏÎÎÏÏÍÌÏ</summary>
     public class PlayerMoveNext_0359
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF33C9AC0
-        public void get_Current(){} // RVA: 0x7FFAF33C9B00
-        public void Equals(){} // RVA: 0x7FFAF33C9B40
-        public void GetHashCode(){} // RVA: 0x7FFAF33CA450
-        public void ToString(){} // RVA: 0x7FFAF33CAD90
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF33CADD0
-        public void SetPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator(){} // RVA: 0x7FFAF33CB700
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void RefreshPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x919AC0
+        public void get_Current(){} // RVA: 0x919B00
+        public void Equals(){} // RVA: 0x919B40
+        public void GetHashCode(){} // RVA: 0x91A450
+        public void ToString(){} // RVA: 0x91AD90
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x91ADD0
+        public void SetPlayerMoveNext(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void RefreshPlayerMoveNext(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_DB5(){} // RVA: 0x91B700
     }
 
     /// <summary>Originally: ÎÏÎÎÎÌÍÏÎÎÏÏÍÎÍÌÌÏÎÏÏÎÍ</summary>
     public class PlayerMoveNext_061E
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetEnumerator(){} // RVA: 0x7FFAFBE131B0
-        public void get_Current(){} // RVA: 0x7FFAFBE131F0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFBE13280
-        public void MoveNext(){} // RVA: 0x7FFAFBE132C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current_D8091878D72F(){} // RVA: 0x7FFAFBE131F0
-        public void System.Collections.IEnumerator.get_Current_B44D29CBB9E6(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF32887F0
-        public void Initialize(){} // RVA: 0x7FFAFBE13360
-        public void ConfigureRectTransform(){} // RVA: 0x7FFAFBE133F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAFBE13430
-        public void System.Collections.Generic.IEnumerator<System.Reflection.Assembly>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ConfigureRectTransform_CE3811BE79BB(){} // RVA: 0x7FFAFBE134C0
-        public void System.Collections.Generic.IEnumerable<System.Reflection.Assembly>.GetEnumerator(){} // RVA: 0x7FFAFBE13430
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void GetEnumerator(){} // RVA: 0x93631B0
+        public void get_Current(){} // RVA: 0x93631F0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x9363280
+        public void MoveNext(){} // RVA: 0x93632C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7D87F0
+        public void Initialize(){} // RVA: 0x9363360
+        public void ConfigureRectTransform(){} // RVA: 0x93633F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x9363430
+        public void System.Collections.Generic.IEnumerator<System.Reflection.Assembly>.get_Current(){} // RVA: 0x2E07C0
+        public void ConfigureRectTransform_CE3811BE79BB(){} // RVA: 0x93634C0
+        public void System.Collections.Generic.IEnumerable<System.Reflection.Assembly>.GetEnumerator(){} // RVA: 0x9363430
+        // ── Unresolved (hash) ──
+        public void m_D80(){} // RVA: 0x93631F0
+        public void m_B44(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÏÌÌÌÍÏÍÌÌÌÏÎÌÏÍÏÍÌÏÍÍÍÏ</summary>
     public class PlayerMoveNext_07DE
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF3C176A0
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3C17910
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF3C17950
+        public void get_Current(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x11676A0
+        public void Equals(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1167910
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x1167950
     }
 
     /// <summary>Originally: ÎÎÍÎÌÌÎÏÏÌÌÏÏÍÌÏÏÎÎÌÌÌÍ</summary>
     public class PlayerMoveNext_083D
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF36DFFC0
-        public void GetHashCode(){} // RVA: 0x7FFAF36E0000
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF36E0040
-        public void MoveNext(){} // RVA: 0x7FFAF36E0140
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose_F6062D4AA361(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF36E0240
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0xC2FFC0
+        public void GetHashCode(){} // RVA: 0xC30000
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0xC30040
+        public void MoveNext(){} // RVA: 0xC30140
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2DD310
+        public void Dispose_F6062D4AA361(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xC30240
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÎÏÍÏÍÍÏÍÏÎÍÏÌÏÎÍÏÌÏÌÌÏÌ</summary>
     public class PlayerMoveNext_0B2A
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF3952770
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF3952A20
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF3952CC0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3952D00
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF3952D40
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0xEA2770
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0xEA2A20
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0xEA2CC0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xEA2D00
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0xEA2D40
+        public void Dispose(){} // RVA: 0x2E07C0
         // ── Unresolved (hash) ──
-        public void m_288(){} // RVA: 0x7FFAF3952FF0
-        public void m_63A(){} // RVA: 0x7FFAF3953290
+        public void m_288(){} // RVA: 0xEA2FF0
+        public void m_63A(){} // RVA: 0xEA3290
     }
 
     /// <summary>Originally: ÎÌÌÍÌÏÍÍÏÌÌÎÏÎÍÎÍÍÌÍÌÍÏ</summary>
     public class PlayerMoveNext_1531
     {
         // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void get_Current(){} // RVA: 0x7FFAF43A0070
-        public void Equals(){} // RVA: 0x7FFAF43A0090
-        public void GetHashCode(){} // RVA: 0x7FFAF43A00D0
-        public void ToString(){} // RVA: 0x7FFAF43A0070
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF43A0110
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF43A0120
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D8D310
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void get_Current(){} // RVA: 0x18F0070
+        public void Equals(){} // RVA: 0x18F0090
+        public void GetHashCode(){} // RVA: 0x18F00D0
+        public void ToString(){} // RVA: 0x18F0070
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x18F0110
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x18F0120
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÎÌÌÍÍÏÍÏÌÎÎÍÎÌÎÎÍÍÏÎÌÍÌ</summary>
     public class PlayerMoveNext_1631
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF41DF990
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41DFA80
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF41DFAC0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF41DFB00
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current_6AA32EC8E62B(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF41DFBF0
+        public void get_Current(){} // RVA: 0x172F990
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x172FA80
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x172FAC0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x172FB00
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current_6AA32EC8E62B(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x172FBF0
     }
 
     /// <summary>Originally: ÎÍÌÍÎÏÏÍÍÎÍÌÎÎÌÍÍÎÌÎÏÍÍ</summary>
     public class PlayerMoveNext_1BDE
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF41E9710
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF41E98B0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41E9A50
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void MoveNext(){} // RVA: 0x1739710
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x17398B0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1739A50
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÎÌÎÌÌÍÎÏÏÏÎÌÏÌÌÏÍÎÎÎÎÏ</summary>
     public class PlayerMoveNext_2001
     {
         // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D34850
-        public void MoveNext(){} // RVA: 0x7FFAF3D34890
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF3D35060
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void get_Current(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1284850
+        public void MoveNext(){} // RVA: 0x1284890
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x1285060
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÎÏÎÌÏÌÏÍÍÍÍÍÎÏÎÏÍÏÏÍÌÏ</summary>
     public class PlayerMoveNext_2257
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF3D3DA10
-        public void get_Current(){} // RVA: 0x7FFAF3D3DFA0
-        public void Equals(){} // RVA: 0x7FFAF3D3DFE0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D3E570
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF3D3E5B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x128DA10
+        public void get_Current(){} // RVA: 0x128DFA0
+        public void Equals(){} // RVA: 0x128DFE0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x128E570
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x128E5B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÎÎÎÍÍÍÍÏÎÎÎÌÏÏÍÎÍÌÍÌÎÌ</summary>
     public class PlayerMoveNext_2C89
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFB935680
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAFB9356C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAFB935700
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAFB935740
-        public void set_Max(){} // RVA: 0x7FFAFB935820
+        public void get_Current(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8E85680
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x8E856C0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x8E85700
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x8E85740
+        public void set_Max(){} // RVA: 0x8E85820
     }
 
     /// <summary>Originally: ÎÎÎÎÍÌÏÎÍÎÏÌÌÍÎÍÎÎÍÌÏÎÍ</summary>
     public class PlayerMoveNext_320A
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF43681A0
-        public void InvokeIndexedOperation(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF4368300
-        public void GetCurrent(){} // RVA: 0x7FFAF4368450
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x18B81A0
+        public void InvokeIndexedOperation(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x18B8300
+        public void GetCurrent(){} // RVA: 0x18B8450
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
         // ── Unresolved (hash) ──
-        public void m_E82(){} // RVA: 0x7FFAF43681E0
+        public void m_E82(){} // RVA: 0x18B81E0
     }
 
     /// <summary>Originally: ÎÍÎÎÏÏÎÍÍÌÎÍÌÌÌÌÍÍÏÍÍÍÏ</summary>
     public class PlayerMoveNext_3827
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF393A4F0
-        public void Equals(){} // RVA: 0x7FFAF393A530
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF393A630
-        public void MoveNext(){} // RVA: 0x7FFAF393A670
-        public void Dispose(){} // RVA: 0x7FFAF393A9B0
-        public void Dispose_F6062D4AA361(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0xE8A4F0
+        public void Equals(){} // RVA: 0xE8A530
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xE8A630
+        public void MoveNext(){} // RVA: 0xE8A670
+        public void Dispose(){} // RVA: 0xE8A9B0
+        public void Dispose_F6062D4AA361(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÎÏÌÎÎÎÍÍÎÌÍÎÎÎÎÎÌÍÎÏÏÍ</summary>
     public class PlayerMoveNext_383A
     {
         // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF4485B00
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void CreatePlayerMoveNext(){} // RVA: 0x7FFAF4485B40
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF4485B80
-        public void CreatePlayerMoveNext_1244533621D8(){} // RVA: 0x7FFAF4485F10
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x19D5B00
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x19D5B80
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_557(){} // RVA: 0x19D5B40
+        public void m_124(){} // RVA: 0x19D5F10
     }
 
     /// <summary>Originally: ÎÌÎÎÌÏÏÌÏÏÏÌÏÍÍÏÎÍÌÎÏÍÌ</summary>
     public class PlayerMoveNext_3A43
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF4313080
-        public void Equals(){} // RVA: 0x7FFAF4313490
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF43138A0
-        public void GetHashCode(){} // RVA: 0x7FFAF4313960
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF43139C0
-        public void ToString(){} // RVA: 0x7FFAF4313A00
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void GetEnumerator(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF4313A40
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetEnumerator_9B777A4C6CDF(){} // RVA: 0x7FFAF4313E60
+        public void get_Current(){} // RVA: 0x1863080
+        public void Equals(){} // RVA: 0x1863490
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x18638A0
+        public void GetHashCode(){} // RVA: 0x1863960
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x18639C0
+        public void ToString(){} // RVA: 0x1863A00
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x1863A40
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_668(){} // RVA: 0x2E07C0
+        public void m_9B7(){} // RVA: 0x1863E60
     }
 
     /// <summary>Originally: ÎÌÎÌÎÍÎÌÎÎÍÌÍÍÍÌÎÍÍÏÎÎÎ</summary>
     public class PlayerMoveNext_3F1C
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAFB9C5150
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFB9C5310
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAFB9C5350
-        public void GetHashCode(){} // RVA: 0x7FFAFB9C5410
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAFB9C5450
-        public void MoveNext(){} // RVA: 0x7FFAFB9C5600
-        public void System.Collections.IEnumerator.get_Current_4E7A80DC21BC(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current_AE343345A4A5(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x8F15150
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8F15310
+        public void Equals(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x8F15350
+        public void GetHashCode(){} // RVA: 0x8F15410
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x8F15450
+        public void MoveNext(){} // RVA: 0x8F15600
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_4E7(){} // RVA: 0x2E07C0
+        public void m_AE3(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÍÎÌÍÍÍÍÌÏÌÍÎÍÍÎÌÎÏÌÏÌÍ</summary>
     public class PlayerMoveNext_4054
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF33FC980
-        public void MoveNext(){} // RVA: 0x7FFAF33FC9D0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF33FD4F0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF33FD5B0
-        public void ToString(){} // RVA: 0x7FFAF33FD5F0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF33FD700
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x94C980
+        public void MoveNext(){} // RVA: 0x94C9D0
+        public void System.IDisposable.Dispose(){} // RVA: 0x94D4F0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x94D5B0
+        public void ToString(){} // RVA: 0x94D5F0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x94D700
         // ── Unresolved (hash) ──
-        public void m_4F1(){} // RVA: 0x7FFAF33FD640
+        public void m_4F1(){} // RVA: 0x94D640
     }
 
     /// <summary>Originally: ÎÍÌÏÎÍÍÎÏÍÎÎÎÍÎÍÍÎÌÎÏÌÍ</summary>
     public class PlayerMoveNext_4317
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D97680
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF3D976C0
-        public void GetHashCode(){} // RVA: 0x7FFAF3D97CE0
-        public void ToString(){} // RVA: 0x7FFAF3D97D20
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose_0882A67AF98C(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void MoveNext(){} // RVA: 0x7FFAF3D98330
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x12E7680
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x12E76C0
+        public void GetHashCode(){} // RVA: 0x12E7CE0
+        public void ToString(){} // RVA: 0x12E7D20
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Dispose_C454D2865D64(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void MoveNext(){} // RVA: 0x12E8330
+        // ── Unresolved (hash) ──
+        public void m_088(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÎÎÌÍÏÎÎÍÏÍÎÍÍÍÏÏÏÎÎÎÌÏÏ</summary>
     public class PlayerMoveNext_4B74
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D3C690
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF3D3C6D0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x128C690
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x128C6D0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÏÎÌÍÎÏÌÏÎÎÏÏÏÏÍÌÎÎÌÌÏÍ</summary>
     public class PlayerMoveNext_4BE5
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF3043A20
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3043B00
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF3043B40
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x593A20
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x593B00
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x593B40
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         // ── Unresolved (hash) ──
-        public void m_BFC(){} // RVA: 0x7FFAF3043B80
-        public void m_557(){} // RVA: 0x7FFAF3043BC0
+        public void m_BFC(){} // RVA: 0x593B80
+        public void m_557(){} // RVA: 0x593BC0
     }
 
     /// <summary>Originally: ÎÏÏÍÏÎÍÍÎÍÏÎÏÌÎÏÏÌÏÏÏÌÎ</summary>
     public class PlayerMoveNext_4DE6
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFB6608C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAFB660900
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAFB660940
-        public void Destroy(){} // RVA: 0x7FFAFB660B00
-        public void HandlePlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void SetPlayerMoveNext(){} // RVA: 0x7FFAFB660B40
-        public void MoveNext(){} // RVA: 0x7FFAFB660CF0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8BB08C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x8BB0900
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x8BB0940
+        public void Destroy(){} // RVA: 0x8BB0B00
+        public void HandlePlayerMoveNext(){} // RVA: 0x2E07C0
+        public void SetPlayerMoveNext(){} // RVA: 0x8BB0B40
+        public void MoveNext(){} // RVA: 0x8BB0CF0
     }
 
     /// <summary>Originally: ÎÎÏÍÌÏÎÏÏÌÍÎÎÍÎÏÌÍÎÏÎÌÍ</summary>
     public class PlayerMoveNext_52F2
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF438B1F0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF438B310
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x18DB1F0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x18DB310
+        public void ToString(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÏÌÍÌÎÌÎÌÌÎÎÍÎÏÏÍÌÏÌÍÏÌÌ</summary>
     public class PlayerMoveNext_57B0
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF30459F0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF3045A30
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF3045CF0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF3045D30
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x5959F0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void get_Current(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x595A30
+        public void Equals(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x595CF0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x595D30
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÎÏÏÍÌÌÎÎÎÌÍÍÍÏÍÍÏÍÍÏÎÍÎ</summary>
     public class PlayerMoveNext_57DA
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF3044AD0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3044D80
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current_75E8BA09A20D(){} // RVA: 0x7FFAF2D907C0
+        public void MoveNext(){} // RVA: 0x594AD0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x594D80
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_75E(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÌÎÌÌÎÏÏÎÍÍÌÍÏÍÏÍÍÎÌÍÌÌ</summary>
     public class PlayerMoveNext_6317
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF3385BF0
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF33860D0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF3386110
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3386150
-        public void ProcessPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void UpdatePlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator(){} // RVA: 0x7FFAF3386190
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void MoveNext(){} // RVA: 0x8D5BF0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x8D60D0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x8D6110
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8D6150
+        public void ProcessPlayerMoveNext(){} // RVA: 0x2E07C0
+        public void UpdatePlayerMoveNext(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_DB9(){} // RVA: 0x8D6190
     }
 
     /// <summary>Originally: ÎÌÍÏÎÎÌÍÎÎÎÎÌÎÍÏÍÍÍÏÏÌÏ</summary>
     public class PlayerMoveNext_640A
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF3B646C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3B64B30
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void UpdatePlayerMoveNext(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF3B64B70
-        public void SetPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void GetEnumerator(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x10B46C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x10B4B30
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void UpdatePlayerMoveNext(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x10B4B70
+        public void SetPlayerMoveNext(){} // RVA: 0x2E07C0
+        public void GetEnumerator(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÍÎÎÌÏÍÌÍÍÍÎÎÍÌÏÍÏÌÍÎÏÌ</summary>
     public class PlayerMoveNext_6F22
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x7FFAF3641850
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF3641A80
-        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF3641A90
-        public void Dispose(){} // RVA: 0x7FFAF3641A80
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3641AD0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF3641B10
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF32887F0
-        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x7FFAF3642230
+        public void GetEnumerator(){} // RVA: 0xB91850
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xB91A80
+        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0xB91A90
+        public void Dispose(){} // RVA: 0xB91A80
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xB91AD0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0xB91B10
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7D87F0
+        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0xB92230
         // ── Unresolved (hash) ──
-        public void m_63A(){} // RVA: 0x7FFAF3641DA0
-        public void m_015(){} // RVA: 0x7FFAF3641FD0
+        public void m_63A(){} // RVA: 0xB91DA0
+        public void m_015(){} // RVA: 0xB91FD0
     }
 
     /// <summary>Originally: ÎÍÍÎÎÎÌÎÎÎÏÎÎÏÍÍÍÎÏÎÌÍÌ</summary>
     public class PlayerMoveNext_70AE
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void MoveNext(){} // RVA: 0x7FFAF44B2360
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF44B29A0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void MoveNext(){} // RVA: 0x1A02360
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1A029A0
         // ── Unresolved (hash) ──
-        public void m_4F6(){} // RVA: 0x7FFAF44B2960
+        public void m_4F6(){} // RVA: 0x1A02960
     }
 
     /// <summary>Originally: ÎÎÌÌÏÌÌÍÍÏÌÎÏÎÍÎÏÎÍÏÎÏÌ</summary>
     public class PlayerMoveNext_7318
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x7FFAF3288AF0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3288B00
-        public void MoveNext(){} // RVA: 0x7FFAF3288B40
-        public void .ctor(){} // RVA: 0x7FFAF32887F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF3288AF0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF3288FC0
-        public void System.Collections.Generic.IEnumerator<VRC.DataModel.ISpawnedProp>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void GetSpawnedPropByInterfaceSlot(){} // RVA: 0x7FFAF3289010
-        public void GetSpawnedPropByInterfaceMap(){} // RVA: 0x7FFAF3289060
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF32890A0
-        public void System.Collections.Generic.IEnumerable<VRC.DataModel.ISpawnedProp>.GetEnumerator(){} // RVA: 0x7FFAF3289160
-        public void GetEnumerator_AEB744F72123(){} // RVA: 0x7FFAF3288AF0
-        public void System.Collections.IEnumerator.get_Current_E1DE08E5446F(){} // RVA: 0x7FFAF2D907C0
+        public void GetEnumerator(){} // RVA: 0x7D8AF0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7D8B00
+        public void MoveNext(){} // RVA: 0x7D8B40
+        public void .ctor(){} // RVA: 0x7D87F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7D8AF0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x7D8FC0
+        public void System.Collections.Generic.IEnumerator<VRC.DataModel.ISpawnedProp>.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x7D90A0
+        public void System.Collections.Generic.IEnumerable<VRC.DataModel.ISpawnedProp>.GetEnumerator(){} // RVA: 0x7D9160
+        public void GetEnumerator_AEB744F72123(){} // RVA: 0x7D8AF0
+        public void System.Collections.IEnumerator.get_Current_E1DE08E5446F(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_9B7(){} // RVA: 0x7D9010
+        public void m_4F6(){} // RVA: 0x7D9060
     }
 
     /// <summary>Originally: ÎÎÍÌÍÍÎÏÌÎÏÏÏÍÍÏÏÎÏÎÏÍÍ</summary>
     public class PlayerMoveNext_731C
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF311FD30
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF311FE10
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF311FF40
-        public void MoveNext(){} // RVA: 0x7FFAF311FF80
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFAF3120070
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x66FD30
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x66FE10
+        public void ToString(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x66FF40
+        public void MoveNext(){} // RVA: 0x66FF80
+        public void .ctor(){} // RVA: 0x2E00C0
         // ── Unresolved (hash) ──
-        public void m_CBC(){} // RVA: 0x7FFAF311FF00
+        public void m_CBC(){} // RVA: 0x66FF00
+        public void m_DB9(){} // RVA: 0x670070
     }
 
     /// <summary>Originally: ÎÏÎÍÏÍÌÎÎÏÎÌÏÍÎÍÌÍÎÎÍÌÏ</summary>
     public class PlayerMoveNext_7344
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D8D310
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAFBA172C0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAFBA174E0
-        public void ToString(){} // RVA: 0x7FFAFBA17590
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFBA177B0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2DD310
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x8F672C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x8F674E0
+        public void ToString(){} // RVA: 0x8F67590
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8F677B0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÏÌÌÍÎÌÍÎÌÏÌÌÎÏÎÏÏÌÎÏÎÎÎ</summary>
     public class PlayerMoveNext_7362
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAFB5DD300
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAFB5DD5D0
-        public void Dispose(){} // RVA: 0x7FFAFB5DD610
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFB5DD8E0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current_6AA32EC8E62B(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x8B2D300
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x8B2D5D0
+        public void Dispose(){} // RVA: 0x8B2D610
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8B2D8E0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current_6AA32EC8E62B(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÍÏÌÌÎÍÎÏÍÏÎÏÏÍÎÍÎÎÌÏÍÍ</summary>
     public class PlayerMoveNext_7363
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF357B470
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF357B540
-        public void Dispose(){} // RVA: 0x7FFAF357B580
-        public void MoveNext(){} // RVA: 0x7FFAF357B640
-        public void System.Collections.IEnumerator.get_Current_86031F4BEC1D(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current_1ADE5F7A7E79(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF357B990
-        public void System.Collections.Generic.IEnumerator<VRC.Playables.AvatarParameter>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF357BA10
-        public void System.Collections.Generic.IEnumerable<VRC.Playables.AvatarParameter>.GetEnumerator(){} // RVA: 0x7FFAF357BA10
-        public void ResetAvatarParameterBuffers(){} // RVA: 0x7FFAF357B470
-        public void .ctor(){} // RVA: 0x7FFAF32887F0
+        public void GetEnumerator(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0xACB470
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xACB540
+        public void Dispose(){} // RVA: 0xACB580
+        public void MoveNext(){} // RVA: 0xACB640
+        public void System.Collections.IEnumerator.get_Current_86031F4BEC1D(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current_1ADE5F7A7E79(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0xACB990
+        public void System.Collections.Generic.IEnumerator<VRC.Playables.AvatarParameter>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xACBA10
+        public void System.Collections.Generic.IEnumerable<VRC.Playables.AvatarParameter>.GetEnumerator(){} // RVA: 0xACBA10
+        public void ResetAvatarParameterBuffers(){} // RVA: 0xACB470
+        public void .ctor(){} // RVA: 0x7D87F0
         // ── Unresolved (hash) ──
-        public void m_9B7(){} // RVA: 0x7FFAF357B940
+        public void m_9B7(){} // RVA: 0xACB940
     }
 
     /// <summary>Originally: ÎÌÏÎÏÏÎÌÎÌÍÍÍÏÏÎÌÌÎÏÌÌÏ</summary>
     public class PlayerMoveNext_7B0A
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF3BB4970
-        public void GetHashCode(){} // RVA: 0x7FFAF3BB4AC0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3BB4C10
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF3BB4C50
-        public void MoveNext(){} // RVA: 0x7FFAF3BB4DA0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x1104970
+        public void GetHashCode(){} // RVA: 0x1104AC0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1104C10
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x1104C50
+        public void MoveNext(){} // RVA: 0x1104DA0
     }
 
     /// <summary>Originally: ÎÍÎÎÍÎÎÏÎÍÍÎÎÌÏÌÎÏÏÏÍÍÏ</summary>
     public class PlayerMoveNext_7F11
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF3D812C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current_71E55CDE843A(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF3D81710
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D81B70
-        public void Dispose_12ED32C20C03(){} // RVA: 0x7FFAF2D8D310
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x12D12C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x12D1710
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x12D1B70
+        public void Dispose_12ED32C20C03(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_71E(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÏÏÍÍÏÎÍÏÎÍÍÎÎÌÍÍÍÎÎÎÎÌ</summary>
     public class PlayerMoveNext_7F74
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2AD4A50
-        public void .ctor(){} // RVA: 0x7FFAF2AD4FA0
-        public void MoveNext(){} // RVA: 0x7FFAF2ABDBE0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2AD4A50
-        public void Equals(){} // RVA: 0x7FFAF2AD4A50
-        public void GetHashCode(){} // RVA: 0x7FFAF2ABDBE0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF2AD4A50
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2ABCD60
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2ABCD60
-        public void ToString(){} // RVA: 0x7FFAF2AD4A50
-        public void Dispose(){} // RVA: 0x7FFAF2ABCD60
+        public void get_Current(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x24FA0
+        public void MoveNext(){} // RVA: 0xDBE0
+        public void System.IDisposable.Dispose(){} // RVA: 0x24A50
+        public void Equals(){} // RVA: 0x24A50
+        public void GetHashCode(){} // RVA: 0xDBE0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x24A50
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0xCD60
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xCD60
+        public void ToString(){} // RVA: 0x24A50
+        public void Dispose(){} // RVA: 0xCD60
     }
 
     /// <summary>Originally: ÎÌÌÏÎÎÍÌÌÎÌÏÍÎÍÏÍÎÍÌÌÎÍ</summary>
     public class PlayerMoveNext_8014
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF36DEAD0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF36DEB80
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF36DEC30
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0xC2EAD0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0xC2EB80
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xC2EC30
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÏÍÌÏÏÌÎÌÍÌÌÍÏÌÎÌÍÏÏÏÍÏ</summary>
     public class PlayerMoveNext_858D
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAFBB13020
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFBB13060
-        public void ToString(){} // RVA: 0x7FFAFBB130A0
-        public void Dispose(){} // RVA: 0x7FFAFBB131A0
-        public void Dispose_C454D2865D64(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAFBB131E0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x9063020
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x9063060
+        public void ToString(){} // RVA: 0x90630A0
+        public void Dispose(){} // RVA: 0x90631A0
+        public void Dispose_C454D2865D64(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x90631E0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
     }
 
     /// <summary>Originally: ÎÎÏÌÌÌÎÍÏÍÎÌÌÎÌÎÎÍÌÌÎÌÍ</summary>
     public class PlayerMoveNext_86DD
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D7B780
-        public void get_Current(){} // RVA: 0x7FFAF3D7B7C0
-        public void Equals(){} // RVA: 0x7FFAF3D7B800
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF3D7B840
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF3D7B900
-        public void Dispose(){} // RVA: 0x7FFAF3D7B940
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF3D7B980
-        public void CreatePlayerMoveNext(){} // RVA: 0x7FFAF3D7B9C0
-        public void MoveNext(){} // RVA: 0x7FFAF3D7BA00
-        public void GetCurrent(){} // RVA: 0x7FFAF2D907C0
-        public void CheckPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x12CB780
+        public void get_Current(){} // RVA: 0x12CB7C0
+        public void Equals(){} // RVA: 0x12CB800
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x12CB840
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x12CB900
+        public void Dispose(){} // RVA: 0x12CB940
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x12CB980
+        public void CreatePlayerMoveNext(){} // RVA: 0x12CB9C0
+        public void MoveNext(){} // RVA: 0x12CBA00
+        public void GetCurrent(){} // RVA: 0x2E07C0
+        public void CheckPlayerMoveNext(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÏÍÌÎÏÏÎÎÌÎÏÌÏÌÎÏÎÌÌÎÌÏ</summary>
     public class PlayerMoveNext_8C80
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF425C0A0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void get_Current(){} // RVA: 0x7FFAF425C0E0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF425E630
-        public void MoveNext(){} // RVA: 0x7FFAF425E670
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x17AC0A0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void get_Current(){} // RVA: 0x17AC0E0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x17AE630
+        public void MoveNext(){} // RVA: 0x17AE670
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÍÎÍÏÍÏÏÏÍÍÏÍÌÍÌÎÌÌÏÏÍÏ</summary>
     public class PlayerMoveNext_8F93
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAFB876DC0
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAFB876E00
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFB877660
+        public void get_Current(){} // RVA: 0x8DC6DC0
+        public void Equals(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x8DC6E00
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8DC7660
         // ── Unresolved (hash) ──
-        public void m_3B7(){} // RVA: 0x7FFAFB877620
+        public void m_3B7(){} // RVA: 0x8DC7620
     }
 
     /// <summary>Originally: ÎÍÍÎÌÍÍÎÎÏÎÍÎÏÍÍÍÌÍÏÏÌÍ</summary>
     public class PlayerMoveNext_90ED
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF3F414D0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF3F440E0
-        public void Dispose(){} // RVA: 0x7FFAF3F44120
-        public void Dispose_12ED32C20C03(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3F442C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x14914D0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x14940E0
+        public void Dispose(){} // RVA: 0x1494120
+        public void Dispose_12ED32C20C03(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x14942C0
     }
 
     /// <summary>Originally: ÎÏÌÎÌÌÏÏÍÍÌÍÏÌÎÎÏÎÏÎÏÎÍ</summary>
     public class PlayerMoveNext_9719
     {
         // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF442B1D0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF442B210
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF442B5D0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x197B1D0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x197B210
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x197B5D0
     }
 
     /// <summary>Originally: ÎÎÌÌÍÍÏÎÍÍÏÏÌÌÏÍÌÌÏÏÎÍÎ</summary>
     public class PlayerMoveNext_9B4E
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41798A0
-        public void GetHashCode(){} // RVA: 0x7FFAF41798E0
-        public void MoveNext(){} // RVA: 0x7FFAF4179920
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void CheckPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void ResolvePlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void Destroy(){} // RVA: 0x7FFAF4179B60
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x16C98A0
+        public void GetHashCode(){} // RVA: 0x16C98E0
+        public void MoveNext(){} // RVA: 0x16C9920
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void CheckPlayerMoveNext(){} // RVA: 0x2E07C0
+        public void ResolvePlayerMoveNext(){} // RVA: 0x2E07C0
+        public void Destroy(){} // RVA: 0x16C9B60
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
     }
 
     /// <summary>Originally: ÎÌÎÎÍÍÌÌÍÏÎÏÍÍÎÎÏÍÎÎÎÏÏ</summary>
     public class PlayerMoveNext_9CDC
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3045230
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF3045270
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF30452B0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF30452F0
-        public void MoveNext(){} // RVA: 0x7FFAF3045330
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x595230
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x595270
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x5952B0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x5952F0
+        public void MoveNext(){} // RVA: 0x595330
     }
 
     /// <summary>Originally: ÎÌÍÎÎÎÌÎÌÎÏÌÍÎÏÍÌÏÌÌÍÎÍ</summary>
     public class PlayerMoveNext_A25C
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF3D80290
-        public void MoveNext(){} // RVA: 0x7FFAF3D803A0
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D804B0
-        public void Dispose(){} // RVA: 0x7FFAF3D804F0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x12D0290
+        public void MoveNext(){} // RVA: 0x12D03A0
+        public void ToString(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x12D04B0
+        public void Dispose(){} // RVA: 0x12D04F0
     }
 
     /// <summary>Originally: ÎÍÎÎÎÏÌÏÌÏÍÎÌÌÏÎÎÎÍÎÍÏÍ</summary>
     public class PlayerMoveNext_A27C
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF4082850
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF4082890
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF4082970
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void MoveNext(){} // RVA: 0x7FFAF4082AA0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void Finally(){} // RVA: 0x7FFAF4082BD0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x15D2850
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x15D2890
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x15D2970
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void MoveNext(){} // RVA: 0x15D2AA0
+        public void Dispose(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_124(){} // RVA: 0x15D2BD0
     }
 
     /// <summary>Originally: ÏÌÍÌÌÍÏÌÏÏÎÏÍÎÍÎÍÍÌÏÌÎÍ</summary>
     public class PlayerMoveNext_A359
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3103AC0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF3103B00
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF3103F20
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF3104340
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose_4F1A7FFF6C96(){} // RVA: 0x7FFAF2D8D310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x653AC0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x653B00
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x653F20
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x654340
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose_4F1A7FFF6C96(){} // RVA: 0x2DD310
         // ── Unresolved (hash) ──
-        public void m_E82(){} // RVA: 0x7FFAF3104760
+        public void m_E82(){} // RVA: 0x654760
     }
 
     /// <summary>Originally: ÎÍÎÏÎÏÍÏÍÍÎÏÎÍÌÎÎÍÏÌÎÎÎ</summary>
     public class PlayerMoveNext_A581
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF4210420
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF4210460
-        public void Equals(){} // RVA: 0x7FFAF42104A0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF42116F0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF4212920
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x1760420
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1760460
+        public void Equals(){} // RVA: 0x17604A0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x17616F0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x1762920
+        public void Dispose(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÍÌÍÌÌÏÍÌÏÏÌÎÎÍÎÌÌÌÏÍÍÍ</summary>
     public class PlayerMoveNext_A72E
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF43839E0
-        public void get_Current(){} // RVA: 0x7FFAF4383A20
-        public void MoveNext(){} // RVA: 0x7FFAF4383A60
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D8D310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x18D39E0
+        public void get_Current(){} // RVA: 0x18D3A20
+        public void MoveNext(){} // RVA: 0x18D3A60
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÎÏÌÏÌÌÏÌÌÌÌÏÍÏÏÍÌÍÍÍÌÌÌ</summary>
     public class PlayerMoveNext_A836
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void MoveNext(){} // RVA: 0x7FFAF41E9D80
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF41EA070
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41EA0B0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void GetEnumerator(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void MoveNext(){} // RVA: 0x1739D80
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x173A070
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x173A0B0
+        public void Dispose(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_333(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÎÍÌÏÍÎÎÎÎÌÍÍÏÌÌÎÎÍÌÍÌÎ</summary>
     public class PlayerMoveNext_AB1B
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF30AB450
-        public void Equals(){} // RVA: 0x7FFAF30AB500
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF30AB590
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF30AB620
-        public void Dispose(){} // RVA: 0x7FFAF30AB660
-        public void GetEnumerator(){} // RVA: 0x7FFAF30A7C80
+        public void get_Current(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x5FB450
+        public void Equals(){} // RVA: 0x5FB500
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x5FB590
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x5FB620
+        public void Dispose(){} // RVA: 0x5FB660
+        // ── Unresolved (hash) ──
+        public void m_DB9(){} // RVA: 0x5F7C80
     }
 
     /// <summary>Originally: ÏÌÌÎÍÎÍÍÏÎÌÌÏÍÏÌÍÏÌÍÎÌÌ</summary>
     public class PlayerMoveNext_B436
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF41BC490
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF41BC4D0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41BC510
-        public void System.Collections.IEnumerator.get_Current_A2407A35E299(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current_EEE11926D826(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF41BC550
-        public void MoveNext(){} // RVA: 0x7FFAF41BC690
+        public void get_Current(){} // RVA: 0x170C490
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x170C4D0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x170C510
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x170C550
+        public void MoveNext(){} // RVA: 0x170C690
+        // ── Unresolved (hash) ──
+        public void m_A24(){} // RVA: 0x2E07C0
+        public void m_EEE(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÍÍÎÍÍÍÎÏÎÏÎÍÌÎÍÌÏÍÍÌÍÌ</summary>
     public class PlayerMoveNext_B60B
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF43A3870
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF43A3D70
-        public void GetHashCode(){} // RVA: 0x7FFAF43A3DB0
-        public void MoveNext(){} // RVA: 0x7FFAF43A3DF0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF43A42C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D8D310
-        public void ProcessQuaternion(){} // RVA: 0x7FFAF43A47B0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x18F3870
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x18F3D70
+        public void GetHashCode(){} // RVA: 0x18F3DB0
+        public void MoveNext(){} // RVA: 0x18F3DF0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x18F42C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2DD310
+        public void ProcessQuaternion(){} // RVA: 0x18F47B0
     }
 
     /// <summary>Originally: ÎÍÏÎÏÌÍÌÌÌÏÌÍÍÏÎÌÏÏÎÌÏÌ</summary>
     public class PlayerMoveNext_BAB6
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF41F8DA0
-        public void Equals(){} // RVA: 0x7FFAF41F8DE0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41F9600
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF41F9640
-        public void InitializePlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void UpdatePlayerMoveNext(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF41F9680
-        public void ResetDestroyCancellationToken(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_Current(){} // RVA: 0x1748DA0
+        public void Equals(){} // RVA: 0x1748DE0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1749600
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x1749640
+        public void InitializePlayerMoveNext(){} // RVA: 0x2E07C0
+        public void UpdatePlayerMoveNext(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x1749680
+        public void ResetDestroyCancellationToken(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
     }
 
     /// <summary>Originally: ÎÎÍÎÎÌÌÍÏÎÌÎÏÍÍÎÍÍÏÏÎÌÍ</summary>
     public class PlayerMoveNext_BCF1
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3EDFBF0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF3EDFC30
-        public void MoveNext(){} // RVA: 0x7FFAF3EDFC70
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext_F81006854C22(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x142FBF0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x142FC30
+        public void MoveNext(){} // RVA: 0x142FC70
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        // ── Unresolved (hash) ──
+        public void m_F81(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÌÏÎÏÌÌÍÎÌÌÎÎÌÎÎÍÏÍÍÌÏÌ</summary>
     public class PlayerMoveNext_BF0F
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF4469CD0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF4469D10
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF446A2D0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void get_Current(){} // RVA: 0x2DD310
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x19B9CD0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x19B9D10
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x19BA2D0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÎÎÌÎÌÎÌÌÌÌÏÍÌÌÍÍÎÏÏÍÏÍÎ</summary>
     public class PlayerMoveNext_BFCC
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF443A4B0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF443A4F0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF443B160
-        public void Dispose(){} // RVA: 0x7FFAF443B1A0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF443BE30
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x198A4B0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x198A4F0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x198B160
+        public void Dispose(){} // RVA: 0x198B1A0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x198BE30
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
     }
 
     /// <summary>Originally: ÎÎÌÎÎÍÏÍÏÏÍÏÎÌÏÎÍÎÌÏÍÌÏ</summary>
     public class PlayerMoveNext_BFFC
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAFBD551C0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAFBD55200
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose_F6062D4AA361(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFBD55560
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x92A51C0
+        public void Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x92A5200
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose_F6062D4AA361(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x92A5560
         // ── Unresolved (hash) ──
-        public void m_3B7(){} // RVA: 0x7FFAFBD55520
+        public void m_3B7(){} // RVA: 0x92A5520
     }
 
     /// <summary>Originally: ÎÌÍÏÎÎÍÍÌÌÎÌÏÍÍÌÏÌÍÎÍÌÌ</summary>
     public class PlayerMoveNext_C4D4
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF435B8A0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF435B8E0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF435B920
-        public void ReadComponentState(){} // RVA: 0x7FFAF435C560
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF435C5A0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current_2AD4D4D68139(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x18AB8A0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x18AB8E0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x18AB920
+        public void ReadComponentState(){} // RVA: 0x18AC560
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x18AC5A0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_2AD(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÌÌÍÎÌÏÍÍÏÍÍÍÍÍÎÌÍÌÌÍÍÏ</summary>
     public class PlayerMoveNext_C635
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF41E9A90
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41E9B70
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose_4F1A7FFF6C96(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF41E9C90
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x1739A90
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1739B70
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void Dispose_4F1A7FFF6C96(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x1739C90
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         // ── Unresolved (hash) ──
-        public void m_288(){} // RVA: 0x7FFAF41E9BB0
+        public void m_288(){} // RVA: 0x1739BB0
     }
 
     /// <summary>Originally: ÎÍÎÍÏÎÍÏÌÌÌÌÌÏÎÍÎÌÍÎÌÎÍ</summary>
     public class PlayerMoveNext_D075
     {
         // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF3D4F970
-        public void get_Current(){} // RVA: 0x7FFAF3D4FA10
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D4FAA0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF3D4FA10
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current_75E8BA09A20D(){} // RVA: 0x7FFAF2D907C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x129F970
+        public void get_Current(){} // RVA: 0x129FA10
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x129FAA0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x129FA10
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current_75E8BA09A20D(){} // RVA: 0x2E07C0
         // ── Unresolved (hash) ──
-        public void m_557(){} // RVA: 0x7FFAF3D4FAE0
+        public void m_557(){} // RVA: 0x129FAE0
     }
 
     /// <summary>Originally: ÎÏÍÎÍÎÍÏÏÏÍÌÍÌÎÎÌÍÎÍÏÎÍ</summary>
     public class PlayerMoveNext_D08A
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF458D400
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void MoveNext(){} // RVA: 0x7FFAF458D440
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF458D4F0
-        public void Dispose(){} // RVA: 0x7FFAF458D5B0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose_F6062D4AA361(){} // RVA: 0x7FFAF2D8D310
+        public void get_Current(){} // RVA: 0x2DD310
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1ADD400
+        public void Equals(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void MoveNext(){} // RVA: 0x1ADD440
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x1ADD4F0
+        public void Dispose(){} // RVA: 0x1ADD5B0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_F60(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÎÏÍÍÍÏÏÌÏÏÌÍÌÍÏÌÌÍÌÏÌÏÏ</summary>
     public class PlayerMoveNext_D196
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAFB732460
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFB732550
-        public void get_Current(){} // RVA: 0x7FFAFB732590
-        public void Equals(){} // RVA: 0x7FFAFB7325D0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void MoveNext(){} // RVA: 0x8C82460
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8C82550
+        public void get_Current(){} // RVA: 0x8C82590
+        public void Equals(){} // RVA: 0x8C825D0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2DD310
         // ── Unresolved (hash) ──
-        public void m_CBC(){} // RVA: 0x7FFAFB732610
+        public void m_CBC(){} // RVA: 0x8C82610
     }
 
     /// <summary>Originally: ÎÌÎÌÍÌÏÎÌÌÏÍÍÏÎÍÍÍÎÌÍÎÌ</summary>
     public class PlayerMoveNext_D28A
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF3393B90
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF3393BD0
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF3394020
-        public void Dispose(){} // RVA: 0x7FFAF3394060
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF33944B0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF3394940
+        public void get_Current(){} // RVA: 0x8E3B90
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x8E3BD0
+        public void Equals(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x8E4020
+        public void Dispose(){} // RVA: 0x8E4060
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8E44B0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x8E4940
         // ── Unresolved (hash) ──
-        public void m_E82(){} // RVA: 0x7FFAF33944F0
+        public void m_E82(){} // RVA: 0x8E44F0
     }
 
     /// <summary>Originally: ÎÌÏÎÏÎÏÎÎÎÍÎÍÌÏÎÏÌÍÏÍÍÏ</summary>
     public class PlayerMoveNext_D561
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF451B8F0
-        public void ToString(){} // RVA: 0x7FFAF451B930
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF451CD00
-        public void System.Collections.IEnumerator.get_Current_2AD4D4D68139(){} // RVA: 0x7FFAF2D907C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2DD310
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1A6B8F0
+        public void ToString(){} // RVA: 0x1A6B930
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x1A6CD00
         // ── Unresolved (hash) ──
-        public void m_CBC(){} // RVA: 0x7FFAF451CCC0
+        public void m_CBC(){} // RVA: 0x1A6CCC0
+        public void m_2AD(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÌÍÌÍÌÌÏÏÌÌÌÍÏÌÍÌÎÏÌÎÍÎ</summary>
     public class PlayerMoveNext_D5CC
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF445E9F0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF445EA30
-        public void Dispose(){} // RVA: 0x7FFAF445EA70
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current_63A097DDAF15(){} // RVA: 0x7FFAF445ED60
-        public void MoveNext(){} // RVA: 0x7FFAF445F190
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF445F480
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void get_Current(){} // RVA: 0x19AE9F0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x19AEA30
+        public void Dispose(){} // RVA: 0x19AEA70
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current_63A097DDAF15(){} // RVA: 0x19AED60
+        public void MoveNext(){} // RVA: 0x19AF190
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x19AF480
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÎÏÍÍÍÏÏÎÍÌÏÏÎÍÎÌÎÍÍÌÎÌÍ</summary>
     public class PlayerMoveNext_D810
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF3D619B0
-        public void Equals(){} // RVA: 0x7FFAF3D61CF0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3D61D30
-        public void ToString(){} // RVA: 0x7FFAF3D61D70
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF3D61DB0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void get_Current(){} // RVA: 0x12B19B0
+        public void Equals(){} // RVA: 0x12B1CF0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x12B1D30
+        public void ToString(){} // RVA: 0x12B1D70
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x12B1DB0
+        public void Dispose(){} // RVA: 0x2DD310
         // ── Unresolved (hash) ──
-        public void m_E82(){} // RVA: 0x7FFAF3D620E0
+        public void m_E82(){} // RVA: 0x12B20E0
     }
 
     /// <summary>Originally: ÎÏÍÍÍÍÏÌÍÎÎÍÎÍÍÌÏÏÌÎÏÌÌ</summary>
     public class PlayerMoveNext_DC94
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF3652920
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3652A70
-        public void GetEnumerator(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF3652AB0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF3652AC0
-        public void System.Collections.IEnumerator.get_Current_1ADE5F7A7E79(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x7FFAF3652B00
-        public void Dispose_DB77AA56C5DE(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current_333BA53AA594(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF32887F0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF3652AB0
+        public void MoveNext(){} // RVA: 0xBA2920
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xBA2A70
+        public void GetEnumerator(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0xBA2AB0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0xBA2AC0
+        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0xBA2B00
+        public void Dispose_DB77AA56C5DE(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current_333BA53AA594(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7D87F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xBA2AB0
+        // ── Unresolved (hash) ──
+        public void m_1AD(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÏÏÏÏÍÌÎÍÌÌÏÎÌÍÌÍÏÌÌÏÎÏ</summary>
     public class PlayerMoveNext_DDB8
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAFB683B00
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAFB683B40
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAFB683B80
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current_6AA32EC8E62B(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8BD3B00
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x8BD3B40
+        public void ToString(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x8BD3B80
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_6AA(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÏÍÍÎÌÏÏÍÍÎÎÍÏÌÍÏÎÏÍÎÏÍ</summary>
     public class PlayerMoveNext_DF3D
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF41F2530
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF41F2570
-        public void MoveNext(){} // RVA: 0x7FFAF41F25B0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF41F2FB0
-        public void System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator(){} // RVA: 0x7FFAF41F3680
-        public void GetCurrent(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41F3D70
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x1742530
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x1742570
+        public void MoveNext(){} // RVA: 0x17425B0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x1742FB0
+        public void GetCurrent(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1743D70
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
         // ── Unresolved (hash) ──
-        public void m_BFC(){} // RVA: 0x7FFAF41F3DB0
+        public void m_D51(){} // RVA: 0x1743680
+        public void m_BFC(){} // RVA: 0x1743DB0
     }
 
     /// <summary>Originally: ÎÏÎÍÌÌÏÏÌÎÏÌÏÏÏÎÌÍÍÎÏÌÎ</summary>
     public class PlayerMoveNext_DF47
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF3653BD0
-        public void Dispose(){} // RVA: 0x7FFAF3653BE0
-        public void MoveNext(){} // RVA: 0x7FFAF3653C20
-        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0x7FFAF3653F10
-        public void System.Collections.IEnumerator.get_Current_64498EE95670(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current_18A21193CFFA(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current_AEB744F72123(){} // RVA: 0x7FFAF3653BD0
-        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF32887F0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF3653FA0
-        public void GetEnumerator_8174517B4A94(){} // RVA: 0x7FFAF3653BD0
+        public void GetEnumerator(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xBA3BD0
+        public void Dispose(){} // RVA: 0xBA3BE0
+        public void MoveNext(){} // RVA: 0xBA3C20
+        public void System.Collections.Generic.IEnumerable<System.String>.GetEnumerator(){} // RVA: 0xBA3F10
+        public void System.Collections.IEnumerator.get_Current_64498EE95670(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current_18A21193CFFA(){} // RVA: 0x2E07C0
+        public void get_Current_AEB744F72123(){} // RVA: 0xBA3BD0
+        public void System.Collections.Generic.IEnumerator<System.String>.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7D87F0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xBA3FA0
+        public void GetEnumerator_8174517B4A94(){} // RVA: 0xBA3BD0
     }
 
     /// <summary>Originally: ÎÍÌÎÏÍÌÍÏÎÏÍÍÎÌÍÍÏÍÎÏÏÏ</summary>
     public class PlayerMoveNext_E25B
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF33A4140
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF33A45A0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF33A45E0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void get_Current(){} // RVA: 0x8F4140
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x8F45A0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x8F45E0
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2DD310
         // ── Unresolved (hash) ──
-        public void m_CE3(){} // RVA: 0x7FFAF33A4A40
+        public void m_CE3(){} // RVA: 0x8F4A40
     }
 
     /// <summary>Originally: ÎÌÏÍÏÏÌÎÏÏÌÎÏÎÌÏÌÌÌÏÍÍÍ</summary>
     public class PlayerMoveNext_E391
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF41BFB60
-        public void get_Current(){} // RVA: 0x7FFAF41C0000
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF41C04B0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void ConfigureRenderSettings(){} // RVA: 0x7FFAF41C05B0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41C05F0
+        public void MoveNext(){} // RVA: 0x170FB60
+        public void get_Current(){} // RVA: 0x1710000
+        public void Equals(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x17104B0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void ConfigureRenderSettings(){} // RVA: 0x17105B0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x17105F0
     }
 
     /// <summary>Originally: ÎÏÎÍÎÎÏÌÎÌÌÌÏÎÏÌÎÌÎÎÌÎÏ</summary>
     public class PlayerMoveNext_E526
     {
         // ── Methods ──
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF3044EE0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF3044FC0
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF30450A0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void Dispose(){} // RVA: 0x7FFAF30450E0
-        public void Dispose_29FC66BF1706(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x594EE0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x594FC0
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x5950A0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x2E07C0
+        public void Dispose(){} // RVA: 0x5950E0
+        public void Dispose_29FC66BF1706(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÌÌÍÎÌÏÍÏÌÌÍÌÍÎÌÌÎÍÎÎÌÌ</summary>
     public class PlayerMoveNext_E601
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2F30FF0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF2F312E0
-        public void MoveNext(){} // RVA: 0x7FFAF2F31320
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2F31600
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current_668D67375E4F(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x480FF0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x4812E0
+        public void MoveNext(){} // RVA: 0x481320
+        public void Equals(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x481600
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2DD310
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current_668D67375E4F(){} // RVA: 0x2E07C0
         // ── Unresolved (hash) ──
-        public void m_D51(){} // RVA: 0x7FFAF2F318F0
+        public void m_D51(){} // RVA: 0x4818F0
     }
 
     /// <summary>Originally: ÎÏÌÎÎÏÍÍÎÏÌÍÏÍÍÌÍÌÎÍÍÍÏ</summary>
     public class PlayerMoveNext_E7A8
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF37B6C00
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF37B71A0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF37B7750
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF37B7790
-        public void MoveNext(){} // RVA: 0x7FFAF37B77D0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0xD06C00
+        public void Equals(){} // RVA: 0x2DD310
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0xD071A0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xD07750
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0xD07790
+        public void MoveNext(){} // RVA: 0xD077D0
     }
 
     /// <summary>Originally: ÎÎÎÍÎÎÍÎÌÏÌÍÍÏÌÌÌÌÎÎÍÍÌ</summary>
     public class PlayerMoveNext_F60E
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF4183360
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF41833E0
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void GetPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void InvokeIndexedOperation(){} // RVA: 0x7FFAF2D907C0
-        public void GetCurrent(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF4183470
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
+        public void get_Current(){} // RVA: 0x16D3360
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x16D33E0
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void GetPlayerMoveNext(){} // RVA: 0x2E07C0
+        public void InvokeIndexedOperation(){} // RVA: 0x2E07C0
+        public void GetCurrent(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x16D3470
+        public void .ctor(){} // RVA: 0x2E00C0
     }
 
     /// <summary>Originally: ÎÌÏÌÌÌÏÍÏÍÍÎÌÏÎÌÎÍÎÌÌÍÎ</summary>
     public class PlayerMoveNext_F62B
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D8D310
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF441CF40
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void GetHashCode(){} // RVA: 0x7FFAF441D060
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF441D190
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2DD310
+        public void get_Current(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x196CF40
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x2E07C0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void GetHashCode(){} // RVA: 0x196D060
+        public void ToString(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x196D190
     }
 
     /// <summary>Originally: ÎÏÌÎÏÌÎÌÏÎÎÎÎÌÍÌÌÍÌÍÌÎÏ</summary>
     public class PlayerMoveNext_F746
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x7FFAF44A3DD0
-        public void Equals(){} // RVA: 0x7FFAF44A3E10
-        public void GetHashCode(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF44A40B0
-        public void Dispose(){} // RVA: 0x7FFAF44A4350
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF44A45F0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void CheckPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator(){} // RVA: 0x7FFAF44A4630
-        public void MoveNext(){} // RVA: 0x7FFAF44A4670
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void GetPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
+        public void get_Current(){} // RVA: 0x19F3DD0
+        public void Equals(){} // RVA: 0x19F3E10
+        public void GetHashCode(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x19F40B0
+        public void Dispose(){} // RVA: 0x19F4350
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x19F45F0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void CheckPlayerMoveNext(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x19F4670
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void GetPlayerMoveNext(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_CBC(){} // RVA: 0x19F4630
     }
 
     /// <summary>Originally: ÎÏÍÌÍÌÏÏÌÌÍÌÎÎÌÌÍÎÌÏÏÏÎ</summary>
     public class PlayerMoveNext_F8FD
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void MoveNext(){} // RVA: 0x7FFAF41F5A30
-        public void get_Current(){} // RVA: 0x7FFAF41F5F70
-        public void Equals(){} // RVA: 0x7FFAF41F6090
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF41F61B0
-        public void CheckPlayerMoveNext(){} // RVA: 0x7FFAF2D907C0
-        public void ProcessStoreData(){} // RVA: 0x7FFAF2D907C0
-        public void CreatePlayerMoveNext(){} // RVA: 0x7FFAF41F61F0
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void MoveNext(){} // RVA: 0x1745A30
+        public void get_Current(){} // RVA: 0x1745F70
+        public void Equals(){} // RVA: 0x1746090
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x17461B0
+        public void CheckPlayerMoveNext(){} // RVA: 0x2E07C0
+        public void ProcessStoreData(){} // RVA: 0x2E07C0
+        public void CreatePlayerMoveNext(){} // RVA: 0x17461F0
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÍÌÌÏÌÏÏÍÎÎÌÍÏÏÎÍÍÏÎÌÌÌ</summary>
     public class PlayerMoveNext_FD40
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF46EBC00
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF46EC150
-        public void GetHashCode(){} // RVA: 0x7FFAF46EC690
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF46EC6D0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D907C0
+        public void MoveNext(){} // RVA: 0x1C3BC00
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0x1C3C150
+        public void GetHashCode(){} // RVA: 0x1C3C690
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1C3C6D0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2E07C0
     }
 
     /// <summary>Originally: ÎÍÍÏÍÏÏÎÍÏÍÎÎÎÍÎÎÏÏÏÎÍÍ</summary>
     public class PlayerMoveNext_FD5F
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF4423730
-        public void get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF2D8D310
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void Initialize(){} // RVA: 0x7FFAF4423770
-        public void GetHashCode(){} // RVA: 0x7FFAF2D8D310
-        public void MoveNext(){} // RVA: 0x7FFAF44238C0
-        public void ToString(){} // RVA: 0x7FFAF4423A00
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void GetEnumerator(){} // RVA: 0x7FFAF4423B50
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x1973730
+        public void get_Current(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x2DD310
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void Initialize(){} // RVA: 0x1973770
+        public void GetHashCode(){} // RVA: 0x2DD310
+        public void MoveNext(){} // RVA: 0x19738C0
+        public void ToString(){} // RVA: 0x1973A00
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2E07C0
+        // ── Unresolved (hash) ──
+        public void m_E82(){} // RVA: 0x1973B50
     }
 
     /// <summary>Originally: ÎÌÍÏÏÏÎÎÍÏÏÏÎÏÏÍÌÌÌÍÍÌÏ</summary>
     public class PlayerMoveNext_FF80
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF37CC070
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void get_Current(){} // RVA: 0x7FFAF2D8D310
-        public void Equals(){} // RVA: 0x7FFAF37CC0B0
-        public void GetHashCode(){} // RVA: 0x7FFAF37CCEA0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2D907C0
-        public void ToString(){} // RVA: 0x7FFAF2D8D310
-        public void Dispose(){} // RVA: 0x7FFAF2D907C0
-        public void System.Collections.IEnumerator.get_Current_333BA53AA594(){} // RVA: 0x7FFAF2D907C0
-        public void GetUnityEngine(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void MoveNext(){} // RVA: 0x7FFAF37CDCD0
-        public void System.IDisposable.Dispose(){} // RVA: 0x7FFAF2D8D310
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0xD1C070
+        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x2E07C0
+        public void get_Current(){} // RVA: 0x2DD310
+        public void Equals(){} // RVA: 0xD1C0B0
+        public void GetHashCode(){} // RVA: 0xD1CEA0
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
+        public void ToString(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x2E07C0
+        public void System.Collections.IEnumerator.get_Current_333BA53AA594(){} // RVA: 0x2E07C0
+        public void GetUnityEngine(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void MoveNext(){} // RVA: 0xD1DCD0
+        public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
         // ── Unresolved (hash) ──
-        public void m_63A(){} // RVA: 0x7FFAF37CCEE0
+        public void m_63A(){} // RVA: 0xD1CEE0
     }
 
     /// <summary>Originally: ÎÎÏÍÏÏÏÍÎÌÍÎÍÏÎÍÏÍÎÌÏÏÌ</summary>
     public class PlayerNet
     {
         // ── Methods ──
-        public void UpdateTooltipPosition_0945AB92A1DD(){} // RVA: 0x7FFAF3DF87F0 | overloaded x2
-        public void GetGameObject(){} // RVA: 0x7FFAF3BA2C40
-        public void FindObjectOfType(){} // RVA: 0x7FFAF3DF1EB0
-        public void CanSerialize32Bit(){} // RVA: 0x7FFAF2D8D320
-        public void ProcessNetworkSynchronizationParameter(){} // RVA: 0x7FFAF3DF1FB0
-        public void OnCollisionEnter(){} // RVA: 0x7FFAF3DF2280
-        public void Decode(){} // RVA: 0x7FFAF3DFCAF0 | overloaded x3
-        public void EnableKinematic(){} // RVA: 0x7FFAF3DF2450
-        public void DecodeNetworkStateFCC48D9AC334(){} // RVA: 0x7FFAF3DF27B0
-        public void Updatemass(){} // RVA: 0x7FFAF3DF28A0
-        public void UpdateUnityEngineState(){} // RVA: 0x7FFAF3DF28B0
-        public void get_DefaultCreatorNonPublic(){} // RVA: 0x7FFAF3DF2AB0
-        public void GetPlayerApiReference(){} // RVA: 0x7FFAF3DF2AC0
-        public void get_ShouldUseSystemGestureMaterial(){} // RVA: 0x7FFAF3DF2C40
-        public void ProcessNetworkParameter(){} // RVA: 0x7FFAF3DF2C50
-        public void DoInverseTransformDirectionInjected(){} // RVA: 0x7FFAF3DF2D50
-        public void OnDestroy(){} // RVA: 0x7FFAF3DF2E10
-        public void DecodeNetworkState(){} // RVA: 0x7FFAF2DF5530
-        public void UpdateBehaviour(){} // RVA: 0x7FFAF3DF2E60
-        public void StartCoroutine(){} // RVA: 0x7FFAF3DF3550
-        public void GetKey(){} // RVA: 0x7FFAF2D8D320
-        public void .cctor(){} // RVA: 0x7FFAF3DF3620
-        public void DeserializeNetworkState(){} // RVA: 0x7FFAF3DF3710
-        public void AreEqual(){} // RVA: 0x7FFAF3DF3820
-        public void CanUsePersistenceHashes(){} // RVA: 0x7FFAF3DF3830
-        public void GetGlobalConfigurationRefV2(){} // RVA: 0x7FFAF304F420
-        public void SetName18994274AA42(){} // RVA: 0x7FFAF2E08D60
-        public void SetNetworkValue(){} // RVA: 0x7FFAF3DF3B90
-        public void InitializeNetworkState(){} // RVA: 0x7FFAF3DF3DB0
-        public void Awake(){} // RVA: 0x7FFAF3DF4050
-        public void GetPackingRotation(){} // RVA: 0x7FFAF3DF4120
-        public void GetPackingRotation_C17BEA6173D2(){} // RVA: 0x7FFAF3DF4130
-        public void GetPackingPosition(){} // RVA: 0x7FFAF3DF4690
-        public void set_applyShapeToPosition(){} // RVA: 0x7FFAF3DF4EC0
-        public void DisableGravity(){} // RVA: 0x7FFAF3DF4ED0
-        public void Computemass(){} // RVA: 0x7FFAF3DF50E0
-        public void GetPackingRotation_024CB72CA5D4(){} // RVA: 0x7FFAF3DF53D0
-        public void Encode(){} // RVA: 0x7FFAF3DF8D60 | overloaded x2
-        public void DecodeNetworkState_FCC48D(){} // RVA: 0x7FFAF3DF8AA0 | overloaded x2
-        public void set_UniqueHash(){} // RVA: 0x7FFAF3DF65E0
-        public void SerializedName(){} // RVA: 0x7FFAF3DF6710
-        public void get_UniqueHash(){} // RVA: 0x7FFAF3517BB0
-        public void get_TypeId_EC1D12A0E355(){} // RVA: 0x7FFAF3DF6880
-        public void set_TypeId(){} // RVA: 0x7FFAF3DF6970
-        public void GetHeight(){} // RVA: 0x7FFAF3DF7AF0
-        public void NeedsImportant(){} // RVA: 0x7FFAF3DF7CB0
-        public void DisableKinematic(){} // RVA: 0x7FFAF3DF7CF0
-        public void GetNetworkProperty296(){} // RVA: 0x7FFAF3DF7F20
-        public void GetBufferedTimes(){} // RVA: 0x7FFAF3DF8980
-        public void get_ErrorCount(){} // RVA: 0x7FFAF349AB90
-        public void GetDoubleFromParts(){} // RVA: 0x7FFAF3DF89C0
-        public void OnDestroy_EE6A302CC2B2(){} // RVA: 0x7FFAF3DF2E10
-        public void GetHeight_30B8B79414A9(){} // RVA: 0x7FFAF3DF8A10
-        public void set_IsDataValid(){} // RVA: 0x7FFAF37CF6A0
-        public void set_Rotation(){} // RVA: 0x7FFAF2DF5520
-        public void ConnectInternalInjected(){} // RVA: 0x7FFAF304E660
-        public void GetRect(){} // RVA: 0x7FFAF3DF8BB0
-        public void GetRect_A8A91BED068F(){} // RVA: 0x7FFAF3DF8BF0
-        public void GetRect_DD237DC06892(){} // RVA: 0x7FFAF3DF8C00
-        public void NeedsImportant_F4D66EF169EE(){} // RVA: 0x7FFAF3DF8E10
-        public void set_ShouldUseSystemGestureMaterial(){} // RVA: 0x7FFAF3DF98B0
-        public void get_TypeId(){} // RVA: 0x7FFAF3517BB0
-        public void GetNetworkProperty(){} // RVA: 0x7FFAF3DF9A40
-        public void EnableGravity(){} // RVA: 0x7FFAF3DF9A50
-        public void Start(){} // RVA: 0x7FFAF3DF9C60
-        public void get_gameObject(){} // RVA: 0x7FFAF3DF9D00
-        public void .ctor(){} // RVA: 0x7FFAF3DF9F90
-        public void Initialize(){} // RVA: 0x7FFAF3DFA0A0
-        public void GetRect_97E6FAC1F212(){} // RVA: 0x7FFAF3DFA200
-        public void Constructor(){} // RVA: 0x7FFAF2E2B380
-        public void GetRect_2C02551402CA(){} // RVA: 0x7FFAF3DFA380
-        public void GetBufferedTimes_ED72CD02E86C(){} // RVA: 0x7FFAF3DFA490
-        public void TryGetPhotonOwnerId(){} // RVA: 0x7FFAF2E08D50
-        public void get_AlertDescription(){} // RVA: 0x7FFAF3DFA670
-        public void Start_C9ED83B2DF2E(){} // RVA: 0x7FFAF3DFA680
-        public void get_ErrorCount_F46BF4FE84BF(){} // RVA: 0x7FFAF3DFA690
-        public void OnNetworkInitialized(){} // RVA: 0x7FFAF3DFA860
-        public void get_IsDataHighConfidence(){} // RVA: 0x7FFAF3DFA9E0
-        public void OnDisable(){} // RVA: 0x7FFAF3DFA9F0
-        public void set_Rotation_78CA28A3D228(){} // RVA: 0x7FFAF3DFAB30
-        public void get_IsDataHighConfidence_9CA5029A8008(){} // RVA: 0x7FFAF3DFA9E0
-        public void GetRect_41C3BCB4A9D5(){} // RVA: 0x7FFAF3DFAE60
-        public void set_ShouldUseSystemGestureMaterial_6D10AB7C0A82(){} // RVA: 0x7FFAF3DFAF80
-        public void EnableGravity_96EAD25C2F2E(){} // RVA: 0x7FFAF3DFB0B0
-        public void GenerateComponentInfo(){} // RVA: 0x7FFAF3DFB260
-        public void get_gameObject_47CA4D0E98C3(){} // RVA: 0x7FFAF3DFB4F0
-        public void CanSerialize8Bit(){} // RVA: 0x7FFAF2E72850
-        public void NeedsSync(){} // RVA: 0x7FFAF3DFC4B0
-        public void TryGetPhotonOwnerId_E662F03BA68E(){} // RVA: 0x7FFAF3DFC6F0
-        public void Update_540CB71AC481(){} // RVA: 0x7FFAF3DFC840
-        public void set_LastPosition(){} // RVA: 0x7FFAF3DFC8E0
-        public void Start_C9ED83B2DF2E_5ADE4DCD19F4(){} // RVA: 0x7FFAF3DFC960
-        public void GenerateComponentInfo_39438CBFE73B(){} // RVA: 0x7FFAF3DFD300
-        public void get_LastPosition(){} // RVA: 0x7FFAF2E2B370
-        public void OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenDepthTolerance(){} // RVA: 0x7FFAF33584A0
-        public void set_HasMemberAttribute(){} // RVA: 0x7FFAF3DFD310
-        public void DoDestroy(){} // RVA: 0x7FFAF3DFD320
-        public void Updatemass_91E17EE6511B(){} // RVA: 0x7FFAF304F950
-        public void set_HasMemberAttribute_A740272858FD(){} // RVA: 0x7FFAF3DFD310
-        public void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenDepthTolerance(){} // RVA: 0x7FFAF3354930
-        public void NeedsSync_119646F08C41(){} // RVA: 0x7FFAF3DFD7C0
-        public void get_hasToes(){} // RVA: 0x7FFAF2EB8F80
-        public void Encode_3A84C5619216(){} // RVA: 0x7FFAF3DF8D60
-        public void OnControllerColliderHit(){} // RVA: 0x7FFAF3DFDA50
-        public void set_LastPosition_48F313A597F8(){} // RVA: 0x7FFAF3DFDCA0
-        public void get_LastPosition_FCE681FA22D9(){} // RVA: 0x7FFAF3DFDDD0
-        public void OnControllerColliderHit_D97D235075AE(){} // RVA: 0x7FFAF3DFE210
-        public void ProxyNetworkFunctionCall(){} // RVA: 0x7FFAF3DFE380
-        // ── Unresolved (hash) ──
-        public void m_924(){} // RVA: 0x7FFAF3DF2660
-        public void m_CB6(){} // RVA: 0x7FFAF3DF8E00
-        public void m_EF0(){} // RVA: 0x7FFAF3DF9E00
-        public void m_C6A(){} // RVA: 0x7FFAF3DFB370
-        public void m_22A(){} // RVA: 0x7FFAF3DFC030
-        public void m_CF2(){} // RVA: 0x7FFAF3DFD8F0
+        public void UpdateTooltipPosition_0945AB92A1DD(){} // RVA: 0x13487F0 | overloaded x2
+        public void GetGameObject(){} // RVA: 0x10F2C40
+        public void FindObjectOfType(){} // RVA: 0x1341EB0
+        public void CanSerialize32Bit(){} // RVA: 0x2DD320
+        public void ProcessNetworkSynchronizationParameter(){} // RVA: 0x1341FB0
+        public void OnCollisionEnter(){} // RVA: 0x1342280
+        public void Decode(){} // RVA: 0x134CAF0 | overloaded x3
+        public void EnableKinematic(){} // RVA: 0x1342450
+        public void DecodeNetworkStateFCC48D9AC334(){} // RVA: 0x13427B0
+        public void Updatemass(){} // RVA: 0x13428A0
+        public void UpdateUnityEngineState(){} // RVA: 0x13428B0
+        public void get_DefaultCreatorNonPublic(){} // RVA: 0x1342AB0
+        public void GetPlayerApiReference(){} // RVA: 0x1342AC0
+        public void get_ShouldUseSystemGestureMaterial(){} // RVA: 0x1342C40
+        public void ProcessNetworkParameter(){} // RVA: 0x1342C50
+        public void DoInverseTransformDirectionInjected(){} // RVA: 0x1342D50
+        public void OnDestroy(){} // RVA: 0x1342E10
+        public void DecodeNetworkState(){} // RVA: 0x345530
+        public void UpdateBehaviour(){} // RVA: 0x1342E60
+        public void StartCoroutine(){} // RVA: 0x1343550
+        public void GetKey(){} // RVA: 0x2DD320
+        public void .cctor(){} // RVA: 0x1343620
+        public void DeserializeNetworkState(){} // RVA: 0x1343710
+        public void AreEqual(){} // RVA: 0x1343820
+        public void CanUsePersistenceHashes(){} // RVA: 0x1343830
+        public void GetGlobalConfigurationRefV2(){} // RVA: 0x59F420
+        public void SetName18994274AA42(){} // RVA: 0x358D60
+        public void SetNetworkValue(){} // RVA: 0x1343B90
+        public void InitializeNetworkState(){} // RVA: 0x1343DB0
+        public void Awake(){} // RVA: 0x1344050
+        public void GetPackingRotation(){} // RVA: 0x1344120
+        public void GetPackingRotation_C17BEA6173D2(){} // RVA: 0x1344130
+        public void GetPackingPosition(){} // RVA: 0x1344690
+        public void set_applyShapeToPosition(){} // RVA: 0x1344EC0
+        public void DisableGravity(){} // RVA: 0x1344ED0
+        public void Computemass(){} // RVA: 0x13450E0
+        public void GetPackingRotation_024CB72CA5D4(){} // RVA: 0x13453D0
+        public void Encode(){} // RVA: 0x1348D60 | overloaded x2
+        public void DecodeNetworkState_FCC48D(){} // RVA: 0x1348AA0 | overloaded x2
+        public void set_UniqueHash(){} // RVA: 0x13465E0
+        public void SerializedName(){} // RVA: 0x1346710
+        public void get_UniqueHash(){} // RVA: 0xA67BB0
+        public void get_TypeId_EC1D12A0E355(){} // RVA: 0x1346880
+        public void set_TypeId(){} // RVA: 0x1346970
+        public void GetHeight(){} // RVA: 0x1347AF0
+        public void NeedsImportant(){} // RVA: 0x1347CB0
+        public void DisableKinematic(){} // RVA: 0x1347CF0
+        public void GetNetworkProperty296(){} // RVA: 0x1347F20
+        public void GetBufferedTimes(){} // RVA: 0x1348980
+        public void GetDoubleFromParts(){} // RVA: 0x13489C0
+        public void OnDestroy_EE6A302CC2B2(){} // RVA: 0x1342E10
+        public void GetHeight_30B8B79414A9(){} // RVA: 0x1348A10
+        public void set_IsDataValid(){} // RVA: 0xD1F6A0
+        public void set_Rotation(){} // RVA: 0x345520
+        public void ConnectInternalInjected(){} // RVA: 0x59E660
+        public void GetRect(){} // RVA: 0x1348BB0
+        public void GetRect_A8A91BED068F(){} // RVA: 0x1348BF0
+        public void GetRect_DD237DC06892(){} // RVA: 0x1348C00
+        public void set_ShouldUseSystemGestureMaterial(){} // RVA: 0x13498B0
+        public void get_TypeId(){} // RVA: 0xA67BB0
+        public void GetNetworkProperty(){} // RVA: 0x1349A40
+        public void EnableGravity(){} // RVA: 0x1349A50
+        public void Start(){} // RVA: 0x1349C60
+        public void get_gameObject(){} // RVA: 0x1349D00
+        public void .ctor(){} // RVA: 0x1349F90
+        public void Initialize(){} // RVA: 0x134A0A0
+        public void GetRect_97E6FAC1F212(){} // RVA: 0x134A200
+        public void Constructor(){} // RVA: 0x37B380
+        public void GetRect_2C02551402CA(){} // RVA: 0x134A380
+        public void GetBufferedTimes_ED72CD02E86C(){} // RVA: 0x134A490
+        public void TryGetPhotonOwnerId(){} // RVA: 0x358D50
+        public void get_AlertDescription(){} // RVA: 0x134A670
+        public void Start_C9ED83B2DF2E(){} // RVA: 0x134A680
+        public void OnNetworkInitialized(){} // RVA: 0x134A860
+        public void get_IsDataHighConfidence(){} // RVA: 0x134A9E0
+        public void OnDisable(){} // RVA: 0x134A9F0
+        public void set_Rotation_78CA28A3D228(){} // RVA: 0x134AB30
+        public void get_IsDataHighConfidence_9CA5029A8008(){} // RVA: 0x134A9E0
+        public void set_ShouldUseSystemGestureMaterial_6D10AB7C0A82(){} // RVA: 0x134AF80
+        public void EnableGravity_96EAD25C2F2E(){} // RVA: 0x134B0B0
+        public void GenerateComponentInfo(){} // RVA: 0x134B260
+        public void CanSerialize8Bit(){} // RVA: 0x3C2850
+        public void NeedsSync(){} // RVA: 0x134C4B0
+        public void TryGetPhotonOwnerId_E662F03BA68E(){} // RVA: 0x134C6F0
+        public void Update_540CB71AC481(){} // RVA: 0x134C840
+        public void set_LastPosition(){} // RVA: 0x134C8E0
+        public void Start_C9ED83B2DF2E_5ADE4DCD19F4(){} // RVA: 0x134C960
+        public void GenerateComponentInfo_39438CBFE73B(){} // RVA: 0x134D300
+        public void get_LastPosition(){} // RVA: 0x37B370
+        public void set_HasMemberAttribute(){} // RVA: 0x134D310
+        public void DoDestroy(){} // RVA: 0x134D320
+        public void Updatemass_91E17EE6511B(){} // RVA: 0x59F950
+        public void set_HasMemberAttribute_A740272858FD(){} // RVA: 0x134D310
+        public void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenDepthTolerance(){} // RVA: 0x8A4930
+        public void NeedsSync_119646F08C41(){} // RVA: 0x134D7C0
+        public void get_hasToes(){} // RVA: 0x408F80
+        public void Encode_3A84C5619216(){} // RVA: 0x1348D60
+        public void OnControllerColliderHit(){} // RVA: 0x134DA50
+        public void set_LastPosition_48F313A597F8(){} // RVA: 0x134DCA0
+        public void get_LastPosition_FCE681FA22D9(){} // RVA: 0x134DDD0
+        public void OnControllerColliderHit_D97D235075AE(){} // RVA: 0x134E210
+        public void ProxyNetworkFunctionCall(){} // RVA: 0x134E380
+        // ── 12 unresolved (hash) ──
+        public void m_924(){} // RVA: 0x1342660
+        public void m_84B(){} // RVA: 0x9EAB90
+        public void m_CB6(){} // RVA: 0x1348E00
+        public void m_F4D(){} // RVA: 0x1348E10
+        public void m_EF0(){} // RVA: 0x1349E00
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÏÎÍÍÏÌÏÎÏÏÎÍÎÎÏÌÏÍÎÍÏ</summary>
     public class PlayerNet_7B7C
     {
         // ── Methods ──
-        public void OnTriggerExit_82EBF097E0EB(){} // RVA: 0x7FFAF34ACA20
-        public void Encode_3E0F197E8F66(){} // RVA: 0x7FFAF34ACA60
-        public void SetPlayerNetworkState(){} // RVA: 0x7FFAF34ACA20
-        public void AddSubtraction(){} // RVA: 0x7FFAF34ACA80
-        public void set_rebuildConnectedBody(){} // RVA: 0x7FFAF34ACAA0
-        public void InvokeRepeating(){} // RVA: 0x7FFAF34ACAF0
-        public void OnEnable(){} // RVA: 0x7FFAF34ACB30
-        public void ProcessNetworkData(){} // RVA: 0x7FFAF34ACBE0
-        public void ExecuteNetworkHandlerMethod(){} // RVA: 0x7FFAF34ACC40
-        public void GetNetworkStatusZero(){} // RVA: 0x7FFAF34ACC80
-        public void LateUpdate(){} // RVA: 0x7FFAF34ACCC0
-        public void StartCoroutine_Auto(){} // RVA: 0x7FFAF34ACD00
-        public void OnNetworkReady(){} // RVA: 0x7FFAF34ACD20
-        public void NeedsSync(){} // RVA: 0x7FFAF2E72850
-        public void OnApplicationQuit(){} // RVA: 0x7FFAF34ACD40
-        public void StopAllCoroutines(){} // RVA: 0x7FFAF34ACD80
-        public void GetBufferedTimes(){} // RVA: 0x7FFAF34ACE80
-        public void SetOverlay(){} // RVA: 0x7FFAF34ACEA0
-        public void print(){} // RVA: 0x7FFAF2D8D320
-        public void Internal_CancelInvokeAll(){} // RVA: 0x7FFAF34ACEE0
-        public void SetNetworkPlayerReference(){} // RVA: 0x7FFAF34ACF00
-        public void DoCopyTexture_Region_957(){} // RVA: 0x7FFAF34ACF90
-        public void get_MotionBlurCameras(){} // RVA: 0x7FFAF2DF85F0
-        public void __set_hasTranslationDoF__SystemBoolean__SystemVoid(){} // RVA: 0x7FFAF34ACFD0
-        public void get_alreadySelecting(){} // RVA: 0x7FFAF34ACFF0
-        public void .cctor(){} // RVA: 0x7FFAF34AD010
-        public void Awake(){} // RVA: 0x7FFAF34AD110
-        public void SerializePlayerData(){} // RVA: 0x7FFAF34AD7C0
-        public void SetNetworkPropertyIntY(){} // RVA: 0x7FFAF34AD7E0
-        public void GetCachedPtr(){} // RVA: 0x7FFAF34AD800
-        public void IsNetworkPropertyFlagSetR(){} // RVA: 0x7FFAF34AD850
-        public void ProcessNetworkSynchronizationParameter(){} // RVA: 0x7FFAF34AD8A0
-        public void set_TypeId(){} // RVA: 0x7FFAF34AD8C0
-        public void SetXMotion(){} // RVA: 0x7FFAF34AD8F0
-        public void GetRootIMGUIContainer(){} // RVA: 0x7FFAF34AD930
-        public void SerializedName(){} // RVA: 0x7FFAF34AD950
-        public void get_TypeId(){} // RVA: 0x7FFAF34AD990
-        public void OnTriggerExit82EBF097E0EB(){} // RVA: 0x7FFAF34AD9A0
-        public void GetPlayerNetworkFloat400(){} // RVA: 0x7FFAF34ADA10
-        public void SetPlayerNetworkFloatNormalized(){} // RVA: 0x7FFAF34ADA50
-        public void DecodeNetworkState(){} // RVA: 0x7FFAF34ADA70
-        public void Equals(){} // RVA: 0x7FFAF34ADA90
-        public void Decode_7330FAEB259D(){} // RVA: 0x7FFAF34ADAF0
-        public void OnDestroy_129CC550B179(){} // RVA: 0x7FFAF34ADB40
-        public void SetPlayerNet(){} // RVA: 0x7FFAF34ADB80
-        public void DisableSubmitButton(){} // RVA: 0x7FFAF34ADBC0
-        public void ProcessNetworkSynchronizationParameter_F244784C1078(){} // RVA: 0x7FFAF34ADC10
-        public void get_selectHandler(){} // RVA: 0x7FFAF34ADC40
-        public void set_enabled(){} // RVA: 0x7FFAF34ADCD0
-        public void SetEnabled(){} // RVA: 0x7FFAF2DF8600
-        public void Awake_0B25984D07B4(){} // RVA: 0x7FFAF34ADD10
-        public void InitializeNetworkRuntime(){} // RVA: 0x7FFAF3341B50
-        public void UpdateNetworkMaterial(){} // RVA: 0x7FFAF34ADD50
-        public void RefreshOverlayState(){} // RVA: 0x7FFAF34ADD70
-        public void Updatemass(){} // RVA: 0x7FFAF304F950
-        public void CanSerialize8Bit_10B7FD5F5A2F(){} // RVA: 0x7FFAF34ADDB0
-        public void DoInternal_FromEu(){} // RVA: 0x7FFAF34ADDE0
-        public void GetNetworkProperty296(){} // RVA: 0x7FFAF34ADE00
-        public void DoRandomRangeInt_A2E(){} // RVA: 0x7FFAF34ADE20
-        public void GetPlayerNetworkFloat360(){} // RVA: 0x7FFAF34ADEE0
-        public void PropertyToID(){} // RVA: 0x7FFAF34ADF20
-        public void get_verticalScrollbar(){} // RVA: 0x7FFAF34ADF30
-        public void GetNetworkProperty408(){} // RVA: 0x7FFAF34ADF60
-        public void Computeenabled(){} // RVA: 0x7FFAF34ADF80
-        public void Decode_93802853B643(){} // RVA: 0x7FFAF34ADFD0
-        public void ComputeisDone(){} // RVA: 0x7FFAF34ADFE0
-        public void DoDestroy(){} // RVA: 0x7FFAF34AE000
-        public void Encode_B4DFAF89B337(){} // RVA: 0x7FFAF34AE130
-        public void Update_0E8467C65E85(){} // RVA: 0x7FFAF34AE140
-        public void GetGameObject(){} // RVA: 0x7FFAF34AE180
-        public void GetPackedVectorComponent(){} // RVA: 0x7FFAF34AE1A0
-        public void YGNodeStyleSetPositionType(){} // RVA: 0x7FFAF34AE1C0
-        public void ProxyNetworkFunctionCall(){} // RVA: 0x7FFAF34AE200
-        public void NeedsImportant(){} // RVA: 0x7FFAF2D8D320
-        public void NeedsSync_119352A21AFF(){} // RVA: 0x7FFAF34AE220
-        public void InternalGetHashCode(){} // RVA: 0x7FFAF2DF8120
-        public void GetVideoHeight(){} // RVA: 0x7FFAF34AE240
-        public void OnDisable(){} // RVA: 0x7FFAF34AE280
-        public void DoCreateInternalActionMapForSingletonAction(){} // RVA: 0x7FFAF34AE400
-        public void CanSerialize32Bit(){} // RVA: 0x7FFAF2D8D320
-        public void Encode(){} // RVA: 0x7FFAF34B07B0 | overloaded x2
-        public void GetSystem(){} // RVA: 0x7FFAF34AE600
-        public void ApplyNetworkPacketData(){} // RVA: 0x7FFAF34AE6B0
-        public void ApplyGlobalShaderParameters(){} // RVA: 0x7FFAF34AE6D0
-        public void Start_B70DE8D7385F(){} // RVA: 0x7FFAF34AE6F0
-        public void SetPrimaryShaderNetworkFloat(){} // RVA: 0x7FFAF34AF480
-        public void SetPrimaryGlobalShaderFloat(){} // RVA: 0x7FFAF34AF4A0
-        public void get_gameObject(){} // RVA: 0x7FFAF34AF4C0
-        public void GetNetworkProperty372(){} // RVA: 0x7FFAF34AF8C0
-        public void SetSecondaryGlobalShaderFloat(){} // RVA: 0x7FFAF34AF8D0
-        public void OnNetworkReady_F7C34F2959E4(){} // RVA: 0x7FFAF34AF920
-        public void OnDestroy(){} // RVA: 0x7FFAF34AF930
-        public void OnDisable_3E885B73235C(){} // RVA: 0x7FFAF34AFE50
-        public void CallNetworkInternalFunctionBAC0(){} // RVA: 0x7FFAF34B0180
-        public void GetNetworkProperty288(){} // RVA: 0x7FFAF34B01C0
-        public void ThrowMarshalException(){} // RVA: 0x7FFAF34B01D0
-        public void GetGlobalConfigurationRefV2(){} // RVA: 0x7FFAF34B0200
-        public void GetNetworkProperty396(){} // RVA: 0x7FFAF34B0220
-        public void GetNetworkProperty384(){} // RVA: 0x7FFAF34B0240
-        public void ComputegameObject(){} // RVA: 0x7FFAF34B0280
-        public void Initialize(){} // RVA: 0x7FFAF34B02A0
-        public void CalculateInterpolation(){} // RVA: 0x7FFAF34B02B0
-        public void OnTriggerEnter(){} // RVA: 0x7FFAF34B0300
-        public void SetNetworkPlayerReference_352BF024F24E(){} // RVA: 0x7FFAF34B03C0
-        public void DecodeNetworkState_D57F7B4584C3(){} // RVA: 0x7FFAF34B0430
-        public void set_TypeId_2A1FBF7A64BC(){} // RVA: 0x7FFAF34B0470
-        public void SetPlayerNetworkState_28560C98619C(){} // RVA: 0x7FFAF34B0500
-        public void IsNetworkReady(){} // RVA: 0x7FFAF34B0570
-        public void get_alreadySelecting_4D535F52AA64(){} // RVA: 0x7FFAF34B0590
-        public void get_TypeId_6741EC12CB54(){} // RVA: 0x7FFAF34B05B0
-        public void get_CustomBones(){} // RVA: 0x7FFAF34B05F0
-        public void OnTriggerExit_229F7B03D0D3(){} // RVA: 0x7FFAF34B0610
-        public void OnValidate_13BB14E0C747(){} // RVA: 0x7FFAF34B06F0
-        public void GetNetworkProperty368(){} // RVA: 0x7FFAF34B0710
-        public void GetMipChain(){} // RVA: 0x7FFAF34B07F0
-        public void ExecuteNetworkHandler(){} // RVA: 0x7FFAF34B0810
-        public void set_popularity(){} // RVA: 0x7FFAF34B0860
-        public void CanSerialize8Bit(){} // RVA: 0x7FFAF2E72850
-        public void ProcessPlayerNetworkData(){} // RVA: 0x7FFAF34B0880
-        public void CallNetworkInternalFunctionA50(){} // RVA: 0x7FFAF34B08C0
-        public void Start(){} // RVA: 0x7FFAF34B0900
-        public void GetConstantValue1000(){} // RVA: 0x7FFAF34B09A0
-        public void GetPlayerNetworkFloat356(){} // RVA: 0x7FFAF34B07F0
-        public void SetNetworkSynchronizationEnabled(){} // RVA: 0x7FFAF34B09C0
-        public void NeedsSync_6CFC9AB274C5(){} // RVA: 0x7FFAF34B0AF0
-        public void GetNetworkProperty304(){} // RVA: 0x7FFAF34B0B10
-        public void StopCoroutine(){} // RVA: 0x7FFAF34B0B30
-        public void OnValidate(){} // RVA: 0x7FFAF34B0B70
-        public void Decode(){} // RVA: 0x7FFAF34B1010 | overloaded x2
-        public void HandleSelection(){} // RVA: 0x7FFAF2DF8120
-        public void UpdateBufferedTimes(){} // RVA: 0x7FFAF34B0FC0
-        public void .ctor_E10DD5EA8881(){} // RVA: 0x7FFAF34B0FF0
-        public void .ctor(){} // RVA: 0x7FFAF34B1150
-        public void Decode_2E7D5EAD870C(){} // RVA: 0x7FFAF34B1250
-        public void IsNetworkPropertyFlagSetR_607990F33D67(){} // RVA: 0x7FFAF34B1830
-        public void Update(){} // RVA: 0x7FFAF34B1880
-        public void OnTriggerExit_31B927F603EA(){} // RVA: 0x7FFAF34B2220
-        public void UpdateActive(){} // RVA: 0x7FFAF34B2500
-        public void OnTriggerExit(){} // RVA: 0x7FFAF34B25B0
+        public void OnTriggerExit_82EBF097E0EB(){} // RVA: 0x9FCA20
+        public void Encode_3E0F197E8F66(){} // RVA: 0x9FCA60
+        public void SetPlayerNetworkState(){} // RVA: 0x9FCA20
+        public void AddSubtraction(){} // RVA: 0x9FCA80
+        public void set_rebuildConnectedBody(){} // RVA: 0x9FCAA0
+        public void InvokeRepeating(){} // RVA: 0x9FCAF0
+        public void OnEnable(){} // RVA: 0x9FCB30
+        public void ProcessNetworkData(){} // RVA: 0x9FCBE0
+        public void ExecuteNetworkHandlerMethod(){} // RVA: 0x9FCC40
+        public void GetNetworkStatusZero(){} // RVA: 0x9FCC80
+        public void LateUpdate(){} // RVA: 0x9FCCC0
+        public void StartCoroutine_Auto(){} // RVA: 0x9FCD00
+        public void OnNetworkReady(){} // RVA: 0x9FCD20
+        public void NeedsSync(){} // RVA: 0x3C2850
+        public void OnApplicationQuit(){} // RVA: 0x9FCD40
+        public void StopAllCoroutines(){} // RVA: 0x9FCD80
+        public void GetBufferedTimes(){} // RVA: 0x9FCE80
+        public void SetOverlay(){} // RVA: 0x9FCEA0
+        public void print(){} // RVA: 0x2DD320
+        public void Internal_CancelInvokeAll(){} // RVA: 0x9FCEE0
+        public void SetNetworkPlayerReference(){} // RVA: 0x9FCF00
+        public void DoCopyTexture_Region_957(){} // RVA: 0x9FCF90
+        public void get_MotionBlurCameras(){} // RVA: 0x3485F0
+        public void __set_hasTranslationDoF__SystemBoolean__SystemVoid(){} // RVA: 0x9FCFD0
+        public void get_alreadySelecting(){} // RVA: 0x9FCFF0
+        public void .cctor(){} // RVA: 0x9FD010
+        public void Awake(){} // RVA: 0x9FD110
+        public void SerializePlayerData(){} // RVA: 0x9FD7C0
+        public void SetNetworkPropertyIntY(){} // RVA: 0x9FD7E0
+        public void GetCachedPtr(){} // RVA: 0x9FD800
+        public void IsNetworkPropertyFlagSetR(){} // RVA: 0x9FD850
+        public void ProcessNetworkSynchronizationParameter(){} // RVA: 0x9FD8A0
+        public void set_TypeId(){} // RVA: 0x9FD8C0
+        public void SetXMotion(){} // RVA: 0x9FD8F0
+        public void GetRootIMGUIContainer(){} // RVA: 0x9FD930
+        public void SerializedName(){} // RVA: 0x9FD950
+        public void get_TypeId(){} // RVA: 0x9FD990
+        public void OnTriggerExit82EBF097E0EB(){} // RVA: 0x9FD9A0
+        public void GetPlayerNetworkFloat400(){} // RVA: 0x9FDA10
+        public void SetPlayerNetworkFloatNormalized(){} // RVA: 0x9FDA50
+        public void DecodeNetworkState(){} // RVA: 0x9FDA70
+        public void Equals(){} // RVA: 0x9FDA90
+        public void Decode_7330FAEB259D(){} // RVA: 0x9FDAF0
+        public void OnDestroy_129CC550B179(){} // RVA: 0x9FDB40
+        public void SetPlayerNet(){} // RVA: 0x9FDB80
+        public void DisableSubmitButton(){} // RVA: 0x9FDBC0
+        public void ProcessNetworkSynchronizationParameter_F244784C1078(){} // RVA: 0x9FDC10
+        public void get_selectHandler(){} // RVA: 0x9FDC40
+        public void set_enabled(){} // RVA: 0x9FDCD0
+        public void SetEnabled(){} // RVA: 0x348600
+        public void Awake_0B25984D07B4(){} // RVA: 0x9FDD10
+        public void InitializeNetworkRuntime(){} // RVA: 0x891B50
+        public void UpdateNetworkMaterial(){} // RVA: 0x9FDD50
+        public void RefreshOverlayState(){} // RVA: 0x9FDD70
+        public void Updatemass(){} // RVA: 0x59F950
+        public void CanSerialize8Bit_10B7FD5F5A2F(){} // RVA: 0x9FDDB0
+        public void DoInternal_FromEu(){} // RVA: 0x9FDDE0
+        public void GetNetworkProperty296(){} // RVA: 0x9FDE00
+        public void DoRandomRangeInt_A2E(){} // RVA: 0x9FDE20
+        public void GetPlayerNetworkFloat360(){} // RVA: 0x9FDEE0
+        public void PropertyToID(){} // RVA: 0x9FDF20
+        public void get_verticalScrollbar(){} // RVA: 0x9FDF30
+        public void GetNetworkProperty408(){} // RVA: 0x9FDF60
+        public void Computeenabled(){} // RVA: 0x9FDF80
+        public void Decode_93802853B643(){} // RVA: 0x9FDFD0
+        public void ComputeisDone(){} // RVA: 0x9FDFE0
+        public void DoDestroy(){} // RVA: 0x9FE000
+        public void Encode_B4DFAF89B337(){} // RVA: 0x9FE130
+        public void Update_0E8467C65E85(){} // RVA: 0x9FE140
+        public void GetGameObject(){} // RVA: 0x9FE180
+        public void GetPackedVectorComponent(){} // RVA: 0x9FE1A0
+        public void YGNodeStyleSetPositionType(){} // RVA: 0x9FE1C0
+        public void ProxyNetworkFunctionCall(){} // RVA: 0x9FE200
+        public void NeedsImportant(){} // RVA: 0x2DD320
+        public void NeedsSync_119352A21AFF(){} // RVA: 0x9FE220
+        public void InternalGetHashCode(){} // RVA: 0x348120
+        public void GetVideoHeight(){} // RVA: 0x9FE240
+        public void OnDisable(){} // RVA: 0x9FE280
+        public void DoCreateInternalActionMapForSingletonAction(){} // RVA: 0x9FE400
+        public void CanSerialize32Bit(){} // RVA: 0x2DD320
+        public void Encode(){} // RVA: 0xA007B0 | overloaded x2
+        public void GetSystem(){} // RVA: 0x9FE600
+        public void ApplyNetworkPacketData(){} // RVA: 0x9FE6B0
+        public void ApplyGlobalShaderParameters(){} // RVA: 0x9FE6D0
+        public void Start_B70DE8D7385F(){} // RVA: 0x9FE6F0
+        public void SetPrimaryShaderNetworkFloat(){} // RVA: 0x9FF480
+        public void SetPrimaryGlobalShaderFloat(){} // RVA: 0x9FF4A0
+        public void get_gameObject(){} // RVA: 0x9FF4C0
+        public void GetNetworkProperty372(){} // RVA: 0x9FF8C0
+        public void SetSecondaryGlobalShaderFloat(){} // RVA: 0x9FF8D0
+        public void OnNetworkReady_F7C34F2959E4(){} // RVA: 0x9FF920
+        public void OnDestroy(){} // RVA: 0x9FF930
+        public void OnDisable_3E885B73235C(){} // RVA: 0x9FFE50
+        public void CallNetworkInternalFunctionBAC0(){} // RVA: 0xA00180
+        public void GetNetworkProperty288(){} // RVA: 0xA001C0
+        public void ThrowMarshalException(){} // RVA: 0xA001D0
+        public void GetGlobalConfigurationRefV2(){} // RVA: 0xA00200
+        public void GetNetworkProperty396(){} // RVA: 0xA00220
+        public void GetNetworkProperty384(){} // RVA: 0xA00240
+        public void ComputegameObject(){} // RVA: 0xA00280
+        public void Initialize(){} // RVA: 0xA002A0
+        public void CalculateInterpolation(){} // RVA: 0xA002B0
+        public void OnTriggerEnter(){} // RVA: 0xA00300
+        public void SetNetworkPlayerReference_352BF024F24E(){} // RVA: 0xA003C0
+        public void DecodeNetworkState_D57F7B4584C3(){} // RVA: 0xA00430
+        public void set_TypeId_2A1FBF7A64BC(){} // RVA: 0xA00470
+        public void SetPlayerNetworkState_28560C98619C(){} // RVA: 0xA00500
+        public void IsNetworkReady(){} // RVA: 0xA00570
+        public void get_alreadySelecting_4D535F52AA64(){} // RVA: 0xA00590
+        public void get_TypeId_6741EC12CB54(){} // RVA: 0xA005B0
+        public void get_CustomBones(){} // RVA: 0xA005F0
+        public void OnTriggerExit_229F7B03D0D3(){} // RVA: 0xA00610
+        public void OnValidate_13BB14E0C747(){} // RVA: 0xA006F0
+        public void GetNetworkProperty368(){} // RVA: 0xA00710
+        public void GetMipChain(){} // RVA: 0xA007F0
+        public void ExecuteNetworkHandler(){} // RVA: 0xA00810
+        public void set_popularity(){} // RVA: 0xA00860
+        public void CanSerialize8Bit(){} // RVA: 0x3C2850
+        public void ProcessPlayerNetworkData(){} // RVA: 0xA00880
+        public void CallNetworkInternalFunctionA50(){} // RVA: 0xA008C0
+        public void Start(){} // RVA: 0xA00900
+        public void GetConstantValue1000(){} // RVA: 0xA009A0
+        public void GetPlayerNetworkFloat356(){} // RVA: 0xA007F0
+        public void SetNetworkSynchronizationEnabled(){} // RVA: 0xA009C0
+        public void NeedsSync_6CFC9AB274C5(){} // RVA: 0xA00AF0
+        public void GetNetworkProperty304(){} // RVA: 0xA00B10
+        public void StopCoroutine(){} // RVA: 0xA00B30
+        public void OnValidate(){} // RVA: 0xA00B70
+        public void Decode(){} // RVA: 0xA01010 | overloaded x2
+        public void HandleSelection(){} // RVA: 0x348120
+        public void UpdateBufferedTimes(){} // RVA: 0xA00FC0
+        public void .ctor_E10DD5EA8881(){} // RVA: 0xA00FF0
+        public void .ctor(){} // RVA: 0xA01150
+        public void Decode_2E7D5EAD870C(){} // RVA: 0xA01250
+        public void IsNetworkPropertyFlagSetR_607990F33D67(){} // RVA: 0xA01830
+        public void Update(){} // RVA: 0xA01880
+        public void OnTriggerExit_31B927F603EA(){} // RVA: 0xA02220
+        public void UpdateActive(){} // RVA: 0xA02500
+        public void OnTriggerExit(){} // RVA: 0xA025B0
         // ── Unresolved (hash) ──
-        public void m_115(){} // RVA: 0x7FFAF34ADE70
-        public void m_705(){} // RVA: 0x7FFAF34AE680
-        public void m_DA8(){} // RVA: 0x7FFAF34B24E0
+        public void m_115(){} // RVA: 0x9FDE70
+        public void m_705(){} // RVA: 0x9FE680
+        public void m_DA8(){} // RVA: 0xA024E0
     }
 
     /// <summary>Originally: ÎÍÎÎÌÌÍÎÍÍÍÌÎÎÌÍÎÌÎÎÍÎÏ</summary>
     public class PlayerOwnerCanUseAnimatedEmojiSibling_3670
     {
         // ── Methods ──
-        public void set_Key(){} // RVA: 0x7FFAF4584690
-        public void get_Count(){} // RVA: 0x7FFAF306ED50
-        public void get_Value(){} // RVA: 0x7FFAF4A1F090
-        public void get_Value_61990F1C56DD(){} // RVA: 0x7FFAF4A1F090
-        public void get_Value_7B8446D83078(){} // RVA: 0x7FFAF4A1F090
-        public void set_Priority(){} // RVA: 0x7FFAF30E74E0
-        public void set_Low64(){} // RVA: 0x7FFAF45C2320
-        public void TryGetValue(){} // RVA: 0x7FFAF4A1F0A0
-        public void get_Key(){} // RVA: 0x7FFAF4584690
-        public void get_Count_0F4816D5991A(){} // RVA: 0x7FFAF306ED50
+        public void get_Count(){} // RVA: 0x5BED50
+        public void get_Value(){} // RVA: 0x1F6F090
+        public void get_Value_61990F1C56DD(){} // RVA: 0x1F6F090
+        public void get_Value_7B8446D83078(){} // RVA: 0x1F6F090
+        public void set_Priority(){} // RVA: 0x6374E0
+        public void set_Low64(){} // RVA: 0x1B12320
+        public void TryGetValue(){} // RVA: 0x1F6F0A0
+        public void get_Key(){} // RVA: 0x1AD4690
+        public void get_Count_0F4816D5991A(){} // RVA: 0x5BED50
         // ── Unresolved (hash) ──
-        public void m_EED(){} // RVA: 0x7FFAF4584690
+        public void m_E5B(){} // RVA: 0x1AD4690
+        public void m_EED(){} // RVA: 0x1AD4690
     }
 
     /// <summary>Originally: ÎÏÏÏÏÌÌÌÌÌÌÍÎÌÎÎÌÌÍÎÌÌÎ</summary>
     public class PlayerOwnerCanUseAnimatedEmojiSibling_5059
     {
         // ── Methods ──
-        public void get_InstantiationKind(){} // RVA: 0x7FFAF2DDA5C0
-        public void set_name(){} // RVA: 0x7FFAF4A2E940
-        public void GetAwaiter(){} // RVA: 0x7FFAF320E7E0
-        public void ReadCapsuleColliderState(){} // RVA: 0x7FFAF2D900C0
-        public void GetAwaiter_4E0F260434F9(){} // RVA: 0x7FFAF320E7E0
-        public void get_InstantiationKind_D7249FAB5437(){} // RVA: 0x7FFAF2DDA5C0
-        public void set_name_396D8E5E81C2(){} // RVA: 0x7FFAF4A2E940
-        public void get_InstantiationKind_9A5DE7E34B83(){} // RVA: 0x7FFAF2DDA5C0
-        public void ReadCapsuleColliderState_1D9107BC3DA6(){} // RVA: 0x7FFAF2D900C0
-        public void set_name_156DAB0EE65A(){} // RVA: 0x7FFAF4A2E940
-        public void GetAwaiter_66C69DC531C0(){} // RVA: 0x7FFAF320E7E0
-        public void GetAwaiter_FD377C15AC41(){} // RVA: 0x7FFAF320E7E0
+        public void get_InstantiationKind(){} // RVA: 0x32A5C0
+        public void set_name(){} // RVA: 0x1F7E940
+        public void GetAwaiter(){} // RVA: 0x75E7E0
+        public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
+        public void GetAwaiter_4E0F260434F9(){} // RVA: 0x75E7E0
+        public void get_InstantiationKind_D7249FAB5437(){} // RVA: 0x32A5C0
+        public void set_name_396D8E5E81C2(){} // RVA: 0x1F7E940
+        public void get_InstantiationKind_9A5DE7E34B83(){} // RVA: 0x32A5C0
+        public void ReadCapsuleColliderState_1D9107BC3DA6(){} // RVA: 0x2E00C0
+        public void set_name_156DAB0EE65A(){} // RVA: 0x1F7E940
+        public void GetAwaiter_66C69DC531C0(){} // RVA: 0x75E7E0
+        public void GetAwaiter_FD377C15AC41(){} // RVA: 0x75E7E0
     }
 
     /// <summary>Originally: ÎÍÎÌÎÍÌÌÍÎÌÍÏÎÍÎÏÏÍÏÌÌÍ</summary>
     public class PlayerOwnerCanUseAnimatedEmojiSibling_B045
     {
         // ── Methods ──
-        public void Decode_E41E86F9CC1A(){} // RVA: 0x7FFAF2E2E0D0
-        public void Decode(){} // RVA: 0x7FFAF4A66BD0
-        public void GetStatus(){} // RVA: 0x7FFAF2E2E0C0
-        public void Decode_E41E86F9CC1A_7084049C135B(){} // RVA: 0x7FFAF2E2E0D0
-        public void GetStatus_B1670832D9C2(){} // RVA: 0x7FFAF2E2E0C0
-        public void GetEnumerator(){} // RVA: 0x7FFAF4A66C50
+        public void Decode_E41E86F9CC1A(){} // RVA: 0x37E0D0
+        public void Decode(){} // RVA: 0x1FB6BD0
+        public void GetStatus(){} // RVA: 0x37E0C0
+        public void Decode_E41E86F9CC1A_7084049C135B(){} // RVA: 0x37E0D0
+        public void GetStatus_B1670832D9C2(){} // RVA: 0x37E0C0
+        public void GetEnumerator(){} // RVA: 0x1FB6C50
         // ── Unresolved (hash) ──
-        public void m_FC4(){} // RVA: 0x7FFAF4A66C50
-        public void m_831(){} // RVA: 0x7FFAF4A66C50
-        public void m_EDA(){} // RVA: 0x7FFAF4A66BD0
+        public void m_FC4(){} // RVA: 0x1FB6C50
+        public void m_831(){} // RVA: 0x1FB6C50
+        public void m_EDA(){} // RVA: 0x1FB6BD0
     }
 
     /// <summary>Originally: ÎÎÌÎÏÏÌÎÏÎÎÍÍÍÌÏÏÍÌÍÌÎÌ</summary>
     public class PlayerOwnerCanUseAnimatedEmoji_8041_3E2E
     {
         // ── Methods ──
-        public void get_MaskTag(){} // RVA: 0x7FFAF3498FF0
-        public void set_AnimationStyle(){} // RVA: 0x7FFAF399FD10
-        public void set_FileId(){} // RVA: 0x7FFAF46E7750
-        public void get_FileId(){} // RVA: 0x7FFAF34270D0
-        public void set_MaskTag(){} // RVA: 0x7FFAF2E2B370
-        public void SetFPS(){} // RVA: 0x7FFAF3A74480
-        public void set_IsSpecialFX(){} // RVA: 0x7FFAF2D8EE90
-        public void get_IsSpecialFX(){} // RVA: 0x7FFAF39EB700
-        public void set_DisplayTexture(){} // RVA: 0x7FFAF2DBB130
-        public void RichPresenceOptionsSetApiName(){} // RVA: 0x7FFAF46E77A0
-        public void get_DisplayTexture(){} // RVA: 0x7FFAF2E08D50
-        public void set_EffectBundleID(){} // RVA: 0x7FFAF3467650
-        public void get_EffectBundleID(){} // RVA: 0x7FFAF3467650
-        public void get_AnimationStyle(){} // RVA: 0x7FFAF3427430
-        public void get_Frames(){} // RVA: 0x7FFAF46E7960
-        public void get_IsBuiltIn(){} // RVA: 0x7FFAF2D8D320
-        public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7FFAF2E7B9E0
-        public void get_IsAnimated(){} // RVA: 0x7FFAF46E7980
-        public void get_SpawnablePrefabName(){} // RVA: 0x7FFAF2DBB130
-        public void set_SpawnablePrefabName(){} // RVA: 0x7FFAF46E7960
-        public void set_IsAnimated(){} // RVA: 0x7FFAF2E2B380
-        public void .ctor(){} // RVA: 0x7FFAF46E79A0
-        public void get_LoadFrom(){} // RVA: 0x7FFAF46E7B30
-        public void set_LoadFrom(){} // RVA: 0x7FFAF30E74D0
-        public void set_Sprite(){} // RVA: 0x7FFAF46E7B60
-        public void get_Sprite(){} // RVA: 0x7FFAF2FC9240
-        public void get_IsPremium(){} // RVA: 0x7FFAF46E7C20
-        public void SetEffectBundleID(){} // RVA: 0x7FFAF2E555A0
-        public void set_LoopStyle(){} // RVA: 0x7FFAF46E7C40
-        public void set_Frames(){} // RVA: 0x7FFAF2E2B380
-        public void get_IsPremium_AB7D7D00DFA0(){} // RVA: 0x7FFAF2E08D60
-        public void SetFrames(){} // RVA: 0x7FFAF46E7CB0
-        public void get_LoopStyle(){} // RVA: 0x7FFAF46E8410
-        public void set_FPS(){} // RVA: 0x7FFAF46E7C40
-        public void set_FullResolutionTexture(){} // RVA: 0x7FFAF3498FF0
-        public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7FFAF2E7B9D0
-        public void get_FPS(){} // RVA: 0x7FFAF3A74480
-        public void get_FullResolutionTexture(){} // RVA: 0x7FFAF2E55590
+        public void get_MaskTag(){} // RVA: 0x9E8FF0
+        public void set_AnimationStyle(){} // RVA: 0xEEFD10
+        public void set_FileId(){} // RVA: 0x1C37750
+        public void get_FileId(){} // RVA: 0x9770D0
+        public void set_IsSpecialFX(){} // RVA: 0x37B370
+        public void SetFPS(){} // RVA: 0xFC4480
+        public void set_DisplayTexture(){} // RVA: 0x2DEE90
+        public void get_IsSpecialFX(){} // RVA: 0xF3B700
+        public void set_EffectBundleID(){} // RVA: 0x30B130
+        public void RichPresenceOptionsSetApiName(){} // RVA: 0x1C377A0
+        public void get_DisplayTexture(){} // RVA: 0x358D50
+        public void set_Frames(){} // RVA: 0x9B7650
+        public void get_EffectBundleID(){} // RVA: 0x9B7650
+        public void get_AnimationStyle(){} // RVA: 0x977430
+        public void get_Frames(){} // RVA: 0x1C37960
+        public void get_IsBuiltIn(){} // RVA: 0x2DD320
+        public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x3CB9E0
+        public void get_IsAnimated(){} // RVA: 0x1C37980
+        public void get_SpawnablePrefabName(){} // RVA: 0x30B130
+        public void set_SpawnablePrefabName(){} // RVA: 0x1C37960
+        public void set_LoadFrom(){} // RVA: 0x37B380
+        public void .ctor(){} // RVA: 0x1C379A0
+        public void get_LoadFrom(){} // RVA: 0x1C37B30
+        public void set_Sprite(){} // RVA: 0x6374D0
+        public void set_IsPremium(){} // RVA: 0x1C37B60
+        public void get_Sprite(){} // RVA: 0x519240
+        public void get_IsPremium(){} // RVA: 0x1C37C20
+        public void SetEffectBundleID(){} // RVA: 0x3A55A0
+        public void set_LoopStyle(){} // RVA: 0x1C37C40
+        public void set_Frames_156DAB0EE65A(){} // RVA: 0x37B380
+        public void get_IsPremium_AB7D7D00DFA0(){} // RVA: 0x358D60
+        public void SetFrames(){} // RVA: 0x1C37CB0
+        public void get_LoopStyle(){} // RVA: 0x1C38410
+        public void set_FPS(){} // RVA: 0x1C37C40
+        public void set_FullResolutionTexture(){} // RVA: 0x9E8FF0
+        public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x3CB9D0
+        public void get_FPS(){} // RVA: 0xFC4480
+        public void get_FullResolutionTexture(){} // RVA: 0x3A5590
     }
 
     /// <summary>Originally: ÎÍÏÍÌÍÎÎÌÏÏÏÌÏÍÌÌÍÍÎÍÌÍ</summary>
     public class PlayerShouldActivateModuleIsModuleSupported_4623_C2CD
     {
         // ── Methods ──
-        public void GetPointerData(){} // RVA: 0x7FFAF3056190
-        public void IsModuleSupported(){} // RVA: 0x7FFAF2E72850
-        public void set_body(){} // RVA: 0x7FFAF2E55590
-        public void CopyFromTo(){} // RVA: 0x7FFAF2DB6110
-        public void StateForMouseButton(){} // RVA: 0x7FFAF4335B50
-        public void StartPickedUp(){} // RVA: 0x7FFAF2E7FAF0
-        public void UpdateModule(){} // RVA: 0x7FFAF4335BE0
-        public void GetLastPointerEventData(){} // RVA: 0x7FFAF3058B10
-        public void .ctor(){} // RVA: 0x7FFAF4335C30
-        public void Initialize(){} // RVA: 0x7FFAF43360C0
-        public void GetUIManagerProperty4(){} // RVA: 0x7FFAF4336D20
-        public void GetSpineMapping(){} // RVA: 0x7FFAF4336EC0
-        public void ClearSelection(){} // RVA: 0x7FFAF2DB60F0
-        public void ApplyTransform(){} // RVA: 0x7FFAF4337140
-        public void get_clipLength(){} // RVA: 0x7FFAF4337780
-        public void set_clipLength(){} // RVA: 0x7FFAF2E555A0
-        public void AlignPlayerModuleRotation(){} // RVA: 0x7FFAF2DB6100
-        public void ProcessDrag(){} // RVA: 0x7FFAF4337830
-        public void Setenabled(){} // RVA: 0x7FFAF3056190
-        public void UpdateModule_FB23F36883E3(){} // RVA: 0x7FFAF4337ED0
-        public void set_YawInput(){} // RVA: 0x7FFAF2E08D60
-        public void UpdatePlayerModuleRotation(){} // RVA: 0x7FFAF2E08D60
-        public void Process(){} // RVA: 0x7FFAF43381B0
-        public void CompositionMethod(){} // RVA: 0x7FFAF2FC9240
-        public void Awake(){} // RVA: 0x7FFAF4338600
-        public void get_counterRotationStrength(){} // RVA: 0x7FFAF4338790
-        public void ProcessMove_C0E8589FA592(){} // RVA: 0x7FFAF4338AA0
-        public void DeactivateModule_6C09B24ADD65(){} // RVA: 0x7FFAF4338C70
-        public void Process_EE43EAE76D49(){} // RVA: 0x7FFAF4338D00
-        public void .ctor_BD6EC315AA9D(){} // RVA: 0x7FFAF3058B10
-        public void Initialize_415EA71C6A32(){} // RVA: 0x7FFAF4338E30
-        public void Start(){} // RVA: 0x7FFAF4339960
-        public void SetPlayerModuleEnabled(){} // RVA: 0x7FFAF2DB60E0
-        public void CallNetworkInternalFunctionA50(){} // RVA: 0x7FFAF3058B10
-        public void ActivateModule(){} // RVA: 0x7FFAF4339B90
-        public void SetGlobalTextureImpl(){} // RVA: 0x7FFAF4339CF0
-        public void DeactivateModule_AEB6631F1737(){} // RVA: 0x7FFAF433A050
-        public void ShouldActivateModule(){} // RVA: 0x7FFAF433A170
-        public void ActivateModule_D2F97A5C3B10(){} // RVA: 0x7FFAF433A380
-        public void CopyTexture(){} // RVA: 0x7FFAF433A450
-        public void DeactivateModule(){} // RVA: 0x7FFAF433A600
-        public void Start_9EB2D17FA510(){} // RVA: 0x7FFAF2E08D50
-        public void ProcessMove(){} // RVA: 0x7FFAF433A610
-        public void ShouldActivateModule_7C77871C2DCB(){} // RVA: 0x7FFAF433A630
-        public void ProcessTransform(){} // RVA: 0x7FFAF433A700
-        public void StopPlayerModuleOpenVr(){} // RVA: 0x7FFAF433A770
-        public void .cctor(){} // RVA: 0x7FFAF433AAE0
+        public void GetPointerData(){} // RVA: 0x5A6190
+        public void IsModuleSupported(){} // RVA: 0x3C2850
+        public void set_body(){} // RVA: 0x3A5590
+        public void CopyFromTo(){} // RVA: 0x306110
+        public void StateForMouseButton(){} // RVA: 0x1885B50
+        public void StartPickedUp(){} // RVA: 0x3CFAF0
+        public void UpdateModule(){} // RVA: 0x1885BE0
+        public void GetLastPointerEventData(){} // RVA: 0x5A8B10
+        public void .ctor(){} // RVA: 0x1885C30
+        public void Initialize(){} // RVA: 0x18860C0
+        public void GetUIManagerProperty4(){} // RVA: 0x1886D20
+        public void GetSpineMapping(){} // RVA: 0x1886EC0
+        public void ClearSelection(){} // RVA: 0x3060F0
+        public void ApplyTransform(){} // RVA: 0x1887140
+        public void get_clipLength(){} // RVA: 0x1887780
+        public void set_clipLength(){} // RVA: 0x3A55A0
+        public void AlignPlayerModuleRotation(){} // RVA: 0x306100
+        public void ProcessDrag(){} // RVA: 0x1887830
+        public void Setenabled(){} // RVA: 0x5A6190
+        public void UpdateModule_FB23F36883E3(){} // RVA: 0x1887ED0
+        public void set_YawInput(){} // RVA: 0x358D60
+        public void UpdatePlayerModuleRotation(){} // RVA: 0x358D60
+        public void Process(){} // RVA: 0x18881B0
+        public void CompositionMethod(){} // RVA: 0x519240
+        public void Awake(){} // RVA: 0x1888600
+        public void get_counterRotationStrength(){} // RVA: 0x1888790
+        public void ProcessMove_C0E8589FA592(){} // RVA: 0x1888AA0
+        public void DeactivateModule_6C09B24ADD65(){} // RVA: 0x1888C70
+        public void Process_EE43EAE76D49(){} // RVA: 0x1888D00
+        public void .ctor_BD6EC315AA9D(){} // RVA: 0x5A8B10
+        public void Initialize_415EA71C6A32(){} // RVA: 0x1888E30
+        public void Start(){} // RVA: 0x1889960
+        public void SetPlayerModuleEnabled(){} // RVA: 0x3060E0
+        public void CallNetworkInternalFunctionA50(){} // RVA: 0x5A8B10
+        public void ActivateModule(){} // RVA: 0x1889B90
+        public void SetGlobalTextureImpl(){} // RVA: 0x1889CF0
+        public void DeactivateModule_AEB6631F1737(){} // RVA: 0x188A050
+        public void ShouldActivateModule(){} // RVA: 0x188A170
+        public void ActivateModule_D2F97A5C3B10(){} // RVA: 0x188A380
+        public void CopyTexture(){} // RVA: 0x188A450
+        public void DeactivateModule(){} // RVA: 0x188A600
+        public void Start_9EB2D17FA510(){} // RVA: 0x358D50
+        public void ProcessMove(){} // RVA: 0x188A610
+        public void ShouldActivateModule_7C77871C2DCB(){} // RVA: 0x188A630
+        public void ProcessTransform(){} // RVA: 0x188A700
+        public void StopPlayerModuleOpenVr(){} // RVA: 0x188A770
+        public void .cctor(){} // RVA: 0x188AAE0
     }
 
     /// <summary>Originally: ÎÌÏÍÍÌÎÌÍÌÌÏÌÎÍÍÍÎÏÏÎÎÏ</summary>
     public class PlayerUseLowLatencyVideoHeight_EC39_75BE
     {
         // ── Methods ──
-        public void SetMipChain(){} // RVA: 0x7FFAF2F86850
-        public void GetDuration(){} // RVA: 0x7FFAF2F86A70
-        public void get_UseLowLatency_670F3B83A34A(){} // RVA: 0x7FFAF2F86AE0
-        public void LoadURL(){} // RVA: 0x7FFAF2F86B10
-        public void .ctor(){} // RVA: 0x7FFAF2F86C40
-        public void Initialize(){} // RVA: 0x7FFAF2F873B0
-        public void set_VideoWidth(){} // RVA: 0x7FFAF2F87400
-        public void Stop(){} // RVA: 0x7FFAF2F87500
-        public void get_VideoWidth(){} // RVA: 0x7FFAF2F87520
-        public void SetIsPlaying(){} // RVA: 0x7FFAF2F87590
-        public void UpdatePlayerUseLowLatency(){} // RVA: 0x7FFAF2F87600
-        public void get_Loop(){} // RVA: 0x7FFAF2DA87C0
-        public void set_Loop(){} // RVA: 0x7FFAF2F87670
-        public void StartCoroutineManaged2(){} // RVA: 0x7FFAF2F87680
-        public void SetIsReady(){} // RVA: 0x7FFAF2F87780
-        public void set_UseLowLatency(){} // RVA: 0x7FFAF2F877C0
-        public void Play(){} // RVA: 0x7FFAF2F86AE0
-        public void UpdateVideoState(){} // RVA: 0x7FFAF2F877D0
-        public void SetTime(){} // RVA: 0x7FFAF2F87810
-        public void get_UseLowLatency(){} // RVA: 0x7FFAF2F878F0
-        public void GetTime(){} // RVA: 0x7FFAF2F87920
-        public void set_IsReady(){} // RVA: 0x7FFAF2F87990
-        public void get_IsReady(){} // RVA: 0x7FFAF2F87B80
-        public void set_VideoHeight(){} // RVA: 0x7FFAF2F87B90
-        public void set_IsPlaying(){} // RVA: 0x7FFAF2F873B0
-        public void get_VideoHeight(){} // RVA: 0x7FFAF2F87BD0
-        public void RegisterColliderHitCallback(){} // RVA: 0x7FFAF2F87C40
-        public void Pause(){} // RVA: 0x7FFAF2F87C50
-        public void get_IsPlaying(){} // RVA: 0x7FFAF2F87C80
-        public void InitializeCtrlMousedisplayIndex(){} // RVA: 0x7FFAF2F87DB0
-        public void SetVideoHeight(){} // RVA: 0x7FFAF2F877C0
-        public void PlayURL(){} // RVA: 0x7FFAF2F87DC0
+        public void SetMipChain(){} // RVA: 0x4D6850
+        public void GetDuration(){} // RVA: 0x4D6A70
+        public void get_UseLowLatency_670F3B83A34A(){} // RVA: 0x4D6AE0
+        public void LoadURL(){} // RVA: 0x4D6B10
+        public void .ctor(){} // RVA: 0x4D6C40
+        public void Initialize(){} // RVA: 0x4D73B0
+        public void set_VideoWidth(){} // RVA: 0x4D7400
+        public void Stop(){} // RVA: 0x4D7500
+        public void get_VideoWidth(){} // RVA: 0x4D7520
+        public void SetIsPlaying(){} // RVA: 0x4D7590
+        public void UpdatePlayerUseLowLatency(){} // RVA: 0x4D7600
+        public void get_Loop(){} // RVA: 0x2F87C0
+        public void set_Loop(){} // RVA: 0x4D7670
+        public void StartCoroutineManaged2(){} // RVA: 0x4D7680
+        public void SetIsReady(){} // RVA: 0x4D7780
+        public void set_UseLowLatency(){} // RVA: 0x4D77C0
+        public void Play(){} // RVA: 0x4D6AE0
+        public void UpdateVideoState(){} // RVA: 0x4D77D0
+        public void SetTime(){} // RVA: 0x4D7810
+        public void get_UseLowLatency(){} // RVA: 0x4D78F0
+        public void GetTime(){} // RVA: 0x4D7920
+        public void set_IsReady(){} // RVA: 0x4D7990
+        public void get_IsReady(){} // RVA: 0x4D7B80
+        public void set_VideoHeight(){} // RVA: 0x4D7B90
+        public void set_IsPlaying(){} // RVA: 0x4D73B0
+        public void get_VideoHeight(){} // RVA: 0x4D7BD0
+        public void RegisterColliderHitCallback(){} // RVA: 0x4D7C40
+        public void Pause(){} // RVA: 0x4D7C50
+        public void get_IsPlaying(){} // RVA: 0x4D7C80
+        public void InitializeCtrlMousedisplayIndex(){} // RVA: 0x4D7DB0
+        public void SetVideoHeight(){} // RVA: 0x4D77C0
+        public void PlayURL(){} // RVA: 0x4D7DC0
     }
 
     /// <summary>Originally: ÎÎÏÌÌÏÌÍÏÏÍÎÍÎÍÍÍÏÏÌÍÍÌ</summary>
@@ -2220,29 +2237,29 @@ namespace VRC.Player
         public object allowOffhandGrab;
 
         // ── Methods ──
-        public void OnGUI(){} // RVA: 0x7FFAF3AE0A00
-        public void OnApplicationFocus(){} // RVA: 0x7FFAF3AE0B10
-        public void TryParseGenericArguments(){} // RVA: 0x7FFAF3AE0B10
-        public void TryParseGenericArguments_A3F98919F1D2(){} // RVA: 0x7FFAF3AE0B20
-        public void TryParseGenericArguments_2F6169385825(){} // RVA: 0x7FFAF3AE0B30
-        public void get_minHeight(){} // RVA: 0x7FFAF35AF380
-        public void Start(){} // RVA: 0x7FFAF3AE0B40
-        public void TryParseGenericArguments_B82325B070AA(){} // RVA: 0x7FFAF3AE0C00
-        public void OnDisable(){} // RVA: 0x7FFAF3AE0B20
-        public void TryParseArrayModifiers(){} // RVA: 0x7FFAF3AE0D50
-        public void .ctor(){} // RVA: 0x7FFAF3AE0FE0
-        public void Initialize(){} // RVA: 0x7FFAF3AE1050
-        public void TryParseAssemblyNameSpec(){} // RVA: 0x7FFAF3AE1060
-        public void GetIsInitialized(){} // RVA: 0x7FFAF3AE1110
-        public void GetIsInitialized_E0E0B26EC7E3(){} // RVA: 0x7FFAF3AE13B0
-        public void GetIsInitialized_60707134FF5F(){} // RVA: 0x7FFAF3AE1770
-        public void TryParseVersion(){} // RVA: 0x7FFAF3AE1A80
-        public void Update(){} // RVA: 0x7FFAF3AE1AB0
-        public void OnApplicationPause(){} // RVA: 0x7FFAF3AE1C70
-        public void Awake(){} // RVA: 0x7FFAF3AE1C80
-        public void OnDestroy(){} // RVA: 0x7FFAF3AE1E50
+        public void OnGUI(){} // RVA: 0x1030A00
+        public void OnApplicationFocus(){} // RVA: 0x1030B10
+        public void TryParseGenericArguments(){} // RVA: 0x1030B10
+        public void TryParseGenericArguments_A3F98919F1D2(){} // RVA: 0x1030B20
+        public void TryParseGenericArguments_2F6169385825(){} // RVA: 0x1030B30
+        public void get_minHeight(){} // RVA: 0xAFF380
+        public void Start(){} // RVA: 0x1030B40
+        public void TryParseGenericArguments_B82325B070AA(){} // RVA: 0x1030C00
+        public void OnDisable(){} // RVA: 0x1030B20
+        public void TryParseArrayModifiers(){} // RVA: 0x1030D50
+        public void .ctor(){} // RVA: 0x1030FE0
+        public void Initialize(){} // RVA: 0x1031050
+        public void TryParseAssemblyNameSpec(){} // RVA: 0x1031060
+        public void GetIsInitialized(){} // RVA: 0x1031110
+        public void GetIsInitialized_E0E0B26EC7E3(){} // RVA: 0x10313B0
+        public void GetIsInitialized_60707134FF5F(){} // RVA: 0x1031770
+        public void TryParseVersion(){} // RVA: 0x1031A80
+        public void Update(){} // RVA: 0x1031AB0
+        public void OnApplicationPause(){} // RVA: 0x1031C70
+        public void Awake(){} // RVA: 0x1031C80
+        public void OnDestroy(){} // RVA: 0x1031E50
         // ── Unresolved (hash) ──
-        public void m_2F6(){} // RVA: 0x7FFAF3AE0B30
+        public void m_2F6(){} // RVA: 0x1030B30
     }
 
 }

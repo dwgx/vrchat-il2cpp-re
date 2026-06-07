@@ -8,8 +8,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
     public class FiniteFieldDheGroup
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x7FFAFBFDDF50
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void IsValid(){} // RVA: 0x952DF50
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

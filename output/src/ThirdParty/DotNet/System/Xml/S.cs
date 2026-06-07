@@ -8,20 +8,20 @@ namespace ThirdParty.DotNet.System.Xml
     public class SafeAsciiDecoder
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void GetCharCount(){} // RVA: 0x7FFAF94C37E0
-        public void GetChars(){} // RVA: 0x7FFAF953A540
-        public void Convert(){} // RVA: 0x7FFAF953A5D0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void GetCharCount(){} // RVA: 0x6A137E0
+        public void GetChars(){} // RVA: 0x6A8A540
+        public void Convert(){} // RVA: 0x6A8A5D0
     }
 
     public class SecureStringHasher
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF94C4D20
-        public void Equals(){} // RVA: 0x7FFAF94C4D40
-        public void GetHashCode(){} // RVA: 0x7FFAF94C4DE0
-        public void GetHashCodeOfString(){} // RVA: 0x7FFAF94C4EE0
-        public void GetHashCodeDelegate(){} // RVA: 0x7FFAF94C4F60
+        public void .ctor(){} // RVA: 0x6A14D20
+        public void Equals(){} // RVA: 0x6A14D40
+        public void GetHashCode(){} // RVA: 0x6A14DE0
+        public void GetHashCodeOfString(){} // RVA: 0x6A14EE0
+        public void GetHashCodeDelegate(){} // RVA: 0x6A14F60
     }
 
 }

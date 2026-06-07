@@ -11,13 +11,13 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Editor
         public object preferableInferenceMode;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF998A530
-        public void get_targetFrequency(){} // RVA: 0x7FFAF4A28390
-        public void set_targetFrequency(){} // RVA: 0x7FFAF4A28380
-        public void get_frequency(){} // RVA: 0x7FFAF2EB7320
-        public void set_frequency(){} // RVA: 0x7FFAF2EB7330
-        public void ProcessSample(){} // RVA: 0x7FFAF998A550
-        public void Update(){} // RVA: 0x7FFAF998A5F0 | overloaded x2
+        public void .ctor(){} // RVA: 0x6EDA530
+        public void get_targetFrequency(){} // RVA: 0x1F78390
+        public void set_targetFrequency(){} // RVA: 0x1F78380
+        public void get_frequency(){} // RVA: 0x407320
+        public void set_frequency(){} // RVA: 0x407330
+        public void ProcessSample(){} // RVA: 0x6EDA550
+        public void Update(){} // RVA: 0x6EDA5F0 | overloaded x2
     }
 
 }

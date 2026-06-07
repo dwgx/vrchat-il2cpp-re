@@ -8,53 +8,53 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class NetSyncConnection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9D7C0
+        public void .ctor(){} // RVA: 0x60ED7C0
     }
 
     public class NetSyncSession
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9DA90
+        public void .ctor(){} // RVA: 0x60EDA90
     }
 
     public class NetSyncSessionList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9DD60
+        public void .ctor(){} // RVA: 0x60EDD60
     }
 
     public class NetSyncSessionsChangedNotification
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9E040
+        public void .ctor(){} // RVA: 0x60EE040
     }
 
     public class NetSyncSetSessionPropertyResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9E1F0
+        public void .ctor(){} // RVA: 0x60EE1F0
     }
 
     public class NetSyncVoipAttenuationValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9E340
+        public void .ctor(){} // RVA: 0x60EE340
     }
 
     public class NetSyncVoipAttenuationValueList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9E470
+        public void .ctor(){} // RVA: 0x60EE470
     }
 
     public class NetworkingPeer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF4419380
-        public void get_ID(){} // RVA: 0x7FFAF2DA8380
-        public void set_ID(){} // RVA: 0x7FFAF4417700
-        public void get_State(){} // RVA: 0x7FFAF306ED50
-        public void set_State(){} // RVA: 0x7FFAF30E74E0
+        public void .ctor(){} // RVA: 0x1969380
+        public void get_ID(){} // RVA: 0x2F8380
+        public void set_ID(){} // RVA: 0x1967700
+        public void get_State(){} // RVA: 0x5BED50
+        public void set_State(){} // RVA: 0x6374E0
     }
 
 }

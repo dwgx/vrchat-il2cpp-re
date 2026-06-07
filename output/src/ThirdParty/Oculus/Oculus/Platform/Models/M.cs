@@ -8,61 +8,61 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class MatchmakingAdminSnapshot
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9BD20
+        public void .ctor(){} // RVA: 0x60EBD20
     }
 
     public class MatchmakingAdminSnapshotCandidate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9BED0
+        public void .ctor(){} // RVA: 0x60EBED0
     }
 
     public class MatchmakingAdminSnapshotCandidateList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9C1A0
+        public void .ctor(){} // RVA: 0x60EC1A0
     }
 
     public class MatchmakingBrowseResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9C480
+        public void .ctor(){} // RVA: 0x60EC480
     }
 
     public class MatchmakingEnqueueResult
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9CCA0
+        public void .ctor(){} // RVA: 0x60ECCA0
     }
 
     public class MatchmakingEnqueueResultAndRoom
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9D200
+        public void .ctor(){} // RVA: 0x60ED200
     }
 
     public class MatchmakingEnqueuedUser
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9C6D0
+        public void .ctor(){} // RVA: 0x60EC6D0
     }
 
     public class MatchmakingEnqueuedUserList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9C9C0
+        public void .ctor(){} // RVA: 0x60EC9C0
     }
 
     public class MatchmakingStats
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9D450
+        public void .ctor(){} // RVA: 0x60ED450
     }
 
     public class MicrophoneAvailabilityState
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B9D6F0
+        public void .ctor(){} // RVA: 0x60ED6F0
     }
 
 }

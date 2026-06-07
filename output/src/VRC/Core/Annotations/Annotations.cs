@@ -8,8 +8,8 @@ namespace VRC.Core.Annotations
     public class VRChatInternalAPI
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30 | overloaded x2
-        public void get_Comment(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
+        public void get_Comment(){} // RVA: 0x2F8380
     }
 
 }

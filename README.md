@@ -1,21 +1,20 @@
 # VRChat IL2CPP Reverse Engineering
 
-> **2026-06-05 build** - 88,400 classes, 528,135 methods, 2,870 fields
-> Beebyte rotated struct layout; new offsets reverse-engineered and pipeline re-run
+> **2026-06-05 build** — 88,400 classes, 528,135 methods, 2,870 fields
 > GameAssembly.dll (210 MB) | IL2CPP v29.1 | Unity 2022.3.x | Beebyte Obfuscation
 
-## Coverage (June 5 build)
+## Coverage (June 5 build, quality-audited)
 
 | Metric | Count | Coverage |
 |--------|------:|----------|
 | Classes (semantic) | 7,813 / 11,503 obfuscated | **67.9%** semantic class names |
-| Methods (named) | 496,886 / 528,135 | **94.1%** semantic |
-| Methods (hash remaining) | 31,249 | 5.9% fallback (m_XXX) |
-| Fields | 2,870 total, 158 renamed | — |
-| cross_version entries | 53,292 | RVA + Codex + sibling-context |
-| Pipeline runtime | ~25s full run | — |
+| Methods (named) | 481,698 / 528,135 | **91.2%** semantic |
+| Methods (hash remaining) | 46,437 | 8.8% fallback (m_XXX) |
+| Fields | 2,870 total | runtime extraction pending |
+| cross_version entries | 42,013 | quality-audited |
+| Pipeline runtime | ~22s full run | — |
 
-Naming sources: RVA propagation (15.5K), Codex mega-batches (2.8K), sibling-context inference (13.5K), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts.
+Naming sources: RVA propagation (15.5K), LLM mega-batches (2.8K), sibling-context inference (13.5K), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts. Quality audit removed ~7K low-confidence predictions.
 
 ## Beebyte struct layout (June 5 build)
 
@@ -149,12 +148,67 @@ See [EAC Auth Analysis](output/eac_auth_analysis.md) and [Photon Protocol Analys
 - **Bridge trampoline** (bridge.js) writes shellcode in GA .data section for anti-tamper
 - **All Python scripts** use `sys.stdout.reconfigure(encoding='utf-8')` for Windows CJK
 
+## Using the Output
+
+### IDA / Ghidra Rename Script
+
+The pipeline generates `output/ida_apply_names.py` with 226K+ function renames.
+
+```python
+# In IDA: File -> Script File -> output/ida_apply_names.py
+# The script auto-detects IDA's imagebase via idaapi.get_imagebase()
+# No manual base address configuration needed
+```
+
+For Ghidra or other tools, use `output/name_mapping.json`:
+```json
+{
+  "methods": { "OriginalObfClass::OrigObfMethod": "SemanticName", ... },
+  "classes": { "ÌÍÎÏÍÌÎ...": "VRCPlayer", ... }
+}
+```
+
+### Deobfuscated Dump Format (dump.cs)
+
+`output/deobfuscated_dump.cs` uses **RVA** (Relative Virtual Address) for method offsets, similar to Il2CppDumper output:
+
+```csharp
+public class VRCPlayer : VRCPlayerApi
+{
+    public Transform _avatar; // 0x48
+    void Awake(); // RVA: 0x1A2B3C0
+    void OnPhotonSerializeView(); // RVA: 0x1A2B520
+}
+```
+
+To use RVAs in IDA/Ghidra: `imagebase + RVA = actual address`.
+IDA's default imagebase for PE files is `0x180000000`. The runtime GA base varies per launch due to ASLR.
+
+For richer output with field types, use the source tree (`output/src/`) which includes resolved types and offsets from `field_types.json` when available.
+
+### Metadata Decryption
+
+VRChat encrypts `global-metadata.dat` with Beebyte's custom XOR scheme. Use `tools/decrypt_metadata.py`:
+
+```bash
+python tools/decrypt_metadata.py <path_to_global-metadata.dat> <output_path>
+```
+
+Algorithm (reverse-engineered from `sub_180A7E880` in GameAssembly.dll):
+1. **Header** (first 0x148 bytes): XOR with `key[i] = (i - 0x34) & 0xFF`
+2. **Sections**: 7 sections XOR-decoded with position-dependent keys derived from header size fields
+
+The decrypted metadata enables `tools/lift_typedef_tokens.py` to recover real class/method names from TypeDefinition tokens.
+
+**Note**: The encryption constants may change with new VRChat builds. If decryption produces invalid output, re-analyze the decrypt function in GameAssembly.dll (search for the metadata magic `0xFAB11BAF` handler).
+
 ## Documentation
 
 | Document | Description |
 |----------|-------------|
+| [Workflow Guide](WORKFLOW.md) | Complete pipeline guide for new contributors |
 | [Dashboard](docs/index.html) | Interactive visual overview (GitHub Pages) |
-| [Coverage Report](output/coverage_report.md) | Deobfuscation coverage metrics |
+| [Coverage Report](output/pipeline_coverage_report.md) | Current pipeline coverage metrics |
 | [Network Analysis](output/network_layer_analysis.md) | Photon network layer mapping |
 | [Photon Protocol](output/photon_protocol_analysis.md) | Protocol reverse engineering |
 | [EAC Auth Analysis](output/eac_auth_analysis.md) | EOS anti-cheat authentication |

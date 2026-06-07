@@ -8,9 +8,9 @@ namespace VRC.SDKBase.Source.Validation.Performance.Scanners
     public class PerformanceScannerPlaceholder
     {
         // ── Methods ──
-        public void get_type(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_type(){} // RVA: 0x7FFAFC573640
-        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void get_type(){} // RVA: 0x30B0C0
+        public void set_type(){} // RVA: 0x9AC3640
+        public void .ctor(){} // RVA: 0x2DDD50
     }
 
 }

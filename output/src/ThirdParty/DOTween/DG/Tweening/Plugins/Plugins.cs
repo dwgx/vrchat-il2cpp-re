@@ -8,236 +8,236 @@ namespace ThirdParty.DOTween.DG.Tweening.Plugins
     public class Color2Plugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF492F7B0 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF492FB50
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF492FB70
-        public void SetChangeValue(){} // RVA: 0x7FFAF492FCA0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF492FDD0
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF492FDE0
-        public void .ctor(){} // RVA: 0x7FFAF49303D0
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E7F7B0 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E7FB50
+        public void SetRelativeEndValue(){} // RVA: 0x1E7FB70
+        public void SetChangeValue(){} // RVA: 0x1E7FCA0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E7FDD0
+        public void EvaluateAndApply(){} // RVA: 0x1E7FDE0
+        public void .ctor(){} // RVA: 0x1E803D0
     }
 
     public class ColorPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF49464C0 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF49466D0
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF49466E0
-        public void SetChangeValue(){} // RVA: 0x7FFAF4946760
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF492FDD0
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF49467E0
-        public void .ctor(){} // RVA: 0x7FFAF4946B00
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E964C0 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E966D0
+        public void SetRelativeEndValue(){} // RVA: 0x1E966E0
+        public void SetChangeValue(){} // RVA: 0x1E96760
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E7FDD0
+        public void EvaluateAndApply(){} // RVA: 0x1E967E0
+        public void .ctor(){} // RVA: 0x1E96B00
     }
 
     public class DoublePlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF4930490 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4930530
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF4930540
-        public void SetChangeValue(){} // RVA: 0x7FFAF4930570
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF49305A0
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF49305C0
-        public void .ctor(){} // RVA: 0x7FFAF4930720
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E80490 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E80530
+        public void SetRelativeEndValue(){} // RVA: 0x1E80540
+        public void SetChangeValue(){} // RVA: 0x1E80570
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E805A0
+        public void EvaluateAndApply(){} // RVA: 0x1E805C0
+        public void .ctor(){} // RVA: 0x1E80720
     }
 
     public class FloatPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF494E9A0 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4930530
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF494EAA0
-        public void SetChangeValue(){} // RVA: 0x7FFAF494EAD0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF494EB00
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF494EB20
-        public void .ctor(){} // RVA: 0x7FFAF494ED10
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E9E9A0 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E80530
+        public void SetRelativeEndValue(){} // RVA: 0x1E9EAA0
+        public void SetChangeValue(){} // RVA: 0x1E9EAD0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E9EB00
+        public void EvaluateAndApply(){} // RVA: 0x1E9EB20
+        public void .ctor(){} // RVA: 0x1E9ED10
     }
 
     public class IntPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF4946BB0 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4946C40
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF4946C50
-        public void SetChangeValue(){} // RVA: 0x7FFAF4946C80
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF4946CB0
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF4946CD0
-        public void .ctor(){} // RVA: 0x7FFAF4946E60
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E96BB0 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E96C40
+        public void SetRelativeEndValue(){} // RVA: 0x1E96C50
+        public void SetChangeValue(){} // RVA: 0x1E96C80
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E96CB0
+        public void EvaluateAndApply(){} // RVA: 0x1E96CD0
+        public void .ctor(){} // RVA: 0x1E96E60
     }
 
     public class LongPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF49307E0 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4930870
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF4930880
-        public void SetChangeValue(){} // RVA: 0x7FFAF49308B0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF49308E0
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF4930900
-        public void .ctor(){} // RVA: 0x7FFAF4930AA0
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E807E0 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E80870
+        public void SetRelativeEndValue(){} // RVA: 0x1E80880
+        public void SetChangeValue(){} // RVA: 0x1E808B0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E808E0
+        public void EvaluateAndApply(){} // RVA: 0x1E80900
+        public void .ctor(){} // RVA: 0x1E80AA0
     }
 
     public class PathPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF4943760
-        public void SetFrom(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
-        public void Get(){} // RVA: 0x7FFAF49438B0
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF49438F0
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF4943910
-        public void SetChangeValue(){} // RVA: 0x7FFAF4943A40
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF49442B0
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF49442D0
-        public void SetOrientation(){} // RVA: 0x7FFAF4944740
-        public void .ctor(){} // RVA: 0x7FFAF4946330
+        public void Reset(){} // RVA: 0x1E93760
+        public void SetFrom(){} // RVA: 0x2DD310 | overloaded x2
+        public void Get(){} // RVA: 0x1E938B0
+        public void ConvertToStartValue(){} // RVA: 0x1E938F0
+        public void SetRelativeEndValue(){} // RVA: 0x1E93910
+        public void SetChangeValue(){} // RVA: 0x1E93A40
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E942B0
+        public void EvaluateAndApply(){} // RVA: 0x1E942D0
+        public void SetOrientation(){} // RVA: 0x1E94740
+        public void .ctor(){} // RVA: 0x1E96330
     }
 
     public class QuaternionPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF49476B0 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF49478A0
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF49478D0
-        public void SetChangeValue(){} // RVA: 0x7FFAF4947930
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF4947B20
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF4947B50
-        public void .ctor(){} // RVA: 0x7FFAF4948420
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E976B0 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E978A0
+        public void SetRelativeEndValue(){} // RVA: 0x1E978D0
+        public void SetChangeValue(){} // RVA: 0x1E97930
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E97B20
+        public void EvaluateAndApply(){} // RVA: 0x1E97B50
+        public void .ctor(){} // RVA: 0x1E98420
     }
 
     public class RectOffsetPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF4930F50
-        public void SetFrom(){} // RVA: 0x7FFAF4948960 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4949130
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF49492E0
-        public void SetChangeValue(){} // RVA: 0x7FFAF49496F0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF4949AD0
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF4949C50
-        public void .ctor(){} // RVA: 0x7FFAF494AB30
-        public void .cctor(){} // RVA: 0x7FFAF494AB60
+        public void Reset(){} // RVA: 0x1E80F50
+        public void SetFrom(){} // RVA: 0x1E98960 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E99130
+        public void SetRelativeEndValue(){} // RVA: 0x1E992E0
+        public void SetChangeValue(){} // RVA: 0x1E996F0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E99AD0
+        public void EvaluateAndApply(){} // RVA: 0x1E99C50
+        public void .ctor(){} // RVA: 0x1E9AB30
+        public void .cctor(){} // RVA: 0x1E9AB60
     }
 
     public class RectPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF494AE40 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF49466D0
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF494B060
-        public void SetChangeValue(){} // RVA: 0x7FFAF494B0E0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF494B160
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF494B210
-        public void .ctor(){} // RVA: 0x7FFAF494B520
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E9AE40 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E966D0
+        public void SetRelativeEndValue(){} // RVA: 0x1E9B060
+        public void SetChangeValue(){} // RVA: 0x1E9B0E0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E9B160
+        public void EvaluateAndApply(){} // RVA: 0x1E9B210
+        public void .ctor(){} // RVA: 0x1E9B520
     }
 
     public class StringPlugin
     {
         // ── Methods ──
-        public void SetFrom(){} // RVA: 0x7FFAF494CF70 | overloaded x2
-        public void Reset(){} // RVA: 0x7FFAF4930F50
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4930870
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF2D8D310
-        public void SetChangeValue(){} // RVA: 0x7FFAF494D060
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF494D190
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF494D1F0
-        public void Append(){} // RVA: 0x7FFAF494D770
-        public void ScrambledCharsToUse(){} // RVA: 0x7FFAF494E030
-        public void .ctor(){} // RVA: 0x7FFAF494E150
-        public void .cctor(){} // RVA: 0x7FFAF494E180
+        public void SetFrom(){} // RVA: 0x1E9CF70 | overloaded x2
+        public void Reset(){} // RVA: 0x1E80F50
+        public void ConvertToStartValue(){} // RVA: 0x1E80870
+        public void SetRelativeEndValue(){} // RVA: 0x2DD310
+        public void SetChangeValue(){} // RVA: 0x1E9D060
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E9D190
+        public void EvaluateAndApply(){} // RVA: 0x1E9D1F0
+        public void Append(){} // RVA: 0x1E9D770
+        public void ScrambledCharsToUse(){} // RVA: 0x1E9E030
+        public void .ctor(){} // RVA: 0x1E9E150
+        public void .cctor(){} // RVA: 0x1E9E180
     }
 
     public class StringPluginExtensions
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAF494E310
-        public void ScrambleChars(){} // RVA: 0x7FFAF494E650
-        public void AppendScrambledChars(){} // RVA: 0x7FFAF494E720
+        public void .cctor(){} // RVA: 0x1E9E310
+        public void ScrambleChars(){} // RVA: 0x1E9E650
+        public void AppendScrambledChars(){} // RVA: 0x1E9E720
     }
 
     public class UintPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF4946BB0 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4946C40
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF4946C50
-        public void SetChangeValue(){} // RVA: 0x7FFAF494B5D0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF494B630
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF494B660
-        public void .ctor(){} // RVA: 0x7FFAF494B840
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E96BB0 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E96C40
+        public void SetRelativeEndValue(){} // RVA: 0x1E96C50
+        public void SetChangeValue(){} // RVA: 0x1E9B5D0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E9B630
+        public void EvaluateAndApply(){} // RVA: 0x1E9B660
+        public void .ctor(){} // RVA: 0x1E9B840
     }
 
     public class UlongPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF49307E0 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4930870
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF4930880
-        public void SetChangeValue(){} // RVA: 0x7FFAF49308B0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF4930B60
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF4930BA0
-        public void .ctor(){} // RVA: 0x7FFAF4930F20
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E807E0 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E80870
+        public void SetRelativeEndValue(){} // RVA: 0x1E80880
+        public void SetChangeValue(){} // RVA: 0x1E808B0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E80B60
+        public void EvaluateAndApply(){} // RVA: 0x1E80BA0
+        public void .ctor(){} // RVA: 0x1E80F20
     }
 
     public class Vector2Plugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF494B9E0 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4930870
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF494BBA0
-        public void SetChangeValue(){} // RVA: 0x7FFAF494BBF0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF494BCA0
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF494BCD0
-        public void .ctor(){} // RVA: 0x7FFAF494C060
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E9B9E0 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E80870
+        public void SetRelativeEndValue(){} // RVA: 0x1E9BBA0
+        public void SetChangeValue(){} // RVA: 0x1E9BBF0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E9BCA0
+        public void EvaluateAndApply(){} // RVA: 0x1E9BCD0
+        public void .ctor(){} // RVA: 0x1E9C060
     }
 
     public class Vector3ArrayPlugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF4930F50
-        public void SetFrom(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF4931090
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF4931190
-        public void SetChangeValue(){} // RVA: 0x7FFAF49312D0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF4931440
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF49315D0
-        public void .ctor(){} // RVA: 0x7FFAF4931D10
+        public void Reset(){} // RVA: 0x1E80F50
+        public void SetFrom(){} // RVA: 0x2DD310 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E81090
+        public void SetRelativeEndValue(){} // RVA: 0x1E81190
+        public void SetChangeValue(){} // RVA: 0x1E812D0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E81440
+        public void EvaluateAndApply(){} // RVA: 0x1E815D0
+        public void .ctor(){} // RVA: 0x1E81D10
     }
 
     public class Vector3Plugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF494EF90 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF494F2A0
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF49478D0
-        public void SetChangeValue(){} // RVA: 0x7FFAF494F2C0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF4947B20
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF494F390
-        public void .ctor(){} // RVA: 0x7FFAF494F820
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E9EF90 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E9F2A0
+        public void SetRelativeEndValue(){} // RVA: 0x1E978D0
+        public void SetChangeValue(){} // RVA: 0x1E9F2C0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E97B20
+        public void EvaluateAndApply(){} // RVA: 0x1E9F390
+        public void .ctor(){} // RVA: 0x1E9F820
     }
 
     public class Vector4Plugin
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x7FFAF2D8D310
-        public void SetFrom(){} // RVA: 0x7FFAF494C320 | overloaded x2
-        public void ConvertToStartValue(){} // RVA: 0x7FFAF49466D0
-        public void SetRelativeEndValue(){} // RVA: 0x7FFAF49466E0
-        public void SetChangeValue(){} // RVA: 0x7FFAF494C6C0
-        public void GetSpeedBasedDuration(){} // RVA: 0x7FFAF494C860
-        public void EvaluateAndApply(){} // RVA: 0x7FFAF494C890
-        public void .ctor(){} // RVA: 0x7FFAF494CE20
+        public void Reset(){} // RVA: 0x2DD310
+        public void SetFrom(){} // RVA: 0x1E9C320 | overloaded x2
+        public void ConvertToStartValue(){} // RVA: 0x1E966D0
+        public void SetRelativeEndValue(){} // RVA: 0x1E966E0
+        public void SetChangeValue(){} // RVA: 0x1E9C6C0
+        public void GetSpeedBasedDuration(){} // RVA: 0x1E9C860
+        public void EvaluateAndApply(){} // RVA: 0x1E9C890
+        public void .ctor(){} // RVA: 0x1E9CE20
     }
 
 }

@@ -454,7 +454,7 @@ namespace VRC.Misc
     public class Derived_84B3
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void Add(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÌÎÏÏÏÌÌÏÍÌÌÎÎÏÌÎÏÎÌÎÍÌÏ</summary>
@@ -471,7 +471,7 @@ namespace VRC.Misc
     public class Derived_84B3 : ÎÎÍÏÍÌÎÎÌÌÌÎÌÎÌÏÏÏÌÌÌÎÏ
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void Add(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÌÎÏÏÏÌÌÏÍÌÌÎÎÏÌÎÏÎÌÎÍÌÏ</summary>
@@ -483,7 +483,7 @@ namespace VRC.Misc
     public class Derived_84B3 : ÎÎÍÏÍÌÎÎÌÌÌÎÌÎÌÏÏÏÌÌÌÎÏ
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void Add(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÌÎÏÏÏÌÌÏÍÌÌÎÎÏÌÎÏÎÌÎÍÌÏ</summary>

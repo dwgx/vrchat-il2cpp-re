@@ -8,125 +8,125 @@ namespace ThirdParty.DotNet.System.Data
     public class ChildForeignKeyConstraintEnumerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF91A24F0
-        public void IsValidCandidate(){} // RVA: 0x7FFAF91A2560
+        public void .ctor(){} // RVA: 0x66F24F0
+        public void IsValidCandidate(){} // RVA: 0x66F2560
     }
 
     public class ColumnTypeConverter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void CanConvertTo(){} // RVA: 0x7FFAF919B210
-        public void ConvertTo(){} // RVA: 0x7FFAF919B300
-        public void CanConvertFrom(){} // RVA: 0x7FFAF919B920
-        public void ConvertFrom(){} // RVA: 0x7FFAF919BA10
-        public void GetStandardValues(){} // RVA: 0x7FFAF919BC80
-        public void GetStandardValuesExclusive(){} // RVA: 0x7FFAF2E72850
-        public void GetStandardValuesSupported(){} // RVA: 0x7FFAF2E72850
-        public void .cctor(){} // RVA: 0x7FFAF919BE10
+        public void .ctor(){} // RVA: 0x2DD310
+        public void CanConvertTo(){} // RVA: 0x66EB210
+        public void ConvertTo(){} // RVA: 0x66EB300
+        public void CanConvertFrom(){} // RVA: 0x66EB920
+        public void ConvertFrom(){} // RVA: 0x66EBA10
+        public void GetStandardValues(){} // RVA: 0x66EBC80
+        public void GetStandardValuesExclusive(){} // RVA: 0x3C2850
+        public void GetStandardValuesSupported(){} // RVA: 0x3C2850
+        public void .cctor(){} // RVA: 0x66EBE10
     }
 
     public class ConstNode
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF91CBB70 | overloaded x2
-        public void Bind(){} // RVA: 0x7FFAF2D8EE30
-        public void Eval(){} // RVA: 0x7FFAF91CBFB0 | overloaded x3
-        public void IsConstant(){} // RVA: 0x7FFAF2E72850
-        public void IsTableConstant(){} // RVA: 0x7FFAF2E72850
-        public void HasLocalAggregate(){} // RVA: 0x7FFAF2D8D320
-        public void HasRemoteAggregate(){} // RVA: 0x7FFAF2D8D320
-        public void Optimize(){} // RVA: 0x7FFAF44EF520
-        public void SmallestDecimal(){} // RVA: 0x7FFAF91CBFD0
-        public void SmallestNumeric(){} // RVA: 0x7FFAF91CC310
+        public void .ctor(){} // RVA: 0x671BB70 | overloaded x2
+        public void Bind(){} // RVA: 0x2DEE30
+        public void Eval(){} // RVA: 0x671BFB0 | overloaded x3
+        public void IsConstant(){} // RVA: 0x3C2850
+        public void IsTableConstant(){} // RVA: 0x3C2850
+        public void HasLocalAggregate(){} // RVA: 0x2DD320
+        public void HasRemoteAggregate(){} // RVA: 0x2DD320
+        public void Optimize(){} // RVA: 0x1A3F520
+        public void SmallestDecimal(){} // RVA: 0x671BFD0
+        public void SmallestNumeric(){} // RVA: 0x671C310
     }
 
     public class Constraint
     {
         // ── Methods ──
-        public void get_ConstraintName(){} // RVA: 0x7FFAF2DBB130
-        public void set_ConstraintName(){} // RVA: 0x7FFAF919D8A0
-        public void get_SchemaName(){} // RVA: 0x7FFAF919DC70
-        public void set_SchemaName(){} // RVA: 0x7FFAF919DCA0
-        public void get_InCollection(){} // RVA: 0x7FFAF2DA84E0
-        public void set_InCollection(){} // RVA: 0x7FFAF919DD00
-        public void get_Table(){} // RVA: 0x7FFAF2ABCD60
-        public void get_ExtendedProperties(){} // RVA: 0x7FFAF919DD90
-        public void ContainsColumn(){} // RVA: 0x7FFAF2ABDE40
-        public void CanEnableConstraint(){} // RVA: 0x7FFAF2ABDBE0
-        public void Clone(){} // RVA: 0x7FFAF2ACD640 | overloaded x2
-        public void CheckConstraint(){} // RVA: 0x7FFAF2ADBAA0 | overloaded x2
-        public void CheckCanAddToCollection(){} // RVA: 0x7FFAF2AD4B10
+        public void get_ConstraintName(){} // RVA: 0x30B130
+        public void set_ConstraintName(){} // RVA: 0x66ED8A0
+        public void get_SchemaName(){} // RVA: 0x66EDC70
+        public void set_SchemaName(){} // RVA: 0x66EDCA0
+        public void get_InCollection(){} // RVA: 0x2F84E0
+        public void set_InCollection(){} // RVA: 0x66EDD00
+        public void get_Table(){} // RVA: 0xCD60
+        public void get_ExtendedProperties(){} // RVA: 0x66EDD90
+        public void ContainsColumn(){} // RVA: 0xDE40
+        public void CanEnableConstraint(){} // RVA: 0xDBE0
+        public void Clone(){} // RVA: 0x1D640 | overloaded x2
+        public void CheckConstraint(){} // RVA: 0x2BAA0 | overloaded x2
+        public void CheckCanAddToCollection(){} // RVA: 0x24B10
         public void CanBeRemovedFromCollection(){}
-        public void CheckState(){} // RVA: 0x7FFAF2AD4A50
-        public void CheckStateForProperty(){} // RVA: 0x7FFAF919DEB0
-        public void get__DataSet(){} // RVA: 0x7FFAF2DBB0C0
-        public void IsConstraintViolated(){} // RVA: 0x7FFAF2ABDBE0
-        public void ToString(){} // RVA: 0x7FFAF2E41BC0
-        public void .ctor(){} // RVA: 0x7FFAF919DFD0
+        public void CheckState(){} // RVA: 0x24A50
+        public void CheckStateForProperty(){} // RVA: 0x66EDEB0
+        public void get__DataSet(){} // RVA: 0x30B0C0
+        public void IsConstraintViolated(){} // RVA: 0xDBE0
+        public void ToString(){} // RVA: 0x391BC0
+        public void .ctor(){} // RVA: 0x66EDFD0
     }
 
     public class ConstraintCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF919E0D0
-        public void get_List(){} // RVA: 0x7FFAF2D907C0
-        public void get_Item(){} // RVA: 0x7FFAF919E330 | overloaded x2
-        public void get_Table(){} // RVA: 0x7FFAF2DA8380
-        public void Add(){} // RVA: 0x7FFAF919EA60 | overloaded x3
-        public void AddUniqueConstraint(){} // RVA: 0x7FFAF919EB20
-        public void AddForeignKeyConstraint(){} // RVA: 0x7FFAF919ECD0
-        public void AutoGenerated(){} // RVA: 0x7FFAF919ED50
-        public void ArrayAdd(){} // RVA: 0x7FFAF919EE30
-        public void ArrayRemove(){} // RVA: 0x7FFAF919EE80
-        public void AssignName(){} // RVA: 0x7FFAF919EED0
-        public void BaseAdd(){} // RVA: 0x7FFAF919EEF0
-        public void BaseGroupSwitch(){} // RVA: 0x7FFAF919EFE0
-        public void BaseRemove(){} // RVA: 0x7FFAF919F1E0
-        public void CanRemove(){} // RVA: 0x7FFAF919F580
-        public void Clear(){} // RVA: 0x7FFAF919F5B0
-        public void Contains(){} // RVA: 0x7FFAF919FC00 | overloaded x2
-        public void FindConstraint(){} // RVA: 0x7FFAF919FD70
-        public void FindKeyConstraint(){} // RVA: 0x7FFAF91A00A0 | overloaded x2
-        public void FindForeignKeyConstraint(){} // RVA: 0x7FFAF91A01F0
-        public void CompareArrays(){} // RVA: 0x7FFAF91A0370
-        public void InternalIndexOf(){} // RVA: 0x7FFAF91A0410
-        public void MakeName(){} // RVA: 0x7FFAF91A05C0
-        public void OnCollectionChanged(){} // RVA: 0x7FFAF91A0670
-        public void RegisterName(){} // RVA: 0x7FFAF91A0690
-        public void Remove(){} // RVA: 0x7FFAF91A09D0
-        public void UnregisterName(){} // RVA: 0x7FFAF91A0BA0
-        public void FinishInitConstraints(){} // RVA: 0x7FFAF91A0CB0
+        public void .ctor(){} // RVA: 0x66EE0D0
+        public void get_List(){} // RVA: 0x2E07C0
+        public void get_Item(){} // RVA: 0x66EE330 | overloaded x2
+        public void get_Table(){} // RVA: 0x2F8380
+        public void Add(){} // RVA: 0x66EEA60 | overloaded x3
+        public void AddUniqueConstraint(){} // RVA: 0x66EEB20
+        public void AddForeignKeyConstraint(){} // RVA: 0x66EECD0
+        public void AutoGenerated(){} // RVA: 0x66EED50
+        public void ArrayAdd(){} // RVA: 0x66EEE30
+        public void ArrayRemove(){} // RVA: 0x66EEE80
+        public void AssignName(){} // RVA: 0x66EEED0
+        public void BaseAdd(){} // RVA: 0x66EEEF0
+        public void BaseGroupSwitch(){} // RVA: 0x66EEFE0
+        public void BaseRemove(){} // RVA: 0x66EF1E0
+        public void CanRemove(){} // RVA: 0x66EF580
+        public void Clear(){} // RVA: 0x66EF5B0
+        public void Contains(){} // RVA: 0x66EFC00 | overloaded x2
+        public void FindConstraint(){} // RVA: 0x66EFD70
+        public void FindKeyConstraint(){} // RVA: 0x66F00A0 | overloaded x2
+        public void FindForeignKeyConstraint(){} // RVA: 0x66F01F0
+        public void CompareArrays(){} // RVA: 0x66F0370
+        public void InternalIndexOf(){} // RVA: 0x66F0410
+        public void MakeName(){} // RVA: 0x66F05C0
+        public void OnCollectionChanged(){} // RVA: 0x66F0670
+        public void RegisterName(){} // RVA: 0x66F0690
+        public void Remove(){} // RVA: 0x66F09D0
+        public void UnregisterName(){} // RVA: 0x66F0BA0
+        public void FinishInitConstraints(){} // RVA: 0x66F0CB0
     }
 
     public class ConstraintConverter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void CanConvertTo(){} // RVA: 0x7FFAF91A1360
-        public void ConvertTo(){} // RVA: 0x7FFAF91A1450
+        public void .ctor(){} // RVA: 0x2DD310
+        public void CanConvertTo(){} // RVA: 0x66F1360
+        public void ConvertTo(){} // RVA: 0x66F1450
     }
 
     public class ConstraintEnumerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF91A2060
-        public void GetNext(){} // RVA: 0x7FFAF91A2160
-        public void GetConstraint(){} // RVA: 0x7FFAF2DBB0C0
-        public void IsValidCandidate(){} // RVA: 0x7FFAF2E72850
-        public void get_CurrentObject(){} // RVA: 0x7FFAF2DBB0C0
+        public void .ctor(){} // RVA: 0x66F2060
+        public void GetNext(){} // RVA: 0x66F2160
+        public void GetConstraint(){} // RVA: 0x30B0C0
+        public void IsValidCandidate(){} // RVA: 0x3C2850
+        public void get_CurrentObject(){} // RVA: 0x30B0C0
     }
 
     public class ConstraintException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF917C4F0 | overloaded x3
+        public void .ctor(){} // RVA: 0x66CC4F0 | overloaded x3
     }
 
     public class ConstraintTable
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void .ctor(){} // RVA: 0xF19AE0
     }
 
 }

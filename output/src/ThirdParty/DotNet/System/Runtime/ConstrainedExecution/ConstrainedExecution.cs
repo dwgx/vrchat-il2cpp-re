@@ -8,20 +8,20 @@ namespace ThirdParty.DotNet.System.Runtime.ConstrainedExecution
     public class CriticalFinalizerObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Finalize(){} // RVA: 0x7FFAF3AB7BA0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Finalize(){} // RVA: 0x1007BA0
     }
 
     public class PrePrepareMethodAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class ReliabilityContractAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF6EE8000
+        public void .ctor(){} // RVA: 0x4438000
     }
 
 }

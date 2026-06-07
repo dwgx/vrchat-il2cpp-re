@@ -8,16 +8,16 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
     public class FieldByRefUpdater
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF90F1210
-        public void Update(){} // RVA: 0x7FFAF90F12D0
-        public void UndefineTemps(){} // RVA: 0x7FFAF90F1380
+        public void .ctor(){} // RVA: 0x6641210
+        public void Update(){} // RVA: 0x66412D0
+        public void UndefineTemps(){} // RVA: 0x6641380
     }
 
     public class FieldInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-        public void ToString(){} // RVA: 0x7FFAF90C8B00
+        public void .ctor(){} // RVA: 0x2DEE30
+        public void ToString(){} // RVA: 0x6618B00
     }
 
 }

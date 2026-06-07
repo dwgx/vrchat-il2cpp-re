@@ -8,476 +8,476 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
     public class Ambisonic
     {
         // ── Methods ──
-        public void GetNormalisationWeights(){} // RVA: 0x7FFAF8D292D0
-        public void GetCoeffCount(){} // RVA: 0x7FFAF8D29360
-        public void GetChannelOrder(){} // RVA: 0x7FFAF8D29390
-        public void GetNormalisation(){} // RVA: 0x7FFAF8D29390
-        public void .cctor(){} // RVA: 0x7FFAF8D293A0
-        public void BuildWeightsFuMa(){} // RVA: 0x7FFAF8D29640
-        public void GetN(){} // RVA: 0x7FFAF8D29910
-        public void GetM(){} // RVA: 0x7FFAF8D29950
-        public void Factorial(){} // RVA: 0x7FFAF8D299D0
-        public void GetNormalisationSN3D(){} // RVA: 0x7FFAF8D29AE0 | overloaded x2
-        public void GetNormalisationN3D(){} // RVA: 0x7FFAF8D29C60
-        public void BuildWeightsSN3D(){} // RVA: 0x7FFAF8D29D10
+        public void GetNormalisationWeights(){} // RVA: 0x62792D0
+        public void GetCoeffCount(){} // RVA: 0x6279360
+        public void GetChannelOrder(){} // RVA: 0x6279390
+        public void GetNormalisation(){} // RVA: 0x6279390
+        public void .cctor(){} // RVA: 0x62793A0
+        public void BuildWeightsFuMa(){} // RVA: 0x6279640
+        public void GetN(){} // RVA: 0x6279910
+        public void GetM(){} // RVA: 0x6279950
+        public void Factorial(){} // RVA: 0x62799D0
+        public void GetNormalisationSN3D(){} // RVA: 0x6279AE0 | overloaded x2
+        public void GetNormalisationN3D(){} // RVA: 0x6279C60
+        public void BuildWeightsSN3D(){} // RVA: 0x6279D10
     }
 
     public class AmbisonicSource
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFAF8D040A0
-        public void OnDisable(){} // RVA: 0x7FFAF8D044D0
-        public void Setup(){} // RVA: 0x7FFAF8D047A0
-        public void OnDrawGizmos(){} // RVA: 0x7FFAF8D04AF0
-        public void LateUpdate(){} // RVA: 0x7FFAF8D04E00
-        public void SetListenerRelativePosition(){} // RVA: 0x7FFAF8D05090
-        public void UpdateCoefficients(){} // RVA: 0x7FFAF8D050B0
-        public void OnAudioFilterRead(){} // RVA: 0x7FFAF8D05470
-        public void FlushBuffers(){} // RVA: 0x7FFAF8D05B20
-        public void GetFullBufferCount(){} // RVA: 0x7FFAF8D05EF0
-        public void SendSamplesToSink(){} // RVA: 0x7FFAF8D05F40
-        public void .ctor(){} // RVA: 0x7FFAF8D06200
+        public void OnEnable(){} // RVA: 0x62540A0
+        public void OnDisable(){} // RVA: 0x62544D0
+        public void Setup(){} // RVA: 0x62547A0
+        public void OnDrawGizmos(){} // RVA: 0x6254AF0
+        public void LateUpdate(){} // RVA: 0x6254E00
+        public void SetListenerRelativePosition(){} // RVA: 0x6255090
+        public void UpdateCoefficients(){} // RVA: 0x62550B0
+        public void OnAudioFilterRead(){} // RVA: 0x6255470
+        public void FlushBuffers(){} // RVA: 0x6255B20
+        public void GetFullBufferCount(){} // RVA: 0x6255EF0
+        public void SendSamplesToSink(){} // RVA: 0x6255F40
+        public void .ctor(){} // RVA: 0x6256200
     }
 
     public class AmbisonicWavWriter
     {
         // ── Methods ──
-        public void get_Order(){} // RVA: 0x7FFAF3241DC0
-        public void get_Format(){} // RVA: 0x7FFAF3CB9F00
-        public void AddSource(){} // RVA: 0x7FFAF8D063C0
-        public void RemoveSource(){} // RVA: 0x7FFAF8D06590
-        public void OnDisable(){} // RVA: 0x7FFAF8D06710
-        public void SetupSource(){} // RVA: 0x7FFAF8D06720
-        public void ToggleCapturing(){} // RVA: 0x7FFAF8D067D0
-        public void StartCapture(){} // RVA: 0x7FFAF8D06800
-        public void StopCapture(){} // RVA: 0x7FFAF8D06F30
-        public void IsCapturing(){} // RVA: 0x7FFAF8D07160
-        public void LateUpdate(){} // RVA: 0x7FFAF8D07180
-        public void ProcessSources(){} // RVA: 0x7FFAF8D072A0
-        public void MixSamples(){} // RVA: 0x7FFAF8D075B0
-        public void FlushWavWriter(){} // RVA: 0x7FFAF8D076D0
-        public void .ctor(){} // RVA: 0x7FFAF8D07710
+        public void get_Order(){} // RVA: 0x791DC0
+        public void get_Format(){} // RVA: 0x1209F00
+        public void AddSource(){} // RVA: 0x62563C0
+        public void RemoveSource(){} // RVA: 0x6256590
+        public void OnDisable(){} // RVA: 0x6256710
+        public void SetupSource(){} // RVA: 0x6256720
+        public void ToggleCapturing(){} // RVA: 0x62567D0
+        public void StartCapture(){} // RVA: 0x6256800
+        public void StopCapture(){} // RVA: 0x6256F30
+        public void IsCapturing(){} // RVA: 0x6257160
+        public void LateUpdate(){} // RVA: 0x6257180
+        public void ProcessSources(){} // RVA: 0x62572A0
+        public void MixSamples(){} // RVA: 0x62575B0
+        public void FlushWavWriter(){} // RVA: 0x62576D0
+        public void .ctor(){} // RVA: 0x6257710
     }
 
     public class AudioSourceToWav
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFAF8D07910
-        public void OnDisable(){} // RVA: 0x7FFAF8D07B30
-        public void OnAudioFilterRead(){} // RVA: 0x7FFAF8D07BB0
-        public void .ctor(){} // RVA: 0x7FFAF8D07BE0
+        public void OnEnable(){} // RVA: 0x6257910
+        public void OnDisable(){} // RVA: 0x6257B30
+        public void OnAudioFilterRead(){} // RVA: 0x6257BB0
+        public void .ctor(){} // RVA: 0x6257BE0
     }
 
     public class CameraSelector
     {
         // ── Methods ──
-        public void get_Camera(){} // RVA: 0x7FFAF2E0A740
-        public void set_Camera(){} // RVA: 0x7FFAF8D07CB0
-        public void get_SelectBy(){} // RVA: 0x7FFAF3210030
-        public void set_SelectBy(){} // RVA: 0x7FFAF8D07D20
-        public void get_ScanFrequency(){} // RVA: 0x7FFAF379F5B0
-        public void set_ScanFrequency(){} // RVA: 0x7FFAF8D07D30
-        public void get_ScanHiddenCameras(){} // RVA: 0x7FFAF3198A80
-        public void set_ScanHiddenCameras(){} // RVA: 0x7FFAF8D07D40
-        public void get_SelectTag(){} // RVA: 0x7FFAF30E74D0
-        public void set_SelectTag(){} // RVA: 0x7FFAF8D07D50
-        public void get_SelectName(){} // RVA: 0x7FFAF2F476A0
-        public void set_SelectName(){} // RVA: 0x7FFAF8D07DB0
-        public void Awake(){} // RVA: 0x7FFAF8D07E10
-        public void Start(){} // RVA: 0x7FFAF8D07E20
-        public void OnValidate(){} // RVA: 0x7FFAF8D07E10
-        public void Update(){} // RVA: 0x7FFAF8D07E30
-        public void OnDestroy(){} // RVA: 0x7FFAF8D07E50
-        public void ResetSceneLoading(){} // RVA: 0x7FFAF8D07EF0
-        public void OnSceneLoaded(){} // RVA: 0x7FFAF8D07FE0
-        public void ScanForCameraChange(){} // RVA: 0x7FFAF8D07FF0
-        public void FindCamera(){} // RVA: 0x7FFAF8D08220
-        public void UpdateCameraCache(){} // RVA: 0x7FFAF8D08560
-        public void FindCameraByHighestDepth(){} // RVA: 0x7FFAF8D08700
-        public void FindCameraByTag(){} // RVA: 0x7FFAF8D08880
-        public void FindCameraByName(){} // RVA: 0x7FFAF8D08910
-        public void .ctor(){} // RVA: 0x7FFAF8D089D0
+        public void get_Camera(){} // RVA: 0x35A740
+        public void set_Camera(){} // RVA: 0x6257CB0
+        public void get_SelectBy(){} // RVA: 0x760030
+        public void set_SelectBy(){} // RVA: 0x6257D20
+        public void get_ScanFrequency(){} // RVA: 0xCEF5B0
+        public void set_ScanFrequency(){} // RVA: 0x6257D30
+        public void get_ScanHiddenCameras(){} // RVA: 0x6E8A80
+        public void set_ScanHiddenCameras(){} // RVA: 0x6257D40
+        public void get_SelectTag(){} // RVA: 0x6374D0
+        public void set_SelectTag(){} // RVA: 0x6257D50
+        public void get_SelectName(){} // RVA: 0x4976A0
+        public void set_SelectName(){} // RVA: 0x6257DB0
+        public void Awake(){} // RVA: 0x6257E10
+        public void Start(){} // RVA: 0x6257E20
+        public void OnValidate(){} // RVA: 0x6257E10
+        public void Update(){} // RVA: 0x6257E30
+        public void OnDestroy(){} // RVA: 0x6257E50
+        public void ResetSceneLoading(){} // RVA: 0x6257EF0
+        public void OnSceneLoaded(){} // RVA: 0x6257FE0
+        public void ScanForCameraChange(){} // RVA: 0x6257FF0
+        public void FindCamera(){} // RVA: 0x6258220
+        public void UpdateCameraCache(){} // RVA: 0x6258560
+        public void FindCameraByHighestDepth(){} // RVA: 0x6258700
+        public void FindCameraByTag(){} // RVA: 0x6258880
+        public void FindCameraByName(){} // RVA: 0x6258910
+        public void .ctor(){} // RVA: 0x62589D0
     }
 
     public class CaptureAudioFromAudioClip
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x7FFAF8D08BA0
-        public void Update(){} // RVA: 0x7FFAF8D08F50
-        public void GetAudioSamplesForFrame(){} // RVA: 0x7FFAF8D09060
-        public void .ctor(){} // RVA: 0x7FFAF3342040
+        public void OnEnable(){} // RVA: 0x6258BA0
+        public void Update(){} // RVA: 0x6258F50
+        public void GetAudioSamplesForFrame(){} // RVA: 0x6259060
+        public void .ctor(){} // RVA: 0x892040
     }
 
     public class CaptureAudioFromAudioListener
     {
         // ── Methods ──
-        public void get_Buffer(){} // RVA: 0x7FFAF30E74D0
-        public void get_BufferLength(){} // RVA: 0x7FFAF3A8C9F0
-        public void get_BufferPtr(){} // RVA: 0x7FFAF8D093B0
-        public void get_OverflowCount(){} // RVA: 0x7FFAF3F29960
-        public void get_SampleRate(){} // RVA: 0x7FFAF8D093C0
-        public void get_ChannelCount(){} // RVA: 0x7FFAF2E2E0C0
-        public void PrepareCapture(){} // RVA: 0x7FFAF8D09410
-        public void StartCapture(){} // RVA: 0x7FFAF629F790
-        public void StopCapture(){} // RVA: 0x7FFAF8D09990
-        public void ReadData(){} // RVA: 0x7FFAF8D09BF0
-        public void FlushBuffer(){} // RVA: 0x7FFAF8D09D80
-        public void OnAudioFilterRead(){} // RVA: 0x7FFAF8D09EC0
-        public void .ctor(){} // RVA: 0x7FFAF8D0A230
+        public void get_Buffer(){} // RVA: 0x6374D0
+        public void get_BufferLength(){} // RVA: 0xFDC9F0
+        public void get_BufferPtr(){} // RVA: 0x62593B0
+        public void get_OverflowCount(){} // RVA: 0x1479960
+        public void get_SampleRate(){} // RVA: 0x62593C0
+        public void get_ChannelCount(){} // RVA: 0x37E0C0
+        public void PrepareCapture(){} // RVA: 0x6259410
+        public void StartCapture(){} // RVA: 0x37EF790
+        public void StopCapture(){} // RVA: 0x6259990
+        public void ReadData(){} // RVA: 0x6259BF0
+        public void FlushBuffer(){} // RVA: 0x6259D80
+        public void OnAudioFilterRead(){} // RVA: 0x6259EC0
+        public void .ctor(){} // RVA: 0x625A230
     }
 
     public class CaptureAudioFromAudioRenderer
     {
         // ── Methods ──
-        public void get_Capture(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_Capture(){} // RVA: 0x7FFAF2DBB0D0
-        public void get_SampleRate(){} // RVA: 0x7FFAF8D093C0
-        public void get_ChannelCount(){} // RVA: 0x7FFAF3241DC0
-        public void PrepareCapture(){} // RVA: 0x7FFAF8D0A3E0
-        public void GetAudioBufferOfLength(){} // RVA: 0x7FFAF8D0A400
-        public void DisposeAudioBuffer(){} // RVA: 0x7FFAF2D8D310
-        public void StartCapture(){} // RVA: 0x7FFAF8D0A5D0
-        public void StopCapture(){} // RVA: 0x7FFAF8D0A840
-        public void FlushBuffer(){} // RVA: 0x7FFAF8D0A8D0
-        public void Update(){} // RVA: 0x7FFAF8D0A9C0
-        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void get_Capture(){} // RVA: 0x30B0C0
+        public void set_Capture(){} // RVA: 0x30B0D0
+        public void get_SampleRate(){} // RVA: 0x62593C0
+        public void get_ChannelCount(){} // RVA: 0x791DC0
+        public void PrepareCapture(){} // RVA: 0x625A3E0
+        public void GetAudioBufferOfLength(){} // RVA: 0x625A400
+        public void DisposeAudioBuffer(){} // RVA: 0x2DD310
+        public void StartCapture(){} // RVA: 0x625A5D0
+        public void StopCapture(){} // RVA: 0x625A840
+        public void FlushBuffer(){} // RVA: 0x625A8D0
+        public void Update(){} // RVA: 0x625A9C0
+        public void .ctor(){} // RVA: 0x2DDD50
     }
 
     public class CaptureAudioFromWwise
     {
         // ── Methods ──
-        public void get_Capture(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_Capture(){} // RVA: 0x7FFAF2DBB0D0
-        public void Awake(){} // RVA: 0x7FFAF8D0AB80
-        public void get_SampleRate(){} // RVA: 0x7FFAF2FC9240
-        public void get_ChannelCount(){} // RVA: 0x7FFAF2FC9240
-        public void PrepareCapture(){} // RVA: 0x7FFAF2D8D310
-        public void FlushBuffer(){} // RVA: 0x7FFAF2D8D310
-        public void StartCapture(){} // RVA: 0x7FFAF2D8D310
-        public void StopCapture(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void get_Capture(){} // RVA: 0x30B0C0
+        public void set_Capture(){} // RVA: 0x30B0D0
+        public void Awake(){} // RVA: 0x625AB80
+        public void get_SampleRate(){} // RVA: 0x519240
+        public void get_ChannelCount(){} // RVA: 0x519240
+        public void PrepareCapture(){} // RVA: 0x2DD310
+        public void FlushBuffer(){} // RVA: 0x2DD310
+        public void StartCapture(){} // RVA: 0x2DD310
+        public void StopCapture(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2DDD50
     }
 
     public class CaptureBase
     {
         // ── Methods ──
-        public void get_OutputTarget(){} // RVA: 0x7FFAF4759B70
-        public void set_OutputTarget(){} // RVA: 0x7FFAF8D2A280
-        public void get_OutputFolder(){} // RVA: 0x7FFAF61E9380
-        public void set_OutputFolder(){} // RVA: 0x7FFAF8D2A290
-        public void get_OutputFolderPath(){} // RVA: 0x7FFAF32A7DB0
-        public void set_OutputFolderPath(){} // RVA: 0x7FFAF30ED280
-        public void get_FilenamePrefix(){} // RVA: 0x7FFAF3544E10
-        public void set_FilenamePrefix(){} // RVA: 0x7FFAF37A6DE0
-        public void get_AppendFilenameTimestamp(){} // RVA: 0x7FFAF41B2E10
-        public void set_AppendFilenameTimestamp(){} // RVA: 0x7FFAF41B2E20
-        public void get_AllowManualFileExtension(){} // RVA: 0x7FFAF461CD40
-        public void set_AllowManualFileExtension(){} // RVA: 0x7FFAF461CF40
-        public void get_FilenameExtension(){} // RVA: 0x7FFAF2FB7710
-        public void set_FilenameExtension(){} // RVA: 0x7FFAF2FB9930
-        public void get_NamedPipePath(){} // RVA: 0x7FFAF2FB7D10
-        public void set_NamedPipePath(){} // RVA: 0x7FFAF2FBA8C0
-        public void get_ImageSequenceStartFrame(){} // RVA: 0x7FFAF37C9990
-        public void set_ImageSequenceStartFrame(){} // RVA: 0x7FFAF8D2A2A0
-        public void get_ImageSequenceZeroDigits(){} // RVA: 0x7FFAF8BED7A0
-        public void set_ImageSequenceZeroDigits(){} // RVA: 0x7FFAF8D2A2B0
-        public void get_UseMotionBlur(){} // RVA: 0x7FFAF412DAF0
-        public void set_UseMotionBlur(){} // RVA: 0x7FFAF4136780
-        public void get_MotionBlurSamples(){} // RVA: 0x7FFAF8D2A2E0
-        public void set_MotionBlurSamples(){} // RVA: 0x7FFAF8D2A2F0
-        public void get_MotionBlurCameras(){} // RVA: 0x7FFAF34AE130
-        public void set_MotionBlurCameras(){} // RVA: 0x7FFAF383E9B0
-        public void get_MotionBlur(){} // RVA: 0x7FFAF383A610
-        public void set_MotionBlur(){} // RVA: 0x7FFAF3845D10
-        public void get_ActiveFilePaths(){} // RVA: 0x7FFAF8D2A320
-        public void get_LastFilePath(){} // RVA: 0x7FFAF35474D0
-        public void get_BeginFinalFileWritingAction(){} // RVA: 0x7FFAF384E9A0
-        public void set_BeginFinalFileWritingAction(){} // RVA: 0x7FFAF384F490
-        public void get_CompletedFileWritingAction(){} // RVA: 0x7FFAF38471B0
-        public void set_CompletedFileWritingAction(){} // RVA: 0x7FFAF3835210
-        public void get_Stats(){} // RVA: 0x7FFAF3838BD0
-        public void get_CameraRenderResolution(){} // RVA: 0x7FFAF3CBA360
-        public void set_CameraRenderResolution(){} // RVA: 0x7FFAF8BDFB30
-        public void get_CameraRenderCustomResolution(){} // RVA: 0x7FFAF8D2A380
-        public void set_CameraRenderCustomResolution(){} // RVA: 0x7FFAF8D2A3A0
-        public void get_CameraRenderAntiAliasing(){} // RVA: 0x7FFAF40AEA80
-        public void set_CameraRenderAntiAliasing(){} // RVA: 0x7FFAF40AE850
-        public void get_IsRealTime(){} // RVA: 0x7FFAF45A8C70
-        public void set_IsRealTime(){} // RVA: 0x7FFAF45A8C60
-        public void get_PersistAcrossSceneLoads(){} // RVA: 0x7FFAF4740FC0
-        public void set_PersistAcrossSceneLoads(){} // RVA: 0x7FFAF4740FD0
-        public void get_AudioCaptureSource(){} // RVA: 0x7FFAF3500BB0
-        public void set_AudioCaptureSource(){} // RVA: 0x7FFAF4597FE0
-        public void get_ManualAudioSampleRate(){} // RVA: 0x7FFAF475C8E0
-        public void set_ManualAudioSampleRate(){} // RVA: 0x7FFAF68A13F0
-        public void get_ManualAudioChannelCount(){} // RVA: 0x7FFAF475C8F0
-        public void set_ManualAudioChannelCount(){} // RVA: 0x7FFAF8D2A3B0
-        public void get_UnityAudioCapture(){} // RVA: 0x7FFAF3546D30
-        public void set_UnityAudioCapture(){} // RVA: 0x7FFAF2E0E8A0
-        public void get_ForceAudioInputDeviceIndex(){} // RVA: 0x7FFAF47C2470
-        public void set_ForceAudioInputDeviceIndex(){} // RVA: 0x7FFAF8D2A3C0
-        public void get_FrameRate(){} // RVA: 0x7FFAF2DF5540
-        public void set_FrameRate(){} // RVA: 0x7FFAF8D2A3D0
-        public void get_StartTrigger(){} // RVA: 0x7FFAF2E2E0C0
-        public void set_StartTrigger(){} // RVA: 0x7FFAF2E2E0D0
-        public void get_StartDelay(){} // RVA: 0x7FFAF3F29960
-        public void set_StartDelay(){} // RVA: 0x7FFAF4825D90
-        public void get_StartDelaySeconds(){} // RVA: 0x7FFAF2DF5460
-        public void set_StartDelaySeconds(){} // RVA: 0x7FFAF8D2A400
-        public void get_StopMode(){} // RVA: 0x7FFAF370BE80
-        public void set_StopMode(){} // RVA: 0x7FFAF370BE70
-        public void get_StopAfterFramesElapsed(){} // RVA: 0x7FFAF349AB90
-        public void set_StopAfterFramesElapsed(){} // RVA: 0x7FFAF8D2A410
-        public void get_StopAfterSecondsElapsed(){} // RVA: 0x7FFAF2DB6000
-        public void set_StopAfterSecondsElapsed(){} // RVA: 0x7FFAF8D2A420
-        public void get_CaptureStats(){} // RVA: 0x7FFAF3838BD0
-        public void get_VideoCodecPriorityWindows(){} // RVA: 0x7FFAF2E2B370
-        public void set_VideoCodecPriorityWindows(){} // RVA: 0x7FFAF8D2A430
-        public void get_VideoCodecPriorityMacOS(){} // RVA: 0x7FFAF2E08D50
-        public void set_VideoCodecPriorityMacOS(){} // RVA: 0x7FFAF8D2A490
-        public void get_AudioCodecPriorityWindows(){} // RVA: 0x7FFAF2F77C50
-        public void set_AudioCodecPriorityWindows(){} // RVA: 0x7FFAF8D2A4F0
-        public void get_AudioCodecPriorityMacOS(){} // RVA: 0x7FFAF2F12D00
-        public void set_AudioCodecPriorityMacOS(){} // RVA: 0x7FFAF8D2A550
-        public void get_TimelapseScale(){} // RVA: 0x7FFAF315FD30
-        public void set_TimelapseScale(){} // RVA: 0x7FFAF338F350
-        public void get_FrameUpdate(){} // RVA: 0x7FFAF4826570
-        public void set_FrameUpdate(){} // RVA: 0x7FFAF4826000
-        public void get_ResolutionDownScale(){} // RVA: 0x7FFAF4826560
-        public void set_ResolutionDownScale(){} // RVA: 0x7FFAF4826580
-        public void get_ResolutionDownscaleCustom(){} // RVA: 0x7FFAF8D2A5B0
-        public void set_ResolutionDownscaleCustom(){} // RVA: 0x7FFAF8AA62E0
-        public void get_FlipVertically(){} // RVA: 0x7FFAF3D1AF80
-        public void set_FlipVertically(){} // RVA: 0x7FFAF3D1BEE0
-        public void get_UseWaitForEndOfFrame(){} // RVA: 0x7FFAF8D2A5D0
-        public void set_UseWaitForEndOfFrame(){} // RVA: 0x7FFAF8D2A5E0
-        public void get_LogCaptureStartStop(){} // RVA: 0x7FFAF2FADE70
-        public void set_LogCaptureStartStop(){} // RVA: 0x7FFAF8D2A5F0
-        public void get_AllowOfflineVSyncDisable(){} // RVA: 0x7FFAF8D2A600
-        public void set_AllowOfflineVSyncDisable(){} // RVA: 0x7FFAF8D2A610
-        public void get_SupportTextureRecreate(){} // RVA: 0x7FFAF8D2A620
-        public void set_SupportTextureRecreate(){} // RVA: 0x7FFAF8D2A630
-        public void get_TimelineController(){} // RVA: 0x7FFAF3843DD0
-        public void set_TimelineController(){} // RVA: 0x7FFAF3843D70
-        public void get_VideoPlayerController(){} // RVA: 0x7FFAF32E0040
-        public void set_VideoPlayerController(){} // RVA: 0x7FFAF383E320
-        public void get_SelectedVideoCodec(){} // RVA: 0x7FFAF3862150
-        public void get_SelectedAudioCodec(){} // RVA: 0x7FFAF3507F60
-        public void get_SelectedAudioInputDevice(){} // RVA: 0x7FFAF38562D0
-        public void get_NativeForceVideoCodecIndex(){} // RVA: 0x7FFAF3773CB0
-        public void set_NativeForceVideoCodecIndex(){} // RVA: 0x7FFAF3779310
-        public void get_NativeForceAudioCodecIndex(){} // RVA: 0x7FFAF4346340
-        public void set_NativeForceAudioCodecIndex(){} // RVA: 0x7FFAF4346350
-        public void get_NativeImageSequenceFormat(){} // RVA: 0x7FFAF8D2A640
-        public void set_NativeImageSequenceFormat(){} // RVA: 0x7FFAF8D2A650
-        public void GetCurrentPlatform(){} // RVA: 0x7FFAF2FC9240
-        public void GetEncoderHints(){} // RVA: 0x7FFAF8D2A660
-        public void SetEncoderHints(){} // RVA: 0x7FFAF8D2A710
-        public void UpdateMediaGallery(){} // RVA: 0x7FFAF2D8D310
-        public void Awake(){} // RVA: 0x7FFAF8D2A930
-        public void .cctor(){} // RVA: 0x7FFAF8D2AF60
-        public void Start(){} // RVA: 0x7FFAF8D2BA80
-        public void SelectCodec(){} // RVA: 0x7FFAF8D2BBB0
-        public void SelectVideoCodec(){} // RVA: 0x7FFAF8D2BF60
-        public void SelectAudioCodec(){} // RVA: 0x7FFAF8D2C140
-        public void SelectAudioInputDevice(){} // RVA: 0x7FFAF8D2C2B0
-        public void GetRecordingResolution(){} // RVA: 0x7FFAF8D2C510
-        public void SelectRecordingResolution(){} // RVA: 0x7FFAF8D2C5E0
-        public void OnDestroy(){} // RVA: 0x7FFAF8D2C6F0
-        public void FreePendingFileWrites(){} // RVA: 0x7FFAF8D2CA60
-        public void OnApplicationQuit(){} // RVA: 0x7FFAF8D2CC00
-        public void OnApplicationPause(){} // RVA: 0x7FFAF2D8D310
-        public void EncodeTexture(){} // RVA: 0x7FFAF8D2CC60
-        public void IsUsingUnityAudioComponent(){} // RVA: 0x7FFAF8D2CD70
-        public void IsUsingMotionBlur(){} // RVA: 0x7FFAF8D2CE70
-        public void EncodePointer(){} // RVA: 0x7FFAF8D2CF60
-        public void IsPrepared(){} // RVA: 0x7FFAF8D2D0F0
-        public void IsCapturing(){} // RVA: 0x7FFAF8D2D100
-        public void IsPaused(){} // RVA: 0x7FFAF8D2D110
-        public void GetRecordingWidth(){} // RVA: 0x7FFAF8D2D120
-        public void GetRecordingHeight(){} // RVA: 0x7FFAF8D2D130
-        public void GenerateTimestampedFilename(){} // RVA: 0x7FFAF8D2D140
-        public void GetFolder(){} // RVA: 0x7FFAF8D2D420
-        public void GenerateFilePath(){} // RVA: 0x7FFAF8D2D600
-        public void HasExtension(){} // RVA: 0x7FFAF8D2D6A0
-        public void GenerateFilename(){} // RVA: 0x7FFAF8D2D7F0
-        public void FindOrCreateUnityAudioCapture(){} // RVA: 0x7FFAF8D2DFE0
-        public void ValidateEditionFeatures(){} // RVA: 0x7FFAF8D2E680
-        public void PrepareCapture(){} // RVA: 0x7FFAF8D2EDB0
-        public void QueueStartCapture(){} // RVA: 0x7FFAF8D30AD0
-        public void IsStartCaptureQueued(){} // RVA: 0x7FFAF8D30B70
-        public void UpdateInjectionOptions(){} // RVA: 0x7FFAF8D30B80
-        public void StartCapture(){} // RVA: 0x7FFAF8D30C10
-        public void PauseCapture(){} // RVA: 0x7FFAF8D310D0
-        public void ResumeCapture(){} // RVA: 0x7FFAF8D31210
-        public void CancelCapture(){} // RVA: 0x7FFAF8D31320
-        public void DeleteCapture(){} // RVA: 0x7FFAF8D31350
-        public void UnprepareCapture(){} // RVA: 0x7FFAF2D8D310
-        public void get_LastFileSaved(){} // RVA: 0x7FFAF8D31460
-        public void set_LastFileSaved(){} // RVA: 0x7FFAF8D31510
-        public void RenderThreadEvent(){} // RVA: 0x7FFAF8D31560
-        public void StopCapture(){} // RVA: 0x7FFAF8D315D0
-        public void CreatePostOperationsOptions(){} // RVA: 0x7FFAF8D32300
-        public void CanApplyPostOperations(){} // RVA: 0x7FFAF8D323D0
-        public void ApplyPostOperations(){} // RVA: 0x7FFAF8D325C0
-        public void ToggleCapture(){} // RVA: 0x7FFAF8D327F0
-        public void IsEnoughDiskSpace(){} // RVA: 0x7FFAF8D32830
-        public void CanContinue(){} // RVA: 0x7FFAF8D32870
-        public void Update(){} // RVA: 0x7FFAF8D32990
-        public void LateUpdate(){} // RVA: 0x7FFAF8D32A00
-        public void RemoveCompletedFileWrites(){} // RVA: 0x7FFAF8D32D30
-        public void CheckFreeDiskSpace(){} // RVA: 0x7FFAF8D32E10
-        public void IsStartDelayComplete(){} // RVA: 0x7FFAF8D32ED0
-        public void IsStopTimeReached(){} // RVA: 0x7FFAF8D32F00
-        public void GetProgress(){} // RVA: 0x7FFAF8D32FF0
-        public void GetSecondsPerCaptureFrame(){} // RVA: 0x7FFAF8D330B0
-        public void CanOutputFrame(){} // RVA: 0x7FFAF8D330E0
-        public void TickFrameTimer(){} // RVA: 0x7FFAF8D33310
-        public void RenormTimer(){} // RVA: 0x7FFAF8D33380
-        public void GetPreviewTexture(){} // RVA: 0x7FFAF2FC9240
-        public void EncodeUnityAudio(){} // RVA: 0x7FFAF8D333D0
-        public void EncodeAudio(){} // RVA: 0x7FFAF8D33520 | overloaded x2
-        public void PreUpdateFrame(){} // RVA: 0x7FFAF8D33780
-        public void UpdateFrame(){} // RVA: 0x7FFAF8D33960
-        public void ResetFPS(){} // RVA: 0x7FFAF8D33CA0
-        public void UpdateFPS(){} // RVA: 0x7FFAF8D33CD0
-        public void GetCameraAntiAliasingLevel(){} // RVA: 0x7FFAF8D33D60
-        public void GetCaptureFileSize(){} // RVA: 0x7FFAF8D33FD0
-        public void GetResolution(){} // RVA: 0x7FFAF8D340E0
-        public void NextMultipleOf4(){} // RVA: 0x7FFAF3EB69B0
-        public void HasUserAuthorisationToCaptureAudio(){} // RVA: 0x7FFAF8D34260
-        public void RequestUserAuthorisationToCaptureAudioCallback(){} // RVA: 0x7FFAF8D34340
-        public void RequestAudioCaptureDeviceUserAuthorisation(){} // RVA: 0x7FFAF2FC9240
-        public void HasUserAuthorisationToAccessPhotos(){} // RVA: 0x7FFAF8D343C0
-        public void RequestUserAuthorisationToAccessPhotosCallback(){} // RVA: 0x7FFAF8D344A0
-        public void RequestUserAuthorisationToAccessPhotos(){} // RVA: 0x7FFAF2FC9240
-        public void .ctor(){} // RVA: 0x7FFAF8D34520
+        public void get_OutputTarget(){} // RVA: 0x1CA9B70
+        public void set_OutputTarget(){} // RVA: 0x627A280
+        public void get_OutputFolder(){} // RVA: 0x3739380
+        public void set_OutputFolder(){} // RVA: 0x627A290
+        public void get_OutputFolderPath(){} // RVA: 0x7F7DB0
+        public void set_OutputFolderPath(){} // RVA: 0x63D280
+        public void get_FilenamePrefix(){} // RVA: 0xA94E10
+        public void set_FilenamePrefix(){} // RVA: 0xCF6DE0
+        public void get_AppendFilenameTimestamp(){} // RVA: 0x1702E10
+        public void set_AppendFilenameTimestamp(){} // RVA: 0x1702E20
+        public void get_AllowManualFileExtension(){} // RVA: 0x1B6CD40
+        public void set_AllowManualFileExtension(){} // RVA: 0x1B6CF40
+        public void get_FilenameExtension(){} // RVA: 0x507710
+        public void set_FilenameExtension(){} // RVA: 0x509930
+        public void get_NamedPipePath(){} // RVA: 0x507D10
+        public void set_NamedPipePath(){} // RVA: 0x50A8C0
+        public void get_ImageSequenceStartFrame(){} // RVA: 0xD19990
+        public void set_ImageSequenceStartFrame(){} // RVA: 0x627A2A0
+        public void get_ImageSequenceZeroDigits(){} // RVA: 0x613D7A0
+        public void set_ImageSequenceZeroDigits(){} // RVA: 0x627A2B0
+        public void get_UseMotionBlur(){} // RVA: 0x167DAF0
+        public void set_UseMotionBlur(){} // RVA: 0x1686780
+        public void get_MotionBlurSamples(){} // RVA: 0x627A2E0
+        public void set_MotionBlurSamples(){} // RVA: 0x627A2F0
+        public void get_MotionBlurCameras(){} // RVA: 0x9FE130
+        public void set_MotionBlurCameras(){} // RVA: 0xD8E9B0
+        public void get_MotionBlur(){} // RVA: 0xD8A610
+        public void set_MotionBlur(){} // RVA: 0xD95D10
+        public void get_ActiveFilePaths(){} // RVA: 0x627A320
+        public void get_LastFilePath(){} // RVA: 0xA974D0
+        public void get_BeginFinalFileWritingAction(){} // RVA: 0xD9E9A0
+        public void set_BeginFinalFileWritingAction(){} // RVA: 0xD9F490
+        public void get_CompletedFileWritingAction(){} // RVA: 0xD971B0
+        public void set_CompletedFileWritingAction(){} // RVA: 0xD85210
+        public void get_Stats(){} // RVA: 0xD88BD0
+        public void get_CameraRenderResolution(){} // RVA: 0x120A360
+        public void set_CameraRenderResolution(){} // RVA: 0x612FB30
+        public void get_CameraRenderCustomResolution(){} // RVA: 0x627A380
+        public void set_CameraRenderCustomResolution(){} // RVA: 0x627A3A0
+        public void get_CameraRenderAntiAliasing(){} // RVA: 0x15FEA80
+        public void set_CameraRenderAntiAliasing(){} // RVA: 0x15FE850
+        public void get_IsRealTime(){} // RVA: 0x1AF8C70
+        public void set_IsRealTime(){} // RVA: 0x1AF8C60
+        public void get_PersistAcrossSceneLoads(){} // RVA: 0x1C90FC0
+        public void set_PersistAcrossSceneLoads(){} // RVA: 0x1C90FD0
+        public void get_AudioCaptureSource(){} // RVA: 0xA50BB0
+        public void set_AudioCaptureSource(){} // RVA: 0x1AE7FE0
+        public void get_ManualAudioSampleRate(){} // RVA: 0x1CAC8E0
+        public void set_ManualAudioSampleRate(){} // RVA: 0x3DF13F0
+        public void get_ManualAudioChannelCount(){} // RVA: 0x1CAC8F0
+        public void set_ManualAudioChannelCount(){} // RVA: 0x627A3B0
+        public void get_UnityAudioCapture(){} // RVA: 0xA96D30
+        public void set_UnityAudioCapture(){} // RVA: 0x35E8A0
+        public void get_ForceAudioInputDeviceIndex(){} // RVA: 0x1D12470
+        public void set_ForceAudioInputDeviceIndex(){} // RVA: 0x627A3C0
+        public void get_FrameRate(){} // RVA: 0x345540
+        public void set_FrameRate(){} // RVA: 0x627A3D0
+        public void get_StartTrigger(){} // RVA: 0x37E0C0
+        public void set_StartTrigger(){} // RVA: 0x37E0D0
+        public void get_StartDelay(){} // RVA: 0x1479960
+        public void set_StartDelay(){} // RVA: 0x1D75D90
+        public void get_StartDelaySeconds(){} // RVA: 0x345460
+        public void set_StartDelaySeconds(){} // RVA: 0x627A400
+        public void get_StopMode(){} // RVA: 0xC5BE80
+        public void set_StopMode(){} // RVA: 0xC5BE70
+        public void get_StopAfterFramesElapsed(){} // RVA: 0x9EAB90
+        public void set_StopAfterFramesElapsed(){} // RVA: 0x627A410
+        public void get_StopAfterSecondsElapsed(){} // RVA: 0x306000
+        public void set_StopAfterSecondsElapsed(){} // RVA: 0x627A420
+        public void get_CaptureStats(){} // RVA: 0xD88BD0
+        public void get_VideoCodecPriorityWindows(){} // RVA: 0x37B370
+        public void set_VideoCodecPriorityWindows(){} // RVA: 0x627A430
+        public void get_VideoCodecPriorityMacOS(){} // RVA: 0x358D50
+        public void set_VideoCodecPriorityMacOS(){} // RVA: 0x627A490
+        public void get_AudioCodecPriorityWindows(){} // RVA: 0x4C7C50
+        public void set_AudioCodecPriorityWindows(){} // RVA: 0x627A4F0
+        public void get_AudioCodecPriorityMacOS(){} // RVA: 0x462D00
+        public void set_AudioCodecPriorityMacOS(){} // RVA: 0x627A550
+        public void get_TimelapseScale(){} // RVA: 0x6AFD30
+        public void set_TimelapseScale(){} // RVA: 0x8DF350
+        public void get_FrameUpdate(){} // RVA: 0x1D76570
+        public void set_FrameUpdate(){} // RVA: 0x1D76000
+        public void get_ResolutionDownScale(){} // RVA: 0x1D76560
+        public void set_ResolutionDownScale(){} // RVA: 0x1D76580
+        public void get_ResolutionDownscaleCustom(){} // RVA: 0x627A5B0
+        public void set_ResolutionDownscaleCustom(){} // RVA: 0x5FF62E0
+        public void get_FlipVertically(){} // RVA: 0x126AF80
+        public void set_FlipVertically(){} // RVA: 0x126BEE0
+        public void get_UseWaitForEndOfFrame(){} // RVA: 0x627A5D0
+        public void set_UseWaitForEndOfFrame(){} // RVA: 0x627A5E0
+        public void get_LogCaptureStartStop(){} // RVA: 0x4FDE70
+        public void set_LogCaptureStartStop(){} // RVA: 0x627A5F0
+        public void get_AllowOfflineVSyncDisable(){} // RVA: 0x627A600
+        public void set_AllowOfflineVSyncDisable(){} // RVA: 0x627A610
+        public void get_SupportTextureRecreate(){} // RVA: 0x627A620
+        public void set_SupportTextureRecreate(){} // RVA: 0x627A630
+        public void get_TimelineController(){} // RVA: 0xD93DD0
+        public void set_TimelineController(){} // RVA: 0xD93D70
+        public void get_VideoPlayerController(){} // RVA: 0x830040
+        public void set_VideoPlayerController(){} // RVA: 0xD8E320
+        public void get_SelectedVideoCodec(){} // RVA: 0xDB2150
+        public void get_SelectedAudioCodec(){} // RVA: 0xA57F60
+        public void get_SelectedAudioInputDevice(){} // RVA: 0xDA62D0
+        public void get_NativeForceVideoCodecIndex(){} // RVA: 0xCC3CB0
+        public void set_NativeForceVideoCodecIndex(){} // RVA: 0xCC9310
+        public void get_NativeForceAudioCodecIndex(){} // RVA: 0x1896340
+        public void set_NativeForceAudioCodecIndex(){} // RVA: 0x1896350
+        public void get_NativeImageSequenceFormat(){} // RVA: 0x627A640
+        public void set_NativeImageSequenceFormat(){} // RVA: 0x627A650
+        public void GetCurrentPlatform(){} // RVA: 0x519240
+        public void GetEncoderHints(){} // RVA: 0x627A660
+        public void SetEncoderHints(){} // RVA: 0x627A710
+        public void UpdateMediaGallery(){} // RVA: 0x2DD310
+        public void Awake(){} // RVA: 0x627A930
+        public void .cctor(){} // RVA: 0x627AF60
+        public void Start(){} // RVA: 0x627BA80
+        public void SelectCodec(){} // RVA: 0x627BBB0
+        public void SelectVideoCodec(){} // RVA: 0x627BF60
+        public void SelectAudioCodec(){} // RVA: 0x627C140
+        public void SelectAudioInputDevice(){} // RVA: 0x627C2B0
+        public void GetRecordingResolution(){} // RVA: 0x627C510
+        public void SelectRecordingResolution(){} // RVA: 0x627C5E0
+        public void OnDestroy(){} // RVA: 0x627C6F0
+        public void FreePendingFileWrites(){} // RVA: 0x627CA60
+        public void OnApplicationQuit(){} // RVA: 0x627CC00
+        public void OnApplicationPause(){} // RVA: 0x2DD310
+        public void EncodeTexture(){} // RVA: 0x627CC60
+        public void IsUsingUnityAudioComponent(){} // RVA: 0x627CD70
+        public void IsUsingMotionBlur(){} // RVA: 0x627CE70
+        public void EncodePointer(){} // RVA: 0x627CF60
+        public void IsPrepared(){} // RVA: 0x627D0F0
+        public void IsCapturing(){} // RVA: 0x627D100
+        public void IsPaused(){} // RVA: 0x627D110
+        public void GetRecordingWidth(){} // RVA: 0x627D120
+        public void GetRecordingHeight(){} // RVA: 0x627D130
+        public void GenerateTimestampedFilename(){} // RVA: 0x627D140
+        public void GetFolder(){} // RVA: 0x627D420
+        public void GenerateFilePath(){} // RVA: 0x627D600
+        public void HasExtension(){} // RVA: 0x627D6A0
+        public void GenerateFilename(){} // RVA: 0x627D7F0
+        public void FindOrCreateUnityAudioCapture(){} // RVA: 0x627DFE0
+        public void ValidateEditionFeatures(){} // RVA: 0x627E680
+        public void PrepareCapture(){} // RVA: 0x627EDB0
+        public void QueueStartCapture(){} // RVA: 0x6280AD0
+        public void IsStartCaptureQueued(){} // RVA: 0x6280B70
+        public void UpdateInjectionOptions(){} // RVA: 0x6280B80
+        public void StartCapture(){} // RVA: 0x6280C10
+        public void PauseCapture(){} // RVA: 0x62810D0
+        public void ResumeCapture(){} // RVA: 0x6281210
+        public void CancelCapture(){} // RVA: 0x6281320
+        public void DeleteCapture(){} // RVA: 0x6281350
+        public void UnprepareCapture(){} // RVA: 0x2DD310
+        public void get_LastFileSaved(){} // RVA: 0x6281460
+        public void set_LastFileSaved(){} // RVA: 0x6281510
+        public void RenderThreadEvent(){} // RVA: 0x6281560
+        public void StopCapture(){} // RVA: 0x62815D0
+        public void CreatePostOperationsOptions(){} // RVA: 0x6282300
+        public void CanApplyPostOperations(){} // RVA: 0x62823D0
+        public void ApplyPostOperations(){} // RVA: 0x62825C0
+        public void ToggleCapture(){} // RVA: 0x62827F0
+        public void IsEnoughDiskSpace(){} // RVA: 0x6282830
+        public void CanContinue(){} // RVA: 0x6282870
+        public void Update(){} // RVA: 0x6282990
+        public void LateUpdate(){} // RVA: 0x6282A00
+        public void RemoveCompletedFileWrites(){} // RVA: 0x6282D30
+        public void CheckFreeDiskSpace(){} // RVA: 0x6282E10
+        public void IsStartDelayComplete(){} // RVA: 0x6282ED0
+        public void IsStopTimeReached(){} // RVA: 0x6282F00
+        public void GetProgress(){} // RVA: 0x6282FF0
+        public void GetSecondsPerCaptureFrame(){} // RVA: 0x62830B0
+        public void CanOutputFrame(){} // RVA: 0x62830E0
+        public void TickFrameTimer(){} // RVA: 0x6283310
+        public void RenormTimer(){} // RVA: 0x6283380
+        public void GetPreviewTexture(){} // RVA: 0x519240
+        public void EncodeUnityAudio(){} // RVA: 0x62833D0
+        public void EncodeAudio(){} // RVA: 0x6283520 | overloaded x2
+        public void PreUpdateFrame(){} // RVA: 0x6283780
+        public void UpdateFrame(){} // RVA: 0x6283960
+        public void ResetFPS(){} // RVA: 0x6283CA0
+        public void UpdateFPS(){} // RVA: 0x6283CD0
+        public void GetCameraAntiAliasingLevel(){} // RVA: 0x6283D60
+        public void GetCaptureFileSize(){} // RVA: 0x6283FD0
+        public void GetResolution(){} // RVA: 0x62840E0
+        public void NextMultipleOf4(){} // RVA: 0x14069B0
+        public void HasUserAuthorisationToCaptureAudio(){} // RVA: 0x6284260
+        public void RequestUserAuthorisationToCaptureAudioCallback(){} // RVA: 0x6284340
+        public void RequestAudioCaptureDeviceUserAuthorisation(){} // RVA: 0x519240
+        public void HasUserAuthorisationToAccessPhotos(){} // RVA: 0x62843C0
+        public void RequestUserAuthorisationToAccessPhotosCallback(){} // RVA: 0x62844A0
+        public void RequestUserAuthorisationToAccessPhotos(){} // RVA: 0x519240
+        public void .ctor(){} // RVA: 0x6284520
     }
 
     public class CaptureFromCamera
     {
         // ── Methods ──
-        public void get_CameraSelector(){} // RVA: 0x7FFAF38415D0
-        public void set_CameraSelector(){} // RVA: 0x7FFAF3843180
-        public void get_UseContributingCameras(){} // RVA: 0x7FFAF8D0ABE0
-        public void set_UseContributingCameras(){} // RVA: 0x7FFAF8D0ABF0
-        public void SetCamera(){} // RVA: 0x7FFAF8D0AF60 | overloaded x2
-        public void RequiresResolve(){} // RVA: 0x7FFAF8D0B020
-        public void HasCamera(){} // RVA: 0x7FFAF8D0B150
-        public void HasContributingCameras(){} // RVA: 0x7FFAF8D0B220
-        public void UpdateFrame(){} // RVA: 0x7FFAF8D0B250
-        public void FinalRenderCapture(){} // RVA: 0x7FFAF8D0B540
-        public void Capture(){} // RVA: 0x7FFAF8D0B5E0
-        public void RequiresHDR(){} // RVA: 0x7FFAF8D0B680
-        public void UpdateTexture(){} // RVA: 0x7FFAF8D0B860
-        public void UnprepareCapture(){} // RVA: 0x7FFAF8D0C1E0
-        public void CreateResolveTexture(){} // RVA: 0x7FFAF8D0C410
-        public void GetPreviewTexture(){} // RVA: 0x7FFAF38473A0
-        public void PrepareCapture(){} // RVA: 0x7FFAF8D0C8C0
-        public void OnDestroy(){} // RVA: 0x7FFAF8D0D440
-        public void .ctor(){} // RVA: 0x7FFAF8D0D730
-        public void <>n__0(){} // RVA: 0x7FFAF8D0D790
+        public void get_CameraSelector(){} // RVA: 0xD915D0
+        public void set_CameraSelector(){} // RVA: 0xD93180
+        public void get_UseContributingCameras(){} // RVA: 0x625ABE0
+        public void set_UseContributingCameras(){} // RVA: 0x625ABF0
+        public void SetCamera(){} // RVA: 0x625AF60 | overloaded x2
+        public void RequiresResolve(){} // RVA: 0x625B020
+        public void HasCamera(){} // RVA: 0x625B150
+        public void HasContributingCameras(){} // RVA: 0x625B220
+        public void UpdateFrame(){} // RVA: 0x625B250
+        public void FinalRenderCapture(){} // RVA: 0x625B540
+        public void Capture(){} // RVA: 0x625B5E0
+        public void RequiresHDR(){} // RVA: 0x625B680
+        public void UpdateTexture(){} // RVA: 0x625B860
+        public void UnprepareCapture(){} // RVA: 0x625C1E0
+        public void CreateResolveTexture(){} // RVA: 0x625C410
+        public void GetPreviewTexture(){} // RVA: 0xD973A0
+        public void PrepareCapture(){} // RVA: 0x625C8C0
+        public void OnDestroy(){} // RVA: 0x625D440
+        public void .ctor(){} // RVA: 0x625D730
+        public void <>n__0(){} // RVA: 0x625D790
     }
 
     public class CaptureFromCamera360
     {
         // ── Methods ──
-        public void get_CameraSelector(){} // RVA: 0x7FFAF38415D0
-        public void set_CameraSelector(){} // RVA: 0x7FFAF3843180
-        public void get_CubemapFaceResolution(){} // RVA: 0x7FFAF44F0D00
-        public void set_CubemapFaceResolution(){} // RVA: 0x7FFAF44F0340
-        public void get_CubemapDepthResolution(){} // RVA: 0x7FFAF44F0AD0
-        public void set_CubemapDepthResolution(){} // RVA: 0x7FFAF44F1810
-        public void get_SupportGUI(){} // RVA: 0x7FFAF8D0DEA0
-        public void set_SupportGUI(){} // RVA: 0x7FFAF8D0DEB0
-        public void get_SupportCameraRotation(){} // RVA: 0x7FFAF8D0DEC0
-        public void set_SupportCameraRotation(){} // RVA: 0x7FFAF8D0DED0
-        public void get_OnlyLeftRightRotation(){} // RVA: 0x7FFAF8D0DEE0
-        public void set_OnlyLeftRightRotation(){} // RVA: 0x7FFAF8D0DEF0
-        public void get_Render180Degrees(){} // RVA: 0x7FFAF8D0DF00
-        public void set_Render180Degrees(){} // RVA: 0x7FFAF8D0DF10
-        public void get_StereoRendering(){} // RVA: 0x7FFAF44EFF90
-        public void set_StereoRendering(){} // RVA: 0x7FFAF8D0DF20
-        public void get_IPD(){} // RVA: 0x7FFAF8D0DF30
-        public void set_IPD(){} // RVA: 0x7FFAF8D0DF40
-        public void .ctor(){} // RVA: 0x7FFAF8D0DF50
-        public void GetCubemapRenderingMethod(){} // RVA: 0x7FFAF8D0DFE0
-        public void SetCamera(){} // RVA: 0x7FFAF384C4E0
-        public void UpdateFrame(){} // RVA: 0x7FFAF8D0E000
-        public void FinalRenderCapture(){} // RVA: 0x7FFAF8D0E2C0
-        public void Capture(){} // RVA: 0x7FFAF8D0E360
-        public void ClearCubemap(){} // RVA: 0x7FFAF8D0E800
-        public void RenderCubemapToEquiRect(){} // RVA: 0x7FFAF8D0ECB0
-        public void UpdateTexture(){} // RVA: 0x7FFAF8D0EE70
-        public void RenderCameraToCubemap(){} // RVA: 0x7FFAF8D0F6A0
-        public void AccumulateMotionBlur(){} // RVA: 0x7FFAF8D11170
-        public void PrepareCapture(){} // RVA: 0x7FFAF8D11330
-        public void GetPreviewTexture(){} // RVA: 0x7FFAF8D12520
-        public void Start(){} // RVA: 0x7FFAF8D12560
-        public void OnDestroy(){} // RVA: 0x7FFAF8D12920
+        public void get_CameraSelector(){} // RVA: 0xD915D0
+        public void set_CameraSelector(){} // RVA: 0xD93180
+        public void get_CubemapFaceResolution(){} // RVA: 0x1A40D00
+        public void set_CubemapFaceResolution(){} // RVA: 0x1A40340
+        public void get_CubemapDepthResolution(){} // RVA: 0x1A40AD0
+        public void set_CubemapDepthResolution(){} // RVA: 0x1A41810
+        public void get_SupportGUI(){} // RVA: 0x625DEA0
+        public void set_SupportGUI(){} // RVA: 0x625DEB0
+        public void get_SupportCameraRotation(){} // RVA: 0x625DEC0
+        public void set_SupportCameraRotation(){} // RVA: 0x625DED0
+        public void get_OnlyLeftRightRotation(){} // RVA: 0x625DEE0
+        public void set_OnlyLeftRightRotation(){} // RVA: 0x625DEF0
+        public void get_Render180Degrees(){} // RVA: 0x625DF00
+        public void set_Render180Degrees(){} // RVA: 0x625DF10
+        public void get_StereoRendering(){} // RVA: 0x1A3FF90
+        public void set_StereoRendering(){} // RVA: 0x625DF20
+        public void get_IPD(){} // RVA: 0x625DF30
+        public void set_IPD(){} // RVA: 0x625DF40
+        public void .ctor(){} // RVA: 0x625DF50
+        public void GetCubemapRenderingMethod(){} // RVA: 0x625DFE0
+        public void SetCamera(){} // RVA: 0xD9C4E0
+        public void UpdateFrame(){} // RVA: 0x625E000
+        public void FinalRenderCapture(){} // RVA: 0x625E2C0
+        public void Capture(){} // RVA: 0x625E360
+        public void ClearCubemap(){} // RVA: 0x625E800
+        public void RenderCubemapToEquiRect(){} // RVA: 0x625ECB0
+        public void UpdateTexture(){} // RVA: 0x625EE70
+        public void RenderCameraToCubemap(){} // RVA: 0x625F6A0
+        public void AccumulateMotionBlur(){} // RVA: 0x6261170
+        public void PrepareCapture(){} // RVA: 0x6261330
+        public void GetPreviewTexture(){} // RVA: 0x6262520
+        public void Start(){} // RVA: 0x6262560
+        public void OnDestroy(){} // RVA: 0x6262920
     }
 
     public class CaptureFromCamera360ODS
     {
         // ── Methods ──
-        public void get_Setup(){} // RVA: 0x7FFAF38415D0
-        public void .ctor(){} // RVA: 0x7FFAF8D12F00
-        public void SetCamera(){} // RVA: 0x7FFAF8D13020
-        public void Start(){} // RVA: 0x7FFAF8D13090
-        public void CreateEye(){} // RVA: 0x7FFAF8D132C0
-        public void UpdateFrame(){} // RVA: 0x7FFAF8D143C0
-        public void FinalRenderCapture(){} // RVA: 0x7FFAF8D146B0
-        public void Capture(){} // RVA: 0x7FFAF8D14750
-        public void AccumulateMotionBlur(){} // RVA: 0x7FFAF8D149C0
-        public void RenderFrame(){} // RVA: 0x7FFAF8D14B90
-        public void GetPreviewTexture(){} // RVA: 0x7FFAF8D15830
-        public void PrepareCapture(){} // RVA: 0x7FFAF8D15870
-        public void DestroyEye(){} // RVA: 0x7FFAF8D169E0
-        public void OnDestroy(){} // RVA: 0x7FFAF8D16C10
+        public void get_Setup(){} // RVA: 0xD915D0
+        public void .ctor(){} // RVA: 0x6262F00
+        public void SetCamera(){} // RVA: 0x6263020
+        public void Start(){} // RVA: 0x6263090
+        public void CreateEye(){} // RVA: 0x62632C0
+        public void UpdateFrame(){} // RVA: 0x62643C0
+        public void FinalRenderCapture(){} // RVA: 0x62646B0
+        public void Capture(){} // RVA: 0x6264750
+        public void AccumulateMotionBlur(){} // RVA: 0x62649C0
+        public void RenderFrame(){} // RVA: 0x6264B90
+        public void GetPreviewTexture(){} // RVA: 0x6265830
+        public void PrepareCapture(){} // RVA: 0x6265870
+        public void DestroyEye(){} // RVA: 0x62669E0
+        public void OnDestroy(){} // RVA: 0x6266C10
     }
 
     public class CaptureFromScreen
     {
         // ── Methods ──
-        public void get_CaptureMouseCursor(){} // RVA: 0x7FFAF8D17370
-        public void set_CaptureMouseCursor(){} // RVA: 0x7FFAF8D17380
-        public void get_MouseCursor(){} // RVA: 0x7FFAF3840650
-        public void set_MouseCursor(){} // RVA: 0x7FFAF384F060
-        public void PrepareCapture(){} // RVA: 0x7FFAF8D17390
-        public void CopyRenderTargetToTexture(){} // RVA: 0x7FFAF8D176F0
-        public void FreeRenderResources(){} // RVA: 0x7FFAF8D17D00
-        public void UnprepareCapture(){} // RVA: 0x7FFAF8D17F20
-        public void FinalRenderCapture(){} // RVA: 0x7FFAF8D18090
-        public void UpdateFrame(){} // RVA: 0x7FFAF8D18130
-        public void .ctor(){} // RVA: 0x7FFAF8D181F0
+        public void get_CaptureMouseCursor(){} // RVA: 0x6267370
+        public void set_CaptureMouseCursor(){} // RVA: 0x6267380
+        public void get_MouseCursor(){} // RVA: 0xD90650
+        public void set_MouseCursor(){} // RVA: 0xD9F060
+        public void PrepareCapture(){} // RVA: 0x6267390
+        public void CopyRenderTargetToTexture(){} // RVA: 0x62676F0
+        public void FreeRenderResources(){} // RVA: 0x6267D00
+        public void UnprepareCapture(){} // RVA: 0x6267F20
+        public void FinalRenderCapture(){} // RVA: 0x6268090
+        public void UpdateFrame(){} // RVA: 0x6268130
+        public void .ctor(){} // RVA: 0x62681F0
     }
 
     public class CaptureFromTexture
     {
         // ── Methods ──
-        public void get_IsManualUpdate(){} // RVA: 0x7FFAF8D17370
-        public void set_IsManualUpdate(){} // RVA: 0x7FFAF8D17380
-        public void SetSourceTexture(){} // RVA: 0x7FFAF384F060
-        public void RequiresResolve(){} // RVA: 0x7FFAF8D18410
-        public void UpdateSourceTexture(){} // RVA: 0x7FFAF8D18540
-        public void ShouldCaptureFrame(){} // RVA: 0x7FFAF8D18550
-        public void HasSourceTextureChanged(){} // RVA: 0x7FFAF8D18640
-        public void UpdateFrame(){} // RVA: 0x7FFAF8D18660
-        public void FinalRenderCapture(){} // RVA: 0x7FFAF8D18730
-        public void Capture(){} // RVA: 0x7FFAF8D187D0
-        public void CreateResolveTexture(){} // RVA: 0x7FFAF8D18BE0
-        public void AccumulateMotionBlur(){} // RVA: 0x7FFAF8D18F90
-        public void GetPreviewTexture(){} // RVA: 0x7FFAF8D190B0
-        public void PrepareCapture(){} // RVA: 0x7FFAF8D19220
-        public void UnprepareCapture(){} // RVA: 0x7FFAF8D19610
-        public void .ctor(){} // RVA: 0x7FFAF8D197E0
+        public void get_IsManualUpdate(){} // RVA: 0x6267370
+        public void set_IsManualUpdate(){} // RVA: 0x6267380
+        public void SetSourceTexture(){} // RVA: 0xD9F060
+        public void RequiresResolve(){} // RVA: 0x6268410
+        public void UpdateSourceTexture(){} // RVA: 0x6268540
+        public void ShouldCaptureFrame(){} // RVA: 0x6268550
+        public void HasSourceTextureChanged(){} // RVA: 0x6268640
+        public void UpdateFrame(){} // RVA: 0x6268660
+        public void FinalRenderCapture(){} // RVA: 0x6268730
+        public void Capture(){} // RVA: 0x62687D0
+        public void CreateResolveTexture(){} // RVA: 0x6268BE0
+        public void AccumulateMotionBlur(){} // RVA: 0x6268F90
+        public void GetPreviewTexture(){} // RVA: 0x62690B0
+        public void PrepareCapture(){} // RVA: 0x6269220
+        public void UnprepareCapture(){} // RVA: 0x6269610
+        public void .ctor(){} // RVA: 0x62697E0
     }
 
     public class CaptureFromWebCamTexture
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFAF8D19930
-        public void .ctor(){} // RVA: 0x7FFAF8D197E0
+        public void Start(){} // RVA: 0x6269930
+        public void .ctor(){} // RVA: 0x62697E0
     }
 
     public class CaptureGUI
@@ -487,74 +487,74 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
         public object isEnabled;
 
         // ── Methods ──
-        public void get_MovieCapture(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_MovieCapture(){} // RVA: 0x7FFAF2DBB0D0
-        public void get_HideUiWhenRecording(){} // RVA: 0x7FFAF36E6000
-        public void set_HideUiWhenRecording(){} // RVA: 0x7FFAF43BAB20
-        public void get_ShowUI(){} // RVA: 0x7FFAF3198A80
-        public void set_ShowUI(){} // RVA: 0x7FFAF3198B80
-        public void Start(){} // RVA: 0x7FFAF8D19990
-        public void CreateGUI(){} // RVA: 0x7FFAF8D19A70
-        public void OnGUI(){} // RVA: 0x7FFAF8D1A6D0
-        public void MyWindow(){} // RVA: 0x7FFAF8D1B1B0
-        public void GUI_RecordingStatus(){} // RVA: 0x7FFAF8D1DA30
-        public void DrawPauseResumeButtons(){} // RVA: 0x7FFAF8D1F4C0
-        public void DrawGuiField(){} // RVA: 0x7FFAF8D1FCE0
-        public void StartCapture(){} // RVA: 0x7FFAF8D1FDB0
-        public void StopCapture(){} // RVA: 0x7FFAF8D1FEB0
-        public void CancelCapture(){} // RVA: 0x7FFAF8D1FFB0
-        public void ResumeCapture(){} // RVA: 0x7FFAF8D200B0
-        public void PauseCapture(){} // RVA: 0x7FFAF8D20190
-        public void Update(){} // RVA: 0x7FFAF8D20270
-        public void .ctor(){} // RVA: 0x7FFAF8D20530
-        public void .cctor(){} // RVA: 0x7FFAF8D20AF0
+        public void get_MovieCapture(){} // RVA: 0x30B0C0
+        public void set_MovieCapture(){} // RVA: 0x30B0D0
+        public void get_HideUiWhenRecording(){} // RVA: 0xC36000
+        public void set_HideUiWhenRecording(){} // RVA: 0x190AB20
+        public void get_ShowUI(){} // RVA: 0x6E8A80
+        public void set_ShowUI(){} // RVA: 0x6E8B80
+        public void Start(){} // RVA: 0x6269990
+        public void CreateGUI(){} // RVA: 0x6269A70
+        public void OnGUI(){} // RVA: 0x626A6D0
+        public void MyWindow(){} // RVA: 0x626B1B0
+        public void GUI_RecordingStatus(){} // RVA: 0x626DA30
+        public void DrawPauseResumeButtons(){} // RVA: 0x626F4C0
+        public void DrawGuiField(){} // RVA: 0x626FCE0
+        public void StartCapture(){} // RVA: 0x626FDB0
+        public void StopCapture(){} // RVA: 0x626FEB0
+        public void CancelCapture(){} // RVA: 0x626FFB0
+        public void ResumeCapture(){} // RVA: 0x62700B0
+        public void PauseCapture(){} // RVA: 0x6270190
+        public void Update(){} // RVA: 0x6270270
+        public void .ctor(){} // RVA: 0x6270530
+        public void .cctor(){} // RVA: 0x6270AF0
     }
 
     public class CaptureStats
     {
         // ── Methods ──
-        public void get_FPS(){} // RVA: 0x7FFAF2F152A0
-        public void get_FramesTotal(){} // RVA: 0x7FFAF8D29F90
-        public void get_NumDroppedFrames(){} // RVA: 0x7FFAF2DDA5C0
-        public void set_NumDroppedFrames(){} // RVA: 0x7FFAF2D900C0
-        public void get_NumDroppedEncoderFrames(){} // RVA: 0x7FFAF335BED0
-        public void set_NumDroppedEncoderFrames(){} // RVA: 0x7FFAF335C660
-        public void get_NumEncodedFrames(){} // RVA: 0x7FFAF306ED50
-        public void set_NumEncodedFrames(){} // RVA: 0x7FFAF30E74E0
-        public void get_TotalEncodedSeconds(){} // RVA: 0x7FFAF442C3B0
-        public void set_TotalEncodedSeconds(){} // RVA: 0x7FFAF4439FD0
-        public void get_AudioCaptureSource(){} // RVA: 0x7FFAF3210030
-        public void set_AudioCaptureSource(){} // RVA: 0x7FFAF344E0D0
-        public void get_UnityAudioSampleRate(){} // RVA: 0x7FFAF379F5B0
-        public void set_UnityAudioSampleRate(){} // RVA: 0x7FFAF4191F00
-        public void get_UnityAudioChannelCount(){} // RVA: 0x7FFAF3241DC0
-        public void set_UnityAudioChannelCount(){} // RVA: 0x7FFAF3503440
-        public void ResetFPS(){} // RVA: 0x7FFAF8D29FA0
-        public void UpdateFPS(){} // RVA: 0x7FFAF8D29FB0
-        public void .ctor(){} // RVA: 0x7FFAF8D2A030
+        public void get_FPS(){} // RVA: 0x4652A0
+        public void get_FramesTotal(){} // RVA: 0x6279F90
+        public void get_NumDroppedFrames(){} // RVA: 0x32A5C0
+        public void set_NumDroppedFrames(){} // RVA: 0x2E00C0
+        public void get_NumDroppedEncoderFrames(){} // RVA: 0x8ABED0
+        public void set_NumDroppedEncoderFrames(){} // RVA: 0x8AC660
+        public void get_NumEncodedFrames(){} // RVA: 0x5BED50
+        public void set_NumEncodedFrames(){} // RVA: 0x6374E0
+        public void get_TotalEncodedSeconds(){} // RVA: 0x197C3B0
+        public void set_TotalEncodedSeconds(){} // RVA: 0x1989FD0
+        public void get_AudioCaptureSource(){} // RVA: 0x760030
+        public void set_AudioCaptureSource(){} // RVA: 0x99E0D0
+        public void get_UnityAudioSampleRate(){} // RVA: 0xCEF5B0
+        public void set_UnityAudioSampleRate(){} // RVA: 0x16E1F00
+        public void get_UnityAudioChannelCount(){} // RVA: 0x791DC0
+        public void set_UnityAudioChannelCount(){} // RVA: 0xA53440
+        public void ResetFPS(){} // RVA: 0x6279FA0
+        public void UpdateFPS(){} // RVA: 0x6279FB0
+        public void .ctor(){} // RVA: 0x627A030
     }
 
     public class Codec
     {
         // ── Methods ──
-        public void get_CodecType(){} // RVA: 0x7FFAF2DDA5C0
-        public void get_Index(){} // RVA: 0x7FFAF335BED0
-        public void get_Name(){} // RVA: 0x7FFAF2D907C0
-        public void get_MediaApi(){} // RVA: 0x7FFAF379F5B0
-        public void get_HasConfigwindow(){} // RVA: 0x7FFAF2E7B9D0
-        public void ShowConfigWindow(){} // RVA: 0x7FFAF8D34F40
-        public void .ctor(){} // RVA: 0x7FFAF8D350A0
+        public void get_CodecType(){} // RVA: 0x32A5C0
+        public void get_Index(){} // RVA: 0x8ABED0
+        public void get_Name(){} // RVA: 0x2E07C0
+        public void get_MediaApi(){} // RVA: 0xCEF5B0
+        public void get_HasConfigwindow(){} // RVA: 0x3CB9D0
+        public void ShowConfigWindow(){} // RVA: 0x6284F40
+        public void .ctor(){} // RVA: 0x62850A0
     }
 
     public class CodecList : .ctor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8D35120
-        public void FindCodec(){} // RVA: 0x7FFAF8D35220
-        public void GetFirstWithMediaApi(){} // RVA: 0x7FFAF8D35300
-        public void GetEnumerator(){} // RVA: 0x7FFAF4758480
-        public void get_Codecs(){} // RVA: 0x7FFAF2DA8380
-        public void get_Count(){} // RVA: 0x7FFAF39EF910
+        public void .ctor(){} // RVA: 0x6285120
+        public void FindCodec(){} // RVA: 0x6285220
+        public void GetFirstWithMediaApi(){} // RVA: 0x6285300
+        public void GetEnumerator(){} // RVA: 0x1CA8480
+        public void get_Codecs(){} // RVA: 0x2F8380
+        public void get_Count(){} // RVA: 0xF3F910
     }
 
     public class CodecManager
@@ -563,318 +563,318 @@ namespace ThirdParty.Other.RenderHeads.Media.AVProMovieCapture
         public object HideUiWhenRecording;
 
         // ── Methods ──
-        public void FindCodec(){} // RVA: 0x7FFAF8D35360
-        public void GetCodecCount(){} // RVA: 0x7FFAF8D35470
-        public void CheckInit(){} // RVA: 0x7FFAF8D354E0
-        public void GetCodecs(){} // RVA: 0x7FFAF8D35590
-        public void EnumerateCodecs(){} // RVA: 0x7FFAF8D35630
-        public void get_VideoCodecs(){} // RVA: 0x7FFAF8D36050
-        public void get_AudioCodecs(){} // RVA: 0x7FFAF8D360B0
-        public void .cctor(){} // RVA: 0x7FFAF8D36110
+        public void FindCodec(){} // RVA: 0x6285360
+        public void GetCodecCount(){} // RVA: 0x6285470
+        public void CheckInit(){} // RVA: 0x62854E0
+        public void GetCodecs(){} // RVA: 0x6285590
+        public void EnumerateCodecs(){} // RVA: 0x6285630
+        public void get_VideoCodecs(){} // RVA: 0x6286050
+        public void get_AudioCodecs(){} // RVA: 0x62860B0
+        public void .cctor(){} // RVA: 0x6286110
     }
 
     public class Device
     {
         // ── Methods ──
-        public void get_DeviceType(){} // RVA: 0x7FFAF2DDA5C0
-        public void get_Index(){} // RVA: 0x7FFAF335BED0
-        public void get_Name(){} // RVA: 0x7FFAF2D907C0
-        public void get_MediaApi(){} // RVA: 0x7FFAF3210030
-        public void .ctor(){} // RVA: 0x7FFAF8D362D0
+        public void get_DeviceType(){} // RVA: 0x32A5C0
+        public void get_Index(){} // RVA: 0x8ABED0
+        public void get_Name(){} // RVA: 0x2E07C0
+        public void get_MediaApi(){} // RVA: 0x760030
+        public void .ctor(){} // RVA: 0x62862D0
     }
 
     public class DeviceList : .ctor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8D36340
-        public void FindDevice(){} // RVA: 0x7FFAF8D36440
-        public void GetFirstWithMediaApi(){} // RVA: 0x7FFAF8D36520
-        public void GetEnumerator(){} // RVA: 0x7FFAF4758480
-        public void get_Devices(){} // RVA: 0x7FFAF2DA8380
-        public void get_Count(){} // RVA: 0x7FFAF39EF910
+        public void .ctor(){} // RVA: 0x6286340
+        public void FindDevice(){} // RVA: 0x6286440
+        public void GetFirstWithMediaApi(){} // RVA: 0x6286520
+        public void GetEnumerator(){} // RVA: 0x1CA8480
+        public void get_Devices(){} // RVA: 0x2F8380
+        public void get_Count(){} // RVA: 0xF3F910
     }
 
     public class DeviceManager
     {
         // ── Methods ──
-        public void FindDevice(){} // RVA: 0x7FFAF8D36580
-        public void GetDeviceCount(){} // RVA: 0x7FFAF8D366D0
-        public void CheckInit(){} // RVA: 0x7FFAF8D36780
-        public void GetDevices(){} // RVA: 0x7FFAF8D36830
-        public void EnumerateDevices(){} // RVA: 0x7FFAF8D368A0
-        public void get_AudioInputDevices(){} // RVA: 0x7FFAF8D36C00
-        public void .cctor(){} // RVA: 0x7FFAF8D36C60
+        public void FindDevice(){} // RVA: 0x6286580
+        public void GetDeviceCount(){} // RVA: 0x62866D0
+        public void CheckInit(){} // RVA: 0x6286780
+        public void GetDevices(){} // RVA: 0x6286830
+        public void EnumerateDevices(){} // RVA: 0x62868A0
+        public void get_AudioInputDevices(){} // RVA: 0x6286C00
+        public void .cctor(){} // RVA: 0x6286C60
     }
 
     public class EncoderHints
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8D2A110
-        public void SetDefaults(){} // RVA: 0x7FFAF8D2A110
+        public void .ctor(){} // RVA: 0x627A110
+        public void SetDefaults(){} // RVA: 0x627A110
     }
 
     public class FileWritingHandler
     {
         // ── Methods ──
-        public void get_Status(){} // RVA: 0x7FFAF304C540
-        public void get_Path(){} // RVA: 0x7FFAF2DA8380
-        public void get_CompletedFileWritingAction(){} // RVA: 0x7FFAF2E08D50
-        public void set_CompletedFileWritingAction(){} // RVA: 0x7FFAF2E08D60
-        public void .ctor(){} // RVA: 0x7FFAF8D36D60
-        public void SetFilePostProcess(){} // RVA: 0x7FFAF8D36E40
-        public void StartPostProcess(){} // RVA: 0x7FFAF8D36EA0
-        public void IsFileReady(){} // RVA: 0x7FFAF8D36FE0
-        public void Dispose(){} // RVA: 0x7FFAF8D371E0
-        public void Cleanup(){} // RVA: 0x7FFAF8D37490
+        public void get_Status(){} // RVA: 0x59C540
+        public void get_Path(){} // RVA: 0x2F8380
+        public void get_CompletedFileWritingAction(){} // RVA: 0x358D50
+        public void set_CompletedFileWritingAction(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x6286D60
+        public void SetFilePostProcess(){} // RVA: 0x6286E40
+        public void StartPostProcess(){} // RVA: 0x6286EA0
+        public void IsFileReady(){} // RVA: 0x6286FE0
+        public void Dispose(){} // RVA: 0x62871E0
+        public void Cleanup(){} // RVA: 0x6287490
     }
 
     public class IMediaApiItem
     {
         // ── Methods ──
-        public void get_Index(){} // RVA: 0x7FFAF2ABD840
-        public void get_Name(){} // RVA: 0x7FFAF2ABCD60
-        public void get_MediaApi(){} // RVA: 0x7FFAF2ABD840
+        public void get_Index(){} // RVA: 0xD840
+        public void get_Name(){} // RVA: 0xCD60
+        public void get_MediaApi(){} // RVA: 0xD840
     }
 
     public class ImageEncoderHints
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8D2A0C0
-        public void SetDefaults(){} // RVA: 0x7FFAF8D2A0C0
-        public void Validate(){} // RVA: 0x7FFAF8D2A0E0
+        public void .ctor(){} // RVA: 0x627A0C0
+        public void SetDefaults(){} // RVA: 0x627A0C0
+        public void Validate(){} // RVA: 0x627A0E0
     }
 
     public class MP4FileProcessing
     {
         // ── Methods ──
-        public void ProcessFileAsync(){} // RVA: 0x7FFAF8D37570
-        public void ProcessFile(){} // RVA: 0x7FFAF8D37BA0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAF8D37FA0
-        public void Process(){} // RVA: 0x7FFAF8D38150
-        public void Close(){} // RVA: 0x7FFAF8D38C50
-        public void GetFirstChunkOfType(){} // RVA: 0x7FFAF8D38E50
-        public void ReadChildChunks(){} // RVA: 0x7FFAF8D390A0 | overloaded x2
-        public void ReadChunkHeader(){} // RVA: 0x7FFAF8D392A0
-        public void ChunkContainsChildChunkWithId(){} // RVA: 0x7FFAF8D39480
-        public void ChunkDesc(){} // RVA: 0x7FFAF8D395F0
-        public void WriteChunk(){} // RVA: 0x7FFAF8D39930
-        public void CopyChunkHeader(){} // RVA: 0x7FFAF8D399B0
-        public void InjectChunkHeader(){} // RVA: 0x7FFAF8D39A30
-        public void CopyBytes(){} // RVA: 0x7FFAF8D39AB0
-        public void WriteZeros(){} // RVA: 0x7FFAF8D39BC0
-        public void WriteChunkRecursive_moov(){} // RVA: 0x7FFAF8D39C70
-        public void IsVideoTrack(){} // RVA: 0x7FFAF8D3A380
-        public void WriteChunk_stco(){} // RVA: 0x7FFAF8D3A4D0
-        public void WriteChunk_co64_from_stco(){} // RVA: 0x7FFAF8D3A5D0
-        public void WriteChunk_co64(){} // RVA: 0x7FFAF8D3A700
-        public void InjectChunkStub_co64_from_stco(){} // RVA: 0x7FFAF8D3A7F0
-        public void WriteChunk_stsd(){} // RVA: 0x7FFAF8D3A950
-        public void Convert(){} // RVA: 0x7FFAF8D3AE60
-        public void InjectChunk_st3d(){} // RVA: 0x7FFAF8D3AE80
-        public void InjectChunk_sv3d(){} // RVA: 0x7FFAF8D3AF50
-        public void InjectChunk_uuid_GoogleSphericalVideoV1(){} // RVA: 0x7FFAF8D3B0E0
-        public void InjectChunk_svhd(){} // RVA: 0x7FFAF8D3B380
-        public void InjectChunk_proj(){} // RVA: 0x7FFAF8D3B5D0
-        public void InjectChunk_prhd(){} // RVA: 0x7FFAF8D3B9D0
-        public void InjectChunk_equi(){} // RVA: 0x7FFAF8D3BB40
-        public void OverwriteChunkSize(){} // RVA: 0x7FFAF8D3BCC0
-        public void ReadUInt16(){} // RVA: 0x7FFAF8D3BD80
-        public void ReadUInt32(){} // RVA: 0x7FFAF8D3BE90
-        public void ReadUInt64(){} // RVA: 0x7FFAF8D3BFA0
-        public void WriteUInt16(){} // RVA: 0x7FFAF8D3C0B0
-        public void WriteChunkId(){} // RVA: 0x7FFAF8D3C1A0
-        public void WriteUInt32(){} // RVA: 0x7FFAF8D3C1B0
-        public void WriteUInt64(){} // RVA: 0x7FFAF8D3C2B0
-        public void ChunkIdToString(){} // RVA: 0x7FFAF8D3C3A0
-        public void ChunkId(){} // RVA: 0x7FFAF8D3C620
-        public void DebugLog(){} // RVA: 0x7FFAF8D3C670
-        public void .cctor(){} // RVA: 0x7FFAF8D3C6C0
+        public void ProcessFileAsync(){} // RVA: 0x6287570
+        public void ProcessFile(){} // RVA: 0x6287BA0 | overloaded x2
+        public void .ctor(){} // RVA: 0x6287FA0
+        public void Process(){} // RVA: 0x6288150
+        public void Close(){} // RVA: 0x6288C50
+        public void GetFirstChunkOfType(){} // RVA: 0x6288E50
+        public void ReadChildChunks(){} // RVA: 0x62890A0 | overloaded x2
+        public void ReadChunkHeader(){} // RVA: 0x62892A0
+        public void ChunkContainsChildChunkWithId(){} // RVA: 0x6289480
+        public void ChunkDesc(){} // RVA: 0x62895F0
+        public void WriteChunk(){} // RVA: 0x6289930
+        public void CopyChunkHeader(){} // RVA: 0x62899B0
+        public void InjectChunkHeader(){} // RVA: 0x6289A30
+        public void CopyBytes(){} // RVA: 0x6289AB0
+        public void WriteZeros(){} // RVA: 0x6289BC0
+        public void WriteChunkRecursive_moov(){} // RVA: 0x6289C70
+        public void IsVideoTrack(){} // RVA: 0x628A380
+        public void WriteChunk_stco(){} // RVA: 0x628A4D0
+        public void WriteChunk_co64_from_stco(){} // RVA: 0x628A5D0
+        public void WriteChunk_co64(){} // RVA: 0x628A700
+        public void InjectChunkStub_co64_from_stco(){} // RVA: 0x628A7F0
+        public void WriteChunk_stsd(){} // RVA: 0x628A950
+        public void Convert(){} // RVA: 0x628AE60
+        public void InjectChunk_st3d(){} // RVA: 0x628AE80
+        public void InjectChunk_sv3d(){} // RVA: 0x628AF50
+        public void InjectChunk_uuid_GoogleSphericalVideoV1(){} // RVA: 0x628B0E0
+        public void InjectChunk_svhd(){} // RVA: 0x628B380
+        public void InjectChunk_proj(){} // RVA: 0x628B5D0
+        public void InjectChunk_prhd(){} // RVA: 0x628B9D0
+        public void InjectChunk_equi(){} // RVA: 0x628BB40
+        public void OverwriteChunkSize(){} // RVA: 0x628BCC0
+        public void ReadUInt16(){} // RVA: 0x628BD80
+        public void ReadUInt32(){} // RVA: 0x628BE90
+        public void ReadUInt64(){} // RVA: 0x628BFA0
+        public void WriteUInt16(){} // RVA: 0x628C0B0
+        public void WriteChunkId(){} // RVA: 0x628C1A0
+        public void WriteUInt32(){} // RVA: 0x628C1B0
+        public void WriteUInt64(){} // RVA: 0x628C2B0
+        public void ChunkIdToString(){} // RVA: 0x628C3A0
+        public void ChunkId(){} // RVA: 0x628C620
+        public void DebugLog(){} // RVA: 0x628C670
+        public void .cctor(){} // RVA: 0x628C6C0
     }
 
     public class MotionBlur
     {
         // ── Methods ──
-        public void get_IsFrameAccumulated(){} // RVA: 0x7FFAF459FFD0
-        public void set_IsFrameAccumulated(){} // RVA: 0x7FFAF45A0B40
-        public void get_NumSamples(){} // RVA: 0x7FFAF379F5B0
-        public void set_NumSamples(){} // RVA: 0x7FFAF8D20E90
-        public void get_FrameCount(){} // RVA: 0x7FFAF2E2E0C0
-        public void get_FinalTexture(){} // RVA: 0x7FFAF30E74D0
-        public void Awake(){} // RVA: 0x7FFAF8D20EA0
-        public void SetTargetSize(){} // RVA: 0x7FFAF8D20FC0
-        public void Start(){} // RVA: 0x7FFAF8D20FE0
-        public void OnEnable(){} // RVA: 0x7FFAF8D20FF0
-        public void Setup(){} // RVA: 0x7FFAF8D21010
-        public void ClearAccumulation(){} // RVA: 0x7FFAF8D21830
-        public void OnDestroy(){} // RVA: 0x7FFAF8D21980
-        public void OnNumSamplesChanged(){} // RVA: 0x7FFAF8D21EA0
-        public void LerpUnclamped(){} // RVA: 0x7FFAF8D22020
-        public void ApplyWeighting(){} // RVA: 0x7FFAF8D22030
-        public void Accumulate(){} // RVA: 0x7FFAF8D221B0
-        public void OnRenderImage(){} // RVA: 0x7FFAF8D222A0
-        public void .ctor(){} // RVA: 0x7FFAF8D22320
+        public void get_IsFrameAccumulated(){} // RVA: 0x1AEFFD0
+        public void set_IsFrameAccumulated(){} // RVA: 0x1AF0B40
+        public void get_NumSamples(){} // RVA: 0xCEF5B0
+        public void set_NumSamples(){} // RVA: 0x6270E90
+        public void get_FrameCount(){} // RVA: 0x37E0C0
+        public void get_FinalTexture(){} // RVA: 0x6374D0
+        public void Awake(){} // RVA: 0x6270EA0
+        public void SetTargetSize(){} // RVA: 0x6270FC0
+        public void Start(){} // RVA: 0x6270FE0
+        public void OnEnable(){} // RVA: 0x6270FF0
+        public void Setup(){} // RVA: 0x6271010
+        public void ClearAccumulation(){} // RVA: 0x6271830
+        public void OnDestroy(){} // RVA: 0x6271980
+        public void OnNumSamplesChanged(){} // RVA: 0x6271EA0
+        public void LerpUnclamped(){} // RVA: 0x6272020
+        public void ApplyWeighting(){} // RVA: 0x6272030
+        public void Accumulate(){} // RVA: 0x62721B0
+        public void OnRenderImage(){} // RVA: 0x62722A0
+        public void .ctor(){} // RVA: 0x6272320
     }
 
     public class MouseCursor
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x7FFAF8D22380
-        public void SetTexture(){} // RVA: 0x7FFAF8D22390
-        public void OnGUI(){} // RVA: 0x7FFAF8D22590
-        public void .ctor(){} // RVA: 0x7FFAF8D22840
+        public void Start(){} // RVA: 0x6272380
+        public void SetTexture(){} // RVA: 0x6272390
+        public void OnGUI(){} // RVA: 0x6272590
+        public void .ctor(){} // RVA: 0x6272840
     }
 
     public class NativePlugin
     {
         // ── Methods ──
-        public void AddAmbisonicSourceInstance(){} // RVA: 0x7FFAF8D26010
-        public void RemoveAmbisonicSourceInstance(){} // RVA: 0x7FFAF8D26090
-        public void UpdateAmbisonicWeights(){} // RVA: 0x7FFAF8D26110
-        public void EncodeMonoToAmbisonic(){} // RVA: 0x7FFAF8D261E0
-        public void RenderThreadEvent(){} // RVA: 0x7FFAF8D262C0
-        public void get_RenderCaptureEventFunction(){} // RVA: 0x7FFAF8D26550
-        public void get_RenderFreeEventFunction(){} // RVA: 0x7FFAF8D26660
-        public void GetRenderEventFunc(){} // RVA: 0x7FFAF8D26770
-        public void GetFreeResourcesEventFunc(){} // RVA: 0x7FFAF8D267E0
-        public void Init(){} // RVA: 0x7FFAF8D26850
-        public void Deinit(){} // RVA: 0x7FFAF8D268C0
-        public void SetMicrophoneRecordingHint(){} // RVA: 0x7FFAF8D26930
-        public void GetPluginVersionString(){} // RVA: 0x7FFAF8D269C0
-        public void IsTrialVersion(){} // RVA: 0x7FFAF8D26AC0
-        public void IsBasicEdition(){} // RVA: 0x7FFAF8D26B30
-        public void GetVideoCodecCount(){} // RVA: 0x7FFAF8D26D60
-        public void IsConfigureVideoCodecSupported(){} // RVA: 0x7FFAF8D26DD0
-        public void GetVideoCodecMediaApi(){} // RVA: 0x7FFAF8D26E50
-        public void ConfigureVideoCodec(){} // RVA: 0x7FFAF8D26ED0
-        public void GetVideoCodecName(){} // RVA: 0x7FFAF8D28690 | overloaded x2
-        public void GetAudioCodecCount(){} // RVA: 0x7FFAF8D27130
-        public void IsConfigureAudioCodecSupported(){} // RVA: 0x7FFAF8D271A0
-        public void GetAudioCodecMediaApi(){} // RVA: 0x7FFAF8D27220
-        public void ConfigureAudioCodec(){} // RVA: 0x7FFAF8D272A0
-        public void GetAudioCodecName(){} // RVA: 0x7FFAF8D28760 | overloaded x2
-        public void GetAudioInputDeviceCount(){} // RVA: 0x7FFAF8D27500
-        public void GetAudioInputDeviceName(){} // RVA: 0x7FFAF8D28830 | overloaded x2
-        public void GetAudioInputDeviceMediaApi(){} // RVA: 0x7FFAF8D27750
-        public void GetContainerFileExtensions(){} // RVA: 0x7FFAF8D28900 | overloaded x2
-        public void CreateRecorderVideo(){} // RVA: 0x7FFAF8D27A90
-        public void CreateRecorderImages(){} // RVA: 0x7FFAF8D27BA0
-        public void CreateRecorderPipe(){} // RVA: 0x7FFAF8D27CB0
-        public void Start(){} // RVA: 0x7FFAF8D27DA0
-        public void IsNewFrameDue(){} // RVA: 0x7FFAF8D27E20
-        public void SetEncodedFrameLimit(){} // RVA: 0x7FFAF8D27EA0
-        public void EncodeFrame(){} // RVA: 0x7FFAF8D27F30
-        public void EncodeAudio(){} // RVA: 0x7FFAF8D27FC0
-        public void EncodeFrameWithAudio(){} // RVA: 0x7FFAF8D28060
-        public void Pause(){} // RVA: 0x7FFAF8D28100
-        public void Stop(){} // RVA: 0x7FFAF8D28180
-        public void IsFileWritingComplete(){} // RVA: 0x7FFAF8D28210
-        public void SetTexturePointer(){} // RVA: 0x7FFAF8D28290
-        public void FreeRecorder(){} // RVA: 0x7FFAF8D28320
-        public void GetNumDroppedFrames(){} // RVA: 0x7FFAF8D283A0
-        public void GetNumDroppedEncoderFrames(){} // RVA: 0x7FFAF8D28420
-        public void GetNumEncodedFrames(){} // RVA: 0x7FFAF8D284A0
-        public void GetEncodedSeconds(){} // RVA: 0x7FFAF8D28520
-        public void GetFileSize(){} // RVA: 0x7FFAF8D285A0
-        public void GetPluginVersion(){} // RVA: 0x7FFAF8D28620
-        public void SetLogFunction(){} // RVA: 0x7FFAF8D289E0
-        public void SetErrorHandler(){} // RVA: 0x7FFAF8D28A60
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAF8D28AF0
+        public void AddAmbisonicSourceInstance(){} // RVA: 0x6276010
+        public void RemoveAmbisonicSourceInstance(){} // RVA: 0x6276090
+        public void UpdateAmbisonicWeights(){} // RVA: 0x6276110
+        public void EncodeMonoToAmbisonic(){} // RVA: 0x62761E0
+        public void RenderThreadEvent(){} // RVA: 0x62762C0
+        public void get_RenderCaptureEventFunction(){} // RVA: 0x6276550
+        public void get_RenderFreeEventFunction(){} // RVA: 0x6276660
+        public void GetRenderEventFunc(){} // RVA: 0x6276770
+        public void GetFreeResourcesEventFunc(){} // RVA: 0x62767E0
+        public void Init(){} // RVA: 0x6276850
+        public void Deinit(){} // RVA: 0x62768C0
+        public void SetMicrophoneRecordingHint(){} // RVA: 0x6276930
+        public void GetPluginVersionString(){} // RVA: 0x62769C0
+        public void IsTrialVersion(){} // RVA: 0x6276AC0
+        public void IsBasicEdition(){} // RVA: 0x6276B30
+        public void GetVideoCodecCount(){} // RVA: 0x6276D60
+        public void IsConfigureVideoCodecSupported(){} // RVA: 0x6276DD0
+        public void GetVideoCodecMediaApi(){} // RVA: 0x6276E50
+        public void ConfigureVideoCodec(){} // RVA: 0x6276ED0
+        public void GetVideoCodecName(){} // RVA: 0x6278690 | overloaded x2
+        public void GetAudioCodecCount(){} // RVA: 0x6277130
+        public void IsConfigureAudioCodecSupported(){} // RVA: 0x62771A0
+        public void GetAudioCodecMediaApi(){} // RVA: 0x6277220
+        public void ConfigureAudioCodec(){} // RVA: 0x62772A0
+        public void GetAudioCodecName(){} // RVA: 0x6278760 | overloaded x2
+        public void GetAudioInputDeviceCount(){} // RVA: 0x6277500
+        public void GetAudioInputDeviceName(){} // RVA: 0x6278830 | overloaded x2
+        public void GetAudioInputDeviceMediaApi(){} // RVA: 0x6277750
+        public void GetContainerFileExtensions(){} // RVA: 0x6278900 | overloaded x2
+        public void CreateRecorderVideo(){} // RVA: 0x6277A90
+        public void CreateRecorderImages(){} // RVA: 0x6277BA0
+        public void CreateRecorderPipe(){} // RVA: 0x6277CB0
+        public void Start(){} // RVA: 0x6277DA0
+        public void IsNewFrameDue(){} // RVA: 0x6277E20
+        public void SetEncodedFrameLimit(){} // RVA: 0x6277EA0
+        public void EncodeFrame(){} // RVA: 0x6277F30
+        public void EncodeAudio(){} // RVA: 0x6277FC0
+        public void EncodeFrameWithAudio(){} // RVA: 0x6278060
+        public void Pause(){} // RVA: 0x6278100
+        public void Stop(){} // RVA: 0x6278180
+        public void IsFileWritingComplete(){} // RVA: 0x6278210
+        public void SetTexturePointer(){} // RVA: 0x6278290
+        public void FreeRecorder(){} // RVA: 0x6278320
+        public void GetNumDroppedFrames(){} // RVA: 0x62783A0
+        public void GetNumDroppedEncoderFrames(){} // RVA: 0x6278420
+        public void GetNumEncodedFrames(){} // RVA: 0x62784A0
+        public void GetEncodedSeconds(){} // RVA: 0x6278520
+        public void GetFileSize(){} // RVA: 0x62785A0
+        public void GetPluginVersion(){} // RVA: 0x6278620
+        public void SetLogFunction(){} // RVA: 0x62789E0
+        public void SetErrorHandler(){} // RVA: 0x6278A60
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x6278AF0
     }
 
     public class TimelineController
     {
         // ── Methods ──
-        public void get_ScanFrequency(){} // RVA: 0x7FFAF3210030
-        public void set_ScanFrequency(){} // RVA: 0x7FFAF8D228E0
-        public void Awake(){} // RVA: 0x7FFAF8D228F0
-        public void OnValidate(){} // RVA: 0x7FFAF8D228F0
-        public void UpdateFrame(){} // RVA: 0x7FFAF8D22900
-        public void StartCapture(){} // RVA: 0x7FFAF8D22910
-        public void StopCapture(){} // RVA: 0x7FFAF8D22A70
-        public void ScanForPlayableDirectors(){} // RVA: 0x7FFAF8D22CF0
-        public void OnDestroy(){} // RVA: 0x7FFAF8D23070
-        public void ResetSceneLoading(){} // RVA: 0x7FFAF8D23120
-        public void OnSceneLoaded(){} // RVA: 0x7FFAF8D23210
-        public void .ctor(){} // RVA: 0x7FFAF8D23220
+        public void get_ScanFrequency(){} // RVA: 0x760030
+        public void set_ScanFrequency(){} // RVA: 0x62728E0
+        public void Awake(){} // RVA: 0x62728F0
+        public void OnValidate(){} // RVA: 0x62728F0
+        public void UpdateFrame(){} // RVA: 0x6272900
+        public void StartCapture(){} // RVA: 0x6272910
+        public void StopCapture(){} // RVA: 0x6272A70
+        public void ScanForPlayableDirectors(){} // RVA: 0x6272CF0
+        public void OnDestroy(){} // RVA: 0x6273070
+        public void ResetSceneLoading(){} // RVA: 0x6273120
+        public void OnSceneLoaded(){} // RVA: 0x6273210
+        public void .ctor(){} // RVA: 0x6273220
     }
 
     public class UnityAudioCapture
     {
         // ── Methods ──
-        public void get_OverflowCount(){} // RVA: 0x7FFAF2FC9240
-        public void get_SampleRate(){} // RVA: 0x7FFAF2ABD840
-        public void get_ChannelCount(){} // RVA: 0x7FFAF2ABD840
-        public void PrepareCapture(){} // RVA: 0x7FFAF2AD4A50
-        public void StartCapture(){} // RVA: 0x7FFAF2AD4A50
-        public void StopCapture(){} // RVA: 0x7FFAF2AD4A50
-        public void FlushBuffer(){} // RVA: 0x7FFAF2AD4A50
-        public void ReadData(){} // RVA: 0x7FFAF8D237C0
-        public void GetUnityAudioChannelCount(){} // RVA: 0x7FFAF8D237D0
-        public void GetChannelCount(){} // RVA: 0x7FFAF8D23910
-        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void get_OverflowCount(){} // RVA: 0x519240
+        public void get_SampleRate(){} // RVA: 0xD840
+        public void get_ChannelCount(){} // RVA: 0xD840
+        public void PrepareCapture(){} // RVA: 0x24A50
+        public void StartCapture(){} // RVA: 0x24A50
+        public void StopCapture(){} // RVA: 0x24A50
+        public void FlushBuffer(){} // RVA: 0x24A50
+        public void ReadData(){} // RVA: 0x62737C0
+        public void GetUnityAudioChannelCount(){} // RVA: 0x62737D0
+        public void GetChannelCount(){} // RVA: 0x6273910
+        public void .ctor(){} // RVA: 0x2DDD50
     }
 
     public class Utils
     {
         // ── Methods ──
-        public void GetNativeImageSequenceFormatNames(){} // RVA: 0x7FFAF8D3D060
-        public void HasAlphaChannel(){} // RVA: 0x7FFAF8D3D0E0
-        public void GetBestRenderTextureFormat(){} // RVA: 0x7FFAF8D3D150
-        public void GetUltimateRenderCamera(){} // RVA: 0x7FFAF8D3D520
-        public void HasContributingCameras(){} // RVA: 0x7FFAF8D3D800
-        public void FindContributingCameras(){} // RVA: 0x7FFAF8D3D960
-        public void URLEscapePathByPercentEncoding(){} // RVA: 0x7FFAF8D3E160
-        public void ShowInExplorer(){} // RVA: 0x7FFAF8D3E5C0
-        public void OpenInDefaultApp(){} // RVA: 0x7FFAF8D3E720
-        public void GetFileSize(){} // RVA: 0x7FFAF8D3E8A0
-        public void GetDiskFreeSpaceEx(){} // RVA: 0x7FFAF8D3E920
-        public void DriveFreeBytes(){} // RVA: 0x7FFAF8D3E9F0
-        public void GetImageFileExtension(){} // RVA: 0x7FFAF8D3EB90
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAF8D3EC60
+        public void GetNativeImageSequenceFormatNames(){} // RVA: 0x628D060
+        public void HasAlphaChannel(){} // RVA: 0x628D0E0
+        public void GetBestRenderTextureFormat(){} // RVA: 0x628D150
+        public void GetUltimateRenderCamera(){} // RVA: 0x628D520
+        public void HasContributingCameras(){} // RVA: 0x628D800
+        public void FindContributingCameras(){} // RVA: 0x628D960
+        public void URLEscapePathByPercentEncoding(){} // RVA: 0x628E160
+        public void ShowInExplorer(){} // RVA: 0x628E5C0
+        public void OpenInDefaultApp(){} // RVA: 0x628E720
+        public void GetFileSize(){} // RVA: 0x628E8A0
+        public void GetDiskFreeSpaceEx(){} // RVA: 0x628E920
+        public void DriveFreeBytes(){} // RVA: 0x628E9F0
+        public void GetImageFileExtension(){} // RVA: 0x628EB90
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x628EC60
     }
 
     public class VideoEncoderHints
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8D2A040
-        public void SetDefaults(){} // RVA: 0x7FFAF8D2A040
-        public void Validate(){} // RVA: 0x7FFAF8D2A090
+        public void .ctor(){} // RVA: 0x627A040
+        public void SetDefaults(){} // RVA: 0x627A040
+        public void Validate(){} // RVA: 0x627A090
     }
 
     public class VideoPlayerController
     {
         // ── Methods ──
-        public void get_ScanFrequency(){} // RVA: 0x7FFAF3210030
-        public void set_ScanFrequency(){} // RVA: 0x7FFAF8D23980
-        public void Awake(){} // RVA: 0x7FFAF8D23990
-        public void Start(){} // RVA: 0x7FFAF2D8D310
-        public void OnValidate(){} // RVA: 0x7FFAF8D23990
-        public void Update(){} // RVA: 0x7FFAF2D8D310
-        public void UpdateFrame(){} // RVA: 0x7FFAF8D239A0
-        public void CanContinue(){} // RVA: 0x7FFAF8D23B90
-        public void WaitforSeekCompletes(){} // RVA: 0x7FFAF8D23D10
-        public void WaitforSeekCompletes2(){} // RVA: 0x7FFAF2D8D310
-        public void StartCapture(){} // RVA: 0x7FFAF8D23DB0
-        public void StopCapture(){} // RVA: 0x7FFAF8D24020
-        public void ScanForVideoPlayers(){} // RVA: 0x7FFAF8D24260
-        public void OnDestroy(){} // RVA: 0x7FFAF8D24650
-        public void ResetSceneLoading(){} // RVA: 0x7FFAF8D24700
-        public void OnSceneLoaded(){} // RVA: 0x7FFAF8D247F0
-        public void .ctor(){} // RVA: 0x7FFAF8D24800
-        public void <WaitforSeekCompletes>b__13_0(){} // RVA: 0x7FFAF8D24970
+        public void get_ScanFrequency(){} // RVA: 0x760030
+        public void set_ScanFrequency(){} // RVA: 0x6273980
+        public void Awake(){} // RVA: 0x6273990
+        public void Start(){} // RVA: 0x2DD310
+        public void OnValidate(){} // RVA: 0x6273990
+        public void Update(){} // RVA: 0x2DD310
+        public void UpdateFrame(){} // RVA: 0x62739A0
+        public void CanContinue(){} // RVA: 0x6273B90
+        public void WaitforSeekCompletes(){} // RVA: 0x6273D10
+        public void WaitforSeekCompletes2(){} // RVA: 0x2DD310
+        public void StartCapture(){} // RVA: 0x6273DB0
+        public void StopCapture(){} // RVA: 0x6274020
+        public void ScanForVideoPlayers(){} // RVA: 0x6274260
+        public void OnDestroy(){} // RVA: 0x6274650
+        public void ResetSceneLoading(){} // RVA: 0x6274700
+        public void OnSceneLoaded(){} // RVA: 0x62747F0
+        public void .ctor(){} // RVA: 0x6274800
+        public void <WaitforSeekCompletes>b__13_0(){} // RVA: 0x6274970
     }
 
     public class WavWriter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8D3F4B0
-        public void Dispose(){} // RVA: 0x7FFAF8D3F640
-        public void WriteInterleaved(){} // RVA: 0x7FFAF8D3F710
-        public void WriteHeader(){} // RVA: 0x7FFAF8D3FA90
-        public void PackageInt(){} // RVA: 0x7FFAF8D40160
-        public void .cctor(){} // RVA: 0x7FFAF8D40270
+        public void .ctor(){} // RVA: 0x628F4B0
+        public void Dispose(){} // RVA: 0x628F640
+        public void WriteInterleaved(){} // RVA: 0x628F710
+        public void WriteHeader(){} // RVA: 0x628FA90
+        public void PackageInt(){} // RVA: 0x6290160
+        public void .cctor(){} // RVA: 0x6290270
     }
 
 }

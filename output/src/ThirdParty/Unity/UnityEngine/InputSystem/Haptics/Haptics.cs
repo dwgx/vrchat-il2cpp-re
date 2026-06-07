@@ -8,15 +8,15 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Haptics
     public class DualMotorRumble
     {
         // ── Methods ──
-        public void get_lowFrequencyMotorSpeed(){} // RVA: 0x7FFAF47D6670
-        public void set_lowFrequencyMotorSpeed(){} // RVA: 0x7FFAF4A28330
-        public void get_highFrequencyMotorSpeed(){} // RVA: 0x7FFAF4A28370
-        public void set_highFrequencyMotorSpeed(){} // RVA: 0x7FFAF4A28350
-        public void get_isRumbling(){} // RVA: 0x7FFAF998A630
-        public void PauseHaptics(){} // RVA: 0x7FFAF998A670
-        public void ResumeHaptics(){} // RVA: 0x7FFAF998A770
-        public void ResetHaptics(){} // RVA: 0x7FFAF998A820
-        public void SetMotorSpeeds(){} // RVA: 0x7FFAF998A8D0
+        public void get_lowFrequencyMotorSpeed(){} // RVA: 0x1D26670
+        public void set_lowFrequencyMotorSpeed(){} // RVA: 0x1F78330
+        public void get_highFrequencyMotorSpeed(){} // RVA: 0x1F78370
+        public void set_highFrequencyMotorSpeed(){} // RVA: 0x1F78350
+        public void get_isRumbling(){} // RVA: 0x6EDA630
+        public void PauseHaptics(){} // RVA: 0x6EDA670
+        public void ResumeHaptics(){} // RVA: 0x6EDA770
+        public void ResetHaptics(){} // RVA: 0x6EDA820
+        public void SetMotorSpeeds(){} // RVA: 0x6EDA8D0
     }
 
     public class IDualMotorRumble
@@ -28,9 +28,9 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.Haptics
     public class IHaptics
     {
         // ── Methods ──
-        public void PauseHaptics(){} // RVA: 0x7FFAF2AD4A50
-        public void ResumeHaptics(){} // RVA: 0x7FFAF2AD4A50
-        public void ResetHaptics(){} // RVA: 0x7FFAF2AD4A50
+        public void PauseHaptics(){} // RVA: 0x24A50
+        public void ResumeHaptics(){} // RVA: 0x24A50
+        public void ResetHaptics(){} // RVA: 0x24A50
     }
 
 }

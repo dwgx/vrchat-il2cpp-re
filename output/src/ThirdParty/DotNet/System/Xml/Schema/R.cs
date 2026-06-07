@@ -8,12 +8,12 @@ namespace ThirdParty.DotNet.System.Xml.Schema
     public class RangeContentValidator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF95904C0
-        public void InitValidation(){} // RVA: 0x7FFAF95906F0
-        public void ValidateElement(){} // RVA: 0x7FFAF95909B0
-        public void CompleteValidation(){} // RVA: 0x7FFAF9591720
-        public void ExpectedElements(){} // RVA: 0x7FFAF9591740
-        public void ExpectedParticles(){} // RVA: 0x7FFAF9591B00
+        public void .ctor(){} // RVA: 0x6AE04C0
+        public void InitValidation(){} // RVA: 0x6AE06F0
+        public void ValidateElement(){} // RVA: 0x6AE09B0
+        public void CompleteValidation(){} // RVA: 0x6AE1720
+        public void ExpectedElements(){} // RVA: 0x6AE1740
+        public void ExpectedParticles(){} // RVA: 0x6AE1B00
     }
 
     public class RangePositionInfo
@@ -23,13 +23,13 @@ namespace ThirdParty.DotNet.System.Xml.Schema
     public class RedefineEntry
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
+        public void .ctor(){} // RVA: 0xF19AE0
     }
 
     public class RestrictionFacets
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

@@ -14,12 +14,12 @@ public class WhereArrayIterator`1
 public class WhereEnumerableIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2ADDC60
-    public void Clone(){} // RVA: 0x7FFAF2ABCD60
-    public void Dispose(){} // RVA: 0x7FFAF2AD4A50
-    public void MoveNext(){} // RVA: 0x7FFAF2ABDBE0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF2ABCE10
+    public void .ctor(){} // RVA: 0x2DC60
+    public void Clone(){} // RVA: 0xCD60
+    public void Dispose(){} // RVA: 0x24A50
+    public void MoveNext(){} // RVA: 0xDBE0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0xCE10
 }
 
 public class WhereEnumerableIterator`1
@@ -53,12 +53,12 @@ public class WhereEnumerableIterator`1
 public class WhereEnumerableIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void Dispose(){} // RVA: 0x7FFAF7743F90
-    public void MoveNext(){} // RVA: 0x7FFAF7744040
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF77441E0
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void Dispose(){} // RVA: 0x4C93F90
+    public void MoveNext(){} // RVA: 0x4C94040
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C941E0
 }
 
 public class WhereEnumerableIterator`1
@@ -76,46 +76,23 @@ public class WhereEnumerableIterator`1
 public class WhereEnumerableIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void Dispose(){} // RVA: 0x7FFAF7748080
-    public void MoveNext(){} // RVA: 0x7FFAF7748130
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF77482E0
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void Dispose(){} // RVA: 0x4C98080
+    public void MoveNext(){} // RVA: 0x4C98130
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C982E0
 }
 
 public class WhereEnumerableIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void Dispose(){} // RVA: 0x7FFAF7748080
-    public void MoveNext(){} // RVA: 0x7FFAF7748130
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF77482E0
-}
-
-public class WhereEnumerableIterator`1
-{
-}
-
-public class WhereEnumerableIterator`1
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF77403D0
-    public void Clone(){} // RVA: 0x7FFAF77404B0
-    public void Dispose(){} // RVA: 0x7FFAF7741F20
-    public void MoveNext(){} // RVA: 0x7FFAF7741FD0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF7742240
-}
-
-public class WhereEnumerableIterator`1
-{
-}
-
-public class WhereEnumerableIterator`1
-{
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void Dispose(){} // RVA: 0x4C98080
+    public void MoveNext(){} // RVA: 0x4C98130
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C982E0
 }
 
 public class WhereEnumerableIterator`1
@@ -125,12 +102,16 @@ public class WhereEnumerableIterator`1
 public class WhereEnumerableIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF77407C0
-    public void Clone(){} // RVA: 0x7FFAF77408A0
-    public void Dispose(){} // RVA: 0x7FFAF7745430
-    public void MoveNext(){} // RVA: 0x7FFAF77454E0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF7742C60
+    public void .ctor(){} // RVA: 0x4C903D0
+    public void Clone(){} // RVA: 0x4C904B0
+    public void Dispose(){} // RVA: 0x4C91F20
+    public void MoveNext(){} // RVA: 0x4C91FD0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C92240
+}
+
+public class WhereEnumerableIterator`1
+{
 }
 
 public class WhereEnumerableIterator`1
@@ -144,12 +125,12 @@ public class WhereEnumerableIterator`1
 public class WhereEnumerableIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void Dispose(){} // RVA: 0x7FFAF7748080
-    public void MoveNext(){} // RVA: 0x7FFAF7748130
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF77482E0
+    public void .ctor(){} // RVA: 0x4C907C0
+    public void Clone(){} // RVA: 0x4C908A0
+    public void Dispose(){} // RVA: 0x4C95430
+    public void MoveNext(){} // RVA: 0x4C954E0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C92C60
 }
 
 public class WhereEnumerableIterator`1
@@ -163,12 +144,12 @@ public class WhereEnumerableIterator`1
 public class WhereEnumerableIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void Dispose(){} // RVA: 0x7FFAF7748080
-    public void MoveNext(){} // RVA: 0x7FFAF7748130
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF77482E0
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void Dispose(){} // RVA: 0x4C98080
+    public void MoveNext(){} // RVA: 0x4C98130
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C982E0
 }
 
 public class WhereEnumerableIterator`1
@@ -182,12 +163,12 @@ public class WhereEnumerableIterator`1
 public class WhereEnumerableIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF77407C0
-    public void Clone(){} // RVA: 0x7FFAF77408A0
-    public void Dispose(){} // RVA: 0x7FFAF77432A0
-    public void MoveNext(){} // RVA: 0x7FFAF7743350
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF7742C60
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void Dispose(){} // RVA: 0x4C98080
+    public void MoveNext(){} // RVA: 0x4C98130
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C982E0
 }
 
 public class WhereEnumerableIterator`1
@@ -201,12 +182,31 @@ public class WhereEnumerableIterator`1
 public class WhereEnumerableIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void Dispose(){} // RVA: 0x7FFAF7748080
-    public void MoveNext(){} // RVA: 0x7FFAF7748130
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF77482E0
+    public void .ctor(){} // RVA: 0x4C907C0
+    public void Clone(){} // RVA: 0x4C908A0
+    public void Dispose(){} // RVA: 0x4C932A0
+    public void MoveNext(){} // RVA: 0x4C93350
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C92C60
+}
+
+public class WhereEnumerableIterator`1
+{
+}
+
+public class WhereEnumerableIterator`1
+{
+}
+
+public class WhereEnumerableIterator`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void Dispose(){} // RVA: 0x4C98080
+    public void MoveNext(){} // RVA: 0x4C98130
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C982E0
 }
 
 public class WhereEnumerableIterator`1
@@ -216,11 +216,11 @@ public class WhereEnumerableIterator`1
 public class WhereListIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2ADDC60
-    public void Clone(){} // RVA: 0x7FFAF2ABCD60
-    public void MoveNext(){} // RVA: 0x7FFAF2ABDBE0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF2ABCE10
+    public void .ctor(){} // RVA: 0x2DC60
+    public void Clone(){} // RVA: 0xCD60
+    public void MoveNext(){} // RVA: 0xDBE0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0xCE10
 }
 
 public class WhereListIterator`1
@@ -234,11 +234,11 @@ public class WhereListIterator`1
 public class WhereListIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void MoveNext(){} // RVA: 0x7FFAF774BF80
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF774C140
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void MoveNext(){} // RVA: 0x4C9BF80
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C9C140
 }
 
 public class WhereListIterator`1
@@ -272,11 +272,11 @@ public class WhereListIterator`1
 public class WhereListIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void MoveNext(){} // RVA: 0x7FFAF774BF80
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF774C140
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void MoveNext(){} // RVA: 0x4C9BF80
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C9C140
 }
 
 public class WhereListIterator`1
@@ -290,11 +290,11 @@ public class WhereListIterator`1
 public class WhereListIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void MoveNext(){} // RVA: 0x7FFAF774BF80
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF774C140
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void MoveNext(){} // RVA: 0x4C9BF80
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C9C140
 }
 
 public class WhereListIterator`1
@@ -304,11 +304,11 @@ public class WhereListIterator`1
 public class WhereListIterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF7740BE0
-    public void Clone(){} // RVA: 0x7FFAF7740CC0
-    public void MoveNext(){} // RVA: 0x7FFAF774BF80
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF774C140
+    public void .ctor(){} // RVA: 0x4C90BE0
+    public void Clone(){} // RVA: 0x4C90CC0
+    public void MoveNext(){} // RVA: 0x4C9BF80
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C9C140
 }
 
 public class WhereListIterator`1
@@ -330,53 +330,11 @@ public class WhereSelectArrayIterator`2
 public class WhereSelectArrayIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2ADF090
-    public void Clone(){} // RVA: 0x7FFAF2ABCD60
-    public void MoveNext(){} // RVA: 0x7FFAF2ABDBE0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF2ABCE10
-}
-
-public class WhereSelectArrayIterator`2
-{
-}
-
-public class WhereSelectArrayIterator`2
-{
-}
-
-public class WhereSelectArrayIterator`2
-{
-}
-
-public class WhereSelectArrayIterator`2
-{
-}
-
-public class WhereSelectArrayIterator`2
-{
-}
-
-public class WhereSelectArrayIterator`2
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void MoveNext(){} // RVA: 0x7FFAF77558C0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF774D7E0
-}
-
-public class WhereSelectArrayIterator`2
-{
-}
-
-public class WhereSelectArrayIterator`2
-{
-}
-
-public class WhereSelectArrayIterator`2
-{
+    public void .ctor(){} // RVA: 0x2F090
+    public void Clone(){} // RVA: 0xCD60
+    public void MoveNext(){} // RVA: 0xDBE0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0xCE10
 }
 
 public class WhereSelectArrayIterator`2
@@ -402,11 +360,27 @@ public class WhereSelectArrayIterator`2
 public class WhereSelectArrayIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void MoveNext(){} // RVA: 0x7FFAF77558C0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF774D7E0
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void MoveNext(){} // RVA: 0x4CA58C0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C9D7E0
+}
+
+public class WhereSelectArrayIterator`2
+{
+}
+
+public class WhereSelectArrayIterator`2
+{
+}
+
+public class WhereSelectArrayIterator`2
+{
+}
+
+public class WhereSelectArrayIterator`2
+{
 }
 
 public class WhereSelectArrayIterator`2
@@ -428,31 +402,57 @@ public class WhereSelectArrayIterator`2
 public class WhereSelectArrayIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void MoveNext(){} // RVA: 0x7FFAF77558C0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF774D7E0
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void MoveNext(){} // RVA: 0x4CA58C0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C9D7E0
+}
+
+public class WhereSelectArrayIterator`2
+{
+}
+
+public class WhereSelectArrayIterator`2
+{
+}
+
+public class WhereSelectArrayIterator`2
+{
+}
+
+public class WhereSelectArrayIterator`2
+{
 }
 
 public class WhereSelectArrayIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void MoveNext(){} // RVA: 0x7FFAF7755700
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF774D7E0
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void MoveNext(){} // RVA: 0x4CA58C0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C9D7E0
 }
 
 public class WhereSelectArrayIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void MoveNext(){} // RVA: 0x7FFAF77558C0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF774D7E0
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void MoveNext(){} // RVA: 0x4CA5700
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C9D7E0
+}
+
+public class WhereSelectArrayIterator`2
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void MoveNext(){} // RVA: 0x4CA58C0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4C9D7E0
 }
 
 public class WhereSelectArrayIterator`2
@@ -470,12 +470,12 @@ public class WhereSelectEnumerableIterator`2
 public class WhereSelectEnumerableIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2ADF090
-    public void Clone(){} // RVA: 0x7FFAF2ABCD60
-    public void Dispose(){} // RVA: 0x7FFAF2AD4A50
-    public void MoveNext(){} // RVA: 0x7FFAF2ABDBE0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF2ABCE10
+    public void .ctor(){} // RVA: 0x2F090
+    public void Clone(){} // RVA: 0xCD60
+    public void Dispose(){} // RVA: 0x24A50
+    public void MoveNext(){} // RVA: 0xDBE0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0xCE10
 }
 
 public class WhereSelectEnumerableIterator`2
@@ -485,98 +485,38 @@ public class WhereSelectEnumerableIterator`2
 public class WhereSelectEnumerableIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774CE00
-    public void Clone(){} // RVA: 0x7FFAF774CF30
-    public void Dispose(){} // RVA: 0x7FFAF77EEDE0
-    public void MoveNext(){} // RVA: 0x7FFAF77EEE90
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF7758EF0
+    public void .ctor(){} // RVA: 0x4C9CE00
+    public void Clone(){} // RVA: 0x4C9CF30
+    public void Dispose(){} // RVA: 0x4D3EDE0
+    public void MoveNext(){} // RVA: 0x4D3EE90
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4CA8EF0
 }
 
 public class WhereSelectEnumerableIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774CE00
-    public void Clone(){} // RVA: 0x7FFAF774CF30
-    public void Dispose(){} // RVA: 0x7FFAF77C83F0
-    public void MoveNext(){} // RVA: 0x7FFAF77C84A0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF7758EF0
+    public void .ctor(){} // RVA: 0x4C9CE00
+    public void Clone(){} // RVA: 0x4C9CF30
+    public void Dispose(){} // RVA: 0x4D183F0
+    public void MoveNext(){} // RVA: 0x4D184A0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4CA8EF0
 }
 
 public class WhereSelectEnumerableIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void Dispose(){} // RVA: 0x7FFAF77EE3E0
-    public void MoveNext(){} // RVA: 0x7FFAF77EE490
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF775AE70
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void Dispose(){} // RVA: 0x4D3E3E0
+    public void MoveNext(){} // RVA: 0x4D3E490
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4CAAE70
 }
 
 public class WhereSelectEnumerableIterator`2
 {
-}
-
-public class WhereSelectEnumerableIterator`2
-{
-}
-
-public class WhereSelectEnumerableIterator`2
-{
-}
-
-public class WhereSelectEnumerableIterator`2
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void Dispose(){} // RVA: 0x7FFAF77EE3E0
-    public void MoveNext(){} // RVA: 0x7FFAF77EE490
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF775AE70
-}
-
-public class WhereSelectEnumerableIterator`2
-{
-}
-
-public class WhereSelectEnumerableIterator`2
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void Dispose(){} // RVA: 0x7FFAF7798EA0
-    public void MoveNext(){} // RVA: 0x7FFAF7798F50
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF775AE70
-}
-
-public class WhereSelectEnumerableIterator`2
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D130
-    public void Clone(){} // RVA: 0x7FFAF774D260
-    public void Dispose(){} // RVA: 0x7FFAF77EC270
-    public void MoveNext(){} // RVA: 0x7FFAF77EC320
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF7759290
-}
-
-public class WhereSelectEnumerableIterator`2
-{
-}
-
-public class WhereSelectEnumerableIterator`2
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void Dispose(){} // RVA: 0x7FFAF77EE3E0
-    public void MoveNext(){} // RVA: 0x7FFAF77EE490
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF775AE70
 }
 
 public class WhereSelectEnumerableIterator`2
@@ -590,21 +530,81 @@ public class WhereSelectEnumerableIterator`2
 public class WhereSelectEnumerableIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D130
-    public void Clone(){} // RVA: 0x7FFAF774D260
-    public void Dispose(){} // RVA: 0x7FFAF7759920
-    public void MoveNext(){} // RVA: 0x7FFAF77599D0
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF7759290
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void Dispose(){} // RVA: 0x4D3E3E0
+    public void MoveNext(){} // RVA: 0x4D3E490
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4CAAE70
+}
+
+public class WhereSelectEnumerableIterator`2
+{
 }
 
 public class WhereSelectEnumerableIterator`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF774D550
-    public void Clone(){} // RVA: 0x7FFAF774D680
-    public void Dispose(){} // RVA: 0x7FFAF77C6270
-    public void MoveNext(){} // RVA: 0x7FFAF77C6320
-    public void Select(){} // RVA: 0x7FFAF2ABCE10
-    public void Where(){} // RVA: 0x7FFAF775AE70
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void Dispose(){} // RVA: 0x4CE8EA0
+    public void MoveNext(){} // RVA: 0x4CE8F50
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4CAAE70
+}
+
+public class WhereSelectEnumerableIterator`2
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4C9D130
+    public void Clone(){} // RVA: 0x4C9D260
+    public void Dispose(){} // RVA: 0x4D3C270
+    public void MoveNext(){} // RVA: 0x4D3C320
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4CA9290
+}
+
+public class WhereSelectEnumerableIterator`2
+{
+}
+
+public class WhereSelectEnumerableIterator`2
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void Dispose(){} // RVA: 0x4D3E3E0
+    public void MoveNext(){} // RVA: 0x4D3E490
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4CAAE70
+}
+
+public class WhereSelectEnumerableIterator`2
+{
+}
+
+public class WhereSelectEnumerableIterator`2
+{
+}
+
+public class WhereSelectEnumerableIterator`2
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4C9D130
+    public void Clone(){} // RVA: 0x4C9D260
+    public void Dispose(){} // RVA: 0x4CA9920
+    public void MoveNext(){} // RVA: 0x4CA99D0
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4CA9290
+}
+
+public class WhereSelectEnumerableIterator`2
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x4C9D550
+    public void Clone(){} // RVA: 0x4C9D680
+    public void Dispose(){} // RVA: 0x4D16270
+    public void MoveNext(){} // RVA: 0x4D16320
+    public void Select(){} // RVA: 0xCE10
+    public void Where(){} // RVA: 0x4CAAE70
 }

@@ -12,10 +12,10 @@ namespace ThirdParty.Other.SteamAudio
     public class TrueAudioNextDevice
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8F4B6F0 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFAF8F4B790
-        public void Release(){} // RVA: 0x7FFAF8F4B7D0
-        public void Get(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x649B6F0 | overloaded x2
+        public void Finalize(){} // RVA: 0x649B790
+        public void Release(){} // RVA: 0x649B7D0
+        public void Get(){} // RVA: 0x2F8380
     }
 
     public class TrueAudioNextDeviceSettings

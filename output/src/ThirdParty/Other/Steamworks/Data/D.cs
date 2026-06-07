@@ -8,29 +8,29 @@ namespace ThirdParty.Other.Steamworks.Data
     public class DeleteItemResult_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B81860
-        public void .cctor(){} // RVA: 0x7FFAF4B81870
+        public void get_CallbackType(){} // RVA: 0x20D1860
+        public void .cctor(){} // RVA: 0x20D1870
     }
 
     public class DlcInstalled_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B7E560
-        public void .cctor(){} // RVA: 0x7FFAF4B7E570
+        public void get_CallbackType(){} // RVA: 0x20CE560
+        public void .cctor(){} // RVA: 0x20CE570
     }
 
     public class DownloadClanActivityCountsResult_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B78E50
-        public void .cctor(){} // RVA: 0x7FFAF4B78E60
+        public void get_CallbackType(){} // RVA: 0x20C8E50
+        public void .cctor(){} // RVA: 0x20C8E60
     }
 
     public class DownloadItemResult_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B80CB0
-        public void .cctor(){} // RVA: 0x7FFAF4B80CC0
+        public void get_CallbackType(){} // RVA: 0x20D0CB0
+        public void .cctor(){} // RVA: 0x20D0CC0
     }
 
     public class DurationControl
@@ -40,8 +40,8 @@ namespace ThirdParty.Other.Steamworks.Data
     public class DurationControl_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B77E60
-        public void .cctor(){} // RVA: 0x7FFAF4B77E70
+        public void get_CallbackType(){} // RVA: 0x20C7E60
+        public void .cctor(){} // RVA: 0x20C7E70
     }
 
 }

@@ -8,8 +8,8 @@ namespace ThirdParty.Sentry.Sentry
     public class FileAttachmentContent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF45641A0 | overloaded x2
-        public void GetStream(){} // RVA: 0x7FFAF8D52A80
+        public void .ctor(){} // RVA: 0x1AB41A0 | overloaded x2
+        public void GetStream(){} // RVA: 0x62A2A80
     }
 
 }

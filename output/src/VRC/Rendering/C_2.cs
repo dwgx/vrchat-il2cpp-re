@@ -9,110 +9,110 @@ namespace VRC.Rendering
     public class CameraBeginInvokeEndInvoke_03F3
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A01FE0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F51FE0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÏÎÍÍÏÏÎÍÎÏÍÌÎÏÌÍÎÏÏÎÍ</summary>
     public class CameraBeginInvokeEndInvoke_04BF
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A93900
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FE3900
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÍÎÎÌÍÌÌÌÍÏÎÏÎÍÌÏÌÏÌÌ</summary>
     public class CameraBeginInvokeEndInvoke_063D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A5E540
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FAE540
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÍÎÎÍÍÏÍÍÍÎÏÎÍÌÏÏÏÏÍÍÏ</summary>
     public class CameraBeginInvokeEndInvoke_0A53
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2E0D190
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF2DE8C70
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x35D190
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x338C70
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÏÎÎÍÍÍÎÏÎÏÎÎÌÌÎÍÏÌÌÌÍÍ</summary>
     public class CameraBeginInvokeEndInvoke_0B54
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4ADAB30
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x202AB30
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÎÏÍÎÎÎÍÌÍÎÏÏÌÏÌÎÌÎÍÍÎ</summary>
     public class CameraBeginInvokeEndInvoke_0EC3
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4ADA040
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x202A040
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÌÍÏÏÍÏÌÍÍÍÍÍÏÌÌÍÏÏÎÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_21EC
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B511C0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x20A11C0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÍÎÎÎÎÏÎÎÌÌÌÍÍÏÏÍÍÎÏÏÍ</summary>
     public class CameraBeginInvokeEndInvoke_252D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B23AF0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2073AF0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÏÏÎÏÏÍÌÌÏÎÍÏÏÏÏÎÌÎÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_26E2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A12600
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F62600
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÍÌÍÌÌÌÌÎÎÎÌÌÍÌÏÏÌÌÌÎÎ</summary>
     public class CameraBeginInvokeEndInvoke_273E
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A5F700
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FAF700
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÍÍÎÏÏÌÏÏÏÎÍÍÎÍÍÎÎÏÏÍÎ</summary>
     public class CameraBeginInvokeEndInvoke_297B
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4AD9D30
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2029D30
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÌÌÏÏÎÍÍÌÏÌÎÎÎÏÎÎÏÌÍÍÍ</summary>
@@ -120,209 +120,209 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void .ctor(){}
-        public void Invoke(){} // RVA: 0x7FFAF2D33FA0
-        public void BeginInvoke(){} // RVA: 0x7FFAF2D33FA0
-        public void EndInvoke(){} // RVA: 0x7FFAF2AD4B10
+        public void Invoke(){} // RVA: 0x283FA0
+        public void BeginInvoke(){} // RVA: 0x283FA0
+        public void EndInvoke(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÌÏÌÏÌÍÍÎÍÌÌÌÍÍÍÏÏÍÏÏÎÎÌ</summary>
     public class CameraBeginInvokeEndInvoke_2F14
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF45B72F0
-        public void Invoke(){} // RVA: 0x7FFAF2DEBA50
-        public void BeginInvoke(){} // RVA: 0x7FFAF2DEBA60
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1B072F0
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÎÎÎÍÌÏÌÍÍÏÌÏÌÌÌÌÌÌÍÌÌÌ</summary>
     public class CameraBeginInvokeEndInvoke_2FB1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A3CC70
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F8CC70
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÍÍÎÍÎÍÌÌÌÍÌÌÎÍÏÍÎÎÍÍÌ</summary>
     public class CameraBeginInvokeEndInvoke_326E
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B534A0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x20A34A0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÌÍÌÏÌÍÌÏÍÍÎÌÎÌÌÏÍÎÏÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_34A5
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4AF2840
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2042840
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÍÏÏÍÏÌÍÌÍÌÏÎÌÍÍÏÎÌÍÍÏ</summary>
     public class CameraBeginInvokeEndInvoke_35E8
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A954F0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FE54F0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÌÌÎÎÏÌÏÍÏÎÏÎÍÎÏÍÏÎÌÏÎ</summary>
     public class CameraBeginInvokeEndInvoke_387D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B514D0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x20A14D0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÍÎÌÎÌÎÎÏÎÌÎÍÌÎÏÎÌÎÏÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_38E6
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4AB7390
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2007390
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÍÏÍÎÍÏÌÌÍÍÏÎÍÎÌÍÌÌÏÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_398F
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A00DC0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F50DC0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÌÏÏÎÏÍÍÏÍÏÏÍÎÌÌÎÌÍÍÌÌ</summary>
     public class CameraBeginInvokeEndInvoke_3BA8
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF499BF70
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1EEBF70
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÎÌÎÏÍÍÌÎÏÎÏÍÏÌÏÌÏÎÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_3ED4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B3CEB0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x208CEB0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÌÎÎÎÎÌÍÎÏÍÎÎÌÎÎÌÌÎÌÎÍ</summary>
     public class CameraBeginInvokeEndInvoke_420A
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A12910
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F62910
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÌÍÏÌÌÎÏÎÌÍÍÌÍÌÍÍÏÍÎÌÌ</summary>
     public class CameraBeginInvokeEndInvoke_4325
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF49A8280
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4ADA780
-        public void EndInvoke(){} // RVA: 0x7FFAF49A83F0
+        public void .ctor(){} // RVA: 0x1EF8280
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x202A780
+        public void EndInvoke(){} // RVA: 0x1EF83F0
     }
 
     /// <summary>Originally: ÌÎÏÏÌÏÍÏÌÏÍÎÎÎÌÏÌÍÏÌÎÍÌ</summary>
     public class CameraBeginInvokeEndInvoke_472F
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A94D00
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FE4D00
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÍÍÌÍÍÎÍÍÎÍÍÎÌÏÏÍÎÌÌÎÍ</summary>
     public class CameraBeginInvokeEndInvoke_4924
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A935F0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FE35F0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÌÌÎÏÎÍÎÎÌÎÌÍÎÎÎÍÎÌÌÍÏ</summary>
     public class CameraBeginInvokeEndInvoke_5037
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4AD91C0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x20291C0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÌÍÏÍÎÍÍÎÍÍÏÎÏÏÎÏÍÍÎÏ</summary>
     public class CameraBeginInvokeEndInvoke_5047
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A5E110
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FAE110
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÎÍÎÍÏÍÎÏÍÌÎÏÍÎÏÍÍÍÏÏÍ</summary>
     public class CameraBeginInvokeEndInvoke_56FE
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF49E56A0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F356A0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÍÎÎÍÎÌÏÎÍÏÎÍÎÍÍÌÎÍÍÏÌ</summary>
     public class CameraBeginInvokeEndInvoke_5794
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2DEB980
-        public void Invoke(){} // RVA: 0x7FFAF2DEBA50
-        public void BeginInvoke(){} // RVA: 0x7FFAF2DEBA60
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x33B980
+        public void Invoke(){} // RVA: 0x33BA50
+        public void BeginInvoke(){} // RVA: 0x33BA60
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÎÍÍÍÎÍÎÍÌÌÎÎÏÌÍÍÌÍÌÎÏÍ</summary>
     public class CameraBeginInvokeEndInvoke_5CC9
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A940D0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FE40D0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÏÌÏÏÍÍÏÍÎÎÍÌÏÌÏÏÏÌÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_63C9
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4AFA3D0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x204A3D0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÌÏÍÌÌÎÏÌÎÍÌÎÏÏÌÌÎÌÍÌÏ</summary>
@@ -330,319 +330,319 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void .ctor(){}
-        public void Invoke(){} // RVA: 0x7FFAF2D33FA0
-        public void BeginInvoke(){} // RVA: 0x7FFAF2D33FA0
-        public void EndInvoke(){} // RVA: 0x7FFAF2AD4B10
+        public void Invoke(){} // RVA: 0x283FA0
+        public void BeginInvoke(){} // RVA: 0x283FA0
+        public void EndInvoke(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÌÎÌÌÌÎÍÎÍÎÎÍÎÎÎÌÎÍÎÏÌÏÌ</summary>
     public class CameraBeginInvokeEndInvoke_6F6D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A2E200
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F7E200
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÍÌÌÏÎÏÌÏÌÍÏÏÍÎÌÏÎÌÏÏÌ</summary>
     public class CameraBeginInvokeEndInvoke_7183
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4ACAB70
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x201AB70
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÌÍÌÎÎÍÌÎÌÌÌÏÍÎÍÎÎÌÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_7560
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF49D00C0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F200C0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÍÍÍÏÎÎÍÎÎÌÎÍÌÌÎÍÌÍÍÏ</summary>
     public class CameraBeginInvokeEndInvoke_77F7
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF499A770
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1EEA770
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÌÎÏÍÎÎÎÏÌÌÌÏÏÍÌÌÌÌÌÏ</summary>
     public class CameraBeginInvokeEndInvoke_891A
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B522F0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x20A22F0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÎÍÌÏÏÍÍÎÍÍÏÍÎÍÏÍÍÏÍÌÍ</summary>
     public class CameraBeginInvokeEndInvoke_8930
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÍÌÍÎÎÍÏÏÏÍÍÌÎÍÏÌÏÌÎÏÌÍÍ</summary>
     public class CameraBeginInvokeEndInvoke_8EA8
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A995A0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FE95A0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÌÏÍÌÌÍÍÌÌÏÌÍÍÍÏÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_998D
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF48C1FC0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1E11FC0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÍÌÍÎÎÍÎÌÎÍÍÏÎÏÎÌÍÍÏÎÌÍÏ</summary>
     public class CameraBeginInvokeEndInvoke_9A66
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2DE8B80
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF2DE8C70
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x338B80
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x338C70
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÏÍÎÌÎÏÍÎÌÍÏÍÎÍÍÎÌÏÌÏÌÍ</summary>
@@ -650,9 +650,9 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void .ctor(){}
-        public void Invoke(){} // RVA: 0x7FFAF2AD4B10
-        public void BeginInvoke(){} // RVA: 0x7FFAF2ACEE30
-        public void EndInvoke(){} // RVA: 0x7FFAF2AD4B10
+        public void Invoke(){} // RVA: 0x24B10
+        public void BeginInvoke(){} // RVA: 0x1EE30
+        public void EndInvoke(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÌÏÍÎÌÎÏÍÎÌÍÏÍÎÍÍÎÌÏÌÏÌÍ</summary>
@@ -664,50 +664,50 @@ namespace VRC.Rendering
     public class CameraBeginInvokeEndInvoke_9B0A
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2E0D190
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF2DE8C70
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x35D190
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x338C70
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÎÌÏÏÎÍÌÍÌÍÌÌÌÌÎÍÌÍÍÎÍÍ</summary>
     public class CameraBeginInvokeEndInvoke_9B48
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A5F3F0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FAF3F0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÏÎÏÌÎÏÎÏÍÏÌÌÌÌÎÎÏÍÎÏ</summary>
     public class CameraBeginInvokeEndInvoke_A3CB
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFB8A6820
-        public void Invoke(){} // RVA: 0x7FFAFB8A68F0
-        public void BeginInvoke(){} // RVA: 0x7FFAFB8A6940
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x8DF6820
+        public void Invoke(){} // RVA: 0x8DF68F0
+        public void BeginInvoke(){} // RVA: 0x8DF6940
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÎÏÍÎÎÍÍÌÎÌÏÍÍÌÍÎÎÏÌÎÏÎ</summary>
     public class CameraBeginInvokeEndInvoke_A88A
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF49CFC90
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F1FC90
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÏÏÎÏÎÍÎÏÍÍÌÏÏÎÏÏÌÎÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_A996
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF49CFD20
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F1FD20
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÎÌÌÏÏÎÎÏÌÏÌÍÍÎÎÌÏÏÎÏÍ</summary>
@@ -715,279 +715,280 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void .ctor(){}
-        public void Invoke(){} // RVA: 0x7FFAF2D33FA0
-        public void BeginInvoke(){} // RVA: 0x7FFAF2D33FA0
-        public void EndInvoke(){} // RVA: 0x7FFAF2AD4B10
+        public void Invoke(){} // RVA: 0x283FA0
+        public void BeginInvoke(){} // RVA: 0x283FA0
+        public void EndInvoke(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÌÏÎÌÌÏÏÎÎÏÌÏÌÍÍÎÎÌÏÏÎÏÍ</summary>
     public class CameraBeginInvokeEndInvoke_AA03
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2E7E370
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF79EEC40
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x3CE370
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x4F3EC40
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÍÌÌÎÍÎÍÍÏÏÎÍÌÏÎÌÌÌÍÍÎÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_AF7B
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4AB7730
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2007730
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÌÍÍÎÍÌÎÎÏÏÎÎÎÏÎÎÏÎÌÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_B5DB
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF49B1410
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F01410
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÍÍÌÎÎÍÍÌÍÌÎÌÍÌÎÏÎÎÌÎÏ</summary>
     public class CameraBeginInvokeEndInvoke_B7CA
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF49E46C0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F346C0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÏÌÌÏÍÌÎÏÍÏÏÍÎÎÌÏÏÎÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_B823
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF499A3D0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1EEA3D0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÌÌÌÍÏÏÎÎÍÏÍÍÌÍÏÌÎÌÏÍ</summary>
     public class CameraBeginInvokeEndInvoke_BBB7
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF45AE240
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1AFE240
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x1AFE3C0
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÎÍÎÌÎÌÍÍÌÌÏÏÎÏÎÏÏÌÎÎÏÎ</summary>
     public class CameraBeginInvokeEndInvoke_BC38
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B3CBA0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x208CBA0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÎÌÌÎÏÍÌÎÌÌÌÍÎÍÎÌÎÏÏÍÏ</summary>
     public class CameraBeginInvokeEndInvoke_BE94
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2E7E370
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4838830
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x3CE370
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1D88830
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÍÌÍÍÏÏÍÌÏÌÎÍÍÌÎÌÎÍÎÎÌÍÎ</summary>
     public class CameraBeginInvokeEndInvoke_C3AD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF3C52A10
-        public void Invoke(){} // RVA: 0x7FFAF3C52AE0
-        public void BeginInvoke(){} // RVA: 0x7FFAF3C52B40
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x11A2A10
+        public void Invoke(){} // RVA: 0x11A2AE0
+        public void BeginInvoke(){} // RVA: 0x11A2B40
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÍÌÌÎÎÍÍÌÍÎÎÏÍÌÏÏÌÎÏÌÌÌÎ</summary>
     public class CameraBeginInvokeEndInvoke_C42A
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4A12260
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F62260
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÍÏÎÏÏÎÌÌÎÎÌÎÎÍÏÍÌÌÏÎÏÍ</summary>
     public class CameraBeginInvokeEndInvoke_C682
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B22960
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2072960
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÌÎÎÎÍÍÏÍÌÌÍÏÎÎÏÌÍÏÏÍÏ</summary>
     public class CameraBeginInvokeEndInvoke_CADA
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF45A99C0
-        public void Invoke(){} // RVA: 0x7FFAF2EE94E0
-        public void BeginInvoke(){} // RVA: 0x7FFAF45A9A90
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x1AF99C0
+        public void Invoke(){} // RVA: 0x4394E0
+        public void BeginInvoke(){} // RVA: 0x1AF9A90
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÍÌÌÌÏÎÌÍÍÏÏÎÌÎÌÏÏÌÌÎÎÎÎ</summary>
     public class CameraBeginInvokeEndInvoke_CDA9
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4AD2640
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2022640
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÍÎÏÌÏÌÌÍÍÍÌÍÏÏÎÎÎÏÏÎÎ</summary>
     public class CameraBeginInvokeEndInvoke_D7B6
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B24DB0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2074DB0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÏÏÎÍÏÌÍÌÏÌÎÏÍÌÍÎÍÍÎÎÎ</summary>
     public class CameraBeginInvokeEndInvoke_D8F6
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B27520
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2077520
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÎÎÌÎÎÏÏÏÍÌÌÏÏÌÏÎÍÍÎÍÏÏ</summary>
     public class CameraBeginInvokeEndInvoke_E431
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF49E1400
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F31400
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÍÌÌÎÎÍÍÎÏÌÍÏÏÍÏÌÌÍÍÍÏ</summary>
     public class CameraBeginInvokeEndInvoke_E6AA
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF49A7F70
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1EF7F70
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÍÌÍÎÌÍÍÍÎÍÌÏÎÎÎÎÏÏÎÌÏ</summary>
     public class CameraBeginInvokeEndInvoke_E6F7
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF499B7A0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1EEB7A0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÍÏÏÍÎÌÍÎÌÏÎÍÎÏÍÏÏÎÏÌÏÎ</summary>
     public class CameraBeginInvokeEndInvoke_E7AB
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF3C269B0
-        public void Invoke(){} // RVA: 0x7FFAF2EE94E0
-        public void BeginInvoke(){} // RVA: 0x7FFAF3C26A90
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x11769B0
+        public void Invoke(){} // RVA: 0x4394E0
+        public void BeginInvoke(){} // RVA: 0x1176A90
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÎÍÎÏÌÏÍÍÎÎÎÎÎÍÎÎÏÏÎÌÎÍ</summary>
     public class CameraBeginInvokeEndInvoke_E7C9
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF49CF5E0
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1F1F5E0
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÍÍÎÌÏÎÍÍÏÏÍÍÌÍÏÍÏÏÌÎÌ</summary>
     public class CameraBeginInvokeEndInvoke_EEAF
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF30F68B0
-        public void Invoke(){} // RVA: 0x7FFAF2EE94E0
-        public void BeginInvoke(){} // RVA: 0x7FFAF30F6980
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x6468B0
+        public void Invoke(){} // RVA: 0x4394E0
+        public void BeginInvoke(){} // RVA: 0x646980
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
     /// <summary>Originally: ÌÏÍÎÍÌÎÎÌÏÍÌÌÌÏÌÎÌÍÎÎÎÎ</summary>
     public class CameraBeginInvokeEndInvoke_F501
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4B23010
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x2073010
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÌÏÎÍÍÎÎÌÌÏÏÍÎÌÎÏÏÏÌÎÌÏÍ</summary>
     public class CameraBeginInvokeEndInvoke_FAEE
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF498D880
-        public void Invoke(){} // RVA: 0x7FFAF2DE8C60
-        public void BeginInvoke(){} // RVA: 0x7FFAF4AAAC90
-        public void EndInvoke(){} // RVA: 0x7FFAF498D9F0
+        public void .ctor(){} // RVA: 0x1EDD880
+        public void Invoke(){} // RVA: 0x338C60
+        public void BeginInvoke(){} // RVA: 0x1FFAC90
+        public void EndInvoke(){} // RVA: 0x1EDD9F0
     }
 
     /// <summary>Originally: ÍÌÍÎÏÌÏÌÌÍÎÎÎÍÌÍÍÌÏÎÏÍÏ</summary>
     public class CameraHandler_33B6
     {
         // ── Methods ──
-        public void ConfigureCameraDepth(){} // RVA: 0x7FFAFB863320
-        public void GetCameraCullingMask(){} // RVA: 0x7FFAFB8634A0
-        public void TryGetCameraComponent(){} // RVA: 0x7FFAFB8636E0
-        public void Start(){} // RVA: 0x7FFAFB863C10
-        public void SetCameraTargetTexture(){} // RVA: 0x7FFAFB863D00
-        public void GetCameraComponentId(){} // RVA: 0x7FFAFB863E80
-        public void GetCameraComponentPair(){} // RVA: 0x7FFAFB863EF0
-        public void .ctor(){} // RVA: 0x7FFAFB863FE0
-        public void Initialize(){} // RVA: 0x7FFAFB8640B0
-        public void GetCameraComponentId_FD8F2EB51742(){} // RVA: 0x7FFAFB863E80
-        public void GetCameraFlag(){} // RVA: 0x7FFAFB864110
-        public void GetCameraProperty(){} // RVA: 0x7FFAFB864640
-        public void GetMain(){} // RVA: 0x7FFAFB8647C0
-        public void get_MoveNext(){} // RVA: 0x7FFAF2F476A0
-        public void GetCameraRenderState(){} // RVA: 0x7FFAFB864A00
+        public void Start(){} // RVA: 0x8DB3C10
+        public void .ctor(){} // RVA: 0x8DB3FE0
+        public void Initialize(){} // RVA: 0x8DB40B0
+        public void GetMain(){} // RVA: 0x8DB47C0
+        public void get_MoveNext(){} // RVA: 0x4976A0
+        // ── Unresolved (hash) ──
+        public void m_89B(){} // RVA: 0x8DB3320
+        public void m_8AA(){} // RVA: 0x8DB34A0
+        public void m_C64(){} // RVA: 0x8DB36E0
+        public void m_E28(){} // RVA: 0x8DB3D00
+        public void m_AAF(){} // RVA: 0x8DB3E80
+        public void m_6B3(){} // RVA: 0x8DB3EF0
+        public void m_FD8(){} // RVA: 0x8DB3E80
+        public void m_2CE(){} // RVA: 0x8DB4110
+        public void m_3D3(){} // RVA: 0x8DB4640
+        public void m_855(){} // RVA: 0x8DB4A00
     }
 
     /// <summary>Originally: ÍÌÌÍÏÏÎÍÎÏÎÍÍÍÎÌÍÎÌÌÏÌÍ</summary>
     public class CameraHandler_361B
     {
         // ── Methods ──
-        public void get_BytesInHistory(){} // RVA: 0x7FFAF44E4510
-        public void GetFieldOfView(){} // RVA: 0x7FFAF44E4630
-        public void GetAspect(){} // RVA: 0x7FFAF44E46F0
-        public void .ctor(){} // RVA: 0x7FFAF44E4730
-        public void Initialize(){} // RVA: 0x7FFAF44E4850
-        public void SafeToWriteTo(){} // RVA: 0x7FFAF44E4930
-        public void InputAvailable(){} // RVA: 0x7FFAF44E4E10
+        public void get_BytesInHistory(){} // RVA: 0x1A34510
+        public void GetFieldOfView(){} // RVA: 0x1A34630
+        public void GetAspect(){} // RVA: 0x1A346F0
+        public void .ctor(){} // RVA: 0x1A34730
+        public void Initialize(){} // RVA: 0x1A34850
+        public void SafeToWriteTo(){} // RVA: 0x1A34930
+        public void InputAvailable(){} // RVA: 0x1A34E10
         // ── 17 unresolved (hash) ──
-        public void m_04F(){} // RVA: 0x7FFAF44E4110
-        public void m_690(){} // RVA: 0x7FFAF44E4390
-        public void m_545(){} // RVA: 0x7FFAF44E4430
-        public void m_D8C(){} // RVA: 0x7FFAF44E4530
-        public void m_A50(){} // RVA: 0x7FFAF44E4550
+        public void m_04F(){} // RVA: 0x1A34110
+        public void m_690(){} // RVA: 0x1A34390
+        public void m_545(){} // RVA: 0x1A34430
+        public void m_D8C(){} // RVA: 0x1A34530
+        public void m_A50(){} // RVA: 0x1A34550
         // ... 12 more unresolved methods
     }
 
@@ -995,73 +996,62 @@ namespace VRC.Rendering
     public class CameraRenderingHandler_2A50
     {
         // ── Methods ──
-        public void CopyTransformToCamera(){} // RVA: 0x7FFAF3BADF00
-        public void CopyTransformToCamera_83781DC35CE1(){} // RVA: 0x7FFAF3BADF70
-        public void CopyTransformToCamera_AC576910BD2F(){} // RVA: 0x7FFAF3BAE330
-        public void GetCamera(){} // RVA: 0x7FFAF3BAE530
-        public void GetCamera_2EFCA2522B2A(){} // RVA: 0x7FFAF3BAE610
-        public void Start(){} // RVA: 0x7FFAF3BAEAA0
-        public void CopyTransformToCamera_FEA0FCA4D75E(){} // RVA: 0x7FFAF3BADF00
-        public void OnDestroy(){} // RVA: 0x7FFAF3BAEF30
-        public void SetAutoGenerateMips(){} // RVA: 0x7FFAF3BAF310
-        public void SetFloatImpl(){} // RVA: 0x7FFAF3BAF500
-        public void SetFloatImpl_4A031D229172(){} // RVA: 0x7FFAF3BAF5A0
-        public void SetTargetTexture(){} // RVA: 0x7FFAF3BAF700
-        public void .cctor(){} // RVA: 0x7FFAF3BAFCE0
-        public void ReleaseTexture(){} // RVA: 0x7FFAF3BAFDD0
-        public void GetRenderTextureDescriptor(){} // RVA: 0x7FFAF3BAFF00
-        public void GetGraphicsDeviceType(){} // RVA: 0x7FFAF3BAFFA0
-        public void GetRenderTexture(){} // RVA: 0x7FFAF3BB0020
-        public void SetCameraTransform(){} // RVA: 0x7FFAF3BB05F0
-        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        public void Initialize(){} // RVA: 0x7FFAF3BB0740
-        public void SetBackgroundColor(){} // RVA: 0x7FFAF3BB0B40
-        public void SetLocalPosition(){} // RVA: 0x7FFAF3BB10F0
-        public void SetLocalRotation(){} // RVA: 0x7FFAF3BB16D0
-        public void SetLocalRotation_7C5A4EF4DA92(){} // RVA: 0x7FFAF3BB1840
-        // ── Unresolved (hash) ──
-        public void m_9B9(){} // RVA: 0x7FFAF3BADF00
+        public void Start(){} // RVA: 0x10FEAA0
+        public void OnDestroy(){} // RVA: 0x10FEF30
+        public void SetAutoGenerateMips(){} // RVA: 0x10FF310
+        public void SetFloatImpl(){} // RVA: 0x10FF500
+        public void SetFloatImpl_4A031D229172(){} // RVA: 0x10FF5A0
+        public void SetTargetTexture(){} // RVA: 0x10FF700
+        public void .cctor(){} // RVA: 0x10FFCE0
+        public void ReleaseTexture(){} // RVA: 0x10FFDD0
+        public void GetGraphicsDeviceType(){} // RVA: 0x10FFFA0
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void Initialize(){} // RVA: 0x1100740
+        public void SetBackgroundColor(){} // RVA: 0x1100B40
+        public void SetLocalRotation(){} // RVA: 0x11016D0
+        public void SetLocalRotation_7C5A4EF4DA92(){} // RVA: 0x1101840
+        // ── 11 unresolved (hash) ──
+        public void m_7C3(){} // RVA: 0x10FDF00
+        public void m_837(){} // RVA: 0x10FDF70
+        public void m_AC5(){} // RVA: 0x10FE330
+        public void m_EC7(){} // RVA: 0x10FE530
+        public void m_2EF(){} // RVA: 0x10FE610
+        // ... 6 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÏÍÏÏÍÍÌÎÎÌÎÏÎÌÎÌÎÌÍÍÎ</summary>
     public class CamerarenderModelNameSiblRelated_152A
     {
         // ── Methods ──
-        public void Constructor(){} // RVA: 0x7FFAFBC61E70
-        public void Start(){} // RVA: 0x7FFAFBC62430
-        public void Update(){} // RVA: 0x7FFAFBC623D0
-        public void Camera(){} // RVA: 0x7FFAFBC62E40
-        public void RenderModelName(){} // RVA: 0x7FFAFBC62F00
-        public void .ctor(){} // RVA: 0x7FFAFBC62F70
-        // ── Unresolved (hash) ──
-        public void m_18B(){} // RVA: 0x7FFAFBC62270
-        public void m_3B0(){} // RVA: 0x7FFAFBC62330
-        public void m_41F(){} // RVA: 0x7FFAFBC623D0
-        public void m_41E(){} // RVA: 0x7FFAFBC62790
-        public void m_AF5(){} // RVA: 0x7FFAFBC62940
-        public void m_6AE(){} // RVA: 0x7FFAFBC62A80
-        public void m_64A(){} // RVA: 0x7FFAFBC623D0
-        public void m_3F5(){} // RVA: 0x7FFAFBC62C30
-        public void m_E6A(){} // RVA: 0x7FFAFBC62CF0
-        public void m_AC7(){} // RVA: 0x7FFAFBC62D80
+        public void Constructor(){} // RVA: 0x91B1E70
+        public void Start(){} // RVA: 0x91B2430
+        public void Update(){} // RVA: 0x91B23D0
+        public void .ctor(){} // RVA: 0x91B2F70
+        // ── 12 unresolved (hash) ──
+        public void m_18B(){} // RVA: 0x91B2270
+        public void m_3B0(){} // RVA: 0x91B2330
+        public void m_41F(){} // RVA: 0x91B23D0
+        public void m_41E(){} // RVA: 0x91B2790
+        public void m_AF5(){} // RVA: 0x91B2940
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÌÎÎÌÏÌÏÌÍÎÎÍÌÌÍÌÍÎÍÎÎÌÎ</summary>
     public class CamerarenderModelNameSibling_858A
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
-        public void Start(){} // RVA: 0x7FFAFB5E63A0
-        public void OnRenderObject(){} // RVA: 0x7FFAFB5E6510
+        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x8B363A0
         // ── Unresolved (hash) ──
-        public void m_3B3(){} // RVA: 0x7FFAFB5E5B90
-        public void m_C9E(){} // RVA: 0x7FFAFB5E5C80
-        public void m_2FF(){} // RVA: 0x7FFAFB5E5DF0
-        public void m_9AD(){} // RVA: 0x7FFAFB5E5EA0
-        public void m_6B3(){} // RVA: 0x7FFAFB5E5F50
-        public void m_A74(){} // RVA: 0x7FFAFB5E60C0
-        public void m_760(){} // RVA: 0x7FFAFB5E6230
-        public void m_970(){} // RVA: 0x7FFAFB5E62B0
+        public void m_3B3(){} // RVA: 0x8B35B90
+        public void m_C9E(){} // RVA: 0x8B35C80
+        public void m_2FF(){} // RVA: 0x8B35DF0
+        public void m_9AD(){} // RVA: 0x8B35EA0
+        public void m_6B3(){} // RVA: 0x8B35F50
+        public void m_A74(){} // RVA: 0x8B360C0
+        public void m_760(){} // RVA: 0x8B36230
+        public void m_970(){} // RVA: 0x8B362B0
+        public void m_1C9(){} // RVA: 0x8B36510
     }
 
 }

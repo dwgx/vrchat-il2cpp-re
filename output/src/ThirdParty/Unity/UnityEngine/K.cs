@@ -10,21 +10,21 @@ namespace ThirdParty.Unity.UnityEngine
         public object value;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9B69270 | overloaded x2
-        public void get_time(){} // RVA: 0x7FFAF2DB0D20
-        public void set_time(){} // RVA: 0x7FFAF4A28330
-        public void get_value(){} // RVA: 0x7FFAF2DB0D30
-        public void set_value(){} // RVA: 0x7FFAF4A28350
-        public void get_inTangent(){} // RVA: 0x7FFAF2DB0CF0
-        public void set_inTangent(){} // RVA: 0x7FFAF4A28340
-        public void get_outTangent(){} // RVA: 0x7FFAF2DB0D00
-        public void set_outTangent(){} // RVA: 0x7FFAF4A28380
-        public void get_weightedMode(){} // RVA: 0x7FFAF9B692A0
-        public void set_weightedMode(){} // RVA: 0x7FFAF2D900C0
-        public void get_tangentMode(){} // RVA: 0x7FFAF68BF620
-        public void set_tangentMode(){} // RVA: 0x7FFAF2D8D310
-        public void get_tangentModeInternal(){} // RVA: 0x7FFAF68BF620
-        public void set_tangentModeInternal(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x70B9270 | overloaded x2
+        public void get_time(){} // RVA: 0x300D20
+        public void set_time(){} // RVA: 0x1F78330
+        public void get_value(){} // RVA: 0x300D30
+        public void set_value(){} // RVA: 0x1F78350
+        public void get_inTangent(){} // RVA: 0x300CF0
+        public void set_inTangent(){} // RVA: 0x1F78340
+        public void get_outTangent(){} // RVA: 0x300D00
+        public void set_outTangent(){} // RVA: 0x1F78380
+        public void get_weightedMode(){} // RVA: 0x70B92A0
+        public void set_weightedMode(){} // RVA: 0x2E00C0
+        public void get_tangentMode(){} // RVA: 0x3E0F620
+        public void set_tangentMode(){} // RVA: 0x2DD310
+        public void get_tangentModeInternal(){} // RVA: 0x3E0F620
+        public void set_tangentModeInternal(){} // RVA: 0x2DD310
     }
 
 }

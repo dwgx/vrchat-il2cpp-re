@@ -8,47 +8,47 @@ namespace VRC.Core
     public class VRCCertificatePolicy
     {
         // ── Methods ──
-        public void CheckValidationResult_564ED10A9526(){} // RVA: 0x7FFAF382CF40
-        public void .ctor_C0C3457DE94F(){} // RVA: 0x7FFAF382CFE0
-        public void InitVRCCertificatePolicy(){} // RVA: 0x7FFAF382D0A0
-        public void op_Implicit(){} // RVA: 0x7FFAF382D5F0
-        public void CompareBaseObjects(){} // RVA: 0x7FFAF382D630
-        public void IsNativeObjectAlive(){} // RVA: 0x7FFAF382D960
-        public void GetCachedPtr(){} // RVA: 0x7FFAF382DA00
-        public void get_name(){} // RVA: 0x7FFAF382DAA0
-        public void set_name(){} // RVA: 0x7FFAF382DDE0
-        public void Instantiate(){} // RVA: 0x7FFAF382E130
-        public void InitVRCCertificatePolicy_DF1DE68A6BB2(){} // RVA: 0x7FFAF382E460
-        public void CheckValidationResult(){} // RVA: 0x7FFAF382E790
-        public void GetHashCode(){} // RVA: 0x7FFAF382EAE0
-        public void ToString(){} // RVA: 0x7FFAF382EB20
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF382F4E0
+        public void CheckValidationResult_564ED10A9526(){} // RVA: 0xD7CF40
+        public void .ctor_C0C3457DE94F(){} // RVA: 0xD7CFE0
+        public void InitVRCCertificatePolicy(){} // RVA: 0xD7D0A0
+        public void op_Implicit(){} // RVA: 0xD7D5F0
+        public void CompareBaseObjects(){} // RVA: 0xD7D630
+        public void IsNativeObjectAlive(){} // RVA: 0xD7D960
+        public void GetCachedPtr(){} // RVA: 0xD7DA00
+        public void get_name(){} // RVA: 0xD7DAA0
+        public void set_name(){} // RVA: 0xD7DDE0
+        public void Instantiate(){} // RVA: 0xD7E130
+        public void InitVRCCertificatePolicy_DF1DE68A6BB2(){} // RVA: 0xD7E460
+        public void CheckValidationResult(){} // RVA: 0xD7E790
+        public void GetHashCode(){} // RVA: 0xD7EAE0
+        public void ToString(){} // RVA: 0xD7EB20
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0xD7F4E0
         // ── Unresolved (hash) ──
-        public void m_914(){} // RVA: 0x7FFAF382EF50
-        public void m_BE9(){} // RVA: 0x7FFAF382F830
+        public void m_914(){} // RVA: 0xD7EF50
+        public void m_BE9(){} // RVA: 0xD7F830
     }
 
     public class VRCEvent
     {
         // ── Methods ──
-        public void get_name(){} // RVA: 0x7FFAF2E08D50
-        public void set_name(){} // RVA: 0x7FFAF2E08D60
-        public void get_description(){} // RVA: 0x7FFAF2E55590
-        public void set_description(){} // RVA: 0x7FFAF2E555A0
-        public void get_imageUrl(){} // RVA: 0x7FFAF2F77C50
-        public void set_imageUrl(){} // RVA: 0x7FFAF2F734F0
-        public void get_authorName(){} // RVA: 0x7FFAF2F12D00
-        public void set_authorName(){} // RVA: 0x7FFAF2F14450
-        public void get_authorId(){} // RVA: 0x7FFAF2DCC010
-        public void set_authorId(){} // RVA: 0x7FFAF2F13060
-        public void get_startTime(){} // RVA: 0x7FFAF3246DE0
-        public void set_startTime(){} // RVA: 0x7FFAF3604600
-        public void get_venueId(){} // RVA: 0x7FFAF34CC8C0
-        public void set_venueId(){} // RVA: 0x7FFAF345A650
-        public void .ctor(){} // RVA: 0x7FFAFC3C9570
-        public void MakeEvents(){} // RVA: 0x7FFAFC3C9610
-        public void ToString(){} // RVA: 0x7FFAFC3C9970
+        public void get_name(){} // RVA: 0x358D50
+        public void set_name(){} // RVA: 0x358D60
+        public void get_description(){} // RVA: 0x3A5590
+        public void set_description(){} // RVA: 0x3A55A0
+        public void get_imageUrl(){} // RVA: 0x4C7C50
+        public void set_imageUrl(){} // RVA: 0x4C34F0
+        public void get_authorName(){} // RVA: 0x462D00
+        public void set_authorName(){} // RVA: 0x464450
+        public void get_authorId(){} // RVA: 0x31C010
+        public void set_authorId(){} // RVA: 0x463060
+        public void get_startTime(){} // RVA: 0x796DE0
+        public void set_startTime(){} // RVA: 0xB54600
+        public void get_venueId(){} // RVA: 0xA1C8C0
+        public void set_venueId(){} // RVA: 0x9AA650
+        public void .ctor(){} // RVA: 0x9919570
+        public void MakeEvents(){} // RVA: 0x9919610
+        public void ToString(){} // RVA: 0x9919970
     }
 
     public class VRCLogger
@@ -56,66 +56,66 @@ namespace VRC.Core
         public object _isPathOverridden;
 
         // ── Methods ──
-        public void get_IsPathOverridden(){} // RVA: 0x7FFAFA1897D0
-        public void get_LogFileNamePrefix(){} // RVA: 0x7FFAFA189840
-        public void get_LogFilePath(){} // RVA: 0x7FFAFA1898A0
-        public void get_GlobalLogger(){} // RVA: 0x7FFAFA189A20
-        public void add_OnMessageLogged(){} // RVA: 0x7FFAFA189B30
-        public void remove_OnMessageLogged(){} // RVA: 0x7FFAFA189C80
-        public void IsLogPathValid(){} // RVA: 0x7FFAFA189DD0
-        public void OverrideLogFilePath(){} // RVA: 0x7FFAFA189F60
-        public void InitializeZLogger(){} // RVA: 0x7FFAFA18A2D0
-        public void TeardownZLogger(){} // RVA: 0x7FFAFA18A7B0
-        public void FilterLogEntry(){} // RVA: 0x7FFAFA18AAB0
-        public void UnityLogFormatPrefix(){} // RVA: 0x7FFAFA18AC00
-        public void LogFileFormatPrefix(){} // RVA: 0x7FFAFA18ACB0
-        public void HandleInterceptedMessage(){} // RVA: 0x7FFAFA18AD80
-        public void HandleZLoggerInternalException_Unity(){} // RVA: 0x7FFAFA18AF00
-        public void HandleZLoggerInternalException_File(){} // RVA: 0x7FFAFA18B080
-        public void SetLoggingMode(){} // RVA: 0x7FFAFA18B200
-        public void GetCurrentLogLevel(){} // RVA: 0x7FFAFA18B260
-        public void GetLogger(){} // RVA: 0x7FFAFA18B2E0
-        public void RemoveStaleLogs(){} // RVA: 0x7FFAFA18B5C0
-        public void GenerateOutputLogFilename(){} // RVA: 0x7FFAFA18B840
-        public void GetLogDirectory(){} // RVA: 0x7FFAFA18BAC0
-        public void Log(){} // RVA: 0x7FFAFA18C160 | overloaded x2
-        public void LogWarning(){} // RVA: 0x7FFAFA18C570 | overloaded x2
-        public void LogError(){} // RVA: 0x7FFAFA18C980 | overloaded x2
-        public void LogException(){} // RVA: 0x7FFAFA18CEE0 | overloaded x2
-        public void OnMain(){} // RVA: 0x7FFAFA18D330 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFAFA18D560
+        public void get_IsPathOverridden(){} // RVA: 0x76D97D0
+        public void get_LogFileNamePrefix(){} // RVA: 0x76D9840
+        public void get_LogFilePath(){} // RVA: 0x76D98A0
+        public void get_GlobalLogger(){} // RVA: 0x76D9A20
+        public void add_OnMessageLogged(){} // RVA: 0x76D9B30
+        public void remove_OnMessageLogged(){} // RVA: 0x76D9C80
+        public void IsLogPathValid(){} // RVA: 0x76D9DD0
+        public void OverrideLogFilePath(){} // RVA: 0x76D9F60
+        public void InitializeZLogger(){} // RVA: 0x76DA2D0
+        public void TeardownZLogger(){} // RVA: 0x76DA7B0
+        public void FilterLogEntry(){} // RVA: 0x76DAAB0
+        public void UnityLogFormatPrefix(){} // RVA: 0x76DAC00
+        public void LogFileFormatPrefix(){} // RVA: 0x76DACB0
+        public void HandleInterceptedMessage(){} // RVA: 0x76DAD80
+        public void HandleZLoggerInternalException_Unity(){} // RVA: 0x76DAF00
+        public void HandleZLoggerInternalException_File(){} // RVA: 0x76DB080
+        public void SetLoggingMode(){} // RVA: 0x76DB200
+        public void GetCurrentLogLevel(){} // RVA: 0x76DB260
+        public void GetLogger(){} // RVA: 0x76DB2E0
+        public void RemoveStaleLogs(){} // RVA: 0x76DB5C0
+        public void GenerateOutputLogFilename(){} // RVA: 0x76DB840
+        public void GetLogDirectory(){} // RVA: 0x76DBAC0
+        public void Log(){} // RVA: 0x76DC160 | overloaded x2
+        public void LogWarning(){} // RVA: 0x76DC570 | overloaded x2
+        public void LogError(){} // RVA: 0x76DC980 | overloaded x2
+        public void LogException(){} // RVA: 0x76DCEE0 | overloaded x2
+        public void OnMain(){} // RVA: 0x76DD330 | overloaded x2
+        public void .cctor(){} // RVA: 0x76DD560
     }
 
     public class VRChatTestProtocol
     {
         // ── Methods ──
-        public void ReadLimitedString(){} // RVA: 0x7FFAFC3E2580
-        public void WriteLimitedString(){} // RVA: 0x7FFAFC3E26B0
-        public void ReadToFileStream(){} // RVA: 0x7FFAFC3E2810
-        public void ReadHello(){} // RVA: 0x7FFAFC3E2DA0
-        public void WriteHello(){} // RVA: 0x7FFAFC3E2F00
-        public void WriteSendWorld(){} // RVA: 0x7FFAFC3E2FE0
-        public void WriteSendAvatar(){} // RVA: 0x7FFAFC3E3070
-        public void WriteSendProp(){} // RVA: 0x7FFAFC3E3160
-        public void ReadWorldFileToStream(){} // RVA: 0x7FFAFC3E3250
-        public void ReadAvatarFileToStream(){} // RVA: 0x7FFAFC3E3680
-        public void ReadPropFileToStream(){} // RVA: 0x7FFAFC3E3C10
-        public void WriteHeartbeat(){} // RVA: 0x7FFAFC3E41A0
-        public void WriteError(){} // RVA: 0x7FFAFC3E41D0
-        public void ReadError(){} // RVA: 0x7FFAFC3E4260
-        public void .cctor(){} // RVA: 0x7FFAFC3E42C0
+        public void ReadLimitedString(){} // RVA: 0x9932580
+        public void WriteLimitedString(){} // RVA: 0x99326B0
+        public void ReadToFileStream(){} // RVA: 0x9932810
+        public void ReadHello(){} // RVA: 0x9932DA0
+        public void WriteHello(){} // RVA: 0x9932F00
+        public void WriteSendWorld(){} // RVA: 0x9932FE0
+        public void WriteSendAvatar(){} // RVA: 0x9933070
+        public void WriteSendProp(){} // RVA: 0x9933160
+        public void ReadWorldFileToStream(){} // RVA: 0x9933250
+        public void ReadAvatarFileToStream(){} // RVA: 0x9933680
+        public void ReadPropFileToStream(){} // RVA: 0x9933C10
+        public void WriteHeartbeat(){} // RVA: 0x99341A0
+        public void WriteError(){} // RVA: 0x99341D0
+        public void ReadError(){} // RVA: 0x9934260
+        public void .cctor(){} // RVA: 0x99342C0
     }
 
     public class VTPFileSizeException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFC3E4440
+        public void .ctor(){} // RVA: 0x9934440
     }
 
     public class VTPStringLimitException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFC3E43E0
+        public void .ctor(){} // RVA: 0x99343E0
     }
 
 }

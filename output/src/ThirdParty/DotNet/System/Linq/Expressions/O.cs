@@ -8,8 +8,8 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
     public class OpAssignMethodConversionBinaryExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9061070
-        public void GetConversion(){} // RVA: 0x7FFAF2F476A0
+        public void .ctor(){} // RVA: 0x65B1070
+        public void GetConversion(){} // RVA: 0x4976A0
     }
 
 }

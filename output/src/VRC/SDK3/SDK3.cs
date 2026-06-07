@@ -8,7 +8,7 @@ namespace VRC.SDK3
     public class ControllerColliderPlayerHit
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class IVRCNetworkId : `
@@ -18,7 +18,7 @@ namespace VRC.SDK3
     public class VRCTestMarker
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8DD50
+        public void .ctor(){} // RVA: 0x2DDD50
     }
 
 }

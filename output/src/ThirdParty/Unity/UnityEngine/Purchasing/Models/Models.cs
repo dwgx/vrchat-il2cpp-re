@@ -8,102 +8,102 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Models
     public class AndroidJavaObjectExtensions
     {
         // ── Methods ──
-        public void Enumerate(){} // RVA: 0x7FFAF9D01510 | overloaded x2
+        public void Enumerate(){} // RVA: 0x7251510 | overloaded x2
     }
 
     public class GoogleBillingClient
     {
         // ── Methods ──
-        public void GetProductParamsClass(){} // RVA: 0x7FFAF9D01550
-        public void GetQueryProductDetailsParamsParamsClass(){} // RVA: 0x7FFAF9D01660
-        public void GetBillingFlowParamClass(){} // RVA: 0x7FFAF9D01770
-        public void GetProductDetailsParamsClass(){} // RVA: 0x7FFAF9D01880
-        public void GetSubscriptionUpdateParamClass(){} // RVA: 0x7FFAF9D01990
-        public void GetConsumeParamsClass(){} // RVA: 0x7FFAF9D01AA0
-        public void GetAcknowledgePurchaseParamsClass(){} // RVA: 0x7FFAF9D01BB0
-        public void GetBillingClientClass(){} // RVA: 0x7FFAF9D01CC0
-        public void .ctor(){} // RVA: 0x7FFAF9D01DD0
-        public void StartConnection(){} // RVA: 0x7FFAF9D022C0
-        public void GetConnectionState(){} // RVA: 0x7FFAF9D02390
-        public void QueryPurchasesAsync(){} // RVA: 0x7FFAF9D02410
-        public void QueryProductDetailsAsync(){} // RVA: 0x7FFAF9D025E0
-        public void QueryProductDetailsParams(){} // RVA: 0x7FFAF9D02900
-        public void QueryProductDetailsParamsProductList(){} // RVA: 0x7FFAF9D02CC0
-        public void QueryProductDetailsParamsProduct(){} // RVA: 0x7FFAF9D02EA0
-        public void LaunchBillingFlow(){} // RVA: 0x7FFAF9D03290
-        public void MakeBillingFlowParams(){} // RVA: 0x7FFAF9D03AE0
-        public void BuildSubscriptionUpdateParams(){} // RVA: 0x7FFAF9D03FD0
-        public void SetObfuscatedProfileIdIfNeeded(){} // RVA: 0x7FFAF9D04310
-        public void SetObfuscatedAccountIdIfNeeded(){} // RVA: 0x7FFAF9D04400
-        public void ConsumeAsync(){} // RVA: 0x7FFAF9D044F0
-        public void AcknowledgePurchase(){} // RVA: 0x7FFAF9D04A40
+        public void GetProductParamsClass(){} // RVA: 0x7251550
+        public void GetQueryProductDetailsParamsParamsClass(){} // RVA: 0x7251660
+        public void GetBillingFlowParamClass(){} // RVA: 0x7251770
+        public void GetProductDetailsParamsClass(){} // RVA: 0x7251880
+        public void GetSubscriptionUpdateParamClass(){} // RVA: 0x7251990
+        public void GetConsumeParamsClass(){} // RVA: 0x7251AA0
+        public void GetAcknowledgePurchaseParamsClass(){} // RVA: 0x7251BB0
+        public void GetBillingClientClass(){} // RVA: 0x7251CC0
+        public void .ctor(){} // RVA: 0x7251DD0
+        public void StartConnection(){} // RVA: 0x72522C0
+        public void GetConnectionState(){} // RVA: 0x7252390
+        public void QueryPurchasesAsync(){} // RVA: 0x7252410
+        public void QueryProductDetailsAsync(){} // RVA: 0x72525E0
+        public void QueryProductDetailsParams(){} // RVA: 0x7252900
+        public void QueryProductDetailsParamsProductList(){} // RVA: 0x7252CC0
+        public void QueryProductDetailsParamsProduct(){} // RVA: 0x7252EA0
+        public void LaunchBillingFlow(){} // RVA: 0x7253290
+        public void MakeBillingFlowParams(){} // RVA: 0x7253AE0
+        public void BuildSubscriptionUpdateParams(){} // RVA: 0x7253FD0
+        public void SetObfuscatedProfileIdIfNeeded(){} // RVA: 0x7254310
+        public void SetObfuscatedAccountIdIfNeeded(){} // RVA: 0x7254400
+        public void ConsumeAsync(){} // RVA: 0x72544F0
+        public void AcknowledgePurchase(){} // RVA: 0x7254A40
     }
 
     public class GoogleBillingResult
     {
         // ── Methods ──
-        public void get_responseCode(){} // RVA: 0x7FFAF2DDA5C0
-        public void get_debugMessage(){} // RVA: 0x7FFAF2D907C0
-        public void .ctor(){} // RVA: 0x7FFAF9D04FA0
+        public void get_responseCode(){} // RVA: 0x32A5C0
+        public void get_debugMessage(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7254FA0
     }
 
     public class GoogleBillingStrings
     {
         // ── Methods ──
-        public void getWarningMessageMoreThanOneSkuFound(){} // RVA: 0x7FFAF9D050C0
+        public void getWarningMessageMoreThanOneSkuFound(){} // RVA: 0x72550C0
     }
 
     public class GoogleProductTypeEnum
     {
         // ── Methods ──
-        public void InApp(){} // RVA: 0x7FFAF9D05120
-        public void Sub(){} // RVA: 0x7FFAF9D05160
+        public void InApp(){} // RVA: 0x7255120
+        public void Sub(){} // RVA: 0x7255160
     }
 
     public class GooglePurchase
     {
         // ── Methods ──
-        public void get_isAcknowledged(){} // RVA: 0x7FFAF2E575E0
-        public void get_purchaseState(){} // RVA: 0x7FFAF335BED0
-        public void get_skus(){} // RVA: 0x7FFAF2D907C0
-        public void get_receipt(){} // RVA: 0x7FFAF2DBB130
-        public void get_signature(){} // RVA: 0x7FFAF30E74D0
-        public void get_originalJson(){} // RVA: 0x7FFAF2F476A0
-        public void get_purchaseToken(){} // RVA: 0x7FFAF2E0A740
-        public void get_sku(){} // RVA: 0x7FFAF9D051A0
-        public void .ctor(){} // RVA: 0x7FFAF9D051E0
-        public void IsAcknowledged(){} // RVA: 0x7FFAF2E575E0
-        public void IsPurchased(){} // RVA: 0x7FFAF9D05B40
-        public void IsPending(){} // RVA: 0x7FFAF9D05B60
+        public void get_isAcknowledged(){} // RVA: 0x3A75E0
+        public void get_purchaseState(){} // RVA: 0x8ABED0
+        public void get_skus(){} // RVA: 0x2E07C0
+        public void get_receipt(){} // RVA: 0x30B130
+        public void get_signature(){} // RVA: 0x6374D0
+        public void get_originalJson(){} // RVA: 0x4976A0
+        public void get_purchaseToken(){} // RVA: 0x35A740
+        public void get_sku(){} // RVA: 0x72551A0
+        public void .ctor(){} // RVA: 0x72551E0
+        public void IsAcknowledged(){} // RVA: 0x3A75E0
+        public void IsPurchased(){} // RVA: 0x7255B40
+        public void IsPending(){} // RVA: 0x7255B60
     }
 
     public class GooglePurchaseStateEnum
     {
         // ── Methods ──
-        public void GetPurchaseStateJavaObject(){} // RVA: 0x7FFAF9D05CB0
-        public void Purchased(){} // RVA: 0x7FFAF9D05D20
-        public void Pending(){} // RVA: 0x7FFAF9D05EA0
+        public void GetPurchaseStateJavaObject(){} // RVA: 0x7255CB0
+        public void Purchased(){} // RVA: 0x7255D20
+        public void Pending(){} // RVA: 0x7255EA0
     }
 
     public class GooglePurchaseStateEnumProvider
     {
         // ── Methods ──
-        public void Purchased(){} // RVA: 0x7FFAF9D06020
-        public void Pending(){} // RVA: 0x7FFAF9D06030
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Purchased(){} // RVA: 0x7256020
+        public void Pending(){} // RVA: 0x7256030
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class IGoogleBillingResult
     {
         // ── Methods ──
-        public void get_responseCode(){} // RVA: 0x7FFAF2ABD840
-        public void get_debugMessage(){} // RVA: 0x7FFAF2ABCD60
+        public void get_responseCode(){} // RVA: 0xD840
+        public void get_debugMessage(){} // RVA: 0xCD60
     }
 
     public class ProductDescriptionQuery
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2E6CE00
+        public void .ctor(){} // RVA: 0x3BCE00
     }
 
 }

@@ -334,7 +334,7 @@ public class Entry
 public class Entry
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class Entry
@@ -384,7 +384,7 @@ public class Entry
 public class Entry
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF8A028E0
+    public void .ctor(){} // RVA: 0x5F528E0
 }
 
 public class Entry

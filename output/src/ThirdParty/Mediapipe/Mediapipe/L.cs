@@ -8,123 +8,123 @@ namespace ThirdParty.Mediapipe.Mediapipe
     public class Landmark
     {
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFAF85C02C0
-        public void get_Descriptor(){} // RVA: 0x7FFAF85C0320
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF85C03E0
-        public void .ctor(){} // RVA: 0x7FFAF85C04D0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFAF85C05D0
-        public void get_X(){} // RVA: 0x7FFAF85C0700
-        public void set_X(){} // RVA: 0x7FFAF85C0770
-        public void get_HasX(){} // RVA: 0x7FFAF850C3B0
-        public void ClearX(){} // RVA: 0x7FFAF850C3C0
-        public void get_Y(){} // RVA: 0x7FFAF85C0780
-        public void set_Y(){} // RVA: 0x7FFAF85B6B70
-        public void get_HasY(){} // RVA: 0x7FFAF850C450
-        public void ClearY(){} // RVA: 0x7FFAF850C460
-        public void get_Z(){} // RVA: 0x7FFAF85C07F0
-        public void set_Z(){} // RVA: 0x7FFAF85C0860
-        public void get_HasZ(){} // RVA: 0x7FFAF850F650
-        public void ClearZ(){} // RVA: 0x7FFAF850F660
-        public void get_Visibility(){} // RVA: 0x7FFAF85C0870
-        public void set_Visibility(){} // RVA: 0x7FFAF85C08E0
-        public void get_HasVisibility(){} // RVA: 0x7FFAF850FC10
-        public void ClearVisibility(){} // RVA: 0x7FFAF850FC20
-        public void get_Presence(){} // RVA: 0x7FFAF85C08F0
-        public void set_Presence(){} // RVA: 0x7FFAF85C0960
-        public void get_HasPresence(){} // RVA: 0x7FFAF850FE80
-        public void ClearPresence(){} // RVA: 0x7FFAF850FE90
-        public void Equals(){} // RVA: 0x7FFAF85C09D0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAF85C0C50
-        public void ToString(){} // RVA: 0x7FFAF85C0E60
-        public void WriteTo(){} // RVA: 0x7FFAF84E9740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF85C0EB0
-        public void CalculateSize(){} // RVA: 0x7FFAF85C0FC0
-        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF85C1190
-        public void .cctor(){} // RVA: 0x7FFAF85C12B0
+        public void get_Parser(){} // RVA: 0x5B102C0
+        public void get_Descriptor(){} // RVA: 0x5B10320
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5B103E0
+        public void .ctor(){} // RVA: 0x5B104D0 | overloaded x2
+        public void Clone(){} // RVA: 0x5B105D0
+        public void get_X(){} // RVA: 0x5B10700
+        public void set_X(){} // RVA: 0x5B10770
+        public void get_HasX(){} // RVA: 0x5A5C3B0
+        public void ClearX(){} // RVA: 0x5A5C3C0
+        public void get_Y(){} // RVA: 0x5B10780
+        public void set_Y(){} // RVA: 0x5B06B70
+        public void get_HasY(){} // RVA: 0x5A5C450
+        public void ClearY(){} // RVA: 0x5A5C460
+        public void get_Z(){} // RVA: 0x5B107F0
+        public void set_Z(){} // RVA: 0x5B10860
+        public void get_HasZ(){} // RVA: 0x5A5F650
+        public void ClearZ(){} // RVA: 0x5A5F660
+        public void get_Visibility(){} // RVA: 0x5B10870
+        public void set_Visibility(){} // RVA: 0x5B108E0
+        public void get_HasVisibility(){} // RVA: 0x5A5FC10
+        public void ClearVisibility(){} // RVA: 0x5A5FC20
+        public void get_Presence(){} // RVA: 0x5B108F0
+        public void set_Presence(){} // RVA: 0x5B10960
+        public void get_HasPresence(){} // RVA: 0x5A5FE80
+        public void ClearPresence(){} // RVA: 0x5A5FE90
+        public void Equals(){} // RVA: 0x5B109D0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x5B10C50
+        public void ToString(){} // RVA: 0x5B10E60
+        public void WriteTo(){} // RVA: 0x5A39740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5B10EB0
+        public void CalculateSize(){} // RVA: 0x5B10FC0
+        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5B11190
+        public void .cctor(){} // RVA: 0x5B112B0
     }
 
     public class LandmarkList
     {
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFAF85C1560
-        public void get_Descriptor(){} // RVA: 0x7FFAF85C15C0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF85C1680
-        public void .ctor(){} // RVA: 0x7FFAF85C1830 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFAF85C19D0
-        public void get_Landmark(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF85C1CA0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAF84EDF40
-        public void ToString(){} // RVA: 0x7FFAF85C1D50
-        public void WriteTo(){} // RVA: 0x7FFAF84E9740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF85C1DA0
-        public void CalculateSize(){} // RVA: 0x7FFAF85C1E60
-        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF85C2050
-        public void .cctor(){} // RVA: 0x7FFAF85C2150
+        public void get_Parser(){} // RVA: 0x5B11560
+        public void get_Descriptor(){} // RVA: 0x5B115C0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5B11680
+        public void .ctor(){} // RVA: 0x5B11830 | overloaded x2
+        public void Clone(){} // RVA: 0x5B119D0
+        public void get_Landmark(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x5B11CA0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x5A3DF40
+        public void ToString(){} // RVA: 0x5B11D50
+        public void WriteTo(){} // RVA: 0x5A39740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5B11DA0
+        public void CalculateSize(){} // RVA: 0x5B11E60
+        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5B12050
+        public void .cctor(){} // RVA: 0x5B12150
     }
 
     public class LandmarkListCollection
     {
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFAF85C24D0
-        public void get_Descriptor(){} // RVA: 0x7FFAF85C2530
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF85C25F0
-        public void .ctor(){} // RVA: 0x7FFAF85C27A0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFAF85C2940
-        public void get_LandmarkList(){} // RVA: 0x7FFAF2D907C0
-        public void Equals(){} // RVA: 0x7FFAF85C2C10 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAF84EDF40
-        public void ToString(){} // RVA: 0x7FFAF85C2CC0
-        public void WriteTo(){} // RVA: 0x7FFAF84E9740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF85C2D10
-        public void CalculateSize(){} // RVA: 0x7FFAF85C2DD0
-        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF85C2FC0
-        public void .cctor(){} // RVA: 0x7FFAF85C30C0
+        public void get_Parser(){} // RVA: 0x5B124D0
+        public void get_Descriptor(){} // RVA: 0x5B12530
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5B125F0
+        public void .ctor(){} // RVA: 0x5B127A0 | overloaded x2
+        public void Clone(){} // RVA: 0x5B12940
+        public void get_LandmarkList(){} // RVA: 0x2E07C0
+        public void Equals(){} // RVA: 0x5B12C10 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x5A3DF40
+        public void ToString(){} // RVA: 0x5B12CC0
+        public void WriteTo(){} // RVA: 0x5A39740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5B12D10
+        public void CalculateSize(){} // RVA: 0x5B12DD0
+        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5B12FC0
+        public void .cctor(){} // RVA: 0x5B130C0
     }
 
     public class LandmarkReflection
     {
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFAF85BF490
-        public void .cctor(){} // RVA: 0x7FFAF85BF4F0
+        public void get_Descriptor(){} // RVA: 0x5B0F490
+        public void .cctor(){} // RVA: 0x5B0F4F0
     }
 
     public class ListExtension
     {
         // ── Methods ──
-        public void ResizeTo(){} // RVA: 0x7FFAF2ADA490
+        public void ResizeTo(){} // RVA: 0x2A490
     }
 
     public class LocationData
     {
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFAF85C73B0
-        public void get_Descriptor(){} // RVA: 0x7FFAF85C7410
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF85C74D0
-        public void .ctor(){} // RVA: 0x7FFAF85C75E0 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFAF85C7C10
-        public void get_Format(){} // RVA: 0x7FFAF85C7C70
-        public void set_Format(){} // RVA: 0x7FFAF850C3A0
-        public void get_HasFormat(){} // RVA: 0x7FFAF850C3B0
-        public void ClearFormat(){} // RVA: 0x7FFAF850C3C0
-        public void get_BoundingBox(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_BoundingBox(){} // RVA: 0x7FFAF2DBB0D0
-        public void get_RelativeBoundingBox(){} // RVA: 0x7FFAF2DBB130
-        public void set_RelativeBoundingBox(){} // RVA: 0x7FFAF2D8EE90
-        public void get_Mask(){} // RVA: 0x7FFAF30E74D0
-        public void set_Mask(){} // RVA: 0x7FFAF2DBB890
-        public void get_RelativeKeypoints(){} // RVA: 0x7FFAF2F476A0
-        public void Equals(){} // RVA: 0x7FFAF85C7D40 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAF85C7EC0
-        public void ToString(){} // RVA: 0x7FFAF85C7FA0
-        public void WriteTo(){} // RVA: 0x7FFAF84E9740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF85C7FF0
-        public void CalculateSize(){} // RVA: 0x7FFAF85C8140
-        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF85C88B0
-        public void .cctor(){} // RVA: 0x7FFAF85C8AB0
+        public void get_Parser(){} // RVA: 0x5B173B0
+        public void get_Descriptor(){} // RVA: 0x5B17410
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5B174D0
+        public void .ctor(){} // RVA: 0x5B175E0 | overloaded x2
+        public void Clone(){} // RVA: 0x5B17C10
+        public void get_Format(){} // RVA: 0x5B17C70
+        public void set_Format(){} // RVA: 0x5A5C3A0
+        public void get_HasFormat(){} // RVA: 0x5A5C3B0
+        public void ClearFormat(){} // RVA: 0x5A5C3C0
+        public void get_BoundingBox(){} // RVA: 0x30B0C0
+        public void set_BoundingBox(){} // RVA: 0x30B0D0
+        public void get_RelativeBoundingBox(){} // RVA: 0x30B130
+        public void set_RelativeBoundingBox(){} // RVA: 0x2DEE90
+        public void get_Mask(){} // RVA: 0x6374D0
+        public void set_Mask(){} // RVA: 0x30B890
+        public void get_RelativeKeypoints(){} // RVA: 0x4976A0
+        public void Equals(){} // RVA: 0x5B17D40 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x5B17EC0
+        public void ToString(){} // RVA: 0x5B17FA0
+        public void WriteTo(){} // RVA: 0x5A39740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5B17FF0
+        public void CalculateSize(){} // RVA: 0x5B18140
+        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5B188B0
+        public void .cctor(){} // RVA: 0x5B18AB0
     }
 
     public class LocationDataReflection
@@ -132,8 +132,8 @@ namespace ThirdParty.Mediapipe.Mediapipe
         public object Descriptor;
 
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFAF85C62F0
-        public void .cctor(){} // RVA: 0x7FFAF85C6350
+        public void get_Descriptor(){} // RVA: 0x5B162F0
+        public void .cctor(){} // RVA: 0x5B16350
     }
 
 }

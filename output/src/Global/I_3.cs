@@ -6,8 +6,8 @@
 public class InvocationEntryDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF49104F0
-    public void Invoke(){} // RVA: 0x7FFAF2DE8C60
+    public void .ctor(){} // RVA: 0x1E604F0
+    public void Invoke(){} // RVA: 0x338C60
 }
 
 public class InvocationExpressionProxy
@@ -20,244 +20,77 @@ public class InvocationExpressionProxy
     public object Type;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF908AF10
-    public void get_Arguments(){} // RVA: 0x7FFAF908ABF0
-    public void get_CanReduce(){} // RVA: 0x7FFAF32A02E0
-    public void get_DebugView(){} // RVA: 0x7FFAF908A6E0
-    public void get_Expression(){} // RVA: 0x7FFAF35DEEA0
-    public void get_NodeType(){} // RVA: 0x7FFAF32A01B0
-    public void get_Type(){} // RVA: 0x7FFAF32A0250
+    public void .ctor(){} // RVA: 0x65DAF10
+    public void get_Arguments(){} // RVA: 0x65DABF0
+    public void get_CanReduce(){} // RVA: 0x7F02E0
+    public void get_DebugView(){} // RVA: 0x65DA6E0
+    public void get_Expression(){} // RVA: 0xB2EEA0
+    public void get_NodeType(){} // RVA: 0x7F01B0
+    public void get_Type(){} // RVA: 0x7F0250
 }
 
 public class IsAutoDispose
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7FFAF9827D10
+    public void .cctor(){} // RVA: 0x6D77D10
 }
 
 public class IsBurstEnabledDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF5E15E90
-    public void Invoke(){} // RVA: 0x7FFAF2DEBA50
+    public void .ctor(){} // RVA: 0x3365E90
+    public void Invoke(){} // RVA: 0x33BA50
 }
 
 public class IsBurstEnabled_00000145$BurstDirectCall
 {
     // ── Methods ──
-    public void GetFunctionPointerDiscard(){} // RVA: 0x7FFAF981E0E0
-    public void GetFunctionPointer(){} // RVA: 0x7FFAF981E220
-    public void Constructor(){} // RVA: 0x7FFAF981E390
-    public void Initialize(){} // RVA: 0x7FFAF2D8D310
-    public void .cctor(){} // RVA: 0x7FFAF981E390
-    public void Invoke(){} // RVA: 0x7FFAF981E450
+    public void GetFunctionPointerDiscard(){} // RVA: 0x6D6E0E0
+    public void GetFunctionPointer(){} // RVA: 0x6D6E220
+    public void Constructor(){} // RVA: 0x6D6E390
+    public void Initialize(){} // RVA: 0x2DD310
+    public void .cctor(){} // RVA: 0x6D6E390
+    public void Invoke(){} // RVA: 0x6D6E450
 }
 
 public class IsBurstEnabled_00000145$PostfixBurstDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF5E15E90
-    public void Invoke(){} // RVA: 0x7FFAF2DEBA50
+    public void .ctor(){} // RVA: 0x3365E90
+    public void Invoke(){} // RVA: 0x33BA50
 }
 
 public class IsCanceledSource
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2AD4B10
-    public void GetResult(){} // RVA: 0x7FFAF2D33FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF2AD4C40
+    public void .ctor(){} // RVA: 0x24B10
+    public void GetResult(){} // RVA: 0x283FA0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
     public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0x7FFAF2ABD840
+    public void UnsafeGetStatus(){} // RVA: 0xD840
     public void OnCompleted(){}
 }
 
 public class IsCanceledSource
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-    public void GetResult(){} // RVA: 0x7FFAF60C53F0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF60AC940
-    public void GetStatus(){} // RVA: 0x7FFAF60AC510
-    public void UnsafeGetStatus(){} // RVA: 0x7FFAF60C5510
-    public void OnCompleted(){} // RVA: 0x7FFAF60AC5C0
+    public void .ctor(){} // RVA: 0x2DEE30
+    public void GetResult(){} // RVA: 0x36153F0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x35FC940
+    public void GetStatus(){} // RVA: 0x35FC510
+    public void UnsafeGetStatus(){} // RVA: 0x3615510
+    public void OnCompleted(){} // RVA: 0x35FC5C0
 }
 
 public class IsCanceledSource
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-    public void GetResult(){} // RVA: 0x7FFAF97A3100
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF97A3190
-    public void GetStatus(){} // RVA: 0x7FFAF97A3210
-    public void UnsafeGetStatus(){} // RVA: 0x7FFAF97A3270
-    public void OnCompleted(){} // RVA: 0x7FFAF97A32C0
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-    public void GetResult(){} // RVA: 0x7FFAF60C57C0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF60AC940
-    public void GetStatus(){} // RVA: 0x7FFAF60AC510
-    public void UnsafeGetStatus(){} // RVA: 0x7FFAF60C58A0
-    public void OnCompleted(){} // RVA: 0x7FFAF60AC5C0
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
-}
-
-public class IsCanceledSource
-{
+    public void .ctor(){} // RVA: 0x2DEE30
+    public void GetResult(){} // RVA: 0x6CF3100
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6CF3190
+    public void GetStatus(){} // RVA: 0x6CF3210
+    public void UnsafeGetStatus(){} // RVA: 0x6CF3270
+    public void OnCompleted(){} // RVA: 0x6CF32C0
 }
 
 public class IsCanceledSource
@@ -395,12 +228,179 @@ public class IsCanceledSource
 public class IsCanceledSource
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-    public void GetResult(){} // RVA: 0x7FFAF60C5CC0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7FFAF60C5E50
-    public void GetStatus(){} // RVA: 0x7FFAF60AC510
-    public void UnsafeGetStatus(){} // RVA: 0x7FFAF60C5E80
-    public void OnCompleted(){} // RVA: 0x7FFAF60AC5C0
+    public void .ctor(){} // RVA: 0x2DEE30
+    public void GetResult(){} // RVA: 0x36157C0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x35FC940
+    public void GetStatus(){} // RVA: 0x35FC510
+    public void UnsafeGetStatus(){} // RVA: 0x36158A0
+    public void OnCompleted(){} // RVA: 0x35FC5C0
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+}
+
+public class IsCanceledSource
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x2DEE30
+    public void GetResult(){} // RVA: 0x3615CC0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x3615E50
+    public void GetStatus(){} // RVA: 0x35FC510
+    public void UnsafeGetStatus(){} // RVA: 0x3615E80
+    public void OnCompleted(){} // RVA: 0x35FC5C0
 }
 
 public class IsCanceledSource

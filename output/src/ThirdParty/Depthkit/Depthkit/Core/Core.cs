@@ -16,7 +16,7 @@ namespace ThirdParty.Depthkit.Depthkit.Core
     public class Vertex
     {
         // ── Methods ──
-        public void Print(){} // RVA: 0x7FFAF48F8070
+        public void Print(){} // RVA: 0x1E48070
     }
 
 }

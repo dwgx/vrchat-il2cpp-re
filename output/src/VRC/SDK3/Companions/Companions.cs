@@ -8,8 +8,8 @@ namespace VRC.SDK3.Companions
     public class VRCCompanionApi
     {
         // ── Methods ──
-        public void TryGetCompanion(){} // RVA: 0x7FFAFC4BC3E0
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void TryGetCompanion(){} // RVA: 0x9A0C3E0
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

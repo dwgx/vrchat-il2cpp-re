@@ -8,8 +8,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ntt
     public class NttObjectIdentifiers
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAFC23D700
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x978D700
     }
 
 }

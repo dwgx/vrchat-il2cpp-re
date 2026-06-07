@@ -8,7 +8,7 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class Error
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8B97B20
+        public void .ctor(){} // RVA: 0x60E7B20
     }
 
 }

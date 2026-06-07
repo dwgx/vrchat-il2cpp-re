@@ -8,8 +8,8 @@ namespace ThirdParty.Other.Steamworks.Data
     public class WorkshopEULAStatus_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B81A80
-        public void .cctor(){} // RVA: 0x7FFAF4B81A90
+        public void get_CallbackType(){} // RVA: 0x20D1A80
+        public void .cctor(){} // RVA: 0x20D1A90
     }
 
 }

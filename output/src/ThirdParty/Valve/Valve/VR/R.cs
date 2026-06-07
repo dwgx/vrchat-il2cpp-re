@@ -20,8 +20,8 @@ namespace ThirdParty.Valve.Valve.VR
     public class RenderModel_TextureMap_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9B17A10
-        public void Unpack(){} // RVA: 0x7FFAF9B17A40
+        public void .ctor(){} // RVA: 0x7067A10
+        public void Unpack(){} // RVA: 0x7067A40
     }
 
     public class RenderModel_Vertex_t
@@ -35,8 +35,8 @@ namespace ThirdParty.Valve.Valve.VR
     public class RenderModel_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8C9E700
-        public void Unpack(){} // RVA: 0x7FFAF8C9E730
+        public void .ctor(){} // RVA: 0x61EE700
+        public void Unpack(){} // RVA: 0x61EE730
     }
 
 }

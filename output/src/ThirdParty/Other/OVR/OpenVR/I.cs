@@ -88,7 +88,7 @@ namespace ThirdParty.Other.OVR.OpenVR
     public class InputOriginInfo_t
     {
         // ── Methods ──
-        public void get_rchRenderModelComponentName(){} // RVA: 0x7FFAF8C9E760
+        public void get_rchRenderModelComponentName(){} // RVA: 0x61EE760
     }
 
     public class InputPoseActionData_t

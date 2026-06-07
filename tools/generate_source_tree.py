@@ -251,6 +251,27 @@ def classify_existing_namespace(ns: str) -> str:
 
 # ── Source File Generation ─────────────────────────────────────────
 
+_GA_BASE: int = 0
+
+def _infer_ga_base(data: dict) -> int:
+    """Infer GameAssembly.dll runtime base from method pointers."""
+    min_ptr = None
+    for ns, classes in data.get('namespaces', {}).items():
+        for cls in classes:
+            for p in cls.get('method_pointers', {}).values():
+                if p and isinstance(p, str) and p.startswith('0x'):
+                    v = int(p, 16)
+                    if v > 0x10000 and (min_ptr is None or v < min_ptr):
+                        min_ptr = v
+    return (min_ptr & ~0xFFFF) if min_ptr else 0
+
+def _to_rva(ptr_str: str) -> str:
+    if not ptr_str or not ptr_str.startswith('0x') or not _GA_BASE:
+        return ptr_str
+    va = int(ptr_str, 16)
+    rva = va - _GA_BASE
+    return f'0x{rva:X}' if rva >= 0 else ptr_str
+
 def write_cs_file(filepath: Path, namespace: str, classes: list[dict]):
     """Write a C# file with proper formatting."""
     filepath.parent.mkdir(parents=True, exist_ok=True)
@@ -326,7 +347,7 @@ def write_cs_file(filepath: Path, namespace: str, classes: list[dict]):
         if readable_methods:
             lines.append(f'{indent}    // ── Methods ──')
             for m in readable_methods:
-                ptr = ptrs.get(m, '')
+                ptr = _to_rva(ptrs.get(m, ''))
                 comment_parts = []
                 if ptr:
                     comment_parts.append(f'RVA: {ptr}')
@@ -339,13 +360,13 @@ def write_cs_file(filepath: Path, namespace: str, classes: list[dict]):
             if len(hashed_methods) <= 10:
                 lines.append(f'{indent}    // ── Unresolved (hash) ──')
                 for m in hashed_methods:
-                    ptr = ptrs.get(m, '')
+                    ptr = _to_rva(ptrs.get(m, ''))
                     ptr_comment = f' // RVA: {ptr}' if ptr else ''
                     lines.append(f'{indent}    public void {m}(){{}}{ptr_comment}')
             else:
                 lines.append(f'{indent}    // ── {len(hashed_methods)} unresolved (hash) ──')
                 for m in hashed_methods[:5]:
-                    ptr = ptrs.get(m, '')
+                    ptr = _to_rva(ptrs.get(m, ''))
                     ptr_comment = f' // RVA: {ptr}' if ptr else ''
                     lines.append(f'{indent}    public void {m}(){{}}{ptr_comment}')
                 lines.append(f'{indent}    // ... {len(hashed_methods) - 5} more unresolved methods')
@@ -379,6 +400,11 @@ def main():
             print(f'Built field type index: {len(_FIELD_TYPE_INDEX)} (class,field) pairs')
         except Exception as e:
             print(f'Warning: failed to build field type index: {e}')
+
+    global _GA_BASE
+    _GA_BASE = _infer_ga_base(data)
+    if _GA_BASE:
+        print(f'GA base: 0x{_GA_BASE:X} (method pointers shown as RVA)')
 
     # Clean output directory
     if OUTPUT_DIR.exists():

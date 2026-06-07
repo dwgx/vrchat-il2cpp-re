@@ -6,119 +6,119 @@
 public class SubOvfUInt16
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7FFAF9106500
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Run(){} // RVA: 0x6656500
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class SubOvfUInt32
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7FFAF9106720
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Run(){} // RVA: 0x6656720
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class SubOvfUInt64
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7FFAF91068F0
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Run(){} // RVA: 0x66568F0
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class SubSingle
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7FFAF9105850
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Run(){} // RVA: 0x6655850
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class SubUInt16
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7FFAF9105460
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Run(){} // RVA: 0x6655460
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class SubUInt32
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7FFAF91055B0
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Run(){} // RVA: 0x66555B0
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class SubUInt64
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x7FFAF9105700
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Run(){} // RVA: 0x6655700
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class SubmitEvent
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF9F5FE40
+    public void .ctor(){} // RVA: 0x74AFE40
 }
 
 public class SubmitEvent
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF9A9E630
+    public void .ctor(){} // RVA: 0x6FEE630
 }
 
 public class SubmitEvent
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAFC4FBF90
+    public void .ctor(){} // RVA: 0x9A4BF90
 }
 
 public class Subscriber : ͍
 {
     // ── Methods ──
-    public void Dispose(){} // RVA: 0x7FFAF99198D0
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Dispose(){} // RVA: 0x6E698D0
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class Subscriber : ͍
 {
     // ── Methods ──
-    public void Dispose(){} // RVA: 0x7FFAF991D910
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void Dispose(){} // RVA: 0x6E6D910
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class Subscription
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2ADDC60
-    public void Dispose(){} // RVA: 0x7FFAF2AD4A50
+    public void .ctor(){} // RVA: 0x2DC60
+    public void Dispose(){} // RVA: 0x24A50
 }
 
 public class Subscription
 {
     // ── Methods ──
-    public void get_steamItemId(){} // RVA: 0x7FFAF2E08D50
-    public void set_steamItemId(){} // RVA: 0x7FFAF2E08D60
-    public void get_oculusSku(){} // RVA: 0x7FFAF2E55590
-    public void set_oculusSku(){} // RVA: 0x7FFAF2E555A0
-    public void get_googleProductId(){} // RVA: 0x7FFAF2F77C50
-    public void set_googleProductId(){} // RVA: 0x7FFAF2F734F0
-    public void get_picoSku(){} // RVA: 0x7FFAF2F12D00
-    public void set_picoSku(){} // RVA: 0x7FFAF2F14450
-    public void get_amount(){} // RVA: 0x7FFAF36690C0
-    public void set_amount(){} // RVA: 0x7FFAF3669E60
-    public void get_description(){} // RVA: 0x7FFAF3246DE0
-    public void set_description(){} // RVA: 0x7FFAF3604600
-    public void get_interval(){} // RVA: 0x7FFAF34CC8C0
-    public void set_interval(){} // RVA: 0x7FFAF345A650
-    public void get_periodAmount(){} // RVA: 0x7FFAF4826590
-    public void set_periodAmount(){} // RVA: 0x7FFAF4826550
-    public void get_tier(){} // RVA: 0x7FFAF66F9C00
-    public void set_tier(){} // RVA: 0x7FFAF66F9C10
-    public void .ctor(){} // RVA: 0x7FFAFC3A30E0
+    public void get_steamItemId(){} // RVA: 0x358D50
+    public void set_steamItemId(){} // RVA: 0x358D60
+    public void get_oculusSku(){} // RVA: 0x3A5590
+    public void set_oculusSku(){} // RVA: 0x3A55A0
+    public void get_googleProductId(){} // RVA: 0x4C7C50
+    public void set_googleProductId(){} // RVA: 0x4C34F0
+    public void get_picoSku(){} // RVA: 0x462D00
+    public void set_picoSku(){} // RVA: 0x464450
+    public void get_amount(){} // RVA: 0xBB90C0
+    public void set_amount(){} // RVA: 0xBB9E60
+    public void get_description(){} // RVA: 0x796DE0
+    public void set_description(){} // RVA: 0xB54600
+    public void get_interval(){} // RVA: 0xA1C8C0
+    public void set_interval(){} // RVA: 0x9AA650
+    public void get_periodAmount(){} // RVA: 0x1D76590
+    public void set_periodAmount(){} // RVA: 0x1D76550
+    public void get_tier(){} // RVA: 0x3C49C00
+    public void set_tier(){} // RVA: 0x3C49C10
+    public void .ctor(){} // RVA: 0x98F30E0
 }
 
 public class Surname
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF8681B00
+    public void .ctor(){} // RVA: 0x5BD1B00
 }
 
 public class SwitchCaseProxy
@@ -127,9 +127,9 @@ public class SwitchCaseProxy
     public object Cases;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF908BA00
-    public void get_Body(){} // RVA: 0x7FFAF35DEEA0
-    public void get_TestValues(){} // RVA: 0x7FFAF35DECF0
+    public void .ctor(){} // RVA: 0x65DBA00
+    public void get_Body(){} // RVA: 0xB2EEA0
+    public void get_TestValues(){} // RVA: 0xB2ECF0
 }
 
 public class SwitchExpressionProxy
@@ -144,49 +144,49 @@ public class SwitchExpressionProxy
     public object Type;
 
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF908BAE0
-    public void get_CanReduce(){} // RVA: 0x7FFAF32A02E0
-    public void get_Cases(){} // RVA: 0x7FFAF35DE530
-    public void get_Comparison(){} // RVA: 0x7FFAF35DEE60
-    public void get_DebugView(){} // RVA: 0x7FFAF908A6E0
-    public void get_DefaultBody(){} // RVA: 0x7FFAF35DE750
-    public void get_NodeType(){} // RVA: 0x7FFAF32A01B0
-    public void get_SwitchValue(){} // RVA: 0x7FFAF35DEEA0
-    public void get_Type(){} // RVA: 0x7FFAF32A0250
+    public void .ctor(){} // RVA: 0x65DBAE0
+    public void get_CanReduce(){} // RVA: 0x7F02E0
+    public void get_Cases(){} // RVA: 0xB2E530
+    public void get_Comparison(){} // RVA: 0xB2EE60
+    public void get_DebugView(){} // RVA: 0x65DA6E0
+    public void get_DefaultBody(){} // RVA: 0xB2E750
+    public void get_NodeType(){} // RVA: 0x7F01B0
+    public void get_SwitchValue(){} // RVA: 0xB2EEA0
+    public void get_Type(){} // RVA: 0x7F0250
 }
 
 public class SwitchFullInputReport
 {
     // ── Methods ──
-    public void ToHIDInputReport(){} // RVA: 0x7FFAF996F8C0
+    public void ToHIDInputReport(){} // RVA: 0x6EBF8C0
 }
 
 public class SwitchHIDGenericInputReport
 {
     // ── Methods ──
-    public void get_Format(){} // RVA: 0x7FFAF996FB70
+    public void get_Format(){} // RVA: 0x6EBFB70
 }
 
 public class SwitchInputOnlyReport
 {
     // ── Methods ──
-    public void ToHIDInputReport(){} // RVA: 0x7FFAF996F2D0
+    public void ToHIDInputReport(){} // RVA: 0x6EBF2D0
 }
 
 public class SwitchMagicOutputHIDBluetooth
 {
     // ── Methods ──
-    public void get_Type(){} // RVA: 0x7FFAF996FB80
-    public void get_typeStatic(){} // RVA: 0x7FFAF996FB80
-    public void Create(){} // RVA: 0x7FFAF996FB90
+    public void get_Type(){} // RVA: 0x6EBFB80
+    public void get_typeStatic(){} // RVA: 0x6EBFB80
+    public void Create(){} // RVA: 0x6EBFB90
 }
 
 public class SwitchMagicOutputHIDUSB
 {
     // ── Methods ──
-    public void get_Type(){} // RVA: 0x7FFAF996FB80
-    public void get_typeStatic(){} // RVA: 0x7FFAF996FB80
-    public void Create(){} // RVA: 0x7FFAF996FBE0
+    public void get_Type(){} // RVA: 0x6EBFB80
+    public void get_typeStatic(){} // RVA: 0x6EBFB80
+    public void Create(){} // RVA: 0x6EBFBE0
 }
 
 public class SwitchMagicOutputReport
@@ -196,99 +196,99 @@ public class SwitchMagicOutputReport
 public class SwitchSimpleInputReport
 {
     // ── Methods ──
-    public void ToHIDInputReport(){} // RVA: 0x7FFAF996F5B0
+    public void ToHIDInputReport(){} // RVA: 0x6EBF5B0
 }
 
 public class SymbolTables
 {
     // ── Methods ──
-    public void Init(){} // RVA: 0x7FFAF93AD670
+    public void Init(){} // RVA: 0x68FD670
 }
 
 public class SyncHashtable
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF88BD2C0 | overloaded x2
-    public void GetObjectData(){} // RVA: 0x7FFAF88BD320
-    public void get_Count(){} // RVA: 0x7FFAF88BD360
-    public void get_IsReadOnly(){} // RVA: 0x7FFAF88BD390
-    public void get_IsFixedSize(){} // RVA: 0x7FFAF88BD3C0
-    public void get_IsSynchronized(){} // RVA: 0x7FFAF2E72850
-    public void get_Item(){} // RVA: 0x7FFAF88BD3F0
-    public void set_Item(){} // RVA: 0x7FFAF88BD420
-    public void get_SyncRoot(){} // RVA: 0x7FFAF88BD5C0
-    public void Add(){} // RVA: 0x7FFAF88BD5F0
-    public void Clear(){} // RVA: 0x7FFAF88BD790
-    public void Contains(){} // RVA: 0x7FFAF88BD900
-    public void ContainsKey(){} // RVA: 0x7FFAF88BD930
-    public void CopyTo(){} // RVA: 0x7FFAF88BD9E0
-    public void Clone(){} // RVA: 0x7FFAF88BDB80
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF88BDD90
-    public void GetEnumerator(){} // RVA: 0x7FFAF88BDD90
-    public void get_Keys(){} // RVA: 0x7FFAF88BDDC0
-    public void get_Values(){} // RVA: 0x7FFAF88BDF50
-    public void Remove(){} // RVA: 0x7FFAF88BE0E0
-    public void OnDeserialization(){} // RVA: 0x7FFAF2D8D310
+    public void .ctor(){} // RVA: 0x5E0D2C0 | overloaded x2
+    public void GetObjectData(){} // RVA: 0x5E0D320
+    public void get_Count(){} // RVA: 0x5E0D360
+    public void get_IsReadOnly(){} // RVA: 0x5E0D390
+    public void get_IsFixedSize(){} // RVA: 0x5E0D3C0
+    public void get_IsSynchronized(){} // RVA: 0x3C2850
+    public void get_Item(){} // RVA: 0x5E0D3F0
+    public void set_Item(){} // RVA: 0x5E0D420
+    public void get_SyncRoot(){} // RVA: 0x5E0D5C0
+    public void Add(){} // RVA: 0x5E0D5F0
+    public void Clear(){} // RVA: 0x5E0D790
+    public void Contains(){} // RVA: 0x5E0D900
+    public void ContainsKey(){} // RVA: 0x5E0D930
+    public void CopyTo(){} // RVA: 0x5E0D9E0
+    public void Clone(){} // RVA: 0x5E0DB80
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5E0DD90
+    public void GetEnumerator(){} // RVA: 0x5E0DD90
+    public void get_Keys(){} // RVA: 0x5E0DDC0
+    public void get_Values(){} // RVA: 0x5E0DF50
+    public void Remove(){} // RVA: 0x5E0E0E0
+    public void OnDeserialization(){} // RVA: 0x2DD310
 }
 
 public class SyncSortedList
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF88AFA70
-    public void get_Count(){} // RVA: 0x7FFAF88AFB70
-    public void get_SyncRoot(){} // RVA: 0x7FFAF2E2E0E0
-    public void get_IsReadOnly(){} // RVA: 0x7FFAF88AFCD0
-    public void get_IsFixedSize(){} // RVA: 0x7FFAF88AFD00
-    public void get_IsSynchronized(){} // RVA: 0x7FFAF2E72850
-    public void get_Item(){} // RVA: 0x7FFAF88AFD30
-    public void set_Item(){} // RVA: 0x7FFAF88AFEA0
-    public void Add(){} // RVA: 0x7FFAF88B0010
-    public void Clear(){} // RVA: 0x7FFAF88B0180
-    public void Clone(){} // RVA: 0x7FFAF88B02D0
-    public void Contains(){} // RVA: 0x7FFAF88B0430
-    public void ContainsKey(){} // RVA: 0x7FFAF88B05B0
-    public void ContainsValue(){} // RVA: 0x7FFAF88B0730
-    public void CopyTo(){} // RVA: 0x7FFAF88B08B0
-    public void GetByIndex(){} // RVA: 0x7FFAF88B0A20
-    public void GetEnumerator(){} // RVA: 0x7FFAF88B0B90
-    public void GetKey(){} // RVA: 0x7FFAF88B0CF0
-    public void GetKeyList(){} // RVA: 0x7FFAF88B0E60
-    public void GetValueList(){} // RVA: 0x7FFAF88B0FC0
-    public void IndexOfKey(){} // RVA: 0x7FFAF88B1120
-    public void IndexOfValue(){} // RVA: 0x7FFAF88B1300
-    public void RemoveAt(){} // RVA: 0x7FFAF88B1480
-    public void Remove(){} // RVA: 0x7FFAF88B15E0
+    public void .ctor(){} // RVA: 0x5DFFA70
+    public void get_Count(){} // RVA: 0x5DFFB70
+    public void get_SyncRoot(){} // RVA: 0x37E0E0
+    public void get_IsReadOnly(){} // RVA: 0x5DFFCD0
+    public void get_IsFixedSize(){} // RVA: 0x5DFFD00
+    public void get_IsSynchronized(){} // RVA: 0x3C2850
+    public void get_Item(){} // RVA: 0x5DFFD30
+    public void set_Item(){} // RVA: 0x5DFFEA0
+    public void Add(){} // RVA: 0x5E00010
+    public void Clear(){} // RVA: 0x5E00180
+    public void Clone(){} // RVA: 0x5E002D0
+    public void Contains(){} // RVA: 0x5E00430
+    public void ContainsKey(){} // RVA: 0x5E005B0
+    public void ContainsValue(){} // RVA: 0x5E00730
+    public void CopyTo(){} // RVA: 0x5E008B0
+    public void GetByIndex(){} // RVA: 0x5E00A20
+    public void GetEnumerator(){} // RVA: 0x5E00B90
+    public void GetKey(){} // RVA: 0x5E00CF0
+    public void GetKeyList(){} // RVA: 0x5E00E60
+    public void GetValueList(){} // RVA: 0x5E00FC0
+    public void IndexOfKey(){} // RVA: 0x5E01120
+    public void IndexOfValue(){} // RVA: 0x5E01300
+    public void RemoveAt(){} // RVA: 0x5E01480
+    public void Remove(){} // RVA: 0x5E015E0
 }
 
 public class SyncTextReader
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF88E86C0
-    public void Close(){} // RVA: 0x7FFAF88E8760
-    public void Dispose(){} // RVA: 0x7FFAF88E8790
-    public void Peek(){} // RVA: 0x7FFAF86A76F0
-    public void Read(){} // RVA: 0x7FFAF88E87F0 | overloaded x2
-    public void ReadLine(){} // RVA: 0x7FFAF88E8820
-    public void ReadToEnd(){} // RVA: 0x7FFAF8771EA0
-    public void ReadToEndAsync(){} // RVA: 0x7FFAF88E8850
-    public void ReadAsync(){} // RVA: 0x7FFAF88E88D0
+    public void .ctor(){} // RVA: 0x5E386C0
+    public void Close(){} // RVA: 0x5E38760
+    public void Dispose(){} // RVA: 0x5E38790
+    public void Peek(){} // RVA: 0x5BF76F0
+    public void Read(){} // RVA: 0x5E387F0 | overloaded x2
+    public void ReadLine(){} // RVA: 0x5E38820
+    public void ReadToEnd(){} // RVA: 0x5CC1EA0
+    public void ReadToEndAsync(){} // RVA: 0x5E38850
+    public void ReadAsync(){} // RVA: 0x5E388D0
 }
 
 public class SyncTextWriter
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF88EB360
-    public void get_Encoding(){} // RVA: 0x7FFAF88EB440
-    public void get_FormatProvider(){} // RVA: 0x7FFAF88EB470
-    public void get_NewLine(){} // RVA: 0x7FFAF88EB4A0
-    public void Close(){} // RVA: 0x7FFAF87D1980
-    public void Dispose(){} // RVA: 0x7FFAF88EB4D0
-    public void Flush(){} // RVA: 0x7FFAF88EB530
-    public void Write(){} // RVA: 0x7FFAF88EB5C0 | overloaded x8
-    public void WriteLine(){} // RVA: 0x7FFAF88EB650 | overloaded x5
-    public void WriteAsync(){} // RVA: 0x7FFAF88EB800 | overloaded x3
-    public void WriteLineAsync(){} // RVA: 0x7FFAF88EB8F0
-    public void FlushAsync(){} // RVA: 0x7FFAF88EB9E0
+    public void .ctor(){} // RVA: 0x5E3B360
+    public void get_Encoding(){} // RVA: 0x5E3B440
+    public void get_FormatProvider(){} // RVA: 0x5E3B470
+    public void get_NewLine(){} // RVA: 0x5E3B4A0
+    public void Close(){} // RVA: 0x5D21980
+    public void Dispose(){} // RVA: 0x5E3B4D0
+    public void Flush(){} // RVA: 0x5E3B530
+    public void Write(){} // RVA: 0x5E3B5C0 | overloaded x8
+    public void WriteLine(){} // RVA: 0x5E3B650 | overloaded x5
+    public void WriteAsync(){} // RVA: 0x5E3B800 | overloaded x3
+    public void WriteLineAsync(){} // RVA: 0x5E3B8F0
+    public void FlushAsync(){} // RVA: 0x5E3B9E0
 }
 
 public class SyncTile
@@ -310,51 +310,51 @@ public class SynchronizeState
 public class SynchronousAsyncResult
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF8903620 | overloaded x3
-    public void get_IsCompleted(){} // RVA: 0x7FFAF2E72850
-    public void get_AsyncWaitHandle(){} // RVA: 0x7FFAF89037B0
-    public void get_AsyncState(){} // RVA: 0x7FFAF2DA8380
-    public void get_CompletedSynchronously(){} // RVA: 0x7FFAF2E72850
-    public void ThrowIfError(){} // RVA: 0x7FFAF8903910
-    public void EndRead(){} // RVA: 0x7FFAF8901B50
-    public void EndWrite(){} // RVA: 0x7FFAF8901DB0
+    public void .ctor(){} // RVA: 0x5E53620 | overloaded x3
+    public void get_IsCompleted(){} // RVA: 0x3C2850
+    public void get_AsyncWaitHandle(){} // RVA: 0x5E537B0
+    public void get_AsyncState(){} // RVA: 0x2F8380
+    public void get_CompletedSynchronously(){} // RVA: 0x3C2850
+    public void ThrowIfError(){} // RVA: 0x5E53910
+    public void EndRead(){} // RVA: 0x5E51B50
+    public void EndWrite(){} // RVA: 0x5E51DB0
 }
 
 public class SystemController
 {
     // ── Methods ──
-    public void BackPressed(){} // RVA: 0x7FFAF4268890
-    public void CreateInstance(){} // RVA: 0x7FFAF4268AC0
-    public void Equals(){} // RVA: 0x7FFAF38471C0
-    public void CreateScriptableObject(){} // RVA: 0x7FFAF4268CF0
-    public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x7FFAF4268CF0
-    public void GetHashCode(){} // RVA: 0x7FFAF4268D20
-    public void ToString(){} // RVA: 0x7FFAF4268D70
-    public void GetGameObject_E1B(){} // RVA: 0x7FFAF4268E00
-    public void .ctor_6E2EED3C818E(){} // RVA: 0x7FFAF4268E90
-    public void Initialize(){} // RVA: 0x7FFAF4268EE0
-    public void GetGameObject_EAA(){} // RVA: 0x7FFAF38471C0
-    public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
-    public void Logout(){} // RVA: 0x7FFAF38471C0
+    public void BackPressed(){} // RVA: 0x17B8890
+    public void CreateInstance(){} // RVA: 0x17B8AC0
+    public void Equals(){} // RVA: 0xD971C0
+    public void CreateScriptableObject(){} // RVA: 0x17B8CF0
+    public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x17B8CF0
+    public void GetHashCode(){} // RVA: 0x17B8D20
+    public void ToString(){} // RVA: 0x17B8D70
+    public void GetGameObject_E1B(){} // RVA: 0x17B8E00
+    public void .ctor_6E2EED3C818E(){} // RVA: 0x17B8E90
+    public void Initialize(){} // RVA: 0x17B8EE0
+    public void GetGameObject_EAA(){} // RVA: 0xD971C0
+    public void .ctor(){} // RVA: 0x53BFB0
+    public void Logout(){} // RVA: 0xD971C0
     // ── Unresolved (hash) ──
-    public void m_9E8(){} // RVA: 0x7FFAF4268F70
+    public void m_9E8(){} // RVA: 0x17B8F70
 }
 
 public class SystemFn
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF66E7510
-    public void Invoke(){} // RVA: 0x7FFAF2EE9370
-    public void BeginInvoke(){} // RVA: 0x7FFAF45AE3C0
-    public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+    public void .ctor(){} // RVA: 0x3C37510
+    public void Invoke(){} // RVA: 0x439370
+    public void BeginInvoke(){} // RVA: 0x1AFE3C0
+    public void EndInvoke(){} // RVA: 0x2DECB0
 }
 
 public class SystemObjectSurrogate
 {
     // ── Methods ──
-    public void GetObjectData(){} // RVA: 0x7FFAF2D8D310
-    public void SetObjectData(){} // RVA: 0x7FFAFC54F850
-    public void .ctor(){} // RVA: 0x7FFAF2D8D310
+    public void GetObjectData(){} // RVA: 0x2DD310
+    public void SetObjectData(){} // RVA: 0x9A9F850
+    public void .ctor(){} // RVA: 0x2DD310
 }
 
 public class SystemThreadingTasks_TaskSchedulerDebugView
@@ -368,14 +368,14 @@ public class SystemThreading_SpinLockDebugView
 public class SystemTimeProvider
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF8638C10
+    public void .ctor(){} // RVA: 0x5B88C10
 }
 
 public class sentry_logger_function_t
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF62A6E90
-    public void Invoke(){} // RVA: 0x7FFAF36B9580
+    public void .ctor(){} // RVA: 0x37F6E90
+    public void Invoke(){} // RVA: 0xC09580
 }
 
 public class sentry_value_t
@@ -385,5 +385,5 @@ public class sentry_value_t
 public class sockaddr_in
 {
     // ── Methods ──
-    public void Create(){} // RVA: 0x7FFAF9641C00
+    public void Create(){} // RVA: 0x6B91C00
 }

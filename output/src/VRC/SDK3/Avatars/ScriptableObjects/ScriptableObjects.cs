@@ -8,18 +8,18 @@ namespace VRC.SDK3.Avatars.ScriptableObjects
     public class VRCExpressionParameters
     {
         // ── Methods ──
-        public void GetParameter(){} // RVA: 0x7FFAFC4CEAC0
-        public void FindParameter(){} // RVA: 0x7FFAFC4CEB00
-        public void CalcTotalCost(){} // RVA: 0x7FFAFC4CEBB0
-        public void TypeCost(){} // RVA: 0x7FFAFC4CEC20
-        public void IsWithinBudget(){} // RVA: 0x7FFAFC4CEC60 | overloaded x2
-        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
+        public void GetParameter(){} // RVA: 0x9A1EAC0
+        public void FindParameter(){} // RVA: 0x9A1EB00
+        public void CalcTotalCost(){} // RVA: 0x9A1EBB0
+        public void TypeCost(){} // RVA: 0x9A1EC20
+        public void IsWithinBudget(){} // RVA: 0x9A1EC60 | overloaded x2
+        public void .ctor(){} // RVA: 0x53BFB0
     }
 
     public class VRCExpressionsMenu
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFC4CEE50
+        public void .ctor(){} // RVA: 0x9A1EE50
     }
 
 }

@@ -8,15 +8,15 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Security
     public class AppleInAppPurchaseReceipt
     {
         // ── Methods ──
-        public void get_productID(){} // RVA: 0x7FFAF2DA8380
-        public void get_transactionID(){} // RVA: 0x7FFAF2D907C0
-        public void get_originalTransactionIdentifier(){} // RVA: 0x7FFAF2DBB0C0
-        public void get_purchaseDate(){} // RVA: 0x7FFAF2DBB130
-        public void get_subscriptionExpirationDate(){} // RVA: 0x7FFAF30E74D0
-        public void get_cancellationDate(){} // RVA: 0x7FFAF2F476A0
-        public void get_isFreeTrial(){} // RVA: 0x7FFAF2E2E080
-        public void get_productType(){} // RVA: 0x7FFAF2E2E0A0
-        public void get_isIntroductoryPricePeriod(){} // RVA: 0x7FFAF2E2E0C0
+        public void get_productID(){} // RVA: 0x2F8380
+        public void get_transactionID(){} // RVA: 0x2E07C0
+        public void get_originalTransactionIdentifier(){} // RVA: 0x30B0C0
+        public void get_purchaseDate(){} // RVA: 0x30B130
+        public void get_subscriptionExpirationDate(){} // RVA: 0x6374D0
+        public void get_cancellationDate(){} // RVA: 0x4976A0
+        public void get_isFreeTrial(){} // RVA: 0x37E080
+        public void get_productType(){} // RVA: 0x37E0A0
+        public void get_isIntroductoryPricePeriod(){} // RVA: 0x37E0C0
     }
 
     public class AppleReceipt
@@ -26,8 +26,8 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing.Security
     public class AppleReceiptParser
     {
         // ── Methods ──
-        public void Parse(){} // RVA: 0x7FFAF9CCD890
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void Parse(){} // RVA: 0x721D890
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class IAPSecurityException

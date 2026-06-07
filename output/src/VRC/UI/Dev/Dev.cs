@@ -8,7 +8,7 @@ namespace VRC.UI.Dev
     public class EditorFragmentDataState
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2FEBFB0
+        public void .ctor(){} // RVA: 0x53BFB0
     }
 
 }

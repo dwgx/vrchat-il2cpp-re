@@ -8,15 +8,15 @@ namespace ThirdParty.Other.Steamworks.Data
     public class JoinClanChatRoomCompletionResult_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B78F60
-        public void .cctor(){} // RVA: 0x7FFAF4B78F70
+        public void get_CallbackType(){} // RVA: 0x20C8F60
+        public void .cctor(){} // RVA: 0x20C8F70
     }
 
     public class JoinPartyCallback_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B7B590
-        public void .cctor(){} // RVA: 0x7FFAF4B7B5A0
+        public void get_CallbackType(){} // RVA: 0x20CB590
+        public void .cctor(){} // RVA: 0x20CB5A0
     }
 
 }

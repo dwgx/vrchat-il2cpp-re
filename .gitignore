@@ -57,7 +57,7 @@ desktop.ini
 # === Binaries (keep launch_bypass for reference) ===
 tools/launch_bypass_console.exe
 
-# === Claude Code / temp ===
+# === AI tooling / temp ===
 .claude/
 condensed.json
 sqlite_mcp_server.db
@@ -108,8 +108,8 @@ data/all_ctx_chunks/
 data/all_ctx_round2/
 data/all_ctx_round3/
 data/body_ctx_chunks/
-data/claude_context/
-data/claude_manual_targets.json
+data/llm_context/
+data/llm_manual_targets.json
 data/final_ctx_chunks/
 data/hash_ctx_chunk_*.json
 data/hash_method_contexts.json
@@ -139,11 +139,11 @@ output/vrc_main_deep_report.json
 output/vtable_propagation.json
 output/weak_class_renames.json
 output/field_based_names.json
-output/claude_index_propagation.json
-output/claude_rule_names.json
-output/claude_string_id_names.json
-output/claude_oldname_in_strings.json
-output/claude_manual_names.json
+output/llm_index_propagation.json
+output/llm_rule_names.json
+output/llm_string_id_names.json
+output/llm_oldname_in_strings.json
+output/llm_manual_names.json
 output/vrc_main_position_match.json
 output/old_new_index_match.json
 output/old_new_vtable_names.json
@@ -198,3 +198,14 @@ output/llm_batches_hexrays_r2/
 
 # === Cross-version backups (regenerable) ===
 output/cross_version_method_names.pre_*.json
+output/cross_version_method_names.*backup*.json
+
+# === LLM neighbor batches (6K+ files, regenerable) ===
+output/llm_batches_neighbor/
+
+# === Audit batches (regenerable) ===
+output/audit_batches/
+
+# === Worker logs ===
+output/audit_worker_*.log
+output/worker_*.log

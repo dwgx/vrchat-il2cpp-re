@@ -8,21 +8,21 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class JoinAwaitWithCancellation`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADFE10
+        public void .ctor(){} // RVA: 0x2FE10
         public void GetAsyncEnumerator(){}
     }
 
     public class JoinAwait`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADFE10
+        public void .ctor(){} // RVA: 0x2FE10
         public void GetAsyncEnumerator(){}
     }
 
     public class Join`4
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADFE10
+        public void .ctor(){} // RVA: 0x2FE10
         public void GetAsyncEnumerator(){}
     }
 

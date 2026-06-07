@@ -8,34 +8,34 @@ namespace ThirdParty.Other.Unity.Services.Core.Device
     public class IUserIdentifierProvider
     {
         // ── Methods ──
-        public void get_UserId(){} // RVA: 0x7FFAF2ABCD60
-        public void set_UserId(){} // RVA: 0x7FFAF2AD4B10
+        public void get_UserId(){} // RVA: 0xCD60
+        public void set_UserId(){} // RVA: 0x24B10
     }
 
     public class InstallationId
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9A08700
-        public void CreateIdentifier(){} // RVA: 0x7FFAF9A08820
-        public void ReadIdentifierFromFile(){} // RVA: 0x7FFAF9A08B20
-        public void WriteIdentifierToFile(){} // RVA: 0x7FFAF9A08B60
-        public void GenerateGuid(){} // RVA: 0x7FFAF9A08BE0
+        public void .ctor(){} // RVA: 0x6F58700
+        public void CreateIdentifier(){} // RVA: 0x6F58820
+        public void ReadIdentifierFromFile(){} // RVA: 0x6F58B20
+        public void WriteIdentifierToFile(){} // RVA: 0x6F58B60
+        public void GenerateGuid(){} // RVA: 0x6F58BE0
     }
 
     public class UnityAdsIdentifier
     {
         // ── Methods ──
-        public void get_UserId(){} // RVA: 0x7FFAF2FC9240
-        public void set_UserId(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_UserId(){} // RVA: 0x519240
+        public void set_UserId(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class UnityAnalyticsIdentifier
     {
         // ── Methods ──
-        public void get_UserId(){} // RVA: 0x7FFAF9A08C70
-        public void set_UserId(){} // RVA: 0x7FFAF9A08CB0
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_UserId(){} // RVA: 0x6F58C70
+        public void set_UserId(){} // RVA: 0x6F58CB0
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

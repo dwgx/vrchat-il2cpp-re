@@ -8,7 +8,7 @@ namespace VRC.SDKBase.Source
     public class IVRCInteractable
     {
         // ── Methods ──
-        public void get_Proximity(){} // RVA: 0x7FFE80E42E10
+        public void get_Proximity(){} // RVA: 0x21890
     }
 
 }

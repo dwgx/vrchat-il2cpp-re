@@ -8,7 +8,7 @@ namespace VRC.UI.Elements.Analytics
     public class AnalyticsControllerSavedData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFBCE0BA0
+        public void .ctor(){} // RVA: 0x9230BA0
     }
 
 }

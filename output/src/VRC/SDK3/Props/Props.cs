@@ -8,43 +8,43 @@ namespace VRC.SDK3.Props
     public class VRCPropApi
     {
         // ── Methods ──
-        public void TryGetPropFromGameObject(){} // RVA: 0x7FFAFC4BC490
-        public void TryGetProp(){} // RVA: 0x7FFAFC4BC550
-        public void GetPropId(){} // RVA: 0x7FFAF2ABCD60
-        public void GetItemId(){} // RVA: 0x7FFAF2ABCD60
-        public void GetSpawner(){} // RVA: 0x7FFAF2ABCD60
-        public void GetPosition(){} // RVA: 0x7FFAF2ABC770
-        public void GetRotation(){} // RVA: 0x7FFAF2ABC770
-        public void GetScale(){} // RVA: 0x7FFAF2ABC770
+        public void TryGetPropFromGameObject(){} // RVA: 0x9A0C490
+        public void TryGetProp(){} // RVA: 0x9A0C550
+        public void GetPropId(){} // RVA: 0xCD60
+        public void GetItemId(){} // RVA: 0xCD60
+        public void GetSpawner(){} // RVA: 0xCD60
+        public void GetPosition(){} // RVA: 0xC770
+        public void GetRotation(){} // RVA: 0xC770
+        public void GetScale(){} // RVA: 0xC770
         public void GetNearestPlayerInRange(){}
         public void GetPlayersInRange(){} // overloaded x2
-        public void GetUserAttributes(){} // RVA: 0x7FFAF2ABCD60
-        public void GetIsConsumable(){} // RVA: 0x7FFAF2ABDBE0
-        public void GetQuantity(){} // RVA: 0x7FFAF2ABD840
-        public void RequestConsume(){} // RVA: 0x7FFAF2ABDBE0
-        public void RequestDespawn(){} // RVA: 0x7FFAF2ABDBE0
-        public void StartPlayingConsumableEffect(){} // RVA: 0x7FFAF2AD4A50
-        public void StopPlayingConsumableEffect(){} // RVA: 0x7FFAF2AD4A50
-        public void GetIsPlayingConsumableEffect(){} // RVA: 0x7FFAF2ABDBE0
-        public void ManuallyRecordInteractionEvent(){} // RVA: 0x7FFAF2AD4B10
-        public void SetUserAttributes(){} // RVA: 0x7FFAF2AD4B10
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void GetUserAttributes(){} // RVA: 0xCD60
+        public void GetIsConsumable(){} // RVA: 0xDBE0
+        public void GetQuantity(){} // RVA: 0xD840
+        public void RequestConsume(){} // RVA: 0xDBE0
+        public void RequestDespawn(){} // RVA: 0xDBE0
+        public void StartPlayingConsumableEffect(){} // RVA: 0x24A50
+        public void StopPlayingConsumableEffect(){} // RVA: 0x24A50
+        public void GetIsPlayingConsumableEffect(){} // RVA: 0xDBE0
+        public void ManuallyRecordInteractionEvent(){} // RVA: 0x24B10
+        public void SetUserAttributes(){} // RVA: 0x24B10
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class VRCPropUtilities
     {
         // ── Methods ──
-        public void DoesLocalPropFolderExist(){} // RVA: 0x7FFAFC2FE150
-        public void GetLocalPropFolderPath(){} // RVA: 0x7FFAFC2FE170
-        public void GetOrCreateLocalPropFolder(){} // RVA: 0x7FFAFC2FE1F0
-        public void GetCorrectionRotation(){} // RVA: 0x7FFAFC2FE230
-        public void DrawDebugBox(){} // RVA: 0x7FFAFC2FE480
-        public void FetchPermissionsAsync(){} // RVA: 0x7FFAFC2FF960
-        public void ClearCachedPermissions(){} // RVA: 0x7FFAFC2FFE40
-        public void ArePermissionsAvailable(){} // RVA: 0x7FFAFC2FFF70
-        public void CanUseProps(){} // RVA: 0x7FFAFC2FFFB0
-        public void CanUploadProps(){} // RVA: 0x7FFAFC300090
-        public void CanTestProps(){} // RVA: 0x7FFAFC300170
+        public void DoesLocalPropFolderExist(){} // RVA: 0x984E150
+        public void GetLocalPropFolderPath(){} // RVA: 0x984E170
+        public void GetOrCreateLocalPropFolder(){} // RVA: 0x984E1F0
+        public void GetCorrectionRotation(){} // RVA: 0x984E230
+        public void DrawDebugBox(){} // RVA: 0x984E480
+        public void FetchPermissionsAsync(){} // RVA: 0x984F960
+        public void ClearCachedPermissions(){} // RVA: 0x984FE40
+        public void ArePermissionsAvailable(){} // RVA: 0x984FF70
+        public void CanUseProps(){} // RVA: 0x984FFB0
+        public void CanUploadProps(){} // RVA: 0x9850090
+        public void CanTestProps(){} // RVA: 0x9850170
     }
 
 }

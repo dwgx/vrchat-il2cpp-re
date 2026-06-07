@@ -284,27 +284,27 @@ public class SmallXmlNodeList
     public object Action;
 
     // ── Methods ──
-    public void get_Count(){} // RVA: 0x7FFAF9511A00
-    public void get_Item(){} // RVA: 0x7FFAF9511AA0
-    public void Add(){} // RVA: 0x7FFAF9511BE0
-    public void RemoveAt(){} // RVA: 0x7FFAF9511E50
-    public void Insert(){} // RVA: 0x7FFAF9511FA0
-    public void GetEnumerator(){} // RVA: 0x7FFAF95121C0
+    public void get_Count(){} // RVA: 0x6A61A00
+    public void get_Item(){} // RVA: 0x6A61AA0
+    public void Add(){} // RVA: 0x6A61BE0
+    public void RemoveAt(){} // RVA: 0x6A61E50
+    public void Insert(){} // RVA: 0x6A61FA0
+    public void GetEnumerator(){} // RVA: 0x6A621C0
 }
 
 public class Snapshot
 {
     // ── Methods ──
-    public void get_downloadSize(){} // RVA: 0x7FFAFC562B70
-    public void get_uncompressedSize(){} // RVA: 0x7FFAFC562C10
-    public void .ctor(){} // RVA: 0x7FFAFC562CB0
-    public void ToString(){} // RVA: 0x7FFAFC563120
+    public void get_downloadSize(){} // RVA: 0x9AB2B70
+    public void get_uncompressedSize(){} // RVA: 0x9AB2C10
+    public void .ctor(){} // RVA: 0x9AB2CB0
+    public void ToString(){} // RVA: 0x9AB3120
 }
 
 public class SortedColumnState
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF32D0840
+    public void .ctor(){} // RVA: 0x820840
 }
 
 public class SortedListDebugView
@@ -314,25 +314,25 @@ public class SortedListDebugView
 public class SortedListEnumerator
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF88B1740
-    public void Clone(){} // RVA: 0x7FFAF882B480
-    public void get_Key(){} // RVA: 0x7FFAF88B17D0
-    public void MoveNext(){} // RVA: 0x7FFAF88B18A0
-    public void get_Entry(){} // RVA: 0x7FFAF88B1AF0
-    public void get_Current(){} // RVA: 0x7FFAF88B1BD0
-    public void get_Value(){} // RVA: 0x7FFAF88B1CB0
-    public void Reset(){} // RVA: 0x7FFAF88B1D80
+    public void .ctor(){} // RVA: 0x5E01740
+    public void Clone(){} // RVA: 0x5D7B480
+    public void get_Key(){} // RVA: 0x5E017D0
+    public void MoveNext(){} // RVA: 0x5E018A0
+    public void get_Entry(){} // RVA: 0x5E01AF0
+    public void get_Current(){} // RVA: 0x5E01BD0
+    public void get_Value(){} // RVA: 0x5E01CB0
+    public void Reset(){} // RVA: 0x5E01D80
 }
 
 public class SortedListKeyEnumerator
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2AD4B10
-    public void Dispose(){} // RVA: 0x7FFAF2AD4A50
-    public void MoveNext(){} // RVA: 0x7FFAF2ABDBE0
-    public void get_Current(){} // RVA: 0x7FFAF2D33FA0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2ABCD60
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF2AD4A50
+    public void .ctor(){} // RVA: 0x24B10
+    public void Dispose(){} // RVA: 0x24A50
+    public void MoveNext(){} // RVA: 0xDBE0
+    public void get_Current(){} // RVA: 0x283FA0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xCD60
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x24A50
 }
 
 public class SortedListKeyEnumerator
@@ -346,12 +346,12 @@ public class SortedListKeyEnumerator
 public class SortedListValueEnumerator
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF2AD4B10
-    public void Dispose(){} // RVA: 0x7FFAF2AD4A50
-    public void MoveNext(){} // RVA: 0x7FFAF2ABDBE0
-    public void get_Current(){} // RVA: 0x7FFAF2D33FA0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2ABCD60
-    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF2AD4A50
+    public void .ctor(){} // RVA: 0x24B10
+    public void Dispose(){} // RVA: 0x24A50
+    public void MoveNext(){} // RVA: 0xDBE0
+    public void get_Current(){} // RVA: 0x283FA0
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xCD60
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x24A50
 }
 
 public class SortedListValueEnumerator
@@ -365,37 +365,37 @@ public class SortedListValueEnumerator
 public class SorterGenericArray
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF897FF40
-    public void SwapIfGreaterWithItems(){} // RVA: 0x7FFAF89800C0
-    public void Swap(){} // RVA: 0x7FFAF8980240
-    public void Sort(){} // RVA: 0x7FFAF8980330
-    public void IntrospectiveSort(){} // RVA: 0x7FFAF8980340
-    public void IntroSort(){} // RVA: 0x7FFAF8980430
-    public void PickPivotAndPartition(){} // RVA: 0x7FFAF8980510
-    public void Heapsort(){} // RVA: 0x7FFAF89806C0
-    public void DownHeap(){} // RVA: 0x7FFAF8980780
-    public void InsertionSort(){} // RVA: 0x7FFAF89809D0
+    public void .ctor(){} // RVA: 0x5ECFF40
+    public void SwapIfGreaterWithItems(){} // RVA: 0x5ED00C0
+    public void Swap(){} // RVA: 0x5ED0240
+    public void Sort(){} // RVA: 0x5ED0330
+    public void IntrospectiveSort(){} // RVA: 0x5ED0340
+    public void IntroSort(){} // RVA: 0x5ED0430
+    public void PickPivotAndPartition(){} // RVA: 0x5ED0510
+    public void Heapsort(){} // RVA: 0x5ED06C0
+    public void DownHeap(){} // RVA: 0x5ED0780
+    public void InsertionSort(){} // RVA: 0x5ED09D0
 }
 
 public class SorterObjectArray
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF897F040
-    public void SwapIfGreaterWithItems(){} // RVA: 0x7FFAF897F1C0
-    public void Swap(){} // RVA: 0x7FFAF897F3D0
-    public void Sort(){} // RVA: 0x7FFAF897F570
-    public void IntrospectiveSort(){} // RVA: 0x7FFAF897F580
-    public void IntroSort(){} // RVA: 0x7FFAF897F650
-    public void PickPivotAndPartition(){} // RVA: 0x7FFAF897F730
-    public void Heapsort(){} // RVA: 0x7FFAF897F8D0
-    public void DownHeap(){} // RVA: 0x7FFAF897F990
-    public void InsertionSort(){} // RVA: 0x7FFAF897FCB0
+    public void .ctor(){} // RVA: 0x5ECF040
+    public void SwapIfGreaterWithItems(){} // RVA: 0x5ECF1C0
+    public void Swap(){} // RVA: 0x5ECF3D0
+    public void Sort(){} // RVA: 0x5ECF570
+    public void IntrospectiveSort(){} // RVA: 0x5ECF580
+    public void IntroSort(){} // RVA: 0x5ECF650
+    public void PickPivotAndPartition(){} // RVA: 0x5ECF730
+    public void Heapsort(){} // RVA: 0x5ECF8D0
+    public void DownHeap(){} // RVA: 0x5ECF990
+    public void InsertionSort(){} // RVA: 0x5ECFCB0
 }
 
 public class SortingData
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAFA171FC0
+    public void .ctor(){} // RVA: 0x76C1FC0
 }
 
 public class SortingGroupsUpdate

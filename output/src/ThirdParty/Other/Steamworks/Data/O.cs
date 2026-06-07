@@ -8,9 +8,9 @@ namespace ThirdParty.Other.Steamworks.Data
     public class OverlayBrowserProtocolNavigation_t
     {
         // ── Methods ──
-        public void RgchURIUTF8(){} // RVA: 0x7FFAF4B796D0
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B797E0
-        public void .cctor(){} // RVA: 0x7FFAF4B797F0
+        public void RgchURIUTF8(){} // RVA: 0x20C96D0
+        public void get_CallbackType(){} // RVA: 0x20C97E0
+        public void .cctor(){} // RVA: 0x20C97F0
     }
 
 }

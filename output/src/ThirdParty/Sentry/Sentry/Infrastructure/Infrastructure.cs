@@ -8,54 +8,54 @@ namespace ThirdParty.Sentry.Sentry.Infrastructure
     public class ConsoleAndTraceDiagnosticLogger
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF46BFA70
-        public void LogMessage(){} // RVA: 0x7FFAF8EEC580
+        public void .ctor(){} // RVA: 0x1C0FA70
+        public void LogMessage(){} // RVA: 0x643C580
     }
 
     public class ConsoleDiagnosticLogger
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF46BFA70
-        public void LogMessage(){} // RVA: 0x7FFAF8EEC610
+        public void .ctor(){} // RVA: 0x1C0FA70
+        public void LogMessage(){} // RVA: 0x643C610
     }
 
     public class DiagnosticLogger
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF46BFA70
-        public void IsEnabled(){} // RVA: 0x7FFAF8EEC660
-        public void Log(){} // RVA: 0x7FFAF8EEC670
-        public void LogMessage(){} // RVA: 0x7FFAF2AD4B10
-        public void ScrubNewlines(){} // RVA: 0x7FFAF8EEC960
+        public void .ctor(){} // RVA: 0x1C0FA70
+        public void IsEnabled(){} // RVA: 0x643C660
+        public void Log(){} // RVA: 0x643C670
+        public void LogMessage(){} // RVA: 0x24B10
+        public void ScrubNewlines(){} // RVA: 0x643C960
     }
 
     public class FileDiagnosticLogger
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8EECD30 | overloaded x2
-        public void LogMessage(){} // RVA: 0x7FFAF8EECEC0
-        public void <.ctor>b__3_0(){} // RVA: 0x7FFAF8EECF50
+        public void .ctor(){} // RVA: 0x643CD30 | overloaded x2
+        public void LogMessage(){} // RVA: 0x643CEC0
+        public void <.ctor>b__3_0(){} // RVA: 0x643CF50
     }
 
     public class ISystemClock
     {
         // ── Methods ──
-        public void GetUtcNow(){} // RVA: 0x7FFAF2ABC770
+        public void GetUtcNow(){} // RVA: 0xC770
     }
 
     public class SystemClock
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void GetUtcNow(){} // RVA: 0x7FFAF8EECF90
-        public void .cctor(){} // RVA: 0x7FFAF8EED040
+        public void .ctor(){} // RVA: 0x2DD310
+        public void GetUtcNow(){} // RVA: 0x643CF90
+        public void .cctor(){} // RVA: 0x643D040
     }
 
     public class TraceDiagnosticLogger
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF46BFA70
-        public void LogMessage(){} // RVA: 0x7FFAF8EED0E0
+        public void .ctor(){} // RVA: 0x1C0FA70
+        public void LogMessage(){} // RVA: 0x643D0E0
     }
 
 }

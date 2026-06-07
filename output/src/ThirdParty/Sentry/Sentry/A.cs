@@ -8,7 +8,7 @@ namespace ThirdParty.Sentry.Sentry
     public class AttributeReader
     {
         // ── Methods ──
-        public void TryGetProjectDirectory(){} // RVA: 0x7FFAF8D4A960
+        public void TryGetProjectDirectory(){} // RVA: 0x629A960
     }
 
 }

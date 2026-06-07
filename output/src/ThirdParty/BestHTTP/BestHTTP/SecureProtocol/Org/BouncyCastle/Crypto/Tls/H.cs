@@ -8,48 +8,48 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
     public class HandshakeType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class HashAlgorithm
     {
         // ── Methods ──
-        public void GetName(){} // RVA: 0x7FFAFBFDDF60
-        public void GetText(){} // RVA: 0x7FFAFBFDE0B0
-        public void IsPrivate(){} // RVA: 0x7FFAFBFDE240
-        public void IsRecognized(){} // RVA: 0x7FFAFBFDE250
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void GetName(){} // RVA: 0x952DF60
+        public void GetText(){} // RVA: 0x952E0B0
+        public void IsPrivate(){} // RVA: 0x952E240
+        public void IsRecognized(){} // RVA: 0x952E250
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class HeartbeatExtension
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFBFDE260
-        public void get_Mode(){} // RVA: 0x7FFAF2E575E0
-        public void Encode(){} // RVA: 0x7FFAFBFDE2F0
-        public void Parse(){} // RVA: 0x7FFAFBFDE370
+        public void .ctor(){} // RVA: 0x952E260
+        public void get_Mode(){} // RVA: 0x3A75E0
+        public void Encode(){} // RVA: 0x952E2F0
+        public void Parse(){} // RVA: 0x952E370
     }
 
     public class HeartbeatMessage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFBFDE480
-        public void Encode(){} // RVA: 0x7FFAFBFDE5F0
-        public void Parse(){} // RVA: 0x7FFAFBFDE7C0
+        public void .ctor(){} // RVA: 0x952E480
+        public void Encode(){} // RVA: 0x952E5F0
+        public void Parse(){} // RVA: 0x952E7C0
     }
 
     public class HeartbeatMessageType
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x7FFAFBFDDE30
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void IsValid(){} // RVA: 0x952DE30
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class HeartbeatMode
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x7FFAFBFDDE30
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void IsValid(){} // RVA: 0x952DE30
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

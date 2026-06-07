@@ -979,6 +979,10 @@ def _delta_source_tree():
     with open(DEOBF_JSON_PATH, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+    gen_src._GA_BASE = gen_src._infer_ga_base(data)
+    if gen_src._GA_BASE:
+        print(f'    GA base: 0x{gen_src._GA_BASE:X} (RVA mode)')
+
     # Build per-class fingerprint from key structural fields (fast path)
     current_fingerprints = {}
     for ns, classes in data.get('namespaces', {}).items():

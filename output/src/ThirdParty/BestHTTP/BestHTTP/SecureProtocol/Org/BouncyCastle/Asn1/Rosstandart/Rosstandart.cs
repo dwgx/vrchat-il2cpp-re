@@ -8,8 +8,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ross
     public class RosstandartObjectIdentifiers
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAFC220E40
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x9770E40
     }
 
 }

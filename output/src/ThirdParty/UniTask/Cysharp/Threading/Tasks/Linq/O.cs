@@ -1,14 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
-// Classes: 8
-// Methods: 32
+// Classes: 5
+// Methods: 14
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
     public class OfType`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x24B10
         public void GetAsyncEnumerator(){}
     }
 
@@ -29,37 +29,10 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class OrderedAsyncEnumerable`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x24B10
         public void CreateOrderedEnumerable(){} // overloaded x3
         public void GetAsyncEnumerableSorter(){}
         public void GetAsyncEnumerator(){}
-    }
-
-    public class OrderedAsyncEnumerable`1
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-        public void CreateOrderedEnumerable(){} // overloaded x3
-        public void GetAsyncEnumerableSorter(){}
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFAF6884FF0
-    }
-
-    public class OrderedAsyncEnumerable`1
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-        public void CreateOrderedEnumerable(){} // overloaded x3
-        public void GetAsyncEnumerableSorter(){}
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFAF6884FF0
-    }
-
-    public class OrderedAsyncEnumerable`1
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-        public void CreateOrderedEnumerable(){} // overloaded x3
-        public void GetAsyncEnumerableSorter(){}
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFAF6884FF0
     }
 
     public class OrderedAsyncEnumerable`2

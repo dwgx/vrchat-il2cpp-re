@@ -8,29 +8,29 @@ namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceGeometry
     public class FaceGeometryPipelineCalculatorOptions
     {
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x7FFAF8621F70
-        public void get_Descriptor(){} // RVA: 0x7FFAF8621FD0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7FFAF8622090
-        public void .ctor(){} // RVA: 0x7FFAF8622180 | overloaded x2
-        public void Clone(){} // RVA: 0x7FFAF8622320
-        public void get_MetadataFile(){} // RVA: 0x7FFAF2D907C0
-        public void set_MetadataFile(){} // RVA: 0x7FFAF2DF3E80
-        public void Equals(){} // RVA: 0x7FFAF85D23D0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7FFAF85D2470
-        public void ToString(){} // RVA: 0x7FFAF86225F0
-        public void WriteTo(){} // RVA: 0x7FFAF84E9740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7FFAF861CD00
-        public void CalculateSize(){} // RVA: 0x7FFAF8622640
-        public void MergeFrom(){} // RVA: 0x7FFAF84E9A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7FFAF8622870
-        public void .cctor(){} // RVA: 0x7FFAF8622930
+        public void get_Parser(){} // RVA: 0x5B71F70
+        public void get_Descriptor(){} // RVA: 0x5B71FD0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5B72090
+        public void .ctor(){} // RVA: 0x5B72180 | overloaded x2
+        public void Clone(){} // RVA: 0x5B72320
+        public void get_MetadataFile(){} // RVA: 0x2E07C0
+        public void set_MetadataFile(){} // RVA: 0x343E80
+        public void Equals(){} // RVA: 0x5B223D0 | overloaded x2
+        public void GetHashCode(){} // RVA: 0x5B22470
+        public void ToString(){} // RVA: 0x5B725F0
+        public void WriteTo(){} // RVA: 0x5A39740
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5B6CD00
+        public void CalculateSize(){} // RVA: 0x5B72640
+        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5B72870
+        public void .cctor(){} // RVA: 0x5B72930
     }
 
     public class GeometryPipelineCalculatorReflection
     {
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x7FFAF86216E0
-        public void .cctor(){} // RVA: 0x7FFAF8621740
+        public void get_Descriptor(){} // RVA: 0x5B716E0
+        public void .cctor(){} // RVA: 0x5B71740
     }
 
 }

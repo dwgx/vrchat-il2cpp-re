@@ -8,10 +8,10 @@ namespace ThirdParty.Other.SteamAudio
     public class DeviationCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8F2AE70
-        public void Invoke(){} // RVA: 0x7FFAF8F2AF40
-        public void BeginInvoke(){} // RVA: 0x7FFAF8F2B030
-        public void EndInvoke(){} // RVA: 0x7FFAF3FA6C90
+        public void .ctor(){} // RVA: 0x647AE70
+        public void Invoke(){} // RVA: 0x647AF40
+        public void BeginInvoke(){} // RVA: 0x647B030
+        public void EndInvoke(){} // RVA: 0x14F6C90
     }
 
     public class DeviationModel
@@ -29,19 +29,19 @@ namespace ThirdParty.Other.SteamAudio
     public class DirectivityCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8F2B100
-        public void Invoke(){} // RVA: 0x7FFAF8F2B1D0
-        public void BeginInvoke(){} // RVA: 0x7FFAF8F2B200
-        public void EndInvoke(){} // RVA: 0x7FFAF3FA6C90
+        public void .ctor(){} // RVA: 0x647B100
+        public void Invoke(){} // RVA: 0x647B1D0
+        public void BeginInvoke(){} // RVA: 0x647B200
+        public void EndInvoke(){} // RVA: 0x14F6C90
     }
 
     public class DistanceAttenuationCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8F2ACF0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF8F2ADC0
-        public void EndInvoke(){} // RVA: 0x7FFAF3FA6C90
+        public void .ctor(){} // RVA: 0x647ACF0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x647ADC0
+        public void EndInvoke(){} // RVA: 0x14F6C90
     }
 
     public class DistanceAttenuationModel

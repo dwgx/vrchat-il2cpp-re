@@ -6,19 +6,19 @@
 public class OverlaySettings
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF99E41A0
+    public void .ctor(){} // RVA: 0x6F341A0
 }
 
 public class ovrKeyValuePair
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF8B62B70 | overloaded x3
+    public void .ctor(){} // RVA: 0x60B2B70 | overloaded x3
 }
 
 public class ovrMatchmakingCriterion
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF8B62C30
+    public void .ctor(){} // RVA: 0x60B2C30
 }
 
 public class ovrMatchmakingCustomQueryData

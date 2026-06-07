@@ -8,13 +8,13 @@ namespace VRC.SDKBase.Editor.Attributes
     public class CurveAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF6EEF5B0
+        public void .ctor(){} // RVA: 0x443F5B0
     }
 
     public class HelpBoxAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF4816A50
+        public void .ctor(){} // RVA: 0x1D66A50
     }
 
 }

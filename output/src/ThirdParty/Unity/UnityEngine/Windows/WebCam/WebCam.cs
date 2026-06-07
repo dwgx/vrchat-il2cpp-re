@@ -8,50 +8,50 @@ namespace ThirdParty.Unity.UnityEngine.Windows.WebCam
     public class PhotoCapture
     {
         // ── Methods ──
-        public void MakeCaptureResult(){} // RVA: 0x7FFAF9BF4680
-        public void InvokeOnCreatedResourceDelegate(){} // RVA: 0x7FFAF9BF46F0
-        public void .ctor(){} // RVA: 0x7FFAF4417700
-        public void InvokeOnPhotoModeStartedDelegate(){} // RVA: 0x7FFAF9BF4780
-        public void InvokeOnPhotoModeStoppedDelegate(){} // RVA: 0x7FFAF9BF4780
-        public void InvokeOnCapturedPhotoToDiskDelegate(){} // RVA: 0x7FFAF9BF4780
-        public void InvokeOnCapturedPhotoToMemoryDelegate(){} // RVA: 0x7FFAF9BF4820
-        public void Dispose(){} // RVA: 0x7FFAF9BF4930
-        public void Dispose_Internal(){} // RVA: 0x7FFAF9BF49D0
-        public void Finalize(){} // RVA: 0x7FFAF9BF4A20
-        public void DisposeThreaded_Internal(){} // RVA: 0x7FFAF9BF4AB0
+        public void MakeCaptureResult(){} // RVA: 0x7144680
+        public void InvokeOnCreatedResourceDelegate(){} // RVA: 0x71446F0
+        public void .ctor(){} // RVA: 0x1967700
+        public void InvokeOnPhotoModeStartedDelegate(){} // RVA: 0x7144780
+        public void InvokeOnPhotoModeStoppedDelegate(){} // RVA: 0x7144780
+        public void InvokeOnCapturedPhotoToDiskDelegate(){} // RVA: 0x7144780
+        public void InvokeOnCapturedPhotoToMemoryDelegate(){} // RVA: 0x7144820
+        public void Dispose(){} // RVA: 0x7144930
+        public void Dispose_Internal(){} // RVA: 0x71449D0
+        public void Finalize(){} // RVA: 0x7144A20
+        public void DisposeThreaded_Internal(){} // RVA: 0x7144AB0
     }
 
     public class PhotoCaptureFrame
     {
         // ── Methods ──
-        public void get_dataLength(){} // RVA: 0x7FFAF306ED50
-        public void set_dataLength(){} // RVA: 0x7FFAF30E74E0
-        public void set_hasLocationData(){} // RVA: 0x7FFAF2DA83A0
-        public void set_pixelFormat(){} // RVA: 0x7FFAF344E0D0
-        public void GetDataLength(){} // RVA: 0x7FFAF9BF4B00
-        public void GetHasLocationData(){} // RVA: 0x7FFAF9BF4B50
-        public void GetCapturePixelFormat(){} // RVA: 0x7FFAF9BF4BA0
-        public void .ctor(){} // RVA: 0x7FFAF9BF4BF0
-        public void Cleanup(){} // RVA: 0x7FFAF9BF4DC0
-        public void Dispose_Internal(){} // RVA: 0x7FFAF9BF4F10
-        public void Dispose(){} // RVA: 0x7FFAF9BF4F60
-        public void Finalize(){} // RVA: 0x7FFAF9BF4FC0
+        public void get_dataLength(){} // RVA: 0x5BED50
+        public void set_dataLength(){} // RVA: 0x6374E0
+        public void set_hasLocationData(){} // RVA: 0x2F83A0
+        public void set_pixelFormat(){} // RVA: 0x99E0D0
+        public void GetDataLength(){} // RVA: 0x7144B00
+        public void GetHasLocationData(){} // RVA: 0x7144B50
+        public void GetCapturePixelFormat(){} // RVA: 0x7144BA0
+        public void .ctor(){} // RVA: 0x7144BF0
+        public void Cleanup(){} // RVA: 0x7144DC0
+        public void Dispose_Internal(){} // RVA: 0x7144F10
+        public void Dispose(){} // RVA: 0x7144F60
+        public void Finalize(){} // RVA: 0x7144FC0
     }
 
     public class VideoCapture
     {
         // ── Methods ──
-        public void MakeCaptureResult(){} // RVA: 0x7FFAF9BF5000
-        public void InvokeOnCreatedVideoCaptureResourceDelegate(){} // RVA: 0x7FFAF9BF5070
-        public void .ctor(){} // RVA: 0x7FFAF4417700
-        public void InvokeOnVideoModeStartedDelegate(){} // RVA: 0x7FFAF9BF5100
-        public void InvokeOnVideoModeStoppedDelegate(){} // RVA: 0x7FFAF9BF5100
-        public void InvokeOnStartedRecordingVideoToDiskDelegate(){} // RVA: 0x7FFAF9BF5100
-        public void InvokeOnStoppedRecordingVideoToDiskDelegate(){} // RVA: 0x7FFAF9BF5100
-        public void Dispose(){} // RVA: 0x7FFAF9BF51A0
-        public void Dispose_Internal(){} // RVA: 0x7FFAF9BF5240
-        public void Finalize(){} // RVA: 0x7FFAF9BF5290
-        public void DisposeThreaded_Internal(){} // RVA: 0x7FFAF9BF5320
+        public void MakeCaptureResult(){} // RVA: 0x7145000
+        public void InvokeOnCreatedVideoCaptureResourceDelegate(){} // RVA: 0x7145070
+        public void .ctor(){} // RVA: 0x1967700
+        public void InvokeOnVideoModeStartedDelegate(){} // RVA: 0x7145100
+        public void InvokeOnVideoModeStoppedDelegate(){} // RVA: 0x7145100
+        public void InvokeOnStartedRecordingVideoToDiskDelegate(){} // RVA: 0x7145100
+        public void InvokeOnStoppedRecordingVideoToDiskDelegate(){} // RVA: 0x7145100
+        public void Dispose(){} // RVA: 0x71451A0
+        public void Dispose_Internal(){} // RVA: 0x7145240
+        public void Finalize(){} // RVA: 0x7145290
+        public void DisposeThreaded_Internal(){} // RVA: 0x7145320
     }
 
 }

@@ -24,8 +24,8 @@ namespace ThirdParty.Other.OVR.OpenVR
     public class VRControllerState_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8C9E610
-        public void Unpack(){} // RVA: 0x7FFAF8C9E640
+        public void .ctor(){} // RVA: 0x61EE610
+        public void Unpack(){} // RVA: 0x61EE640
     }
 
     public class VREvent_ApplicationLaunch_t
@@ -71,7 +71,7 @@ namespace ThirdParty.Other.OVR.OpenVR
     public class VREvent_Keyboard_t
     {
         // ── Methods ──
-        public void get_cNewInput(){} // RVA: 0x7FFAF8C9E480
+        public void get_cNewInput(){} // RVA: 0x61EE480
     }
 
     public class VREvent_MessageOverlay_t
@@ -145,8 +145,8 @@ namespace ThirdParty.Other.OVR.OpenVR
     public class VREvent_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8C9E5B0
-        public void Unpack(){} // RVA: 0x7FFAF8C9E5E0
+        public void .ctor(){} // RVA: 0x61EE5B0
+        public void Unpack(){} // RVA: 0x61EE5E0
     }
 
     public class VROverlayIntersectionMaskPrimitive_Data_t

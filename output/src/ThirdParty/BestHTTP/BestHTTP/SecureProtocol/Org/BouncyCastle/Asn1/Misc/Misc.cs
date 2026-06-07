@@ -8,48 +8,48 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Misc
     public class Cast5CbcParameters
     {
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFAFC241660
-        public void .ctor(){} // RVA: 0x7FFAFC2419F0 | overloaded x2
-        public void GetIV(){} // RVA: 0x7FFAFC241CC0
-        public void get_KeyLength(){} // RVA: 0x7FFAFC241DA0
-        public void ToAsn1Object(){} // RVA: 0x7FFAFC241E00
+        public void GetInstance(){} // RVA: 0x9791660
+        public void .ctor(){} // RVA: 0x97919F0 | overloaded x2
+        public void GetIV(){} // RVA: 0x9791CC0
+        public void get_KeyLength(){} // RVA: 0x9791DA0
+        public void ToAsn1Object(){} // RVA: 0x9791E00
     }
 
     public class IdeaCbcPar
     {
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFAFC241F10
-        public void .ctor(){} // RVA: 0x7FFAFC242320 | overloaded x2
-        public void GetIV(){} // RVA: 0x7FFAFC1D5830
-        public void ToAsn1Object(){} // RVA: 0x7FFAFC242480
+        public void GetInstance(){} // RVA: 0x9791F10
+        public void .ctor(){} // RVA: 0x9792320 | overloaded x2
+        public void GetIV(){} // RVA: 0x9725830
+        public void ToAsn1Object(){} // RVA: 0x9792480
     }
 
     public class MiscObjectIdentifiers
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAFC242600
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x9792600
     }
 
     public class NetscapeCertType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFC244160 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFAFC244210
+        public void .ctor(){} // RVA: 0x9794160 | overloaded x2
+        public void ToString(){} // RVA: 0x9794210
     }
 
     public class NetscapeRevocationUrl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFC244350
-        public void ToString(){} // RVA: 0x7FFAFC244420
+        public void .ctor(){} // RVA: 0x9794350
+        public void ToString(){} // RVA: 0x9794420
     }
 
     public class VerisignCzagExtension
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFC244350
-        public void ToString(){} // RVA: 0x7FFAFC244480
+        public void .ctor(){} // RVA: 0x9794350
+        public void ToString(){} // RVA: 0x9794480
     }
 
 }

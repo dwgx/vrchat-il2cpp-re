@@ -8,8 +8,8 @@ namespace VRC.SDK3.Dynamics.Contact
     public class ContactPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x7FFAFA19BCB0
-        public void .ctor(){} // RVA: 0x7FFAFA19BE10
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x76EBCB0
+        public void .ctor(){} // RVA: 0x76EBE10
     }
 
 }

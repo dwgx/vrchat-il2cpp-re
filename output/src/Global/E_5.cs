@@ -182,7 +182,7 @@ public class Entry
 public class Entry
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x7FFAF9F981A0
+    public void .ctor(){} // RVA: 0x74E81A0
 }
 
 public class Entry

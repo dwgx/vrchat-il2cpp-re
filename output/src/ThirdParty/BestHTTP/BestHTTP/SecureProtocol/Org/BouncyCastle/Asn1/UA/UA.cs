@@ -8,8 +8,8 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.UA
     public class UAObjectIdentifiers
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAFC209050
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x9759050
     }
 
 }

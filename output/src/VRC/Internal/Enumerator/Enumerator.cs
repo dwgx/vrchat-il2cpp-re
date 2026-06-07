@@ -11,16 +11,16 @@ namespace VRC.Internal.Enumerator
         public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF38763C0
-        public void get_Current(){} // RVA: 0x7FFAF3876510
-        public void GetEnumerator_1F904209CA6F(){} // RVA: 0x7FFAF387A530 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFAF387BA10
+        public void MoveNext(){} // RVA: 0xDC63C0
+        public void get_Current(){} // RVA: 0xDC6510
+        public void GetEnumerator_1F904209CA6F(){} // RVA: 0xDCA530 | overloaded x2
+        public void .cctor(){} // RVA: 0xDCBA10
         // ── 18 unresolved (hash) ──
-        public void m_23C(){} // RVA: 0x7FFAF3876600
-        public void m_045(){} // RVA: 0x7FFAF3876650
-        public void m_550(){} // RVA: 0x7FFAF3876710
-        public void m_4C2(){} // RVA: 0x7FFAF3876770
-        public void m_772(){} // RVA: 0x7FFAF38767E0
+        public void m_23C(){} // RVA: 0xDC6600
+        public void m_045(){} // RVA: 0xDC6650
+        public void m_550(){} // RVA: 0xDC6710
+        public void m_4C2(){} // RVA: 0xDC6770
+        public void m_772(){} // RVA: 0xDC67E0
         // ... 13 more unresolved methods
     }
 
@@ -28,23 +28,24 @@ namespace VRC.Internal.Enumerator
     public class IEnumeratorImpl_8A16
     {
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF2AD4A50
-        public void get_Current(){} // RVA: 0x7FFAF2AD4B10
-        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
-        public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x7FFAF2ABDBE0
-        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7FFAF2AD4A50
-        public void CompareBaseObjects(){} // RVA: 0x7FFAF2D33FA0
-        public void CompareBaseObjects_45DF65DED3F8(){} // RVA: 0x7FFAF2AD4A50
-        public void CompareBaseObjects_EEE11926D826(){} // RVA: 0x7FFAF2ABCD60
-        public void CompareBaseObjects_D2370257AED0(){} // RVA: 0x7FFAF2ABCD60
-        public void CompareBaseObjects_57997441568B(){} // RVA: 0x7FFAF2D33FA0
-        public void Dispose(){} // RVA: 0x7FFAF2AD4A50
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF2ABCD60
-        public void ToString(){} // RVA: 0x7FFAF2D33FA0
-        public void ToString_4E7A80DC21BC(){} // RVA: 0x7FFAF2ABCD60
-        public void ToString_C58A70ACF129(){} // RVA: 0x7FFAF2ABDBE0
-        public void .ctor(){} // RVA: 0x7FFAF2AD4A50
+        public void MoveNext(){} // RVA: 0x24A50
+        public void get_Current(){} // RVA: 0x24B10
+        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0xDBE0
+        public void System.Collections.IEnumerator.Reset(){} // RVA: 0x24A50
+        public void CompareBaseObjects(){} // RVA: 0x283FA0
+        public void CompareBaseObjects_45DF65DED3F8(){} // RVA: 0x24A50
+        public void CompareBaseObjects_EEE11926D826(){} // RVA: 0xCD60
+        public void CompareBaseObjects_D2370257AED0(){} // RVA: 0xCD60
+        public void CompareBaseObjects_57997441568B(){} // RVA: 0x283FA0
+        public void Dispose(){} // RVA: 0x24A50
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xCD60
+        public void ToString(){} // RVA: 0x283FA0
+        public void ToString_4E7A80DC21BC(){} // RVA: 0xCD60
+        public void ToString_C58A70ACF129(){} // RVA: 0xDBE0
+        public void .ctor(){} // RVA: 0x24A50
+        // ── Unresolved (hash) ──
+        public void m_FAC(){} // RVA: 0xCD60
+        public void m_88A(){} // RVA: 0xDBE0
     }
 
     /// <summary>Originally: ÏÎÌÍÍÎÌÍÏÌÎÏÍÍÏÎÏÏÏÎÎÌÌ</summary>
@@ -54,15 +55,15 @@ namespace VRC.Internal.Enumerator
         public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAF4417C10
-        public void MoveNext(){} // RVA: 0x7FFAF4417D60
-        public void get_Current(){} // RVA: 0x7FFAF4417DD0
-        public void GetTouchId(){} // RVA: 0x7FFAF4417E40
-        public void GetEnumerator(){} // RVA: 0x7FFAF4417F00
-        public void ContainsMidiDeviceInfo(){} // RVA: 0x7FFAF44182C0
+        public void .cctor(){} // RVA: 0x1967C10
+        public void MoveNext(){} // RVA: 0x1967D60
+        public void get_Current(){} // RVA: 0x1967DD0
+        public void GetTouchId(){} // RVA: 0x1967E40
+        public void GetEnumerator(){} // RVA: 0x1967F00
+        public void ContainsMidiDeviceInfo(){} // RVA: 0x19682C0
         // ── Unresolved (hash) ──
-        public void m_5A5(){} // RVA: 0x7FFAF4417EB0
-        public void m_1C5(){} // RVA: 0x7FFAF4418150
+        public void m_5A5(){} // RVA: 0x1967EB0
+        public void m_1C5(){} // RVA: 0x1968150
     }
 
     /// <summary>Originally: ÍÍÎÎÎÌÏÌÌÍÍÍÌÏÍÌÎÏÎÎÌÍÌ</summary>
@@ -71,21 +72,21 @@ namespace VRC.Internal.Enumerator
         public object System.Collections.Generic.IEnumerator<System.Object>.Current;
 
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x7FFAF303C0A0
-        public void get_Current(){} // RVA: 0x7FFAF303C120
-        public void Equals(){} // RVA: 0x7FFAF303C1E0
-        public void GetHashCode(){} // RVA: 0x7FFAF303C440
-        public void ToString(){} // RVA: 0x7FFAF303C770
-        public void System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator_1147DD2720FE(){} // RVA: 0x7FFAF303CCB0 | overloaded x2
-        public void ConstructDelegate(){} // RVA: 0x7FFAF303CE00
-        public void ConstructDelegate_D086259C9736(){} // RVA: 0x7FFAF303CEC0
-        public void Reset(){} // RVA: 0x7FFAF303E1C0
-        public void .cctor(){} // RVA: 0x7FFAF303E540
+        public void MoveNext(){} // RVA: 0x58C0A0
+        public void get_Current(){} // RVA: 0x58C120
+        public void ConstructDelegate(){} // RVA: 0x58CE00
+        public void .cctor(){} // RVA: 0x58E540
         // ── Unresolved (hash) ──
-        public void m_E01(){} // RVA: 0x7FFAF303CAC0
-        public void m_3FE(){} // RVA: 0x7FFAF303CF60
-        public void m_1C1(){} // RVA: 0x7FFAF303D0B0
-        public void m_F0F(){} // RVA: 0x7FFAF303D4F0
+        public void m_3CF(){} // RVA: 0x58C1E0
+        public void m_2F6(){} // RVA: 0x58C440
+        public void m_651(){} // RVA: 0x58C770
+        public void m_E01(){} // RVA: 0x58CAC0
+        public void m_114(){} // RVA: 0x58CCB0
+        public void m_D08(){} // RVA: 0x58CEC0
+        public void m_3FE(){} // RVA: 0x58CF60
+        public void m_1C1(){} // RVA: 0x58D0B0
+        public void m_F0F(){} // RVA: 0x58D4F0
+        public void m_246(){} // RVA: 0x58E1C0
     }
 
     /// <summary>Originally: ÏÏÎÌÏÍÍÌÏÏÍÍÎÎÌÍÍÏÎÍÎÍÎ</summary>
@@ -95,24 +96,24 @@ namespace VRC.Internal.Enumerator
         public object System.Collections.IEnumerator.Current;
 
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAF2ABCD60
-        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
-        public void MoveNext(){} // RVA: 0x7FFAF2D33FA0
-        public void GetHashCode(){} // RVA: 0x7FFAF2ABD840
-        public void Reset(){} // RVA: 0x7FFAF2D33FA0
-        public void Equals(){} // RVA: 0x7FFAF2ABDE40
+        public void ToString(){} // RVA: 0xCD60
+        public void .ctor(){} // RVA: 0x283FA0
+        public void MoveNext(){} // RVA: 0x283FA0
+        public void GetHashCode(){} // RVA: 0xD840
+        public void Reset(){} // RVA: 0x283FA0
+        public void Equals(){} // RVA: 0xDE40
     }
 
     /// <summary>Originally: ÏÏÎÌÏÍÍÌÏÏÍÍÎÎÌÍÍÏÎÍÎÍÎ</summary>
     public class StringEnumerator_2539
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAF7C00D80
-        public void .ctor(){} // RVA: 0x7FFAF4816A50
-        public void MoveNext(){} // RVA: 0x7FFAF2DA8380
-        public void GetHashCode(){} // RVA: 0x7FFAF7C00F20
-        public void Reset(){} // RVA: 0x7FFAF306ED50
-        public void Equals(){} // RVA: 0x7FFAF7C00FD0
+        public void ToString(){} // RVA: 0x5150D80
+        public void .ctor(){} // RVA: 0x1D66A50
+        public void MoveNext(){} // RVA: 0x2F8380
+        public void GetHashCode(){} // RVA: 0x5150F20
+        public void Reset(){} // RVA: 0x5BED50
+        public void Equals(){} // RVA: 0x5150FD0
     }
 
 }

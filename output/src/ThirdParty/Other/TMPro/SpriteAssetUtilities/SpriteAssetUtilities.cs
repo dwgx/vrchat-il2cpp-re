@@ -8,7 +8,7 @@ namespace ThirdParty.Other.TMPro.SpriteAssetUtilities
     public class TexturePacker_JsonArray
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

@@ -8,7 +8,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration.Internal
     public class ICloudProjectId
     {
         // ── Methods ──
-        public void GetCloudProjectId(){} // RVA: 0x7FFE80E2E2E0
+        public void GetCloudProjectId(){} // RVA: 0xCD60
     }
 
     public class IExternalUserId
@@ -18,7 +18,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration.Internal
     public class IProjectConfiguration
     {
         // ── Methods ──
-        public void GetString(){} // RVA: 0x7FFE80E3FC10
+        public void GetString(){} // RVA: 0x1E6A0
     }
 
 }

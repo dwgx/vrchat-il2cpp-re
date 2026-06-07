@@ -8,11 +8,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tl
     public class OcspStatusRequest
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF39C9AE0
-        public void get_ResponderIDList(){} // RVA: 0x7FFAF2DA8380
-        public void get_RequestExtensions(){} // RVA: 0x7FFAF2D907C0
-        public void Encode(){} // RVA: 0x7FFAFBFDEFD0
-        public void Parse(){} // RVA: 0x7FFAFBFDF610
+        public void .ctor(){} // RVA: 0xF19AE0
+        public void get_ResponderIDList(){} // RVA: 0x2F8380
+        public void get_RequestExtensions(){} // RVA: 0x2E07C0
+        public void Encode(){} // RVA: 0x952EFD0
+        public void Parse(){} // RVA: 0x952F610
     }
 
 }

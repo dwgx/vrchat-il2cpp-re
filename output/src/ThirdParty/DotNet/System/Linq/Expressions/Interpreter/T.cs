@@ -8,63 +8,63 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
     public class ThrowInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF86AA520
-        public void get_InstructionName(){} // RVA: 0x7FFAF90C3010
-        public void get_ProducedStack(){} // RVA: 0x7FFAF8FD2960
-        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void Run(){} // RVA: 0x7FFAF90C3050
-        public void WrapThrownObject(){} // RVA: 0x7FFAF90C3250
-        public void .cctor(){} // RVA: 0x7FFAF90C33A0
+        public void .ctor(){} // RVA: 0x5BFA520
+        public void get_InstructionName(){} // RVA: 0x6613010
+        public void get_ProducedStack(){} // RVA: 0x6522960
+        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
+        public void Run(){} // RVA: 0x6613050
+        public void WrapThrownObject(){} // RVA: 0x6613250
+        public void .cctor(){} // RVA: 0x66133A0
     }
 
     public class TryCatchFinallyHandler
     {
         // ── Methods ──
-        public void get_IsFinallyBlockExist(){} // RVA: 0x7FFAF90DC780
-        public void get_Handlers(){} // RVA: 0x7FFAF2DBB130
-        public void get_IsCatchBlockExist(){} // RVA: 0x7FFAF8517FD0
-        public void .ctor(){} // RVA: 0x7FFAF90DC810 | overloaded x2
-        public void HasHandler(){} // RVA: 0x7FFAF90DC890
-        public void FilterPasses(){} // RVA: 0x7FFAF90DCAF0
+        public void get_IsFinallyBlockExist(){} // RVA: 0x662C780
+        public void get_Handlers(){} // RVA: 0x30B130
+        public void get_IsCatchBlockExist(){} // RVA: 0x5A67FD0
+        public void .ctor(){} // RVA: 0x662C810 | overloaded x2
+        public void HasHandler(){} // RVA: 0x662C890
+        public void FilterPasses(){} // RVA: 0x662CAF0
     }
 
     public class TryFaultHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF87EEB60
+        public void .ctor(){} // RVA: 0x5D3EB60
     }
 
     public class TypeAsInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_InstructionName(){} // RVA: 0x7FFAF9106F10
-        public void Run(){} // RVA: 0x7FFAF9106F50
-        public void ToString(){} // RVA: 0x7FFAF9107030
+        public void .ctor(){} // RVA: 0x2DEE30
+        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
+        public void get_ProducedStack(){} // RVA: 0x3CFAF0
+        public void get_InstructionName(){} // RVA: 0x6656F10
+        public void Run(){} // RVA: 0x6656F50
+        public void ToString(){} // RVA: 0x6657030
     }
 
     public class TypeEqualsInstruction
     {
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E92CB0
-        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_InstructionName(){} // RVA: 0x7FFAF91070A0
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Run(){} // RVA: 0x7FFAF91070E0
-        public void .cctor(){} // RVA: 0x7FFAF9107180
+        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
+        public void get_ProducedStack(){} // RVA: 0x3CFAF0
+        public void get_InstructionName(){} // RVA: 0x66570A0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Run(){} // RVA: 0x66570E0
+        public void .cctor(){} // RVA: 0x6657180
     }
 
     public class TypeIsInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_InstructionName(){} // RVA: 0x7FFAF9106DE0
-        public void Run(){} // RVA: 0x7FFAF9106E20
-        public void ToString(){} // RVA: 0x7FFAF9106EA0
+        public void .ctor(){} // RVA: 0x2DEE30
+        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
+        public void get_ProducedStack(){} // RVA: 0x3CFAF0
+        public void get_InstructionName(){} // RVA: 0x6656DE0
+        public void Run(){} // RVA: 0x6656E20
+        public void ToString(){} // RVA: 0x6656EA0
     }
 
 }

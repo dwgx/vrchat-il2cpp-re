@@ -2461,14 +2461,31 @@ class Deobfuscator:
 
         print(f'\n  All output saved to {output_dir}/')
 
+    def _infer_ga_base(self, data: dict) -> int:
+        """Infer GameAssembly.dll runtime base from method pointers."""
+        min_ptr = None
+        for ns, classes in data.get('namespaces', {}).items():
+            for cls in classes:
+                for p in cls.get('method_pointers', {}).values():
+                    if p and p.startswith('0x'):
+                        v = int(p, 16)
+                        if v > 0x10000 and (min_ptr is None or v < min_ptr):
+                            min_ptr = v
+        return (min_ptr & ~0xFFFF) if min_ptr else 0
+
     def _write_cs(self, data: dict, path: str):
-        """Generate C# stub file from deobfuscated data."""
+        """Generate Il2CppDumper-compatible C# stub with RVA offsets."""
+        ga_base = self._infer_ga_base(data)
+
         lines = []
         lines.append('// ============================================')
         lines.append('// VRChat IL2CPP Deobfuscated Dump')
         lines.append(f'// Classes renamed: {len(self.class_map)}')
         lines.append(f'// Methods renamed: {len(self.class_method_map)}')
         lines.append(f'// Fields renamed: {len(self.class_field_map)}')
+        if ga_base:
+            lines.append(f'// Runtime GA base: 0x{ga_base:X}')
+            lines.append(f'// Method addresses shown as RVA (add to your IDA/Ghidra imagebase)')
         lines.append('// ============================================\n')
 
         for ns in sorted(data['namespaces'].keys()):
@@ -2486,7 +2503,6 @@ class Deobfuscator:
                 original = cls.get('original_name', '')
                 name = cls['name']
 
-                # Comment with original name
                 if original:
                     lines.append(f'{indent}// Originally: {original}')
 
@@ -2494,23 +2510,35 @@ class Deobfuscator:
                 lines.append(f'{indent}public class {name}{parent_str}')
                 lines.append(f'{indent}{{')
 
-                # Fields
+                # Fields with offset
                 for f in cls.get('fields', []):
                     if isinstance(f, dict):
                         fname = f.get('name', str(f))
+                        ftype = f.get('type', 'object')
+                        foffset = f.get('offset', 0)
                         orig = f.get('original_name', '')
+                        parts = []
+                        if foffset > 0:
+                            parts.append(f'0x{foffset:X}')
                         if orig:
-                            lines.append(f'{indent}    {fname}; // was: {orig}')
-                        else:
-                            lines.append(f'{indent}    {fname};')
+                            parts.append(f'was: {orig[:30]}')
+                        comment = f' // {", ".join(parts)}' if parts else ''
+                        lines.append(f'{indent}    public {ftype} {fname};{comment}')
                     else:
-                        lines.append(f'{indent}    {f};')
+                        lines.append(f'{indent}    public object {f};')
 
-                # Methods
+                # Methods with RVA
                 ptrs = cls.get('method_pointers', {})
                 for m in cls.get('methods', []):
                     ptr = ptrs.get(m, '')
-                    ptr_comment = f' // {ptr}' if ptr else ''
+                    if ptr and ptr.startswith('0x') and ga_base:
+                        va = int(ptr, 16)
+                        rva = va - ga_base
+                        ptr_comment = f' // RVA: 0x{rva:X}'
+                    elif ptr:
+                        ptr_comment = f' // {ptr}'
+                    else:
+                        ptr_comment = ''
                     lines.append(f'{indent}    void {m}();{ptr_comment}')
 
                 lines.append(f'{indent}}}')

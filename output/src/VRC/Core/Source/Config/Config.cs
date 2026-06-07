@@ -8,16 +8,16 @@ namespace VRC.Core.Source.Config
     public class NoAllocByteSetStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFC3EF800
-        public void get_Count(){} // RVA: 0x7FFAFC3EFB40
-        public void Has(){} // RVA: 0x7FFAFC3EFB90
-        public void Get(){} // RVA: 0x7FFAFC3EFC10
-        public void Remove(){} // RVA: 0x7FFAFC3EFCD0
-        public void Clear(){} // RVA: 0x7FFAFC3EFDA0
-        public void Set(){} // RVA: 0x7FFAFC3EFDF0
-        public void LoadFromDisk(){} // RVA: 0x7FFAFC3F0160
-        public void SaveToDisk(){} // RVA: 0x7FFAFC3F0200
-        public void .cctor(){} // RVA: 0x7FFAFC3F0970
+        public void .ctor(){} // RVA: 0x993F800
+        public void get_Count(){} // RVA: 0x993FB40
+        public void Has(){} // RVA: 0x993FB90
+        public void Get(){} // RVA: 0x993FC10
+        public void Remove(){} // RVA: 0x993FCD0
+        public void Clear(){} // RVA: 0x993FDA0
+        public void Set(){} // RVA: 0x993FDF0
+        public void LoadFromDisk(){} // RVA: 0x9940160
+        public void SaveToDisk(){} // RVA: 0x9940200
+        public void .cctor(){} // RVA: 0x9940970
     }
 
 }

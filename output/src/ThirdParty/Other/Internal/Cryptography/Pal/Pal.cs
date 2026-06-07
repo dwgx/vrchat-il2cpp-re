@@ -8,11 +8,11 @@ namespace ThirdParty.Other.Internal.Cryptography.Pal
     public class CertificateData
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF969BCA0
-        public void GetNameInfo(){} // RVA: 0x7FFAF969C800
-        public void GetSimpleNameInfo(){} // RVA: 0x7FFAF969CDC0
-        public void FindAltNameMatch(){} // RVA: 0x7FFAF969D220
-        public void ReadReverseRdns(){} // RVA: 0x7FFAF969D420
+        public void .ctor(){} // RVA: 0x6BEBCA0
+        public void GetNameInfo(){} // RVA: 0x6BEC800
+        public void GetSimpleNameInfo(){} // RVA: 0x6BECDC0
+        public void FindAltNameMatch(){} // RVA: 0x6BED220
+        public void ReadReverseRdns(){} // RVA: 0x6BED420
     }
 
 }

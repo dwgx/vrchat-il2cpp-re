@@ -10,105 +10,105 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
         public object IdentityReference;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8770EF0
-        public void get_AccessControlType(){} // RVA: 0x7FFAF3241DC0
+        public void .ctor(){} // RVA: 0x5CC0EF0
+        public void get_AccessControlType(){} // RVA: 0x791DC0
     }
 
     public class AceEnumerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF5A43A00
-        public void get_Current(){} // RVA: 0x7FFAF8770F90
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7FFAF8770F90
-        public void MoveNext(){} // RVA: 0x7FFAF8770FD0
-        public void Reset(){} // RVA: 0x7FFAF4778140
+        public void .ctor(){} // RVA: 0x2F93A00
+        public void get_Current(){} // RVA: 0x5CC0F90
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x5CC0F90
+        public void MoveNext(){} // RVA: 0x5CC0FD0
+        public void Reset(){} // RVA: 0x1CC8140
     }
 
     public class AuthorizationRule
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8771030
-        public void get_IdentityReference(){} // RVA: 0x7FFAF2DA8380
-        public void get_InheritanceFlags(){} // RVA: 0x7FFAF3210030
-        public void get_PropagationFlags(){} // RVA: 0x7FFAF379F5B0
-        public void get_AccessMask(){} // RVA: 0x7FFAF306ED50
+        public void .ctor(){} // RVA: 0x5CC1030
+        public void get_IdentityReference(){} // RVA: 0x2F8380
+        public void get_InheritanceFlags(){} // RVA: 0x760030
+        public void get_PropagationFlags(){} // RVA: 0xCEF5B0
+        public void get_AccessMask(){} // RVA: 0x5BED50
     }
 
     public class CommonAce
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8771420 | overloaded x2
-        public void get_BinaryLength(){} // RVA: 0x7FFAF87716E0
-        public void GetBinaryForm(){} // RVA: 0x7FFAF8771730
-        public void ConvertType(){} // RVA: 0x7FFAF8771890
+        public void .ctor(){} // RVA: 0x5CC1420 | overloaded x2
+        public void get_BinaryLength(){} // RVA: 0x5CC16E0
+        public void GetBinaryForm(){} // RVA: 0x5CC1730
+        public void ConvertType(){} // RVA: 0x5CC1890
     }
 
     public class CommonAcl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8771C90 | overloaded x3
-        public void Init(){} // RVA: 0x7FFAF8771E10
-        public void get_BinaryLength(){} // RVA: 0x7FFAF86A76F0
-        public void get_Count(){} // RVA: 0x7FFAF8771E70
-        public void get_IsCanonical(){} // RVA: 0x7FFAF2FF3460
-        public void get_IsContainer(){} // RVA: 0x7FFAF440A940
-        public void get_IsDS(){} // RVA: 0x7FFAF440A9E0
-        public void get_IsAefa(){} // RVA: 0x7FFAF2E575E0
-        public void set_IsAefa(){} // RVA: 0x7FFAF2E575F0
-        public void get_Revision(){} // RVA: 0x7FFAF8771EA0
-        public void get_Item(){} // RVA: 0x7FFAF8771ED0
-        public void set_Item(){} // RVA: 0x7FFAF8771F90
-        public void GetBinaryForm(){} // RVA: 0x7FFAF8771FD0
-        public void Purge(){} // RVA: 0x7FFAF8772000
-        public void RequireCanonicity(){} // RVA: 0x7FFAF8772170
-        public void CanonicalizeAndClearAefa(){} // RVA: 0x7FFAF87721E0
-        public void IsAceMeaningless(){} // RVA: 0x7FFAF87723A0
-        public void TestCanonicity(){} // RVA: 0x7FFAF87724B0
-        public void GetCanonicalExplicitDenyAceCount(){} // RVA: 0x7FFAF87727B0
-        public void GetCanonicalExplicitAceCount(){} // RVA: 0x7FFAF8772910
-        public void MergeExplicitAces(){} // RVA: 0x7FFAF8772990
-        public void MergeExplicitAcePair(){} // RVA: 0x7FFAF8772AB0
-        public void GetObjectAceTypeGuids(){} // RVA: 0x7FFAF8773190
-        public void ApplyCanonicalSortToExplicitAces(){} // RVA: 0x7FFAF8773230 | overloaded x2
-        public void RemoveAces(){} // RVA: 0x7FFAF2AD4B10
-        public void AddAce(){} // RVA: 0x7FFAF8773670 | overloaded x2
-        public void AddAceGetQualifiedAce(){} // RVA: 0x7FFAF8773480
-        public void CopyAce(){} // RVA: 0x7FFAF8773870
-        public void GetAceInsertPosition(){} // RVA: 0x7FFAF2AC3FB0
-        public void GetAceFlags(){} // RVA: 0x7FFAF8773910
-        public void RemoveAceSpecific(){} // RVA: 0x7FFAF8773A60
-        public void SetAce(){} // RVA: 0x7FFAF8773DC0 | overloaded x2
+        public void .ctor(){} // RVA: 0x5CC1C90 | overloaded x3
+        public void Init(){} // RVA: 0x5CC1E10
+        public void get_BinaryLength(){} // RVA: 0x5BF76F0
+        public void get_Count(){} // RVA: 0x5CC1E70
+        public void get_IsCanonical(){} // RVA: 0x543460
+        public void get_IsContainer(){} // RVA: 0x195A940
+        public void get_IsDS(){} // RVA: 0x195A9E0
+        public void get_IsAefa(){} // RVA: 0x3A75E0
+        public void set_IsAefa(){} // RVA: 0x3A75F0
+        public void get_Revision(){} // RVA: 0x5CC1EA0
+        public void get_Item(){} // RVA: 0x5CC1ED0
+        public void set_Item(){} // RVA: 0x5CC1F90
+        public void GetBinaryForm(){} // RVA: 0x5CC1FD0
+        public void Purge(){} // RVA: 0x5CC2000
+        public void RequireCanonicity(){} // RVA: 0x5CC2170
+        public void CanonicalizeAndClearAefa(){} // RVA: 0x5CC21E0
+        public void IsAceMeaningless(){} // RVA: 0x5CC23A0
+        public void TestCanonicity(){} // RVA: 0x5CC24B0
+        public void GetCanonicalExplicitDenyAceCount(){} // RVA: 0x5CC27B0
+        public void GetCanonicalExplicitAceCount(){} // RVA: 0x5CC2910
+        public void MergeExplicitAces(){} // RVA: 0x5CC2990
+        public void MergeExplicitAcePair(){} // RVA: 0x5CC2AB0
+        public void GetObjectAceTypeGuids(){} // RVA: 0x5CC3190
+        public void ApplyCanonicalSortToExplicitAces(){} // RVA: 0x5CC3230 | overloaded x2
+        public void RemoveAces(){} // RVA: 0x24B10
+        public void AddAce(){} // RVA: 0x5CC3670 | overloaded x2
+        public void AddAceGetQualifiedAce(){} // RVA: 0x5CC3480
+        public void CopyAce(){} // RVA: 0x5CC3870
+        public void GetAceInsertPosition(){} // RVA: 0x13FB0
+        public void GetAceFlags(){} // RVA: 0x5CC3910
+        public void RemoveAceSpecific(){} // RVA: 0x5CC3A60
+        public void SetAce(){} // RVA: 0x5CC3DC0 | overloaded x2
     }
 
     public class CommonObjectSecurity
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8774330
-        public void AddAccessRule(){} // RVA: 0x7FFAF8774340
-        public void ModifyAccess(){} // RVA: 0x7FFAF8774380
+        public void .ctor(){} // RVA: 0x5CC4330
+        public void AddAccessRule(){} // RVA: 0x5CC4340
+        public void ModifyAccess(){} // RVA: 0x5CC4380
     }
 
     public class CommonSecurityDescriptor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8774AE0 | overloaded x2
-        public void Init(){} // RVA: 0x7FFAF8774CC0 | overloaded x2
-        public void get_ControlFlags(){} // RVA: 0x7FFAF8774D90
-        public void get_DiscretionaryAcl(){} // RVA: 0x7FFAF30E74D0
-        public void set_DiscretionaryAcl(){} // RVA: 0x7FFAF8774DB0
-        public void get_InternalDacl(){} // RVA: 0x7FFAF30E74D0
-        public void get_Group(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_Group(){} // RVA: 0x7FFAF2DBB0D0
-        public void get_IsContainer(){} // RVA: 0x7FFAF2E575E0
-        public void get_IsDS(){} // RVA: 0x7FFAF2FF3460
-        public void get_Owner(){} // RVA: 0x7FFAF2D907C0
-        public void set_Owner(){} // RVA: 0x7FFAF2DF3E80
-        public void get_SystemAcl(){} // RVA: 0x7FFAF2DBB130
-        public void set_SystemAcl(){} // RVA: 0x7FFAF8775000
-        public void get_InternalSacl(){} // RVA: 0x7FFAF2DBB130
-        public void PurgeAccessControl(){} // RVA: 0x7FFAF8775080
-        public void CheckAclConsistency(){} // RVA: 0x7FFAF87751F0
-        public void get_DaclIsUnmodifiedAefa(){} // RVA: 0x7FFAF87752C0
+        public void .ctor(){} // RVA: 0x5CC4AE0 | overloaded x2
+        public void Init(){} // RVA: 0x5CC4CC0 | overloaded x2
+        public void get_ControlFlags(){} // RVA: 0x5CC4D90
+        public void get_DiscretionaryAcl(){} // RVA: 0x6374D0
+        public void set_DiscretionaryAcl(){} // RVA: 0x5CC4DB0
+        public void get_InternalDacl(){} // RVA: 0x6374D0
+        public void get_Group(){} // RVA: 0x30B0C0
+        public void set_Group(){} // RVA: 0x30B0D0
+        public void get_IsContainer(){} // RVA: 0x3A75E0
+        public void get_IsDS(){} // RVA: 0x543460
+        public void get_Owner(){} // RVA: 0x2E07C0
+        public void set_Owner(){} // RVA: 0x343E80
+        public void get_SystemAcl(){} // RVA: 0x30B130
+        public void set_SystemAcl(){} // RVA: 0x5CC5000
+        public void get_InternalSacl(){} // RVA: 0x30B130
+        public void PurgeAccessControl(){} // RVA: 0x5CC5080
+        public void CheckAclConsistency(){} // RVA: 0x5CC51F0
+        public void get_DaclIsUnmodifiedAefa(){} // RVA: 0x5CC52C0
     }
 
     public class CryptoKeySecurity
@@ -118,215 +118,215 @@ namespace ThirdParty.DotNet.System.Security.AccessControl
     public class DiscretionaryAcl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF87752E0 | overloaded x2
-        public void AddAccess(){} // RVA: 0x7FFAF87752F0
-        public void RemoveAccess(){} // RVA: 0x7FFAF8775360
-        public void RemoveAccessSpecific(){} // RVA: 0x7FFAF87753A0
-        public void SetAccess(){} // RVA: 0x7FFAF8775540
-        public void ApplyCanonicalSortToExplicitAces(){} // RVA: 0x7FFAF8775710
-        public void GetAceInsertPosition(){} // RVA: 0x7FFAF8775770
-        public void GetAceQualifier(){} // RVA: 0x7FFAF8775780
-        public void IsAceMeaningless(){} // RVA: 0x7FFAF87757F0
+        public void .ctor(){} // RVA: 0x5CC52E0 | overloaded x2
+        public void AddAccess(){} // RVA: 0x5CC52F0
+        public void RemoveAccess(){} // RVA: 0x5CC5360
+        public void RemoveAccessSpecific(){} // RVA: 0x5CC53A0
+        public void SetAccess(){} // RVA: 0x5CC5540
+        public void ApplyCanonicalSortToExplicitAces(){} // RVA: 0x5CC5710
+        public void GetAceInsertPosition(){} // RVA: 0x5CC5770
+        public void GetAceQualifier(){} // RVA: 0x5CC5780
+        public void IsAceMeaningless(){} // RVA: 0x5CC57F0
     }
 
     public class GenericAce
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8775970 | overloaded x2
-        public void get_AceFlags(){} // RVA: 0x7FFAF2E575E0
-        public void get_AceType(){} // RVA: 0x7FFAF2FF3460
-        public void get_AuditFlags(){} // RVA: 0x7FFAF8775AB0
-        public void get_BinaryLength(){} // RVA: 0x7FFAF2ABD840
-        public void get_InheritanceFlags(){} // RVA: 0x7FFAF8775AD0
-        public void get_IsInherited(){} // RVA: 0x7FFAF8775AF0
-        public void get_PropagationFlags(){} // RVA: 0x7FFAF8775B00
-        public void CreateFromBinaryForm(){} // RVA: 0x7FFAF8775B20
-        public void Equals(){} // RVA: 0x7FFAF8775CE0
-        public void GetBinaryForm(){} // RVA: 0x7FFAF2ADBAA0
-        public void GetHashCode(){} // RVA: 0x7FFAF8775D70
-        public void op_Equality(){} // RVA: 0x7FFAF8775E40
-        public void op_Inequality(){} // RVA: 0x7FFAF8775FA0
-        public void IsObjectType(){} // RVA: 0x7FFAF8776100
-        public void ReadUShort(){} // RVA: 0x7FFAF8776120
-        public void ReadInt(){} // RVA: 0x7FFAF8776160
-        public void WriteInt(){} // RVA: 0x7FFAF87761D0
-        public void WriteUShort(){} // RVA: 0x7FFAF8776240
+        public void .ctor(){} // RVA: 0x5CC5970 | overloaded x2
+        public void get_AceFlags(){} // RVA: 0x3A75E0
+        public void get_AceType(){} // RVA: 0x543460
+        public void get_AuditFlags(){} // RVA: 0x5CC5AB0
+        public void get_BinaryLength(){} // RVA: 0xD840
+        public void get_InheritanceFlags(){} // RVA: 0x5CC5AD0
+        public void get_IsInherited(){} // RVA: 0x5CC5AF0
+        public void get_PropagationFlags(){} // RVA: 0x5CC5B00
+        public void CreateFromBinaryForm(){} // RVA: 0x5CC5B20
+        public void Equals(){} // RVA: 0x5CC5CE0
+        public void GetBinaryForm(){} // RVA: 0x2BAA0
+        public void GetHashCode(){} // RVA: 0x5CC5D70
+        public void op_Equality(){} // RVA: 0x5CC5E40
+        public void op_Inequality(){} // RVA: 0x5CC5FA0
+        public void IsObjectType(){} // RVA: 0x5CC6100
+        public void ReadUShort(){} // RVA: 0x5CC6120
+        public void ReadInt(){} // RVA: 0x5CC6160
+        public void WriteInt(){} // RVA: 0x5CC61D0
+        public void WriteUShort(){} // RVA: 0x5CC6240
     }
 
     public class GenericAcl
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAF8776280
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void get_BinaryLength(){} // RVA: 0x7FFAF2ABD840
-        public void get_Count(){} // RVA: 0x7FFAF2ABD840
-        public void get_IsSynchronized(){} // RVA: 0x7FFAF2D8D320
-        public void get_Item(){} // RVA: 0x7FFAF2ACBCC0
-        public void set_Item(){} // RVA: 0x7FFAF2AD6C40
-        public void get_Revision(){} // RVA: 0x7FFAF2ABDBE0
-        public void get_SyncRoot(){} // RVA: 0x7FFAF44EF520
-        public void CopyTo(){} // RVA: 0x7FFAF87762F0
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7FFAF8776500
-        public void GetBinaryForm(){} // RVA: 0x7FFAF2ADBAA0
-        public void GetEnumerator(){} // RVA: 0x7FFAF8776590
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF8776630
+        public void .cctor(){} // RVA: 0x5CC6280
+        public void .ctor(){} // RVA: 0x2DD310
+        public void get_BinaryLength(){} // RVA: 0xD840
+        public void get_Count(){} // RVA: 0xD840
+        public void get_IsSynchronized(){} // RVA: 0x2DD320
+        public void get_Item(){} // RVA: 0x1BCC0
+        public void set_Item(){} // RVA: 0x26C40
+        public void get_Revision(){} // RVA: 0xDBE0
+        public void get_SyncRoot(){} // RVA: 0x1A3F520
+        public void CopyTo(){} // RVA: 0x5CC62F0
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x5CC6500
+        public void GetBinaryForm(){} // RVA: 0x2BAA0
+        public void GetEnumerator(){} // RVA: 0x5CC6590
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5CC6630
     }
 
     public class GenericSecurityDescriptor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void get_BinaryLength(){} // RVA: 0x7FFAF8776640
-        public void get_ControlFlags(){} // RVA: 0x7FFAF2ABD840
-        public void get_Group(){} // RVA: 0x7FFAF2ABCD60
-        public void set_Group(){} // RVA: 0x7FFAF2AD4B10
-        public void get_Owner(){} // RVA: 0x7FFAF2ABCD60
-        public void set_Owner(){} // RVA: 0x7FFAF2AD4B10
-        public void get_Revision(){} // RVA: 0x7FFAF2E72850
-        public void get_InternalDacl(){} // RVA: 0x7FFAF2FC9240
-        public void get_InternalSacl(){} // RVA: 0x7FFAF2FC9240
-        public void get_InternalReservedField(){} // RVA: 0x7FFAF2D8D320
-        public void GetBinaryForm(){} // RVA: 0x7FFAF8776850
-        public void get_DaclIsUnmodifiedAefa(){} // RVA: 0x7FFAF2D8D320
-        public void get_DaclPresent(){} // RVA: 0x7FFAF8776EE0
-        public void get_SaclPresent(){} // RVA: 0x7FFAF8776F30
-        public void WriteUShort(){} // RVA: 0x7FFAF8776F80
-        public void WriteInt(){} // RVA: 0x7FFAF8776FC0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void get_BinaryLength(){} // RVA: 0x5CC6640
+        public void get_ControlFlags(){} // RVA: 0xD840
+        public void get_Group(){} // RVA: 0xCD60
+        public void set_Group(){} // RVA: 0x24B10
+        public void get_Owner(){} // RVA: 0xCD60
+        public void set_Owner(){} // RVA: 0x24B10
+        public void get_Revision(){} // RVA: 0x3C2850
+        public void get_InternalDacl(){} // RVA: 0x519240
+        public void get_InternalSacl(){} // RVA: 0x519240
+        public void get_InternalReservedField(){} // RVA: 0x2DD320
+        public void GetBinaryForm(){} // RVA: 0x5CC6850
+        public void get_DaclIsUnmodifiedAefa(){} // RVA: 0x2DD320
+        public void get_DaclPresent(){} // RVA: 0x5CC6EE0
+        public void get_SaclPresent(){} // RVA: 0x5CC6F30
+        public void WriteUShort(){} // RVA: 0x5CC6F80
+        public void WriteInt(){} // RVA: 0x5CC6FC0
     }
 
     public class KnownAce
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8777030 | overloaded x2
-        public void get_AccessMask(){} // RVA: 0x7FFAF306ED50
-        public void set_AccessMask(){} // RVA: 0x7FFAF30E74E0
-        public void get_SecurityIdentifier(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_SecurityIdentifier(){} // RVA: 0x7FFAF2DBB0D0
+        public void .ctor(){} // RVA: 0x5CC7030 | overloaded x2
+        public void get_AccessMask(){} // RVA: 0x5BED50
+        public void set_AccessMask(){} // RVA: 0x6374E0
+        public void get_SecurityIdentifier(){} // RVA: 0x30B0C0
+        public void set_SecurityIdentifier(){} // RVA: 0x30B0D0
     }
 
     public class NativeObjectSecurity
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8777310 | overloaded x4
-        public void ClearAccessControlSectionsModified(){} // RVA: 0x7FFAF8777400
-        public void DefaultExceptionFromErrorCode(){} // RVA: 0x7FFAF87774A0
-        public void RaiseExceptionOnFailure(){} // RVA: 0x7FFAF87776F0
-        public void InternalGet(){} // RVA: 0x7FFAF87777A0
-        public void get_ResourceType(){} // RVA: 0x7FFAF2DE8CD0
-        public void Win32GetHelper(){} // RVA: 0x7FFAF87779F0
-        public void GetSecurityInfo(){} // RVA: 0x7FFAF8777D80
-        public void LocalFree(){} // RVA: 0x7FFAF8777EC0
-        public void GetSecurityDescriptorLength(){} // RVA: 0x7FFAF8777F40
-        public void IsValidSecurityDescriptor(){} // RVA: 0x7FFAF8777FC0
+        public void .ctor(){} // RVA: 0x5CC7310 | overloaded x4
+        public void ClearAccessControlSectionsModified(){} // RVA: 0x5CC7400
+        public void DefaultExceptionFromErrorCode(){} // RVA: 0x5CC74A0
+        public void RaiseExceptionOnFailure(){} // RVA: 0x5CC76F0
+        public void InternalGet(){} // RVA: 0x5CC77A0
+        public void get_ResourceType(){} // RVA: 0x338CD0
+        public void Win32GetHelper(){} // RVA: 0x5CC79F0
+        public void GetSecurityInfo(){} // RVA: 0x5CC7D80
+        public void LocalFree(){} // RVA: 0x5CC7EC0
+        public void GetSecurityDescriptorLength(){} // RVA: 0x5CC7F40
+        public void IsValidSecurityDescriptor(){} // RVA: 0x5CC7FC0
     }
 
     public class ObjectAce
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF87784E0 | overloaded x2
-        public void get_BinaryLength(){} // RVA: 0x7FFAF87788D0
-        public void get_InheritedObjectAceType(){} // RVA: 0x7FFAF4A56340
-        public void set_InheritedObjectAceType(){} // RVA: 0x7FFAF6F19B20
-        public void get_InheritedObjectAceTypePresent(){} // RVA: 0x7FFAF8778930
-        public void get_ObjectAceFlags(){} // RVA: 0x7FFAF304C540
-        public void set_ObjectAceFlags(){} // RVA: 0x7FFAF310F570
-        public void get_ObjectAceType(){} // RVA: 0x7FFAF8778940
-        public void set_ObjectAceType(){} // RVA: 0x7FFAF8778950
-        public void get_ObjectAceTypePresent(){} // RVA: 0x7FFAF8778960
-        public void GetBinaryForm(){} // RVA: 0x7FFAF8778970
-        public void ConvertType(){} // RVA: 0x7FFAF8778BC0
-        public void WriteGuid(){} // RVA: 0x7FFAF8778CE0
-        public void ReadGuid(){} // RVA: 0x7FFAF8778D30
+        public void .ctor(){} // RVA: 0x5CC84E0 | overloaded x2
+        public void get_BinaryLength(){} // RVA: 0x5CC88D0
+        public void get_InheritedObjectAceType(){} // RVA: 0x1FA6340
+        public void set_InheritedObjectAceType(){} // RVA: 0x4469B20
+        public void get_InheritedObjectAceTypePresent(){} // RVA: 0x5CC8930
+        public void get_ObjectAceFlags(){} // RVA: 0x59C540
+        public void set_ObjectAceFlags(){} // RVA: 0x65F570
+        public void get_ObjectAceType(){} // RVA: 0x5CC8940
+        public void set_ObjectAceType(){} // RVA: 0x5CC8950
+        public void get_ObjectAceTypePresent(){} // RVA: 0x5CC8960
+        public void GetBinaryForm(){} // RVA: 0x5CC8970
+        public void ConvertType(){} // RVA: 0x5CC8BC0
+        public void WriteGuid(){} // RVA: 0x5CC8CE0
+        public void ReadGuid(){} // RVA: 0x5CC8D30
     }
 
     public class ObjectSecurity
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8778FE0 | overloaded x2
-        public void get_AccessControlSectionsModified(){} // RVA: 0x7FFAF8779220
-        public void set_AccessControlSectionsModified(){} // RVA: 0x7FFAF87792B0
-        public void set_AccessRulesModified(){} // RVA: 0x7FFAF8779330
-        public void get_IsContainer(){} // RVA: 0x7FFAF8779380
-        public void get_IsDS(){} // RVA: 0x7FFAF87793A0
-        public void set_OwnerModified(){} // RVA: 0x7FFAF87793C0
-        public void GetOwner(){} // RVA: 0x7FFAF8779410
-        public void GetSecurityDescriptorBinaryForm(){} // RVA: 0x7FFAF87795B0
-        public void PurgeAccessRules(){} // RVA: 0x7FFAF87796D0
-        public void SetOwner(){} // RVA: 0x7FFAF8779940
-        public void SetSecurityDescriptorBinaryForm(){} // RVA: 0x7FFAF8779A40
-        public void CopySddlForm(){} // RVA: 0x7FFAF8779B00
+        public void .ctor(){} // RVA: 0x5CC8FE0 | overloaded x2
+        public void get_AccessControlSectionsModified(){} // RVA: 0x5CC9220
+        public void set_AccessControlSectionsModified(){} // RVA: 0x5CC92B0
+        public void set_AccessRulesModified(){} // RVA: 0x5CC9330
+        public void get_IsContainer(){} // RVA: 0x5CC9380
+        public void get_IsDS(){} // RVA: 0x5CC93A0
+        public void set_OwnerModified(){} // RVA: 0x5CC93C0
+        public void GetOwner(){} // RVA: 0x5CC9410
+        public void GetSecurityDescriptorBinaryForm(){} // RVA: 0x5CC95B0
+        public void PurgeAccessRules(){} // RVA: 0x5CC96D0
+        public void SetOwner(){} // RVA: 0x5CC9940
+        public void SetSecurityDescriptorBinaryForm(){} // RVA: 0x5CC9A40
+        public void CopySddlForm(){} // RVA: 0x5CC9B00
         public void ModifyAccess(){}
-        public void Reading(){} // RVA: 0x7FFAF8779D50
-        public void ReadLock(){} // RVA: 0x7FFAF8779DE0
-        public void ReadUnlock(){} // RVA: 0x7FFAF8779E10
-        public void Writing(){} // RVA: 0x7FFAF8779E30
-        public void WriteLock(){} // RVA: 0x7FFAF8779EB0
-        public void WriteUnlock(){} // RVA: 0x7FFAF8779EE0
-        public void SidFromIR(){} // RVA: 0x7FFAF8779F00
-        public void SetAccessControlSectionsModified(){} // RVA: 0x7FFAF877A020
+        public void Reading(){} // RVA: 0x5CC9D50
+        public void ReadLock(){} // RVA: 0x5CC9DE0
+        public void ReadUnlock(){} // RVA: 0x5CC9E10
+        public void Writing(){} // RVA: 0x5CC9E30
+        public void WriteLock(){} // RVA: 0x5CC9EB0
+        public void WriteUnlock(){} // RVA: 0x5CC9EE0
+        public void SidFromIR(){} // RVA: 0x5CC9F00
+        public void SetAccessControlSectionsModified(){} // RVA: 0x5CCA020
     }
 
     public class PrivilegeNotHeldException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8770C20 | overloaded x2
-        public void GetObjectData(){} // RVA: 0x7FFAF8770D30
+        public void .ctor(){} // RVA: 0x5CC0C20 | overloaded x2
+        public void GetObjectData(){} // RVA: 0x5CC0D30
     }
 
     public class QualifiedAce
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8777030 | overloaded x2
-        public void get_AceQualifier(){} // RVA: 0x7FFAF877A0E0
-        public void get_IsCallback(){} // RVA: 0x7FFAF877A210
-        public void get_OpaqueLength(){} // RVA: 0x7FFAF877A250
-        public void GetOpaque(){} // RVA: 0x7FFAF877A270
-        public void SetOpaque(){} // RVA: 0x7FFAF877A2F0
+        public void .ctor(){} // RVA: 0x5CC7030 | overloaded x2
+        public void get_AceQualifier(){} // RVA: 0x5CCA0E0
+        public void get_IsCallback(){} // RVA: 0x5CCA210
+        public void get_OpaqueLength(){} // RVA: 0x5CCA250
+        public void GetOpaque(){} // RVA: 0x5CCA270
+        public void SetOpaque(){} // RVA: 0x5CCA2F0
     }
 
     public class RawAcl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF877A570 | overloaded x2
-        public void get_BinaryLength(){} // RVA: 0x7FFAF877A960
-        public void get_Count(){} // RVA: 0x7FFAF877AAE0
-        public void get_Item(){} // RVA: 0x7FFAF877AB30
-        public void set_Item(){} // RVA: 0x7FFAF877ABB0
-        public void get_Revision(){} // RVA: 0x7FFAF2E575E0
-        public void GetBinaryForm(){} // RVA: 0x7FFAF877AC30
-        public void InsertAce(){} // RVA: 0x7FFAF877AFA0
-        public void RemoveAce(){} // RVA: 0x7FFAF877B080
-        public void WriteUShort(){} // RVA: 0x7FFAF8776F80
-        public void ReadUShort(){} // RVA: 0x7FFAF877B0E0
+        public void .ctor(){} // RVA: 0x5CCA570 | overloaded x2
+        public void get_BinaryLength(){} // RVA: 0x5CCA960
+        public void get_Count(){} // RVA: 0x5CCAAE0
+        public void get_Item(){} // RVA: 0x5CCAB30
+        public void set_Item(){} // RVA: 0x5CCABB0
+        public void get_Revision(){} // RVA: 0x3A75E0
+        public void GetBinaryForm(){} // RVA: 0x5CCAC30
+        public void InsertAce(){} // RVA: 0x5CCAFA0
+        public void RemoveAce(){} // RVA: 0x5CCB080
+        public void WriteUShort(){} // RVA: 0x5CC6F80
+        public void ReadUShort(){} // RVA: 0x5CCB0E0
     }
 
     public class RawSecurityDescriptor
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF877B120
-        public void get_ControlFlags(){} // RVA: 0x7FFAF2DDA5C0
-        public void get_DiscretionaryAcl(){} // RVA: 0x7FFAF30E74D0
-        public void get_Group(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_Group(){} // RVA: 0x7FFAF2DBB0D0
-        public void get_Owner(){} // RVA: 0x7FFAF2D907C0
-        public void set_Owner(){} // RVA: 0x7FFAF2DF3E80
-        public void get_ResourceManagerControl(){} // RVA: 0x7FFAF2F56500
-        public void get_SystemAcl(){} // RVA: 0x7FFAF2DBB130
-        public void get_InternalDacl(){} // RVA: 0x7FFAF30E74D0
-        public void get_InternalSacl(){} // RVA: 0x7FFAF2DBB130
-        public void get_InternalReservedField(){} // RVA: 0x7FFAF2F56500
-        public void ReadUShort(){} // RVA: 0x7FFAF877B0E0
-        public void ReadInt(){} // RVA: 0x7FFAF877B580
+        public void .ctor(){} // RVA: 0x5CCB120
+        public void get_ControlFlags(){} // RVA: 0x32A5C0
+        public void get_DiscretionaryAcl(){} // RVA: 0x6374D0
+        public void get_Group(){} // RVA: 0x30B0C0
+        public void set_Group(){} // RVA: 0x30B0D0
+        public void get_Owner(){} // RVA: 0x2E07C0
+        public void set_Owner(){} // RVA: 0x343E80
+        public void get_ResourceManagerControl(){} // RVA: 0x4A6500
+        public void get_SystemAcl(){} // RVA: 0x30B130
+        public void get_InternalDacl(){} // RVA: 0x6374D0
+        public void get_InternalSacl(){} // RVA: 0x30B130
+        public void get_InternalReservedField(){} // RVA: 0x4A6500
+        public void ReadUShort(){} // RVA: 0x5CCB0E0
+        public void ReadInt(){} // RVA: 0x5CCB580
     }
 
     public class SystemAcl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF87752E0
-        public void ApplyCanonicalSortToExplicitAces(){} // RVA: 0x7FFAF877B5F0
-        public void GetAceInsertPosition(){} // RVA: 0x7FFAF2FC9240
-        public void IsAceMeaningless(){} // RVA: 0x7FFAF877B620
-        public void IsValidAuditFlags(){} // RVA: 0x7FFAF877B730
+        public void .ctor(){} // RVA: 0x5CC52E0
+        public void ApplyCanonicalSortToExplicitAces(){} // RVA: 0x5CCB5F0
+        public void GetAceInsertPosition(){} // RVA: 0x519240
+        public void IsAceMeaningless(){} // RVA: 0x5CCB620
+        public void IsValidAuditFlags(){} // RVA: 0x5CCB730
     }
 
 }

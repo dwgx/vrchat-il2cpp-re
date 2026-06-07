@@ -8,29 +8,29 @@ namespace ThirdParty.DotNet.System.Linq.Expressions
     public class ParameterExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF90B1C60 | overloaded x2
-        public void Make(){} // RVA: 0x7FFAF90B1610
-        public void get_Type(){} // RVA: 0x7FFAF90B1B70
-        public void get_NodeType(){} // RVA: 0x7FFAF90B1C20
-        public void get_Name(){} // RVA: 0x7FFAF2DA8380
-        public void get_IsByRef(){} // RVA: 0x7FFAF629F790
-        public void GetIsByRef(){} // RVA: 0x7FFAF2D8D320
-        public void Accept(){} // RVA: 0x7FFAF90B1C30
+        public void .ctor(){} // RVA: 0x6601C60 | overloaded x2
+        public void Make(){} // RVA: 0x6601610
+        public void get_Type(){} // RVA: 0x6601B70
+        public void get_NodeType(){} // RVA: 0x6601C20
+        public void get_Name(){} // RVA: 0x2F8380
+        public void get_IsByRef(){} // RVA: 0x37EF790
+        public void GetIsByRef(){} // RVA: 0x2DD320
+        public void Accept(){} // RVA: 0x6601C30
     }
 
     public class PrimitiveParameterExpression`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
-        public void get_Type(){} // RVA: 0x7FFAF2ABCD60
+        public void .ctor(){} // RVA: 0x24B10
+        public void get_Type(){} // RVA: 0xCD60
     }
 
     public class PropertyExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF90AC840
-        public void GetMember(){} // RVA: 0x7FFAF2D907C0
-        public void get_Type(){} // RVA: 0x7FFAF90AC8E0
+        public void .ctor(){} // RVA: 0x65FC840
+        public void GetMember(){} // RVA: 0x2E07C0
+        public void get_Type(){} // RVA: 0x65FC8E0
     }
 
 }

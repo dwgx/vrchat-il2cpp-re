@@ -8,13 +8,13 @@ namespace ThirdParty.DotNet.Microsoft.CSharp
     public class CSharpCodeProvider
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class CodeDomProvider
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

@@ -8,10 +8,10 @@ namespace ThirdParty.Other.SteamAudio
     public class RadeonRaysDevice
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8F26F20 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFAF8F26FC0
-        public void Release(){} // RVA: 0x7FFAF8F27000
-        public void Get(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x6476F20 | overloaded x2
+        public void Finalize(){} // RVA: 0x6476FC0
+        public void Release(){} // RVA: 0x6477000
+        public void Get(){} // RVA: 0x2F8380
     }
 
     public class RadeonRaysDeviceSettings

@@ -9,8 +9,8 @@ namespace VRC.Misc
     public class normalizedPosition_5FF9_A58D
     {
         // ── Methods ──
-        public void get_normalizedPosition(){} // RVA: 0x7FFAF2ABCD60
-        public void set_normalizedPosition(){} // RVA: 0x7FFAF2AE3510
+        public void get_normalizedPosition(){} // RVA: 0xCD60
+        public void set_normalizedPosition(){} // RVA: 0x33510
     }
 
 }

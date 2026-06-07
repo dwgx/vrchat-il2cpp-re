@@ -9,7 +9,7 @@ namespace VRC.Internal.Generated
     public class EmptyStruct_E5A8_2D24
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAF4419E80
+        public void ToString(){} // RVA: 0x1969E80
     }
 
     /// <summary>Originally: ÌÌÌÎÎÎÏÍÍÌÌÏÏÎÍÏÌÍÎÏÏÎÏ</summary>

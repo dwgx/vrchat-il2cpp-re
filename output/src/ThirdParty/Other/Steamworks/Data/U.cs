@@ -8,59 +8,59 @@ namespace ThirdParty.Other.Steamworks.Data
     public class UnreadChatMessagesChanged_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B795C0
-        public void .cctor(){} // RVA: 0x7FFAF4B795D0
+        public void get_CallbackType(){} // RVA: 0x20C95C0
+        public void .cctor(){} // RVA: 0x20C95D0
     }
 
     public class UserAchievementIconFetched_t
     {
         // ── Methods ──
-        public void AchievementNameUTF8(){} // RVA: 0x7FFAF4B7E010
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B7E120
-        public void .cctor(){} // RVA: 0x7FFAF4B7E130
+        public void AchievementNameUTF8(){} // RVA: 0x20CE010
+        public void get_CallbackType(){} // RVA: 0x20CE120
+        public void .cctor(){} // RVA: 0x20CE130
     }
 
     public class UserAchievementStored_t
     {
         // ── Methods ──
-        public void AchievementNameUTF8(){} // RVA: 0x7FFAF4B7D8A0
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B7D9B0
-        public void .cctor(){} // RVA: 0x7FFAF4B7D9C0
+        public void AchievementNameUTF8(){} // RVA: 0x20CD8A0
+        public void get_CallbackType(){} // RVA: 0x20CD9B0
+        public void .cctor(){} // RVA: 0x20CD9C0
     }
 
     public class UserFavoriteItemsListChanged_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B80DC0
-        public void .cctor(){} // RVA: 0x7FFAF4B80DD0
+        public void get_CallbackType(){} // RVA: 0x20D0DC0
+        public void .cctor(){} // RVA: 0x20D0DD0
     }
 
     public class UserStatsReceived_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B7D680
-        public void .cctor(){} // RVA: 0x7FFAF4B7D690
+        public void get_CallbackType(){} // RVA: 0x20CD680
+        public void .cctor(){} // RVA: 0x20CD690
     }
 
     public class UserStatsStored_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B7D790
-        public void .cctor(){} // RVA: 0x7FFAF4B7D7A0
+        public void get_CallbackType(){} // RVA: 0x20CD790
+        public void .cctor(){} // RVA: 0x20CD7A0
     }
 
     public class UserStatsUnloaded_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B7DF00
-        public void .cctor(){} // RVA: 0x7FFAF4B7DF10
+        public void get_CallbackType(){} // RVA: 0x20CDF00
+        public void .cctor(){} // RVA: 0x20CDF10
     }
 
     public class UserSubscribedItemsListChanged_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B81970
-        public void .cctor(){} // RVA: 0x7FFAF4B81980
+        public void get_CallbackType(){} // RVA: 0x20D1970
+        public void .cctor(){} // RVA: 0x20D1980
     }
 
 }

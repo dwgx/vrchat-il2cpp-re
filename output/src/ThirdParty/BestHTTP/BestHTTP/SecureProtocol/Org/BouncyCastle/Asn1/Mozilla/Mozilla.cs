@@ -8,11 +8,11 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Mozi
     public class PublicKeyAndChallenge
     {
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x7FFAFC2411D0
-        public void .ctor(){} // RVA: 0x7FFAFC2414F0
-        public void ToAsn1Object(){} // RVA: 0x7FFAF2DA8380
-        public void get_SubjectPublicKeyInfo(){} // RVA: 0x7FFAF2D907C0
-        public void get_Challenge(){} // RVA: 0x7FFAF2DBB0C0
+        public void GetInstance(){} // RVA: 0x97911D0
+        public void .ctor(){} // RVA: 0x97914F0
+        public void ToAsn1Object(){} // RVA: 0x2F8380
+        public void get_SubjectPublicKeyInfo(){} // RVA: 0x2E07C0
+        public void get_Challenge(){} // RVA: 0x30B0C0
     }
 
 }

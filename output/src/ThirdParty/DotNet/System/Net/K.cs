@@ -8,9 +8,9 @@ namespace ThirdParty.DotNet.System.Net
     public class KnownHttpVerb
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF95D0360
-        public void .cctor(){} // RVA: 0x7FFAF95D03D0
-        public void Parse(){} // RVA: 0x7FFAF95D0BA0
+        public void .ctor(){} // RVA: 0x6B20360
+        public void .cctor(){} // RVA: 0x6B203D0
+        public void Parse(){} // RVA: 0x6B20BA0
     }
 
 }

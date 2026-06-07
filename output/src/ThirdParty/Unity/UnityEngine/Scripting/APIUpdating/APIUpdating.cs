@@ -8,13 +8,13 @@ namespace ThirdParty.Unity.UnityEngine.Scripting.APIUpdating
     public class MovedFromAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9BF8F20 | overloaded x2
+        public void .ctor(){} // RVA: 0x7148F20 | overloaded x2
     }
 
     public class MovedFromAttributeData
     {
         // ── Methods ──
-        public void Set(){} // RVA: 0x7FFAF9BF8DB0
+        public void Set(){} // RVA: 0x7148DB0
     }
 
 }

@@ -8,7 +8,7 @@ namespace ThirdParty.DotNet.System.Xml.Schema
     public class MiscFacetsChecker
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

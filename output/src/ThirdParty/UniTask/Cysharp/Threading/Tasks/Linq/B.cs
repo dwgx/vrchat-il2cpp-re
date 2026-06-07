@@ -15,7 +15,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class Buffer`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADBAA0
+        public void .ctor(){} // RVA: 0x2BAA0
         public void GetAsyncEnumerator(){}
     }
 

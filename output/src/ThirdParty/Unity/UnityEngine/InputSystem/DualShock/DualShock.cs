@@ -8,106 +8,106 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock
     public class DualSenseGamepadHID
     {
         // ── Methods ──
-        public void get_leftTriggerButton(){} // RVA: 0x7FFAF3844490
-        public void set_leftTriggerButton(){} // RVA: 0x7FFAF3833C70
-        public void get_rightTriggerButton(){} // RVA: 0x7FFAF384AA90
-        public void set_rightTriggerButton(){} // RVA: 0x7FFAF3839570
-        public void get_playStationButton(){} // RVA: 0x7FFAF3850DF0
-        public void set_playStationButton(){} // RVA: 0x7FFAF383E4E0
-        public void FinishSetup(){} // RVA: 0x7FFAF9987890
-        public void PauseHaptics(){} // RVA: 0x7FFAF9987A60
-        public void ResetHaptics(){} // RVA: 0x7FFAF9987B10
-        public void ResumeHaptics(){} // RVA: 0x7FFAF9987BA0
-        public void SetLightBarColor(){} // RVA: 0x7FFAF9987C20
-        public void SetMotorSpeeds(){} // RVA: 0x7FFAF9987CC0
-        public void SetMotorSpeedsAndLightBarColor(){} // RVA: 0x7FFAF9987D90
-        public void MergeForward(){} // RVA: 0x7FFAF9988120 | overloaded x3
-        public void UnityEngine.InputSystem.LowLevel.IEventMerger.MergeForward(){} // RVA: 0x7FFAF9988160
-        public void UnityEngine.InputSystem.LowLevel.IEventPreProcessor.PreProcessEvent(){} // RVA: 0x7FFAF9988310
-        public void OnNextUpdate(){} // RVA: 0x7FFAF2D8D310
-        public void OnStateEvent(){} // RVA: 0x7FFAF99885C0
-        public void GetStateOffsetForEvent(){} // RVA: 0x7FFAF2D8D320
-        public void .ctor(){} // RVA: 0x7FFAF982DCE0
+        public void get_leftTriggerButton(){} // RVA: 0xD94490
+        public void set_leftTriggerButton(){} // RVA: 0xD83C70
+        public void get_rightTriggerButton(){} // RVA: 0xD9AA90
+        public void set_rightTriggerButton(){} // RVA: 0xD89570
+        public void get_playStationButton(){} // RVA: 0xDA0DF0
+        public void set_playStationButton(){} // RVA: 0xD8E4E0
+        public void FinishSetup(){} // RVA: 0x6ED7890
+        public void PauseHaptics(){} // RVA: 0x6ED7A60
+        public void ResetHaptics(){} // RVA: 0x6ED7B10
+        public void ResumeHaptics(){} // RVA: 0x6ED7BA0
+        public void SetLightBarColor(){} // RVA: 0x6ED7C20
+        public void SetMotorSpeeds(){} // RVA: 0x6ED7CC0
+        public void SetMotorSpeedsAndLightBarColor(){} // RVA: 0x6ED7D90
+        public void MergeForward(){} // RVA: 0x6ED8120 | overloaded x3
+        public void UnityEngine.InputSystem.LowLevel.IEventMerger.MergeForward(){} // RVA: 0x6ED8160
+        public void UnityEngine.InputSystem.LowLevel.IEventPreProcessor.PreProcessEvent(){} // RVA: 0x6ED8310
+        public void OnNextUpdate(){} // RVA: 0x2DD310
+        public void OnStateEvent(){} // RVA: 0x6ED85C0
+        public void GetStateOffsetForEvent(){} // RVA: 0x2DD320
+        public void .ctor(){} // RVA: 0x6D7DCE0
     }
 
     public class DualShock3GamepadHID
     {
         // ── Methods ──
-        public void get_leftTriggerButton(){} // RVA: 0x7FFAF3844490
-        public void set_leftTriggerButton(){} // RVA: 0x7FFAF3833C70
-        public void get_rightTriggerButton(){} // RVA: 0x7FFAF384AA90
-        public void set_rightTriggerButton(){} // RVA: 0x7FFAF3839570
-        public void get_playStationButton(){} // RVA: 0x7FFAF3850DF0
-        public void set_playStationButton(){} // RVA: 0x7FFAF383E4E0
-        public void FinishSetup(){} // RVA: 0x7FFAF99898E0
-        public void .ctor(){} // RVA: 0x7FFAF982DCE0
+        public void get_leftTriggerButton(){} // RVA: 0xD94490
+        public void set_leftTriggerButton(){} // RVA: 0xD83C70
+        public void get_rightTriggerButton(){} // RVA: 0xD9AA90
+        public void set_rightTriggerButton(){} // RVA: 0xD89570
+        public void get_playStationButton(){} // RVA: 0xDA0DF0
+        public void set_playStationButton(){} // RVA: 0xD8E4E0
+        public void FinishSetup(){} // RVA: 0x6ED98E0
+        public void .ctor(){} // RVA: 0x6D7DCE0
     }
 
     public class DualShock4GamepadHID
     {
         // ── Methods ──
-        public void get_leftTriggerButton(){} // RVA: 0x7FFAF3844490
-        public void set_leftTriggerButton(){} // RVA: 0x7FFAF3833C70
-        public void get_rightTriggerButton(){} // RVA: 0x7FFAF384AA90
-        public void set_rightTriggerButton(){} // RVA: 0x7FFAF3839570
-        public void get_playStationButton(){} // RVA: 0x7FFAF3850DF0
-        public void set_playStationButton(){} // RVA: 0x7FFAF383E4E0
-        public void FinishSetup(){} // RVA: 0x7FFAF99888D0
-        public void PauseHaptics(){} // RVA: 0x7FFAF9988AA0
-        public void ResetHaptics(){} // RVA: 0x7FFAF9988BE0
-        public void ResumeHaptics(){} // RVA: 0x7FFAF9988D40
-        public void SetLightBarColor(){} // RVA: 0x7FFAF9988F90
-        public void SetMotorSpeeds(){} // RVA: 0x7FFAF9989130
-        public void SetMotorSpeedsAndLightBarColor(){} // RVA: 0x7FFAF99892D0
-        public void UnityEngine.InputSystem.LowLevel.IEventPreProcessor.PreProcessEvent(){} // RVA: 0x7FFAF9989510
-        public void OnNextUpdate(){} // RVA: 0x7FFAF2D8D310
-        public void OnStateEvent(){} // RVA: 0x7FFAF99896D0
-        public void GetStateOffsetForEvent(){} // RVA: 0x7FFAF2D8D320
-        public void .ctor(){} // RVA: 0x7FFAF982DCE0
+        public void get_leftTriggerButton(){} // RVA: 0xD94490
+        public void set_leftTriggerButton(){} // RVA: 0xD83C70
+        public void get_rightTriggerButton(){} // RVA: 0xD9AA90
+        public void set_rightTriggerButton(){} // RVA: 0xD89570
+        public void get_playStationButton(){} // RVA: 0xDA0DF0
+        public void set_playStationButton(){} // RVA: 0xD8E4E0
+        public void FinishSetup(){} // RVA: 0x6ED88D0
+        public void PauseHaptics(){} // RVA: 0x6ED8AA0
+        public void ResetHaptics(){} // RVA: 0x6ED8BE0
+        public void ResumeHaptics(){} // RVA: 0x6ED8D40
+        public void SetLightBarColor(){} // RVA: 0x6ED8F90
+        public void SetMotorSpeeds(){} // RVA: 0x6ED9130
+        public void SetMotorSpeedsAndLightBarColor(){} // RVA: 0x6ED92D0
+        public void UnityEngine.InputSystem.LowLevel.IEventPreProcessor.PreProcessEvent(){} // RVA: 0x6ED9510
+        public void OnNextUpdate(){} // RVA: 0x2DD310
+        public void OnStateEvent(){} // RVA: 0x6ED96D0
+        public void GetStateOffsetForEvent(){} // RVA: 0x2DD320
+        public void .ctor(){} // RVA: 0x6D7DCE0
     }
 
     public class DualShockGamepad
     {
         // ── Methods ──
-        public void get_touchpadButton(){} // RVA: 0x7FFAF384F7C0
-        public void set_touchpadButton(){} // RVA: 0x7FFAF384BA80
-        public void get_optionsButton(){} // RVA: 0x7FFAF3838BD0
-        public void set_optionsButton(){} // RVA: 0x7FFAF384AC30
-        public void get_shareButton(){} // RVA: 0x7FFAF38415D0
-        public void set_shareButton(){} // RVA: 0x7FFAF3843180
-        public void get_L1(){} // RVA: 0x7FFAF3840650
-        public void set_L1(){} // RVA: 0x7FFAF384F060
-        public void get_R1(){} // RVA: 0x7FFAF3850BC0
-        public void set_R1(){} // RVA: 0x7FFAF383A490
-        public void get_L2(){} // RVA: 0x7FFAF3840BA0
-        public void set_L2(){} // RVA: 0x7FFAF3844430
-        public void get_R2(){} // RVA: 0x7FFAF3844B90
-        public void set_R2(){} // RVA: 0x7FFAF384C4E0
-        public void get_L3(){} // RVA: 0x7FFAF3833050
-        public void set_L3(){} // RVA: 0x7FFAF3838A80
-        public void get_R3(){} // RVA: 0x7FFAF3840760
-        public void set_R3(){} // RVA: 0x7FFAF383AD50
-        public void get_current(){} // RVA: 0x7FFAF9987060
-        public void set_current(){} // RVA: 0x7FFAF99870A0
-        public void get_hidDescriptor(){} // RVA: 0x7FFAF9987140
-        public void set_hidDescriptor(){} // RVA: 0x7FFAF9987170
-        public void MakeCurrent(){} // RVA: 0x7FFAF99871F0
-        public void OnRemoved(){} // RVA: 0x7FFAF9987210
-        public void FinishSetup(){} // RVA: 0x7FFAF99873D0
-        public void SetLightBarColor(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF982DCE0
+        public void get_touchpadButton(){} // RVA: 0xD9F7C0
+        public void set_touchpadButton(){} // RVA: 0xD9BA80
+        public void get_optionsButton(){} // RVA: 0xD88BD0
+        public void set_optionsButton(){} // RVA: 0xD9AC30
+        public void get_shareButton(){} // RVA: 0xD915D0
+        public void set_shareButton(){} // RVA: 0xD93180
+        public void get_L1(){} // RVA: 0xD90650
+        public void set_L1(){} // RVA: 0xD9F060
+        public void get_R1(){} // RVA: 0xDA0BC0
+        public void set_R1(){} // RVA: 0xD8A490
+        public void get_L2(){} // RVA: 0xD90BA0
+        public void set_L2(){} // RVA: 0xD94430
+        public void get_R2(){} // RVA: 0xD94B90
+        public void set_R2(){} // RVA: 0xD9C4E0
+        public void get_L3(){} // RVA: 0xD83050
+        public void set_L3(){} // RVA: 0xD88A80
+        public void get_R3(){} // RVA: 0xD90760
+        public void set_R3(){} // RVA: 0xD8AD50
+        public void get_current(){} // RVA: 0x6ED7060
+        public void set_current(){} // RVA: 0x6ED70A0
+        public void get_hidDescriptor(){} // RVA: 0x6ED7140
+        public void set_hidDescriptor(){} // RVA: 0x6ED7170
+        public void MakeCurrent(){} // RVA: 0x6ED71F0
+        public void OnRemoved(){} // RVA: 0x6ED7210
+        public void FinishSetup(){} // RVA: 0x6ED73D0
+        public void SetLightBarColor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x6D7DCE0
     }
 
     public class DualShockSupport
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFAF9989AB0
+        public void Initialize(){} // RVA: 0x6ED9AB0
     }
 
     public class IDualShockHaptics
     {
         // ── Methods ──
-        public void SetLightBarColor(){} // RVA: 0x7FFAF2AD4B10
+        public void SetLightBarColor(){} // RVA: 0x24B10
     }
 
 }

@@ -8,12 +8,12 @@ namespace ThirdParty.DotNet.System.Security.Permissions
     public class SecurityPermission
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF871BC00
-        public void IsUnrestricted(){} // RVA: 0x7FFAF871BC30
-        public void IsSubsetOf(){} // RVA: 0x7FFAF871BC40
-        public void ToXml(){} // RVA: 0x7FFAF871BD30
-        public void IsEmpty(){} // RVA: 0x7FFAF600E190
-        public void Cast(){} // RVA: 0x7FFAF871BF80
+        public void .ctor(){} // RVA: 0x5C6BC00
+        public void IsUnrestricted(){} // RVA: 0x5C6BC30
+        public void IsSubsetOf(){} // RVA: 0x5C6BC40
+        public void ToXml(){} // RVA: 0x5C6BD30
+        public void IsEmpty(){} // RVA: 0x355E190
+        public void Cast(){} // RVA: 0x5C6BF80
     }
 
 }

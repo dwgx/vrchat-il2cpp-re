@@ -8,13 +8,13 @@ namespace ThirdParty.Oculus.Oculus.Platform.Models
     public class Team
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA3020
+        public void .ctor(){} // RVA: 0x60F3020
     }
 
     public class TeamList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8BA3320
+        public void .ctor(){} // RVA: 0x60F3320
     }
 
 }

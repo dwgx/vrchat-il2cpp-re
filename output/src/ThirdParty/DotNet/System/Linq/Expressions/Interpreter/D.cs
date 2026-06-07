@@ -8,56 +8,56 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
     public class DebugInfo
     {
         // ── Methods ──
-        public void GetMatchingDebugInfo(){} // RVA: 0x7FFAF90DCDD0
-        public void ToString(){} // RVA: 0x7FFAF90DCF20
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void .cctor(){} // RVA: 0x7FFAF90DD220
+        public void GetMatchingDebugInfo(){} // RVA: 0x662CDD0
+        public void ToString(){} // RVA: 0x662CF20
+        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x662D220
     }
 
     public class DecrementInstruction
     {
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_InstructionName(){} // RVA: 0x7FFAF90C3740
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Create(){} // RVA: 0x7FFAF90C3780
+        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
+        public void get_ProducedStack(){} // RVA: 0x3CFAF0
+        public void get_InstructionName(){} // RVA: 0x6613740
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Create(){} // RVA: 0x6613780
     }
 
     public class DefaultValueInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_InstructionName(){} // RVA: 0x7FFAF90C44F0
-        public void Run(){} // RVA: 0x7FFAF90C4530
-        public void ToString(){} // RVA: 0x7FFAF90C45D0
+        public void .ctor(){} // RVA: 0x2DEE30
+        public void get_ProducedStack(){} // RVA: 0x3CFAF0
+        public void get_InstructionName(){} // RVA: 0x66144F0
+        public void Run(){} // RVA: 0x6614530
+        public void ToString(){} // RVA: 0x66145D0
     }
 
     public class DelegateHelpers
     {
         // ── Methods ──
-        public void MakeDelegate(){} // RVA: 0x7FFAF910A630
+        public void MakeDelegate(){} // RVA: 0x665A630
     }
 
     public class DivInstruction
     {
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E92CB0
-        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_InstructionName(){} // RVA: 0x7FFAF90C4640
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Create(){} // RVA: 0x7FFAF90C4680
+        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
+        public void get_ProducedStack(){} // RVA: 0x3CFAF0
+        public void get_InstructionName(){} // RVA: 0x6614640
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Create(){} // RVA: 0x6614680
     }
 
     public class DupInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_InstructionName(){} // RVA: 0x7FFAF91049F0
-        public void Run(){} // RVA: 0x7FFAF9104A30
-        public void .cctor(){} // RVA: 0x7FFAF9104AD0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void get_ProducedStack(){} // RVA: 0x3CFAF0
+        public void get_InstructionName(){} // RVA: 0x66549F0
+        public void Run(){} // RVA: 0x6654A30
+        public void .cctor(){} // RVA: 0x6654AD0
     }
 
 }

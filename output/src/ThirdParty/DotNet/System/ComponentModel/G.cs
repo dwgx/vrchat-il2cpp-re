@@ -8,11 +8,11 @@ namespace ThirdParty.DotNet.System.ComponentModel
     public class GuidConverter
     {
         // ── Methods ──
-        public void CanConvertFrom(){} // RVA: 0x7FFAF9715540
-        public void CanConvertTo(){} // RVA: 0x7FFAF9715630
-        public void ConvertFrom(){} // RVA: 0x7FFAF9715720
-        public void ConvertTo(){} // RVA: 0x7FFAF9715930
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void CanConvertFrom(){} // RVA: 0x6C65540
+        public void CanConvertTo(){} // RVA: 0x6C65630
+        public void ConvertFrom(){} // RVA: 0x6C65720
+        public void ConvertTo(){} // RVA: 0x6C65930
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

@@ -8,42 +8,42 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class WhereAwaitWithCancellation`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class WhereAwait`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class WhereIntAwaitWithCancellation`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class WhereIntAwait`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class WhereInt`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class Where`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 

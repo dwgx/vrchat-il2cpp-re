@@ -8,19 +8,19 @@ namespace ThirdParty.Other.Unity.Jobs.LowLevel.Unsafe
     public class BatchQueryJobStruct`1
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFAF2ABC960
+        public void Initialize(){} // RVA: 0xC960
     }
 
     public class BatchQueryJob`2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x283FA0
     }
 
     public class JobProducerTypeAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void .ctor(){} // RVA: 0x2DEE30
     }
 
     public class JobRanges
@@ -30,21 +30,21 @@ namespace ThirdParty.Other.Unity.Jobs.LowLevel.Unsafe
     public class JobsUtility
     {
         // ── Methods ──
-        public void GetJobRange(){} // RVA: 0x7FFAF9B660B0
-        public void GetWorkStealingRange(){} // RVA: 0x7FFAF9B660D0
-        public void Schedule(){} // RVA: 0x7FFAF9B66150
-        public void ScheduleParallelFor(){} // RVA: 0x7FFAF9B661C0
-        public void ScheduleParallelForTransform(){} // RVA: 0x7FFAF9B66250
-        public void ScheduleParallelForTransformReadOnly(){} // RVA: 0x7FFAF9B662D0
-        public void CreateJobReflectionData(){} // RVA: 0x7FFAF9B663F0 | overloaded x2
-        public void get_IsExecutingJob(){} // RVA: 0x7FFAF9B66480
-        public void set_JobCompilerEnabled(){} // RVA: 0x7FFAF9B664D0
-        public void get_ThreadIndexCount(){} // RVA: 0x7FFAF9B66520
-        public void InvokePanicFunction(){} // RVA: 0x7FFAF9B66570
-        public void Schedule_Injected(){} // RVA: 0x7FFAF9B665D0
-        public void ScheduleParallelFor_Injected(){} // RVA: 0x7FFAF9B66630
-        public void ScheduleParallelForTransform_Injected(){} // RVA: 0x7FFAF9B666B0
-        public void ScheduleParallelForTransformReadOnly_Injected(){} // RVA: 0x7FFAF9B66720
+        public void GetJobRange(){} // RVA: 0x70B60B0
+        public void GetWorkStealingRange(){} // RVA: 0x70B60D0
+        public void Schedule(){} // RVA: 0x70B6150
+        public void ScheduleParallelFor(){} // RVA: 0x70B61C0
+        public void ScheduleParallelForTransform(){} // RVA: 0x70B6250
+        public void ScheduleParallelForTransformReadOnly(){} // RVA: 0x70B62D0
+        public void CreateJobReflectionData(){} // RVA: 0x70B63F0 | overloaded x2
+        public void get_IsExecutingJob(){} // RVA: 0x70B6480
+        public void set_JobCompilerEnabled(){} // RVA: 0x70B64D0
+        public void get_ThreadIndexCount(){} // RVA: 0x70B6520
+        public void InvokePanicFunction(){} // RVA: 0x70B6570
+        public void Schedule_Injected(){} // RVA: 0x70B65D0
+        public void ScheduleParallelFor_Injected(){} // RVA: 0x70B6630
+        public void ScheduleParallelForTransform_Injected(){} // RVA: 0x70B66B0
+        public void ScheduleParallelForTransformReadOnly_Injected(){} // RVA: 0x70B6720
     }
 
 }

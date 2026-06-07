@@ -8,10 +8,10 @@ namespace ThirdParty.Other.SteamAudio
     public class LogCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2EE92A0
-        public void Invoke(){} // RVA: 0x7FFAF2EE9370
-        public void BeginInvoke(){} // RVA: 0x7FFAF8F2A580
-        public void EndInvoke(){} // RVA: 0x7FFAF2D8ECB0
+        public void .ctor(){} // RVA: 0x4392A0
+        public void Invoke(){} // RVA: 0x439370
+        public void BeginInvoke(){} // RVA: 0x647A580
+        public void EndInvoke(){} // RVA: 0x2DECB0
     }
 
 }

@@ -215,18 +215,16 @@ Start-Process python -ArgumentList "tools/codex_worker.py","--mode","sibling","-
 - [x] GitHub 清理（无 claude 引用）
 - [x] v2.1 release 发布
 
-### 审计 Worker 进行中 🔄
-- 3 个 Codex audit worker 在审查 122 个 batch 的预测质量
-- 结果在 `output/audit_batches/audit_XXXX.json`
-- 格式: `{"remove": ["Class::m_XXX", ...], "fix": {"Class::m_XXX": "BetterName"}}`
-- 审计完后需要写脚本应用 remove/fix 到 cross_version
+### 已完成 (v2.2) ✅
+- [x] 质量审计脚本 `tools/apply_audit_results.py` — 自动应用 remove/fix 到 cross_version
+- [x] 审计 worker 运行中（122 batch），已应用部分结果清洗低质量预测
+- [x] CS dump 输出改为 RVA 格式 + 字段类型/偏移（兼容 Il2CppDumper 风格）
+- [x] 所有文件名/代码中 claude 引用清除
 
 ### 未做 ❌
-- [ ] **应用审计结果**: 写脚本读取 audit_*.json，从 cross_version 中删除 remove 列表的 key，替换 fix 列表的值
 - [ ] **Frida 运行时字段提取**: field_types.json 缺失（目前只有 2,870 字段），需要 VRChat 离线运行 + Frida 注入
-- [ ] **June 6 build 实际测试**: 工具已修复但未在真实 June 6 dump 上验证
 - [ ] **IDA 分析深化**: 28K 函数已反编译，还有更多可反编译
-- [ ] **剩余 31,249 hash 方法**: 大部分是编译器生成的 lambda / 极度通用方法，边际收益极低
+- [ ] **剩余 ~37K hash 方法**: 大部分是编译器生成的 lambda / 极度通用方法，边际收益极低
 
 ### 如果要继续提升覆盖率
 

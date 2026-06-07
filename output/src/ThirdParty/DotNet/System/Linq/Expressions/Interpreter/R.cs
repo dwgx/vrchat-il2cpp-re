@@ -8,44 +8,44 @@ namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
     public class RethrowException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF90DCD80
+        public void .ctor(){} // RVA: 0x662CD80
     }
 
     public class RightShiftInstruction
     {
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x7FFAF2E92CB0
-        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_InstructionName(){} // RVA: 0x7FFAF9103370
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Create(){} // RVA: 0x7FFAF91033B0
+        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
+        public void get_ProducedStack(){} // RVA: 0x3CFAF0
+        public void get_InstructionName(){} // RVA: 0x6653370
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Create(){} // RVA: 0x66533B0
     }
 
     public class RuntimeLabel
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF90BE360
-        public void ToString(){} // RVA: 0x7FFAF90BE370
+        public void .ctor(){} // RVA: 0x660E360
+        public void ToString(){} // RVA: 0x660E370
     }
 
     public class RuntimeVariables
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-        public void System.Runtime.CompilerServices.IRuntimeVariables.get_Count(){} // RVA: 0x7FFAF39EF910
-        public void System.Runtime.CompilerServices.IRuntimeVariables.get_Item(){} // RVA: 0x7FFAF9104330
-        public void System.Runtime.CompilerServices.IRuntimeVariables.set_Item(){} // RVA: 0x7FFAF91043A0
-        public void Create(){} // RVA: 0x7FFAF9104420
+        public void .ctor(){} // RVA: 0x2DEE30
+        public void System.Runtime.CompilerServices.IRuntimeVariables.get_Count(){} // RVA: 0xF3F910
+        public void System.Runtime.CompilerServices.IRuntimeVariables.get_Item(){} // RVA: 0x6654330
+        public void System.Runtime.CompilerServices.IRuntimeVariables.set_Item(){} // RVA: 0x66543A0
+        public void Create(){} // RVA: 0x6654420
     }
 
     public class RuntimeVariablesInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D900C0
-        public void get_ProducedStack(){} // RVA: 0x7FFAF2E7FAF0
-        public void get_ConsumedStack(){} // RVA: 0x7FFAF2DDA5C0
-        public void get_InstructionName(){} // RVA: 0x7FFAF90F6B90
-        public void Run(){} // RVA: 0x7FFAF90F6BD0
+        public void .ctor(){} // RVA: 0x2E00C0
+        public void get_ProducedStack(){} // RVA: 0x3CFAF0
+        public void get_ConsumedStack(){} // RVA: 0x32A5C0
+        public void get_InstructionName(){} // RVA: 0x6646B90
+        public void Run(){} // RVA: 0x6646BD0
     }
 
 }

@@ -8,223 +8,223 @@ namespace ThirdParty.Other.Steamworks.Data
     public class HAuthTicket
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7FFAF4B75210 | overloaded x2
-        public void ToString(){} // RVA: 0x7FFAF4B75200
-        public void GetHashCode(){} // RVA: 0x7FFAF44189B0
-        public void Equals(){} // RVA: 0x7FFAF4B85E20 | overloaded x2
-        public void CompareTo(){} // RVA: 0x7FFAF4B85E30
+        public void op_Implicit(){} // RVA: 0x20C5210 | overloaded x2
+        public void ToString(){} // RVA: 0x20C5200
+        public void GetHashCode(){} // RVA: 0x19689B0
+        public void Equals(){} // RVA: 0x20D5E20 | overloaded x2
+        public void CompareTo(){} // RVA: 0x20D5E30
     }
 
     public class HSteamNetPollGroup
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAF4B75200
-        public void GetHashCode(){} // RVA: 0x7FFAF44189B0
-        public void Equals(){} // RVA: 0x7FFAF4B85E20 | overloaded x2
-        public void CompareTo(){} // RVA: 0x7FFAF4B85E30
+        public void ToString(){} // RVA: 0x20C5200
+        public void GetHashCode(){} // RVA: 0x19689B0
+        public void Equals(){} // RVA: 0x20D5E20 | overloaded x2
+        public void CompareTo(){} // RVA: 0x20D5E30
     }
 
     public class HSteamPipe
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x7FFAF4B75210
-        public void ToString(){} // RVA: 0x7FFAF4B85E50
-        public void GetHashCode(){} // RVA: 0x7FFAF44189B0
-        public void Equals(){} // RVA: 0x7FFAF4B85E20 | overloaded x2
-        public void op_Equality(){} // RVA: 0x7FFAF4B85ED0
-        public void op_Inequality(){} // RVA: 0x7FFAF4B85EE0
-        public void CompareTo(){} // RVA: 0x7FFAF4B85EF0
+        public void op_Implicit(){} // RVA: 0x20C5210
+        public void ToString(){} // RVA: 0x20D5E50
+        public void GetHashCode(){} // RVA: 0x19689B0
+        public void Equals(){} // RVA: 0x20D5E20 | overloaded x2
+        public void op_Equality(){} // RVA: 0x20D5ED0
+        public void op_Inequality(){} // RVA: 0x20D5EE0
+        public void CompareTo(){} // RVA: 0x20D5EF0
     }
 
     public class HSteamUser
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x7FFAF4B85E50
-        public void GetHashCode(){} // RVA: 0x7FFAF44189B0
-        public void Equals(){} // RVA: 0x7FFAF4B85E20 | overloaded x2
-        public void CompareTo(){} // RVA: 0x7FFAF4B85EF0
+        public void ToString(){} // RVA: 0x20D5E50
+        public void GetHashCode(){} // RVA: 0x19689B0
+        public void Equals(){} // RVA: 0x20D5E20 | overloaded x2
+        public void CompareTo(){} // RVA: 0x20D5EF0
     }
 
     public class HTML_BrowserReady_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B81DB0
-        public void .cctor(){} // RVA: 0x7FFAF4B81DC0
+        public void get_CallbackType(){} // RVA: 0x20D1DB0
+        public void .cctor(){} // RVA: 0x20D1DC0
     }
 
     public class HTML_BrowserRestarted_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B83510
-        public void .cctor(){} // RVA: 0x7FFAF4B83520
+        public void get_CallbackType(){} // RVA: 0x20D3510
+        public void .cctor(){} // RVA: 0x20D3520
     }
 
     public class HTML_CanGoBackAndForward_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82740
-        public void .cctor(){} // RVA: 0x7FFAF4B82750
+        public void get_CallbackType(){} // RVA: 0x20D2740
+        public void .cctor(){} // RVA: 0x20D2750
     }
 
     public class HTML_ChangedTitle_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82520
-        public void .cctor(){} // RVA: 0x7FFAF4B82530
+        public void get_CallbackType(){} // RVA: 0x20D2520
+        public void .cctor(){} // RVA: 0x20D2530
     }
 
     public class HTML_CloseBrowser_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B820E0
-        public void .cctor(){} // RVA: 0x7FFAF4B820F0
+        public void get_CallbackType(){} // RVA: 0x20D20E0
+        public void .cctor(){} // RVA: 0x20D20F0
     }
 
     public class HTML_FileOpenDialog_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82DA0
-        public void .cctor(){} // RVA: 0x7FFAF4B82DB0
+        public void get_CallbackType(){} // RVA: 0x20D2DA0
+        public void .cctor(){} // RVA: 0x20D2DB0
     }
 
     public class HTML_FinishedRequest_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82300
-        public void .cctor(){} // RVA: 0x7FFAF4B82310
+        public void get_CallbackType(){} // RVA: 0x20D2300
+        public void .cctor(){} // RVA: 0x20D2310
     }
 
     public class HTML_HideToolTip_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B83400
-        public void .cctor(){} // RVA: 0x7FFAF4B83410
+        public void get_CallbackType(){} // RVA: 0x20D3400
+        public void .cctor(){} // RVA: 0x20D3410
     }
 
     public class HTML_HorizontalScroll_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82850
-        public void .cctor(){} // RVA: 0x7FFAF4B82860
+        public void get_CallbackType(){} // RVA: 0x20D2850
+        public void .cctor(){} // RVA: 0x20D2860
     }
 
     public class HTML_JSAlert_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82B80
-        public void .cctor(){} // RVA: 0x7FFAF4B82B90
+        public void get_CallbackType(){} // RVA: 0x20D2B80
+        public void .cctor(){} // RVA: 0x20D2B90
     }
 
     public class HTML_JSConfirm_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82C90
-        public void .cctor(){} // RVA: 0x7FFAF4B82CA0
+        public void get_CallbackType(){} // RVA: 0x20D2C90
+        public void .cctor(){} // RVA: 0x20D2CA0
     }
 
     public class HTML_LinkAtPosition_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82A70
-        public void .cctor(){} // RVA: 0x7FFAF4B82A80
+        public void get_CallbackType(){} // RVA: 0x20D2A70
+        public void .cctor(){} // RVA: 0x20D2A80
     }
 
     public class HTML_NeedsPaint_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B81EC0
-        public void .cctor(){} // RVA: 0x7FFAF4B81ED0
+        public void get_CallbackType(){} // RVA: 0x20D1EC0
+        public void .cctor(){} // RVA: 0x20D1ED0
     }
 
     public class HTML_NewWindow_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82EB0
-        public void .cctor(){} // RVA: 0x7FFAF4B82EC0
+        public void get_CallbackType(){} // RVA: 0x20D2EB0
+        public void .cctor(){} // RVA: 0x20D2EC0
     }
 
     public class HTML_OpenLinkInNewTab_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82410
-        public void .cctor(){} // RVA: 0x7FFAF4B82420
+        public void get_CallbackType(){} // RVA: 0x20D2410
+        public void .cctor(){} // RVA: 0x20D2420
     }
 
     public class HTML_SearchResults_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82630
-        public void .cctor(){} // RVA: 0x7FFAF4B82640
+        public void get_CallbackType(){} // RVA: 0x20D2630
+        public void .cctor(){} // RVA: 0x20D2640
     }
 
     public class HTML_SetCursor_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82FC0
-        public void .cctor(){} // RVA: 0x7FFAF4B82FD0
+        public void get_CallbackType(){} // RVA: 0x20D2FC0
+        public void .cctor(){} // RVA: 0x20D2FD0
     }
 
     public class HTML_ShowToolTip_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B831E0
-        public void .cctor(){} // RVA: 0x7FFAF4B831F0
+        public void get_CallbackType(){} // RVA: 0x20D31E0
+        public void .cctor(){} // RVA: 0x20D31F0
     }
 
     public class HTML_StartRequest_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B81FD0
-        public void .cctor(){} // RVA: 0x7FFAF4B81FE0
+        public void get_CallbackType(){} // RVA: 0x20D1FD0
+        public void .cctor(){} // RVA: 0x20D1FE0
     }
 
     public class HTML_StatusText_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B830D0
-        public void .cctor(){} // RVA: 0x7FFAF4B830E0
+        public void get_CallbackType(){} // RVA: 0x20D30D0
+        public void .cctor(){} // RVA: 0x20D30E0
     }
 
     public class HTML_URLChanged_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B821F0
-        public void .cctor(){} // RVA: 0x7FFAF4B82200
+        public void get_CallbackType(){} // RVA: 0x20D21F0
+        public void .cctor(){} // RVA: 0x20D2200
     }
 
     public class HTML_UpdateToolTip_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B832F0
-        public void .cctor(){} // RVA: 0x7FFAF4B83300
+        public void get_CallbackType(){} // RVA: 0x20D32F0
+        public void .cctor(){} // RVA: 0x20D3300
     }
 
     public class HTML_VerticalScroll_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B82960
-        public void .cctor(){} // RVA: 0x7FFAF4B82970
+        public void get_CallbackType(){} // RVA: 0x20D2960
+        public void .cctor(){} // RVA: 0x20D2970
     }
 
     public class HTTPRequestCompleted_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B80100
-        public void .cctor(){} // RVA: 0x7FFAF4B80110
+        public void get_CallbackType(){} // RVA: 0x20D0100
+        public void .cctor(){} // RVA: 0x20D0110
     }
 
     public class HTTPRequestDataReceived_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B80320
-        public void .cctor(){} // RVA: 0x7FFAF4B80330
+        public void get_CallbackType(){} // RVA: 0x20D0320
+        public void .cctor(){} // RVA: 0x20D0330
     }
 
     public class HTTPRequestHeadersReceived_t
     {
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x7FFAF4B80210
-        public void .cctor(){} // RVA: 0x7FFAF4B80220
+        public void get_CallbackType(){} // RVA: 0x20D0210
+        public void .cctor(){} // RVA: 0x20D0220
     }
 
 }

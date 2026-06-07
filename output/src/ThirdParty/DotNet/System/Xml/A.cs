@@ -8,14 +8,14 @@ namespace ThirdParty.DotNet.System.Xml
     public class AsyncHelper
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAF9398910
+        public void .cctor(){} // RVA: 0x68E8910
     }
 
     public class AttributePSVIInfo
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF94F56D0
-        public void Reset(){} // RVA: 0x7FFAF94F5770
+        public void .ctor(){} // RVA: 0x6A456D0
+        public void Reset(){} // RVA: 0x6A45770
     }
 
 }

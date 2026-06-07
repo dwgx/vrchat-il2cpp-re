@@ -8,7 +8,7 @@ namespace ThirdParty.Sentry.Sentry.Unity.WebGL
     public class SentryWebGL
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x7FFAF8E344B0
+        public void Configure(){} // RVA: 0x63844B0
     }
 
 }

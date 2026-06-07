@@ -8,22 +8,22 @@ namespace ThirdParty.Unity.UnityEngine.Purchasing
     public class NativeStoreProvider
     {
         // ── Methods ──
-        public void GetAndroidStore(){} // RVA: 0x7FFAF9CEDF10
-        public void GetAndroidStoreHelper(){} // RVA: 0x7FFAF9CEE000
-        public void GetStorekit(){} // RVA: 0x7FFAF9CEE740
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void GetAndroidStore(){} // RVA: 0x723DF10
+        public void GetAndroidStoreHelper(){} // RVA: 0x723E000
+        public void GetStorekit(){} // RVA: 0x723E740
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class NullProductIdException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9CFA850
+        public void .ctor(){} // RVA: 0x724A850
     }
 
     public class NullReceiptException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9CFA850
+        public void .ctor(){} // RVA: 0x724A850
     }
 
 }

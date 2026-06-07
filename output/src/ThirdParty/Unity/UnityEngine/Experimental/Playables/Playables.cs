@@ -8,28 +8,28 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Playables
     public class CameraPlayable
     {
         // ── Methods ──
-        public void GetHandle(){} // RVA: 0x7FFAF6A77D30
-        public void Equals(){} // RVA: 0x7FFAF9C17DD0
+        public void GetHandle(){} // RVA: 0x3FC7D30
+        public void Equals(){} // RVA: 0x7167DD0
     }
 
     public class MaterialEffectPlayable
     {
         // ── Methods ──
-        public void GetHandle(){} // RVA: 0x7FFAF6A77D30
-        public void Equals(){} // RVA: 0x7FFAF9C17E90
+        public void GetHandle(){} // RVA: 0x3FC7D30
+        public void Equals(){} // RVA: 0x7167E90
     }
 
     public class TextureMixerPlayable
     {
         // ── Methods ──
-        public void GetHandle(){} // RVA: 0x7FFAF6A77D30
-        public void Equals(){} // RVA: 0x7FFAF9C17F50
+        public void GetHandle(){} // RVA: 0x3FC7D30
+        public void Equals(){} // RVA: 0x7167F50
     }
 
     public class TexturePlayableOutput
     {
         // ── Methods ──
-        public void GetHandle(){} // RVA: 0x7FFAF6A77D30
+        public void GetHandle(){} // RVA: 0x3FC7D30
     }
 
 }

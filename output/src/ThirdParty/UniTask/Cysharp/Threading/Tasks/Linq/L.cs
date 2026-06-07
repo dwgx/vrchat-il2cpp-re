@@ -8,17 +8,17 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class Last
     {
         // ── Methods ──
-        public void LastAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
-        public void LastAwaitAsync(){} // RVA: 0x7FFAF2D33FA0
-        public void LastAwaitWithCancellationAsync(){} // RVA: 0x7FFAF2D33FA0
+        public void LastAsync(){} // RVA: 0x283FA0 | overloaded x2
+        public void LastAwaitAsync(){} // RVA: 0x283FA0
+        public void LastAwaitWithCancellationAsync(){} // RVA: 0x283FA0
     }
 
     public class LongCount
     {
         // ── Methods ──
-        public void LongCountAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
-        public void LongCountAwaitAsync(){} // RVA: 0x7FFAF2D33FA0
-        public void LongCountAwaitWithCancellationAsync(){} // RVA: 0x7FFAF2D33FA0
+        public void LongCountAsync(){} // RVA: 0x283FA0 | overloaded x2
+        public void LongCountAwaitAsync(){} // RVA: 0x283FA0
+        public void LongCountAwaitWithCancellationAsync(){} // RVA: 0x283FA0
     }
 
 }

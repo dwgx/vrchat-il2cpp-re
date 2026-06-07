@@ -409,7 +409,7 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_1AED
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAF2AD4B10
+        public void Add(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÌÍÍÏÏÎÌÎÏÌÏÍÏÍÌÎÎÏÎÌÍÍÎ</summary>

@@ -8,10 +8,10 @@ namespace ThirdParty.Oculus.Oculus.Platform
     public class StandalonePlatform
     {
         // ── Methods ──
-        public void InitializeInEditor(){} // RVA: 0x7FFAF8B8E2B0
-        public void AsyncInitialize(){} // RVA: 0x7FFAF8B8E430
-        public void AsyncInitializeWithAccessTokenAndOptions(){} // RVA: 0x7FFAF8B8E600
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void InitializeInEditor(){} // RVA: 0x60DE2B0
+        public void AsyncInitialize(){} // RVA: 0x60DE430
+        public void AsyncInitializeWithAccessTokenAndOptions(){} // RVA: 0x60DE600
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class StandalonePlatformSettings
@@ -21,13 +21,13 @@ namespace ThirdParty.Oculus.Oculus.Platform
         public object left;
 
         // ── Methods ──
-        public void get_OculusPlatformTestUserEmail(){} // RVA: 0x7FFAF8B8E940
-        public void set_OculusPlatformTestUserEmail(){} // RVA: 0x7FFAF2D8D310
-        public void get_OculusPlatformTestUserPassword(){} // RVA: 0x7FFAF8B8E980
-        public void set_OculusPlatformTestUserPassword(){} // RVA: 0x7FFAF2D8D310
-        public void get_OculusPlatformTestUserAccessToken(){} // RVA: 0x7FFAF8B8E9C0
-        public void set_OculusPlatformTestUserAccessToken(){} // RVA: 0x7FFAF2D8D310
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_OculusPlatformTestUserEmail(){} // RVA: 0x60DE940
+        public void set_OculusPlatformTestUserEmail(){} // RVA: 0x2DD310
+        public void get_OculusPlatformTestUserPassword(){} // RVA: 0x60DE980
+        public void set_OculusPlatformTestUserPassword(){} // RVA: 0x2DD310
+        public void get_OculusPlatformTestUserAccessToken(){} // RVA: 0x60DE9C0
+        public void set_OculusPlatformTestUserAccessToken(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

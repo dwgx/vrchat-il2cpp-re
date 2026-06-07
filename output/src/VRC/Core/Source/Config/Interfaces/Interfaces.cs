@@ -8,13 +8,13 @@ namespace VRC.Core.Source.Config.Interfaces
     public class IFastSetStorage`2
     {
         // ── Methods ──
-        public void Has(){} // RVA: 0x7FFE810A1420
-        public void Get(){} // RVA: 0x7FFE810A1420
-        public void Set(){} // RVA: 0x7FFE810A1420
-        public void Remove(){} // RVA: 0x7FFE810A1420
-        public void Clear(){} // RVA: 0x7FFE80E45FE0
-        public void get_Count(){} // RVA: 0x7FFE80E2EDB0
-        public void SaveToDisk(){} // RVA: 0x7FFE80E2F150
+        public void Has(){} // RVA: 0x283FA0
+        public void Get(){} // RVA: 0x283FA0
+        public void Set(){} // RVA: 0x283FA0
+        public void Remove(){} // RVA: 0x283FA0
+        public void Clear(){} // RVA: 0x24A50
+        public void get_Count(){} // RVA: 0xD840
+        public void SaveToDisk(){} // RVA: 0xDBE0
     }
 
 }

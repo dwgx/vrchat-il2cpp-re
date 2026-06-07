@@ -8,7 +8,7 @@ namespace VRC.Core.CameraSystems
     public class StackedCamera
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAFA05A160
+        public void .ctor(){} // RVA: 0x75AA160
     }
 
 }

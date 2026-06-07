@@ -8,8 +8,8 @@ namespace ThirdParty.Unity.UnityEngine.Experimental.Audio
     public class AudioSampleProvider
     {
         // ── Methods ──
-        public void InvokeSampleFramesAvailable(){} // RVA: 0x7FFAF9B61FC0
-        public void InvokeSampleFramesOverflow(){} // RVA: 0x7FFAF9B61FF0
+        public void InvokeSampleFramesAvailable(){} // RVA: 0x70B1FC0
+        public void InvokeSampleFramesOverflow(){} // RVA: 0x70B1FF0
     }
 
 }

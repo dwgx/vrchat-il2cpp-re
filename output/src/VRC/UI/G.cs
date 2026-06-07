@@ -9,15 +9,16 @@ namespace VRC.UI
     public class GameObjectUITransformHandler_3709
     {
         // ── Methods ──
-        public void SetAnchoredPosition(){} // RVA: 0x7FFAF3C63FC0
-        public void SetTargetTransform(){} // RVA: 0x7FFAF3C64030
-        public void UpdateTransformCache(){} // RVA: 0x7FFAF3C640A0
-        public void ApplyTransformState(){} // RVA: 0x7FFAF3C64110
-        public void ProcessAnchoredPosition(){} // RVA: 0x7FFAF3C64180
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF3C641F0
-        public void SetSourceTransform(){} // RVA: 0x7FFAF3C64260
-        public void RefreshAnchoredPosition(){} // RVA: 0x7FFAF3C642D0
+        public void SetAnchoredPosition(){} // RVA: 0x11B3FC0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x11B41F0
+        // ── Unresolved (hash) ──
+        public void m_1C3(){} // RVA: 0x11B4030
+        public void m_9E6(){} // RVA: 0x11B40A0
+        public void m_8D5(){} // RVA: 0x11B4110
+        public void m_128(){} // RVA: 0x11B4180
+        public void m_299(){} // RVA: 0x11B4260
+        public void m_6B6(){} // RVA: 0x11B42D0
     }
 
 }

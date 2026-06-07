@@ -12,7 +12,7 @@ namespace ThirdParty.Other.Unity.Services.Core.Threading.Internal
     public class UnityThreadUtilsInternal
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
 }

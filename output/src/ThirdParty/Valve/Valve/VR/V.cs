@@ -24,8 +24,8 @@ namespace ThirdParty.Valve.Valve.VR
     public class VRControllerState_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8C9E610
-        public void Unpack(){} // RVA: 0x7FFAF8C9E640
+        public void .ctor(){} // RVA: 0x61EE610
+        public void Unpack(){} // RVA: 0x61EE640
     }
 
     public class VREvent_ApplicationLaunch_t
@@ -79,7 +79,7 @@ namespace ThirdParty.Valve.Valve.VR
     public class VREvent_Keyboard_t
     {
         // ── Methods ──
-        public void get_cNewInput(){} // RVA: 0x7FFAF9B178A0
+        public void get_cNewInput(){} // RVA: 0x70678A0
     }
 
     public class VREvent_MessageOverlay_t
@@ -165,8 +165,8 @@ namespace ThirdParty.Valve.Valve.VR
     public class VREvent_t_Packed
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9B179B0
-        public void Unpack(){} // RVA: 0x7FFAF9B179E0
+        public void .ctor(){} // RVA: 0x70679B0
+        public void Unpack(){} // RVA: 0x70679E0
     }
 
     public class VRNativeDevice_t

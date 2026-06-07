@@ -8,21 +8,21 @@ namespace ThirdParty.DotNet.Mono.Security.X509.Extensions
     public class AuthorityKeyIdentifierExtension
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8681CE0
-        public void Decode(){} // RVA: 0x7FFAF8681CF0
-        public void Encode(){} // RVA: 0x7FFAF8681E40
-        public void get_Identifier(){} // RVA: 0x7FFAF86820B0
-        public void ToString(){} // RVA: 0x7FFAF8682130
+        public void .ctor(){} // RVA: 0x5BD1CE0
+        public void Decode(){} // RVA: 0x5BD1CF0
+        public void Encode(){} // RVA: 0x5BD1E40
+        public void get_Identifier(){} // RVA: 0x5BD20B0
+        public void ToString(){} // RVA: 0x5BD2130
     }
 
     public class BasicConstraintsExtension
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8681CE0
-        public void Decode(){} // RVA: 0x7FFAF86823E0
-        public void Encode(){} // RVA: 0x7FFAF8682530
-        public void get_CertificateAuthority(){} // RVA: 0x7FFAF3198A80
-        public void ToString(){} // RVA: 0x7FFAF86827B0
+        public void .ctor(){} // RVA: 0x5BD1CE0
+        public void Decode(){} // RVA: 0x5BD23E0
+        public void Encode(){} // RVA: 0x5BD2530
+        public void get_CertificateAuthority(){} // RVA: 0x6E8A80
+        public void ToString(){} // RVA: 0x5BD27B0
     }
 
 }

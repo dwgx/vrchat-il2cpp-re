@@ -8,8 +8,8 @@ namespace VRC.SDKBase.Validation.Attributes
     public class PerformanceScannerAttribute
     {
         // ── Methods ──
-        public void get_type(){} // RVA: 0x7FFAF2DA8380
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
+        public void get_type(){} // RVA: 0x2F8380
+        public void .ctor(){} // RVA: 0x2DEE30
     }
 
 }

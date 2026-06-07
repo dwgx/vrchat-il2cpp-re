@@ -8,8 +8,8 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XInput.LowLevel
     public class XInputControllerWindowsState
     {
         // ── Methods ──
-        public void get_format(){} // RVA: 0x7FFAF9953300
-        public void WithButton(){} // RVA: 0x7FFAF9953310
+        public void get_format(){} // RVA: 0x6EA3300
+        public void WithButton(){} // RVA: 0x6EA3310
     }
 
 }

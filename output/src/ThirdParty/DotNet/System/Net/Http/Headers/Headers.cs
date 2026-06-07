@@ -1,6 +1,6 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Net.Http.Headers
-// Classes: 36
+// Classes: 35
 // Methods: 348
 
 namespace ThirdParty.DotNet.System.Net.Http.Headers
@@ -8,103 +8,103 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
     public class AuthenticationHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void get_Parameter(){} // RVA: 0x7FFAF2DA8380
-        public void set_Parameter(){} // RVA: 0x7FFAF2D8EE30
-        public void get_Scheme(){} // RVA: 0x7FFAF2D907C0
-        public void set_Scheme(){} // RVA: 0x7FFAF2DF3E80
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92B8F50
-        public void GetHashCode(){} // RVA: 0x7FFAF92B9100
-        public void TryParse(){} // RVA: 0x7FFAF92B92F0 | overloaded x2
-        public void TryParseElement(){} // RVA: 0x7FFAF92B93B0
-        public void ToString(){} // RVA: 0x7FFAF92B9730
+        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Parameter(){} // RVA: 0x2F8380
+        public void set_Parameter(){} // RVA: 0x2DEE30
+        public void get_Scheme(){} // RVA: 0x2E07C0
+        public void set_Scheme(){} // RVA: 0x343E80
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x6808F50
+        public void GetHashCode(){} // RVA: 0x6809100
+        public void TryParse(){} // RVA: 0x68092F0 | overloaded x2
+        public void TryParseElement(){} // RVA: 0x68093B0
+        public void ToString(){} // RVA: 0x6809730
     }
 
     public class CacheControlHeaderValue
     {
         // ── Methods ──
-        public void get_Extensions(){} // RVA: 0x7FFAF92B9790
-        public void get_MaxAge(){} // RVA: 0x7FFAF3BCF520
-        public void set_MaxAge(){} // RVA: 0x7FFAF3BCC380
-        public void get_MaxStale(){} // RVA: 0x7FFAF2F56500
-        public void set_MaxStale(){} // RVA: 0x7FFAF2F578C0
-        public void get_MaxStaleLimit(){} // RVA: 0x7FFAF4A56340
-        public void set_MaxStaleLimit(){} // RVA: 0x7FFAF6F19B20
-        public void get_MinFresh(){} // RVA: 0x7FFAF6C90130
-        public void set_MinFresh(){} // RVA: 0x7FFAF85EA8D0
-        public void get_MustRevalidate(){} // RVA: 0x7FFAF2DB6020
-        public void set_MustRevalidate(){} // RVA: 0x7FFAF2DB6030
-        public void get_NoCache(){} // RVA: 0x7FFAF3C0A230
-        public void set_NoCache(){} // RVA: 0x7FFAF3BFF200
-        public void get_NoCacheHeaders(){} // RVA: 0x7FFAF92B9850
-        public void get_NoStore(){} // RVA: 0x7FFAF2DC1E50
-        public void set_NoStore(){} // RVA: 0x7FFAF3F20E80
-        public void get_NoTransform(){} // RVA: 0x7FFAF2DC1E40
-        public void set_NoTransform(){} // RVA: 0x7FFAF92B9910
-        public void get_OnlyIfCached(){} // RVA: 0x7FFAF3F48640
-        public void set_OnlyIfCached(){} // RVA: 0x7FFAF4741430
-        public void get_Private(){} // RVA: 0x7FFAF91B98B0
-        public void set_Private(){} // RVA: 0x7FFAF92B9920
-        public void get_PrivateHeaders(){} // RVA: 0x7FFAF92B9930
-        public void get_ProxyRevalidate(){} // RVA: 0x7FFAF91B9810
-        public void set_ProxyRevalidate(){} // RVA: 0x7FFAF92B99F0
-        public void get_Public(){} // RVA: 0x7FFAF91B9800
-        public void set_Public(){} // RVA: 0x7FFAF92B9A00
-        public void get_SharedMaxAge(){} // RVA: 0x7FFAF615BC50
-        public void set_SharedMaxAge(){} // RVA: 0x7FFAF615C0C0
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF92B9A10
-        public void Equals(){} // RVA: 0x7FFAF92BA190
-        public void GetHashCode(){} // RVA: 0x7FFAF92BA550
-        public void TryParse(){} // RVA: 0x7FFAF92BA930
-        public void ToString(){} // RVA: 0x7FFAF92BB910
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
+        public void get_Extensions(){} // RVA: 0x6809790
+        public void get_MaxAge(){} // RVA: 0x111F520
+        public void set_MaxAge(){} // RVA: 0x111C380
+        public void get_MaxStale(){} // RVA: 0x4A6500
+        public void set_MaxStale(){} // RVA: 0x4A78C0
+        public void get_MaxStaleLimit(){} // RVA: 0x1FA6340
+        public void set_MaxStaleLimit(){} // RVA: 0x4469B20
+        public void get_MinFresh(){} // RVA: 0x41E0130
+        public void set_MinFresh(){} // RVA: 0x5B3A8D0
+        public void get_MustRevalidate(){} // RVA: 0x306020
+        public void set_MustRevalidate(){} // RVA: 0x306030
+        public void get_NoCache(){} // RVA: 0x115A230
+        public void set_NoCache(){} // RVA: 0x114F200
+        public void get_NoCacheHeaders(){} // RVA: 0x6809850
+        public void get_NoStore(){} // RVA: 0x311E50
+        public void set_NoStore(){} // RVA: 0x1470E80
+        public void get_NoTransform(){} // RVA: 0x311E40
+        public void set_NoTransform(){} // RVA: 0x6809910
+        public void get_OnlyIfCached(){} // RVA: 0x1498640
+        public void set_OnlyIfCached(){} // RVA: 0x1C91430
+        public void get_Private(){} // RVA: 0x67098B0
+        public void set_Private(){} // RVA: 0x6809920
+        public void get_PrivateHeaders(){} // RVA: 0x6809930
+        public void get_ProxyRevalidate(){} // RVA: 0x6709810
+        public void set_ProxyRevalidate(){} // RVA: 0x68099F0
+        public void get_Public(){} // RVA: 0x6709800
+        public void set_Public(){} // RVA: 0x6809A00
+        public void get_SharedMaxAge(){} // RVA: 0x36ABC50
+        public void set_SharedMaxAge(){} // RVA: 0x36AC0C0
+        public void System.ICloneable.Clone(){} // RVA: 0x6809A10
+        public void Equals(){} // RVA: 0x680A190
+        public void GetHashCode(){} // RVA: 0x680A550
+        public void TryParse(){} // RVA: 0x680A930
+        public void ToString(){} // RVA: 0x680B910
+        public void .ctor(){} // RVA: 0x2DD310
     }
 
     public class CollectionExtensions
     {
         // ── Methods ──
-        public void SequenceEqual(){} // RVA: 0x7FFAF2ABE230
-        public void SetValue(){} // RVA: 0x7FFAF92BC350
-        public void ToString(){} // RVA: 0x7FFAF2ABCE50
-        public void ToStringBuilder(){} // RVA: 0x7FFAF2AD4D50
+        public void SequenceEqual(){} // RVA: 0xE230
+        public void SetValue(){} // RVA: 0x680C350
+        public void ToString(){} // RVA: 0xCE50
+        public void ToStringBuilder(){} // RVA: 0x24D50
     }
 
     public class CollectionParser
     {
         // ── Methods ──
-        public void TryParse(){} // RVA: 0x7FFAF92BC5D0 | overloaded x2
-        public void TryParseStringElement(){} // RVA: 0x7FFAF92BC690
+        public void TryParse(){} // RVA: 0x680C5D0 | overloaded x2
+        public void TryParseStringElement(){} // RVA: 0x680C690
     }
 
     public class ContentDispositionHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92BC8D0 | overloaded x2
-        public void get_Parameters(){} // RVA: 0x7FFAF92BCC70
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF92BCD30
-        public void Equals(){} // RVA: 0x7FFAF92BCD90
-        public void GetHashCode(){} // RVA: 0x7FFAF92BCF90
-        public void ToString(){} // RVA: 0x7FFAF92BD010
-        public void TryParse(){} // RVA: 0x7FFAF92BD070
+        public void .ctor(){} // RVA: 0x680C8D0 | overloaded x2
+        public void get_Parameters(){} // RVA: 0x680CC70
+        public void System.ICloneable.Clone(){} // RVA: 0x680CD30
+        public void Equals(){} // RVA: 0x680CD90
+        public void GetHashCode(){} // RVA: 0x680CF90
+        public void ToString(){} // RVA: 0x680D010
+        public void TryParse(){} // RVA: 0x680D070
     }
 
     public class ContentRangeHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92BD3E0
-        public void get_From(){} // RVA: 0x7FFAF3444EE0
-        public void set_From(){} // RVA: 0x7FFAF34449A0
-        public void get_Length(){} // RVA: 0x7FFAF3BCF520
-        public void set_Length(){} // RVA: 0x7FFAF3BCC380
-        public void get_To(){} // RVA: 0x7FFAF441F080
-        public void set_To(){} // RVA: 0x7FFAF4A24CD0
-        public void get_Unit(){} // RVA: 0x7FFAF2DA8380
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92BD470
-        public void GetHashCode(){} // RVA: 0x7FFAF92BD660
-        public void TryParse(){} // RVA: 0x7FFAF92BD7F0
-        public void ToString(){} // RVA: 0x7FFAF92BDE80
+        public void .ctor(){} // RVA: 0x680D3E0
+        public void get_From(){} // RVA: 0x994EE0
+        public void set_From(){} // RVA: 0x9949A0
+        public void get_Length(){} // RVA: 0x111F520
+        public void set_Length(){} // RVA: 0x111C380
+        public void get_To(){} // RVA: 0x196F080
+        public void set_To(){} // RVA: 0x1F74CD0
+        public void get_Unit(){} // RVA: 0x2F8380
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x680D470
+        public void GetHashCode(){} // RVA: 0x680D660
+        public void TryParse(){} // RVA: 0x680D7F0
+        public void ToString(){} // RVA: 0x680DE80
     }
 
     public class ElementTryParser`1
@@ -117,194 +117,194 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
     public class EntityTagHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void get_IsWeak(){} // RVA: 0x7FFAF2E575E0
-        public void set_IsWeak(){} // RVA: 0x7FFAF2E575F0
-        public void get_Tag(){} // RVA: 0x7FFAF2D907C0
-        public void set_Tag(){} // RVA: 0x7FFAF2DF3E80
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92BE0F0
-        public void GetHashCode(){} // RVA: 0x7FFAF92BE260
-        public void TryParse(){} // RVA: 0x7FFAF92BE890 | overloaded x2
-        public void TryParseElement(){} // RVA: 0x7FFAF92BE460
-        public void ToString(){} // RVA: 0x7FFAF92BE950
-        public void .cctor(){} // RVA: 0x7FFAF92BE9B0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void get_IsWeak(){} // RVA: 0x3A75E0
+        public void set_IsWeak(){} // RVA: 0x3A75F0
+        public void get_Tag(){} // RVA: 0x2E07C0
+        public void set_Tag(){} // RVA: 0x343E80
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x680E0F0
+        public void GetHashCode(){} // RVA: 0x680E260
+        public void TryParse(){} // RVA: 0x680E890 | overloaded x2
+        public void TryParseElement(){} // RVA: 0x680E460
+        public void ToString(){} // RVA: 0x680E950
+        public void .cctor(){} // RVA: 0x680E9B0
     }
 
     public class HashCodeCalculator
     {
         // ── Methods ──
-        public void Calculate(){} // RVA: 0x7FFAF2ABD920
+        public void Calculate(){} // RVA: 0xD920
     }
 
     public class HeaderInfo
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92BEAD0
-        public void CreateSingle(){} // RVA: 0x7FFAF2ACEC30
-        public void CreateMulti(){} // RVA: 0x7FFAF2D33FA0
-        public void CreateCollection(){} // RVA: 0x7FFAF2ACE6A0 | overloaded x2
-        public void get_CustomToString(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_CustomToString(){} // RVA: 0x7FFAF2DBB0D0
-        public void get_Separator(){} // RVA: 0x7FFAF92BEB50
-        public void AddToCollection(){} // RVA: 0x7FFAF2ADDC60
-        public void ToStringCollection(){} // RVA: 0x7FFAF2ABCE10
-        public void TryParse(){} // RVA: 0x7FFAF2AC1120
+        public void .ctor(){} // RVA: 0x680EAD0
+        public void CreateSingle(){} // RVA: 0x1EC30
+        public void CreateMulti(){} // RVA: 0x283FA0
+        public void CreateCollection(){} // RVA: 0x1E6A0 | overloaded x2
+        public void get_CustomToString(){} // RVA: 0x30B0C0
+        public void set_CustomToString(){} // RVA: 0x30B0D0
+        public void get_Separator(){} // RVA: 0x680EB50
+        public void AddToCollection(){} // RVA: 0x2DC60
+        public void ToStringCollection(){} // RVA: 0xCE10
+        public void TryParse(){} // RVA: 0x11120
     }
 
     public class HttpContentHeaders
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92BEB90
-        public void get_ContentEncoding(){} // RVA: 0x7FFAF92BEC40
-        public void get_ContentLength(){} // RVA: 0x7FFAF92BECA0
-        public void get_ContentType(){} // RVA: 0x7FFAF92BEFC0
-        public void set_ContentType(){} // RVA: 0x7FFAF92BF020
+        public void .ctor(){} // RVA: 0x680EB90
+        public void get_ContentEncoding(){} // RVA: 0x680EC40
+        public void get_ContentLength(){} // RVA: 0x680ECA0
+        public void get_ContentType(){} // RVA: 0x680EFC0
+        public void set_ContentType(){} // RVA: 0x680F020
     }
 
     public class HttpHeaderValueCollection`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
-        public void get_Count(){} // RVA: 0x7FFAF2ABD840
-        public void get_InvalidValues(){} // RVA: 0x7FFAF2ABCD60
-        public void get_IsReadOnly(){} // RVA: 0x7FFAF2ABDBE0
-        public void Add(){} // RVA: 0x7FFAF2D33FA0
-        public void AddRange(){} // RVA: 0x7FFAF2AD4B10
-        public void AddInvalidValue(){} // RVA: 0x7FFAF2AD4B10
-        public void Clear(){} // RVA: 0x7FFAF2AD4A50
-        public void Contains(){} // RVA: 0x7FFAF2D33FA0
-        public void CopyTo(){} // RVA: 0x7FFAF2ADBAA0
-        public void Remove(){} // RVA: 0x7FFAF2D33FA0
-        public void ToString(){} // RVA: 0x7FFAF2ABCD60
-        public void GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF2ABCD60
-        public void Find(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x2DC60
+        public void get_Count(){} // RVA: 0xD840
+        public void get_InvalidValues(){} // RVA: 0xCD60
+        public void get_IsReadOnly(){} // RVA: 0xDBE0
+        public void Add(){} // RVA: 0x283FA0
+        public void AddRange(){} // RVA: 0x24B10
+        public void AddInvalidValue(){} // RVA: 0x24B10
+        public void Clear(){} // RVA: 0x24A50
+        public void Contains(){} // RVA: 0x283FA0
+        public void CopyTo(){} // RVA: 0x2BAA0
+        public void Remove(){} // RVA: 0x283FA0
+        public void ToString(){} // RVA: 0xCD60
+        public void GetEnumerator(){} // RVA: 0xCD60
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
+        public void Find(){} // RVA: 0x283FA0
     }
 
     public class HttpHeaders
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7FFAF92BF160
-        public void .ctor(){} // RVA: 0x7FFAF92C1E00 | overloaded x2
-        public void Add(){} // RVA: 0x7FFAF92C1FF0 | overloaded x2
-        public void AddInternal(){} // RVA: 0x7FFAF92C2090
-        public void TryAddWithoutValidation(){} // RVA: 0x7FFAF92C2540
-        public void CheckName(){} // RVA: 0x7FFAF92C2610
-        public void TryCheckName(){} // RVA: 0x7FFAF92C2790
-        public void Contains(){} // RVA: 0x7FFAF92C2910
-        public void GetEnumerator(){} // RVA: 0x7FFAF92C2990
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7FFAF92C2A30
-        public void Remove(){} // RVA: 0x7FFAF92C2A40
-        public void TryGetValues(){} // RVA: 0x7FFAF92C2AB0
-        public void GetSingleHeaderString(){} // RVA: 0x7FFAF92C2C70
-        public void ToString(){} // RVA: 0x7FFAF92C3010
-        public void AddOrRemove(){} // RVA: 0x7FFAF2D33FA0
-        public void GetAllHeaderValues(){} // RVA: 0x7FFAF92C32F0
-        public void GetKnownHeaderKind(){} // RVA: 0x7FFAF92C34D0
-        public void GetValue(){} // RVA: 0x7FFAF2D33FA0
-        public void GetValues(){} // RVA: 0x7FFAF2ABCE10
-        public void SetValue(){} // RVA: 0x7FFAF2D33FA0
+        public void .cctor(){} // RVA: 0x680F160
+        public void .ctor(){} // RVA: 0x6811E00 | overloaded x2
+        public void Add(){} // RVA: 0x6811FF0 | overloaded x2
+        public void AddInternal(){} // RVA: 0x6812090
+        public void TryAddWithoutValidation(){} // RVA: 0x6812540
+        public void CheckName(){} // RVA: 0x6812610
+        public void TryCheckName(){} // RVA: 0x6812790
+        public void Contains(){} // RVA: 0x6812910
+        public void GetEnumerator(){} // RVA: 0x6812990
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x6812A30
+        public void Remove(){} // RVA: 0x6812A40
+        public void TryGetValues(){} // RVA: 0x6812AB0
+        public void GetSingleHeaderString(){} // RVA: 0x6812C70
+        public void ToString(){} // RVA: 0x6813010
+        public void AddOrRemove(){} // RVA: 0x283FA0
+        public void GetAllHeaderValues(){} // RVA: 0x68132F0
+        public void GetKnownHeaderKind(){} // RVA: 0x68134D0
+        public void GetValue(){} // RVA: 0x283FA0
+        public void GetValues(){} // RVA: 0xCE10
+        public void SetValue(){} // RVA: 0x283FA0
     }
 
     public class HttpRequestHeaders
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92C3CD0
-        public void get_Connection(){} // RVA: 0x7FFAF92C3D30
-        public void get_ConnectionClose(){} // RVA: 0x7FFAF92C3D90
-        public void get_ExpectContinue(){} // RVA: 0x7FFAF92C3FE0
-        public void get_Host(){} // RVA: 0x7FFAF92C4220
-        public void get_TransferEncoding(){} // RVA: 0x7FFAF92C4280
-        public void get_TransferEncodingChunked(){} // RVA: 0x7FFAF92C42E0
-        public void AddHeaders(){} // RVA: 0x7FFAF92C4520
+        public void .ctor(){} // RVA: 0x6813CD0
+        public void get_Connection(){} // RVA: 0x6813D30
+        public void get_ConnectionClose(){} // RVA: 0x6813D90
+        public void get_ExpectContinue(){} // RVA: 0x6813FE0
+        public void get_Host(){} // RVA: 0x6814220
+        public void get_TransferEncoding(){} // RVA: 0x6814280
+        public void get_TransferEncodingChunked(){} // RVA: 0x68142E0
+        public void AddHeaders(){} // RVA: 0x6814520
     }
 
     public class HttpResponseHeaders
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92C4B60
-        public void get_RetryAfter(){} // RVA: 0x7FFAF92C4BC0
+        public void .ctor(){} // RVA: 0x6814B60
+        public void get_RetryAfter(){} // RVA: 0x6814BC0
     }
 
     public class Lexer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8EE30
-        public void get_Position(){} // RVA: 0x7FFAF306ED50
-        public void set_Position(){} // RVA: 0x7FFAF30E74E0
-        public void GetStringValue(){} // RVA: 0x7FFAF92C4E10 | overloaded x2
-        public void GetQuotedStringValue(){} // RVA: 0x7FFAF92C4EA0
-        public void GetRemainingStringValue(){} // RVA: 0x7FFAF92C4F20
-        public void IsStarStringValue(){} // RVA: 0x7FFAF92C4F60
-        public void TryGetNumericValue(){} // RVA: 0x7FFAF92C5150 | overloaded x2
-        public void TryGetTimeSpanValue(){} // RVA: 0x7FFAF92C5290
-        public void TryGetDateValue(){} // RVA: 0x7FFAF92C5510 | overloaded x2
-        public void TryGetDoubleValue(){} // RVA: 0x7FFAF92C5610
-        public void IsValidToken(){} // RVA: 0x7FFAF92C5750
-        public void IsValidCharacter(){} // RVA: 0x7FFAF92C58A0
-        public void EatChar(){} // RVA: 0x7FFAF92C5950
-        public void PeekChar(){} // RVA: 0x7FFAF92C5960
-        public void ScanCommentOptional(){} // RVA: 0x7FFAF92C59B0
-        public void Scan(){} // RVA: 0x7FFAF92C5BE0
-        public void .cctor(){} // RVA: 0x7FFAF92C5F80
+        public void .ctor(){} // RVA: 0x2DEE30
+        public void get_Position(){} // RVA: 0x5BED50
+        public void set_Position(){} // RVA: 0x6374E0
+        public void GetStringValue(){} // RVA: 0x6814E10 | overloaded x2
+        public void GetQuotedStringValue(){} // RVA: 0x6814EA0
+        public void GetRemainingStringValue(){} // RVA: 0x6814F20
+        public void IsStarStringValue(){} // RVA: 0x6814F60
+        public void TryGetNumericValue(){} // RVA: 0x6815150 | overloaded x2
+        public void TryGetTimeSpanValue(){} // RVA: 0x6815290
+        public void TryGetDateValue(){} // RVA: 0x6815510 | overloaded x2
+        public void TryGetDoubleValue(){} // RVA: 0x6815610
+        public void IsValidToken(){} // RVA: 0x6815750
+        public void IsValidCharacter(){} // RVA: 0x68158A0
+        public void EatChar(){} // RVA: 0x6815950
+        public void PeekChar(){} // RVA: 0x6815960
+        public void ScanCommentOptional(){} // RVA: 0x68159B0
+        public void Scan(){} // RVA: 0x6815BE0
+        public void .cctor(){} // RVA: 0x6815F80
     }
 
     public class MediaTypeHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x3
-        public void get_CharSet(){} // RVA: 0x7FFAF92C6760
-        public void set_CharSet(){} // RVA: 0x7FFAF92C68F0
-        public void get_MediaType(){} // RVA: 0x7FFAF2D907C0
-        public void set_MediaType(){} // RVA: 0x7FFAF92C61F0
-        public void get_Parameters(){} // RVA: 0x7FFAF92C69F0
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF92C6AB0
-        public void Equals(){} // RVA: 0x7FFAF92C6B10
-        public void GetHashCode(){} // RVA: 0x7FFAF92C6D10
-        public void Parse(){} // RVA: 0x7FFAF92C6D90
-        public void ToString(){} // RVA: 0x7FFAF92C6E10
-        public void TryParse(){} // RVA: 0x7FFAF92C6E80
-        public void TryParseMediaType(){} // RVA: 0x7FFAF92C7190
+        public void .ctor(){} // RVA: 0x2DD310 | overloaded x3
+        public void get_CharSet(){} // RVA: 0x6816760
+        public void set_CharSet(){} // RVA: 0x68168F0
+        public void get_MediaType(){} // RVA: 0x2E07C0
+        public void set_MediaType(){} // RVA: 0x68161F0
+        public void get_Parameters(){} // RVA: 0x68169F0
+        public void System.ICloneable.Clone(){} // RVA: 0x6816AB0
+        public void Equals(){} // RVA: 0x6816B10
+        public void GetHashCode(){} // RVA: 0x6816D10
+        public void Parse(){} // RVA: 0x6816D90
+        public void ToString(){} // RVA: 0x6816E10
+        public void TryParse(){} // RVA: 0x6816E80
+        public void TryParseMediaType(){} // RVA: 0x6817190
     }
 
     public class MediaTypeWithQualityHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void TryParseElement(){} // RVA: 0x7FFAF92C7610
-        public void TryParse(){} // RVA: 0x7FFAF92C7910
+        public void .ctor(){} // RVA: 0x2DD310
+        public void TryParseElement(){} // RVA: 0x6817610
+        public void TryParse(){} // RVA: 0x6817910
     }
 
     public class NameValueHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x3
-        public void get_Name(){} // RVA: 0x7FFAF2D907C0
-        public void set_Name(){} // RVA: 0x7FFAF2DF3E80
-        public void get_Value(){} // RVA: 0x7FFAF2DA8380
-        public void set_Value(){} // RVA: 0x7FFAF92C7B40
-        public void Create(){} // RVA: 0x7FFAF92C7DB0
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF92C7EC0
-        public void GetHashCode(){} // RVA: 0x7FFAF92B9100
-        public void Equals(){} // RVA: 0x7FFAF92C7F20
-        public void TryParsePragma(){} // RVA: 0x7FFAF92C8140
-        public void TryParseParameters(){} // RVA: 0x7FFAF92C8200
-        public void ToString(){} // RVA: 0x7FFAF92C8710
-        public void TryParseElement(){} // RVA: 0x7FFAF92C8770
+        public void .ctor(){} // RVA: 0x2DD310 | overloaded x3
+        public void get_Name(){} // RVA: 0x2E07C0
+        public void set_Name(){} // RVA: 0x343E80
+        public void get_Value(){} // RVA: 0x2F8380
+        public void set_Value(){} // RVA: 0x6817B40
+        public void Create(){} // RVA: 0x6817DB0
+        public void System.ICloneable.Clone(){} // RVA: 0x6817EC0
+        public void GetHashCode(){} // RVA: 0x6809100
+        public void Equals(){} // RVA: 0x6817F20
+        public void TryParsePragma(){} // RVA: 0x6818140
+        public void TryParseParameters(){} // RVA: 0x6818200
+        public void ToString(){} // RVA: 0x6818710
+        public void TryParseElement(){} // RVA: 0x6818770
     }
 
     public class NameValueWithParametersHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
-        public void get_Parameters(){} // RVA: 0x7FFAF92C8E40
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF92C8F00
-        public void Equals(){} // RVA: 0x7FFAF92C8F60
-        public void GetHashCode(){} // RVA: 0x7FFAF92C90B0
-        public void ToString(){} // RVA: 0x7FFAF92C9170
-        public void TryParse(){} // RVA: 0x7FFAF92C9290
-        public void TryParseElement(){} // RVA: 0x7FFAF92C9350
+        public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
+        public void get_Parameters(){} // RVA: 0x6818E40
+        public void System.ICloneable.Clone(){} // RVA: 0x6818F00
+        public void Equals(){} // RVA: 0x6818F60
+        public void GetHashCode(){} // RVA: 0x68190B0
+        public void ToString(){} // RVA: 0x6819170
+        public void TryParse(){} // RVA: 0x6819290
+        public void TryParseElement(){} // RVA: 0x6819350
     }
 
     public class Parser
@@ -314,106 +314,106 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
     public class ProductHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void get_Name(){} // RVA: 0x7FFAF2DA8380
-        public void set_Name(){} // RVA: 0x7FFAF2D8EE30
-        public void get_Version(){} // RVA: 0x7FFAF2D907C0
-        public void set_Version(){} // RVA: 0x7FFAF2DF3E80
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92CA630
-        public void GetHashCode(){} // RVA: 0x7FFAF92CA840
-        public void TryParse(){} // RVA: 0x7FFAF92CA8C0
-        public void TryParseElement(){} // RVA: 0x7FFAF92CA980
-        public void ToString(){} // RVA: 0x7FFAF92CACF0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Name(){} // RVA: 0x2F8380
+        public void set_Name(){} // RVA: 0x2DEE30
+        public void get_Version(){} // RVA: 0x2E07C0
+        public void set_Version(){} // RVA: 0x343E80
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x681A630
+        public void GetHashCode(){} // RVA: 0x681A840
+        public void TryParse(){} // RVA: 0x681A8C0
+        public void TryParseElement(){} // RVA: 0x681A980
+        public void ToString(){} // RVA: 0x681ACF0
     }
 
     public class ProductInfoHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
-        public void get_Comment(){} // RVA: 0x7FFAF2DA8380
-        public void set_Comment(){} // RVA: 0x7FFAF2D8EE30
-        public void get_Product(){} // RVA: 0x7FFAF2D907C0
-        public void set_Product(){} // RVA: 0x7FFAF2DF3E80
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92CADF0
-        public void GetHashCode(){} // RVA: 0x7FFAF92CAEF0
-        public void TryParse(){} // RVA: 0x7FFAF92CAF30
-        public void TryParseElement(){} // RVA: 0x7FFAF92CB190
-        public void ToString(){} // RVA: 0x7FFAF92CB590
+        public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
+        public void get_Comment(){} // RVA: 0x2F8380
+        public void set_Comment(){} // RVA: 0x2DEE30
+        public void get_Product(){} // RVA: 0x2E07C0
+        public void set_Product(){} // RVA: 0x343E80
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x681ADF0
+        public void GetHashCode(){} // RVA: 0x681AEF0
+        public void TryParse(){} // RVA: 0x681AF30
+        public void TryParseElement(){} // RVA: 0x681B190
+        public void ToString(){} // RVA: 0x681B590
     }
 
     public class RangeConditionHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92CB630 | overloaded x2
-        public void get_Date(){} // RVA: 0x7FFAF4A40220
-        public void set_Date(){} // RVA: 0x7FFAF4A40200
-        public void get_EntityTag(){} // RVA: 0x7FFAF2DBB130
-        public void set_EntityTag(){} // RVA: 0x7FFAF2D8EE90
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92CB6E0
-        public void GetHashCode(){} // RVA: 0x7FFAF92CB860
-        public void TryParse(){} // RVA: 0x7FFAF92CB950
-        public void ToString(){} // RVA: 0x7FFAF92CBDE0
+        public void .ctor(){} // RVA: 0x681B630 | overloaded x2
+        public void get_Date(){} // RVA: 0x1F90220
+        public void set_Date(){} // RVA: 0x1F90200
+        public void get_EntityTag(){} // RVA: 0x30B130
+        public void set_EntityTag(){} // RVA: 0x2DEE90
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x681B6E0
+        public void GetHashCode(){} // RVA: 0x681B860
+        public void TryParse(){} // RVA: 0x681B950
+        public void ToString(){} // RVA: 0x681BDE0
     }
 
     public class RangeHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92CBF80 | overloaded x2
-        public void get_Ranges(){} // RVA: 0x7FFAF92CC1C0
-        public void get_Unit(){} // RVA: 0x7FFAF2D907C0
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF92CC280
-        public void Equals(){} // RVA: 0x7FFAF92CC2E0
-        public void GetHashCode(){} // RVA: 0x7FFAF92CC4E0
-        public void TryParse(){} // RVA: 0x7FFAF92CC560
-        public void ToString(){} // RVA: 0x7FFAF92CCD40
+        public void .ctor(){} // RVA: 0x681BF80 | overloaded x2
+        public void get_Ranges(){} // RVA: 0x681C1C0
+        public void get_Unit(){} // RVA: 0x2E07C0
+        public void System.ICloneable.Clone(){} // RVA: 0x681C280
+        public void Equals(){} // RVA: 0x681C2E0
+        public void GetHashCode(){} // RVA: 0x681C4E0
+        public void TryParse(){} // RVA: 0x681C560
+        public void ToString(){} // RVA: 0x681CD40
     }
 
     public class RangeItemHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92CCF80
-        public void get_From(){} // RVA: 0x7FFAF441ABE0
-        public void set_From(){} // RVA: 0x7FFAF441ABF0
-        public void get_To(){} // RVA: 0x7FFAF49AB630
-        public void set_To(){} // RVA: 0x7FFAF86897C0
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92CD160
-        public void GetHashCode(){} // RVA: 0x7FFAF92CD250
-        public void ToString(){} // RVA: 0x7FFAF92CD330
+        public void .ctor(){} // RVA: 0x681CF80
+        public void get_From(){} // RVA: 0x196ABE0
+        public void set_From(){} // RVA: 0x196ABF0
+        public void get_To(){} // RVA: 0x1EFB630
+        public void set_To(){} // RVA: 0x5BD97C0
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x681D160
+        public void GetHashCode(){} // RVA: 0x681D250
+        public void ToString(){} // RVA: 0x681D330
     }
 
     public class RetryConditionHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92CD590 | overloaded x2
-        public void get_Date(){} // RVA: 0x7FFAF4A40220
-        public void set_Date(){} // RVA: 0x7FFAF4A40200
-        public void get_Delta(){} // RVA: 0x7FFAF3BCF520
-        public void set_Delta(){} // RVA: 0x7FFAF3BCC380
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92CD670
-        public void GetHashCode(){} // RVA: 0x7FFAF92CD840
-        public void TryParse(){} // RVA: 0x7FFAF92CD9B0
-        public void ToString(){} // RVA: 0x7FFAF92CDD40
+        public void .ctor(){} // RVA: 0x681D590 | overloaded x2
+        public void get_Date(){} // RVA: 0x1F90220
+        public void set_Date(){} // RVA: 0x1F90200
+        public void get_Delta(){} // RVA: 0x111F520
+        public void set_Delta(){} // RVA: 0x111C380
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x681D670
+        public void GetHashCode(){} // RVA: 0x681D840
+        public void TryParse(){} // RVA: 0x681D9B0
+        public void ToString(){} // RVA: 0x681DD40
     }
 
     public class StringWithQualityHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void get_Quality(){} // RVA: 0x7FFAF441ABE0
-        public void set_Quality(){} // RVA: 0x7FFAF441ABF0
-        public void get_Value(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_Value(){} // RVA: 0x7FFAF2DBB0D0
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92CDF20
-        public void GetHashCode(){} // RVA: 0x7FFAF92CE0D0
-        public void TryParse(){} // RVA: 0x7FFAF92CE1C0
-        public void TryParseElement(){} // RVA: 0x7FFAF92CE280
-        public void ToString(){} // RVA: 0x7FFAF92CE830
+        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Quality(){} // RVA: 0x196ABE0
+        public void set_Quality(){} // RVA: 0x196ABF0
+        public void get_Value(){} // RVA: 0x30B0C0
+        public void set_Value(){} // RVA: 0x30B0D0
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x681DF20
+        public void GetHashCode(){} // RVA: 0x681E0D0
+        public void TryParse(){} // RVA: 0x681E1C0
+        public void TryParseElement(){} // RVA: 0x681E280
+        public void ToString(){} // RVA: 0x681E830
     }
 
     public class Token
@@ -421,48 +421,44 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
         public object Position;
 
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92C4C20
-        public void get_StartPosition(){} // RVA: 0x7FFAF44189E0
-        public void set_StartPosition(){} // RVA: 0x7FFAF44189D0
-        public void get_EndPosition(){} // RVA: 0x7FFAF4959890
-        public void set_EndPosition(){} // RVA: 0x7FFAF49598A0
-        public void get_Kind(){} // RVA: 0x7FFAF44189B0
-        public void op_Implicit(){} // RVA: 0x7FFAF44189B0
-        public void ToString(){} // RVA: 0x7FFAF92C4CA0
-        public void .cctor(){} // RVA: 0x7FFAF92C4D00
+        public void .ctor(){} // RVA: 0x6814C20
+        public void get_StartPosition(){} // RVA: 0x19689E0
+        public void set_StartPosition(){} // RVA: 0x19689D0
+        public void get_EndPosition(){} // RVA: 0x1EA9890
+        public void set_EndPosition(){} // RVA: 0x1EA98A0
+        public void get_Kind(){} // RVA: 0x19689B0
+        public void op_Implicit(){} // RVA: 0x19689B0
+        public void ToString(){} // RVA: 0x6814CA0
+        public void .cctor(){} // RVA: 0x6814D00
     }
 
     public class TransferCodingHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310 | overloaded x2
-        public void get_Parameters(){} // RVA: 0x7FFAF92CECF0
-        public void get_Value(){} // RVA: 0x7FFAF2DA8380
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF92CEDB0
-        public void Equals(){} // RVA: 0x7FFAF92CEE10
-        public void GetHashCode(){} // RVA: 0x7FFAF92CF010
-        public void ToString(){} // RVA: 0x7FFAF92CF0A0
-        public void TryParse(){} // RVA: 0x7FFAF92CF100
-        public void TryParseElement(){} // RVA: 0x7FFAF92CF1C0
+        public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
+        public void get_Parameters(){} // RVA: 0x681ECF0
+        public void get_Value(){} // RVA: 0x2F8380
+        public void System.ICloneable.Clone(){} // RVA: 0x681EDB0
+        public void Equals(){} // RVA: 0x681EE10
+        public void GetHashCode(){} // RVA: 0x681F010
+        public void ToString(){} // RVA: 0x681F0A0
+        public void TryParse(){} // RVA: 0x681F100
+        public void TryParseElement(){} // RVA: 0x681F1C0
     }
 
     public class TransferCodingWithQualityHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void TryParse(){} // RVA: 0x7FFAF92CF490
-        public void TryParseElement(){} // RVA: 0x7FFAF92CF550
+        public void .ctor(){} // RVA: 0x2DD310
+        public void TryParse(){} // RVA: 0x681F490
+        public void TryParseElement(){} // RVA: 0x681F550
     }
 
     public class TryParseDelegate`1
     {
         // ── Methods ──
         public void .ctor(){}
-        public void Invoke(){} // RVA: 0x7FFAF2AC1120
-    }
-
-    public class TryParseDelegate`1
-    {
+        public void Invoke(){} // RVA: 0x11120
     }
 
     public class TryParseListDelegate`1
@@ -475,42 +471,42 @@ namespace ThirdParty.DotNet.System.Net.Http.Headers
     public class ViaHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void get_Comment(){} // RVA: 0x7FFAF2DA8380
-        public void set_Comment(){} // RVA: 0x7FFAF2D8EE30
-        public void get_ProtocolName(){} // RVA: 0x7FFAF2D907C0
-        public void set_ProtocolName(){} // RVA: 0x7FFAF2DF3E80
-        public void get_ProtocolVersion(){} // RVA: 0x7FFAF2DBB0C0
-        public void set_ProtocolVersion(){} // RVA: 0x7FFAF2DBB0D0
-        public void get_ReceivedBy(){} // RVA: 0x7FFAF2DBB130
-        public void set_ReceivedBy(){} // RVA: 0x7FFAF2D8EE90
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92CF820
-        public void GetHashCode(){} // RVA: 0x7FFAF92CFB30
-        public void TryParse(){} // RVA: 0x7FFAF92CFC30
-        public void TryParseElement(){} // RVA: 0x7FFAF92CFCF0
-        public void ToString(){} // RVA: 0x7FFAF92D02B0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Comment(){} // RVA: 0x2F8380
+        public void set_Comment(){} // RVA: 0x2DEE30
+        public void get_ProtocolName(){} // RVA: 0x2E07C0
+        public void set_ProtocolName(){} // RVA: 0x343E80
+        public void get_ProtocolVersion(){} // RVA: 0x30B0C0
+        public void set_ProtocolVersion(){} // RVA: 0x30B0D0
+        public void get_ReceivedBy(){} // RVA: 0x30B130
+        public void set_ReceivedBy(){} // RVA: 0x2DEE90
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x681F820
+        public void GetHashCode(){} // RVA: 0x681FB30
+        public void TryParse(){} // RVA: 0x681FC30
+        public void TryParseElement(){} // RVA: 0x681FCF0
+        public void ToString(){} // RVA: 0x68202B0
     }
 
     public class WarningHeaderValue
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void get_Agent(){} // RVA: 0x7FFAF2DA8380
-        public void set_Agent(){} // RVA: 0x7FFAF2D8EE30
-        public void get_Code(){} // RVA: 0x7FFAF306ED50
-        public void set_Code(){} // RVA: 0x7FFAF30E74E0
-        public void get_Date(){} // RVA: 0x7FFAF46001E0
-        public void set_Date(){} // RVA: 0x7FFAF4600090
-        public void get_Text(){} // RVA: 0x7FFAF2F476A0
-        public void set_Text(){} // RVA: 0x7FFAF2F4B830
-        public void IsCodeValid(){} // RVA: 0x7FFAF92D03E0
-        public void System.ICloneable.Clone(){} // RVA: 0x7FFAF882B480
-        public void Equals(){} // RVA: 0x7FFAF92D0400
-        public void GetHashCode(){} // RVA: 0x7FFAF92D0680
-        public void TryParse(){} // RVA: 0x7FFAF92D07C0
-        public void TryParseElement(){} // RVA: 0x7FFAF92D0880
-        public void ToString(){} // RVA: 0x7FFAF92D0E30
+        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Agent(){} // RVA: 0x2F8380
+        public void set_Agent(){} // RVA: 0x2DEE30
+        public void get_Code(){} // RVA: 0x5BED50
+        public void set_Code(){} // RVA: 0x6374E0
+        public void get_Date(){} // RVA: 0x1B501E0
+        public void set_Date(){} // RVA: 0x1B50090
+        public void get_Text(){} // RVA: 0x4976A0
+        public void set_Text(){} // RVA: 0x49B830
+        public void IsCodeValid(){} // RVA: 0x68203E0
+        public void System.ICloneable.Clone(){} // RVA: 0x5D7B480
+        public void Equals(){} // RVA: 0x6820400
+        public void GetHashCode(){} // RVA: 0x6820680
+        public void TryParse(){} // RVA: 0x68207C0
+        public void TryParseElement(){} // RVA: 0x6820880
+        public void ToString(){} // RVA: 0x6820E30
     }
 
 }

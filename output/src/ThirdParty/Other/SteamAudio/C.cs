@@ -8,22 +8,22 @@ namespace ThirdParty.Other.SteamAudio
     public class ClosestHitCallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8F2A720
-        public void Invoke(){} // RVA: 0x7FFAF8F2A800
-        public void BeginInvoke(){} // RVA: 0x7FFAF8F2A820
-        public void EndInvoke(){} // RVA: 0x7FFAF3B087E0
+        public void .ctor(){} // RVA: 0x647A720
+        public void Invoke(){} // RVA: 0x647A800
+        public void BeginInvoke(){} // RVA: 0x647A820
+        public void EndInvoke(){} // RVA: 0x10587E0
     }
 
     public class Common
     {
         // ── Methods ──
-        public void ConvertVector(){} // RVA: 0x7FFAF3B05C20 | overloaded x2
-        public void ConvertTransform(){} // RVA: 0x7FFAF8F23E40
-        public void TransposeMatrix(){} // RVA: 0x7FFAF8F240D0
-        public void TransformMatrix(){} // RVA: 0x7FFAF8F240D0
-        public void ConvertString(){} // RVA: 0x7FFAF8F24180
-        public void GetStreamingAssetsFileName(){} // RVA: 0x7FFAF8F24200
-        public void HumanReadableDataSize(){} // RVA: 0x7FFAF8F242D0
+        public void ConvertVector(){} // RVA: 0x1055C20 | overloaded x2
+        public void ConvertTransform(){} // RVA: 0x6473E40
+        public void TransposeMatrix(){} // RVA: 0x64740D0
+        public void TransformMatrix(){} // RVA: 0x64740D0
+        public void ConvertString(){} // RVA: 0x6474180
+        public void GetStreamingAssetsFileName(){} // RVA: 0x6474200
+        public void HumanReadableDataSize(){} // RVA: 0x64742D0
     }
 
     public class Constants
@@ -33,11 +33,11 @@ namespace ThirdParty.Other.SteamAudio
     public class Context
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8F24870 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFAF8F24910
-        public void Release(){} // RVA: 0x7FFAF8F24950
-        public void Get(){} // RVA: 0x7FFAF2DA8380
-        public void LogMessage(){} // RVA: 0x7FFAF8F249D0
+        public void .ctor(){} // RVA: 0x6474870 | overloaded x2
+        public void Finalize(){} // RVA: 0x6474910
+        public void Release(){} // RVA: 0x6474950
+        public void Get(){} // RVA: 0x2F8380
+        public void LogMessage(){} // RVA: 0x64749D0
     }
 
     public class ContextSettings

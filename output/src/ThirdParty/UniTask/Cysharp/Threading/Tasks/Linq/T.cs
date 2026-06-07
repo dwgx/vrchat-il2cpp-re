@@ -8,7 +8,7 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class TakeLast`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADBAA0
+        public void .ctor(){} // RVA: 0x2BAA0
         public void GetAsyncEnumerator(){}
     }
 
@@ -22,147 +22,147 @@ namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
     public class TakeUntil`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x283FA0
         public void GetAsyncEnumerator(){}
     }
 
     public class TakeWhileAwaitWithCancellation`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class TakeWhileAwait`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class TakeWhileIntAwaitWithCancellation`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class TakeWhileIntAwait`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class TakeWhileInt`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class TakeWhile`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADDC60
+        public void .ctor(){} // RVA: 0x2DC60
         public void GetAsyncEnumerator(){}
     }
 
     public class Take`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2ADBAA0
+        public void .ctor(){} // RVA: 0x2BAA0
         public void GetAsyncEnumerator(){}
     }
 
     public class Throw`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x24B10
         public void GetAsyncEnumerator(){}
     }
 
     public class Timer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF97DB280
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFAF97DB2B0
+        public void .ctor(){} // RVA: 0x6D2B280
+        public void GetAsyncEnumerator(){} // RVA: 0x6D2B2B0
     }
 
     public class TimerFrame : `
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF97DBC60
-        public void GetAsyncEnumerator(){} // RVA: 0x7FFAF97DBC80
+        public void .ctor(){} // RVA: 0x6D2BC60
+        public void GetAsyncEnumerator(){} // RVA: 0x6D2BC80
     }
 
     public class ToArray
     {
         // ── Methods ──
-        public void ToArrayAsync(){} // RVA: 0x7FFAF2D33FA0
+        public void ToArrayAsync(){} // RVA: 0x283FA0
     }
 
     public class ToDictionary
     {
         // ── Methods ──
-        public void ToDictionaryAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
-        public void ToDictionaryAwaitAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
-        public void ToDictionaryAwaitWithCancellationAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void ToDictionaryAsync(){} // RVA: 0x283FA0 | overloaded x2
+        public void ToDictionaryAwaitAsync(){} // RVA: 0x283FA0 | overloaded x2
+        public void ToDictionaryAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x2
     }
 
     public class ToHashSet
     {
         // ── Methods ──
-        public void ToHashSetAsync(){} // RVA: 0x7FFAF2D33FA0
+        public void ToHashSetAsync(){} // RVA: 0x283FA0
     }
 
     public class ToList
     {
         // ── Methods ──
-        public void ToListAsync(){} // RVA: 0x7FFAF2D33FA0
+        public void ToListAsync(){} // RVA: 0x283FA0
     }
 
     public class ToLookup
     {
         // ── Methods ──
-        public void ToLookupAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
-        public void ToLookupAwaitAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
-        public void ToLookupAwaitWithCancellationAsync(){} // RVA: 0x7FFAF2D33FA0 | overloaded x2
+        public void ToLookupAsync(){} // RVA: 0x283FA0 | overloaded x2
+        public void ToLookupAwaitAsync(){} // RVA: 0x283FA0 | overloaded x2
+        public void ToLookupAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x2
     }
 
     public class ToObservable`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
-        public void Subscribe(){} // RVA: 0x7FFAF2ABCE10
-        public void RunAsync(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x24B10
+        public void Subscribe(){} // RVA: 0xCE10
+        public void RunAsync(){} // RVA: 0x283FA0
     }
 
     public class ToUniTaskAsyncEnumerableObservable`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x24B10
         public void GetAsyncEnumerator(){}
     }
 
     public class ToUniTaskAsyncEnumerableTask`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x24B10
         public void GetAsyncEnumerator(){}
     }
 
     public class ToUniTaskAsyncEnumerableUniTask`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2D33FA0
+        public void .ctor(){} // RVA: 0x283FA0
         public void GetAsyncEnumerator(){}
     }
 
     public class ToUniTaskAsyncEnumerable`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF2AD4B10
+        public void .ctor(){} // RVA: 0x24B10
         public void GetAsyncEnumerator(){}
     }
 

@@ -8,10 +8,10 @@ namespace ThirdParty.Other.SteamAudio
     public class EmbreeDevice
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF8F24BC0 | overloaded x2
-        public void Finalize(){} // RVA: 0x7FFAF8F24C60
-        public void Release(){} // RVA: 0x7FFAF8F24CA0
-        public void Get(){} // RVA: 0x7FFAF2DA8380
+        public void .ctor(){} // RVA: 0x6474BC0 | overloaded x2
+        public void Finalize(){} // RVA: 0x6474C60
+        public void Release(){} // RVA: 0x6474CA0
+        public void Get(){} // RVA: 0x2F8380
     }
 
     public class EmbreeDeviceSettings

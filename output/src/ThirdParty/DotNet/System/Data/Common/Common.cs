@@ -8,788 +8,788 @@ namespace ThirdParty.DotNet.System.Data.Common
     public class ADP
     {
         // ── Methods ──
-        public void TraceException(){} // RVA: 0x7FFAF924ADB0
-        public void TraceExceptionAsReturnValue(){} // RVA: 0x7FFAF924AE40
-        public void TraceExceptionWithoutRethrow(){} // RVA: 0x7FFAF924AF10
-        public void Argument(){} // RVA: 0x7FFAF924AFE0
-        public void ArgumentOutOfRange(){} // RVA: 0x7FFAF924B130 | overloaded x2
-        public void InvalidOperation(){} // RVA: 0x7FFAF924B1D0
-        public void NotSupported(){} // RVA: 0x7FFAF924B260
-        public void IsCatchableExceptionType(){} // RVA: 0x7FFAF924B2F0
-        public void IsCatchableOrSecurityExceptionType(){} // RVA: 0x7FFAF924B520
-        public void InvalidEnumerationValue(){} // RVA: 0x7FFAF924B700
-        public void InvalidSeekOrigin(){} // RVA: 0x7FFAF924B850
-        public void InvalidAcceptRejectRule(){} // RVA: 0x7FFAF924B8C0
-        public void InvalidMissingSchemaAction(){} // RVA: 0x7FFAF924B9B0
-        public void InvalidRule(){} // RVA: 0x7FFAF924BAA0
-        public void WrongType(){} // RVA: 0x7FFAF924BB90
-        public void .cctor(){} // RVA: 0x7FFAF924BCD0
+        public void TraceException(){} // RVA: 0x679ADB0
+        public void TraceExceptionAsReturnValue(){} // RVA: 0x679AE40
+        public void TraceExceptionWithoutRethrow(){} // RVA: 0x679AF10
+        public void Argument(){} // RVA: 0x679AFE0
+        public void ArgumentOutOfRange(){} // RVA: 0x679B130 | overloaded x2
+        public void InvalidOperation(){} // RVA: 0x679B1D0
+        public void NotSupported(){} // RVA: 0x679B260
+        public void IsCatchableExceptionType(){} // RVA: 0x679B2F0
+        public void IsCatchableOrSecurityExceptionType(){} // RVA: 0x679B520
+        public void InvalidEnumerationValue(){} // RVA: 0x679B700
+        public void InvalidSeekOrigin(){} // RVA: 0x679B850
+        public void InvalidAcceptRejectRule(){} // RVA: 0x679B8C0
+        public void InvalidMissingSchemaAction(){} // RVA: 0x679B9B0
+        public void InvalidRule(){} // RVA: 0x679BAA0
+        public void WrongType(){} // RVA: 0x679BB90
+        public void .cctor(){} // RVA: 0x679BCD0
     }
 
     public class BigIntegerStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF924C450
-        public void Aggregate(){} // RVA: 0x7FFAF924C5F0
-        public void Compare(){} // RVA: 0x7FFAF924C630
-        public void CompareValueTo(){} // RVA: 0x7FFAF924C760
-        public void ConvertToBigInteger(){} // RVA: 0x7FFAF924C8C0
-        public void ConvertFromBigInteger(){} // RVA: 0x7FFAF924D060
-        public void ConvertValue(){} // RVA: 0x7FFAF924D920
-        public void Copy(){} // RVA: 0x7FFAF924D9C0
-        public void Get(){} // RVA: 0x7FFAF924DAC0
-        public void Set(){} // RVA: 0x7FFAF924DBB0
-        public void SetCapacity(){} // RVA: 0x7FFAF924DDC0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF924DEE0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF924E030
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF924E220
-        public void CopyValue(){} // RVA: 0x7FFAF924E260
-        public void SetStorage(){} // RVA: 0x7FFAF924E3D0
+        public void .ctor(){} // RVA: 0x679C450
+        public void Aggregate(){} // RVA: 0x679C5F0
+        public void Compare(){} // RVA: 0x679C630
+        public void CompareValueTo(){} // RVA: 0x679C760
+        public void ConvertToBigInteger(){} // RVA: 0x679C8C0
+        public void ConvertFromBigInteger(){} // RVA: 0x679D060
+        public void ConvertValue(){} // RVA: 0x679D920
+        public void Copy(){} // RVA: 0x679D9C0
+        public void Get(){} // RVA: 0x679DAC0
+        public void Set(){} // RVA: 0x679DBB0
+        public void SetCapacity(){} // RVA: 0x679DDC0
+        public void ConvertXmlToObject(){} // RVA: 0x679DEE0
+        public void ConvertObjectToXml(){} // RVA: 0x679E030
+        public void GetEmptyStorage(){} // RVA: 0x679E220
+        public void CopyValue(){} // RVA: 0x679E260
+        public void SetStorage(){} // RVA: 0x679E3D0
     }
 
     public class BooleanStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF924E530
-        public void Aggregate(){} // RVA: 0x7FFAF924E6F0
-        public void Compare(){} // RVA: 0x7FFAF924E9D0
-        public void CompareValueTo(){} // RVA: 0x7FFAF924EAC0
-        public void ConvertValue(){} // RVA: 0x7FFAF924EC10
-        public void Copy(){} // RVA: 0x7FFAF924ED20
-        public void Get(){} // RVA: 0x7FFAF924EDB0
-        public void Set(){} // RVA: 0x7FFAF924EE60
-        public void SetCapacity(){} // RVA: 0x7FFAF924EFA0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF924F0C0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF924F140
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF924F210
-        public void CopyValue(){} // RVA: 0x7FFAF924F250
-        public void SetStorage(){} // RVA: 0x7FFAF924F370
+        public void .ctor(){} // RVA: 0x679E530
+        public void Aggregate(){} // RVA: 0x679E6F0
+        public void Compare(){} // RVA: 0x679E9D0
+        public void CompareValueTo(){} // RVA: 0x679EAC0
+        public void ConvertValue(){} // RVA: 0x679EC10
+        public void Copy(){} // RVA: 0x679ED20
+        public void Get(){} // RVA: 0x679EDB0
+        public void Set(){} // RVA: 0x679EE60
+        public void SetCapacity(){} // RVA: 0x679EFA0
+        public void ConvertXmlToObject(){} // RVA: 0x679F0C0
+        public void ConvertObjectToXml(){} // RVA: 0x679F140
+        public void GetEmptyStorage(){} // RVA: 0x679F210
+        public void CopyValue(){} // RVA: 0x679F250
+        public void SetStorage(){} // RVA: 0x679F370
     }
 
     public class ByteStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF924F4D0
-        public void Aggregate(){} // RVA: 0x7FFAF924F690
-        public void Compare(){} // RVA: 0x7FFAF924FE10
-        public void CompareValueTo(){} // RVA: 0x7FFAF924FE80
-        public void ConvertValue(){} // RVA: 0x7FFAF924FF90
-        public void Copy(){} // RVA: 0x7FFAF92500A0
-        public void Get(){} // RVA: 0x7FFAF9250130
-        public void Set(){} // RVA: 0x7FFAF92501E0
-        public void SetCapacity(){} // RVA: 0x7FFAF9250320
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9250440
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9250540
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF92505D0
-        public void CopyValue(){} // RVA: 0x7FFAF9250610
-        public void SetStorage(){} // RVA: 0x7FFAF9250720
+        public void .ctor(){} // RVA: 0x679F4D0
+        public void Aggregate(){} // RVA: 0x679F690
+        public void Compare(){} // RVA: 0x679FE10
+        public void CompareValueTo(){} // RVA: 0x679FE80
+        public void ConvertValue(){} // RVA: 0x679FF90
+        public void Copy(){} // RVA: 0x67A00A0
+        public void Get(){} // RVA: 0x67A0130
+        public void Set(){} // RVA: 0x67A01E0
+        public void SetCapacity(){} // RVA: 0x67A0320
+        public void ConvertXmlToObject(){} // RVA: 0x67A0440
+        public void ConvertObjectToXml(){} // RVA: 0x67A0540
+        public void GetEmptyStorage(){} // RVA: 0x67A05D0
+        public void CopyValue(){} // RVA: 0x67A0610
+        public void SetStorage(){} // RVA: 0x67A0720
     }
 
     public class CharStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9250880
-        public void Aggregate(){} // RVA: 0x7FFAF9250A50
-        public void Compare(){} // RVA: 0x7FFAF9250D80
-        public void CompareValueTo(){} // RVA: 0x7FFAF9250E50
-        public void ConvertValue(){} // RVA: 0x7FFAF9250F70
-        public void Copy(){} // RVA: 0x7FFAF9251070
-        public void Get(){} // RVA: 0x7FFAF9251100
-        public void Set(){} // RVA: 0x7FFAF92511B0
-        public void SetCapacity(){} // RVA: 0x7FFAF9251350
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9251470
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF92515A0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9251630
-        public void CopyValue(){} // RVA: 0x7FFAF9251670
-        public void SetStorage(){} // RVA: 0x7FFAF9251780
+        public void .ctor(){} // RVA: 0x67A0880
+        public void Aggregate(){} // RVA: 0x67A0A50
+        public void Compare(){} // RVA: 0x67A0D80
+        public void CompareValueTo(){} // RVA: 0x67A0E50
+        public void ConvertValue(){} // RVA: 0x67A0F70
+        public void Copy(){} // RVA: 0x67A1070
+        public void Get(){} // RVA: 0x67A1100
+        public void Set(){} // RVA: 0x67A11B0
+        public void SetCapacity(){} // RVA: 0x67A1350
+        public void ConvertXmlToObject(){} // RVA: 0x67A1470
+        public void ConvertObjectToXml(){} // RVA: 0x67A15A0
+        public void GetEmptyStorage(){} // RVA: 0x67A1630
+        public void CopyValue(){} // RVA: 0x67A1670
+        public void SetStorage(){} // RVA: 0x67A1780
     }
 
     public class DataStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92519C0 | overloaded x3
-        public void get_DateTimeMode(){} // RVA: 0x7FFAF9251CA0
-        public void get_FormatProvider(){} // RVA: 0x7FFAF9251CC0
-        public void Aggregate(){} // RVA: 0x7FFAF9251CE0
-        public void AggregateCount(){} // RVA: 0x7FFAF9251DB0
-        public void CompareBits(){} // RVA: 0x7FFAF9251E60
-        public void Compare(){} // RVA: 0x7FFAF2AC4170
+        public void .ctor(){} // RVA: 0x67A19C0 | overloaded x3
+        public void get_DateTimeMode(){} // RVA: 0x67A1CA0
+        public void get_FormatProvider(){} // RVA: 0x67A1CC0
+        public void Aggregate(){} // RVA: 0x67A1CE0
+        public void AggregateCount(){} // RVA: 0x67A1DB0
+        public void CompareBits(){} // RVA: 0x67A1E60
+        public void Compare(){} // RVA: 0x14170
         public void CompareValueTo(){}
-        public void ConvertValue(){} // RVA: 0x7FFAF3E8CE00
-        public void CopyBits(){} // RVA: 0x7FFAF9251EE0
-        public void Copy(){} // RVA: 0x7FFAF2AD6EE0
-        public void Get(){} // RVA: 0x7FFAF2ACBCC0
-        public void GetBits(){} // RVA: 0x7FFAF9251F30
-        public void GetStringLength(){} // RVA: 0x7FFAF86E39D0
-        public void HasValue(){} // RVA: 0x7FFAF9251F70
-        public void IsNull(){} // RVA: 0x7FFAF9251FA0
-        public void Set(){} // RVA: 0x7FFAF2AD6C40
-        public void SetNullBit(){} // RVA: 0x7FFAF9251FC0
-        public void SetCapacity(){} // RVA: 0x7FFAF9251FE0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF92520B0 | overloaded x2
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9252100 | overloaded x2
-        public void CreateStorage(){} // RVA: 0x7FFAF9252150
-        public void GetStorageType(){} // RVA: 0x7FFAF9254740
-        public void GetTypeStorage(){} // RVA: 0x7FFAF92548C0
-        public void IsTypeCustomType(){} // RVA: 0x7FFAF92549B0 | overloaded x2
-        public void IsSqlType(){} // RVA: 0x7FFAF92549D0 | overloaded x2
-        public void DetermineIfValueType(){} // RVA: 0x7FFAF9254AE0
-        public void ImplementsInterfaces(){} // RVA: 0x7FFAF9254B80
-        public void InspectTypeForInterfaces(){} // RVA: 0x7FFAF9254D10
-        public void ImplementsINullableValue(){} // RVA: 0x7FFAF9255000
-        public void IsObjectNull(){} // RVA: 0x7FFAF92550D0
-        public void IsObjectSqlNull(){} // RVA: 0x7FFAF9255170
-        public void GetEmptyStorageInternal(){} // RVA: 0x7FFAF92551D0
-        public void CopyValueInternal(){} // RVA: 0x7FFAF92551F0
-        public void SetStorageInternal(){} // RVA: 0x7FFAF9255210
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF2ACBCC0
+        public void ConvertValue(){} // RVA: 0x13DCE00
+        public void CopyBits(){} // RVA: 0x67A1EE0
+        public void Copy(){} // RVA: 0x26EE0
+        public void Get(){} // RVA: 0x1BCC0
+        public void GetBits(){} // RVA: 0x67A1F30
+        public void GetStringLength(){} // RVA: 0x5C339D0
+        public void HasValue(){} // RVA: 0x67A1F70
+        public void IsNull(){} // RVA: 0x67A1FA0
+        public void Set(){} // RVA: 0x26C40
+        public void SetNullBit(){} // RVA: 0x67A1FC0
+        public void SetCapacity(){} // RVA: 0x67A1FE0
+        public void ConvertXmlToObject(){} // RVA: 0x67A20B0 | overloaded x2
+        public void ConvertObjectToXml(){} // RVA: 0x67A2100 | overloaded x2
+        public void CreateStorage(){} // RVA: 0x67A2150
+        public void GetStorageType(){} // RVA: 0x67A4740
+        public void GetTypeStorage(){} // RVA: 0x67A48C0
+        public void IsTypeCustomType(){} // RVA: 0x67A49B0 | overloaded x2
+        public void IsSqlType(){} // RVA: 0x67A49D0 | overloaded x2
+        public void DetermineIfValueType(){} // RVA: 0x67A4AE0
+        public void ImplementsInterfaces(){} // RVA: 0x67A4B80
+        public void InspectTypeForInterfaces(){} // RVA: 0x67A4D10
+        public void ImplementsINullableValue(){} // RVA: 0x67A5000
+        public void IsObjectNull(){} // RVA: 0x67A50D0
+        public void IsObjectSqlNull(){} // RVA: 0x67A5170
+        public void GetEmptyStorageInternal(){} // RVA: 0x67A51D0
+        public void CopyValueInternal(){} // RVA: 0x67A51F0
+        public void SetStorageInternal(){} // RVA: 0x67A5210
+        public void GetEmptyStorage(){} // RVA: 0x1BCC0
         public void CopyValue(){}
-        public void SetStorage(){} // RVA: 0x7FFAF2ADDC60
-        public void SetNullStorage(){} // RVA: 0x7FFAF2DBB890
-        public void GetType(){} // RVA: 0x7FFAF9255230
-        public void GetQualifiedName(){} // RVA: 0x7FFAF9255370
-        public void .cctor(){} // RVA: 0x7FFAF92553E0
+        public void SetStorage(){} // RVA: 0x2DC60
+        public void SetNullStorage(){} // RVA: 0x30B890
+        public void GetType(){} // RVA: 0x67A5230
+        public void GetQualifiedName(){} // RVA: 0x67A5370
+        public void .cctor(){} // RVA: 0x67A53E0
     }
 
     public class DateTimeOffsetStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92570B0
-        public void Aggregate(){} // RVA: 0x7FFAF9257230
-        public void Compare(){} // RVA: 0x7FFAF92576D0
-        public void CompareValueTo(){} // RVA: 0x7FFAF92578B0
-        public void ConvertValue(){} // RVA: 0x7FFAF9257A60
-        public void Copy(){} // RVA: 0x7FFAF9257AF0
-        public void Get(){} // RVA: 0x7FFAF9257B80
-        public void Set(){} // RVA: 0x7FFAF9257CD0
-        public void SetCapacity(){} // RVA: 0x7FFAF9257E00
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9257F20
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9258050
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF92580F0
-        public void CopyValue(){} // RVA: 0x7FFAF9258130
-        public void SetStorage(){} // RVA: 0x7FFAF9258260
-        public void .cctor(){} // RVA: 0x7FFAF92583C0
+        public void .ctor(){} // RVA: 0x67A70B0
+        public void Aggregate(){} // RVA: 0x67A7230
+        public void Compare(){} // RVA: 0x67A76D0
+        public void CompareValueTo(){} // RVA: 0x67A78B0
+        public void ConvertValue(){} // RVA: 0x67A7A60
+        public void Copy(){} // RVA: 0x67A7AF0
+        public void Get(){} // RVA: 0x67A7B80
+        public void Set(){} // RVA: 0x67A7CD0
+        public void SetCapacity(){} // RVA: 0x67A7E00
+        public void ConvertXmlToObject(){} // RVA: 0x67A7F20
+        public void ConvertObjectToXml(){} // RVA: 0x67A8050
+        public void GetEmptyStorage(){} // RVA: 0x67A80F0
+        public void CopyValue(){} // RVA: 0x67A8130
+        public void SetStorage(){} // RVA: 0x67A8260
+        public void .cctor(){} // RVA: 0x67A83C0
     }
 
     public class DateTimeStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9258440
-        public void Aggregate(){} // RVA: 0x7FFAF92585C0
-        public void Compare(){} // RVA: 0x7FFAF9258A10
-        public void CompareValueTo(){} // RVA: 0x7FFAF9258BC0
-        public void ConvertValue(){} // RVA: 0x7FFAF9258D40
-        public void Copy(){} // RVA: 0x7FFAF9258E50
-        public void Get(){} // RVA: 0x7FFAF9258EE0
-        public void Set(){} // RVA: 0x7FFAF9259030
-        public void SetCapacity(){} // RVA: 0x7FFAF92594A0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF92595C0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9259710
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF92598F0
-        public void CopyValue(){} // RVA: 0x7FFAF9259930
-        public void SetStorage(){} // RVA: 0x7FFAF9259A90
-        public void .cctor(){} // RVA: 0x7FFAF9259D50
+        public void .ctor(){} // RVA: 0x67A8440
+        public void Aggregate(){} // RVA: 0x67A85C0
+        public void Compare(){} // RVA: 0x67A8A10
+        public void CompareValueTo(){} // RVA: 0x67A8BC0
+        public void ConvertValue(){} // RVA: 0x67A8D40
+        public void Copy(){} // RVA: 0x67A8E50
+        public void Get(){} // RVA: 0x67A8EE0
+        public void Set(){} // RVA: 0x67A9030
+        public void SetCapacity(){} // RVA: 0x67A94A0
+        public void ConvertXmlToObject(){} // RVA: 0x67A95C0
+        public void ConvertObjectToXml(){} // RVA: 0x67A9710
+        public void GetEmptyStorage(){} // RVA: 0x67A98F0
+        public void CopyValue(){} // RVA: 0x67A9930
+        public void SetStorage(){} // RVA: 0x67A9A90
+        public void .cctor(){} // RVA: 0x67A9D50
     }
 
     public class DecimalStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9259DD0
-        public void Aggregate(){} // RVA: 0x7FFAF9259F40
-        public void Compare(){} // RVA: 0x7FFAF925AA70
-        public void CompareValueTo(){} // RVA: 0x7FFAF925ACC0
-        public void ConvertValue(){} // RVA: 0x7FFAF925AEE0
-        public void Copy(){} // RVA: 0x7FFAF9257AF0
-        public void Get(){} // RVA: 0x7FFAF925AFF0
-        public void Set(){} // RVA: 0x7FFAF925B090
-        public void SetCapacity(){} // RVA: 0x7FFAF925B200
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF925B320
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF925B400
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF925B570
-        public void CopyValue(){} // RVA: 0x7FFAF925B5B0
-        public void SetStorage(){} // RVA: 0x7FFAF925B6E0
+        public void .ctor(){} // RVA: 0x67A9DD0
+        public void Aggregate(){} // RVA: 0x67A9F40
+        public void Compare(){} // RVA: 0x67AAA70
+        public void CompareValueTo(){} // RVA: 0x67AACC0
+        public void ConvertValue(){} // RVA: 0x67AAEE0
+        public void Copy(){} // RVA: 0x67A7AF0
+        public void Get(){} // RVA: 0x67AAFF0
+        public void Set(){} // RVA: 0x67AB090
+        public void SetCapacity(){} // RVA: 0x67AB200
+        public void ConvertXmlToObject(){} // RVA: 0x67AB320
+        public void ConvertObjectToXml(){} // RVA: 0x67AB400
+        public void GetEmptyStorage(){} // RVA: 0x67AB570
+        public void CopyValue(){} // RVA: 0x67AB5B0
+        public void SetStorage(){} // RVA: 0x67AB6E0
     }
 
     public class DoubleStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF925B840
-        public void Aggregate(){} // RVA: 0x7FFAF925B990
-        public void Compare(){} // RVA: 0x7FFAF925C070
-        public void CompareValueTo(){} // RVA: 0x7FFAF925C180
-        public void ConvertValue(){} // RVA: 0x7FFAF925C300
-        public void Copy(){} // RVA: 0x7FFAF925C410
-        public void Get(){} // RVA: 0x7FFAF925C4A0
-        public void Set(){} // RVA: 0x7FFAF925C560
-        public void SetCapacity(){} // RVA: 0x7FFAF925C6A0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF925C7C0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF925C840
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF925C8D0
-        public void CopyValue(){} // RVA: 0x7FFAF925C910
-        public void SetStorage(){} // RVA: 0x7FFAF925CA40
+        public void .ctor(){} // RVA: 0x67AB840
+        public void Aggregate(){} // RVA: 0x67AB990
+        public void Compare(){} // RVA: 0x67AC070
+        public void CompareValueTo(){} // RVA: 0x67AC180
+        public void ConvertValue(){} // RVA: 0x67AC300
+        public void Copy(){} // RVA: 0x67AC410
+        public void Get(){} // RVA: 0x67AC4A0
+        public void Set(){} // RVA: 0x67AC560
+        public void SetCapacity(){} // RVA: 0x67AC6A0
+        public void ConvertXmlToObject(){} // RVA: 0x67AC7C0
+        public void ConvertObjectToXml(){} // RVA: 0x67AC840
+        public void GetEmptyStorage(){} // RVA: 0x67AC8D0
+        public void CopyValue(){} // RVA: 0x67AC910
+        public void SetStorage(){} // RVA: 0x67ACA40
     }
 
     public class Int16Storage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF925CBA0
-        public void Aggregate(){} // RVA: 0x7FFAF925CD70
-        public void Compare(){} // RVA: 0x7FFAF925D590
-        public void CompareValueTo(){} // RVA: 0x7FFAF925D600
-        public void ConvertValue(){} // RVA: 0x7FFAF925D6F0
-        public void Copy(){} // RVA: 0x7FFAF9251070
-        public void Get(){} // RVA: 0x7FFAF925D800
-        public void Set(){} // RVA: 0x7FFAF925D8B0
-        public void SetCapacity(){} // RVA: 0x7FFAF925D9F0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF925DB10
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF925DC10
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF925DCA0
-        public void CopyValue(){} // RVA: 0x7FFAF925DCE0
-        public void SetStorage(){} // RVA: 0x7FFAF925DDF0
+        public void .ctor(){} // RVA: 0x67ACBA0
+        public void Aggregate(){} // RVA: 0x67ACD70
+        public void Compare(){} // RVA: 0x67AD590
+        public void CompareValueTo(){} // RVA: 0x67AD600
+        public void ConvertValue(){} // RVA: 0x67AD6F0
+        public void Copy(){} // RVA: 0x67A1070
+        public void Get(){} // RVA: 0x67AD800
+        public void Set(){} // RVA: 0x67AD8B0
+        public void SetCapacity(){} // RVA: 0x67AD9F0
+        public void ConvertXmlToObject(){} // RVA: 0x67ADB10
+        public void ConvertObjectToXml(){} // RVA: 0x67ADC10
+        public void GetEmptyStorage(){} // RVA: 0x67ADCA0
+        public void CopyValue(){} // RVA: 0x67ADCE0
+        public void SetStorage(){} // RVA: 0x67ADDF0
     }
 
     public class Int32Storage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF925DF50
-        public void Aggregate(){} // RVA: 0x7FFAF925E120
-        public void Compare(){} // RVA: 0x7FFAF925E900
-        public void CompareValueTo(){} // RVA: 0x7FFAF925E980
-        public void ConvertValue(){} // RVA: 0x7FFAF925EA80
-        public void Copy(){} // RVA: 0x7FFAF925EB90
-        public void Get(){} // RVA: 0x7FFAF925EC20
-        public void Set(){} // RVA: 0x7FFAF925ECD0
-        public void SetCapacity(){} // RVA: 0x7FFAF925EE10
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF925EF30
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF925EFC0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF925F050
-        public void CopyValue(){} // RVA: 0x7FFAF925F090
-        public void SetStorage(){} // RVA: 0x7FFAF925F1A0
+        public void .ctor(){} // RVA: 0x67ADF50
+        public void Aggregate(){} // RVA: 0x67AE120
+        public void Compare(){} // RVA: 0x67AE900
+        public void CompareValueTo(){} // RVA: 0x67AE980
+        public void ConvertValue(){} // RVA: 0x67AEA80
+        public void Copy(){} // RVA: 0x67AEB90
+        public void Get(){} // RVA: 0x67AEC20
+        public void Set(){} // RVA: 0x67AECD0
+        public void SetCapacity(){} // RVA: 0x67AEE10
+        public void ConvertXmlToObject(){} // RVA: 0x67AEF30
+        public void ConvertObjectToXml(){} // RVA: 0x67AEFC0
+        public void GetEmptyStorage(){} // RVA: 0x67AF050
+        public void CopyValue(){} // RVA: 0x67AF090
+        public void SetStorage(){} // RVA: 0x67AF1A0
     }
 
     public class Int64Storage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF925F300
-        public void Aggregate(){} // RVA: 0x7FFAF925F4C0
-        public void Compare(){} // RVA: 0x7FFAF925FDB0
-        public void CompareValueTo(){} // RVA: 0x7FFAF925FE30
-        public void ConvertValue(){} // RVA: 0x7FFAF925FF30
-        public void Copy(){} // RVA: 0x7FFAF9260040
-        public void Get(){} // RVA: 0x7FFAF92600D0
-        public void Set(){} // RVA: 0x7FFAF9260180
-        public void SetCapacity(){} // RVA: 0x7FFAF92602C0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF92603E0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9260470
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9260500
-        public void CopyValue(){} // RVA: 0x7FFAF9260540
-        public void SetStorage(){} // RVA: 0x7FFAF9260650
+        public void .ctor(){} // RVA: 0x67AF300
+        public void Aggregate(){} // RVA: 0x67AF4C0
+        public void Compare(){} // RVA: 0x67AFDB0
+        public void CompareValueTo(){} // RVA: 0x67AFE30
+        public void ConvertValue(){} // RVA: 0x67AFF30
+        public void Copy(){} // RVA: 0x67B0040
+        public void Get(){} // RVA: 0x67B00D0
+        public void Set(){} // RVA: 0x67B0180
+        public void SetCapacity(){} // RVA: 0x67B02C0
+        public void ConvertXmlToObject(){} // RVA: 0x67B03E0
+        public void ConvertObjectToXml(){} // RVA: 0x67B0470
+        public void GetEmptyStorage(){} // RVA: 0x67B0500
+        public void CopyValue(){} // RVA: 0x67B0540
+        public void SetStorage(){} // RVA: 0x67B0650
     }
 
     public class ObjectStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9246710
-        public void Aggregate(){} // RVA: 0x7FFAF9246970
-        public void Compare(){} // RVA: 0x7FFAF92469B0
-        public void CompareValueTo(){} // RVA: 0x7FFAF9246AD0
-        public void CompareTo(){} // RVA: 0x7FFAF9246C60
-        public void CompareWithFamilies(){} // RVA: 0x7FFAF9246DA0
-        public void Copy(){} // RVA: 0x7FFAF9247220
-        public void Get(){} // RVA: 0x7FFAF92472A0
-        public void GetFamily(){} // RVA: 0x7FFAF92472E0
-        public void IsNull(){} // RVA: 0x7FFAF9247480
-        public void Set(){} // RVA: 0x7FFAF92474B0
-        public void SetCapacity(){} // RVA: 0x7FFAF9247F70
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9248610 | overloaded x2
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF92493A0 | overloaded x2
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF92494E0
-        public void CopyValue(){} // RVA: 0x7FFAF9249520
-        public void SetStorage(){} // RVA: 0x7FFAF92497C0
-        public void VerifyIDynamicMetaObjectProvider(){} // RVA: 0x7FFAF9249AD0
-        public void GetXmlSerializer(){} // RVA: 0x7FFAF9249CF0 | overloaded x2
-        public void .cctor(){} // RVA: 0x7FFAF924A860
+        public void .ctor(){} // RVA: 0x6796710
+        public void Aggregate(){} // RVA: 0x6796970
+        public void Compare(){} // RVA: 0x67969B0
+        public void CompareValueTo(){} // RVA: 0x6796AD0
+        public void CompareTo(){} // RVA: 0x6796C60
+        public void CompareWithFamilies(){} // RVA: 0x6796DA0
+        public void Copy(){} // RVA: 0x6797220
+        public void Get(){} // RVA: 0x67972A0
+        public void GetFamily(){} // RVA: 0x67972E0
+        public void IsNull(){} // RVA: 0x6797480
+        public void Set(){} // RVA: 0x67974B0
+        public void SetCapacity(){} // RVA: 0x6797F70
+        public void ConvertXmlToObject(){} // RVA: 0x6798610 | overloaded x2
+        public void ConvertObjectToXml(){} // RVA: 0x67993A0 | overloaded x2
+        public void GetEmptyStorage(){} // RVA: 0x67994E0
+        public void CopyValue(){} // RVA: 0x6799520
+        public void SetStorage(){} // RVA: 0x67997C0
+        public void VerifyIDynamicMetaObjectProvider(){} // RVA: 0x6799AD0
+        public void GetXmlSerializer(){} // RVA: 0x6799CF0 | overloaded x2
+        public void .cctor(){} // RVA: 0x679A860
     }
 
     public class SByteStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92607B0
-        public void Aggregate(){} // RVA: 0x7FFAF9260970
-        public void Compare(){} // RVA: 0x7FFAF9261100
-        public void CompareValueTo(){} // RVA: 0x7FFAF9261170
-        public void ConvertValue(){} // RVA: 0x7FFAF9261280
-        public void Copy(){} // RVA: 0x7FFAF92500A0
-        public void Get(){} // RVA: 0x7FFAF9261390
-        public void Set(){} // RVA: 0x7FFAF9261440
-        public void SetCapacity(){} // RVA: 0x7FFAF9261580
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF92616A0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF92617A0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9261830
-        public void CopyValue(){} // RVA: 0x7FFAF9261870
-        public void SetStorage(){} // RVA: 0x7FFAF9261980
+        public void .ctor(){} // RVA: 0x67B07B0
+        public void Aggregate(){} // RVA: 0x67B0970
+        public void Compare(){} // RVA: 0x67B1100
+        public void CompareValueTo(){} // RVA: 0x67B1170
+        public void ConvertValue(){} // RVA: 0x67B1280
+        public void Copy(){} // RVA: 0x67A00A0
+        public void Get(){} // RVA: 0x67B1390
+        public void Set(){} // RVA: 0x67B1440
+        public void SetCapacity(){} // RVA: 0x67B1580
+        public void ConvertXmlToObject(){} // RVA: 0x67B16A0
+        public void ConvertObjectToXml(){} // RVA: 0x67B17A0
+        public void GetEmptyStorage(){} // RVA: 0x67B1830
+        public void CopyValue(){} // RVA: 0x67B1870
+        public void SetStorage(){} // RVA: 0x67B1980
     }
 
     public class SingleStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92808F0
-        public void Aggregate(){} // RVA: 0x7FFAF9280A40
-        public void Compare(){} // RVA: 0x7FFAF9281140
-        public void CompareValueTo(){} // RVA: 0x7FFAF9281230
-        public void ConvertValue(){} // RVA: 0x7FFAF92813A0
-        public void Copy(){} // RVA: 0x7FFAF92814B0
-        public void Get(){} // RVA: 0x7FFAF9281540
-        public void Set(){} // RVA: 0x7FFAF9281600
-        public void SetCapacity(){} // RVA: 0x7FFAF9281740
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9281860
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF92818E0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9281970
-        public void CopyValue(){} // RVA: 0x7FFAF92819B0
-        public void SetStorage(){} // RVA: 0x7FFAF9281AE0
+        public void .ctor(){} // RVA: 0x67D08F0
+        public void Aggregate(){} // RVA: 0x67D0A40
+        public void Compare(){} // RVA: 0x67D1140
+        public void CompareValueTo(){} // RVA: 0x67D1230
+        public void ConvertValue(){} // RVA: 0x67D13A0
+        public void Copy(){} // RVA: 0x67D14B0
+        public void Get(){} // RVA: 0x67D1540
+        public void Set(){} // RVA: 0x67D1600
+        public void SetCapacity(){} // RVA: 0x67D1740
+        public void ConvertXmlToObject(){} // RVA: 0x67D1860
+        public void ConvertObjectToXml(){} // RVA: 0x67D18E0
+        public void GetEmptyStorage(){} // RVA: 0x67D1970
+        public void CopyValue(){} // RVA: 0x67D19B0
+        public void SetStorage(){} // RVA: 0x67D1AE0
     }
 
     public class SqlBinaryStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF926A560
-        public void Aggregate(){} // RVA: 0x7FFAF926A6F0
-        public void Compare(){} // RVA: 0x7FFAF926A8C0
-        public void CompareValueTo(){} // RVA: 0x7FFAF926A960
-        public void ConvertValue(){} // RVA: 0x7FFAF926AA10
-        public void Copy(){} // RVA: 0x7FFAF926AA80
-        public void Get(){} // RVA: 0x7FFAF926AAC0
-        public void IsNull(){} // RVA: 0x7FFAF926AB40
-        public void Set(){} // RVA: 0x7FFAF926ABC0
-        public void SetCapacity(){} // RVA: 0x7FFAF926AC00
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF926AD10
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF926AF00
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF926B0C0
-        public void CopyValue(){} // RVA: 0x7FFAF926B100
-        public void SetStorage(){} // RVA: 0x7FFAF926B220
+        public void .ctor(){} // RVA: 0x67BA560
+        public void Aggregate(){} // RVA: 0x67BA6F0
+        public void Compare(){} // RVA: 0x67BA8C0
+        public void CompareValueTo(){} // RVA: 0x67BA960
+        public void ConvertValue(){} // RVA: 0x67BAA10
+        public void Copy(){} // RVA: 0x67BAA80
+        public void Get(){} // RVA: 0x67BAAC0
+        public void IsNull(){} // RVA: 0x67BAB40
+        public void Set(){} // RVA: 0x67BABC0
+        public void SetCapacity(){} // RVA: 0x67BAC00
+        public void ConvertXmlToObject(){} // RVA: 0x67BAD10
+        public void ConvertObjectToXml(){} // RVA: 0x67BAF00
+        public void GetEmptyStorage(){} // RVA: 0x67BB0C0
+        public void CopyValue(){} // RVA: 0x67BB100
+        public void SetStorage(){} // RVA: 0x67BB220
     }
 
     public class SqlBooleanStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF927F980
-        public void Aggregate(){} // RVA: 0x7FFAF927FB10
-        public void Compare(){} // RVA: 0x7FFAF927FEC0
-        public void CompareValueTo(){} // RVA: 0x7FFAF927FF60
-        public void ConvertValue(){} // RVA: 0x7FFAF9280010
-        public void Copy(){} // RVA: 0x7FFAF9280080
-        public void Get(){} // RVA: 0x7FFAF92800C0
-        public void IsNull(){} // RVA: 0x7FFAF9280130
-        public void Set(){} // RVA: 0x7FFAF92801B0
-        public void SetCapacity(){} // RVA: 0x7FFAF92801F0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9280300
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF92804F0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF92806B0
-        public void CopyValue(){} // RVA: 0x7FFAF92806F0
-        public void SetStorage(){} // RVA: 0x7FFAF9280800
+        public void .ctor(){} // RVA: 0x67CF980
+        public void Aggregate(){} // RVA: 0x67CFB10
+        public void Compare(){} // RVA: 0x67CFEC0
+        public void CompareValueTo(){} // RVA: 0x67CFF60
+        public void ConvertValue(){} // RVA: 0x67D0010
+        public void Copy(){} // RVA: 0x67D0080
+        public void Get(){} // RVA: 0x67D00C0
+        public void IsNull(){} // RVA: 0x67D0130
+        public void Set(){} // RVA: 0x67D01B0
+        public void SetCapacity(){} // RVA: 0x67D01F0
+        public void ConvertXmlToObject(){} // RVA: 0x67D0300
+        public void ConvertObjectToXml(){} // RVA: 0x67D04F0
+        public void GetEmptyStorage(){} // RVA: 0x67D06B0
+        public void CopyValue(){} // RVA: 0x67D06F0
+        public void SetStorage(){} // RVA: 0x67D0800
     }
 
     public class SqlByteStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF926B310
-        public void Aggregate(){} // RVA: 0x7FFAF926B4A0
-        public void Compare(){} // RVA: 0x7FFAF926C770
-        public void CompareValueTo(){} // RVA: 0x7FFAF926C810
-        public void ConvertValue(){} // RVA: 0x7FFAF926C8C0
-        public void Copy(){} // RVA: 0x7FFAF926C930
-        public void Get(){} // RVA: 0x7FFAF926C970
-        public void IsNull(){} // RVA: 0x7FFAF926C9F0
-        public void Set(){} // RVA: 0x7FFAF926CA70
-        public void SetCapacity(){} // RVA: 0x7FFAF926CAC0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF926CBD0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF926CDC0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF926CF80
-        public void CopyValue(){} // RVA: 0x7FFAF926CFC0
-        public void SetStorage(){} // RVA: 0x7FFAF926D0D0
+        public void .ctor(){} // RVA: 0x67BB310
+        public void Aggregate(){} // RVA: 0x67BB4A0
+        public void Compare(){} // RVA: 0x67BC770
+        public void CompareValueTo(){} // RVA: 0x67BC810
+        public void ConvertValue(){} // RVA: 0x67BC8C0
+        public void Copy(){} // RVA: 0x67BC930
+        public void Get(){} // RVA: 0x67BC970
+        public void IsNull(){} // RVA: 0x67BC9F0
+        public void Set(){} // RVA: 0x67BCA70
+        public void SetCapacity(){} // RVA: 0x67BCAC0
+        public void ConvertXmlToObject(){} // RVA: 0x67BCBD0
+        public void ConvertObjectToXml(){} // RVA: 0x67BCDC0
+        public void GetEmptyStorage(){} // RVA: 0x67BCF80
+        public void CopyValue(){} // RVA: 0x67BCFC0
+        public void SetStorage(){} // RVA: 0x67BD0D0
     }
 
     public class SqlBytesStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF926D1C0
-        public void Aggregate(){} // RVA: 0x7FFAF926D370
-        public void Compare(){} // RVA: 0x7FFAF2FC9240
-        public void CompareValueTo(){} // RVA: 0x7FFAF2FC9240
-        public void Copy(){} // RVA: 0x7FFAF926AA80
-        public void Get(){} // RVA: 0x7FFAF926D520
-        public void IsNull(){} // RVA: 0x7FFAF926D550
-        public void Set(){} // RVA: 0x7FFAF926D590
-        public void SetCapacity(){} // RVA: 0x7FFAF926D6A0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF926D7B0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF926DA40
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF926DC00
-        public void CopyValue(){} // RVA: 0x7FFAF926DC40
-        public void SetStorage(){} // RVA: 0x7FFAF926DD60
+        public void .ctor(){} // RVA: 0x67BD1C0
+        public void Aggregate(){} // RVA: 0x67BD370
+        public void Compare(){} // RVA: 0x519240
+        public void CompareValueTo(){} // RVA: 0x519240
+        public void Copy(){} // RVA: 0x67BAA80
+        public void Get(){} // RVA: 0x67BD520
+        public void IsNull(){} // RVA: 0x67BD550
+        public void Set(){} // RVA: 0x67BD590
+        public void SetCapacity(){} // RVA: 0x67BD6A0
+        public void ConvertXmlToObject(){} // RVA: 0x67BD7B0
+        public void ConvertObjectToXml(){} // RVA: 0x67BDA40
+        public void GetEmptyStorage(){} // RVA: 0x67BDC00
+        public void CopyValue(){} // RVA: 0x67BDC40
+        public void SetStorage(){} // RVA: 0x67BDD60
     }
 
     public class SqlCharsStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF926DE50
-        public void Aggregate(){} // RVA: 0x7FFAF926E000
-        public void Compare(){} // RVA: 0x7FFAF2FC9240
-        public void CompareValueTo(){} // RVA: 0x7FFAF2FC9240
-        public void Copy(){} // RVA: 0x7FFAF926AA80
-        public void Get(){} // RVA: 0x7FFAF926D520
-        public void IsNull(){} // RVA: 0x7FFAF926D550
-        public void Set(){} // RVA: 0x7FFAF926E1B0
-        public void SetCapacity(){} // RVA: 0x7FFAF926E2C0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF926E3D0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF926E6C0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF926E880
-        public void CopyValue(){} // RVA: 0x7FFAF926E8C0
-        public void SetStorage(){} // RVA: 0x7FFAF926E9E0
+        public void .ctor(){} // RVA: 0x67BDE50
+        public void Aggregate(){} // RVA: 0x67BE000
+        public void Compare(){} // RVA: 0x519240
+        public void CompareValueTo(){} // RVA: 0x519240
+        public void Copy(){} // RVA: 0x67BAA80
+        public void Get(){} // RVA: 0x67BD520
+        public void IsNull(){} // RVA: 0x67BD550
+        public void Set(){} // RVA: 0x67BE1B0
+        public void SetCapacity(){} // RVA: 0x67BE2C0
+        public void ConvertXmlToObject(){} // RVA: 0x67BE3D0
+        public void ConvertObjectToXml(){} // RVA: 0x67BE6C0
+        public void GetEmptyStorage(){} // RVA: 0x67BE880
+        public void CopyValue(){} // RVA: 0x67BE8C0
+        public void SetStorage(){} // RVA: 0x67BE9E0
     }
 
     public class SqlConvert
     {
         // ── Methods ──
-        public void ConvertToSqlByte(){} // RVA: 0x7FFAF9261AE0
-        public void ConvertToSqlInt16(){} // RVA: 0x7FFAF9261CC0
-        public void ConvertToSqlInt32(){} // RVA: 0x7FFAF9262030
-        public void ConvertToSqlInt64(){} // RVA: 0x7FFAF9262550
-        public void ConvertToSqlDouble(){} // RVA: 0x7FFAF9262A60
-        public void ConvertToSqlDecimal(){} // RVA: 0x7FFAF9263660
-        public void ConvertToSqlSingle(){} // RVA: 0x7FFAF9263F80
-        public void ConvertToSqlMoney(){} // RVA: 0x7FFAF9264D30
-        public void ConvertToSqlDateTime(){} // RVA: 0x7FFAF9265720
-        public void ConvertToSqlBoolean(){} // RVA: 0x7FFAF9265980
-        public void ConvertToSqlGuid(){} // RVA: 0x7FFAF9265B50
-        public void ConvertToSqlBinary(){} // RVA: 0x7FFAF9265D90
-        public void ConvertToSqlString(){} // RVA: 0x7FFAF9265F90
-        public void ConvertToSqlChars(){} // RVA: 0x7FFAF92661B0
-        public void ConvertToSqlBytes(){} // RVA: 0x7FFAF9266340
-        public void ConvertStringToDateTimeOffset(){} // RVA: 0x7FFAF92664D0
-        public void ChangeTypeForDefaultValue(){} // RVA: 0x7FFAF92665A0
-        public void ChangeType2(){} // RVA: 0x7FFAF92667C0
-        public void ChangeTypeForXML(){} // RVA: 0x7FFAF9268160
+        public void ConvertToSqlByte(){} // RVA: 0x67B1AE0
+        public void ConvertToSqlInt16(){} // RVA: 0x67B1CC0
+        public void ConvertToSqlInt32(){} // RVA: 0x67B2030
+        public void ConvertToSqlInt64(){} // RVA: 0x67B2550
+        public void ConvertToSqlDouble(){} // RVA: 0x67B2A60
+        public void ConvertToSqlDecimal(){} // RVA: 0x67B3660
+        public void ConvertToSqlSingle(){} // RVA: 0x67B3F80
+        public void ConvertToSqlMoney(){} // RVA: 0x67B4D30
+        public void ConvertToSqlDateTime(){} // RVA: 0x67B5720
+        public void ConvertToSqlBoolean(){} // RVA: 0x67B5980
+        public void ConvertToSqlGuid(){} // RVA: 0x67B5B50
+        public void ConvertToSqlBinary(){} // RVA: 0x67B5D90
+        public void ConvertToSqlString(){} // RVA: 0x67B5F90
+        public void ConvertToSqlChars(){} // RVA: 0x67B61B0
+        public void ConvertToSqlBytes(){} // RVA: 0x67B6340
+        public void ConvertStringToDateTimeOffset(){} // RVA: 0x67B64D0
+        public void ChangeTypeForDefaultValue(){} // RVA: 0x67B65A0
+        public void ChangeType2(){} // RVA: 0x67B67C0
+        public void ChangeTypeForXML(){} // RVA: 0x67B8160
     }
 
     public class SqlDateTimeStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF926EAD0
-        public void Aggregate(){} // RVA: 0x7FFAF926EC90
-        public void Compare(){} // RVA: 0x7FFAF926F250
-        public void CompareValueTo(){} // RVA: 0x7FFAF926F320
-        public void ConvertValue(){} // RVA: 0x7FFAF926F3F0
-        public void Copy(){} // RVA: 0x7FFAF926F480
-        public void Get(){} // RVA: 0x7FFAF926F4D0
-        public void IsNull(){} // RVA: 0x7FFAF926F560
-        public void Set(){} // RVA: 0x7FFAF926F5E0
-        public void SetCapacity(){} // RVA: 0x7FFAF926F640
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF926F750
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF926F960
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF926FB20
-        public void CopyValue(){} // RVA: 0x7FFAF926FB60
-        public void SetStorage(){} // RVA: 0x7FFAF926FCA0
+        public void .ctor(){} // RVA: 0x67BEAD0
+        public void Aggregate(){} // RVA: 0x67BEC90
+        public void Compare(){} // RVA: 0x67BF250
+        public void CompareValueTo(){} // RVA: 0x67BF320
+        public void ConvertValue(){} // RVA: 0x67BF3F0
+        public void Copy(){} // RVA: 0x67BF480
+        public void Get(){} // RVA: 0x67BF4D0
+        public void IsNull(){} // RVA: 0x67BF560
+        public void Set(){} // RVA: 0x67BF5E0
+        public void SetCapacity(){} // RVA: 0x67BF640
+        public void ConvertXmlToObject(){} // RVA: 0x67BF750
+        public void ConvertObjectToXml(){} // RVA: 0x67BF960
+        public void GetEmptyStorage(){} // RVA: 0x67BFB20
+        public void CopyValue(){} // RVA: 0x67BFB60
+        public void SetStorage(){} // RVA: 0x67BFCA0
     }
 
     public class SqlDecimalStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF926FD90
-        public void Aggregate(){} // RVA: 0x7FFAF926FF50
-        public void Compare(){} // RVA: 0x7FFAF92712C0
-        public void CompareValueTo(){} // RVA: 0x7FFAF9271390
-        public void ConvertValue(){} // RVA: 0x7FFAF9271460
-        public void Copy(){} // RVA: 0x7FFAF92714E0
-        public void Get(){} // RVA: 0x7FFAF9271530
-        public void IsNull(){} // RVA: 0x7FFAF92715B0
-        public void Set(){} // RVA: 0x7FFAF9271690
-        public void SetCapacity(){} // RVA: 0x7FFAF92716F0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9271800
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF92719F0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9271BB0
-        public void CopyValue(){} // RVA: 0x7FFAF9271BF0
-        public void SetStorage(){} // RVA: 0x7FFAF9271D20
+        public void .ctor(){} // RVA: 0x67BFD90
+        public void Aggregate(){} // RVA: 0x67BFF50
+        public void Compare(){} // RVA: 0x67C12C0
+        public void CompareValueTo(){} // RVA: 0x67C1390
+        public void ConvertValue(){} // RVA: 0x67C1460
+        public void Copy(){} // RVA: 0x67C14E0
+        public void Get(){} // RVA: 0x67C1530
+        public void IsNull(){} // RVA: 0x67C15B0
+        public void Set(){} // RVA: 0x67C1690
+        public void SetCapacity(){} // RVA: 0x67C16F0
+        public void ConvertXmlToObject(){} // RVA: 0x67C1800
+        public void ConvertObjectToXml(){} // RVA: 0x67C19F0
+        public void GetEmptyStorage(){} // RVA: 0x67C1BB0
+        public void CopyValue(){} // RVA: 0x67C1BF0
+        public void SetStorage(){} // RVA: 0x67C1D20
     }
 
     public class SqlDoubleStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9271EA0
-        public void Aggregate(){} // RVA: 0x7FFAF9272040
-        public void Compare(){} // RVA: 0x7FFAF9273330
-        public void CompareValueTo(){} // RVA: 0x7FFAF92733F0
-        public void ConvertValue(){} // RVA: 0x7FFAF92734B0
-        public void Copy(){} // RVA: 0x7FFAF9273530
-        public void Get(){} // RVA: 0x7FFAF9273580
-        public void IsNull(){} // RVA: 0x7FFAF9273600
-        public void Set(){} // RVA: 0x7FFAF9273680
-        public void SetCapacity(){} // RVA: 0x7FFAF92736E0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF92737F0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF92739F0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9273BB0
-        public void CopyValue(){} // RVA: 0x7FFAF9273BF0
-        public void SetStorage(){} // RVA: 0x7FFAF9273D20
+        public void .ctor(){} // RVA: 0x67C1EA0
+        public void Aggregate(){} // RVA: 0x67C2040
+        public void Compare(){} // RVA: 0x67C3330
+        public void CompareValueTo(){} // RVA: 0x67C33F0
+        public void ConvertValue(){} // RVA: 0x67C34B0
+        public void Copy(){} // RVA: 0x67C3530
+        public void Get(){} // RVA: 0x67C3580
+        public void IsNull(){} // RVA: 0x67C3600
+        public void Set(){} // RVA: 0x67C3680
+        public void SetCapacity(){} // RVA: 0x67C36E0
+        public void ConvertXmlToObject(){} // RVA: 0x67C37F0
+        public void ConvertObjectToXml(){} // RVA: 0x67C39F0
+        public void GetEmptyStorage(){} // RVA: 0x67C3BB0
+        public void CopyValue(){} // RVA: 0x67C3BF0
+        public void SetStorage(){} // RVA: 0x67C3D20
     }
 
     public class SqlGuidStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9273E10
-        public void Aggregate(){} // RVA: 0x7FFAF9273FA0
-        public void Compare(){} // RVA: 0x7FFAF9274170
-        public void CompareValueTo(){} // RVA: 0x7FFAF9274210
-        public void ConvertValue(){} // RVA: 0x7FFAF92742C0
-        public void Copy(){} // RVA: 0x7FFAF926AA80
-        public void Get(){} // RVA: 0x7FFAF9274330
-        public void IsNull(){} // RVA: 0x7FFAF92743B0
-        public void Set(){} // RVA: 0x7FFAF9274430
-        public void SetCapacity(){} // RVA: 0x7FFAF9274470
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9274580
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9274770
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9274930
-        public void CopyValue(){} // RVA: 0x7FFAF9274970
-        public void SetStorage(){} // RVA: 0x7FFAF9274A90
+        public void .ctor(){} // RVA: 0x67C3E10
+        public void Aggregate(){} // RVA: 0x67C3FA0
+        public void Compare(){} // RVA: 0x67C4170
+        public void CompareValueTo(){} // RVA: 0x67C4210
+        public void ConvertValue(){} // RVA: 0x67C42C0
+        public void Copy(){} // RVA: 0x67BAA80
+        public void Get(){} // RVA: 0x67C4330
+        public void IsNull(){} // RVA: 0x67C43B0
+        public void Set(){} // RVA: 0x67C4430
+        public void SetCapacity(){} // RVA: 0x67C4470
+        public void ConvertXmlToObject(){} // RVA: 0x67C4580
+        public void ConvertObjectToXml(){} // RVA: 0x67C4770
+        public void GetEmptyStorage(){} // RVA: 0x67C4930
+        public void CopyValue(){} // RVA: 0x67C4970
+        public void SetStorage(){} // RVA: 0x67C4A90
     }
 
     public class SqlInt16Storage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9274B80
-        public void Aggregate(){} // RVA: 0x7FFAF9274D10
-        public void Compare(){} // RVA: 0x7FFAF9275F90
-        public void CompareValueTo(){} // RVA: 0x7FFAF9276030
-        public void ConvertValue(){} // RVA: 0x7FFAF92760E0
-        public void Copy(){} // RVA: 0x7FFAF9276150
-        public void Get(){} // RVA: 0x7FFAF9276190
-        public void IsNull(){} // RVA: 0x7FFAF9276200
-        public void Set(){} // RVA: 0x7FFAF9276280
-        public void SetCapacity(){} // RVA: 0x7FFAF92762C0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF92763D0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF92765C0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9276780
-        public void CopyValue(){} // RVA: 0x7FFAF92767C0
-        public void SetStorage(){} // RVA: 0x7FFAF92768D0
+        public void .ctor(){} // RVA: 0x67C4B80
+        public void Aggregate(){} // RVA: 0x67C4D10
+        public void Compare(){} // RVA: 0x67C5F90
+        public void CompareValueTo(){} // RVA: 0x67C6030
+        public void ConvertValue(){} // RVA: 0x67C60E0
+        public void Copy(){} // RVA: 0x67C6150
+        public void Get(){} // RVA: 0x67C6190
+        public void IsNull(){} // RVA: 0x67C6200
+        public void Set(){} // RVA: 0x67C6280
+        public void SetCapacity(){} // RVA: 0x67C62C0
+        public void ConvertXmlToObject(){} // RVA: 0x67C63D0
+        public void ConvertObjectToXml(){} // RVA: 0x67C65C0
+        public void GetEmptyStorage(){} // RVA: 0x67C6780
+        public void CopyValue(){} // RVA: 0x67C67C0
+        public void SetStorage(){} // RVA: 0x67C68D0
     }
 
     public class SqlInt32Storage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92769C0
-        public void Aggregate(){} // RVA: 0x7FFAF9276B50
-        public void Compare(){} // RVA: 0x7FFAF9277DD0
-        public void CompareValueTo(){} // RVA: 0x7FFAF9277E70
-        public void ConvertValue(){} // RVA: 0x7FFAF9277F20
-        public void Copy(){} // RVA: 0x7FFAF9277F90
-        public void Get(){} // RVA: 0x7FFAF9277FD0
-        public void IsNull(){} // RVA: 0x7FFAF9278050
-        public void Set(){} // RVA: 0x7FFAF92780D0
-        public void SetCapacity(){} // RVA: 0x7FFAF9278120
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9278230
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9278420
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF92785E0
-        public void CopyValue(){} // RVA: 0x7FFAF9278620
-        public void SetStorage(){} // RVA: 0x7FFAF9278730
+        public void .ctor(){} // RVA: 0x67C69C0
+        public void Aggregate(){} // RVA: 0x67C6B50
+        public void Compare(){} // RVA: 0x67C7DD0
+        public void CompareValueTo(){} // RVA: 0x67C7E70
+        public void ConvertValue(){} // RVA: 0x67C7F20
+        public void Copy(){} // RVA: 0x67C7F90
+        public void Get(){} // RVA: 0x67C7FD0
+        public void IsNull(){} // RVA: 0x67C8050
+        public void Set(){} // RVA: 0x67C80D0
+        public void SetCapacity(){} // RVA: 0x67C8120
+        public void ConvertXmlToObject(){} // RVA: 0x67C8230
+        public void ConvertObjectToXml(){} // RVA: 0x67C8420
+        public void GetEmptyStorage(){} // RVA: 0x67C85E0
+        public void CopyValue(){} // RVA: 0x67C8620
+        public void SetStorage(){} // RVA: 0x67C8730
     }
 
     public class SqlInt64Storage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9278820
-        public void Aggregate(){} // RVA: 0x7FFAF92789C0
-        public void Compare(){} // RVA: 0x7FFAF9279CE0
-        public void CompareValueTo(){} // RVA: 0x7FFAF9279DA0
-        public void ConvertValue(){} // RVA: 0x7FFAF9279E60
-        public void Copy(){} // RVA: 0x7FFAF9273530
-        public void Get(){} // RVA: 0x7FFAF9279EE0
-        public void IsNull(){} // RVA: 0x7FFAF9279F60
-        public void Set(){} // RVA: 0x7FFAF9279FE0
-        public void SetCapacity(){} // RVA: 0x7FFAF927A040
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF927A150
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF927A350
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF927A510
-        public void CopyValue(){} // RVA: 0x7FFAF927A550
-        public void SetStorage(){} // RVA: 0x7FFAF927A680
+        public void .ctor(){} // RVA: 0x67C8820
+        public void Aggregate(){} // RVA: 0x67C89C0
+        public void Compare(){} // RVA: 0x67C9CE0
+        public void CompareValueTo(){} // RVA: 0x67C9DA0
+        public void ConvertValue(){} // RVA: 0x67C9E60
+        public void Copy(){} // RVA: 0x67C3530
+        public void Get(){} // RVA: 0x67C9EE0
+        public void IsNull(){} // RVA: 0x67C9F60
+        public void Set(){} // RVA: 0x67C9FE0
+        public void SetCapacity(){} // RVA: 0x67CA040
+        public void ConvertXmlToObject(){} // RVA: 0x67CA150
+        public void ConvertObjectToXml(){} // RVA: 0x67CA350
+        public void GetEmptyStorage(){} // RVA: 0x67CA510
+        public void CopyValue(){} // RVA: 0x67CA550
+        public void SetStorage(){} // RVA: 0x67CA680
     }
 
     public class SqlMoneyStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF927A770
-        public void Aggregate(){} // RVA: 0x7FFAF927A910
-        public void Compare(){} // RVA: 0x7FFAF927BC80
-        public void CompareValueTo(){} // RVA: 0x7FFAF927BD40
-        public void ConvertValue(){} // RVA: 0x7FFAF927BE00
-        public void Copy(){} // RVA: 0x7FFAF9273530
-        public void Get(){} // RVA: 0x7FFAF927BE80
-        public void IsNull(){} // RVA: 0x7FFAF927BF00
-        public void Set(){} // RVA: 0x7FFAF927BF80
-        public void SetCapacity(){} // RVA: 0x7FFAF927BFE0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF927C0F0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF927C2F0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF927C4B0
-        public void CopyValue(){} // RVA: 0x7FFAF927C4F0
-        public void SetStorage(){} // RVA: 0x7FFAF927C620
+        public void .ctor(){} // RVA: 0x67CA770
+        public void Aggregate(){} // RVA: 0x67CA910
+        public void Compare(){} // RVA: 0x67CBC80
+        public void CompareValueTo(){} // RVA: 0x67CBD40
+        public void ConvertValue(){} // RVA: 0x67CBE00
+        public void Copy(){} // RVA: 0x67C3530
+        public void Get(){} // RVA: 0x67CBE80
+        public void IsNull(){} // RVA: 0x67CBF00
+        public void Set(){} // RVA: 0x67CBF80
+        public void SetCapacity(){} // RVA: 0x67CBFE0
+        public void ConvertXmlToObject(){} // RVA: 0x67CC0F0
+        public void ConvertObjectToXml(){} // RVA: 0x67CC2F0
+        public void GetEmptyStorage(){} // RVA: 0x67CC4B0
+        public void CopyValue(){} // RVA: 0x67CC4F0
+        public void SetStorage(){} // RVA: 0x67CC620
     }
 
     public class SqlSingleStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF927C710
-        public void Aggregate(){} // RVA: 0x7FFAF927C8A0
-        public void Compare(){} // RVA: 0x7FFAF927DBE0
-        public void CompareValueTo(){} // RVA: 0x7FFAF927DC80
-        public void ConvertValue(){} // RVA: 0x7FFAF927DD30
-        public void Copy(){} // RVA: 0x7FFAF9277F90
-        public void Get(){} // RVA: 0x7FFAF927DDA0
-        public void IsNull(){} // RVA: 0x7FFAF927DE20
-        public void Set(){} // RVA: 0x7FFAF927DEA0
-        public void SetCapacity(){} // RVA: 0x7FFAF927DEF0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF927E000
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF927E1F0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF927E3B0
-        public void CopyValue(){} // RVA: 0x7FFAF927E3F0
-        public void SetStorage(){} // RVA: 0x7FFAF927E500
+        public void .ctor(){} // RVA: 0x67CC710
+        public void Aggregate(){} // RVA: 0x67CC8A0
+        public void Compare(){} // RVA: 0x67CDBE0
+        public void CompareValueTo(){} // RVA: 0x67CDC80
+        public void ConvertValue(){} // RVA: 0x67CDD30
+        public void Copy(){} // RVA: 0x67C7F90
+        public void Get(){} // RVA: 0x67CDDA0
+        public void IsNull(){} // RVA: 0x67CDE20
+        public void Set(){} // RVA: 0x67CDEA0
+        public void SetCapacity(){} // RVA: 0x67CDEF0
+        public void ConvertXmlToObject(){} // RVA: 0x67CE000
+        public void ConvertObjectToXml(){} // RVA: 0x67CE1F0
+        public void GetEmptyStorage(){} // RVA: 0x67CE3B0
+        public void CopyValue(){} // RVA: 0x67CE3F0
+        public void SetStorage(){} // RVA: 0x67CE500
     }
 
     public class SqlStringStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF927E5F0
-        public void Aggregate(){} // RVA: 0x7FFAF927E7A0
-        public void Compare(){} // RVA: 0x7FFAF927EBA0 | overloaded x2
-        public void CompareValueTo(){} // RVA: 0x7FFAF927ECF0
-        public void ConvertValue(){} // RVA: 0x7FFAF927EDC0
-        public void Copy(){} // RVA: 0x7FFAF927EE50
-        public void Get(){} // RVA: 0x7FFAF927EF10
-        public void GetStringLength(){} // RVA: 0x7FFAF927EFA0
-        public void IsNull(){} // RVA: 0x7FFAF927F0B0
-        public void Set(){} // RVA: 0x7FFAF927F130
-        public void SetCapacity(){} // RVA: 0x7FFAF927F1F0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF927F300
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF927F4F0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF927F6B0
-        public void CopyValue(){} // RVA: 0x7FFAF927F6F0
-        public void SetStorage(){} // RVA: 0x7FFAF927F890
+        public void .ctor(){} // RVA: 0x67CE5F0
+        public void Aggregate(){} // RVA: 0x67CE7A0
+        public void Compare(){} // RVA: 0x67CEBA0 | overloaded x2
+        public void CompareValueTo(){} // RVA: 0x67CECF0
+        public void ConvertValue(){} // RVA: 0x67CEDC0
+        public void Copy(){} // RVA: 0x67CEE50
+        public void Get(){} // RVA: 0x67CEF10
+        public void GetStringLength(){} // RVA: 0x67CEFA0
+        public void IsNull(){} // RVA: 0x67CF0B0
+        public void Set(){} // RVA: 0x67CF130
+        public void SetCapacity(){} // RVA: 0x67CF1F0
+        public void ConvertXmlToObject(){} // RVA: 0x67CF300
+        public void ConvertObjectToXml(){} // RVA: 0x67CF4F0
+        public void GetEmptyStorage(){} // RVA: 0x67CF6B0
+        public void CopyValue(){} // RVA: 0x67CF6F0
+        public void SetStorage(){} // RVA: 0x67CF890
     }
 
     public class SqlUdtStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9281CD0 | overloaded x2
-        public void GetStaticNullForUdtType(){} // RVA: 0x7FFAF9281F50
-        public void IsNull(){} // RVA: 0x7FFAF92820C0
-        public void Aggregate(){} // RVA: 0x7FFAF9282180
-        public void Compare(){} // RVA: 0x7FFAF92821C0
-        public void CompareValueTo(){} // RVA: 0x7FFAF9282200
-        public void Copy(){} // RVA: 0x7FFAF9282410
-        public void Get(){} // RVA: 0x7FFAF926D520
-        public void Set(){} // RVA: 0x7FFAF92824C0
-        public void SetCapacity(){} // RVA: 0x7FFAF92826C0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9282A40 | overloaded x2
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9282F00 | overloaded x2
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9283020
-        public void CopyValue(){} // RVA: 0x7FFAF9283060
-        public void SetStorage(){} // RVA: 0x7FFAF92831D0
-        public void .cctor(){} // RVA: 0x7FFAF92832C0
+        public void .ctor(){} // RVA: 0x67D1CD0 | overloaded x2
+        public void GetStaticNullForUdtType(){} // RVA: 0x67D1F50
+        public void IsNull(){} // RVA: 0x67D20C0
+        public void Aggregate(){} // RVA: 0x67D2180
+        public void Compare(){} // RVA: 0x67D21C0
+        public void CompareValueTo(){} // RVA: 0x67D2200
+        public void Copy(){} // RVA: 0x67D2410
+        public void Get(){} // RVA: 0x67BD520
+        public void Set(){} // RVA: 0x67D24C0
+        public void SetCapacity(){} // RVA: 0x67D26C0
+        public void ConvertXmlToObject(){} // RVA: 0x67D2A40 | overloaded x2
+        public void ConvertObjectToXml(){} // RVA: 0x67D2F00 | overloaded x2
+        public void GetEmptyStorage(){} // RVA: 0x67D3020
+        public void CopyValue(){} // RVA: 0x67D3060
+        public void SetStorage(){} // RVA: 0x67D31D0
+        public void .cctor(){} // RVA: 0x67D32C0
     }
 
     public class StringStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9283520
-        public void Aggregate(){} // RVA: 0x7FFAF9283660
-        public void Compare(){} // RVA: 0x7FFAF9283920
-        public void CompareValueTo(){} // RVA: 0x7FFAF92839B0
-        public void ConvertValue(){} // RVA: 0x7FFAF9283AA0
-        public void Copy(){} // RVA: 0x7FFAF926AA80
-        public void Get(){} // RVA: 0x7FFAF92472A0
-        public void GetStringLength(){} // RVA: 0x7FFAF9283AD0
-        public void IsNull(){} // RVA: 0x7FFAF9247480
-        public void Set(){} // RVA: 0x7FFAF9283B10
-        public void SetCapacity(){} // RVA: 0x7FFAF9283B90
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF3E8CE00
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9283CA0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9283D00
-        public void CopyValue(){} // RVA: 0x7FFAF9283D40
-        public void SetStorage(){} // RVA: 0x7FFAF9283E60
+        public void .ctor(){} // RVA: 0x67D3520
+        public void Aggregate(){} // RVA: 0x67D3660
+        public void Compare(){} // RVA: 0x67D3920
+        public void CompareValueTo(){} // RVA: 0x67D39B0
+        public void ConvertValue(){} // RVA: 0x67D3AA0
+        public void Copy(){} // RVA: 0x67BAA80
+        public void Get(){} // RVA: 0x67972A0
+        public void GetStringLength(){} // RVA: 0x67D3AD0
+        public void IsNull(){} // RVA: 0x6797480
+        public void Set(){} // RVA: 0x67D3B10
+        public void SetCapacity(){} // RVA: 0x67D3B90
+        public void ConvertXmlToObject(){} // RVA: 0x13DCE00
+        public void ConvertObjectToXml(){} // RVA: 0x67D3CA0
+        public void GetEmptyStorage(){} // RVA: 0x67D3D00
+        public void CopyValue(){} // RVA: 0x67D3D40
+        public void SetStorage(){} // RVA: 0x67D3E60
     }
 
     public class TimeSpanStorage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9283F50
-        public void Aggregate(){} // RVA: 0x7FFAF92840D0
-        public void Compare(){} // RVA: 0x7FFAF9284E50
-        public void CompareValueTo(){} // RVA: 0x7FFAF9284FC0
-        public void ConvertToTimeSpan(){} // RVA: 0x7FFAF9285150
-        public void ConvertValue(){} // RVA: 0x7FFAF9285430
-        public void Copy(){} // RVA: 0x7FFAF9258E50
-        public void Get(){} // RVA: 0x7FFAF92854E0
-        public void Set(){} // RVA: 0x7FFAF9285600
-        public void SetCapacity(){} // RVA: 0x7FFAF9285700
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9285820
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF92858A0
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9285980
-        public void CopyValue(){} // RVA: 0x7FFAF92859C0
-        public void SetStorage(){} // RVA: 0x7FFAF9285AD0
-        public void .cctor(){} // RVA: 0x7FFAF9285C30
+        public void .ctor(){} // RVA: 0x67D3F50
+        public void Aggregate(){} // RVA: 0x67D40D0
+        public void Compare(){} // RVA: 0x67D4E50
+        public void CompareValueTo(){} // RVA: 0x67D4FC0
+        public void ConvertToTimeSpan(){} // RVA: 0x67D5150
+        public void ConvertValue(){} // RVA: 0x67D5430
+        public void Copy(){} // RVA: 0x67A8E50
+        public void Get(){} // RVA: 0x67D54E0
+        public void Set(){} // RVA: 0x67D5600
+        public void SetCapacity(){} // RVA: 0x67D5700
+        public void ConvertXmlToObject(){} // RVA: 0x67D5820
+        public void ConvertObjectToXml(){} // RVA: 0x67D58A0
+        public void GetEmptyStorage(){} // RVA: 0x67D5980
+        public void CopyValue(){} // RVA: 0x67D59C0
+        public void SetStorage(){} // RVA: 0x67D5AD0
+        public void .cctor(){} // RVA: 0x67D5C30
     }
 
     public class UInt16Storage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9285CB0
-        public void Aggregate(){} // RVA: 0x7FFAF9285E20
-        public void Compare(){} // RVA: 0x7FFAF9286650
-        public void CompareValueTo(){} // RVA: 0x7FFAF9286710
-        public void ConvertValue(){} // RVA: 0x7FFAF9286820
-        public void Copy(){} // RVA: 0x7FFAF9251070
-        public void Get(){} // RVA: 0x7FFAF9286930
-        public void Set(){} // RVA: 0x7FFAF9286A00
-        public void SetCapacity(){} // RVA: 0x7FFAF9286B60
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9286C80
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9286D80
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF9286E10
-        public void CopyValue(){} // RVA: 0x7FFAF9286E50
-        public void SetStorage(){} // RVA: 0x7FFAF9286F60
+        public void .ctor(){} // RVA: 0x67D5CB0
+        public void Aggregate(){} // RVA: 0x67D5E20
+        public void Compare(){} // RVA: 0x67D6650
+        public void CompareValueTo(){} // RVA: 0x67D6710
+        public void ConvertValue(){} // RVA: 0x67D6820
+        public void Copy(){} // RVA: 0x67A1070
+        public void Get(){} // RVA: 0x67D6930
+        public void Set(){} // RVA: 0x67D6A00
+        public void SetCapacity(){} // RVA: 0x67D6B60
+        public void ConvertXmlToObject(){} // RVA: 0x67D6C80
+        public void ConvertObjectToXml(){} // RVA: 0x67D6D80
+        public void GetEmptyStorage(){} // RVA: 0x67D6E10
+        public void CopyValue(){} // RVA: 0x67D6E50
+        public void SetStorage(){} // RVA: 0x67D6F60
     }
 
     public class UInt32Storage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF92870C0
-        public void Aggregate(){} // RVA: 0x7FFAF9287220
-        public void Compare(){} // RVA: 0x7FFAF9287A40
-        public void CompareValueTo(){} // RVA: 0x7FFAF9287B10
-        public void ConvertValue(){} // RVA: 0x7FFAF9287C30
-        public void Copy(){} // RVA: 0x7FFAF925EB90
-        public void Get(){} // RVA: 0x7FFAF9287D40
-        public void Set(){} // RVA: 0x7FFAF9287E10
-        public void SetCapacity(){} // RVA: 0x7FFAF9287F70
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF9288090
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9288120
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF92881B0
-        public void CopyValue(){} // RVA: 0x7FFAF92881F0
-        public void SetStorage(){} // RVA: 0x7FFAF9288300
+        public void .ctor(){} // RVA: 0x67D70C0
+        public void Aggregate(){} // RVA: 0x67D7220
+        public void Compare(){} // RVA: 0x67D7A40
+        public void CompareValueTo(){} // RVA: 0x67D7B10
+        public void ConvertValue(){} // RVA: 0x67D7C30
+        public void Copy(){} // RVA: 0x67AEB90
+        public void Get(){} // RVA: 0x67D7D40
+        public void Set(){} // RVA: 0x67D7E10
+        public void SetCapacity(){} // RVA: 0x67D7F70
+        public void ConvertXmlToObject(){} // RVA: 0x67D8090
+        public void ConvertObjectToXml(){} // RVA: 0x67D8120
+        public void GetEmptyStorage(){} // RVA: 0x67D81B0
+        public void CopyValue(){} // RVA: 0x67D81F0
+        public void SetStorage(){} // RVA: 0x67D8300
     }
 
     public class UInt64Storage
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7FFAF9288460
-        public void Aggregate(){} // RVA: 0x7FFAF92885D0
-        public void Compare(){} // RVA: 0x7FFAF9288F70
-        public void CompareValueTo(){} // RVA: 0x7FFAF9289040
-        public void ConvertValue(){} // RVA: 0x7FFAF9289160
-        public void Copy(){} // RVA: 0x7FFAF9260040
-        public void Get(){} // RVA: 0x7FFAF9289270
-        public void Set(){} // RVA: 0x7FFAF9289340
-        public void SetCapacity(){} // RVA: 0x7FFAF92894A0
-        public void ConvertXmlToObject(){} // RVA: 0x7FFAF92895C0
-        public void ConvertObjectToXml(){} // RVA: 0x7FFAF9289650
-        public void GetEmptyStorage(){} // RVA: 0x7FFAF92896E0
-        public void CopyValue(){} // RVA: 0x7FFAF9289720
-        public void SetStorage(){} // RVA: 0x7FFAF9289830
+        public void .ctor(){} // RVA: 0x67D8460
+        public void Aggregate(){} // RVA: 0x67D85D0
+        public void Compare(){} // RVA: 0x67D8F70
+        public void CompareValueTo(){} // RVA: 0x67D9040
+        public void ConvertValue(){} // RVA: 0x67D9160
+        public void Copy(){} // RVA: 0x67B0040
+        public void Get(){} // RVA: 0x67D9270
+        public void Set(){} // RVA: 0x67D9340
+        public void SetCapacity(){} // RVA: 0x67D94A0
+        public void ConvertXmlToObject(){} // RVA: 0x67D95C0
+        public void ConvertObjectToXml(){} // RVA: 0x67D9650
+        public void GetEmptyStorage(){} // RVA: 0x67D96E0
+        public void CopyValue(){} // RVA: 0x67D9720
+        public void SetStorage(){} // RVA: 0x67D9830
     }
 
 }

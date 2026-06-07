@@ -8,13 +8,13 @@ namespace ThirdParty.DotNet.System.Configuration.Provider
     public class ProviderBase
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x7FFAF904DCD0
+        public void Initialize(){} // RVA: 0x659DCD0
     }
 
     public class ProviderCollection
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x7FFAF904E000
+        public void Add(){} // RVA: 0x659E000
     }
 
 }

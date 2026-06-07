@@ -8,9 +8,9 @@ namespace ThirdParty.DotNet.System
     public class KnownTerminals
     {
         // ── Methods ──
-        public void get_linux(){} // RVA: 0x7FFAF89B61C0
-        public void get_xterm(){} // RVA: 0x7FFAF89B6230
-        public void get_ansi(){} // RVA: 0x7FFAF89B62A0
+        public void get_linux(){} // RVA: 0x5F061C0
+        public void get_xterm(){} // RVA: 0x5F06230
+        public void get_ansi(){} // RVA: 0x5F062A0
     }
 
 }

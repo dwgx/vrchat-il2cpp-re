@@ -14,167 +14,160 @@ namespace VRC.Rendering
         public object ScanHiddenCameras;
 
         // ── Methods ──
-        public void SettingsConstructor(){} // RVA: 0x7FFAF33108A0
-        public void Deconstruct(){} // RVA: 0x7FFAF33108D0
-        public void SettingsConstructor_93EB20C03694(){} // RVA: 0x7FFAF2DF5470
-        public void Start(){} // RVA: 0x7FFAF33108E0
-        public void ToString(){} // RVA: 0x7FFAF3310B20
-        public void OnRenderImage_FA06D614DA55(){} // RVA: 0x7FFAF2DF5470
-        public void SettingsConstructor_3B77A2E351B6(){} // RVA: 0x7FFAF2DF5460
-        public void OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency(){} // RVA: 0x7FFAF2DB5FE0
-        public void Deconstruct_943E21316AF9(){} // RVA: 0x7FFAF2DF5460
-        public void OnRenderImage(){} // RVA: 0x7FFAF3310F40
-        public void get_Value(){} // RVA: 0x7FFAF3311870
-        public void Deconstruct_9F1C94E7475E(){} // RVA: 0x7FFAF3311980
-        public void Deconstruct_DA5D3EA0FF57(){} // RVA: 0x7FFAF3312000
-        public void Update(){} // RVA: 0x7FFAF3312010
-        public void Deconstruct_C13361869ABC(){} // RVA: 0x7FFAF3312690
-        public void Deconstruct_F5379E9AB47A(){} // RVA: 0x7FFAF33126B0
-        public void GetKey(){} // RVA: 0x7FFAF33126D0
-        public void Deconstruct_445D331B9F60(){} // RVA: 0x7FFAF33126F0
-        public void Awake(){} // RVA: 0x7FFAF3312800
-        public void OnDestroy(){} // RVA: 0x7FFAF3312910
-        public void OVRMixedRealityCaptureConfiguration.get_handPoseStateLatency(){} // RVA: 0x7FFAF3312910
-        public void get_Key(){} // RVA: 0x7FFAF3312920
-        public void Deconstruct_4D934F00AE96(){} // RVA: 0x7FFAF3312A30
-        public void OVRMixedRealityCaptureConfiguration.set_handPoseStateLatency(){} // RVA: 0x7FFAF3313060
-        public void SettingsConstructor_C862C6863EAD(){} // RVA: 0x7FFAF3313070
-        public void SettingsConstructor_EEA28B71E1F8(){} // RVA: 0x7FFAF33131B0
-        public void Deconstruct_C13361869ABC_ED69226B7819(){} // RVA: 0x7FFAF3312690
-        public void .ctor(){} // RVA: 0x7FFAF33133B0
-        public void Initialize(){} // RVA: 0x7FFAF2DB5FE0
-        public void get_Key_69A3C1EF696A(){} // RVA: 0x7FFAF3313440
-        public void get_Key_A91D113D212F(){} // RVA: 0x7FFAF3313480
-        public void OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency(){} // RVA: 0x7FFAF2DB5FF0
-        public void SettingsConstructor_25B5F17D262B(){} // RVA: 0x7FFAF3313B30
-        public void get_DefaultComparer(){} // RVA: 0x7FFAF3313CC0
-        // ── Unresolved (hash) ──
-        public void m_FFE(){} // RVA: 0x7FFAF3311840
-        public void m_3AE(){} // RVA: 0x7FFAF3312B50
+        public void SettingsConstructor(){} // RVA: 0x345470
+        public void Start(){} // RVA: 0x8608E0
+        public void SettingsConstructor_3B77A2E351B6(){} // RVA: 0x345460
+        public void OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency(){} // RVA: 0x305FE0
+        public void OnRenderImage(){} // RVA: 0x860F40
+        public void get_Value(){} // RVA: 0x861870
+        public void Deconstruct(){} // RVA: 0x861980
+        public void Update(){} // RVA: 0x862010
+        public void Deconstruct_C13361869ABC(){} // RVA: 0x862690
+        public void Deconstruct_445D331B9F60(){} // RVA: 0x8626F0
+        public void Awake(){} // RVA: 0x862800
+        public void OnDestroy(){} // RVA: 0x862910
+        public void get_Key(){} // RVA: 0x862920
+        public void Deconstruct_4D934F00AE96(){} // RVA: 0x862A30
+        public void .ctor(){} // RVA: 0x8633B0
+        public void Initialize(){} // RVA: 0x305FE0
+        public void get_Key_69A3C1EF696A(){} // RVA: 0x863440
+        public void get_Key_A91D113D212F(){} // RVA: 0x863480
+        public void OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency(){} // RVA: 0x305FF0
+        // ── 17 unresolved (hash) ──
+        public void m_3E1(){} // RVA: 0x8608A0
+        public void m_230(){} // RVA: 0x8608D0
+        public void m_1A8(){} // RVA: 0x860B20
+        public void m_FA0(){} // RVA: 0x345470
+        public void m_943(){} // RVA: 0x345460
+        // ... 12 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÎÎÎÎÌÎÏÎÎÌÎÍÎÏÌÎÌÏÍÏ</summary>
     public class SetMaterialDirtySetVerticesDirty_54B3
     {
         // ── Methods ──
-        public void SetMaterialDirty(){} // RVA: 0x7FFAF3ACBAB0
-        public void WriteCompressionBlockHeader(){} // RVA: 0x7FFAF3ACBB50
-        public void ShouldMergeCompressionBlock(){} // RVA: 0x7FFAF3ACBD70
-        public void SetAllDirty(){} // RVA: 0x7FFAF3ACBF90
-        public void SetLayoutDirty_40835A4F4EFA(){} // RVA: 0x7FFAF3ACC1B0
-        public void SetVerticesDirty_F203132ED0A8(){} // RVA: 0x7FFAF3ACC3D0
-        public void .ctor(){} // RVA: 0x7FFAF3ACC5F0
-        public void SetLayoutDirty(){} // RVA: 0x7FFAF3ACC830
-        public void SetMaterialDirty_D62CDF9072C8(){} // RVA: 0x7FFAF3ACC8E0
-        public void SetVerticesDirty(){} // RVA: 0x7FFAF3ACCB00
-        public void OnPopulateMesh(){} // RVA: 0x7FFAF3ACCBA0
+        public void SetMaterialDirty(){} // RVA: 0x101BAB0
+        public void .ctor(){} // RVA: 0x101C5F0
+        public void SetLayoutDirty(){} // RVA: 0x101C830
+        public void SetVerticesDirty(){} // RVA: 0x101CB00
+        public void OnPopulateMesh(){} // RVA: 0x101CBA0
+        // ── Unresolved (hash) ──
+        public void m_D64(){} // RVA: 0x101BB50
+        public void m_C9D(){} // RVA: 0x101BD70
+        public void m_FF9(){} // RVA: 0x101BF90
+        public void m_408(){} // RVA: 0x101C1B0
+        public void m_F20(){} // RVA: 0x101C3D0
+        public void m_D62(){} // RVA: 0x101C8E0
     }
 
     /// <summary>Originally: ÍÎÍÌÍÍÏÎÍÏÎÌÎÏÍÎÌÏÎÎÎÎÌ</summary>
     public class ShaderHandler_4F17
     {
         // ── Methods ──
-        public void PropertyToID(){} // RVA: 0x7FFAFB6E69B0
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAFB6E6A20
-        public void PropertyIds(){} // RVA: 0x7FFAFB6E6B50
-        public void PropertyToID_D79A6F811928(){} // RVA: 0x7FFAFB6E69B0
-        public void PropertyToID_7B0B489765B2(){} // RVA: 0x7FFAFB6E69B0
-        public void PropertyToID_DC726AD1DF09(){} // RVA: 0x7FFAFB6E69B0
-        public void PropertyToID_1F651C8429FB(){} // RVA: 0x7FFAFB6E69B0
-        public void PropertyToID_714E1E71FEC7(){} // RVA: 0x7FFAFB6E69B0
+        public void PropertyToID(){} // RVA: 0x8C369B0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x8C36A20
+        public void PropertyToID_D79A6F811928(){} // RVA: 0x8C369B0
+        public void PropertyToID_7B0B489765B2(){} // RVA: 0x8C369B0
+        public void PropertyToID_DC726AD1DF09(){} // RVA: 0x8C369B0
+        public void PropertyToID_1F651C8429FB(){} // RVA: 0x8C369B0
+        public void PropertyToID_714E1E71FEC7(){} // RVA: 0x8C369B0
+        // ── Unresolved (hash) ──
+        public void m_E01(){} // RVA: 0x8C36B50
     }
 
     /// <summary>Originally: ÍÍÏÌÏÌÍÎÌÏÏÏÌÍÌÍÍÌÏÌÏÎÌ</summary>
     public class ShaderHandler_50DE
     {
         // ── Methods ──
-        public void ProcessShader(){} // RVA: 0x7FFAF37B0930
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF37B0960
-        public void ProcessShader_E7737468671C(){} // RVA: 0x7FFAF37B0930
-        public void ProcessShader_90BC0BFAE850(){} // RVA: 0x7FFAF37B0930
+        public void ProcessShader(){} // RVA: 0xD00930
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0xD00960
+        public void ProcessShader_E7737468671C(){} // RVA: 0xD00930
+        public void ProcessShader_90BC0BFAE850(){} // RVA: 0xD00930
         // ── Unresolved (hash) ──
-        public void m_DBD(){} // RVA: 0x7FFAF37B0960
-        public void m_AB6(){} // RVA: 0x7FFAF37B0960
-        public void m_7E5(){} // RVA: 0x7FFAF37B0960
+        public void m_DBD(){} // RVA: 0xD00960
+        public void m_AB6(){} // RVA: 0xD00960
+        public void m_7E5(){} // RVA: 0xD00960
     }
 
     /// <summary>Originally: ÎÌÌÏÌÏÎÏÍÏÎÍÍÏÍÍÍÌÏÍÎÍÎ</summary>
     public class ShaderHandler_CF38
     {
         // ── Methods ──
-        public void ProcessShader(){} // RVA: 0x7FFAF37B0990
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF37B0C90
+        public void ProcessShader(){} // RVA: 0xD00990
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0xD00C90
         // ── Unresolved (hash) ──
-        public void m_392(){} // RVA: 0x7FFAF37B0D10
-        public void m_2B9(){} // RVA: 0x7FFAF37B0D90
-        public void m_DEE(){} // RVA: 0x7FFAF37B0E10
-        public void m_CAF(){} // RVA: 0x7FFAF37B1110
-        public void m_405(){} // RVA: 0x7FFAF37B1190
+        public void m_392(){} // RVA: 0xD00D10
+        public void m_2B9(){} // RVA: 0xD00D90
+        public void m_DEE(){} // RVA: 0xD00E10
+        public void m_CAF(){} // RVA: 0xD01110
+        public void m_405(){} // RVA: 0xD01190
     }
 
     /// <summary>Originally: ÌÎÍÍÍÏÍÏÎÍÍÌÌÌÌÌÎÎÌÍÏÍÌ</summary>
     public class ShaderHandler_F1D8
     {
         // ── Methods ──
-        public void PropertyToID(){} // RVA: 0x7FFAF41D6BF0
-        public void GetPropertyID(){} // RVA: 0x7FFAF41D6F90
-        public void SetShaderProperty(){} // RVA: 0x7FFAF41D7330
-        public void TrySetResult(){} // RVA: 0x7FFAF41D76D0
-        public void GetShaderProperty(){} // RVA: 0x7FFAF41D7A70
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF41D7E10
+        public void PropertyToID(){} // RVA: 0x1726BF0
+        public void TrySetResult(){} // RVA: 0x17276D0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x1727E10
+        // ── Unresolved (hash) ──
+        public void m_3F5(){} // RVA: 0x1726F90
+        public void m_2E3(){} // RVA: 0x1727330
+        public void m_B22(){} // RVA: 0x1727A70
     }
 
     /// <summary>Originally: ÏÏÍÌÌÎÎÍÏÍÏÍÎÏÍÏÍÎÏÎÎÌÍ</summary>
     public class ShaderMaterialHandler_23FE
     {
         // ── Methods ──
-        public void PropertyToID(){} // RVA: 0x7FFAF419A9A0
-        public void GetShaderPropertyId(){} // RVA: 0x7FFAF419AB40
-        public void GetMaterialPropertyType(){} // RVA: 0x7FFAF419AD00
-        public void SetMaterialProperty(){} // RVA: 0x7FFAF419AEA0
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF419B060
-        public void ProcessMaterial(){} // RVA: 0x7FFAF419B1F0
-        public void ProcessMaterial_29B0DC8FE36F(){} // RVA: 0x7FFAF419B380
+        public void PropertyToID(){} // RVA: 0x16EA9A0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x16EB060
+        public void ProcessMaterial(){} // RVA: 0x16EB1F0
+        // ── Unresolved (hash) ──
+        public void m_B4D(){} // RVA: 0x16EAB40
+        public void m_B74(){} // RVA: 0x16EAD00
+        public void m_CD6(){} // RVA: 0x16EAEA0
+        public void m_29B(){} // RVA: 0x16EB380
     }
 
     /// <summary>Originally: ÍÎÎÏÎÍÏÎÍÏÎÎÌÎÍÍÌÌÏÎÎÏÎ</summary>
     public class ShaderMaterialHandler_8235
     {
         // ── Methods ──
-        public void GetActiveInHierarchy(){} // RVA: 0x7FFAF4199ED0
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF419A440
-        public void GetPropertyType(){} // RVA: 0x7FFAF419A6F0
+        public void GetActiveInHierarchy(){} // RVA: 0x16E9ED0
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x16EA440
+        public void GetPropertyType(){} // RVA: 0x16EA6F0
         // ── Unresolved (hash) ──
-        public void m_BDD(){} // RVA: 0x7FFAF4199D80
-        public void m_664(){} // RVA: 0x7FFAF419A030
-        public void m_639(){} // RVA: 0x7FFAF419A190
-        public void m_CE0(){} // RVA: 0x7FFAF419A2E0
-        public void m_DDC(){} // RVA: 0x7FFAF419A590
-        public void m_0C0(){} // RVA: 0x7FFAF419A840
+        public void m_BDD(){} // RVA: 0x16E9D80
+        public void m_664(){} // RVA: 0x16EA030
+        public void m_639(){} // RVA: 0x16EA190
+        public void m_CE0(){} // RVA: 0x16EA2E0
+        public void m_DDC(){} // RVA: 0x16EA590
+        public void m_0C0(){} // RVA: 0x16EA840
     }
 
     /// <summary>Originally: ÏÏÏÍÎÎÍÍÏÌÏÌÏÌÌÍÏÍÍÌÍÎÎ</summary>
     public class SkinnedMeshTransformHandler_9843
     {
         // ── Methods ──
-        public void SwapElements(){} // RVA: 0x7FFAF43DD0F0
-        public void InsertionSort(){} // RVA: 0x7FFAF43DD340
-        public void .ctor(){} // RVA: 0x7FFAF2D8D310
-        public void Initialize(){} // RVA: 0x7FFAF43DD5F0
-        public void GetBlendShapeCount(){} // RVA: 0x7FFAF43DD850
-        public void IntrospectiveSort(){} // RVA: 0x7FFAF43DDAB0
-        public void InsertionSort_F69729A98E21(){} // RVA: 0x7FFAF43DDC90
-        public void SwapElements_4D2A5BEF84EC(){} // RVA: 0x7FFAF43DDDB0
-        public void InsertionSort_E66FFF285999(){} // RVA: 0x7FFAF43DDFA0
-        public void SwapElements_39CFB3308125(){} // RVA: 0x7FFAF43DE180
-        public void SwapIfGreaterWithItems(){} // RVA: 0x7FFAF43DE370
-        public void InsertionSort_3C97C52DDC12(){} // RVA: 0x7FFAF43DE5C0
+        public void SwapElements(){} // RVA: 0x192D0F0
+        public void InsertionSort(){} // RVA: 0x192D340
+        public void .ctor(){} // RVA: 0x2DD310
+        public void Initialize(){} // RVA: 0x192D5F0
+        public void GetBlendShapeCount(){} // RVA: 0x192D850
+        public void IntrospectiveSort(){} // RVA: 0x192DAB0
+        public void InsertionSort_F69729A98E21(){} // RVA: 0x192DC90
+        public void SwapElements_4D2A5BEF84EC(){} // RVA: 0x192DDB0
+        public void InsertionSort_E66FFF285999(){} // RVA: 0x192DFA0
+        public void SwapElements_39CFB3308125(){} // RVA: 0x192E180
+        public void SwapIfGreaterWithItems(){} // RVA: 0x192E370
+        public void InsertionSort_3C97C52DDC12(){} // RVA: 0x192E5C0
     }
 
 }
