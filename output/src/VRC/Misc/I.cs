@@ -38,17 +38,17 @@ namespace VRC.Misc
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly_4F6F9AE7ECBA(){} // RVA: 0xDBE0
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void get_Current(){} // RVA: 0xC770
         public void get_Item(){} // RVA: 0x1BCC0
-        public void set_Item(){} // RVA: 0x24B10
         public void Add(){} // RVA: 0x24B10
         public void GetCustomAttributes(){} // RVA: 0x1D640
         public void ConvertAll(){} // RVA: 0xCE10
         public void TryCopyTo(){} // RVA: 0x283FA0
         // ── Unresolved (hash) ──
+        public void m_EDA(){} // RVA: 0xCD60
         public void m_E49(){} // RVA: 0xCD60
         public void m_F49(){}
+        public void m_A16(){} // RVA: 0x24B10
         public void m_B60(){}
         public void m_EC7(){}
         public void m_3B3(){}
@@ -352,7 +352,6 @@ namespace VRC.Misc
         // ── Methods ──
         public void Awake(){} // RVA: 0x10A5C00
         public void OnDestroy(){} // RVA: 0x2DD310
-        public void Dispose(){} // RVA: 0x2DD310
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x2DD310
         public void LateUpdate(){} // RVA: 0x2DD310
@@ -361,6 +360,8 @@ namespace VRC.Misc
         public void Update(){} // RVA: 0x2DD310
         public void Start(){} // RVA: 0x2DD310
         public void OnBecameVisible(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_C9E(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÍÎÏÏÍÌÌÎÏÍÏÏÍÎÌÌÏÍÏÏÍÎÏ</summary>

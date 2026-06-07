@@ -778,27 +778,19 @@ namespace VRC.Internal.Generated
         public void Reset(){} // RVA: 0x922E1A0
         public void ReadApplicationState(){} // RVA: 0x306070
         public void set_imageUrl(){} // RVA: 0x4C34F0
-        public void RectTransform(){} // RVA: 0x922E700
         public void Awake(){} // RVA: 0x922E8D0
-        public void LastSafeArea(){} // RVA: 0x922F180
-        public void LastScreenSize_4104A5A27D2A(){} // RVA: 0x922E220
         public void .ctor(){} // RVA: 0x314BB0
         public void Initialize(){} // RVA: 0x922F210
-        public void LastOrientation(){} // RVA: 0x922F280
-        public void ConformX(){} // RVA: 0x922F450
         public void Start(){} // RVA: 0x922F6E0
-        public void ConformY(){} // RVA: 0x922F770
         public void ConfigureRectTransform(){} // RVA: 0x922FB80
-        public void Logging(){} // RVA: 0x922FCA0
         public void OnDestroy(){} // RVA: 0x922FD30
-        // ── Unresolved (hash) ──
+        // ── 14 unresolved (hash) ──
         public void m_49B(){} // RVA: 0x922DEF0
         public void m_BEB(){} // RVA: 0x922DF50
         public void m_4D5(){} // RVA: 0x922E060
         public void m_E50(){} // RVA: 0x922E240
         public void m_CE1(){} // RVA: 0x922E370
-        public void m_87B(){} // RVA: 0x922E400
-        public void m_E34(){} // RVA: 0x922E530
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÎÍÏÎÏÍÍÎÍÏÍÏÌÍÏÌÌÎÏÎÌ</summary>

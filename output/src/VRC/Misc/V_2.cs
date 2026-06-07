@@ -142,16 +142,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void ConvertAll(){} // RVA: 0xCE10
         public void ConvertAll_86FC01D825D5(){} // RVA: 0xCE10
-        public void set_Item(){} // RVA: 0x24B10
         public void Add(){} // RVA: 0x24B10
-        public void get_Item(){} // RVA: 0x24B10
         public void GetEnumerator(){} // RVA: 0xCD60
-        public void CreateEnumerator(){} // RVA: 0x1B72430
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         // ── Unresolved (hash) ──
+        public void m_0B8(){} // RVA: 0x24B10
+        public void m_276(){} // RVA: 0x24B10
         public void m_AB1(){} // RVA: 0x24B10
         public void m_A3B(){} // RVA: 0x24B10
         public void m_4A3(){} // RVA: 0x24B10
+        public void m_C27(){} // RVA: 0x1B72430
         public void m_C54(){} // RVA: 0x1B72660
     }
 
@@ -231,13 +231,12 @@ namespace VRC.Misc
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void InitializeCollection(){} // RVA: 0x24A50
         public void get_IsReadOnly_E50850C6821B(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0xCD60
         public void BrotliEncoderIsFinished_04EF656D5A4F(){} // RVA: 0x26980
         public void set_Item(){} // RVA: 0x24B10
         public void get_Item(){} // RVA: 0xCD60
+        public void MemSet(){} // RVA: 0x24A50
         public void GetExpectedContentHeight(){} // RVA: 0x24A50
         public void GetEnumerator(){} // RVA: 0xCD60
-        public void MemSet_7A72EEAC1C25(){} // RVA: 0x24A50
         public void get_Count(){} // RVA: 0xD840
         public void GetExpectedContentHeight_952440AC6AAE(){} // RVA: 0x21890
         public void Add(){} // RVA: 0x24B10

@@ -1,7 +1,8 @@
 # VRChat IL2CPP RE — 完整工作流文档
 
-> 最后更新: 2026-06-07 | 覆盖率: 94.1% | cross_version: 53,292 条
+> 最后更新: 2026-06-07 (v2.3, 全量审计后) | 覆盖率: 90.7% | cross_version: 39,623 条
 > 本文档面向**接手的 AI 或开发者**，记录项目全貌、已验证的策略、踩过的坑。
+> 权威数字以 `output/coverage_stats.json` 为准（每次 pipeline 自动刷新）。
 
 ---
 
@@ -15,12 +16,16 @@
 - 264 个 IL2CPP 导出函数被重命名，仅 3 个保留原名
 - 正则匹配混淆名: `^[Ì-Ï]{3,}$`
 
-**当前成果 (June 5 build)**:
+**当前成果 (June 5 build, v2.3 全量审计后)**:
 - 88,400 类提取，528,135 方法，2,870 字段
-- 496,886 方法已命名 (**94.1%**)
-- 31,249 方法仍为 hash fallback (m_XXX)
-- 53,292 条 cross_version 方法名映射
+- 478,923 方法已命名 (**90.7%**)
+- 49,212 方法仍为 hash fallback (m_XXX)
+- 39,623 条 cross_version 方法名映射
 - 7,813 / 11,503 混淆类有语义名 (67.9%)
+
+> 注: 覆盖率从 94.1% 降到 90.7% 是**有意为之**——全量 122 批质量审计删除了 ~13.8K
+> 低置信度预测（主要是 `<>c` 闭包/编译器生成方法的泛化命名）。**精确率换覆盖率**，
+> 剩余命名的可信度更高。dump.cs 和 src/ 现在输出 RVA（兼容 Il2CppDumper/IDA/Ghidra）。
 
 ---
 
@@ -215,24 +220,50 @@ Start-Process python -ArgumentList "tools/codex_worker.py","--mode","sibling","-
 - [x] GitHub 清理（无 claude 引用）
 - [x] v2.1 release 发布
 
-### 已完成 (v2.2) ✅
-- [x] 质量审计脚本 `tools/apply_audit_results.py` — 自动应用 remove/fix 到 cross_version
-- [x] 审计 worker 运行中（122 batch），已应用部分结果清洗低质量预测
-- [x] CS dump 输出改为 RVA 格式 + 字段类型/偏移（兼容 Il2CppDumper 风格）
+### 已完成 (v2.3, 全量审计) ✅
+- [x] 全量 122 批质量审计完成并应用（删 13,777 + 修 137），cross_version 53,292→39,623
+- [x] `tools/apply_audit_results.py` — 自动应用 remove/fix（自动备份）
+- [x] `tools/compute_final_stats.py` — 单一真相源统计，已接入 pipeline Stage 3c
+- [x] dump.cs + src/ 输出 RVA 格式（兼容 Il2CppDumper/IDA/Ghidra）+ 字段类型/偏移
+- [x] 全文档数字统一到权威值（README/WORKFLOW/dashboard/coverage_report）
 - [x] 所有文件名/代码中 claude 引用清除
 
-### 未做 ❌
-- [ ] **Frida 运行时字段提取**: field_types.json 缺失（目前只有 2,870 字段），需要 VRChat 离线运行 + Frida 注入
-- [ ] **IDA 分析深化**: 28K 函数已反编译，还有更多可反编译
-- [ ] **剩余 ~37K hash 方法**: 大部分是编译器生成的 lambda / 极度通用方法，边际收益极低
+### 未做 ❌（按 ROI 排序）
+- [ ] **Frida 运行时字段提取**【最高价值】: 当前只有 2,870 字段（应有 ~70K+）。
+      这是最大缺口。需要 VRChat 离线运行 + Frida 注入跑 `extract_field_types_v2.py`。
+      字段类型不仅补全 fields 覆盖，还能给方法命名提供强上下文。
+- [ ] **IDA 分析深化**【中价值】: 28K 函数已反编译，剩余 hash 方法可继续补伪代码走 mega-batch。
+- [ ] **剩余 ~49K hash 方法**【低价值】: 大部分是 `<>c` 闭包/lambda/编译器生成/极通用方法，
+      审计已证明强行命名 = 幻觉。边际收益极低，不建议盲目冲覆盖率。
 
-### 如果要继续提升覆盖率
+### 接手者：从这里开始 👇
 
-优先级:
-1. **Frida 字段提取** — 能给方法命名提供更多上下文
-2. **应用审计结果 + 重跑 pipeline** — 清除低质量预测，提升精确率
-3. **更多 IDA 反编译** — 给剩余方法补伪代码，走 mega-batch 路线
-4. **不建议**再跑 neighbor batch — 收益已证明极低（平均 <1 prediction/batch）
+**第一步永远是**：确认当前 build 是否还是 June 5。VRChat 自动更新后偏移会变。
+```bash
+# 1. 新 dump 后必跑（发现新偏移）
+python tools/reverse_struct_layout.py --dump <NEW>.dmp --auto-heap
+# 2. 提取
+python tools/extract_precise_dump.py <NEW>.dmp --auto-heap --offsets output/struct_layout_report.json
+# 3. 重跑
+python tools/run_full_pipeline.py --force
+# 4. 看权威数字
+type output\coverage_stats.json
+```
+
+**最高 ROI 的下一步工作 = Frida 字段提取**（理由见上）：
+```bash
+start "" "D:\Steam\steamapps\common\VRChat\VRChat.exe" --no-vr
+python tools/extract_field_types_v2.py        # 需先把 extract_field_types_v2.js 偏移更新到当前 build
+python tools/merge_field_types.py
+python tools/run_full_pipeline.py --force
+```
+⚠️ Frida JS 脚本（`extract_field_types_v2.js` 等）的偏移**仍是旧 build 的硬编码**，
+运行前必须按 `output/coverage_stats.json` 同期的 `reverse_struct_report` 更新。
+
+**不要做的事**（已验证死路）：
+- ❌ 再跑 neighbor batch（平均 <1 有效预测/batch）
+- ❌ 强行给 `<>c`/lambda hash 方法命名（审计会再删掉）
+- ❌ 本地 EAC/EOS 伪造来联机（服务端校验，客户端改无效）
 
 ---
 

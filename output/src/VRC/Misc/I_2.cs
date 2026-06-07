@@ -180,7 +180,6 @@ namespace VRC.Misc
     public class InvisibleComponent_14AA
     {
         // ── Methods ──
-        public void OnTriggerExit(){} // RVA: 0x8E138C0
         public void Awake(){} // RVA: 0x8E13F50
         public void OnEnable(){} // RVA: 0x3A5590
         public void get_imageUrl(){} // RVA: 0x3A5590
@@ -202,6 +201,7 @@ namespace VRC.Misc
         // ── Unresolved (hash) ──
         public void m_170(){} // RVA: 0x8E133D0
         public void m_530(){} // RVA: 0x8E13500
+        public void m_0C8(){} // RVA: 0x8E138C0
     }
 
     /// <summary>Originally: ÏÎÍÏÌÎÌÍÏÍÍÏÏÏÌÎÎÍÏÏÌÏÎ</summary>
@@ -625,18 +625,18 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void OnDestroy(){} // RVA: 0x181DBF0
-        public void Interact(){} // RVA: 0x181E0A0
-        public void SetInteractive(){} // RVA: 0x181E0D0
         public void .ctor(){} // RVA: 0x2DDD50
         public void Awake(){} // RVA: 0x181E310
         public void OnDestroy_2F5CC43084D1(){} // RVA: 0x181DBF0
         public void OnDestroy_0C2E6D40850A(){} // RVA: 0x181DBF0
-        public void get_IsInteractive(){} // RVA: 0x181E550
         // ── Unresolved (hash) ──
         public void m_AF5(){} // RVA: 0x181D880
         public void m_385(){} // RVA: 0x181D9B0
         public void m_6F5(){} // RVA: 0x181DC20
         public void m_7FD(){} // RVA: 0x181DE60
+        public void m_B5B(){} // RVA: 0x181E0A0
+        public void m_1E9(){} // RVA: 0x181E0D0
+        public void m_6B8(){} // RVA: 0x181E550
     }
 
     /// <summary>Originally: ÎÎÏÌÍÎÌÌÏÍÏÎÏÍÍÏÌÌÏÍÍÎÏ</summary>
@@ -687,16 +687,17 @@ namespace VRC.Misc
     public class IsInteractiveInteractSibling_0686
     {
         // ── Methods ──
-        public void NewStringFromUtf8_31B927F603EA(){} // RVA: 0x8FC78B0 | overloaded x2
         public void Awake(){} // RVA: 0x8FC7630
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8FC76F0
         public void NewStringFromUtf16(){} // RVA: 0x8FC7780
-        public void NewStringFromUtf8_CE0F2F003027(){} // RVA: 0x8FC7820
-        public void NewStringFromUtf8_BBC9ABE10FF3(){} // RVA: 0x8FC7940
+        public void NewStringFromUtf8(){} // RVA: 0x8FC7820
         public void HasParent(){} // RVA: 0x8FC79E0
-        public void HasParent_035F0B7566D7(){} // RVA: 0x8FC7A10
         public void FindPropertyByName(){} // RVA: 0x8FC7C10
+        // ── Unresolved (hash) ──
+        public void m_31B(){} // RVA: 0x8FC78B0
+        public void m_BBC(){} // RVA: 0x8FC7940
+        public void m_035(){} // RVA: 0x8FC7A10
     }
 
     /// <summary>Originally: ÏÏÍÌÎÍÌÏÏÎÍÎÏÍÌÍÎÏÍÏÌÎÎ</summary>

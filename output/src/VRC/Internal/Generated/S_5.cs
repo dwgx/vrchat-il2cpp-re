@@ -405,15 +405,16 @@ namespace VRC.Internal.Generated
         public void Initialize(){} // RVA: 0x6B9420
         public void get_Flags(){} // RVA: 0x303470
         public void get_Flags_AE48212F23D9(){} // RVA: 0x303470
-        public void set_Flags(){} // RVA: 0x6B9430
-        public void HasFlag(){} // RVA: 0x6B94D0
-        public void AddFlags(){} // RVA: 0x6B9600
         public void get_Flags_69FA651062DE(){} // RVA: 0x303470
-        public void RemoveFlags(){} // RVA: 0x6B9B50
-        public void get_Flags_D9367BB6C929(){} // RVA: 0x6BA0A0
-        public void ClearFlags(){} // RVA: 0x6BA2A0
-        public void IsFlagSet(){} // RVA: 0x6BAB20
-        public void UpdateFlags(){} // RVA: 0x6BB390
+        // ── Unresolved (hash) ──
+        public void m_045(){} // RVA: 0x6B9430
+        public void m_1AF(){} // RVA: 0x6B94D0
+        public void m_510(){} // RVA: 0x6B9600
+        public void m_BB6(){} // RVA: 0x6B9B50
+        public void m_D93(){} // RVA: 0x6BA0A0
+        public void m_C02(){} // RVA: 0x6BA2A0
+        public void m_55B(){} // RVA: 0x6BAB20
+        public void m_6C9(){} // RVA: 0x6BB390
     }
 
     /// <summary>Originally: ÌÎÍÌÍÎÌÌÏÌÎÎÍÌÍÌÍÎÏÎÎÌÎ</summary>

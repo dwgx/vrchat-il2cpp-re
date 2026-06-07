@@ -527,8 +527,8 @@ public class EventReplicator`2
     public void Clear(){} // RVA: 0x24A50
     public void get_IsReadOnly_0CE72569FA16(){} // RVA: 0xDBE0
     public void Start(){} // RVA: 0xCD60
-    public void MemSet(){} // RVA: 0x24A50
     public void get_Count_5B016EBE2056(){} // RVA: 0xD840
+    public void MemSet(){} // RVA: 0x24A50
     public void get_IsReadOnly_48B8D977218C(){} // RVA: 0xDBE0
     public void get_IsReadOnly_82C8FB02896A(){} // RVA: 0xDBE0
     public void TryCopyTo_A17E560925B3(){} // RVA: 0x283FA0
@@ -539,7 +539,7 @@ public class EventReplicator`2
     public void get_MoveNext(){} // RVA: 0xCD60
     // ── Unresolved (hash) ──
     public void m_A81(){} // RVA: 0x24B10
-    public void m_2B4(){} // RVA: 0x24A50
+    public void m_C46(){} // RVA: 0x24A50
     public void m_1E9(){} // RVA: 0x24A50
     public void m_873(){} // RVA: 0x24B10
     public void m_B29(){} // RVA: 0x24A50
@@ -563,8 +563,8 @@ public class EventReplicator`2
     public void Clear(){} // RVA: 0x3309D60
     public void get_IsReadOnly_0CE72569FA16(){} // RVA: 0x3309E60
     public void Start(){} // RVA: 0x330A220
-    public void MemSet(){} // RVA: 0x330A2C0
     public void get_Count_5B016EBE2056(){} // RVA: 0x3308FE0
+    public void MemSet(){} // RVA: 0x330ACA0
     public void get_IsReadOnly_48B8D977218C(){} // RVA: 0x330AF00
     public void get_IsReadOnly_82C8FB02896A(){} // RVA: 0x330AF60
     public void TryCopyTo_A17E560925B3(){} // RVA: 0x330B320
@@ -575,7 +575,7 @@ public class EventReplicator`2
     public void get_MoveNext(){} // RVA: 0x4976A0
     // ── Unresolved (hash) ──
     public void m_A81(){} // RVA: 0x3308800
-    public void m_2B4(){} // RVA: 0x330ACA0
+    public void m_C46(){} // RVA: 0x330A2C0
     public void m_1E9(){} // RVA: 0x330B430
     public void m_873(){} // RVA: 0x330BD30
     public void m_B29(){} // RVA: 0x330BF10

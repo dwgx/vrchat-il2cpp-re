@@ -43,16 +43,17 @@ namespace VRC.Internal.Generated
     public class Static10m_3637
     {
         // ── Methods ──
-        public void GetName(){} // RVA: 0xFC0D10
         public void GetNameInternalComponent(){} // RVA: 0xFC1040
-        public void SetName(){} // RVA: 0xFC1330
-        public void GetComponentName(){} // RVA: 0xFC1620
-        public void GetGameObjectName(){} // RVA: 0xFC1910
-        public void GetTransformName(){} // RVA: 0xFC1C00
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0xFC1EF0
-        public void GetInternalComponentName(){} // RVA: 0xFC2220
-        public void CacheNameInternalComponent(){} // RVA: 0xFC2510
+        // ── Unresolved (hash) ──
+        public void m_981(){} // RVA: 0xFC0D10
+        public void m_4F4(){} // RVA: 0xFC1330
+        public void m_ED6(){} // RVA: 0xFC1620
+        public void m_57A(){} // RVA: 0xFC1910
+        public void m_5E6(){} // RVA: 0xFC1C00
+        public void m_FEF(){} // RVA: 0xFC2220
+        public void m_6A3(){} // RVA: 0xFC2510
     }
 
     /// <summary>Originally: ÏÏÌÍÌÏÌÍÏÏÍÍÏÎÍÎÍÎÏÎÎÍÏ</summary>
@@ -178,16 +179,17 @@ namespace VRC.Internal.Generated
     public class Static10m_788B
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x2DEE30
         public void set_Value(){} // RVA: 0x2DEE30
-        public void ResetValue(){} // RVA: 0x2DEE30
-        public void ClearValue(){} // RVA: 0x2DEE30
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x2DEE30
-        public void HasValue(){} // RVA: 0x2DEE30
-        public void AddValueChangedCallback(){} // RVA: 0x2DEE30
-        public void RemoveValueChangedCallback(){} // RVA: 0x2DEE30
-        public void NotifyValueChanged(){} // RVA: 0x2DEE30
+        // ── Unresolved (hash) ──
+        public void m_B48(){} // RVA: 0x2DEE30
+        public void m_CFE(){} // RVA: 0x2DEE30
+        public void m_68E(){} // RVA: 0x2DEE30
+        public void m_813(){} // RVA: 0x2DEE30
+        public void m_493(){} // RVA: 0x2DEE30
+        public void m_698(){} // RVA: 0x2DEE30
+        public void m_A14(){} // RVA: 0x2DEE30
     }
 
     /// <summary>Originally: ÏÏÌÌÌÎÌÌÌÎÌÍÏÌÏÏÍÎÍÎÎÌÎ</summary>
@@ -571,7 +573,6 @@ namespace VRC.Internal.Generated
         // ── Methods ──
         public void Start(){} // RVA: 0x19D08E0
         public void OnDestroy(){} // RVA: 0x19D0F40
-        public void RefreshState(){} // RVA: 0x19D1870
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x19D1EF0
         // ── Unresolved (hash) ──
@@ -581,6 +582,7 @@ namespace VRC.Internal.Generated
         public void m_557(){} // RVA: 0x19D1100
         public void m_B3A(){} // RVA: 0x19D1290
         public void m_81B(){} // RVA: 0x19D1770
+        public void m_591(){} // RVA: 0x19D1870
         public void m_CAF(){} // RVA: 0x19D1D60
     }
 
@@ -622,17 +624,17 @@ namespace VRC.Internal.Generated
     public class Static13m_9080
     {
         // ── Methods ──
-        public void SKIP(){} // RVA: 0x6BD040
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x2DEE30
-        public void SKIP_73B3E6D3608F(){} // RVA: 0x6BD130
-        public void SKIP_035B8CDC7A72(){} // RVA: 0x6BD160
-        public void SKIP_D751A8F0C5AA(){} // RVA: 0x6BD250
         public void GetTransformChildCount_609445D97B38_145AC2FF90BF(){} // RVA: 0x30B0D0
         public void Hash(){} // RVA: 0x6BD340
         public void set_Value(){} // RVA: 0x2DEE30
         // ── Unresolved (hash) ──
+        public void m_20D(){} // RVA: 0x6BD040
+        public void m_73B(){} // RVA: 0x6BD130
+        public void m_035(){} // RVA: 0x6BD160
+        public void m_D75(){} // RVA: 0x6BD250
         public void m_547(){} // RVA: 0x6BD370
         public void m_78D(){} // RVA: 0x6BD530
         public void m_EF0(){} // RVA: 0x6BD6F0
@@ -982,20 +984,18 @@ namespace VRC.Internal.Generated
     public class Static3m_7439
     {
         // ── Methods ──
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x2DC60
-        // ── Unresolved (hash) ──
-        public void m_AC3(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÏÏÌÏÏÏÏÎÎÎÏÎÌÏÌÎÎÌÍÍÎÍÎ</summary>
     public class Static3m_7439
     {
         // ── Methods ──
+        public void MemSet(){} // RVA: 0x514D420
         public void Clear(){} // RVA: 0x514D480
         public void .ctor(){} // RVA: 0x514D580
-        // ── Unresolved (hash) ──
-        public void m_AC3(){} // RVA: 0x514D420
     }
 
     /// <summary>Originally: ÏÏÍÎÎÌÏÌÌÏÍÏÍÏÏÎÏÎÌÏÌÍÍ</summary>

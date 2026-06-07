@@ -61,16 +61,17 @@ namespace VRC.Player
     public class TransformPlayerPrefsHandler_AE82
     {
         // ── Methods ──
-        public void SetVector3PlayerPref(){} // RVA: 0x1D8BCA0
-        public void TryReadPlayerPref(){} // RVA: 0x1D8BD70
-        public void SetVector2PlayerPref(){} // RVA: 0x1D8BFA0
-        public void SetBytesPlayerPref(){} // RVA: 0x1D8C360
-        public void SetTransformPlayerPref(){} // RVA: 0x1D8C660
-        public void SetTransformTriplePlayerPref(){} // RVA: 0x1D8C730
-        public void SetTransformArrayPlayerPref(){} // RVA: 0x1D8C800
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x1D8CAE0
         public void DeleteKey(){} // RVA: 0x1D8CBB0
+        // ── Unresolved (hash) ──
+        public void m_39D(){} // RVA: 0x1D8BCA0
+        public void m_0E7(){} // RVA: 0x1D8BD70
+        public void m_389(){} // RVA: 0x1D8BFA0
+        public void m_F99(){} // RVA: 0x1D8C360
+        public void m_594(){} // RVA: 0x1D8C660
+        public void m_201(){} // RVA: 0x1D8C730
+        public void m_74E(){} // RVA: 0x1D8C800
     }
 
 }

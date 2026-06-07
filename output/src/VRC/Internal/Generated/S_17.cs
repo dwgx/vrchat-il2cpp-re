@@ -185,16 +185,17 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void GetCanvasRootCanvas(){} // RVA: 0x1A909A0
-        public void GetCanvasRoot(){} // RVA: 0x1A90A70
-        public void FindCanvasRoot(){} // RVA: 0x1A90B40
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x1A90B70
-        public void GetRootCanvas(){} // RVA: 0x1A90C40
-        public void RegisterCanvas(){} // RVA: 0x1A90D10
-        public void UnregisterCanvas(){} // RVA: 0x1A90B40
-        public void SetCanvasEnabled(){} // RVA: 0x1A90B40
-        public void RefreshCanvasHierarchy(){} // RVA: 0x1A90B40
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x1A90DE0
+        // ── Unresolved (hash) ──
+        public void m_5CA(){} // RVA: 0x1A90A70
+        public void m_ED6(){} // RVA: 0x1A90B40
+        public void m_141(){} // RVA: 0x1A90C40
+        public void m_5B8(){} // RVA: 0x1A90D10
+        public void m_045(){} // RVA: 0x1A90B40
+        public void m_AB9(){} // RVA: 0x1A90B40
+        public void m_224(){} // RVA: 0x1A90B40
+        public void m_937(){} // RVA: 0x1A90DE0
     }
 
     /// <summary>Originally: ÍÏÎÏÍÎÏÍÌÎÏÍÍÏÏÍÍÍÌÌÌÏÎ</summary>
@@ -237,18 +238,19 @@ namespace VRC.Internal.Generated
     public class Static12m_2A75
     {
         // ── Methods ──
-        public void GetTransformChild(){} // RVA: 0x1D5BEE0
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void GetTransformParent(){} // RVA: 0x1D5C0E0
-        public void SetTransformParent(){} // RVA: 0x1D5BE90
-        public void GetComponentTransform(){} // RVA: 0x1D5BF70
         public void Cleanup(){} // RVA: 0x30B0C0
-        public void GetGameObjectTransform(){} // RVA: 0x1D5BEE0
-        public void GetTransformChildCount(){} // RVA: 0x1D5BF70
-        public void RegisterTransform(){} // RVA: 0x1D5BF70
         public void .ctor(){} // RVA: 0x1D5C170
         public void Initialize(){} // RVA: 0x1D5BEE0
-        public void UnregisterTransform(){} // RVA: 0x1D5BF70
+        // ── Unresolved (hash) ──
+        public void m_A04(){} // RVA: 0x1D5BEE0
+        public void m_E3C(){} // RVA: 0x1D5C0E0
+        public void m_986(){} // RVA: 0x1D5BE90
+        public void m_296(){} // RVA: 0x1D5BF70
+        public void m_671(){} // RVA: 0x1D5BEE0
+        public void m_F94(){} // RVA: 0x1D5BF70
+        public void m_91C(){} // RVA: 0x1D5BF70
+        public void m_45D(){} // RVA: 0x1D5BF70
     }
 
     /// <summary>Originally: ÎÌÌÌÍÏÍÌÏÏÌÍÌÎÏÎÏÍÍÎÌÏÏ</summary>
@@ -370,24 +372,24 @@ namespace VRC.Internal.Generated
     public class Static18m_BE88
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void Add(){} // RVA: 0x24B10
-        public void set_Item(){} // RVA: 0x24B10
         public void ConvertAll(){} // RVA: 0xCE10
-        public void get_Item(){} // RVA: 0x24B10
         public void Dispose(){} // RVA: 0x25130
         public void Remove(){} // RVA: 0xDE40
-        public void InitializeCollection(){} // RVA: 0x24A50
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void AwaitUnsafeOnCompleted_D376320841BE(){} // RVA: 0x2DC60
         public void Clear(){} // RVA: 0x24A50
         public void AwaitUnsafeOnCompleted_2588D6841363(){} // RVA: 0x2DC60
         // ── Unresolved (hash) ──
+        public void m_A46(){} // RVA: 0xCD60
         public void m_BC7(){} // RVA: 0xCD60
         public void m_8C5(){} // RVA: 0xCD60
+        public void m_4FA(){} // RVA: 0x24B10
+        public void m_6F9(){} // RVA: 0x24B10
         public void m_95E(){} // RVA: 0x24B10
+        public void m_CE5(){} // RVA: 0x24A50
         public void m_E5F(){} // RVA: 0x24B10
     }
 
@@ -1101,7 +1103,7 @@ namespace VRC.Internal.Generated
         public void .ctor(){} // RVA: 0x24A50
         public void Initialize(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_C3D(){} // RVA: 0x24A50
+        public void m_A15(){} // RVA: 0x24A50
         public void m_9B2(){} // RVA: 0x24A50
         public void m_33C(){} // RVA: 0x24A50
         public void m_D3E(){} // RVA: 0x24A50

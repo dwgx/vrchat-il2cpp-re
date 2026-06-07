@@ -357,11 +357,11 @@ namespace VRC.UI
     {
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x2DD310
-        public void set_MaxContentCount(){} // RVA: 0x90949D0
+        public void set_ObservableList(){} // RVA: 0x90949D0
         public void .ctor(){} // RVA: 0x9094D00
         public void get_MaxContentCount(){} // RVA: 0x9094D70
         public void get_ObservableList(){} // RVA: 0x9094E00
-        public void set_ObservableList(){} // RVA: 0x2DD310
+        public void set_MaxContentCount(){} // RVA: 0x2DD310
     }
 
     /// <summary>Originally: ÏÍÎÏÌÏÏÏÎÏÍÍÍÍÎÏÎÏÌÍÏÍÏ</summary>
@@ -398,17 +398,17 @@ namespace VRC.UI
     {
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x8DCCE40
-        public void get_Item(){} // RVA: 0x8DCCF70
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8DCD0A0
-        public void set_Item(){} // RVA: 0x8DCD1F0
-        public void Insert(){} // RVA: 0x8DCD320
-        public void RemoveAt(){} // RVA: 0x8DCD560
         public void Start(){} // RVA: 0x8DCD8F0
-        public void OnListChanged(){} // RVA: 0x8DCDB30
-        public void RefreshList(){} // RVA: 0x8DCDD70
         // ── Unresolved (hash) ──
+        public void m_428(){} // RVA: 0x8DCCF70
+        public void m_498(){} // RVA: 0x8DCD1F0
+        public void m_CE1(){} // RVA: 0x8DCD320
+        public void m_04C(){} // RVA: 0x8DCD560
         public void m_6B3(){} // RVA: 0x8DCD6B0
+        public void m_C30(){} // RVA: 0x8DCDB30
+        public void m_B5F(){} // RVA: 0x8DCDD70
     }
 
     /// <summary>Originally: ÏÏÎÍÏÏÎÎÍÍÌÍÏÌÎÌÎÎÏÏÌÌÍ</summary>
@@ -448,21 +448,21 @@ namespace VRC.UI
     {
         // ── Methods ──
         public void RemoveAt(){} // RVA: 0x24FA0
+        public void MemSet(){} // RVA: 0x24A50
         public void get_Current(){} // RVA: 0xC770
         public void get_Item(){} // RVA: 0x24B10
         public void GetEnumerator(){} // RVA: 0xCD60
         public void Clear(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void set_value(){} // RVA: 0x325B0
         public void Add(){} // RVA: 0x24B10
         // ── Unresolved (hash) ──
         public void m_858(){} // RVA: 0xCD60
         public void m_8F3(){} // RVA: 0xCD60
         public void m_F29(){} // RVA: 0xCD60
-        public void m_277(){} // RVA: 0x24A50
         public void m_EA4(){} // RVA: 0x24B10
         public void m_772(){} // RVA: 0xCD60
         public void m_26C(){} // RVA: 0x24B10
+        public void m_553(){} // RVA: 0x24A50
         public void m_D8E(){} // RVA: 0x24A50
         public void m_397(){} // RVA: 0x24A50
         public void m_A2D(){} // RVA: 0x24B10
@@ -975,15 +975,16 @@ namespace VRC.UI
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x130D480
-        public void SetRectTransform(){} // RVA: 0x2DD310
         public void Dispose(){} // RVA: 0x2DD310
         public void GetAnchoredPosition_2E50927524F6(){} // RVA: 0x130DD80 | overloaded x2
-        public void SetAnchoredPosition(){} // RVA: 0x130D8D0
-        public void GetSizeDelta(){} // RVA: 0x130D930
         public void GetRect(){} // RVA: 0x130DDE0
-        public void SetSizeDelta(){} // RVA: 0x130DE40
-        public void GetLocalScale(){} // RVA: 0x2DD310
-        public void SetLocalScale(){} // RVA: 0x130DEA0
+        // ── Unresolved (hash) ──
+        public void m_830(){} // RVA: 0x2DD310
+        public void m_B7F(){} // RVA: 0x130D8D0
+        public void m_F8A(){} // RVA: 0x130D930
+        public void m_789(){} // RVA: 0x130DE40
+        public void m_D39(){} // RVA: 0x2DD310
+        public void m_742(){} // RVA: 0x130DEA0
     }
 
     /// <summary>Originally: ÏÏÏÎÌÌÍÎÏÏÍÏÌÍÍÌÏÌÏÏÏÎÏ</summary>

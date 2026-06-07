@@ -36,6 +36,7 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x18EDE40
+        public void ConvertAll(){} // RVA: 0xCE10
         public void InitializeCollection(){} // RVA: 0x24A50
         public void MemSet(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x18EEA00
@@ -44,8 +45,7 @@ namespace VRC.Network
         public void m_3D0(){} // RVA: 0x18EDFE0
         public void m_8DD(){} // RVA: 0x18EE110
         public void m_0D6(){} // RVA: 0x18EE580
-        public void m_9C8(){} // RVA: 0xCE10
-        public void m_42B(){} // RVA: 0x24A50
+        public void m_455(){} // RVA: 0x24A50
         public void m_9FB(){} // RVA: 0xCD60
         public void m_A53(){} // RVA: 0x24A50
         public void m_184(){}

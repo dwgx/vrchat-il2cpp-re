@@ -11,12 +11,13 @@ namespace VRC.Animation
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x1961010
-        public void GetSkeletonPoseData(){} // RVA: 0x19613E0
-        public void ResizeTransformBuffer(){} // RVA: 0x19616B0
-        public void ResizeBoneBuffer(){} // RVA: 0x1961AF0
         public void ResizeIntBuffer(){} // RVA: 0x1961F30
         public void SetColor(){} // RVA: 0x1962370
         public void GetIsHuman(){} // RVA: 0x19627B0
+        // ── Unresolved (hash) ──
+        public void m_3BA(){} // RVA: 0x19613E0
+        public void m_8E3(){} // RVA: 0x19616B0
+        public void m_AE6(){} // RVA: 0x1961AF0
     }
 
 }

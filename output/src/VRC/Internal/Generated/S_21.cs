@@ -180,7 +180,6 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
         public void GetEnumerator(){} // RVA: 0xCD60
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void Add(){} // RVA: 0x24B10
@@ -188,6 +187,7 @@ namespace VRC.Internal.Generated
         // ── Unresolved (hash) ──
         public void m_F6F(){} // RVA: 0xCD60
         public void m_19B(){} // RVA: 0xCD60
+        public void m_5EC(){} // RVA: 0xCD60
         public void m_C39(){} // RVA: 0xCD60
         public void m_919(){} // RVA: 0xCD60
     }
@@ -758,7 +758,6 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_Count(){} // RVA: 0xD840
         public void RemoveAt(){} // RVA: 0x24FA0
@@ -766,13 +765,13 @@ namespace VRC.Internal.Generated
         public void Add(){} // RVA: 0x24B10
         public void get_Count_0E05AA42982B(){} // RVA: 0xD840
         public void RemoveAt_50B927D353FF(){} // RVA: 0x24FA0
-        // ── 15 unresolved (hash) ──
+        // ── 16 unresolved (hash) ──
         public void m_E74(){} // RVA: 0xCD60
         public void m_57E(){} // RVA: 0xCD60
         public void m_DFF(){} // RVA: 0xCD60
+        public void m_077(){} // RVA: 0x24A50
         public void m_867(){} // RVA: 0x24B10
-        public void m_CC6(){} // RVA: 0xCD60
-        // ... 10 more unresolved methods
+        // ... 11 more unresolved methods
     }
 
     /// <summary>Originally: ÎÍÏÍÎÍÏÍÏÎÎÏÍÌÌÏÌÍÌÌÌÎÎ</summary>

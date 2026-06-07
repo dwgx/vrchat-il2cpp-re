@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VRChat IL2CPP Reverse Engineering</title>
-<meta name="description" content="June 5 IL2CPP deobfuscation coverage for VRChat's GameAssembly.dll: 94.1% semantic naming across 88,400 classes, 528,135 methods, and 2,870 fields.">
+<meta name="description" content="June 5 IL2CPP deobfuscation coverage for VRChat's GameAssembly.dll: 90.7% semantic naming across 88,400 classes, 528,135 methods, and 2,870 fields.">
 <style>
 :root {
   --bg: #030712; --bg2: #0a0f1e; --bg3: #111827;
@@ -129,14 +129,14 @@ tr:hover td{background:rgba(255,255,255,0.02)}
 
 <!-- ═══════ HERO ═══════ -->
 <div class="hero">
-  <div class="hero-badge"><span class="dot" style="width:6px;height:6px;border-radius:50%;background:var(--green)"></span> 94.1% Semantic Coverage</div>
+  <div class="hero-badge"><span class="dot" style="width:6px;height:6px;border-radius:50%;background:var(--green)"></span> 90.7% Semantic Coverage</div>
   <h1>VRChat <span>IL2CPP</span> Reverse Engineering</h1>
-  <p class="hero-sub">Deep deobfuscation of VRChat's GameAssembly.dll — 496,886 named methods across the June 5 build. Beebyte ÌÍÎÏ obfuscation defeated via RVA propagation, Codex batch analysis, sibling-context inference, Hex-Rays pseudocode, and 7 community data sources.</p>
+  <p class="hero-sub">Deep deobfuscation of VRChat's GameAssembly.dll — 478,923 named methods across the June 5 build. Beebyte ÌÍÎÏ obfuscation defeated via RVA propagation, Codex batch analysis, sibling-context inference, Hex-Rays pseudocode, and 7 community data sources.</p>
   <div class="stats-row">
     <div class="stat-item"><div class="stat-num c-blue" data-count="88400">0</div><div class="stat-label">Classes</div></div>
     <div class="stat-item"><div class="stat-num c-purple" data-count="528135">0</div><div class="stat-label">Methods</div></div>
     <div class="stat-item"><div class="stat-num c-cyan" data-count="2870">0</div><div class="stat-label">Fields</div></div>
-    <div class="stat-item"><div class="stat-num c-green">94.1%</div><div class="stat-label">Semantic</div></div>
+    <div class="stat-item"><div class="stat-num c-green">90.7%</div><div class="stat-label">Semantic</div></div>
   </div>
   <div class="version"><span class="dot"></span> June 5 build &middot; Unity 2022.3.x &middot; IL2CPP v29.1 &middot; 88,400 classes</div>
 </div>
@@ -161,18 +161,18 @@ tr:hover td{background:rgba(255,255,255,0.02)}
       <div class="progress"><div class="progress-bar pb-blue" data-width="94.9"></div></div>
       <div class="s-row"><span>Semantic</span><span class="s-val">83,873 (94.9%)</span></div>
       <div class="s-row"><span>Renamed obfuscated</span><span class="s-val">11,503</span></div>
-      <div class="s-row"><span>Semantic renamed</span><span class="s-val" style="color:var(--green)">6,976 (60.6%)</span></div>
-      <div class="s-row"><span>Fallback renamed</span><span class="s-val">4,527 (39.4%)</span></div>
+      <div class="s-row"><span>Semantic renamed</span><span class="s-val" style="color:var(--green)">7,813 (67.9%)</span></div>
+      <div class="s-row"><span>Fallback renamed</span><span class="s-val">3,690 (32.1%)</span></div>
       <div class="s-row"><span>Namespaces</span><span class="s-val">724</span></div>
     </div>
     <!-- Methods -->
     <div class="card">
       <h3><span class="card-icon" style="background:rgba(139,92,246,0.15);color:var(--purple)">M</span> Methods</h3>
       <div style="font-size:28px;font-weight:700;color:var(--purple)">528,135</div>
-      <div class="progress"><div class="progress-bar pb-purple" data-width="94.1"></div></div>
-      <div class="s-row"><span>Named methods</span><span class="s-val" style="color:var(--green)">496,886 (94.1%)</span></div>
-      <div class="s-row"><span>Hash remaining</span><span class="s-val" style="color:var(--amber)">31,249 (5.9%)</span></div>
-      <div class="s-row"><span>cross_version entries</span><span class="s-val" style="color:var(--cyan)">53,292</span></div>
+      <div class="progress"><div class="progress-bar pb-purple" data-width="90.7"></div></div>
+      <div class="s-row"><span>Named methods</span><span class="s-val" style="color:var(--green)">478,923 (90.7%)</span></div>
+      <div class="s-row"><span>Hash remaining</span><span class="s-val" style="color:var(--amber)">49,212 (9.3%)</span></div>
+      <div class="s-row"><span>cross_version entries</span><span class="s-val" style="color:var(--cyan)">39,623</span></div>
       <div class="s-row"><span>RVA propagation</span><span class="s-val">+15,527</span></div>
       <div class="s-row"><span>Sibling-context</span><span class="s-val">+13,565</span></div>
     </div>
@@ -197,20 +197,20 @@ tr:hover td{background:rgba(255,255,255,0.02)}
           <svg viewBox="0 0 120 120">
             <defs><linearGradient id="gSem"><stop offset="0%" stop-color="var(--green)"/><stop offset="100%" stop-color="var(--cyan)"/></linearGradient></defs>
             <circle cx="60" cy="60" r="50" fill="none" stroke="var(--bg3)" stroke-width="12"/>
-            <circle cx="60" cy="60" r="50" fill="none" stroke="url(#gSem)" stroke-width="12" stroke-dasharray="314.16" stroke-dashoffset="18.54" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="50" fill="none" stroke="url(#gSem)" stroke-width="12" stroke-dasharray="314.16" stroke-dashoffset="29.22" stroke-linecap="round"/>
           </svg>
-          <div class="donut-center"><span class="donut-pct">94.1%</span><span class="donut-label">Semantic</span></div>
+          <div class="donut-center"><span class="donut-pct">90.7%</span><span class="donut-label">Semantic</span></div>
         </div>
         <div class="legend">
-          <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div>Named methods: 496,886</div>
-          <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div>Hash remaining: 31,249</div>
+          <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div>Named methods: 478,923</div>
+          <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div>Hash remaining: 49,212</div>
           <div class="legend-item"><div class="legend-dot" style="background:var(--dim)"></div>Total methods: 528,135</div>
         </div>
       </div>
       <div style="flex:1;min-width:280px">
-        <p style="color:var(--dim);font-size:14px;margin-bottom:12px">94.1% of 528,135 methods have been named via RVA propagation (15.5K), Codex mega-batch analysis (2.8K), sibling-context inference (13.5K), Hex-Rays pseudocode, and 7 community sources. The remaining 5.9% use stable hash fallback identifiers (m_XXX).</p>
+        <p style="color:var(--dim);font-size:14px;margin-bottom:12px">90.7% of 528,135 methods have been named via RVA propagation (15.5K), Codex mega-batch analysis (2.8K), sibling-context inference (13.5K), Hex-Rays pseudocode, and 7 community sources. The remaining 9.3% use stable hash fallback identifiers (m_XXX).</p>
         <div style="padding:12px;background:rgba(16,185,129,0.06);border:1px solid rgba(16,185,129,0.15);border-radius:8px;font-size:13px;color:var(--green)">
-          <strong>Zero raw obfuscated class names remain.</strong> 11,503 obfuscated classes renamed (6,976 semantic + 4,527 fallback). 53,292 cross-version method name entries. Quality audit in progress via 3 parallel Codex workers.
+          <strong>Zero raw obfuscated class names remain.</strong> 11,503 obfuscated classes renamed (7,813 semantic + 3,690 fallback). 39,623 cross-version method name entries. Quality audit complete: 122 batches applied, ~13.8K low-confidence predictions removed (precision over raw coverage).
         </div>
       </div>
     </div>
@@ -246,14 +246,14 @@ tr:hover td{background:rgba(255,255,255,0.02)}
       <p style="color:var(--dim);font-size:13px;margin-bottom:16px">June 5 method coverage from the current pipeline summary and final dump.</p>
       <table>
         <tr><th>Metric</th><th>Count</th><th>Coverage</th></tr>
-        <tr><td style="color:var(--green)">Named methods</td><td>496,886</td><td>94.1% of all methods</td></tr>
-        <tr><td style="color:var(--amber)">Hash remaining (m_XXX)</td><td>31,249</td><td>5.9% of all methods</td></tr>
+        <tr><td style="color:var(--green)">Named methods</td><td>478,923</td><td>90.7% of all methods</td></tr>
+        <tr><td style="color:var(--amber)">Hash remaining (m_XXX)</td><td>49,212</td><td>9.3% of all methods</td></tr>
         <tr><td>Total methods</td><td>528,135</td><td>June 5 dump</td></tr>
       </table>
       <div style="margin-top:12px">
-        <div class="progress" style="height:12px"><div class="progress-bar pb-purple" data-width="94.1" style="border-radius:4px 0 0 4px"></div></div>
+        <div class="progress" style="height:12px"><div class="progress-bar pb-purple" data-width="90.7" style="border-radius:4px 0 0 4px"></div></div>
         <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--dim);margin-top:4px">
-          <span>94.1% named</span><span>5.9% hash remaining</span>
+          <span>90.7% named</span><span>9.3% hash remaining</span>
         </div>
       </div>
     </div>
@@ -294,7 +294,7 @@ tr:hover td{background:rgba(255,255,255,0.02)}
 <div class="container">
   <div class="card" style="margin-bottom:16px">
     <h3>Deobfuscation Pipeline</h3>
-    <p style="color:var(--dim);font-size:14px;margin-bottom:20px">Multi-strategy pipeline: vocabulary merge → 8-phase deobfuscation → RVA propagation (v2 + cascade) → sibling-context LLM inference → Hex-Rays pseudocode analysis → output generation. 53,292 cross-version entries from 11+ data sources.</p>
+    <p style="color:var(--dim);font-size:14px;margin-bottom:20px">Multi-strategy pipeline: vocabulary merge → 11-phase deobfuscation → RVA propagation (v2 + cascade) → sibling-context LLM inference → Hex-Rays pseudocode analysis → output generation. 39,623 cross-version entries from 11+ data sources.</p>
     <div class="pipeline">
       <div class="pipe-step"><div class="pipe-num">0</div><div class="pipe-body"><strong>Vocabulary Merge</strong><br><span>7,926 names from 7 sources → unified_vocabulary.json</span></div></div>
       <div class="pipe-step"><div class="pipe-num">1</div><div class="pipe-body"><strong>Compiler Artifacts</strong><br><span>686 async state machines + delegates classified</span></div></div>
@@ -302,8 +302,8 @@ tr:hover td{background:rgba(255,255,255,0.02)}
       <div class="pipe-step"><div class="pipe-num">3</div><div class="pipe-body"><strong>Unity Components</strong><br><span>893 MonoBehaviour/ScriptableObject subclasses identified</span></div></div>
       <div class="pipe-step"><div class="pipe-num">4</div><div class="pipe-body"><strong>Inheritance Chain</strong><br><span>570 classes named via parent → child propagation</span></div></div>
       <div class="pipe-step"><div class="pipe-num">5</div><div class="pipe-body"><strong>Cross-Reference</strong><br><span>593 by shared methods, sibling analysis, community maps</span></div></div>
-      <div class="pipe-step"><div class="pipe-num">6</div><div class="pipe-body"><strong>Fallback Hashing</strong><br><span>4,527 renamed classes use stable fallback names</span></div></div>
-      <div class="pipe-step"><div class="pipe-num" style="background:var(--green)">7</div><div class="pipe-body"><strong>Smart Field & Method Renaming</strong><br><span>158 fields + 31,249 methods — 4 field strategies + VA propagation + context-aware inference</span></div></div>
+      <div class="pipe-step"><div class="pipe-num">6</div><div class="pipe-body"><strong>Fallback Hashing</strong><br><span>3,690 renamed classes use stable fallback names</span></div></div>
+      <div class="pipe-step"><div class="pipe-num" style="background:var(--green)">7</div><div class="pipe-body"><strong>Smart Field & Method Renaming</strong><br><span>158 fields + 49,212 methods — 4 field strategies + VA propagation + context-aware inference</span></div></div>
     </div>
   </div>
 
@@ -402,7 +402,7 @@ tr:hover td{background:rgba(255,255,255,0.02)}
       </div>
       <div class="s-row"><span>Function renames</span><span class="s-val" style="color:var(--green)">133K+</span></div>
       <div class="s-row"><span>Hex-Rays decompiled</span><span class="s-val" style="color:var(--cyan)">10,670</span></div>
-      <div class="s-row"><span>LLM predictions applied</span><span class="s-val" style="color:var(--purple)">53,292</span></div>
+      <div class="s-row"><span>LLM predictions applied</span><span class="s-val" style="color:var(--purple)">39,623</span></div>
       <div class="s-row"><span>IDA database</span><span class="s-val">2.7 GB (.i64)</span></div>
       <div class="s-row"><span>Compatible</span><span class="s-val">IDA 9.x</span></div>
     </div>
@@ -431,7 +431,7 @@ tr:hover td{background:rgba(255,255,255,0.02)}
     <span>88,400 classes</span> &middot;
     <span>528,135 methods</span> &middot;
     <span>2,870 fields</span> &middot;
-    <span style="color:var(--green)">94.1% semantic</span>
+    <span style="color:var(--green)">90.7% semantic</span>
   </div>
   <div>Built with Python, Frida, IDA Pro &middot; Last updated June 7, 2026</div>
 </div>

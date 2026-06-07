@@ -367,22 +367,22 @@ namespace VRC.Misc
         // ── Methods ──
         public void IndexOf(){} // RVA: 0x519240
         public void GetStatus(){} // RVA: 0xA681B0
-        public void GetResult(){} // RVA: 0xA686A0
         public void get_ElementType(){} // RVA: 0x519240
-        public void OnCompleted(){} // RVA: 0xA686E0
-        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x2DD310
-        public void UnsafeOnCompleted(){} // RVA: 0xA68720
         public void TrySetResult(){} // RVA: 0xA68760
         public void ValidateTokenAndGetStatus(){} // RVA: 0xA68C40
         public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
         public void GetStatus_9F1C94E7475E(){} // RVA: 0xA68C80
         public void ReadAnimatorState(){} // RVA: 0xA69CA0
         public void Dispose(){} // RVA: 0x2DD310
-        public void ReadAnimatorState_60BC6280D4D8(){} // RVA: 0xA6A440
-        public void ReadAnimatorState_0202FD1068A2(){} // RVA: 0xA6A480
         public void .ctor(){} // RVA: 0xA6B4A0
         public void Initialize(){} // RVA: 0x2DD310
         // ── Unresolved (hash) ──
+        public void m_09B(){} // RVA: 0xA686A0
+        public void m_B61(){} // RVA: 0xA686E0
+        public void m_F6B(){} // RVA: 0x2DD310
+        public void m_8B4(){} // RVA: 0xA68720
+        public void m_60B(){} // RVA: 0xA6A440
+        public void m_020(){} // RVA: 0xA6A480
         public void m_F84(){} // RVA: 0xA6B540
     }
 

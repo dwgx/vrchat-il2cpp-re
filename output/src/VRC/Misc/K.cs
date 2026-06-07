@@ -26,14 +26,14 @@ namespace VRC.Misc
         public object _1BC0;
 
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_Item(){} // RVA: 0xCD60
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly_045FA41A4BC2(){} // RVA: 0xDBE0
         public void get_IsReadOnly_461057FCE086(){} // RVA: 0xDBE0
         public void get_Count(){} // RVA: 0xD840
         // ── Unresolved (hash) ──
+        public void m_87D(){} // RVA: 0xCD60
+        public void m_60B(){} // RVA: 0xCD60
         public void m_8B4(){} // RVA: 0xCD60
         public void m_C0D(){} // RVA: 0xCD60
         public void m_62E(){} // RVA: 0xCD60

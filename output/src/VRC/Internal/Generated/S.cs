@@ -462,14 +462,14 @@ namespace VRC.Internal.Generated
         public void set_mode(){} // RVA: 0x833580
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void set_ByteBuffer(){} // RVA: 0x19689C0
-        public void System.Collections.Generic.IEnumerator<ByteBuffer>.get_Current(){} // RVA: 0x19689C0
         public void set_mode_979844888C46(){} // RVA: 0x833580
-        public void System.Collections.Generic.IEnumerable<ByteBuffer>.GetEnumerator(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
         public void m_271(){} // RVA: 0x19689C0
         public void m_22A(){} // RVA: 0x2085CB0
+        public void m_B01(){} // RVA: 0x19689C0
         public void m_656(){} // RVA: 0x19689C0
         public void m_CD8(){} // RVA: 0x2085D00
+        public void m_7CA(){} // RVA: 0x19689C0
     }
 
     /// <summary>Originally: ÌÌÍÌÎÍÍÎÏÍÎÎÌÏÏÍÎÏÌÎÏÌÏ</summary>
@@ -495,17 +495,18 @@ namespace VRC.Internal.Generated
     public class Static12m_B567
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x30B0C0
         public void .ctor(){} // RVA: 0x1D5CD10 | overloaded x2
         public void Initialize(){} // RVA: 0x30B0C0
         public void Cleanup(){} // RVA: 0x30B0C0
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void GetTransformChild(){} // RVA: 0x1D5C450
-        public void GetTransformParent(){} // RVA: 0x1D5C530
-        public void GetTransformLocalPosition(){} // RVA: 0x1D5C810
-        public void GetTransformLocalRotation(){} // RVA: 0x1D5CA70
-        public void GetTransformLocalScale(){} // RVA: 0x1D5CB50
-        public void GetTransformRoot(){} // RVA: 0x1D5CC30
+        // ── Unresolved (hash) ──
+        public void m_5B9(){} // RVA: 0x30B0C0
+        public void m_8E5(){} // RVA: 0x1D5C450
+        public void m_D6A(){} // RVA: 0x1D5C530
+        public void m_F0D(){} // RVA: 0x1D5C810
+        public void m_C8B(){} // RVA: 0x1D5CA70
+        public void m_E36(){} // RVA: 0x1D5CB50
+        public void m_946(){} // RVA: 0x1D5CC30
     }
 
     /// <summary>Originally: ÌÌÌÍÎÍÏÎÌÌÏÏÎÌÎÎÌÎÏÍÎÌÌ</summary>

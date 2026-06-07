@@ -8,13 +8,13 @@
 | Metric | Count | Coverage |
 |--------|------:|----------|
 | Classes (semantic) | 7,813 / 11,503 obfuscated | **67.9%** semantic class names |
-| Methods (named) | 481,698 / 528,135 | **91.2%** semantic |
-| Methods (hash remaining) | 46,437 | 8.8% fallback (m_XXX) |
-| Fields | 2,870 total | runtime extraction pending |
-| cross_version entries | 42,013 | quality-audited |
-| Pipeline runtime | ~22s full run | — |
+| Methods (named) | 478,923 / 528,135 | **90.7%** semantic |
+| Methods (hash remaining) | 49,212 | 9.3% fallback (m_XXX) |
+| Fields | 2,712 / 2,870 typed | runtime extraction pending (main gap) |
+| cross_version entries | 39,623 | quality-audited |
+| Pipeline runtime | ~33s full run | — |
 
-Naming sources: RVA propagation (15.5K), LLM mega-batches (2.8K), sibling-context inference (13.5K), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts. Quality audit removed ~7K low-confidence predictions.
+Naming sources: RVA propagation (15.5K), LLM mega-batches (2.8K), sibling-context inference (13.5K), IDA Hex-Rays pseudocode, metadata strings, cross-version lifts. A full 122-batch quality audit removed ~13.8K low-confidence predictions (precision over raw coverage). Canonical numbers live in `output/coverage_stats.json` (regenerated every pipeline run).
 
 ## Beebyte struct layout (June 5 build)
 
@@ -57,38 +57,42 @@ precise_dump.json (IL2CPP struct extraction from memory dump)
     │
     ▼
 run_full_pipeline.py (orchestrator)
-    ├── Stage 0: Merge all name sources → unified_vocabulary.json (7,918 names)
-    │     Sources: 3 community deob maps + mod mining + SDK + IDA xrefs + manual
+    ├── Stage 0: Merge all name sources → unified_vocabulary.json (44,309 names)
+    │     Sources: community deob maps + mod mining + SDK + IDA xrefs + cross-version + metadata
     │
-    ├── Stage 1: deobfuscate.py (8-phase rename engine)
-    │     vocabulary → string refs → binary analysis → structural → mods → fallback
-    │     Result: 73,510 identifiers renamed
+    ├── Stage 1: deobfuscate.py (11-phase rename engine)
+    │     lifted → compiler artifacts → community → semantic → property → Unity →
+    │     inheritance → cross-ref → shared-method → binary-string → fallback
+    │     Result: 8,434 classes + 108,480 method renames applied
     │
-    ├── Stage 2: Cross-reference (Photon, SDK, structural matches)
-    │     20 high-confidence confirmed matches
+    ├── Stage 2: Cross-reference (Photon, SDK, structural, community)
+    │     high-confidence overrides on weak/fallback names
     │
     ├── Stage 3: Generate outputs
-    │     deobfuscated_dump.json/cs, name_mapping.json, src/ tree (1,137 files)
+    │     deobfuscated_dump.json/cs (RVA), name_mapping.json, src/ tree (1,538 files),
+    │     coverage_stats.json (canonical numbers)
     │
-    └── Stage 4: Generate IDA scripts (133K renames)
+    └── Stage 4: Generate IDA rename script (226,911 function renames)
 ```
 
 ## Directory Structure
 
 ```
-├── tools/              52 scripts (39 Python + 13 JavaScript)
+├── tools/              188 scripts (170 Python + 18 JavaScript)
 │   ├── Core Pipeline       run_full_pipeline.py, deobfuscate.py, quick_update.py
-│   ├── Extraction          extract_precise_dump.py, deep_binary_analysis.py
-│   ├── Community           match_community_maps.py, deep_mine_v3.py
-│   ├── Runtime/Frida       bridge.py/js, vrc_frida_lib.js, frida_auto_gohome.py
+│   ├── Extraction          extract_precise_dump.py, reverse_struct_layout.py
+│   ├── Cross-version       lift_*.py (body-hash, vtable, typedef-token lifts)
+│   ├── LLM naming          codex_worker.py, build_audit_batches.py, apply_audit_results.py
+│   ├── Runtime/Frida       bridge.py/js, vrc_frida_lib.js, extract_field_types_v2.py
 │   ├── Auth/Tracing        trace_auth_flow.js, hook_eos_anticheat.js
 │   └── Patching            patch_ga_binary.py, deploy_to_steam.py
 │
 ├── output/             Final products
-│   ├── src/                1,137 deobfuscated C# source files
-│   │   ├── VRC/                VRChat game code (291 files)
-│   │   ├── ThirdParty/         Libraries: Photon, BestHTTP, etc (754 files)
-│   │   └── Global/             Global namespace (93 files)
+│   ├── src/                1,538 deobfuscated C# source files (RVA-annotated)
+│   │   ├── VRC/                VRChat game code (397 files)
+│   │   ├── ThirdParty/         Libraries: Photon, BestHTTP, etc (956 files)
+│   │   └── Global/             Global namespace (182 files)
+│   ├── coverage_stats.json    Canonical coverage numbers (regenerated per run)
 │   ├── *.json              Mappings, vocabulary, analysis results
 │   └── *.md                Coverage report, protocol analysis, EAC analysis
 │
@@ -103,14 +107,16 @@ run_full_pipeline.py (orchestrator)
 
 ## Obfuscation: Beebyte
 
-Beebyte Obfuscator renames identifiers to `ÌÍÎÏ` strings (U+00CC-00CF) and **modifies IL2CPP struct layout**:
+Beebyte Obfuscator renames identifiers to `ÌÍÎÏ` strings (U+00CC-00CF) and **shuffles
+the `Il2CppClass`/`FieldInfo`/`MethodInfo` field layout every release** (see the offset
+table above for the June 5 values vs prior builds). Key invariants:
 
-| Field | Beebyte Offset | Standard Offset |
-|-------|---------------|-----------------|
-| FieldInfo | +0xA0 | +0x88 |
-| field_count | +0x124 | +0x122 |
-| MethodInfo code ptr | +0x00 & +0x08 (dup) | +0x00 |
-| IL2CPP exports | 264 total, only 3 unobfuscated | — |
+| Property | Value |
+|----------|-------|
+| Obfuscated identifier regex | `^[Ì-Ï]{3,}$` |
+| IL2CPP exports | 264 total, only 3 keep their real names |
+| Struct layout | re-discovered per build via `reverse_struct_layout.py` |
+| `global-metadata.dat` | XOR-encrypted (see Metadata Decryption below) |
 
 ## Network Layer
 

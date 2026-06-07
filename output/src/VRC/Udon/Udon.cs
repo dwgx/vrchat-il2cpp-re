@@ -474,34 +474,36 @@ namespace VRC.Udon
     public class UdonOperationResponseDiscRelated_61A5
     {
         // ── Methods ──
-        public void get_featured(){} // RVA: 0x283FA0
-        public void set_featured(){} // RVA: 0x283FA0
         public void Awake(){} // RVA: 0x24A50
-        public void InitializeCollection(){} // RVA: 0x24A50
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void Dispose(){} // RVA: 0x25130
-        public void TryCopyTo_D2EAFFAB233D(){} // RVA: 0x283FA0
         public void OnDestroy(){} // RVA: 0x24A50
-        public void Clear(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
         public void Initialize(){} // RVA: 0xCD60
+        // ── Unresolved (hash) ──
+        public void m_43F(){} // RVA: 0x283FA0
+        public void m_582(){} // RVA: 0x283FA0
+        public void m_BFE(){} // RVA: 0x24A50
+        public void m_3D3(){} // RVA: 0x283FA0
+        public void m_2AB(){} // RVA: 0x25130
+        public void m_D2E(){} // RVA: 0x283FA0
+        public void m_25A(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÎÎÏÎÎÌÏÌÎÌÎÍÎÌÏÍÏÎÎÏÎÏÌ</summary>
     public class UdonOperationResponseDiscRelated_61A5
     {
         // ── Methods ──
-        public void get_featured(){} // RVA: 0x173F990
-        public void set_featured(){} // RVA: 0x173EC00
         public void Awake(){} // RVA: 0x50959F0
-        public void InitializeCollection(){} // RVA: 0x24A50
-        public void TryCopyTo(){} // RVA: 0x5095A30
-        public void Dispose(){} // RVA: 0x5095B40
-        public void TryCopyTo_D2EAFFAB233D(){}
         public void OnDestroy(){} // RVA: 0x5095CC0
-        public void Clear(){} // RVA: 0x5095CF0
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x5095D70
+        // ── Unresolved (hash) ──
+        public void m_43F(){} // RVA: 0x173F990
+        public void m_582(){} // RVA: 0x173EC00
+        public void m_BFE(){} // RVA: 0x24A50
+        public void m_3D3(){} // RVA: 0x5095A30
+        public void m_2AB(){} // RVA: 0x5095B40
+        public void m_D2E(){}
+        public void m_25A(){} // RVA: 0x5095CF0
     }
 
     /// <summary>Originally: ÎÍÏÌÏÌÏÌÏÎÌÏÌÍÍÌÎÏÎÌÏÍÍ</summary>
@@ -845,6 +847,7 @@ namespace VRC.Udon
         public void LateUpdate_EB5AEEEC5C65(){} // RVA: 0x1E19630
         public void GetEnabled(){} // RVA: 0x1E19E30
         public void Awake(){} // RVA: 0x1E19E90
+        public void TryCopyTo(){} // RVA: 0x283FA0
         // ── Unresolved (hash) ──
         public void m_540(){} // RVA: 0x1E19640
         public void m_217(){} // RVA: 0x1E196C0
@@ -854,7 +857,6 @@ namespace VRC.Udon
         public void m_076(){} // RVA: 0x1E19A90
         public void m_B05(){} // RVA: 0x30B0C0
         public void m_A85(){} // RVA: 0x1E1A140
-        public void m_49F(){} // RVA: 0x283FA0
     }
 
     /// <summary>Originally: ÍÏÎÍÌÍÍÍÌÍÎÏÏÌÏÎÌÎÌÏÌÏÎ</summary>

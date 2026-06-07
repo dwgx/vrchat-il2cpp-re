@@ -116,17 +116,17 @@ namespace VRC.Core.Transform
     public class RectTransformDimensionsCh_E817
     {
         // ── Methods ──
-        public void InvokeRectTransformDimensionsChange(){} // RVA: 0x8ECBC40
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8ECBC40
         public void OnRectTransformDimensionsChange(){} // RVA: 0x8ECBCB0
-        public void RefreshRectTransformDimensions(){} // RVA: 0x8ECBC40
         // ── Unresolved (hash) ──
+        public void m_3E7(){} // RVA: 0x8ECBC40
         public void m_EB9(){} // RVA: 0x8ECBC40
         public void m_7FF(){} // RVA: 0x8ECBC40
         public void m_F9B(){} // RVA: 0x8ECBC40
         public void m_D60(){} // RVA: 0x8ECBC40
         public void m_79D(){} // RVA: 0x8ECBC40
+        public void m_E8B(){} // RVA: 0x8ECBC40
     }
 
     /// <summary>Originally: ÍÏÏÎÎÍÏÎÏÎÌÌÍÎÎÍÏÏÎÎÏÏÏ</summary>

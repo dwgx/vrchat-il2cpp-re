@@ -394,18 +394,19 @@ namespace VRC.Core.Transform
     public class TransformHandler_3C6C
     {
         // ── Methods ──
-        public void GetLocalPosition(){} // RVA: 0x9141750
-        public void GetPosition(){} // RVA: 0x9141BE0
         public void Internal_getHierarchyCount(){} // RVA: 0x9142070
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x9142070
         public void GetLocalRotation(){} // RVA: 0x91420D0
-        public void GetLocalScale(){} // RVA: 0x9142560
-        public void SetLocalScale(){} // RVA: 0x91429F0
-        public void SetLocalRotation(){} // RVA: 0x9142E80
-        public void SetRotation(){} // RVA: 0x9143190
-        public void InitializeTransformDefaults(){} // RVA: 0x9143620
-        public void InitializeTransformDefaults_88187BFC2E09(){} // RVA: 0x9143680
+        // ── Unresolved (hash) ──
+        public void m_239(){} // RVA: 0x9141750
+        public void m_7D4(){} // RVA: 0x9141BE0
+        public void m_59D(){} // RVA: 0x9142560
+        public void m_FE7(){} // RVA: 0x91429F0
+        public void m_334(){} // RVA: 0x9142E80
+        public void m_AB2(){} // RVA: 0x9143190
+        public void m_B0E(){} // RVA: 0x9143620
+        public void m_881(){} // RVA: 0x9143680
     }
 
     /// <summary>Originally: ÏÎÌÏÎÌÎÌÎÏÍÎÎÎÏÍÌÌÍÌÍÌÍ</summary>
@@ -643,13 +644,14 @@ namespace VRC.Core.Transform
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0xCAE2A0
         public void GetTime(){} // RVA: 0xCAE4F0
-        public void GetLocalRotation(){} // RVA: 0xCAE740
-        public void SetLocalRotation(){} // RVA: 0xCAE990
-        public void GetWorldRotation(){} // RVA: 0xCAEBE0
-        public void SetWorldRotation(){} // RVA: 0xCAEE30
-        public void GetQuaternion(){} // RVA: 0xCAF080
-        public void SetQuaternion(){} // RVA: 0xCAF2D0
-        public void UpdateRotation(){} // RVA: 0xCAF520
+        // ── Unresolved (hash) ──
+        public void m_437(){} // RVA: 0xCAE740
+        public void m_A96(){} // RVA: 0xCAE990
+        public void m_4FB(){} // RVA: 0xCAEBE0
+        public void m_396(){} // RVA: 0xCAEE30
+        public void m_F61(){} // RVA: 0xCAF080
+        public void m_50C(){} // RVA: 0xCAF2D0
+        public void m_0E1(){} // RVA: 0xCAF520
     }
 
     /// <summary>Originally: ÏÎÍÏÏÏÍÏÌÏÌÍÍÏÍÍÌÎÎÍÍÌÍ</summary>

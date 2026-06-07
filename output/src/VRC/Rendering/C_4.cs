@@ -996,11 +996,12 @@ namespace VRC.Rendering
         public void PublishStateAndLoadLiteral(){} // RVA: 0x283FA0
         public void Start(){} // RVA: 0x24A50
         public void TryCopyTo(){} // RVA: 0x283FA0
-        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void GetAndClearFloatingPointExceptions(){} // RVA: 0x24A50
         public void GetAndClearFloatingPointExceptions_3B0CDCB7ACF9(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
+        // ── Unresolved (hash) ──
+        public void m_AC7(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÎÍÍÏÍÌÎÍÌÍÍÍÎÍÍÎÍÎÏÎÍÎÌ</summary>
@@ -1010,11 +1011,12 @@ namespace VRC.Rendering
         public void PublishStateAndLoadLiteral(){} // RVA: 0xD8A610
         public void Start(){} // RVA: 0x506CF70
         public void TryCopyTo(){} // RVA: 0x506D1D0
-        public void MemSet(){} // RVA: 0x506D4E0
         public void Clear(){} // RVA: 0x506D5B0
         public void GetAndClearFloatingPointExceptions(){} // RVA: 0x506D660
         public void GetAndClearFloatingPointExceptions_3B0CDCB7ACF9(){} // RVA: 0x506D6E0
         public void .ctor(){} // RVA: 0x506D770
+        // ── Unresolved (hash) ──
+        public void m_AC7(){} // RVA: 0x506D4E0
     }
 
     /// <summary>Originally: ÎÎÎÎÎÏÌÎÍÌÎÎÏÌÎÌÎÌÏÏÏÏÌ</summary>

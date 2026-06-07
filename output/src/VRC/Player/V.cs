@@ -48,16 +48,16 @@ namespace VRC.Player
         public void System.Collections.ICollection.get_IsSynchronized_42C14B6DC8EA(){} // RVA: 0x2DD320
         public void Equals_99120F5FA67E(){} // RVA: 0x343E80
         public void CancelInvoke_2F534F6E28CD(){} // RVA: 0x300D80
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xB2D240
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly_11587A573D32(){} // RVA: 0x3C2850
-        public void RemoveAt(){} // RVA: 0xB2D4E0
         public void Cleanup(){} // RVA: 0x30B0C0
         // ── Unresolved (hash) ──
         public void m_222(){} // RVA: 0xB2D200
+        public void m_56E(){} // RVA: 0xB2D240
         public void m_A08(){} // RVA: 0xB2D280
         public void m_E4C(){} // RVA: 0xB2D2C0
         public void m_DCC(){} // RVA: 0xB2D300
         public void m_A89(){} // RVA: 0xB2D450
+        public void m_B92(){} // RVA: 0xB2D4E0
     }
 
     /// <summary>Originally: ÎÎÏÌÌÏÍÎÍÏÏÌÎÏÎÌÌÍÍÌÍÎÌ</summary>
@@ -97,7 +97,7 @@ namespace VRC.Player
         // ── Unresolved (hash) ──
         public void m_716(){} // RVA: 0xCD60
         public void m_B4E(){}
-        public void m_959(){} // RVA: 0x24A50
+        public void m_DD8(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÎÌÌÍÌÍÍÍÌÎÍÌÎÍÌÎÏÌÏÎÏÌÌ</summary>

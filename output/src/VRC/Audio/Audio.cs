@@ -294,13 +294,13 @@ namespace VRC.Audio
         public void OnEnable(){} // RVA: 0x491CD0
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x491D80
-        public void InitializeAmbisonicSource(){} // RVA: 0x4921B0
-        public void InitializeAmbisonicSource_CA72A33FA256(){} // RVA: 0x4922B0
-        public void InitializeFromAudioClip(){} // RVA: 0x4923B0
-        public void InitializeFromAudioSource(){} // RVA: 0x492630
         // ── Unresolved (hash) ──
         public void m_3F5(){} // RVA: 0x491E80
         public void m_95F(){} // RVA: 0x491F30
+        public void m_C9E(){} // RVA: 0x4921B0
+        public void m_CA7(){} // RVA: 0x4922B0
+        public void m_659(){} // RVA: 0x4923B0
+        public void m_9A0(){} // RVA: 0x492630
         public void m_A74(){} // RVA: 0x4926E0
     }
 

@@ -739,7 +739,6 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
-    public void TryCopyTo(){} // RVA: 0x283FA0
     public void Equals(){} // RVA: 0x24B10
     public void .ctor(){} // RVA: 0x24A50
     public void Initialize(){} // RVA: 0xDBE0
@@ -748,6 +747,7 @@ public class <>c
     public void set_name(){} // RVA: 0xDBE0
     public void Instantiate(){} // RVA: 0xDBE0
     // ── Unresolved (hash) ──
+    public void m_D6E(){} // RVA: 0x283FA0
     public void m_F06(){} // RVA: 0xDBE0
     public void m_1B4(){} // RVA: 0xDBE0
 }

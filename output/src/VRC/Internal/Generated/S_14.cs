@@ -26,17 +26,17 @@ namespace VRC.Internal.Generated
     public class Static10m_16F8
     {
         // ── Methods ──
-        public void set_Value_7E6(){} // RVA: 0x965E90
-        public void get_Value(){} // RVA: 0x965EF0
-        public void get_Value_5A3(){} // RVA: 0x965EF0
-        public void get_Value_5AE(){} // RVA: 0x965EF0
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x965E90
         public void set_Value(){} // RVA: 0x965E90
-        public void set_Value_7EE(){} // RVA: 0x965E90
-        public void get_Value_A4D(){} // RVA: 0x965EF0
         // ── Unresolved (hash) ──
         public void m_540(){} // RVA: 0x965E90
+        public void m_7E6(){} // RVA: 0x965E90
+        public void m_998(){} // RVA: 0x965EF0
+        public void m_5A3(){} // RVA: 0x965EF0
+        public void m_5AE(){} // RVA: 0x965EF0
+        public void m_7EE(){} // RVA: 0x965E90
+        public void m_A4D(){} // RVA: 0x965EF0
     }
 
     /// <summary>Originally: ÍÎÎÌÎÌÎÎÏÎÎÌÎÍÏÏÎÌÌÎÍÏÍ</summary>
@@ -184,16 +184,16 @@ namespace VRC.Internal.Generated
         // ── Methods ──
         public void Awake(){} // RVA: 0x8D1C650
         public void OnDestroy(){} // RVA: 0x30B0C0
-        public void get_Value(){} // RVA: 0x30B0C0
         public void Cleanup(){} // RVA: 0x30B0C0
-        public void get_Data(){} // RVA: 0x30B0C0
         public void Start(){} // RVA: 0x8D1CA10
         public void .ctor(){} // RVA: 0x2DDD50
         // ── Unresolved (hash) ──
         public void m_C9E(){} // RVA: 0x8D1C530
         public void m_78F(){} // RVA: 0x8D1C6E0
         public void m_6F5(){} // RVA: 0x8D1C7D0
+        public void m_72C(){} // RVA: 0x30B0C0
         public void m_7FD(){} // RVA: 0x8D1C860
+        public void m_5FE(){} // RVA: 0x30B0C0
         public void m_6B3(){} // RVA: 0x8D1C8F0
     }
 

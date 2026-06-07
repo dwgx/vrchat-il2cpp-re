@@ -245,31 +245,31 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Current(){} // RVA: 0x1968950
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void MoveNext(){} // RVA: 0x1968950
-        public void set_Key(){} // RVA: 0x1AD4690
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
+        public void m_7AE(){} // RVA: 0x1968950
+        public void m_B99(){} // RVA: 0x1AD4690
+        public void m_E2D(){} // RVA: 0x19689C0
         public void m_F8F(){} // RVA: 0x1968950
         public void m_6B9(){} // RVA: 0x1968950
+        public void m_9AD(){} // RVA: 0x1AD4690
+        public void m_926(){} // RVA: 0x100A2F0
     }
 
     /// <summary>Originally: ÎÍÎÍÍÏÍÌÍÌÌÏÌÎÌÎÌÎÍÌÌÌÎ</summary>
     public class poolSizeSibling_81B1
     {
         // ── Methods ──
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
-        public void get_Value(){} // RVA: 0x1AD4690
+        public void get_Current(){} // RVA: 0x19689C0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Current(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x1968950
         public void get_Key(){} // RVA: 0x1AD4690
         public void SKIP(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
+        public void m_B99(){} // RVA: 0x1AD4690
+        public void m_9AD(){} // RVA: 0x1AD4690
         public void m_BF7(){} // RVA: 0x19689C0
         public void m_E49(){} // RVA: 0x1968950
         public void m_DEB(){} // RVA: 0x1968950

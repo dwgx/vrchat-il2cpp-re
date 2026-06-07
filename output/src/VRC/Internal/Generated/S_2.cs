@@ -60,15 +60,16 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void InvokeVirtualPropertyGetter_BFE2F870FCF3(){} // RVA: 0x570B40
-        public void InvokeVirtualPropertySetter(){} // RVA: 0x570B30
-        public void get_Value(){} // RVA: 0xB84DD0
-        public void get_IsUndefined(){} // RVA: 0xB84FE0
         public void get_IsNull(){} // RVA: 0xB84FF0
-        public void CreatePropertyGetter(){} // RVA: 0x570B20
-        public void get_IsNullOrUndefined(){} // RVA: 0xB85000
-        public void CreatePropertySetter(){} // RVA: 0x570B20
-        public void GetValue(){} // RVA: 0xB85210
         public void .ctor(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_212(){} // RVA: 0x570B30
+        public void m_645(){} // RVA: 0xB84DD0
+        public void m_51A(){} // RVA: 0xB84FE0
+        public void m_AA7(){} // RVA: 0x570B20
+        public void m_10D(){} // RVA: 0xB85000
+        public void m_16F(){} // RVA: 0x570B20
+        public void m_BA8(){} // RVA: 0xB85210
     }
 
     /// <summary>Originally: ÌÌÍÎÎÏÏÍÍÌÌÌÏÏÎÍÏÏÏÍÏÎÏ</summary>
@@ -478,13 +479,13 @@ namespace VRC.Internal.Generated
         public void RemoveAt(){} // RVA: 0x24FA0
         public void Clear(){} // RVA: 0x24A50
         public void RemoveAt_8CCF05738E4D(){} // RVA: 0x24FA0
-        public void MemSet(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
         public void m_F8C(){} // RVA: 0xCD60
         public void m_FC3(){} // RVA: 0x24B10
         public void m_624(){} // RVA: 0xCD60
         public void m_703(){} // RVA: 0xCD60
         public void m_FD5(){} // RVA: 0x25130
+        public void m_FA5(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÌÌÍÎÎÌÏÏÍÍÌÏÏÎÍÎÏÏÎÏÌÌÎ</summary>
@@ -589,11 +590,9 @@ namespace VRC.Internal.Generated
         public void MoveNext(){} // RVA: 0xEB1E40
         public void Cleanup(){} // RVA: 0x30B0C0
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void get_Value(){} // RVA: 0x30B0C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void .ctor(){} // RVA: 0xEB2740
         public void Initialize(){} // RVA: 0x2F8380
-        public void get_Data(){} // RVA: 0x30B0C0
         public void Equals(){} // RVA: 0x343E80
         public void Equals_5ED3CF9FE3E6(){} // RVA: 0x343E80
         public void get_Current(){} // RVA: 0x2F8380
@@ -601,6 +600,8 @@ namespace VRC.Internal.Generated
         public void m_F44(){} // RVA: 0xEB21B0
         public void m_E59(){} // RVA: 0xEB21C0
         public void m_A13(){} // RVA: 0xEB23D0
+        public void m_CA3(){} // RVA: 0x30B0C0
+        public void m_C4A(){} // RVA: 0x30B0C0
         public void m_624(){} // RVA: 0xEB21B0
         public void m_29A(){} // RVA: 0xEB2800
         public void m_A38(){} // RVA: 0x30B0C0
@@ -617,6 +618,7 @@ namespace VRC.Internal.Generated
         public void ConvertAll_4A19CC5DAF06(){} // RVA: 0xCE10
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void Dispose(){} // RVA: 0x25130
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void AwaitUnsafeOnCompleted_D3DA183BDC2C(){} // RVA: 0x2DC60
         public void CreateCollection(){} // RVA: 0x2F090
@@ -626,7 +628,6 @@ namespace VRC.Internal.Generated
         // ── Unresolved (hash) ──
         public void m_F63(){} // RVA: 0x24B10
         public void m_ED3(){} // RVA: 0x24B10
-        public void m_CA7(){} // RVA: 0x24A50
         public void m_5A7(){} // RVA: 0xCD60
     }
 
@@ -1077,7 +1078,7 @@ namespace VRC.Internal.Generated
         public void MemSet(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x283FA0
         // ── Unresolved (hash) ──
-        public void m_457(){} // RVA: 0x24A50
+        public void m_B21(){} // RVA: 0x24A50
         public void m_470(){} // RVA: 0x24A50
         public void m_4CA(){} // RVA: 0x24A50
         public void m_E07(){} // RVA: 0x24A50
@@ -1089,10 +1090,10 @@ namespace VRC.Internal.Generated
         // ── Methods ──
         public void InitializeCollection(){} // RVA: 0x4ECA190
         public void Clear(){} // RVA: 0x4ECA3E0
-        public void MemSet(){} // RVA: 0x4ECA630
+        public void MemSet(){} // RVA: 0x4ECA880
         public void .ctor(){} // RVA: 0x18AABB0
         // ── Unresolved (hash) ──
-        public void m_457(){} // RVA: 0x4ECA880
+        public void m_B21(){} // RVA: 0x4ECA630
         public void m_470(){} // RVA: 0x4ECAAD0
         public void m_4CA(){} // RVA: 0x4ECAD20
         public void m_E07(){} // RVA: 0x4ECAF70

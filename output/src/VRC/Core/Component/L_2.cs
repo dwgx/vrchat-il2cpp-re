@@ -531,8 +531,9 @@ namespace VRC.Core.Component
         // ── Methods ──
         public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void GetEnumerator(){} // RVA: 0xCD60
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
+        // ── Unresolved (hash) ──
+        public void m_624(){} // RVA: 0xCD60
+        public void m_352(){} // RVA: 0xCD60
     }
 
 }

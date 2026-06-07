@@ -190,14 +190,14 @@ namespace VRC.Misc
     public class QuaternionHandler_7BFF
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0xB8FF80
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0xB90410
-        public void SetBoxedValue(){} // RVA: 0xB90670
-        public void CopyValueTo(){} // RVA: 0xB908A0
         public void GetBoxedValue(){} // RVA: 0xB90D30
         // ── Unresolved (hash) ──
+        public void m_362(){} // RVA: 0xB8FF80
         public void m_1F2(){} // RVA: 0xB901B0
+        public void m_5DE(){} // RVA: 0xB90670
+        public void m_285(){} // RVA: 0xB908A0
         public void m_AA1(){} // RVA: 0xB90AD0
         public void m_9AD(){} // RVA: 0xB90F90
         public void m_096(){} // RVA: 0xB911F0

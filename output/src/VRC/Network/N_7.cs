@@ -20,15 +20,15 @@ namespace VRC.Network
     public class NetworkItemSibling_FEF9SiblingSibling_42E9
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void get_Current(){} // RVA: 0x1AD4690
         public void get_Key(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
-        public void System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_Current(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
+        public void m_D4B(){} // RVA: 0x100A2F0
+        public void m_981(){} // RVA: 0x1AD4690
+        public void m_746(){} // RVA: 0x1AD4690
+        public void m_F89(){} // RVA: 0x1AD4690
         public void m_4DC(){} // RVA: 0x1AD4690
+        public void m_101(){} // RVA: 0x1AD4690
         public void m_8D9(){} // RVA: 0x1AD4690
     }
 

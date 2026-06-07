@@ -157,8 +157,6 @@ namespace VRC.Animation
         // ── Methods ──
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void get_IsReadOnly_4C6B1F781EC1(){} // RVA: 0xDBE0
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
         public void get_IsReadOnly_209BA13D93D8(){} // RVA: 0xDBE0
         public void get_Count(){} // RVA: 0xD840
         public void get_Count_6C04F4B6B9D2(){} // RVA: 0xD840
@@ -172,6 +170,8 @@ namespace VRC.Animation
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void AwaitUnsafeOnCompleted_DD7377DBE82C(){} // RVA: 0x2DC60
         // ── Unresolved (hash) ──
+        public void m_149(){} // RVA: 0xCD60
+        public void m_3F3(){} // RVA: 0xCD60
         public void m_60B(){} // RVA: 0xCD60
         public void m_2E2(){} // RVA: 0xCD60
         public void m_BCF(){} // RVA: 0xCD60
@@ -372,7 +372,6 @@ namespace VRC.Animation
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void get_Count_3AB542555433(){} // RVA: 0xD840
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void Add(){} // RVA: 0x24B10
         public void get_Count_9C8A269DFE20(){} // RVA: 0xD840
@@ -393,23 +392,23 @@ namespace VRC.Animation
         public void get_Count_9C36C59F1DEC(){} // RVA: 0xD840
         public void get_Count_F8346C6453CE(){} // RVA: 0xD840
         public void get_Count_BDA77262C473(){} // RVA: 0xD840
-        // ── 26 unresolved (hash) ──
+        // ── 27 unresolved (hash) ──
         public void m_537(){} // RVA: 0xCD60
         public void m_60B(){} // RVA: 0xCD60
         public void m_346(){} // RVA: 0xCD60
         public void m_1E6(){} // RVA: 0xCD60
         public void m_E4E(){} // RVA: 0xCD60
-        // ... 21 more unresolved methods
+        // ... 22 more unresolved methods
     }
 
     /// <summary>Originally: ÍÍÏÍÎÍÌÎÎÌÏÍÎÍÎÎÌÌÌÏÏÏÌ</summary>
     public class AnimatedTextureBaseImpl_0682SiSibling_39B0
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
         public void GetEnumerator(){} // RVA: 0xCD60
         // ── Unresolved (hash) ──
+        public void m_E21(){} // RVA: 0xCD60
+        public void m_51F(){} // RVA: 0xCD60
         public void m_FE0(){} // RVA: 0xCD60
         public void m_AE2(){} // RVA: 0xCD60
         public void m_D2F(){} // RVA: 0xCD60
@@ -554,7 +553,6 @@ namespace VRC.Animation
         public void CreateCollection_CB7D491B976B(){} // RVA: 0x2F090
         public void Return(){} // RVA: 0x2A620
         public void InitializeCollection(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void Add(){} // RVA: 0x24B10
         public void Clear(){} // RVA: 0x24A50
@@ -569,13 +567,13 @@ namespace VRC.Animation
         public void get_Count_BDA77262C473(){} // RVA: 0xD840
         public void get_Count_109B935B43B7(){} // RVA: 0xD840
         public void Remove_281BC4E944EA(){} // RVA: 0xDE40
-        // ── 31 unresolved (hash) ──
+        // ── 32 unresolved (hash) ──
         public void m_C2A(){} // RVA: 0xCD60
         public void m_60B(){} // RVA: 0xCD60
         public void m_0E5(){} // RVA: 0xCD60
         public void m_6CD(){} // RVA: 0xCD60
         public void m_9CA(){} // RVA: 0xCD60
-        // ... 26 more unresolved methods
+        // ... 27 more unresolved methods
     }
 
     /// <summary>Originally: ÎÎÏÌÌÎÏÏÍÌÎÌÍÌÎÍÎÌÌÍÎÏÌ</summary>
@@ -696,10 +694,10 @@ namespace VRC.Animation
         public void get_Current(){} // RVA: 0xC770
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void GetEnumerator(){} // RVA: 0xCD60
-        public void MemSet(){} // RVA: 0x24A50
         public void Add(){} // RVA: 0x24B10
         public void Return(){} // RVA: 0x2A620
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void AwaitUnsafeOnCompleted_42799FD86C28(){} // RVA: 0x2DC60
         // ── 40 unresolved (hash) ──
@@ -811,21 +809,21 @@ namespace VRC.Animation
         // ── Methods ──
         public void get_Item(){} // RVA: 0x1BCC0
         public void GetEnumerator(){} // RVA: 0xCD60
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void Remove(){} // RVA: 0xDE40
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void Remove_3BF89F9CB131(){} // RVA: 0xDE40
         public void GetHashCode(){} // RVA: 0x12590 | overloaded x5
-        public void set_Item(){} // RVA: 0x24B10
-        public void InitializeCollection(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void Add(){} // RVA: 0x24B10
+        public void MemSet(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
+        public void m_A7D(){} // RVA: 0xCD60
         public void m_B89(){}
+        public void m_51B(){} // RVA: 0x24B10
+        public void m_BE1(){} // RVA: 0x24A50
+        public void m_D70(){} // RVA: 0x24A50
         public void m_DE1(){} // RVA: 0x24B10
         public void m_B55(){} // RVA: 0x24B10
-        public void m_714(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÎÍÏÏÏÌÎÎÎÎÏÎÌÍÌÎÍÎÎÎÍÏÍ</summary>
@@ -1062,12 +1060,8 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void GetCachedPtr(){} // RVA: 0x9773F0
-        public void Find(){} // RVA: 0x9E99B0
-        public void SetArrayElementValue(){} // RVA: 0xF00820
-        public void GetCachedPtr_6A54A15EED55(){} // RVA: 0xF26790
-        public void get_Value(){} // RVA: 0xF26820
         public void GetCachedPtr_108FC716D594(){} // RVA: 0x9773F0
-        public void get_Value_A9C5D89322C5(){} // RVA: 0x977410
+        public void get_Value(){} // RVA: 0x977410
         public void get_Stats(){} // RVA: 0x9B8470
         public void SetItem_51059F80870B(){} // RVA: 0x977030
         public void .ctor(){} // RVA: 0xF26930
@@ -1076,11 +1070,15 @@ namespace VRC.Animation
         public void SetItem_51059F80870B_9124C81C284A(){} // RVA: 0x977030
         public void SwapIfGreater(){} // RVA: 0x9B85D0
         public void get_Stats_71FFD8DBD88F(){} // RVA: 0x9B8470
-        public void InitializeSparseHashTable(){} // RVA: 0x9E9990
         public void get_CallingAssembly_1E6F04D98852(){} // RVA: 0x977430
         public void get_Value_0A10B88D7DBD(){} // RVA: 0x977410
         // ── Unresolved (hash) ──
+        public void m_5C1(){} // RVA: 0x9E99B0
+        public void m_52B(){} // RVA: 0xF00820
         public void m_535(){} // RVA: 0xF00820
+        public void m_6A5(){} // RVA: 0xF26790
+        public void m_585(){} // RVA: 0xF26820
+        public void m_A7F(){} // RVA: 0x9E9990
     }
 
     /// <summary>Originally: ÎÌÌÌÏÌÍÎÎÌÌÏÌÌÏÎÌÍÌÌÍÎÎ</summary>
@@ -1088,14 +1086,14 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xCD60
-        public void AddRange(){} // RVA: 0xC770
         public void get_Current(){} // RVA: 0xC770
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_Item(){} // RVA: 0xCD60
         public void get_IsReadOnly_0D60929D1D22(){} // RVA: 0xDBE0
         public void Clear(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
+        public void m_228(){} // RVA: 0xC770
+        public void m_E4E(){} // RVA: 0xCD60
+        public void m_61C(){} // RVA: 0xCD60
         public void m_7F0(){} // RVA: 0xCD60
         public void m_5B5(){} // RVA: 0xCD60
         public void m_C0B(){} // RVA: 0xCD60
@@ -1389,15 +1387,15 @@ namespace VRC.Animation
     public class AnimatedTextureBaseImpl_0682SiSibling_E36B
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_Count(){} // RVA: 0xD840
         public void get_Item(){} // RVA: 0xCD60
         public void get_Count_18EC0626336C(){} // RVA: 0xD840
-        public void System.Collections.Generic.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
         public void get_Count_52BB0D8C8439(){} // RVA: 0xD840
         public void get_Current(){} // RVA: 0xC770
         // ── Unresolved (hash) ──
+        public void m_537(){} // RVA: 0xCD60
+        public void m_E08(){} // RVA: 0xCD60
         public void m_71F(){} // RVA: 0xCD60
         public void m_F9A(){} // RVA: 0xCD60
         public void m_5C1(){} // RVA: 0xCD60
@@ -2472,16 +2470,17 @@ namespace VRC.Animation
     public class AnimationAnimationCurveHandler_4946
     {
         // ── Methods ──
-        public void ForwardXCurve(){} // RVA: 0xCA1410
-        public void ForwardYCurve(){} // RVA: 0xCA1610
-        public void ForwardZCurve(){} // RVA: 0xCA16B0
-        public void UpXCurve(){} // RVA: 0xCA1990
-        public void UpYCurve(){} // RVA: 0xCA1A30
-        public void UpZCurve(){} // RVA: 0xCA1C30
         public void SetKeys(){} // RVA: 0xCA1E30
         public void OrthoNormalize2(){} // RVA: 0xCA2030
         public void UpdateRotation(){} // RVA: 0xCA2230
         public void .ctor(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_F78(){} // RVA: 0xCA1410
+        public void m_B3B(){} // RVA: 0xCA1610
+        public void m_3FF(){} // RVA: 0xCA16B0
+        public void m_CC4(){} // RVA: 0xCA1990
+        public void m_5F8(){} // RVA: 0xCA1A30
+        public void m_D08(){} // RVA: 0xCA1C30
     }
 
     /// <summary>Originally: ÍÍÏÏÏÍÌÎÏÏÌÌÏÍÏÍÎÌÌÌÎÏÎ</summary>
@@ -2570,10 +2569,8 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void SetFloatString(){} // RVA: 0x1FE5890
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void set_mode(){} // RVA: 0x833580
-        public void get_Value(){} // RVA: 0x2DEE30
         public void get_Current(){} // RVA: 0x2F8380
         public void MoveNext(){} // RVA: 0x1968950
         public void SetFloatString_22AFF8CB038B(){} // RVA: 0x1FE58E0
@@ -2581,7 +2578,9 @@ namespace VRC.Animation
         public void SetFloatString_CD87428B9DB8(){} // RVA: 0x1FE5930
         public void GetHashCode(){} // RVA: 0x19689B0
         // ── Unresolved (hash) ──
+        public void m_271(){} // RVA: 0x19689C0
         public void m_87F(){} // RVA: 0x1968950
+        public void m_9C3(){} // RVA: 0x2DEE30
         public void m_848(){} // RVA: 0x2DEE30
         public void m_417(){} // RVA: 0x19689C0
         public void m_82C(){} // RVA: 0x2DEE30
@@ -2644,8 +2643,8 @@ namespace VRC.Animation
         public void get_Current_E95830D67830(){} // RVA: 0x1B061B0
         public void get_Current(){} // RVA: 0x1B06280
         public void MoveNext(){} // RVA: 0x1B06470
-        public void set_Value(){} // RVA: 0x1B064C0
-        public void set_Entry(){} // RVA: 0x1B06510
+        public void set_Entry(){} // RVA: 0x1B064C0
+        public void set_Value(){} // RVA: 0x1B06510
         public void get_Value(){} // RVA: 0x1B065B0
         public void get_Entry(){} // RVA: 0x1B06680
         // ── Unresolved (hash) ──

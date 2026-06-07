@@ -1001,13 +1001,13 @@ namespace VRC.Rendering
     public class CameraTimeHandler_1097
     {
         // ── Methods ──
-        public void FindLastIndexInRange(){} // RVA: 0x1918910
-        public void FindLastIndex(){} // RVA: 0x1918A40
-        public void FindLastIndexInRange_E79A1713D584(){} // RVA: 0x1918B70
-        public void FindLastIndex_09C905B4A150(){} // RVA: 0x1918CA0
+        public void FindLastIndexInRange(){} // RVA: 0x1918B70
+        public void FindLastIndex(){} // RVA: 0x1918CA0
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x1918DD0
         // ── Unresolved (hash) ──
+        public void m_985(){} // RVA: 0x1918910
+        public void m_338(){} // RVA: 0x1918A40
         public void m_EE5(){} // RVA: 0x1918F00
     }
 

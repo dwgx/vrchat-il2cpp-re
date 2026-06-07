@@ -29,18 +29,18 @@ namespace VRC.Core.Component
     {
         // ── Methods ──
         public void UpdateComponent(){} // RVA: 0x1E0FF60
-        public void SKIP(){} // RVA: 0x1E10010
         public void Equals(){} // RVA: 0x1E10E70 | overloaded x2
-        public void SKIP_F7423A313A2A(){} // RVA: 0x1E102D0
-        public void SKIP_853C4DCA93DC(){} // RVA: 0x1E104F0
         public void FormatComponentBytes(){} // RVA: 0x1E105A0
         public void FormatComponentBytes_81AA453EC94C(){} // RVA: 0x1E10600
-        public void SKIP_E2FA525D13AA(){} // RVA: 0x1E10880
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void ToString(){} // RVA: 0x1E10D00
         public void InvokeUpdateComponentCallbacks(){} // RVA: 0x1E10E40
         public void GetHashCode(){} // RVA: 0x1E11130
         // ── Unresolved (hash) ──
+        public void m_2F4(){} // RVA: 0x1E10010
+        public void m_F74(){} // RVA: 0x1E102D0
+        public void m_853(){} // RVA: 0x1E104F0
+        public void m_E2F(){} // RVA: 0x1E10880
         public void m_903(){} // RVA: 0x1E10F10
         public void m_FF3(){} // RVA: 0x1E10010
         public void m_D4E(){} // RVA: 0x1E11360

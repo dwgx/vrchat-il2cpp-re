@@ -349,19 +349,19 @@ namespace VRC.Internal.Generated
     public class Static13m_5FAD
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Current(){} // RVA: 0x2F8380
-        public void get_Value(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x1968950
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Key(){} // RVA: 0x1AD4690
         public void set_Value(){} // RVA: 0x2DEE30
         // ── Unresolved (hash) ──
+        public void m_9CB(){} // RVA: 0x100A2F0
         public void m_882(){} // RVA: 0x2DEE30
         public void m_4AE(){} // RVA: 0x1968950
+        public void m_FCE(){} // RVA: 0x1AD4690
         public void m_72A(){} // RVA: 0x1968950
+        public void m_DB2(){} // RVA: 0x2F8380
+        public void m_87E(){} // RVA: 0x19689C0
         public void m_9D0(){} // RVA: 0x2DEE30
     }
 

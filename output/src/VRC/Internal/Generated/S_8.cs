@@ -49,7 +49,7 @@ namespace VRC.Internal.Generated
         public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_670(){} // RVA: 0x24A50
+        public void m_CF3(){} // RVA: 0x24A50
         public void m_6A4(){} // RVA: 0x24A50
         public void m_634(){} // RVA: 0x24A50
         public void m_DAB(){} // RVA: 0x24A50
@@ -202,7 +202,7 @@ namespace VRC.Internal.Generated
         public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_D1C(){} // RVA: 0x24A50
+        public void m_C5B(){} // RVA: 0x24A50
         public void m_5DE(){} // RVA: 0x24A50
         public void m_90E(){} // RVA: 0x24A50
         public void m_4D3(){} // RVA: 0x24A50
@@ -445,17 +445,17 @@ namespace VRC.Internal.Generated
     public class Static12m_491A
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_Current(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void set_ByteBuffer(){} // RVA: 0x1968950
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
+        public void m_D26(){} // RVA: 0x2F8380
+        public void m_A7A(){} // RVA: 0x1AD4690
         public void m_CB5(){} // RVA: 0x2F8380
+        public void m_1CA(){} // RVA: 0x100A2F0
+        public void m_235(){} // RVA: 0x1968950
         public void m_BFD(){} // RVA: 0x2DEE30
         public void m_F4D(){} // RVA: 0x2DEE30
     }
@@ -626,8 +626,6 @@ namespace VRC.Internal.Generated
     public class Static13m_6EAA
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void get_Current(){} // RVA: 0x2F8380
         public void set_compareFunctionBack(){} // RVA: 0x1B06D50
         public void set_compareFunctionBack_92CC418E56CB(){} // RVA: 0x1B06D50
@@ -635,6 +633,8 @@ namespace VRC.Internal.Generated
         public void get_Value(){} // RVA: 0x1B06CA0
         public void set_Value(){} // RVA: 0x2DEE30
         // ── Unresolved (hash) ──
+        public void m_E82(){} // RVA: 0x2F8380
+        public void m_5D1(){} // RVA: 0x100A2F0
         public void m_348(){} // RVA: 0x2F8380
         public void m_90C(){} // RVA: 0x1B06E10
         public void m_0B5(){} // RVA: 0x1B06EB0
@@ -1413,13 +1413,13 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void OnRenderImage(){} // RVA: 0x4918D0
-        public void CreateMaterial(){} // RVA: 0x491AB0
         public void .ctor(){} // RVA: 0x2DDD50
         // ── Unresolved (hash) ──
         public void m_F0B(){} // RVA: 0x491930
         public void m_AF6(){} // RVA: 0x491990
         public void m_652(){} // RVA: 0x4919F0
         public void m_BA4(){} // RVA: 0x491A50
+        public void m_ED7(){} // RVA: 0x491AB0
         public void m_FAA(){} // RVA: 0x491B10
         public void m_BD6(){} // RVA: 0x491B70
     }

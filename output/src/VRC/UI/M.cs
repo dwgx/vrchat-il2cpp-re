@@ -24,16 +24,17 @@ namespace VRC.UI
     public class MaterialUIHandler_C19E
     {
         // ── Methods ──
-        public void InvokeMaterialCallbackWithTwoIdsAndObject(){} // RVA: 0xCF0AE0
-        public void InvokeMaterialCallbackWithIdAndTwoInts(){} // RVA: 0xCF0BA0
-        public void InvokeMaterialCallbackWithVector(){} // RVA: 0xCF0C60
-        public void InvokeMaterialCallbackWithTwoVectors(){} // RVA: 0xCF0D20
-        public void InvokeMaterialCallbackWithObjectAndInt(){} // RVA: 0xCF0DE0
         public void ProcessMaterial(){} // RVA: 0xCF0EA0
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0xCF0F60
-        public void InvokeMaterialCallbackWithIdAndInts(){} // RVA: 0xCF1020
-        public void InvokeMaterialCallbackWithObjectRefAndInt(){} // RVA: 0xCF10E0
+        // ── Unresolved (hash) ──
+        public void m_F62(){} // RVA: 0xCF0AE0
+        public void m_979(){} // RVA: 0xCF0BA0
+        public void m_ECD(){} // RVA: 0xCF0C60
+        public void m_FF1(){} // RVA: 0xCF0D20
+        public void m_0CE(){} // RVA: 0xCF0DE0
+        public void m_DB9(){} // RVA: 0xCF1020
+        public void m_198(){} // RVA: 0xCF10E0
     }
 
     /// <summary>Originally: ÌÎÌÎÏÍÌÎÌÍÏÎÎÍÎÎÌÎÎÎÍÍÎ</summary>

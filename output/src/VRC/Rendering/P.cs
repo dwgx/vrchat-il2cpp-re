@@ -52,10 +52,8 @@ namespace VRC.Rendering
     public class ParticleParticleSystemRendererHandler_8DCE
     {
         // ── Methods ──
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
         public void GetEnabled(){} // RVA: 0x8DBB8A0
         public void GetEnabled_85BBCCB28EA0(){} // RVA: 0x8DBB8C0
-        public void OnCanvasHierarchyChanged_BE438DA96AEC(){} // RVA: 0x3A5500
         public void GetEnabled_86804A1E55FA(){} // RVA: 0x8DBB900
         public void Start(){} // RVA: 0x8DBC160
         public void .ctor(){} // RVA: 0x2DDD50
@@ -64,7 +62,9 @@ namespace VRC.Rendering
         public void GetEnabled_6099C3ED0420(){} // RVA: 0x8DBB8C0
         // ── Unresolved (hash) ──
         public void m_97B(){} // RVA: 0x8DBB870
+        public void m_F58(){} // RVA: 0x3A5500
         public void m_9C3(){} // RVA: 0x11CE800
+        public void m_BE4(){} // RVA: 0x3A5500
         public void m_8E4(){} // RVA: 0x8DBB870
         public void m_910(){} // RVA: 0x8DBBD30
         public void m_537(){} // RVA: 0x8DBB870

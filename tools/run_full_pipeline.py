@@ -963,6 +963,15 @@ def stage3_generate_outputs():
     print(f'\n  [3b] Generating coverage report ...')
     _generate_coverage_report()
 
+    # ── 3c. Canonical Coverage Stats (single source of truth) ─────────
+    print(f'\n  [3c] Computing canonical coverage stats ...')
+    try:
+        sys.path.insert(0, str(TOOLS_DIR))
+        import compute_final_stats
+        compute_final_stats.main()
+    except Exception as e:
+        print(f'    WARN: coverage stats not regenerated: {e}')
+
     print(f'\n  Stage 3 complete.')
     return True
 

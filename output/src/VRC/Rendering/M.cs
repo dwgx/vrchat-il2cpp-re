@@ -40,16 +40,17 @@ namespace VRC.Rendering
     public class MaterialHandler_B1F0
     {
         // ── Methods ──
-        public void GetCachedMaterial(){} // RVA: 0x8C37A80
-        public void CreateMaterial(){} // RVA: 0x8C37B20
         public void GetGlobalIlluminationFlags(){} // RVA: 0x8C37BC0
-        public void GetMaterial(){} // RVA: 0x8C37C60
-        public void GetMaterial_BBC18DD05554(){} // RVA: 0x8C37D00
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x8C37DA0
-        public void CreateMaterialInstance(){} // RVA: 0x8C37E40
-        public void GetMaterialInstance(){} // RVA: 0x8C37EE0
-        public void GetSharedMaterial(){} // RVA: 0x8C37F80
+        // ── Unresolved (hash) ──
+        public void m_239(){} // RVA: 0x8C37A80
+        public void m_89F(){} // RVA: 0x8C37B20
+        public void m_66C(){} // RVA: 0x8C37C60
+        public void m_BBC(){} // RVA: 0x8C37D00
+        public void m_3E4(){} // RVA: 0x8C37E40
+        public void m_EDD(){} // RVA: 0x8C37EE0
+        public void m_5B6(){} // RVA: 0x8C37F80
     }
 
     /// <summary>Originally: ÌÌÎÌÏÍÍÏÌÍÎÍÍÏÏÌÌÌÌÌÏÍÍ</summary>
@@ -318,7 +319,6 @@ namespace VRC.Rendering
     public class MaterialTransformHandler_31A9
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x2DD310
         public void Constructor(){} // RVA: 0x65F560
         public void GetRect(){} // RVA: 0x1514540
         public void GetRect_7CA63C88E9C0(){} // RVA: 0x1514560
@@ -331,13 +331,13 @@ namespace VRC.Rendering
         public void Start(){} // RVA: 0x2DD310
         public void GetRect_244DE9BF0C98(){} // RVA: 0x1514540
         public void SetFloatImpl(){} // RVA: 0x1516120
-        // ── 11 unresolved (hash) ──
+        // ── 12 unresolved (hash) ──
         public void m_DF9(){} // RVA: 0x2DD320
+        public void m_5A2(){} // RVA: 0x2DD310
         public void m_CE1(){} // RVA: 0x2DD310
         public void m_41F(){} // RVA: 0x2DD310
         public void m_147(){} // RVA: 0x2DD310
-        public void m_B71(){} // RVA: 0x2DD320
-        // ... 6 more unresolved methods
+        // ... 7 more unresolved methods
     }
 
     /// <summary>Originally: ÍÌÏÍÏÎÏÎÍÎÏÍÎÏÏÏÏÏÍÎÏÍÍ</summary>

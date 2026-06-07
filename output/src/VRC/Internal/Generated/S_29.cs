@@ -232,11 +232,11 @@ namespace VRC.Internal.Generated
         // ── Methods ──
         public void .ctor(){} // RVA: 0x283FA0 | overloaded x2
         public void Initialize(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
+        public void MemSet(){} // RVA: 0x24A50
         public void TryCopyTo(){} // RVA: 0x283FA0
         // ── Unresolved (hash) ──
-        public void m_FAE(){} // RVA: 0x24A50
+        public void m_6BB(){} // RVA: 0x24A50
         public void m_E66(){} // RVA: 0x24A50
         public void m_2D5(){} // RVA: 0x24A50
         public void m_2B4(){} // RVA: 0x24A50
@@ -302,15 +302,15 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void get_Comparer(){} // RVA: 0x6374D0
-        public void SKIP(){} // RVA: 0x8D3AF50
         public void get_Comparer_CD0D584CDD89(){} // RVA: 0x6374D0
-        public void SKIP_CA72A33FA256(){} // RVA: 0x8D3B010
-        public void SKIP_C30AA4084D87(){} // RVA: 0x8D3B140
-        public void SKIP_FDF2781B3E84(){} // RVA: 0x8D3B270
         public void Start(){} // RVA: 0x8D3B5E0
         public void get_Comparer_067B7C074033(){} // RVA: 0x6374D0
         public void .ctor(){} // RVA: 0x8D3B710
         // ── Unresolved (hash) ──
+        public void m_23A(){} // RVA: 0x8D3AF50
+        public void m_CA7(){} // RVA: 0x8D3B010
+        public void m_C30(){} // RVA: 0x8D3B140
+        public void m_FDF(){} // RVA: 0x8D3B270
         public void m_037(){} // RVA: 0x8D3B330
         public void m_6B3(){} // RVA: 0x8D3B3F0
         public void m_1B5(){} // RVA: 0x8D3B520
@@ -1287,14 +1287,14 @@ namespace VRC.Internal.Generated
     public class Static9m_5F56
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x100A2F0
-        public void get_Current(){} // RVA: 0x100A2F0
-        public void SKIP(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_E7F(){} // RVA: 0x1AD4690
+        public void m_6D4(){} // RVA: 0x100A2F0
+        public void m_726(){} // RVA: 0x100A2F0
+        public void m_BC7(){} // RVA: 0x100A2F0
+        public void m_F3D(){} // RVA: 0x1AD4690
         public void m_DF3(){} // RVA: 0x1AD4690
         public void m_5B9(){} // RVA: 0x100A2F0
     }

@@ -837,7 +837,6 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
-    public void TryCopyTo(){} // RVA: 0xE769A0
     public void .ctor(){} // RVA: 0x2DD310
     public void Initialize(){} // RVA: 0xE76A90
     public void Instantiate(){} // RVA: 0xE76D60
@@ -846,6 +845,7 @@ public class <>c
     public void .cctor(){} // RVA: 0xE77030
     // ── Unresolved (hash) ──
     public void m_367(){} // RVA: 0xE768B0
+    public void m_D6E(){} // RVA: 0xE769A0
     public void m_D84(){} // RVA: 0xE76B80
     public void m_887(){} // RVA: 0xE76C70
 }
@@ -1317,7 +1317,6 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
-    public void TryCopyTo(){} // RVA: 0x3378E20
     public void Equals(){} // RVA: 0x3378E80
     public void .ctor(){} // RVA: 0x2DD310
     public void Initialize(){} // RVA: 0x3379030
@@ -1326,6 +1325,7 @@ public class <>c
     public void set_name(){} // RVA: 0x3379460
     public void Instantiate(){} // RVA: 0x3379510
     // ── Unresolved (hash) ──
+    public void m_D6E(){} // RVA: 0x3378E20
     public void m_F06(){} // RVA: 0x3379290
     public void m_1B4(){} // RVA: 0x33795C0
 }
@@ -1333,7 +1333,6 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
-    public void TryCopyTo(){} // RVA: 0x3378E20
     public void Equals(){} // RVA: 0x3378E80
     public void .ctor(){} // RVA: 0x2DD310
     public void Initialize(){} // RVA: 0x3379030
@@ -1342,6 +1341,7 @@ public class <>c
     public void set_name(){} // RVA: 0x3379460
     public void Instantiate(){} // RVA: 0x3379510
     // ── Unresolved (hash) ──
+    public void m_D6E(){} // RVA: 0x3378E20
     public void m_F06(){} // RVA: 0x3379290
     public void m_1B4(){} // RVA: 0x33795C0
 }
@@ -1349,7 +1349,6 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
-    public void TryCopyTo(){} // RVA: 0x3378E20
     public void Equals(){} // RVA: 0x3378E80
     public void .ctor(){} // RVA: 0x2DD310
     public void Initialize(){} // RVA: 0x3379030
@@ -1358,6 +1357,7 @@ public class <>c
     public void set_name(){} // RVA: 0x3379460
     public void Instantiate(){} // RVA: 0x3379510
     // ── Unresolved (hash) ──
+    public void m_D6E(){} // RVA: 0x3378E20
     public void m_F06(){} // RVA: 0x3379290
     public void m_1B4(){} // RVA: 0x33795C0
 }
@@ -1365,7 +1365,6 @@ public class <>c
 public class <>c
 {
     // ── Methods ──
-    public void TryCopyTo(){} // RVA: 0x3378E20
     public void Equals(){} // RVA: 0x3378E80
     public void .ctor(){} // RVA: 0x2DD310
     public void Initialize(){} // RVA: 0x3379030
@@ -1374,6 +1373,7 @@ public class <>c
     public void set_name(){} // RVA: 0x3379460
     public void Instantiate(){} // RVA: 0x3379510
     // ── Unresolved (hash) ──
+    public void m_D6E(){} // RVA: 0x3378E20
     public void m_F06(){} // RVA: 0x3379290
     public void m_1B4(){} // RVA: 0x33795C0
 }

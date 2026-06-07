@@ -803,24 +803,26 @@ namespace VRC.Animation
         // ── Methods ──
         public void Initialize(){} // RVA: 0xFECC60
         public void StringToHash(){} // RVA: 0xFECCF0
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
-        public void StringToHashInternal(){} // RVA: 0xFECEB0
-        public void ResolveStringToHashDelegate(){} // RVA: 0xFECF90
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0xFED020
         public void .ctor(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_0DE(){} // RVA: 0xFECEB0
+        public void m_E56(){} // RVA: 0xFECF90
+        public void m_7D3(){} // RVA: 0xFED020
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
     public class AnimationHandler_58A4
     {
         // ── Methods ──
-        public void ResolveStringToHashDelegate(){} // RVA: 0x9230CF0
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
-        public void StringToHashInternal(){} // RVA: 0x75B4550
         public void StringToHash(){} // RVA: 0x9230DD0
         public void Initialize(){} // RVA: 0x9230EB0
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x9230F40
         public void .ctor(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_E56(){} // RVA: 0x9230CF0
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_0DE(){} // RVA: 0x75B4550
+        public void m_7D3(){} // RVA: 0x9230F40
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -829,13 +831,13 @@ namespace VRC.Animation
         // ── Methods ──
         public void StringToHash(){} // RVA: 0x9417750 | overloaded x2
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x94172D0
-        public void StringToHashInternal(){} // RVA: 0x94173C0
-        public void ResolveStringToHashDelegate(){} // RVA: 0x94174B0
         public void Initialize(){} // RVA: 0x9417630
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         // ── Unresolved (hash) ──
+        public void m_7D3(){} // RVA: 0x94172D0
+        public void m_0DE(){} // RVA: 0x94173C0
+        public void m_E56(){} // RVA: 0x94174B0
         public void m_DD0(){} // RVA: 0x9417550
+        public void m_830(){} // RVA: 0xFECDD0
         public void m_7D1(){} // RVA: 0x94176C0
     }
 
@@ -843,15 +845,15 @@ namespace VRC.Animation
     public class AnimationHandler_58A4
     {
         // ── Methods ──
-        public void StringToHashInternal(){} // RVA: 0x1FA69D0
         public void Initialize(){} // RVA: 0x1FA6A70
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x1FA6B50
-        public void ResolveStringToHashDelegate(){} // RVA: 0x1FA6C40
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         public void StringToHash(){} // RVA: 0x1FA6EA0 | overloaded x2
         // ── Unresolved (hash) ──
+        public void m_0DE(){} // RVA: 0x1FA69D0
+        public void m_7D3(){} // RVA: 0x1FA6B50
+        public void m_E56(){} // RVA: 0x1FA6C40
         public void m_7D1(){} // RVA: 0x1FA6D20
+        public void m_830(){} // RVA: 0xFECDD0
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -860,13 +862,13 @@ namespace VRC.Animation
         // ── Methods ──
         public void StringToHash(){} // RVA: 0x1E2A290 | overloaded x2
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x1E2A380
         public void Initialize(){} // RVA: 0x1E2A4A0
-        public void StringToHashInternal(){} // RVA: 0x1E2A590
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
-        public void ResolveStringToHashDelegate(){} // RVA: 0x1E2A620
         // ── Unresolved (hash) ──
+        public void m_7D3(){} // RVA: 0x1E2A380
         public void m_7D1(){} // RVA: 0x1E2A410
+        public void m_0DE(){} // RVA: 0x1E2A590
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_E56(){} // RVA: 0x1E2A620
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -874,12 +876,13 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveStringToHashDelegate(){} // RVA: 0x932E1F0
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x932E2E0
         public void StringToHash(){} // RVA: 0x932E370
         public void Initialize(){} // RVA: 0x932E410
-        public void StringToHashInternal(){} // RVA: 0x932E4A0
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
+        // ── Unresolved (hash) ──
+        public void m_E56(){} // RVA: 0x932E1F0
+        public void m_7D3(){} // RVA: 0x932E2E0
+        public void m_0DE(){} // RVA: 0x932E4A0
+        public void m_830(){} // RVA: 0xFECDD0
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -887,12 +890,13 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void StringToHash(){} // RVA: 0x93EB5E0
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x93EB680
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         public void Initialize(){} // RVA: 0x93EB720
-        public void ResolveStringToHashDelegate(){} // RVA: 0x93EB7B0
-        public void StringToHashInternal(){} // RVA: 0x93EB840
+        // ── Unresolved (hash) ──
+        public void m_7D3(){} // RVA: 0x93EB680
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_E56(){} // RVA: 0x93EB7B0
+        public void m_0DE(){} // RVA: 0x93EB840
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -901,14 +905,14 @@ namespace VRC.Animation
         // ── Methods ──
         public void Initialize(){} // RVA: 0x8B20710
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveStringToHashDelegate(){} // RVA: 0x8B207A0
         public void StringToHash(){} // RVA: 0x8B20AD0 | overloaded x2
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
-        public void StringToHashInternal(){} // RVA: 0x8B20B60
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x8B20BF0
         // ── Unresolved (hash) ──
+        public void m_E56(){} // RVA: 0x8B207A0
         public void m_DD0(){} // RVA: 0x8B20910
         public void m_7D1(){} // RVA: 0x8B209F0
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_0DE(){} // RVA: 0x8B20B60
+        public void m_7D3(){} // RVA: 0x8B20BF0
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -916,12 +920,13 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void StringToHash(){} // RVA: 0x935FCF0 | overloaded x2
-        public void StringToHashInternal(){} // RVA: 0x935FC10
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x935FDD0
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
-        public void ResolveStringToHashDelegate(){} // RVA: 0x935FEC0
         public void Initialize(){} // RVA: 0x935FFA0
+        // ── Unresolved (hash) ──
+        public void m_0DE(){} // RVA: 0x935FC10
+        public void m_7D3(){} // RVA: 0x935FDD0
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_E56(){} // RVA: 0x935FEC0
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -931,27 +936,27 @@ namespace VRC.Animation
         public void StringToHash(){} // RVA: 0x941B960 | overloaded x2
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x941B750
-        public void ResolveStringToHashDelegate(){} // RVA: 0x941B8C0
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x941BA30
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
-        public void StringToHashInternal(){} // RVA: 0x941BAC0
         // ── Unresolved (hash) ──
         public void m_7D1(){} // RVA: 0x941B830
+        public void m_E56(){} // RVA: 0x941B8C0
+        public void m_7D3(){} // RVA: 0x941BA30
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_0DE(){} // RVA: 0x941BAC0
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
     public class AnimationHandler_58A4
     {
         // ── Methods ──
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x646FFE0
         public void Initialize(){} // RVA: 0x64700D0
         public void StringToHash(){} // RVA: 0x6470240 | overloaded x2
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveStringToHashDelegate(){} // RVA: 0x64702D0
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
-        public void StringToHashInternal(){} // RVA: 0x64703F0
         // ── Unresolved (hash) ──
+        public void m_7D3(){} // RVA: 0x646FFE0
+        public void m_E56(){} // RVA: 0x64702D0
+        public void m_830(){} // RVA: 0xFECDD0
         public void m_DD0(){} // RVA: 0x6470360
+        public void m_0DE(){} // RVA: 0x64703F0
         public void m_7D1(){} // RVA: 0x64704E0
     }
 
@@ -959,13 +964,14 @@ namespace VRC.Animation
     public class AnimationHandler_58A4
     {
         // ── Methods ──
-        public void StringToHashInternal(){} // RVA: 0x75B61F0
-        public void ResolveStringToHashDelegate(){} // RVA: 0x75B62E0
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x75B63C0
         public void StringToHash(){} // RVA: 0x75B6450
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         public void Initialize(){} // RVA: 0x75B64F0
         public void .ctor(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_0DE(){} // RVA: 0x75B61F0
+        public void m_E56(){} // RVA: 0x75B62E0
+        public void m_7D3(){} // RVA: 0x75B63C0
+        public void m_830(){} // RVA: 0xFECDD0
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -973,12 +979,13 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void Initialize(){} // RVA: 0x75A3850
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x75A38F0
-        public void ResolveStringToHashDelegate(){} // RVA: 0x75A3980
-        public void StringToHashInternal(){} // RVA: 0x75A3A20
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         public void StringToHash(){} // RVA: 0x75A3BE0 | overloaded x2
         public void .ctor(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_7D3(){} // RVA: 0x75A38F0
+        public void m_E56(){} // RVA: 0x75A3980
+        public void m_0DE(){} // RVA: 0x75A3A20
+        public void m_830(){} // RVA: 0xFECDD0
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -986,43 +993,44 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
-        public void ResolveStringToHashDelegate(){} // RVA: 0x75B4390
         public void StringToHash(){} // RVA: 0x75B4470
-        public void StringToHashInternal(){} // RVA: 0x75B4550
         public void Initialize(){} // RVA: 0x75B45F0
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x75B4690
+        // ── Unresolved (hash) ──
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_E56(){} // RVA: 0x75B4390
+        public void m_0DE(){} // RVA: 0x75B4550
+        public void m_7D3(){} // RVA: 0x75B4690
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
     public class AnimationHandler_58A4
     {
         // ── Methods ──
-        public void ResolveStringToHashDelegate(){} // RVA: 0x941D9E0
         public void StringToHash(){} // RVA: 0x941DC90 | overloaded x2
-        public void StringToHashInternal(){} // RVA: 0x941DBB0
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         public void Initialize(){} // RVA: 0x941DE60
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x941DF40
         // ── Unresolved (hash) ──
         public void m_DD0(){} // RVA: 0x941D940
+        public void m_E56(){} // RVA: 0x941D9E0
+        public void m_0DE(){} // RVA: 0x941DBB0
         public void m_7D1(){} // RVA: 0x941DD70
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_7D3(){} // RVA: 0x941DF40
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
     public class AnimationHandler_58A4
     {
         // ── Methods ──
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x765B170
         public void Initialize(){} // RVA: 0x765B250
-        public void ResolveStringToHashDelegate(){} // RVA: 0x765B2E0
         public void StringToHash(){} // RVA: 0x765B550 | overloaded x2
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         public void .ctor(){} // RVA: 0x2DD310
-        public void StringToHashInternal(){} // RVA: 0x765B630
         // ── Unresolved (hash) ──
+        public void m_7D3(){} // RVA: 0x765B170
+        public void m_E56(){} // RVA: 0x765B2E0
         public void m_7D1(){} // RVA: 0x765B460
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_0DE(){} // RVA: 0x765B630
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -1030,14 +1038,14 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void StringToHash(){} // RVA: 0x9362730 | overloaded x2
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x93626A0
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         public void .ctor(){} // RVA: 0x2DD310
-        public void StringToHashInternal(){} // RVA: 0x9362870
-        public void ResolveStringToHashDelegate(){} // RVA: 0x9362900
         public void Initialize(){} // RVA: 0x93629E0
         // ── Unresolved (hash) ──
+        public void m_7D3(){} // RVA: 0x93626A0
+        public void m_830(){} // RVA: 0xFECDD0
         public void m_7D1(){} // RVA: 0x93627D0
+        public void m_0DE(){} // RVA: 0x9362870
+        public void m_E56(){} // RVA: 0x9362900
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -1045,25 +1053,27 @@ namespace VRC.Animation
     {
         // ── Methods ──
         public void StringToHash(){} // RVA: 0x932FA10 | overloaded x2
-        public void StringToHashInternal(){} // RVA: 0x932F890
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x932F920
-        public void ResolveStringToHashDelegate(){} // RVA: 0x932FB00
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x932FBA0
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
+        // ── Unresolved (hash) ──
+        public void m_0DE(){} // RVA: 0x932F890
+        public void m_7D3(){} // RVA: 0x932F920
+        public void m_E56(){} // RVA: 0x932FB00
+        public void m_830(){} // RVA: 0xFECDD0
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
     public class AnimationHandler_58A4
     {
         // ── Methods ──
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x9363560
         public void StringToHash(){} // RVA: 0x9363640
         public void Initialize(){} // RVA: 0x9363720
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         public void .ctor(){} // RVA: 0x2DD310
-        public void ResolveStringToHashDelegate(){} // RVA: 0x93637B0
-        public void StringToHashInternal(){} // RVA: 0x9363890
+        // ── Unresolved (hash) ──
+        public void m_7D3(){} // RVA: 0x9363560
+        public void m_830(){} // RVA: 0xFECDD0
+        public void m_E56(){} // RVA: 0x93637B0
+        public void m_0DE(){} // RVA: 0x9363890
     }
 
     /// <summary>Originally: ÏÍÌÎÌÌÏÍÏÎÎÎÍÌÎÎÌÌÌÎÌÎÍ</summary>
@@ -1072,11 +1082,12 @@ namespace VRC.Animation
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x7594E10
-        public void ResolveStringToHashDelegate(){} // RVA: 0x7594EB0
-        public void StringToHashInternal(){} // RVA: 0x7594FA0
-        public void ResolveStringToHashDelegate_7D311F275D81(){} // RVA: 0x7595030
-        public void ResolveHostAddresses(){} // RVA: 0xFECDD0
         public void StringToHash(){} // RVA: 0x75950D0
+        // ── Unresolved (hash) ──
+        public void m_E56(){} // RVA: 0x7594EB0
+        public void m_0DE(){} // RVA: 0x7594FA0
+        public void m_7D3(){} // RVA: 0x7595030
+        public void m_830(){} // RVA: 0xFECDD0
     }
 
     /// <summary>Originally: ÏÍÌÌÏÍÏÎÏÌÍÍÎÏÎÏÎÌÏÌÎÏÏ</summary>

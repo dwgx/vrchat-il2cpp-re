@@ -60,60 +60,60 @@ namespace VRC.UI.Elements.Menus
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void OnTransformChildrenChanged(){} // RVA: 0xCE10
+        public void MemSet(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_CAD(){} // RVA: 0x24A50
+        public void m_353(){} // RVA: 0x24A50
     }
 
     public class HeaderElementContentView`1
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x3511E10
-        public void MemSet(){} // RVA: 0x3512010
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x35120B0
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
+        public void MemSet(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x2DDD50
         // ── Unresolved (hash) ──
-        public void m_CAD(){} // RVA: 0x24A50
+        public void m_353(){} // RVA: 0x3512010
     }
 
     public class HeaderElementContentView`1
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x3511E10
-        public void MemSet(){} // RVA: 0x3512010
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x35120B0
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
+        public void MemSet(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x2DDD50
         // ── Unresolved (hash) ──
-        public void m_CAD(){} // RVA: 0x24A50
+        public void m_353(){} // RVA: 0x3512010
     }
 
     public class HeaderElementContentView`1
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x3511E10
-        public void MemSet(){} // RVA: 0x3512010
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x35120B0
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
+        public void MemSet(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x2DDD50
         // ── Unresolved (hash) ──
-        public void m_CAD(){} // RVA: 0x24A50
+        public void m_353(){} // RVA: 0x3512010
     }
 
     public class HeaderElementContentView`1
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x3511E10
-        public void MemSet(){} // RVA: 0x3512010
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x35120B0
         public void OnTransformChildrenChanged(){} // RVA: 0x37B370
+        public void MemSet(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x2DDD50
         // ── Unresolved (hash) ──
-        public void m_CAD(){} // RVA: 0x24A50
+        public void m_353(){} // RVA: 0x3512010
     }
 
     public class KeyboardInputModalComponents
@@ -134,8 +134,8 @@ namespace VRC.UI.Elements.Menus
         public void set_MaskInputToggle(){} // RVA: 0x3A5590
         public void set_ModalBackgrounds(){} // RVA: 0x30B130
         public void get_ModalBackgrounds(){} // RVA: 0x4C7C50
-        public void set_ClearButton(){} // RVA: 0x3A5590
-        public void set_MinimizedKeyboard(){} // RVA: 0x35A740
+        public void set_Placeholder(){} // RVA: 0x3A5590
+        public void set_ClearButton(){} // RVA: 0x35A740
         public void set_Cancel(){} // RVA: 0x4C7C50
         public void get_ClearButton(){} // RVA: 0x35A740
         public void get_Placeholder(){} // RVA: 0x37E0E0

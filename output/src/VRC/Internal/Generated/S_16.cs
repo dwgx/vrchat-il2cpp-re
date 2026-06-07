@@ -184,13 +184,13 @@ namespace VRC.Internal.Generated
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x9A4C20
         public void ConfigureBehaviourEnabled(){} // RVA: 0x9A4FF0
-        public void ApplyBehaviourEnabled(){} // RVA: 0x9A50C0
-        public void RefreshBehaviourState(){} // RVA: 0x9A5490
         // ── Unresolved (hash) ──
         public void m_4A3(){} // RVA: 0x9A4610
         public void m_800(){} // RVA: 0x9A46E0
         public void m_E50(){} // RVA: 0x9A47B0
         public void m_09C(){} // RVA: 0x9A4880
+        public void m_E8C(){} // RVA: 0x9A50C0
+        public void m_B3C(){} // RVA: 0x9A5490
         public void m_ECE(){} // RVA: 0x9A5830
         public void m_A2F(){} // RVA: 0x9A5900
     }
@@ -275,16 +275,16 @@ namespace VRC.Internal.Generated
         // ── Methods ──
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x18C2A50
-        public void RefreshState(){} // RVA: 0x18C2C30
-        public void ValidateConfiguration(){} // RVA: 0x18C3230
         public void Start(){} // RVA: 0x18C32D0
-        public void UpdateVisualState(){} // RVA: 0x18C3440
-        public void HandleValueChanged(){} // RVA: 0x18C3A40
         public void OnEnable(){} // RVA: 0x18C4040
         public void OnDisable(){} // RVA: 0x18C40F0
         // ── Unresolved (hash) ──
         public void m_AFF(){} // RVA: 0x18C2AF0
         public void m_2B2(){} // RVA: 0x18C2B90
+        public void m_4C9(){} // RVA: 0x18C2C30
+        public void m_7FD(){} // RVA: 0x18C3230
+        public void m_8DC(){} // RVA: 0x18C3440
+        public void m_4BC(){} // RVA: 0x18C3A40
         public void m_301(){} // RVA: 0x18C4280
     }
 
@@ -742,11 +742,11 @@ namespace VRC.Internal.Generated
     public class Static5m_2EE2
     {
         // ── Methods ──
-        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         // ── Unresolved (hash) ──
+        public void m_DB9(){} // RVA: 0x24A50
         public void m_2D7(){} // RVA: 0xCD60
     }
 

@@ -9,13 +9,14 @@ namespace VRC.Misc
     public class BackgroundOptionsSiblingSibling_3D8F
     {
         // ── Methods ──
-        public void mm256_loadu_ps(){} // RVA: 0x2095EC0
-        public void mm256_store_ps(){} // RVA: 0x2095EC0
         public void mm256_load_ps(){} // RVA: 0x2095F20
         public void mm256_load_ps_AA07B8EE4938(){} // RVA: 0x2095F20
         public void mm256_load_ps_404873064031(){} // RVA: 0x2095F20
-        public void mm256_setzero_ps(){} // RVA: 0x2095EC0
         public void mm256_load_ps_FC4E882FCDA8(){} // RVA: 0x2095F20
+        // ── Unresolved (hash) ──
+        public void m_C6B(){} // RVA: 0x2095EC0
+        public void m_B32(){} // RVA: 0x2095EC0
+        public void m_7F4(){} // RVA: 0x2095EC0
     }
 
     /// <summary>Originally: ÍÎÌÏÎÎÏÎÎÏÎÏÏÎÍÏÍÍÍÌÌÌÍ</summary>
@@ -52,7 +53,6 @@ namespace VRC.Misc
     public class BehaviourComponentHandler_474D
     {
         // ── Methods ──
-        public void Interact(){} // RVA: 0x92AAE60
         public void FixedUpdate(){} // RVA: 0x92AAFF0
         public void Update(){} // RVA: 0x92AB160
         public void LateUpdate(){} // RVA: 0x92AB380
@@ -68,14 +68,16 @@ namespace VRC.Misc
         public void OnTriggerEnter(){} // RVA: 0x92AC780
         public void OnTriggerStay(){} // RVA: 0x92AC7B0
         public void OnTriggerExit(){} // RVA: 0x92AC7E0
-        public void OnPickupUseDown(){} // RVA: 0x92AC990
         public void .ctor(){} // RVA: 0x2DDD50
         public void CalculateSignedAngle(){} // RVA: 0x92ACDA0
         public void OnBecameInvisible(){} // RVA: 0x92ACF40
         public void OnCollisionEnter(){} // RVA: 0x92AD490
         public void OnCollisionStay(){} // RVA: 0x92AD630
         public void GetEnabled(){} // RVA: 0x92AC7B0
-        public void OnPickupUseUp(){} // RVA: 0x92AD750
+        // ── Unresolved (hash) ──
+        public void m_3F5(){} // RVA: 0x92AAE60
+        public void m_BA9(){} // RVA: 0x92AC990
+        public void m_BAF(){} // RVA: 0x92AD750
     }
 
     /// <summary>Originally: ÏÎÌÌÎÎÌÍÍÍÍÍÎÌÌÌÍÌÍÍÌÏÌ</summary>

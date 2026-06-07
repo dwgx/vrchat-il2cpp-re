@@ -10,13 +10,14 @@ namespace VRC.UI.Shared
         // ── Methods ──
         public void .ctor(){} // RVA: 0x930D550
         public void Initialize(){} // RVA: 0x1319FF0
-        public void get_x(){} // RVA: 0x1319FF0
-        public void set_x(){} // RVA: 0x1319FF0
-        public void get_y(){} // RVA: 0x1319FF0
-        public void set_y(){} // RVA: 0x1319FF0
-        public void get_z(){} // RVA: 0x1319FF0
-        public void set_z(){} // RVA: 0x1319FF0
-        public void ToVector4(){} // RVA: 0x1319FF0
+        // ── Unresolved (hash) ──
+        public void m_C53(){} // RVA: 0x1319FF0
+        public void m_151(){} // RVA: 0x1319FF0
+        public void m_C4F(){} // RVA: 0x1319FF0
+        public void m_287(){} // RVA: 0x1319FF0
+        public void m_E60(){} // RVA: 0x1319FF0
+        public void m_C9B(){} // RVA: 0x1319FF0
+        public void m_B3D(){} // RVA: 0x1319FF0
     }
 
 }

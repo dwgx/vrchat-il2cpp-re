@@ -75,16 +75,17 @@ namespace VRC.Internal.Generated
     public class Static10m_1FBA
     {
         // ── Methods ──
-        public void ConfigureLineRendererStartColor(){} // RVA: 0x9258CB0
-        public void ConfigureLineRendererEndColor(){} // RVA: 0x9258E00
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x9258F50
         public void ConfigureLineRenderer(){} // RVA: 0x92590A0
-        public void ConfigureLineRendererStartWidth(){} // RVA: 0x92591F0
-        public void ConfigureLineRendererEndWidth(){} // RVA: 0x9259340
-        public void ConfigureLineRendererPositionCount(){} // RVA: 0x9259E70
-        public void ConfigureLineRendererPositions(){} // RVA: 0x9259FC0
-        public void ConfigureLineRendererMaterial(){} // RVA: 0x925A110
+        // ── Unresolved (hash) ──
+        public void m_C09(){} // RVA: 0x9258CB0
+        public void m_DFC(){} // RVA: 0x9258E00
+        public void m_2AD(){} // RVA: 0x92591F0
+        public void m_8F7(){} // RVA: 0x9259340
+        public void m_84B(){} // RVA: 0x9259E70
+        public void m_884(){} // RVA: 0x9259FC0
+        public void m_041(){} // RVA: 0x925A110
     }
 
     /// <summary>Originally: ÍÌÍÍÌÍÍÎÍÎÌÌÏÎÌÌÍÌÍÍÍÎÌ</summary>
@@ -125,16 +126,17 @@ namespace VRC.Internal.Generated
     public class Static10m_2EFC
     {
         // ── Methods ──
-        public void GetLocalPosition(){} // RVA: 0x9C5710
-        public void GetPosition(){} // RVA: 0x9C57E0
-        public void GetTransformPositionInternal(){} // RVA: 0x9C58B0
         public void GetTransformPosition(){} // RVA: 0x9C5980
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x9C5A50
-        public void SetTransformPosition(){} // RVA: 0x9C5B20
-        public void GetTransformRotation(){} // RVA: 0x9C5BF0
-        public void GetTransformForward(){} // RVA: 0x9C5CC0
-        public void GetTransformUp(){} // RVA: 0x9C5D90
+        // ── Unresolved (hash) ──
+        public void m_38E(){} // RVA: 0x9C5710
+        public void m_5F5(){} // RVA: 0x9C57E0
+        public void m_D2E(){} // RVA: 0x9C58B0
+        public void m_493(){} // RVA: 0x9C5B20
+        public void m_2BB(){} // RVA: 0x9C5BF0
+        public void m_557(){} // RVA: 0x9C5CC0
+        public void m_C53(){} // RVA: 0x9C5D90
     }
 
     /// <summary>Originally: ÍÌÎÌÌÍÎÌÍÏÎÎÎÍÏÍÌÏÌÍÍÌÎ</summary>
@@ -928,7 +930,7 @@ namespace VRC.Internal.Generated
         public void MemSet(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
         public void m_EA8(){} // RVA: 0x24B10
-        public void m_9BB(){} // RVA: 0x24A50
+        public void m_8A0(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÍÌÍÏÌÌÍÍÍÏÎÎÏÌÏÌÎÍÌÏÍÎÏ</summary>
@@ -991,14 +993,14 @@ namespace VRC.Internal.Generated
     public class Static7m_6F4F
     {
         // ── Methods ──
-        public void MemSet(){} // RVA: 0x24A50
         public void ConvertAll(){} // RVA: 0xCE10
         public void ConvertAll_84FD8705019F(){} // RVA: 0xCE10
         public void GetHashCode(){} // RVA: 0x13FB0
         public void get_Count(){} // RVA: 0xD840
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_651(){} // RVA: 0x24A50
+        public void m_852(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÍÌÎÏÌÎÍÎÏÏÍÎÌÍÍÍÌÏÎÎÏÌÏ</summary>
@@ -1051,7 +1053,7 @@ namespace VRC.Internal.Generated
         public void Clear(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_CF3(){} // RVA: 0x24A50
+        public void m_6A4(){} // RVA: 0x24A50
         public void m_DAB(){} // RVA: 0x24A50
         public void m_EAA(){} // RVA: 0x24A50
     }

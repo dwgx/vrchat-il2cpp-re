@@ -1188,7 +1188,6 @@ public class <>c
     // ── Methods ──
     public void .ctor(){} // RVA: 0x2DD310
     public void Initialize(){} // RVA: 0x7AE7A0
-    public void TryCopyTo(){} // RVA: 0x7AE880
     public void .cctor(){} // RVA: 0x7AE960
     public void op_Implicit(){} // RVA: 0x7AEA00
     public void GetHashCode(){} // RVA: 0x7AEAE0
@@ -1197,6 +1196,8 @@ public class <>c
     public void get_name_5D85627ACE8E(){} // RVA: 0x7AED80
     public void set_name_5D85627ACE8E(){} // RVA: 0x7AEE60
     public void CheckRenderingGraphicsFormatUtility(){} // RVA: 0x7AEF40
+    // ── Unresolved (hash) ──
+    public void m_D6E(){} // RVA: 0x7AE880
 }
 
 public class <>c

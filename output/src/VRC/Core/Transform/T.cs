@@ -489,11 +489,6 @@ namespace VRC.Core.Transform
     public class TransformFindPathComponent_6759
     {
         // ── Methods ──
-        public void FindTransformPath(){} // RVA: 0x9285600
-        public void ResolveTransformPath(){} // RVA: 0x92856F0
-        public void GetTransformPath(){} // RVA: 0x92857E0
-        public void CacheTransformPath(){} // RVA: 0x9285A00
-        public void ApplyTransformPath(){} // RVA: 0x9285C20
         public void Awake(){} // RVA: 0x9285D10
         public void OnEnable(){} // RVA: 0x9285FB0
         public void Start(){} // RVA: 0x92862C0
@@ -506,6 +501,11 @@ namespace VRC.Core.Transform
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x9287740
         // ── Unresolved (hash) ──
+        public void m_866(){} // RVA: 0x9285600
+        public void m_341(){} // RVA: 0x92856F0
+        public void m_41F(){} // RVA: 0x92857E0
+        public void m_FAC(){} // RVA: 0x9285A00
+        public void m_26A(){} // RVA: 0x9285C20
         public void m_F74(){} // RVA: 0x9286970
         public void m_86C(){} // RVA: 0x9286E30
     }
@@ -739,16 +739,17 @@ namespace VRC.Core.Transform
     public class TransformHandler_297B
     {
         // ── Methods ──
-        public void DeserializeTransformUpdate(){} // RVA: 0x13936F0
-        public void DeserializeTransformPosition(){} // RVA: 0x1393A70
-        public void DeserializeTransformRotation(){} // RVA: 0x1393DF0
-        public void DeserializeTransformScale(){} // RVA: 0x1394170
-        public void ApplyTransformUpdate(){} // RVA: 0x13944F0
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x1394870
         public void SetParent(){} // RVA: 0x1394BF0
-        public void SetLocalPosition(){} // RVA: 0x1394F70
-        public void SetLocalRotation(){} // RVA: 0x13952F0
+        // ── Unresolved (hash) ──
+        public void m_349(){} // RVA: 0x13936F0
+        public void m_078(){} // RVA: 0x1393A70
+        public void m_A21(){} // RVA: 0x1393DF0
+        public void m_DEA(){} // RVA: 0x1394170
+        public void m_100(){} // RVA: 0x13944F0
+        public void m_D7A(){} // RVA: 0x1394F70
+        public void m_813(){} // RVA: 0x13952F0
     }
 
     /// <summary>Originally: ÌÌÍÌÌÎÍÏÎÎÎÌÌÌÏÍÏÎÏÍÎÍÏ</summary>
@@ -1255,15 +1256,16 @@ namespace VRC.Core.Transform
         public void GetLocalPosition(){} // RVA: 0x1C558F0
         public void SetLocalPosition(){} // RVA: 0x1C55A40
         public void GetLocalPosition_A68EEB9F37DE(){} // RVA: 0x1C55CF0
-        public void CreateLocalPositionDelegate(){} // RVA: 0x1C55FA0
-        public void CreateSetLocalPositionDelegate(){} // RVA: 0x1C560F0
-        public void CreateGetLocalPositionDelegate(){} // RVA: 0x1C563A0
-        public void CreateSetPositionDelegate(){} // RVA: 0x1C564F0
-        public void CreateSetPositionDelegate_4D045A0F6DEF(){} // RVA: 0x1C56560
-        public void CreateTransformPositionDelegate(){} // RVA: 0x1C565E0
-        public void CreateTransformPositionDelegate_4B06D8BF7491(){} // RVA: 0x1C56670
         public void .ctor(){} // RVA: 0x1C567C0
         public void Initialize(){} // RVA: 0x1C56CC0
+        // ── Unresolved (hash) ──
+        public void m_239(){} // RVA: 0x1C55FA0
+        public void m_478(){} // RVA: 0x1C560F0
+        public void m_570(){} // RVA: 0x1C563A0
+        public void m_BA1(){} // RVA: 0x1C564F0
+        public void m_4D0(){} // RVA: 0x1C56560
+        public void m_8A8(){} // RVA: 0x1C565E0
+        public void m_4B0(){} // RVA: 0x1C56670
     }
 
     /// <summary>Originally: ÍÌÍÏÍÏÍÎÎÏÏÏÎÌÎÌÎÏÎÏÎÏÎ</summary>
@@ -1328,15 +1330,15 @@ namespace VRC.Core.Transform
         public void SetLocalScale(){} // RVA: 0xFDE440
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0xFDE7B0
-        public void CreateInflaterState(){} // RVA: 0xFDE810
-        public void SwapInflaterState(){} // RVA: 0xFDE7B0
         // ── Unresolved (hash) ──
         public void m_F80(){} // RVA: 0xFDE7B0
         public void m_99B(){} // RVA: 0xFDE7B0
         public void m_7C1(){} // RVA: 0xFDE7B0
         public void m_AB5(){} // RVA: 0xFDE7B0
         public void m_B01(){} // RVA: 0xFDE7B0
+        public void m_6A9(){} // RVA: 0xFDE810
         public void m_80A(){} // RVA: 0xFDE7B0
+        public void m_08A(){} // RVA: 0xFDE7B0
     }
 
     /// <summary>Originally: ÌÍÏÍÌÍÎÍÌÍÏÍÎÍÍÍÏÌÎÍÏÏÍ</summary>
@@ -1344,16 +1346,16 @@ namespace VRC.Core.Transform
     {
         // ── Methods ──
         public void OnPointerClick(){} // RVA: 0xB89A80
-        public void OnPointerEnter(){} // RVA: 0xB8CCB0
-        public void OnPointerExit(){} // RVA: 0xB8CF40
-        public void SetTransform(){} // RVA: 0xB8D1D0
         public void OnPointerClick_E9FC8D7604CB(){} // RVA: 0xB89A80
-        public void ResetTransform(){} // RVA: 0xB8D460
         public void .ctor(){} // RVA: 0x2DD310
         // ── Unresolved (hash) ──
         public void m_13F(){} // RVA: 0xB8C500
         public void m_511(){} // RVA: 0xB8C790
         public void m_B33(){} // RVA: 0xB8CA20
+        public void m_18A(){} // RVA: 0xB8CCB0
+        public void m_821(){} // RVA: 0xB8CF40
+        public void m_5E3(){} // RVA: 0xB8D1D0
+        public void m_B55(){} // RVA: 0xB8D460
     }
 
     /// <summary>Originally: ÍÍÏÍÏÌÎÏÏÎÌÏÌÍÏÏÎÌÌÌÎÌÏ</summary>
@@ -1908,14 +1910,15 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void GetTime(){} // RVA: 0xCAC640
         public void GetTime_4E07541D7375(){} // RVA: 0xCAC750
-        public void GetDeltaTime(){} // RVA: 0xCAC860
-        public void GetFixedTime(){} // RVA: 0xCAC970
-        public void GetFixedDeltaTime(){} // RVA: 0xCACA80
-        public void GetUnscaledTime(){} // RVA: 0xCACB90
-        public void GetUnscaledDeltaTime(){} // RVA: 0xCACCA0
-        public void get_timeScale(){} // RVA: 0xCACDB0
-        public void set_timeScale(){} // RVA: 0xCACEC0
         public void .ctor(){} // RVA: 0x2DD310
+        // ── Unresolved (hash) ──
+        public void m_E79(){} // RVA: 0xCAC860
+        public void m_AB5(){} // RVA: 0xCAC970
+        public void m_B20(){} // RVA: 0xCACA80
+        public void m_A49(){} // RVA: 0xCACB90
+        public void m_26F(){} // RVA: 0xCACCA0
+        public void m_35C(){} // RVA: 0xCACDB0
+        public void m_FCF(){} // RVA: 0xCACEC0
     }
 
     /// <summary>Originally: ÌÏÌÏÏÍÎÎÏÌÎÌÍÍÏÎÌÍÌÎÌÌÌ</summary>
@@ -1958,17 +1961,18 @@ namespace VRC.Core.Transform
     public class TransformVector3Handler_2588
     {
         // ── Methods ──
-        public void ProcessLocalVector3(){} // RVA: 0xC02BD0
         public void OrthoNormalize2(){} // RVA: 0xC02D90
-        public void ProcessWorldVector3(){} // RVA: 0xC03270
-        public void ProcessRelativeVector3(){} // RVA: 0xC03750
-        public void NormalizeVector3(){} // RVA: 0xC03910
-        public void GetVector3Magnitude(){} // RVA: 0xC03DF0
-        public void ProcessDirectionVector3(){} // RVA: 0xC042D0
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0xC047B0
         public void ProcessVector3(){} // RVA: 0xC04970
-        public void FormatVector3(){} // RVA: 0xC04B30
+        // ── Unresolved (hash) ──
+        public void m_9E5(){} // RVA: 0xC02BD0
+        public void m_B3D(){} // RVA: 0xC03270
+        public void m_D94(){} // RVA: 0xC03750
+        public void m_79D(){} // RVA: 0xC03910
+        public void m_E28(){} // RVA: 0xC03DF0
+        public void m_FF5(){} // RVA: 0xC042D0
+        public void m_B76(){} // RVA: 0xC04B30
     }
 
     /// <summary>Originally: ÌÎÏÏÌÌÍÎÎÌÌÍÎÌÌÌÏÌÎÍÎÍÏ</summary>

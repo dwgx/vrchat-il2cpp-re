@@ -945,16 +945,16 @@ namespace VRC.Internal.Generated
     public class Static9m_12F6
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
-        public void get_Current(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void SKIP(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
+        public void m_A45(){} // RVA: 0x1AD4690
+        public void m_432(){} // RVA: 0x1AD4690
+        public void m_C65(){} // RVA: 0x1AD4690
         public void m_7A5(){} // RVA: 0x1AD4690
         public void m_6CE(){} // RVA: 0x1AD4690
+        public void m_C36(){} // RVA: 0x100A2F0
+        public void m_C55(){} // RVA: 0x100A2F0
     }
 
     /// <summary>Originally: ÍÎÏÌÍÎÌÏÎÍÏÍÌÌÏÌÌÏÎÏÏÌÍ</summary>

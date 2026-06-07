@@ -571,7 +571,6 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void get_IsReadOnly(){} // RVA: 0x75B5120
         public void .ctor(){} // RVA: 0x2F84F0
         public void Initialize(){} // RVA: 0x75B5320
         public void GetTransformChildCount_1ECB3C4FE1BC(){} // RVA: 0x2F84E0
@@ -579,6 +578,7 @@ namespace VRC.Misc
         public void MarkLayoutForRebuild_C6C88DA4521C(){} // RVA: 0x2F84F0
         // ── Unresolved (hash) ──
         public void m_68E(){} // RVA: 0x75B5020
+        public void m_143(){} // RVA: 0x75B5120
         public void m_DA2(){} // RVA: 0x75B5220
         public void m_84A(){} // RVA: 0x75B5420
         public void m_FA0(){} // RVA: 0x75B5520
@@ -674,13 +674,10 @@ namespace VRC.Misc
     public class gameObject_FC6F
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void set_gameObject(){} // RVA: 0x24B10
         public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_gameObject_48A2583DF9CD(){} // RVA: 0xCD60
         public void Add(){} // RVA: 0x24B10
         public void get_gameObject(){} // RVA: 0xCD60
-        public void get_value(){} // RVA: 0xCD60
         public void OnCanceled(){} // RVA: 0x24CC0
         public void Clear(){} // RVA: 0x24A50
         public void get_IsReadOnly(){} // RVA: 0xDBE0
@@ -688,12 +685,15 @@ namespace VRC.Misc
         public void GetExpectedContentHeight(){} // RVA: 0x21890
         public void set_value(){} // RVA: 0x325B0
         public void get_IsReadOnly_A7A189197514(){} // RVA: 0xDBE0
-        public void Insert(){} // RVA: 0x25130
-        public void set_gameObject_C52AE4ECB105(){} // RVA: 0x24B10
-        public void set_Item(){} // RVA: 0x24B10
-        public void get_Item(){} // RVA: 0x24B10
         // ── Unresolved (hash) ──
+        public void m_537(){} // RVA: 0xCD60
+        public void m_48A(){} // RVA: 0xCD60
+        public void m_A0A(){} // RVA: 0xCD60
         public void m_955(){} // RVA: 0xCD60
+        public void m_CE7(){} // RVA: 0x25130
+        public void m_C52(){} // RVA: 0x24B10
+        public void m_E91(){} // RVA: 0x24B10
+        public void m_9DB(){} // RVA: 0x24B10
     }
 
     /// <summary>Originally: ÍÍÎÏÏÏÎÎÎÏÎÏÍÌÌÍÏÎÏÏÏÍÎ</summary>

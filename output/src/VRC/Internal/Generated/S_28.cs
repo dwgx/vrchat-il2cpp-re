@@ -180,7 +180,6 @@ namespace VRC.Internal.Generated
         public void .ctor(){} // RVA: 0x2DDD50
         public void Awake(){} // RVA: 0x17DCCA0
         public void OnDestroy(){} // RVA: 0x17DCD30
-        public void RefreshState(){} // RVA: 0x17DD2D0
         // ── Unresolved (hash) ──
         public void m_58C(){} // RVA: 0x17DC590
         public void m_9EB(){} // RVA: 0x17DC7C0
@@ -188,6 +187,7 @@ namespace VRC.Internal.Generated
         public void m_25F(){} // RVA: 0x17DCA70
         public void m_A3B(){} // RVA: 0x17DCF20
         public void m_F07(){} // RVA: 0x17DD0A0
+        public void m_6F5(){} // RVA: 0x17DD2D0
     }
 
     /// <summary>Originally: ÏÍÏÍÎÎÎÍÍÏÏÍÍÏÌÍÌÌÏÌÌÏÍ</summary>
@@ -332,18 +332,19 @@ namespace VRC.Internal.Generated
     public class Static12m_1775
     {
         // ── Methods ──
-        public void GetRelativeTransformPath(){} // RVA: 0x175FC40
-        public void BuildRelativeTransformPath(){} // RVA: 0x175FC70
-        public void FindRelativeTransformPath(){} // RVA: 0x175FDC0
-        public void FindRelativeTransformPath_D42361EA8C9E(){} // RVA: 0x175FF10
+        public void FindRelativeTransformPath(){} // RVA: 0x175FF10
         public void FindRelativeTransformPath_D8EA5D7BC51F(){} // RVA: 0x175FF40
-        public void InitializeTransformPathCache(){} // RVA: 0x175FB70
-        public void AppendTransformPathSegment(){} // RVA: 0x1760090
-        public void GetTransformPathSegment(){} // RVA: 0x17600E0
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x175FB40
-        public void NormalizeRelativeTransformPath(){} // RVA: 0x1760130
-        public void ResolveRelativeTransformPath(){} // RVA: 0x1760280
+        // ── Unresolved (hash) ──
+        public void m_0A2(){} // RVA: 0x175FC40
+        public void m_DF0(){} // RVA: 0x175FC70
+        public void m_F5C(){} // RVA: 0x175FDC0
+        public void m_901(){} // RVA: 0x175FB70
+        public void m_948(){} // RVA: 0x1760090
+        public void m_0F1(){} // RVA: 0x17600E0
+        public void m_FB3(){} // RVA: 0x1760130
+        public void m_BFA(){} // RVA: 0x1760280
     }
 
     /// <summary>Originally: ÏÍÏÎÏÌÎÍÏÌÎÎÌÍÌÍÍÌÍÎÎÏÎ</summary>
@@ -1209,13 +1210,13 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void get_Current(){} // RVA: 0x100A2F0
         public void set_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void SKIP(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
+        public void m_ABE(){} // RVA: 0x1AD4690
+        public void m_F3E(){} // RVA: 0x100A2F0
+        public void m_82C(){} // RVA: 0x100A2F0
         public void m_B9E(){} // RVA: 0x100A2F0
         public void m_7D6(){} // RVA: 0x100A2F0
     }

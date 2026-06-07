@@ -164,23 +164,23 @@ namespace VRC.Texture
     {
         // ── Methods ──
         public void GetMatrixElement(){} // RVA: 0x8E88750
-        public void ExtractArrayFromList(){} // RVA: 0x8E876F0
         public void ExtractArrayFromList_D9254B32CD51(){} // RVA: 0x8E875F0
-        public void OnPointerClick(){} // RVA: 0x92DB010
-        public void OnPointerEnter(){} // RVA: 0x92DB110
-        public void FetchListDetails(){} // RVA: 0x92DB200
         public void Clear(){} // RVA: 0x24A50
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void Dispose(){} // RVA: 0x25130
         public void GetEnumerator(){} // RVA: 0xCD60
         public void Add(){} // RVA: 0x24B10
-        public void OnPointerEnter_97E6F8CE6FE4(){} // RVA: 0x68B300
+        public void OnPointerEnter(){} // RVA: 0x68B300
         public void <FetchListDetails>b__1(){} // RVA: 0xF68C90
-        public void OnPointerClick_DD3FCBC0CFDC(){} // RVA: 0xB89A80
+        public void OnPointerClick(){} // RVA: 0xB89A80
         public void .ctor(){} // RVA: 0x2DDD50
         // ── Unresolved (hash) ──
         public void m_A78(){} // RVA: 0x92DAE20
+        public void m_3AD(){} // RVA: 0x8E876F0
         public void m_C5E(){} // RVA: 0x92DAF10
+        public void m_D1D(){} // RVA: 0x92DB010
+        public void m_695(){} // RVA: 0x92DB110
+        public void m_F5C(){} // RVA: 0x92DB200
         public void m_ACF(){} // RVA: 0x4F3F630
     }
 

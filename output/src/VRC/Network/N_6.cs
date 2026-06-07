@@ -89,19 +89,19 @@ namespace VRC.Network
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void set_Item(){} // RVA: 0x24B10
         public void Add(){} // RVA: 0x24B10
+        public void MemSet(){} // RVA: 0x24A50
         public void Dispose_019C9A9AF26E(){} // RVA: 0x25130
         public void TryCopyTo_E2A2D344B15F(){} // RVA: 0x283FA0
         public void Insert(){} // RVA: 0x25130
         public void TryCopyTo_8B69114715F9(){} // RVA: 0x283FA0
-        public void MemSet(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x2DC60
         // ── Unresolved (hash) ──
-        public void m_F2B(){} // RVA: 0x24A50
         public void m_A66(){} // RVA: 0x24B10
         public void m_AEB(){} // RVA: 0x24B10
         public void m_71F(){} // RVA: 0x24B10
         public void m_E9D(){} // RVA: 0x24B10
         public void m_FE6(){} // RVA: 0x24A50
+        public void m_2F0(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÏÍÌÏÍÏÍÎÏÌÏÏÏÍÌÌÍÌÌÏÍÏÍ</summary>
@@ -117,19 +117,19 @@ namespace VRC.Network
         public void get_IsReadOnly(){} // RVA: 0x50E9F10
         public void set_Item(){} // RVA: 0x50E9F60
         public void Add(){} // RVA: 0x50EA050
+        public void MemSet(){} // RVA: 0x50EA140
         public void Dispose_019C9A9AF26E(){} // RVA: 0x50EA260
         public void TryCopyTo_E2A2D344B15F(){} // RVA: 0x50E9470
         public void Insert(){} // RVA: 0x50EA260
         public void TryCopyTo_8B69114715F9(){} // RVA: 0x50EA560
-        public void MemSet(){} // RVA: 0x50EA610
         public void .ctor(){} // RVA: 0x50EA730
         // ── Unresolved (hash) ──
-        public void m_F2B(){} // RVA: 0x50EA140
         public void m_A66(){} // RVA: 0x50EA410
         public void m_AEB(){} // RVA: 0x50E94C0
         public void m_71F(){} // RVA: 0x50E95D0
         public void m_E9D(){} // RVA: 0x50EA470
         public void m_FE6(){} // RVA: 0x50EA5C0
+        public void m_2F0(){} // RVA: 0x50EA610
     }
 
     /// <summary>Originally: ÏÍÌÏÍÏÍÎÏÌÏÏÏÍÌÌÍÌÌÏÍÏÍ</summary>
@@ -145,19 +145,19 @@ namespace VRC.Network
         public void get_IsReadOnly(){} // RVA: 0x50E9F10
         public void set_Item(){} // RVA: 0x50E9F60
         public void Add(){} // RVA: 0x50EA050
+        public void MemSet(){} // RVA: 0x50EA140
         public void Dispose_019C9A9AF26E(){} // RVA: 0x50EA260
         public void TryCopyTo_E2A2D344B15F(){} // RVA: 0x50E9470
         public void Insert(){} // RVA: 0x50EA260
         public void TryCopyTo_8B69114715F9(){} // RVA: 0x50EA560
-        public void MemSet(){} // RVA: 0x50EA610
         public void .ctor(){} // RVA: 0x50EA730
         // ── Unresolved (hash) ──
-        public void m_F2B(){} // RVA: 0x50EA140
         public void m_A66(){} // RVA: 0x50EA410
         public void m_AEB(){} // RVA: 0x50E94C0
         public void m_71F(){} // RVA: 0x50E95D0
         public void m_E9D(){} // RVA: 0x50EA470
         public void m_FE6(){} // RVA: 0x50EA5C0
+        public void m_2F0(){} // RVA: 0x50EA610
     }
 
     /// <summary>Originally: ÏÍÌÏÍÏÍÎÏÌÏÏÏÍÌÌÍÌÌÏÍÏÍ</summary>
@@ -173,19 +173,19 @@ namespace VRC.Network
         public void get_IsReadOnly(){} // RVA: 0x50E9F10
         public void set_Item(){} // RVA: 0x50E9F60
         public void Add(){} // RVA: 0x50EA050
+        public void MemSet(){} // RVA: 0x50EA140
         public void Dispose_019C9A9AF26E(){} // RVA: 0x50EA260
         public void TryCopyTo_E2A2D344B15F(){} // RVA: 0x50E9470
         public void Insert(){} // RVA: 0x50EA260
         public void TryCopyTo_8B69114715F9(){} // RVA: 0x50EA560
-        public void MemSet(){} // RVA: 0x50EA610
         public void .ctor(){} // RVA: 0x50EA730
         // ── Unresolved (hash) ──
-        public void m_F2B(){} // RVA: 0x50EA140
         public void m_A66(){} // RVA: 0x50EA410
         public void m_AEB(){} // RVA: 0x50E94C0
         public void m_71F(){} // RVA: 0x50E95D0
         public void m_E9D(){} // RVA: 0x50EA470
         public void m_FE6(){} // RVA: 0x50EA5C0
+        public void m_2F0(){} // RVA: 0x50EA610
     }
 
     /// <summary>Originally: ÏÏÌÌÌÌÍÎÍÎÌÌÌÏÎÌÌÌÌÏÎÌÏ</summary>
@@ -350,17 +350,17 @@ namespace VRC.Network
         public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
         public void InitializeCollection(){} // RVA: 0x2DD310
-        public void MemSet(){} // RVA: 0x2DD310
         public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
         public void Clear(){} // RVA: 0x50C1E90
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C6F20
         public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
         public void Initialize(){} // RVA: 0x2DD310
         public void set_Item(){} // RVA: 0x50C20D0
         public void Add(){} // RVA: 0x50C21E0
         public void ToString(){} // RVA: 0x50C7090
         // ── Unresolved (hash) ──
-        public void m_FE6(){} // RVA: 0x50C6F20
+        public void m_6F8(){} // RVA: 0x2DD310
         public void m_6EA(){} // RVA: 0x2DD310
     }
 
@@ -382,17 +382,17 @@ namespace VRC.Network
         public void RotateVectorByInverseQuaternion(){} // RVA: 0x50D5480
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50CB010
         public void InitializeCollection(){} // RVA: 0x2DD310
-        public void MemSet(){} // RVA: 0x2DD310
         public void CalculateQuaternionDelta(){} // RVA: 0x50D5590
         public void Clear(){} // RVA: 0x50CB210
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50D5720
         public void .ctor(){} // RVA: 0x50D5910 | overloaded x2
         public void Initialize(){} // RVA: 0x2DD310
         public void set_Item(){} // RVA: 0x50CB4D0
         public void Add(){} // RVA: 0x50CB5E0
         public void ToString(){} // RVA: 0x50CB6F0
         // ── Unresolved (hash) ──
-        public void m_FE6(){} // RVA: 0x50D5720
+        public void m_6F8(){} // RVA: 0x2DD310
         public void m_6EA(){} // RVA: 0x2DD310
     }
 
@@ -429,17 +429,17 @@ namespace VRC.Network
         public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C9270
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C9470
         public void InitializeCollection(){} // RVA: 0x2DD310
-        public void MemSet(){} // RVA: 0x2DD310
         public void CalculateQuaternionDelta(){} // RVA: 0x50C9510
         public void Clear(){} // RVA: 0x50C9650
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C97B0
         public void .ctor(){} // RVA: 0x50C9EB0 | overloaded x2
         public void Initialize(){} // RVA: 0x2DD310
         public void set_Item(){} // RVA: 0x50C9A60
         public void Add(){} // RVA: 0x50C9BD0
         public void ToString(){} // RVA: 0x50C9D40
         // ── Unresolved (hash) ──
-        public void m_FE6(){} // RVA: 0x50C97B0
+        public void m_6F8(){} // RVA: 0x2DD310
         public void m_6EA(){} // RVA: 0x2DD310
     }
 
@@ -456,17 +456,17 @@ namespace VRC.Network
         public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C4EB0
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C45D0
         public void InitializeCollection(){} // RVA: 0x2DD310
-        public void MemSet(){} // RVA: 0x2DD310
         public void CalculateQuaternionDelta(){} // RVA: 0x50C4F30
         public void Clear(){} // RVA: 0x50C4700
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C5020
         public void .ctor(){} // RVA: 0x50C51F0 | overloaded x2
         public void Initialize(){} // RVA: 0x2DD310
         public void set_Item(){} // RVA: 0x50C20D0
         public void Add(){} // RVA: 0x50C21E0
         public void ToString(){} // RVA: 0x50C5180
         // ── Unresolved (hash) ──
-        public void m_FE6(){} // RVA: 0x50C5020
+        public void m_6F8(){} // RVA: 0x2DD310
         public void m_6EA(){} // RVA: 0x2DD310
     }
 
@@ -483,17 +483,17 @@ namespace VRC.Network
         public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
         public void InitializeCollection(){} // RVA: 0x2DD310
-        public void MemSet(){} // RVA: 0x2DD310
         public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
         public void Clear(){} // RVA: 0x50C1E90
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C6F20
         public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
         public void Initialize(){} // RVA: 0x2DD310
         public void set_Item(){} // RVA: 0x50C20D0
         public void Add(){} // RVA: 0x50C21E0
         public void ToString(){} // RVA: 0x50C7090
         // ── Unresolved (hash) ──
-        public void m_FE6(){} // RVA: 0x50C6F20
+        public void m_6F8(){} // RVA: 0x2DD310
         public void m_6EA(){} // RVA: 0x2DD310
     }
 
@@ -510,17 +510,17 @@ namespace VRC.Network
         public void RotateVectorByInverseQuaternion(){} // RVA: 0x50C6D90
         public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x50C6E60
         public void InitializeCollection(){} // RVA: 0x2DD310
-        public void MemSet(){} // RVA: 0x2DD310
         public void CalculateQuaternionDelta(){} // RVA: 0x50C6E80
         public void Clear(){} // RVA: 0x50C1E90
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void MemSet(){} // RVA: 0x50C6F20
         public void .ctor(){} // RVA: 0x50C70D0 | overloaded x2
         public void Initialize(){} // RVA: 0x2DD310
         public void set_Item(){} // RVA: 0x50C20D0
         public void Add(){} // RVA: 0x50C21E0
         public void ToString(){} // RVA: 0x50C7090
         // ── Unresolved (hash) ──
-        public void m_FE6(){} // RVA: 0x50C6F20
+        public void m_6F8(){} // RVA: 0x2DD310
         public void m_6EA(){} // RVA: 0x2DD310
     }
 
@@ -532,8 +532,8 @@ namespace VRC.Network
         public void Clear(){} // RVA: 0x24A50
         public void Dispose(){} // RVA: 0x24A50
         public void Cleanup(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
+        public void MemSet(){} // RVA: 0x24A50
         public void GetEnumerator(){} // RVA: 0xCD60
         public void set_Item(){} // RVA: 0x24B10
         public void get_Item(){} // RVA: 0x24B10
@@ -545,7 +545,7 @@ namespace VRC.Network
         public void Add(){} // RVA: 0x24B10
         public void get_IsReadOnly_AED38E2C7EAF(){} // RVA: 0xDBE0
         // ── Unresolved (hash) ──
-        public void m_FE6(){} // RVA: 0x24A50
+        public void m_EF2(){} // RVA: 0x24A50
         public void m_E6E(){} // RVA: 0x24A50
         public void m_FF1(){} // RVA: 0x24B10
         public void m_E9D(){} // RVA: 0x24B10
@@ -560,12 +560,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0x283FA0
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0xDBE0
         public void set_Color(){} // RVA: 0x25130
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0xDBE0
         public void get_Flags(){} // RVA: 0xDBE0
         public void set_Flags(){} // RVA: 0x25130
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void Add(){} // RVA: 0x24B10
         public void Read(){} // RVA: 0x283FA0
@@ -573,7 +573,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x24A50
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x24A50
         public void m_9D7(){} // RVA: 0x24A50
     }
@@ -585,12 +585,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0x263BC0
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x5101930
         public void set_Color(){} // RVA: 0x5101960
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x4EF5960
         public void set_Flags(){} // RVA: 0x4EF50F0
+        public void MemSet(){} // RVA: 0x51019E0
         public void Clear(){} // RVA: 0x5101D00
         public void Add(){} // RVA: 0x51030A0
         public void Read(){} // RVA: 0x263BC0
@@ -598,7 +598,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x51019E0
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x5101B00
         public void m_9D7(){} // RVA: 0x5101BF0
     }
@@ -610,12 +610,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0x263BC0
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x5101930
         public void set_Color(){} // RVA: 0x5101960
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x4EF5960
         public void set_Flags(){} // RVA: 0x4EF50F0
+        public void MemSet(){} // RVA: 0x51019E0
         public void Clear(){} // RVA: 0x5101D00
         public void Add(){} // RVA: 0x51030A0
         public void Read(){} // RVA: 0x263BC0
@@ -623,7 +623,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x51019E0
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x5101B00
         public void m_9D7(){} // RVA: 0x5101BF0
     }
@@ -635,12 +635,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xDBE0
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50F9810
         public void Clear(){} // RVA: 0x50F9AF0
         public void Add(){} // RVA: 0x50FAD90
         public void Read(){} // RVA: 0x50C1CB0
@@ -648,7 +648,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50F9810
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50F98F0
         public void m_9D7(){} // RVA: 0x50F99E0
     }
@@ -660,12 +660,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -673,7 +673,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -685,12 +685,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -698,7 +698,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -710,12 +710,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -723,7 +723,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -735,12 +735,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FB220
         public void Clear(){} // RVA: 0x50FB500
         public void Add(){} // RVA: 0x50FC6E0
         public void Read(){} // RVA: 0x50C1CB0
@@ -748,7 +748,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FB220
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FB300
         public void m_9D7(){} // RVA: 0x50FB3F0
     }
@@ -760,12 +760,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -773,7 +773,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -785,12 +785,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -798,7 +798,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -810,12 +810,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -823,7 +823,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -835,12 +835,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -848,7 +848,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -860,12 +860,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -873,7 +873,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -885,12 +885,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -898,7 +898,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -910,12 +910,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -923,7 +923,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -935,12 +935,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -948,7 +948,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -960,12 +960,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -973,7 +973,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -985,12 +985,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -998,7 +998,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1010,12 +1010,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1023,7 +1023,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1035,12 +1035,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1048,7 +1048,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1060,12 +1060,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1073,7 +1073,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1085,12 +1085,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1098,7 +1098,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1110,12 +1110,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1123,7 +1123,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1135,12 +1135,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1148,7 +1148,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1160,12 +1160,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1173,7 +1173,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1185,12 +1185,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0x21890
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FFEF0
         public void Clear(){} // RVA: 0x51001D0
         public void Add(){} // RVA: 0x5101490
         public void Read(){} // RVA: 0x50C1CB0
@@ -1198,7 +1198,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FFEF0
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FFFD0
         public void m_9D7(){} // RVA: 0x51000C0
     }
@@ -1210,12 +1210,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1223,7 +1223,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1235,12 +1235,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1248,7 +1248,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1260,12 +1260,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1273,7 +1273,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1285,12 +1285,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1298,7 +1298,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1310,12 +1310,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1323,7 +1323,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1335,12 +1335,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1348,7 +1348,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1360,12 +1360,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1373,7 +1373,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1385,12 +1385,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1398,7 +1398,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1410,12 +1410,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1423,57 +1423,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
-        public void m_986(){} // RVA: 0x50FCC50
-        public void m_9D7(){} // RVA: 0x50FCD40
-    }
-
-    /// <summary>Originally: ÏÍÎÏÍÍÏÏÌÌÎÍÎÍÏÌÎÎÏÌÏÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_4FDE
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
-        public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
-        public void set_Color(){} // RVA: 0x303460
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void get_Flags(){} // RVA: 0x303470
-        public void set_Flags(){} // RVA: 0x303480
-        public void Clear(){} // RVA: 0x50FE7A0
-        public void Add(){} // RVA: 0x50FFA50
-        public void Read(){} // RVA: 0x50C1CB0
-        public void .ctor(){} // RVA: 0x5068610
-        // ── Unresolved (hash) ──
-        public void m_116(){} // RVA: 0xCD60
-        public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FE4C0
-        public void m_986(){} // RVA: 0x50FE5A0
-        public void m_9D7(){} // RVA: 0x50FE690
-    }
-
-    /// <summary>Originally: ÏÍÎÏÍÍÏÏÌÌÎÍÎÍÏÌÎÎÏÌÏÏÎ</summary>
-    public class NetworkItem_722FSiblingSiblingSibling_4FDE
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0xD840
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
-        public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
-        public void set_Color(){} // RVA: 0x303460
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void get_Flags(){} // RVA: 0x303470
-        public void set_Flags(){} // RVA: 0x303480
-        public void Clear(){} // RVA: 0x50FCE50
-        public void Add(){} // RVA: 0x50FE030
-        public void Read(){} // RVA: 0x50C1CB0
-        public void .ctor(){} // RVA: 0x5085970
-        // ── Unresolved (hash) ──
-        public void m_116(){} // RVA: 0xCD60
-        public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1485,12 +1435,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xCD60
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FE4C0
         public void Clear(){} // RVA: 0x50FE7A0
         public void Add(){} // RVA: 0x50FFA50
         public void Read(){} // RVA: 0x50C1CB0
@@ -1498,7 +1448,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FE4C0
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FE5A0
         public void m_9D7(){} // RVA: 0x50FE690
     }
@@ -1510,12 +1460,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1523,7 +1473,57 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
+        public void m_986(){} // RVA: 0x50FCC50
+        public void m_9D7(){} // RVA: 0x50FCD40
+    }
+
+    /// <summary>Originally: ÏÍÎÏÍÍÏÏÌÌÎÍÎÍÏÌÎÎÏÌÏÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_4FDE
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0xCD60
+        public void GetEnumerator(){} // RVA: 0xCD60
+        public void get_IsReadOnly(){} // RVA: 0xDBE0
+        public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
+        public void set_Color(){} // RVA: 0x303460
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void get_Flags(){} // RVA: 0x303470
+        public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FE4C0
+        public void Clear(){} // RVA: 0x50FE7A0
+        public void Add(){} // RVA: 0x50FFA50
+        public void Read(){} // RVA: 0x50C1CB0
+        public void .ctor(){} // RVA: 0x5068610
+        // ── Unresolved (hash) ──
+        public void m_116(){} // RVA: 0xCD60
+        public void m_8EF(){} // RVA: 0xCD60
+        public void m_B3F(){} // RVA: 0x24A50
+        public void m_986(){} // RVA: 0x50FE5A0
+        public void m_9D7(){} // RVA: 0x50FE690
+    }
+
+    /// <summary>Originally: ÏÍÎÏÍÍÏÏÌÌÎÍÎÍÏÌÎÎÏÌÏÏÎ</summary>
+    public class NetworkItem_722FSiblingSiblingSibling_4FDE
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0xD840
+        public void GetEnumerator(){} // RVA: 0xCD60
+        public void get_IsReadOnly(){} // RVA: 0xDBE0
+        public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
+        public void set_Color(){} // RVA: 0x303460
+        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
+        public void get_Flags(){} // RVA: 0x303470
+        public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
+        public void Clear(){} // RVA: 0x50FCE50
+        public void Add(){} // RVA: 0x50FE030
+        public void Read(){} // RVA: 0x50C1CB0
+        public void .ctor(){} // RVA: 0x5085970
+        // ── Unresolved (hash) ──
+        public void m_116(){} // RVA: 0xCD60
+        public void m_8EF(){} // RVA: 0xCD60
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1535,12 +1535,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1548,7 +1548,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1560,12 +1560,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1573,7 +1573,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1585,12 +1585,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1598,7 +1598,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1610,12 +1610,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1623,7 +1623,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1635,12 +1635,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1648,7 +1648,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1660,12 +1660,12 @@ namespace VRC.Network
         public void get_Count(){} // RVA: 0xD840
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_IsReadOnly_D2F6719F6C92(){} // RVA: 0x303450
         public void set_Color(){} // RVA: 0x303460
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void get_Flags(){} // RVA: 0x303470
         public void set_Flags(){} // RVA: 0x303480
+        public void MemSet(){} // RVA: 0x50FCB70
         public void Clear(){} // RVA: 0x50FCE50
         public void Add(){} // RVA: 0x50FE030
         public void Read(){} // RVA: 0x50C1CB0
@@ -1673,7 +1673,7 @@ namespace VRC.Network
         // ── Unresolved (hash) ──
         public void m_116(){} // RVA: 0xCD60
         public void m_8EF(){} // RVA: 0xCD60
-        public void m_9BD(){} // RVA: 0x50FCB70
+        public void m_B3F(){} // RVA: 0x24A50
         public void m_986(){} // RVA: 0x50FCC50
         public void m_9D7(){} // RVA: 0x50FCD40
     }
@@ -1722,10 +1722,10 @@ namespace VRC.Network
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void Clear(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
         public void m_E9D(){} // RVA: 0x24B10
         public void m_A66(){} // RVA: 0x24B10
+        public void m_FE6(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÏÎÌÍÍÎÏÏÏÎÎÎÎÌÌÏÎÎÏÍÏÏÎ</summary>

@@ -174,7 +174,7 @@ namespace VRC.Internal.Generated
         public void Clear(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
         public void m_8B5(){} // RVA: 0x24B10
-        public void m_E66(){} // RVA: 0x24A50
+        public void m_25E(){} // RVA: 0x24A50
         public void m_5A5(){} // RVA: 0x24A50
         public void m_A4B(){} // RVA: 0x24A50
         public void m_C53(){} // RVA: 0x24A50
@@ -552,10 +552,10 @@ namespace VRC.Internal.Generated
         public void InitializeCollection(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
         public void Initialize(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
+        public void MemSet(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_B12(){} // RVA: 0x24A50
+        public void m_762(){} // RVA: 0x24A50
         public void m_44F(){} // RVA: 0x24A50
     }
 

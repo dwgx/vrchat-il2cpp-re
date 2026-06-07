@@ -107,27 +107,28 @@ namespace VRC.Rendering
     {
         // ── Methods ──
         public void GetLightProbeProxyVolumeOverride(){} // RVA: 0x8DBC280
-        public void GetLightProbeProxyVolumeOverride_EB373E6C15B1(){} // RVA: 0x8DBC2F0
-        public void GetLocalBounds(){} // RVA: 0x8DBC420
-        public void GetLocalBounds_B481F8E4EBDE(){} // RVA: 0x8DBC750
+        public void GetLocalBounds(){} // RVA: 0x8DBC750
         public void StringType(){} // RVA: 0x37E0E0
         public void Start(){} // RVA: 0x8DBC8C0
         public void GetMaterial(){} // RVA: 0x8DBCAB0
         public void GetMaterial_799508423D5B(){} // RVA: 0x8DBCB10
         public void GetMaterialArray(){} // RVA: 0x8DBCC40
-        public void GetMaterialArray_67A59A64FE46(){} // RVA: 0x8DBCF30
-        public void GetLightmapIndex(){} // RVA: 0x8DBD4D0
-        public void GetLightmapIndex_72331E2D0227(){} // RVA: 0x8DBD530
-        public void GetLightmapIndex_A08CDD3CF0B7(){} // RVA: 0x8DBD620
-        public void GetLightmapIndex_6BBF7A1E5E2E(){} // RVA: 0x8DBD950
-        public void GetRenderingLayerMask(){} // RVA: 0x8DBDE70
-        public void GetRenderingLayerMask_F767BE6C30C4(){} // RVA: 0x8DBDFF0
+        public void GetLightmapIndex(){} // RVA: 0x8DBD950
+        public void GetRenderingLayerMask(){} // RVA: 0x8DBDFF0
         public void Cleanup(){} // RVA: 0x30B0C0
         public void GetShadowCastingMode(){} // RVA: 0x8DBE350
         public void .ctor(){} // RVA: 0x8DBE660
         public void Initialize(){} // RVA: 0x8DBE880
         public void GetSortingOrder(){} // RVA: 0x8DBEBB0
         public void GetTrailMaterial(){} // RVA: 0x8DBEE30
+        // ── Unresolved (hash) ──
+        public void m_EB3(){} // RVA: 0x8DBC2F0
+        public void m_B31(){} // RVA: 0x8DBC420
+        public void m_67A(){} // RVA: 0x8DBCF30
+        public void m_EED(){} // RVA: 0x8DBD4D0
+        public void m_723(){} // RVA: 0x8DBD530
+        public void m_A08(){} // RVA: 0x8DBD620
+        public void m_838(){} // RVA: 0x8DBDE70
     }
 
     /// <summary>Originally: ÎÎÏÎÍÏÍÍÌÌÌÏÍÌÏÌÎÌÌÍÎÎÏ</summary>

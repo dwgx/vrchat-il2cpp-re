@@ -1015,7 +1015,6 @@ namespace VRC.Misc
         public void Start_C9ED83B2DF2E(){} // RVA: 0xCD60
         public void .ctor(){} // RVA: 0x24A50 | overloaded x2
         public void HandleTouchpadPress(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void OnCollisionExit_2D42AC4F82B4(){} // RVA: 0x24A50
         public void StartCoroutine_Auto(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
@@ -1026,6 +1025,7 @@ namespace VRC.Misc
         public void RefreshOVRTouchpadHelperSiblin_7D1B1F0F88C9(){} // RVA: 0x25130
         // ── Unresolved (hash) ──
         public void m_794(){} // RVA: 0x24B10
+        public void m_8B3(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÏÏÍÌÎÍÏÍÌÏÍÌÏÏÍÎÏÌÍÎÏÏÌ</summary>
@@ -1040,7 +1040,6 @@ namespace VRC.Misc
         public void Start_C9ED83B2DF2E(){} // RVA: 0x30B0C0
         public void .ctor(){} // RVA: 0x570B20 | overloaded x2
         public void HandleTouchpadPress(){} // RVA: 0x514F0C0
-        public void MemSet(){} // RVA: 0x514F400
         public void OnCollisionExit_2D42AC4F82B4(){} // RVA: 0x514EE30
         public void StartCoroutine_Auto(){} // RVA: 0x514EE10
         public void Clear(){} // RVA: 0x514F4F0
@@ -1051,6 +1050,7 @@ namespace VRC.Misc
         public void RefreshOVRTouchpadHelperSiblin_7D1B1F0F88C9(){} // RVA: 0x514EE50
         // ── Unresolved (hash) ──
         public void m_794(){} // RVA: 0x514F370
+        public void m_8B3(){} // RVA: 0x514F400
     }
 
     /// <summary>Originally: ÏÏÍÌÎÍÏÍÌÏÍÌÏÏÍÎÏÌÍÎÏÏÌ</summary>
@@ -1065,7 +1065,6 @@ namespace VRC.Misc
         public void Start_C9ED83B2DF2E(){} // RVA: 0x30B0C0
         public void .ctor(){} // RVA: 0x570B20 | overloaded x2
         public void HandleTouchpadPress(){} // RVA: 0x514F0C0
-        public void MemSet(){} // RVA: 0x514F400
         public void OnCollisionExit_2D42AC4F82B4(){} // RVA: 0x514EE30
         public void StartCoroutine_Auto(){} // RVA: 0x514EE10
         public void Clear(){} // RVA: 0x514F4F0
@@ -1076,6 +1075,7 @@ namespace VRC.Misc
         public void RefreshOVRTouchpadHelperSiblin_7D1B1F0F88C9(){} // RVA: 0x514EE50
         // ── Unresolved (hash) ──
         public void m_794(){} // RVA: 0x514F370
+        public void m_8B3(){} // RVA: 0x514F400
     }
 
     /// <summary>Originally: ÏÍÏÎÎÏÎÌÌÏÏÌÌÏÏÏÍÏÏÍÌÌÍ</summary>

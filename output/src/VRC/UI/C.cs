@@ -45,13 +45,14 @@ namespace VRC.UI
         // ── Methods ──
         public void ClampInputAxes(){} // RVA: 0x10A6880
         public void ClampInputAxes_C692DDA62106(){} // RVA: 0x10A69C0
-        public void UpdateInputAxesFromTransform(){} // RVA: 0x10A6B00
-        public void UpdateInputAxesFromTransform_88871864AED5(){} // RVA: 0x10A6B60
-        public void UpdateInputAxesFromTransform_F08BCD27C277(){} // RVA: 0x10A6BC0
         public void GetTargetTexture(){} // RVA: 0x10A6C20
         public void .ctor(){} // RVA: 0x2DD310
-        public void UpdateInputAxesFromTransform_888FBC4DDF2E(){} // RVA: 0x10A6D60
+        public void Initialize(){} // RVA: 0x10A6D60
         public void GetTargetTexture_0E1034899A06(){} // RVA: 0x10A6DC0
+        // ── Unresolved (hash) ──
+        public void m_CAA(){} // RVA: 0x10A6B00
+        public void m_888(){} // RVA: 0x10A6B60
+        public void m_F08(){} // RVA: 0x10A6BC0
     }
 
     /// <summary>Originally: ÎÌÎÍÏÎÍÏÎÌÏÏÎÌÏÏÌÎÌÌÏÎÌ</summary>

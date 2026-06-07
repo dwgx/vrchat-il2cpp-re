@@ -196,9 +196,10 @@ output/sibling_batches/
 output/sibling_preds/
 output/llm_batches_hexrays_r2/
 
-# === Cross-version backups (regenerable) ===
+# === Cross-version / prediction backups (regenerable, do not version) ===
 output/cross_version_method_names.pre_*.json
 output/cross_version_method_names.*backup*.json
+output/llm_predicted_names.pre_*.json
 
 # === LLM neighbor batches (6K+ files, regenerable) ===
 output/llm_batches_neighbor/
@@ -209,3 +210,9 @@ output/audit_batches/
 # === Worker logs ===
 output/audit_worker_*.log
 output/worker_*.log
+
+# === IDA run logs (machine-generated, contain local temp paths) ===
+output/ida_logs/
+
+# === Codex task spec scratch files ===
+output/_codex_*.md

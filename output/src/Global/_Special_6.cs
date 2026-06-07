@@ -41,7 +41,6 @@ public class <>c
 {
     // ── Methods ──
     public void op_Implicit(){} // RVA: 0x8BCEA10
-    public void TryCopyTo(){} // RVA: 0x8BCEC30
     public void ContainsChild_F32F20(){} // RVA: 0x8BCED40
     public void OnBecameInvisible(){} // RVA: 0x8BCEE50
     public void Instantiate(){} // RVA: 0x8BCF070
@@ -51,6 +50,7 @@ public class <>c
     public void Equals_86E9DF89CDF2(){} // RVA: 0x8BCF440
     // ── Unresolved (hash) ──
     public void m_ECC(){} // RVA: 0x8BCEB20
+    public void m_D6E(){} // RVA: 0x8BCEC30
     public void m_9C8(){} // RVA: 0x8BCEF60
     public void m_117(){} // RVA: 0x8BCF180
     public void m_100(){} // RVA: 0x8BCF550

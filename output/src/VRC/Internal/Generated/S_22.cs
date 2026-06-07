@@ -256,20 +256,20 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
         public void GetEnumerator(){} // RVA: 0xCD60
         public void CopyTo(){} // RVA: 0x2BAA0
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void Add(){} // RVA: 0x24B10
         public void set_Item(){} // RVA: 0x26EE0
         public void Clear(){} // RVA: 0x24A50
-        public void Insert(){} // RVA: 0x24A50
-        public void RemoveAt(){} // RVA: 0x24A50
-        public void get_IsReadOnly(){} // RVA: 0xCD60
         public void Remove(){} // RVA: 0xDE40
         // ── Unresolved (hash) ──
         public void m_A99(){} // RVA: 0xCD60
+        public void m_435(){} // RVA: 0xCD60
         public void m_4ED(){}
+        public void m_940(){} // RVA: 0x24A50
+        public void m_17A(){} // RVA: 0x24A50
+        public void m_EF1(){} // RVA: 0xCD60
     }
 
     /// <summary>Originally: ÎÎÏÌÍÍÏÍÎÎÎÎÎÎÍÌÌÍÎÏÎÏÍ</summary>
@@ -411,6 +411,7 @@ namespace VRC.Internal.Generated
         public void GetEnumerator(){} // RVA: 0xCD60
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void Add(){} // RVA: 0x24B10
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void CreateCollection(){} // RVA: 0x2F090
         public void AwaitUnsafeOnCompleted_03F2CED4748F(){} // RVA: 0x2DC60
@@ -425,7 +426,6 @@ namespace VRC.Internal.Generated
         public void m_27B(){} // RVA: 0xCD60
         public void m_4B8(){} // RVA: 0xCD60
         public void m_F85(){} // RVA: 0xCD60
-        public void m_96D(){} // RVA: 0x24A50
         public void m_9B7(){} // RVA: 0x24B10
         public void m_C9D(){}
         public void m_A3E(){}
@@ -562,7 +562,7 @@ namespace VRC.Internal.Generated
         public void Initialize(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_871(){} // RVA: 0x24A50
+        public void m_470(){} // RVA: 0x24A50
         public void m_457(){} // RVA: 0x24A50
         public void m_4CA(){} // RVA: 0x24A50
     }
@@ -572,12 +572,12 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void InitializeCollection(){} // RVA: 0x50916B0
-        public void MemSet(){} // RVA: 0x5091860
+        public void MemSet(){} // RVA: 0x5091A10
         public void .ctor(){} // RVA: 0x19B3510
         public void Initialize(){} // RVA: 0x5091BC0
         public void Clear(){} // RVA: 0x50920D0
         // ── Unresolved (hash) ──
-        public void m_871(){} // RVA: 0x5091A10
+        public void m_470(){} // RVA: 0x5091860
         public void m_457(){} // RVA: 0x5091D70
         public void m_4CA(){} // RVA: 0x5091F20
     }
@@ -587,12 +587,12 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void InitializeCollection(){} // RVA: 0x5090B30
-        public void MemSet(){} // RVA: 0x5090CD0
+        public void MemSet(){} // RVA: 0x5090E70
         public void .ctor(){} // RVA: 0x820840
         public void Initialize(){} // RVA: 0x5091010
         public void Clear(){} // RVA: 0x5091500
         // ── Unresolved (hash) ──
-        public void m_871(){} // RVA: 0x5090E70
+        public void m_470(){} // RVA: 0x5090CD0
         public void m_457(){} // RVA: 0x50911C0
         public void m_4CA(){} // RVA: 0x5091360
     }
@@ -602,12 +602,12 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void InitializeCollection(){} // RVA: 0x50916B0
-        public void MemSet(){} // RVA: 0x5091860
+        public void MemSet(){} // RVA: 0x5091A10
         public void .ctor(){} // RVA: 0x19B3510
         public void Initialize(){} // RVA: 0x5091BC0
         public void Clear(){} // RVA: 0x50920D0
         // ── Unresolved (hash) ──
-        public void m_871(){} // RVA: 0x5091A10
+        public void m_470(){} // RVA: 0x5091860
         public void m_457(){} // RVA: 0x5091D70
         public void m_4CA(){} // RVA: 0x5091F20
     }

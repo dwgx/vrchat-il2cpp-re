@@ -925,7 +925,6 @@ namespace VRC.Misc
     public class ApplicationHandler_6270
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x2DD310
         public void OpenURL(){} // RVA: 0x1602860
         public void OnDestroy(){} // RVA: 0x1602970
         public void OpenURL_3D907633C955(){} // RVA: 0x1602AA0
@@ -935,13 +934,13 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x1604470
         public void OpenURL_3D907633C955_6B3E81FCD57E(){} // RVA: 0x1602AA0
-        // ── 31 unresolved (hash) ──
+        // ── 32 unresolved (hash) ──
         public void m_86F(){} // RVA: 0x1601BD0
         public void m_BD4(){} // RVA: 0x1601C40
+        public void m_3EC(){} // RVA: 0x2DD310
         public void m_8C5(){} // RVA: 0x1601EF0
         public void m_1F8(){} // RVA: 0x1601F40
-        public void m_A85(){} // RVA: 0x1602000
-        // ... 26 more unresolved methods
+        // ... 27 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÏÍÌÌÌÌÎÎÏÎÏÍÎÍÏÏÍÏÍÌ</summary>

@@ -41,16 +41,17 @@ namespace VRC.Network
     public class VRCNetworkBehaviourSibling_BF5Sibling_8C6F
     {
         // ── Methods ──
-        public void AllocateBuffer(){} // RVA: 0x20161C0
-        public void InitializeBuffer(){} // RVA: 0x2016350
-        public void EnsureCapacity(){} // RVA: 0x20164E0
-        public void ClearBuffer(){} // RVA: 0x2016550
-        public void ReleaseBuffer(){} // RVA: 0x20165C0
         public void Dispose(){} // RVA: 0x2016630
         public void Cleanup(){} // RVA: 0x20166A0
-        public void CleanupBuffer(){} // RVA: 0x2016830
-        public void DisposeBuffer(){} // RVA: 0x20168A0
-        public void ResizeBuffer(){} // RVA: 0x2016A30
+        // ── Unresolved (hash) ──
+        public void m_410(){} // RVA: 0x20161C0
+        public void m_C01(){} // RVA: 0x2016350
+        public void m_6EA(){} // RVA: 0x20164E0
+        public void m_6F8(){} // RVA: 0x2016550
+        public void m_F2B(){} // RVA: 0x20165C0
+        public void m_552(){} // RVA: 0x2016830
+        public void m_EEE(){} // RVA: 0x20168A0
+        public void m_937(){} // RVA: 0x2016A30
     }
 
     /// <summary>Originally: ÏÏÏÎÎÍÌÎÎÎÍÍÏÏÎÏÌÎÌÌÌÏÍ</summary>
@@ -92,14 +93,15 @@ namespace VRC.Network
     {
         // ── Methods ──
         public void GetRealtimeSinceStartup(){} // RVA: 0x1F22F10
-        public void GetNetworkBehaviourValue(){} // RVA: 0x1F23160
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
-        public void InterpolatePosition(){} // RVA: 0x1F233B0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void GetNetworkBehaviourIndex(){} // RVA: 0x1F23600
-        public void SetNetworkBehaviourValue(){} // RVA: 0x1F23850
-        public void GetNetworkBehaviourValue_55E424353A49(){} // RVA: 0x1F23AA0
-        public void SetNetworkBehaviourValue_AEE5EECFBEE7(){} // RVA: 0x1F23CF0
+        // ── Unresolved (hash) ──
+        public void m_45A(){} // RVA: 0x1F23160
+        public void m_CB6(){} // RVA: 0x19689C0
+        public void m_96F(){} // RVA: 0x1F233B0
+        public void m_77C(){} // RVA: 0x1F23600
+        public void m_536(){} // RVA: 0x1F23850
+        public void m_55E(){} // RVA: 0x1F23AA0
+        public void m_AEE(){} // RVA: 0x1F23CF0
     }
 
     /// <summary>Originally: ÏÏÏÏÏÌÎÍÏÎÌÌÎÎÍÌÏÏÎÌÍÎÏ</summary>

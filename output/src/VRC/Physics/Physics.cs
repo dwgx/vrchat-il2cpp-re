@@ -90,14 +90,9 @@ namespace VRC.Physics
         // ── Methods ──
         public void GetReferenceAngle(){} // RVA: 0x8AD1250
         public void GetReferenceAngle_C76983A4B38D(){} // RVA: 0x8AD1250
-        public void GetReferenceAngle_8987028D9FCC(){} // RVA: 0x8AD1280
-        public void SetReferenceAngle(){} // RVA: 0x8AD12A0
         public void Initialize(){} // RVA: 0x8AD1D40 | overloaded x2
-        public void Sort(){} // RVA: 0x8AD1440
         public void IntrospectiveSort(){} // RVA: 0x8AD1500
         public void InsertionSort_77307958DF29(){} // RVA: 0x8AD1770
-        public void GetReferenceAngle_ABDFED0C8D2D(){} // RVA: 0x8AD1280
-        public void GetReferenceAngle_6048F59A3F8A(){} // RVA: 0x8AD1280
         public void InsertionSort(){} // RVA: 0x8AD1800
         public void InsertionSort_29269F7509F3(){} // RVA: 0x8AD1850
         public void SwapElements(){} // RVA: 0x8AD1A50
@@ -107,7 +102,12 @@ namespace VRC.Physics
         public void SwapIfGreater(){} // RVA: 0x8AD2060
         public void SetConnectedAnchor(){} // RVA: 0x8AD22E0
         // ── Unresolved (hash) ──
+        public void m_898(){} // RVA: 0x8AD1280
+        public void m_C85(){} // RVA: 0x8AD12A0
+        public void m_E87(){} // RVA: 0x8AD1440
         public void m_2D1(){} // RVA: 0x8AD14E0
+        public void m_ABD(){} // RVA: 0x8AD1280
+        public void m_604(){} // RVA: 0x8AD1280
         public void m_299(){} // RVA: 0x8AD14E0
         public void m_773(){} // RVA: 0x8AD1770
     }
@@ -1051,17 +1051,16 @@ namespace VRC.Physics
         public void get_releaseStatus(){} // RVA: 0x348040
         public void OnDestroy(){} // RVA: 0xD4CEF0
         public void .cctor(){} // RVA: 0xD4DE60
-        public void TryCopyTo(){} // RVA: 0x283FA0
         public void .ctor(){} // RVA: 0xD50970
         public void Initialize(){} // RVA: 0x4C7C50
         public void Register(){} // RVA: 0x31C010
-        // ── 74 unresolved (hash) ──
+        // ── 75 unresolved (hash) ──
         public void m_9CA(){} // RVA: 0x462D00
         public void m_4F7(){} // RVA: 0xD460F0
         public void m_1A0(){} // RVA: 0xD46240
         public void m_5E6(){} // RVA: 0xD463B0
         public void m_A85(){} // RVA: 0xD465D0
-        // ... 69 more unresolved methods
+        // ... 70 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÏÎÏÎÎÌÏÍÌÍÍÎÌÏÎÏÌÏÌÍ</summary>
@@ -1168,16 +1167,16 @@ namespace VRC.Physics
     {
         // ── Methods ──
         public void SetCenter(){} // RVA: 0xBDB980
-        public void GetLocalScale(){} // RVA: 0xBDBC20
-        public void SetLocalScale(){} // RVA: 0xBDBCA0
-        public void GetCenter(){} // RVA: 0xBDBF40
         public void .ctor(){} // RVA: 0xBDC480
         public void Initialize(){} // RVA: 0xBDC5E0
-        public void GetPhysicsPosition(){} // RVA: 0xBDC880
-        public void GetPhysicsRotation(){} // RVA: 0xBDCB20
-        public void CopyPhysicsTransform(){} // RVA: 0xBDCB60
         // ── Unresolved (hash) ──
+        public void m_40F(){} // RVA: 0xBDBC20
         public void m_4F1(){} // RVA: 0xBDC1E0
+        public void m_6A9(){} // RVA: 0xBDBCA0
+        public void m_372(){} // RVA: 0xBDBF40
+        public void m_E1E(){} // RVA: 0xBDC880
+        public void m_50C(){} // RVA: 0xBDCB20
+        public void m_C30(){} // RVA: 0xBDCB60
     }
 
     /// <summary>Originally: ÎÎÏÍÍÍÎÍÎÍÎÍÌÎÎÏÎÌÍÌÏÌÍ</summary>

@@ -9,15 +9,16 @@ namespace VRC.Effects
     public class BehaviourEffector2DHandler_5969
     {
         // ── Methods ──
-        public void SetColliderMask(){} // RVA: 0x8ED60E0
-        public void SetEnabled(){} // RVA: 0x8ED6220
-        public void GetUseColliderMask(){} // RVA: 0x8ED6350
-        public void SetUseColliderMask(){} // RVA: 0x8ED6500
-        public void GetSurfaceArc(){} // RVA: 0x8ED6640
-        public void SetSurfaceArc(){} // RVA: 0x8ED67E0
-        public void GetForceMagnitude(){} // RVA: 0x8ED6910
         public void GetColliderMask(){} // RVA: 0x8ED6A50
         public void GetEnabled(){} // RVA: 0x8ED6B90
+        // ── Unresolved (hash) ──
+        public void m_327(){} // RVA: 0x8ED60E0
+        public void m_E0C(){} // RVA: 0x8ED6220
+        public void m_8FD(){} // RVA: 0x8ED6350
+        public void m_1FF(){} // RVA: 0x8ED6500
+        public void m_E9A(){} // RVA: 0x8ED6640
+        public void m_D27(){} // RVA: 0x8ED67E0
+        public void m_BCB(){} // RVA: 0x8ED6910
     }
 
     /// <summary>Originally: ÌÏÎÍÏÎÏÏÏÌÍÍÍÏÏÍÏÌÌÎÍÍÍ</summary>
@@ -194,8 +195,7 @@ namespace VRC.Effects
     public class EffectBundleIDIsSpecialFXSibling_02C3
     {
         // ── Methods ──
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0xF50860
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent_377432875A89(){} // RVA: 0x3480B0
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
         public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent_CA8FB71474BC(){} // RVA: 0x3480B0
         public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
         public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent_EC621FB7C6C3(){} // RVA: 0x3480C0
@@ -205,6 +205,7 @@ namespace VRC.Effects
         public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent_028D8D1421E7(){} // RVA: 0x3480B0
         public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent_F2BEE27B35F5(){} // RVA: 0x3480B0
         // ── Unresolved (hash) ──
+        public void m_A77(){} // RVA: 0xF50860
         public void m_E5F(){} // RVA: 0xF50B70
         public void m_5CC(){} // RVA: 0xF50E70
         public void m_C29(){} // RVA: 0xF51480

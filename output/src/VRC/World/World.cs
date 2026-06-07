@@ -151,15 +151,10 @@ namespace VRC.World
     public class UserRoomRectComponent_F0A4
     {
         // ── Methods ──
-        public void OnCollisionExit(){} // RVA: 0x8D74650
-        public void OnTriggerEnter(){} // RVA: 0x8D746C0
-        public void OnTriggerStay(){} // RVA: 0x8D74770
-        public void OnTriggerExit(){} // RVA: 0x8D74810
         public void Awake(){} // RVA: 0x8D749E0
         public void .ctor(){} // RVA: 0x8D74A10
         public void Start(){} // RVA: 0x8D74B70
         public void Update(){} // RVA: 0x8D74C10
-        public void OnControllerColliderHit(){} // RVA: 0x2DD320
         public void LateUpdate(){} // RVA: 0x8D74D20
         public void OnDisable(){} // RVA: 0x8D749E0
         public void OnDestroy(){} // RVA: 0x8D75080
@@ -172,6 +167,11 @@ namespace VRC.World
         // ── Unresolved (hash) ──
         public void m_E2F(){} // RVA: 0x8D74490
         public void m_752(){} // RVA: 0x8D74590
+        public void m_43A(){} // RVA: 0x8D74650
+        public void m_DBA(){} // RVA: 0x8D746C0
+        public void m_D85(){} // RVA: 0x8D74770
+        public void m_544(){} // RVA: 0x8D74810
+        public void m_D1C(){} // RVA: 0x2DD320
     }
 
     /// <summary>Originally: ÌÏÏÎÎÎÌÍÍÍÎÍÌÌÌÍÏÌÎÍÌÏÌ</summary>
@@ -189,7 +189,6 @@ namespace VRC.World
         public void Awake(){} // RVA: 0x1702E30
         public void Start(){} // RVA: 0x1703390
         public void Update(){} // RVA: 0x17034D0
-        public void Dispose(){} // RVA: 0x2DD310
         public void UseStation(){} // RVA: 0x17042C0
         public void DelegateConstructor(){} // RVA: 0x1704430
         public void SetLocalRotation(){} // RVA: 0x17045A0
@@ -212,13 +211,13 @@ namespace VRC.World
         public void .ctor(){} // RVA: 0x170B800
         public void .cctor(){} // RVA: 0x170BA30
         public void SetLocalRotation_6290FAEC7B4F(){} // RVA: 0x170BC40
-        // ── 21 unresolved (hash) ──
+        // ── 22 unresolved (hash) ──
         public void m_695(){} // RVA: 0x1702250
         public void m_94E(){} // RVA: 0x1702470
         public void m_F85(){} // RVA: 0x17026B0
         public void m_1B8(){} // RVA: 0x1702760
         public void m_56D(){} // RVA: 0x1702BA0
-        // ... 16 more unresolved methods
+        // ... 17 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÎÎÎÏÍÌÎÍÎÍÏÍÌÌÌÌÍÍÏÌÏ</summary>

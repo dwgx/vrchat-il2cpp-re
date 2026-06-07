@@ -82,13 +82,14 @@ namespace VRC.Core.Transform
         // ── Methods ──
         public void TryCopyTo(){} // RVA: 0x283FA0
         public void OnComponentAdded(){} // RVA: 0x9423FB0
-        public void AddComponent(){} // RVA: 0x9424040
-        public void RemoveComponent(){} // RVA: 0x94244C0
-        public void OnComponentRemoved(){} // RVA: 0x9424780
-        public void ContainsComponent(){} // RVA: 0x94248B0
-        public void ClearComponents(){} // RVA: 0x94249D0
-        public void GetComponents(){} // RVA: 0x9424D90
-        public void OnGameObjectDestroyed(){} // RVA: 0x9424E50
+        // ── Unresolved (hash) ──
+        public void m_182(){} // RVA: 0x9424040
+        public void m_6B7(){} // RVA: 0x94244C0
+        public void m_7FB(){} // RVA: 0x9424780
+        public void m_620(){} // RVA: 0x94248B0
+        public void m_30D(){} // RVA: 0x94249D0
+        public void m_251(){} // RVA: 0x9424D90
+        public void m_338(){} // RVA: 0x9424E50
     }
 
     /// <summary>Originally: ÏÏÌÍÎÌÍÏÌÎÏÎÏÏÍÎÏÌÎÏÏÏÎ</summary>
@@ -127,16 +128,17 @@ namespace VRC.Core.Transform
     {
         // ── Methods ──
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetActiveInHierarchy(){} // RVA: 0x13192E0
-        public void GetActiveInHierarchy_A360ACB7D6F5(){} // RVA: 0x1319380
+        public void GetActiveInHierarchy(){} // RVA: 0x1319380
         public void GetTransformChildCount_2DBFFC23A2EC(){} // RVA: 0x2F84E0
         public void .ctor(){} // RVA: 0x407350
         public void Initialize(){} // RVA: 0x1319420
         public void GetActiveInHierarchy_CDB9BFB33A6A(){} // RVA: 0x13194C0
-        public void GetActiveInHierarchy_BF7C42A8A4B7(){} // RVA: 0x1319560
         public void GetTransformChildCount_3FA4511FCF4F(){} // RVA: 0x2F84E0
-        public void GetActiveInHierarchy_D34A7C4C8FF4(){} // RVA: 0x1319600
         public void GetTransformChildCount_A7F7ED817A46(){} // RVA: 0x2F84E0
+        // ── Unresolved (hash) ──
+        public void m_D1E(){} // RVA: 0x13192E0
+        public void m_BF7(){} // RVA: 0x1319560
+        public void m_D34(){} // RVA: 0x1319600
     }
 
     /// <summary>Originally: ÍÌÎÌÌÍÍÍÍÎÏÍÌÌÎÎÍÏÎÌÏÌÏ</summary>

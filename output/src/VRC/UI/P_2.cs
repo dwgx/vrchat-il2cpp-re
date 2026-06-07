@@ -56,8 +56,8 @@ namespace VRC.UI
         public void set_value_CF4BB4E60A0D(){} // RVA: 0x325B0
         public void set_value_3E37C0B28AED(){} // RVA: 0x325B0
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
+        public void MemSet(){} // RVA: 0x24A50
         public void get_Current(){} // RVA: 0xC770
         public void get_Count(){} // RVA: 0xD840
         public void RemoveAt(){} // RVA: 0x24FA0
@@ -66,7 +66,7 @@ namespace VRC.UI
         // ── Unresolved (hash) ──
         public void m_F04(){} // RVA: 0x24B10
         public void m_F27(){} // RVA: 0x24B10
-        public void m_818(){} // RVA: 0x24A50
+        public void m_9FF(){} // RVA: 0x24A50
         public void m_25F(){} // RVA: 0x24A50
         public void m_D49(){} // RVA: 0x24B10
     }
@@ -132,19 +132,20 @@ namespace VRC.UI
         // ── Methods ──
         public void ReadCameraState(){} // RVA: 0x7AC2C0
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void OnPointerClick(){} // RVA: 0xEEFA80
         public void .ctor(){} // RVA: 0xF4AFD0
         public void ReadCameraState_60BC6280D4D8(){} // RVA: 0x9770D0
-        public void OnPointerEnter(){} // RVA: 0xEEFA80
-        public void OnPointerExit(){} // RVA: 0xF4B000
-        public void OnPointerDown(){} // RVA: 0xF4B0E0
         public void ReadCameraState_53773F778605(){} // RVA: 0x7AC2C0
-        public void OnPointerUp(){} // RVA: 0xF4B240
-        public void OnSelect(){} // RVA: 0xF4B320
         public void GetTransformChildCount_609445D97B38_9DB1D763DF49(){} // RVA: 0x30B0D0
         public void ReadCameraState_60B417C4B11F(){} // RVA: 0x7AC2C0
         public void get_FileId(){} // RVA: 0x9770D0
-        public void OnDeselect(){} // RVA: 0xF4B480
+        // ── Unresolved (hash) ──
+        public void m_AE9(){} // RVA: 0xEEFA80
+        public void m_8CC(){} // RVA: 0xEEFA80
+        public void m_C32(){} // RVA: 0xF4B000
+        public void m_90C(){} // RVA: 0xF4B0E0
+        public void m_BC4(){} // RVA: 0xF4B240
+        public void m_D45(){} // RVA: 0xF4B320
+        public void m_2FB(){} // RVA: 0xF4B480
     }
 
     /// <summary>Originally: ÏÍÍÍÏÏÎÏÏÌÎÌÌÍÍÌÌÌÍÍÏÏÏ</summary>
@@ -339,31 +340,32 @@ namespace VRC.UI
     public class PointerClickSubmit_CB08
     {
         // ── Methods ──
-        public void OnDeselect(){} // RVA: 0x8F49450
         public void Start(){} // RVA: 0x8F49570
         public void set_left(){} // RVA: 0xDA3F70
-        public void OnPointerDown(){} // RVA: 0x8F49710
         public void ComputeTransformFromBufferPosition(){} // RVA: 0x1686780
         public void set_isOn(){} // RVA: 0x74D71A0
-        public void OnPointerUp(){} // RVA: 0x8F49830
         public void ComputeTransformFromBufferPosition_FA06A15A2338(){} // RVA: 0x1686780
         public void DoInternal_ToAxis(){} // RVA: 0xD8E9B0
         public void LibOvrPlatform641(){} // RVA: 0x5FF2270
         public void DoInternal_ToAxis_2FFD0CCE6357(){} // RVA: 0xD8E9B0
         public void OnSubmit(){} // RVA: 0x8F49950
-        public void OnCancel(){} // RVA: 0x8F49A10
-        public void OnMove(){} // RVA: 0x8F49B30
         public void OnSelect(){} // RVA: 0x891B50
         public void UnityEngine.UI.ICanvasElement.get_transform(){} // RVA: 0x891B00
         public void OnPointerClick(){} // RVA: 0x8F49B90
         public void .ctor(){} // RVA: 0x8F49EE0
         public void Initialize(){} // RVA: 0x891B00
-        public void OnPointerEnter(){} // RVA: 0x8F49EF0
         public void get_left(){} // RVA: 0xA8E870
         public void DoInternal_ToAxis_54CE42A766FE(){} // RVA: 0xD8E9B0
         public void get_placeholder(){} // RVA: 0x507D10
         public void LibOvrPlatform641_7C7FD7CDE20D(){} // RVA: 0x5FF2270
-        public void OnPointerExit(){} // RVA: 0x8F4A130
+        // ── Unresolved (hash) ──
+        public void m_EA8(){} // RVA: 0x8F49450
+        public void m_B28(){} // RVA: 0x8F49710
+        public void m_149(){} // RVA: 0x8F49830
+        public void m_3E7(){} // RVA: 0x8F49A10
+        public void m_82D(){} // RVA: 0x8F49B30
+        public void m_D91(){} // RVA: 0x8F49EF0
+        public void m_B0C(){} // RVA: 0x8F4A130
     }
 
     /// <summary>Originally: ÏÏÏÌÎÌÍÏÏÏÍÍÍÏÎÍÎÏÎÏÏÌÎ</summary>
@@ -394,14 +396,14 @@ namespace VRC.UI
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8F00E00
         public void OnPointerClick(){} // RVA: 0x8F01070
-        public void OnPointerDown(){} // RVA: 0x8F01140
-        public void OnPointerUp(){} // RVA: 0x8F01210
-        public void OnPointerEnter(){} // RVA: 0x8F012E0
-        public void OnPointerExit(){} // RVA: 0x8F013B0
         // ── Unresolved (hash) ──
         public void m_2E0(){} // RVA: 0x8F00D30
         public void m_653(){} // RVA: 0x8F00ED0
         public void m_A3A(){} // RVA: 0x8F00FA0
+        public void m_B31(){} // RVA: 0x8F01140
+        public void m_E64(){} // RVA: 0x8F01210
+        public void m_B8F(){} // RVA: 0x8F012E0
+        public void m_F73(){} // RVA: 0x8F013B0
     }
 
     /// <summary>Originally: ÎÌÍÍÏÏÍÌÎÍÏÏÍÏÎÎÍÏÎÏÌÌÎ</summary>
@@ -599,20 +601,20 @@ namespace VRC.UI
     {
         // ── Methods ──
         public void Add(){} // RVA: 0x24B10
-        public void MemSet(){} // RVA: 0x24A50
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void get_IsReadOnly_AED34A3A3738(){} // RVA: 0xDBE0
         public void set_value(){} // RVA: 0x325B0
         public void GetExpectedContentHeight(){} // RVA: 0x21890
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
         public void m_B9F(){} // RVA: 0x24B10
+        public void m_19F(){} // RVA: 0x24A50
         public void m_17D(){}
         public void m_B38(){}
         public void m_F8E(){} // RVA: 0xCD60
         public void m_68E(){} // RVA: 0xCD60
-        public void m_8D6(){} // RVA: 0x24A50
         public void m_A57(){} // RVA: 0x24A50
     }
 
@@ -1874,12 +1876,9 @@ namespace VRC.UI
     public class PointerSubmitAuthenticationCodeIOpenTwoFactorAu_0531
     {
         // ── Methods ──
-        public void OnSubmitAuthenticationCode(){} // RVA: 0x18B8650
         public void AuthenticateWithDiscord(){} // RVA: 0x18B8780
         public void AccountLoginPressed(){} // RVA: 0x18B8A50
         public void Dispose(){} // RVA: 0x2DD310
-        public void OnTwoFactorAuthenticationCodeChanged(){} // RVA: 0x18B8F00
-        public void OnSubmitRecoveryCode(){} // RVA: 0x18B9090
         public void AuthenticateWithGoogle(){} // RVA: 0x18B96E0
         public void ReadComponentProperties(){} // RVA: 0x18B99B0
         public void .ctor(){} // RVA: 0x2DDD50
@@ -1890,10 +1889,7 @@ namespace VRC.UI
         public void AuthenticateWithPico(){} // RVA: 0x2DD310
         public void ShowAppropriateLoginPromptScreen(){} // RVA: 0x18BB220
         public void Update(){} // RVA: 0x18BB240
-        public void OpenTwoFactorAuthenticationHelpURL_917668510594(){} // RVA: 0x2DD310
-        public void ShowTwoFactorAuthenticationPrompt(){} // RVA: 0x18BB460
         public void Start(){} // RVA: 0x18BB590
-        public void HideTwoFactorAuthenticationPrompt(){} // RVA: 0x18BBD00
         public void GetStreamingAssetsPath(){} // RVA: 0x18BBE30
         public void GetStreamingAssetsPath_72EA30C0F25A(){} // RVA: 0x18BBF40
         public void IndexOf(){} // RVA: 0x18BC070
@@ -1908,6 +1904,13 @@ namespace VRC.UI
         public void ValidateAuthenticationCode(){} // RVA: 0x18BCA70
         public void AuthenticateWithSteam(){} // RVA: 0x18BCB60
         public void IndexOf_D5F6BB1C2554(){} // RVA: 0x18BCC20
+        // ── Unresolved (hash) ──
+        public void m_DDF(){} // RVA: 0x18B8650
+        public void m_E11(){} // RVA: 0x18B8F00
+        public void m_DFD(){} // RVA: 0x18B9090
+        public void m_917(){} // RVA: 0x2DD310
+        public void m_275(){} // RVA: 0x18BB460
+        public void m_EBE(){} // RVA: 0x18BBD00
     }
 
     /// <summary>Originally: ÎÏÏÍÎÌÌÎÏÌÌÏÏÏÌÌÍÍÍÌÌÎÍ</summary>

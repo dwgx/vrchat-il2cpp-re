@@ -133,19 +133,20 @@ namespace VRC.UI
     public class TextureUIHandler_96CB
     {
         // ── Methods ──
-        public void GetFilterMode(){} // RVA: 0x1517310
-        public void GetWrapMode(){} // RVA: 0x1517580
-        public void SetWrapModeU(){} // RVA: 0x1517580
-        public void SetWrapModeV(){} // RVA: 0x15175C0
-        public void SetWrapModeW(){} // RVA: 0x1517650
         public void .ctor(){} // RVA: 0x15176E0
         public void Initialize(){} // RVA: 0x1517CD0
-        public void GetWrapModeU(){} // RVA: 0x1517580
         public void SetFilterMode(){} // RVA: 0x1517EC0
         public void SetWrapMode(){} // RVA: 0x15180C0
-        public void GetWrapModeV(){} // RVA: 0x1518100
-        public void GetWrapModeW(){} // RVA: 0x1518140
         public void SetWrapMode_786B642CE9E1(){} // RVA: 0x15180C0
+        // ── Unresolved (hash) ──
+        public void m_239(){} // RVA: 0x1517310
+        public void m_CE5(){} // RVA: 0x1517580
+        public void m_5FA(){} // RVA: 0x1517580
+        public void m_CCD(){} // RVA: 0x15175C0
+        public void m_66D(){} // RVA: 0x1517650
+        public void m_064(){} // RVA: 0x1517580
+        public void m_455(){} // RVA: 0x1518100
+        public void m_F55(){} // RVA: 0x1518140
     }
 
     /// <summary>Originally: ÌÍÌÎÍÎÎÏÍÏÎÌÌÎÏÍÏÍÏÏÍÏÍ</summary>

@@ -12,13 +12,13 @@ namespace VRC.Internal.Generated
         public void Start(){} // RVA: 0x8C24880
         public void .ctor(){} // RVA: 0x8C24E00
         public void Initialize(){} // RVA: 0x8C24E50
-        public void InitializeStatic(){} // RVA: 0x8C25270
         // ── Unresolved (hash) ──
         public void m_A41(){} // RVA: 0x8C249E0
         public void m_3CB(){} // RVA: 0x8C24B40
         public void m_CA7(){} // RVA: 0x8C24CA0
         public void m_C9E(){} // RVA: 0x8C24FB0
         public void m_A74(){} // RVA: 0x8C25110
+        public void m_6B3(){} // RVA: 0x8C25270
         public void m_CE1(){} // RVA: 0x8C253D0
     }
 
@@ -94,11 +94,11 @@ namespace VRC.Internal.Generated
     public class Static11m_58CE
     {
         // ── Methods ──
+        public void MemSet(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x2F090
         public void Initialize(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_F0A(){} // RVA: 0x24A50
         public void m_B7E(){} // RVA: 0x24A50
         public void m_F77(){} // RVA: 0x24A50
         public void m_83E(){} // RVA: 0x24A50
@@ -112,11 +112,11 @@ namespace VRC.Internal.Generated
     public class Static11m_58CE
     {
         // ── Methods ──
+        public void MemSet(){} // RVA: 0x51528B0
         public void .ctor(){} // RVA: 0x5152C70
         public void Initialize(){} // RVA: 0x5152DD0
         public void Clear(){} // RVA: 0x5153050
         // ── Unresolved (hash) ──
-        public void m_F0A(){} // RVA: 0x51528B0
         public void m_B7E(){} // RVA: 0x51529F0
         public void m_F77(){} // RVA: 0x5152B30
         public void m_83E(){} // RVA: 0x5152F10

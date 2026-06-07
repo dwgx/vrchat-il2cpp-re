@@ -206,15 +206,15 @@ namespace VRC.Internal.Generated
         public void OnDestroy(){} // RVA: 0x1791630
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x1791A30
-        public void RefreshState(){} // RVA: 0x1792010
-        public void HandleStateChanged(){} // RVA: 0x1792C70
         // ── Unresolved (hash) ──
         public void m_CE1(){} // RVA: 0x1791370
         public void m_E0F(){} // RVA: 0x1791850
         public void m_913(){} // RVA: 0x1791C10
         public void m_BEE(){} // RVA: 0x1791DF0
+        public void m_FA8(){} // RVA: 0x1792010
         public void m_11B(){} // RVA: 0x17921F0
         public void m_49E(){} // RVA: 0x17923D0
+        public void m_6B3(){} // RVA: 0x1792C70
     }
 
     /// <summary>Originally: ÏÌÌÏÌÌÏÌÌÌÏÌÍÎÎÍÍÏÏÍÏÏÌ</summary>
@@ -723,11 +723,11 @@ namespace VRC.Internal.Generated
     public class Static8m_FD7C
     {
         // ── Methods ──
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void .ctor(){} // RVA: 0x24A50
         public void Initialize(){} // RVA: 0x24A50
         // ── Unresolved (hash) ──
-        public void m_DA2(){} // RVA: 0x24A50
         public void m_44F(){} // RVA: 0x24A50
         public void m_D87(){} // RVA: 0x24A50
         public void m_B12(){} // RVA: 0x24A50

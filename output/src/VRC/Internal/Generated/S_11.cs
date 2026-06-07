@@ -344,14 +344,14 @@ namespace VRC.Internal.Generated
         public void OnDestroy(){} // RVA: 0x8E90200
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x8E91FB0
-        public void RegisterEvents(){} // RVA: 0x8E92710
-        public void UnregisterEvents(){} // RVA: 0x8E92990
         // ── Unresolved (hash) ──
         public void m_764(){} // RVA: 0x8E90970
         public void m_A3D(){} // RVA: 0x8E910D0
         public void m_F7D(){} // RVA: 0x8E91830
         public void m_B34(){} // RVA: 0x8E91AB0
         public void m_AB9(){} // RVA: 0x8E91D30
+        public void m_B6B(){} // RVA: 0x8E92710
+        public void m_B4B(){} // RVA: 0x8E92990
         public void m_8B1(){} // RVA: 0x8E92C10
     }
 
@@ -675,17 +675,22 @@ namespace VRC.Internal.Generated
         public void Clear(){} // RVA: 0x24A50
         public void RemoveAt_5B42F5B666A4_5B42F5B666A4(){} // overloaded x2
         public void RemoveAt_2FF836724349(){} // RVA: 0x24FA0 | overloaded x2
+        public void MemSet(){} // RVA: 0x24A50
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_IsReadOnly_F5C8283B4725(){} // RVA: 0xDBE0
         public void Dispose(){} // RVA: 0x25130
         public void get_IsReadOnly_5DAB1ACA9B89(){} // RVA: 0xDBE0
-        // ── 11 unresolved (hash) ──
+        // ── Unresolved (hash) ──
         public void m_55F(){} // RVA: 0x25130
         public void m_234(){}
-        public void m_AE0(){} // RVA: 0x24A50
         public void m_701(){} // RVA: 0xCD60
         public void m_CCD(){} // RVA: 0xCD60
-        // ... 6 more unresolved methods
+        public void m_69E(){} // RVA: 0xCD60
+        public void m_BCB(){} // RVA: 0xCD60
+        public void m_383(){} // RVA: 0xCD60
+        public void m_5C0(){} // RVA: 0xCD60
+        public void m_108(){} // RVA: 0xCD60
+        public void m_912(){} // RVA: 0x25130
     }
 
     /// <summary>Originally: ÍÍÎÍÎÍÏÍÎÎÍÎÎÎÍÏÌÏÎÏÏÍÎ</summary>

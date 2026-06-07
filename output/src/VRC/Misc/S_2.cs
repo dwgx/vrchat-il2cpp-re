@@ -82,8 +82,7 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x24A50
-        // ── Unresolved (hash) ──
-        public void m_C6A(){} // RVA: 0x24A50
+        public void MemSet(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÏÌÍÎÌÌÌÍÌÌÏÌÏÎÏÏÍÏÌÏÍÎÎ</summary>
@@ -789,17 +788,17 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetTypedStyleValueOrDefault(){} // RVA: 0x8B09040
-        public void TryGetValue(){} // RVA: 0x8B091D0
         public void .ctor(){} // RVA: 0x8B09200
         public void GetHashCode(){} // RVA: 0x8B09230
-        public void ContainsKey(){} // RVA: 0x8B09290
-        public void GetValueOrDefault(){} // RVA: 0x8B092F0
         public void GetTypedStyleValueOrDefault_FFCF2FFC7377(){} // RVA: 0x8B09350
         public void GetTypedStyleValueOrDefault_D95F2F77660B(){} // RVA: 0x8B093B0
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void .cctor(){} // RVA: 0x8B09630
         // ── Unresolved (hash) ──
         public void m_69D(){} // RVA: 0x8B08EB0
+        public void m_AFD(){} // RVA: 0x8B091D0
+        public void m_3F8(){} // RVA: 0x8B09290
+        public void m_ADF(){} // RVA: 0x8B092F0
         public void m_C89(){} // RVA: 0x8B09460
         public void m_480(){} // RVA: 0x8B095F0
         public void m_2A8(){} // RVA: 0x8B096F0
@@ -897,16 +896,16 @@ namespace VRC.Misc
         public void .cctor(){} // RVA: 0x8B128E0
         public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
         public void GetHashCode(){} // RVA: 0x8B129A0
-        public void SKIP(){} // RVA: 0x8B12A00
-        public void SKIP_AF3B858DE892(){} // RVA: 0x8B12B10
-        public void SKIP_ADF82D29E4F8(){} // RVA: 0x8B12B70
         public void CreateInstance(){} // RVA: 0x8B12BD0
         public void CreateInstance_1B274183C476(){} // RVA: 0x8B12C60
-        public void SKIP_3F8CDF48044F(){} // RVA: 0x8B12E30
         public void .ctor(){} // RVA: 0x8B12E90
         public void Initialize(){} // RVA: 0x8B12EC0
         public void CreateInstance_48051ABDECC0(){} // RVA: 0x8B13600
         // ── Unresolved (hash) ──
+        public void m_D95(){} // RVA: 0x8B12A00
+        public void m_AF3(){} // RVA: 0x8B12B10
+        public void m_ADF(){} // RVA: 0x8B12B70
+        public void m_3F8(){} // RVA: 0x8B12E30
         public void m_ED0(){} // RVA: 0x8B13090
         public void m_5B6(){} // RVA: 0x8B13260
         public void m_561(){} // RVA: 0x8B13430
@@ -919,8 +918,7 @@ namespace VRC.Misc
         // ── Methods ──
         public void GetEnumerator(){} // RVA: 0xCD60
         public void Clear(){} // RVA: 0x24A50
-        // ── Unresolved (hash) ──
-        public void m_C0A(){} // RVA: 0x24A50
+        public void MemSet(){} // RVA: 0x24A50
     }
 
     /// <summary>Originally: ÏÏÎÌÌÍÌÍÏÍÍÏÎÌÎÎÍÌÍÍÌÌÌ</summary>

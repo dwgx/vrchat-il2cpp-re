@@ -116,16 +116,17 @@ public class <>c__63`1
 public class <>c__64`1
 {
     // ── Methods ──
-    public void Remove(){} // RVA: 0xDE40
-    public void Remove_80E71F1B8627(){} // RVA: 0xDE40
-    public void Remove_37E6D6F3C260(){} // RVA: 0xDE40
     public void .cctor(){} // RVA: 0x24A80
-    public void Remove_3AE92D8C1CD2(){} // RVA: 0xDE40
-    public void Remove_C5D1E64C21DD(){} // RVA: 0xDE40
-    public void Remove_A7524D381AF0(){} // RVA: 0xDE40
-    public void Remove_73E5CF8AA934(){} // RVA: 0xDE40
     public void .ctor(){} // RVA: 0x24A50
     public void Initialize(){} // RVA: 0xDE40
+    // ── Unresolved (hash) ──
+    public void m_29E(){} // RVA: 0xDE40
+    public void m_80E(){} // RVA: 0xDE40
+    public void m_37E(){} // RVA: 0xDE40
+    public void m_3AE(){} // RVA: 0xDE40
+    public void m_C5D(){} // RVA: 0xDE40
+    public void m_A75(){} // RVA: 0xDE40
+    public void m_73E(){} // RVA: 0xDE40
 }
 
 public class <>c__6`1

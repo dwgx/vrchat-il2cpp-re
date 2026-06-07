@@ -418,18 +418,18 @@ namespace VRC.Misc
         public object _2B2B;
 
         // ── Methods ──
-        public void get_IgnoreCase(){} // RVA: 0x141FC60
-        public void get_IgnoreCase_29319801CA52(){} // RVA: 0x3CB9D0
+        public void get_IgnoreCase(){} // RVA: 0x3CB9D0
         public void Start(){} // RVA: 0x141FF20
         public void .ctor(){} // RVA: 0x2DDD50
         public void Initialize(){} // RVA: 0x14202E0
-        public void get_IgnoreCase_5D8614B1C45A(){} // RVA: 0x141FC60
         public void get_IgnoreCase_0EC549DEA559(){} // RVA: 0x3CB9D0
         public void Reset(){} // RVA: 0x14207A0
         // ── Unresolved (hash) ──
         public void m_38D(){} // RVA: 0x141F9D0
+        public void m_0C7(){} // RVA: 0x141FC60
         public void m_0FE(){} // RVA: 0x141FC70
         public void m_0A5(){} // RVA: 0x1420050
+        public void m_5D8(){} // RVA: 0x141FC60
         public void m_6C9(){} // RVA: 0x14204F0
         public void m_C9E(){} // RVA: 0x14209B0
         public void m_7B8(){} // RVA: 0x1420AE0

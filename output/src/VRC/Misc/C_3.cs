@@ -79,6 +79,7 @@ namespace VRC.Misc
         public void Add(){} // RVA: 0x24B10
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void get_Count(){} // RVA: 0xD840
+        public void MemSet(){} // RVA: 0x24A50
         public void Dispose(){} // RVA: 0x25130
         public void ConvertAll(){} // RVA: 0xCE10
         // ── Unresolved (hash) ──
@@ -87,7 +88,6 @@ namespace VRC.Misc
         public void m_CB9(){}
         public void m_4CA(){} // RVA: 0x24B10
         public void m_536(){} // RVA: 0x24B10
-        public void m_FE6(){} // RVA: 0x24A50
         public void m_FE9(){} // RVA: 0x24B10
         public void m_3B0(){}
         public void m_56F(){}
@@ -187,15 +187,9 @@ namespace VRC.Misc
         public void .cctor(){} // RVA: 0x1F79D10
         public void RegisterFinalizerInner_711BF1F9639A(){} // RVA: 0x1F79D50
         public void RegisterFinalizerInner_5C739D6A9991(){} // RVA: 0x1F79F00
-        public void FinalizeUnreachableObjects(){} // RVA: 0x1F7A100
-        public void MarkFromDirtyPages(){} // RVA: 0x1F7A320
         public void .ctor(){} // RVA: 0x2DD310 | overloaded x2
         public void Initialize(){} // RVA: 0x1F7A3F0
-        public void MarkFromDirtyPages_00AAC1611000(){} // RVA: 0x1F7A460
-        public void FinalizeUnreachableObjects_1CC1EE7006BA(){} // RVA: 0x1F7A680
-        public void FinalizeUnreachableObjects_B542E7A411E2(){} // RVA: 0x1F7A830
-        public void FinalizeUnreachableObjects_3863B26014A8(){} // RVA: 0x1F7A980
-        public void FinalizeUnreachableObjects_1B1739F7005A(){} // RVA: 0x1F7AA80
+        public void FinalizeUnreachableObjects(){} // RVA: 0x1F7A980
         public void FinalizeUnreachableObjects_521F672B7C86(){} // RVA: 0x1F7ABD0
         public void FinalizeUnreachableObjects_6D3C15185EC1(){} // RVA: 0x1F7AC40
         public void InvokeFinalizers(){} // RVA: 0x1F7B020
@@ -210,9 +204,15 @@ namespace VRC.Misc
         public void FreeObject_D00FAA776D32(){} // RVA: 0x1F7BAD0
         public void MarkPageDirty(){} // RVA: 0x1F7BBF0
         public void MarkBlockInUse(){} // RVA: 0x1F7BDA0
-        public void MarkFromDirtyPages_8467E2BA4893(){} // RVA: 0x1F7BF50
+        public void MarkFromDirtyPages(){} // RVA: 0x1F7BF50
         public void MarkFromDirtyPages_CE578F4AF789(){} // RVA: 0x1F7C100
         // ── Unresolved (hash) ──
+        public void m_E4C(){} // RVA: 0x1F7A100
+        public void m_B99(){} // RVA: 0x1F7A320
+        public void m_00A(){} // RVA: 0x1F7A460
+        public void m_1CC(){} // RVA: 0x1F7A680
+        public void m_B54(){} // RVA: 0x1F7A830
+        public void m_1B1(){} // RVA: 0x1F7AA80
         public void m_A74(){} // RVA: 0x1F7AE30
     }
 

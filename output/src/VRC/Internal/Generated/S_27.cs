@@ -77,12 +77,12 @@ namespace VRC.Internal.Generated
     public class Static10m_BB13
     {
         // ── Methods ──
-        public void set_Item(){} // RVA: 0x24B10
-        public void get_Item(){} // RVA: 0x24B10
         public void Add(){} // RVA: 0x24B10
         public void .ctor(){} // RVA: 0x24A50
         public void Initialize(){} // RVA: 0x24B10
         // ── Unresolved (hash) ──
+        public void m_53D(){} // RVA: 0x24B10
+        public void m_A43(){} // RVA: 0x24B10
         public void m_C29(){} // RVA: 0x24B10
         public void m_664(){} // RVA: 0x24B10
         public void m_19A(){} // RVA: 0x24B10
@@ -94,12 +94,12 @@ namespace VRC.Internal.Generated
     public class Static10m_BB13
     {
         // ── Methods ──
-        public void set_Item(){} // RVA: 0x4EC1EB0
-        public void get_Item(){} // RVA: 0x4EC1EB0
         public void Add(){} // RVA: 0x4EC1EB0
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0x4EC1EB0
         // ── Unresolved (hash) ──
+        public void m_53D(){} // RVA: 0x4EC1EB0
+        public void m_A43(){} // RVA: 0x4EC1EB0
         public void m_C29(){} // RVA: 0x4EC1EB0
         public void m_664(){} // RVA: 0x4EC1EB0
         public void m_19A(){} // RVA: 0x4EC1EB0
@@ -773,10 +773,10 @@ namespace VRC.Internal.Generated
     {
         // ── Methods ──
         public void Clear(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void Add(){} // RVA: 0x24B10
         public void .ctor(){} // RVA: 0x2DDD50
         // ── Unresolved (hash) ──
+        public void m_228(){} // RVA: 0x24A50
         public void m_F6A(){}
     }
 
@@ -966,11 +966,11 @@ namespace VRC.Internal.Generated
         public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
         public void get_Item(){} // RVA: 0xCD60
         public void InitializeCollection(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
+        public void MemSet(){} // RVA: 0x24A50
         public void GetEnumerator(){} // RVA: 0xCD60
         // ── Unresolved (hash) ──
-        public void m_586(){} // RVA: 0x24A50
+        public void m_747(){} // RVA: 0x24A50
         public void m_C3D(){} // RVA: 0x24A50
     }
 

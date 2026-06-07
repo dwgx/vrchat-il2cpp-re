@@ -47,17 +47,17 @@ namespace VRC.Internal.Profiled
     {
         // ── Methods ──
         public void NotifyProfiledTextureHandlers(){} // RVA: 0xE0AB70
-        public void RegisterProfiledTextureHandler(){} // RVA: 0xE0B8F0
-        public void UnregisterProfiledTextureHandler(){} // RVA: 0xE0C060
-        public void RegisterProfiledFrameHandler(){} // RVA: 0xE0C7D0
-        public void UnregisterProfiledFrameHandler(){} // RVA: 0xE0CF40
         public void NotifyProfiledFrameHandlers(){} // RVA: 0xE0D6B0
         public void .ctor(){} // RVA: 0x2DD310
         public void Initialize(){} // RVA: 0xE0D9B0
-        public void CleanupProfiledHandlers(){} // RVA: 0xE0DCC0
         // ── Unresolved (hash) ──
         public void m_D72(){} // RVA: 0xE0B2E0
         public void m_B2C(){} // RVA: 0xE0B5E0
+        public void m_122(){} // RVA: 0xE0B8F0
+        public void m_945(){} // RVA: 0xE0C060
+        public void m_E50(){} // RVA: 0xE0C7D0
+        public void m_A9C(){} // RVA: 0xE0CF40
+        public void m_FEA(){} // RVA: 0xE0DCC0
     }
 
     /// <summary>Originally: ÍÎÎÍÍÏÌÎÌÍÏÌÍÏÏÍÎÏÍÎÌÏÍ</summary>

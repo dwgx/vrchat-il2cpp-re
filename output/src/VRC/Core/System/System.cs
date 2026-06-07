@@ -345,7 +345,6 @@ namespace VRC.Core.System
         public void Compare_6EB570D3FEFE(){} // RVA: 0x17680
         public void GetHashCode(){} // RVA: 0x12590
         public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void TryShrinkCapacity(){} // RVA: 0x26C40
         public void get_Count(){} // RVA: 0xD840
         public void get_Count_3FC8F7580C86(){} // RVA: 0xD840
@@ -353,13 +352,13 @@ namespace VRC.Core.System
         public void GetHashCode_428649334532(){} // RVA: 0x12590
         public void ConvertAll(){} // RVA: 0xCE10
         public void Add(){} // RVA: 0x24B10
-        // ── 32 unresolved (hash) ──
+        // ── 33 unresolved (hash) ──
         public void m_2C1(){} // RVA: 0xCD60
         public void m_0F3(){} // RVA: 0xCD60
         public void m_CED(){} // RVA: 0xCD60
         public void m_2B3(){} // RVA: 0xCD60
         public void m_537(){} // RVA: 0xCD60
-        // ... 27 more unresolved methods
+        // ... 28 more unresolved methods
     }
 
     /// <summary>Originally: ÍÍÏÍÌÌÍÏÏÎÏÎÍÏÏÌÏÏÍÏÌÍÎ</summary>
@@ -608,7 +607,6 @@ namespace VRC.Core.System
         public void get_IsReadOnly_FE85374160DB(){} // RVA: 0xDBE0
         public void get_IsReadOnly_25D86486513E(){} // RVA: 0xDBE0
         public void get_IsReadOnly_930453662043(){} // RVA: 0xDBE0
-        public void MemSet(){} // RVA: 0x24A50
         public void Equals(){} // RVA: 0x11120
         public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
         public void CreateCollection_955BEB0AABD4(){} // RVA: 0x2F090
@@ -631,6 +629,7 @@ namespace VRC.Core.System
         public void get_Capacity(){} // RVA: 0xCD60
         // ── Unresolved (hash) ──
         public void m_D4D(){} // RVA: 0xCD60
+        public void m_DC3(){} // RVA: 0x24A50
         public void m_1D2(){} // RVA: 0xCD60
         public void m_F7C(){} // RVA: 0xCD60
         public void m_B7D(){} // RVA: 0x24B10
@@ -641,12 +640,12 @@ namespace VRC.Core.System
     public class ComplexComponent_8C61SiblingSibling_16FC
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
         public void GetEnumerator(){} // RVA: 0xCD60
         public void get_Count(){} // RVA: 0xD840
         public void Add(){} // RVA: 0x24B10
         // ── Unresolved (hash) ──
+        public void m_657(){} // RVA: 0xCD60
+        public void m_D49(){} // RVA: 0xCD60
         public void m_ABF(){} // RVA: 0xCD60
         public void m_F02(){} // RVA: 0xCD60
         public void m_712(){} // RVA: 0xCD60
@@ -679,7 +678,6 @@ namespace VRC.Core.System
         public void ConvertAll_AE593E2FFACB(){} // RVA: 0xCE10
         public void AwaitUnsafeOnCompleted_CFBB3A70B6FC(){} // RVA: 0x2DC60
         public void GetClassFromName(){} // RVA: 0x2FCA0
-        public void MemSet(){} // RVA: 0x24A50
         public void get_Item_775F3EE9EEA2(){}
         public void CreateCollection_DC0B89EBD094(){} // RVA: 0x2F090
         public void CreateCollection_B754B221FFFE(){} // RVA: 0x2F090
@@ -693,6 +691,7 @@ namespace VRC.Core.System
         public void AwaitUnsafeOnCompleted_65AF864076C5(){} // RVA: 0x2DC60
         public void CreateCollection_C1FB505A689A(){} // RVA: 0x2F090
         public void AwaitUnsafeOnCompleted_F43F97706C50(){} // RVA: 0x2DC60
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         // ── 30 unresolved (hash) ──
         public void m_362(){} // RVA: 0x2DC60
@@ -1432,10 +1431,9 @@ namespace VRC.Core.System
         public void get_IsReadOnly(){} // RVA: 0xDBE0
         public void get_Count_5417D8D49E1F(){} // RVA: 0xD840
         public void AddRange(){} // RVA: 0xC770
-        public void MemSet(){} // RVA: 0xC770
         public void get_Current(){} // RVA: 0xC770
         public void GetEnumerator(){} // RVA: 0xCD60
-        public void MemSet_E15DED923D1D(){} // RVA: 0x24A50
+        public void MemSet(){} // RVA: 0x24A50
         public void Clear(){} // RVA: 0x24A50
         public void set_Item(){} // RVA: 0x26C40
         public void ClearReleasedRenderTextures(){} // RVA: 0xDBE0
@@ -1451,7 +1449,7 @@ namespace VRC.Core.System
         public void m_E7D(){} // RVA: 0xDBE0
         public void m_72A(){} // RVA: 0xC770
         public void m_60E(){} // RVA: 0xC770
-        public void m_354(){} // RVA: 0xC770
+        public void m_E15(){} // RVA: 0x24A50
         // ... 18 more unresolved methods
     }
 
@@ -1538,11 +1536,7 @@ namespace VRC.Core.System
     public class ServiceActionArgumentComponent_014B
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x8E5FA20 | overloaded x5
-        public void OnCollisionStay(){} // RVA: 0x8E5D320
-        public void OnCollisionStay_E1E03E0B2503(){} // RVA: 0x8E5D460
-        public void OnCollisionStay_7B5BD1B5E8DB(){} // RVA: 0x8E5D5A0
-        public void OnCollisionStay_3CB451386F3C(){} // RVA: 0x8E5D790
+        public void OnCollisionStay(){} // RVA: 0x8E5FA20 | overloaded x5
         public void Start(){} // RVA: 0x8E5E900
         public void Update(){} // RVA: 0x8E5EE90
         public void LateUpdate(){} // RVA: 0x8E5EEF0
@@ -1555,6 +1549,9 @@ namespace VRC.Core.System
         public void OnCollisionEnter(){} // RVA: 0x8E5F8E0
         public void OnCollisionExit(){} // RVA: 0x8E5FB60
         // ── Unresolved (hash) ──
+        public void m_3CB(){} // RVA: 0x8E5D790
+        public void m_E1E(){} // RVA: 0x8E5D460
+        public void m_7B5(){} // RVA: 0x8E5D5A0
         public void m_CCF(){} // RVA: 0x8E5D6A0
         public void m_C30(){} // RVA: 0x8E5DC60
         public void m_C34(){} // RVA: 0x8E5E130

@@ -12,17 +12,17 @@ namespace VRC.Misc
         public void GetHashCode(){} // RVA: 0x19689B0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void set_mode(){} // RVA: 0x833580
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
         public void get_Current(){} // RVA: 0x2F8380
         public void Equals(){} // RVA: 0x343E80
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void MoveNext(){} // RVA: 0x1968950
         // ── Unresolved (hash) ──
         public void m_461(){} // RVA: 0x1968950
+        public void m_FCE(){} // RVA: 0x2F8380
         public void m_22A(){} // RVA: 0x1F2B6B0
         public void m_304(){} // RVA: 0x2F8380
+        public void m_A98(){} // RVA: 0x19689C0
         public void m_D09(){} // RVA: 0x19689C0
         public void m_271(){} // RVA: 0x19689C0
     }
@@ -68,16 +68,16 @@ namespace VRC.Misc
     public class 0DerivedSiblingRelatedRelRelated_A20E
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
         public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void set_Value(){} // RVA: 0x2DEE30
         public void get_Current(){} // RVA: 0x2F8380
         public void MoveNext(){} // RVA: 0x1968950
         public void get_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_304(){} // RVA: 0x1AD4690
+        public void m_FCE(){} // RVA: 0x1AD4690
+        public void m_9CB(){} // RVA: 0x100A2F0
+        public void m_EDC(){} // RVA: 0x2F8380
         public void m_DFC(){} // RVA: 0x2DEE30
         public void m_81E(){} // RVA: 0x1AD4690
     }
@@ -120,17 +120,17 @@ namespace VRC.Misc
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
         public void MarkLayoutForRebuild(){} // RVA: 0x2F84F0
         public void set_Value(){} // RVA: 0x2DEE30
-        public void get_Value(){} // RVA: 0x1AD4690
         public void set_ByteBuffer(){} // RVA: 0x1968950
         public void MoveNext(){} // RVA: 0x100A2F0
         public void MarkLayoutForRebuild_B9E7597D66F6(){} // RVA: 0x2F84F0
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void get_Key(){} // RVA: 0x1AD4690
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
         public void m_D4D(){} // RVA: 0x2DEE30
         public void m_1B9(){} // RVA: 0x2DEE30
+        public void m_FCE(){} // RVA: 0x1AD4690
         public void m_BA1(){} // RVA: 0x1968950
+        public void m_8C6(){} // RVA: 0x2F8380
         public void m_A51(){} // RVA: 0x1968950
     }
 
@@ -178,16 +178,16 @@ namespace VRC.Misc
     public class 0DerivedSiblingRelatedRelated_816F
     {
         // ── Methods ──
-        public void set_Key(){} // RVA: 0x100A2F0
+        public void get_Current(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
-        public void set_ByteBuffer(){} // RVA: 0x1968950
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void set_Current(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void get_Current(){} // RVA: 0x19689C0
         public void MoveNext(){} // RVA: 0x1968950
-        public void get_Value(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_819(){} // RVA: 0x1968950
+        public void m_9CB(){} // RVA: 0x100A2F0
+        public void m_6BA(){} // RVA: 0x19689C0
+        public void m_FCE(){} // RVA: 0x1AD4690
         public void m_8A8(){} // RVA: 0x1968950
     }
 
@@ -205,12 +205,12 @@ namespace VRC.Misc
         public void get_Current(){} // RVA: 0x2F8380
         public void MoveNext(){} // RVA: 0x100A2F0
         public void GetTransformChildCount_EC8C8EC1BEBA(){} // RVA: 0x2F84E0
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
         public void m_FA8(){} // RVA: 0x1968950
+        public void m_A97(){} // RVA: 0x19689C0
         public void m_387(){} // RVA: 0x19689C0
+        public void m_FCE(){} // RVA: 0x1AD4690
+        public void m_D87(){} // RVA: 0x100A2F0
         public void m_6BC(){} // RVA: 0x19689C0
     }
 
@@ -218,15 +218,15 @@ namespace VRC.Misc
     public class 0DerivedSiblingRelatedRelated_D8EF
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x100A2F0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
-        public void set_Key(){} // RVA: 0x1AD4690
-        public void System.Collections.Generic.IEnumerator<TKey>.get_Current(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_9CB(){} // RVA: 0x100A2F0
+        public void m_C71(){} // RVA: 0x100A2F0
+        public void m_B98(){} // RVA: 0x1AD4690
+        public void m_B71(){} // RVA: 0x1AD4690
         public void m_304(){} // RVA: 0x1AD4690
+        public void m_FCE(){} // RVA: 0x1AD4690
         public void m_32F(){} // RVA: 0x1AD4690
     }
 
@@ -259,15 +259,15 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_08AA
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_Current(){} // RVA: 0x1AD4690
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x100A2F0
         public void SKIP(){} // RVA: 0x100A2F0
         public void set_Key(){} // RVA: 0x1AD4690
         public void get_Key(){} // RVA: 0x1AD4690
-        public void System.Collections.Generic.IEnumerator.get_Current(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_FCE(){} // RVA: 0x1AD4690
+        public void m_81E(){} // RVA: 0x1AD4690
         public void m_B71(){} // RVA: 0x1AD4690
     }
 
@@ -298,19 +298,19 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_0E19
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Current(){} // RVA: 0x2F8380
         public void get_ElementType(){} // RVA: 0x519240
         public void set_Value(){} // RVA: 0x2DEE30
         // ── Unresolved (hash) ──
+        public void m_776(){} // RVA: 0x2F8380
+        public void m_271(){} // RVA: 0x1AD4690
+        public void m_3FC(){} // RVA: 0x1AD4690
         public void m_FCE(){} // RVA: 0x2F8380
         public void m_81E(){} // RVA: 0x2F8380
+        public void m_33D(){} // RVA: 0x19689C0
         public void m_B33(){} // RVA: 0x1968950
     }
 
@@ -358,18 +358,18 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_1B4A
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void get_Current(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void get_Length(){} // RVA: 0x1EA9890
         public void set_Count(){} // RVA: 0x1EA98A0
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Length_4F479EE39FD6(){} // RVA: 0x1EA9890
-        public void System.Collections.Generic.IEnumerator.get_Current(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_4E8(){} // RVA: 0x1AD4690
+        public void m_79B(){} // RVA: 0x1AD4690
+        public void m_4C0(){} // RVA: 0x1AD4690
+        public void m_497(){} // RVA: 0x100A2F0
         public void m_3AA(){} // RVA: 0x1AD4690
+        public void m_992(){} // RVA: 0x1AD4690
     }
 
     /// <summary>Originally: ÍÍÍÍÏÍÌÏÍÍÏÎÎÌÏÏÎÏÎÏÏÏÎ</summary>
@@ -377,14 +377,9 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
-        public void set_ByteBuffer(){} // RVA: 0x1968950
-        public void get_Data(){} // RVA: 0x30B0C0
         public void set_Value(){} // RVA: 0x2DEE30
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x1968950
         public void get_Current(){} // RVA: 0x2F8380
-        public void get_Value(){} // RVA: 0x1AD4690
         public void System.Collections.IEnumerator.get_Current_2287CB9BAC06(){} // RVA: 0x2E07C0
         public void Cleanup(){} // RVA: 0x30B0C0
         public void get_Key(){} // RVA: 0x1AD4690
@@ -392,6 +387,11 @@ namespace VRC.Misc
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
         // ── Unresolved (hash) ──
+        public void m_B83(){} // RVA: 0x2F8380
+        public void m_41A(){} // RVA: 0x1968950
+        public void m_7B6(){} // RVA: 0x30B0C0
+        public void m_DE9(){} // RVA: 0x100A2F0
+        public void m_7BE(){} // RVA: 0x1AD4690
         public void m_FAC(){} // RVA: 0x2DEE30
     }
 
@@ -399,10 +399,7 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_1E3D
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void GetHashCode(){} // RVA: 0x19689B0
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
-        public void get_Value(){} // RVA: 0x2DEE30
         public void MoveNext(){} // RVA: 0x1968950
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void set_Value(){} // RVA: 0x2DEE30
@@ -414,6 +411,9 @@ namespace VRC.Misc
         public void set_mode_A9044C586329(){} // RVA: 0x833580
         public void set_mode_D263C1DC5C77(){} // RVA: 0x833580
         // ── Unresolved (hash) ──
+        public void m_FCE(){} // RVA: 0x2F8380
+        public void m_254(){} // RVA: 0x19689C0
+        public void m_9CB(){} // RVA: 0x2DEE30
         public void m_81E(){} // RVA: 0x2F8380
         public void m_861(){} // RVA: 0x19689C0
         public void m_7CA(){} // RVA: 0x19689C0
@@ -427,13 +427,13 @@ namespace VRC.Misc
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Current(){} // RVA: 0x1968950
         public void MoveNext(){} // RVA: 0x1968950
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Key(){} // RVA: 0x1AD4690
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void SKIP(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
+        public void m_776(){} // RVA: 0x1AD4690
+        public void m_FCE(){} // RVA: 0x1AD4690
+        public void m_D3F(){} // RVA: 0x19689C0
         public void m_B71(){} // RVA: 0x1AD4690
         public void m_B33(){} // RVA: 0x1968950
     }
@@ -473,19 +473,19 @@ namespace VRC.Misc
         public void get_ElementType(){} // RVA: 0x519240
         public void set_Value(){} // RVA: 0x2DEE30
         public void get_Key(){} // RVA: 0x1AD4690
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void get_Length(){} // RVA: 0x1EA9890
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void get_ElementType_22AFF8CB038B(){} // RVA: 0x519240
         public void get_Length_19686D41DA2E(){} // RVA: 0x1EA9890
         public void set_Count(){} // RVA: 0x1EA98A0
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_Current(){} // RVA: 0x2F8380
         public void MoveNext(){} // RVA: 0x100A2F0
-        public void set_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_963(){} // RVA: 0x100A2F0
+        public void m_877(){} // RVA: 0x2F8380
         public void m_F35(){} // RVA: 0x2DEE30
+        public void m_861(){} // RVA: 0x1AD4690
         public void m_A72(){} // RVA: 0x2F8380
+        public void m_271(){} // RVA: 0x1AD4690
         public void m_477(){} // RVA: 0x1AD4690
     }
 
@@ -550,12 +550,10 @@ namespace VRC.Misc
         // ── Methods ──
         public void set_y(){} // RVA: 0x1EE8D20
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
         public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void CompareTo_DC618AA5A9A7_7254C4E7631F(){} // RVA: 0x2DEE90
         public void get_ElementType(){} // RVA: 0x519240
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_Data(){} // RVA: 0x30B130
         public void get_Key(){} // RVA: 0x1AD4690
         public void set_Value(){} // RVA: 0x2DEE30
@@ -563,12 +561,14 @@ namespace VRC.Misc
         public void MoveNext(){} // RVA: 0x100A2F0
         public void Equals(){} // RVA: 0x343E80
         public void CompareTo_DC618AA5A9A7_A3AA3F7A1898(){} // RVA: 0x2DEE90
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
         public void Cleanup(){} // RVA: 0x30B0C0
         public void System.Collections.IEnumerator.get_Current_3D9BD03ED28A(){} // RVA: 0x2E07C0
         // ── Unresolved (hash) ──
+        public void m_87F(){} // RVA: 0x100A2F0
+        public void m_271(){} // RVA: 0x1AD4690
         public void m_DF9(){} // RVA: 0x2DEE30
+        public void m_B98(){} // RVA: 0x2F8380
         public void m_FCE(){} // RVA: 0x2F8380
     }
 
@@ -679,14 +679,14 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_7783
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
+        public void System.IDisposable.Dispose(){} // RVA: 0x100A2F0
         public void set_ByteBuffer(){} // RVA: 0x19689C0
-        public void get_Current(){} // RVA: 0x100A2F0
+        public void Dispose(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
-        public void SKIP(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
+        public void m_9CB(){} // RVA: 0x100A2F0
         public void m_B33(){} // RVA: 0x1968950
         public void m_FD9(){} // RVA: 0x1968950
     }
@@ -695,9 +695,7 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_7985
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void System.Collections.Generic.IEnumerator<PortMidi.MidiDeviceInfo>.get_Current(){} // RVA: 0x1968850
-        public void get_Value(){} // RVA: 0x2DEE30
         public void MoveNext(){} // RVA: 0x1968950
         public void DestroyLocaleImplementation(){} // RVA: 0x2044D70
         public void GetHashCode(){} // RVA: 0x19689B0
@@ -706,13 +704,15 @@ namespace VRC.Misc
         public void set_Value(){} // RVA: 0x2DEE30
         public void get_Current(){} // RVA: 0x2F8380
         public void set_mode_E0E8509C3DCE(){} // RVA: 0x833580
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void Deflate_1525742E2AF9(){} // RVA: 0x203E360
         public void GetHashCode_92028D8305C9(){} // RVA: 0x19689B0
         // ── Unresolved (hash) ──
+        public void m_656(){} // RVA: 0x2F8380
         public void m_7CA(){} // RVA: 0x2F8380
+        public void m_87F(){} // RVA: 0x2DEE30
         public void m_271(){} // RVA: 0x2F8380
+        public void m_FCE(){} // RVA: 0x19689C0
         public void m_9CB(){} // RVA: 0x1968950
     }
 
@@ -720,23 +720,23 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_7A22
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void get_ElementType(){} // RVA: 0x519240
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_ElementType_6EFB9B0E303F(){} // RVA: 0x519240
         public void set_Value(){} // RVA: 0x2DEE30
-        public void set_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x1968950
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void FastAllocateString(){} // RVA: 0x1F9F6C0
         public void get_Key(){} // RVA: 0x1AD4690
-        public void set_ByteBuffer(){} // RVA: 0x1968950
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void get_Current(){} // RVA: 0x2F8380
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
         public void System.Collections.Generic.IEnumerator<TSource>.get_Current_E4BE90B926DD(){} // RVA: 0x7D0800
         // ── Unresolved (hash) ──
+        public void m_BC3(){} // RVA: 0x2F8380
+        public void m_271(){} // RVA: 0x1AD4690
+        public void m_B90(){} // RVA: 0x1AD4690
         public void m_A98(){} // RVA: 0x1AD4690
+        public void m_9CB(){} // RVA: 0x1968950
+        public void m_697(){} // RVA: 0x100A2F0
         public void m_7DB(){} // RVA: 0x2F8380
     }
 
@@ -744,14 +744,14 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_8D42
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Current(){} // RVA: 0x100A2F0
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
-        public void SKIP(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_DF9(){} // RVA: 0x100A2F0
+        public void m_9CB(){} // RVA: 0x100A2F0
+        public void m_FCE(){} // RVA: 0x1AD4690
+        public void m_B98(){} // RVA: 0x1AD4690
+        public void m_C71(){} // RVA: 0x100A2F0
         public void m_D87(){} // RVA: 0x100A2F0
         public void m_FF3(){} // RVA: 0x100A2F0
     }
@@ -760,16 +760,16 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_8D6B
     {
         // ── Methods ──
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void get_Current(){} // RVA: 0x100A2F0
-        public void set_Key(){} // RVA: 0x1AD4690
+        public void Dispose(){} // RVA: 0x100A2F0
+        public void System.IDisposable.Dispose(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x1968950
         public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void SKIP(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_867(){} // RVA: 0x100A2F0
+        public void m_FCE(){} // RVA: 0x1AD4690
         public void m_7F7(){} // RVA: 0x19689C0
         public void m_620(){} // RVA: 0x19689C0
     }
@@ -842,16 +842,12 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_9D2A
     {
         // ── Methods ──
-        public void set_Key(){} // RVA: 0x1AD4690
-        public void set_ByteBuffer(){} // RVA: 0x1968950
+        public void get_Current(){} // RVA: 0x1AD4690
         public void get_ElementType(){} // RVA: 0x519240
         public void get_Value(){} // RVA: 0x1AD4690
         public void set_Count(){} // RVA: 0x8AC660
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Current(){} // RVA: 0x100A2F0
         public void get_ElementType_6EFB9B0E303F(){} // RVA: 0x519240
-        public void set_ElementType(){} // RVA: 0x100A2F0
-        public void set_InstantiationKind(){} // RVA: 0x1AD4690
         public void get_Count(){} // RVA: 0x8ABED0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
@@ -859,6 +855,11 @@ namespace VRC.Misc
         public void get_InstantiationKind(){} // RVA: 0x32A5C0
         public void set_Count_B61587D4D49C(){} // RVA: 0x8AC660
         public void get_Key(){} // RVA: 0x1AD4690
+        // ── Unresolved (hash) ──
+        public void m_9CB(){} // RVA: 0x1968950
+        public void m_697(){} // RVA: 0x100A2F0
+        public void m_87F(){} // RVA: 0x100A2F0
+        public void m_B90(){} // RVA: 0x1AD4690
     }
 
     /// <summary>Originally: ÍÌÍÏÍÍÌÍÎÍÏÍÍÌÏÏÎÎÎÏÍÏÍ</summary>
@@ -982,8 +983,6 @@ namespace VRC.Misc
         // ── Methods ──
         public void UpdateRotation(){} // RVA: 0x1F60150
         public void set_Value(){} // RVA: 0x2DEE30
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void GetHashCode(){} // RVA: 0x19689B0
         public void MoveNext(){} // RVA: 0x1968950
         public void get_Current(){} // RVA: 0x2F8380
@@ -992,6 +991,8 @@ namespace VRC.Misc
         public void set_mode_D263C1DC5C77(){} // RVA: 0x833580
         // ── Unresolved (hash) ──
         public void m_963(){} // RVA: 0x1968950
+        public void m_271(){} // RVA: 0x19689C0
+        public void m_FCE(){} // RVA: 0x2F8380
         public void m_477(){} // RVA: 0x19689C0
         public void m_7CA(){} // RVA: 0x19689C0
         public void m_776(){} // RVA: 0x2F8380
@@ -1042,18 +1043,18 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void GetHashCode(){} // RVA: 0x19689B0
-        public void get_mode(){} // RVA: 0x1F453F0
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void set_mode(){} // RVA: 0x833580
         public void GetHashCode_76344056860F(){} // RVA: 0x19689B0
-        public void SetModeInternal(){} // RVA: 0x1F45440
-        public void InvokeModeHandler(){} // RVA: 0x1F45490
         public void MoveNext(){} // RVA: 0x1968950
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void set_mode_E0E8509C3DCE(){} // RVA: 0x833580
         // ── Unresolved (hash) ──
+        public void m_279(){} // RVA: 0x1F453F0
+        public void m_254(){} // RVA: 0x19689C0
         public void m_271(){} // RVA: 0x19689C0
+        public void m_24D(){} // RVA: 0x1F45440
         public void m_656(){} // RVA: 0x19689C0
+        public void m_22A(){} // RVA: 0x1F45490
     }
 
     /// <summary>Originally: ÌÏÌÌÎÏÏÏÎÍÍÏÍÌÎÍÍÌÏÌÌÍÌ</summary>
@@ -1083,14 +1084,14 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
+        public void get_Current(){} // RVA: 0x19689C0
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void get_Current(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void MoveNext(){} // RVA: 0x1968950
         // ── Unresolved (hash) ──
+        public void m_81E(){} // RVA: 0x1AD4690
+        public void m_32F(){} // RVA: 0x1AD4690
+        public void m_B71(){} // RVA: 0x1AD4690
         public void m_B98(){} // RVA: 0x1AD4690
         public void m_819(){} // RVA: 0x1968950
         public void m_FCE(){} // RVA: 0x1AD4690
@@ -1101,25 +1102,25 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void set_ByteBuffer(){} // RVA: 0x1968950
-        public void get_Value(){} // RVA: 0x30B0C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
         public void get_Key(){} // RVA: 0x1AD4690
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
         public void get_ElementType(){} // RVA: 0x519240
-        public void set_Key(){} // RVA: 0x1AD4690
         public void set_Value(){} // RVA: 0x2DEE30
         public void get_Current(){} // RVA: 0x2F8380
         public void System.Collections.IEnumerator.get_Current_20649CBB696B(){} // RVA: 0x2E07C0
         public void Cleanup(){} // RVA: 0x30B0C0
         public void Equals(){} // RVA: 0x343E80
-        public void set_ElementType(){} // RVA: 0x19689C0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void get_ElementType_279DE6AF5360(){} // RVA: 0x519240
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void MoveNext(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
+        public void m_512(){} // RVA: 0x30B0C0
         public void m_271(){} // RVA: 0x1AD4690
         public void m_DF9(){} // RVA: 0x2DEE30
+        public void m_A98(){} // RVA: 0x1AD4690
+        public void m_E74(){} // RVA: 0x19689C0
+        public void m_697(){} // RVA: 0x100A2F0
     }
 
     /// <summary>Originally: ÌÏÎÏÍÍÌÍÎÏÌÌÏÌÌÎÍÍÏÏÎÎÏ</summary>
@@ -1146,13 +1147,13 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingRelRelated_E464
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Current(){} // RVA: 0x100A2F0
-        public void SKIP(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
+        public void m_FCE(){} // RVA: 0x1AD4690
+        public void m_867(){} // RVA: 0x100A2F0
+        public void m_9CB(){} // RVA: 0x100A2F0
+        public void m_D87(){} // RVA: 0x100A2F0
         public void m_DF9(){} // RVA: 0x100A2F0
         public void m_C71(){} // RVA: 0x100A2F0
         public void m_531(){} // RVA: 0x100A2F0
@@ -1342,14 +1343,14 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void get_Current(){} // RVA: 0x1AD4690
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void SKIP(){} // RVA: 0x100A2F0
-        public void set_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
+        public void m_DB0(){} // RVA: 0x1AD4690
+        public void m_C96(){} // RVA: 0x1AD4690
+        public void m_8FA(){} // RVA: 0x100A2F0
+        public void m_950(){} // RVA: 0x100A2F0
         public void m_F89(){} // RVA: 0x100A2F0
+        public void m_6C6(){} // RVA: 0x1AD4690
     }
 
     /// <summary>Originally: ÍÌÎÍÎÏÎÏÏÎÌÍÏÍÌÏÏÎÍÎÍÏÍ</summary>
@@ -1407,7 +1408,6 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void get_Count(){} // RVA: 0x197C3B0
-        public void set_ByteBuffer(){} // RVA: 0x1968950
         public void MoveNext(){} // RVA: 0x100A2F0
         public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void get_ByteBuffer(){} // RVA: 0x19689C0
@@ -1418,15 +1418,16 @@ namespace VRC.Misc
         public void set_State(){} // RVA: 0x1989FD0
         public void get_ElementType(){} // RVA: 0x519240
         public void set_State_9CFB380AB8B5(){} // RVA: 0x1989FD0
-        public void get_Value(){} // RVA: 0x1AD4690
         public void set_Value(){} // RVA: 0x2DEE30
         public void get_Count_1E323CAE0849(){} // RVA: 0x5BED50
         public void get_Count_F899970E16EB(){} // RVA: 0x197C3B0
-        public void set_Key(){} // RVA: 0x1AD4690
         public void get_Current(){} // RVA: 0x2F8380
         // ── Unresolved (hash) ──
+        public void m_9CB(){} // RVA: 0x1968950
         public void m_63F(){} // RVA: 0x2DEE30
         public void m_A3E(){} // RVA: 0x2DEE30
+        public void m_861(){} // RVA: 0x1AD4690
+        public void m_271(){} // RVA: 0x1AD4690
     }
 
     /// <summary>Originally: ÍÏÌÎÎÏÎÏÌÍÏÎÏÎÏÎÍÏÍÌÎÌÌ</summary>
@@ -1450,7 +1451,6 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingSibRelated_BBC6
     {
         // ── Methods ──
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void set_mode(){} // RVA: 0x833580
         public void GetHashCode(){} // RVA: 0x19689B0
         public void set_Value(){} // RVA: 0x2DEE30
@@ -1462,6 +1462,7 @@ namespace VRC.Misc
         public void GetHashCode_92028D8305C9(){} // RVA: 0x19689B0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
+        public void m_B01(){} // RVA: 0x19689C0
         public void m_A98(){} // RVA: 0x19689C0
         public void m_271(){} // RVA: 0x19689C0
         public void m_A72(){} // RVA: 0x19689C0
@@ -1532,14 +1533,14 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingSibRelated_CCB4
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_Current(){} // RVA: 0x1AD4690
         public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Key(){} // RVA: 0x1AD4690
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x1968950
         // ── Unresolved (hash) ──
+        public void m_81E(){} // RVA: 0x1AD4690
+        public void m_A81(){} // RVA: 0x19689C0
         public void m_63F(){} // RVA: 0x1968950
         public void m_604(){} // RVA: 0x1968950
         public void m_A3E(){} // RVA: 0x1968950
@@ -1645,20 +1646,20 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingSibling_1640
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
         public void Equals(){} // RVA: 0x343E80
         public void get_Key(){} // RVA: 0x1AD4690
         public void set_Value(){} // RVA: 0x2DEE30
         public void get_ElementType(){} // RVA: 0x519240
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void Equals_A4CC5ACAB029(){} // RVA: 0x343E80
-        public void set_ByteBuffer(){} // RVA: 0x1968950
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Current(){} // RVA: 0x2F8380
         // ── Unresolved (hash) ──
+        public void m_7CA(){} // RVA: 0x1AD4690
+        public void m_254(){} // RVA: 0x1AD4690
+        public void m_9CB(){} // RVA: 0x1968950
+        public void m_A97(){} // RVA: 0x2F8380
         public void m_867(){} // RVA: 0x1968950
         public void m_FA8(){} // RVA: 0x2DEE30
         public void m_477(){} // RVA: 0x1AD4690
@@ -1668,18 +1669,18 @@ namespace VRC.Misc
     public class 0DerivedSiblingSiblingSibling_3495
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x1968950
         public void MoveNext(){} // RVA: 0x100A2F0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void SKIP(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
         public void get_Key(){} // RVA: 0x1AD4690
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
+        public void m_BA1(){} // RVA: 0x1968950
+        public void m_FF3(){} // RVA: 0x100A2F0
+        public void m_9CB(){} // RVA: 0x100A2F0
         public void m_D87(){} // RVA: 0x100A2F0
         public void m_FA8(){} // RVA: 0x1968950
+        public void m_81E(){} // RVA: 0x1AD4690
+        public void m_FCE(){} // RVA: 0x1AD4690
+        public void m_A97(){} // RVA: 0x19689C0
     }
 
     /// <summary>Originally: ÍÍÏÎÏÌÍÎÍÍÏÎÎÍÎÌÏÏÌÎÌÎÍ</summary>
@@ -1705,13 +1706,13 @@ namespace VRC.Misc
         // ── Methods ──
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Current(){} // RVA: 0x19689C0
-        public void set_Key(){} // RVA: 0x1AD4690
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         // ── Unresolved (hash) ──
+        public void m_FCE(){} // RVA: 0x1AD4690
+        public void m_A85(){} // RVA: 0x19689C0
+        public void m_9CB(){} // RVA: 0x100A2F0
+        public void m_6BC(){} // RVA: 0x19689C0
+        public void m_B98(){} // RVA: 0x1AD4690
         public void m_EEC(){} // RVA: 0x1968950
         public void m_FA8(){} // RVA: 0x1968950
         public void m_A97(){} // RVA: 0x19689C0
@@ -1767,15 +1768,15 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void get_Current(){} // RVA: 0x1968950
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void MoveNext(){} // RVA: 0x1968950
         public void get_Key(){} // RVA: 0x1AD4690
         // ── Unresolved (hash) ──
         public void m_A51(){} // RVA: 0x1968950
+        public void m_F28(){} // RVA: 0x19689C0
+        public void m_FCE(){} // RVA: 0x1AD4690
+        public void m_776(){} // RVA: 0x1AD4690
         public void m_BA1(){} // RVA: 0x1968950
     }
 
@@ -1818,17 +1819,12 @@ namespace VRC.Misc
         public void get_stateSizeInBytes(){} // RVA: 0x1209F00
         public void get_stateSizeInBytes_B7822D93A3AB(){} // RVA: 0x1209F00
         public void get_Current(){} // RVA: 0x2F8380
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void Cleanup(){} // RVA: 0x30B0C0
         public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void Equals(){} // RVA: 0x343E80
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void SKIP(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x100A2F0
-        public void set_Key(){} // RVA: 0x1AD4690
         public void get_ElementType_22AFF8CB038B(){} // RVA: 0x519240
         public void get_Key(){} // RVA: 0x1AD4690
         public void System.Collections.IEnumerator.get_Current_E3247543DB85(){} // RVA: 0x2E07C0
@@ -1836,28 +1832,33 @@ namespace VRC.Misc
         // ── Unresolved (hash) ──
         public void m_CC4(){} // RVA: 0x1968950
         public void m_FDB(){} // RVA: 0x2DEE30
+        public void m_A85(){} // RVA: 0x19689C0
+        public void m_963(){} // RVA: 0x100A2F0
+        public void m_271(){} // RVA: 0x1AD4690
+        public void m_F39(){} // RVA: 0x100A2F0
+        public void m_BFE(){} // RVA: 0x1AD4690
     }
 
     /// <summary>Originally: ÍÍÎÌÏÍÎÍÏÎÎÍÍÌÌÎÎÍÏÍÌÌÎ</summary>
     public class 0DerivedSiblingSibling_DA6E
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void get_Count(){} // RVA: 0x5BED50
         public void get_Count_3ACE9770013B(){} // RVA: 0x5BED50
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void set_ByteBuffer(){} // RVA: 0x1968950
         public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x1AD4690
         public void set_Priority(){} // RVA: 0x6374E0
         public void set_Value(){} // RVA: 0x2DEE30
-        public void set_Key(){} // RVA: 0x1AD4690
         public void set_Priority_2BF8ACCF9929(){} // RVA: 0x6374E0
         public void get_Current(){} // RVA: 0x2F8380
         public void set_Priority_A151F2F16238(){} // RVA: 0x6374E0
         public void get_ElementType(){} // RVA: 0x519240
         public void MoveNext(){} // RVA: 0x100A2F0
         // ── Unresolved (hash) ──
+        public void m_A97(){} // RVA: 0x2F8380
+        public void m_271(){} // RVA: 0x1AD4690
+        public void m_254(){} // RVA: 0x1AD4690
         public void m_7CA(){} // RVA: 0x1AD4690
         public void m_861(){} // RVA: 0x1AD4690
     }
@@ -1888,11 +1889,9 @@ namespace VRC.Misc
         public void get_Current(){} // RVA: 0x2F8380
         public void System.Collections.IEnumerator.get_Current_326F52DF1C82(){} // RVA: 0x2E07C0
         public void set_depth(){} // RVA: 0x99E0D0
-        public void get_Value(){} // RVA: 0x100A2F0
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void get_ElementType(){} // RVA: 0x519240
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void get_Key(){} // RVA: 0x1AD4690
         public void set_depth_1306D6DDC7E8(){} // RVA: 0x99E0D0
         public void Equals(){} // RVA: 0x343E80
@@ -1904,6 +1903,8 @@ namespace VRC.Misc
         public void m_9CB(){} // RVA: 0x1968950
         public void m_271(){} // RVA: 0x1AD4690
         public void m_DF9(){} // RVA: 0x1968950
+        public void m_87F(){} // RVA: 0x100A2F0
+        public void m_FCE(){} // RVA: 0x19689C0
     }
 
     /// <summary>Originally: ÌÎÏÍÍÌÌÌÍÍÌÍÎÌÍÍÌÎÌÎÎÏÌ</summary>
@@ -1935,7 +1936,6 @@ namespace VRC.Misc
     {
         // ── Methods ──
         public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
-        public void get_Value(){} // RVA: 0x1AD4690
         public void get_Key(){} // RVA: 0x1AD4690
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_Data(){} // RVA: 0x30B130
@@ -1945,14 +1945,16 @@ namespace VRC.Misc
         public void CompareTo_DC618AA5A9A7_025371A308B7(){} // RVA: 0x2DEE90
         public void set_ByteBuffer(){} // RVA: 0x1968950
         public void get_ElementType(){} // RVA: 0x519240
-        public void Equals(){} // RVA: 0x1AD4690
-        public void System.Collections.Generic.IEnumerator<System.Object>.get_Current(){} // RVA: 0x994EE0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void set_Value(){} // RVA: 0x2DEE30
-        public void GetHashCode(){} // RVA: 0x1AD4690
         public void get_ElementType_8CCB4EB8C395(){} // RVA: 0x519240
-        public void ToString(){} // RVA: 0x1FD1E90
+        // ── Unresolved (hash) ──
+        public void m_7CA(){} // RVA: 0x1AD4690
+        public void m_271(){} // RVA: 0x1AD4690
+        public void m_7B8(){} // RVA: 0x994EE0
+        public void m_F39(){} // RVA: 0x100A2F0
+        public void m_656(){} // RVA: 0x1AD4690
+        public void m_F44(){} // RVA: 0x1FD1E90
     }
 
     /// <summary>Originally: ÍÎÍÎÎÌÎÎÌÌÌÏÌÏÌÍÍÌÎÏÌÎÎ</summary>
@@ -1961,19 +1963,19 @@ namespace VRC.Misc
         // ── Methods ──
         public void set_Value(){} // RVA: 0x2DEE30
         public void get_Key(){} // RVA: 0x1AD4690
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
         public void get_Current(){} // RVA: 0x2F8380
-        public void set_ByteBuffer(){} // RVA: 0x19689C0
         public void MoveNext(){} // RVA: 0x100A2F0
         public void get_ByteBuffer(){} // RVA: 0x19689C0
         public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void get_Value(){} // RVA: 0x1AD4690
         public void MarkLayoutForRebuild(){} // RVA: 0x2F84F0
         // ── Unresolved (hash) ──
+        public void m_8C6(){} // RVA: 0x2F8380
+        public void m_A97(){} // RVA: 0x19689C0
         public void m_613(){} // RVA: 0x2F8380
         public void m_6BC(){} // RVA: 0x19689C0
         public void m_FA8(){} // RVA: 0x1968950
         public void m_A85(){} // RVA: 0x19689C0
+        public void m_FCE(){} // RVA: 0x1AD4690
     }
 
     /// <summary>Originally: ÍÏÍÏÏÎÎÎÏÏÎÎÏÏÏÏÏÎÍÏÍÍÌ</summary>
